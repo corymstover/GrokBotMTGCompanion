@@ -15,6 +15,7 @@ schema: 2
 
 ## Contents
 - [2026-10-16 — Bot cycle 59.1 (M4: dependency graph)](#2026-10-16--bot-cycle-591-m4-dependency-graph)
+- [2026-10-16 — Bot cycle 58 (M1: interaction edges for M4; source attestation coverage)](#2026-10-16--bot-cycle-58-m1-interaction-edges-for-m4-source-attestation-coverage)
 - [2026-10-16 — Bot cycle 57.6 (M3: simulator model v1.1)](#2026-10-16--bot-cycle-576-m3-simulator-model-v11)
 - [2026-10-16 — Bot cycle 57.5 (M3: knowledge pages on lift, synergy, commander-first)](#2026-10-16--bot-cycle-575-m3-knowledge-pages-on-lift-synergy-commander-first)
 - [2026-10-16 — Bot cycle 57.4 (M3: scripted stress scenarios)](#2026-10-16--bot-cycle-574-m3-scripted-stress-scenarios)
@@ -85,6 +86,24 @@ schema: 2
 - **M1 edges:** ingest of the cycle-58 `edges-v1` files is built (read-only, validated, hash-checked) and tested against the open cycle-58 branch; until they are on main a stub layer reads the reviews' card lists.
 - `graph.schema.json` v1; `validate_all` step `graph`; `tests/test_graph.py` (6 tests).
 - See [the Authority Model](grixis/Grixis%20Authority%20Model.md#m4).
+
+## 2026-10-16 — Bot cycle 58 (M1: interaction edges for M4; source attestation coverage)
+- **Edges:** every M1 review now emits machine-readable edges, in `data/grixis_interactions/edges/<slug>.json` (62/62, 4,086 edges). Schema: `data/grixis/schemas/interaction_edges.schema.json`. Rule `edges-v1`:
+  - each ruling is a hub node (`combo:` / `interaction:`);
+  - each card it names gets a membership edge to the hub (`piece_of` / `member_of`, the same kinds as `graph.schema.json`);
+  - each other card gets a pair edge to the ruling's anchor, which is the commander when the ruling names one (`combo_with` / `interacts_with` / `conflicts_with`, `derived_metric`);
+  - optional authored edges (graph kinds) replace a ruling's pair edges.
+  Every edge carries the ruling id, status, flag kind, CR cites and evidence refs, and the file records the deck and review hashes. `--check` regenerates the files and fails on drift, schema errors, a ruling without a hub or a review without pair edges. 9 new unit tests are in `tests/test_interaction_edges.py`.
+- **Source attestations:** all 518 items in the archived `*_Rules_Attestation.json` files are now accounted for, and `--check` enforces it: 515 folded in, 3 dispositioned, 0 missing. Three were folded in:
+  - new azula-12: Samut's split second doesn't stop Azula's trigger or copy (CR 702.61b, 707.10);
+  - gwendlyn-05 extended: Tinybones's enters discard feeds the payoffs;
+  - new inalla-10: a Kefka token copy gives two enters triggers before the legend rule (CR 704.5j).
+  Three were dispositioned with reasons in `data/grixis_interactions/_attestation_dispositions.json`: Final Fortune exclusion (not in Azula's list), and Lynde's and Mai and Zuko's color identity (checked by the `decks` step). Overall: 594 rulings.
+- **Evidence:** rebuilt only the M3 evidence snapshots made stale by this cycle's review and deck-page changes (derived files only).
+- **M4 graph (cycle 59.1, merged from main):** `grixis_graph.py` reads these edge files. Only the 3 graphs this cycle's review changes made stale were rebuilt (`--build --deck`, derived only): Azula, Gwendlyn and Inalla, now `M1 ingested`. The other 59 graphs show the ingest warning until the M4 owner rebuilds them.
+- **M1:** criteria 1–5 are met (status in [Authority Model](grixis/Grixis%20Authority%20Model.md#m1)). M1 acceptance is not recorded; that is Cory's.
+- **Not touched:** `data/grixis/registry*`, blueprints, existing schemas, `grixis_refine.py`, exception data and simulator code. No decklist changed.
+- **Files:** `scripts/grixis_interactions.py`, `data/grixis/schemas/interaction_edges.schema.json` (new), `data/grixis_interactions/edges/` (new), `_attestation_dispositions.json` (new), 3 reviews, rendered pages, `tests/test_interaction_edges.py`, `grixis/interactions/README.md`, `grixis/Grixis Authority Model.md`, `README.md`, `data/grixis/evidence/` (stale snapshots), `data/kb_index.json`.
 
 ## 2026-10-16 — Bot cycle 57.6 (M3: simulator model v1.1)
 - **`scripts/grixis_sim.py` v1.1:** card draw (resolution / enters, wheels, loot, upkeep and draw-step triggers, suspend), tutors to blueprint targets (closest combo's missing piece → blueprint `tutor_targets` → identity core → highest MV), rituals (only when they enable a card), one-shot mana (Lotus Petal, Mana Vault, Grim Monolith, Jeweled Lotus for the commander) and treasures, and the conditions of Chrome Mox, Mox Diamond, Mox Opal, Mox Amber, Springleaf Drum and Paradise Mantle. `model="1.0"` stays runnable and bit-identical.

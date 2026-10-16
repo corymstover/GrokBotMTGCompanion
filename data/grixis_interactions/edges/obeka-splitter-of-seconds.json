@@ -1,0 +1,1141 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Obeka__Splitter_of_Seconds",
+ "slug": "obeka-splitter-of-seconds",
+ "deck_sha256": "671cdee3418a74c1d67c164c1c5fcc58359d705724024fd12638d2403cac9a4d",
+ "review": "data/grixis_interactions/obeka-splitter-of-seconds.json",
+ "review_sha256": "687e3c1115b27a8d0f59a8c79aa133c4a8bf93bb789d0246dd3be5e9075992e5",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 5,
+  "nodes": 22,
+  "membership_edges": 22,
+  "pair_edges": 17
+ },
+ "nodes": [
+  {
+   "id": "commander:Obeka, Splitter of Seconds",
+   "kind": "commander",
+   "name": "Obeka, Splitter of Seconds",
+   "in_list": true
+  },
+  {
+   "id": "interaction:obeka-splitter-of-seconds/obekass-01",
+   "kind": "interaction",
+   "interaction": "obekass-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Mjölnir, Hammer of Thor",
+   "kind": "card",
+   "name": "Mjölnir, Hammer of Thor",
+   "in_list": true
+  },
+  {
+   "id": "card:Dragonfire Blade",
+   "kind": "card",
+   "name": "Dragonfire Blade",
+   "in_list": true
+  },
+  {
+   "id": "card:Hatred",
+   "kind": "card",
+   "name": "Hatred",
+   "in_list": true
+  },
+  {
+   "id": "card:Combat Research",
+   "kind": "card",
+   "name": "Combat Research",
+   "in_list": true
+  },
+  {
+   "id": "card:Embercleave",
+   "kind": "card",
+   "name": "Embercleave",
+   "in_list": true
+  },
+  {
+   "id": "interaction:obeka-splitter-of-seconds/obekass-02",
+   "kind": "interaction",
+   "interaction": "obekass-02",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Roaming Throne",
+   "kind": "card",
+   "name": "Roaming Throne",
+   "in_list": true
+  },
+  {
+   "id": "card:Wizard's Staff",
+   "kind": "card",
+   "name": "Wizard's Staff",
+   "in_list": true
+  },
+  {
+   "id": "interaction:obeka-splitter-of-seconds/obekass-03",
+   "kind": "interaction",
+   "interaction": "obekass-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Time Sieve",
+   "kind": "card",
+   "name": "Time Sieve",
+   "in_list": true
+  },
+  {
+   "id": "card:Thopter Spy Network",
+   "kind": "card",
+   "name": "Thopter Spy Network",
+   "in_list": true
+  },
+  {
+   "id": "card:Smaug the Magnificent",
+   "kind": "card",
+   "name": "Smaug the Magnificent",
+   "in_list": true
+  },
+  {
+   "id": "card:Court of Vantress",
+   "kind": "card",
+   "name": "Court of Vantress",
+   "in_list": true
+  },
+  {
+   "id": "card:Replicating Ring",
+   "kind": "card",
+   "name": "Replicating Ring",
+   "in_list": true
+  },
+  {
+   "id": "card:Tamiyo's Journal",
+   "kind": "card",
+   "name": "Tamiyo's Journal",
+   "in_list": true
+  },
+  {
+   "id": "combo:obeka-splitter-of-seconds/obekass-04",
+   "kind": "combo",
+   "interaction": "obekass-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1558-5085-5471",
+    "1558-5471-7651",
+    "1469-1558-5471",
+    "1558-5471-7348"
+   ]
+  },
+  {
+   "id": "card:Mechanized Production",
+   "kind": "card",
+   "name": "Mechanized Production",
+   "in_list": true
+  },
+  {
+   "id": "card:Darksteel Reactor",
+   "kind": "card",
+   "name": "Darksteel Reactor",
+   "in_list": true
+  },
+  {
+   "id": "card:Super Intelligence",
+   "kind": "card",
+   "name": "Super Intelligence",
+   "in_list": true
+  },
+  {
+   "id": "combo:obeka-splitter-of-seconds/obekass-05",
+   "kind": "combo",
+   "interaction": "obekass-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "2047-5471"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "id": "obekass-01:m1",
+   "from": "commander:Obeka, Splitter of Seconds",
+   "to": "interaction:obeka-splitter-of-seconds/obekass-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "501.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-01",
+    "cr:500.8",
+    "cr:501.1"
+   ]
+  },
+  {
+   "id": "obekass-02:m1",
+   "from": "commander:Obeka, Splitter of Seconds",
+   "to": "interaction:obeka-splitter-of-seconds/obekass-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-02",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "510.4",
+    "702.4b",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-02",
+    "cr:510.4",
+    "cr:702.4b",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "obekass-02:m2",
+   "from": "card:Mjölnir, Hammer of Thor",
+   "to": "interaction:obeka-splitter-of-seconds/obekass-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-02",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "510.4",
+    "702.4b",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-02",
+    "cr:510.4",
+    "cr:702.4b",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "obekass-02:m3",
+   "from": "card:Dragonfire Blade",
+   "to": "interaction:obeka-splitter-of-seconds/obekass-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-02",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "510.4",
+    "702.4b",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-02",
+    "cr:510.4",
+    "cr:702.4b",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "obekass-02:m4",
+   "from": "card:Hatred",
+   "to": "interaction:obeka-splitter-of-seconds/obekass-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-02",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "510.4",
+    "702.4b",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-02",
+    "cr:510.4",
+    "cr:702.4b",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "obekass-02:m5",
+   "from": "card:Combat Research",
+   "to": "interaction:obeka-splitter-of-seconds/obekass-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-02",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "510.4",
+    "702.4b",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-02",
+    "cr:510.4",
+    "cr:702.4b",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "obekass-02:m6",
+   "from": "card:Embercleave",
+   "to": "interaction:obeka-splitter-of-seconds/obekass-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-02",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "510.4",
+    "702.4b",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-02",
+    "cr:510.4",
+    "cr:702.4b",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "obekass-02:p1",
+   "from": "card:Mjölnir, Hammer of Thor",
+   "to": "commander:Obeka, Splitter of Seconds",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekass-02",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "510.4",
+    "702.4b",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-02",
+    "cr:510.4",
+    "cr:702.4b",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "obekass-02:p2",
+   "from": "card:Dragonfire Blade",
+   "to": "commander:Obeka, Splitter of Seconds",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekass-02",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "510.4",
+    "702.4b",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-02",
+    "cr:510.4",
+    "cr:702.4b",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "obekass-02:p3",
+   "from": "card:Hatred",
+   "to": "commander:Obeka, Splitter of Seconds",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekass-02",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "510.4",
+    "702.4b",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-02",
+    "cr:510.4",
+    "cr:702.4b",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "obekass-02:p4",
+   "from": "card:Combat Research",
+   "to": "commander:Obeka, Splitter of Seconds",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekass-02",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "510.4",
+    "702.4b",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-02",
+    "cr:510.4",
+    "cr:702.4b",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "obekass-02:p5",
+   "from": "card:Embercleave",
+   "to": "commander:Obeka, Splitter of Seconds",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekass-02",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "510.4",
+    "702.4b",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-02",
+    "cr:510.4",
+    "cr:702.4b",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "obekass-03:m1",
+   "from": "commander:Obeka, Splitter of Seconds",
+   "to": "interaction:obeka-splitter-of-seconds/obekass-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "obekass-03:m2",
+   "from": "card:Roaming Throne",
+   "to": "interaction:obeka-splitter-of-seconds/obekass-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "obekass-03:m3",
+   "from": "card:Wizard's Staff",
+   "to": "interaction:obeka-splitter-of-seconds/obekass-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "obekass-03:m4",
+   "from": "card:Combat Research",
+   "to": "interaction:obeka-splitter-of-seconds/obekass-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "obekass-03:p1",
+   "from": "card:Roaming Throne",
+   "to": "commander:Obeka, Splitter of Seconds",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekass-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "obekass-03:p2",
+   "from": "card:Wizard's Staff",
+   "to": "commander:Obeka, Splitter of Seconds",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekass-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "obekass-03:p3",
+   "from": "card:Combat Research",
+   "to": "commander:Obeka, Splitter of Seconds",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekass-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-03",
+    "cr:603.2d"
+   ]
+  },
+  {
+   "id": "obekass-04:m1",
+   "from": "commander:Obeka, Splitter of Seconds",
+   "to": "combo:obeka-splitter-of-seconds/obekass-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "500.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-04",
+    "cr:603.4",
+    "cr:500.7",
+    "spellbook:1558-5085-5471",
+    "spellbook:1558-5471-7651",
+    "spellbook:1469-1558-5471",
+    "spellbook:1558-5471-7348"
+   ]
+  },
+  {
+   "id": "obekass-04:m2",
+   "from": "card:Time Sieve",
+   "to": "combo:obeka-splitter-of-seconds/obekass-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "500.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-04",
+    "cr:603.4",
+    "cr:500.7",
+    "spellbook:1558-5085-5471",
+    "spellbook:1558-5471-7651",
+    "spellbook:1469-1558-5471",
+    "spellbook:1558-5471-7348"
+   ]
+  },
+  {
+   "id": "obekass-04:m3",
+   "from": "card:Thopter Spy Network",
+   "to": "combo:obeka-splitter-of-seconds/obekass-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "500.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-04",
+    "cr:603.4",
+    "cr:500.7",
+    "spellbook:1558-5085-5471",
+    "spellbook:1558-5471-7651",
+    "spellbook:1469-1558-5471",
+    "spellbook:1558-5471-7348"
+   ]
+  },
+  {
+   "id": "obekass-04:m4",
+   "from": "card:Smaug the Magnificent",
+   "to": "combo:obeka-splitter-of-seconds/obekass-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "500.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-04",
+    "cr:603.4",
+    "cr:500.7",
+    "spellbook:1558-5085-5471",
+    "spellbook:1558-5471-7651",
+    "spellbook:1469-1558-5471",
+    "spellbook:1558-5471-7348"
+   ]
+  },
+  {
+   "id": "obekass-04:m5",
+   "from": "card:Court of Vantress",
+   "to": "combo:obeka-splitter-of-seconds/obekass-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "500.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-04",
+    "cr:603.4",
+    "cr:500.7",
+    "spellbook:1558-5085-5471",
+    "spellbook:1558-5471-7651",
+    "spellbook:1469-1558-5471",
+    "spellbook:1558-5471-7348"
+   ]
+  },
+  {
+   "id": "obekass-04:m6",
+   "from": "card:Replicating Ring",
+   "to": "combo:obeka-splitter-of-seconds/obekass-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "500.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-04",
+    "cr:603.4",
+    "cr:500.7",
+    "spellbook:1558-5085-5471",
+    "spellbook:1558-5471-7651",
+    "spellbook:1469-1558-5471",
+    "spellbook:1558-5471-7348"
+   ]
+  },
+  {
+   "id": "obekass-04:m7",
+   "from": "card:Tamiyo's Journal",
+   "to": "combo:obeka-splitter-of-seconds/obekass-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.4",
+    "500.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-04",
+    "cr:603.4",
+    "cr:500.7",
+    "spellbook:1558-5085-5471",
+    "spellbook:1558-5471-7651",
+    "spellbook:1469-1558-5471",
+    "spellbook:1558-5471-7348"
+   ]
+  },
+  {
+   "id": "obekass-04:p1",
+   "from": "card:Time Sieve",
+   "to": "commander:Obeka, Splitter of Seconds",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekass-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "500.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-04",
+    "cr:603.4",
+    "cr:500.7",
+    "spellbook:1558-5085-5471",
+    "spellbook:1558-5471-7651",
+    "spellbook:1469-1558-5471",
+    "spellbook:1558-5471-7348"
+   ]
+  },
+  {
+   "id": "obekass-04:p2",
+   "from": "card:Thopter Spy Network",
+   "to": "commander:Obeka, Splitter of Seconds",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekass-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "500.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-04",
+    "cr:603.4",
+    "cr:500.7",
+    "spellbook:1558-5085-5471",
+    "spellbook:1558-5471-7651",
+    "spellbook:1469-1558-5471",
+    "spellbook:1558-5471-7348"
+   ]
+  },
+  {
+   "id": "obekass-04:p3",
+   "from": "card:Smaug the Magnificent",
+   "to": "commander:Obeka, Splitter of Seconds",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekass-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "500.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-04",
+    "cr:603.4",
+    "cr:500.7",
+    "spellbook:1558-5085-5471",
+    "spellbook:1558-5471-7651",
+    "spellbook:1469-1558-5471",
+    "spellbook:1558-5471-7348"
+   ]
+  },
+  {
+   "id": "obekass-04:p4",
+   "from": "card:Court of Vantress",
+   "to": "commander:Obeka, Splitter of Seconds",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekass-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "500.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-04",
+    "cr:603.4",
+    "cr:500.7",
+    "spellbook:1558-5085-5471",
+    "spellbook:1558-5471-7651",
+    "spellbook:1469-1558-5471",
+    "spellbook:1558-5471-7348"
+   ]
+  },
+  {
+   "id": "obekass-04:p5",
+   "from": "card:Replicating Ring",
+   "to": "commander:Obeka, Splitter of Seconds",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekass-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "500.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-04",
+    "cr:603.4",
+    "cr:500.7",
+    "spellbook:1558-5085-5471",
+    "spellbook:1558-5471-7651",
+    "spellbook:1469-1558-5471",
+    "spellbook:1558-5471-7348"
+   ]
+  },
+  {
+   "id": "obekass-04:p6",
+   "from": "card:Tamiyo's Journal",
+   "to": "commander:Obeka, Splitter of Seconds",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekass-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "500.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-04",
+    "cr:603.4",
+    "cr:500.7",
+    "spellbook:1558-5085-5471",
+    "spellbook:1558-5471-7651",
+    "spellbook:1469-1558-5471",
+    "spellbook:1558-5471-7348"
+   ]
+  },
+  {
+   "id": "obekass-05:m1",
+   "from": "commander:Obeka, Splitter of Seconds",
+   "to": "combo:obeka-splitter-of-seconds/obekass-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.8",
+    "104.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-05",
+    "cr:603.8",
+    "cr:104.2b",
+    "spellbook:2047-5471"
+   ]
+  },
+  {
+   "id": "obekass-05:m2",
+   "from": "card:Mechanized Production",
+   "to": "combo:obeka-splitter-of-seconds/obekass-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.8",
+    "104.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-05",
+    "cr:603.8",
+    "cr:104.2b",
+    "spellbook:2047-5471"
+   ]
+  },
+  {
+   "id": "obekass-05:m3",
+   "from": "card:Darksteel Reactor",
+   "to": "combo:obeka-splitter-of-seconds/obekass-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.8",
+    "104.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-05",
+    "cr:603.8",
+    "cr:104.2b",
+    "spellbook:2047-5471"
+   ]
+  },
+  {
+   "id": "obekass-05:m4",
+   "from": "card:Super Intelligence",
+   "to": "combo:obeka-splitter-of-seconds/obekass-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekass-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.8",
+    "104.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-05",
+    "cr:603.8",
+    "cr:104.2b",
+    "spellbook:2047-5471"
+   ]
+  },
+  {
+   "id": "obekass-05:p1",
+   "from": "card:Mechanized Production",
+   "to": "commander:Obeka, Splitter of Seconds",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekass-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.8",
+    "104.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-05",
+    "cr:603.8",
+    "cr:104.2b",
+    "spellbook:2047-5471"
+   ]
+  },
+  {
+   "id": "obekass-05:p2",
+   "from": "card:Darksteel Reactor",
+   "to": "commander:Obeka, Splitter of Seconds",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekass-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.8",
+    "104.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-05",
+    "cr:603.8",
+    "cr:104.2b",
+    "spellbook:2047-5471"
+   ]
+  },
+  {
+   "id": "obekass-05:p3",
+   "from": "card:Super Intelligence",
+   "to": "commander:Obeka, Splitter of Seconds",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekass-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.8",
+    "104.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-splitter-of-seconds.json#obekass-05",
+    "cr:603.8",
+    "cr:104.2b",
+    "spellbook:2047-5471"
+   ]
+  }
+ ]
+}

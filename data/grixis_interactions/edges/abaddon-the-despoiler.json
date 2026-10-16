@@ -1,0 +1,4911 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Abaddon_the_Despoiler",
+ "slug": "abaddon-the-despoiler",
+ "deck_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+ "review": "data/grixis_interactions/abaddon-the-despoiler.json",
+ "review_sha256": "ebbe019eae299ad11d05538b727234bc30b2f3a009392c7eeff740424567e207",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 29,
+  "nodes": 76,
+  "membership_edges": 107,
+  "pair_edges": 78
+ },
+ "nodes": [
+  {
+   "id": "commander:Abaddon the Despoiler",
+   "kind": "commander",
+   "name": "Abaddon the Despoiler",
+   "in_list": true
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-01",
+   "kind": "interaction",
+   "interaction": "abaddon-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Underworld Breach",
+   "kind": "card",
+   "name": "Underworld Breach",
+   "in_list": true
+  },
+  {
+   "id": "card:Jeska's Will",
+   "kind": "card",
+   "name": "Jeska's Will",
+   "in_list": true
+  },
+  {
+   "id": "card:The Ruinous Powers",
+   "kind": "card",
+   "name": "The Ruinous Powers",
+   "in_list": true
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-02",
+   "kind": "interaction",
+   "interaction": "abaddon-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Thermo-Alchemist",
+   "kind": "card",
+   "name": "Thermo-Alchemist",
+   "in_list": true
+  },
+  {
+   "id": "card:Boltwave",
+   "kind": "card",
+   "name": "Boltwave",
+   "in_list": true
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-03",
+   "kind": "interaction",
+   "interaction": "abaddon-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Fierce Guardianship",
+   "kind": "card",
+   "name": "Fierce Guardianship",
+   "in_list": true
+  },
+  {
+   "id": "card:Deadly Rollick",
+   "kind": "card",
+   "name": "Deadly Rollick",
+   "in_list": true
+  },
+  {
+   "id": "card:Force of Will",
+   "kind": "card",
+   "name": "Force of Will",
+   "in_list": true
+  },
+  {
+   "id": "card:Nightscape Familiar",
+   "kind": "card",
+   "name": "Nightscape Familiar",
+   "in_list": true
+  },
+  {
+   "id": "card:Blasphemous Act",
+   "kind": "card",
+   "name": "Blasphemous Act",
+   "in_list": true
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-04",
+   "kind": "interaction",
+   "interaction": "abaddon-04",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Vampiric Tutor",
+   "kind": "card",
+   "name": "Vampiric Tutor",
+   "in_list": true
+  },
+  {
+   "id": "card:Imperial Seal",
+   "kind": "card",
+   "name": "Imperial Seal",
+   "in_list": true
+  },
+  {
+   "id": "card:Mystical Tutor",
+   "kind": "card",
+   "name": "Mystical Tutor",
+   "in_list": true
+  },
+  {
+   "id": "card:Brainstorm",
+   "kind": "card",
+   "name": "Brainstorm",
+   "in_list": true
+  },
+  {
+   "id": "card:Ponder",
+   "kind": "card",
+   "name": "Ponder",
+   "in_list": true
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-05",
+   "kind": "interaction",
+   "interaction": "abaddon-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-06",
+   "kind": "interaction",
+   "interaction": "abaddon-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Lion's Eye Diamond",
+   "kind": "card",
+   "name": "Lion's Eye Diamond",
+   "in_list": true
+  },
+  {
+   "id": "card:Lotus Petal",
+   "kind": "card",
+   "name": "Lotus Petal",
+   "in_list": true
+  },
+  {
+   "id": "card:Chrome Mox",
+   "kind": "card",
+   "name": "Chrome Mox",
+   "in_list": true
+  },
+  {
+   "id": "card:Pact of Negation",
+   "kind": "card",
+   "name": "Pact of Negation",
+   "in_list": true
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-07",
+   "kind": "interaction",
+   "interaction": "abaddon-07",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Bituminous Blast",
+   "kind": "card",
+   "name": "Bituminous Blast",
+   "in_list": true
+  },
+  {
+   "id": "card:Call Forth the Tempest",
+   "kind": "card",
+   "name": "Call Forth the Tempest",
+   "in_list": true
+  },
+  {
+   "id": "card:Noise Marine",
+   "kind": "card",
+   "name": "Noise Marine",
+   "in_list": true
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-08",
+   "kind": "interaction",
+   "interaction": "abaddon-08",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Ancestral Vision",
+   "kind": "card",
+   "name": "Ancestral Vision",
+   "in_list": true
+  },
+  {
+   "id": "card:Inevitable Betrayal",
+   "kind": "card",
+   "name": "Inevitable Betrayal",
+   "in_list": true
+  },
+  {
+   "id": "card:Profane Tutor",
+   "kind": "card",
+   "name": "Profane Tutor",
+   "in_list": true
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-09",
+   "kind": "interaction",
+   "interaction": "abaddon-09",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Bloodletter of Aclazotz",
+   "kind": "card",
+   "name": "Bloodletter of Aclazotz",
+   "in_list": true
+  },
+  {
+   "id": "card:Solphim, Mayhem Dominus",
+   "kind": "card",
+   "name": "Solphim, Mayhem Dominus",
+   "in_list": true
+  },
+  {
+   "id": "card:Flame Rift",
+   "kind": "card",
+   "name": "Flame Rift",
+   "in_list": true
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-10",
+   "kind": "interaction",
+   "interaction": "abaddon-10",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Loyal Subordinate",
+   "kind": "card",
+   "name": "Loyal Subordinate",
+   "in_list": true
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-11",
+   "kind": "interaction",
+   "interaction": "abaddon-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric"
+  },
+  {
+   "id": "card:Mystic Remora",
+   "kind": "card",
+   "name": "Mystic Remora",
+   "in_list": true
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-29",
+   "kind": "interaction",
+   "interaction": "abaddon-29",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Neheb, the Eternal",
+   "kind": "card",
+   "name": "Neheb, the Eternal",
+   "in_list": true
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-12",
+   "kind": "interaction",
+   "interaction": "abaddon-12",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Rakdos, Lord of Riots",
+   "kind": "card",
+   "name": "Rakdos, Lord of Riots",
+   "in_list": true
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-13",
+   "kind": "interaction",
+   "interaction": "abaddon-13",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Keeper of Secrets",
+   "kind": "card",
+   "name": "Keeper of Secrets",
+   "in_list": true
+  },
+  {
+   "id": "card:Passionate Archaeologist",
+   "kind": "card",
+   "name": "Passionate Archaeologist",
+   "in_list": true
+  },
+  {
+   "id": "card:The Lost and the Damned",
+   "kind": "card",
+   "name": "The Lost and the Damned",
+   "in_list": true
+  },
+  {
+   "id": "card:Prosper, Tome-Bound",
+   "kind": "card",
+   "name": "Prosper, Tome-Bound",
+   "in_list": true
+  },
+  {
+   "id": "card:Nalfeshnee",
+   "kind": "card",
+   "name": "Nalfeshnee",
+   "in_list": true
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-14",
+   "kind": "interaction",
+   "interaction": "abaddon-14",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-15",
+   "kind": "interaction",
+   "interaction": "abaddon-15",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Wild-Magic Sorcerer",
+   "kind": "card",
+   "name": "Wild-Magic Sorcerer",
+   "in_list": true
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-16",
+   "kind": "interaction",
+   "interaction": "abaddon-16",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Storm-Kiln Artist",
+   "kind": "card",
+   "name": "Storm-Kiln Artist",
+   "in_list": true
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-17",
+   "kind": "interaction",
+   "interaction": "abaddon-17",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Delayed Blast Fireball",
+   "kind": "card",
+   "name": "Delayed Blast Fireball",
+   "in_list": true
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-18",
+   "kind": "interaction",
+   "interaction": "abaddon-18",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-19",
+   "kind": "interaction",
+   "interaction": "abaddon-19",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Brain Freeze",
+   "kind": "card",
+   "name": "Brain Freeze",
+   "in_list": true
+  },
+  {
+   "id": "combo:abaddon-the-despoiler/abaddon-20",
+   "kind": "combo",
+   "interaction": "abaddon-20",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "combo:abaddon-the-despoiler/abaddon-21",
+   "kind": "combo",
+   "interaction": "abaddon-21",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Wheel of Fortune",
+   "kind": "card",
+   "name": "Wheel of Fortune",
+   "in_list": true
+  },
+  {
+   "id": "combo:abaddon-the-despoiler/abaddon-22",
+   "kind": "combo",
+   "interaction": "abaddon-22",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-23",
+   "kind": "interaction",
+   "interaction": "abaddon-23",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Mind's Desire",
+   "kind": "card",
+   "name": "Mind's Desire",
+   "in_list": true
+  },
+  {
+   "id": "card:Flusterstorm",
+   "kind": "card",
+   "name": "Flusterstorm",
+   "in_list": true
+  },
+  {
+   "id": "card:Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+   "kind": "card",
+   "name": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+   "in_list": true
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-24",
+   "kind": "interaction",
+   "interaction": "abaddon-24",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-25",
+   "kind": "interaction",
+   "interaction": "abaddon-25",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-26",
+   "kind": "interaction",
+   "interaction": "abaddon-26",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Vivi Ornitier",
+   "kind": "card",
+   "name": "Vivi Ornitier",
+   "in_list": true
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-27",
+   "kind": "interaction",
+   "interaction": "abaddon-27",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:abaddon-the-despoiler/abaddon-28",
+   "kind": "interaction",
+   "interaction": "abaddon-28",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "abaddon-01:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.3a",
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-01",
+    "cr:120.3a",
+    "cr:119.3"
+   ]
+  },
+  {
+   "id": "abaddon-02:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "113.10",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-02",
+    "cr:702.85a",
+    "cr:113.10",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "abaddon-02:m2",
+   "from": "card:Underworld Breach",
+   "to": "interaction:abaddon-the-despoiler/abaddon-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "113.10",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-02",
+    "cr:702.85a",
+    "cr:113.10",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "abaddon-02:m3",
+   "from": "card:Jeska's Will",
+   "to": "interaction:abaddon-the-despoiler/abaddon-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "113.10",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-02",
+    "cr:702.85a",
+    "cr:113.10",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "abaddon-02:m4",
+   "from": "card:The Ruinous Powers",
+   "to": "interaction:abaddon-the-despoiler/abaddon-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "113.10",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-02",
+    "cr:702.85a",
+    "cr:113.10",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "abaddon-02:p1",
+   "from": "card:Underworld Breach",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a",
+    "113.10",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-02",
+    "cr:702.85a",
+    "cr:113.10",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "abaddon-02:p2",
+   "from": "card:Jeska's Will",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a",
+    "113.10",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-02",
+    "cr:702.85a",
+    "cr:113.10",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "abaddon-02:p3",
+   "from": "card:The Ruinous Powers",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a",
+    "113.10",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-02",
+    "cr:702.85a",
+    "cr:113.10",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "abaddon-03:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-03",
+    "cr:702.85a",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "abaddon-03:m2",
+   "from": "card:Thermo-Alchemist",
+   "to": "interaction:abaddon-the-despoiler/abaddon-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-03",
+    "cr:702.85a",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "abaddon-03:m3",
+   "from": "card:Boltwave",
+   "to": "interaction:abaddon-the-despoiler/abaddon-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-03",
+    "cr:702.85a",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "abaddon-03:p1",
+   "from": "card:Thermo-Alchemist",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-03",
+    "cr:702.85a",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "abaddon-03:p2",
+   "from": "card:Boltwave",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-03",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-03",
+    "cr:702.85a",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "abaddon-04:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-04",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "118.9c",
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-04",
+    "cr:118.9c",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "abaddon-04:m2",
+   "from": "card:Fierce Guardianship",
+   "to": "interaction:abaddon-the-despoiler/abaddon-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-04",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "118.9c",
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-04",
+    "cr:118.9c",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "abaddon-04:m3",
+   "from": "card:Deadly Rollick",
+   "to": "interaction:abaddon-the-despoiler/abaddon-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-04",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "118.9c",
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-04",
+    "cr:118.9c",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "abaddon-04:m4",
+   "from": "card:Force of Will",
+   "to": "interaction:abaddon-the-despoiler/abaddon-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-04",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "118.9c",
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-04",
+    "cr:118.9c",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "abaddon-04:m5",
+   "from": "card:Nightscape Familiar",
+   "to": "interaction:abaddon-the-despoiler/abaddon-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-04",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "118.9c",
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-04",
+    "cr:118.9c",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "abaddon-04:m6",
+   "from": "card:Blasphemous Act",
+   "to": "interaction:abaddon-the-despoiler/abaddon-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-04",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "118.9c",
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-04",
+    "cr:118.9c",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "abaddon-04:p1",
+   "from": "card:Fierce Guardianship",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-04",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "118.9c",
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-04",
+    "cr:118.9c",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "abaddon-04:p2",
+   "from": "card:Deadly Rollick",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-04",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "118.9c",
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-04",
+    "cr:118.9c",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "abaddon-04:p3",
+   "from": "card:Force of Will",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-04",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "118.9c",
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-04",
+    "cr:118.9c",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "abaddon-04:p4",
+   "from": "card:Nightscape Familiar",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-04",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "118.9c",
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-04",
+    "cr:118.9c",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "abaddon-04:p5",
+   "from": "card:Blasphemous Act",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-04",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "118.9c",
+    "202.3",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-04",
+    "cr:118.9c",
+    "cr:202.3",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "abaddon-05:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "405.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-05",
+    "cr:702.85a",
+    "cr:405.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "abaddon-05:m2",
+   "from": "card:Vampiric Tutor",
+   "to": "interaction:abaddon-the-despoiler/abaddon-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "405.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-05",
+    "cr:702.85a",
+    "cr:405.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "abaddon-05:m3",
+   "from": "card:Imperial Seal",
+   "to": "interaction:abaddon-the-despoiler/abaddon-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "405.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-05",
+    "cr:702.85a",
+    "cr:405.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "abaddon-05:m4",
+   "from": "card:Mystical Tutor",
+   "to": "interaction:abaddon-the-despoiler/abaddon-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "405.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-05",
+    "cr:702.85a",
+    "cr:405.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "abaddon-05:m5",
+   "from": "card:Brainstorm",
+   "to": "interaction:abaddon-the-despoiler/abaddon-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "405.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-05",
+    "cr:702.85a",
+    "cr:405.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "abaddon-05:m6",
+   "from": "card:Ponder",
+   "to": "interaction:abaddon-the-despoiler/abaddon-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "405.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-05",
+    "cr:702.85a",
+    "cr:405.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "abaddon-05:p1",
+   "from": "card:Vampiric Tutor",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a",
+    "405.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-05",
+    "cr:702.85a",
+    "cr:405.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "abaddon-05:p2",
+   "from": "card:Imperial Seal",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a",
+    "405.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-05",
+    "cr:702.85a",
+    "cr:405.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "abaddon-05:p3",
+   "from": "card:Mystical Tutor",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a",
+    "405.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-05",
+    "cr:702.85a",
+    "cr:405.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "abaddon-05:p4",
+   "from": "card:Brainstorm",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a",
+    "405.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-05",
+    "cr:702.85a",
+    "cr:405.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "abaddon-05:p5",
+   "from": "card:Ponder",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a",
+    "405.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-05",
+    "cr:702.85a",
+    "cr:405.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "abaddon-06:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-06",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-06:m2",
+   "from": "card:Vampiric Tutor",
+   "to": "interaction:abaddon-the-despoiler/abaddon-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-06",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-06:m3",
+   "from": "card:Imperial Seal",
+   "to": "interaction:abaddon-the-despoiler/abaddon-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-06",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-06:m4",
+   "from": "card:Mystical Tutor",
+   "to": "interaction:abaddon-the-despoiler/abaddon-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-06",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-06:m5",
+   "from": "card:Brainstorm",
+   "to": "interaction:abaddon-the-despoiler/abaddon-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-06",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-06:p1",
+   "from": "card:Vampiric Tutor",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-06",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-06:p2",
+   "from": "card:Imperial Seal",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-06",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-06:p3",
+   "from": "card:Mystical Tutor",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-06",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-06:p4",
+   "from": "card:Brainstorm",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-06",
+   "topic": "trigger-order",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-06",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-07:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-07",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "202.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-07",
+    "cr:702.85a",
+    "cr:202.3a"
+   ]
+  },
+  {
+   "id": "abaddon-07:m2",
+   "from": "card:Lion's Eye Diamond",
+   "to": "interaction:abaddon-the-despoiler/abaddon-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-07",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "202.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-07",
+    "cr:702.85a",
+    "cr:202.3a"
+   ]
+  },
+  {
+   "id": "abaddon-07:m3",
+   "from": "card:Lotus Petal",
+   "to": "interaction:abaddon-the-despoiler/abaddon-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-07",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "202.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-07",
+    "cr:702.85a",
+    "cr:202.3a"
+   ]
+  },
+  {
+   "id": "abaddon-07:m4",
+   "from": "card:Chrome Mox",
+   "to": "interaction:abaddon-the-despoiler/abaddon-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-07",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "202.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-07",
+    "cr:702.85a",
+    "cr:202.3a"
+   ]
+  },
+  {
+   "id": "abaddon-07:m5",
+   "from": "card:Pact of Negation",
+   "to": "interaction:abaddon-the-despoiler/abaddon-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-07",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "202.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-07",
+    "cr:702.85a",
+    "cr:202.3a"
+   ]
+  },
+  {
+   "id": "abaddon-07:p1",
+   "from": "card:Lion's Eye Diamond",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-07",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a",
+    "202.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-07",
+    "cr:702.85a",
+    "cr:202.3a"
+   ]
+  },
+  {
+   "id": "abaddon-07:p2",
+   "from": "card:Lotus Petal",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-07",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a",
+    "202.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-07",
+    "cr:702.85a",
+    "cr:202.3a"
+   ]
+  },
+  {
+   "id": "abaddon-07:p3",
+   "from": "card:Chrome Mox",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-07",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a",
+    "202.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-07",
+    "cr:702.85a",
+    "cr:202.3a"
+   ]
+  },
+  {
+   "id": "abaddon-07:p4",
+   "from": "card:Pact of Negation",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-07",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a",
+    "202.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-07",
+    "cr:702.85a",
+    "cr:202.3a"
+   ]
+  },
+  {
+   "id": "abaddon-08:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-08",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "702.85c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-08",
+    "cr:702.85c"
+   ]
+  },
+  {
+   "id": "abaddon-08:m2",
+   "from": "card:Bituminous Blast",
+   "to": "interaction:abaddon-the-despoiler/abaddon-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-08",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "702.85c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-08",
+    "cr:702.85c"
+   ]
+  },
+  {
+   "id": "abaddon-08:m3",
+   "from": "card:Call Forth the Tempest",
+   "to": "interaction:abaddon-the-despoiler/abaddon-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-08",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "702.85c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-08",
+    "cr:702.85c"
+   ]
+  },
+  {
+   "id": "abaddon-08:m4",
+   "from": "card:Noise Marine",
+   "to": "interaction:abaddon-the-despoiler/abaddon-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-08",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "702.85c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-08",
+    "cr:702.85c"
+   ]
+  },
+  {
+   "id": "abaddon-08:p1",
+   "from": "card:Bituminous Blast",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-08",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-08",
+    "cr:702.85c"
+   ]
+  },
+  {
+   "id": "abaddon-08:p2",
+   "from": "card:Call Forth the Tempest",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-08",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-08",
+    "cr:702.85c"
+   ]
+  },
+  {
+   "id": "abaddon-08:p3",
+   "from": "card:Noise Marine",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-08",
+   "topic": "commander",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-08",
+    "cr:702.85c"
+   ]
+  },
+  {
+   "id": "abaddon-09:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-09",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.62a",
+    "202.3a",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-09",
+    "cr:702.62a",
+    "cr:202.3a",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-09:m2",
+   "from": "card:Ancestral Vision",
+   "to": "interaction:abaddon-the-despoiler/abaddon-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-09",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.62a",
+    "202.3a",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-09",
+    "cr:702.62a",
+    "cr:202.3a",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-09:m3",
+   "from": "card:Inevitable Betrayal",
+   "to": "interaction:abaddon-the-despoiler/abaddon-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-09",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.62a",
+    "202.3a",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-09",
+    "cr:702.62a",
+    "cr:202.3a",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-09:m4",
+   "from": "card:Profane Tutor",
+   "to": "interaction:abaddon-the-despoiler/abaddon-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-09",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.62a",
+    "202.3a",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-09",
+    "cr:702.62a",
+    "cr:202.3a",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-09:p1",
+   "from": "card:Ancestral Vision",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-09",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.62a",
+    "202.3a",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-09",
+    "cr:702.62a",
+    "cr:202.3a",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-09:p2",
+   "from": "card:Inevitable Betrayal",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-09",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.62a",
+    "202.3a",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-09",
+    "cr:702.62a",
+    "cr:202.3a",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-09:p3",
+   "from": "card:Profane Tutor",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-09",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.62a",
+    "202.3a",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-09",
+    "cr:702.62a",
+    "cr:202.3a",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-10:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-10",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "120.3a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-10",
+    "cr:614.1a",
+    "cr:120.3a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "abaddon-10:m2",
+   "from": "card:Bloodletter of Aclazotz",
+   "to": "interaction:abaddon-the-despoiler/abaddon-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-10",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "120.3a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-10",
+    "cr:614.1a",
+    "cr:120.3a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "abaddon-10:m3",
+   "from": "card:Solphim, Mayhem Dominus",
+   "to": "interaction:abaddon-the-despoiler/abaddon-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-10",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "120.3a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-10",
+    "cr:614.1a",
+    "cr:120.3a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "abaddon-10:m4",
+   "from": "card:Boltwave",
+   "to": "interaction:abaddon-the-despoiler/abaddon-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-10",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "120.3a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-10",
+    "cr:614.1a",
+    "cr:120.3a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "abaddon-10:m5",
+   "from": "card:Flame Rift",
+   "to": "interaction:abaddon-the-despoiler/abaddon-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-10",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "120.3a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-10",
+    "cr:614.1a",
+    "cr:120.3a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "abaddon-10:p1",
+   "from": "card:Bloodletter of Aclazotz",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-10",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "120.3a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-10",
+    "cr:614.1a",
+    "cr:120.3a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "abaddon-10:p2",
+   "from": "card:Solphim, Mayhem Dominus",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-10",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "120.3a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-10",
+    "cr:614.1a",
+    "cr:120.3a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "abaddon-10:p3",
+   "from": "card:Boltwave",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-10",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "120.3a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-10",
+    "cr:614.1a",
+    "cr:120.3a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "abaddon-10:p4",
+   "from": "card:Flame Rift",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-10",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "120.3a",
+    "616.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-10",
+    "cr:614.1a",
+    "cr:120.3a",
+    "cr:616.1"
+   ]
+  },
+  {
+   "id": "abaddon-11:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-11",
+    "cr:603.4",
+    "cr:119.3"
+   ]
+  },
+  {
+   "id": "abaddon-11:m2",
+   "from": "card:Loyal Subordinate",
+   "to": "interaction:abaddon-the-despoiler/abaddon-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-11",
+    "cr:603.4",
+    "cr:119.3"
+   ]
+  },
+  {
+   "id": "abaddon-11:m3",
+   "from": "card:Bloodletter of Aclazotz",
+   "to": "interaction:abaddon-the-despoiler/abaddon-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-11",
+    "cr:603.4",
+    "cr:119.3"
+   ]
+  },
+  {
+   "id": "abaddon-11:p1",
+   "from": "card:Loyal Subordinate",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-11",
+    "cr:603.4",
+    "cr:119.3"
+   ]
+  },
+  {
+   "id": "abaddon-11:p2",
+   "from": "card:Bloodletter of Aclazotz",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.4",
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-11",
+    "cr:603.4",
+    "cr:119.3"
+   ]
+  },
+  {
+   "id": "abaddon-29:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-29",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-29",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.24a",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-29",
+    "cr:702.24a",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-29:m2",
+   "from": "card:Mystic Remora",
+   "to": "interaction:abaddon-the-despoiler/abaddon-29",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-29",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.24a",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-29",
+    "cr:702.24a",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-29:p1",
+   "from": "card:Mystic Remora",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-29",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.24a",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-29",
+    "cr:702.24a",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-12:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-12",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "106.4",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-12",
+    "cr:106.4",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "abaddon-12:m2",
+   "from": "card:Neheb, the Eternal",
+   "to": "interaction:abaddon-the-despoiler/abaddon-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-12",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "106.4",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-12",
+    "cr:106.4",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "abaddon-12:p1",
+   "from": "card:Neheb, the Eternal",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-12",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "106.4",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-12",
+    "cr:106.4",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "abaddon-13:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-13",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-13",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "118.7d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-13",
+    "cr:601.2f",
+    "cr:118.7d"
+   ]
+  },
+  {
+   "id": "abaddon-13:m2",
+   "from": "card:Rakdos, Lord of Riots",
+   "to": "interaction:abaddon-the-despoiler/abaddon-13",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-13",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2f",
+    "118.7d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-13",
+    "cr:601.2f",
+    "cr:118.7d"
+   ]
+  },
+  {
+   "id": "abaddon-13:p1",
+   "from": "card:Rakdos, Lord of Riots",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-13",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2f",
+    "118.7d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-13",
+    "cr:601.2f",
+    "cr:118.7d"
+   ]
+  },
+  {
+   "id": "abaddon-14:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-14",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-14",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "120.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-14",
+    "cr:707.10",
+    "cr:120.3a"
+   ]
+  },
+  {
+   "id": "abaddon-14:m2",
+   "from": "card:Keeper of Secrets",
+   "to": "interaction:abaddon-the-despoiler/abaddon-14",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-14",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "120.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-14",
+    "cr:707.10",
+    "cr:120.3a"
+   ]
+  },
+  {
+   "id": "abaddon-14:m3",
+   "from": "card:Passionate Archaeologist",
+   "to": "interaction:abaddon-the-despoiler/abaddon-14",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-14",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "120.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-14",
+    "cr:707.10",
+    "cr:120.3a"
+   ]
+  },
+  {
+   "id": "abaddon-14:m4",
+   "from": "card:The Lost and the Damned",
+   "to": "interaction:abaddon-the-despoiler/abaddon-14",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-14",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "120.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-14",
+    "cr:707.10",
+    "cr:120.3a"
+   ]
+  },
+  {
+   "id": "abaddon-14:m5",
+   "from": "card:Prosper, Tome-Bound",
+   "to": "interaction:abaddon-the-despoiler/abaddon-14",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-14",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "120.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-14",
+    "cr:707.10",
+    "cr:120.3a"
+   ]
+  },
+  {
+   "id": "abaddon-14:m6",
+   "from": "card:Nalfeshnee",
+   "to": "interaction:abaddon-the-despoiler/abaddon-14",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-14",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "120.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-14",
+    "cr:707.10",
+    "cr:120.3a"
+   ]
+  },
+  {
+   "id": "abaddon-14:p1",
+   "from": "card:Keeper of Secrets",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-14",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "120.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-14",
+    "cr:707.10",
+    "cr:120.3a"
+   ]
+  },
+  {
+   "id": "abaddon-14:p2",
+   "from": "card:Passionate Archaeologist",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-14",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "120.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-14",
+    "cr:707.10",
+    "cr:120.3a"
+   ]
+  },
+  {
+   "id": "abaddon-14:p3",
+   "from": "card:The Lost and the Damned",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-14",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "120.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-14",
+    "cr:707.10",
+    "cr:120.3a"
+   ]
+  },
+  {
+   "id": "abaddon-14:p4",
+   "from": "card:Prosper, Tome-Bound",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-14",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "120.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-14",
+    "cr:707.10",
+    "cr:120.3a"
+   ]
+  },
+  {
+   "id": "abaddon-14:p5",
+   "from": "card:Nalfeshnee",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-14",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "120.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-14",
+    "cr:707.10",
+    "cr:120.3a"
+   ]
+  },
+  {
+   "id": "abaddon-15:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-15",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-15",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.124k",
+    "113.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-15",
+    "cr:702.124k",
+    "cr:113.6"
+   ]
+  },
+  {
+   "id": "abaddon-15:m2",
+   "from": "card:Passionate Archaeologist",
+   "to": "interaction:abaddon-the-despoiler/abaddon-15",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-15",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.124k",
+    "113.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-15",
+    "cr:702.124k",
+    "cr:113.6"
+   ]
+  },
+  {
+   "id": "abaddon-15:p1",
+   "from": "card:Passionate Archaeologist",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-15",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.124k",
+    "113.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-15",
+    "cr:702.124k",
+    "cr:113.6"
+   ]
+  },
+  {
+   "id": "abaddon-16:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-16",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-16",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.85c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-16",
+    "cr:702.85c"
+   ]
+  },
+  {
+   "id": "abaddon-16:m2",
+   "from": "card:Wild-Magic Sorcerer",
+   "to": "interaction:abaddon-the-despoiler/abaddon-16",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-16",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.85c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-16",
+    "cr:702.85c"
+   ]
+  },
+  {
+   "id": "abaddon-16:p1",
+   "from": "card:Wild-Magic Sorcerer",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-16",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-16",
+    "cr:702.85c"
+   ]
+  },
+  {
+   "id": "abaddon-17:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-17",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-17",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-17",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "abaddon-17:m2",
+   "from": "card:Nalfeshnee",
+   "to": "interaction:abaddon-the-despoiler/abaddon-17",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-17",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-17",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "abaddon-17:m3",
+   "from": "card:Storm-Kiln Artist",
+   "to": "interaction:abaddon-the-despoiler/abaddon-17",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-17",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-17",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "abaddon-17:p1",
+   "from": "card:Nalfeshnee",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-17",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-17",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "abaddon-17:p2",
+   "from": "card:Storm-Kiln Artist",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-17",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-17",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "abaddon-18:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-18",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-18",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.143a",
+    "116.2h"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-18",
+    "cr:702.143a",
+    "cr:116.2h"
+   ]
+  },
+  {
+   "id": "abaddon-18:m2",
+   "from": "card:Delayed Blast Fireball",
+   "to": "interaction:abaddon-the-despoiler/abaddon-18",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-18",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.143a",
+    "116.2h"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-18",
+    "cr:702.143a",
+    "cr:116.2h"
+   ]
+  },
+  {
+   "id": "abaddon-18:p1",
+   "from": "card:Delayed Blast Fireball",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-18",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.143a",
+    "116.2h"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-18",
+    "cr:702.143a",
+    "cr:116.2h"
+   ]
+  },
+  {
+   "id": "abaddon-19:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-19",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-19",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-19",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "abaddon-19:m2",
+   "from": "card:The Ruinous Powers",
+   "to": "interaction:abaddon-the-despoiler/abaddon-19",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-19",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-19",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "abaddon-19:m3",
+   "from": "card:Bloodletter of Aclazotz",
+   "to": "interaction:abaddon-the-despoiler/abaddon-19",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-19",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-19",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "abaddon-19:p1",
+   "from": "card:The Ruinous Powers",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-19",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-19",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "abaddon-19:p2",
+   "from": "card:Bloodletter of Aclazotz",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-19",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-19",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "abaddon-20:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "combo:abaddon-the-despoiler/abaddon-20",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-20",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "707.10",
+    "605.3a",
+    "121.4",
+    "701.17a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-20",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:707.10",
+    "cr:605.3a",
+    "cr:121.4",
+    "cr:701.17a"
+   ]
+  },
+  {
+   "id": "abaddon-20:m2",
+   "from": "card:Underworld Breach",
+   "to": "combo:abaddon-the-despoiler/abaddon-20",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-20",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "707.10",
+    "605.3a",
+    "121.4",
+    "701.17a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-20",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:707.10",
+    "cr:605.3a",
+    "cr:121.4",
+    "cr:701.17a"
+   ]
+  },
+  {
+   "id": "abaddon-20:m3",
+   "from": "card:Lion's Eye Diamond",
+   "to": "combo:abaddon-the-despoiler/abaddon-20",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-20",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "707.10",
+    "605.3a",
+    "121.4",
+    "701.17a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-20",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:707.10",
+    "cr:605.3a",
+    "cr:121.4",
+    "cr:701.17a"
+   ]
+  },
+  {
+   "id": "abaddon-20:m4",
+   "from": "card:Brain Freeze",
+   "to": "combo:abaddon-the-despoiler/abaddon-20",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-20",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "707.10",
+    "605.3a",
+    "121.4",
+    "701.17a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-20",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:707.10",
+    "cr:605.3a",
+    "cr:121.4",
+    "cr:701.17a"
+   ]
+  },
+  {
+   "id": "abaddon-20:p1",
+   "from": "card:Underworld Breach",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-20",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "707.10",
+    "605.3a",
+    "121.4",
+    "701.17a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-20",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:707.10",
+    "cr:605.3a",
+    "cr:121.4",
+    "cr:701.17a"
+   ]
+  },
+  {
+   "id": "abaddon-20:p2",
+   "from": "card:Lion's Eye Diamond",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-20",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "707.10",
+    "605.3a",
+    "121.4",
+    "701.17a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-20",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:707.10",
+    "cr:605.3a",
+    "cr:121.4",
+    "cr:701.17a"
+   ]
+  },
+  {
+   "id": "abaddon-20:p3",
+   "from": "card:Brain Freeze",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-20",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "707.10",
+    "605.3a",
+    "121.4",
+    "701.17a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-20",
+    "cr:702.138a",
+    "cr:702.40a",
+    "cr:707.10",
+    "cr:605.3a",
+    "cr:121.4",
+    "cr:701.17a"
+   ]
+  },
+  {
+   "id": "abaddon-21:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "combo:abaddon-the-despoiler/abaddon-21",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-21",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-21",
+    "cr:702.138a",
+    "cr:702.40a"
+   ]
+  },
+  {
+   "id": "abaddon-21:m2",
+   "from": "card:Underworld Breach",
+   "to": "combo:abaddon-the-despoiler/abaddon-21",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-21",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-21",
+    "cr:702.138a",
+    "cr:702.40a"
+   ]
+  },
+  {
+   "id": "abaddon-21:m3",
+   "from": "card:Lotus Petal",
+   "to": "combo:abaddon-the-despoiler/abaddon-21",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-21",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-21",
+    "cr:702.138a",
+    "cr:702.40a"
+   ]
+  },
+  {
+   "id": "abaddon-21:m4",
+   "from": "card:Brain Freeze",
+   "to": "combo:abaddon-the-despoiler/abaddon-21",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-21",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-21",
+    "cr:702.138a",
+    "cr:702.40a"
+   ]
+  },
+  {
+   "id": "abaddon-21:p1",
+   "from": "card:Underworld Breach",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-21",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-21",
+    "cr:702.138a",
+    "cr:702.40a"
+   ]
+  },
+  {
+   "id": "abaddon-21:p2",
+   "from": "card:Lotus Petal",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-21",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-21",
+    "cr:702.138a",
+    "cr:702.40a"
+   ]
+  },
+  {
+   "id": "abaddon-21:p3",
+   "from": "card:Brain Freeze",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-21",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-21",
+    "cr:702.138a",
+    "cr:702.40a"
+   ]
+  },
+  {
+   "id": "abaddon-22:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "combo:abaddon-the-despoiler/abaddon-22",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-22",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "121.4",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-22",
+    "cr:702.138a",
+    "cr:121.4",
+    "cr:104.3c"
+   ]
+  },
+  {
+   "id": "abaddon-22:m2",
+   "from": "card:Underworld Breach",
+   "to": "combo:abaddon-the-despoiler/abaddon-22",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-22",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "121.4",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-22",
+    "cr:702.138a",
+    "cr:121.4",
+    "cr:104.3c"
+   ]
+  },
+  {
+   "id": "abaddon-22:m3",
+   "from": "card:Wheel of Fortune",
+   "to": "combo:abaddon-the-despoiler/abaddon-22",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-22",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "121.4",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-22",
+    "cr:702.138a",
+    "cr:121.4",
+    "cr:104.3c"
+   ]
+  },
+  {
+   "id": "abaddon-22:m4",
+   "from": "card:Lion's Eye Diamond",
+   "to": "combo:abaddon-the-despoiler/abaddon-22",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-22",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "121.4",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-22",
+    "cr:702.138a",
+    "cr:121.4",
+    "cr:104.3c"
+   ]
+  },
+  {
+   "id": "abaddon-22:m5",
+   "from": "card:Jeska's Will",
+   "to": "combo:abaddon-the-despoiler/abaddon-22",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-22",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "121.4",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-22",
+    "cr:702.138a",
+    "cr:121.4",
+    "cr:104.3c"
+   ]
+  },
+  {
+   "id": "abaddon-22:p1",
+   "from": "card:Underworld Breach",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-22",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "121.4",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-22",
+    "cr:702.138a",
+    "cr:121.4",
+    "cr:104.3c"
+   ]
+  },
+  {
+   "id": "abaddon-22:p2",
+   "from": "card:Wheel of Fortune",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-22",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "121.4",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-22",
+    "cr:702.138a",
+    "cr:121.4",
+    "cr:104.3c"
+   ]
+  },
+  {
+   "id": "abaddon-22:p3",
+   "from": "card:Lion's Eye Diamond",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-22",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "121.4",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-22",
+    "cr:702.138a",
+    "cr:121.4",
+    "cr:104.3c"
+   ]
+  },
+  {
+   "id": "abaddon-22:p4",
+   "from": "card:Jeska's Will",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-22",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "121.4",
+    "104.3c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-22",
+    "cr:702.138a",
+    "cr:121.4",
+    "cr:104.3c"
+   ]
+  },
+  {
+   "id": "abaddon-23:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-23",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-23",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-23",
+    "cr:601.2b"
+   ]
+  },
+  {
+   "id": "abaddon-23:m2",
+   "from": "card:Jeska's Will",
+   "to": "interaction:abaddon-the-despoiler/abaddon-23",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-23",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-23",
+    "cr:601.2b"
+   ]
+  },
+  {
+   "id": "abaddon-23:p1",
+   "from": "card:Jeska's Will",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-23",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-23",
+    "cr:601.2b"
+   ]
+  },
+  {
+   "id": "abaddon-24:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-24",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-24",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-24",
+    "cr:702.40a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "abaddon-24:m2",
+   "from": "card:Mind's Desire",
+   "to": "interaction:abaddon-the-despoiler/abaddon-24",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-24",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-24",
+    "cr:702.40a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "abaddon-24:m3",
+   "from": "card:Brain Freeze",
+   "to": "interaction:abaddon-the-despoiler/abaddon-24",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-24",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-24",
+    "cr:702.40a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "abaddon-24:m4",
+   "from": "card:Flusterstorm",
+   "to": "interaction:abaddon-the-despoiler/abaddon-24",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-24",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-24",
+    "cr:702.40a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "abaddon-24:m5",
+   "from": "card:Storm-Kiln Artist",
+   "to": "interaction:abaddon-the-despoiler/abaddon-24",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-24",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-24",
+    "cr:702.40a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "abaddon-24:m6",
+   "from": "card:Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+   "to": "interaction:abaddon-the-despoiler/abaddon-24",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-24",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-24",
+    "cr:702.40a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "abaddon-24:p1",
+   "from": "card:Mind's Desire",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-24",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-24",
+    "cr:702.40a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "abaddon-24:p2",
+   "from": "card:Brain Freeze",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-24",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-24",
+    "cr:702.40a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "abaddon-24:p3",
+   "from": "card:Flusterstorm",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-24",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-24",
+    "cr:702.40a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "abaddon-24:p4",
+   "from": "card:Storm-Kiln Artist",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-24",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-24",
+    "cr:702.40a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "abaddon-24:p5",
+   "from": "card:Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-24",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.40a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-24",
+    "cr:702.40a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "abaddon-25:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-25",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-25",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-25",
+    "cr:202.3",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-25:m2",
+   "from": "card:Blasphemous Act",
+   "to": "interaction:abaddon-the-despoiler/abaddon-25",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-25",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "202.3",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-25",
+    "cr:202.3",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-25:p1",
+   "from": "card:Blasphemous Act",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-25",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "202.3",
+    "702.85a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-25",
+    "cr:202.3",
+    "cr:702.85a"
+   ]
+  },
+  {
+   "id": "abaddon-26:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-26",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-26",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-26",
+    "cr:903.8",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "abaddon-26:m2",
+   "from": "card:Keeper of Secrets",
+   "to": "interaction:abaddon-the-despoiler/abaddon-26",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-26",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-26",
+    "cr:903.8",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "abaddon-26:m3",
+   "from": "card:The Lost and the Damned",
+   "to": "interaction:abaddon-the-despoiler/abaddon-26",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-26",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-26",
+    "cr:903.8",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "abaddon-26:m4",
+   "from": "card:Rakdos, Lord of Riots",
+   "to": "interaction:abaddon-the-despoiler/abaddon-26",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-26",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-26",
+    "cr:903.8",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "abaddon-26:p1",
+   "from": "card:Keeper of Secrets",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-26",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.8",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-26",
+    "cr:903.8",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "abaddon-26:p2",
+   "from": "card:The Lost and the Damned",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-26",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.8",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-26",
+    "cr:903.8",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "abaddon-26:p3",
+   "from": "card:Rakdos, Lord of Riots",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-26",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.8",
+    "903.9a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-26",
+    "cr:903.8",
+    "cr:903.9a"
+   ]
+  },
+  {
+   "id": "abaddon-27:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-27",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-27",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "605.1a",
+    "106.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-27",
+    "cr:302.6",
+    "cr:605.1a",
+    "cr:106.4"
+   ]
+  },
+  {
+   "id": "abaddon-27:m2",
+   "from": "card:Thermo-Alchemist",
+   "to": "interaction:abaddon-the-despoiler/abaddon-27",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-27",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "605.1a",
+    "106.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-27",
+    "cr:302.6",
+    "cr:605.1a",
+    "cr:106.4"
+   ]
+  },
+  {
+   "id": "abaddon-27:m3",
+   "from": "card:Vivi Ornitier",
+   "to": "interaction:abaddon-the-despoiler/abaddon-27",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-27",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "605.1a",
+    "106.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-27",
+    "cr:302.6",
+    "cr:605.1a",
+    "cr:106.4"
+   ]
+  },
+  {
+   "id": "abaddon-27:m4",
+   "from": "card:Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+   "to": "interaction:abaddon-the-despoiler/abaddon-27",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-27",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "605.1a",
+    "106.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-27",
+    "cr:302.6",
+    "cr:605.1a",
+    "cr:106.4"
+   ]
+  },
+  {
+   "id": "abaddon-27:p1",
+   "from": "card:Thermo-Alchemist",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-27",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "605.1a",
+    "106.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-27",
+    "cr:302.6",
+    "cr:605.1a",
+    "cr:106.4"
+   ]
+  },
+  {
+   "id": "abaddon-27:p2",
+   "from": "card:Vivi Ornitier",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-27",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "605.1a",
+    "106.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-27",
+    "cr:302.6",
+    "cr:605.1a",
+    "cr:106.4"
+   ]
+  },
+  {
+   "id": "abaddon-27:p3",
+   "from": "card:Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-27",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "605.1a",
+    "106.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-27",
+    "cr:302.6",
+    "cr:605.1a",
+    "cr:106.4"
+   ]
+  },
+  {
+   "id": "abaddon-28:m1",
+   "from": "commander:Abaddon the Despoiler",
+   "to": "interaction:abaddon-the-despoiler/abaddon-28",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-28",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-28",
+    "cr:603.7a"
+   ]
+  },
+  {
+   "id": "abaddon-28:m2",
+   "from": "card:Underworld Breach",
+   "to": "interaction:abaddon-the-despoiler/abaddon-28",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-28",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-28",
+    "cr:603.7a"
+   ]
+  },
+  {
+   "id": "abaddon-28:m3",
+   "from": "card:Lion's Eye Diamond",
+   "to": "interaction:abaddon-the-despoiler/abaddon-28",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-28",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-28",
+    "cr:603.7a"
+   ]
+  },
+  {
+   "id": "abaddon-28:m4",
+   "from": "card:Brain Freeze",
+   "to": "interaction:abaddon-the-despoiler/abaddon-28",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-28",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-28",
+    "cr:603.7a"
+   ]
+  },
+  {
+   "id": "abaddon-28:m5",
+   "from": "card:Wheel of Fortune",
+   "to": "interaction:abaddon-the-despoiler/abaddon-28",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-28",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-28",
+    "cr:603.7a"
+   ]
+  },
+  {
+   "id": "abaddon-28:m6",
+   "from": "card:Bloodletter of Aclazotz",
+   "to": "interaction:abaddon-the-despoiler/abaddon-28",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "abaddon-28",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-28",
+    "cr:603.7a"
+   ]
+  },
+  {
+   "id": "abaddon-28:p1",
+   "from": "card:Underworld Breach",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-28",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-28",
+    "cr:603.7a"
+   ]
+  },
+  {
+   "id": "abaddon-28:p2",
+   "from": "card:Lion's Eye Diamond",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-28",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-28",
+    "cr:603.7a"
+   ]
+  },
+  {
+   "id": "abaddon-28:p3",
+   "from": "card:Brain Freeze",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-28",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-28",
+    "cr:603.7a"
+   ]
+  },
+  {
+   "id": "abaddon-28:p4",
+   "from": "card:Wheel of Fortune",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-28",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-28",
+    "cr:603.7a"
+   ]
+  },
+  {
+   "id": "abaddon-28:p5",
+   "from": "card:Bloodletter of Aclazotz",
+   "to": "commander:Abaddon the Despoiler",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "abaddon-28",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/abaddon-the-despoiler.json#abaddon-28",
+    "cr:603.7a"
+   ]
+  }
+ ]
+}

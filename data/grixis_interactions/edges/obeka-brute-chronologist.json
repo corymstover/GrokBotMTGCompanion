@@ -1,0 +1,1271 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Obeka__Brute_Chronologist",
+ "slug": "obeka-brute-chronologist",
+ "deck_sha256": "76fc5a3f9a098d4999c8ce85f8226a0ceef9a5077822b0335e01b8a594b5ea4d",
+ "review": "data/grixis_interactions/obeka-brute-chronologist.json",
+ "review_sha256": "788e07af4e080cc888a97f6a8aeaefec4e51dd5e3d72c1b3676ae434bc900632",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 5,
+  "nodes": 24,
+  "membership_edges": 24,
+  "pair_edges": 19
+ },
+ "nodes": [
+  {
+   "id": "commander:Obeka, Brute Chronologist",
+   "kind": "commander",
+   "name": "Obeka, Brute Chronologist",
+   "in_list": true
+  },
+  {
+   "id": "interaction:obeka-brute-chronologist/obekabc-01",
+   "kind": "interaction",
+   "interaction": "obekabc-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Isochron Scepter",
+   "kind": "card",
+   "name": "Isochron Scepter",
+   "in_list": true
+  },
+  {
+   "id": "card:Final Fortune",
+   "kind": "card",
+   "name": "Final Fortune",
+   "in_list": true
+  },
+  {
+   "id": "card:Sundial of the Infinite",
+   "kind": "card",
+   "name": "Sundial of the Infinite",
+   "in_list": true
+  },
+  {
+   "id": "card:Last Chance",
+   "kind": "card",
+   "name": "Last Chance",
+   "in_list": true
+  },
+  {
+   "id": "combo:obeka-brute-chronologist/obekabc-02",
+   "kind": "combo",
+   "interaction": "obekabc-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "126-1173-5261",
+    "1173-2160-5261"
+   ]
+  },
+  {
+   "id": "card:Identity Thief",
+   "kind": "card",
+   "name": "Identity Thief",
+   "in_list": true
+  },
+  {
+   "id": "card:Come Back Wrong",
+   "kind": "card",
+   "name": "Come Back Wrong",
+   "in_list": true
+  },
+  {
+   "id": "card:Hate Mirage",
+   "kind": "card",
+   "name": "Hate Mirage",
+   "in_list": true
+  },
+  {
+   "id": "card:Apprentice Necromancer",
+   "kind": "card",
+   "name": "Apprentice Necromancer",
+   "in_list": true
+  },
+  {
+   "id": "card:Venser, Fervent Forger",
+   "kind": "card",
+   "name": "Venser, Fervent Forger",
+   "in_list": true
+  },
+  {
+   "id": "card:Sneak Attack",
+   "kind": "card",
+   "name": "Sneak Attack",
+   "in_list": true
+  },
+  {
+   "id": "card:Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+   "kind": "card",
+   "name": "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+   "in_list": true
+  },
+  {
+   "id": "card:Kiki-Jiki, Mirror Breaker",
+   "kind": "card",
+   "name": "Kiki-Jiki, Mirror Breaker",
+   "in_list": true
+  },
+  {
+   "id": "interaction:obeka-brute-chronologist/obekabc-03",
+   "kind": "interaction",
+   "interaction": "obekabc-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Hellkite Courser",
+   "kind": "card",
+   "name": "Hellkite Courser",
+   "in_list": true
+  },
+  {
+   "id": "card:Thousand-Year Elixir",
+   "kind": "card",
+   "name": "Thousand-Year Elixir",
+   "in_list": true
+  },
+  {
+   "id": "card:Arena of Glory",
+   "kind": "card",
+   "name": "Arena of Glory",
+   "in_list": true
+  },
+  {
+   "id": "interaction:obeka-brute-chronologist/obekabc-04",
+   "kind": "interaction",
+   "interaction": "obekabc-04",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Delina, Wild Mage",
+   "kind": "card",
+   "name": "Delina, Wild Mage",
+   "in_list": true
+  },
+  {
+   "id": "card:Dualcaster Mage",
+   "kind": "card",
+   "name": "Dualcaster Mage",
+   "in_list": true
+  },
+  {
+   "id": "card:Twinflame",
+   "kind": "card",
+   "name": "Twinflame",
+   "in_list": true
+  },
+  {
+   "id": "combo:obeka-brute-chronologist/obekabc-05",
+   "kind": "combo",
+   "interaction": "obekabc-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "282-618",
+    "147-1235"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "id": "obekabc-01:m1",
+   "from": "commander:Obeka, Brute Chronologist",
+   "to": "interaction:obeka-brute-chronologist/obekabc-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "724.1a",
+    "724.1b",
+    "724.1c",
+    "724.1d",
+    "603.7b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-01",
+    "cr:724.1a",
+    "cr:724.1b",
+    "cr:724.1c",
+    "cr:724.1d",
+    "cr:603.7b"
+   ]
+  },
+  {
+   "id": "obekabc-02:m1",
+   "from": "commander:Obeka, Brute Chronologist",
+   "to": "combo:obeka-brute-chronologist/obekabc-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.7",
+    "724.1b",
+    "603.7b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-02",
+    "cr:500.7",
+    "cr:724.1b",
+    "cr:603.7b",
+    "spellbook:126-1173-5261",
+    "spellbook:1173-2160-5261"
+   ]
+  },
+  {
+   "id": "obekabc-02:m2",
+   "from": "card:Isochron Scepter",
+   "to": "combo:obeka-brute-chronologist/obekabc-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.7",
+    "724.1b",
+    "603.7b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-02",
+    "cr:500.7",
+    "cr:724.1b",
+    "cr:603.7b",
+    "spellbook:126-1173-5261",
+    "spellbook:1173-2160-5261"
+   ]
+  },
+  {
+   "id": "obekabc-02:m3",
+   "from": "card:Final Fortune",
+   "to": "combo:obeka-brute-chronologist/obekabc-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.7",
+    "724.1b",
+    "603.7b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-02",
+    "cr:500.7",
+    "cr:724.1b",
+    "cr:603.7b",
+    "spellbook:126-1173-5261",
+    "spellbook:1173-2160-5261"
+   ]
+  },
+  {
+   "id": "obekabc-02:m4",
+   "from": "card:Sundial of the Infinite",
+   "to": "combo:obeka-brute-chronologist/obekabc-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.7",
+    "724.1b",
+    "603.7b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-02",
+    "cr:500.7",
+    "cr:724.1b",
+    "cr:603.7b",
+    "spellbook:126-1173-5261",
+    "spellbook:1173-2160-5261"
+   ]
+  },
+  {
+   "id": "obekabc-02:m5",
+   "from": "card:Last Chance",
+   "to": "combo:obeka-brute-chronologist/obekabc-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.7",
+    "724.1b",
+    "603.7b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-02",
+    "cr:500.7",
+    "cr:724.1b",
+    "cr:603.7b",
+    "spellbook:126-1173-5261",
+    "spellbook:1173-2160-5261"
+   ]
+  },
+  {
+   "id": "obekabc-02:p1",
+   "from": "card:Isochron Scepter",
+   "to": "commander:Obeka, Brute Chronologist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekabc-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.7",
+    "724.1b",
+    "603.7b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-02",
+    "cr:500.7",
+    "cr:724.1b",
+    "cr:603.7b",
+    "spellbook:126-1173-5261",
+    "spellbook:1173-2160-5261"
+   ]
+  },
+  {
+   "id": "obekabc-02:p2",
+   "from": "card:Final Fortune",
+   "to": "commander:Obeka, Brute Chronologist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekabc-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.7",
+    "724.1b",
+    "603.7b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-02",
+    "cr:500.7",
+    "cr:724.1b",
+    "cr:603.7b",
+    "spellbook:126-1173-5261",
+    "spellbook:1173-2160-5261"
+   ]
+  },
+  {
+   "id": "obekabc-02:p3",
+   "from": "card:Sundial of the Infinite",
+   "to": "commander:Obeka, Brute Chronologist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekabc-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.7",
+    "724.1b",
+    "603.7b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-02",
+    "cr:500.7",
+    "cr:724.1b",
+    "cr:603.7b",
+    "spellbook:126-1173-5261",
+    "spellbook:1173-2160-5261"
+   ]
+  },
+  {
+   "id": "obekabc-02:p4",
+   "from": "card:Last Chance",
+   "to": "commander:Obeka, Brute Chronologist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekabc-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.7",
+    "724.1b",
+    "603.7b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-02",
+    "cr:500.7",
+    "cr:724.1b",
+    "cr:603.7b",
+    "spellbook:126-1173-5261",
+    "spellbook:1173-2160-5261"
+   ]
+  },
+  {
+   "id": "obekabc-03:m1",
+   "from": "commander:Obeka, Brute Chronologist",
+   "to": "interaction:obeka-brute-chronologist/obekabc-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7",
+    "724.1b",
+    "514.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-03",
+    "cr:603.7",
+    "cr:724.1b",
+    "cr:514.2"
+   ]
+  },
+  {
+   "id": "obekabc-03:m2",
+   "from": "card:Identity Thief",
+   "to": "interaction:obeka-brute-chronologist/obekabc-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7",
+    "724.1b",
+    "514.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-03",
+    "cr:603.7",
+    "cr:724.1b",
+    "cr:514.2"
+   ]
+  },
+  {
+   "id": "obekabc-03:m3",
+   "from": "card:Come Back Wrong",
+   "to": "interaction:obeka-brute-chronologist/obekabc-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7",
+    "724.1b",
+    "514.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-03",
+    "cr:603.7",
+    "cr:724.1b",
+    "cr:514.2"
+   ]
+  },
+  {
+   "id": "obekabc-03:m4",
+   "from": "card:Hate Mirage",
+   "to": "interaction:obeka-brute-chronologist/obekabc-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7",
+    "724.1b",
+    "514.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-03",
+    "cr:603.7",
+    "cr:724.1b",
+    "cr:514.2"
+   ]
+  },
+  {
+   "id": "obekabc-03:m5",
+   "from": "card:Apprentice Necromancer",
+   "to": "interaction:obeka-brute-chronologist/obekabc-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7",
+    "724.1b",
+    "514.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-03",
+    "cr:603.7",
+    "cr:724.1b",
+    "cr:514.2"
+   ]
+  },
+  {
+   "id": "obekabc-03:m6",
+   "from": "card:Venser, Fervent Forger",
+   "to": "interaction:obeka-brute-chronologist/obekabc-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7",
+    "724.1b",
+    "514.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-03",
+    "cr:603.7",
+    "cr:724.1b",
+    "cr:514.2"
+   ]
+  },
+  {
+   "id": "obekabc-03:m7",
+   "from": "card:Sneak Attack",
+   "to": "interaction:obeka-brute-chronologist/obekabc-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7",
+    "724.1b",
+    "514.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-03",
+    "cr:603.7",
+    "cr:724.1b",
+    "cr:514.2"
+   ]
+  },
+  {
+   "id": "obekabc-03:m8",
+   "from": "card:Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+   "to": "interaction:obeka-brute-chronologist/obekabc-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7",
+    "724.1b",
+    "514.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-03",
+    "cr:603.7",
+    "cr:724.1b",
+    "cr:514.2"
+   ]
+  },
+  {
+   "id": "obekabc-03:m9",
+   "from": "card:Kiki-Jiki, Mirror Breaker",
+   "to": "interaction:obeka-brute-chronologist/obekabc-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.7",
+    "724.1b",
+    "514.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-03",
+    "cr:603.7",
+    "cr:724.1b",
+    "cr:514.2"
+   ]
+  },
+  {
+   "id": "obekabc-03:p1",
+   "from": "card:Identity Thief",
+   "to": "commander:Obeka, Brute Chronologist",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekabc-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7",
+    "724.1b",
+    "514.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-03",
+    "cr:603.7",
+    "cr:724.1b",
+    "cr:514.2"
+   ]
+  },
+  {
+   "id": "obekabc-03:p2",
+   "from": "card:Come Back Wrong",
+   "to": "commander:Obeka, Brute Chronologist",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekabc-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7",
+    "724.1b",
+    "514.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-03",
+    "cr:603.7",
+    "cr:724.1b",
+    "cr:514.2"
+   ]
+  },
+  {
+   "id": "obekabc-03:p3",
+   "from": "card:Hate Mirage",
+   "to": "commander:Obeka, Brute Chronologist",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekabc-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7",
+    "724.1b",
+    "514.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-03",
+    "cr:603.7",
+    "cr:724.1b",
+    "cr:514.2"
+   ]
+  },
+  {
+   "id": "obekabc-03:p4",
+   "from": "card:Apprentice Necromancer",
+   "to": "commander:Obeka, Brute Chronologist",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekabc-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7",
+    "724.1b",
+    "514.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-03",
+    "cr:603.7",
+    "cr:724.1b",
+    "cr:514.2"
+   ]
+  },
+  {
+   "id": "obekabc-03:p5",
+   "from": "card:Venser, Fervent Forger",
+   "to": "commander:Obeka, Brute Chronologist",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekabc-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7",
+    "724.1b",
+    "514.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-03",
+    "cr:603.7",
+    "cr:724.1b",
+    "cr:514.2"
+   ]
+  },
+  {
+   "id": "obekabc-03:p6",
+   "from": "card:Sneak Attack",
+   "to": "commander:Obeka, Brute Chronologist",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekabc-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7",
+    "724.1b",
+    "514.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-03",
+    "cr:603.7",
+    "cr:724.1b",
+    "cr:514.2"
+   ]
+  },
+  {
+   "id": "obekabc-03:p7",
+   "from": "card:Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+   "to": "commander:Obeka, Brute Chronologist",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekabc-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7",
+    "724.1b",
+    "514.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-03",
+    "cr:603.7",
+    "cr:724.1b",
+    "cr:514.2"
+   ]
+  },
+  {
+   "id": "obekabc-03:p8",
+   "from": "card:Kiki-Jiki, Mirror Breaker",
+   "to": "commander:Obeka, Brute Chronologist",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekabc-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.7",
+    "724.1b",
+    "514.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-03",
+    "cr:603.7",
+    "cr:724.1b",
+    "cr:514.2"
+   ]
+  },
+  {
+   "id": "obekabc-04:m1",
+   "from": "commander:Obeka, Brute Chronologist",
+   "to": "interaction:obeka-brute-chronologist/obekabc-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-04",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "724.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-04",
+    "cr:903.8",
+    "cr:724.1b"
+   ]
+  },
+  {
+   "id": "obekabc-04:m2",
+   "from": "card:Hellkite Courser",
+   "to": "interaction:obeka-brute-chronologist/obekabc-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-04",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "724.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-04",
+    "cr:903.8",
+    "cr:724.1b"
+   ]
+  },
+  {
+   "id": "obekabc-04:m3",
+   "from": "card:Thousand-Year Elixir",
+   "to": "interaction:obeka-brute-chronologist/obekabc-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-04",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "724.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-04",
+    "cr:903.8",
+    "cr:724.1b"
+   ]
+  },
+  {
+   "id": "obekabc-04:m4",
+   "from": "card:Arena of Glory",
+   "to": "interaction:obeka-brute-chronologist/obekabc-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-04",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "724.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-04",
+    "cr:903.8",
+    "cr:724.1b"
+   ]
+  },
+  {
+   "id": "obekabc-04:p1",
+   "from": "card:Hellkite Courser",
+   "to": "commander:Obeka, Brute Chronologist",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekabc-04",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.8",
+    "724.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-04",
+    "cr:903.8",
+    "cr:724.1b"
+   ]
+  },
+  {
+   "id": "obekabc-04:p2",
+   "from": "card:Thousand-Year Elixir",
+   "to": "commander:Obeka, Brute Chronologist",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekabc-04",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.8",
+    "724.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-04",
+    "cr:903.8",
+    "cr:724.1b"
+   ]
+  },
+  {
+   "id": "obekabc-04:p3",
+   "from": "card:Arena of Glory",
+   "to": "commander:Obeka, Brute Chronologist",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekabc-04",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.8",
+    "724.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-04",
+    "cr:903.8",
+    "cr:724.1b"
+   ]
+  },
+  {
+   "id": "obekabc-05:m1",
+   "from": "commander:Obeka, Brute Chronologist",
+   "to": "combo:obeka-brute-chronologist/obekabc-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "724.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-05",
+    "cr:707.2",
+    "cr:724.1b",
+    "spellbook:282-618",
+    "spellbook:147-1235"
+   ]
+  },
+  {
+   "id": "obekabc-05:m2",
+   "from": "card:Kiki-Jiki, Mirror Breaker",
+   "to": "combo:obeka-brute-chronologist/obekabc-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "724.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-05",
+    "cr:707.2",
+    "cr:724.1b",
+    "spellbook:282-618",
+    "spellbook:147-1235"
+   ]
+  },
+  {
+   "id": "obekabc-05:m3",
+   "from": "card:Delina, Wild Mage",
+   "to": "combo:obeka-brute-chronologist/obekabc-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "724.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-05",
+    "cr:707.2",
+    "cr:724.1b",
+    "spellbook:282-618",
+    "spellbook:147-1235"
+   ]
+  },
+  {
+   "id": "obekabc-05:m4",
+   "from": "card:Dualcaster Mage",
+   "to": "combo:obeka-brute-chronologist/obekabc-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "724.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-05",
+    "cr:707.2",
+    "cr:724.1b",
+    "spellbook:282-618",
+    "spellbook:147-1235"
+   ]
+  },
+  {
+   "id": "obekabc-05:m5",
+   "from": "card:Twinflame",
+   "to": "combo:obeka-brute-chronologist/obekabc-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "obekabc-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "724.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-05",
+    "cr:707.2",
+    "cr:724.1b",
+    "spellbook:282-618",
+    "spellbook:147-1235"
+   ]
+  },
+  {
+   "id": "obekabc-05:p1",
+   "from": "card:Kiki-Jiki, Mirror Breaker",
+   "to": "commander:Obeka, Brute Chronologist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekabc-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.2",
+    "724.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-05",
+    "cr:707.2",
+    "cr:724.1b",
+    "spellbook:282-618",
+    "spellbook:147-1235"
+   ]
+  },
+  {
+   "id": "obekabc-05:p2",
+   "from": "card:Delina, Wild Mage",
+   "to": "commander:Obeka, Brute Chronologist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekabc-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.2",
+    "724.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-05",
+    "cr:707.2",
+    "cr:724.1b",
+    "spellbook:282-618",
+    "spellbook:147-1235"
+   ]
+  },
+  {
+   "id": "obekabc-05:p3",
+   "from": "card:Dualcaster Mage",
+   "to": "commander:Obeka, Brute Chronologist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekabc-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.2",
+    "724.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-05",
+    "cr:707.2",
+    "cr:724.1b",
+    "spellbook:282-618",
+    "spellbook:147-1235"
+   ]
+  },
+  {
+   "id": "obekabc-05:p4",
+   "from": "card:Twinflame",
+   "to": "commander:Obeka, Brute Chronologist",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "obekabc-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.2",
+    "724.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/obeka-brute-chronologist.json#obekabc-05",
+    "cr:707.2",
+    "cr:724.1b",
+    "spellbook:282-618",
+    "spellbook:147-1235"
+   ]
+  }
+ ]
+}

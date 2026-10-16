@@ -1,0 +1,2281 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Anhelo__the_Painter",
+ "slug": "anhelo-the-painter",
+ "deck_sha256": "29ad395f939b5b7cbd2f2b72c4a7db6e0fb8c3e6458dec77ebb2dc009696a0a2",
+ "review": "data/grixis_interactions/anhelo-the-painter.json",
+ "review_sha256": "5ff64449ee6a5907a2d9620554a95990a584f8bb456955365fc802a58cc98a59",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 14,
+  "nodes": 42,
+  "membership_edges": 49,
+  "pair_edges": 35
+ },
+ "nodes": [
+  {
+   "id": "commander:Anhelo, the Painter",
+   "kind": "commander",
+   "name": "Anhelo, the Painter",
+   "in_list": true
+  },
+  {
+   "id": "interaction:anhelo-the-painter/anhelo-01",
+   "kind": "interaction",
+   "interaction": "anhelo-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:anhelo-the-painter/anhelo-02",
+   "kind": "interaction",
+   "interaction": "anhelo-02",
+   "topic": "commander",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis"
+  },
+  {
+   "id": "card:A Little Chat",
+   "kind": "card",
+   "name": "A Little Chat",
+   "in_list": true
+  },
+  {
+   "id": "interaction:anhelo-the-painter/anhelo-03",
+   "kind": "interaction",
+   "interaction": "anhelo-03",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Archmage Emeritus",
+   "kind": "card",
+   "name": "Archmage Emeritus",
+   "in_list": true
+  },
+  {
+   "id": "card:Deekah, Fractal Theorist",
+   "kind": "card",
+   "name": "Deekah, Fractal Theorist",
+   "in_list": true
+  },
+  {
+   "id": "card:Storm-Kiln Artist",
+   "kind": "card",
+   "name": "Storm-Kiln Artist",
+   "in_list": true
+  },
+  {
+   "id": "card:Ral, Storm Conduit",
+   "kind": "card",
+   "name": "Ral, Storm Conduit",
+   "in_list": true
+  },
+  {
+   "id": "card:Veyran, Voice of Duality",
+   "kind": "card",
+   "name": "Veyran, Voice of Duality",
+   "in_list": true
+  },
+  {
+   "id": "card:Talrand, Sky Summoner",
+   "kind": "card",
+   "name": "Talrand, Sky Summoner",
+   "in_list": true
+  },
+  {
+   "id": "card:Judith, Carnage Connoisseur",
+   "kind": "card",
+   "name": "Judith, Carnage Connoisseur",
+   "in_list": true
+  },
+  {
+   "id": "card:Poppet Stitcher // Poppet Factory",
+   "kind": "card",
+   "name": "Poppet Stitcher // Poppet Factory",
+   "in_list": true
+  },
+  {
+   "id": "card:Primal Amulet // Primal Wellspring",
+   "kind": "card",
+   "name": "Primal Amulet // Primal Wellspring",
+   "in_list": true
+  },
+  {
+   "id": "card:Cryptic Pursuit",
+   "kind": "card",
+   "name": "Cryptic Pursuit",
+   "in_list": true
+  },
+  {
+   "id": "interaction:anhelo-the-painter/anhelo-04",
+   "kind": "interaction",
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:anhelo-the-painter/anhelo-05",
+   "kind": "interaction",
+   "interaction": "anhelo-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Twinning Staff",
+   "kind": "card",
+   "name": "Twinning Staff",
+   "in_list": true
+  },
+  {
+   "id": "interaction:anhelo-the-painter/anhelo-06",
+   "kind": "interaction",
+   "interaction": "anhelo-06",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Narset's Reversal",
+   "kind": "card",
+   "name": "Narset's Reversal",
+   "in_list": true
+  },
+  {
+   "id": "card:Reiterate",
+   "kind": "card",
+   "name": "Reiterate",
+   "in_list": true
+  },
+  {
+   "id": "combo:anhelo-the-painter/anhelo-07",
+   "kind": "combo",
+   "interaction": "anhelo-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "11-2539",
+    "11-3368"
+   ]
+  },
+  {
+   "id": "card:Jeska's Will",
+   "kind": "card",
+   "name": "Jeska's Will",
+   "in_list": true
+  },
+  {
+   "id": "card:Mana Geyser",
+   "kind": "card",
+   "name": "Mana Geyser",
+   "in_list": true
+  },
+  {
+   "id": "combo:anhelo-the-painter/anhelo-08",
+   "kind": "combo",
+   "interaction": "anhelo-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Dualcaster Mage",
+   "kind": "card",
+   "name": "Dualcaster Mage",
+   "in_list": true
+  },
+  {
+   "id": "card:Twinflame",
+   "kind": "card",
+   "name": "Twinflame",
+   "in_list": true
+  },
+  {
+   "id": "combo:anhelo-the-painter/anhelo-09",
+   "kind": "combo",
+   "interaction": "anhelo-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Frantic Search",
+   "kind": "card",
+   "name": "Frantic Search",
+   "in_list": true
+  },
+  {
+   "id": "combo:anhelo-the-painter/anhelo-10",
+   "kind": "combo",
+   "interaction": "anhelo-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "11-1484-2196",
+    "1484-2196-3368"
+   ]
+  },
+  {
+   "id": "card:Cormela, Glamour Thief",
+   "kind": "card",
+   "name": "Cormela, Glamour Thief",
+   "in_list": true
+  },
+  {
+   "id": "combo:anhelo-the-painter/anhelo-11",
+   "kind": "combo",
+   "interaction": "anhelo-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1235-4867-5195"
+   ]
+  },
+  {
+   "id": "card:Kess, Dissident Mage",
+   "kind": "card",
+   "name": "Kess, Dissident Mage",
+   "in_list": true
+  },
+  {
+   "id": "card:Maestros Ascendancy",
+   "kind": "card",
+   "name": "Maestros Ascendancy",
+   "in_list": true
+  },
+  {
+   "id": "card:Underworld Breach",
+   "kind": "card",
+   "name": "Underworld Breach",
+   "in_list": true
+  },
+  {
+   "id": "interaction:anhelo-the-painter/anhelo-12",
+   "kind": "interaction",
+   "interaction": "anhelo-12",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Thunderclap Drake",
+   "kind": "card",
+   "name": "Thunderclap Drake",
+   "in_list": true
+  },
+  {
+   "id": "interaction:anhelo-the-painter/anhelo-13",
+   "kind": "interaction",
+   "interaction": "anhelo-13",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Jadar, Ghoulcaller of Nephalia",
+   "kind": "card",
+   "name": "Jadar, Ghoulcaller of Nephalia",
+   "in_list": true
+  },
+  {
+   "id": "card:Startle",
+   "kind": "card",
+   "name": "Startle",
+   "in_list": true
+  },
+  {
+   "id": "card:Bloodghast",
+   "kind": "card",
+   "name": "Bloodghast",
+   "in_list": true
+  },
+  {
+   "id": "interaction:anhelo-the-painter/anhelo-14",
+   "kind": "interaction",
+   "interaction": "anhelo-14",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "anhelo-01:m1",
+   "from": "commander:Anhelo, the Painter",
+   "to": "interaction:anhelo-the-painter/anhelo-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.153a",
+    "601.2f",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-01",
+    "cr:702.153a",
+    "cr:601.2f",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "anhelo-02:m1",
+   "from": "commander:Anhelo, the Painter",
+   "to": "interaction:anhelo-the-painter/anhelo-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-02",
+   "topic": "commander",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "702.153a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-02",
+    "cr:702.153a"
+   ]
+  },
+  {
+   "id": "anhelo-03:m1",
+   "from": "commander:Anhelo, the Painter",
+   "to": "interaction:anhelo-the-painter/anhelo-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-03",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.153b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-03",
+    "cr:702.153b"
+   ]
+  },
+  {
+   "id": "anhelo-03:m2",
+   "from": "card:A Little Chat",
+   "to": "interaction:anhelo-the-painter/anhelo-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-03",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.153b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-03",
+    "cr:702.153b"
+   ]
+  },
+  {
+   "id": "anhelo-03:p1",
+   "from": "card:A Little Chat",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-03",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.153b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-03",
+    "cr:702.153b"
+   ]
+  },
+  {
+   "id": "anhelo-04:m1",
+   "from": "commander:Anhelo, the Painter",
+   "to": "interaction:anhelo-the-painter/anhelo-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-04",
+    "cr:707.10",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "anhelo-04:m2",
+   "from": "card:Archmage Emeritus",
+   "to": "interaction:anhelo-the-painter/anhelo-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-04",
+    "cr:707.10",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "anhelo-04:m3",
+   "from": "card:Deekah, Fractal Theorist",
+   "to": "interaction:anhelo-the-painter/anhelo-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-04",
+    "cr:707.10",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "anhelo-04:m4",
+   "from": "card:Storm-Kiln Artist",
+   "to": "interaction:anhelo-the-painter/anhelo-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-04",
+    "cr:707.10",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "anhelo-04:m5",
+   "from": "card:Ral, Storm Conduit",
+   "to": "interaction:anhelo-the-painter/anhelo-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-04",
+    "cr:707.10",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "anhelo-04:m6",
+   "from": "card:Veyran, Voice of Duality",
+   "to": "interaction:anhelo-the-painter/anhelo-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-04",
+    "cr:707.10",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "anhelo-04:m7",
+   "from": "card:Talrand, Sky Summoner",
+   "to": "interaction:anhelo-the-painter/anhelo-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-04",
+    "cr:707.10",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "anhelo-04:m8",
+   "from": "card:Judith, Carnage Connoisseur",
+   "to": "interaction:anhelo-the-painter/anhelo-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-04",
+    "cr:707.10",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "anhelo-04:m9",
+   "from": "card:Poppet Stitcher // Poppet Factory",
+   "to": "interaction:anhelo-the-painter/anhelo-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-04",
+    "cr:707.10",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "anhelo-04:m10",
+   "from": "card:Primal Amulet // Primal Wellspring",
+   "to": "interaction:anhelo-the-painter/anhelo-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-04",
+    "cr:707.10",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "anhelo-04:m11",
+   "from": "card:Cryptic Pursuit",
+   "to": "interaction:anhelo-the-painter/anhelo-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-04",
+    "cr:707.10",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "anhelo-04:p1",
+   "from": "card:Archmage Emeritus",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-04",
+    "cr:707.10",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "anhelo-04:p2",
+   "from": "card:Deekah, Fractal Theorist",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-04",
+    "cr:707.10",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "anhelo-04:p3",
+   "from": "card:Storm-Kiln Artist",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-04",
+    "cr:707.10",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "anhelo-04:p4",
+   "from": "card:Ral, Storm Conduit",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-04",
+    "cr:707.10",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "anhelo-04:p5",
+   "from": "card:Veyran, Voice of Duality",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-04",
+    "cr:707.10",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "anhelo-04:p6",
+   "from": "card:Talrand, Sky Summoner",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-04",
+    "cr:707.10",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "anhelo-04:p7",
+   "from": "card:Judith, Carnage Connoisseur",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-04",
+    "cr:707.10",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "anhelo-04:p8",
+   "from": "card:Poppet Stitcher // Poppet Factory",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-04",
+    "cr:707.10",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "anhelo-04:p9",
+   "from": "card:Primal Amulet // Primal Wellspring",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-04",
+    "cr:707.10",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "anhelo-04:p10",
+   "from": "card:Cryptic Pursuit",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-04",
+    "cr:707.10",
+    "cr:207.2c"
+   ]
+  },
+  {
+   "id": "anhelo-05:m1",
+   "from": "commander:Anhelo, the Painter",
+   "to": "interaction:anhelo-the-painter/anhelo-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.153a",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-05",
+    "cr:702.153a",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "anhelo-05:m2",
+   "from": "card:Veyran, Voice of Duality",
+   "to": "interaction:anhelo-the-painter/anhelo-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.153a",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-05",
+    "cr:702.153a",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "anhelo-05:p1",
+   "from": "card:Veyran, Voice of Duality",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-05",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.153a",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-05",
+    "cr:702.153a",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "anhelo-06:m1",
+   "from": "commander:Anhelo, the Painter",
+   "to": "interaction:anhelo-the-painter/anhelo-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-06",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-06",
+    "cr:614.1a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "anhelo-06:m2",
+   "from": "card:Twinning Staff",
+   "to": "interaction:anhelo-the-painter/anhelo-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-06",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-06",
+    "cr:614.1a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "anhelo-06:p1",
+   "from": "card:Twinning Staff",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-06",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-06",
+    "cr:614.1a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "anhelo-07:m1",
+   "from": "commander:Anhelo, the Painter",
+   "to": "combo:anhelo-the-painter/anhelo-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10a",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-07",
+    "cr:707.10",
+    "cr:707.10a",
+    "cr:707.10c",
+    "spellbook:11-2539",
+    "spellbook:11-3368"
+   ]
+  },
+  {
+   "id": "anhelo-07:m2",
+   "from": "card:Narset's Reversal",
+   "to": "combo:anhelo-the-painter/anhelo-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10a",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-07",
+    "cr:707.10",
+    "cr:707.10a",
+    "cr:707.10c",
+    "spellbook:11-2539",
+    "spellbook:11-3368"
+   ]
+  },
+  {
+   "id": "anhelo-07:m3",
+   "from": "card:Twinning Staff",
+   "to": "combo:anhelo-the-painter/anhelo-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10a",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-07",
+    "cr:707.10",
+    "cr:707.10a",
+    "cr:707.10c",
+    "spellbook:11-2539",
+    "spellbook:11-3368"
+   ]
+  },
+  {
+   "id": "anhelo-07:m4",
+   "from": "card:Reiterate",
+   "to": "combo:anhelo-the-painter/anhelo-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.10a",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-07",
+    "cr:707.10",
+    "cr:707.10a",
+    "cr:707.10c",
+    "spellbook:11-2539",
+    "spellbook:11-3368"
+   ]
+  },
+  {
+   "id": "anhelo-07:p1",
+   "from": "card:Narset's Reversal",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10a",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-07",
+    "cr:707.10",
+    "cr:707.10a",
+    "cr:707.10c",
+    "spellbook:11-2539",
+    "spellbook:11-3368"
+   ]
+  },
+  {
+   "id": "anhelo-07:p2",
+   "from": "card:Twinning Staff",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10a",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-07",
+    "cr:707.10",
+    "cr:707.10a",
+    "cr:707.10c",
+    "spellbook:11-2539",
+    "spellbook:11-3368"
+   ]
+  },
+  {
+   "id": "anhelo-07:p3",
+   "from": "card:Reiterate",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.10a",
+    "707.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-07",
+    "cr:707.10",
+    "cr:707.10a",
+    "cr:707.10c",
+    "spellbook:11-2539",
+    "spellbook:11-3368"
+   ]
+  },
+  {
+   "id": "anhelo-08:m1",
+   "from": "commander:Anhelo, the Painter",
+   "to": "combo:anhelo-the-painter/anhelo-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.27a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-08",
+    "cr:702.27a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "anhelo-08:m2",
+   "from": "card:Reiterate",
+   "to": "combo:anhelo-the-painter/anhelo-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.27a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-08",
+    "cr:702.27a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "anhelo-08:m3",
+   "from": "card:Jeska's Will",
+   "to": "combo:anhelo-the-painter/anhelo-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.27a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-08",
+    "cr:702.27a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "anhelo-08:m4",
+   "from": "card:Mana Geyser",
+   "to": "combo:anhelo-the-painter/anhelo-08",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.27a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-08",
+    "cr:702.27a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "anhelo-08:p1",
+   "from": "card:Reiterate",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.27a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-08",
+    "cr:702.27a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "anhelo-08:p2",
+   "from": "card:Jeska's Will",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.27a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-08",
+    "cr:702.27a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "anhelo-08:p3",
+   "from": "card:Mana Geyser",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-08",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.27a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-08",
+    "cr:702.27a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "anhelo-09:m1",
+   "from": "commander:Anhelo, the Painter",
+   "to": "combo:anhelo-the-painter/anhelo-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10c",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-09",
+    "cr:707.10c",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "anhelo-09:m2",
+   "from": "card:Dualcaster Mage",
+   "to": "combo:anhelo-the-painter/anhelo-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10c",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-09",
+    "cr:707.10c",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "anhelo-09:m3",
+   "from": "card:Twinflame",
+   "to": "combo:anhelo-the-painter/anhelo-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10c",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-09",
+    "cr:707.10c",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "anhelo-09:p1",
+   "from": "card:Dualcaster Mage",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10c",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-09",
+    "cr:707.10c",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "anhelo-09:p2",
+   "from": "card:Twinflame",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10c",
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-09",
+    "cr:707.10c",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "anhelo-10:m1",
+   "from": "commander:Anhelo, the Painter",
+   "to": "combo:anhelo-the-painter/anhelo-10",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-10",
+    "cr:707.10",
+    "spellbook:11-1484-2196",
+    "spellbook:1484-2196-3368"
+   ]
+  },
+  {
+   "id": "anhelo-10:m2",
+   "from": "card:Primal Amulet // Primal Wellspring",
+   "to": "combo:anhelo-the-painter/anhelo-10",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-10",
+    "cr:707.10",
+    "spellbook:11-1484-2196",
+    "spellbook:1484-2196-3368"
+   ]
+  },
+  {
+   "id": "anhelo-10:m3",
+   "from": "card:Frantic Search",
+   "to": "combo:anhelo-the-painter/anhelo-10",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-10",
+    "cr:707.10",
+    "spellbook:11-1484-2196",
+    "spellbook:1484-2196-3368"
+   ]
+  },
+  {
+   "id": "anhelo-10:m4",
+   "from": "card:Reiterate",
+   "to": "combo:anhelo-the-painter/anhelo-10",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-10",
+    "cr:707.10",
+    "spellbook:11-1484-2196",
+    "spellbook:1484-2196-3368"
+   ]
+  },
+  {
+   "id": "anhelo-10:m5",
+   "from": "card:Narset's Reversal",
+   "to": "combo:anhelo-the-painter/anhelo-10",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-10",
+    "cr:707.10",
+    "spellbook:11-1484-2196",
+    "spellbook:1484-2196-3368"
+   ]
+  },
+  {
+   "id": "anhelo-10:p1",
+   "from": "card:Primal Amulet // Primal Wellspring",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-10",
+    "cr:707.10",
+    "spellbook:11-1484-2196",
+    "spellbook:1484-2196-3368"
+   ]
+  },
+  {
+   "id": "anhelo-10:p2",
+   "from": "card:Frantic Search",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-10",
+    "cr:707.10",
+    "spellbook:11-1484-2196",
+    "spellbook:1484-2196-3368"
+   ]
+  },
+  {
+   "id": "anhelo-10:p3",
+   "from": "card:Reiterate",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-10",
+    "cr:707.10",
+    "spellbook:11-1484-2196",
+    "spellbook:1484-2196-3368"
+   ]
+  },
+  {
+   "id": "anhelo-10:p4",
+   "from": "card:Narset's Reversal",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-10",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-10",
+    "cr:707.10",
+    "spellbook:11-1484-2196",
+    "spellbook:1484-2196-3368"
+   ]
+  },
+  {
+   "id": "anhelo-11:m1",
+   "from": "commander:Anhelo, the Painter",
+   "to": "combo:anhelo-the-painter/anhelo-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-11",
+    "cr:704.5j",
+    "cr:707.10",
+    "spellbook:1235-4867-5195"
+   ]
+  },
+  {
+   "id": "anhelo-11:m2",
+   "from": "card:Cormela, Glamour Thief",
+   "to": "combo:anhelo-the-painter/anhelo-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-11",
+    "cr:704.5j",
+    "cr:707.10",
+    "spellbook:1235-4867-5195"
+   ]
+  },
+  {
+   "id": "anhelo-11:m3",
+   "from": "card:Storm-Kiln Artist",
+   "to": "combo:anhelo-the-painter/anhelo-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-11",
+    "cr:704.5j",
+    "cr:707.10",
+    "spellbook:1235-4867-5195"
+   ]
+  },
+  {
+   "id": "anhelo-11:m4",
+   "from": "card:Twinflame",
+   "to": "combo:anhelo-the-painter/anhelo-11",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-11",
+    "cr:704.5j",
+    "cr:707.10",
+    "spellbook:1235-4867-5195"
+   ]
+  },
+  {
+   "id": "anhelo-11:p1",
+   "from": "card:Cormela, Glamour Thief",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5j",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-11",
+    "cr:704.5j",
+    "cr:707.10",
+    "spellbook:1235-4867-5195"
+   ]
+  },
+  {
+   "id": "anhelo-11:p2",
+   "from": "card:Storm-Kiln Artist",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5j",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-11",
+    "cr:704.5j",
+    "cr:707.10",
+    "spellbook:1235-4867-5195"
+   ]
+  },
+  {
+   "id": "anhelo-11:p3",
+   "from": "card:Twinflame",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-11",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5j",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-11",
+    "cr:704.5j",
+    "cr:707.10",
+    "spellbook:1235-4867-5195"
+   ]
+  },
+  {
+   "id": "anhelo-12:m1",
+   "from": "commander:Anhelo, the Painter",
+   "to": "interaction:anhelo-the-painter/anhelo-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-12",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-12",
+    "cr:702.138a",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "anhelo-12:m2",
+   "from": "card:Kess, Dissident Mage",
+   "to": "interaction:anhelo-the-painter/anhelo-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-12",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-12",
+    "cr:702.138a",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "anhelo-12:m3",
+   "from": "card:Maestros Ascendancy",
+   "to": "interaction:anhelo-the-painter/anhelo-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-12",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-12",
+    "cr:702.138a",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "anhelo-12:m4",
+   "from": "card:Underworld Breach",
+   "to": "interaction:anhelo-the-painter/anhelo-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-12",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-12",
+    "cr:702.138a",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "anhelo-12:p1",
+   "from": "card:Kess, Dissident Mage",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-12",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-12",
+    "cr:702.138a",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "anhelo-12:p2",
+   "from": "card:Maestros Ascendancy",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-12",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-12",
+    "cr:702.138a",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "anhelo-12:p3",
+   "from": "card:Underworld Breach",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-12",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-12",
+    "cr:702.138a",
+    "cr:601.2f"
+   ]
+  },
+  {
+   "id": "anhelo-13:m1",
+   "from": "commander:Anhelo, the Painter",
+   "to": "interaction:anhelo-the-painter/anhelo-13",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-13",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-13",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "anhelo-13:m2",
+   "from": "card:Thunderclap Drake",
+   "to": "interaction:anhelo-the-painter/anhelo-13",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-13",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-13",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "anhelo-13:p1",
+   "from": "card:Thunderclap Drake",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-13",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-13",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "anhelo-14:m1",
+   "from": "commander:Anhelo, the Painter",
+   "to": "interaction:anhelo-the-painter/anhelo-14",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-14",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "702.153a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-14",
+    "cr:903.8",
+    "cr:702.153a"
+   ]
+  },
+  {
+   "id": "anhelo-14:m2",
+   "from": "card:Jadar, Ghoulcaller of Nephalia",
+   "to": "interaction:anhelo-the-painter/anhelo-14",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-14",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "702.153a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-14",
+    "cr:903.8",
+    "cr:702.153a"
+   ]
+  },
+  {
+   "id": "anhelo-14:m3",
+   "from": "card:Startle",
+   "to": "interaction:anhelo-the-painter/anhelo-14",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-14",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "702.153a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-14",
+    "cr:903.8",
+    "cr:702.153a"
+   ]
+  },
+  {
+   "id": "anhelo-14:m4",
+   "from": "card:Bloodghast",
+   "to": "interaction:anhelo-the-painter/anhelo-14",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "anhelo-14",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8",
+    "702.153a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-14",
+    "cr:903.8",
+    "cr:702.153a"
+   ]
+  },
+  {
+   "id": "anhelo-14:p1",
+   "from": "card:Jadar, Ghoulcaller of Nephalia",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-14",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.8",
+    "702.153a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-14",
+    "cr:903.8",
+    "cr:702.153a"
+   ]
+  },
+  {
+   "id": "anhelo-14:p2",
+   "from": "card:Startle",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-14",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.8",
+    "702.153a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-14",
+    "cr:903.8",
+    "cr:702.153a"
+   ]
+  },
+  {
+   "id": "anhelo-14:p3",
+   "from": "card:Bloodghast",
+   "to": "commander:Anhelo, the Painter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "anhelo-14",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.8",
+    "702.153a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/anhelo-the-painter.json#anhelo-14",
+    "cr:903.8",
+    "cr:702.153a"
+   ]
+  }
+ ]
+}

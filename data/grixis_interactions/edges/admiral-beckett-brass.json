@@ -1,0 +1,2591 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Admiral_Beckett_Brass",
+ "slug": "admiral-beckett-brass",
+ "deck_sha256": "dbc2ce511a88eb94d70357edbf0088cf26110c3052bd2230eeb6a583b4437808",
+ "review": "data/grixis_interactions/admiral-beckett-brass.json",
+ "review_sha256": "beafd20490d3907ed6a997c7cc41bb2a45688419dd85b8b1b5952a32910d8692",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 17,
+  "nodes": 46,
+  "membership_edges": 58,
+  "pair_edges": 41
+ },
+ "nodes": [
+  {
+   "id": "commander:Admiral Beckett Brass",
+   "kind": "commander",
+   "name": "Admiral Beckett Brass",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-beckett-brass/beckett-01",
+   "kind": "interaction",
+   "interaction": "beckett-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Roaming Throne",
+   "kind": "card",
+   "name": "Roaming Throne",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-beckett-brass/beckett-02",
+   "kind": "interaction",
+   "interaction": "beckett-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Kari Zev, Skyship Raider",
+   "kind": "card",
+   "name": "Kari Zev, Skyship Raider",
+   "in_list": true
+  },
+  {
+   "id": "card:Ragavan, Nimble Pilferer",
+   "kind": "card",
+   "name": "Ragavan, Nimble Pilferer",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-beckett-brass/beckett-03",
+   "kind": "interaction",
+   "interaction": "beckett-03",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Don Andres, the Renegade",
+   "kind": "card",
+   "name": "Don Andres, the Renegade",
+   "in_list": true
+  },
+  {
+   "id": "card:Coercive Recruiter",
+   "kind": "card",
+   "name": "Coercive Recruiter",
+   "in_list": true
+  },
+  {
+   "id": "card:Zara, Renegade Recruiter",
+   "kind": "card",
+   "name": "Zara, Renegade Recruiter",
+   "in_list": true
+  },
+  {
+   "id": "card:Hostage Taker",
+   "kind": "card",
+   "name": "Hostage Taker",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-beckett-brass/beckett-04",
+   "kind": "interaction",
+   "interaction": "beckett-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:admiral-beckett-brass/beckett-05",
+   "kind": "interaction",
+   "interaction": "beckett-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Changeling Outcast",
+   "kind": "card",
+   "name": "Changeling Outcast",
+   "in_list": true
+  },
+  {
+   "id": "card:Black Market Connections",
+   "kind": "card",
+   "name": "Black Market Connections",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-beckett-brass/beckett-06",
+   "kind": "interaction",
+   "interaction": "beckett-06",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Fiery Cannonade",
+   "kind": "card",
+   "name": "Fiery Cannonade",
+   "in_list": true
+  },
+  {
+   "id": "card:Raise the Palisade",
+   "kind": "card",
+   "name": "Raise the Palisade",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-beckett-brass/beckett-07",
+   "kind": "interaction",
+   "interaction": "beckett-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Double Down",
+   "kind": "card",
+   "name": "Double Down",
+   "in_list": true
+  },
+  {
+   "id": "card:Ramirez DePietro, Pillager",
+   "kind": "card",
+   "name": "Ramirez DePietro, Pillager",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-beckett-brass/beckett-08",
+   "kind": "interaction",
+   "interaction": "beckett-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Admiral Brass, Unsinkable",
+   "kind": "card",
+   "name": "Admiral Brass, Unsinkable",
+   "in_list": true
+  },
+  {
+   "id": "card:Breeches, Eager Pillager",
+   "kind": "card",
+   "name": "Breeches, Eager Pillager",
+   "in_list": true
+  },
+  {
+   "id": "card:Merchant Raiders",
+   "kind": "card",
+   "name": "Merchant Raiders",
+   "in_list": true
+  },
+  {
+   "id": "card:Forerunner of the Coalition",
+   "kind": "card",
+   "name": "Forerunner of the Coalition",
+   "in_list": true
+  },
+  {
+   "id": "combo:admiral-beckett-brass/beckett-09",
+   "kind": "combo",
+   "interaction": "beckett-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:admiral-beckett-brass/beckett-17",
+   "kind": "interaction",
+   "interaction": "beckett-17",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Port Razer",
+   "kind": "card",
+   "name": "Port Razer",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-beckett-brass/beckett-10",
+   "kind": "interaction",
+   "interaction": "beckett-10",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Open into Wonder",
+   "kind": "card",
+   "name": "Open into Wonder",
+   "in_list": true
+  },
+  {
+   "id": "card:Cover of Darkness",
+   "kind": "card",
+   "name": "Cover of Darkness",
+   "in_list": true
+  },
+  {
+   "id": "card:Storm Fleet Sprinter",
+   "kind": "card",
+   "name": "Storm Fleet Sprinter",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-beckett-brass/beckett-11",
+   "kind": "interaction",
+   "interaction": "beckett-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:The Indomitable",
+   "kind": "card",
+   "name": "The Indomitable",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-beckett-brass/beckett-12",
+   "kind": "interaction",
+   "interaction": "beckett-12",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Edward Kenway",
+   "kind": "card",
+   "name": "Edward Kenway",
+   "in_list": true
+  },
+  {
+   "id": "card:Daring Piracy",
+   "kind": "card",
+   "name": "Daring Piracy",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-beckett-brass/beckett-13",
+   "kind": "interaction",
+   "interaction": "beckett-13",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Corsair Captain",
+   "kind": "card",
+   "name": "Corsair Captain",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-beckett-brass/beckett-14",
+   "kind": "interaction",
+   "interaction": "beckett-14",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Deflecting Swat",
+   "kind": "card",
+   "name": "Deflecting Swat",
+   "in_list": true
+  },
+  {
+   "id": "card:Fierce Guardianship",
+   "kind": "card",
+   "name": "Fierce Guardianship",
+   "in_list": true
+  },
+  {
+   "id": "card:Jeska's Will",
+   "kind": "card",
+   "name": "Jeska's Will",
+   "in_list": true
+  },
+  {
+   "id": "interaction:admiral-beckett-brass/beckett-15",
+   "kind": "interaction",
+   "interaction": "beckett-15",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "interaction:admiral-beckett-brass/beckett-16",
+   "kind": "interaction",
+   "interaction": "beckett-16",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "beckett-01:m1",
+   "from": "commander:Admiral Beckett Brass",
+   "to": "interaction:admiral-beckett-brass/beckett-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3d",
+    "115.1",
+    "613.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-01",
+    "cr:603.3d",
+    "cr:115.1",
+    "cr:613.1b"
+   ]
+  },
+  {
+   "id": "beckett-02:m1",
+   "from": "commander:Admiral Beckett Brass",
+   "to": "interaction:admiral-beckett-brass/beckett-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-02",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "beckett-02:m2",
+   "from": "card:Roaming Throne",
+   "to": "interaction:admiral-beckett-brass/beckett-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-02",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "beckett-02:p1",
+   "from": "card:Roaming Throne",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-02",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "beckett-03:m1",
+   "from": "commander:Admiral Beckett Brass",
+   "to": "interaction:admiral-beckett-brass/beckett-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-03",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "508.4",
+    "111.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-03",
+    "cr:704.5j",
+    "cr:508.4",
+    "cr:111.4"
+   ]
+  },
+  {
+   "id": "beckett-03:m2",
+   "from": "card:Kari Zev, Skyship Raider",
+   "to": "interaction:admiral-beckett-brass/beckett-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-03",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "508.4",
+    "111.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-03",
+    "cr:704.5j",
+    "cr:508.4",
+    "cr:111.4"
+   ]
+  },
+  {
+   "id": "beckett-03:m3",
+   "from": "card:Ragavan, Nimble Pilferer",
+   "to": "interaction:admiral-beckett-brass/beckett-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-03",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "508.4",
+    "111.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-03",
+    "cr:704.5j",
+    "cr:508.4",
+    "cr:111.4"
+   ]
+  },
+  {
+   "id": "beckett-03:p1",
+   "from": "card:Kari Zev, Skyship Raider",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-03",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5j",
+    "508.4",
+    "111.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-03",
+    "cr:704.5j",
+    "cr:508.4",
+    "cr:111.4"
+   ]
+  },
+  {
+   "id": "beckett-03:p2",
+   "from": "card:Ragavan, Nimble Pilferer",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-03",
+   "topic": "pair",
+   "status": "flag",
+   "flag_kind": "documentation",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5j",
+    "508.4",
+    "111.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-03",
+    "cr:704.5j",
+    "cr:508.4",
+    "cr:111.4"
+   ]
+  },
+  {
+   "id": "beckett-04:m1",
+   "from": "commander:Admiral Beckett Brass",
+   "to": "interaction:admiral-beckett-brass/beckett-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1b",
+    "613.1d",
+    "108.3",
+    "111.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-04",
+    "cr:613.1b",
+    "cr:613.1d",
+    "cr:108.3",
+    "cr:111.2"
+   ]
+  },
+  {
+   "id": "beckett-04:m2",
+   "from": "card:Don Andres, the Renegade",
+   "to": "interaction:admiral-beckett-brass/beckett-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1b",
+    "613.1d",
+    "108.3",
+    "111.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-04",
+    "cr:613.1b",
+    "cr:613.1d",
+    "cr:108.3",
+    "cr:111.2"
+   ]
+  },
+  {
+   "id": "beckett-04:m3",
+   "from": "card:Coercive Recruiter",
+   "to": "interaction:admiral-beckett-brass/beckett-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1b",
+    "613.1d",
+    "108.3",
+    "111.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-04",
+    "cr:613.1b",
+    "cr:613.1d",
+    "cr:108.3",
+    "cr:111.2"
+   ]
+  },
+  {
+   "id": "beckett-04:m4",
+   "from": "card:Zara, Renegade Recruiter",
+   "to": "interaction:admiral-beckett-brass/beckett-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1b",
+    "613.1d",
+    "108.3",
+    "111.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-04",
+    "cr:613.1b",
+    "cr:613.1d",
+    "cr:108.3",
+    "cr:111.2"
+   ]
+  },
+  {
+   "id": "beckett-04:m5",
+   "from": "card:Hostage Taker",
+   "to": "interaction:admiral-beckett-brass/beckett-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1b",
+    "613.1d",
+    "108.3",
+    "111.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-04",
+    "cr:613.1b",
+    "cr:613.1d",
+    "cr:108.3",
+    "cr:111.2"
+   ]
+  },
+  {
+   "id": "beckett-04:p1",
+   "from": "card:Don Andres, the Renegade",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.1b",
+    "613.1d",
+    "108.3",
+    "111.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-04",
+    "cr:613.1b",
+    "cr:613.1d",
+    "cr:108.3",
+    "cr:111.2"
+   ]
+  },
+  {
+   "id": "beckett-04:p2",
+   "from": "card:Coercive Recruiter",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.1b",
+    "613.1d",
+    "108.3",
+    "111.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-04",
+    "cr:613.1b",
+    "cr:613.1d",
+    "cr:108.3",
+    "cr:111.2"
+   ]
+  },
+  {
+   "id": "beckett-04:p3",
+   "from": "card:Zara, Renegade Recruiter",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.1b",
+    "613.1d",
+    "108.3",
+    "111.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-04",
+    "cr:613.1b",
+    "cr:613.1d",
+    "cr:108.3",
+    "cr:111.2"
+   ]
+  },
+  {
+   "id": "beckett-04:p4",
+   "from": "card:Hostage Taker",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-04",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.1b",
+    "613.1d",
+    "108.3",
+    "111.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-04",
+    "cr:613.1b",
+    "cr:613.1d",
+    "cr:108.3",
+    "cr:111.2"
+   ]
+  },
+  {
+   "id": "beckett-05:m1",
+   "from": "commander:Admiral Beckett Brass",
+   "to": "interaction:admiral-beckett-brass/beckett-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-05",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "beckett-05:m2",
+   "from": "card:Zara, Renegade Recruiter",
+   "to": "interaction:admiral-beckett-brass/beckett-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-05",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "beckett-05:m3",
+   "from": "card:Don Andres, the Renegade",
+   "to": "interaction:admiral-beckett-brass/beckett-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-05",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "beckett-05:p1",
+   "from": "card:Zara, Renegade Recruiter",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-05",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "beckett-05:p2",
+   "from": "card:Don Andres, the Renegade",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-05",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "508.4"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-05",
+    "cr:508.4"
+   ]
+  },
+  {
+   "id": "beckett-06:m1",
+   "from": "commander:Admiral Beckett Brass",
+   "to": "interaction:admiral-beckett-brass/beckett-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-06",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.73a",
+    "604.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-06",
+    "cr:702.73a",
+    "cr:604.3"
+   ]
+  },
+  {
+   "id": "beckett-06:m2",
+   "from": "card:Changeling Outcast",
+   "to": "interaction:admiral-beckett-brass/beckett-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-06",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.73a",
+    "604.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-06",
+    "cr:702.73a",
+    "cr:604.3"
+   ]
+  },
+  {
+   "id": "beckett-06:m3",
+   "from": "card:Black Market Connections",
+   "to": "interaction:admiral-beckett-brass/beckett-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-06",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.73a",
+    "604.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-06",
+    "cr:702.73a",
+    "cr:604.3"
+   ]
+  },
+  {
+   "id": "beckett-06:p1",
+   "from": "card:Changeling Outcast",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-06",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.73a",
+    "604.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-06",
+    "cr:702.73a",
+    "cr:604.3"
+   ]
+  },
+  {
+   "id": "beckett-06:p2",
+   "from": "card:Black Market Connections",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-06",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.73a",
+    "604.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-06",
+    "cr:702.73a",
+    "cr:604.3"
+   ]
+  },
+  {
+   "id": "beckett-07:m1",
+   "from": "commander:Admiral Beckett Brass",
+   "to": "interaction:admiral-beckett-brass/beckett-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.3m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-07",
+    "cr:205.3m"
+   ]
+  },
+  {
+   "id": "beckett-07:m2",
+   "from": "card:Fiery Cannonade",
+   "to": "interaction:admiral-beckett-brass/beckett-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.3m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-07",
+    "cr:205.3m"
+   ]
+  },
+  {
+   "id": "beckett-07:m3",
+   "from": "card:Raise the Palisade",
+   "to": "interaction:admiral-beckett-brass/beckett-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.3m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-07",
+    "cr:205.3m"
+   ]
+  },
+  {
+   "id": "beckett-07:m4",
+   "from": "card:Roaming Throne",
+   "to": "interaction:admiral-beckett-brass/beckett-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.3m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-07",
+    "cr:205.3m"
+   ]
+  },
+  {
+   "id": "beckett-07:m5",
+   "from": "card:Kari Zev, Skyship Raider",
+   "to": "interaction:admiral-beckett-brass/beckett-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.3m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-07",
+    "cr:205.3m"
+   ]
+  },
+  {
+   "id": "beckett-07:p1",
+   "from": "card:Fiery Cannonade",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "205.3m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-07",
+    "cr:205.3m"
+   ]
+  },
+  {
+   "id": "beckett-07:p2",
+   "from": "card:Raise the Palisade",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "205.3m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-07",
+    "cr:205.3m"
+   ]
+  },
+  {
+   "id": "beckett-07:p3",
+   "from": "card:Roaming Throne",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "205.3m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-07",
+    "cr:205.3m"
+   ]
+  },
+  {
+   "id": "beckett-07:p4",
+   "from": "card:Kari Zev, Skyship Raider",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-07",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "205.3m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-07",
+    "cr:205.3m"
+   ]
+  },
+  {
+   "id": "beckett-08:m1",
+   "from": "commander:Admiral Beckett Brass",
+   "to": "interaction:admiral-beckett-brass/beckett-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "608.3f",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-08",
+    "cr:707.10",
+    "cr:608.3f",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "beckett-08:m2",
+   "from": "card:Double Down",
+   "to": "interaction:admiral-beckett-brass/beckett-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "608.3f",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-08",
+    "cr:707.10",
+    "cr:608.3f",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "beckett-08:m3",
+   "from": "card:Ramirez DePietro, Pillager",
+   "to": "interaction:admiral-beckett-brass/beckett-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "608.3f",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-08",
+    "cr:707.10",
+    "cr:608.3f",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "beckett-08:m4",
+   "from": "card:Hostage Taker",
+   "to": "interaction:admiral-beckett-brass/beckett-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "608.3f",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-08",
+    "cr:707.10",
+    "cr:608.3f",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "beckett-08:m5",
+   "from": "card:Coercive Recruiter",
+   "to": "interaction:admiral-beckett-brass/beckett-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "608.3f",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-08",
+    "cr:707.10",
+    "cr:608.3f",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "beckett-08:p1",
+   "from": "card:Double Down",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "608.3f",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-08",
+    "cr:707.10",
+    "cr:608.3f",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "beckett-08:p2",
+   "from": "card:Ramirez DePietro, Pillager",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "608.3f",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-08",
+    "cr:707.10",
+    "cr:608.3f",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "beckett-08:p3",
+   "from": "card:Hostage Taker",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "608.3f",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-08",
+    "cr:707.10",
+    "cr:608.3f",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "beckett-08:p4",
+   "from": "card:Coercive Recruiter",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "608.3f",
+    "704.5j"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-08",
+    "cr:707.10",
+    "cr:608.3f",
+    "cr:704.5j"
+   ]
+  },
+  {
+   "id": "beckett-09:m1",
+   "from": "commander:Admiral Beckett Brass",
+   "to": "combo:admiral-beckett-brass/beckett-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-09",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "beckett-09:m2",
+   "from": "card:Roaming Throne",
+   "to": "combo:admiral-beckett-brass/beckett-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-09",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "beckett-09:m3",
+   "from": "card:Admiral Brass, Unsinkable",
+   "to": "combo:admiral-beckett-brass/beckett-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-09",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "beckett-09:m4",
+   "from": "card:Breeches, Eager Pillager",
+   "to": "combo:admiral-beckett-brass/beckett-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-09",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "beckett-09:m5",
+   "from": "card:Coercive Recruiter",
+   "to": "combo:admiral-beckett-brass/beckett-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-09",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "beckett-09:m6",
+   "from": "card:Merchant Raiders",
+   "to": "combo:admiral-beckett-brass/beckett-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-09",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "beckett-09:m7",
+   "from": "card:Forerunner of the Coalition",
+   "to": "combo:admiral-beckett-brass/beckett-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-09",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "beckett-09:p1",
+   "from": "card:Roaming Throne",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-09",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "beckett-09:p2",
+   "from": "card:Admiral Brass, Unsinkable",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-09",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "beckett-09:p3",
+   "from": "card:Breeches, Eager Pillager",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-09",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "beckett-09:p4",
+   "from": "card:Coercive Recruiter",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-09",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "beckett-09:p5",
+   "from": "card:Merchant Raiders",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-09",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "beckett-09:p6",
+   "from": "card:Forerunner of the Coalition",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-09",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "beckett-17:m1",
+   "from": "commander:Admiral Beckett Brass",
+   "to": "interaction:admiral-beckett-brass/beckett-17",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-17",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3c",
+    "700.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-17",
+    "cr:603.3c",
+    "cr:700.2"
+   ]
+  },
+  {
+   "id": "beckett-17:m2",
+   "from": "card:Breeches, Eager Pillager",
+   "to": "interaction:admiral-beckett-brass/beckett-17",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-17",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3c",
+    "700.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-17",
+    "cr:603.3c",
+    "cr:700.2"
+   ]
+  },
+  {
+   "id": "beckett-17:m3",
+   "from": "card:Roaming Throne",
+   "to": "interaction:admiral-beckett-brass/beckett-17",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-17",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3c",
+    "700.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-17",
+    "cr:603.3c",
+    "cr:700.2"
+   ]
+  },
+  {
+   "id": "beckett-17:p1",
+   "from": "card:Breeches, Eager Pillager",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-17",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3c",
+    "700.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-17",
+    "cr:603.3c",
+    "cr:700.2"
+   ]
+  },
+  {
+   "id": "beckett-17:p2",
+   "from": "card:Roaming Throne",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-17",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3c",
+    "700.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-17",
+    "cr:603.3c",
+    "cr:700.2"
+   ]
+  },
+  {
+   "id": "beckett-10:m1",
+   "from": "commander:Admiral Beckett Brass",
+   "to": "interaction:admiral-beckett-brass/beckett-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-10",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "506.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-10",
+    "cr:500.8",
+    "cr:506.1"
+   ]
+  },
+  {
+   "id": "beckett-10:m2",
+   "from": "card:Port Razer",
+   "to": "interaction:admiral-beckett-brass/beckett-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-10",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "500.8",
+    "506.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-10",
+    "cr:500.8",
+    "cr:506.1"
+   ]
+  },
+  {
+   "id": "beckett-10:p1",
+   "from": "card:Port Razer",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-10",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "500.8",
+    "506.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-10",
+    "cr:500.8",
+    "cr:506.1"
+   ]
+  },
+  {
+   "id": "beckett-11:m1",
+   "from": "commander:Admiral Beckett Brass",
+   "to": "interaction:admiral-beckett-brass/beckett-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "510.2",
+    "120.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-11",
+    "cr:510.2",
+    "cr:120.3a"
+   ]
+  },
+  {
+   "id": "beckett-11:m2",
+   "from": "card:Open into Wonder",
+   "to": "interaction:admiral-beckett-brass/beckett-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "510.2",
+    "120.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-11",
+    "cr:510.2",
+    "cr:120.3a"
+   ]
+  },
+  {
+   "id": "beckett-11:m3",
+   "from": "card:Cover of Darkness",
+   "to": "interaction:admiral-beckett-brass/beckett-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "510.2",
+    "120.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-11",
+    "cr:510.2",
+    "cr:120.3a"
+   ]
+  },
+  {
+   "id": "beckett-11:m4",
+   "from": "card:Storm Fleet Sprinter",
+   "to": "interaction:admiral-beckett-brass/beckett-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "510.2",
+    "120.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-11",
+    "cr:510.2",
+    "cr:120.3a"
+   ]
+  },
+  {
+   "id": "beckett-11:p1",
+   "from": "card:Open into Wonder",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "510.2",
+    "120.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-11",
+    "cr:510.2",
+    "cr:120.3a"
+   ]
+  },
+  {
+   "id": "beckett-11:p2",
+   "from": "card:Cover of Darkness",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "510.2",
+    "120.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-11",
+    "cr:510.2",
+    "cr:120.3a"
+   ]
+  },
+  {
+   "id": "beckett-11:p3",
+   "from": "card:Storm Fleet Sprinter",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-11",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "510.2",
+    "120.3a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-11",
+    "cr:510.2",
+    "cr:120.3a"
+   ]
+  },
+  {
+   "id": "beckett-12:m1",
+   "from": "commander:Admiral Beckett Brass",
+   "to": "interaction:admiral-beckett-brass/beckett-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-12",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-12",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "beckett-12:m2",
+   "from": "card:The Indomitable",
+   "to": "interaction:admiral-beckett-brass/beckett-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-12",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-12",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "beckett-12:p1",
+   "from": "card:The Indomitable",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-12",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-12",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "beckett-13:m1",
+   "from": "commander:Admiral Beckett Brass",
+   "to": "interaction:admiral-beckett-brass/beckett-13",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-13",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-13",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "beckett-13:m2",
+   "from": "card:Edward Kenway",
+   "to": "interaction:admiral-beckett-brass/beckett-13",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-13",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-13",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "beckett-13:m3",
+   "from": "card:Daring Piracy",
+   "to": "interaction:admiral-beckett-brass/beckett-13",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-13",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-13",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "beckett-13:m4",
+   "from": "card:Zara, Renegade Recruiter",
+   "to": "interaction:admiral-beckett-brass/beckett-13",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-13",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-13",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "beckett-13:m5",
+   "from": "card:Ragavan, Nimble Pilferer",
+   "to": "interaction:admiral-beckett-brass/beckett-13",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-13",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-13",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "beckett-13:p1",
+   "from": "card:Edward Kenway",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-13",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-13",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "beckett-13:p2",
+   "from": "card:Daring Piracy",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-13",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-13",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "beckett-13:p3",
+   "from": "card:Zara, Renegade Recruiter",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-13",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-13",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "beckett-13:p4",
+   "from": "card:Ragavan, Nimble Pilferer",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-13",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-13",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "beckett-14:m1",
+   "from": "commander:Admiral Beckett Brass",
+   "to": "interaction:admiral-beckett-brass/beckett-14",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-14",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.4b",
+    "613.4c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-14",
+    "cr:613.4b",
+    "cr:613.4c"
+   ]
+  },
+  {
+   "id": "beckett-14:m2",
+   "from": "card:Admiral Brass, Unsinkable",
+   "to": "interaction:admiral-beckett-brass/beckett-14",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-14",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.4b",
+    "613.4c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-14",
+    "cr:613.4b",
+    "cr:613.4c"
+   ]
+  },
+  {
+   "id": "beckett-14:m3",
+   "from": "card:Corsair Captain",
+   "to": "interaction:admiral-beckett-brass/beckett-14",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-14",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.4b",
+    "613.4c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-14",
+    "cr:613.4b",
+    "cr:613.4c"
+   ]
+  },
+  {
+   "id": "beckett-14:p1",
+   "from": "card:Admiral Brass, Unsinkable",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-14",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.4b",
+    "613.4c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-14",
+    "cr:613.4b",
+    "cr:613.4c"
+   ]
+  },
+  {
+   "id": "beckett-14:p2",
+   "from": "card:Corsair Captain",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-14",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.4b",
+    "613.4c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-14",
+    "cr:613.4b",
+    "cr:613.4c"
+   ]
+  },
+  {
+   "id": "beckett-15:m1",
+   "from": "commander:Admiral Beckett Brass",
+   "to": "interaction:admiral-beckett-brass/beckett-15",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-15",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-15",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "beckett-15:m2",
+   "from": "card:Deflecting Swat",
+   "to": "interaction:admiral-beckett-brass/beckett-15",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-15",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-15",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "beckett-15:m3",
+   "from": "card:Fierce Guardianship",
+   "to": "interaction:admiral-beckett-brass/beckett-15",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-15",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-15",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "beckett-15:m4",
+   "from": "card:Jeska's Will",
+   "to": "interaction:admiral-beckett-brass/beckett-15",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-15",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-15",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "beckett-15:p1",
+   "from": "card:Deflecting Swat",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-15",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-15",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "beckett-15:p2",
+   "from": "card:Fierce Guardianship",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-15",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-15",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "beckett-15:p3",
+   "from": "card:Jeska's Will",
+   "to": "commander:Admiral Beckett Brass",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "beckett-15",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-15",
+    "cr:903.8"
+   ]
+  },
+  {
+   "id": "beckett-16:m1",
+   "from": "commander:Admiral Beckett Brass",
+   "to": "interaction:admiral-beckett-brass/beckett-16",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "beckett-16",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "510.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/admiral-beckett-brass.json#beckett-16",
+    "cr:510.2"
+   ]
+  }
+ ]
+}

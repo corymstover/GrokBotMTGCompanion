@@ -1,0 +1,1637 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Kess__Dissident_Mage",
+ "slug": "kess-dissident-mage",
+ "deck_sha256": "94dee35afe9fdb9871ee84abc0ac616ab23e133198d7d5d0ddba090b6942f2bd",
+ "review": "data/grixis_interactions/kess-dissident-mage.json",
+ "review_sha256": "32d34c3abbe5ad877fa8b6f021112eea51fa1a198c2f9512c0afe776adb6c9a5",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 9,
+  "nodes": 30,
+  "membership_edges": 34,
+  "pair_edges": 25
+ },
+ "nodes": [
+  {
+   "id": "commander:Kess, Dissident Mage",
+   "kind": "commander",
+   "name": "Kess, Dissident Mage",
+   "in_list": true
+  },
+  {
+   "id": "interaction:kess-dissident-mage/kess-01",
+   "kind": "interaction",
+   "interaction": "kess-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Displacer Kitten",
+   "kind": "card",
+   "name": "Displacer Kitten",
+   "in_list": true
+  },
+  {
+   "id": "interaction:kess-dissident-mage/kess-02",
+   "kind": "interaction",
+   "interaction": "kess-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Thassa's Oracle",
+   "kind": "card",
+   "name": "Thassa's Oracle",
+   "in_list": true
+  },
+  {
+   "id": "card:Demonic Consultation",
+   "kind": "card",
+   "name": "Demonic Consultation",
+   "in_list": true
+  },
+  {
+   "id": "card:Tainted Pact",
+   "kind": "card",
+   "name": "Tainted Pact",
+   "in_list": true
+  },
+  {
+   "id": "combo:kess-dissident-mage/kess-03",
+   "kind": "combo",
+   "interaction": "kess-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "742-1295",
+    "1295-3093"
+   ]
+  },
+  {
+   "id": "card:Intuition",
+   "kind": "card",
+   "name": "Intuition",
+   "in_list": true
+  },
+  {
+   "id": "card:Gifts Ungiven",
+   "kind": "card",
+   "name": "Gifts Ungiven",
+   "in_list": true
+  },
+  {
+   "id": "card:Reanimate",
+   "kind": "card",
+   "name": "Reanimate",
+   "in_list": true
+  },
+  {
+   "id": "combo:kess-dissident-mage/kess-04",
+   "kind": "combo",
+   "interaction": "kess-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Entomb",
+   "kind": "card",
+   "name": "Entomb",
+   "in_list": true
+  },
+  {
+   "id": "card:Snapcaster Mage",
+   "kind": "card",
+   "name": "Snapcaster Mage",
+   "in_list": true
+  },
+  {
+   "id": "card:Valley Floodcaller",
+   "kind": "card",
+   "name": "Valley Floodcaller",
+   "in_list": true
+  },
+  {
+   "id": "interaction:kess-dissident-mage/kess-05",
+   "kind": "interaction",
+   "interaction": "kess-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Underworld Breach",
+   "kind": "card",
+   "name": "Underworld Breach",
+   "in_list": true
+  },
+  {
+   "id": "card:Grinding Station",
+   "kind": "card",
+   "name": "Grinding Station",
+   "in_list": true
+  },
+  {
+   "id": "card:Lotus Petal",
+   "kind": "card",
+   "name": "Lotus Petal",
+   "in_list": true
+  },
+  {
+   "id": "card:Mox Opal",
+   "kind": "card",
+   "name": "Mox Opal",
+   "in_list": true
+  },
+  {
+   "id": "card:Chrome Mox",
+   "kind": "card",
+   "name": "Chrome Mox",
+   "in_list": true
+  },
+  {
+   "id": "combo:kess-dissident-mage/kess-06",
+   "kind": "combo",
+   "interaction": "kess-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1368-3698--44"
+   ]
+  },
+  {
+   "id": "card:Lion's Eye Diamond",
+   "kind": "card",
+   "name": "Lion's Eye Diamond",
+   "in_list": true
+  },
+  {
+   "id": "card:Brain Freeze",
+   "kind": "card",
+   "name": "Brain Freeze",
+   "in_list": true
+  },
+  {
+   "id": "card:Wheel of Fortune",
+   "kind": "card",
+   "name": "Wheel of Fortune",
+   "in_list": true
+  },
+  {
+   "id": "combo:kess-dissident-mage/kess-07",
+   "kind": "combo",
+   "interaction": "kess-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1368-3518-4856",
+    "1368-2706-3518"
+   ]
+  },
+  {
+   "id": "card:Demonic Counsel",
+   "kind": "card",
+   "name": "Demonic Counsel",
+   "in_list": true
+  },
+  {
+   "id": "interaction:kess-dissident-mage/kess-08",
+   "kind": "interaction",
+   "interaction": "kess-08",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Beseech the Mirror",
+   "kind": "card",
+   "name": "Beseech the Mirror",
+   "in_list": true
+  },
+  {
+   "id": "interaction:kess-dissident-mage/kess-09",
+   "kind": "interaction",
+   "interaction": "kess-09",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "kess-01:m1",
+   "from": "commander:Kess, Dissident Mage",
+   "to": "interaction:kess-dissident-mage/kess-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-01",
+    "cr:601.2",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "kess-02:m1",
+   "from": "commander:Kess, Dissident Mage",
+   "to": "interaction:kess-dissident-mage/kess-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-02",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "kess-02:m2",
+   "from": "card:Displacer Kitten",
+   "to": "interaction:kess-dissident-mage/kess-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-02",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "kess-02:p1",
+   "from": "card:Displacer Kitten",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-02",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "400.7"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-02",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "kess-03:m1",
+   "from": "commander:Kess, Dissident Mage",
+   "to": "combo:kess-dissident-mage/kess-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-03",
+    "cr:121.4",
+    "cr:603.3",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "kess-03:m2",
+   "from": "card:Thassa's Oracle",
+   "to": "combo:kess-dissident-mage/kess-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-03",
+    "cr:121.4",
+    "cr:603.3",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "kess-03:m3",
+   "from": "card:Demonic Consultation",
+   "to": "combo:kess-dissident-mage/kess-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-03",
+    "cr:121.4",
+    "cr:603.3",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "kess-03:m4",
+   "from": "card:Tainted Pact",
+   "to": "combo:kess-dissident-mage/kess-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "121.4",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-03",
+    "cr:121.4",
+    "cr:603.3",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "kess-03:p1",
+   "from": "card:Thassa's Oracle",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-03",
+    "cr:121.4",
+    "cr:603.3",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "kess-03:p2",
+   "from": "card:Demonic Consultation",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-03",
+    "cr:121.4",
+    "cr:603.3",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "kess-03:p3",
+   "from": "card:Tainted Pact",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "121.4",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-03",
+    "cr:121.4",
+    "cr:603.3",
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "kess-04:m1",
+   "from": "commander:Kess, Dissident Mage",
+   "to": "combo:kess-dissident-mage/kess-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-04",
+    "cr:601.2",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "kess-04:m2",
+   "from": "card:Intuition",
+   "to": "combo:kess-dissident-mage/kess-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-04",
+    "cr:601.2",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "kess-04:m3",
+   "from": "card:Gifts Ungiven",
+   "to": "combo:kess-dissident-mage/kess-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-04",
+    "cr:601.2",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "kess-04:m4",
+   "from": "card:Thassa's Oracle",
+   "to": "combo:kess-dissident-mage/kess-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-04",
+    "cr:601.2",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "kess-04:m5",
+   "from": "card:Reanimate",
+   "to": "combo:kess-dissident-mage/kess-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-04",
+    "cr:601.2",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "kess-04:m6",
+   "from": "card:Demonic Consultation",
+   "to": "combo:kess-dissident-mage/kess-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-04",
+    "cr:601.2",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "kess-04:m7",
+   "from": "card:Tainted Pact",
+   "to": "combo:kess-dissident-mage/kess-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-04",
+    "cr:601.2",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "kess-04:p1",
+   "from": "card:Intuition",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-04",
+    "cr:601.2",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "kess-04:p2",
+   "from": "card:Gifts Ungiven",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-04",
+    "cr:601.2",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "kess-04:p3",
+   "from": "card:Thassa's Oracle",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-04",
+    "cr:601.2",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "kess-04:p4",
+   "from": "card:Reanimate",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-04",
+    "cr:601.2",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "kess-04:p5",
+   "from": "card:Demonic Consultation",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-04",
+    "cr:601.2",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "kess-04:p6",
+   "from": "card:Tainted Pact",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2",
+    "603.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-04",
+    "cr:601.2",
+    "cr:603.3"
+   ]
+  },
+  {
+   "id": "kess-05:m1",
+   "from": "commander:Kess, Dissident Mage",
+   "to": "interaction:kess-dissident-mage/kess-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.34a",
+    "702.8a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-05",
+    "cr:702.34a",
+    "cr:702.8a"
+   ]
+  },
+  {
+   "id": "kess-05:m2",
+   "from": "card:Entomb",
+   "to": "interaction:kess-dissident-mage/kess-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.34a",
+    "702.8a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-05",
+    "cr:702.34a",
+    "cr:702.8a"
+   ]
+  },
+  {
+   "id": "kess-05:m3",
+   "from": "card:Snapcaster Mage",
+   "to": "interaction:kess-dissident-mage/kess-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.34a",
+    "702.8a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-05",
+    "cr:702.34a",
+    "cr:702.8a"
+   ]
+  },
+  {
+   "id": "kess-05:m4",
+   "from": "card:Valley Floodcaller",
+   "to": "interaction:kess-dissident-mage/kess-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.34a",
+    "702.8a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-05",
+    "cr:702.34a",
+    "cr:702.8a"
+   ]
+  },
+  {
+   "id": "kess-05:p1",
+   "from": "card:Entomb",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.34a",
+    "702.8a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-05",
+    "cr:702.34a",
+    "cr:702.8a"
+   ]
+  },
+  {
+   "id": "kess-05:p2",
+   "from": "card:Snapcaster Mage",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.34a",
+    "702.8a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-05",
+    "cr:702.34a",
+    "cr:702.8a"
+   ]
+  },
+  {
+   "id": "kess-05:p3",
+   "from": "card:Valley Floodcaller",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.34a",
+    "702.8a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-05",
+    "cr:702.34a",
+    "cr:702.8a"
+   ]
+  },
+  {
+   "id": "kess-06:m1",
+   "from": "commander:Kess, Dissident Mage",
+   "to": "combo:kess-dissident-mage/kess-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-06",
+    "cr:702.138a",
+    "cr:614.1a",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "kess-06:m2",
+   "from": "card:Underworld Breach",
+   "to": "combo:kess-dissident-mage/kess-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-06",
+    "cr:702.138a",
+    "cr:614.1a",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "kess-06:m3",
+   "from": "card:Grinding Station",
+   "to": "combo:kess-dissident-mage/kess-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-06",
+    "cr:702.138a",
+    "cr:614.1a",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "kess-06:m4",
+   "from": "card:Lotus Petal",
+   "to": "combo:kess-dissident-mage/kess-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-06",
+    "cr:702.138a",
+    "cr:614.1a",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "kess-06:m5",
+   "from": "card:Mox Opal",
+   "to": "combo:kess-dissident-mage/kess-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-06",
+    "cr:702.138a",
+    "cr:614.1a",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "kess-06:m6",
+   "from": "card:Chrome Mox",
+   "to": "combo:kess-dissident-mage/kess-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-06",
+    "cr:702.138a",
+    "cr:614.1a",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "kess-06:p1",
+   "from": "card:Underworld Breach",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-06",
+    "cr:702.138a",
+    "cr:614.1a",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "kess-06:p2",
+   "from": "card:Grinding Station",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-06",
+    "cr:702.138a",
+    "cr:614.1a",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "kess-06:p3",
+   "from": "card:Lotus Petal",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-06",
+    "cr:702.138a",
+    "cr:614.1a",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "kess-06:p4",
+   "from": "card:Mox Opal",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-06",
+    "cr:702.138a",
+    "cr:614.1a",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "kess-06:p5",
+   "from": "card:Chrome Mox",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-06",
+    "cr:702.138a",
+    "cr:614.1a",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "kess-07:m1",
+   "from": "commander:Kess, Dissident Mage",
+   "to": "combo:kess-dissident-mage/kess-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-07",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "kess-07:m2",
+   "from": "card:Underworld Breach",
+   "to": "combo:kess-dissident-mage/kess-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-07",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "kess-07:m3",
+   "from": "card:Lion's Eye Diamond",
+   "to": "combo:kess-dissident-mage/kess-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-07",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "kess-07:m4",
+   "from": "card:Brain Freeze",
+   "to": "combo:kess-dissident-mage/kess-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-07",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "kess-07:m5",
+   "from": "card:Wheel of Fortune",
+   "to": "combo:kess-dissident-mage/kess-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-07",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "kess-07:m6",
+   "from": "card:Lotus Petal",
+   "to": "combo:kess-dissident-mage/kess-07",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-07",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "kess-07:p1",
+   "from": "card:Underworld Breach",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-07",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "kess-07:p2",
+   "from": "card:Lion's Eye Diamond",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-07",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "kess-07:p3",
+   "from": "card:Brain Freeze",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-07",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "kess-07:p4",
+   "from": "card:Wheel of Fortune",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-07",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "kess-07:p5",
+   "from": "card:Lotus Petal",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-07",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-07",
+    "cr:702.138a",
+    "cr:702.40a",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-2706-3518"
+   ]
+  },
+  {
+   "id": "kess-08:m1",
+   "from": "commander:Kess, Dissident Mage",
+   "to": "interaction:kess-dissident-mage/kess-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-08",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "207.2c",
+    "205.2a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-08",
+    "cr:207.2c",
+    "cr:205.2a"
+   ]
+  },
+  {
+   "id": "kess-08:m2",
+   "from": "card:Demonic Counsel",
+   "to": "interaction:kess-dissident-mage/kess-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-08",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "207.2c",
+    "205.2a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-08",
+    "cr:207.2c",
+    "cr:205.2a"
+   ]
+  },
+  {
+   "id": "kess-08:p1",
+   "from": "card:Demonic Counsel",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-08",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "207.2c",
+    "205.2a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-08",
+    "cr:207.2c",
+    "cr:205.2a"
+   ]
+  },
+  {
+   "id": "kess-09:m1",
+   "from": "commander:Kess, Dissident Mage",
+   "to": "interaction:kess-dissident-mage/kess-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-09",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "608.2g",
+    "702.166a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-09",
+    "cr:608.2g",
+    "cr:702.166a"
+   ]
+  },
+  {
+   "id": "kess-09:m2",
+   "from": "card:Beseech the Mirror",
+   "to": "interaction:kess-dissident-mage/kess-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "kess-09",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "608.2g",
+    "702.166a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-09",
+    "cr:608.2g",
+    "cr:702.166a"
+   ]
+  },
+  {
+   "id": "kess-09:p1",
+   "from": "card:Beseech the Mirror",
+   "to": "commander:Kess, Dissident Mage",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "kess-09",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "608.2g",
+    "702.166a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/kess-dissident-mage.json#kess-09",
+    "cr:608.2g",
+    "cr:702.166a"
+   ]
+  }
+ ]
+}

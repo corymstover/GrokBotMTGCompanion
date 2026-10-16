@@ -1,0 +1,262 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/interaction_edges.schema.json",
+ "title": "Per-deck interaction-review edges (Bot cycle 58, M1 → M4 input)",
+ "description": "Machine-readable edges emitted by scripts/grixis_interactions.py from one M1 interaction review (data/grixis_interactions/<slug>.json). Each ruling becomes a hub node (combo:… for combo rulings, interaction:… otherwise) with one membership edge per card it names (piece_of / member_of, the same kinds as graph.schema.json). Rulings that name two or more cards also give pairwise edges from each card to the ruling's anchor (the commander when the ruling names it, else its first card). The edges are generated, never hand-edited; --check fails if they drift from the review.",
+ "type": "object",
+ "properties": {
+  "schema_version": {
+   "const": 1
+  },
+  "generated_by": {
+   "const": "scripts/grixis_interactions.py"
+  },
+  "rule_version": {
+   "const": "edges-v1"
+  },
+  "deck_id": {
+   "$ref": "common.schema.json#/$defs/deck_id"
+  },
+  "slug": {
+   "$ref": "common.schema.json#/$defs/slug"
+  },
+  "deck_sha256": {
+   "type": "string",
+   "pattern": "^[0-9a-f]{64}$"
+  },
+  "review": {
+   "type": "string",
+   "pattern": "^data/grixis_interactions/[a-z0-9-]+\\.json$"
+  },
+  "review_sha256": {
+   "type": "string",
+   "pattern": "^[0-9a-f]{64}$"
+  },
+  "cr_version": {
+   "type": "string",
+   "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+  },
+  "counts": {
+   "type": "object",
+   "properties": {
+    "interactions": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "nodes": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "membership_edges": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "pair_edges": {
+     "type": "integer",
+     "minimum": 0
+    }
+   },
+   "required": [
+    "interactions",
+    "nodes",
+    "membership_edges",
+    "pair_edges"
+   ],
+   "additionalProperties": false
+  },
+  "nodes": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^(card|commander|combo|interaction):.+"
+     },
+     "kind": {
+      "enum": [
+       "card",
+       "commander",
+       "combo",
+       "interaction"
+      ]
+     },
+     "name": {
+      "type": "string",
+      "minLength": 1
+     },
+     "interaction": {
+      "type": "string",
+      "minLength": 1
+     },
+     "topic": {
+      "type": "string"
+     },
+     "status": {
+      "enum": [
+       "verified",
+       "uncertain",
+       "flag"
+      ]
+     },
+     "flag_kind": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "evidence_class": {
+      "$ref": "common.schema.json#/$defs/evidence_class"
+     },
+     "spellbook": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "in_list": {
+      "type": "boolean",
+      "description": "False for a card the review names that is not in the canonical list (the review's `absent` list)."
+     }
+    },
+    "required": [
+     "id",
+     "kind"
+    ],
+    "additionalProperties": false
+   }
+  },
+  "edges": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^.+:(m|p|a)\\d+$"
+     },
+     "from": {
+      "type": "string",
+      "pattern": "^(card|commander):.+"
+     },
+     "to": {
+      "type": "string",
+      "pattern": "^(card|commander|combo|interaction):.+"
+     },
+     "kind": {
+      "enum": [
+       "piece_of",
+       "member_of",
+       "combo_with",
+       "interacts_with",
+       "conflicts_with",
+       "enables",
+       "tutors_for",
+       "protects",
+       "recurs",
+       "fuels",
+       "payoff_of",
+       "fixes",
+       "redundant_with"
+      ]
+     },
+     "graph_kind": {
+      "description": "The graph.schema.json edge kind M4 can use as is, or null for a review-layer relation M4 keeps as an annotation.",
+      "enum": [
+       "piece_of",
+       "member_of",
+       "enables",
+       "tutors_for",
+       "protects",
+       "recurs",
+       "fuels",
+       "payoff_of",
+       "fixes",
+       "redundant_with",
+       null
+      ]
+     },
+     "layer": {
+      "enum": [
+       "membership",
+       "pair",
+       "authored"
+      ]
+     },
+     "symmetric": {
+      "type": "boolean"
+     },
+     "interaction": {
+      "type": "string",
+      "minLength": 1
+     },
+     "topic": {
+      "type": "string"
+     },
+     "status": {
+      "enum": [
+       "verified",
+       "uncertain",
+       "flag"
+      ]
+     },
+     "flag_kind": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "evidence_class": {
+      "$ref": "common.schema.json#/$defs/evidence_class"
+     },
+     "cr": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "pattern": "^\\d{3}(\\.\\d+[a-z]?)?$"
+      }
+     },
+     "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+       "$ref": "common.schema.json#/$defs/evidence_ref"
+      }
+     }
+    },
+    "required": [
+     "id",
+     "from",
+     "to",
+     "kind",
+     "graph_kind",
+     "layer",
+     "symmetric",
+     "interaction",
+     "status",
+     "evidence_class",
+     "cr",
+     "evidence"
+    ],
+    "additionalProperties": false
+   }
+  }
+ },
+ "required": [
+  "schema_version",
+  "generated_by",
+  "rule_version",
+  "deck_id",
+  "slug",
+  "deck_sha256",
+  "review",
+  "review_sha256",
+  "cr_version",
+  "counts",
+  "nodes",
+  "edges"
+ ],
+ "additionalProperties": false
+}

@@ -1,0 +1,1397 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Nathan_Drake__Treasure_Hunter",
+ "slug": "nathan-drake-treasure-hunter",
+ "deck_sha256": "112b792ce420b422a35d9d9f301cd826a4ca46b50f5c25736683eb80c6160698",
+ "review": "data/grixis_interactions/nathan-drake-treasure-hunter.json",
+ "review_sha256": "5cd71d508954d06dfad3cbb017f2b7e393e1f700ed969f1abe93426f13af7004",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 8,
+  "nodes": 29,
+  "membership_edges": 29,
+  "pair_edges": 21
+ },
+ "nodes": [
+  {
+   "id": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "commander",
+   "name": "Nathan Drake, Treasure Hunter",
+   "in_list": true
+  },
+  {
+   "id": "card:Etali, Primal Storm",
+   "kind": "card",
+   "name": "Etali, Primal Storm",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nathan-drake-treasure-hunter/nathan-01",
+   "kind": "interaction",
+   "interaction": "nathan-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Thieving Varmint",
+   "kind": "card",
+   "name": "Thieving Varmint",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nathan-drake-treasure-hunter/nathan-02",
+   "kind": "interaction",
+   "interaction": "nathan-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Fire Nation Palace",
+   "kind": "card",
+   "name": "Fire Nation Palace",
+   "in_list": true
+  },
+  {
+   "id": "card:Fire Lord Azula",
+   "kind": "card",
+   "name": "Fire Lord Azula",
+   "in_list": true
+  },
+  {
+   "id": "card:Firebender Ascension",
+   "kind": "card",
+   "name": "Firebender Ascension",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nathan-drake-treasure-hunter/nathan-03",
+   "kind": "interaction",
+   "interaction": "nathan-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Roaming Throne",
+   "kind": "card",
+   "name": "Roaming Throne",
+   "in_list": true
+  },
+  {
+   "id": "card:Karlach, Fury of Avernus",
+   "kind": "card",
+   "name": "Karlach, Fury of Avernus",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nathan-drake-treasure-hunter/nathan-04",
+   "kind": "interaction",
+   "interaction": "nathan-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Wild-Magic Sorcerer",
+   "kind": "card",
+   "name": "Wild-Magic Sorcerer",
+   "in_list": true
+  },
+  {
+   "id": "card:Nalfeshnee",
+   "kind": "card",
+   "name": "Nalfeshnee",
+   "in_list": true
+  },
+  {
+   "id": "card:Passionate Archaeologist",
+   "kind": "card",
+   "name": "Passionate Archaeologist",
+   "in_list": true
+  },
+  {
+   "id": "card:Interdimensional Web Watch",
+   "kind": "card",
+   "name": "Interdimensional Web Watch",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nathan-drake-treasure-hunter/nathan-05",
+   "kind": "interaction",
+   "interaction": "nathan-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Gonti, Night Minister",
+   "kind": "card",
+   "name": "Gonti, Night Minister",
+   "in_list": true
+  },
+  {
+   "id": "card:Tasha, the Witch Queen",
+   "kind": "card",
+   "name": "Tasha, the Witch Queen",
+   "in_list": true
+  },
+  {
+   "id": "card:Vaan, Street Thief",
+   "kind": "card",
+   "name": "Vaan, Street Thief",
+   "in_list": true
+  },
+  {
+   "id": "card:Don Andres, the Renegade",
+   "kind": "card",
+   "name": "Don Andres, the Renegade",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nathan-drake-treasure-hunter/nathan-06",
+   "kind": "interaction",
+   "interaction": "nathan-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Dauthi Voidwalker",
+   "kind": "card",
+   "name": "Dauthi Voidwalker",
+   "in_list": true
+  },
+  {
+   "id": "card:Tinybones, the Pickpocket",
+   "kind": "card",
+   "name": "Tinybones, the Pickpocket",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nathan-drake-treasure-hunter/nathan-07",
+   "kind": "interaction",
+   "interaction": "nathan-07",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Arena of Glory",
+   "kind": "card",
+   "name": "Arena of Glory",
+   "in_list": true
+  },
+  {
+   "id": "card:Shizo, Death's Storehouse",
+   "kind": "card",
+   "name": "Shizo, Death's Storehouse",
+   "in_list": true
+  },
+  {
+   "id": "card:Brotherhood Regalia",
+   "kind": "card",
+   "name": "Brotherhood Regalia",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nathan-drake-treasure-hunter/nathan-08",
+   "kind": "interaction",
+   "interaction": "nathan-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "nathan-01:m1",
+   "from": "commander:Nathan Drake, Treasure Hunter",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "608.2g",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-01",
+    "cr:608.2g",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "nathan-01:m2",
+   "from": "card:Etali, Primal Storm",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "608.2g",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-01",
+    "cr:608.2g",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "nathan-01:p1",
+   "from": "card:Etali, Primal Storm",
+   "to": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nathan-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "608.2g",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-01",
+    "cr:608.2g",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "nathan-02:m1",
+   "from": "commander:Nathan Drake, Treasure Hunter",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "609.4b",
+    "601.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-02",
+    "cr:609.4b",
+    "cr:601.2g"
+   ]
+  },
+  {
+   "id": "nathan-02:m2",
+   "from": "card:Thieving Varmint",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "609.4b",
+    "601.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-02",
+    "cr:609.4b",
+    "cr:601.2g"
+   ]
+  },
+  {
+   "id": "nathan-02:p1",
+   "from": "card:Thieving Varmint",
+   "to": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nathan-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "609.4b",
+    "601.2g"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-02",
+    "cr:609.4b",
+    "cr:601.2g"
+   ]
+  },
+  {
+   "id": "nathan-03:m1",
+   "from": "commander:Nathan Drake, Treasure Hunter",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "702.189a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-03",
+    "cr:603.3b",
+    "cr:702.189a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-03:m2",
+   "from": "card:Fire Nation Palace",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "702.189a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-03",
+    "cr:603.3b",
+    "cr:702.189a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-03:m3",
+   "from": "card:Fire Lord Azula",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "702.189a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-03",
+    "cr:603.3b",
+    "cr:702.189a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-03:m4",
+   "from": "card:Firebender Ascension",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.3b",
+    "702.189a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-03",
+    "cr:603.3b",
+    "cr:702.189a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-03:p1",
+   "from": "card:Fire Nation Palace",
+   "to": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nathan-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b",
+    "702.189a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-03",
+    "cr:603.3b",
+    "cr:702.189a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-03:p2",
+   "from": "card:Fire Lord Azula",
+   "to": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nathan-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b",
+    "702.189a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-03",
+    "cr:603.3b",
+    "cr:702.189a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-03:p3",
+   "from": "card:Firebender Ascension",
+   "to": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nathan-03",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.3b",
+    "702.189a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-03",
+    "cr:603.3b",
+    "cr:702.189a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-04:m1",
+   "from": "commander:Nathan Drake, Treasure Hunter",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "707.10",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-04",
+    "cr:603.2",
+    "cr:707.10",
+    "cr:500.8"
+   ]
+  },
+  {
+   "id": "nathan-04:m2",
+   "from": "card:Roaming Throne",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "707.10",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-04",
+    "cr:603.2",
+    "cr:707.10",
+    "cr:500.8"
+   ]
+  },
+  {
+   "id": "nathan-04:m3",
+   "from": "card:Firebender Ascension",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "707.10",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-04",
+    "cr:603.2",
+    "cr:707.10",
+    "cr:500.8"
+   ]
+  },
+  {
+   "id": "nathan-04:m4",
+   "from": "card:Karlach, Fury of Avernus",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "707.10",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-04",
+    "cr:603.2",
+    "cr:707.10",
+    "cr:500.8"
+   ]
+  },
+  {
+   "id": "nathan-04:p1",
+   "from": "card:Roaming Throne",
+   "to": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nathan-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "707.10",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-04",
+    "cr:603.2",
+    "cr:707.10",
+    "cr:500.8"
+   ]
+  },
+  {
+   "id": "nathan-04:p2",
+   "from": "card:Firebender Ascension",
+   "to": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nathan-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "707.10",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-04",
+    "cr:603.2",
+    "cr:707.10",
+    "cr:500.8"
+   ]
+  },
+  {
+   "id": "nathan-04:p3",
+   "from": "card:Karlach, Fury of Avernus",
+   "to": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nathan-04",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "707.10",
+    "500.8"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-04",
+    "cr:603.2",
+    "cr:707.10",
+    "cr:500.8"
+   ]
+  },
+  {
+   "id": "nathan-05:m1",
+   "from": "commander:Nathan Drake, Treasure Hunter",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-05",
+    "cr:702.85a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-05:m2",
+   "from": "card:Wild-Magic Sorcerer",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-05",
+    "cr:702.85a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-05:m3",
+   "from": "card:Nalfeshnee",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-05",
+    "cr:702.85a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-05:m4",
+   "from": "card:Passionate Archaeologist",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-05",
+    "cr:702.85a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-05:m5",
+   "from": "card:Interdimensional Web Watch",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.85a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-05",
+    "cr:702.85a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-05:p1",
+   "from": "card:Wild-Magic Sorcerer",
+   "to": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nathan-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-05",
+    "cr:702.85a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-05:p2",
+   "from": "card:Nalfeshnee",
+   "to": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nathan-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-05",
+    "cr:702.85a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-05:p3",
+   "from": "card:Passionate Archaeologist",
+   "to": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nathan-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-05",
+    "cr:702.85a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-05:p4",
+   "from": "card:Interdimensional Web Watch",
+   "to": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nathan-05",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.85a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-05",
+    "cr:702.85a",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-06:m1",
+   "from": "commander:Nathan Drake, Treasure Hunter",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-06",
+    "cr:108.3",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-06:m2",
+   "from": "card:Gonti, Night Minister",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-06",
+    "cr:108.3",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-06:m3",
+   "from": "card:Tasha, the Witch Queen",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-06",
+    "cr:108.3",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-06:m4",
+   "from": "card:Vaan, Street Thief",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-06",
+    "cr:108.3",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-06:m5",
+   "from": "card:Don Andres, the Renegade",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-06",
+    "cr:108.3",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-06:p1",
+   "from": "card:Gonti, Night Minister",
+   "to": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nathan-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "108.3",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-06",
+    "cr:108.3",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-06:p2",
+   "from": "card:Tasha, the Witch Queen",
+   "to": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nathan-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "108.3",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-06",
+    "cr:108.3",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-06:p3",
+   "from": "card:Vaan, Street Thief",
+   "to": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nathan-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "108.3",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-06",
+    "cr:108.3",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-06:p4",
+   "from": "card:Don Andres, the Renegade",
+   "to": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nathan-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "108.3",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-06",
+    "cr:108.3",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "nathan-07:m1",
+   "from": "commander:Nathan Drake, Treasure Hunter",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-07",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "614.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-07",
+    "cr:614.1a",
+    "cr:614.6"
+   ]
+  },
+  {
+   "id": "nathan-07:m2",
+   "from": "card:Dauthi Voidwalker",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-07",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "614.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-07",
+    "cr:614.1a",
+    "cr:614.6"
+   ]
+  },
+  {
+   "id": "nathan-07:m3",
+   "from": "card:Tinybones, the Pickpocket",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-07",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "614.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-07",
+    "cr:614.1a",
+    "cr:614.6"
+   ]
+  },
+  {
+   "id": "nathan-07:p1",
+   "from": "card:Dauthi Voidwalker",
+   "to": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nathan-07",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "614.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-07",
+    "cr:614.1a",
+    "cr:614.6"
+   ]
+  },
+  {
+   "id": "nathan-07:p2",
+   "from": "card:Tinybones, the Pickpocket",
+   "to": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nathan-07",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "614.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-07",
+    "cr:614.1a",
+    "cr:614.6"
+   ]
+  },
+  {
+   "id": "nathan-08:m1",
+   "from": "commander:Nathan Drake, Treasure Hunter",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10b",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-08",
+    "cr:702.10b",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "nathan-08:m2",
+   "from": "card:Arena of Glory",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10b",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-08",
+    "cr:702.10b",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "nathan-08:m3",
+   "from": "card:Shizo, Death's Storehouse",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10b",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-08",
+    "cr:702.10b",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "nathan-08:m4",
+   "from": "card:Brotherhood Regalia",
+   "to": "interaction:nathan-drake-treasure-hunter/nathan-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nathan-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.10b",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-08",
+    "cr:702.10b",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "nathan-08:p1",
+   "from": "card:Arena of Glory",
+   "to": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nathan-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.10b",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-08",
+    "cr:702.10b",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "nathan-08:p2",
+   "from": "card:Shizo, Death's Storehouse",
+   "to": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nathan-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.10b",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-08",
+    "cr:702.10b",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "nathan-08:p3",
+   "from": "card:Brotherhood Regalia",
+   "to": "commander:Nathan Drake, Treasure Hunter",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nathan-08",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.10b",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nathan-drake-treasure-hunter.json#nathan-08",
+    "cr:702.10b",
+    "cr:302.6"
+   ]
+  }
+ ]
+}

@@ -189,6 +189,14 @@ Status is in `data/grixis/registry.json → program.milestones`. Only Cory sets 
 ### M1
 **Interaction reviews, all 62.** Every deck has a current interaction review whose hash equals the deck's **canonical** list hash (`canonical_project_list.export`), every citation verbatim; Bjorna's review covers Trade Secrets, Yawgmoth's Bargain and the Lutri companion; reviews emit machine-readable edges for M4; the 518 source rulings are folded in or explicitly dispositioned.
 
+*Status (Bot cycles 46–58; criteria 1–5 met, 6 waits for Cory):*
+1. ✅ 62/62 decks have a current review (594 rulings); `validate_all` step `interactions`.
+2. ✅ Every review's hash equals its deck's `canonical_project_list.export` hash: 62/62.
+3. ✅ Every citation is verbatim and machine-checked (Oracle, Scryfall rulings, CR, Spellbook steps, archived sources). One exception: the Gatherer 2026-07-29 ruling in tressret-07 is a URL quote. It is linked, but `--check` doesn't verify the quote.
+4. ✅ Bjorna's review covers Trade Secrets, Yawgmoth's Bargain and the Lutri companion.
+5. ✅ Machine-readable edges for M4: `data/grixis_interactions/edges/<slug>.json`, 62/62, valid against `interaction_edges.schema.json` (Bot cycle 58; rule `edges-v1`, see [Interaction reviews](interactions/README.md#edges-for-m4)). The 518 source rulings: 515 folded in, 3 dispositioned with reasons in `_attestation_dispositions.json`, 0 missing (checked).
+6. ⏳ Cory's acceptance (`program.milestones.M1`).
+
 ### M2
 **Commander blueprints v1.** 62 blueprints validate against `blueprint.schema.json`; each names identity core, anti-goals, packages with minimum counts, win conditions, failure modes, tutor targets and construction rules; each has a `grok_estimated_ceiling` with evidence and a `disagreement` flag where it differs from the source; Cory has reviewed the sample he chooses and marked them reviewed.
 

@@ -1,0 +1,2255 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Nekusar__the_Mindrazer",
+ "slug": "nekusar-the-mindrazer",
+ "deck_sha256": "485e4aa8caea97c607374dde3e15c052ee87e15502ee2161a37cc0ecfbe2cf5f",
+ "review": "data/grixis_interactions/nekusar-the-mindrazer.json",
+ "review_sha256": "9e425f4a35a3036cee1b3ea239b003b0dd6b37e3f6377b2759d2c32fb78327fb",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 9,
+  "nodes": 41,
+  "membership_edges": 46,
+  "pair_edges": 37
+ },
+ "nodes": [
+  {
+   "id": "commander:Nekusar, the Mindrazer",
+   "kind": "commander",
+   "name": "Nekusar, the Mindrazer",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nekusar-the-mindrazer/nekusar-01",
+   "kind": "interaction",
+   "interaction": "nekusar-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Wizard's Staff",
+   "kind": "card",
+   "name": "Wizard's Staff",
+   "in_list": true
+  },
+  {
+   "id": "card:Harmonic Prodigy",
+   "kind": "card",
+   "name": "Harmonic Prodigy",
+   "in_list": true
+  },
+  {
+   "id": "card:Krang, the All-Powerful",
+   "kind": "card",
+   "name": "Krang, the All-Powerful",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nekusar-the-mindrazer/nekusar-02",
+   "kind": "interaction",
+   "interaction": "nekusar-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Spiteful Visions",
+   "kind": "card",
+   "name": "Spiteful Visions",
+   "in_list": true
+  },
+  {
+   "id": "card:Phyrexian Tyranny",
+   "kind": "card",
+   "name": "Phyrexian Tyranny",
+   "in_list": true
+  },
+  {
+   "id": "card:Wheel of Fortune",
+   "kind": "card",
+   "name": "Wheel of Fortune",
+   "in_list": true
+  },
+  {
+   "id": "card:Echo of Eons",
+   "kind": "card",
+   "name": "Echo of Eons",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nekusar-the-mindrazer/nekusar-03",
+   "kind": "interaction",
+   "interaction": "nekusar-03",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Ghyrson Starn, Kelermorph",
+   "kind": "card",
+   "name": "Ghyrson Starn, Kelermorph",
+   "in_list": true
+  },
+  {
+   "id": "card:Fate Unraveler",
+   "kind": "card",
+   "name": "Fate Unraveler",
+   "in_list": true
+  },
+  {
+   "id": "card:Underworld Dreams",
+   "kind": "card",
+   "name": "Underworld Dreams",
+   "in_list": true
+  },
+  {
+   "id": "card:Razorkin Needlehead",
+   "kind": "card",
+   "name": "Razorkin Needlehead",
+   "in_list": true
+  },
+  {
+   "id": "card:Kederekt Parasite",
+   "kind": "card",
+   "name": "Kederekt Parasite",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nekusar-the-mindrazer/nekusar-04",
+   "kind": "interaction",
+   "interaction": "nekusar-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Peer into the Abyss",
+   "kind": "card",
+   "name": "Peer into the Abyss",
+   "in_list": true
+  },
+  {
+   "id": "card:Sheoldred, the Apocalypse",
+   "kind": "card",
+   "name": "Sheoldred, the Apocalypse",
+   "in_list": true
+  },
+  {
+   "id": "card:Orcish Bowmasters",
+   "kind": "card",
+   "name": "Orcish Bowmasters",
+   "in_list": true
+  },
+  {
+   "id": "combo:nekusar-the-mindrazer/nekusar-05",
+   "kind": "combo",
+   "interaction": "nekusar-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1561-1972",
+    "1561-2720",
+    "1561-2498"
+   ]
+  },
+  {
+   "id": "card:Curiosity",
+   "kind": "card",
+   "name": "Curiosity",
+   "in_list": true
+  },
+  {
+   "id": "card:Niv-Mizzet, Parun",
+   "kind": "card",
+   "name": "Niv-Mizzet, Parun",
+   "in_list": true
+  },
+  {
+   "id": "card:Consecrated Sphinx",
+   "kind": "card",
+   "name": "Consecrated Sphinx",
+   "in_list": true
+  },
+  {
+   "id": "combo:nekusar-the-mindrazer/nekusar-06",
+   "kind": "combo",
+   "interaction": "nekusar-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1089-2353"
+   ]
+  },
+  {
+   "id": "card:Teferi's Puzzle Box",
+   "kind": "card",
+   "name": "Teferi's Puzzle Box",
+   "in_list": true
+  },
+  {
+   "id": "card:Kami of the Crescent Moon",
+   "kind": "card",
+   "name": "Kami of the Crescent Moon",
+   "in_list": true
+  },
+  {
+   "id": "card:Anvil of Bogardan",
+   "kind": "card",
+   "name": "Anvil of Bogardan",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nekusar-the-mindrazer/nekusar-07",
+   "kind": "interaction",
+   "interaction": "nekusar-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Windfall",
+   "kind": "card",
+   "name": "Windfall",
+   "in_list": true
+  },
+  {
+   "id": "card:Whispering Madness",
+   "kind": "card",
+   "name": "Whispering Madness",
+   "in_list": true
+  },
+  {
+   "id": "card:Dark Deal",
+   "kind": "card",
+   "name": "Dark Deal",
+   "in_list": true
+  },
+  {
+   "id": "card:Jace's Archivist",
+   "kind": "card",
+   "name": "Jace's Archivist",
+   "in_list": true
+  },
+  {
+   "id": "card:Winds of Change",
+   "kind": "card",
+   "name": "Winds of Change",
+   "in_list": true
+  },
+  {
+   "id": "card:Molten Psyche",
+   "kind": "card",
+   "name": "Molten Psyche",
+   "in_list": true
+  },
+  {
+   "id": "card:Waste Not",
+   "kind": "card",
+   "name": "Waste Not",
+   "in_list": true
+  },
+  {
+   "id": "card:Liliana's Caress",
+   "kind": "card",
+   "name": "Liliana's Caress",
+   "in_list": true
+  },
+  {
+   "id": "interaction:nekusar-the-mindrazer/nekusar-08",
+   "kind": "interaction",
+   "interaction": "nekusar-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Underworld Breach",
+   "kind": "card",
+   "name": "Underworld Breach",
+   "in_list": true
+  },
+  {
+   "id": "card:Jeska's Will",
+   "kind": "card",
+   "name": "Jeska's Will",
+   "in_list": true
+  },
+  {
+   "id": "combo:nekusar-the-mindrazer/nekusar-09",
+   "kind": "combo",
+   "interaction": "nekusar-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1368-1878-2706",
+    "1368-1878-2706"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "id": "nekusar-01:m1",
+   "from": "commander:Nekusar, the Mindrazer",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "504.1",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-01",
+    "cr:504.1",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-02:m1",
+   "from": "commander:Nekusar, the Mindrazer",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-02",
+    "cr:603.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "nekusar-02:m2",
+   "from": "card:Wizard's Staff",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-02",
+    "cr:603.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "nekusar-02:m3",
+   "from": "card:Harmonic Prodigy",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-02",
+    "cr:603.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "nekusar-02:m4",
+   "from": "card:Krang, the All-Powerful",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-02",
+    "cr:603.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "nekusar-02:p1",
+   "from": "card:Wizard's Staff",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-02",
+    "cr:603.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "nekusar-02:p2",
+   "from": "card:Harmonic Prodigy",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-02",
+    "cr:603.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "nekusar-02:p3",
+   "from": "card:Krang, the All-Powerful",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-02",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-02",
+    "cr:603.2",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "nekusar-03:m1",
+   "from": "commander:Nekusar, the Mindrazer",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-03",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-03",
+    "cr:603.2",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-03:m2",
+   "from": "card:Krang, the All-Powerful",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-03",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-03",
+    "cr:603.2",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-03:m3",
+   "from": "card:Spiteful Visions",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-03",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-03",
+    "cr:603.2",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-03:m4",
+   "from": "card:Phyrexian Tyranny",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-03",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-03",
+    "cr:603.2",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-03:m5",
+   "from": "card:Wheel of Fortune",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-03",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-03",
+    "cr:603.2",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-03:m6",
+   "from": "card:Echo of Eons",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-03",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-03",
+    "cr:603.2",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-03:p1",
+   "from": "card:Krang, the All-Powerful",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-03",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-03",
+    "cr:603.2",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-03:p2",
+   "from": "card:Spiteful Visions",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-03",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-03",
+    "cr:603.2",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-03:p3",
+   "from": "card:Phyrexian Tyranny",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-03",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-03",
+    "cr:603.2",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-03:p4",
+   "from": "card:Wheel of Fortune",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-03",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-03",
+    "cr:603.2",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-03:p5",
+   "from": "card:Echo of Eons",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-03",
+   "topic": "dependency",
+   "status": "flag",
+   "flag_kind": "dependency-risk",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-03",
+    "cr:603.2",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-04:m1",
+   "from": "commander:Nekusar, the Mindrazer",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-04",
+    "cr:614.1a",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-04:m2",
+   "from": "card:Ghyrson Starn, Kelermorph",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-04",
+    "cr:614.1a",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-04:m3",
+   "from": "card:Fate Unraveler",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-04",
+    "cr:614.1a",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-04:m4",
+   "from": "card:Underworld Dreams",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-04",
+    "cr:614.1a",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-04:m5",
+   "from": "card:Razorkin Needlehead",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-04",
+    "cr:614.1a",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-04:m6",
+   "from": "card:Kederekt Parasite",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "614.1a",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-04",
+    "cr:614.1a",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-04:p1",
+   "from": "card:Ghyrson Starn, Kelermorph",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-04",
+    "cr:614.1a",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-04:p2",
+   "from": "card:Fate Unraveler",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-04",
+    "cr:614.1a",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-04:p3",
+   "from": "card:Underworld Dreams",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-04",
+    "cr:614.1a",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-04:p4",
+   "from": "card:Razorkin Needlehead",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-04",
+    "cr:614.1a",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-04:p5",
+   "from": "card:Kederekt Parasite",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-04",
+   "topic": "replacement",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "614.1a",
+    "120.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-04",
+    "cr:614.1a",
+    "cr:120.3"
+   ]
+  },
+  {
+   "id": "nekusar-05:m1",
+   "from": "commander:Nekusar, the Mindrazer",
+   "to": "combo:nekusar-the-mindrazer/nekusar-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.3",
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-05",
+    "cr:120.3",
+    "cr:119.3",
+    "spellbook:1561-1972",
+    "spellbook:1561-2720",
+    "spellbook:1561-2498"
+   ]
+  },
+  {
+   "id": "nekusar-05:m2",
+   "from": "card:Peer into the Abyss",
+   "to": "combo:nekusar-the-mindrazer/nekusar-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.3",
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-05",
+    "cr:120.3",
+    "cr:119.3",
+    "spellbook:1561-1972",
+    "spellbook:1561-2720",
+    "spellbook:1561-2498"
+   ]
+  },
+  {
+   "id": "nekusar-05:m3",
+   "from": "card:Sheoldred, the Apocalypse",
+   "to": "combo:nekusar-the-mindrazer/nekusar-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.3",
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-05",
+    "cr:120.3",
+    "cr:119.3",
+    "spellbook:1561-1972",
+    "spellbook:1561-2720",
+    "spellbook:1561-2498"
+   ]
+  },
+  {
+   "id": "nekusar-05:m4",
+   "from": "card:Underworld Dreams",
+   "to": "combo:nekusar-the-mindrazer/nekusar-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.3",
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-05",
+    "cr:120.3",
+    "cr:119.3",
+    "spellbook:1561-1972",
+    "spellbook:1561-2720",
+    "spellbook:1561-2498"
+   ]
+  },
+  {
+   "id": "nekusar-05:m5",
+   "from": "card:Orcish Bowmasters",
+   "to": "combo:nekusar-the-mindrazer/nekusar-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.3",
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-05",
+    "cr:120.3",
+    "cr:119.3",
+    "spellbook:1561-1972",
+    "spellbook:1561-2720",
+    "spellbook:1561-2498"
+   ]
+  },
+  {
+   "id": "nekusar-05:m6",
+   "from": "card:Razorkin Needlehead",
+   "to": "combo:nekusar-the-mindrazer/nekusar-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "120.3",
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-05",
+    "cr:120.3",
+    "cr:119.3",
+    "spellbook:1561-1972",
+    "spellbook:1561-2720",
+    "spellbook:1561-2498"
+   ]
+  },
+  {
+   "id": "nekusar-05:p1",
+   "from": "card:Peer into the Abyss",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.3",
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-05",
+    "cr:120.3",
+    "cr:119.3",
+    "spellbook:1561-1972",
+    "spellbook:1561-2720",
+    "spellbook:1561-2498"
+   ]
+  },
+  {
+   "id": "nekusar-05:p2",
+   "from": "card:Sheoldred, the Apocalypse",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.3",
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-05",
+    "cr:120.3",
+    "cr:119.3",
+    "spellbook:1561-1972",
+    "spellbook:1561-2720",
+    "spellbook:1561-2498"
+   ]
+  },
+  {
+   "id": "nekusar-05:p3",
+   "from": "card:Underworld Dreams",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.3",
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-05",
+    "cr:120.3",
+    "cr:119.3",
+    "spellbook:1561-1972",
+    "spellbook:1561-2720",
+    "spellbook:1561-2498"
+   ]
+  },
+  {
+   "id": "nekusar-05:p4",
+   "from": "card:Orcish Bowmasters",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.3",
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-05",
+    "cr:120.3",
+    "cr:119.3",
+    "spellbook:1561-1972",
+    "spellbook:1561-2720",
+    "spellbook:1561-2498"
+   ]
+  },
+  {
+   "id": "nekusar-05:p5",
+   "from": "card:Razorkin Needlehead",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "120.3",
+    "119.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-05",
+    "cr:120.3",
+    "cr:119.3",
+    "spellbook:1561-1972",
+    "spellbook:1561-2720",
+    "spellbook:1561-2498"
+   ]
+  },
+  {
+   "id": "nekusar-06:m1",
+   "from": "commander:Nekusar, the Mindrazer",
+   "to": "combo:nekusar-the-mindrazer/nekusar-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "121.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-06",
+    "cr:603.2",
+    "cr:121.1",
+    "spellbook:1089-2353"
+   ]
+  },
+  {
+   "id": "nekusar-06:m2",
+   "from": "card:Curiosity",
+   "to": "combo:nekusar-the-mindrazer/nekusar-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "121.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-06",
+    "cr:603.2",
+    "cr:121.1",
+    "spellbook:1089-2353"
+   ]
+  },
+  {
+   "id": "nekusar-06:m3",
+   "from": "card:Niv-Mizzet, Parun",
+   "to": "combo:nekusar-the-mindrazer/nekusar-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "121.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-06",
+    "cr:603.2",
+    "cr:121.1",
+    "spellbook:1089-2353"
+   ]
+  },
+  {
+   "id": "nekusar-06:m4",
+   "from": "card:Consecrated Sphinx",
+   "to": "combo:nekusar-the-mindrazer/nekusar-06",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "121.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-06",
+    "cr:603.2",
+    "cr:121.1",
+    "spellbook:1089-2353"
+   ]
+  },
+  {
+   "id": "nekusar-06:p1",
+   "from": "card:Curiosity",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "121.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-06",
+    "cr:603.2",
+    "cr:121.1",
+    "spellbook:1089-2353"
+   ]
+  },
+  {
+   "id": "nekusar-06:p2",
+   "from": "card:Niv-Mizzet, Parun",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "121.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-06",
+    "cr:603.2",
+    "cr:121.1",
+    "spellbook:1089-2353"
+   ]
+  },
+  {
+   "id": "nekusar-06:p3",
+   "from": "card:Consecrated Sphinx",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-06",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "121.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-06",
+    "cr:603.2",
+    "cr:121.1",
+    "spellbook:1089-2353"
+   ]
+  },
+  {
+   "id": "nekusar-07:m1",
+   "from": "commander:Nekusar, the Mindrazer",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "504.1",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-07",
+    "cr:504.1",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "nekusar-07:m2",
+   "from": "card:Teferi's Puzzle Box",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "504.1",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-07",
+    "cr:504.1",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "nekusar-07:m3",
+   "from": "card:Kami of the Crescent Moon",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "504.1",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-07",
+    "cr:504.1",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "nekusar-07:m4",
+   "from": "card:Anvil of Bogardan",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "504.1",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-07",
+    "cr:504.1",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "nekusar-07:m5",
+   "from": "card:Spiteful Visions",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "504.1",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-07",
+    "cr:504.1",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "nekusar-07:p1",
+   "from": "card:Teferi's Puzzle Box",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "504.1",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-07",
+    "cr:504.1",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "nekusar-07:p2",
+   "from": "card:Kami of the Crescent Moon",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "504.1",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-07",
+    "cr:504.1",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "nekusar-07:p3",
+   "from": "card:Anvil of Bogardan",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "504.1",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-07",
+    "cr:504.1",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "nekusar-07:p4",
+   "from": "card:Spiteful Visions",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "504.1",
+    "603.3b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-07",
+    "cr:504.1",
+    "cr:603.3b"
+   ]
+  },
+  {
+   "id": "nekusar-08:m1",
+   "from": "commander:Nekusar, the Mindrazer",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.9a",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-08",
+    "cr:701.9a",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "nekusar-08:m2",
+   "from": "card:Wheel of Fortune",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.9a",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-08",
+    "cr:701.9a",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "nekusar-08:m3",
+   "from": "card:Windfall",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.9a",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-08",
+    "cr:701.9a",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "nekusar-08:m4",
+   "from": "card:Whispering Madness",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.9a",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-08",
+    "cr:701.9a",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "nekusar-08:m5",
+   "from": "card:Dark Deal",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.9a",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-08",
+    "cr:701.9a",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "nekusar-08:m6",
+   "from": "card:Jace's Archivist",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.9a",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-08",
+    "cr:701.9a",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "nekusar-08:m7",
+   "from": "card:Winds of Change",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.9a",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-08",
+    "cr:701.9a",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "nekusar-08:m8",
+   "from": "card:Molten Psyche",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.9a",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-08",
+    "cr:701.9a",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "nekusar-08:m9",
+   "from": "card:Waste Not",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.9a",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-08",
+    "cr:701.9a",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "nekusar-08:m10",
+   "from": "card:Liliana's Caress",
+   "to": "interaction:nekusar-the-mindrazer/nekusar-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.9a",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-08",
+    "cr:701.9a",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "nekusar-08:p1",
+   "from": "card:Wheel of Fortune",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.9a",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-08",
+    "cr:701.9a",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "nekusar-08:p2",
+   "from": "card:Windfall",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.9a",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-08",
+    "cr:701.9a",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "nekusar-08:p3",
+   "from": "card:Whispering Madness",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.9a",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-08",
+    "cr:701.9a",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "nekusar-08:p4",
+   "from": "card:Dark Deal",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.9a",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-08",
+    "cr:701.9a",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "nekusar-08:p5",
+   "from": "card:Jace's Archivist",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.9a",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-08",
+    "cr:701.9a",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "nekusar-08:p6",
+   "from": "card:Winds of Change",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.9a",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-08",
+    "cr:701.9a",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "nekusar-08:p7",
+   "from": "card:Molten Psyche",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.9a",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-08",
+    "cr:701.9a",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "nekusar-08:p8",
+   "from": "card:Waste Not",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.9a",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-08",
+    "cr:701.9a",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "nekusar-08:p9",
+   "from": "card:Liliana's Caress",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-08",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.9a",
+    "701.24a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-08",
+    "cr:701.9a",
+    "cr:701.24a"
+   ]
+  },
+  {
+   "id": "nekusar-09:m1",
+   "from": "commander:Nekusar, the Mindrazer",
+   "to": "combo:nekusar-the-mindrazer/nekusar-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-09",
+    "cr:702.138a",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "nekusar-09:m2",
+   "from": "card:Underworld Breach",
+   "to": "combo:nekusar-the-mindrazer/nekusar-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-09",
+    "cr:702.138a",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "nekusar-09:m3",
+   "from": "card:Wheel of Fortune",
+   "to": "combo:nekusar-the-mindrazer/nekusar-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-09",
+    "cr:702.138a",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "nekusar-09:m4",
+   "from": "card:Jeska's Will",
+   "to": "combo:nekusar-the-mindrazer/nekusar-09",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "nekusar-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-09",
+    "cr:702.138a",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "nekusar-09:p1",
+   "from": "card:Underworld Breach",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-09",
+    "cr:702.138a",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "nekusar-09:p2",
+   "from": "card:Wheel of Fortune",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-09",
+    "cr:702.138a",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "nekusar-09:p3",
+   "from": "card:Jeska's Will",
+   "to": "commander:Nekusar, the Mindrazer",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "nekusar-09",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "702.138a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/nekusar-the-mindrazer.json#nekusar-09",
+    "cr:702.138a",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-1878-2706"
+   ]
+  }
+ ]
+}

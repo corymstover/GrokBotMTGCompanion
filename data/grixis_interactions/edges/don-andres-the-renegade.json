@@ -1,0 +1,1589 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Don_Andres__the_Renegade",
+ "slug": "don-andres-the-renegade",
+ "deck_sha256": "3c5a31e6cf23e2b81d7d4e85d28426231de10d714aae769da886aeff384c7e03",
+ "review": "data/grixis_interactions/don-andres-the-renegade.json",
+ "review_sha256": "925a86d763469ec5f78be4e448418c3fbc770a978ac569054b31f612944eb596",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 12,
+  "nodes": 34,
+  "membership_edges": 35,
+  "pair_edges": 23
+ },
+ "nodes": [
+  {
+   "id": "commander:Don Andres, the Renegade",
+   "kind": "commander",
+   "name": "Don Andres, the Renegade",
+   "in_list": true
+  },
+  {
+   "id": "interaction:don-andres-the-renegade/donandres-01",
+   "kind": "interaction",
+   "interaction": "donandres-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Court of Locthwain",
+   "kind": "card",
+   "name": "Court of Locthwain",
+   "in_list": true
+  },
+  {
+   "id": "card:Praetor's Grasp",
+   "kind": "card",
+   "name": "Praetor's Grasp",
+   "in_list": true
+  },
+  {
+   "id": "card:Outrageous Robbery",
+   "kind": "card",
+   "name": "Outrageous Robbery",
+   "in_list": true
+  },
+  {
+   "id": "interaction:don-andres-the-renegade/donandres-02",
+   "kind": "interaction",
+   "interaction": "donandres-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Arcane Heist",
+   "kind": "card",
+   "name": "Arcane Heist",
+   "in_list": true
+  },
+  {
+   "id": "interaction:don-andres-the-renegade/donandres-03",
+   "kind": "interaction",
+   "interaction": "donandres-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Jhoira, Weatherlight Corsair",
+   "kind": "card",
+   "name": "Jhoira, Weatherlight Corsair",
+   "in_list": true
+  },
+  {
+   "id": "card:Animate Dead",
+   "kind": "card",
+   "name": "Animate Dead",
+   "in_list": true
+  },
+  {
+   "id": "card:Reanimate",
+   "kind": "card",
+   "name": "Reanimate",
+   "in_list": true
+  },
+  {
+   "id": "interaction:don-andres-the-renegade/donandres-04",
+   "kind": "interaction",
+   "interaction": "donandres-04",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Thieving Amalgam",
+   "kind": "card",
+   "name": "Thieving Amalgam",
+   "in_list": true
+  },
+  {
+   "id": "interaction:don-andres-the-renegade/donandres-05",
+   "kind": "interaction",
+   "interaction": "donandres-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Dauthi Voidwalker",
+   "kind": "card",
+   "name": "Dauthi Voidwalker",
+   "in_list": true
+  },
+  {
+   "id": "interaction:don-andres-the-renegade/donandres-06",
+   "kind": "interaction",
+   "interaction": "donandres-06",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Roaming Throne",
+   "kind": "card",
+   "name": "Roaming Throne",
+   "in_list": true
+  },
+  {
+   "id": "interaction:don-andres-the-renegade/donandres-07",
+   "kind": "interaction",
+   "interaction": "donandres-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Wand of Wonder",
+   "kind": "card",
+   "name": "Wand of Wonder",
+   "in_list": true
+  },
+  {
+   "id": "interaction:don-andres-the-renegade/donandres-08",
+   "kind": "interaction",
+   "interaction": "donandres-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Decadent Dragon // Expensive Taste",
+   "kind": "card",
+   "name": "Decadent Dragon // Expensive Taste",
+   "in_list": true
+  },
+  {
+   "id": "card:Black Cat, Cunning Thief",
+   "kind": "card",
+   "name": "Black Cat, Cunning Thief",
+   "in_list": true
+  },
+  {
+   "id": "card:Siphon Insight",
+   "kind": "card",
+   "name": "Siphon Insight",
+   "in_list": true
+  },
+  {
+   "id": "interaction:don-andres-the-renegade/donandres-09",
+   "kind": "interaction",
+   "interaction": "donandres-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Admiral Beckett Brass",
+   "kind": "card",
+   "name": "Admiral Beckett Brass",
+   "in_list": true
+  },
+  {
+   "id": "card:Kindred Discovery",
+   "kind": "card",
+   "name": "Kindred Discovery",
+   "in_list": true
+  },
+  {
+   "id": "card:Coercive Recruiter",
+   "kind": "card",
+   "name": "Coercive Recruiter",
+   "in_list": true
+  },
+  {
+   "id": "interaction:don-andres-the-renegade/donandres-10",
+   "kind": "interaction",
+   "interaction": "donandres-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Gonti, Night Minister",
+   "kind": "card",
+   "name": "Gonti, Night Minister",
+   "in_list": true
+  },
+  {
+   "id": "card:Tasha, the Witch Queen",
+   "kind": "card",
+   "name": "Tasha, the Witch Queen",
+   "in_list": true
+  },
+  {
+   "id": "card:Thieving Varmint",
+   "kind": "card",
+   "name": "Thieving Varmint",
+   "in_list": true
+  },
+  {
+   "id": "interaction:don-andres-the-renegade/donandres-11",
+   "kind": "interaction",
+   "interaction": "donandres-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Hostage Taker",
+   "kind": "card",
+   "name": "Hostage Taker",
+   "in_list": true
+  },
+  {
+   "id": "interaction:don-andres-the-renegade/donandres-12",
+   "kind": "interaction",
+   "interaction": "donandres-12",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "donandres-01:m1",
+   "from": "commander:Don Andres, the Renegade",
+   "to": "interaction:don-andres-the-renegade/donandres-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "111.2",
+    "613.1b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-01",
+    "cr:108.3",
+    "cr:111.2",
+    "cr:613.1b"
+   ]
+  },
+  {
+   "id": "donandres-02:m1",
+   "from": "commander:Don Andres, the Renegade",
+   "to": "interaction:don-andres-the-renegade/donandres-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-02",
+    "cr:108.3",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "donandres-02:m2",
+   "from": "card:Court of Locthwain",
+   "to": "interaction:don-andres-the-renegade/donandres-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-02",
+    "cr:108.3",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "donandres-02:m3",
+   "from": "card:Praetor's Grasp",
+   "to": "interaction:don-andres-the-renegade/donandres-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-02",
+    "cr:108.3",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "donandres-02:m4",
+   "from": "card:Outrageous Robbery",
+   "to": "interaction:don-andres-the-renegade/donandres-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-02",
+    "cr:108.3",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "donandres-02:p1",
+   "from": "card:Court of Locthwain",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "108.3",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-02",
+    "cr:108.3",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "donandres-02:p2",
+   "from": "card:Praetor's Grasp",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "108.3",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-02",
+    "cr:108.3",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "donandres-02:p3",
+   "from": "card:Outrageous Robbery",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "108.3",
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-02",
+    "cr:108.3",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "donandres-03:m1",
+   "from": "commander:Don Andres, the Renegade",
+   "to": "interaction:don-andres-the-renegade/donandres-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.12",
+    "702.99a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-03",
+    "cr:707.10",
+    "cr:707.12",
+    "cr:702.99a"
+   ]
+  },
+  {
+   "id": "donandres-03:m2",
+   "from": "card:Arcane Heist",
+   "to": "interaction:don-andres-the-renegade/donandres-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.10",
+    "707.12",
+    "702.99a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-03",
+    "cr:707.10",
+    "cr:707.12",
+    "cr:702.99a"
+   ]
+  },
+  {
+   "id": "donandres-03:p1",
+   "from": "card:Arcane Heist",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-03",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.10",
+    "707.12",
+    "702.99a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-03",
+    "cr:707.10",
+    "cr:707.12",
+    "cr:702.99a"
+   ]
+  },
+  {
+   "id": "donandres-04:m1",
+   "from": "commander:Don Andres, the Renegade",
+   "to": "interaction:don-andres-the-renegade/donandres-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-04",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2",
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-04",
+    "cr:601.2",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "donandres-04:m2",
+   "from": "card:Jhoira, Weatherlight Corsair",
+   "to": "interaction:don-andres-the-renegade/donandres-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-04",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2",
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-04",
+    "cr:601.2",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "donandres-04:m3",
+   "from": "card:Animate Dead",
+   "to": "interaction:don-andres-the-renegade/donandres-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-04",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2",
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-04",
+    "cr:601.2",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "donandres-04:m4",
+   "from": "card:Reanimate",
+   "to": "interaction:don-andres-the-renegade/donandres-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-04",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2",
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-04",
+    "cr:601.2",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "donandres-04:p1",
+   "from": "card:Jhoira, Weatherlight Corsair",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-04",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2",
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-04",
+    "cr:601.2",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "donandres-04:p2",
+   "from": "card:Animate Dead",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-04",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2",
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-04",
+    "cr:601.2",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "donandres-04:p3",
+   "from": "card:Reanimate",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-04",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2",
+    "108.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-04",
+    "cr:601.2",
+    "cr:108.3"
+   ]
+  },
+  {
+   "id": "donandres-05:m1",
+   "from": "commander:Don Andres, the Renegade",
+   "to": "interaction:don-andres-the-renegade/donandres-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.40a",
+    "708.2",
+    "613.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-05",
+    "cr:701.40a",
+    "cr:708.2",
+    "cr:613.1"
+   ]
+  },
+  {
+   "id": "donandres-05:m2",
+   "from": "card:Thieving Amalgam",
+   "to": "interaction:don-andres-the-renegade/donandres-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.40a",
+    "708.2",
+    "613.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-05",
+    "cr:701.40a",
+    "cr:708.2",
+    "cr:613.1"
+   ]
+  },
+  {
+   "id": "donandres-05:p1",
+   "from": "card:Thieving Amalgam",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-05",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.40a",
+    "708.2",
+    "613.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-05",
+    "cr:701.40a",
+    "cr:708.2",
+    "cr:613.1"
+   ]
+  },
+  {
+   "id": "donandres-06:m1",
+   "from": "commander:Don Andres, the Renegade",
+   "to": "interaction:don-andres-the-renegade/donandres-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-06",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "700.4",
+    "614.6",
+    "400.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-06",
+    "cr:700.4",
+    "cr:614.6",
+    "cr:400.3"
+   ]
+  },
+  {
+   "id": "donandres-06:m2",
+   "from": "card:Dauthi Voidwalker",
+   "to": "interaction:don-andres-the-renegade/donandres-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-06",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "700.4",
+    "614.6",
+    "400.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-06",
+    "cr:700.4",
+    "cr:614.6",
+    "cr:400.3"
+   ]
+  },
+  {
+   "id": "donandres-06:m3",
+   "from": "card:Thieving Amalgam",
+   "to": "interaction:don-andres-the-renegade/donandres-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-06",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "fact",
+   "cr": [
+    "700.4",
+    "614.6",
+    "400.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-06",
+    "cr:700.4",
+    "cr:614.6",
+    "cr:400.3"
+   ]
+  },
+  {
+   "id": "donandres-06:p1",
+   "from": "card:Dauthi Voidwalker",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-06",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.4",
+    "614.6",
+    "400.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-06",
+    "cr:700.4",
+    "cr:614.6",
+    "cr:400.3"
+   ]
+  },
+  {
+   "id": "donandres-06:p2",
+   "from": "card:Thieving Amalgam",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "conflicts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-06",
+   "topic": "replacement",
+   "status": "flag",
+   "flag_kind": "anti-synergy",
+   "evidence_class": "derived_metric",
+   "cr": [
+    "700.4",
+    "614.6",
+    "400.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-06",
+    "cr:700.4",
+    "cr:614.6",
+    "cr:400.3"
+   ]
+  },
+  {
+   "id": "donandres-07:m1",
+   "from": "commander:Don Andres, the Renegade",
+   "to": "interaction:don-andres-the-renegade/donandres-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "604.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-07",
+    "cr:603.2",
+    "cr:604.1"
+   ]
+  },
+  {
+   "id": "donandres-07:m2",
+   "from": "card:Roaming Throne",
+   "to": "interaction:don-andres-the-renegade/donandres-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2",
+    "604.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-07",
+    "cr:603.2",
+    "cr:604.1"
+   ]
+  },
+  {
+   "id": "donandres-07:p1",
+   "from": "card:Roaming Throne",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-07",
+   "topic": "trigger-order",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2",
+    "604.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-07",
+    "cr:603.2",
+    "cr:604.1"
+   ]
+  },
+  {
+   "id": "donandres-08:m1",
+   "from": "commander:Don Andres, the Renegade",
+   "to": "interaction:don-andres-the-renegade/donandres-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-08",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "donandres-08:m2",
+   "from": "card:Wand of Wonder",
+   "to": "interaction:don-andres-the-renegade/donandres-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-08",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "donandres-08:p1",
+   "from": "card:Wand of Wonder",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-08",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "601.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-08",
+    "cr:601.2"
+   ]
+  },
+  {
+   "id": "donandres-09:m1",
+   "from": "commander:Don Andres, the Renegade",
+   "to": "interaction:don-andres-the-renegade/donandres-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "406.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-09",
+    "cr:108.3",
+    "cr:406.3"
+   ]
+  },
+  {
+   "id": "donandres-09:m2",
+   "from": "card:Decadent Dragon // Expensive Taste",
+   "to": "interaction:don-andres-the-renegade/donandres-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "406.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-09",
+    "cr:108.3",
+    "cr:406.3"
+   ]
+  },
+  {
+   "id": "donandres-09:m3",
+   "from": "card:Black Cat, Cunning Thief",
+   "to": "interaction:don-andres-the-renegade/donandres-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "406.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-09",
+    "cr:108.3",
+    "cr:406.3"
+   ]
+  },
+  {
+   "id": "donandres-09:m4",
+   "from": "card:Siphon Insight",
+   "to": "interaction:don-andres-the-renegade/donandres-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "108.3",
+    "406.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-09",
+    "cr:108.3",
+    "cr:406.3"
+   ]
+  },
+  {
+   "id": "donandres-09:p1",
+   "from": "card:Decadent Dragon // Expensive Taste",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "108.3",
+    "406.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-09",
+    "cr:108.3",
+    "cr:406.3"
+   ]
+  },
+  {
+   "id": "donandres-09:p2",
+   "from": "card:Black Cat, Cunning Thief",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "108.3",
+    "406.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-09",
+    "cr:108.3",
+    "cr:406.3"
+   ]
+  },
+  {
+   "id": "donandres-09:p3",
+   "from": "card:Siphon Insight",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-09",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "108.3",
+    "406.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-09",
+    "cr:108.3",
+    "cr:406.3"
+   ]
+  },
+  {
+   "id": "donandres-10:m1",
+   "from": "commander:Don Andres, the Renegade",
+   "to": "interaction:don-andres-the-renegade/donandres-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1d",
+    "205.3m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-10",
+    "cr:613.1d",
+    "cr:205.3m"
+   ]
+  },
+  {
+   "id": "donandres-10:m2",
+   "from": "card:Admiral Beckett Brass",
+   "to": "interaction:don-andres-the-renegade/donandres-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1d",
+    "205.3m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-10",
+    "cr:613.1d",
+    "cr:205.3m"
+   ]
+  },
+  {
+   "id": "donandres-10:m3",
+   "from": "card:Kindred Discovery",
+   "to": "interaction:don-andres-the-renegade/donandres-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1d",
+    "205.3m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-10",
+    "cr:613.1d",
+    "cr:205.3m"
+   ]
+  },
+  {
+   "id": "donandres-10:m4",
+   "from": "card:Coercive Recruiter",
+   "to": "interaction:don-andres-the-renegade/donandres-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "613.1d",
+    "205.3m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-10",
+    "cr:613.1d",
+    "cr:205.3m"
+   ]
+  },
+  {
+   "id": "donandres-10:p1",
+   "from": "card:Admiral Beckett Brass",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.1d",
+    "205.3m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-10",
+    "cr:613.1d",
+    "cr:205.3m"
+   ]
+  },
+  {
+   "id": "donandres-10:p2",
+   "from": "card:Kindred Discovery",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.1d",
+    "205.3m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-10",
+    "cr:613.1d",
+    "cr:205.3m"
+   ]
+  },
+  {
+   "id": "donandres-10:p3",
+   "from": "card:Coercive Recruiter",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-10",
+   "topic": "pair",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "613.1d",
+    "205.3m"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-10",
+    "cr:613.1d",
+    "cr:205.3m"
+   ]
+  },
+  {
+   "id": "donandres-11:m1",
+   "from": "commander:Don Andres, the Renegade",
+   "to": "interaction:don-andres-the-renegade/donandres-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-11",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "donandres-11:m2",
+   "from": "card:Gonti, Night Minister",
+   "to": "interaction:don-andres-the-renegade/donandres-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-11",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "donandres-11:m3",
+   "from": "card:Tasha, the Witch Queen",
+   "to": "interaction:don-andres-the-renegade/donandres-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-11",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "donandres-11:m4",
+   "from": "card:Thieving Varmint",
+   "to": "interaction:don-andres-the-renegade/donandres-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-11",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "donandres-11:p1",
+   "from": "card:Gonti, Night Minister",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-11",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "donandres-11:p2",
+   "from": "card:Tasha, the Witch Queen",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-11",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "donandres-11:p3",
+   "from": "card:Thieving Varmint",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-11",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "603.2"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-11",
+    "cr:603.2"
+   ]
+  },
+  {
+   "id": "donandres-12:m1",
+   "from": "commander:Don Andres, the Renegade",
+   "to": "interaction:don-andres-the-renegade/donandres-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-12",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-12",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "donandres-12:m2",
+   "from": "card:Hostage Taker",
+   "to": "interaction:don-andres-the-renegade/donandres-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-12",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-12",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "donandres-12:m3",
+   "from": "card:Admiral Beckett Brass",
+   "to": "interaction:don-andres-the-renegade/donandres-12",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "donandres-12",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-12",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "donandres-12:p1",
+   "from": "card:Hostage Taker",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-12",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-12",
+    "cr:800.4a"
+   ]
+  },
+  {
+   "id": "donandres-12:p2",
+   "from": "card:Admiral Beckett Brass",
+   "to": "commander:Don Andres, the Renegade",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "donandres-12",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "800.4a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/don-andres-the-renegade.json#donandres-12",
+    "cr:800.4a"
+   ]
+  }
+ ]
+}

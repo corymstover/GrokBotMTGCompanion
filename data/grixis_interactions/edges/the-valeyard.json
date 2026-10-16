@@ -1,0 +1,1723 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "The_Valeyard",
+ "slug": "the-valeyard",
+ "deck_sha256": "f68cb26275da3a765e1009fc62fd6de4bb834cab57770dc6ed4f3f74578dc404",
+ "review": "data/grixis_interactions/the-valeyard.json",
+ "review_sha256": "26cdd30f6ad1fc6cbcd50c082ff3dfb0a5c6595fa268c6c0e182b19b8f761ca8",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 5,
+  "nodes": 34,
+  "membership_edges": 33,
+  "pair_edges": 28
+ },
+ "nodes": [
+  {
+   "id": "commander:The Valeyard",
+   "kind": "commander",
+   "name": "The Valeyard",
+   "in_list": true
+  },
+  {
+   "id": "card:Hunted by The Family",
+   "kind": "card",
+   "name": "Hunted by The Family",
+   "in_list": true
+  },
+  {
+   "id": "card:Great Intelligence's Plan",
+   "kind": "card",
+   "name": "Great Intelligence's Plan",
+   "in_list": true
+  },
+  {
+   "id": "card:Damocles Base, Sword of Kang",
+   "kind": "card",
+   "name": "Damocles Base, Sword of Kang",
+   "in_list": true
+  },
+  {
+   "id": "card:Davros, Dalek Creator",
+   "kind": "card",
+   "name": "Davros, Dalek Creator",
+   "in_list": true
+  },
+  {
+   "id": "card:Dr. Eggman",
+   "kind": "card",
+   "name": "Dr. Eggman",
+   "in_list": true
+  },
+  {
+   "id": "card:Ensnared by the Mara",
+   "kind": "card",
+   "name": "Ensnared by the Mara",
+   "in_list": true
+  },
+  {
+   "id": "card:Genesis of the Daleks",
+   "kind": "card",
+   "name": "Genesis of the Daleks",
+   "in_list": true
+  },
+  {
+   "id": "card:This Is How It Ends",
+   "kind": "card",
+   "name": "This Is How It Ends",
+   "in_list": true
+  },
+  {
+   "id": "card:Midnight Crusader Shuttle",
+   "kind": "card",
+   "name": "Midnight Crusader Shuttle",
+   "in_list": true
+  },
+  {
+   "id": "interaction:the-valeyard/valeyard-01",
+   "kind": "interaction",
+   "interaction": "valeyard-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Messenger Jays",
+   "kind": "card",
+   "name": "Messenger Jays",
+   "in_list": true
+  },
+  {
+   "id": "card:Expropriate",
+   "kind": "card",
+   "name": "Expropriate",
+   "in_list": true
+  },
+  {
+   "id": "card:Capital Punishment",
+   "kind": "card",
+   "name": "Capital Punishment",
+   "in_list": true
+  },
+  {
+   "id": "card:Fateful Tempest",
+   "kind": "card",
+   "name": "Fateful Tempest",
+   "in_list": true
+  },
+  {
+   "id": "card:Mob Verdict",
+   "kind": "card",
+   "name": "Mob Verdict",
+   "in_list": true
+  },
+  {
+   "id": "card:Trap the Trespassers",
+   "kind": "card",
+   "name": "Trap the Trespassers",
+   "in_list": true
+  },
+  {
+   "id": "card:Truth or Consequences",
+   "kind": "card",
+   "name": "Truth or Consequences",
+   "in_list": true
+  },
+  {
+   "id": "card:Tyrant's Choice",
+   "kind": "card",
+   "name": "Tyrant's Choice",
+   "in_list": true
+  },
+  {
+   "id": "card:Coercive Portal",
+   "kind": "card",
+   "name": "Coercive Portal",
+   "in_list": true
+  },
+  {
+   "id": "interaction:the-valeyard/valeyard-02",
+   "kind": "interaction",
+   "interaction": "valeyard-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Grudge Keeper",
+   "kind": "card",
+   "name": "Grudge Keeper",
+   "in_list": true
+  },
+  {
+   "id": "card:Model of Unity",
+   "kind": "card",
+   "name": "Model of Unity",
+   "in_list": true
+  },
+  {
+   "id": "card:Illusion of Choice",
+   "kind": "card",
+   "name": "Illusion of Choice",
+   "in_list": true
+  },
+  {
+   "id": "interaction:the-valeyard/valeyard-03",
+   "kind": "interaction",
+   "interaction": "valeyard-03",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Spark Double",
+   "kind": "card",
+   "name": "Spark Double",
+   "in_list": true
+  },
+  {
+   "id": "card:Quantum Misalignment",
+   "kind": "card",
+   "name": "Quantum Misalignment",
+   "in_list": true
+  },
+  {
+   "id": "card:Sakashima of a Thousand Faces",
+   "kind": "card",
+   "name": "Sakashima of a Thousand Faces",
+   "in_list": true
+  },
+  {
+   "id": "card:Auton Soldier",
+   "kind": "card",
+   "name": "Auton Soldier",
+   "in_list": true
+  },
+  {
+   "id": "interaction:the-valeyard/valeyard-04",
+   "kind": "interaction",
+   "interaction": "valeyard-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Arid Mesa",
+   "kind": "card",
+   "name": "Arid Mesa",
+   "in_list": true
+  },
+  {
+   "id": "card:City of Brass",
+   "kind": "card",
+   "name": "City of Brass",
+   "in_list": true
+  },
+  {
+   "id": "card:Mana Confluence",
+   "kind": "card",
+   "name": "Mana Confluence",
+   "in_list": true
+  },
+  {
+   "id": "interaction:the-valeyard/valeyard-05",
+   "kind": "interaction",
+   "interaction": "valeyard-05",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "valeyard-01:m1",
+   "from": "commander:The Valeyard",
+   "to": "interaction:the-valeyard/valeyard-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.55a",
+    "701.55c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-01",
+    "cr:701.55a",
+    "cr:701.55c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "valeyard-01:m2",
+   "from": "card:Hunted by The Family",
+   "to": "interaction:the-valeyard/valeyard-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.55a",
+    "701.55c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-01",
+    "cr:701.55a",
+    "cr:701.55c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "valeyard-01:m3",
+   "from": "card:Great Intelligence's Plan",
+   "to": "interaction:the-valeyard/valeyard-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.55a",
+    "701.55c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-01",
+    "cr:701.55a",
+    "cr:701.55c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "valeyard-01:m4",
+   "from": "card:Damocles Base, Sword of Kang",
+   "to": "interaction:the-valeyard/valeyard-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.55a",
+    "701.55c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-01",
+    "cr:701.55a",
+    "cr:701.55c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "valeyard-01:m5",
+   "from": "card:Davros, Dalek Creator",
+   "to": "interaction:the-valeyard/valeyard-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.55a",
+    "701.55c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-01",
+    "cr:701.55a",
+    "cr:701.55c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "valeyard-01:m6",
+   "from": "card:Dr. Eggman",
+   "to": "interaction:the-valeyard/valeyard-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.55a",
+    "701.55c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-01",
+    "cr:701.55a",
+    "cr:701.55c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "valeyard-01:m7",
+   "from": "card:Ensnared by the Mara",
+   "to": "interaction:the-valeyard/valeyard-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.55a",
+    "701.55c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-01",
+    "cr:701.55a",
+    "cr:701.55c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "valeyard-01:m8",
+   "from": "card:Genesis of the Daleks",
+   "to": "interaction:the-valeyard/valeyard-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.55a",
+    "701.55c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-01",
+    "cr:701.55a",
+    "cr:701.55c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "valeyard-01:m9",
+   "from": "card:This Is How It Ends",
+   "to": "interaction:the-valeyard/valeyard-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.55a",
+    "701.55c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-01",
+    "cr:701.55a",
+    "cr:701.55c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "valeyard-01:m10",
+   "from": "card:Midnight Crusader Shuttle",
+   "to": "interaction:the-valeyard/valeyard-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.55a",
+    "701.55c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-01",
+    "cr:701.55a",
+    "cr:701.55c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "valeyard-01:p1",
+   "from": "card:Hunted by The Family",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.55a",
+    "701.55c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-01",
+    "cr:701.55a",
+    "cr:701.55c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "valeyard-01:p2",
+   "from": "card:Great Intelligence's Plan",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.55a",
+    "701.55c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-01",
+    "cr:701.55a",
+    "cr:701.55c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "valeyard-01:p3",
+   "from": "card:Damocles Base, Sword of Kang",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.55a",
+    "701.55c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-01",
+    "cr:701.55a",
+    "cr:701.55c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "valeyard-01:p4",
+   "from": "card:Davros, Dalek Creator",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.55a",
+    "701.55c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-01",
+    "cr:701.55a",
+    "cr:701.55c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "valeyard-01:p5",
+   "from": "card:Dr. Eggman",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.55a",
+    "701.55c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-01",
+    "cr:701.55a",
+    "cr:701.55c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "valeyard-01:p6",
+   "from": "card:Ensnared by the Mara",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.55a",
+    "701.55c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-01",
+    "cr:701.55a",
+    "cr:701.55c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "valeyard-01:p7",
+   "from": "card:Genesis of the Daleks",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.55a",
+    "701.55c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-01",
+    "cr:701.55a",
+    "cr:701.55c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "valeyard-01:p8",
+   "from": "card:This Is How It Ends",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.55a",
+    "701.55c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-01",
+    "cr:701.55a",
+    "cr:701.55c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "valeyard-01:p9",
+   "from": "card:Midnight Crusader Shuttle",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.55a",
+    "701.55c",
+    "614.1a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-01",
+    "cr:701.55a",
+    "cr:701.55c",
+    "cr:614.1a"
+   ]
+  },
+  {
+   "id": "valeyard-02:m1",
+   "from": "commander:The Valeyard",
+   "to": "interaction:the-valeyard/valeyard-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.38a",
+    "701.38c",
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-02",
+    "cr:701.38a",
+    "cr:701.38c",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-02:m2",
+   "from": "card:Messenger Jays",
+   "to": "interaction:the-valeyard/valeyard-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.38a",
+    "701.38c",
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-02",
+    "cr:701.38a",
+    "cr:701.38c",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-02:m3",
+   "from": "card:Expropriate",
+   "to": "interaction:the-valeyard/valeyard-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.38a",
+    "701.38c",
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-02",
+    "cr:701.38a",
+    "cr:701.38c",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-02:m4",
+   "from": "card:Capital Punishment",
+   "to": "interaction:the-valeyard/valeyard-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.38a",
+    "701.38c",
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-02",
+    "cr:701.38a",
+    "cr:701.38c",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-02:m5",
+   "from": "card:Fateful Tempest",
+   "to": "interaction:the-valeyard/valeyard-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.38a",
+    "701.38c",
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-02",
+    "cr:701.38a",
+    "cr:701.38c",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-02:m6",
+   "from": "card:Mob Verdict",
+   "to": "interaction:the-valeyard/valeyard-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.38a",
+    "701.38c",
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-02",
+    "cr:701.38a",
+    "cr:701.38c",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-02:m7",
+   "from": "card:Trap the Trespassers",
+   "to": "interaction:the-valeyard/valeyard-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.38a",
+    "701.38c",
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-02",
+    "cr:701.38a",
+    "cr:701.38c",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-02:m8",
+   "from": "card:Truth or Consequences",
+   "to": "interaction:the-valeyard/valeyard-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.38a",
+    "701.38c",
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-02",
+    "cr:701.38a",
+    "cr:701.38c",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-02:m9",
+   "from": "card:Tyrant's Choice",
+   "to": "interaction:the-valeyard/valeyard-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.38a",
+    "701.38c",
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-02",
+    "cr:701.38a",
+    "cr:701.38c",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-02:m10",
+   "from": "card:Coercive Portal",
+   "to": "interaction:the-valeyard/valeyard-02",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.38a",
+    "701.38c",
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-02",
+    "cr:701.38a",
+    "cr:701.38c",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-02:p1",
+   "from": "card:Messenger Jays",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.38a",
+    "701.38c",
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-02",
+    "cr:701.38a",
+    "cr:701.38c",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-02:p2",
+   "from": "card:Expropriate",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.38a",
+    "701.38c",
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-02",
+    "cr:701.38a",
+    "cr:701.38c",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-02:p3",
+   "from": "card:Capital Punishment",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.38a",
+    "701.38c",
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-02",
+    "cr:701.38a",
+    "cr:701.38c",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-02:p4",
+   "from": "card:Fateful Tempest",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.38a",
+    "701.38c",
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-02",
+    "cr:701.38a",
+    "cr:701.38c",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-02:p5",
+   "from": "card:Mob Verdict",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.38a",
+    "701.38c",
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-02",
+    "cr:701.38a",
+    "cr:701.38c",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-02:p6",
+   "from": "card:Trap the Trespassers",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.38a",
+    "701.38c",
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-02",
+    "cr:701.38a",
+    "cr:701.38c",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-02:p7",
+   "from": "card:Truth or Consequences",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.38a",
+    "701.38c",
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-02",
+    "cr:701.38a",
+    "cr:701.38c",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-02:p8",
+   "from": "card:Tyrant's Choice",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.38a",
+    "701.38c",
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-02",
+    "cr:701.38a",
+    "cr:701.38c",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-02:p9",
+   "from": "card:Coercive Portal",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-02",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.38a",
+    "701.38c",
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-02",
+    "cr:701.38a",
+    "cr:701.38c",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-03:m1",
+   "from": "commander:The Valeyard",
+   "to": "interaction:the-valeyard/valeyard-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-03",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-03",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-03:m2",
+   "from": "card:Grudge Keeper",
+   "to": "interaction:the-valeyard/valeyard-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-03",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-03",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-03:m3",
+   "from": "card:Model of Unity",
+   "to": "interaction:the-valeyard/valeyard-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-03",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-03",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-03:m4",
+   "from": "card:Illusion of Choice",
+   "to": "interaction:the-valeyard/valeyard-03",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-03",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-03",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-03:p1",
+   "from": "card:Grudge Keeper",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-03",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-03",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-03:p2",
+   "from": "card:Model of Unity",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-03",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-03",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-03:p3",
+   "from": "card:Illusion of Choice",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-03",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "701.38d"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-03",
+    "cr:701.38d"
+   ]
+  },
+  {
+   "id": "valeyard-04:m1",
+   "from": "commander:The Valeyard",
+   "to": "interaction:the-valeyard/valeyard-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "704.5j",
+    "702.116a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-04",
+    "cr:707.2",
+    "cr:704.5j",
+    "cr:702.116a"
+   ]
+  },
+  {
+   "id": "valeyard-04:m2",
+   "from": "card:Spark Double",
+   "to": "interaction:the-valeyard/valeyard-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "704.5j",
+    "702.116a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-04",
+    "cr:707.2",
+    "cr:704.5j",
+    "cr:702.116a"
+   ]
+  },
+  {
+   "id": "valeyard-04:m3",
+   "from": "card:Quantum Misalignment",
+   "to": "interaction:the-valeyard/valeyard-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "704.5j",
+    "702.116a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-04",
+    "cr:707.2",
+    "cr:704.5j",
+    "cr:702.116a"
+   ]
+  },
+  {
+   "id": "valeyard-04:m4",
+   "from": "card:Sakashima of a Thousand Faces",
+   "to": "interaction:the-valeyard/valeyard-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "704.5j",
+    "702.116a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-04",
+    "cr:707.2",
+    "cr:704.5j",
+    "cr:702.116a"
+   ]
+  },
+  {
+   "id": "valeyard-04:m5",
+   "from": "card:Auton Soldier",
+   "to": "interaction:the-valeyard/valeyard-04",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "704.5j",
+    "702.116a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-04",
+    "cr:707.2",
+    "cr:704.5j",
+    "cr:702.116a"
+   ]
+  },
+  {
+   "id": "valeyard-04:p1",
+   "from": "card:Spark Double",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.2",
+    "704.5j",
+    "702.116a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-04",
+    "cr:707.2",
+    "cr:704.5j",
+    "cr:702.116a"
+   ]
+  },
+  {
+   "id": "valeyard-04:p2",
+   "from": "card:Quantum Misalignment",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.2",
+    "704.5j",
+    "702.116a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-04",
+    "cr:707.2",
+    "cr:704.5j",
+    "cr:702.116a"
+   ]
+  },
+  {
+   "id": "valeyard-04:p3",
+   "from": "card:Sakashima of a Thousand Faces",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.2",
+    "704.5j",
+    "702.116a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-04",
+    "cr:707.2",
+    "cr:704.5j",
+    "cr:702.116a"
+   ]
+  },
+  {
+   "id": "valeyard-04:p4",
+   "from": "card:Auton Soldier",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-04",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.2",
+    "704.5j",
+    "702.116a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-04",
+    "cr:707.2",
+    "cr:704.5j",
+    "cr:702.116a"
+   ]
+  },
+  {
+   "id": "valeyard-05:m1",
+   "from": "commander:The Valeyard",
+   "to": "interaction:the-valeyard/valeyard-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-05",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.3i",
+    "701.23a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-05",
+    "cr:205.3i",
+    "cr:701.23a"
+   ]
+  },
+  {
+   "id": "valeyard-05:m2",
+   "from": "card:Arid Mesa",
+   "to": "interaction:the-valeyard/valeyard-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-05",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.3i",
+    "701.23a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-05",
+    "cr:205.3i",
+    "cr:701.23a"
+   ]
+  },
+  {
+   "id": "valeyard-05:m3",
+   "from": "card:City of Brass",
+   "to": "interaction:the-valeyard/valeyard-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-05",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.3i",
+    "701.23a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-05",
+    "cr:205.3i",
+    "cr:701.23a"
+   ]
+  },
+  {
+   "id": "valeyard-05:m4",
+   "from": "card:Mana Confluence",
+   "to": "interaction:the-valeyard/valeyard-05",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "valeyard-05",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "205.3i",
+    "701.23a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-05",
+    "cr:205.3i",
+    "cr:701.23a"
+   ]
+  },
+  {
+   "id": "valeyard-05:p1",
+   "from": "card:Arid Mesa",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-05",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "205.3i",
+    "701.23a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-05",
+    "cr:205.3i",
+    "cr:701.23a"
+   ]
+  },
+  {
+   "id": "valeyard-05:p2",
+   "from": "card:City of Brass",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-05",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "205.3i",
+    "701.23a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-05",
+    "cr:205.3i",
+    "cr:701.23a"
+   ]
+  },
+  {
+   "id": "valeyard-05:p3",
+   "from": "card:Mana Confluence",
+   "to": "commander:The Valeyard",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "valeyard-05",
+   "topic": "legality",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "205.3i",
+    "701.23a"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/the-valeyard.json#valeyard-05",
+    "cr:205.3i",
+    "cr:701.23a"
+   ]
+  }
+ ]
+}

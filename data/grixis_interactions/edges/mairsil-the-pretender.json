@@ -1,0 +1,2059 @@
+{
+ "schema_version": 1,
+ "generated_by": "scripts/grixis_interactions.py",
+ "rule_version": "edges-v1",
+ "deck_id": "Mairsil__the_Pretender",
+ "slug": "mairsil-the-pretender",
+ "deck_sha256": "843c09811f41b7bcdf5d7e4aec1c27de69d48dfa071cd3cc905541618bf10e94",
+ "review": "data/grixis_interactions/mairsil-the-pretender.json",
+ "review_sha256": "0d549c4f84f8361102b2db746019635a3014cfa58a37347be0b787c06893cb84",
+ "cr_version": "2026-09-25",
+ "counts": {
+  "interactions": 11,
+  "nodes": 39,
+  "membership_edges": 41,
+  "pair_edges": 30
+ },
+ "nodes": [
+  {
+   "id": "commander:Mairsil, the Pretender",
+   "kind": "commander",
+   "name": "Mairsil, the Pretender",
+   "in_list": true
+  },
+  {
+   "id": "interaction:mairsil-the-pretender/mairsil-01",
+   "kind": "interaction",
+   "interaction": "mairsil-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Quicksilver Elemental",
+   "kind": "card",
+   "name": "Quicksilver Elemental",
+   "in_list": true
+  },
+  {
+   "id": "card:Gilded Lotus",
+   "kind": "card",
+   "name": "Gilded Lotus",
+   "in_list": true
+  },
+  {
+   "id": "card:Morphling",
+   "kind": "card",
+   "name": "Morphling",
+   "in_list": true
+  },
+  {
+   "id": "card:Horseshoe Crab",
+   "kind": "card",
+   "name": "Horseshoe Crab",
+   "in_list": true
+  },
+  {
+   "id": "card:Staff of Domination",
+   "kind": "card",
+   "name": "Staff of Domination",
+   "in_list": true
+  },
+  {
+   "id": "combo:mairsil-the-pretender/mairsil-02",
+   "kind": "combo",
+   "interaction": "mairsil-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1369-5112-5116-5137",
+    "1369-3995-5112-5116",
+    "1369-2645-5112-5116"
+   ]
+  },
+  {
+   "id": "card:Tree of Perdition",
+   "kind": "card",
+   "name": "Tree of Perdition",
+   "in_list": true
+  },
+  {
+   "id": "card:Hateflayer",
+   "kind": "card",
+   "name": "Hateflayer",
+   "in_list": true
+  },
+  {
+   "id": "combo:mairsil-the-pretender/mairsil-03",
+   "kind": "combo",
+   "interaction": "mairsil-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "2615-4449-5112",
+    "2615-4449-5112"
+   ]
+  },
+  {
+   "id": "card:Aetherling",
+   "kind": "card",
+   "name": "Aetherling",
+   "in_list": true
+  },
+  {
+   "id": "card:Nevinyrral's Disk",
+   "kind": "card",
+   "name": "Nevinyrral's Disk",
+   "in_list": true
+  },
+  {
+   "id": "card:Anger",
+   "kind": "card",
+   "name": "Anger",
+   "in_list": true
+  },
+  {
+   "id": "combo:mairsil-the-pretender/mairsil-04",
+   "kind": "combo",
+   "interaction": "mairsil-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "1050-4068-4439-5112"
+   ]
+  },
+  {
+   "id": "card:Rings of Brighthearth",
+   "kind": "card",
+   "name": "Rings of Brighthearth",
+   "in_list": true
+  },
+  {
+   "id": "card:Aphetto Alchemist",
+   "kind": "card",
+   "name": "Aphetto Alchemist",
+   "in_list": true
+  },
+  {
+   "id": "combo:mairsil-the-pretender/mairsil-05",
+   "kind": "combo",
+   "interaction": "mairsil-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "spellbook": [
+    "4091-4235-5116"
+   ]
+  },
+  {
+   "id": "card:Pack Rat",
+   "kind": "card",
+   "name": "Pack Rat",
+   "in_list": true
+  },
+  {
+   "id": "card:Training Grounds",
+   "kind": "card",
+   "name": "Training Grounds",
+   "in_list": true
+  },
+  {
+   "id": "card:Thousand-Year Elixir",
+   "kind": "card",
+   "name": "Thousand-Year Elixir",
+   "in_list": true
+  },
+  {
+   "id": "interaction:mairsil-the-pretender/mairsil-06",
+   "kind": "interaction",
+   "interaction": "mairsil-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Spark Double",
+   "kind": "card",
+   "name": "Spark Double",
+   "in_list": true
+  },
+  {
+   "id": "interaction:mairsil-the-pretender/mairsil-07",
+   "kind": "interaction",
+   "interaction": "mairsil-07",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Essence Flux",
+   "kind": "card",
+   "name": "Essence Flux",
+   "in_list": true
+  },
+  {
+   "id": "card:Displacer Kitten",
+   "kind": "card",
+   "name": "Displacer Kitten",
+   "in_list": true
+  },
+  {
+   "id": "card:Arcanis the Omnipotent",
+   "kind": "card",
+   "name": "Arcanis the Omnipotent",
+   "in_list": true
+  },
+  {
+   "id": "card:Minamo, School at Water's Edge",
+   "kind": "card",
+   "name": "Minamo, School at Water's Edge",
+   "in_list": true
+  },
+  {
+   "id": "card:Patriar's Seal",
+   "kind": "card",
+   "name": "Patriar's Seal",
+   "in_list": true
+  },
+  {
+   "id": "interaction:mairsil-the-pretender/mairsil-08",
+   "kind": "interaction",
+   "interaction": "mairsil-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Asmodeus the Archfiend",
+   "kind": "card",
+   "name": "Asmodeus the Archfiend",
+   "in_list": true
+  },
+  {
+   "id": "card:Minion of Leshrac",
+   "kind": "card",
+   "name": "Minion of Leshrac",
+   "in_list": true
+  },
+  {
+   "id": "card:Shauku, Endbringer",
+   "kind": "card",
+   "name": "Shauku, Endbringer",
+   "in_list": true
+  },
+  {
+   "id": "interaction:mairsil-the-pretender/mairsil-09",
+   "kind": "interaction",
+   "interaction": "mairsil-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  },
+  {
+   "id": "card:Marvin, Murderous Mimic",
+   "kind": "card",
+   "name": "Marvin, Murderous Mimic",
+   "in_list": true
+  },
+  {
+   "id": "interaction:mairsil-the-pretender/mairsil-10",
+   "kind": "interaction",
+   "interaction": "mairsil-10",
+   "topic": "dependency",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis"
+  },
+  {
+   "id": "card:Wishclaw Talisman",
+   "kind": "card",
+   "name": "Wishclaw Talisman",
+   "in_list": true
+  },
+  {
+   "id": "card:Lightning Greaves",
+   "kind": "card",
+   "name": "Lightning Greaves",
+   "in_list": true
+  },
+  {
+   "id": "interaction:mairsil-the-pretender/mairsil-11",
+   "kind": "interaction",
+   "interaction": "mairsil-11",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact"
+  }
+ ],
+ "edges": [
+  {
+   "id": "mairsil-01:m1",
+   "from": "commander:Mairsil, the Pretender",
+   "to": "interaction:mairsil-the-pretender/mairsil-01",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-01",
+   "topic": "commander",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "113.3b",
+    "400.7",
+    "602.5b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-01",
+    "cr:113.3b",
+    "cr:400.7",
+    "cr:602.5b"
+   ]
+  },
+  {
+   "id": "mairsil-02:m1",
+   "from": "commander:Mairsil, the Pretender",
+   "to": "combo:mairsil-the-pretender/mairsil-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "602.5b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-02",
+    "cr:302.6",
+    "cr:602.5b",
+    "spellbook:1369-5112-5116-5137",
+    "spellbook:1369-3995-5112-5116",
+    "spellbook:1369-2645-5112-5116"
+   ]
+  },
+  {
+   "id": "mairsil-02:m2",
+   "from": "card:Quicksilver Elemental",
+   "to": "combo:mairsil-the-pretender/mairsil-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "602.5b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-02",
+    "cr:302.6",
+    "cr:602.5b",
+    "spellbook:1369-5112-5116-5137",
+    "spellbook:1369-3995-5112-5116",
+    "spellbook:1369-2645-5112-5116"
+   ]
+  },
+  {
+   "id": "mairsil-02:m3",
+   "from": "card:Gilded Lotus",
+   "to": "combo:mairsil-the-pretender/mairsil-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "602.5b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-02",
+    "cr:302.6",
+    "cr:602.5b",
+    "spellbook:1369-5112-5116-5137",
+    "spellbook:1369-3995-5112-5116",
+    "spellbook:1369-2645-5112-5116"
+   ]
+  },
+  {
+   "id": "mairsil-02:m4",
+   "from": "card:Morphling",
+   "to": "combo:mairsil-the-pretender/mairsil-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "602.5b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-02",
+    "cr:302.6",
+    "cr:602.5b",
+    "spellbook:1369-5112-5116-5137",
+    "spellbook:1369-3995-5112-5116",
+    "spellbook:1369-2645-5112-5116"
+   ]
+  },
+  {
+   "id": "mairsil-02:m5",
+   "from": "card:Horseshoe Crab",
+   "to": "combo:mairsil-the-pretender/mairsil-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "602.5b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-02",
+    "cr:302.6",
+    "cr:602.5b",
+    "spellbook:1369-5112-5116-5137",
+    "spellbook:1369-3995-5112-5116",
+    "spellbook:1369-2645-5112-5116"
+   ]
+  },
+  {
+   "id": "mairsil-02:m6",
+   "from": "card:Staff of Domination",
+   "to": "combo:mairsil-the-pretender/mairsil-02",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "602.5b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-02",
+    "cr:302.6",
+    "cr:602.5b",
+    "spellbook:1369-5112-5116-5137",
+    "spellbook:1369-3995-5112-5116",
+    "spellbook:1369-2645-5112-5116"
+   ]
+  },
+  {
+   "id": "mairsil-02:p1",
+   "from": "card:Quicksilver Elemental",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "602.5b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-02",
+    "cr:302.6",
+    "cr:602.5b",
+    "spellbook:1369-5112-5116-5137",
+    "spellbook:1369-3995-5112-5116",
+    "spellbook:1369-2645-5112-5116"
+   ]
+  },
+  {
+   "id": "mairsil-02:p2",
+   "from": "card:Gilded Lotus",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "602.5b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-02",
+    "cr:302.6",
+    "cr:602.5b",
+    "spellbook:1369-5112-5116-5137",
+    "spellbook:1369-3995-5112-5116",
+    "spellbook:1369-2645-5112-5116"
+   ]
+  },
+  {
+   "id": "mairsil-02:p3",
+   "from": "card:Morphling",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "602.5b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-02",
+    "cr:302.6",
+    "cr:602.5b",
+    "spellbook:1369-5112-5116-5137",
+    "spellbook:1369-3995-5112-5116",
+    "spellbook:1369-2645-5112-5116"
+   ]
+  },
+  {
+   "id": "mairsil-02:p4",
+   "from": "card:Horseshoe Crab",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "602.5b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-02",
+    "cr:302.6",
+    "cr:602.5b",
+    "spellbook:1369-5112-5116-5137",
+    "spellbook:1369-3995-5112-5116",
+    "spellbook:1369-2645-5112-5116"
+   ]
+  },
+  {
+   "id": "mairsil-02:p5",
+   "from": "card:Staff of Domination",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-02",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "602.5b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-02",
+    "cr:302.6",
+    "cr:602.5b",
+    "spellbook:1369-5112-5116-5137",
+    "spellbook:1369-3995-5112-5116",
+    "spellbook:1369-2645-5112-5116"
+   ]
+  },
+  {
+   "id": "mairsil-03:m1",
+   "from": "commander:Mairsil, the Pretender",
+   "to": "combo:mairsil-the-pretender/mairsil-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "701.12a",
+    "701.12c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-03",
+    "cr:302.6",
+    "cr:701.12a",
+    "cr:701.12c",
+    "spellbook:2615-4449-5112",
+    "spellbook:2615-4449-5112"
+   ]
+  },
+  {
+   "id": "mairsil-03:m2",
+   "from": "card:Tree of Perdition",
+   "to": "combo:mairsil-the-pretender/mairsil-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "701.12a",
+    "701.12c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-03",
+    "cr:302.6",
+    "cr:701.12a",
+    "cr:701.12c",
+    "spellbook:2615-4449-5112",
+    "spellbook:2615-4449-5112"
+   ]
+  },
+  {
+   "id": "mairsil-03:m3",
+   "from": "card:Hateflayer",
+   "to": "combo:mairsil-the-pretender/mairsil-03",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "701.12a",
+    "701.12c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-03",
+    "cr:302.6",
+    "cr:701.12a",
+    "cr:701.12c",
+    "spellbook:2615-4449-5112",
+    "spellbook:2615-4449-5112"
+   ]
+  },
+  {
+   "id": "mairsil-03:p1",
+   "from": "card:Tree of Perdition",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "701.12a",
+    "701.12c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-03",
+    "cr:302.6",
+    "cr:701.12a",
+    "cr:701.12c",
+    "spellbook:2615-4449-5112",
+    "spellbook:2615-4449-5112"
+   ]
+  },
+  {
+   "id": "mairsil-03:p2",
+   "from": "card:Hateflayer",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-03",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "701.12a",
+    "701.12c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-03",
+    "cr:302.6",
+    "cr:701.12a",
+    "cr:701.12c",
+    "spellbook:2615-4449-5112",
+    "spellbook:2615-4449-5112"
+   ]
+  },
+  {
+   "id": "mairsil-04:m1",
+   "from": "commander:Mairsil, the Pretender",
+   "to": "combo:mairsil-the-pretender/mairsil-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.9a",
+    "400.7",
+    "702.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-04",
+    "cr:903.9a",
+    "cr:400.7",
+    "cr:702.10c",
+    "spellbook:1050-4068-4439-5112"
+   ]
+  },
+  {
+   "id": "mairsil-04:m2",
+   "from": "card:Aetherling",
+   "to": "combo:mairsil-the-pretender/mairsil-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.9a",
+    "400.7",
+    "702.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-04",
+    "cr:903.9a",
+    "cr:400.7",
+    "cr:702.10c",
+    "spellbook:1050-4068-4439-5112"
+   ]
+  },
+  {
+   "id": "mairsil-04:m3",
+   "from": "card:Nevinyrral's Disk",
+   "to": "combo:mairsil-the-pretender/mairsil-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.9a",
+    "400.7",
+    "702.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-04",
+    "cr:903.9a",
+    "cr:400.7",
+    "cr:702.10c",
+    "spellbook:1050-4068-4439-5112"
+   ]
+  },
+  {
+   "id": "mairsil-04:m4",
+   "from": "card:Anger",
+   "to": "combo:mairsil-the-pretender/mairsil-04",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "903.9a",
+    "400.7",
+    "702.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-04",
+    "cr:903.9a",
+    "cr:400.7",
+    "cr:702.10c",
+    "spellbook:1050-4068-4439-5112"
+   ]
+  },
+  {
+   "id": "mairsil-04:p1",
+   "from": "card:Aetherling",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.9a",
+    "400.7",
+    "702.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-04",
+    "cr:903.9a",
+    "cr:400.7",
+    "cr:702.10c",
+    "spellbook:1050-4068-4439-5112"
+   ]
+  },
+  {
+   "id": "mairsil-04:p2",
+   "from": "card:Nevinyrral's Disk",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.9a",
+    "400.7",
+    "702.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-04",
+    "cr:903.9a",
+    "cr:400.7",
+    "cr:702.10c",
+    "spellbook:1050-4068-4439-5112"
+   ]
+  },
+  {
+   "id": "mairsil-04:p3",
+   "from": "card:Anger",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-04",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "903.9a",
+    "400.7",
+    "702.10c"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-04",
+    "cr:903.9a",
+    "cr:400.7",
+    "cr:702.10c",
+    "spellbook:1050-4068-4439-5112"
+   ]
+  },
+  {
+   "id": "mairsil-05:m1",
+   "from": "card:Rings of Brighthearth",
+   "to": "combo:mairsil-the-pretender/mairsil-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-05",
+    "cr:605.1a",
+    "cr:707.10",
+    "spellbook:4091-4235-5116"
+   ]
+  },
+  {
+   "id": "mairsil-05:m2",
+   "from": "card:Aphetto Alchemist",
+   "to": "combo:mairsil-the-pretender/mairsil-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-05",
+    "cr:605.1a",
+    "cr:707.10",
+    "spellbook:4091-4235-5116"
+   ]
+  },
+  {
+   "id": "mairsil-05:m3",
+   "from": "card:Gilded Lotus",
+   "to": "combo:mairsil-the-pretender/mairsil-05",
+   "kind": "piece_of",
+   "graph_kind": "piece_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "605.1a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-05",
+    "cr:605.1a",
+    "cr:707.10",
+    "spellbook:4091-4235-5116"
+   ]
+  },
+  {
+   "id": "mairsil-05:p1",
+   "from": "card:Aphetto Alchemist",
+   "to": "card:Rings of Brighthearth",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-05",
+    "cr:605.1a",
+    "cr:707.10",
+    "spellbook:4091-4235-5116"
+   ]
+  },
+  {
+   "id": "mairsil-05:p2",
+   "from": "card:Gilded Lotus",
+   "to": "card:Rings of Brighthearth",
+   "kind": "combo_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-05",
+   "topic": "combo",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "605.1a",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-05",
+    "cr:605.1a",
+    "cr:707.10",
+    "spellbook:4091-4235-5116"
+   ]
+  },
+  {
+   "id": "mairsil-06:m1",
+   "from": "commander:Mairsil, the Pretender",
+   "to": "interaction:mairsil-the-pretender/mairsil-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "707.2",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-06",
+    "cr:704.5j",
+    "cr:707.2",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "mairsil-06:m2",
+   "from": "card:Pack Rat",
+   "to": "interaction:mairsil-the-pretender/mairsil-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "707.2",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-06",
+    "cr:704.5j",
+    "cr:707.2",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "mairsil-06:m3",
+   "from": "card:Rings of Brighthearth",
+   "to": "interaction:mairsil-the-pretender/mairsil-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "707.2",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-06",
+    "cr:704.5j",
+    "cr:707.2",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "mairsil-06:m4",
+   "from": "card:Training Grounds",
+   "to": "interaction:mairsil-the-pretender/mairsil-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "707.2",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-06",
+    "cr:704.5j",
+    "cr:707.2",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "mairsil-06:m5",
+   "from": "card:Anger",
+   "to": "interaction:mairsil-the-pretender/mairsil-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "707.2",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-06",
+    "cr:704.5j",
+    "cr:707.2",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "mairsil-06:m6",
+   "from": "card:Thousand-Year Elixir",
+   "to": "interaction:mairsil-the-pretender/mairsil-06",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "704.5j",
+    "707.2",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-06",
+    "cr:704.5j",
+    "cr:707.2",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "mairsil-06:p1",
+   "from": "card:Pack Rat",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5j",
+    "707.2",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-06",
+    "cr:704.5j",
+    "cr:707.2",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "mairsil-06:p2",
+   "from": "card:Rings of Brighthearth",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5j",
+    "707.2",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-06",
+    "cr:704.5j",
+    "cr:707.2",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "mairsil-06:p3",
+   "from": "card:Training Grounds",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5j",
+    "707.2",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-06",
+    "cr:704.5j",
+    "cr:707.2",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "mairsil-06:p4",
+   "from": "card:Anger",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5j",
+    "707.2",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-06",
+    "cr:704.5j",
+    "cr:707.2",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "mairsil-06:p5",
+   "from": "card:Thousand-Year Elixir",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-06",
+   "topic": "engine",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "704.5j",
+    "707.2",
+    "707.10"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-06",
+    "cr:704.5j",
+    "cr:707.2",
+    "cr:707.10"
+   ]
+  },
+  {
+   "id": "mairsil-07:m1",
+   "from": "commander:Mairsil, the Pretender",
+   "to": "interaction:mairsil-the-pretender/mairsil-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-07",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "707.9b",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-07",
+    "cr:707.2",
+    "cr:707.9b",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "mairsil-07:m2",
+   "from": "card:Spark Double",
+   "to": "interaction:mairsil-the-pretender/mairsil-07",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-07",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "707.2",
+    "707.9b",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-07",
+    "cr:707.2",
+    "cr:707.9b",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "mairsil-07:p1",
+   "from": "card:Spark Double",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-07",
+   "topic": "layers",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "707.2",
+    "707.9b",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-07",
+    "cr:707.2",
+    "cr:707.9b",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "mairsil-08:m1",
+   "from": "commander:Mairsil, the Pretender",
+   "to": "interaction:mairsil-the-pretender/mairsil-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "400.7",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-08",
+    "cr:400.7",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "mairsil-08:m2",
+   "from": "card:Essence Flux",
+   "to": "interaction:mairsil-the-pretender/mairsil-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "400.7",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-08",
+    "cr:400.7",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "mairsil-08:m3",
+   "from": "card:Displacer Kitten",
+   "to": "interaction:mairsil-the-pretender/mairsil-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "400.7",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-08",
+    "cr:400.7",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "mairsil-08:m4",
+   "from": "card:Arcanis the Omnipotent",
+   "to": "interaction:mairsil-the-pretender/mairsil-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "400.7",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-08",
+    "cr:400.7",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "mairsil-08:m5",
+   "from": "card:Minamo, School at Water's Edge",
+   "to": "interaction:mairsil-the-pretender/mairsil-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "400.7",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-08",
+    "cr:400.7",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "mairsil-08:m6",
+   "from": "card:Patriar's Seal",
+   "to": "interaction:mairsil-the-pretender/mairsil-08",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "400.7",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-08",
+    "cr:400.7",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "mairsil-08:p1",
+   "from": "card:Essence Flux",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "400.7",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-08",
+    "cr:400.7",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "mairsil-08:p2",
+   "from": "card:Displacer Kitten",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "400.7",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-08",
+    "cr:400.7",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "mairsil-08:p3",
+   "from": "card:Arcanis the Omnipotent",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "400.7",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-08",
+    "cr:400.7",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "mairsil-08:p4",
+   "from": "card:Minamo, School at Water's Edge",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "400.7",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-08",
+    "cr:400.7",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "mairsil-08:p5",
+   "from": "card:Patriar's Seal",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-08",
+   "topic": "zone",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "400.7",
+    "302.6"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-08",
+    "cr:400.7",
+    "cr:302.6"
+   ]
+  },
+  {
+   "id": "mairsil-09:m1",
+   "from": "commander:Mairsil, the Pretender",
+   "to": "interaction:mairsil-the-pretender/mairsil-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "113.3b",
+    "607.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-09",
+    "cr:113.3b",
+    "cr:607.1"
+   ]
+  },
+  {
+   "id": "mairsil-09:m2",
+   "from": "card:Asmodeus the Archfiend",
+   "to": "interaction:mairsil-the-pretender/mairsil-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "113.3b",
+    "607.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-09",
+    "cr:113.3b",
+    "cr:607.1"
+   ]
+  },
+  {
+   "id": "mairsil-09:m3",
+   "from": "card:Minion of Leshrac",
+   "to": "interaction:mairsil-the-pretender/mairsil-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "113.3b",
+    "607.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-09",
+    "cr:113.3b",
+    "cr:607.1"
+   ]
+  },
+  {
+   "id": "mairsil-09:m4",
+   "from": "card:Shauku, Endbringer",
+   "to": "interaction:mairsil-the-pretender/mairsil-09",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "113.3b",
+    "607.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-09",
+    "cr:113.3b",
+    "cr:607.1"
+   ]
+  },
+  {
+   "id": "mairsil-09:p1",
+   "from": "card:Asmodeus the Archfiend",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "113.3b",
+    "607.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-09",
+    "cr:113.3b",
+    "cr:607.1"
+   ]
+  },
+  {
+   "id": "mairsil-09:p2",
+   "from": "card:Minion of Leshrac",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "113.3b",
+    "607.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-09",
+    "cr:113.3b",
+    "cr:607.1"
+   ]
+  },
+  {
+   "id": "mairsil-09:p3",
+   "from": "card:Shauku, Endbringer",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-09",
+   "topic": "dependency",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "113.3b",
+    "607.1"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-09",
+    "cr:113.3b",
+    "cr:607.1"
+   ]
+  },
+  {
+   "id": "mairsil-10:m1",
+   "from": "commander:Mairsil, the Pretender",
+   "to": "interaction:mairsil-the-pretender/mairsil-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-10",
+   "topic": "dependency",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "113.3b",
+    "602.5b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-10",
+    "cr:113.3b",
+    "cr:602.5b"
+   ]
+  },
+  {
+   "id": "mairsil-10:m2",
+   "from": "card:Marvin, Murderous Mimic",
+   "to": "interaction:mairsil-the-pretender/mairsil-10",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-10",
+   "topic": "dependency",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "hypothesis",
+   "cr": [
+    "113.3b",
+    "602.5b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-10",
+    "cr:113.3b",
+    "cr:602.5b"
+   ]
+  },
+  {
+   "id": "mairsil-10:p1",
+   "from": "card:Marvin, Murderous Mimic",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-10",
+   "topic": "dependency",
+   "status": "uncertain",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "113.3b",
+    "602.5b"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-10",
+    "cr:113.3b",
+    "cr:602.5b"
+   ]
+  },
+  {
+   "id": "mairsil-11:m1",
+   "from": "commander:Mairsil, the Pretender",
+   "to": "interaction:mairsil-the-pretender/mairsil-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-11",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "702.18a",
+    "118.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-11",
+    "cr:302.6",
+    "cr:702.18a",
+    "cr:118.3"
+   ]
+  },
+  {
+   "id": "mairsil-11:m2",
+   "from": "card:Thousand-Year Elixir",
+   "to": "interaction:mairsil-the-pretender/mairsil-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-11",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "702.18a",
+    "118.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-11",
+    "cr:302.6",
+    "cr:702.18a",
+    "cr:118.3"
+   ]
+  },
+  {
+   "id": "mairsil-11:m3",
+   "from": "card:Wishclaw Talisman",
+   "to": "interaction:mairsil-the-pretender/mairsil-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-11",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "702.18a",
+    "118.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-11",
+    "cr:302.6",
+    "cr:702.18a",
+    "cr:118.3"
+   ]
+  },
+  {
+   "id": "mairsil-11:m4",
+   "from": "card:Lightning Greaves",
+   "to": "interaction:mairsil-the-pretender/mairsil-11",
+   "kind": "member_of",
+   "graph_kind": "member_of",
+   "layer": "membership",
+   "symmetric": false,
+   "interaction": "mairsil-11",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "fact",
+   "cr": [
+    "302.6",
+    "702.18a",
+    "118.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-11",
+    "cr:302.6",
+    "cr:702.18a",
+    "cr:118.3"
+   ]
+  },
+  {
+   "id": "mairsil-11:p1",
+   "from": "card:Thousand-Year Elixir",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-11",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "702.18a",
+    "118.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-11",
+    "cr:302.6",
+    "cr:702.18a",
+    "cr:118.3"
+   ]
+  },
+  {
+   "id": "mairsil-11:p2",
+   "from": "card:Wishclaw Talisman",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-11",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "702.18a",
+    "118.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-11",
+    "cr:302.6",
+    "cr:702.18a",
+    "cr:118.3"
+   ]
+  },
+  {
+   "id": "mairsil-11:p3",
+   "from": "card:Lightning Greaves",
+   "to": "commander:Mairsil, the Pretender",
+   "kind": "interacts_with",
+   "graph_kind": null,
+   "layer": "pair",
+   "symmetric": true,
+   "interaction": "mairsil-11",
+   "topic": "timing",
+   "status": "verified",
+   "flag_kind": null,
+   "evidence_class": "derived_metric",
+   "cr": [
+    "302.6",
+    "702.18a",
+    "118.3"
+   ],
+   "evidence": [
+    "review:data/grixis_interactions/mairsil-the-pretender.json#mairsil-11",
+    "cr:302.6",
+    "cr:702.18a",
+    "cr:118.3"
+   ]
+  }
+ ]
+}
