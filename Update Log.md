@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 57.4 (M3: scripted stress scenarios)](#2026-10-16--bot-cycle-574-m3-scripted-stress-scenarios)
 - [2026-10-16 — Bot cycle 57.3 (M3: paired champion-vs-challenger tests)](#2026-10-16--bot-cycle-573-m3-paired-champion-vs-challenger-tests)
 - [2026-10-16 — Bot cycle 57.2 (M3: goldfish simulator core)](#2026-10-16--bot-cycle-572-m3-goldfish-simulator-core)
 - [2026-10-16 — Bot cycle 57.1 (M3: evidence layer)](#2026-10-16--bot-cycle-571-m3-evidence-layer)
@@ -73,6 +74,20 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 57.4 (M3: scripted stress scenarios)
+- **What it adds:** `scripts/grixis_stress.py` runs 9 deterministic scenarios in the same engine. Each perturbed game is paired with the unperturbed game on identical shuffles.
+  - The scenarios: commander removed once or twice, graveyard exiled, artifacts wiped, board wipe, first key spell countered, mana screw, colour screw, key engine exiled.
+  - Primary metrics and thresholds were pre-registered before any run. Each record carries CI95s and recovery metrics (recast share, recovery turns, within 2 turns). There are no win rates.
+- **Records:** 558, in `data/grixis/stress/` (62 decks × 9 scenarios × 500 paired games). Results are in [the Authority Model, M3 criterion 7](grixis/Grixis%20Authority%20Model.md#m3). In short:
+  - commander removal costs a median of 2.2 commander turns, with a median recovery of 2.0 turns;
+  - an artifact wipe costs about 1.1 mana on turn 8;
+  - graveyard exile measures nothing yet, because the model has no recursion.
+- **Simulator:** `play_game` gained scenario hooks (graveyard and exile zones, a resolve step, end-step events). Plain games are unchanged: a 62-deck regression gives identical games. It also gained `artifact` / `gy_text` card flags and deck `engine` / `gy_combo` sets.
+- **Versioning:** paired-test ids are now keyed by simulator *version*, not by code hash. `--check` requires an exact re-run, so a behaviour change needs a version bump. The 6 v1.0 records were regenerated with identical results; only their ids and code hash changed.
+- **Schema:** `test.schema.json` gains an optional `scenario_metrics`.
+- **Checks:** a new `validate_all` step `stress` (24 steps). `tests/test_stress.py` adds 9 tests.
+- **Unchanged:** no decklist or interaction file was touched; M2 is still waiting for Cory; Tresserhorn's Lord stays `PENDING_RELEASE`.
 
 ## 2026-10-16 — Bot cycle 57.3 (M3: paired champion-vs-challenger tests)
 - **`scripts/grixis_paired.py`:** aligned libraries; both lists get the same shuffles and mulligan reshuffles on identical seeds.

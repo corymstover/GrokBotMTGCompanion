@@ -148,6 +148,42 @@
     "type": "string"
    },
    "minItems": 1
+  },
+  "scenario_metrics": {
+   "description": "Bot cycle 57.4: measurements under the scenario only (not paired differences), e.g. commander recovery turns.",
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "metric": {
+      "type": "string"
+     },
+     "value": {
+      "type": "number"
+     },
+     "ci95": {
+      "type": [
+       "array",
+       "null"
+      ]
+     },
+     "n": {
+      "type": "integer",
+      "minimum": 0
+     },
+     "method": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "metric",
+     "value",
+     "ci95",
+     "n",
+     "method"
+    ],
+    "additionalProperties": false
+   }
   }
  },
  "required": [
