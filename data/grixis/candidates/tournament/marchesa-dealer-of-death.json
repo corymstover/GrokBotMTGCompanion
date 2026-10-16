@@ -1,0 +1,898 @@
+{
+ "card_window": "ONE_YEAR",
+ "cards": {
+  "Abrade": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2368,
+    "entries": 38,
+    "top_cuts": 9
+   }
+  },
+  "Adventurous Eater // Have a Bite": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Aether Channeler": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Ajani Unrelenting": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Animate Dead": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2432,
+    "entries": 37,
+    "top_cuts": 9
+   }
+  },
+  "Arcane Denial": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2368,
+    "entries": 38,
+    "top_cuts": 9
+   }
+  },
+  "Archaeomancer": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "At Knifepoint": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2368,
+    "entries": 38,
+    "top_cuts": 9
+   }
+  },
+  "Avengers Disassembled": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Birgi, God of Storytelling // Harnfel, Horn of Bounty": {
+   "withCard": {
+    "conversion": 0.2903,
+    "entries": 31,
+    "top_cuts": 9
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 8,
+    "top_cuts": 0
+   }
+  },
+  "Blazing Firesinger // Seething Song": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Bojuka Bog": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Borne Upon a Wind": {
+   "withCard": {
+    "conversion": 0.2692,
+    "entries": 26,
+    "top_cuts": 7
+   },
+   "withoutCard": {
+    "conversion": 0.1538,
+    "entries": 13,
+    "top_cuts": 2
+   }
+  },
+  "Chain of Smog": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Chaos Warp": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Chase Inspiration": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Codex Shredder": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2432,
+    "entries": 37,
+    "top_cuts": 9
+   }
+  },
+  "Cool but Rude": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Counterbalance": {
+   "withCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0.2121,
+    "entries": 33,
+    "top_cuts": 7
+   }
+  },
+  "Counterspell": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 4,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2571,
+    "entries": 35,
+    "top_cuts": 9
+   }
+  },
+  "Deflecting Swat": {
+   "withCard": {
+    "conversion": 0.25,
+    "entries": 36,
+    "top_cuts": 9
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 3,
+    "top_cuts": 0
+   }
+  },
+  "Duelist of the Mind": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2368,
+    "entries": 38,
+    "top_cuts": 9
+   }
+  },
+  "Eroded Canyon": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Exhibition Tidecaller": {
+   "withCard": {
+    "conversion": 0.6,
+    "entries": 10,
+    "top_cuts": 6
+   },
+   "withoutCard": {
+    "conversion": 0.1034,
+    "entries": 29,
+    "top_cuts": 3
+   }
+  },
+  "Feed the Swarm": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2368,
+    "entries": 38,
+    "top_cuts": 9
+   }
+  },
+  "Flashback": {
+   "withCard": {
+    "conversion": 0.25,
+    "entries": 4,
+    "top_cuts": 1
+   },
+   "withoutCard": {
+    "conversion": 0.2286,
+    "entries": 35,
+    "top_cuts": 8
+   }
+  },
+  "Ghost Vacuum": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 3,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.25,
+    "entries": 36,
+    "top_cuts": 9
+   }
+  },
+  "Gisa, the Hellraiser": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Gitaxian Probe": {
+   "withCard": {
+    "conversion": 0.1579,
+    "entries": 19,
+    "top_cuts": 3
+   },
+   "withoutCard": {
+    "conversion": 0.3,
+    "entries": 20,
+    "top_cuts": 6
+   }
+  },
+  "Glasses of Urza": {
+   "withCard": {
+    "conversion": 0.1667,
+    "entries": 18,
+    "top_cuts": 3
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 21,
+    "top_cuts": 6
+   }
+  },
+  "Grinding Station": {
+   "withCard": {
+    "conversion": 0.2,
+    "entries": 10,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0.2414,
+    "entries": 29,
+    "top_cuts": 7
+   }
+  },
+  "Hullbreaker Horror": {
+   "withCard": {
+    "conversion": 0.2,
+    "entries": 5,
+    "top_cuts": 1
+   },
+   "withoutCard": {
+    "conversion": 0.2353,
+    "entries": 34,
+    "top_cuts": 8
+   }
+  },
+  "Iridescent Vinelasher": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Jagged Barrens": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Kaervek, the Punisher": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Kess, Dissident Mage": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Laughing Jasper Flint": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Lazav, Familiar Stranger": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Lightning Bolt": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2432,
+    "entries": 37,
+    "top_cuts": 9
+   }
+  },
+  "Liquimetal Torque": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2368,
+    "entries": 38,
+    "top_cuts": 9
+   }
+  },
+  "Mana Drain": {
+   "withCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0.2188,
+    "entries": 32,
+    "top_cuts": 7
+   }
+  },
+  "Mana Sculpt": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Masterful Flourish": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Misty Rainforest": {
+   "withCard": {
+    "conversion": 0.2727,
+    "entries": 33,
+    "top_cuts": 9
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 6,
+    "top_cuts": 0
+   }
+  },
+  "Mjölnir, Hammer of Thor": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Mox Opal": {
+   "withCard": {
+    "conversion": 0.2647,
+    "entries": 34,
+    "top_cuts": 9
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 5,
+    "top_cuts": 0
+   }
+  },
+  "Negate": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2432,
+    "entries": 37,
+    "top_cuts": 9
+   }
+  },
+  "Orcish Bowmasters": {
+   "withCard": {
+    "conversion": 0.2432,
+    "entries": 37,
+    "top_cuts": 9
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   }
+  },
+  "Overwrite the Multiverse": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Peer into the Abyss": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Pongify": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2432,
+    "entries": 37,
+    "top_cuts": 9
+   }
+  },
+  "Rakdos Charm": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Reanimate": {
+   "withCard": {
+    "conversion": 0.1,
+    "entries": 10,
+    "top_cuts": 1
+   },
+   "withoutCard": {
+    "conversion": 0.2759,
+    "entries": 29,
+    "top_cuts": 8
+   }
+  },
+  "Red Death, Shipwrecker": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Reiterate": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Return the Favor": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2368,
+    "entries": 38,
+    "top_cuts": 9
+   }
+  },
+  "Rite of Flame": {
+   "withCard": {
+    "conversion": 0.2632,
+    "entries": 19,
+    "top_cuts": 5
+   },
+   "withoutCard": {
+    "conversion": 0.2,
+    "entries": 20,
+    "top_cuts": 4
+   }
+  },
+  "Shoot the Sheriff": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Snap": {
+   "withCard": {
+    "conversion": 0.2143,
+    "entries": 14,
+    "top_cuts": 3
+   },
+   "withoutCard": {
+    "conversion": 0.24,
+    "entries": 25,
+    "top_cuts": 6
+   }
+  },
+  "Soured Springs": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Terminate": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2432,
+    "entries": 37,
+    "top_cuts": 9
+   }
+  },
+  "Tezzeret, Master of the Bridge": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Tidespout Tyrant": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Unctus, Grand Metatect": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Untimely Malfunction": {
+   "withCard": {
+    "conversion": 0.25,
+    "entries": 4,
+    "top_cuts": 1
+   },
+   "withoutCard": {
+    "conversion": 0.2286,
+    "entries": 35,
+    "top_cuts": 8
+   }
+  },
+  "Vadmir, New Blood": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Vandalblast": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2432,
+    "entries": 37,
+    "top_cuts": 9
+   }
+  },
+  "Venser, Shaper Savant": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Victimize": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Wisdom of Ages": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Withering Torment": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  },
+  "Xander's Lounge": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2308,
+    "entries": 39,
+    "top_cuts": 9
+   }
+  }
+ },
+ "class": "derived_metric",
+ "commander": {
+  "color_id": "UBR",
+  "name": "Marchesa, Dealer of Death",
+  "windows": {
+   "ONE_YEAR": {
+    "conversionRate": 0.2308,
+    "count": 39,
+    "metaShare": 0.0002,
+    "topCuts": 9
+   },
+   "SIX_MONTHS": {
+    "conversionRate": 0.3333,
+    "count": 18,
+    "metaShare": 0.0002,
+    "topCuts": 6
+   }
+  }
+ },
+ "commander_query": "Marchesa, Dealer of Death",
+ "list_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+ "note": "EDHTop16 aggregates reported cEDH tournament results (entries with and without a card, top cuts, conversion = top cuts / entries). Entries without a submitted decklist count as 'without' the card, so 'without' figures are upper bounds on non-play. Observational, confounded by pilot skill and meta: derived_metric only.",
+ "retrieved": "2026-10-16",
+ "sample_size": 39,
+ "schema_version": 1,
+ "slug": "marchesa-dealer-of-death",
+ "source": "https://edhtop16.com/api/graphql",
+ "status": "collected",
+ "window": "ONE_YEAR"
+}

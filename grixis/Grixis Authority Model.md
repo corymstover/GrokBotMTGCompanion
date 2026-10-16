@@ -141,6 +141,7 @@ Trade Secrets and Yawgmoth's Bargain (banned) are verified `AUTHORIZED_EXCEPTION
 | `data/grixis/tests/<slug>.json` | M3 paired champion-vs-challenger records (Bot cycle 57.3, `test.schema.json`); `scripts/grixis_paired.py --run-registered` / `--check` (step `paired-tests`) / `--deck SLUG --swap "Cut=>Add"` (ad hoc, not stored). |
 | `data/grixis/graph/<slug>.json` | M4 dependency graph per deck (Bot cycle 59.1, `graph.schema.json`): Spellbook, blueprint, role and M1 layers with classed edges; per-card necessity, breaks-if-removed, redundancy, best alternative; `scripts/grixis_graph.py --build` / `--check` (step `graph`) / `--show SLUG CARD`. |
 | `data/grixis/audit/<slug>.json` | M4 99-slot audit per deck (Bot cycle 59.2, `audit.schema.json`): a provisional disposition, refs, evidence classes and decision support for every slot, a boilerplate lint and a goldfish baseline; `scripts/grixis_audit.py --build` / `--check` (step `audit`) / `--summary`. |
+| `data/grixis/candidates/<slug>.json` | M5 candidate deep dive per deck (Bot cycle 60, `candidate_universe.schema.json`; records `candidate`, `swap`, `test` schemas): 200–500 candidates with sources and screening, triage, escalations, full reviews, exploratory swap hypotheses and v1.1 paired tests; `scripts/grixis_candidates.py --build` / `--check` (step `candidates`) / `--summary`. `spellbook_almost.json`: Spellbook near-miss snapshot (step `spellbook-near`). `tournament/<slug>.json`: EDHTop16 evidence for the 13 cEDH-ceiling decks (step `tournament`). |
 | `data/grixis/stress/<slug>.json` | M3 stress records (Bot cycle 57.4): 9 scripted scenarios per deck, paired against the unperturbed game; `scripts/grixis_stress.py --build` / `--check` (step `stress`) / `--summary`. |
 | `data/grixis_refine_v2.json` | v2 exploratory recommendations (never final). |
 | `exports/grixis-archidekt/index.json` | Label, role, state, compliance and both hashes for every export file. |
@@ -298,6 +299,44 @@ Status is in `data/grixis/registry.json → program.milestones`. Only Cory sets 
 
 ### M5
 **Candidate deep dive.** Per deck a recorded candidate universe (definition, sources, size, snapshot), triage with the default 15–40 full reviews and escalations with reasons; tournament evidence only for decks whose estimated ceiling is cEDH, with sample size and date.
+
+*Status (Bot cycle 60; `program.milestones.M5: in_progress`).* Sub-cycles: **60.1** universe, triage, full reviews, swap hypotheses and paired tests · **60.2** tournament evidence. Everything is provisional and exploratory. No list changed, no challenger was registered or promoted, and no swap has a decision (constraints 2, 6 and 8). Criteria:
+1. ✅ *(60.1)* **A recorded universe per deck:** `scripts/grixis_candidates.py` writes `data/grixis/candidates/<slug>.json` (`candidate_universe.schema.json`). Each file records the definition, sources, size, exclusions and a snapshot (graph, evidence, audit, Oracle and default-cards bulk, Spellbook snapshot, EDHREC pages, simulator sha). The universe is Commander-legal cards in identity, not basic lands and not already in the list. 62 decks, 30,975 candidates: 61 decks at the 500 cap, The Valeyard at 475. Sources:
+   - **EDHREC:** the M3 evidence-layer candidates.
+   - **Commander Spellbook near-misses:** the single missing piece of an `almostIncluded` variant. Snapshot `spellbook_almost.json`, 6,683 variants, retrieved 2026-10-16 by `scripts/grixis_spellbook_almost.py`.
+   - **Blueprint package candidates.**
+   - **Oracle-text search** on the full bulk: the card touches a mechanic named in the commander's text, or shares a package's signature creature type.
+   - **New cards:** earliest printing on or after 2026-04-16.
+
+   Not-yet-legal cards are excluded but counted, and the newest are listed in `not_legal_watchlist` (for example the 2026-11-13 MBC cards).
+2. ✅ *(60.1)* **Triage with the default 15–40:** cards are ranked by a recorded screening score (`screen_rules`: EDHREC inclusion and synergy, EDHREC overall rank, Oracle hook, package fit, blueprint naming, Spellbook near-miss, new card, scarce role, anti-goal). Tier A/B/C. The default full-review set is the top clamp(#tier A, 15, 40).
+3. ✅ *(60.1)* **Escalations with reasons (constraint 3: 15–40 is not a gate):** 1,577 candidates were escalated beyond the default set. Reasons:
+   - `dependency_analysis` 738: completes an infinite Spellbook variant.
+   - `new_card` 732.
+   - `unusual_oracle_interaction` 732: niche Oracle or type hits with no EDHREC row.
+   - `rank_miss_suspected` 2.
+   - `package_gap` 0: no required package is under its `min_count`.
+
+   Each escalation has evidence refs and a full review (`candidate_problems`). At most 12 are taken per reason per deck, and the overflow is listed by name in `triage.escalation_overflow`. In total 3,774 full reviews, 40–71 per deck.
+4. ✅ *(60.1)* **Each full review is evaluated against:**
+   - **the blueprint:** fit, the packages that name the card, the Oracle hook, anti-goals;
+   - **the role model:** the role it competes in and the list's role counts;
+   - **the graph:** the Spellbook variants it completes and the incumbents involved;
+   - **the best incumbent in its role:** the highest-EDHREC-inclusion incumbent, with inclusion, synergy and MV deltas.
+
+   Each review also carries an assessment text, evidence classes and `decision_support` (heuristics and derived metrics cannot decide).
+5. ✅ *(60.1)* **Pairwise swap hypotheses and paired tests:**
+   - **Swaps:** 3,771 `swap.schema.json` records, `state: CHALLENGER`, `exploratory: true`, `decision.verdict: null`, with base and result hashes, 10 impacts and evidence. The cut is the weakest replaceable incumbent in the same role. Core, strong retain, project requirements and pieces of the completed combo are never the cut.
+   - **Paired tests:** 2,606 where the model sees either card. Simulator v1.1, 300 paired games, seed 60, PREREG primary `mana_spent_t1_t6`. Verdicts: pass 197 · fail 251 · inconclusive 921 · no detectable difference 1,237.
+   - **Not modelable:** 1,165 swaps are recorded with the reason. Each test lists what the model cannot see: interaction, commander synergy, opponents.
+   - **Rediscovery:** one swap independently matches a registered challenger (Abaddon: Mystic Remora → Stormfist Crusader). It is flagged `matches_registered_challenger`, not merged.
+6. ✅ *(60.2)* **Tournament evidence only for cEDH-ceiling decks:** this applies to the 13 decks whose blueprint estimated ceiling is bracket 5. `scripts/grixis_tournament.py` reads EDHTop16 (public GraphQL, retrieved 2026-10-16) into `data/grixis/candidates/tournament/<slug>.json`.
+   - **Per deck:** commander entries (sample size) for one year and six months, plus with- and without-card entries, top cuts and conversion for every full-review candidate and its cut.
+   - **Collected (one-year entries):** Rograkh + Silas 3,902 · Kefka 1,396 · Inalla 574 · Norman Osborn 430 · Azula 167 · Kess 58 · Marchesa, Dealer of Death 39 · Cormela 38 · Evelyn 31 · Jeleva 13 · Grixistax (Kraum + Tevesh) 7.
+   - **No data:** Mishra, Artificer Prodigy and The Madcap Jester (not yet legal).
+
+   The other 49 decks record `applicable: false`. The evidence is class `derived_metric` (observational, confounded) and never a simulation.
+7. ⏳ Cory's acceptance (`program.milestones.M5`).
 
 ### M6
 **Refinement cycle 1** (starts only after M2 and M4 are accepted). Per deck: independent commander-first and performance passes with different objective functions (rule 7), a reconciliation with a deep-review queue, paired tests of each material swap, stress scenarios and a red-team record, and a schema-valid certificate leading to `APPROVAL_READY` or `REVIEW_REQUIRED`.

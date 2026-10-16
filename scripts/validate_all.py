@@ -39,6 +39,10 @@ Steps (run in this order; each prints its own summary):
                     hash, snapshot, node/edge integrity, metrics cover the list, M1 edges ingest status, exact rebuild of 2 decks)
   7m audit          scripts/grixis_audit.py --check  Bot cycle 59.2 (M4): 99-slot audits (audit.schema.json, slot coverage, provisional
                     while M2 is unaccepted, complete-eligibility vs disposition_status, boilerplate lint, baseline, exact rebuild)
+  7n candidates     scripts/grixis_candidates.py --check  Bot cycle 60 (M5): candidate universes 200-500 (schema, canonical hash,
+                    candidate/swap/test records, escalations get full review, swaps exploratory and unregistered, exact rebuild)
+  7o spellbook-near  scripts/grixis_spellbook_almost.py  Bot cycle 60.1 (M5): Spellbook near-miss snapshot sanity
+  7p tournament     scripts/grixis_tournament.py --check  Bot cycle 60.3 (M5): tournament evidence only and always for cEDH-ceiling decks
   7k unit-tests     scripts/run_tests.py  tests/ via pytest (stdlib fallback runner when pytest is absent)
   8 freshness    (built in)                              generated pages built from an older bulk than the cache (warning);
                                                          with --online, a newer Scryfall bulk than the cache (warning; --strict fails)
@@ -195,6 +199,9 @@ def main(argv):
              ("stress", ["scripts/grixis_stress.py", "--check"]),  # Bot cycle 57.4 (M3): scripted stress scenarios
              ("graph", ["scripts/grixis_graph.py", "--check"]),  # Bot cycle 59.1 (M4): per-deck dependency graphs
              ("audit", ["scripts/grixis_audit.py", "--check"]),  # Bot cycle 59.2 (M4): 99-slot audits
+             ("spellbook-near", ["scripts/grixis_spellbook_almost.py"]),  # Bot cycle 60.1 (M5): near-miss snapshot
+             ("candidates", ["scripts/grixis_candidates.py", "--check"]),  # Bot cycle 60 (M5): candidate deep dive
+             ("tournament", ["scripts/grixis_tournament.py", "--check"]),  # Bot cycle 60.3 (M5): cEDH-only tournament evidence
              ("unit-tests", ["scripts/run_tests.py"]),  # Bot cycle 47 (M0): tests/ (hashes, states, approvals, legality vs authorization, schemas)
              ("freshness", None)]
     results = []

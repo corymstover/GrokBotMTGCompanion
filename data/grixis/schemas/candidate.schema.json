@@ -2,7 +2,7 @@
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/candidate.schema.json",
  "title": "Candidate record with escalation (v1 draft)",
- "description": "The 15–40 full-review range is a default workload, not a gate. Escalated candidates get full review regardless of rank (Cory constraint 3).",
+ "description": "The 15–40 full-review range is a default workload, not a gate. Escalated candidates get full review regardless of rank (Cory constraint 3). Bot cycle 60 (M5): optional `sources`, `screening` and `review` (full review against blueprint, role model, graph and best incumbent; swap and goldfish refs).",
  "type": "object",
  "properties": {
   "schema_version": {
@@ -102,6 +102,118 @@
    "required": [
     "default_full_review_range",
     "is_gate"
+   ],
+   "additionalProperties": false
+  },
+  "sources": {
+   "type": "array",
+   "items": {
+    "enum": [
+     "edhrec",
+     "spellbook",
+     "blueprint",
+     "oracle_hook",
+     "package",
+     "new_card",
+     "rank_fill"
+    ]
+   }
+  },
+  "screening": {
+   "type": "object",
+   "properties": {
+    "score": {
+     "type": "number"
+    },
+    "parts": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "number"
+     }
+    },
+    "facts": {
+     "type": "object"
+    }
+   },
+   "required": [
+    "score",
+    "parts",
+    "facts"
+   ],
+   "additionalProperties": false
+  },
+  "review": {
+   "type": "object",
+   "properties": {
+    "role": {},
+    "blueprint": {},
+    "graph": {},
+    "best_incumbent": {},
+    "cut": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "assessment": {
+     "type": "string",
+     "minLength": 1
+    },
+    "evidence_classes": {},
+    "decision_support": {
+     "type": "object",
+     "properties": {
+      "ok": {
+       "type": "boolean"
+      },
+      "why_not": {
+       "type": "array"
+      }
+     },
+     "required": [
+      "ok",
+      "why_not"
+     ]
+    },
+    "swap": {
+     "type": "string",
+     "pattern": "^swap:"
+    },
+    "goldfish": {},
+    "tournament": {
+     "type": "object",
+     "properties": {
+      "window": {
+       "type": "string"
+      },
+      "retrieved": {
+       "type": "string"
+      },
+      "commander_entries": {
+       "type": "integer"
+      }
+     },
+     "required": [
+      "window",
+      "retrieved",
+      "commander_entries",
+      "card",
+      "cut"
+     ]
+    },
+    "matches_registered_challenger": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "role",
+    "blueprint",
+    "graph",
+    "best_incumbent",
+    "cut",
+    "assessment",
+    "evidence_classes",
+    "decision_support"
    ],
    "additionalProperties": false
   }

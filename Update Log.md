@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 60 (M5: candidate deep dive)](#2026-10-16--bot-cycle-60-m5-candidate-deep-dive)
 - [2026-10-16 — Bot cycle 59.2 (M4: 99-slot audit)](#2026-10-16--bot-cycle-592-m4-99-slot-audit)
 - [2026-10-16 — Bot cycle 59.1 (M4: dependency graph)](#2026-10-16--bot-cycle-591-m4-dependency-graph)
 - [2026-10-16 — Bot cycle 58 (M1: interaction edges for M4; source attestation coverage)](#2026-10-16--bot-cycle-58-m1-interaction-edges-for-m4-source-attestation-coverage)
@@ -80,6 +81,18 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 60 (M5: candidate deep dive)
+- **M5 started** (`program.milestones.M5: in_progress`), with sub-cycles 60.1 (universe, triage, reviews, swaps, paired tests) and 60.2 (tournament evidence).
+- **`scripts/grixis_candidates.py`** builds a candidate universe for each deck: 62 decks, 30,975 candidates.
+  - **Sources:** EDHREC, Commander Spellbook near-misses, blueprint package candidates, Oracle-text and type search on the bulk, and new cards since 2026-04-16.
+  - **Triage:** screening and tiers, then the default 15–40 full reviews plus 1,577 escalations with reasons and refs, for 3,774 full reviews.
+  - **Reviews:** each is checked against the blueprint, the role model, the graph and the best incumbent in its role.
+  - **Hypotheses and tests:** 3,771 exploratory swap hypotheses, and 2,606 paired v1.1 goldfish tests with model-coverage notes (1,165 swaps not modelable).
+  - **Status:** all provisional. No list changes, no registered or promoted challengers, no decisions.
+- **`scripts/grixis_spellbook_almost.py`:** Spellbook `almostIncluded` snapshot (6,683 near-miss variants, 2026-10-16).
+- **`scripts/grixis_tournament.py`:** EDHTop16 tournament evidence for the 13 decks whose estimated ceiling is cEDH (bracket 5), with sample size and date. 11 decks have data; 2 have none.
+- `candidate_universe.schema.json`; `candidate.schema.json` gains optional `sources`, `screening` and `review`; `validate_all` steps `spellbook-near`, `candidates` and `tournament`; `tests/test_candidates.py` (6 tests).
 
 ## 2026-10-16 — Bot cycle 59.2 (M4: 99-slot audit)
 - **`scripts/grixis_audit.py`** writes a 99-slot audit for each deck (`data/grixis/audit/`, 62 decks, 6,136 cards). Each card gets a disposition checked against the blueprint, the role model, the dependency graph, its redundancy, the best alternative, EDHREC and M1. Every slot records its refs, evidence classes and `decision_support`.
