@@ -658,6 +658,11 @@ def check(R=None):
     if v2 is not None and not v2.get("exploratory") and not all((ms.get(m) or {}).get("status") == "accepted" for m in ("M2", "M4")):
         problems.append("grixis_refine_v2.json: recommendations must be labeled exploratory until M2 and M4 are accepted")
     approvers = set(reg["human_approvers"])
+    for m, x in ms.items():  # Bot cycle 50: only a human approver accepts a milestone, with a date and evidence
+        if x["status"] == "accepted" and (x.get("accepted_by") not in approvers or not x.get("accepted_date") or not x.get("acceptance_evidence")):
+            problems.append(f"program.milestones.{m}: accepted needs accepted_by (a human approver), accepted_date and acceptance_evidence")
+        if x["status"] != "accepted" and x.get("accepted_by"):
+            problems.append(f"program.milestones.{m}: accepted_by set but status is {x['status']}")
     recs = appr["records"]
     for r in recs:
         if r["approved_by"] not in approvers:

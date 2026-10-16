@@ -35,10 +35,13 @@
  "program": {
   "milestones": {
    "M0": {
-    "status": "complete_pending_acceptance",
-    "accepted_by": null,
-    "accepted_date": null,
-    "criteria_doc": "grixis/Grixis Authority Model.md#m0"
+    "status": "accepted",
+    "accepted_by": "corymstover",
+    "accepted_date": "2026-10-16",
+    "criteria_doc": "grixis/Grixis Authority Model.md#m0",
+    "accepted_at": "2026-10-16T10:52Z",
+    "acceptance_evidence": "In-chat approval by Cory on 2026-10-16 at 10:52 UTC ('I accept M0'), relayed to the executor by MTG Bot; recorded in Bot cycle 50.",
+    "scope_note": "Milestone acceptance only (M0 authority foundation, PR #120). Approves no decks: every deck keeps its state; APPROVED / CANONICAL_LOCKED still need per-deck records in data/grixis/approvals.json."
    },
    "M1": {
     "status": "in_progress",
@@ -47,7 +50,7 @@
     "criteria_doc": "grixis/Grixis Authority Model.md#m1"
    },
    "M2": {
-    "status": "not_started",
+    "status": "in_progress",
     "accepted_by": null,
     "accepted_date": null,
     "criteria_doc": "grixis/Grixis Authority Model.md#m2"

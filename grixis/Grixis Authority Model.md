@@ -179,7 +179,7 @@ Status is in `data/grixis/registry.json → program.milestones`. Only Cory sets 
 8. ✅ Exports labeled per file with state; challengers vs source baseline; v1 "at ceiling" relabeled.
 9. ✅ Test suite in `validate_all`; this page, the gap analysis, the index, README, Refinement Cycle notes and Update Log updated.
 10. ✅ `validate_all` green.
-11. ⏳ Cory's acceptance (`program.milestones.M0.accepted_by`).
+11. ✅ Cory's acceptance (`program.milestones.M0.accepted_by`): **accepted by corymstover on 2026-10-16 at 10:52 UTC** ("I accept M0", an in-chat approval relayed by MTG Bot; recorded in Bot cycle 50). This accepts the milestone only and approves no decks.
 
 ### M1
 **Interaction reviews, all 62.** Every deck has a current interaction review whose hash equals the deck's **canonical** list hash (`canonical_project_list.export`), every citation verbatim; Bjorna's review covers Trade Secrets, Yawgmoth's Bargain and the Lutri companion; reviews emit machine-readable edges for M4; the 518 source rulings are folded in or explicitly dispositioned.
