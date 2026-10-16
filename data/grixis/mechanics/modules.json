@@ -1,5 +1,6 @@
 {
- "framework_version": "1.2-mech.12",
+ "commander_specific_policy": "Commander-specific Oracle hooks are escalations to Commander-first judgment / Step D, not a generic Step-E numerical module. A dedicated future module is allowed only when its semantics can be bounded.",
+ "framework_version": "1.2-mech.13",
  "modules": [
   {
    "assumptions": [
@@ -1049,10 +1050,10 @@
    "version": "1"
   }
  ],
- "planned_families": [
-  "commander_specific",
-  "death_other",
-  "sacrifice_other",
-  "tokens_other"
- ]
+ "planned_families": [],
+ "residual_review_families": {
+  "death_other": "\\bdies\\b",
+  "sacrifice_other": ", sacrifice |sacrifice (?:a|an|another|two|X) [^:]{0,40}:|as an additional cost to cast [^,]{0,40}, sacrifice",
+  "tokens_other": "create (?:a|an|one|two|three|X|\\w+) [^.]{0,60}tokens?"
+ }
 }
