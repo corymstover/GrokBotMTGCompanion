@@ -5881,6 +5881,11 @@
 "headings": [
 [
 2,
+"2026-10-16 — Bot cycle 57.6 (M3: simulator model v1.1)",
+"2026-10-16--bot-cycle-576-m3-simulator-model-v11"
+],
+[
+2,
 "2026-10-16 — Bot cycle 57.5 (M3: knowledge pages on lift, synergy, commander-first)",
 "2026-10-16--bot-cycle-575-m3-knowledge-pages-on-lift-synergy-commander-first"
 ],
@@ -6197,7 +6202,7 @@
 "Items & Artifacts Index.md",
 "Lore Primary Sources.md",
 "Planes Index.md",
-"EDH Deck Evaluation Checklist.md"
+"grixis/Grixis Authority Model.md"
 ]
 },
 {
@@ -6557,8 +6562,8 @@
 "issues": [],
 "related": [
 "Front-Matter Schema.md",
-"grixis/Grixis Authority Gap Analysis.md",
 "Update Log.md",
+"grixis/Grixis Authority Gap Analysis.md",
 "EDH Commander-First Deckbuilding.md",
 "EDH Lift and Synergy.md",
 "grixis/Grixis Refinement Cycle.md"
