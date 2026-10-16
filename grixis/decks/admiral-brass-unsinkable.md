@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -410,6 +411,20 @@ Source: [refinement/decisions/Admiral_Brass_Unsinkable_Candidate_Decisions_2026-
 - [refinement/verification/Admiral_Brass_Unsinkable_Proposed_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Admiral_Brass_Unsinkable_Proposed_Final_Verification_2026-10-13.md)
 - [refinement/verification/Admiral_Brass_Unsinkable_Whole_List_Closeout_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Admiral_Brass_Unsinkable_Whole_List_Closeout_2026-10-13.md)
 - [refinement/verification/Admiral_Brass_Unsinkable_v3_Review_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Admiral_Brass_Unsinkable_v3_Review_2026-10-13.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 46 interaction review: **15 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Admiral Brass, Unsinkable — Interaction Review](../interactions/admiral-brass-unsinkable.md).
+
+- **The combat reanimation: Pirate creature card, finality counter, base 4/4, haste** — Beginning of combat: return a Pirate creature card as a hasty base-4/4 with a finality counter. ([brass-01](../interactions/admiral-brass-unsinkable.md#brass-01-the-combat-reanimation-pirate-creature-card-finality-counter-base-44-haste))
+- **Finality counters mean exile, not death** — Finality-counter creatures are exiled instead of dying: no Pitiless Plunderer Treasure, no later recursion. ([brass-02](../interactions/admiral-brass-unsinkable.md#brass-02-finality-counters-mean-exile-not-death))
+- **Power Conduit removes the finality counter** — Power Conduit removes the finality counter; the 4/4 base stays. ([brass-03](../interactions/admiral-brass-unsinkable.md#brass-03-power-conduit-removes-the-finality-counter))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Finality counters mean exile, not death: Pitiless Plunderer, Victimize's sacrifice and the sacrifice outlets (Broadside Bombardiers' boast) lose value on Brass-returned creatures, which are exiled instead of dying. A minor non-bo, not a list error: remove the counter with Power Conduit first, or sacrifice other fodder. ([brass-02](../interactions/admiral-brass-unsinkable.md#brass-02-finality-counters-mean-exile-not-death))
+- ⚠️ uncertain Mass reanimation: Patriarch's Bidding and Living Death are symmetric: Whether these are favorable depends on opponents' graveyards at the time; this is a play-pattern judgment, not a rules question. ([brass-10](../interactions/admiral-brass-unsinkable.md#brass-10-mass-reanimation-patriarchs-bidding-and-living-death-are-symmetric))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

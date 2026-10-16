@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -374,6 +375,20 @@ No matched-start simulator or representative multiplayer playtest was available.
 - [refinement/verification/Ashad_the_Lone_Cyberman_99_Slot_Audit_Working_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Ashad_the_Lone_Cyberman_99_Slot_Audit_Working_2026-10-13.md)
 - [refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Ashad_the_Lone_Cyberman_Approval_Ready_Closeout_2026-10-13.md)
 - [refinement/verification/Ashad_the_Lone_Cyberman_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Ashad_the_Lone_Cyberman_Final_Verification_2026-10-13.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 46 interaction review: **13 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Ashad, the Lone Cyberman — Interaction Review](../interactions/ashad-the-lone-cyberman.md).
+
+- **Casualty 2 on your first nonlegendary artifact spell** — First nonlegendary artifact spell each turn: sacrifice power 2+ to copy it into a token. ([ashad-01](../interactions/ashad-the-lone-cyberman.md#ashad-01-casualty-2-on-your-first-nonlegendary-artifact-spell))
+- **Casualty tokens aren't 'created': no Worldwalker Helm Map** — Casualty copies enter as tokens but aren't 'created': enter triggers work, Helm's Map doesn't. ([ashad-03](../interactions/ashad-the-lone-cyberman.md#ashad-03-casualty-tokens-arent-created-no-worldwalker-helm-map))
+- **Urza + Worldwalker Helm + Artificer Class** — Spellbook infinite: Helm tokens copy themselves with Urza paying via the tokens and Maps. ([ashad-05](../interactions/ashad-the-lone-cyberman.md#ashad-05-urza--worldwalker-helm--artificer-class))
+- **Biotransference makes creature spells artifact spells** — Biotransference: your creatures become artifacts, so they get casualty and survive Delete and Their Name Is Death. ([ashad-06](../interactions/ashad-the-lone-cyberman.md#ashad-06-biotransference-makes-creature-spells-artifact-spells))
+
+**Flags for later refinement** (no list change in this phase):
+- ⚠️ uncertain Urza + Worldwalker Helm + Artificer Class: The line is reconstructed from Oracle text (Spellbook step text isn't cached). The Ashad shortcut in particular is our derivation, not a Spellbook entry. ([ashad-05](../interactions/ashad-the-lone-cyberman.md#ashad-05-urza--worldwalker-helm--artificer-class))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

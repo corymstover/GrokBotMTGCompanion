@@ -1,0 +1,440 @@
+{
+ "schema": 1,
+ "deck_id": "Admiral_Brass__Unsinkable",
+ "slug": "admiral-brass-unsinkable",
+ "commanders": [
+  "Admiral Brass, Unsinkable"
+ ],
+ "deck_sha256": "e29dc5ed5ec6cc85863cf82408f7ecb29128e6668b5adf6ac60ea2c2b4deb2b5",
+ "list_source": "exports/grixis-archidekt/admiral-brass-unsinkable.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 46,
+ "batch": "A",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+   "note": "deck #3: RULES PASS"
+  }
+ ],
+ "summary": "Admiral Brass, Unsinkable is a Pirate reanimator. Each combat she returns a Pirate creature card as a hasty base 4/4 with a finality counter. This review re-verifies the retrospective attestation (Power Conduit removing the counter, Roaming Throne doubling, the base 4/4 versus counters) and adds the graveyard package.\n\nFlag: finality counters make returned creatures get exiled instead of dying. That quietly turns off Pitiless Plunderer, Victimize's sacrifice and later recursion for those creatures unless Power Conduit removes the counter first.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "brass-01",
+   "category": "commander",
+   "title": "The combat reanimation: Pirate creature card, finality counter, base 4/4, haste",
+   "cards": [
+    "Admiral Brass, Unsinkable"
+   ],
+   "ruling": "At the beginning of combat on your turn, Brass may return target Pirate creature card from your graveyard. It comes back with a finality counter, has base power and toughness 4/4 indefinitely, and haste until end of turn, so it can attack that combat. The trigger targets on the stack, so opponents can respond by exiling the card from your graveyard. It also needs a Pirate creature card in your graveyard when the trigger goes on the stack. Brass's own enter trigger (mill four) and Buried Alive, Entomb and the looters fill the graveyard.",
+   "short": "Beginning of combat: return a Pirate creature card as a hasty base-4/4 with a finality counter.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "122.1h",
+    "613.4b",
+    "115.1"
+   ],
+   "oracle": [
+    {
+     "card": "Admiral Brass, Unsinkable",
+     "quote": "At the beginning of combat on your turn, you may return target Pirate creature card from your graveyard to the battlefield with a finality counter on it. It has base power and toughness 4/4. It gains haste until end of turn."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Admiral Brass, Unsinkable",
+     "quote": "Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "may return a Pirate creature card from your graveyard with a finality counter, base P/T 4/4, and haste until end of turn."
+    }
+   ]
+  },
+  {
+   "id": "brass-02",
+   "category": "replacement",
+   "title": "Finality counters mean exile, not death",
+   "cards": [
+    "Admiral Brass, Unsinkable",
+    "Pitiless Plunderer",
+    "Victimize",
+    "Living Death"
+   ],
+   "ruling": "A creature with a finality counter that would go to the graveyard from the battlefield is exiled instead, so it never 'dies'.\n- **Pitiless Plunderer** doesn't make a Treasure for it.\n- **Victimize** sacrificing it exiles it.\n- **Living Death** exiles such creatures as they're sacrificed, so they won't be available later. Living Death returns only the cards exiled by its first instruction.\n\nBounce or other zone changes work normally. Remove the counter with Power Conduit first to keep the creature recursive.",
+   "short": "Finality-counter creatures are exiled instead of dying: no Pitiless Plunderer Treasure, no later recursion.",
+   "status": "flag",
+   "flag": {
+    "kind": "anti-synergy",
+    "note": "Pitiless Plunderer, Victimize's sacrifice and the sacrifice outlets (Broadside Bombardiers' boast) lose value on Brass-returned creatures, which are exiled instead of dying. A minor non-bo, not a list error: remove the counter with Power Conduit first, or sacrifice other fodder."
+   },
+   "key": true,
+   "cr": [
+    "122.1h",
+    "700.4",
+    "614.1a"
+   ],
+   "oracle": [
+    {
+     "card": "Pitiless Plunderer",
+     "quote": "Whenever another creature you control dies, create a Treasure token."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Admiral Brass, Unsinkable",
+     "quote": "Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead."
+    },
+    {
+     "card": "Living Death",
+     "quote": "Only cards exiled by Living Death's first instruction are put onto the battlefield."
+    }
+   ]
+  },
+  {
+   "id": "brass-03",
+   "category": "pair",
+   "title": "Power Conduit removes the finality counter",
+   "cards": [
+    "Admiral Brass, Unsinkable",
+    "Power Conduit"
+   ],
+   "ruling": "Power Conduit's cost includes removing a counter from a permanent you control, so the finality counter can go. Without it, the creature dies normally and can be reanimated again later. The 4/4 base and haste come from Brass's resolved effect, not from the counter, so they stay. Removing the counter is a cost, so it happens immediately and can't be responded to. The creature has to be on the battlefield first.",
+   "short": "Power Conduit removes the finality counter; the 4/4 base stays.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "122.1h",
+    "602.2"
+   ],
+   "oracle": [
+    {
+     "card": "Power Conduit",
+     "quote": "{T}, Remove a counter from a permanent you control: Choose one —"
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "removing the finality counter before the creature would be put into a graveyard means that counter no longer supplies the exile replacement for that later event."
+    }
+   ]
+  },
+  {
+   "id": "brass-04",
+   "category": "pair",
+   "title": "Roaming Throne (Pirate) doubles the reanimation",
+   "cards": [
+    "Admiral Brass, Unsinkable",
+    "Roaming Throne"
+   ],
+   "ruling": "Brass is a Pirate creature, so Roaming Throne naming Pirate makes Brass's beginning-of-combat trigger trigger an additional time. Each instance needs its own target Pirate creature card. If Throne is already on the battlefield when Brass enters, Brass's mill-four enter trigger is doubled too.",
+   "status": "verified",
+   "cr": [
+    "603.2"
+   ],
+   "oracle": [
+    {
+     "card": "Roaming Throne",
+     "quote": "If a triggered ability of another creature you control of the chosen type triggers, it triggers an additional time."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "`Roaming Throne` choosing Pirate causes Brass's beginning-of-combat triggered ability to trigger an additional time"
+    }
+   ]
+  },
+  {
+   "id": "brass-05",
+   "category": "pair",
+   "title": "Changeling cards are Pirate creature cards in the graveyard",
+   "cards": [
+    "Admiral Brass, Unsinkable",
+    "Changeling Outcast"
+   ],
+   "ruling": "Changeling works in every zone, so Changeling Outcast in your graveyard is a legal 'Pirate creature card' target for Brass. It returns as a 4/4 haste creature that can't be blocked.",
+   "status": "verified",
+   "cr": [
+    "702.73a"
+   ],
+   "oracle": [
+    {
+     "card": "Changeling Outcast",
+     "quote": "Changeling (This card is every creature type.)"
+    }
+   ],
+   "rulings": []
+  },
+  {
+   "id": "brass-06",
+   "category": "layers",
+   "title": "Base 4/4 overwrites earlier P/T-setting effects; lords and counters still apply",
+   "cards": [
+    "Admiral Brass, Unsinkable",
+    "Admiral Beckett Brass",
+    "Corsair Captain",
+    "Skeleton Crew",
+    "Animate Dead"
+   ],
+   "ruling": "Brass's base 4/4 is a layer 7b setting effect. It overwrites earlier setting effects but not modifications. Beckett's, Corsair Captain's and Skeleton Crew's +1/+1, +1/+1 counters, and Animate Dead's −1/−0 (on a different reanimation) apply in layer 7c on top.",
+   "status": "verified",
+   "cr": [
+    "613.4b",
+    "613.4c"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Admiral Brass, Unsinkable",
+     "quote": "Admiral Brass, Unsinkable's effect will overwrite any previous effects that set the returned creature's power and toughness to specific numbers."
+    }
+   ]
+  },
+  {
+   "id": "brass-07",
+   "category": "engine",
+   "title": "Skeleton Crew triggers on every reanimation and encore",
+   "cards": [
+    "Admiral Brass, Unsinkable",
+    "Skeleton Crew",
+    "Amphin Mutineer",
+    "Living Death"
+   ],
+   "ruling": "Whenever one or more creature cards leave your graveyard, Skeleton Crew makes a 2/2 Skeleton Pirate. Each separate event triggers it once: Brass's reanimation, Reanimate, Animate Dead, Victimize (two cards at once = one trigger), Living Death (one trigger), and exiling Amphin Mutineer to pay encore. Its own {5}{B} return from the graveyard doesn't trigger it.",
+   "status": "verified",
+   "cr": [
+    "603.10a"
+   ],
+   "oracle": [
+    {
+     "card": "Skeleton Crew",
+     "quote": "Whenever one or more creature cards leave your graveyard, create a 2/2 black Skeleton Pirate creature token."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Skeleton Crew",
+     "quote": "If two or more creature cards leave your graveyard as a single event, Skeleton Crew's second ability will trigger once."
+    },
+    {
+     "card": "Skeleton Crew",
+     "quote": "Resolving Skeleton Crew's last ability won't cause its second ability to trigger."
+    }
+   ]
+  },
+  {
+   "id": "brass-08",
+   "category": "engine",
+   "title": "Descend: milling and discarding permanent cards",
+   "cards": [
+    "Admiral Brass, Unsinkable",
+    "Enterprising Scallywag",
+    "Brass's Tunnel-Grinder // Tecutlan, the Searing Rift"
+   ],
+   "ruling": "You descend when a permanent card goes to your graveyard from anywhere. Brass's mill four, Entomb, Buried Alive and discarding creatures all count; tokens don't. Enterprising Scallywag and Tunnel-Grinder check once at your end step. They needn't have been on the battlefield when you descended.",
+   "status": "verified",
+   "cr": [
+    "700.11"
+   ],
+   "oracle": [
+    {
+     "card": "Enterprising Scallywag",
+     "quote": "At the beginning of your end step, if you descended this turn, create a Treasure token."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Enterprising Scallywag",
+     "quote": "Tokens are not cards, and while tokens are put into the graveyard before ceasing to exist, that action doesn't count as a player having descended."
+    }
+   ]
+  },
+  {
+   "id": "brass-09",
+   "category": "pair",
+   "title": "Wonder in the graveyard gives your team flying",
+   "cards": [
+    "Admiral Brass, Unsinkable",
+    "Wonder",
+    "Entomb",
+    "Buried Alive"
+   ],
+   "ruling": "Wonder works from the graveyard as long as you control an Island. The list has 2 basic Islands, Volcanic Island and other Island-typed duals (Underground Sea, Steam Vents, Watery Grave, Xander's Lounge). Entomb or Buried Alive puts Wonder in the graveyard for evasive Pirate attacks that feed Beckett-style combat triggers. Wonder is an Incarnation, not a Pirate, so Brass can't return it.",
+   "status": "verified",
+   "cr": [
+    "113.6"
+   ],
+   "oracle": [
+    {
+     "card": "Wonder",
+     "quote": "As long as this card is in your graveyard and you control an Island, creatures you control have flying."
+    }
+   ],
+   "rulings": []
+  },
+  {
+   "id": "brass-10",
+   "category": "pair",
+   "title": "Mass reanimation: Patriarch's Bidding and Living Death are symmetric",
+   "cards": [
+    "Admiral Brass, Unsinkable",
+    "Patriarch's Bidding",
+    "Living Death"
+   ],
+   "ruling": "Each player chooses a type for Patriarch's Bidding. You choose Pirate (changelings included), but opponents return their own chosen type too. Living Death returns every player's graveyard creatures after everyone sacrifices their board. Your finality-counter creatures are exiled during the sacrifice (brass-02). These are table-wide effects; the value depends on the graveyards.",
+   "status": "uncertain",
+   "uncertainty": "Whether these are favorable depends on opponents' graveyards at the time; this is a play-pattern judgment, not a rules question.",
+   "cr": [
+    "101.4"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Patriarch's Bidding",
+     "quote": "Then, all creature cards that have one or more of the chosen types are returned to the battlefield at the same time."
+    },
+    {
+     "card": "Living Death",
+     "quote": "Then all players sacrifice all creatures they control at the same time."
+    }
+   ]
+  },
+  {
+   "id": "brass-11",
+   "category": "pair",
+   "title": "Victimize needs two targets and a sacrifice on resolution",
+   "cards": [
+    "Admiral Brass, Unsinkable",
+    "Victimize"
+   ],
+   "ruling": "Victimize must target two creature cards in your graveyard. The sacrifice happens on resolution, so the creature you sacrifice can't be one of the returned cards. If one target is gone you still sacrifice and return the other. A Brass-returned creature sacrificed to it is exiled (finality).",
+   "status": "verified",
+   "cr": [
+    "608.2b"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Victimize",
+     "quote": "You must choose two targets. You can't cast Victimize targeting only one creature card."
+    },
+    {
+     "card": "Victimize",
+     "quote": "The creature you sacrifice isn't chosen until Victimize resolves."
+    }
+   ]
+  },
+  {
+   "id": "brass-12",
+   "category": "replacement",
+   "title": "Angrath's Marauders doubles all your damage",
+   "cards": [
+    "Admiral Brass, Unsinkable",
+    "Angrath's Marauders",
+    "Broadside Bombardiers"
+   ],
+   "ruling": "Angrath's Marauders doubles damage from any source you control to any permanent or player: combat damage, Broadside Bombardiers' boast, and so on. For trample you assign the unmodified damage first. Divided damage is divided before doubling.",
+   "status": "verified",
+   "cr": [
+    "614.1a"
+   ],
+   "oracle": [
+    {
+     "card": "Angrath's Marauders",
+     "quote": "If a source you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Angrath's Marauders",
+     "quote": "If a creature with trample you control would deal combat damage to a blocking creature while you control Angrath's Marauders, you must assign its unmodified damage."
+    }
+   ]
+  },
+  {
+   "id": "brass-13",
+   "category": "pair",
+   "title": "Gemcutter Buccaneer turns Treasures into Pirate equipment",
+   "cards": [
+    "Admiral Brass, Unsinkable",
+    "Gemcutter Buccaneer"
+   ],
+   "ruling": "With Gemcutter Buccaneer, Treasures are also Equipment with 'Equipped creature gets +2/+0', and equip Pirate {1} is cheaper than equip {3}. Sacrificing an attached Treasure for mana removes the bonus. Each Pirate that enters makes a tapped Treasure, including Brass's reanimations.",
+   "status": "verified",
+   "cr": [
+    "301.5"
+   ],
+   "oracle": [
+    {
+     "card": "Gemcutter Buccaneer",
+     "quote": "Treasures you control are Equipment in addition to their other types and have \"Equipped creature gets +2/+0,\" equip Pirate {1}, and equip {3}."
+    }
+   ],
+   "rulings": []
+  },
+  {
+   "id": "brass-14",
+   "category": "zone",
+   "title": "Commander tax and the graveyard plan",
+   "cards": [
+    "Admiral Brass, Unsinkable"
+   ],
+   "ruling": "Brass costs {2}{U}{B}{R}, then 7, then 9. Each recast mills four more. The deck relies on its graveyard, so graveyard hate (exile effects, Rest in Peace-style pieces) stops both Brass's trigger and the reanimation spells. Brass's trigger targets, so a response that exiles the target card fizzles it.",
+   "status": "verified",
+   "cr": [
+    "903.8",
+    "608.2b"
+   ],
+   "oracle": [
+    {
+     "card": "Admiral Brass, Unsinkable",
+     "quote": "When Admiral Brass enters, mill four cards."
+    }
+   ],
+   "rulings": []
+  },
+  {
+   "id": "brass-15",
+   "category": "dependency",
+   "title": "What the list depends on",
+   "cards": [
+    "Admiral Brass, Unsinkable",
+    "Buried Alive",
+    "Entomb",
+    "Reanimate",
+    "Animate Dead"
+   ],
+   "ruling": "The deck depends on Pirate creature cards in the graveyard at beginning of combat and on Brass surviving to combat. Entomb (instant) and Buried Alive set up the turn before. Reanimate costs life equal to the card's mana value. Animate Dead's creature is sacrificed if the Aura leaves. No two-card combo (Spellbook lists none); the plan is recurring value and combat.",
+   "status": "verified",
+   "cr": [
+    "603.4"
+   ],
+   "oracle": [
+    {
+     "card": "Reanimate",
+     "quote": "You lose life equal to that card's mana value."
+    },
+    {
+     "card": "Animate Dead",
+     "quote": "When this Aura leaves the battlefield, that creature's controller sacrifices it."
+    }
+   ],
+   "rulings": []
+  }
+ ]
+}
