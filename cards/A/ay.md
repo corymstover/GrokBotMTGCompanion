@@ -52,6 +52,8 @@ schema: 2
   - *2024-07-05* — An ability that triggers “whenever you cast a historic spell” doesn’t trigger if a historic card is put onto the battlefield without being cast.
   - *2024-07-05* — Lands are never cast, so abilities that trigger “whenever you cast a historic spell” won’t trigger if you play a legendary land. They also won’t trigger if a card on the battlefield transforms into a card with the legendary supertype, the artifact card type, or the Saga subtype.
   - *2024-07-05* — Some abilities trigger “whenever you cast a historic spell.” Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 96 combos; most popular [Aya of Alexandria + Breath of Fury + Biotransference + Thopter Engineer](https://commanderspellbook.com/combo/549-1903-3259-5953/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 134 decks; highest synergy [Bayek of Siwa](../../cards/B/bay.md#bayek-of-siwa) (+80%), [Arbaaz Mir](../../cards/A/arb.md#arbaaz-mir) (+67%), [Layla Hassan](../../cards/L/la.md#layla-hassan) (+64%) · EDHREC: in 26,037 decks; most often under [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (76.8% of its decks), [Altaïr Ibn-La'Ahad](../../cards/A/al.md#altaïr-ibn-laahad) (82.4% of its decks), [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (16.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aya-of-alexandria)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/48/aya-of-alexandria) · oracle_id `27b690f2-d7ce-43b6-8e8b-98a8ffe487bb` · printing: ACR #48 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -154,6 +156,8 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — In a Two-Headed Giant game, Ayli's last ability checks your team's life total.
   - *2024-11-08* — Once you've activated Ayli's last ability, it doesn't matter what happens to your life total.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 8 combos; most popular [Ayli, Eternal Pilgrim + Daru Spiritualist + Shaman en-Kor](https://commanderspellbook.com/combo/2342-2512-3405/) (Infinite lifegain) · EDHREC as commander: 2,033 decks; highest synergy [Fumigate](../../cards/F/fu.md#fumigate) (+34%), [Soul Warden](../../cards/S/so.md#soul-warden) (+29%), [Fiendish Panda](../../cards/F/fi.md#fiendish-panda) (+28%) · EDHREC: in 26,666 decks; most often under [Ardbert, Warrior of Darkness](../../cards/A/ard.md#ardbert-warrior-of-darkness) (48.9% of its decks), [Orah, Skyclave Hierophant](../../cards/O/or.md#orah-skyclave-hierophant) (70.8% of its decks), [Ratadrabik of Urborg](../../cards/R/rat.md#ratadrabik-of-urborg) (25.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/652/ayli-eternal-pilgrim) · oracle_id `e6a35729-edee-4a8c-9aa1-041114d66c69` · printing: FDN #652 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aysen Abbey
@@ -230,6 +234,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-06-14* — Either of Ayula's modes can target any Bear you control, not just the Bear that entered the battlefield. Ayula can even be the target of its own ability.
   - *2019-06-14* — For Ayula's second mode, if either target isn't a creature or is otherwise an illegal target as the ability resolves, no creature will deal or be dealt damage.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 30 combos; most popular [Ayula, Queen Among Bears + Basking Broodscale + Kudo, King Among Bears](https://commanderspellbook.com/combo/4304-5612-5641/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 7,551 decks; highest synergy [Mother Bear](../../cards/M/mot.md#mother-bear) (+90%), [Werebear](../../cards/W/we.md#werebear) (+90%), [Wilson, Refined Grizzly](../../cards/W/wi.md#wilson-refined-grizzly) (+86%) · EDHREC: in 22,164 decks; most often under [Kudo, King Among Bears](../../cards/K/ku.md#kudo-king-among-bears) (85.8% of its decks), [Beorn the Fierce](../../cards/B/be.md#beorn-the-fierce) (85.5% of its decks), [Duskana, the Rage Mother](../../cards/D/du.md#duskana-the-rage-mother) (52.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/155/ayula-queen-among-bears) · oracle_id `a79d2fc8-467f-464d-9e73-2dae4b059628` · printing: MH1 #155 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayula's Influence

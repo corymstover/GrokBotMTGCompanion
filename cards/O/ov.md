@@ -1112,7 +1112,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3355 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — If a spell on the stack has {X} in its cost, use the value chosen for X to determine its mana value.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#ovika-enigma-goliath)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 23 combos; most popular [Ovika, Enigma Goliath + Veyran, Voice of Duality + Skirk Prospector + Reiterate](https://commanderspellbook.com/combo/38-1298-3368-4280/) (Infinite copies of instant and sorcery spells on the stack, Infinite death triggers) · EDHREC as commander: 11,731 decks; highest synergy [Impact Tremors](../../cards/I/im.md#impact-tremors) (+64%), [Shared Animosity](../../cards/S/sha.md#shared-animosity) (+50%), [Distant Melody](../../cards/D/di.md#distant-melody) (+45%) · EDHREC: in 38,175 decks; most often under [Ashling, Rekindled](../../cards/A/as.md#ashling-rekindled--ashling-rimebound) (52.6% of its decks), [Magnus the Red](../../cards/M/mag.md#magnus-the-red) (51.8% of its decks), [Neera, Wild Mage](../../cards/N/ne.md#neera-wild-mage) (47.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/O.md#ovika-enigma-goliath)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/663/ovika-enigma-goliath) · oracle_id `b05a2b5f-1b5c-4f1b-8a6b-525c5c8b8ba1` · printing: FDN #663 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ovinize
@@ -1155,6 +1157,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3164 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-02-07* — In some rare cases, a nonartifact card put onto the battlefield this way will get two +1/+1 counters because some other effect (like that of Mycosynth Lattice) makes it an artifact on the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Great Oak Guardian + Oviya, Automech Artisan + Temur Sabertooth](https://commanderspellbook.com/combo/215-729-7404/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 4,166 decks; highest synergy [Worldspine Wurm](../../cards/W/wo.md#worldspine-wurm) (+48%), [Darksteel Colossus](../../cards/D/da.md#darksteel-colossus) (+47%), [Terastodon](../../cards/T/te.md#terastodon) (+40%) · EDHREC: in 48,734 decks; most often under [Aloy, Savior of Meridian](../../cards/A/al.md#aloy-savior-of-meridian) (47.9% of its decks), [Balthier and Fran](../../cards/B/bal.md#balthier-and-fran) (83.6% of its decks), [Samut, the Driving Force](../../cards/S/sam.md#samut-the-driving-force) (35.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/173/oviya-automech-artisan) · oracle_id `b01649b8-b0b5-4cf6-aea7-291f3407859e` · printing: DFT #173 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oviya Pashiri, Sage Lifecrafter

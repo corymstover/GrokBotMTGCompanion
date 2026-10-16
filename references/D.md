@@ -153,9 +153,10 @@ schema: 2
 
 ### Danny Pink
 
-[Card entry](../cards/D/da.md#danny-pink) · **2 pages** (decks 1 · rules 1)
+[Card entry](../cards/D/da.md#danny-pink) · **3 pages** (decks 1 · edh guides 1 · rules 1)
 
 - **Decks (1):** [Marchesa, the Black Rose (Grixis)](../grixis/decks/marchesa-the-black-rose.md)
+- **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 - **Rules (1):** [Keyword Encyclopedia → Mentor](../Keyword%20Encyclopedia.md#mentor)
 
 ### Daredevil, Man Without Fear
@@ -782,9 +783,10 @@ schema: 2
 
 ### Deekah, Fractal Theorist
 
-[Card entry](../cards/D/dee.md#deekah-fractal-theorist) · **2 pages** (decks 1 · card data 1)
+[Card entry](../cards/D/dee.md#deekah-fractal-theorist) · **3 pages** (decks 1 · edh guides 1 · card data 1)
 
 - **Decks (1):** [Anhelo, the Painter (Grixis)](../grixis/decks/anhelo-the-painter.md)
+- **EDH guides (1):** [EDH Packages → Spellslinger: Cast-trigger payoffs](../EDH%20Packages.md#spellslinger-cast-trigger-payoffs)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Dee Kay, Finder of the Lost
@@ -1819,9 +1821,10 @@ schema: 2
 
 ### Doc Aurlock, Grizzled Genius
 
-[Card entry](../cards/D/do.md#doc-aurlock-grizzled-genius) · **2 pages** (decks 2)
+[Card entry](../cards/D/do.md#doc-aurlock-grizzled-genius) · **3 pages** (decks 2 · edh guides 1)
 
 - **Decks (2):** [Muldrotha, the Gravetide](../decks/muldrotha-the-gravetide.md) · [Muldrotha, the Gravetide (self mill theme)](../decks/theme-muldrotha-the-gravetide-self-mill.md)
+- **EDH guides (1):** [EDH Packages → Ramp: Cost reducers](../EDH%20Packages.md#ramp-cost-reducers)
 
 ### Docent of Perfection // Final Iteration
 
@@ -1925,7 +1928,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Tokens: Anthems](../EDH%20Packages.md#tokens-anthems)
 - **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists R](../Artist%20Index.md#artists-r)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Domri Rade](../Characters%20Index.md#domri-rade) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Domri Rade](../Characters%20Index.md#domri-rade) (depicts)
 
 ### Domri, Chaos Bringer
 
@@ -1952,10 +1955,10 @@ schema: 2
 
 ### Don Andres, the Renegade
 
-[Card entry](../cards/D/do.md#don-andres-the-renegade) · **6 pages** (decks 5 · edh guides 1)
+[Card entry](../cards/D/do.md#don-andres-the-renegade) · **7 pages** (decks 5 · edh guides 2)
 
 - **Decks (5):** [Admiral Beckett Brass (Grixis)](../grixis/decks/admiral-beckett-brass.md) · [Don Andres, the Renegade (Grixis)](../grixis/decks/don-andres-the-renegade.md) · [Edea, Possessed Sorceress (Grixis)](../grixis/decks/edea-possessed-sorceress.md) · [Edward Kenway (Grixis)](../grixis/decks/edward-kenway.md) · [Nathan Drake, Treasure Hunter (Grixis)](../grixis/decks/nathan-drake-treasure-hunter.md)
-- **EDH guides (1):** [Grixis Packages → Theft](../grixis/Grixis%20Packages.md#theft)
+- **EDH guides (2):** [EDH Packages → Spellslinger: Cast-trigger payoffs](../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [Grixis Packages → Theft](../grixis/Grixis%20Packages.md#theft)
 
 ### Donatello, the Brains
 
@@ -2175,7 +2178,7 @@ schema: 2
 
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Dovin Baan](../Characters%20Index.md#dovin-baan) (name-match) · [Dovin Baan](../Planeswalker%20Dossiers.md#dovin-baan) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Dovin Baan](../Characters%20Index.md#dovin-baan) (depicts) · [Dovin Baan](../Planeswalker%20Dossiers.md#dovin-baan) (depicts)
 
 ### Dovin, Grand Arbiter
 
@@ -2190,7 +2193,7 @@ schema: 2
 
 - **Lore & story (3):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists N](../Artist%20Index.md#artists-n)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Dovin Baan](../Characters%20Index.md#dovin-baan) (name-match) · [Dovin Baan](../Planeswalker%20Dossiers.md#dovin-baan) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Dovin Baan](../Characters%20Index.md#dovin-baan) (depicts) · [Dovin Baan](../Planeswalker%20Dossiers.md#dovin-baan) (depicts)
 
 ### Dovin's Acuity
 

@@ -94,6 +94,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4728 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-09-09* — The Raven Man's first ability triggers at the beginning of each player's end step as long as at least one player has discarded a card this turn. It only triggers once, not once for each card discarded or once for each player that discarded a card. It will trigger even if its controller is the one that discarded a card this turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (3): [Braids, Arisen Nightmare (Dominaria-only)](../../decks/plane-dominaria-braids-arisen-nightmare.md) · [Crosis, the Purger (Grixis)](../../grixis/decks/crosis-the-purger.md) · [Gwendlyn Di Corci (Grixis)](../../grixis/decks/gwendlyn-di-corci.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,283 decks; highest synergy [Waste Not](../../cards/W/was.md#waste-not) (+59%), [Necrogoyf](../../cards/N/ne.md#necrogoyf) (+58%), [Geier Reach Sanitarium](../../cards/G/ge.md#geier-reach-sanitarium) (+56%) · EDHREC: in 32,966 decks; most often under [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (61.6% of its decks), [Tergrid, God of Fright](../../cards/T/te.md#tergrid-god-of-fright--tergrids-lantern) (38.9% of its decks), [Tinybones, Trinket Thief](../../cards/T/ti.md#tinybones-trinket-thief) (58.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 5 pages (3 decks · 2 card data) → [reverse index](../../references/T.md#the-raven-man)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/103/the-raven-man) · oracle_id `19918740-f6e3-40cd-9848-3c7a852a6c2a` · printing: DMU #103 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -183,6 +185,8 @@ schema: 2
   > *Harrowed but still harrowing.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5791 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 30 combos; most popular [Mikaeus, the Unhallowed + Phyrexian Altar + The Reaper, King No More](https://commanderspellbook.com/combo/628-4050-7219/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 6,282 decks; highest synergy [Blowfly Infestation](../../cards/B/blo.md#blowfly-infestation) (+77%), [The Scorpion God](../../cards/T/thes.md#the-scorpion-god) (+77%), [Hapatra, Vizier of Poisons](../../cards/H/ha.md#hapatra-vizier-of-poisons) (+76%) · EDHREC: in 21,032 decks; most often under [Auntie Ool, Cursewretch](../../cards/A/au.md#auntie-ool-cursewretch) (89.4% of its decks), [Reaper King](../../cards/R/rea.md#reaper-king) (48.9% of its decks), [Eddie Brock](../../cards/E/ed.md#eddie-brock--venom-lethal-protector) (4.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-reaper-king-no-more)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/4/the-reaper-king-no-more) · oracle_id `39b67a4d-6a87-41f0-a86f-b66671ccc20d` · printing: ECC #4 (2026-01-23) · [rulings](https://api.scryfall.com/cards/d2119f3f-27d2-4d43-a5ef-35c1b73d182a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -524,6 +528,8 @@ schema: 2
   - *2019-10-04* — If you draw fewer than four cards while resolving the last ability of The Royal Scions, its reflexive triggered ability doesn't trigger.
   - *2019-10-04* — The Royal Scions's last ability goes on the stack without a target. While that ability is resolving, you draw four cards. When you do, the reflexive triggered ability triggers and you pick a target to be dealt damage. This is different from effects that say “If you do . . .” in that you choose a target after looking at the cards you draw.
   - *2019-10-04* — You draw a card and discard a card all while The Royal Scions's first ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 9,807 decks; most often under [Captain Howler, Sea Scourge](../../cards/C/cap.md#captain-howler-sea-scourge) (16.6% of its decks), [Child of Alara](../../cards/C/chi.md#child-of-alara) (7.8% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (6.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/199/the-royal-scions) · oracle_id `4ecde8d1-e4ec-4bd9-8a80-49885b032557` · printing: ELD #199 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ruinous Powers

@@ -61,6 +61,9 @@ schema: 2
 - **Keywords:** Reach, Trample, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4691 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,459 decks; highest synergy [Squirrel Sovereign](../../cards/S/sq.md#squirrel-sovereign) (+86%), [Chitterspitter](../../cards/C/chi.md#chitterspitter) (+84%), [Honored Dreyleader](../../cards/H/ho.md#honored-dreyleader) (+84%) · EDHREC: in 33,027 decks; most often under [Chatterfang, Squirrel General](../../cards/C/cha.md#chatterfang-squirrel-general) (56.0% of its decks), [Hazel of the Rootbloom](../../cards/H/ha.md#hazel-of-the-rootbloom) (81.7% of its decks), [Camellia, the Seedmiser](../../cards/C/cam.md#camellia-the-seedmiser) (74.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-odd-acorn-gang)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blc/7/the-odd-acorn-gang) · oracle_id `1d9d8028-d946-4245-ae0c-7508023f619a` · printing: BLC #7 (2024-08-02) · [rulings](https://api.scryfall.com/cards/791d9ea0-c70a-47a6-b8a3-0f5d36a5c44d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Théoden, King of Rohan
@@ -74,6 +77,8 @@ schema: 2
   > *"Dark have been my dreams of late, but I feel new-awakened. I only fear that already you have come too late, Gandalf."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4631 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 609 decks; highest synergy [Erkenbrand, Lord of Westfold](../../cards/E/er.md#erkenbrand-lord-of-westfold) (+71%), [Horn of Gondor](../../cards/H/ho.md#horn-of-gondor) (+65%), [Rally at the Hornburg](../../cards/R/ral.md#rally-at-the-hornburg) (+64%) · EDHREC: in 34,395 decks; most often under [Éowyn, Shieldmaiden](../../cards/E/eo.md#éowyn-shieldmaiden) (81.3% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (44.9% of its decks), [Aragorn, King of Gondor](../../cards/A/ara.md#aragorn-king-of-gondor) (54.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#théoden-king-of-rohan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/233/th%C3%A9oden-king-of-rohan) · oracle_id `e739e3ce-4c5e-4172-a9de-adf66ca6588c` · printing: LTR #233 (2023-06-23) · [rulings](https://api.scryfall.com/cards/f6dcd1ca-4943-46e4-bb5d-c14949e21e23/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -286,6 +286,8 @@ schema: 2
   - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color. It’s always a creature spell while it’s on the stack.
   - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
   - *2020-01-24* — While resolving Erebos’s triggered ability, you can’t pay more than 2 life to draw more than one card.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 448 decks; highest synergy [Bastion of Remembrance](../../cards/B/bas.md#bastion-of-remembrance) (+42%), [Reassembling Skeleton](../../cards/R/rea.md#reassembling-skeleton) (+41%), [Zulaport Cutthroat](../../cards/Z/zu.md#zulaport-cutthroat) (+39%) · EDHREC: in 38,034 decks; most often under [Rendmaw, Creaking Nest](../../cards/R/ren.md#rendmaw-creaking-nest) (27.0% of its decks), [Anikthea, Hand of Erebos](../../cards/A/an.md#anikthea-hand-of-erebos) (18.4% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (7.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/868/erebos-bleak-hearted) · oracle_id `a5690dc9-f12e-4ecc-b528-f2f83c79c3c8` · printing: CMM #868 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erebos, God of the Dead
@@ -539,6 +541,8 @@ schema: 2
   - *2024-04-12* — Spells that were cast before Eris entered the battlefield count. If Eris was the first spell you cast this turn, the next spell you cast this turn is your second spell.
   - *2024-04-12* — The mana value of a double-faced card in your graveyard is always the mana value of the front face.
   - *2024-04-12* — The mana value of a split card in the graveyard is the total mana value of both halves of that card. It does not have two mana values.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4,506 decks; highest synergy [Imposing Grandeur](../../cards/I/im.md#imposing-grandeur) (+54%), [Faithless Looting](../../cards/F/fa.md#faithless-looting) (+51%), [Consider](../../cards/C/con.md#consider) (+50%) · EDHREC: in 18,206 decks; most often under [Stella Lee, Wild Card](../../cards/S/ste.md#stella-lee-wild-card) (30.2% of its decks), [Shiko and Narset, Unified](../../cards/S/shi.md#shiko-and-narset-unified) (11.0% of its decks), [Neera, Wild Mage](../../cards/N/ne.md#neera-wild-mage) (17.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/E.md#eris-roar-of-the-storm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/5/eris-roar-of-the-storm) · oracle_id `918991a6-7321-419d-8f3d-150fe32d02d2` · printing: OTC #5 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -879,6 +883,8 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings** (1):
   - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph21/4/ersta-friend-to-all) · oracle_id `9d54827a-5f7a-4907-bee5-276e92a95500` · printing: PH21 #4 (2022-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Erstwhile Trooper
@@ -912,6 +918,8 @@ schema: 2
   - *2022-09-09* — Activated abilities are written in the form “Cost: Effect.” Some keyword abilities, such as equip and crew, are activated abilities and will have colons in their reminder texts.
   - *2022-09-09* — If you counter a delayed triggered ability that triggers at the beginning of the “next” occurrence of a specified step or phase, that ability won’t trigger again the following time that phase or step occurs.
   - *2022-09-09* — Triggered abilities use the word “when,” “whenever,” or “at.” They’re often written as “[Trigger condition], [effect].” Some keyword abilities, such as prowess and fabricate, are triggered abilities and will have “when,” “whenever,” or “at” in their reminder text.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 757 decks; highest synergy [Essence Flux](../../cards/E/es.md#essence-flux) (+50%), [Riptide Laboratory](../../cards/R/ri.md#riptide-laboratory) (+48%), [Ghostly Flicker](../../cards/G/gh.md#ghostly-flicker) (+45%) · EDHREC: in 47,158 decks; most often under [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (35.6% of its decks), [Inalla, Archmage Ritualist](../../cards/I/ina.md#inalla-archmage-ritualist) (32.8% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (7.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#ertai-resurrected)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/199/ertai-resurrected) · oracle_id `3d038f7c-95fa-4b71-8f74-b9b4dd45cde0` · printing: DMU #199 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1060,5 +1068,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6367 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-11-19* — You may choose to apply Eruth's replacement effect even if there are fewer than two cards in your library. If there are no cards in your library, you won't exile any cards this way, but you also won't lose the game for having attempted to draw from an empty library.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#eruth-tormented-prophet)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Peer into the Abyss + Eruth, Tormented Prophet](https://commanderspellbook.com/combo/1546-1561/) (Exile your library) · EDHREC as commander: 1,973 decks; highest synergy [Breakthrough](../../cards/B/br.md#breakthrough) (+73%), [Burning Inquiry](../../cards/B/bu.md#burning-inquiry) (+63%), [Goblin Lore](../../cards/G/gob.md#goblin-lore) (+63%) · EDHREC: in 22,267 decks; most often under [Flubs, the Fool](../../cards/F/fl.md#flubs-the-fool) (58.7% of its decks), [Gwen Stacy](../../cards/G/gw.md#gwen-stacy--ghost-spider) (50.9% of its decks), [Spider-Man 2099](../../cards/S/spi.md#spider-man-2099) (40.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/E.md#eruth-tormented-prophet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/237/eruth-tormented-prophet) · oracle_id `a0380b63-58ef-4545-beec-6ad307bbc21b` · printing: VOW #237 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

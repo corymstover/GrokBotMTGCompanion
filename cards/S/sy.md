@@ -163,7 +163,9 @@ schema: 2
   - *2008-05-01* — Sygg’s ability checks to see if it triggers at the end of every turn. It doesn’t have to be your turn, and it doesn’t have to be the turn of the opponent that lost life.
   - *2008-05-01* — Sygg’s ability will trigger even if Sygg wasn’t on the battlefield at the time some or all of the life was lost.
   - *2008-05-01* — You don’t specify an opponent when the ability triggers. If multiple opponents have lost 3 or more life over the course of the turn, the ability will trigger only once.
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#sygg-river-cutthroat)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Davros, Dalek Creator (Grixis)](../../grixis/decks/davros-dalek-creator.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,207 decks; highest synergy [Undermine](../../cards/U/un.md#undermine) (+57%), [Painful Quandary](../../cards/P/pa.md#painful-quandary) (+50%), [Loyal Subordinate](../../cards/L/lo.md#loyal-subordinate) (+49%) · EDHREC: in 40,734 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (23.1% of its decks), [Anowon, the Ruin Thief](../../cards/A/an.md#anowon-the-ruin-thief) (76.5% of its decks), [Jon Irenicus, Shattered One](../../cards/J/jo.md#jon-irenicus-shattered-one) (40.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#sygg-river-cutthroat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/103/sygg-river-cutthroat) · oracle_id `cd4db500-0017-46c6-be94-1bf48f686b6a` · printing: ZNC #103 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sygg, River Guide
@@ -1424,7 +1426,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3032 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-09-01* — For Syr Ginger's last ability, use its power from when it was last on the battlefield to determine how much life is gained. If that power was 0 or less, you gain no life.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#syr-ginger-the-meal-ender)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Syr Konrad, the Grim (Eldraine-only)](../../decks/plane-eldraine-syr-konrad-the-grim.md) · Commander Spellbook: 20 combos; most popular [Samwise Gamgee + Syr Ginger, the Meal Ender + Gingerbrute + Academy Manufactor + Peregrin Took](https://commanderspellbook.com/combo/674-2206-4231-4321-5270/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 2,020 decks; highest synergy [Candy Trail](../../cards/C/can.md#candy-trail) (+61%), [Lembas](../../cards/L/le.md#lembas) (+59%), [Tarrian's Soulcleaver](../../cards/T/ta.md#tarrians-soulcleaver) (+58%) · EDHREC: in 52,993 decks; most often under [Ragost, Deft Gastronaut](../../cards/R/rag.md#ragost-deft-gastronaut) (38.7% of its decks), [Ygra, Eater of All](../../cards/Y/yg.md#ygra-eater-of-all) (19.8% of its decks), [Brenard, Ginger Sculptor](../../cards/B/br.md#brenard-ginger-sculptor) (46.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Artifacts: Artifact payoffs](../../EDH%20Packages.md#artifacts-artifact-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/S.md#syr-ginger-the-meal-ender)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/252/syr-ginger-the-meal-ender) · oracle_id `2eb16535-718f-4b88-92bc-96429d796327` · printing: WOE #252 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syr Gwyn, Hero of Ashvale
@@ -1488,6 +1492,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — If one or more creatures die at the same time as Syr Konrad, its first ability triggers for each of those creatures.
   - *2019-10-04* — In a Two-Headed Giant game, Syr Konrad's first ability causes it to deal 1 damage twice.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (6): [Karador, Ghost Chieftain](../../decks/karador-ghost-chieftain.md) · [Muldrotha, the Gravetide](../../decks/muldrotha-the-gravetide.md) · [Syr Konrad, the Grim (Eldraine-only)](../../decks/plane-eldraine-syr-konrad-the-grim.md) · [Teysa Karlov](../../decks/teysa-karlov.md) … · Commander Spellbook: 48 combos; most popular [The Mindskinner + Syr Konrad, the Grim](https://commanderspellbook.com/combo/1819-6003/) (Near-infinite mill) · EDHREC as commander: 6,230 decks; highest synergy [Mindcrank](../../cards/M/min.md#mindcrank) (+56%), [Tortured Existence](../../cards/T/to.md#tortured-existence) (+49%), [Mesmeric Orb](../../cards/M/me.md#mesmeric-orb) (+41%) · EDHREC: in 403,048 decks; most often under [The Wise Mothman](../../cards/T/thew.md#the-wise-mothman) (51.0% of its decks), [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (38.0% of its decks), [Valgavoth, Harrower of Souls](../../cards/V/va.md#valgavoth-harrower-of-souls) (43.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 11 pages (6 decks · 3 edh guides · 1 rules · 1 card data) → [reverse index](../../references/S.md#syr-konrad-the-grim)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/158/syr-konrad-the-grim) · oracle_id `14c3ff84-1e82-4606-a433-869fc52cc382` · printing: DSC #158 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1505,6 +1511,8 @@ schema: 2
 - **Rulings** (2):
   - *2025-07-25* — If Syr Vondam, Sunstar Exemplar leaves the battlefield at the same time as one or more other creatures you control die or are put into exile, its first triggered ability will trigger for each of those other creatures.
   - *2025-07-25* — Syr Vondam, Sunstar Exemplar’s first triggered ability refers to creatures you control being put into exile from the battlefield. It won’t trigger if a creature card is put into exile from another zone.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 78 combos; most popular [Warren Soultrader + Pitiless Plunderer + Syr Vondam, Sunstar Exemplar + Reassembling Skeleton](https://commanderspellbook.com/combo/1580-4871-5670-6772/) (Infinite +1/+1 counters on a creature, Infinite artifact ETB) · EDHREC as commander: 5,269 decks; highest synergy [Cloudshift](../../cards/C/cl.md#cloudshift) (+54%), [Ephemerate](../../cards/E/ep.md#ephemerate) (+54%), [Elegy Acolyte](../../cards/E/el.md#elegy-acolyte) (+49%) · EDHREC: in 30,720 decks; most often under [Ardbert, Warrior of Darkness](../../cards/A/ard.md#ardbert-warrior-of-darkness) (60.3% of its decks), [Ketramose, the New Dawn](../../cards/K/ke.md#ketramose-the-new-dawn) (43.4% of its decks), [Sidar Jabari of Zhalfir](../../cards/S/si.md#sidar-jabari-of-zhalfir) (18.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/231/syr-vondam-sunstar-exemplar) · oracle_id `9e597063-c077-4236-a9e4-b0721b24677f` · printing: EOE #231 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syr Vondam, the Lucent
@@ -1544,7 +1552,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1022 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-06-18* — Sythis, Harvest Hand's ability doesn't trigger when it is cast.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sythis-harvests-hand)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 14,282 decks; highest synergy [Sanctum Weaver](../../cards/S/san.md#sanctum-weaver) (+76%), [Enchantress's Presence](../../cards/E/en.md#enchantresss-presence) (+75%), [Destiny Spinner](../../cards/D/des.md#destiny-spinner) (+68%) · EDHREC: in 137,894 decks; most often under [Go-Shintai of Life's Origin](../../cards/G/gos.md#go-shintai-of-lifes-origin) (77.4% of its decks), [Tom Bombadil](../../cards/T/to.md#tom-bombadil) (71.2% of its decks), [Anikthea, Hand of Erebos](../../cards/A/an.md#anikthea-hand-of-erebos) (88.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#sythis-harvests-hand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/938/sythis-harvests-hand) · oracle_id `0fc64fd6-f057-4056-9dca-47accb7ff036` · printing: CMM #938 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Syx, Robot Overlord

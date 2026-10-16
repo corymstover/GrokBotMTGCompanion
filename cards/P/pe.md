@@ -365,6 +365,9 @@ schema: 2
   - *2024-06-07* — An Aura controlled by another player does not cause a creature you control to be modified.
   - *2024-06-07* — If a spell has multiple instances of affinity, each one applies. For example, if you somehow control two Pearl-Ear, Imperial Advisors and you control two Auras, each enchantment spell you cast will cost {4} less to cast.
   - *2024-06-07* — If you put an Aura on an opponent's permanent, you still control the Aura, and it still counts for your spells that have affinity for Auras.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Raffine's Guidance + Phyrexian Altar + Sigil of the Empty Throne + Pearl-Ear, Imperial Advisor](https://commanderspellbook.com/combo/4050-5655-8077-8107/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 2,341 decks; highest synergy [Ethereal Armor](../../cards/E/et.md#ethereal-armor) (+84%), [Sage's Reverie](../../cards/S/sag.md#sages-reverie) (+82%), [All That Glitters](../../cards/A/al.md#all-that-glitters) (+80%) · EDHREC: in 76,321 decks; most often under [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (59.1% of its decks), [Killian, Decisive Mentor](../../cards/K/ki.md#killian-decisive-mentor) (90.2% of its decks), [Light-Paws, Emperor's Voice](../../cards/L/li.md#light-paws-emperors-voice) (75.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/P.md#pearl-ear-imperial-advisor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/160/pearl-ear-imperial-advisor) · oracle_id `9bdc1e63-1cf9-4ddb-a7d5-f2a2eb91bdfd` · printing: SOC #160 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pearled Unicorn
@@ -1445,6 +1448,8 @@ schema: 2
   - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Peregrin Took + Nuka-Cola Vending Machine](https://commanderspellbook.com/combo/1575-4321/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 562 decks; highest synergy [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+77%), [Night of the Sweets' Revenge](../../cards/N/ni.md#night-of-the-sweets-revenge) (+74%), [Gilded Goose](../../cards/G/gi.md#gilded-goose) (+72%) · EDHREC: in 182,641 decks; most often under [Frodo, Adventurous Hobbit // Sam, Loyal Attendant](../../cards/F/fr.md#frodo-adventurous-hobbit) (86.9% of its decks), [Ygra, Eater of All](../../cards/Y/yg.md#ygra-eater-of-all) (73.7% of its decks), [Chatterfang, Squirrel General](../../cards/C/cha.md#chatterfang-squirrel-general) (55.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#peregrin-took)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/181/peregrin-took) · oracle_id `188da0ad-8524-4fb2-915e-1876dc9df89f` · printing: LTR #181 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2083,6 +2088,8 @@ schema: 2
   - *2019-11-12* — Creatures can still attack Personal Decoy, even though they can’t attack you.
   - *2019-11-12* — Once Personal Decoy has entered the battlefield, there’s no relation between its loyalty and your life.
   - *2019-11-12* — Unlike most planeswalkers, Personal Decoy isn’t legendary. You can control two or more at once.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#personal-decoy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/96/personal-decoy) · oracle_id `f2134b18-6f6e-44a6-8830-11326279e324` · printing: CMB2 #96 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

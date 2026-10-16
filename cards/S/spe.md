@@ -413,6 +413,8 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3081 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 122 decks; highest synergy [Anti-Venom, Horrifying Healer](../../cards/A/an.md#anti-venom-horrifying-healer) (+43%), [Friendly Neighborhood](../../cards/F/fr.md#friendly-neighborhood) (+42%), [Spectacular Tactics](../../cards/S/spe.md#spectacular-tactics) (+39%) · EDHREC: in 54,049 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (73.9% of its decks), [Anti-Venom, Horrifying Healer](../../cards/A/an.md#anti-venom-horrifying-healer) (35.8% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (49.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spectacular-spider-man)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pspl/6/spectacular-spider-man) · oracle_id `eed5e0cc-8f88-4779-bf10-6a823c72df7f` · printing: PSPL #6 (2025-10-24) · [rulings](https://api.scryfall.com/cards/3f1b7b3e-3449-4c8f-8eb7-aacc62d9eadd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

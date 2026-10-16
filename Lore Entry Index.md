@@ -209,7 +209,7 @@ schema: 2
 | [Kellan](Characters%20Index.md#kellan) | `character`, `planeswalker`, `has-enriched-cards` | 1 | A 1 E 1 P 1 | [6](Card%20Enrichment.md#by-lore-entry) |
 | [Helga](Characters%20Index.md#helga) | `character`, `planeswalker`, `has-enriched-cards` | 1 | A 1 E 1 P 1 | [1](Card%20Enrichment.md#by-lore-entry) |
 | [Kirol, Abigale, Lluwen, Sanar](Characters%20Index.md#kirol-abigale-lluwen-sanar) | `character`, `planeswalker`, `has-enriched-cards` | 2 | A 1 E 1 P 2 | [8](Card%20Enrichment.md#by-lore-entry) |
-| [Proft, Etrata, Aminatou, Niv-Mizzet](Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) | `character`, `planeswalker`, `has-enriched-cards` | 1 | A 1 E 1 P 1 | [14](Card%20Enrichment.md#by-lore-entry) |
+| [Proft, Etrata, Aminatou, Niv-Mizzet](Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) | `character`, `planeswalker`, `has-enriched-cards` | 1 | A 1 E 1 P 1 | [6](Card%20Enrichment.md#by-lore-entry) |
 | [Uldaros Theorix](Characters%20Index.md#uldaros-theorix) | `character`, `has-non-canonical`, `alive-or-active`, `has-enriched-cards` | 1 | A 1 E 1 P 1 | [1](Card%20Enrichment.md#by-lore-entry) |
 | [Pinnacle / Sothera cast (Haliya, Sami, Mirri, Alpharael)](Characters%20Index.md#pinnacle--sothera-cast-haliya-sami-mirri-alpharael) | `character`, `planeswalker`, `has-enriched-cards` | 1 | A 1 E 1 P 1 | [6](Card%20Enrichment.md#by-lore-entry) |
 | [Angrath](Characters%20Index.md#angrath) | `character`, `has-unknowns`, `status-unknown`, `has-enriched-cards` | 3 | — | [3](Card%20Enrichment.md#by-lore-entry) |

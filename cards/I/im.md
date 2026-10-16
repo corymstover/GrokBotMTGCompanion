@@ -688,7 +688,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4979 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-10-07* — If multiple artifact cards leave your graveyard at the same time, the first ability triggers only once, and you will create only two tokens.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#imotekh-the-stormlord)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 49 combos; most popular [Imotekh the Stormlord + Scrap Trawler + Myr Retriever + Ashnod's Altar](https://commanderspellbook.com/combo/1020-1913-2034-2866/) (Infinite colorless mana, Infinite creature tokens) · EDHREC as commander: 8,135 decks; highest synergy [Their Name Is Death](../../cards/T/thei.md#their-name-is-death) (+80%), [Cryptothrall](../../cards/C/cr.md#cryptothrall) (+76%), [Skorpekh Lord](../../cards/S/sk.md#skorpekh-lord) (+76%) · EDHREC: in 24,015 decks; most often under [Golbez, Crystal Collector](../../cards/G/gol.md#golbez-crystal-collector) (40.6% of its decks), [Greasefang, Okiba Boss](../../cards/G/gre.md#greasefang-okiba-boss) (58.4% of its decks), [Szarekh, the Silent King](../../cards/S/sz.md#szarekh-the-silent-king) (95.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/I.md#imotekh-the-stormlord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/5/imotekh-the-stormlord) · oracle_id `425fea06-76ec-4cd9-bd3b-750504fd7fd2` · printing: 40K #5 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Imoti, Celebrant of Bounty
@@ -713,6 +715,8 @@ schema: 2
   - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
   - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
   - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Yidris, Maelstrom Wielder](../../decks/yidris-maelstrom-wielder.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6,035 decks; highest synergy [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (+59%), [Apex Devastator](../../cards/A/ap.md#apex-devastator) (+57%), [Thryx, the Sudden Storm](../../cards/T/thr.md#thryx-the-sudden-storm) (+52%) · EDHREC: in 57,623 decks; most often under [Maelstrom Wanderer](../../cards/M/mae.md#maelstrom-wanderer) (72.1% of its decks), [Averna, the Chaos Bloom](../../cards/A/av.md#averna-the-chaos-bloom) (95.1% of its decks), [Yidris, Maelstrom Wielder](../../cards/Y/yi.md#yidris-maelstrom-wielder) (49.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/I.md#imoti-celebrant-of-bounty)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/280/imoti-celebrant-of-bounty) · oracle_id `eca32dcd-6845-433e-a631-ed1f0ee78f25` · printing: CMR #280 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

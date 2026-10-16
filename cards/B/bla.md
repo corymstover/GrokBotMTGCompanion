@@ -248,6 +248,8 @@ schema: 2
 - **Rulings** (2):
   - *2025-09-19* — If there are fewer than nine cards left in the opponent's library as the ability resolves, you look at all of the remaining cards.
   - *2025-09-19* — You must follow all normal timing rules when playing a land or casting a spell this way.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (3): [Don Andres, the Renegade (Grixis)](../../grixis/decks/don-andres-the-renegade.md) · [Loki, the Deceiver (Grixis)](../../grixis/decks/loki-the-deceiver.md) · [Nathan Drake, Treasure Hunter (Grixis)](../../grixis/decks/nathan-drake-treasure-hunter.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,586 decks; highest synergy [Conjurer's Closet](../../cards/C/con.md#conjurers-closet) (+68%), [Supernatural Stamina](../../cards/S/sup.md#supernatural-stamina) (+68%), [Gonti, Lord of Luxury](../../cards/G/gon.md#gonti-lord-of-luxury) (+62%) · EDHREC: in 21,479 decks; most often under [Nathan Drake, Treasure Hunter](../../cards/N/na.md#nathan-drake-treasure-hunter) (48.4% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (7.3% of its decks), [Doctor Octopus, Master Planner](../../cards/D/do.md#doctor-octopus-master-planner) (60.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/B.md#black-cat-cunning-thief)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/52/black-cat-cunning-thief) · oracle_id `f5cdb413-2b72-4dc6-b93d-2532ac2ae568` · printing: SPM #52 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -711,6 +713,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2985 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — Black Waltz No. 3's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5,079 decks; highest synergy [Black Mage's Rod](../../cards/B/bla.md#black-mages-rod) (+64%), [Cornered by Black Mages](../../cards/C/cor.md#cornered-by-black-mages) (+58%), [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (+58%) · EDHREC: in 51,175 decks; most often under [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (92.3% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (23.5% of its decks), [Inalla, Archmage Ritualist](../../cards/I/ina.md#inalla-archmage-ritualist) (30.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#black-waltz-no-3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/214/black-waltz-no-3) · oracle_id `9c84c681-40c1-4ff3-86e6-48b4ab7491e5` · printing: FIN #214 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Ward
@@ -1317,6 +1322,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6674 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-09-09* — The number of creature cards in your graveyard is determined at the time the triggered ability resolves. If any creature cards are in your graveyard as a result of dying in the same combat damage step that the ability triggered in, they will be counted.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 35 combos; most popular [Breath of Fury + Bladewing, Deathless Tyrant + Anger](https://commanderspellbook.com/combo/3132-3259-4068/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 1,824 decks; highest synergy [Stitcher's Supplier](../../cards/S/sti.md#stitchers-supplier) (+57%), [Millikin](../../cards/M/mil.md#millikin) (+53%), [Death Baron](../../cards/D/dea.md#death-baron) (+49%) · EDHREC: in 21,040 decks; most often under [Dihada, Binder of Wills](../../cards/D/di.md#dihada-binder-of-wills) (32.9% of its decks), [Rivaz of the Claw](../../cards/R/ri.md#rivaz-of-the-claw) (52.2% of its decks), [Akul the Unrepentant](../../cards/A/ak.md#akul-the-unrepentant) (60.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bladewing-deathless-tyrant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/9/bladewing-deathless-tyrant) · oracle_id `cc4bc5d7-ed37-4a80-a5e7-eb68c255cbef` · printing: DMC #9 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1347,6 +1354,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3765 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [The Ur-Dragon](../../decks/the-ur-dragon.md) · Commander Spellbook: 97 combos; most popular [Miirym, Sentinel Wyrm + Bladewing the Risen + Terror of the Peaks](https://commanderspellbook.com/combo/380-1110-3362/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 607 decks; highest synergy [Lathliss, Dragon Queen](../../cards/L/la.md#lathliss-dragon-queen) (+57%), [Dragon Tempest](../../cards/D/dra.md#dragon-tempest) (+55%), [Hellkite Courser](../../cards/H/he.md#hellkite-courser) (+53%) · EDHREC: in 43,875 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (33.3% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (38.6% of its decks), [Rivaz of the Claw](../../cards/R/ri.md#rivaz-of-the-claw) (84.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#bladewing-the-risen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/193/bladewing-the-risen) · oracle_id `c22cc70a-9533-4bfc-b3ce-b2d43a73f0c1` · printing: IMA #193 (2017-11-17) · [rulings](https://api.scryfall.com/cards/27ce43cb-44f4-4d94-8700-d9f3cc043989/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

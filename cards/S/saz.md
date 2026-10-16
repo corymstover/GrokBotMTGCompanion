@@ -59,6 +59,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5138 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — To double the number of +1/+1 counters on a permanent, put a number of +1/+1 counters on it equal to the number it already has. Other effects that interact with putting counters on it will interact with this effect accordingly.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 288 decks; highest synergy [Sazh's Chocobo](../../cards/S/saz.md#sazhs-chocobo) (+75%), [Traveling Chocobo](../../cards/T/tra.md#traveling-chocobo) (+56%), [Chocobo Racetrack](../../cards/C/cho.md#chocobo-racetrack) (+54%) · EDHREC: in 30,885 decks; most often under [Choco, Seeker of Paradise](../../cards/C/cho.md#choco-seeker-of-paradise) (63.9% of its decks), [Tifa Lockhart](../../cards/T/ti.md#tifa-lockhart) (17.0% of its decks), [Tidus, Yuna's Guardian](../../cards/T/ti.md#tidus-yunas-guardian) (5.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/199/sazh-katzroy) · oracle_id `0e5b40dc-debf-48a1-8398-5ea00b5a5166` · printing: FIN #199 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sazh's Chocobo

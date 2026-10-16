@@ -99,10 +99,17 @@ def type_group(c):
     return "other"
 
 
+NO_LORE = "❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story)"
+# Bot cycle 35 is enriched in slices of ~250 cards (checkpoint pushed after each): PW35 adds every remaining planeswalker,
+# RANK35 the legendary creatures up to that EDHREC rank (2026-10-15 bulk). 6,915 = the 1,000th not-yet-enriched one.
+PW35 = True
+RANK35 = 6915
 BATCHES = [(33, "legendary cards and planeswalkers already linked from lore entries",
             lambda c, tiers: "entry-linked" in tiers and is_legend_or_pw(c)),
            (34, "every other lore-entry-linked card, every name-matched character card, every story-flavor card",
-            lambda c, tiers: bool(tiers & {"entry-linked", "character-card", "story-flavor"}))]
+            lambda c, tiers: bool(tiers & {"entry-linked", "character-card", "story-flavor"})),
+           (35, (("every remaining planeswalker; " if PW35 else "") + f"legendary creatures with EDHREC rank ≤ {RANK35:,} (2026-10-15 bulk)"),
+            lambda c, tiers: (PW35 and "planeswalker" in tiers) or ("legendary-creature" in tiers and (c.get("edhrec_rank") or 10**9) <= RANK35))]
 
 
 # ------------------------------------------------------------------ inputs
@@ -121,7 +128,7 @@ def load_bulk():
 
 def load_printings(want=None):
     """{oracle_id: {"spotlight": [...], "flavors": [...], "ub": bool, "sets": [...]}} from default-cards (paper printings)."""
-    out = defaultdict(lambda: {"spotlight": [], "flavors": [], "stamps": set(), "sets": [], "artists": set()})
+    out = defaultdict(lambda: {"spotlight": [], "flavors": [], "stamps": set(), "sets": [], "artists": set(), "set_types": set()})
     f = sorted(glob.glob(str(ROOT / ".cache" / "default-cards-*.jsonl.gz")))[-1]
     with gzip.open(f, "rt", encoding="utf-8") as fh:
         for line in fh:
@@ -142,6 +149,7 @@ def load_printings(want=None):
                 if fc.get("artist") or c.get("artist"):
                     o["artists"].add(fc.get("artist") or c.get("artist"))
             o["sets"].append((c.get("released_at", ""), c["set"].upper()))
+            o["set_types"].add(c.get("set_type", ""))
     return out
 
 
@@ -411,6 +419,94 @@ def pool(rows_by_key, by_id, prints, links, cc, caps, prev=None):
     return tiers
 
 
+# ------------------------------------------------------------------ name-match audit (Bot cycle 35, #100)
+OFFICIAL_URL = re.compile(r"https?://magic\.wizards\.com/en/[^\s)\]>\"]+")
+
+
+def char_names(entry_name, card_name):
+    """The character name(s) of a (possibly grouped) entry that the card's name starts with, plus first-name keys."""
+    import build_crossrefs as bx
+    import build_lore_xrefs as X
+    fr = front(card_name)
+    out = []
+    for n in X.split_names(entry_name):
+        keys = [n]
+        first = n.split()[0]
+        if " " in n and first not in bx.STOP_FIRST and len(first) >= 3:
+            keys.append(first)
+        if any(fr == k or fr.startswith(k + ",") or fr.startswith(k + " ") for k in keys):
+            out += keys
+    return out or [entry_name]
+
+
+def _has(text, name):
+    if name.lower() not in text:
+        return False
+    return re.search(rf"(?<![\w-]){re.escape(name.lower())}(?![\w-])", text) is not None
+
+
+def lore_flavor_pages(p, S, norm):
+    out = []
+    for fl in p.get("flavors", []):
+        n = norm(fl).strip(" .'\"-")
+        if len(n.split()) >= 6:
+            out += [u for u, t in S.items() if n in t and u not in out]
+    return out
+
+
+def audit_name_match(x, c, e, p, caps, S, norm):
+    """Try to confirm a name-matched character card with official evidence (Bot cycle 35).
+
+    Confirmed -> relation "depicts", `via` "name+<evidence>", `confirmed` = {by, source, detail}:
+      art      the card's art is captioned (artist-matched) on an official story page that names the character;
+      page     an official page cited by the entry names the card (full name, when it differs from the character's);
+      flavor   a printing's flavor text names the character;
+      spotlight  Scryfall marks a printing as a Story Spotlight card.
+    Otherwise the link stays "name-match" (⚠️). Un-set (`set_type` funny) and digital-only cards get a flag.
+    """
+    x = dict(x)
+    names = char_names(e["name"], c["name"])
+    fr = norm(front(c["name"])).strip()
+    ent_urls = [u.rstrip("/.,") for u in OFFICIAL_URL.findall(e["text"])]
+    ent_urls = list(dict.fromkeys(ent_urls))
+    hit = None
+    for t, u, a in caps.get(c["name"], []) + (caps.get(front(c["name"]), []) if front(c["name"]) != c["name"] else []):
+        if a in p.get("artists", set()) and any(_has(S.get(u.rstrip("/"), ""), norm(n)) for n in names):
+            hit = {"by": "art", "source": u, "detail": f"card art captioned on {t}"}
+            break
+    plain = norm(re.sub(r"\[([^\]]*)\]\([^)]*\)", "", e["text"]))  # entry prose without card links
+    if not hit and fr not in {norm(n) for n in names} and len(fr.split()) >= 2 and not _has(plain, fr):
+        # (a name the entry itself uses for the character, e.g. "Rowan Kenrith", is not evidence for the card)
+        for u in ent_urls + sorted(S):
+            if _has(S.get(u, ""), fr) and any(_has(S.get(u, ""), norm(n)) for n in names):
+                hit = {"by": "page", "source": u, "detail": "official page names the card" + (" (cited by the entry)" if u in ent_urls else "")}
+                break
+    if not hit:
+        for fl in p.get("flavors", []):
+            if any(_has(norm(fl), norm(n)) for n in names):
+                hit = {"by": "flavor", "source": None, "detail": "flavor text names " + next(n for n in names if _has(norm(fl), norm(n)))}
+                break
+    if not hit:
+        for u in lore_flavor_pages(p, S, norm):
+            if any(_has(S.get(u, ""), norm(n)) for n in names):
+                hit = {"by": "flavor-page", "source": u, "detail": "flavor text verbatim on an official page that names the character"}
+                break
+    if not hit and p.get("spotlight"):
+        hit = {"by": "spotlight", "source": None, "detail": "Story Spotlight printing " + p["spotlight"][0]}
+    if hit:
+        x["relation"] = "depicts"
+        x["via"] = "name+" + hit["by"]
+        x["sources"] = [hit["source"]] if hit["source"] else ent_urls[:2]
+        x["confirmed"] = hit
+    flags = []
+    if p.get("set_types") and p["set_types"] <= {"funny"}:
+        flags.append("🚫")  # every paper printing is in an Un-/playtest ("funny") set
+    if not p.get("sets"):
+        flags.append("⚠️")  # no paper printing: digital-only
+    x["line_flags"] = flags
+    return x
+
+
 def lore_for(r, c, links, cc, keys, prints, S, norm, notes, caps, afs, prev_lore=None):
     k = (r["shard"], r["anchor"])
     rel = []
@@ -429,7 +525,8 @@ def lore_for(r, c, links, cc, keys, prints, S, norm, notes, caps, afs, prev_lore
             continue
         e = keys[ek]
         rel.append({"entry": ek, "kind": e["kind"], "name": e["name"], "relation": "name-match", "sources": [], "via": "name", "line_flags": []})
-    p = prints.get(r["oracle_id"]) or {"spotlight": [], "flavors": [], "stamps": set(), "artists": set()}
+    p = prints.get(r["oracle_id"]) or {"spotlight": [], "flavors": [], "stamps": set(), "artists": set(), "sets": [], "set_types": set()}
+    rel = [audit_name_match(x, c, keys[x["entry"]], p, caps, S, norm) if x["relation"] == "name-match" else x for x in rel]
     flav = []
     for fl in p["flavors"]:
         n = norm(fl).strip(" .'\"-")
@@ -450,7 +547,9 @@ def lore_for(r, c, links, cc, keys, prints, S, norm, notes, caps, afs, prev_lore
     sec = afs.get(k)
     out = {"relations": rel, "spotlight": sorted(set(p["spotlight"]))[:3], "flavor_on": sorted(flav)[:3],
            "art_on": sorted(art, key=lambda x: x[1])[:3], "art_flavor": list(sec) if sec else None,
-           "flags": ["🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon"] if p["stamps"] and p["stamps"] <= {"triangle"} else []}
+           "flags": (["🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon"] if p["stamps"] and p["stamps"] <= {"triangle"} else []) +
+                    (["🚫 Un-/playtest card (every printing in a `funny` set): outside story canon"] if p.get("set_types") and p["set_types"] <= {"funny"} else []) +
+                    (["⚠️ digital-only card (no paper printing)"] if not p.get("sets") else [])}
     if c["name"] in notes:
         out["note"] = notes[c["name"]]
     return out
@@ -496,6 +595,15 @@ def render(r, card, lore, syn, rows_by_name):
         if x["sources"]:
             src = " (" + ", ".join(f"[{'source' if i == 0 else i + 1}]({u})" for i, u in enumerate(x["sources"][:2])) + (" via entry" if x["via"] == "entry" else "") + ")"
         fl = f" (the entry line carries {''.join(x['line_flags'])})" if x["line_flags"] else ""
+        if x["via"].startswith("name"):
+            fl = ""
+            if x.get("confirmed"):
+                cf = x["confirmed"]
+                src = (f" ([source]({cf['source']}))" if cf["source"] else
+                       (" (" + ", ".join(f"[{'entry source' if i == 0 else i + 1}]({u})" for i, u in enumerate(x["sources"][:2])) + ")" if x["sources"] else ""))
+                fl = f" — name match confirmed: {cf['detail']}{src}" + fl
+        if x.get("confirmed"):
+            src = ""
         by_rel[x["relation"]].append(f"[{KIND[x['kind']]} → {x['name']}](../../{esc(x['entry'])}){src}{fl}")
     if by_rel["depicts"]:
         parts.append("Depicts: " + " · ".join(by_rel["depicts"]))
@@ -515,6 +623,8 @@ def render(r, card, lore, syn, rows_by_name):
     if by_rel["name-match"]:
         parts.append("⚠️ Name match only (not a canon claim): " + " · ".join(by_rel["name-match"]))
     parts += lore["flags"]
+    if not (lore["relations"] or lore["spotlight"] or lore.get("art_on") or lore["flavor_on"] or lore.get("note")):
+        parts.insert(0, NO_LORE)
     lore_line = f"{LORE_P} " + " — ".join(p.strip() for p in parts) + " · [format](../../Card%20Enrichment.md#lore-line)"
     pv, gd = syn["proven"], syn["guidance"]
     sp = []
@@ -568,7 +678,8 @@ def build(fetch=False):
         if c and any(f(c, tiers.get(r["oracle_id"], set())) for _, _, f in BATCHES):
             sel.append(c)
     if fetch:
-        prefetch(sel)
+        # only cards without stored synergy (the third-party caches are gitignored and may be gone; Bot cycle 35)
+        prefetch([c for c in sel if c["oracle_id"] not in prev])
     cards = {}
     for r in sorted(rows, key=lambda r: r["name"]):
         c = by_id.get(r["oracle_id"])
@@ -627,7 +738,7 @@ def write_page(d):
     L_ = ["# Card Enrichment", "",
           f"> **Generated** by `scripts/build_card_enrichment.py` (Bot cycle 33, Phase 8 — [#99]({ISS}99) format, [#100]({ISS}100) lore, [#101]({ISS}101) synergy, [#102]({ISS}102) links + validation). Do not hand-edit; curated lore notes go in `data/card_lore_notes.json`. Machine copy: `data/card_enrichment.json`.",
           "> Each enriched card entry gains a **Lore** line and a **Synergy** line, placed before *Referenced in*. They are pointers to existing KB entries, Scryfall fields, cached official pages and cited third-party data. They never repeat Oracle text or rulings, and they add no new facts.", "",
-          "## Contents", "- [Lore line](#lore-line)", "- [Synergy line](#synergy-line)", "- [Coverage of the priority pool](#coverage-of-the-priority-pool)",
+          "## Contents", "- [Lore line](#lore-line)", "- [Synergy line](#synergy-line)", "- [Coverage of the priority pool](#coverage-of-the-priority-pool)", "- [Name-match audit](#name-match-audit)",
           "- [Enriched cards](#enriched-cards)", "- [By lore entry](#by-lore-entry)", "- [By package](#by-package)", "- [Synergy clusters](#synergy-clusters)", "",
           "## Lore line",
           "| Part | Meaning | Evidence |", "|---|---|---|",
@@ -637,8 +748,11 @@ def write_page(d):
           "| ✅ **Flavor text verbatim on** | a printed flavor text that appears word for word on a cached official page | `.cache/story/` (Wizards pages) |",
           "| *Depicts / References / Echoes:* note | curated note (`data/card_lore_notes.json`). *Echoes* = the card's mechanics mirror a cited story moment (guidance) | official sources listed in the note |",
           "| (the entry line carries ⚠️/❓/🚫) | the lore-entry line that links the card has an uncertainty flag; read the entry before relying on the link | the entry |",
+          "| **Depicts — name match confirmed** | a name-matched character card (below) tied to the character by official evidence (Bot cycle 35 audit): its art captioned on an official story page that names the character · an official page (preferably one the entry cites) naming the card · its flavor text naming the character · a Story Spotlight printing | the page linked on the line; for flavor/Spotlight the entry's own citations |",
           "| ⚠️ **Name match only** | the card's name matches a character entry (the generated *Character cards (name-matched)* tables). Not a claim about canon, timing or which version | Scryfall names |",
-          "| 🚫 | every paper printing is Universes Beyond (triangle security stamp), so it is outside the Multiverse story | Scryfall `security_stamp` |", "",
+          "| 🚫 | every paper printing is Universes Beyond (triangle security stamp), or every paper printing is in an Un-/playtest (`funny`) set: outside the Multiverse story | Scryfall `security_stamp`, `set_type` |",
+          "| ⚠️ digital-only | the card has no paper printing | Scryfall `digital` |",
+          "| ❓ No lore entry … yet | synergy batch (cycle 35+): no lore link or official evidence found so far; not a claim that the card has no story | — |", "",
           "## Synergy line",
           "| Tier | Contents | Source |", "|---|---|---|",
           "| *Proven* | **KB decks** that run the card · **Commander Spellbook** combo count (Commander-legal variants) and the most popular one · **EDHREC as commander**: decks and highest-synergy cards · **EDHREC**: decks that run the card and the commanders it appears under most (share of that commander's decks) | repo decklists; [Commander Spellbook](https://commanderspellbook.com) API; [EDHREC](https://edhrec.com) JSON pages (community data, snapshot; cached in `.cache/`) |",
@@ -649,6 +763,21 @@ def write_page(d):
           "| Tier | Cards in the KB | Enriched | Coverage |", "|---|---|---|---|"]
     for t, v in d["coverage"].items():
         L_.append(f"| {t} | {v['size']:,} | {v['enriched']:,} | {100 * v['enriched'] / v['size']:.1f}% |" if v["size"] else f"| {t} | 0 | 0 | — |")
+    au = Counter()
+    for v in cards:
+        for x in v["lore"]["relations"]:
+            if x["via"].startswith("name"):
+                au[x["confirmed"]["by"] if x.get("confirmed") else "kept ⚠️ name match only"] += 1
+                if "🚫" in x["line_flags"]:
+                    au["of which 🚫 Un-/playtest card"] += 1
+                if "⚠️" in x["line_flags"]:
+                    au["of which ⚠️ digital-only card"] += 1
+    lab = {"art": "confirmed: art captioned on an official page naming the character", "page": "confirmed: official page names the card",
+           "flavor": "confirmed: flavor text names the character", "flavor-page": "confirmed: flavor text verbatim on an official page naming the character",
+           "spotlight": "confirmed: Story Spotlight printing"}
+    L_ += ["", "## Name-match audit",
+           "Bot cycle 35 ([#100](" + ISS + "100)): every link that rested only on a name match (*Character cards (name-matched)* tables) was tested against the cached official story pages (`scripts/fetch_story_pages.py`), the entry's citations and the card's printings. Confirmed links render as *Depicts — name match confirmed* with the evidence; the rest stay ⚠️. Group headings no longer repeat cards that sit under the character's own heading (those links were removed in `scripts/build_crossrefs.py`).", "",
+           "| Result | Links |", "|---|---|"] + [f"| {lab.get(k, k)} | {n:,} |" for k, n in sorted(au.items(), key=lambda kv: (kv[0].startswith("of which"), kv[0].startswith("kept"), -kv[1]))]
     L_ += ["", "Batches: " + "; ".join(f"Bot cycle {b['cycle']} — {b['rule']}" for b in d["batches"]) + ".", "",
            "## Enriched cards", "Every enriched card, by type and batch. The full per-card record is `data/card_enrichment.json`; the card's own entry shows the two lines.", "",
            "| Type | " + " | ".join(f"Bot cycle {b['cycle']}" for b in d["batches"]) + " | Total |", "|---|" + "---|" * (len(d["batches"]) + 1)]
@@ -718,13 +847,21 @@ def pkg_sections():
     return _PKG
 
 
+def S_all():
+    import lore_quotes as Q
+    return Q.story()
+
+
 def check(d):
     bad = []
     keys = {f"{e['page']}#{e['anchor']}": e for e in L.all_entries()}
     for oid, v in d["cards"].items():
         lo = v["lore"]
         if not (lo["relations"] or lo.get("note") or lo["spotlight"] or lo["flavor_on"] or lo.get("art_on")):
-            bad.append(f"{v['name']}: no lore relation or official evidence")
+            if v["batch"] < 35:
+                bad.append(f"{v['name']}: no lore relation or official evidence")
+            elif NO_LORE not in v["lines"][0]:
+                bad.append(f"{v['name']}: synergy-batch card without lore evidence must carry the ❓ line")
         if lo["spotlight"] and lo.get("art_flavor"):
             t = (ROOT / AF_PAGE).read_text(encoding="utf-8")
             if f"]({v['shard']}#{v['anchor']})" not in t:
@@ -739,7 +876,12 @@ def check(d):
             if x["relation"] != "name-match" and not x["sources"]:
                 bad.append(f"{v['name']}: {x['entry']} relation has no official citation")
             target = (v["shard"], v["anchor"])
-            if x["relation"] == "name-match":
+            if x.get("confirmed") and x["confirmed"]["by"] not in ("art", "page", "flavor", "flavor-page", "spotlight"):
+                bad.append(f"{v['name']}: unknown name-match confirmation {x['confirmed']['by']}")
+            if x.get("confirmed") and x["confirmed"]["source"] and S_all() and x["confirmed"]["by"] in ("page", "flavor-page", "art") \
+                    and x["confirmed"]["source"].rstrip("/") not in S_all():
+                bad.append(f"{v['name']}: name-match confirmation cites an uncached page {x['confirmed']['source']}")
+            if x["relation"] == "name-match" or x["via"].startswith("name"):
                 t = (ROOT / e["page"]).read_text(encoding="utf-8")
                 blk = t[t.find("<!-- CHARCARDS:START -->"):]
                 row = next((l for l in blk.splitlines() if l.startswith(f"| [") and f"](#{e['anchor']})" in l.split("|")[1]), "")

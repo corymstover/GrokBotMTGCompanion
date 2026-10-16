@@ -273,6 +273,8 @@ schema: 2
   > *—Kiku, Night's Flower*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3716 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Nekusar, the Mindrazer](../../decks/nekusar-the-mindrazer.md) · [Isshin, Two Heavens as One (Kamigawa-only)](../../decks/plane-kamigawa-isshin-two-heavens-as-one.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,304 decks; highest synergy [Underworld Dreams](../../cards/U/un.md#underworld-dreams) (+81%), [Fate Unraveler](../../cards/F/fa.md#fate-unraveler) (+77%), [Howling Mine](../../cards/H/ho.md#howling-mine) (+75%) · EDHREC: in 43,668 decks; most often under [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (37.1% of its decks), [Sheoldred, the Apocalypse](../../cards/S/she.md#sheoldred-the-apocalypse) (71.3% of its decks), [Winter, Misanthropic Guide](../../cards/W/wi.md#winter-misanthropic-guide) (34.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#seizan-perverter-of-truth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/143/seizan-perverter-of-truth) · oracle_id `04d0d20f-720e-4cb6-a3ad-ea2b57bb7efa` · printing: CHK #143 (2004-10-01) · [rulings](https://api.scryfall.com/cards/e1e61750-f7d7-4e6d-9d68-e1e357868a8d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

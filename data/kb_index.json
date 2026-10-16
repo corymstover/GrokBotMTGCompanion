@@ -389,6 +389,11 @@
 ],
 [
 2,
+"Name-match audit",
+"name-match-audit"
+],
+[
+2,
 "Enriched cards",
 "enriched-cards"
 ],
@@ -5775,6 +5780,11 @@
 "changelog"
 ],
 "headings": [
+[
+2,
+"2026-10-15 — Bot cycle 35 (Phase 8: story cache, name-match audit, batch 3)",
+"2026-10-15--bot-cycle-35-phase-8-story-cache-name-match-audit-batch-3"
+],
 [
 2,
 "2026-10-15 — Bot cycle 34 (Phase 8: batch 2, package back-links, atomic writes)",
@@ -15600,6 +15610,11 @@
 ],
 [
 3,
+"Agent Frank Horrigan",
+"agent-frank-horrigan"
+],
+[
+3,
 "Agent of the Iron Throne",
 "agent-of-the-iron-throne"
 ],
@@ -15782,6 +15797,11 @@
 3,
 "Ajani, Wise Counselor",
 "ajani-wise-counselor"
+],
+[
+3,
+"Akiri, Fearless Voyager",
+"akiri-fearless-voyager"
 ],
 [
 3,
@@ -16082,6 +16102,11 @@
 3,
 "Ambition's Cost",
 "ambitions-cost"
+],
+[
+3,
+"Ambrosia Whiteheart",
+"ambrosia-whiteheart"
 ],
 [
 3,
@@ -16590,6 +16615,11 @@
 ],
 [
 3,
+"Anti-Venom, Horrifying Healer",
+"anti-venom-horrifying-healer"
+],
+[
+3,
 "Ant-Man, Elusive Avenger",
 "ant-man-elusive-avenger"
 ],
@@ -16677,6 +16707,11 @@
 3,
 "Apostle of Invasion",
 "apostle-of-invasion"
+],
+[
+3,
+"Apothecary White",
+"apothecary-white"
 ],
 [
 3,
@@ -17192,6 +17227,11 @@
 3,
 "Artistic Process",
 "artistic-process"
+],
+[
+3,
+"Arvad the Cursed",
+"arvad-the-cursed"
 ],
 [
 3,
@@ -18407,6 +18447,11 @@
 ],
 [
 3,
+"Bennie Bracks, Zoologist",
+"bennie-bracks-zoologist"
+],
+[
+3,
 "Benthic Giant",
 "benthic-giant"
 ],
@@ -18744,6 +18789,11 @@
 3,
 "Blacksmith's Talent",
 "blacksmiths-talent"
+],
+[
+3,
+"Black Waltz No. 3",
+"black-waltz-no-3"
 ],
 [
 3,
@@ -19722,6 +19772,11 @@
 ],
 [
 3,
+"Bria, Riptide Rogue",
+"bria-riptide-rogue"
+],
+[
+3,
 "Bribery",
 "bribery"
 ],
@@ -20002,6 +20057,11 @@
 ],
 [
 3,
+"Bugenhagen, Wise Elder",
+"bugenhagen-wise-elder"
+],
+[
+3,
 "Builder's Talent",
 "builders-talent"
 ],
@@ -20119,6 +20179,11 @@
 3,
 "By Force",
 "by-force"
+],
+[
+3,
+"Byrke, Long Ear of the Law",
+"byrke-long-ear-of-the-law"
 ]
 ]
 },
@@ -20171,6 +20236,11 @@
 3,
 "Caged Sun",
 "caged-sun"
+],
+[
+3,
+"Cait Sith, Fortune Teller",
+"cait-sith-fortune-teller"
 ],
 [
 3,
@@ -20411,6 +20481,11 @@
 3,
 "Captain America, Wings of Freedom",
 "captain-america-wings-of-freedom"
+],
+[
+3,
+"Captain Howler, Sea Scourge",
+"captain-howler-sea-scourge"
 ],
 [
 3,
@@ -21306,6 +21381,11 @@
 3,
 "Chulane, Teller of Tales",
 "chulane-teller-of-tales"
+],
+[
+3,
+"Cid, Freeflier Pilot",
+"cid-freeflier-pilot"
 ],
 [
 3,
@@ -25668,6 +25748,11 @@
 ],
 [
 3,
+"Electro, Assaulting Battery",
+"electro-assaulting-battery"
+],
+[
+3,
 "Electrodominance",
 "electrodominance"
 ],
@@ -25793,6 +25878,11 @@
 ],
 [
 3,
+"Ellivere of the Wild Court",
+"ellivere-of-the-wild-court"
+],
+[
+3,
 "Ellyn Harbreeze, Busybody",
 "ellyn-harbreeze-busybody"
 ],
@@ -25813,8 +25903,18 @@
 ],
 [
 3,
+"Elrond, Master of Healing",
+"elrond-master-of-healing"
+],
+[
+3,
 "Elsewhere Flask",
 "elsewhere-flask"
+],
+[
+3,
+"Elsha of the Infinite",
+"elsha-of-the-infinite"
 ],
 [
 3,
@@ -27023,6 +27123,11 @@
 ],
 [
 3,
+"Ezio, Blade of Vengeance",
+"ezio-blade-of-vengeance"
+],
+[
+3,
 "Ezuri, Renegade Leader",
 "ezuri-renegade-leader"
 ],
@@ -27295,6 +27400,11 @@
 ],
 [
 3,
+"Fang, Fearless l'Cie",
+"fang-fearless-lcie"
+],
+[
+3,
 "Fang of Shigeki",
 "fang-of-shigeki"
 ],
@@ -27307,6 +27417,16 @@
 3,
 "Fangs of Kalonia",
 "fangs-of-kalonia"
+],
+[
+3,
+"Faramir, Prince of Ithilien",
+"faramir-prince-of-ithilien"
+],
+[
+3,
+"Faramir, Steward of Gondor",
+"faramir-steward-of-gondor"
 ],
 [
 3,
@@ -27630,6 +27750,11 @@
 ],
 [
 3,
+"Feroz, Ulgrotha's Warden",
+"feroz-ulgrothas-warden"
+],
+[
+3,
 "Ferris Wheel",
 "ferris-wheel"
 ],
@@ -27950,6 +28075,11 @@
 ],
 [
 3,
+"Firkraag, Cunning Instigator",
+"firkraag-cunning-instigator"
+],
+[
+3,
 "First Day of Class",
 "first-day-of-class"
 ],
@@ -28202,6 +28332,11 @@
 3,
 "Flowstone Charger",
 "flowstone-charger"
+],
+[
+3,
+"Flubs, the Fool",
+"flubs-the-fool"
 ],
 [
 3,
@@ -28635,6 +28770,11 @@
 ],
 [
 3,
+"Freya Crescent",
+"freya-crescent"
+],
+[
+3,
 "Freyalise, Llanowar's Fury",
 "freyalise-llanowars-fury"
 ],
@@ -28807,6 +28947,11 @@
 "headings": [
 [
 3,
+"Gadrak, the Crown-Scourge",
+"gadrak-the-crown-scourge"
+],
+[
+3,
 "Gadwick, the Wizened",
 "gadwick-the-wizened"
 ],
@@ -28937,6 +29082,11 @@
 ],
 [
 3,
+"Gargos, Vicious Watcher",
+"gargos-vicious-watcher"
+],
+[
+3,
 "Gargoyle Castle",
 "gargoyle-castle"
 ],
@@ -28944,6 +29094,11 @@
 3,
 "Gargoyle Flock",
 "gargoyle-flock"
+],
+[
+3,
+"Garna, Bloodfist of Keld",
+"garna-bloodfist-of-keld"
 ],
 [
 3,
@@ -29577,6 +29732,11 @@
 ],
 [
 3,
+"Gimli of the Glittering Caves",
+"gimli-of-the-glittering-caves"
+],
+[
+3,
 "Gingerbread Hunter // Puny Snack",
 "gingerbread-hunter--puny-snack"
 ],
@@ -29589,6 +29749,11 @@
 3,
 "Ginger, Queen of Sweets",
 "ginger-queen-of-sweets"
+],
+[
+3,
+"Gisa and Geralf",
+"gisa-and-geralf"
 ],
 [
 3,
@@ -29804,6 +29969,11 @@
 3,
 "Glittering Wish",
 "glittering-wish"
+],
+[
+3,
+"Glóin, Dwarf Emissary",
+"glóin-dwarf-emissary"
 ],
 [
 3,
@@ -30357,6 +30527,11 @@
 ],
 [
 3,
+"G'raha Tia, Scion Reborn",
+"graha-tia-scion-reborn"
+],
+[
+3,
 "Grakmaw, Skyclave Ravager",
 "grakmaw-skyclave-ravager"
 ],
@@ -30622,6 +30797,11 @@
 ],
 [
 3,
+"Greensleeves",
+"greensleeves"
+],
+[
+3,
 "Greensleeves, Maro-Sorcerer",
 "greensleeves-maro-sorcerer"
 ],
@@ -30704,6 +30884,11 @@
 3,
 "Grim Feast",
 "grim-feast"
+],
+[
+3,
+"Grimgrin, Corpse-Born",
+"grimgrin-corpse-born"
 ],
 [
 3,
@@ -31194,6 +31379,11 @@
 ],
 [
 3,
+"Hanna, Ship's Navigator",
+"hanna-ships-navigator"
+],
+[
+3,
 "Hansk, Slayer Zealot",
 "hansk-slayer-zealot"
 ],
@@ -31616,6 +31806,11 @@
 3,
 "Heliod, Sun-Crowned",
 "heliod-sun-crowned"
+],
+[
+3,
+"Heliod, the Radiant Dawn // Heliod, the Warped Eclipse",
+"heliod-the-radiant-dawn--heliod-the-warped-eclipse"
 ],
 [
 3,
@@ -32316,6 +32511,11 @@
 3,
 "Hua Tuo, Honored Physician",
 "hua-tuo-honored-physician"
+],
+[
+3,
+"Hugs, Grisly Guardian",
+"hugs-grisly-guardian"
 ],
 [
 3,
@@ -33276,6 +33476,11 @@
 ],
 [
 3,
+"Inti, Seneschal of the Sun",
+"inti-seneschal-of-the-sun"
+],
+[
+3,
 "Into the Fae Court",
 "into-the-fae-court"
 ],
@@ -34208,6 +34413,11 @@
 ],
 [
 3,
+"Judith, the Scourge Diva",
+"judith-the-scourge-diva"
+],
+[
+3,
 "Jugan Defends the Temple // Remnant of the Rising Star",
 "jugan-defends-the-temple--remnant-of-the-rising-star"
 ],
@@ -34302,6 +34512,11 @@
 3,
 "Kadena's Silencer",
 "kadenas-silencer"
+],
+[
+3,
+"Kagha, Shadow Archdruid",
+"kagha-shadow-archdruid"
 ],
 [
 3,
@@ -34427,6 +34642,11 @@
 3,
 "Karametra's Acolyte",
 "karametras-acolyte"
+],
+[
+3,
+"Karazikar, the Eye Tyrant",
+"karazikar-the-eye-tyrant"
 ],
 [
 3,
@@ -34762,6 +34982,11 @@
 3,
 "Kellan, the Kid",
 "kellan-the-kid"
+],
+[
+3,
+"Kellogg, Dangerous Mind",
+"kellogg-dangerous-mind"
 ],
 [
 3,
@@ -35192,6 +35417,11 @@
 3,
 "Knowledge Exploitation",
 "knowledge-exploitation"
+],
+[
+3,
+"Knuckles the Echidna",
+"knuckles-the-echidna"
 ],
 [
 3,
@@ -35772,6 +36002,11 @@
 ],
 [
 3,
+"Layla Hassan",
+"layla-hassan"
+],
+[
+3,
 "Lazav, Familiar Stranger",
 "lazav-familiar-stranger"
 ],
@@ -35849,6 +36084,11 @@
 3,
 "Legion Warboss",
 "legion-warboss"
+],
+[
+3,
+"Legolas Greenleaf",
+"legolas-greenleaf"
 ],
 [
 3,
@@ -36842,6 +37082,11 @@
 ],
 [
 3,
+"Lyla, Holographic Assistant",
+"lyla-holographic-assistant"
+],
+[
+3,
 "Lynde, Cheerful Tormentor",
 "lynde-cheerful-tormentor"
 ],
@@ -37379,6 +37624,11 @@
 ],
 [
 3,
+"Marcus, Mutant Mayor",
+"marcus-mutant-mayor"
+],
+[
+3,
 "Mardu Siegebreaker",
 "mardu-siegebreaker"
 ],
@@ -37524,6 +37774,11 @@
 ],
 [
 3,
+"Massacre Girl, Known Killer",
+"massacre-girl-known-killer"
+],
+[
+3,
 "Mass Hysteria",
 "mass-hysteria"
 ],
@@ -37546,6 +37801,11 @@
 3,
 "Masterful Replication",
 "masterful-replication"
+],
+[
+3,
+"Mastermind Plum",
+"mastermind-plum"
 ],
 [
 3,
@@ -37606,6 +37866,11 @@
 3,
 "Mathise, Surge Channeler",
 "mathise-surge-channeler"
+],
+[
+3,
+"Matoya, Archon Elder",
+"matoya-archon-elder"
 ],
 [
 3,
@@ -37881,6 +38146,11 @@
 3,
 "Merrow Skyswimmer",
 "merrow-skyswimmer"
+],
+[
+3,
+"Merry, Esquire of Rohan",
+"merry-esquire-of-rohan"
 ],
 [
 3,
@@ -38279,6 +38549,11 @@
 ],
 [
 3,
+"Minthara, Merciless Soul",
+"minthara-merciless-soul"
+],
+[
+3,
 "Miraculous Recovery",
 "miraculous-recovery"
 ],
@@ -38476,6 +38751,11 @@
 3,
 "Mist Dragon",
 "mist-dragon"
+],
+[
+3,
+"Mister Fantastic, Reed Richards",
+"mister-fantastic-reed-richards"
 ],
 [
 3,
@@ -39036,6 +39316,11 @@
 3,
 "Mr. House, President and CEO",
 "mr-house-president-and-ceo"
+],
+[
+3,
+"Mr. Monopoly, On the Go",
+"mr-monopoly-on-the-go"
 ],
 [
 3,
@@ -39791,6 +40076,16 @@
 ],
 [
 3,
+"Neyith of the Dire Hunt",
+"neyith-of-the-dire-hunt"
+],
+[
+3,
+"Nezahal, Primal Tide",
+"nezahal-primal-tide"
+],
+[
+3,
 "Nezumi Bladeblesser",
 "nezumi-bladeblesser"
 ],
@@ -40093,6 +40388,11 @@
 3,
 "No Escape",
 "no-escape"
+],
+[
+3,
+"Nogi, Draco-Zealot",
+"nogi-draco-zealot"
 ],
 [
 3,
@@ -40508,6 +40808,11 @@
 ],
 [
 3,
+"Octavia, Living Thesis",
+"octavia-living-thesis"
+],
+[
+3,
 "Octomancer",
 "octomancer"
 ],
@@ -40585,6 +40890,11 @@
 3,
 "Ojer Kaslem, Deepest Growth // Temple of Cultivation",
 "ojer-kaslem-deepest-growth--temple-of-cultivation"
+],
+[
+3,
+"Ojer Pakpatiq, Deepest Epoch // Temple of Cyclical Time",
+"ojer-pakpatiq-deepest-epoch--temple-of-cyclical-time"
 ],
 [
 3,
@@ -40675,6 +40985,11 @@
 3,
 "Olivia, Mobilized for War",
 "olivia-mobilized-for-war"
+],
+[
+3,
+"Olivia, Opulent Outlaw",
+"olivia-opulent-outlaw"
 ],
 [
 3,
@@ -41490,6 +41805,11 @@
 ],
 [
 3,
+"Papalymo Totolymo",
+"papalymo-totolymo"
+],
+[
+3,
 "Paradigm Shift",
 "paradigm-shift"
 ],
@@ -41727,6 +42047,11 @@
 3,
 "Peach Garden Oath",
 "peach-garden-oath"
+],
+[
+3,
+"Pearl-Ear, Imperial Advisor",
+"pearl-ear-imperial-advisor"
 ],
 [
 3,
@@ -42795,6 +43120,11 @@
 ],
 [
 3,
+"Prismari, the Inspiration",
+"prismari-the-inspiration"
+],
+[
+3,
 "Prismatic Ending",
 "prismatic-ending"
 ],
@@ -42892,6 +43222,11 @@
 3,
 "Professor Hulk",
 "professor-hulk"
+],
+[
+3,
+"Professor Onyx",
+"professor-onyx"
 ],
 [
 3,
@@ -43277,6 +43612,11 @@
 ],
 [
 3,
+"Queen Brahne",
+"queen-brahne"
+],
+[
+3,
 "Queen Marchesa",
 "queen-marchesa"
 ],
@@ -43436,6 +43776,11 @@
 3,
 "Radha, Coalition Warlord",
 "radha-coalition-warlord"
+],
+[
+3,
+"Radha, Heir to Keld",
+"radha-heir-to-keld"
 ],
 [
 3,
@@ -44239,6 +44584,11 @@
 ],
 [
 3,
+"Red XIII, Proud Warrior",
+"red-xiii-proud-warrior"
+],
+[
+3,
 "Reef Worm",
 "reef-worm"
 ],
@@ -44351,6 +44701,11 @@
 3,
 "Rekindling Phoenix",
 "rekindling-phoenix"
+],
+[
+3,
+"Reki, the History of Kamigawa",
+"reki-the-history-of-kamigawa"
 ],
 [
 3,
@@ -44786,6 +45141,11 @@
 3,
 "Rewind",
 "rewind"
+],
+[
+3,
+"Reya Dawnbringer",
+"reya-dawnbringer"
 ],
 [
 3,
@@ -45636,6 +45996,11 @@
 3,
 "Rydia's Return",
 "rydias-return"
+],
+[
+3,
+"Rydia, Summoner of Mist",
+"rydia-summoner-of-mist"
 ],
 [
 3,
@@ -47183,6 +47548,11 @@
 ],
 [
 3,
+"Shadow the Hedgehog",
+"shadow-the-hedgehog"
+],
+[
+3,
 "Shadowy Backstreet",
 "shadowy-backstreet"
 ],
@@ -47685,6 +48055,11 @@
 3,
 "Siegfried, Famed Swordsman",
 "siegfried-famed-swordsman"
+],
+[
+3,
+"Sifa Grent",
+"sifa-grent"
 ],
 [
 3,
@@ -48838,6 +49213,11 @@
 ],
 [
 3,
+"SP//dr, Piloted by Peni",
+"spdr-piloted-by-peni"
+],
+[
+3,
 "Speaker of the Heavens",
 "speaker-of-the-heavens"
 ],
@@ -49570,6 +49950,11 @@
 3,
 "Steely Resolve",
 "steely-resolve"
+],
+[
+3,
+"Stella Lee, Wild Card",
+"stella-lee-wild-card"
 ],
 [
 3,
@@ -50568,8 +50953,18 @@
 ],
 [
 3,
+"Svega, the Unconventional",
+"svega-the-unconventional"
+],
+[
+3,
 "Svella, Ice Shaper",
 "svella-ice-shaper"
+],
+[
+3,
+"Svyelun of Sea and Sky",
+"svyelun-of-sea-and-sky"
 ],
 [
 3,
@@ -51335,6 +51730,11 @@
 ],
 [
 3,
+"Tegwyll, Duke of Splendor",
+"tegwyll-duke-of-splendor"
+],
+[
+3,
 "Tekuthal, Inquiry Dominus",
 "tekuthal-inquiry-dominus"
 ],
@@ -52050,6 +52450,11 @@
 ],
 [
 3,
+"The Emperor of Palamecia // The Lord Master of Hell",
+"the-emperor-of-palamecia--the-lord-master-of-hell"
+],
+[
+3,
 "The Endstone",
 "the-endstone"
 ],
@@ -52132,6 +52537,11 @@
 3,
 "The Fugitive Doctor",
 "the-fugitive-doctor"
+],
+[
+3,
+"The Gaffer",
+"the-gaffer"
 ],
 [
 3,
@@ -52365,6 +52775,11 @@
 ],
 [
 3,
+"The Odd Acorn Gang",
+"the-odd-acorn-gang"
+],
+[
+3,
 "Théoden, King of Rohan",
 "théoden-king-of-rohan"
 ],
@@ -52462,6 +52877,11 @@
 3,
 "The Scarab God",
 "the-scarab-god"
+],
+[
+3,
+"The Scorpion God",
+"the-scorpion-god"
 ],
 [
 3,
@@ -53710,6 +54130,11 @@
 ],
 [
 3,
+"Tor Wauki the Younger",
+"tor-wauki-the-younger"
+],
+[
+3,
 "Toshiro Umezawa",
 "toshiro-umezawa"
 ],
@@ -54662,6 +55087,11 @@
 ],
 [
 3,
+"Unctus, Grand Metatect",
+"unctus-grand-metatect"
+],
+[
+3,
 "Undead Augur",
 "undead-augur"
 ],
@@ -55289,6 +55719,11 @@
 ],
 [
 3,
+"Valgavoth, Harrower of Souls",
+"valgavoth-harrower-of-souls"
+],
+[
+3,
 "Valgavoth, Terror Eater",
 "valgavoth-terror-eater"
 ],
@@ -55499,6 +55934,11 @@
 ],
 [
 3,
+"Vega, the Watcher",
+"vega-the-watcher"
+],
+[
+3,
 "Veil of Summer",
 "veil-of-summer"
 ],
@@ -55516,6 +55956,11 @@
 3,
 "Velvetwing Butterflies // Gaze in Wonder",
 "velvetwing-butterflies--gaze-in-wonder"
+],
+[
+3,
+"Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal",
+"venat-heart-of-hydaelyn--hydaelyn-the-mothercrystal"
 ],
 [
 3,
@@ -55861,6 +56306,11 @@
 3,
 "Viscera Seer",
 "viscera-seer"
+],
+[
+3,
+"Vishgraz, the Doomhive",
+"vishgraz-the-doomhive"
 ],
 [
 3,
@@ -57828,6 +58278,11 @@
 ],
 [
 3,
+"Xu-Ifit, Osteoharmonist",
+"xu-ifit-osteoharmonist"
+],
+[
+3,
 "Xun Yu, Wei Advisor",
 "xun-yu-wei-advisor"
 ],
@@ -58202,6 +58657,11 @@
 ],
 [
 3,
+"Zell Dincht",
+"zell-dincht"
+],
+[
+3,
 "Zellix, Sanity Flayer",
 "zellix-sanity-flayer"
 ],
@@ -58457,6 +58917,11 @@
 ],
 [
 3,
+"Zuko, Exiled Prince",
+"zuko-exiled-prince"
+],
+[
+3,
 "Zuko, Firebending Master",
 "zuko-firebending-master"
 ],
@@ -58494,6 +58959,11 @@
 3,
 "Zurgo Stormrender",
 "zurgo-stormrender"
+],
+[
+3,
+"Zurgo, Thunder's Decree",
+"zurgo-thunders-decree"
 ],
 [
 3,

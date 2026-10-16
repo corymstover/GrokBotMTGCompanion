@@ -538,6 +538,8 @@ schema: 2
   > *Whole again in honor and horn.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3378 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Trostani, Selesnya's Voice](../../decks/trostani-selesnyas-voice.md) · Commander Spellbook: 3 combos; most popular [Rhys the Redeemed + Intruder Alarm](https://commanderspellbook.com/combo/1636-4000/) (Infinite creature tokens, Infinite creature ETB) · EDHREC as commander: 5,828 decks; highest synergy [Parallel Lives](../../cards/P/pa.md#parallel-lives) (+49%), [Elvish Archdruid](../../cards/E/el.md#elvish-archdruid) (+47%), [Priest of Titania](../../cards/P/pr.md#priest-of-titania) (+44%) · EDHREC: in 43,726 decks; most often under [Trostani, Selesnya's Voice](../../cards/T/tro.md#trostani-selesnyas-voice) (56.8% of its decks), [Baylen, the Haymaker](../../cards/B/bay.md#baylen-the-haymaker) (17.5% of its decks), [Galadriel, Light of Valinor](../../cards/G/ga.md#galadriel-light-of-valinor) (21.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/R.md#rhys-the-redeemed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/213/rhys-the-redeemed) · oracle_id `f7252190-ad24-4ba3-a644-2790dd1d680d` · printing: 2XM #213 (2020-08-07) · [rulings](https://api.scryfall.com/cards/b91dadcb-31e9-43b0-b425-c9311af3e9d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -71,6 +71,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-06-16* — The Balrog, Durin's Bane's first ability can't reduce its cost to less than {B}{R}.
   - *2023-06-16* — The Balrog, Durin's Bane's first ability counts every permanent that was sacrificed this turn, by any player.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 8 combos; most popular [The Balrog, Durin's Bane + Phyrexian Altar + Pitiless Plunderer](https://commanderspellbook.com/combo/4050-4516-4871/) (Infinite commander casts, Infinite death triggers) · EDHREC as commander: 2,233 decks; highest synergy [Impulsive Pilferer](../../cards/I/im.md#impulsive-pilferer) (+57%), [Mines of Moria](../../cards/M/min.md#mines-of-moria) (+55%), [Innocent Blood](../../cards/I/inn.md#innocent-blood) (+52%) · EDHREC: in 20,507 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (10.8% of its decks), [Ognis, the Dragon's Lash](../../cards/O/og.md#ognis-the-dragons-lash) (29.1% of its decks), [Raphael, Fiendish Savior](../../cards/R/rap.md#raphael-fiendish-savior) (30.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/195/the-balrog-durins-bane) · oracle_id `d113af33-d75d-44e4-a8dc-31f8984edc42` · printing: LTR #195 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Balrog, Flame of Udûn
@@ -104,6 +106,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-06-16* — Some cards with cycling have an ability that triggers when you cycle them, and some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
   - *2023-06-16* — Triggered abilities from cycling a card and the cycling ability itself aren't spells. Effects that interact with spells (such as Saruman's Trickery) won't affect them.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 59 decks; highest synergy [Too Greedily, Too Deep](../../cards/T/to.md#too-greedily-too-deep) (+43%), [Netherborn Altar](../../cards/N/ne.md#netherborn-altar) (+39%), [Troll of Khazad-dûm](../../cards/T/tro.md#troll-of-khazad-dûm) (+37%) · EDHREC: in 33,952 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (34.9% of its decks), [Sauron, Lord of the Rings](../../cards/S/sau.md#sauron-lord-of-the-rings) (73.8% of its decks), [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (17.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/46/the-balrog-of-moria) · oracle_id `d73191d8-6f94-4fba-acd2-2d0490e3ac00` · printing: LTC #46 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Bath Song
@@ -543,6 +547,8 @@ schema: 2
   - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
   - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
   - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 372 decks; highest synergy [Badgermole](../../cards/B/bad.md#badgermole) (+72%), [Flopsie, Bumi's Buddy](../../cards/F/fl.md#flopsie-bumis-buddy) (+67%), [Toph, the Blind Bandit](../../cards/T/to.md#toph-the-blind-bandit) (+67%) · EDHREC: in 32,024 decks; most often under [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (35.7% of its decks), [Bumi, Unleashed](../../cards/B/bu.md#bumi-unleashed) (74.5% of its decks), [Toph, Earthbending Master](../../cards/T/to.md#toph-earthbending-master) (49.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/168/the-boulder-ready-to-rumble) · oracle_id `d33ee141-a880-4368-a274-a6ae2f2c624b` · printing: TLA #168 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Brewing Chef

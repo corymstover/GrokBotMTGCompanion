@@ -54,7 +54,9 @@ schema: 2
   - *2021-04-16* — Mila’s first ability triggers only once no matter how many creatures are attacking or how many planeswalkers are being attacked.
   - *2021-04-16* — Mila’s second ability will resolve before the spell or ability that caused it to trigger.
   - *2021-04-16* — When Mila’s first ability resolves, you will put a loyalty counter on all planeswalkers you control, even ones that aren’t being attacked.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mila-crafty-companion--lukka-wayward-bonder)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 640 decks; highest synergy [The Eternal Wanderer](../../cards/T/thee.md#the-eternal-wanderer) (+59%), [Chandra, Torch of Defiance](../../cards/C/cha.md#chandra-torch-of-defiance) (+57%), [Oath of Gideon](../../cards/O/oa.md#oath-of-gideon) (+57%) · EDHREC: in 14,854 decks; most often under [Commodore Guff](../../cards/C/com.md#commodore-guff) (43.3% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (8.0% of its decks), [Dihada, Binder of Wills](../../cards/D/di.md#dihada-binder-of-wills) (12.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [Graveyard: Reanimation](../../EDH%20Packages.md#graveyard-reanimation) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/M.md#mila-crafty-companion--lukka-wayward-bonder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/153/mila-crafty-companion-lukka-wayward-bonder) · oracle_id `ee524e82-35c4-4cae-b65e-3e147eac2927` · printing: STX #153 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mild-Mannered Librarian

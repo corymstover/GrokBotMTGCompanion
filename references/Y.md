@@ -152,7 +152,7 @@ schema: 2
 - **EDH guides (2):** [EDH Packages → +1/+1 counters: Proliferate](../EDH%20Packages.md#11-counters-proliferate) · [EDH Win Conditions → Proliferate finishers](../EDH%20Win%20Conditions.md#proliferate-finishers)
 - **Rules (1):** [Keyword Encyclopedia → Protection](../Keyword%20Encyclopedia.md#protection)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) (featured) · [Yawgmoth](../Characters%20Index.md#yawgmoth) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) (featured) · [Yawgmoth](../Characters%20Index.md#yawgmoth) (depicts)
 
 ### Yellow Scarves Cavalry
 
@@ -294,9 +294,9 @@ schema: 2
 
 ### Y'shtola, Night's Blessed
 
-[Card entry](../cards/Y/ys.md#yshtola-nights-blessed) · **2 pages** (edh guides 1 · card data 1)
+[Card entry](../cards/Y/ys.md#yshtola-nights-blessed) · **3 pages** (edh guides 2 · card data 1)
 
-- **EDH guides (1):** [EDH Staples → Esper (WUB)](../EDH%20Staples.md#esper-wub)
+- **EDH guides (2):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) (+1 more) · [EDH Staples → Esper (WUB)](../EDH%20Staples.md#esper-wub)
 - **Card data (1):** [Artist Index → Artists N](../Artist%20Index.md#artists-n)
 
 ### Y'shtola Rhul

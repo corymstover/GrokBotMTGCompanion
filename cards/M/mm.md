@@ -36,6 +36,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4897 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Sensei's Divining Top + Etherium Sculptor + Mm'menon, the Right Hand](https://commanderspellbook.com/combo/1976-5078-6766/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 3,953 decks; highest synergy [Etherium Sculptor](../../cards/E/et.md#etherium-sculptor) (+67%), [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+63%), [Cloud Key](../../cards/C/cl.md#cloud-key) (+56%) · EDHREC: in 28,999 decks; most often under [Kilo, Apogee Mind](../../cards/K/ki.md#kilo-apogee-mind) (15.8% of its decks), [Inspirit, Flagship Vessel](../../cards/I/ins.md#inspirit-flagship-vessel) (15.5% of its decks), [Golbez, Crystal Collector](../../cards/G/gol.md#golbez-crystal-collector) (13.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/68/mmmenon-the-right-hand) · oracle_id `de58fa4b-eeeb-4dc8-aab9-6521b15678cc` · printing: EOE #68 (2025-08-01) · [rulings](https://api.scryfall.com/cards/82add0a0-e402-4b31-b101-81c0bf332015/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mm'menon, Uthros Exile

@@ -87,7 +87,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2945 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2019-07-12* — Kykar's triggered ability will resolve before the spell that caused it to trigger but after targets have been chosen for that spell, so the Spirit that will be created can't be a target of that spell. Kykar's ability resolves even if that spell is countered.
-- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/K.md#kykar-winds-fury)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · Commander Spellbook: 100+ combos; most popular [Sensei's Divining Top + Kykar, Wind's Fury + Elsha of the Infinite](https://commanderspellbook.com/combo/1395-3581-5078/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 14,444 decks; highest synergy [Skullclamp](../../cards/S/sk.md#skullclamp) (+46%), [Whirlwind of Thought](../../cards/W/wh.md#whirlwind-of-thought) (+44%), [Brainstorm](../../cards/B/br.md#brainstorm) (+36%) · EDHREC: in 42,575 decks; most often under [Narset, Enlightened Exile](../../cards/N/na.md#narset-enlightened-exile) (62.0% of its decks), [Hinata, Dawn-Crowned](../../cards/H/hi.md#hinata-dawn-crowned) (52.5% of its decks), [Elsha, Threefold Master](../../cards/E/el.md#elsha-threefold-master) (33.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 5 pages (1 decks · 3 edh guides · 1 card data) → [reverse index](../../references/K.md#kykar-winds-fury)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/343/kykar-winds-fury) · oracle_id `71a80491-eea2-4661-9446-26a87efbf4a8` · printing: CMM #343 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kykar, Zephyr Awakener
@@ -103,6 +105,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4189 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · Commander Spellbook: 81+ combos; most popular [Kykar, Zephyr Awakener + Archaeomancer + Time Warp](https://commanderspellbook.com/combo/2493-4872-7370/) (Infinite turns, Lock) · EDHREC as commander: 4,112 decks; highest synergy [Aether Channeler](../../cards/A/ae.md#aether-channeler) (+52%), [Archaeomancer](../../cards/A/arc.md#archaeomancer) (+51%), [Dour Port-Mage](../../cards/D/do.md#dour-port-mage) (+44%) · EDHREC: in 35,484 decks; most often under [Kykar, Wind's Fury](../../cards/K/ky.md#kykar-winds-fury) (35.8% of its decks), [Zethi, Arcane Blademaster](../../cards/Z/ze.md#zethi-arcane-blademaster) (30.0% of its decks), [Kastral, the Windcrested](../../cards/K/ka.md#kastral-the-windcrested) (17.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [Blink: Blink effects](../../EDH%20Packages.md#blink-blink-effects) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/K.md#kykar-zephyr-awakener)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/122/kykar-zephyr-awakener) · oracle_id `0156c94b-e64c-49de-a46c-a203c5e05e98` · printing: FDN #122 (2024-11-15) · [rulings](https://api.scryfall.com/cards/6c980998-7124-4ec6-a0b6-e8d9a2364925/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -132,6 +136,8 @@ schema: 2
 - **Rulings** (2):
   - *2021-09-24* — If Kyler enters the battlefield at the same time as other Humans you control, Kyler's first ability will trigger once for each of those Humans.
   - *2021-09-24* — Kyler's second ability counts all counters, not just +1/+1 counters.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Kyler, Sigardian Emissary + Presence of Gond + Devoted Druid + Maskwood Nexus](https://commanderspellbook.com/combo/643-1424-1791-4762/) (Infinite creature tokens, Infinite creature ETB) · EDHREC as commander: 5,507 decks; highest synergy [Heronblade Elite](../../cards/H/he.md#heronblade-elite) (+79%), [Katilda, Dawnhart Prime](../../cards/K/ka.md#katilda-dawnhart-prime) (+69%), [Torens, Fist of the Angels](../../cards/T/to.md#torens-fist-of-the-angels) (+65%) · EDHREC: in 17,741 decks; most often under [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (19.8% of its decks), [Katilda, Dawnhart Prime](../../cards/K/ka.md#katilda-dawnhart-prime) (65.3% of its decks), [Sigarda, Font of Blessings](../../cards/S/si.md#sigarda-font-of-blessings) (19.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/4/kyler-sigardian-emissary) · oracle_id `726cd041-5d0b-436c-bced-9335f56c0b0d` · printing: MIC #4 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kylox's Voltstrider
@@ -181,7 +187,9 @@ schema: 2
 - **Rulings** (2):
   - *2016-11-08* — If the card you draw is a land card, you may choose it to put onto the battlefield.
   - *2016-11-08* — Starting with you and proceeding in turn order, each player chooses a land card from their hand or chooses not to choose one, but doesn’t reveal any chosen lands yet. Once all players have made this choice, all chosen lands are revealed and enter the battlefield simultaneously.
-- **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/K.md#kynaios-and-tiro-of-meletis)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Kynaios and Tiro of Meletis](../../decks/kynaios-and-tiro-of-meletis.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 16,545 decks; highest synergy [Rites of Flourishing](../../cards/R/ri.md#rites-of-flourishing) (+53%), [Howling Mine](../../cards/H/ho.md#howling-mine) (+43%), [Tempt with Discovery](../../cards/T/te.md#tempt-with-discovery) (+42%) · EDHREC: in 6,529 decks; most often under [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (7.4% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (3.3% of its decks), [Go-Shintai of Life's Origin](../../cards/G/gos.md#go-shintai-of-lifes-origin) (2.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (1 decks · 3 edh guides) → [reverse index](../../references/K.md#kynaios-and-tiro-of-meletis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/36/kynaios-and-tiro-of-meletis) · oracle_id `53ee4254-fef7-49ec-aafc-0320987764e6` · printing: C16 #36 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyodai, Soul of Kamigawa

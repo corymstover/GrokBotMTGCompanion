@@ -88,6 +88,8 @@ schema: 2
   > −X: Employees and Dogs you control get +X/+0 until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcel/9/deb-thomas) · oracle_id `a01c3894-92de-4318-9ceb-34361d56f7de` · printing: PCEL #9 (2024-05-10) · [rulings](https://api.scryfall.com/cards/29f9fa2f-71eb-4579-93a2-31423bd48596/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Debt of Loyalty

@@ -386,7 +386,9 @@ schema: 2
 - **Keywords:** Mill, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4951 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mole-man-moloid-master)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 98+ combos; most popular [Glacial Chasm + Azusa, Lost but Seeking + Mole Man, Moloid Master](https://commanderspellbook.com/combo/3946-4011-7705/) (Lock, Prevent all damage that would be dealt to you) · EDHREC as commander: 735 decks; highest synergy [Azusa, Lost but Seeking](../../cards/A/az.md#azusa-lost-but-seeking) (+64%), [Icetill Explorer](../../cards/I/ic.md#icetill-explorer) (+60%), [Exploration Broodship](../../cards/E/ex.md#exploration-broodship) (+59%) · EDHREC: in 32,092 decks; most often under [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (25.1% of its decks), [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (20.7% of its decks), [The Necrobloom](../../cards/T/then.md#the-necrobloom) (23.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Lands / landfall: Landfall payoffs](../../EDH%20Packages.md#lands--landfall-landfall-payoffs) · [Lands / landfall: Lands from graveyard](../../EDH%20Packages.md#lands--landfall-lands-from-graveyard) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/M.md#mole-man-moloid-master)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/177/mole-man-moloid-master) · oracle_id `34994475-b914-44f6-8ca1-c2747b6d5956` · printing: MSH #177 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1b406cc5-75c9-430a-83a2-de0f2a8aeae6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mole Module

@@ -3385,6 +3385,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6405 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-10-02* — The second ability applies only as blockers are declared. If a creature you control with power less than 4 becomes blocked by more than one creature, increasing its power to 4 or greater won't change or undo the block.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 97 decks; highest synergy [Inspiring Call](../../cards/I/ins.md#inspiring-call) (+35%), [Raucous Audience](../../cards/R/rau.md#raucous-audience) (+35%), [Badgermole](../../cards/B/bad.md#badgermole) (+34%) · EDHREC: in 24,117 decks; most often under [Kibo, Uktabi Prince](../../cards/K/ki.md#kibo-uktabi-prince) (46.4% of its decks), [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (9.2% of its decks), [Bumi, Unleashed](../../cards/B/bu.md#bumi-unleashed) (51.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/179/flopsie-bumis-buddy) · oracle_id `a8966245-501c-47e4-8ce0-849dcb532eb2` · printing: TLA #179 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flora Colossus
@@ -3451,6 +3453,8 @@ schema: 2
   - *2021-09-24* — If you somehow have more than two main phases in a turn, each main phase after your first one is a postcombat main phase, and Florian's last ability triggers at the beginning of each of them.
   - *2021-09-24* — You get a postcombat main phase even if no creatures attacked during a turn. Florian's last ability will trigger.
   - *2021-09-24* — You must pay all costs and follow all timing rules for cards you play with Florian's last ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,096 decks; highest synergy [Loyal Subordinate](../../cards/L/lo.md#loyal-subordinate) (+39%), [Neheb, the Eternal](../../cards/N/ne.md#neheb-the-eternal) (+39%), [Creeping Bloodsucker](../../cards/C/cr.md#creeping-bloodsucker) (+27%) · EDHREC: in 44,808 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (19.8% of its decks), [Valgavoth, Harrower of Souls](../../cards/V/va.md#valgavoth-harrower-of-souls) (19.5% of its decks), [Rakdos, Lord of Riots](../../cards/R/rak.md#rakdos-lord-of-riots) (41.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/217/florian-voldaren-scion) · oracle_id `d74a2cbf-4d13-401d-9b3f-bfbde4942afd` · printing: DSC #217 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Floriferous Vinewall
@@ -4055,6 +4059,9 @@ schema: 2
   > *He knows exactly where he's going and exactly how he isn't getting there.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6131 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 11 combos; most popular [Flubs, the Fool + Underworld Breach + Lion's Eye Diamond + Life from the Loam](https://commanderspellbook.com/combo/1368-2051-3518-5911/) (Infinite self-mill, Near-infinite storm count) · EDHREC as commander: 22,850 decks; highest synergy [Song of Creation](../../cards/S/so.md#song-of-creation) (+70%), [Eruth, Tormented Prophet](../../cards/E/er.md#eruth-tormented-prophet) (+54%), [Azusa, Lost but Seeking](../../cards/A/az.md#azusa-lost-but-seeking) (+53%) · EDHREC: in 2,540 decks; most often under [Loot, the Key to Everything](../../cards/L/lo.md#loot-the-key-to-everything) (7.1% of its decks), [The Wandering Minstrel](../../cards/T/thew.md#the-wandering-minstrel) (1.2% of its decks), [Omnath, Locus of Creation](../../cards/O/om.md#omnath-locus-of-creation) (1.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [Lands / landfall: Extra land drops](../../EDH%20Packages.md#lands--landfall-extra-land-drops) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/F.md#flubs-the-fool)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blc/356/flubs-the-fool) · oracle_id `29356966-652d-4456-84c8-7aeab5fc8d05` · printing: BLC #356 (2024-08-02) · [rulings](https://api.scryfall.com/cards/41e58eb8-e5b9-4ef6-be1f-00e28cebb998/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fluctuator

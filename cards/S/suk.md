@@ -36,7 +36,9 @@ schema: 2
   > *"I'm okay. Just finish the mission!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6513 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#suki-courageous-rescuer)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 55 decks; highest synergy [Hero of Goma Fada](../../cards/H/he.md#hero-of-goma-fada) (+49%), [Tocasia's Welcome](../../cards/T/to.md#tocasias-welcome) (+49%), [Cloudshift](../../cards/C/cl.md#cloudshift) (+48%) · EDHREC: in 23,597 decks; most often under [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (45.1% of its decks), [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (34.6% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (14.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#suki-courageous-rescuer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/37/suki-courageous-rescuer) · oracle_id `70ea1a9d-ec52-4c11-8c4d-0d957e5491ad` · printing: TLA #37 (2025-11-21) · [rulings](https://api.scryfall.com/cards/33b97433-e16c-422e-a0ca-f6b1e98d8681/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suki, Kyoshi Captain

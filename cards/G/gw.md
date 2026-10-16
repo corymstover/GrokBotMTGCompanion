@@ -60,6 +60,8 @@ schema: 2
   - *2023-06-16* — Gwaihir, Greatest of the Eagles's ability looks at how much life you've gained in the turn, even if it wasn't on the battlefield when you gained life. It doesn't care if you also lost life, even if you lost more life than you gained.
   - *2023-06-16* — If you haven't gained 3 or more life by the time an end step begins, Gwaihir, Greatest of the Eagles's ability won't trigger at all.
   - *2023-06-16* — You create just one Bird token, no matter how much life you've gained past 3 life.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 233 decks; highest synergy [The Gaffer](../../cards/T/theg.md#the-gaffer) (+62%), [Griffin Aerie](../../cards/G/gri.md#griffin-aerie) (+58%), [Shattered Angel](../../cards/S/sha.md#shattered-angel) (+57%) · EDHREC: in 26,115 decks; most often under [Frodo, Adventurous Hobbit // Sam, Loyal Attendant](../../cards/F/fr.md#frodo-adventurous-hobbit) (45.3% of its decks), [Choco, Seeker of Paradise](../../cards/C/cho.md#choco-seeker-of-paradise) (6.0% of its decks), [Samwise Gamgee](../../cards/S/sam.md#samwise-gamgee) (27.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gwaihir-greatest-of-the-eagles)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/15/gwaihir-greatest-of-the-eagles) · oracle_id `77572e70-4b8b-46ae-8c8d-f71b7dd456e0` · printing: LTC #15 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -77,6 +79,8 @@ schema: 2
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6694 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 438 decks; highest synergy [Empyrean Eagle](../../cards/E/em.md#empyrean-eagle) (+74%), [Warden of Evos Isle](../../cards/W/war.md#warden-of-evos-isle) (+69%), [Watcher of the Spheres](../../cards/W/wat.md#watcher-of-the-spheres) (+66%) · EDHREC: in 22,390 decks; most often under [Choco, Seeker of Paradise](../../cards/C/cho.md#choco-seeker-of-paradise) (51.1% of its decks), [Kastral, the Windcrested](../../cards/K/ka.md#kastral-the-windcrested) (71.0% of its decks), [Derevi, Empyrial Tactician](../../cards/D/der.md#derevi-empyrial-tactician) (10.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/210/gwaihir-the-windlord) · oracle_id `b967fbb8-ddc8-485b-bd18-cbf3ef6b1bf8` · printing: LTR #210 (2023-06-23) · [rulings](https://api.scryfall.com/cards/1a42c951-1146-4f49-a690-7d385962b191/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gwendlyn Di Corci
@@ -103,6 +107,8 @@ schema: 2
   > Whenever you cast a creature spell with power 5 or greater, put a +1/+1 counter on Gwenna and untap it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1673 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 84 combos; most popular [Brinelin, the Moon Kraken + Gwenna, Eyes of Gaea + Primeval Protector + Ghalta, Primal Hunger](https://commanderspellbook.com/combo/470-1319-2661-6789/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 817 decks; highest synergy [Goreclaw, Terror of Qal Sisma](../../cards/G/gor.md#goreclaw-terror-of-qal-sisma) (+53%), [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (+52%), [Soul of the Harvest](../../cards/S/so.md#soul-of-the-harvest) (+51%) · EDHREC: in 96,828 decks; most often under [Eshki, Temur's Roar](../../cards/E/es.md#eshki-temurs-roar) (49.7% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (14.3% of its decks), [Animar, Soul of Elements](../../cards/A/an.md#animar-soul-of-elements) (14.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/185/gwenna-eyes-of-gaea) · oracle_id `7d95e72a-461e-4993-a190-847466a4b17c` · printing: BRO #185 (2022-11-18) · [rulings](https://api.scryfall.com/cards/7ee387b7-18e4-41b7-aefe-f2b5954e3051/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gwenom, Remorseless
@@ -122,6 +128,8 @@ schema: 2
   - *2025-09-19* — If you cast a spell for another cost "rather than pay its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as a kicker cost. If the card has any mandatory additional costs, those must be paid to cast the card.
   - *2025-09-19* — You can play a land card from the top of your library only if you have available land plays remaining.
   - *2025-09-19* — You must follow all normal timing rules when playing a land or casting a spell this way.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Sensei's Divining Top + Aetherflux Reservoir + Gwenom, Remorseless](https://commanderspellbook.com/combo/4740-5078-6900/) (Near-infinite damage, Infinite card draw) · EDHREC as commander: 4,971 decks; highest synergy [Aetherflux Reservoir](../../cards/A/ae.md#aetherflux-reservoir) (+64%), [Sensei's Divining Top](../../cards/S/sen.md#senseis-divining-top) (+64%), [Tendrils of Agony](../../cards/T/te.md#tendrils-of-agony) (+60%) · EDHREC: in 56,391 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (65.7% of its decks), [Eddie Brock](../../cards/E/ed.md#eddie-brock--venom-lethal-protector) (38.9% of its decks), [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (19.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/56/gwenom-remorseless) · oracle_id `c48cf135-b280-4e9f-a9d9-225104870741` · printing: SPM #56 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gwen Stacy // Ghost-Spider

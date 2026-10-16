@@ -167,7 +167,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2198 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2016-01-22* — Once you announce that you’re activating the last ability, it’s too late for anyone to interrupt you by trying to remove the land you returned.
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#mina-and-denn-wildborn)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Omnath, Locus of Rage (Zendikar-only)](../../decks/plane-zendikar-omnath-locus-of-rage.md) · Commander Spellbook: 25 combos; most popular [Glacial Chasm + Mina and Denn, Wildborn + Ramunap Excavator](https://commanderspellbook.com/combo/1373-3946-4426/) (Prevent all damage that would be dealt to you, Lock) · EDHREC as commander: 1,655 decks; highest synergy [Omnath, Locus of Rage](../../cards/O/om.md#omnath-locus-of-rage) (+63%), [Ramunap Excavator](../../cards/R/ram.md#ramunap-excavator) (+50%), [Ancient Greenwarden](../../cards/A/an.md#ancient-greenwarden) (+47%) · EDHREC: in 73,246 decks; most often under [Omnath, Locus of Creation](../../cards/O/om.md#omnath-locus-of-creation) (48.6% of its decks), [Flubs, the Fool](../../cards/F/fl.md#flubs-the-fool) (27.6% of its decks), [Omnath, Locus of Rage](../../cards/O/om.md#omnath-locus-of-rage) (63.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Lands / landfall: Extra land drops](../../EDH%20Packages.md#lands--landfall-extra-land-drops) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/M.md#mina-and-denn-wildborn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/94/mina-and-denn-wildborn) · oracle_id `e091718c-0c26-46d9-b694-f95effbac3e5` · printing: ZNC #94 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minamo, School at Water's Edge
@@ -1940,6 +1942,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4340 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-07-23* — Minn's last ability uses the Illusion's power the last time it existed on the battlefield to determine what cards you may put onto the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 38 combos; most popular [Meloku the Clouded Mirror + Minn, Wily Illusionist + Ashnod's Altar](https://commanderspellbook.com/combo/2034-3783-4300/) (Infinite colorless mana, Infinite death triggers) · EDHREC as commander: 6,479 decks; highest synergy [Perilous Research](../../cards/P/pe.md#perilous-research) (+71%), [Skullclamp](../../cards/S/sk.md#skullclamp) (+67%), [Abjure](../../cards/A/ab.md#abjure) (+62%) · EDHREC: in 31,187 decks; most often under [Vnwxt, Verbose Host](../../cards/V/vn.md#vnwxt-verbose-host) (24.7% of its decks), [Zimone and Dina](../../cards/Z/zi.md#zimone-and-dina) (29.7% of its decks), [The Council of Four](../../cards/T/thec.md#the-council-of-four) (23.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#minn-wily-illusionist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/16/minn-wily-illusionist) · oracle_id `d4212d44-d6a0-4c5b-9c54-bc90f36828dd` · printing: AFC #16 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2128,6 +2132,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-06-10* — If there is no legal target for the reflexive trigger in Minsc & Boo's second loyalty ability, or if the target is illegal as the ability tries to resolve, you will not draw any cards even if the sacrificed creature was a Hamster.
   - *2022-06-10* — Minsc & Boo's second loyalty ability won't deal extra damage if you shout "Go for the eyes, Boo!" but it definitely can't hurt.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 10 combos; most popular [Minsc & Boo, Timeless Heroes + Malignus + Fiery Emancipation](https://commanderspellbook.com/combo/2037-2942-3059/) (Near-infinite damage to one opponent, Target opponent loses the game) · EDHREC as commander: 9,016 decks; highest synergy [Taurean Mauler](../../cards/T/ta.md#taurean-mauler) (+58%), [Forgotten Ancient](../../cards/F/fo.md#forgotten-ancient) (+56%), [Branching Evolution](../../cards/B/br.md#branching-evolution) (+53%) · EDHREC: in 32,434 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (6.3% of its decks), [Etali, Primal Conqueror](../../cards/E/et.md#etali-primal-conqueror--etali-primal-sickness) (8.4% of its decks), [Xenagos, God of Revels](../../cards/X/xe.md#xenagos-god-of-revels) (14.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/M.md#minsc--boo-timeless-heroes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/285/minsc-&-boo-timeless-heroes) · oracle_id `3a310554-3f69-4158-bb94-9d6965c7125a` · printing: CLB #285 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2143,6 +2149,9 @@ schema: 2
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5236 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Minthara, Merciless Soul + Ruthless Technomancer + Restoration Angel](https://commanderspellbook.com/combo/1090-3719-5912/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 5,438 decks; highest synergy [Metastatic Evangel](../../cards/M/me.md#metastatic-evangel) (+64%), [Grateful Apparition](../../cards/G/gra.md#grateful-apparition) (+59%), [Lae'zel, Vlaakith's Champion](../../cards/L/la.md#laezel-vlaakiths-champion) (+59%) · EDHREC: in 25,074 decks; most often under [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (57.5% of its decks), [Kelsien, the Plague](../../cards/K/ke.md#kelsien-the-plague) (71.9% of its decks), [Daxos the Returned](../../cards/D/da.md#daxos-the-returned) (57.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#minthara-merciless-soul)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/286/minthara-merciless-soul) · oracle_id `fad0c174-4c4a-4662-bd1f-224886e826e1` · printing: CLB #286 (2022-06-10) · [rulings](https://api.scryfall.com/cards/0c9e944b-98fa-4aea-825d-b8b8a9d7ed47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mintstrosity

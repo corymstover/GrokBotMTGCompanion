@@ -128,9 +128,10 @@ schema: 2
 
 ### Wan Shi Tong, Librarian
 
-[Card entry](../cards/W/wan.md#wan-shi-tong-librarian) · **4 pages** (decks 3 · card data 1)
+[Card entry](../cards/W/wan.md#wan-shi-tong-librarian) · **5 pages** (decks 3 · edh guides 1 · card data 1)
 
 - **Decks (3):** [Evelyn, the Covetous (Grixis)](../grixis/decks/evelyn-the-covetous.md) · [Fire Lord Azula (Grixis)](../grixis/decks/fire-lord-azula.md) · [Marchesa, Dealer of Death (Grixis)](../grixis/decks/marchesa-dealer-of-death.md)
+- **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 - **Card data (1):** [Artist Index → Artists R](../Artist%20Index.md#artists-r)
 
 ### Warbriar Blessing
@@ -1776,7 +1777,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Graveyard: Self-mill](../EDH%20Packages.md#graveyard-self-mill)
 - **Lore & story (3):** [Art & Flavor Story Links → The Phyrexian Invasion saga (2023)](../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Wrenn](../Characters%20Index.md#wrenn) (name-match) · [Wrenn](../Planeswalker%20Dossiers.md#wrenn) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Wrenn](../Characters%20Index.md#wrenn) (depicts) · [Wrenn](../Planeswalker%20Dossiers.md#wrenn) (depicts)
 
 ### Wrenn and Seven
 
@@ -1785,7 +1786,7 @@ schema: 2
 - **Decks (1):** [The Gitrog Monster (Innistrad-only)](../decks/plane-innistrad-the-gitrog-monster.md)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens) (+1 more)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Wrenn](../Characters%20Index.md#wrenn) (name-match) · [Wrenn](../Planeswalker%20Dossiers.md#wrenn) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Wrenn](../Characters%20Index.md#wrenn) (depicts) · [Wrenn](../Planeswalker%20Dossiers.md#wrenn) (depicts)
 
 ### Wrenn and Six
 
@@ -1794,7 +1795,7 @@ schema: 2
 - **EDH guides (1):** [EDH Packages → Graveyard: Recursion to hand](../EDH%20Packages.md#graveyard-recursion-to-hand)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Format Legality Matrix → legacy](../Format%20Legality%20Matrix.md#legacy) (+2 more) · [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Wrenn](../Characters%20Index.md#wrenn) (name-match) · [Wrenn](../Planeswalker%20Dossiers.md#wrenn) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Wrenn](../Characters%20Index.md#wrenn) (depicts) · [Wrenn](../Planeswalker%20Dossiers.md#wrenn) (name-match)
 
 ### Wrenn's Resolve
 

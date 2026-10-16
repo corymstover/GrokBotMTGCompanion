@@ -117,6 +117,8 @@ schema: 2
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4916 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 887 decks; highest synergy [Blood Seeker](../../cards/B/blo.md#blood-seeker) (+63%), [Rug of Smothering](../../cards/R/ru.md#rug-of-smothering) (+61%), [Soot Imp](../../cards/S/so.md#soot-imp) (+60%) · EDHREC: in 31,963 decks; most often under [Valgavoth, Harrower of Souls](../../cards/V/va.md#valgavoth-harrower-of-souls) (31.5% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (8.8% of its decks), [Liesa, Shroud of Dusk](../../cards/L/li.md#liesa-shroud-of-dusk) (34.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mai-scornful-striker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/109/mai-scornful-striker) · oracle_id `953a2bd3-5bca-41fc-8785-66b2d7fa381a` · printing: TLA #109 (2025-11-21) · [rulings](https://api.scryfall.com/cards/74dd4c0e-27b8-4c47-b7a6-a281413cd6b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

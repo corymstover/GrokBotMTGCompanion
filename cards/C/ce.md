@@ -334,6 +334,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4876 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — You choose how many cards to discard as Celes's first ability resolves. You may choose to discard no cards and just draw a card.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 70 combos; most popular [Murderous Redcap + Celes, Rune Knight](https://commanderspellbook.com/combo/1657-6431/) (Infinite +1/+1 counters on most creatures you control, Infinite creature ETB) · EDHREC as commander: 12,572 decks; highest synergy [Reanimate](../../cards/R/rea.md#reanimate) (+59%), [Murderous Redcap](../../cards/M/mu.md#murderous-redcap) (+57%), [Ephemerate](../../cards/E/ep.md#ephemerate) (+50%) · EDHREC: in 20,554 decks; most often under [Terra, Herald of Hope](../../cards/T/te.md#terra-herald-of-hope) (80.0% of its decks), [Dihada, Binder of Wills](../../cards/D/di.md#dihada-binder-of-wills) (8.7% of its decks), [Kroxa and Kunoros](../../cards/K/kr.md#kroxa-and-kunoros) (25.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/1/celes-rune-knight) · oracle_id `aea8345a-191d-4c62-8d15-a716a9934b66` · printing: FIC #1 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Celestial Ancient
@@ -709,6 +711,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — Celestine's triggered ability looks at the total amount of life you gained to determine X, regardless of whether or not you also lost any life. For example, if you gained 3 life this turn, X is 3, even if you also lost some amount of life in the same turn.
   - *2022-10-07* — The target creature card is chosen as the triggered ability is put on the stack. Gaining life after that point won't let you choose a target with a higher mana value.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Celestine, the Living Saint + Coretapper + Magistrate's Scepter](https://commanderspellbook.com/combo/1577-3492-3609/) (Infinite turns, Lock) · EDHREC as commander: 1,992 decks; highest synergy [Cleric Class](../../cards/C/cl.md#cleric-class) (+59%), [Selfless Spirit](../../cards/S/sel.md#selfless-spirit) (+55%), [Soul's Attendant](../../cards/S/so.md#souls-attendant) (+54%) · EDHREC: in 56,332 decks; most often under [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (40.8% of its decks), [Hope Estheim](../../cards/H/ho.md#hope-estheim) (21.1% of its decks), [Bre of Clan Stoutarm](../../cards/B/br.md#bre-of-clan-stoutarm) (40.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/10/celestine-the-living-saint) · oracle_id `6503ed78-6499-47f6-856b-ee1003ce4a4f` · printing: 40K #10 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Celestus Sanctifier

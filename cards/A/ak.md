@@ -149,6 +149,9 @@ schema: 2
   - *2020-09-25* — The Equipment that's unattached remains on the battlefield.
   - *2020-09-25* — You choose which Equipment to unattach as Akiri's second ability resolves. Unattaching an Equipment from a creature won't affect other Equipment attached to that creature. No player can take actions between the time you unattach that Equipment and the time that the creature becomes tapped and gains indestructible.
   - *2023-07-28* — Equipped creatures attacking a planeswalker or battle won't cause Akiri's first ability to trigger.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,470 decks; highest synergy [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+64%), [Sram, Senior Edificer](../../cards/S/sr.md#sram-senior-edificer) (+55%), [Bruenor Battlehammer](../../cards/B/br.md#bruenor-battlehammer) (+50%) · EDHREC: in 78,197 decks; most often under [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (35.9% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (55.2% of its decks), [Lightning, Army of One](../../cards/L/li.md#lightning-army-of-one) (38.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#akiri-fearless-voyager)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/335/akiri-fearless-voyager) · oracle_id `c03ae426-2536-4c20-a73a-a24e816f76b0` · printing: CMM #335 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akiri, Line-Slinger
@@ -728,6 +731,8 @@ schema: 2
   - *2021-03-19* — A spell or ability that counters spells can still target Akroma. When that spell or ability resolves, Akroma won't be countered, but any additional effects of the countering spell or ability will still happen.
   - *2021-03-19* — If Akroma, Angel of Fury is cast face down, it can be countered.
   - *2021-03-19* — In a Commander game where Akroma is your commander, you may cast it face down from the command zone by paying {3} plus {2} for each time it has been cast from your command zone. The cost to turn it face up is unaffected. While face down, the combat damage it deals is still counted as damage dealt by your commander.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 301 decks; highest synergy [Irencrag Feat](../../cards/I/ir.md#irencrag-feat) (+47%), [Braid of Fire](../../cards/B/br.md#braid-of-fire) (+38%), [Kediss, Emberclaw Familiar](../../cards/K/ke.md#kediss-emberclaw-familiar) (+35%) · EDHREC: in 21,638 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (13.5% of its decks), [Yarus, Roar of the Old Gods](../../cards/Y/ya.md#yarus-roar-of-the-old-gods) (80.5% of its decks), [Kaust, Eyes of the Glade](../../cards/K/ka.md#kaust-eyes-of-the-glade) (78.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/19/akroma-angel-of-fury) · oracle_id `2b80faaf-92fd-4fa0-a3f6-8bb263e7ff1d` · printing: FRC #19 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroma, Angel of Wrath
@@ -742,6 +747,8 @@ schema: 2
 - **Keywords:** Flying, Vigilance, First strike, Protection, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4471 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 261 decks; highest synergy [Akroma's Vengeance](../../cards/A/ak.md#akromas-vengeance) (+44%), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (+41%), [Baneslayer Angel](../../cards/B/ban.md#baneslayer-angel) (+29%) · EDHREC: in 36,223 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (21.7% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (15.7% of its decks), [Kathril, Aspect Warper](../../cards/K/ka.md#kathril-aspect-warper) (66.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/73/akroma-angel-of-wrath) · oracle_id `107f204c-9fd3-490d-8887-be63d14fc6a4` · printing: C20 #73 (2020-04-17) · [rulings](https://api.scryfall.com/cards/bf1ef8ec-d915-41f2-b087-3d6d82e3db85/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroma's Blessing
@@ -844,6 +851,8 @@ schema: 2
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — Which creatures are affected and the size of their individual bonuses is determined only as Akroma's triggered ability resolves. Gaining or losing keywords after that time won't cause a creature to grow or shrink.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 99 decks; highest synergy [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (+60%), [Akroma's Memorial](../../cards/A/ak.md#akromas-memorial) (+49%), [Akroma, Angel of Wrath](../../cards/A/ak.md#akroma-angel-of-wrath) (+47%) · EDHREC: in 26,949 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (15.4% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (7.5% of its decks), [Odric, Lunarch Marshal](../../cards/O/od.md#odric-lunarch-marshal) (54.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/2/akroma-vision-of-ixidor) · oracle_id `b9be5ce9-08bb-4361-940c-9031e429ba86` · printing: CMR #2 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akron Legionnaire

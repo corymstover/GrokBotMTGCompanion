@@ -293,6 +293,8 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6878 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 43 combos; most popular [Demonic Pact + Stiltzkin, Moogle Merchant](https://commanderspellbook.com/combo/6331-6676/) (Target opponent loses the game at the beginning of their next upkeep) · EDHREC as commander: 2,266 decks; highest synergy [Nine Lives](../../cards/N/ni.md#nine-lives) (+77%), [Steel Golem](../../cards/S/ste.md#steel-golem) (+63%), [Rust Elemental](../../cards/R/ru.md#rust-elemental) (+62%) · EDHREC: in 19,780 decks; most often under [Zedruu the Greathearted](../../cards/Z/ze.md#zedruu-the-greathearted) (48.7% of its decks), [Iroh, Tea Master](../../cards/I/ir.md#iroh-tea-master) (71.3% of its decks), [Mog, Moogle Warrior](../../cards/M/mog.md#mog-moogle-warrior) (75.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stiltzkin-moogle-merchant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/34/stiltzkin-moogle-merchant) · oracle_id `958c2a27-9fb1-42b4-a0ef-296584763a98` · printing: FIN #34 (2025-06-13) · [rulings](https://api.scryfall.com/cards/06a972a4-0c1b-4f12-a5a5-fdea47c4cd35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

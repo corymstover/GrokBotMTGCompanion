@@ -131,6 +131,8 @@ schema: 2
   > Thomil, the Destroyer can be your commander.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #22762 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 235 decks; highest synergy [Liliana, Dreadhorde General](../../cards/L/li.md#liliana-dreadhorde-general) (+54%), [Endless Ranks of the Dead](../../cards/E/en.md#endless-ranks-of-the-dead) (+52%), [Gravecrawler](../../cards/G/gra.md#gravecrawler) (+49%) · EDHREC: in 1,119 decks; most often under [Carth the Lion](../../cards/C/car.md#carth-the-lion) (6.2% of its decks), [Ghoulcaller Gisa](../../cards/G/gh.md#ghoulcaller-gisa) (2.3% of its decks), [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/19/thomil-the-destroyer) · oracle_id `fd769cfb-668c-4557-a907-c6c17539c96a` · printing: MBC #19 (2026-10-19) · [rulings](https://api.scryfall.com/cards/756e41ad-f181-4c1e-8ad6-970cee684582/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thopter Architect

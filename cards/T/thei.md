@@ -108,6 +108,8 @@ schema: 2
   - *2024-07-26* — If you choose not to cast the exiled card, it remains in exile.
   - *2024-07-26* — Since you are using an alternative cost to cast the spell, you can’t pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
   - *2024-07-26* — You cast the exiled card while the ability is resolving and still on the stack. You can’t wait to cast it later in the turn. Timing restrictions based on the card’s type are ignored.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8,855 decks; highest synergy [Access Tunnel](../../cards/A/ac.md#access-tunnel) (+46%), [Rogue's Passage](../../cards/R/ro.md#rogues-passage) (+42%), [Hit the Mother Lode](../../cards/H/hi.md#hit-the-mother-lode) (+38%) · EDHREC: in 20,548 decks; most often under [Laughing Jasper Flint](../../cards/L/la.md#laughing-jasper-flint) (36.5% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (4.7% of its decks), [Prosper, Tome-Bound](../../cards/P/pr.md#prosper-tome-bound) (12.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/219/the-infamous-cruelclaw) · oracle_id `e229d55c-9513-437d-bd67-015ac46aaa18` · printing: BLB #219 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Inspector Inspector

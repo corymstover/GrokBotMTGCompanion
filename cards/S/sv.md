@@ -41,6 +41,9 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings** (1):
   - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Lands / landfall: Landfall payoffs](../../EDH%20Packages.md#lands--landfall-landfall-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#svega-the-unconventional)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph22/4/svega-the-unconventional) · oracle_id `fe68fca9-7975-4ad6-a49e-1ed78b815511` · printing: PH22 #4 (2023-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Svella, Ice Shaper
@@ -64,6 +67,8 @@ schema: 2
   - *2021-02-05* — The spell you cast with Svella’s last ability is cast from your library.
   - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
   - *2021-02-05* — You’ll put the cards you didn’t cast on the bottom of your library before the spell you cast resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Svella, Ice Shaper + Roxanne, Starfall Savant + Agatha of the Vile Cauldron + Umbral Mantle](https://commanderspellbook.com/combo/894-2092-2816-5647/) (Infinitely large creature until end of turn, Infinite tapped Icy Manalith tokens) · EDHREC as commander: 2,977 decks; highest synergy [Rime Tender](../../cards/R/ri.md#rime-tender) (+58%), [Roxanne, Starfall Savant](../../cards/R/ro.md#roxanne-starfall-savant) (+54%), [Illusionist's Bracers](../../cards/I/il.md#illusionists-bracers) (+45%) · EDHREC: in 19,537 decks; most often under [Roxanne, Starfall Savant](../../cards/R/ro.md#roxanne-starfall-savant) (50.3% of its decks), [Agatha of the Vile Cauldron](../../cards/A/ag.md#agatha-of-the-vile-cauldron) (84.2% of its decks), [Gimbal, Gremlin Prodigy](../../cards/G/gi.md#gimbal-gremlin-prodigy) (47.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#svella-ice-shaper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/230/svella-ice-shaper) · oracle_id `7fd8a508-335c-4d5a-9916-23bf26dfff38` · printing: KHM #230 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -122,4 +127,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-06-18* — Damage dealt to creatures remains on those creatures until the cleanup step or until an effect removes that damage. If you control Svyelun of Sea and Sky with at least 4 damage and two other Merfolk and one of those Merfolk leaves the battlefield (or stops being a Merfolk), Svyelun will be destroyed.
   - *2021-06-18* — If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn't pay for all of them, the spell will be countered.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,672 decks; highest synergy [Master of the Pearl Trident](../../cards/M/mas.md#master-of-the-pearl-trident) (+90%), [Merfolk Sovereign](../../cards/M/me.md#merfolk-sovereign) (+88%), [Merrow Reejerey](../../cards/M/me.md#merrow-reejerey) (+88%) · EDHREC: in 41,652 decks; most often under [Hakbal of the Surging Soul](../../cards/H/ha.md#hakbal-of-the-surging-soul) (92.5% of its decks), [Kumena, Tyrant of Orazca](../../cards/K/ku.md#kumena-tyrant-of-orazca) (85.7% of its decks), [Namor the Sub-Mariner](../../cards/N/na.md#namor-the-sub-mariner) (66.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#svyelun-of-sea-and-sky)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/175/svyelun-of-sea-and-sky) · oracle_id `872bebff-720d-459b-8f86-fb9129a8d1fb` · printing: LCC #175 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

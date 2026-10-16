@@ -356,6 +356,8 @@ schema: 2
   > *—Zuko*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6468 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 872 decks; highest synergy [Firebender Ascension](../../cards/F/fi.md#firebender-ascension) (+59%), [Bulk Up](../../cards/B/bu.md#bulk-up) (+50%), [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+46%) · EDHREC: in 22,973 decks; most often under [Ozai, the Phoenix King](../../cards/O/oz.md#ozai-the-phoenix-king) (28.9% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (5.6% of its decks), [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (12.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#combustion-man)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/127/combustion-man) · oracle_id `533b107c-fd66-45ef-b74e-e6bd9b75ea8f` · printing: TLA #127 (2025-11-21) · [rulings](https://api.scryfall.com/cards/86f7399d-6876-4e85-ba34-ff1f97dc144a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -427,7 +429,9 @@ schema: 2
   - *2022-10-07* — Results can be numbers not ordinarily possible on a six-sided die. Spells like Scooch can change the result to 0 or 7, for example.
   - *2022-10-07* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die, or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications.
   - *2022-10-07* — Something in the game must tell you to roll a die. If you roll a die for any other reason (to simulate a coin flip, to choose pizza toppings, to create alternate timelines), that roll doesn't count.
-- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/C.md#comet-stellar-pup)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 23,801 decks; most often under [Mr. House, President and CEO](../../cards/M/mr.md#mr-house-president-and-ceo) (69.4% of its decks), [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (3.8% of its decks), [Commodore Guff](../../cards/C/com.md#commodore-guff) (11.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/C.md#comet-stellar-pup)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/166/comet-stellar-pup) · oracle_id `e7c67480-1816-4071-9eab-a1d1b535a344` · printing: UNF #166 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Comet Storm
@@ -956,6 +960,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3618 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-10-07* — In Two-Headed Giant and other formats where multiple players can attack at the same time, Commissar Severina Raine's triggered ability counts all attacking creatures, even those controlled by other players.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,398 decks; highest synergy [Company Commander](../../cards/C/com.md#company-commander) (+77%), [Adeline, Resplendent Cathar](../../cards/A/ad.md#adeline-resplendent-cathar) (+59%), [Martial Coup](../../cards/M/mar.md#martial-coup) (+56%) · EDHREC: in 43,717 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (36.9% of its decks), [Marneus Calgar](../../cards/M/mar.md#marneus-calgar) (43.2% of its decks), [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (31.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/112/commissar-severina-raine) · oracle_id `c00074ec-5b31-44d3-b69b-e2bf6f6a2477` · printing: 40K #112 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commit // Memory
@@ -998,6 +1004,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6494 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings** (1):
   - *2023-07-28* — The value of X is determined as Commodore Guff's third ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7,746 decks; highest synergy [Oath of Teferi](../../cards/O/oa.md#oath-of-teferi) (+90%), [Chandra, Legacy of Fire](../../cards/C/cha.md#chandra-legacy-of-fire) (+86%), [Interplanar Beacon](../../cards/I/int.md#interplanar-beacon) (+84%) · EDHREC: in 16,161 decks; most often under [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (12.2% of its decks), [Leori, Sparktouched Hunter](../../cards/L/le.md#leori-sparktouched-hunter) (68.1% of its decks), [Jared Carthalion](../../cards/J/ja.md#jared-carthalion) (20.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/C.md#commodore-guff)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/706/commodore-guff) · oracle_id `7e5a7a1d-dcfb-4ab8-b773-f521cb4d3fa6` · printing: CMM #706 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

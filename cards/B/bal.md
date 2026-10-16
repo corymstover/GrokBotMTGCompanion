@@ -244,6 +244,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-08-25* — Balan's activated ability has no timing restriction. You can activate it any time you have priority.
   - *2017-08-25* — If Balan deals first-strike damage and then gains double strike (most likely because it picked up some Equipment with its activated ability after first-strike damage was dealt), it will also deal regular combat damage.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Medomai the Ageless + Assimilation Aegis + Balan, Wandering Knight](https://commanderspellbook.com/combo/1267-5409-5459/) (Infinite turns, Lock) · EDHREC as commander: 3,791 decks; highest synergy [Colossus Hammer](../../cards/C/col.md#colossus-hammer) (+78%), [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+75%), [Sram, Senior Edificer](../../cards/S/sr.md#sram-senior-edificer) (+68%) · EDHREC: in 19,282 decks; most often under [Syr Gwyn, Hero of Ashvale](../../cards/S/sy.md#syr-gwyn-hero-of-ashvale) (37.7% of its decks), [Arahbo, Roar of the World](../../cards/A/ara.md#arahbo-roar-of-the-world) (16.0% of its decks), [Arna Kennerüd, Skycaptain](../../cards/A/arn.md#arna-kennerüd-skycaptain) (11.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#balan-wandering-knight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/16/balan-wandering-knight) · oracle_id `d12cfd46-73c2-4206-9a10-0d2e7d6ac87e` · printing: CMM #16 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -258,6 +260,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3816 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — For the purposes of deck construction, format legality, and all rules, abilities, and effects that refer to a card’s name, this card’s name is the same as that of E. Honda, Sumo Champion.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Horobi, Death's Wail + Baldin, Century Herdmaster](https://commanderspellbook.com/combo/905-4199/) (Destroy up to 100 creatures during each of your turns) · EDHREC as commander: 810 decks; highest synergy [Stoneskin](../../cards/S/sto.md#stoneskin) (+63%), [Nyx-Fleece Ram](../../cards/N/ny.md#nyx-fleece-ram) (+60%), [Daxos, Blessed by the Sun](../../cards/D/da.md#daxos-blessed-by-the-sun) (+58%) · EDHREC: in 43,031 decks; most often under [Felothar the Steadfast](../../cards/F/fe.md#felothar-the-steadfast) (71.9% of its decks), [Doran, Besieged by Time](../../cards/D/do.md#doran-besieged-by-time) (48.3% of its decks), [Betor, Kin to All](../../cards/B/be.md#betor-kin-to-all) (51.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/110/baldin-century-herdmaster) · oracle_id `14493624-fdc7-4630-9b1e-f35668651108` · printing: TDC #110 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baldur's Gate
@@ -993,7 +997,9 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — Balmor's last ability affects only creatures you control at the time it resolves, including Balmor itself. Creatures you begin to control later in the turn or noncreature permanents that become creatures later won't get the bonus.
   - *2024-11-08* — Balmor's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#balmor-battlemage-captain)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,203 decks; highest synergy [Young Pyromancer](../../cards/Y/yo.md#young-pyromancer) (+50%), [Third Path Iconoclast](../../cards/T/thi.md#third-path-iconoclast) (+43%), [Warlord's Fury](../../cards/W/war.md#warlords-fury) (+42%) · EDHREC: in 74,651 decks; most often under [Narset, Enlightened Exile](../../cards/N/na.md#narset-enlightened-exile) (62.2% of its decks), [Bria, Riptide Rogue](../../cards/B/br.md#bria-riptide-rogue) (60.8% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (14.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/B.md#balmor-battlemage-captain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/237/balmor-battlemage-captain) · oracle_id `7da19fc5-cb85-4ec7-beea-95210378bbfe` · printing: FDN #237 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balor

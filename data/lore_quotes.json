@@ -1306,8 +1306,9 @@
   },
   "Planes Index.md": {
    "counts": {
+    "card": 1,
     "verified": 227,
-    "verified-other": 8
+    "verified-other": 7
    },
    "quotes": [
     {
@@ -2248,7 +2249,7 @@
     },
     {
      "fp": "07a09430c94e",
-     "status": "verified-other"
+     "status": "card"
     }
    ]
   },
