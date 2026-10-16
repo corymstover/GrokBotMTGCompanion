@@ -1,0 +1,370 @@
+{
+ "schema": 1,
+ "deck_id": "Kess__Dissident_Mage",
+ "slug": "kess-dissident-mage",
+ "commanders": [
+  "Kess, Dissident Mage"
+ ],
+ "deck_sha256": "94dee35afe9fdb9871ee84abc0ac616ab23e133198d7d5d0ddba090b6942f2bd",
+ "list_source": "exports/grixis-archidekt/kess-dissident-mage.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 49,
+ "batch": "C",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/kess_dissident_mage_2026-10-14/Kess_Dissident_Mage_Rules_Attestation.json",
+   "note": "13 interactions, all PASS"
+  }
+ ],
+ "summary": "Kess, Dissident Mage lets you cast one instant or sorcery from your graveyard each of your turns, which turns every tutor into two. This review re-verifies all 13 attestation items, including the deterministic Gifts Ungiven pile (all six splits checked). Six Spellbook lines are confirmed.\n\nRules surprises: a Kitten-blinked Kess gets a fresh use; flashback doesn't use up Kess; Mox Diamond doesn't work as the Grinding Station + Breach artifact. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "kess-01",
+   "category": "commander",
+   "title": "One graveyard cast per your turn, at normal timing",
+   "cards": [
+    "Kess, Dissident Mage"
+   ],
+   "ruling": "Kess lets you cast one instant or sorcery from your graveyard during each of your turns, never on an opponent's turn. You pay its costs (alternative costs allowed) and follow its normal timing. It's exiled instead of going to the graveyard. Flashback and other permissions are separate and don't use up Kess.",
+   "short": "Once per own turn; normal timing; flashback doesn't use it up.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "601.2",
+    "614.1a"
+   ],
+   "oracle": [
+    {
+     "card": "Kess, Dissident Mage",
+     "quote": "Once during each of your turns, you may cast an instant or sorcery spell from your graveyard. If a spell cast this way would be put into your graveyard, exile it instead."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Kess, Dissident Mage",
+     "quote": "You must follow the normal timing permissions and restrictions of the card you cast from your graveyard."
+    },
+    {
+     "card": "Kess, Dissident Mage",
+     "quote": "If you cast a card from your graveyard using another permission (such as that of flashback), Kess's effect doesn't apply. You can cast another instant or sorcery card from your graveyard."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/kess_dissident_mage_2026-10-14/Kess_Dissident_Mage_Rules_Attestation.json",
+     "item": "Kess graveyard-cast permission and timing"
+    },
+    {
+     "path": "refinement/verification/kess_dissident_mage_2026-10-14/Kess_Dissident_Mage_Rules_Attestation.json",
+     "item": "Snapcaster Mage complement to Kess"
+    }
+   ]
+  },
+  {
+   "id": "kess-02",
+   "category": "zone",
+   "title": "A new Kess object resets the permission (Displacer Kitten)",
+   "cards": [
+    "Kess, Dissident Mage",
+    "Displacer Kitten"
+   ],
+   "ruling": "A blinked Kess is a new object with a fresh once-per-turn use. Casting a noncreature spell through Kess triggers Kitten. Blinking Kess in response gives a new permission, and the spell already cast is still exiled by the old Kess's replacement.",
+   "short": "Kitten blink = another graveyard cast this turn.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "400.7"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Kess, Dissident Mage",
+     "quote": "If you cast one instant or sorcery card from your graveyard and then have a new Kess come under your control in the same turn, you may cast another instant or sorcery card from your graveyard that turn."
+    },
+    {
+     "card": "Kess, Dissident Mage",
+     "quote": "Once you begin to cast the card, losing control of Kess won't affect the spell. You can finish casting it as normal and it will be exiled if it would be put into your graveyard."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/kess_dissident_mage_2026-10-14/Kess_Dissident_Mage_Rules_Attestation.json",
+     "item": "New Kess object resets once-per-turn permission"
+    },
+    {
+     "path": "refinement/verification/kess_dissident_mage_2026-10-14/Kess_Dissident_Mage_Rules_Attestation.json",
+     "item": "Displacer Kitten with a spell cast through Kess"
+    }
+   ]
+  },
+  {
+   "id": "kess-03",
+   "category": "combo",
+   "title": "Kess turns one tutor into both halves of the Oracle combo",
+   "cards": [
+    "Kess, Dissident Mage",
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact"
+   ],
+   "ruling": "Cast Consultation or Pact from hand to find Thassa's Oracle. Then cast Oracle, and with its trigger on the stack, cast the same spell again from the graveyard through Kess to exile your library. Consultation's second cast names a card that isn't in the deck. Pact works because all 100 names are distinct.",
+   "short": "Consultation/Pact twice: once to find Oracle, once via Kess to win.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "121.4",
+    "603.3"
+   ],
+   "oracle": [],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "742-1295",
+     "quote": "Cast Demonic Consultation by paying {B}, naming Thassa's Oracle and thus exiling your library due to you not having a card named Thassa's Oracle in your library."
+    },
+    {
+     "id": "1295-3093",
+     "quote": "No two cards in library share a name."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/kess_dissident_mage_2026-10-14/Kess_Dissident_Mage_Rules_Attestation.json",
+     "item": "Kess plus Demonic Consultation plus Thassa's Oracle"
+    },
+    {
+     "path": "refinement/verification/kess_dissident_mage_2026-10-14/Kess_Dissident_Mage_Rules_Attestation.json",
+     "item": "Kess plus Tainted Pact plus Thassa's Oracle"
+    }
+   ]
+  },
+  {
+   "id": "kess-04",
+   "category": "combo",
+   "title": "Intuition and Gifts Ungiven piles are deterministic with Kess",
+   "cards": [
+    "Kess, Dissident Mage",
+    "Intuition",
+    "Gifts Ungiven",
+    "Thassa's Oracle",
+    "Reanimate",
+    "Demonic Consultation",
+    "Tainted Pact"
+   ],
+   "ruling": "Cast from hand with Kess's use still available. Intuition for Oracle / Reanimate / Consultation, or Gifts for Oracle / Reanimate / Consultation / Pact, wins whatever the opponent picks. I checked all six Gifts splits: either Oracle is in hand with an exile spell in hand or graveyard (Kess), or Reanimate (from hand or via Kess) returns Oracle with an exile spell left. Reanimate costs 2 life (Oracle's mana value). This fails if Kess's use went on casting Gifts itself.",
+   "short": "Gifts/Intuition into Oracle-Reanimate-Consultation(-Pact): every split wins.",
+   "status": "verified",
+   "cr": [
+    "601.2",
+    "603.3"
+   ],
+   "oracle": [
+    {
+     "card": "Gifts Ungiven",
+     "quote": "Target opponent chooses two of those cards. Put the chosen cards into your graveyard and the rest into your hand."
+    },
+    {
+     "card": "Reanimate",
+     "quote": "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to that card's mana value."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/kess_dissident_mage_2026-10-14/Kess_Dissident_Mage_Rules_Attestation.json",
+     "item": "Intuition deterministic Kess pile"
+    },
+    {
+     "path": "refinement/verification/kess_dissident_mage_2026-10-14/Kess_Dissident_Mage_Rules_Attestation.json",
+     "item": "Gifts Ungiven deterministic Kess pile"
+    }
+   ]
+  },
+  {
+   "id": "kess-05",
+   "category": "engine",
+   "title": "Entomb and Snapcaster as graveyard-spell access",
+   "cards": [
+    "Kess, Dissident Mage",
+    "Entomb",
+    "Snapcaster Mage",
+    "Valley Floodcaller"
+   ],
+   "ruling": "Entomb can bin any instant or sorcery for Kess to cast right away. Snapcaster's flashback is a separate permission and works on opponents' turns at instant timing. Valley Floodcaller gives noncreature spells flash, including Kess casts, but Kess still works only on your turn.",
+   "status": "verified",
+   "cr": [
+    "702.34a",
+    "702.8a"
+   ],
+   "oracle": [
+    {
+     "card": "Snapcaster Mage",
+     "quote": "When this creature enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/kess_dissident_mage_2026-10-14/Kess_Dissident_Mage_Rules_Attestation.json",
+     "item": "Entomb as Kess spell tutor"
+    },
+    {
+     "path": "refinement/verification/kess_dissident_mage_2026-10-14/Kess_Dissident_Mage_Rules_Attestation.json",
+     "item": "Valley Floodcaller and Kess timing"
+    },
+    {
+     "path": "refinement/verification/kess_dissident_mage_2026-10-14/Kess_Dissident_Mage_Rules_Attestation.json",
+     "item": "Snapcaster Mage complement to Kess"
+    }
+   ]
+  },
+  {
+   "id": "kess-06",
+   "category": "combo",
+   "title": "Underworld Breach + Grinding Station with a zero-cost artifact",
+   "cards": [
+    "Kess, Dissident Mage",
+    "Underworld Breach",
+    "Grinding Station",
+    "Lotus Petal",
+    "Mox Opal",
+    "Chrome Mox"
+   ],
+   "ruling": "Grinding Station sacrifices a mana-value-0 artifact to mill three. Breach escapes the artifact for {0} plus three exiled cards. It enters and untaps Station. Lotus Petal, Mox Opal and Chrome Mox work. Mox Diamond doesn't: without a land discard it goes straight to the graveyard and never enters, so Station doesn't untap.",
+   "short": "Station + Breach + Petal/Opal/Chrome: unbounded self-mill; Mox Diamond doesn't work.",
+   "status": "verified",
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "oracle": [
+    {
+     "card": "Grinding Station",
+     "quote": "Whenever an artifact enters, you may untap this artifact."
+    },
+    {
+     "card": "Mox Diamond",
+     "quote": "If this artifact would enter, you may discard a land card instead. If you do, put this artifact onto the battlefield. If you don't, put it into its owner's graveyard."
+    }
+   ],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "1368-3698--44",
+     "quote": "Cast the artifact from your graveyard for its escape cost by paying {0} and exiling three cards from your graveyard."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "kess-07",
+   "category": "combo",
+   "title": "Breach + LED + Brain Freeze or Wheel",
+   "cards": [
+    "Kess, Dissident Mage",
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze",
+    "Wheel of Fortune",
+    "Lotus Petal"
+   ],
+   "ruling": "The standard Breach lines into an Oracle finish. Each needs six other cards in hand and/or graveyard.",
+   "status": "verified",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "oracle": [],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "1368-3518-4856",
+     "quote": "You have at least six other cards in hand and/or graveyard."
+    },
+    {
+     "id": "1368-2706-3518",
+     "quote": "Activate Lion's Eye Diamond by discarding your hand and sacrificing it, adding {R}{R}{R}."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/kess_dissident_mage_2026-10-14/Kess_Dissident_Mage_Rules_Attestation.json",
+     "item": "Underworld Breach plus Lion's Eye Diamond plus Brain Freeze"
+    }
+   ]
+  },
+  {
+   "id": "kess-08",
+   "category": "dependency",
+   "title": "Demonic Counsel is only a tutor with delirium",
+   "cards": [
+    "Kess, Dissident Mage",
+    "Demonic Counsel"
+   ],
+   "ruling": "There are no Demons in the list, so before delirium Demonic Counsel finds nothing. With four or more card types in your graveyard it finds any card.",
+   "status": "verified",
+   "cr": [
+    "207.2c",
+    "205.2a"
+   ],
+   "oracle": [
+    {
+     "card": "Demonic Counsel",
+     "quote": "Search your library for a Demon card, reveal it, put it into your hand, then shuffle."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/kess_dissident_mage_2026-10-14/Kess_Dissident_Mage_Rules_Attestation.json",
+     "item": "Demonic Counsel delirium limitation"
+    }
+   ]
+  },
+  {
+   "id": "kess-09",
+   "category": "timing",
+   "title": "Bargained Beseech the Mirror",
+   "cards": [
+    "Kess, Dissident Mage",
+    "Beseech the Mirror"
+   ],
+   "ruling": "Bargained Beseech casts a found card with mana value 4 or less free during its resolution. Nothing in the list gives split second. Beseech is a sorcery, so Kess can recast it only at sorcery speed.",
+   "status": "verified",
+   "cr": [
+    "608.2g",
+    "702.166a"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Beseech the Mirror",
+     "quote": "Bargain represents an optional additional cost. A spell cast with that additional cost paid is \"bargained.\""
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/kess_dissident_mage_2026-10-14/Kess_Dissident_Mage_Rules_Attestation.json",
+     "item": "Beseech the Mirror bargain"
+    }
+   ]
+  }
+ ]
+}

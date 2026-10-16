@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -599,6 +600,15 @@ Canonical approved artifact: `refinement/decklists/Kefka_Court_Mage_Approved_202
 Complete gate artifact: `refinement/verification/kefka_court_mage_2026-10-14/gate_output/Kefka_Court_Mage_2026-10-14_Complete_Gate.json`
 
 This deck is now locked. Do not revise, reopen, or replace it unless the user explicitly requests that action.
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 49 interaction review: **11 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Kefka, Court Mage // Kefka, Ruler of Ruin — Interaction Review](../interactions/kefka-court-mage.md).
+
+- **Discard trigger counts card types, per trigger** — Draw = number of card types among that trigger's discards (supertypes don't count). ([kefka-01](../interactions/kefka-court-mage.md#kefka-01-discard-trigger-counts-card-types-per-trigger))
+- **Haste: discard Anger to Kefka's own trigger, or use Arena of Glory** — Discard Anger to the ETB, then attack the same turn. ([kefka-04](../interactions/kefka-court-mage.md#kefka-04-haste-discard-anger-to-kefkas-own-trigger-or-use-arena-of-glory))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
