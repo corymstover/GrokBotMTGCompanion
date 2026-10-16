@@ -5792,6 +5792,11 @@
 "headings": [
 [
 2,
+"2026-10-16 — Bot cycle 57.1 (M3: evidence layer)",
+"2026-10-16--bot-cycle-571-m3-evidence-layer"
+],
+[
+2,
 "2026-10-16 — Bot cycle 55 (M2: commander blueprints, batch 4; Norman Osborn registry id)",
 "2026-10-16--bot-cycle-55-m2-commander-blueprints-batch-4-norman-osborn-registry-id"
 ],
@@ -6439,9 +6444,9 @@
 "related": [
 "Front-Matter Schema.md",
 "grixis/Grixis Authority Gap Analysis.md",
+"Update Log.md",
 "grixis/Grixis Refinement Cycle.md",
 "grixis/README.md",
-"Update Log.md",
 "grixis/Grixis Evaluation.md"
 ]
 },

@@ -5,7 +5,7 @@ tags: [grixis, authority, governance, legality, approvals]
 issues: []
 generated_by: hand-written
 sources: [grixis-repo]
-related: ["Front-Matter Schema.md", "grixis/Grixis Authority Gap Analysis.md", "grixis/Grixis Refinement Cycle.md", "grixis/README.md", "Update Log.md", "grixis/Grixis Evaluation.md"]
+related: ["Front-Matter Schema.md", "grixis/Grixis Authority Gap Analysis.md", "Update Log.md", "grixis/Grixis Refinement Cycle.md", "grixis/README.md", "grixis/Grixis Evaluation.md"]
 schema: 2
 ---
 
