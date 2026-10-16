@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:ad331d3e667c9ead61be65d7aab03943d582fffdd4d10327ab7795e47feba4e9",
+  "id": "sha256:030bd4890495c641be86a78d05a7184b200757805f65a9dcfc9b495a63e4abde",
   "inputs": {
    "exports/grixis-archidekt/belakor-the-dark-master.txt": "sha256:75543f31a16d5398fabe73ce29a2ca2999ea9e1c33f2f62b11a33b3ad7f21eb0",
    "data/grixis/blueprints/belakor-the-dark-master.json": "sha256:25753699854d1606e2a0227119d37ad0397750bc2a4b18393eef92ebf70d8c81",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/belakor-the-dark-master.json": "sha256:e5c25821b618e1c10965f658c9f33947655ba118363ace71c904d797018daca2",
    "data/grixis/evidence/belakor-the-dark-master.json": "sha256:1c328a242f668dea819538fff4b2ee4c08d00b85c5f5793f27387706e4522c4e",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

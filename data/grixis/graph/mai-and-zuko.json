@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:a7b48178bd3a5651e145604cd3ab033616b3667c5c4fa6d0b0a2fc74aab62b07",
+  "id": "sha256:22bc51bfd7a8d583250d9f1d9a5ec1e375994c91e85e522749da6a996dfc6216",
   "inputs": {
    "exports/grixis-archidekt/mai-and-zuko.txt": "sha256:0e399fea73acb804044395007e7bb9d9416863b41e09c9f10cd1c3f4c5b9651e",
    "data/grixis/blueprints/mai-and-zuko.json": "sha256:d984749ca189cc58241e8b730a9f5dc2d3645c4d5920523a6d0e7f00c49ba1c7",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/mai-and-zuko.json": "sha256:03e4521c0abc470fb2bba5116f52da44c78686f2e0d7c8624312b4be9559b1c4",
    "data/grixis/evidence/mai-and-zuko.json": "sha256:ab20963036c8fff92e269c54102a1d1c527b010f6995854cf8679113a553f62a",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

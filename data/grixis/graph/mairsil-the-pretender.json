@@ -20,7 +20,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:e5e8c10729392af5a6f9b4986daf5c246b49a69a6ed98c5d8e92233c47ecaa5c",
+  "id": "sha256:a9829f32dfc4c3a4e685140a3a29a8d47bff81446695b2d1f8fe2bd571bb46c5",
   "inputs": {
    "exports/grixis-archidekt/mairsil-the-pretender.txt": "sha256:843c09811f41b7bcdf5d7e4aec1c27de69d48dfa071cd3cc905541618bf10e94",
    "data/grixis/blueprints/mairsil-the-pretender.json": "sha256:c2416b9da25096897e7c23a1af6a292707f4b5aa56203756f4984ccbca57f628",
@@ -29,7 +29,7 @@
    "data/grixis_interactions/edges/mairsil-the-pretender.json": "sha256:fd5bdfc2059ea7e09dd40ee1001949114f74b4745573e8c6b05185c7a740dbf8",
    "data/grixis/evidence/mairsil-the-pretender.json": "sha256:49b36e35f894466c49f6520dcfbfb00f1be6558b81c4d6d6f930b71eaebfec7a",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "data/grixis/m1_corrections.json": "sha256:b58b1a6f62f203af4944a76153fdc5d85a3952a73021a412f0c6c49cf529dd36",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }

@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:4eda0b76b607b51881657384ce4494b873793c4ad822c88695a32108ff0ada51",
+  "id": "sha256:f195d53b7f814d5b128359003ab4d9206e1677a897559710ac614d7995478b76",
   "inputs": {
    "exports/grixis-archidekt/wick-the-whorled-mind.txt": "sha256:0d784f93911618a7f6698ad8f1ad0799399ed2305df5c9568dbdbfb75b31f8e5",
    "data/grixis/blueprints/wick-the-whorled-mind.json": "sha256:0f335e792cb3bba02218d0316639ccf5d5e7fae82080f2bdca938015d96735de",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/wick-the-whorled-mind.json": "sha256:33256125c8d8192561101bad1d85fe31e89cf432da49919e99248cb2dba1ad6f",
    "data/grixis/evidence/wick-the-whorled-mind.json": "sha256:38c480a487b913c72190b9189ddad15807f13561e194fa52d6ea45e3d0bf4d7f",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

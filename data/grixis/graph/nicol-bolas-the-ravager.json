@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:e18066a163ae67fbc17118f70956528776d8558a082ac2b0f9131342c8fdde30",
+  "id": "sha256:f3ace94f7893233b97967100967df23e7df718d98e595f07ed0f0c6f2f8f5901",
   "inputs": {
    "exports/grixis-archidekt/nicol-bolas-the-ravager.txt": "sha256:ff0f90a467b05c94bdf58371d37a848946877ec707115ac5e47c2260bc40c1f4",
    "data/grixis/blueprints/nicol-bolas-the-ravager.json": "sha256:ebc2d8bff48b444be25d094e3ede59e355ede614799cfc843f49d2b30848bf3f",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/nicol-bolas-the-ravager.json": "sha256:596223f5fa494794e9caf909e7a32a911d360c48923454d23ce48e3813ffb835",
    "data/grixis/evidence/nicol-bolas-the-ravager.json": "sha256:afbfe7a80fe485d385b73caced285491c4a3eb95b12630a15fac2740b6377e22",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

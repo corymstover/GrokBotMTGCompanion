@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:cd31069dd6b222bcb9f64c8b9386d5fe363a129d0e0804a57bdac950546747eb",
+  "id": "sha256:865bc8a3351dd0723ad474cdf9ae1186e185ae38597a6703c378f66eb3744e06",
   "inputs": {
    "exports/grixis-archidekt/saruman-the-white-hand.txt": "sha256:d08e2578f1193c283ea882e9d8565f4c5d00bedb3bc2b625bf3760403a9cfa30",
    "data/grixis/blueprints/saruman-the-white-hand.json": "sha256:205604bdacb7b50cc7a0990889370af06baae12c83a0623123d0101b7802cbd9",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/saruman-the-white-hand.json": "sha256:c72822adb7872f1c2138c47b958087e4eb5c35bc80d49473470e50f850447b83",
    "data/grixis/evidence/saruman-the-white-hand.json": "sha256:0328bdb05cb7084c2741076346f655eb5b70edd2638f4cf5df4f2c5c584f7a5c",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

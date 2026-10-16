@@ -20,7 +20,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:85e297b9e48711f27a7d5ea0c11e2bbf0be8bbabd0603732149c705f9c86b322",
+  "id": "sha256:81c37a91df3444ca19604ea4b7c8a06febaf40d046acea660df9605efaaaffc9",
   "inputs": {
    "exports/grixis-archidekt/parnesse-the-subtle-brush.txt": "sha256:8c32a449aa6ee96ff110e1813f40a6797b0dea722a57acdd91e0ac93e78fd93b",
    "data/grixis/blueprints/parnesse-the-subtle-brush.json": "sha256:e899accca8a366dfbd606922b2e655c7e75d1a8af77db935dbdcc2b07c5f6ab3",
@@ -29,7 +29,7 @@
    "data/grixis_interactions/edges/parnesse-the-subtle-brush.json": "sha256:b86b42975d723261cac44d6fa42aee89fa13ecf0964dec53ebfe48dcbea92d08",
    "data/grixis/evidence/parnesse-the-subtle-brush.json": "sha256:c6ced88a861e9d958e0ea98fc5048074c831bb51d021480f873e21684987ad99",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "data/grixis/m1_corrections.json": "sha256:b58b1a6f62f203af4944a76153fdc5d85a3952a73021a412f0c6c49cf529dd36",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }

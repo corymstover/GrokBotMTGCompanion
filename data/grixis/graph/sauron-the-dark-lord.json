@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:eee1e31d1d657b42c2b8d16e879110321363a786b9fce52ef6d8eb61937875a4",
+  "id": "sha256:df5187e48c964ea115e3a295e9fd1c6c8e02f2485b99cad233b9a838d000a9b0",
   "inputs": {
    "exports/grixis-archidekt/sauron-the-dark-lord.txt": "sha256:1d553979b827147118b5262797ae38dea83be27e2f5f045b371046a33076b11d",
    "data/grixis/blueprints/sauron-the-dark-lord.json": "sha256:159e1cb9b38d82a7a1f506af2e5dd90a86822b98da8d7e607e5dc7bedd685e49",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/sauron-the-dark-lord.json": "sha256:4c03b37f6e8b31c1c374f7ea24e64215e1b592097ecdb580f5cb841394290ca6",
    "data/grixis/evidence/sauron-the-dark-lord.json": "sha256:9235d74f10879df5fe34b1a5d4f9f4e3b7869fd3fe67a565b3ab415265599173",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

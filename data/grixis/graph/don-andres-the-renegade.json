@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:369e076b91d208e81f22ec049fd257eb65a92fed0612f3d8391e0c41662ce60a",
+  "id": "sha256:577d7518ca0fc842cd0ab76fe16f49aa8011435964ce4ff7d49590916c7c6f06",
   "inputs": {
    "exports/grixis-archidekt/don-andres-the-renegade.txt": "sha256:3c5a31e6cf23e2b81d7d4e85d28426231de10d714aae769da886aeff384c7e03",
    "data/grixis/blueprints/don-andres-the-renegade.json": "sha256:c8b7eacbc55789cb580f4952b5e9f34d19eceae5db79d8f526935f92b912a878",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/don-andres-the-renegade.json": "sha256:5bea999e1637d01f9cbe0328b6810954b6452fc5e96b1eae6b335aba0d6f0017",
    "data/grixis/evidence/don-andres-the-renegade.json": "sha256:847b21f672a9919958a921e875768ec1d3b5b0844e2931666c2d23c6a3cdaa18",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

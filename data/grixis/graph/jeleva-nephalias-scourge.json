@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:acb1c44d4bbaa30df683c8f391d54b0c69445381b32bd8fe4b9a78be9310259d",
+  "id": "sha256:f7834bbe5f363988f2a69cde8260bcd5d87e0170a0c44a6b53461349d213cd65",
   "inputs": {
    "exports/grixis-archidekt/jeleva-nephalias-scourge.txt": "sha256:900a09d494293665662756ef2be07998b9d86af42c2a23ea54900953f9f181af",
    "data/grixis/blueprints/jeleva-nephalias-scourge.json": "sha256:5beb882383fd003d8177183cb2755118afc79c0708c923d1ce30461b08529b01",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/jeleva-nephalias-scourge.json": "sha256:d13ea44b1bee26e2638d80ff68fa7ace53c97cc92a4d4e707af09ec61f493895",
    "data/grixis/evidence/jeleva-nephalias-scourge.json": "sha256:2d123fd84e450b61bc8e3cf2432a9644bc4fbe5a9234dd4cfc44f12a32ae8cad",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

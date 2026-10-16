@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:403a2eaffe477ec5b3da85f33f4ad00486c1b59c0c172b7e11d87631fdf0ca6b",
+  "id": "sha256:7d7d8b87d64fb700db8f974455b80f9caf49ab8e6da509fe3aedbb0207508563",
   "inputs": {
    "exports/grixis-archidekt/missy.txt": "sha256:6127c9e74e6e7cc22f9d98b5f93038b7cd957dd70c6bf12efb1285a8d5ac129e",
    "data/grixis/blueprints/missy.json": "sha256:ad0763b54fd46fceb2baac13af363578ae6adbcfc4c9ebcec6060ece4a70a97e",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/missy.json": "sha256:c08b5b91e4c5b6b61e04058f03943b876c2361cdb6ae2d5f92cd4781a5c4a8e6",
    "data/grixis/evidence/missy.json": "sha256:a058865f5c45b70883f474181edec66242dfe8b22137909f18d4574a8e35d644",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

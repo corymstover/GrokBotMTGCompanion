@@ -5,10 +5,10 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
- "pass_id": "audit:kefka-court-mage:c59:e0eacc639e2f",
+ "pass_id": "audit:kefka-court-mage:c59:1ff4f1fa5a18",
  "snapshot": {
-  "id": "sha256:e0eacc639e2f8f030ef7b5b9511dd878b2a8e0e392af133ada893c9fe4b7cedd",
-  "graph": "sha256:dcbcce6eb51d429a4047a4716a93ab567bf7455e99f32c95d9140f2fd9fddcc2",
+  "id": "sha256:1ff4f1fa5a18327449b284bae86e2eb3db459b837c95a4b29b6c171d0568f907",
+  "graph": "sha256:87965bb3ea3bf64771b2259a89aab97be5f47ce756afe66257ddc45e2e53395a",
   "evidence": "sha256:acf3f03958217c19d7a086fdf13d3d5214020680eb5224b98d02d62e43c7f590",
   "m1": "ingested"
  },

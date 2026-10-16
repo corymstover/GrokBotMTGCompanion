@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:0952822b9809b830b26059981208124c1f762359cbaee0064b17d243fdc7a26f",
+  "id": "sha256:2a9d5e463aab703289d8af2329c2525221ad1ae243dc5bb2532c68c202dc0fd8",
   "inputs": {
    "exports/grixis-archidekt/source-baseline/norman-osborn.txt": "sha256:6017ff8c9557b58ede769d4a467093fb84f780b3e3fe09cd580880cd7c91382f",
    "data/grixis/blueprints/norman-osborn.json": "sha256:5ec4dfe4ac813e0ed4caf4737a1aae50cdd037dd969c8c325a54a38d51ba2746",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/norman-osborn.json": "sha256:9030bf0266febee79e929e74522760b995c44d2188f3349203714062d81b20ec",
    "data/grixis/evidence/norman-osborn.json": "sha256:c04fa11b78879a9e9b7e42ce9ee39ca56939c14a0792c7c9d53830a70850cc84",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

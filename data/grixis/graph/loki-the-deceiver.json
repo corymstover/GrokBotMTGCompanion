@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:420e3a6f56cdeafde9601d967f13160847a1c7e1138ebe223141345f7e308002",
+  "id": "sha256:4a5e4d6c85741723583f2a1ec2fda8b742166a8775fe01c7efa53d1e8bef665c",
   "inputs": {
    "exports/grixis-archidekt/loki-the-deceiver.txt": "sha256:a46c0474940b72ac3ae843bd8e6fdcdd9dd10988222dbe0a23a42daeb96cfd53",
    "data/grixis/blueprints/loki-the-deceiver.json": "sha256:a9e825015b04fa3b5674a641c57068b061500c0664a60e73d25a6a336e03e5fa",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/loki-the-deceiver.json": "sha256:15a5d6bb39afaa77697e3c5be8d0f9a23348eb966607e78da151de819f68dda9",
    "data/grixis/evidence/loki-the-deceiver.json": "sha256:cc3c2e7d9e8772f72725c8928c969ea8e058ad9338812066d62c463ad48fc79a",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

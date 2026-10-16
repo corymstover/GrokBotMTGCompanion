@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:b9737ed0fd1b98808c12b92d5609dd79cf49ffca8f3a30924f219977e5dd363b",
+  "id": "sha256:6dc05512372bc87e6689cd6283828c0f7c4c51b425ee82547b41569a70c5effa",
   "inputs": {
    "exports/grixis-archidekt/tetsuo-umezawa.txt": "sha256:73a45c0240c9b5a86dfdc417d805eadbb171bec3b37e05316e3944bc58656a8f",
    "data/grixis/blueprints/tetsuo-umezawa.json": "sha256:8df2799bce1a0e0a914e3a9f4018aea6bbae361d636a0be92e9017424c6b3165",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/tetsuo-umezawa.json": "sha256:4b4182b38a3c54fe429bac09ed681fb36ee165813f111c6eae3da3c3a9add074",
    "data/grixis/evidence/tetsuo-umezawa.json": "sha256:eaf4672a6252255ff9f1d1f7b16b27391f0a4ea0ec04c48122be96b64a357e38",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

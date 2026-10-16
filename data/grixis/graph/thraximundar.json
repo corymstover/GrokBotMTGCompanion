@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:4486a3a3bfe40667bf29b1d41072151f6751ef9e8d1f54701303067c5ace821f",
+  "id": "sha256:17c98358d742a885b6ad1ff3335fc9a7673e87f0977c94e89af577e207005a01",
   "inputs": {
    "exports/grixis-archidekt/thraximundar.txt": "sha256:e5cf53533e1e71adce8e404d00cbad9a31c5ad68b9ac79632319ffc9b26e133e",
    "data/grixis/blueprints/thraximundar.json": "sha256:aff581fb69e12437aaef5d4b889f900241ac20bfee8a7af0b2bfb285e6c0e7e8",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/thraximundar.json": "sha256:5887d3e5cb60ac4e55635ee3d4490762ef4c940254a09b0a059495502b211081",
    "data/grixis/evidence/thraximundar.json": "sha256:3e48876cf182c36ce8c9d3e346d8dbb2d6f6d2c0ffd2222a6a1e0f1048a66686",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

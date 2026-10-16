@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:f31d8233716a15086f57a52ab3c097875668fa20ec4d53f85e822bf94ef6f5ee",
+  "id": "sha256:c70e845149b175f2c880b2383812ae91b1a54c0e488c84d8347e8b16306f025d",
   "inputs": {
    "exports/grixis-archidekt/the-madcap-jester.txt": "sha256:1ce93f38a1dc81a07c3f499beb168ba2ac0512da1718ea02ab4204cefb0d8f03",
    "data/grixis/blueprints/the-madcap-jester.json": "sha256:826defcf59d42fa5022c90107db000064b1e2edd72eeb9f909059b6a4796f408",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/the-madcap-jester.json": "sha256:1cd49d10734909a2a5a2721daaca2a1caa97e4f281457270eede583484a8dc7a",
    "data/grixis/evidence/the-madcap-jester.json": "sha256:a691b63216b54237c5155a37ebe45fcbab0a5bf1f88d81ee36df4ad277ab78c3",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

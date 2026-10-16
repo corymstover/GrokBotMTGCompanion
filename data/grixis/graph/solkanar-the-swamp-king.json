@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:64c78a44afcec46bcaf848b235146f093617e6a4521f719f8b4139b7f6d4ee26",
+  "id": "sha256:39d3e037e84a83488963af3bac4276c4c843c45c42de7525ebcf220139c8a1da",
   "inputs": {
    "exports/grixis-archidekt/source-baseline/solkanar-the-swamp-king.txt": "sha256:bf475d9c7048874d439972282b85de5684e0fde03095a2257e9249cdb7661ccd",
    "data/grixis/blueprints/solkanar-the-swamp-king.json": "sha256:7873c574fc0991983ba666614654727c3dafd20d318bbf0adb4510933f367de9",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/solkanar-the-swamp-king.json": "sha256:0a81d221eb0688d9d647927e3bdcf9be302c2310293858017212f37808edea3f",
    "data/grixis/evidence/solkanar-the-swamp-king.json": "sha256:17d43d3b5e9e8bdbe12068e5f99c97704ebde782449abc62ae326527ce270b50",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

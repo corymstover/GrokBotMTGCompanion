@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:beb1db4102268bbfa745e6a30af0e86c8a7ef624ac1bb8f4bc24b356219d9356",
+  "id": "sha256:3faa4bec0ba4dfd42f9dfe3eae37562c38d3e35811ac16958afa243c1e8f95ba",
   "inputs": {
    "exports/grixis-archidekt/zevlor-elturel-exile.txt": "sha256:6a8966fca69ad99c1796104a14f6aae186446c80db5cc2e2744ee283aad5e022",
    "data/grixis/blueprints/zevlor-elturel-exile.json": "sha256:9108de423d6769a08c0b7ee71ca6f3c5b5303c96f40fe715d45cf6f6d2ea82d7",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/zevlor-elturel-exile.json": "sha256:dde3cf435863e8d0724fc39135f019f2d98eaf03a466945d8f148e704a2c69ae",
    "data/grixis/evidence/zevlor-elturel-exile.json": "sha256:87766e795183e2c9e028ec2ff723a440b20fa8ed534b635e1e4fdee56db995fe",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

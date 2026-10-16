@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:e9a070f6d276be303fca17a4f4d6fe40de2a0d2bf6471c9af1c8607badecf8e2",
+  "id": "sha256:079a2cd8bc58fed78b37103d24e236c733921d95dd6c72669d7e278c8b6c5b62",
   "inputs": {
    "exports/grixis-archidekt/source-baseline/bjorna-nightfall-alchemist-cecily.txt": "sha256:745885c96c41ba3b00c4e7bab3fe677c333cfb225927ea914ecc3212a9a0d871",
    "data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json": "sha256:cf971ecd75cc9c689376a61f318be601099e3b10c34bc8e5cb7265ed3f9ac25f",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/bjorna-nightfall-alchemist-cecily.json": "sha256:a4fa62d98a2c4defabb223e40a4cb4ae775345f369c8efa1fea38a00119db7fd",
    "data/grixis/evidence/bjorna-nightfall-alchemist-cecily.json": "sha256:8389f444a8b027b1be4828c220fbf98ca3fa10791802aee2da46adce9c5416e0",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

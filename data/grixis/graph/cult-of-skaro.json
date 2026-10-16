@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:1261026541957d8394a4d4b1e04217b623b20199b383be986d714919c5631d92",
+  "id": "sha256:339e387cee01c798cdeac5b831c39a29b7f2b1af3e1b97f393cd5778b751f208",
   "inputs": {
    "exports/grixis-archidekt/cult-of-skaro.txt": "sha256:e17919e46769952d0318157693b278c29ba9a39a352105fa76df9abb9a868e7d",
    "data/grixis/blueprints/cult-of-skaro.json": "sha256:b0388a33dddfa0a8da595f74e2f97c1119a4c010043503507a15774064e1de2c",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/cult-of-skaro.json": "sha256:573145f8303a5d18456c64f882d08969e84cd92755b34ad938cd35b109eb7eca",
    "data/grixis/evidence/cult-of-skaro.json": "sha256:5e80578a854dc6e5678cbac0a07b0c585c5ed1fd38008784e87992653463db17",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:57117a94b962c914c7d60ff725d61b78fa72bd608dd67bbf66e41e3b46539fbc",
+  "id": "sha256:bdf63df674f172a7746840c93f2645b253b313afc6ee5719a83101df310a97b8",
   "inputs": {
    "exports/grixis-archidekt/crosis-the-purger.txt": "sha256:04784e892c930bb5e60f8551ffffa7e9527634359db38378fd1bd7e4c8e3647d",
    "data/grixis/blueprints/crosis-the-purger.json": "sha256:20f8c89b61a232d1485e88e430b266694f0cc665854a569af9921ea6ab530014",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/crosis-the-purger.json": "sha256:408e904a7bad12d89c1dff8aacbd68056190dc18f0a9f2c0395d8ee65f5a2ed1",
    "data/grixis/evidence/crosis-the-purger.json": "sha256:a2e55f8fd44b2965432a49474bd98c0d773abef98296f7525c34c25e0942a318",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

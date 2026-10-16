@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:bfa84c9373e08e5d70cc203c372d6bec4e044144327c3cc9818e71429538fea7",
+  "id": "sha256:76caf04d632a61d4a31cbe8fbe043d89928594bc1ff888459440c459f9698ae7",
   "inputs": {
    "exports/grixis-archidekt/evelyn-the-covetous.txt": "sha256:e230c85b8254f533b0a8d6e2e5699e9eac000010f594a822892c3d74cd76390f",
    "data/grixis/blueprints/evelyn-the-covetous.json": "sha256:7523c479c12c889d7ef379031d16e3f4e26c48df7b3e8beaf0e32a64cedbab6c",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/evelyn-the-covetous.json": "sha256:f195ca739d7e377c9797943a2db3b8ed2abe72884ad88bdf40bacc19956b6b94",
    "data/grixis/evidence/evelyn-the-covetous.json": "sha256:d35e5a7922c18ce808d71e1583978fbac8db2e751115853f8a5ce62cddf88fb2",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

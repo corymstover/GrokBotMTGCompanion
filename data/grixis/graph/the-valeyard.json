@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:5914d772e33578e8efe9999f84ce84679c7b54e81cf616f2e9d75e09e00a2391",
+  "id": "sha256:b41f21407309a0b51446a4713996faebc3f377d2b122b637d086c578d7b844bc",
   "inputs": {
    "exports/grixis-archidekt/the-valeyard.txt": "sha256:f68cb26275da3a765e1009fc62fd6de4bb834cab57770dc6ed4f3f74578dc404",
    "data/grixis/blueprints/the-valeyard.json": "sha256:a5b092a534388810f6c008cbbbf37f0b318ce71b242c2f69ffa1ca4adb2d2bc8",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/the-valeyard.json": "sha256:38ffb1c0a4e24c359add66040d82d68f5f034e48cdc289889f76b4ad65bed1ea",
    "data/grixis/evidence/the-valeyard.json": "sha256:5b5953bc6259a5d7bcd3200443ac7f3f4686b859f788496b9f9d28744d60fb24",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

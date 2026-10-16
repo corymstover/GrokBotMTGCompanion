@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:a2b990e7254ca480bbeed12074b77bd25a62c53daba21bb67da1b77ed0c43e73",
+  "id": "sha256:aa0962e0f1d19b277619e534b5fd9802768c28b9e4e59ec781b953ff857c35d2",
   "inputs": {
    "exports/grixis-archidekt/tetsuo-imperial-champion.txt": "sha256:1e551bc95c4918b340539539ed8ba1275f791d4f19330eb6141f84a48927a0d4",
    "data/grixis/blueprints/tetsuo-imperial-champion.json": "sha256:f494a6670222f87657d10c3b7de4b7b3b852aaf2e7eee38ae8dd5d1e0b851a95",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/tetsuo-imperial-champion.json": "sha256:4574e3afecabd5a3c63a1e9ed8cfa5c3d72d425463c8e70907042e6c5a7699b2",
    "data/grixis/evidence/tetsuo-imperial-champion.json": "sha256:47d47b84b2b58787a0b60e3429c76c29269459dccdfcfcb1e259095775be3228",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

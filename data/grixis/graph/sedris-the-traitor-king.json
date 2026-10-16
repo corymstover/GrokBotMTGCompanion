@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:bf7f91e55a38295ca2e6c939909efe5acbd1ae72896fcadc97559ec49592eb2a",
+  "id": "sha256:974ebf65247e9cb2b9a1ee3153db62420875cd699a25957dc279f2754fda60df",
   "inputs": {
    "exports/grixis-archidekt/sedris-the-traitor-king.txt": "sha256:ddcd18ab4826834cde491cd21b8f9697c77677dc8890a696b3ad6bd5f4e96aa0",
    "data/grixis/blueprints/sedris-the-traitor-king.json": "sha256:bd72296bd6fa672a94c84169d005c58115b8d390172ada2bfefefcb3375832d5",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/sedris-the-traitor-king.json": "sha256:3962b7de8d204f9504551dea52e15d819d8fcd9f732bc12a7d0e3e36160eaddb",
    "data/grixis/evidence/sedris-the-traitor-king.json": "sha256:b7d1cabc102ad54546e485f2161421d0939a2f19832f169bdae982621b13cb2a",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

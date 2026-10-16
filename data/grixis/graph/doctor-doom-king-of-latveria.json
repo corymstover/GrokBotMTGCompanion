@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:648d59ba1433e8519377c5e605f26db988f0b36609507976de2cd977edaafa1b",
+  "id": "sha256:9c2673443137a9baa3110692421764c87d248513958e81a4d90f79cd13ced74b",
   "inputs": {
    "exports/grixis-archidekt/doctor-doom-king-of-latveria.txt": "sha256:3505f9a465a8ed61f9689d7a38c67b47d68b487001565b9ccc08de82a62f1574",
    "data/grixis/blueprints/doctor-doom-king-of-latveria.json": "sha256:4c48a513db13030b53cc6a479caa96b01dff5c631381ca4ed6b2d1d06b1ca67c",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/doctor-doom-king-of-latveria.json": "sha256:e0d4eee10d22743cf78f63b1657336a0bc20775828a11751b3cfeb3f0aa81316",
    "data/grixis/evidence/doctor-doom-king-of-latveria.json": "sha256:1f77cab21dba1aff754ad24301e1f17b8cb9650cfeb5e1868b77b5fec5b7241a",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

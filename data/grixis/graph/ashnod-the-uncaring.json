@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:c0f29bc65d910724f55005b9ebd036e91eb95a2f2aa5ed6f1f4843c1ba62dbd8",
+  "id": "sha256:16cba243d97256e0a76340cc99b1d65d894bcaaafe8a6d70d93a837808420e1d",
   "inputs": {
    "exports/grixis-archidekt/ashnod-the-uncaring.txt": "sha256:b96f2d08a8659c3e51611c2203ca4599c4c606f927280f1b7515abb96385ce39",
    "data/grixis/blueprints/ashnod-the-uncaring.json": "sha256:da8bec39914e8bb55866e6035fcfb17f6f19cd72c7844a9f579cea36c44609ed",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/ashnod-the-uncaring.json": "sha256:ff82724043511e97de562fedb791a3451cb499c7e51dbe5d57a0467af8d421fc",
    "data/grixis/evidence/ashnod-the-uncaring.json": "sha256:a709517d236366512a9250f74a603c92458b95471cc69f11d031c8f135f6967a",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:dcbcce6eb51d429a4047a4716a93ab567bf7455e99f32c95d9140f2fd9fddcc2",
+  "id": "sha256:87965bb3ea3bf64771b2259a89aab97be5f47ce756afe66257ddc45e2e53395a",
   "inputs": {
    "exports/grixis-archidekt/source-baseline/kefka-court-mage.txt": "sha256:1bf9bb268230bdf1978b734b906a2d5ff44f0dd06ce8f400fc694f0f90348391",
    "data/grixis/blueprints/kefka-court-mage.json": "sha256:01a9f213a4afda97be2e833d3a809b2c15de639751a32a884344f1178b6f20e4",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/kefka-court-mage.json": "sha256:a55afe09b2c92bde6eb344bcee3cdc25f07f780571bb1198df139ae13228a616",
    "data/grixis/evidence/kefka-court-mage.json": "sha256:db4a9d82acf128f8268e38755b7b6b8fd71668110fd638a473ab4d135cafd4f2",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

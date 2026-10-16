@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:62b55074deee9431270c33ff0c7678aebb1172c7097c84267f99b7f1ff460dbe",
+  "id": "sha256:424169e40b01ca810e4df85362daffa81ca2f3fe0d59856fdb509b5e3c4cc2d1",
   "inputs": {
    "exports/grixis-archidekt/fire-lord-azula.txt": "sha256:e52f1cbbf1b17f3e3cef0ef9d466e93bdf5e85bc4d32ac5f2856b4bd2b36fda4",
    "data/grixis/blueprints/fire-lord-azula.json": "sha256:5a56d32faae39e511170af81f230b0920f9645b93053eaab8b0df36fd5111e5c",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/fire-lord-azula.json": "sha256:409e9be03895ba206f40fd119dc389496acb84df4b938583e3c98227df2cec87",
    "data/grixis/evidence/fire-lord-azula.json": "sha256:04561207c93f17da219fbf123fec8b7e5b11bfbf7d7490f853b31dbbf1262259",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

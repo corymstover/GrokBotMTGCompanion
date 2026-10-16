@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:d1dedc4f7e78f6186bedf801d9a8c7bde4368509da0499518a0399ced00b578a",
+  "id": "sha256:e69489229caf134f59e445215c93d6b61fb68cc7bc086189ee6a561419414c0c",
   "inputs": {
    "exports/grixis-archidekt/cormela-glamour-thief.txt": "sha256:29dad7ed42b4c5b81bb507f96d3638c6dbe8f509f6d8e8f935f25df484930578",
    "data/grixis/blueprints/cormela-glamour-thief.json": "sha256:3f627bca9265b8ed889bf52cd6a9487c7340a94fc38db99dfc5a960dfa744fec",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/cormela-glamour-thief.json": "sha256:908682d7a349083197f46ae6c0462b9b224b7df153c8bfb92dbe2c3d1bd93460",
    "data/grixis/evidence/cormela-glamour-thief.json": "sha256:0e3e468d1e6321002c186254b0957fe64813d8bdaa213a4550cfabf103793317",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

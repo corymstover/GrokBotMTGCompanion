@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:f1b95f1d4422d4a884ea67a5818b40972a230bb34477048c2eb959cca8004646",
+  "id": "sha256:92684744817da38683635b011f2e8988f2db0742e68cdabb3151e9040f9ec9a2",
   "inputs": {
    "exports/grixis-archidekt/sauron-lord-of-the-rings.txt": "sha256:0db8b7c1b7a77f9964a14812dffb9d58f37e40a91c6152fc20e33b3917077c90",
    "data/grixis/blueprints/sauron-lord-of-the-rings.json": "sha256:0a1560d2ee4e5d17d9015f50c0f2ce5058839af46b3f16cab4086bee8067ffa1",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/sauron-lord-of-the-rings.json": "sha256:80fe4b1b897548c9873b1667f1110340995b6e9439842ff3ba785f1ed12cc60e",
    "data/grixis/evidence/sauron-lord-of-the-rings.json": "sha256:fd65ae3a278e72ff7d96cd3beea4184d99893f990737e6c2ae3b1aa5aef401b1",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

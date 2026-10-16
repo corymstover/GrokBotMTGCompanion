@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:aa6d577eeef149ffdae98ec35d6bdfd7b053afe71b7a4a574831d592d01e9d40",
+  "id": "sha256:4657a8689c39d83c69738b02bd07611842ad353985202442bbed3c5a8a09cf50",
   "inputs": {
    "exports/grixis-archidekt/grixistax-october-2026.txt": "sha256:f0a28f936c03705df0e215738e4ad314d337bb3e713dcf7b2c50beba5a2f9a08",
    "data/grixis/blueprints/grixistax-october-2026.json": "sha256:bebd8e6cab3682ff400810c0e27916579356fc6553ff24b3a2a52f5439328130",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/grixistax-october-2026.json": "sha256:03264c72728b69644823607751d2e9b159c6e46fc7439fa4552c0f9c89841a86",
    "data/grixis/evidence/grixistax-october-2026.json": "sha256:faa73a1f35bd7fc5f5f5c9a3af1f5fa80db9d1a9ea3ed71821afae1bc71caced",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

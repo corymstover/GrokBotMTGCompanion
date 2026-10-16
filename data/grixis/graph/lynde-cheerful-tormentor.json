@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:4005f276386db1c2e7bead270fd5081fc620a797cbbb4f8b8796fb10de419aaf",
+  "id": "sha256:dccf6e0910f069f7edd2f6fd47f04c4bb9d7485a4195454bb22b908846a3112d",
   "inputs": {
    "exports/grixis-archidekt/lynde-cheerful-tormentor.txt": "sha256:f1d4ed17411a4229260f39f4e79f6f014bffb29f3c601fedf3488d03676abf82",
    "data/grixis/blueprints/lynde-cheerful-tormentor.json": "sha256:ade914e41a982e1d214d0518d9ccf2d0919e7113261113dff59a77d906d5a91a",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/lynde-cheerful-tormentor.json": "sha256:e65a58ea34cdee976fab224007a06b72af3224ccb2fe9227f28d9f811423f8fe",
    "data/grixis/evidence/lynde-cheerful-tormentor.json": "sha256:49a9967a86026f9a00a1c749614a25c25c529d28fef9236d224ad2abe359ab2d",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

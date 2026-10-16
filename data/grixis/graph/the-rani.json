@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:47894fbdf8608d93d934c205c7a1c4cd4d0eaf31e7c6d814834dbe65bbc39448",
+  "id": "sha256:6540e9698bec8828dbdc3870fbbc4df0fc0dc9170e11d921f7df50dcf40b14b0",
   "inputs": {
    "exports/grixis-archidekt/source-baseline/the-rani.txt": "sha256:4f0bccdd5201b57b7a57ced76afbd62d97bc3db7ca2bac08694b37abf25b98c7",
    "data/grixis/blueprints/the-rani.json": "sha256:104515063be1aa5e8fb71cd9091e0f81da049a64b724bcdc1f74577e7e687799",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/the-rani.json": "sha256:40d7831d7fe5d9b2cd589a767490bb5d0aab589db7020a4fdac6f18c73611b73",
    "data/grixis/evidence/the-rani.json": "sha256:b6794660764b9bb4ffdfa1d94aab73a1b2766358d1b021b0a5f6700b17a0714a",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

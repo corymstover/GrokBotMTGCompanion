@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:4f20100e09c4abdd353eefc79508a954615097d4f154fd452eef114d1ba2cb83",
+  "id": "sha256:f1819d77a2296272b8fbea947e7054c6a05f621162f52821fb3a9c6102f84b2d",
   "inputs": {
    "exports/grixis-archidekt/lord-xander-the-collector.txt": "sha256:26b1674fef88552f6e5f2eaff5c85bcefb05ac1a4afb90b728ae8218f24fab63",
    "data/grixis/blueprints/lord-xander-the-collector.json": "sha256:3431bf71c8eeec155eed99cfa8769ced3d21dc4af4b146808c44021d676db961",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/lord-xander-the-collector.json": "sha256:60e26879bb5c4d9563422165d32d8f7c97914f17c34ce89f562727f5456299a2",
    "data/grixis/evidence/lord-xander-the-collector.json": "sha256:0aa99e57119ae5a142b05683e33a57d32abbf16282e132d35145581cd2fa9015",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

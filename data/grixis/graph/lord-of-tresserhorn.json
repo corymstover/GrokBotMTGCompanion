@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:9dda5c99ca33c00c88694434b5cd784860c98f96f1ebf8f448a4ff87f8d0e0ae",
+  "id": "sha256:872657821a2af1ba080f72fe14b31c1a73a7310ff10f3ca13eb3bbe0ffed6de3",
   "inputs": {
    "exports/grixis-archidekt/lord-of-tresserhorn.txt": "sha256:ce42932da71b7ae64899536b586fe031cd51f6a639074fd94590d1d66a79379b",
    "data/grixis/blueprints/lord-of-tresserhorn.json": "sha256:55a1a6db4f5f73179d0c0a67dd93fef93d2f9a5f0cebb59c0ceb8dbe846ffa34",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/lord-of-tresserhorn.json": "sha256:ca06dca9adcbdd37df83dc0d96a07078d927a32f604ecbef40ae5b018c8cd312",
    "data/grixis/evidence/lord-of-tresserhorn.json": "sha256:6e7ba98f04d97946a023604032e4515e75d3d4a02c4daef91d2f3614c8779335",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

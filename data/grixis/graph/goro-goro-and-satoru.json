@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:e0ec32c5a74065c9b59404049ed5d2ac12e5e2657e7e8e002b199b8211c8fd1f",
+  "id": "sha256:358f290843a63c688ed52020b0081dd8e995f56261b3d6842169318c9e1275f4",
   "inputs": {
    "exports/grixis-archidekt/goro-goro-and-satoru.txt": "sha256:bdc129bcd94c00b293ddaabb4585ac3130fb4eca7ca8646177335900e7aedfec",
    "data/grixis/blueprints/goro-goro-and-satoru.json": "sha256:27c000cffcf10baaf08ad250a2182f997065926d5e73505bb49f61d521eee7ae",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/goro-goro-and-satoru.json": "sha256:b9286836893a657eed44ee23c95e71037d60d86ffce010930a00d46a84d7a1d2",
    "data/grixis/evidence/goro-goro-and-satoru.json": "sha256:d4f1440fc17d88fa063222f2eb46523890d7d798f077db893b00e22e90d96d4d",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

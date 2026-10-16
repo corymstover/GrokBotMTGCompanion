@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:1939dec5dbe891221db754b8fba5e3e78f3a1f0e2b9d69c8f3d6c750d99c1205",
+  "id": "sha256:f629fc04d5ea538d6d618f8ad1551c1eefe6196c01efaa15dce6809e2ba3930e",
   "inputs": {
    "exports/grixis-archidekt/edea-possessed-sorceress.txt": "sha256:d41924a6b09c4232b438aa863c833a28f67bdd6598c9bba470ae66f23428acd6",
    "data/grixis/blueprints/edea-possessed-sorceress.json": "sha256:bb379e667300503b9a328eb37630cf0e9f690d5e96d10340c6465403e16a23df",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/edea-possessed-sorceress.json": "sha256:9500ea083c6ea395f40a100c2dc2520393fdfe7c70b469b00f3ae01988a13e4e",
    "data/grixis/evidence/edea-possessed-sorceress.json": "sha256:555337eca48cda4ea362e7fd5497e152e65abb9488a08ae03565c48d035a3aa7",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

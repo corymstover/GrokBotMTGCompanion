@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:90a6732bdf5a3fc1eab88561d5e74ae7cbebc0da63df0d672e493b4ecf90e253",
+  "id": "sha256:c7cd5d661eafc35e3d1644a179f7fae18c5e13534dfafaeb6de9b5f711e63346",
   "inputs": {
    "exports/grixis-archidekt/nekusar-the-mindrazer.txt": "sha256:485e4aa8caea97c607374dde3e15c052ee87e15502ee2161a37cc0ecfbe2cf5f",
    "data/grixis/blueprints/nekusar-the-mindrazer.json": "sha256:d7e62da12ac3dae3380651546772229fda0623a5ea02980f712930fc065505dd",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/nekusar-the-mindrazer.json": "sha256:381b302946a77596b24600478ff2fa0f86074092ea91bd4841dfa9bc36d1a559",
    "data/grixis/evidence/nekusar-the-mindrazer.json": "sha256:950cd20cbc69264c9cba9b4a1f1534b421be747b2361e1777cc8a3d2bf38cfd8",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

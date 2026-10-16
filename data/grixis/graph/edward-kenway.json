@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:e4b0f1e211e12b6b20ad4c259920cca04f5f5df78fb93182ac3f26bb4d38bd44",
+  "id": "sha256:82f239fdf87709756eba4a108e9c87abf3deecb942db05b815129c2e9a5c96d7",
   "inputs": {
    "exports/grixis-archidekt/edward-kenway.txt": "sha256:1e8b8ea5e52e2ea499f07f0d72cbc4305b81cfbf370a163d1378dacc01690b9b",
    "data/grixis/blueprints/edward-kenway.json": "sha256:b5978f63e8b46afa5285cdd958f27de2376ea4296fec299223444a925e39ee85",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/edward-kenway.json": "sha256:94f6394acf6038fba0e901bcef79e8db3bee946b5cc4f63ae05ac0f8900dc305",
    "data/grixis/evidence/edward-kenway.json": "sha256:223266122b1804fac6b4618ae7f501970f35428c38a09df20411157c3394e625",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },

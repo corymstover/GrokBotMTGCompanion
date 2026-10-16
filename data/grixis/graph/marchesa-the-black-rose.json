@@ -19,7 +19,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:bee4c507e2dc6bdd8441894e36732d9523702ea274db0e91e946555b1fbc0f9f",
+  "id": "sha256:dff268d6fbdfc33acd8ace87e28b8c0fad4aea7255d3931bee1ef0b5e6bcd582",
   "inputs": {
    "exports/grixis-archidekt/marchesa-the-black-rose.txt": "sha256:cbea04a72dd309e4d99dcbffc8d4c8674a6c0d5ba4533a668a28e2dcd564131a",
    "data/grixis/blueprints/marchesa-the-black-rose.json": "sha256:60f6d36fce7a9eec5ece113472328f6824f095fe44fdcaff10756496668d4187",
@@ -28,7 +28,7 @@
    "data/grixis_interactions/edges/marchesa-the-black-rose.json": "sha256:e227b903ef3c76986d235c3c9dcc5f01396a09634fab4ff42b3793f94f1683ff",
    "data/grixis/evidence/marchesa-the-black-rose.json": "sha256:f8f0596229b26aa4df2ebdb1637b6c9d154baa280845a3b20ba8fa969eb5d1ec",
    "scripts/grixis_graph.py": "sha256:cec2fda4d7fe2ddd25b358864d4358e8744907cac103255b3e4d32242742889b",
-   "scripts/grixis_refine.py": "sha256:ef6f556c024441627eafe365f041ea7c8687f8082377690e5fec51994b0355a1",
+   "scripts/grixis_refine.py": "sha256:757e6ab04ca08f661124fd46daa714650b60710971777014d543cd9c98013659",
    "oracle_bulk": "oracle-cards-20261016090200.jsonl.gz"
   }
  },
