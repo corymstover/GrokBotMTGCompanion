@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon038",
+  "expected_outcome": "Do not make the change (source status: CLOSED_NO_MATERIAL_UPGRADE). The deck is optimized for early commander/engine deployment. A delayed ramp source is substantially weaker than the current premium fast-mana package.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "closed_no_material_upgrad"
+  ]
+}

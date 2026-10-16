@@ -1,0 +1,8 @@
+{
+  "id": "g0-prov-admiralbrassunsinkable",
+  "expected_outcome": "No. The SHA-256 recorded in the source's `state/current_deck_overrides.json` matches none of its files. We used `refinement/decklists/Admiral_Brass_Unsinkable_Whole_List_Approval_Candidate_2026-10-13.txt`, which matches the deck's Card_Verification CSV card for card.",
+  "label_authority": "hash_fact (recomputable)",
+  "leak_terms": [
+    "matches no file"
+  ]
+}

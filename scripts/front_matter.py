@@ -98,6 +98,7 @@ PAGES = {
     "grixis/Grixis Mission.md": ("meta", ["grixis", "mission", "commander-first"], [], None, ["grixis-repo"]),
     "grixis/Grixis Authority Model.md": ("meta", ["grixis", "authority", "governance", "legality", "approvals"], [], None, ["grixis-repo"]),  # Bot cycle 47
     "grixis/Grixis Authority Gap Analysis.md": ("meta", ["grixis", "authority", "governance", "plan"], [], None, ["grixis-repo"]),  # Bot cycle 47
+    "grixis/Grixis Birthday Upgrade Plan.md": ("meta", ["grixis", "authority", "plan"], [], None, ["grixis-repo"]),  # Bot cycle 64.1
     "grixis/Grixis Refinement Cycle.md": ("edh", ["grixis", "refinement", "commander-first", "homogenization"], [], "scripts/grixis_refine.py", ["scryfall", "edhrec", "spellbook"]),
 }
 INDEX_ONLY = {"Lore Entry Index.md", "Card Enrichment.md"}  # generated hub that links every lore page; never counted as another page's "related"

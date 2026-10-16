@@ -1,0 +1,6 @@
+{
+  "id": "g0-aud-mairsilthepretender-67436c8b",
+  "expected_outcome": "Make the change (user-approved list): Its {2}, {T} untap is the weakest redundant untap effect. Pack Rat creates a Mairsil copy from a caged activated ability; the copy ETB still cages another card even if the legend rule immediately removes one Mairsil.",
+  "label_authority": "source_process_decision (user-approved list)",
+  "leak_terms": []
+}

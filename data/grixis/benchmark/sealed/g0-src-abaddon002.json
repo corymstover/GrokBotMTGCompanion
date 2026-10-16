@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon002",
+  "expected_outcome": "Do not make the change (source status: CLOSED_NO_MATERIAL_UPGRADE). Functional alternative with broader target types but only temporary bounce and sorcery speed. Bituminous Blast answers creatures at instant speed and preserves cascade density. No specific permanent problem or weak cut is documented; close with baseline unchanged.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "closed_no_material_upgrad"
+  ]
+}

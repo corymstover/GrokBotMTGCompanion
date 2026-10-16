@@ -1,0 +1,8 @@
+{
+  "id": "g0-aba-03",
+  "expected_outcome": "No. Cascade resolves before the source spell, so the tutor can only set up a later spell.",
+  "label_authority": "original_process_correction_with_oracle",
+  "leak_terms": [
+    "resolves before the source"
+  ]
+}

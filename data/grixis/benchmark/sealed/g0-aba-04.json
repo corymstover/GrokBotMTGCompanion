@@ -1,0 +1,9 @@
+{
+  "id": "g0-aba-04",
+  "expected_outcome": "No cascade (not a spell cast, and Abaddon's cascade is hand-only), but it does trigger Prosper's Treasure ability (a card played from exile).",
+  "label_authority": "original_process_correction_with_oracle",
+  "leak_terms": [
+    "not a spell cast",
+    "does trigger prosper"
+  ]
+}

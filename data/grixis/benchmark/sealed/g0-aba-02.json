@@ -1,0 +1,9 @@
+{
+  "id": "g0-aba-02",
+  "expected_outcome": "Nothing: no card has negative mana value, so a 0-MV spell's cascade has no legal hit.",
+  "label_authority": "original_process_correction_with_oracle",
+  "leak_terms": [
+    "negative mana value",
+    "no legal hit"
+  ]
+}

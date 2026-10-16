@@ -1,0 +1,9 @@
+{
+  "id": "g0-new-mv-evelyn",
+  "expected_outcome": "MV 5 (the blueprint's '3-mana' was wrong).",
+  "label_authority": "oracle_fact (new MV checker)",
+  "leak_terms": [
+    "mv 5",
+    "wrong"
+  ]
+}

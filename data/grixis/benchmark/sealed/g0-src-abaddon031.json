@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon031",
+  "expected_outcome": "Do not make the change (source status: CLOSED_NO_MATERIAL_UPGRADE). The baseline already has Blasphemous Act, Delayed Blast Fireball, Call Forth the Tempest, and Bituminous Blast. No demonstrated removal coverage gap makes this a material upgrade.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "closed_no_material_upgrad"
+  ]
+}

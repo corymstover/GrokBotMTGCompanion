@@ -1,0 +1,9 @@
+{
+  "id": "g0-new-bjorna",
+  "expected_outcome": "No: goad doesn't stop the creature blocking (CR 701.15b). Value is the ping on X/1s and goad's defensive/political effect.",
+  "label_authority": "cory_correction",
+  "leak_terms": [
+    "701.15b",
+    "doesn't clear"
+  ]
+}

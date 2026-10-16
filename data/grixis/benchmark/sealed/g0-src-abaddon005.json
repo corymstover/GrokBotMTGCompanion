@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon005",
+  "expected_outcome": "Do not make the change (source status: CLOSE_ALTERNATIVE). Strong text-level fit, poor efficiency for the optimized baseline. It creates a slower activated sub-engine where the deck already has efficient damage enablers and printed cascade. No credible cut identified; reopen only if the deck repeatedly fails to cascade below the threshold.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "close_alternative"
+  ]
+}

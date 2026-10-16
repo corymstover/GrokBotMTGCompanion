@@ -1,0 +1,6 @@
+{
+  "id": "g0-aud-mairsilthepretender-5a81412d",
+  "expected_outcome": "Make the change (user-approved list): When Mairsil uses this acquired ability and no card named Mirror-Mad Phantasm can be found, the whole library mills. The current list lacks a dedicated deterministic payoff for that line; Kitten instead turns every noncreature spell into another Mairsil cage/reset trigger.",
+  "label_authority": "source_process_decision (user-approved list)",
+  "leak_terms": []
+}

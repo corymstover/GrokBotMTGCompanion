@@ -1,0 +1,6 @@
+{
+  "id": "g0-src-missy-e0764cf9",
+  "expected_outcome": "Make the change (user-approved list): One-shot sacrifice/value becomes a repeatable zero-mana sacrifice outlet and a deterministic mill kill with positive-power loop bodies.",
+  "label_authority": "source_process_decision (user-approved list)",
+  "leak_terms": []
+}

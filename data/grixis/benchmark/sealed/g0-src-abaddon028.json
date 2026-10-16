@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon028",
+  "expected_outcome": "Do not make the change (source status: CLOSED_NO_CUT_IDENTIFIED). Be'lakor has a genuine Demon-density/ETB-draw synergy with Nalfeshnee and five other Demons in the baseline, but its six-mana top-end overlaps the deck's established draw/engine package and life-loss risk. No lower-value high-end slot is demonstrated; do not add merely for synergy. Close no cut identified.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "closed_no_cut_identified"
+  ]
+}

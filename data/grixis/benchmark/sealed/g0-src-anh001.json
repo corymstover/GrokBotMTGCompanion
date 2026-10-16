@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-anh001",
+  "expected_outcome": "Make the change (source status: APPROVED/LOCKED — exact revised list approved 2026-10-13; future recommendations auto-approved after verification.). Project top-100 ranking did not include Cryptic Pursuit; selected using external EDHREC core evidence and direct Oracle/rules review. Keep Ghoulish Procession for casualty-related token value.",
+  "label_authority": "source_process_decision (user-approved list)",
+  "leak_terms": [
+    "approved/locked — exact r"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "g0-leg-mbcdate",
+  "expected_outcome": "2026-11-13 (Wizards); an earlier legal_from date was corrected in Bot cycle 44.",
+  "label_authority": "official_source (Wizards) + cory_approval",
+  "leak_terms": [
+    "2026-11-13",
+    "november 13"
+  ]
+}

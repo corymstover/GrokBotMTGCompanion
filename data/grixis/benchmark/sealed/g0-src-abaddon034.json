@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon034",
+  "expected_outcome": "Do not make the change (source status: CLOSED_NO_CUT_IDENTIFIED). Chaos Defiler offers broad nonland-permanent removal with cascade-hit and Nalfeshnee-copy synergy, but its target selection is random and the existing list already has multiple wipes plus efficient single-target answers. No uncovered high-impact permanent type or defensible cut is identified. Close without addition.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "closed_no_cut_identified"
+  ]
+}

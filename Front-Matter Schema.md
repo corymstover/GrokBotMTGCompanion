@@ -12,7 +12,7 @@ schema: 2
 # Front-Matter Schema
 
 > **Auto-generated** by `scripts/front_matter.py` (Bot cycle 17, issue [#65](https://github.com/corymstover/GrokBotMTGCompanion/issues/65)) from the `SCHEMA` and `PAGES` tables in the script, so this page cannot drift from what `--check` enforces. Schema version **2**. Do not hand-edit.
-> Coverage: **58** registered pages (README.md and GOAL.md are exempt), **110** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
+> Coverage: **59** registered pages (README.md and GOAL.md are exempt), **110** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
 
 ## Contents
 - [Format](#format)
@@ -145,7 +145,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `art-credits` | [Artist Index](Artist%20Index.md) |
 | `artifacts` | [Items & Artifacts Index](Items%20%26%20Artifacts%20Index.md) |
 | `artists` | [Artist Index](Artist%20Index.md) |
-| `authority` | [Grixis Authority Gap Analysis](grixis/Grixis%20Authority%20Gap%20Analysis.md) · [Grixis Authority Model](grixis/Grixis%20Authority%20Model.md) |
+| `authority` | [Grixis Authority Gap Analysis](grixis/Grixis%20Authority%20Gap%20Analysis.md) · [Grixis Authority Model](grixis/Grixis%20Authority%20Model.md) · [Grixis Birthday Upgrade Plan](grixis/Grixis%20Birthday%20Upgrade%20Plan.md) |
 | `background` | [EDH Pairings](EDH%20Pairings.md) |
 | `banned-restricted` | [Format Legality Matrix](Format%20Legality%20Matrix.md) |
 | `blueprint` | [EDH Deck Template](EDH%20Deck%20Template.md) |
@@ -190,7 +190,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `front-matter` | [Front-Matter Schema](Front-Matter%20Schema.md) |
 | `game-changers` | [EDH Bracket Calibration](EDH%20Bracket%20Calibration.md) |
 | `governance` | [Grixis Authority Gap Analysis](grixis/Grixis%20Authority%20Gap%20Analysis.md) · [Grixis Authority Model](grixis/Grixis%20Authority%20Model.md) |
-| `grixis` | [Grixis Authority Gap Analysis](grixis/Grixis%20Authority%20Gap%20Analysis.md) · [Grixis Authority Model](grixis/Grixis%20Authority%20Model.md) · [Grixis Corrections](grixis/Grixis%20Corrections.md) · [Grixis Evaluation](grixis/Grixis%20Evaluation.md) · [Grixis Integration Summary](grixis/Grixis%20Integration%20Summary.md) · [Grixis Mission](grixis/Grixis%20Mission.md) · [Grixis Packages](grixis/Grixis%20Packages.md) · [Grixis Refinement Cycle](grixis/Grixis%20Refinement%20Cycle.md) · [README](grixis/README.md) |
+| `grixis` | [Grixis Authority Gap Analysis](grixis/Grixis%20Authority%20Gap%20Analysis.md) · [Grixis Authority Model](grixis/Grixis%20Authority%20Model.md) · [Grixis Birthday Upgrade Plan](grixis/Grixis%20Birthday%20Upgrade%20Plan.md) · [Grixis Corrections](grixis/Grixis%20Corrections.md) · [Grixis Evaluation](grixis/Grixis%20Evaluation.md) · [Grixis Integration Summary](grixis/Grixis%20Integration%20Summary.md) · [Grixis Mission](grixis/Grixis%20Mission.md) · [Grixis Packages](grixis/Grixis%20Packages.md) · [Grixis Refinement Cycle](grixis/Grixis%20Refinement%20Cycle.md) · [README](grixis/README.md) |
 | `homogenization` | [Grixis Refinement Cycle](grixis/Grixis%20Refinement%20Cycle.md) |
 | `index` | [Card Index](Card%20Index.md) · [Knowledge Index](Knowledge%20Index.md) · [Lore Entry Index](Lore%20Entry%20Index.md) · [README](grixis/README.md) |
 | `interaction` | [EDH Interaction](EDH%20Interaction.md) |
@@ -220,7 +220,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `partner` | [EDH Pairings](EDH%20Pairings.md) |
 | `phase-8` | [Card Enrichment](Card%20Enrichment.md) |
 | `pilot-notes` | [EDH Bracket Calibration](EDH%20Bracket%20Calibration.md) |
-| `plan` | [Grixis Authority Gap Analysis](grixis/Grixis%20Authority%20Gap%20Analysis.md) |
+| `plan` | [Grixis Authority Gap Analysis](grixis/Grixis%20Authority%20Gap%20Analysis.md) · [Grixis Birthday Upgrade Plan](grixis/Grixis%20Birthday%20Upgrade%20Plan.md) |
 | `plane-restricted` | [EDH Themed Decks](EDH%20Themed%20Decks.md) |
 | `planes` | [Omenpath & Multiverse Connections](Omenpath%20%26%20Multiverse%20Connections.md) · [Planes Index](Planes%20Index.md) |
 | `planeswalkers` | [Characters Index](Characters%20Index.md) · [Planeswalker Dossiers](Planeswalker%20Dossiers.md) |

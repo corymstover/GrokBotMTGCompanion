@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon040",
+  "expected_outcome": "Do not make the change (source status: CLOSE_ALTERNATIVE). This is a slower value engine than existing draw/exile sources and may arrive too late to help the first critical cascade turn. No demonstrable cut for it.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "close_alternative"
+  ]
+}

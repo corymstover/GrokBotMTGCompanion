@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon054",
+  "expected_outcome": "Do not make the change (source status: Flexible meta option, not a universal upgrade. Reopen only for a specified artifact-heavy environment or demonstrated pe). ",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "flexible meta option, not"
+  ]
+}

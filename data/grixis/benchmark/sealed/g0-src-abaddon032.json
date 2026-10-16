@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon032",
+  "expected_outcome": "Do not make the change (source status: CLOSED_NO_MATERIAL_UPGRADE). This would pull the deck toward Equipment/Voltron instead of improving its spell-cascade, exile-cast, or combo plan. No cut or strategic requirement is present.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "closed_no_material_upgrad"
+  ]
+}

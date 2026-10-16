@@ -1,7 +1,7 @@
 {
 "schema": 2,
 "generated_by": "scripts/kb_find.py --build",
-"entries": 476,
+"entries": 477,
 "note": "Pages, decks and lore entries (Bot cycle 31); card entries are indexed by data/card_index.csv.",
 "items": [
 {
@@ -6612,6 +6612,49 @@
 "EDH Commander-First Deckbuilding.md",
 "EDH Lift and Synergy.md",
 "grixis/Grixis Refinement Cycle.md"
+]
+},
+{
+"path": "grixis/Grixis Birthday Upgrade Plan.md",
+"kind": "page",
+"title": "Grixis Birthday Upgrade Plan",
+"category": "meta",
+"tags": [
+"grixis",
+"authority",
+"plan"
+],
+"headings": [
+[
+2,
+"Cory's decisions (t54u)",
+"corys-decisions-t54u"
+],
+[
+2,
+"Ordered steps",
+"ordered-steps"
+],
+[
+2,
+"Acceptance standard for every step",
+"acceptance-standard-for-every-step"
+],
+[
+2,
+"Freeze rules",
+"freeze-rules"
+],
+[
+2,
+"G0 benchmark scoring rule (Bot cycle 64.3)",
+"g0-benchmark-scoring-rule-bot-cycle-643"
+]
+],
+"issues": [],
+"related": [
+"Front-Matter Schema.md",
+"grixis/Grixis Authority Model.md"
 ]
 },
 {

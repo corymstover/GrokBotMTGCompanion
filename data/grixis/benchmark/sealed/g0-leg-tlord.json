@@ -1,0 +1,9 @@
+{
+  "id": "g0-leg-tlord",
+  "expected_outcome": "No: it is legal only from 2026-11-13; the source's 'legal' row was corrected (one of 4 exception-registry rows fixed in Bot cycle 47).",
+  "label_authority": "official_source (Scryfall/Wizards)",
+  "leak_terms": [
+    "only from",
+    "2026-11-13"
+  ]
+}

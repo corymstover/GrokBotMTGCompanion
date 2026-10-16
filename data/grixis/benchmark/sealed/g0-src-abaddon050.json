@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon050",
+  "expected_outcome": "Do not make the change (source status: Kessig Flamebreather is cheaper and triggers on a wider spell class; no evidence justifies another three-mana pinger ove). ",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "kessig flamebreather is c"
+  ]
+}

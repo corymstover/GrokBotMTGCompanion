@@ -1,0 +1,9 @@
+{
+  "id": "g0-leg-yawgmothsbargain",
+  "expected_outcome": "Keep it as a labeled project exception authorized by Cory (NOT Commander-legal); the cycle-16 import was wrong to replace it in the canonical list. The legal replacement lives only in the derived compliance projection.",
+  "label_authority": "cory_decision (Bot cycle 47 decision 1)",
+  "leak_terms": [
+    "project exception",
+    "authorized"
+  ]
+}

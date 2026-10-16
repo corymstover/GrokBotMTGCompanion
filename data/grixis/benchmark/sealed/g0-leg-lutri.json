@@ -1,0 +1,9 @@
+{
+  "id": "g0-leg-lutri",
+  "expected_outcome": "Not Commander-legal as a companion (banned as a companion; legal in the 99). Cory authorized it as a project exception, so the canonical list keeps it labeled; cycle 16 had wrongly dropped it.",
+  "label_authority": "cory_decision (Bot cycle 47 decision 1) + official ban list",
+  "leak_terms": [
+    "project exception",
+    "authorized"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "g0-new-thrax",
+  "expected_outcome": "Mana value 7; the source was correct and GrokBot's cycle-55 'mana-value-six' claim was the error.",
+  "label_authority": "cory_correction",
+  "leak_terms": [
+    "mana value 7",
+    "seven",
+    "retract"
+  ]
+}

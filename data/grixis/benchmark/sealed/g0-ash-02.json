@@ -1,0 +1,10 @@
+{
+  "id": "g0-ash-02",
+  "expected_outcome": "No per-turn limit: every qualifying non-mana activation with a sacrifice in its cost triggers. The earlier 'once each turn' claim was false.",
+  "label_authority": "original_process_correction_with_oracle",
+  "leak_terms": [
+    "once each turn",
+    "no per-turn",
+    "no once-per-turn"
+  ]
+}

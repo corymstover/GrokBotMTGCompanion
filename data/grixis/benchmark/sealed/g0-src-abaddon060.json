@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon060",
+  "expected_outcome": "Do not make the change (source status: Existing acceleration package is already dense and faster; no evidence the deck lacks storm-turn mana. No cut.). ",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "existing acceleration pac"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon009",
+  "expected_outcome": "Do not make the change (source status: CLOSED_FOR_CURRENT_BUILD). This is the strongest untested threshold-enabler alternative in this bounded screen, but its symmetry is structurally dangerous for an optimized multiplayer list. No cut has a demonstrated net benefit. Reopen only if real-game evidence shows the current threshold package is too unreliable and the playgroup can tolerate the opposing Treasure ramp.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "closed_for_current_build"
+  ]
+}

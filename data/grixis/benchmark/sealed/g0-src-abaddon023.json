@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon023",
+  "expected_outcome": "Do not make the change (source status: CLOSED_NO_MATERIAL_UPGRADE). Unreliable symmetrical threshold setup versus direct burn and existing all-opponent pingers. No cut; no material improvement demonstrated.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "closed_no_material_upgrad"
+  ]
+}

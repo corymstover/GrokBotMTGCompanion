@@ -1,0 +1,96 @@
+"""Bot cycle 64.1 (G0): benchmark corpus checker: sealing, leak detection, source existence, holdout rule."""
+import copy
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
+import grixis_benchmark as gb  # noqa: E402
+
+
+def test_corpus_clean():
+    assert gb.problems() == []
+
+
+def test_prompts_carry_no_outcome_fields_and_every_item_is_sourced():
+    c = gb.load(gb.B / "corpus.json")["items"]
+    assert len(c) >= 40
+    for it in c:
+        assert "expected_outcome" not in it and it["sources"]
+        assert it["contamination"]["level"] in ("yes", "partial", "no")
+
+
+def test_leak_detected():
+    it = {"id": "g0-x", "prompt": "Is Thraximundar seven mana?"}
+    assert gb.leak_problems(it, {"leak_terms": ["seven"], "expected_outcome": "Mana value 7."})
+    assert not gb.leak_problems(it, {"leak_terms": ["retract"], "expected_outcome": "Mana value 7."})
+
+
+def test_source_checks_reject_missing_quote_and_file():
+    assert gb.source_problems({"kind": "file", "path": "Update Log.md", "quote": "no such quote xyzzy", "commit": "6ccc5b0"})
+    assert gb.source_problems({"kind": "file", "path": "nope.md", "quote": "abcd", "commit": "6ccc5b0"})
+    assert gb.source_problems({"kind": "chat", "ref": "t99999u", "recorded_in": "data/grixis/blueprint_reviews.json"})
+    assert gb.source_problems({"kind": "chat", "ref": "t50u", "recorded_in": "data/grixis/blueprint_reviews.json"}) == []
+
+
+def test_historical_corpus_not_claimed_blind():
+    c = gb.load(gb.B / "corpus.json")["items"]
+    assert not any(i["contamination"]["level"] == "no" for i in c)  # Cory D2: never claim perfect blindness
+
+
+def test_manifest_records_freeze_rule():
+    m = gb.load(gb.B / "manifest.json")
+    assert "immutable" in m["freeze_rule"] and m["immutable_from"] == "first commit of step A"
+
+
+def test_corpus_frozen_and_any_change_detected():
+    m = gb.load(gb.B / "manifest.json")
+    assert m["status"] == "immutable" and m["frozen_at"] and m["corpus_sha256"].startswith("sha256:")
+    p = gb.B / "corpus.json"
+    orig = p.read_bytes()
+    try:
+        p.write_bytes(orig.replace(b'"prompt": "', b'"prompt": "X', 1))
+        assert any("corpus.json changed" in x for x in gb.problems())
+    finally:
+        p.write_bytes(orig)
+    assert gb.problems() == []
+
+
+def test_v1_labels_marked_unvalidated_and_snapshots_present():
+    c = gb.load(gb.B / "corpus.json")["items"]
+    for it in c:
+        s = gb.load(gb.B / "sealed" / f"{it['id']}.json")
+        if it["originated_by"] == "grokbot_v1" and s["label_authority"].startswith(("grokbot_v1", "unvalidated")):
+            assert s["label_authority"].startswith("unvalidated_v1_judgment")
+        if it["deck"] != "multi":
+            assert it.get("deck_snapshot", {}).get("canonical_lh1", "").startswith("lh1:")
+
+
+def test_every_item_has_evaluation_role_and_reports_must_stratify():
+    c = gb.load(gb.B / "corpus.json")["items"]
+    assert {i["evaluation_role"] for i in c} <= {"detection", "regression_guard", "judgment_calibration"}
+    m = gb.load(gb.B / "manifest.json")
+    assert m["reporting_rule"]["pooled_score_allowed"] is False
+    assert m["reporting_rule"]["stratify_by"] == ["evaluation_role", "originated_by", "contamination.level"]
+
+
+def test_regression_guards_are_already_in_the_baseline_and_v1_never_detection():
+    c = gb.load(gb.B / "corpus.json")["items"]
+    for it in c:
+        s = gb.load(gb.B / "sealed" / f"{it['id']}.json")
+        if s["label_authority"].startswith("unvalidated_v1_judgment"):
+            assert it["evaluation_role"] == "judgment_calibration"
+        if it["evaluation_role"] == "regression_guard":
+            assert s["expected_outcome"].startswith("Make the change")
+
+
+def test_deck_snapshot_ids_exist_in_registry():
+    reg = gb.load(gb.ROOT / "data" / "grixis" / "registry.json")["decks"]
+    ids = {d["deck_id"] for d in (reg.values() if isinstance(reg, dict) else reg)}
+    for it in gb.load(gb.B / "corpus.json")["items"]:
+        if "deck_snapshot" in it:
+            assert it["deck_snapshot"]["registry_deck_id"] in ids
+
+
+def test_spotcheck_is_agent_check_not_human():
+    s = gb.load(gb.B / "role_spotcheck.json")
+    assert s["kind"] == "agent_check" and "NOT a human validation" in s["note"] and len(s["sample"]) == 25 and s["seed"] == 6440

@@ -1,0 +1,240 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/benchmark_item.schema.json",
+  "title": "G0 benchmark item (Bot cycle 64.1): outcome-free prompt; the expected outcome lives in a sealed file whose sha256 is in manifest.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^g0-[a-z0-9-]+$"
+    },
+    "category": {
+      "enum": [
+        "factual",
+        "rules",
+        "legality",
+        "color_identity",
+        "false_package_label",
+        "commander_identity_failure",
+        "goodstuff_drift",
+        "mana_decision",
+        "bad_swap",
+        "good_upgrade_found",
+        "bad_upgrade_rejected",
+        "combo_misunderstanding",
+        "project_exception_mistake",
+        "power_ceiling_mistake"
+      ]
+    },
+    "deck": {
+      "type": "string"
+    },
+    "originated_by": {
+      "enum": [
+        "original_encyclopedia",
+        "grokbot_v1",
+        "new_architecture",
+        "cory"
+      ]
+    },
+    "caught_by": {
+      "enum": [
+        "original_encyclopedia",
+        "grokbot_v1",
+        "new_architecture",
+        "cory"
+      ]
+    },
+    "prompt": {
+      "type": "string",
+      "minLength": 10
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "kind": {
+                "const": "file"
+              },
+              "path": {
+                "type": "string"
+              },
+              "quote": {
+                "type": "string",
+                "minLength": 4
+              },
+              "commit": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "kind",
+              "path",
+              "quote",
+              "commit"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "kind": {
+                "const": "pr"
+              },
+              "number": {
+                "type": "integer"
+              },
+              "merge_commit": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{7,40}$"
+              }
+            },
+            "required": [
+              "kind",
+              "number",
+              "merge_commit"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "kind": {
+                "const": "chat"
+              },
+              "ref": {
+                "type": "string",
+                "pattern": "^t[0-9]+u$"
+              },
+              "recorded_in": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "kind",
+              "ref",
+              "recorded_in"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      }
+    },
+    "contamination": {
+      "type": "object",
+      "properties": {
+        "level": {
+          "enum": [
+            "yes",
+            "partial",
+            "no"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 10
+        }
+      },
+      "required": [
+        "level",
+        "reason"
+      ],
+      "additionalProperties": false
+    },
+    "deck_snapshot": {
+      "type": "object",
+      "description": "Bot cycle 64.2: the deck's list identity when the item was sealed (registry at the recorded commit).",
+      "properties": {
+        "registry_deck_id": {
+          "type": "string"
+        },
+        "commanders": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "canonical_lh1": {
+          "type": "string",
+          "pattern": "^lh1:[0-9a-f]{64}$"
+        },
+        "baseline_lh1": {
+          "type": "string",
+          "pattern": "^lh1:[0-9a-f]{64}$"
+        },
+        "source_raw_sha256": {
+          "type": "string"
+        },
+        "source_path": {
+          "type": "string"
+        },
+        "registry_commit": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "registry_deck_id",
+        "commanders",
+        "canonical_lh1",
+        "baseline_lh1",
+        "registry_commit"
+      ],
+      "additionalProperties": false
+    },
+    "evaluation_role": {
+      "enum": [
+        "detection",
+        "regression_guard",
+        "judgment_calibration"
+      ],
+      "description": "Bot cycle 64.3. detection: the system must find/flag it. regression_guard: the canonical baseline already contains the outcome; the system passes if it does NOT propose reverting it without new evidence (cannot measure detection). judgment_calibration: the label is an unvalidated v1 or source-process judgment; scored as agreement/calibration, never as accuracy."
+    }
+  },
+  "required": [
+    "id",
+    "category",
+    "deck",
+    "originated_by",
+    "caught_by",
+    "prompt",
+    "sources",
+    "contamination",
+    "evaluation_role"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "sealed": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "expected_outcome": {
+          "type": "string",
+          "minLength": 5
+        },
+        "label_authority": {
+          "type": "string"
+        },
+        "leak_terms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "expected_outcome",
+        "label_authority",
+        "leak_terms"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

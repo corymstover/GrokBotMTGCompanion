@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon030",
+  "expected_outcome": "Do not make the change (source status: CLOSED_NO_CUT_IDENTIFIED). Magnus the Red converts The Lost and the Damned tokens into instant/sorcery cost reduction, but it is a five-mana setup that depends on tokens already present. Nightscape Familiar provides cheaper, reliable reductions to blue/red spells; the new engine has no identified cut. Close no material upgrade.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "closed_no_cut_identified"
+  ]
+}

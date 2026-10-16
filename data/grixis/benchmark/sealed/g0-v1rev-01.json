@@ -1,0 +1,10 @@
+{
+  "id": "g0-v1rev-01",
+  "expected_outcome": "Reject (v1 cycle-39 swap reverted by the cycle-40 power guard): commander-page inclusion 15.9% < cut's 18.2%; the cut can be cast for free, the add cannot (tempo downgrade).",
+  "label_authority": "unvalidated_v1_judgment: grokbot_v1_power_guard (not Cory-validated)",
+  "leak_terms": [
+    "revert",
+    "power guard",
+    "tempo downgrade"
+  ]
+}

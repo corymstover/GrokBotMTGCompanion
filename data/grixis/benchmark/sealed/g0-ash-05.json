@@ -1,0 +1,9 @@
+{
+  "id": "g0-ash-05",
+  "expected_outcome": "Yes. The sacrifice-five-artifacts activation qualifies; the copy can create two extra turns if both resolve.",
+  "label_authority": "original_process_correction_with_oracle",
+  "leak_terms": [
+    "two extra turns",
+    "does qualify"
+  ]
+}

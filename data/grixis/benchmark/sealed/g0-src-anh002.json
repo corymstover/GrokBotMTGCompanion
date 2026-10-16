@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-anh002",
+  "expected_outcome": "Do not make the change (source status: REVIEWED — not selected in first pass; reconsider if fodder remains inconsistent.). Jadar creates its token only at end step and only if no decayed creature is controlled; it is not immediate fodder on the turn cast.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "reviewed — not selected i"
+  ]
+}

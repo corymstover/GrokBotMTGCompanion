@@ -1,0 +1,6 @@
+{
+  "id": "g0-v1hr-05",
+  "expected_outcome": "Accept (v1 hand review): Green Goblin gives every nonland card in the graveyard mayhem and makes graveyard casts cost {2} less. Thrill of Possibility's discard is a cost, so the discarded card becomes castable from the graveyard at a discount the same turn: it draws two and turns the commander on, at instant speed. Mystic Remora only draws off opponents' noncreature spells and never interacts with the commander. Norman Osborn decks play Thrill 37.6% vs Remora 19.2%; overall ranks 212 vs 101 (both staple tier).",
+  "label_authority": "unvalidated_v1_judgment: grokbot_v1_hand_review (not Cory-validated)",
+  "leak_terms": []
+}

@@ -1,0 +1,8 @@
+{
+  "id": "g0-src-abaddon026",
+  "expected_outcome": "Do not make the change (source status: CLOSE_ALTERNATIVE). Useful in a creature-heavy pod, but the replacement-creature downside is material and the baseline already has several sweepers plus Bituminous Blast/Deadly Rollick. No target-metagame gap justifies a cut.",
+  "label_authority": "source_process_decision (not human-validated)",
+  "leak_terms": [
+    "close_alternative"
+  ]
+}
