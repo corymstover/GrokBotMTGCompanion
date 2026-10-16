@@ -33,7 +33,9 @@ Steps (run in this order; each prints its own summary):
   7h simulator      scripts/grixis_sim.py --selftest  Bot cycle 57.2 (M3): goldfish Monte Carlo vs exact hypergeometric math on a real deck
   7i paired-tests   scripts/grixis_paired.py --check  Bot cycle 57.3 (M3): paired goldfish records for every registered challenger
                     (test.schema.json, canonical hash, simulator sha, PREREG, verdict rule, exact re-run)
-  7j unit-tests     scripts/run_tests.py  tests/ via pytest (stdlib fallback runner when pytest is absent)
+  7j stress         scripts/grixis_stress.py --check  Bot cycle 57.4 (M3): 9 scripted stress scenarios × 62 decks (schema, coverage,
+                    version, verdict rule, no win-rate metric, exact re-run of 2 decks)
+  7k unit-tests     scripts/run_tests.py  tests/ via pytest (stdlib fallback runner when pytest is absent)
   8 freshness    (built in)                              generated pages built from an older bulk than the cache (warning);
                                                          with --online, a newer Scryfall bulk than the cache (warning; --strict fails)
 Default is offline (SCRYFALL_OFFLINE=1: newest cached bulk in .cache/, recorded citation results).
@@ -186,6 +188,7 @@ def main(argv):
              ("evidence", ["scripts/grixis_evidence.py", "--check"]),  # Bot cycle 57 (M3): evidence vectors, classes, snapshot keys
              ("simulator", ["scripts/grixis_sim.py", "--selftest"]),  # Bot cycle 57.2 (M3): simulator vs exact math
              ("paired-tests", ["scripts/grixis_paired.py", "--check"]),  # Bot cycle 57.3 (M3): paired champion-vs-challenger records
+             ("stress", ["scripts/grixis_stress.py", "--check"]),  # Bot cycle 57.4 (M3): scripted stress scenarios
              ("unit-tests", ["scripts/run_tests.py"]),  # Bot cycle 47 (M0): tests/ (hashes, states, approvals, legality vs authorization, schemas)
              ("freshness", None)]
     results = []

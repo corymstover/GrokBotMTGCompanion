@@ -3,7 +3,7 @@
  "records": [
   {
    "schema_version": 1,
-   "id": "test:abaddon-the-despoiler:goldfish:b7af0b6729166820",
+   "id": "test:abaddon-the-despoiler:goldfish:1d42608b52f421f7",
    "deck_id": "Abaddon_the_Despoiler",
    "kind": "goldfish_mc",
    "baseline_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
@@ -11,7 +11,7 @@
    "simulator": {
     "name": "grixis_sim",
     "version": "1.0",
-    "model_sha256": "sha256:c78326fdc11a3e11a7a5e113c1e7a1fce6847ca6c046f096de16288d22061362"
+    "model_sha256": "sha256:d34115a0e77bce978e24cc1bb092ccb00f27c235f0b30fd318f1491c42f2057f"
    },
    "seed": 57,
    "paired": true,

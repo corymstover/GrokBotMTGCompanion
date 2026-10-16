@@ -19,8 +19,9 @@ Goldfish results are about this deck's own development (mana, curve, commander, 
 say nothing about opponents, interaction or card draw the model doesn't simulate (see LIMITATIONS).
 
 Records: data/grixis/tests/<slug>.json ({"records": [...]}, each valid against test.schema.json). The id is keyed by the
-snapshot (both list hashes, the simulator's model sha256, seed, samples, PREREG), so a record is reused while nothing
-changed and --check fails when the simulator, a list or the registry changed (stale), or a re-run doesn't reproduce it.
+snapshot (both list hashes, the simulator version, seed, samples, PREREG). --check fails when a list or the registry
+changed (stale), the simulator version differs, or a re-run doesn't reproduce the stored results exactly; a behaviour
+change therefore needs a version bump (model_sha256 records the code that produced the record).
 
 Usage:
   python3 scripts/grixis_paired.py --run-registered [--samples 2000] [--seed 57]
@@ -135,7 +136,7 @@ def verdict(results):
 
 
 def record(slug, did, champ_hash, chal, samples, seed, results, swaps):
-    key = json.dumps({"b": champ_hash, "c": chal["hash"], "m": gs.model_sha256(), "s": seed, "n": samples, "p": PREREG}, sort_keys=True)
+    key = json.dumps({"b": champ_hash, "c": chal["hash"], "v": gs.VERSION, "s": seed, "n": samples, "p": PREREG}, sort_keys=True)
     tid = "test:" + slug + ":goldfish:" + hashlib.sha256(key.encode()).hexdigest()[:16]
     return {"schema_version": 1, "id": tid, "deck_id": ga.registry_id(did), "kind": "goldfish_mc", "baseline_hash": champ_hash,
             "challenger_hash": chal["hash"], "simulator": {"name": gs.NAME, "version": gs.VERSION, "model_sha256": gs.model_sha256()},
@@ -208,8 +209,8 @@ def check(verbose=True):
             did, e, ch = want[k]
             if r["baseline_hash"] != e["canonical_project_list"]["hash"]:
                 p.append(f"{f.name}: {r['id']}: baseline hash is not the canonical list hash (stale)")
-            if r["simulator"]["model_sha256"] != gs.model_sha256():
-                p.append(f"{f.name}: {r['id']}: simulator changed since the run (stale; rerun --run-registered)")
+            if r["simulator"]["version"] != gs.VERSION:
+                p.append(f"{f.name}: {r['id']}: simulator v{r['simulator']['version']} != current v{gs.VERSION} (rerun --run-registered)")
             if r["preregistered"]["metric"] != PREREG["primary"]["metric"] or r["preregistered"]["threshold"] != PREREG["primary"]["threshold"]:
                 p.append(f"{f.name}: {r['id']}: pre-registered metric/threshold differs from PREREG")
             if r["verdict"] != verdict(r["results"]):
