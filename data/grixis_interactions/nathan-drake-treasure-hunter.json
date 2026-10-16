@@ -300,7 +300,7 @@
     "Shizo, Death's Storehouse",
     "Brotherhood Regalia"
    ],
-   "ruling": "Nathan triggers on attack, so damage isn't needed, but he's only a 3/2 first striker:\n- **Arena of Glory:** exert it for {R}{R}. If that mana is spent on Nathan, he has haste the turn he's cast. It enters untapped only if you control a Mountain.\n- **Shizo:** {B},{T} gives a legendary creature fear.\n- **Brotherhood Regalia:** equip legendary {1}. The creature is unblockable and has ward {2}.",
+   "ruling": "Nathan triggers on attack, so damage isn't needed, but he's only a 3/2 first striker:\n- **Arena of Glory:** pay {R}, then tap and exert it for {R}{R}. If that mana is spent on Nathan, he has haste the turn he's cast. It enters untapped only if you control a Mountain.\n- **Shizo:** {B},{T} gives a legendary creature fear.\n- **Brotherhood Regalia:** equip legendary {1}. The creature is unblockable and has ward {2}.",
    "status": "verified",
    "cr": [
     "702.10b",
@@ -310,6 +310,10 @@
     {
      "card": "Brotherhood Regalia",
      "quote": "Equipped creature has ward {2}, is an Assassin in addition to its other types, and can't be blocked."
+    },
+    {
+     "card": "Arena of Glory",
+     "quote": "{R}, {T}, Exert this land: Add {R}{R}. If any of that mana is spent on a creature spell, it gains haste until end of turn."
     }
    ],
    "rulings": [],

@@ -1,0 +1,390 @@
+{
+ "schema": 1,
+ "deck_id": "Nekusar__the_Mindrazer",
+ "slug": "nekusar-the-mindrazer",
+ "commanders": [
+  "Nekusar, the Mindrazer"
+ ],
+ "deck_sha256": "485e4aa8caea97c607374dde3e15c052ee87e15502ee2161a37cc0ecfbe2cf5f",
+ "list_source": "exports/grixis-archidekt/nekusar-the-mindrazer.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 51,
+ "batch": "D",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/Nekusar_the_Mindrazer_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification; rules sections 5–15 re-checked against Oracle, rulings and CR"
+  }
+ ],
+ "summary": "Nekusar gives everyone extra draws and pings opponents for each card. The list stacks additive trigger multipliers (Wizard's Staff, Harmonic Prodigy, Krang), more draw punishers, Ghyrson Starn's exactly-1 bonus, and both discard and shuffle wheels. All seven Spellbook lines are confirmed.\n\nRules surprises: Krang doesn't add to Nekusar's draw-step trigger; the multipliers add, they don't multiply; shuffle wheels don't trigger discard payoffs; Molten Psyche counts every draw that turn. One flag: Krang doubles Spiteful Visions and Phyrexian Tyranny on your own draws.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "nekusar-01",
+   "category": "commander",
+   "title": "Extra draw for everyone; 1 damage per opponent draw",
+   "cards": [
+    "Nekusar, the Mindrazer"
+   ],
+   "ruling": "At the beginning of each player's draw step, that player draws an extra card. That trigger resolves after the normal draw. Nekusar deals 1 damage to an opponent for each card they draw, at any time and for any reason. Only real draws count. Effects that put cards into a hand without saying \"draw\" don't trigger it. Your own draws don't trigger it either.",
+   "short": "Everyone draws +1 in their draw step; each opponent draw = 1 damage.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "504.1",
+    "120.3"
+   ],
+   "oracle": [
+    {
+     "card": "Nekusar, the Mindrazer",
+     "quote": "Whenever an opponent draws a card, Nekusar deals 1 damage to that player."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Nekusar, the Mindrazer",
+     "quote": "If a spell or ability causes you to put cards into your hand without specifically using the word \"draw,\" it doesn't count as drawing cards and it doesn't cause Nekusar's second ability to trigger."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "nekusar-02",
+   "category": "trigger-order",
+   "title": "Wizard's Staff + Harmonic Prodigy + Krang: additive, and Krang skips the draw-step trigger",
+   "cards": [
+    "Nekusar, the Mindrazer",
+    "Wizard's Staff",
+    "Harmonic Prodigy",
+    "Krang, the All-Powerful"
+   ],
+   "ruling": "Each of these adds one more instance of a trigger. They add up; they don't multiply:\n- **Wizard's Staff:** equip Wizard {1}, and Nekusar is a Wizard.\n- **Harmonic Prodigy:** affects another Wizard you control.\n- **Krang:** only triggers caused by a player drawing a card. Nekusar's draw-step trigger is caused by the step beginning, so Krang doesn't add to it.\n\nWith all three: 3 draw-step triggers, so an opponent draws 4 cards in their draw step, and 4 damage triggers per card drawn. Each extra instance is a separate trigger, not a copy, and you choose targets for each.",
+   "short": "Staff/Prodigy add to both triggers; Krang only to the damage trigger (3 and 4 instances).",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "oracle": [
+    {
+     "card": "Wizard's Staff",
+     "quote": "If a triggered ability of equipped creature triggers, that ability triggers an additional time."
+    },
+    {
+     "card": "Harmonic Prodigy",
+     "quote": "If a triggered ability of a Shaman or another Wizard you control triggers, that ability triggers an additional time."
+    },
+    {
+     "card": "Krang, the All-Powerful",
+     "quote": "If a player drawing a card causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Krang, the All-Powerful",
+     "quote": "Krang's first ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Nekusar_the_Mindrazer_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Nekusar's draw-step trigger: **base + Staff + Prodigy = 3 instances**."
+    },
+    {
+     "path": "refinement/verification/Nekusar_the_Mindrazer_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Krang **does not** add an instance of Nekusar's beginning-of-draw-step ability"
+    }
+   ]
+  },
+  {
+   "id": "nekusar-03",
+   "category": "dependency",
+   "title": "Krang also doubles Spiteful Visions and Phyrexian Tyranny on your own draws",
+   "cards": [
+    "Nekusar, the Mindrazer",
+    "Krang, the All-Powerful",
+    "Spiteful Visions",
+    "Phyrexian Tyranny",
+    "Wheel of Fortune",
+    "Echo of Eons"
+   ],
+   "ruling": "Spiteful Visions damages every player who draws, you included. Phyrexian Tyranny makes every player who draws lose 2 life unless they pay {2}. You control both, so Krang doubles them on your own draws too. A Wheel of Fortune with both out and Krang costs you 14 damage and 28 life (or 14 payments of {2}), on top of the extra draw-step cards. Sheoldred's +2 per draw softens this. Plan your own wheels around your life total.",
+   "status": "flag",
+   "flag": {
+    "kind": "dependency-risk",
+    "note": "Spiteful Visions and Phyrexian Tyranny punish your own draws, and Krang doubles those triggers too, so your wheels can kill you."
+   },
+   "cr": [
+    "603.2",
+    "120.3"
+   ],
+   "oracle": [
+    {
+     "card": "Spiteful Visions",
+     "quote": "Whenever a player draws a card, this enchantment deals 1 damage to that player."
+    },
+    {
+     "card": "Phyrexian Tyranny",
+     "quote": "Whenever a player draws a card, that player loses 2 life unless they pay {2}."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Spiteful Visions",
+     "quote": "Spiteful Visions's second ability triggers any time any player draws a card, not just when a player draws a card as a result of its first ability."
+    },
+    {
+     "card": "Phyrexian Tyranny",
+     "quote": "If more than one card is drawn at a time, this triggers for each card drawn."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "nekusar-04",
+   "category": "replacement",
+   "title": "Ghyrson Starn wants exactly 1 damage; doublers would break it",
+   "cards": [
+    "Nekusar, the Mindrazer",
+    "Ghyrson Starn, Kelermorph",
+    "Fate Unraveler",
+    "Underworld Dreams",
+    "Razorkin Needlehead",
+    "Kederekt Parasite"
+   ],
+   "ruling": "Each 1-damage ping from another source you control triggers Ghyrson for 2 more. That covers Nekusar, Fate Unraveler, Underworld Dreams, Razorkin Needlehead, Kederekt Parasite, Spiteful Visions and Niv-Mizzet, so each ping becomes 3. Several pings at once trigger Ghyrson that many times. A damage doubler would turn the 1 into 2 and stop Ghyrson. The source cut Solphim for exactly that reason, and this list has no doubler.",
+   "status": "verified",
+   "cr": [
+    "614.1a",
+    "120.3"
+   ],
+   "oracle": [
+    {
+     "card": "Ghyrson Starn, Kelermorph",
+     "quote": "Three Autostubs — Whenever another source you control deals exactly 1 damage to a permanent or player, Ghyrson Starn deals 2 damage to that permanent or player."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Ghyrson Starn, Kelermorph",
+     "quote": "If another source deals exactly 1 damage to a permanent or player multiple times or deals exactly 1 damage to multiple permanents and/or players simultaneously, Ghryson Starn, Kellermorph's last ability triggers that many times."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Nekusar_the_Mindrazer_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "With Solphim present, Nekusar's would-be 1 becomes 2; Ghyrson therefore does not see an event in which Nekusar dealt exactly 1."
+    }
+   ]
+  },
+  {
+   "id": "nekusar-05",
+   "category": "combo",
+   "title": "Peer into the Abyss + any draw punisher",
+   "cards": [
+    "Nekusar, the Mindrazer",
+    "Peer into the Abyss",
+    "Sheoldred, the Apocalypse",
+    "Underworld Dreams",
+    "Orcish Bowmasters",
+    "Razorkin Needlehead"
+   ],
+   "ruling": "Target an opponent. They lose half their life, rounded up, and draw half their library, rounded up. Each draw triggers Nekusar, Underworld Dreams, Razorkin Needlehead, Bowmasters (after their first draw-step card) or Sheoldred (2 each). With the multipliers that's usually lethal. It works best when their library is about the size of their life total or larger.",
+   "short": "Peer: half life + half library drawn → each draw triggers the punishers.",
+   "status": "verified",
+   "cr": [
+    "120.3",
+    "119.3"
+   ],
+   "oracle": [
+    {
+     "card": "Peer into the Abyss",
+     "quote": "Target player draws cards equal to half the number of cards in their library and loses half their life. Round up each time."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Peer into the Abyss",
+     "quote": "The life lost is rounded up, not the remaining life total. For example, if the target player has 7 life, they lose 4 life and end up with 3. Similarly, the number of cards drawn is rounded up, not the number of cards remaining in the library."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "1561-1972",
+     "quote": "Nekusar triggers for each card drawn this way."
+    },
+    {
+     "id": "1561-2720",
+     "quote": "An opponent has cards in their library greater than their life total."
+    },
+    {
+     "id": "1561-2498",
+     "quote": "Sheoldred's second ability triggers for each card drawn this way."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "nekusar-06",
+   "category": "combo",
+   "title": "Curiosity on Niv-Mizzet loops; on Nekusar it's value",
+   "cards": [
+    "Nekusar, the Mindrazer",
+    "Curiosity",
+    "Niv-Mizzet, Parun",
+    "Consecrated Sphinx"
+   ],
+   "ruling": "On Niv-Mizzet, Curiosity loops: each draw pings an opponent, and that may draw again. It's optional and limited by your library. On Nekusar, each ping to an opponent may draw you a card. Your draws don't trigger Nekusar, so it doesn't loop, but Niv pings on each of them. Consecrated Sphinx's two draws per opponent draw also feed Niv.",
+   "status": "verified",
+   "cr": [
+    "603.2",
+    "121.1"
+   ],
+   "oracle": [
+    {
+     "card": "Curiosity",
+     "quote": "Whenever enchanted creature deals damage to an opponent, you may draw a card."
+    },
+    {
+     "card": "Niv-Mizzet, Parun",
+     "quote": "Whenever you draw a card, Niv-Mizzet deals 1 damage to any target."
+    }
+   ],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "1089-2353",
+     "quote": "Curiosity attached to Niv-Mizzet."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Nekusar_the_Mindrazer_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Because Curiosity uses **may**, the controller can stop the sequence."
+    }
+   ]
+  },
+  {
+   "id": "nekusar-07",
+   "category": "trigger-order",
+   "title": "Draw-step stack: normal draw, then order Nekusar's extra draws before Teferi's Puzzle Box",
+   "cards": [
+    "Nekusar, the Mindrazer",
+    "Teferi's Puzzle Box",
+    "Kami of the Crescent Moon",
+    "Anvil of Bogardan",
+    "Spiteful Visions"
+   ],
+   "ruling": "The turn-based draw happens first, then the beginning-of-draw-step triggers go on the stack. On any player's turn, you control Nekusar, Kami, Spiteful Visions, Anvil and Teferi's Puzzle Box, so you choose their order. Let the extra-draw triggers resolve first, then Puzzle Box. That player's bigger hand goes to the bottom and gets redrawn, and each redraw triggers the punishers. Anvil's discard after each extra draw feeds Waste Not and Liliana's Caress.",
+   "status": "verified",
+   "cr": [
+    "504.1",
+    "603.3b"
+   ],
+   "oracle": [
+    {
+     "card": "Teferi's Puzzle Box",
+     "quote": "At the beginning of each player's draw step, that player puts the cards in their hand on the bottom of their library in any order, then draws that many cards."
+    },
+    {
+     "card": "Anvil of Bogardan",
+     "quote": "At the beginning of each player's draw step, that player draws an additional card, then discards a card."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Teferi's Puzzle Box",
+     "quote": "You do your normal draw before this ability is put on the stack."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "nekusar-08",
+   "category": "engine",
+   "title": "Wheels: discard vs shuffle — Waste Not and Liliana's Caress need discard; Molten Psyche counts all draws",
+   "cards": [
+    "Nekusar, the Mindrazer",
+    "Wheel of Fortune",
+    "Windfall",
+    "Whispering Madness",
+    "Dark Deal",
+    "Jace's Archivist",
+    "Winds of Change",
+    "Molten Psyche",
+    "Waste Not",
+    "Liliana's Caress"
+   ],
+   "ruling": "Two kinds of wheel:\n- **Discard wheels** (Wheel of Fortune, Windfall, Whispering Madness, Dark Deal, Jace's Archivist, Wheel and Deal, Reforge the Soul, Magus of the Wheel): trigger Waste Not and Liliana's Caress (2 life per discarded card).\n- **Shuffle wheels** (Winds of Change, Molten Psyche): the hand is shuffled away, not discarded, so no discard triggers. They're still cheap mass draws.\n\nMolten Psyche's metalcraft damage counts every card each opponent drew that turn, not just its own draws, so cast it last in the chain.",
+   "status": "verified",
+   "cr": [
+    "701.9a",
+    "701.24a"
+   ],
+   "oracle": [
+    {
+     "card": "Molten Psyche",
+     "quote": "Metalcraft — If you control three or more artifacts, Molten Psyche deals damage to each opponent equal to the number of cards that player has drawn this turn."
+    },
+    {
+     "card": "Liliana's Caress",
+     "quote": "Whenever an opponent discards a card, that player loses 2 life."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Molten Psyche",
+     "quote": "The metalcraft effect counts all cards each opponent drew for any reason during that turn, not just the cards those opponents drew due to Molten Psyche’s first effect."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Nekusar_the_Mindrazer_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "It does not discard and therefore does not trigger Waste Not/Liliana's Caress from those hand changes"
+    }
+   ]
+  },
+  {
+   "id": "nekusar-09",
+   "category": "combo",
+   "title": "Underworld Breach + Wheel of Fortune + Jeska's Will",
+   "cards": [
+    "Nekusar, the Mindrazer",
+    "Underworld Breach",
+    "Wheel of Fortune",
+    "Jeska's Will"
+   ],
+   "ruling": "With Breach, escape Jeska's Will for at least six {R}, then escape Wheel of Fortune. Every player discards and draws seven, and with Nekusar each opponent takes at least 7. Repeat. It needs an opponent with six or more cards in hand and enough graveyard to exile.",
+   "status": "verified",
+   "cr": [
+    "702.138a"
+   ],
+   "oracle": [],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "1368-1878-2706",
+     "quote": "An opponent has at least six cards in hand."
+    },
+    {
+     "id": "1368-1878-2706",
+     "quote": "Cast Wheel of Fortune from your graveyard for its escape cost by paying {2}{R} and exiling three other cards from your graveyard, causing each player to discard their hand and draw seven cards."
+    }
+   ],
+   "evidence_class": "fact"
+  }
+ ]
+}
