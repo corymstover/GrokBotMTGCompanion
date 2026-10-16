@@ -2359,8 +2359,8 @@
    "source_repository": "corymstover/grixis-commander-encyclopediaGPT",
    "source_commit": "1836b97"
   },
-  "Goben__Gene_Splice_Savant": {
-   "deck_id": "Goben__Gene_Splice_Savant",
+  "Norman_Osborn_Green_Goblin": {
+   "deck_id": "Norman_Osborn_Green_Goblin",
    "slug": "norman-osborn",
    "commanders": [
     "Norman Osborn // Green Goblin"
@@ -2456,7 +2456,7 @@
      "evidence": [
       "companion:data/grixis/blueprints/norman-osborn.json#power.grok_estimated_ceiling"
      ],
-     "cycle": 53
+     "cycle": 55
     },
     "resolved_ceiling": {
      "value": null,
@@ -2486,7 +2486,18 @@
    ],
    "open_triggers": [],
    "source_repository": "corymstover/grixis-commander-encyclopediaGPT",
-   "source_commit": "1836b97"
+   "source_commit": "1836b97",
+   "deck_id_provenance": {
+    "source_deck_id": "Goben__Gene_Splice_Savant",
+    "corrected_cycle": 55,
+    "corrected_date": "2026-10-16",
+    "note": "The source keys this deck by the stale tracker id Goben__Gene_Splice_Savant (deck #21), already so in the frozen FINAL baseline. The list, approval record and every refinement artifact are Norman Osborn // Green Goblin (files Norman_Osborn_Green_Goblin_*), so the registry uses the corrected id. The source id is kept as source_deck_id; nothing in the source archive was changed.",
+    "evidence": [
+     "source_archive:state/current_deck_overrides.json#Goben__Gene_Splice_Savant",
+     "source_archive:refinement/approvals/Norman_Osborn_Green_Goblin_Approved_2026-10-15.md",
+     "companion:grixis/Grixis Corrections.md#L178"
+    ]
+   }
   },
   "Goro_Goro_and_Satoru": {
    "deck_id": "Goro_Goro_and_Satoru",

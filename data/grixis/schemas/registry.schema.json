@@ -712,6 +712,40 @@
      },
      "source_commit": {
       "type": "string"
+     },
+     "deck_id_provenance": {
+      "description": "Bot cycle 55: present only when the registry corrects a stale source deck id (grixis_authority.DECK_ID_CORRECTIONS). The source id stays the key for every source-keyed file.",
+      "type": "object",
+      "properties": {
+       "source_deck_id": {
+        "$ref": "common.schema.json#/$defs/deck_id"
+       },
+       "corrected_cycle": {
+        "type": "integer"
+       },
+       "corrected_date": {
+        "$ref": "common.schema.json#/$defs/date"
+       },
+       "note": {
+        "type": "string",
+        "minLength": 20
+       },
+       "evidence": {
+        "type": "array",
+        "items": {
+         "$ref": "common.schema.json#/$defs/evidence_ref"
+        },
+        "minItems": 1
+       }
+      },
+      "required": [
+       "source_deck_id",
+       "corrected_cycle",
+       "corrected_date",
+       "note",
+       "evidence"
+      ],
+      "additionalProperties": false
      }
     },
     "required": [

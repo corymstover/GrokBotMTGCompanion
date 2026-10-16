@@ -1,10 +1,10 @@
 {
  "schema_version": 2,
- "deck_id": "Goben__Gene_Splice_Savant",
+ "deck_id": "Norman_Osborn_Green_Goblin",
  "slug": "norman-osborn",
  "version": 1,
  "status": "seeded",
- "cycle": 53,
+ "cycle": 55,
  "date": "2026-10-16",
  "canonical_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
  "commanders": {
@@ -40,7 +40,7 @@
   "value": {
    "level": "significant",
    "advances_plan": "Green Goblin's mayhem and cost reduction turn the loot/discard package into virtual card advantage. Norman is a blue legendary that turns on Mox Amber.",
-   "honest_note": "All 7 Spellbook combos in the list are commander-free generic cEDH kills (Oracle, Breach). The source keeps them because the ceiling is genuinely cEDH and says they're not the deck's sole identity (verification L179). The mayhem engine needs a four-mana sorcery-speed transform. Good card selection, but the deck mostly wins without him. Registry quirk: this deck's registry id is the stale tracker id Goben__Gene_Splice_Savant, so the source files (Norman_Osborn_Green_Goblin_*) were cited by hand. No M1 interaction review exists yet for this deck."
+   "honest_note": "All 7 Spellbook combos in the list are commander-free generic cEDH kills (Oracle, Breach). The source keeps them because the ceiling is genuinely cEDH and says they're not the deck's sole identity (verification L179). The mayhem engine needs a four-mana sorcery-speed transform. Good card selection, but the deck mostly wins without him. Its registry id was corrected in Bot cycle 55 from the stale source tracker id Goben__Gene_Splice_Savant to Norman_Osborn_Green_Goblin (registry deck_id_provenance). No M1 interaction review exists yet for this deck."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -637,6 +637,6 @@
    "source_archive:refinement/decklists/Norman_Osborn_Green_Goblin_Approved_2026-10-15.txt"
   ],
   "reviewed_by": null,
-  "author": "GrokBot (Bot cycle 53)"
+  "author": "GrokBot (Bot cycle 55)"
  }
 }
