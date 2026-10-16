@@ -61,8 +61,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
 - **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09), [Chronicle of Bolas: Things Unseen](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-things-unseen-2018-06-27), [Chronicle of Bolas: The Twins](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (53): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) · [Edgar Markov](../../decks/edgar-markov.md) · [Feather, the Redeemed](../../decks/feather-the-redeemed.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,725,814 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (89.4% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (84.8% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (97.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 33 pages (32 decks · 1 card data) → [reverse index](../../references/M.md#mountain)
+- **Synergy:** *Proven* — KB decks (70): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) · [Edgar Markov](../../decks/edgar-markov.md) · [Feather, the Redeemed](../../decks/feather-the-redeemed.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,725,814 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (89.4% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (84.8% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (97.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 50 pages (49 decks · 1 card data) → [reverse index](../../references/M.md#mountain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mdd/298/mountain) · oracle_id `a3fb7228-e76b-4e96-a40e-20b5fed75685` · printing: MDD #298 (2027-04-09) · [rulings](https://api.scryfall.com/cards/85177bd7-6c50-48da-b692-ae5fe7bd357c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mountain Bandit
@@ -177,7 +177,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-06-16* — For the last ability, none of the chosen creatures are targets of the ability. You may choose creatures with shroud, for example.
   - *2023-06-16* — You must follow all normal timing rules for a card you play using Moria Marauder's last ability and, if it's a spell, you must pay its costs to cast it.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mount-doom)
+- **Referenced in:** 4 pages (4 decks) → [reverse index](../../references/M.md#mount-doom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/258/mount-doom) · oracle_id `995c8dac-fd27-468a-abd4-02372cf0c850` · printing: LTR #258 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mounted Archers

@@ -1193,7 +1193,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #162 · Game Changer: **yes** · Can be commander: No
 - **Rulings** (1):
   - *2016-06-08* — The "shuffle and put the card on top" is a single action. If an effect causes the top card of the library to be face up, the second card down is not revealed.
-- **Referenced in:** 30 pages (22 decks · 6 edh guides · 2 card data) → [reverse index](../../references/M.md#mystical-tutor)
+- **Referenced in:** 38 pages (30 decks · 6 edh guides · 2 card data) → [reverse index](../../references/M.md#mystical-tutor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/60/mystical-tutor) · oracle_id `fb81f95c-70f8-4eb7-8d15-15d0ae23ec03` · printing: DMR #60 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Archaeologist
@@ -1529,7 +1529,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-10-02* — Cumulative upkeep is a triggered ability that imposes an increasing cost on a permanent. "Cumulative upkeep [cost]" means "At the beginning of your upkeep, if this permanent is on the battlefield, put an age counter on this permanent. Then you may pay [cost] for each age counter on it. If you don't, sacrifice it."
   - *2025-10-02* — Paying cumulative upkeep is always optional. If it's not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can't be made. For example, if Mystic Remora has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice it.
-- **Referenced in:** 34 pages (26 decks · 5 edh guides · 1 rules · 2 card data) → [reverse index](../../references/M.md#mystic-remora)
+- **Referenced in:** 49 pages (41 decks · 5 edh guides · 1 rules · 2 card data) → [reverse index](../../references/M.md#mystic-remora)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/59/mystic-remora) · oracle_id `8a52f3c0-2552-4425-b2e3-5496eb2232a7` · printing: DMR #59 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Repeal

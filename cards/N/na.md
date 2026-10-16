@@ -1630,8 +1630,8 @@ schema: 2
   - *2019-05-03* — Replacement effects (such as that of Underrealm Lich or the first ability of Jace, Wielder of Mysteries) can't be used to replace draws that Narset disallows. However, if an opponent's first draw is replaced (by Underrealm Lich's ability, for example), that draw didn't happen and Narset won't stop the next draw (which may also be replaced by Underrealm Lich's ability).
   - *2019-05-03* — Your opponents can each draw a maximum of one card each on each player's turn. Subsequent card draws during that turn are ignored.
 - **Lore:** ⚠️ Name match only (not a canon claim): [Character → Narset](../../Characters%20Index.md#narset) · [Dossier → Narset](../../Planeswalker%20Dossiers.md#narset) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (2): [Atraxa, Praetors' Voice (planeswalkers theme)](../../decks/theme-atraxa-praetors-voice-planeswalkers.md) · [Kraum, Ludevic's Opus (Grixis)](../../grixis/decks/grixistax-october-2026.md) · Commander Spellbook: 38 combos; most popular [Narset, Parter of Veils + Teferi's Puzzle Box](https://commanderspellbook.com/combo/1177-2286/) (Each opponent shuffles their hand into their library during their draw step, Opponents can't draw cards during their turn) · EDHREC: in 156,795 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (16.1% of its decks), [Grand Arbiter Augustin IV](../../cards/G/gra.md#grand-arbiter-augustin-iv) (45.5% of its decks), [Urza, Lord High Artificer](../../cards/U/ur.md#urza-lord-high-artificer) (30.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 7 pages (2 decks · 1 edh guides · 2 lore & story · 2 card data) → [reverse index](../../references/N.md#narset-parter-of-veils)
+- **Synergy:** *Proven* — KB decks (3): [Atraxa, Praetors' Voice (planeswalkers theme)](../../decks/theme-atraxa-praetors-voice-planeswalkers.md) · [Kraum, Ludevic's Opus (Grixis)](../../grixis/decks/grixistax-october-2026.md) · [Nicol Bolas, the Ravager // Nicol Bolas, the Arisen (Grixis)](../../grixis/decks/nicol-bolas-the-ravager.md) · Commander Spellbook: 38 combos; most popular [Narset, Parter of Veils + Teferi's Puzzle Box](https://commanderspellbook.com/combo/1177-2286/) (Each opponent shuffles their hand into their library during their draw step, Opponents can't draw cards during their turn) · EDHREC: in 156,795 decks; most often under [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (16.1% of its decks), [Grand Arbiter Augustin IV](../../cards/G/gra.md#grand-arbiter-augustin-iv) (45.5% of its decks), [Urza, Lord High Artificer](../../cards/U/ur.md#urza-lord-high-artificer) (30.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 8 pages (3 decks · 1 edh guides · 2 lore & story · 2 card data) → [reverse index](../../references/N.md#narset-parter-of-veils)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/853/narset-parter-of-veils) · oracle_id `ab26fbe2-e808-48b9-8d0d-3fbb6c3d554f` · printing: CMM #853 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narset's Rebuke
@@ -1669,7 +1669,7 @@ schema: 2
   - *2019-05-03* — The controller of a copy can’t choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
   - *2019-05-03* — The copy is created on the stack, so it’s not “cast.” Abilities that trigger when a player casts a spell won’t trigger.
   - *2019-05-03* — The copy will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can’t choose a new legal target, then it remains unchanged (even if the current target is illegal).
-- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/N.md#narsets-reversal)
+- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 card data) → [reverse index](../../references/N.md#narsets-reversal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/92/narsets-reversal) · oracle_id `d55f6c70-321f-4fb4-bd33-0850ae1a7c36` · printing: TDC #92 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Narset Transcendent
@@ -2627,7 +2627,7 @@ schema: 2
   - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
   - *2023-06-16* — The last ability of Nazgûl also lets you ignore the "singleton" rule in formats like Commander.
   - *2023-06-16* — The last ability of Nazgûl lets you ignore the "four-of" rule. It doesn't let you ignore format legality. For example, during a The Lord of the Rings: Tales of Middle-earth™ Limited event, you can't add Nazgûl from your personal collection, no matter how much Sauron might want you to.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#nazgûl)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/N.md#nazgûl)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/100/nazg%C3%BBl) · oracle_id `48a62778-7c11-486f-a0e1-020c283a7ef9` · printing: LTR #100 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nazgûl Battle-Mace

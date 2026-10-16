@@ -787,7 +787,7 @@ schema: 2
   - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
   - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
-- **Referenced in:** 20 pages (13 decks · 5 edh guides · 1 rules · 1 card data) → [reverse index](../../references/O.md#orcish-bowmasters)
+- **Referenced in:** 25 pages (18 decks · 5 edh guides · 1 rules · 1 card data) → [reverse index](../../references/O.md#orcish-bowmasters)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/103/orcish-bowmasters) · oracle_id `ea5103f5-27e0-4eb1-902c-7f34652d6bf3` · printing: LTR #103 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Orcish Cannonade
@@ -944,7 +944,7 @@ schema: 2
   - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
   - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#orcish-medicine)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/O.md#orcish-medicine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/104/orcish-medicine) · oracle_id `2f9a5e7c-f463-4773-bf67-a07339ce9b5d` · printing: LTR #104 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Orcish Mine
@@ -1012,6 +1012,7 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4330 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/O.md#orcish-siegemaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/201/orcish-siegemaster) · oracle_id `d852099f-46c6-4676-860c-20a582f733d1` · printing: HOC #201 (2026-08-14) · [rulings](https://api.scryfall.com/cards/dbce4474-7485-4ab7-8016-04f03bc90dc5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Orcish Spy

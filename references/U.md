@@ -299,9 +299,9 @@ schema: 2
 
 ### Undercity Sewers
 
-[Card entry](../cards/U/un.md#undercity-sewers) · **6 pages** (decks 3 · edh guides 2 · card data 1)
+[Card entry](../cards/U/un.md#undercity-sewers) · **9 pages** (decks 6 · edh guides 2 · card data 1)
 
-- **Decks (3):** [Anhelo, the Painter (Grixis)](../grixis/decks/anhelo-the-painter.md) · [Cormela, Glamour Thief (Grixis)](../grixis/decks/cormela-glamour-thief.md) · [Marchesa, Dealer of Death (Grixis)](../grixis/decks/marchesa-dealer-of-death.md)
+- **Decks (6):** [Anhelo, the Painter (Grixis)](../grixis/decks/anhelo-the-painter.md) · [Cormela, Glamour Thief (Grixis)](../grixis/decks/cormela-glamour-thief.md) · [Marchesa, Dealer of Death (Grixis)](../grixis/decks/marchesa-dealer-of-death.md) · [Rograkh, Son of Rohgahh (Grixis)](../grixis/decks/rograkh-son-of-rohgahh-silas-renn.md) · [Sedris, the Traitor King (Grixis)](../grixis/decks/sedris-the-traitor-king.md) · [Sol'kanar the Swamp King (Grixis)](../grixis/decks/solkanar-the-swamp-king.md)
 - **EDH guides (2):** [EDH Mana Bases → Dimir UB](../EDH%20Mana%20Bases.md#dimir-ub) · [EDH Staples → Dimir (UB)](../EDH%20Staples.md#dimir-ub)
 - **Card data (1):** [Artist Index → Artists P](../Artist%20Index.md#artists-p)
 
@@ -333,9 +333,9 @@ schema: 2
 
 ### Underground Sea
 
-[Card entry](../cards/U/un.md#underground-sea) · **45 pages** (decks 39 · edh guides 4 · card data 2)
+[Card entry](../cards/U/un.md#underground-sea) · **65 pages** (decks 59 · edh guides 4 · card data 2)
 
-- **Decks (39):** [Abaddon the Despoiler (Grixis)](../grixis/decks/abaddon-the-despoiler.md) · [Admiral Beckett Brass (Grixis)](../grixis/decks/admiral-beckett-brass.md) · [Admiral Brass, Unsinkable (Grixis)](../grixis/decks/admiral-brass-unsinkable.md) · [Anhelo, the Painter (Grixis)](../grixis/decks/anhelo-the-painter.md) · [Ashad, the Lone Cyberman (Grixis)](../grixis/decks/ashad-the-lone-cyberman.md) · [Ashnod the Uncaring (Grixis)](../grixis/decks/ashnod-the-uncaring.md) · [Be'lakor, the Dark Master (Grixis)](../grixis/decks/belakor-the-dark-master.md) · [Cormela, Glamour Thief (Grixis)](../grixis/decks/cormela-glamour-thief.md) · [Crosis, the Purger (Grixis)](../grixis/decks/crosis-the-purger.md) · [Cult of Skaro (Grixis)](../grixis/decks/cult-of-skaro.md) · [Davros, Dalek Creator (Grixis)](../grixis/decks/davros-dalek-creator.md) · [Doctor Doom, King of Latveria (Grixis)](../grixis/decks/doctor-doom-king-of-latveria.md) · [Don Andres, the Renegade (Grixis)](../grixis/decks/don-andres-the-renegade.md) · [Dr. Eggman (Grixis)](../grixis/decks/dr-eggman.md) · [Edea, Possessed Sorceress (Grixis)](../grixis/decks/edea-possessed-sorceress.md) · [Edward Kenway (Grixis)](../grixis/decks/edward-kenway.md) · [Evelyn, the Covetous (Grixis)](../grixis/decks/evelyn-the-covetous.md) · [Fire Lord Azula (Grixis)](../grixis/decks/fire-lord-azula.md) · [Garza Zol, Plague Queen (Grixis)](../grixis/decks/garza-zol-plague-queen.md) · [Goro-Goro and Satoru (Grixis)](../grixis/decks/goro-goro-and-satoru.md) · [Gwendlyn Di Corci (Grixis)](../grixis/decks/gwendlyn-di-corci.md) · [Inalla, Archmage Ritualist (Grixis)](../grixis/decks/inalla-archmage-ritualist.md) · [Jeleva, Nephalia's Scourge (Grixis)](../grixis/decks/jeleva-nephalias-scourge.md) · [Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)](../grixis/decks/kefka-court-mage.md) · [Kess, Dissident Mage (Grixis)](../grixis/decks/kess-dissident-mage.md) · [Kraum, Ludevic's Opus (Grixis)](../grixis/decks/grixistax-october-2026.md) · [Loki, the Deceiver (Grixis)](../grixis/decks/loki-the-deceiver.md) · [Lord of Tresserhorn (Grixis)](../grixis/decks/lord-of-tresserhorn.md) · [Lord Xander, the Collector (Grixis)](../grixis/decks/lord-xander-the-collector.md) · [Lynde, Cheerful Tormentor (Grixis)](../grixis/decks/lynde-cheerful-tormentor.md) · [Mai and Zuko (Grixis)](../grixis/decks/mai-and-zuko.md) · [Mairsil, the Pretender (Grixis)](../grixis/decks/mairsil-the-pretender.md) · [Marchesa, Dealer of Death (Grixis)](../grixis/decks/marchesa-dealer-of-death.md) · [Marchesa, the Black Rose (Grixis)](../grixis/decks/marchesa-the-black-rose.md) · [Mishra, Artificer Prodigy (Grixis)](../grixis/decks/mishra-artificer-prodigy.md) · [Mishra, Eminent One (Grixis)](../grixis/decks/mishra-eminent-one.md) · [Missy (Grixis)](../grixis/decks/missy.md) · [Nathan Drake, Treasure Hunter (Grixis)](../grixis/decks/nathan-drake-treasure-hunter.md) · [Nekusar, the Mindrazer (Grixis)](../grixis/decks/nekusar-the-mindrazer.md)
+- **Decks (59):** [Abaddon the Despoiler (Grixis)](../grixis/decks/abaddon-the-despoiler.md) · [Admiral Beckett Brass (Grixis)](../grixis/decks/admiral-beckett-brass.md) · [Admiral Brass, Unsinkable (Grixis)](../grixis/decks/admiral-brass-unsinkable.md) · [Anhelo, the Painter (Grixis)](../grixis/decks/anhelo-the-painter.md) · [Ashad, the Lone Cyberman (Grixis)](../grixis/decks/ashad-the-lone-cyberman.md) · [Ashnod the Uncaring (Grixis)](../grixis/decks/ashnod-the-uncaring.md) · [Be'lakor, the Dark Master (Grixis)](../grixis/decks/belakor-the-dark-master.md) · [Cormela, Glamour Thief (Grixis)](../grixis/decks/cormela-glamour-thief.md) · [Crosis, the Purger (Grixis)](../grixis/decks/crosis-the-purger.md) · [Cult of Skaro (Grixis)](../grixis/decks/cult-of-skaro.md) · [Davros, Dalek Creator (Grixis)](../grixis/decks/davros-dalek-creator.md) · [Doctor Doom, King of Latveria (Grixis)](../grixis/decks/doctor-doom-king-of-latveria.md) · [Don Andres, the Renegade (Grixis)](../grixis/decks/don-andres-the-renegade.md) · [Dr. Eggman (Grixis)](../grixis/decks/dr-eggman.md) · [Edea, Possessed Sorceress (Grixis)](../grixis/decks/edea-possessed-sorceress.md) · [Edward Kenway (Grixis)](../grixis/decks/edward-kenway.md) · [Evelyn, the Covetous (Grixis)](../grixis/decks/evelyn-the-covetous.md) · [Fire Lord Azula (Grixis)](../grixis/decks/fire-lord-azula.md) · [Garza Zol, Plague Queen (Grixis)](../grixis/decks/garza-zol-plague-queen.md) · [Goro-Goro and Satoru (Grixis)](../grixis/decks/goro-goro-and-satoru.md) · [Gwendlyn Di Corci (Grixis)](../grixis/decks/gwendlyn-di-corci.md) · [Inalla, Archmage Ritualist (Grixis)](../grixis/decks/inalla-archmage-ritualist.md) · [Jeleva, Nephalia's Scourge (Grixis)](../grixis/decks/jeleva-nephalias-scourge.md) · [Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)](../grixis/decks/kefka-court-mage.md) · [Kess, Dissident Mage (Grixis)](../grixis/decks/kess-dissident-mage.md) · [Kraum, Ludevic's Opus (Grixis)](../grixis/decks/grixistax-october-2026.md) · [Loki, the Deceiver (Grixis)](../grixis/decks/loki-the-deceiver.md) · [Lord of Tresserhorn (Grixis)](../grixis/decks/lord-of-tresserhorn.md) · [Lord Xander, the Collector (Grixis)](../grixis/decks/lord-xander-the-collector.md) · [Lynde, Cheerful Tormentor (Grixis)](../grixis/decks/lynde-cheerful-tormentor.md) · [Mai and Zuko (Grixis)](../grixis/decks/mai-and-zuko.md) · [Mairsil, the Pretender (Grixis)](../grixis/decks/mairsil-the-pretender.md) · [Marchesa, Dealer of Death (Grixis)](../grixis/decks/marchesa-dealer-of-death.md) · [Marchesa, the Black Rose (Grixis)](../grixis/decks/marchesa-the-black-rose.md) · [Mishra, Artificer Prodigy (Grixis)](../grixis/decks/mishra-artificer-prodigy.md) · [Mishra, Eminent One (Grixis)](../grixis/decks/mishra-eminent-one.md) · [Missy (Grixis)](../grixis/decks/missy.md) · [Nathan Drake, Treasure Hunter (Grixis)](../grixis/decks/nathan-drake-treasure-hunter.md) · [Nekusar, the Mindrazer (Grixis)](../grixis/decks/nekusar-the-mindrazer.md) · [Nicol Bolas (Grixis)](../grixis/decks/nicol-bolas.md) · [Nicol Bolas, the Ravager // Nicol Bolas, the Arisen (Grixis)](../grixis/decks/nicol-bolas-the-ravager.md) · [Norman Osborn // Green Goblin (Grixis)](../grixis/decks/norman-osborn.md) · [Obeka, Brute Chronologist (Grixis)](../grixis/decks/obeka-brute-chronologist.md) · [Obeka, Splitter of Seconds (Grixis)](../grixis/decks/obeka-splitter-of-seconds.md) · [Parnesse, the Subtle Brush (Grixis)](../grixis/decks/parnesse-the-subtle-brush.md) · [Rograkh, Son of Rohgahh (Grixis)](../grixis/decks/rograkh-son-of-rohgahh-silas-renn.md) · [Saruman, the White Hand (Grixis)](../grixis/decks/saruman-the-white-hand.md) · [Sauron, Lord of the Rings (Grixis)](../grixis/decks/sauron-lord-of-the-rings.md) · [Sauron, the Dark Lord (Grixis)](../grixis/decks/sauron-the-dark-lord.md) · [Sedris, the Traitor King (Grixis)](../grixis/decks/sedris-the-traitor-king.md) · [Sol'kanar the Swamp King (Grixis)](../grixis/decks/solkanar-the-swamp-king.md) · [Sol'Kanar the Tainted (Grixis)](../grixis/decks/solkanar-the-tainted.md) · [Tetsuo Umezawa (Grixis)](../grixis/decks/tetsuo-umezawa.md) · [Tetsuo, Imperial Champion (Grixis)](../grixis/decks/tetsuo-imperial-champion.md) · [The Rani (Grixis)](../grixis/decks/the-rani.md) · [The Valeyard (Grixis)](../grixis/decks/the-valeyard.md) · [Thraximundar (Grixis)](../grixis/decks/thraximundar.md) · [Wick, the Whorled Mind (Grixis)](../grixis/decks/wick-the-whorled-mind.md) · [Zevlor, Elturel Exile (Grixis)](../grixis/decks/zevlor-elturel-exile.md)
 - **EDH guides (4):** [EDH Mana Bases → Dimir UB](../EDH%20Mana%20Bases.md#dimir-ub) · [EDH Staples → Dimir (UB)](../EDH%20Staples.md#dimir-ub) · [EDH Upgrade Paths → Atraxa, Praetors' Voice](../EDH%20Upgrade%20Paths.md#atraxa-praetors-voice) (+7 more) · [Grixis Packages → Land](../grixis/Grixis%20Packages.md#land)
 - **Card data (2):** [Artist Index → Artists F](../Artist%20Index.md#artists-f) · [Printing History → Reserved List](../Printing%20History.md#reserved-list)
 
@@ -373,17 +373,17 @@ schema: 2
 
 ### Underworld Breach
 
-[Card entry](../cards/U/un.md#underworld-breach) · **22 pages** (decks 16 · edh guides 4 · card data 2)
+[Card entry](../cards/U/un.md#underworld-breach) · **25 pages** (decks 19 · edh guides 4 · card data 2)
 
-- **Decks (16):** [Abaddon the Despoiler (Grixis)](../grixis/decks/abaddon-the-despoiler.md) · [Anhelo, the Painter (Grixis)](../grixis/decks/anhelo-the-painter.md) · [Bjorna, Nightfall Alchemist (Grixis)](../grixis/decks/bjorna-nightfall-alchemist-cecily.md) · [Cormela, Glamour Thief (Grixis)](../grixis/decks/cormela-glamour-thief.md) · [Evelyn, the Covetous (Grixis)](../grixis/decks/evelyn-the-covetous.md) · [Fire Lord Azula (Grixis)](../grixis/decks/fire-lord-azula.md) · [Gwendlyn Di Corci (Grixis)](../grixis/decks/gwendlyn-di-corci.md) · [Inalla, Archmage Ritualist (Grixis)](../grixis/decks/inalla-archmage-ritualist.md) · [Jeleva, Nephalia's Scourge (Grixis)](../grixis/decks/jeleva-nephalias-scourge.md) · [Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)](../grixis/decks/kefka-court-mage.md) · [Kess, Dissident Mage (Grixis)](../grixis/decks/kess-dissident-mage.md) · [Kraum, Ludevic's Opus (Grixis)](../grixis/decks/grixistax-october-2026.md) · [Lord Xander, the Collector (Grixis)](../grixis/decks/lord-xander-the-collector.md) · [Mai and Zuko (Grixis)](../grixis/decks/mai-and-zuko.md) · [Marchesa, Dealer of Death (Grixis)](../grixis/decks/marchesa-dealer-of-death.md) · [Nekusar, the Mindrazer (Grixis)](../grixis/decks/nekusar-the-mindrazer.md)
+- **Decks (19):** [Abaddon the Despoiler (Grixis)](../grixis/decks/abaddon-the-despoiler.md) · [Anhelo, the Painter (Grixis)](../grixis/decks/anhelo-the-painter.md) · [Bjorna, Nightfall Alchemist (Grixis)](../grixis/decks/bjorna-nightfall-alchemist-cecily.md) · [Cormela, Glamour Thief (Grixis)](../grixis/decks/cormela-glamour-thief.md) · [Evelyn, the Covetous (Grixis)](../grixis/decks/evelyn-the-covetous.md) · [Fire Lord Azula (Grixis)](../grixis/decks/fire-lord-azula.md) · [Gwendlyn Di Corci (Grixis)](../grixis/decks/gwendlyn-di-corci.md) · [Inalla, Archmage Ritualist (Grixis)](../grixis/decks/inalla-archmage-ritualist.md) · [Jeleva, Nephalia's Scourge (Grixis)](../grixis/decks/jeleva-nephalias-scourge.md) · [Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)](../grixis/decks/kefka-court-mage.md) · [Kess, Dissident Mage (Grixis)](../grixis/decks/kess-dissident-mage.md) · [Kraum, Ludevic's Opus (Grixis)](../grixis/decks/grixistax-october-2026.md) · [Lord Xander, the Collector (Grixis)](../grixis/decks/lord-xander-the-collector.md) · [Mai and Zuko (Grixis)](../grixis/decks/mai-and-zuko.md) · [Marchesa, Dealer of Death (Grixis)](../grixis/decks/marchesa-dealer-of-death.md) · [Nekusar, the Mindrazer (Grixis)](../grixis/decks/nekusar-the-mindrazer.md) · [Norman Osborn // Green Goblin (Grixis)](../grixis/decks/norman-osborn.md) · [Obeka, Brute Chronologist (Grixis)](../grixis/decks/obeka-brute-chronologist.md) · [Rograkh, Son of Rohgahh (Grixis)](../grixis/decks/rograkh-son-of-rohgahh-silas-renn.md)
 - **EDH guides (4):** [cEDH Primer → Compact combos](../cEDH%20Primer.md#compact-combos) · [EDH Standards → Game Changers](../EDH%20Standards.md#game-changers) · [EDH Upgrade Paths → Korvold, Fae-Cursed King](../EDH%20Upgrade%20Paths.md#korvold-fae-cursed-king) · [Grixis Packages → Recursion](../grixis/Grixis%20Packages.md#recursion)
 - **Card data (2):** [Artist Index → Artists D](../Artist%20Index.md#artists-d) (+4 more) · [Format Legality Matrix → pioneer](../Format%20Legality%20Matrix.md#pioneer) (+3 more)
 
 ### Underworld Dreams
 
-[Card entry](../cards/U/un.md#underworld-dreams) · **4 pages** (decks 3 · card data 1)
+[Card entry](../cards/U/un.md#underworld-dreams) · **5 pages** (decks 4 · card data 1)
 
-- **Decks (3):** [Gwendlyn Di Corci (Grixis)](../grixis/decks/gwendlyn-di-corci.md) · [Nekusar, the Mindrazer](../decks/nekusar-the-mindrazer.md) · [Nekusar, the Mindrazer (Grixis)](../grixis/decks/nekusar-the-mindrazer.md)
+- **Decks (4):** [Gwendlyn Di Corci (Grixis)](../grixis/decks/gwendlyn-di-corci.md) · [Nekusar, the Mindrazer](../decks/nekusar-the-mindrazer.md) · [Nekusar, the Mindrazer (Grixis)](../grixis/decks/nekusar-the-mindrazer.md) · [Sol'kanar the Swamp King (Grixis)](../grixis/decks/solkanar-the-swamp-king.md)
 - **Card data (1):** [Artist Index → Artists J](../Artist%20Index.md#artists-j) (+1 more)
 
 ### Undying Flames
@@ -564,9 +564,10 @@ schema: 2
 
 ### Unmarked Grave
 
-[Card entry](../cards/U/un.md#unmarked-grave) · **3 pages** (decks 3)
+[Card entry](../cards/U/un.md#unmarked-grave) · **5 pages** (decks 4 · edh guides 1)
 
-- **Decks (3):** [Evelyn, the Covetous (Grixis)](../grixis/decks/evelyn-the-covetous.md) · [Inalla, Archmage Ritualist (Grixis)](../grixis/decks/inalla-archmage-ritualist.md) · [Mairsil, the Pretender (Grixis)](../grixis/decks/mairsil-the-pretender.md)
+- **Decks (4):** [Evelyn, the Covetous (Grixis)](../grixis/decks/evelyn-the-covetous.md) · [Inalla, Archmage Ritualist (Grixis)](../grixis/decks/inalla-archmage-ritualist.md) · [Mairsil, the Pretender (Grixis)](../grixis/decks/mairsil-the-pretender.md) · [Sedris, the Traitor King (Grixis)](../grixis/decks/sedris-the-traitor-king.md)
+- **EDH guides (1):** [Grixis Packages → Tutor](../grixis/Grixis%20Packages.md#tutor)
 
 ### Unnatural Growth
 
@@ -605,8 +606,9 @@ schema: 2
 
 ### Unstable Experiment
 
-[Card entry](../cards/U/un.md#unstable-experiment) · **1 pages** (rules 1)
+[Card entry](../cards/U/un.md#unstable-experiment) · **2 pages** (decks 1 · rules 1)
 
+- **Decks (1):** [Norman Osborn // Green Goblin (Grixis)](../grixis/decks/norman-osborn.md)
 - **Rules (1):** [Keyword Encyclopedia → Connive](../Keyword%20Encyclopedia.md#connive)
 
 ### Unstable Obelisk
@@ -734,8 +736,9 @@ schema: 2
 
 ### Urabrask the Hidden
 
-[Card entry](../cards/U/ur.md#urabrask-the-hidden) · **3 pages** (edh guides 2 · lore & story 1)
+[Card entry](../cards/U/ur.md#urabrask-the-hidden) · **4 pages** (decks 1 · edh guides 2 · lore & story 1)
 
+- **Decks (1):** [Tetsuo Umezawa (Grixis)](../grixis/decks/tetsuo-umezawa.md)
 - **EDH guides (2):** [EDH Interaction → 4. Untap restriction](../EDH%20Interaction.md#4-untap-restriction) · [EDH Win Conditions → Haste enablers](../EDH%20Win%20Conditions.md#haste-enablers)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Urabrask](../Characters%20Index.md#urabrask) (depicts)
@@ -767,9 +770,9 @@ schema: 2
 
 ### Urborg, Tomb of Yawgmoth
 
-[Card entry](../cards/U/ur.md#urborg-tomb-of-yawgmoth) · **13 pages** (decks 10 · edh guides 2 · card data 1)
+[Card entry](../cards/U/ur.md#urborg-tomb-of-yawgmoth) · **22 pages** (decks 19 · edh guides 2 · card data 1)
 
-- **Decks (10):** [Abaddon the Despoiler (Grixis)](../grixis/decks/abaddon-the-despoiler.md) · [Anhelo, the Painter (Grixis)](../grixis/decks/anhelo-the-painter.md) · [Be'lakor, the Dark Master (Grixis)](../grixis/decks/belakor-the-dark-master.md) · [Cult of Skaro (Grixis)](../grixis/decks/cult-of-skaro.md) · [Davros, Dalek Creator (Grixis)](../grixis/decks/davros-dalek-creator.md) · [Edea, Possessed Sorceress (Grixis)](../grixis/decks/edea-possessed-sorceress.md) · [Gwendlyn Di Corci (Grixis)](../grixis/decks/gwendlyn-di-corci.md) · [K'rrik, Son of Yawgmoth](../decks/krrik-son-of-yawgmoth.md) · [Loki, the Deceiver (Grixis)](../grixis/decks/loki-the-deceiver.md) · [Missy (Grixis)](../grixis/decks/missy.md)
+- **Decks (19):** [Abaddon the Despoiler (Grixis)](../grixis/decks/abaddon-the-despoiler.md) · [Anhelo, the Painter (Grixis)](../grixis/decks/anhelo-the-painter.md) · [Be'lakor, the Dark Master (Grixis)](../grixis/decks/belakor-the-dark-master.md) · [Cult of Skaro (Grixis)](../grixis/decks/cult-of-skaro.md) · [Davros, Dalek Creator (Grixis)](../grixis/decks/davros-dalek-creator.md) · [Edea, Possessed Sorceress (Grixis)](../grixis/decks/edea-possessed-sorceress.md) · [Gwendlyn Di Corci (Grixis)](../grixis/decks/gwendlyn-di-corci.md) · [K'rrik, Son of Yawgmoth](../decks/krrik-son-of-yawgmoth.md) · [Loki, the Deceiver (Grixis)](../grixis/decks/loki-the-deceiver.md) · [Missy (Grixis)](../grixis/decks/missy.md) · [Nicol Bolas, the Ravager // Nicol Bolas, the Arisen (Grixis)](../grixis/decks/nicol-bolas-the-ravager.md) · [Obeka, Splitter of Seconds (Grixis)](../grixis/decks/obeka-splitter-of-seconds.md) · [Parnesse, the Subtle Brush (Grixis)](../grixis/decks/parnesse-the-subtle-brush.md) · [Sauron, Lord of the Rings (Grixis)](../grixis/decks/sauron-lord-of-the-rings.md) · [Sauron, the Dark Lord (Grixis)](../grixis/decks/sauron-the-dark-lord.md) · [Sedris, the Traitor King (Grixis)](../grixis/decks/sedris-the-traitor-king.md) · [Sol'kanar the Swamp King (Grixis)](../grixis/decks/solkanar-the-swamp-king.md) · [The Rani (Grixis)](../grixis/decks/the-rani.md) · [Thraximundar (Grixis)](../grixis/decks/thraximundar.md)
 - **EDH guides (2):** [EDH Upgrade Paths → Teysa Karlov](../EDH%20Upgrade%20Paths.md#teysa-karlov) · [Grixis Packages → Land](../grixis/Grixis%20Packages.md#land)
 - **Card data (1):** [Artist Index → Artists J](../Artist%20Index.md#artists-j)
 
@@ -833,9 +836,9 @@ schema: 2
 
 ### Urza, Lord High Artificer
 
-[Card entry](../cards/U/ur.md#urza-lord-high-artificer) · **14 pages** (decks 7 · edh guides 3 · lore & story 1 · card data 3)
+[Card entry](../cards/U/ur.md#urza-lord-high-artificer) · **15 pages** (decks 8 · edh guides 3 · lore & story 1 · card data 3)
 
-- **Decks (7):** [Ashad, the Lone Cyberman (Grixis)](../grixis/decks/ashad-the-lone-cyberman.md) · [Ashnod the Uncaring (Grixis)](../grixis/decks/ashnod-the-uncaring.md) · [Breya, Etherium Shaper](../decks/breya-etherium-shaper.md) · [Mai and Zuko (Grixis)](../grixis/decks/mai-and-zuko.md) · [Mishra, Artificer Prodigy (Grixis)](../grixis/decks/mishra-artificer-prodigy.md) · [Mishra, Eminent One (Grixis)](../grixis/decks/mishra-eminent-one.md) · [Urza, Lord High Artificer](../decks/lore-brothers-war-urza-lord-high-artificer.md)
+- **Decks (8):** [Ashad, the Lone Cyberman (Grixis)](../grixis/decks/ashad-the-lone-cyberman.md) · [Ashnod the Uncaring (Grixis)](../grixis/decks/ashnod-the-uncaring.md) · [Breya, Etherium Shaper](../decks/breya-etherium-shaper.md) · [Mai and Zuko (Grixis)](../grixis/decks/mai-and-zuko.md) · [Mishra, Artificer Prodigy (Grixis)](../grixis/decks/mishra-artificer-prodigy.md) · [Mishra, Eminent One (Grixis)](../grixis/decks/mishra-eminent-one.md) · [The Rani (Grixis)](../grixis/decks/the-rani.md) · [Urza, Lord High Artificer](../decks/lore-brothers-war-urza-lord-high-artificer.md)
 - **EDH guides (3):** [EDH Packages → Card advantage: Impulse / exile-to-play](../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [EDH Upgrade Paths → Breya, Etherium Shaper](../EDH%20Upgrade%20Paths.md#breya-etherium-shaper) · [Grixis Packages → Ramp](../grixis/Grixis%20Packages.md#ramp)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Card data (3):** [Artist Index → Artists G](../Artist%20Index.md#artists-g) · [Format Legality Matrix → duel](../Format%20Legality%20Matrix.md#duel) · [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)

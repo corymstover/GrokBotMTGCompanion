@@ -16,7 +16,7 @@ schema: 2
 
 # Grixis Deck — Be'lakor, the Dark Master
 
-> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Be_lakor_the_Dark_Master_Approved_2026-10-13.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Be_lakor_the_Dark_Master_Approved_2026-10-13.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-13; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Be_lakor_the_Dark_Master_Approved_2026-10-13.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Be_lakor_the_Dark_Master_Approved_2026-10-13.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-13; source commit `1836b97`). Imported in Bot cycle 16; re-validated in Bot cycle 37 against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
 ## Contents
 - [Commander](#commander)
@@ -303,7 +303,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 ### From `refinement/blueprints/Be_lakor__the_Dark_Master_v1.md`
 
-Source: [refinement/blueprints/Be_lakor__the_Dark_Master_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Be_lakor__the_Dark_Master_v1.md)
+Source: [refinement/blueprints/Be_lakor__the_Dark_Master_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/blueprints/Be_lakor__the_Dark_Master_v1.md)
 
 **Be'lakor, the Dark Master — commander-first working blueprint**
 
@@ -337,7 +337,7 @@ Ashnod explicit approval recorded at refinement/approvals/Ashnod_the_Uncaring_Ap
 
 ### From `refinement/blueprints/Belakor_the_Dark_Master_v1.md`
 
-Source: [refinement/blueprints/Belakor_the_Dark_Master_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Belakor_the_Dark_Master_v1.md)
+Source: [refinement/blueprints/Belakor_the_Dark_Master_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/blueprints/Belakor_the_Dark_Master_v1.md)
 
 **Be'lakor, the Dark Master — Commander-First Blueprint**
 
@@ -365,7 +365,7 @@ Project candidate ranking: #6 for Be'lakor; 42.2672% EDHREC inclusion and 21.916
 
 ### From `refinement/decisions/Belakor_the_Dark_Master_Candidate_Decisions_2026-10-13.csv` (candidate decision ledger)
 
-Source: [refinement/decisions/Belakor_the_Dark_Master_Candidate_Decisions_2026-10-13.csv](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Belakor_the_Dark_Master_Candidate_Decisions_2026-10-13.csv)
+Source: [refinement/decisions/Belakor_the_Dark_Master_Candidate_Decisions_2026-10-13.csv](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decisions/Belakor_the_Dark_Master_Candidate_Decisions_2026-10-13.csv)
 
 | ID | Candidate | Proposed cut | Decision | Source reasoning (abridged) |
 |---|---|---|---|---|
@@ -373,7 +373,7 @@ Source: [refinement/decisions/Belakor_the_Dark_Master_Candidate_Decisions_2026-1
 
 ### From `refinement/approvals/Be_lakor_the_Dark_Master_Approved_2026-10-13.md`
 
-Source: [refinement/approvals/Be_lakor_the_Dark_Master_Approved_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Be_lakor_the_Dark_Master_Approved_2026-10-13.md)
+Source: [refinement/approvals/Be_lakor_the_Dark_Master_Approved_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/approvals/Be_lakor_the_Dark_Master_Approved_2026-10-13.md)
 
 **Be'lakor, the Dark Master — explicit approval and lock**
 
@@ -398,7 +398,7 @@ Central state/current_deck_overrides.json is stale and missing approved decks 6 
 
 ### From `refinement/evidence/Be_lakor__the_Dark_Master_Whole_List_Working_Audit_2026-10-13.md`
 
-Source: [refinement/evidence/Be_lakor__the_Dark_Master_Whole_List_Working_Audit_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/evidence/Be_lakor__the_Dark_Master_Whole_List_Working_Audit_2026-10-13.md)
+Source: [refinement/evidence/Be_lakor__the_Dark_Master_Whole_List_Working_Audit_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/evidence/Be_lakor__the_Dark_Master_Whole_List_Working_Audit_2026-10-13.md)
 
 **Be'lakor deck #7 — full-list comparative audit working record**
 
@@ -432,7 +432,7 @@ References: https://mtg.wtf/card/prm/88276/Dream-Devourer ; https://mtg.wtf/card
 
 ### From `refinement/evidence/Be_lakor_the_Dark_Master_Approval_Gate_Dossier_2026-10-13.md`
 
-Source: [refinement/evidence/Be_lakor_the_Dark_Master_Approval_Gate_Dossier_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/evidence/Be_lakor_the_Dark_Master_Approval_Gate_Dossier_2026-10-13.md)
+Source: [refinement/evidence/Be_lakor_the_Dark_Master_Approval_Gate_Dossier_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/evidence/Be_lakor_the_Dark_Master_Approval_Gate_Dossier_2026-10-13.md)
 
 **Be'lakor, the Dark Master — Approval Gate Dossier (2026-10-13)**
 
@@ -482,7 +482,7 @@ The 100-card list and three changes are proposed for the user's **explicit appro
 
 ### Further source evidence (linked, not copied)
 
-- [refinement/verification/Belakor_the_Dark_Master_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Belakor_the_Dark_Master_Final_Verification_2026-10-13.md)
+- [refinement/verification/Belakor_the_Dark_Master_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Belakor_the_Dark_Master_Final_Verification_2026-10-13.md)
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
@@ -505,6 +505,6 @@ The 100-card list and three changes are proposed for the user's **explicit appro
 - **Keywords → [Keyword Encyclopedia](../../Keyword%20Encyclopedia.md):** [Flying](../../Keyword%20Encyclopedia.md#flying) 18 · [Trample](../../Keyword%20Encyclopedia.md#trample) 7 · [Ward](../../Keyword%20Encyclopedia.md#ward) 3 · [Surveil](../../Keyword%20Encyclopedia.md#surveil) 2 · [Companion](../../Keyword%20Encyclopedia.md#companion) 1 · [Cycling](../../Keyword%20Encyclopedia.md#cycling) 1 · [Kicker](../../Keyword%20Encyclopedia.md#kicker) 1 · [Lifelink](../../Keyword%20Encyclopedia.md#lifelink) 1 · [Mill](../../Keyword%20Encyclopedia.md#mill) 1 · [Overload](../../Keyword%20Encyclopedia.md#overload) 1 · [Scry](../../Keyword%20Encyclopedia.md#scry) 1
 - **Rules sections citing cards in this list:** [Rules Interactions → Commander: color identity](../../Rules%20Interactions.md#commander-color-identity) (Arcane Signet, Command Tower, Path of Ancestry) · [Rules Interactions → Replacement effects vs. triggered abilities](../../Rules%20Interactions.md#replacement-effects-vs-triggered-abilities) (Exotic Orchard, Fellwar Stone) · [Keyword Encyclopedia → Kicker](../../Keyword%20Encyclopedia.md#kicker) (Rite of Replication) · [Keyword Encyclopedia → Overload](../../Keyword%20Encyclopedia.md#overload) (Cyclonic Rift) · [Keyword Encyclopedia → Scry](../../Keyword%20Encyclopedia.md#scry) (Path of Ancestry) · [Keyword Encyclopedia → Surveil](../../Keyword%20Encyclopedia.md#surveil) (Doom Whisperer) · [Keyword Encyclopedia → Ward](../../Keyword%20Encyclopedia.md#ward) (Roaming Throne) · [Rules Interactions → Commander tax](../../Rules%20Interactions.md#commander-tax) (Rakdos, Lord of Riots) · …3 more sections
 - **Lore & story sections citing cards in this list:** [Art & Flavor Story Links → Captioned art on cited story pages](../../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Command Tower, Panharmonicon, Rakdos, the Showstopper +1) · [Items & Artifacts Index → Theros god weapons](../../Items%20%26%20Artifacts%20Index.md#theros-god-weapons) (Whip of Erebos) · [Planes Index → New Capenna](../../Planes%20Index.md#new-capenna) (Xander's Lounge) · [Planes Index → Ravnica after the invasion (Murders at Karlov Manor)](../../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) (Rakdos, Lord of Riots)
-- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +20) · [EDH Upgrade Paths → Nekusar, the Mindrazer](../../EDH%20Upgrade%20Paths.md#nekusar-the-mindrazer) (Badlands, Blood Crypt, Bloodstained Mire +7) · [EDH Upgrade Paths → Breya, Etherium Shaper](../../EDH%20Upgrade%20Paths.md#breya-etherium-shaper) (Badlands, Bloodstained Mire, Crumbling Necropolis +6) · [EDH Upgrade Paths → Yidris, Maelstrom Wielder](../../EDH%20Upgrade%20Paths.md#yidris-maelstrom-wielder) (Badlands, Bloodstained Mire, Crumbling Necropolis +6) · [EDH Staples → Rakdos (BR)](../../EDH%20Staples.md#rakdos-br) (Badlands, Bedevil, Blood Crypt +5) · [EDH Upgrade Paths → Prosper, Tome-Bound](../../EDH%20Upgrade%20Paths.md#prosper-tome-bound) (Badlands, Blood Crypt, Bloodstained Mire +5) · …78 more sections
+- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +19) · [EDH Upgrade Paths → Nekusar, the Mindrazer](../../EDH%20Upgrade%20Paths.md#nekusar-the-mindrazer) (Badlands, Blood Crypt, Bloodstained Mire +7) · [EDH Upgrade Paths → Breya, Etherium Shaper](../../EDH%20Upgrade%20Paths.md#breya-etherium-shaper) (Badlands, Bloodstained Mire, Crumbling Necropolis +6) · [EDH Upgrade Paths → Yidris, Maelstrom Wielder](../../EDH%20Upgrade%20Paths.md#yidris-maelstrom-wielder) (Badlands, Bloodstained Mire, Crumbling Necropolis +6) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Dark Ritual, Fellwar Stone +6) · [Grixis Packages → Removal](../../grixis/Grixis%20Packages.md#removal) (Bedevil, Blasphemous Act, Chaos Warp +6) · …78 more sections
 - **Decks sharing the most cards:** [Admiral Brass, Unsinkable (Grixis)](../../grixis/decks/admiral-brass-unsinkable.md) 45 · [Loki, the Deceiver (Grixis)](../../grixis/decks/loki-the-deceiver.md) 45 · [Don Andres, the Renegade (Grixis)](../../grixis/decks/don-andres-the-renegade.md) 43 · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) 42
 <!-- CROSSREFS:END -->

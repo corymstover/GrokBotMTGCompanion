@@ -2096,6 +2096,7 @@ schema: 2
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
   - *2020-11-10* — You may cast that card this turn even if Silas Renn leaves the battlefield.
   - *2020-11-10* — You pay the costs for the target artifact card if you cast it. You may pay alternative costs rather than the card's mana cost.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#silas-renn-seeker-adept)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/43/silas-renn-seeker-adept) · oracle_id `0dc78b1e-581e-4f28-bf35-e2082553d6a9` · printing: C16 #43 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Silburlind Snapper
@@ -2172,6 +2173,7 @@ schema: 2
   > *Scholars say that arbiters exist on every world, created by an unknown hand to enforce justice.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1168 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#silent-arbiter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/972/silent-arbiter) · oracle_id `1cdf30de-d88c-421a-80df-4917bbd2f09e` · printing: CMM #972 (2023-08-04) · [rulings](https://api.scryfall.com/cards/14f42cc9-8b7f-4f8a-8d68-8480e668c239/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Silent Artisan
@@ -3543,7 +3545,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1818 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-03-08* — Attaching Silver Shroud Costume to a creature that has already been blocked won't cause it to become unblocked.
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#silver-shroud-costume)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/S.md#silver-shroud-costume)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/915/silver-shroud-costume) · oracle_id `b40138c3-48bc-4825-ae48-5fea95304088` · printing: SLD #915 (2026-01-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Silverskin Armor
@@ -3778,7 +3780,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #438 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — If a spell or ability's cost includes returning a creature to your hand and paying mana, you can't activate Simian Spirit Guide's mana ability after returning it to your hand. This is because mana abilities must be activated before you begin paying costs.
-- **Referenced in:** 11 pages (8 decks · 1 edh guides · 2 card data) → [reverse index](../../references/S.md#simian-spirit-guide)
+- **Referenced in:** 13 pages (10 decks · 1 edh guides · 2 card data) → [reverse index](../../references/S.md#simian-spirit-guide)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/190/simian-spirit-guide) · oracle_id `44e0ffa3-8915-4c1f-8f1a-4aeea1365f07` · printing: TSR #190 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Simic Ascendancy
@@ -4505,7 +4507,7 @@ schema: 2
   - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
   - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
   - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
-- **Referenced in:** 4 pages (1 decks · 1 rules · 2 card data) → [reverse index](../../references/S.md#sink-into-stupor--soporific-springs)
+- **Referenced in:** 6 pages (3 decks · 1 rules · 2 card data) → [reverse index](../../references/S.md#sink-into-stupor--soporific-springs)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/241/sink-into-stupor-soporific-springs) · oracle_id `bcc6eece-75ea-494c-b33a-d4477d504e0b` · printing: MH3 #241 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sink into Takenuma
@@ -4681,7 +4683,7 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
-- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#siphon-insight)
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/S.md#siphon-insight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/242/siphon-insight) · oracle_id `aee82122-d13e-4175-b499-9dde718e4da9` · printing: OTC #242 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sip of Hemlock

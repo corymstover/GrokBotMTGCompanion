@@ -708,7 +708,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — If you have enough mana, the ability may be activated more than once in a turn.
   - *2023-09-01* — You will normally activate this ability during your postcombat main phase so you can untap any creatures that attacked.
-- **Referenced in:** 9 pages (5 decks · 3 edh guides · 1 card data) → [reverse index](../../references/A.md#aggravated-assault)
+- **Referenced in:** 11 pages (7 decks · 3 edh guides · 1 card data) → [reverse index](../../references/A.md#aggravated-assault)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/185/aggravated-assault) · oracle_id `20129459-a386-41eb-899d-1aede3427300` · printing: ONS #185 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aggression

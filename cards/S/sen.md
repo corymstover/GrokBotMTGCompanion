@@ -319,7 +319,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-06-08* — If Sensei's Divining Top leaves the battlefield while its second ability is on the stack, you'll draw a card and leave Sensei's Divining Top in the zone it's moved to.
   - *2016-06-08* — Sensei's Divining Top's second ability may be activated in response to its first ability. If so, you'll draw a card, put Sensei's Divining Top on top of your library, and then look at the top three cards and rearrange them.
-- **Referenced in:** 15 pages (8 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/S.md#senseis-divining-top)
+- **Referenced in:** 16 pages (9 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/S.md#senseis-divining-top)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/314/senseis-divining-top) · oracle_id `13575cf9-65c1-4861-b21e-eb2155e07766` · printing: 2X2 #314 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Senseless Rage

@@ -129,7 +129,7 @@ schema: 2
   - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
   - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
   - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
-- **Referenced in:** 5 pages (3 decks · 2 edh guides) → [reverse index](../../references/A.md#aqueous-form)
+- **Referenced in:** 6 pages (4 decks · 2 edh guides) → [reverse index](../../references/A.md#aqueous-form)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/56/aqueous-form) · oracle_id `3378fef3-4d8c-4d9e-a338-4abb6f70d410` · printing: CMR #56 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aquitect's Defenses

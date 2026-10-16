@@ -482,7 +482,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #232 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 7 pages (3 decks · 3 edh guides · 1 card data) → [reverse index](../../references/M.md#mirkwood-bats)
+- **Referenced in:** 8 pages (4 decks · 3 edh guides · 1 card data) → [reverse index](../../references/M.md#mirkwood-bats)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/95/mirkwood-bats) · oracle_id `0636b6c3-0662-420a-b30d-f0a14e7c512d` · printing: LTR #95 (2023-06-23) · [rulings](https://api.scryfall.com/cards/15f035df-784a-4dc8-b7f5-77139a4e6e99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirkwood Channeler

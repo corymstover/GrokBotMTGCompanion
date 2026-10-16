@@ -556,4 +556,5 @@ schema: 2
   - *2024-07-26* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
   - *2024-07-26* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of this ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
   - *2024-07-26* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#artists-talent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/124/artists-talent) · oracle_id `ea734863-5793-49d6-b10e-109432aec0a3` · printing: BLB #124 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

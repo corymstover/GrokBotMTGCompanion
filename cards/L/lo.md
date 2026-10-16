@@ -2334,7 +2334,7 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5480 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/L.md#lord-skitters-butcher)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/L.md#lord-skitters-butcher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/99/lord-skitters-butcher) · oracle_id `467f756f-75db-4748-99d3-62651776adfe` · printing: WOE #99 (2023-09-08) · [rulings](https://api.scryfall.com/cards/21b31d2b-ef66-4e16-a75e-4e27eb5ebfe9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord Skitter, Sewer King
@@ -2348,8 +2348,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2389 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (1): [Syr Konrad, the Grim (Eldraine-only)](../../decks/plane-eldraine-syr-konrad-the-grim.md) · Commander Spellbook: 8 combos; most popular [Lord Skitter, Sewer King + Void Attendant + Pitiless Plunderer + Conspiracy](https://commanderspellbook.com/combo/230-853-4871-4875/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 702 decks; highest synergy [Piper of the Swarm](../../cards/P/pi.md#piper-of-the-swarm) (+71%), [Pack Rat](../../cards/P/pa.md#pack-rat) (+67%), [Marrow-Gnawer](../../cards/M/mar.md#marrow-gnawer) (+66%) · EDHREC: in 68,385 decks; most often under [Wick, the Whorled Mind](../../cards/W/wi.md#wick-the-whorled-mind) (80.0% of its decks), [Marrow-Gnawer](../../cards/M/mar.md#marrow-gnawer) (64.3% of its decks), [Vren, the Relentless](../../cards/V/vr.md#vren-the-relentless) (64.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/L.md#lord-skitter-sewer-king)
+- **Synergy:** *Proven* — KB decks (2): [Syr Konrad, the Grim (Eldraine-only)](../../decks/plane-eldraine-syr-konrad-the-grim.md) · [Wick, the Whorled Mind (Grixis)](../../grixis/decks/wick-the-whorled-mind.md) · Commander Spellbook: 8 combos; most popular [Lord Skitter, Sewer King + Void Attendant + Pitiless Plunderer + Conspiracy](https://commanderspellbook.com/combo/230-853-4871-4875/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 702 decks; highest synergy [Piper of the Swarm](../../cards/P/pi.md#piper-of-the-swarm) (+71%), [Pack Rat](../../cards/P/pa.md#pack-rat) (+67%), [Marrow-Gnawer](../../cards/M/mar.md#marrow-gnawer) (+66%) · EDHREC: in 68,385 decks; most often under [Wick, the Whorled Mind](../../cards/W/wi.md#wick-the-whorled-mind) (80.0% of its decks), [Marrow-Gnawer](../../cards/M/mar.md#marrow-gnawer) (64.3% of its decks), [Vren, the Relentless](../../cards/V/vr.md#vren-the-relentless) (64.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/L.md#lord-skitter-sewer-king)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/97/lord-skitter-sewer-king) · oracle_id `f5bed085-bb7a-4250-9599-b2a8a95e6b6f` · printing: WOE #97 (2023-09-08) · [rulings](https://api.scryfall.com/cards/729877be-4894-4ef5-9e60-de8a8fb2bdc0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord Windgrace
@@ -3342,7 +3342,7 @@ schema: 2
   > *"Hard to imagine," mused Hanna, stroking the petal, "such a lovely flower inspiring such greed."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #120 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 28 pages (23 decks · 3 edh guides · 2 card data) → [reverse index](../../references/L.md#lotus-petal)
+- **Referenced in:** 33 pages (28 decks · 3 edh guides · 2 card data) → [reverse index](../../references/L.md#lotus-petal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/225/lotus-petal) · oracle_id `32e5339e-9e4f-46f8-b305-f9d6d3ba8bb5` · printing: TPR #225 (2015-05-06) · [rulings](https://api.scryfall.com/cards/f85ab5f9-508e-45de-8fa1-ce1f16552ffc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lotus Ring

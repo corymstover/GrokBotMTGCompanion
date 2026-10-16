@@ -734,7 +734,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2139 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/D.md#dragonfire-blade)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/D.md#dragonfire-blade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/240/dragonfire-blade) · oracle_id `e809b847-b712-4558-95ea-9bb7356cde91` · printing: TDM #240 (2025-04-11) · [rulings](https://api.scryfall.com/cards/031afea3-fbfb-4663-a8cc-9b7eb7b16020/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonfly Suit
@@ -1095,7 +1095,7 @@ schema: 2
   > *"This world will be ruled by its rightful sovereigns, not these hideous pretenders."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1544 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/D.md#dragonmaster-outcast)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/D.md#dragonmaster-outcast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/211/dragonmaster-outcast) · oracle_id `b6fb79c3-cd32-4045-8177-e52841eea65b` · printing: TDC #211 (2025-04-11) · [rulings](https://api.scryfall.com/cards/a485edea-07cd-48dd-97e7-daeba85553d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragon Moose
@@ -1420,7 +1420,7 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — As this is entering, it checks for lands that are already on the battlefield. It won't see lands that are entering at the same time (due to Warp World, for example).
   - *2009-10-01* — This checks for lands you control with the land type Swamp or Mountain, not for lands named Swamp or Mountain. The lands it checks for don't have to be basic lands. For example, if you control Stomping Ground (a nonbasic land with the land types Mountain and Forest), Dragonskull Summit will enter untapped.
-- **Referenced in:** 10 pages (7 decks · 2 edh guides · 1 card data) → [reverse index](../../references/D.md#dragonskull-summit)
+- **Referenced in:** 11 pages (8 decks · 2 edh guides · 1 card data) → [reverse index](../../references/D.md#dragonskull-summit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/238/dragonskull-summit) · oracle_id `63398c02-6fb1-481d-9d9f-81063532fbc0` · printing: MSC #238 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragon Sniper
@@ -1634,8 +1634,8 @@ schema: 2
   - *2017-11-17* — The amount of damage dealt by the Dragon that entered the battlefield is based on the number of Dragons you control when the ability resolves.
   - *2017-11-17* — The two abilities aren’t mutually exclusive. If a Dragon with flying (which is most of them) enters the battlefield under your control, both abilities will trigger.
 - **Lore:** ✅ Card art shown on [The Guardian](https://magic.wizards.com/en/news/magic-story/guardian-2015-04-02), [Unbroken and Unbowed](https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (3): [Atarka, World Render (Tarkir-only)](../../decks/plane-tarkir-atarka-world-render.md) · [The Ur-Dragon](../../decks/the-ur-dragon.md) · [Goro-Goro and Satoru (Grixis)](../../grixis/decks/goro-goro-and-satoru.md) · Commander Spellbook: 4 combos; most popular [Dragon Tempest + Ancient Gold Dragon](https://commanderspellbook.com/combo/2855-5982/) (Near-infinite damage) · EDHREC: in 174,425 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (77.3% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (79.1% of its decks), [Ureni of the Unwritten](../../cards/U/ur.md#ureni-of-the-unwritten) (94.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 6 pages (3 decks · 2 edh guides · 1 card data) → [reverse index](../../references/D.md#dragon-tempest)
+- **Synergy:** *Proven* — KB decks (4): [Atarka, World Render (Tarkir-only)](../../decks/plane-tarkir-atarka-world-render.md) · [The Ur-Dragon](../../decks/the-ur-dragon.md) · [Goro-Goro and Satoru (Grixis)](../../grixis/decks/goro-goro-and-satoru.md) · [Nicol Bolas (Grixis)](../../grixis/decks/nicol-bolas.md) · Commander Spellbook: 4 combos; most popular [Dragon Tempest + Ancient Gold Dragon](https://commanderspellbook.com/combo/2855-5982/) (Near-infinite damage) · EDHREC: in 174,425 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (77.3% of its decks), [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (79.1% of its decks), [Ureni of the Unwritten](../../cards/U/ur.md#ureni-of-the-unwritten) (94.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 7 pages (4 decks · 2 edh guides · 1 card data) → [reverse index](../../references/D.md#dragon-tempest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/94/dragon-tempest) · oracle_id `b9bacb46-fd1d-459b-81c2-d7d08fe73848` · printing: TDC #94 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragon Throne of Tarkir

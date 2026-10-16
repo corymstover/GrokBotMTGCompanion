@@ -1135,6 +1135,7 @@ schema: 2
   - *2020-06-23* — Once Ghostly Pilferer has been blocked, activating its last ability doesn't cause it to become unblocked.
   - *2020-06-23* — Players can cast spells and activate abilities after the second triggered ability resolves but before the spell that caused it to trigger does.
   - *2020-06-23* — While resolving Ghostly Pilferer's first ability, you can't pay more than {2} to draw more than one card.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#ghostly-pilferer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/98/ghostly-pilferer) · oracle_id `fe168bf1-f626-460c-890b-1ce758af01fc` · printing: OTC #98 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostly Possession
@@ -1520,7 +1521,7 @@ schema: 2
   - *2023-07-28* — Being goaded isn't an ability the creature has. Once it's been goaded, it must attack as detailed above even if it loses all abilities.
   - *2023-07-28* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent protects, or a player who goaded it.
   - *2023-07-28* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
-- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/G.md#ghoulish-impetus)
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/G.md#ghoulish-impetus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/214/ghoulish-impetus) · oracle_id `276eccd6-4a76-46e8-b604-94472e618115` · printing: SOC #214 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghoulish Procession

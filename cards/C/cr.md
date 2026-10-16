@@ -1789,6 +1789,7 @@ schema: 2
   > *—Donya, village healer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1551 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#creeping-bloodsucker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/415/creeping-bloodsucker) · oracle_id `0bdddaf9-579a-4588-b5b3-faa189d4bdcc` · printing: J25 #415 (2024-11-15) · [rulings](https://api.scryfall.com/cards/d9f12481-e4dd-4a44-910f-e0d263de14ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Creeping Chill
@@ -3798,8 +3799,8 @@ schema: 2
   - *2017-03-14* — If, as Cruel Ultimatum begins to resolve, your opponent's life total is 5 or less and you have two or fewer cards in your library, the game will result in a draw. Your opponent's life total will drop to 0 or less, but Cruel Ultimatum must finish resolving completely before state-based actions are performed. You'll then be forced to draw three cards and fail to draw one. When state-based actions are finally performed, you and your opponent will both lose the game at the same time, which means the game is a draw.
   - *2024-04-12* — If the target opponent is an illegal target as Cruel Ultimatum tries to resolve, it won't resolve and none of its effects will happen. (I'm not going to list them all here because it would just be disappointing to hear all of the things you won't get to do.)
 - **Lore:** ✅ Card art shown on [Kruphix's Insight](https://magic.wizards.com/en/news/magic-story/kruphixs-insight-2014-06-11), [Unbroken and Unbowed](https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (1): [Bjorna, Nightfall Alchemist (Grixis)](../../grixis/decks/bjorna-nightfall-alchemist-cecily.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 26,398 decks; most often under [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (37.8% of its decks), [Zevlor, Elturel Exile](../../cards/Z/ze.md#zevlor-elturel-exile) (62.9% of its decks), [Jodah, Archmage Eternal](../../cards/J/jo.md#jodah-archmage-eternal) (19.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/C.md#cruel-ultimatum)
+- **Synergy:** *Proven* — KB decks (2): [Bjorna, Nightfall Alchemist (Grixis)](../../grixis/decks/bjorna-nightfall-alchemist-cecily.md) · [Zevlor, Elturel Exile (Grixis)](../../grixis/decks/zevlor-elturel-exile.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 26,398 decks; most often under [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (37.8% of its decks), [Zevlor, Elturel Exile](../../cards/Z/ze.md#zevlor-elturel-exile) (62.9% of its decks), [Jodah, Archmage Eternal](../../cards/J/jo.md#jodah-archmage-eternal) (19.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/C.md#cruel-ultimatum)
 - **Source flags:** [Scryfall](https://scryfall.com/card/e01/82/cruel-ultimatum) · oracle_id `01294ac9-1a06-4ee8-b3b1-db1f07c9d94e` · printing: E01 #82 (2017-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cruel Witness
@@ -3912,7 +3913,7 @@ schema: 2
   > *—Ultron*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #368 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 13 pages (8 decks · 4 edh guides · 1 card data) → [reverse index](../../references/C.md#crumbling-necropolis)
+- **Referenced in:** 12 pages (8 decks · 3 edh guides · 1 card data) → [reverse index](../../references/C.md#crumbling-necropolis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/237/crumbling-necropolis) · oracle_id `7190debf-708b-4f41-9714-0d0a5bd5a74e` · printing: MSC #237 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d28542af-936f-44e5-a4e3-119f23c9f0d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Crumbling Sanctuary
@@ -4513,7 +4514,7 @@ schema: 2
   - *2024-01-12* — The extort ability doesn't target any player.
   - *2024-01-12* — The extort ability resolves before the spell that caused it to trigger. The ability resolves even if that spell is countered.
   - *2024-01-12* — You may pay {W/B} a maximum of one time for each extort triggered ability. You decide whether to pay when the ability resolves.
-- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/C.md#crypt-ghast)
+- **Referenced in:** 4 pages (2 decks · 1 rules · 1 card data) → [reverse index](../../references/C.md#crypt-ghast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/70/crypt-ghast) · oracle_id `a3c8d817-7949-4dae-b9f5-f9d952479270` · printing: RVR #70 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cryptic Annelid

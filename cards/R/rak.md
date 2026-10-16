@@ -190,8 +190,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #326 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
 - **Lore:** ✅ Card art shown on [In Praise of the Worldsoul, Part 3](https://magic.wizards.com/en/news/magic-story/in-praise-of-the-worldsoul-part-3) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (1): [Prosper, Tome-Bound](../../decks/prosper-tome-bound.md) · Commander Spellbook: 1 combo; most popular [Argothian Elder + Wirewood Lodge + Forbidden Orchard + Rakdos Charm](https://commanderspellbook.com/combo/54-1399-2681-3814/) (Each opponent loses the game, Infinite creature tokens for opponents) · EDHREC: in 354,136 decks; most often under [Valgavoth, Harrower of Souls](../../cards/V/va.md#valgavoth-harrower-of-souls) (80.6% of its decks), [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (49.5% of its decks), [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (48.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/R.md#rakdos-charm)
+- **Synergy:** *Proven* — KB decks (6): [Prosper, Tome-Bound](../../decks/prosper-tome-bound.md) · [Sol'kanar the Swamp King (Grixis)](../../grixis/decks/solkanar-the-swamp-king.md) · [Sol'Kanar the Tainted (Grixis)](../../grixis/decks/solkanar-the-tainted.md) · [Tetsuo Umezawa (Grixis)](../../grixis/decks/tetsuo-umezawa.md) … · Commander Spellbook: 1 combo; most popular [Argothian Elder + Wirewood Lodge + Forbidden Orchard + Rakdos Charm](https://commanderspellbook.com/combo/54-1399-2681-3814/) (Each opponent loses the game, Infinite creature tokens for opponents) · EDHREC: in 354,136 decks; most often under [Valgavoth, Harrower of Souls](../../cards/V/va.md#valgavoth-harrower-of-souls) (80.6% of its decks), [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (49.5% of its decks), [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (48.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 9 pages (6 decks · 3 edh guides) → [reverse index](../../references/R.md#rakdos-charm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/125/rakdos-charm) · oracle_id `5e62b51d-faec-4aa0-9504-cf2c282d08ea` · printing: EOC #125 (2025-08-01) · [rulings](https://api.scryfall.com/cards/64b67170-1602-4050-80c0-ade2a6cac211/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Cluestone
@@ -486,7 +486,7 @@ schema: 2
   > *Made of bone and boiled in blood, a Rakdos signet is not considered finished until it has been used as a murder weapon.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #168 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 19 pages (15 decks · 3 edh guides · 1 card data) → [reverse index](../../references/R.md#rakdos-signet)
+- **Referenced in:** 29 pages (25 decks · 3 edh guides · 1 card data) → [reverse index](../../references/R.md#rakdos-signet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/60/rakdos-signet) · oracle_id `3adb7681-977f-4a32-9ec8-51481b958268` · printing: FRC #60 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a263e71d-953f-4648-b326-33133cfa7e00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos's Return
@@ -500,6 +500,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14387 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2012-10-01* — The target opponent will discard X cards even if some or all of the damage dealt by Rakdos’s Return is prevented or redirected.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#rakdoss-return)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/188/rakdoss-return) · oracle_id `52d1d575-3e7f-4df1-8c89-aee0cac03aca` · printing: RTR #188 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos the Defiler

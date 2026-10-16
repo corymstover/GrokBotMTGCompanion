@@ -129,7 +129,7 @@ schema: 2
   - *2025-07-25* — Reflecting Pool’s ability checks the effects of all mana-producing abilities of lands you control, but it doesn’t check their costs or legality. For example, Spire of Industry says “{T}, Pay 1 life: Add one mana of any color. Activate only if you control an artifact.” If you control Spire of Industry and Reflecting Pool, you can tap Reflecting Pool for any color of mana. It doesn’t matter whether you control an artifact, whether you can pay 1 life, or whether Spire of Industry is untapped.
   - *2025-07-25* — Reflecting Pool’s ability doesn’t care about any restrictions or riders your lands put on the mana they produce, such as those of Plaza of Heroes or Power Depot. It just produces one mana of the appropriate type, with no restrictions or riders.
   - *2025-07-25* — The types of mana are white, blue, black, red, green, and colorless.
-- **Referenced in:** 3 pages (2 edh guides · 1 card data) → [reverse index](../../references/R.md#reflecting-pool)
+- **Referenced in:** 9 pages (6 decks · 2 edh guides · 1 card data) → [reverse index](../../references/R.md#reflecting-pool)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/23/reflecting-pool) · oracle_id `67f43ac6-2a58-4b53-b5d7-0330e2a252e2` · printing: FRC #23 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reflections of Littjara

@@ -11,7 +11,7 @@ schema: 2
 
 # Grixis Evaluation — all 62 source lists
 
-> Bot cycle 16. Every decklist in [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) (commit `df1abb9`), checked by `scripts/grixis_eval.py` against Scryfall Oracle bulk 2026-10-15. Checks: name resolution, commander eligibility and pairing, 100 cards, singleton (with Oracle copy exceptions such as Nazgûl), color identity, Commander legality and bans, companion, Game Changers. Oracle text recorded in the source's audit CSVs is compared with current Oracle. Back to [Grixis](README.md).
+> Bot cycle 16; re-run in Bot cycle 37. Every decklist in [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) (commit `1836b97`), checked by `scripts/grixis_eval.py` against Scryfall Oracle bulk 2026-10-15. Checks: name resolution, commander eligibility and pairing, 100 cards, singleton (with Oracle copy exceptions such as Nazgûl), color identity, Commander legality and bans, companion, Game Changers. Oracle text recorded in the source's audit CSVs is compared with current Oracle. Back to [Grixis](README.md).
 
 ## Contents
 - [Summary](#summary)
@@ -20,10 +20,10 @@ schema: 2
 
 ## Summary
 
-- Source lists: **62** (62 baseline FINAL lists; 40 have a newer user-approved list).
-- **Integrated: 40**, i.e. every approved list that passes or could be corrected to pass. **Left out: 22** (2 future-release lists; 20 lists the source still marks UNREFINED).
+- Source lists: **62** (62 baseline FINAL lists; 62 have a newer user-approved list).
+- **Integrated: 60**, i.e. every approved list that passes or could be corrected to pass. **Left out: 2** (2 future-release lists; 0 lists the source still marks UNREFINED).
 - Hard problems found across all 62: 3× not Commander-legal, 2× banned.
-- Oracle check: 16,137 Oracle-text rows in 34 source audit files; **0 differ** from current Oracle.
+- Oracle check: 17,683 Oracle-text rows in 46 source audit files; **0 differ** from current Oracle.
 
 ## Per-list results
 
@@ -49,7 +49,7 @@ schema: 2
 | 18 | `Evelyn__the_Covetous` | Evelyn, the Covetous | APPROVED | 100 | — | 19 | ✅ [integrated](decks/evelyn-the-covetous.md) |
 | 19 | `Fire_Lord_Azula` | Fire Lord Azula | APPROVED | 100 | — | 20 | ✅ [integrated](decks/fire-lord-azula.md) |
 | 20 | `Garza_Zol__Plague_Queen` | Garza Zol, Plague Queen | APPROVED | 100 | — | 9 | ✅ [integrated](decks/garza-zol-plague-queen.md) |
-| 21 | `Goben__Gene_Splice_Savant` | Norman Osborn // Green Goblin | UNREFINED (not in current-cycle approvals) | 100 | — | 16 | ⏸ not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import. |
+| 21 | `Goben__Gene_Splice_Savant` | Norman Osborn // Green Goblin | APPROVED | 100 | — | 19 | ✅ [integrated](decks/norman-osborn.md) |
 | 22 | `Goro_Goro_and_Satoru` | Goro-Goro and Satoru | APPROVED | 100 | — | 6 | ✅ [integrated](decks/goro-goro-and-satoru.md) |
 | 23 | `Grixistax___October_2026` | Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools | APPROVED | 100 | — | 22 | ✅ [integrated](decks/grixistax-october-2026.md) |
 | 24 | `Gwendlyn_Di_Corci` | Gwendlyn Di Corci | APPROVED | 100 | — | 17 | ✅ [integrated](decks/gwendlyn-di-corci.md) |
@@ -70,27 +70,27 @@ schema: 2
 | 39 | `Missy` | Missy | APPROVED | 100 | — | 7 | ✅ [integrated](decks/missy.md) |
 | 40 | `Nathan_Drake__Treasure_Hunter` | Nathan Drake, Treasure Hunter | APPROVED | 100 | — | 9 | ✅ [integrated](decks/nathan-drake-treasure-hunter.md) |
 | 41 | `Nekusar__the_Mindrazer` | Nekusar, the Mindrazer | APPROVED | 100 | — | 15 | ✅ [integrated](decks/nekusar-the-mindrazer.md) |
-| 42 | `Nicol_Bolas` | Nicol Bolas | UNREFINED (not in current-cycle approvals) | 100 | — | 10 | ⏸ not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import. |
-| 43 | `Nicol_Bolas__the_Ravager` | Nicol Bolas, the Ravager // Nicol Bolas, the Arisen | UNREFINED (not in current-cycle approvals) | 100 | — | 20 | ⏸ not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import. |
-| 44 | `Obeka__Brute_Chronologist` | Obeka, Brute Chronologist | UNREFINED (not in current-cycle approvals) | 100 | — | 13 | ⏸ not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import. |
-| 45 | `Obeka__Splitter_of_Seconds` | Obeka, Splitter of Seconds | UNREFINED (not in current-cycle approvals) | 100 | — | 6 | ⏸ not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import. |
-| 46 | `Parnesse__the_Subtle_Brush` | Parnesse, the Subtle Brush | UNREFINED (not in current-cycle approvals) | 100 | — | 3 | ⏸ not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import. |
-| 47 | `RogSi` | Rograkh, Son of Rohgahh + Silas Renn, Seeker Adept | UNREFINED (not in current-cycle approvals) | 100 | — | 20 | ⏸ not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import. |
-| 48 | `Saruman__the_White_Hand` | Saruman, the White Hand | UNREFINED (not in current-cycle approvals) | 100 | — | 10 | ⏸ not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import. |
-| 49 | `Sauron__Lord_of_the_Rings` | Sauron, Lord of the Rings | UNREFINED (not in current-cycle approvals) | 100 | — | 9 | ⏸ not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import. |
-| 50 | `Sauron__the_Dark_Lord` | Sauron, the Dark Lord | UNREFINED (not in current-cycle approvals) | 100 | — | 11 | ⏸ not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import. |
-| 51 | `Sedris__the_Traitor_King` | Sedris, the Traitor King | UNREFINED (not in current-cycle approvals) | 100 | — | 11 | ⏸ not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import. |
-| 52 | `Sol_kanar_the_Swamp_King` | Sol'kanar the Swamp King | UNREFINED (not in current-cycle approvals) | 100 | — | 13 | ⏸ not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import. |
-| 53 | `Sol_kanar_the_Tainted` | Sol'Kanar the Tainted | UNREFINED (not in current-cycle approvals) | 100 | — | 5 | ⏸ not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import. |
-| 54 | `Tetsuo_Umezawa` | Tetsuo Umezawa | UNREFINED (not in current-cycle approvals) | 100 | — | 4 | ⏸ not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import. |
-| 55 | `Tetsuo__Imperial_Champion` | Tetsuo, Imperial Champion | UNREFINED (not in current-cycle approvals) | 100 | — | 4 | ⏸ not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import. |
-| 56 | `The_Madcap_Jester` | The Madcap Jester | UNREFINED (not in current-cycle approvals) | 100 | not Commander-legal: The Madcap Jester; not Commander-legal: Dragon's Smile | 17 | ⏸ future-release: The commander and Dragon's Smile come from Scryfall set `mbc` (draft_innovation), releasing 2026-10-19. Both are `not_legal` in Commander today, and the source registers them as a *future-release* exception. Re-check after release. |
-| 57 | `The_Rani` | The Rani | UNREFINED (not in current-cycle approvals) | 100 | — | 8 | ⏸ not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import. |
-| 58 | `The_Valeyard` | The Valeyard | UNREFINED (not in current-cycle approvals) | 100 | — | 5 | ⏸ not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import. |
-| 59 | `Thraximundar` | Thraximundar | UNREFINED (not in current-cycle approvals) | 100 | — | 8 | ⏸ not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import. |
-| 60 | `Tresserhorn_s_Lord__Returned` | Tresserhorn's Lord, Returned | UNREFINED (not in current-cycle approvals) | 100 | not Commander-legal: Tresserhorn's Lord, Returned | 1 | ⏸ future-release: The commander is in set `mbc` (releasing 2026-10-19) and is `not_legal` in Commander today. The source registers it as a *future-release* exception. |
-| 61 | `Wick__the_Whorled_Mind` | Wick, the Whorled Mind | UNREFINED (not in current-cycle approvals) | 100 | — | 5 | ⏸ not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import. |
-| 62 | `Zevlor__Elturel_Exile` | Zevlor, Elturel Exile | UNREFINED (not in current-cycle approvals) | 100 | — | 11 | ⏸ not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import. |
+| 42 | `Nicol_Bolas` | Nicol Bolas | APPROVED | 100 | — | 14 | ✅ [integrated](decks/nicol-bolas.md) |
+| 43 | `Nicol_Bolas__the_Ravager` | Nicol Bolas, the Ravager // Nicol Bolas, the Arisen | APPROVED | 100 | — | 16 | ✅ [integrated](decks/nicol-bolas-the-ravager.md) |
+| 44 | `Obeka__Brute_Chronologist` | Obeka, Brute Chronologist | APPROVED | 100 | — | 13 | ✅ [integrated](decks/obeka-brute-chronologist.md) |
+| 45 | `Obeka__Splitter_of_Seconds` | Obeka, Splitter of Seconds | APPROVED | 100 | — | 6 | ✅ [integrated](decks/obeka-splitter-of-seconds.md) |
+| 46 | `Parnesse__the_Subtle_Brush` | Parnesse, the Subtle Brush | APPROVED | 100 | — | 3 | ✅ [integrated](decks/parnesse-the-subtle-brush.md) |
+| 47 | `RogSi` | Rograkh, Son of Rohgahh + Silas Renn, Seeker Adept | APPROVED | 100 | — | 19 | ✅ [integrated](decks/rograkh-son-of-rohgahh-silas-renn.md) |
+| 48 | `Saruman__the_White_Hand` | Saruman, the White Hand | APPROVED | 100 | — | 11 | ✅ [integrated](decks/saruman-the-white-hand.md) |
+| 49 | `Sauron__Lord_of_the_Rings` | Sauron, Lord of the Rings | APPROVED | 100 | — | 11 | ✅ [integrated](decks/sauron-lord-of-the-rings.md) |
+| 50 | `Sauron__the_Dark_Lord` | Sauron, the Dark Lord | APPROVED | 100 | — | 12 | ✅ [integrated](decks/sauron-the-dark-lord.md) |
+| 51 | `Sedris__the_Traitor_King` | Sedris, the Traitor King | APPROVED | 100 | — | 12 | ✅ [integrated](decks/sedris-the-traitor-king.md) |
+| 52 | `Sol_kanar_the_Swamp_King` | Sol'kanar the Swamp King | APPROVED | 100 | — | 13 | ✅ [integrated](decks/solkanar-the-swamp-king.md) |
+| 53 | `Sol_kanar_the_Tainted` | Sol'Kanar the Tainted | APPROVED | 100 | — | 7 | ✅ [integrated](decks/solkanar-the-tainted.md) |
+| 54 | `Tetsuo_Umezawa` | Tetsuo Umezawa | APPROVED | 100 | — | 4 | ✅ [integrated](decks/tetsuo-umezawa.md) |
+| 55 | `Tetsuo__Imperial_Champion` | Tetsuo, Imperial Champion | APPROVED | 100 | — | 5 | ✅ [integrated](decks/tetsuo-imperial-champion.md) |
+| 56 | `The_Madcap_Jester` | The Madcap Jester | APPROVED | 100 | not Commander-legal: The Madcap Jester; not Commander-legal: Dragon's Smile | 17 | ⏸ future-release: The commander and Dragon's Smile come from Scryfall set `mbc` (draft_innovation), releasing 2026-10-19. Both are `not_legal` in Commander today (Scryfall, re-checked 2026-10-16), and the source's 2026-10-15 approval keeps them under its registered *future-release* exceptions. Re-check after release. |
+| 57 | `The_Rani` | The Rani | APPROVED | 100 | — | 8 | ✅ [integrated](decks/the-rani.md) |
+| 58 | `The_Valeyard` | The Valeyard | APPROVED | 100 | — | 6 | ✅ [integrated](decks/the-valeyard.md) |
+| 59 | `Thraximundar` | Thraximundar | APPROVED | 100 | — | 8 | ✅ [integrated](decks/thraximundar.md) |
+| 60 | `Tresserhorn_s_Lord__Returned` | Tresserhorn's Lord, Returned | APPROVED | 100 | not Commander-legal: Tresserhorn's Lord, Returned | 2 | ⏸ future-release: The commander is in set `mbc` (releasing 2026-10-19) and is `not_legal` in Commander today (Scryfall, re-checked 2026-10-16). ⚠️ The source's 2026-10-15 approval record calls its earlier future-release exception "historical only" and reports "current official Commander legality PASS"; Scryfall does not agree yet. Re-check after release. |
+| 61 | `Wick__the_Whorled_Mind` | Wick, the Whorled Mind | APPROVED | 100 | — | 5 | ✅ [integrated](decks/wick-the-whorled-mind.md) |
+| 62 | `Zevlor__Elturel_Exile` | Zevlor, Elturel Exile | APPROVED | 100 | — | 11 | ✅ [integrated](decks/zevlor-elturel-exile.md) |
 
 ## How the current list was chosen
 

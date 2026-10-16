@@ -224,7 +224,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #277 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-12-08* — You choose which lands to untap as the spell resolves. They aren't targeted, and they don't have to be lands that you control.
-- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#snap)
+- **Referenced in:** 6 pages (4 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#snap)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/66/snap) · oracle_id `ac914d98-221e-426c-8a50-342896b15f9e` · printing: DMR #66 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snapback
@@ -264,7 +264,7 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
-- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/S.md#snapcaster-mage)
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/S.md#snapcaster-mage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/478/snapcaster-mage) · oracle_id `2bb2eda7-3b38-4c56-870f-c3218a1056f5` · printing: INR #478 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snapdax, Apex of the Hunt
@@ -611,7 +611,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1506 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-08-07* — You sacrifice the creature only if you still control it. If that creature has left the battlefield, even if it came back, you don't sacrifice it.
-- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/S.md#sneak-attack)
+- **Referenced in:** 8 pages (5 decks · 1 edh guides · 2 card data) → [reverse index](../../references/S.md#sneak-attack)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/139/sneak-attack) · oracle_id `e7aee670-e6ac-4b3a-b3d1-7b7013db8f3d` · printing: DMR #139 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### S.N.E.A.K. Dispatcher

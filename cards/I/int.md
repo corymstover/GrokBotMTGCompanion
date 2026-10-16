@@ -464,7 +464,7 @@ schema: 2
   - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
   - *2023-06-16* — When In the Darkness Bind Them's final chapter ability triggers, you can choose to target no creatures just so that the Ring tempts you. However, if you do choose at least one target, and all of those targets are illegal at the time the ability tries to resolve, the ability won't resolve and none of its effects will happen. The Ring won't tempt you.
   - *2023-06-16* — While resolving In the Darkness Bind Them's first three chapter abilities, you can choose the Wraith token you just created to be your Ring-bearer as the Ring tempts you.
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/I.md#in-the-darkness-bind-them)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/I.md#in-the-darkness-bind-them)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/58/in-the-darkness-bind-them) · oracle_id `c8689a83-cefa-4ef3-8ec1-58b4c64e332b` · printing: LTC #58 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### In the Eye of Chaos
@@ -735,7 +735,7 @@ schema: 2
   - *2024-07-26* — In the main set, there are four different kinds of gifts. “Gift a Food” causes the chosen opponent to create a Food token, while “Gift a Treasure” causes the chosen opponent to create a Treasure token. “Gift a card” causes them to draw a card, and “Gift a tapped Fish” causes them to create a tapped 1/1 blue Fish creature token. The Commander decks contain two more kinds of gifts: “Gift an Octopus,” which causes the chosen opponent to create an 8/8 blue Octopus creature token, and “Gift an extra turn,” which causes them to take an extra turn after the current turn ends.
   - *2024-07-26* — Some instant or sorcery spells require alternative or additional targets if the gift was promised. You ignore these targeting requirements if the gifts aren’t promised for those spells. On the other hand, you can promise a gift for a permanent spell even if you won’t be able to choose targets for an enters ability of that permanent once the spell resolves.
   - *2024-07-26* — You can’t pay a gift cost more than once.
-- **Referenced in:** 9 pages (5 decks · 1 edh guides · 1 rules · 2 card data) → [reverse index](../../references/I.md#into-the-flood-maw)
+- **Referenced in:** 11 pages (7 decks · 1 edh guides · 1 rules · 2 card data) → [reverse index](../../references/I.md#into-the-flood-maw)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/52/into-the-flood-maw) · oracle_id `8cb36a67-9206-4665-a03f-64f52ba559c4` · printing: BLB #52 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Into the Fray
@@ -1160,7 +1160,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1729 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-09-01* — If multiple creatures enter the battlefield at one time, this ability triggers once for each of those creatures.
-- **Referenced in:** 6 pages (2 decks · 2 edh guides · 2 card data) → [reverse index](../../references/I.md#intruder-alarm)
+- **Referenced in:** 7 pages (3 decks · 2 edh guides · 2 card data) → [reverse index](../../references/I.md#intruder-alarm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/86/intruder-alarm) · oracle_id `1e943e04-e213-4781-b1a7-935aad8790e1` · printing: 8ED #86 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Intruding Soulrager

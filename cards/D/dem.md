@@ -392,7 +392,7 @@ schema: 2
   - *2004-10-04* — You must name a card that actually exists in the game of Magic.
   - *2008-10-01* — If you don't reveal the named card (perhaps because it was in the top six cards of your library), you'll end up exiling your entire library. You don't lose the game at that point, but will lose the next time you're instructed to draw a card.
   - *2008-10-01* — You don't name a card until Demonic Consultation resolves.
-- **Referenced in:** 12 pages (7 decks · 3 edh guides · 2 card data) → [reverse index](../../references/D.md#demonic-consultation)
+- **Referenced in:** 14 pages (9 decks · 3 edh guides · 2 card data) → [reverse index](../../references/D.md#demonic-consultation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/85/demonic-consultation) · oracle_id `9a1412db-45ad-46ea-8f12-a85d203113d8` · printing: ME2 #85 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Counsel
@@ -408,7 +408,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1815 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-09-20* — In the case where Demonic Counsel's delirium ability allows you to search your library for any card, you won't have to reveal that card. (You could, but as your demonic counsel, I wouldn't advise it.)
-- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/D.md#demonic-counsel)
+- **Referenced in:** 7 pages (5 decks · 1 edh guides · 1 card data) → [reverse index](../../references/D.md#demonic-counsel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/92/demonic-counsel) · oracle_id `712e3479-722c-40a1-9b61-d5bdde93042b` · printing: DSK #92 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Covenant
@@ -541,8 +541,8 @@ schema: 2
   - *2015-06-22* — Yes, if the fourth mode is the only one remaining, you must choose it. You read the whole contract, right?
   - *2015-06-22* — You choose the mode as the triggered ability goes on the stack. You can choose a mode that requires targets only if there are legal targets available.
 - **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 5](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-5-2018-04-11), [Unkindness of Ravens](https://magic.wizards.com/en/news/magic-story/unkindness-ravens-2015-07-29) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 8 combos; most popular [Demonic Pact + Harmless Offering](https://commanderspellbook.com/combo/3090-6676/) (Target opponent loses the game at the beginning of their next upkeep) · EDHREC: in 13,744 decks; most often under [Blim, Comedic Genius](../../cards/B/bli.md#blim-comedic-genius) (83.4% of its decks), [Ghen, Arcanum Weaver](../../cards/G/gh.md#ghen-arcanum-weaver) (23.1% of its decks), [Deadpool, Trading Card](../../cards/D/dea.md#deadpool-trading-card) (3.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#demonic-pact)
+- **Synergy:** *Proven* — KB decks (1): [Sol'Kanar the Tainted (Grixis)](../../grixis/decks/solkanar-the-tainted.md) · Commander Spellbook: 8 combos; most popular [Demonic Pact + Harmless Offering](https://commanderspellbook.com/combo/3090-6676/) (Target opponent loses the game at the beginning of their next upkeep) · EDHREC: in 13,744 decks; most often under [Blim, Comedic Genius](../../cards/B/bli.md#blim-comedic-genius) (83.4% of its decks), [Ghen, Arcanum Weaver](../../cards/G/gh.md#ghen-arcanum-weaver) (23.1% of its decks), [Deadpool, Trading Card](../../cards/D/dea.md#deadpool-trading-card) (3.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/D.md#demonic-pact)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/602/demonic-pact) · oracle_id `19a2f0a0-9e68-4982-a5f5-b77d805befd7` · printing: FDN #602 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Rising
@@ -637,7 +637,7 @@ schema: 2
   - *2004-10-04* — This card is put directly into your hand. It is not drawn.
   - *2004-10-04* — You don't reveal the card to your opponent.
   - *2004-10-04* — You pick a card on resolution.
-- **Referenced in:** 50 pages (43 decks · 5 edh guides · 2 card data) → [reverse index](../../references/D.md#demonic-tutor)
+- **Referenced in:** 69 pages (62 decks · 5 edh guides · 2 card data) → [reverse index](../../references/D.md#demonic-tutor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/150/demonic-tutor) · oracle_id `82004860-e589-4e38-8d61-8c0210e4ea39` · printing: CMM #150 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Vigor
@@ -899,7 +899,7 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — If a player casts a black spell, Demon’s Horn’s ability triggers and is put on the stack on top of that spell. Demon’s Horn’s ability will resolve (causing you to gain 1 life) before the spell does.
   - *2009-10-01* — The ability triggers whenever any player, not just you, casts a black spell.
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#demons-horn)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/D.md#demons-horn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dvd/57/demons-horn) · oracle_id `ee38377f-8d3a-402e-a5d7-a01cfe3a5322` · printing: DVD #57 (2014-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demon's Jester

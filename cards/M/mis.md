@@ -926,7 +926,7 @@ schema: 2
   - *2023-10-13* — The player who controls a face-down permanent may look at it at any time. Notably, if the cards were put on the battlefield face down from another player's library, the player that owns them does not get to look at those cards.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
   - *2023-10-13* — When a player faces a villainous choice, they first choose one of the two options, then all actions in the chosen option are performed.
-- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/M.md#missy)
+- **Referenced in:** 5 pages (4 decks · 1 card data) → [reverse index](../../references/M.md#missy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/8/missy) · oracle_id `905610cd-1461-4f5a-b9c8-19b193b9d513` · printing: WHO #8 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mistakes Were Made
@@ -1866,7 +1866,7 @@ schema: 2
   > {T}, Pay 1 life, Sacrifice this land: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #42 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 36 pages (30 decks · 4 edh guides · 2 card data) → [reverse index](../../references/M.md#misty-rainforest)
+- **Referenced in:** 53 pages (47 decks · 4 edh guides · 2 card data) → [reverse index](../../references/M.md#misty-rainforest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/250/misty-rainforest) · oracle_id `09dd85aa-47bc-4713-a9b9-8b52ff2285ed` · printing: MH2 #250 (2021-06-18) · [rulings](https://api.scryfall.com/cards/88231c0d-0cc8-44ec-bf95-81d1710ac141/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Misunderstood Trapeze Elf

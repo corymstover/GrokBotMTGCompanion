@@ -277,7 +277,7 @@ schema: 2
   - *2024-04-12* — Thunderclap Drake's second ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic mana component of that spell's cost.
   - *2024-04-12* — Thunderclap Drake's second ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay to cast instant and sorcery spells.
   - *2024-04-12* — You can't choose to pay any additional costs for the copies. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copies too.
-- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/T.md#thunderclap-drake)
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/T.md#thunderclap-drake)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/204/thunderclap-drake) · oracle_id `88d0a394-79e2-42ac-9a37-1a7b78231941` · printing: SOC #204 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderclap Wyvern

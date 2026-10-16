@@ -264,4 +264,5 @@ schema: 2
   - *2024-02-02* — Each player must vote for another player. They can’t abstain.
   - *2024-02-02* — To secretly vote, each player writes down their chosen option without showing it to anyone else. Each player then keeps their vote secret until all players simultaneously reveal their votes.
   - *2024-02-02* — Votes are cast during the resolution of Mob Verdict, so any responses to Mob Verdict must be made without knowing the outcome of the vote.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mob-verdict)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/33/mob-verdict) · oracle_id `cb91e09e-f7fb-44bc-b78f-de29705bd2d6` · printing: MKC #33 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

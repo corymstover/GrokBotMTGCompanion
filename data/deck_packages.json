@@ -4,6 +4,11 @@
  "packages": {
   "Ramp: Mana rocks (MV ≤ 2)": [
    {
+    "deck": "grixis/decks/nicol-bolas.md",
+    "label": "Nicol Bolas (Grixis)",
+    "cards": 13
+   },
+   {
     "deck": "grixis/decks/mairsil-the-pretender.md",
     "label": "Mairsil, the Pretender (Grixis)",
     "cards": 12
@@ -11,6 +16,11 @@
    {
     "deck": "grixis/decks/mishra-artificer-prodigy.md",
     "label": "Mishra, Artificer Prodigy (Grixis)",
+    "cards": 12
+   },
+   {
+    "deck": "grixis/decks/nicol-bolas-the-ravager.md",
+    "label": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen (Grixis)",
     "cards": 12
    },
    {
@@ -41,6 +51,21 @@
    {
     "deck": "grixis/decks/kess-dissident-mage.md",
     "label": "Kess, Dissident Mage (Grixis)",
+    "cards": 10
+   },
+   {
+    "deck": "grixis/decks/norman-osborn.md",
+    "label": "Norman Osborn // Green Goblin (Grixis)",
+    "cards": 10
+   },
+   {
+    "deck": "grixis/decks/sedris-the-traitor-king.md",
+    "label": "Sedris, the Traitor King (Grixis)",
+    "cards": 10
+   },
+   {
+    "deck": "grixis/decks/solkanar-the-swamp-king.md",
+    "label": "Sol'kanar the Swamp King (Grixis)",
     "cards": 10
    },
    {
@@ -89,6 +114,31 @@
     "cards": 9
    },
    {
+    "deck": "grixis/decks/obeka-brute-chronologist.md",
+    "label": "Obeka, Brute Chronologist (Grixis)",
+    "cards": 9
+   },
+   {
+    "deck": "grixis/decks/solkanar-the-tainted.md",
+    "label": "Sol'Kanar the Tainted (Grixis)",
+    "cards": 9
+   },
+   {
+    "deck": "grixis/decks/tetsuo-umezawa.md",
+    "label": "Tetsuo Umezawa (Grixis)",
+    "cards": 9
+   },
+   {
+    "deck": "grixis/decks/the-valeyard.md",
+    "label": "The Valeyard (Grixis)",
+    "cards": 9
+   },
+   {
+    "deck": "grixis/decks/thraximundar.md",
+    "label": "Thraximundar (Grixis)",
+    "cards": 9
+   },
+   {
     "deck": "grixis/decks/admiral-beckett-brass.md",
     "label": "Admiral Beckett Brass (Grixis)",
     "cards": 8
@@ -131,6 +181,31 @@
    {
     "deck": "grixis/decks/nekusar-the-mindrazer.md",
     "label": "Nekusar, the Mindrazer (Grixis)",
+    "cards": 8
+   },
+   {
+    "deck": "grixis/decks/parnesse-the-subtle-brush.md",
+    "label": "Parnesse, the Subtle Brush (Grixis)",
+    "cards": 8
+   },
+   {
+    "deck": "grixis/decks/rograkh-son-of-rohgahh-silas-renn.md",
+    "label": "Rograkh, Son of Rohgahh (Grixis)",
+    "cards": 8
+   },
+   {
+    "deck": "grixis/decks/sauron-lord-of-the-rings.md",
+    "label": "Sauron, Lord of the Rings (Grixis)",
+    "cards": 8
+   },
+   {
+    "deck": "grixis/decks/tetsuo-imperial-champion.md",
+    "label": "Tetsuo, Imperial Champion (Grixis)",
+    "cards": 8
+   },
+   {
+    "deck": "grixis/decks/the-rani.md",
+    "label": "The Rani (Grixis)",
     "cards": 8
    },
    {
@@ -226,6 +301,26 @@
    {
     "deck": "grixis/decks/nathan-drake-treasure-hunter.md",
     "label": "Nathan Drake, Treasure Hunter (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/obeka-splitter-of-seconds.md",
+    "label": "Obeka, Splitter of Seconds (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/saruman-the-white-hand.md",
+    "label": "Saruman, the White Hand (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/sauron-the-dark-lord.md",
+    "label": "Sauron, the Dark Lord (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/wick-the-whorled-mind.md",
+    "label": "Wick, the Whorled Mind (Grixis)",
     "cards": 6
    },
    {
@@ -346,6 +441,11 @@
    {
     "deck": "decks/xenagos-god-of-revels.md",
     "label": "Xenagos, God of Revels",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/zevlor-elturel-exile.md",
+    "label": "Zevlor, Elturel Exile (Grixis)",
     "cards": 3
    }
   ],
@@ -495,6 +595,11 @@
     "cards": 4
    },
    {
+    "deck": "grixis/decks/parnesse-the-subtle-brush.md",
+    "label": "Parnesse, the Subtle Brush (Grixis)",
+    "cards": 4
+   },
+   {
     "deck": "decks/kozilek-the-great-distortion.md",
     "label": "Kozilek, the Great Distortion",
     "cards": 3
@@ -554,6 +659,11 @@
    {
     "deck": "grixis/decks/goro-goro-and-satoru.md",
     "label": "Goro-Goro and Satoru (Grixis)",
+    "cards": 8
+   },
+   {
+    "deck": "grixis/decks/the-rani.md",
+    "label": "The Rani (Grixis)",
     "cards": 8
    },
    {
@@ -619,6 +729,16 @@
    {
     "deck": "grixis/decks/missy.md",
     "label": "Missy (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/nicol-bolas.md",
+    "label": "Nicol Bolas (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/tetsuo-imperial-champion.md",
+    "label": "Tetsuo, Imperial Champion (Grixis)",
     "cards": 6
    },
    {
@@ -757,6 +877,41 @@
     "cards": 4
    },
    {
+    "deck": "grixis/decks/nicol-bolas-the-ravager.md",
+    "label": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/norman-osborn.md",
+    "label": "Norman Osborn // Green Goblin (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/obeka-splitter-of-seconds.md",
+    "label": "Obeka, Splitter of Seconds (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/solkanar-the-swamp-king.md",
+    "label": "Sol'kanar the Swamp King (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/tetsuo-umezawa.md",
+    "label": "Tetsuo Umezawa (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/the-valeyard.md",
+    "label": "The Valeyard (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/zevlor-elturel-exile.md",
+    "label": "Zevlor, Elturel Exile (Grixis)",
+    "cards": 4
+   },
+   {
     "deck": "decks/edgar-markov.md",
     "label": "Edgar Markov",
     "cards": 3
@@ -780,12 +935,37 @@
     "deck": "grixis/decks/marchesa-dealer-of-death.md",
     "label": "Marchesa, Dealer of Death (Grixis)",
     "cards": 3
+   },
+   {
+    "deck": "grixis/decks/parnesse-the-subtle-brush.md",
+    "label": "Parnesse, the Subtle Brush (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/saruman-the-white-hand.md",
+    "label": "Saruman, the White Hand (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/sauron-the-dark-lord.md",
+    "label": "Sauron, the Dark Lord (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/sedris-the-traitor-king.md",
+    "label": "Sedris, the Traitor King (Grixis)",
+    "cards": 3
    }
   ],
   "Card advantage: Burst draw (instants & sorceries)": [
    {
     "deck": "decks/niv-mizzet-parun.md",
     "label": "Niv-Mizzet, Parun",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/norman-osborn.md",
+    "label": "Norman Osborn // Green Goblin (Grixis)",
     "cards": 6
    },
    {
@@ -799,8 +979,18 @@
     "cards": 5
    },
    {
+    "deck": "grixis/decks/zevlor-elturel-exile.md",
+    "label": "Zevlor, Elturel Exile (Grixis)",
+    "cards": 5
+   },
+   {
     "deck": "decks/talrand-sky-summoner.md",
     "label": "Talrand, Sky Summoner",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/saruman-the-white-hand.md",
+    "label": "Saruman, the White Hand (Grixis)",
     "cards": 4
    },
    {
@@ -826,6 +1016,21 @@
    {
     "deck": "grixis/decks/fire-lord-azula.md",
     "label": "Fire Lord Azula (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/parnesse-the-subtle-brush.md",
+    "label": "Parnesse, the Subtle Brush (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/sauron-lord-of-the-rings.md",
+    "label": "Sauron, Lord of the Rings (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/the-valeyard.md",
+    "label": "The Valeyard (Grixis)",
     "cards": 3
    }
   ],
@@ -884,6 +1089,16 @@
     "deck": "grixis/decks/jeleva-nephalias-scourge.md",
     "label": "Jeleva, Nephalia's Scourge (Grixis)",
     "cards": 3
+   },
+   {
+    "deck": "grixis/decks/norman-osborn.md",
+    "label": "Norman Osborn // Green Goblin (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/rograkh-son-of-rohgahh-silas-renn.md",
+    "label": "Rograkh, Son of Rohgahh (Grixis)",
+    "cards": 3
    }
   ],
   "Aristocrats: Free sacrifice outlets": [
@@ -891,6 +1106,16 @@
     "deck": "grixis/decks/marchesa-the-black-rose.md",
     "label": "Marchesa, the Black Rose (Grixis)",
     "cards": 7
+   },
+   {
+    "deck": "grixis/decks/thraximundar.md",
+    "label": "Thraximundar (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/wick-the-whorled-mind.md",
+    "label": "Wick, the Whorled Mind (Grixis)",
+    "cards": 6
    },
    {
     "deck": "decks/teysa-karlov.md",
@@ -937,6 +1162,11 @@
     "cards": 9
    },
    {
+    "deck": "grixis/decks/wick-the-whorled-mind.md",
+    "label": "Wick, the Whorled Mind (Grixis)",
+    "cards": 6
+   },
+   {
     "deck": "decks/breya-etherium-shaper.md",
     "label": "Breya, Etherium Shaper",
     "cards": 4
@@ -979,6 +1209,11 @@
     "deck": "decks/theme-atraxa-praetors-voice-planeswalkers.md",
     "label": "Atraxa, Praetors' Voice (planeswalkers theme)",
     "cards": 12
+   },
+   {
+    "deck": "grixis/decks/nicol-bolas-the-ravager.md",
+    "label": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen (Grixis)",
+    "cards": 8
    }
   ],
   "+1/+1 counters: Counter payoffs": [],
@@ -997,9 +1232,19 @@
     "deck": "grixis/decks/anhelo-the-painter.md",
     "label": "Anhelo, the Painter (Grixis)",
     "cards": 3
+   },
+   {
+    "deck": "grixis/decks/parnesse-the-subtle-brush.md",
+    "label": "Parnesse, the Subtle Brush (Grixis)",
+    "cards": 3
    }
   ],
   "Spellslinger: Spell copiers": [
+   {
+    "deck": "grixis/decks/parnesse-the-subtle-brush.md",
+    "label": "Parnesse, the Subtle Brush (Grixis)",
+    "cards": 7
+   },
    {
     "deck": "grixis/decks/anhelo-the-painter.md",
     "label": "Anhelo, the Painter (Grixis)",
@@ -1028,6 +1273,16 @@
     "cards": 9
    },
    {
+    "deck": "grixis/decks/parnesse-the-subtle-brush.md",
+    "label": "Parnesse, the Subtle Brush (Grixis)",
+    "cards": 9
+   },
+   {
+    "deck": "grixis/decks/saruman-the-white-hand.md",
+    "label": "Saruman, the White Hand (Grixis)",
+    "cards": 7
+   },
+   {
     "deck": "grixis/decks/abaddon-the-despoiler.md",
     "label": "Abaddon the Despoiler (Grixis)",
     "cards": 5
@@ -1040,6 +1295,11 @@
    {
     "deck": "grixis/decks/bjorna-nightfall-alchemist-cecily.md",
     "label": "Bjorna, Nightfall Alchemist (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/zevlor-elturel-exile.md",
+    "label": "Zevlor, Elturel Exile (Grixis)",
     "cards": 4
    },
    {
@@ -1066,6 +1326,11 @@
     "deck": "grixis/decks/marchesa-dealer-of-death.md",
     "label": "Marchesa, Dealer of Death (Grixis)",
     "cards": 3
+   },
+   {
+    "deck": "grixis/decks/nicol-bolas-the-ravager.md",
+    "label": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen (Grixis)",
+    "cards": 3
    }
   ],
   "Graveyard: Self-mill": [
@@ -1083,6 +1348,11 @@
     "deck": "decks/karador-ghost-chieftain.md",
     "label": "Karador, Ghost Chieftain",
     "cards": 8
+   },
+   {
+    "deck": "grixis/decks/sauron-lord-of-the-rings.md",
+    "label": "Sauron, Lord of the Rings (Grixis)",
+    "cards": 3
    }
   ],
   "Graveyard: Reanimation": [
@@ -1092,6 +1362,16 @@
     "cards": 5
    },
    {
+    "deck": "grixis/decks/sauron-lord-of-the-rings.md",
+    "label": "Sauron, Lord of the Rings (Grixis)",
+    "cards": 5
+   },
+   {
+    "deck": "grixis/decks/sedris-the-traitor-king.md",
+    "label": "Sedris, the Traitor King (Grixis)",
+    "cards": 4
+   },
+   {
     "deck": "decks/krrik-son-of-yawgmoth.md",
     "label": "K'rrik, Son of Yawgmoth",
     "cards": 3
@@ -1099,6 +1379,11 @@
    {
     "deck": "grixis/decks/belakor-the-dark-master.md",
     "label": "Be'lakor, the Dark Master (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/obeka-brute-chronologist.md",
+    "label": "Obeka, Brute Chronologist (Grixis)",
     "cards": 3
    }
   ],
@@ -1295,6 +1580,16 @@
     "cards": 6
    },
    {
+    "deck": "grixis/decks/obeka-splitter-of-seconds.md",
+    "label": "Obeka, Splitter of Seconds (Grixis)",
+    "cards": 5
+   },
+   {
+    "deck": "grixis/decks/tetsuo-imperial-champion.md",
+    "label": "Tetsuo, Imperial Champion (Grixis)",
+    "cards": 5
+   },
+   {
     "deck": "decks/zur-the-enchanter.md",
     "label": "Zur the Enchanter",
     "cards": 3
@@ -1303,9 +1598,19 @@
     "deck": "grixis/decks/crosis-the-purger.md",
     "label": "Crosis, the Purger (Grixis)",
     "cards": 3
+   },
+   {
+    "deck": "grixis/decks/nicol-bolas.md",
+    "label": "Nicol Bolas (Grixis)",
+    "cards": 3
    }
   ],
   "Voltron (equipment & auras): Evasion & double strike": [
+   {
+    "deck": "grixis/decks/tetsuo-imperial-champion.md",
+    "label": "Tetsuo, Imperial Champion (Grixis)",
+    "cards": 5
+   },
    {
     "deck": "decks/yidris-maelstrom-wielder.md",
     "label": "Yidris, Maelstrom Wielder",
@@ -1314,6 +1619,11 @@
    {
     "deck": "grixis/decks/garza-zol-plague-queen.md",
     "label": "Garza Zol, Plague Queen (Grixis)",
+    "cards": 4
+   },
+   {
+    "deck": "grixis/decks/obeka-splitter-of-seconds.md",
+    "label": "Obeka, Splitter of Seconds (Grixis)",
     "cards": 4
    },
    {
@@ -1366,6 +1676,16 @@
    {
     "deck": "decks/the-ur-dragon.md",
     "label": "The Ur-Dragon",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/the-rani.md",
+    "label": "The Rani (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/thraximundar.md",
+    "label": "Thraximundar (Grixis)",
     "cards": 3
    }
   ]

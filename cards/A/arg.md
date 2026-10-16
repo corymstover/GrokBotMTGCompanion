@@ -106,6 +106,7 @@ schema: 2
 - **Rulings** (2):
   - *2011-01-01* — The second ability triggers and resolves during the declare attackers step. The target permanent will be destroyed before blockers are declared.
   - *2011-01-01* — You may target any permanent with the triggered ability, not just one controlled by the defending player. If no other player controls a permanent, you must target one of your own.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#argentum-armor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/198/argentum-armor) · oracle_id `d0a1f39b-cda4-4925-83f8-2161f575edfb` · printing: AFC #198 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argentum Masticore

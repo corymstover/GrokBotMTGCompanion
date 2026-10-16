@@ -157,7 +157,7 @@ schema: 2
   > *After years of fabricating visions for naive customers of the Obscura, Stafano was flummoxed by the nightmarish scenes that played out unbidden in his mind's eye.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5007 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/O.md#omen-hawker)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/O.md#omen-hawker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/70/omen-hawker) · oracle_id `215fd0b4-5817-4335-a0ed-1694e44bde41` · printing: MOM #70 (2023-04-21) · [rulings](https://api.scryfall.com/cards/d0749c3c-e3f7-4c96-8c5b-4fd2401544c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Omen Machine

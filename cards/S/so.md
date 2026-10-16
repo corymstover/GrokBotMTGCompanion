@@ -601,7 +601,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
   - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
-- **Referenced in:** 6 pages (3 decks · 1 edh guides · 2 card data) → [reverse index](../../references/S.md#sokenzan-crucible-of-defiance)
+- **Referenced in:** 9 pages (6 decks · 1 edh guides · 2 card data) → [reverse index](../../references/S.md#sokenzan-crucible-of-defiance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/276/sokenzan-crucible-of-defiance) · oracle_id `c5ee72d5-3a9e-4fe5-8802-3286ee612055` · printing: NEO #276 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sokenzan Renegade
@@ -1513,6 +1513,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20007 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-10-04* — Will not trigger off itself being cast.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#solkanar-the-swamp-king)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/200/solkanar-the-swamp-king) · oracle_id `b8aac8e8-4588-4cb9-8b95-5c4abab1c48b` · printing: DMR #200 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sol'Kanar the Tainted
@@ -1530,6 +1531,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-09-09* — In a Two-Headed Giant game, Sol'kanar the Tainted's second mode causes the opposing team to lose 4 life. Its controller will still gain only 2 life.
   - *2022-09-09* — Once Sol'kanar the Tainted is controlled by your opponent, its ability triggers during that player's end step and that player makes all choices for it. That player draws a card for its first mode and gains life for its second mode, that player's opponents lose life for its second mode, and that player chooses one of their opponents for its last mode.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#solkanar-the-tainted)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/219/solkanar-the-tainted) · oracle_id `4efcdefc-e49d-4bce-8581-69037bb48c0a` · printing: DMU #219 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Solphim, Mayhem Dominus
@@ -1558,7 +1560,7 @@ schema: 2
   > *Jace could see the sunlight in his Multiverse, but somewhere along the way, he lost the feel of its warmth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 88 pages (78 decks · 7 edh guides · 3 card data) → [reverse index](../../references/S.md#sol-ring)
+- **Referenced in:** 108 pages (98 decks · 7 edh guides · 3 card data) → [reverse index](../../references/S.md#sol-ring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/21/sol-ring) · oracle_id `6ad8011d-3471-4369-9d68-b264cc027487` · printing: FRC #21 (2026-10-02) · [rulings](https://api.scryfall.com/cards/8ee443cc-e17a-493b-9c93-1f9e141a30e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Solstice Revelations
@@ -2271,7 +2273,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2259 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-09-01* — Only creatures you control at the time Song of Totentanz resolves, including the Rat tokens it creates, will gain haste. Creatures you begin to control later in the turn won't be affected.
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#song-of-totentanz)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#song-of-totentanz)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/150/song-of-totentanz) · oracle_id `5f4d0c87-7d59-41d5-9910-86765a0c144b` · printing: WOE #150 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Songs of the Damned
@@ -4471,7 +4473,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2620 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-11-10* — If either target is an illegal target as Soul's Fire resolves, no damage is dealt.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#souls-fire)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#souls-fire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/200/souls-fire) · oracle_id `62d7ed6e-c386-477e-b155-982c3790f842` · printing: CMR #200 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Soul's Grace

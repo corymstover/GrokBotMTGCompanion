@@ -439,6 +439,7 @@ schema: 2
   - *2014-05-29* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
   - *2014-05-29* — The phrase "the vote is tied" refers only to when there is more than one choice that received the most votes. For example, if a 5-player vote from among three different choices ends 3 votes to 1 vote to 1 vote, the vote isn't tied.
   - *2014-05-29* — You must vote for one of the available options. You can't abstain.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#split-decision)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/25/split-decision) · oracle_id `5f725d51-e133-488c-9ca9-1c7b0523b5bd` · printing: CNS #25 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Split into Three Parts

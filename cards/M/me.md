@@ -523,7 +523,7 @@ schema: 2
   - *2017-02-09* — If you control eight or more artifacts that share a name while you control Mechanized Production, you won't win the game yet. You'll win the game while resolving its triggered ability during your upkeep.
   - *2017-02-09* — The eight artifacts with the same name don't have to have the same name as the enchanted artifact. For example, you win the game if you control eight Thopter artifact creature tokens as Mechanized Production's ability resolves, even if Mechanized Production isn't attached to a Thopter.
   - *2017-02-09* — The token copies exactly what was printed on the original artifact and nothing else (unless that artifact is copying something else or is a token; see below). It doesn't copy whether that artifact is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its types, color, or so on.
-- **Referenced in:** 4 pages (1 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/M.md#mechanized-production)
+- **Referenced in:** 5 pages (2 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/M.md#mechanized-production)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/109/mechanized-production) · oracle_id `39d8406a-90c3-460c-b4e8-0f590573db51` · printing: MKC #109 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mechanized Warfare
@@ -2073,7 +2073,7 @@ schema: 2
   - *2011-06-01* — If you're at 1 life or less, you can't pay 2 life.
   - *2011-06-01* — Phyrexian mana is not a new color. Players can't produce Phyrexian mana.
   - *2011-06-01* — To calculate the mana value of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1.
-- **Referenced in:** 14 pages (9 decks · 3 edh guides · 2 card data) → [reverse index](../../references/M.md#mental-misstep)
+- **Referenced in:** 16 pages (11 decks · 3 edh guides · 2 card data) → [reverse index](../../references/M.md#mental-misstep)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/38/mental-misstep) · oracle_id `1a0770e6-b093-4439-baff-6889a50ba12e` · printing: NPH #38 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mental Modulation
@@ -3764,6 +3764,7 @@ schema: 2
   - *2016-08-23* — The effects of each council’s dilemma ability happen in the stated order. First the vote occurs, then the first effect, and finally the second effect.
   - *2016-08-23* — Unlike the will of the council cards from the original Conspiracy set, where a majority of votes determined what happened, each vote made for a council’s dilemma card adds to the ultimate effect.
   - *2016-08-23* — You must vote for one of the available options. You can’t abstain.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#messenger-jays)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/35/messenger-jays) · oracle_id `dfeb1d36-d1d9-43dd-a79f-a98560676bb3` · printing: CN2 #35 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Messenger's Speed
@@ -4092,7 +4093,7 @@ schema: 2
   - *2024-09-20* — You cast the card with miracle during the resolution of the triggered ability. Ignore any timing rules based on the card's type.
   - *2024-09-20* — You don't have to reveal a drawn card with miracle if you don't wish to cast it at that time.
   - *2024-09-20* — You still draw the card, whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don't cast the card using its miracle ability, it will remain in your hand.
-- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/M.md#metamorphosis-fanatic)
+- **Referenced in:** 3 pages (2 decks · 1 rules) → [reverse index](../../references/M.md#metamorphosis-fanatic)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/21/metamorphosis-fanatic) · oracle_id `017aa9b3-a8ea-4588-9c50-e914a7d8e4ee` · printing: DSC #21 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Metastatic Evangel

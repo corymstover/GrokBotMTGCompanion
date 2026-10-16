@@ -392,6 +392,7 @@ schema: 2
   - *2014-05-29* — Players can't do anything after they finish voting but before the spell or ability that included the vote finishes resolving.
   - *2014-05-29* — The phrase "the vote is tied" refers only to when there is more than one choice that received the most votes. For example, if a 5-player vote from among three different choices ends 3 votes to 1 vote to 1 vote, the vote isn't tied.
   - *2014-05-29* — You must vote for one of the available options. You can't abstain.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#tyrants-choice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/143/tyrants-choice) · oracle_id `ee7d2c2f-e32f-4be6-82ac-ff1e32055376` · printing: VMA #143 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyrant's Familiar

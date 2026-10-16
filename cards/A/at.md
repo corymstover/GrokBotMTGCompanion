@@ -954,6 +954,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15564 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — If you have less than 4 cards, discard all you have.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#attunement)
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/61/attunement) · oracle_id `5ea46ccf-5e36-4889-bf64-00d4f327e9b2` · printing: USG #61 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Attune with Aether

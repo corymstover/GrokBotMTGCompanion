@@ -530,6 +530,7 @@ schema: 2
   - *2026-06-29* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2026-06-29* — Some spells and abilities that amass Goblins may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Goblins.
   - *2026-06-29* — To amass Goblins N, if you don't control an Army creature, create a 0/0 black Goblin Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Goblin, it becomes a Goblin in addition to its other types.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#great-goblin-foul-hearted)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/105/great-goblin-foul-hearted) · oracle_id `080f504f-20c8-4975-837c-d704e879d7f5` · printing: HOC #105 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Great Hall of Starnheim
@@ -614,6 +615,7 @@ schema: 2
   - *2023-10-13* — A player facing a villainous choice can always choose either option, even if one or both of the options are impossible. For example, if one of the options is to sacrifice a creature, a player who controls no creatures can still choose that option.
   - *2023-10-13* — If a spell or ability requires multiple players to face a villainous choice, the result is a little different from other effects in Magic. In that case, the first player in turn order makes their choice and the action for that choice is performed before the next player makes their choice. Then each of the remaining players repeat this process in turn order.
   - *2023-10-13* — When a player faces a villainous choice, they first choose one of the two options, then all actions in the chosen option are performed.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/G.md#great-intelligences-plan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/133/great-intelligences-plan) · oracle_id `cb9abc41-07f8-4a06-b7b9-9dd6be526e42` · printing: WHO #133 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Great Oak Guardian
@@ -822,7 +824,7 @@ schema: 2
   > When this enchantment leaves the battlefield, you discard three cards, lose 6 life, and sacrifice three creatures.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14479 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#greeds-gambit)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/G.md#greeds-gambit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/big/8/greeds-gambit) · oracle_id `0868ebbb-2fe9-4f53-9697-acad8cda5ec1` · printing: BIG #8 (2024-04-19) · [rulings](https://api.scryfall.com/cards/5b60a1a6-b2ca-4dc2-a6d9-eff97092079a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Greedy Freebooter
@@ -1422,8 +1424,8 @@ schema: 2
   - *2023-06-30* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent controls, or a player who goaded it.
   - *2023-06-30* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (3): [Krenko, Mob Boss](../../decks/krenko-mob-boss.md) · [Don Andres, the Renegade (Grixis)](../../grixis/decks/don-andres-the-renegade.md) · [Nathan Drake, Treasure Hunter (Grixis)](../../grixis/decks/nathan-drake-treasure-hunter.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 925 decks; highest synergy [Loyal Apprentice](../../cards/L/lo.md#loyal-apprentice) (+52%), [Break Through the Line](../../cards/B/br.md#break-through-the-line) (+46%), [Subira, Tulzidi Caravanner](../../cards/S/sub.md#subira-tulzidi-caravanner) (+46%) · EDHREC: in 98,010 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (31.7% of its decks), [Laughing Jasper Flint](../../cards/L/la.md#laughing-jasper-flint) (64.3% of its decks), [Zurgo Stormrender](../../cards/Z/zu.md#zurgo-stormrender) (16.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 6 pages (3 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/G.md#grenzo-havoc-raiser)
+- **Synergy:** *Proven* — KB decks (5): [Krenko, Mob Boss](../../decks/krenko-mob-boss.md) · [Don Andres, the Renegade (Grixis)](../../grixis/decks/don-andres-the-renegade.md) · [Nathan Drake, Treasure Hunter (Grixis)](../../grixis/decks/nathan-drake-treasure-hunter.md) · [Tetsuo Umezawa (Grixis)](../../grixis/decks/tetsuo-umezawa.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 925 decks; highest synergy [Loyal Apprentice](../../cards/L/lo.md#loyal-apprentice) (+52%), [Break Through the Line](../../cards/B/br.md#break-through-the-line) (+46%), [Subira, Tulzidi Caravanner](../../cards/S/sub.md#subira-tulzidi-caravanner) (+46%) · EDHREC: in 98,010 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (31.7% of its decks), [Laughing Jasper Flint](../../cards/L/la.md#laughing-jasper-flint) (64.3% of its decks), [Zurgo Stormrender](../../cards/Z/zu.md#zurgo-stormrender) (16.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 9 pages (5 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/G.md#grenzo-havoc-raiser)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/216/grenzo-havoc-raiser) · oracle_id `80788290-1569-4c7f-b263-b4da7b31a9d1` · printing: TDC #216 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grenzo's Cutthroat

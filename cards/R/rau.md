@@ -98,6 +98,7 @@ schema: 2
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #570 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/R.md#raucous-theater)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/266/raucous-theater) · oracle_id `04e5e84f-8fd4-43ab-8f9d-5b24646f7ae5` · printing: MKM #266 (2024-02-09) · [rulings](https://api.scryfall.com/cards/b598c93e-dae1-4d71-a9e4-917abf76d2d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raugrin Crystal

@@ -139,16 +139,17 @@ schema: 2
 
 ### Yawgmoth's Will
 
-[Card entry](../cards/Y/ya.md#yawgmoths-will) · **4 pages** (decks 2 · card data 2)
+[Card entry](../cards/Y/ya.md#yawgmoths-will) · **7 pages** (decks 4 · edh guides 1 · card data 2)
 
-- **Decks (2):** [Gwendlyn Di Corci (Grixis)](../grixis/decks/gwendlyn-di-corci.md) · [Jeleva, Nephalia's Scourge (Grixis)](../grixis/decks/jeleva-nephalias-scourge.md)
+- **Decks (4):** [Gwendlyn Di Corci (Grixis)](../grixis/decks/gwendlyn-di-corci.md) · [Jeleva, Nephalia's Scourge (Grixis)](../grixis/decks/jeleva-nephalias-scourge.md) · [Norman Osborn // Green Goblin (Grixis)](../grixis/decks/norman-osborn.md) · [Rograkh, Son of Rohgahh (Grixis)](../grixis/decks/rograkh-son-of-rohgahh-silas-renn.md)
+- **EDH guides (1):** [Grixis Packages → Recursion](../grixis/Grixis%20Packages.md#recursion)
 - **Card data (2):** [Format Legality Matrix → legacy](../Format%20Legality%20Matrix.md#legacy) (+3 more) · [Printing History → Reserved List](../Printing%20History.md#reserved-list)
 
 ### Yawgmoth, Thran Physician
 
-[Card entry](../cards/Y/ya.md#yawgmoth-thran-physician) · **6 pages** (decks 1 · edh guides 2 · rules 1 · lore & story 2)
+[Card entry](../cards/Y/ya.md#yawgmoth-thran-physician) · **7 pages** (decks 2 · edh guides 2 · rules 1 · lore & story 2)
 
-- **Decks (1):** [Marchesa, the Black Rose (Grixis)](../grixis/decks/marchesa-the-black-rose.md)
+- **Decks (2):** [Marchesa, the Black Rose (Grixis)](../grixis/decks/marchesa-the-black-rose.md) · [Thraximundar (Grixis)](../grixis/decks/thraximundar.md)
 - **EDH guides (2):** [EDH Packages → +1/+1 counters: Proliferate](../EDH%20Packages.md#11-counters-proliferate) · [EDH Win Conditions → Proliferate finishers](../EDH%20Win%20Conditions.md#proliferate-finishers)
 - **Rules (1):** [Keyword Encyclopedia → Protection](../Keyword%20Encyclopedia.md#protection)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres)

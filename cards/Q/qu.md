@@ -483,7 +483,7 @@ schema: 2
   - *2023-10-13* — If the copied creature is a token, the token that's created copies the original characteristics of that token as stated by the effect that created the token.
   - *2023-10-13* — If the copied creature is copying something else (for example, if the copied creature is an Evil Twin), then the token enters the battlefield as whatever that creature copied.
   - *2023-10-13* — The token copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
-- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/Q.md#quantum-misalignment)
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/Q.md#quantum-misalignment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/152/quantum-misalignment) · oracle_id `197582b9-4c86-41a3-ad0c-789a0db8e087` · printing: MSC #152 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quantum Reduction
@@ -1397,6 +1397,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13714 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-12-08* — The enchanted creature is the source of both the damage ability and the resulting damage, not Quicksilver Dagger.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/Q.md#quicksilver-dagger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/195/quicksilver-dagger) · oracle_id `5c77bf76-bb0f-4e44-babe-0e7b7b555e1f` · printing: DMR #195 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quicksilver Dragon

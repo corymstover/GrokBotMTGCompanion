@@ -1296,7 +1296,7 @@ schema: 2
 - **Rulings** (2):
   - *2011-09-22* — The owner of a card is the player who started the game with that card in their deck.
   - *2011-09-22* — The owner of a token is the player under whose control the token was put onto the battlefield.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#homeward-path)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/H.md#homeward-path)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/301/homeward-path) · oracle_id `cb8ec2e4-8223-4172-8f2c-37c918a573fa` · printing: C16 #301 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Homicidal Seclusion
@@ -3394,7 +3394,7 @@ schema: 2
   - *2024-02-02* — If a suspected creature loses all abilities, it will lose menace and "This creature can't block", but it won’t stop being suspected.
   - *2024-02-02* — There’s no limit to the number of creatures that can be suspected simultaneously. Suspecting a new creature doesn’t cause other creatures to stop being suspected.
   - *2024-02-02* — When an effect suspects a creature, it becomes suspected. It gains menace and "This creature can't block" for as long as it’s suspected. It stays suspected until it leaves the battlefield or another effect causes it to no longer be suspected.
-- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/H.md#hot-pursuit)
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/H.md#hot-pursuit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/32/hot-pursuit) · oracle_id `00bf9859-d5bf-455a-a4be-965ea4250c7e` · printing: MKC #32 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hotshot Investigators

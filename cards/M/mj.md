@@ -37,6 +37,7 @@ schema: 2
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4132 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mjölnir-hammer-of-thor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/146/mj%C3%B6lnir-hammer-of-thor) · oracle_id `7f9a8845-d760-44a7-a4c9-8a20dba4e14a` · printing: MSH #146 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e0c7f566-5351-44e3-a346-b84b0eb10209/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mjölnir's Might

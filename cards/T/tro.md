@@ -153,7 +153,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-06-16* — Typecycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being typecycled. Any ability that stops a cycling ability from being activated also stops a typecycling ability from being activated.
   - *2023-06-16* — Unlike the normal cycling ability, typecycling doesn't allow you to draw a card. Rather, it lets you search your library for a card with the type or types indicated by the ability name. For example, a card with basic landcycling lets you search for a basic land card, and a card with Wizardcycling lets you search for a Wizard card.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#troll-of-khazad-dûm)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/T.md#troll-of-khazad-dûm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/191/troll-of-khazad-d%C3%BBm) · oracle_id `222fd9fc-7af4-4269-bbb9-cd7b8ac029bd` · printing: HOC #191 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trolls of Tel-Jilad

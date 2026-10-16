@@ -243,6 +243,7 @@ schema: 2
   - *2016-08-23* — The effects of each council’s dilemma ability happen in the stated order. First the vote occurs, then the first effect, and finally the second effect.
   - *2016-08-23* — Unlike the will of the council cards from the original Conspiracy set, where a majority of votes determined what happened, each vote made for a council’s dilemma card adds to the ultimate effect.
   - *2016-08-23* — You must vote for one of the available options. You can’t abstain.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#capital-punishment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/40/capital-punishment) · oracle_id `c2902f4f-b40e-49f7-8ab0-5b6a70021482` · printing: CN2 #40 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caprichrome
@@ -997,6 +998,7 @@ schema: 2
   - *2019-01-25* — In a multiplayer game, if Captive Audience’s owner leaves the game, Captive Audience leaves the game with them. If Captive Audience’s controller leaves the game, Captive Audience is exiled (assuming that player wasn’t also Captive Audience’s owner).
   - *2019-01-25* — Once Captive Audience is controlled by your opponent, its ability triggers during that player’s upkeep and that player makes all choices for it. That player is affected by its first two modes, and that player’s opponents create the tokens for its last mode.
   - *2019-01-25* — You may choose Captive Audience’s first mode even if your life total is already 4. Similarly, you may choose its second mode even if you have no cards in hand.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#captive-audience)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/160/captive-audience) · oracle_id `fc25ca51-f351-4877-a092-525fb48524a1` · printing: RNA #160 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captive Flame

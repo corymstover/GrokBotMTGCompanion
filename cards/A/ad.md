@@ -597,7 +597,7 @@ schema: 2
   - *2026-03-20* — Each time you put the revealed card into your hand and lose the appropriate amount of life, you decide whether to continue by revealing another card. You don't decide in advance how many cards to put into your hand this way.
   - *2026-03-20* — If a card in a player's library has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
   - *2026-03-20* — You may continue to reveal cards with Ad Nauseam even if your life total has been reduced to 0 or less. If you continue, you will continue to lose life, dropping your life total into negative numbers. As soon as you stop, you'll lose the game as a state-based action.
-- **Referenced in:** 13 pages (8 decks · 3 edh guides · 2 card data) → [reverse index](../../references/A.md#ad-nauseam)
+- **Referenced in:** 15 pages (10 decks · 3 edh guides · 2 card data) → [reverse index](../../references/A.md#ad-nauseam)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/76/ad-nauseam) · oracle_id `981b0e21-e5e6-4a1e-bfde-679d56623f7f` · printing: 2XM #76 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adorable Kitten

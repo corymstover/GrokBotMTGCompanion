@@ -246,7 +246,7 @@ schema: 2
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4913 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/A.md#aphetto-alchemist)
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/A.md#aphetto-alchemist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/64/aphetto-alchemist) · oracle_id `867aa0b7-b814-4d33-a677-f6368c8e93c0` · printing: ONS #64 (2002-10-07) · [rulings](https://api.scryfall.com/cards/dfd2628f-63c4-4e19-83ea-26041650faab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aphetto Dredging
@@ -779,7 +779,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4692 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-12-07* — Apprentice Necromancer can’t be the target of its own ability. This is because targets are chosen for activated abilities before costs (such as “Sacrifice Apprentice Necromancer”) are paid.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#apprentice-necromancer)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/A.md#apprentice-necromancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/84/apprentice-necromancer) · oracle_id `d1a6aa5f-2ad6-4bc7-82f0-4262f66af730` · printing: UMA #84 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Apprentice Sharpshooter

@@ -649,7 +649,7 @@ schema: 2
   - *2025-09-19* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, the creature you control from Reanimate is exiled.
   - *2025-09-19* — The amount of life you lose is determined by the mana value of the card in your graveyard, not the creature once it's on the battlefield.
   - *2025-09-19* — You lose life after the creature is already on the battlefield. Any abilities it has that interact with loss of life, such as that of Platinum Emperion, apply to that loss of life.
-- **Referenced in:** 27 pages (20 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/R.md#reanimate)
+- **Referenced in:** 33 pages (26 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/R.md#reanimate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/155/reanimate) · oracle_id `a044474a-cd72-4e9d-bd8d-a08f2de9cdc0` · printing: DSC #155 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reap
@@ -1011,7 +1011,7 @@ schema: 2
   > *—Mort the Philosopher, last words*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #773 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/R.md#reassembling-skeleton)
+- **Referenced in:** 5 pages (4 decks · 1 card data) → [reverse index](../../references/R.md#reassembling-skeleton)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/195/reassembling-skeleton) · oracle_id `9dbc3530-b278-4c8d-b2cc-a09dfac9d5e5` · printing: TDC #195 (2025-04-11) · [rulings](https://api.scryfall.com/cards/4d431445-d7db-4ce1-b422-41494d9be1b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reaver Ambush

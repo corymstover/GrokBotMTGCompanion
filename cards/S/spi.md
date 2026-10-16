@@ -2744,7 +2744,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2276 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spiteful-banditry)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#spiteful-banditry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/149/spiteful-banditry) · oracle_id `fde2653f-5270-4b8f-9642-0835dbb076c2` · printing: LTR #149 (2023-06-23) · [rulings](https://api.scryfall.com/cards/e85a82bc-49f3-4694-b688-808a541146db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spiteful Blow

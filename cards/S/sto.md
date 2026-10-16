@@ -1660,7 +1660,7 @@ schema: 2
   > *—Veyran, dean of perfection*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #184 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 14 pages (10 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#stormcarved-coast)
+- **Referenced in:** 18 pages (14 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#stormcarved-coast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/263/stormcarved-coast) · oracle_id `4722105b-0085-4bb8-bca1-9de0d3eb5600` · printing: SOS #263 (2026-04-24) · [rulings](https://api.scryfall.com/cards/bd3ae4fa-4c97-410a-8c0a-bd203342595d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stormcatch Mentor
@@ -2194,7 +2194,7 @@ schema: 2
   - *2021-04-16* — If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
   - *2021-04-16* — If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
   - *2021-04-16* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
-- **Referenced in:** 13 pages (8 decks · 4 edh guides · 1 card data) → [reverse index](../../references/S.md#storm-kiln-artist)
+- **Referenced in:** 16 pages (11 decks · 4 edh guides · 1 card data) → [reverse index](../../references/S.md#storm-kiln-artist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/255/storm-kiln-artist) · oracle_id `a145ff8c-5812-4bcb-bd16-9839dc25121d` · printing: SOC #255 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Storm King's Thunder

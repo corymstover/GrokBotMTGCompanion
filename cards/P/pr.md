@@ -483,7 +483,7 @@ schema: 2
 - **Rulings** (2):
   - *2011-06-01* — Other players, including the card’s owner, can’t look at the card while it remains exiled.
   - *2011-06-01* — Playing a card exiled with Praetor’s Grasp follows all the normal rules for playing that card. You must pay its costs, and you must follow all timing restrictions, for example.
-- **Referenced in:** 6 pages (5 decks · 1 edh guides) → [reverse index](../../references/P.md#praetors-grasp)
+- **Referenced in:** 8 pages (7 decks · 1 edh guides) → [reverse index](../../references/P.md#praetors-grasp)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/71/praetors-grasp) · oracle_id `6d56aeb1-0a50-46b6-abdb-cd6575a98dc3` · printing: NPH #71 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Prahv, Spires of Order
@@ -1212,7 +1212,7 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #214 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 8 pages (6 decks · 2 card data) → [reverse index](../../references/P.md#preordain)
+- **Referenced in:** 10 pages (7 decks · 1 edh guides · 2 card data) → [reverse index](../../references/P.md#preordain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/161/preordain) · oracle_id `ac641490-ca14-48d7-8cc4-b69ce984befa` · printing: TDC #161 (2025-04-11) · [rulings](https://api.scryfall.com/cards/dd29a0e5-c1de-4e8a-8866-715e9f9cde1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Prepare // Fight
@@ -2124,7 +2124,7 @@ schema: 2
   - *2017-09-29* — The mana produced by Primal Wellspring can be spent on anything, not just an instant or sorcery spell.
   - *2017-09-29* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
   - *2017-09-29* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too. For example, if you sacrifice a 3/3 creature to cast Fling, and you copy it, the copy of Fling will also deal 3 damage to its target.
-- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/P.md#primal-amulet--primal-wellspring)
+- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 card data) → [reverse index](../../references/P.md#primal-amulet--primal-wellspring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/243/primal-amulet-primal-wellspring) · oracle_id `8e4d0da0-c7d8-4a20-9bfd-02c1331a7a49` · printing: XLN #243 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Primal Bellow
@@ -3206,8 +3206,8 @@ schema: 2
   - *2026-03-20* — Spells cast from zones other than a player's hand and spells that were countered or otherwise failed to resolve are counted by the storm ability.
   - *2026-03-20* — The copies of instant and sorcery spells you cast created by the storm ability are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
 - **Lore:** ✅ Presented with an official backstory on [The Legends of Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/the-legends-of-secrets-of-strixhaven) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 20 combos; most popular [Prismari, the Inspiration + Return the Favor](https://commanderspellbook.com/combo/5940-7683/) (Infinite magecraft triggers) · EDHREC as commander: 10,921 decks; highest synergy [Pyretic Ritual](../../cards/P/py.md#pyretic-ritual) (+54%), [Seething Song](../../cards/S/see.md#seething-song) (+46%), [Mana Geyser](../../cards/M/man.md#mana-geyser) (+44%) · EDHREC: in 30,661 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (18.0% of its decks), [Iroh, Grand Lotus](../../cards/I/ir.md#iroh-grand-lotus) (21.8% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (8.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/P.md#prismari-the-inspiration)
+- **Synergy:** *Proven* — KB decks (1): [Parnesse, the Subtle Brush (Grixis)](../../grixis/decks/parnesse-the-subtle-brush.md) · Commander Spellbook: 20 combos; most popular [Prismari, the Inspiration + Return the Favor](https://commanderspellbook.com/combo/5940-7683/) (Infinite magecraft triggers) · EDHREC as commander: 10,921 decks; highest synergy [Pyretic Ritual](../../cards/P/py.md#pyretic-ritual) (+54%), [Seething Song](../../cards/S/see.md#seething-song) (+46%), [Mana Geyser](../../cards/M/man.md#mana-geyser) (+44%) · EDHREC: in 30,661 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (18.0% of its decks), [Iroh, Grand Lotus](../../cards/I/ir.md#iroh-grand-lotus) (21.8% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (8.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/P.md#prismari-the-inspiration)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/212/prismari-the-inspiration) · oracle_id `258f5045-3aa7-4b95-a15f-3172577294a8` · printing: SOS #212 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Prism Array
@@ -4095,7 +4095,7 @@ schema: 2
   - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
   - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
   - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
-- **Referenced in:** 3 pages (2 decks · 1 rules) → [reverse index](../../references/P.md#profane-tutor)
+- **Referenced in:** 5 pages (4 decks · 1 rules) → [reverse index](../../references/P.md#profane-tutor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/97/profane-tutor) · oracle_id `27a1f42c-0b86-4609-9609-1fa9cab7e7c9` · printing: MH2 #97 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Professional Face-Breaker
@@ -4234,8 +4234,8 @@ schema: 2
   - *2021-04-16* — For Professor Onyx's second loyalty ability, if an opponent has multiple creatures with the greatest power, that player choose which one to sacrifice. The next opponent in turn order chooses which creature they are sacrificing, then each other opponent in turn order does the same, knowing the choices made before them. Then all chosen creatures are sacrificed at the same time.
   - *2021-04-16* — If Professor Onyx seems familiar, it's probably because you've seen this type of planeswalker before.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Professor Onyx + Chain of Smog](https://commanderspellbook.com/combo/326-613/) (Infinite lifegain, Infinite lifegain triggers) · EDHREC: in 68,783 decks; most often under [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (19.9% of its decks), [Winter, Cynical Opportunist](../../cards/W/wi.md#winter-cynical-opportunist) (52.5% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (7.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/P.md#professor-onyx)
+- **Synergy:** *Proven* — KB decks (1): [Parnesse, the Subtle Brush (Grixis)](../../grixis/decks/parnesse-the-subtle-brush.md) · Commander Spellbook: 4 combos; most popular [Professor Onyx + Chain of Smog](https://commanderspellbook.com/combo/326-613/) (Infinite lifegain, Infinite lifegain triggers) · EDHREC: in 68,783 decks; most often under [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (19.9% of its decks), [Winter, Cynical Opportunist](../../cards/W/wi.md#winter-cynical-opportunist) (52.5% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (7.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/P.md#professor-onyx)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/153/professor-onyx) · oracle_id `9df2e909-ed13-456a-9636-7398732009a9` · printing: DSC #153 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Professor's Warning
@@ -4692,7 +4692,7 @@ schema: 2
   - *2004-10-04* — The payment is made during the declare attackers step at the same time you are declaring the attacker.
   - *2007-02-01* — In the Two-Headed Giant format, you still only have to pay once per creature.
   - *2014-02-01* — Unless some effect explicitly says otherwise, a creature that can't attack you can still attack a planeswalker you control.
-- **Referenced in:** 7 pages (5 decks · 1 edh guides · 1 card data) → [reverse index](../../references/P.md#propaganda)
+- **Referenced in:** 9 pages (7 decks · 1 edh guides · 1 card data) → [reverse index](../../references/P.md#propaganda)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/151/propaganda) · oracle_id `ea9709b6-4c37-4d5a-b04d-cd4c42e4f9dd` · printing: MSC #151 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Propagator Drone

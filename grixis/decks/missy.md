@@ -16,7 +16,7 @@ schema: 2
 
 # Grixis Deck — Missy
 
-> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Missy_Approved_2026-10-15.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Missy_Approved_2026-10-15.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-15; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Missy_Approved_2026-10-15.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Missy_Approved_2026-10-15.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-15; source commit `1836b97`). Imported in Bot cycle 16; re-validated in Bot cycle 37 against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
 ## Contents
 - [Commander](#commander)
@@ -310,7 +310,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 ### From `refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md`
 
-Source: [refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md)
+Source: [refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md)
 
 **Missy — Commander-First Blueprint**
 
@@ -381,7 +381,7 @@ The authoritative baseline is the current FINAL export `GrixisFINALTXT60--2026.z
 
 ### From `refinement/decisions/Missy_Candidate_Decisions_2026-10-15.md`
 
-Source: [refinement/decisions/Missy_Candidate_Decisions_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Missy_Candidate_Decisions_2026-10-15.md)
+Source: [refinement/decisions/Missy_Candidate_Decisions_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decisions/Missy_Candidate_Decisions_2026-10-15.md)
 
 **Missy — Current-Cycle Candidate Decisions**
 
@@ -454,7 +454,7 @@ A second serious candidate/role pass after the 16-card delta produced **ZERO NEW
 
 ### From `refinement/approvals/Missy_Approved_2026-10-15.md`
 
-Source: [refinement/approvals/Missy_Approved_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Missy_Approved_2026-10-15.md)
+Source: [refinement/approvals/Missy_Approved_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/approvals/Missy_Approved_2026-10-15.md)
 
 **Missy — Current-Cycle Approval Record**
 
@@ -473,8 +473,8 @@ This approval freezes `refinement/decklists/Missy_Approved_2026-10-15.txt` as th
 
 ### Further source evidence (linked, not copied)
 
-- [refinement/verification/Missy_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Missy_Approval_Ready_Verification_2026-10-15.md)
-- [refinement/verification/Missy_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Missy_Whole_List_Audit_2026-10-15.md)
+- [refinement/verification/Missy_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Missy_Approval_Ready_Verification_2026-10-15.md)
+- [refinement/verification/Missy_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Missy_Whole_List_Audit_2026-10-15.md)
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
@@ -513,6 +513,6 @@ This approval freezes `refinement/decklists/Missy_Approved_2026-10-15.txt` as th
 - **Keywords → [Keyword Encyclopedia](../../Keyword%20Encyclopedia.md):** [Morph](../../Keyword%20Encyclopedia.md#morph) 6 · [Mill](../../Keyword%20Encyclopedia.md#mill) 3 · [Deathtouch](../../Keyword%20Encyclopedia.md#deathtouch) 2 · [Disguise](../../Keyword%20Encyclopedia.md#disguise) 2 · [Flying](../../Keyword%20Encyclopedia.md#flying) 2 · [Manifest](../../Keyword%20Encyclopedia.md#manifest) 2 · [Cloak](../../Keyword%20Encyclopedia.md#cloak) 1 · [Crew](../../Keyword%20Encyclopedia.md#crew) 1 · [Cumulative upkeep](../../Keyword%20Encyclopedia.md#cumulative-upkeep) 1 · [Cycling](../../Keyword%20Encyclopedia.md#cycling) 1 · [Equip](../../Keyword%20Encyclopedia.md#equip) 1 · [Haste](../../Keyword%20Encyclopedia.md#haste) 1
 - **Rules sections citing cards in this list:** [Rules Interactions → Commander: color identity](../../Rules%20Interactions.md#commander-color-identity) (Arcane Signet, Command Tower) · [Rules Interactions → Hexproof, shroud & ward](../../Rules%20Interactions.md#hexproof-shroud--ward) (Cyclonic Rift, Grave Pact) · [Rules Interactions → Protection](../../Rules%20Interactions.md#protection) (Cyclonic Rift, The One Ring) · [Rules Interactions → Replacement effects vs. triggered abilities](../../Rules%20Interactions.md#replacement-effects-vs-triggered-abilities) (Exotic Orchard, Fellwar Stone) · [Keyword Encyclopedia → Cloak](../../Keyword%20Encyclopedia.md#cloak) (Etrata, Deadly Fugitive) · [Keyword Encyclopedia → Cumulative Upkeep](../../Keyword%20Encyclopedia.md#cumulative-upkeep) (Mystic Remora) · [Keyword Encyclopedia → Equip](../../Keyword%20Encyclopedia.md#equip) (Lightning Greaves) · [Keyword Encyclopedia → Indestructible](../../Keyword%20Encyclopedia.md#indestructible) (The One Ring) · …6 more sections
 - **Lore & story sections citing cards in this list:** [Art & Flavor Story Links → Captioned art on cited story pages](../../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Command Tower, Mana Confluence, Sulfur Falls) · [Art & Flavor Story Links → Kaladesh & Aether Revolt (2016–17)](../../Art%20%26%20Flavor%20Story%20Links.md#kaladesh--aether-revolt-201617) (Inventors' Fair) · [Art & Flavor Story Links → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) (Diabolic Intent) · [Characters Index → Character cards (name-matched)](../../Characters%20Index.md#character-cards-name-matched) (Etrata, Deadly Fugitive) · [Planes Index → New Capenna](../../Planes%20Index.md#new-capenna) (Xander's Lounge)
-- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +22) · [Grixis Packages → Removal](../../grixis/Grixis%20Packages.md#removal) (An Offer You Can't Refuse, Chaos Warp, Cyber Conversion +8) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Ashnod's Altar, Fellwar Stone +7) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (An Offer You Can't Refuse, Mystic Remora, Rhystic Study +6) · [EDH Upgrade Paths → Zur the Enchanter](../../EDH%20Upgrade%20Paths.md#zur-the-enchanter) (An Offer You Can't Refuse, City of Brass, Demonic Tutor +6) · [EDH Upgrade Paths → Breya, Etherium Shaper](../../EDH%20Upgrade%20Paths.md#breya-etherium-shaper) (An Offer You Can't Refuse, Badlands, Bloodstained Mire +5) · …82 more sections
-- **Decks sharing the most cards:** [Marchesa, the Black Rose (Grixis)](../../grixis/decks/marchesa-the-black-rose.md) 50 · [Edea, Possessed Sorceress (Grixis)](../../grixis/decks/edea-possessed-sorceress.md) 49 · [Davros, Dalek Creator (Grixis)](../../grixis/decks/davros-dalek-creator.md) 46 · [Lord of Tresserhorn (Grixis)](../../grixis/decks/lord-of-tresserhorn.md) 42
+- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +23) · [Grixis Packages → Removal](../../grixis/Grixis%20Packages.md#removal) (An Offer You Can't Refuse, Chaos Warp, Cyber Conversion +9) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Ashnod's Altar, Fellwar Stone +7) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (An Offer You Can't Refuse, Mystic Remora, Rhystic Study +6) · [EDH Upgrade Paths → Zur the Enchanter](../../EDH%20Upgrade%20Paths.md#zur-the-enchanter) (An Offer You Can't Refuse, City of Brass, Demonic Tutor +6) · [EDH Upgrade Paths → Breya, Etherium Shaper](../../EDH%20Upgrade%20Paths.md#breya-etherium-shaper) (An Offer You Can't Refuse, Badlands, Bloodstained Mire +5) · …83 more sections
+- **Decks sharing the most cards:** [Thraximundar (Grixis)](../../grixis/decks/thraximundar.md) 51 · [Marchesa, the Black Rose (Grixis)](../../grixis/decks/marchesa-the-black-rose.md) 50 · [Edea, Possessed Sorceress (Grixis)](../../grixis/decks/edea-possessed-sorceress.md) 49 · [Davros, Dalek Creator (Grixis)](../../grixis/decks/davros-dalek-creator.md) 46
 <!-- CROSSREFS:END -->

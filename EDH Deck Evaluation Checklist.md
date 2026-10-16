@@ -5,7 +5,7 @@ tags: [checklist, evaluation, brackets, methodology]
 issues: [62, 81, 96]
 generated_by: hand-written
 sources: [grixis-repo, cr, scryfall, spellbook]
-related: ["EDH Deck Template.md", "EDH Lore-Themed Deckbuilding.md", "EDH Standards.md", "grixis/Grixis Corrections.md", "EDH Mulligans.md", "grixis/Grixis Packages.md"]
+related: ["EDH Deck Template.md", "EDH Standards.md", "grixis/Grixis Corrections.md", "EDH Lore-Themed Deckbuilding.md", "EDH Mulligans.md", "grixis/Grixis Packages.md"]
 schema: 2
 ---
 
@@ -19,6 +19,7 @@ schema: 2
 - [Gate C — rules lines](#gate-c--rules-lines)
 - [Gate D — strategy (guidance)](#gate-d--strategy-guidance)
 - [Gate E — evidence labels and stopping](#gate-e--evidence-labels-and-stopping)
+- [Gate F — approval-ready candidate and lock](#gate-f--approval-ready-candidate-and-lock)
 - [Gate L — lore-themed (story-first)](#gate-l--lore-themed-story-first)
 - [Official legality vs house exceptions](#official-legality-vs-house-exceptions)
 - [Running the checks](#running-the-checks)
@@ -61,6 +62,14 @@ A failure here is a **veto**. No synergy argument offsets it. **(Repo addition, 
 - Testing must state its hypothesis before looking at results. Use exact hypergeometric odds for draw-probability questions ([EDH Mulligans](EDH%20Mulligans.md)) and seeded simulation for anything more complex. More simulations are not automatically better.
 - **Stop rule.** A deck is final as of its snapshot date when every hard gate passes, every high-impact candidate is closed, and a complete pass finds **zero new material improvements**. This is a stopping rule, not a proof of optimality.
 - **Reopen only on a trigger:** an Oracle, rules or legality change; a material new card; repeated failure in real games; a discovered error; or an explicit request.
+
+## Gate F — approval-ready candidate and lock
+**(Bot cycle 37, from the Grixis repo's 2026-10-15 approval records, e.g. [`Thraximundar_Approval_Ready_Verification_v2_2026-10-15.md`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Thraximundar_Approval_Ready_Verification_v2_2026-10-15.md) and [`Nekusar_the_Mindrazer_Whole_List_Audit_2026-10-15.md`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Nekusar_the_Mindrazer_Whole_List_Audit_2026-10-15.md).)** This is a process standard (guidance). It does not change Gate A.
+- [ ] **Record the audit tally.** The whole-list audit states how many of the 99 non-commander slots were adjudicated and the KEEP/CUT split (the source records e.g. "99/99 … 86 KEEP / 13 CUT"). A partial audit cannot support approval.
+- [ ] **Freeze an exact candidate.** The proposed list is saved as its own file and identified by the SHA-256 of that file. Verification runs on that file and marks it approval-ready but not yet approved or locked (the source's status line is `APPROVAL_READY`) until the user approves.
+- [ ] **Approve the exact hash.** The approved list must be byte-identical to the verified candidate. Any change after a red-team pass makes a new candidate (`v2`) that is verified again from scratch.
+- [ ] **Dated legality checkpoint.** At approval, re-check official Commander legality against a dated source (Scryfall bulk date or B&R date) and write it in the record. Cards from an unreleased set stay *not legal* until Scryfall says otherwise. **Repo addition:** we found one source approval that reported "current official Commander legality PASS" for a card Scryfall still lists as `not_legal` before its release date ([Grixis Corrections](grixis/Grixis%20Corrections.md#source-repo-structural-findings)).
+- [ ] **Record the export provenance.** If the list is exported (e.g. an Archidekt import package), keep a manifest of deck id, file, card total and source hash. Check each export against the approved list card for card. The Grixis export's `manifest.csv` matched all 62 lists in Bot cycle 37.
 
 ## Official legality vs house exceptions
 **(From the Grixis repo's exception registry, `source-package/research/Project_Exceptions_Current_2026-10-12.csv`, adapted.)** A playgroup may allow banned cards by Rule 0, but this repo **never presents such a list as Commander-legal**. Record official legality and house permission in separate fields. Published decks here must pass Gate A. The Grixis import replaced its two house-allowed banned cards and dropped a companion that Commander bans ([corrections](grixis/Grixis%20Corrections.md#corrections-table)).

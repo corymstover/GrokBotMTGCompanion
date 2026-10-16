@@ -538,6 +538,7 @@ schema: 2
   - *2024-06-07* — If multiple effects modify your hand size, apply them in timestamp order. For example, if you put Necrodominance onto the battlefield and then put Spellbook (an artifact that says you have no maximum hand size) onto the battlefield, you would have no maximum hand size. However, if those permanents entered the battlefield in the opposite order, your maximum hand size would be five.
   - *2024-06-07* — If you discard a card while you control Necrodominance, abilities that function when a card is discarded (such as madness) still work, even though that card never reaches your graveyard. In addition, spells or abilities that check the characteristics of a discarded card (such as connive) can find that card in exile.
   - *2024-06-07* — While Necrodominance is on the battlefield under your control, abilities that trigger whenever a permanent you own is put into your graveyard from the battlefield (for example, "When this creature dies…") won't trigger because cards and tokens are never put into your graveyard.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#necrodominance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/102/necrodominance) · oracle_id `a10b3e35-8cc4-450e-9e30-0fce8df0fea4` · printing: MH3 #102 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necroduality
@@ -801,7 +802,7 @@ schema: 2
   - *2005-08-01* — Necromancy enters as an enchantment and then becomes an Enchant Creature Aura as a triggered ability upon entering. It follows all the rules for Auras from then on.
   - *2008-04-01* — If the creature card put onto the battlefield has protection from black (or anything that prevents this from legally being attached), this won't be able to attach to it. Then this will go to the graveyard as a state-based action, causing the creature to be sacrificed.
   - *2022-12-08* — The sacrifice occurs only if you cast it using its own ability. If you cast it using some other effect (for example, if another effect allowed you to cast it as though it had flash), then it won't be sacrificed.
-- **Referenced in:** 4 pages (2 decks · 2 edh guides) → [reverse index](../../references/N.md#necromancy)
+- **Referenced in:** 8 pages (5 decks · 3 edh guides) → [reverse index](../../references/N.md#necromancy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/131/necromancy) · oracle_id `699b192c-f3f2-4ac5-9ca9-e35bcf08ad8a` · printing: MKC #131 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necromantic Selection
@@ -1023,7 +1024,7 @@ schema: 2
   - *2017-11-17* — If you discard a card with madness and wish to cast it, Necropotence's ability won't exile that card. If you don't wish to cast it, you choose whether it ends up exiled or in your graveyard.
   - *2017-11-17* — Necropotence's last ability creates a delayed triggered ability that will put the exiled card into your hand. That ability still triggers even if Necropotence is removed from the battlefield before your end step.
   - *2023-09-01* — You can't look at the cards exiled by the last ability while they're face down.
-- **Referenced in:** 15 pages (11 decks · 2 edh guides · 2 card data) → [reverse index](../../references/N.md#necropotence)
+- **Referenced in:** 16 pages (12 decks · 2 edh guides · 2 card data) → [reverse index](../../references/N.md#necropotence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/98/necropotence) · oracle_id `94a844d2-0574-45a7-b347-e0e329767c42` · printing: IMA #98 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necropouncer
@@ -1134,6 +1135,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — Let's say everyone controls lots of creatures. As Necrotc Hex resolves, first the player whose turn it is (likely you) chooses which six creatures they'll sacrifice, then each other player in turn order does the same, knowing the choices of players before them. Then all creatures are sacrificed simultaneously. Finally, you'll create the six tapped Zombies.
   - *2020-11-10* — You'll create six tapped Zombies no matter how many creatures you sacrifice.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#necrotic-hex)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/137/necrotic-hex) · oracle_id `a6e720a2-9819-40ec-a811-7812898b531a` · printing: CMR #137 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necrotic Ooze

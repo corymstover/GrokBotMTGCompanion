@@ -135,6 +135,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9335 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#super-intelligence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/77/super-intelligence) · oracle_id `d82929f2-57ad-45be-a834-984437046026` · printing: MSH #77 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f26613a1-b4ad-4c7f-8dd9-8f82de995f0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Superior Foes of Spider-Man

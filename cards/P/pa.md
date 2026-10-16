@@ -396,7 +396,7 @@ schema: 2
   - *2024-01-12* — Pack Rat's first ability counts any creature you control with the creature type Rat, not just Pack Rats. That ability works in all zones, not only the battlefield.
   - *2024-01-12* — The token will copy Pack Rat's two abilities. Its power and toughness will be equal to the number of Rats you control (not the number of Rats you controlled when the token entered the battlefield). It will also be able to create copies of itself.
   - *2024-01-12* — The token won't copy counters on Pack Rat, nor will it copy other effects that have changed Pack Rat's power, toughness, types, color, or so on. Normally, this means the token will simply be a Pack Rat. But if any copy effects have affected that Pack Rat, they're taken into account.
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#pack-rat)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/P.md#pack-rat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/73/pack-rat) · oracle_id `5632c2df-71e6-41b7-b8f5-c683812cc0e2` · printing: RTR #73 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pack's Betrayal
@@ -491,7 +491,7 @@ schema: 2
   - *2013-06-07* — Although originally printed with a characteristic-defining ability that defined its color, this card now has a color indicator. This color indicator can't be affected by text-changing effects (such as the one created by Crystal Spray), although color-changing effects can still overwrite it.
   - *2021-03-19* — If Pact of Negation is countered or otherwise doesn't resolve (perhaps because its target became illegal), the delayed triggered ability that threatens you with a game loss won't trigger at the beginning of your next upkeep.
   - *2021-03-19* — If Pact of Negation resolves with a legal target but fails to counter that spell (most likely because that spell can't be countered), the delayed triggered ability will still trigger at the beginning of your next upkeep and you will have to pay. Or else.
-- **Referenced in:** 15 pages (11 decks · 3 edh guides · 1 card data) → [reverse index](../../references/P.md#pact-of-negation)
+- **Referenced in:** 17 pages (13 decks · 3 edh guides · 1 card data) → [reverse index](../../references/P.md#pact-of-negation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/77/pact-of-negation) · oracle_id `f3e213a4-ba5a-468a-93b3-c0a34e1bd725` · printing: TSR #77 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pact of the Serpent
@@ -560,8 +560,8 @@ schema: 2
   - *2016-09-20* — If you no longer control an artifact with the highest mana value as Padeem's triggered ability resolves, you don't draw a card.
   - *2016-09-20* — The artifact you control has to have the highest mana value only among artifacts on the battlefield, not among all permanents on the battlefield.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (6): [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) · [Ashad, the Lone Cyberman (Grixis)](../../grixis/decks/ashad-the-lone-cyberman.md) · [Cult of Skaro (Grixis)](../../grixis/decks/cult-of-skaro.md) · [Davros, Dalek Creator (Grixis)](../../grixis/decks/davros-dalek-creator.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 495 decks; highest synergy [Etherium Sculptor](../../cards/E/et.md#etherium-sculptor) (+54%), [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+53%), [Darksteel Forge](../../cards/D/da.md#darksteel-forge) (+45%) · EDHREC: in 166,403 decks; most often under [Mendicant Core, Guidelight](../../cards/M/me.md#mendicant-core-guidelight) (57.4% of its decks), [Shorikai, Genesis Engine](../../cards/S/sho.md#shorikai-genesis-engine) (44.6% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (41.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 9 pages (6 decks · 2 edh guides · 1 card data) → [reverse index](../../references/P.md#padeem-consul-of-innovation)
+- **Synergy:** *Proven* — KB decks (7): [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) · [Ashad, the Lone Cyberman (Grixis)](../../grixis/decks/ashad-the-lone-cyberman.md) · [Cult of Skaro (Grixis)](../../grixis/decks/cult-of-skaro.md) · [Davros, Dalek Creator (Grixis)](../../grixis/decks/davros-dalek-creator.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 495 decks; highest synergy [Etherium Sculptor](../../cards/E/et.md#etherium-sculptor) (+54%), [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+53%), [Darksteel Forge](../../cards/D/da.md#darksteel-forge) (+45%) · EDHREC: in 166,403 decks; most often under [Mendicant Core, Guidelight](../../cards/M/me.md#mendicant-core-guidelight) (57.4% of its decks), [Shorikai, Genesis Engine](../../cards/S/sho.md#shorikai-genesis-engine) (44.6% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (41.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 10 pages (7 decks · 2 edh guides · 1 card data) → [reverse index](../../references/P.md#padeem-consul-of-innovation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/109/padeem-consul-of-innovation) · oracle_id `0c7ba712-6a99-4d2f-9242-a2163a11f69c` · printing: CMM #109 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Page, Loose Leaf
@@ -635,8 +635,8 @@ schema: 2
   - *2025-07-25* — If the enchanted creature is dealt damage by multiple sources at once, such as by two creatures blocking it, Pain for All’s last ability triggers only once. When that triggered ability resolves, the enchanted creature deals damage equal to the total amount of damage dealt to it to each opponent.
   - *2025-07-25* — If the enchanted creature leaves the battlefield before Pain for All’s second ability resolves, use its power as it last existed on the battlefield to determine how much damage is dealt.
 - **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): EOE #151 — [Art & Flavor → Edge of Eternities (2025)](../../Art%20%26%20Flavor%20Story%20Links.md#edge-of-eternities-2025) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (1): [Lord of Tresserhorn (Grixis)](../../grixis/decks/lord-of-tresserhorn.md) · Commander Spellbook: 3 combos; most popular [Dawnsire, Sunstar Dreadnought + Pain for All](https://commanderspellbook.com/combo/6758-6889/) (Near-infinite damage) · EDHREC: in 60,008 decks; most often under [Smaug the Impenetrable](../../cards/S/sm.md#smaug-the-impenetrable) (67.4% of its decks), [Indoraptor, the Perfect Hybrid](../../cards/I/ind.md#indoraptor-the-perfect-hybrid) (35.1% of its decks), [Wayta, Trainer Prodigy](../../cards/W/way.md#wayta-trainer-prodigy) (53.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/P.md#pain-for-all)
+- **Synergy:** *Proven* — KB decks (2): [Lord of Tresserhorn (Grixis)](../../grixis/decks/lord-of-tresserhorn.md) · [Nicol Bolas (Grixis)](../../grixis/decks/nicol-bolas.md) · Commander Spellbook: 3 combos; most popular [Dawnsire, Sunstar Dreadnought + Pain for All](https://commanderspellbook.com/combo/6758-6889/) (Near-infinite damage) · EDHREC: in 60,008 decks; most often under [Smaug the Impenetrable](../../cards/S/sm.md#smaug-the-impenetrable) (67.4% of its decks), [Indoraptor, the Perfect Hybrid](../../cards/I/ind.md#indoraptor-the-perfect-hybrid) (35.1% of its decks), [Wayta, Trainer Prodigy](../../cards/W/way.md#wayta-trainer-prodigy) (53.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (2 decks · 1 lore & story) → [reverse index](../../references/P.md#pain-for-all)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/151/pain-for-all) · oracle_id `4eedf21c-0ad1-48da-a9fe-2ffdbf8371e9` · printing: EOE #151 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Painful Lesson
@@ -837,7 +837,7 @@ schema: 2
   - *2026-09-01* — This ability affects every card in every game zone, all tokens on the battlefield, and all spell copies on the stack, regardless of who controls or owns them.
   - *2026-09-01* — This ability doesn't overwrite any previous colors. Rather, it adds another color.
   - *2026-09-01* — While Painter's Servant is on the battlefield, an effect that changes an object's colors will overwrite Painter's Servant's effect. For example, casting Cerulean Wisps on a creature will turn it blue, regardless of the color chosen for Painter's Servant.
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#painters-servant)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/P.md#painters-servant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/257/painters-servant) · oracle_id `baf93873-35e6-4bf2-bdcc-78a5206422fb` · printing: SHM #257 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Painter's Studio // Defaced Gallery
@@ -1641,7 +1641,7 @@ schema: 2
   - *2021-03-19* — Panharmonicon's effect doesn't copy the triggered ability; it just causes the ability to trigger twice. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
   - *2021-03-19* — Replacement effects are unaffected by Panharmonicon's ability. For example, a creature that enters the battlefield with one +1/+1 counter on it won't receive an additional +1/+1 counter.
   - *2021-03-19* — You don't need to control the permanent entering the battlefield, only the permanent that has the triggered ability.
-- **Referenced in:** 5 pages (2 decks · 1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/P.md#panharmonicon)
+- **Referenced in:** 6 pages (3 decks · 1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/P.md#panharmonicon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/310/panharmonicon) · oracle_id `76678885-3674-443d-b9a2-2a460cf6aac0` · printing: 2X2 #310 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Panic
@@ -1941,7 +1941,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1789 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/P.md#paradise-mantle)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/P.md#paradise-mantle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mma/211/paradise-mantle) · oracle_id `c1121b83-1ba2-473d-89c9-e3bbd4529072` · printing: MMA #211 (2013-06-07) · [rulings](https://api.scryfall.com/cards/19cd6bcc-ca47-47cc-9fe4-c29e9c176485/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Paradise Plume
@@ -2008,7 +2008,7 @@ schema: 2
   - *2006-09-25* — If echo triggers during the first upkeep, it won't trigger again during the second upkeep since the creature won't have entered since that player's last upkeep.
   - *2006-09-25* — If two Paradox Hazes enchant the same player, they'll both trigger when that player's first upkeep of the turn begins. The player will get two additional upkeep steps.
   - *2006-09-25* — Paradox Haze targets a player when it's cast, and it enters attached to that player.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#paradox-haze)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/P.md#paradox-haze)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/71/paradox-haze) · oracle_id `daff0e7b-08f2-435f-97b9-9b000e94ffa8` · printing: TSP #71 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Paradoxical Outcome
@@ -2951,6 +2951,7 @@ schema: 2
   > Whenever you copy a spell, up to one target opponent may also copy that spell. They may choose new targets for that copy.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16949 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#parnesse-the-subtle-brush)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/8/parnesse-the-subtle-brush) · oracle_id `c6040e8d-dac3-4bed-8d1d-d7d44aa10c86` · printing: NCC #8 (2022-04-29) · [rulings](https://api.scryfall.com/cards/36458554-b8b8-4768-a138-eba615b480af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Paroxysm
@@ -3642,6 +3643,7 @@ schema: 2
 - **Keywords:** Will of the Planeswalkers
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19618 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#path-of-the-enigma)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/23/path-of-the-enigma) · oracle_id `602f3203-91ae-423c-8a19-c6c1a5034f27` · printing: MOC #23 (2023-04-21) · [rulings](https://api.scryfall.com/cards/0873cc1c-1285-4c39-936b-78fd8f93f3ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Path of the Ghosthunter
@@ -3667,6 +3669,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6931 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-04-14* — If your hand is empty as Path of the Pyromancer resolves, you won’t add any mana, but you will draw a card.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#path-of-the-pyromancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/34/path-of-the-pyromancer) · oracle_id `b908fad9-25a6-441b-bba8-0d7fc12ee2dc` · printing: MOC #34 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Path of the Schemer
@@ -3680,6 +3683,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17819 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-04-14* — The creature card you put onto the battlefield may be one that was just milled, or it may be one that was already in a graveyard.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#path-of-the-schemer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/28/path-of-the-schemer) · oracle_id `9cdb1cf6-2bf1-401b-83ae-6f3f7512e5a6` · printing: MOC #28 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pathrazer of Ulamog
@@ -3874,7 +3878,7 @@ schema: 2
   > *Only a fool ignores a letter bearing the official mark of a patriar family.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1235 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/P.md#patriars-seal)
+- **Referenced in:** 4 pages (4 decks) → [reverse index](../../references/P.md#patriars-seal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/332/patriars-seal) · oracle_id `ad95eac2-5b48-4102-9988-a6d7b1ec30e0` · printing: CLB #332 (2022-06-10) · [rulings](https://api.scryfall.com/cards/37f920f0-4dfc-477b-af7e-a17dfc9ba455/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Patrician Geist

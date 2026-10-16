@@ -229,6 +229,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2223 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-09-09* — Because the card-draw ability is granted to the creature, if an opponent takes control of the enchanted creature and it deals combat damage while they control it, that opponent will draw a card.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#combat-research)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/44/combat-research) · oracle_id `fbfd7f38-be9a-49bf-8769-79e1e7e8dfdc` · printing: DMU #44 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Combat Thresher
@@ -387,6 +388,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3596 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-09-20* — Players can't take actions in between the time you destroy the target creature and the time it returns to the battlefield under your control. Notably, they can't try to remove that creature card from the graveyard to stop it from returning to the battlefield.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#come-back-wrong)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/86/come-back-wrong) · oracle_id `2a9783c5-084b-4cd3-b7fa-ae9d7fed51d1` · printing: DSK #86 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Comet Crawler
@@ -529,7 +531,7 @@ schema: 2
   - *2020-11-10* — If you cast a commander from your hand, the commander tax doesn't apply. Additionally, that casting won't add to commander tax if you later cast the commander from the command zone.
   - *2020-11-10* — If you have two commanders with the partner ability in the command zone, Command Beacon's effect puts one of your choice into your hand, not both.
   - *2020-11-10* — If your commander isn't in the command zone (or you don't have a commander) as the last ability resolves, nothing happens.
-- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/C.md#command-beacon)
+- **Referenced in:** 6 pages (4 decks · 1 rules · 1 card data) → [reverse index](../../references/C.md#command-beacon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/352/command-beacon) · oracle_id `7e8c2a18-e404-40ff-a9e0-ec3eeb6d576e` · printing: TDC #352 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Command Bridge
@@ -899,8 +901,8 @@ schema: 2
   - *2020-11-10* — If you have two commanders, the ability adds one mana of any color in their combined color identities.
   - *2020-11-10* — If your commander is a card that has no colors in its color identity, Command Tower's ability produces no mana. It doesn't produce {C}.
 - **Lore:** ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-the-math-of-more) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (70): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) … · Commander Spellbook: 20 combos; most popular [Tower Winder + Kheru Goldkeeper + Six + Command Tower + Altar of Dementia](https://commanderspellbook.com/combo/5256-5751-6462-7104-7105/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC: in 7,588,837 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (96.1% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (93.0% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (91.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 77 pages (70 decks · 3 edh guides · 1 rules · 1 lore & story · 2 card data) → [reverse index](../../references/C.md#command-tower)
+- **Synergy:** *Proven* — KB decks (90): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) … · Commander Spellbook: 20 combos; most popular [Tower Winder + Kheru Goldkeeper + Six + Command Tower + Altar of Dementia](https://commanderspellbook.com/combo/5256-5751-6462-7104-7105/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC: in 7,588,837 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (96.1% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (93.0% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (91.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 97 pages (90 decks · 3 edh guides · 1 rules · 1 lore & story · 2 card data) → [reverse index](../../references/C.md#command-tower)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/22/command-tower) · oracle_id `0895c9b7-ae7d-4bb3-af17-3b75deb50a25` · printing: FRC #22 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commencement of Festivities
@@ -936,6 +938,7 @@ schema: 2
   - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Zombies, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Zombie, it becomes a Zombie in addition to its other types.
   - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2023-06-16* — To amass Zombies N, if you don't control an Army creature, create a 0/0 black Zombie Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Zombie, it becomes a Zombie in addition to its other types.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#commence-the-endgame)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/45/commence-the-endgame) · oracle_id `fedb1947-9fa5-4655-8d02-b370fa63dd16` · printing: WAR #45 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Commercial District

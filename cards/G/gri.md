@@ -627,8 +627,8 @@ schema: 2
   - *2011-09-22* — If the targeted creature is an illegal target by the time Grimgrin's last ability resolves, the entire ability doesn't resolve and none of its effects will occur. You won't put a +1/+1 counter on Grimgrin.
   - *2013-07-01* — If Grimgrin's last ability resolves, but the targeted creature isn't destroyed (perhaps because it regenerated or has indestructible), you'll still put a +1/+1 on Grimgrin.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Gravecrawler + Rooftop Storm + Grimgrin, Corpse-Born](https://commanderspellbook.com/combo/728-2452-2577/) (Infinite death triggers, Infinite +1/+1 counters on a creature) · EDHREC as commander: 4,591 decks; highest synergy [Gravecrawler](../../cards/G/gra.md#gravecrawler) (+75%), [Rooftop Storm](../../cards/R/ro.md#rooftop-storm) (+67%), [Diregraf Captain](../../cards/D/di.md#diregraf-captain) (+60%) · EDHREC: in 22,104 decks; most often under [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (30.8% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (20.1% of its decks), [Gisa and Geralf](../../cards/G/gi.md#gisa-and-geralf) (32.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Free sacrifice outlets](../../EDH%20Packages.md#aristocrats-free-sacrifice-outlets) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/G.md#grimgrin-corpse-born)
+- **Synergy:** *Proven* — KB decks (1): [Thraximundar (Grixis)](../../grixis/decks/thraximundar.md) · Commander Spellbook: 100+ combos; most popular [Gravecrawler + Rooftop Storm + Grimgrin, Corpse-Born](https://commanderspellbook.com/combo/728-2452-2577/) (Infinite death triggers, Infinite +1/+1 counters on a creature) · EDHREC as commander: 4,591 decks; highest synergy [Gravecrawler](../../cards/G/gra.md#gravecrawler) (+75%), [Rooftop Storm](../../cards/R/ro.md#rooftop-storm) (+67%), [Diregraf Captain](../../cards/D/di.md#diregraf-captain) (+60%) · EDHREC: in 22,104 decks; most often under [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (30.8% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (20.1% of its decks), [Gisa and Geralf](../../cards/G/gi.md#gisa-and-geralf) (32.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Free sacrifice outlets](../../EDH%20Packages.md#aristocrats-free-sacrifice-outlets) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/G.md#grimgrin-corpse-born)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/239/grimgrin-corpse-born) · oracle_id `a2aa2c8f-7058-4020-9881-663b104ea051` · printing: INR #239 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grim Guardian
@@ -782,7 +782,7 @@ schema: 2
   > *Part prison, part home.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #676 · Game Changer: **yes** · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 17 pages (10 decks · 4 edh guides · 3 card data) → [reverse index](../../references/G.md#grim-monolith)
+- **Referenced in:** 22 pages (15 decks · 4 edh guides · 3 card data) → [reverse index](../../references/G.md#grim-monolith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ulg/126/grim-monolith) · oracle_id `229d6627-1292-4ae1-8849-b0f956fa6540` · printing: ULG #126 (1999-02-15) · [rulings](https://api.scryfall.com/cards/9ddc9fe1-17c8-4e1d-aeb8-c4214e881280/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grimoire of the Dead
@@ -1057,7 +1057,7 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2173 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 4 pages (3 decks · 1 edh guides) → [reverse index](../../references/G.md#grinding-station)
+- **Referenced in:** 7 pages (5 decks · 2 edh guides) → [reverse index](../../references/G.md#grinding-station)
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/127/grinding-station) · oracle_id `0fcd476f-4db8-4293-9388-1678a0043c9e` · printing: 5DN #127 (2004-06-04) · [rulings](https://api.scryfall.com/cards/df1df511-b52c-45cd-9503-ffce4271a802/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grindstone
@@ -1074,7 +1074,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — If the two cards are both colorless, then the effect does not repeat. It only repeats if both cards have at least one color and at least one color is shared between them.
   - *2024-04-12* — The process can repeat any number of times, as long as two cards that share a color are milled each time.
-- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/G.md#grindstone)
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/G.md#grindstone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/223/grindstone) · oracle_id `97560adc-814e-450c-9ca7-f9364e910a0b` · printing: TPR #223 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grinning Demon

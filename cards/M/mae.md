@@ -271,6 +271,7 @@ schema: 2
 - **Keywords:** Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15456 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#maestros-confluence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/75/maestros-confluence) · oracle_id `ef67a41b-a2a6-4f1b-a0d5-15560e99e387` · printing: NCC #75 (2022-04-29) · [rulings](https://api.scryfall.com/cards/c823c045-5331-4fe3-ba20-cdfef12c44e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maestros Diabolist

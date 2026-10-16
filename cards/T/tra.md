@@ -727,7 +727,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — Count the number of opponents you currently have, not how many you started with. If your four-player game is down to you and a single opponent, the land enters the battlefield tapped.
   - *2020-11-10* — If an effect puts the land onto the battlefield tapped, having two or more opponents won't untap it.
-- **Referenced in:** 40 pages (35 decks · 4 edh guides · 1 card data) → [reverse index](../../references/T.md#training-center)
+- **Referenced in:** 57 pages (52 decks · 4 edh guides · 1 card data) → [reverse index](../../references/T.md#training-center)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/434/training-center) · oracle_id `e3570ac7-c593-40e3-bbd6-ec3da6d8158d` · printing: CMM #434 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Training Compound
@@ -777,7 +777,7 @@ schema: 2
   - *2025-10-02* — Training Grounds reduces the generic mana in waterbend costs for activated abilities. It will not reduce waterbend costs that are additional costs for casting spells.
   - *2025-10-02* — Training Grounds takes the total cost to activate a creature's activated ability into account, not just the cost printed on it. For example, Urabrask has an activated ability that costs {R}, and Suppression Field says "Activated abilities cost {2} more to activate unless they're mana abilities." Since activating Urabrask's activated ability would now cost {2}{R}, Training Grounds reduces that cost back to {R}.
   - *2025-10-02* — Training Grounds won't affect the part of an activation cost represented by colored mana symbols or snow mana symbols. It also won't affect nonmana parts of an activation cost, if there are any.
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/T.md#training-grounds)
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/T.md#training-grounds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/9/training-grounds) · oracle_id `8de3eabe-9a8f-4865-beef-a4888c081d39` · printing: MAT #9 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Training Regimen
@@ -1687,6 +1687,7 @@ schema: 2
   - *2023-06-16* — Players may vote for creatures that are already tapped.
   - *2023-06-16* — The phrase "the vote is tied" refers only to when there is more than one choice that received the most votes. For example, if a 5-player vote from among three different choices ends 3 votes to 1 vote to 1 vote, the vote isn't tied.
   - *2023-06-16* — To secretly vote, each player writes down their chosen option without showing it to anyone else. Each player then keeps their vote secret until all players simultaneously reveal their votes.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#trap-the-trespassers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/25/trap-the-trespassers) · oracle_id `ef72af33-37fc-48ed-90d8-547c90e1609d` · printing: LTC #25 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trash Bin

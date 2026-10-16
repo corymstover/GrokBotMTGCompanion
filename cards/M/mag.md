@@ -467,7 +467,7 @@ schema: 2
 - **Rulings** (2):
   - *2006-05-01* — If an activated ability with {T} in its cost is granted to a creature by an effect (such as Hypervolt Grasp’s effect, for instance), Magewright’s Stone can untap that creature.
   - *2006-05-01* — This looks for the {T} symbol. The phrase “tap an untapped creature you control” isn’t the same and doesn’t count.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#magewrights-stone)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/M.md#magewrights-stone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/162/magewrights-stone) · oracle_id `9e500094-c430-4c10-89cc-97f4f18b08bc` · printing: DIS #162 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maggot Carrier

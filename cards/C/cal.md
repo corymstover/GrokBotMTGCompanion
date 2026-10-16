@@ -839,7 +839,7 @@ schema: 2
   - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
   - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
   - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#call-of-the-ring)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/C.md#call-of-the-ring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/79/call-of-the-ring) · oracle_id `9fcb920c-b8d7-4a79-a335-f63050182cca` · printing: LTR #79 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call of the Wild
@@ -1225,6 +1225,7 @@ schema: 2
   - *2011-09-22* — If a player controls no creatures, or each creature they control is a Zombie, that player does nothing when the first ability resolves.
   - *2011-09-22* — If there is at least one creature on the battlefield at the beginning of the end step, the last ability won't trigger. If it does trigger, but a creature enters before it resolves, the ability won't do anything when it resolves. Call to the Grave's controller won't sacrifice it.
   - *2011-09-22* — In a Two-Headed Giant game, Call to the Grave will trigger twice during each team's upkeep, once for each player. Each of the two players will sacrifice a non-Zombie creature when the ability referring to that player resolves.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#call-to-the-grave)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m12/85/call-to-the-grave) · oracle_id `db5a4c25-5ae5-4a04-be79-bdee39b9152c` · printing: M12 #85 (2011-07-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call to the Kindred

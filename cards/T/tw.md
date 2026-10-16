@@ -211,7 +211,7 @@ schema: 2
   - *2025-11-17* — If the copied creature has {X} in its mana cost, X is 0.
   - *2025-11-17* — If the copied creature is copying something else, then the token enters as whatever that creature copied.
   - *2025-11-17* — The token created by Twilight Diviner's last ability copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
-- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/T.md#twilight-diviner)
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/T.md#twilight-diviner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/122/twilight-diviner) · oracle_id `05d7222b-cc08-4f1f-8e35-6058599572ba` · printing: ECL #122 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twilight Drover
@@ -280,7 +280,7 @@ schema: 2
   - *2018-01-19* — Once you have the city's blessing, you have it for the rest of the game, even if you lose control of some or all of your permanents. The city's blessing isn't a permanent itself and can't be removed by any effect.
   - *2018-01-19* — Some cards have triggered abilities with an intervening "if" clause that checks whether you have the city's blessing. These are worded "[Trigger condition], if you have the city's blessing, [effect]." You must already have the city's blessing in order for these abilities to trigger; otherwise they do nothing. In other words, there's no way to have the ability trigger if you don't have the city's blessing, even if you intend to get it in response to the triggered ability.
   - *2018-01-19* — The mana value of a split card, such as cards with aftermath from the Amonkhet block, is based on the combined mana cost of its two halves.
-- **Referenced in:** 5 pages (2 decks · 2 rules · 1 card data) → [reverse index](../../references/T.md#twilight-prophet)
+- **Referenced in:** 6 pages (3 decks · 2 rules · 1 card data) → [reverse index](../../references/T.md#twilight-prophet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/143/twilight-prophet) · oracle_id `a3afd8b9-d499-40f7-be41-f8fee6636a1d` · printing: MKC #143 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twilight's Call
@@ -499,7 +499,7 @@ schema: 2
   - *2014-04-26* — The tokens copy exactly what was printed on the original creature and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
   - *2014-04-26* — The tokens see each other enter the battlefield. If any of them have a triggered ability that triggers whenever a creature enters the battlefield, they'll trigger for one another.
   - *2014-04-26* — You choose how many targets each spell with a strive ability has and what those targets are as you cast it. It's legal to cast such a spell with no targets, although this is rarely a good idea. You can't choose the same target more than once for a single strive spell.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#twinflame)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/T.md#twinflame)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/258/twinflame) · oracle_id `83cf1169-5853-4332-b897-7b17d72d76ab` · printing: SOC #258 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twinflame Travelers
@@ -655,7 +655,7 @@ schema: 2
   - *2020-04-17* — Twinning Staff's last ability can copy any instant or sorcery spell you control, not just one with targets.
   - *2020-04-17* — You choose whether the additional copy is put onto the stack before or after the original copy. If a spell is being copied more than once, you can even have the additional copy put onto the stack in between the original copies.
   - *2020-04-17* — You may choose new targets for the additional copy, even if you can't choose new targets for the original copy or copies.
-- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/T.md#twinning-staff)
+- **Referenced in:** 6 pages (4 decks · 2 edh guides) → [reverse index](../../references/T.md#twinning-staff)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/383/twinning-staff) · oracle_id `3ca8113b-f5b8-41a7-aae6-ebb32554dfe3` · printing: NCC #383 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Twinscroll Shaman

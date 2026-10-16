@@ -1826,7 +1826,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #39 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 20 pages (15 decks · 3 edh guides · 2 card data) → [reverse index](../../references/S.md#skullclamp)
+- **Referenced in:** 23 pages (17 decks · 4 edh guides · 2 card data) → [reverse index](../../references/S.md#skullclamp)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/210/skullclamp) · oracle_id `65986c1b-8e51-4604-b685-d82fa7d1263a` · printing: MSC #210 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1d8b007b-3169-4ee3-80c7-781fc096fc7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skull Collector

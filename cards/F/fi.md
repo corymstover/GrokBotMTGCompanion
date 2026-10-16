@@ -657,7 +657,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-04-17* — It doesn't matter whose commander you control. Any one will do. If you have two commanders, you just need to control one of them.
   - *2020-04-17* — Once you begin casting this spell, players can't take any other actions until you're done casting it. Notably, they can't try to remove the commander you control to make you pay its cost.
-- **Referenced in:** 51 pages (42 decks · 7 edh guides · 2 card data) → [reverse index](../../references/F.md#fierce-guardianship)
+- **Referenced in:** 68 pages (59 decks · 7 edh guides · 2 card data) → [reverse index](../../references/F.md#fierce-guardianship)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/94/fierce-guardianship) · oracle_id `d09c9cba-fdd2-479b-ad5d-d05181c3e3f9` · printing: CMM #94 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fierce Invocation
@@ -1623,7 +1623,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — If you end up skipping the extra turn that is gained, you do not lose the game.
   - *2022-12-08* — If multiple "extra turn" effects resolve in the same turn, take them in the reverse of the order that the effects resolved. In other words, the most recently created extra turn is taken first.
-- **Referenced in:** 8 pages (6 decks · 1 edh guides · 1 card data) → [reverse index](../../references/F.md#final-fortune)
+- **Referenced in:** 11 pages (9 decks · 1 edh guides · 1 card data) → [reverse index](../../references/F.md#final-fortune)
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/182/final-fortune) · oracle_id `8d0adc5c-3fdd-4e22-b783-5651f8e57b65` · printing: 7ED #182 (2001-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Final Judgment
@@ -3683,8 +3683,8 @@ schema: 2
 - **Rulings** (1):
   - *2022-06-10* — An ability that looks for whether a creature "had to attack" checks to see if there were any requirements to attack that were applying to that particular creature at the time it was declared as an attacker. If an ability required that creature's controller to attack rather than the creature itself (such as that of Trove of Temptation), that creature dealing combat damage won't cause Firkraag's last ability to trigger, even if it was the only creature that player could have attacked with to meet the requirement.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,644 decks; highest synergy [Vengeful Ancestor](../../cards/V/ve.md#vengeful-ancestor) (+91%), [Disrupt Decorum](../../cards/D/di.md#disrupt-decorum) (+86%), [Chaos Dragon](../../cards/C/cha.md#chaos-dragon) (+74%) · EDHREC: in 21,857 decks; most often under [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (17.5% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (5.0% of its decks), [Ureni of the Unwritten](../../cards/U/ur.md#ureni-of-the-unwritten) (9.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/F.md#firkraag-cunning-instigator)
+- **Synergy:** *Proven* — KB decks (2): [Tetsuo Umezawa (Grixis)](../../grixis/decks/tetsuo-umezawa.md) · [The Rani (Grixis)](../../grixis/decks/the-rani.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,644 decks; highest synergy [Vengeful Ancestor](../../cards/V/ve.md#vengeful-ancestor) (+91%), [Disrupt Decorum](../../cards/D/di.md#disrupt-decorum) (+86%), [Chaos Dragon](../../cards/C/cha.md#chaos-dragon) (+74%) · EDHREC: in 21,857 decks; most often under [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (17.5% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (5.0% of its decks), [Ureni of the Unwritten](../../cards/U/ur.md#ureni-of-the-unwritten) (9.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/F.md#firkraag-cunning-instigator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/648/firkraag-cunning-instigator) · oracle_id `81dad7c5-5950-4c45-adb0-cf1a15a74250` · printing: CLB #648 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Firmament Sage
@@ -4139,6 +4139,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6555 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-10-13* — Five Hundred Year Diary counts itself for its second ability.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/F.md#five-hundred-year-diary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/42/five-hundred-year-diary) · oracle_id `9bdd6fea-d436-412b-a7b7-bbdba73dc986` · printing: WHO #42 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Five Kids in a Trenchcoat

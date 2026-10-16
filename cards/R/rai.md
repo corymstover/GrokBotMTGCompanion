@@ -118,6 +118,7 @@ schema: 2
   - *2024-11-08* — Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with or which player, planeswalker, or battle those creatures attacked.
   - *2024-11-08* — Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn't have to still be on the battlefield. Similarly, the player, planeswalker, or battle it attacked doesn't have to still be in the game or on the battlefield.
   - *2024-11-08* — Some raid abilities trigger at the beginning of your end step. These abilities trigger if you attacked with a creature that turn, even if the permanent with that raid ability wasn't on the battlefield when you attacked.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#raiders-wake)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/116/raiders-wake) · oracle_id `d5fd3060-358c-4a5b-aee9-1afcf6c506ba` · printing: XLN #116 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raiding Nightstalker
@@ -304,7 +305,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Only grants the ability to lands you control when this ability resolves.
   - *2004-10-04* — The granted ability can be used while the land is tapped.
-- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/R.md#rain-of-filth)
+- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/R.md#rain-of-filth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/151/rain-of-filth) · oracle_id `aa77980d-0434-40f0-990f-1c8c50610174` · printing: USG #151 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rain of Gore

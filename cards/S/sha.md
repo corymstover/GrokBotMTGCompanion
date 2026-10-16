@@ -750,6 +750,7 @@ schema: 2
 - **Keywords:** Unreliable Visions, Undying Vengeance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4131 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#shadow-of-the-goblin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/87/shadow-of-the-goblin) · oracle_id `f343b6f9-41c3-419b-a57c-a7b08603ef5c` · printing: SPM #87 (2025-09-26) · [rulings](https://api.scryfall.com/cards/854b6898-c480-435b-8952-a077c7977cec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow of the Grave
@@ -2837,6 +2838,7 @@ schema: 2
   - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
   - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
   - *2020-09-25* — You divide the damage as you cast Shatterskull Smashing, not as it resolves. If you choose two targets, each target must be assigned at least 1 damage.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#shatterskull-smashing--shatterskull-the-hammer-pass)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/161/shatterskull-smashing-shatterskull-the-hammer-pass) · oracle_id `78301998-fd9b-4cd5-afad-dbcb43cac2a7` · printing: ZNR #161 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shatterstorm

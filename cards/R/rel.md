@@ -480,7 +480,7 @@ schema: 2
   > *While the power of Sauron grew, light and living things forsook his borders.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1746 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#relic-of-sauron)
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/R.md#relic-of-sauron)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/79/relic-of-sauron) · oracle_id `b3a81bb1-cbd5-41a0-8dd4-faea06593f84` · printing: LTC #79 (2023-06-23) · [rulings](https://api.scryfall.com/cards/175b3d28-5c74-4972-9b5c-5e39762c78f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic Putrescence

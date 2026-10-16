@@ -317,7 +317,7 @@ schema: 2
   - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
   - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
   - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
-- **Referenced in:** 50 pages (43 decks · 4 edh guides · 2 rules · 1 card data) → [reverse index](../../references/C.md#cyclonic-rift)
+- **Referenced in:** 67 pages (60 decks · 4 edh guides · 2 rules · 1 card data) → [reverse index](../../references/C.md#cyclonic-rift)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/40/cyclonic-rift) · oracle_id `d75b9c82-1b49-4c3e-a1b5-aeef57d6644b` · printing: RVR #40 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter

@@ -296,6 +296,7 @@ schema: 2
   > {1}{B}, {T}, Sacrifice this land: Return target Bat, Lizard, Rat, or Squirrel card from your graveyard to your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2983 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mudflat-village)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/257/mudflat-village) · oracle_id `aeeab1df-0b8b-4bc4-a5f9-aac413449bec` · printing: BLB #257 (2024-08-02) · [rulings](https://api.scryfall.com/cards/53ec4ad3-9cf0-4f1b-a9db-d63feee594ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mudhole

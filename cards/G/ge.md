@@ -767,7 +767,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-03-19* — A player's "opening hand" is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player's opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins.
   - *2021-03-19* — If multiple Gemstone Caverns are put onto the battlefield under a single player's control before the game begins, the "legend rule" won't put the extras into that player's graveyard until just before the starting player gets priority during the game's first upkeep step. There's no opportunity to tap the extras for mana.
-- **Referenced in:** 14 pages (9 decks · 3 edh guides · 1 rules · 1 card data) → [reverse index](../../references/G.md#gemstone-caverns)
+- **Referenced in:** 16 pages (11 decks · 3 edh guides · 1 rules · 1 card data) → [reverse index](../../references/G.md#gemstone-caverns)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/280/gemstone-caverns) · oracle_id `c0adbddc-b070-4c5f-afe0-0474c72a9251` · printing: TSR #280 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gemstone Mine
@@ -1278,7 +1278,7 @@ schema: 2
   - *2023-10-13* — A player facing a villainous choice can always choose either option, even if one or both of the options are impossible. For example, if one of the options is to sacrifice a creature, a player who controls no creatures can still choose that option.
   - *2023-10-13* — If a spell or ability requires multiple players to face a villainous choice, the result is a little different from other effects in Magic. In that case, the first player in turn order makes their choice and the action for that choice is performed before the next player makes their choice. Then each of the remaining players repeat this process in turn order.
   - *2023-10-13* — When a player faces a villainous choice, they first choose one of the two options, then all actions in the chosen option are performed.
-- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/G.md#genesis-of-the-daleks)
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/G.md#genesis-of-the-daleks)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/69/genesis-of-the-daleks) · oracle_id `71ff4603-9f7a-459e-b5b3-9b39583f1dc7` · printing: WHO #69 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Genesis Storm
@@ -1437,7 +1437,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1058 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 3 pages (2 edh guides · 1 card data) → [reverse index](../../references/G.md#genji-glove)
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/G.md#genji-glove)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/258/genji-glove) · oracle_id `8242cd78-6675-43b5-8924-0a88c3aa6f76` · printing: FIN #258 (2025-06-13) · [rulings](https://api.scryfall.com/cards/f724dde1-84b0-4e3b-a9b8-44cd22bb9f79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Genju of the Cedars
@@ -1593,6 +1593,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#geode-rager)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/794/geode-rager) · oracle_id `3969d1d6-0aed-4fa8-aa09-d9be50576fb4` · printing: CLB #794 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Geological Appraiser
@@ -2127,7 +2128,7 @@ schema: 2
   > *The book shrieks horribly until its cover is opened, granting the spirit inside a moment's rest from the painful stirrings of the book's contents.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2318 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 5 pages (4 decks · 1 edh guides) → [reverse index](../../references/G.md#geths-grimoire)
+- **Referenced in:** 6 pages (5 decks · 1 edh guides) → [reverse index](../../references/G.md#geths-grimoire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/123/geths-grimoire) · oracle_id `ef809e99-34a2-4471-8269-f56bf8037686` · printing: DST #123 (2004-02-06) · [rulings](https://api.scryfall.com/cards/0a21d76d-d86c-4348-be45-f65167d2b5a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Geth's Summons

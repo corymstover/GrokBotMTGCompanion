@@ -841,7 +841,7 @@ schema: 2
   > Exile the top card of your library. You may put that card into your hand unless it has the same name as another card exiled this way. Repeat this process until you put a card into your hand or you exile two cards with the same name, whichever comes first.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #887 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 13 pages (9 decks · 2 edh guides · 2 card data) → [reverse index](../../references/T.md#tainted-pact)
+- **Referenced in:** 15 pages (11 decks · 2 edh guides · 2 card data) → [reverse index](../../references/T.md#tainted-pact)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/164/tainted-pact) · oracle_id `1a85ba2b-ae10-4917-954a-7709b75a9740` · printing: ODY #164 (2001-10-01) · [rulings](https://api.scryfall.com/cards/c513f51b-a0db-4c08-8acc-1e91060b93b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tainted Peak
@@ -918,7 +918,7 @@ schema: 2
   - *2011-01-01* — If damage from a source with infect that would be dealt to a player is prevented, that player doesn’t get poison counters. If damage from a source with infect that would be dealt to a creature is prevented, that creature doesn’t get -1/-1 counters.
   - *2011-01-01* — Infect’s effect applies to any damage, not just combat damage.
   - *2011-01-01* — The -1/-1 counters remain on the creature indefinitely. They’re not removed if the creature regenerates or the turn ends.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#tainted-strike)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/T.md#tainted-strike)
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/80/tainted-strike) · oracle_id `95a53dd7-76dc-46f1-8833-fafd02ba49c4` · printing: SOM #80 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tainted Treats
@@ -1315,7 +1315,7 @@ schema: 2
   - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
   - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
   - *2022-02-18* — The creature or planeswalker card you return to your hand is not chosen until after you mill three cards. You may choose a creature or planeswalker card from among all the cards in your graveyard, including the milled cards.
-- **Referenced in:** 16 pages (12 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/T.md#takenuma-abandoned-mire)
+- **Referenced in:** 22 pages (18 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/T.md#takenuma-abandoned-mire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/278/takenuma-abandoned-mire) · oracle_id `ac2dd694-d2f1-4025-8400-12332bdc882a` · printing: NEO #278 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Takenuma Bleeder
@@ -1651,6 +1651,7 @@ schema: 2
   - *2015-06-22* — If you cast a card “without paying its mana cost,” you can’t pay any alternative costs. You can pay additional costs such as kicker costs. If the card has mandatory additional costs, you must pay those.
   - *2015-06-22* — The cards will be put into their owner’s graveyard after they resolve, not yours.
   - *2015-06-22* — You cast the instant and/or sorcery card(s) from your opponent’s library as Talent of the Telepath is resolving. Ignore timing restrictions based on the card’s type. Other timing restrictions, such as “Cast [this card] only during combat,” must be followed.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#talent-of-the-telepath)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/78/talent-of-the-telepath) · oracle_id `a3a26df4-a9d5-48f5-942f-76862bdcd146` · printing: ORI #78 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tale of Katara and Toph
@@ -1814,7 +1815,7 @@ schema: 2
   > *—Ral Zarek*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #125 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 46 pages (41 decks · 4 edh guides · 1 card data) → [reverse index](../../references/T.md#talisman-of-creativity)
+- **Referenced in:** 64 pages (59 decks · 4 edh guides · 1 card data) → [reverse index](../../references/T.md#talisman-of-creativity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/61/talisman-of-creativity) · oracle_id `14d2979d-5728-42d7-a027-0eb1f754655d` · printing: FRC #61 (2026-10-02) · [rulings](https://api.scryfall.com/cards/d4ba86c8-8052-4c9e-a0d0-ac6ad0b2679c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Curiosity
@@ -1841,7 +1842,7 @@ schema: 2
   > {T}: Add {U} or {B}. This artifact deals 1 damage to you.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #92 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 48 pages (44 decks · 3 edh guides · 1 card data) → [reverse index](../../references/T.md#talisman-of-dominance)
+- **Referenced in:** 67 pages (63 decks · 3 edh guides · 1 card data) → [reverse index](../../references/T.md#talisman-of-dominance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/62/talisman-of-dominance) · oracle_id `4c0a0448-b9d6-43a0-8549-64066dac63f0` · printing: FRC #62 (2026-10-02) · [rulings](https://api.scryfall.com/cards/78d5366f-eb6d-4ec1-880b-111872863766/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Hierarchy
@@ -1880,7 +1881,7 @@ schema: 2
   > {T}: Add {B} or {R}. This artifact deals 1 damage to you.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #127 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 42 pages (38 decks · 3 edh guides · 1 card data) → [reverse index](../../references/T.md#talisman-of-indulgence)
+- **Referenced in:** 60 pages (56 decks · 3 edh guides · 1 card data) → [reverse index](../../references/T.md#talisman-of-indulgence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/63/talisman-of-indulgence) · oracle_id `1d9aeaaa-66f6-41cb-9bac-162d6fd8662c` · printing: FRC #63 (2026-10-02) · [rulings](https://api.scryfall.com/cards/36bd614f-ab3b-4ad1-ab5c-a7ca0a641f32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Progress
@@ -2350,8 +2351,8 @@ schema: 2
   - *2016-04-08* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
   - *2016-04-08* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
 - **Lore:** ✅ Card art shown on [The Drownyard Temple](https://magic.wizards.com/en/news/magic-story/drownyard-temple-2016-04-06), [Liliana's Indignation](https://magic.wizards.com/en/news/magic-story/lilianas-indignation-2016-04-20), [The Mystery of Markov Manor](https://magic.wizards.com/en/news/magic-story/mystery-markov-manor-2016-03-30) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 19 combos; most popular [Time Sieve + Tamiyo's Journal + Academy Manufactor + Anointed Procession](https://commanderspellbook.com/combo/1308-1558-2740-4231/) (Infinite turns, Lock) · EDHREC: in 64,339 decks; most often under [Morska, Undersea Sleuth](../../cards/M/mor.md#morska-undersea-sleuth) (56.4% of its decks), [Tivit, Seller of Secrets](../../cards/T/ti.md#tivit-seller-of-secrets) (27.9% of its decks), [Obeka, Splitter of Seconds](../../cards/O/ob.md#obeka-splitter-of-seconds) (20.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#tamiyos-journal)
+- **Synergy:** *Proven* — KB decks (1): [Obeka, Splitter of Seconds (Grixis)](../../grixis/decks/obeka-splitter-of-seconds.md) · Commander Spellbook: 19 combos; most popular [Time Sieve + Tamiyo's Journal + Academy Manufactor + Anointed Procession](https://commanderspellbook.com/combo/1308-1558-2740-4231/) (Infinite turns, Lock) · EDHREC: in 64,339 decks; most often under [Morska, Undersea Sleuth](../../cards/M/mor.md#morska-undersea-sleuth) (56.4% of its decks), [Tivit, Seller of Secrets](../../cards/T/ti.md#tivit-seller-of-secrets) (27.9% of its decks), [Obeka, Splitter of Seconds](../../cards/O/ob.md#obeka-splitter-of-seconds) (20.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/T.md#tamiyos-journal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/272/tamiyos-journal) · oracle_id `20591a83-7138-4876-b088-035bd3788be3` · printing: INR #272 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tamiyo's Logbook
@@ -2713,7 +2714,7 @@ schema: 2
   > *Clawing for scraps and driven mad by hunger, the individual rats became a writhing mass.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5912 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#tangled-colony)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/T.md#tangled-colony)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/113/tangled-colony) · oracle_id `3f01c327-ba50-4fc3-a930-fa1fb02e34b9` · printing: WOE #113 (2023-09-08) · [rulings](https://api.scryfall.com/cards/77111ce8-6469-4bf7-882a-4ded1e5d7cad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tangled Florahedron // Tangled Vale
@@ -2933,6 +2934,7 @@ schema: 2
   - *2024-02-02* — Some abilities trigger “whenever you sacrifice a Clue”. Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue’s activated ability.
   - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won’t resolve. You won’t create any Clue tokens.
   - *2024-02-02* — You can’t sacrifice a Clue to pay multiple costs. For example, you can’t sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth’s ability.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#tangletrove-kelp)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/24/tangletrove-kelp) · oracle_id `1d7d9404-cad6-4c1a-bd47-7a31ebb2791c` · printing: MKC #24 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tangle Tumbler

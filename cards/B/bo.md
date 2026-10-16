@@ -1046,7 +1046,7 @@ schema: 2
   - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
   - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
   - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/B.md#boggart-trawler--boggart-bog)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#boggart-trawler--boggart-bog)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/243/boggart-trawler-boggart-bog) · oracle_id `727f3201-1cfc-4ab2-9dfe-be4f7251f42f` · printing: MH3 #243 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bog Glider
@@ -1479,7 +1479,7 @@ schema: 2
   > {T}: Add {B}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 21 pages (16 decks · 3 edh guides · 2 card data) → [reverse index](../../references/B.md#bojuka-bog)
+- **Referenced in:** 27 pages (22 decks · 3 edh guides · 2 card data) → [reverse index](../../references/B.md#bojuka-bog)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/363/bojuka-bog) · oracle_id `04b7362d-0490-4cb0-b5d7-2a7732f659ce` · printing: SOC #363 (2026-04-24) · [rulings](https://api.scryfall.com/cards/55b5b094-9d2d-4d96-b90c-78fecdae725a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bojuka Brigand
@@ -1532,7 +1532,7 @@ schema: 2
   - *2019-05-03* — In a Two-Headed Giant game, the last ability of Bolas's Citadel causes the opposing team to lose 20 life.
   - *2019-05-03* — You can play a land card from the top of your library only if you have available land plays remaining.
   - *2019-05-03* — You must follow the normal timing permissions and restrictions of the cards you play from your library.
-- **Referenced in:** 7 pages (5 decks · 2 edh guides) → [reverse index](../../references/B.md#bolass-citadel)
+- **Referenced in:** 10 pages (7 decks · 3 edh guides) → [reverse index](../../references/B.md#bolass-citadel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/79/bolass-citadel) · oracle_id `2bd111bb-ce02-414c-b5b7-e0e037d8d96b` · printing: WAR #79 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bola Warrior
@@ -2551,7 +2551,7 @@ schema: 2
   - *2023-11-10* — If you exile a land card and a nonland card, you'll create a Dinosaur token, then a Treasure token.
   - *2023-11-10* — If you exile two land cards, you'll create only one Dinosaur token. Similarly, if you exile two nonland cards, you'll create only one Treasure token.
   - *2023-11-10* — You pay all costs and follow all normal timing rules for cards played this way. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty.
-- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#bonehoard-dracosaur)
+- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#bonehoard-dracosaur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/134/bonehoard-dracosaur) · oracle_id `7ba550a5-81fc-42c2-8df8-ad455d938605` · printing: LCI #134 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Boneknitter
@@ -3007,8 +3007,8 @@ schema: 2
   - *2017-04-18* — In a Two-Headed Giant game, the triggered ability of Bontu's Monument causes the opposing team to lose 2 life and you gain 1 life.
   - *2017-04-18* — To determine the total cost of a creature spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the creature remains unchanged, no matter what the total cost to cast it was.
 - **Lore:** ✅ Card art shown on [Brazen](https://magic.wizards.com/en/news/magic-story/brazen-2017-05-03) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 65 combos; most popular [Warren Soultrader + Gravecrawler + Bontu's Monument](https://commanderspellbook.com/combo/2577-2932-5670/) (Infinite creature LTB, Infinite creature ETB) · EDHREC: in 207,173 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (37.2% of its decks), [Marrow-Gnawer](../../cards/M/mar.md#marrow-gnawer) (63.1% of its decks), [Temmet, Naktamun's Will](../../cards/T/te.md#temmet-naktamuns-will) (63.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/B.md#bontus-monument)
+- **Synergy:** *Proven* — KB decks (1): [Sol'kanar the Swamp King (Grixis)](../../grixis/decks/solkanar-the-swamp-king.md) · Commander Spellbook: 65 combos; most popular [Warren Soultrader + Gravecrawler + Bontu's Monument](https://commanderspellbook.com/combo/2577-2932-5670/) (Infinite creature LTB, Infinite creature ETB) · EDHREC: in 207,173 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (37.2% of its decks), [Marrow-Gnawer](../../cards/M/mar.md#marrow-gnawer) (63.1% of its decks), [Temmet, Naktamun's Will](../../cards/T/te.md#temmet-naktamuns-will) (63.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/B.md#bontus-monument)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/179/bontus-monument) · oracle_id `940ba435-7abc-40f8-a5af-c1c653b3284e` · printing: DMC #179 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bontu the Glorified
@@ -3049,6 +3049,7 @@ schema: 2
   - *2018-06-08* — The controller of the spell that caused Bonus Round’s ability to trigger also controls the copy.
   - *2018-06-08* — The copy that Bonus Round’s ability creates is created on the stack, so it’s not “cast.” Abilities that trigger when a player casts a spell (like Bonus Round’s ability itself) won’t trigger.
   - *2018-06-08* — The copy will have the same targets as the spell it’s copying unless its controller chooses new ones. That player may change any number of the targets, including all of them or none of them. The new targets must be legal.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#bonus-round)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/56/bonus-round) · oracle_id `40ab2b22-9cf6-4a73-a05f-6ce496d10bf7` · printing: BBD #56 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Booby Trap
@@ -3873,7 +3874,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #645 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-06-16* — This applies only to casting spells. It does not, for example, change when you can activate abilities that can be activated "only as a sorcery."
-- **Referenced in:** 10 pages (8 decks · 2 edh guides) → [reverse index](../../references/B.md#borne-upon-a-wind)
+- **Referenced in:** 12 pages (10 decks · 2 edh guides) → [reverse index](../../references/B.md#borne-upon-a-wind)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/44/borne-upon-a-wind) · oracle_id `ce19962d-94f9-4b2b-b668-963c0acce308` · printing: LTR #44 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Born to Drive
@@ -4331,7 +4332,7 @@ schema: 2
   > *Kongming and Lu Su tricked Wei troops into shooting over 100,000 arrows at them to later use against the Wei at Red Cliffs.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7079 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#borrowing-100000-arrows)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/B.md#borrowing-100000-arrows)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/45/borrowing-100000-arrows) · oracle_id `a3f10772-d055-419d-a535-4f094eaf437c` · printing: A25 #45 (2018-03-16) · [rulings](https://api.scryfall.com/cards/26334142-e9a2-4bf0-983e-dca4b4d817d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Borrowing the East Wind
@@ -4590,7 +4591,7 @@ schema: 2
   - *2026-06-29* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2026-06-29* — Some spells and abilities that amass Goblins may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Goblins.
   - *2026-06-29* — To amass Goblins N, if you don't control an Army creature, create a 0/0 black Goblin Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Goblin, it becomes a Goblin in addition to its other types.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bothersome-noisemaker)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/B.md#bothersome-noisemaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/89/bothersome-noisemaker) · oracle_id `978e07fd-8b8c-4eab-850e-e4c0e712251e` · printing: HOB #89 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bothersome Quasit
@@ -4606,6 +4607,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3135 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-06-10* — Goading a creature after it has been declared as a blocker will not remove it from combat.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/B.md#bothersome-quasit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/674/bothersome-quasit) · oracle_id `06cf7b77-ffd7-4192-903e-19bd06887ba1` · printing: CLB #674 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bottle-Cap Blast

@@ -544,7 +544,7 @@ schema: 2
   - *2024-11-08* — To double a creature's power, that creature gets +X/+0, where X is that creature's power when Bulk Up resolves.
   - *2024-11-08* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2024-11-08* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bulk-up)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/B.md#bulk-up)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/80/bulk-up) · oracle_id `fade8af0-5fdb-4237-9dd6-48bfd1d62767` · printing: FDN #80 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bull Aurochs
@@ -1068,7 +1068,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #353 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — You can look in your library and then choose to find any number from zero to three creatures after you look at it.
-- **Referenced in:** 7 pages (6 decks · 1 card data) → [reverse index](../../references/B.md#buried-alive)
+- **Referenced in:** 10 pages (8 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#buried-alive)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/273/buried-alive) · oracle_id `8203c621-a1a0-4865-8c9a-0d4064c86107` · printing: MH3 #273 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Buried in the Garden
@@ -1489,7 +1489,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-02-05* — If you choose not to search your library, no cards are revealed or put anywhere else, and you don't shuffle.
   - *2021-02-05* — While in your library, a double-faced card has only the name of its front face. It's not possible to reveal two of the same double-faced card this way.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#burning-rune-demon)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/B.md#burning-rune-demon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/81/burning-rune-demon) · oracle_id `d551fae8-6b40-4118-b9db-29d2f5dff405` · printing: KHM #81 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Burning Sands
@@ -2143,7 +2143,7 @@ schema: 2
   - *2025-06-06* — If a spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
   - *2025-06-06* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
   - *2025-06-06* — You choose whether to cast a spell from among the cards in your hand as Buster Sword's middle ability resolves. You can't wait to cast one later in the turn. Timing restrictions based on the card's types are ignored.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#buster-sword)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/B.md#buster-sword)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/255/buster-sword) · oracle_id `5e060d58-4d6e-425c-b7d4-727669fcce5b` · printing: FIN #255 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Butch DeLoria, Tunnel Snake

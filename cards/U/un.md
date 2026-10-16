@@ -1297,7 +1297,7 @@ schema: 2
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #421 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 6 pages (3 decks · 2 edh guides · 1 card data) → [reverse index](../../references/U.md#undercity-sewers)
+- **Referenced in:** 9 pages (6 decks · 2 edh guides · 1 card data) → [reverse index](../../references/U.md#undercity-sewers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/270/undercity-sewers) · oracle_id `08d80efc-9542-4ba2-824c-c8615d8d07f2` · printing: MKM #270 (2024-02-09) · [rulings](https://api.scryfall.com/cards/2b5801fb-2026-4f25-98bc-ebb2f99684b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Undercity Shade
@@ -1628,7 +1628,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
   - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
-- **Referenced in:** 45 pages (39 decks · 4 edh guides · 2 card data) → [reverse index](../../references/U.md#underground-sea)
+- **Referenced in:** 65 pages (59 decks · 4 edh guides · 2 card data) → [reverse index](../../references/U.md#underground-sea)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/323/underground-sea) · oracle_id `4b22be3a-8ce1-47d1-b82e-6c3ccfb0548b` · printing: VMA #323 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Undergrowth
@@ -1928,7 +1928,7 @@ schema: 2
   - *2020-01-24* — If you're casting an adventurer card or split card with escape, you choose how you wish to cast it, then pay the appropriate cost (for the Adventure, the creature, or the half of the split card you chose) plus exiling three cards.
   - *2020-01-24* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
   - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
-- **Referenced in:** 22 pages (16 decks · 4 edh guides · 2 card data) → [reverse index](../../references/U.md#underworld-breach)
+- **Referenced in:** 25 pages (19 decks · 4 edh guides · 2 card data) → [reverse index](../../references/U.md#underworld-breach)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/161/underworld-breach) · oracle_id `27e0948b-9916-473b-8d8c-a51bdfbc7457` · printing: THB #161 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Underworld Cerberus
@@ -2016,7 +2016,7 @@ schema: 2
   - *2004-10-04* — If multiple cards are drawn at once, this card triggers once for each card drawn.
   - *2004-10-04* — In a multi-player game, it affects all opponents.
   - *2020-01-24* — If a spell or ability causes you to put cards into your hand without specifically using the word “draw,” it’s not a card drawn.
-- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/U.md#underworld-dreams)
+- **Referenced in:** 5 pages (4 decks · 1 card data) → [reverse index](../../references/U.md#underworld-dreams)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/121/underworld-dreams) · oracle_id `967cf377-ae26-464d-85ac-8448b5a911f7` · printing: THB #121 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Underworld Fires
@@ -3443,7 +3443,7 @@ schema: 2
   > *—Doros, expedition guide*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1626 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/U.md#unmarked-grave)
+- **Referenced in:** 5 pages (4 decks · 1 edh guides) → [reverse index](../../references/U.md#unmarked-grave)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/106/unmarked-grave) · oracle_id `134dfb35-0c32-4143-aa63-7701f406b59e` · printing: MH2 #106 (2021-06-18) · [rulings](https://api.scryfall.com/cards/492b368b-de32-45c1-8459-238aae54f9fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unmask
@@ -4074,7 +4074,7 @@ schema: 2
   - *2025-09-19* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger "when [that creature] connives" will trigger.
   - *2025-09-19* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
   - *2025-09-19* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
-- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/U.md#unstable-experiment)
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/U.md#unstable-experiment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/789/unstable-experiment) · oracle_id `5b7bbc76-22cc-482e-8d65-34cff34c93c8` · printing: MSC #789 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Unstable Footing

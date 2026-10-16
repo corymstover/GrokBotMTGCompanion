@@ -126,6 +126,7 @@ schema: 2
   - *2014-05-29* — If one of your opponents has additional votes because of Brago’s Representative, and that player votes for more than one choice you didn’t vote for, that player will lose only 2 life.
   - *2014-05-29* — If you have additional votes because of Brago’s Representative, and you vote for more than one choice, an opponent will lose 2 life only if they voted for none of those choices.
   - *2014-05-29* — The spell or ability that caused you to vote will finish resolving before Grudge Keeper’s ability is put on the stack. The ability will be put on the stack even if the results of the vote cause Grudge Keeper to leave the battlefield.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#grudge-keeper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/28/grudge-keeper) · oracle_id `ffbf8459-fda2-4c1d-9841-c001c37d2141` · printing: CNS #28 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruesome Deformity

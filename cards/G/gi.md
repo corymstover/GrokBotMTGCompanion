@@ -1715,7 +1715,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1540 · Game Changer: **yes** · Can be commander: No
 - **Rulings** (1):
   - *2017-03-14* — You can choose to find fewer than four cards if you want. If you find one or two cards, your opponent must choose for them to be put into your graveyard, even if they don't want to.
-- **Referenced in:** 4 pages (1 decks · 1 edh guides · 2 card data) → [reverse index](../../references/G.md#gifts-ungiven)
+- **Referenced in:** 5 pages (2 decks · 1 edh guides · 2 card data) → [reverse index](../../references/G.md#gifts-ungiven)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/51/gifts-ungiven) · oracle_id `58aec411-167d-4709-8560-793eaaed62c5` · printing: 2X2 #51 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gigadrowse
@@ -2007,7 +2007,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — If the chosen creature to exchange is not on the battlefield at resolution, then sacrifice this card.
   - *2004-10-04* — This ability is targeted, so Protection can prevent targeting if it exists when the ability would be put on the stack. Once the ability is on the stack, adding Protection will not counter the ability but the exchange will not take place since the target is illegal and you sacrifice this card on resolution.
-- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/G.md#gilded-drake)
+- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/G.md#gilded-drake)
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/76/gilded-drake) · oracle_id `7f06c098-6482-4bf3-a9a1-110d6d5b5703` · printing: USG #76 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gilded Ghoda
@@ -2148,7 +2148,8 @@ schema: 2
   - *2025-06-06* — If you put an Equipment with job select onto the battlefield with Gilgamesh's ability, the job select ability and the reflexive triggered ability will both trigger, and you'll choose the order in which those abilities go on the stack. For example, if you put the reflexive triggered ability on the top of the stack with the job select ability below it, the reflexive triggered ability will resolve first and allow you to attach the Equipment to a Samurai you control. After that, regardless of whether or not you chose to attach the Equipment to a Samurai you control, the job select ability will create a Hero token and attach the Equipment to the Hero token.
   - *2025-06-06* — You can't use the reflexive triggered ability to try to attach an Equipment to a creature if that Equipment can't legally be attached to that creature.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,165 decks; highest synergy [Genji Glove](../../cards/G/ge.md#genji-glove) (+77%), [Colossus Hammer](../../cards/C/col.md#colossus-hammer) (+70%), [Samurai's Katana](../../cards/S/sam.md#samurais-katana) (+67%) · EDHREC: in 32,233 decks; most often under [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (32.2% of its decks), [Lightning, Army of One](../../cards/L/li.md#lightning-army-of-one) (13.6% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (7.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Synergy:** *Proven* — KB decks (1): [Tetsuo, Imperial Champion (Grixis)](../../grixis/decks/tetsuo-imperial-champion.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,165 decks; highest synergy [Genji Glove](../../cards/G/ge.md#genji-glove) (+77%), [Colossus Hammer](../../cards/C/col.md#colossus-hammer) (+70%), [Samurai's Katana](../../cards/S/sam.md#samurais-katana) (+67%) · EDHREC: in 32,233 decks; most often under [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (32.2% of its decks), [Lightning, Army of One](../../cards/L/li.md#lightning-army-of-one) (13.6% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (7.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#gilgamesh-master-at-arms)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/139/gilgamesh-master-at-arms) · oracle_id `c9432e87-38f6-4889-8f07-ae7cd045e532` · printing: FIN #139 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gilraen, Dúnedain Protector
@@ -2791,7 +2792,7 @@ schema: 2
   - *2011-06-01* — Phyrexian mana is not a new color. Players can't produce Phyrexian mana.
   - *2011-06-01* — The targeted player may have no cards in their hand. You'll still draw a card.
   - *2011-06-01* — To calculate the mana value of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1.
-- **Referenced in:** 11 pages (7 decks · 2 edh guides · 2 card data) → [reverse index](../../references/G.md#gitaxian-probe)
+- **Referenced in:** 14 pages (10 decks · 2 edh guides · 2 card data) → [reverse index](../../references/G.md#gitaxian-probe)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/35/gitaxian-probe) · oracle_id `1d67f5ff-1fce-45e5-b6a1-416c569351e2` · printing: NPH #35 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gitaxian Raptor

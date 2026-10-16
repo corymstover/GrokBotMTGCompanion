@@ -595,7 +595,7 @@ schema: 2
   > *—The Western Paladin*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3198 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/O.md#oppression)
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/O.md#oppression)
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/152/oppression) · oracle_id `f488f679-f5d5-4e61-b0c8-0b0eb622df0d` · printing: 7ED #152 (2001-04-11) · [rulings](https://api.scryfall.com/cards/ac327f80-983e-4e28-96e8-91ff5377f5a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oppressive Rays

@@ -331,7 +331,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — You can tap a creature that hasn't been under your control since your most recent turn began to activate Springleaf Drum's ability.
   - *2025-11-17* — You can tap a creature that hasn't been under your control since your most recent turn began to activate Springleaf Drum's ability.
-- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#springleaf-drum)
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#springleaf-drum)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/260/springleaf-drum) · oracle_id `bdeb440d-a714-40e8-9038-f651e6ae45fb` · printing: ECL #260 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Springleaf Parade

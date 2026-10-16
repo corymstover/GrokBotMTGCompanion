@@ -856,7 +856,7 @@ schema: 2
   - *2026-03-20* — There's no extra bonus if you control more than one commander.
   - *2026-03-20* — Use the number of cards in the target opponent's hand as Jeska's Will resolves to determine how much {R} to add.
   - *2026-03-20* — You pay all costs and follow all timing rules for cards played with the permission from the last mode of Jeska's Will. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
-- **Referenced in:** 29 pages (23 decks · 5 edh guides · 1 card data) → [reverse index](../../references/J.md#jeskas-will)
+- **Referenced in:** 42 pages (36 decks · 5 edh guides · 1 card data) → [reverse index](../../references/J.md#jeskas-will)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/156/jeskas-will) · oracle_id `0fd114c4-092b-4e28-b0dc-ef529f3bc73e` · printing: MKC #156 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeska, Thrice Reborn
@@ -1044,7 +1044,7 @@ schema: 2
   - *2023-07-28* — The ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic mana component of that cost.
   - *2023-07-28* — The ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
   - *2023-07-28* — The cost reduction can apply to alternative costs such as flashback costs.
-- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/J.md#jet-medallion)
+- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 card data) → [reverse index](../../references/J.md#jet-medallion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/292/jet-medallion) · oracle_id `bccb06f1-8839-4104-9ffa-c79a817f8378` · printing: MH3 #292 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jetmir, Nexus of Revels

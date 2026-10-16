@@ -119,7 +119,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2949 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-12-01* — The additional combat phase is directly after the combat phase in which Savage Beating is cast. There isn't a main phase between the two combat phases.
-- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#savage-beating)
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/S.md#savage-beating)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/252/savage-beating) · oracle_id `89d1cd45-8148-4396-a9b8-e0f495e94b5b` · printing: CMM #252 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savageborn Hydra

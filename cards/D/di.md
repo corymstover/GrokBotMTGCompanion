@@ -361,8 +361,8 @@ schema: 2
   - *2022-10-14* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
   - *2022-10-14* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
 - **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #89 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (8): [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Teysa Karlov](../../decks/teysa-karlov.md) · [Cormela, Glamour Thief (Grixis)](../../grixis/decks/cormela-glamour-thief.md) · [Edea, Possessed Sorceress (Grixis)](../../grixis/decks/edea-possessed-sorceress.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 397,821 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (41.1% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (22.6% of its decks), [Kraum, Ludevic's Opus // Tymna the Weaver](../../cards/K/kr.md#kraum-ludevics-opus) (75.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 15 pages (8 decks · 5 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/D.md#diabolic-intent)
+- **Synergy:** *Proven* — KB decks (11): [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Teysa Karlov](../../decks/teysa-karlov.md) · [Cormela, Glamour Thief (Grixis)](../../grixis/decks/cormela-glamour-thief.md) · [Edea, Possessed Sorceress (Grixis)](../../grixis/decks/edea-possessed-sorceress.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 397,821 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (41.1% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (22.6% of its decks), [Kraum, Ludevic's Opus // Tymna the Weaver](../../cards/K/kr.md#kraum-ludevics-opus) (75.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 18 pages (11 decks · 5 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/D.md#diabolic-intent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/89/diabolic-intent) · oracle_id `038519b9-bca8-4b27-b5ac-2409595469d0` · printing: BRO #89 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Diabolic Machine
@@ -656,7 +656,7 @@ schema: 2
   - *2014-04-26* — If you control more than one Dictate of Erebos and a creature you control dies, each of the triggered abilities will trigger. Each opponent will sacrifice a creature each time one of those abilities resolves.
   - *2014-04-26* — None of the opponents are targeted. An opponent with hexproof would still sacrifice a creature.
   - *2014-04-26* — When the triggered ability resolves, first the player whose turn it is (if that player is an opponent) chooses which creature they will sacrifice, then each other opponent in turn order does the same, then all chosen creatures are sacrificed at the same time.
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/D.md#dictate-of-erebos)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/D.md#dictate-of-erebos)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/65/dictate-of-erebos) · oracle_id `7c777a41-e40a-4b40-96bf-8ddd5c12924c` · printing: JOU #65 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dictate of Heliod
@@ -904,7 +904,7 @@ schema: 2
   - *2021-03-19* — Because delve isn't an alternative cost, it can be used in conjunction with alternative costs, such as flashback. It can also be used to pay for additional costs that include generic mana.
   - *2021-03-19* — Delve doesn't change a spell's mana cost or mana value. For example, Treasure Cruise's mana value is 8 even if you exiled three cards to cast it.
   - *2021-03-19* — You can exile cards to pay only for generic mana, and you can't exile more cards than the generic mana requirement of a spell with delve. For example, you can't exile more than seven cards from your graveyard to cast Treasure Cruise unless an effect has increased its cost.
-- **Referenced in:** 6 pages (3 decks · 1 rules · 2 card data) → [reverse index](../../references/D.md#dig-through-time)
+- **Referenced in:** 7 pages (4 decks · 1 rules · 2 card data) → [reverse index](../../references/D.md#dig-through-time)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/195/dig-through-time) · oracle_id `f8b17b89-26ce-4208-874a-9e1d66514640` · printing: SOC #195 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dig Up
@@ -1373,7 +1373,7 @@ schema: 2
   > *An emblem of a secret guild, the Dimir insignia is seen only by its own members—and the doomed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #158 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 19 pages (15 decks · 3 edh guides · 1 card data) → [reverse index](../../references/D.md#dimir-signet)
+- **Referenced in:** 29 pages (25 decks · 3 edh guides · 1 card data) → [reverse index](../../references/D.md#dimir-signet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/56/dimir-signet) · oracle_id `7d881c57-0bd9-4c57-aa4a-b10808b86143` · printing: FRC #56 (2026-10-02) · [rulings](https://api.scryfall.com/cards/0862060d-3198-4eeb-af8c-efeb27f42a99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dimir Spybug
@@ -1977,7 +1977,7 @@ schema: 2
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2332 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#diregraf-captain)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/D.md#diregraf-captain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/148/diregraf-captain) · oracle_id `70de24d9-c585-4bf6-ac2c-c5b4b7aa298c` · printing: MIC #148 (2021-09-24) · [rulings](https://api.scryfall.com/cards/158407ad-35a9-40e1-9762-1c0572b56ecb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Diregraf Colossus
@@ -2794,6 +2794,7 @@ schema: 2
   - *2020-06-23* — If any triggered abilities do trigger during this process, they're put onto the stack during the cleanup step. If this happens, players will have a chance to cast spells and activate abilities, then there will be another cleanup step before the turn is over.
   - *2020-06-23* — Though other spells and abilities that are exiled won't get a chance to resolve, they don't count as being countered.
   - *2020-06-23* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Discontinuity). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#discontinuity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/48/discontinuity) · oracle_id `5cfd73ab-8509-4e4b-9704-68d8dad3b301` · printing: M21 #48 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Discordant Dirge
@@ -3559,7 +3560,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-06-10* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
   - *2022-06-10* — When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled. Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
-- **Referenced in:** 10 pages (5 decks · 4 edh guides · 1 card data) → [reverse index](../../references/D.md#displacer-kitten)
+- **Referenced in:** 12 pages (7 decks · 4 edh guides · 1 card data) → [reverse index](../../references/D.md#displacer-kitten)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/63/displacer-kitten) · oracle_id `09ef446c-a13d-49d9-a94c-cd5f5a2d440b` · printing: CLB #63 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Display of Dominance
@@ -3601,6 +3602,7 @@ schema: 2
   - *2023-06-16* — The copies are created on the stack, so it's not "cast." Creating the copies won't cause abilities that trigger when a player casts a spell to trigger.
   - *2023-06-16* — The copies will have the same targets as the spells they're copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal. If, for any target, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
   - *2023-06-16* — You can't choose to pay any additional costs for a copied spell. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#display-of-power)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/119/display-of-power) · oracle_id `99140891-face-4015-aacd-1309e87d8f9f` · printing: LTR #119 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Disposal Mummy
@@ -3657,7 +3659,7 @@ schema: 2
   - *2023-06-30* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
   - *2023-06-30* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent controls, or a player who goaded it.
   - *2023-06-30* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
-- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/D.md#disrupt-decorum)
+- **Referenced in:** 3 pages (2 decks · 1 rules) → [reverse index](../../references/D.md#disrupt-decorum)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/151/disrupt-decorum) · oracle_id `9b084cd4-cc21-4f3a-9ac5-1e1160a31aa6` · printing: MKC #151 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Disrupting Scepter

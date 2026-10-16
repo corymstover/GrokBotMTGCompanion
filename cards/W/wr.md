@@ -958,4 +958,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5790 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-11-10* — A player gaining control of a creature doesn't cause that player to gain control of any Auras or Equipment attached to that creature.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#wrong-turn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/107/wrong-turn) · oracle_id `d1cfbbcc-4aee-4400-b5a8-18713829ae72` · printing: CMR #107 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

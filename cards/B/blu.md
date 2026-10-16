@@ -215,6 +215,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4324 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-02-04* — If the target creature is an illegal target by the time the spell tries to resolve, the spell will not resolve. No token is created, even if X is 5 or more.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#blue-suns-twilight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/43/blue-suns-twilight) · oracle_id `11e637b4-6ce0-4514-98d6-02a2d073f73b` · printing: ONE #43 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blue Sun's Zenith
@@ -445,4 +446,5 @@ schema: 2
   - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
   - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
   - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#blustersquall)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c15/89/blustersquall) · oracle_id `2dfad8c3-1973-4fc8-971d-f66cacd88070` · printing: C15 #89 (2015-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -16,7 +16,7 @@ schema: 2
 
 # Grixis Deck — Davros, Dalek Creator
 
-> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Davros_Dalek_Creator_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Davros_Dalek_Creator_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Davros_Dalek_Creator_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Davros_Dalek_Creator_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `1836b97`). Imported in Bot cycle 16; re-validated in Bot cycle 37 against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
 ## Contents
 - [Commander](#commander)
@@ -306,7 +306,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 ### From `refinement/blueprints/Davros_Dalek_Creator_v1.md`
 
-Source: [refinement/blueprints/Davros_Dalek_Creator_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Davros_Dalek_Creator_v1.md)
+Source: [refinement/blueprints/Davros_Dalek_Creator_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/blueprints/Davros_Dalek_Creator_v1.md)
 
 **Davros, Dalek Creator — Commander-First Refinement Blueprint**
 
@@ -337,7 +337,7 @@ Steel Overseer is a real tribal payoff: tapping it grows every artifact creature
 
 ### From `refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md`
 
-Source: [refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md)
+Source: [refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md)
 
 **Davros, Dalek Creator — Current-Cycle Refinement Decision Record**
 
@@ -439,7 +439,7 @@ The deck is approval-ready but remains unapproved and unlocked until the user ex
 
 ### From `refinement/approvals/Davros_Dalek_Creator_Approved_2026-10-14.md`
 
-Source: [refinement/approvals/Davros_Dalek_Creator_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Davros_Dalek_Creator_Approved_2026-10-14.md)
+Source: [refinement/approvals/Davros_Dalek_Creator_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/approvals/Davros_Dalek_Creator_Approved_2026-10-14.md)
 
 **Davros, Dalek Creator — Current-Cycle Approval Record**
 
@@ -486,7 +486,7 @@ Next unlocked deck in tracker order: **#13 Doctor Doom, King of Latveria**.
 
 ### Further source evidence (linked, not copied)
 
-- [refinement/verification/Davros_Dalek_Creator_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Davros_Dalek_Creator_Final_Verification_2026-10-13.md)
+- [refinement/verification/Davros_Dalek_Creator_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Davros_Dalek_Creator_Final_Verification_2026-10-13.md)
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
@@ -505,6 +505,6 @@ Next unlocked deck in tracker order: **#13 Doctor Doom, King of Latveria**.
 - **Keywords → [Keyword Encyclopedia](../../Keyword%20Encyclopedia.md):** [Menace](../../Keyword%20Encyclopedia.md#menace) 5 · [Equip](../../Keyword%20Encyclopedia.md#equip) 2 · [First strike](../../Keyword%20Encyclopedia.md#first-strike) 2 · [Flying](../../Keyword%20Encyclopedia.md#flying) 2 · [Mill](../../Keyword%20Encyclopedia.md#mill) 2 · [Overload](../../Keyword%20Encyclopedia.md#overload) 2 · [Affinity](../../Keyword%20Encyclopedia.md#affinity) 1 · [Cycling](../../Keyword%20Encyclopedia.md#cycling) 1 · [Deathtouch](../../Keyword%20Encyclopedia.md#deathtouch) 1 · [Flash](../../Keyword%20Encyclopedia.md#flash) 1 · [Haste](../../Keyword%20Encyclopedia.md#haste) 1 · [Myriad](../../Keyword%20Encyclopedia.md#myriad) 1
 - **Rules sections citing cards in this list:** [Keyword Encyclopedia → Equip](../../Keyword%20Encyclopedia.md#equip) (Lightning Greaves, Swiftfoot Boots) · [Keyword Encyclopedia → Overload](../../Keyword%20Encyclopedia.md#overload) (Cyclonic Rift, Vandalblast) · [Rules Interactions → Commander: color identity](../../Rules%20Interactions.md#commander-color-identity) (Arcane Signet, Command Tower) · [Rules Interactions → Replacement effects vs. triggered abilities](../../Rules%20Interactions.md#replacement-effects-vs-triggered-abilities) (Exotic Orchard, Fellwar Stone) · [Keyword Encyclopedia → Shadow](../../Keyword%20Encyclopedia.md#shadow) (Dauthi Voidwalker) · [Keyword Encyclopedia → Ward](../../Keyword%20Encyclopedia.md#ward) (Roaming Throne) · [Rules Interactions → Hexproof, shroud & ward](../../Rules%20Interactions.md#hexproof-shroud--ward) (Cyclonic Rift) · [Rules Interactions → Protection](../../Rules%20Interactions.md#protection) (Cyclonic Rift) · …3 more sections
 - **Lore & story sections citing cards in this list:** [Art & Flavor Story Links → Captioned art on cited story pages](../../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Command Tower, Mana Confluence) · [Characters Index → Character cards (name-matched)](../../Characters%20Index.md#character-cards-name-matched) (Tezzeret, Master of the Bridge) · [Planes Index → New Capenna](../../Planes%20Index.md#new-capenna) (Xander's Lounge) · [Planeswalker Dossiers → Character cards (name-matched)](../../Planeswalker%20Dossiers.md#character-cards-name-matched) (Tezzeret, Master of the Bridge)
-- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +20) · [Grixis Packages → Removal](../../grixis/Grixis%20Packages.md#removal) (Blasphemous Act, Counterspell, Cyber Conversion +10) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (Deflecting Swat, Fierce Guardianship, Fiery Islet +6) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Enthusiastic Mechanaut, Fellwar Stone +6) · [EDH Upgrade Paths → Nekusar, the Mindrazer](../../EDH%20Upgrade%20Paths.md#nekusar-the-mindrazer) (Badlands, Blood Crypt, Bloodstained Mire +5) · [EDH Upgrade Paths → Prosper, Tome-Bound](../../EDH%20Upgrade%20Paths.md#prosper-tome-bound) (Badlands, Blood Crypt, Bloodstained Mire +5) · …85 more sections
-- **Decks sharing the most cards:** [Cult of Skaro (Grixis)](../../grixis/decks/cult-of-skaro.md) 57 · [Dr. Eggman (Grixis)](../../grixis/decks/dr-eggman.md) 48 · [Missy (Grixis)](../../grixis/decks/missy.md) 46 · [Crosis, the Purger (Grixis)](../../grixis/decks/crosis-the-purger.md) 43
+- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +20) · [Grixis Packages → Removal](../../grixis/Grixis%20Packages.md#removal) (Blasphemous Act, Counterspell, Cyber Conversion +10) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (Deflecting Swat, Fierce Guardianship, Fiery Islet +6) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Enthusiastic Mechanaut, Fellwar Stone +6) · [EDH Upgrade Paths → Nekusar, the Mindrazer](../../EDH%20Upgrade%20Paths.md#nekusar-the-mindrazer) (Badlands, Blood Crypt, Bloodstained Mire +5) · [EDH Upgrade Paths → Prosper, Tome-Bound](../../EDH%20Upgrade%20Paths.md#prosper-tome-bound) (Badlands, Blood Crypt, Bloodstained Mire +5) · …86 more sections
+- **Decks sharing the most cards:** [Cult of Skaro (Grixis)](../../grixis/decks/cult-of-skaro.md) 57 · [Dr. Eggman (Grixis)](../../grixis/decks/dr-eggman.md) 48 · [The Valeyard (Grixis)](../../grixis/decks/the-valeyard.md) 48 · [Missy (Grixis)](../../grixis/decks/missy.md) 46
 <!-- CROSSREFS:END -->

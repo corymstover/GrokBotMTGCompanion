@@ -1,7 +1,7 @@
 {
 "schema": 2,
 "generated_by": "scripts/kb_find.py --build",
-"entries": 448,
+"entries": 468,
 "note": "Pages, decks and lore entries (Bot cycle 31); card entries are indexed by data/card_index.csv.",
 "items": [
 {
@@ -1670,6 +1670,11 @@
 ],
 [
 2,
+"Gate F — approval-ready candidate and lock",
+"gate-f--approval-ready-candidate-and-lock"
+],
+[
+2,
 "Official legality vs house exceptions",
 "official-legality-vs-house-exceptions"
 ],
@@ -1691,9 +1696,9 @@
 ],
 "related": [
 "EDH Deck Template.md",
-"EDH Lore-Themed Deckbuilding.md",
 "EDH Standards.md",
 "grixis/Grixis Corrections.md",
+"EDH Lore-Themed Deckbuilding.md",
 "EDH Mulligans.md",
 "grixis/Grixis Packages.md"
 ]
@@ -6267,13 +6272,13 @@
 ],
 [
 2,
-"Copy",
-"copy"
+"Protection",
+"protection"
 ],
 [
 2,
-"Protection",
-"protection"
+"Copy",
+"copy"
 ],
 [
 2,
@@ -6292,18 +6297,13 @@
 ],
 [
 2,
-"Theft",
-"theft"
-],
-[
-2,
 "Discard",
 "discard"
 ],
 [
 2,
-"Burn",
-"burn"
+"Theft",
+"theft"
 ],
 [
 2,
@@ -6317,13 +6317,8 @@
 ],
 [
 2,
-"Stax",
-"stax"
-],
-[
-2,
-"Instant",
-"instant"
+"Burn",
+"burn"
 ],
 [
 2,
@@ -6332,18 +6327,18 @@
 ],
 [
 2,
+"Instant",
+"instant"
+],
+[
+2,
 "Drain",
 "drain"
 ],
 [
 2,
-"Mill",
-"mill"
-],
-[
-2,
-"Evasion",
-"evasion"
+"Stax",
+"stax"
 ],
 [
 2,
@@ -6357,8 +6352,23 @@
 ],
 [
 2,
+"Evasion",
+"evasion"
+],
+[
+2,
+"Mill",
+"mill"
+],
+[
+2,
 "Untap",
 "untap"
+],
+[
+2,
+"Lifegain",
+"lifegain"
 ],
 [
 2,
@@ -6372,8 +6382,8 @@
 ],
 [
 2,
-"Lifegain",
-"lifegain"
+"Pump",
+"pump"
 ],
 [
 2,
@@ -6382,8 +6392,8 @@
 ],
 [
 2,
-"Pump",
-"pump"
+"Proliferate",
+"proliferate"
 ],
 [
 2,
@@ -6399,6 +6409,11 @@
 2,
 "Planeswalker",
 "planeswalker"
+],
+[
+2,
+"Landfall",
+"landfall"
 ],
 [
 2,
@@ -6449,9 +6464,9 @@
 "61"
 ],
 "related": [
+"EDH Standards.md",
 "grixis/Grixis Evaluation.md",
 "EDH Deck Template.md",
-"EDH Standards.md",
 "grixis/Grixis Corrections.md",
 "grixis/Grixis Packages.md",
 "EDH Bracket Calibration.md"
@@ -15072,6 +15087,2207 @@
 "two_card_infinites": "5"
 },
 {
+"path": "grixis/decks/nicol-bolas-the-ravager.md",
+"kind": "deck",
+"title": "Grixis Deck — Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Nicol_Bolas_the_Ravager_Commander_First_Blueprint_2026-10-15.md`",
+"from-refinementblueprintsnicol_bolas_the_ravager_commander_first_blueprint_2026-10-15md"
+],
+[
+3,
+"From `refinement/decisions/Nicol_Bolas_the_Ravager_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionsnicol_bolas_the_ravager_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Nicol_Bolas_the_Ravager_Approved_2026-10-15.md`",
+"from-refinementapprovalsnicol_bolas_the_ravager_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "16",
+"two_card_infinites": "1"
+},
+{
+"path": "grixis/decks/nicol-bolas.md",
+"kind": "deck",
+"title": "Grixis Deck — Nicol Bolas",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md`",
+"from-refinementblueprintsnicol_bolas_commander_blueprint_2026-10-15md"
+],
+[
+3,
+"From `refinement/blueprints/Nicol_Bolas_the_Ravager_Commander_First_Blueprint_2026-10-15.md`",
+"from-refinementblueprintsnicol_bolas_the_ravager_commander_first_blueprint_2026-10-15md"
+],
+[
+3,
+"From `refinement/decisions/Nicol_Bolas_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionsnicol_bolas_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/decisions/Nicol_Bolas_the_Ravager_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionsnicol_bolas_the_ravager_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Nicol_Bolas_Approved_2026-10-15.md`",
+"from-refinementapprovalsnicol_bolas_approved_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Nicol_Bolas_the_Ravager_Approved_2026-10-15.md`",
+"from-refinementapprovalsnicol_bolas_the_ravager_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "Nicol Bolas",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "14",
+"two_card_infinites": "1"
+},
+{
+"path": "grixis/decks/norman-osborn.md",
+"kind": "deck",
+"title": "Grixis Deck — Norman Osborn // Green Goblin",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Norman_Osborn_Green_Goblin_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionsnorman_osborn_green_goblin_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Norman_Osborn_Green_Goblin_Approved_2026-10-15.md`",
+"from-refinementapprovalsnorman_osborn_green_goblin_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "Norman Osborn // Green Goblin",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "19",
+"two_card_infinites": "1"
+},
+{
+"path": "grixis/decks/obeka-brute-chronologist.md",
+"kind": "deck",
+"title": "Grixis Deck — Obeka, Brute Chronologist",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md`",
+"from-refinementblueprintsobeka_brute_chronologist_commander_blueprint_2026-10-15md"
+],
+[
+3,
+"From `refinement/decisions/Obeka_Brute_Chronologist_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionsobeka_brute_chronologist_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Obeka_Brute_Chronologist_Approved_2026-10-15.md`",
+"from-refinementapprovalsobeka_brute_chronologist_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "Obeka, Brute Chronologist",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "13",
+"two_card_infinites": "2"
+},
+{
+"path": "grixis/decks/obeka-splitter-of-seconds.md",
+"kind": "deck",
+"title": "Grixis Deck — Obeka, Splitter of Seconds",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md`",
+"from-refinementblueprintsobeka_splitter_of_seconds_commander_blueprint_2026-10-15md"
+],
+[
+3,
+"From `refinement/decisions/Obeka_Splitter_of_Seconds_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionsobeka_splitter_of_seconds_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/decisions/Obeka_Splitter_of_Seconds_Final_Challenger_Red_Team_2026-10-15.md`",
+"from-refinementdecisionsobeka_splitter_of_seconds_final_challenger_red_team_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Obeka_Splitter_of_Seconds_Approved_2026-10-15.md`",
+"from-refinementapprovalsobeka_splitter_of_seconds_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "Obeka, Splitter of Seconds",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "6",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/parnesse-the-subtle-brush.md",
+"kind": "deck",
+"title": "Grixis Deck — Parnesse, the Subtle Brush",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-3",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md`",
+"from-refinementblueprintsparnesse_the_subtle_brush_commander_blueprint_2026-10-15md"
+],
+[
+3,
+"From `refinement/decisions/Parnesse_the_Subtle_Brush_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionsparnesse_the_subtle_brush_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Parnesse_the_Subtle_Brush_Approved_2026-10-15.md`",
+"from-refinementapprovalsparnesse_the_subtle_brush_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "Parnesse, the Subtle Brush",
+"color_identity": "UBR",
+"bracket_floor": "3",
+"game_changers": "3",
+"two_card_infinites": "21"
+},
+{
+"path": "grixis/decks/rograkh-son-of-rohgahh-silas-renn.md",
+"kind": "deck",
+"title": "Grixis Deck — Rograkh, Son of Rohgahh + Silas Renn, Seeker Adept",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md`",
+"from-refinementblueprintsrogsi_commander_blueprint_2026-10-15md"
+],
+[
+3,
+"From `refinement/decisions/RogSi_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionsrogsi_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/RogSi_Approved_2026-10-15.md`",
+"from-refinementapprovalsrogsi_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "Rograkh, Son of Rohgahh",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "19",
+"two_card_infinites": "1"
+},
+{
+"path": "grixis/decks/saruman-the-white-hand.md",
+"kind": "deck",
+"title": "Grixis Deck — Saruman, the White Hand",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md`",
+"from-refinementblueprintssaruman_the_white_hand_commander_blueprint_2026-10-15md"
+],
+[
+3,
+"From `refinement/decisions/Saruman_the_White_Hand_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionssaruman_the_white_hand_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Saruman_the_White_Hand_Approved_2026-10-15.md`",
+"from-refinementapprovalssaruman_the_white_hand_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "Saruman, the White Hand",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "11",
+"two_card_infinites": "1"
+},
+{
+"path": "grixis/decks/sauron-lord-of-the-rings.md",
+"kind": "deck",
+"title": "Grixis Deck — Sauron, Lord of the Rings",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Sauron_Lord_of_the_Rings_Commander_Blueprint_2026-10-15.md`",
+"from-refinementblueprintssauron_lord_of_the_rings_commander_blueprint_2026-10-15md"
+],
+[
+3,
+"From `refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionssauron_lord_of_the_rings_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Sauron_Lord_of_the_Rings_Approved_2026-10-15.md`",
+"from-refinementapprovalssauron_lord_of_the_rings_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "Sauron, Lord of the Rings",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "11",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/sauron-the-dark-lord.md",
+"kind": "deck",
+"title": "Grixis Deck — Sauron, the Dark Lord",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionssauron_the_dark_lord_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Sauron_the_Dark_Lord_Approved_2026-10-15.md`",
+"from-refinementapprovalssauron_the_dark_lord_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "Sauron, the Dark Lord",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "12",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/sedris-the-traitor-king.md",
+"kind": "deck",
+"title": "Grixis Deck — Sedris, the Traitor King",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionssedris_the_traitor_king_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Sedris_the_Traitor_King_Approved_2026-10-15.md`",
+"from-refinementapprovalssedris_the_traitor_king_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "Sedris, the Traitor King",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "12",
+"two_card_infinites": "1"
+},
+{
+"path": "grixis/decks/solkanar-the-swamp-king.md",
+"kind": "deck",
+"title": "Grixis Deck — Sol'kanar the Swamp King",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md`",
+"from-refinementblueprintssolkanar_the_swamp_king_commander_blueprint_2026-10-15md"
+],
+[
+3,
+"From `refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionssolkanar_the_swamp_king_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Solkanar_the_Swamp_King_Approved_2026-10-15.md`",
+"from-refinementapprovalssolkanar_the_swamp_king_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "Sol'kanar the Swamp King",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "13",
+"two_card_infinites": "11"
+},
+{
+"path": "grixis/decks/solkanar-the-tainted.md",
+"kind": "deck",
+"title": "Grixis Deck — Sol'Kanar the Tainted",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"combos"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md`",
+"from-refinementblueprintssolkanar_the_tainted_commander_blueprint_2026-10-15md"
+],
+[
+3,
+"From `refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionssolkanar_the_tainted_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Solkanar_the_Tainted_Approved_2026-10-15.md`",
+"from-refinementapprovalssolkanar_the_tainted_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "Sol'Kanar the Tainted",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "7",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/tetsuo-imperial-champion.md",
+"kind": "deck",
+"title": "Grixis Deck — Tetsuo, Imperial Champion",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md`",
+"from-refinementblueprintstetsuo_imperial_champion_commander_blueprint_2026-10-15md"
+],
+[
+3,
+"From `refinement/decisions/Tetsuo_Imperial_Champion_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionstetsuo_imperial_champion_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Tetsuo_Imperial_Champion_Approved_2026-10-15.md`",
+"from-refinementapprovalstetsuo_imperial_champion_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "Tetsuo, Imperial Champion",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "5",
+"two_card_infinites": "2"
+},
+{
+"path": "grixis/decks/tetsuo-umezawa.md",
+"kind": "deck",
+"title": "Grixis Deck — Tetsuo Umezawa",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md`",
+"from-refinementblueprintstetsuo_umezawa_commander_blueprint_2026-10-15md"
+],
+[
+3,
+"From `refinement/decisions/Tetsuo_Umezawa_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionstetsuo_umezawa_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Tetsuo_Umezawa_Approved_2026-10-15.md`",
+"from-refinementapprovalstetsuo_umezawa_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "Tetsuo Umezawa",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "4",
+"two_card_infinites": "1"
+},
+{
+"path": "grixis/decks/the-rani.md",
+"kind": "deck",
+"title": "Grixis Deck — The Rani",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionsthe_rani_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/The_Rani_Approved_2026-10-15.md`",
+"from-refinementapprovalsthe_rani_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "The Rani",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "8",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/the-valeyard.md",
+"kind": "deck",
+"title": "Grixis Deck — The Valeyard",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/The_Valeyard_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionsthe_valeyard_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/The_Valeyard_Approved_2026-10-15.md`",
+"from-refinementapprovalsthe_valeyard_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "The Valeyard",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "6",
+"two_card_infinites": "0"
+},
+{
+"path": "grixis/decks/thraximundar.md",
+"kind": "deck",
+"title": "Grixis Deck — Thraximundar",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Thraximundar_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionsthraximundar_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md`",
+"from-refinementdecisionsthraximundar_candidate_decisions_v2_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Thraximundar_Approved_2026-10-15.md`",
+"from-refinementapprovalsthraximundar_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "Thraximundar",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "8",
+"two_card_infinites": "1"
+},
+{
+"path": "grixis/decks/wick-the-whorled-mind.md",
+"kind": "deck",
+"title": "Grixis Deck — Wick, the Whorled Mind",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionswick_the_whorled_mind_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Wick_the_Whorled_Mind_Approved_2026-10-15.md`",
+"from-refinementapprovalswick_the_whorled_mind_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "Wick, the Whorled Mind",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "5",
+"two_card_infinites": "1"
+},
+{
+"path": "grixis/decks/zevlor-elturel-exile.md",
+"kind": "deck",
+"title": "Grixis Deck — Zevlor, Elturel Exile",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"two-card-infinite"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Zevlor_Elturel_Exile_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionszevlor_elturel_exile_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Zevlor_Elturel_Exile_Approved_2026-10-15.md`",
+"from-refinementapprovalszevlor_elturel_exile_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "Zevlor, Elturel Exile",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "11",
+"two_card_infinites": "1"
+},
+{
 "path": "references/0-9.md",
 "kind": "reference",
 "title": "Reverse card index — 0-9",
@@ -15332,6 +17548,11 @@
 3,
 "Acolyte of Bahamut",
 "acolyte-of-bahamut"
+],
+[
+3,
+"Acquire",
+"acquire"
 ],
 [
 3,
@@ -15815,6 +18036,11 @@
 ],
 [
 3,
+"Akki Battle Squad",
+"akki-battle-squad"
+],
+[
+3,
 "Akki Ronin",
 "akki-ronin"
 ],
@@ -15877,6 +18103,11 @@
 3,
 "Alberix, the Trade Planet",
 "alberix-the-trade-planet"
+],
+[
+3,
+"Alchemist's Gambit",
+"alchemists-gambit"
 ],
 [
 3,
@@ -16287,6 +18518,11 @@
 3,
 "Ancestral Vision",
 "ancestral-vision"
+],
+[
+3,
+"Anchor to Reality",
+"anchor-to-reality"
 ],
 [
 3,
@@ -16840,6 +19076,11 @@
 ],
 [
 3,
+"Arcane Adaptation",
+"arcane-adaptation"
+],
+[
+3,
 "Arcane Amphisbaena",
 "arcane-amphisbaena"
 ],
@@ -16990,6 +19231,11 @@
 ],
 [
 3,
+"Archfiend of the Dross",
+"archfiend-of-the-dross"
+],
+[
+3,
 "Architect of the Untamed",
 "architect-of-the-untamed"
 ],
@@ -17022,6 +19268,11 @@
 3,
 "Archon of Coronation",
 "archon-of-coronation"
+],
+[
+3,
+"Archon of Cruelty",
+"archon-of-cruelty"
 ],
 [
 3,
@@ -17097,6 +19348,11 @@
 3,
 "Arena of Glory",
 "arena-of-glory"
+],
+[
+3,
+"Argentum Armor",
+"argentum-armor"
 ],
 [
 3,
@@ -17242,6 +19498,11 @@
 3,
 "Artistic Process",
 "artistic-process"
+],
+[
+3,
+"Artist's Talent",
+"artists-talent"
 ],
 [
 3,
@@ -17400,6 +19661,16 @@
 ],
 [
 3,
+"Assault on Osgiliath",
+"assault-on-osgiliath"
+],
+[
+3,
+"Assault Suit",
+"assault-suit"
+],
+[
+3,
 "Assemble the Entmoot",
 "assemble-the-entmoot"
 ],
@@ -17522,6 +19793,11 @@
 3,
 "Attrition",
 "attrition"
+],
+[
+3,
+"Attunement",
+"attunement"
 ],
 [
 3,
@@ -17677,6 +19953,11 @@
 3,
 "Avacyn's Pilgrim",
 "avacyns-pilgrim"
+],
+[
+3,
+"Avaricious Dragon",
+"avaricious-dragon"
 ],
 [
 3,
@@ -18302,6 +20583,11 @@
 ],
 [
 3,
+"Bazaar Trader",
+"bazaar-trader"
+],
+[
+3,
 "Beamtown Beatstick",
 "beamtown-beatstick"
 ],
@@ -18702,6 +20988,11 @@
 ],
 [
 3,
+"Bite of the Black Rose",
+"bite-of-the-black-rose"
+],
+[
+3,
 "Biting-Palm Ninja",
 "biting-palm-ninja"
 ],
@@ -19022,6 +21313,11 @@
 ],
 [
 3,
+"Blim, Comedic Genius",
+"blim-comedic-genius"
+],
+[
+3,
 "Blind Obedience",
 "blind-obedience"
 ],
@@ -19102,6 +21398,11 @@
 ],
 [
 3,
+"Blood for the Blood God!",
+"blood-for-the-blood-god"
+],
+[
+3,
 "Blood Funnel",
 "blood-funnel"
 ],
@@ -19172,6 +21473,11 @@
 ],
 [
 3,
+"Bloodthirsty Blade",
+"bloodthirsty-blade"
+],
+[
+3,
 "Bloodthirsty Conqueror",
 "bloodthirsty-conqueror"
 ],
@@ -19232,6 +21538,11 @@
 ],
 [
 3,
+"Blue Sun's Twilight",
+"blue-suns-twilight"
+],
+[
+3,
 "Blue Sun's Zenith",
 "blue-suns-zenith"
 ],
@@ -19259,6 +21570,11 @@
 3,
 "Blurry Visionary",
 "blurry-visionary"
+],
+[
+3,
+"Blustersquall",
+"blustersquall"
 ],
 [
 3,
@@ -19432,6 +21748,11 @@
 ],
 [
 3,
+"Bonus Round",
+"bonus-round"
+],
+[
+3,
 "Boom // Bust",
 "boom--bust"
 ],
@@ -19559,6 +21880,11 @@
 3,
 "Bothersome Noisemaker",
 "bothersome-noisemaker"
+],
+[
+3,
+"Bothersome Quasit",
+"bothersome-quasit"
 ],
 [
 3,
@@ -19699,6 +22025,11 @@
 3,
 "Brass's Bounty",
 "brasss-bounty"
+],
+[
+3,
+"Brass Squire",
+"brass-squire"
 ],
 [
 3,
@@ -20374,6 +22705,11 @@
 ],
 [
 3,
+"Call to the Grave",
+"call-to-the-grave"
+],
+[
+3,
 "Camaraderie",
 "camaraderie"
 ],
@@ -20489,6 +22825,11 @@
 ],
 [
 3,
+"Capital Punishment",
+"capital-punishment"
+],
+[
+3,
 "Captain America, First Avenger",
 "captain-america-first-avenger"
 ],
@@ -20566,6 +22907,11 @@
 3,
 "Captivating Vampire",
 "captivating-vampire"
+],
+[
+3,
+"Captive Audience",
+"captive-audience"
 ],
 [
 3,
@@ -20911,6 +23257,11 @@
 3,
 "Chainer, Dementia Master",
 "chainer-dementia-master"
+],
+[
+3,
+"Chainer, Nightmare Adept",
+"chainer-nightmare-adept"
 ],
 [
 3,
@@ -21279,6 +23630,11 @@
 ],
 [
 3,
+"Chef's Kiss",
+"chefs-kiss"
+],
+[
+3,
 "Chemister's Insight",
 "chemisters-insight"
 ],
@@ -21516,6 +23872,11 @@
 3,
 "Clackbridge Troll",
 "clackbridge-troll"
+],
+[
+3,
+"Claim the Precious",
+"claim-the-precious"
 ],
 [
 3,
@@ -21774,6 +24135,16 @@
 ],
 [
 3,
+"Coercive Impetus",
+"coercive-impetus"
+],
+[
+3,
+"Coercive Portal",
+"coercive-portal"
+],
+[
+3,
 "Coercive Recruiter",
 "coercive-recruiter"
 ],
@@ -21899,6 +24270,11 @@
 ],
 [
 3,
+"Combat Research",
+"combat-research"
+],
+[
+3,
 "Combustible Gearhulk",
 "combustible-gearhulk"
 ],
@@ -21906,6 +24282,11 @@
 3,
 "Combustion Man",
 "combustion-man"
+],
+[
+3,
+"Come Back Wrong",
+"come-back-wrong"
 ],
 [
 3,
@@ -21981,6 +24362,11 @@
 3,
 "Command Tower",
 "command-tower"
+],
+[
+3,
+"Commence the Endgame",
+"commence-the-endgame"
 ],
 [
 3,
@@ -22264,6 +24650,11 @@
 ],
 [
 3,
+"Convergence of Dominion",
+"convergence-of-dominion"
+],
+[
+3,
 "Convert to Slime",
 "convert-to-slime"
 ],
@@ -22514,8 +24905,18 @@
 ],
 [
 3,
+"Court of Ire",
+"court-of-ire"
+],
+[
+3,
 "Court of Locthwain",
 "court-of-locthwain"
+],
+[
+3,
+"Court of Vantress",
+"court-of-vantress"
 ],
 [
 3,
@@ -22531,6 +24932,11 @@
 3,
 "Covert Technician",
 "covert-technician"
+],
+[
+3,
+"Coveted Falcon",
+"coveted-falcon"
 ],
 [
 3,
@@ -22631,6 +25037,11 @@
 3,
 "Creative Technique",
 "creative-technique"
+],
+[
+3,
+"Creeping Bloodsucker",
+"creeping-bloodsucker"
 ],
 [
 3,
@@ -23261,6 +25672,11 @@
 ],
 [
 3,
+"Dalakos, Crafter of Wonders",
+"dalakos-crafter-of-wonders"
+],
+[
+3,
 "Dalek Drone",
 "dalek-drone"
 ],
@@ -23283,6 +25699,11 @@
 3,
 "Damning Verdict",
 "damning-verdict"
+],
+[
+3,
+"Damocles Base, Sword of Kang",
+"damocles-base-sword-of-kang"
 ],
 [
 3,
@@ -23491,6 +25912,11 @@
 ],
 [
 3,
+"Darksteel Reactor",
+"darksteel-reactor"
+],
+[
+3,
 "Darksteel Splicer",
 "darksteel-splicer"
 ],
@@ -23683,6 +26109,11 @@
 3,
 "Death in Heaven",
 "death-in-heaven"
+],
+[
+3,
+"Death Kiss",
+"death-kiss"
 ],
 [
 3,
@@ -24471,6 +26902,11 @@
 ],
 [
 3,
+"Discontinuity",
+"discontinuity"
+],
+[
+3,
 "Discourtesy Clerk",
 "discourtesy-clerk"
 ],
@@ -24523,6 +26959,11 @@
 3,
 "Displacer Kitten",
 "displacer-kitten"
+],
+[
+3,
+"Display of Power",
+"display-of-power"
 ],
 [
 3,
@@ -24721,6 +27162,11 @@
 ],
 [
 3,
+"Donate",
+"donate"
+],
+[
+3,
 "Donatello, the Brains",
 "donatello-the-brains"
 ],
@@ -24863,6 +27309,11 @@
 3,
 "Double Take",
 "double-take"
+],
+[
+3,
+"Double Vision",
+"double-vision"
 ],
 [
 3,
@@ -25173,6 +27624,11 @@
 3,
 "Dreadmaw's Ire",
 "dreadmaws-ire"
+],
+[
+3,
+"Dread Presence",
+"dread-presence"
 ],
 [
 3,
@@ -26568,6 +29024,11 @@
 ],
 [
 3,
+"Erdwal Illuminator",
+"erdwal-illuminator"
+],
+[
+3,
 "Erebos, God of the Dead",
 "erebos-god-of-the-dead"
 ],
@@ -26600,6 +29061,11 @@
 3,
 "Errant and Giada",
 "errant-and-giada"
+],
+[
+3,
+"Errant, Street Artist",
+"errant-street-artist"
 ],
 [
 3,
@@ -26928,6 +29394,11 @@
 ],
 [
 3,
+"Excalibur, Sword of Eden",
+"excalibur-sword-of-eden"
+],
+[
+3,
 "Excavation Elephant",
 "excavation-elephant"
 ],
@@ -27103,6 +29574,11 @@
 ],
 [
 3,
+"Exterminator Magmarch",
+"exterminator-magmarch"
+],
+[
+3,
 "Extinction Event",
 "extinction-event"
 ],
@@ -27125,6 +29601,11 @@
 3,
 "Extraordinary Journey",
 "extraordinary-journey"
+],
+[
+3,
+"Extravagant Replication",
+"extravagant-replication"
 ],
 [
 3,
@@ -27380,6 +29861,11 @@
 ],
 [
 3,
+"Fall of Cair Andros",
+"fall-of-cair-andros"
+],
+[
+3,
 "Fall of the Hammer",
 "fall-of-the-hammer"
 ],
@@ -27580,6 +30066,11 @@
 ],
 [
 3,
+"Fateful Tempest",
+"fateful-tempest"
+],
+[
+3,
 "Fatehold Charm",
 "fatehold-charm"
 ],
@@ -27587,6 +30078,11 @@
 3,
 "Fateshaper Aspirant",
 "fateshaper-aspirant"
+],
+[
+3,
+"Fatestitcher",
+"fatestitcher"
 ],
 [
 3,
@@ -27712,6 +30208,11 @@
 3,
 "Feiyi Snake",
 "feiyi-snake"
+],
+[
+3,
+"Feldon of the Third Path",
+"feldon-of-the-third-path"
 ],
 [
 3,
@@ -28170,6 +30671,11 @@
 ],
 [
 3,
+"Five Hundred Year Diary",
+"five-hundred-year-diary"
+],
+[
+3,
 "Five Kids in a Trenchcoat",
 "five-kids-in-a-trenchcoat"
 ],
@@ -28197,6 +30703,11 @@
 3,
 "Flamerush Rider",
 "flamerush-rider"
+],
+[
+3,
+"Flameshadow Conjuring",
+"flameshadow-conjuring"
 ],
 [
 3,
@@ -28307,6 +30818,11 @@
 3,
 "Fleshwrither",
 "fleshwrither"
+],
+[
+3,
+"Flick a Coin",
+"flick-a-coin"
 ],
 [
 3,
@@ -28527,6 +31043,11 @@
 3,
 "Foray of Orcs",
 "foray-of-orcs"
+],
+[
+3,
+"Forbidden Alchemy",
+"forbidden-alchemy"
 ],
 [
 3,
@@ -28925,6 +31446,11 @@
 ],
 [
 3,
+"Frozen Aether",
+"frozen-aether"
+],
+[
+3,
 "Fruition",
 "fruition"
 ],
@@ -28947,6 +31473,11 @@
 3,
 "Fumigate",
 "fumigate"
+],
+[
+3,
+"Fumiko the Lowblood",
+"fumiko-the-lowblood"
 ],
 [
 3,
@@ -29064,6 +31595,11 @@
 3,
 "Gale, Waterdeep Prodigy",
 "gale-waterdeep-prodigy"
+],
+[
+3,
+"Gallifrey Council Chamber",
+"gallifrey-council-chamber"
 ],
 [
 3,
@@ -29452,6 +31988,11 @@
 ],
 [
 3,
+"Geode Rager",
+"geode-rager"
+],
+[
+3,
 "Geological Appraiser",
 "geological-appraiser"
 ],
@@ -29564,6 +32105,11 @@
 3,
 "Ghostly Flicker",
 "ghostly-flicker"
+],
+[
+3,
+"Ghostly Pilferer",
+"ghostly-pilferer"
 ],
 [
 3,
@@ -29779,6 +32325,11 @@
 3,
 "Gilded Lotus",
 "gilded-lotus"
+],
+[
+3,
+"Gilgamesh, Master-at-Arms",
+"gilgamesh-master-at-arms"
 ],
 [
 3,
@@ -30059,6 +32610,11 @@
 3,
 "Gloom Ripper",
 "gloom-ripper"
+],
+[
+3,
+"Glorious End",
+"glorious-end"
 ],
 [
 3,
@@ -30822,6 +33378,11 @@
 ],
 [
 3,
+"Great Goblin, Foul-Hearted",
+"great-goblin-foul-hearted"
+],
+[
+3,
 "Great Hall of Starnheim",
 "great-hall-of-starnheim"
 ],
@@ -30829,6 +33390,11 @@
 3,
 "Great Hall of the Citadel",
 "great-hall-of-the-citadel"
+],
+[
+3,
+"Great Intelligence's Plan",
+"great-intelligences-plan"
 ],
 [
 3,
@@ -31124,6 +33690,11 @@
 3,
 "Grub, Storied Matriarch // Grub, Notorious Auntie",
 "grub-storied-matriarch--grub-notorious-auntie"
+],
+[
+3,
+"Grudge Keeper",
+"grudge-keeper"
 ],
 [
 3,
@@ -31569,6 +34140,11 @@
 ],
 [
 3,
+"Harmless Offering",
+"harmless-offering"
+],
+[
+3,
 "Harmonic Prodigy",
 "harmonic-prodigy"
 ],
@@ -31626,6 +34202,16 @@
 3,
 "Hateflayer",
 "hateflayer"
+],
+[
+3,
+"Hateful Eidolon",
+"hateful-eidolon"
+],
+[
+3,
+"Hate Mirage",
+"hate-mirage"
 ],
 [
 3,
@@ -31956,6 +34542,11 @@
 3,
 "Hellspur Posse Boss",
 "hellspur-posse-boss"
+],
+[
+3,
+"Hell to Pay",
+"hell-to-pay"
 ],
 [
 3,
@@ -32709,6 +35300,11 @@
 ],
 [
 3,
+"Hunted by The Family",
+"hunted-by-the-family"
+],
+[
+3,
 "Hunted Dragon",
 "hunted-dragon"
 ],
@@ -32859,6 +35455,11 @@
 ],
 [
 3,
+"Hypnotic Specter",
+"hypnotic-specter"
+],
+[
+3,
 "Hypnotic Sprite // Mesmeric Glare",
 "hypnotic-sprite--mesmeric-glare"
 ],
@@ -32966,8 +35567,18 @@
 ],
 [
 3,
+"Ideas Unbound",
+"ideas-unbound"
+],
+[
+3,
 "Identity Echo",
 "identity-echo"
+],
+[
+3,
+"Identity Thief",
+"identity-thief"
 ],
 [
 3,
@@ -33041,6 +35652,16 @@
 ],
 [
 3,
+"Illusion of Choice",
+"illusion-of-choice"
+],
+[
+3,
+"Illusions of Grandeur",
+"illusions-of-grandeur"
+],
+[
+3,
 "Illustrious Wanderglyph",
 "illustrious-wanderglyph"
 ],
@@ -33088,6 +35709,11 @@
 3,
 "Imminent Doom",
 "imminent-doom"
+],
+[
+3,
+"Immortal Coil",
+"immortal-coil"
 ],
 [
 3,
@@ -33238,6 +35864,11 @@
 3,
 "Increasing Vengeance",
 "increasing-vengeance"
+],
+[
+3,
+"Incriminating Impetus",
+"incriminating-impetus"
 ],
 [
 3,
@@ -33446,6 +36077,11 @@
 ],
 [
 3,
+"Innocent Blood",
+"innocent-blood"
+],
+[
+3,
 "Inquisition of Kozilek",
 "inquisition-of-kozilek"
 ],
@@ -33508,6 +36144,11 @@
 3,
 "Inspiring Overseer",
 "inspiring-overseer"
+],
+[
+3,
+"Inspiring Refrain",
+"inspiring-refrain"
 ],
 [
 3,
@@ -34218,6 +36859,11 @@
 ],
 [
 3,
+"Jaya's Phoenix",
+"jayas-phoenix"
+],
+[
+3,
 "Jaya, Venerated Firemage",
 "jaya-venerated-firemage"
 ],
@@ -34355,6 +37001,11 @@
 3,
 "Jhoira, Ageless Innovator",
 "jhoira-ageless-innovator"
+],
+[
+3,
+"Jhoira of the Ghitu",
+"jhoira-of-the-ghitu"
 ],
 [
 3,
@@ -34655,6 +37306,11 @@
 ],
 [
 3,
+"Kain, Traitorous Dragoon",
+"kain-traitorous-dragoon"
+],
+[
+3,
 "Kairi, the Swirling Sky",
 "kairi-the-swirling-sky"
 ],
@@ -34872,6 +37528,11 @@
 3,
 "Karplusan Forest",
 "karplusan-forest"
+],
+[
+3,
+"Karumonix, the Rat King",
+"karumonix-the-rat-king"
 ],
 [
 3,
@@ -35227,6 +37888,11 @@
 3,
 "Khalni Heart Expedition",
 "khalni-heart-expedition"
+],
+[
+3,
+"Khârn the Betrayer",
+"khârn-the-betrayer"
 ],
 [
 3,
@@ -36187,6 +38853,11 @@
 ],
 [
 3,
+"Leadership Vacuum",
+"leadership-vacuum"
+],
+[
+3,
 "Leader, Super-Genius",
 "leader-super-genius"
 ],
@@ -36567,6 +39238,11 @@
 ],
 [
 3,
+"Likeness Looter",
+"likeness-looter"
+],
+[
+3,
 "Liliana, Death Mage",
 "liliana-death-mage"
 ],
@@ -36629,6 +39305,11 @@
 3,
 "Liliana's Other Contract // Liliana's Undead Minion",
 "lilianas-other-contract--lilianas-undead-minion"
+],
+[
+3,
+"Liliana's Talent",
+"lilianas-talent"
 ],
 [
 3,
@@ -37379,6 +40060,11 @@
 ],
 [
 3,
+"Maestros Confluence",
+"maestros-confluence"
+],
+[
+3,
 "Maestros' Totally Safe Hideout",
 "maestros-totally-safe-hideout"
 ],
@@ -37739,6 +40425,11 @@
 ],
 [
 3,
+"March from the Black Gate",
+"march-from-the-black-gate"
+],
+[
+3,
 "March of Otherworldly Light",
 "march-of-otherworldly-light"
 ],
@@ -37936,6 +40627,11 @@
 3,
 "Massacre Girl, Known Killer",
 "massacre-girl-known-killer"
+],
+[
+3,
+"Massacre Wurm",
+"massacre-wurm"
 ],
 [
 3,
@@ -38354,6 +41050,11 @@
 ],
 [
 3,
+"Messenger Jays",
+"messenger-jays"
+],
+[
+3,
 "Metagamer",
 "metagamer"
 ],
@@ -38474,6 +41175,11 @@
 ],
 [
 3,
+"Midnight Crusader Shuttle",
+"midnight-crusader-shuttle"
+],
+[
+3,
 "Midnight Mangler",
 "midnight-mangler"
 ],
@@ -38576,6 +41282,11 @@
 3,
 "Minamo, School at Water's Edge",
 "minamo-school-at-waters-edge"
+],
+[
+3,
+"Minas Morgul, Dark Fortress",
+"minas-morgul-dark-fortress"
 ],
 [
 3,
@@ -38994,6 +41705,11 @@
 ],
 [
 3,
+"Mjölnir, Hammer of Thor",
+"mjölnir-hammer-of-thor"
+],
+[
+3,
 "Mm'menon, Uthros Exile",
 "mmmenon-uthros-exile"
 ],
@@ -39026,6 +41742,11 @@
 3,
 "Mob Rule",
 "mob-rule"
+],
+[
+3,
+"Mob Verdict",
+"mob-verdict"
 ],
 [
 3,
@@ -39309,6 +42030,11 @@
 ],
 [
 3,
+"Moria Scavenger",
+"moria-scavenger"
+],
+[
+3,
 "Moritte of the Frost",
 "moritte-of-the-frost"
 ],
@@ -39501,6 +42227,11 @@
 3,
 "Muddle the Mixture",
 "muddle-the-mixture"
+],
+[
+3,
+"Mudflat Village",
+"mudflat-village"
 ],
 [
 3,
@@ -40111,6 +42842,11 @@
 ],
 [
 3,
+"Necrodominance",
+"necrodominance"
+],
+[
+3,
 "Necrogen Rotpriest",
 "necrogen-rotpriest"
 ],
@@ -40143,6 +42879,11 @@
 3,
 "Necroskitter",
 "necroskitter"
+],
+[
+3,
+"Necrotic Hex",
+"necrotic-hex"
 ],
 [
 3,
@@ -40601,6 +43342,11 @@
 ],
 [
 3,
+"No Mercy",
+"no-mercy"
+],
+[
+3,
 "Noose Constrictor",
 "noose-constrictor"
 ],
@@ -40875,6 +43621,11 @@
 3,
 "Oathsworn Vampire",
 "oathsworn-vampire"
+],
+[
+3,
+"Obeka, Brute Chronologist",
+"obeka-brute-chronologist"
 ],
 [
 3,
@@ -41460,6 +44211,11 @@
 3,
 "Orcish Medicine",
 "orcish-medicine"
+],
+[
+3,
+"Orcish Siegemaster",
+"orcish-siegemaster"
 ],
 [
 3,
@@ -42080,6 +44836,11 @@
 ],
 [
 3,
+"Parnesse, the Subtle Brush",
+"parnesse-the-subtle-brush"
+],
+[
+3,
 "Parting Gust",
 "parting-gust"
 ],
@@ -42147,6 +44908,21 @@
 3,
 "Path of Discovery",
 "path-of-discovery"
+],
+[
+3,
+"Path of the Enigma",
+"path-of-the-enigma"
+],
+[
+3,
+"Path of the Pyromancer",
+"path-of-the-pyromancer"
+],
+[
+3,
+"Path of the Schemer",
+"path-of-the-schemer"
 ],
 [
 3,
@@ -42247,6 +45023,11 @@
 3,
 "Pearl Medallion",
 "pearl-medallion"
+],
+[
+3,
+"Peek",
+"peek"
 ],
 [
 3,
@@ -42427,6 +45208,11 @@
 3,
 "Persistent Constrictor",
 "persistent-constrictor"
+],
+[
+3,
+"Persistent Marshstalker",
+"persistent-marshstalker"
 ],
 [
 3,
@@ -42730,6 +45516,11 @@
 ],
 [
 3,
+"Pilfered Plans",
+"pilfered-plans"
+],
+[
+3,
 "Pilgrim of the Ages",
 "pilgrim-of-the-ages"
 ],
@@ -42815,6 +45606,11 @@
 ],
 [
 3,
+"Plague Reaver",
+"plague-reaver"
+],
+[
+3,
 "Plains",
 "plains"
 ],
@@ -42842,6 +45638,11 @@
 3,
 "Planar Genesis",
 "planar-genesis"
+],
+[
+3,
+"Planar Incision",
+"planar-incision"
 ],
 [
 3,
@@ -42920,8 +45721,18 @@
 ],
 [
 3,
+"Plea for Power",
+"plea-for-power"
+],
+[
+3,
 "Pledge of Unity",
 "pledge-of-unity"
+],
+[
+3,
+"Plumb the Forbidden",
+"plumb-the-forbidden"
 ],
 [
 3,
@@ -43585,6 +46396,16 @@
 ],
 [
 3,
+"Psychic Impetus",
+"psychic-impetus"
+],
+[
+3,
+"Psychic Vortex",
+"psychic-vortex"
+],
+[
+3,
 "Psychosis Crawler",
 "psychosis-crawler"
 ],
@@ -43640,8 +46461,18 @@
 ],
 [
 3,
+"Puppeteer",
+"puppeteer"
+],
+[
+3,
 "Puppeteer Clique",
 "puppeteer-clique"
+],
+[
+3,
+"Puppet Master, String Puller",
+"puppet-master-string-puller"
 ],
 [
 3,
@@ -43657,6 +46488,11 @@
 3,
 "Purging Stormbrood // Absorb Essence",
 "purging-stormbrood--absorb-essence"
+],
+[
+3,
+"Purphoros, Bronze-Blooded",
+"purphoros-bronze-blooded"
 ],
 [
 3,
@@ -43732,6 +46568,11 @@
 3,
 "Pyrokinesis",
 "pyrokinesis"
+],
+[
+3,
+"Pyromancer's Goggles",
+"pyromancers-goggles"
 ],
 [
 3,
@@ -43874,6 +46715,11 @@
 3,
 "Quicksilver, Brash Blur",
 "quicksilver-brash-blur"
+],
+[
+3,
+"Quicksilver Dagger",
+"quicksilver-dagger"
 ],
 [
 3,
@@ -44089,6 +46935,11 @@
 ],
 [
 3,
+"Raiders' Wake",
+"raiders-wake"
+],
+[
+3,
 "Railway Brawler",
 "railway-brawler"
 ],
@@ -44171,6 +47022,11 @@
 3,
 "Rakdos Signet",
 "rakdos-signet"
+],
+[
+3,
+"Rakdos's Return",
+"rakdoss-return"
 ],
 [
 3,
@@ -44419,6 +47275,21 @@
 ],
 [
 3,
+"Rathi Trapper",
+"rathi-trapper"
+],
+[
+3,
+"Rat King, Pale Piper",
+"rat-king-pale-piper"
+],
+[
+3,
+"Rat King, Verminister",
+"rat-king-verminister"
+],
+[
+3,
 "Ratonhnhaké꞉ton",
 "ratonhnhakéton"
 ],
@@ -44431,6 +47302,11 @@
 3,
 "Rattleclaw Mystic",
 "rattleclaw-mystic"
+],
+[
+3,
+"Raucous Theater",
+"raucous-theater"
 ],
 [
 3,
@@ -44754,8 +47630,18 @@
 ],
 [
 3,
+"Redcap Gutter-Dweller",
+"redcap-gutter-dweller"
+],
+[
+3,
 "Red Cliffs Armada",
 "red-cliffs-armada"
+],
+[
+3,
+"Red Death, Shipwrecker",
+"red-death-shipwrecker"
 ],
 [
 3,
@@ -45494,6 +48380,26 @@
 ],
 [
 3,
+"Ring of Evos Isle",
+"ring-of-evos-isle"
+],
+[
+3,
+"Ring of Valkas",
+"ring-of-valkas"
+],
+[
+3,
+"Ring of Xathrid",
+"ring-of-xathrid"
+],
+[
+3,
+"Ringsight",
+"ringsight"
+],
+[
+3,
 "Rings of Brighthearth",
 "rings-of-brighthearth"
 ],
@@ -45694,6 +48600,11 @@
 ],
 [
 3,
+"River's Rebuke",
+"rivers-rebuke"
+],
+[
+3,
 "Riveteers Ascendancy",
 "riveteers-ascendancy"
 ],
@@ -45844,6 +48755,11 @@
 ],
 [
 3,
+"Role Reversal",
+"role-reversal"
+],
+[
+3,
 "Roller Coaster",
 "roller-coaster"
 ],
@@ -45979,6 +48895,11 @@
 ],
 [
 3,
+"Rousing Refrain",
+"rousing-refrain"
+],
+[
+3,
 "Rowan, Fearless Sparkmage",
 "rowan-fearless-sparkmage"
 ],
@@ -46001,6 +48922,11 @@
 3,
 "Rowan's Grim Search",
 "rowans-grim-search"
+],
+[
+3,
+"Rowan's Talent",
+"rowans-talent"
 ],
 [
 3,
@@ -46533,6 +49459,11 @@
 ],
 [
 3,
+"Sangromancer",
+"sangromancer"
+],
+[
+3,
 "Sanguine Bond",
 "sanguine-bond"
 ],
@@ -46650,6 +49581,11 @@
 3,
 "Saruman of Many Colors",
 "saruman-of-many-colors"
+],
+[
+3,
+"Saruman's Trickery",
+"sarumans-trickery"
 ],
 [
 3,
@@ -47753,6 +50689,11 @@
 ],
 [
 3,
+"Shadow of the Goblin",
+"shadow-of-the-goblin"
+],
+[
+3,
 "Shadow of the Grave",
 "shadow-of-the-grave"
 ],
@@ -47923,6 +50864,11 @@
 ],
 [
 3,
+"Shatterskull Smashing // Shatterskull, the Hammer Pass",
+"shatterskull-smashing--shatterskull-the-hammer-pass"
+],
+[
+3,
 "Shatterstorm",
 "shatterstorm"
 ],
@@ -48020,6 +50966,11 @@
 3,
 "Shield-Wall Sentinel",
 "shield-wall-sentinel"
+],
+[
+3,
+"Shifting Grift",
+"shifting-grift"
 ],
 [
 3,
@@ -48333,8 +51284,18 @@
 ],
 [
 3,
+"Silas Renn, Seeker Adept",
+"silas-renn-seeker-adept"
+],
+[
+3,
 "Silence",
 "silence"
+],
+[
+3,
+"Silent Arbiter",
+"silent-arbiter"
 ],
 [
 3,
@@ -48863,6 +51824,11 @@
 ],
 [
 3,
+"Sly Instigator",
+"sly-instigator"
+],
+[
+3,
 "Smallpox",
 "smallpox"
 ],
@@ -49100,6 +52066,16 @@
 3,
 "Solitude",
 "solitude"
+],
+[
+3,
+"Sol'kanar the Swamp King",
+"solkanar-the-swamp-king"
+],
+[
+3,
+"Sol'Kanar the Tainted",
+"solkanar-the-tainted"
 ],
 [
 3,
@@ -49790,6 +52766,11 @@
 3,
 "Splinter Twin",
 "splinter-twin"
+],
+[
+3,
+"Split Decision",
+"split-decision"
 ],
 [
 3,
@@ -50793,6 +53774,11 @@
 ],
 [
 3,
+"Sudden Substitution",
+"sudden-substitution"
+],
+[
+3,
 "Suki, Courageous Rescuer",
 "suki-courageous-rescuer"
 ],
@@ -50905,6 +53891,11 @@
 3,
 "Summon: Shiva",
 "summon-shiva"
+],
+[
+3,
+"Summons of Saruman",
+"summons-of-saruman"
 ],
 [
 3,
@@ -51038,6 +54029,11 @@
 ],
 [
 3,
+"Sunken Palace",
+"sunken-palace"
+],
+[
+3,
 "Sunpetal Grove",
 "sunpetal-grove"
 ],
@@ -51100,6 +54096,11 @@
 3,
 "Sun Warriors",
 "sun-warriors"
+],
+[
+3,
+"Super Intelligence",
+"super-intelligence"
 ],
 [
 3,
@@ -51253,8 +54254,18 @@
 ],
 [
 3,
+"Swarming of Moria",
+"swarming-of-moria"
+],
+[
+3,
 "Swarm of Locus",
 "swarm-of-locus"
+],
+[
+3,
+"Swarmyard",
+"swarmyard"
 ],
 [
 3,
@@ -51350,6 +54361,11 @@
 3,
 "Sword of the Meek",
 "sword-of-the-meek"
+],
+[
+3,
+"Swordsman's Steel",
+"swordsmans-steel"
 ],
 [
 3,
@@ -51585,6 +54601,11 @@
 ],
 [
 3,
+"Talent of the Telepath",
+"talent-of-the-telepath"
+],
+[
+3,
 "Tale of Katara and Toph",
 "tale-of-katara-and-toph"
 ],
@@ -51737,6 +54758,11 @@
 3,
 "Tangled Florahedron // Tangled Vale",
 "tangled-florahedron--tangled-vale"
+],
+[
+3,
+"Tangletrove Kelp",
+"tangletrove-kelp"
 ],
 [
 3,
@@ -51970,6 +54996,11 @@
 ],
 [
 3,
+"Teferi's Veil",
+"teferis-veil"
+],
+[
+3,
 "Teferi, Temporal Archmage",
 "teferi-temporal-archmage"
 ],
@@ -52200,6 +55231,11 @@
 ],
 [
 3,
+"Tempt with Mayhem",
+"tempt-with-mayhem"
+],
+[
+3,
 "Tempt with Vengeance",
 "tempt-with-vengeance"
 ],
@@ -52367,6 +55403,16 @@
 3,
 "Tetsuko Umezawa, Fugitive",
 "tetsuko-umezawa-fugitive"
+],
+[
+3,
+"Tetsuo, Imperial Champion",
+"tetsuo-imperial-champion"
+],
+[
+3,
+"Tetsuo Umezawa",
+"tetsuo-umezawa"
 ],
 [
 3,
@@ -52552,6 +55598,11 @@
 3,
 "Theater of Horrors",
 "theater-of-horrors"
+],
+[
+3,
+"The Balrog of Moria",
+"the-balrog-of-moria"
 ],
 [
 3,
@@ -52995,6 +56046,11 @@
 ],
 [
 3,
+"The Master, Mesmerist",
+"the-master-mesmerist"
+],
+[
+3,
 "The Master, Multiplied",
 "the-master-multiplied"
 ],
@@ -53057,6 +56113,11 @@
 3,
 "The Most Dangerous Gamer",
 "the-most-dangerous-gamer"
+],
+[
+3,
+"The Mouth of Sauron",
+"the-mouth-of-sauron"
 ],
 [
 3,
@@ -53230,6 +56291,11 @@
 ],
 [
 3,
+"The Sound of Drums",
+"the-sound-of-drums"
+],
+[
+3,
 "The Space Family Goblinson",
 "the-space-family-goblinson"
 ],
@@ -53292,6 +56358,11 @@
 3,
 "The Thirteenth Doctor",
 "the-thirteenth-doctor"
+],
+[
+3,
+"The Trickster-God's Heist",
+"the-trickster-gods-heist"
 ],
 [
 3,
@@ -53622,6 +56693,11 @@
 3,
 "Thrasios, Triton Hero",
 "thrasios-triton-hero"
+],
+[
+3,
+"Thraximundar",
+"thraximundar"
 ],
 [
 3,
@@ -54305,6 +57381,11 @@
 ],
 [
 3,
+"Too Greedily, Too Deep",
+"too-greedily-too-deep"
+],
+[
+3,
 "Tooth and Claw",
 "tooth-and-claw"
 ],
@@ -54462,6 +57543,11 @@
 3,
 "Toski, Bearer of Secrets",
 "toski-bearer-of-secrets"
+],
+[
+3,
+"Totentanz, Swarm Piper",
+"totentanz-swarm-piper"
 ],
 [
 3,
@@ -54655,6 +57741,11 @@
 ],
 [
 3,
+"Trap the Trespassers",
+"trap-the-trespassers"
+],
+[
+3,
 "Trash Bin",
 "trash-bin"
 ],
@@ -54687,6 +57778,11 @@
 3,
 "Traxos, Scourge of Kroog",
 "traxos-scourge-of-kroog"
+],
+[
+3,
+"Treason of Isengard",
+"treason-of-isengard"
 ],
 [
 3,
@@ -54950,6 +58046,11 @@
 ],
 [
 3,
+"Truth or Consequences",
+"truth-or-consequences"
+],
+[
+3,
 "Truth or Dare",
 "truth-or-dare"
 ],
@@ -55182,6 +58283,11 @@
 3,
 "Tyrant of Valakut",
 "tyrant-of-valakut"
+],
+[
+3,
+"Tyrant's Choice",
+"tyrants-choice"
 ],
 [
 3,
@@ -56094,6 +59200,11 @@
 ],
 [
 3,
+"Valley Rotcaller",
+"valley-rotcaller"
+],
+[
+3,
 "Valorous Stance",
 "valorous-stance"
 ],
@@ -56314,6 +59425,11 @@
 ],
 [
 3,
+"Vengeful Ancestor",
+"vengeful-ancestor"
+],
+[
+3,
 "Vengeful Bloodwitch",
 "vengeful-bloodwitch"
 ],
@@ -56411,6 +59527,11 @@
 3,
 "Verduran Enchantress",
 "verduran-enchantress"
+],
+[
+3,
+"Verity Circle",
+"verity-circle"
 ],
 [
 3,
@@ -56594,6 +59715,11 @@
 ],
 [
 3,
+"Viridian Longbow",
+"viridian-longbow"
+],
+[
+3,
 "Viridian Revel",
 "viridian-revel"
 ],
@@ -56676,6 +59802,11 @@
 3,
 "Visions of Brutality",
 "visions-of-brutality"
+],
+[
+3,
+"Visions of Duplicity",
+"visions-of-duplicity"
 ],
 [
 3,
@@ -56834,6 +59965,11 @@
 ],
 [
 3,
+"Volcanic Salvo",
+"volcanic-salvo"
+],
+[
+3,
 "Volcanic Torrent",
 "volcanic-torrent"
 ],
@@ -56901,6 +60037,16 @@
 3,
 "Volunteer Militia",
 "volunteer-militia"
+],
+[
+3,
+"Vona's Hunger",
+"vonas-hunger"
+],
+[
+3,
+"Voracious Fell Beast",
+"voracious-fell-beast"
 ],
 [
 3,
@@ -57996,6 +61142,11 @@
 ],
 [
 3,
+"Winged Boots",
+"winged-boots"
+],
+[
+3,
 "Winged Portent",
 "winged-portent"
 ],
@@ -58061,6 +61212,11 @@
 ],
 [
 3,
+"Winter, Tormented Loner",
+"winter-tormented-loner"
+],
+[
+3,
 "Wirewood Channeler",
 "wirewood-channeler"
 ],
@@ -58113,6 +61269,11 @@
 3,
 "Witch-king of Angmar",
 "witch-king-of-angmar"
+],
+[
+3,
+"Witch of the Moors",
+"witch-of-the-moors"
 ],
 [
 3,
@@ -58386,6 +61547,11 @@
 ],
 [
 3,
+"Worst Fears",
+"worst-fears"
+],
+[
+3,
 "Wort, the Raidmother",
 "wort-the-raidmother"
 ],
@@ -58483,6 +61649,11 @@
 3,
 "Wrinkly Monkey Shenanigans",
 "wrinkly-monkey-shenanigans"
+],
+[
+3,
+"Wrong Turn",
+"wrong-turn"
 ],
 [
 3,
@@ -59079,6 +62250,11 @@
 3,
 "Zetalpa, Primal Dawn",
 "zetalpa-primal-dawn"
+],
+[
+3,
+"Zevlor, Elturel Exile",
+"zevlor-elturel-exile"
 ],
 [
 3,

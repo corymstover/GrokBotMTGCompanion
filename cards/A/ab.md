@@ -918,7 +918,7 @@ schema: 2
   > *The desert is a voracious beast, devouring both flesh and stone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #145 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/A.md#abrade)
+- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 card data) → [reverse index](../../references/A.md#abrade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/234/abrade) · oracle_id `f9db72dc-9a5b-48a4-a86e-7464d9a2166a` · printing: SOC #234 (2026-04-24) · [rulings](https://api.scryfall.com/cards/1add1757-c1f8-448a-b279-c6940fb7ad5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Abraded Bluffs

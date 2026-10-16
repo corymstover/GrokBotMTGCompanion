@@ -546,7 +546,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — The decision to counter a spell or destroy a permanent is a decision made on announcement before the target is selected. If the spell is redirected, this mode can't be changed, so only targets of the selected type are valid.
   - *2016-06-08* — Pyroblast can target any spell or permanent, not just a blue one. It checks the color of the target only on resolution.
-- **Referenced in:** 14 pages (9 decks · 4 edh guides · 1 card data) → [reverse index](../../references/P.md#pyroblast)
+- **Referenced in:** 16 pages (11 decks · 4 edh guides · 1 card data) → [reverse index](../../references/P.md#pyroblast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/142/pyroblast) · oracle_id `ecc435e2-deb1-420a-a79f-01dd08747314` · printing: EMA #142 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyroceratops
@@ -759,7 +759,8 @@ schema: 2
   - *2024-11-08* — The mana produced by Pyromancer's Goggles can be spent on anything, not just a red instant or sorcery spell.
   - *2024-11-08* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
 - **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09), [Return to Dominaria: Episode 8](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-8-2018-05-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 8 combos; most popular [Pyromancer's Goggles + Reverberate](https://commanderspellbook.com/combo/5026-6790/) (Infinite magecraft triggers) · EDHREC: in 58,648 decks; most often under [Imodane, the Pyrohammer](../../cards/I/im.md#imodane-the-pyrohammer) (51.7% of its decks), [Firesong and Sunspeaker](../../cards/F/fi.md#firesong-and-sunspeaker) (52.4% of its decks), [Chandra, Fire of Kaladesh](../../cards/C/cha.md#chandra-fire-of-kaladesh--chandra-roaring-flame) (61.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Synergy:** *Proven* — KB decks (1): [Parnesse, the Subtle Brush (Grixis)](../../grixis/decks/parnesse-the-subtle-brush.md) · Commander Spellbook: 8 combos; most popular [Pyromancer's Goggles + Reverberate](https://commanderspellbook.com/combo/5026-6790/) (Infinite magecraft triggers) · EDHREC: in 58,648 decks; most often under [Imodane, the Pyrohammer](../../cards/I/im.md#imodane-the-pyrohammer) (51.7% of its decks), [Firesong and Sunspeaker](../../cards/F/fi.md#firesong-and-sunspeaker) (52.4% of its decks), [Chandra, Fire of Kaladesh](../../cards/C/cha.md#chandra-fire-of-kaladesh--chandra-roaring-flame) (61.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#pyromancers-goggles)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/677/pyromancers-goggles) · oracle_id `f76bcbfe-483f-4e63-8425-76feca1abf3e` · printing: FDN #677 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyromancer's Swath

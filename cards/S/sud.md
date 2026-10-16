@@ -312,4 +312,5 @@ schema: 2
   - *2021-03-19* — Players may turn face-down creatures face up while a spell with split second is on the stack.
   - *2021-03-19* — Players still get priority while a card with split second is on the stack; their options are just limited to mana abilities and certain special actions.
   - *2021-03-19* — Split second doesn't stop triggered abilities from triggering, such as that of Chalice of the Void. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sudden-substitution)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/11/sudden-substitution) · oracle_id `e5ddacfb-e5a8-4885-a4c9-fa117f321293` · printing: C19 #11 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

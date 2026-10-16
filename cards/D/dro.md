@@ -740,7 +740,7 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — As this is entering, it checks for lands that are already on the battlefield. It won't see lands that are entering at the same time (due to Warp World, for example).
   - *2009-10-01* — This checks for lands you control with the land type Island or Swamp, not for lands named Island or Swamp. The lands it checks for don't have to be basic lands. For example, if you control Blood Crypt (a nonbasic land with the land types Swamp and Mountain), Drowned Catacomb will enter untapped.
-- **Referenced in:** 17 pages (13 decks · 3 edh guides · 1 card data) → [reverse index](../../references/D.md#drowned-catacomb)
+- **Referenced in:** 18 pages (14 decks · 3 edh guides · 1 card data) → [reverse index](../../references/D.md#drowned-catacomb)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/69/drowned-catacomb) · oracle_id `819fc966-434e-470f-91e9-a38df974ad17` · printing: FRC #69 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drowned Rusalka

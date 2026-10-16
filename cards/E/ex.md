@@ -300,6 +300,7 @@ schema: 2
   - *2024-07-05* — Once you announce you’re casting a spell, no player may take actions until the spell has been paid for. Notably, opponents can’t try to remove historic permanents you control from the battlefield at that time.
   - *2024-07-05* — Once you determine the cost to cast Excalibur, you may activate mana abilities to pay that cost. If the total mana value of historic permanents you control changes while activating mana abilities (probably because you sacrificed one or more historic permanents), the cost to cast Excalibur remains what you previously determined.
   - *2024-07-05* — Some abilities trigger “whenever you cast a historic spell.” Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/E.md#excalibur-sword-of-eden)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/72/excalibur-sword-of-eden) · oracle_id `9fb6bd72-031b-40a1-83c5-8a1c82f84e12` · printing: ACR #72 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Excavated Wall
@@ -1035,7 +1036,7 @@ schema: 2
   - *2009-02-01* — Lands that produce mana based only on what other lands "could produce" won't help each other unless some other land allows one of them to actually produce some type of mana. For example, if you control an Exotic Orchard and your opponent controls an Exotic Orchard and a Reflecting Pool, none of those lands would produce mana if their mana abilities were activated. On the other hand, if you control a Forest and an Exotic Orchard, and your opponent controls an Exotic Orchard and a Reflecting Pool, then each of those lands can be tapped to produce {G}. Your opponent's Exotic Orchard can produce {G} because you control a Forest. Your Exotic Orchard and your opponent's Reflecting Pool can each produce {G} because your opponent's Exotic Orchard can produce {G}.
   - *2009-02-01* — The colors of mana are white, blue, black, red, and green. Exotic Orchard can't be tapped for colorless mana, even if a land an opponent controls could produce colorless mana.
   - *2009-02-01* — When determining what colors of mana your opponents' lands could produce, Exotic Orchard takes into account any applicable replacement effects that would apply to those lands' mana abilities (such as Contamination's effect, for example). If there are more than one, consider them in any possible order.
-- **Referenced in:** 59 pages (53 decks · 3 edh guides · 1 rules · 2 card data) → [reverse index](../../references/E.md#exotic-orchard)
+- **Referenced in:** 72 pages (66 decks · 3 edh guides · 1 rules · 2 card data) → [reverse index](../../references/E.md#exotic-orchard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/79/exotic-orchard) · oracle_id `27b047e3-0d41-45e2-98e9-9391d7923a1e` · printing: MBC #79 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Exotic Pets
@@ -2124,7 +2125,7 @@ schema: 2
   - *2024-09-20* — Each player must vote for one of the available options. They can't abstain.
   - *2024-09-20* — No player votes until Expropriate resolves. Any responses to the spell must be made without knowing the outcome of the vote.
   - *2024-09-20* — Votes are cast in turn order, and each player will know the votes of players who voted beforehand.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#expropriate)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/E.md#expropriate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/30/expropriate) · oracle_id `a69265b2-0e37-4d86-866e-e4a923233b4d` · printing: CN2 #30 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Expunge
@@ -2175,7 +2176,7 @@ schema: 2
 - **Rulings** (2):
   - *2012-05-01* — Damage dealt to an opponent usually causes that opponent to lose life. An opponent paying life also causes loss of life.
   - *2012-05-01* — If you and an opponent both lose life simultaneously, and this causes your life total to become 0 or less, you'll lose the game before Exquisite Blood's triggered ability can resolve.
-- **Referenced in:** 8 pages (4 decks · 3 edh guides · 1 card data) → [reverse index](../../references/E.md#exquisite-blood)
+- **Referenced in:** 9 pages (5 decks · 3 edh guides · 1 card data) → [reverse index](../../references/E.md#exquisite-blood)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/195/exquisite-blood) · oracle_id `8f933fae-6c0c-42d7-a817-14760d8285cd` · printing: LCC #195 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Exquisite Firecraft
@@ -2228,7 +2229,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #273 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-01-01* — Players can lose more life than they have. For example, say you're playing a multiplayer game in which one of your opponents has 3 life and your other opponent has 10 life. If you cast Exsanguinate with X of 4, your opponents will wind up at -1 life and 6 life, respectively. You'll gain 8 life.
-- **Referenced in:** 5 pages (1 decks · 3 edh guides · 1 card data) → [reverse index](../../references/E.md#exsanguinate)
+- **Referenced in:** 6 pages (2 decks · 3 edh guides · 1 card data) → [reverse index](../../references/E.md#exsanguinate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/173/exsanguinate) · oracle_id `8164b1e8-3350-465e-8a17-75f57d326344` · printing: FDN #173 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Exsanguinator Cavalry
@@ -2293,6 +2294,7 @@ schema: 2
   - *2024-06-07* — The controller of a copy can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too. For example, if the spell you copy was kicked, the copies will also be kicked.
   - *2024-06-07* — The copy is created even if the spell that caused the ability to trigger has been countered by the time the ability resolves. The copy resolves before the original spell.
   - *2024-06-07* — The copy that Exterminator Magmarch's ability creates is created on the stack, so it's not "cast." Other abilities that trigger when a player casts a spell won't trigger.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/E.md#exterminator-magmarch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m3c/72/exterminator-magmarch) · oracle_id `f42c0b5b-7a86-4f79-a5d3-859ec25ed870` · printing: M3C #72 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Exterminatus
@@ -2604,6 +2606,7 @@ schema: 2
   > *"Just one aether tiger? What do I look like, a peasant?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1793 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/E.md#extravagant-replication)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/154/extravagant-replication) · oracle_id `3a646245-b8b7-4f91-a312-d5eea9a9e49a` · printing: FDN #154 (2024-11-15) · [rulings](https://api.scryfall.com/cards/6a41dfae-bc7e-4105-8f7e-fd0109197ad8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Extravagant Spirit

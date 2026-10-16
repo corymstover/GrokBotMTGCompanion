@@ -251,6 +251,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4048 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-06-08* — You can cast Innocent Blood even if some (or all) players control no creatures. Those players are simply unaffected.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#innocent-blood)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/244/innocent-blood) · oracle_id `6791ec3c-c397-4087-8c8c-84d3797df415` · printing: JMP #244 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Innocent Bystander

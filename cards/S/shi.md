@@ -667,6 +667,7 @@ schema: 2
   - *2024-04-12* — You choose the modes as you cast the spell with spree. Once modes are chosen, they can’t be changed.
   - *2024-04-12* — You don’t have to control any of the target permanents.
   - *2024-04-12* — You must choose at least one of the listed modes and pay its associated additional cost in order to cast a spell with spree.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#shifting-grift)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/66/shifting-grift) · oracle_id `763d60ea-a0ad-4f13-b8a7-aa1515283266` · printing: OTJ #66 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shifting Loyalties
@@ -1383,7 +1384,7 @@ schema: 2
   - *2023-06-30* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
   - *2023-06-30* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent controls, or a player who goaded it.
   - *2023-06-30* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
-- **Referenced in:** 3 pages (1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/S.md#shiny-impetus)
+- **Referenced in:** 5 pages (2 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/S.md#shiny-impetus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/231/shiny-impetus) · oracle_id `aae76e5c-f5e0-4d18-b465-e6a829be908a` · printing: TDC #231 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shipbreaker Kraken
@@ -1449,7 +1450,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #227 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-09-24* — If this land enters the battlefield at the same time as any number of other lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
-- **Referenced in:** 16 pages (12 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#shipwreck-marsh)
+- **Referenced in:** 20 pages (16 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#shipwreck-marsh)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/189/shipwreck-marsh) · oracle_id `5f42b67f-87fd-4f98-a0e8-0c8313f4bbc8` · printing: FRA #189 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shipwreck Moray
@@ -1830,8 +1831,8 @@ schema: 2
   - *2015-06-22* — Like most lands, each land in this cycle is colorless. The damage dealt to you is dealt by a colorless source.
   - *2015-06-22* — The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.
 - **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (14): [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · [Niv-Mizzet, Parun](../../decks/niv-mizzet-parun.md) · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) · [Anhelo, the Painter (Grixis)](../../grixis/decks/anhelo-the-painter.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 734,021 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (62.6% of its decks), [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (70.4% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (40.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 18 pages (14 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#shivan-reef)
+- **Synergy:** *Proven* — KB decks (17): [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · [Niv-Mizzet, Parun](../../decks/niv-mizzet-parun.md) · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) · [Anhelo, the Painter (Grixis)](../../grixis/decks/anhelo-the-painter.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 734,021 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (62.6% of its decks), [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (70.4% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (40.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 21 pages (17 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#shivan-reef)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/83/shivan-reef) · oracle_id `0fe16212-66c3-4e45-a641-7391e9b2e304` · printing: FRC #83 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shivan Sand-Mage
@@ -1936,7 +1937,7 @@ schema: 2
   > *Centuries ago, Shizo was a verdant field of wildflowers. After 891 samurai died in a single battle on its grasses, it became a haunted moor.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #623 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 7 pages (5 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#shizo-deaths-storehouse)
+- **Referenced in:** 10 pages (8 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#shizo-deaths-storehouse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/233/shizo-deaths-storehouse) · oracle_id `008f2698-1721-45a3-8353-10f2f400dc8f` · printing: DMC #233 (2022-09-09) · [rulings](https://api.scryfall.com/cards/099352e2-38c8-4fb4-a25f-6d928aa20f9e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shizuko, Caller of Autumn

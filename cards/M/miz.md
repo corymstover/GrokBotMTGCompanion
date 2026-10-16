@@ -187,5 +187,5 @@ schema: 2
   - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
   - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
   - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mizzixs-mastery)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/M.md#mizzixs-mastery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/175/mizzixs-mastery) · oracle_id `40362fe0-a1a9-4d76-8c35-eac474b91af5` · printing: OTC #175 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

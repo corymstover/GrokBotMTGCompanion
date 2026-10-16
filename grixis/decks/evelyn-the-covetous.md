@@ -16,7 +16,7 @@ schema: 2
 
 # Grixis Deck — Evelyn, the Covetous
 
-> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Evelyn_the_Covetous_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Evelyn_the_Covetous_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Evelyn_the_Covetous_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Evelyn_the_Covetous_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `1836b97`). Imported in Bot cycle 16; re-validated in Bot cycle 37 against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
 ## Contents
 - [Commander](#commander)
@@ -317,7 +317,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 ### From `refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md`
 
-Source: [refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md)
+Source: [refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md)
 
 **Evelyn, the Covetous — Current-Cycle Whole-List Audit and Candidate Decision Record**
 
@@ -628,7 +628,7 @@ This record does **not** approve or lock Evelyn. The candidate must still pass t
 
 ### From `refinement/approvals/Evelyn_the_Covetous_Approved_2026-10-14.md`
 
-Source: [refinement/approvals/Evelyn_the_Covetous_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Evelyn_the_Covetous_Approved_2026-10-14.md)
+Source: [refinement/approvals/Evelyn_the_Covetous_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/approvals/Evelyn_the_Covetous_Approved_2026-10-14.md)
 
 **Evelyn, the Covetous — Current-Cycle Approval Record**
 

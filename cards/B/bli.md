@@ -574,7 +574,7 @@ schema: 2
   - *2021-02-05* — The mana value of a modal double-faced card is based on the characteristics of the face that’s being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
   - *2021-02-05* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
   - *2021-02-05* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you’re playing and ignore the other face’s characteristics.
-- **Referenced in:** 5 pages (4 decks · 1 edh guides) → [reverse index](../../references/B.md#blightstep-pathway--searstep-pathway)
+- **Referenced in:** 6 pages (5 decks · 1 edh guides) → [reverse index](../../references/B.md#blightstep-pathway--searstep-pathway)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/252/blightstep-pathway-searstep-pathway) · oracle_id `e580a229-e800-4746-9d37-c32fcef8de28` · printing: KHM #252 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blight Titan
@@ -638,6 +638,7 @@ schema: 2
   - *2020-11-10* — The control-change effect of Blim's ability lasts indefinitely. It doesn't wear off during the cleanup step, and it doesn't expire if Blim leaves the battlefield. In a multiplayer game, it does expire if the current controller leaves the game.
   - *2020-11-10* — The player who was dealt damage can't refuse your generous gift. That would be rude.
   - *2020-11-10* — You choose which permanent the player gains control of, not the player who was dealt damage.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#blim-comedic-genius)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/272/blim-comedic-genius) · oracle_id `c7cf9574-e2cf-4137-a224-73f76c5d11d7` · printing: CMR #272 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blindblast

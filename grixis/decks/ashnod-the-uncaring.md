@@ -16,7 +16,7 @@ schema: 2
 
 # Grixis Deck — Ashnod the Uncaring
 
-> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Ashnod_the_Uncaring_Approved_2026-10-13.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Ashnod_the_Uncaring_Approved_2026-10-13.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-13; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Ashnod_the_Uncaring_Approved_2026-10-13.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Ashnod_the_Uncaring_Approved_2026-10-13.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-13; source commit `1836b97`). Imported in Bot cycle 16; re-validated in Bot cycle 37 against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
 ## Contents
 - [Commander](#commander)
@@ -305,7 +305,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 ### From `refinement/blueprints/Ashnod_the_Uncaring_v1.md`
 
-Source: [refinement/blueprints/Ashnod_the_Uncaring_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Ashnod_the_Uncaring_v1.md)
+Source: [refinement/blueprints/Ashnod_the_Uncaring_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/blueprints/Ashnod_the_Uncaring_v1.md)
 
 **Ashnod the Uncaring — Commander-First Blueprint**
 
@@ -331,7 +331,7 @@ EDHREC's current Ashnod page reports Trading Post at roughly 52% inclusion and 4
 
 ### From `refinement/decisions/Ashnod_the_Uncaring_Candidate_Decisions_2026-10-13.md`
 
-Source: [refinement/decisions/Ashnod_the_Uncaring_Candidate_Decisions_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Ashnod_the_Uncaring_Candidate_Decisions_2026-10-13.md)
+Source: [refinement/decisions/Ashnod_the_Uncaring_Candidate_Decisions_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decisions/Ashnod_the_Uncaring_Candidate_Decisions_2026-10-13.md)
 
 **Ashnod the Uncaring — Candidate Decision**
 
@@ -353,7 +353,7 @@ Source: [refinement/decisions/Ashnod_the_Uncaring_Candidate_Decisions_2026-10-13
 
 ### From `refinement/approvals/Ashnod_the_Uncaring_Approved_2026-10-13.md`
 
-Source: [refinement/approvals/Ashnod_the_Uncaring_Approved_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Ashnod_the_Uncaring_Approved_2026-10-13.md)
+Source: [refinement/approvals/Ashnod_the_Uncaring_Approved_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/approvals/Ashnod_the_Uncaring_Approved_2026-10-13.md)
 
 **Ashnod the Uncaring — explicit approval and immutable lock record**
 
@@ -369,7 +369,7 @@ The central state/current_deck_overrides.json still needs synchronization; attem
 
 ### From `refinement/evidence/Ashnod_the_Uncaring_Approval_Gate_Dossier_2026-10-13.md`
 
-Source: [refinement/evidence/Ashnod_the_Uncaring_Approval_Gate_Dossier_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/evidence/Ashnod_the_Uncaring_Approval_Gate_Dossier_2026-10-13.md)
+Source: [refinement/evidence/Ashnod_the_Uncaring_Approval_Gate_Dossier_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/evidence/Ashnod_the_Uncaring_Approval_Gate_Dossier_2026-10-13.md)
 
 **Ashnod the Uncaring — approval-gate dossier (2026-10-13)**
 
@@ -418,7 +418,7 @@ Proposed list: 100 cards, commander first, singleton except basic lands, no proj
 
 ### From `refinement/evidence/Ashnod_the_Uncaring_Finalization_Blockers_2026-10-13.md`
 
-Source: [refinement/evidence/Ashnod_the_Uncaring_Finalization_Blockers_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/evidence/Ashnod_the_Uncaring_Finalization_Blockers_2026-10-13.md)
+Source: [refinement/evidence/Ashnod_the_Uncaring_Finalization_Blockers_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/evidence/Ashnod_the_Uncaring_Finalization_Blockers_2026-10-13.md)
 
 **Ashnod the Uncaring — finalization blockers and source reconciliation (2026-10-13)**
 
@@ -454,7 +454,7 @@ Workflow standard: refinement/Grixis_Refinement_Protocol_v1.md section 10, unint
 
 ### From `refinement/evidence/Ashnod_the_Uncaring_Oracle_Red_Team_Correction_2026-10-13.md`
 
-Source: [refinement/evidence/Ashnod_the_Uncaring_Oracle_Red_Team_Correction_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/evidence/Ashnod_the_Uncaring_Oracle_Red_Team_Correction_2026-10-13.md)
+Source: [refinement/evidence/Ashnod_the_Uncaring_Oracle_Red_Team_Correction_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/evidence/Ashnod_the_Uncaring_Oracle_Red_Team_Correction_2026-10-13.md)
 
 **Ashnod the Uncaring — Oracle red-team correction (2026-10-13)**
 
@@ -479,7 +479,7 @@ Full per-slot 99-card strategic decision ledger; ranked-candidate exhaustion; co
 
 ### Further source evidence (linked, not copied)
 
-- [refinement/verification/Ashnod_the_Uncaring_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Ashnod_the_Uncaring_Final_Verification_2026-10-13.md)
+- [refinement/verification/Ashnod_the_Uncaring_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Ashnod_the_Uncaring_Final_Verification_2026-10-13.md)
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
@@ -516,6 +516,6 @@ Full per-slot 99-card strategic decision ledger; ranked-candidate exhaustion; co
 - **Keywords → [Keyword Encyclopedia](../../Keyword%20Encyclopedia.md):** [Mill](../../Keyword%20Encyclopedia.md#mill) 3 · [Overload](../../Keyword%20Encyclopedia.md#overload) 2 · [Affinity](../../Keyword%20Encyclopedia.md#affinity) 1 · [Cycling](../../Keyword%20Encyclopedia.md#cycling) 1 · [Deathtouch](../../Keyword%20Encyclopedia.md#deathtouch) 1 · [Equip](../../Keyword%20Encyclopedia.md#equip) 1 · [Fabricate](../../Keyword%20Encyclopedia.md#fabricate) 1 · [Flying](../../Keyword%20Encyclopedia.md#flying) 1 · [Goad](../../Keyword%20Encyclopedia.md#goad) 1 · [Investigate](../../Keyword%20Encyclopedia.md#investigate) 1 · [Modular](../../Keyword%20Encyclopedia.md#modular) 1
 - **Rules sections citing cards in this list:** [Keyword Encyclopedia → Overload](../../Keyword%20Encyclopedia.md#overload) (Cyclonic Rift, Vandalblast) · [Rules Interactions → Commander: color identity](../../Rules%20Interactions.md#commander-color-identity) (Arcane Signet, Command Tower) · [Rules Interactions → Replacement effects vs. triggered abilities](../../Rules%20Interactions.md#replacement-effects-vs-triggered-abilities) (Exotic Orchard, Fellwar Stone) · [Rules Interactions → The legend rule](../../Rules%20Interactions.md#the-legend-rule) (Mayhem Devil, Mox Opal) · [Keyword Encyclopedia → Affinity](../../Keyword%20Encyclopedia.md#affinity) (Emry, Lurker of the Loch) · [Keyword Encyclopedia → Fabricate](../../Keyword%20Encyclopedia.md#fabricate) (Marionette Apprentice) · [Keyword Encyclopedia → Investigate](../../Keyword%20Encyclopedia.md#investigate) (Forensic Gadgeteer) · [Keyword Encyclopedia → Modular](../../Keyword%20Encyclopedia.md#modular) (Arcbound Ravager) · …3 more sections
 - **Lore & story sections citing cards in this list:** [Art & Flavor Story Links → Captioned art on cited story pages](../../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Command Tower) · [Art & Flavor Story Links → Kaladesh & Aether Revolt (2016–17)](../../Art%20%26%20Flavor%20Story%20Links.md#kaladesh--aether-revolt-201617) (Inventors' Fair) · [Characters Index → Character cards (name-matched)](../../Characters%20Index.md#character-cards-name-matched) (Urza, Lord High Artificer) · [Items & Artifacts Index → Celestus, Sungold Lock & Moonsilver Key](../../Items%20%26%20Artifacts%20Index.md#celestus-sungold-lock--moonsilver-key) (Moonsilver Key) · [Planes Index → New Capenna](../../Planes%20Index.md#new-capenna) (Xander's Lounge)
-- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +15) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Ashnod's Altar, Enthusiastic Mechanaut +11) · [EDH Upgrade Paths → Breya, Etherium Shaper](../../EDH%20Upgrade%20Paths.md#breya-etherium-shaper) (Academy Ruins, An Offer You Can't Refuse, Badlands +7) · [EDH Upgrade Paths → Nekusar, the Mindrazer](../../EDH%20Upgrade%20Paths.md#nekusar-the-mindrazer) (Badlands, Blood Crypt, Bloodstained Mire +5) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (An Offer You Can't Refuse, Deflecting Swat, Fierce Guardianship +5) · [Grixis Packages → Removal](../../grixis/Grixis%20Packages.md#removal) (An Offer You Can't Refuse, Chaos Warp, Cyclonic Rift +5) · …86 more sections
+- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +15) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Ashnod's Altar, Enthusiastic Mechanaut +11) · [EDH Upgrade Paths → Breya, Etherium Shaper](../../EDH%20Upgrade%20Paths.md#breya-etherium-shaper) (Academy Ruins, An Offer You Can't Refuse, Badlands +7) · [EDH Upgrade Paths → Nekusar, the Mindrazer](../../EDH%20Upgrade%20Paths.md#nekusar-the-mindrazer) (Badlands, Blood Crypt, Bloodstained Mire +5) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (An Offer You Can't Refuse, Deflecting Swat, Fierce Guardianship +5) · [Grixis Packages → Removal](../../grixis/Grixis%20Packages.md#removal) (An Offer You Can't Refuse, Chaos Warp, Cyclonic Rift +5) · …87 more sections
 - **Decks sharing the most cards:** [Mishra, Eminent One (Grixis)](../../grixis/decks/mishra-eminent-one.md) 52 · [Mishra, Artificer Prodigy (Grixis)](../../grixis/decks/mishra-artificer-prodigy.md) 50 · [Ashad, the Lone Cyberman (Grixis)](../../grixis/decks/ashad-the-lone-cyberman.md) 49 · [Mai and Zuko (Grixis)](../../grixis/decks/mai-and-zuko.md) 44
 <!-- CROSSREFS:END -->

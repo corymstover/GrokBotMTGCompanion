@@ -253,5 +253,5 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12876 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#ingris-stingerquill)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/I.md#ingris-stingerquill)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/137/ingris-stingerquill) · oracle_id `bda098cb-31ec-41a1-a9d7-122877cc69d2` · printing: FRA #137 (2026-10-02) · [rulings](https://api.scryfall.com/cards/6471b135-33a8-4005-9a07-ebb74e0bf145/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

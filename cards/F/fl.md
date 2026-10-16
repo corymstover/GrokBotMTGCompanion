@@ -867,7 +867,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1722 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-06-16* — Once you cast Flame of Anor and choose two modes, it doesn't matter what happens to the Wizard you control in response. Flame of Anor will still have two modes chosen.
-- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/F.md#flame-of-anor)
+- **Referenced in:** 4 pages (4 decks) → [reverse index](../../references/F.md#flame-of-anor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/203/flame-of-anor) · oracle_id `ecd49d85-9c8c-4cc9-9a83-072ecd433677` · printing: LTR #203 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flame On!
@@ -959,6 +959,7 @@ schema: 2
   - *2015-06-22* — If the token isn't exiled at the beginning of the next end step (perhaps because the delayed triggered ability is countered), it remains on the battlefield indefinitely. It continues to have haste.
   - *2015-06-22* — The token copies exactly what's printed on the original creature and nothing else (unless that creature is copying something else; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
   - *2015-06-22* — The token is exiled at the beginning of the next end step regardless of who controls it at that time.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/F.md#flameshadow-conjuring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/280/flameshadow-conjuring) · oracle_id `343460ea-7999-4d9e-b425-97fa1621f9d6` · printing: MOC #280 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flameshot
@@ -1461,7 +1462,7 @@ schema: 2
   - *2024-06-07* — The controller of a copy can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
   - *2024-06-07* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
   - *2024-06-07* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
-- **Referenced in:** 4 pages (2 edh guides · 2 card data) → [reverse index](../../references/F.md#flare-of-duplication)
+- **Referenced in:** 5 pages (1 decks · 2 edh guides · 2 card data) → [reverse index](../../references/F.md#flare-of-duplication)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/119/flare-of-duplication) · oracle_id `f586ecb8-310c-4f40-a766-6a7ca46a254d` · printing: MH3 #119 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flare of Faith
@@ -1512,7 +1513,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-06-07* — If an opponent has multiple creatures and/or planeswalkers tied for the greatest mana value, that player chooses which one to sacrifice.
   - *2024-06-07* — Starting with the next opponent in turn order (or, if you cast Flare of Malice on an opponent's turn, starting with the opponent whose turn it is) and proceeding in turn order, each opponent chooses a creature or planeswalker with the greatest mana value among creatures and planeswalkers they control to sacrifice. Then those permanents are sacrificed at the same time.
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/F.md#flare-of-malice)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/F.md#flare-of-malice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/95/flare-of-malice) · oracle_id `4ce156f8-6b0b-41ce-9e8f-b2735c757406` · printing: MH3 #95 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flaring Cinder
@@ -2014,7 +2015,7 @@ schema: 2
   - *2011-01-22* — If you cast a creature card from your graveyard, that card will be put on the stack before entering. Flayer of the Hatebound won't trigger.
   - *2011-01-22* — Since damage is dealt by the creature, abilities like lifelink and deathtouch are taken into account, even if the creature has left the battlefield by the time it deals damage.
   - *2011-01-22* — The creature that entered from your graveyard deals damage equal to its current power (including any +1/+1 counters it entered with) to the target permanent or player. If it's no longer on the battlefield when the ability resolves, its last known existence on the battlefield is checked to determine its power.
-- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/F.md#flayer-of-the-hatebound)
+- **Referenced in:** 3 pages (2 decks · 1 rules) → [reverse index](../../references/F.md#flayer-of-the-hatebound)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/144/flayer-of-the-hatebound) · oracle_id `ba9f3c5d-556f-48d1-8d87-723f7893cfcd` · printing: C19 #144 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flay Essence
@@ -2457,7 +2458,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — As Fleshbag Marauder's ability resolves, first the player whose turn it is chooses a creature to sacrifice, then each other player in turn order does the same knowing the choices made before them. Then all those creatures are sacrificed simultaneously.
   - *2020-11-10* — When its ability resolves, you may sacrifice Fleshbag Marauder itself. If you control no other creatures, you'll have to sacrifice Fleshbag Marauder.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/F.md#fleshbag-marauder)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/F.md#fleshbag-marauder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/111/fleshbag-marauder) · oracle_id `4b1bf05e-753e-4350-a913-894cf3cecc0c` · printing: CLU #111 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flesh // Blood
@@ -2707,6 +2708,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3809 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-09-01* — If the target is not legal as Flick a Coin tries to resolve, Flick a Coin is removed from the stack. You won't create a Treasure token, and you won't draw a card.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/F.md#flick-a-coin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/128/flick-a-coin) · oracle_id `990583ef-5bf4-4e14-a8f1-61d32c6a75df` · printing: WOE #128 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flicker
@@ -3118,7 +3120,7 @@ schema: 2
   > *—Vibekke Ragnild, \*Witches and War\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21259 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#flood)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/F.md#flood)
 - **Source flags:** [Scryfall](https://scryfall.com/card/5ed/87/flood) · oracle_id `e8eb2abb-daf9-43e0-b909-d96b679f71c2` · printing: 5ED #87 (1997-03-24) · [rulings](https://api.scryfall.com/cards/2aefbeae-ac72-4a13-8898-8d1e42a633a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Floodbringer
@@ -3188,8 +3190,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #38 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
 - **Lore:** ✅ Card art shown on [Unwritten](https://magic.wizards.com/en/news/magic-story/unwritten-2015-01-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (26): [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Chulane, Teller of Tales](../../decks/chulane-teller-of-tales.md) · [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,178,743 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (42.1% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (34.3% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (29.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 32 pages (26 decks · 4 edh guides · 2 card data) → [reverse index](../../references/F.md#flooded-strand)
+- **Synergy:** *Proven* — KB decks (44): [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Chulane, Teller of Tales](../../decks/chulane-teller-of-tales.md) · [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,178,743 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (42.1% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (34.3% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (29.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 50 pages (44 decks · 4 edh guides · 2 card data) → [reverse index](../../references/F.md#flooded-strand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/220/flooded-strand) · oracle_id `f3c7af78-a77d-4134-82a2-a5ce84285a84` · printing: MH3 #220 (2024-06-14) · [rulings](https://api.scryfall.com/cards/8f85e12c-196b-4459-b81f-0c9c854e9f57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flooded Woodlands
@@ -4212,7 +4214,7 @@ schema: 2
   - *2022-12-08* — The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
   - *2022-12-08* — The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack.
   - *2022-12-08* — You may choose new targets for any of the copies. You can make different choices for each copy.
-- **Referenced in:** 17 pages (10 decks · 4 edh guides · 2 rules · 1 card data) → [reverse index](../../references/F.md#flusterstorm)
+- **Referenced in:** 19 pages (12 decks · 4 edh guides · 2 rules · 1 card data) → [reverse index](../../references/F.md#flusterstorm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/55/flusterstorm) · oracle_id `86bf58f2-7f25-4e10-b797-25e0e8e67769` · printing: IMA #55 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Flutterfox
@@ -4282,7 +4284,7 @@ schema: 2
   - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
   - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
-- **Referenced in:** 6 pages (2 decks · 3 edh guides · 1 card data) → [reverse index](../../references/F.md#flux-channeler)
+- **Referenced in:** 7 pages (3 decks · 3 edh guides · 1 card data) → [reverse index](../../references/F.md#flux-channeler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/847/flux-channeler) · oracle_id `83874e60-291b-47a7-ba9f-69437fa7e3c7` · printing: CMM #847 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fluxcharger

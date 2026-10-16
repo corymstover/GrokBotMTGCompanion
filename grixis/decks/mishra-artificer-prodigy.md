@@ -16,7 +16,7 @@ schema: 2
 
 # Grixis Deck — Mishra, Artificer Prodigy
 
-> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Mishra_Artificer_Prodigy_Approved_2026-10-15.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Mishra_Artificer_Prodigy_Approved_2026-10-15.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-15; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Mishra_Artificer_Prodigy_Approved_2026-10-15.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Mishra_Artificer_Prodigy_Approved_2026-10-15.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-15; source commit `1836b97`). Imported in Bot cycle 16; re-validated in Bot cycle 37 against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
 ## Contents
 - [Commander](#commander)
@@ -317,7 +317,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 ### From `refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md`
 
-Source: [refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md)
+Source: [refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decisions/Mishra_Artificer_Prodigy_Current_Cycle_Decisions_2026-10-15.md)
 
 **Mishra, Artificer Prodigy — Current-Cycle Decision Closeout**
 
@@ -405,7 +405,7 @@ This deck is **APPROVED / LOCKED** for the current refinement cycle and must not
 
 ### From `refinement/approvals/Mishra_Artificer_Prodigy_Approved_2026-10-15.md`
 
-Source: [refinement/approvals/Mishra_Artificer_Prodigy_Approved_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Mishra_Artificer_Prodigy_Approved_2026-10-15.md)
+Source: [refinement/approvals/Mishra_Artificer_Prodigy_Approved_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/approvals/Mishra_Artificer_Prodigy_Approved_2026-10-15.md)
 
 **Mishra, Artificer Prodigy — APPROVED / LOCKED**
 
@@ -444,7 +444,7 @@ This deck is now locked. Do not revise, reopen, or replace it unless the user ex
 
 ### Further source evidence (linked, not copied)
 
-- [refinement/verification/Mishra_Artificer_Prodigy_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Mishra_Artificer_Prodigy_Approval_Ready_Verification_2026-10-15.md)
+- [refinement/verification/Mishra_Artificer_Prodigy_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Mishra_Artificer_Prodigy_Approval_Ready_Verification_2026-10-15.md)
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
@@ -486,6 +486,6 @@ This deck is now locked. Do not revise, reopen, or replace it unless the user ex
 - **Keywords → [Keyword Encyclopedia](../../Keyword%20Encyclopedia.md):** [Flying](../../Keyword%20Encyclopedia.md#flying) 4 · [Affinity](../../Keyword%20Encyclopedia.md#affinity) 2 · [Overload](../../Keyword%20Encyclopedia.md#overload) 2 · [Cumulative upkeep](../../Keyword%20Encyclopedia.md#cumulative-upkeep) 1 · [Equip](../../Keyword%20Encyclopedia.md#equip) 1 · [Improvise](../../Keyword%20Encyclopedia.md#improvise) 1 · [Indestructible](../../Keyword%20Encyclopedia.md#indestructible) 1 · [Mill](../../Keyword%20Encyclopedia.md#mill) 1 · [Reconfigure](../../Keyword%20Encyclopedia.md#reconfigure) 1 · [Station](../../Keyword%20Encyclopedia.md#station) 1
 - **Rules sections citing cards in this list:** [Keyword Encyclopedia → Overload](../../Keyword%20Encyclopedia.md#overload) (Cyclonic Rift, Vandalblast) · [Rules Interactions → Commander: color identity](../../Rules%20Interactions.md#commander-color-identity) (Arcane Signet, Command Tower) · [Rules Interactions → Protection](../../Rules%20Interactions.md#protection) (Cyclonic Rift, The One Ring) · [Rules Interactions → Replacement effects vs. triggered abilities](../../Rules%20Interactions.md#replacement-effects-vs-triggered-abilities) (Exotic Orchard, Fellwar Stone) · [Keyword Encyclopedia → Affinity](../../Keyword%20Encyclopedia.md#affinity) (Emry, Lurker of the Loch) · [Keyword Encyclopedia → Cumulative Upkeep](../../Keyword%20Encyclopedia.md#cumulative-upkeep) (Mystic Remora) · [Keyword Encyclopedia → Equip](../../Keyword%20Encyclopedia.md#equip) (Lightning Greaves) · [Keyword Encyclopedia → Improvise](../../Keyword%20Encyclopedia.md#improvise) (Whir of Invention) · …11 more sections
 - **Lore & story sections citing cards in this list:** [Characters Index → Character cards (name-matched)](../../Characters%20Index.md#character-cards-name-matched) (Karn, the Great Creator, Mishra, Artificer Prodigy, Tezzeret the Seeker +2) · [Planeswalker Dossiers → Character cards (name-matched)](../../Planeswalker%20Dossiers.md#character-cards-name-matched) (Karn, the Great Creator, Tezzeret the Seeker, Tezzeret, Cruel Captain) · [Art & Flavor Story Links → Captioned art on cited story pages](../../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Command Tower, Mana Confluence) · [Art & Flavor Story Links → Kaladesh & Aether Revolt (2016–17)](../../Art%20%26%20Flavor%20Story%20Links.md#kaladesh--aether-revolt-201617) (Inventors' Fair) · [Items & Artifacts Index → Reality Chip](../../Items%20%26%20Artifacts%20Index.md#reality-chip) (The Reality Chip)
-- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +16) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Chrome Mox, Dimir Signet +15) · [EDH Standards → Game Changers](../../EDH%20Standards.md#game-changers) (Ancient Tomb, Bolas's Citadel, Chrome Mox +12) · [EDH Upgrade Paths → Breya, Etherium Shaper](../../EDH%20Upgrade%20Paths.md#breya-etherium-shaper) (Academy Ruins, Badlands, Bloodstained Mire +8) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (Fierce Guardianship, Force of Will, Mystic Remora +7) · [EDH Packages → Ramp: Mana rocks (MV ≤ 2)](../../EDH%20Packages.md#ramp-mana-rocks-mv--2) (Arcane Signet, Dimir Signet, Fellwar Stone +5) · …77 more sections
+- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +16) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Chrome Mox, Dimir Signet +16) · [EDH Standards → Game Changers](../../EDH%20Standards.md#game-changers) (Ancient Tomb, Bolas's Citadel, Chrome Mox +12) · [EDH Upgrade Paths → Breya, Etherium Shaper](../../EDH%20Upgrade%20Paths.md#breya-etherium-shaper) (Academy Ruins, Badlands, Bloodstained Mire +8) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (Fierce Guardianship, Force of Will, Mystic Remora +7) · [Grixis Packages → Draw](../../grixis/Grixis%20Packages.md#draw) (Bolas's Citadel, Jhoira, Weatherlight Captain, Mystic Forge +6) · …78 more sections
 - **Decks sharing the most cards:** [Mishra, Eminent One (Grixis)](../../grixis/decks/mishra-eminent-one.md) 62 · [Mai and Zuko (Grixis)](../../grixis/decks/mai-and-zuko.md) 53 · [Ashnod the Uncaring (Grixis)](../../grixis/decks/ashnod-the-uncaring.md) 50 · [Ashad, the Lone Cyberman (Grixis)](../../grixis/decks/ashad-the-lone-cyberman.md) 48
 <!-- CROSSREFS:END -->

@@ -251,7 +251,7 @@ schema: 2
   > *The Izzet signet is redesigned often, each time becoming closer to a vanity portrait of Niv-Mizzet.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #172 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 16 pages (12 decks · 3 edh guides · 1 card data) → [reverse index](../../references/I.md#izzet-signet)
+- **Referenced in:** 27 pages (23 decks · 3 edh guides · 1 card data) → [reverse index](../../references/I.md#izzet-signet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/58/izzet-signet) · oracle_id `2fda4fe7-8b0c-489c-a000-6d358e614e34` · printing: FRC #58 (2026-10-02) · [rulings](https://api.scryfall.com/cards/d5e141ad-5cb8-416b-9acf-bce1baeb6b6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Staticaster

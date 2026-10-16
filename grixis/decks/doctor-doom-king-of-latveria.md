@@ -16,7 +16,7 @@ schema: 2
 
 # Grixis Deck — Doctor Doom, King of Latveria
 
-> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `1836b97`). Imported in Bot cycle 16; re-validated in Bot cycle 37 against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
 ## Contents
 - [Commander](#commander)
@@ -316,7 +316,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 ### From `refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md`
 
-Source: [refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md)
+Source: [refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md)
 
 **Doctor Doom, King of Latveria — Current-Cycle Commander-First Blueprint**
 
@@ -360,7 +360,7 @@ This discrepancy also biases the candidate ranking pool: several cards already p
 
 ### From `refinement/decisions/Doctor_Doom_King_of_Latveria_Current_Cycle_Decisions_2026-10-14.md`
 
-Source: [refinement/decisions/Doctor_Doom_King_of_Latveria_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Doctor_Doom_King_of_Latveria_Current_Cycle_Decisions_2026-10-14.md)
+Source: [refinement/decisions/Doctor_Doom_King_of_Latveria_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decisions/Doctor_Doom_King_of_Latveria_Current_Cycle_Decisions_2026-10-14.md)
 
 **Doctor Doom, King of Latveria — Current-Cycle Refinement Decision Record**
 
@@ -413,7 +413,7 @@ Proposed tags: **Land Discard / Villains / Connive**
 
 ### From `refinement/approvals/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.md`
 
-Source: [refinement/approvals/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.md)
+Source: [refinement/approvals/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/approvals/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.md)
 
 **Doctor Doom, King of Latveria — Current-Cycle Approval Record**
 

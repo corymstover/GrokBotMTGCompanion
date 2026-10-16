@@ -46,7 +46,7 @@ schema: 2
   - *2021-04-16* — If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
   - *2021-04-16* — If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
   - *2021-04-16* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sedgemoor-witch)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/S.md#sedgemoor-witch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/86/sedgemoor-witch) · oracle_id `25dce517-ac0a-4577-89ed-04296c7c4069` · printing: STX #86 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sedge Scorpion
@@ -152,5 +152,5 @@ schema: 2
   - *2008-10-01* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing.
   - *2008-10-01* — Sedris may cause a creature card in your graveyard to have multiple unearth abilities. (For example, a Fatestitcher in your graveyard would have unearth {U} and unearth {2}{B}.) You may activate either of those abilities.
   - *2008-10-01* — Unearth grants haste to the creature that's returned to the battlefield. However, neither of the "exile" abilities is granted to that creature. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sedris-the-traitor-king)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#sedris-the-traitor-king)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/274/sedris-the-traitor-king) · oracle_id `48054407-b5e1-431c-ad03-c12a31d0d9a8` · printing: 2X2 #274 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -44,9 +44,11 @@ COMPANION_NOTE = {
     "Cecily__Bjorna__Lutri": "The source's approval record designates **Lutri, the Spellchaser** as a companion outside the 100. Commander bans Lutri *as a companion* (B&R 2026-02-09; Lutri is legal in the 99). So the companion is **dropped** here. The source's approved 100-card file does not list Lutri anyway, so no card count changes.",
 }
 LEFT_OUT = {
-    "The_Madcap_Jester": "The commander and Dragon's Smile come from Scryfall set `mbc` (draft_innovation), releasing 2026-10-19. Both are `not_legal` in Commander today, and the source registers them as a *future-release* exception. Re-check after release.",
-    "Tresserhorn_s_Lord__Returned": "The commander is in set `mbc` (releasing 2026-10-19) and is `not_legal` in Commander today. The source registers it as a *future-release* exception.",
+    "The_Madcap_Jester": "The commander and Dragon's Smile come from Scryfall set `mbc` (draft_innovation), releasing 2026-10-19. Both are `not_legal` in Commander today (Scryfall, re-checked 2026-10-16), and the source's 2026-10-15 approval keeps them under its registered *future-release* exceptions. Re-check after release.",
+    "Tresserhorn_s_Lord__Returned": "The commander is in set `mbc` (releasing 2026-10-19) and is `not_legal` in Commander today (Scryfall, re-checked 2026-10-16). ⚠️ The source's 2026-10-15 approval record calls its earlier future-release exception \"historical only\" and reports \"current official Commander legality PASS\"; Scryfall does not agree yet. Re-check after release.",
 }
+# Bot cycle 37 re-import: the 40 lists integrated in Bot cycle 16 (unchanged in the source since then).
+C16 = set(json.loads((ROOT / "data" / "grixis_c16_ids.json").read_text())) if (ROOT / "data" / "grixis_c16_ids.json").exists() else set()
 EVIDENCE_LABELS = ("VERIFIED", "HIGH_CONFIDENCE", "PROVISIONAL", "TEST_REQUIRED", "BLOCKED")
 
 
@@ -73,13 +75,21 @@ def type_tag(t):
 
 
 def src_files(did):
+    """Per-deck source records: files whose name starts with the deck id, plus every `*_artifact` path the source's
+    state/current_deck_overrides.json records for the deck (Bot cycle 37: some ids no longer prefix their files,
+    e.g. `Goben__Gene_Splice_Savant` holds the Norman Osborn // Green Goblin list)."""
     key = norm(did).replace("the", "")
     out = defaultdict(list)
+    st = json.loads((SRC / "state/current_deck_overrides.json").read_text())["decks"].get(did, {})
+    for k, v in sorted(st.items()):
+        if k.endswith("_artifact") and isinstance(v, str) and (SRC / v).is_file():
+            out[(SRC / v).parent.name].append(SRC / v)
     for f in sorted(glob.glob(str(SRC / "refinement/**/*"), recursive=True)):
         p = Path(f)
         if p.is_file() and norm(p.name).replace("the", "").startswith(key):
-            out[p.parent.name].append(p)
-    return out
+            if p not in out[p.parent.name]:
+                out[p.parent.name].append(p)
+    return {k: sorted(v) for k, v in out.items()}
 
 
 def demote(md, rel_dir):
@@ -262,7 +272,7 @@ def main():
         L = [f"# Grixis Deck — {title}", "",
              f"> **From [grixis-commander-encyclopediaGPT]({REPO}), path [`{d['source_path']}`]({BLOB}{d['source_path'].split(' → ')[0]})** "
              f"({d['source_state'].get('approval_status')} / {d['source_state'].get('lock_status')} in the source, user approval {d['source_state'].get('user_approval_date')}; source commit `{SRC_SHA}`). "
-             f"Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk {bulk[:10]}. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).", "",
+             f"{'Imported in Bot cycle 16; re-validated in Bot cycle 37' if did in C16 else 'Imported in Bot cycle 37 (newly approved in the source)'} against Scryfall Oracle bulk {bulk[:10]}. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).", "",
              "## Contents", "- [Commander](#commander)", "- [Validation](#validation)", "- [Bracket assessment](#bracket-assessment)",
              "- [Corrections applied](#corrections-applied)", "- [Decklist (Archidekt import)](#decklist-archidekt-import)", "- [Card breakdown](#card-breakdown)",
              "- [Source commentary (verbatim)](#source-commentary-verbatim)", "- [Combos (Commander Spellbook)](#combos-commander-spellbook)", "",
@@ -318,7 +328,7 @@ def main():
                 elif p.suffix == ".csv" and k == "decisions" and not any(q.suffix == ".md" for q in fl.get("decisions", [])):
                     L += [f"### From `{rp}` (candidate decision ledger)", "", f"Source: [{rp}]({BLOB}{rp})", "", decisions_csv_table(p), ""]
                     shown += 1
-        other = [p for k in ("verification", "rules", "tests", "tracker_reconciliation") for p in fl.get(k, [])]
+        other = [p for k in ("verification", "audits", "rules", "tests", "tracker_reconciliation") for p in fl.get(k, [])]
         if other:
             L += ["### Further source evidence (linked, not copied)", ""] + [f"- [{p.relative_to(SRC)}]({BLOB}{p.relative_to(SRC)})" for p in other][:40] + [""]
         L += [dc.START, "## Combos (Commander Spellbook)", "",
@@ -336,7 +346,7 @@ def main():
 
     # ---------------- evaluation page (all 62)
     E = ["# Grixis Evaluation — all 62 source lists", "",
-         f"> Bot cycle 16. Every decklist in [grixis-commander-encyclopediaGPT]({REPO}) (commit `{SRC_SHA}`), checked by `scripts/grixis_eval.py` against Scryfall Oracle bulk {bulk[:10]}. Checks: name resolution, commander eligibility and pairing, 100 cards, singleton (with Oracle copy exceptions such as Nazgûl), color identity, Commander legality and bans, companion, Game Changers. Oracle text recorded in the source's audit CSVs is compared with current Oracle. Back to [Grixis](README.md).", "",
+         f"> Bot cycle 16; re-run in Bot cycle 37. Every decklist in [grixis-commander-encyclopediaGPT]({REPO}) (commit `{SRC_SHA}`), checked by `scripts/grixis_eval.py` against Scryfall Oracle bulk {bulk[:10]}. Checks: name resolution, commander eligibility and pairing, 100 cards, singleton (with Oracle copy exceptions such as Nazgûl), color identity, Commander legality and bans, companion, Game Changers. Oracle text recorded in the source's audit CSVs is compared with current Oracle. Back to [Grixis](README.md).", "",
          "## Contents", "- [Summary](#summary)", "- [Per-list results](#per-list-results)", "- [How the current list was chosen](#how-the-current-list-was-chosen)", "",
          "## Summary", ""]
     n_int = len(integrated)
@@ -358,7 +368,7 @@ def main():
     # ---------------- corrections page
     kinds = Counter(c[2] for c in corrections)
     C = ["# Grixis Corrections", "",
-         f"> Bot cycle 16. Every change made to a source list on import from [grixis-commander-encyclopediaGPT]({REPO}), with its reason. The source repo was not modified. Back to [Grixis](README.md).", "",
+         f"> Bot cycles 16 and 37. Every change made to a source list on import from [grixis-commander-encyclopediaGPT]({REPO}), with its reason. The source repo was not modified. Back to [Grixis](README.md).", "",
          "## Contents", "- [Summary](#summary)", "- [Corrections table](#corrections-table)", "- [Oracle text check](#oracle-text-check)", "- [Source-repo structural findings](#source-repo-structural-findings)", "",
          "## Summary", "", f"**{len(corrections)} corrections** across {len({c[0] for c in corrections})} decks: " + ", ".join(f"{v} {k}" for k, v in kinds.most_common()) + ".", "",
          "## Corrections table", "", "| Deck | Type | Issue → fix | Reason |", "|---|---|---|---|"]
@@ -372,11 +382,16 @@ def main():
           "- The source's notes contain no pre-2024 \"enters the battlefield\" wording.", "",
           "## Source-repo structural findings", "",
           "These are process notes, not deck changes. We did not modify the source.",
-          "- Two approved lists (Admiral Brass, Unsinkable; Anhelo, the Painter) have an `approved_list_sha256` that matches no file in the repo. Their content matches the Card_Verification CSVs, so the hash was probably computed on a different serialization.",
+          "- Two approved lists (Admiral Brass, Unsinkable; Anhelo, the Painter) have an `approved_list_sha256` that matches no file in the repo. Their content matches the Card_Verification CSVs. The source's own 2026-10-15 Archidekt export (`exports/archidekt_2026-10-15/README.txt`) confirms it: their \"state canonical digests are logical/list digests rather than raw TXT file SHA-256 values\".",
+          "- Bot cycle 37 cross-check: all 62 lists we selected match the source's `exports/archidekt_2026-10-15/` package (its `manifest.csv` and per-deck TXT files) card for card.",
+          "- Deck id `Goben__Gene_Splice_Savant` (#21) holds the **Norman Osborn // Green Goblin** list (already so in the frozen FINAL baseline). Its files are named for Norman Osborn, so we locate them through the artifact paths in the source state.",
+          "- One state artifact path does not exist: Thraximundar's `whole_list_audit_artifact` points to `refinement/decisions/Thraximundar_Whole_List_Audit_v2_2026-10-15.csv`, but the file in the repo is `refinement/audits/Thraximundar_Whole_List_Audit_2026-10-15.csv` (linked from the deck page).",
+          "- ⚠️ The Tresserhorn's Lord, Returned approval record (2026-10-15) reports \"current official Commander legality PASS, no project exception required\". Scryfall lists the card as `not_legal` until its `mbc` release on 2026-10-19, so we keep the list out for now.",
           "- Decklist files use mixed formats: some lines have `(set) number` printings and role tags, some only `Nx Name`. Commanders are tagged `[Commander]` or `[Commander{top}]`.",
-          "- The Lutri companion is recorded in the approval record but missing from the approved 100-card file. The two disagree.",
+          "- The Lutri companion is recorded in the approval record but missing from the approved 100-card file. The two disagree. The source's Archidekt export README still says to set \"the intended commanders/companion manually\" for this deck, and its retrospective gate keeps Trade Secrets, Yawgmoth's Bargain (banned) and Lutri (banned as a companion) as *project exceptions*. Our corrected list keeps the cycle 16 replacements.",
           "- Per-deck evidence is spread across 5–8 folders (blueprints, decisions, approvals, evidence, verification, rules, tests), and one blueprint exists twice (`Be_lakor__the_Dark_Master_v1.md` / `Belakor_the_Dark_Master_v1.md`). On import, each deck's records are gathered into a single page.",
-          "- The approval record for deck #8 says `state/current_deck_overrides.json` was stale at that time. The state file now lists 40 decks, and Goben (#21) is the only baseline deck between approved ones that is not in it.", ""]
+          "- The approval record for deck #8 says `state/current_deck_overrides.json` was stale at that time. In Bot cycle 16 the state file listed 40 decks. By commit `" + SRC_SHA + "` (Bot cycle 37) it lists all 62 as APPROVED/LOCKED, and it now records per-deck artifact paths (approved list, whole-list audit, decision closeout, verification, approval record).",
+          "- New in the source since Bot cycle 16: a mandatory **99-slot whole-list audit** per deck (KEEP/CUT for every non-commander slot), *approval-ready verification* and *candidate decision closeout* records, a \"zero-new-material-improvement\" closure before approval, and one-shot GitHub Actions finalizers that write the approval and lock. We adopted the audit and closure steps as guidance in the [EDH Deck Evaluation Checklist](../EDH%20Deck%20Evaluation%20Checklist.md).", ""]
     (OUT / "Grixis Corrections.md").write_text("\n".join(C) + "\n", encoding="utf-8")
 
     # ---------------- package library
@@ -396,7 +411,7 @@ def main():
             role = "Land"
         groups[role].append((k, n))
     P = ["# Grixis Packages", "",
-         f"> Bot cycle 16. Cross-deck package library built from the **{N} integrated Grixis lists** (source: [grixis-commander-encyclopediaGPT]({REPO}); role tags are the source author's). For each role, the cards that appear in at least 4 lists, with how many lists use them. Facts: Commander-legal, identity from Scryfall, **GC** = Game Changer. *Which package to run is guidance: start from the commander blueprint ([EDH Deck Template](../EDH%20Deck%20Template.md)), not from popularity.* The general, identity-wide version is [EDH Packages](../EDH%20Packages.md). Back to [Grixis](README.md).", "",
+         f"> Bot cycle 16; rebuilt in Bot cycle 37. Cross-deck package library built from the **{N} integrated Grixis lists** (source: [grixis-commander-encyclopediaGPT]({REPO}); role tags are the source author's). For each role, the cards that appear in at least 4 lists, with how many lists use them. Facts: Commander-legal, identity from Scryfall, **GC** = Game Changer. *Which package to run is guidance: start from the commander blueprint ([EDH Deck Template](../EDH%20Deck%20Template.md)), not from popularity.* The general, identity-wide version is [EDH Packages](../EDH%20Packages.md). Back to [Grixis](README.md).", "",
          "## Contents"]
     order = sorted(groups, key=lambda g: (g != "Land", -sum(k for k, _ in groups[g])))
     P += [f"- [{g}](#{re.sub(r'[^a-z0-9 -]', '', g.lower()).replace(' ', '-')})" for g in order] + ["- [Grixis rules insights (from the source)](#grixis-rules-insights-from-the-source)", ""]
@@ -426,7 +441,7 @@ def main():
     (OUT / "Grixis Packages.md").write_text("\n".join(P) + "\n", encoding="utf-8")
     # ---------------- section index
     R = ["# Grixis (U/B/R) Commander", "",
-         f"> **Bot cycle 16 import.** This section brings in the user's Grixis Commander work from [grixis-commander-encyclopediaGPT]({REPO}) (commit `{SRC_SHA}`, read-only): the user-approved, refined decklists, each with its commander-first blueprint, swap decisions and approval record quoted verbatim. Each list was re-validated against our card DB, corrected where needed, and given Game Changer counts, bracket floors and Commander Spellbook combos. Source analysis is **the source author's guidance**. Our facts come from Scryfall and Commander Spellbook. Built by `scripts/build_grixis.py`. Related: [EDH Standards](../EDH%20Standards.md) · [EDH Deck Template](../EDH%20Deck%20Template.md) · [EDH Deck Evaluation Checklist](../EDH%20Deck%20Evaluation%20Checklist.md) · [Grixis mana base](../EDH%20Mana%20Bases.md) · [data-derived Nekusar skeleton](../decks/nekusar-the-mindrazer.md)", "",
+         f"> **Bot cycle 16 import, refreshed in Bot cycle 37** (all 62 source lists are now APPROVED/LOCKED in the source). This section brings in the user's Grixis Commander work from [grixis-commander-encyclopediaGPT]({REPO}) (commit `{SRC_SHA}`, read-only): the user-approved, refined decklists, each with its commander-first blueprint, swap decisions and approval record quoted verbatim. Each list was re-validated against our card DB, corrected where needed, and given Game Changer counts, bracket floors and Commander Spellbook combos. Source analysis is **the source author's guidance**. Our facts come from Scryfall and Commander Spellbook. Built by `scripts/build_grixis.py`. Related: [EDH Standards](../EDH%20Standards.md) · [EDH Deck Template](../EDH%20Deck%20Template.md) · [EDH Deck Evaluation Checklist](../EDH%20Deck%20Evaluation%20Checklist.md) · [Grixis mana base](../EDH%20Mana%20Bases.md) · [data-derived Nekusar skeleton](../decks/nekusar-the-mindrazer.md)", "",
          "## Contents", "- [Pages](#pages)", "- [Decks](#decks)", "- [What was left out](#what-was-left-out)", "",
          "## Pages", "",
          "| Page | What it holds |", "|---|---|",

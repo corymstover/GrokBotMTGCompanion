@@ -5,13 +5,13 @@ tags: [grixis, decks, index]
 issues: [59, 60, 61]
 generated_by: scripts/build_grixis.py
 sources: [grixis-repo, scryfall, spellbook]
-related: ["grixis/Grixis Evaluation.md", "EDH Deck Template.md", "EDH Standards.md", "grixis/Grixis Corrections.md", "grixis/Grixis Packages.md", "EDH Bracket Calibration.md"]
+related: ["EDH Standards.md", "grixis/Grixis Evaluation.md", "EDH Deck Template.md", "grixis/Grixis Corrections.md", "grixis/Grixis Packages.md", "EDH Bracket Calibration.md"]
 schema: 2
 ---
 
 # Grixis (U/B/R) Commander
 
-> **Bot cycle 16 import.** This section brings in the user's Grixis Commander work from [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) (commit `df1abb9`, read-only): the user-approved, refined decklists, each with its commander-first blueprint, swap decisions and approval record quoted verbatim. Each list was re-validated against our card DB, corrected where needed, and given Game Changer counts, bracket floors and Commander Spellbook combos. Source analysis is **the source author's guidance**. Our facts come from Scryfall and Commander Spellbook. Built by `scripts/build_grixis.py`. Related: [EDH Standards](../EDH%20Standards.md) · [EDH Deck Template](../EDH%20Deck%20Template.md) · [EDH Deck Evaluation Checklist](../EDH%20Deck%20Evaluation%20Checklist.md) · [Grixis mana base](../EDH%20Mana%20Bases.md) · [data-derived Nekusar skeleton](../decks/nekusar-the-mindrazer.md)
+> **Bot cycle 16 import, refreshed in Bot cycle 37** (all 62 source lists are now APPROVED/LOCKED in the source). This section brings in the user's Grixis Commander work from [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) (commit `1836b97`, read-only): the user-approved, refined decklists, each with its commander-first blueprint, swap decisions and approval record quoted verbatim. Each list was re-validated against our card DB, corrected where needed, and given Game Changer counts, bracket floors and Commander Spellbook combos. Source analysis is **the source author's guidance**. Our facts come from Scryfall and Commander Spellbook. Built by `scripts/build_grixis.py`. Related: [EDH Standards](../EDH%20Standards.md) · [EDH Deck Template](../EDH%20Deck%20Template.md) · [EDH Deck Evaluation Checklist](../EDH%20Deck%20Evaluation%20Checklist.md) · [Grixis mana base](../EDH%20Mana%20Bases.md) · [data-derived Nekusar skeleton](../decks/nekusar-the-mindrazer.md)
 
 ## Contents
 - [Pages](#pages)
@@ -24,9 +24,9 @@ schema: 2
 |---|---|
 | [Grixis Integration Summary](Grixis%20Integration%20Summary.md) | What was integrated, what was generalized, and follow-ups |
 | [Grixis Evaluation](Grixis%20Evaluation.md) | Check results for all 62 source lists, and how each current list was chosen |
-| [Grixis Corrections](Grixis%20Corrections.md) | All 87 corrections (deck, issue, fix), the Oracle-text check, source-repo structural findings |
-| [Grixis Packages](Grixis%20Packages.md) | Cross-deck package library (cards shared by 4 or more of the 40 lists, by role) and verified rules insights |
-| [decks/](decks/) | 40 validated deck pages |
+| [Grixis Corrections](Grixis%20Corrections.md) | All 129 corrections (deck, issue, fix), the Oracle-text check, source-repo structural findings |
+| [Grixis Packages](Grixis%20Packages.md) | Cross-deck package library (cards shared by 4 or more of the 60 lists, by role) and verified rules insights |
+| [decks/](decks/) | 60 validated deck pages |
 
 ## Decks
 
@@ -74,31 +74,31 @@ schema: 2
 | [Missy](decks/missy.md) | Cybermen / Morph / Aristocrats | 7 | 4 | 4 — Optimized | 17 / 0 | 35 | 2.72 | 2 |
 | [Nathan Drake, Treasure Hunter](decks/nathan-drake-treasure-hunter.md) | Theft / Attack Triggers / Exile | 9 | 4 | 4 — Optimized | 0 / 0 | 34 | 2.91 | 2 |
 | [Nekusar, the Mindrazer](decks/nekusar-the-mindrazer.md) | Wheels / Draw Punishment / Group Slug | 15 | 4 | 4 — Optimized | 7 / 5 | 35 | 2.67 | 2 |
+| [Nicol Bolas](decks/nicol-bolas.md) | Discard / Commander Damage / Control | 14 | 4 | 4 — Optimized | 1 / 1 | 37 | 2.48 | 2 |
+| [Nicol Bolas, the Ravager // Nicol Bolas, the Arisen](decks/nicol-bolas-the-ravager.md) | Superfriends / Transform / Proliferate | 16 | 4 | 4 — Optimized | 3 / 1 | 34 | 3.14 | 2 |
+| [Norman Osborn // Green Goblin](decks/norman-osborn.md) | Mayhem / Graveyard Casting / Turbo Combo | 19 | 4 | 5 — cEDH | 7 / 1 | 23 | 1.87 | 2 |
+| [Obeka, Brute Chronologist](decks/obeka-brute-chronologist.md) | Extra Turns / Delayed Triggers / Clones | 13 | 4 | 4 — Optimized | 4 / 2 | 34 | 2.78 | 2 |
+| [Obeka, Splitter of Seconds](decks/obeka-splitter-of-seconds.md) | Extra Upkeeps / Combat Damage / Upkeep Triggers | 6 | 4 | 4 — Optimized | 5 / 0 | 35 | 2.89 | 2 |
+| [Parnesse, the Subtle Brush](decks/parnesse-the-subtle-brush.md) | Spell Copy / Politics / Spellslinger | 3 | 3 | 4 — Optimized | 25 / 21 | 35 | 3.00 | 2 |
+| [Rograkh, Son of Rohgahh + Silas Renn, Seeker Adept](decks/rograkh-son-of-rohgahh-silas-renn.md) | Turbo Naus / Underworld Breach / Fast Mana | 19 | 4 | 5 — cEDH | 7 / 1 | 24 | 1.82 | 2 |
+| [Saruman, the White Hand](decks/saruman-the-white-hand.md) | Spellslinger / Amass / Orc Army | 11 | 4 | 4 — Optimized | 1 / 1 | 31 | 3.35 | 3 |
+| [Sauron, Lord of the Rings](decks/sauron-lord-of-the-rings.md) | Reanimator / Graveyard Setup / Amass Orcs | 11 | 4 | 4 — Optimized | 0 / 0 | 32 | 3.51 | 2 |
+| [Sauron, the Dark Lord](decks/sauron-the-dark-lord.md) | Amass Orcs / Ring Temptation / Wraiths | 12 | 4 | 4 — Optimized | 0 / 0 | 34 | 2.97 | 2 |
+| [Sedris, the Traitor King](decks/sedris-the-traitor-king.md) | Unearth / Reanimator / End-Step Control | 12 | 4 | 4 — Optimized | 1 / 1 | 31 | 3.43 | 3 |
+| [Sol'Kanar the Tainted](decks/solkanar-the-tainted.md) | Donate / Blink / Giftable Curses | 7 | 4 | 4 — Optimized | 4 / 0 | 35 | 3.03 | 2 |
+| [Sol'kanar the Swamp King](decks/solkanar-the-swamp-king.md) | Black Spells / Lifegain / Swamp Matters | 13 | 4 | 4 — Optimized | 13 / 11 | 35 | 2.66 | 2 |
+| [Tetsuo Umezawa](decks/tetsuo-umezawa.md) | Tap/Untap / Forced Combat / Activated Abilities | 4 | 4 | 4 — Optimized | 1 / 1 | 35 | 2.75 | 2 |
+| [Tetsuo, Imperial Champion](decks/tetsuo-imperial-champion.md) | Equipment / Free-Cast Spells / Extra Combats | 5 | 4 | 4 — Optimized | 2 / 2 | 35 | 3.19 | 2 |
+| [The Rani](decks/the-rani.md) | Goad / Clues / Forced Combat | 8 | 4 | 4 — Optimized | 0 / 0 | 33 | 3.02 | 2 |
+| [The Valeyard](decks/the-valeyard.md) | Villainous Choice / Voting / Political Control | 6 | 4 | 4 — Optimized | 0 / 0 | 36 | 3.60 | 2 |
+| [Thraximundar](decks/thraximundar.md) | Sacrifice / Zombie Aristocrats / Commander Damage | 8 | 4 | 4 — Optimized | 17 / 1 | 36 | 2.78 | 2 |
+| [Wick, the Whorled Mind](decks/wick-the-whorled-mind.md) | — | 5 | 4 | 4 — Optimized | 13 / 1 | 35 | 2.55 | 2 |
+| [Zevlor, Elturel Exile](decks/zevlor-elturel-exile.md) | — | 11 | 4 | 4 — natural ceiling | 1 / 1 | 34 | 2.74 | 2 |
 
 ## What was left out
 
-22 of 62 source lists are left out. Their check results are in [Grixis Evaluation](Grixis%20Evaluation.md#per-list-results).
+2 of 62 source lists are left out. Their check results are in [Grixis Evaluation](Grixis%20Evaluation.md#per-list-results).
 
-- **Norman Osborn // Green Goblin** (`Goben__Gene_Splice_Savant`): not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import.
-- **Nicol Bolas** (`Nicol_Bolas`): not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import.
-- **Nicol Bolas, the Ravager // Nicol Bolas, the Arisen** (`Nicol_Bolas__the_Ravager`): not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import.
-- **Obeka, Brute Chronologist** (`Obeka__Brute_Chronologist`): not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import.
-- **Obeka, Splitter of Seconds** (`Obeka__Splitter_of_Seconds`): not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import.
-- **Parnesse, the Subtle Brush** (`Parnesse__the_Subtle_Brush`): not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import.
-- **Rograkh, Son of Rohgahh + Silas Renn, Seeker Adept** (`RogSi`): not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import.
-- **Saruman, the White Hand** (`Saruman__the_White_Hand`): not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import.
-- **Sauron, Lord of the Rings** (`Sauron__Lord_of_the_Rings`): not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import.
-- **Sauron, the Dark Lord** (`Sauron__the_Dark_Lord`): not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import.
-- **Sedris, the Traitor King** (`Sedris__the_Traitor_King`): not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import.
-- **Sol'kanar the Swamp King** (`Sol_kanar_the_Swamp_King`): not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import.
-- **Sol'Kanar the Tainted** (`Sol_kanar_the_Tainted`): not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import.
-- **Tetsuo Umezawa** (`Tetsuo_Umezawa`): not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import.
-- **Tetsuo, Imperial Champion** (`Tetsuo__Imperial_Champion`): not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import.
-- **The Madcap Jester** (`The_Madcap_Jester`): future-release: The commander and Dragon's Smile come from Scryfall set `mbc` (draft_innovation), releasing 2026-10-19. Both are `not_legal` in Commander today, and the source registers them as a *future-release* exception. Re-check after release.
-- **The Rani** (`The_Rani`): not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import.
-- **The Valeyard** (`The_Valeyard`): not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import.
-- **Thraximundar** (`Thraximundar`): not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import.
-- **Tresserhorn's Lord, Returned** (`Tresserhorn_s_Lord__Returned`): future-release: The commander is in set `mbc` (releasing 2026-10-19) and is `not_legal` in Commander today. The source registers it as a *future-release* exception.
-- **Wick, the Whorled Mind** (`Wick__the_Whorled_Mind`): not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import.
-- **Zevlor, Elturel Exile** (`Zevlor__Elturel_Exile`): not integrated: the source repo marks this list UNREFINED (its whole-list audit has not run yet). Validation results are kept here for a later import.
+- **The Madcap Jester** (`The_Madcap_Jester`): future-release: The commander and Dragon's Smile come from Scryfall set `mbc` (draft_innovation), releasing 2026-10-19. Both are `not_legal` in Commander today (Scryfall, re-checked 2026-10-16), and the source's 2026-10-15 approval keeps them under its registered *future-release* exceptions. Re-check after release.
+- **Tresserhorn's Lord, Returned** (`Tresserhorn_s_Lord__Returned`): future-release: The commander is in set `mbc` (releasing 2026-10-19) and is `not_legal` in Commander today (Scryfall, re-checked 2026-10-16). ⚠️ The source's 2026-10-15 approval record calls its earlier future-release exception "historical only" and reports "current official Commander legality PASS"; Scryfall does not agree yet. Re-check after release.
 

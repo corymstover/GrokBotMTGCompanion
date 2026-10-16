@@ -1553,7 +1553,7 @@ schema: 2
   > *—\*Phyrexian Scriptures\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #307 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 13 pages (7 decks · 5 edh guides · 1 card data) → [reverse index](../../references/P.md#phyrexian-altar)
+- **Referenced in:** 15 pages (9 decks · 5 edh guides · 1 card data) → [reverse index](../../references/P.md#phyrexian-altar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/311/phyrexian-altar) · oracle_id `8d02b297-97c4-4379-9862-0a462400f66f` · printing: 2X2 #311 (2022-07-08) · [rulings](https://api.scryfall.com/cards/95d9f93c-50a8-41a9-be98-d1900bf1c12f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Archivist
@@ -1582,8 +1582,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #104 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
 - **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): ONE #104 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (4): [Edgar Markov](../../decks/edgar-markov.md) · [K'rrik, Son of Yawgmoth](../../decks/krrik-son-of-yawgmoth.md) · [Teysa Karlov](../../decks/teysa-karlov.md) · [Zur the Enchanter](../../decks/zur-the-enchanter.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 772,384 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (43.7% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (28.5% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (19.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 9 pages (4 decks · 3 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/P.md#phyrexian-arena)
+- **Synergy:** *Proven* — KB decks (5): [Edgar Markov](../../decks/edgar-markov.md) · [K'rrik, Son of Yawgmoth](../../decks/krrik-son-of-yawgmoth.md) · [Teysa Karlov](../../decks/teysa-karlov.md) · [Zur the Enchanter](../../decks/zur-the-enchanter.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 772,384 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (43.7% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (28.5% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (19.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 10 pages (5 decks · 3 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/P.md#phyrexian-arena)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/180/phyrexian-arena) · oracle_id `ee579a32-a048-4335-b966-231ba731cdea` · printing: FDN #180 (2024-11-15) · [rulings](https://api.scryfall.com/cards/0784b6f0-9ebf-43d2-ba0f-a6bc93ba0c48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Atlas
@@ -2645,7 +2645,7 @@ schema: 2
   > *—Koth*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #194 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 12 pages (8 decks · 3 edh guides · 1 card data) → [reverse index](../../references/P.md#phyrexian-tower)
+- **Referenced in:** 18 pages (13 decks · 4 edh guides · 1 card data) → [reverse index](../../references/P.md#phyrexian-tower)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/303/phyrexian-tower) · oracle_id `1861e642-21d5-4232-89f3-b5557f2946c1` · printing: MH3 #303 (2024-06-14) · [rulings](https://api.scryfall.com/cards/0b47f6d2-9f65-47a4-bfc4-15619befe53d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Tribute

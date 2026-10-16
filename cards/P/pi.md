@@ -762,6 +762,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9760 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-04-15* — If you target yourself, you’ll put the top two cards of your library into your graveyard before drawing cards.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#pilfered-plans)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/178/pilfered-plans) · oracle_id `b734cfd9-afef-41f1-8377-68c885fb3a69` · printing: MM3 #178 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pilfering Hawk
@@ -1488,7 +1489,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3129 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-10-04* — The control-change effect of Piper of the Swarm's last ability lasts indefinitely. It doesn't wear off during the cleanup step, and it doesn't expire if Piper of the Swarm leaves the battlefield. In a multiplayer game, it does expire if you leave the game.
-- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/P.md#piper-of-the-swarm)
+- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/P.md#piper-of-the-swarm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/106/piper-of-the-swarm) · oracle_id `a6c5c5ea-0bd0-4d5a-bd3f-6217f14c9939` · printing: AFC #106 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Piper's Melody
@@ -2114,7 +2115,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #224 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-01-19* — If Pitiless Plunderer dies at the same time as one or more other creatures you control, its ability will still trigger for each of those other creatures.
-- **Referenced in:** 16 pages (8 decks · 7 edh guides · 1 card data) → [reverse index](../../references/P.md#pitiless-plunderer)
+- **Referenced in:** 18 pages (10 decks · 7 edh guides · 1 card data) → [reverse index](../../references/P.md#pitiless-plunderer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/208/pitiless-plunderer) · oracle_id `a784481f-eccb-4112-bb38-04a659319660` · printing: LCC #208 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pitiless Pontiff

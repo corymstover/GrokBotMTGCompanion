@@ -103,7 +103,7 @@ schema: 2
   - *2022-12-08* — Maze of Ith doesn't have a mana ability. It doesn't tap for colorless mana.
   - *2022-12-08* — The creature isn't removed from combat; it just has its damage prevented. It's still an attacking creature until the combat phase is complete.
   - *2022-12-08* — You can activate Maze of Ith's ability targeting an attacking creature you control during the combat damage step or the end of combat step, even though it will already have dealt combat damage. This will untap the creature. The damage it dealt will be unaffected.
-- **Referenced in:** 2 pages (1 edh guides · 1 rules) → [reverse index](../../references/M.md#maze-of-ith)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 rules) → [reverse index](../../references/M.md#maze-of-ith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/250/maze-of-ith) · oracle_id `38a12bd7-4394-44a8-91a0-6a4ff7fa4f71` · printing: DMR #250 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maze of Shadows

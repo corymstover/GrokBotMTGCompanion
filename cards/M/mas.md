@@ -413,7 +413,7 @@ schema: 2
   - *2021-02-05* — Replacement effects that modify how creatures of a certain creature type enter the battlefield will apply after you apply the effect of Maskwood Nexus. For example, if you control Maskwood Nexus and an effect says that each Warrior you control enters the battlefield with an additional +1/+1 counter on it, any creature that enters the battlefield under your control will get that counter.
   - *2021-02-05* — The subtype Shapeshifter that appears on the type line is mostly there to reinforce the flavor. A creature card with changeling is just as much an Elf, a Dwarf, a Sliver, a Goat, a Coward, and a Zombie as it is a Shapeshifter.
   - *2021-02-05* — The tokens created by the activated ability will continue to have all creature types if Maskwood Nexus leaves the battlefield because those tokens have changeling. Other creatures you control will revert to their usual creature types unless another relevant effect is affecting them.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#maskwood-nexus)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#maskwood-nexus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/865/maskwood-nexus) · oracle_id `9b2cdbed-c733-409b-b0e4-2c8960c25111` · printing: CLB #865 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Massacre
@@ -509,6 +509,7 @@ schema: 2
   - *2020-06-23* — If your life total is brought to 0 or less at the same time that a creature an opponent controls is dealt lethal damage, you lose the game before Massacre Wurm's last ability goes on the stack.
   - *2020-06-23* — Massacre Wurm's first ability affects only creatures your opponents control at the time it resolves. Creatures they begin to control later in the turn won't get -2/-2.
   - *2020-06-23* — Massacre Wurm's triggered ability triggers if a creature an opponent controls dies for any reason, including from its first ability reducing its toughness to 0, as long as Massacre Wurm remains on the battlefield.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#massacre-wurm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/754/massacre-wurm) · oracle_id `93cf50cf-0ecc-4d3e-abea-778c1ebacec4` · printing: FDN #754 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mass Appeal

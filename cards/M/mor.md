@@ -513,6 +513,7 @@ schema: 2
   - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
   - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/M.md#moria-scavenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/63/moria-scavenger) · oracle_id `a598e824-ad8e-4947-896b-70c5275b615a` · printing: LTC #63 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morinfen
@@ -781,7 +782,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #149 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-06-08* — If you began the game with two or more opponents but now only have one opponent left, these lands enter the battlefield tapped.
-- **Referenced in:** 44 pages (40 decks · 3 edh guides · 1 card data) → [reverse index](../../references/M.md#morphic-pool)
+- **Referenced in:** 61 pages (57 decks · 3 edh guides · 1 card data) → [reverse index](../../references/M.md#morphic-pool)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/357/morphic-pool) · oracle_id `bd004c9d-771e-4e63-a97d-a2259c096af8` · printing: CLB #357 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morphling

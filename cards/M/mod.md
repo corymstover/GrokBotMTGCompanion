@@ -42,7 +42,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8816 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-06-16* — If multiple players are instructed to scry at once, those players each look at the top cards of their library at the same time, then they choose in turn order whether to put those cards on the top or bottom of their library and in what order.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#model-of-unity)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#model-of-unity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/78/model-of-unity) · oracle_id `d7b69fd7-e575-4009-8549-f576249ba641` · printing: LTC #78 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moderation

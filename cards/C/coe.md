@@ -93,6 +93,7 @@ schema: 2
   - *2026-03-20* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
   - *2026-03-20* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent protects, or the player that goaded it.
   - *2026-03-20* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#coercive-impetus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/24/coercive-impetus) · oracle_id `dbb8a3d9-6b1b-4ad1-b8b9-f92ead03d1d9` · printing: SOC #24 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coercive Portal
@@ -109,6 +110,7 @@ schema: 2
   - *2014-05-29* — Players can't do anything after they finish voting but before the spell or ability that included the vote finishes resolving.
   - *2014-05-29* — The phrase "the vote is tied" refers only to when there is more than one choice that received the most votes. For example, if a 5-player vote from among three different choices ends 3 votes to 1 vote to 1 vote, the vote isn't tied.
   - *2014-05-29* — You must vote for one of the available options. You can't abstain.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#coercive-portal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/266/coercive-portal) · oracle_id `eea4feef-2595-4ed2-92a0-11ccb3e7d40e` · printing: VMA #266 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coercive Recruiter

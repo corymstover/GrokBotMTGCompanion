@@ -281,7 +281,7 @@ schema: 2
   - *2023-06-16* — Cavern-Hoard Dragon's last ability cares about the number of artifacts that player controls as the ability resolves.
   - *2023-06-16* — If the greatest number of artifacts an opponent controls is seven or more, Cavern-Hoard Dragon costs {R}{R} to cast.
   - *2023-06-16* — Once a player has announced that they are casting Cavern-Hoard Dragon, no player may take actions to try and change the greatest number of artifacts an opponent controls before Cavern-Hoard Dragon's cost is locked in.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cavern-hoard-dragon)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/C.md#cavern-hoard-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/31/cavern-hoard-dragon) · oracle_id `939e8448-013a-4aef-9a92-7c883a77a1a0` · printing: LTC #31 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavern Lampad
@@ -317,7 +317,7 @@ schema: 2
   - *2018-12-07* — You must choose an existing creature type, such as Human or Warrior. Card types such as artifact can't be chosen.
   - *2023-11-10* — The spell can't be countered if the mana produced by Cavern of Souls is spent to cover any cost of the spell, even an additional cost such as a kicker cost. This is true even if you use the mana to pay an additional cost while casting a spell "without paying its mana cost."
   - *2023-11-10* — You must choose an existing creature type, such as Human or Warrior. Card types such as artifact can't be chosen.
-- **Referenced in:** 22 pages (17 decks · 3 edh guides · 2 card data) → [reverse index](../../references/C.md#cavern-of-souls)
+- **Referenced in:** 26 pages (21 decks · 3 edh guides · 2 card data) → [reverse index](../../references/C.md#cavern-of-souls)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/269/cavern-of-souls) · oracle_id `89ca686a-7c72-4d8f-9290-e89635624a83` · printing: LCI #269 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavernous Maw

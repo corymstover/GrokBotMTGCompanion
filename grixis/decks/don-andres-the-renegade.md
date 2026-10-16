@@ -16,7 +16,7 @@ schema: 2
 
 # Grixis Deck — Don Andres, the Renegade
 
-> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Don_Andres_the_Renegade_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Don_Andres_the_Renegade_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Don_Andres_the_Renegade_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Don_Andres_the_Renegade_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `1836b97`). Imported in Bot cycle 16; re-validated in Bot cycle 37 against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
 ## Contents
 - [Commander](#commander)
@@ -314,7 +314,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 ### From `refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md`
 
-Source: [refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md)
+Source: [refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md)
 
 **Don Andres, the Renegade — Current-Cycle Commander-First Blueprint**
 
@@ -359,7 +359,7 @@ The current refinement preserves CSV/TXT authority and manually evaluates all fi
 
 ### From `refinement/decisions/Don_Andres_the_Renegade_Current_Cycle_Decisions_2026-10-14.md`
 
-Source: [refinement/decisions/Don_Andres_the_Renegade_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Don_Andres_the_Renegade_Current_Cycle_Decisions_2026-10-14.md)
+Source: [refinement/decisions/Don_Andres_the_Renegade_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decisions/Don_Andres_the_Renegade_Current_Cycle_Decisions_2026-10-14.md)
 
 **Don Andres, the Renegade — Current-Cycle Refinement Decision Record**
 
@@ -436,7 +436,7 @@ Proposed tags: **Theft / Pirates / Treasure**
 
 ### From `refinement/approvals/Don_Andres_the_Renegade_Approved_2026-10-14.md`
 
-Source: [refinement/approvals/Don_Andres_the_Renegade_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Don_Andres_the_Renegade_Approved_2026-10-14.md)
+Source: [refinement/approvals/Don_Andres_the_Renegade_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/approvals/Don_Andres_the_Renegade_Approved_2026-10-14.md)
 
 **Don Andres, the Renegade — Current-Cycle Approval**
 
@@ -485,6 +485,6 @@ No future deck refinement may modify this approved list unless the user explicit
 - **Keywords → [Keyword Encyclopedia](../../Keyword%20Encyclopedia.md):** [Flying](../../Keyword%20Encyclopedia.md#flying) 5 · [First strike](../../Keyword%20Encyclopedia.md#first-strike) 2 · [Menace](../../Keyword%20Encyclopedia.md#menace) 2 · [Mill](../../Keyword%20Encyclopedia.md#mill) 2 · [Partner](../../Keyword%20Encyclopedia.md#partner) 2 · [Cipher](../../Keyword%20Encyclopedia.md#cipher) 1 · [Cycling](../../Keyword%20Encyclopedia.md#cycling) 1 · [Dash](../../Keyword%20Encyclopedia.md#dash) 1 · [Deathtouch](../../Keyword%20Encyclopedia.md#deathtouch) 1 · [Enchant](../../Keyword%20Encyclopedia.md#enchant) 1 · [Equip](../../Keyword%20Encyclopedia.md#equip) 1 · [Flash](../../Keyword%20Encyclopedia.md#flash) 1
 - **Rules sections citing cards in this list:** [Rules Interactions → Commander: color identity](../../Rules%20Interactions.md#commander-color-identity) (Arcane Signet, Command Tower, Path of Ancestry) · [Rules Interactions → Hexproof, shroud & ward](../../Rules%20Interactions.md#hexproof-shroud--ward) (Animate Dead, Cyclonic Rift) · [Rules Interactions → Protection](../../Rules%20Interactions.md#protection) (Animate Dead, Cyclonic Rift) · [Rules Interactions → Replacement effects vs. triggered abilities](../../Rules%20Interactions.md#replacement-effects-vs-triggered-abilities) (Exotic Orchard, Fellwar Stone) · [Keyword Encyclopedia → Cipher](../../Keyword%20Encyclopedia.md#cipher) (Arcane Heist) · [Keyword Encyclopedia → Dash](../../Keyword%20Encyclopedia.md#dash) (Ragavan, Nimble Pilferer) · [Keyword Encyclopedia → Enchant](../../Keyword%20Encyclopedia.md#enchant) (Animate Dead) · [Keyword Encyclopedia → Equip](../../Keyword%20Encyclopedia.md#equip) (Lightning Greaves) · …9 more sections
 - **Lore & story sections citing cards in this list:** [Art & Flavor Story Links → Captioned art on cited story pages](../../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Command Tower, Mana Confluence, Sulfur Falls) · [Planes Index → New Capenna](../../Planes%20Index.md#new-capenna) (Xander's Lounge)
-- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +26) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Breeches, Eager Pillager, Dimir Signet +10) · [EDH Upgrade Paths → Prosper, Tome-Bound](../../EDH%20Upgrade%20Paths.md#prosper-tome-bound) (Badlands, Blood Crypt, Bloodstained Mire +8) · [EDH Packages → Ramp: Mana rocks (MV ≤ 2)](../../EDH%20Packages.md#ramp-mana-rocks-mv--2) (Arcane Signet, Dimir Signet, Fellwar Stone +6) · [EDH Upgrade Paths → Nekusar, the Mindrazer](../../EDH%20Upgrade%20Paths.md#nekusar-the-mindrazer) (Badlands, Blood Crypt, Bloodstained Mire +6) · [Grixis Packages → Removal](../../grixis/Grixis%20Packages.md#removal) (Blasphemous Act, Chaos Warp, Cyclonic Rift +6) · …84 more sections
+- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +26) · [EDH Upgrade Paths → Prosper, Tome-Bound](../../EDH%20Upgrade%20Paths.md#prosper-tome-bound) (Badlands, Blood Crypt, Bloodstained Mire +8) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Breeches, Eager Pillager, Dimir Signet +8) · [EDH Packages → Ramp: Mana rocks (MV ≤ 2)](../../EDH%20Packages.md#ramp-mana-rocks-mv--2) (Arcane Signet, Dimir Signet, Fellwar Stone +6) · [EDH Upgrade Paths → Nekusar, the Mindrazer](../../EDH%20Upgrade%20Paths.md#nekusar-the-mindrazer) (Badlands, Blood Crypt, Bloodstained Mire +6) · [Grixis Packages → Removal](../../grixis/Grixis%20Packages.md#removal) (Blasphemous Act, Chaos Warp, Cyclonic Rift +6) · …84 more sections
 - **Decks sharing the most cards:** [Nathan Drake, Treasure Hunter (Grixis)](../../grixis/decks/nathan-drake-treasure-hunter.md) 65 · [Admiral Brass, Unsinkable (Grixis)](../../grixis/decks/admiral-brass-unsinkable.md) 58 · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) 57 · [Edward Kenway (Grixis)](../../grixis/decks/edward-kenway.md) 52
 <!-- CROSSREFS:END -->

@@ -591,7 +591,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-12-07* — You draw two cards and discard two cards all while Frantic Search is resolving. Nothing can happen between the two, and no player may choose to take actions.
   - *2022-12-08* — You choose which lands to untap as the spell resolves. They aren't targeted, and they don't have to be lands that you control.
-- **Referenced in:** 14 pages (9 decks · 3 edh guides · 2 card data) → [reverse index](../../references/F.md#frantic-search)
+- **Referenced in:** 22 pages (17 decks · 3 edh guides · 2 card data) → [reverse index](../../references/F.md#frantic-search)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/159/frantic-search) · oracle_id `16e015b2-f8a3-4b1a-80be-58a8f5fb5e8c` · printing: TLE #159 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frantic Strength
@@ -2668,6 +2668,7 @@ schema: 2
   - *2007-02-01* — It affects all opponents.
   - *2007-02-01* — It applies to cards and tokens that are put onto the battlefield by an effect, as well as ones that are played from the player's hand.
   - *2007-02-01* — The appropriate permanents enter tapped. They do not enter untapped and then immediately tap, therefore they do not trigger any effects due to tapping.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/F.md#frozen-aether)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plc/54/frozen-aether) · oracle_id `32452ccf-88c7-41d6-93e5-15d31f29726d` · printing: PLC #54 (2007-02-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frozen in Ice

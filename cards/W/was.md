@@ -298,7 +298,7 @@ schema: 2
   > Whenever an opponent discards a noncreature, nonland card, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1255 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 9 pages (7 decks · 1 edh guides · 1 card data) → [reverse index](../../references/W.md#waste-not)
+- **Referenced in:** 10 pages (8 decks · 1 edh guides · 1 card data) → [reverse index](../../references/W.md#waste-not)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/117/waste-not) · oracle_id `00fdcc19-88ed-46c3-91f0-095806228105` · printing: C16 #117 (2016-11-11) · [rulings](https://api.scryfall.com/cards/2f5500a2-c6d6-40d7-b586-59b854733160/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wastes

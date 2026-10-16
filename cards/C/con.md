@@ -1264,7 +1264,7 @@ schema: 2
   - *2020-08-07* — If you gain control of a creature “until end of turn,” you control it during that turn's end step.
   - *2020-08-07* — Once the exiled creature returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled creature will be put into their owners' graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
   - *2020-08-07* — When an effect returns the exiled card “under your control,” you control it indefinitely after that. In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any creatures you control from Conjurer's Closet effect are exiled.
-- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/C.md#conjurers-closet)
+- **Referenced in:** 3 pages (2 decks · 1 rules) → [reverse index](../../references/C.md#conjurers-closet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/259/conjurers-closet) · oracle_id `cd1eda60-53e4-44d0-9b2c-7a57395e291f` · printing: INR #259 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Conjurer's Mantle
@@ -1368,7 +1368,7 @@ schema: 2
   - *2016-11-08* — If Conquerer's Flail is attached to a creature you control and you activate its equip ability targeting another creature you control, there's no time in between activating that ability and the resolution of that ability during which it's not attached to a creature. Assuming it's your turn, your opponents won't be able to cast spells.
   - *2016-11-08* — The first ability of Conqueror's Flail constantly updates as the number of colors among permanents you control changes. If the number of colors decreases and the damage that was marked on the equipped creature earlier in the turn is now lethal damage, that creature is destroyed. Similarly, if its toughness becomes 0, that creature is put into its owner's graveyard.
   - *2016-11-08* — The five colors are white, blue, black, red, and green. Conqueror's Flail can't give a creature more than +5/+5. (Gold, artifact, and colorless aren't colors.)
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/C.md#conquerors-flail)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/C.md#conquerors-flail)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/302/conquerors-flail) · oracle_id `9aace0d3-89e6-4254-b96f-ee3a878f2f91` · printing: 2X2 #302 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Conqueror's Galleon // Conqueror's Foothold
@@ -2170,7 +2170,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-06-07* — If the target creature or planeswalker is an illegal target as Consuming Corruption tries to resolve, it won't resolve and none of its effects will happen. You won't gain life.
   - *2024-06-07* — The value of X is calculated only once, as Consuming Corruption resolves.
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#consuming-corruption)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/C.md#consuming-corruption)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/84/consuming-corruption) · oracle_id `3bc0bd36-70be-4180-9fb3-b10ce054107b` · printing: MH3 #84 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Consuming Ferocity
@@ -3071,6 +3071,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12017 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-07* — Convergence of Dominion doesn't allow you to activate abilities of cards in graveyards unless you could already activate those abilities.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#convergence-of-dominion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/154/convergence-of-dominion) · oracle_id `655aece2-f33a-46e0-8f80-112ae8a457fe` · printing: 40K #154 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Conversion

@@ -2105,8 +2105,8 @@ schema: 2
   - *2022-04-29* — The triggered ability that lets its controller draw a card triggers when it dies for any reason, not just when you sacrifice it during the end step.
   - *2022-04-29* — You don't have to attack with the creature with blitz unless another ability says you do.
 - **Lore:** ✅ Presented with an official backstory on [The Legends You'll Find in Streets of New Capenna](https://magic.wizards.com/en/news/feature/the-legends-youll-find-in-streets-of-new-capenna) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 49 combos; most popular [Jaxis, the Troublemaker + Zealous Conscripts + Phyrexian Altar](https://commanderspellbook.com/combo/1537-2532-4050/) (Infinite draw triggers, Infinite rummaging) · EDHREC as commander: 1,298 decks; highest synergy [Solemn Simulacrum](../../cards/S/so.md#solemn-simulacrum) (+64%), [Feldon of the Third Path](../../cards/F/fe.md#feldon-of-the-third-path) (+61%), [Containment Construct](../../cards/C/con.md#containment-construct) (+54%) · EDHREC: in 93,641 decks; most often under [Etali, Primal Conqueror](../../cards/E/et.md#etali-primal-conqueror--etali-primal-sickness) (74.5% of its decks), [Deadpool, Trading Card](../../cards/D/dea.md#deadpool-trading-card) (61.1% of its decks), [Obeka, Brute Chronologist](../../cards/O/ob.md#obeka-brute-chronologist) (54.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/J.md#jaxis-the-troublemaker)
+- **Synergy:** *Proven* — KB decks (1): [Obeka, Brute Chronologist (Grixis)](../../grixis/decks/obeka-brute-chronologist.md) · Commander Spellbook: 49 combos; most popular [Jaxis, the Troublemaker + Zealous Conscripts + Phyrexian Altar](https://commanderspellbook.com/combo/1537-2532-4050/) (Infinite draw triggers, Infinite rummaging) · EDHREC as commander: 1,298 decks; highest synergy [Solemn Simulacrum](../../cards/S/so.md#solemn-simulacrum) (+64%), [Feldon of the Third Path](../../cards/F/fe.md#feldon-of-the-third-path) (+61%), [Containment Construct](../../cards/C/con.md#containment-construct) (+54%) · EDHREC: in 93,641 decks; most often under [Etali, Primal Conqueror](../../cards/E/et.md#etali-primal-conqueror--etali-primal-sickness) (74.5% of its decks), [Deadpool, Trading Card](../../cards/D/dea.md#deadpool-trading-card) (61.1% of its decks), [Obeka, Brute Chronologist](../../cards/O/ob.md#obeka-brute-chronologist) (54.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/J.md#jaxis-the-troublemaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/112/jaxis-the-troublemaker) · oracle_id `764121bf-535d-40d0-ab9d-65486da31734` · printing: SNC #112 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jaya Ballard
@@ -2230,6 +2230,7 @@ schema: 2
   - *2023-07-28* — Copying a loyalty ability doesn't add or remove loyalty counters from any object.
   - *2023-07-28* — If the loyalty ability has -X in its cost, the copy uses the same value of X.
   - *2023-07-28* — The copy of the loyalty ability resolves before the loyalty ability it's copying. It resolves even if that loyalty ability is countered.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/J.md#jayas-phoenix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/738/jayas-phoenix) · oracle_id `c6a67820-5066-462f-a621-1ecab8bf4f97` · printing: CMM #738 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jaya, Venerated Firemage

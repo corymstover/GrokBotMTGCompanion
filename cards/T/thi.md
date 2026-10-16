@@ -694,7 +694,7 @@ schema: 2
   - *2023-10-13* — A player facing a villainous choice can always choose either option, even if one or both of the options are impossible. For example, if one of the options is to sacrifice a creature, a player who controls no creatures can still choose that option.
   - *2023-10-13* — If a spell or ability requires multiple players to face a villainous choice, the result is a little different from other effects in Magic. In that case, the first player in turn order makes their choice and the action for that choice is performed before the next player makes their choice. Then each of the remaining players repeat this process in turn order.
   - *2023-10-13* — When a player faces a villainous choice, they first choose one of the two options, then all actions in the chosen option are performed.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#this-is-how-it-ends)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/T.md#this-is-how-it-ends)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/70/this-is-how-it-ends) · oracle_id `53467cf4-5db2-4b9c-af2b-03b044c558cd` · printing: WHO #70 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thistledown Duo

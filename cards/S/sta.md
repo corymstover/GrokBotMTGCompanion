@@ -1927,7 +1927,7 @@ schema: 2
   - *2024-07-26* — The token copies exactly what was printed on the original creature and nothing else, except it’s a 1/1 (unless that creature is copying something else; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its types, color, or so on.
   - *2024-07-26* — The token created by the offspring ability isn’t “cast”, so abilities that trigger when a creature spell is cast won’t trigger for the copy.
   - *2024-07-26* — You can pay an offspring cost only once as you cast a spell with offspring. You can’t try to pay it multiple times to get more token copies.
-- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#starscape-cleric)
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/S.md#starscape-cleric)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/116/starscape-cleric) · oracle_id `8d72ddb3-ef6e-4847-b6d4-5d85b1dd5802` · printing: BLB #116 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Starscream, Power Hungry // Starscream, Seeker Leader

@@ -739,7 +739,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #831 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/W.md#wonder)
+- **Referenced in:** 6 pages (5 decks · 1 edh guides) → [reverse index](../../references/W.md#wonder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/170/wonder) · oracle_id `232284f7-c623-4895-9ab9-8b1a39926830` · printing: TDC #170 (2025-04-11) · [rulings](https://api.scryfall.com/cards/567abd78-d4a3-4a33-9b5b-b5ca361059cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wonder Man, Hollywood Hero
@@ -886,8 +886,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #47 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
 - **Lore:** ✅ Card art shown on [Victory](https://magic.wizards.com/en/news/magic-story/victory-2014-11-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (18): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Saskia the Unyielding](../../decks/saskia-the-unyielding.md) · [The Ur-Dragon](../../decks/the-ur-dragon.md) … · Commander Spellbook: 31 combos; most popular [Tifa Lockhart + Scale Up + Wooded Foothills](https://commanderspellbook.com/combo/7675-7676-8101/) (Target opponent loses the game) · EDHREC: in 1,102,650 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (39.7% of its decks), [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (42.6% of its decks), [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (38.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 23 pages (18 decks · 3 edh guides · 2 card data) → [reverse index](../../references/W.md#wooded-foothills)
+- **Synergy:** *Proven* — KB decks (26): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Saskia the Unyielding](../../decks/saskia-the-unyielding.md) · [The Ur-Dragon](../../decks/the-ur-dragon.md) … · Commander Spellbook: 31 combos; most popular [Tifa Lockhart + Scale Up + Wooded Foothills](https://commanderspellbook.com/combo/7675-7676-8101/) (Target opponent loses the game) · EDHREC: in 1,102,650 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (39.7% of its decks), [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (42.6% of its decks), [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (38.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 31 pages (26 decks · 3 edh guides · 2 card data) → [reverse index](../../references/W.md#wooded-foothills)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/236/wooded-foothills) · oracle_id `6587a463-a108-4854-b6d1-944e89b8c8a4` · printing: MH3 #236 (2024-06-14) · [rulings](https://api.scryfall.com/cards/4e11ea8a-f895-438d-a3b7-f070238e4161/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wooded Ridgeline
@@ -1775,7 +1775,7 @@ schema: 2
   - *2010-06-15* — Rebound will have no effect on copies of spells because you don’t cast them from your hand.
   - *2010-06-15* — Unlike other similar cards (such as Relentless Assault), World at War doesn’t untap the creatures that have attacked this turn when it resolves. Rather, those creatures untap when the new combat phase created by the spell begins. All creatures that attacked this turn untap, regardless of which combat phase they attacked in (if there have been more than one) or who controls them (if you’re playing a Two-Headed Giant game, for example).
   - *2010-06-15* — You don’t have to attack with any creatures during the new combat phase.
-- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/W.md#world-at-war)
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/W.md#world-at-war)
 - **Source flags:** [Scryfall](https://scryfall.com/card/roe/172/world-at-war) · oracle_id `02a8a5cc-62ce-4ae5-aa7d-760124af7d7b` · printing: ROE #172 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### World-Bottling Kit
@@ -2333,6 +2333,7 @@ schema: 2
   - *2014-04-26* — You only control the player. You don't control any of their permanents, spells, or abilities.
   - *2016-07-13* — Controlling a player doesn't allow you to look at that player's sideboard. If an effect instructs that player to choose a card from outside the game, you can't have that player choose any card.
   - *2016-07-13* — While controlling another player, you can see all cards in the game that player can see. This includes cards in that player's hand, face-down cards that player controls, and any cards in that player's library the player may look at.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#worst-fears)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/87/worst-fears) · oracle_id `face0a43-6604-4508-b511-81ab0bef7b18` · printing: JOU #87 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wort, Boggart Auntie

@@ -16,7 +16,7 @@ schema: 2
 
 # Grixis Deck — Crosis, the Purger
 
-> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Crosis_the_Purger_Approval_Candidate_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Crosis_the_Purger_Approval_Candidate_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Crosis_the_Purger_Approval_Candidate_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Crosis_the_Purger_Approval_Candidate_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `1836b97`). Imported in Bot cycle 16; re-validated in Bot cycle 37 against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
 ## Contents
 - [Commander](#commander)
@@ -300,7 +300,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 ### From `refinement/blueprints/Crosis_the_Purger_v1.md`
 
-Source: [refinement/blueprints/Crosis_the_Purger_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Crosis_the_Purger_v1.md)
+Source: [refinement/blueprints/Crosis_the_Purger_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/blueprints/Crosis_the_Purger_v1.md)
 
 **Crosis, the Purger — Commander-First Blueprint**
 
@@ -326,7 +326,7 @@ The tradeoff is losing Brotherhood Regalia's ward {2} and limited evasion suppor
 
 ### From `refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md`
 
-Source: [refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md)
+Source: [refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decisions/Crosis_the_Purger_Current_Cycle_Decisions_2026-10-14.md)
 
 **Crosis, the Purger — Current-Cycle Refinement Decision Record**
 
@@ -383,7 +383,7 @@ Explicit user approval was received on **2026-10-14**. The list with SHA-256 `a5
 
 ### Further source evidence (linked, not copied)
 
-- [refinement/verification/Crosis_the_Purger_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Crosis_the_Purger_Final_Verification_2026-10-13.md)
+- [refinement/verification/Crosis_the_Purger_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Crosis_the_Purger_Final_Verification_2026-10-13.md)
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
@@ -406,6 +406,6 @@ Explicit user approval was received on **2026-10-14**. The list with SHA-256 `a5
 - **Keywords → [Keyword Encyclopedia](../../Keyword%20Encyclopedia.md):** [Equip](../../Keyword%20Encyclopedia.md#equip) 4 · [Flying](../../Keyword%20Encyclopedia.md#flying) 4 · [Flash](../../Keyword%20Encyclopedia.md#flash) 2 · [Amass](../../Keyword%20Encyclopedia.md#amass) 1 · [Cycling](../../Keyword%20Encyclopedia.md#cycling) 1 · [Escape](../../Keyword%20Encyclopedia.md#escape) 1 · [Kicker](../../Keyword%20Encyclopedia.md#kicker) 1 · [Menace](../../Keyword%20Encyclopedia.md#menace) 1 · [Overload](../../Keyword%20Encyclopedia.md#overload) 1 · [Protection](../../Keyword%20Encyclopedia.md#protection) 1 · [Surveil](../../Keyword%20Encyclopedia.md#surveil) 1 · [Unearth](../../Keyword%20Encyclopedia.md#unearth) 1
 - **Rules sections citing cards in this list:** [Keyword Encyclopedia → Equip](../../Keyword%20Encyclopedia.md#equip) (Lightning Greaves, Swiftfoot Boots) · [Rules Interactions → Commander: color identity](../../Rules%20Interactions.md#commander-color-identity) (Arcane Signet, Command Tower) · [Keyword Encyclopedia → Amass](../../Keyword%20Encyclopedia.md#amass) (Orcish Bowmasters) · [Keyword Encyclopedia → Escape](../../Keyword%20Encyclopedia.md#escape) (Kroxa, Titan of Death's Hunger) · [Keyword Encyclopedia → Flash](../../Keyword%20Encyclopedia.md#flash) (Orcish Bowmasters) · [Keyword Encyclopedia → Menace](../../Keyword%20Encyclopedia.md#menace) (Tergrid, God of Fright // Tergrid's Lantern) · [Keyword Encyclopedia → Overload](../../Keyword%20Encyclopedia.md#overload) (Cyclonic Rift) · [Rules Interactions → Combat damage assignment](../../Rules%20Interactions.md#combat-damage-assignment) (Sword of Feast and Famine) · …3 more sections
 - **Lore & story sections citing cards in this list:** [Art & Flavor Story Links → Captioned art on cited story pages](../../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Command Tower, Damnation, Mana Confluence) · [Planes Index → Kaldheim](../../Planes%20Index.md#kaldheim) (Tergrid, God of Fright // Tergrid's Lantern) · [Planes Index → New Capenna](../../Planes%20Index.md#new-capenna) (Xander's Lounge)
-- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +19) · [EDH Standards → Game Changers](../../EDH%20Standards.md#game-changers) (Ancient Tomb, Chrome Mox, Cyclonic Rift +11) · [EDH Upgrade Paths → Nekusar, the Mindrazer](../../EDH%20Upgrade%20Paths.md#nekusar-the-mindrazer) (Badlands, Blood Crypt, Bloodstained Mire +11) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Chrome Mox, Dark Ritual +11) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (Deflecting Swat, Fierce Guardianship, Force of Will +7) · [EDH Packages → Ramp: Mana rocks (MV ≤ 2)](../../EDH%20Packages.md#ramp-mana-rocks-mv--2) (Arcane Signet, Dimir Signet, Izzet Signet +5) · …92 more sections
-- **Decks sharing the most cards:** [Gwendlyn Di Corci (Grixis)](../../grixis/decks/gwendlyn-di-corci.md) 58 · [Nekusar, the Mindrazer (Grixis)](../../grixis/decks/nekusar-the-mindrazer.md) 51 · [Garza Zol, Plague Queen (Grixis)](../../grixis/decks/garza-zol-plague-queen.md) 48 · [Lord Xander, the Collector (Grixis)](../../grixis/decks/lord-xander-the-collector.md) 48
+- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +19) · [EDH Standards → Game Changers](../../EDH%20Standards.md#game-changers) (Ancient Tomb, Chrome Mox, Cyclonic Rift +11) · [EDH Upgrade Paths → Nekusar, the Mindrazer](../../EDH%20Upgrade%20Paths.md#nekusar-the-mindrazer) (Badlands, Blood Crypt, Bloodstained Mire +11) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Chrome Mox, Dark Ritual +11) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (Deflecting Swat, Fierce Guardianship, Force of Will +7) · [Grixis Packages → Removal](../../grixis/Grixis%20Packages.md#removal) (Chaos Warp, Cyclonic Rift, Damnation +6) · …92 more sections
+- **Decks sharing the most cards:** [Nicol Bolas (Grixis)](../../grixis/decks/nicol-bolas.md) 59 · [Gwendlyn Di Corci (Grixis)](../../grixis/decks/gwendlyn-di-corci.md) 58 · [Nekusar, the Mindrazer (Grixis)](../../grixis/decks/nekusar-the-mindrazer.md) 51 · [Nicol Bolas, the Ravager // Nicol Bolas, the Arisen (Grixis)](../../grixis/decks/nicol-bolas-the-ravager.md) 49
 <!-- CROSSREFS:END -->

@@ -834,7 +834,7 @@ schema: 2
   - *2020-11-10* — If Humble Defector is controlled by a player other than its owner, and its controller leaves the game, the effect giving that player control of Humble Defector ends. Humble Defector will return to the control of the player still in the game who most recently controlled it.
   - *2020-11-10* — If Humble Defector isn't on the battlefield as its ability resolves, but the target player is still a legal target, the ability will resolve. You'll draw two cards, even though the player doesn't gain control of Humble Defector.
   - *2020-11-10* — If Humble Defector's owner leaves the game, Humble Defector humbly leaves the game along with that player.
-- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/H.md#humble-defector)
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/H.md#humble-defector)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/170/humble-defector) · oracle_id `1582e16d-4825-4cc5-b12c-449c45e4e449` · printing: OTC #170 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Humble Naturalist
@@ -1372,6 +1372,7 @@ schema: 2
   - *2023-10-13* — A player facing a villainous choice can always choose either option, even if one or both of the options are impossible. For example, if one of the options is to sacrifice a creature, a player who controls no creatures can still choose that option.
   - *2023-10-13* — If a spell or ability requires multiple players to face a villainous choice, the result is a little different from other effects in Magic. In that case, the first player in turn order makes their choice and the action for that choice is performed before the next player makes their choice. Then each of the remaining players repeat this process in turn order.
   - *2023-10-13* — When a player faces a villainous choice, they first choose one of the two options, then all actions in the chosen option are performed.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#hunted-by-the-family)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/46/hunted-by-the-family) · oracle_id `7d178f1c-faf7-4efd-87a6-201a40c55ec8` · printing: WHO #46 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunted Dragon

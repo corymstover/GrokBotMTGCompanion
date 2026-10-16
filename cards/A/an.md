@@ -913,7 +913,7 @@ schema: 2
   - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
   - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
   - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
-- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/A.md#ancestral-vision)
+- **Referenced in:** 4 pages (4 decks) → [reverse index](../../references/A.md#ancestral-vision)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/144/ancestral-vision) · oracle_id `9728dec9-d482-4c7a-8cdc-44d010dc878d` · printing: TDC #144 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Anchor to Reality
@@ -932,7 +932,8 @@ schema: 2
   - *2022-02-18* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to interfere with the permanent you sacrificed to prevent you from casting this spell.
   - *2022-02-18* — You must sacrifice exactly one artifact or creature to cast this spell; you can't cast it without sacrificing an artifact or creature, and you can't sacrifice additional artifacts or creatures.
 - **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): NEO #45 · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 15,804 decks; most often under [Shorikai, Genesis Engine](../../cards/S/sho.md#shorikai-genesis-engine) (20.5% of its decks), [Tetsuo, Imperial Champion](../../cards/T/te.md#tetsuo-imperial-champion) (25.3% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (4.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Synergy:** *Proven* — KB decks (1): [Tetsuo, Imperial Champion (Grixis)](../../grixis/decks/tetsuo-imperial-champion.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 15,804 decks; most often under [Shorikai, Genesis Engine](../../cards/S/sho.md#shorikai-genesis-engine) (20.5% of its decks), [Tetsuo, Imperial Champion](../../cards/T/te.md#tetsuo-imperial-champion) (25.3% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (4.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#anchor-to-reality)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/45/anchor-to-reality) · oracle_id `6783f559-33d7-4b13-9a91-02b821e97163` · printing: NEO #45 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Anchor to the Aether
@@ -1026,7 +1027,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1752 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#ancient-brass-dragon)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/A.md#ancient-brass-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/111/ancient-brass-dragon) · oracle_id `7d79fb4e-2ca0-404a-9663-1f5abce6e733` · printing: CLB #111 (2022-06-10) · [rulings](https://api.scryfall.com/cards/6430c61b-407d-471d-9012-07f1ddef28aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ancient Brontodon
@@ -1439,7 +1440,7 @@ schema: 2
   > *—Vec tomb inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #69 · Game Changer: **yes** · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 41 pages (35 decks · 4 edh guides · 2 card data) → [reverse index](../../references/A.md#ancient-tomb)
+- **Referenced in:** 55 pages (49 decks · 4 edh guides · 2 card data) → [reverse index](../../references/A.md#ancient-tomb)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/236/ancient-tomb) · oracle_id `23467047-6dba-4498-b783-1ebc4f74b8c2` · printing: UMA #236 (2018-12-07) · [rulings](https://api.scryfall.com/cards/bd3d4b4b-cf31-4f89-8140-9650edb03c7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ancient Vendetta
@@ -2752,7 +2753,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #346 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — The timestamp for the "in your graveyard" ability is set at the time that this card goes to your graveyard, regardless of whether you control a Mountain at that time.
-- **Referenced in:** 6 pages (3 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/A.md#anger)
+- **Referenced in:** 9 pages (5 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/A.md#anger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/235/anger) · oracle_id `eaabd151-2160-4bff-82c0-3fa88659be98` · printing: SOC #235 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Anger of the Gods
@@ -3178,7 +3179,7 @@ schema: 2
   - *2016-06-08* — If Animate Dead isn't on the battlefield as its triggered ability resolves, none of its effects happen. The creature card won't be returned to the battlefield.
   - *2016-06-08* — If the creature put onto the battlefield has protection from black—or if the creature can't legally be enchanted by Animate Dead for another reason—Animate Dead won't be able to attach to it. It will be put into the graveyard as a state-based action, causing its delayed triggered ability to trigger. When the trigger resolves, if the creature's still on the battlefield, its controller will sacrifice it.
   - *2016-06-08* — Once the creature is returned to the battlefield, Animate Dead can't be attached to anything other than it (unless Animate Dead somehow manages to put a different creature onto the battlefield). Attempting to move Animate Dead to another creature won't work.
-- **Referenced in:** 15 pages (9 decks · 3 edh guides · 2 rules · 1 card data) → [reverse index](../../references/A.md#animate-dead)
+- **Referenced in:** 19 pages (13 decks · 3 edh guides · 2 rules · 1 card data) → [reverse index](../../references/A.md#animate-dead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/207/animate-dead) · oracle_id `c0d8fef4-65f4-4769-982d-b397d2b7e977` · printing: SOC #207 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Animate Graveyard
@@ -3712,8 +3713,8 @@ schema: 2
   - *2022-04-29* — If the target is no longer legal as An Offer You Can't Refuse resolves, no Treasure tokens are created.
   - *2022-04-29* — If the target is still legal as it resolves but the spell can't be countered for some reason, its controller will still create two Treasure tokens.
 - **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): PLST #SNC-51, SNC #51 · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (35): [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Chulane, Teller of Tales](../../decks/chulane-teller-of-tales.md) · [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · [Kynaios and Tiro of Meletis](../../decks/kynaios-and-tiro-of-meletis.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,349,639 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (62.6% of its decks), [Ms. Bumbleflower](../../cards/M/ms.md#ms-bumbleflower) (69.8% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (58.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 42 pages (35 decks · 5 edh guides · 2 card data) → [reverse index](../../references/A.md#an-offer-you-cant-refuse)
+- **Synergy:** *Proven* — KB decks (40): [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Chulane, Teller of Tales](../../decks/chulane-teller-of-tales.md) · [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · [Kynaios and Tiro of Meletis](../../decks/kynaios-and-tiro-of-meletis.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,349,639 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (62.6% of its decks), [Ms. Bumbleflower](../../cards/M/ms.md#ms-bumbleflower) (69.8% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (58.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 47 pages (40 decks · 5 edh guides · 2 card data) → [reverse index](../../references/A.md#an-offer-you-cant-refuse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/160/an-offer-you-cant-refuse) · oracle_id `234a734b-ba28-4f1b-9d01-3c3e7d516590` · printing: FDN #160 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Anoint

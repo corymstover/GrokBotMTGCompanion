@@ -199,7 +199,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — It is perfectly legal for either or both players to have zero creatures. They give control of all their zero creatures as instructed.
   - *2007-05-01* — You only untap creatures controlled by you and the targeted opponent, not all creatures.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reins-of-power)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/R.md#reins-of-power)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/734/reins-of-power) · oracle_id `96381388-1e82-411c-8290-1f3e909d3b5f` · printing: CLB #734 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reins of the Vinesteed
@@ -258,7 +258,7 @@ schema: 2
   - *2021-03-19* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger. The copy will resolve before the original spell does.
   - *2021-03-19* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
   - *2021-03-19* — You can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
-- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 rules) → [reverse index](../../references/R.md#reiterate)
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 rules) → [reverse index](../../references/R.md#reiterate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/182/reiterate) · oracle_id `38394ee3-6726-4f91-bc25-36bce0c6aab9` · printing: TSR #182 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reiterating Bolt

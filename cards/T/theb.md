@@ -107,7 +107,8 @@ schema: 2
   - *2023-06-16* — Some cards with cycling have an ability that triggers when you cycle them, and some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
   - *2023-06-16* — Triggered abilities from cycling a card and the cycling ability itself aren't spells. Effects that interact with spells (such as Saruman's Trickery) won't affect them.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 59 decks; highest synergy [Too Greedily, Too Deep](../../cards/T/to.md#too-greedily-too-deep) (+43%), [Netherborn Altar](../../cards/N/ne.md#netherborn-altar) (+39%), [Troll of Khazad-dûm](../../cards/T/tro.md#troll-of-khazad-dûm) (+37%) · EDHREC: in 33,952 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (34.9% of its decks), [Sauron, Lord of the Rings](../../cards/S/sau.md#sauron-lord-of-the-rings) (73.8% of its decks), [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (17.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Synergy:** *Proven* — KB decks (1): [Sauron, Lord of the Rings (Grixis)](../../grixis/decks/sauron-lord-of-the-rings.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 59 decks; highest synergy [Too Greedily, Too Deep](../../cards/T/to.md#too-greedily-too-deep) (+43%), [Netherborn Altar](../../cards/N/ne.md#netherborn-altar) (+39%), [Troll of Khazad-dûm](../../cards/T/tro.md#troll-of-khazad-dûm) (+37%) · EDHREC: in 33,952 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (34.9% of its decks), [Sauron, Lord of the Rings](../../cards/S/sau.md#sauron-lord-of-the-rings) (73.8% of its decks), [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (17.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-balrog-of-moria)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/46/the-balrog-of-moria) · oracle_id `d73191d8-6f94-4fba-acd2-2d0490e3ac00` · printing: LTC #46 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Bath Song
@@ -449,7 +450,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-06-16* — The chosen player needs only to have the most life or tied for most life as The Black Gate's last ability resolves. After the ability resolves, any changes in life total won't affect which creatures can block or be blocked that turn.
   - *2023-06-16* — The creature that was targeted by The Black Gate's last ability can't be blocked by any creature the chosen player controls, including creatures that weren't on the battlefield when The Black Gate's ability resolved.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-black-gate)
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/T.md#the-black-gate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/80/the-black-gate) · oracle_id `40eb9904-dea3-47cf-963a-04821f98ba64` · printing: LTC #80 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Blackstaff of Waterdeep

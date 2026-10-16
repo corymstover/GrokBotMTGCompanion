@@ -266,7 +266,7 @@ schema: 2
   - *2018-10-05* — As Plaguecrafter's ability resolves, first the player whose turn it is chooses a creature or planeswalker they control, then each other player in turn order does the same, knowing the choices made before them. Then all the chosen permanents are sacrificed at the same time. Next, each player in the same order who couldn't sacrifice a permanent chooses a card in hand without revealing it, then the chosen cards are discarded at the same time.
   - *2018-10-05* — Each player chooses a permanent to sacrifice from among the creatures and planeswalkers they control. You don't choose which type of permanent any other player has to sacrifice.
   - *2018-10-05* — Plaguecrafter can be the creature its controller sacrifices for its own ability.
-- **Referenced in:** 5 pages (4 decks · 1 card data) → [reverse index](../../references/P.md#plaguecrafter)
+- **Referenced in:** 6 pages (5 decks · 1 card data) → [reverse index](../../references/P.md#plaguecrafter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/89/plaguecrafter) · oracle_id `2e3ee458-fa3f-4452-ab95-5a7fb5a0483b` · printing: RVR #89 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plague Dogs
@@ -456,6 +456,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — If Plague Reaver is put onto the battlefield under the control of someone other than its owner, and that player leaves the game, Plague Reaver is exiled.
   - *2020-11-10* — If the chosen opponent leaves the game after the activated ability resolves but before the delayed triggered ability returns Plague Reaver to the battlefield, Plague Reaver stays in the graveyard.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#plague-reaver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/143/plague-reaver) · oracle_id `eef50ef8-958b-4f5c-b261-16926d9fe672` · printing: CMR #143 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plague Sliver
@@ -807,7 +808,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2263 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
 - **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): NEO #72 · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 38 combos; most popular [Dualcaster Mage + Planar Incision](https://commanderspellbook.com/combo/147-673/) (Infinite creature LTB, Infinite creature ETB) · EDHREC: in 73,061 decks; most often under [Eluge, the Shoreless Sea](../../cards/E/el.md#eluge-the-shoreless-sea) (36.9% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (15.8% of its decks), [Loot, the Pathfinder](../../cards/L/lo.md#loot-the-pathfinder) (35.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Synergy:** *Proven* — KB decks (1): [Sol'Kanar the Tainted (Grixis)](../../grixis/decks/solkanar-the-tainted.md) · Commander Spellbook: 38 combos; most popular [Dualcaster Mage + Planar Incision](https://commanderspellbook.com/combo/147-673/) (Infinite creature LTB, Infinite creature ETB) · EDHREC: in 73,061 decks; most often under [Eluge, the Shoreless Sea](../../cards/E/el.md#eluge-the-shoreless-sea) (36.9% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (15.8% of its decks), [Loot, the Pathfinder](../../cards/L/lo.md#loot-the-pathfinder) (35.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#planar-incision)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/72/planar-incision) · oracle_id `a959a91a-3e1d-4bd4-9e14-5ee977540146` · printing: NEO #72 (2022-02-18) · [rulings](https://api.scryfall.com/cards/9163cb04-ee28-4127-b53a-89c546996d7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Planar Nexus
@@ -1170,8 +1172,8 @@ schema: 2
   - *2023-05-12* — In a multiplayer game, you choose an opponent to choose a nonland card exiled with Plargg and Nassari.
   - *2023-05-12* — In a two-player game, assuming each player eventually exiles a nonland card, your opponent will choose one of them, and you'll be able to cast the other one.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (2): [Don Andres, the Renegade (Grixis)](../../grixis/decks/don-andres-the-renegade.md) · [Nathan Drake, Treasure Hunter (Grixis)](../../grixis/decks/nathan-drake-treasure-hunter.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,403 decks; highest synergy [Etali, Primal Storm](../../cards/E/et.md#etali-primal-storm) (+68%), [Nalfeshnee](../../cards/N/na.md#nalfeshnee) (+67%), [Wild-Magic Sorcerer](../../cards/W/wi.md#wild-magic-sorcerer) (+66%) · EDHREC: in 70,267 decks; most often under [Obeka, Splitter of Seconds](../../cards/O/ob.md#obeka-splitter-of-seconds) (61.9% of its decks), [Rocco, Street Chef](../../cards/R/ro.md#rocco-street-chef) (33.1% of its decks), [Don Andres, the Renegade](../../cards/D/do.md#don-andres-the-renegade) (52.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/P.md#plargg-and-nassari)
+- **Synergy:** *Proven* — KB decks (3): [Don Andres, the Renegade (Grixis)](../../grixis/decks/don-andres-the-renegade.md) · [Nathan Drake, Treasure Hunter (Grixis)](../../grixis/decks/nathan-drake-treasure-hunter.md) · [Obeka, Splitter of Seconds (Grixis)](../../grixis/decks/obeka-splitter-of-seconds.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,403 decks; highest synergy [Etali, Primal Storm](../../cards/E/et.md#etali-primal-storm) (+68%), [Nalfeshnee](../../cards/N/na.md#nalfeshnee) (+67%), [Wild-Magic Sorcerer](../../cards/W/wi.md#wild-magic-sorcerer) (+66%) · EDHREC: in 70,267 decks; most often under [Obeka, Splitter of Seconds](../../cards/O/ob.md#obeka-splitter-of-seconds) (61.9% of its decks), [Rocco, Street Chef](../../cards/R/ro.md#rocco-street-chef) (33.1% of its decks), [Don Andres, the Renegade](../../cards/D/do.md#don-andres-the-renegade) (52.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/P.md#plargg-and-nassari)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/250/plargg-and-nassari) · oracle_id `9e769a65-7aa5-484d-9493-badb485b5964` · printing: SOC #250 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plargg, Dean of Chaos // Augusta, Dean of Order
@@ -1744,6 +1746,7 @@ schema: 2
   - *2014-05-29* — Players can't do anything after they finish voting but before the spell or ability that included the vote finishes resolving.
   - *2014-05-29* — The phrase "the vote is tied" refers only to when there is more than one choice that received the most votes. For example, if a 5-player vote from among three different choices ends 3 votes to 1 vote to 1 vote, the vote isn't tied.
   - *2014-05-29* — You must vote for one of the available options. You can't abstain.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#plea-for-power)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/87/plea-for-power) · oracle_id `8b886623-5c96-48dd-a3d2-fd5865c58ff5` · printing: VMA #87 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pledge of Loyalty
@@ -1863,7 +1866,8 @@ schema: 2
   - *2021-04-16* — If you copy Plumb the Forbidden multiple times, each magecraft ability of a creature you control will trigger that many times.
   - *2021-04-16* — If you sacrifice a creature with a magecraft ability to cast Plumb the Forbidden, that creature's ability will not trigger.
 - **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): STX #81 · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 137,415 decks; most often under [Chatterfang, Squirrel General](../../cards/C/cha.md#chatterfang-squirrel-general) (34.1% of its decks), [Hazel of the Rootbloom](../../cards/H/ha.md#hazel-of-the-rootbloom) (55.2% of its decks), [Dina, Essence Brewer](../../cards/D/di.md#dina-essence-brewer) (52.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Synergy:** *Proven* — KB decks (1): [Wick, the Whorled Mind (Grixis)](../../grixis/decks/wick-the-whorled-mind.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 137,415 decks; most often under [Chatterfang, Squirrel General](../../cards/C/cha.md#chatterfang-squirrel-general) (34.1% of its decks), [Hazel of the Rootbloom](../../cards/H/ha.md#hazel-of-the-rootbloom) (55.2% of its decks), [Dina, Essence Brewer](../../cards/D/di.md#dina-essence-brewer) (52.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#plumb-the-forbidden)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/224/plumb-the-forbidden) · oracle_id `b099fc54-cdbc-46cb-b4e4-7c2ca77b115b` · printing: SOC #224 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Plumecreed Escort

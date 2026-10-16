@@ -145,7 +145,7 @@ schema: 2
   - *2004-10-04* — This card is a Mountain and a Swamp even while in the graveyard, library, or any other zone.
   - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
   - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
-- **Referenced in:** 44 pages (38 decks · 4 edh guides · 2 card data) → [reverse index](../../references/B.md#badlands)
+- **Referenced in:** 64 pages (58 decks · 4 edh guides · 2 card data) → [reverse index](../../references/B.md#badlands)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/291/badlands) · oracle_id `13ff3222-91cb-4796-a34e-899ed817694c` · printing: VMA #291 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Badlands Revival

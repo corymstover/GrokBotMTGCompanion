@@ -656,8 +656,8 @@ schema: 2
   - *2024-09-20* — The spells you cast using the permission granted by Valgavoth's last ability have an alternative cost that's paying life equal to their mana value. You can't choose to pay their mana cost and may not pay any other alternative costs. You may still pay for additional costs, such as kicker costs, and you may pay mana for those as normal. If the spell has mandatory additional costs, you must pay those.
   - *2024-09-20* — You follow all timing rules for spells cast and lands played using the permission granted by Valgavoth's last ability.
 - **Lore:** ✅ Presented with an official backstory on [The Legends of Duskmourn: House of Horror](https://magic.wizards.com/en/news/feature/the-legends-of-duskmourn-house-of-horror) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (1): [Be'lakor, the Dark Master (Grixis)](../../grixis/decks/belakor-the-dark-master.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,720 decks; highest synergy [Geode Golem](../../cards/G/ge.md#geode-golem) (+49%), [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (+48%), [Ancient Cellarspawn](../../cards/A/an.md#ancient-cellarspawn) (+45%) · EDHREC: in 119,834 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (35.1% of its decks), [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (31.1% of its decks), [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (29.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/V.md#valgavoth-terror-eater)
+- **Synergy:** *Proven* — KB decks (2): [Be'lakor, the Dark Master (Grixis)](../../grixis/decks/belakor-the-dark-master.md) · [Sauron, Lord of the Rings (Grixis)](../../grixis/decks/sauron-lord-of-the-rings.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,720 decks; highest synergy [Geode Golem](../../cards/G/ge.md#geode-golem) (+49%), [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (+48%), [Ancient Cellarspawn](../../cards/A/an.md#ancient-cellarspawn) (+45%) · EDHREC: in 119,834 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (35.1% of its decks), [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (31.1% of its decks), [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (29.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/V.md#valgavoth-terror-eater)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/120/valgavoth-terror-eater) · oracle_id `cae3ec72-436d-4086-9dcb-17b3d92ad5c4` · printing: DSK #120 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valiant Changeling
@@ -958,7 +958,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-07-26* — Valley Floodcaller’s second ability applies to noncreature cards in any zone, provided something is allowing you to cast them. For example, you could cast a sorcery with flashback as though it had flash.
   - *2024-07-26* — Valley Floodcaller’s second ability has no effect on abilities that you can activate “any time you could cast a sorcery.”
-- **Referenced in:** 10 pages (5 decks · 4 edh guides · 1 card data) → [reverse index](../../references/V.md#valley-floodcaller)
+- **Referenced in:** 12 pages (7 decks · 4 edh guides · 1 card data) → [reverse index](../../references/V.md#valley-floodcaller)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/79/valley-floodcaller) · oracle_id `4879c8f0-8832-4290-bc71-9838940f75cd` · printing: BLB #79 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valleymaker
@@ -1067,6 +1067,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2522 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-07-26* — The value of X is determined as Valley Rotcaller’s triggered ability resolves.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/V.md#valley-rotcaller)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/119/valley-rotcaller) · oracle_id `8da0599a-8f63-4dba-857f-b4e10b7191b6` · printing: BLB #119 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valor
@@ -1845,7 +1846,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #115 · Game Changer: **yes** · Can be commander: No
 - **Rulings** (1):
   - *2016-06-08* — The "shuffle and put the card on top" is a single action. If an effect causes the top card of the library to be face up, the second card down is not revealed.
-- **Referenced in:** 48 pages (40 decks · 6 edh guides · 2 card data) → [reverse index](../../references/V.md#vampiric-tutor)
+- **Referenced in:** 66 pages (58 decks · 6 edh guides · 2 card data) → [reverse index](../../references/V.md#vampiric-tutor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/108/vampiric-tutor) · oracle_id `ededbdae-d9dc-4206-9335-d7158f2d7700` · printing: DMR #108 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vampirism
@@ -1903,7 +1904,7 @@ schema: 2
   - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
   - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
   - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
-- **Referenced in:** 16 pages (12 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/V.md#vandalblast)
+- **Referenced in:** 19 pages (15 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/V.md#vandalblast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/168/vandalblast) · oracle_id `3567c3c8-b3c7-45b7-935b-b1fdbc973720` · printing: MSC #168 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vandalize

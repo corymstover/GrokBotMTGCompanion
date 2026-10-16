@@ -16,7 +16,7 @@ schema: 2
 
 # Grixis Deck — Jeleva, Nephalia's Scourge
 
-> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Jeleva_Nephalia_s_Scourge_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Jeleva_Nephalia_s_Scourge_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Jeleva_Nephalia_s_Scourge_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Jeleva_Nephalia_s_Scourge_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `1836b97`). Imported in Bot cycle 16; re-validated in Bot cycle 37 against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
 ## Contents
 - [Commander](#commander)
@@ -317,7 +317,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 ### From `refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md`
 
-Source: [refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md)
+Source: [refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md)
 
 **Jeleva, Nephalia's Scourge — Current-Cycle Refinement Decisions**
 
@@ -404,7 +404,7 @@ Candidate remains **NOT APPROVED** until the exact SHA-bound list passes fresh O
 
 ### From `refinement/approvals/Jeleva_Nephalia_s_Scourge_Approved_2026-10-14.md`
 
-Source: [refinement/approvals/Jeleva_Nephalia_s_Scourge_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Jeleva_Nephalia_s_Scourge_Approved_2026-10-14.md)
+Source: [refinement/approvals/Jeleva_Nephalia_s_Scourge_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/approvals/Jeleva_Nephalia_s_Scourge_Approved_2026-10-14.md)
 
 **Jeleva, Nephalia's Scourge — APPROVED / LOCKED**
 
@@ -470,5 +470,5 @@ This deck is now locked. Do not revise, reopen, or replace it unless the user ex
 - **Rules sections citing cards in this list:** [Keyword Encyclopedia → Storm](../../Keyword%20Encyclopedia.md#storm) (Brain Freeze, Flusterstorm) · [Rules Interactions → Commander: color identity](../../Rules%20Interactions.md#commander-color-identity) (Arcane Signet, Command Tower) · [Rules Interactions → Replacement effects vs. triggered abilities](../../Rules%20Interactions.md#replacement-effects-vs-triggered-abilities) (Exotic Orchard, Fellwar Stone) · [Rules Interactions → The legend rule](../../Rules%20Interactions.md#the-legend-rule) (Gemstone Caverns, Mox Opal) · [Keyword Encyclopedia → Cumulative Upkeep](../../Keyword%20Encyclopedia.md#cumulative-upkeep) (Mystic Remora) · [Keyword Encyclopedia → Dash](../../Keyword%20Encyclopedia.md#dash) (Ragavan, Nimble Pilferer) · [Keyword Encyclopedia → Equip](../../Keyword%20Encyclopedia.md#equip) (Lightning Greaves) · [Keyword Encyclopedia → Exert](../../Keyword%20Encyclopedia.md#exert) (Arena of Glory) · …7 more sections
 - **Lore & story sections citing cards in this list:** [Art & Flavor Story Links → Captioned art on cited story pages](../../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Cabal Ritual, Command Tower, Mana Confluence)
 - **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Arid Mesa, Badlands +20) · [EDH Standards → Game Changers](../../EDH%20Standards.md#game-changers) (Ad Nauseam, Ancient Tomb, Chrome Mox +17) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Cabal Ritual, Chrome Mox +15) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (An Offer You Can't Refuse, Deflecting Swat, Fierce Guardianship +11) · [EDH Upgrade Paths → Yuriko, the Tiger's Shadow](../../EDH%20Upgrade%20Paths.md#yuriko-the-tigers-shadow) (Chrome Mox, Demonic Consultation, Flooded Strand +10) · [EDH Upgrade Paths → Zur the Enchanter](../../EDH%20Upgrade%20Paths.md#zur-the-enchanter) (An Offer You Can't Refuse, Borne Upon a Wind, City of Brass +10) · …98 more sections
-- **Decks sharing the most cards:** [Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)](../../grixis/decks/kefka-court-mage.md) 79 · [Kess, Dissident Mage (Grixis)](../../grixis/decks/kess-dissident-mage.md) 78 · [Cormela, Glamour Thief (Grixis)](../../grixis/decks/cormela-glamour-thief.md) 73 · [Fire Lord Azula (Grixis)](../../grixis/decks/fire-lord-azula.md) 73
+- **Decks sharing the most cards:** [Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)](../../grixis/decks/kefka-court-mage.md) 79 · [Kess, Dissident Mage (Grixis)](../../grixis/decks/kess-dissident-mage.md) 78 · [Rograkh, Son of Rohgahh (Grixis)](../../grixis/decks/rograkh-son-of-rohgahh-silas-renn.md) 75 · [Cormela, Glamour Thief (Grixis)](../../grixis/decks/cormela-glamour-thief.md) 73
 <!-- CROSSREFS:END -->

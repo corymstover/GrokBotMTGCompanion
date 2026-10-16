@@ -2876,6 +2876,7 @@ schema: 2
   - *2017-04-18* — If Glorious End’s delayed triggered ability is countered, it won’t trigger again. The same is true if it’s removed from the stack in any other way (such as by a second even more Glorious End) or if it resolves and you don’t lose the game (perhaps because of the emblem of Gideon of the Trials).
   - *2017-04-18* — If any triggered abilities do trigger during this process, they’re put onto the stack during the cleanup step. If this happens, players will have a chance to cast spells and activate abilities, then there will be another cleanup step before the turn is over.
   - *2017-04-18* — Though other spells and abilities that are exiled won’t get a chance to resolve, they don’t count as being countered.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#glorious-end)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/133/glorious-end) · oracle_id `e611a3e0-eb0e-466e-a771-51310eeb34cd` · printing: AKH #133 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Glorious Enforcer

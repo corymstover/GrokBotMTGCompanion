@@ -353,6 +353,7 @@ schema: 2
   - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
   - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
   - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#claim-the-precious)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/81/claim-the-precious) · oracle_id `8b0a0991-2327-45ea-b47f-c31db367fa1d` · printing: LTR #81 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Claire D'Loon, Joy Sculptor
@@ -1257,7 +1258,7 @@ schema: 2
   - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that’s being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
   - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
   - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you’re playing and ignore the other face’s characteristics.
-- **Referenced in:** 4 pages (4 decks) → [reverse index](../../references/C.md#clearwater-pathway--murkwater-pathway)
+- **Referenced in:** 5 pages (5 decks) → [reverse index](../../references/C.md#clearwater-pathway--murkwater-pathway)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/260/clearwater-pathway-murkwater-pathway) · oracle_id `144119bc-7fd1-45c5-9e29-f742e7c255ac` · printing: ZNR #260 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cleaver Blow

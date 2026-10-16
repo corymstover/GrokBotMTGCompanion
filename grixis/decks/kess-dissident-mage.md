@@ -16,7 +16,7 @@ schema: 2
 
 # Grixis Deck — Kess, Dissident Mage
 
-> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Kess_Dissident_Mage_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Kess_Dissident_Mage_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Kess_Dissident_Mage_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Kess_Dissident_Mage_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `1836b97`). Imported in Bot cycle 16; re-validated in Bot cycle 37 against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
 ## Contents
 - [Commander](#commander)
@@ -317,7 +317,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 ### From `refinement/decisions/Kess_Dissident_Mage_Baseline_SHA_Correction_2026-10-14.md`
 
-Source: [refinement/decisions/Kess_Dissident_Mage_Baseline_SHA_Correction_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Kess_Dissident_Mage_Baseline_SHA_Correction_2026-10-14.md)
+Source: [refinement/decisions/Kess_Dissident_Mage_Baseline_SHA_Correction_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decisions/Kess_Dissident_Mage_Baseline_SHA_Correction_2026-10-14.md)
 
 **Kess, Dissident Mage — Baseline Artifact SHA Correction**
 
@@ -338,7 +338,7 @@ This correction changes no card in either the baseline or candidate. The earlier
 
 ### From `refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md`
 
-Source: [refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md)
+Source: [refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md)
 
 **Kess, Dissident Mage — Current-Cycle Refinement Decisions**
 
@@ -492,7 +492,7 @@ Candidate remains **NOT APPROVED** until those gates pass and the user explicitl
 
 ### From `refinement/approvals/Kess_Dissident_Mage_Approved_2026-10-14.md`
 
-Source: [refinement/approvals/Kess_Dissident_Mage_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Kess_Dissident_Mage_Approved_2026-10-14.md)
+Source: [refinement/approvals/Kess_Dissident_Mage_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/approvals/Kess_Dissident_Mage_Approved_2026-10-14.md)
 
 **Kess, Dissident Mage — Approved and Locked**
 
@@ -549,6 +549,6 @@ The approved list is the exact candidate bound to SHA-256 `93d27d605bbdf0737ebe3
 - **Keywords → [Keyword Encyclopedia](../../Keyword%20Encyclopedia.md):** [Flash](../../Keyword%20Encyclopedia.md#flash) 3 · [Flying](../../Keyword%20Encyclopedia.md#flying) 2 · [Mill](../../Keyword%20Encyclopedia.md#mill) 2 · [Storm](../../Keyword%20Encyclopedia.md#storm) 2 · [Surveil](../../Keyword%20Encyclopedia.md#surveil) 2 · [Amass](../../Keyword%20Encyclopedia.md#amass) 1 · [Bargain](../../Keyword%20Encyclopedia.md#bargain) 1 · [Connive](../../Keyword%20Encyclopedia.md#connive) 1 · [Cumulative upkeep](../../Keyword%20Encyclopedia.md#cumulative-upkeep) 1 · [Dash](../../Keyword%20Encyclopedia.md#dash) 1 · [Flashback](../../Keyword%20Encyclopedia.md#flashback) 1 · [Gift](../../Keyword%20Encyclopedia.md#gift) 1
 - **Rules sections citing cards in this list:** [Keyword Encyclopedia → Storm](../../Keyword%20Encyclopedia.md#storm) (Brain Freeze, Flusterstorm) · [Rules Interactions → Commander: color identity](../../Rules%20Interactions.md#commander-color-identity) (Arcane Signet, Command Tower) · [Rules Interactions → The legend rule](../../Rules%20Interactions.md#the-legend-rule) (Gemstone Caverns, Mox Opal) · [Keyword Encyclopedia → Amass](../../Keyword%20Encyclopedia.md#amass) (Orcish Bowmasters) · [Keyword Encyclopedia → Bargain](../../Keyword%20Encyclopedia.md#bargain) (Beseech the Mirror) · [Keyword Encyclopedia → Connive](../../Keyword%20Encyclopedia.md#connive) (Ledger Shredder) · [Keyword Encyclopedia → Cumulative Upkeep](../../Keyword%20Encyclopedia.md#cumulative-upkeep) (Mystic Remora) · [Keyword Encyclopedia → Dash](../../Keyword%20Encyclopedia.md#dash) (Ragavan, Nimble Pilferer) · …7 more sections
 - **Lore & story sections citing cards in this list:** [Art & Flavor Story Links → Captioned art on cited story pages](../../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Cabal Ritual, Command Tower, Mana Confluence)
-- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Arid Mesa, Badlands +21) · [EDH Standards → Game Changers](../../EDH%20Standards.md#game-changers) (Ad Nauseam, Ancient Tomb, Chrome Mox +18) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Cabal Ritual, Chrome Mox +15) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (An Offer You Can't Refuse, Deflecting Swat, Fierce Guardianship +13) · [EDH Upgrade Paths → Zur the Enchanter](../../EDH%20Upgrade%20Paths.md#zur-the-enchanter) (An Offer You Can't Refuse, Borne Upon a Wind, City of Brass +10) · [EDH Upgrade Paths → Kykar, Wind's Fury](../../EDH%20Upgrade%20Paths.md#kykar-winds-fury) (Arid Mesa, Brain Freeze, Flooded Strand +9) · …97 more sections
-- **Decks sharing the most cards:** [Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)](../../grixis/decks/kefka-court-mage.md) 80 · [Jeleva, Nephalia's Scourge (Grixis)](../../grixis/decks/jeleva-nephalias-scourge.md) 78 · [Cormela, Glamour Thief (Grixis)](../../grixis/decks/cormela-glamour-thief.md) 76 · [Fire Lord Azula (Grixis)](../../grixis/decks/fire-lord-azula.md) 74
+- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Arid Mesa, Badlands +21) · [EDH Standards → Game Changers](../../EDH%20Standards.md#game-changers) (Ad Nauseam, Ancient Tomb, Chrome Mox +18) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Cabal Ritual, Chrome Mox +15) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (An Offer You Can't Refuse, Deflecting Swat, Fierce Guardianship +13) · [EDH Upgrade Paths → Zur the Enchanter](../../EDH%20Upgrade%20Paths.md#zur-the-enchanter) (An Offer You Can't Refuse, Borne Upon a Wind, City of Brass +10) · [EDH Upgrade Paths → Kykar, Wind's Fury](../../EDH%20Upgrade%20Paths.md#kykar-winds-fury) (Arid Mesa, Brain Freeze, Flooded Strand +9) · …98 more sections
+- **Decks sharing the most cards:** [Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)](../../grixis/decks/kefka-court-mage.md) 80 · [Jeleva, Nephalia's Scourge (Grixis)](../../grixis/decks/jeleva-nephalias-scourge.md) 78 · [Norman Osborn // Green Goblin (Grixis)](../../grixis/decks/norman-osborn.md) 77 · [Cormela, Glamour Thief (Grixis)](../../grixis/decks/cormela-glamour-thief.md) 76
 <!-- CROSSREFS:END -->

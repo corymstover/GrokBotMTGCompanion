@@ -207,7 +207,7 @@ schema: 2
   - *2021-04-16* — For Wandering Archaic's triggered ability, the opponent chooses whether to pay {2} before their spell resolves. If they don't pay {2}, your copy will resolve before the original spell.
   - *2021-04-16* — While resolving Explore the Vastlands, first the active player reveals the cards they are going to put into their hand. Then each other player in turn order does the same, knowing choices made before they choose.
   - *2021-04-16* —  
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#wandering-archaic--explore-the-vastlands)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/W.md#wandering-archaic--explore-the-vastlands)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/6/wandering-archaic-explore-the-vastlands) · oracle_id `6556c4c0-b10d-4208-821b-0c0a49abd188` · printing: STX #6 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wandering Champion

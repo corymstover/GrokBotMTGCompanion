@@ -470,6 +470,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11250 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#avaricious-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/131/avaricious-dragon) · oracle_id `9be9d534-470d-463a-ba2f-9817a6723692` · printing: ORI #131 (2015-07-17) · [rulings](https://api.scryfall.com/cards/354255d7-dc29-403b-aa90-9044cde669d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avatar Aang // Aang, Master of Elements

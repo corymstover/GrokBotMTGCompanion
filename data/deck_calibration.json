@@ -4308,6 +4308,1082 @@
    "target": 4,
    "edhrec": null,
    "one_card_away": "107"
+  },
+  {
+   "path": "grixis/decks/nicol-bolas-the-ravager.md",
+   "title": "Grixis Deck — Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "kind": "grixis",
+   "commanders": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+   ],
+   "identity": "UBR",
+   "floor": 4,
+   "set_by": [
+    "16 Game Changers (more than three → Bracket 4)",
+    "1 two-card infinite combo (none in Brackets 1–2 → at least Bracket 3)"
+   ],
+   "gcs": [
+    "Ancient Tomb",
+    "Bolas's Citadel",
+    "Chrome Mox",
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Fierce Guardianship",
+    "Force of Will",
+    "Gamble",
+    "Jeska's Will",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mystical Tutor",
+    "Narset, Parter of Veils",
+    "Rhystic Study",
+    "Tergrid, God of Fright // Tergrid's Lantern",
+    "Vampiric Tutor"
+   ],
+   "mld": [],
+   "extra_turns": [
+    "Ichormoon Gauntlet",
+    "Teferi, Master of Time"
+   ],
+   "two": [
+    [
+     "Teferi, Temporal Archmage",
+     "The Chain Veil"
+    ]
+   ],
+   "lands": 34,
+   "avg_mv": 3.14,
+   "roles": {
+    "ramp": 17,
+    "draw": 11,
+    "counter": 5,
+    "removal": 8,
+    "wipe": 2,
+    "protection": 1,
+    "tutor": 5
+   },
+   "target": 4,
+   "edhrec": null,
+   "one_card_away": "41"
+  },
+  {
+   "path": "grixis/decks/nicol-bolas.md",
+   "title": "Grixis Deck — Nicol Bolas",
+   "kind": "grixis",
+   "commanders": [
+    "Nicol Bolas"
+   ],
+   "identity": "UBR",
+   "floor": 4,
+   "set_by": [
+    "14 Game Changers (more than three → Bracket 4)",
+    "1 two-card infinite combo (none in Brackets 1–2 → at least Bracket 3)"
+   ],
+   "gcs": [
+    "Ancient Tomb",
+    "Chrome Mox",
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Fierce Guardianship",
+    "Force of Will",
+    "Grim Monolith",
+    "Jeska's Will",
+    "Mana Vault",
+    "Mox Diamond",
+    "Notion Thief",
+    "Rhystic Study",
+    "Tergrid, God of Fright // Tergrid's Lantern",
+    "Vampiric Tutor"
+   ],
+   "mld": [],
+   "extra_turns": [],
+   "two": [
+    [
+     "Sword of Feast and Famine",
+     "Aggravated Assault"
+    ]
+   ],
+   "lands": 37,
+   "avg_mv": 2.48,
+   "roles": {
+    "ramp": 18,
+    "draw": 9,
+    "counter": 4,
+    "removal": 6,
+    "wipe": 1,
+    "protection": 2,
+    "tutor": 2
+   },
+   "target": 4,
+   "edhrec": null,
+   "one_card_away": "50"
+  },
+  {
+   "path": "grixis/decks/norman-osborn.md",
+   "title": "Grixis Deck — Norman Osborn // Green Goblin",
+   "kind": "grixis",
+   "commanders": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "identity": "UBR",
+   "floor": 4,
+   "set_by": [
+    "19 Game Changers (more than three → Bracket 4)",
+    "1 two-card infinite combo (none in Brackets 1–2 → at least Bracket 3)"
+   ],
+   "gcs": [
+    "Ad Nauseam",
+    "Ancient Tomb",
+    "Chrome Mox",
+    "Demonic Tutor",
+    "Fierce Guardianship",
+    "Force of Will",
+    "Gamble",
+    "Grim Monolith",
+    "Imperial Seal",
+    "Jeska's Will",
+    "Lion's Eye Diamond",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mystical Tutor",
+    "Orcish Bowmasters",
+    "Rhystic Study",
+    "Thassa's Oracle",
+    "Underworld Breach",
+    "Vampiric Tutor"
+   ],
+   "mld": [],
+   "extra_turns": [
+    "Final Fortune"
+   ],
+   "two": [
+    [
+     "Underworld Breach",
+     "Grinding Station"
+    ]
+   ],
+   "lands": 23,
+   "avg_mv": 1.87,
+   "roles": {
+    "ramp": 22,
+    "draw": 21,
+    "counter": 8,
+    "removal": 3,
+    "wipe": 1,
+    "protection": 0,
+    "tutor": 9
+   },
+   "target": 5,
+   "edhrec": null,
+   "one_card_away": "77"
+  },
+  {
+   "path": "grixis/decks/obeka-brute-chronologist.md",
+   "title": "Grixis Deck — Obeka, Brute Chronologist",
+   "kind": "grixis",
+   "commanders": [
+    "Obeka, Brute Chronologist"
+   ],
+   "identity": "UBR",
+   "floor": 4,
+   "set_by": [
+    "13 Game Changers (more than three → Bracket 4)",
+    "2 two-card infinite combos (none in Brackets 1–2 → at least Bracket 3)"
+   ],
+   "gcs": [
+    "Ancient Tomb",
+    "Chrome Mox",
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Fierce Guardianship",
+    "Force of Will",
+    "Gamble",
+    "Jeska's Will",
+    "Mana Vault",
+    "Mystical Tutor",
+    "Rhystic Study",
+    "Underworld Breach",
+    "Vampiric Tutor"
+   ],
+   "mld": [],
+   "extra_turns": [
+    "Alchemist's Gambit",
+    "Final Fortune",
+    "Last Chance",
+    "Warrior's Oath"
+   ],
+   "two": [
+    [
+     "Dualcaster Mage",
+     "Twinflame"
+    ],
+    [
+     "Kiki-Jiki, Mirror Breaker",
+     "Delina, Wild Mage"
+    ]
+   ],
+   "lands": 34,
+   "avg_mv": 2.78,
+   "roles": {
+    "ramp": 12,
+    "draw": 7,
+    "counter": 4,
+    "removal": 2,
+    "wipe": 4,
+    "protection": 1,
+    "tutor": 4
+   },
+   "target": 4,
+   "edhrec": null,
+   "one_card_away": "177"
+  },
+  {
+   "path": "grixis/decks/obeka-splitter-of-seconds.md",
+   "title": "Grixis Deck — Obeka, Splitter of Seconds",
+   "kind": "grixis",
+   "commanders": [
+    "Obeka, Splitter of Seconds"
+   ],
+   "identity": "UBR",
+   "floor": 4,
+   "set_by": [
+    "6 Game Changers (more than three → Bracket 4)"
+   ],
+   "gcs": [
+    "Ancient Tomb",
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Fierce Guardianship",
+    "Rhystic Study",
+    "Vampiric Tutor"
+   ],
+   "mld": [],
+   "extra_turns": [
+    "Time Sieve"
+   ],
+   "two": [],
+   "lands": 35,
+   "avg_mv": 2.89,
+   "roles": {
+    "ramp": 11,
+    "draw": 8,
+    "counter": 4,
+    "removal": 3,
+    "wipe": 0,
+    "protection": 5,
+    "tutor": 4
+   },
+   "target": 4,
+   "edhrec": null,
+   "one_card_away": "41"
+  },
+  {
+   "path": "grixis/decks/parnesse-the-subtle-brush.md",
+   "title": "Grixis Deck — Parnesse, the Subtle Brush",
+   "kind": "grixis",
+   "commanders": [
+    "Parnesse, the Subtle Brush"
+   ],
+   "identity": "UBR",
+   "floor": 3,
+   "set_by": [
+    "3 Game Changers (one to three → Bracket 3)",
+    "21 two-card infinite combos (none in Brackets 1–2 → at least Bracket 3)"
+   ],
+   "gcs": [
+    "Demonic Tutor",
+    "Jeska's Will",
+    "Rhystic Study"
+   ],
+   "mld": [],
+   "extra_turns": [],
+   "two": [
+    [
+     "Twinning Staff",
+     "Narset's Reversal"
+    ],
+    [
+     "Narset's Reversal",
+     "Reiterate"
+    ],
+    [
+     "Narset's Reversal",
+     "Increasing Vengeance"
+    ],
+    [
+     "Narset's Reversal",
+     "Reverberate"
+    ],
+    [
+     "Narset's Reversal",
+     "Return the Favor"
+    ],
+    [
+     "Dualcaster Mage",
+     "Replication Technique"
+    ],
+    [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    [
+     "Reiterate",
+     "Mana Geyser"
+    ],
+    [
+     "Thousand-Year Storm",
+     "Reiterate"
+    ],
+    [
+     "Alania, Divergent Storm",
+     "Reiterate"
+    ],
+    [
+     "Pyromancer's Goggles",
+     "Reiterate"
+    ],
+    [
+     "Prismari, the Inspiration",
+     "Reiterate"
+    ],
+    [
+     "Alania, Divergent Storm",
+     "Increasing Vengeance"
+    ],
+    [
+     "Pyromancer's Goggles",
+     "Increasing Vengeance"
+    ],
+    [
+     "Prismari, the Inspiration",
+     "Increasing Vengeance"
+    ],
+    [
+     "Alania, Divergent Storm",
+     "Reverberate"
+    ],
+    [
+     "Pyromancer's Goggles",
+     "Reverberate"
+    ],
+    [
+     "Prismari, the Inspiration",
+     "Reverberate"
+    ],
+    [
+     "Alania, Divergent Storm",
+     "Return the Favor"
+    ],
+    [
+     "Pyromancer's Goggles",
+     "Return the Favor"
+    ],
+    [
+     "Prismari, the Inspiration",
+     "Return the Favor"
+    ]
+   ],
+   "lands": 35,
+   "avg_mv": 3.0,
+   "roles": {
+    "ramp": 17,
+    "draw": 8,
+    "counter": 3,
+    "removal": 3,
+    "wipe": 0,
+    "protection": 0,
+    "tutor": 1
+   },
+   "target": 4,
+   "edhrec": null,
+   "one_card_away": "150"
+  },
+  {
+   "path": "grixis/decks/rograkh-son-of-rohgahh-silas-renn.md",
+   "title": "Grixis Deck — Rograkh, Son of Rohgahh + Silas Renn, Seeker Adept",
+   "kind": "grixis",
+   "commanders": [
+    "Rograkh, Son of Rohgahh",
+    "Silas Renn, Seeker Adept"
+   ],
+   "identity": "UBR",
+   "floor": 4,
+   "set_by": [
+    "19 Game Changers (more than three → Bracket 4)",
+    "1 two-card infinite combo (none in Brackets 1–2 → at least Bracket 3)"
+   ],
+   "gcs": [
+    "Ad Nauseam",
+    "Ancient Tomb",
+    "Chrome Mox",
+    "Demonic Tutor",
+    "Fierce Guardianship",
+    "Force of Will",
+    "Gamble",
+    "Grim Monolith",
+    "Imperial Seal",
+    "Jeska's Will",
+    "Lion's Eye Diamond",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mystical Tutor",
+    "Necropotence",
+    "Rhystic Study",
+    "Thassa's Oracle",
+    "Underworld Breach",
+    "Vampiric Tutor"
+   ],
+   "mld": [],
+   "extra_turns": [
+    "Final Fortune",
+    "Warrior's Oath"
+   ],
+   "two": [
+    [
+     "Underworld Breach",
+     "Grinding Station"
+    ]
+   ],
+   "lands": 24,
+   "avg_mv": 1.82,
+   "roles": {
+    "ramp": 23,
+    "draw": 7,
+    "counter": 11,
+    "removal": 3,
+    "wipe": 2,
+    "protection": 0,
+    "tutor": 9
+   },
+   "target": 5,
+   "edhrec": null,
+   "one_card_away": "71"
+  },
+  {
+   "path": "grixis/decks/saruman-the-white-hand.md",
+   "title": "Grixis Deck — Saruman, the White Hand",
+   "kind": "grixis",
+   "commanders": [
+    "Saruman, the White Hand"
+   ],
+   "identity": "UBR",
+   "floor": 4,
+   "set_by": [
+    "11 Game Changers (more than three → Bracket 4)",
+    "1 two-card infinite combo (none in Brackets 1–2 → at least Bracket 3)"
+   ],
+   "gcs": [
+    "Ancient Tomb",
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Fierce Guardianship",
+    "Force of Will",
+    "Jeska's Will",
+    "Mystical Tutor",
+    "Orcish Bowmasters",
+    "Rhystic Study",
+    "The One Ring",
+    "Vampiric Tutor"
+   ],
+   "mld": [],
+   "extra_turns": [],
+   "two": [
+    [
+     "Fall of Cair Andros",
+     "Blasphemous Act"
+    ]
+   ],
+   "lands": 31,
+   "avg_mv": 3.35,
+   "roles": {
+    "ramp": 14,
+    "draw": 14,
+    "counter": 6,
+    "removal": 7,
+    "wipe": 0,
+    "protection": 1,
+    "tutor": 4
+   },
+   "target": 4,
+   "edhrec": null,
+   "one_card_away": "54"
+  },
+  {
+   "path": "grixis/decks/sauron-lord-of-the-rings.md",
+   "title": "Grixis Deck — Sauron, Lord of the Rings",
+   "kind": "grixis",
+   "commanders": [
+    "Sauron, Lord of the Rings"
+   ],
+   "identity": "UBR",
+   "floor": 4,
+   "set_by": [
+    "11 Game Changers (more than three → Bracket 4)"
+   ],
+   "gcs": [
+    "Ancient Tomb",
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Force of Will",
+    "Grim Monolith",
+    "Jeska's Will",
+    "Mana Vault",
+    "Orcish Bowmasters",
+    "Rhystic Study",
+    "The One Ring",
+    "Vampiric Tutor"
+   ],
+   "mld": [],
+   "extra_turns": [],
+   "two": [],
+   "lands": 32,
+   "avg_mv": 3.53,
+   "roles": {
+    "ramp": 13,
+    "draw": 14,
+    "counter": 3,
+    "removal": 4,
+    "wipe": 0,
+    "protection": 1,
+    "tutor": 5
+   },
+   "target": 4,
+   "edhrec": null,
+   "one_card_away": "50"
+  },
+  {
+   "path": "grixis/decks/sauron-the-dark-lord.md",
+   "title": "Grixis Deck — Sauron, the Dark Lord",
+   "kind": "grixis",
+   "commanders": [
+    "Sauron, the Dark Lord"
+   ],
+   "identity": "UBR",
+   "floor": 4,
+   "set_by": [
+    "12 Game Changers (more than three → Bracket 4)"
+   ],
+   "gcs": [
+    "Ancient Tomb",
+    "Force of Will",
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Mana Vault",
+    "Fierce Guardianship",
+    "Jeska's Will",
+    "Mystical Tutor",
+    "Orcish Bowmasters",
+    "Rhystic Study",
+    "The One Ring",
+    "Vampiric Tutor"
+   ],
+   "mld": [],
+   "extra_turns": [],
+   "two": [],
+   "lands": 34,
+   "avg_mv": 2.97,
+   "roles": {
+    "ramp": 11,
+    "draw": 12,
+    "counter": 5,
+    "removal": 4,
+    "wipe": 0,
+    "protection": 2,
+    "tutor": 5
+   },
+   "target": 4,
+   "edhrec": null,
+   "one_card_away": "44"
+  },
+  {
+   "path": "grixis/decks/sedris-the-traitor-king.md",
+   "title": "Grixis Deck — Sedris, the Traitor King",
+   "kind": "grixis",
+   "commanders": [
+    "Sedris, the Traitor King"
+   ],
+   "identity": "UBR",
+   "floor": 4,
+   "set_by": [
+    "12 Game Changers (more than three → Bracket 4)",
+    "1 two-card infinite combo (none in Brackets 1–2 → at least Bracket 3)"
+   ],
+   "gcs": [
+    "Ancient Tomb",
+    "Force of Will",
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Grim Monolith",
+    "Fierce Guardianship",
+    "Gamble",
+    "Gifts Ungiven",
+    "Jeska's Will",
+    "Mana Vault",
+    "Rhystic Study",
+    "Vampiric Tutor"
+   ],
+   "mld": [],
+   "extra_turns": [],
+   "two": [
+    [
+     "Peregrine Drake",
+     "Deadeye Navigator"
+    ]
+   ],
+   "lands": 31,
+   "avg_mv": 3.43,
+   "roles": {
+    "ramp": 12,
+    "draw": 8,
+    "counter": 3,
+    "removal": 3,
+    "wipe": 2,
+    "protection": 0,
+    "tutor": 9
+   },
+   "target": 4,
+   "edhrec": null,
+   "one_card_away": "117"
+  },
+  {
+   "path": "grixis/decks/solkanar-the-swamp-king.md",
+   "title": "Grixis Deck — Sol'kanar the Swamp King",
+   "kind": "grixis",
+   "commanders": [
+    "Sol'kanar the Swamp King"
+   ],
+   "identity": "UBR",
+   "floor": 4,
+   "set_by": [
+    "13 Game Changers (more than three → Bracket 4)",
+    "11 two-card infinite combos (none in Brackets 1–2 → at least Bracket 3)"
+   ],
+   "gcs": [
+    "Ancient Tomb",
+    "Bolas's Citadel",
+    "Chrome Mox",
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Fierce Guardianship",
+    "Imperial Seal",
+    "Jeska's Will",
+    "Mana Vault",
+    "Mox Diamond",
+    "Rhystic Study",
+    "The One Ring",
+    "Vampiric Tutor"
+   ],
+   "mld": [],
+   "extra_turns": [],
+   "two": [
+    [
+     "Painter's Servant",
+     "Grindstone"
+    ],
+    [
+     "Marauding Blight-Priest",
+     "Exquisite Blood"
+    ],
+    [
+     "Marauding Blight-Priest",
+     "Bloodthirsty Conqueror"
+    ],
+    [
+     "Vito, Thorn of the Dusk Rose",
+     "Exquisite Blood"
+    ],
+    [
+     "Vito, Thorn of the Dusk Rose",
+     "Bloodthirsty Conqueror"
+    ],
+    [
+     "Aetherflux Reservoir",
+     "Exquisite Blood"
+    ],
+    [
+     "Exquisite Blood",
+     "Enduring Tenacity"
+    ],
+    [
+     "Exquisite Blood",
+     "Starscape Cleric"
+    ],
+    [
+     "Aetherflux Reservoir",
+     "Bloodthirsty Conqueror"
+    ],
+    [
+     "Enduring Tenacity",
+     "Bloodthirsty Conqueror"
+    ],
+    [
+     "Starscape Cleric",
+     "Bloodthirsty Conqueror"
+    ]
+   ],
+   "lands": 35,
+   "avg_mv": 2.66,
+   "roles": {
+    "ramp": 16,
+    "draw": 11,
+    "counter": 4,
+    "removal": 7,
+    "wipe": 1,
+    "protection": 1,
+    "tutor": 4
+   },
+   "target": 4,
+   "edhrec": null,
+   "one_card_away": "95"
+  },
+  {
+   "path": "grixis/decks/solkanar-the-tainted.md",
+   "title": "Grixis Deck — Sol'Kanar the Tainted",
+   "kind": "grixis",
+   "commanders": [
+    "Sol'Kanar the Tainted"
+   ],
+   "identity": "UBR",
+   "floor": 4,
+   "set_by": [
+    "7 Game Changers (more than three → Bracket 4)"
+   ],
+   "gcs": [
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Fierce Guardianship",
+    "Force of Will",
+    "Mana Vault",
+    "Orcish Bowmasters",
+    "Vampiric Tutor"
+   ],
+   "mld": [],
+   "extra_turns": [],
+   "two": [],
+   "lands": 35,
+   "avg_mv": 3.03,
+   "roles": {
+    "ramp": 12,
+    "draw": 14,
+    "counter": 5,
+    "removal": 10,
+    "wipe": 1,
+    "protection": 0,
+    "tutor": 2
+   },
+   "target": 4,
+   "edhrec": null,
+   "one_card_away": "77"
+  },
+  {
+   "path": "grixis/decks/tetsuo-imperial-champion.md",
+   "title": "Grixis Deck — Tetsuo, Imperial Champion",
+   "kind": "grixis",
+   "commanders": [
+    "Tetsuo, Imperial Champion"
+   ],
+   "identity": "UBR",
+   "floor": 4,
+   "set_by": [
+    "5 Game Changers (more than three → Bracket 4)",
+    "2 two-card infinite combos (none in Brackets 1–2 → at least Bracket 3)"
+   ],
+   "gcs": [
+    "Ancient Tomb",
+    "Cyclonic Rift",
+    "Fierce Guardianship",
+    "Force of Will",
+    "Rhystic Study"
+   ],
+   "mld": [],
+   "extra_turns": [],
+   "two": [
+    [
+     "The Reaver Cleaver",
+     "Aggravated Assault"
+    ],
+    [
+     "Sword of Feast and Famine",
+     "Aggravated Assault"
+    ]
+   ],
+   "lands": 35,
+   "avg_mv": 3.19,
+   "roles": {
+    "ramp": 11,
+    "draw": 11,
+    "counter": 2,
+    "removal": 4,
+    "wipe": 0,
+    "protection": 6,
+    "tutor": 4
+   },
+   "target": 4,
+   "edhrec": null,
+   "one_card_away": "51"
+  },
+  {
+   "path": "grixis/decks/tetsuo-umezawa.md",
+   "title": "Grixis Deck — Tetsuo Umezawa",
+   "kind": "grixis",
+   "commanders": [
+    "Tetsuo Umezawa"
+   ],
+   "identity": "UBR",
+   "floor": 4,
+   "set_by": [
+    "4 Game Changers (more than three → Bracket 4)",
+    "1 two-card infinite combo (none in Brackets 1–2 → at least Bracket 3)"
+   ],
+   "gcs": [
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Force of Will",
+    "Vampiric Tutor"
+   ],
+   "mld": [],
+   "extra_turns": [],
+   "two": [
+    [
+     "Illusionist's Bracers",
+     "Aphetto Alchemist"
+    ]
+   ],
+   "lands": 35,
+   "avg_mv": 2.75,
+   "roles": {
+    "ramp": 14,
+    "draw": 10,
+    "counter": 3,
+    "removal": 7,
+    "wipe": 2,
+    "protection": 1,
+    "tutor": 2
+   },
+   "target": 4,
+   "edhrec": null,
+   "one_card_away": "32"
+  },
+  {
+   "path": "grixis/decks/the-rani.md",
+   "title": "Grixis Deck — The Rani",
+   "kind": "grixis",
+   "commanders": [
+    "The Rani"
+   ],
+   "identity": "UBR",
+   "floor": 4,
+   "set_by": [
+    "8 Game Changers (more than three → Bracket 4)"
+   ],
+   "gcs": [
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Fierce Guardianship",
+    "Force of Will",
+    "Mystical Tutor",
+    "Rhystic Study",
+    "The One Ring",
+    "Vampiric Tutor"
+   ],
+   "mld": [],
+   "extra_turns": [
+    "Time Sieve"
+   ],
+   "two": [],
+   "lands": 33,
+   "avg_mv": 3.02,
+   "roles": {
+    "ramp": 15,
+    "draw": 13,
+    "counter": 4,
+    "removal": 4,
+    "wipe": 1,
+    "protection": 1,
+    "tutor": 3
+   },
+   "target": 4,
+   "edhrec": null,
+   "one_card_away": "58"
+  },
+  {
+   "path": "grixis/decks/the-valeyard.md",
+   "title": "Grixis Deck — The Valeyard",
+   "kind": "grixis",
+   "commanders": [
+    "The Valeyard"
+   ],
+   "identity": "UBR",
+   "floor": 4,
+   "set_by": [
+    "6 Game Changers (more than three → Bracket 4)"
+   ],
+   "gcs": [
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Fierce Guardianship",
+    "Force of Will",
+    "Rhystic Study",
+    "Vampiric Tutor"
+   ],
+   "mld": [],
+   "extra_turns": [
+    "Expropriate",
+    "Plea for Power"
+   ],
+   "two": [],
+   "lands": 36,
+   "avg_mv": 3.6,
+   "roles": {
+    "ramp": 12,
+    "draw": 19,
+    "counter": 4,
+    "removal": 2,
+    "wipe": 2,
+    "protection": 0,
+    "tutor": 2
+   },
+   "target": 4,
+   "edhrec": null,
+   "one_card_away": "22"
+  },
+  {
+   "path": "grixis/decks/thraximundar.md",
+   "title": "Grixis Deck — Thraximundar",
+   "kind": "grixis",
+   "commanders": [
+    "Thraximundar"
+   ],
+   "identity": "UBR",
+   "floor": 4,
+   "set_by": [
+    "8 Game Changers (more than three → Bracket 4)",
+    "1 two-card infinite combo (none in Brackets 1–2 → at least Bracket 3)"
+   ],
+   "gcs": [
+    "Ancient Tomb",
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Fierce Guardianship",
+    "Mana Vault",
+    "Rhystic Study",
+    "Tergrid, God of Fright // Tergrid's Lantern",
+    "Vampiric Tutor"
+   ],
+   "mld": [],
+   "extra_turns": [],
+   "two": [
+    [
+     "Gravecrawler",
+     "Phyrexian Altar"
+    ]
+   ],
+   "lands": 36,
+   "avg_mv": 2.78,
+   "roles": {
+    "ramp": 15,
+    "draw": 7,
+    "counter": 2,
+    "removal": 6,
+    "wipe": 0,
+    "protection": 1,
+    "tutor": 3
+   },
+   "target": 4,
+   "edhrec": null,
+   "one_card_away": "284"
+  },
+  {
+   "path": "grixis/decks/wick-the-whorled-mind.md",
+   "title": "Grixis Deck — Wick, the Whorled Mind",
+   "kind": "grixis",
+   "commanders": [
+    "Wick, the Whorled Mind"
+   ],
+   "identity": "UBR",
+   "floor": 4,
+   "set_by": [
+    "5 Game Changers (more than three → Bracket 4)",
+    "1 two-card infinite combo (none in Brackets 1–2 → at least Bracket 3)"
+   ],
+   "gcs": [
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Fierce Guardianship",
+    "Jeska's Will",
+    "Vampiric Tutor"
+   ],
+   "mld": [],
+   "extra_turns": [],
+   "two": [
+    [
+     "Marrow-Gnawer",
+     "Intruder Alarm"
+    ]
+   ],
+   "lands": 35,
+   "avg_mv": 2.55,
+   "roles": {
+    "ramp": 13,
+    "draw": 6,
+    "counter": 4,
+    "removal": 6,
+    "wipe": 0,
+    "protection": 0,
+    "tutor": 3
+   },
+   "target": 4,
+   "edhrec": null,
+   "one_card_away": "286"
+  },
+  {
+   "path": "grixis/decks/zevlor-elturel-exile.md",
+   "title": "Grixis Deck — Zevlor, Elturel Exile",
+   "kind": "grixis",
+   "commanders": [
+    "Zevlor, Elturel Exile"
+   ],
+   "identity": "UBR",
+   "floor": 4,
+   "set_by": [
+    "11 Game Changers (more than three → Bracket 4)",
+    "1 two-card infinite combo (none in Brackets 1–2 → at least Bracket 3)"
+   ],
+   "gcs": [
+    "Ancient Tomb",
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Fierce Guardianship",
+    "Force of Will",
+    "Gamble",
+    "Jeska's Will",
+    "Mana Vault",
+    "Mystical Tutor",
+    "Rhystic Study",
+    "Vampiric Tutor"
+   ],
+   "mld": [],
+   "extra_turns": [],
+   "two": [
+    [
+     "Omen Hawker",
+     "Pemmin's Aura"
+    ]
+   ],
+   "lands": 34,
+   "avg_mv": 2.74,
+   "roles": {
+    "ramp": 11,
+    "draw": 15,
+    "counter": 5,
+    "removal": 9,
+    "wipe": 2,
+    "protection": 2,
+    "tutor": 4
+   },
+   "target": 4,
+   "edhrec": null,
+   "one_card_away": "39"
   }
  ]
 }

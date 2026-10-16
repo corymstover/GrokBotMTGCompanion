@@ -352,7 +352,7 @@ schema: 2
   - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
   - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
   - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sea-gate-restoration--sea-gate-reborn)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#sea-gate-restoration--sea-gate-reborn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/76/sea-gate-restoration-sea-gate-reborn) · oracle_id `4a8d41fe-e04d-484b-a7d1-19be311e6ca7` · printing: ZNR #76 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sea Gate Stormcaller

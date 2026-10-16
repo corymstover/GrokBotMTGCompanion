@@ -1056,7 +1056,7 @@ schema: 2
   - *2022-12-08* — The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
   - *2022-12-08* — The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack.
   - *2022-12-08* — You may choose new targets for any of the copies. You can make different choices for each copy.
-- **Referenced in:** 3 pages (1 rules · 2 card data) → [reverse index](../../references/G.md#grapeshot)
+- **Referenced in:** 4 pages (1 decks · 1 rules · 2 card data) → [reverse index](../../references/G.md#grapeshot)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/803/grapeshot) · oracle_id `ebd2d760-5ad8-4027-b124-171822f3edfe` · printing: MSC #803 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grapeshot Catapult
@@ -1596,7 +1596,7 @@ schema: 2
 - **Rulings** (2):
   - *2011-01-22* — Gravecrawler's ability doesn't change when you could cast it.
   - *2011-01-22* — Once you've cast Gravecrawler and it's on the stack, it doesn't matter if you lose control of the other Zombie.
-- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/G.md#gravecrawler)
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/G.md#gravecrawler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/93/gravecrawler) · oracle_id `09ff28b1-b6c9-48e6-b12e-2f0e644f709f` · printing: TDC #93 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grave Defiler
@@ -1865,7 +1865,7 @@ schema: 2
   - *2023-09-01* — In a Two-Headed Giant game, when a creature you control dies, Grave Pact's triggered ability will cause each other player, including your teammate, to sacrifice a creature. Grave Pact's ability won't trigger when a creature your teammate controls dies.
   - *2023-09-01* — None of the players are targeted. A player with hexproof would still sacrifice a creature.
   - *2023-09-01* — When the triggered ability resolves, first the player whose turn it is (if it isn't your turn) chooses which creature they will sacrifice, then each other player in turn order does the same, then all chosen creatures are sacrificed at the same time.
-- **Referenced in:** 7 pages (4 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/G.md#grave-pact)
+- **Referenced in:** 9 pages (5 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/G.md#grave-pact)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/165/grave-pact) · oracle_id `6f4ac4a4-53ec-4bc9-8f5c-d4b801d867b2` · printing: CMM #165 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grave Peril
@@ -1933,7 +1933,7 @@ schema: 2
   - *2026-03-20* — The amount of life you lose as Reanimate resolves is determined by the mana value of the card in your graveyard, not the creature once it's on the battlefield.
   - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
   - *2026-03-20* — You lose life after the creature is already on the battlefield. Any abilities it has that interact with loss of life, such as that of Platinum Emperion, apply to that loss of life.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#grave-researcher--reanimate)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/G.md#grave-researcher--reanimate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/85/grave-researcher-reanimate) · oracle_id `6cb8b8c4-0674-4f14-9d89-010969fbb80e` · printing: SOS #85 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grave Robbers
@@ -2145,7 +2145,7 @@ schema: 2
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1377 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/G.md#grave-titan)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/G.md#grave-titan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/74/grave-titan) · oracle_id `f3abd4d1-a975-4e85-8684-aa0fce029670` · printing: ECC #74 (2026-01-23) · [rulings](https://api.scryfall.com/cards/3b4faa6e-5013-4c59-80f5-662a386672eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grave Upheaval
@@ -2475,7 +2475,7 @@ schema: 2
   - *2020-01-24* — If you put an Aura on an opponent's permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
   - *2020-01-24* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
   - *2021-03-19* — The amount of life you gain is the total amount of life lost, not simply the value of X.
-- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/G.md#gray-merchant-of-asphodel)
+- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 card data) → [reverse index](../../references/G.md#gray-merchant-of-asphodel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/142/gray-merchant-of-asphodel) · oracle_id `38f3b157-0df4-409b-89cc-086e1531cd5b` · printing: DSC #142 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gray Ogre
