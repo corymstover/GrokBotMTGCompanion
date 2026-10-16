@@ -540,8 +540,8 @@ schema: 2
 - **Rulings** (1):
   - *2022-09-09* — If the permanent that you sacrifice as you resolve Braids's triggered ability has more than one card type, each opponent may choose to sacrifice any permanent they control that shares any card type with it. For example, if the permanent you sacrifice is an artifact creature, one opponent might choose to sacrifice an artifact and another opponent might choose to sacrifice a creature.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (7): [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Braids, Arisen Nightmare (Dominaria-only)](../../decks/plane-dominaria-braids-arisen-nightmare.md) · [Teysa Karlov](../../decks/teysa-karlov.md) · [Edea, Possessed Sorceress (Grixis)](../../grixis/decks/edea-possessed-sorceress.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8,482 decks; highest synergy [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) (+56%), [Jadar, Ghoulcaller of Nephalia](../../cards/J/ja.md#jadar-ghoulcaller-of-nephalia) (+49%), [Ophiomancer](../../cards/O/op.md#ophiomancer) (+48%) · EDHREC: in 363,534 decks; most often under [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (77.4% of its decks), [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (64.2% of its decks), [Meren of Clan Nel Toth](../../cards/M/me.md#meren-of-clan-nel-toth) (48.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 10 pages (7 decks · 2 edh guides · 1 card data) → [reverse index](../../references/B.md#braids-arisen-nightmare)
+- **Synergy:** *Proven* — KB decks (8): [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Braids, Arisen Nightmare (Dominaria-only)](../../decks/plane-dominaria-braids-arisen-nightmare.md) · [Teysa Karlov](../../decks/teysa-karlov.md) · [Edea, Possessed Sorceress (Grixis)](../../grixis/decks/edea-possessed-sorceress.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8,482 decks; highest synergy [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) (+56%), [Jadar, Ghoulcaller of Nephalia](../../cards/J/ja.md#jadar-ghoulcaller-of-nephalia) (+49%), [Ophiomancer](../../cards/O/op.md#ophiomancer) (+48%) · EDHREC: in 363,534 decks; most often under [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (77.4% of its decks), [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (64.2% of its decks), [Meren of Clan Nel Toth](../../cards/M/me.md#meren-of-clan-nel-toth) (48.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 11 pages (8 decks · 2 edh guides · 1 card data) → [reverse index](../../references/B.md#braids-arisen-nightmare)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/82/braids-arisen-nightmare) · oracle_id `e0445c80-fa53-4c3e-881e-940e9fce7f57` · printing: EOC #82 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Braids, Cabal Minion
@@ -649,7 +649,7 @@ schema: 2
   - *2022-12-08* — The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
   - *2022-12-08* — The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack.
   - *2022-12-08* — You may choose new targets for any of the copies. You can make different choices for each copy.
-- **Referenced in:** 18 pages (12 decks · 4 edh guides · 1 rules · 1 card data) → [reverse index](../../references/B.md#brain-freeze)
+- **Referenced in:** 20 pages (14 decks · 4 edh guides · 1 rules · 1 card data) → [reverse index](../../references/B.md#brain-freeze)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/57/brain-freeze) · oracle_id `464c0150-3dbc-403b-9ada-fef25ab1f29d` · printing: VMA #57 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Braingeyser
@@ -785,7 +785,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #72 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-03-16* — You draw three cards and put two cards back all while Brainstorm is resolving. Nothing can happen between the two, and no player may choose to take actions.
-- **Referenced in:** 20 pages (12 decks · 5 edh guides · 3 card data) → [reverse index](../../references/B.md#brainstorm)
+- **Referenced in:** 26 pages (18 decks · 5 edh guides · 3 card data) → [reverse index](../../references/B.md#brainstorm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/39/brainstorm) · oracle_id `36cd2364-d113-47d1-b2c4-b088d9eb88dd` · printing: FRC #39 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Brainsurge
@@ -1436,6 +1436,7 @@ schema: 2
 - **Rulings** (2):
   - *2011-06-01* — If one of the targets is illegal when the activated ability resolves, nothing will happen and the Equipment won't move. Notably, if an opponent gains control of either target in response, the Equipment won't move.
   - *2011-06-01* — Unlike the equip ability, Brass Squire's ability can be activated whenever you could cast an instant.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#brass-squire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/460/brass-squire) · oracle_id `5a10c3a5-6724-4e5a-ae4f-b27dde12735a` · printing: CMR #460 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Brass's Tunnel-Grinder // Tecutlan, the Searing Rift
@@ -2202,7 +2203,7 @@ schema: 2
   > *The ideas came flooding in so fast that they couldn't all be contained.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10093 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#breakthrough)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/B.md#breakthrough)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/41/breakthrough) · oracle_id `c6b26c1f-121f-4b7c-921e-429b623ca934` · printing: 2X2 #41 (2022-07-08) · [rulings](https://api.scryfall.com/cards/22075f41-3aeb-406d-99b6-88ddae992d0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Break Through the Line
@@ -2881,7 +2882,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
   - *2004-10-04* — You put the creature onto the battlefield, so you control it and any "enters" abilities it has.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bribery)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/B.md#bribery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/77/bribery) · oracle_id `6d194882-ca37-49bb-ac9f-a751c53850a8` · printing: CMM #77 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bribe Taker
@@ -5126,7 +5127,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #563 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 9 pages (5 decks · 4 edh guides) → [reverse index](../../references/B.md#brotherhood-regalia)
+- **Referenced in:** 11 pages (7 decks · 4 edh guides) → [reverse index](../../references/B.md#brotherhood-regalia)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/71/brotherhood-regalia) · oracle_id `d169738e-af0b-4488-a399-3aa1d1933aa1` · printing: ACR #71 (2024-07-05) · [rulings](https://api.scryfall.com/cards/8a6439a6-288d-427e-b14b-a99e8ef8c5cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Brotherhood Scribe

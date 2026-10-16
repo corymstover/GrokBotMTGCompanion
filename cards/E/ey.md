@@ -275,7 +275,7 @@ schema: 2
   - *2025-06-06* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
   - *2025-06-06* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent protects, or the player that goaded it.
   - *2025-06-06* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#eye-of-nidhogg)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/E.md#eye-of-nidhogg)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/44/eye-of-nidhogg) · oracle_id `c288f184-0beb-4cc9-9b0a-5f3c4b9e70d7` · printing: FIC #44 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye of Nowhere

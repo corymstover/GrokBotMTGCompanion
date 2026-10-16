@@ -47,6 +47,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9921 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2005-06-01* — If you don’t have three or more cards in hand at the end of turn, you discard what cards you have.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#ideas-unbound)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/40/ideas-unbound) · oracle_id `6b4d34bc-fa64-4c42-90e0-190671a5b988` · printing: SOK #40 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Identify the Culprit
@@ -101,6 +102,7 @@ schema: 2
   - *2016-07-13* — Noncopy effects that have already applied to Identity Thief will continue to apply to it. For example, if Woodcutter's Grit gave Identity Thief +3/+3 and hexproof earlier in the turn, Identity Thief will still have those bonuses after copying a creature.
   - *2016-07-13* — This effect can cause Identity Thief to become a copy of a creature that can't normally attack, such as Lupine Prototype or a creature with defender. In these cases, it remains attacking.
   - *2016-07-13* — This effect can cause Identity Thief to stop being a creature. For example, if you target an animated Gideon Jura (a planeswalker with a loyalty ability that turns him into a creature), only the printed wording will be copied; the “becomes a creature” effect won't. Identity Thief will become a noncreature Gideon with no loyalty, be removed from combat, and then be put into its owner's graveyard.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#identity-thief)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/224/identity-thief) · oracle_id `a200daec-983c-4ea6-ae98-1c963b50fbb1` · printing: NCC #224 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Idle Thoughts

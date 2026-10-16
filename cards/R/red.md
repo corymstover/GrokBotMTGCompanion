@@ -95,6 +95,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — If Redcap Gutter-Dweller leaves the battlefield after its last ability has triggered, you can still sacrifice a creature and exile the top card of your library, even though you won't put a +1/+1 counter on Redcap Gutter-Dweller.
   - *2024-11-08* — You pay all costs and follow all normal timing rules for cards played with the permission granted by Redcap Gutter-Dweller's last ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#redcap-gutter-dweller)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/631/redcap-gutter-dweller) · oracle_id `ada48353-4c86-44d6-83a5-e7e3c703b948` · printing: FDN #631 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redcap Heelslasher
@@ -194,7 +195,8 @@ schema: 2
   - *2024-03-08* — If, during a player’s declare attackers step, a creature that player controls that’s been goaded is tapped, is affected by a spell or ability that says it can’t attack, or hasn’t been under that player’s control continuously since the turn began (and doesn’t have haste), then it doesn’t attack. If there’s a cost associated with having a creature attack a player, its controller isn’t forced to pay that cost, so it doesn’t have to attack that player.
   - *2024-03-08* — Red Death’s ability isn’t a mana ability even though it causes you to add mana. It uses the stack and can be responded to.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 67 combos; most popular [Red Death, Shipwrecker + Chromatic Orrery + Freed from the Real](https://commanderspellbook.com/combo/1283-4222-5516/) (Infinite card draw, Infinite colored mana) · EDHREC as commander: 2,902 decks; highest synergy [Disrupt Decorum](../../cards/D/di.md#disrupt-decorum) (+57%), [Ioreth of the Healing House](../../cards/I/io.md#ioreth-of-the-healing-house) (+57%), [Vengeful Ancestor](../../cards/V/ve.md#vengeful-ancestor) (+51%) · EDHREC: in 21,399 decks; most often under [Ian Malcolm, Chaotician](../../cards/I/ia.md#ian-malcolm-chaotician) (55.9% of its decks), [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (8.0% of its decks), [Marchesa, Dealer of Death](../../cards/M/mar.md#marchesa-dealer-of-death) (25.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Synergy:** *Proven* — KB decks (2): [Tetsuo Umezawa (Grixis)](../../grixis/decks/tetsuo-umezawa.md) · [The Rani (Grixis)](../../grixis/decks/the-rani.md) · Commander Spellbook: 67 combos; most popular [Red Death, Shipwrecker + Chromatic Orrery + Freed from the Real](https://commanderspellbook.com/combo/1283-4222-5516/) (Infinite card draw, Infinite colored mana) · EDHREC as commander: 2,902 decks; highest synergy [Disrupt Decorum](../../cards/D/di.md#disrupt-decorum) (+57%), [Ioreth of the Healing House](../../cards/I/io.md#ioreth-of-the-healing-house) (+57%), [Vengeful Ancestor](../../cards/V/ve.md#vengeful-ancestor) (+51%) · EDHREC: in 21,399 decks; most often under [Ian Malcolm, Chaotician](../../cards/I/ia.md#ian-malcolm-chaotician) (55.9% of its decks), [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (8.0% of its decks), [Marchesa, Dealer of Death](../../cards/M/mar.md#marchesa-dealer-of-death) (25.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/R.md#red-death-shipwrecker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/116/red-death-shipwrecker) · oracle_id `0d40b2c3-9f39-45c6-8b25-12353f300613` · printing: PIP #116 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Dragon
@@ -250,7 +252,7 @@ schema: 2
   > *Nothing restrains a burning passion.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #450 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 12 pages (9 decks · 2 edh guides · 1 card data) → [reverse index](../../references/R.md#red-elemental-blast)
+- **Referenced in:** 14 pages (11 decks · 2 edh guides · 1 card data) → [reverse index](../../references/R.md#red-elemental-blast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/147/red-elemental-blast) · oracle_id `bb329a5c-b9f9-4973-a53f-090024146325` · printing: A25 #147 (2018-03-16) · [rulings](https://api.scryfall.com/cards/70a45e9b-699e-425a-9f3d-267274830d3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redemption Arc

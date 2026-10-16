@@ -2241,7 +2241,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-02-18* — A creature attacks alone if it's the only creature declared as an attacker during the declare attackers step. For example, Heiko Yamazaki's triggered ability won't trigger if you attack with multiple creatures and all but one of them are removed from combat.
   - *2022-02-18* — You must still pay all costs and follow all normal timing rules when casting an artifact from your graveyard this way. Normally, this means you will not be able to cast that card until your post-combat main phase.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#heiko-yamazaki-the-general)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/H.md#heiko-yamazaki-the-general)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/146/heiko-yamazaki-the-general) · oracle_id `a4d67f2d-6b0f-4feb-bf7d-90ab4f2e46ab` · printing: NEO #146 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Heirloom Auntie
@@ -2965,7 +2965,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — Putting your commander onto the battlefield this way isn't the same as casting that commander. The "commander tax" won't increase.
   - *2020-11-10* — You'll return the commander to the command zone only if it's still on the battlefield as the delayed triggered ability resolves. If it's in another zone, it will stay where it is.
-- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 rules) → [reverse index](../../references/H.md#hellkite-courser)
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 rules) → [reverse index](../../references/H.md#hellkite-courser)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/218/hellkite-courser) · oracle_id `c5abd58f-3e00-447b-a978-64cb88ad501b` · printing: TDC #218 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hellkite Hatchling
@@ -3247,6 +3247,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-04-12* — Excess damage has been dealt to a creature if the damage dealt to it is greater than lethal damage. Usually, this means damage greater than its toughness, although damage already marked on the creature is taken into account.
   - *2024-04-12* — In some unusual cases, Hell to Pay may have deathtouch. Even 1 damage dealt to a creature from a source with deathtouch is considered lethal damage, so any amount greater than that will cause excess damage to be dealt, even if the total amount of damage isn’t greater than the creature’s toughness.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#hell-to-pay)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/126/hell-to-pay) · oracle_id `7dc7d90d-5979-4c4a-9183-392e0e0b878a` · printing: OTJ #126 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Helm of Awakening
@@ -5399,7 +5400,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #575 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-11-17* — A spell or ability that counters spells can still target any spell that can't be countered. When that spell or ability resolves, the spell that can't be countered won't be countered, but any additional effects of the countering spell or ability will still happen.
-- **Referenced in:** 11 pages (7 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/H.md#hexing-squelcher)
+- **Referenced in:** 14 pages (10 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/H.md#hexing-squelcher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/145/hexing-squelcher) · oracle_id `96c2d71e-0fc9-42aa-bc6b-6d0ae3f66f8b` · printing: ECL #145 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hex Magic
@@ -5482,7 +5483,7 @@ schema: 2
   - *2023-02-04* — The Rebel enters the battlefield as a 2/2 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 2/2 creature entered the battlefield.
   - *2023-02-04* — There's no main phase between your combat phases, so you'll have no opportunity to cast spells or activate abilities that could only be activated any time you could cast a sorcery. For example, you won't be able to cast another creature or activate Hexplate Wallbreaker's equip ability between combats.
   - *2023-02-04* — Untapping an attacking creature doesn't remove it from combat.
-- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/H.md#hexplate-wallbreaker)
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/H.md#hexplate-wallbreaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/onc/14/hexplate-wallbreaker) · oracle_id `f7f78825-10d6-441a-ae26-51b77cc271cd` · printing: ONC #14 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hezrou // Demonic Stench

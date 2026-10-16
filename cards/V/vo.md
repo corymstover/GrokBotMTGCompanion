@@ -1361,7 +1361,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
   - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
-- **Referenced in:** 44 pages (39 decks · 4 edh guides · 1 card data) → [reverse index](../../references/V.md#volcanic-island)
+- **Referenced in:** 64 pages (59 decks · 4 edh guides · 1 card data) → [reverse index](../../references/V.md#volcanic-island)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/324/volcanic-island) · oracle_id `c718911c-c955-4eb9-9e16-be4bd49a4e4e` · printing: VMA #324 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Volcanic Offering
@@ -1424,6 +1424,7 @@ schema: 2
   - *2020-06-23* — The total cost to cast Volcanic Salvo is locked in before you pay that cost. For example, if you control three 2/2 creatures, including one you can sacrifice to add {C}, the total cost is {4}{R}{R}. Then you can sacrifice the creature when you activate mana abilities just before paying the cost.
   - *2020-06-23* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Volcanic Salvo). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
   - *2020-06-23* — You can't target the same creature or planeswalker twice with Volcanic Salvo to deal 12 damage to it.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/V.md#volcanic-salvo)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/259/volcanic-salvo) · oracle_id `9c2fd3a3-96f2-4e84-85a9-77698c2f83aa` · printing: SOC #259 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Volcanic Spite
@@ -2205,7 +2206,8 @@ schema: 2
   - *2018-01-19* — Once you have the city’s blessing, you have it for the rest of the game, even if you lose control of some or all of your permanents. The city’s blessing isn’t a permanent itself and can’t be removed by any effect.
   - *2018-01-19* — When Vona’s Hunger resolves, first the player whose turn it is (if that player is an opponent) chooses which creature or creatures they will sacrifice, then each other opponent in turn order does the same, then all chosen creatures are sacrificed at the same time. Players will know choices made by earlier players when making their choices.
 - **Lore:** ✅ Card art shown on [The Flood](https://magic.wizards.com/en/news/magic-story/flood-2018-01-10) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 42,290 decks; most often under [Vren, the Relentless](../../cards/V/vr.md#vren-the-relentless) (42.1% of its decks), [Tergrid, God of Fright](../../cards/T/te.md#tergrid-god-of-fright--tergrids-lantern) (37.3% of its decks), [Vincent Valentine](../../cards/V/vi.md#vincent-valentine--galian-beast) (41.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Synergy:** *Proven* — KB decks (1): [Thraximundar (Grixis)](../../grixis/decks/thraximundar.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 42,290 decks; most often under [Vren, the Relentless](../../cards/V/vr.md#vren-the-relentless) (42.1% of its decks), [Tergrid, God of Fright](../../cards/T/te.md#tergrid-god-of-fright--tergrids-lantern) (37.3% of its decks), [Vincent Valentine](../../cards/V/vi.md#vincent-valentine--galian-beast) (41.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/V.md#vonas-hunger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/90/vonas-hunger) · oracle_id `da522912-1bc2-4d70-b426-94d10edb2afe` · printing: RIX #90 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voodoo Doll
@@ -2298,6 +2300,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/V.md#voracious-fell-beast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/113/voracious-fell-beast) · oracle_id `2e037c5e-3e07-4ffc-a388-7976459f6ff7` · printing: LTR #113 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voracious Greatshark
@@ -2457,7 +2460,7 @@ schema: 2
   > *Lord Skitter promised the starving rats of Edgewall that they would never go hungry again.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6203 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/V.md#voracious-vermin)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/V.md#voracious-vermin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/116/voracious-vermin) · oracle_id `8d36d80e-9934-4b56-bf3c-2b18a6da3d2d` · printing: WOE #116 (2023-09-08) · [rulings](https://api.scryfall.com/cards/8059be65-3c73-49bb-a3b6-c346ce2f9fa4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Voracious Wurm
@@ -2597,7 +2600,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2864 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/V.md#vorpal-sword)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/V.md#vorpal-sword)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/124/vorpal-sword) · oracle_id `61bfab3f-d8f0-4ff5-9ddf-3fd605070c8f` · printing: AFR #124 (2021-07-23) · [rulings](https://api.scryfall.com/cards/7adbe69f-326d-4b4f-850f-c57a1860d17c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vorrac Battlehorns

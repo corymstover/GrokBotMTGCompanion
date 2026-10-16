@@ -696,7 +696,7 @@ schema: 2
 - **Keywords:** Deathtouch, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #363 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 11 pages (8 decks · 2 edh guides · 1 card data) → [reverse index](../../references/B.md#baleful-strix)
+- **Referenced in:** 14 pages (11 decks · 2 edh guides · 1 card data) → [reverse index](../../references/B.md#baleful-strix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/215/baleful-strix) · oracle_id `37688720-03de-4eca-a82d-a0afe8d58adc` · printing: OTC #215 (2024-04-19) · [rulings](https://api.scryfall.com/cards/be8439e6-f779-49f0-806a-b04995697a6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balemurk Leech

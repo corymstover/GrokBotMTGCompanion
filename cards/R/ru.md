@@ -1894,7 +1894,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1310 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#rune-scarred-demon)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/R.md#rune-scarred-demon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/184/rune-scarred-demon) · oracle_id `14aefe99-fb60-4f1c-a71f-7ffbe94c8b13` · printing: FDN #184 (2024-11-15) · [rulings](https://api.scryfall.com/cards/1eae3165-554d-4759-8f18-794e2a7d8464/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rune-Sealed Wall

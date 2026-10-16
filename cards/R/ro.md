@@ -482,7 +482,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-11-10* — If you control two Roaming Thrones with the same chosen creature type, triggered abilities of other creatures you control of the chosen type trigger three times. Three such Roaming Thrones result in four triggered abilities, and so on.
   - *2023-11-10* — Roaming Throne's last ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
-- **Referenced in:** 19 pages (16 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/R.md#roaming-throne)
+- **Referenced in:** 22 pages (19 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/R.md#roaming-throne)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/258/roaming-throne) · oracle_id `3640c29b-1534-4952-b297-619ade948431` · printing: LCI #258 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Roaring Earth
@@ -1568,8 +1568,8 @@ schema: 2
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
 - **Lore:** ✅ Presented with an official backstory on [The Legendary Characters of Commander Legends, Part 1](https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-1-2020-10-30) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Cloudstone Curio + Rograkh, Son of Rohgahh + Kobolds of Kher Keep](https://commanderspellbook.com/combo/2232-2459-4336/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 281 decks; highest synergy [Bone Saw](../../cards/B/bo.md#bone-saw) (+55%), [Ornithopter](../../cards/O/or.md#ornithopter) (+54%), [Cathar's Shield](../../cards/C/cat.md#cathars-shield) (+53%) · EDHREC: in 44,967 decks; most often under [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (48.7% of its decks), [Flubs, the Fool](../../cards/F/fl.md#flubs-the-fool) (23.1% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (15.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/R.md#rograkh-son-of-rohgahh)
+- **Synergy:** *Proven* — KB decks (1): [Rograkh, Son of Rohgahh (Grixis)](../../grixis/decks/rograkh-son-of-rohgahh-silas-renn.md) · Commander Spellbook: 100+ combos; most popular [Cloudstone Curio + Rograkh, Son of Rohgahh + Kobolds of Kher Keep](https://commanderspellbook.com/combo/2232-2459-4336/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 281 decks; highest synergy [Bone Saw](../../cards/B/bo.md#bone-saw) (+55%), [Ornithopter](../../cards/O/or.md#ornithopter) (+54%), [Cathar's Shield](../../cards/C/cat.md#cathars-shield) (+53%) · EDHREC: in 44,967 decks; most often under [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (48.7% of its decks), [Flubs, the Fool](../../cards/F/fl.md#flubs-the-fool) (23.1% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (15.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/R.md#rograkh-son-of-rohgahh)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/197/rograkh-son-of-rohgahh) · oracle_id `584cee10-f18c-4633-95cc-f2e7a11841ac` · printing: CMR #197 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rogue Artificial Intelligence
@@ -1717,8 +1717,8 @@ schema: 2
 - **Rulings** (1):
   - *2018-12-07* — Activating the second ability of Rogue's Passage after a creature has become blocked won't cause that creature to become unblocked.
 - **Lore:** ✅ Card art shown on [Family Values](https://magic.wizards.com/en/news/magic-story/family-values-2015-11-11) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (12): [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Feather, the Redeemed](../../decks/feather-the-redeemed.md) · [Gishath, Sun's Avatar](../../decks/gishath-suns-avatar.md) · [Kozilek, the Great Distortion](../../decks/kozilek-the-great-distortion.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,062,059 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (51.5% of its decks), [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (51.3% of its decks), [Frodo, Adventurous Hobbit // Sam, Loyal Attendant](../../cards/F/fr.md#frodo-adventurous-hobbit) (57.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 15 pages (12 decks · 2 edh guides · 1 card data) → [reverse index](../../references/R.md#rogues-passage)
+- **Synergy:** *Proven* — KB decks (13): [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Feather, the Redeemed](../../decks/feather-the-redeemed.md) · [Gishath, Sun's Avatar](../../decks/gishath-suns-avatar.md) · [Kozilek, the Great Distortion](../../decks/kozilek-the-great-distortion.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 2,062,059 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (51.5% of its decks), [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (51.3% of its decks), [Frodo, Adventurous Hobbit // Sam, Loyal Attendant](../../cards/F/fr.md#frodo-adventurous-hobbit) (57.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 16 pages (13 decks · 2 edh guides · 1 card data) → [reverse index](../../references/R.md#rogues-passage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/212/rogues-passage) · oracle_id `f29dc596-2121-4421-8463-15f6c2e8b9b3` · printing: HOC #212 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rohgahh, Kher Keep Overlord
@@ -2069,6 +2069,7 @@ schema: 2
   - *2019-05-03* — Role Reversal’s effect lasts indefinitely. It doesn’t wear off during the cleanup step, and it doesn’t expire if the permanents stop sharing a permanent type after Role Reversal has resolved.
   - *2019-05-03* — The permanent types are artifact, creature, enchantment, land, and planeswalker. Supertypes, like legendary, aren’t permanent types. For example, you can’t exchange control of a legendary creature with a legendary planeswalker.
   - *2019-05-03* — You don’t have to control either target permanent.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#role-reversal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/214/role-reversal) · oracle_id `8be783b2-7394-411a-8ab5-a8fffe8d714c` · printing: WAR #214 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Roller Coaster
@@ -2531,7 +2532,7 @@ schema: 2
 - **Rulings** (2):
   - *2011-09-22* — The mana cost and mana value of the spell are unchanged. Rooftop Storm only changes what you pay.
   - *2011-09-22* — You must still pay any mandatory additional costs, such as exiling a creature card from your graveyard for Makeshift Mauler.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#rooftop-storm)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/R.md#rooftop-storm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/83/rooftop-storm) · oracle_id `6835bf6d-7197-481b-ac26-276ce363b4ad` · printing: INR #83 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rookie Mistake
@@ -4064,6 +4065,7 @@ schema: 2
   - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
   - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
   - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#rousing-refrain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/253/rousing-refrain) · oracle_id `515c522f-51d5-4f6d-b9b1-ea3c7f6a378e` · printing: SOC #253 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rout
@@ -4310,6 +4312,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-04-14* — Copying a loyalty ability doesn't cause any loyalty counters to be added to or removed from the enchanted planeswalker.
   - *2023-04-14* — You can activate one loyalty ability of each planeswalker you control during each of your turns, whether that ability is one it always has or the one it gains because of Rowan's Talent.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#rowans-talent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/77/rowans-talent) · oracle_id `0af6f3ce-59e8-4797-aa1b-dbdb5288fe3d` · printing: MOC #77 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rowan Treefolk
@@ -4447,7 +4450,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Can't target itself because you choose the target before you tap him. At that time he is not yet a legal target.
   - *2004-10-04* — If the creature is no longer tapped when the Assassin's ability resolves, then the ability doesn't resolve.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#royal-assassin)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/R.md#royal-assassin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/101/royal-assassin) · oracle_id `9ed6f28f-a3db-48c5-9ab0-b90a7fba5f57` · printing: DMR #101 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Royal Decree

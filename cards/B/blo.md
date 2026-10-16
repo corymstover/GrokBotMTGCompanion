@@ -329,7 +329,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #142 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-06-08* — If Blood Artist and one or more other creatures die at the same time, its ability will trigger for each of those creatures.
-- **Referenced in:** 12 pages (9 decks · 2 edh guides · 1 card data) → [reverse index](../../references/B.md#blood-artist)
+- **Referenced in:** 14 pages (10 decks · 3 edh guides · 1 card data) → [reverse index](../../references/B.md#blood-artist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/209/blood-artist) · oracle_id `310f141c-7f37-4729-aed6-dd9c09db448d` · printing: SOC #209 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blood Aspirant
@@ -605,7 +605,7 @@ schema: 2
   - *2009-10-01* — Bloodchief Ascension's first ability has an "intervening 'if' clause." It won't trigger at all unless an opponent has already lost 2 or more life by the time the end step begins.
   - *2009-10-01* — Bloodchief Ascension's second ability doesn't behave like a leaves-the-battlefield triggered ability, since the card put into an opponent's graveyard may come from anywhere. If a Bloodchief Ascension with three quest counters on it and a permanent an opponent owns are destroyed at the same time, for example, the game will not "look back in time" at the game state, and Bloodchief Ascension's second ability won't trigger.
   - *2009-10-01* — For the first ability to trigger, a single opponent must have lost 2 life. Two opponents each losing 1 life won't cause it to trigger. It will trigger a maximum of once per turn, no matter how many opponents have lost 2 or more life.
-- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/B.md#bloodchief-ascension)
+- **Referenced in:** 5 pages (4 decks · 1 card data) → [reverse index](../../references/B.md#bloodchief-ascension)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/139/bloodchief-ascension) · oracle_id `d5ea905b-4bb6-48d0-9082-c472703db550` · printing: CMM #139 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodchief's Thirst
@@ -786,7 +786,7 @@ schema: 2
   - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
   - *2025-11-17* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
   - *2025-11-17* — This land has two basic land types. It's not basic, so cards such as Tend the Sprigs can't find it, but it does have the appropriate land types for effects such as that of Kishla Village (from the Tarkir: Dragonstorm release).
-- **Referenced in:** 53 pages (48 decks · 4 edh guides · 1 card data) → [reverse index](../../references/B.md#blood-crypt)
+- **Referenced in:** 73 pages (68 decks · 4 edh guides · 1 card data) → [reverse index](../../references/B.md#blood-crypt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/278/blood-crypt) · oracle_id `43985bbc-a0f6-4812-984e-392bc8562633` · printing: TRK #278 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blood Cultist
@@ -1083,6 +1083,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3593 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-07* — The ability that reduces the mana cost only reduces its generic mana cost. It will cost at least {B}{B}{R}, even if more than eight creatures have died this turn.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#blood-for-the-blood-god)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/108/blood-for-the-blood-god!) · oracle_id `a6079dff-9479-4665-aba5-2cddefb9a2bc` · printing: 40K #108 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blood Fountain
@@ -1403,7 +1404,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #862 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-11-10* — Bloodletter of Aclazotz's last ability doesn't change the amount of damage dealt to opponents. For example, if a 1/1 creature with lifelink deals combat damage to an opponent on your turn, they would lose 2 life, but you'd still gain only 1 life.
-- **Referenced in:** 5 pages (4 decks · 1 card data) → [reverse index](../../references/B.md#bloodletter-of-aclazotz)
+- **Referenced in:** 6 pages (5 decks · 1 card data) → [reverse index](../../references/B.md#bloodletter-of-aclazotz)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/92/bloodletter-of-aclazotz) · oracle_id `469956a2-7cd4-4695-b8f4-c841526f160d` · printing: LCI #92 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodletter Quill
@@ -2214,7 +2215,7 @@ schema: 2
   > *A graveyard for conquerors and conquered alike.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #43 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 52 pages (46 decks · 4 edh guides · 2 card data) → [reverse index](../../references/B.md#bloodstained-mire)
+- **Referenced in:** 72 pages (66 decks · 4 edh guides · 2 card data) → [reverse index](../../references/B.md#bloodstained-mire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/216/bloodstained-mire) · oracle_id `fc0707c7-d504-4ccf-a0d2-3eb6e26e7a57` · printing: MH3 #216 (2024-06-14) · [rulings](https://api.scryfall.com/cards/579743fe-f71e-4cb2-8629-d6b02ed1591d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodstoke Howler
@@ -2392,6 +2393,7 @@ schema: 2
   - *2023-06-30* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
   - *2023-06-30* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent controls, or a player who goaded it.
   - *2023-06-30* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/B.md#bloodthirsty-blade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/225/bloodthirsty-blade) · oracle_id `b2747459-05ec-42a6-81be-e97e182bc778` · printing: MKC #225 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodthirsty Conqueror
@@ -2409,7 +2411,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — Damage dealt to an opponent causes that opponent to lose life. An opponent paying life also causes loss of life.
   - *2024-11-08* — If you and an opponent both lose life simultaneously, and this causes your life total to become 0 or less, you'll lose the game before Bloodthirsty Conqueror's triggered ability can resolve.
-- **Referenced in:** 6 pages (2 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/B.md#bloodthirsty-conqueror)
+- **Referenced in:** 7 pages (3 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/B.md#bloodthirsty-conqueror)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/58/bloodthirsty-conqueror) · oracle_id `fd505c02-c59e-476d-8e88-35da862ddc23` · printing: FDN #58 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodthirsty Ogre

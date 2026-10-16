@@ -279,6 +279,7 @@ schema: 2
   - *2019-08-23* — Leadership Vacuum targets the player, not their creatures. A commander with hexproof or protection from blue may be returned this way.
   - *2019-08-23* — The "commander tax" increases based on how many times a commander was cast from the command zone, not how many times it was put there as a result of Commander rules. The returned commander will cost more to cast again even though it was put directly into the command zone.
   - *2019-08-23* — You'll draw a card even if the target player controls no commanders as Leadership Vacuum resolves.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#leadership-vacuum)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/9/leadership-vacuum) · oracle_id `5f9dd005-1648-451e-b888-69ef81331c95` · printing: C19 #9 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leader's Talent
@@ -2560,7 +2561,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1356 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-11-08* — A player's "opening hand" is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player's opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins.
-- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/L.md#leyline-axe)
+- **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/L.md#leyline-axe)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/129/leyline-axe) · oracle_id `4f597675-0f6d-438c-990c-337171927a5e` · printing: FDN #129 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leyline Binding
@@ -2875,7 +2876,7 @@ schema: 2
   - *2024-09-20* — A player's "opening hand" is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player's opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins.
   - *2024-09-20* — Replacement effects that modify creatures of a certain type as they enter will apply after you apply this effect. For example, if Warrior is the chosen creature type and you control Bramblewood Paragon (a creature with "Each other Warrior creature you control enters with an additional +1/+1 counter on it."), a Runeclaw Bear would enter with an additional +1/+1 counter.
   - *2024-09-20* — To choose a creature type, you must choose an existing creature type, such as Human or Survivor. You can't choose multiple creature types, such as "Human Survivor." Card types such as artifact can't be chosen, nor can subtypes that aren't creature types, such as Kaito, Vehicle, or Treasure.
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/L.md#leyline-of-transformation)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/L.md#leyline-of-transformation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/63/leyline-of-transformation) · oracle_id `cfaa13d6-9992-4223-8bd7-c44046505555` · printing: DSK #63 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Leyline of Vitality

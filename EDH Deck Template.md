@@ -93,7 +93,11 @@ Gates: [ ] evaluate_decklist.py PASS   [ ] blueprint complete   [ ] every slot m
 Strongest rejected alternatives and why:
 Remaining uncertainty (label each VERIFIED / HIGH_CONFIDENCE / PROVISIONAL / TEST_REQUIRED / BLOCKED):
 Reopen triggers: Oracle/rules/legality change · material new card · repeated failure in real games · discovered error · user request
+Approval-ready candidate (Bot cycle 37): candidate file + sha256 · audit tally (N/99 adjudicated, KEEP / CUT) · verification result
+       ("APPROVAL_READY — NOT APPROVED / NOT LOCKED") · approved file byte-identical to the candidate · any later change → new candidate v2
 ```
+
+**(Bot cycle 37, from the Grixis repo's 2026-10-15 approval workflow.)** The source now separates three steps: an *approval-ready* candidate verified by hash, the user's approval of that exact hash, and the lock. See [Checklist Gate F](EDH%20Deck%20Evaluation%20Checklist.md#gate-f--approval-ready-candidate-and-lock). Keep the 99-slot audit as a table with one decision and reason per slot (e.g. [Nekusar's slot ledger](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Nekusar_the_Mindrazer_Whole_List_Audit_2026-10-15.md)).
 
 ## 7. Page layout for a finished deck
 **(repo addition)**. Use the layout of the [decks/](decks/) skeletons and [grixis/decks/](grixis/decks/): YAML front-matter (`scripts/front_matter.py`) → Commander → Validation → Bracket assessment → Corrections or changes → Decklist (Archidekt import, see [List format](EDH%20Standards.md#list-format-archidekt)) → Card breakdown (role, type, MV, identity, GC) → Commentary (guidance, attributed) → Combos (Commander Spellbook block).

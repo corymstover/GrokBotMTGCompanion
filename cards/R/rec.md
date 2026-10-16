@@ -391,7 +391,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-05-12* — You can't do anything between putting the artifact card you found in your hand and discarding. You may end up discarding that card. But hey, if you do, 2 damage!
   - *2023-05-12* — You discard a card at random even if you didn't find an artifact card in your library.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reckless-handling)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/R.md#reckless-handling)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/19/reckless-handling) · oracle_id `f1ea7dc5-01cb-4780-947c-08ea9324c52f` · printing: MAT #19 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reckless Imp

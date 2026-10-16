@@ -22,10 +22,10 @@ schema: 2
 
 ## Summary
 
-- **88 decks**: floor Bracket 2: **12** · Bracket 3: **30** · Bracket 4: **46**.
-- Set by Game Changers (> 3): 46 · mass land denial: 1 · two-card infinites: 37 decks (146 combos).
-- Decks with extra-turn cards: 17 · median tutors per deck: 3.
-- Grixis source targets: 32 stated; 0 below the floor.
+- **108 decks**: floor Bracket 2: **12** · Bracket 3: **31** · Bracket 4: **65**.
+- Set by Game Changers (> 3): 65 · mass land denial: 1 · two-card infinites: 51 decks (192 combos).
+- Decks with extra-turn cards: 24 · median tutors per deck: 3.
+- Grixis source targets: 52 stated; 0 below the floor.
 
 ## All decks
 
@@ -75,6 +75,25 @@ schema: 2
 | [Missy](grixis/decks/missy.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 7 | 0 | 0 | 0 | 3 | 35 | 2.72 | 4 | — |
 | [Nathan Drake, Treasure Hunter](grixis/decks/nathan-drake-treasure-hunter.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 9 | 0 | 0 | 0 | 2 | 34 | 2.91 | 4 | — |
 | [Nekusar, the Mindrazer](grixis/decks/nekusar-the-mindrazer.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 15 | 5 | 0 | 0 | 3 | 35 | 2.67 | 4 | — |
+| [Nicol Bolas](grixis/decks/nicol-bolas.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 14 | 1 | 0 | 0 | 2 | 37 | 2.48 | 4 | — |
+| [Nicol Bolas, the Ravager // Nicol Bolas, the Arisen](grixis/decks/nicol-bolas-the-ravager.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 16 | 1 | 0 | 2 | 5 | 34 | 3.14 | 4 | — |
+| [Norman Osborn // Green Goblin](grixis/decks/norman-osborn.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 19 | 1 | 0 | 1 | 9 | 23 | 1.87 | 5 | — |
+| [Obeka, Brute Chronologist](grixis/decks/obeka-brute-chronologist.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 13 | 2 | 0 | 4 | 4 | 34 | 2.78 | 4 | — |
+| [Obeka, Splitter of Seconds](grixis/decks/obeka-splitter-of-seconds.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 6 | 0 | 0 | 1 | 4 | 35 | 2.89 | 4 | — |
+| [Rograkh, Son of Rohgahh + Silas Renn, Seeker Adept](grixis/decks/rograkh-son-of-rohgahh-silas-renn.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 19 | 1 | 0 | 2 | 9 | 24 | 1.82 | 5 | — |
+| [Saruman, the White Hand](grixis/decks/saruman-the-white-hand.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 11 | 1 | 0 | 0 | 4 | 31 | 3.35 | 4 | — |
+| [Sauron, Lord of the Rings](grixis/decks/sauron-lord-of-the-rings.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 11 | 0 | 0 | 0 | 5 | 32 | 3.53 | 4 | — |
+| [Sauron, the Dark Lord](grixis/decks/sauron-the-dark-lord.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 12 | 0 | 0 | 0 | 5 | 34 | 2.97 | 4 | — |
+| [Sedris, the Traitor King](grixis/decks/sedris-the-traitor-king.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 12 | 1 | 0 | 0 | 9 | 31 | 3.43 | 4 | — |
+| [Sol'Kanar the Tainted](grixis/decks/solkanar-the-tainted.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 7 | 0 | 0 | 0 | 2 | 35 | 3.03 | 4 | — |
+| [Sol'kanar the Swamp King](grixis/decks/solkanar-the-swamp-king.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 13 | 11 | 0 | 0 | 4 | 35 | 2.66 | 4 | — |
+| [Tetsuo Umezawa](grixis/decks/tetsuo-umezawa.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 4 | 1 | 0 | 0 | 2 | 35 | 2.75 | 4 | — |
+| [Tetsuo, Imperial Champion](grixis/decks/tetsuo-imperial-champion.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 5 | 2 | 0 | 0 | 4 | 35 | 3.19 | 4 | — |
+| [The Rani](grixis/decks/the-rani.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 8 | 0 | 0 | 1 | 3 | 33 | 3.02 | 4 | — |
+| [The Valeyard](grixis/decks/the-valeyard.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 6 | 0 | 0 | 2 | 2 | 36 | 3.6 | 4 | — |
+| [Thraximundar](grixis/decks/thraximundar.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 8 | 1 | 0 | 0 | 3 | 36 | 2.78 | 4 | — |
+| [Wick, the Whorled Mind](grixis/decks/wick-the-whorled-mind.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 5 | 1 | 0 | 0 | 3 | 35 | 2.55 | 4 | — |
+| [Zevlor, Elturel Exile](grixis/decks/zevlor-elturel-exile.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 11 | 1 | 0 | 0 | 4 | 34 | 2.74 | 4 | — |
 | [Atraxa, Praetors' Voice — Planeswalkers theme](decks/theme-atraxa-praetors-voice-planeswalkers.md#bracket-calibration--pilot-notes) | theme | WUBG | **4** | 7 | 2 | 0 | 2 | 4 | 36 | 3.43 | — | 3 |
 | [Edgar Markov — Lifegain theme](decks/theme-edgar-markov-lifegain.md#bracket-calibration--pilot-notes) | theme | WBR | **4** | 4 | 6 | 0 | 0 | 4 | 36 | 2.95 | — | 3 |
 | [Brago, King Eternal](decks/brago-king-eternal.md#bracket-calibration--pilot-notes) | core | WU | **3** | 1 | 4 | 0 | 0 | 1 | 36 | 2.95 | — | 3 |
@@ -101,6 +120,7 @@ schema: 2
 | [Dr. Eggman](grixis/decks/dr-eggman.md#bracket-calibration--pilot-notes) | grixis | UBR | **3** | 3 | 0 | 0 | 0 | 3 | 31 | 4.21 | 4 | — |
 | [Edea, Possessed Sorceress](grixis/decks/edea-possessed-sorceress.md#bracket-calibration--pilot-notes) | grixis | UBR | **3** | 3 | 0 | 0 | 0 | 2 | 35 | 3.2 | 4 | — |
 | [Lord of Tresserhorn](grixis/decks/lord-of-tresserhorn.md#bracket-calibration--pilot-notes) | grixis | UBR | **3** | 2 | 1 | 0 | 0 | 3 | 35 | 2.44 | 4 | — |
+| [Parnesse, the Subtle Brush](grixis/decks/parnesse-the-subtle-brush.md#bracket-calibration--pilot-notes) | grixis | UBR | **3** | 3 | 21 | 0 | 0 | 1 | 35 | 3.0 | 4 | — |
 | [Aurelia, the Warleader — Ravnica-only](decks/plane-ravnica-aurelia-the-warleader.md#bracket-calibration--pilot-notes) | plane | WR | **3** | 1 | 0 | 0 | 1 | 1 | 36 | 3.78 | — | 2 |
 | [Braids, Arisen Nightmare — Dominaria-only](decks/plane-dominaria-braids-arisen-nightmare.md#bracket-calibration--pilot-notes) | plane | B | **3** | 0 | 1 | 0 | 0 | 3 | 36 | 3.24 | — | 3 |
 | [Elesh Norn, Mother of Machines — Mirrodin/New Phyrexia-only](decks/plane-new-phyrexia-elesh-norn-mother-of-machines.md#bracket-calibration--pilot-notes) | plane | W | **3** | 1 | 0 | 0 | 0 | 0 | 36 | 3.32 | — | 3 |

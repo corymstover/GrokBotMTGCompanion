@@ -1369,7 +1369,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-12-01* — The creature has haste if the mana is spent to cover any cost of the spell, even an additional cost.
   - *2004-12-01* — The effect that grants haste doesn’t wear off at end of turn.
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/H.md#hall-of-the-bandit-lord)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/H.md#hall-of-the-bandit-lord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/277/hall-of-the-bandit-lord) · oracle_id `32fe7ac4-86f5-44af-9f73-ee8f6a9ce2ba` · printing: CHK #277 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hall of Triumph
@@ -2064,7 +2064,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to the equipped creature may become lethal if you attach Hammer of Nazahn to a different creature during that turn.
   - *2020-08-07* — If Hammer of Nazahn enters the battlefield at the same time as other Equipment you control, its ability will trigger for each of those Equipment.
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/H.md#hammer-of-nazahn)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/H.md#hammer-of-nazahn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/388/hammer-of-nazahn) · oracle_id `e3955573-3db5-490e-903e-65e0172a9202` · printing: CMM #388 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hammer of Purphoros
@@ -3363,6 +3363,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5336 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-07-13* — Your opponent can't refuse your generous donation.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#harmless-offering)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/625/harmless-offering) · oracle_id `f5d32e5f-066b-42cf-8dd1-072a96275313` · printing: FDN #625 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Harmonic Convergence
@@ -3391,7 +3392,7 @@ schema: 2
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #640 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 13 pages (8 decks · 4 edh guides · 1 card data) → [reverse index](../../references/H.md#harmonic-prodigy)
+- **Referenced in:** 15 pages (10 decks · 4 edh guides · 1 card data) → [reverse index](../../references/H.md#harmonic-prodigy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/123/harmonic-prodigy) · oracle_id `2e2ace5b-4018-43af-8e72-ebafec1a7739` · printing: SOC #123 (2026-04-24) · [rulings](https://api.scryfall.com/cards/63a565e3-d7a8-469d-898f-49fef634c107/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Harmonic Sliver
@@ -4373,6 +4374,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-01-24* — If Hateful Eidolon dies at the same time as one or more enchanted creatures, its last ability triggers for each of those creatures. This includes Hateful Eidolon itself if it's enchanted.
   - *2020-01-24* — If an Aura you control is destroyed at the same time as the creature it enchants, Hateful Eidolon's triggered ability counts that Aura to determine whether it triggers and how many cards you'll draw.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#hateful-eidolon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/215/hateful-eidolon) · oracle_id `a3b39590-34b7-4fd0-877f-748e6df30e88` · printing: SOC #215 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hate Mirage
@@ -4392,6 +4394,7 @@ schema: 2
   - *2019-08-23* — If the copied creature has {X} in its mana cost, X is considered to be 0.
   - *2019-08-23* — If the copied creature is a token, the token that's created copies the original characteristics of that token as stated by the effect that created the token.
   - *2019-08-23* — If the copied creature is copying something else (for example, if Volrath, the Shapestealer is having its own shape stolen by Hate Mirage), then the token enters the battlefield as whatever that creature copied.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#hate-mirage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/26/hate-mirage) · oracle_id `2db23ceb-448b-45d6-a931-d72e8ccdb541` · printing: C19 #26 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hate Weaver
@@ -4420,7 +4423,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7783 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — The life payment is part of the cost to cast Hatred, so it is lost if this spell is countered.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#hatred)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/H.md#hatred)
 - **Source flags:** [Scryfall](https://scryfall.com/card/exo/64/hatred) · oracle_id `40601061-1b25-4db8-8b99-33324ce945cf` · printing: EXO #64 (1998-06-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hat Trick
@@ -4676,7 +4679,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #270 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-09-24* — If this land enters the battlefield at the same time as any number of other lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
-- **Referenced in:** 13 pages (8 decks · 4 edh guides · 1 card data) → [reverse index](../../references/H.md#haunted-ridge)
+- **Referenced in:** 16 pages (11 decks · 4 edh guides · 1 card data) → [reverse index](../../references/H.md#haunted-ridge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/180/haunted-ridge) · oracle_id `e2a37967-4212-4553-9f77-bcb613405807` · printing: FRA #180 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Haunted Screen

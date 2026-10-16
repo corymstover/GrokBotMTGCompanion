@@ -16,7 +16,7 @@ schema: 2
 
 # Grixis Deck — Abaddon the Despoiler
 
-> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Abaddon_the_Despoiler_Approved_2026-10-13.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Abaddon_the_Despoiler_Approved_2026-10-13.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-13; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Abaddon_the_Despoiler_Approved_2026-10-13.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Abaddon_the_Despoiler_Approved_2026-10-13.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-13; source commit `1836b97`). Imported in Bot cycle 16; re-validated in Bot cycle 37 against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
 ## Contents
 - [Commander](#commander)
@@ -304,7 +304,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 ### From `refinement/blueprints/Abaddon_the_Despoiler_v1.md`
 
-Source: [refinement/blueprints/Abaddon_the_Despoiler_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Abaddon_the_Despoiler_v1.md)
+Source: [refinement/blueprints/Abaddon_the_Despoiler_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/blueprints/Abaddon_the_Despoiler_v1.md)
 
 **Abaddon the Despoiler — Commander-First Blueprint v1**
 
@@ -393,7 +393,7 @@ Sources: [EDHREC — Abaddon the Despoiler](https://edhrec.com/commanders/abaddo
 
 ### From `refinement/decisions/Abaddon_the_Despoiler_Candidate_Decisions_2026-10-12.csv` (candidate decision ledger)
 
-Source: [refinement/decisions/Abaddon_the_Despoiler_Candidate_Decisions_2026-10-12.csv](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Abaddon_the_Despoiler_Candidate_Decisions_2026-10-12.csv)
+Source: [refinement/decisions/Abaddon_the_Despoiler_Candidate_Decisions_2026-10-12.csv](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decisions/Abaddon_the_Despoiler_Candidate_Decisions_2026-10-12.csv)
 
 | ID | Candidate | Proposed cut | Decision | Source reasoning (abridged) |
 |---|---|---|---|---|
@@ -460,7 +460,7 @@ Source: [refinement/decisions/Abaddon_the_Despoiler_Candidate_Decisions_2026-10-
 
 ### From `refinement/evidence/Abaddon_the_Despoiler_Deck_Quality_v3.md`
 
-Source: [refinement/evidence/Abaddon_the_Despoiler_Deck_Quality_v3.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/evidence/Abaddon_the_Despoiler_Deck_Quality_v3.md)
+Source: [refinement/evidence/Abaddon_the_Despoiler_Deck_Quality_v3.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/evidence/Abaddon_the_Despoiler_Deck_Quality_v3.md)
 
 **Abaddon the Despoiler — Deck Quality Gates v3 Review**
 
@@ -513,7 +513,7 @@ Because the global restart explicitly revoked all historical approvals, the prio
 
 ### Further source evidence (linked, not copied)
 
-- [refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md)
+- [refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md)
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
@@ -539,6 +539,6 @@ Because the global restart explicitly revoked all historical approvals, the prio
 - **Keywords → [Keyword Encyclopedia](../../Keyword%20Encyclopedia.md):** [Cascade](../../Keyword%20Encyclopedia.md#cascade) 3 · [Flying](../../Keyword%20Encyclopedia.md#flying) 3 · [Storm](../../Keyword%20Encyclopedia.md#storm) 3 · [Suspend](../../Keyword%20Encyclopedia.md#suspend) 3 · [Mill](../../Keyword%20Encyclopedia.md#mill) 2 · [Trample](../../Keyword%20Encyclopedia.md#trample) 2 · [Afflict](../../Keyword%20Encyclopedia.md#afflict) 1 · [Cumulative upkeep](../../Keyword%20Encyclopedia.md#cumulative-upkeep) 1 · [Cycling](../../Keyword%20Encyclopedia.md#cycling) 1 · [Deathtouch](../../Keyword%20Encyclopedia.md#deathtouch) 1 · [Defender](../../Keyword%20Encyclopedia.md#defender) 1 · [Double](../../Keyword%20Encyclopedia.md#double) 1
 - **Rules sections citing cards in this list:** [Keyword Encyclopedia → Storm](../../Keyword%20Encyclopedia.md#storm) (Brain Freeze, Flusterstorm) · [Rules Interactions → Commander: color identity](../../Rules%20Interactions.md#commander-color-identity) (Arcane Signet, Command Tower) · [Keyword Encyclopedia → Afflict](../../Keyword%20Encyclopedia.md#afflict) (Neheb, the Eternal) · [Keyword Encyclopedia → Cascade](../../Keyword%20Encyclopedia.md#cascade) (Call Forth the Tempest) · [Keyword Encyclopedia → Cumulative Upkeep](../../Keyword%20Encyclopedia.md#cumulative-upkeep) (Mystic Remora) · [Keyword Encyclopedia → Defender](../../Keyword%20Encyclopedia.md#defender) (Thermo-Alchemist) · [Keyword Encyclopedia → Foretell](../../Keyword%20Encyclopedia.md#foretell) (Delayed Blast Fireball) · [Keyword Encyclopedia → Mill](../../Keyword%20Encyclopedia.md#mill) (Takenuma, Abandoned Mire) · …5 more sections
 - **Lore & story sections citing cards in this list:** [Art & Flavor Story Links → Captioned art on cited story pages](../../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Cabal Ritual, Command Tower, Mana Confluence +1) · [Planes Index → Kaldheim](../../Planes%20Index.md#kaldheim) (Birgi, God of Storytelling // Harnfel, Horn of Bounty) · [Planes Index → New Capenna](../../Planes%20Index.md#new-capenna) (Xander's Lounge) · [Planes Index → Ravnica after the invasion (Murders at Karlov Manor)](../../Planes%20Index.md#ravnica-after-the-invasion-murders-at-karlov-manor) (Rakdos, Lord of Riots)
-- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +22) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Birgi, God of Storytelling // Harnfel, Horn of Bounty, Cabal Ritual +12) · [EDH Standards → Game Changers](../../EDH%20Standards.md#game-changers) (Ancient Tomb, Chrome Mox, Demonic Tutor +11) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (Deflecting Swat, Fierce Guardianship, Flusterstorm +10) · [EDH Upgrade Paths → Prosper, Tome-Bound](../../EDH%20Upgrade%20Paths.md#prosper-tome-bound) (Badlands, Birgi, God of Storytelling // Harnfel, Horn of Bounty, Bituminous Blast +9) · [EDH Upgrade Paths → Nekusar, the Mindrazer](../../EDH%20Upgrade%20Paths.md#nekusar-the-mindrazer) (Badlands, Blood Crypt, Bloodstained Mire +8) · …92 more sections
+- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +22) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Birgi, God of Storytelling // Harnfel, Horn of Bounty, Cabal Ritual +13) · [EDH Standards → Game Changers](../../EDH%20Standards.md#game-changers) (Ancient Tomb, Chrome Mox, Demonic Tutor +11) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (Deflecting Swat, Fierce Guardianship, Flusterstorm +10) · [EDH Upgrade Paths → Prosper, Tome-Bound](../../EDH%20Upgrade%20Paths.md#prosper-tome-bound) (Badlands, Birgi, God of Storytelling // Harnfel, Horn of Bounty, Bituminous Blast +9) · [EDH Upgrade Paths → Nekusar, the Mindrazer](../../EDH%20Upgrade%20Paths.md#nekusar-the-mindrazer) (Badlands, Blood Crypt, Bloodstained Mire +8) · …92 more sections
 - **Decks sharing the most cards:** [Cormela, Glamour Thief (Grixis)](../../grixis/decks/cormela-glamour-thief.md) 59 · [Jeleva, Nephalia's Scourge (Grixis)](../../grixis/decks/jeleva-nephalias-scourge.md) 56 · [Kess, Dissident Mage (Grixis)](../../grixis/decks/kess-dissident-mage.md) 55 · [Fire Lord Azula (Grixis)](../../grixis/decks/fire-lord-azula.md) 52
 <!-- CROSSREFS:END -->

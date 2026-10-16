@@ -483,7 +483,7 @@ schema: 2
   > *With each day she wore the crown, her icy kingdom spread, and her heart grew ever colder.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5564 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#hyldas-crown-of-winter)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/H.md#hyldas-crown-of-winter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/247/hyldas-crown-of-winter) · oracle_id `a8291d04-240e-456b-8c86-1fb4eb460476` · printing: WOE #247 (2023-09-08) · [rulings](https://api.scryfall.com/cards/b0d4a6c0-f00e-45a7-9c88-899460007020/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hylderblade
@@ -748,6 +748,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8513 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2008-08-01* — The ability triggers even if the Specter’s damage is being redirected to an opponent. It does not trigger if damage that would have been dealt to the opponent is redirected to a nonopponent player or a creature, or if the damage is prevented.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#hypnotic-specter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m10/100/hypnotic-specter) · oracle_id `759af941-f6a3-4726-91f2-9b1e4e55ea71` · printing: M10 #100 (2009-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hypnotic Sprite // Mesmeric Glare

@@ -396,7 +396,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — The additional cost can be reduced by effects that reduce costs, such as Sapphire Medallion.
   - *2006-05-01* — In Two-Headed Giant, spells don't cost extra on your own turn.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#defense-grid)
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/D.md#defense-grid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/293/defense-grid) · oracle_id `22ba474e-f6e6-450d-a4cf-0739f0b51079` · printing: 9ED #293 (2005-07-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defense of the Heart
@@ -860,7 +860,7 @@ schema: 2
   - *2020-04-17* — If you choose new targets for the target spell, the new targets must be legal.
   - *2020-04-17* — It doesn't matter whose commander you control. Any one will do. If you have two commanders, you just need to control one of them.
   - *2020-04-17* — Once you begin casting this spell, players can't take any other actions until you're done casting it. Notably, they can't try to remove the commander you control to make you pay its cost.
-- **Referenced in:** 44 pages (38 decks · 4 edh guides · 2 card data) → [reverse index](../../references/D.md#deflecting-swat)
+- **Referenced in:** 62 pages (56 decks · 4 edh guides · 2 card data) → [reverse index](../../references/D.md#deflecting-swat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/214/deflecting-swat) · oracle_id `ae120613-97d6-4393-b39d-c3e6c076f5d6` · printing: CMM #214 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deflection

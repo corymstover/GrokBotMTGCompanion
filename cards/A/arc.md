@@ -248,6 +248,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-09-29* — Replacement effects that modify creatures of a certain type as they enter the battlefield will apply after you apply Arcane Adaptation’s effect. This is a change from previous rules. If you control Arcane Adaptation and the Aether Revolt card Metallic Mimic, with the same creature type chosen for both, then any creature you control will enter the battlefield with an additional +1/+1 counter on it.
   - *2018-01-19* — To choose a creature type, you must choose an existing creature type, such as Vampire or Knight. You can’t choose multiple creature types, such as “Vampire Knight.” Card types such as artifact can’t be chosen, nor can subtypes that aren’t creature types, such as Jace, Vehicle, or Treasure.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#arcane-adaptation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/46/arcane-adaptation) · oracle_id `2188c03f-11b6-4651-914a-b4fdd59127e3` · printing: XLN #46 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Amphisbaena
@@ -316,7 +317,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #52 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2007-09-16* — The controller of the countered spell doesn't choose how many cards to draw until the relevant ability resolves. The player may draw 0, 1, or 2 cards. They choose the number before drawing any cards.
-- **Referenced in:** 16 pages (11 decks · 4 edh guides · 1 card data) → [reverse index](../../references/A.md#arcane-denial)
+- **Referenced in:** 17 pages (12 decks · 4 edh guides · 1 card data) → [reverse index](../../references/A.md#arcane-denial)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/147/arcane-denial) · oracle_id `ab1cc360-b9de-48d9-9983-4dfe4a7d2a37` · printing: MSC #147 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Encyclopedia
@@ -591,7 +592,7 @@ schema: 2
   - *2020-11-10* — If you don't have a commander, Arcane Signet's ability produces no mana.
   - *2020-11-10* — If you have two commanders, the ability adds one mana of any color in their combined color identities.
   - *2020-11-10* — If your commander is a card that has no colors in its color identity, Arcane Signet's ability produces no mana. It doesn't produce {C}.
-- **Referenced in:** 81 pages (74 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/A.md#arcane-signet)
+- **Referenced in:** 101 pages (94 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/A.md#arcane-signet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/20/arcane-signet) · oracle_id `0bc7f093-bef0-4f1a-852c-4b75ebf54838` · printing: FRC #20 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Spyglass
@@ -1565,7 +1566,7 @@ schema: 2
 - **Rulings** (2):
   - *2014-11-24* — The opponent chooses which creatures to spare, if any, as the ability resolves. This choice doesn't target the creatures.
   - *2014-11-24* — The opponent may choose to spare one or no creatures. If the player doesn't choose any creatures, they will sacrifice all creatures they control.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#archfiend-of-depravity)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/A.md#archfiend-of-depravity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/e01/31/archfiend-of-depravity) · oracle_id `af247e2f-b271-4f5b-ab98-4579d2c17c21` · printing: E01 #31 (2017-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archfiend of Despair
@@ -1602,7 +1603,7 @@ schema: 2
   - *2017-04-18* — An ability that triggers whenever you discard a card doesn't give you permission to discard cards. You'll need another effect that instructs or allows you to discard them.
   - *2017-04-18* — If a player discards a card during their cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.
   - *2017-04-18* — Some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#archfiend-of-ifnir)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/A.md#archfiend-of-ifnir)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/70/archfiend-of-ifnir) · oracle_id `535e2af0-7b08-4026-b1bf-87626407dd42` · printing: ECC #70 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archfiend of Sorrows
@@ -1664,6 +1665,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-02-04* — If Archfiend of the Dross is no longer on the battlefield as its upkeep triggered ability resolves, use the number of oil counters it had the last time it existed on the battlefield to determine whether you lose the game. You can't remove oil counters from it if it's not on the battlefield, so you won't lose the game if it had only one oil counter on it before leaving the battlefield.
   - *2023-02-04* — If Archfiend of the Dross somehow loses all of its oil counters due to an effect other than its upkeep triggered ability, this won't cause you to lose the game until the next time that ability resolves.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#archfiend-of-the-dross)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/82/archfiend-of-the-dross) · oracle_id `9188031e-1c24-4981-a3d2-461a2bf917b6` · printing: ONE #82 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archfiend's Vessel
@@ -1885,7 +1887,7 @@ schema: 2
   - *2021-04-16* — If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
   - *2021-04-16* — If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
   - *2021-04-16* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
-- **Referenced in:** 9 pages (5 decks · 3 edh guides · 1 card data) → [reverse index](../../references/A.md#archmage-emeritus)
+- **Referenced in:** 13 pages (8 decks · 4 edh guides · 1 card data) → [reverse index](../../references/A.md#archmage-emeritus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/188/archmage-emeritus) · oracle_id `8305d576-21d8-4ce7-8eda-a7cd9793aca5` · printing: SOC #188 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archmage of Echoes
@@ -2055,6 +2057,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1017 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-06-18* — You and the opponent you target take all the actions in the order listed. Notably, the creature or planeswalker they sacrifice won't be on the battlefield as they discard a card or lose life. If any abilities trigger, they will wait to be put on the stack until after the spell resolves. If any abilities controlled by that opponent trigger but losing 3 life causes them to lose the game, none of those abilities will be put on the stack.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/A.md#archon-of-cruelty)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/47/archon-of-cruelty) · oracle_id `aa1a6646-c1e6-4bff-9092-43ee3e137914` · printing: FRC #47 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archon of Emeria

@@ -486,7 +486,7 @@ schema: 2
   - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
   - *2021-03-19* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/I.md#increasing-vengeance)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/I.md#increasing-vengeance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/147/increasing-vengeance) · oracle_id `a5ca7bd9-0964-405f-adb9-7c27153595e6` · printing: C19 #147 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incremental Blight
@@ -546,6 +546,7 @@ schema: 2
   - *2024-02-02* — If a suspected creature loses all abilities, it will lose menace and "This creature can't block", but it won't stop being suspected.
   - *2024-02-02* — There's no limit to the number of creatures that can be suspected simultaneously. Suspecting a new creature doesn't cause other creatures to stop being suspected.
   - *2024-02-02* — When an effect suspects a creature, it becomes suspected. It gains menace and "This creature can't block" for as long as it's suspected. It stays suspected until it leaves the battlefield or another effect causes it to no longer be suspected.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#incriminating-impetus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/35/incriminating-impetus) · oracle_id `75a7cad2-782c-4a5b-9193-5ba789bf5326` · printing: CLU #35 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incubation Druid

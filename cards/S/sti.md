@@ -648,7 +648,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1639 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sting-the-glinting-dagger)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#sting-the-glinting-dagger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/250/sting-the-glinting-dagger) · oracle_id `973c49a1-8425-40b9-8bdc-2c2434222314` · printing: LTR #250 (2023-06-23) · [rulings](https://api.scryfall.com/cards/afbec7e7-f5b9-407e-bf96-2e088710e791/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stinkdrinker Bandit

@@ -457,7 +457,7 @@ schema: 2
 - **Keywords:** Hire a Mercenary, Treasure, Sell Contraband, Buy Information
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #129 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 16 pages (10 decks · 4 edh guides · 2 card data) → [reverse index](../../references/B.md#black-market-connections)
+- **Referenced in:** 20 pages (14 decks · 4 edh guides · 2 card data) → [reverse index](../../references/B.md#black-market-connections)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/155/black-market-connections) · oracle_id `d2664f28-49e1-46f8-a863-b217e961a57c` · printing: MSC #155 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9d9ca869-e68a-4f53-9f52-85c714dac6f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Market Tycoon
@@ -614,7 +614,7 @@ schema: 2
   - *2024-07-26* — If either target of the Level 2 class ability is an illegal target as the ability resolves, the ability won't do anything. If both targets are illegal, the ability won't resolve. If the Equipment is already attached to the target creature, nothing happens.
   - *2024-07-26* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
   - *2024-07-26* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blacksmiths-talent)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/B.md#blacksmiths-talent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/125/blacksmiths-talent) · oracle_id `9fdad42a-9db5-4d91-9e80-9d5ce19038b8` · printing: BLB #125 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blacksnag Buzzard
@@ -716,8 +716,8 @@ schema: 2
 - **Rulings** (1):
   - *2025-06-06* — Black Waltz No. 3's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5,079 decks; highest synergy [Black Mage's Rod](../../cards/B/bla.md#black-mages-rod) (+64%), [Cornered by Black Mages](../../cards/C/cor.md#cornered-by-black-mages) (+58%), [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (+58%) · EDHREC: in 51,175 decks; most often under [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (92.3% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (23.5% of its decks), [Inalla, Archmage Ritualist](../../cards/I/ina.md#inalla-archmage-ritualist) (30.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#black-waltz-no-3)
+- **Synergy:** *Proven* — KB decks (1): [Saruman, the White Hand (Grixis)](../../grixis/decks/saruman-the-white-hand.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5,079 decks; highest synergy [Black Mage's Rod](../../cards/B/bla.md#black-mages-rod) (+64%), [Cornered by Black Mages](../../cards/C/cor.md#cornered-by-black-mages) (+58%), [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (+58%) · EDHREC: in 51,175 decks; most often under [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (92.3% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (23.5% of its decks), [Inalla, Archmage Ritualist](../../cards/I/ina.md#inalla-archmage-ritualist) (30.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/B.md#black-waltz-no-3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/214/black-waltz-no-3) · oracle_id `9c84c681-40c1-4ff3-86e6-48b4ab7491e5` · printing: FIN #214 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Ward
@@ -1165,7 +1165,7 @@ schema: 2
   - *2009-10-01* — If the equipped creature itself is put into a graveyard, Blade of the Bloodchief's ability will trigger. However, it won't do anything when it resolves unless a spell or ability has caused it to become attached to another creature by that time. (Remember that you may activate an equip ability only as a sorcery.)
   - *2009-10-01* — The +1/+1 counters are put on the equipped creature, not Blade of the Bloodchief. If Blade of the Bloodchief is moved to a different creature, the +1/+1 counters will stay where they are.
   - *2009-10-01* — The creature that gets the counters is the one that's equipped by Blade of the Bloodchief at the time the ability resolves. It doesn't matter what creature Blade of the Bloodchief was attached to (if any) when it triggered.
-- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/B.md#blade-of-the-bloodchief)
+- **Referenced in:** 4 pages (4 decks) → [reverse index](../../references/B.md#blade-of-the-bloodchief)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/300/blade-of-the-bloodchief) · oracle_id `8985e545-07c3-45f9-9058-fe3c1f50de04` · printing: LCC #300 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blade of the Oni
@@ -1421,7 +1421,7 @@ schema: 2
   - *2004-10-04* — The lands do not get the name “Swamp” in addition to their current name. This is a reversal of older rulings.
   - *2004-10-04* — Whether the land is a basic land or not is unchanged by this effect.
   - *2006-10-15* — If this effect is applied to a snow land, the land is now a snow Swamp and not just a regular Swamp.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blanket-of-night)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/B.md#blanket-of-night)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/52/blanket-of-night) · oracle_id `10e95489-a94d-4523-964c-ec9753103a62` · printing: VIS #52 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blaring Captain
@@ -1472,7 +1472,7 @@ schema: 2
   - *2020-11-10* — Blasphemous Act's ability can't reduce the total cost to cast the spell below {R}.
   - *2020-11-10* — The total cost to cast Blasphemous Act is locked in before you pay that cost. For example, if there are three creatures on the battlefield, including one you can sacrifice to add {C}, the total cost of Blasphemous Act is {5}{R}. Then you can sacrifice the creature when you activate mana abilities just before paying the cost.
   - *2020-11-10* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Blasphemous Act). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
-- **Referenced in:** 28 pages (22 decks · 4 edh guides · 2 card data) → [reverse index](../../references/B.md#blasphemous-act)
+- **Referenced in:** 39 pages (33 decks · 4 edh guides · 2 card data) → [reverse index](../../references/B.md#blasphemous-act)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/163/blasphemous-act) · oracle_id `7a2484a9-04fd-41a0-8224-610c1c07ed10` · printing: MSC #163 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blasphemous Edict

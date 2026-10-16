@@ -341,7 +341,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-03-14* — If you activate the ability granted by Deadeye Navigator, the creature will be exiled, the pair will immediately be broken, and then the card will be returned to the battlefield. Deadeye Navigator’s soulbond ability triggers when that card enters the battlefield and the pair can then be reunited.
   - *2017-03-14* — Once Deadeye Navigator or the creature it’s paired with is exiled, the other creature will no longer have the activated ability. However, you can activate the ability of one creature in response to activating the ability of the other creature.
-- **Referenced in:** 5 pages (1 decks · 3 edh guides · 1 rules) → [reverse index](../../references/D.md#deadeye-navigator)
+- **Referenced in:** 6 pages (2 decks · 3 edh guides · 1 rules) → [reverse index](../../references/D.md#deadeye-navigator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/59/deadeye-navigator) · oracle_id `ebef6d84-b724-4a84-bcde-8eb6dc06717d` · printing: INR #59 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deadeye Plunderers
@@ -785,7 +785,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-04-17* — It doesn't matter whose commander you control. Any one will do. If you have two commanders, you just need to control one of them.
   - *2020-04-17* — Once you begin casting this spell, players can't take any other actions until you're done casting it. Notably, they can't try to remove the commander you control to make you pay its cost.
-- **Referenced in:** 30 pages (24 decks · 4 edh guides · 2 card data) → [reverse index](../../references/D.md#deadly-rollick)
+- **Referenced in:** 43 pages (37 decks · 4 edh guides · 2 card data) → [reverse index](../../references/D.md#deadly-rollick)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/147/deadly-rollick) · oracle_id `0456ec64-2c81-4763-a352-8ff64a4c3d6b` · printing: CMM #147 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deadly Tempest
@@ -1640,6 +1640,7 @@ schema: 2
   - *2022-06-10* — Monstrous isn't an ability that a creature has. It's just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous.
   - *2022-06-10* — Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
   - *2022-06-10* — To double a creature's power, it gets +X/+0, where X is its power as that ability resolves.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#death-kiss)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/675/death-kiss) · oracle_id `42410e81-f4a6-4501-82e4-6e745934976c` · printing: CLB #675 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deathknell Berserker

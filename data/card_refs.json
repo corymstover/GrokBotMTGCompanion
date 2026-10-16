@@ -1,7 +1,7 @@
 {
 "generated_by": "scripts/build_crossrefs.py",
 "bulk": "2026-10-15",
-"cards_referenced": 8787,
+"cards_referenced": 8979,
 "cards": {
 "00037840-6089-42ec-8c5c-281f9f474504": {
 "name": "Nissa, Worldsoul Speaker",
@@ -166,18 +166,18 @@
 },
 "008eda1f-b913-4f04-8c29-5e87c270149e": {
 "name": "Tinybones, Trinket Thief",
-"n": 4,
+"n": 6,
 "kinds": {
-"deck": 3,
-"edh": 1
+"deck": 4,
+"edh": 2
 },
 "index": "references/T.md#tinybones-trinket-thief"
 },
 "008f2698-1721-45a3-8353-10f2f400dc8f": {
 "name": "Shizo, Death's Storehouse",
-"n": 7,
+"n": 10,
 "kinds": {
-"deck": 5,
+"deck": 8,
 "edh": 1,
 "cards": 1
 },
@@ -249,8 +249,9 @@
 },
 "00bf9859-d5bf-455a-a4be-965ea4250c7e": {
 "name": "Hot Pursuit",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "rules": 1
 },
 "index": "references/H.md#hot-pursuit"
@@ -301,9 +302,9 @@
 },
 "00e0b103-892c-49b3-836d-867fff197bbd": {
 "name": "Puppeteer Clique",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "rules": 1
 },
 "index": "references/P.md#puppeteer-clique"
@@ -356,9 +357,9 @@
 },
 "00fdcc19-88ed-46c3-91f0-095806228105": {
 "name": "Waste Not",
-"n": 9,
+"n": 10,
 "kinds": {
-"deck": 7,
+"deck": 8,
 "edh": 1,
 "cards": 1
 },
@@ -422,9 +423,9 @@
 },
 "01294ac9-1a06-4ee8-b3b1-db1f07c9d94e": {
 "name": "Cruel Ultimatum",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 1
 },
 "index": "references/C.md#cruel-ultimatum"
@@ -484,8 +485,9 @@
 },
 "017aa9b3-a8ea-4588-9c50-e914a7d8e4ee": {
 "name": "Metamorphosis Fanatic",
-"n": 1,
+"n": 3,
 "kinds": {
+"deck": 2,
 "rules": 1
 },
 "index": "references/M.md#metamorphosis-fanatic"
@@ -684,9 +686,9 @@
 },
 "02090581-61aa-4348-ad57-451be8ee91c2": {
 "name": "Ponder",
-"n": 13,
+"n": 15,
 "kinds": {
-"deck": 8,
+"deck": 10,
 "edh": 3,
 "cards": 2
 },
@@ -967,8 +969,9 @@
 },
 "02a8a5cc-62ce-4ae5-aa7d-760124af7d7b": {
 "name": "World at War",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "rules": 1
 },
 "index": "references/W.md#world-at-war"
@@ -1231,9 +1234,9 @@
 },
 "038519b9-bca8-4b27-b5ac-2409595469d0": {
 "name": "Diabolic Intent",
-"n": 15,
+"n": 18,
 "kinds": {
-"deck": 8,
+"deck": 11,
 "edh": 5,
 "lore": 1,
 "cards": 1
@@ -1417,9 +1420,9 @@
 },
 "0456ec64-2c81-4763-a352-8ff64a4c3d6b": {
 "name": "Deadly Rollick",
-"n": 30,
+"n": 43,
 "kinds": {
-"deck": 24,
+"deck": 37,
 "edh": 4,
 "cards": 2
 },
@@ -1483,6 +1486,14 @@
 },
 "index": "references/D.md#demonlord-of-ashmouth"
 },
+"049d1fb2-cce7-40e7-a633-e84cf9782d89": {
+"name": "Donate",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/D.md#donate"
+},
 "04a7c544-5db7-4d9e-afb7-4ea526bf34b5": {
 "name": "Lich's Duel Mastery",
 "n": 1,
@@ -1525,9 +1536,9 @@
 },
 "04b7362d-0490-4cb0-b5d7-2a7732f659ce": {
 "name": "Bojuka Bog",
-"n": 21,
+"n": 27,
 "kinds": {
-"deck": 16,
+"deck": 22,
 "edh": 3,
 "cards": 2
 },
@@ -1574,6 +1585,14 @@
 "cards": 1
 },
 "index": "references/Z.md#zariel-archduke-of-avernus"
+},
+"04e5e84f-8fd4-43ab-8f9d-5b24646f7ae5": {
+"name": "Raucous Theater",
+"n": 2,
+"kinds": {
+"deck": 2
+},
+"index": "references/R.md#raucous-theater"
 },
 "04e9ac31-3377-4a4c-9337-53ee0ada882a": {
 "name": "Traitor's Roar",
@@ -1662,9 +1681,9 @@
 },
 "053a69d8-2b5e-4f14-8b02-ca405891dc4a": {
 "name": "Fell the Profane // Fell Mire",
-"n": 5,
+"n": 6,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 2,
 "rules": 1,
 "cards": 1
@@ -1681,9 +1700,9 @@
 },
 "0540eaca-0e03-4831-955a-192ae2b87d35": {
 "name": "Lich's Relic",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 1
 },
 "index": "references/L.md#lichs-relic"
@@ -1843,9 +1862,9 @@
 },
 "05d09c55-f551-4cb4-a8d2-4811dccc848d": {
 "name": "Vraska, Betrayal's Sting",
-"n": 8,
+"n": 9,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 2,
 "rules": 1,
 "lore": 2,
@@ -1865,9 +1884,9 @@
 },
 "05d7222b-cc08-4f1f-8e35-6058599572ba": {
 "name": "Twilight Diviner",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "cards": 1
 },
 "index": "references/T.md#twilight-diviner"
@@ -1893,8 +1912,9 @@
 },
 "05e9b55e-6329-48ec-b7d7-24c6b9692244": {
 "name": "Nicol Bolas, Planeswalker",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "lore": 2
 },
 "index": "references/N.md#nicol-bolas-planeswalker"
@@ -2009,9 +2029,9 @@
 },
 "0636b6c3-0662-420a-b30d-f0a14e7c512d": {
 "name": "Mirkwood Bats",
-"n": 7,
+"n": 8,
 "kinds": {
-"deck": 3,
+"deck": 4,
 "edh": 3,
 "cards": 1
 },
@@ -2165,6 +2185,14 @@
 "edh": 2
 },
 "index": "references/T.md#the-cyber-controller"
+},
+"06cf7b77-ffd7-4192-903e-19bd06887ba1": {
+"name": "Bothersome Quasit",
+"n": 2,
+"kinds": {
+"deck": 2
+},
+"index": "references/B.md#bothersome-quasit"
 },
 "06d219ff-0083-4c2a-b5b3-2b84bb58f57e": {
 "name": "Skrelv's Hive",
@@ -2350,9 +2378,9 @@
 },
 "07799012-7051-400e-adde-b54b41b80c70": {
 "name": "The Dalek Emperor",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 2
+"deck": 3
 },
 "index": "references/T.md#the-dalek-emperor"
 },
@@ -2366,9 +2394,9 @@
 },
 "078def07-ae5d-4591-8db6-d156834aab97": {
 "name": "Etali, Primal Storm",
-"n": 9,
+"n": 10,
 "kinds": {
-"deck": 6,
+"deck": 7,
 "edh": 1,
 "rules": 1,
 "cards": 1
@@ -2393,9 +2421,9 @@
 },
 "07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8": {
 "name": "Chaos Warp",
-"n": 39,
+"n": 49,
 "kinds": {
-"deck": 35,
+"deck": 45,
 "edh": 2,
 "cards": 2
 },
@@ -2460,9 +2488,9 @@
 },
 "07d0b06b-80cb-4518-92c9-84ea87a7e08a": {
 "name": "Teferi, Temporal Archmage",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "lore": 2,
 "cards": 1
 },
@@ -2491,6 +2519,14 @@
 "cards": 1
 },
 "index": "references/O.md#onakke-oathkeeper"
+},
+"080f504f-20c8-4975-837c-d704e879d7f5": {
+"name": "Great Goblin, Foul-Hearted",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/G.md#great-goblin-foul-hearted"
 },
 "08109241-690f-4d09-ad2f-1cddab9b3c64": {
 "name": "Mist-Syndicate Naga",
@@ -2588,8 +2624,9 @@
 },
 "0868ebbb-2fe9-4f53-9697-acad8cda5ec1": {
 "name": "Greed's Gambit",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/G.md#greeds-gambit"
@@ -2649,9 +2686,9 @@
 },
 "0895c9b7-ae7d-4bb3-af17-3b75deb50a25": {
 "name": "Command Tower",
-"n": 77,
+"n": 97,
 "kinds": {
-"deck": 70,
+"deck": 90,
 "edh": 3,
 "rules": 1,
 "lore": 1,
@@ -2709,9 +2746,9 @@
 },
 "08becc07-28bc-4a2f-a6b0-28a2998d2f50": {
 "name": "Windfall",
-"n": 18,
+"n": 27,
 "kinds": {
-"deck": 14,
+"deck": 23,
 "edh": 2,
 "cards": 2
 },
@@ -2760,9 +2797,9 @@
 },
 "08d80efc-9542-4ba2-824c-c8615d8d07f2": {
 "name": "Undercity Sewers",
-"n": 6,
+"n": 9,
 "kinds": {
-"deck": 3,
+"deck": 6,
 "edh": 2,
 "cards": 1
 },
@@ -2833,6 +2870,14 @@
 "edh": 1
 },
 "index": "references/S.md#silvar-devourer-of-the-free"
+},
+"0920d6aa-eab7-4116-b2f8-b13080d5d7e3": {
+"name": "Rathi Trapper",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/R.md#rathi-trapper"
 },
 "092ceffb-1ee4-452c-b15e-5b79267d42a6": {
 "name": "Angrath, the Flame-Chained",
@@ -3102,9 +3147,9 @@
 },
 "09dd85aa-47bc-4713-a9b9-8b52ff2285ed": {
 "name": "Misty Rainforest",
-"n": 36,
+"n": 53,
 "kinds": {
-"deck": 30,
+"deck": 47,
 "edh": 4,
 "cards": 2
 },
@@ -3120,9 +3165,9 @@
 },
 "09ef446c-a13d-49d9-a94c-cd5f5a2d440b": {
 "name": "Displacer Kitten",
-"n": 10,
+"n": 12,
 "kinds": {
-"deck": 5,
+"deck": 7,
 "edh": 4,
 "cards": 1
 },
@@ -3146,9 +3191,9 @@
 },
 "09ff28b1-b6c9-48e6-b12e-2f0e644f709f": {
 "name": "Gravecrawler",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "cards": 1
 },
 "index": "references/G.md#gravecrawler"
@@ -3417,6 +3462,22 @@
 },
 "index": "references/J.md#jaheira-friend-of-the-forest"
 },
+"0af6f3ce-59e8-4797-aa1b-dbdb5288fe3d": {
+"name": "Rowan's Talent",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/R.md#rowans-talent"
+},
+"0afcc646-cb34-4c0e-b3f5-4115ad4faa8e": {
+"name": "The Sound of Drums",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/T.md#the-sound-of-drums"
+},
 "0afcf1eb-ac2c-4bb0-8823-9fe45968c2d9": {
 "name": "The Fourteenth Doctor",
 "n": 1,
@@ -3535,8 +3596,9 @@
 },
 "0b67dff0-5bb7-44fe-a72b-d3b1a6c0ee72": {
 "name": "Infernal Plunge",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "edh": 1
 },
 "index": "references/I.md#infernal-plunge"
@@ -3637,9 +3699,9 @@
 },
 "0bc7f093-bef0-4f1a-852c-4b75ebf54838": {
 "name": "Arcane Signet",
-"n": 81,
+"n": 101,
 "kinds": {
-"deck": 74,
+"deck": 94,
 "edh": 4,
 "rules": 1,
 "cards": 2
@@ -3648,9 +3710,9 @@
 },
 "0bd67481-6bd9-48d6-92bd-8933b5ea1eae": {
 "name": "Peregrine Drake",
-"n": 8,
+"n": 9,
 "kinds": {
-"deck": 3,
+"deck": 4,
 "edh": 3,
 "cards": 2
 },
@@ -3663,6 +3725,14 @@
 "lore": 1
 },
 "index": "references/O.md#oath-of-liliana"
+},
+"0bdddaf9-579a-4588-b5b3-faa189d4bdcc": {
+"name": "Creeping Bloodsucker",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/C.md#creeping-bloodsucker"
 },
 "0be907b2-54f9-4c8c-b6af-7c0093892e42": {
 "name": "Curiosity Crafter",
@@ -3908,9 +3978,9 @@
 },
 "0c7ba712-6a99-4d2f-9242-a2163a11f69c": {
 "name": "Padeem, Consul of Innovation",
-"n": 9,
+"n": 10,
 "kinds": {
-"deck": 6,
+"deck": 7,
 "edh": 2,
 "cards": 1
 },
@@ -3924,6 +3994,14 @@
 "cards": 2
 },
 "index": "references/T.md#the-wandering-emperor"
+},
+"0c85a577-db82-4a36-bc42-49644eba1cf2": {
+"name": "Zevlor, Elturel Exile",
+"n": 2,
+"kinds": {
+"deck": 2
+},
+"index": "references/Z.md#zevlor-elturel-exile"
 },
 "0c85b8f7-0bd0-4680-9ec5-d4b110460a54": {
 "name": "Fabled Passage",
@@ -4136,6 +4214,14 @@
 },
 "index": "references/T.md#triumphant-reckoning"
 },
+"0d40b2c3-9f39-45c6-8b25-12353f300613": {
+"name": "Red Death, Shipwrecker",
+"n": 2,
+"kinds": {
+"deck": 2
+},
+"index": "references/R.md#red-death-shipwrecker"
+},
 "0d49187a-1c37-4c3a-afc2-fac2bbc6b29a": {
 "name": "Portent of Calamity",
 "n": 1,
@@ -4270,6 +4356,14 @@
 "lore": 2
 },
 "index": "references/R.md#ral-zarek-guest-lecturer"
+},
+"0dc78b1e-581e-4f28-bf35-e2082553d6a9": {
+"name": "Silas Renn, Seeker Adept",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/S.md#silas-renn-seeker-adept"
 },
 "0dc8bdbb-996b-47d7-a5e5-7bdb6d9280fe": {
 "name": "Stormcloud Spirit",
@@ -4583,8 +4677,9 @@
 },
 "0f0f3712-8d13-41a5-b332-2ab34e48d79d": {
 "name": "Xantcha, Sleeper Agent",
-"n": 1,
+"n": 3,
 "kinds": {
+"deck": 2,
 "cards": 1
 },
 "index": "references/X.md#xantcha-sleeper-agent"
@@ -4854,18 +4949,18 @@
 },
 "0fcd476f-4db8-4293-9388-1678a0043c9e": {
 "name": "Grinding Station",
-"n": 4,
+"n": 7,
 "kinds": {
-"deck": 3,
-"edh": 1
+"deck": 5,
+"edh": 2
 },
 "index": "references/G.md#grinding-station"
 },
 "0fd114c4-092b-4e28-b0dc-ef529f3bc73e": {
 "name": "Jeska's Will",
-"n": 29,
+"n": 42,
 "kinds": {
-"deck": 23,
+"deck": 36,
 "edh": 5,
 "cards": 1
 },
@@ -4892,9 +4987,9 @@
 },
 "0fe16212-66c3-4e45-a641-7391e9b2e304": {
 "name": "Shivan Reef",
-"n": 18,
+"n": 21,
 "kinds": {
-"deck": 14,
+"deck": 17,
 "edh": 3,
 "cards": 1
 },
@@ -5274,8 +5369,9 @@
 },
 "10e95489-a94d-4523-964c-ec9753103a62": {
 "name": "Blanket of Night",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/B.md#blanket-of-night"
@@ -5303,6 +5399,14 @@
 "cards": 1
 },
 "index": "references/G.md#gahiji-honored-one"
+},
+"1111e042-0bce-4819-ab42-9912aed4d930": {
+"name": "Tetsuo, Imperial Champion",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/T.md#tetsuo-imperial-champion"
 },
 "11173ad3-c007-478f-bce0-d756eac07ccb": {
 "name": "Phyrexian Scriptures",
@@ -5541,6 +5645,14 @@
 },
 "index": "references/O.md#old-growth-troll"
 },
+"11e637b4-6ce0-4514-98d6-02a2d073f73b": {
+"name": "Blue Sun's Twilight",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/B.md#blue-suns-twilight"
+},
 "11e70692-2057-49c8-90e6-953362f4817f": {
 "name": "Hei Bai, Forest Guardian",
 "n": 1,
@@ -5593,8 +5705,9 @@
 },
 "1216900e-93e3-41a4-b354-9c81938639c2": {
 "name": "Vren, the Relentless",
-"n": 3,
+"n": 4,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "cards": 2
 },
@@ -5940,17 +6053,18 @@
 },
 "134dfb35-0c32-4143-aa63-7701f406b59e": {
 "name": "Unmarked Grave",
-"n": 3,
+"n": 5,
 "kinds": {
-"deck": 3
+"deck": 4,
+"edh": 1
 },
 "index": "references/U.md#unmarked-grave"
 },
 "13575cf9-65c1-4861-b21e-eb2155e07766": {
 "name": "Sensei's Divining Top",
-"n": 15,
+"n": 16,
 "kinds": {
-"deck": 8,
+"deck": 9,
 "edh": 4,
 "rules": 1,
 "cards": 2
@@ -6154,6 +6268,14 @@
 },
 "index": "references/I.md#impatient-iguana"
 },
+"13f58292-9b78-4cd1-a16e-b1779a170d33": {
+"name": "Court of Ire",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/C.md#court-of-ire"
+},
 "13f63240-a6bb-4333-a3dd-818725c6fb73": {
 "name": "Abhorrent Overlord",
 "n": 1,
@@ -6190,9 +6312,9 @@
 },
 "13ff3222-91cb-4796-a34e-899ed817694c": {
 "name": "Badlands",
-"n": 44,
+"n": 64,
 "kinds": {
-"deck": 38,
+"deck": 58,
 "edh": 4,
 "cards": 2
 },
@@ -6260,9 +6382,9 @@
 },
 "144119bc-7fd1-45c5-9e29-f742e7c255ac": {
 "name": "Clearwater Pathway // Murkwater Pathway",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 4
+"deck": 5
 },
 "index": "references/C.md#clearwater-pathway--murkwater-pathway"
 },
@@ -6362,9 +6484,9 @@
 },
 "14aefe99-fb60-4f1c-a71f-7ffbe94c8b13": {
 "name": "Rune-Scarred Demon",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/R.md#rune-scarred-demon"
 },
@@ -6439,9 +6561,9 @@
 },
 "14d2979d-5728-42d7-a027-0eb1f754655d": {
 "name": "Talisman of Creativity",
-"n": 46,
+"n": 64,
 "kinds": {
-"deck": 41,
+"deck": 59,
 "edh": 4,
 "cards": 1
 },
@@ -6454,6 +6576,14 @@
 "lore": 1
 },
 "index": "references/C.md#consulate-turret"
+},
+"14f6fcb0-bed4-4a38-b7df-1e438d81bedb": {
+"name": "Chainer, Nightmare Adept",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/C.md#chainer-nightmare-adept"
 },
 "150ab025-5cc3-4468-a724-bbba8838445d": {
 "name": "Genesis Chamber",
@@ -6614,9 +6744,9 @@
 },
 "1582e16d-4825-4cc5-b12c-449c45e4e449": {
 "name": "Humble Defector",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 2
+"deck": 3
 },
 "index": "references/H.md#humble-defector"
 },
@@ -6720,9 +6850,9 @@
 },
 "15d5b198-edbe-40f3-87e2-d72f7f0c58ab": {
 "name": "Dance of the Dead",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 1
 },
 "index": "references/D.md#dance-of-the-dead"
@@ -6738,9 +6868,9 @@
 },
 "15e4938d-1cd3-4670-9de5-2dc10abe4c19": {
 "name": "Wheel of Fate",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/W.md#wheel-of-fate"
 },
@@ -6798,9 +6928,9 @@
 },
 "16090270-0ac5-404c-b0c8-a6c8a4b508a4": {
 "name": "Ensnared by the Mara",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/E.md#ensnared-by-the-mara"
 },
@@ -6849,8 +6979,9 @@
 },
 "163baf58-b35d-4f2b-aa53-8384b8b5800a": {
 "name": "Replication Technique",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "rules": 1
 },
 "index": "references/R.md#replication-technique"
@@ -6974,6 +7105,14 @@
 },
 "index": "references/T.md#the-temporal-anchor"
 },
+"1690a782-9e54-4231-9a72-abae5ed7050c": {
+"name": "Dread Presence",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/D.md#dread-presence"
+},
 "169a4a77-12ff-4997-9550-bdcd456aa2f7": {
 "name": "The Eagles Are Coming!",
 "n": 2,
@@ -7026,9 +7165,9 @@
 },
 "16cd0b90-f70c-4efa-b252-8de8784ef9a3": {
 "name": "Imperial Seal",
-"n": 21,
+"n": 24,
 "kinds": {
-"deck": 15,
+"deck": 18,
 "edh": 4,
 "cards": 2
 },
@@ -7077,9 +7216,9 @@
 },
 "16e015b2-f8a3-4b1a-80be-58a8f5fb5e8c": {
 "name": "Frantic Search",
-"n": 14,
+"n": 22,
 "kinds": {
-"deck": 9,
+"deck": 17,
 "edh": 3,
 "cards": 2
 },
@@ -7114,9 +7253,9 @@
 },
 "17039058-822d-409f-938c-b727a366ba63": {
 "name": "Steam Vents",
-"n": 53,
+"n": 73,
 "kinds": {
-"deck": 48,
+"deck": 68,
 "edh": 4,
 "cards": 1
 },
@@ -7247,6 +7386,14 @@
 },
 "index": "references/H.md#hoofprints-of-the-stag"
 },
+"1773c4e8-dc08-482a-9f26-30ef96c5b200": {
+"name": "Inspiring Refrain",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/I.md#inspiring-refrain"
+},
 "17770eeb-ecbf-4510-af2d-acececfbe146": {
 "name": "Multiversal Passage",
 "n": 1,
@@ -7257,9 +7404,9 @@
 },
 "17784f90-89a1-47a5-83ef-ae60dfc30bd1": {
 "name": "Minamo, School at Water's Edge",
-"n": 3,
+"n": 6,
 "kinds": {
-"deck": 2,
+"deck": 5,
 "edh": 1
 },
 "index": "references/M.md#minamo-school-at-waters-edge"
@@ -7627,10 +7774,10 @@
 },
 "1861e642-21d5-4232-89f3-b5557f2946c1": {
 "name": "Phyrexian Tower",
-"n": 12,
+"n": 18,
 "kinds": {
-"deck": 8,
-"edh": 3,
+"deck": 13,
+"edh": 4,
 "cards": 1
 },
 "index": "references/P.md#phyrexian-tower"
@@ -7868,9 +8015,10 @@
 },
 "1946ded1-5f53-409f-b0a6-5433bb0357d2": {
 "name": "The Ozolith",
-"n": 7,
+"n": 11,
 "kinds": {
-"deck": 3,
+"deck": 6,
+"edh": 1,
 "rules": 1,
 "lore": 2,
 "cards": 1
@@ -7921,8 +8069,9 @@
 },
 "197582b9-4c86-41a3-ad0c-789a0db8e087": {
 "name": "Quantum Misalignment",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "rules": 1,
 "cards": 1
 },
@@ -8003,8 +8152,9 @@
 },
 "19a2f0a0-9e68-4982-a5f5-b77d805befd7": {
 "name": "Demonic Pact",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "lore": 1
 },
 "index": "references/D.md#demonic-pact"
@@ -8075,9 +8225,9 @@
 },
 "1a0770e6-b093-4439-baff-6889a50ba12e": {
 "name": "Mental Misstep",
-"n": 14,
+"n": 16,
 "kinds": {
-"deck": 9,
+"deck": 11,
 "edh": 3,
 "cards": 2
 },
@@ -8149,9 +8299,9 @@
 },
 "1a85ba2b-ae10-4917-954a-7709b75a9740": {
 "name": "Tainted Pact",
-"n": 13,
+"n": 15,
 "kinds": {
-"deck": 9,
+"deck": 11,
 "edh": 2,
 "cards": 2
 },
@@ -8337,9 +8487,9 @@
 },
 "1b3e841e-0f8f-467d-9983-f9b8d081a67f": {
 "name": "Mahadi, Emporium Master",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 2,
 "cards": 1
 },
@@ -8353,6 +8503,14 @@
 "cards": 1
 },
 "index": "references/M.md#mortuary-mire"
+},
+"1b415806-a3e3-4d87-b4c1-ccd11a8ee589": {
+"name": "Saruman's Trickery",
+"n": 2,
+"kinds": {
+"deck": 2
+},
+"index": "references/S.md#sarumans-trickery"
 },
 "1b44fe0a-4a99-4166-b0b3-102b36b54ffa": {
 "name": "Abzan Battle Priest",
@@ -8413,6 +8571,14 @@
 "edh": 2
 },
 "index": "references/E.md#erinis-gloom-stalker"
+},
+"1b80b910-c0e6-42e3-929c-2b4c85c850fe": {
+"name": "Verity Circle",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/V.md#verity-circle"
 },
 "1b882a0e-0ede-4d1a-bd1a-9b7cffbcde8e": {
 "name": "Three Visits",
@@ -8745,9 +8911,9 @@
 },
 "1cb0610b-a731-42c2-b93f-0a29f63cebf4": {
 "name": "Thrill of Possibility",
-"n": 6,
+"n": 7,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 3,
 "cards": 1
 },
@@ -8795,6 +8961,14 @@
 },
 "index": "references/C.md#chandra-bold-pyromancer"
 },
+"1cdf30de-d88c-421a-80df-4917bbd2f09e": {
+"name": "Silent Arbiter",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/S.md#silent-arbiter"
+},
 "1ce239f2-79ad-4a30-8e8f-f985045f78dc": {
 "name": "Chameleon, Master of Disguise",
 "n": 3,
@@ -8814,9 +8988,9 @@
 },
 "1cf40a30-5b42-4dce-ae4f-699bc879e180": {
 "name": "Cult of Skaro",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 2
+"deck": 3
 },
 "index": "references/C.md#cult-of-skaro"
 },
@@ -8878,17 +9052,17 @@
 },
 "1d15a06f-5471-48f2-8c4a-9b0886bef5af": {
 "name": "Obeka, Splitter of Seconds",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/O.md#obeka-splitter-of-seconds"
 },
 "1d1d78af-7982-419d-b9be-2bf4c149d97d": {
 "name": "Illusionist's Bracers",
-"n": 2,
+"n": 4,
 "kinds": {
-"deck": 2
+"deck": 4
 },
 "index": "references/I.md#illusionists-bracers"
 },
@@ -8938,9 +9112,9 @@
 },
 "1d67f5ff-1fce-45e5-b6a1-416c569351e2": {
 "name": "Gitaxian Probe",
-"n": 11,
+"n": 14,
 "kinds": {
-"deck": 7,
+"deck": 10,
 "edh": 2,
 "cards": 2
 },
@@ -8964,6 +9138,14 @@
 },
 "index": "references/K.md#kraum-violent-cacophony"
 },
+"1d7d9404-cad6-4c1a-bd47-7a31ebb2791c": {
+"name": "Tangletrove Kelp",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/T.md#tangletrove-kelp"
+},
 "1d85eec2-80db-466c-bd48-d2a12866e8bd": {
 "name": "Old Stickfingers",
 "n": 3,
@@ -8975,9 +9157,9 @@
 },
 "1d9aeaaa-66f6-41cb-9bac-162d6fd8662c": {
 "name": "Talisman of Indulgence",
-"n": 42,
+"n": 60,
 "kinds": {
-"deck": 38,
+"deck": 56,
 "edh": 3,
 "cards": 1
 },
@@ -9058,9 +9240,9 @@
 },
 "1de1b591-a73f-4974-b507-8c63e07a0868": {
 "name": "Thassa's Oracle",
-"n": 15,
+"n": 17,
 "kinds": {
-"deck": 9,
+"deck": 11,
 "edh": 4,
 "cards": 2
 },
@@ -9194,9 +9376,9 @@
 },
 "1e943e04-e213-4781-b1a7-935aad8790e1": {
 "name": "Intruder Alarm",
-"n": 6,
+"n": 7,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 2,
 "cards": 2
 },
@@ -9279,8 +9461,9 @@
 },
 "1ecde43f-e418-437b-8b8f-efe120f96cb3": {
 "name": "Fateful Handoff",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "lore": 1
 },
 "index": "references/F.md#fateful-handoff"
@@ -9620,8 +9803,9 @@
 },
 "1ff00f5b-4bf9-4724-8bb5-6b9a9eb0ec7f": {
 "name": "Replicating Ring",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/R.md#replicating-ring"
@@ -9680,9 +9864,9 @@
 },
 "20129459-a386-41eb-899d-1aede3427300": {
 "name": "Aggravated Assault",
-"n": 9,
+"n": 11,
 "kinds": {
-"deck": 5,
+"deck": 7,
 "edh": 3,
 "cards": 1
 },
@@ -9801,8 +9985,9 @@
 },
 "20591a83-7138-4876-b088-035bd3788be3": {
 "name": "Tamiyo's Journal",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "rules": 1
 },
 "index": "references/T.md#tamiyos-journal"
@@ -9991,6 +10176,14 @@
 },
 "index": "references/F.md#feed-the-cauldron"
 },
+"211814a5-195d-41c6-b96c-4c26b2cbb33c": {
+"name": "Dalakos, Crafter of Wonders",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/D.md#dalakos-crafter-of-wonders"
+},
 "2127a245-d664-45cb-8ed1-0024de1a10df": {
 "name": "Ezio, Blade of Vengeance",
 "n": 1,
@@ -10087,9 +10280,9 @@
 },
 "215fd0b4-5817-4335-a0ed-1694e44bde41": {
 "name": "Omen Hawker",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/O.md#omen-hawker"
 },
@@ -10111,9 +10304,9 @@
 },
 "2167ac25-d042-4b48-b770-8b94acc1a965": {
 "name": "Chain of Vapor",
-"n": 12,
+"n": 14,
 "kinds": {
-"deck": 9,
+"deck": 11,
 "edh": 2,
 "cards": 1
 },
@@ -10141,9 +10334,10 @@
 },
 "217062f5-96f1-454c-9507-17f34ef37070": {
 "name": "Sheoldred's Edict",
-"n": 3,
+"n": 6,
 "kinds": {
-"deck": 2,
+"deck": 4,
+"edh": 1,
 "cards": 1
 },
 "index": "references/S.md#sheoldreds-edict"
@@ -10156,6 +10350,14 @@
 },
 "index": "references/G.md#grand-marshal-macie"
 },
+"2188c03f-11b6-4651-914a-b4fdd59127e3": {
+"name": "Arcane Adaptation",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/A.md#arcane-adaptation"
+},
 "21a86dcd-03e3-409b-b214-5feed07db584": {
 "name": "Radiant Solar",
 "n": 2,
@@ -10165,6 +10367,14 @@
 },
 "index": "references/R.md#radiant-solar"
 },
+"21ad7067-3210-42d6-9009-0784b2834227": {
+"name": "Bazaar Trader",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/B.md#bazaar-trader"
+},
 "21b41dd6-bff7-4e3d-aa28-551a30194225": {
 "name": "Sky Hussar",
 "n": 1,
@@ -10172,6 +10382,14 @@
 "rules": 1
 },
 "index": "references/S.md#sky-hussar"
+},
+"21b76a94-d9f3-4c34-ab24-7e89321b04f0": {
+"name": "Obeka, Brute Chronologist",
+"n": 2,
+"kinds": {
+"deck": 2
+},
+"index": "references/O.md#obeka-brute-chronologist"
 },
 "21bdba6e-3f9d-4ead-8212-0cbb0ce7f8cc": {
 "name": "Inalla, Archmage Ritualist",
@@ -10284,8 +10502,9 @@
 },
 "222fd9fc-7af4-4269-bbb9-cd7b8ac029bd": {
 "name": "Troll of Khazad-dûm",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/T.md#troll-of-khazad-dûm"
@@ -10300,9 +10519,9 @@
 },
 "223fa044-d387-4884-bf4e-75f1b61c6a46": {
 "name": "Curiosity",
-"n": 10,
+"n": 11,
 "kinds": {
-"deck": 3,
+"deck": 4,
 "edh": 5,
 "rules": 1,
 "cards": 1
@@ -10367,8 +10586,9 @@
 },
 "228cb63f-0b93-4be5-94e5-4eaae9112eeb": {
 "name": "Dark Intimations",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "lore": 1
 },
 "index": "references/D.md#dark-intimations"
@@ -10385,9 +10605,9 @@
 },
 "229d6627-1292-4ae1-8849-b0f956fa6540": {
 "name": "Grim Monolith",
-"n": 17,
+"n": 22,
 "kinds": {
-"deck": 10,
+"deck": 15,
 "edh": 4,
 "cards": 3
 },
@@ -10421,9 +10641,9 @@
 },
 "22ba474e-f6e6-450d-a4cf-0739f0b51079": {
 "name": "Defense Grid",
-"n": 1,
+"n": 3,
 "kinds": {
-"deck": 1
+"deck": 3
 },
 "index": "references/D.md#defense-grid"
 },
@@ -10553,6 +10773,14 @@
 },
 "index": "references/T.md#tomb-of-the-spirit-dragon"
 },
+"22fa2860-d746-4429-b7e3-3403bef27f7b": {
+"name": "Midnight Crusader Shuttle",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/M.md#midnight-crusader-shuttle"
+},
 "22fa9020-783e-4292-857e-9d45a3458d71": {
 "name": "Wielding the Green Dragon",
 "n": 1,
@@ -10604,9 +10832,10 @@
 },
 "232284f7-c623-4895-9ab9-8b1a39926830": {
 "name": "Wonder",
-"n": 3,
+"n": 6,
 "kinds": {
-"deck": 3
+"deck": 5,
+"edh": 1
 },
 "index": "references/W.md#wonder"
 },
@@ -10646,9 +10875,9 @@
 },
 "23467047-6dba-4498-b783-1ebc4f74b8c2": {
 "name": "Ancient Tomb",
-"n": 41,
+"n": 55,
 "kinds": {
-"deck": 35,
+"deck": 49,
 "edh": 4,
 "cards": 2
 },
@@ -10656,9 +10885,9 @@
 },
 "234a734b-ba28-4f1b-9d01-3c3e7d516590": {
 "name": "An Offer You Can't Refuse",
-"n": 42,
+"n": 47,
 "kinds": {
-"deck": 35,
+"deck": 40,
 "edh": 5,
 "cards": 2
 },
@@ -10749,9 +10978,9 @@
 },
 "2396299a-c031-4020-b13e-1f9bf9d64511": {
 "name": "Thassa, Deep-Dwelling",
-"n": 2,
+"n": 4,
 "kinds": {
-"deck": 2
+"deck": 4
 },
 "index": "references/T.md#thassa-deep-dwelling"
 },
@@ -10863,6 +11092,14 @@
 },
 "index": "references/E.md#echo-of-eons"
 },
+"23e6df25-90db-42a4-8658-e592e67be15e": {
+"name": "Errant, Street Artist",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/E.md#errant-street-artist"
+},
 "23f73983-0337-4464-8817-5f7596d65b38": {
 "name": "Grapeshot Catapult",
 "n": 1,
@@ -10882,10 +11119,10 @@
 },
 "240e85d3-e495-4877-8609-4b4056c402f7": {
 "name": "Victimize",
-"n": 10,
+"n": 15,
 "kinds": {
-"deck": 7,
-"edh": 2,
+"deck": 11,
+"edh": 3,
 "cards": 1
 },
 "index": "references/V.md#victimize"
@@ -11377,8 +11614,9 @@
 },
 "258f5045-3aa7-4b95-a15f-3172577294a8": {
 "name": "Prismari, the Inspiration",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "edh": 1
 },
 "index": "references/P.md#prismari-the-inspiration"
@@ -11417,9 +11655,9 @@
 },
 "25c0bbc8-b0c3-4166-967f-e8b096487a6c": {
 "name": "Davros, Dalek Creator",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 3,
+"deck": 4,
 "cards": 1
 },
 "index": "references/D.md#davros-dalek-creator"
@@ -11452,8 +11690,9 @@
 },
 "25dce517-ac0a-4577-89ed-04296c7c4069": {
 "name": "Sedgemoor Witch",
-"n": 1,
+"n": 3,
 "kinds": {
+"deck": 2,
 "cards": 1
 },
 "index": "references/S.md#sedgemoor-witch"
@@ -11651,6 +11890,14 @@
 },
 "index": "references/F.md#fatal-mutation"
 },
+"26e4b49e-77e7-41d9-94c5-924669a82591": {
+"name": "Gallifrey Council Chamber",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/G.md#gallifrey-council-chamber"
+},
 "26e86be4-52e1-47cb-b548-c434482bd3ad": {
 "name": "Worf, Chief Tactical Officer",
 "n": 1,
@@ -11708,6 +11955,14 @@
 "cards": 1
 },
 "index": "references/V.md#vedalken-aethermage"
+},
+"271d8db6-8606-46d7-9812-75aa22fcfd8e": {
+"name": "Alchemist's Gambit",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/A.md#alchemists-gambit"
 },
 "272016e1-df1e-4376-9851-af8b1ecba2f4": {
 "name": "Tempest Efreet",
@@ -11804,8 +12059,9 @@
 },
 "276eccd6-4a76-46e8-b604-94472e618115": {
 "name": "Ghoulish Impetus",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "rules": 1
 },
 "index": "references/G.md#ghoulish-impetus"
@@ -11828,9 +12084,9 @@
 },
 "27a1f42c-0b86-4609-9609-1fa9cab7e7c9": {
 "name": "Profane Tutor",
-"n": 3,
+"n": 5,
 "kinds": {
-"deck": 2,
+"deck": 4,
 "rules": 1
 },
 "index": "references/P.md#profane-tutor"
@@ -11870,9 +12126,9 @@
 },
 "27b047e3-0d41-45e2-98e9-9391d7923a1e": {
 "name": "Exotic Orchard",
-"n": 59,
+"n": 72,
 "kinds": {
-"deck": 53,
+"deck": 66,
 "edh": 3,
 "rules": 1,
 "cards": 2
@@ -11897,9 +12153,9 @@
 },
 "27e0948b-9916-473b-8d8c-a51bdfbc7457": {
 "name": "Underworld Breach",
-"n": 22,
+"n": 25,
 "kinds": {
-"deck": 16,
+"deck": 19,
 "edh": 4,
 "cards": 2
 },
@@ -12346,9 +12602,9 @@
 },
 "299fc083-0834-4064-8344-f895aff68867": {
 "name": "Entomb",
-"n": 17,
+"n": 20,
 "kinds": {
-"deck": 11,
+"deck": 14,
 "edh": 4,
 "cards": 2
 },
@@ -12588,6 +12844,14 @@
 },
 "index": "references/S.md#shrieking-drake"
 },
+"2a9783c5-084b-4cd3-b7fa-ae9d7fed51d1": {
+"name": "Come Back Wrong",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/C.md#come-back-wrong"
+},
 "2a99c0d6-3200-44ff-8d4c-f7a38cecb05f": {
 "name": "Fire Nation Occupation",
 "n": 2,
@@ -12607,8 +12871,9 @@
 },
 "2ab88c99-aaa0-4a91-9225-0bbfba04b6bc": {
 "name": "Court of Cunning",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/C.md#court-of-cunning"
@@ -12651,9 +12916,9 @@
 },
 "2acf8e34-9215-4a72-a24f-09d3bdd0083a": {
 "name": "Ripples of Undeath",
-"n": 7,
+"n": 9,
 "kinds": {
-"deck": 4,
+"deck": 6,
 "edh": 2,
 "cards": 1
 },
@@ -12913,9 +13178,9 @@
 },
 "2b934761-5720-477b-94b7-d1d91dc581a6": {
 "name": "Marrow-Gnawer",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 1,
 "cards": 1
 },
@@ -12933,8 +13198,9 @@
 },
 "2bade11e-04e0-42a2-8861-9257c99a7c08": {
 "name": "Saruman, the White Hand",
-"n": 2,
+"n": 5,
 "kinds": {
+"deck": 3,
 "edh": 2
 },
 "index": "references/S.md#saruman-the-white-hand"
@@ -12949,9 +13215,9 @@
 },
 "2bb2eda7-3b38-4c56-870f-c3218a1056f5": {
 "name": "Snapcaster Mage",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "cards": 1
 },
 "index": "references/S.md#snapcaster-mage"
@@ -12974,10 +13240,10 @@
 },
 "2bd111bb-ce02-414c-b5b7-e0e037d8d96b": {
 "name": "Bolas's Citadel",
-"n": 7,
+"n": 10,
 "kinds": {
-"deck": 5,
-"edh": 2
+"deck": 7,
+"edh": 3
 },
 "index": "references/B.md#bolass-citadel"
 },
@@ -13090,8 +13356,9 @@
 },
 "2c3e6377-d09c-46b6-8a83-ada4a2930b14": {
 "name": "Will of the Jeskai",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/W.md#will-of-the-jeskai"
@@ -13227,9 +13494,9 @@
 },
 "2ccdc60a-49a9-44b9-a7af-0ebf18b26785": {
 "name": "Sword of Fire and Ice",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 1,
 "cards": 1
 },
@@ -13515,6 +13782,14 @@
 },
 "index": "references/O.md#order-of-midnight--alter-fate"
 },
+"2db23ceb-448b-45d6-a931-d72e8ccdb541": {
+"name": "Hate Mirage",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/H.md#hate-mirage"
+},
 "2db5e0cd-c991-4fda-9001-9e4f10e8a805": {
 "name": "Wei Elite Companions",
 "n": 1,
@@ -13571,6 +13846,14 @@
 },
 "index": "references/A.md#abian-luvion-usurper"
 },
+"2dfad8c3-1973-4fc8-971d-f66cacd88070": {
+"name": "Blustersquall",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/B.md#blustersquall"
+},
 "2dfdd358-e3cd-4bf5-871b-37689b7951e9": {
 "name": "Master's Guide-Mural // Master's Manufactory",
 "n": 1,
@@ -13578,6 +13861,14 @@
 "cards": 1
 },
 "index": "references/M.md#masters-guide-mural--masters-manufactory"
+},
+"2e037c5e-3e07-4ffc-a388-7976459f6ff7": {
+"name": "Voracious Fell Beast",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/V.md#voracious-fell-beast"
 },
 "2e150f97-5688-4559-94b8-86c33fda28a0": {
 "name": "Xerex Strobe-Knight",
@@ -13623,9 +13914,9 @@
 },
 "2e2ace5b-4018-43af-8e72-ebafec1a7739": {
 "name": "Harmonic Prodigy",
-"n": 13,
+"n": 15,
 "kinds": {
-"deck": 8,
+"deck": 10,
 "edh": 4,
 "cards": 1
 },
@@ -13683,9 +13974,9 @@
 },
 "2e3ee458-fa3f-4452-ab95-5a7fb5a0483b": {
 "name": "Plaguecrafter",
-"n": 5,
+"n": 6,
 "kinds": {
-"deck": 4,
+"deck": 5,
 "cards": 1
 },
 "index": "references/P.md#plaguecrafter"
@@ -13777,8 +14068,9 @@
 },
 "2e7e3be5-04dd-4ff4-b121-3e65b3e00699": {
 "name": "Bilbo, Retired Burglar",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "edh": 1
 },
 "index": "references/B.md#bilbo-retired-burglar"
@@ -13828,8 +14120,9 @@
 },
 "2eb1b429-8d11-42f3-8815-5a60b6a4e2d5": {
 "name": "Witch-king of Angmar",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/W.md#witch-king-of-angmar"
@@ -14163,8 +14456,9 @@
 },
 "2f9a5e7c-f463-4773-bf67-a07339ce9b5d": {
 "name": "Orcish Medicine",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/O.md#orcish-medicine"
@@ -14269,9 +14563,9 @@
 },
 "2fda4fe7-8b0c-489c-a000-6d358e614e34": {
 "name": "Izzet Signet",
-"n": 16,
+"n": 27,
 "kinds": {
-"deck": 12,
+"deck": 23,
 "edh": 3,
 "cards": 1
 },
@@ -14364,8 +14658,9 @@
 },
 "30377bd5-99ab-4888-9ea7-e5a069b527e8": {
 "name": "Return the Favor",
-"n": 3,
+"n": 4,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "rules": 1,
 "cards": 1
@@ -14388,6 +14683,14 @@
 "cards": 1
 },
 "index": "references/A.md#ancient-grudge"
+},
+"306b6b9b-f488-4ea8-9f5e-9e8e7354df64": {
+"name": "The Master, Mesmerist",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/T.md#the-master-mesmerist"
 },
 "307be184-176a-40a8-944c-48aa00cfdd29": {
 "name": "Radiant Lotus",
@@ -14423,9 +14726,10 @@
 },
 "30a0a6c2-1fbb-4784-ab96-22611d57e62c": {
 "name": "Torment of Hailfire",
-"n": 4,
+"n": 7,
 "kinds": {
-"deck": 2,
+"deck": 4,
+"edh": 1,
 "rules": 1,
 "cards": 1
 },
@@ -14501,9 +14805,9 @@
 },
 "30c3c700-46f4-4a77-8c45-5c7e3a21bd62": {
 "name": "Wizard's Staff",
-"n": 3,
+"n": 6,
 "kinds": {
-"deck": 2,
+"deck": 5,
 "edh": 1
 },
 "index": "references/W.md#wizards-staff"
@@ -14602,10 +14906,10 @@
 },
 "310f141c-7f37-4729-aed6-dd9c09db448d": {
 "name": "Blood Artist",
-"n": 12,
+"n": 14,
 "kinds": {
-"deck": 9,
-"edh": 2,
+"deck": 10,
+"edh": 3,
 "cards": 1
 },
 "index": "references/B.md#blood-artist"
@@ -14946,9 +15250,10 @@
 },
 "322f0459-f394-44f0-977b-55fd0cbe0712": {
 "name": "Yawgmoth's Will",
-"n": 4,
+"n": 7,
 "kinds": {
-"deck": 2,
+"deck": 4,
+"edh": 1,
 "cards": 2
 },
 "index": "references/Y.md#yawgmoths-will"
@@ -14979,6 +15284,22 @@
 "cards": 1
 },
 "index": "references/K.md#kutzil-malamet-exemplar"
+},
+"32452ccf-88c7-41d6-93e5-15d31f29726d": {
+"name": "Frozen Aether",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/F.md#frozen-aether"
+},
+"3246eff5-8739-469f-a401-e5de927dd6bb": {
+"name": "Khârn the Betrayer",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/K.md#khârn-the-betrayer"
 },
 "32476743-c9d4-49ca-bec2-0669c215841b": {
 "name": "Anrakyr the Traveller",
@@ -15172,9 +15493,9 @@
 },
 "32e5339e-9e4f-46f8-b305-f9d6d3ba8bb5": {
 "name": "Lotus Petal",
-"n": 28,
+"n": 33,
 "kinds": {
-"deck": 23,
+"deck": 28,
 "edh": 3,
 "cards": 2
 },
@@ -15198,8 +15519,9 @@
 },
 "32e9aa23-fc0a-4b82-82f9-1659c304428c": {
 "name": "Careful Study",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/C.md#careful-study"
@@ -15232,9 +15554,9 @@
 },
 "32fe7ac4-86f5-44af-9f73-ee8f6a9ce2ba": {
 "name": "Hall of the Bandit Lord",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 1
 },
 "index": "references/H.md#hall-of-the-bandit-lord"
@@ -15411,9 +15733,9 @@
 },
 "3378fef3-4d8c-4d9e-a338-4abb6f70d410": {
 "name": "Aqueous Form",
-"n": 5,
+"n": 6,
 "kinds": {
-"deck": 3,
+"deck": 4,
 "edh": 2
 },
 "index": "references/A.md#aqueous-form"
@@ -15489,8 +15811,9 @@
 },
 "33b401b1-cf94-4c7a-8a8a-426ac3d87bd0": {
 "name": "Baeloth Barrityl, Entertainer",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "edh": 2
 },
 "index": "references/B.md#baeloth-barrityl-entertainer"
@@ -15511,6 +15834,14 @@
 "cards": 1
 },
 "index": "references/T.md#temple-of-deceit"
+},
+"33c0a8c0-d1d9-4b03-869d-65dab8ace3df": {
+"name": "Fall of Cair Andros",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/F.md#fall-of-cair-andros"
 },
 "33c722cf-b4bf-431f-aefd-ee96241a7fbf": {
 "name": "Crucible of Worlds",
@@ -15730,6 +16061,14 @@
 },
 "index": "references/I.md#inga-and-esika"
 },
+"343460ea-7999-4d9e-b425-97fa1621f9d6": {
+"name": "Flameshadow Conjuring",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/F.md#flameshadow-conjuring"
+},
 "3437d504-bf62-4c27-b15f-f6330182ff7e": {
 "name": "The World Tree",
 "n": 3,
@@ -15946,10 +16285,10 @@
 },
 "34f34409-326d-4994-a0ea-1a69aa278f03": {
 "name": "Sheoldred, the Apocalypse",
-"n": 14,
+"n": 17,
 "kinds": {
-"deck": 6,
-"edh": 4,
+"deck": 8,
+"edh": 5,
 "rules": 1,
 "lore": 2,
 "cards": 1
@@ -16039,9 +16378,9 @@
 },
 "352b64d2-2ae5-44ee-a64f-94932ef545d3": {
 "name": "Dread Return",
-"n": 7,
+"n": 8,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 3,
 "rules": 1,
 "cards": 2
@@ -16099,9 +16438,9 @@
 },
 "3567c3c8-b3c7-45b7-935b-b1fdbc973720": {
 "name": "Vandalblast",
-"n": 16,
+"n": 19,
 "kinds": {
-"deck": 12,
+"deck": 15,
 "edh": 2,
 "rules": 1,
 "cards": 1
@@ -16254,9 +16593,9 @@
 },
 "360039a5-1cbd-4ee3-8f94-21b5348e106a": {
 "name": "Last Chance",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 1
 },
 "index": "references/L.md#last-chance"
@@ -16347,9 +16686,9 @@
 },
 "3640c29b-1534-4952-b297-619ade948431": {
 "name": "Roaming Throne",
-"n": 19,
+"n": 22,
 "kinds": {
-"deck": 16,
+"deck": 19,
 "edh": 1,
 "rules": 1,
 "cards": 1
@@ -16426,9 +16765,9 @@
 },
 "367d4cf2-270f-4236-af10-7d5e8ea8c9fe": {
 "name": "Persist",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 2
+"deck": 3
 },
 "index": "references/P.md#persist"
 },
@@ -16513,9 +16852,9 @@
 },
 "36cd2364-d113-47d1-b2c4-b088d9eb88dd": {
 "name": "Brainstorm",
-"n": 20,
+"n": 26,
 "kinds": {
-"deck": 12,
+"deck": 18,
 "edh": 5,
 "cards": 3
 },
@@ -16615,9 +16954,9 @@
 },
 "37108cd4-bbab-4ce3-9ed6-f60e8422e703": {
 "name": "Ragavan, Nimble Pilferer",
-"n": 21,
+"n": 23,
 "kinds": {
-"deck": 14,
+"deck": 16,
 "edh": 3,
 "rules": 2,
 "cards": 2
@@ -16711,13 +17050,21 @@
 },
 "37688720-03de-4eca-a82d-a0afe8d58adc": {
 "name": "Baleful Strix",
-"n": 11,
+"n": 14,
 "kinds": {
-"deck": 8,
+"deck": 11,
 "edh": 2,
 "cards": 1
 },
 "index": "references/B.md#baleful-strix"
+},
+"376c6257-4a1a-42d4-8931-72068f38727f": {
+"name": "Puppet Master, String Puller",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/P.md#puppet-master-string-puller"
 },
 "376c9d3f-21d3-4251-bb6a-026fa9e1b0e1": {
 "name": "Skyshroud Claim",
@@ -16814,9 +17161,9 @@
 },
 "37a2a31d-51e6-4c07-b4c2-b206ad40eb42": {
 "name": "The Reaver Cleaver",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 1,
 "cards": 1
 },
@@ -16905,9 +17252,9 @@
 },
 "38394ee3-6726-4f91-bc25-36bce0c6aab9": {
 "name": "Reiterate",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 1,
 "rules": 1
 },
@@ -17036,8 +17383,9 @@
 },
 "38a12bd7-4394-44a8-91a0-6a4ff7fa4f71": {
 "name": "Maze of Ith",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "rules": 1
 },
@@ -17128,9 +17476,9 @@
 },
 "38f3b157-0df4-409b-89cc-086e1531cd5b": {
 "name": "Gray Merchant of Asphodel",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 1,
 "cards": 1
 },
@@ -17155,9 +17503,9 @@
 },
 "390f1b56-264e-4336-83be-dc1fe79bfdcf": {
 "name": "Smoldering Marsh",
-"n": 9,
+"n": 11,
 "kinds": {
-"deck": 5,
+"deck": 7,
 "edh": 3,
 "cards": 1
 },
@@ -17300,6 +17648,14 @@
 "cards": 1
 },
 "index": "references/B.md#bragos-favor"
+},
+"3969d1d6-0aed-4fa8-aa09-d9be50576fb4": {
+"name": "Geode Rager",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/G.md#geode-rager"
 },
 "396b088d-f9af-4ee1-843f-dbe1633f9cc8": {
 "name": "Obyra's Attendants // Desperate Parry",
@@ -17454,9 +17810,9 @@
 },
 "39d8406a-90c3-460c-b4e8-0f590573db51": {
 "name": "Mechanized Production",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 1,
 "rules": 1,
 "cards": 1
@@ -17515,8 +17871,9 @@
 },
 "3a06f4c1-2af1-495f-914f-1ac4e26f87d4": {
 "name": "Widespread Brutality",
-"n": 1,
+"n": 3,
 "kinds": {
+"deck": 2,
 "rules": 1
 },
 "index": "references/W.md#widespread-brutality"
@@ -17637,6 +17994,14 @@
 },
 "index": "references/E.md#empty-the-warrens"
 },
+"3a646245-b8b7-4f91-a312-d5eea9a9e49a": {
+"name": "Extravagant Replication",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/E.md#extravagant-replication"
+},
 "3a6f886b-2043-47e9-9c0f-f7913a6fa67d": {
 "name": "Shadowmage Infiltrator",
 "n": 1,
@@ -17688,9 +18053,9 @@
 },
 "3aa83ed2-f48b-4ce6-a614-2c54ddf50538": {
 "name": "The One Ring",
-"n": 14,
+"n": 19,
 "kinds": {
-"deck": 6,
+"deck": 11,
 "edh": 4,
 "rules": 2,
 "cards": 2
@@ -17723,9 +18088,9 @@
 },
 "3adb7681-977f-4a32-9ec8-51481b958268": {
 "name": "Rakdos Signet",
-"n": 19,
+"n": 29,
 "kinds": {
-"deck": 15,
+"deck": 25,
 "edh": 3,
 "cards": 1
 },
@@ -17944,8 +18309,9 @@
 },
 "3b8eb602-01e8-432e-8dfc-8fdb62c3aa43": {
 "name": "Mocking Doppelganger",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/M.md#mocking-doppelganger"
@@ -18012,8 +18378,9 @@
 },
 "3bc0bd36-70be-4180-9fb3-b10ce054107b": {
 "name": "Consuming Corruption",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "edh": 1
 },
 "index": "references/C.md#consuming-corruption"
@@ -18402,10 +18769,10 @@
 },
 "3ca8113b-f5b8-41a7-aae6-ebb32554dfe3": {
 "name": "Twinning Staff",
-"n": 3,
+"n": 6,
 "kinds": {
-"deck": 2,
-"edh": 1
+"deck": 4,
+"edh": 2
 },
 "index": "references/T.md#twinning-staff"
 },
@@ -18437,10 +18804,10 @@
 },
 "3cd9bac9-0abc-43d8-9f84-94f965f7a2e0": {
 "name": "Cormela, Glamour Thief",
-"n": 4,
+"n": 7,
 "kinds": {
-"deck": 3,
-"edh": 1
+"deck": 5,
+"edh": 2
 },
 "index": "references/C.md#cormela-glamour-thief"
 },
@@ -18496,8 +18863,9 @@
 },
 "3d038f7c-95fa-4b71-8f74-b9b4dd45cde0": {
 "name": "Ertai Resurrected",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/E.md#ertai-resurrected"
@@ -18517,6 +18885,14 @@
 "lore": 1
 },
 "index": "references/U.md#unauthorized-exit"
+},
+"3d177c04-9aa3-44b8-bbe4-df5de23a4ce6": {
+"name": "Chef's Kiss",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/C.md#chefs-kiss"
 },
 "3d190316-138e-45f5-b6f0-11667bd0630b": {
 "name": "Water Gun Balloon Game",
@@ -18585,9 +18961,9 @@
 },
 "3d6fa57a-aa53-4b5c-b8af-a7612c823117": {
 "name": "Faithless Looting",
-"n": 14,
+"n": 17,
 "kinds": {
-"deck": 9,
+"deck": 12,
 "edh": 3,
 "rules": 1,
 "cards": 1
@@ -18670,9 +19046,10 @@
 },
 "3da5977a-36d4-4f32-ab9b-8b93809d818d": {
 "name": "Time Sieve",
-"n": 3,
+"n": 6,
 "kinds": {
-"deck": 3
+"deck": 5,
+"edh": 1
 },
 "index": "references/T.md#time-sieve"
 },
@@ -18686,9 +19063,9 @@
 },
 "3dc364f3-3094-4660-80ca-9418588c7fde": {
 "name": "Mithril Coat",
-"n": 5,
+"n": 6,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 2,
 "rules": 1,
 "cards": 1
@@ -18942,9 +19319,9 @@
 },
 "3ebd64d2-c178-45a2-a51f-9869754baa0f": {
 "name": "Sanctum Lurker",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "rules": 1,
 "cards": 1
 },
@@ -19059,9 +19436,9 @@
 },
 "3f01c327-ba50-4fc3-a930-fa1fb02e34b9": {
 "name": "Tangled Colony",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/T.md#tangled-colony"
 },
@@ -19351,8 +19728,9 @@
 },
 "40362fe0-a1a9-4d76-8c35-eac474b91af5": {
 "name": "Mizzix's Mastery",
-"n": 1,
+"n": 3,
 "kinds": {
+"deck": 2,
 "cards": 1
 },
 "index": "references/M.md#mizzixs-mastery"
@@ -19399,9 +19777,9 @@
 },
 "40601061-1b25-4db8-8b99-33324ce945cf": {
 "name": "Hatred",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/H.md#hatred"
 },
@@ -19445,6 +19823,14 @@
 "cards": 1
 },
 "index": "references/W.md#weather-maker"
+},
+"40ab2b22-9cf6-4a73-a05f-6ce496d10bf7": {
+"name": "Bonus Round",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/B.md#bonus-round"
 },
 "40abba38-533b-4f51-99e9-a2b337d65171": {
 "name": "Deadeye Quartermaster",
@@ -19530,17 +19916,18 @@
 },
 "40eb9904-dea3-47cf-963a-04821f98ba64": {
 "name": "The Black Gate",
-"n": 1,
+"n": 4,
 "kinds": {
+"deck": 3,
 "cards": 1
 },
 "index": "references/T.md#the-black-gate"
 },
 "40ec0a47-badf-4074-b0a8-749bb7c17b95": {
 "name": "Inexorable Tide",
-"n": 5,
+"n": 6,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 2,
 "cards": 1
 },
@@ -19610,6 +19997,14 @@
 "cards": 1
 },
 "index": "references/W.md#wei-infantry"
+},
+"412f57e8-76af-4636-bab0-e0940300ee2e": {
+"name": "Ring of Valkas",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/R.md#ring-of-valkas"
 },
 "4137a22c-f793-4e27-a9b2-72740a6e2121": {
 "name": "Abzan Charm",
@@ -19808,10 +20203,10 @@
 },
 "422e1869-134f-463d-9fa1-86b66a998b3e": {
 "name": "Fabricate",
-"n": 6,
+"n": 8,
 "kinds": {
-"deck": 4,
-"edh": 1,
+"deck": 5,
+"edh": 2,
 "cards": 1
 },
 "index": "references/F.md#fabricate"
@@ -19839,6 +20234,14 @@
 "rules": 1
 },
 "index": "references/W.md#wing-commando"
+},
+"42410e81-f4a6-4501-82e4-6e745934976c": {
+"name": "Death Kiss",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/D.md#death-kiss"
 },
 "4245ee98-2d4c-49d1-8d07-80760cae2bf9": {
 "name": "Devastation Tide",
@@ -20146,9 +20549,9 @@
 },
 "43985bbc-a0f6-4812-984e-392bc8562633": {
 "name": "Blood Crypt",
-"n": 53,
+"n": 73,
 "kinds": {
-"deck": 48,
+"deck": 68,
 "edh": 4,
 "cards": 1
 },
@@ -20552,9 +20955,9 @@
 },
 "44e0ffa3-8915-4c1f-8f1a-4aeea1365f07": {
 "name": "Simian Spirit Guide",
-"n": 11,
+"n": 13,
 "kinds": {
-"deck": 8,
+"deck": 10,
 "edh": 1,
 "cards": 2
 },
@@ -20570,9 +20973,9 @@
 },
 "44ed4c0c-a012-4895-a547-b04150553bba": {
 "name": "The Eldest Reborn",
-"n": 2,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 3,
 "rules": 1
 },
 "index": "references/T.md#the-eldest-reborn"
@@ -20613,9 +21016,9 @@
 },
 "4514777d-0589-4631-978b-ff244167c176": {
 "name": "Vexing Bauble",
-"n": 5,
+"n": 6,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "cards": 3
 },
 "index": "references/V.md#vexing-bauble"
@@ -20629,6 +21032,14 @@
 "cards": 1
 },
 "index": "references/S.md#sacred-foundry"
+},
+"451e35dd-e0b5-4157-8511-bacb315e19bd": {
+"name": "Psychic Vortex",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/P.md#psychic-vortex"
 },
 "451fa71d-b63a-44c1-895f-60dc0cd00109": {
 "name": "Do-Over",
@@ -20662,6 +21073,14 @@
 "lore": 1
 },
 "index": "references/P.md#proft-consulting-detective"
+},
+"4548f379-2647-4446-9e56-e7ef0662793a": {
+"name": "Ring of Evos Isle",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/R.md#ring-of-evos-isle"
 },
 "454a8902-8120-4373-96ee-bbf352b04e8d": {
 "name": "Hero of Bladehold",
@@ -20812,9 +21231,9 @@
 },
 "45bcebd0-5e93-4433-b92f-b4c161d04bd6": {
 "name": "Ripples of Potential",
-"n": 5,
+"n": 6,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 2,
 "rules": 1,
 "cards": 1
@@ -20974,9 +21393,9 @@
 },
 "464c0150-3dbc-403b-9ada-fef25ab1f29d": {
 "name": "Brain Freeze",
-"n": 18,
+"n": 20,
 "kinds": {
-"deck": 12,
+"deck": 14,
 "edh": 4,
 "rules": 1,
 "cards": 1
@@ -21085,9 +21504,9 @@
 },
 "467f756f-75db-4748-99d3-62651776adfe": {
 "name": "Lord Skitter's Butcher",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 1
 },
 "index": "references/L.md#lord-skitters-butcher"
@@ -21129,9 +21548,9 @@
 },
 "469956a2-7cd4-4695-b8f4-c841526f160d": {
 "name": "Bloodletter of Aclazotz",
-"n": 5,
+"n": 6,
 "kinds": {
-"deck": 4,
+"deck": 5,
 "cards": 1
 },
 "index": "references/B.md#bloodletter-of-aclazotz"
@@ -21237,9 +21656,9 @@
 },
 "4709f11c-aef8-45ac-b2bf-e640c568dfac": {
 "name": "Mayhem Devil",
-"n": 11,
+"n": 12,
 "kinds": {
-"deck": 7,
+"deck": 8,
 "edh": 2,
 "rules": 1,
 "cards": 1
@@ -21264,19 +21683,27 @@
 },
 "4716ab91-30e6-4c63-8389-a9db8f9414d8": {
 "name": "Tekuthal, Inquiry Dominus",
-"n": 6,
+"n": 7,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 3,
 "cards": 1
 },
 "index": "references/T.md#tekuthal-inquiry-dominus"
 },
+"47214acc-08c4-4dcb-9a8b-09196ce41045": {
+"name": "Psychic Impetus",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/P.md#psychic-impetus"
+},
 "4722105b-0085-4bb8-bca1-9de0d3eb5600": {
 "name": "Stormcarved Coast",
-"n": 14,
+"n": 18,
 "kinds": {
-"deck": 10,
+"deck": 14,
 "edh": 3,
 "cards": 1
 },
@@ -21356,8 +21783,9 @@
 },
 "477374dc-042c-48f7-9ebe-99c15d8ae04f": {
 "name": "All Will Be One",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "lore": 1,
 "cards": 1
 },
@@ -21472,16 +21900,18 @@
 },
 "47fde936-be71-4550-826b-b98d139cc57a": {
 "name": "Karazikar, the Eye Tyrant",
-"n": 1,
+"n": 3,
 "kinds": {
+"deck": 2,
 "edh": 1
 },
 "index": "references/K.md#karazikar-the-eye-tyrant"
 },
 "480454a0-fb10-432b-a963-8b0c0ffc6680": {
 "name": "Sepulchral Primordial",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "rules": 1,
 "cards": 1
 },
@@ -21489,8 +21919,9 @@
 },
 "48054407-b5e1-431c-ad03-c12a31d0d9a8": {
 "name": "Sedris, the Traitor King",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/S.md#sedris-the-traitor-king"
@@ -21579,9 +22010,9 @@
 },
 "48712d36-5c13-4ded-87a4-68106da4a5cd": {
 "name": "Mindbreak Trap",
-"n": 11,
+"n": 13,
 "kinds": {
-"deck": 8,
+"deck": 10,
 "edh": 2,
 "cards": 1
 },
@@ -21589,9 +22020,9 @@
 },
 "4879c8f0-8832-4290-bc71-9838940f75cd": {
 "name": "Valley Floodcaller",
-"n": 10,
+"n": 12,
 "kinds": {
-"deck": 5,
+"deck": 7,
 "edh": 4,
 "cards": 1
 },
@@ -21623,8 +22054,9 @@
 },
 "48a62778-7c11-486f-a0e1-020c283a7ef9": {
 "name": "Nazgûl",
-"n": 1,
+"n": 3,
 "kinds": {
+"deck": 2,
 "cards": 1
 },
 "index": "references/N.md#nazgûl"
@@ -21848,9 +22280,9 @@
 },
 "4924b3a4-a218-4783-8a4d-82361fdecc78": {
 "name": "Riverglide Pathway // Lavaglide Pathway",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 4
+"deck": 5
 },
 "index": "references/R.md#riverglide-pathway--lavaglide-pathway"
 },
@@ -22091,9 +22523,9 @@
 },
 "49be65fd-3755-410d-b0dc-2e5861ea2552": {
 "name": "Thopter Spy Network",
-"n": 8,
+"n": 9,
 "kinds": {
-"deck": 3,
+"deck": 4,
 "edh": 3,
 "rules": 1,
 "cards": 1
@@ -22133,6 +22565,14 @@
 "cards": 1
 },
 "index": "references/H.md#heartfire-hero"
+},
+"49e3396a-a125-4cca-b02a-4a96102bcb16": {
+"name": "The Mouth of Sauron",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/T.md#the-mouth-of-sauron"
 },
 "49e43de3-460b-4562-aef6-da43bd56debc": {
 "name": "Spawning Bed",
@@ -22243,9 +22683,9 @@
 },
 "4a59d86e-405d-4c70-b2a5-c64f5cecfd9e": {
 "name": "Electrodominance",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 1
 },
 "index": "references/E.md#electrodominance"
@@ -22293,9 +22733,9 @@
 },
 "4a8d41fe-e04d-484b-a7d1-19be311e6ca7": {
 "name": "Sea Gate Restoration // Sea Gate, Reborn",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/S.md#sea-gate-restoration--sea-gate-reborn"
 },
@@ -22385,9 +22825,9 @@
 },
 "4aeafdf3-7828-4114-8c74-3bd46357caec": {
 "name": "Tezzeret the Seeker",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "lore": 2,
 "cards": 1
 },
@@ -22436,9 +22876,9 @@
 },
 "4b1bf05e-753e-4350-a913-894cf3cecc0c": {
 "name": "Fleshbag Marauder",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/F.md#fleshbag-marauder"
 },
@@ -22454,9 +22894,9 @@
 },
 "4b22be3a-8ce1-47d1-b82e-6c3ccfb0548b": {
 "name": "Underground Sea",
-"n": 45,
+"n": 65,
 "kinds": {
-"deck": 39,
+"deck": 59,
 "edh": 4,
 "cards": 2
 },
@@ -22477,6 +22917,14 @@
 "cards": 1
 },
 "index": "references/A.md#akki-ronin"
+},
+"4b508087-99da-4eb1-8b12-29162f2ec85d": {
+"name": "Swarmyard",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/S.md#swarmyard"
 },
 "4b515bb0-f275-4400-8032-3173b799ab40": {
 "name": "Walking Ballista",
@@ -22667,9 +23115,9 @@
 },
 "4c0a0448-b9d6-43a0-8549-64066dac63f0": {
 "name": "Talisman of Dominance",
-"n": 48,
+"n": 67,
 "kinds": {
-"deck": 44,
+"deck": 63,
 "edh": 3,
 "cards": 1
 },
@@ -22736,6 +23184,14 @@
 "cards": 1
 },
 "index": "references/A.md#annie-joins-up"
+},
+"4c495e94-3194-47c7-8129-dd0a0f915daa": {
+"name": "Coveted Falcon",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/C.md#coveted-falcon"
 },
 "4c5a2443-a038-44d3-83a4-5e9a6db7b1a7": {
 "name": "Frost Titan",
@@ -22859,8 +23315,9 @@
 },
 "4ce156f8-6b0b-41ce-9e8f-b2735c757406": {
 "name": "Flare of Malice",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "cards": 1
 },
@@ -22902,9 +23359,9 @@
 },
 "4d18bcba-a346-445e-a182-6cc30b7e066d": {
 "name": "Ashnod's Altar",
-"n": 18,
+"n": 21,
 "kinds": {
-"deck": 10,
+"deck": 13,
 "edh": 7,
 "cards": 1
 },
@@ -23010,8 +23467,9 @@
 },
 "4d6120d6-fcce-40bc-9fc6-e1f5beb6c728": {
 "name": "Embercleave",
-"n": 1,
+"n": 3,
 "kinds": {
+"deck": 2,
 "edh": 1
 },
 "index": "references/E.md#embercleave"
@@ -23131,6 +23589,14 @@
 },
 "index": "references/F.md#feudkillers-verdict"
 },
+"4db04e23-e1da-4c41-9dba-5502dfff73fb": {
+"name": "Bite of the Black Rose",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/B.md#bite-of-the-black-rose"
+},
 "4dbf8c43-d7c5-4037-875e-6accd87aaf6f": {
 "name": "Identity Echo",
 "n": 1,
@@ -23141,9 +23607,10 @@
 },
 "4dc5726e-2f7e-4c2b-9616-c3301d212f78": {
 "name": "Thousand-Year Elixir",
-"n": 5,
+"n": 8,
 "kinds": {
-"deck": 4,
+"deck": 6,
+"edh": 1,
 "cards": 1
 },
 "index": "references/T.md#thousand-year-elixir"
@@ -23422,9 +23889,9 @@
 },
 "4eedf21c-0ad1-48da-a9fe-2ffdbf8371e9": {
 "name": "Pain for All",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "lore": 1
 },
 "index": "references/P.md#pain-for-all"
@@ -23436,6 +23903,14 @@
 "cards": 1
 },
 "index": "references/P.md#promise-of-aclazotz--foul-rebirth"
+},
+"4efcdefc-e49d-4bce-8581-69037bb48c0a": {
+"name": "Sol'Kanar the Tainted",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/S.md#solkanar-the-tainted"
 },
 "4f0c3154-1917-4bb5-9ba2-446943a88808": {
 "name": "Myra the Magnificent",
@@ -23532,8 +24007,9 @@
 },
 "4f597675-0f6d-438c-990c-337171927a5e": {
 "name": "Leyline Axe",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "edh": 2
 },
 "index": "references/L.md#leyline-axe"
@@ -24149,6 +24625,14 @@
 },
 "index": "references/F.md#fevered-suspicion"
 },
+"515c522f-51d5-4f6d-b9b1-ea3c7f6a378e": {
+"name": "Rousing Refrain",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/R.md#rousing-refrain"
+},
 "516101be-be39-4d84-8fee-d8a79930dd0a": {
 "name": "Sphinx of the Second Sun",
 "n": 1,
@@ -24476,8 +24960,9 @@
 },
 "524b00ea-0372-40f9-a6a1-76a8497a1ea6": {
 "name": "Nicol Bolas, the Deceiver",
-"n": 3,
+"n": 4,
 "kinds": {
+"deck": 1,
 "lore": 3
 },
 "index": "references/N.md#nicol-bolas-the-deceiver"
@@ -24583,6 +25068,14 @@
 "rules": 1
 },
 "index": "references/A.md#atmospheric-greenhouse"
+},
+"52d1d575-3e7f-4df1-8c89-aee0cac03aca": {
+"name": "Rakdos's Return",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/R.md#rakdoss-return"
 },
 "52d8e70b-7e94-4e17-811f-70afe39ff9bd": {
 "name": "Memnarch",
@@ -24693,9 +25186,9 @@
 },
 "53236dd7-845a-444c-96d5-f41ed7325d8f": {
 "name": "Rhystic Study",
-"n": 41,
+"n": 58,
 "kinds": {
-"deck": 33,
+"deck": 50,
 "edh": 6,
 "cards": 2
 },
@@ -24790,9 +25283,9 @@
 },
 "53467cf4-5db2-4b9c-af2b-03b044c558cd": {
 "name": "This Is How It Ends",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/T.md#this-is-how-it-ends"
 },
@@ -24806,9 +25299,9 @@
 },
 "535e2af0-7b08-4026-b1bf-87626407dd42": {
 "name": "Archfiend of Ifnir",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/A.md#archfiend-of-ifnir"
 },
@@ -24998,9 +25491,9 @@
 },
 "53f7c868-b03e-4fc2-8dcf-a75bbfa3272b": {
 "name": "Dark Ritual",
-"n": 35,
+"n": 48,
 "kinds": {
-"deck": 27,
+"deck": 40,
 "edh": 5,
 "cards": 3
 },
@@ -25128,6 +25621,14 @@
 "rules": 1
 },
 "index": "references/H.md#he-who-hungers"
+},
+"544c9ad2-86f9-483e-a53c-f64c8602c393": {
+"name": "Damocles Base, Sword of Kang",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/D.md#damocles-base-sword-of-kang"
 },
 "544dbabd-cbfc-40da-a5ba-2fea9cddb453": {
 "name": "Sandsteppe Citadel",
@@ -25411,11 +25912,19 @@
 },
 "556dd333-4066-41f7-98f6-41794754de71": {
 "name": "Vile Entomber",
+"n": 2,
+"kinds": {
+"deck": 2
+},
+"index": "references/V.md#vile-entomber"
+},
+"55765934-07be-4f03-a2e8-8292c0b601ae": {
+"name": "Fatestitcher",
 "n": 1,
 "kinds": {
 "deck": 1
 },
-"index": "references/V.md#vile-entomber"
+"index": "references/F.md#fatestitcher"
 },
 "558fd7a9-9b39-4c82-b909-5febf55dc010": {
 "name": "Enkira, Hostile Scavenger",
@@ -25555,8 +26064,9 @@
 },
 "55e4b27e-5447-4fc2-8cae-a03e344600c6": {
 "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
-"n": 2,
+"n": 4,
 "kinds": {
+"deck": 2,
 "lore": 2
 },
 "index": "references/N.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen"
@@ -25672,9 +26182,9 @@
 },
 "5632c2df-71e6-41b7-b8f5-c683812cc0e2": {
 "name": "Pack Rat",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 1
 },
 "index": "references/P.md#pack-rat"
@@ -25707,9 +26217,9 @@
 },
 "56719f6a-1a6c-4c0a-8d21-18f7d7350b68": {
 "name": "Swamp",
-"n": 36,
+"n": 54,
 "kinds": {
-"deck": 35,
+"deck": 53,
 "cards": 1
 },
 "index": "references/S.md#swamp"
@@ -25908,10 +26418,10 @@
 },
 "57296ea3-3c0d-49b7-bc08-0d0d8414e9ad": {
 "name": "Nightscape Familiar",
-"n": 7,
+"n": 10,
 "kinds": {
-"deck": 4,
-"edh": 1,
+"deck": 6,
+"edh": 2,
 "rules": 1,
 "cards": 1
 },
@@ -25935,8 +26445,9 @@
 },
 "574044cf-2e2f-4b5c-b4d1-cf05ba814ab2": {
 "name": "Warrior's Oath",
-"n": 1,
+"n": 3,
 "kinds": {
+"deck": 2,
 "cards": 1
 },
 "index": "references/W.md#warriors-oath"
@@ -26172,8 +26683,9 @@
 },
 "581eedc4-efe4-4ae4-baf2-88071e7e6f6d": {
 "name": "Nicol Bolas, Dragon-God",
-"n": 4,
+"n": 5,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "lore": 2,
 "cards": 1
@@ -26198,9 +26710,9 @@
 },
 "5825997b-10d7-4a36-972c-a80ddd90b8ed": {
 "name": "Feed the Swarm",
-"n": 20,
+"n": 29,
 "kinds": {
-"deck": 15,
+"deck": 24,
 "edh": 4,
 "cards": 1
 },
@@ -26259,8 +26771,9 @@
 },
 "584cee10-f18c-4633-95cc-f2e7a11841ac": {
 "name": "Rograkh, Son of Rohgahh",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "cards": 1
 },
@@ -26378,9 +26891,9 @@
 },
 "58aec411-167d-4709-8560-793eaaed62c5": {
 "name": "Gifts Ungiven",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 1,
 "cards": 2
 },
@@ -26435,6 +26948,14 @@
 "cards": 1
 },
 "index": "references/P.md#primal-might"
+},
+"58d944fb-d1ba-4141-baaf-37dd10978656": {
+"name": "Truth or Consequences",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/T.md#truth-or-consequences"
 },
 "58ea9b0a-1bef-4ccb-acb7-f03c8daf3df3": {
 "name": "Ominous Seas",
@@ -26684,6 +27205,14 @@
 },
 "index": "references/B.md#barbarian-class"
 },
+"5a10c3a5-6724-4e5a-ae4f-b27dde12735a": {
+"name": "Brass Squire",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/B.md#brass-squire"
+},
 "5a12e989-d6bc-441e-88dd-779e68a9fee3": {
 "name": "Souls of the Faultless",
 "n": 1,
@@ -26887,8 +27416,9 @@
 },
 "5aa76c5d-8046-42ce-b61d-cc9b4806c11a": {
 "name": "Saheeli, the Sun's Brilliance",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "lore": 2
 },
 "index": "references/S.md#saheeli-the-suns-brilliance"
@@ -26952,8 +27482,9 @@
 },
 "5af729e8-8a40-4991-8270-612e377451de": {
 "name": "Wick, the Whorled Mind",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "cards": 2
 },
 "index": "references/W.md#wick-the-whorled-mind"
@@ -27009,8 +27540,9 @@
 },
 "5b2ffb53-86b7-4665-a5c7-b85b035b6c81": {
 "name": "Urabrask the Hidden",
-"n": 3,
+"n": 4,
 "kinds": {
+"deck": 1,
 "edh": 2,
 "lore": 1
 },
@@ -27101,9 +27633,9 @@
 },
 "5b5bf1fa-6502-4790-b66b-f0f8504ebc7c": {
 "name": "Cabal Ritual",
-"n": 14,
+"n": 17,
 "kinds": {
-"deck": 10,
+"deck": 13,
 "edh": 3,
 "lore": 1
 },
@@ -27135,9 +27667,9 @@
 },
 "5b6bdf5a-2742-4851-92cd-a857a3852836": {
 "name": "Treasure Cruise",
-"n": 8,
+"n": 9,
 "kinds": {
-"deck": 4,
+"deck": 5,
 "edh": 1,
 "rules": 1,
 "cards": 2
@@ -27178,8 +27710,9 @@
 },
 "5b7bbc76-22cc-482e-8d65-34cff34c93c8": {
 "name": "Unstable Experiment",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "rules": 1
 },
 "index": "references/U.md#unstable-experiment"
@@ -27295,6 +27828,14 @@
 "cards": 1
 },
 "index": "references/S.md#squid-fire-knight"
+},
+"5bd81d2f-46a1-4536-92e7-28c7e1892735": {
+"name": "Akki Battle Squad",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/A.md#akki-battle-squad"
 },
 "5beb8d6e-d3c1-46a5-8516-d6bf66413cff": {
 "name": "Malicious Eclipse",
@@ -27468,6 +28009,14 @@
 },
 "index": "references/C.md#colonel-autumn"
 },
+"5c77bf76-bb0f-4e44-babe-0e7b7b555e1f": {
+"name": "Quicksilver Dagger",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/Q.md#quicksilver-dagger"
+},
 "5c780dda-ee76-482a-a610-53c321c4fdec": {
 "name": "Sorin, Lord of Innistrad",
 "n": 4,
@@ -27604,6 +28153,14 @@
 "cards": 1
 },
 "index": "references/Z.md#zukos-exile"
+},
+"5cfd73ab-8509-4e4b-9704-68d8dad3b301": {
+"name": "Discontinuity",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/D.md#discontinuity"
 },
 "5d045695-e4b3-4daa-bfab-d77640fedfd6": {
 "name": "Knotvine Mystic",
@@ -27831,8 +28388,9 @@
 },
 "5e060d58-4d6e-425c-b7d4-727669fcce5b": {
 "name": "Buster Sword",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/B.md#buster-sword"
@@ -27913,10 +28471,10 @@
 },
 "5e62b51d-faec-4aa0-9504-cf2c282d08ea": {
 "name": "Rakdos Charm",
-"n": 3,
+"n": 9,
 "kinds": {
-"deck": 1,
-"edh": 2
+"deck": 6,
+"edh": 3
 },
 "index": "references/R.md#rakdos-charm"
 },
@@ -27965,9 +28523,9 @@
 },
 "5e958212-6a5b-4288-8d31-f1572619d7dc": {
 "name": "Liliana, Dreadhorde General",
-"n": 8,
+"n": 10,
 "kinds": {
-"deck": 2,
+"deck": 4,
 "edh": 2,
 "lore": 3,
 "cards": 1
@@ -27981,6 +28539,14 @@
 "cards": 1
 },
 "index": "references/R.md#ryusei-the-falling-star"
+},
+"5ea46ccf-5e36-4889-bf64-00d4f327e9b2": {
+"name": "Attunement",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/A.md#attunement"
 },
 "5ea4d1d7-219b-4842-99ea-291842baca0d": {
 "name": "Zodiac Rat",
@@ -28119,10 +28685,10 @@
 },
 "5f15125e-ae89-471e-b055-226a783bc7c1": {
 "name": "Aetherflux Reservoir",
-"n": 8,
+"n": 10,
 "kinds": {
-"deck": 5,
-"edh": 3
+"deck": 6,
+"edh": 4
 },
 "index": "references/A.md#aetherflux-reservoir"
 },
@@ -28186,9 +28752,9 @@
 },
 "5f42b67f-87fd-4f98-a0e8-0c8313f4bbc8": {
 "name": "Shipwreck Marsh",
-"n": 16,
+"n": 20,
 "kinds": {
-"deck": 12,
+"deck": 16,
 "edh": 3,
 "cards": 1
 },
@@ -28204,8 +28770,9 @@
 },
 "5f4d0c87-7d59-41d5-9910-86765a0c144b": {
 "name": "Song of Totentanz",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "cards": 1
 },
@@ -28288,6 +28855,14 @@
 },
 "index": "references/G.md#gruesome-slaughter"
 },
+"5f725d51-e133-488c-9ca9-1c7b0523b5bd": {
+"name": "Split Decision",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/S.md#split-decision"
+},
 "5f7f0a38-fb7e-4ee8-a712-9aa911f17dae": {
 "name": "Champion of Dusk",
 "n": 2,
@@ -28344,6 +28919,14 @@
 "cards": 1
 },
 "index": "references/A.md#ancient-stone-idol"
+},
+"5f9dd005-1648-451e-b888-69ef81331c95": {
+"name": "Leadership Vacuum",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/L.md#leadership-vacuum"
 },
 "5fa1b2f0-3ba4-49db-9cb5-b6130e4c255e": {
 "name": "Legion Lieutenant",
@@ -28428,6 +29011,14 @@
 },
 "index": "references/P.md#plaza-of-harmony"
 },
+"5ff4ef34-acb9-46c3-8530-f4b093807066": {
+"name": "Erdwal Illuminator",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/E.md#erdwal-illuminator"
+},
 "5fff2bf4-9e26-4815-9bf6-672ed7e55b96": {
 "name": "Ordeal of Nylea",
 "n": 1,
@@ -28459,6 +29050,14 @@
 "cards": 1
 },
 "index": "references/A.md#adept-watershaper"
+},
+"602f3203-91ae-423c-8a19-c6c1a5034f27": {
+"name": "Path of the Enigma",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/P.md#path-of-the-enigma"
 },
 "603ef53f-6191-4229-b85f-adad6f4503ce": {
 "name": "Prowler's Helm",
@@ -28587,8 +29186,9 @@
 },
 "60bfcaef-9014-4707-b681-cc3920bf223e": {
 "name": "Foray of Orcs",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/F.md#foray-of-orcs"
@@ -28671,9 +29271,9 @@
 },
 "6106ba65-f07b-41ec-8b59-e052bbde5529": {
 "name": "Court of Locthwain",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 2
+"deck": 3
 },
 "index": "references/C.md#court-of-locthwain"
 },
@@ -28859,8 +29459,9 @@
 },
 "61bfab3f-d8f0-4ff5-9ddf-3fd605070c8f": {
 "name": "Vorpal Sword",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "edh": 1
 },
 "index": "references/V.md#vorpal-sword"
@@ -28980,9 +29581,9 @@
 },
 "6257c2fd-005f-41e3-8a72-af76df1eb134": {
 "name": "Terminate",
-"n": 10,
+"n": 14,
 "kinds": {
-"deck": 6,
+"deck": 10,
 "edh": 3,
 "cards": 1
 },
@@ -29091,9 +29692,9 @@
 },
 "62d7ed6e-c386-477e-b155-982c3790f842": {
 "name": "Soul's Fire",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/S.md#souls-fire"
 },
@@ -29184,9 +29785,9 @@
 },
 "63398c02-6fb1-481d-9d9f-81063532fbc0": {
 "name": "Dragonskull Summit",
-"n": 10,
+"n": 11,
 "kinds": {
-"deck": 7,
+"deck": 8,
 "edh": 2,
 "cards": 1
 },
@@ -29308,9 +29909,9 @@
 },
 "6385fd0d-256d-4400-9319-afa8170024db": {
 "name": "Culling the Weak",
-"n": 10,
+"n": 12,
 "kinds": {
-"deck": 6,
+"deck": 8,
 "edh": 3,
 "cards": 1
 },
@@ -29410,8 +30011,9 @@
 },
 "63d50d5e-56de-44c4-b906-b2a21a56e3f3": {
 "name": "Alania, Divergent Storm",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "cards": 1
 },
@@ -29419,9 +30021,9 @@
 },
 "63dfe794-5f56-41ec-9883-5523b41cc3e0": {
 "name": "Arena of Glory",
-"n": 10,
+"n": 13,
 "kinds": {
-"deck": 7,
+"deck": 10,
 "edh": 1,
 "rules": 1,
 "cards": 1
@@ -29681,9 +30283,9 @@
 },
 "64bf8929-f5f2-4d50-8667-13b1d007bcfc": {
 "name": "Seething Song",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "cards": 2
 },
 "index": "references/S.md#seething-song"
@@ -29861,9 +30463,9 @@
 },
 "652e71a9-e46f-41b3-8695-76b3606b1955": {
 "name": "Court of Ambition",
-"n": 1,
+"n": 3,
 "kinds": {
-"deck": 1
+"deck": 3
 },
 "index": "references/C.md#court-of-ambition"
 },
@@ -29954,9 +30556,9 @@
 },
 "6556c4c0-b10d-4208-821b-0c0a49abd188": {
 "name": "Wandering Archaic // Explore the Vastlands",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/W.md#wandering-archaic--explore-the-vastlands"
 },
@@ -29967,6 +30569,14 @@
 "cards": 1
 },
 "index": "references/W.md#wartime-protestors"
+},
+"655aece2-f33a-46e0-8f80-112ae8a457fe": {
+"name": "Convergence of Dominion",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/C.md#convergence-of-dominion"
 },
 "655ee0db-1913-464f-bd06-072c6bf446bd": {
 "name": "Dirgur Focusmage // Braingeyser",
@@ -30018,9 +30628,9 @@
 },
 "6587a463-a108-4854-b6d1-944e89b8c8a4": {
 "name": "Wooded Foothills",
-"n": 23,
+"n": 31,
 "kinds": {
-"deck": 18,
+"deck": 26,
 "edh": 3,
 "cards": 2
 },
@@ -30045,10 +30655,10 @@
 },
 "65986c1b-8e51-4604-b685-d82fa7d1263a": {
 "name": "Skullclamp",
-"n": 20,
+"n": 23,
 "kinds": {
-"deck": 15,
-"edh": 3,
+"deck": 17,
+"edh": 4,
 "cards": 2
 },
 "index": "references/S.md#skullclamp"
@@ -30202,6 +30812,14 @@
 "cards": 2
 },
 "index": "references/T.md#tibalts-trickery"
+},
+"6629a48b-be9a-4636-8add-69d096a1ca7e": {
+"name": "Double Vision",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/D.md#double-vision"
 },
 "6643fc8e-548e-48db-9f67-ffbca9e57016": {
 "name": "Lich Lord of Unx",
@@ -30395,6 +31013,22 @@
 },
 "index": "references/S.md#scarblades-malice"
 },
+"66d65cda-e3d1-4a00-8ff3-c6d5ef0ab0c1": {
+"name": "Forbidden Alchemy",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/F.md#forbidden-alchemy"
+},
+"66e42be3-5125-41b4-9efe-8a6a66899bb6": {
+"name": "Ringsight",
+"n": 2,
+"kinds": {
+"deck": 2
+},
+"index": "references/R.md#ringsight"
+},
 "66e8f7f8-3a6d-46ba-837c-b9713ddf7f40": {
 "name": "Silver Myr",
 "n": 1,
@@ -30451,6 +31085,14 @@
 "cards": 1
 },
 "index": "references/B.md#bring-to-light"
+},
+"6728b9d0-d3ab-4ba3-af13-63cb83e0ed99": {
+"name": "Purphoros, Bronze-Blooded",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/P.md#purphoros-bronze-blooded"
 },
 "672e190d-8ea0-4a2e-b74f-5d35304631e4": {
 "name": "Sea of Clouds",
@@ -30579,6 +31221,14 @@
 },
 "index": "references/D.md#dramatic-accusation"
 },
+"6783f559-33d7-4b13-9a91-02b821e97163": {
+"name": "Anchor to Reality",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/A.md#anchor-to-reality"
+},
 "6789a170-f2c5-4fc0-8a45-2b2361e67410": {
 "name": "Chord of Calling",
 "n": 5,
@@ -30605,6 +31255,14 @@
 "rules": 1
 },
 "index": "references/E.md#envoy-of-the-ancestors"
+},
+"6791ec3c-c397-4087-8c8c-84d3797df415": {
+"name": "Innocent Blood",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/I.md#innocent-blood"
 },
 "67a3541c-8408-40c8-b44f-90035b860f57": {
 "name": "Man-o'-War",
@@ -30673,9 +31331,9 @@
 },
 "67d60b24-d429-4ded-90d9-06e49f28c396": {
 "name": "Verdant Catacombs",
-"n": 25,
+"n": 34,
 "kinds": {
-"deck": 20,
+"deck": 29,
 "edh": 3,
 "cards": 2
 },
@@ -30735,8 +31393,9 @@
 },
 "67f43ac6-2a58-4b53-b5d7-0330e2a252e2": {
 "name": "Reflecting Pool",
-"n": 3,
+"n": 9,
 "kinds": {
+"deck": 6,
 "edh": 2,
 "cards": 1
 },
@@ -30842,9 +31501,9 @@
 },
 "6835bf6d-7197-481b-ac26-276ce363b4ad": {
 "name": "Rooftop Storm",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/R.md#rooftop-storm"
 },
@@ -30910,8 +31569,9 @@
 },
 "686cce6e-18ec-45b0-8d2e-74fa353a905e": {
 "name": "Tolarian Winds",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/T.md#tolarian-winds"
@@ -31320,10 +31980,10 @@
 },
 "699b192c-f3f2-4ac5-9ca9-e35bcf08ad8a": {
 "name": "Necromancy",
-"n": 4,
+"n": 8,
 "kinds": {
-"deck": 2,
-"edh": 2
+"deck": 5,
+"edh": 3
 },
 "index": "references/N.md#necromancy"
 },
@@ -31387,8 +32047,9 @@
 },
 "69c674c7-48a5-49c8-b0be-3f2b5c6a548c": {
 "name": "Sauron, Lord of the Rings",
-"n": 3,
+"n": 5,
 "kinds": {
+"deck": 2,
 "edh": 1,
 "rules": 1,
 "cards": 1
@@ -31447,9 +32108,9 @@
 },
 "69e5df2f-be1f-4608-a90f-3e2f51e2fea4": {
 "name": "Thassa, God of the Sea",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 1
 },
 "index": "references/T.md#thassa-god-of-the-sea"
@@ -31596,9 +32257,9 @@
 },
 "6a6c5e17-6465-4a1f-9d63-8a3ce2edc522": {
 "name": "Sulfur Falls",
-"n": 19,
+"n": 23,
 "kinds": {
-"deck": 14,
+"deck": 18,
 "edh": 3,
 "lore": 1,
 "cards": 1
@@ -31725,9 +32386,9 @@
 },
 "6ad8011d-3471-4369-9d68-b264cc027487": {
 "name": "Sol Ring",
-"n": 88,
+"n": 108,
 "kinds": {
-"deck": 78,
+"deck": 98,
 "edh": 7,
 "cards": 3
 },
@@ -31840,6 +32501,14 @@
 "cards": 1
 },
 "index": "references/C.md#chief-magistrate-of-mercadia"
+},
+"6b4d34bc-fa64-4c42-90e0-190671a5b988": {
+"name": "Ideas Unbound",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/I.md#ideas-unbound"
 },
 "6b4f1569-2025-46a8-89ba-79859208b04e": {
 "name": "Flourishing Grapple",
@@ -32215,9 +32884,9 @@
 },
 "6cb8b8c4-0674-4f14-9d89-010969fbb80e": {
 "name": "Grave Researcher // Reanimate",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/G.md#grave-researcher--reanimate"
 },
@@ -32289,8 +32958,9 @@
 },
 "6d194882-ca37-49bb-ac9f-a751c53850a8": {
 "name": "Bribery",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/B.md#bribery"
@@ -32374,9 +33044,9 @@
 },
 "6d56aeb1-0a50-46b6-abdb-cd6575a98dc3": {
 "name": "Praetor's Grasp",
-"n": 6,
+"n": 8,
 "kinds": {
-"deck": 5,
+"deck": 7,
 "edh": 1
 },
 "index": "references/P.md#praetors-grasp"
@@ -32865,10 +33535,10 @@
 },
 "6f4ac4a4-53ec-4bc9-8f5c-d4b801d867b2": {
 "name": "Grave Pact",
-"n": 7,
+"n": 9,
 "kinds": {
-"deck": 4,
-"edh": 1,
+"deck": 5,
+"edh": 2,
 "rules": 1,
 "cards": 1
 },
@@ -33152,8 +33822,9 @@
 },
 "70486bee-6ee7-41ea-b834-8caf4699302b": {
 "name": "Daze",
-"n": 5,
+"n": 6,
 "kinds": {
+"deck": 1,
 "edh": 2,
 "lore": 1,
 "cards": 2
@@ -33379,9 +34050,9 @@
 },
 "70de24d9-c585-4bf6-ac2c-c5b4b7aa298c": {
 "name": "Diregraf Captain",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/D.md#diregraf-captain"
 },
@@ -33427,6 +34098,14 @@
 "cards": 1
 },
 "index": "references/C.md#cemetery-reaper"
+},
+"70fbb378-d905-47cf-8c54-cc166a7867b3": {
+"name": "Kain, Traitorous Dragoon",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/K.md#kain-traitorous-dragoon"
 },
 "71099427-e110-488f-ab29-7867241fc7f0": {
 "name": "Urza's Workshop",
@@ -33480,9 +34159,10 @@
 },
 "712e3479-722c-40a1-9b61-d5bdde93042b": {
 "name": "Demonic Counsel",
-"n": 4,
+"n": 7,
 "kinds": {
-"deck": 3,
+"deck": 5,
+"edh": 1,
 "cards": 1
 },
 "index": "references/D.md#demonic-counsel"
@@ -33603,10 +34283,10 @@
 },
 "7190debf-708b-4f41-9714-0d0a5bd5a74e": {
 "name": "Crumbling Necropolis",
-"n": 13,
+"n": 12,
 "kinds": {
 "deck": 8,
-"edh": 4,
+"edh": 3,
 "cards": 1
 },
 "index": "references/C.md#crumbling-necropolis"
@@ -33763,9 +34443,9 @@
 },
 "71ff4603-9f7a-459e-b5b3-9b39583f1dc7": {
 "name": "Genesis of the Daleks",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "cards": 1
 },
 "index": "references/G.md#genesis-of-the-daleks"
@@ -33968,8 +34648,9 @@
 },
 "727f3201-1cfc-4ab2-9dfe-be4f7251f42f": {
 "name": "Boggart Trawler // Boggart Bog",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "cards": 1
 },
@@ -34187,9 +34868,9 @@
 },
 "7336a541-3ae9-4ab2-acb8-f574c0a5b3a9": {
 "name": "Vito, Thorn of the Dusk Rose",
-"n": 6,
+"n": 7,
 "kinds": {
-"deck": 3,
+"deck": 4,
 "edh": 2,
 "cards": 1
 },
@@ -34221,9 +34902,9 @@
 },
 "7358e164-5704-4e78-9b21-6a9bf2a968ce": {
 "name": "Cabal Coffers",
-"n": 3,
+"n": 5,
 "kinds": {
-"deck": 1,
+"deck": 3,
 "edh": 1,
 "cards": 1
 },
@@ -34231,8 +34912,9 @@
 },
 "7359e82b-db79-488d-a1d4-75a00f12a4cf": {
 "name": "Kaldra Compleat",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/K.md#kaldra-compleat"
@@ -34248,9 +34930,9 @@
 },
 "736892cb-a34b-4bb9-b56c-e26e3db207a2": {
 "name": "Mana Vault",
-"n": 29,
+"n": 41,
 "kinds": {
-"deck": 23,
+"deck": 35,
 "edh": 4,
 "cards": 2
 },
@@ -34581,9 +35263,9 @@
 },
 "74d3277a-38e5-4732-afed-084a56148f20": {
 "name": "Mana Drain",
-"n": 33,
+"n": 50,
 "kinds": {
-"deck": 27,
+"deck": 44,
 "edh": 4,
 "cards": 2
 },
@@ -34660,9 +35342,9 @@
 },
 "751f22bc-bcea-4213-a37b-b5f72448a4c4": {
 "name": "The Reality Chip",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "rules": 1,
 "lore": 1,
 "cards": 1
@@ -34871,6 +35553,22 @@
 },
 "index": "references/S.md#shabraz-the-skyshark"
 },
+"759af941-f6a3-4726-91f2-9b1e4e55ea71": {
+"name": "Hypnotic Specter",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/H.md#hypnotic-specter"
+},
+"75a7cad2-782c-4a5b-9193-5ba789bf5326": {
+"name": "Incriminating Impetus",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/I.md#incriminating-impetus"
+},
 "75b235d3-595a-4859-be45-9559d8445db5": {
 "name": "Selesnya Guildgate",
 "n": 1,
@@ -35041,10 +35739,19 @@
 },
 "index": "references/K.md#kona-rescue-beastie"
 },
+"763d60ea-a0ad-4f13-b8a7-aa1515283266": {
+"name": "Shifting Grift",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/S.md#shifting-grift"
+},
 "764121bf-535d-40d0-ab9d-65486da31734": {
 "name": "Jaxis, the Troublemaker",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "rules": 1,
 "cards": 1
 },
@@ -35094,9 +35801,9 @@
 },
 "76678885-3674-443d-b9a2-2a460cf6aac0": {
 "name": "Panharmonicon",
-"n": 5,
+"n": 6,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 1,
 "lore": 1,
 "cards": 1
@@ -35146,10 +35853,10 @@
 },
 "76b003e0-15af-4f22-bdf2-1ade5430964a": {
 "name": "Zulaport Cutthroat",
-"n": 9,
+"n": 12,
 "kinds": {
-"deck": 6,
-"edh": 2,
+"deck": 8,
+"edh": 3,
 "cards": 1
 },
 "index": "references/Z.md#zulaport-cutthroat"
@@ -35448,6 +36155,14 @@
 },
 "index": "references/T.md#transpose"
 },
+"77eb76cf-a361-44e0-aeee-e8ef4b695799": {
+"name": "Persistent Marshstalker",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/P.md#persistent-marshstalker"
+},
 "77eda626-5cef-496d-b291-cfa1ee6fc1fb": {
 "name": "Cycle of Renewal",
 "n": 1,
@@ -35489,6 +36204,14 @@
 "edh": 1
 },
 "index": "references/S.md#summoners-pact"
+},
+"78301998-fd9b-4cd5-afad-dbcb43cac2a7": {
+"name": "Shatterskull Smashing // Shatterskull, the Hammer Pass",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/S.md#shatterskull-smashing--shatterskull-the-hammer-pass"
 },
 "7832b90a-23b9-448c-9019-8ee2e8dfab31": {
 "name": "Elvish Herder",
@@ -35709,9 +36432,9 @@
 },
 "78b2b68d-6e27-49f3-8373-6e19faf6f679": {
 "name": "Inspiring Statuary",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 1
 },
 "index": "references/I.md#inspiring-statuary"
@@ -35752,9 +36475,9 @@
 },
 "78ed3e01-6d22-429a-a9db-baff38d7bc03": {
 "name": "Sycorax Commander",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/S.md#sycorax-commander"
 },
@@ -35773,6 +36496,14 @@
 "cards": 1
 },
 "index": "references/S.md#stormbind"
+},
+"78f99c66-cb50-49e3-ab2d-e7755818ffd7": {
+"name": "The Trickster-God's Heist",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/T.md#the-trickster-gods-heist"
 },
 "78f9c223-9982-4282-a496-a6f892f0a5bf": {
 "name": "Mind Twist",
@@ -36065,9 +36796,9 @@
 },
 "79d46e09-2548-440f-9c02-3c3dc39a0cd1": {
 "name": "Sundial of the Infinite",
-"n": 1,
+"n": 3,
 "kinds": {
-"deck": 1
+"deck": 3
 },
 "index": "references/S.md#sundial-of-the-infinite"
 },
@@ -36140,9 +36871,9 @@
 },
 "7a2484a9-04fd-41a0-8224-610c1c07ed10": {
 "name": "Blasphemous Act",
-"n": 28,
+"n": 39,
 "kinds": {
-"deck": 22,
+"deck": 33,
 "edh": 4,
 "cards": 2
 },
@@ -36167,10 +36898,10 @@
 },
 "7a43bd27-fdd8-41f0-9bc4-92568f3408f1": {
 "name": "Mox Amber",
-"n": 7,
+"n": 10,
 "kinds": {
-"deck": 4,
-"edh": 1,
+"deck": 6,
+"edh": 2,
 "cards": 2
 },
 "index": "references/M.md#mox-amber"
@@ -36304,6 +37035,14 @@
 "cards": 1
 },
 "index": "references/U.md#urzas-dark-cannonball"
+},
+"7ad97dd9-1342-4ed4-bea9-1bb21d748e04": {
+"name": "Witch of the Moors",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/W.md#witch-of-the-moors"
 },
 "7af69a44-e958-42e5-9d65-75e53a601e96": {
 "name": "Kellan, Daring Traveler // Journey On",
@@ -36556,9 +37295,9 @@
 },
 "7ba550a5-81fc-42c2-8df8-ad455d938605": {
 "name": "Bonehoard Dracosaur",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 1,
 "cards": 1
 },
@@ -36868,9 +37607,9 @@
 },
 "7c777a41-e40a-4b40-96bf-8ddd5c12924c": {
 "name": "Dictate of Erebos",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 1
 },
 "index": "references/D.md#dictate-of-erebos"
@@ -37089,9 +37828,9 @@
 },
 "7d075b8a-a606-4590-b52b-b4ef3a9e342f": {
 "name": "Perplexing Chimera",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/P.md#perplexing-chimera"
 },
@@ -37118,6 +37857,14 @@
 "rules": 1
 },
 "index": "references/K.md#knight-of-the-white-orchid"
+},
+"7d178f1c-faf7-4efd-87a6-201a40c55ec8": {
+"name": "Hunted by The Family",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/H.md#hunted-by-the-family"
 },
 "7d1dbe80-9ad0-41ad-8ba6-e1094f596eaf": {
 "name": "Oriq Loremage",
@@ -37154,9 +37901,9 @@
 },
 "7d58b478-a64b-46e9-b62a-08c6c1ca7c13": {
 "name": "Oathkeeper, Takeno's Daisho",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/O.md#oathkeeper-takenos-daisho"
 },
@@ -37202,9 +37949,9 @@
 },
 "7d79fb4e-2ca0-404a-9663-1f5abce6e733": {
 "name": "Ancient Brass Dragon",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/A.md#ancient-brass-dragon"
 },
@@ -37220,9 +37967,9 @@
 },
 "7d881c57-0bd9-4c57-aa4a-b10808b86143": {
 "name": "Dimir Signet",
-"n": 19,
+"n": 29,
 "kinds": {
-"deck": 15,
+"deck": 25,
 "edh": 3,
 "cards": 1
 },
@@ -37287,6 +38034,14 @@
 "cards": 1
 },
 "index": "references/W.md#wu-elite-cavalry"
+},
+"7dc7d90d-5979-4c4a-9183-392e0e0b878a": {
+"name": "Hell to Pay",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/H.md#hell-to-pay"
 },
 "7dce1e8c-5cfd-4626-9f23-7bb3f1b10c1e": {
 "name": "Eldritch Immunity",
@@ -37617,9 +38372,9 @@
 },
 "7e8c2a18-e404-40ff-a9e0-ec3eeb6d576e": {
 "name": "Command Beacon",
-"n": 3,
+"n": 6,
 "kinds": {
-"deck": 1,
+"deck": 4,
 "rules": 1,
 "cards": 1
 },
@@ -37711,9 +38466,9 @@
 },
 "7f06c098-6482-4bf3-a9a1-110d6d5b5703": {
 "name": "Gilded Drake",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 2
 },
 "index": "references/G.md#gilded-drake"
@@ -37818,6 +38573,14 @@
 "rules": 1
 },
 "index": "references/S.md#sawtusk-demolisher"
+},
+"7f9a8845-d760-44a7-a4c9-8a20dba4e14a": {
+"name": "Mjölnir, Hammer of Thor",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/M.md#mjölnir-hammer-of-thor"
 },
 "7fa1430f-cd2e-4071-a161-e32a61e33714": {
 "name": "Sibling Rivalry",
@@ -38041,10 +38804,10 @@
 },
 "80788290-1569-4c7f-b263-b4da7b31a9d1": {
 "name": "Grenzo, Havoc Raiser",
-"n": 6,
+"n": 9,
 "kinds": {
-"deck": 3,
-"edh": 1,
+"deck": 5,
+"edh": 2,
 "rules": 1,
 "cards": 1
 },
@@ -38178,9 +38941,9 @@
 },
 "814b87fe-2a75-4ff2-8637-7e69e3fb285b": {
 "name": "Marauding Blight-Priest",
-"n": 5,
+"n": 6,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 2,
 "cards": 1
 },
@@ -38229,9 +38992,9 @@
 },
 "8164b1e8-3350-465e-8a17-75f57d326344": {
 "name": "Exsanguinate",
-"n": 5,
+"n": 6,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 3,
 "cards": 1
 },
@@ -38279,18 +39042,18 @@
 },
 "819e1765-8325-4e6f-89c1-63ea86de369f": {
 "name": "Luxury Suite",
-"n": 41,
+"n": 59,
 "kinds": {
-"deck": 37,
+"deck": 55,
 "edh": 4
 },
 "index": "references/L.md#luxury-suite"
 },
 "819fc966-434e-470f-91e9-a38df974ad17": {
 "name": "Drowned Catacomb",
-"n": 17,
+"n": 18,
 "kinds": {
-"deck": 13,
+"deck": 14,
 "edh": 3,
 "cards": 1
 },
@@ -38355,9 +39118,9 @@
 },
 "81c70ae7-3c18-4c9b-8505-e4db9e0e6518": {
 "name": "Wishclaw Talisman",
-"n": 18,
+"n": 20,
 "kinds": {
-"deck": 13,
+"deck": 15,
 "edh": 4,
 "rules": 1
 },
@@ -38381,8 +39144,9 @@
 },
 "81dad7c5-5950-4c45-adb0-cf1a15a74250": {
 "name": "Firkraag, Cunning Instigator",
-"n": 1,
+"n": 3,
 "kinds": {
+"deck": 2,
 "edh": 1
 },
 "index": "references/F.md#firkraag-cunning-instigator"
@@ -38397,10 +39161,10 @@
 },
 "81f06f84-1580-43c0-89d5-08d34541a519": {
 "name": "Goblin Electromancer",
-"n": 9,
+"n": 13,
 "kinds": {
-"deck": 4,
-"edh": 4,
+"deck": 7,
+"edh": 5,
 "cards": 1
 },
 "index": "references/G.md#goblin-electromancer"
@@ -38417,9 +39181,9 @@
 },
 "82004860-e589-4e38-8d61-8c0210e4ea39": {
 "name": "Demonic Tutor",
-"n": 50,
+"n": 69,
 "kinds": {
-"deck": 43,
+"deck": 62,
 "edh": 5,
 "cards": 2
 },
@@ -38427,9 +39191,10 @@
 },
 "8203c621-a1a0-4865-8c9a-0d4064c86107": {
 "name": "Buried Alive",
-"n": 7,
+"n": 10,
 "kinds": {
-"deck": 6,
+"deck": 8,
+"edh": 1,
 "cards": 1
 },
 "index": "references/B.md#buried-alive"
@@ -38460,8 +39225,9 @@
 },
 "8242cd78-6675-43b5-8924-0a88c3aa6f76": {
 "name": "Genji Glove",
-"n": 3,
+"n": 4,
 "kinds": {
+"deck": 1,
 "edh": 2,
 "cards": 1
 },
@@ -38536,9 +39302,9 @@
 },
 "8291543f-d086-48aa-b2b7-5481ca8c9198": {
 "name": "Xander's Lounge",
-"n": 35,
+"n": 53,
 "kinds": {
-"deck": 31,
+"deck": 49,
 "edh": 3,
 "lore": 1
 },
@@ -38611,18 +39377,19 @@
 },
 "8305d576-21d8-4ce7-8eda-a7cd9793aca5": {
 "name": "Archmage Emeritus",
-"n": 9,
+"n": 13,
 "kinds": {
-"deck": 5,
-"edh": 3,
+"deck": 8,
+"edh": 4,
 "cards": 1
 },
 "index": "references/A.md#archmage-emeritus"
 },
 "83101ba8-a569-4827-8c53-9ca0dfcd59a7": {
 "name": "Thought Scour",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "cards": 1
 },
@@ -38766,9 +39533,9 @@
 },
 "83874e60-291b-47a7-ba9f-69437fa7e3c7": {
 "name": "Flux Channeler",
-"n": 6,
+"n": 7,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 3,
 "cards": 1
 },
@@ -38894,9 +39661,9 @@
 },
 "83cf1169-5853-4332-b897-7b17d72d76ab": {
 "name": "Twinflame",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/T.md#twinflame"
 },
@@ -38926,8 +39693,9 @@
 },
 "83dcfac0-6efd-4e37-9402-15f9889e84e1": {
 "name": "The Great Goblin",
-"n": 1,
+"n": 3,
 "kinds": {
+"deck": 2,
 "edh": 1
 },
 "index": "references/T.md#the-great-goblin"
@@ -39065,10 +39833,10 @@
 },
 "8485cfaa-1dbf-432b-b5d0-92a6aa6a329b": {
 "name": "Tergrid, God of Fright // Tergrid's Lantern",
-"n": 6,
+"n": 10,
 "kinds": {
-"deck": 3,
-"edh": 1,
+"deck": 6,
+"edh": 2,
 "rules": 1,
 "lore": 1
 },
@@ -39227,6 +39995,14 @@
 "lore": 2
 },
 "index": "references/S.md#sorin-of-house-markov--sorin-ravenous-neonate"
+},
+"84eaac2e-74ce-4a16-9faa-409df7c58eb3": {
+"name": "Winter, Tormented Loner",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/W.md#winter-tormented-loner"
 },
 "84fe1c59-3f7b-4c1c-9bc4-78a185cfcc0c": {
 "name": "Sandstorm Eidolon",
@@ -39601,11 +40377,19 @@
 },
 "867aa0b7-b814-4d33-a677-f6368c8e93c0": {
 "name": "Aphetto Alchemist",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 2
+"deck": 3
 },
 "index": "references/A.md#aphetto-alchemist"
+},
+"867dbd5a-c3cf-41ce-980b-c9babc6f30f2": {
+"name": "Minas Morgul, Dark Fortress",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/M.md#minas-morgul-dark-fortress"
 },
 "867ee3e7-88df-4e4b-b199-f441a8460573": {
 "name": "Labyrinth Guardian",
@@ -39670,9 +40454,9 @@
 },
 "86bf58f2-7f25-4e10-b797-25e0e8e67769": {
 "name": "Flusterstorm",
-"n": 17,
+"n": 19,
 "kinds": {
-"deck": 10,
+"deck": 12,
 "edh": 4,
 "rules": 2,
 "cards": 1
@@ -39829,6 +40613,14 @@
 },
 "index": "references/B.md#brush-off"
 },
+"873abbf4-c9b5-4b8f-8cd0-613cf3b9b1d5": {
+"name": "Peek",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/P.md#peek"
+},
 "87449f64-9500-4967-a073-cde19824e087": {
 "name": "Bastion Enforcer",
 "n": 1,
@@ -39941,8 +40733,9 @@
 },
 "87a82441-9dfb-49bd-8b9e-eaab2c552843": {
 "name": "Court of Embereth",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/C.md#court-of-embereth"
@@ -40035,8 +40828,9 @@
 },
 "88159872-d37d-4847-b048-e4a9af6437bd": {
 "name": "Barad-dûr",
-"n": 2,
+"n": 5,
 "kinds": {
+"deck": 3,
 "rules": 1,
 "cards": 1
 },
@@ -40220,9 +41014,9 @@
 },
 "88d0a394-79e2-42ac-9a37-1a7b78231941": {
 "name": "Thunderclap Drake",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 1,
 "cards": 1
 },
@@ -40434,9 +41228,9 @@
 },
 "8985e545-07c3-45f9-9058-fe3c1f50de04": {
 "name": "Blade of the Bloodchief",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 3
+"deck": 4
 },
 "index": "references/B.md#blade-of-the-bloodchief"
 },
@@ -40467,8 +41261,9 @@
 },
 "89a6e876-0b00-4671-9652-766fd7ef9bf2": {
 "name": "The Theorist, Jace Beleren",
-"n": 3,
+"n": 4,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "cards": 2
 },
@@ -40518,9 +41313,9 @@
 },
 "89ca686a-7c72-4d8f-9290-e89635624a83": {
 "name": "Cavern of Souls",
-"n": 22,
+"n": 26,
 "kinds": {
-"deck": 17,
+"deck": 21,
 "edh": 3,
 "cards": 2
 },
@@ -40528,8 +41323,9 @@
 },
 "89d1cd45-8148-4396-a9b8-e0f495e94b5b": {
 "name": "Savage Beating",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "rules": 1,
 "cards": 1
 },
@@ -40612,9 +41408,9 @@
 },
 "8a2e53f9-8100-488f-8504-b59e9bd1cc29": {
 "name": "Rite of Flame",
-"n": 13,
+"n": 15,
 "kinds": {
-"deck": 9,
+"deck": 11,
 "edh": 2,
 "cards": 2
 },
@@ -40648,9 +41444,9 @@
 },
 "8a52f3c0-2552-4425-b2e3-5496eb2232a7": {
 "name": "Mystic Remora",
-"n": 34,
+"n": 49,
 "kinds": {
-"deck": 26,
+"deck": 41,
 "edh": 5,
 "rules": 1,
 "cards": 2
@@ -40980,6 +41776,14 @@
 },
 "index": "references/U.md#undying-malice"
 },
+"8b0a0991-2327-45ea-b47f-c31db367fa1d": {
+"name": "Claim the Precious",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/C.md#claim-the-precious"
+},
 "8b0e2382-dd91-42e6-aba3-5e8a15418a49": {
 "name": "Serra the Benevolent",
 "n": 2,
@@ -41015,9 +41819,9 @@
 },
 "8b1aa532-4f19-407e-83a5-13b3160ad8c2": {
 "name": "Chittering Witch",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/C.md#chittering-witch"
 },
@@ -41133,6 +41937,22 @@
 },
 "index": "references/W.md#winnowing"
 },
+"8b886623-5c96-48dd-a3d2-fd5865c58ff5": {
+"name": "Plea for Power",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/P.md#plea-for-power"
+},
+"8b9119b0-9948-497f-aa92-2879d07bed1c": {
+"name": "Viridian Longbow",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/V.md#viridian-longbow"
+},
 "8b972819-507a-40a9-ab1f-1a674ea56083": {
 "name": "Abzan Falconer",
 "n": 2,
@@ -41174,6 +41994,14 @@
 "deck": 1
 },
 "index": "references/C.md#cacophodon"
+},
+"8be783b2-7394-411a-8ab5-a8fffe8d714c": {
+"name": "Role Reversal",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/R.md#role-reversal"
 },
 "8bf8e846-9d10-4dbc-a379-df37bb9fb6d4": {
 "name": "Temur Sabertooth",
@@ -41220,6 +42048,14 @@
 "cards": 2
 },
 "index": "references/N.md#natural-order"
+},
+"8c2dd8dc-8623-4518-b3fd-dcb9f647fa98": {
+"name": "Sly Instigator",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/S.md#sly-instigator"
 },
 "8c308ebf-df5e-4f47-9b97-5c31944fe91c": {
 "name": "Dreams of Steel and Oil",
@@ -41294,6 +42130,14 @@
 },
 "index": "references/C.md#craterhoof-behemoth"
 },
+"8c55039d-1303-420c-8547-ebdffb63bf89": {
+"name": "Liliana's Talent",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/L.md#lilianas-talent"
+},
 "8c5fe985-69e1-4a03-99fc-a6fd2314a9a7": {
 "name": "Professor Dellian Fel",
 "n": 1,
@@ -41312,8 +42156,9 @@
 },
 "8c7641b6-3a6c-4441-a98c-3b5d61d91f76": {
 "name": "Rage into the Valley",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/R.md#rage-into-the-valley"
@@ -41345,9 +42190,9 @@
 },
 "8cb36a67-9206-4665-a03f-64f52ba559c4": {
 "name": "Into the Flood Maw",
-"n": 9,
+"n": 11,
 "kinds": {
-"deck": 5,
+"deck": 7,
 "edh": 1,
 "rules": 1,
 "cards": 2
@@ -41407,9 +42252,9 @@
 },
 "8d02b297-97c4-4379-9862-0a462400f66f": {
 "name": "Phyrexian Altar",
-"n": 13,
+"n": 15,
 "kinds": {
-"deck": 7,
+"deck": 9,
 "edh": 5,
 "cards": 1
 },
@@ -41436,9 +42281,9 @@
 },
 "8d0adc5c-3fdd-4e22-b783-5651f8e57b65": {
 "name": "Final Fortune",
-"n": 8,
+"n": 11,
 "kinds": {
-"deck": 6,
+"deck": 9,
 "edh": 1,
 "cards": 1
 },
@@ -41481,9 +42326,9 @@
 },
 "8d36d80e-9934-4b56-bf3c-2b18a6da3d2d": {
 "name": "Voracious Vermin",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/V.md#voracious-vermin"
 },
@@ -41505,17 +42350,18 @@
 },
 "8d571129-9030-47e0-9624-a49fb63e5a1b": {
 "name": "Ilharg, the Raze-Boar",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 1
 },
 "index": "references/I.md#ilharg-the-raze-boar"
 },
 "8d57dadb-c689-4691-b331-aba15daf46ff": {
 "name": "Delina, Wild Mage",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/D.md#delina-wild-mage"
@@ -41530,8 +42376,9 @@
 },
 "8d72ddb3-ef6e-4847-b6d4-5d85b1dd5802": {
 "name": "Starscape Cleric",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "rules": 1,
 "cards": 1
 },
@@ -41544,6 +42391,14 @@
 "rules": 1
 },
 "index": "references/F.md#fangs-of-kalonia"
+},
+"8da0599a-8f63-4dba-857f-b4e10b7191b6": {
+"name": "Valley Rotcaller",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/V.md#valley-rotcaller"
 },
 "8dad1fa8-3533-4e3c-b9b3-fcd57b20a33d": {
 "name": "Omnipresence",
@@ -41585,9 +42440,9 @@
 },
 "8dcb35e5-ae44-455f-86e3-4a77d496ff34": {
 "name": "Spark Double",
-"n": 14,
+"n": 16,
 "kinds": {
-"deck": 10,
+"deck": 12,
 "edh": 2,
 "rules": 1,
 "cards": 1
@@ -41622,9 +42477,9 @@
 },
 "8ddfc283-c9b4-41a5-af88-cf0068e986cc": {
 "name": "Swan Song",
-"n": 37,
+"n": 49,
 "kinds": {
-"deck": 32,
+"deck": 44,
 "edh": 3,
 "cards": 2
 },
@@ -41632,9 +42487,9 @@
 },
 "8de3eabe-9a8f-4865-beef-a4888c081d39": {
 "name": "Training Grounds",
-"n": 2,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 3,
 "cards": 1
 },
 "index": "references/T.md#training-grounds"
@@ -41763,9 +42618,9 @@
 },
 "8e4d0da0-c7d8-4a20-9bfd-02c1331a7a49": {
 "name": "Primal Amulet // Primal Wellspring",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 1,
 "cards": 1
 },
@@ -41883,10 +42738,10 @@
 },
 "8eb7c0a5-6190-40de-b473-2d1daa3bbe28": {
 "name": "Dualcaster Mage",
-"n": 4,
+"n": 7,
 "kinds": {
-"deck": 2,
-"edh": 1,
+"deck": 4,
+"edh": 2,
 "cards": 1
 },
 "index": "references/D.md#dualcaster-mage"
@@ -41926,10 +42781,10 @@
 },
 "8ecdaf4b-4442-42da-9714-4257a83faf50": {
 "name": "Sakashima of a Thousand Faces",
-"n": 5,
+"n": 7,
 "kinds": {
-"deck": 3,
-"edh": 1,
+"deck": 4,
+"edh": 2,
 "rules": 1
 },
 "index": "references/S.md#sakashima-of-a-thousand-faces"
@@ -42081,9 +42936,9 @@
 },
 "8f933fae-6c0c-42d7-a817-14760d8285cd": {
 "name": "Exquisite Blood",
-"n": 8,
+"n": 9,
 "kinds": {
-"deck": 4,
+"deck": 5,
 "edh": 3,
 "cards": 1
 },
@@ -42292,9 +43147,9 @@
 },
 "905610cd-1461-4f5a-b9c8-19b193b9d513": {
 "name": "Missy",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 3,
+"deck": 4,
 "cards": 1
 },
 "index": "references/M.md#missy"
@@ -42587,6 +43442,14 @@
 },
 "index": "references/G.md#grave-endeavor"
 },
+"9188031e-1c24-4981-a3d2-461a2bf917b6": {
+"name": "Archfiend of the Dross",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/A.md#archfiend-of-the-dross"
+},
 "918991a6-7321-419d-8f3d-150fe32d02d2": {
 "name": "Eris, Roar of the Storm",
 "n": 2,
@@ -42739,6 +43602,14 @@
 },
 "index": "references/O.md#one-with-the-wind"
 },
+"920445ab-0ac2-4de7-bc1c-f5e58eb4424c": {
+"name": "Sangromancer",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/S.md#sangromancer"
+},
 "9207facd-fbf9-4faa-ac44-6c0bcac81551": {
 "name": "Goliath Daydreamer",
 "n": 1,
@@ -42766,9 +43637,9 @@
 },
 "9218b56d-aaec-482f-99e9-d95d227bfe25": {
 "name": "Sheoldred, Whispering One",
-"n": 6,
+"n": 9,
 "kinds": {
-"deck": 1,
+"deck": 4,
 "edh": 2,
 "rules": 1,
 "lore": 1,
@@ -42812,9 +43683,9 @@
 },
 "9242cd3e-1a71-4700-8182-9c1005616033": {
 "name": "Impact Tremors",
-"n": 5,
+"n": 6,
 "kinds": {
-"deck": 3,
+"deck": 4,
 "edh": 1,
 "cards": 1
 },
@@ -42827,6 +43698,14 @@
 "deck": 1
 },
 "index": "references/P.md#perilous-research"
+},
+"9259e918-ace5-4f13-9035-d8bc8c820d25": {
+"name": "March from the Black Gate",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/M.md#march-from-the-black-gate"
 },
 "925feb7e-7876-430b-b95a-92b236a2e409": {
 "name": "Change of Fortune",
@@ -42951,9 +43830,9 @@
 },
 "92cfba68-12f6-4f97-9187-0f6a39656a0f": {
 "name": "The Soul Stone",
-"n": 5,
+"n": 6,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 2,
 "cards": 1
 },
@@ -43218,8 +44097,9 @@
 },
 "939e8448-013a-4aef-9a92-7c883a77a1a0": {
 "name": "Cavern-Hoard Dragon",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/C.md#cavern-hoard-dragon"
@@ -43263,6 +44143,14 @@
 "cards": 1
 },
 "index": "references/K.md#kemba-kha-enduring"
+},
+"93cf50cf-0ecc-4d3e-abea-778c1ebacec4": {
+"name": "Massacre Wurm",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/M.md#massacre-wurm"
 },
 "93d0e129-e3b5-4aff-9e50-f34771ed00ff": {
 "name": "Fathom Mage",
@@ -43314,8 +44202,9 @@
 },
 "940ba435-7abc-40f8-a5af-c1c653b3284e": {
 "name": "Bontu's Monument",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "edh": 2
 },
 "index": "references/B.md#bontus-monument"
@@ -43371,9 +44260,9 @@
 },
 "94357494-4ccc-43d4-b2d4-351581cbf9b6": {
 "name": "Auton Soldier",
-"n": 6,
+"n": 7,
 "kinds": {
-"deck": 4,
+"deck": 5,
 "edh": 1,
 "cards": 1
 },
@@ -43486,9 +44375,9 @@
 },
 "94a844d2-0574-45a7-b347-e0e329767c42": {
 "name": "Necropotence",
-"n": 15,
+"n": 16,
 "kinds": {
-"deck": 11,
+"deck": 12,
 "edh": 2,
 "cards": 2
 },
@@ -43633,9 +44522,9 @@
 },
 "95560508-7ac9-4be9-8a3f-3c7d5b52807b": {
 "name": "Fellwar Stone",
-"n": 45,
+"n": 57,
 "kinds": {
-"deck": 38,
+"deck": 50,
 "edh": 4,
 "rules": 1,
 "cards": 2
@@ -43652,9 +44541,9 @@
 },
 "956381ba-6d37-4a8a-846c-bad79222dbee": {
 "name": "Force of Will",
-"n": 27,
+"n": 42,
 "kinds": {
-"deck": 19,
+"deck": 34,
 "edh": 6,
 "cards": 2
 },
@@ -43759,9 +44648,9 @@
 },
 "95a53dd7-76dc-46f1-8833-fafd02ba49c4": {
 "name": "Tainted Strike",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/T.md#tainted-strike"
 },
@@ -43900,8 +44789,9 @@
 },
 "96381388-1e82-411c-8290-1f3e909d3b5f": {
 "name": "Reins of Power",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/R.md#reins-of-power"
@@ -43981,9 +44871,9 @@
 },
 "967cf377-ae26-464d-85ac-8448b5a911f7": {
 "name": "Underworld Dreams",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 3,
+"deck": 4,
 "cards": 1
 },
 "index": "references/U.md#underworld-dreams"
@@ -44039,18 +44929,18 @@
 },
 "96b87445-6362-4a17-91b2-cbf203fd03fd": {
 "name": "Etherium Sculptor",
-"n": 9,
+"n": 10,
 "kinds": {
-"deck": 7,
+"deck": 8,
 "edh": 2
 },
 "index": "references/E.md#etherium-sculptor"
 },
 "96c2d71e-0fc9-42aa-bc6b-6d0ae3f66f8b": {
 "name": "Hexing Squelcher",
-"n": 11,
+"n": 14,
 "kinds": {
-"deck": 7,
+"deck": 10,
 "edh": 2,
 "rules": 1,
 "cards": 1
@@ -44133,9 +45023,9 @@
 },
 "9728dec9-d482-4c7a-8cdc-44d010dc878d": {
 "name": "Ancestral Vision",
-"n": 2,
+"n": 4,
 "kinds": {
-"deck": 2
+"deck": 4
 },
 "index": "references/A.md#ancestral-vision"
 },
@@ -44149,9 +45039,9 @@
 },
 "973c49a1-8425-40b9-8bdc-2c2434222314": {
 "name": "Sting, the Glinting Dagger",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/S.md#sting-the-glinting-dagger"
 },
@@ -44194,8 +45084,9 @@
 },
 "97560adc-814e-450c-9ca7-f9364e910a0b": {
 "name": "Grindstone",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "cards": 2
 },
 "index": "references/G.md#grindstone"
@@ -44289,8 +45180,9 @@
 },
 "978e07fd-8b8c-4eab-850e-e4c0e712251e": {
 "name": "Bothersome Noisemaker",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/B.md#bothersome-noisemaker"
@@ -44471,9 +45363,9 @@
 },
 "981b0e21-e5e6-4a1e-bfde-679d56623f7f": {
 "name": "Ad Nauseam",
-"n": 13,
+"n": 15,
 "kinds": {
-"deck": 8,
+"deck": 10,
 "edh": 3,
 "cards": 2
 },
@@ -44597,8 +45489,9 @@
 },
 "98641070-93bd-4088-90cb-956c2b21979e": {
 "name": "Suspended Sentence",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "rules": 1,
 "cards": 1
 },
@@ -44747,8 +45640,9 @@
 },
 "98e698ae-1a69-469c-9cfb-0e3fedeb71d4": {
 "name": "Enduring Tenacity",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/E.md#enduring-tenacity"
@@ -44778,6 +45672,14 @@
 },
 "index": "references/I.md#iroh-dragon-of-the-west"
 },
+"990583ef-5bf4-4e14-a8f1-61d32c6a75df": {
+"name": "Flick a Coin",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/F.md#flick-a-coin"
+},
 "990b5e12-6e04-4832-9d64-87278f12cbda": {
 "name": "Betor, Ancestor's Voice",
 "n": 1,
@@ -44785,6 +45687,14 @@
 "edh": 1
 },
 "index": "references/B.md#betor-ancestors-voice"
+},
+"99140891-face-4015-aacd-1309e87d8f9f": {
+"name": "Display of Power",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/D.md#display-of-power"
 },
 "991ae2f7-3f8e-4364-8698-5277786d7dcd": {
 "name": "Boros Keyrune",
@@ -44904,9 +45814,9 @@
 },
 "995c8dac-fd27-468a-abd4-02372cf0c850": {
 "name": "Mount Doom",
-"n": 1,
+"n": 4,
 "kinds": {
-"deck": 1
+"deck": 4
 },
 "index": "references/M.md#mount-doom"
 },
@@ -44938,8 +45848,9 @@
 },
 "9966cac0-331f-4627-be5a-5060a6ac5a32": {
 "name": "Mauhúr, Uruk-hai Captain",
-"n": 1,
+"n": 3,
 "kinds": {
+"deck": 2,
 "edh": 1
 },
 "index": "references/M.md#mauhúr-uruk-hai-captain"
@@ -45115,9 +46026,9 @@
 },
 "9a1412db-45ad-46ea-8f12-a85d203113d8": {
 "name": "Demonic Consultation",
-"n": 12,
+"n": 14,
 "kinds": {
-"deck": 7,
+"deck": 9,
 "edh": 3,
 "cards": 2
 },
@@ -45240,8 +46151,9 @@
 },
 "9aace0d3-89e6-4254-b96f-ee3a878f2f91": {
 "name": "Conqueror's Flail",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "cards": 1
 },
@@ -45390,8 +46302,9 @@
 },
 "9b084cd4-cc21-4f3a-9ac5-1e1160a31aa6": {
 "name": "Disrupt Decorum",
-"n": 1,
+"n": 3,
 "kinds": {
+"deck": 2,
 "rules": 1
 },
 "index": "references/D.md#disrupt-decorum"
@@ -45441,8 +46354,9 @@
 },
 "9b1ae6d8-0cf3-4a67-9241-37f4bc5ddbdd": {
 "name": "Venser, Fervent Forger",
-"n": 3,
+"n": 4,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "lore": 2
 },
@@ -45476,8 +46390,9 @@
 },
 "9b2cdbed-c733-409b-b0e4-2c8960c25111": {
 "name": "Maskwood Nexus",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/M.md#maskwood-nexus"
@@ -45626,6 +46541,14 @@
 },
 "index": "references/P.md#pearl-ear-imperial-advisor"
 },
+"9bdd6fea-d436-412b-a7b7-bbdba73dc986": {
+"name": "Five Hundred Year Diary",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/F.md#five-hundred-year-diary"
+},
 "9be5ca70-6fc2-4a7a-853e-cf5c810846aa": {
 "name": "Interplanar Brushwagg",
 "n": 1,
@@ -45641,6 +46564,14 @@
 "cards": 1
 },
 "index": "references/M.md#mardu-strike-leader"
+},
+"9be9d534-470d-463a-ba2f-9817a6723692": {
+"name": "Avaricious Dragon",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/A.md#avaricious-dragon"
 },
 "9bf498ce-6d6d-462f-9ec3-b36a2184aff7": {
 "name": "C.A.M.P.",
@@ -45689,6 +46620,14 @@
 "deck": 1
 },
 "index": "references/C.md#clackbridge-troll"
+},
+"9c2fd3a3-96f2-4e84-85a9-77698c2f83aa": {
+"name": "Volcanic Salvo",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/V.md#volcanic-salvo"
 },
 "9c329f3d-4d0a-4012-8aa6-92afdd120a52": {
 "name": "Blade of Selves",
@@ -45824,8 +46763,9 @@
 },
 "9c84c681-40c1-4ff3-86e6-48b4ab7491e5": {
 "name": "Black Waltz No. 3",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "edh": 1
 },
 "index": "references/B.md#black-waltz-no-3"
@@ -45868,8 +46808,9 @@
 },
 "9cc69ea5-42a2-4306-ac6d-cff5adb20bcb": {
 "name": "Ashcoat of the Shadow Swarm",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "cards": 1
 },
@@ -45882,6 +46823,14 @@
 "edh": 1
 },
 "index": "references/G.md#goblin-rally"
+},
+"9cdb1cf6-2bf1-401b-83ae-6f3f7512e5a6": {
+"name": "Path of the Schemer",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/P.md#path-of-the-schemer"
 },
 "9cdc9f99-c6fa-40cd-90b0-e47d43a8cc3c": {
 "name": "Search for Tomorrow",
@@ -46002,6 +46951,14 @@
 },
 "index": "references/R.md#rancor"
 },
+"9d2f02f7-adcd-4d23-a051-ebca70f22ba5": {
+"name": "Fateful Tempest",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/F.md#fateful-tempest"
+},
 "9d302e2a-d852-4878-ac9d-d51d9924144b": {
 "name": "Red XIII, Proud Warrior",
 "n": 1,
@@ -46038,9 +46995,9 @@
 },
 "9d5917d5-4fb3-4f37-9278-e08c1f73aae5": {
 "name": "Forensic Gadgeteer",
-"n": 6,
+"n": 7,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 1,
 "rules": 1,
 "cards": 2
@@ -46131,9 +47088,9 @@
 },
 "9dbc3530-b278-4c8d-b2cc-a09dfac9d5e5": {
 "name": "Reassembling Skeleton",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 3,
+"deck": 4,
 "cards": 1
 },
 "index": "references/R.md#reassembling-skeleton"
@@ -46212,8 +47169,9 @@
 },
 "9df2e909-ed13-456a-9636-7398732009a9": {
 "name": "Professor Onyx",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "edh": 1
 },
 "index": "references/P.md#professor-onyx"
@@ -46265,6 +47223,14 @@
 "deck": 1
 },
 "index": "references/D.md#divest"
+},
+"9e0e4217-fefe-48dd-9153-032460192b19": {
+"name": "Thraximundar",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/T.md#thraximundar"
 },
 "9e0ed4b0-28b5-44be-ab83-f1e8eb07138d": {
 "name": "Contract from Below",
@@ -46345,9 +47311,9 @@
 },
 "9e500094-c430-4c10-89cc-97f4f18b08bc": {
 "name": "Magewright's Stone",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/M.md#magewrights-stone"
 },
@@ -46378,26 +47344,28 @@
 },
 "9e6a3df4-67a3-452e-a6ef-f04dbadb21ef": {
 "name": "Living Death",
-"n": 3,
+"n": 7,
 "kinds": {
-"deck": 2,
+"deck": 5,
+"edh": 1,
 "cards": 1
 },
 "index": "references/L.md#living-death"
 },
 "9e73f938-0aa4-4639-a97a-f7e68f645623": {
 "name": "Deliver Unto Evil",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "lore": 1
 },
 "index": "references/D.md#deliver-unto-evil"
 },
 "9e769a65-7aa5-484d-9493-badb485b5964": {
 "name": "Plargg and Nassari",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 2
+"deck": 3
 },
 "index": "references/P.md#plargg-and-nassari"
 },
@@ -46534,8 +47502,9 @@
 },
 "9ed6f28f-a3db-48c5-9ab0-b90a7fba5f57": {
 "name": "Royal Assassin",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/R.md#royal-assassin"
@@ -46702,8 +47671,9 @@
 },
 "9f8f29ba-7e64-455d-be05-ec7973f2bd0a": {
 "name": "Sauron, the Dark Lord",
-"n": 2,
+"n": 5,
 "kinds": {
+"deck": 3,
 "edh": 1,
 "cards": 1
 },
@@ -46733,6 +47703,14 @@
 },
 "index": "references/G.md#golgari-decoy"
 },
+"9fb6bd72-031b-40a1-83c5-8a1c82f84e12": {
+"name": "Excalibur, Sword of Eden",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/E.md#excalibur-sword-of-eden"
+},
 "9fb7982f-fe35-4dea-a515-a0039ddbbaec": {
 "name": "Ixhel, Scion of Atraxa",
 "n": 1,
@@ -46751,9 +47729,9 @@
 },
 "9fb8cd81-403a-4988-8f1c-b8eccf8abd9c": {
 "name": "Karn's Bastion",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "rules": 2
 },
 "index": "references/K.md#karns-bastion"
@@ -46786,9 +47764,9 @@
 },
 "9fc7aba7-eda2-4134-9c10-31ee35201b72": {
 "name": "Ichormoon Gauntlet",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 1,
 "cards": 1
 },
@@ -46796,8 +47774,9 @@
 },
 "9fcb920c-b8d7-4a79-a335-f63050182cca": {
 "name": "Call of the Ring",
-"n": 1,
+"n": 3,
 "kinds": {
+"deck": 2,
 "cards": 1
 },
 "index": "references/C.md#call-of-the-ring"
@@ -46812,8 +47791,9 @@
 },
 "9fdad42a-9db5-4d91-9e80-9d5ce19038b8": {
 "name": "Blacksmith's Talent",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/B.md#blacksmiths-talent"
@@ -46918,9 +47898,9 @@
 },
 "a044474a-cd72-4e9d-bd8d-a08f2de9cdc0": {
 "name": "Reanimate",
-"n": 27,
+"n": 33,
 "kinds": {
-"deck": 20,
+"deck": 26,
 "edh": 4,
 "rules": 1,
 "cards": 2
@@ -47094,6 +48074,14 @@
 },
 "index": "references/B.md#beskir-shieldmate"
 },
+"a10b3e35-8cc4-450e-9e30-0fce8df0fea4": {
+"name": "Necrodominance",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/N.md#necrodominance"
+},
 "a11d890e-38d4-467c-bc04-948979c142e0": {
 "name": "Marit Lage's Slumber",
 "n": 1,
@@ -47137,9 +48125,9 @@
 },
 "a145ff8c-5812-4bcb-bd16-9839dc25121d": {
 "name": "Storm-Kiln Artist",
-"n": 13,
+"n": 16,
 "kinds": {
-"deck": 8,
+"deck": 11,
 "edh": 4,
 "cards": 1
 },
@@ -47169,6 +48157,14 @@
 "edh": 1
 },
 "index": "references/T.md#the-gaffer"
+},
+"a178a789-1f5f-46ca-a90b-574bd236a671": {
+"name": "Winged Boots",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/W.md#winged-boots"
 },
 "a17e414c-8de0-47fd-bcbc-540c7fec7642": {
 "name": "Codie, Ravenous Codex",
@@ -47237,10 +48233,10 @@
 },
 "a1cc5e37-b09a-4b7f-afd5-77c1c35aa425": {
 "name": "Carrion Feeder",
-"n": 7,
+"n": 10,
 "kinds": {
-"deck": 4,
-"edh": 2,
+"deck": 6,
+"edh": 3,
 "cards": 1
 },
 "index": "references/C.md#carrion-feeder"
@@ -47263,9 +48259,9 @@
 },
 "a1e232c0-dc38-47be-a5a0-f68bc1d86a29": {
 "name": "Yawgmoth, Thran Physician",
-"n": 6,
+"n": 7,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 2,
 "rules": 1,
 "lore": 2
@@ -47284,8 +48280,9 @@
 },
 "a1f55890-31c5-4ed4-a2cd-7a4a9f05f8ca": {
 "name": "Reverberate",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "cards": 1
 },
@@ -47306,6 +48303,14 @@
 "cards": 1
 },
 "index": "references/R.md#riftmarked-knight"
+},
+"a200daec-983c-4ea6-ae98-1c963b50fbb1": {
+"name": "Identity Thief",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/I.md#identity-thief"
 },
 "a202276b-1f1b-4277-95ee-26877a204f5e": {
 "name": "Sunbillow Verge",
@@ -47435,9 +48440,9 @@
 },
 "a275f7ac-7dae-4422-875a-f34f24b6f28a": {
 "name": "Samut, Tyrant of Naktamun",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "lore": 2
 },
 "index": "references/S.md#samut-tyrant-of-naktamun"
@@ -47486,8 +48491,9 @@
 },
 "a2aa2c8f-7058-4020-9881-663b104ea051": {
 "name": "Grimgrin, Corpse-Born",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "edh": 1
 },
 "index": "references/G.md#grimgrin-corpse-born"
@@ -47692,9 +48698,9 @@
 },
 "a34b7416-cfe3-4a1e-a8c1-a3056b747519": {
 "name": "Kiki-Jiki, Mirror Breaker",
-"n": 5,
+"n": 6,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 2,
 "cards": 1
 },
@@ -47798,6 +48804,14 @@
 },
 "index": "references/F.md#funeral-room--awakening-hall"
 },
+"a3a26df4-a9d5-48f5-942f-76862bdcd146": {
+"name": "Talent of the Telepath",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/T.md#talent-of-the-telepath"
+},
 "a3a98bc9-caa0-49b7-951c-fe4e4f54e4ba": {
 "name": "Ornithopter",
 "n": 4,
@@ -47818,9 +48832,9 @@
 },
 "a3afd8b9-d499-40f7-be41-f8fee6636a1d": {
 "name": "Twilight Prophet",
-"n": 5,
+"n": 6,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "rules": 2,
 "cards": 1
 },
@@ -47835,6 +48849,14 @@
 },
 "index": "references/R.md#rite-of-belzenlok"
 },
+"a3b39590-34b7-4fd0-877f-748e6df30e88": {
+"name": "Hateful Eidolon",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/H.md#hateful-eidolon"
+},
 "a3b3b9ae-1e48-481d-80a5-7e2a26cf2f50": {
 "name": "Screams from Within",
 "n": 1,
@@ -47845,10 +48867,10 @@
 },
 "a3b8690e-ac47-444f-924e-ab2a12a85431": {
 "name": "Ramirez DePietro, Pillager",
-"n": 6,
+"n": 5,
 "kinds": {
 "deck": 4,
-"edh": 2
+"edh": 1
 },
 "index": "references/R.md#ramirez-depietro-pillager"
 },
@@ -47870,9 +48892,9 @@
 },
 "a3c8d817-7949-4dae-b9f5-f9d952479270": {
 "name": "Crypt Ghast",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "rules": 1,
 "cards": 1
 },
@@ -47888,9 +48910,9 @@
 },
 "a3da7d5b-2c2b-45fe-b9c5-413b8c8fc0a2": {
 "name": "Academy Ruins",
-"n": 8,
+"n": 9,
 "kinds": {
-"deck": 6,
+"deck": 7,
 "edh": 2
 },
 "index": "references/A.md#academy-ruins"
@@ -47930,8 +48952,9 @@
 },
 "a3f10772-d055-419d-a535-4f094eaf437c": {
 "name": "Borrowing 100,000 Arrows",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/B.md#borrowing-100000-arrows"
@@ -47955,9 +48978,9 @@
 },
 "a3fb7228-e76b-4e96-a40e-20b5fed75685": {
 "name": "Mountain",
-"n": 33,
+"n": 50,
 "kinds": {
-"deck": 32,
+"deck": 49,
 "cards": 1
 },
 "index": "references/M.md#mountain"
@@ -48106,9 +49129,9 @@
 },
 "a4aec0d6-13fa-4709-b1a9-2f483f032744": {
 "name": "Liliana's Caress",
-"n": 6,
+"n": 7,
 "kinds": {
-"deck": 5,
+"deck": 6,
 "edh": 1
 },
 "index": "references/L.md#lilianas-caress"
@@ -48134,8 +49157,9 @@
 },
 "a4d67f2d-6b0f-4feb-bf7d-90ab4f2e46ab": {
 "name": "Heiko Yamazaki, the General",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/H.md#heiko-yamazaki-the-general"
@@ -48266,9 +49290,9 @@
 },
 "a54f0869-94c8-42af-9080-166efb9486a4": {
 "name": "Gamble",
-"n": 21,
+"n": 27,
 "kinds": {
-"deck": 15,
+"deck": 21,
 "edh": 5,
 "cards": 1
 },
@@ -48291,6 +49315,14 @@
 "cards": 1
 },
 "index": "references/E.md#explorers-scope"
+},
+"a5656dab-5ce6-48fd-9eae-2c06969bb8df": {
+"name": "Rat King, Verminister",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/R.md#rat-king-verminister"
 },
 "a5690d5f-633c-4a1e-afba-5fd79dcbf20e": {
 "name": "Unspeakable Symbol",
@@ -48343,6 +49375,14 @@
 },
 "index": "references/W.md#wall-of-glare"
 },
+"a598e824-ad8e-4947-896b-70c5275b615a": {
+"name": "Moria Scavenger",
+"n": 2,
+"kinds": {
+"deck": 2
+},
+"index": "references/M.md#moria-scavenger"
+},
 "a59ff932-f758-476e-ba31-0623bd748231": {
 "name": "Anara, Wolvid Familiar",
 "n": 1,
@@ -48385,8 +49425,9 @@
 },
 "a5ca7bd9-0964-405f-adb9-7c27153595e6": {
 "name": "Increasing Vengeance",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "cards": 1
 },
@@ -48394,9 +49435,9 @@
 },
 "a5cbd257-c836-493e-bb1a-76242619dea2": {
 "name": "Big Score",
-"n": 9,
+"n": 11,
 "kinds": {
-"deck": 4,
+"deck": 6,
 "edh": 4,
 "cards": 1
 },
@@ -48452,6 +49493,14 @@
 "deck": 1
 },
 "index": "references/S.md#sinew-dancer"
+},
+"a6079dff-9479-4665-aba5-2cddefb9a2bc": {
+"name": "Blood for the Blood God!",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/B.md#blood-for-the-blood-god"
 },
 "a610c77c-fe31-4465-a1c1-392db4ce4ed1": {
 "name": "Cleanse",
@@ -48567,10 +49616,10 @@
 },
 "a66f8b44-0163-4456-b152-4acefab896a4": {
 "name": "Malcolm, Keen-Eyed Navigator",
-"n": 7,
+"n": 6,
 "kinds": {
 "deck": 4,
-"edh": 3
+"edh": 2
 },
 "index": "references/M.md#malcolm-keen-eyed-navigator"
 },
@@ -48609,8 +49658,9 @@
 },
 "a69265b2-0e37-4d86-866e-e4a923233b4d": {
 "name": "Expropriate",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/E.md#expropriate"
@@ -48701,9 +49751,9 @@
 },
 "a6c5c5ea-0bd0-4d5a-bd3f-6217f14c9939": {
 "name": "Piper of the Swarm",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 2
 },
 "index": "references/P.md#piper-of-the-swarm"
@@ -48723,6 +49773,14 @@
 "cards": 1
 },
 "index": "references/O.md#ognis-the-dragons-lash"
+},
+"a6e720a2-9819-40ec-a811-7812898b531a": {
+"name": "Necrotic Hex",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/N.md#necrotic-hex"
 },
 "a6e7cbfc-6d5a-4a67-9dad-d512d3c97bda": {
 "name": "Brimaz, Blight of Oreskos",
@@ -48894,9 +49952,9 @@
 },
 "a784481f-eccb-4112-bb38-04a659319660": {
 "name": "Pitiless Plunderer",
-"n": 16,
+"n": 18,
 "kinds": {
-"deck": 8,
+"deck": 10,
 "edh": 7,
 "cards": 1
 },
@@ -49087,9 +50145,9 @@
 },
 "a8291d04-240e-456b-8c86-1fb4eb460476": {
 "name": "Hylda's Crown of Winter",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/H.md#hyldas-crown-of-winter"
 },
@@ -49246,9 +50304,9 @@
 },
 "a8abd966-de7b-46a3-8ac7-8747ab35653a": {
 "name": "Wheel of Fortune",
-"n": 20,
+"n": 24,
 "kinds": {
-"deck": 15,
+"deck": 19,
 "edh": 2,
 "cards": 3
 },
@@ -49307,9 +50365,9 @@
 },
 "a8dba58b-2956-492e-ae30-49db2ae68e53": {
 "name": "Mana Geyser",
-"n": 3,
+"n": 5,
 "kinds": {
-"deck": 2,
+"deck": 4,
 "cards": 1
 },
 "index": "references/M.md#mana-geyser"
@@ -49325,8 +50383,9 @@
 },
 "a8e6655c-e63f-4a60-98f6-9d5bf8631488": {
 "name": "Puca's Mischief",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/P.md#pucas-mischief"
@@ -49420,6 +50479,14 @@
 "deck": 1
 },
 "index": "references/V.md#vine-gecko"
+},
+"a959a91a-3e1d-4bd4-9e14-5ee977540146": {
+"name": "Planar Incision",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/P.md#planar-incision"
 },
 "a95a0b13-d50f-41cf-8668-de60d445e7b0": {
 "name": "Ancestors' Aid",
@@ -49624,6 +50691,14 @@
 },
 "index": "references/J.md#join-the-ranks"
 },
+"aa1a6646-c1e6-4bff-9092-43ee3e137914": {
+"name": "Archon of Cruelty",
+"n": 2,
+"kinds": {
+"deck": 2
+},
+"index": "references/A.md#archon-of-cruelty"
+},
 "aa219936-661b-4ccb-8741-78b70cff2b1a": {
 "name": "Feather, the Redeemed",
 "n": 4,
@@ -49653,9 +50728,9 @@
 },
 "aa41e0e6-d04e-48d6-8450-02b972dd0bb1": {
 "name": "Mnemonic Betrayal",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 2
+"deck": 3
 },
 "index": "references/M.md#mnemonic-betrayal"
 },
@@ -49693,18 +50768,18 @@
 },
 "aa5b06a4-90c3-45e7-ab83-cb5c96ded21d": {
 "name": "Norman Osborn // Green Goblin",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 2
 },
 "index": "references/N.md#norman-osborn--green-goblin"
 },
 "aa5e9269-b1db-4bf0-a548-24f999f60e44": {
 "name": "Inevitable Betrayal",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 2
+"deck": 3
 },
 "index": "references/I.md#inevitable-betrayal"
 },
@@ -49751,9 +50826,9 @@
 },
 "aa77980d-0434-40f0-990f-1c8c50610174": {
 "name": "Rain of Filth",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 2
 },
 "index": "references/R.md#rain-of-filth"
@@ -49874,8 +50949,9 @@
 },
 "aae76e5c-f5e0-4d18-b465-e6a829be908a": {
 "name": "Shiny Impetus",
-"n": 3,
+"n": 5,
 "kinds": {
+"deck": 2,
 "edh": 1,
 "rules": 1,
 "cards": 1
@@ -49924,9 +51000,9 @@
 },
 "ab1cc360-b9de-48d9-9983-4dfe4a7d2a37": {
 "name": "Arcane Denial",
-"n": 16,
+"n": 17,
 "kinds": {
-"deck": 11,
+"deck": 12,
 "edh": 4,
 "cards": 1
 },
@@ -49934,9 +51010,9 @@
 },
 "ab26fbe2-e808-48b9-8d0d-3fbb6c3d554f": {
 "name": "Narset, Parter of Veils",
-"n": 7,
+"n": 8,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 1,
 "lore": 2,
 "cards": 2
@@ -50182,9 +51258,9 @@
 },
 "ac2173f9-f223-440a-9231-fd98762bdc6f": {
 "name": "Force of Negation",
-"n": 20,
+"n": 21,
 "kinds": {
-"deck": 14,
+"deck": 15,
 "edh": 5,
 "cards": 1
 },
@@ -50201,9 +51277,9 @@
 },
 "ac2dd694-d2f1-4025-8400-12332bdc882a": {
 "name": "Takenuma, Abandoned Mire",
-"n": 16,
+"n": 22,
 "kinds": {
-"deck": 12,
+"deck": 18,
 "edh": 2,
 "rules": 1,
 "cards": 1
@@ -50236,9 +51312,10 @@
 },
 "ac641490-ca14-48d7-8cc4-b69ce984befa": {
 "name": "Preordain",
-"n": 8,
+"n": 10,
 "kinds": {
-"deck": 6,
+"deck": 7,
+"edh": 1,
 "cards": 2
 },
 "index": "references/P.md#preordain"
@@ -50305,9 +51382,9 @@
 },
 "ac914d98-221e-426c-8a50-342896b15f9e": {
 "name": "Snap",
-"n": 5,
+"n": 6,
 "kinds": {
-"deck": 3,
+"deck": 4,
 "edh": 1,
 "cards": 1
 },
@@ -50331,8 +51408,9 @@
 },
 "ac9b0bdf-caf8-4dba-a900-e59de35e77d7": {
 "name": "The Rani",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/T.md#the-rani"
@@ -50404,10 +51482,10 @@
 },
 "ace86e56-efde-4eb7-8815-71456a4c3abe": {
 "name": "Warren Soultrader",
-"n": 9,
+"n": 11,
 "kinds": {
-"deck": 5,
-"edh": 3,
+"deck": 6,
+"edh": 4,
 "cards": 1
 },
 "index": "references/W.md#warren-soultrader"
@@ -50587,6 +51665,14 @@
 },
 "index": "references/I.md#insatiable-avarice"
 },
+"ad3f4ec9-9905-421b-98ed-78bb6fc9b450": {
+"name": "Jhoira of the Ghitu",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/J.md#jhoira-of-the-ghitu"
+},
 "ad44cf74-b717-48fb-9fa2-77512024d76a": {
 "name": "Mind Rot",
 "n": 1,
@@ -50687,11 +51773,19 @@
 },
 "index": "references/C.md#commandeer"
 },
+"ad82b43b-b15e-48f4-86ab-5ee2c448cf14": {
+"name": "Court of Vantress",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/C.md#court-of-vantress"
+},
 "ad95eac2-5b48-4102-9988-a6d7b1ec30e0": {
 "name": "Patriar's Seal",
-"n": 2,
+"n": 4,
 "kinds": {
-"deck": 2
+"deck": 4
 },
 "index": "references/P.md#patriars-seal"
 },
@@ -50708,12 +51802,20 @@
 },
 "ada2f380-bca7-4d64-9587-bab11c776ba8": {
 "name": "Pemmin's Aura",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 1
 },
 "index": "references/P.md#pemmins-aura"
+},
+"ada48353-4c86-44d6-83a5-e7e3c703b948": {
+"name": "Redcap Gutter-Dweller",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/R.md#redcap-gutter-dweller"
 },
 "ada82f93-dc93-4a95-a13f-42b5942b3413": {
 "name": "Magic Damper",
@@ -50809,9 +51911,9 @@
 },
 "ae120613-97d6-4393-b39d-c3e6c076f5d6": {
 "name": "Deflecting Swat",
-"n": 44,
+"n": 62,
 "kinds": {
-"deck": 38,
+"deck": 56,
 "edh": 4,
 "cards": 2
 },
@@ -51033,13 +52135,29 @@
 },
 "index": "references/W.md#waterbender-ascension"
 },
+"aede5485-7b8c-4e29-a3a4-9a3513dc733f": {
+"name": "Summons of Saruman",
+"n": 3,
+"kinds": {
+"deck": 3
+},
+"index": "references/S.md#summons-of-saruman"
+},
 "aee82122-d13e-4175-b499-9dde718e4da9": {
 "name": "Siphon Insight",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 2
+"deck": 3
 },
 "index": "references/S.md#siphon-insight"
+},
+"aeeab1df-0b8b-4bc4-a5f9-aac413449bec": {
+"name": "Mudflat Village",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/M.md#mudflat-village"
 },
 "aeeb50f2-8e02-4d40-a1dd-28b1c5c85c7e": {
 "name": "Moonstone, Harsh Mistress",
@@ -51119,9 +52237,9 @@
 },
 "af247e2f-b271-4f5b-ab98-4579d2c17c21": {
 "name": "Archfiend of Depravity",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/A.md#archfiend-of-depravity"
 },
@@ -51181,6 +52299,14 @@
 "cards": 1
 },
 "index": "references/V.md#virtue-of-courage--embereth-blaze"
+},
+"af65bbf9-e328-4b8b-8caa-c6dff743867b": {
+"name": "Too Greedily, Too Deep",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/T.md#too-greedily-too-deep"
 },
 "af6f771f-5154-4fb3-8ed4-768d71eea568": {
 "name": "Expansion // Explosion",
@@ -51243,9 +52369,9 @@
 },
 "afaef788-34d1-460b-b884-9d7ae6ddeb18": {
 "name": "Toxic Deluge",
-"n": 35,
+"n": 48,
 "kinds": {
-"deck": 32,
+"deck": 45,
 "edh": 2,
 "cards": 1
 },
@@ -51501,6 +52627,14 @@
 },
 "index": "references/B.md#boros-locket"
 },
+"b04ef0bd-5e96-45d4-afa8-1f3bc8544e1a": {
+"name": "Treason of Isengard",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/T.md#treason-of-isengard"
+},
 "b05a2b5f-1b5c-4f1b-8a6b-525c5c8b8ba1": {
 "name": "Ovika, Enigma Goliath",
 "n": 2,
@@ -51533,6 +52667,14 @@
 "deck": 1
 },
 "index": "references/W.md#wound-reflection"
+},
+"b099fc54-cdbc-46cb-b4e4-7c2ca77b115b": {
+"name": "Plumb the Forbidden",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/P.md#plumb-the-forbidden"
 },
 "b0a16783-31c2-4b2a-835d-774dc385f99a": {
 "name": "Temporal Distortion",
@@ -52060,6 +53202,14 @@
 },
 "index": "references/T.md#trial-of-strength"
 },
+"b2747459-05ec-42a6-81be-e97e182bc778": {
+"name": "Bloodthirsty Blade",
+"n": 2,
+"kinds": {
+"deck": 2
+},
+"index": "references/B.md#bloodthirsty-blade"
+},
 "b291d046-7649-4a05-98c4-224ecaece912": {
 "name": "Crystal Fragments // Summon: Alexander",
 "n": 1,
@@ -52130,9 +53280,9 @@
 },
 "b2c6aa39-2d2a-459c-a555-fb48ba993373": {
 "name": "Island",
-"n": 37,
+"n": 54,
 "kinds": {
-"deck": 36,
+"deck": 53,
 "cards": 1
 },
 "index": "references/I.md#island"
@@ -52272,9 +53422,9 @@
 },
 "b33d2b77-f068-4fdc-a1a8-0353a35e3973": {
 "name": "Tezzeret's Gambit",
-"n": 5,
+"n": 6,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 2,
 "cards": 1
 },
@@ -52385,8 +53535,9 @@
 },
 "b3a81bb1-cbd5-41a0-8dd4-faea06593f84": {
 "name": "Relic of Sauron",
-"n": 1,
+"n": 3,
 "kinds": {
+"deck": 2,
 "edh": 1
 },
 "index": "references/R.md#relic-of-sauron"
@@ -52511,8 +53662,9 @@
 },
 "b40138c3-48bc-4825-ae48-5fea95304088": {
 "name": "Silver Shroud Costume",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "edh": 1
 },
 "index": "references/S.md#silver-shroud-costume"
@@ -53065,6 +54217,14 @@
 },
 "index": "references/K.md#kinjallis-dawnrunner"
 },
+"b6597ae6-ae32-4409-8ba9-1015b6ffe2d2": {
+"name": "Puppeteer",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/P.md#puppeteer"
+},
 "b66c6e3a-daed-43a3-95d6-4f9d6223bbf1": {
 "name": "Stranglehold",
 "n": 2,
@@ -53192,17 +54352,18 @@
 },
 "b6f61b77-d571-4508-a5e8-435b4e097f3a": {
 "name": "Spectacular Showdown",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/S.md#spectacular-showdown"
 },
 "b6fb79c3-cd32-4045-8177-e52841eea65b": {
 "name": "Dragonmaster Outcast",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 1
 },
 "index": "references/D.md#dragonmaster-outcast"
@@ -53263,6 +54424,14 @@
 "lore": 1
 },
 "index": "references/O.md#outnumber"
+},
+"b734cfd9-afef-41f1-8377-68c885fb3a69": {
+"name": "Pilfered Plans",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/P.md#pilfered-plans"
 },
 "b749e9e4-0f2a-4157-8cca-facd6b48157f": {
 "name": "Proft's Eidetic Memory",
@@ -53392,9 +54561,9 @@
 },
 "b7da26c9-78a6-41c5-a5ef-6555e8274d7a": {
 "name": "Ral, Storm Conduit",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "lore": 2,
 "cards": 1
 },
@@ -53577,6 +54746,14 @@
 },
 "index": "references/P.md#professor-hulk"
 },
+"b8aac8e8-4588-4cb9-8b95-5c4abab1c48b": {
+"name": "Sol'kanar the Swamp King",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/S.md#solkanar-the-swamp-king"
+},
 "b8b9e6fd-b3ed-4fbc-8753-74018fa33caa": {
 "name": "Roar of the Wurm",
 "n": 1,
@@ -53675,6 +54852,14 @@
 "cards": 1
 },
 "index": "references/M.md#myr-turbine"
+},
+"b908fad9-25a6-441b-bba8-0d7fc12ee2dc": {
+"name": "Path of the Pyromancer",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/P.md#path-of-the-pyromancer"
 },
 "b90af42d-edb6-4654-b7dc-10f0f272c883": {
 "name": "Elite Scaleguard",
@@ -53782,6 +54967,14 @@
 "edh": 1
 },
 "index": "references/F.md#far-traveler"
+},
+"b9538d53-480b-481a-abbf-83ab17e1a45b": {
+"name": "No Mercy",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/N.md#no-mercy"
 },
 "b95f704d-96b9-437e-8c49-aba874139e12": {
 "name": "Sudden Edict",
@@ -53910,9 +55103,9 @@
 },
 "b9bacb46-fd1d-459b-81c2-d7d08fe73848": {
 "name": "Dragon Tempest",
-"n": 6,
+"n": 7,
 "kinds": {
-"deck": 3,
+"deck": 4,
 "edh": 2,
 "cards": 1
 },
@@ -54051,9 +55244,9 @@
 },
 "ba0d3df2-3acf-46d7-8d64-8d67d1579adc": {
 "name": "Curse of Opulence",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 1
 },
 "index": "references/C.md#curse-of-opulence"
@@ -54160,6 +55353,14 @@
 },
 "index": "references/M.md#moonsnare-specialist"
 },
+"ba85f0b0-b08c-4e62-a56e-b3ab7d699175": {
+"name": "Visions of Duplicity",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/V.md#visions-of-duplicity"
+},
 "ba8883fc-db24-4c3d-ae36-05085089c9cc": {
 "name": "Electrostatic Infantry",
 "n": 1,
@@ -54210,9 +55411,9 @@
 },
 "ba9f3c5d-556f-48d1-8d87-723f7893cfcd": {
 "name": "Flayer of the Hatebound",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "rules": 1
 },
 "index": "references/F.md#flayer-of-the-hatebound"
@@ -54310,18 +55511,18 @@
 },
 "baf80db7-2ca8-4bfc-b5b6-25ed51878dd7": {
 "name": "Baral, Chief of Compliance",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 1
 },
 "index": "references/B.md#baral-chief-of-compliance"
 },
 "baf93873-35e6-4bf2-bdcc-78a5206422fb": {
 "name": "Painter's Servant",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 1
 },
 "index": "references/P.md#painters-servant"
@@ -54365,9 +55566,9 @@
 },
 "bb329a5c-b9f9-4973-a53f-090024146325": {
 "name": "Red Elemental Blast",
-"n": 12,
+"n": 14,
 "kinds": {
-"deck": 9,
+"deck": 11,
 "edh": 2,
 "cards": 1
 },
@@ -54524,10 +55725,10 @@
 },
 "bbf9494c-c4bb-4d36-98fe-8387846b342e": {
 "name": "Rings of Brighthearth",
-"n": 4,
+"n": 7,
 "kinds": {
-"deck": 3,
-"edh": 1
+"deck": 5,
+"edh": 2
 },
 "index": "references/R.md#rings-of-brighthearth"
 },
@@ -54559,9 +55760,10 @@
 },
 "bc14356c-3a1a-47af-9a6e-2b449de0331f": {
 "name": "Kardur, Doomscourge",
-"n": 2,
+"n": 6,
 "kinds": {
-"deck": 1,
+"deck": 4,
+"edh": 1,
 "cards": 1
 },
 "index": "references/K.md#kardur-doomscourge"
@@ -54598,6 +55800,14 @@
 "cards": 1
 },
 "index": "references/A.md#anaba-shaman"
+},
+"bc483bab-14fb-498d-9310-9c070766c7ae": {
+"name": "Darksteel Reactor",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/D.md#darksteel-reactor"
 },
 "bc63e7ca-e62a-4026-803d-eecdbbedf3c6": {
 "name": "Justice Strike",
@@ -54705,9 +55915,9 @@
 },
 "bcc6eece-75ea-494c-b33a-d4477d504e0b": {
 "name": "Sink into Stupor // Soporific Springs",
-"n": 4,
+"n": 6,
 "kinds": {
-"deck": 1,
+"deck": 3,
 "rules": 1,
 "cards": 2
 },
@@ -54715,9 +55925,9 @@
 },
 "bccb06f1-8839-4104-9ffa-c79a817f8378": {
 "name": "Jet Medallion",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 1,
 "cards": 1
 },
@@ -54734,10 +55944,10 @@
 },
 "bceecc64-96f1-4e7b-8904-0aef90377764": {
 "name": "Bedevil",
-"n": 4,
+"n": 8,
 "kinds": {
-"deck": 2,
-"edh": 1,
+"deck": 5,
+"edh": 2,
 "cards": 1
 },
 "index": "references/B.md#bedevil"
@@ -54761,9 +55971,9 @@
 },
 "bd004c9d-771e-4e63-a97d-a2259c096af8": {
 "name": "Morphic Pool",
-"n": 44,
+"n": 61,
 "kinds": {
-"deck": 40,
+"deck": 57,
 "edh": 3,
 "cards": 1
 },
@@ -54924,8 +56134,9 @@
 },
 "bda098cb-31ec-41a1-a9d7-122877cc69d2": {
 "name": "Ingris Stingerquill",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/I.md#ingris-stingerquill"
@@ -54994,8 +56205,9 @@
 },
 "bdc2a72a-f1c0-4e67-8e86-1121a4000537": {
 "name": "Cultist of the Absolute",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "edh": 1
 },
 "index": "references/C.md#cultist-of-the-absolute"
@@ -55069,9 +56281,9 @@
 },
 "bdeb440d-a714-40e8-9038-f651e6ae45fb": {
 "name": "Springleaf Drum",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 1,
 "cards": 1
 },
@@ -55084,6 +56296,14 @@
 "lore": 1
 },
 "index": "references/W.md#whirlermaker"
+},
+"be094704-5232-4b10-beeb-aa9bbfae063d": {
+"name": "Feldon of the Third Path",
+"n": 2,
+"kinds": {
+"deck": 2
+},
+"index": "references/F.md#feldon-of-the-third-path"
 },
 "be16e9d8-aa73-448b-919c-7d02e2e15911": {
 "name": "Hostility",
@@ -55135,8 +56355,9 @@
 },
 "be4f47e9-1bd2-4aa9-bc85-3f203ad21639": {
 "name": "Rionya, Fire Dancer",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/R.md#rionya-fire-dancer"
@@ -55536,6 +56757,14 @@
 },
 "index": "references/J.md#judith-the-scourge-diva"
 },
+"c017f54c-e4c0-411e-b8c1-eb20b1b86c56": {
+"name": "Karumonix, the Rat King",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/K.md#karumonix-the-rat-king"
+},
 "c017f8ae-9103-4965-a07a-f259f44a157d": {
 "name": "The Dominion Bracelet",
 "n": 1,
@@ -55671,12 +56900,20 @@
 },
 "c0957e5e-c71b-439c-931c-9f55d2f76ace": {
 "name": "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 2
 },
 "index": "references/F.md#fable-of-the-mirror-breaker--reflection-of-kiki-jiki"
+},
+"c098c507-5154-423a-a70b-f6dfd4959cf6": {
+"name": "Sunken Palace",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/S.md#sunken-palace"
 },
 "c09c424b-6aba-4190-9f55-f0307d746386": {
 "name": "Scientist Supreme of A.I.M.",
@@ -55712,9 +56949,9 @@
 },
 "c0adbddc-b070-4c5f-afe0-0474c72a9251": {
 "name": "Gemstone Caverns",
-"n": 14,
+"n": 16,
 "kinds": {
-"deck": 9,
+"deck": 11,
 "edh": 3,
 "rules": 1,
 "cards": 1
@@ -55765,9 +57002,9 @@
 },
 "c0d8fef4-65f4-4769-982d-b397d2b7e977": {
 "name": "Animate Dead",
-"n": 15,
+"n": 19,
 "kinds": {
-"deck": 9,
+"deck": 13,
 "edh": 3,
 "rules": 2,
 "cards": 1
@@ -55810,8 +57047,9 @@
 },
 "c1121b83-1ba2-473d-89c9-e3bbd4529072": {
 "name": "Paradise Mantle",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "cards": 1
 },
@@ -56265,8 +57503,9 @@
 },
 "c288f184-0beb-4cc9-9b0a-5f3c4b9e70d7": {
 "name": "Eye of Nidhogg",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/E.md#eye-of-nidhogg"
@@ -56286,6 +57525,14 @@
 "cards": 1
 },
 "index": "references/B.md#bedlam"
+},
+"c2902f4f-b40e-49f7-8ab0-5b6a70021482": {
+"name": "Capital Punishment",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/C.md#capital-punishment"
 },
 "c2a6cfb7-e5bd-49c8-aa51-fd5203eca8b8": {
 "name": "Compleat Devotion",
@@ -56545,6 +57792,14 @@
 },
 "index": "references/O.md#obsidian-fireheart"
 },
+"c3b6e114-7bc8-4890-97d9-edbeea1f425f": {
+"name": "Assault Suit",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/A.md#assault-suit"
+},
 "c3c40f93-7e10-4139-b9e0-b6dfff8b8038": {
 "name": "Stoneforge Acolyte",
 "n": 1,
@@ -56680,9 +57935,9 @@
 },
 "c450f6b7-bb2a-4b8c-aec7-d27555137b63": {
 "name": "Retreat to Coralhelm",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 1
 },
 "index": "references/R.md#retreat-to-coralhelm"
@@ -56923,9 +58178,9 @@
 },
 "c51ed6e3-813b-49c4-b1de-7f92a77f8f6e": {
 "name": "Galvanic Iteration",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 1
 },
 "index": "references/G.md#galvanic-iteration"
@@ -56942,13 +58197,21 @@
 },
 "c527eb80-ccac-40b8-8377-c31121613128": {
 "name": "Dark Deal",
-"n": 8,
+"n": 9,
 "kinds": {
-"deck": 5,
+"deck": 6,
 "edh": 2,
 "cards": 1
 },
 "index": "references/D.md#dark-deal"
+},
+"c52cfb41-18f3-4e73-b5e7-d75baf74e578": {
+"name": "River's Rebuke",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/R.md#rivers-rebuke"
 },
 "c52eaa87-9251-4a47-83fd-04e582ade612": {
 "name": "Willowrush Verge",
@@ -56977,8 +58240,9 @@
 },
 "c53b7602-5e36-4900-896c-844bf6eac22e": {
 "name": "Smaug the Magnificent",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "cards": 1
 },
@@ -57078,9 +58342,9 @@
 },
 "c5abd58f-3e00-447b-a978-64cb88ad501b": {
 "name": "Hellkite Courser",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 1,
 "rules": 1
 },
@@ -57088,9 +58352,9 @@
 },
 "c5acf2a5-40f4-433d-a74d-1cb56c521464": {
 "name": "Arid Mesa",
-"n": 19,
+"n": 28,
 "kinds": {
-"deck": 14,
+"deck": 23,
 "edh": 3,
 "cards": 2
 },
@@ -57114,8 +58378,9 @@
 },
 "c5c19d6e-16d5-4d24-be2d-c63646bdf00c": {
 "name": "Jon Irenicus, Shattered One",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "edh": 1
 },
 "index": "references/J.md#jon-irenicus-shattered-one"
@@ -57164,9 +58429,9 @@
 },
 "c5ee72d5-3a9e-4fe5-8802-3286ee612055": {
 "name": "Sokenzan, Crucible of Defiance",
-"n": 6,
+"n": 9,
 "kinds": {
-"deck": 3,
+"deck": 6,
 "edh": 1,
 "cards": 2
 },
@@ -57195,6 +58460,14 @@
 "cards": 1
 },
 "index": "references/Q.md#quest-for-the-gravelord"
+},
+"c6040e8d-dac3-4bed-8d1d-d7d44aa10c86": {
+"name": "Parnesse, the Subtle Brush",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/P.md#parnesse-the-subtle-brush"
 },
 "c6064c08-e4e0-49f4-9f0b-55cdecf443af": {
 "name": "Skirsdag High Priest",
@@ -57372,6 +58645,14 @@
 },
 "index": "references/E.md#elvish-visionary"
 },
+"c6a67820-5066-462f-a621-1ecab8bf4f97": {
+"name": "Jaya's Phoenix",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/J.md#jayas-phoenix"
+},
 "c6aadaf0-eb47-4228-95e2-48e3ff7b6e2f": {
 "name": "Sower of Discord",
 "n": 1,
@@ -57382,8 +58663,9 @@
 },
 "c6b26c1f-121f-4b7c-921e-429b623ca934": {
 "name": "Breakthrough",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/B.md#breakthrough"
@@ -57406,6 +58688,14 @@
 "cards": 1
 },
 "index": "references/G.md#guttersnipe"
+},
+"c6db2ea4-954c-443b-9603-c41596555c31": {
+"name": "Teferi's Veil",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/T.md#teferis-veil"
 },
 "c6e28cf0-81c7-4f52-a29b-988cc6fd31ee": {
 "name": "Appa, Loyal Sky Bison",
@@ -57482,9 +58772,9 @@
 },
 "c718911c-c955-4eb9-9e16-be4bd49a4e4e": {
 "name": "Volcanic Island",
-"n": 44,
+"n": 64,
 "kinds": {
-"deck": 39,
+"deck": 59,
 "edh": 4,
 "cards": 1
 },
@@ -57705,6 +58995,14 @@
 },
 "index": "references/C.md#candelabra-of-tawnos"
 },
+"c7cf9574-e2cf-4137-a224-73f76c5d11d7": {
+"name": "Blim, Comedic Genius",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/B.md#blim-comedic-genius"
+},
 "c7e42151-ca0a-4079-a1bd-4ce9f764665c": {
 "name": "Priority Avenger",
 "n": 1,
@@ -57759,9 +59057,9 @@
 },
 "c803b788-4213-4fab-b841-7e5bbf66088e": {
 "name": "Jhoira, Weatherlight Captain",
-"n": 8,
+"n": 9,
 "kinds": {
-"deck": 5,
+"deck": 6,
 "edh": 2,
 "cards": 1
 },
@@ -57838,6 +59136,14 @@
 },
 "index": "references/E.md#endurance"
 },
+"c85fc672-12d8-4ab0-b18d-ccd590ac063c": {
+"name": "Immortal Coil",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/I.md#immortal-coil"
+},
 "c8625113-0ce4-4454-83a1-25c31b8bfb9a": {
 "name": "Disciple of the Vault",
 "n": 6,
@@ -57859,8 +59165,9 @@
 },
 "c8689a83-cefa-4ef3-8ec1-58b4c64e332b": {
 "name": "In the Darkness Bind Them",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "cards": 1
 },
@@ -57908,9 +59215,9 @@
 },
 "c880fbdc-bdd9-4f80-81d4-e3e1124f76ca": {
 "name": "Bjorna, Nightfall Alchemist",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 1,
 "cards": 1
 },
@@ -57951,9 +59258,9 @@
 },
 "c8b143ad-43ec-4e0d-a440-e348daa31391": {
 "name": "Swiftfoot Boots",
-"n": 31,
+"n": 38,
 "kinds": {
-"deck": 24,
+"deck": 31,
 "edh": 4,
 "rules": 1,
 "cards": 2
@@ -58192,6 +59499,14 @@
 },
 "index": "references/W.md#winding-constrictor"
 },
+"c9432e87-38f6-4889-8f07-ae7cd045e532": {
+"name": "Gilgamesh, Master-at-Arms",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/G.md#gilgamesh-master-at-arms"
+},
 "c95309e9-5c2f-4518-b2fd-825d3d0a4ae0": {
 "name": "Sundering Eruption // Volcanic Fissure",
 "n": 2,
@@ -58208,11 +59523,19 @@
 },
 "index": "references/C.md#control-win-condition"
 },
+"c96402dc-1509-4136-bbfd-c86a85e3ee6f": {
+"name": "Swarming of Moria",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/S.md#swarming-of-moria"
+},
 "c9722086-23e8-43dc-8a8c-541ff6962318": {
 "name": "Enthusiastic Mechanaut",
-"n": 10,
+"n": 11,
 "kinds": {
-"deck": 8,
+"deck": 9,
 "edh": 2
 },
 "index": "references/E.md#enthusiastic-mechanaut"
@@ -58361,9 +59684,9 @@
 },
 "c9db5293-4866-46ec-9ae8-059d27bd50fc": {
 "name": "Entity Tracker",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 1
 },
 "index": "references/E.md#entity-tracker"
@@ -58470,9 +59793,9 @@
 },
 "ca204b66-8d0c-431a-8d34-282f7c2d17da": {
 "name": "Lightning Greaves",
-"n": 52,
+"n": 61,
 "kinds": {
-"deck": 46,
+"deck": 55,
 "edh": 3,
 "rules": 1,
 "cards": 2
@@ -58655,9 +59978,9 @@
 },
 "cae3ec72-436d-4086-9dcb-17b3d92ad5c4": {
 "name": "Valgavoth, Terror Eater",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 1,
 "cards": 1
 },
@@ -58689,9 +60012,9 @@
 },
 "cb027150-848c-4a66-88ad-e20222304dd8": {
 "name": "Scalding Tarn",
-"n": 46,
+"n": 65,
 "kinds": {
-"deck": 41,
+"deck": 60,
 "edh": 3,
 "cards": 2
 },
@@ -58753,8 +60076,9 @@
 },
 "cb33e07b-9599-4979-991f-df0c43ddac31": {
 "name": "Nicol Bolas, God-Pharaoh",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "lore": 2
 },
 "index": "references/N.md#nicol-bolas-god-pharaoh"
@@ -58820,8 +60144,9 @@
 },
 "cb8ec2e4-8223-4172-8f2c-37c918a573fa": {
 "name": "Homeward Path",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/H.md#homeward-path"
@@ -58834,6 +60159,14 @@
 "edh": 1
 },
 "index": "references/C.md#chainer-dementia-master"
+},
+"cb91e09e-f7fb-44bc-b78f-de29705bd2d6": {
+"name": "Mob Verdict",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/M.md#mob-verdict"
 },
 "cb952c81-c7bb-4670-938d-296d35551986": {
 "name": "Budoka Gardener // Dokai, Weaver of Life",
@@ -58859,6 +60192,14 @@
 },
 "index": "references/E.md#elendas-hierophant"
 },
+"cb9abc41-07f8-4a06-b7b9-9dd6be526e42": {
+"name": "Great Intelligence's Plan",
+"n": 2,
+"kinds": {
+"deck": 2
+},
+"index": "references/G.md#great-intelligences-plan"
+},
 "cb9fa34d-1d5f-461c-acad-bc573d41ceb2": {
 "name": "Jukai Trainee",
 "n": 1,
@@ -58874,6 +60215,14 @@
 "cards": 1
 },
 "index": "references/Q.md#quest-for-renewal"
+},
+"cba58942-b98c-45aa-8651-7dc666e31c93": {
+"name": "Fumiko the Lowblood",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/F.md#fumiko-the-lowblood"
 },
 "cbad3570-5417-42e6-b3ef-f42194098314": {
 "name": "Shigeki, Jukai Visionary",
@@ -58909,9 +60258,9 @@
 },
 "cbbe535b-12d6-4e6c-8b26-9220f06a1604": {
 "name": "Beseech the Mirror",
-"n": 10,
+"n": 13,
 "kinds": {
-"deck": 7,
+"deck": 10,
 "edh": 2,
 "rules": 1
 },
@@ -58971,9 +60320,9 @@
 },
 "cbe3a4e7-5dbe-4f58-8ee6-a1762b65acfd": {
 "name": "K'rrik, Son of Yawgmoth",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 2,
 "cards": 1
 },
@@ -58996,6 +60345,14 @@
 },
 "index": "references/L.md#leyline-of-vitality"
 },
+"cbf64c58-664f-431f-987e-08ae70d23f2b": {
+"name": "Tempt with Mayhem",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/T.md#tempt-with-mayhem"
+},
 "cc0cda37-9fea-48c6-897a-45f6b84e1eae": {
 "name": "Retreat to Emeria",
 "n": 1,
@@ -59006,9 +60363,9 @@
 },
 "cc187110-1148-4090-bbb8-e205694a39f5": {
 "name": "Counterspell",
-"n": 31,
+"n": 38,
 "kinds": {
-"deck": 25,
+"deck": 32,
 "edh": 4,
 "cards": 2
 },
@@ -59295,9 +60652,9 @@
 },
 "cd1eda60-53e4-44d0-9b2c-7a57395e291f": {
 "name": "Conjurer's Closet",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "rules": 1
 },
 "index": "references/C.md#conjurers-closet"
@@ -59328,9 +60685,9 @@
 },
 "cd2c90ac-2b04-461c-92f3-939871b6b6a3": {
 "name": "Sunken Hollow",
-"n": 9,
+"n": 12,
 "kinds": {
-"deck": 5,
+"deck": 8,
 "edh": 3,
 "cards": 1
 },
@@ -59537,9 +60894,9 @@
 },
 "ce19962d-94f9-4b2b-b668-963c0acce308": {
 "name": "Borne Upon a Wind",
-"n": 10,
+"n": 12,
 "kinds": {
-"deck": 8,
+"deck": 10,
 "edh": 2
 },
 "index": "references/B.md#borne-upon-a-wind"
@@ -59692,6 +61049,14 @@
 "cards": 1
 },
 "index": "references/K.md#kastral-the-windcrested"
+},
+"ceddad0d-94ad-459a-b109-f979ffc26283": {
+"name": "Ring of Xathrid",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/R.md#ring-of-xathrid"
 },
 "ceddea59-de47-4ddd-b424-6e1dcb13ab79": {
 "name": "Allied Teamwork",
@@ -59958,6 +61323,14 @@
 },
 "index": "references/J.md#jhoira-weatherlight-corsair"
 },
+"cfa46f8f-b3ec-4ee0-acdd-622f3177e02a": {
+"name": "Totentanz, Swarm Piper",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/T.md#totentanz-swarm-piper"
+},
 "cfa5b168-d112-4b92-ac42-8bba30f15d77": {
 "name": "Wake the Dragon",
 "n": 1,
@@ -59968,8 +61341,9 @@
 },
 "cfaa13d6-9992-4223-8bd7-c44046505555": {
 "name": "Leyline of Transformation",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "edh": 1
 },
 "index": "references/L.md#leyline-of-transformation"
@@ -60049,9 +61423,9 @@
 },
 "cfd60d1f-9832-4408-b84e-0fd3018b015b": {
 "name": "Forbidden Orchard",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "cards": 2
 },
 "index": "references/F.md#forbidden-orchard"
@@ -60288,9 +61662,9 @@
 },
 "d0901053-6de0-46d0-9ee3-8d40510236c1": {
 "name": "Sword of Feast and Famine",
-"n": 9,
+"n": 12,
 "kinds": {
-"deck": 4,
+"deck": 7,
 "edh": 3,
 "rules": 1,
 "cards": 1
@@ -60309,13 +61683,21 @@
 },
 "d09c9cba-fdd2-479b-ad5d-d05181c3e3f9": {
 "name": "Fierce Guardianship",
-"n": 51,
+"n": 68,
 "kinds": {
-"deck": 42,
+"deck": 59,
 "edh": 7,
 "cards": 2
 },
 "index": "references/F.md#fierce-guardianship"
+},
+"d0a1f39b-cda4-4925-83f8-2161f575edfb": {
+"name": "Argentum Armor",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/A.md#argentum-armor"
 },
 "d0a31db0-69db-405c-99a3-945617900c54": {
 "name": "Obscuring Haze",
@@ -60406,9 +61788,9 @@
 },
 "d0ee5bdc-2b69-4b73-9a20-ffcc18783b29": {
 "name": "Mana Confluence",
-"n": 40,
+"n": 58,
 "kinds": {
-"deck": 36,
+"deck": 54,
 "edh": 2,
 "lore": 1,
 "cards": 1
@@ -60555,9 +61937,9 @@
 },
 "d169738e-af0b-4488-a399-3aa1d1933aa1": {
 "name": "Brotherhood Regalia",
-"n": 9,
+"n": 11,
 "kinds": {
-"deck": 5,
+"deck": 7,
 "edh": 4
 },
 "index": "references/B.md#brotherhood-regalia"
@@ -60651,9 +62033,9 @@
 },
 "d1a6aa5f-2ad6-4bc7-82f0-4262f66af730": {
 "name": "Apprentice Necromancer",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/A.md#apprentice-necromancer"
 },
@@ -60673,6 +62055,14 @@
 "cards": 1
 },
 "index": "references/A.md#aggressive-instinct"
+},
+"d1cfbbcc-4aee-4400-b5a8-18713829ae72": {
+"name": "Wrong Turn",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/W.md#wrong-turn"
 },
 "d1d171de-1c6d-4fb9-817a-9c689c709f3d": {
 "name": "Shamanic Revelation",
@@ -60929,9 +62319,9 @@
 },
 "d2664f28-49e1-46f8-a863-b217e961a57c": {
 "name": "Black Market Connections",
-"n": 16,
+"n": 20,
 "kinds": {
-"deck": 10,
+"deck": 14,
 "edh": 4,
 "cards": 2
 },
@@ -61004,6 +62394,14 @@
 "cards": 1
 },
 "index": "references/I.md#informed-inkwright"
+},
+"d2aa50d2-d22d-495e-afc9-23a51c8c8f32": {
+"name": "Assault on Osgiliath",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/A.md#assault-on-osgiliath"
 },
 "d2ae893f-52af-4645-8712-d62fb78f901e": {
 "name": "Ondu Spiritdancer",
@@ -61798,9 +63196,9 @@
 },
 "d551fae8-6b40-4118-b9db-29d2f5dff405": {
 "name": "Burning-Rune Demon",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/B.md#burning-rune-demon"
 },
@@ -61814,9 +63212,9 @@
 },
 "d55f6c70-321f-4fb4-bd33-0850ae1a7c36": {
 "name": "Narset's Reversal",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 1,
 "cards": 1
 },
@@ -61866,9 +63264,9 @@
 },
 "d57a6b19-bd06-4b07-8ee1-0b45612ba9e4": {
 "name": "Veyran, Voice of Duality",
-"n": 6,
+"n": 8,
 "kinds": {
-"deck": 3,
+"deck": 5,
 "edh": 2,
 "cards": 1
 },
@@ -61876,10 +63274,10 @@
 },
 "d57a8f0b-7989-4db5-8756-6f2690097252": {
 "name": "Damnation",
-"n": 6,
+"n": 9,
 "kinds": {
-"deck": 2,
-"edh": 2,
+"deck": 4,
+"edh": 3,
 "lore": 1,
 "cards": 1
 },
@@ -61957,8 +63355,9 @@
 },
 "d5c4d36c-54b3-4149-906b-a57a670260fc": {
 "name": "Alhammarret's Archive",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/A.md#alhammarrets-archive"
@@ -61982,9 +63381,9 @@
 },
 "d5ea905b-4bb6-48d0-9082-c472703db550": {
 "name": "Bloodchief Ascension",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 3,
+"deck": 4,
 "cards": 1
 },
 "index": "references/B.md#bloodchief-ascension"
@@ -62024,6 +63423,14 @@
 "edh": 1
 },
 "index": "references/M.md#mox-jasper"
+},
+"d5fd3060-358c-4a5b-aee9-1afcf6c506ba": {
+"name": "Raiders' Wake",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/R.md#raiders-wake"
 },
 "d6026309-aae9-43e7-938b-69db7af7139c": {
 "name": "Intrepid Paleontologist",
@@ -62145,9 +63552,9 @@
 },
 "d64e9152-ef24-4394-aeb0-9c3befc56549": {
 "name": "Altar of Dementia",
-"n": 13,
+"n": 15,
 "kinds": {
-"deck": 7,
+"deck": 9,
 "edh": 5,
 "cards": 1
 },
@@ -62407,6 +63814,14 @@
 },
 "index": "references/V.md#verix-bladewing"
 },
+"d73191d8-6f94-4fba-acd2-2d0490e3ac00": {
+"name": "The Balrog of Moria",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/T.md#the-balrog-of-moria"
+},
 "d73913ea-44d0-408f-9f8b-8e91843f2826": {
 "name": "Stillness in Motion",
 "n": 2,
@@ -62459,9 +63874,9 @@
 },
 "d75b9c82-1b49-4c3e-a1b5-aeef57d6644b": {
 "name": "Cyclonic Rift",
-"n": 50,
+"n": 67,
 "kinds": {
-"deck": 43,
+"deck": 60,
 "edh": 4,
 "rules": 2,
 "cards": 1
@@ -62506,9 +63921,9 @@
 },
 "d79cbc61-6c15-48ea-bbba-3cffb819ccba": {
 "name": "Sword of the Animist",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 1,
 "cards": 1
 },
@@ -62541,11 +63956,20 @@
 },
 "d7b69fd7-e575-4009-8549-f576249ba641": {
 "name": "Model of Unity",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/M.md#model-of-unity"
+},
+"d7c81b3e-8082-4aaf-8979-2717d118234c": {
+"name": "Illusions of Grandeur",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/I.md#illusions-of-grandeur"
 },
 "d7cfe3a3-e8e6-446d-a855-46c845f657fa": {
 "name": "The War Games",
@@ -62657,6 +64081,14 @@
 },
 "index": "references/P.md#perfected-theory"
 },
+"d82929f2-57ad-45be-a834-984437046026": {
+"name": "Super Intelligence",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/S.md#super-intelligence"
+},
 "d830a136-6fb9-42e7-81f1-97e1d713ee82": {
 "name": "Razia, Boros Archangel",
 "n": 1,
@@ -62681,6 +64113,14 @@
 "cards": 1
 },
 "index": "references/B.md#brilliant-plan"
+},
+"d852099f-46c6-4676-860c-20a582f733d1": {
+"name": "Orcish Siegemaster",
+"n": 2,
+"kinds": {
+"deck": 2
+},
+"index": "references/O.md#orcish-siegemaster"
 },
 "d8560ee9-8cbb-440b-a132-e102a1eb3e89": {
 "name": "Bloodlord of Vaasgoth",
@@ -62742,9 +64182,9 @@
 },
 "d8ad23a1-0b43-48ea-9fbe-d89b29194509": {
 "name": "Accursed Marauder",
-"n": 5,
+"n": 6,
 "kinds": {
-"deck": 4,
+"deck": 5,
 "cards": 1
 },
 "index": "references/A.md#accursed-marauder"
@@ -63191,10 +64631,10 @@
 },
 "d9c87cc2-943e-49b6-becc-748857549617": {
 "name": "Kediss, Emberclaw Familiar",
-"n": 6,
+"n": 9,
 "kinds": {
-"deck": 2,
-"edh": 1,
+"deck": 4,
+"edh": 2,
 "rules": 2,
 "cards": 1
 },
@@ -63349,6 +64789,14 @@
 },
 "index": "references/E.md#elsha-of-the-infinite"
 },
+"da359f85-7a11-4575-848d-642d1ae0ddbb": {
+"name": "Rat King, Pale Piper",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/R.md#rat-king-pale-piper"
+},
 "da35de40-6fde-4018-bda8-b0ae91ed872a": {
 "name": "Kinbinding",
 "n": 2,
@@ -63412,6 +64860,14 @@
 "rules": 1
 },
 "index": "references/G.md#galadhrim-brigade"
+},
+"da522912-1bc2-4d70-b426-94d10edb2afe": {
+"name": "Vona's Hunger",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/V.md#vonas-hunger"
 },
 "da69fbf7-c894-41dd-85ec-217de23a362f": {
 "name": "Ancestral Statue",
@@ -63493,9 +64949,9 @@
 },
 "dab520d0-20b4-4273-ba6b-eb07f85ea433": {
 "name": "Marsh Flats",
-"n": 29,
+"n": 47,
 "kinds": {
-"deck": 24,
+"deck": 42,
 "edh": 3,
 "cards": 2
 },
@@ -63621,9 +65077,9 @@
 },
 "daff0e7b-08f2-435f-97b9-9b000e94ffa8": {
 "name": "Paradox Haze",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/P.md#paradox-haze"
 },
@@ -63733,11 +65189,19 @@
 },
 "index": "references/A.md#ancestral-mask"
 },
+"db5a4c25-5ae5-4a04-be79-bdee39b9152c": {
+"name": "Call to the Grave",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/C.md#call-to-the-grave"
+},
 "db6174d7-211d-4817-b8e4-8384594c83f9": {
 "name": "Urborg, Tomb of Yawgmoth",
-"n": 13,
+"n": 22,
 "kinds": {
-"deck": 10,
+"deck": 19,
 "edh": 2,
 "cards": 1
 },
@@ -63888,6 +65352,14 @@
 "cards": 1
 },
 "index": "references/T.md#tolarian-academy"
+},
+"dbb8a3d9-6b1b-4ad1-b8b9-f92ead03d1d9": {
+"name": "Coercive Impetus",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/C.md#coercive-impetus"
 },
 "dbba75f5-2404-4bd5-982b-f6c4effa5316": {
 "name": "Ethereal Armor",
@@ -64296,9 +65768,9 @@
 },
 "dd4cf149-2fae-40e5-b50b-639f6bcec65e": {
 "name": "Thousand-Year Storm",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 1
 },
 "index": "references/T.md#thousand-year-storm"
@@ -64479,8 +65951,9 @@
 },
 "ddd649f4-dbaf-48ec-8ff7-95581257772d": {
 "name": "Isochron Scepter",
-"n": 3,
+"n": 4,
 "kinds": {
+"deck": 1,
 "edh": 2,
 "cards": 1
 },
@@ -64536,9 +66009,9 @@
 },
 "de2440de-e948-4811-903c-0bbe376ff64d": {
 "name": "Mox Opal",
-"n": 22,
+"n": 25,
 "kinds": {
-"deck": 18,
+"deck": 21,
 "edh": 2,
 "rules": 1,
 "cards": 1
@@ -64656,9 +66129,9 @@
 },
 "debce64a-18bd-42f5-9e85-158c2242e9e9": {
 "name": "Deepglow Skate",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "cards": 1
 },
 "index": "references/D.md#deepglow-skate"
@@ -64975,6 +66448,14 @@
 },
 "index": "references/C.md#crawling-barrens"
 },
+"dfeb1d36-d1d9-43dd-a79f-a98560676bb3": {
+"name": "Messenger Jays",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/M.md#messenger-jays"
+},
 "dfec65a0-6fb6-463d-aa62-e84a427db217": {
 "name": "Arahbo, the First Fang",
 "n": 1,
@@ -65081,13 +66562,21 @@
 },
 "e0445c80-fa53-4c3e-881e-940e9fce7f57": {
 "name": "Braids, Arisen Nightmare",
-"n": 10,
+"n": 11,
 "kinds": {
-"deck": 7,
+"deck": 8,
 "edh": 2,
 "cards": 1
 },
 "index": "references/B.md#braids-arisen-nightmare"
+},
+"e04560ea-f2bd-4cb7-8f65-3aa0dd58fbdf": {
+"name": "Likeness Looter",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/L.md#likeness-looter"
 },
 "e05abb6b-e9f4-4d9e-ad1e-7805ebc09914": {
 "name": "Fists of Flame",
@@ -65412,9 +66901,9 @@
 },
 "e157ad1e-be35-47f3-92db-01799f8fb6a5": {
 "name": "Psychic Frog",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 1
 },
 "index": "references/P.md#psychic-frog"
@@ -65727,8 +67216,9 @@
 },
 "e26bf6a9-b31c-4bc0-b55b-c01f2f69be6b": {
 "name": "Nicol Bolas",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "lore": 2
 },
 "index": "references/N.md#nicol-bolas"
@@ -65792,9 +67282,9 @@
 },
 "e2a37967-4212-4553-9f77-bcb613405807": {
 "name": "Haunted Ridge",
-"n": 13,
+"n": 16,
 "kinds": {
-"deck": 8,
+"deck": 11,
 "edh": 4,
 "cards": 1
 },
@@ -65958,9 +67448,9 @@
 },
 "e3570ac7-c593-40e3-bbd6-ec3da6d8158d": {
 "name": "Training Center",
-"n": 40,
+"n": 57,
 "kinds": {
-"deck": 35,
+"deck": 52,
 "edh": 4,
 "cards": 1
 },
@@ -65973,6 +67463,14 @@
 "rules": 1
 },
 "index": "references/S.md#spinerock-tyrant"
+},
+"e36100d6-d9ae-454a-bba1-b50a69d5a28f": {
+"name": "Swordsman's Steel",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/S.md#swordsmans-steel"
 },
 "e3638c54-e494-47d2-b614-94c9d9add85a": {
 "name": "Mountain Bandit",
@@ -66002,8 +67500,9 @@
 },
 "e3955573-3db5-490e-903e-65e0172a9202": {
 "name": "Hammer of Nazahn",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "edh": 1
 },
 "index": "references/H.md#hammer-of-nazahn"
@@ -66033,6 +67532,14 @@
 "cards": 1
 },
 "index": "references/R.md#reef-worm"
+},
+"e3ad9287-ef13-4b66-9df8-b17e15bb4b0f": {
+"name": "Illusion of Choice",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/I.md#illusion-of-choice"
 },
 "e3afc704-220f-498f-9eaa-0821b17dc24c": {
 "name": "Sakura-Tribe Elder",
@@ -66276,8 +67783,9 @@
 },
 "e4b3e0af-5caa-47c1-b5be-c56a875cbb15": {
 "name": "As Foretold",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/A.md#as-foretold"
@@ -66427,9 +67935,9 @@
 },
 "e580a229-e800-4746-9d37-c32fcef8de28": {
 "name": "Blightstep Pathway // Searstep Pathway",
-"n": 5,
+"n": 6,
 "kinds": {
-"deck": 4,
+"deck": 5,
 "edh": 1
 },
 "index": "references/B.md#blightstep-pathway--searstep-pathway"
@@ -66474,6 +67982,14 @@
 },
 "index": "references/E.md#enemy-of-the-guildpact"
 },
+"e5ddacfb-e5a8-4885-a4c9-fa117f321293": {
+"name": "Sudden Substitution",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/S.md#sudden-substitution"
+},
 "e5df4597-1647-4ac2-bdb3-a517598d1431": {
 "name": "Summer Bloom",
 "n": 3,
@@ -66493,9 +68009,9 @@
 },
 "e5e2e4ef-1d78-41eb-b634-1a90d4cb7125": {
 "name": "The Master, Gallifrey's End",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/T.md#the-master-gallifreys-end"
 },
@@ -66547,6 +68063,14 @@
 "cards": 1
 },
 "index": "references/U.md#unwavering-initiate"
+},
+"e611a3e0-eb0e-466e-a771-51310eeb34cd": {
+"name": "Glorious End",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/G.md#glorious-end"
 },
 "e619cb66-8c0d-408a-829c-6f02bf25fd0f": {
 "name": "Ellie, Vengeful Hunter",
@@ -66948,8 +68472,9 @@
 },
 "e744dbb6-2d56-462a-8d49-d79c73944048": {
 "name": "Portent",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/P.md#portent"
@@ -67021,9 +68546,10 @@
 },
 "e7aee670-e6ac-4b3a-b3d1-7b7013db8f3d": {
 "name": "Sneak Attack",
-"n": 4,
+"n": 8,
 "kinds": {
-"deck": 2,
+"deck": 5,
+"edh": 1,
 "cards": 2
 },
 "index": "references/S.md#sneak-attack"
@@ -67177,9 +68703,9 @@
 },
 "e802fb53-7cf5-46bc-8a0b-f99cf5c20f74": {
 "name": "Teferi, Master of Time",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "lore": 2
 },
 "index": "references/T.md#teferi-master-of-time"
@@ -67206,9 +68732,9 @@
 },
 "e809b847-b712-4558-95ea-9bb7356cde91": {
 "name": "Dragonfire Blade",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 1
 },
 "index": "references/D.md#dragonfire-blade"
@@ -67324,9 +68850,9 @@
 },
 "e87906d2-db1a-4e19-b910-adb4eb339945": {
 "name": "Urza, Lord High Artificer",
-"n": 14,
+"n": 15,
 "kinds": {
-"deck": 7,
+"deck": 8,
 "edh": 3,
 "lore": 1,
 "cards": 3
@@ -67476,8 +69002,9 @@
 },
 "e8eb2abb-daf9-43e0-b909-d96b679f71c2": {
 "name": "Flood",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/F.md#flood"
@@ -67715,9 +69242,9 @@
 },
 "e9b6a394-691c-425a-9307-76d8edc7375e": {
 "name": "Otawara, Soaring City",
-"n": 37,
+"n": 53,
 "kinds": {
-"deck": 33,
+"deck": 49,
 "edh": 3,
 "cards": 1
 },
@@ -67857,9 +69384,9 @@
 },
 "ea5103f5-27e0-4eb1-902c-7f34652d6bf3": {
 "name": "Orcish Bowmasters",
-"n": 20,
+"n": 25,
 "kinds": {
-"deck": 13,
+"deck": 18,
 "edh": 5,
 "rules": 1,
 "cards": 1
@@ -67892,6 +69419,14 @@
 "cards": 2
 },
 "index": "references/E.md#emeria-angel"
+},
+"ea734863-5793-49d6-b10e-109432aec0a3": {
+"name": "Artist's Talent",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/A.md#artists-talent"
 },
 "ea74e89e-0724-4744-a6c9-e35c415624fb": {
 "name": "Sprouting Thrinax",
@@ -67952,9 +69487,9 @@
 },
 "ea9709b6-4c37-4d5a-b04d-cd4c42e4f9dd": {
 "name": "Propaganda",
-"n": 7,
+"n": 9,
 "kinds": {
-"deck": 5,
+"deck": 7,
 "edh": 1,
 "cards": 1
 },
@@ -67989,10 +69524,10 @@
 },
 "eaabd151-2160-4bff-82c0-3fa88659be98": {
 "name": "Anger",
-"n": 6,
+"n": 9,
 "kinds": {
-"deck": 3,
-"edh": 1,
+"deck": 5,
+"edh": 2,
 "rules": 1,
 "cards": 1
 },
@@ -68069,9 +69604,9 @@
 },
 "eada96a1-4964-4ad0-b0e3-2df08d6ae188": {
 "name": "Wilhelt, the Rotcleaver",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 2
 },
 "index": "references/W.md#wilhelt-the-rotcleaver"
@@ -68159,8 +69694,9 @@
 },
 "eb23aed0-c450-4e57-96f2-2866dceca004": {
 "name": "Jin-Gitaxias, Core Augur",
-"n": 1,
+"n": 3,
 "kinds": {
+"deck": 2,
 "lore": 1
 },
 "index": "references/J.md#jin-gitaxias-core-augur"
@@ -68353,8 +69889,9 @@
 },
 "ebd2d760-5ad8-4027-b124-171822f3edfe": {
 "name": "Grapeshot",
-"n": 3,
+"n": 4,
 "kinds": {
+"deck": 1,
 "rules": 1,
 "cards": 2
 },
@@ -68378,9 +69915,9 @@
 },
 "ebef6d84-b724-4a84-bcde-8eb6dc06717d": {
 "name": "Deadeye Navigator",
-"n": 5,
+"n": 6,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 3,
 "rules": 1
 },
@@ -68431,9 +69968,9 @@
 },
 "ec3d4466-547c-4e02-b1b5-a156ec4637e9": {
 "name": "Chrome Mox",
-"n": 25,
+"n": 31,
 "kinds": {
-"deck": 19,
+"deck": 25,
 "edh": 4,
 "cards": 2
 },
@@ -68607,9 +70144,9 @@
 },
 "ecc435e2-deb1-420a-a79f-01dd08747314": {
 "name": "Pyroblast",
-"n": 14,
+"n": 16,
 "kinds": {
-"deck": 9,
+"deck": 11,
 "edh": 4,
 "cards": 1
 },
@@ -68649,9 +70186,9 @@
 },
 "ecd49d85-9c8c-4cc9-9a83-072ecd433677": {
 "name": "Flame of Anor",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 3
+"deck": 4
 },
 "index": "references/F.md#flame-of-anor"
 },
@@ -68751,9 +70288,9 @@
 },
 "ed202f1d-3511-45f4-bfbc-e6b76d4311d1": {
 "name": "The Valeyard",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 3,
+"deck": 4,
 "cards": 1
 },
 "index": "references/T.md#the-valeyard"
@@ -68916,9 +70453,9 @@
 },
 "edad60c6-80de-4033-af1b-a703ac332983": {
 "name": "Goblin Bombardment",
-"n": 11,
+"n": 15,
 "kinds": {
-"deck": 6,
+"deck": 10,
 "edh": 4,
 "cards": 1
 },
@@ -68975,9 +70512,9 @@
 },
 "ededbdae-d9dc-4206-9335-d7158f2d7700": {
 "name": "Vampiric Tutor",
-"n": 48,
+"n": 66,
 "kinds": {
-"deck": 40,
+"deck": 58,
 "edh": 6,
 "cards": 2
 },
@@ -69074,8 +70611,9 @@
 },
 "ee38377f-8d3a-402e-a5d7-a01cfe3a5322": {
 "name": "Demon's Horn",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "edh": 1
 },
 "index": "references/D.md#demons-horn"
@@ -69132,9 +70670,9 @@
 },
 "ee579a32-a048-4335-b966-231ba731cdea": {
 "name": "Phyrexian Arena",
-"n": 9,
+"n": 10,
 "kinds": {
-"deck": 4,
+"deck": 5,
 "edh": 3,
 "lore": 1,
 "cards": 1
@@ -69143,13 +70681,21 @@
 },
 "ee6099b0-fb1f-42f1-b862-7708c6e36d05": {
 "name": "Lion's Eye Diamond",
-"n": 19,
+"n": 21,
 "kinds": {
-"deck": 13,
+"deck": 15,
 "edh": 3,
 "cards": 3
 },
 "index": "references/L.md#lions-eye-diamond"
+},
+"ee7d2c2f-e32f-4be6-82ac-ff1e32055376": {
+"name": "Tyrant's Choice",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/T.md#tyrants-choice"
 },
 "ee81f37b-2a81-46d7-8d2f-9091123846c4": {
 "name": "Crackling Doom",
@@ -69177,9 +70723,9 @@
 },
 "ee8c0b4c-03c5-4da5-b4f1-028c845384af": {
 "name": "Dreamtide Whale",
-"n": 6,
+"n": 7,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 3,
 "rules": 1
 },
@@ -69219,6 +70765,14 @@
 "cards": 1
 },
 "index": "references/S.md#saw-in-half"
+},
+"eea4feef-2595-4ed2-92a0-11ccb3e7d40e": {
+"name": "Coercive Portal",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/C.md#coercive-portal"
 },
 "eeaac65a-3480-475a-bb28-e6375d53f487": {
 "name": "Vault of the Archangel",
@@ -69316,6 +70870,14 @@
 },
 "index": "references/I.md#ironwill-forger"
 },
+"eef50ef8-958b-4f5c-b261-16926d9fe672": {
+"name": "Plague Reaver",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/P.md#plague-reaver"
+},
 "ef0f06f1-3991-4897-bf62-d4cab7ec79a0": {
 "name": "Galvanic Discharge",
 "n": 1,
@@ -69401,9 +70963,9 @@
 },
 "ef5c93ae-91e0-4edb-b8a3-1171a3694bb8": {
 "name": "River Kelpie",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 3
+"deck": 4
 },
 "index": "references/R.md#river-kelpie"
 },
@@ -69414,6 +70976,14 @@
 "lore": 1
 },
 "index": "references/M.md#moment-of-truth"
+},
+"ef67a41b-a2a6-4f1b-a0d5-15560e99e387": {
+"name": "Maestros Confluence",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/M.md#maestros-confluence"
 },
 "ef693b9f-11e3-49bf-8387-b8f480b9007a": {
 "name": "Leaf-Crowned Visionary",
@@ -69441,6 +71011,14 @@
 },
 "index": "references/B.md#bilbos-gambit"
 },
+"ef72af33-37fc-48ed-90d8-547c90e1609d": {
+"name": "Trap the Trespassers",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/T.md#trap-the-trespassers"
+},
 "ef7788af-8edc-46df-a5b6-895c734ea423": {
 "name": "Panther Warriors",
 "n": 1,
@@ -69459,9 +71037,9 @@
 },
 "ef809e99-34a2-4471-8269-f56bf8037686": {
 "name": "Geth's Grimoire",
-"n": 5,
+"n": 6,
 "kinds": {
-"deck": 4,
+"deck": 5,
 "edh": 1
 },
 "index": "references/G.md#geths-grimoire"
@@ -69485,9 +71063,9 @@
 },
 "ef86989d-ce80-4e55-aece-7d11710eeffa": {
 "name": "Polluted Delta",
-"n": 54,
+"n": 74,
 "kinds": {
-"deck": 48,
+"deck": 68,
 "edh": 4,
 "cards": 2
 },
@@ -69578,8 +71156,9 @@
 },
 "eff0a1ad-ecc6-416f-a4ae-96b26cd8a905": {
 "name": "The Elderspell",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "lore": 2
 },
 "index": "references/T.md#the-elderspell"
@@ -69944,9 +71523,9 @@
 },
 "f161111d-9747-47b3-bb10-3c8bded32e21": {
 "name": "City of Traitors",
-"n": 7,
+"n": 9,
 "kinds": {
-"deck": 5,
+"deck": 7,
 "edh": 1,
 "cards": 1
 },
@@ -70049,6 +71628,14 @@
 },
 "index": "references/D.md#dauthi-voidwalker"
 },
+"f1c3d749-5cdb-4af2-967f-6413d6cb04fe": {
+"name": "Acquire",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/A.md#acquire"
+},
 "f1d8e9a6-1903-4be5-8609-1009a463f393": {
 "name": "Anthem of Champions",
 "n": 1,
@@ -70100,8 +71687,9 @@
 },
 "f1ea7dc5-01cb-4780-947c-08ea9324c52f": {
 "name": "Reckless Handling",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/R.md#reckless-handling"
@@ -70215,9 +71803,9 @@
 },
 "f25351e3-539b-4bbc-b92d-6480acf4d722": {
 "name": "City of Brass",
-"n": 34,
+"n": 49,
 "kinds": {
-"deck": 30,
+"deck": 45,
 "edh": 3,
 "cards": 1
 },
@@ -70250,9 +71838,9 @@
 },
 "f29dc596-2121-4421-8463-15f6c2e8b9b3": {
 "name": "Rogue's Passage",
-"n": 15,
+"n": 16,
 "kinds": {
-"deck": 12,
+"deck": 13,
 "edh": 2,
 "cards": 1
 },
@@ -70436,6 +72024,14 @@
 },
 "index": "references/S.md#shadow-of-the-grave"
 },
+"f343b6f9-41c3-419b-a57c-a7b08603ef5c": {
+"name": "Shadow of the Goblin",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/S.md#shadow-of-the-goblin"
+},
 "f349f58b-8cc8-45e4-9565-2b46fdf976c9": {
 "name": "Trouble in Pairs",
 "n": 1,
@@ -70471,9 +72067,9 @@
 },
 "f36d1d8b-8303-44a9-ab56-531931641ea2": {
 "name": "Academy Manufactor",
-"n": 8,
+"n": 9,
 "kinds": {
-"deck": 4,
+"deck": 5,
 "edh": 1,
 "rules": 1,
 "cards": 2
@@ -70546,8 +72142,9 @@
 },
 "f39e2611-c837-4ad7-b3a8-1ee48b74777c": {
 "name": "Corpse Connoisseur",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/C.md#corpse-connoisseur"
@@ -70562,8 +72159,9 @@
 },
 "f3abd4d1-a975-4e85-8684-aa0fce029670": {
 "name": "Grave Titan",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "cards": 1
 },
@@ -70594,11 +72192,19 @@
 },
 "index": "references/T.md#time-sidewalk"
 },
+"f3b3173b-f7ae-420e-84ec-ea61414674a0": {
+"name": "Vengeful Ancestor",
+"n": 2,
+"kinds": {
+"deck": 2
+},
+"index": "references/V.md#vengeful-ancestor"
+},
 "f3c5978a-70fa-431f-933b-b954bd0db0ea": {
 "name": "Mox Diamond",
-"n": 21,
+"n": 26,
 "kinds": {
-"deck": 15,
+"deck": 20,
 "edh": 4,
 "cards": 2
 },
@@ -70606,9 +72212,9 @@
 },
 "f3c7af78-a77d-4134-82a2-a5ce84285a84": {
 "name": "Flooded Strand",
-"n": 32,
+"n": 50,
 "kinds": {
-"deck": 26,
+"deck": 44,
 "edh": 4,
 "cards": 2
 },
@@ -70642,9 +72248,9 @@
 },
 "f3e213a4-ba5a-468a-93b3-c0a34e1bd725": {
 "name": "Pact of Negation",
-"n": 15,
+"n": 17,
 "kinds": {
-"deck": 11,
+"deck": 13,
 "edh": 3,
 "cards": 1
 },
@@ -70726,6 +72332,14 @@
 "cards": 1
 },
 "index": "references/M.md#manaform-hellkite"
+},
+"f42c0b5b-7a86-4f79-a5d3-859ec25ed870": {
+"name": "Exterminator Magmarch",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/E.md#exterminator-magmarch"
 },
 "f430f7b6-6392-4921-a20b-38fa542a49c1": {
 "name": "Princess Twilight Sparkle",
@@ -70873,9 +72487,9 @@
 },
 "f488f679-f5d5-4e61-b0c8-0b0eb622df0d": {
 "name": "Oppression",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 2
+"deck": 3
 },
 "index": "references/O.md#oppression"
 },
@@ -71009,10 +72623,10 @@
 },
 "f5092c14-eec4-472c-999c-ba96c36b2fbb": {
 "name": "Kess, Dissident Mage",
-"n": 5,
+"n": 9,
 "kinds": {
-"deck": 4,
-"edh": 1
+"deck": 7,
+"edh": 2
 },
 "index": "references/K.md#kess-dissident-mage"
 },
@@ -71134,8 +72748,9 @@
 },
 "f586ecb8-310c-4f40-a766-6a7ca46a254d": {
 "name": "Flare of Duplication",
-"n": 4,
+"n": 5,
 "kinds": {
+"deck": 1,
 "edh": 2,
 "cards": 2
 },
@@ -71179,9 +72794,9 @@
 },
 "f5bed085-bb7a-4250-9599-b2a8a95e6b6f": {
 "name": "Lord Skitter, Sewer King",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "cards": 1
 },
 "index": "references/L.md#lord-skitter-sewer-king"
@@ -71204,9 +72819,9 @@
 },
 "f5c38c01-4a40-469f-91a0-7479daf4e8e7": {
 "name": "Sulfurous Springs",
-"n": 18,
+"n": 21,
 "kinds": {
-"deck": 13,
+"deck": 16,
 "edh": 4,
 "cards": 1
 },
@@ -71246,6 +72861,14 @@
 "edh": 1
 },
 "index": "references/C.md#conspicuous-snoop"
+},
+"f5d32e5f-066b-42cf-8dd1-072a96275313": {
+"name": "Harmless Offering",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/H.md#harmless-offering"
 },
 "f5d9be71-91d0-4166-ba58-cbbf5d490c40": {
 "name": "Ajani, the Greathearted",
@@ -71324,9 +72947,9 @@
 },
 "f5f4dd28-f4ae-4d39-b9b8-6ebfd63c93fe": {
 "name": "Basilisk Collar",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 3,
+"deck": 4,
 "cards": 1
 },
 "index": "references/B.md#basilisk-collar"
@@ -71393,9 +73016,10 @@
 },
 "f61680da-606e-4d16-b0a0-361aa5210901": {
 "name": "Chandra's Ignition",
-"n": 6,
+"n": 10,
 "kinds": {
-"deck": 4,
+"deck": 7,
+"edh": 1,
 "rules": 1,
 "cards": 1
 },
@@ -71866,6 +73490,14 @@
 },
 "index": "references/Q.md#qasali-slingers"
 },
+"f76bcbfe-483f-4e63-8425-76feca1abf3e": {
+"name": "Pyromancer's Goggles",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/P.md#pyromancers-goggles"
+},
 "f7716dff-5de7-4b52-966e-72ee3adc8d9a": {
 "name": "Gleaming Overseer",
 "n": 1,
@@ -71989,8 +73621,9 @@
 },
 "f7f78825-10d6-441a-ae26-51b77cc271cd": {
 "name": "Hexplate Wallbreaker",
-"n": 2,
+"n": 3,
 "kinds": {
+"deck": 1,
 "rules": 1,
 "cards": 1
 },
@@ -72047,9 +73680,9 @@
 },
 "f82a4e85-526d-4456-b700-7760043a31be": {
 "name": "Viscera Seer",
-"n": 17,
+"n": 18,
 "kinds": {
-"deck": 9,
+"deck": 10,
 "edh": 5,
 "rules": 2,
 "cards": 1
@@ -72075,8 +73708,9 @@
 },
 "f8410804-632b-4f18-9a73-6dccc7e4582d": {
 "name": "Kazuul's Fury // Kazuul's Cliffs",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/K.md#kazuuls-fury--kazuuls-cliffs"
@@ -72185,9 +73819,9 @@
 },
 "f890d51a-dc90-4179-8423-4738a72a527c": {
 "name": "Godo, Bandit Warlord",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 1
 },
 "index": "references/G.md#godo-bandit-warlord"
@@ -72227,9 +73861,9 @@
 },
 "f8b17b89-26ce-4208-874a-9e1d66514640": {
 "name": "Dig Through Time",
-"n": 6,
+"n": 7,
 "kinds": {
-"deck": 3,
+"deck": 4,
 "rules": 1,
 "cards": 2
 },
@@ -72296,9 +73930,9 @@
 },
 "f8dab16e-1d50-443e-9431-8b6f1cf61c9c": {
 "name": "Notion Thief",
-"n": 10,
+"n": 11,
 "kinds": {
-"deck": 7,
+"deck": 8,
 "edh": 2,
 "cards": 1
 },
@@ -72306,9 +73940,9 @@
 },
 "f8e17f4f-080d-4bba-bd05-ca27e94ccecc": {
 "name": "Terror of the Peaks",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "cards": 1
 },
 "index": "references/T.md#terror-of-the-peaks"
@@ -72524,9 +74158,9 @@
 },
 "f9db72dc-9a5b-48a4-a86e-7464d9a2166a": {
 "name": "Abrade",
-"n": 4,
+"n": 5,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 1,
 "cards": 1
 },
@@ -72695,8 +74329,9 @@
 },
 "fa716557-8e75-4617-8310-ab23a9ca1af1": {
 "name": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "rules": 1
 },
 "index": "references/S.md#slicer-hired-muscle--slicer-high-speed-antagonist"
@@ -72820,6 +74455,14 @@
 },
 "index": "references/Y.md#yavimaya-granger"
 },
+"face0a43-6604-4508-b511-81ab0bef7b18": {
+"name": "Worst Fears",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/W.md#worst-fears"
+},
 "face2dc0-37ba-4efe-b900-b5521567c943": {
 "name": "Starwinder",
 "n": 1,
@@ -72838,8 +74481,9 @@
 },
 "fade8af0-5fdb-4237-9dd6-48bfd1d62767": {
 "name": "Bulk Up",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/B.md#bulk-up"
@@ -73044,9 +74688,9 @@
 },
 "fb68c1ae-a129-4c17-81fa-be5da2c32ec5": {
 "name": "Dr. Eggman",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 1,
 "cards": 1
 },
@@ -73071,9 +74715,9 @@
 },
 "fb81e4d3-1d8c-4779-be62-87cf49277e51": {
 "name": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
-"n": 10,
+"n": 12,
 "kinds": {
-"deck": 5,
+"deck": 7,
 "edh": 3,
 "lore": 1,
 "cards": 1
@@ -73082,9 +74726,9 @@
 },
 "fb81f95c-70f8-4eb7-8d15-15d0ae23ec03": {
 "name": "Mystical Tutor",
-"n": 30,
+"n": 38,
 "kinds": {
-"deck": 22,
+"deck": 30,
 "edh": 6,
 "cards": 2
 },
@@ -73109,9 +74753,9 @@
 },
 "fb88fb3d-6a85-4bb1-b316-7f759b45a0fa": {
 "name": "The Chain Veil",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "lore": 2
 },
 "index": "references/T.md#the-chain-veil"
@@ -73213,6 +74857,14 @@
 },
 "index": "references/F.md#fury"
 },
+"fbfd7f38-be9a-49bf-8769-79e1e7e8dfdc": {
+"name": "Combat Research",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/C.md#combat-research"
+},
 "fbfef028-b10c-4ade-9503-d9af5b0c211b": {
 "name": "Toph, the First Metalbender",
 "n": 3,
@@ -73243,13 +74895,21 @@
 },
 "fc0707c7-d504-4ccf-a0d2-3eb6e26e7a57": {
 "name": "Bloodstained Mire",
-"n": 52,
+"n": 72,
 "kinds": {
-"deck": 46,
+"deck": 66,
 "edh": 4,
 "cards": 2
 },
 "index": "references/B.md#bloodstained-mire"
+},
+"fc25ca51-f351-4877-a092-525fb48524a1": {
+"name": "Captive Audience",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/C.md#captive-audience"
 },
 "fc3ee37a-f676-44af-80d0-774ff271ce11": {
 "name": "That's Rough Buddy",
@@ -73352,9 +75012,9 @@
 },
 "fc9ec820-4245-4a96-b009-5308a818ca58": {
 "name": "Watery Grave",
-"n": 54,
+"n": 74,
 "kinds": {
-"deck": 49,
+"deck": 69,
 "edh": 4,
 "cards": 1
 },
@@ -73527,9 +75187,9 @@
 },
 "fd335b2f-e6a2-45ac-949e-a67278b21cb6": {
 "name": "Tinybones, Bauble Burglar",
-"n": 5,
+"n": 7,
 "kinds": {
-"deck": 4,
+"deck": 6,
 "edh": 1
 },
 "index": "references/T.md#tinybones-bauble-burglar"
@@ -73546,9 +75206,9 @@
 },
 "fd505c02-c59e-476d-8e88-35da862ddc23": {
 "name": "Bloodthirsty Conqueror",
-"n": 6,
+"n": 7,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "edh": 2,
 "rules": 1,
 "cards": 1
@@ -73786,8 +75446,9 @@
 },
 "fde2653f-5270-4b8f-9642-0835dbb076c2": {
 "name": "Spiteful Banditry",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/S.md#spiteful-banditry"
@@ -73835,8 +75496,9 @@
 },
 "fe04a81b-413c-4bc8-bb83-29978da9a43d": {
 "name": "Sauron's Ransom",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/S.md#saurons-ransom"
@@ -73848,6 +75510,14 @@
 "lore": 2
 },
 "index": "references/J.md#jace-ingenious-mind-mage"
+},
+"fe168bf1-f626-460c-890b-1ce758af01fc": {
+"name": "Ghostly Pilferer",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/G.md#ghostly-pilferer"
 },
 "fe16f1ab-58b4-4452-abe4-cbd9addd348f": {
 "name": "Magma Spray",
@@ -74067,6 +75737,14 @@
 },
 "index": "references/P.md#prepare--fight"
 },
+"fedb1947-9fa5-4655-8d02-b370fa63dd16": {
+"name": "Commence the Endgame",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/C.md#commence-the-endgame"
+},
 "fee0aa18-5103-4814-94e3-87ad3eaf5a6f": {
 "name": "Invasion of Kylem // Valor's Reach Tag Team",
 "n": 1,
@@ -74134,6 +75812,14 @@
 "rules": 1
 },
 "index": "references/P.md#planar-outburst"
+},
+"ff132d04-c3a9-4949-83ba-d80bcbcd7b9b": {
+"name": "Tetsuo Umezawa",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/T.md#tetsuo-umezawa"
 },
 "ff1dd9c1-d1e5-49dd-b8b2-df3e4a41d3e5": {
 "name": "Skitterbeam Battalion",
@@ -74266,6 +75952,14 @@
 },
 "index": "references/F.md#form-of-the-mulldrifter"
 },
+"ffbf8459-fda2-4c1d-9841-c001c37d2141": {
+"name": "Grudge Keeper",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/G.md#grudge-keeper"
+},
 "ffc95093-24a2-4616-a44a-24788e8df9c8": {
 "name": "Trinket Mage",
 "n": 1,
@@ -74276,9 +75970,9 @@
 },
 "ffce81c5-1b58-4882-a4e7-6f8d7cb170de": {
 "name": "Withering Torment",
-"n": 7,
+"n": 11,
 "kinds": {
-"deck": 4,
+"deck": 8,
 "edh": 2,
 "cards": 1
 },

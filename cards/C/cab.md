@@ -71,7 +71,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #200 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-06-18* — The mana ability of Cabal Coffers counts each land you control with the subtype Swamp, not just ones named Swamp.
-- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/C.md#cabal-coffers)
+- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 card data) → [reverse index](../../references/C.md#cabal-coffers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/301/cabal-coffers) · oracle_id `7358e164-5704-4e78-9b21-6a9bf2a968ce` · printing: MH2 #301 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Conditioning
@@ -209,8 +209,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #442 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
 - **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 11](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (10): [K'rrik, Son of Yawgmoth](../../decks/krrik-son-of-yawgmoth.md) · [Abaddon the Despoiler (Grixis)](../../grixis/decks/abaddon-the-despoiler.md) · [Cormela, Glamour Thief (Grixis)](../../grixis/decks/cormela-glamour-thief.md) · [Evelyn, the Covetous (Grixis)](../../grixis/decks/evelyn-the-covetous.md) … · Commander Spellbook: 26 combos; most popular [Saw in Half + Cabal Ritual + Eternal Witness](https://commanderspellbook.com/combo/500-864-4923/) (Infinite creature tokens, Infinite death triggers) · EDHREC: in 287,552 decks; most often under [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (50.0% of its decks), [Kraum, Ludevic's Opus // Tymna the Weaver](../../cards/K/kr.md#kraum-ludevics-opus) (75.3% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (27.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 14 pages (10 decks · 3 edh guides · 1 lore & story) → [reverse index](../../references/C.md#cabal-ritual)
+- **Synergy:** *Proven* — KB decks (13): [K'rrik, Son of Yawgmoth](../../decks/krrik-son-of-yawgmoth.md) · [Abaddon the Despoiler (Grixis)](../../grixis/decks/abaddon-the-despoiler.md) · [Cormela, Glamour Thief (Grixis)](../../grixis/decks/cormela-glamour-thief.md) · [Evelyn, the Covetous (Grixis)](../../grixis/decks/evelyn-the-covetous.md) … · Commander Spellbook: 26 combos; most popular [Saw in Half + Cabal Ritual + Eternal Witness](https://commanderspellbook.com/combo/500-864-4923/) (Infinite creature tokens, Infinite death triggers) · EDHREC: in 287,552 decks; most often under [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (50.0% of its decks), [Kraum, Ludevic's Opus // Tymna the Weaver](../../cards/K/kr.md#kraum-ludevics-opus) (75.3% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (27.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 17 pages (13 decks · 3 edh guides · 1 lore & story) → [reverse index](../../references/C.md#cabal-ritual)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/106/cabal-ritual) · oracle_id `5b5bf1fa-6502-4790-b66b-f0f8504ebc7c` · printing: VMA #106 (2014-06-16) · [rulings](https://api.scryfall.com/cards/a5d85875-22da-4054-ae42-e85b472a6d5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cabal Shrine

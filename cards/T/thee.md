@@ -171,8 +171,8 @@ schema: 2
   - *2019-05-03* — You can cast The Elderspell without controlling any planeswalkers. The target planeswalkers will still be destroyed. You can also cast it without targeting any planeswalkers if you really want to do so.
   - *2019-05-03* — You choose the target planeswalkers to destroy as you cast The Elderspell, but you don’t choose a planeswalker to receive loyalty counters until The Elderspell is resolving.
 - **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): WAR #89 — [Art & Flavor → War of the Spark (2019)](../../Art%20%26%20Flavor%20Story%20Links.md#war-of-the-spark-2019) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,796 decks; most often under [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (21.2% of its decks), [Carth the Lion](../../cards/C/car.md#carth-the-lion) (19.0% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/T.md#the-elderspell)
+- **Synergy:** *Proven* — KB decks (1): [Nicol Bolas, the Ravager // Nicol Bolas, the Arisen (Grixis)](../../grixis/decks/nicol-bolas-the-ravager.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 6,796 decks; most often under [Nicol Bolas, the Ravager](../../cards/N/ni.md#nicol-bolas-the-ravager--nicol-bolas-the-arisen) (21.2% of its decks), [Carth the Lion](../../cards/C/car.md#carth-the-lion) (19.0% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 2 lore & story) → [reverse index](../../references/T.md#the-elderspell)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/89/the-elderspell) · oracle_id `eff0a1ad-ecc6-416f-a4ae-96b26cd8a905` · printing: WAR #89 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Eldest Reborn
@@ -196,7 +196,7 @@ schema: 2
   - *2018-04-27* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities—in the Dominaria set, this is always three—the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
   - *2018-04-27* — When the first chapter ability of The Eldest Reborn resolves, the next opponent in turn order (or, if it's an opponent's turn, that opponent) chooses a creature or planeswalker they control, then each other opponent in turn order (if any) does the same. All chosen permanents are then sacrificed at the same time. Players will know the choices made by earlier players when making their choices.
   - *2018-04-27* — When the second chapter ability of The Eldest Reborn resolves, the next opponent in turn order (or, if it's an opponent's turn, that opponent) chooses a card in hand without revealing it, then each other opponent in turn order (if any) does the same. All chosen cards are then discarded at the same time.
-- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/T.md#the-eldest-reborn)
+- **Referenced in:** 4 pages (3 decks · 1 rules) → [reverse index](../../references/T.md#the-eldest-reborn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/139/the-eldest-reborn) · oracle_id `44ed4c0c-a012-4895-a547-b04150553bba` · printing: DSC #139 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Eleventh Doctor

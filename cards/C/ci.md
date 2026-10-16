@@ -1081,7 +1081,7 @@ schema: 2
   - *2004-10-04* — If you tap City of Brass while you are casting a spell or activating an ability, its ability will trigger and wait. When you finish casting that spell or activating that ability, City of Brass's triggered ability is put on the stack on top of it. City of Brass's ability will resolve first.
   - *2004-10-04* — On the other hand, you can tap City of Brass, put its triggered ability on the stack, and then respond to that ability by casting an instant or activating an ability using that mana. In that case, the instant spell or activated ability will resolve first.
   - *2004-10-04* — The first ability triggers no matter how the land becomes tapped.
-- **Referenced in:** 34 pages (30 decks · 3 edh guides · 1 card data) → [reverse index](../../references/C.md#city-of-brass)
+- **Referenced in:** 49 pages (45 decks · 3 edh guides · 1 card data) → [reverse index](../../references/C.md#city-of-brass)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/62/city-of-brass) · oracle_id `f25351e3-539b-4bbc-b92d-6480acf4d722` · printing: TMC #62 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### City of Death
@@ -1145,7 +1145,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — City of Traitors does not trigger on itself being played.
   - *2004-10-04* — City of Traitors does not trigger on lands that are put onto the battlefield without playing them.
-- **Referenced in:** 7 pages (5 decks · 1 edh guides · 1 card data) → [reverse index](../../references/C.md#city-of-traitors)
+- **Referenced in:** 9 pages (7 decks · 1 edh guides · 1 card data) → [reverse index](../../references/C.md#city-of-traitors)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/237/city-of-traitors) · oracle_id `f161111d-9747-47b3-bb10-3c8bded32e21` · printing: TPR #237 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### City on Fire

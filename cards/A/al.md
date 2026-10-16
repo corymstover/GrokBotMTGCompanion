@@ -494,8 +494,8 @@ schema: 2
   - *2024-07-26* — The copy will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can’t choose a new legal target, then it remains unchanged (even if the current target is illegal).
   - *2024-07-26* — You can’t choose to pay any additional costs for a copied spell. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
 - **Lore:** ✅ Presented with an official backstory on [The Legends of Bloomburrow](https://magic.wizards.com/en/news/feature/the-legends-of-bloomburrow) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 13 combos; most popular [Alania, Divergent Storm + Return the Favor](https://commanderspellbook.com/combo/5940-5959/) (Infinite magecraft triggers) · EDHREC as commander: 11,435 decks; highest synergy [Stormcatch Mentor](../../cards/S/sto.md#stormcatch-mentor) (+71%), [Thundertrap Trainer](../../cards/T/thu.md#thundertrap-trainer) (+71%), [Valley Floodcaller](../../cards/V/va.md#valley-floodcaller) (+71%) · EDHREC: in 29,296 decks; most often under [Bria, Riptide Rogue](../../cards/B/br.md#bria-riptide-rogue) (62.0% of its decks), [Gandalf, Party Guest](../../cards/G/ga.md#gandalf-party-guest) (57.8% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (3.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/A.md#alania-divergent-storm)
+- **Synergy:** *Proven* — KB decks (1): [Parnesse, the Subtle Brush (Grixis)](../../grixis/decks/parnesse-the-subtle-brush.md) · Commander Spellbook: 13 combos; most popular [Alania, Divergent Storm + Return the Favor](https://commanderspellbook.com/combo/5940-5959/) (Infinite magecraft triggers) · EDHREC as commander: 11,435 decks; highest synergy [Stormcatch Mentor](../../cards/S/sto.md#stormcatch-mentor) (+71%), [Thundertrap Trainer](../../cards/T/thu.md#thundertrap-trainer) (+71%), [Valley Floodcaller](../../cards/V/va.md#valley-floodcaller) (+71%) · EDHREC: in 29,296 decks; most often under [Bria, Riptide Rogue](../../cards/B/br.md#bria-riptide-rogue) (62.0% of its decks), [Gandalf, Party Guest](../../cards/G/ga.md#gandalf-party-guest) (57.8% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (3.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/A.md#alania-divergent-storm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/204/alania-divergent-storm) · oracle_id `63d50d5e-56de-44c4-b906-b2a21a56e3f3` · printing: BLB #204 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Alania's Pathmaker
@@ -647,6 +647,7 @@ schema: 2
   - *2021-11-19* — If you cast a spell for its cleave cost, that spell doesn't have any of the text in square brackets while it's on the stack.
   - *2021-11-19* — If you somehow skip the extra turn Alchemist's Gambit gives you or skip that turn's end step, the delayed triggered ability never triggers. (If you cast Alchemist's Gambit by paying its cleave cost, the delayed triggered ability is never created at all.)
   - *2021-11-19* — You can't cast a spell for both its cleave cost and another alternative cost. For example, if an effect gives an Alchemist's Retrieval in your graveyard a flashback cost of {U}, you can't cast it from your graveyard for its cleave cost.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#alchemists-gambit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/140/alchemists-gambit) · oracle_id `271d8db6-8606-46d7-9812-75aa22fcfd8e` · printing: VOW #140 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Alchemist's Gift
@@ -1086,7 +1087,7 @@ schema: 2
   - *2015-06-22* — If two or more replacement effects would apply to a card-drawing event, the player drawing the card chooses the order in which to apply them.
   - *2015-06-22* — In a Two-Headed Giant game, only the controller of Alhammarret’s Archive is affected by it. If that player’s teammate gains life, Alhammarret’s Archive will have no effect, even when that life gain is applied to the team’s shared life total.
   - *2015-06-22* — Similarly, the effects of the last abilities of multiple Archives are cumulative. If you control two, you’ll draw four times the number of cards, and so on.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#alhammarrets-archive)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/A.md#alhammarrets-archive)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/233/alhammarrets-archive) · oracle_id `d5c4d36c-54b3-4149-906b-a57a670260fc` · printing: C21 #233 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Alharu, Solemn Ritualist
@@ -1857,8 +1858,8 @@ schema: 2
   - *2023-02-04* — All Will Be One's ability will trigger any time you put one or more counters on a permanent or player. This might be due to a spell or ability resolving, a permanent you control entering the battlefield with counters, or combat damage from a source with toxic, infect, or wither.
   - *2023-02-04* — If more than one creature with toxic deals combat damage to a player at the same time, those counters are placed as a single event, and the ability triggers one time.
 - **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): ONE #118 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [All Will Be One + The Red Terror](https://commanderspellbook.com/combo/2390-4369/) (Infinite damage) · EDHREC: in 116,062 decks; most often under [Voja, Jaws of the Conclave](../../cards/V/vo.md#voja-jaws-of-the-conclave) (39.4% of its decks), [Auntie Ool, Cursewretch](../../cards/A/au.md#auntie-ool-cursewretch) (33.7% of its decks), [Kilo, Apogee Mind](../../cards/K/ki.md#kilo-apogee-mind) (32.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/A.md#all-will-be-one)
+- **Synergy:** *Proven* — KB decks (1): [Saruman, the White Hand (Grixis)](../../grixis/decks/saruman-the-white-hand.md) · Commander Spellbook: 100+ combos; most popular [All Will Be One + The Red Terror](https://commanderspellbook.com/combo/2390-4369/) (Infinite damage) · EDHREC: in 116,062 decks; most often under [Voja, Jaws of the Conclave](../../cards/V/vo.md#voja-jaws-of-the-conclave) (39.4% of its decks), [Auntie Ool, Cursewretch](../../cards/A/au.md#auntie-ool-cursewretch) (33.7% of its decks), [Kilo, Apogee Mind](../../cards/K/ki.md#kilo-apogee-mind) (32.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/A.md#all-will-be-one)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/118/all-will-be-one) · oracle_id `477374dc-042c-48f7-9ebe-99c15d8ae04f` · printing: ONE #118 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ally Encampment
@@ -2552,7 +2553,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-06-14* — If the target player's library contains fewer cards than the sacrificed creature's power, all of those cards are put into that player's graveyard. That player won't lose the game until they try to draw from the empty library.
   - *2019-06-14* — The number of cards the target player puts into their graveyard is equal to the power of the sacrificed creature as it last existed on the battlefield.
-- **Referenced in:** 13 pages (7 decks · 5 edh guides · 1 card data) → [reverse index](../../references/A.md#altar-of-dementia)
+- **Referenced in:** 15 pages (9 decks · 5 edh guides · 1 card data) → [reverse index](../../references/A.md#altar-of-dementia)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/218/altar-of-dementia) · oracle_id `d64e9152-ef24-4394-aeb0-9c3befc56549` · printing: MH1 #218 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Altar of Mogis

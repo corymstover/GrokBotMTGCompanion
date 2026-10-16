@@ -16,7 +16,7 @@ schema: 2
 
 # Grixis Deck — Mairsil, the Pretender
 
-> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Mairsil_the_Pretender_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Mairsil_the_Pretender_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Mairsil_the_Pretender_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Mairsil_the_Pretender_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `1836b97`). Imported in Bot cycle 16; re-validated in Bot cycle 37 against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
 ## Contents
 - [Commander](#commander)
@@ -316,7 +316,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 ### From `refinement/decisions/Mairsil_the_Pretender_Current_Cycle_Decisions_2026-10-14.md`
 
-Source: [refinement/decisions/Mairsil_the_Pretender_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Mairsil_the_Pretender_Current_Cycle_Decisions_2026-10-14.md)
+Source: [refinement/decisions/Mairsil_the_Pretender_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decisions/Mairsil_the_Pretender_Current_Cycle_Decisions_2026-10-14.md)
 
 **Mairsil, the Pretender — Current-Cycle Decision Closeout — 2026-10-14**
 
@@ -339,7 +339,7 @@ Canonical approved SHA-256: `51e8fd18c7ded6744a4fa2f871925a0679f85dada3e6e517334
 
 ### From `refinement/approvals/Mairsil_the_Pretender_Approved_2026-10-14.md`
 
-Source: [refinement/approvals/Mairsil_the_Pretender_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Mairsil_the_Pretender_Approved_2026-10-14.md)
+Source: [refinement/approvals/Mairsil_the_Pretender_Approved_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/approvals/Mairsil_the_Pretender_Approved_2026-10-14.md)
 
 **Mairsil, the Pretender — Current-Cycle Approval Record — 2026-10-14**
 
@@ -384,7 +384,7 @@ This deck is frozen for the current cycle and must not be modified unless the us
 
 ### Further source evidence (linked, not copied)
 
-- [refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md)
+- [refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md)
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
@@ -412,6 +412,6 @@ This deck is frozen for the current cycle and must not be modified unless the us
 - **Keywords → [Keyword Encyclopedia](../../Keyword%20Encyclopedia.md):** [Cumulative upkeep](../../Keyword%20Encyclopedia.md#cumulative-upkeep) 1 · [Cycling](../../Keyword%20Encyclopedia.md#cycling) 1 · [Defender](../../Keyword%20Encyclopedia.md#defender) 1 · [Equip](../../Keyword%20Encyclopedia.md#equip) 1 · [Flashback](../../Keyword%20Encyclopedia.md#flashback) 1 · [Flying](../../Keyword%20Encyclopedia.md#flying) 1 · [Haste](../../Keyword%20Encyclopedia.md#haste) 1 · [Mill](../../Keyword%20Encyclopedia.md#mill) 1 · [Morph](../../Keyword%20Encyclopedia.md#morph) 1 · [Overload](../../Keyword%20Encyclopedia.md#overload) 1 · [Protection](../../Keyword%20Encyclopedia.md#protection) 1 · [Wither](../../Keyword%20Encyclopedia.md#wither) 1
 - **Rules sections citing cards in this list:** [Rules Interactions → Commander: color identity](../../Rules%20Interactions.md#commander-color-identity) (Arcane Signet, Command Tower) · [Keyword Encyclopedia → Cumulative Upkeep](../../Keyword%20Encyclopedia.md#cumulative-upkeep) (Mystic Remora) · [Keyword Encyclopedia → Equip](../../Keyword%20Encyclopedia.md#equip) (Lightning Greaves) · [Keyword Encyclopedia → Flashback](../../Keyword%20Encyclopedia.md#flashback) (Faithless Looting) · [Keyword Encyclopedia → Haste](../../Keyword%20Encyclopedia.md#haste) (Anger) · [Keyword Encyclopedia → Mill](../../Keyword%20Encyclopedia.md#mill) (Takenuma, Abandoned Mire) · [Keyword Encyclopedia → Overload](../../Keyword%20Encyclopedia.md#overload) (Cyclonic Rift) · [Rules Interactions → Hexproof, shroud & ward](../../Rules%20Interactions.md#hexproof-shroud--ward) (Cyclonic Rift) · …4 more sections
 - **Lore & story sections citing cards in this list:** [Art & Flavor Story Links → Captioned art on cited story pages](../../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Command Tower, Mana Confluence, Sulfur Falls) · [Planes Index → New Capenna](../../Planes%20Index.md#new-capenna) (Xander's Lounge)
-- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +21) · [EDH Standards → Game Changers](../../EDH%20Standards.md#game-changers) (Ancient Tomb, Chrome Mox, Cyclonic Rift +10) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (An Offer You Can't Refuse, Deflecting Swat, Fierce Guardianship +10) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Chrome Mox, Dimir Signet +10) · [EDH Packages → Ramp: Mana rocks (MV ≤ 2)](../../EDH%20Packages.md#ramp-mana-rocks-mv--2) (Arcane Signet, Dimir Signet, Fellwar Stone +6) · [EDH Upgrade Paths → Breya, Etherium Shaper](../../EDH%20Upgrade%20Paths.md#breya-etherium-shaper) (An Offer You Can't Refuse, Badlands, Bloodstained Mire +6) · …80 more sections
-- **Decks sharing the most cards:** [Mai and Zuko (Grixis)](../../grixis/decks/mai-and-zuko.md) 52 · [Lord Xander, the Collector (Grixis)](../../grixis/decks/lord-xander-the-collector.md) 48 · [Cormela, Glamour Thief (Grixis)](../../grixis/decks/cormela-glamour-thief.md) 45 · [Gwendlyn Di Corci (Grixis)](../../grixis/decks/gwendlyn-di-corci.md) 45
+- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +21) · [EDH Standards → Game Changers](../../EDH%20Standards.md#game-changers) (Ancient Tomb, Chrome Mox, Cyclonic Rift +10) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (An Offer You Can't Refuse, Deflecting Swat, Fierce Guardianship +10) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Chrome Mox, Dimir Signet +10) · [EDH Packages → Ramp: Mana rocks (MV ≤ 2)](../../EDH%20Packages.md#ramp-mana-rocks-mv--2) (Arcane Signet, Dimir Signet, Fellwar Stone +6) · [EDH Upgrade Paths → Breya, Etherium Shaper](../../EDH%20Upgrade%20Paths.md#breya-etherium-shaper) (An Offer You Can't Refuse, Badlands, Bloodstained Mire +6) · …82 more sections
+- **Decks sharing the most cards:** [Mai and Zuko (Grixis)](../../grixis/decks/mai-and-zuko.md) 52 · [Nicol Bolas, the Ravager // Nicol Bolas, the Arisen (Grixis)](../../grixis/decks/nicol-bolas-the-ravager.md) 52 · [Obeka, Brute Chronologist (Grixis)](../../grixis/decks/obeka-brute-chronologist.md) 49 · [Sedris, the Traitor King (Grixis)](../../grixis/decks/sedris-the-traitor-king.md) 49
 <!-- CROSSREFS:END -->

@@ -1551,7 +1551,7 @@ schema: 2
   - *2023-10-13* — The term "defending player" in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking at the time it became an attacking creature this combat, or the controller of the planeswalker or protector of the battle the creature was attacking at the time it became an attacking creature this combat.
   - *2023-10-13* — The tokens all enter the battlefield at the same time.
   - *2023-10-13* — You choose whether each token is attacking the player or a planeswalker they control as the token is created.
-- **Referenced in:** 6 pages (4 decks · 1 edh guides · 1 card data) → [reverse index](../../references/A.md#auton-soldier)
+- **Referenced in:** 7 pages (5 decks · 1 edh guides · 1 card data) → [reverse index](../../references/A.md#auton-soldier)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/36/auton-soldier) · oracle_id `94357494-4ccc-43d4-b2d4-351581cbf9b6` · printing: WHO #36 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Autumnal Gloom // Ancient of the Equinox

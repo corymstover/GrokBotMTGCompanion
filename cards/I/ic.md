@@ -842,7 +842,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2590 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-02-04* — Only one loyalty ability of each planeswalker may be activated per turn, no matter how many it has gained.
-- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/I.md#ichormoon-gauntlet)
+- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 card data) → [reverse index](../../references/I.md#ichormoon-gauntlet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/56/ichormoon-gauntlet) · oracle_id `9fc7aba7-eda2-4134-9c10-31ee35201b72` · printing: ONE #56 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ichorplate Golem

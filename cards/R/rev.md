@@ -335,7 +335,7 @@ schema: 2
   - *2010-08-15* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
   - *2010-08-15* — When Reverberate resolves, it creates a copy of a spell. You control the copy. That copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger. The copy will then resolve like a normal spell, after players get a chance to cast spells and activate abilities.
   - *2010-08-15* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too. For example, if a player sacrifices a 3/3 creature to cast Fling, and you copy it with Reverberate, the copy of Fling will also deal 3 damage to its target.
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/R.md#reverberate)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/R.md#reverberate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m13/145/reverberate) · oracle_id `a1f55890-31c5-4ed4-a2cd-7a4a9f05f8ca` · printing: M13 #145 (2012-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reverberating Summons

@@ -334,7 +334,7 @@ schema: 2
   > Counter target spell.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 31 pages (25 decks · 4 edh guides · 2 card data) → [reverse index](../../references/C.md#counterspell)
+- **Referenced in:** 38 pages (32 decks · 4 edh guides · 2 card data) → [reverse index](../../references/C.md#counterspell)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/114/counterspell) · oracle_id `cc187110-1148-4090-bbb8-e205694a39f5` · printing: DSC #114 (2024-09-27) · [rulings](https://api.scryfall.com/cards/4f616706-ec97-4923-bb1e-11a69fbaa1f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Countersquall
@@ -744,7 +744,7 @@ schema: 2
   - *2020-11-10* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
   - *2020-11-10* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
   - *2020-11-10* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#court-of-ambition)
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/C.md#court-of-ambition)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/114/court-of-ambition) · oracle_id `652e71a9-e46f-41b3-8695-76b3606b1955` · printing: CMR #114 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court of Ardenvale
@@ -799,7 +799,7 @@ schema: 2
   - *2020-11-10* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
   - *2020-11-10* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
   - *2020-11-10* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#court-of-cunning)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/C.md#court-of-cunning)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/63/court-of-cunning) · oracle_id `2ab88c99-aaa0-4a91-9225-0bbfba04b6bc` · printing: CMR #63 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court of Embereth
@@ -816,7 +816,7 @@ schema: 2
   - *2023-09-01* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
   - *2023-09-01* — The game starts with no monarch. As a player becomes the monarch, the current monarch (if any) ceases being the monarch. There is never more than one monarch at a time.
   - *2023-09-01* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#court-of-embereth)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/C.md#court-of-embereth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/WOC-24/court-of-embereth) · oracle_id `87a82441-9dfb-49bd-8b9e-eaab2c552843` · printing: PLST #WOC-24 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court of Garenbrig
@@ -874,6 +874,7 @@ schema: 2
   - *2020-11-10* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
   - *2020-11-10* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
   - *2020-11-10* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#court-of-ire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/170/court-of-ire) · oracle_id `13f58292-9b78-4cd1-a16e-b1779a170d33` · printing: CMR #170 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court of Locthwain
@@ -893,7 +894,7 @@ schema: 2
   - *2023-09-01* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
   - *2023-09-01* — You may play the exiled cards (and spend mana of any type to do so) even if Court of Locthwain leaves the battlefield. If another player gains control of Court of Locthwain, that player can't play the cards, and you still can.
   - *2023-09-01* — You pay the costs for an exiled card if you cast it. You may pay any alternative costs the card has rather than the card's mana cost.
-- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/C.md#court-of-locthwain)
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/C.md#court-of-locthwain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woc/23/court-of-locthwain) · oracle_id `6106ba65-f07b-41ec-8b59-e052bbde5529` · printing: WOC #23 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court of Vantress
@@ -920,6 +921,7 @@ schema: 2
   - *2023-09-01* — The token copies exactly what was printed on the original permanent and nothing else (unless that permanent is itself copying something else; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
   - *2023-09-01* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
   - *2023-09-01* — When Court of Vantress becomes a copy of a permanent, it's neither entering nor leaving the battlefield. Any enters-the-battlefield or leaves-the-battlefield abilities won't trigger.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#court-of-vantress)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/WOC-22/court-of-vantress) · oracle_id `ad82b43b-b15e-48f4-86ab-5ee2c448cf14` · printing: PLST #WOC-22 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court Street Denizen

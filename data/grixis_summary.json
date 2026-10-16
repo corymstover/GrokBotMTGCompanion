@@ -554,6 +554,44 @@
   "source_path": "refinement/decklists/Garza_Zol_Plague_Queen_Approved_2026-10-14.txt",
   "fixes": 2
  },
+ "Goben__Gene_Splice_Savant": {
+  "slug": "norman-osborn",
+  "themes": "Mayhem / Graveyard Casting / Turbo Combo",
+  "commanders": [
+   "Norman Osborn // Green Goblin"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ad Nauseam",
+   "Ancient Tomb",
+   "Chrome Mox",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Gamble",
+   "Grim Monolith",
+   "Imperial Seal",
+   "Jeska's Will",
+   "Lion's Eye Diamond",
+   "Mana Vault",
+   "Mox Diamond",
+   "Mystical Tutor",
+   "Orcish Bowmasters",
+   "Rhystic Study",
+   "Thassa's Oracle",
+   "Underworld Breach",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 7,
+  "n_two": 1,
+  "src_claim": "5 — cEDH",
+  "lands": 23,
+  "avg_mv": 1.868421052631579,
+  "source_path": "refinement/decklists/Norman_Osborn_Green_Goblin_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
  "Goro_Goro_and_Satoru": {
   "slug": "goro-goro-and-satoru",
   "themes": "Ninjutsu / Dragon Tokens / Extra Combats",
@@ -1203,6 +1241,552 @@
   "lands": 35,
   "avg_mv": 2.671875,
   "source_path": "refinement/decklists/Nekusar_the_Mindrazer_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "Nicol_Bolas": {
+  "slug": "nicol-bolas",
+  "themes": "Discard / Commander Damage / Control",
+  "commanders": [
+   "Nicol Bolas"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Chrome Mox",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Grim Monolith",
+   "Jeska's Will",
+   "Mana Vault",
+   "Mox Diamond",
+   "Notion Thief",
+   "Rhystic Study",
+   "Tergrid, God of Fright // Tergrid's Lantern",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 1,
+  "n_two": 1,
+  "src_claim": "4 — Optimized",
+  "lands": 37,
+  "avg_mv": 2.4838709677419355,
+  "source_path": "refinement/decklists/Nicol_Bolas_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "Nicol_Bolas__the_Ravager": {
+  "slug": "nicol-bolas-the-ravager",
+  "themes": "Superfriends / Transform / Proliferate",
+  "commanders": [
+   "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Bolas's Citadel",
+   "Chrome Mox",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Gamble",
+   "Jeska's Will",
+   "Mana Vault",
+   "Mox Diamond",
+   "Mystical Tutor",
+   "Narset, Parter of Veils",
+   "Rhystic Study",
+   "Tergrid, God of Fright // Tergrid's Lantern",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 3,
+  "n_two": 1,
+  "src_claim": "4 — Optimized",
+  "lands": 34,
+  "avg_mv": 3.1384615384615384,
+  "source_path": "refinement/decklists/Nicol_Bolas_the_Ravager_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "Obeka__Brute_Chronologist": {
+  "slug": "obeka-brute-chronologist",
+  "themes": "Extra Turns / Delayed Triggers / Clones",
+  "commanders": [
+   "Obeka, Brute Chronologist"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Chrome Mox",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Gamble",
+   "Jeska's Will",
+   "Mana Vault",
+   "Mystical Tutor",
+   "Rhystic Study",
+   "Underworld Breach",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 4,
+  "n_two": 2,
+  "src_claim": "4 — Optimized",
+  "lands": 34,
+  "avg_mv": 2.7846153846153845,
+  "source_path": "refinement/decklists/Obeka_Brute_Chronologist_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "Obeka__Splitter_of_Seconds": {
+  "slug": "obeka-splitter-of-seconds",
+  "themes": "Extra Upkeeps / Combat Damage / Upkeep Triggers",
+  "commanders": [
+   "Obeka, Splitter of Seconds"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Rhystic Study",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 5,
+  "n_two": 0,
+  "src_claim": "4 — Optimized",
+  "lands": 35,
+  "avg_mv": 2.890625,
+  "source_path": "refinement/decklists/Obeka_Splitter_of_Seconds_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "Parnesse__the_Subtle_Brush": {
+  "slug": "parnesse-the-subtle-brush",
+  "themes": "Spell Copy / Politics / Spellslinger",
+  "commanders": [
+   "Parnesse, the Subtle Brush"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Demonic Tutor",
+   "Jeska's Will",
+   "Rhystic Study"
+  ],
+  "floor": 3,
+  "cfloor": 3,
+  "n_combos": 25,
+  "n_two": 21,
+  "src_claim": "4 — Optimized",
+  "lands": 35,
+  "avg_mv": 3.0,
+  "source_path": "refinement/decklists/Parnesse_the_Subtle_Brush_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "RogSi": {
+  "slug": "rograkh-son-of-rohgahh-silas-renn",
+  "themes": "Turbo Naus / Underworld Breach / Fast Mana",
+  "commanders": [
+   "Rograkh, Son of Rohgahh",
+   "Silas Renn, Seeker Adept"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ad Nauseam",
+   "Ancient Tomb",
+   "Chrome Mox",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Gamble",
+   "Grim Monolith",
+   "Imperial Seal",
+   "Jeska's Will",
+   "Lion's Eye Diamond",
+   "Mana Vault",
+   "Mox Diamond",
+   "Mystical Tutor",
+   "Necropotence",
+   "Rhystic Study",
+   "Thassa's Oracle",
+   "Underworld Breach",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 7,
+  "n_two": 1,
+  "src_claim": "5 — cEDH",
+  "lands": 24,
+  "avg_mv": 1.8243243243243243,
+  "source_path": "refinement/decklists/RogSi_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "Saruman__the_White_Hand": {
+  "slug": "saruman-the-white-hand",
+  "themes": "Spellslinger / Amass / Orc Army",
+  "commanders": [
+   "Saruman, the White Hand"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Jeska's Will",
+   "Mystical Tutor",
+   "Orcish Bowmasters",
+   "Rhystic Study",
+   "The One Ring",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 1,
+  "n_two": 1,
+  "src_claim": "4 — Optimized",
+  "lands": 31,
+  "avg_mv": 3.3529411764705883,
+  "source_path": "refinement/decklists/Saruman_the_White_Hand_Approved_2026-10-15.txt",
+  "fixes": 3
+ },
+ "Sauron__Lord_of_the_Rings": {
+  "slug": "sauron-lord-of-the-rings",
+  "themes": "Reanimator / Graveyard Setup / Amass Orcs",
+  "commanders": [
+   "Sauron, Lord of the Rings"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Force of Will",
+   "Grim Monolith",
+   "Jeska's Will",
+   "Mana Vault",
+   "Orcish Bowmasters",
+   "Rhystic Study",
+   "The One Ring",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 0,
+  "n_two": 0,
+  "src_claim": "4 — Optimized",
+  "lands": 32,
+  "avg_mv": 3.5074626865671643,
+  "source_path": "refinement/decklists/Sauron_Lord_of_the_Rings_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "Sauron__the_Dark_Lord": {
+  "slug": "sauron-the-dark-lord",
+  "themes": "Amass Orcs / Ring Temptation / Wraiths",
+  "commanders": [
+   "Sauron, the Dark Lord"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Force of Will",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Mana Vault",
+   "Fierce Guardianship",
+   "Jeska's Will",
+   "Mystical Tutor",
+   "Orcish Bowmasters",
+   "Rhystic Study",
+   "The One Ring",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 0,
+  "n_two": 0,
+  "src_claim": "4 — Optimized",
+  "lands": 34,
+  "avg_mv": 2.9692307692307693,
+  "source_path": "refinement/decklists/Sauron_the_Dark_Lord_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "Sedris__the_Traitor_King": {
+  "slug": "sedris-the-traitor-king",
+  "themes": "Unearth / Reanimator / End-Step Control",
+  "commanders": [
+   "Sedris, the Traitor King"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Force of Will",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Grim Monolith",
+   "Fierce Guardianship",
+   "Gamble",
+   "Gifts Ungiven",
+   "Jeska's Will",
+   "Mana Vault",
+   "Rhystic Study",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 1,
+  "n_two": 1,
+  "src_claim": "4 — Optimized",
+  "lands": 31,
+  "avg_mv": 3.426470588235294,
+  "source_path": "refinement/decklists/Sedris_the_Traitor_King_Approved_2026-10-15.txt",
+  "fixes": 3
+ },
+ "Sol_kanar_the_Swamp_King": {
+  "slug": "solkanar-the-swamp-king",
+  "themes": "Black Spells / Lifegain / Swamp Matters",
+  "commanders": [
+   "Sol'kanar the Swamp King"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Bolas's Citadel",
+   "Chrome Mox",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Imperial Seal",
+   "Jeska's Will",
+   "Mana Vault",
+   "Mox Diamond",
+   "Rhystic Study",
+   "The One Ring",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 13,
+  "n_two": 11,
+  "src_claim": "4 — Optimized",
+  "lands": 35,
+  "avg_mv": 2.65625,
+  "source_path": "refinement/decklists/Solkanar_the_Swamp_King_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "Sol_kanar_the_Tainted": {
+  "slug": "solkanar-the-tainted",
+  "themes": "Donate / Blink / Giftable Curses",
+  "commanders": [
+   "Sol'Kanar the Tainted"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Mana Vault",
+   "Orcish Bowmasters",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 4,
+  "n_two": 0,
+  "src_claim": "4 — Optimized",
+  "lands": 35,
+  "avg_mv": 3.03125,
+  "source_path": "refinement/decklists/Solkanar_the_Tainted_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "Tetsuo_Umezawa": {
+  "slug": "tetsuo-umezawa",
+  "themes": "Tap/Untap / Forced Combat / Activated Abilities",
+  "commanders": [
+   "Tetsuo Umezawa"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Force of Will",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 1,
+  "n_two": 1,
+  "src_claim": "4 — Optimized",
+  "lands": 35,
+  "avg_mv": 2.75,
+  "source_path": "refinement/decklists/Tetsuo_Umezawa_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "Tetsuo__Imperial_Champion": {
+  "slug": "tetsuo-imperial-champion",
+  "themes": "Equipment / Free-Cast Spells / Extra Combats",
+  "commanders": [
+   "Tetsuo, Imperial Champion"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Cyclonic Rift",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Rhystic Study"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 2,
+  "n_two": 2,
+  "src_claim": "4 — Optimized",
+  "lands": 35,
+  "avg_mv": 3.1875,
+  "source_path": "refinement/decklists/Tetsuo_Imperial_Champion_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "The_Rani": {
+  "slug": "the-rani",
+  "themes": "Goad / Clues / Forced Combat",
+  "commanders": [
+   "The Rani"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Mystical Tutor",
+   "Rhystic Study",
+   "The One Ring",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 0,
+  "n_two": 0,
+  "src_claim": "4 — Optimized",
+  "lands": 33,
+  "avg_mv": 3.015151515151515,
+  "source_path": "refinement/decklists/The_Rani_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "The_Valeyard": {
+  "slug": "the-valeyard",
+  "themes": "Villainous Choice / Voting / Political Control",
+  "commanders": [
+   "The Valeyard"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Rhystic Study",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 0,
+  "n_two": 0,
+  "src_claim": "4 — Optimized",
+  "lands": 36,
+  "avg_mv": 3.6031746031746033,
+  "source_path": "refinement/decklists/The_Valeyard_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "Thraximundar": {
+  "slug": "thraximundar",
+  "themes": "Sacrifice / Zombie Aristocrats / Commander Damage",
+  "commanders": [
+   "Thraximundar"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Mana Vault",
+   "Rhystic Study",
+   "Tergrid, God of Fright // Tergrid's Lantern",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 17,
+  "n_two": 1,
+  "src_claim": "4 — Optimized",
+  "lands": 36,
+  "avg_mv": 2.7777777777777777,
+  "source_path": "refinement/decklists/Thraximundar_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "Wick__the_Whorled_Mind": {
+  "slug": "wick-the-whorled-mind",
+  "themes": "",
+  "commanders": [
+   "Wick, the Whorled Mind"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Jeska's Will",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 13,
+  "n_two": 1,
+  "src_claim": "4 — Optimized",
+  "lands": 35,
+  "avg_mv": 2.546875,
+  "source_path": "refinement/decklists/Wick_the_Whorled_Mind_Approved_2026-10-15.txt",
+  "fixes": 2
+ },
+ "Zevlor__Elturel_Exile": {
+  "slug": "zevlor-elturel-exile",
+  "themes": "",
+  "commanders": [
+   "Zevlor, Elturel Exile"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Cyclonic Rift",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Gamble",
+   "Jeska's Will",
+   "Mana Vault",
+   "Mystical Tutor",
+   "Rhystic Study",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 1,
+  "n_two": 1,
+  "src_claim": "4 — natural ceiling",
+  "lands": 34,
+  "avg_mv": 2.7384615384615385,
+  "source_path": "refinement/decklists/Zevlor_Elturel_Exile_Approved_2026-10-15.txt",
   "fixes": 2
  }
 }

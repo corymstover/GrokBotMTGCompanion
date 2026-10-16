@@ -211,6 +211,7 @@ schema: 2
   - *2023-10-13* — If a spell or ability requires multiple players to face a villainous choice, the result is a little different from other effects in Magic. In that case, the first player in turn order makes their choice and the action for that choice is performed before the next player makes their choice. Then each of the remaining players repeat this process in turn order.
   - *2023-10-13* — When a creature becomes attacking this way, it wasn't declared as an attacker, so triggered abilities that trigger when a creature attacks won't trigger. Similar, all restrictions or costs to attack are ignored. For example, if the chosen creature has defender, it could still end up being an attacking creature this way.
   - *2023-10-13* — When a player faces a villainous choice, they first choose one of the two options, then all actions in the chosen option are performed.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#midnight-crusader-shuttle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/179/midnight-crusader-shuttle) · oracle_id `22fa2860-d746-4429-b7e3-3403bef27f7b` · printing: WHO #179 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Duelist

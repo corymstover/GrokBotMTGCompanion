@@ -236,6 +236,7 @@ schema: 2
   - *2021-06-18* — If there are no legal targets that could be selected, the targets remain unchanged. Note that this may not mean that those targets are illegal as the spell resolves. For example, if an opponent in a two-player game has hexproof and casts Lava Spike targeting you, Chef's Kiss will not be able to change the target. However, this doesn't make you an illegal target, and both the original spell and the copy will still target you and deal 3 damage to you.
   - *2021-06-18* — Neither copying a spell nor reselecting its targets counts as casting a spell.
   - *2021-06-18* — Note that Chef's Kiss may make some or all of the targets of a spell illegal. For example, any spell an opponent cast that targets a “creature you control” will be unable to find a new legal target, and its target will remain unchanged. In that case, that part of the spell will do nothing. If that was the spell's only target, that spell will be removed from the stack when it tries to resolve.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#chefs-kiss)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/120/chefs-kiss) · oracle_id `3d177c04-9aa3-44b8-bbe4-df5de23a4ce6` · printing: MH2 #120 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chelonian Tackle

@@ -120,7 +120,7 @@ schema: 2
   - *2022-06-10* — If the chosen creature has {X} in its mana cost, X is considered to be 0.
   - *2022-06-10* — If the chosen creature is a token, Mocking Doppelganger copies the original characteristics of that token, except for the added ability. Mocking Doppelganger doesn't become a token in this case.
   - *2022-06-10* — If the chosen creature is copying something else, Mocking Doppelganger will use the copiable values of the chosen creature. In most cases, it will be a copy of whatever the chosen creature is copying.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mocking-doppelganger)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#mocking-doppelganger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/667/mocking-doppelganger) · oracle_id `3b8eb602-01e8-432e-8dfc-8fdb62c3aa43` · printing: CLB #667 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mocking Sprite

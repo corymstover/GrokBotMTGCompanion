@@ -41,7 +41,7 @@ schema: 2
   - *2018-10-05* — Mnemonic Betrayal doesn’t change when you can cast the exiled cards. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty.
   - *2018-10-05* — Only the cards that remain in exile are returned to their owners’ graveyards. For example, a permanent spell cast this way will remain on the battlefield.
   - *2018-10-05* — You can’t play land cards exiled this way.
-- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/M.md#mnemonic-betrayal)
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/M.md#mnemonic-betrayal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/189/mnemonic-betrayal) · oracle_id `aa41e0e6-d04e-48d6-8450-02b972dd0bb1` · printing: GRN #189 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mnemonic Deluge

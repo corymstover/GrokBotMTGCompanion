@@ -1325,7 +1325,7 @@ schema: 2
   - *2024-11-08* — If a permanent on the battlefield has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
   - *2024-11-08* — If the target permanent is an illegal target by the time Feed the Swarm tries to resolve, the spell doesn't resolve. You don't lose any life. If the target is legal but not destroyed (most likely because it has indestructible), you do lose life.
   - *2024-11-08* — The amount of life you lose is determined by the permanent's mana value as it last existed on the battlefield.
-- **Referenced in:** 20 pages (15 decks · 4 edh guides · 1 card data) → [reverse index](../../references/F.md#feed-the-swarm)
+- **Referenced in:** 29 pages (24 decks · 4 edh guides · 1 card data) → [reverse index](../../references/F.md#feed-the-swarm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/257/feed-the-swarm) · oracle_id `5825997b-10d7-4a36-972c-a80ddd90b8ed` · printing: TLE #257 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Feeling of Dread
@@ -1435,7 +1435,8 @@ schema: 2
   - *2021-03-19* — If the copied creature card has {X} in its mana cost, X is 0.
   - *2021-03-19* — The token copies exactly what was printed on the original creature card (except that the copy is also an artifact) and nothing else.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Feldon of the Third Path + Combat Celebrant + Determined Iteration](https://commanderspellbook.com/combo/57-2105-3934/) (Infinite combat phases, Infinite creature tokens with haste) · EDHREC as commander: 2,307 decks; highest synergy [Combustible Gearhulk](../../cards/C/com.md#combustible-gearhulk) (+71%), [Meteor Golem](../../cards/M/me.md#meteor-golem) (+65%), [Wurmcoil Engine](../../cards/W/wu.md#wurmcoil-engine) (+63%) · EDHREC: in 102,476 decks; most often under [Obeka, Brute Chronologist](../../cards/O/ob.md#obeka-brute-chronologist) (69.5% of its decks), [Ziatora, the Incinerator](../../cards/Z/zi.md#ziatora-the-incinerator) (44.9% of its decks), [The Master, Multiplied](../../cards/T/them.md#the-master-multiplied) (69.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Synergy:** *Proven* — KB decks (2): [Obeka, Brute Chronologist (Grixis)](../../grixis/decks/obeka-brute-chronologist.md) · [Sedris, the Traitor King (Grixis)](../../grixis/decks/sedris-the-traitor-king.md) · Commander Spellbook: 100+ combos; most popular [Feldon of the Third Path + Combat Celebrant + Determined Iteration](https://commanderspellbook.com/combo/57-2105-3934/) (Infinite combat phases, Infinite creature tokens with haste) · EDHREC as commander: 2,307 decks; highest synergy [Combustible Gearhulk](../../cards/C/com.md#combustible-gearhulk) (+71%), [Meteor Golem](../../cards/M/me.md#meteor-golem) (+65%), [Wurmcoil Engine](../../cards/W/wu.md#wurmcoil-engine) (+63%) · EDHREC: in 102,476 decks; most often under [Obeka, Brute Chronologist](../../cards/O/ob.md#obeka-brute-chronologist) (69.5% of its decks), [Ziatora, the Incinerator](../../cards/Z/zi.md#ziatora-the-incinerator) (44.9% of its decks), [The Master, Multiplied](../../cards/T/them.md#the-master-multiplied) (69.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/F.md#feldon-of-the-third-path)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/277/feldon-of-the-third-path) · oracle_id `be094704-5232-4b10-beeb-aa9bbfae063d` · printing: MOC #277 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Feldon, Ronom Excavator
@@ -1929,7 +1930,7 @@ schema: 2
   - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
   - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
   - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
-- **Referenced in:** 5 pages (1 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/F.md#fell-the-profane--fell-mire)
+- **Referenced in:** 6 pages (2 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/F.md#fell-the-profane--fell-mire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/244/fell-the-profane-fell-mire) · oracle_id `053a69d8-2b5e-4f14-8b02-ca405891dc4a` · printing: MH3 #244 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fellwar Stone
@@ -1950,7 +1951,7 @@ schema: 2
   - *2009-10-01* — Fellwar Stone doesn't care about any restrictions or riders your opponents' lands (such as Ancient Ziggurat or Hall of the Bandit Lord) put on the mana they produce. It just cares about colors of mana.
   - *2009-10-01* — The colors of mana are white, blue, black, red, and green. Fellwar Stone can't be tapped for colorless mana, even if a land an opponent controls could produce colorless mana.
   - *2009-10-01* — When determining what colors of mana your opponents' lands could produce, take into account any applicable replacement effects that would apply to those lands' mana abilities (such as Contamination's effect, for example). If there is more than one, consider them in any possible order.
-- **Referenced in:** 45 pages (38 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/F.md#fellwar-stone)
+- **Referenced in:** 57 pages (50 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/F.md#fellwar-stone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/74/fellwar-stone) · oracle_id `95560508-7ac9-4be9-8a3f-3c7d5b52807b` · printing: MBC #74 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Felonious Rage

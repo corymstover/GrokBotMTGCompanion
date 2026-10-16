@@ -1190,6 +1190,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13797 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — If you Donate an Aura, it stays where it is, but the targeted player now controls it.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#donate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uds/31/donate) · oracle_id `049d1fb2-cce7-40e7-a633-e84cf9782d89` · printing: UDS #31 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Donatello, Gadget Master
@@ -2502,6 +2503,7 @@ schema: 2
   - *2020-06-23* — The copy that Double Vision's ability creates is created on the stack, so it's not “cast.” Abilities that trigger when a player casts a spell won't trigger.
   - *2020-06-23* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
   - *2020-06-23* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#double-vision)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/267/double-vision) · oracle_id `6629a48b-be9a-4636-8add-69d096a1ca7e` · printing: NCC #267 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doubling Chant

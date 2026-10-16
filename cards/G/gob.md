@@ -604,7 +604,7 @@ schema: 2
   > *With one motion, a pest is removed and a scourge inflicted.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #463 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 11 pages (6 decks · 4 edh guides · 1 card data) → [reverse index](../../references/G.md#goblin-bombardment)
+- **Referenced in:** 15 pages (10 decks · 4 edh guides · 1 card data) → [reverse index](../../references/G.md#goblin-bombardment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/279/goblin-bombardment) · oracle_id `edad60c6-80de-4033-af1b-a703ac332983` · printing: MH2 #279 (2021-06-18) · [rulings](https://api.scryfall.com/cards/e262f55e-9239-4a97-a19e-9b08fb34502e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Bookie
@@ -1065,7 +1065,7 @@ schema: 2
   - *2017-03-14* — Two Goblin Electromancers will make instant and sorcery spells you cast cost {2} less to cast, and so on.
   - *2018-10-05* — Goblin Electromancer's effect reduces only generic mana in the spell's total cost.
   - *2018-10-05* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
-- **Referenced in:** 9 pages (4 decks · 4 edh guides · 1 card data) → [reverse index](../../references/G.md#goblin-electromancer)
+- **Referenced in:** 13 pages (7 decks · 5 edh guides · 1 card data) → [reverse index](../../references/G.md#goblin-electromancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/99/goblin-electromancer) · oracle_id `81f06f84-1580-43c0-89d5-08d34541a519` · printing: TDC #99 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Elite Infantry

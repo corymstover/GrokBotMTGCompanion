@@ -522,6 +522,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-07-12* — A Swamp is a land with the subtype Swamp, not any land with a mana ability that produces black mana.
   - *2019-07-12* — If you choose the second mode and the chosen target is an illegal target by the time Dread Presence's triggered ability tries to resolve, the ability doesn't resolve. You won't gain 2 life, and the ability won't change to the first mode.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#dread-presence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/96/dread-presence) · oracle_id `1690a782-9e54-4231-9a72-abae5ed7050c` · printing: M20 #96 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dread Reaper
@@ -556,7 +557,7 @@ schema: 2
   - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
   - *2022-12-08* — You choose the target for Dread Return before paying any of its costs, so it's not possible to cast it using flashback and bring back one of the creatures you sacrifice.
-- **Referenced in:** 7 pages (1 decks · 3 edh guides · 1 rules · 2 card data) → [reverse index](../../references/D.md#dread-return)
+- **Referenced in:** 8 pages (2 decks · 3 edh guides · 1 rules · 2 card data) → [reverse index](../../references/D.md#dread-return)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/153/dread-return) · oracle_id `352b64d2-2ae5-44ee-a64f-94932ef545d3` · printing: CMM #153 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dread Rider
@@ -1458,7 +1459,7 @@ schema: 2
   - *2024-06-07* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
   - *2024-06-07* — When you proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2024-06-07* — You don't have to choose every permanent or player that has a counter—only the ones you want to add counters to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
-- **Referenced in:** 6 pages (2 decks · 3 edh guides · 1 rules) → [reverse index](../../references/D.md#dreamtide-whale)
+- **Referenced in:** 7 pages (3 decks · 3 edh guides · 1 rules) → [reverse index](../../references/D.md#dreamtide-whale)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/59/dreamtide-whale) · oracle_id `ee8c0b4c-03c5-4da5-b4f1-028c845384af` · printing: MH3 #59 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dream Trawler
@@ -1573,8 +1574,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8574 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (1): [Dr. Eggman (Grixis)](../../grixis/decks/dr-eggman.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 13,442 decks; highest synergy [Noxious Gearhulk](../../cards/N/no.md#noxious-gearhulk) (+79%), [Combustible Gearhulk](../../cards/C/com.md#combustible-gearhulk) (+75%), [Myr Battlesphere](../../cards/M/my.md#myr-battlesphere) (+73%) · EDHREC: in 2,496 decks; most often under [The Valeyard](../../cards/T/thev.md#the-valeyard) (32.6% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.4% of its decks), [Infinite Guideline Station](../../cards/I/inf.md#infinite-guideline-station) (3.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/D.md#dr-eggman)
+- **Synergy:** *Proven* — KB decks (2): [Dr. Eggman (Grixis)](../../grixis/decks/dr-eggman.md) · [The Valeyard (Grixis)](../../grixis/decks/the-valeyard.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 13,442 decks; highest synergy [Noxious Gearhulk](../../cards/N/no.md#noxious-gearhulk) (+79%), [Combustible Gearhulk](../../cards/C/com.md#combustible-gearhulk) (+75%), [Myr Battlesphere](../../cards/M/my.md#myr-battlesphere) (+73%) · EDHREC: in 2,496 decks; most often under [The Valeyard](../../cards/T/thev.md#the-valeyard) (32.6% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.4% of its decks), [Infinite Guideline Station](../../cards/I/inf.md#infinite-guideline-station) (3.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/D.md#dr-eggman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2084/dr-eggman) · oracle_id `fb68c1ae-a129-4c17-81fa-be5da2c32ec5` · printing: SLD #2084 (2025-07-14) · [rulings](https://api.scryfall.com/cards/18602e92-69be-4626-a28a-463913108f42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreg Mangler

@@ -977,6 +977,7 @@ schema: 2
   - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
   - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
   - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#inspiring-refrain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/27/inspiring-refrain) · oracle_id `1773c4e8-dc08-482a-9f26-30ef96c5b200` · printing: C21 #27 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inspiring Roar
@@ -1013,7 +1014,7 @@ schema: 2
   - *2017-02-09* — Tapping an artifact won't cause its abilities to stop applying unless those abilities say so.
   - *2017-02-09* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Improvise applies after the total cost is calculated.
   - *2017-02-09* — When using improvise to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap artifacts you control to help pay that cost. For example, if you cast Whir of Invention (a spell with improvise and mana cost {X}{U}{U}{U}) and choose X to be 3, the total cost is {3}{U}{U}{U}. If you tap two artifacts, you'll have to pay {1}{U}{U}{U}.
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/I.md#inspiring-statuary)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/I.md#inspiring-statuary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/230/inspiring-statuary) · oracle_id `78b2b68d-6e27-49f3-8373-6e19faf6f679` · printing: MKC #230 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inspiring Unicorn

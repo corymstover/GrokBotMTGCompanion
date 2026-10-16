@@ -560,6 +560,7 @@ schema: 2
 - **Keywords:** Secret council
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11078 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#truth-or-consequences)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/163/truth-or-consequences) · oracle_id `58d944fb-d1ba-4141-baaf-37dd10978656` · printing: WHO #163 (2023-10-13) · [rulings](https://api.scryfall.com/cards/ce8771cc-1042-47b1-b4fa-459c3eeece04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Truth or Dare

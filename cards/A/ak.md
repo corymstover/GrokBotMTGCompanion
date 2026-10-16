@@ -204,6 +204,7 @@ schema: 2
   - *2022-02-18* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
   - *2022-02-18* — An Aura controlled by an opponent does not cause a creature you control to be modified.
   - *2022-02-18* — Notably, the triggered ability of Akki Battle Squad doesn't give you any additional main phases. This means that you will move directly from the end of combat step of one combat phase to the beginning of combat step of the next one.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#akki-battle-squad)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/18/akki-battle-squad) · oracle_id `5bd81d2f-46a1-4536-92e7-28c7e1892735` · printing: NEC #18 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akki Blizzard-Herder

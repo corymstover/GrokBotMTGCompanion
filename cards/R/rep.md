@@ -348,7 +348,7 @@ schema: 2
   - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
   - *2021-02-05* — The check of whether Replicating Ring has eight or more night counters on it happens only as part of the resolution of the triggered ability. If Replicating Ring picks up its eighth night counter at another time, you won't immediately create Replicated Rings. You'll have to wait until the next time the triggered ability resolves.
   - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#replicating-ring)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/R.md#replicating-ring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/372/replicating-ring) · oracle_id `1ff00f5b-4bf9-4724-8bb5-6b9a9eb0ec7f` · printing: MOC #372 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Replication Specialist
@@ -381,7 +381,7 @@ schema: 2
   - *2021-04-16* — If you copy a spell with demonstrate, you then immediately choose an opponent. If they copy the spell, it goes on top of the stack.
   - *2021-04-16* — This means that if you cast a spell with demonstrate and both you and an opponent copy it, the opponent's copy will resolve first, then your copy will resolve, and finally the original spell will resolve.
   - *2021-04-16* — You choose whether to make a copy as the demonstrate ability resolves. This happens before the original spell resolves. Your copy goes on the stack above the original spell.
-- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/R.md#replication-technique)
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/R.md#replication-technique)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/200/replication-technique) · oracle_id `163baf58-b35d-4f2b-aa53-8384b8b5800a` · printing: SOC #200 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repopulate

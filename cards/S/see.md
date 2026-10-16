@@ -745,5 +745,5 @@ schema: 2
   > *Vulshok mana rituals echo the day when the red sun burst through Mirrodin's surface to take its place in the heavens.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #300 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/S.md#seething-song)
+- **Referenced in:** 5 pages (3 decks · 2 card data) → [reverse index](../../references/S.md#seething-song)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/179/seething-song) · oracle_id `64bf8929-f5f2-4d50-8667-13b1d007bcfc` · printing: C21 #179 (2021-04-23) · [rulings](https://api.scryfall.com/cards/f493ce26-005c-4ddc-80f0-47bea4fd013a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

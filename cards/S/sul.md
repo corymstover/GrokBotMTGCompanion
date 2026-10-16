@@ -104,8 +104,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #76 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
 - **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 7](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-7-2018-04-25), [Unbowed, Part 3](https://magic.wizards.com/en/news/magic-story/unbowed-part-3-2018-09-07) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (14): [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · [Nekusar, the Mindrazer](../../decks/nekusar-the-mindrazer.md) · [Niv-Mizzet, Parun](../../decks/niv-mizzet-parun.md) · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 899,573 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (61.1% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (58.3% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (51.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 19 pages (14 decks · 3 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/S.md#sulfur-falls)
+- **Synergy:** *Proven* — KB decks (18): [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · [Nekusar, the Mindrazer](../../decks/nekusar-the-mindrazer.md) · [Niv-Mizzet, Parun](../../decks/niv-mizzet-parun.md) · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 899,573 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (61.1% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (58.3% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (51.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 23 pages (18 decks · 3 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/S.md#sulfur-falls)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/84/sulfur-falls) · oracle_id `6a6c5e17-6465-4a1f-9d63-8a3ce2edc522` · printing: FRC #84 (2026-10-02) · [rulings](https://api.scryfall.com/cards/2b20fa73-c6de-49c1-b3d0-6ebd543a00d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sulfuric Vapors
@@ -175,7 +175,7 @@ schema: 2
   > *Everything is flammable in the Burning Isles, even the mana itself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #144 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 18 pages (13 decks · 4 edh guides · 1 card data) → [reverse index](../../references/S.md#sulfurous-springs)
+- **Referenced in:** 21 pages (16 decks · 4 edh guides · 1 card data) → [reverse index](../../references/S.md#sulfurous-springs)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/85/sulfurous-springs) · oracle_id `f5c38c01-4a40-469f-91a0-7479daf4e8e7` · printing: FRC #85 (2026-10-02) · [rulings](https://api.scryfall.com/cards/be340a1c-f1e7-446e-ae91-86ecb884479c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sulfur Vent

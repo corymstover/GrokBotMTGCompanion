@@ -378,7 +378,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #254 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/B.md#basilisk-collar)
+- **Referenced in:** 5 pages (4 decks · 1 card data) → [reverse index](../../references/B.md#basilisk-collar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/669/basilisk-collar) · oracle_id `f5f4dd28-f4ae-4d39-b9b8-6ebfd63c93fe` · printing: FDN #669 (2024-11-15) · [rulings](https://api.scryfall.com/cards/7b36fba7-71f7-4b7f-bde5-b3a9752ad21c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Basilisk Gate

@@ -1164,7 +1164,7 @@ schema: 2
   - *2024-04-12* — If the target is illegal as Electrodominance tries to resolve, it won't resolve and none of its effects will happen. You won't get to cast a spell from your hand.
   - *2024-04-12* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, such as that of Bankrupt in Blood, those must be paid to cast the card.
   - *2024-04-12* — You cast the spell during the resolution of Electrodominance. Ignore timing restrictions based on the spell's type.
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/E.md#electrodominance)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/E.md#electrodominance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/212/electrodominance) · oracle_id `4a59d86e-405d-4c70-b2a5-c64f5cecfd9e` · printing: TDC #212 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Electroduplicate

@@ -243,7 +243,7 @@ schema: 2
   - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
   - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
   - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#wheel-of-fate)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/W.md#wheel-of-fate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/198/wheel-of-fate) · oracle_id `15e4938d-1cd3-4670-9de5-2dc10abe4c19` · printing: TSR #198 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wheel of Fortune
@@ -254,7 +254,7 @@ schema: 2
   > Each player discards their hand, then draws seven cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #577 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 20 pages (15 decks · 2 edh guides · 3 card data) → [reverse index](../../references/W.md#wheel-of-fortune)
+- **Referenced in:** 24 pages (19 decks · 2 edh guides · 3 card data) → [reverse index](../../references/W.md#wheel-of-fortune)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/192/wheel-of-fortune) · oracle_id `a8abd966-de7b-46a3-8ac7-8747ab35653a` · printing: VMA #192 (2014-06-16) · [rulings](https://api.scryfall.com/cards/2597050f-6b1b-474e-aa16-33fd154628ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wheel of Misfortune

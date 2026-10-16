@@ -16,7 +16,7 @@ schema: 2
 
 # Grixis Deck — Cult of Skaro
 
-> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Cult_of_Skaro_Approval_Candidate_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Cult_of_Skaro_Approval_Candidate_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Cult_of_Skaro_Approval_Candidate_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Cult_of_Skaro_Approval_Candidate_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `1836b97`). Imported in Bot cycle 16; re-validated in Bot cycle 37 against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
 ## Contents
 - [Commander](#commander)
@@ -303,7 +303,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 ### From `refinement/blueprints/Cult_of_Skaro_v1.md`
 
-Source: [refinement/blueprints/Cult_of_Skaro_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Cult_of_Skaro_v1.md)
+Source: [refinement/blueprints/Cult_of_Skaro_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/blueprints/Cult_of_Skaro_v1.md)
 
 **Cult of Skaro — Commander-First Refinement Blueprint**
 
@@ -338,7 +338,7 @@ This is a commander-specific role and synergy judgment, not a measured win-rate 
 
 ### From `refinement/decisions/Cult_of_Skaro_Current_Cycle_Decisions_2026-10-14.md`
 
-Source: [refinement/decisions/Cult_of_Skaro_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Cult_of_Skaro_Current_Cycle_Decisions_2026-10-14.md)
+Source: [refinement/decisions/Cult_of_Skaro_Current_Cycle_Decisions_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decisions/Cult_of_Skaro_Current_Cycle_Decisions_2026-10-14.md)
 
 **Cult of Skaro — Current-Cycle Refinement Decision Record**
 
@@ -421,7 +421,7 @@ This exact list is approved and locked. Reopen it only upon explicit user instru
 
 ### Further source evidence (linked, not copied)
 
-- [refinement/verification/Cult_of_Skaro_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Cult_of_Skaro_Final_Verification_2026-10-13.md)
+- [refinement/verification/Cult_of_Skaro_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Cult_of_Skaro_Final_Verification_2026-10-13.md)
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

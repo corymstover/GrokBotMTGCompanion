@@ -821,7 +821,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3115 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — It counts how many cards you discard. Since this card will not be in your hand at that time, this card is not counted.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tolarian-winds)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/T.md#tolarian-winds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/105/tolarian-winds) · oracle_id `686cce6e-18ec-45b0-8d2e-74fa353a905e` · printing: 7ED #105 (2001-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tolaria West
@@ -1544,6 +1544,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7127 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-06-16* — If the card you return to the battlefield isn't a creature on the battlefield, it has no power and therefore deals no damage.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#too-greedily-too-deep)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/72/too-greedily-too-deep) · oracle_id `af65bbf9-e328-4b8b-8caa-c6dff743867b` · printing: LTC #72 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Took Reaper
@@ -2516,7 +2517,7 @@ schema: 2
   - *2017-07-14* — In a multiplayer game, each opponent in turn order makes their choice once, then all of the actions occur simultaneously, then they repeat this process if it hasn’t been done X times yet. Opponents will know choices made by earlier opponents when making their choices, although a card chosen to be discarded this way isn’t revealed until it’s discarded.
   - *2017-07-14* — State-based actions aren’t checked in between repetitions of this process, so the game state may be a little unusual while making the choice. For example, a player may sacrifice a creature and then later sacrifice an Aura that was attached to that creature.
   - *2017-07-14* — While resolving Torment of Hailfire, your opponent chooses a card to be discarded without revealing it, chooses a nonland permanent to be sacrificed, or chooses to do neither. Then that player discards that card, sacrifices that permanent, or loses 3 life, then repeats this process if it hasn’t been done X times yet. Your opponent can always choose to lose 3 life, even if they have cards to discard or nonland permanents to sacrifice.
-- **Referenced in:** 4 pages (2 decks · 1 rules · 1 card data) → [reverse index](../../references/T.md#torment-of-hailfire)
+- **Referenced in:** 7 pages (4 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/T.md#torment-of-hailfire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/77/torment-of-hailfire) · oracle_id `30a0a6c2-1fbb-4784-ab96-22611d57e62c` · printing: HOU #77 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Torment of Scarabs
@@ -3060,7 +3061,8 @@ schema: 2
 - **Rulings** (1):
   - *2023-09-01* — If Totentanz, Swarm Piper dies at the same time as one or more other nontoken creatures you control, Totentanz's ability triggers for each of them.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Viscera Seer + Totentanz, Swarm Piper + Reassembling Skeleton + Pitiless Plunderer](https://commanderspellbook.com/combo/792-1580-2292-4871/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 1,813 decks; highest synergy [Piper of the Swarm](../../cards/P/pi.md#piper-of-the-swarm) (+80%), [Ogre Slumlord](../../cards/O/og.md#ogre-slumlord) (+79%), [Lord Skitter, Sewer King](../../cards/L/lo.md#lord-skitter-sewer-king) (+77%) · EDHREC: in 12,163 decks; most often under [Wick, the Whorled Mind](../../cards/W/wi.md#wick-the-whorled-mind) (63.0% of its decks), [Akul the Unrepentant](../../cards/A/ak.md#akul-the-unrepentant) (15.0% of its decks), [Garna, Bloodfist of Keld](../../cards/G/ga.md#garna-bloodfist-of-keld) (16.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Synergy:** *Proven* — KB decks (1): [Wick, the Whorled Mind (Grixis)](../../grixis/decks/wick-the-whorled-mind.md) · Commander Spellbook: 100+ combos; most popular [Viscera Seer + Totentanz, Swarm Piper + Reassembling Skeleton + Pitiless Plunderer](https://commanderspellbook.com/combo/792-1580-2292-4871/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 1,813 decks; highest synergy [Piper of the Swarm](../../cards/P/pi.md#piper-of-the-swarm) (+80%), [Ogre Slumlord](../../cards/O/og.md#ogre-slumlord) (+79%), [Lord Skitter, Sewer King](../../cards/L/lo.md#lord-skitter-sewer-king) (+77%) · EDHREC: in 12,163 decks; most often under [Wick, the Whorled Mind](../../cards/W/wi.md#wick-the-whorled-mind) (63.0% of its decks), [Akul the Unrepentant](../../cards/A/ak.md#akul-the-unrepentant) (15.0% of its decks), [Garna, Bloodfist of Keld](../../cards/G/ga.md#garna-bloodfist-of-keld) (16.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#totentanz-swarm-piper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/216/totentanz-swarm-piper) · oracle_id `cfa46f8f-b3ec-4ee0-acdd-622f3177e02a` · printing: WOE #216 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### To the Slaughter
@@ -3826,7 +3828,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — All creatures on the battlefield when Toxic Deluge resolves are affected. Ones that enter the battlefield or become creatures later in the turn are not.
   - *2020-08-07* — If you cast Toxic Deluge without paying its mana cost, you'll still choose a value for X and pay X life. This is because it doesn't have {X} in its mana cost.
-- **Referenced in:** 35 pages (32 decks · 2 edh guides · 1 card data) → [reverse index](../../references/T.md#toxic-deluge)
+- **Referenced in:** 48 pages (45 decks · 2 edh guides · 1 card data) → [reverse index](../../references/T.md#toxic-deluge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/161/toxic-deluge) · oracle_id `afaef788-34d1-460b-b884-9d7ae6ddeb18` · printing: MSC #161 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Toxic Iguanar

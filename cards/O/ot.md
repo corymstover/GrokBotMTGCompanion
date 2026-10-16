@@ -60,7 +60,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
   - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
-- **Referenced in:** 37 pages (33 decks · 3 edh guides · 1 card data) → [reverse index](../../references/O.md#otawara-soaring-city)
+- **Referenced in:** 53 pages (49 decks · 3 edh guides · 1 card data) → [reverse index](../../references/O.md#otawara-soaring-city)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/271/otawara-soaring-city) · oracle_id `e9b6a394-691c-425a-9307-76d8edc7375e` · printing: NEO #271 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oteclan Landmark // Oteclan Levitator

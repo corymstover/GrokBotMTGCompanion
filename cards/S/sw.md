@@ -223,8 +223,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
 - **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/beast-2014-06-19), [official story page](https://magic.wizards.com/en/news/feature/tragedy-2013-10-23), [Bound and Bonded](https://magic.wizards.com/en/news/magic-story/bound-and-bonded-2018-11-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (58): [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) · [Edgar Markov](../../decks/edgar-markov.md) · [Karador, Ghost Chieftain](../../decks/karador-ghost-chieftain.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,789,200 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (93.6% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (97.7% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (89.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 36 pages (35 decks · 1 card data) → [reverse index](../../references/S.md#swamp)
+- **Synergy:** *Proven* — KB decks (76): [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) · [Edgar Markov](../../decks/edgar-markov.md) · [Karador, Ghost Chieftain](../../decks/karador-ghost-chieftain.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,789,200 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (93.6% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (97.7% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (89.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 54 pages (53 decks · 1 card data) → [reverse index](../../references/S.md#swamp)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mdd/296/swamp) · oracle_id `56719f6a-1a6c-4c0a-8d21-18f7d7350b68` · printing: MDD #296 (2027-04-09) · [rulings](https://api.scryfall.com/cards/b233b117-9369-45c1-80c5-cc857386b6be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swampbenders
@@ -305,7 +305,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #66 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-09-15* — Swan Song can target a spell that can't be countered. That spell won't be countered when Swan Song resolves, but its controller will get a Bird token.
-- **Referenced in:** 37 pages (32 decks · 3 edh guides · 2 card data) → [reverse index](../../references/S.md#swan-song)
+- **Referenced in:** 49 pages (44 decks · 3 edh guides · 2 card data) → [reverse index](../../references/S.md#swan-song)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/46/swan-song) · oracle_id `8ddfc283-c9b4-41a5-af88-cf0068e986cc` · printing: EOC #46 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swarm, Being of Bees
@@ -403,6 +403,7 @@ schema: 2
   - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
   - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#swarming-of-moria)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/150/swarming-of-moria) · oracle_id `c96402dc-1509-4136-bbfd-c86a85e3ee6f` · printing: LTR #150 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swarm Intelligence
@@ -519,6 +520,7 @@ schema: 2
 - **Keywords:** Heal, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1040 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#swarmyard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/284/swarmyard) · oracle_id `4b508087-99da-4eb1-8b12-29162f2ec85d` · printing: TSR #284 (2021-03-19) · [rulings](https://api.scryfall.com/cards/b89329f2-d386-40a7-9098-6d80beeb8843/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swarmyard Massacre
@@ -899,7 +901,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-03-16* — If a creature enters the battlefield under your control and gains haste, but then loses it before attacking, it won't be able to attack that turn. This means that you can't use one Swiftfoot Boots to allow two new creatures to attack in the same turn.
-- **Referenced in:** 31 pages (24 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/S.md#swiftfoot-boots)
+- **Referenced in:** 38 pages (31 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/S.md#swiftfoot-boots)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/77/swiftfoot-boots) · oracle_id `c8b143ad-43ec-4e0d-a440-e348daa31391` · printing: MBC #77 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swiftgear Drake
@@ -1393,7 +1395,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — You can tap your lands for mana while the triggered ability is on the stack. However, you'll lose any mana you produce this way if you don't spend it before the end of the current combat damage step.
   - *2020-08-07* — You'll untap all lands you control even if the player can't discard a card.
-- **Referenced in:** 9 pages (4 decks · 3 edh guides · 1 rules · 1 card data) → [reverse index](../../references/S.md#sword-of-feast-and-famine)
+- **Referenced in:** 12 pages (7 decks · 3 edh guides · 1 rules · 1 card data) → [reverse index](../../references/S.md#sword-of-feast-and-famine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/296/sword-of-feast-and-famine) · oracle_id `d0901053-6de0-46d0-9ee3-8d40510236c1` · printing: 2XM #296 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of Fire and Ice
@@ -1408,7 +1410,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1340 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-08-07* — If the chosen target is an illegal target by the time the triggered ability tries to resolve, the ability won't resolve. You won't draw a card.
-- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#sword-of-fire-and-ice)
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#sword-of-fire-and-ice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/297/sword-of-fire-and-ice) · oracle_id `2ccdc60a-49a9-44b9-a7af-0ebf18b26785` · printing: 2XM #297 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of Fire and Ice and War and Peace
@@ -1571,8 +1573,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #234 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
 - **Lore:** ✅ Card art shown on [Nissa's Quest](https://magic.wizards.com/en/news/magic-story/nissas-quest-2015-09-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (1): [Nahiri, the Lithomancer](../../decks/lore-nahiri-the-lithomancer.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 444,070 decks; most often under [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (80.6% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (52.4% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (29.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Land ramp (puts lands onto the battlefield)](../../EDH%20Packages.md#ramp-land-ramp-puts-lands-onto-the-battlefield) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#sword-of-the-animist)
+- **Synergy:** *Proven* — KB decks (2): [Nahiri, the Lithomancer](../../decks/lore-nahiri-the-lithomancer.md) · [Tetsuo, Imperial Champion (Grixis)](../../grixis/decks/tetsuo-imperial-champion.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 444,070 decks; most often under [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (80.6% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (52.4% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (29.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Land ramp (puts lands onto the battlefield)](../../EDH%20Packages.md#ramp-land-ramp-puts-lands-onto-the-battlefield) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#sword-of-the-animist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/413/sword-of-the-animist) · oracle_id `d79cbc61-6c15-48ea-bbba-3cffb819ccba` · printing: CMM #413 (2023-08-04) · [rulings](https://api.scryfall.com/cards/64401acc-d080-4763-b67a-95164c11c69e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of the Chosen
@@ -1748,6 +1750,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8432 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#swordsmans-steel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/752/swordsmans-steel) · oracle_id `e36100d6-d9ae-454a-bba1-b50a69d5a28f` · printing: MSC #752 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ae4ab04b-a3bd-40ea-9a71-df221cde4496/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swords to Plowshares

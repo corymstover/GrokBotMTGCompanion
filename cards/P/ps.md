@@ -274,7 +274,7 @@ schema: 2
   > *Some frogs poison the body. Some frogs poison the mind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2089 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#psychic-frog)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/P.md#psychic-frog)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/199/psychic-frog) · oracle_id `e157ad1e-be35-47f3-92db-01799f8fb6a5` · printing: MH3 #199 (2024-06-14) · [rulings](https://api.scryfall.com/cards/68924203-c3d9-41ce-8ca8-c6dd491eb3ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Impetus
@@ -294,6 +294,7 @@ schema: 2
   - *2023-06-30* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
   - *2023-06-30* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent controls, or a player who goaded it.
   - *2023-06-30* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#psychic-impetus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/92/psychic-impetus) · oracle_id `47214acc-08c4-4dcb-9a8b-09196ce41045` · printing: CLU #92 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Intrusion
@@ -601,6 +602,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-04-01* — Psychic Vortex’s cumulative upkeep ability has you draw cards as a cost. If you choose to do so, and some or all of those draws are replaced by replacement effects, you are still considered to have paid the cumulative upkeep cost.
   - *2008-04-01* — You may choose to draw cards to pay the cumulative upkeep cost even if the number of cards you’d have to draw exceeds the number of cards in your library. If enough of those draws are replaced by replacement effects so you don’t actually attempt to draw a card with an empty library, everything’s fine. However, if you do attempt to draw a card with an empty library this way, Psychic Vortex will remain on the battlefield but you’ll lose the game as a state-based action as soon as the cumulative upkeep ability finishes resolving.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#psychic-vortex)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/50/psychic-vortex) · oracle_id `451e35dd-e0b5-4157-8511-bacb315e19bd` · printing: WTH #50 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Whorl

@@ -675,7 +675,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9763 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-07-26* — Use the power of the sacrificed Snail as it last existed on the battlefield to determine how much damage to deal and how many cards to draw. While Wick may have given the Snail up, Wick won’t let you down.
-- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/W.md#wick-the-whorled-mind)
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/W.md#wick-the-whorled-mind)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/120/wick-the-whorled-mind) · oracle_id `5af729e8-8a40-4991-8270-612e377451de` · printing: BLB #120 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Widespread Brutality
@@ -693,7 +693,7 @@ schema: 2
   - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Zombies, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Zombie, it becomes a Zombie in addition to its other types.
   - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2023-06-16* — To amass Zombies N, if you don't control an Army creature, create a 0/0 black Zombie Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Zombie, it becomes a Zombie in addition to its other types.
-- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/W.md#widespread-brutality)
+- **Referenced in:** 3 pages (2 decks · 1 rules) → [reverse index](../../references/W.md#widespread-brutality)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/226/widespread-brutality) · oracle_id `3a06f4c1-2af1-495f-914f-1ac4e26f87d4` · printing: WAR #226 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Widespread Panic
@@ -2028,8 +2028,8 @@ schema: 2
   - *2021-09-24* — Decayed represents a static ability and a triggered ability. “Decayed” means “This creature can't block” and “When this creature attacks, sacrifice it at end of combat.”
   - *2021-09-24* — Once a creature with decayed attacks, it will be sacrificed at end of combat, even if it no longer has decayed at that time.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (1): [Lord of Tresserhorn (Grixis)](../../grixis/decks/lord-of-tresserhorn.md) · Commander Spellbook: 35 combos; most popular [Wilhelt, the Rotcleaver + Poppet Stitcher // Poppet Factory + Carrion Feeder](https://commanderspellbook.com/combo/796-1762-2438/) (Infinite +1/+1 counters on a creature, Infinite death triggers) · EDHREC as commander: 22,728 decks; highest synergy [Diregraf Captain](../../cards/D/di.md#diregraf-captain) (+81%), [Rooftop Storm](../../cards/R/ro.md#rooftop-storm) (+80%), [Diregraf Colossus](../../cards/D/di.md#diregraf-colossus) (+77%) · EDHREC: in 37,792 decks; most often under [Varina, Lich Queen](../../cards/V/va.md#varina-lich-queen) (64.6% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (55.2% of its decks), [Temmet, Naktamun's Will](../../cards/T/te.md#temmet-naktamuns-will) (39.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/W.md#wilhelt-the-rotcleaver)
+- **Synergy:** *Proven* — KB decks (2): [Lord of Tresserhorn (Grixis)](../../grixis/decks/lord-of-tresserhorn.md) · [Thraximundar (Grixis)](../../grixis/decks/thraximundar.md) · Commander Spellbook: 35 combos; most popular [Wilhelt, the Rotcleaver + Poppet Stitcher // Poppet Factory + Carrion Feeder](https://commanderspellbook.com/combo/796-1762-2438/) (Infinite +1/+1 counters on a creature, Infinite death triggers) · EDHREC as commander: 22,728 decks; highest synergy [Diregraf Captain](../../cards/D/di.md#diregraf-captain) (+81%), [Rooftop Storm](../../cards/R/ro.md#rooftop-storm) (+80%), [Diregraf Colossus](../../cards/D/di.md#diregraf-colossus) (+77%) · EDHREC: in 37,792 decks; most often under [Varina, Lich Queen](../../cards/V/va.md#varina-lich-queen) (64.6% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (55.2% of its decks), [Temmet, Naktamun's Will](../../cards/T/te.md#temmet-naktamuns-will) (39.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/W.md#wilhelt-the-rotcleaver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/2/wilhelt-the-rotcleaver) · oracle_id `eada96a1-4964-4ad0-b0e3-2df08d6ae188` · printing: MIC #2 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Willbender
@@ -2202,7 +2202,7 @@ schema: 2
   - *2025-04-04* — Once you’ve announced that you’re casting this spell, players can’t take any actions until you’ve finished doing so. Notably, opponents can’t try to remove your commander to change how many modes you may choose.
   - *2025-04-04* — The commander you control doesn’t have to be your commander.
   - *2025-04-04* — Whether or not you control a commander is determined only once, as you choose the modes for this spell. If you somehow lose control of that commander before you finish casting the spell (perhaps because you sacrifice it to activate a mana ability), it won’t change the number of modes chosen.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#will-of-the-jeskai)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/W.md#will-of-the-jeskai)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/40/will-of-the-jeskai) · oracle_id `2c3e6377-d09c-46b6-8a83-ada4a2930b14` · printing: TDC #40 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Will of the Mardu
@@ -2712,7 +2712,7 @@ schema: 2
   > *"Rich" is a relative term.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #159 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 18 pages (14 decks · 2 edh guides · 2 card data) → [reverse index](../../references/W.md#windfall)
+- **Referenced in:** 27 pages (23 decks · 2 edh guides · 2 card data) → [reverse index](../../references/W.md#windfall)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/123/windfall) · oracle_id `08becc07-28bc-4a2f-a6b0-28a2998d2f50` · printing: OTC #123 (2024-04-19) · [rulings](https://api.scryfall.com/cards/9ce7113b-08f7-4584-b65f-a7b5caa90c2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Windgrace Acolyte
@@ -3355,6 +3355,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1944 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-07-23* — If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn't pay for all of them, the spell will be countered.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#winged-boots)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/124/winged-boots) · oracle_id `a178a789-1f5f-46ca-a90b-574bd236a671` · printing: OTC #124 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Winged Coatl
@@ -4233,6 +4234,7 @@ schema: 2
   > *He had no one left to betray but himself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21185 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#winter-tormented-loner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/240/winter-tormented-loner) · oracle_id `84eaac2e-74ce-4a16-9faa-409df7c58eb3` · printing: FRA #240 (2026-10-02) · [rulings](https://api.scryfall.com/cards/9670f754-f41f-45ac-8e8b-025ad2c0f66b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wipe Away
@@ -4524,7 +4526,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — Once Wishclaw Talisman runs out of wish counters, it remains on the battlefield. You can't activate its last ability at all.
   - *2019-10-04* — You choose which opponent gains control of Wishclaw Talisman while its ability is resolving. If that player later leaves the game, you regain control of Wishclaw Talisman.
-- **Referenced in:** 18 pages (13 decks · 4 edh guides · 1 rules) → [reverse index](../../references/W.md#wishclaw-talisman)
+- **Referenced in:** 20 pages (15 decks · 4 edh guides · 1 rules) → [reverse index](../../references/W.md#wishclaw-talisman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/617/wishclaw-talisman) · oracle_id `81c70ae7-3c18-4c9b-8505-e4db9e0e6518` · printing: FDN #617 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wishcoin Crab
@@ -4843,8 +4845,8 @@ schema: 2
   - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
   - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 62 combos; most popular [Norman Osborn // Green Goblin + Hullbreaker Horror + Witch-king of Angmar](https://commanderspellbook.com/combo/513-5436-6896/) (Infinite self-discard triggers, Infinite storm count) · EDHREC as commander: 1,117 decks; highest synergy [Call of the Ring](../../cards/C/cal.md#call-of-the-ring) (+76%), [Nazgûl](../../cards/N/na.md#nazgûl) (+73%), [Ringwraiths](../../cards/R/ri.md#ringwraiths) (+57%) · EDHREC: in 59,033 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (59.4% of its decks), [Lord of the Nazgûl](../../cards/L/lo.md#lord-of-the-nazgûl) (63.5% of its decks), [Sméagol, Helpful Guide](../../cards/S/sm.md#sméagol-helpful-guide) (51.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#witch-king-of-angmar)
+- **Synergy:** *Proven* — KB decks (1): [Sauron, the Dark Lord (Grixis)](../../grixis/decks/sauron-the-dark-lord.md) · Commander Spellbook: 62 combos; most popular [Norman Osborn // Green Goblin + Hullbreaker Horror + Witch-king of Angmar](https://commanderspellbook.com/combo/513-5436-6896/) (Infinite self-discard triggers, Infinite storm count) · EDHREC as commander: 1,117 decks; highest synergy [Call of the Ring](../../cards/C/cal.md#call-of-the-ring) (+76%), [Nazgûl](../../cards/N/na.md#nazgûl) (+73%), [Ringwraiths](../../cards/R/ri.md#ringwraiths) (+57%) · EDHREC: in 59,033 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (59.4% of its decks), [Lord of the Nazgûl](../../cards/L/lo.md#lord-of-the-nazgûl) (63.5% of its decks), [Sméagol, Helpful Guide](../../cards/S/sm.md#sméagol-helpful-guide) (51.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/W.md#witch-king-of-angmar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/114/witch-king-of-angmar) · oracle_id `2eb1b429-8d11-42f3-8815-5a60b6a4e2d5` · printing: LTR #114 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Witch-king, Sky Scourge
@@ -4894,6 +4896,7 @@ schema: 2
   - *2020-06-23* — The triggered ability looks at whether you've gained life in the turn, even if Witch of the Moors wasn't on the battlefield when you gained life. It doesn't care if you also lost life, even if you lost more life than you gained.
   - *2020-06-23* — The triggered ability triggers just once, no matter how much life you've gained.
   - *2020-06-23* — You don't have to choose a target creature card at all. If you do and the target card is an illegal target by the time the ability tries to resolve, the ability won't resolve. Your opponents won't sacrifice creatures.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#witch-of-the-moors)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/230/witch-of-the-moors) · oracle_id `7ad97dd9-1342-4ed4-bea9-1bb21d748e04` · printing: SOC #230 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Witch's Cauldron
@@ -5297,7 +5300,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #265 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-09-20* — If the target creature or enchantment is an illegal target as Withering Torment tries to resolve, it won't resolve and none of its effects will happen. You won't lose life.
-- **Referenced in:** 7 pages (4 decks · 2 edh guides · 1 card data) → [reverse index](../../references/W.md#withering-torment)
+- **Referenced in:** 11 pages (8 decks · 2 edh guides · 1 card data) → [reverse index](../../references/W.md#withering-torment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/162/withering-torment) · oracle_id `ffce81c5-1b58-4882-a4e7-6f8d7cb170de` · printing: MSC #162 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Withering Wisps
@@ -5732,7 +5735,7 @@ schema: 2
   - *2026-06-29* — Replacement effects are unaffected by Wizard's Staff's second ability.
   - *2026-06-29* — The second ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
   - *2026-06-29* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities are triggered abilities and will have "when," "whenever," or "at the beginning of" in their reminder text.
-- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/W.md#wizards-staff)
+- **Referenced in:** 6 pages (5 decks · 1 edh guides) → [reverse index](../../references/W.md#wizards-staff)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/59/wizards-staff) · oracle_id `30c3c700-46f4-4a77-8c45-5c7e3a21bd62` · printing: HOB #59 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wizened Arbiter

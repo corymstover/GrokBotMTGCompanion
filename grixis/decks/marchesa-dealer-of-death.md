@@ -16,7 +16,7 @@ schema: 2
 
 # Grixis Deck — Marchesa, Dealer of Death
 
-> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-15; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-15; source commit `1836b97`). Imported in Bot cycle 16; re-validated in Bot cycle 37 against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
 ## Contents
 - [Commander](#commander)
@@ -317,7 +317,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 ### From `refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md`
 
-Source: [refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md)
+Source: [refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md)
 
 **Marchesa, Dealer of Death — Current-Cycle Decision Closeout**
 
@@ -368,7 +368,7 @@ The exact SHA-bound list is now frozen for the current cycle. Do not revise, reo
 
 ### From `refinement/approvals/Marchesa_Dealer_of_Death_Approved_2026-10-15.md`
 
-Source: [refinement/approvals/Marchesa_Dealer_of_Death_Approved_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Marchesa_Dealer_of_Death_Approved_2026-10-15.md)
+Source: [refinement/approvals/Marchesa_Dealer_of_Death_Approved_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/approvals/Marchesa_Dealer_of_Death_Approved_2026-10-15.md)
 
 **Marchesa, Dealer of Death — APPROVED / LOCKED**
 
@@ -411,7 +411,7 @@ This deck is now locked. Do not revise, reopen, or replace it unless the user ex
 
 ### Further source evidence (linked, not copied)
 
-- [refinement/verification/Marchesa_Dealer_of_Death_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Marchesa_Dealer_of_Death_Approval_Ready_Verification_2026-10-15.md)
+- [refinement/verification/Marchesa_Dealer_of_Death_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Marchesa_Dealer_of_Death_Approval_Ready_Verification_2026-10-15.md)
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
@@ -437,6 +437,6 @@ This deck is now locked. Do not revise, reopen, or replace it unless the user ex
 - **Keywords → [Keyword Encyclopedia](../../Keyword%20Encyclopedia.md):** [Flash](../../Keyword%20Encyclopedia.md#flash) 3 · [Storm](../../Keyword%20Encyclopedia.md#storm) 2 · [Amass](../../Keyword%20Encyclopedia.md#amass) 1 · [Cumulative upkeep](../../Keyword%20Encyclopedia.md#cumulative-upkeep) 1 · [Equip](../../Keyword%20Encyclopedia.md#equip) 1 · [Flying](../../Keyword%20Encyclopedia.md#flying) 1 · [Gift](../../Keyword%20Encyclopedia.md#gift) 1 · [Mill](../../Keyword%20Encyclopedia.md#mill) 1 · [Morph](../../Keyword%20Encyclopedia.md#morph) 1 · [Surveil](../../Keyword%20Encyclopedia.md#surveil) 1 · [Vigilance](../../Keyword%20Encyclopedia.md#vigilance) 1
 - **Rules sections citing cards in this list:** [Keyword Encyclopedia → Storm](../../Keyword%20Encyclopedia.md#storm) (Brain Freeze, Flusterstorm) · [Rules Interactions → Commander: color identity](../../Rules%20Interactions.md#commander-color-identity) (Arcane Signet, Command Tower) · [Rules Interactions → Replacement effects vs. triggered abilities](../../Rules%20Interactions.md#replacement-effects-vs-triggered-abilities) (Exotic Orchard, Fellwar Stone) · [Rules Interactions → The legend rule](../../Rules%20Interactions.md#the-legend-rule) (Gemstone Caverns, Mox Opal) · [Keyword Encyclopedia → Amass](../../Keyword%20Encyclopedia.md#amass) (Orcish Bowmasters) · [Keyword Encyclopedia → Cumulative Upkeep](../../Keyword%20Encyclopedia.md#cumulative-upkeep) (Mystic Remora) · [Keyword Encyclopedia → Flash](../../Keyword%20Encyclopedia.md#flash) (Orcish Bowmasters) · [Keyword Encyclopedia → Gift](../../Keyword%20Encyclopedia.md#gift) (Into the Flood Maw) · …3 more sections
 - **Lore & story sections citing cards in this list:** [Art & Flavor Story Links → Captioned art on cited story pages](../../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Cabal Ritual, Command Tower, Dispel +1) · [Characters Index → Character cards (name-matched)](../../Characters%20Index.md#character-cards-name-matched) (Tezzeret, Cruel Captain) · [Planes Index → Kaldheim](../../Planes%20Index.md#kaldheim) (Birgi, God of Storytelling // Harnfel, Horn of Bounty) · [Planeswalker Dossiers → Character cards (name-matched)](../../Planeswalker%20Dossiers.md#character-cards-name-matched) (Tezzeret, Cruel Captain)
-- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +18) · [EDH Standards → Game Changers](../../EDH%20Standards.md#game-changers) (Ad Nauseam, Ancient Tomb, Chrome Mox +15) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Birgi, God of Storytelling // Harnfel, Horn of Bounty, Cabal Ritual +15) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (An Offer You Can't Refuse, Deflecting Swat, Fierce Guardianship +10) · [EDH Upgrade Paths → Zur the Enchanter](../../EDH%20Upgrade%20Paths.md#zur-the-enchanter) (An Offer You Can't Refuse, Borne Upon a Wind, City of Brass +9) · [EDH Upgrade Paths → Yuriko, the Tiger's Shadow](../../EDH%20Upgrade%20Paths.md#yuriko-the-tigers-shadow) (Chrome Mox, Flooded Strand, Flusterstorm +8) · …92 more sections
-- **Decks sharing the most cards:** [Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)](../../grixis/decks/kefka-court-mage.md) 66 · [Kess, Dissident Mage (Grixis)](../../grixis/decks/kess-dissident-mage.md) 66 · [Fire Lord Azula (Grixis)](../../grixis/decks/fire-lord-azula.md) 65 · [Cormela, Glamour Thief (Grixis)](../../grixis/decks/cormela-glamour-thief.md) 63
+- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +18) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Birgi, God of Storytelling // Harnfel, Horn of Bounty, Cabal Ritual +16) · [EDH Standards → Game Changers](../../EDH%20Standards.md#game-changers) (Ad Nauseam, Ancient Tomb, Chrome Mox +15) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (An Offer You Can't Refuse, Deflecting Swat, Fierce Guardianship +10) · [EDH Upgrade Paths → Zur the Enchanter](../../EDH%20Upgrade%20Paths.md#zur-the-enchanter) (An Offer You Can't Refuse, Borne Upon a Wind, City of Brass +9) · [EDH Upgrade Paths → Yuriko, the Tiger's Shadow](../../EDH%20Upgrade%20Paths.md#yuriko-the-tigers-shadow) (Chrome Mox, Flooded Strand, Flusterstorm +8) · …92 more sections
+- **Decks sharing the most cards:** [Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)](../../grixis/decks/kefka-court-mage.md) 66 · [Kess, Dissident Mage (Grixis)](../../grixis/decks/kess-dissident-mage.md) 66 · [Rograkh, Son of Rohgahh (Grixis)](../../grixis/decks/rograkh-son-of-rohgahh-silas-renn.md) 66 · [Fire Lord Azula (Grixis)](../../grixis/decks/fire-lord-azula.md) 65
 <!-- CROSSREFS:END -->

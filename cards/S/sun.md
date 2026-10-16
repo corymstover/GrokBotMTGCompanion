@@ -784,7 +784,7 @@ schema: 2
   - *2011-09-22* — If any triggered abilities do trigger during this process, they're put onto the stack during the cleanup step. If this happens, players will have a chance to cast spells and activate abilities, then there will be another cleanup step before the turn finally ends.
   - *2011-09-22* — The earliest that you can activate Sundial of the Infinite's ability is during your upkeep step, after abilities that trigger "at the beginning of your upkeep" have been put onto the stack but before they resolve.
   - *2011-09-22* — Though spells and abilities that are exiled won't get a chance to resolve, they don't count as being "countered."
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sundial-of-the-infinite)
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/S.md#sundial-of-the-infinite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m12/218/sundial-of-the-infinite) · oracle_id `79d46e09-2548-440f-9c02-3c3dc39a0cd1` · printing: M12 #218 (2011-07-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sundown Pass
@@ -1128,7 +1128,7 @@ schema: 2
   - *2015-08-25* — Even though these lands have basic land types, they are not basic lands because "basic" doesn't appear on their type line. Notably, controlling two or more of them won't allow others to enter the battlefield untapped.
   - *2015-08-25* — However, because these cards have basic land types, effects that specify a basic land type without also specifying that the land be basic can affect them. For example, a spell or ability that reads "Destroy target Forest" can target Canopy Vista, while one that reads "Destroy target basic Forest" cannot.
   - *2015-08-25* — If one of these lands enters the battlefield at the same time as any number of basic lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
-- **Referenced in:** 9 pages (5 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#sunken-hollow)
+- **Referenced in:** 12 pages (8 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#sunken-hollow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/271/sunken-hollow) · oracle_id `cd2c90ac-2b04-461c-92f3-939871b6b6a3` · printing: MSC #271 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunken Hope
@@ -1163,6 +1163,7 @@ schema: 2
   - *2024-06-07* — The controller of a copy can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
   - *2024-06-07* — The copy is created on the stack, so it's not "cast" or "activated." Creating the copy won't cause abilities that trigger when a player casts a spell or activates an ability to trigger.
   - *2024-06-07* — The copy will have the same targets as the spell or ability it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If the spell is a permanent spell with targets, such as an Aura, you may also choose a new target for that spell. The new targets must be legal. If, for any target, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sunken-palace)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m3c/81/sunken-palace) · oracle_id `c098c507-5154-423a-a70b-f6dfd4959cf6` · printing: M3C #81 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sunken Ruins

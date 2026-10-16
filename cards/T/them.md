@@ -277,7 +277,7 @@ schema: 2
   - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
   - *2023-10-13* — When a player faces a villainous choice, they first choose one of the two options, then all actions in the chosen option are performed.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-master-gallifreys-end)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/T.md#the-master-gallifreys-end)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/144/the-master-gallifreys-end) · oracle_id `e5e2e4ef-1d78-41eb-b634-1a90d4cb7125` · printing: WHO #144 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Master, Mesmerist
@@ -294,6 +294,7 @@ schema: 2
   - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
   - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-master-mesmerist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/145/the-master-mesmerist) · oracle_id `306b6b9b-f488-4ea8-9f5e-9e8e7354df64` · printing: WHO #145 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Master, Multiplied
@@ -855,7 +856,8 @@ schema: 2
   - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
   - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 226 decks; highest synergy [Surrounded by Orcs](../../cards/S/sur.md#surrounded-by-orcs) (+64%), [Treason of Isengard](../../cards/T/tre.md#treason-of-isengard) (+53%), [Essence Flux](../../cards/E/es.md#essence-flux) (+49%) · EDHREC: in 23,639 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (37.1% of its decks), [Saruman, the White Hand](../../cards/S/sar.md#saruman-the-white-hand) (30.7% of its decks), [Sauron, Lord of the Rings](../../cards/S/sau.md#sauron-lord-of-the-rings) (46.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Synergy:** *Proven* — KB decks (1): [Sauron, Lord of the Rings (Grixis)](../../grixis/decks/sauron-lord-of-the-rings.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 226 decks; highest synergy [Surrounded by Orcs](../../cards/S/sur.md#surrounded-by-orcs) (+64%), [Treason of Isengard](../../cards/T/tre.md#treason-of-isengard) (+53%), [Essence Flux](../../cards/E/es.md#essence-flux) (+49%) · EDHREC: in 23,639 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (37.1% of its decks), [Saruman, the White Hand](../../cards/S/sar.md#saruman-the-white-hand) (30.7% of its decks), [Sauron, Lord of the Rings](../../cards/S/sau.md#sauron-lord-of-the-rings) (46.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-mouth-of-sauron)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/216/the-mouth-of-sauron) · oracle_id `49e3396a-a125-4cca-b02a-4a96102bcb16` · printing: LTR #216 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Mox Painter

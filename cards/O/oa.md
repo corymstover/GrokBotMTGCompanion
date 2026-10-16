@@ -325,7 +325,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10917 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-12-01* — Oathkeeper's second ability checks whether the card's creature type is Samurai, not whether the creature was a Samurai when it left the battlefield.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/O.md#oathkeeper-takenos-daisho)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/O.md#oathkeeper-takenos-daisho)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/265/oathkeeper-takenos-daisho) · oracle_id `7d58b478-a64b-46e9-b62a-08c6c1ca7c13` · printing: CHK #265 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oath of Ajani

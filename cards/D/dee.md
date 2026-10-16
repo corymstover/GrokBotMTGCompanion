@@ -346,7 +346,7 @@ schema: 2
   - *2020-08-07* — As Deepglow Skate's ability resolves, you must double each kind of counter on the permanents it targets.
   - *2020-08-07* — To double the number of each kind of counter on a permanent, put another counter on it for each counter it already has. Effects that interact with counters being put onto permanents apply as appropriate.
   - *2020-08-07* — You can choose no targets if you don't want to double the counters on any permanents.
-- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/D.md#deepglow-skate)
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/D.md#deepglow-skate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/70/deepglow-skate) · oracle_id `debce64a-18bd-42f5-9e85-158c2242e9e9` · printing: EOC #70 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deep Gnome Terramancer

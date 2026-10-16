@@ -648,7 +648,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14723 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/L.md#lichs-relic)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/L.md#lichs-relic)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/57/lichs-relic) · oracle_id `0540eaca-0e03-4831-955a-192ae2b87d35` · printing: FRA #57 (2026-10-02) · [rulings](https://api.scryfall.com/cards/b105511d-5022-4a84-b6ce-4bb433e93a62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lich's Tomb
@@ -1916,7 +1916,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — If a creature enters the battlefield under your control and gains haste, but then loses it before attacking, it won't be able to attack that turn. This means that you can't use one Lightning Greaves to allow two new creatures to attack in the same turn.
   - *2020-08-07* — You can't simply unequip Equipment from a creature. If Lightning Greaves is attached to the only creature you control, you won't be able to attach other equipment to it (or target it with anything else) until you have another creature to which you can attach Lightning Greaves.
-- **Referenced in:** 52 pages (46 decks · 3 edh guides · 1 rules · 2 card data) → [reverse index](../../references/L.md#lightning-greaves)
+- **Referenced in:** 61 pages (55 decks · 3 edh guides · 1 rules · 2 card data) → [reverse index](../../references/L.md#lightning-greaves)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/202/lightning-greaves) · oracle_id `ca204b66-8d0c-431a-8d34-282f7c2d17da` · printing: MSC #202 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lightning Helix
@@ -2607,6 +2607,7 @@ schema: 2
   - *2023-09-01* — If a card in your graveyard has {X} in its mana cost, X is considered to be 0.
   - *2023-09-01* — If the copied card has an ability that can be activated only once each turn, copying that card a second time will allow you to activate the new instance of that ability.
   - *2023-09-01* — Likeness Looter copies exactly what was printed on the original card and nothing else, except the characteristics it specifically modifies. It doesn't copy any information about the object the card was before it was put into your graveyard.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#likeness-looter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/208/likeness-looter) · oracle_id `e04560ea-f2bd-4cb7-8f65-3aa0dd58fbdf` · printing: WOE #208 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lila, Hospitality Hostess
@@ -2717,8 +2718,8 @@ schema: 2
   - *2024-01-12* — The permanent types are artifact, creature, enchantment, land, and planeswalker. Supertypes, like legendary, aren't permanent types.
   - *2024-01-12* — While making choices for Liliana's last ability, if a permanent has more than one permanent type, it can count for any of them. For example, you could choose an artifact creature as the artifact you're sparing, another creature as the creature, and an enchantment creature as the enchantment. Similarly, you could choose an enchantment creature as both the creature and the enchantment that you're sparing, even if you control another creature and/or another enchantment.
 - **Lore:** Depicts: [Character → Liliana Vess](../../Characters%20Index.md#liliana-vess) — name match confirmed: card art captioned on War of the Spark: Ravnica—Old Friends and New ([source](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-old-friends-and-new-2019-05-08)) · [Dossier → Liliana Vess](../../Planeswalker%20Dossiers.md#liliana-vess) — name match confirmed: card art captioned on War of the Spark: Ravnica—Old Friends and New ([source](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-old-friends-and-new-2019-05-08)) — ✅ Card art shown on [War of the Spark: Ravnica—Old Friends and New](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-old-friends-and-new-2019-05-08) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (2): [Teysa Karlov](../../decks/teysa-karlov.md) · [Atraxa, Praetors' Voice (planeswalkers theme)](../../decks/theme-atraxa-praetors-voice-planeswalkers.md) · Commander Spellbook: 100+ combos; most popular [Aminatou, the Fateshifter + Ichormoon Gauntlet + Doubling Season + Liliana, Dreadhorde General](https://commanderspellbook.com/combo/193-1543-1940-4772/) (Infinite turns, Lock) · EDHREC: in 185,879 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (46.7% of its decks), [Teysa Karlov](../../cards/T/te.md#teysa-karlov) (38.5% of its decks), [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (36.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 8 pages (2 decks · 2 edh guides · 3 lore & story · 1 card data) → [reverse index](../../references/L.md#liliana-dreadhorde-general)
+- **Synergy:** *Proven* — KB decks (4): [Teysa Karlov](../../decks/teysa-karlov.md) · [Atraxa, Praetors' Voice (planeswalkers theme)](../../decks/theme-atraxa-praetors-voice-planeswalkers.md) · [Nicol Bolas, the Ravager // Nicol Bolas, the Arisen (Grixis)](../../grixis/decks/nicol-bolas-the-ravager.md) · [Thraximundar (Grixis)](../../grixis/decks/thraximundar.md) · Commander Spellbook: 100+ combos; most popular [Aminatou, the Fateshifter + Ichormoon Gauntlet + Doubling Season + Liliana, Dreadhorde General](https://commanderspellbook.com/combo/193-1543-1940-4772/) (Infinite turns, Lock) · EDHREC: in 185,879 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (46.7% of its decks), [Teysa Karlov](../../cards/T/te.md#teysa-karlov) (38.5% of its decks), [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (36.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 10 pages (4 decks · 2 edh guides · 3 lore & story · 1 card data) → [reverse index](../../references/L.md#liliana-dreadhorde-general)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/176/liliana-dreadhorde-general) · oracle_id `5e958212-6a5b-4288-8d31-f1572619d7dc` · printing: FDN #176 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana, Heretical Healer // Liliana, Defiant Necromancer
@@ -2805,7 +2806,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2404 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2010-08-15* — If an opponent discards multiple cards (due to a spell, an ability, or the action of discarding down to the maximum hand size during their cleanup step), Liliana’s Caress’s ability triggers that many times.
-- **Referenced in:** 6 pages (5 decks · 1 edh guides) → [reverse index](../../references/L.md#lilianas-caress)
+- **Referenced in:** 7 pages (6 decks · 1 edh guides) → [reverse index](../../references/L.md#lilianas-caress)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m11/103/lilianas-caress) · oracle_id `a4aec0d6-13fa-4709-b1a9-2f483f032744` · printing: M11 #103 (2010-07-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana's Contract
@@ -3062,6 +3063,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-04-14* — The last ability of Liliana's Talent will trigger whenever a creature deals any damage to the enchanted planeswalker, not just combat damage.
   - *2023-04-14* — You can activate one loyalty ability of each planeswalker you control during each of your turns, whether that ability is one it always has or the one it gains because of Liliana's Talent.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#lilianas-talent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/76/lilianas-talent) · oracle_id `8c55039d-1303-420c-8547-ebdffb63bf89` · printing: MOC #76 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Liliana's Triumph
@@ -3799,7 +3801,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #741 · Game Changer: **yes** · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — The ability is a mana ability, so it is activated and resolves as a mana ability, but it can only be activated at times when you can cast an instant. Yes, this is a bit weird.
-- **Referenced in:** 19 pages (13 decks · 3 edh guides · 3 card data) → [reverse index](../../references/L.md#lions-eye-diamond)
+- **Referenced in:** 21 pages (15 decks · 3 edh guides · 3 card data) → [reverse index](../../references/L.md#lions-eye-diamond)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/271/lions-eye-diamond) · oracle_id `ee6099b0-fb1f-42f1-b862-7708c6e36d05` · printing: VMA #271 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lion Umbra
@@ -4384,7 +4386,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-03-16* — As Living Death resolves, all players exile their creature cards from graveyards at the same time. Then all players sacrifice all creatures they control at the same time. Then all players put all creatures they exiled onto the battlefield at the same time.
   - *2018-03-16* — Only cards exiled by Living Death's first instruction are put onto the battlefield. If a replacement effect (such as that of Leyline of the Void) causes any of the sacrificed creatures to be exiled instead of put into a graveyard, those cards aren't returned to the battlefield.
-- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/L.md#living-death)
+- **Referenced in:** 7 pages (5 decks · 1 edh guides · 1 card data) → [reverse index](../../references/L.md#living-death)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/185/living-death) · oracle_id `9e6a3df4-67a3-452e-a6ef-f04dbadb21ef` · printing: TDC #185 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Living Destiny

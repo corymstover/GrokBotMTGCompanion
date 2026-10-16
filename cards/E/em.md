@@ -254,7 +254,7 @@ schema: 2
   - *2024-11-08* — Embercleave's second ability can't reduce its cost below {R}{R}.
   - *2024-11-08* — Once you announce that you're casting a spell, no player may take actions until the spell has been paid for. Notably, opponents can't try to increase Embercleave's cost by removing attacking creatures you control.
   - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/E.md#embercleave)
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/E.md#embercleave)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/120/embercleave) · oracle_id `4d6120d6-fcce-40bc-9fc6-e1f5beb6c728` · printing: ELD #120 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Embereth Paladin

@@ -389,7 +389,8 @@ schema: 2
   - *2019-08-23* — If you somehow activate Chainer's first ability more than once during a turn (perhaps because Chainer left the battlefield and returned), you can cast a creature card for each ability's permission. Similarly, if another effect allows you to cast a creature card from your graveyard, you may use that permission and later use Chainer's permission to cast another creature card.
   - *2019-08-23* — You don't choose a creature card to cast while activating or resolving Chainer's first ability. The ability creates a permission for you to cast a creature card from your graveyard later in the turn.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 7 combos; most popular [Slimefoot and Squee + Bloom Tender + Phyrexian Altar + Chainer, Nightmare Adept](https://commanderspellbook.com/combo/222-4050-4128-5168/) (Infinite colored mana, Infinite death triggers) · EDHREC as commander: 3,444 decks; highest synergy [Doomed Necromancer](../../cards/D/do.md#doomed-necromancer) (+62%), [Buried Alive](../../cards/B/bu.md#buried-alive) (+53%), [Gravebreaker Lamia](../../cards/G/gra.md#gravebreaker-lamia) (+52%) · EDHREC: in 96,577 decks; most often under [Henzie "Toolbox" Torre](../../cards/H/he.md#henzie-toolbox-torre) (57.6% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (42.3% of its decks), [Coram, the Undertaker](../../cards/C/cor.md#coram-the-undertaker) (46.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Synergy:** *Proven* — KB decks (1): [Sedris, the Traitor King (Grixis)](../../grixis/decks/sedris-the-traitor-king.md) · Commander Spellbook: 7 combos; most popular [Slimefoot and Squee + Bloom Tender + Phyrexian Altar + Chainer, Nightmare Adept](https://commanderspellbook.com/combo/222-4050-4128-5168/) (Infinite colored mana, Infinite death triggers) · EDHREC as commander: 3,444 decks; highest synergy [Doomed Necromancer](../../cards/D/do.md#doomed-necromancer) (+62%), [Buried Alive](../../cards/B/bu.md#buried-alive) (+53%), [Gravebreaker Lamia](../../cards/G/gra.md#gravebreaker-lamia) (+52%) · EDHREC: in 96,577 decks; most often under [Henzie "Toolbox" Torre](../../cards/H/he.md#henzie-toolbox-torre) (57.6% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (42.3% of its decks), [Coram, the Undertaker](../../cards/C/cor.md#coram-the-undertaker) (46.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#chainer-nightmare-adept)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/289/chainer-nightmare-adept) · oracle_id `14f6fcb0-bed4-4a38-b7df-1e438d81bedb` · printing: MH2 #289 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chainer's Edict
@@ -532,7 +533,7 @@ schema: 2
   > Return target nonland permanent to its owner's hand. Then that permanent's controller may sacrifice a land of their choice. If the player does, they may copy this spell and may choose a new target for that copy.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #990 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 12 pages (9 decks · 2 edh guides · 1 card data) → [reverse index](../../references/C.md#chain-of-vapor)
+- **Referenced in:** 14 pages (11 decks · 2 edh guides · 1 card data) → [reverse index](../../references/C.md#chain-of-vapor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/84/chain-of-vapor) · oracle_id `2167ac25-d042-4b48-b770-8b94acc1a965` · printing: C16 #84 (2016-11-11) · [rulings](https://api.scryfall.com/cards/38f741bf-13ee-4384-98ab-27833ebb9f6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chain Reaction
@@ -1989,7 +1990,7 @@ schema: 2
   - *2015-06-22* — If the creature becomes an illegal target by the time Chandra's Ignition tries to resolve (perhaps because another player controls it or it's left the battlefield), Chandra's Ignition won't resolve and none of its effects will happen. No damage will be dealt.
   - *2015-06-22* — The creature is the source of the damage, not Chandra's Ignition. For example, Chandra's Ignition can have a white creature deal damage to a creature with protection from red.
   - *2015-06-22* — Use the power of the target creature as Chandra's Ignition resolves to determine how much damage it deals to each other creature and each opponent.
-- **Referenced in:** 6 pages (4 decks · 1 rules · 1 card data) → [reverse index](../../references/C.md#chandras-ignition)
+- **Referenced in:** 10 pages (7 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/C.md#chandras-ignition)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/220/chandras-ignition) · oracle_id `f61680da-606e-4d16-b0a0-361aa5210901` · printing: LCC #220 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chandra's Incinerator
@@ -2808,7 +2809,7 @@ schema: 2
   - *2011-09-22* — If the revealed card is a permanent card but can't enter (perhaps because it's an Aura with nothing to enchant), it remains on top of that library.
   - *2011-09-22* — If the revealed card is not a permanent card, it remains on top of that library.
   - *2011-09-22* — The owner of a token is the player under whose control the token was put onto the battlefield. If a token is shuffled into a player's library this way, that player shuffles before revealing the top card of that library.
-- **Referenced in:** 39 pages (35 decks · 2 edh guides · 2 card data) → [reverse index](../../references/C.md#chaos-warp)
+- **Referenced in:** 49 pages (45 decks · 2 edh guides · 2 card data) → [reverse index](../../references/C.md#chaos-warp)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/72/chaos-warp) · oracle_id `07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8` · printing: MBC #72 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chaos Wrap

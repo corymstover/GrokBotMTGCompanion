@@ -472,7 +472,7 @@ schema: 2
   - *2025-09-19* — "Harnessed" is a designation that the permanent has once an ability instructs you to harness it. It has no special rules meaning other than being a designation that the ∞ ability (and, theoretically, other effects) can see.
   - *2025-09-19* — Being harnessed isn't copiable. If something else becomes a copy of The Soul Stone, it must be harnessed separately. Similarly, if The Soul Stone is already harnessed and becomes a copy of something else, it stays harnessed, though it's very likely that won't be relevant until that copy effect ends.
   - *2025-09-19* — Until it is harnessed, The Soul Stone doesn't have the ability listed after the infinity symbol. It also doesn't have that ability in zones other than the battlefield.
-- **Referenced in:** 5 pages (2 decks · 2 edh guides · 1 card data) → [reverse index](../../references/T.md#the-soul-stone)
+- **Referenced in:** 6 pages (3 decks · 2 edh guides · 1 card data) → [reverse index](../../references/T.md#the-soul-stone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/66/the-soul-stone) · oracle_id `92cfba68-12f6-4f97-9187-0f6a39656a0f` · printing: SPM #66 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Sound of Drums
@@ -487,6 +487,7 @@ schema: 2
 - **Keywords:** Goad, Enchant, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3798 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-sound-of-drums)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/97/the-sound-of-drums) · oracle_id `0afcc646-cb34-4c0e-b3f5-4115ad4faa8e` · printing: WHO #97 (2023-10-13) · [rulings](https://api.scryfall.com/cards/5ff2141a-a3ed-4ad0-9338-560502b1c85c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Space Family Goblinson

@@ -1023,7 +1023,7 @@ schema: 2
   - *2020-11-10* — If one of the targeted creature cards is an illegal target (for instance, because it has left your graveyard before Victimize resolves), you'll still sacrifice a creature and put the other card onto the battlefield. If both are illegal targets, Victimize won't resolve. You won't sacrifice a creature.
   - *2020-11-10* — The creature you sacrifice isn't chosen until Victimize resolves. You can't return the creature you sacrifice because it will still be on the battlefield at the time targets are chosen.
   - *2020-11-10* — You must choose two targets. You can't cast Victimize targeting only one creature card.
-- **Referenced in:** 10 pages (7 decks · 2 edh guides · 1 card data) → [reverse index](../../references/V.md#victimize)
+- **Referenced in:** 15 pages (11 decks · 3 edh guides · 1 card data) → [reverse index](../../references/V.md#victimize)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/198/victimize) · oracle_id `240e85d3-e495-4877-8609-4b4056c402f7` · printing: TDC #198 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Victim of Night
@@ -1571,7 +1571,7 @@ schema: 2
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1909 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/V.md#vile-entomber)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/V.md#vile-entomber)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/616/vile-entomber) · oracle_id `556dd333-4066-41f7-98f6-41794754de71` · printing: FDN #616 (2024-11-15) · [rulings](https://api.scryfall.com/cards/833b5a32-5d77-4e46-a524-25bada29ef59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vile Manifestation
@@ -2724,6 +2724,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4649 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/V.md#viridian-longbow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/221/viridian-longbow) · oracle_id `8b9119b0-9948-497f-aa92-2879d07bed1c` · printing: AFC #221 (2021-07-23) · [rulings](https://api.scryfall.com/cards/f4607634-6206-4c6c-b389-abcbfe969b65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viridian Lorebearers
@@ -3252,7 +3253,7 @@ schema: 2
 - **Rulings** (2):
   - *2010-08-15* — If you sacrifice an attacking or blocking creature during the declare blockers step, it won't deal combat damage. If you wait until the combat damage step, but that creature is dealt lethal damage, it'll be destroyed before you get a chance to sacrifice it.
   - *2010-08-15* — You can sacrifice Viscera Seer to activate its own ability.
-- **Referenced in:** 17 pages (9 decks · 5 edh guides · 2 rules · 1 card data) → [reverse index](../../references/V.md#viscera-seer)
+- **Referenced in:** 18 pages (10 decks · 5 edh guides · 2 rules · 1 card data) → [reverse index](../../references/V.md#viscera-seer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/229/viscera-seer) · oracle_id `f82a4e85-526d-4456-b700-7760043a31be` · printing: SOC #229 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viscerid Armor
@@ -3570,6 +3571,7 @@ schema: 2
   - *2021-09-24* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2021-09-24* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
   - *2021-09-24* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/V.md#visions-of-duplicity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/33/visions-of-duplicity) · oracle_id `ba85f0b0-b08c-4e62-a56e-b3ab7d699175` · printing: MIC #33 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Visions of Glory
@@ -3917,8 +3919,8 @@ schema: 2
   - *2020-06-23* — If you gain an amount of life "for each" of something, that life is gained as one event and Vito's first ability triggers only once.
   - *2020-06-23* — In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it caused your team's life total to increase.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (3): [Edgar Markov](../../decks/edgar-markov.md) · [K'rrik, Son of Yawgmoth](../../decks/krrik-son-of-yawgmoth.md) · [Edgar Markov (lifegain theme)](../../decks/theme-edgar-markov-lifegain.md) · Commander Spellbook: 28 combos; most popular [Vito, Thorn of the Dusk Rose + Exquisite Blood](https://commanderspellbook.com/combo/314-3966/) (Infinite lifegain triggers, Infinite lifeloss) · EDHREC as commander: 4,961 decks; highest synergy [Sanguine Bond](../../cards/S/san.md#sanguine-bond) (+64%), [Marauding Blight-Priest](../../cards/M/mar.md#marauding-blight-priest) (+61%), [Vampire Nighthawk](../../cards/V/va.md#vampire-nighthawk) (+60%) · EDHREC: in 261,709 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (64.6% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (30.6% of its decks), [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (61.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 6 pages (3 decks · 2 edh guides · 1 card data) → [reverse index](../../references/V.md#vito-thorn-of-the-dusk-rose)
+- **Synergy:** *Proven* — KB decks (4): [Edgar Markov](../../decks/edgar-markov.md) · [K'rrik, Son of Yawgmoth](../../decks/krrik-son-of-yawgmoth.md) · [Edgar Markov (lifegain theme)](../../decks/theme-edgar-markov-lifegain.md) · [Sol'kanar the Swamp King (Grixis)](../../grixis/decks/solkanar-the-swamp-king.md) · Commander Spellbook: 28 combos; most popular [Vito, Thorn of the Dusk Rose + Exquisite Blood](https://commanderspellbook.com/combo/314-3966/) (Infinite lifegain triggers, Infinite lifeloss) · EDHREC as commander: 4,961 decks; highest synergy [Sanguine Bond](../../cards/S/san.md#sanguine-bond) (+64%), [Marauding Blight-Priest](../../cards/M/mar.md#marauding-blight-priest) (+61%), [Vampire Nighthawk](../../cards/V/va.md#vampire-nighthawk) (+60%) · EDHREC: in 261,709 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (64.6% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (30.6% of its decks), [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (61.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 7 pages (4 decks · 2 edh guides · 1 card data) → [reverse index](../../references/V.md#vito-thorn-of-the-dusk-rose)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/127/vito-thorn-of-the-dusk-rose) · oracle_id `7336a541-3ae9-4ab2-acb8-f574c0a5b3a9` · printing: M21 #127 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vitu-Ghazi Guildmage

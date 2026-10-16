@@ -1309,6 +1309,7 @@ schema: 2
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5636 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#gallifrey-council-chamber)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/188/gallifrey-council-chamber) · oracle_id `26e4b49e-77e7-41d9-94c5-924669a82591` · printing: WHO #188 (2023-10-13) · [rulings](https://api.scryfall.com/cards/83d990f5-a7b7-4482-95e6-b03a397192e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gallifrey Falls // No More
@@ -1553,7 +1554,7 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/G.md#galvanic-iteration)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/G.md#galvanic-iteration)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/184/galvanic-iteration) · oracle_id `c51ed6e3-813b-49c4-b1de-7f92a77f8f6e` · printing: MSC #184 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Galvanic Juggernaut
@@ -1653,7 +1654,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #241 · Game Changer: **yes** · Can be commander: No
 - **Rulings** (1):
   - *2022-12-08* — You might end up discarding the card you searched for. It's a gamble!
-- **Referenced in:** 21 pages (15 decks · 5 edh guides · 1 card data) → [reverse index](../../references/G.md#gamble)
+- **Referenced in:** 27 pages (21 decks · 5 edh guides · 1 card data) → [reverse index](../../references/G.md#gamble)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/121/gamble) · oracle_id `a54f0869-94c8-42af-9080-166efb9486a4` · printing: DMR #121 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gamekeeper

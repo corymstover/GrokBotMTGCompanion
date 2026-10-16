@@ -462,7 +462,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
   - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/I.md#infernal-plunge)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/I.md#infernal-plunge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/148/infernal-plunge) · oracle_id `0b67dff0-5bb7-44fe-a72b-d3b1a6c0ee72` · printing: ISD #148 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Rebirth

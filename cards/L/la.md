@@ -2042,7 +2042,7 @@ schema: 2
   > *"I only had time to read half the spell, but I'm pretty sure this will work!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4503 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/L.md#last-chance)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/L.md#last-chance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/127/last-chance) · oracle_id `360039a5-1cbd-4ee3-8f94-21b5348e106a` · printing: DMR #127 (2023-01-13) · [rulings](https://api.scryfall.com/cards/c0efb595-d407-4389-a99d-d97c4d6bdcd0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Last-Ditch Effort

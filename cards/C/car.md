@@ -302,7 +302,7 @@ schema: 2
   > *Books are like crops—they must be thinned for best yield.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2657 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#careful-study)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/C.md#careful-study)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/70/careful-study) · oracle_id `32e9aa23-fc0a-4b82-82f9-1659c304428c` · printing: ODY #70 (2001-10-01) · [rulings](https://api.scryfall.com/cards/dea15b53-2940-40e7-8d48-8ec11341da83/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caregiver
@@ -949,7 +949,7 @@ schema: 2
   > *It has no respect for the deeds of martyrs, reducing their legacy to a mouthful of flesh.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #609 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 7 pages (4 decks · 2 edh guides · 1 card data) → [reverse index](../../references/C.md#carrion-feeder)
+- **Referenced in:** 10 pages (6 decks · 3 edh guides · 1 card data) → [reverse index](../../references/C.md#carrion-feeder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/81/carrion-feeder) · oracle_id `a1cc5e37-b09a-4b7f-afd5-77c1c35aa425` · printing: MH1 #81 (2019-06-14) · [rulings](https://api.scryfall.com/cards/0a19da90-880e-4eca-8cf7-6d7baf090d53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Carrion Grub

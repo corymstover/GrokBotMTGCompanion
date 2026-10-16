@@ -188,5 +188,5 @@ schema: 2
 - **Rulings** (2):
   - *2013-01-24* — The creature cards enter simultaneously.
   - *2013-01-24* — You can choose a number of targets up to the number of opponents you have, one target per opponent.
-- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#sepulchral-primordial)
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/S.md#sepulchral-primordial)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/54/sepulchral-primordial) · oracle_id `480454a0-fb10-432b-a963-8b0c0ffc6680` · printing: ZNC #54 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

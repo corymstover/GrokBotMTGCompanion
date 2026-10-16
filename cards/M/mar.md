@@ -370,7 +370,7 @@ schema: 2
   - *2024-11-08* — If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and Marauding Blight-Priest's ability will trigger only once.
   - *2024-11-08* — In a Two-Headed Giant game, life gained by your teammate won't cause Marauding Blight-Priest's ability to trigger, even though it caused your team's life total to increase.
   - *2024-11-08* — Marauding Blight-Priest's ability triggers just once for each life-gaining event, whether it's 1 life from Dazzling Angel or 4 life from Apothecary Stomper.
-- **Referenced in:** 5 pages (2 decks · 2 edh guides · 1 card data) → [reverse index](../../references/M.md#marauding-blight-priest)
+- **Referenced in:** 6 pages (3 decks · 2 edh guides · 1 card data) → [reverse index](../../references/M.md#marauding-blight-priest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/178/marauding-blight-priest) · oracle_id `814b87fe-2a75-4ff2-8637-7e69e3fb285b` · printing: FDN #178 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marauding Boneslasher
@@ -759,6 +759,7 @@ schema: 2
   - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
   - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#march-from-the-black-gate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/94/march-from-the-black-gate) · oracle_id `9259e918-ace5-4f13-9035-d8bc8c820d25` · printing: LTR #94 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### March from the Tomb
@@ -2031,8 +2032,8 @@ schema: 2
 - **Rulings** (1):
   - *2004-12-01* — Marrow-Gnawer's ability counts the number of Rats on the battlefield when it resolves, so you don't count the sacrificed Rat.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (1): [Isshin, Two Heavens as One (Kamigawa-only)](../../decks/plane-kamigawa-isshin-two-heavens-as-one.md) · Commander Spellbook: 9 combos; most popular [Marrow-Gnawer + Thornbite Staff](https://commanderspellbook.com/combo/2178-3126/) (Infinite creature tokens, Infinite creature ETB) · EDHREC as commander: 14,389 decks; highest synergy [Piper of the Swarm](../../cards/P/pi.md#piper-of-the-swarm) (+76%), [Pack Rat](../../cards/P/pa.md#pack-rat) (+73%), [Karumonix, the Rat King](../../cards/K/ka.md#karumonix-the-rat-king) (+72%) · EDHREC: in 38,227 decks; most often under [Wick, the Whorled Mind](../../cards/W/wi.md#wick-the-whorled-mind) (72.5% of its decks), [Vren, the Relentless](../../cards/V/vr.md#vren-the-relentless) (67.7% of its decks), [Karumonix, the Rat King](../../cards/K/ka.md#karumonix-the-rat-king) (74.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/M.md#marrow-gnawer)
+- **Synergy:** *Proven* — KB decks (2): [Isshin, Two Heavens as One (Kamigawa-only)](../../decks/plane-kamigawa-isshin-two-heavens-as-one.md) · [Wick, the Whorled Mind (Grixis)](../../grixis/decks/wick-the-whorled-mind.md) · Commander Spellbook: 9 combos; most popular [Marrow-Gnawer + Thornbite Staff](https://commanderspellbook.com/combo/2178-3126/) (Infinite creature tokens, Infinite creature ETB) · EDHREC as commander: 14,389 decks; highest synergy [Piper of the Swarm](../../cards/P/pi.md#piper-of-the-swarm) (+76%), [Pack Rat](../../cards/P/pa.md#pack-rat) (+73%), [Karumonix, the Rat King](../../cards/K/ka.md#karumonix-the-rat-king) (+72%) · EDHREC: in 38,227 decks; most often under [Wick, the Whorled Mind](../../cards/W/wi.md#wick-the-whorled-mind) (72.5% of its decks), [Vren, the Relentless](../../cards/V/vr.md#vren-the-relentless) (67.7% of its decks), [Karumonix, the Rat King](../../cards/K/ka.md#karumonix-the-rat-king) (74.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/M.md#marrow-gnawer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/124/marrow-gnawer) · oracle_id `2b934761-5720-477b-94b7-d1d91dc581a6` · printing: CHK #124 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marrow Shards
@@ -2215,7 +2216,7 @@ schema: 2
   > {T}, Pay 1 life, Sacrifice this land: Search your library for a Plains or Swamp card, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #51 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 29 pages (24 decks · 3 edh guides · 2 card data) → [reverse index](../../references/M.md#marsh-flats)
+- **Referenced in:** 47 pages (42 decks · 3 edh guides · 2 card data) → [reverse index](../../references/M.md#marsh-flats)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/248/marsh-flats) · oracle_id `dab520d0-20b4-4273-ba6b-eb07f85ea433` · printing: MH2 #248 (2021-06-18) · [rulings](https://api.scryfall.com/cards/9db3ba6d-eb7f-4f5b-9a3b-c6239c3baa42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marsh Flitter

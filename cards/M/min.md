@@ -183,7 +183,7 @@ schema: 2
   > *Its students graduate the school and enter history.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #612 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/M.md#minamo-school-at-waters-edge)
+- **Referenced in:** 6 pages (5 decks · 1 edh guides) → [reverse index](../../references/M.md#minamo-school-at-waters-edge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/279/minamo-school-at-waters-edge) · oracle_id `17784f90-89a1-47a5-83ef-ae60dfc30bd1` · printing: CHK #279 (2004-10-01) · [rulings](https://api.scryfall.com/cards/7536292c-da25-41c8-ba28-1e35758a7f3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minamo Scrollkeeper
@@ -241,6 +241,7 @@ schema: 2
   - *2023-11-03* — If an attacking creature has multiple evasion abilities, such as shadow and flying, a creature can block it only if that creature satisfies all of the appropriate evasion abilities.
   - *2023-11-03* — Multiple instances of shadow on the same creature are redundant.
   - *2023-11-03* — Once a creature has been blocked, that creature remains blocked and will deal and be dealt combat damage even if it gains or loses shadow or if the blocking creature gains or loses shadow.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#minas-morgul-dark-fortress)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/514/minas-morgul-dark-fortress) · oracle_id `867dbd5a-c3cf-41ce-980b-c9babc6f30f2` · printing: LTC #514 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minas Tirith
@@ -357,7 +358,7 @@ schema: 2
   - *2025-09-19* — For Mindbreak Trap's alternative cost to apply, a single opponent must cast three or more spells. Three opponents each casting a single spell won't work, for example.
   - *2025-09-19* — If a spell is exiled, it's removed from the stack and thus will not resolve. The spell isn't countered; it just no longer exists. This works on spells that can't be countered.
   - *2025-09-19* — Mindbreak Trap's alternative cost condition checks whether an opponent cast three or more spells this turn, not whether those spells have resolved.
-- **Referenced in:** 11 pages (8 decks · 2 edh guides · 1 card data) → [reverse index](../../references/M.md#mindbreak-trap)
+- **Referenced in:** 13 pages (10 decks · 2 edh guides · 1 card data) → [reverse index](../../references/M.md#mindbreak-trap)
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/57/mindbreak-trap) · oracle_id `48712d36-5c13-4ded-87a4-68106da4a5cd` · printing: ZEN #57 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mind Burst

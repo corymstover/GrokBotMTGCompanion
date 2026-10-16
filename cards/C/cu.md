@@ -328,7 +328,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
   - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
-- **Referenced in:** 10 pages (6 decks · 3 edh guides · 1 card data) → [reverse index](../../references/C.md#culling-the-weak)
+- **Referenced in:** 12 pages (8 decks · 3 edh guides · 1 card data) → [reverse index](../../references/C.md#culling-the-weak)
 - **Source flags:** [Scryfall](https://scryfall.com/card/exo/55/culling-the-weak) · oracle_id `6385fd0d-256d-4400-9319-afa8170024db` · printing: EXO #55 (1998-06-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Culmination of Studies
@@ -430,7 +430,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#cultist-of-the-absolute)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/C.md#cultist-of-the-absolute)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/123/cultist-of-the-absolute) · oracle_id `bdc2a72a-f1c0-4e67-8e86-1121a4000537` · printing: CLB #123 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cultist's Staff
@@ -553,7 +553,7 @@ schema: 2
 - **Keywords:** Sec, Caan, Jast, Thay
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11556 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/C.md#cult-of-skaro)
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/C.md#cult-of-skaro)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/117/cult-of-skaro) · oracle_id `1cf40a30-5b42-4dce-ae4f-699bc879e180` · printing: WHO #117 (2023-10-13) · [rulings](https://api.scryfall.com/cards/3913111c-6a77-4536-bbb4-0ac5bf18fe53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cult of the Waxing Moon
@@ -1070,7 +1070,7 @@ schema: 2
   - *2023-09-01* — Curiosity doesn't trigger if the enchanted creature deals damage to a planeswalker or to a battle.
   - *2023-09-01* — If you control Curiosity and it's enchanting an opponent's creature, you won't draw a card when that creature deals damage to you. The creature has to deal damage to one of your opponents for the ability to trigger.
   - *2023-09-01* — You draw one card each time the enchanted creature deals damage to an opponent, no matter how much damage it deals.
-- **Referenced in:** 10 pages (3 decks · 5 edh guides · 1 rules · 1 card data) → [reverse index](../../references/C.md#curiosity)
+- **Referenced in:** 11 pages (4 decks · 5 edh guides · 1 rules · 1 card data) → [reverse index](../../references/C.md#curiosity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/147/curiosity) · oracle_id `223fa044-d387-4884-bf4e-75f1b61c6a46` · printing: JMP #147 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curiosity Crafter
@@ -1978,7 +1978,7 @@ schema: 2
   - *2017-08-25* — Each Curse's ability triggers only once, no matter how many creatures are attacking the enchanted player.
   - *2017-08-25* — If you enchant yourself with one of these Curses, you'll get its effects whenever another player attacks you.
   - *2017-08-25* — The triggered ability of these Curses won't trigger if only a planeswalker controlled by the enchanted player is attacked.
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/C.md#curse-of-opulence)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/C.md#curse-of-opulence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/209/curse-of-opulence) · oracle_id `ba0d3df2-3acf-46d7-8d64-8d67d1579adc` · printing: TDC #209 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse of Predation

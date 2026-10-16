@@ -93,8 +93,8 @@ schema: 2
   - *2019-05-03* — In a multiplayer game, if you put another player's God onto the battlefield under your control, it will be exiled as you leave the game. If you were still the controller of that God, you would control its triggered ability but you have left the game; that ability won't resolve and the card remains in exile. Similarly, if you lose the game at the same time that another player's God that you put onto the battlefield is destroyed, it remains in its owner's graveyard.
   - *2024-01-12* — You choose which player, planeswalker, or battle the new creature is attacking. It doesn't have to be attacking the same player, planeswalker, or battle that Ilharg is attacking.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (1): [Xenagos, God of Revels](../../decks/xenagos-god-of-revels.md) · Commander Spellbook: 11 combos; most popular [Ilharg, the Raze-Boar + Medomai the Ageless](https://commanderspellbook.com/combo/1267-1524/) (Infinite turns, Lock) · EDHREC as commander: 1,203 decks; highest synergy [Combustible Gearhulk](../../cards/C/com.md#combustible-gearhulk) (+63%), [Terror of Mount Velus](../../cards/T/te.md#terror-of-mount-velus) (+60%), [Meteor Golem](../../cards/M/me.md#meteor-golem) (+56%) · EDHREC: in 65,754 decks; most often under [Atreus, Impulsive Son // Kratos, Stoic Father](../../cards/A/at.md#atreus-impulsive-son) (57.5% of its decks), [Henzie "Toolbox" Torre](../../cards/H/he.md#henzie-toolbox-torre) (40.2% of its decks), [Tannuk, Steadfast Second](../../cards/T/ta.md#tannuk-steadfast-second) (59.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/I.md#ilharg-the-raze-boar)
+- **Synergy:** *Proven* — KB decks (2): [Xenagos, God of Revels](../../decks/xenagos-god-of-revels.md) · [Obeka, Brute Chronologist (Grixis)](../../grixis/decks/obeka-brute-chronologist.md) · Commander Spellbook: 11 combos; most popular [Ilharg, the Raze-Boar + Medomai the Ageless](https://commanderspellbook.com/combo/1267-1524/) (Infinite turns, Lock) · EDHREC as commander: 1,203 decks; highest synergy [Combustible Gearhulk](../../cards/C/com.md#combustible-gearhulk) (+63%), [Terror of Mount Velus](../../cards/T/te.md#terror-of-mount-velus) (+60%), [Meteor Golem](../../cards/M/me.md#meteor-golem) (+56%) · EDHREC: in 65,754 decks; most often under [Atreus, Impulsive Son // Kratos, Stoic Father](../../cards/A/at.md#atreus-impulsive-son) (57.5% of its decks), [Henzie "Toolbox" Torre](../../cards/H/he.md#henzie-toolbox-torre) (40.2% of its decks), [Tannuk, Steadfast Second](../../cards/T/ta.md#tannuk-steadfast-second) (59.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/I.md#ilharg-the-raze-boar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/113/ilharg-the-raze-boar) · oracle_id `8d571129-9030-47e0-9624-a49fb63e5a1b` · printing: RVR #113 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illegitimate Business
@@ -585,7 +585,7 @@ schema: 2
   - *2013-01-24* — If the cost of an activated ability requires Illusionist's Bracers or the equipped creature to be sacrificed, the ability won't be copied. At the time the ability is considered activated (after all costs are paid), Illusionist's Bracers is no longer equipped to that creature.
   - *2013-01-24* — The copy will have the same targets as the ability it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
   - *2013-04-15* — A mana ability is an ability that (1) isn't a loyalty ability, (2) doesn't target, and (3) could add mana when it resolves.
-- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/I.md#illusionists-bracers)
+- **Referenced in:** 4 pages (4 decks) → [reverse index](../../references/I.md#illusionists-bracers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/260/illusionists-bracers) · oracle_id `1d1d78af-7982-419d-b9be-2bf4c149d97d` · printing: RVR #260 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusionist's Gambit
@@ -638,6 +638,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-08-23* — If another player controls Ballot Broker, that player first takes their “normal” vote with you choosing the result, then that player decides whether they are taking the additional vote. If there is an additional vote, you again choose the result.
   - *2016-08-23* — If multiple players cast Illusion of Choice during the same turn, the controller of the one that resolved most recently will choose how each player votes that turn.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#illusion-of-choice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/31/illusion-of-choice) · oracle_id `e3ad9287-ef13-4b66-9df8-b17e15bb4b0f` · printing: CN2 #31 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusion // Reality
@@ -670,6 +671,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10414 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — If a player takes control of this card away from you, you do not lose 20 life because the loss of 20 life is a separate ability. That player is now subject to the loss.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#illusions-of-grandeur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/40/illusions-of-grandeur) · oracle_id `d7c81b3e-8082-4aaf-8979-2717d118234c` · printing: ME1 #40 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusion Spinners

@@ -521,6 +521,7 @@ schema: 2
   > *Sometimes you have to read between the minds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4531 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#peek)
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/94/peek) · oracle_id `873abbf4-c9b5-4b8f-8cd0-613cf3b9b1d5` · printing: 10E #94 (2007-07-13) · [rulings](https://api.scryfall.com/cards/869a6c06-eae5-418e-9a5c-26598a929416/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Peel from Reality
@@ -914,7 +915,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2665 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/P.md#pemmins-aura)
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/P.md#pemmins-aura)
 - **Source flags:** [Scryfall](https://scryfall.com/card/scg/45/pemmins-aura) · oracle_id `ada2f380-bca7-4d64-9587-bab11c776ba8` · printing: SCG #45 (2003-05-26) · [rulings](https://api.scryfall.com/cards/9fb3e38b-086e-4fbc-b7b1-8564c18276d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Penance
@@ -1396,7 +1397,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #941 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-12-08* — You choose which lands to untap as the triggered ability resolves. They aren't targeted, and they don't have to be lands that you control.
-- **Referenced in:** 8 pages (3 decks · 3 edh guides · 2 card data) → [reverse index](../../references/P.md#peregrine-drake)
+- **Referenced in:** 9 pages (4 decks · 3 edh guides · 2 card data) → [reverse index](../../references/P.md#peregrine-drake)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/65/peregrine-drake) · oracle_id `0bd67481-6bd9-48d6-92bd-8933b5ea1eae` · printing: DMR #65 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Peregrine Griffin
@@ -1930,7 +1931,7 @@ schema: 2
   - *2014-02-01* — You make the decision whether to exchange control of Perplexing Chimera and the spell as the triggered ability resolves.
   - *2014-02-01* — You may change any of the spell’s targets. If you change a target, you must choose a legal target for the spell. If you can’t, you must leave the target the same (even if that target is now illegal).
   - *2014-02-01* — You may exchange control of Perplexing Chimera and any spell cast by an opponent, not just one with targets.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#perplexing-chimera)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/P.md#perplexing-chimera)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/48/perplexing-chimera) · oracle_id `7d075b8a-a606-4590-b52b-b4ef3a9e342f` · printing: BNG #48 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Perplexing Test
@@ -2005,7 +2006,7 @@ schema: 2
   > *In the tight-knit doun of Mistmeadow, death is less important than duty.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1357 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/P.md#persist)
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/P.md#persist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/83/persist) · oracle_id `367d4cf2-270f-4236-af10-7d5e8ea8c9fe` · printing: ECC #83 (2026-01-23) · [rulings](https://api.scryfall.com/cards/b7a56356-91bf-42f5-ab21-af2c48e78fc3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Persistent Constrictor
@@ -2040,6 +2041,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-07-26* — Although Persistent Marshstalker's last ability causes it to enter attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when it enters attacking.
   - *2024-07-26* — As Persistent Marshstalker returns to the battlefield because of its triggered ability, you choose which player, planeswalker, or battle it's attacking. It doesn't have to attack the same player, planeswalker, or battle as your other Rats.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#persistent-marshstalker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/104/persistent-marshstalker) · oracle_id `77eb76cf-a361-44e0-aeee-e8ef4b695799` · printing: BLB #104 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Persistent Petitioners

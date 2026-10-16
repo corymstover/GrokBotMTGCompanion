@@ -916,6 +916,7 @@ schema: 2
   - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
   - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/S.md#summons-of-saruman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/70/summons-of-saruman) · oracle_id `aede5485-7b8c-4e29-a3a4-9a3513dc733f` · printing: LTC #70 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Summon the Pack

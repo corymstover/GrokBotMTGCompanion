@@ -1557,7 +1557,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #413 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 9 pages (5 decks · 3 edh guides · 1 card data) → [reverse index](../../references/W.md#warren-soultrader)
+- **Referenced in:** 11 pages (6 decks · 4 edh guides · 1 card data) → [reverse index](../../references/W.md#warren-soultrader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/110/warren-soultrader) · oracle_id `ace86e56-efde-4eb7-8815-71456a4c3abe` · printing: MH3 #110 (2024-06-14) · [rulings](https://api.scryfall.com/cards/b334e4c6-d316-4141-8889-f95afcc04701/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warren Torchmaster
@@ -1735,7 +1735,7 @@ schema: 2
   > *"I swear this before all gods old and new: I will fight to my last breath."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7338 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#warriors-oath)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/W.md#warriors-oath)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/130/warriors-oath) · oracle_id `574044cf-2e2f-4b5c-b4d1-cf05ba814ab2` · printing: 2X2 #130 (2022-07-08) · [rulings](https://api.scryfall.com/cards/65e10759-e862-4b69-8b58-474df2cdae29/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warriors of Wakanda

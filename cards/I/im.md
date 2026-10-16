@@ -527,6 +527,7 @@ schema: 2
   - *2008-10-01* — The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager.
   - *2008-10-01* — The second ability prevents all damage that would be dealt to you, regardless of how many cards are in your graveyard. For example, if you have three cards in your graveyard and would be dealt 5 damage, Immortal Coil prevents all 5 damage and exiles all the cards in your graveyard.
   - *2008-10-01* — The third ability checks whether your graveyard is empty only at the time it triggers. Putting a card into your graveyard after that doesn’t help. You’ll lose the game when the ability resolves.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#immortal-coil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/79/immortal-coil) · oracle_id `c85fc672-12d8-4ab0-b18d-ccd590ac063c` · printing: ALA #79 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Immortal Obligation
@@ -747,7 +748,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #203 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-11-08* — If multiple creatures you control enter at the same time, Impact Tremors will trigger once for each of those creatures. This is true even if Impact Tremors enters at the same time as those creatures.
-- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 card data) → [reverse index](../../references/I.md#impact-tremors)
+- **Referenced in:** 6 pages (4 decks · 1 edh guides · 1 card data) → [reverse index](../../references/I.md#impact-tremors)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/717/impact-tremors) · oracle_id `9242cd3e-1a71-4700-8182-9c1005616033` · printing: FDN #717 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Impale
@@ -1094,7 +1095,7 @@ schema: 2
   > *—Letter from Queen Marchesa*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #541 · Game Changer: **yes** · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 21 pages (15 decks · 4 edh guides · 2 card data) → [reverse index](../../references/I.md#imperial-seal)
+- **Referenced in:** 24 pages (18 decks · 4 edh guides · 2 card data) → [reverse index](../../references/I.md#imperial-seal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/79/imperial-seal) · oracle_id `16cd0b90-f70c-4efa-b252-8de8784ef9a3` · printing: 2X2 #79 (2022-07-08) · [rulings](https://api.scryfall.com/cards/e71a6bd3-7478-4c3a-8ae0-98352ce28492/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Imperial Subduer

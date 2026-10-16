@@ -721,7 +721,7 @@ schema: 2
   > *A warped gateway that seeps toxins and malevolence into the waters around Towashi.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #36 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 54 pages (48 decks · 4 edh guides · 2 card data) → [reverse index](../../references/P.md#polluted-delta)
+- **Referenced in:** 74 pages (68 decks · 4 edh guides · 2 card data) → [reverse index](../../references/P.md#polluted-delta)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/224/polluted-delta) · oracle_id `ef86989d-ce80-4e55-aece-7d11710eeffa` · printing: MH3 #224 (2024-06-14) · [rulings](https://api.scryfall.com/cards/6e288374-2b71-4ace-b1d2-a19fee6cb4af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Polluted Mire
@@ -1021,7 +1021,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #146 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — If you choose to shuffle your library, that includes the three cards you just looked at and put back on top of it.
-- **Referenced in:** 13 pages (8 decks · 3 edh guides · 2 card data) → [reverse index](../../references/P.md#ponder)
+- **Referenced in:** 15 pages (10 decks · 3 edh guides · 2 card data) → [reverse index](../../references/P.md#ponder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/159/ponder) · oracle_id `02090581-61aa-4348-ad57-451be8ee91c2` · printing: TDC #159 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pondering Mage
@@ -1408,7 +1408,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4191 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — This does not cause a player to lose if they have less than 3 cards in their library. It allows you to look at and reorder or shuffle whatever remaining cards there might be.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#portent)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#portent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/74/portent) · oracle_id `e744dbb6-2d56-462a-8d49-d79c73944048` · printing: DSC #74 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Portent of Betrayal

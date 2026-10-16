@@ -1736,6 +1736,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7246 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#ring-of-evos-isle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m13/211/ring-of-evos-isle) · oracle_id `4548f379-2647-4446-9e56-e7ef0662793a` · printing: M13 #211 (2012-07-13) · [rulings](https://api.scryfall.com/cards/a7c740a8-1bbc-4ec8-a72c-01aee9e48f3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ring of Gix
@@ -1847,6 +1848,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5181 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#ring-of-valkas)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/469/ring-of-valkas) · oracle_id `412f57e8-76af-4636-bab0-e0940300ee2e` · printing: CMR #469 (2020-11-20) · [rulings](https://api.scryfall.com/cards/cb3c0bc4-6f89-48e2-b525-5efcb091bc5e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ring of Xathrid
@@ -1860,6 +1862,7 @@ schema: 2
 - **Keywords:** Heal, Regenerate, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6948 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#ring-of-xathrid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m13/215/ring-of-xathrid) · oracle_id `ceddad0d-94ad-459a-b109-f979ffc26283` · printing: M13 #215 (2012-07-13) · [rulings](https://api.scryfall.com/cards/47e2aa59-63dc-4e28-8cdc-2ca868ff8f59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ring Out
@@ -1908,6 +1911,7 @@ schema: 2
   - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
   - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
   - *2023-06-16* — Your Ring-bearer is legendary, so you can search for a card that shares a color with the Ring-bearer that you chose as the Ring tempted you.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/R.md#ringsight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/220/ringsight) · oracle_id `66e42be3-5125-41b4-9efe-8a6a66899bb6` · printing: LTR #220 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ringskipper
@@ -1941,7 +1945,7 @@ schema: 2
   - *2020-11-10* — The copy will have the same targets as the ability it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
   - *2020-11-10* — The triggered ability of Rings of Brighthearth and the copy it creates both resolve before the ability that caused it to trigger. They resolve even if that ability is countered.
   - *2020-11-10* — You can't pay {2} more than once for each time the triggered ability of Rings of Brighthearth resolves.
-- **Referenced in:** 4 pages (3 decks · 1 edh guides) → [reverse index](../../references/R.md#rings-of-brighthearth)
+- **Referenced in:** 7 pages (5 decks · 2 edh guides) → [reverse index](../../references/R.md#rings-of-brighthearth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/335/rings-of-brighthearth) · oracle_id `bbf9494c-c4bb-4d36-98fe-8387846b342e` · printing: CMR #335 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ringwarden Owl
@@ -2034,8 +2038,8 @@ schema: 2
   - *2021-04-16* — The tokens copy exactly what is printed on the creature and nothing else (unless that creature is a token or is copying something else; see below). They don't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
   - *2021-04-16* — The triggered ability counts all instants and sorceries that were cast before it resolves. If you cast instant spells in response to the ability, those spells will count.
 - **Lore:** ✅ Presented with an official backstory on [The Legends of Strixhaven](https://magic.wizards.com/en/news/feature/legends-strixhaven-2021-04-13) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 39 combos; most popular [Rionya, Fire Dancer + Combat Celebrant](https://commanderspellbook.com/combo/1908-2105/) (Infinite combat phases, Infinite creature tokens with haste) · EDHREC as commander: 3,378 decks; highest synergy [Harmonic Prodigy](../../cards/H/ha.md#harmonic-prodigy) (+74%), [Humble Defector](../../cards/H/hu.md#humble-defector) (+62%), [Crash Through](../../cards/C/cr.md#crash-through) (+60%) · EDHREC: in 56,351 decks; most often under [Etali, Primal Conqueror](../../cards/E/et.md#etali-primal-conqueror--etali-primal-sickness) (65.9% of its decks), [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (47.6% of its decks), [Deadpool, Trading Card](../../cards/D/dea.md#deadpool-trading-card) (30.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rionya-fire-dancer)
+- **Synergy:** *Proven* — KB decks (1): [Obeka, Brute Chronologist (Grixis)](../../grixis/decks/obeka-brute-chronologist.md) · Commander Spellbook: 39 combos; most popular [Rionya, Fire Dancer + Combat Celebrant](https://commanderspellbook.com/combo/1908-2105/) (Infinite combat phases, Infinite creature tokens with haste) · EDHREC as commander: 3,378 decks; highest synergy [Harmonic Prodigy](../../cards/H/ha.md#harmonic-prodigy) (+74%), [Humble Defector](../../cards/H/hu.md#humble-defector) (+62%), [Crash Through](../../cards/C/cr.md#crash-through) (+60%) · EDHREC: in 56,351 decks; most often under [Etali, Primal Conqueror](../../cards/E/et.md#etali-primal-conqueror--etali-primal-sickness) (65.9% of its decks), [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (47.6% of its decks), [Deadpool, Trading Card](../../cards/D/dea.md#deadpool-trading-card) (30.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/R.md#rionya-fire-dancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/252/rionya-fire-dancer) · oracle_id `be4f47e9-1bd2-4aa9-bc85-3f203ad21639` · printing: SOC #252 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Riot Control
@@ -2245,7 +2249,7 @@ schema: 2
   - *2023-11-10* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
   - *2023-11-10* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2023-11-10* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
-- **Referenced in:** 5 pages (1 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/R.md#ripples-of-potential)
+- **Referenced in:** 6 pages (2 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/R.md#ripples-of-potential)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/77/ripples-of-potential) · oracle_id `45bcebd0-5e93-4433-b92f-b4c161d04bd6` · printing: EOC #77 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ripples of Undeath
@@ -2259,7 +2263,7 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #534 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 7 pages (4 decks · 2 edh guides · 1 card data) → [reverse index](../../references/R.md#ripples-of-undeath)
+- **Referenced in:** 9 pages (6 decks · 2 edh guides · 1 card data) → [reverse index](../../references/R.md#ripples-of-undeath)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/107/ripples-of-undeath) · oracle_id `2acf8e34-9215-4a72-a24f-09d3bdd0083a` · printing: MH3 #107 (2024-06-14) · [rulings](https://api.scryfall.com/cards/a201d1bc-e3fe-4f59-bd48-3683996ac308/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ripscale Predator
@@ -3208,7 +3212,7 @@ schema: 2
   > *Deep beneath the ice, beneath the soil and the rock, Dominaria's fire still burned hot.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #646 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 13 pages (9 decks · 2 edh guides · 2 card data) → [reverse index](../../references/R.md#rite-of-flame)
+- **Referenced in:** 15 pages (11 decks · 2 edh guides · 2 card data) → [reverse index](../../references/R.md#rite-of-flame)
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/96/rite-of-flame) · oracle_id `8a2e53f9-8100-488f-8504-b59e9bd1cc29` · printing: CSP #96 (2006-07-21) · [rulings](https://api.scryfall.com/cards/c062caf7-f0eb-44db-9f74-e6711a13fada/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rite of Harmony
@@ -3875,7 +3879,7 @@ schema: 2
   - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
   - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
   - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
-- **Referenced in:** 4 pages (4 decks) → [reverse index](../../references/R.md#riverglide-pathway--lavaglide-pathway)
+- **Referenced in:** 5 pages (5 decks) → [reverse index](../../references/R.md#riverglide-pathway--lavaglide-pathway)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/264/riverglide-pathway-lavaglide-pathway) · oracle_id `4924b3a4-a218-4783-8a4d-82361fdecc78` · printing: ZNR #264 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Riverguard's Reflexes
@@ -3997,7 +4001,7 @@ schema: 2
   - *2013-06-07* — If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
   - *2013-06-07* — The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
   - *2013-06-07* — When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
-- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/R.md#river-kelpie)
+- **Referenced in:** 4 pages (4 decks) → [reverse index](../../references/R.md#river-kelpie)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/166/river-kelpie) · oracle_id `ef5c93ae-91e0-4edb-b8a3-1171a3694bb8` · printing: TDC #166 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### River Merfolk
@@ -4131,7 +4135,8 @@ schema: 2
 - **Rulings** (1):
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
 - **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): XLN #71 — ✅ Card art shown on [The Shapers](https://magic.wizards.com/en/news/magic-story/shapers-2017-09-27), [Something Else Entirely](https://magic.wizards.com/en/news/magic-story/something-else-entirely-2017-10-04) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 52,701 decks; most often under [Anhelo, the Painter](../../cards/A/an.md#anhelo-the-painter) (31.8% of its decks), [Zevlor, Elturel Exile](../../cards/Z/ze.md#zevlor-elturel-exile) (41.2% of its decks), [Hakbal of the Surging Soul](../../cards/H/ha.md#hakbal-of-the-surging-soul) (6.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Synergy:** *Proven* — KB decks (1): [Zevlor, Elturel Exile (Grixis)](../../grixis/decks/zevlor-elturel-exile.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 52,701 decks; most often under [Anhelo, the Painter](../../cards/A/an.md#anhelo-the-painter) (31.8% of its decks), [Zevlor, Elturel Exile](../../cards/Z/ze.md#zevlor-elturel-exile) (41.2% of its decks), [Hakbal of the Surging Soul](../../cards/H/ha.md#hakbal-of-the-surging-soul) (6.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#rivers-rebuke)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/595/rivers-rebuke) · oracle_id `c52cfb41-18f3-4e73-b5e7-d75baf74e578` · printing: FDN #595 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Riverwalk Technique

@@ -80,7 +80,7 @@ schema: 2
   - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
   - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-rani)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/T.md#the-rani)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/149/the-rani) · oracle_id `ac9b0bdf-caf8-4dba-a900-e59de35e77d7` · printing: WHO #149 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Raven Man
@@ -147,8 +147,8 @@ schema: 2
   - *2022-02-18* — The top card of your library is still in your library and not in your hand. You can't discard cards from the top of your library (for example, to activate their channel abilities).
   - *2022-02-18* — You must pay all costs and follow all timing rules for cards played from the top of your library this way. For example, you may play a land this way only while the stack is empty during one of your own main phases, and only if you haven't played a land yet this turn.
 - **Lore:** Featured in: [Item → Reality Chip](../../Items%20%26%20Artifacts%20Index.md#reality-chip) ([source](https://magic.wizards.com/en/news/magic-story/a-man-of-parts), [2](https://magic.wizards.com/en/news/magic-story/episode-3-unexpected-alliance-2022-01-24) via entry) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (1): [Mishra, Artificer Prodigy (Grixis)](../../grixis/decks/mishra-artificer-prodigy.md) · Commander Spellbook: 100+ combos; most popular [Sensei's Divining Top + Etherium Sculptor + The Reality Chip](https://commanderspellbook.com/combo/1976-5078-5243/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 1,720 decks; highest synergy [Etherium Sculptor](../../cards/E/et.md#etherium-sculptor) (+56%), [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+56%), [Cloud Key](../../cards/C/cl.md#cloud-key) (+48%) · EDHREC: in 144,431 decks; most often under [Urza, Lord High Artificer](../../cards/U/ur.md#urza-lord-high-artificer) (44.7% of its decks), [Kellan, the Kid](../../cards/K/ke.md#kellan-the-kid) (62.6% of its decks), [Marvo, Deep Operative](../../cards/M/mar.md#marvo-deep-operative) (50.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 4 pages (1 decks · 1 rules · 1 lore & story · 1 card data) → [reverse index](../../references/T.md#the-reality-chip)
+- **Synergy:** *Proven* — KB decks (2): [Mishra, Artificer Prodigy (Grixis)](../../grixis/decks/mishra-artificer-prodigy.md) · [Tetsuo, Imperial Champion (Grixis)](../../grixis/decks/tetsuo-imperial-champion.md) · Commander Spellbook: 100+ combos; most popular [Sensei's Divining Top + Etherium Sculptor + The Reality Chip](https://commanderspellbook.com/combo/1976-5078-5243/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 1,720 decks; highest synergy [Etherium Sculptor](../../cards/E/et.md#etherium-sculptor) (+56%), [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+56%), [Cloud Key](../../cards/C/cl.md#cloud-key) (+48%) · EDHREC: in 144,431 decks; most often under [Urza, Lord High Artificer](../../cards/U/ur.md#urza-lord-high-artificer) (44.7% of its decks), [Kellan, the Kid](../../cards/K/ke.md#kellan-the-kid) (62.6% of its decks), [Marvo, Deep Operative](../../cards/M/mar.md#marvo-deep-operative) (50.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 5 pages (2 decks · 1 rules · 1 lore & story · 1 card data) → [reverse index](../../references/T.md#the-reality-chip)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/74/the-reality-chip) · oracle_id `751f22bc-bcea-4213-a37b-b5f72448a4c4` · printing: NEO #74 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### There and Back Again
@@ -200,7 +200,7 @@ schema: 2
 - **Keywords:** Treasure, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #530 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/T.md#the-reaver-cleaver)
+- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 card data) → [reverse index](../../references/T.md#the-reaver-cleaver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/8/the-reaver-cleaver) · oracle_id `37a2a31d-51e6-4c07-b4c2-b206ad40eb42` · printing: DMC #8 (2022-09-09) · [rulings](https://api.scryfall.com/cards/5bcd1591-b5b9-49fc-9f2a-45f31ed1871e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Rebellious Intelligence

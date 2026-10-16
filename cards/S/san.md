@@ -405,7 +405,7 @@ schema: 2
   - *2026-08-21* — Only one loyalty ability of each planeswalker may be activated per turn, no matter how many it has gained.
   - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
   - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
-- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/S.md#sanctum-lurker)
+- **Referenced in:** 4 pages (2 decks · 1 rules · 1 card data) → [reverse index](../../references/S.md#sanctum-lurker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/64/sanctum-lurker) · oracle_id `3ebd64d2-c178-45a2-a51f-9869754baa0f` · printing: FRA #64 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum of All
@@ -1236,6 +1236,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2036 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-06-01* — If one or more creatures an opponent controls are put into the graveyard at the same time as Sangromancer, Sangromancer's first ability will trigger that many times.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sangromancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/152/sangromancer) · oracle_id `920445ab-0ac2-4de7-bc1c-f5e58eb4424c` · printing: C21 #152 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sangrophage

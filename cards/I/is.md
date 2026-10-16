@@ -251,8 +251,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
 - **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/sea-gods-labyrinth-part-2-2013-11-20), [Bottled Up](https://magic.wizards.com/en/news/magic-story/bottled-2016-09-28), [Chronicle of Bolas: A Familiar Stranger](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-familiar-stranger-2018-08-01) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (57): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,667,736 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (95.1% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (91.3% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (97.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 37 pages (36 decks · 1 card data) → [reverse index](../../references/I.md#island)
+- **Synergy:** *Proven* — KB decks (74): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,667,736 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (95.1% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (91.3% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (97.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 54 pages (53 decks · 1 card data) → [reverse index](../../references/I.md#island)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mdd/294/island) · oracle_id `b2c6aa39-2d2a-459c-a555-fb48ba993373` · printing: MDD #294 (2027-04-09) · [rulings](https://api.scryfall.com/cards/1335d293-3dd2-4f13-bd2c-22181f4528ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Island Fish Jasconius
@@ -328,7 +328,7 @@ schema: 2
   - *2020-08-07* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
   - *2020-08-07* — If you don't want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are checked.
   - *2020-08-07* — You cast the copy while the ability is resolving and still on the stack. You can't wait to cast it later in the turn.
-- **Referenced in:** 3 pages (2 edh guides · 1 card data) → [reverse index](../../references/I.md#isochron-scepter)
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/I.md#isochron-scepter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/264/isochron-scepter) · oracle_id `ddd649f4-dbaf-48ec-8ff7-95581257772d` · printing: 2XM #264 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Isolate

@@ -10936,7 +10936,7 @@
   "EDH Deck Evaluation Checklist.md": {
    "counts": {
     "card": 2,
-    "grixis-repo": 3
+    "grixis-repo": 4
    },
    "quotes": [
     {
@@ -10961,6 +10961,11 @@
      "fp": "ad99e5a70af4",
      "status": "grixis-repo",
      "quote": "Essentially unchanged"
+    },
+    {
+     "fp": "55d37f7cc8b7",
+     "status": "grixis-repo",
+     "quote": "current official Commander legality PASS"
     }
    ]
   },

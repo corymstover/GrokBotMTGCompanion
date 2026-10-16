@@ -16,7 +16,7 @@ schema: 2
 
 # Grixis Deck — Nathan Drake, Treasure Hunter
 
-> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Nathan_Drake_Treasure_Hunter_Approved_2026-10-15.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Nathan_Drake_Treasure_Hunter_Approved_2026-10-15.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-15; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Nathan_Drake_Treasure_Hunter_Approved_2026-10-15.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Nathan_Drake_Treasure_Hunter_Approved_2026-10-15.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-15; source commit `1836b97`). Imported in Bot cycle 16; re-validated in Bot cycle 37 against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
 ## Contents
 - [Commander](#commander)
@@ -310,7 +310,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 ### From `refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md`
 
-Source: [refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md)
+Source: [refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md)
 
 **Nathan Drake, Treasure Hunter — Commander-First Blueprint v1**
 
@@ -369,7 +369,7 @@ Recommended Archidekt tags:
 
 ### From `refinement/decisions/Nathan_Drake_Treasure_Hunter_Candidate_Decisions_2026-10-15.md`
 
-Source: [refinement/decisions/Nathan_Drake_Treasure_Hunter_Candidate_Decisions_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Nathan_Drake_Treasure_Hunter_Candidate_Decisions_2026-10-15.md)
+Source: [refinement/decisions/Nathan_Drake_Treasure_Hunter_Candidate_Decisions_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decisions/Nathan_Drake_Treasure_Hunter_Candidate_Decisions_2026-10-15.md)
 
 **Nathan Drake, Treasure Hunter — Current-Cycle Candidate Decisions**
 
@@ -442,7 +442,7 @@ No alternative produced a material improvement without a larger opportunity cost
 
 ### From `refinement/approvals/Nathan_Drake_Treasure_Hunter_Approved_2026-10-15.md`
 
-Source: [refinement/approvals/Nathan_Drake_Treasure_Hunter_Approved_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Nathan_Drake_Treasure_Hunter_Approved_2026-10-15.md)
+Source: [refinement/approvals/Nathan_Drake_Treasure_Hunter_Approved_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/approvals/Nathan_Drake_Treasure_Hunter_Approved_2026-10-15.md)
 
 **Nathan Drake, Treasure Hunter — Current-Cycle Approval Record**
 
@@ -461,8 +461,8 @@ This approval freezes `refinement/decklists/Nathan_Drake_Treasure_Hunter_Approve
 
 ### Further source evidence (linked, not copied)
 
-- [refinement/verification/Nathan_Drake_Treasure_Hunter_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Nathan_Drake_Treasure_Hunter_Approval_Ready_Verification_2026-10-15.md)
-- [refinement/verification/Nathan_Drake_Treasure_Hunter_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Nathan_Drake_Treasure_Hunter_Whole_List_Audit_2026-10-15.md)
+- [refinement/verification/Nathan_Drake_Treasure_Hunter_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Nathan_Drake_Treasure_Hunter_Approval_Ready_Verification_2026-10-15.md)
+- [refinement/verification/Nathan_Drake_Treasure_Hunter_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Nathan_Drake_Treasure_Hunter_Whole_List_Audit_2026-10-15.md)
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
@@ -482,5 +482,5 @@ This approval freezes `refinement/decklists/Nathan_Drake_Treasure_Hunter_Approve
 - **Rules sections citing cards in this list:** [Keyword Encyclopedia → Equip](../../Keyword%20Encyclopedia.md#equip) (Lightning Greaves, Swiftfoot Boots) · [Rules Interactions → Commander: color identity](../../Rules%20Interactions.md#commander-color-identity) (Arcane Signet, Command Tower) · [Rules Interactions → Replacement effects vs. triggered abilities](../../Rules%20Interactions.md#replacement-effects-vs-triggered-abilities) (Exotic Orchard, Fellwar Stone) · [Keyword Encyclopedia → Cumulative Upkeep](../../Keyword%20Encyclopedia.md#cumulative-upkeep) (Mystic Remora) · [Keyword Encyclopedia → Dash](../../Keyword%20Encyclopedia.md#dash) (Ragavan, Nimble Pilferer) · [Keyword Encyclopedia → Exert](../../Keyword%20Encyclopedia.md#exert) (Arena of Glory) · [Keyword Encyclopedia → Firebending](../../Keyword%20Encyclopedia.md#firebending) (Fire Lord Azula) · [Keyword Encyclopedia → Goad](../../Keyword%20Encyclopedia.md#goad) (Grenzo, Havoc Raiser) · …8 more sections
 - **Lore & story sections citing cards in this list:** [Art & Flavor Story Links → Captioned art on cited story pages](../../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Command Tower, Mana Confluence) · [Planes Index → New Capenna](../../Planes%20Index.md#new-capenna) (Xander's Lounge)
 - **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Arid Mesa, Badlands +22) · [EDH Upgrade Paths → Prosper, Tome-Bound](../../EDH%20Upgrade%20Paths.md#prosper-tome-bound) (Badlands, Blood Crypt, Bloodstained Mire +9) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (An Offer You Can't Refuse, Deflecting Swat, Fierce Guardianship +8) · [EDH Upgrade Paths → Breya, Etherium Shaper](../../EDH%20Upgrade%20Paths.md#breya-etherium-shaper) (An Offer You Can't Refuse, Badlands, Bloodstained Mire +7) · [EDH Upgrade Paths → Zur the Enchanter](../../EDH%20Upgrade%20Paths.md#zur-the-enchanter) (An Offer You Can't Refuse, City of Brass, Dark Ritual +7) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Dark Ritual, Fellwar Stone +7) · …104 more sections
-- **Decks sharing the most cards:** [Don Andres, the Renegade (Grixis)](../../grixis/decks/don-andres-the-renegade.md) 65 · [Edward Kenway (Grixis)](../../grixis/decks/edward-kenway.md) 50 · [Lord Xander, the Collector (Grixis)](../../grixis/decks/lord-xander-the-collector.md) 50 · [Abaddon the Despoiler (Grixis)](../../grixis/decks/abaddon-the-despoiler.md) 48
+- **Decks sharing the most cards:** [Don Andres, the Renegade (Grixis)](../../grixis/decks/don-andres-the-renegade.md) 65 · [Nicol Bolas (Grixis)](../../grixis/decks/nicol-bolas.md) 51 · [Obeka, Splitter of Seconds (Grixis)](../../grixis/decks/obeka-splitter-of-seconds.md) 51 · [Edward Kenway (Grixis)](../../grixis/decks/edward-kenway.md) 50
 <!-- CROSSREFS:END -->

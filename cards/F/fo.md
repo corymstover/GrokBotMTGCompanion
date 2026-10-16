@@ -1233,7 +1233,7 @@ schema: 2
   - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
   - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
   - *2023-06-16* — You don't choose a target for Foray of Orcs at the time you cast it. Rather, a second "reflexive" ability triggers when you amass Orcs this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#foray-of-orcs)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/F.md#foray-of-orcs)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/128/foray-of-orcs) · oracle_id `60bfcaef-9014-4707-b681-cc3920bf223e` · printing: LTR #128 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Forbid
@@ -1265,6 +1265,7 @@ schema: 2
   - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/F.md#forbidden-alchemy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/152/forbidden-alchemy) · oracle_id `66d65cda-e3d1-4a00-8ff3-c6d5ef0ab0c1` · printing: TDC #152 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Forbidden Crypt
@@ -1317,7 +1318,7 @@ schema: 2
   > Whenever you tap this land for mana, target opponent creates a 1/1 colorless Spirit creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #738 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/F.md#forbidden-orchard)
+- **Referenced in:** 5 pages (3 decks · 2 card data) → [reverse index](../../references/F.md#forbidden-orchard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/323/forbidden-orchard) · oracle_id `cfd60d1f-9832-4408-b84e-0fd3018b015b` · printing: 2X2 #323 (2022-07-08) · [rulings](https://api.scryfall.com/cards/17db644c-1acf-477d-9c20-f72221f1108a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Forbidden Ritual
@@ -1566,7 +1567,7 @@ schema: 2
   > *"Try, if you must."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #272 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 20 pages (14 decks · 5 edh guides · 1 card data) → [reverse index](../../references/F.md#force-of-negation)
+- **Referenced in:** 21 pages (15 decks · 5 edh guides · 1 card data) → [reverse index](../../references/F.md#force-of-negation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/50/force-of-negation) · oracle_id `ac2173f9-f223-440a-9231-fd98762bdc6f` · printing: 2X2 #50 (2022-07-08) · [rulings](https://api.scryfall.com/cards/1825a719-1b2a-4af9-9cd2-7cb497cd0317/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Force of Rage
@@ -1650,7 +1651,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #202 · Game Changer: **yes** · Can be commander: No
 - **Rulings** (1):
   - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as the alternative cost of Force of Will), add any cost increases, then apply any cost reductions. Force of Will's mana value is always 5, no matter what you paid to cast it.
-- **Referenced in:** 27 pages (19 decks · 6 edh guides · 2 card data) → [reverse index](../../references/F.md#force-of-will)
+- **Referenced in:** 42 pages (34 decks · 6 edh guides · 2 card data) → [reverse index](../../references/F.md#force-of-will)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/50/force-of-will) · oracle_id `956381ba-6d37-4a8a-846c-bad79222dbee` · printing: DMR #50 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Force Spike
@@ -1826,7 +1827,7 @@ schema: 2
   - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
   - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
   - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
-- **Referenced in:** 6 pages (2 decks · 1 edh guides · 1 rules · 2 card data) → [reverse index](../../references/F.md#forensic-gadgeteer)
+- **Referenced in:** 7 pages (3 decks · 1 edh guides · 1 rules · 2 card data) → [reverse index](../../references/F.md#forensic-gadgeteer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/57/forensic-gadgeteer) · oracle_id `9d5917d5-4fb3-4f37-9278-e08c1f73aae5` · printing: MKM #57 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Forensic Researcher

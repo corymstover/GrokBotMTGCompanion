@@ -236,7 +236,7 @@ schema: 2
   - *2021-06-18* — If you control eighteen Academy Manufactors (I don't know, you figure it out) and would create some number of Clue, Food, or Treasure tokens, you will instead create 129,140,163 times that many Clue tokens, 129,140,163 times that many Food tokens, and 129,140,163 times that many Treasure tokens.
   - *2021-06-18* — If you control one Academy Manufactor and would create some number of Clue, Food, or Treasure tokens, you will instead create that many Clue tokens, that many Food tokens, and that many Treasure tokens.
   - *2021-06-18* — If you control two Academy Manufactors and would create some number of Clue, Food, or Treasure tokens, you will instead create three times that many Clue tokens, three times that many Food tokens, and three times that many Treasure tokens.
-- **Referenced in:** 8 pages (4 decks · 1 edh guides · 1 rules · 2 card data) → [reverse index](../../references/A.md#academy-manufactor)
+- **Referenced in:** 9 pages (5 decks · 1 edh guides · 1 rules · 2 card data) → [reverse index](../../references/A.md#academy-manufactor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/251/academy-manufactor) · oracle_id `f36d1d8b-8303-44a9-ab56-531931641ea2` · printing: OTC #251 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Academy Raider
@@ -291,7 +291,7 @@ schema: 2
   > *Its secrets once wrought the greatest artifice ever known. Now crabs loot the rubble to decorate their shells.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #459 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 8 pages (6 decks · 2 edh guides) → [reverse index](../../references/A.md#academy-ruins)
+- **Referenced in:** 9 pages (7 decks · 2 edh guides) → [reverse index](../../references/A.md#academy-ruins)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/309/academy-ruins) · oracle_id `a3da7d5b-2c2b-45fe-b9c5-413b8c8fc0a2` · printing: 2XM #309 (2020-08-07) · [rulings](https://api.scryfall.com/cards/a95b7645-154f-4904-bf71-db7eb24d4df2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Academy Wall
@@ -567,7 +567,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-06-07* — As Accursed Marauder's enters-the-battlefield ability resolves, first the player whose turn it is chooses which creature they'll sacrifice, then each other player in turn order does the same. Players will know the choices of previous players when making their choice. Then all of the chosen creatures are sacrificed by their controllers simultaneously.
   - *2024-06-07* — You may sacrifice Accursed Marauder to its own ability. If it is the only creature you control when that ability resolves, you must sacrifice it.
-- **Referenced in:** 5 pages (4 decks · 1 card data) → [reverse index](../../references/A.md#accursed-marauder)
+- **Referenced in:** 6 pages (5 decks · 1 card data) → [reverse index](../../references/A.md#accursed-marauder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/80/accursed-marauder) · oracle_id `d8ad23a1-0b43-48ea-9fbe-d89b29194509` · printing: MH3 #80 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Accursed Spirit
@@ -1028,6 +1028,7 @@ schema: 2
   > *Sometimes "innovation" means "stealing another's secret before anyone else can."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10171 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#acquire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/21/acquire) · oracle_id `f1c3d749-5cdb-4af2-967f-6413d6cb04fe` · printing: 5DN #21 (2004-06-04) · [rulings](https://api.scryfall.com/cards/993957c7-5d61-4c98-826d-b657aed667e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Acquired Mutation

@@ -1211,7 +1211,7 @@ schema: 2
   - *2024-09-20* — If you gain an amount of life "for each" of something, that life is gained as one event and Enduring Tenacity's first ability triggers only once.
   - *2024-09-20* — In a Two-Headed Giant game, life gained by your teammate won't cause Enduring Tenacity's first ability to trigger, even though it caused your team's life total to increase.
   - *2024-09-20* — Snake and Glimmer are both creature types. Enduring Tenacity won't have those creature types when its last ability returns it to the battlefield because it won't be a creature.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#enduring-tenacity)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/E.md#enduring-tenacity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/95/enduring-tenacity) · oracle_id `98e698ae-1a69-469c-9cfb-0e3fedeb71d4` · printing: DSK #95 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enduring Victory
@@ -2146,7 +2146,7 @@ schema: 2
   - *2023-10-13* — If a spell or ability requires multiple players to face a villainous choice, the result is a little different from other effects in Magic. In that case, the first player in turn order makes their choice and the action for that choice is performed before the next player makes their choice. Then each of the remaining players repeat this process in turn order.
   - *2023-10-13* — The opponent chooses whether to exile cards from the top of their library until they exile a nonland card or to exile the top four cards of their library. They don't choose whether you cast the cards exiled by the first option.
   - *2023-10-13* — When a player faces a villainous choice, they first choose one of the two options, then all actions in the chosen option are performed.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/E.md#ensnared-by-the-mara)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/E.md#ensnared-by-the-mara)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/84/ensnared-by-the-mara) · oracle_id `16090270-0ac5-404c-b0c8-a6c8a4b508a4` · printing: WHO #84 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ensnaring Bridge
@@ -2432,7 +2432,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1367 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 10 pages (8 decks · 2 edh guides) → [reverse index](../../references/E.md#enthusiastic-mechanaut)
+- **Referenced in:** 11 pages (9 decks · 2 edh guides) → [reverse index](../../references/E.md#enthusiastic-mechanaut)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/114/enthusiastic-mechanaut) · oracle_id `c9722086-23e8-43dc-8a8c-541ff6962318` · printing: EOC #114 (2025-08-01) · [rulings](https://api.scryfall.com/cards/fbfcbfed-74c7-4b1e-897c-44f25e45a4a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enthusiastic Study
@@ -2497,7 +2497,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
   - *2024-09-20* — If a permanent with an eerie ability enters at the same time as one or more enchantments, its ability will trigger for each of those enchantments.
-- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/E.md#entity-tracker)
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/E.md#entity-tracker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/53/entity-tracker) · oracle_id `c9db5293-4866-46ec-9ae8-059d27bd50fc` · printing: DSK #53 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Entomb
@@ -2510,7 +2510,7 @@ schema: 2
   > *A grave is the safest place to store ill-gotten treasures.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #325 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 17 pages (11 decks · 4 edh guides · 2 card data) → [reverse index](../../references/E.md#entomb)
+- **Referenced in:** 20 pages (14 decks · 4 edh guides · 2 card data) → [reverse index](../../references/E.md#entomb)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/82/entomb) · oracle_id `299fc083-0834-4064-8344-f895aff68867` · printing: DMR #82 (2023-01-13) · [rulings](https://api.scryfall.com/cards/3caa9c55-5e3b-436b-84a9-b7ccebf63799/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Entomber Exarch

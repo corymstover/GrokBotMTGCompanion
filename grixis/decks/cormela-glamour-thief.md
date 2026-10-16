@@ -16,7 +16,7 @@ schema: 2
 
 # Grixis Deck — Cormela, Glamour Thief
 
-> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Cormela_Glamour_Thief_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Cormela_Glamour_Thief_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Cormela_Glamour_Thief_Approved_2026-10-14.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Cormela_Glamour_Thief_Approved_2026-10-14.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-14; source commit `1836b97`). Imported in Bot cycle 16; re-validated in Bot cycle 37 against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
 ## Contents
 - [Commander](#commander)
@@ -315,7 +315,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 ### From `refinement/blueprints/Cormela_Glamour_Thief_v1.md`
 
-Source: [refinement/blueprints/Cormela_Glamour_Thief_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Cormela_Glamour_Thief_v1.md)
+Source: [refinement/blueprints/Cormela_Glamour_Thief_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/blueprints/Cormela_Glamour_Thief_v1.md)
 
 **Cormela, Glamour Thief — Commander-First Blueprint**
 
@@ -341,7 +341,7 @@ Project candidate ranking: #9 for Cormela; 18.3869% EDHREC inclusion and 11.4545
 
 ### From `refinement/decisions/Cormela_Glamour_Thief_Candidate_Decisions_2026-10-13.csv` (candidate decision ledger)
 
-Source: [refinement/decisions/Cormela_Glamour_Thief_Candidate_Decisions_2026-10-13.csv](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Cormela_Glamour_Thief_Candidate_Decisions_2026-10-13.csv)
+Source: [refinement/decisions/Cormela_Glamour_Thief_Candidate_Decisions_2026-10-13.csv](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decisions/Cormela_Glamour_Thief_Candidate_Decisions_2026-10-13.csv)
 
 | ID | Candidate | Proposed cut | Decision | Source reasoning (abridged) |
 |---|---|---|---|---|
@@ -349,7 +349,7 @@ Source: [refinement/decisions/Cormela_Glamour_Thief_Candidate_Decisions_2026-10-
 
 ### From `refinement/evidence/Cormela_Glamour_Thief_Current_Cycle_Approval_Gate_2026-10-14.md`
 
-Source: [refinement/evidence/Cormela_Glamour_Thief_Current_Cycle_Approval_Gate_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/evidence/Cormela_Glamour_Thief_Current_Cycle_Approval_Gate_2026-10-14.md)
+Source: [refinement/evidence/Cormela_Glamour_Thief_Current_Cycle_Approval_Gate_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/evidence/Cormela_Glamour_Thief_Current_Cycle_Approval_Gate_2026-10-14.md)
 
 **Cormela #9 — Current-cycle review outcome**
 
@@ -365,7 +365,7 @@ Final proposal: frozen source unchanged, 100 cards, singleton and Grixis color i
 
 ### Further source evidence (linked, not copied)
 
-- [refinement/verification/Cormela_Glamour_Thief_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Cormela_Glamour_Thief_Final_Verification_2026-10-13.md)
+- [refinement/verification/Cormela_Glamour_Thief_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Cormela_Glamour_Thief_Final_Verification_2026-10-13.md)
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
@@ -410,6 +410,6 @@ Final proposal: frozen source unchanged, 100 cards, singleton and Grixis color i
 - **Keywords → [Keyword Encyclopedia](../../Keyword%20Encyclopedia.md):** [Storm](../../Keyword%20Encyclopedia.md#storm) 3 · [Flash](../../Keyword%20Encyclopedia.md#flash) 2 · [Surveil](../../Keyword%20Encyclopedia.md#surveil) 2 · [Amass](../../Keyword%20Encyclopedia.md#amass) 1 · [Cumulative upkeep](../../Keyword%20Encyclopedia.md#cumulative-upkeep) 1 · [Flashback](../../Keyword%20Encyclopedia.md#flashback) 1 · [Haste](../../Keyword%20Encyclopedia.md#haste) 1 · [Mill](../../Keyword%20Encyclopedia.md#mill) 1 · [Scry](../../Keyword%20Encyclopedia.md#scry) 1 · [Splice](../../Keyword%20Encyclopedia.md#splice) 1
 - **Rules sections citing cards in this list:** [Keyword Encyclopedia → Storm](../../Keyword%20Encyclopedia.md#storm) (Brain Freeze, Flusterstorm) · [Rules Interactions → Commander: color identity](../../Rules%20Interactions.md#commander-color-identity) (Arcane Signet, Command Tower) · [Rules Interactions → The legend rule](../../Rules%20Interactions.md#the-legend-rule) (Gemstone Caverns, Mox Opal) · [Keyword Encyclopedia → Amass](../../Keyword%20Encyclopedia.md#amass) (Orcish Bowmasters) · [Keyword Encyclopedia → Cumulative Upkeep](../../Keyword%20Encyclopedia.md#cumulative-upkeep) (Mystic Remora) · [Keyword Encyclopedia → Flash](../../Keyword%20Encyclopedia.md#flash) (Orcish Bowmasters) · [Keyword Encyclopedia → Flashback](../../Keyword%20Encyclopedia.md#flashback) (Faithless Looting) · [Keyword Encyclopedia → Splice](../../Keyword%20Encyclopedia.md#splice) (Goryo's Vengeance) · …3 more sections
 - **Lore & story sections citing cards in this list:** [Art & Flavor Story Links → Captioned art on cited story pages](../../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Cabal Ritual, Command Tower, Mana Confluence) · [Art & Flavor Story Links → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) (Diabolic Intent) · [Planes Index → Kaldheim](../../Planes%20Index.md#kaldheim) (Birgi, God of Storytelling // Harnfel, Horn of Bounty)
-- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +22) · [EDH Standards → Game Changers](../../EDH%20Standards.md#game-changers) (Ad Nauseam, Ancient Tomb, Chrome Mox +17) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Ashnod's Altar, Birgi, God of Storytelling // Harnfel, Horn of Bounty +17) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (An Offer You Can't Refuse, Deflecting Swat, Fierce Guardianship +12) · [EDH Upgrade Paths → Zur the Enchanter](../../EDH%20Upgrade%20Paths.md#zur-the-enchanter) (An Offer You Can't Refuse, Borne Upon a Wind, City of Brass +10) · [EDH Upgrade Paths → Nekusar, the Mindrazer](../../EDH%20Upgrade%20Paths.md#nekusar-the-mindrazer) (Badlands, Blood Crypt, Bloodstained Mire +9) · …92 more sections
-- **Decks sharing the most cards:** [Kess, Dissident Mage (Grixis)](../../grixis/decks/kess-dissident-mage.md) 76 · [Jeleva, Nephalia's Scourge (Grixis)](../../grixis/decks/jeleva-nephalias-scourge.md) 73 · [Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)](../../grixis/decks/kefka-court-mage.md) 73 · [Evelyn, the Covetous (Grixis)](../../grixis/decks/evelyn-the-covetous.md) 69
+- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Badlands, Blood Crypt +23) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Ashnod's Altar, Birgi, God of Storytelling // Harnfel, Horn of Bounty +18) · [EDH Standards → Game Changers](../../EDH%20Standards.md#game-changers) (Ad Nauseam, Ancient Tomb, Chrome Mox +17) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (An Offer You Can't Refuse, Deflecting Swat, Fierce Guardianship +12) · [EDH Upgrade Paths → Zur the Enchanter](../../EDH%20Upgrade%20Paths.md#zur-the-enchanter) (An Offer You Can't Refuse, Borne Upon a Wind, City of Brass +10) · [Grixis Packages → Draw](../../grixis/Grixis%20Packages.md#draw) (Ad Nauseam, Borne Upon a Wind, Brainstorm +10) · …93 more sections
+- **Decks sharing the most cards:** [Kess, Dissident Mage (Grixis)](../../grixis/decks/kess-dissident-mage.md) 76 · [Jeleva, Nephalia's Scourge (Grixis)](../../grixis/decks/jeleva-nephalias-scourge.md) 73 · [Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)](../../grixis/decks/kefka-court-mage.md) 73 · [Rograkh, Son of Rohgahh (Grixis)](../../grixis/decks/rograkh-son-of-rohgahh-silas-renn.md) 70
 <!-- CROSSREFS:END -->

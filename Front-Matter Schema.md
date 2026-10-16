@@ -12,7 +12,7 @@ schema: 2
 # Front-Matter Schema
 
 > **Auto-generated** by `scripts/front_matter.py` (Bot cycle 17, issue [#65](https://github.com/corymstover/GrokBotMTGCompanion/issues/65)) from the `SCHEMA` and `PAGES` tables in the script, so this page cannot drift from what `--check` enforces. Schema version **2**. Do not hand-edit.
-> Coverage: **52** registered pages (README.md and GOAL.md are exempt), **88** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
+> Coverage: **52** registered pages (README.md and GOAL.md are exempt), **108** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
 
 ## Contents
 - [Format](#format)
@@ -260,19 +260,19 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `bant` | 2 |
 | `boros` | 2 |
 | `bracket-floor-2` | 12 |
-| `bracket-floor-3` | 30 |
-| `bracket-floor-4` | 46 |
+| `bracket-floor-3` | 31 |
+| `bracket-floor-4` | 65 |
 | `colorless` | 1 |
-| `combos` | 23 |
+| `combos` | 25 |
 | `core` | 32 |
 | `dimir` | 1 |
 | `dune` | 1 |
 | `esper` | 1 |
 | `five-color` | 1 |
-| `game-changers` | 73 |
+| `game-changers` | 93 |
 | `glint` | 1 |
 | `golgari` | 2 |
-| `grixis` | 81 |
+| `grixis` | 121 |
 | `gruul` | 3 |
 | `ink` | 1 |
 | `izzet` | 1 |
@@ -309,7 +309,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `theme-lifegain` | 1 |
 | `theme-planeswalkers` | 1 |
 | `theme-self-mill` | 1 |
-| `two-card-infinite` | 37 |
+| `two-card-infinite` | 51 |
 | `witch` | 2 |
 | `yore` | 1 |
 

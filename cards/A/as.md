@@ -356,7 +356,7 @@ schema: 2
   - *2017-04-18* — If you control multiple As Foretolds, you may cast one spell for each of them paying {0}.
   - *2017-04-18* — If you're casting a split card, only the mana value of the half you're casting is compared to the number of time counters on As Foretold. This is because only that half is on the stack at the time that you choose to apply the effect of As Foretold.
   - *2023-09-01* — If you cast a spell for an alternative cost of {0}, you can't pay any other alternative costs, such as emerge costs. You can, however, pay additional costs, such as bargain. If the spell has any mandatory additional costs, such as that of Tormenting Voice, you must pay those to cast the spell.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#as-foretold)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/A.md#as-foretold)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/38/as-foretold) · oracle_id `e4b3e0af-5caa-47c1-b5be-c56a875cbb15` · printing: 2X2 #38 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Asgardian Citadel
@@ -523,8 +523,8 @@ schema: 2
   - *2022-12-02* — The value of X is locked in as the first ability resolves. The bonus it grants won't change after that point, even if the number of Rats you control does.
   - *2022-12-02* — You choose which Rat creature cards to return to your hand as the last ability resolves. You may choose Rat creature cards milled with this ability.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Ashcoat of the Shadow Swarm + Mind Over Matter + The Peregrine Dynamo](https://commanderspellbook.com/combo/1572-2341-4067/) (Infinite self-discard triggers, Infinite self-mill) · EDHREC as commander: 3,574 decks; highest synergy [Marrow-Gnawer](../../cards/M/mar.md#marrow-gnawer) (+83%), [Piper of the Swarm](../../cards/P/pi.md#piper-of-the-swarm) (+72%), [Karumonix, the Rat King](../../cards/K/ka.md#karumonix-the-rat-king) (+70%) · EDHREC: in 27,097 decks; most often under [Marrow-Gnawer](../../cards/M/mar.md#marrow-gnawer) (54.4% of its decks), [Wick, the Whorled Mind](../../cards/W/wi.md#wick-the-whorled-mind) (36.6% of its decks), [Vren, the Relentless](../../cards/V/vr.md#vren-the-relentless) (33.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/A.md#ashcoat-of-the-shadow-swarm)
+- **Synergy:** *Proven* — KB decks (1): [Wick, the Whorled Mind (Grixis)](../../grixis/decks/wick-the-whorled-mind.md) · Commander Spellbook: 1 combo; most popular [Ashcoat of the Shadow Swarm + Mind Over Matter + The Peregrine Dynamo](https://commanderspellbook.com/combo/1572-2341-4067/) (Infinite self-discard triggers, Infinite self-mill) · EDHREC as commander: 3,574 decks; highest synergy [Marrow-Gnawer](../../cards/M/mar.md#marrow-gnawer) (+83%), [Piper of the Swarm](../../cards/P/pi.md#piper-of-the-swarm) (+72%), [Karumonix, the Rat King](../../cards/K/ka.md#karumonix-the-rat-king) (+70%) · EDHREC: in 27,097 decks; most often under [Marrow-Gnawer](../../cards/M/mar.md#marrow-gnawer) (54.4% of its decks), [Wick, the Whorled Mind](../../cards/W/wi.md#wick-the-whorled-mind) (36.6% of its decks), [Vren, the Relentless](../../cards/V/vr.md#vren-the-relentless) (33.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/A.md#ashcoat-of-the-shadow-swarm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j22/19/ashcoat-of-the-shadow-swarm) · oracle_id `9cc69ea5-42a2-4306-ac6d-cff5adb20bcb` · printing: J22 #19 (2022-12-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashen Firebeast
@@ -1091,7 +1091,7 @@ schema: 2
   > *—Ashnod, to Tawnos*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #134 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 18 pages (10 decks · 7 edh guides · 1 card data) → [reverse index](../../references/A.md#ashnods-altar)
+- **Referenced in:** 21 pages (13 decks · 7 edh guides · 1 card data) → [reverse index](../../references/A.md#ashnods-altar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/368/ashnods-altar) · oracle_id `4d18bcba-a346-445e-a182-6cc30b7e066d` · printing: CMM #368 (2023-08-04) · [rulings](https://api.scryfall.com/cards/3c0f7157-a375-499c-92c7-d47d2e95dbad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashnod's Battle Gear
@@ -1717,6 +1717,7 @@ schema: 2
   - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
   - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#assault-on-osgiliath)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/285/assault-on-osgiliath) · oracle_id `d2aa50d2-d22d-495e-afc9-23a51c8c8f32` · printing: LTR #285 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assaultron Dominator
@@ -1766,6 +1767,7 @@ schema: 2
 - **Rulings** (2):
   - *2014-11-07* — If an effect instructs you to sacrifice a creature, and you control any creatures other than the creature equipped with Assault Suit, you must sacrifice one of them. You can't try to sacrifice the equipped creature, fail, and therefore ignore the effect.
   - *2014-11-07* — The equipped creature can't be sacrificed for any reason. If an effect instructs you to sacrifice it, you can't and it remains on the battlefield. You also can't sacrifice it to pay a cost that requires you to sacrifice a creature.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#assault-suit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/369/assault-suit) · oracle_id `c3b6e114-7bc8-4890-97d9-edbeea1f425f` · printing: CMM #369 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Assault Zeppelid

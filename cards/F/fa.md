@@ -391,7 +391,7 @@ schema: 2
   - *2022-02-18* — The back face of a transforming double-faced card usually has a color indicator that defines its color.
   - *2022-02-18* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
   - *2022-02-18* — The token created by Reflection of Kiki-Jiki copies exactly what was printed on the original creature (except that the copy also has haste) and nothing else (unless it's copying a creature that's a token or that's copying something else; see below). It doesn't copy whether the creature is tapped or untapped, whether it has any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on. Most notably, if the target creature isn't normally a creature, the copy won't be a creature.
-- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/F.md#fable-of-the-mirror-breaker--reflection-of-kiki-jiki)
+- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/F.md#fable-of-the-mirror-breaker--reflection-of-kiki-jiki)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/141/fable-of-the-mirror-breaker-reflection-of-kiki-jiki) · oracle_id `c0957e5e-c71b-439c-931c-9f55d2f76ace` · printing: NEO #141 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fable of Wolf and Owl
@@ -417,7 +417,7 @@ schema: 2
   > *"The secret to invention is to see something in your mind, then find where it hides in the world."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #470 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 6 pages (4 decks · 1 edh guides · 1 card data) → [reverse index](../../references/F.md#fabricate)
+- **Referenced in:** 8 pages (5 decks · 2 edh guides · 1 card data) → [reverse index](../../references/F.md#fabricate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hop/9/fabricate) · oracle_id `422e1869-134f-463d-9fa1-86b66a998b3e` · printing: HOP #9 (2009-09-04) · [rulings](https://api.scryfall.com/cards/44e49332-b1e1-4b88-b508-516b55c67a1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fabrication Foundry
@@ -1510,7 +1510,7 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
-- **Referenced in:** 14 pages (9 decks · 3 edh guides · 1 rules · 1 card data) → [reverse index](../../references/F.md#faithless-looting)
+- **Referenced in:** 17 pages (12 decks · 3 edh guides · 1 rules · 1 card data) → [reverse index](../../references/F.md#faithless-looting)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/244/faithless-looting) · oracle_id `3d6fa57a-aa53-4b5c-b8af-a7612c823117` · printing: SOC #244 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Faithless Salvaging
@@ -2240,6 +2240,7 @@ schema: 2
   - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
   - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/F.md#fall-of-cair-andros)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/124/fall-of-cair-andros) · oracle_id `33c0a8c0-d1d9-4b03-869d-65dab8ace3df` · printing: LTR #124 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fall of Gil-galad
@@ -4302,8 +4303,8 @@ schema: 2
   - *2022-10-14* — If an artifact or creature on the battlefield has {X} in its mana cost, X is 0.
   - *2022-10-14* — The mana value of an artifact creature that was cast as a prototype is based on the prototype mana cost rather than the card's usual mana cost.
 - **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #94 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 49 combos; most popular [Archfiend of the Dross + Heartless Act + Fateful Handoff](https://commanderspellbook.com/combo/1165-1844-2861/) (Target opponent loses the game at the beginning of their next upkeep) · EDHREC: in 13,004 decks; most often under [Blim, Comedic Genius](../../cards/B/bli.md#blim-comedic-genius) (75.5% of its decks), [Jon Irenicus, Shattered One](../../cards/J/jo.md#jon-irenicus-shattered-one) (33.4% of its decks), [Deadpool, Trading Card](../../cards/D/dea.md#deadpool-trading-card) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#fateful-handoff)
+- **Synergy:** *Proven* — KB decks (1): [Sol'Kanar the Tainted (Grixis)](../../grixis/decks/solkanar-the-tainted.md) · Commander Spellbook: 49 combos; most popular [Archfiend of the Dross + Heartless Act + Fateful Handoff](https://commanderspellbook.com/combo/1165-1844-2861/) (Target opponent loses the game at the beginning of their next upkeep) · EDHREC: in 13,004 decks; most often under [Blim, Comedic Genius](../../cards/B/bli.md#blim-comedic-genius) (75.5% of its decks), [Jon Irenicus, Shattered One](../../cards/J/jo.md#jon-irenicus-shattered-one) (33.4% of its decks), [Deadpool, Trading Card](../../cards/D/dea.md#deadpool-trading-card) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/F.md#fateful-handoff)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/94/fateful-handoff) · oracle_id `1ecde43f-e418-437b-8b8f-efe120f96cb3` · printing: BRO #94 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fateful Showdown
@@ -4339,6 +4340,7 @@ schema: 2
   - *2026-03-20* — No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
   - *2026-03-20* — Votes are cast in turn order, and each player will know the votes of players who voted beforehand.
   - *2026-03-20* — You pay all costs and follow all timing rules for cards played this way. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/F.md#fateful-tempest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/31/fateful-tempest) · oracle_id `9d2f02f7-adcd-4d23-a051-ebca70f22ba5` · printing: SOC #31 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fatehold Annex
@@ -4486,6 +4488,7 @@ schema: 2
   - *2008-10-01* — If a creature returned to the battlefield with unearth would leave the battlefield for any reason, it’s exiled instead — unless the spell or ability that’s causing the creature to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If it later returns the creature card to the battlefield (as Oblivion Ring or Flickerwisp might, for example), the creature card will return to the battlefield as a new object with no relation to its previous existence. The unearth effect will no longer apply to it.
   - *2008-10-01* — If you activate a card’s unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing.
   - *2008-10-01* — Unearth grants haste to the creature that’s returned to the battlefield. However, neither of the “exile” abilities is granted to that creature. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/F.md#fatestitcher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/43/fatestitcher) · oracle_id `55765934-07be-4f03-a2e8-8292c0b601ae` · printing: ALA #43 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fate Transfer

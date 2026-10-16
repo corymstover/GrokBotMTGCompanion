@@ -16,7 +16,7 @@ schema: 2
 
 # Grixis Deck — Nekusar, the Mindrazer
 
-> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Nekusar_the_Mindrazer_Approved_2026-10-15.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Nekusar_the_Mindrazer_Approved_2026-10-15.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-15; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Nekusar_the_Mindrazer_Approved_2026-10-15.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Nekusar_the_Mindrazer_Approved_2026-10-15.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-15; source commit `1836b97`). Imported in Bot cycle 16; re-validated in Bot cycle 37 against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
 ## Contents
 - [Commander](#commander)
@@ -310,7 +310,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 ### From `refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md`
 
-Source: [refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md)
+Source: [refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md)
 
 **Nekusar, the Mindrazer — Commander-First Blueprint**
 
@@ -389,7 +389,7 @@ Removing Nekusar leaves a functioning wheel/group-slug deck, but substantially r
 
 ### From `refinement/decisions/Nekusar_the_Mindrazer_Candidate_Decisions_2026-10-15.md`
 
-Source: [refinement/decisions/Nekusar_the_Mindrazer_Candidate_Decisions_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decisions/Nekusar_the_Mindrazer_Candidate_Decisions_2026-10-15.md)
+Source: [refinement/decisions/Nekusar_the_Mindrazer_Candidate_Decisions_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decisions/Nekusar_the_Mindrazer_Candidate_Decisions_2026-10-15.md)
 
 **Nekusar, the Mindrazer — Current-Cycle Candidate Decisions**
 
@@ -489,7 +489,7 @@ No challenger produced a material improvement without a larger opportunity cost 
 
 ### From `refinement/approvals/Nekusar_the_Mindrazer_Approved_2026-10-15.md`
 
-Source: [refinement/approvals/Nekusar_the_Mindrazer_Approved_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Nekusar_the_Mindrazer_Approved_2026-10-15.md)
+Source: [refinement/approvals/Nekusar_the_Mindrazer_Approved_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/approvals/Nekusar_the_Mindrazer_Approved_2026-10-15.md)
 
 **Nekusar, the Mindrazer — Current-Cycle Approval Record**
 
@@ -508,8 +508,8 @@ This approval freezes `refinement/decklists/Nekusar_the_Mindrazer_Approved_2026-
 
 ### Further source evidence (linked, not copied)
 
-- [refinement/verification/Nekusar_the_Mindrazer_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Nekusar_the_Mindrazer_Approval_Ready_Verification_2026-10-15.md)
-- [refinement/verification/Nekusar_the_Mindrazer_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/verification/Nekusar_the_Mindrazer_Whole_List_Audit_2026-10-15.md)
+- [refinement/verification/Nekusar_the_Mindrazer_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Nekusar_the_Mindrazer_Approval_Ready_Verification_2026-10-15.md)
+- [refinement/verification/Nekusar_the_Mindrazer_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Nekusar_the_Mindrazer_Whole_List_Audit_2026-10-15.md)
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
@@ -538,6 +538,6 @@ This approval freezes `refinement/decklists/Nekusar_the_Mindrazer_Approved_2026-
 - **Keywords → [Keyword Encyclopedia](../../Keyword%20Encyclopedia.md):** [Flying](../../Keyword%20Encyclopedia.md#flying) 2 · [Amass](../../Keyword%20Encyclopedia.md#amass) 1 · [Cipher](../../Keyword%20Encyclopedia.md#cipher) 1 · [Cycling](../../Keyword%20Encyclopedia.md#cycling) 1 · [Deathtouch](../../Keyword%20Encyclopedia.md#deathtouch) 1 · [Enchant](../../Keyword%20Encyclopedia.md#enchant) 1 · [Equip](../../Keyword%20Encyclopedia.md#equip) 1 · [Flash](../../Keyword%20Encyclopedia.md#flash) 1 · [Flashback](../../Keyword%20Encyclopedia.md#flashback) 1 · [Menace](../../Keyword%20Encyclopedia.md#menace) 1 · [Miracle](../../Keyword%20Encyclopedia.md#miracle) 1 · [Overload](../../Keyword%20Encyclopedia.md#overload) 1
 - **Rules sections citing cards in this list:** [Rules Interactions → Commander: color identity](../../Rules%20Interactions.md#commander-color-identity) (Arcane Signet, Command Tower) · [Keyword Encyclopedia → Amass](../../Keyword%20Encyclopedia.md#amass) (Orcish Bowmasters) · [Keyword Encyclopedia → Cipher](../../Keyword%20Encyclopedia.md#cipher) (Whispering Madness) · [Keyword Encyclopedia → Deathtouch](../../Keyword%20Encyclopedia.md#deathtouch) (Sheoldred, the Apocalypse) · [Keyword Encyclopedia → Enchant](../../Keyword%20Encyclopedia.md#enchant) (Curiosity) · [Keyword Encyclopedia → Flash](../../Keyword%20Encyclopedia.md#flash) (Orcish Bowmasters) · [Keyword Encyclopedia → Overload](../../Keyword%20Encyclopedia.md#overload) (Cyclonic Rift) · [Rules Interactions → Hexproof, shroud & ward](../../Rules%20Interactions.md#hexproof-shroud--ward) (Cyclonic Rift) · …2 more sections
 - **Lore & story sections citing cards in this list:** [Art & Flavor Story Links → Captioned art on cited story pages](../../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Command Tower, Mana Confluence) · [Characters Index → Character cards (name-matched)](../../Characters%20Index.md#character-cards-name-matched) (Sheoldred, the Apocalypse) · [Planes Index → Dominaria (Dominaria United era)](../../Planes%20Index.md#dominaria-dominaria-united-era) (Sheoldred, the Apocalypse) · [Planes Index → New Capenna](../../Planes%20Index.md#new-capenna) (Xander's Lounge) · [Planes Index → Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) (Sheoldred, the Apocalypse) · [Planeswalker Dossiers → Character cards (name-matched)](../../Planeswalker%20Dossiers.md#character-cards-name-matched) (Niv-Mizzet, Parun)
-- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Arid Mesa, Badlands +23) · [EDH Upgrade Paths → Nekusar, the Mindrazer](../../EDH%20Upgrade%20Paths.md#nekusar-the-mindrazer) (Badlands, Blood Crypt, Bloodstained Mire +17) · [EDH Standards → Game Changers](../../EDH%20Standards.md#game-changers) (Ancient Tomb, Chrome Mox, Consecrated Sphinx +12) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (An Offer You Can't Refuse, Deflecting Swat, Fierce Guardianship +10) · [EDH Upgrade Paths → Breya, Etherium Shaper](../../EDH%20Upgrade%20Paths.md#breya-etherium-shaper) (An Offer You Can't Refuse, Badlands, Bloodstained Mire +7) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Chrome Mox, Dark Ritual +7) · …91 more sections
-- **Decks sharing the most cards:** [Gwendlyn Di Corci (Grixis)](../../grixis/decks/gwendlyn-di-corci.md) 57 · [Nekusar, the Mindrazer](../../decks/nekusar-the-mindrazer.md) 55 · [Crosis, the Purger (Grixis)](../../grixis/decks/crosis-the-purger.md) 51 · [Kraum, Ludevic's Opus (Grixis)](../../grixis/decks/grixistax-october-2026.md) 50
+- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Ancient Tomb, Arid Mesa, Badlands +23) · [EDH Upgrade Paths → Nekusar, the Mindrazer](../../EDH%20Upgrade%20Paths.md#nekusar-the-mindrazer) (Badlands, Blood Crypt, Bloodstained Mire +17) · [EDH Standards → Game Changers](../../EDH%20Standards.md#game-changers) (Ancient Tomb, Chrome Mox, Consecrated Sphinx +12) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (An Offer You Can't Refuse, Deflecting Swat, Fierce Guardianship +10) · [EDH Upgrade Paths → Breya, Etherium Shaper](../../EDH%20Upgrade%20Paths.md#breya-etherium-shaper) (An Offer You Can't Refuse, Badlands, Bloodstained Mire +7) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Chrome Mox, Dark Ritual +7) · …92 more sections
+- **Decks sharing the most cards:** [Gwendlyn Di Corci (Grixis)](../../grixis/decks/gwendlyn-di-corci.md) 57 · [Nekusar, the Mindrazer](../../decks/nekusar-the-mindrazer.md) 55 · [Nicol Bolas (Grixis)](../../grixis/decks/nicol-bolas.md) 52 · [Crosis, the Purger (Grixis)](../../grixis/decks/crosis-the-purger.md) 51
 <!-- CROSSREFS:END -->

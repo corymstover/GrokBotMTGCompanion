@@ -199,7 +199,7 @@ schema: 2
   - *2008-05-01* — Even if you don't plan on exchanging control of any permanents, if you can choose two legal targets when the ability triggers, you must do so. If you can't, then you don't choose any targets.
   - *2008-05-01* — If either one of the targets becomes illegal (because it leaves the battlefield or for any other reason) by the time the ability resolves, the exchange won't happen. If both targets become illegal, the ability doesn't resolve.
   - *2008-05-01* — You choose two targets such that as a set, all of the targeting conditions are met. That means, for example, that if you control a nonland permanent whose mana value is lower than any of your opponents' nonland permanents, you can't choose it as a target. (If you did, you'd be unable to choose a second target.)
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pucas-mischief)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#pucas-mischief)
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/47/pucas-mischief) · oracle_id `a8e6655c-e63f-4a60-98f6-9d5bf8631488` · printing: SHM #47 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Puffer Extract
@@ -755,6 +755,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15744 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — You decide on resolution whether or not to tap or untap the creature.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#puppeteer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/98/puppeteer) · oracle_id `b6597ae6-ae32-4409-8ba9-1015b6ffe2d2` · printing: 10E #98 (2007-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Puppeteer Clique
@@ -776,7 +777,7 @@ schema: 2
   - *2013-06-07* — If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
   - *2013-06-07* — The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
   - *2013-06-07* — When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
-- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/P.md#puppeteer-clique)
+- **Referenced in:** 3 pages (2 decks · 1 rules) → [reverse index](../../references/P.md#puppeteer-clique)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/84/puppeteer-clique) · oracle_id `00e0b103-892c-49b3-836d-867fff197bbd` · printing: ECC #84 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Puppet Master
@@ -803,6 +804,7 @@ schema: 2
 - **Keywords:** Goad, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10296 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#puppet-master-string-puller)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/59/puppet-master-string-puller) · oracle_id `376c6257-4a1a-42d4-8931-72068f38727f` · printing: MSC #59 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ab888daa-1161-4917-bca0-efd5c430b2d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Puppet Strings
@@ -1136,7 +1138,8 @@ schema: 2
   - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color. It’s always a creature spell while it’s on the stack.
   - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Breath of Fury + Purphoros, Bronze-Blooded](https://commanderspellbook.com/combo/3259-3480--95/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 1,365 decks; highest synergy [Feldon of the Third Path](../../cards/F/fe.md#feldon-of-the-third-path) (+72%), [Ruin Grinder](../../cards/R/ru.md#ruin-grinder) (+67%), [Dragon Mage](../../cards/D/dra.md#dragon-mage) (+66%) · EDHREC: in 34,633 decks; most often under [Atreus, Impulsive Son // Kratos, Stoic Father](../../cards/A/at.md#atreus-impulsive-son) (46.5% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (11.0% of its decks), [Obeka, Brute Chronologist](../../cards/O/ob.md#obeka-brute-chronologist) (32.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Synergy:** *Proven* — KB decks (1): [Obeka, Brute Chronologist (Grixis)](../../grixis/decks/obeka-brute-chronologist.md) · Commander Spellbook: 100+ combos; most popular [Breath of Fury + Purphoros, Bronze-Blooded](https://commanderspellbook.com/combo/3259-3480--95/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 1,365 decks; highest synergy [Feldon of the Third Path](../../cards/F/fe.md#feldon-of-the-third-path) (+72%), [Ruin Grinder](../../cards/R/ru.md#ruin-grinder) (+67%), [Dragon Mage](../../cards/D/dra.md#dragon-mage) (+66%) · EDHREC: in 34,633 decks; most often under [Atreus, Impulsive Son // Kratos, Stoic Father](../../cards/A/at.md#atreus-impulsive-son) (46.5% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (11.0% of its decks), [Obeka, Brute Chronologist](../../cards/O/ob.md#obeka-brute-chronologist) (32.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#purphoros-bronze-blooded)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/150/purphoros-bronze-blooded) · oracle_id `6728b9d0-d3ab-4ba3-af13-63cb83e0ed99` · printing: THB #150 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Purphoros, God of the Forge

@@ -125,7 +125,7 @@ schema: 2
   - *2024-09-20* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
   - *2024-09-20* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
   - *2024-09-20* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
-- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#suspended-sentence)
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/S.md#suspended-sentence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/25/suspended-sentence) · oracle_id `98641070-93bd-4088-90cb-956c2b21979e` · printing: DSC #25 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suspension Field

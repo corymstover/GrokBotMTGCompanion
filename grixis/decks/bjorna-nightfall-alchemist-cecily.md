@@ -16,7 +16,7 @@ schema: 2
 
 # Grixis Deck — Bjorna, Nightfall Alchemist + Cecily, Haunted Mage
 
-> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Cecily__Bjorna__Lutri_Approved_2026-10-13.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/decklists/Cecily__Bjorna__Lutri_Approved_2026-10-13.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-13; source commit `df1abb9`). Imported in Bot cycle 16 and re-validated against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
+> **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Cecily__Bjorna__Lutri_Approved_2026-10-13.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Cecily__Bjorna__Lutri_Approved_2026-10-13.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-13; source commit `1836b97`). Imported in Bot cycle 16; re-validated in Bot cycle 37 against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
 ## Contents
 - [Commander](#commander)
@@ -318,7 +318,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 ### From `refinement/blueprints/Cecily__Bjorna__Lutri_v1.md`
 
-Source: [refinement/blueprints/Cecily__Bjorna__Lutri_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/blueprints/Cecily__Bjorna__Lutri_v1.md)
+Source: [refinement/blueprints/Cecily__Bjorna__Lutri_v1.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/blueprints/Cecily__Bjorna__Lutri_v1.md)
 
 **Deck #8 — Bjorna // Cecily + Lutri — refinement blueprint**
 
@@ -337,7 +337,7 @@ Deck #7 Be'lakor explicitly approved and locked, see refinement/approvals/Be_lak
 
 ### From `refinement/approvals/Cecily__Bjorna__Lutri_Approved_2026-10-13.md`
 
-Source: [refinement/approvals/Cecily__Bjorna__Lutri_Approved_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/approvals/Cecily__Bjorna__Lutri_Approved_2026-10-13.md)
+Source: [refinement/approvals/Cecily__Bjorna__Lutri_Approved_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/approvals/Cecily__Bjorna__Lutri_Approved_2026-10-13.md)
 
 **Deck #8 — Bjorna // Cecily + Lutri — Explicit approval and lock**
 
@@ -364,7 +364,7 @@ Approval dossier: refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossie
 
 ### From `refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md`
 
-Source: [refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/df1abb9/refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md)
+Source: [refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md)
 
 **Deck #8 — Bjorna // Cecily + Lutri — Approval Gate Dossier**
 
@@ -434,6 +434,6 @@ Request explicit approval for the single Reckless Fireweaver -> Robe of the Arch
 - **Keywords → [Keyword Encyclopedia](../../Keyword%20Encyclopedia.md):** [Equip](../../Keyword%20Encyclopedia.md#equip) 2 · [Flying](../../Keyword%20Encyclopedia.md#flying) 2 · [Mill](../../Keyword%20Encyclopedia.md#mill) 2 · [Partner](../../Keyword%20Encyclopedia.md#partner) 2 · [Affinity](../../Keyword%20Encyclopedia.md#affinity) 1 · [Cipher](../../Keyword%20Encyclopedia.md#cipher) 1 · [Cumulative upkeep](../../Keyword%20Encyclopedia.md#cumulative-upkeep) 1 · [Cycling](../../Keyword%20Encyclopedia.md#cycling) 1 · [Flash](../../Keyword%20Encyclopedia.md#flash) 1 · [Flashback](../../Keyword%20Encyclopedia.md#flashback) 1 · [Goad](../../Keyword%20Encyclopedia.md#goad) 1 · [Haste](../../Keyword%20Encyclopedia.md#haste) 1
 - **Rules sections citing cards in this list:** [Rules Interactions → Commander: color identity](../../Rules%20Interactions.md#commander-color-identity) (Arcane Signet, Command Tower) · [Rules Interactions → Protection](../../Rules%20Interactions.md#protection) (Cyclonic Rift, The One Ring) · [Keyword Encyclopedia → Affinity](../../Keyword%20Encyclopedia.md#affinity) (Emry, Lurker of the Loch) · [Keyword Encyclopedia → Cipher](../../Keyword%20Encyclopedia.md#cipher) (Whispering Madness) · [Keyword Encyclopedia → Cumulative Upkeep](../../Keyword%20Encyclopedia.md#cumulative-upkeep) (Mystic Remora) · [Keyword Encyclopedia → Equip](../../Keyword%20Encyclopedia.md#equip) (Lightning Greaves) · [Keyword Encyclopedia → Indestructible](../../Keyword%20Encyclopedia.md#indestructible) (The One Ring) · [Keyword Encyclopedia → Mill](../../Keyword%20Encyclopedia.md#mill) (Takenuma, Abandoned Mire) · …6 more sections
 - **Lore & story sections citing cards in this list:** [Art & Flavor Story Links → Captioned art on cited story pages](../../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Command Tower, Sulfur Falls) · [Planes Index → New Capenna](../../Planes%20Index.md#new-capenna) (Xander's Lounge) · [Planeswalker Dossiers → Character cards (name-matched)](../../Planeswalker%20Dossiers.md#character-cards-name-matched) (Niv-Mizzet, Parun)
-- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Blood Crypt, Bloodstained Mire, Bojuka Bog +20) · [EDH Standards → Game Changers](../../EDH%20Standards.md#game-changers) (Cyclonic Rift, Demonic Tutor, Fierce Guardianship +7) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (Fierce Guardianship, Goblin Electromancer, Mystic Remora +7) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Dimir Signet, Izzet Signet +7) · [EDH Archetypes → Spellslinger (instants & sorceries)](../../EDH%20Archetypes.md#spellslinger-instants--sorceries) (Archmage Emeritus, Fierce Guardianship, Goblin Electromancer +6) · [EDH Packages → Ramp: Mana rocks (MV ≤ 2)](../../EDH%20Packages.md#ramp-mana-rocks-mv--2) (Arcane Signet, Dimir Signet, Izzet Signet +6) · …89 more sections
-- **Decks sharing the most cards:** [Anhelo, the Painter (Grixis)](../../grixis/decks/anhelo-the-painter.md) 47 · [Mairsil, the Pretender (Grixis)](../../grixis/decks/mairsil-the-pretender.md) 44 · [Gwendlyn Di Corci (Grixis)](../../grixis/decks/gwendlyn-di-corci.md) 41 · [Nekusar, the Mindrazer (Grixis)](../../grixis/decks/nekusar-the-mindrazer.md) 41
+- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Blood Crypt, Bloodstained Mire, Bojuka Bog +19) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Cormela, Glamour Thief, Dimir Signet +9) · [EDH Standards → Game Changers](../../EDH%20Standards.md#game-changers) (Cyclonic Rift, Demonic Tutor, Fierce Guardianship +7) · [EDH Upgrade Paths → Niv-Mizzet, Parun](../../EDH%20Upgrade%20Paths.md#niv-mizzet-parun) (Fierce Guardianship, Goblin Electromancer, Mystic Remora +7) · [Grixis Packages → Draw](../../grixis/Grixis%20Packages.md#draw) (Archmage Emeritus, Big Score, Brainstorm +7) · [EDH Archetypes → Spellslinger (instants & sorceries)](../../EDH%20Archetypes.md#spellslinger-instants--sorceries) (Archmage Emeritus, Fierce Guardianship, Goblin Electromancer +6) · …89 more sections
+- **Decks sharing the most cards:** [Anhelo, the Painter (Grixis)](../../grixis/decks/anhelo-the-painter.md) 47 · [Mairsil, the Pretender (Grixis)](../../grixis/decks/mairsil-the-pretender.md) 44 · [Parnesse, the Subtle Brush (Grixis)](../../grixis/decks/parnesse-the-subtle-brush.md) 42 · [Gwendlyn Di Corci (Grixis)](../../grixis/decks/gwendlyn-di-corci.md) 41
 <!-- CROSSREFS:END -->
