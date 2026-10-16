@@ -1,5 +1,5 @@
 {
- "framework_version": "1.2-mech.9",
+ "framework_version": "1.2-mech.10",
  "modules": [
   {
    "assumptions": [
@@ -774,6 +774,69 @@
   },
   {
    "assumptions": [
+    "three opponents; opponent spells per turn is swept over 1/2/3, noncreature share over 0.5/0.7/0.9, opponent cards drawn per turn over 1/2/3",
+    "if the permanent is present at your end step, its static text applies through the following opponent turn cycle",
+    "spell-tax mana is friction demanded, not mana actually paid; cap metrics are upper-bound prevented-event counts given the declared activity point"
+   ],
+   "confidence": "low",
+   "determinism": "seeded paired v1.1 battlefield trace plus closed-form declared opponent-activity grid",
+   "does_not_model": [
+    "whether opponents can/will pay taxes, exact opponent mana curves, or which spells are most important",
+    "Trinisphere-style minimum total costs, dynamic per-spell taxes, type/color/subtype-specific locks outside supported families",
+    "resource denial, mana-base conversion, combat restrictions, graveyard replacement effects, or removal timing",
+    "a universal conversion between tax mana, blocked spells, blocked draws and static-lock uptime",
+    "multiplayer win rates (never produced)"
+   ],
+   "evidence_class": "test_result",
+   "family": "stax/tax static effects",
+   "id": "stax_tax",
+   "limitations": [
+    "Category metrics are intentionally not summed. M6 judgment must consider self-burden, asymmetry and commander-specific leverage.",
+    "Static-lock active rounds measure availability only; opponent dependence is handled later by bracket stress/red-team review."
+   ],
+   "metrics": [
+    "opponent_extra_mana_range",
+    "opponent_spells_blocked_range",
+    "opponent_draws_blocked_range",
+    "static_lock_active_rounds",
+    "self_burden"
+   ],
+   "models": [
+    "fixed spell taxes on opponents or all players: opponent extra-mana demand range",
+    "cast-per-turn caps: opponent spells blocked range under declared spell-volume sensitivity",
+    "draw-per-turn caps: opponent draws blocked range under declared draw-volume sensitivity",
+    "supported static locks (search, cast-during-your-turn, artifact ETB tapped, activated-ability, untap, graveyard-cast, creature-ETB-trigger): active rounds only",
+    "symmetric effects retain an explicit self_burden flag; no composite score hides that cost"
+   ],
+   "parameters": {
+    "noncreature_share": [
+     0.5,
+     0.7,
+     0.9
+    ],
+    "opponent_cards_drawn_per_turn": [
+     1.0,
+     2.0,
+     3.0
+    ],
+    "opponent_spells_per_turn": [
+     1.0,
+     2.0,
+     3.0
+    ],
+    "opponents": 3,
+    "turns": [
+     4,
+     6,
+     8,
+     10
+    ]
+   },
+   "test_file": "tests/test_mech_stax_semantics.py",
+   "version": "1"
+  },
+  {
+   "assumptions": [
     "activated token makers are used once per later turn; attack makers once per later turn (attack proxy)",
     "'each upkeep/end step' makers fire on every player's turn (x4); 'for each opponent' = x3",
     "only creature tokens; ETB/attack/upkeep/cast/activated/spell rules are parsed per sentence",
@@ -859,7 +922,6 @@
   "led_breach_sequences",
   "life_loss",
   "sacrifice_other",
-  "stax_tax",
   "tokens_other"
  ]
 }

@@ -18,6 +18,9 @@ COST_MORE = re.compile(
     r"(?P<scope>noncreature )?spells (?P<who>your opponents|opponents|players)? ?cast cost (?P<cost>(?:\{[^}]+\})+) more to cast",
     re.I,
 )
+SYMMETRIC_COST_MORE = re.compile(
+    r"(?P<scope>noncreature )?spells cost (?P<cost>(?:\{[^}]+\})+) more to cast", re.I
+)
 CAP_CAST = re.compile(r"(?P<who>each opponent|your opponents|each player|players) can(?:'|’)t cast more than (?P<n>one|two|\d+) spells? each turn", re.I)
 CAP_DRAW = re.compile(r"(?P<who>each opponent|your opponents|each player|players) can(?:'|’)t draw more than (?P<n>one|two|\d+) cards? each turn", re.I)
 NO_SEARCH = re.compile(r"(?P<who>your opponents|opponents|players) can(?:'|’)t search librar(?:y|ies)", re.I)
@@ -54,6 +57,15 @@ def parse(name, text, type_line):
     t = semantics.clean(name, text)
     rules, reasons = [], []
     for sent in semantics.sentences(t):
+        m = SYMMETRIC_COST_MORE.search(sent)
+        if m:
+            mana = _mana(m.group("cost"))
+            if mana is None:
+                reasons.append("variable spell tax is not modelled")
+            else:
+                rules.append({"kind": "spell_tax", "scope": "noncreature" if m.group("scope") else "any",
+                              "amount": mana, "self_burden": True})
+            continue
         m = COST_MORE.search(sent)
         if m:
             mana = _mana(m.group("cost"))
