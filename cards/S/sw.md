@@ -223,8 +223,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
 - **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/beast-2014-06-19), [official story page](https://magic.wizards.com/en/news/feature/tragedy-2013-10-23), [Bound and Bonded](https://magic.wizards.com/en/news/magic-story/bound-and-bonded-2018-11-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (76): [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) · [Edgar Markov](../../decks/edgar-markov.md) · [Karador, Ghost Chieftain](../../decks/karador-ghost-chieftain.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,789,200 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (93.6% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (97.7% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (89.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 54 pages (53 decks · 1 card data) → [reverse index](../../references/S.md#swamp)
+- **Synergy:** *Proven* — KB decks (77): [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) · [Edgar Markov](../../decks/edgar-markov.md) · [Karador, Ghost Chieftain](../../decks/karador-ghost-chieftain.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,789,200 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (93.6% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (97.7% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (89.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 55 pages (54 decks · 1 card data) → [reverse index](../../references/S.md#swamp)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mdd/296/swamp) · oracle_id `56719f6a-1a6c-4c0a-8d21-18f7d7350b68` · printing: MDD #296 (2027-04-09) · [rulings](https://api.scryfall.com/cards/b233b117-9369-45c1-80c5-cc857386b6be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swampbenders
@@ -305,7 +305,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #66 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-09-15* — Swan Song can target a spell that can't be countered. That spell won't be countered when Swan Song resolves, but its controller will get a Bird token.
-- **Referenced in:** 49 pages (44 decks · 3 edh guides · 2 card data) → [reverse index](../../references/S.md#swan-song)
+- **Referenced in:** 51 pages (46 decks · 3 edh guides · 2 card data) → [reverse index](../../references/S.md#swan-song)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/46/swan-song) · oracle_id `8ddfc283-c9b4-41a5-af88-cf0068e986cc` · printing: EOC #46 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swarm, Being of Bees

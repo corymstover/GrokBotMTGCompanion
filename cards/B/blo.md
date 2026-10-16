@@ -329,7 +329,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #142 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-06-08* — If Blood Artist and one or more other creatures die at the same time, its ability will trigger for each of those creatures.
-- **Referenced in:** 14 pages (10 decks · 3 edh guides · 1 card data) → [reverse index](../../references/B.md#blood-artist)
+- **Referenced in:** 15 pages (11 decks · 3 edh guides · 1 card data) → [reverse index](../../references/B.md#blood-artist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/209/blood-artist) · oracle_id `310f141c-7f37-4729-aed6-dd9c09db448d` · printing: SOC #209 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blood Aspirant
@@ -786,7 +786,7 @@ schema: 2
   - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
   - *2025-11-17* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
   - *2025-11-17* — This land has two basic land types. It's not basic, so cards such as Tend the Sprigs can't find it, but it does have the appropriate land types for effects such as that of Kishla Village (from the Tarkir: Dragonstorm release).
-- **Referenced in:** 73 pages (68 decks · 4 edh guides · 1 card data) → [reverse index](../../references/B.md#blood-crypt)
+- **Referenced in:** 75 pages (70 decks · 4 edh guides · 1 card data) → [reverse index](../../references/B.md#blood-crypt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/278/blood-crypt) · oracle_id `43985bbc-a0f6-4812-984e-392bc8562633` · printing: TRK #278 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blood Cultist
@@ -1161,7 +1161,7 @@ schema: 2
   - *2025-07-25* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2025-07-25* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2025-07-25* — Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve. As a result, you can have those abilities resolve in the order of your choosing.
-- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#bloodghast)
+- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#bloodghast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/210/bloodghast) · oracle_id `e97f9c2b-b41e-4f36-9245-77c0ac125647` · printing: SOC #210 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodgift Demon
@@ -2215,7 +2215,7 @@ schema: 2
   > *A graveyard for conquerors and conquered alike.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #43 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 72 pages (66 decks · 4 edh guides · 2 card data) → [reverse index](../../references/B.md#bloodstained-mire)
+- **Referenced in:** 74 pages (68 decks · 4 edh guides · 2 card data) → [reverse index](../../references/B.md#bloodstained-mire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/216/bloodstained-mire) · oracle_id `fc0707c7-d504-4ccf-a0d2-3eb6e26e7a57` · printing: MH3 #216 (2024-06-14) · [rulings](https://api.scryfall.com/cards/579743fe-f71e-4cb2-8629-d6b02ed1591d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bloodstoke Howler

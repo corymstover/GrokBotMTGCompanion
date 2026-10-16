@@ -721,7 +721,7 @@ schema: 2
   > *A warped gateway that seeps toxins and malevolence into the waters around Towashi.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #36 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 74 pages (68 decks · 4 edh guides · 2 card data) → [reverse index](../../references/P.md#polluted-delta)
+- **Referenced in:** 76 pages (70 decks · 4 edh guides · 2 card data) → [reverse index](../../references/P.md#polluted-delta)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/224/polluted-delta) · oracle_id `ef86989d-ce80-4e55-aece-7d11710eeffa` · printing: MH3 #224 (2024-06-14) · [rulings](https://api.scryfall.com/cards/6e288374-2b71-4ace-b1d2-a19fee6cb4af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Polluted Mire

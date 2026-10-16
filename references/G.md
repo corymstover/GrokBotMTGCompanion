@@ -129,9 +129,9 @@ schema: 2
 
 ### Gamble
 
-[Card entry](../cards/G/ga.md#gamble) · **27 pages** (decks 21 · edh guides 5 · card data 1)
+[Card entry](../cards/G/ga.md#gamble) · **28 pages** (decks 22 · edh guides 5 · card data 1)
 
-- **Decks (21):** [Abaddon the Despoiler (Grixis)](../grixis/decks/abaddon-the-despoiler.md) · [Cormela, Glamour Thief (Grixis)](../grixis/decks/cormela-glamour-thief.md) · [Crosis, the Purger (Grixis)](../grixis/decks/crosis-the-purger.md) · [Evelyn, the Covetous (Grixis)](../grixis/decks/evelyn-the-covetous.md) · [Fire Lord Azula (Grixis)](../grixis/decks/fire-lord-azula.md) · [Gwendlyn Di Corci (Grixis)](../grixis/decks/gwendlyn-di-corci.md) · [Inalla, Archmage Ritualist (Grixis)](../grixis/decks/inalla-archmage-ritualist.md) · [Jeleva, Nephalia's Scourge (Grixis)](../grixis/decks/jeleva-nephalias-scourge.md) · [Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)](../grixis/decks/kefka-court-mage.md) · [Kess, Dissident Mage (Grixis)](../grixis/decks/kess-dissident-mage.md) · [Kraum, Ludevic's Opus (Grixis)](../grixis/decks/grixistax-october-2026.md) · [Lord Xander, the Collector (Grixis)](../grixis/decks/lord-xander-the-collector.md) · [Mairsil, the Pretender (Grixis)](../grixis/decks/mairsil-the-pretender.md) · [Mishra, Artificer Prodigy (Grixis)](../grixis/decks/mishra-artificer-prodigy.md) · [Mishra, Eminent One (Grixis)](../grixis/decks/mishra-eminent-one.md) · [Nicol Bolas, the Ravager // Nicol Bolas, the Arisen (Grixis)](../grixis/decks/nicol-bolas-the-ravager.md) · [Norman Osborn // Green Goblin (Grixis)](../grixis/decks/norman-osborn.md) · [Obeka, Brute Chronologist (Grixis)](../grixis/decks/obeka-brute-chronologist.md) · [Rograkh, Son of Rohgahh (Grixis)](../grixis/decks/rograkh-son-of-rohgahh-silas-renn.md) · [Sedris, the Traitor King (Grixis)](../grixis/decks/sedris-the-traitor-king.md) · [Zevlor, Elturel Exile (Grixis)](../grixis/decks/zevlor-elturel-exile.md)
+- **Decks (22):** [Abaddon the Despoiler (Grixis)](../grixis/decks/abaddon-the-despoiler.md) · [Cormela, Glamour Thief (Grixis)](../grixis/decks/cormela-glamour-thief.md) · [Crosis, the Purger (Grixis)](../grixis/decks/crosis-the-purger.md) · [Evelyn, the Covetous (Grixis)](../grixis/decks/evelyn-the-covetous.md) · [Fire Lord Azula (Grixis)](../grixis/decks/fire-lord-azula.md) · [Gwendlyn Di Corci (Grixis)](../grixis/decks/gwendlyn-di-corci.md) · [Inalla, Archmage Ritualist (Grixis)](../grixis/decks/inalla-archmage-ritualist.md) · [Jeleva, Nephalia's Scourge (Grixis)](../grixis/decks/jeleva-nephalias-scourge.md) · [Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)](../grixis/decks/kefka-court-mage.md) · [Kess, Dissident Mage (Grixis)](../grixis/decks/kess-dissident-mage.md) · [Kraum, Ludevic's Opus (Grixis)](../grixis/decks/grixistax-october-2026.md) · [Lord Xander, the Collector (Grixis)](../grixis/decks/lord-xander-the-collector.md) · [Mairsil, the Pretender (Grixis)](../grixis/decks/mairsil-the-pretender.md) · [Mishra, Artificer Prodigy (Grixis)](../grixis/decks/mishra-artificer-prodigy.md) · [Mishra, Eminent One (Grixis)](../grixis/decks/mishra-eminent-one.md) · [Nicol Bolas, the Ravager // Nicol Bolas, the Arisen (Grixis)](../grixis/decks/nicol-bolas-the-ravager.md) · [Norman Osborn // Green Goblin (Grixis)](../grixis/decks/norman-osborn.md) · [Obeka, Brute Chronologist (Grixis)](../grixis/decks/obeka-brute-chronologist.md) · [Rograkh, Son of Rohgahh (Grixis)](../grixis/decks/rograkh-son-of-rohgahh-silas-renn.md) · [Sedris, the Traitor King (Grixis)](../grixis/decks/sedris-the-traitor-king.md) · [The Madcap Jester (Grixis)](../grixis/decks/the-madcap-jester.md) · [Zevlor, Elturel Exile (Grixis)](../grixis/decks/zevlor-elturel-exile.md)
 - **EDH guides (5):** [cEDH Primer → Tutors, MV ≤ 2](../cEDH%20Primer.md#tutors-mv--2) · [EDH Standards → Game Changers](../EDH%20Standards.md#game-changers) · [EDH Staples → Red](../EDH%20Staples.md#red) (+1 more) · [EDH Upgrade Paths → Krenko, Mob Boss](../EDH%20Upgrade%20Paths.md#krenko-mob-boss) · [Grixis Packages → Tutor](../grixis/Grixis%20Packages.md#tutor)
 - **Card data (1):** [Artist Index → Most prolific artists](../Artist%20Index.md#most-prolific-artists) (+6 more)
 
@@ -466,9 +466,9 @@ schema: 2
 
 ### Gemstone Caverns
 
-[Card entry](../cards/G/ge.md#gemstone-caverns) · **16 pages** (decks 11 · edh guides 3 · rules 1 · card data 1)
+[Card entry](../cards/G/ge.md#gemstone-caverns) · **17 pages** (decks 12 · edh guides 3 · rules 1 · card data 1)
 
-- **Decks (11):** [Cormela, Glamour Thief (Grixis)](../grixis/decks/cormela-glamour-thief.md) · [Evelyn, the Covetous (Grixis)](../grixis/decks/evelyn-the-covetous.md) · [Fire Lord Azula (Grixis)](../grixis/decks/fire-lord-azula.md) · [Inalla, Archmage Ritualist (Grixis)](../grixis/decks/inalla-archmage-ritualist.md) · [Jeleva, Nephalia's Scourge (Grixis)](../grixis/decks/jeleva-nephalias-scourge.md) · [Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)](../grixis/decks/kefka-court-mage.md) · [Kess, Dissident Mage (Grixis)](../grixis/decks/kess-dissident-mage.md) · [Kraum, Ludevic's Opus (Grixis)](../grixis/decks/grixistax-october-2026.md) · [Marchesa, Dealer of Death (Grixis)](../grixis/decks/marchesa-dealer-of-death.md) · [Norman Osborn // Green Goblin (Grixis)](../grixis/decks/norman-osborn.md) · [Rograkh, Son of Rohgahh (Grixis)](../grixis/decks/rograkh-son-of-rohgahh-silas-renn.md)
+- **Decks (12):** [Cormela, Glamour Thief (Grixis)](../grixis/decks/cormela-glamour-thief.md) · [Evelyn, the Covetous (Grixis)](../grixis/decks/evelyn-the-covetous.md) · [Fire Lord Azula (Grixis)](../grixis/decks/fire-lord-azula.md) · [Inalla, Archmage Ritualist (Grixis)](../grixis/decks/inalla-archmage-ritualist.md) · [Jeleva, Nephalia's Scourge (Grixis)](../grixis/decks/jeleva-nephalias-scourge.md) · [Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)](../grixis/decks/kefka-court-mage.md) · [Kess, Dissident Mage (Grixis)](../grixis/decks/kess-dissident-mage.md) · [Kraum, Ludevic's Opus (Grixis)](../grixis/decks/grixistax-october-2026.md) · [Marchesa, Dealer of Death (Grixis)](../grixis/decks/marchesa-dealer-of-death.md) · [Norman Osborn // Green Goblin (Grixis)](../grixis/decks/norman-osborn.md) · [Rograkh, Son of Rohgahh (Grixis)](../grixis/decks/rograkh-son-of-rohgahh-silas-renn.md) · [The Madcap Jester (Grixis)](../grixis/decks/the-madcap-jester.md)
 - **EDH guides (3):** [EDH Mana Bases → Universal fixing (any identity)](../EDH%20Mana%20Bases.md#universal-fixing-any-identity) · [EDH Mulligans → Opening-hand cards (CR 103.6)](../EDH%20Mulligans.md#opening-hand-cards-cr-1036) · [Grixis Packages → Land](../grixis/Grixis%20Packages.md#land)
 - **Rules (1):** [Rules Interactions → The legend rule](../Rules%20Interactions.md#the-legend-rule)
 - **Card data (1):** [Artist Index → Artists B](../Artist%20Index.md#artists-b)
@@ -1487,9 +1487,9 @@ schema: 2
 
 ### Goblin Bombardment
 
-[Card entry](../cards/G/gob.md#goblin-bombardment) · **15 pages** (decks 10 · edh guides 4 · card data 1)
+[Card entry](../cards/G/gob.md#goblin-bombardment) · **16 pages** (decks 11 · edh guides 4 · card data 1)
 
-- **Decks (10):** [Edea, Possessed Sorceress (Grixis)](../grixis/decks/edea-possessed-sorceress.md) · [Korvold, Fae-Cursed King](../decks/korvold-fae-cursed-king.md) · [Krenko, Mob Boss](../decks/krenko-mob-boss.md) · [Lord of Tresserhorn (Grixis)](../grixis/decks/lord-of-tresserhorn.md) · [Marchesa, the Black Rose (Grixis)](../grixis/decks/marchesa-the-black-rose.md) · [Missy (Grixis)](../grixis/decks/missy.md) · [Sedris, the Traitor King (Grixis)](../grixis/decks/sedris-the-traitor-king.md) · [Sol'Kanar the Tainted (Grixis)](../grixis/decks/solkanar-the-tainted.md) · [Thraximundar (Grixis)](../grixis/decks/thraximundar.md) · [Wick, the Whorled Mind (Grixis)](../grixis/decks/wick-the-whorled-mind.md)
+- **Decks (11):** [Edea, Possessed Sorceress (Grixis)](../grixis/decks/edea-possessed-sorceress.md) · [Korvold, Fae-Cursed King](../decks/korvold-fae-cursed-king.md) · [Krenko, Mob Boss](../decks/krenko-mob-boss.md) · [Lord of Tresserhorn (Grixis)](../grixis/decks/lord-of-tresserhorn.md) · [Marchesa, the Black Rose (Grixis)](../grixis/decks/marchesa-the-black-rose.md) · [Missy (Grixis)](../grixis/decks/missy.md) · [Sedris, the Traitor King (Grixis)](../grixis/decks/sedris-the-traitor-king.md) · [Sol'Kanar the Tainted (Grixis)](../grixis/decks/solkanar-the-tainted.md) · [Thraximundar (Grixis)](../grixis/decks/thraximundar.md) · [Tresserhorn's Lord, Returned (Grixis)](../grixis/decks/tresserhorns-lord-returned.md) · [Wick, the Whorled Mind (Grixis)](../grixis/decks/wick-the-whorled-mind.md)
 - **EDH guides (4):** [EDH Packages → Aristocrats: Free sacrifice outlets](../EDH%20Packages.md#aristocrats-free-sacrifice-outlets) · [EDH Staples → Sacrifice / aristocrats](../EDH%20Staples.md#sacrifice--aristocrats) · [EDH Upgrade Paths → Krenko, Mob Boss](../EDH%20Upgrade%20Paths.md#krenko-mob-boss) · [Grixis Packages → Sac Outlet](../grixis/Grixis%20Packages.md#sac-outlet)
 - **Card data (1):** [Artist Index → Artists J](../Artist%20Index.md#artists-j) (+2 more)
 
@@ -1964,9 +1964,9 @@ schema: 2
 
 ### Gonti, Night Minister
 
-[Card entry](../cards/G/gon.md#gonti-night-minister) · **2 pages** (decks 2)
+[Card entry](../cards/G/gon.md#gonti-night-minister) · **3 pages** (decks 3)
 
-- **Decks (2):** [Don Andres, the Renegade (Grixis)](../grixis/decks/don-andres-the-renegade.md) · [Nathan Drake, Treasure Hunter (Grixis)](../grixis/decks/nathan-drake-treasure-hunter.md)
+- **Decks (3):** [Don Andres, the Renegade (Grixis)](../grixis/decks/don-andres-the-renegade.md) · [Nathan Drake, Treasure Hunter (Grixis)](../grixis/decks/nathan-drake-treasure-hunter.md) · [The Madcap Jester (Grixis)](../grixis/decks/the-madcap-jester.md)
 
 ### Gonti's Aether Heart
 
@@ -2262,9 +2262,9 @@ schema: 2
 
 ### Gravecrawler
 
-[Card entry](../cards/G/gra.md#gravecrawler) · **4 pages** (decks 3 · card data 1)
+[Card entry](../cards/G/gra.md#gravecrawler) · **5 pages** (decks 4 · card data 1)
 
-- **Decks (3):** [Lord of Tresserhorn (Grixis)](../grixis/decks/lord-of-tresserhorn.md) · [The Gitrog Monster (Innistrad-only)](../decks/plane-innistrad-the-gitrog-monster.md) · [Thraximundar (Grixis)](../grixis/decks/thraximundar.md)
+- **Decks (4):** [Lord of Tresserhorn (Grixis)](../grixis/decks/lord-of-tresserhorn.md) · [The Gitrog Monster (Innistrad-only)](../decks/plane-innistrad-the-gitrog-monster.md) · [Thraximundar (Grixis)](../grixis/decks/thraximundar.md) · [Tresserhorn's Lord, Returned (Grixis)](../grixis/decks/tresserhorns-lord-returned.md)
 - **Card data (1):** [Artist Index → Artists J](../Artist%20Index.md#artists-j)
 
 ### Gravedigger
@@ -2294,9 +2294,9 @@ schema: 2
 
 ### Grave Pact
 
-[Card entry](../cards/G/gra.md#grave-pact) · **9 pages** (decks 5 · edh guides 2 · rules 1 · card data 1)
+[Card entry](../cards/G/gra.md#grave-pact) · **10 pages** (decks 6 · edh guides 2 · rules 1 · card data 1)
 
-- **Decks (5):** [Edea, Possessed Sorceress (Grixis)](../grixis/decks/edea-possessed-sorceress.md) · [Marchesa, the Black Rose (Grixis)](../grixis/decks/marchesa-the-black-rose.md) · [Missy (Grixis)](../grixis/decks/missy.md) · [Teysa Karlov](../decks/teysa-karlov.md) · [Thraximundar (Grixis)](../grixis/decks/thraximundar.md)
+- **Decks (6):** [Edea, Possessed Sorceress (Grixis)](../grixis/decks/edea-possessed-sorceress.md) · [Marchesa, the Black Rose (Grixis)](../grixis/decks/marchesa-the-black-rose.md) · [Missy (Grixis)](../grixis/decks/missy.md) · [Teysa Karlov](../decks/teysa-karlov.md) · [Thraximundar (Grixis)](../grixis/decks/thraximundar.md) · [Tresserhorn's Lord, Returned (Grixis)](../grixis/decks/tresserhorns-lord-returned.md)
 - **EDH guides (2):** [EDH Staples → Sacrifice / aristocrats](../EDH%20Staples.md#sacrifice--aristocrats) · [Grixis Packages → Removal](../grixis/Grixis%20Packages.md#removal)
 - **Rules (1):** [Rules Interactions → Hexproof, shroud & ward](../Rules%20Interactions.md#hexproof-shroud--ward)
 - **Card data (1):** [Artist Index → Artists B](../Artist%20Index.md#artists-b) (+5 more)

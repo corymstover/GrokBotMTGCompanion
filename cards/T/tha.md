@@ -672,7 +672,7 @@ schema: 2
   - *2020-01-24* — If you put an Aura on an opponent's permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
   - *2020-01-24* — If your devotion to blue is zero at the time the triggered ability of Thassa's Oracle resolves, you don't look at or move any cards in your library. If you have no cards in your library, you win the game.
   - *2020-01-24* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
-- **Referenced in:** 17 pages (11 decks · 4 edh guides · 2 card data) → [reverse index](../../references/T.md#thassas-oracle)
+- **Referenced in:** 18 pages (12 decks · 4 edh guides · 2 card data) → [reverse index](../../references/T.md#thassas-oracle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/73/thassas-oracle) · oracle_id `1de1b591-a73f-4974-b507-8c63e07a0868` · printing: THB #73 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thassa's Rebuff

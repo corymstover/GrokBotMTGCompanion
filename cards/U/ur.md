@@ -550,7 +550,7 @@ schema: 2
   - *2021-03-19* — Land cards not on the battlefield aren't Swamps while Urborg is on the battlefield.
   - *2021-03-19* — Urborg's ability causes each land on the battlefield to have the land type Swamp. Any land that's a Swamp has the ability "{T}: Add {B}." Nothing else changes about those lands, including their names, other subtypes, other abilities, and whether they're legendary, basic, or snow.
   - *2021-03-19* — Urborg, Tomb of Yawgmoth isn't a Swamp while it's not on the battlefield.
-- **Referenced in:** 22 pages (19 decks · 2 edh guides · 1 card data) → [reverse index](../../references/U.md#urborg-tomb-of-yawgmoth)
+- **Referenced in:** 23 pages (20 decks · 2 edh guides · 1 card data) → [reverse index](../../references/U.md#urborg-tomb-of-yawgmoth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/287/urborg-tomb-of-yawgmoth) · oracle_id `db6174d7-211d-4817-b8e4-8384594c83f9` · printing: TSR #287 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urborg Uprising

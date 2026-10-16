@@ -285,7 +285,7 @@ schema: 2
   > *—Jaya Ballard*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1617 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/K.md#kher-keep)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/K.md#kher-keep)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/75/kher-keep) · oracle_id `79638767-fbc7-451a-b29f-d93f2ac6f102` · printing: FRC #75 (2026-10-02) · [rulings](https://api.scryfall.com/cards/15ca0b68-33a1-4d25-b622-d3f5ba05b0a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kheru Bloodsucker

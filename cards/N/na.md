@@ -908,7 +908,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2738 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/N.md#nalfeshnee)
+- **Referenced in:** 4 pages (4 decks) → [reverse index](../../references/N.md#nalfeshnee)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/678/nalfeshnee) · oracle_id `97a85a3e-258e-49b7-8ebe-7efee808da7a` · printing: CLB #678 (2022-06-10) · [rulings](https://api.scryfall.com/cards/b7717617-706a-4338-a207-dd8c08feb1c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nalia de'Arnise

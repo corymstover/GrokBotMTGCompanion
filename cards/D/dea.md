@@ -648,7 +648,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #131 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 11 pages (6 decks · 3 edh guides · 2 card data) → [reverse index](../../references/D.md#deadly-dispute)
+- **Referenced in:** 12 pages (7 decks · 3 edh guides · 2 card data) → [reverse index](../../references/D.md#deadly-dispute)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/794/deadly-dispute) · oracle_id `457af74a-02b3-4659-846d-63e482667f34` · printing: MSC #794 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d86fa72c-25c1-43ef-9cb0-fe76f7568ed3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deadly Embrace
@@ -785,7 +785,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-04-17* — It doesn't matter whose commander you control. Any one will do. If you have two commanders, you just need to control one of them.
   - *2020-04-17* — Once you begin casting this spell, players can't take any other actions until you're done casting it. Notably, they can't try to remove the commander you control to make you pay its cost.
-- **Referenced in:** 43 pages (37 decks · 4 edh guides · 2 card data) → [reverse index](../../references/D.md#deadly-rollick)
+- **Referenced in:** 44 pages (38 decks · 4 edh guides · 2 card data) → [reverse index](../../references/D.md#deadly-rollick)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/147/deadly-rollick) · oracle_id `0456ec64-2c81-4763-a352-8ff64a4c3d6b` · printing: CMM #147 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deadly Tempest

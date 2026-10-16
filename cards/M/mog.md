@@ -303,7 +303,7 @@ schema: 2
 - **Keywords:** Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3025 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mogg-war-marshal)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/M.md#mogg-war-marshal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/DMR-131/mogg-war-marshal) · oracle_id `7b8f4879-578e-40e4-863a-41d0c32c6bdd` · printing: PLST #DMR-131 (2026-05-18) · [rulings](https://api.scryfall.com/cards/4ebce261-3a53-48f2-a173-0d98c68aff2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogis, God of Slaughter

@@ -22,10 +22,11 @@ schema: 2
 
 ## Summary
 
-- **108 decks**: floor Bracket 2: **12** · Bracket 3: **31** · Bracket 4: **65**.
-- Set by Game Changers (> 3): 65 · mass land denial: 1 · two-card infinites: 51 decks (192 combos).
+- **110 decks**: floor Bracket 2: **12** · Bracket 3: **32** · Bracket 4: **66**.
+- Set by Game Changers (> 3): 66 · mass land denial: 1 · two-card infinites: 52 decks (193 combos).
 - Decks with extra-turn cards: 24 · median tutors per deck: 3.
-- Grixis source targets: 52 stated; 0 below the floor.
+- Pending legality (Bot cycle 38): 2 deck(s), calibrated here but not Commander-legal yet (marked ⏳).
+- Grixis source targets: 53 stated; 0 below the floor.
 
 ## All decks
 
@@ -89,6 +90,7 @@ schema: 2
 | [Sol'kanar the Swamp King](grixis/decks/solkanar-the-swamp-king.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 13 | 11 | 0 | 0 | 4 | 35 | 2.66 | 4 | — |
 | [Tetsuo Umezawa](grixis/decks/tetsuo-umezawa.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 4 | 1 | 0 | 0 | 2 | 35 | 2.75 | 4 | — |
 | [Tetsuo, Imperial Champion](grixis/decks/tetsuo-imperial-champion.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 5 | 2 | 0 | 0 | 4 | 35 | 3.19 | 4 | — |
+| [The Madcap Jester](grixis/decks/the-madcap-jester.md#bracket-calibration--pilot-notes) ⏳ *pending legality* | grixis | UBR | **4** | 17 | 0 | 0 | 0 | 6 | 34 | 2.4 | 5 | — |
 | [The Rani](grixis/decks/the-rani.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 8 | 0 | 0 | 1 | 3 | 33 | 3.02 | 4 | — |
 | [The Valeyard](grixis/decks/the-valeyard.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 6 | 0 | 0 | 2 | 2 | 36 | 3.6 | 4 | — |
 | [Thraximundar](grixis/decks/thraximundar.md#bracket-calibration--pilot-notes) | grixis | UBR | **4** | 8 | 1 | 0 | 0 | 3 | 36 | 2.78 | 4 | — |
@@ -121,6 +123,7 @@ schema: 2
 | [Edea, Possessed Sorceress](grixis/decks/edea-possessed-sorceress.md#bracket-calibration--pilot-notes) | grixis | UBR | **3** | 3 | 0 | 0 | 0 | 2 | 35 | 3.2 | 4 | — |
 | [Lord of Tresserhorn](grixis/decks/lord-of-tresserhorn.md#bracket-calibration--pilot-notes) | grixis | UBR | **3** | 2 | 1 | 0 | 0 | 3 | 35 | 2.44 | 4 | — |
 | [Parnesse, the Subtle Brush](grixis/decks/parnesse-the-subtle-brush.md#bracket-calibration--pilot-notes) | grixis | UBR | **3** | 3 | 21 | 0 | 0 | 1 | 35 | 3.0 | 4 | — |
+| [Tresserhorn's Lord, Returned](grixis/decks/tresserhorns-lord-returned.md#bracket-calibration--pilot-notes) ⏳ *pending legality* | grixis | UBR | **3** | 2 | 1 | 0 | 0 | 4 | 33 | 2.7 | — | — |
 | [Aurelia, the Warleader — Ravnica-only](decks/plane-ravnica-aurelia-the-warleader.md#bracket-calibration--pilot-notes) | plane | WR | **3** | 1 | 0 | 0 | 1 | 1 | 36 | 3.78 | — | 2 |
 | [Braids, Arisen Nightmare — Dominaria-only](decks/plane-dominaria-braids-arisen-nightmare.md#bracket-calibration--pilot-notes) | plane | B | **3** | 0 | 1 | 0 | 0 | 3 | 36 | 3.24 | — | 3 |
 | [Elesh Norn, Mother of Machines — Mirrodin/New Phyrexia-only](decks/plane-new-phyrexia-elesh-norn-mother-of-machines.md#bracket-calibration--pilot-notes) | plane | W | **3** | 1 | 0 | 0 | 0 | 0 | 36 | 3.32 | — | 3 |

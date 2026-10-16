@@ -1654,7 +1654,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #241 · Game Changer: **yes** · Can be commander: No
 - **Rulings** (1):
   - *2022-12-08* — You might end up discarding the card you searched for. It's a gamble!
-- **Referenced in:** 27 pages (21 decks · 5 edh guides · 1 card data) → [reverse index](../../references/G.md#gamble)
+- **Referenced in:** 28 pages (22 decks · 5 edh guides · 1 card data) → [reverse index](../../references/G.md#gamble)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/121/gamble) · oracle_id `a54f0869-94c8-42af-9080-166efb9486a4` · printing: DMR #121 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gamekeeper

@@ -518,6 +518,7 @@ schema: 2
   - *2011-06-01* — If your opponent’s library has one card in it and they are instructed to shuffle that library, Psychic Surgery will trigger. You may’ exile the one card in that library.
   - *2011-06-01* — In most cases, Green Sun’s Zenith instructs you to shuffle your library twice. Although shuffling that library only once is an acceptable shortcut, Psychic Surgery’s ability will still trigger twice.
   - *2011-06-01* — You look at the top two cards of that library as the triggered ability resolves. That happens after your opponent is done shuffling.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#psychic-surgery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/44/psychic-surgery) · oracle_id `e5128230-3535-4f77-8b97-20d0791e7b1d` · printing: NPH #44 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Symbiont

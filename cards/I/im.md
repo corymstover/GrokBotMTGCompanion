@@ -1095,7 +1095,7 @@ schema: 2
   > *—Letter from Queen Marchesa*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #541 · Game Changer: **yes** · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 24 pages (18 decks · 4 edh guides · 2 card data) → [reverse index](../../references/I.md#imperial-seal)
+- **Referenced in:** 25 pages (19 decks · 4 edh guides · 2 card data) → [reverse index](../../references/I.md#imperial-seal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/79/imperial-seal) · oracle_id `16cd0b90-f70c-4efa-b252-8de8784ef9a3` · printing: 2X2 #79 (2022-07-08) · [rulings](https://api.scryfall.com/cards/e71a6bd3-7478-4c3a-8ae0-98352ce28492/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Imperial Subduer

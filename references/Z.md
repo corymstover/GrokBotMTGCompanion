@@ -479,9 +479,9 @@ schema: 2
 
 ### Zulaport Cutthroat
 
-[Card entry](../cards/Z/zu.md#zulaport-cutthroat) · **12 pages** (decks 8 · edh guides 3 · card data 1)
+[Card entry](../cards/Z/zu.md#zulaport-cutthroat) · **13 pages** (decks 9 · edh guides 3 · card data 1)
 
-- **Decks (8):** [Karador, Ghost Chieftain](../decks/karador-ghost-chieftain.md) · [Korvold, Fae-Cursed King](../decks/korvold-fae-cursed-king.md) · [Lord of Tresserhorn (Grixis)](../grixis/decks/lord-of-tresserhorn.md) · [Marchesa, the Black Rose (Grixis)](../grixis/decks/marchesa-the-black-rose.md) · [Missy (Grixis)](../grixis/decks/missy.md) · [Teysa Karlov](../decks/teysa-karlov.md) · [Thraximundar (Grixis)](../grixis/decks/thraximundar.md) · [Wick, the Whorled Mind (Grixis)](../grixis/decks/wick-the-whorled-mind.md)
+- **Decks (9):** [Karador, Ghost Chieftain](../decks/karador-ghost-chieftain.md) · [Korvold, Fae-Cursed King](../decks/korvold-fae-cursed-king.md) · [Lord of Tresserhorn (Grixis)](../grixis/decks/lord-of-tresserhorn.md) · [Marchesa, the Black Rose (Grixis)](../grixis/decks/marchesa-the-black-rose.md) · [Missy (Grixis)](../grixis/decks/missy.md) · [Teysa Karlov](../decks/teysa-karlov.md) · [Thraximundar (Grixis)](../grixis/decks/thraximundar.md) · [Tresserhorn's Lord, Returned (Grixis)](../grixis/decks/tresserhorns-lord-returned.md) · [Wick, the Whorled Mind (Grixis)](../grixis/decks/wick-the-whorled-mind.md)
 - **EDH guides (3):** [EDH Standards → Death triggers ×2 — Teysa Karlov (WB, aristocrats)](../EDH%20Standards.md#death-triggers-2--teysa-karlov-wb-aristocrats) · [EDH Win Conditions → Repeatable drain](../EDH%20Win%20Conditions.md#repeatable-drain) · [Grixis Packages → Drain](../grixis/Grixis%20Packages.md#drain)
 - **Card data (1):** [Artist Index → Artists D](../Artist%20Index.md#artists-d) (+2 more)
 

@@ -860,7 +860,7 @@ schema: 2
   - *2020-04-17* — If you choose new targets for the target spell, the new targets must be legal.
   - *2020-04-17* — It doesn't matter whose commander you control. Any one will do. If you have two commanders, you just need to control one of them.
   - *2020-04-17* — Once you begin casting this spell, players can't take any other actions until you're done casting it. Notably, they can't try to remove the commander you control to make you pay its cost.
-- **Referenced in:** 62 pages (56 decks · 4 edh guides · 2 card data) → [reverse index](../../references/D.md#deflecting-swat)
+- **Referenced in:** 63 pages (57 decks · 4 edh guides · 2 card data) → [reverse index](../../references/D.md#deflecting-swat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/214/deflecting-swat) · oracle_id `ae120613-97d6-4393-b39d-c3e6c076f5d6` · printing: CMM #214 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deflection

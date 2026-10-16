@@ -5,7 +5,7 @@ tags: [grixis, decks, index]
 issues: [59, 60, 61]
 generated_by: scripts/build_grixis.py
 sources: [grixis-repo, scryfall, spellbook]
-related: ["EDH Standards.md", "grixis/Grixis Evaluation.md", "EDH Deck Template.md", "grixis/Grixis Corrections.md", "grixis/Grixis Packages.md", "EDH Bracket Calibration.md"]
+related: ["EDH Standards.md", "grixis/Grixis Evaluation.md", "grixis/Grixis Packages.md", "EDH Deck Template.md", "grixis/Grixis Corrections.md", "EDH Bracket Calibration.md"]
 schema: 2
 ---
 
@@ -16,6 +16,7 @@ schema: 2
 ## Contents
 - [Pages](#pages)
 - [Decks](#decks)
+- [Pending legality](#pending-legality)
 - [What was left out](#what-was-left-out)
 
 ## Pages
@@ -24,9 +25,9 @@ schema: 2
 |---|---|
 | [Grixis Integration Summary](Grixis%20Integration%20Summary.md) | What was integrated, what was generalized, and follow-ups |
 | [Grixis Evaluation](Grixis%20Evaluation.md) | Check results for all 62 source lists, and how each current list was chosen |
-| [Grixis Corrections](Grixis%20Corrections.md) | All 129 corrections (deck, issue, fix), the Oracle-text check, source-repo structural findings |
+| [Grixis Corrections](Grixis%20Corrections.md) | All 135 corrections (deck, issue, fix), the Oracle-text check, source-repo structural findings |
 | [Grixis Packages](Grixis%20Packages.md) | Cross-deck package library (cards shared by 4 or more of the 60 lists, by role) and verified rules insights |
-| [decks/](decks/) | 60 validated deck pages |
+| [decks/](decks/) | 62 deck pages: 60 validated (legal) + 2 ⏳ pending legality |
 
 ## Decks
 
@@ -95,10 +96,17 @@ schema: 2
 | [Wick, the Whorled Mind](decks/wick-the-whorled-mind.md) | — | 5 | 4 | 4 — Optimized | 13 / 1 | 35 | 2.55 | 2 |
 | [Zevlor, Elturel Exile](decks/zevlor-elturel-exile.md) | — | 11 | 4 | 4 — natural ceiling | 1 / 1 | 34 | 2.74 | 2 |
 
+## Pending legality
+
+2 deck page(s) are published with `legality_status: pending`. They are **not counted** among the 60 legal decks above or in [Grixis Packages](Grixis%20Packages.md). Each lists the cards that are not Commander-legal yet. Activation: `python3 scripts/activate_pending_grixis.py` (Bot cycle 38).
+
+| Deck | Not yet legal | Legal from | GC | Floor | Source bracket | Lands |
+|---|---|---|---|---|---|---|
+| ⏳ [The Madcap Jester](decks/the-madcap-jester.md) | The Madcap Jester, Dragon's Smile | 2026-10-19 | 17 | 4 | 5 — cEDH | 34 |
+| ⏳ [Tresserhorn's Lord, Returned](decks/tresserhorns-lord-returned.md) | Tresserhorn's Lord, Returned | 2026-10-19 | 2 | 3 | — | 33 |
+
 ## What was left out
 
-2 of 62 source lists are left out. Their check results are in [Grixis Evaluation](Grixis%20Evaluation.md#per-list-results).
+0 of 62 source lists are left out. Their check results are in [Grixis Evaluation](Grixis%20Evaluation.md#per-list-results).
 
-- **The Madcap Jester** (`The_Madcap_Jester`): future-release: The commander and Dragon's Smile come from Scryfall set `mbc` (draft_innovation), releasing 2026-10-19. Both are `not_legal` in Commander today (Scryfall, re-checked 2026-10-16), and the source's 2026-10-15 approval keeps them under its registered *future-release* exceptions. Re-check after release.
-- **Tresserhorn's Lord, Returned** (`Tresserhorn_s_Lord__Returned`): future-release: The commander is in set `mbc` (releasing 2026-10-19) and is `not_legal` in Commander today (Scryfall, re-checked 2026-10-16). ⚠️ The source's 2026-10-15 approval record calls its earlier future-release exception "historical only" and reports "current official Commander legality PASS"; Scryfall does not agree yet. Re-check after release.
 

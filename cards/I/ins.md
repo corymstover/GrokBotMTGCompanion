@@ -377,6 +377,7 @@ schema: 2
   - *2026-06-29* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
   - *2026-06-29* — If you cast a spell for another cost "rather than pay its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If a spell has any mandatory additional costs, such as that of Stir Up Trouble, those must be paid for it.
   - *2026-06-29* — You must follow all normal timing rules when playing a land or casting a spell for cards exiled with Inside Information. For example, if an exiled card is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#inside-information)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/76/inside-information) · oracle_id `66961bcb-f588-47a7-b3f3-12f4ac674477` · printing: HOB #76 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inside Out

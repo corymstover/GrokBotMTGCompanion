@@ -4407,7 +4407,7 @@
    "batch": 34,
    "lines": [
     "- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): BRO #89 — [Art & Flavor → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (11): [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Teysa Karlov](../../decks/teysa-karlov.md) · [Cormela, Glamour Thief (Grixis)](../../grixis/decks/cormela-glamour-thief.md) · [Edea, Possessed Sorceress (Grixis)](../../grixis/decks/edea-possessed-sorceress.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 397,821 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (41.1% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (22.6% of its decks), [Kraum, Ludevic's Opus // Tymna the Weaver](../../cards/K/kr.md#kraum-ludevics-opus) (75.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (12): [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Teysa Karlov](../../decks/teysa-karlov.md) · [Cormela, Glamour Thief (Grixis)](../../grixis/decks/cormela-glamour-thief.md) · [Edea, Possessed Sorceress (Grixis)](../../grixis/decks/edea-possessed-sorceress.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 397,821 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (41.1% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (22.6% of its decks), [Kraum, Ludevic's Opus // Tymna the Weaver](../../cards/K/kr.md#kraum-ludevics-opus) (75.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": [
@@ -4470,6 +4470,10 @@
       {
        "label": "Thraximundar (Grixis)",
        "path": "grixis/decks/thraximundar.md"
+      },
+      {
+       "label": "Tresserhorn's Lord, Returned (Grixis)",
+       "path": "grixis/decks/tresserhorns-lord-returned.md"
       },
       {
        "label": "Wick, the Whorled Mind (Grixis)",
@@ -7100,7 +7104,7 @@
    "batch": 35,
    "lines": [
     "- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (5): [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) · [Don Andres, the Renegade (Grixis)](../../grixis/decks/don-andres-the-renegade.md) · [Edea, Possessed Sorceress (Grixis)](../../grixis/decks/edea-possessed-sorceress.md) · [Edward Kenway (Grixis)](../../grixis/decks/edward-kenway.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6,771 decks; highest synergy [Ramirez DePietro, Pillager](../../cards/R/ram.md#ramirez-depietro-pillager) (+73%), [Hostage Taker](../../cards/H/ho.md#hostage-taker) (+71%), [Laughing Jasper Flint](../../cards/L/la.md#laughing-jasper-flint) (+66%) · EDHREC: in 22,425 decks; most often under [Edward Kenway](../../cards/E/ed.md#edward-kenway) (54.3% of its decks), [Nathan Drake, Treasure Hunter](../../cards/N/na.md#nathan-drake-treasure-hunter) (80.8% of its decks), [Edea, Possessed Sorceress](../../cards/E/ed.md#edea-possessed-sorceress) (53.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (6): [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) · [Don Andres, the Renegade (Grixis)](../../grixis/decks/don-andres-the-renegade.md) · [Edea, Possessed Sorceress (Grixis)](../../grixis/decks/edea-possessed-sorceress.md) · [Edward Kenway (Grixis)](../../grixis/decks/edward-kenway.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6,771 decks; highest synergy [Ramirez DePietro, Pillager](../../cards/R/ram.md#ramirez-depietro-pillager) (+73%), [Hostage Taker](../../cards/H/ho.md#hostage-taker) (+71%), [Laughing Jasper Flint](../../cards/L/la.md#laughing-jasper-flint) (+66%) · EDHREC: in 22,425 decks; most often under [Edward Kenway](../../cards/E/ed.md#edward-kenway) (54.3% of its decks), [Nathan Drake, Treasure Hunter](../../cards/N/na.md#nathan-drake-treasure-hunter) (80.8% of its decks), [Edea, Possessed Sorceress](../../cards/E/ed.md#edea-possessed-sorceress) (53.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -7160,6 +7164,10 @@
       {
        "label": "Nathan Drake, Treasure Hunter (Grixis)",
        "path": "grixis/decks/nathan-drake-treasure-hunter.md"
+      },
+      {
+       "label": "The Madcap Jester (Grixis)",
+       "path": "grixis/decks/the-madcap-jester.md"
       }
      ],
      "edhrec": {
@@ -10331,7 +10339,7 @@
    "batch": 34,
    "lines": [
     "- **Lore:** ✅ Card art shown on [Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-the-math-of-more) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (90): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) … · Commander Spellbook: 20 combos; most popular [Tower Winder + Kheru Goldkeeper + Six + Command Tower + Altar of Dementia](https://commanderspellbook.com/combo/5256-5751-6462-7104-7105/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC: in 7,588,837 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (96.1% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (93.0% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (91.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (92): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) … · Commander Spellbook: 20 combos; most popular [Tower Winder + Kheru Goldkeeper + Six + Command Tower + Altar of Dementia](https://commanderspellbook.com/combo/5256-5751-6462-7104-7105/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC: in 7,588,837 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (96.1% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (93.0% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (91.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -10696,6 +10704,10 @@
        "path": "grixis/decks/tetsuo-umezawa.md"
       },
       {
+       "label": "The Madcap Jester (Grixis)",
+       "path": "grixis/decks/the-madcap-jester.md"
+      },
+      {
        "label": "The Rani (Grixis)",
        "path": "grixis/decks/the-rani.md"
       },
@@ -10706,6 +10718,10 @@
       {
        "label": "Thraximundar (Grixis)",
        "path": "grixis/decks/thraximundar.md"
+      },
+      {
+       "label": "Tresserhorn's Lord, Returned (Grixis)",
+       "path": "grixis/decks/tresserhorns-lord-returned.md"
       },
       {
        "label": "Wick, the Whorled Mind (Grixis)",
@@ -20769,7 +20785,7 @@
    "batch": 34,
    "lines": [
     "- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (17): [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · [Niv-Mizzet, Parun](../../decks/niv-mizzet-parun.md) · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) · [Anhelo, the Painter (Grixis)](../../grixis/decks/anhelo-the-painter.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 734,021 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (62.6% of its decks), [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (70.4% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (40.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (18): [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · [Niv-Mizzet, Parun](../../decks/niv-mizzet-parun.md) · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) · [Anhelo, the Painter (Grixis)](../../grixis/decks/anhelo-the-painter.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 734,021 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (62.6% of its decks), [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (70.4% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (40.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -20856,6 +20872,10 @@
       {
        "label": "Parnesse, the Subtle Brush (Grixis)",
        "path": "grixis/decks/parnesse-the-subtle-brush.md"
+      },
+      {
+       "label": "The Madcap Jester (Grixis)",
+       "path": "grixis/decks/the-madcap-jester.md"
       },
       {
        "label": "Wick, the Whorled Mind (Grixis)",
@@ -24137,7 +24157,7 @@
    "batch": 35,
    "lines": [
     "- **Lore:** ✅ Presented with an official backstory on [The Legends You'll Find in Dominaria United](https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (1): [Anhelo, the Painter (Grixis)](../../grixis/decks/anhelo-the-painter.md) · Commander Spellbook: 6 combos; most popular [Breath of Fury + Lagomos, Hand of Hatred](https://commanderspellbook.com/combo/3259-4653/) (Infinite combat damage, Infinite combat phases) · EDHREC as commander: 1,394 decks; highest synergy [Mahadi, Emporium Master](../../cards/M/mah.md#mahadi-emporium-master) (+48%), [Fleshbag Marauder](../../cards/F/fl.md#fleshbag-marauder) (+45%), [Plaguecrafter](../../cards/P/pl.md#plaguecrafter) (+45%) · EDHREC: in 52,951 decks; most often under [Shadow the Hedgehog](../../cards/S/sha.md#shadow-the-hedgehog) (53.8% of its decks), [Juri, Master of the Revue](../../cards/J/ju.md#juri-master-of-the-revue) (60.7% of its decks), [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (13.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (2): [Anhelo, the Painter (Grixis)](../../grixis/decks/anhelo-the-painter.md) · [Tresserhorn's Lord, Returned (Grixis)](../../grixis/decks/tresserhorns-lord-returned.md) · Commander Spellbook: 6 combos; most popular [Breath of Fury + Lagomos, Hand of Hatred](https://commanderspellbook.com/combo/3259-4653/) (Infinite combat damage, Infinite combat phases) · EDHREC as commander: 1,394 decks; highest synergy [Mahadi, Emporium Master](../../cards/M/mah.md#mahadi-emporium-master) (+48%), [Fleshbag Marauder](../../cards/F/fl.md#fleshbag-marauder) (+45%), [Plaguecrafter](../../cards/P/pl.md#plaguecrafter) (+45%) · EDHREC: in 52,951 decks; most often under [Shadow the Hedgehog](../../cards/S/sha.md#shadow-the-hedgehog) (53.8% of its decks), [Juri, Master of the Revue](../../cards/J/ju.md#juri-master-of-the-revue) (60.7% of its decks), [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (13.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -24185,6 +24205,10 @@
       {
        "label": "Anhelo, the Painter (Grixis)",
        "path": "grixis/decks/anhelo-the-painter.md"
+      },
+      {
+       "label": "Tresserhorn's Lord, Returned (Grixis)",
+       "path": "grixis/decks/tresserhorns-lord-returned.md"
       }
      ],
      "edhrec": {
@@ -29342,7 +29366,7 @@
    "batch": 34,
    "lines": [
     "- **Lore:** ✅ Card art shown on [Testing the Dark Waters](https://magic.wizards.com/en/news/magic-story/testing-dark-waters-2018-10-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (68): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) · [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · [Kynaios and Tiro of Meletis](../../decks/kynaios-and-tiro-of-meletis.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 968,051 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (63.5% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (40.2% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (49.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (70): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) · [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · [Kynaios and Tiro of Meletis](../../decks/kynaios-and-tiro-of-meletis.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 968,051 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (63.5% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (40.2% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (49.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -29619,6 +29643,10 @@
        "path": "grixis/decks/tetsuo-umezawa.md"
       },
       {
+       "label": "The Madcap Jester (Grixis)",
+       "path": "grixis/decks/the-madcap-jester.md"
+      },
+      {
        "label": "The Rani (Grixis)",
        "path": "grixis/decks/the-rani.md"
       },
@@ -29629,6 +29657,10 @@
       {
        "label": "Thraximundar (Grixis)",
        "path": "grixis/decks/thraximundar.md"
+      },
+      {
+       "label": "Tresserhorn's Lord, Returned (Grixis)",
+       "path": "grixis/decks/tresserhorns-lord-returned.md"
       },
       {
        "label": "Wick, the Whorled Mind (Grixis)",
@@ -35930,7 +35962,7 @@
    "batch": 35,
    "lines": [
     "- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (2): [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Thraximundar (Grixis)](../../grixis/decks/thraximundar.md) · Commander Spellbook: 7 combos; most popular [Mahadi, Emporium Master + Revel in Riches + Ashnod's Altar](https://commanderspellbook.com/combo/865-2034-2429/) (Win the game at the beginning of your next upkeep) · EDHREC as commander: 1,901 decks; highest synergy [Accursed Marauder](../../cards/A/ac.md#accursed-marauder) (+54%), [Lagomos, Hand of Hatred](../../cards/L/la.md#lagomos-hand-of-hatred) (+54%), [Mirkwood Bats](../../cards/M/mir.md#mirkwood-bats) (+51%) · EDHREC: in 122,111 decks; most often under [Vihaan, Goldwaker](../../cards/V/vi.md#vihaan-goldwaker) (79.7% of its decks), [Zurgo Stormrender](../../cards/Z/zu.md#zurgo-stormrender) (31.4% of its decks), [Judith, Carnage Connoisseur](../../cards/J/ju.md#judith-carnage-connoisseur) (52.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (3): [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Thraximundar (Grixis)](../../grixis/decks/thraximundar.md) · [Tresserhorn's Lord, Returned (Grixis)](../../grixis/decks/tresserhorns-lord-returned.md) · Commander Spellbook: 7 combos; most popular [Mahadi, Emporium Master + Revel in Riches + Ashnod's Altar](https://commanderspellbook.com/combo/865-2034-2429/) (Win the game at the beginning of your next upkeep) · EDHREC as commander: 1,901 decks; highest synergy [Accursed Marauder](../../cards/A/ac.md#accursed-marauder) (+54%), [Lagomos, Hand of Hatred](../../cards/L/la.md#lagomos-hand-of-hatred) (+54%), [Mirkwood Bats](../../cards/M/mir.md#mirkwood-bats) (+51%) · EDHREC: in 122,111 decks; most often under [Vihaan, Goldwaker](../../cards/V/vi.md#vihaan-goldwaker) (79.7% of its decks), [Zurgo Stormrender](../../cards/Z/zu.md#zurgo-stormrender) (31.4% of its decks), [Judith, Carnage Connoisseur](../../cards/J/ju.md#judith-carnage-connoisseur) (52.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -35978,6 +36010,10 @@
       {
        "label": "Thraximundar (Grixis)",
        "path": "grixis/decks/thraximundar.md"
+      },
+      {
+       "label": "Tresserhorn's Lord, Returned (Grixis)",
+       "path": "grixis/decks/tresserhorns-lord-returned.md"
       }
      ],
      "edhrec": {
@@ -39687,7 +39723,7 @@
    "batch": 35,
    "lines": [
     "- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (4): [Prosper, Tome-Bound](../../decks/prosper-tome-bound.md) · [Yidris, Maelstrom Wielder](../../decks/yidris-maelstrom-wielder.md) · [Abaddon the Despoiler (Grixis)](../../grixis/decks/abaddon-the-despoiler.md) · [Nathan Drake, Treasure Hunter (Grixis)](../../grixis/decks/nathan-drake-treasure-hunter.md) · Commander Spellbook: 100+ combos; most popular [Birgi, God of Storytelling // Harnfel, Horn of Bounty + Sensei's Divining Top + Prosper, Tome-Bound](https://commanderspellbook.com/combo/392-967-5078/) (Near-infinite draw triggers, Near-infinite looting) · EDHREC as commander: 14,292 decks; highest synergy [Xorn](../../cards/X/xo.md#xorn) (+76%), [Wild-Magic Sorcerer](../../cards/W/wi.md#wild-magic-sorcerer) (+67%), [Laelia, the Blade Reforged](../../cards/L/la.md#laelia-the-blade-reforged) (+64%) · EDHREC: in 61,585 decks; most often under [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (59.7% of its decks), [Ob Nixilis, Captive Kingpin](../../cards/O/ob.md#ob-nixilis-captive-kingpin) (74.0% of its decks), [Yidris, Maelstrom Wielder](../../cards/Y/yi.md#yidris-maelstrom-wielder) (38.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (5): [Prosper, Tome-Bound](../../decks/prosper-tome-bound.md) · [Yidris, Maelstrom Wielder](../../decks/yidris-maelstrom-wielder.md) · [Abaddon the Despoiler (Grixis)](../../grixis/decks/abaddon-the-despoiler.md) · [Nathan Drake, Treasure Hunter (Grixis)](../../grixis/decks/nathan-drake-treasure-hunter.md) … · Commander Spellbook: 100+ combos; most popular [Birgi, God of Storytelling // Harnfel, Horn of Bounty + Sensei's Divining Top + Prosper, Tome-Bound](https://commanderspellbook.com/combo/392-967-5078/) (Near-infinite draw triggers, Near-infinite looting) · EDHREC as commander: 14,292 decks; highest synergy [Xorn](../../cards/X/xo.md#xorn) (+76%), [Wild-Magic Sorcerer](../../cards/W/wi.md#wild-magic-sorcerer) (+67%), [Laelia, the Blade Reforged](../../cards/L/la.md#laelia-the-blade-reforged) (+64%) · EDHREC: in 61,585 decks; most often under [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (59.7% of its decks), [Ob Nixilis, Captive Kingpin](../../cards/O/ob.md#ob-nixilis-captive-kingpin) (74.0% of its decks), [Yidris, Maelstrom Wielder](../../cards/Y/yi.md#yidris-maelstrom-wielder) (38.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -39744,6 +39780,10 @@
       {
        "label": "Nathan Drake, Treasure Hunter (Grixis)",
        "path": "grixis/decks/nathan-drake-treasure-hunter.md"
+      },
+      {
+       "label": "The Madcap Jester (Grixis)",
+       "path": "grixis/decks/the-madcap-jester.md"
       }
      ],
      "edhrec": {
@@ -69746,7 +69786,7 @@
    "batch": 35,
    "lines": [
     "- **Lore:** ✅ Presented with an official backstory on [The Returning Legends of Modern Horizons 2](https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (16): [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Prosper, Tome-Bound](../../decks/prosper-tome-bound.md) · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) · [Don Andres, the Renegade (Grixis)](../../grixis/decks/don-andres-the-renegade.md) … · Commander Spellbook: 1 combo; most popular [Fable of the Mirror-Breaker // Reflection of Kiki-Jiki + Combat Celebrant + Ragavan, Nimble Pilferer](https://commanderspellbook.com/combo/996-2105-3337/) (Infinite combat phases, Infinite creature ETB) · EDHREC as commander: 3,039 decks; highest synergy [Breeches, Eager Pillager](../../cards/B/br.md#breeches-eager-pillager) (+50%), [Xorn](../../cards/X/xo.md#xorn) (+50%), [Goldspan Dragon](../../cards/G/gol.md#goldspan-dragon) (+48%) · EDHREC: in 388,530 decks; most often under [Kraum, Ludevic's Opus // Tymna the Weaver](../../cards/K/kr.md#kraum-ludevics-opus) (85.3% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (21.4% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (46.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (17): [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Prosper, Tome-Bound](../../decks/prosper-tome-bound.md) · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) · [Don Andres, the Renegade (Grixis)](../../grixis/decks/don-andres-the-renegade.md) … · Commander Spellbook: 1 combo; most popular [Fable of the Mirror-Breaker // Reflection of Kiki-Jiki + Combat Celebrant + Ragavan, Nimble Pilferer](https://commanderspellbook.com/combo/996-2105-3337/) (Infinite combat phases, Infinite creature ETB) · EDHREC as commander: 3,039 decks; highest synergy [Breeches, Eager Pillager](../../cards/B/br.md#breeches-eager-pillager) (+50%), [Xorn](../../cards/X/xo.md#xorn) (+50%), [Goldspan Dragon](../../cards/G/gol.md#goldspan-dragon) (+48%) · EDHREC: in 388,530 decks; most often under [Kraum, Ludevic's Opus // Tymna the Weaver](../../cards/K/kr.md#kraum-ludevics-opus) (85.3% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (21.4% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (46.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -69857,6 +69897,10 @@
       {
        "label": "Rograkh, Son of Rohgahh (Grixis)",
        "path": "grixis/decks/rograkh-son-of-rohgahh-silas-renn.md"
+      },
+      {
+       "label": "The Madcap Jester (Grixis)",
+       "path": "grixis/decks/the-madcap-jester.md"
       }
      ],
      "edhrec": {
@@ -89815,7 +89859,7 @@
    "batch": 35,
    "lines": [
     "- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — Commander Spellbook: 16 combos; most popular [Endrek Sahr, Master Breeder + Phyrexian Reclamation + Gray Merchant of Asphodel + Ashnod's Altar + Pitiless Plunderer](https://commanderspellbook.com/combo/328-387-2034-2693-4871/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 2,195 decks; highest synergy [Smothering Abomination](../../cards/S/sm.md#smothering-abomination) (+72%), [Mirkwood Bats](../../cards/M/mir.md#mirkwood-bats) (+69%), [Nadier's Nightblade](../../cards/N/na.md#nadiers-nightblade) (+63%) · EDHREC: in 49,911 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (40.6% of its decks), [Ayara, First of Locthwain](../../cards/A/ay.md#ayara-first-of-locthwain) (48.7% of its decks), [Prossh, Skyraider of Kher](../../cards/P/pr.md#prossh-skyraider-of-kher) (32.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (1): [Tresserhorn's Lord, Returned (Grixis)](../../grixis/decks/tresserhorns-lord-returned.md) · Commander Spellbook: 16 combos; most popular [Endrek Sahr, Master Breeder + Phyrexian Reclamation + Gray Merchant of Asphodel + Ashnod's Altar + Pitiless Plunderer](https://commanderspellbook.com/combo/328-387-2034-2693-4871/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 2,195 decks; highest synergy [Smothering Abomination](../../cards/S/sm.md#smothering-abomination) (+72%), [Mirkwood Bats](../../cards/M/mir.md#mirkwood-bats) (+69%), [Nadier's Nightblade](../../cards/N/na.md#nadiers-nightblade) (+63%) · EDHREC: in 49,911 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (40.6% of its decks), [Ayara, First of Locthwain](../../cards/A/ay.md#ayara-first-of-locthwain) (48.7% of its decks), [Prossh, Skyraider of Kher](../../cards/P/pr.md#prossh-skyraider-of-kher) (32.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -89855,7 +89899,12 @@
        }
       ]
      },
-     "decks": [],
+     "decks": [
+      {
+       "label": "Tresserhorn's Lord, Returned (Grixis)",
+       "path": "grixis/decks/tresserhorns-lord-returned.md"
+      }
+     ],
      "edhrec": {
       "decks": 49911,
       "potential": 5209367,
@@ -107300,7 +107349,7 @@
    "batch": 34,
    "lines": [
     "- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/beast-2014-06-19), [official story page](https://magic.wizards.com/en/news/feature/tragedy-2013-10-23), [Bound and Bonded](https://magic.wizards.com/en/news/magic-story/bound-and-bonded-2018-11-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (76): [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) · [Edgar Markov](../../decks/edgar-markov.md) · [Karador, Ghost Chieftain](../../decks/karador-ghost-chieftain.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,789,200 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (93.6% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (97.7% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (89.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (77): [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) · [Edgar Markov](../../decks/edgar-markov.md) · [Karador, Ghost Chieftain](../../decks/karador-ghost-chieftain.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,789,200 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (93.6% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (97.7% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (89.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -107627,6 +107676,10 @@
       {
        "label": "Thraximundar (Grixis)",
        "path": "grixis/decks/thraximundar.md"
+      },
+      {
+       "label": "Tresserhorn's Lord, Returned (Grixis)",
+       "path": "grixis/decks/tresserhorns-lord-returned.md"
       },
       {
        "label": "Wick, the Whorled Mind (Grixis)",
@@ -113903,7 +113956,7 @@
    "batch": 34,
    "lines": [
     "- **Lore:** ✅ Card art shown on [Return to Dominaria: Episode 11](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (13): [K'rrik, Son of Yawgmoth](../../decks/krrik-son-of-yawgmoth.md) · [Abaddon the Despoiler (Grixis)](../../grixis/decks/abaddon-the-despoiler.md) · [Cormela, Glamour Thief (Grixis)](../../grixis/decks/cormela-glamour-thief.md) · [Evelyn, the Covetous (Grixis)](../../grixis/decks/evelyn-the-covetous.md) … · Commander Spellbook: 26 combos; most popular [Saw in Half + Cabal Ritual + Eternal Witness](https://commanderspellbook.com/combo/500-864-4923/) (Infinite creature tokens, Infinite death triggers) · EDHREC: in 287,552 decks; most often under [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (50.0% of its decks), [Kraum, Ludevic's Opus // Tymna the Weaver](../../cards/K/kr.md#kraum-ludevics-opus) (75.3% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (27.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (14): [K'rrik, Son of Yawgmoth](../../decks/krrik-son-of-yawgmoth.md) · [Abaddon the Despoiler (Grixis)](../../grixis/decks/abaddon-the-despoiler.md) · [Cormela, Glamour Thief (Grixis)](../../grixis/decks/cormela-glamour-thief.md) · [Evelyn, the Covetous (Grixis)](../../grixis/decks/evelyn-the-covetous.md) … · Commander Spellbook: 26 combos; most popular [Saw in Half + Cabal Ritual + Eternal Witness](https://commanderspellbook.com/combo/500-864-4923/) (Infinite creature tokens, Infinite death triggers) · EDHREC: in 287,552 decks; most often under [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (50.0% of its decks), [Kraum, Ludevic's Opus // Tymna the Weaver](../../cards/K/kr.md#kraum-ludevics-opus) (75.3% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (27.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -113978,6 +114031,10 @@
       {
        "label": "Rograkh, Son of Rohgahh (Grixis)",
        "path": "grixis/decks/rograkh-son-of-rohgahh-silas-renn.md"
+      },
+      {
+       "label": "The Madcap Jester (Grixis)",
+       "path": "grixis/decks/the-madcap-jester.md"
       }
      ],
      "edhrec": {
@@ -127228,7 +127285,7 @@
    "batch": 34,
    "lines": [
     "- **Lore:** ✅ Card art shown on [Victory](https://magic.wizards.com/en/news/magic-story/victory-2014-11-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (26): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Saskia the Unyielding](../../decks/saskia-the-unyielding.md) · [The Ur-Dragon](../../decks/the-ur-dragon.md) … · Commander Spellbook: 31 combos; most popular [Tifa Lockhart + Scale Up + Wooded Foothills](https://commanderspellbook.com/combo/7675-7676-8101/) (Target opponent loses the game) · EDHREC: in 1,102,650 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (39.7% of its decks), [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (42.6% of its decks), [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (38.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (27): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Saskia the Unyielding](../../decks/saskia-the-unyielding.md) · [The Ur-Dragon](../../decks/the-ur-dragon.md) … · Commander Spellbook: 31 combos; most popular [Tifa Lockhart + Scale Up + Wooded Foothills](https://commanderspellbook.com/combo/7675-7676-8101/) (Target opponent loses the game) · EDHREC: in 1,102,650 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (39.7% of its decks), [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (42.6% of its decks), [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (38.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -127347,6 +127404,10 @@
       {
        "label": "Rograkh, Son of Rohgahh (Grixis)",
        "path": "grixis/decks/rograkh-son-of-rohgahh-silas-renn.md"
+      },
+      {
+       "label": "The Madcap Jester (Grixis)",
+       "path": "grixis/decks/the-madcap-jester.md"
       },
       {
        "label": "The Valeyard (Grixis)",
@@ -139285,7 +139346,7 @@
    "batch": 35,
    "lines": [
     "- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (1): [Teysa Karlov](../../decks/teysa-karlov.md) · Commander Spellbook: 93 combos; most popular [Warren Soultrader + Gravecrawler + Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel](https://commanderspellbook.com/combo/2577-5670-6578/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 31,424 decks; highest synergy [Forsaken Miner](../../cards/F/fo.md#forsaken-miner) (+59%), [Accursed Marauder](../../cards/A/ac.md#accursed-marauder) (+57%), [Ophiomancer](../../cards/O/op.md#ophiomancer) (+57%) · EDHREC: in 97,550 decks; most often under [Teysa Karlov](../../cards/T/te.md#teysa-karlov) (28.3% of its decks), [Terra, Herald of Hope](../../cards/T/te.md#terra-herald-of-hope) (17.5% of its decks), [Zurgo Stormrender](../../cards/Z/zu.md#zurgo-stormrender) (15.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Death-trigger drain payoffs](../../EDH%20Packages.md#aristocrats-death-trigger-drain-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (2): [Teysa Karlov](../../decks/teysa-karlov.md) · [Tresserhorn's Lord, Returned (Grixis)](../../grixis/decks/tresserhorns-lord-returned.md) · Commander Spellbook: 93 combos; most popular [Warren Soultrader + Gravecrawler + Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel](https://commanderspellbook.com/combo/2577-5670-6578/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 31,424 decks; highest synergy [Forsaken Miner](../../cards/F/fo.md#forsaken-miner) (+59%), [Accursed Marauder](../../cards/A/ac.md#accursed-marauder) (+57%), [Ophiomancer](../../cards/O/op.md#ophiomancer) (+57%) · EDHREC: in 97,550 decks; most often under [Teysa Karlov](../../cards/T/te.md#teysa-karlov) (28.3% of its decks), [Terra, Herald of Hope](../../cards/T/te.md#terra-herald-of-hope) (17.5% of its decks), [Zurgo Stormrender](../../cards/Z/zu.md#zurgo-stormrender) (15.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Death-trigger drain payoffs](../../EDH%20Packages.md#aristocrats-death-trigger-drain-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -139331,6 +139392,10 @@
       {
        "label": "Teysa Karlov",
        "path": "decks/teysa-karlov.md"
+      },
+      {
+       "label": "Tresserhorn's Lord, Returned (Grixis)",
+       "path": "grixis/decks/tresserhorns-lord-returned.md"
       }
      ],
      "edhrec": {
@@ -143206,7 +143271,7 @@
    "batch": 36,
    "lines": [
     "- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — Commander Spellbook: 38 combos; most popular [Sensei's Divining Top + The Reality Chip + Bilbo, Thief in the Night](https://commanderspellbook.com/combo/5078-5243-7650/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 1,138 decks; highest synergy [Bilbo's Ring](../../cards/B/bi.md#bilbos-ring) (+69%), [Riddles in the Dark](../../cards/R/ri.md#riddles-in-the-dark) (+58%), [The Reality Chip](../../cards/T/ther.md#the-reality-chip) (+58%) · EDHREC: in 12,902 decks; most often under [Kellan, the Kid](../../cards/K/ke.md#kellan-the-kid) (15.3% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (5.4% of its decks), [Gonti, Canny Acquisitor](../../cards/G/gon.md#gonti-canny-acquisitor) (13.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (1): [The Madcap Jester (Grixis)](../../grixis/decks/the-madcap-jester.md) · Commander Spellbook: 38 combos; most popular [Sensei's Divining Top + The Reality Chip + Bilbo, Thief in the Night](https://commanderspellbook.com/combo/5078-5243-7650/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 1,138 decks; highest synergy [Bilbo's Ring](../../cards/B/bi.md#bilbos-ring) (+69%), [Riddles in the Dark](../../cards/R/ri.md#riddles-in-the-dark) (+58%), [The Reality Chip](../../cards/T/ther.md#the-reality-chip) (+58%) · EDHREC: in 12,902 decks; most often under [Kellan, the Kid](../../cards/K/ke.md#kellan-the-kid) (15.3% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (5.4% of its decks), [Gonti, Canny Acquisitor](../../cards/G/gon.md#gonti-canny-acquisitor) (13.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -143246,7 +143311,12 @@
        }
       ]
      },
-     "decks": [],
+     "decks": [
+      {
+       "label": "The Madcap Jester (Grixis)",
+       "path": "grixis/decks/the-madcap-jester.md"
+      }
+     ],
      "edhrec": {
       "decks": 12902,
       "potential": 1791683,
@@ -154935,7 +155005,7 @@
    "batch": 34,
    "lines": [
     "- **Lore:** ✅ Card art shown on [Planeswalker's Guide to Kaladesh](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — Commander Spellbook: 24 combos; most popular [Tayam, Luminous Enigma + Weaponcraft Enthusiast + Ashnod's Altar](https://commanderspellbook.com/combo/687-1483-2034/) (Infinite colorless mana, Infinite death triggers) · EDHREC: in 8,429 decks; most often under [Tayam, Luminous Enigma](../../cards/T/ta.md#tayam-luminous-enigma) (13.4% of its decks), [Shirei, Shizo's Caretaker](../../cards/S/shi.md#shirei-shizos-caretaker) (14.5% of its decks), [Witherbloom, the Balancer](../../cards/W/wi.md#witherbloom-the-balancer) (4.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (1): [Tresserhorn's Lord, Returned (Grixis)](../../grixis/decks/tresserhorns-lord-returned.md) · Commander Spellbook: 24 combos; most popular [Tayam, Luminous Enigma + Weaponcraft Enthusiast + Ashnod's Altar](https://commanderspellbook.com/combo/687-1483-2034/) (Infinite colorless mana, Infinite death triggers) · EDHREC: in 8,429 decks; most often under [Tayam, Luminous Enigma](../../cards/T/ta.md#tayam-luminous-enigma) (13.4% of its decks), [Shirei, Shizo's Caretaker](../../cards/S/shi.md#shirei-shizos-caretaker) (14.5% of its decks), [Witherbloom, the Balancer](../../cards/W/wi.md#witherbloom-the-balancer) (4.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -154960,7 +155030,12 @@
      ]
     },
     "proven": {
-     "decks": [],
+     "decks": [
+      {
+       "label": "Tresserhorn's Lord, Returned (Grixis)",
+       "path": "grixis/decks/tresserhorns-lord-returned.md"
+      }
+     ],
      "edhrec": {
       "decks": 8429,
       "potential": 5209367,
@@ -162368,7 +162443,7 @@
    "batch": 34,
    "lines": [
     "- **Lore:** Featured in: [Plane → New Capenna](../../Planes%20Index.md#new-capenna) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna), [2](https://magic.wizards.com/en/news/magic-story/episode-1-homecoming-2022-03-28) via entry) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (49): [Nekusar, the Mindrazer](../../decks/nekusar-the-mindrazer.md) · [Abaddon the Despoiler (Grixis)](../../grixis/decks/abaddon-the-despoiler.md) · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) · [Admiral Brass, Unsinkable (Grixis)](../../grixis/decks/admiral-brass-unsinkable.md) … · Commander Spellbook: 1 combo; most popular [Escape Protocol + Fluctuator + Bone Miser + Golgari Findbroker + Xander's Lounge](https://commanderspellbook.com/combo/65-717-2628-3834-5181/) (Infinite card draw, Infinite draw triggers) · EDHREC: in 275,539 decks; most often under [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (45.1% of its decks), [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (34.8% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (35.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (51): [Nekusar, the Mindrazer](../../decks/nekusar-the-mindrazer.md) · [Abaddon the Despoiler (Grixis)](../../grixis/decks/abaddon-the-despoiler.md) · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) · [Admiral Brass, Unsinkable (Grixis)](../../grixis/decks/admiral-brass-unsinkable.md) … · Commander Spellbook: 1 combo; most popular [Escape Protocol + Fluctuator + Bone Miser + Golgari Findbroker + Xander's Lounge](https://commanderspellbook.com/combo/65-717-2628-3834-5181/) (Infinite card draw, Infinite draw triggers) · EDHREC: in 275,539 decks; most often under [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (45.1% of its decks), [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (34.8% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (35.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -162577,6 +162652,10 @@
        "path": "grixis/decks/tetsuo-umezawa.md"
       },
       {
+       "label": "The Madcap Jester (Grixis)",
+       "path": "grixis/decks/the-madcap-jester.md"
+      },
+      {
        "label": "The Rani (Grixis)",
        "path": "grixis/decks/the-rani.md"
       },
@@ -162587,6 +162666,10 @@
       {
        "label": "Thraximundar (Grixis)",
        "path": "grixis/decks/thraximundar.md"
+      },
+      {
+       "label": "Tresserhorn's Lord, Returned (Grixis)",
+       "path": "grixis/decks/tresserhorns-lord-returned.md"
       },
       {
        "label": "Wick, the Whorled Mind (Grixis)",
@@ -193861,7 +193944,7 @@
    "batch": 35,
    "lines": [
     "- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (3): [Don Andres, the Renegade (Grixis)](../../grixis/decks/don-andres-the-renegade.md) · [Nathan Drake, Treasure Hunter (Grixis)](../../grixis/decks/nathan-drake-treasure-hunter.md) · [Obeka, Splitter of Seconds (Grixis)](../../grixis/decks/obeka-splitter-of-seconds.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,403 decks; highest synergy [Etali, Primal Storm](../../cards/E/et.md#etali-primal-storm) (+68%), [Nalfeshnee](../../cards/N/na.md#nalfeshnee) (+67%), [Wild-Magic Sorcerer](../../cards/W/wi.md#wild-magic-sorcerer) (+66%) · EDHREC: in 70,267 decks; most often under [Obeka, Splitter of Seconds](../../cards/O/ob.md#obeka-splitter-of-seconds) (61.9% of its decks), [Rocco, Street Chef](../../cards/R/ro.md#rocco-street-chef) (33.1% of its decks), [Don Andres, the Renegade](../../cards/D/do.md#don-andres-the-renegade) (52.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (4): [Don Andres, the Renegade (Grixis)](../../grixis/decks/don-andres-the-renegade.md) · [Nathan Drake, Treasure Hunter (Grixis)](../../grixis/decks/nathan-drake-treasure-hunter.md) · [Obeka, Splitter of Seconds (Grixis)](../../grixis/decks/obeka-splitter-of-seconds.md) · [The Madcap Jester (Grixis)](../../grixis/decks/the-madcap-jester.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,403 decks; highest synergy [Etali, Primal Storm](../../cards/E/et.md#etali-primal-storm) (+68%), [Nalfeshnee](../../cards/N/na.md#nalfeshnee) (+67%), [Wild-Magic Sorcerer](../../cards/W/wi.md#wild-magic-sorcerer) (+66%) · EDHREC: in 70,267 decks; most often under [Obeka, Splitter of Seconds](../../cards/O/ob.md#obeka-splitter-of-seconds) (61.9% of its decks), [Rocco, Street Chef](../../cards/R/ro.md#rocco-street-chef) (33.1% of its decks), [Don Andres, the Renegade](../../cards/D/do.md#don-andres-the-renegade) (52.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -193911,6 +193994,10 @@
       {
        "label": "Obeka, Splitter of Seconds (Grixis)",
        "path": "grixis/decks/obeka-splitter-of-seconds.md"
+      },
+      {
+       "label": "The Madcap Jester (Grixis)",
+       "path": "grixis/decks/the-madcap-jester.md"
       }
      ],
      "edhrec": {
@@ -197397,7 +197484,7 @@
    "batch": 33,
    "lines": [
     "- **Lore:** Depicts: [Character → Yawgmoth](../../Characters%20Index.md#yawgmoth) — name match confirmed: official page names the card ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-phyrexia-all-will-be-one)) — Featured in: [Plane → Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-phyrexia-all-will-be-one), [2](https://magic.wizards.com/en/story/new-phyrexia-plane) via entry) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (2): [Marchesa, the Black Rose (Grixis)](../../grixis/decks/marchesa-the-black-rose.md) · [Thraximundar (Grixis)](../../grixis/decks/thraximundar.md) · Commander Spellbook: 100+ combos; most popular [Yawgmoth, Thran Physician + Zulaport Cutthroat + Pawn of Ulamog](https://commanderspellbook.com/combo/1385-4279-4314--216/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 7,274 decks; highest synergy [Nest of Scarabs](../../cards/N/ne.md#nest-of-scarabs) (+78%), [Butcher Ghoul](../../cards/B/bu.md#butcher-ghoul) (+70%), [Geralf's Messenger](../../cards/G/ge.md#geralfs-messenger) (+66%) · EDHREC: in 168,100 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (41.0% of its decks), [Auntie Ool, Cursewretch](../../cards/A/au.md#auntie-ool-cursewretch) (43.6% of its decks), [Meren of Clan Nel Toth](../../cards/M/me.md#meren-of-clan-nel-toth) (31.3% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Proliferate](../../EDH%20Packages.md#11-counters-proliferate) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (3): [Marchesa, the Black Rose (Grixis)](../../grixis/decks/marchesa-the-black-rose.md) · [Thraximundar (Grixis)](../../grixis/decks/thraximundar.md) · [Tresserhorn's Lord, Returned (Grixis)](../../grixis/decks/tresserhorns-lord-returned.md) · Commander Spellbook: 100+ combos; most popular [Yawgmoth, Thran Physician + Zulaport Cutthroat + Pawn of Ulamog](https://commanderspellbook.com/combo/1385-4279-4314--216/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 7,274 decks; highest synergy [Nest of Scarabs](../../cards/N/ne.md#nest-of-scarabs) (+78%), [Butcher Ghoul](../../cards/B/bu.md#butcher-ghoul) (+70%), [Geralf's Messenger](../../cards/G/ge.md#geralfs-messenger) (+66%) · EDHREC: in 168,100 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (41.0% of its decks), [Auntie Ool, Cursewretch](../../cards/A/au.md#auntie-ool-cursewretch) (43.6% of its decks), [Meren of Clan Nel Toth](../../cards/M/me.md#meren-of-clan-nel-toth) (31.3% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Proliferate](../../EDH%20Packages.md#11-counters-proliferate) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -197474,6 +197561,10 @@
       {
        "label": "Thraximundar (Grixis)",
        "path": "grixis/decks/thraximundar.md"
+      },
+      {
+       "label": "Tresserhorn's Lord, Returned (Grixis)",
+       "path": "grixis/decks/tresserhorns-lord-returned.md"
       }
      ],
      "edhrec": {
@@ -200042,7 +200133,7 @@
    "batch": 34,
    "lines": [
     "- **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09), [Chronicle of Bolas: Things Unseen](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-things-unseen-2018-06-27), [Chronicle of Bolas: The Twins](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-twins-2018-06-13) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (70): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) · [Edgar Markov](../../decks/edgar-markov.md) · [Feather, the Redeemed](../../decks/feather-the-redeemed.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,725,814 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (89.4% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (84.8% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (97.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (71): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) · [Edgar Markov](../../decks/edgar-markov.md) · [Feather, the Redeemed](../../decks/feather-the-redeemed.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,725,814 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (89.4% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (84.8% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (97.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -200345,6 +200436,10 @@
       {
        "label": "Thraximundar (Grixis)",
        "path": "grixis/decks/thraximundar.md"
+      },
+      {
+       "label": "Tresserhorn's Lord, Returned (Grixis)",
+       "path": "grixis/decks/tresserhorns-lord-returned.md"
       },
       {
        "label": "Wick, the Whorled Mind (Grixis)",
@@ -216945,7 +217040,7 @@
    "batch": 34,
    "lines": [
     "- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): STX #81 · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (1): [Wick, the Whorled Mind (Grixis)](../../grixis/decks/wick-the-whorled-mind.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 137,415 decks; most often under [Chatterfang, Squirrel General](../../cards/C/cha.md#chatterfang-squirrel-general) (34.1% of its decks), [Hazel of the Rootbloom](../../cards/H/ha.md#hazel-of-the-rootbloom) (55.2% of its decks), [Dina, Essence Brewer](../../cards/D/di.md#dina-essence-brewer) (52.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (2): [Tresserhorn's Lord, Returned (Grixis)](../../grixis/decks/tresserhorns-lord-returned.md) · [Wick, the Whorled Mind (Grixis)](../../grixis/decks/wick-the-whorled-mind.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 137,415 decks; most often under [Chatterfang, Squirrel General](../../cards/C/cha.md#chatterfang-squirrel-general) (34.1% of its decks), [Hazel of the Rootbloom](../../cards/H/ha.md#hazel-of-the-rootbloom) (55.2% of its decks), [Dina, Essence Brewer](../../cards/D/di.md#dina-essence-brewer) (52.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -216966,6 +217061,10 @@
     },
     "proven": {
      "decks": [
+      {
+       "label": "Tresserhorn's Lord, Returned (Grixis)",
+       "path": "grixis/decks/tresserhorns-lord-returned.md"
+      },
       {
        "label": "Wick, the Whorled Mind (Grixis)",
        "path": "grixis/decks/wick-the-whorled-mind.md"
@@ -219815,7 +219914,7 @@
    "batch": 34,
    "lines": [
     "- **Lore:** ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/sea-gods-labyrinth-part-2-2013-11-20), [Bottled Up](https://magic.wizards.com/en/news/magic-story/bottled-2016-09-28), [Chronicle of Bolas: A Familiar Stranger](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-familiar-stranger-2018-08-01) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (74): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,667,736 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (95.1% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (91.3% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (97.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (76): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Breya, Etherium Shaper](../../decks/breya-etherium-shaper.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 4,667,736 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (95.1% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (91.3% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (97.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -220124,6 +220223,10 @@
        "path": "grixis/decks/tetsuo-umezawa.md"
       },
       {
+       "label": "The Madcap Jester (Grixis)",
+       "path": "grixis/decks/the-madcap-jester.md"
+      },
+      {
        "label": "The Rani (Grixis)",
        "path": "grixis/decks/the-rani.md"
       },
@@ -220134,6 +220237,10 @@
       {
        "label": "Thraximundar (Grixis)",
        "path": "grixis/decks/thraximundar.md"
+      },
+      {
+       "label": "Tresserhorn's Lord, Returned (Grixis)",
+       "path": "grixis/decks/tresserhorns-lord-returned.md"
       },
       {
        "label": "Wick, the Whorled Mind (Grixis)",
@@ -224388,7 +224495,7 @@
    "batch": 34,
    "lines": [
     "- **Lore:** Depicts: [Character → Ashiok](../../Characters%20Index.md#ashiok) — name match confirmed: card art captioned on Dreams of the City ([source](https://magic.wizards.com/en/news/magic-story/dreams-city-2014-04-23)) · [Dossier → Ashiok](../../Planeswalker%20Dossiers.md#ashiok) — name match confirmed: card art captioned on Dreams of the City ([source](https://magic.wizards.com/en/news/magic-story/dreams-city-2014-04-23)) — ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/building-toward-dream-part-2-2013-12-03), [official story page](https://magic.wizards.com/en/news/feature/building-toward-dream-part-2-2013-12-04), [official story page](https://magic.wizards.com/en/news/feature/dreams-city-2014-04-23-0) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,247 decks; most often under [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (30.7% of its decks), [Tasha, the Witch Queen](../../cards/T/ta.md#tasha-the-witch-queen) (11.2% of its decks), [Phenax, God of Deception](../../cards/P/ph.md#phenax-god-of-deception) (4.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (1): [The Madcap Jester (Grixis)](../../grixis/decks/the-madcap-jester.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,247 decks; most often under [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (30.7% of its decks), [Tasha, the Witch Queen](../../cards/T/ta.md#tasha-the-witch-queen) (11.2% of its decks), [Phenax, God of Deception](../../cards/P/ph.md#phenax-god-of-deception) (4.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -224452,7 +224559,12 @@
      "packages": []
     },
     "proven": {
-     "decks": [],
+     "decks": [
+      {
+       "label": "The Madcap Jester (Grixis)",
+       "path": "grixis/decks/the-madcap-jester.md"
+      }
+     ],
      "edhrec": {
       "decks": 10247,
       "potential": 2542355,
@@ -231543,7 +231655,7 @@
    "batch": 35,
    "lines": [
     "- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (2): [Don Andres, the Renegade (Grixis)](../../grixis/decks/don-andres-the-renegade.md) · [Nathan Drake, Treasure Hunter (Grixis)](../../grixis/decks/nathan-drake-treasure-hunter.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7,308 decks; highest synergy [At Knifepoint](../../cards/A/at.md#at-knifepoint) (+82%), [Hellspur Posse Boss](../../cards/H/he.md#hellspur-posse-boss) (+79%), [Vial Smasher, Gleeful Grenadier](../../cards/V/vi.md#vial-smasher-gleeful-grenadier) (+71%) · EDHREC: in 36,419 decks; most often under [Obeka, Splitter of Seconds](../../cards/O/ob.md#obeka-splitter-of-seconds) (28.4% of its decks), [Don Andres, the Renegade](../../cards/D/do.md#don-andres-the-renegade) (69.8% of its decks), [Gev, Scaled Scorch](../../cards/G/ge.md#gev-scaled-scorch) (45.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (3): [Don Andres, the Renegade (Grixis)](../../grixis/decks/don-andres-the-renegade.md) · [Nathan Drake, Treasure Hunter (Grixis)](../../grixis/decks/nathan-drake-treasure-hunter.md) · [The Madcap Jester (Grixis)](../../grixis/decks/the-madcap-jester.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7,308 decks; highest synergy [At Knifepoint](../../cards/A/at.md#at-knifepoint) (+82%), [Hellspur Posse Boss](../../cards/H/he.md#hellspur-posse-boss) (+79%), [Vial Smasher, Gleeful Grenadier](../../cards/V/vi.md#vial-smasher-gleeful-grenadier) (+71%) · EDHREC: in 36,419 decks; most often under [Obeka, Splitter of Seconds](../../cards/O/ob.md#obeka-splitter-of-seconds) (28.4% of its decks), [Don Andres, the Renegade](../../cards/D/do.md#don-andres-the-renegade) (69.8% of its decks), [Gev, Scaled Scorch](../../cards/G/ge.md#gev-scaled-scorch) (45.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -231591,6 +231703,10 @@
       {
        "label": "Nathan Drake, Treasure Hunter (Grixis)",
        "path": "grixis/decks/nathan-drake-treasure-hunter.md"
+      },
+      {
+       "label": "The Madcap Jester (Grixis)",
+       "path": "grixis/decks/the-madcap-jester.md"
       }
      ],
      "edhrec": {
@@ -253636,7 +253752,7 @@
    "batch": 34,
    "lines": [
     "- **Lore:** ✅ Card art shown on [Thank the Gods](https://magic.wizards.com/en/news/magic-story/thank-gods-2014-04-30), [Zendikar's Last Stand](https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (54): [Uro, Titan of Nature's Wrath (Theros-only)](../../decks/plane-theros-uro-titan-of-natures-wrath.md) · [Abaddon the Despoiler (Grixis)](../../grixis/decks/abaddon-the-despoiler.md) · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) · [Admiral Brass, Unsinkable (Grixis)](../../grixis/decks/admiral-brass-unsinkable.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 727,085 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (23.8% of its decks), [Kinnan, Bonder Prodigy](../../cards/K/ki.md#kinnan-bonder-prodigy) (53.9% of its decks), [Kraum, Ludevic's Opus // Tymna the Weaver](../../cards/K/kr.md#kraum-ludevics-opus) (87.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (55): [Uro, Titan of Nature's Wrath (Theros-only)](../../decks/plane-theros-uro-titan-of-natures-wrath.md) · [Abaddon the Despoiler (Grixis)](../../grixis/decks/abaddon-the-despoiler.md) · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) · [Admiral Brass, Unsinkable (Grixis)](../../grixis/decks/admiral-brass-unsinkable.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 727,085 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (23.8% of its decks), [Kinnan, Bonder Prodigy](../../cards/K/ki.md#kinnan-bonder-prodigy) (53.9% of its decks), [Kraum, Ludevic's Opus // Tymna the Weaver](../../cards/K/kr.md#kraum-ludevics-opus) (87.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -253859,6 +253975,10 @@
       {
        "label": "Tetsuo, Imperial Champion (Grixis)",
        "path": "grixis/decks/tetsuo-imperial-champion.md"
+      },
+      {
+       "label": "The Madcap Jester (Grixis)",
+       "path": "grixis/decks/the-madcap-jester.md"
       },
       {
        "label": "The Rani (Grixis)",
@@ -273155,7 +273275,7 @@
    "batch": 35,
    "lines": [
     "- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (1): [Nekusar, the Mindrazer](../../decks/nekusar-the-mindrazer.md) · Commander Spellbook: 100+ combos; most popular [The Locust God + Skullclamp + Ashnod's Altar](https://commanderspellbook.com/combo/228-1339-2034/) (Infinite card draw, Near-infinite colorless mana) · EDHREC as commander: 6,837 decks; highest synergy [Impact Tremors](../../cards/I/im.md#impact-tremors) (+73%), [Skullclamp](../../cards/S/sk.md#skullclamp) (+72%), [Psychosis Crawler](../../cards/P/ps.md#psychosis-crawler) (+53%) · EDHREC: in 87,592 decks; most often under [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (29.7% of its decks), [Atreus, Impulsive Son // Kratos, Stoic Father](../../cards/A/at.md#atreus-impulsive-son) (68.7% of its decks), [Xyris, the Writhing Storm](../../cards/X/xy.md#xyris-the-writhing-storm) (38.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (2): [Nekusar, the Mindrazer](../../decks/nekusar-the-mindrazer.md) · [Tresserhorn's Lord, Returned (Grixis)](../../grixis/decks/tresserhorns-lord-returned.md) · Commander Spellbook: 100+ combos; most popular [The Locust God + Skullclamp + Ashnod's Altar](https://commanderspellbook.com/combo/228-1339-2034/) (Infinite card draw, Near-infinite colorless mana) · EDHREC as commander: 6,837 decks; highest synergy [Impact Tremors](../../cards/I/im.md#impact-tremors) (+73%), [Skullclamp](../../cards/S/sk.md#skullclamp) (+72%), [Psychosis Crawler](../../cards/P/ps.md#psychosis-crawler) (+53%) · EDHREC: in 87,592 decks; most often under [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (29.7% of its decks), [Atreus, Impulsive Son // Kratos, Stoic Father](../../cards/A/at.md#atreus-impulsive-son) (68.7% of its decks), [Xyris, the Writhing Storm](../../cards/X/xy.md#xyris-the-writhing-storm) (38.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -273199,6 +273319,10 @@
       {
        "label": "Nekusar, the Mindrazer",
        "path": "decks/nekusar-the-mindrazer.md"
+      },
+      {
+       "label": "Tresserhorn's Lord, Returned (Grixis)",
+       "path": "grixis/decks/tresserhorns-lord-returned.md"
       }
      ],
      "edhrec": {
@@ -273487,7 +273611,7 @@
    "batch": 35,
    "lines": [
     "- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (8): [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Braids, Arisen Nightmare (Dominaria-only)](../../decks/plane-dominaria-braids-arisen-nightmare.md) · [Teysa Karlov](../../decks/teysa-karlov.md) · [Edea, Possessed Sorceress (Grixis)](../../grixis/decks/edea-possessed-sorceress.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8,482 decks; highest synergy [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) (+56%), [Jadar, Ghoulcaller of Nephalia](../../cards/J/ja.md#jadar-ghoulcaller-of-nephalia) (+49%), [Ophiomancer](../../cards/O/op.md#ophiomancer) (+48%) · EDHREC: in 363,534 decks; most often under [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (77.4% of its decks), [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (64.2% of its decks), [Meren of Clan Nel Toth](../../cards/M/me.md#meren-of-clan-nel-toth) (48.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (9): [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Braids, Arisen Nightmare (Dominaria-only)](../../decks/plane-dominaria-braids-arisen-nightmare.md) · [Teysa Karlov](../../decks/teysa-karlov.md) · [Edea, Possessed Sorceress (Grixis)](../../grixis/decks/edea-possessed-sorceress.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8,482 decks; highest synergy [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) (+56%), [Jadar, Ghoulcaller of Nephalia](../../cards/J/ja.md#jadar-ghoulcaller-of-nephalia) (+49%), [Ophiomancer](../../cards/O/op.md#ophiomancer) (+48%) · EDHREC: in 363,534 decks; most often under [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (77.4% of its decks), [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (64.2% of its decks), [Meren of Clan Nel Toth](../../cards/M/me.md#meren-of-clan-nel-toth) (48.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -273557,6 +273681,10 @@
       {
        "label": "Thraximundar (Grixis)",
        "path": "grixis/decks/thraximundar.md"
+      },
+      {
+       "label": "Tresserhorn's Lord, Returned (Grixis)",
+       "path": "grixis/decks/tresserhorns-lord-returned.md"
       }
      ],
      "edhrec": {
@@ -275210,7 +275338,7 @@
    "batch": 35,
    "lines": [
     "- **Lore:** ✅ Presented with an official backstory on [The Legends of Aetherdrift](https://magic.wizards.com/en/news/feature/the-legends-of-aetherdrift) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (2): [Don Andres, the Renegade (Grixis)](../../grixis/decks/don-andres-the-renegade.md) · [Nathan Drake, Treasure Hunter (Grixis)](../../grixis/decks/nathan-drake-treasure-hunter.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5,688 decks; highest synergy [Changeling Outcast](../../cards/C/cha.md#changeling-outcast) (+76%), [Tormented Soul](../../cards/T/to.md#tormented-soul) (+73%), [Thieving Varmint](../../cards/T/thi.md#thieving-varmint) (+69%) · EDHREC: in 62,780 decks; most often under [Kotis, the Fangkeeper](../../cards/K/ko.md#kotis-the-fangkeeper) (44.8% of its decks), [Gonti, Canny Acquisitor](../../cards/G/gon.md#gonti-canny-acquisitor) (59.7% of its decks), [Laughing Jasper Flint](../../cards/L/la.md#laughing-jasper-flint) (58.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (3): [Don Andres, the Renegade (Grixis)](../../grixis/decks/don-andres-the-renegade.md) · [Nathan Drake, Treasure Hunter (Grixis)](../../grixis/decks/nathan-drake-treasure-hunter.md) · [The Madcap Jester (Grixis)](../../grixis/decks/the-madcap-jester.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5,688 decks; highest synergy [Changeling Outcast](../../cards/C/cha.md#changeling-outcast) (+76%), [Tormented Soul](../../cards/T/to.md#tormented-soul) (+73%), [Thieving Varmint](../../cards/T/thi.md#thieving-varmint) (+69%) · EDHREC: in 62,780 decks; most often under [Kotis, the Fangkeeper](../../cards/K/ko.md#kotis-the-fangkeeper) (44.8% of its decks), [Gonti, Canny Acquisitor](../../cards/G/gon.md#gonti-canny-acquisitor) (59.7% of its decks), [Laughing Jasper Flint](../../cards/L/la.md#laughing-jasper-flint) (58.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -275262,6 +275390,10 @@
       {
        "label": "Nathan Drake, Treasure Hunter (Grixis)",
        "path": "grixis/decks/nathan-drake-treasure-hunter.md"
+      },
+      {
+       "label": "The Madcap Jester (Grixis)",
+       "path": "grixis/decks/the-madcap-jester.md"
       }
      ],
      "edhrec": {
@@ -285765,7 +285897,7 @@
    "batch": 35,
    "lines": [
     "- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (2): [Lord of Tresserhorn (Grixis)](../../grixis/decks/lord-of-tresserhorn.md) · [Thraximundar (Grixis)](../../grixis/decks/thraximundar.md) · Commander Spellbook: 35 combos; most popular [Wilhelt, the Rotcleaver + Poppet Stitcher // Poppet Factory + Carrion Feeder](https://commanderspellbook.com/combo/796-1762-2438/) (Infinite +1/+1 counters on a creature, Infinite death triggers) · EDHREC as commander: 22,728 decks; highest synergy [Diregraf Captain](../../cards/D/di.md#diregraf-captain) (+81%), [Rooftop Storm](../../cards/R/ro.md#rooftop-storm) (+80%), [Diregraf Colossus](../../cards/D/di.md#diregraf-colossus) (+77%) · EDHREC: in 37,792 decks; most often under [Varina, Lich Queen](../../cards/V/va.md#varina-lich-queen) (64.6% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (55.2% of its decks), [Temmet, Naktamun's Will](../../cards/T/te.md#temmet-naktamuns-will) (39.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (3): [Lord of Tresserhorn (Grixis)](../../grixis/decks/lord-of-tresserhorn.md) · [Thraximundar (Grixis)](../../grixis/decks/thraximundar.md) · [Tresserhorn's Lord, Returned (Grixis)](../../grixis/decks/tresserhorns-lord-returned.md) · Commander Spellbook: 35 combos; most popular [Wilhelt, the Rotcleaver + Poppet Stitcher // Poppet Factory + Carrion Feeder](https://commanderspellbook.com/combo/796-1762-2438/) (Infinite +1/+1 counters on a creature, Infinite death triggers) · EDHREC as commander: 22,728 decks; highest synergy [Diregraf Captain](../../cards/D/di.md#diregraf-captain) (+81%), [Rooftop Storm](../../cards/R/ro.md#rooftop-storm) (+80%), [Diregraf Colossus](../../cards/D/di.md#diregraf-colossus) (+77%) · EDHREC: in 37,792 decks; most often under [Varina, Lich Queen](../../cards/V/va.md#varina-lich-queen) (64.6% of its decks), [The Scarab God](../../cards/T/thes.md#the-scarab-god) (55.2% of its decks), [Temmet, Naktamun's Will](../../cards/T/te.md#temmet-naktamuns-will) (39.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -285811,6 +285943,10 @@
       {
        "label": "Thraximundar (Grixis)",
        "path": "grixis/decks/thraximundar.md"
+      },
+      {
+       "label": "Tresserhorn's Lord, Returned (Grixis)",
+       "path": "grixis/decks/tresserhorns-lord-returned.md"
       }
      ],
      "edhrec": {
@@ -288613,7 +288749,7 @@
    "batch": 34,
    "lines": [
     "- **Lore:** ✅ Card art shown on [At Any Cost](https://magic.wizards.com/en/news/magic-story/any-cost-2015-11-25) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 59,952 decks; most often under [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (74.2% of its decks), [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (38.3% of its decks), [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (18.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (1): [The Madcap Jester (Grixis)](../../grixis/decks/the-madcap-jester.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 59,952 decks; most often under [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (74.2% of its decks), [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (38.3% of its decks), [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (18.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -288636,7 +288772,12 @@
      "packages": []
     },
     "proven": {
-     "decks": [],
+     "decks": [
+      {
+       "label": "The Madcap Jester (Grixis)",
+       "path": "grixis/decks/the-madcap-jester.md"
+      }
+     ],
      "edhrec": {
       "decks": 59952,
       "potential": 2542355,
@@ -295849,7 +295990,7 @@
    "batch": 34,
    "lines": [
     "- **Lore:** ✅ Card art shown on [Unwritten](https://magic.wizards.com/en/news/magic-story/unwritten-2015-01-14) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (44): [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Chulane, Teller of Tales](../../decks/chulane-teller-of-tales.md) · [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,178,743 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (42.1% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (34.3% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (29.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (45): [Atraxa, Praetors' Voice](../../decks/atraxa-praetors-voice.md) · [Brago, King Eternal](../../decks/brago-king-eternal.md) · [Chulane, Teller of Tales](../../decks/chulane-teller-of-tales.md) · [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 1,178,743 decks; most often under [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (42.1% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (34.3% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (29.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -296036,6 +296177,10 @@
       {
        "label": "Tetsuo Umezawa (Grixis)",
        "path": "grixis/decks/tetsuo-umezawa.md"
+      },
+      {
+       "label": "The Madcap Jester (Grixis)",
+       "path": "grixis/decks/the-madcap-jester.md"
       },
       {
        "label": "The Rani (Grixis)",
@@ -306067,7 +306212,7 @@
    "batch": 35,
    "lines": [
     "- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)",
-    "- **Synergy:** *Proven* — KB decks (3): [The Gitrog Monster (Innistrad-only)](../../decks/plane-innistrad-the-gitrog-monster.md) · [Anhelo, the Painter (Grixis)](../../grixis/decks/anhelo-the-painter.md) · [Lord of Tresserhorn (Grixis)](../../grixis/decks/lord-of-tresserhorn.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 629 decks; highest synergy [Undead Augur](../../cards/U/un.md#undead-augur) (+57%), [Gravecrawler](../../cards/G/gra.md#gravecrawler) (+48%), [Bastion of Remembrance](../../cards/B/bas.md#bastion-of-remembrance) (+43%) · EDHREC: in 120,128 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (56.3% of its decks), [Dina, Essence Brewer](../../cards/D/di.md#dina-essence-brewer) (53.3% of its decks), [Braids, Arisen Nightmare](../../cards/B/br.md#braids-arisen-nightmare) (60.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+    "- **Synergy:** *Proven* — KB decks (4): [The Gitrog Monster (Innistrad-only)](../../decks/plane-innistrad-the-gitrog-monster.md) · [Anhelo, the Painter (Grixis)](../../grixis/decks/anhelo-the-painter.md) · [Lord of Tresserhorn (Grixis)](../../grixis/decks/lord-of-tresserhorn.md) · [Tresserhorn's Lord, Returned (Grixis)](../../grixis/decks/tresserhorns-lord-returned.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 629 decks; highest synergy [Undead Augur](../../cards/U/un.md#undead-augur) (+57%), [Gravecrawler](../../cards/G/gra.md#gravecrawler) (+48%), [Bastion of Remembrance](../../cards/B/bas.md#bastion-of-remembrance) (+43%) · EDHREC: in 120,128 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (56.3% of its decks), [Dina, Essence Brewer](../../cards/D/di.md#dina-essence-brewer) (53.3% of its decks), [Braids, Arisen Nightmare](../../cards/B/br.md#braids-arisen-nightmare) (60.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
     "art_flavor": null,
@@ -306117,6 +306262,10 @@
       {
        "label": "Lord of Tresserhorn (Grixis)",
        "path": "grixis/decks/lord-of-tresserhorn.md"
+      },
+      {
+       "label": "Tresserhorn's Lord, Returned (Grixis)",
+       "path": "grixis/decks/tresserhorns-lord-returned.md"
       }
      ],
      "edhrec": {

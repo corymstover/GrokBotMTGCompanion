@@ -12,7 +12,7 @@ schema: 2
 # Front-Matter Schema
 
 > **Auto-generated** by `scripts/front_matter.py` (Bot cycle 17, issue [#65](https://github.com/corymstover/GrokBotMTGCompanion/issues/65)) from the `SCHEMA` and `PAGES` tables in the script, so this page cannot drift from what `--check` enforces. Schema version **2**. Do not hand-edit.
-> Coverage: **52** registered pages (README.md and GOAL.md are exempt), **108** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
+> Coverage: **52** registered pages (README.md and GOAL.md are exempt), **110** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
 
 ## Contents
 - [Format](#format)
@@ -64,6 +64,9 @@ Every entry starts with a YAML block between `---` lines. Values are flat: strin
 | `lore_score` | float 0–100 | when applicable | Lore decks only (Bot cycle 23): % of non-basic cards (commander + non-lands + non-basic lands) that are story-linked. |
 | `lore_standard_met` | bool | when applicable | Lore decks only: lore_score ≥ 85 (the Lore-Themed Deckbuilding standard; enforced by `build_lore_decks.py --check`). |
 | `source_repo` | string | when applicable | Grixis decks only: the read-only source repository. |
+| `legality_status` | enum: pending | when applicable | Bot cycle 38: present only on decks published before some cards are Commander-legal (data/grixis_pending.json). validate_all accepts the listed cards only while legal_from is in the future. |
+| `legal_from` | date YYYY-MM-DD | when applicable | Pending decks only: the date Scryfall gives for the not-yet-legal cards' set release. |
+| `pending_cards` | list of card names | when applicable | Pending decks only: the cards that are not Commander-legal yet. |
 | `schema` | int | yes | Front-matter schema version (currently 2). |
 
 ## Card-shard keys
@@ -260,19 +263,19 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `bant` | 2 |
 | `boros` | 2 |
 | `bracket-floor-2` | 12 |
-| `bracket-floor-3` | 31 |
-| `bracket-floor-4` | 65 |
+| `bracket-floor-3` | 32 |
+| `bracket-floor-4` | 66 |
 | `colorless` | 1 |
-| `combos` | 25 |
+| `combos` | 26 |
 | `core` | 32 |
 | `dimir` | 1 |
 | `dune` | 1 |
 | `esper` | 1 |
 | `five-color` | 1 |
-| `game-changers` | 93 |
+| `game-changers` | 95 |
 | `glint` | 1 |
 | `golgari` | 2 |
-| `grixis` | 121 |
+| `grixis` | 125 |
 | `gruul` | 3 |
 | `ink` | 1 |
 | `izzet` | 1 |
@@ -288,6 +291,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `naya` | 1 |
 | `no-game-changers` | 15 |
 | `orzhov` | 1 |
+| `pending-legality` | 2 |
 | `plane` | 10 |
 | `plane-dominaria` | 1 |
 | `plane-eldraine` | 1 |
@@ -309,7 +313,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `theme-lifegain` | 1 |
 | `theme-planeswalkers` | 1 |
 | `theme-self-mill` | 1 |
-| `two-card-infinite` | 51 |
+| `two-card-infinite` | 52 |
 | `witch` | 2 |
 | `yore` | 1 |
 

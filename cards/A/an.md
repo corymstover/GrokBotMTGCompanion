@@ -1440,7 +1440,7 @@ schema: 2
   > *—Vec tomb inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #69 · Game Changer: **yes** · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 55 pages (49 decks · 4 edh guides · 2 card data) → [reverse index](../../references/A.md#ancient-tomb)
+- **Referenced in:** 56 pages (50 decks · 4 edh guides · 2 card data) → [reverse index](../../references/A.md#ancient-tomb)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/236/ancient-tomb) · oracle_id `23467047-6dba-4498-b783-1ebc4f74b8c2` · printing: UMA #236 (2018-12-07) · [rulings](https://api.scryfall.com/cards/bd3d4b4b-cf31-4f89-8140-9650edb03c7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ancient Vendetta

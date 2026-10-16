@@ -1557,7 +1557,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #413 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 11 pages (6 decks · 4 edh guides · 1 card data) → [reverse index](../../references/W.md#warren-soultrader)
+- **Referenced in:** 12 pages (7 decks · 4 edh guides · 1 card data) → [reverse index](../../references/W.md#warren-soultrader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/110/warren-soultrader) · oracle_id `ace86e56-efde-4eb7-8815-71456a4c3abe` · printing: MH3 #110 (2024-06-14) · [rulings](https://api.scryfall.com/cards/b334e4c6-d316-4141-8889-f95afcc04701/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warren Torchmaster

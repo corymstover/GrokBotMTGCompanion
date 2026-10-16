@@ -1023,7 +1023,7 @@ schema: 2
   - *2020-11-10* — If one of the targeted creature cards is an illegal target (for instance, because it has left your graveyard before Victimize resolves), you'll still sacrifice a creature and put the other card onto the battlefield. If both are illegal targets, Victimize won't resolve. You won't sacrifice a creature.
   - *2020-11-10* — The creature you sacrifice isn't chosen until Victimize resolves. You can't return the creature you sacrifice because it will still be on the battlefield at the time targets are chosen.
   - *2020-11-10* — You must choose two targets. You can't cast Victimize targeting only one creature card.
-- **Referenced in:** 15 pages (11 decks · 3 edh guides · 1 card data) → [reverse index](../../references/V.md#victimize)
+- **Referenced in:** 16 pages (12 decks · 3 edh guides · 1 card data) → [reverse index](../../references/V.md#victimize)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/198/victimize) · oracle_id `240e85d3-e495-4877-8609-4b4056c402f7` · printing: TDC #198 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Victim of Night
@@ -1798,7 +1798,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #204 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-02-05* — You must sacrifice exactly one creature to cast this spell; you can't cast it without sacrificing a creature, and you can't sacrifice additional creatures.
-- **Referenced in:** 7 pages (3 decks · 3 edh guides · 1 card data) → [reverse index](../../references/V.md#village-rites)
+- **Referenced in:** 8 pages (4 decks · 3 edh guides · 1 card data) → [reverse index](../../references/V.md#village-rites)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/137/village-rites) · oracle_id `365548fb-5acc-4a8a-b20b-26d28b7d029f` · printing: INR #137 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Villagers of Estwald // Howlpack of Estwald
@@ -3253,7 +3253,7 @@ schema: 2
 - **Rulings** (2):
   - *2010-08-15* — If you sacrifice an attacking or blocking creature during the declare blockers step, it won't deal combat damage. If you wait until the combat damage step, but that creature is dealt lethal damage, it'll be destroyed before you get a chance to sacrifice it.
   - *2010-08-15* — You can sacrifice Viscera Seer to activate its own ability.
-- **Referenced in:** 18 pages (10 decks · 5 edh guides · 2 rules · 1 card data) → [reverse index](../../references/V.md#viscera-seer)
+- **Referenced in:** 19 pages (11 decks · 5 edh guides · 2 rules · 1 card data) → [reverse index](../../references/V.md#viscera-seer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/229/viscera-seer) · oracle_id `f82a4e85-526d-4456-b700-7760043a31be` · printing: SOC #229 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Viscerid Armor

@@ -259,6 +259,11 @@
     "cards": 7
    },
    {
+    "deck": "grixis/decks/the-madcap-jester.md",
+    "label": "The Madcap Jester (Grixis)",
+    "cards": 7
+   },
+   {
     "deck": "decks/niv-mizzet-parun.md",
     "label": "Niv-Mizzet, Parun",
     "cards": 6
@@ -316,6 +321,11 @@
    {
     "deck": "grixis/decks/sauron-the-dark-lord.md",
     "label": "Sauron, the Dark Lord (Grixis)",
+    "cards": 6
+   },
+   {
+    "deck": "grixis/decks/tresserhorns-lord-returned.md",
+    "label": "Tresserhorn's Lord, Returned (Grixis)",
     "cards": 6
    },
    {
@@ -955,6 +965,11 @@
     "deck": "grixis/decks/sedris-the-traitor-king.md",
     "label": "Sedris, the Traitor King (Grixis)",
     "cards": 3
+   },
+   {
+    "deck": "grixis/decks/tresserhorns-lord-returned.md",
+    "label": "Tresserhorn's Lord, Returned (Grixis)",
+    "cards": 3
    }
   ],
   "Card advantage: Burst draw (instants & sorceries)": [
@@ -1056,6 +1071,11 @@
     "cards": 6
    },
    {
+    "deck": "grixis/decks/the-madcap-jester.md",
+    "label": "The Madcap Jester (Grixis)",
+    "cards": 6
+   },
+   {
     "deck": "grixis/decks/abaddon-the-despoiler.md",
     "label": "Abaddon the Despoiler (Grixis)",
     "cards": 5
@@ -1113,6 +1133,11 @@
     "cards": 6
    },
    {
+    "deck": "grixis/decks/tresserhorns-lord-returned.md",
+    "label": "Tresserhorn's Lord, Returned (Grixis)",
+    "cards": 6
+   },
+   {
     "deck": "grixis/decks/wick-the-whorled-mind.md",
     "label": "Wick, the Whorled Mind (Grixis)",
     "cards": 6
@@ -1160,6 +1185,11 @@
     "deck": "decks/krenko-mob-boss.md",
     "label": "Krenko, Mob Boss",
     "cards": 9
+   },
+   {
+    "deck": "grixis/decks/tresserhorns-lord-returned.md",
+    "label": "Tresserhorn's Lord, Returned (Grixis)",
+    "cards": 6
    },
    {
     "deck": "grixis/decks/wick-the-whorled-mind.md",
@@ -1686,6 +1716,11 @@
    {
     "deck": "grixis/decks/thraximundar.md",
     "label": "Thraximundar (Grixis)",
+    "cards": 3
+   },
+   {
+    "deck": "grixis/decks/tresserhorns-lord-returned.md",
+    "label": "Tresserhorn's Lord, Returned (Grixis)",
     "cards": 3
    }
   ]

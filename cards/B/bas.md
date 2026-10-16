@@ -700,7 +700,7 @@ schema: 2
   - *2020-04-17* — If one or more creatures you control die at the same time that Bastion of Remembrance leaves the battlefield, its last ability triggers for each of those creatures.
   - *2020-04-17* — If your life total is brought to 0 or less at the same time that creatures you control are dealt lethal damage, you lose the game before the last ability goes on the stack.
   - *2020-04-17* — In a Two-Headed Giant game, Bastion of Remembrance's last ability causes the opposing team to lose 2 life and you to gain 1 life.
-- **Referenced in:** 8 pages (1 decks · 5 edh guides · 2 card data) → [reverse index](../../references/B.md#bastion-of-remembrance)
+- **Referenced in:** 9 pages (2 decks · 5 edh guides · 2 card data) → [reverse index](../../references/B.md#bastion-of-remembrance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/160/bastion-of-remembrance) · oracle_id `c7f33cea-2ec8-4081-9208-a5b1d86721b3` · printing: TLE #160 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bastion Protector

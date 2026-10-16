@@ -1273,7 +1273,7 @@ schema: 2
   - *2022-12-08* — Activating the ability creates a replacement effect that acts like a shield, replacing the next time Nightscape Familiar would be destroyed that turn. This shield works against effects that try to destroy Nightscape Familiar or lethal damage that would be dealt to Nightscape Familiar.
   - *2022-12-08* — Nightscape Familiar can regenerate even if it isn’t in combat, it’s already tapped, or it’s undamaged.
   - *2022-12-08* — You can activate the regeneration ability even if Nightscape Familiar isn’t at risk of being destroyed.
-- **Referenced in:** 10 pages (6 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/N.md#nightscape-familiar)
+- **Referenced in:** 11 pages (7 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/N.md#nightscape-familiar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/94/nightscape-familiar) · oracle_id `57296ea3-3c0d-49b7-bc08-0d0d8414e9ad` · printing: DMR #94 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nightscape Master

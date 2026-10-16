@@ -499,7 +499,7 @@ schema: 2
   - *2013-10-17* — If the ability does trigger, but you control a Snake when it tries to resolve, the ability will do nothing. No Snake token will be created.
   - *2013-10-17* — Ophiomancer's ability checks if you control a Snake at the beginning of each upkeep. If you do, the ability won't trigger.
   - *2013-10-17* — Ophiomancer's ability considers any creature you control with the creature type Snake, not just the tokens Ophiomancer creates.
-- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/O.md#ophiomancer)
+- **Referenced in:** 5 pages (3 decks · 2 card data) → [reverse index](../../references/O.md#ophiomancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/118/ophiomancer) · oracle_id `55eca80c-dcd8-4c2f-aa0f-fb0aec7b80f7` · printing: SOC #118 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opportunist

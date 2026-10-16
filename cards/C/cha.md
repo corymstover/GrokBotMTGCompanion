@@ -1990,7 +1990,7 @@ schema: 2
   - *2015-06-22* — If the creature becomes an illegal target by the time Chandra's Ignition tries to resolve (perhaps because another player controls it or it's left the battlefield), Chandra's Ignition won't resolve and none of its effects will happen. No damage will be dealt.
   - *2015-06-22* — The creature is the source of the damage, not Chandra's Ignition. For example, Chandra's Ignition can have a white creature deal damage to a creature with protection from red.
   - *2015-06-22* — Use the power of the target creature as Chandra's Ignition resolves to determine how much damage it deals to each other creature and each opponent.
-- **Referenced in:** 10 pages (7 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/C.md#chandras-ignition)
+- **Referenced in:** 11 pages (8 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/C.md#chandras-ignition)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/220/chandras-ignition) · oracle_id `f61680da-606e-4d16-b0a0-361aa5210901` · printing: LCC #220 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chandra's Incinerator
@@ -2809,7 +2809,7 @@ schema: 2
   - *2011-09-22* — If the revealed card is a permanent card but can't enter (perhaps because it's an Aura with nothing to enchant), it remains on top of that library.
   - *2011-09-22* — If the revealed card is not a permanent card, it remains on top of that library.
   - *2011-09-22* — The owner of a token is the player under whose control the token was put onto the battlefield. If a token is shuffled into a player's library this way, that player shuffles before revealing the top card of that library.
-- **Referenced in:** 49 pages (45 decks · 2 edh guides · 2 card data) → [reverse index](../../references/C.md#chaos-warp)
+- **Referenced in:** 50 pages (46 decks · 2 edh guides · 2 card data) → [reverse index](../../references/C.md#chaos-warp)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/72/chaos-warp) · oracle_id `07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8` · printing: MBC #72 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chaos Wrap
@@ -3809,7 +3809,7 @@ schema: 2
 - **Rulings** (2):
   - *2014-07-18* — If enough -1/-1 counters are put on Chasm Skulker at the same time to make its toughness 0 or less, the number of +1/+1 counters on it before it got any -1/-1 counters will be used to determine how many Squid tokens you get. For example, if there are two +1/+1 counters on Chasm Skulker and it gets three -1/-1 counters, you'll get two Squid tokens.
   - *2014-07-18* — If you draw multiple cards, the first ability will trigger that many times. Each of these abilities will cause a +1/+1 counter to be put on Chasm Skulker.
-- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/C.md#chasm-skulker)
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 2 card data) → [reverse index](../../references/C.md#chasm-skulker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/218/chasm-skulker) · oracle_id `69facbc7-3859-4716-b627-5199571fb3cf` · printing: MOC #218 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chastise

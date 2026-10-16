@@ -785,8 +785,8 @@ schema: 2
   - *2013-09-15* — If you put a creature card with bestow onto the battlefield, it will be a creature on the battlefield, not an Aura.
   - *2013-09-15* — If you put a creature card with {X} in its mana cost onto the battlefield, the value of that X is 0.
 - **Lore:** Depicts: [Character → Ashiok](../../Characters%20Index.md#ashiok) — name match confirmed: card art captioned on Dreams of the City ([source](https://magic.wizards.com/en/news/magic-story/dreams-city-2014-04-23)) · [Dossier → Ashiok](../../Planeswalker%20Dossiers.md#ashiok) — name match confirmed: card art captioned on Dreams of the City ([source](https://magic.wizards.com/en/news/magic-story/dreams-city-2014-04-23)) — ✅ Card art shown on [official story page](https://magic.wizards.com/en/news/feature/building-toward-dream-part-2-2013-12-03), [official story page](https://magic.wizards.com/en/news/feature/building-toward-dream-part-2-2013-12-04), [official story page](https://magic.wizards.com/en/news/feature/dreams-city-2014-04-23-0) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,247 decks; most often under [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (30.7% of its decks), [Tasha, the Witch Queen](../../cards/T/ta.md#tasha-the-witch-queen) (11.2% of its decks), [Phenax, God of Deception](../../cards/P/ph.md#phenax-god-of-deception) (4.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/A.md#ashiok-nightmare-weaver)
+- **Synergy:** *Proven* — KB decks (1): [The Madcap Jester (Grixis)](../../grixis/decks/the-madcap-jester.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 10,247 decks; most often under [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (30.7% of its decks), [Tasha, the Witch Queen](../../cards/T/ta.md#tasha-the-witch-queen) (11.2% of its decks), [Phenax, God of Deception](../../cards/P/ph.md#phenax-god-of-deception) (4.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 2 lore & story) → [reverse index](../../references/A.md#ashiok-nightmare-weaver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/188/ashiok-nightmare-weaver) · oracle_id `b6f52260-9ad5-4024-acf9-d77f3c08c872` · printing: THS #188 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashiok's Adept
@@ -1091,7 +1091,7 @@ schema: 2
   > *—Ashnod, to Tawnos*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #134 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 21 pages (13 decks · 7 edh guides · 1 card data) → [reverse index](../../references/A.md#ashnods-altar)
+- **Referenced in:** 22 pages (14 decks · 7 edh guides · 1 card data) → [reverse index](../../references/A.md#ashnods-altar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/368/ashnods-altar) · oracle_id `4d18bcba-a346-445e-a182-6cc30b7e066d` · printing: CMM #368 (2023-08-04) · [rulings](https://api.scryfall.com/cards/3c0f7157-a375-499c-92c7-d47d2e95dbad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ashnod's Battle Gear

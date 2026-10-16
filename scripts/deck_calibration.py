@@ -286,12 +286,14 @@ def summary_page(all_a):
          f"- **{len(all_a)} decks**: floor Bracket 2: **{by_floor[2]}** · Bracket 3: **{by_floor[3]}** · Bracket 4: **{by_floor[4]}**.",
          f"- Set by Game Changers (> 3): {sum(1 for a in all_a if len(a['gcs']) > 3)} · mass land denial: {sum(1 for a in all_a if a['mld'])} · two-card infinites: {sum(1 for a in all_a if a['two'])} decks ({sum(len(a['two']) for a in all_a)} combos).",
          f"- Decks with extra-turn cards: {sum(1 for a in all_a if a['extra_turns'])} · median tutors per deck: {sorted(len(a['roles']['tutor']) for a in all_a)[len(all_a) // 2]}.",
+         f"- Pending legality (Bot cycle 38): {sum(1 for a in all_a if 'legality_status: pending' in (ROOT / a['path']).read_text(encoding='utf-8'))} deck(s), calibrated here but not Commander-legal yet (marked ⏳).",
          f"- Grixis source targets: {sum(1 for a in all_a if a['target'])} stated; {sum(1 for a in all_a if a['target'] and a['target'] < a['floor'])} below the floor.", "",
          "## All decks", "", "| Deck | Kind | Identity | Floor | GC | 2-card ∞ | MLD | Extra turns | Tutors | Lands | Avg MV | Stated target | EDHREC mode |", "|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
     for a in sorted(all_a, key=lambda a: (-a["floor"], a["kind"], a["title"])):
         name = a["title"].replace("Deck Skeleton — ", "").replace("Grixis Deck — ", "")
         mode = max(a["edhrec"], key=a["edhrec"].get) if a["edhrec"] else "—"
-        L.append(f"| [{name}]({a['path'].replace(' ', '%20')}#bracket-calibration--pilot-notes) | {a['kind']} | {a['identity']} | **{a['floor']}** | {len(a['gcs'])} | {len(a['two'])} | {len(a['mld'])} | {len(a['extra_turns'])} | {len(a['roles']['tutor'])} | {a['lands']} | {a['avg_mv']} | {a['target'] or '—'} | {mode} |")
+        pend = "legality_status: pending" in (ROOT / a["path"]).read_text(encoding="utf-8")  # Bot cycle 38
+        L.append(f"| [{name}]({a['path'].replace(' ', '%20')}#bracket-calibration--pilot-notes){' ⏳ *pending legality*' if pend else ''} | {a['kind']} | {a['identity']} | **{a['floor']}** | {len(a['gcs'])} | {len(a['two'])} | {len(a['mld'])} | {len(a['extra_turns'])} | {len(a['roles']['tutor'])} | {a['lands']} | {a['avg_mv']} | {a['target'] or '—'} | {mode} |")
     below = [a for a in all_a if a["target"] and a["target"] < a["floor"]]
     L += ["", "## Targets below the floor", ""]
     L += [f"- [{a['title']}]({a['path'].replace(' ', '%20')}#bracket-calibration--pilot-notes): target {a['target']}, floor {a['floor']}" for a in below] or ["None: every stated target is at or above the deck's floor."]

@@ -392,7 +392,7 @@ schema: 2
   - *2004-10-04* — You must name a card that actually exists in the game of Magic.
   - *2008-10-01* — If you don't reveal the named card (perhaps because it was in the top six cards of your library), you'll end up exiling your entire library. You don't lose the game at that point, but will lose the next time you're instructed to draw a card.
   - *2008-10-01* — You don't name a card until Demonic Consultation resolves.
-- **Referenced in:** 14 pages (9 decks · 3 edh guides · 2 card data) → [reverse index](../../references/D.md#demonic-consultation)
+- **Referenced in:** 15 pages (10 decks · 3 edh guides · 2 card data) → [reverse index](../../references/D.md#demonic-consultation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/85/demonic-consultation) · oracle_id `9a1412db-45ad-46ea-8f12-a85d203113d8` · printing: ME2 #85 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Counsel
@@ -637,7 +637,7 @@ schema: 2
   - *2004-10-04* — This card is put directly into your hand. It is not drawn.
   - *2004-10-04* — You don't reveal the card to your opponent.
   - *2004-10-04* — You pick a card on resolution.
-- **Referenced in:** 69 pages (62 decks · 5 edh guides · 2 card data) → [reverse index](../../references/D.md#demonic-tutor)
+- **Referenced in:** 71 pages (64 decks · 5 edh guides · 2 card data) → [reverse index](../../references/D.md#demonic-tutor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/150/demonic-tutor) · oracle_id `82004860-e589-4e38-8d61-8c0210e4ea39` · printing: CMM #150 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Vigor

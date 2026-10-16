@@ -1220,6 +1220,7 @@ schema: 2
 - **Keywords:** Indestructible, Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #26681 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#tresserhorns-lord-returned)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/52/tresserhorns-lord-returned) · oracle_id `11cc638c-b1c5-4b73-8eac-00cac6ae32b6` · printing: MBC #52 (2026-10-19) · [rulings](https://api.scryfall.com/cards/d58e9893-c05d-4ab0-93b8-b2754ed24e5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trestle Troll

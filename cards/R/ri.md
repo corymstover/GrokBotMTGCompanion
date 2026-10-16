@@ -3212,7 +3212,7 @@ schema: 2
   > *Deep beneath the ice, beneath the soil and the rock, Dominaria's fire still burned hot.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #646 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 15 pages (11 decks · 2 edh guides · 2 card data) → [reverse index](../../references/R.md#rite-of-flame)
+- **Referenced in:** 16 pages (12 decks · 2 edh guides · 2 card data) → [reverse index](../../references/R.md#rite-of-flame)
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/96/rite-of-flame) · oracle_id `8a2e53f9-8100-488f-8504-b59e9bd1cc29` · printing: CSP #96 (2006-07-21) · [rulings](https://api.scryfall.com/cards/c062caf7-f0eb-44db-9f74-e6711a13fada/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rite of Harmony

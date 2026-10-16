@@ -104,7 +104,7 @@ Every enriched card, by type and batch. The full per-card record is `data/card_e
 | flavor text on an official page | 21 |
 | curated note | 28 |
 | 🚫 Universes Beyond | 345 |
-| in a KB deck | 738 |
+| in a KB deck | 743 |
 | Spellbook combo | 1,380 |
 | EDHREC data | 3,372 |
 | EDHREC as commander | 1,865 |

@@ -60,7 +60,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #248 · Game Changer: **yes** · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2008-05-01* — If you don't discard a land card, Mox Diamond never enters. It won't trigger abilities that look for something entering, and you won't get the opportunity to tap it for mana.
-- **Referenced in:** 26 pages (20 decks · 4 edh guides · 2 card data) → [reverse index](../../references/M.md#mox-diamond)
+- **Referenced in:** 27 pages (21 decks · 4 edh guides · 2 card data) → [reverse index](../../references/M.md#mox-diamond)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/228/mox-diamond) · oracle_id `f3c5978a-70fa-431f-933b-b954bd0db0ea` · printing: TPR #228 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mox Emerald
@@ -138,7 +138,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #243 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-08-07* — If you control Mox Opal and one other artifact, then have a second Mox Opal enter the battlefield as your third artifact, you can't activate either one's mana ability before putting one into your graveyard due to the “legend rule.”
-- **Referenced in:** 25 pages (21 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/M.md#mox-opal)
+- **Referenced in:** 26 pages (22 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/M.md#mox-opal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/275/mox-opal) · oracle_id `de2440de-e948-4811-903c-0bbe376ff64d` · printing: 2XM #275 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mox Pearl

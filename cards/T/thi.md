@@ -392,7 +392,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4429 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-04-12* — You may spend the two mana added by the last ability on the same spell you don’t own or on two different spells you don’t own.
-- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/T.md#thieving-varmint)
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/T.md#thieving-varmint)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/23/thieving-varmint) · oracle_id `b9f3cf9f-24c7-43ed-9ba1-f4570df3d09e` · printing: OTC #23 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thijarian Witness

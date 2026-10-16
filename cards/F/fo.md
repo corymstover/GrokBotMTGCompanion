@@ -1567,7 +1567,7 @@ schema: 2
   > *"Try, if you must."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #272 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 21 pages (15 decks · 5 edh guides · 1 card data) → [reverse index](../../references/F.md#force-of-negation)
+- **Referenced in:** 22 pages (16 decks · 5 edh guides · 1 card data) → [reverse index](../../references/F.md#force-of-negation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/50/force-of-negation) · oracle_id `ac2173f9-f223-440a-9231-fd98762bdc6f` · printing: 2X2 #50 (2022-07-08) · [rulings](https://api.scryfall.com/cards/1825a719-1b2a-4af9-9cd2-7cb497cd0317/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Force of Rage
@@ -1651,7 +1651,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #202 · Game Changer: **yes** · Can be commander: No
 - **Rulings** (1):
   - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as the alternative cost of Force of Will), add any cost increases, then apply any cost reductions. Force of Will's mana value is always 5, no matter what you paid to cast it.
-- **Referenced in:** 42 pages (34 decks · 6 edh guides · 2 card data) → [reverse index](../../references/F.md#force-of-will)
+- **Referenced in:** 43 pages (35 decks · 6 edh guides · 2 card data) → [reverse index](../../references/F.md#force-of-will)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/50/force-of-will) · oracle_id `956381ba-6d37-4a8a-846c-bad79222dbee` · printing: DMR #50 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Force Spike

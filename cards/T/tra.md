@@ -727,7 +727,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — Count the number of opponents you currently have, not how many you started with. If your four-player game is down to you and a single opponent, the land enters the battlefield tapped.
   - *2020-11-10* — If an effect puts the land onto the battlefield tapped, having two or more opponents won't untap it.
-- **Referenced in:** 57 pages (52 decks · 4 edh guides · 1 card data) → [reverse index](../../references/T.md#training-center)
+- **Referenced in:** 59 pages (54 decks · 4 edh guides · 1 card data) → [reverse index](../../references/T.md#training-center)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/434/training-center) · oracle_id `e3570ac7-c593-40e3-bbd6-ec3da6d8158d` · printing: CMM #434 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Training Compound

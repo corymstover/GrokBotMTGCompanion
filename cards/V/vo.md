@@ -1361,7 +1361,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
   - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
-- **Referenced in:** 64 pages (59 decks · 4 edh guides · 1 card data) → [reverse index](../../references/V.md#volcanic-island)
+- **Referenced in:** 66 pages (61 decks · 4 edh guides · 1 card data) → [reverse index](../../references/V.md#volcanic-island)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/324/volcanic-island) · oracle_id `c718911c-c955-4eb9-9e16-be4bd49a4e4e` · printing: VMA #324 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Volcanic Offering

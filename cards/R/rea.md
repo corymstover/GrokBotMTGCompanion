@@ -649,7 +649,7 @@ schema: 2
   - *2025-09-19* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, the creature you control from Reanimate is exiled.
   - *2025-09-19* — The amount of life you lose is determined by the mana value of the card in your graveyard, not the creature once it's on the battlefield.
   - *2025-09-19* — You lose life after the creature is already on the battlefield. Any abilities it has that interact with loss of life, such as that of Platinum Emperion, apply to that loss of life.
-- **Referenced in:** 33 pages (26 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/R.md#reanimate)
+- **Referenced in:** 34 pages (27 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/R.md#reanimate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/155/reanimate) · oracle_id `a044474a-cd72-4e9d-bd8d-a08f2de9cdc0` · printing: DSC #155 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reap

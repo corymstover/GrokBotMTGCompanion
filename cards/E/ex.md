@@ -1036,7 +1036,7 @@ schema: 2
   - *2009-02-01* — Lands that produce mana based only on what other lands "could produce" won't help each other unless some other land allows one of them to actually produce some type of mana. For example, if you control an Exotic Orchard and your opponent controls an Exotic Orchard and a Reflecting Pool, none of those lands would produce mana if their mana abilities were activated. On the other hand, if you control a Forest and an Exotic Orchard, and your opponent controls an Exotic Orchard and a Reflecting Pool, then each of those lands can be tapped to produce {G}. Your opponent's Exotic Orchard can produce {G} because you control a Forest. Your Exotic Orchard and your opponent's Reflecting Pool can each produce {G} because your opponent's Exotic Orchard can produce {G}.
   - *2009-02-01* — The colors of mana are white, blue, black, red, and green. Exotic Orchard can't be tapped for colorless mana, even if a land an opponent controls could produce colorless mana.
   - *2009-02-01* — When determining what colors of mana your opponents' lands could produce, Exotic Orchard takes into account any applicable replacement effects that would apply to those lands' mana abilities (such as Contamination's effect, for example). If there are more than one, consider them in any possible order.
-- **Referenced in:** 72 pages (66 decks · 3 edh guides · 1 rules · 2 card data) → [reverse index](../../references/E.md#exotic-orchard)
+- **Referenced in:** 74 pages (68 decks · 3 edh guides · 1 rules · 2 card data) → [reverse index](../../references/E.md#exotic-orchard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/79/exotic-orchard) · oracle_id `27b047e3-0d41-45e2-98e9-9391d7923a1e` · printing: MBC #79 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Exotic Pets
@@ -2453,6 +2453,7 @@ schema: 2
   > *To say Nixar had a splitting headache would be a bit of an understatement.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16018 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/E.md#extract)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/85/extract) · oracle_id `36e937a9-e15e-4404-bcdd-c2b0943a34ad` · printing: ODY #85 (2001-10-01) · [rulings](https://api.scryfall.com/cards/97f99a3d-d811-4666-aac8-5957068157dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Extract a Confession

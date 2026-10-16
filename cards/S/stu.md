@@ -82,7 +82,7 @@ schema: 2
 - **Rulings** (2):
   - *2014-09-20* — Ferocious abilities of instants and sorceries that don’t use the word “instead” will provide an additional effect if you control a creature with power 4 or greater as they resolve.
   - *2014-09-20* — Some ferocious abilities that appear on instants and sorceries use the word “instead.” These spells have an upgraded effect if you control a creature with power 4 or greater as they resolve. For these, you only get the upgraded effect, not both effects.
-- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#stubborn-denial)
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/S.md#stubborn-denial)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/56/stubborn-denial) · oracle_id `3adc3af3-5086-4d61-b38c-c1dddeaeebe6` · printing: KTK #56 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stuck in Summoner's Sanctum

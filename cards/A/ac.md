@@ -567,7 +567,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-06-07* — As Accursed Marauder's enters-the-battlefield ability resolves, first the player whose turn it is chooses which creature they'll sacrifice, then each other player in turn order does the same. Players will know the choices of previous players when making their choice. Then all of the chosen creatures are sacrificed by their controllers simultaneously.
   - *2024-06-07* — You may sacrifice Accursed Marauder to its own ability. If it is the only creature you control when that ability resolves, you must sacrifice it.
-- **Referenced in:** 6 pages (5 decks · 1 card data) → [reverse index](../../references/A.md#accursed-marauder)
+- **Referenced in:** 7 pages (6 decks · 1 card data) → [reverse index](../../references/A.md#accursed-marauder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/80/accursed-marauder) · oracle_id `d8ad23a1-0b43-48ea-9fbe-d89b29194509` · printing: MH3 #80 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Accursed Spirit

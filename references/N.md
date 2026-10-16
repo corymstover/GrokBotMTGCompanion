@@ -137,9 +137,9 @@ schema: 2
 
 ### Nalfeshnee
 
-[Card entry](../cards/N/na.md#nalfeshnee) · **3 pages** (decks 3)
+[Card entry](../cards/N/na.md#nalfeshnee) · **4 pages** (decks 4)
 
-- **Decks (3):** [Abaddon the Despoiler (Grixis)](../grixis/decks/abaddon-the-despoiler.md) · [Nathan Drake, Treasure Hunter (Grixis)](../grixis/decks/nathan-drake-treasure-hunter.md) · [Yidris, Maelstrom Wielder](../decks/yidris-maelstrom-wielder.md)
+- **Decks (4):** [Abaddon the Despoiler (Grixis)](../grixis/decks/abaddon-the-despoiler.md) · [Nathan Drake, Treasure Hunter (Grixis)](../grixis/decks/nathan-drake-treasure-hunter.md) · [The Madcap Jester (Grixis)](../grixis/decks/the-madcap-jester.md) · [Yidris, Maelstrom Wielder](../decks/yidris-maelstrom-wielder.md)
 
 ### "Name Sticker" Goblin
 
@@ -454,9 +454,9 @@ schema: 2
 
 ### Necropotence
 
-[Card entry](../cards/N/ne.md#necropotence) · **16 pages** (decks 12 · edh guides 2 · card data 2)
+[Card entry](../cards/N/ne.md#necropotence) · **17 pages** (decks 13 · edh guides 2 · card data 2)
 
-- **Decks (12):** [Cormela, Glamour Thief (Grixis)](../grixis/decks/cormela-glamour-thief.md) · [Evelyn, the Covetous (Grixis)](../grixis/decks/evelyn-the-covetous.md) · [Fire Lord Azula (Grixis)](../grixis/decks/fire-lord-azula.md) · [Inalla, Archmage Ritualist (Grixis)](../grixis/decks/inalla-archmage-ritualist.md) · [Jeleva, Nephalia's Scourge (Grixis)](../grixis/decks/jeleva-nephalias-scourge.md) · [K'rrik, Son of Yawgmoth](../decks/krrik-son-of-yawgmoth.md) · [Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)](../grixis/decks/kefka-court-mage.md) · [Kess, Dissident Mage (Grixis)](../grixis/decks/kess-dissident-mage.md) · [Kraum, Ludevic's Opus (Grixis)](../grixis/decks/grixistax-october-2026.md) · [Marchesa, Dealer of Death (Grixis)](../grixis/decks/marchesa-dealer-of-death.md) · [Rograkh, Son of Rohgahh (Grixis)](../grixis/decks/rograkh-son-of-rohgahh-silas-renn.md) · [Zur the Enchanter](../decks/zur-the-enchanter.md)
+- **Decks (13):** [Cormela, Glamour Thief (Grixis)](../grixis/decks/cormela-glamour-thief.md) · [Evelyn, the Covetous (Grixis)](../grixis/decks/evelyn-the-covetous.md) · [Fire Lord Azula (Grixis)](../grixis/decks/fire-lord-azula.md) · [Inalla, Archmage Ritualist (Grixis)](../grixis/decks/inalla-archmage-ritualist.md) · [Jeleva, Nephalia's Scourge (Grixis)](../grixis/decks/jeleva-nephalias-scourge.md) · [K'rrik, Son of Yawgmoth](../decks/krrik-son-of-yawgmoth.md) · [Kefka, Court Mage // Kefka, Ruler of Ruin (Grixis)](../grixis/decks/kefka-court-mage.md) · [Kess, Dissident Mage (Grixis)](../grixis/decks/kess-dissident-mage.md) · [Kraum, Ludevic's Opus (Grixis)](../grixis/decks/grixistax-october-2026.md) · [Marchesa, Dealer of Death (Grixis)](../grixis/decks/marchesa-dealer-of-death.md) · [Rograkh, Son of Rohgahh (Grixis)](../grixis/decks/rograkh-son-of-rohgahh-silas-renn.md) · [The Madcap Jester (Grixis)](../grixis/decks/the-madcap-jester.md) · [Zur the Enchanter](../decks/zur-the-enchanter.md)
 - **EDH guides (2):** [EDH Standards → Game Changers](../EDH%20Standards.md#game-changers) (+1 more) · [Grixis Packages → Draw](../grixis/Grixis%20Packages.md#draw)
 - **Card data (2):** [Artist Index → Artists A](../Artist%20Index.md#artists-a) (+2 more) · [Format Legality Matrix → legacy](../Format%20Legality%20Matrix.md#legacy) (+5 more)
 
@@ -751,9 +751,9 @@ schema: 2
 
 ### Nightscape Familiar
 
-[Card entry](../cards/N/ni.md#nightscape-familiar) · **10 pages** (decks 6 · edh guides 2 · rules 1 · card data 1)
+[Card entry](../cards/N/ni.md#nightscape-familiar) · **11 pages** (decks 7 · edh guides 2 · rules 1 · card data 1)
 
-- **Decks (6):** [Abaddon the Despoiler (Grixis)](../grixis/decks/abaddon-the-despoiler.md) · [Lord of Tresserhorn (Grixis)](../grixis/decks/lord-of-tresserhorn.md) · [Lynde, Cheerful Tormentor (Grixis)](../grixis/decks/lynde-cheerful-tormentor.md) · [Nekusar, the Mindrazer](../decks/nekusar-the-mindrazer.md) · [Nicol Bolas (Grixis)](../grixis/decks/nicol-bolas.md) · [Parnesse, the Subtle Brush (Grixis)](../grixis/decks/parnesse-the-subtle-brush.md)
+- **Decks (7):** [Abaddon the Despoiler (Grixis)](../grixis/decks/abaddon-the-despoiler.md) · [Lord of Tresserhorn (Grixis)](../grixis/decks/lord-of-tresserhorn.md) · [Lynde, Cheerful Tormentor (Grixis)](../grixis/decks/lynde-cheerful-tormentor.md) · [Nekusar, the Mindrazer](../decks/nekusar-the-mindrazer.md) · [Nicol Bolas (Grixis)](../grixis/decks/nicol-bolas.md) · [Parnesse, the Subtle Brush (Grixis)](../grixis/decks/parnesse-the-subtle-brush.md) · [Tresserhorn's Lord, Returned (Grixis)](../grixis/decks/tresserhorns-lord-returned.md)
 - **EDH guides (2):** [EDH Packages → Ramp: Cost reducers](../EDH%20Packages.md#ramp-cost-reducers) · [Grixis Packages → Ramp](../grixis/Grixis%20Packages.md#ramp)
 - **Rules (1):** [Keyword Encyclopedia → Regenerate](../Keyword%20Encyclopedia.md#regenerate)
 - **Card data (1):** [Artist Index → Artists G](../Artist%20Index.md#artists-g)
@@ -1187,9 +1187,9 @@ schema: 2
 
 ### Not of This World
 
-[Card entry](../cards/N/no.md#not-of-this-world) · **2 pages** (decks 2)
+[Card entry](../cards/N/no.md#not-of-this-world) · **3 pages** (decks 3)
 
-- **Decks (2):** [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md) · [Lord of Tresserhorn (Grixis)](../grixis/decks/lord-of-tresserhorn.md)
+- **Decks (3):** [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md) · [Lord of Tresserhorn (Grixis)](../grixis/decks/lord-of-tresserhorn.md) · [Tresserhorn's Lord, Returned (Grixis)](../grixis/decks/tresserhorns-lord-returned.md)
 
 ### Not on My Watch
 

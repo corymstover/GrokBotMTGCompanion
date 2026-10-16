@@ -317,7 +317,7 @@ schema: 2
   - *2018-12-07* — You must choose an existing creature type, such as Human or Warrior. Card types such as artifact can't be chosen.
   - *2023-11-10* — The spell can't be countered if the mana produced by Cavern of Souls is spent to cover any cost of the spell, even an additional cost such as a kicker cost. This is true even if you use the mana to pay an additional cost while casting a spell "without paying its mana cost."
   - *2023-11-10* — You must choose an existing creature type, such as Human or Warrior. Card types such as artifact can't be chosen.
-- **Referenced in:** 26 pages (21 decks · 3 edh guides · 2 card data) → [reverse index](../../references/C.md#cavern-of-souls)
+- **Referenced in:** 27 pages (22 decks · 3 edh guides · 2 card data) → [reverse index](../../references/C.md#cavern-of-souls)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/269/cavern-of-souls) · oracle_id `89ca686a-7c72-4d8f-9290-e89635624a83` · printing: LCI #269 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cavernous Maw

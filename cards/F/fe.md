@@ -1325,7 +1325,7 @@ schema: 2
   - *2024-11-08* — If a permanent on the battlefield has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
   - *2024-11-08* — If the target permanent is an illegal target by the time Feed the Swarm tries to resolve, the spell doesn't resolve. You don't lose any life. If the target is legal but not destroyed (most likely because it has indestructible), you do lose life.
   - *2024-11-08* — The amount of life you lose is determined by the permanent's mana value as it last existed on the battlefield.
-- **Referenced in:** 29 pages (24 decks · 4 edh guides · 1 card data) → [reverse index](../../references/F.md#feed-the-swarm)
+- **Referenced in:** 30 pages (25 decks · 4 edh guides · 1 card data) → [reverse index](../../references/F.md#feed-the-swarm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/257/feed-the-swarm) · oracle_id `5825997b-10d7-4a36-972c-a80ddd90b8ed` · printing: TLE #257 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Feeling of Dread
@@ -1951,7 +1951,7 @@ schema: 2
   - *2009-10-01* — Fellwar Stone doesn't care about any restrictions or riders your opponents' lands (such as Ancient Ziggurat or Hall of the Bandit Lord) put on the mana they produce. It just cares about colors of mana.
   - *2009-10-01* — The colors of mana are white, blue, black, red, and green. Fellwar Stone can't be tapped for colorless mana, even if a land an opponent controls could produce colorless mana.
   - *2009-10-01* — When determining what colors of mana your opponents' lands could produce, take into account any applicable replacement effects that would apply to those lands' mana abilities (such as Contamination's effect, for example). If there is more than one, consider them in any possible order.
-- **Referenced in:** 57 pages (50 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/F.md#fellwar-stone)
+- **Referenced in:** 58 pages (51 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/F.md#fellwar-stone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/74/fellwar-stone) · oracle_id `95560508-7ac9-4be9-8a3f-3c7d5b52807b` · printing: MBC #74 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Felonious Rage

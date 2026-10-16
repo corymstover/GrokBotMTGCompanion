@@ -767,7 +767,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-03-19* — A player's "opening hand" is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player's opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins.
   - *2021-03-19* — If multiple Gemstone Caverns are put onto the battlefield under a single player's control before the game begins, the "legend rule" won't put the extras into that player's graveyard until just before the starting player gets priority during the game's first upkeep step. There's no opportunity to tap the extras for mana.
-- **Referenced in:** 16 pages (11 decks · 3 edh guides · 1 rules · 1 card data) → [reverse index](../../references/G.md#gemstone-caverns)
+- **Referenced in:** 17 pages (12 decks · 3 edh guides · 1 rules · 1 card data) → [reverse index](../../references/G.md#gemstone-caverns)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/280/gemstone-caverns) · oracle_id `c0adbddc-b070-4c5f-afe0-0474c72a9251` · printing: TSR #280 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gemstone Mine

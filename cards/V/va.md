@@ -1846,7 +1846,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #115 · Game Changer: **yes** · Can be commander: No
 - **Rulings** (1):
   - *2016-06-08* — The "shuffle and put the card on top" is a single action. If an effect causes the top card of the library to be face up, the second card down is not revealed.
-- **Referenced in:** 66 pages (58 decks · 6 edh guides · 2 card data) → [reverse index](../../references/V.md#vampiric-tutor)
+- **Referenced in:** 68 pages (60 decks · 6 edh guides · 2 card data) → [reverse index](../../references/V.md#vampiric-tutor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/108/vampiric-tutor) · oracle_id `ededbdae-d9dc-4206-9335-d7158f2d7700` · printing: DMR #108 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vampirism

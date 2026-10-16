@@ -2309,7 +2309,7 @@ schema: 2
   > {T}, Pay 1 life, Sacrifice this land: Search your library for a Swamp or Forest card, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #48 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 34 pages (29 decks · 3 edh guides · 2 card data) → [reverse index](../../references/V.md#verdant-catacombs)
+- **Referenced in:** 35 pages (30 decks · 3 edh guides · 2 card data) → [reverse index](../../references/V.md#verdant-catacombs)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/260/verdant-catacombs) · oracle_id `67d60b24-d429-4ded-90d9-06e49f28c396` · printing: MH2 #260 (2021-06-18) · [rulings](https://api.scryfall.com/cards/94c229ea-90da-4aa0-bfda-b162fb3b5b8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Verdant Command

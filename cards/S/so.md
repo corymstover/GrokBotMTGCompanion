@@ -1560,7 +1560,7 @@ schema: 2
   > *Jace could see the sunlight in his Multiverse, but somewhere along the way, he lost the feel of its warmth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 108 pages (98 decks · 7 edh guides · 3 card data) → [reverse index](../../references/S.md#sol-ring)
+- **Referenced in:** 110 pages (100 decks · 7 edh guides · 3 card data) → [reverse index](../../references/S.md#sol-ring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/21/sol-ring) · oracle_id `6ad8011d-3471-4369-9d68-b264cc027487` · printing: FRC #21 (2026-10-02) · [rulings](https://api.scryfall.com/cards/8ee443cc-e17a-493b-9c93-1f9e141a30e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Solstice Revelations

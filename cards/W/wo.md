@@ -229,7 +229,7 @@ schema: 2
   - *2020-01-24* — If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those.
   - *2020-01-24* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
   - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
-- **Referenced in:** 3 pages (1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/W.md#woe-strider)
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/W.md#woe-strider)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/231/woe-strider) · oracle_id `3adbd963-e85d-4569-963a-4472594f06f9` · printing: SOC #231 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wojek Apothecary
@@ -886,8 +886,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #47 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
 - **Lore:** ✅ Card art shown on [Victory](https://magic.wizards.com/en/news/magic-story/victory-2014-11-26) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (26): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Saskia the Unyielding](../../decks/saskia-the-unyielding.md) · [The Ur-Dragon](../../decks/the-ur-dragon.md) … · Commander Spellbook: 31 combos; most popular [Tifa Lockhart + Scale Up + Wooded Foothills](https://commanderspellbook.com/combo/7675-7676-8101/) (Target opponent loses the game) · EDHREC: in 1,102,650 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (39.7% of its decks), [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (42.6% of its decks), [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (38.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 31 pages (26 decks · 3 edh guides · 2 card data) → [reverse index](../../references/W.md#wooded-foothills)
+- **Synergy:** *Proven* — KB decks (27): [Animar, Soul of Elements](../../decks/animar-soul-of-elements.md) · [Korvold, Fae-Cursed King](../../decks/korvold-fae-cursed-king.md) · [Saskia the Unyielding](../../decks/saskia-the-unyielding.md) · [The Ur-Dragon](../../decks/the-ur-dragon.md) … · Commander Spellbook: 31 combos; most popular [Tifa Lockhart + Scale Up + Wooded Foothills](https://commanderspellbook.com/combo/7675-7676-8101/) (Target opponent loses the game) · EDHREC: in 1,102,650 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (39.7% of its decks), [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (42.6% of its decks), [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (38.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 32 pages (27 decks · 3 edh guides · 2 card data) → [reverse index](../../references/W.md#wooded-foothills)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/236/wooded-foothills) · oracle_id `6587a463-a108-4854-b6d1-944e89b8c8a4` · printing: MH3 #236 (2024-06-14) · [rulings](https://api.scryfall.com/cards/4e11ea8a-f895-438d-a3b7-f070238e4161/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wooded Ridgeline

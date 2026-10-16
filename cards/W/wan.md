@@ -587,6 +587,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4812 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#wand-of-orcus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/28/wand-of-orcus) · oracle_id `9fd521d5-baa3-4054-a990-d23265863c71` · printing: AFC #28 (2021-07-23) · [rulings](https://api.scryfall.com/cards/510af4b7-289a-4de7-9a22-00fe1e8aaabf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wand of the Elements

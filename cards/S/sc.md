@@ -452,7 +452,7 @@ schema: 2
   > {T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #49 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 65 pages (60 decks · 3 edh guides · 2 card data) → [reverse index](../../references/S.md#scalding-tarn)
+- **Referenced in:** 67 pages (62 decks · 3 edh guides · 2 card data) → [reverse index](../../references/S.md#scalding-tarn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/254/scalding-tarn) · oracle_id `cb027150-848c-4a66-88ad-e20222304dd8` · printing: MH2 #254 (2021-06-18) · [rulings](https://api.scryfall.com/cards/71e491c5-8c07-449b-b2f1-ffa052e6d311/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scalding Tongs

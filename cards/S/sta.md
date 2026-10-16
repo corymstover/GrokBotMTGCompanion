@@ -2091,7 +2091,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #698 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
-- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#starting-town)
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/S.md#starting-town)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/289/starting-town) · oracle_id `d04e0975-f401-41b8-a9db-9bcf9cbbce66` · printing: FIN #289 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Starting Town NPC

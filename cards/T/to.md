@@ -3828,7 +3828,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — All creatures on the battlefield when Toxic Deluge resolves are affected. Ones that enter the battlefield or become creatures later in the turn are not.
   - *2020-08-07* — If you cast Toxic Deluge without paying its mana cost, you'll still choose a value for X and pay X life. This is because it doesn't have {X} in its mana cost.
-- **Referenced in:** 48 pages (45 decks · 2 edh guides · 1 card data) → [reverse index](../../references/T.md#toxic-deluge)
+- **Referenced in:** 49 pages (46 decks · 2 edh guides · 1 card data) → [reverse index](../../references/T.md#toxic-deluge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/161/toxic-deluge) · oracle_id `afaef788-34d1-460b-b884-9d7ae6ddeb18` · printing: MSC #161 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Toxic Iguanar

@@ -1553,7 +1553,7 @@ schema: 2
   > *—\*Phyrexian Scriptures\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #307 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 15 pages (9 decks · 5 edh guides · 1 card data) → [reverse index](../../references/P.md#phyrexian-altar)
+- **Referenced in:** 16 pages (10 decks · 5 edh guides · 1 card data) → [reverse index](../../references/P.md#phyrexian-altar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/311/phyrexian-altar) · oracle_id `8d02b297-97c4-4379-9862-0a462400f66f` · printing: 2X2 #311 (2022-07-08) · [rulings](https://api.scryfall.com/cards/95d9f93c-50a8-41a9-be98-d1900bf1c12f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Archivist
@@ -2645,7 +2645,7 @@ schema: 2
   > *—Koth*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #194 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 18 pages (13 decks · 4 edh guides · 1 card data) → [reverse index](../../references/P.md#phyrexian-tower)
+- **Referenced in:** 19 pages (14 decks · 4 edh guides · 1 card data) → [reverse index](../../references/P.md#phyrexian-tower)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/303/phyrexian-tower) · oracle_id `1861e642-21d5-4232-89f3-b5557f2946c1` · printing: MH3 #303 (2024-06-14) · [rulings](https://api.scryfall.com/cards/0b47f6d2-9f65-47a4-bfc4-15619befe53d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Tribute

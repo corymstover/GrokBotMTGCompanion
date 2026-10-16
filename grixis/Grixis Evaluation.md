@@ -21,7 +21,7 @@ schema: 2
 ## Summary
 
 - Source lists: **62** (62 baseline FINAL lists; 62 have a newer user-approved list).
-- **Integrated: 60**, i.e. every approved list that passes or could be corrected to pass. **Left out: 2** (2 future-release lists; 0 lists the source still marks UNREFINED).
+- **Deck pages: 62/62** (60 legal + 2 ⏳ pending legality). **Integrated as legal: 60**, i.e. every approved list that passes or could be corrected to pass. **Pending legality: 2** (The Madcap Jester, legal from 2026-10-19, Tresserhorn's Lord, Returned, legal from 2026-10-19). **Left out: 0**.
 - Hard problems found across all 62: 3× not Commander-legal, 2× banned.
 - Oracle check: 17,683 Oracle-text rows in 46 source audit files; **0 differ** from current Oracle.
 
@@ -84,11 +84,11 @@ schema: 2
 | 53 | `Sol_kanar_the_Tainted` | Sol'Kanar the Tainted | APPROVED | 100 | — | 7 | ✅ [integrated](decks/solkanar-the-tainted.md) |
 | 54 | `Tetsuo_Umezawa` | Tetsuo Umezawa | APPROVED | 100 | — | 4 | ✅ [integrated](decks/tetsuo-umezawa.md) |
 | 55 | `Tetsuo__Imperial_Champion` | Tetsuo, Imperial Champion | APPROVED | 100 | — | 5 | ✅ [integrated](decks/tetsuo-imperial-champion.md) |
-| 56 | `The_Madcap_Jester` | The Madcap Jester | APPROVED | 100 | not Commander-legal: The Madcap Jester; not Commander-legal: Dragon's Smile | 17 | ⏸ future-release: The commander and Dragon's Smile come from Scryfall set `mbc` (draft_innovation), releasing 2026-10-19. Both are `not_legal` in Commander today (Scryfall, re-checked 2026-10-16), and the source's 2026-10-15 approval keeps them under its registered *future-release* exceptions. Re-check after release. |
+| 56 | `The_Madcap_Jester` | The Madcap Jester | APPROVED | 100 | not Commander-legal: The Madcap Jester; not Commander-legal: Dragon's Smile | 17 | ⏳ [pending legality](decks/the-madcap-jester.md) (legal from 2026-10-19) |
 | 57 | `The_Rani` | The Rani | APPROVED | 100 | — | 8 | ✅ [integrated](decks/the-rani.md) |
 | 58 | `The_Valeyard` | The Valeyard | APPROVED | 100 | — | 6 | ✅ [integrated](decks/the-valeyard.md) |
 | 59 | `Thraximundar` | Thraximundar | APPROVED | 100 | — | 8 | ✅ [integrated](decks/thraximundar.md) |
-| 60 | `Tresserhorn_s_Lord__Returned` | Tresserhorn's Lord, Returned | APPROVED | 100 | not Commander-legal: Tresserhorn's Lord, Returned | 2 | ⏸ future-release: The commander is in set `mbc` (releasing 2026-10-19) and is `not_legal` in Commander today (Scryfall, re-checked 2026-10-16). ⚠️ The source's 2026-10-15 approval record calls its earlier future-release exception "historical only" and reports "current official Commander legality PASS"; Scryfall does not agree yet. Re-check after release. |
+| 60 | `Tresserhorn_s_Lord__Returned` | Tresserhorn's Lord, Returned | APPROVED | 100 | not Commander-legal: Tresserhorn's Lord, Returned | 2 | ⏳ [pending legality](decks/tresserhorns-lord-returned.md) (legal from 2026-10-19) |
 | 61 | `Wick__the_Whorled_Mind` | Wick, the Whorled Mind | APPROVED | 100 | — | 5 | ✅ [integrated](decks/wick-the-whorled-mind.md) |
 | 62 | `Zevlor__Elturel_Exile` | Zevlor, Elturel Exile | APPROVED | 100 | — | 11 | ✅ [integrated](decks/zevlor-elturel-exile.md) |
 

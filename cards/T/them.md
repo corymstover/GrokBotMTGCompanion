@@ -85,6 +85,7 @@ schema: 2
   > *He who bears the cap laughs last.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #21604 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-madcap-jester)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/44/the-madcap-jester) · oracle_id `60f3857d-2dcd-427e-aa0f-e2028bbc5acc` · printing: MBC #44 (2026-10-19) · [rulings](https://api.scryfall.com/cards/fa3a7a06-bec1-47d6-9b62-7a343a2d3d22/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Magical City, New

@@ -1831,8 +1831,8 @@ schema: 2
   - *2015-06-22* — Like most lands, each land in this cycle is colorless. The damage dealt to you is dealt by a colorless source.
   - *2015-06-22* — The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.
 - **Lore:** ✅ Card art shown on [The Worlds of Magic Origins](https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (17): [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · [Niv-Mizzet, Parun](../../decks/niv-mizzet-parun.md) · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) · [Anhelo, the Painter (Grixis)](../../grixis/decks/anhelo-the-painter.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 734,021 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (62.6% of its decks), [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (70.4% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (40.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 21 pages (17 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#shivan-reef)
+- **Synergy:** *Proven* — KB decks (18): [Kykar, Wind's Fury](../../decks/kykar-winds-fury.md) · [Niv-Mizzet, Parun](../../decks/niv-mizzet-parun.md) · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) · [Anhelo, the Painter (Grixis)](../../grixis/decks/anhelo-the-painter.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 734,021 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (62.6% of its decks), [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (70.4% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (40.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 22 pages (18 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#shivan-reef)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/83/shivan-reef) · oracle_id `0fe16212-66c3-4e45-a641-7391e9b2e304` · printing: FRC #83 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shivan Sand-Mage
@@ -1937,7 +1937,7 @@ schema: 2
   > *Centuries ago, Shizo was a verdant field of wildflowers. After 891 samurai died in a single battle on its grasses, it became a haunted moor.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #623 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 10 pages (8 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#shizo-deaths-storehouse)
+- **Referenced in:** 11 pages (9 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#shizo-deaths-storehouse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/233/shizo-deaths-storehouse) · oracle_id `008f2698-1721-45a3-8353-10f2f400dc8f` · printing: DMC #233 (2022-09-09) · [rulings](https://api.scryfall.com/cards/099352e2-38c8-4fb4-a25f-6d928aa20f9e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shizuko, Caller of Autumn
