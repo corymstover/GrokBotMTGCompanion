@@ -188,3 +188,14 @@ def test_nontoken_and_unmodelable_wording():
     assert DT.parse("K", "Whenever one or more other creatures you control die, draw a card.")[0] == [
         {"scope": "one_or_more_other", "controller": "you", "nontoken": False}]
     assert DT.parse("Blood Artist", "Whenever Blood Artist or another creature dies, drain 1.")[0][0]["scope"] == "a"
+
+
+def test_death_events_count_tokens():
+    """66.3b: tokens are death-event victims (wipe/sacrifice/removal) and count for watchers unless 'nontoken'."""
+    tr = [{"turn": t, "battlefield": ["W", "token:M#1", "token:M#2"], "graveyard": [], "hand": []} for t in range(1, 8)]
+    ctx = {"creatures": {"W"}, "outlets": set(), "commanders": set()}
+    an = {"scope": "another", "controller": "any", "nontoken": False}
+    assert death_triggers.side([(None, tr)], "W", [an], ctx, 6, (0.0, 6, False)) == 2.0
+    assert death_triggers.side([(None, tr)], "W", [dict(an, nontoken=True)], ctx, 6, (0.0, 6, False)) == 0.0
+    pr = deaths.profile(tr, {"W"}, set(), set(), set(), 0.0, 6, False)
+    assert pr[5]["gy_creatures"] == 1.0  # only W reaches the graveyard; tokens cease to exist

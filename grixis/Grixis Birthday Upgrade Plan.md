@@ -287,9 +287,22 @@ Cory caught an architecture error in the 66.2 `death_triggers` module (v1). v1 t
   - `activated_engines`: non-mana abilities, one per turn when the mana v1.1 left unspent covers the cost.
   - `token_makers`: creature tokens created.
   - `sacrifice_additional_cost`: P(the spell or ability cost is payable with live creature/token fodder), over the grid.
-- **Coverage over the 9,040 legacy not_modelable swaps:**
-  - 6,777 (75.0%) route to an implemented module (66.2: 2,412 / 26.7%).
-  - 1,730 route only to planned families; 533 match none.
+- **Coverage over the 9,040 legacy not_modelable swaps** (after merging the 66.2a correction):
+  - 6,775 (74.9%) route to an implemented module (66.2a: 2,374 / 26.3%).
+  - 1,732 route only to planned families; 533 match none.
   - Per family: attack_trigger_proxy 1,619, activated_engines 1,745, cast_triggers 1,270, repeatable_draw 2,825, token_makers 1,964, sacrifice_additional_cost 65, sacrifice_costs 236, death_triggers 171, graveyard_recursion 492, self_recursion 163, sacrifice_other 1,228, death_other 649, tokens_other 3,266.
 - **Correction:** the 66.2 `sacrifice_other` figure (1,228) came from a broad planned regex (any ", sacrifice " text). Of those, the cards whose text is a creature/artifact/permanent sacrifice cost now route to `sacrifice_additional_cost`; the rest (land, self-sacrifice, opponent-sacrifice text) stay `sacrifice_other`.
+- **Tokens in death events (66.3b):** synthetic creature tokens are death-event victims (removal, wipe, sacrifice), so watcher triggers count them unless the wording says nontoken. Tokens never reach the graveyard. Syr Konrad by turn 8 with the deck's token makers: grid 0–0.343, mid 0.046 (66.2a without tokens: 0–0.337, mid 0.045).
 - **Cache incident (66.3):** an online `load_deck` replaced the frozen dev-snapshot Oracle bulk in the shared `.cache` (oracle-cards-20261016090200) with a newer Scryfall bulk (20261016210202). It was restored from `/tmp/c64-cache-partial-backup`, and the newer file was moved to `/tmp/c66-cache-refresh-backup/`. `grixis_mechanics.py` now forces `SCRYFALL_OFFLINE=1` (D6). Direct runs of other scripts outside `validate_all` (which is offline by default) can still refresh the cache.
+
+### Dev snapshot lock (Bot cycle 66.3b)
+
+The frozen development snapshot (D6) is now enforced for every script, not by convention.
+- **Lock file:** `data/grixis/dev_snapshot_lock.json` names the oracle (20261016090200), rulings (20261015090033) and default-cards (20261015090541) bulk files, with sha256 hashes.
+- **No fetches while locked:** `ingest_scryfall.get_bulk` (the only bulk fetcher, used by `evaluate_decklist.Resolver` and therefore by `grixis_sim.load_deck`) never fetches, replaces or adds a bulk while the lock exists. Every read resolves to the locked file, and a missing locked file is an error, never a download.
+- **Override:** `SCRYFALL_BIRTHDAY_SNAPSHOT=1` or `ingest_scryfall.py --birthday-snapshot`, reserved for the Birthday snapshot step, which replaces the lock in the same commit.
+- **validate_all step `dev-snapshot-lock`:** the newest cached bulk of each locked kind (what every glob-based script picks) must be the locked file with the locked hash.
+- **Culprit:** online `load_deck` calls run outside `validate_all` (which is offline by default).
+  - First refresh: 21:07 UTC, from the 66.3 `grixis_mechanics.py --build`.
+  - Second refresh: 21:17:34 UTC (file mtime), during the 66.2a session. The likely trigger is a direct `pytest tests/test_mech.py` run, whose golden test calls `load_deck` online; pytest captured the "Downloading" message.
+  - No cron jobs or background processes were found.

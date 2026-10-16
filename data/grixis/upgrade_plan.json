@@ -115,7 +115,8 @@
       "batches": [
         "66.1 framework, router, attack + recursion",
         "66.2 death layer, death triggers, sacrifice, self-recursion split, 9,044/9,040 reconciliation",
-        "66.2a death-trigger semantics correction (Cory t56u): death_triggers v2, death events in the shared layer"
+        "66.2a death-trigger semantics correction (Cory t56u): death_triggers v2, death events in the shared layer",
+        "66.3 cast triggers, repeatable draw, activated engines, token makers, sacrifice as additional cost; tokens as death-event victims; dev snapshot lock"
       ],
       "status": "in_progress",
       "depends_on": [
@@ -128,20 +129,26 @@
       "framework": "scripts/grixis_mech/",
       "schema": "data/grixis/schemas/mechanic_module.schema.json",
       "implemented_modules": [
+        "activated_engines",
         "attack_trigger_proxy",
-        "graveyard_recursion",
-        "self_recursion",
+        "cast_triggers",
         "death_triggers",
-        "sacrifice_costs"
+        "graveyard_recursion",
+        "repeatable_draw",
+        "sacrifice_additional_cost",
+        "sacrifice_costs",
+        "self_recursion",
+        "token_makers"
       ],
       "legacy_not_modelable_routed": {
-        "routed": 2374,
-        "planned_module": 6086,
-        "not_modelable": 580,
+        "routed": 6775,
+        "planned_module": 1732,
+        "not_modelable": 533,
         "total": 9040
       },
       "shared_layers": [
-        "deaths (bounded removal/wipe/sacrifice grid; lower bound = v1.1 no-death)"
+        "deaths (bounded removal/wipe/sacrifice grid; death events; tokens are victims)",
+        "events (casts, creature tokens)"
       ],
       "corrections": [
         {
@@ -374,7 +381,8 @@
   ],
   "snapshots": {
     "development": "snap-20261016 (frozen during A-F; Cory D6)",
-    "birthday": null
+    "birthday": null,
+    "dev_snapshot_lock": "data/grixis/dev_snapshot_lock.json (enforced by ingest_scryfall.get_bulk and validate_all step dev-snapshot-lock; Birthday override only)"
   },
   "acceptance_standard": [
     "schema",
@@ -408,7 +416,7 @@
   ],
   "m5_candidate_files": "capped legacy, superseded at M5 regeneration",
   "launch_tracker": {
-    "updated": "Bot cycle 66.2a (2026-10-16)",
+    "updated": "Bot cycle 66.3 (2026-10-16)",
     "definition_of_100_percent": "all prerequisite infrastructure finished and validated, M5 accepted on the fresh Birthday snapshot, I/J and K complete, M6 cleared to begin (M6 itself excluded)",
     "weighting": "batch-weighted: estimated batches per stage = midpoint of the plan range (completed stages count their actual batches); percent = done / total",
     "stages": [
@@ -429,9 +437,9 @@
       {
         "id": "E",
         "estimated_batches": 12,
-        "batches_done": 3,
+        "batches_done": 4,
         "status": "in_progress",
-        "note": "est 10-14; done 66.1, 66.2, 66.2a; 66.3 WIP on PR #146 (not counted)"
+        "note": "est 10-14; done 66.1, 66.2, 66.2a, 66.3 (incl. 66.3b lock)"
       },
       {
         "id": "B",
@@ -505,7 +513,7 @@
       }
     ],
     "total_estimated_batches": 58.5,
-    "batches_done": 10,
-    "percent_complete": 17.1
+    "batches_done": 11,
+    "percent_complete": 18.8
   }
 }

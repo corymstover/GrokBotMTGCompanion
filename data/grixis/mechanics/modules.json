@@ -1,6 +1,42 @@
 {
- "framework_version": "1.2-mech.2",
+ "framework_version": "1.2-mech.3",
  "modules": [
+  {
+   "assumptions": [
+    "one activation per turn when unspent mana >= its mana cost; unspent = v1.1 available minus spent"
+   ],
+   "confidence": "low",
+   "determinism": "seeded paired v1.1 games (grixis_sim.seed_for); derived events and the death layer are closed-form (no rng)",
+   "does_not_model": [
+    "the ability's effect",
+    "non-mana costs (discard, sacrifice, life) beyond the mana check",
+    "activations on opponents' turns (one per own turn)",
+    "multiplayer win rates (never produced)"
+   ],
+   "evidence_class": "test_result",
+   "family": "activated engines",
+   "id": "activated_engines",
+   "limitations": [
+    "Leftover mana is measured after v1.1's own spending, so activations never compete with spells."
+   ],
+   "metrics": [
+    "activations_by_turn"
+   ],
+   "models": [
+    "non-mana activated abilities on a permanent: turns from its arrival (creatures with {T}: after summoning sickness) where the mana v1.1 left unspent that turn covers the activation's mana cost",
+    "expected activations by turn 4/6/8/10"
+   ],
+   "parameters": {
+    "turns": [
+     4,
+     6,
+     8,
+     10
+    ]
+   },
+   "test_file": "tests/test_mech.py",
+   "version": "1"
+  },
   {
    "assumptions": [
     "the creature attacks every turn it is untapped and not summoning-sick",
@@ -53,10 +89,48 @@
   },
   {
    "assumptions": [
+    "every spell v1.1 casts resolves to the battlefield or graveyard that turn"
+   ],
+   "confidence": "low",
+   "determinism": "seeded paired v1.1 games (grixis_sim.seed_for); derived events and the death layer are closed-form (no rng)",
+   "does_not_model": [
+    "trigger payloads",
+    "copies, cascade or free spells v1.1 does not cast",
+    "opponents' spells",
+    "casts in the turn the trigger card arrives (counted from the next turn)",
+    "multiplayer win rates (never produced)"
+   ],
+   "evidence_class": "test_result",
+   "family": "cast triggers",
+   "id": "cast_triggers",
+   "limitations": [
+    "Counts only spells the v1.1 model casts; casting from graveyard or exile is not seen."
+   ],
+   "metrics": [
+    "cast_triggers_by_turn"
+   ],
+   "models": [
+    "'whenever you cast ...' triggers: your spells of the named kind cast in turns after the card is on the battlefield, from the v1.1 trace (a cast = a non-land card newly reaching battlefield or graveyard)",
+    "expected trigger count by turn 4/6/8/10"
+   ],
+   "parameters": {
+    "turns": [
+     4,
+     6,
+     8,
+     10
+    ]
+   },
+   "test_file": "tests/test_mech.py",
+   "version": "1"
+  },
+  {
+   "assumptions": [
     "opponent removal hits each of your creatures independently with probability `removal` per opponent turn cycle",
     "an opponent wipe at the end of turn `wipe` kills every creature you control",
     "a sacrifice outlet you control is used once per turn when it has fodder (not itself, not the commander, tracked cards last)",
-    "dead non-commander creatures go to your graveyard and stay there (no exile, no graveyard hate)",
+    "dead non-commander, non-token creatures go to your graveyard and stay there (no exile, no graveyard hate)",
+    "creature tokens come only from token makers the events layer recognises (see token_makers); they are death-event victims like creatures",
     "no regeneration, indestructible, protection or recursion of the dead creature inside the layer",
     "removal deaths in one opponent turn cycle are separate events in random order: the watcher sees another creature's removal with probability alive_before(watcher) x (1 - removal/2)",
     "wipes and sacrifices are single simultaneous events; victims' death probabilities are treated as independent of the watcher's",
@@ -171,10 +245,127 @@
   },
   {
    "assumptions": [
+    "the permanent stays on the battlefield (death-triggered draw uses the death layer)",
     "opponent removal hits each of your creatures independently with probability `removal` per opponent turn cycle",
     "an opponent wipe at the end of turn `wipe` kills every creature you control",
     "a sacrifice outlet you control is used once per turn when it has fodder (not itself, not the commander, tracked cards last)",
-    "dead non-commander creatures go to your graveyard and stay there (no exile, no graveyard hate)",
+    "dead non-commander, non-token creatures go to your graveyard and stay there (no exile, no graveyard hate)",
+    "creature tokens come only from token makers the events layer recognises (see token_makers); they are death-event victims like creatures",
+    "no regeneration, indestructible, protection or recursion of the dead creature inside the layer"
+   ],
+   "confidence": "low",
+   "determinism": "seeded paired v1.1 games (grixis_sim.seed_for); derived events and the death layer are closed-form (no rng)",
+   "does_not_model": [
+    "what the drawn cards do (the v1.1 game does not draw them)",
+    "other trigger conditions (counted 0)",
+    "opponents' draws",
+    "multiplayer win rates (never produced)"
+   ],
+   "evidence_class": "test_result",
+   "family": "repeatable draw",
+   "id": "repeatable_draw",
+   "limitations": [
+    "Extra cards are counted, not played."
+   ],
+   "metrics": [
+    "extra_cards_by_turn"
+   ],
+   "models": [
+    "repeatable draw on a permanent: beginning-of-phase (1 event per later turn), 'whenever you cast' (per matching cast), 'whenever ... attacks' (per later turn, attack proxy), 'whenever ... dies' (per death in the death layer)",
+    "expected extra cards by turn 4/6/8/10"
+   ],
+   "parameters": {
+    "death_grid": {
+     "removal": [
+      "0.0",
+      "0.1",
+      "0.25"
+     ],
+     "sac": [
+      "False",
+      "True"
+     ],
+     "wipe": [
+      "None",
+      "6",
+      "8"
+     ]
+    },
+    "turns": [
+     4,
+     6,
+     8,
+     10
+    ]
+   },
+   "test_file": "tests/test_mech.py",
+   "version": "1"
+  },
+  {
+   "assumptions": [
+    "fodder must be alive (death layer) at the end of a turn when the card is in hand or on the battlefield",
+    "opponent removal hits each of your creatures independently with probability `removal` per opponent turn cycle",
+    "an opponent wipe at the end of turn `wipe` kills every creature you control",
+    "a sacrifice outlet you control is used once per turn when it has fodder (not itself, not the commander, tracked cards last)",
+    "dead non-commander, non-token creatures go to your graveyard and stay there (no exile, no graveyard hate)",
+    "creature tokens come only from token makers the events layer recognises (see token_makers); they are death-event victims like creatures",
+    "no regeneration, indestructible, protection or recursion of the dead creature inside the layer"
+   ],
+   "confidence": "low",
+   "determinism": "seeded paired v1.1 games (grixis_sim.seed_for); derived events and the death layer are closed-form (no rng)",
+   "does_not_model": [
+    "what the spell or ability does",
+    "the value lost by sacrificing",
+    "artifact/land fodder (only creatures and creature tokens are tracked)",
+    "multiplayer win rates (never produced)"
+   ],
+   "evidence_class": "test_result",
+   "family": "sacrifice costs (additional cost)",
+   "id": "sacrifice_additional_cost",
+   "limitations": [
+    "Payability, not value: a payable cost can still be a bad trade."
+   ],
+   "metrics": [
+    "cost_payable_by_turn"
+   ],
+   "models": [
+    "spells with 'as an additional cost to cast this spell, sacrifice a creature/artifact/permanent' and abilities that sacrifice a creature as part of a paid cost (not free outlets): P(payable = the card is available with >= 1 expected live non-commander creature or token, by turn 4/6/8/10)",
+    "tokens from the deck's token makers count as fodder"
+   ],
+   "parameters": {
+    "death_grid": {
+     "removal": [
+      "0.0",
+      "0.1",
+      "0.25"
+     ],
+     "sac": [
+      "False",
+      "True"
+     ],
+     "wipe": [
+      "None",
+      "6",
+      "8"
+     ]
+    },
+    "turns": [
+     4,
+     6,
+     8,
+     10
+    ]
+   },
+   "test_file": "tests/test_mech.py",
+   "version": "1"
+  },
+  {
+   "assumptions": [
+    "opponent removal hits each of your creatures independently with probability `removal` per opponent turn cycle",
+    "an opponent wipe at the end of turn `wipe` kills every creature you control",
+    "a sacrifice outlet you control is used once per turn when it has fodder (not itself, not the commander, tracked cards last)",
+    "dead non-commander, non-token creatures go to your graveyard and stay there (no exile, no graveyard hate)",
+    "creature tokens come only from token makers the events layer recognises (see token_makers); they are death-event victims like creatures",
     "no regeneration, indestructible, protection or recursion of the dead creature inside the layer",
     "only creature fodder seen on the battlefield in the v1.1 trace counts"
    ],
@@ -230,7 +421,8 @@
     "opponent removal hits each of your creatures independently with probability `removal` per opponent turn cycle",
     "an opponent wipe at the end of turn `wipe` kills every creature you control",
     "a sacrifice outlet you control is used once per turn when it has fodder (not itself, not the commander, tracked cards last)",
-    "dead non-commander creatures go to your graveyard and stay there (no exile, no graveyard hate)",
+    "dead non-commander, non-token creatures go to your graveyard and stay there (no exile, no graveyard hate)",
+    "creature tokens come only from token makers the events layer recognises (see token_makers); they are death-event victims like creatures",
     "no regeneration, indestructible, protection or recursion of the dead creature inside the layer"
    ],
    "confidence": "low",
@@ -279,12 +471,47 @@
    },
    "test_file": "tests/test_mech.py",
    "version": "1"
+  },
+  {
+   "assumptions": [
+    "activated token makers are used once per later turn",
+    "X = 1"
+   ],
+   "confidence": "low",
+   "determinism": "seeded paired v1.1 games (grixis_sim.seed_for); derived events and the death layer are closed-form (no rng)",
+   "does_not_model": [
+    "token abilities, power or combat",
+    "non-creature tokens (Treasure is v1.1's own)",
+    "token doublers",
+    "multiplayer win rates (never produced)"
+   ],
+   "evidence_class": "test_result",
+   "family": "tokens",
+   "id": "token_makers",
+   "limitations": [
+    "Token counts are created totals; the death layer decides how many survive."
+   ],
+   "metrics": [
+    "tokens_created_by_turn"
+   ],
+   "models": [
+    "creature tokens a card creates: on arrival (ETB or spell), per later turn (beginning-of-phase or activated), or per matching cast; expected tokens created by turn 4/6/8/10",
+    "the same tokens are death-layer and sacrifice fodder (events.with_tokens)"
+   ],
+   "parameters": {
+    "turns": [
+     4,
+     6,
+     8,
+     10
+    ]
+   },
+   "test_file": "tests/test_mech.py",
+   "version": "1"
   }
  ],
  "planned_families": [
-  "activated_engines",
   "alternate_costs",
-  "cast_triggers",
   "commander_specific",
   "counterspell_density",
   "death_other",
@@ -293,12 +520,11 @@
   "led_breach_sequences",
   "life_loss",
   "opponent_dependent_draw",
-  "repeatable_draw",
   "repeatable_tutors",
   "sacrifice_other",
   "stack_protection",
   "stax_tax",
-  "tokens",
+  "tokens_other",
   "x_spells"
  ]
 }
