@@ -79,6 +79,14 @@ HOOKS = [
     ("enters triggers", r"whenever (another|a|one or more|[^.]* or another) [^.]* enters", r"\bflicker|exile [^.]*, then return|return [^.]* to the battlefield|enters[^.]* an additional time"),
     ("casualty / power 2 or greater", r"\bcasualty\b|power 2 or greater", r"\bcasualty\b|creates? [^.]*\d/\d"),
     ("connive / looting", r"\bconniv", r"\bconniv|draw a card, then discard|discard a card, then draw"),
+    # Bot cycle 43: hook gaps found in batch 5 (commanders whose text matched no hook)
+    ("unearth / creature cards in your graveyard", r"\bunearth\b",
+     r"\bunearth\b|\bmill\b|into your graveyard|creature cards? (from your library )?(in|into) your graveyard|When [^.]* enters"),
+    ("black spells / Swamps", r"casts a black spell|\bswampwalk\b", r"\bSwamps?\b|\bswampwalk\b"),
+    ("tapping / blocking creatures", r"tapped or blocking creature",
+     r"\btap (target|up to|all|each)\b[^.]*creatures?|doesn't untap|don't untap|\buntap target\b|copy target activated|\bgoad|tapped creature"),
+    ("life gain", r"you gain \d+ life|you gain life", r"whenever you gain life|\bgain(s)? [^.]*life\b|\blifelink\b|life total"),
+    ("villainous choices / voting", r"villainous choice|\bvot(e|ing)\b", r"villainous choice|\bvotes?\b|\bcouncil's dilemma\b|will of the council"),
 ]
 CTYPES = None
 REVIEW = ROOT / "data" / "grixis_refine_review.json"

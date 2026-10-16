@@ -26,8 +26,8 @@ Grixis source commit used: `1836b97` (`git pull` on 2026-10-16: no upstream chan
 
 ## Status
 
-- **Reviewed: 50/62** decks (4 refined, 46 at/near ceiling and unchanged). 2 decks are ⏳ pending legality (measured; exports marked pending).
-- Mean commander dependence, all 62 (final lists): **65%** · mean generic share: **25%** · mean pairwise overlap: **16%**.
+- **Reviewed: 60/62** decks (6 refined, 54 at/near ceiling and unchanged). 2 decks are ⏳ pending legality (measured; exports marked pending).
+- Mean commander dependence, all 62 (final lists): **66%** · mean generic share: **24%** · mean pairwise overlap: **16%**.
 - Thoracle core present in 12 lists · median control-core cards per list: 9.
 
 ## Batch log
@@ -94,6 +94,19 @@ Grixis source commit used: `1836b97` (`git pull` on 2026-10-16: no upstream chan
 - [Sauron, Lord of the Rings](decks/sauron-lord-of-the-rings.md#refined-list-bot-cycle-39): at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged. Dependence 55% → 55%.
 - [Sauron, the Dark Lord](decks/sauron-the-dark-lord.md#refined-list-bot-cycle-39): at/near ceiling: all 4 role-compatible candidate swap(s) failed the power guard or manual review; unchanged. Dependence 75% → 75%.
 
+### Batch 5 — Bot cycle 43, 2026-10-16
+
+- [Sedris, the Traitor King](decks/sedris-the-traitor-king.md#refined-list-bot-cycle-39): at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged. Dependence 57% → 57%.
+- [Sol'kanar the Swamp King](decks/solkanar-the-swamp-king.md#refined-list-bot-cycle-39): refined: 1 swap(s). Dependence 39% → 41%. Cut **Windfall** → add **Well of Lost Dreams** (life gain).
+- [Sol'Kanar the Tainted](decks/solkanar-the-tainted.md#refined-list-bot-cycle-39): at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged. Dependence 56% → 56%.
+- [Tetsuo Umezawa](decks/tetsuo-umezawa.md#refined-list-bot-cycle-39): at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged. Dependence 48% → 48%.
+- [Tetsuo, Imperial Champion](decks/tetsuo-imperial-champion.md#refined-list-bot-cycle-39): at/near ceiling: commander dependence 84% ≥ 60% and generic share 14% ≤ 15%; unchanged. Dependence 84% → 84%.
+- [The Rani](decks/the-rani.md#refined-list-bot-cycle-39): refined: 1 swap(s). Dependence 61% → 62%. Cut **Mystic Remora** → add **Idol of Oblivion** (tokens).
+- [The Valeyard](decks/the-valeyard.md#refined-list-bot-cycle-39): at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged. Dependence 59% → 59%.
+- [Thraximundar](decks/thraximundar.md#refined-list-bot-cycle-39): at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged. Dependence 67% → 67%.
+- [Wick, the Whorled Mind](decks/wick-the-whorled-mind.md#refined-list-bot-cycle-39): at/near ceiling: all 4 role-compatible candidate swap(s) failed the power guard or manual review; unchanged. Dependence 64% → 64%.
+- [Zevlor, Elturel Exile](decks/zevlor-elturel-exile.md#refined-list-bot-cycle-39): at/near ceiling: commander dependence 91% ≥ 60% and generic share 6% ≤ 15%; unchanged. Dependence 91% → 91%.
+
 ## Hand reviews
 
 Decks given a commander-first hand look (guidance; principle 2: no artificial weakening).
@@ -101,6 +114,11 @@ Decks given a commander-first hand look (guidance; principle 2: no artificial we
 - **[Evelyn, the Covetous](decks/evelyn-the-covetous.md#refined-list-bot-cycle-39)** (Bot cycle 41): **identity-first rebuild assessed, list left unchanged and flagged.** Evelyn's engine is "Once each turn, you may play a card from exile with a collection counter on it", so extra Vampire-enters triggers in one turn only add to the exile pool, not to plays. The list's best line is the cEDH core: Worldgorger Dragon + Animate Dead / Necromancy / Dance of the Dead, Thassa's Oracle + Tainted Pact / Demonic Consultation, and Underworld Breach + Brain Freeze. Evelyn adds one flash card-advantage play per turn from any library. Every Vampire or flicker card on her EDHREC page was checked against the list's weakest slots. Cordial Vampire, Blood Artist, Captivating Vampire, Bloodline Keeper and Dusk Legion Zealot (overall ranks 142–5,228) only fit by replacing a 1-mana combo or protection piece (Reanimate, Defense Grid, Culling the Weak, Vexing Bauble) and fail the power guard or role parity. Viscera Seer (rank 257) is the closest, but it would replace Defense Grid's protection for the combo turn. An identity-first Vampire version would clearly be weaker at the source's stated cEDH ceiling, so no swap is made. Flag: the commander contributes value, not the win line. Revisit if a cEDH-grade Vampire or exile-play payoff is printed.
 - **[Marchesa, Dealer of Death](decks/marchesa-dealer-of-death.md#refined-list-bot-cycle-39)** (Bot cycle 41): **identity confirmed after a scoring fix, list left unchanged.** The 14% score was our gap, not the list's. Marchesa triggers on "Whenever you commit a crime", and the reminder text says targeting opponents, anything they control, or cards in their graveyards counts. Most of the list's cEDH interaction (targeted counterspells, bounce, removal) plus Spatial Binding, Hex Parasite, Spellskite, Tezzeret and Lapis Lazuli Talisman commit crimes. A new crimes hook now counts them. The source records this list as matching the 2026-10-11 Takeda Ryuhei tournament-winning configuration and keeps Lapis deliberately: it turns blue spells into targeted untaps, which are crimes. Considered and not made: Gitaxian Probe (a free crime cantrip, 37.4% of Marchesa decks) for Mystic Remora, Lapis Lazuli Talisman or Last Chance. It passes the guard, but each cut is a deliberate source decision (Remora: card-advantage pillar; Lapis: crime density; Last Chance: finisher), and Probe does not clearly do more. No swap.
 - **[Nicol Bolas](decks/nicol-bolas.md#refined-list-bot-cycle-39)** (Bot cycle 42): **identity confirmed after a scoring fix; 1 hand-picked swap.** The 31% score was mostly our gap. Nicol's trigger is "Whenever Nicol Bolas deals damage to an opponent", and the combat hook did not cover it until this cycle. The list is already built to make him connect or deal damage: Lightning Greaves, Swiftfoot Boots, Sword of Feast and Famine, Pain for All, Chandra's Ignition, Kediss, Emberclaw Familiar. It also punishes the hand discard: Liliana's Caress, Raiders' Wake, Waste Not, the Tinybones pair, Torment of Hailfire. Pain for All, Chandra's Ignition and Kediss look generic, but each makes Nicol himself deal damage to an opponent, so they stay. One change: No Mercy (defensive) → Megrim (another discard payoff).
+- **[Sol'kanar the Swamp King](decks/solkanar-the-swamp-king.md#refined-list-bot-cycle-39)** (Bot cycle 43): **identity confirmed after a scoring fix; 1 swap.** The low 34% score was our gap. Sol'kanar's "Whenever a player casts a black spell, you gain 1 life." matched no hook until the cycle 43 "life gain" and "black spells / Swamps" hooks (now 39%). The list is a black life-swing deck: Aetherflux Reservoir, Exquisite Blood and Vito with drain and life-gain cards (Bloodthirsty Conqueror, Marauding Blight-Priest, Starscape Cleric, Enduring Tenacity, Bloodchief Ascension), Gray Merchant, Cabal Coffers / Crypt Ghast for black mana. The generic share (42%) is the fast mana and interaction a ceiling list needs. One swap: Windfall → Well of Lost Dreams.
+- **[Tetsuo Umezawa](decks/tetsuo-umezawa.md#refined-list-bot-cycle-39)** (Bot cycle 43): **identity confirmed after a scoring fix; unchanged.** Tetsuo's text ("{U}{B}{B}{R}, {T}: Destroy target tapped or blocking creature.") matched no hook until the cycle 43 "tapping / blocking creatures" hook (31% → 36%). The list is a tap-and-untap removal engine: untappers (Aphetto Alchemist, Fatestitcher, Magewright's Stone, Thousand-Year Elixir), ability copiers (Rings of Brighthearth, Illusionist's Bracers), tappers (Flood, Frozen Aether, Sink into Stupor, Blustersquall), forced attacks (Disrupt Decorum), which leave creatures tapped, and Maze of Ith / Propaganda. The automatic plan found no generic card with a stronger Tetsuo-specific replacement, so the list is left as is.
+- **[Thraximundar](decks/thraximundar.md#refined-list-bot-cycle-39)** (Bot cycle 43): **unchanged; source flag kept.** 67% commander dependence; the automatic candidate (Reanimate → Village Rites) was rejected in writing. ⚠️ Flag kept from Bot cycle 37: the source state's `whole_list_audit_artifact` points to `refinement/decisions/Thraximundar_Whole_List_Audit_v2_2026-10-15.csv`, which does not exist at `1836b97` (re-checked this cycle). The file on disk is `refinement/audits/Thraximundar_Whole_List_Audit_2026-10-15.csv`. We did not modify the source.
+- **[Fire Lord Azula](decks/fire-lord-azula.md#refined-list-bot-cycle-39)** (Bot cycle 43): **cEDH ceiling; identity-first version would be weaker; unchanged (flagged).** Added late: Azula's 25% score is under the hand-review line, but batch 2 (Bot cycle 40) ran before that rule was applied to every deck. The list is a cEDH turbo shell: Thassa's Oracle, Demonic Consultation / Tainted Pact, Ad Nauseam, Underworld Breach with Lion's Eye Diamond and Brain Freeze, fast mana, and free counterspells. Azula is used as an attacking copy engine: "Whenever you cast a spell while Fire Lord Azula is attacking, copy that spell." Her support is haste (Birgi, Expedite, Crimson Wisps), instant-speed sorceries (Quicken, Borne Upon a Wind), and copied rituals and tutors. Swapping the combo core for more attack-copy payoffs would lower the deck's ceiling, so the list is left as is. Same tradeoff as Evelyn.
+- **[Garza Zol, Plague Queen](decks/garza-zol-plague-queen.md#refined-list-bot-cycle-39)** (Bot cycle 43): **identity confirmed; unchanged.** Added late: Garza's 31% score is near the hand-review line (batch 2, Bot cycle 40). Garza is a flying, hasty Voltron commander: "Whenever Garza Zol deals combat damage to a player, you may draw a card." The low score comes from equipment and Auras (Swords of Feast and Famine and Fire and Ice, Shadowspear, Blackblade Reforged, Commander's Plate, Grafted Exoskeleton, Quietus Spike, Hatred, Psychotic Fury). Their text names "equipped creature", not combat damage, but every one of them is there to make Garza connect. The automatic plan found no stronger Garza-specific replacement, so the list is left as is.
 
 ## Overlap review (manual)
 
@@ -131,37 +149,37 @@ High-overlap pairs judged by hand (Bot cycle 40): is the shared core explained b
 | [Evelyn, the Covetous](decks/evelyn-the-covetous.md) | unchanged (ceiling) | 15% | 37% | 18% | Kess, Dissident Mage (54%) | 3 | 10 | Vampire synergy, enters triggers, playing cards from exile |
 | [Fire Lord Azula](decks/fire-lord-azula.md) | unchanged (ceiling) | 25% | 40% | 20% | Kess, Dissident Mage (58%) | 3 | 12 | combat damage / attack triggers, copying |
 | [Garza Zol, Plague Queen](decks/garza-zol-plague-queen.md) | unchanged (ceiling) | 31% | 38% | 16% | Nicol Bolas (34%) | 0 | 9 | +1/+1 counters, combat damage / attack triggers, graveyard as a resource |
-| [Tetsuo Umezawa](decks/tetsuo-umezawa.md) | not reviewed yet | 31% | 30% | 13% | The Rani (28%) | 0 | 5 |  |
 | [Norman Osborn // Green Goblin](decks/norman-osborn.md) | refined | 32% → **33%** | 29% | 19% | Rograkh, Son of Rohgahh (60%) | 3 | 9 | +1/+1 counters, combat damage / attack triggers, connive / looting, discard … |
-| [Sol'kanar the Swamp King](decks/solkanar-the-swamp-king.md) | not reviewed yet | 34% | 42% | 17% | Crosis, the Purger (24%) | 0 | 10 |  |
 | [Inalla, Archmage Ritualist](decks/inalla-archmage-ritualist.md) | unchanged (ceiling) | 40% | 31% | 16% | Kess, Dissident Mage (50%) | 3 | 8 | Wizard synergy, copying, enters triggers, tokens |
+| [Sol'kanar the Swamp King](decks/solkanar-the-swamp-king.md) | refined | 39% → **41%** | 41% | 16% | Mai and Zuko (23%) | 0 | 10 | black spells / Swamps, life gain |
 | [Nicol Bolas](decks/nicol-bolas.md) | refined | 40% → **42%** | 37% | 18% | Crosis, the Purger (36%) | 0 | 9 | combat damage / attack triggers, discard, sacrifice |
+| [Tetsuo Umezawa](decks/tetsuo-umezawa.md) | unchanged (ceiling) | 48% | 30% | 13% | The Rani (26%) | 0 | 5 | tapping / blocking creatures |
 | [Crosis, the Purger](decks/crosis-the-purger.md) | unchanged (ceiling) | 49% | 41% | 18% | Gwendlyn Di Corci (41%) | 0 | 7 | combat damage / attack triggers, discard |
 | [The Madcap Jester](decks/the-madcap-jester.md) | ⏳ pending · not reviewed yet | 51% | 35% | 18% | Kefka, Court Mage // Kefka, Ruler of Ruin (36%) | 3 | 11 | combat damage / attack triggers |
-| [Sedris, the Traitor King](decks/sedris-the-traitor-king.md) | not reviewed yet | 52% | 34% | 16% | Sauron, Lord of the Rings (38%) | 0 | 9 |  |
 | [Gwendlyn Di Corci](decks/gwendlyn-di-corci.md) | unchanged (ceiling) | 52% | 36% | 17% | Crosis, the Purger (41%) | 0 | 11 | discard |
 | [Abaddon the Despoiler](decks/abaddon-the-despoiler.md) | refined | 51% → **52%** | 31% | 16% | Cormela, Glamour Thief (34%) | 0 | 9 | cascade / cheap spells, opponents losing life |
 | [Lord Xander, the Collector](decks/lord-xander-the-collector.md) | unchanged (ceiling) | 53% | 36% | 21% | Cormela, Glamour Thief (32%) | 0 | 13 | combat damage / attack triggers, discard, graveyard as a resource, sacrifice |
 | [Nicol Bolas, the Ravager // Nicol Bolas, the Arisen](decks/nicol-bolas-the-ravager.md) | unchanged (ceiling) | 54% | 35% | 17% | Mairsil, the Pretender (29%) | 0 | 10 | discard |
-| [The Valeyard](decks/the-valeyard.md) | not reviewed yet | 54% | 38% | 15% | Davros, Dalek Creator (22%) | 0 | 9 |  |
 | [Sauron, Lord of the Rings](decks/sauron-lord-of-the-rings.md) | unchanged (ceiling) | 55% | 34% | 17% | Sauron, the Dark Lord (43%) | 0 | 9 | Orc synergy, graveyard as a resource |
 | [Obeka, Brute Chronologist](decks/obeka-brute-chronologist.md) | unchanged (ceiling) | 55% | 34% | 17% | Sedris, the Traitor King (27%) | 0 | 9 | card draw / hand size, discard |
 | [Marchesa, Dealer of Death](decks/marchesa-dealer-of-death.md) | unchanged (ceiling) | 56% | 21% | 19% | Rograkh, Son of Rohgahh (50%) | 2 | 14 | crimes (targeting opponents and their things), graveyard as a resource |
-| [Sol'Kanar the Tainted](decks/solkanar-the-tainted.md) | not reviewed yet | 56% | 31% | 14% | Tetsuo Umezawa (22%) | 0 | 8 | opponents losing life |
+| [Sol'Kanar the Tainted](decks/solkanar-the-tainted.md) | unchanged (ceiling) | 56% | 31% | 14% | Tetsuo Umezawa (22%) | 0 | 8 | life gain, opponents losing life |
+| [Sedris, the Traitor King](decks/sedris-the-traitor-king.md) | unchanged (ceiling) | 57% | 34% | 16% | Sauron, Lord of the Rings (38%) | 0 | 9 | unearth / creature cards in your graveyard |
 | [Lord of Tresserhorn](decks/lord-of-tresserhorn.md) | unchanged (ceiling) | 58% | 27% | 13% | Tresserhorn's Lord, Returned (31%) | 0 | 4 | sacrifice |
-| [The Rani](decks/the-rani.md) | not reviewed yet | 61% | 35% | 16% | Tetsuo Umezawa (28%) | 0 | 10 | combat damage / attack triggers, goad / forced attacks, tokens |
+| [The Valeyard](decks/the-valeyard.md) | unchanged (ceiling) | 59% | 38% | 15% | Davros, Dalek Creator (22%) | 0 | 9 | villainous choices / voting |
 | [Nekusar, the Mindrazer](decks/nekusar-the-mindrazer.md) | unchanged (ceiling) | 61% | 36% | 16% | Gwendlyn Di Corci (36%) | 0 | 11 | opponents drawing (wheels / punishers) |
 | [Nathan Drake, Treasure Hunter](decks/nathan-drake-treasure-hunter.md) | unchanged (ceiling) | 62% | 35% | 17% | Don Andres, the Renegade (43%) | 0 | 10 | combat damage / attack triggers, playing cards from exile, stealing / casting opponents' cards |
 | [Kefka, Court Mage // Kefka, Ruler of Ruin](decks/kefka-court-mage.md) | refined | 59% → **62%** | 20% | 21% | Kess, Dissident Mage (61%) | 3 | 13 | combat damage / attack triggers, discard, sacrifice |
+| [The Rani](decks/the-rani.md) | refined | 61% → **62%** | 33% | 15% | Tetsuo Umezawa (26%) | 0 | 9 | combat damage / attack triggers, goad / forced attacks, tokens |
 | [Edea, Possessed Sorceress](decks/edea-possessed-sorceress.md) | unchanged (ceiling) | 62% | 28% | 14% | Marchesa, the Black Rose (29%) | 0 | 8 | graveyard as a resource, stealing / casting opponents' cards |
 | [Edward Kenway](decks/edward-kenway.md) | unchanged (ceiling) | 64% | 34% | 15% | Admiral Beckett Brass (27%) | 0 | 9 | Assassin synergy, Pirate synergy, Treasure, combat damage / attack triggers … |
 | [Lynde, Cheerful Tormentor](decks/lynde-cheerful-tormentor.md) | unchanged (ceiling) | 64% | 30% | 13% | Sol'Kanar the Tainted (18%) | 0 | 8 | graveyard as a resource |
 | [Obeka, Splitter of Seconds](decks/obeka-splitter-of-seconds.md) | unchanged (ceiling) | 64% | 28% | 13% | Nathan Drake, Treasure Hunter (21%) | 0 | 9 | combat damage / attack triggers |
-| [Wick, the Whorled Mind](decks/wick-the-whorled-mind.md) | not reviewed yet | 64% | 31% | 15% | Marchesa, the Black Rose (25%) | 0 | 8 | +1/+1 counters, Rat synergy, Snail synergy, enters triggers … |
+| [Wick, the Whorled Mind](decks/wick-the-whorled-mind.md) | unchanged (ceiling) | 64% | 31% | 15% | Marchesa, the Black Rose (25%) | 0 | 8 | +1/+1 counters, Rat synergy, Snail synergy, enters triggers … |
 | [Marchesa, the Black Rose](decks/marchesa-the-black-rose.md) | unchanged (ceiling) | 65% | 22% | 13% | Tresserhorn's Lord, Returned (31%) | 0 | 4 | +1/+1 counters, combat damage / attack triggers, graveyard as a resource |
-| [Thraximundar](decks/thraximundar.md) | not reviewed yet | 67% | 32% | 15% | Tresserhorn's Lord, Returned (32%) | 0 | 6 | +1/+1 counters, combat damage / attack triggers, sacrifice |
+| [Thraximundar](decks/thraximundar.md) | unchanged (ceiling) | 67% | 32% | 15% | Tresserhorn's Lord, Returned (32%) | 0 | 6 | +1/+1 counters, combat damage / attack triggers, sacrifice |
 | [Admiral Beckett Brass](decks/admiral-beckett-brass.md) | unchanged (ceiling) | 67% | 30% | 14% | Admiral Brass, Unsinkable (48%) | 0 | 6 | Pirate synergy, combat damage / attack triggers, stealing / casting opponents' cards |
-| [Dr. Eggman](decks/dr-eggman.md) | unchanged (ceiling) | 68% | 25% | 11% | Ashad, the Lone Cyberman (23%) | 0 | 6 | Construct synergy, Robot synergy, discard |
+| [Dr. Eggman](decks/dr-eggman.md) | unchanged (ceiling) | 68% | 25% | 11% | Ashad, the Lone Cyberman (23%) | 0 | 6 | Construct synergy, Robot synergy, discard, villainous choices / voting |
 | [Admiral Brass, Unsinkable](decks/admiral-brass-unsinkable.md) | unchanged (ceiling) | 68% | 23% | 15% | Admiral Beckett Brass (48%) | 0 | 7 | Pirate synergy, graveyard as a resource |
 | [Parnesse, the Subtle Brush](decks/parnesse-the-subtle-brush.md) | unchanged (ceiling) | 69% | 28% | 12% | Anhelo, the Painter (37%) | 0 | 5 | copying |
 | [Goro-Goro and Satoru](decks/goro-goro-and-satoru.md) | unchanged (ceiling) | 70% | 24% | 14% | Nathan Drake, Treasure Hunter (19%) | 0 | 10 | Dragon synergy, Spirit synergy, combat damage / attack triggers, tokens |
@@ -177,17 +195,17 @@ High-overlap pairs judged by hand (Bot cycle 40): is the shared core explained b
 | [Loki, the Deceiver](decks/loki-the-deceiver.md) | unchanged (ceiling) | 78% | 22% | 14% | Doctor Doom, King of Latveria (31%) | 0 | 8 | Illusion synergy, Villain synergy, combat damage / attack triggers, copying … |
 | [Doctor Doom, King of Latveria](decks/doctor-doom-king-of-latveria.md) | unchanged (ceiling) | 79% | 20% | 13% | Loki, the Deceiver (31%) | 0 | 5 | +1/+1 counters, Villain synergy, connive / looting, discard … |
 | [Don Andres, the Renegade](decks/don-andres-the-renegade.md) | unchanged (ceiling) | 81% | 12% | 14% | Nathan Drake, Treasure Hunter (43%) | 0 | 6 | Pirate synergy, Treasure, instants and sorceries, stealing / casting opponents' cards … |
-| [Missy](decks/missy.md) | unchanged (ceiling) | 81% | 12% | 13% | Marchesa, the Black Rose (26%) | 0 | 6 | Cyberman synergy, artifacts, graveyard as a resource |
+| [Missy](decks/missy.md) | unchanged (ceiling) | 81% | 12% | 13% | Marchesa, the Black Rose (26%) | 0 | 6 | Cyberman synergy, artifacts, graveyard as a resource, villainous choices / voting |
 | [Mishra, Eminent One](decks/mishra-eminent-one.md) | unchanged (ceiling) | 83% | 17% | 16% | Mishra, Artificer Prodigy (35%) | 0 | 9 | Construct synergy, artifacts, copying, sacrifice … |
-| [Tetsuo, Imperial Champion](decks/tetsuo-imperial-champion.md) | not reviewed yet | 84% | 14% | 11% | Garza Zol, Plague Queen (22%) | 0 | 6 | combat damage / attack triggers, instants and sorceries |
-| [Davros, Dalek Creator](decks/davros-dalek-creator.md) | unchanged (ceiling) | 85% | 12% | 14% | Cult of Skaro (35%) | 0 | 9 | artifacts, discard, opponents losing life, tokens |
+| [Tetsuo, Imperial Champion](decks/tetsuo-imperial-champion.md) | unchanged (ceiling) | 84% | 14% | 11% | Garza Zol, Plague Queen (22%) | 0 | 6 | combat damage / attack triggers, instants and sorceries |
+| [Davros, Dalek Creator](decks/davros-dalek-creator.md) | unchanged (ceiling) | 85% | 12% | 14% | Cult of Skaro (35%) | 0 | 9 | artifacts, discard, opponents losing life, tokens … |
 | [Mishra, Artificer Prodigy](decks/mishra-artificer-prodigy.md) | unchanged (ceiling) | 86% | 14% | 16% | Mai and Zuko (35%) | 0 | 9 | artifacts |
 | [Saruman, the White Hand](decks/saruman-the-white-hand.md) | unchanged (ceiling) | 87% | 10% | 16% | Sauron, the Dark Lord (34%) | 0 | 11 | +1/+1 counters, Army synergy, Goblin synergy, Orc synergy … |
 | [Ashnod the Uncaring](decks/ashnod-the-uncaring.md) | unchanged (ceiling) | 88% | 12% | 13% | Mishra, Eminent One (26%) | 0 | 6 | activated abilities, artifacts, copying, sacrifice |
 | [Anhelo, the Painter](decks/anhelo-the-painter.md) | unchanged (ceiling) | 89% | 11% | 16% | Parnesse, the Subtle Brush (37%) | 0 | 8 | casualty / power 2 or greater, copying, instants and sorceries, sacrifice |
 | [Ashad, the Lone Cyberman](decks/ashad-the-lone-cyberman.md) | unchanged (ceiling) | 90% | 9% | 12% | Cult of Skaro (28%) | 0 | 5 | +1/+1 counters, artifacts, casualty / power 2 or greater, copying … |
 | [Cult of Skaro](decks/cult-of-skaro.md) | unchanged (ceiling) | 91% | 9% | 12% | Davros, Dalek Creator (35%) | 0 | 5 | +1/+1 counters, Dalek synergy, artifacts, combat damage / attack triggers … |
-| [Zevlor, Elturel Exile](decks/zevlor-elturel-exile.md) | not reviewed yet | 91% | 6% | 14% | Anhelo, the Painter (22%) | 0 | 10 | copying, instants and sorceries |
+| [Zevlor, Elturel Exile](decks/zevlor-elturel-exile.md) | unchanged (ceiling) | 91% | 6% | 14% | Anhelo, the Painter (22%) | 0 | 10 | copying, instants and sorceries |
 | [Bjorna, Nightfall Alchemist + Cecily, Haunted Mage](decks/bjorna-nightfall-alchemist-cecily.md) | unchanged (ceiling) | 98% | 0% | 15% | Anhelo, the Painter (26%) | 0 | 6 | artifacts, card draw / hand size, combat damage / attack triggers, goad / forced attacks … |
 | [Rograkh, Son of Rohgahh + Silas Renn, Seeker Adept](decks/rograkh-son-of-rohgahh-silas-renn.md) | unchanged (ceiling) | 99% | 0% | 19% | Norman Osborn // Green Goblin (60%) | 3 | 13 | artifacts, combat damage / attack triggers |
 
@@ -203,8 +221,8 @@ Most-shared nonland cards across the 62 source lists (count of lists):
 | Demonic Tutor | 57 |
 | Talisman of Indulgence | 56 |
 | Talisman of Creativity | 56 |
-| Vampiric Tutor | 54 |
 | Fierce Guardianship | 54 |
+| Vampiric Tutor | 54 |
 | Deflecting Swat | 53 |
 | Cyclonic Rift | 46 |
 | Toxic Deluge | 45 |
@@ -213,10 +231,10 @@ Most-shared nonland cards across the 62 source lists (count of lists):
 | Fellwar Stone | 40 |
 | Swan Song | 39 |
 | Chaos Warp | 37 |
-| Mystic Remora | 36 |
 | Deadly Rollick | 36 |
-| Force of Will | 35 |
+| Mystic Remora | 36 |
 | Jeska's Will | 35 |
+| Force of Will | 35 |
 | Mana Vault | 34 |
 | Dark Ritual | 33 |
 | Lightning Greaves | 33 |

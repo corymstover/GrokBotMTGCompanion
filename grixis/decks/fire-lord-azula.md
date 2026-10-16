@@ -214,6 +214,8 @@ Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
 - **Commander dependence:** 25% → **25%** · generic share 40% → **40%** · mean overlap with the other 61 lists 20% → **20%**.
 - **Decision:** at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged.
 
+> 🔎 **Hand review (Bot cycle 43): cEDH ceiling; identity-first version would be weaker; unchanged (flagged).** Added late: Azula's 25% score is under the hand-review line, but batch 2 (Bot cycle 40) ran before that rule was applied to every deck. The list is a cEDH turbo shell: Thassa's Oracle, Demonic Consultation / Tainted Pact, Ad Nauseam, Underworld Breach with Lion's Eye Diamond and Brain Freeze, fast mana, and free counterspells. Azula is used as an attacking copy engine: "Whenever you cast a spell while Fire Lord Azula is attacking, copy that spell." Her support is haste (Birgi, Expedite, Crimson Wisps), instant-speed sorceries (Quicken, Borne Upon a Wind), and copied rituals and tutors. Swapping the combo core for more attack-copy payoffs would lower the deck's ceiling, so the list is left as is. Same tradeoff as Evelyn.
+
 ### Refinement log
 
 | Date | Cycle | Change | Cards added | Cards removed |

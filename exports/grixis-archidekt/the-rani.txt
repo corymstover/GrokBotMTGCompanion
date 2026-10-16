@@ -38,6 +38,7 @@
 1 Hateful Eidolon
 1 Haunted Ridge
 1 Hot Pursuit
+1 Idol of Oblivion
 1 Incriminating Impetus
 1 Inspiring Statuary
 3 Island
@@ -52,7 +53,6 @@
 1 Mocking Doppelganger
 1 Morphic Pool
 3 Mountain
-1 Mystic Remora
 1 Mystical Tutor
 1 Otawara, Soaring City
 1 Polluted Delta

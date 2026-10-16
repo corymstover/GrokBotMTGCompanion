@@ -54,15 +54,15 @@
 | 48 | [saruman-the-white-hand.txt](saruman-the-white-hand.txt) | Saruman, the White Hand | unchanged (at/near ceiling) | none |
 | 49 | [sauron-lord-of-the-rings.txt](sauron-lord-of-the-rings.txt) | Sauron, Lord of the Rings | unchanged (at/near ceiling) | none |
 | 50 | [sauron-the-dark-lord.txt](sauron-the-dark-lord.txt) | Sauron, the Dark Lord | unchanged (at/near ceiling) | none |
-| 51 | [sedris-the-traitor-king.txt](sedris-the-traitor-king.txt) | Sedris, the Traitor King | unchanged (not reviewed yet) | none |
-| 52 | [solkanar-the-swamp-king.txt](solkanar-the-swamp-king.txt) | Sol'kanar the Swamp King | unchanged (not reviewed yet) | none |
-| 53 | [solkanar-the-tainted.txt](solkanar-the-tainted.txt) | Sol'Kanar the Tainted | unchanged (not reviewed yet) | none |
-| 54 | [tetsuo-umezawa.txt](tetsuo-umezawa.txt) | Tetsuo Umezawa | unchanged (not reviewed yet) | none |
-| 55 | [tetsuo-imperial-champion.txt](tetsuo-imperial-champion.txt) | Tetsuo, Imperial Champion | unchanged (not reviewed yet) | none |
+| 51 | [sedris-the-traitor-king.txt](sedris-the-traitor-king.txt) | Sedris, the Traitor King | unchanged (at/near ceiling) | none |
+| 52 | [solkanar-the-swamp-king.txt](solkanar-the-swamp-king.txt) | Sol'kanar the Swamp King | refined | −Windfall +Well of Lost Dreams (life gain) |
+| 53 | [solkanar-the-tainted.txt](solkanar-the-tainted.txt) | Sol'Kanar the Tainted | unchanged (at/near ceiling) | none |
+| 54 | [tetsuo-umezawa.txt](tetsuo-umezawa.txt) | Tetsuo Umezawa | unchanged (at/near ceiling) | none |
+| 55 | [tetsuo-imperial-champion.txt](tetsuo-imperial-champion.txt) | Tetsuo, Imperial Champion | unchanged (at/near ceiling) | none |
 | 56 | [the-madcap-jester.txt](the-madcap-jester.txt) | The Madcap Jester | ⏳ PENDING LEGALITY (not Commander-legal before 2026-10-19) · unchanged (not reviewed yet) | none |
-| 57 | [the-rani.txt](the-rani.txt) | The Rani | unchanged (not reviewed yet) | none |
-| 58 | [the-valeyard.txt](the-valeyard.txt) | The Valeyard | unchanged (not reviewed yet) | none |
-| 59 | [thraximundar.txt](thraximundar.txt) | Thraximundar | unchanged (not reviewed yet) | none |
+| 57 | [the-rani.txt](the-rani.txt) | The Rani | refined | −Mystic Remora +Idol of Oblivion (tokens) |
+| 58 | [the-valeyard.txt](the-valeyard.txt) | The Valeyard | unchanged (at/near ceiling) | none |
+| 59 | [thraximundar.txt](thraximundar.txt) | Thraximundar | unchanged (at/near ceiling) | none |
 | 60 | [tresserhorns-lord-returned.txt](tresserhorns-lord-returned.txt) | Tresserhorn's Lord, Returned | ⏳ PENDING LEGALITY (not Commander-legal before 2026-10-19) · unchanged (not reviewed yet) | none |
-| 61 | [wick-the-whorled-mind.txt](wick-the-whorled-mind.txt) | Wick, the Whorled Mind | unchanged (not reviewed yet) | none |
-| 62 | [zevlor-elturel-exile.txt](zevlor-elturel-exile.txt) | Zevlor, Elturel Exile | unchanged (not reviewed yet) | none |
+| 61 | [wick-the-whorled-mind.txt](wick-the-whorled-mind.txt) | Wick, the Whorled Mind | unchanged (at/near ceiling) | none |
+| 62 | [zevlor-elturel-exile.txt](zevlor-elturel-exile.txt) | Zevlor, Elturel Exile | unchanged (at/near ceiling) | none |
