@@ -524,6 +524,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8782 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2008-04-01* — You may sacrifice Rhys the Exiled to pay for its own regeneration ability. However, since Rhys is no longer on the battlefield, the ability will have no effect.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 192 decks; highest synergy [Imperious Perfect](../../cards/I/im.md#imperious-perfect) (+75%), [Elvish Archdruid](../../cards/E/el.md#elvish-archdruid) (+74%), [Lys Alana Huntmaster](../../cards/L/ly.md#lys-alana-huntmaster) (+68%) · EDHREC: in 15,141 decks; most often under [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (27.3% of its decks), [Thranduil, the Elvenking](../../cards/T/thr.md#thranduil-the-elvenking) (14.2% of its decks), [High Perfect Morcant](../../cards/H/hi.md#high-perfect-morcant) (6.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khc/73/rhys-the-exiled) · oracle_id `7613c50b-4568-4340-b64a-ab427aaffd51` · printing: KHC #73 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhys the Redeemed

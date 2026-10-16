@@ -1201,15 +1201,17 @@ schema: 2
 
 ### Iron Man, Armored Avenger
 
-[Card entry](../cards/I/ir.md#iron-man-armored-avenger) · **1 pages** (card data 1)
+[Card entry](../cards/I/ir.md#iron-man-armored-avenger) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 - **Card data (1):** [Artist Index → Artists C](../Artist%20Index.md#artists-c)
 
 ### Iron Man, Bleeding Edge
 
-[Card entry](../cards/I/ir.md#iron-man-bleeding-edge) · **1 pages** (decks 1)
+[Card entry](../cards/I/ir.md#iron-man-bleeding-edge) · **2 pages** (decks 1 · edh guides 1)
 
 - **Decks (1):** [Ashad, the Lone Cyberman (Grixis)](../grixis/decks/ashad-the-lone-cyberman.md)
+- **EDH guides (1):** [EDH Packages → Artifacts: Artifact payoffs](../EDH%20Packages.md#artifacts-artifact-payoffs)
 
 ### Iron Man, Titan of Innovation
 

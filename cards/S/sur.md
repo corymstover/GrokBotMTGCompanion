@@ -676,7 +676,9 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7208 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#surrak-elusive-hunter)
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Tarkir: Dragonstorms](https://magic.wizards.com/en/news/feature/the-legends-of-tarkir-dragonstorm) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 217 decks; highest synergy [Battle Mammoth](../../cards/B/bat.md#battle-mammoth) (+32%), [Elder Gargaroth](../../cards/E/el.md#elder-gargaroth) (+32%), [Goreclaw, Terror of Qal Sisma](../../cards/G/gor.md#goreclaw-terror-of-qal-sisma) (+30%) · EDHREC: in 20,435 decks; most often under [Eshki, Temur's Roar](../../cards/E/es.md#eshki-temurs-roar) (9.4% of its decks), [Eshki Dragonclaw](../../cards/E/es.md#eshki-dragonclaw) (12.9% of its decks), [The Earth King](../../cards/T/thee.md#the-earth-king) (41.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#surrak-elusive-hunter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/161/surrak-elusive-hunter) · oracle_id `7a0fe73f-6e08-4c9a-80e1-c2ead6cebe06` · printing: TDM #161 (2025-04-11) · [rulings](https://api.scryfall.com/cards/e4775a26-0b66-40e9-8f64-41d9308ca032/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surrak, the Hunt Caller
@@ -803,6 +805,8 @@ schema: 2
   - *2024-07-05* — An ability that triggers "whenever you cast a historic spell" doesn't trigger if a historic card is put onto the battlefield without being cast.
   - *2024-07-05* — Lands are never cast, so abilities that trigger "whenever you cast a historic spell" won't trigger if you play a legendary land. They also won't trigger if a card on the battlefield transforms into a card with the legendary supertype, the artifact card type, or the Saga subtype.
   - *2024-07-05* — Some abilities trigger "whenever you cast a historic spell." Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 458 decks; highest synergy [Jhoira's Familiar](../../cards/J/jh.md#jhoiras-familiar) (+62%), [Calamity Bearer](../../cards/C/cal.md#calamity-bearer) (+60%), [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+54%) · EDHREC: in 19,333 decks; most often under [Atreus, Impulsive Son // Kratos, Stoic Father](../../cards/A/at.md#atreus-impulsive-son) (57.9% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (3.2% of its decks), [Arbaaz Mir](../../cards/A/arb.md#arbaaz-mir) (39.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/293/surtr-fiery-j%C3%B6tun) · oracle_id `424084cf-418f-47b4-915f-b254c8adb3bd` · printing: ACR #293 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surveillance Monitor

@@ -38,6 +38,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7275 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-07-26* — If the number of cards in defending player's hand minus the number of cards in your hand is 0 or less, you won't draw any cards.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Bloomburrow](https://magic.wizards.com/en/news/feature/the-legends-of-bloomburrow) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6,462 decks; highest synergy [Reconnaissance](../../cards/R/rec.md#reconnaissance) (+45%), [Kodama of the East Tree](../../cards/K/ko.md#kodama-of-the-east-tree) (+44%), [Nezahal, Primal Tide](../../cards/N/ne.md#nezahal-primal-tide) (+41%) · EDHREC: in 13,849 decks; most often under [Ms. Bumbleflower](../../cards/M/ms.md#ms-bumbleflower) (23.6% of its decks), [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (5.9% of its decks), [Helga, Skittish Seer](../../cards/H/he.md#helga-skittish-seer) (3.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/BLC-6/mr-foxglove) · oracle_id `c2008ba9-00df-4607-ba0c-189af52033eb` · printing: PLST #BLC-6 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mr. House, President and CEO
@@ -89,6 +91,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7926 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-04-29* — To double a creature's power, that creature gets +X/+0, where X is that creature's power as Mr. Orfeo's triggered ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Mr. Orfeo, the Boulder + Malignus + Chandra's Ignition](https://commanderspellbook.com/combo/2560-3059-7501/) (Each opponent loses the game, Near-infinite damage) · EDHREC as commander: 2,493 decks; highest synergy [Fling](../../cards/F/fl.md#fling) (+47%), [Garruk's Uprising](../../cards/G/ga.md#garruks-uprising) (+42%), [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (+41%) · EDHREC: in 15,426 decks; most often under [Ziatora, the Incinerator](../../cards/Z/zi.md#ziatora-the-incinerator) (47.8% of its decks), [Maarika, Brutal Gladiator](../../cards/M/maa.md#maarika-brutal-gladiator) (62.8% of its decks), [Kresh the Bloodbraided](../../cards/K/kr.md#kresh-the-bloodbraided) (23.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/204/mr-orfeo-the-boulder) · oracle_id `58447f16-1df9-4e9a-bb22-b9aad042055a` · printing: SNC #204 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mr. Wiggles, Helpful Butterfly

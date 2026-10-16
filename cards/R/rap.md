@@ -205,6 +205,8 @@ schema: 2
   - *2026-01-27* — The damage is dealt by the same source as the original source of damage. The doubled damage isn't dealt by Raphael unless he was the original source of damage.
   - *2026-01-27* — To have two commanders, both must have appropriate partner abilities as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2026-01-27* — You can have two commanders if each one has "Partner—Character select." You can't mix and match them with cards that have other partner abilities.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 25 decks; highest synergy [Casey Jones, Back Alley Brute](../../cards/C/cas.md#casey-jones-back-alley-brute) (+74%), [Raphael's Technique](../../cards/R/rap.md#raphaels-technique) (+71%), [Raphael, the Nightwatcher](../../cards/R/rap.md#raphael-the-nightwatcher) (+61%) · EDHREC: in 20,048 decks; most often under [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (83.4% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (85.6% of its decks), [April O'Neil, Live on the Scene // Leonardo, the Balance](../../cards/A/ap.md#april-oneil-live-on-the-scene) (87.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#raphael-the-muscle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/4/raphael-the-muscle) · oracle_id `22008c3b-6e15-41cc-a15c-7871495191aa` · printing: TMC #4 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -255,6 +257,8 @@ schema: 2
   > *At odds as brothers, perfectly in sync as fighters.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8586 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 389 decks; highest synergy [Raphael, the Nightwatcher](../../cards/R/rap.md#raphael-the-nightwatcher) (+60%), [Agent Bishop, Man in Black](../../cards/A/ag.md#agent-bishop-man-in-black) (+42%), [Leader's Talent](../../cards/L/le.md#leaders-talent) (+38%) · EDHREC: in 15,563 decks; most often under [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (24.7% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (47.4% of its decks), [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (13.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/166/raph-&-leo-sibling-rivals) · oracle_id `57f39ce2-ecbb-4262-8140-03aba5c4303f` · printing: TMT #166 (2026-03-06) · [rulings](https://api.scryfall.com/cards/49293f77-5d7b-4106-b485-db6ce0ed37e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raph & Mikey, Troublemakers

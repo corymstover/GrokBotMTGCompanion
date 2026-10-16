@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 36 (Phase 8: Legends evidence, audit pass 2, batch 4 partial)](#2026-10-16--bot-cycle-36-phase-8-legends-evidence-audit-pass-2-batch-4-partial)
 - [2026-10-15 — Bot cycle 35 (Phase 8: story cache, name-match audit, batch 3)](#2026-10-15--bot-cycle-35-phase-8-story-cache-name-match-audit-batch-3)
 - [2026-10-15 — Bot cycle 34 (Phase 8: batch 2, package back-links, atomic writes)](#2026-10-15--bot-cycle-34-phase-8-batch-2-package-back-links-atomic-writes)
 - [2026-10-15 — Bot cycle 33 (Phase 8: card enrichment format + batch 1)](#2026-10-15--bot-cycle-33-phase-8-card-enrichment-format--batch-1)
@@ -49,6 +50,19 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 36 (Phase 8: Legends evidence, audit pass 2, batch 4 partial)
+Last Phase 8 cycle for now (Cory: stop after cycle 36). Slices 3–10 were not run.
+
+- **Official Legends / Story Spotlight articles ([#100](https://github.com/corymstover/GrokBotMTGCompanion/issues/100)):** 26 Wizards articles (17 *Legends of …* set articles, 3 *Story Spotlight Cards*, 6 more legendary-character previews: Modern Horizons 2 ×2, Commander Legends ×2, March of the Machine team-ups, Thunder Junction crew) listed in the new `data/story_extra_sources.csv` and fetched by `scripts/fetch_story_pages.py` into `.cache/story/extra/`. They are kept apart from the story cache, so the quote ledger and the priority tiers do not shift.
+  - New Lore evidence: a card whose front-face name is a heading line on one of these articles renders ✅ *Presented with an official backstory on* (Legends) or ✅ *Listed on* (Spotlight). 495 cards. Batch-35 cards with the ❓ no-lore-yet line fell from 1,045 to 809.
+  - Planeswalker's Guide card galleries are images only, so they are not evidence.
+- **Name-match audit, second pass:** the 401 kept ⚠️ links were re-tested. A link is confirmed when the card is presented on a Legends / Spotlight article that also names the character. 60 more confirmed. Totals for the 702 links: 353 confirmed (156 page, 131 art, 62 Legends / Spotlight article, 3 flavor, 1 Story Spotlight printing), 341 ⚠️, 8 removed.
+- **Curated notes:** 8 Story Spotlight notes (Assemble the Players, Matzalantli, Huatli's Final Strike, Warleader's Call, Audience with Trostani, Expose the Culprit, Bitter Triumph, Canonized in Blood), 28 total. Quotes are verbatim in the cited Spotlight articles. The note check now also reads `.cache/story/extra/`.
+- **Batch 4 / batch 36 ([#101](https://github.com/corymstover/GrokBotMTGCompanion/issues/101)):** slices 1–2 of 10: 500 legendary creatures to EDHREC rank 9,647. EDHREC 500, as-commander 500, Spellbook combos 233, KB decks 46, 124 flagged 🚫 Universes Beyond; 89 have lore evidence, 411 carry the ❓ line.
+- **Coverage:** planeswalkers 338/338; entry-linked 128/128; character cards 414/414; story-flavor 1,431/1,431; legendary creatures 1,822/3,786 (48.1%); priority pool 3,397/5,361 (63.4%).
+- **Remaining gaps:** 1,964 legendary creatures (ranks 9,648–32,347, then 281 unranked); 341 ⚠️ links; 1,220 ❓ cards; more Spotlight notes. See [ROADMAP → Phase 8](ROADMAP.md#phase-8--card-level-lore--synergy-deepening-bot-cycles-33-cory-2026-10-15).
+- `validate_all` PASS (13 steps).
 
 ## 2026-10-15 — Bot cycle 35 (Phase 8: story cache, name-match audit, batch 3)
 - **Story-page cache:**

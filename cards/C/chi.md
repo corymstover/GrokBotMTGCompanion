@@ -312,6 +312,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8185 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Child of Alara + Gift of Immortality + Avacyn, Angel of Hope + Ashnod's Altar](https://commanderspellbook.com/combo/2034-3055-3149-3747/) (Destroy all nonland permanents opponents control each turn, Lock) · EDHREC as commander: 11,193 decks; highest synergy [Azusa, Lost but Seeking](../../cards/A/az.md#azusa-lost-but-seeking) (+33%), [Thespian's Stage](../../cards/T/thes.md#thespians-stage) (+33%), [Golgari Guildgate](../../cards/G/gol.md#golgari-guildgate) (+30%) · EDHREC: in 5,861 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (2.6% of its decks), [Jenson Carthalion, Druid Exile](../../cards/J/je.md#jenson-carthalion-druid-exile) (25.2% of its decks), [Jared Carthalion](../../cards/J/ja.md#jared-carthalion) (10.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#child-of-alara)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/192/child-of-alara) · oracle_id `70dbe8a9-505d-41c2-9b5b-a991d13ab459` · printing: 2X2 #192 (2022-07-08) · [rulings](https://api.scryfall.com/cards/b2373625-af3c-4c2a-a1d1-5288c446955d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -803,7 +805,7 @@ schema: 2
   - *2022-02-18* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
   - *2022-02-18* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
   - *2022-02-18* — An Aura controlled by an opponent does not cause a creature you control to be modified.
-- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Kamigawa: Neon Dynasty](https://magic.wizards.com/en/news/feature/legends-kamigawa-neon-dynasty-2022-02-11) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Dan Lewis + Peregrin Took + Chishiro, the Shattered Blade](https://commanderspellbook.com/combo/1765-4321-6213/) (Infinite creature ETB, Infinite creature tokens) · EDHREC as commander: 7,010 decks; highest synergy [Bear Umbra](../../cards/B/be.md#bear-umbra) (+69%), [Grumgully, the Generous](../../cards/G/gru.md#grumgully-the-generous) (+68%), [Champion of Lambholt](../../cards/C/cha.md#champion-of-lambholt) (+67%) · EDHREC: in 18,497 decks; most often under [Dogmeat, Ever Loyal](../../cards/D/do.md#dogmeat-ever-loyal) (31.9% of its decks), [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (8.6% of its decks), [Stangg, Echo Warrior](../../cards/S/sta.md#stangg-echo-warrior) (79.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#chishiro-the-shattered-blade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/1/chishiro-the-shattered-blade) · oracle_id `c98a4af3-3e58-4927-9a60-d2664cf0b139` · printing: NEC #1 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
@@ -820,6 +822,9 @@ schema: 2
 - **Keywords:** Flying, Affinity, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7794 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Phyrexia: All Will Be One](https://magic.wizards.com/en/news/feature/the-legends-of-phyrexia-all-will-be-one) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4,222 decks; highest synergy [Darksteel Citadel](../../cards/D/da.md#darksteel-citadel) (+83%), [Great Furnace](../../cards/G/gre.md#great-furnace) (+75%), [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+71%) · EDHREC: in 14,173 decks; most often under [Imskir Iron-Eater](../../cards/I/im.md#imskir-iron-eater) (42.0% of its decks), [Magda, Brazen Outlaw](../../cards/M/mag.md#magda-brazen-outlaw) (5.0% of its decks), [Meria, Scholar of Antiquity](../../cards/M/me.md#meria-scholar-of-antiquity) (11.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#chiss-goria-forge-tyrant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/onc/25/chiss-goria-forge-tyrant) · oracle_id `3f4d1ae1-d5c6-4afb-94c8-8e0ae4891501` · printing: ONC #25 (2023-02-10) · [rulings](https://api.scryfall.com/cards/923eb713-c955-4e12-8a8f-df3b4b361487/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chitin Gravestalker

@@ -265,6 +265,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7527 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-11-19* — Umbris, Fear Manifest's first ability counts all cards your opponents own in exile, not just cards exiled by the second ability.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Innistrad: Crimson Vow](https://magic.wizards.com/en/news/feature/legends-innistrad-crimson-vow-2021-11-12) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Umbris, Fear Manifest + Ruthless Technomancer + Phyrexian Metamorph](https://commanderspellbook.com/combo/988-3719-3734/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 11,641 decks; highest synergy [Leyline of the Void](../../cards/L/le.md#leyline-of-the-void) (+72%), [Tasha's Hideous Laughter](../../cards/T/ta.md#tashas-hideous-laughter) (+72%), [Ashiok, Nightmare Muse](../../cards/A/as.md#ashiok-nightmare-muse) (+64%) · EDHREC: in 7,726 decks; most often under [Captain N'ghathrod](../../cards/C/cap.md#captain-nghathrod) (21.9% of its decks), [Zellix, Sanity Flayer // Haunted One](../../cards/Z/ze.md#zellix-sanity-flayer) (24.4% of its decks), [Yarok, the Desecrated](../../cards/Y/ya.md#yarok-the-desecrated) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/38/umbris-fear-manifest) · oracle_id `af31febb-af53-4b48-b930-9e1f9e5d8f26` · printing: VOC #38 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umezawa's Charm

@@ -181,6 +181,8 @@ schema: 2
 - **Rulings** (2):
   - *2025-09-19* — If the copied card has {X} in its mana cost, X is 0.
   - *2025-09-19* — Treat Superior Spider-Man as though he were the chosen card entering (with the noted exceptions). Any "As this creature enters," "This creature enters with," and "When this creature enters" abilities of the chosen card will work.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,185 decks; highest synergy [Buried Alive](../../cards/B/bu.md#buried-alive) (+53%), [Entomb](../../cards/E/en.md#entomb) (+44%), [Frantic Search](../../cards/F/fr.md#frantic-search) (+40%) · EDHREC: in 20,456 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (67.7% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (6.5% of its decks), [Gyruda, Doom of Depths](../../cards/G/gy.md#gyruda-doom-of-depths) (32.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#superior-spider-man)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/155/superior-spider-man) · oracle_id `636cc915-9d1b-4ffe-9e74-795b78663911` · printing: SPM #155 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

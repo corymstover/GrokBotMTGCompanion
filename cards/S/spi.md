@@ -330,6 +330,8 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9409 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 18 combos; most popular [Nadir Kraken + Spider-Gwen, Free Spirit + Intruder Alarm](https://commanderspellbook.com/combo/1636-1722-6827--119/) (Infinite self-discard triggers, Near-infinite creature ETB) · EDHREC as commander: 47 decks; highest synergy [Magmakin Artillerist](../../cards/M/mag.md#magmakin-artillerist) (+61%), [Fiery Temper](../../cards/F/fi.md#fiery-temper) (+52%), [Electric Revelation](../../cards/E/el.md#electric-revelation) (+43%) · EDHREC: in 13,772 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (42.7% of its decks), [Miles Morales](../../cards/M/mil.md#miles-morales--ultimate-spider-man) (32.0% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (4.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/874/spider-gwen-free-spirit) · oracle_id `2648559d-1d96-47d2-a769-cfa2cbca2be5` · printing: MSC #874 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3a9a0ec2-6f57-4218-a307-6e8d785a1693/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Ham, Peter Porker
@@ -377,6 +379,8 @@ schema: 2
 - **Keywords:** Vigilance, From the Future, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7544 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,501 decks; highest synergy [Tavern Brawler](../../cards/T/ta.md#tavern-brawler) (+66%), [Haste Magic](../../cards/H/ha.md#haste-magic) (+60%), [Cait Sith, Fortune Teller](../../cards/C/cai.md#cait-sith-fortune-teller) (+55%) · EDHREC: in 16,871 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (57.6% of its decks), [Gwen Stacy](../../cards/G/gw.md#gwen-stacy--ghost-spider) (59.4% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (3.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spider-man-2099)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/150/spider-man-2099) · oracle_id `19845456-3d96-48a4-89fa-9b8e583774c9` · printing: SPM #150 (2025-09-26) · [rulings](https://api.scryfall.com/cards/2a72c7e7-34f5-4cb0-9959-35516e398e49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -464,6 +468,8 @@ schema: 2
   - *2025-09-19* — The creature you return must be tapped at the time you pay costs, but doesn't necessarily need to be tapped before you start casting the spell. For example, if you tap a creature with a mana ability to pay part of the spell's web-slinging cost, you could also return that creature to your hand to pay the cost.
   - *2025-09-19* — Web-slinging represents an alternative cost. If another effect allows you to play a card for a different alternative cost, including "without paying its mana cost," you can't also choose to pay its web-slinging cost. If any additional costs from other sources are applied, you must pay those.
   - *2025-09-19* — You must follow all normal timing rules when casting a spell with web-slinging. For creatures, that usually means you must cast it during a main phase of your turn while the stack is empty.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 87 combos; most popular [Spider-Man India + Shrieking Drake + Crystalline Crawler](https://commanderspellbook.com/combo/751-2060-6930/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 276 decks; highest synergy [Spider-Man, Brooklyn Visionary](../../cards/S/spi.md#spider-man-brooklyn-visionary) (+48%), [Spider-UK](../../cards/S/spi.md#spider-uk) (+44%), [Silk, Web Weaver](../../cards/S/si.md#silk-web-weaver) (+42%) · EDHREC: in 18,319 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (67.3% of its decks), [Miles Morales](../../cards/M/mil.md#miles-morales--ultimate-spider-man) (64.8% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (30.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/151/spider-man-india) · oracle_id `8933297c-62f1-4df9-91b8-2d3481db77e5` · printing: SPM #151 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Man, Miles Morales
@@ -478,6 +484,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7061 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-09-19* — Spider-Man, Miles Morales's last ability triggers only when he enters or attacks, not when any other creature named Spider-Man enters or attacks.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 200 decks; highest synergy [Hardened Scales](../../cards/H/ha.md#hardened-scales) (+54%), [Inspiring Call](../../cards/I/ins.md#inspiring-call) (+52%), [Spider-Man, Brooklyn Visionary](../../cards/S/spi.md#spider-man-brooklyn-visionary) (+49%) · EDHREC: in 21,033 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (49.7% of its decks), [Miles Morales](../../cards/M/mil.md#miles-morales--ultimate-spider-man) (57.0% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (29.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spe/18/spider-man-miles-morales) · oracle_id `229ecaa1-b3c9-44a1-8e7a-857ea5b8b0df` · printing: SPE #18 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Man, New Champion
@@ -506,6 +514,8 @@ schema: 2
 - **Keywords:** Surveil, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8860 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 451 decks; highest synergy [Eye of Duskmantle](../../cards/E/ey.md#eye-of-duskmantle) (+66%), [Dogged Detective](../../cards/D/do.md#dogged-detective) (+53%), [Qarsi Revenant](../../cards/Q/qa.md#qarsi-revenant) (+52%) · EDHREC: in 14,724 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (46.9% of its decks), [Mirko, Obsessive Theorist](../../cards/M/mir.md#mirko-obsessive-theorist) (11.6% of its decks), [Shelob, Child of Ungoliant](../../cards/S/she.md#shelob-child-of-ungoliant) (5.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/67/spider-man-noir) · oracle_id `2efd6494-c5e1-41de-bc6e-8490ff046cd1` · printing: SPM #67 (2025-09-26) · [rulings](https://api.scryfall.com/cards/bc64366c-2691-48cd-bb4b-a4b088c6f16b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Man No More
@@ -637,6 +647,8 @@ schema: 2
 - **Keywords:** Reach, Trample, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8958 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 250 decks; highest synergy [Balamb T-Rexaur](../../cards/B/bal.md#balamb-t-rexaur) (+83%), [Colossal Dreadmaw](../../cards/C/col.md#colossal-dreadmaw) (+81%), [Earthshaker Dreadmaw](../../cards/E/ea.md#earthshaker-dreadmaw) (+76%) · EDHREC: in 14,665 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (30.4% of its decks), [Miles Morales](../../cards/M/mil.md#miles-morales--ultimate-spider-man) (22.1% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (15.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/818/spider-rex-daring-dino) · oracle_id `58b771d4-dfaf-4189-a5f6-4bc0fb4c0fa3` · printing: MSC #818 (2026-06-26) · [rulings](https://api.scryfall.com/cards/531bad8f-a1e2-43ff-9d76-d702142f50a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Sense
@@ -769,6 +781,9 @@ schema: 2
   - *2025-09-19* — The creature you return must be tapped at the time you pay costs, but doesn't necessarily need to be tapped before you start casting the spell. For example, if you tap a creature with a mana ability to pay part of the spell's web-slinging cost, you could also return that creature to your hand to pay the cost.
   - *2025-09-19* — Web-slinging represents an alternative cost. If another effect allows you to play a card for a different alternative cost, including "without paying its mana cost," you can't also choose to pay its web-slinging cost. If any additional costs from other sources are applied, you must pay those.
   - *2025-09-19* — You must follow all normal timing rules when casting a spell with web-slinging. For creatures, that usually means you must cast it during a main phase of your turn while the stack is empty.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 59 decks; highest synergy [Aunt May](../../cards/A/au.md#aunt-may) (+43%), [Belladonna Took](../../cards/B/be.md#belladonna-took) (+35%), [Rumor Gatherer](../../cards/R/ru.md#rumor-gatherer) (+34%) · EDHREC: in 14,632 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (44.7% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (20.1% of its decks), [Miles Morales](../../cards/M/mil.md#miles-morales--ultimate-spider-man) (20.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#spider-uk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/777/spider-uk) · oracle_id `ebf8d006-2997-431b-b4cb-9692741b45ca` · printing: MSC #777 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider Umbra
@@ -1684,6 +1699,9 @@ schema: 2
   - *2025-09-19* — Spinneret and Spiderling are one Spider under the game rules.
   - *2025-09-19* — Spinneret and Spiderling doesn't have to be one of the two or more Spiders you attack with in order to cause their first ability to trigger.
   - *2025-09-19* — You must follow all normal timing rules when playing a land or casting a spell this way.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 58 decks; highest synergy [Taurean Mauler](../../cards/T/ta.md#taurean-mauler) (+62%), [Giantfall](../../cards/G/gi.md#giantfall) (+60%), [Swarmyard](../../cards/S/sw.md#swarmyard) (+60%) · EDHREC: in 13,622 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (57.7% of its decks), [Miles Morales](../../cards/M/mil.md#miles-morales--ultimate-spider-man) (43.4% of its decks), [Gwen Stacy](../../cards/G/gw.md#gwen-stacy--ghost-spider) (24.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#spinneret-and-spiderling)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/94/spinneret-and-spiderling) · oracle_id `daca1d5e-349d-4e8a-abc7-427dab43fb0c` · printing: SPM #94 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spinneret Sliver

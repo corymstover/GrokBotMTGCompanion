@@ -112,6 +112,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8195 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Strixhaven](https://magic.wizards.com/en/news/feature/legends-strixhaven-2021-04-13) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Osgir, the Reconstructor + Ugin's Nexus + Pull from Eternity + Isochron Scepter](https://commanderspellbook.com/combo/1750-2793-3743-5261/) (Infinite turns, Lock) · EDHREC as commander: 4,923 decks; highest synergy [Ancient Den](../../cards/A/an.md#ancient-den) (+79%), [Darksteel Citadel](../../cards/D/da.md#darksteel-citadel) (+79%), [Great Furnace](../../cards/G/gre.md#great-furnace) (+78%) · EDHREC: in 12,087 decks; most often under [Ragost, Deft Gastronaut](../../cards/R/rag.md#ragost-deft-gastronaut) (19.8% of its decks), [Megatron, Tyrant](../../cards/M/me.md#megatron-tyrant--megatron-destructive-force) (16.8% of its decks), [Alibou, Ancient Witness](../../cards/A/al.md#alibou-ancient-witness) (29.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/8/osgir-the-reconstructor) · oracle_id `add020f8-a6ae-4ce1-8d4e-f48f3fd14767` · printing: C21 #8 (2021-04-23) · [rulings](https://api.scryfall.com/cards/5815fe6e-e26b-4918-a090-55d6442722c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Osgood, Operation Double

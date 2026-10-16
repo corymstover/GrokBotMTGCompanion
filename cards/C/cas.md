@@ -513,6 +513,8 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7224 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 11 combos; most popular [Casey Jones, Back Alley Brute + Ob Nixilis, Captive Kingpin](https://commanderspellbook.com/combo/4166-7362/) (Exile your library with the ability to play the exiled cards until end of turn, Infinite +1/+1 counters on a creature) · EDHREC as commander: 237 decks; highest synergy [All Will Be One](../../cards/A/al.md#all-will-be-one) (+72%), [Taurean Mauler](../../cards/T/ta.md#taurean-mauler) (+72%), [Raphael, the Muscle](../../cards/R/rap.md#raphael-the-muscle) (+70%) · EDHREC: in 20,422 decks; most often under [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (58.2% of its decks), [Ob Nixilis, Captive Kingpin](../../cards/O/ob.md#ob-nixilis-captive-kingpin) (52.0% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (47.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/22/casey-jones-back-alley-brute) · oracle_id `ab9ff8e9-0ffa-4ccf-a4bf-8505079616f6` · printing: TMC #22 (2026-03-06) · [rulings](https://api.scryfall.com/cards/416d888d-2699-49bd-830b-bf5bda25c91f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Casey Jones, Jury-Rig Justiciar

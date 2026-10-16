@@ -1361,7 +1361,9 @@ schema: 2
 - **Rulings** (2):
   - *2018-07-13* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to Tuvasa may become lethal if some of your enchantments leave the battlefield during that turn.
   - *2018-07-13* — Tuvasa's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tuvasa-the-sunlit)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8,061 decks; highest synergy [Sythis, Harvest's Hand](../../cards/S/sy.md#sythis-harvests-hand) (+76%), [Enchantress's Presence](../../cards/E/en.md#enchantresss-presence) (+73%), [Sanctum Weaver](../../cards/S/san.md#sanctum-weaver) (+69%) · EDHREC: in 8,257 decks; most often under [Estrid, the Masked](../../cards/E/es.md#estrid-the-masked) (54.5% of its decks), [Go-Shintai of Life's Origin](../../cards/G/gos.md#go-shintai-of-lifes-origin) (8.6% of its decks), [Tom Bombadil](../../cards/T/to.md#tom-bombadil) (2.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#tuvasa-the-sunlit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/47/tuvasa-the-sunlit) · oracle_id `6a83d976-8087-48d7-b6f5-63efb8329e99` · printing: C18 #47 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tuya Bearclaw

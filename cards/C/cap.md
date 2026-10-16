@@ -368,6 +368,8 @@ schema: 2
 - **Keywords:** Throw ..., ... Catch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7815 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 16,307 decks; highest synergy [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+81%), [Excalibur, Sword of Eden](../../cards/E/ex.md#excalibur-sword-of-eden) (+80%), [Sigarda's Aid](../../cards/S/si.md#sigardas-aid) (+80%) · EDHREC: in 2,049 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.2% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (6.2% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (4.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#captain-america-first-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mar/88/captain-america-first-avenger) · oracle_id `7d038055-035d-4698-b6b6-e2859bf2f1d1` · printing: MAR #88 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0669ffcf-30c1-4d90-ae5f-3deca0f82526/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -396,6 +398,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6994 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,992 decks; highest synergy [Silver Myr](../../cards/S/si.md#silver-myr) (+61%), [Gold Myr](../../cards/G/gol.md#gold-myr) (+60%), [Palladium Myr](../../cards/P/pa.md#palladium-myr) (+57%) · EDHREC: in 19,680 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (79.3% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (39.7% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (15.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/210/captain-america-living-legend) · oracle_id `67aa946d-e694-494e-ba0c-44880d5bc03e` · printing: MSH #210 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6516f292-469d-4092-b099-97c698f373cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Captain America, Skybound
@@ -524,7 +528,7 @@ schema: 2
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5033 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Aetherdrift](https://magic.wizards.com/en/news/feature/the-legends-of-aetherdrift) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 12,162 decks; highest synergy [Marauding Mako](../../cards/M/mar.md#marauding-mako) (+71%), [Ghostly Pilferer](../../cards/G/gh.md#ghostly-pilferer) (+70%), [Key to the City](../../cards/K/ke.md#key-to-the-city) (+69%) · EDHREC: in 19,667 decks; most often under [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (38.6% of its decks), [Brallin, Skyshark Rider // Shabraz, the Skyshark](../../cards/B/br.md#brallin-skyshark-rider) (51.3% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (14.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#captain-howler-sea-scourge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/194/captain-howler-sea-scourge) · oracle_id `46c99d67-8307-4af0-afd0-377714806614` · printing: DFT #194 (2025-02-14) · [rulings](https://api.scryfall.com/cards/0957c90f-e10d-40f8-a4be-9e9ef623dd43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

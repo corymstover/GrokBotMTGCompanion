@@ -697,6 +697,8 @@ schema: 2
 - **Keywords:** Find New Host
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9498 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 917 decks; highest synergy [Superior Spider-Man](../../cards/S/sup.md#superior-spider-man) (+54%), [Wonder](../../cards/W/wo.md#wonder) (+51%), [Alien Symbiosis](../../cards/A/al.md#alien-symbiosis) (+43%) · EDHREC: in 12,687 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (56.2% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (3.5% of its decks), [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (3.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/156/symbiote-spider-man) · oracle_id `bc681ecf-2a52-4782-9a47-90f5a9f435d8` · printing: SPM #156 (2025-09-26) · [rulings](https://api.scryfall.com/cards/6a21c0ff-b51a-4946-9737-7872a7eef97b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Symbiotic Beast
@@ -1552,7 +1554,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1022 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-06-18* — Sythis, Harvest Hand's ability doesn't trigger when it is cast.
-- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** ✅ Presented with an official backstory on [The New Legends of Modern Horizons 2](https://magic.wizards.com/en/news/feature/new-legends-modern-horizons-2-2021-06-11) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 14,282 decks; highest synergy [Sanctum Weaver](../../cards/S/san.md#sanctum-weaver) (+76%), [Enchantress's Presence](../../cards/E/en.md#enchantresss-presence) (+75%), [Destiny Spinner](../../cards/D/des.md#destiny-spinner) (+68%) · EDHREC: in 137,894 decks; most often under [Go-Shintai of Life's Origin](../../cards/G/gos.md#go-shintai-of-lifes-origin) (77.4% of its decks), [Tom Bombadil](../../cards/T/to.md#tom-bombadil) (71.2% of its decks), [Anikthea, Hand of Erebos](../../cards/A/an.md#anikthea-hand-of-erebos) (88.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#sythis-harvests-hand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/938/sythis-harvests-hand) · oracle_id `0fc64fd6-f057-4056-9dca-47accb7ff036` · printing: CMM #938 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

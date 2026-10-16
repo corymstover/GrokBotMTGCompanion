@@ -558,6 +558,8 @@ schema: 2
   - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
   - *2025-10-02* — The six types of mana are white, blue, black, red, green, and colorless.
   - *2025-10-02* — You pay the costs for an exiled card if you cast it. You may pay any alternative costs the card has rather than the card's mana cost.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,376 decks; highest synergy [Essence Flux](../../cards/E/es.md#essence-flux) (+70%), [Ghostly Flicker](../../cards/G/gh.md#ghostly-flicker) (+66%), [Conjurer's Closet](../../cards/C/con.md#conjurers-closet) (+63%) · EDHREC: in 18,917 decks; most often under [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (32.4% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (7.1% of its decks), [Nathan Drake, Treasure Hunter](../../cards/N/na.md#nathan-drake-treasure-hunter) (21.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/208/azula-cunning-usurper) · oracle_id `7c9e351d-2e6c-4050-9c3d-b15bb9255a4d` · printing: TLA #208 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azula, On the Hunt
@@ -580,6 +582,8 @@ schema: 2
   - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
   - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
   - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 83 decks; highest synergy [Raven Eagle](../../cards/R/rav.md#raven-eagle) (+72%), [June, Bounty Hunter](../../cards/J/ju.md#june-bounty-hunter) (+69%), [Obsessive Pursuit](../../cards/O/ob.md#obsessive-pursuit) (+67%) · EDHREC: in 15,181 decks; most often under [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (14.0% of its decks), [Ozai, the Phoenix King](../../cards/O/oz.md#ozai-the-phoenix-king) (54.2% of its decks), [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (8.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#azula-on-the-hunt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/85/azula-on-the-hunt) · oracle_id `89f96032-5cba-404d-82b0-38d2be963e4b` · printing: TLA #85 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

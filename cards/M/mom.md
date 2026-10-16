@@ -308,6 +308,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7144 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-10-02* — Momo, Friendly Flier's second ability only reduces the generic mana cost of the spell. If first non-Lemur creature spell with flying you cast on your turn doesn't have generic mana in its cost, the cost will not be reduced and the cost reduction will not apply to the next spell you cast that turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,345 decks; highest synergy [Tempest Hawk](../../cards/T/te.md#tempest-hawk) (+63%), [Sephara, Sky's Blade](../../cards/S/sep.md#sephara-skys-blade) (+49%), [Selfless Spirit](../../cards/S/sel.md#selfless-spirit) (+46%) · EDHREC: in 18,596 decks; most often under [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (12.0% of its decks), [Zoraline, Cosmos Caller](../../cards/Z/zo.md#zoraline-cosmos-caller) (42.1% of its decks), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (4.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/29/momo-friendly-flier) · oracle_id `a3c56e71-0de6-447a-a9b4-0971f56c2362` · printing: TLA #29 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Momo, Playful Pet
@@ -328,6 +330,8 @@ schema: 2
   - *2025-10-02* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Bosco, Just a Bear's ability (an ability with "Sacrifice a Food" in its cost). You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Bosco, Just a Bear's ability.
   - *2025-10-02* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
   - *2025-10-02* — Whatever you do, don't eat the delicious cards.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 161 decks; highest synergy [Airbender Ascension](../../cards/A/ai.md#airbender-ascension) (+52%), [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+48%), [Cloudshift](../../cards/C/cl.md#cloudshift) (+48%) · EDHREC: in 15,467 decks; most often under [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (10.6% of its decks), [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (21.3% of its decks), [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (6.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/30/momo-playful-pet) · oracle_id `85ee8ab6-8db5-45d7-85ae-64838771146a` · printing: TLA #30 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Momo, Rambunctious Rascal

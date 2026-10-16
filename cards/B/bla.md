@@ -547,6 +547,8 @@ schema: 2
 - **Keywords:** Mine Vibranium, First strike, Survey the Realm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8604 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 16 combos; most popular [Black Panther, Wakandan King + Ashaya, Soul of the Wild + Basking Broodscale](https://commanderspellbook.com/combo/539-5641-6081/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 6,048 decks; highest synergy [Karn's Bastion](../../cards/K/ka.md#karns-bastion) (+62%), [Secure the Wastes](../../cards/S/sec.md#secure-the-wastes) (+62%), [Primal Vigor](../../cards/P/pr.md#primal-vigor) (+53%) · EDHREC: in 9,754 decks; most often under [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (7.4% of its decks), [T'Challa, the Black Panther](../../cards/T/tc.md#tchalla-the-black-panther) (17.9% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#black-panther-wakandan-king)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mar/87/black-panther-wakandan-king) · oracle_id `48deff27-b421-430b-a484-55b4a593010a` · printing: MAR #87 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a1b11ef2-2285-40eb-b11c-223c159e3d1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -743,7 +745,9 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7947 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#black-widow-agile-avenger)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 341 decks; highest synergy [Howling Mine](../../cards/H/ho.md#howling-mine) (+76%), [Loran of the Third Path](../../cards/L/lo.md#loran-of-the-third-path) (+67%), [Tataru Taru](../../cards/T/ta.md#tataru-taru) (+66%) · EDHREC: in 17,723 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (89.0% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (25.9% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (53.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/B.md#black-widow-agile-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/77/black-widow-agile-avenger) · oracle_id `df7abfb0-21df-4359-be81-0f3c09e1425e` · printing: MSC #77 (2026-06-26) · [rulings](https://api.scryfall.com/cards/8c2bf77c-9acf-4e2c-9cad-e74546f26070/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Widow, Daring Operative
@@ -1322,7 +1326,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6674 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-09-09* — The number of creature cards in your graveyard is determined at the time the triggered ability resolves. If any creature cards are in your graveyard as a result of dying in the same combat damage step that the ability triggered in, they will be counted.
-- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** ✅ Presented with an official backstory on [The Legends You'll Find in Dominaria United](https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: 35 combos; most popular [Breath of Fury + Bladewing, Deathless Tyrant + Anger](https://commanderspellbook.com/combo/3132-3259-4068/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 1,824 decks; highest synergy [Stitcher's Supplier](../../cards/S/sti.md#stitchers-supplier) (+57%), [Millikin](../../cards/M/mil.md#millikin) (+53%), [Death Baron](../../cards/D/dea.md#death-baron) (+49%) · EDHREC: in 21,040 decks; most often under [Dihada, Binder of Wills](../../cards/D/di.md#dihada-binder-of-wills) (32.9% of its decks), [Rivaz of the Claw](../../cards/R/ri.md#rivaz-of-the-claw) (52.2% of its decks), [Akul the Unrepentant](../../cards/A/ak.md#akul-the-unrepentant) (60.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bladewing-deathless-tyrant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/9/bladewing-deathless-tyrant) · oracle_id `cc4bc5d7-ed37-4a80-a5e7-eb68c255cbef` · printing: DMC #9 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

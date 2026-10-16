@@ -119,6 +119,9 @@ schema: 2
 - **Rulings** (2):
   - *2021-11-19* — Grolnok's last ability allows you to play lands and cast spells from among all cards you own in exile with croak counters on them, regardless of whether they were put there by the Grolnok that's currently on the battlefield or by an earlier incarnation.
   - *2021-11-19* — Grolnok, the Omnivore's second ability exiles all permanent cards that are put into your graveyard from your library, not just those that you mill when a Frog you control attacks.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Innistrad: Crimson Vow](https://magic.wizards.com/en/news/feature/legends-innistrad-crimson-vow-2021-11-12) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 45 combos; most popular [Grolnok, the Omnivore + Cephalid Illusionist + Lightning Greaves + Thassa's Oracle](https://commanderspellbook.com/combo/876-1295-2904-3117/) (Infinite self-mill, Win the game) · EDHREC as commander: 7,295 decks; highest synergy [Spore Frog](../../cards/S/spo.md#spore-frog) (+80%), [Poison Dart Frog](../../cards/P/po.md#poison-dart-frog) (+74%), [Long River Lurker](../../cards/L/lo.md#long-river-lurker) (+71%) · EDHREC: in 14,498 decks; most often under [Glarb, Calamity's Augur](../../cards/G/gl.md#glarb-calamitys-augur) (19.3% of its decks), [Clement, the Worrywort](../../cards/C/cl.md#clement-the-worrywort) (49.6% of its decks), [Tatsunari, Toad Rider](../../cards/T/ta.md#tatsunari-toad-rider) (21.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/G.md#grolnok-the-omnivore)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/238/grolnok-the-omnivore) · oracle_id `53029460-50a0-4934-8fa9-0271517cd5d0` · printing: VOW #238 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grond, the Gatebreaker
@@ -312,6 +315,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8648 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-01-27* — Groundchuck & Dirtbag's last ability is a mana ability. It doesn't use the stack and can't be responded to.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 44 combos; most popular [Ashaya, Soul of the Wild + Magus of the Candelabra + Groundchuck & Dirtbag](https://commanderspellbook.com/combo/539-4657-7288/) (Infinite green mana, Infinite mana lands you control can produce) · EDHREC as commander: 168 decks; highest synergy [Skyshroud Claim](../../cards/S/sk.md#skyshroud-claim) (+39%), [Shared Roots](../../cards/S/sha.md#shared-roots) (+36%), [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (+33%) · EDHREC: in 15,582 decks; most often under [Raph & Mikey, Troublemakers](../../cards/R/rap.md#raph--mikey-troublemakers) (30.9% of its decks), [Omnath, Locus of Mana](../../cards/O/om.md#omnath-locus-of-mana) (10.5% of its decks), [Kona, Rescue Beastie](../../cards/K/ko.md#kona-rescue-beastie) (8.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/115/groundchuck-&-dirtbag) · oracle_id `da344e46-6bdf-4032-8590-bac850d5713d` · printing: TMT #115 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grounded

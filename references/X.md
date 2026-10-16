@@ -38,8 +38,9 @@ schema: 2
 
 ### Xavier Sal, Infested Captain
 
-[Card entry](../cards/X/xa.md#xavier-sal-infested-captain) · **1 pages** (rules 1)
+[Card entry](../cards/X/xa.md#xavier-sal-infested-captain) · **2 pages** (edh guides 1 · rules 1)
 
+- **EDH guides (1):** [EDH Packages → +1/+1 counters: Proliferate](../EDH%20Packages.md#11-counters-proliferate)
 - **Rules (1):** [Keyword Encyclopedia → Populate](../Keyword%20Encyclopedia.md#populate)
 
 ### Xenagos, God of Revels

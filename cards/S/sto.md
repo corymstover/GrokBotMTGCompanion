@@ -2037,6 +2037,8 @@ schema: 2
 - **Keywords:** Flying, Vigilance, Ceaseless Tempest
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7183 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 16,757 decks; highest synergy [Manamorphose](../../cards/M/man.md#manamorphose) (+78%), [Lightning Bolt](../../cards/L/li.md#lightning-bolt) (+67%), [Storm-Kiln Artist](../../cards/S/sto.md#storm-kiln-artist) (+67%) · EDHREC: in 3,981 decks; most often under [Iroh, Grand Lotus](../../cards/I/ir.md#iroh-grand-lotus) (7.6% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.9% of its decks), [Kalamax, the Stormsire](../../cards/K/ka.md#kalamax-the-stormsire) (2.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#storm-force-of-nature)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mar/94/storm-force-of-nature) · oracle_id `7c47876d-143f-4e4c-b151-90c099e452a1` · printing: MAR #94 (2026-06-26) · [rulings](https://api.scryfall.com/cards/08cd4665-9fc3-48f1-a136-41d4585b1bb4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

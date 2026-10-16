@@ -227,6 +227,9 @@ schema: 2
 - **Keywords:** Flying, Indestructible, Treasure, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9172 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Smaug the Impenetrable + Mayhem Devil](https://commanderspellbook.com/combo/1678-7839/) (Infinite colored mana, Infinite artifact ETB) · EDHREC as commander: 6,938 decks; highest synergy [Self-Destruct](../../cards/S/sel.md#self-destruct) (+68%), [Smaug the Magnificent](../../cards/S/sm.md#smaug-the-magnificent) (+68%), [Cut Propulsion](../../cards/C/cu.md#cut-propulsion) (+67%) · EDHREC: in 7,607 decks; most often under [Smaug, Wicked Worm](../../cards/S/sm.md#smaug-wicked-worm) (43.3% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (6.0% of its decks), [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (3.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#smaug-the-impenetrable)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/9/smaug-the-impenetrable) · oracle_id `ce2fc562-7a71-4846-bfef-0a7c5f6c1ff3` · printing: HOC #9 (2026-08-14) · [rulings](https://api.scryfall.com/cards/55872bce-08ce-4d4f-8951-9fa230f3e160/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smaug the Magnificent
@@ -302,6 +305,8 @@ schema: 2
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8042 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Breath of Fury + Smellerbee, Rebel Fighter](https://commanderspellbook.com/combo/3259-7060--95/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 262 decks; highest synergy [Marauding Mako](../../cards/M/mar.md#marauding-mako) (+63%), [Ivora, Insatiable Heir](../../cards/I/iv.md#ivora-insatiable-heir) (+57%), [Hobgoblin, Mantled Marauder](../../cards/H/ho.md#hobgoblin-mantled-marauder) (+56%) · EDHREC: in 17,319 decks; most often under [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (23.9% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (4.9% of its decks), [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (6.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#smellerbee-rebel-fighter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/125/smellerbee-rebel-fighter) · oracle_id `127bc05b-2945-434c-bc6a-283a267cc72a` · printing: TLE #125 (2025-11-21) · [rulings](https://api.scryfall.com/cards/5aef6ece-929b-4636-b32e-58f91741b869/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

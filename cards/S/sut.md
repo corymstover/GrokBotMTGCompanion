@@ -36,6 +36,9 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9152 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — You don't choose a target for Sutina's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you return a land you control to its owner's hand this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 186 decks; highest synergy [Retreat to Kazandu](../../cards/R/ret.md#retreat-to-kazandu) (+49%), [Rampaging Baloths](../../cards/R/ram.md#rampaging-baloths) (+42%), [Mossborn Hydra](../../cards/M/mos.md#mossborn-hydra) (+38%) · EDHREC: in 14,226 decks; most often under [Tifa Lockhart](../../cards/T/ti.md#tifa-lockhart) (8.2% of its decks), [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (2.6% of its decks), [Yarok, the Desecrated](../../cards/Y/ya.md#yarok-the-desecrated) (2.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Land ramp (puts lands onto the battlefield)](../../EDH%20Packages.md#ramp-land-ramp-puts-lands-onto-the-battlefield) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#sutina-speaker-of-the-tajuru)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/56/sutina-speaker-of-the-tajuru) · oracle_id `91f410c5-4313-462f-8d21-da63988d919f` · printing: J25 #56 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sutured Ghoul

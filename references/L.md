@@ -1034,9 +1034,9 @@ schema: 2
 
 ### Livaan, Cultist of Tiamat
 
-[Card entry](../cards/L/li.md#livaan-cultist-of-tiamat) · **1 pages** (edh guides 1)
+[Card entry](../cards/L/li.md#livaan-cultist-of-tiamat) · **2 pages** (edh guides 2)
 
-- **EDH guides (1):** [EDH Pairings — Partner, Background, Friends forever & Doctor's companion → Choose a Background](../EDH%20Pairings.md#choose-a-background)
+- **EDH guides (2):** [EDH Packages → Spellslinger: Cast-trigger payoffs](../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [EDH Pairings — Partner, Background, Friends forever & Doctor's companion → Choose a Background](../EDH%20Pairings.md#choose-a-background)
 
 ### Live Fast
 
@@ -1178,9 +1178,10 @@ schema: 2
 
 ### Loki, God of Mischief
 
-[Card entry](../cards/L/lo.md#loki-god-of-mischief) · **1 pages** (decks 1)
+[Card entry](../cards/L/lo.md#loki-god-of-mischief) · **2 pages** (decks 1 · edh guides 1)
 
 - **Decks (1):** [Loki, the Deceiver (Grixis)](../grixis/decks/loki-the-deceiver.md)
+- **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
 
 ### Loki, Lord of Misrule
 

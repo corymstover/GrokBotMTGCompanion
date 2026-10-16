@@ -2,7 +2,8 @@
 """Rebuild the gitignored official story-page cache (Bot cycle 35).
 
 Fetches every page listed in data/primary_sources.csv into .cache/story/text22/<slug>.txt and the cited
-non-story Wizards pages (ARTICLES below, Bot cycle 32) into .cache/story/articles/<slug>.txt, the text
+non-story Wizards pages (ARTICLES below, Bot cycle 32) into .cache/story/articles/<slug>.txt and the "Legends of …" /
+Story Spotlight preview pages in data/story_extra_sources.csv (Bot cycle 36) into .cache/story/extra/<slug>.txt, the text
 that scripts/lore_quotes.py, build_card_enrichment.py, build_primary_sources.py and build_art_flavor.py
 read. Full page text is never committed.
 
@@ -31,6 +32,8 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parent.parent
 TEXT = ROOT / ".cache" / "story" / "text22"
 ART = ROOT / ".cache" / "story" / "articles"
+EXTRA = ROOT / ".cache" / "story" / "extra"  # Bot cycle 36: "Legends of …" / Story Spotlight preview pages (data/story_extra_sources.csv)
+EXTRA_CSV = ROOT / "data" / "story_extra_sources.csv"
 CSV = ROOT / "data" / "primary_sources.csv"
 UA = {"User-Agent": "Mozilla/5.0 (GrokBotMTGCompanion lore research)"}
 ARTICLES = [  # cited non-story Wizards pages verified by lore_quotes (Bot cycle 32, #96)
@@ -91,9 +94,12 @@ def main(argv=None):
     ap.add_argument("--only", default="")
     a = ap.parse_args(argv)
     jobs = [(r["url"], TEXT) for r in csv.DictReader(CSV.open(encoding="utf-8"))] + [(u, ART) for u in ARTICLES]
+    if EXTRA_CSV.exists():
+        jobs += [(r["url"], EXTRA) for r in csv.DictReader(EXTRA_CSV.open(encoding="utf-8"))]
     jobs = [(u, d) for u, d in jobs if a.only in u]
     TEXT.mkdir(parents=True, exist_ok=True)
     ART.mkdir(parents=True, exist_ok=True)
+    EXTRA.mkdir(parents=True, exist_ok=True)
     seen, failed, got, have = set(), [], 0, 0
     for i, (u, d) in enumerate(jobs, 1):
         f = d / f"{slug(u)}.txt"

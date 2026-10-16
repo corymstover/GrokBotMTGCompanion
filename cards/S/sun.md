@@ -1278,6 +1278,8 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
   - *2009-10-01* — Sun Quan’s ability affects Sun Quan itself.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,709 decks; highest synergy [Coastal Piracy](../../cards/C/coa.md#coastal-piracy) (+54%), [Lu Xun, Scholar General](../../cards/L/lu.md#lu-xun-scholar-general) (+53%), [Bident of Thassa](../../cards/B/bi.md#bident-of-thassa) (+51%) · EDHREC: in 14,808 decks; most often under [Éowyn, Shieldmaiden](../../cards/E/eo.md#éowyn-shieldmaiden) (6.2% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (2.7% of its decks), [Animar, Soul of Elements](../../cards/A/an.md#animar-soul-of-elements) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sun-quan-lord-of-wu)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/123/sun-quan-lord-of-wu) · oracle_id `70503280-6bdf-431d-8213-367a9783463a` · printing: CMM #123 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

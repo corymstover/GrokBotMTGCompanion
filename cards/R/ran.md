@@ -70,6 +70,8 @@ schema: 2
   - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
   - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
   - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 173 decks; highest synergy [Solstice Revelations](../../cards/S/so.md#solstice-revelations) (+73%), [Lathliss, Dragon Queen](../../cards/L/la.md#lathliss-dragon-queen) (+70%), [Firebending Lesson](../../cards/F/fi.md#firebending-lesson) (+69%) · EDHREC: in 16,095 decks; most often under [Iroh, Grand Lotus](../../cards/I/ir.md#iroh-grand-lotus) (33.6% of its decks), [Ozai, the Phoenix King](../../cards/O/oz.md#ozai-the-phoenix-king) (21.3% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (3.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/150/ran-and-shaw) · oracle_id `a728685f-8670-4db2-ae02-3cf74eb3c402` · printing: TLA #150 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ranar the Ever-Watchful

@@ -354,6 +354,8 @@ schema: 2
 - **Keywords:** Alliance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7614 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 43 combos; most popular [Storm Herd + Slash, Reptile Rampager](https://commanderspellbook.com/combo/2067-7278/) (Near-infinite creature ETB, Near-infinite creature tokens) · EDHREC as commander: 449 decks; highest synergy [Raphael, Tough Turtle](../../cards/R/rap.md#raphael-tough-turtle) (+66%), [Molten Gatekeeper](../../cards/M/mol.md#molten-gatekeeper) (+61%), [Impact Tremors](../../cards/I/im.md#impact-tremors) (+59%) · EDHREC: in 18,753 decks; most often under [Norin the Wary](../../cards/N/no.md#norin-the-wary) (49.1% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (3.4% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (4.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#slash-reptile-rampager)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/108/slash-reptile-rampager) · oracle_id `8abff7b5-fe27-46bd-b951-b5d9f93f3a14` · printing: TMT #108 (2026-03-06) · [rulings](https://api.scryfall.com/cards/025aafbc-5b24-4f5b-9b4a-81f6b9cb5ef3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -998,7 +1000,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8536 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-02-02* — If you target a creature with ward, you may still pay the ward cost, but Slice from the Shadows won't be countered even if you don't.
-- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #103, MKM #301 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** ✅ Story Spotlight printing (Scryfall `story_spotlight`): MKM #103, MKM #301 — [Art & Flavor → Murders at Karlov Manor (2024)](../../Art%20%26%20Flavor%20Story%20Links.md#murders-at-karlov-manor-2024) — ✅ Listed on [Story Spotlight Cards for Murders at Karlov Manor](https://magic.wizards.com/en/news/card-preview/story-spotlight-cards-for-murders-at-karlov-manor) · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 16,012 decks; most often under [Zaxara, the Exemplary](../../cards/Z/za.md#zaxara-the-exemplary) (17.3% of its decks), [Massacre Girl, Known Killer](../../cards/M/mas.md#massacre-girl-known-killer) (55.5% of its decks), [Horobi, Death's Wail](../../cards/H/ho.md#horobi-deaths-wail) (23.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#slice-from-the-shadows)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/103/slice-from-the-shadows) · oracle_id `4d31d3f4-4748-4713-808f-24699fcd7b10` · printing: MKM #103 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
@@ -1222,6 +1224,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8912 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-04-14* — You don't have to choose a target to activate the last ability. However, if you do, and that target is illegal at the time the ability tries to resolve, it won't resolve and none of its effects will happen. Slimefoot and Squee won't be returned to the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Slimefoot and Squee + Pitiless Plunderer + Goblin Bombardment](https://commanderspellbook.com/combo/222-4871-5147--73/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 8,797 decks; highest synergy [Golgari Germination](../../cards/G/gol.md#golgari-germination) (+56%), [Artifact Mutation](../../cards/A/art.md#artifact-mutation) (+55%), [Sprouting Thrinax](../../cards/S/spr.md#sprouting-thrinax) (+52%) · EDHREC: in 6,207 decks; most often under [Ellie, Brick Master // Joel, Resolute Survivor](../../cards/E/el.md#ellie-brick-master) (19.9% of its decks), [Korvold, Fae-Cursed King](../../cards/K/ko.md#korvold-fae-cursed-king) (2.9% of its decks), [Shattergang Brothers](../../cards/S/sha.md#shattergang-brothers) (16.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/447/slimefoot-and-squee) · oracle_id `5a6f4181-f5ad-4ecf-9566-e52870af14d0` · printing: MOC #447 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Slimefoot's Survey
@@ -1972,6 +1976,8 @@ schema: 2
   > *Her children are ever part of her.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7502 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Sliver Queen + Basal Sliver](https://commanderspellbook.com/combo/4385-4465/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 2,273 decks; highest synergy [Gemhide Sliver](../../cards/G/ge.md#gemhide-sliver) (+70%), [Manaweft Sliver](../../cards/M/man.md#manaweft-sliver) (+69%), [Cloudshredder Sliver](../../cards/C/cl.md#cloudshredder-sliver) (+67%) · EDHREC: in 17,213 decks; most often under [The First Sliver](../../cards/T/thef.md#the-first-sliver) (35.2% of its decks), [Sliver Overlord](../../cards/S/sl.md#sliver-overlord) (55.4% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (6.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/211/sliver-queen) · oracle_id `b8376cca-ea96-478a-8e98-c4482031300a` · printing: TPR #211 (2015-05-06) · [rulings](https://api.scryfall.com/cards/096cff82-28eb-4096-be1d-a02b9a56e682/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sliversmith
@@ -2029,6 +2035,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7742 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-12-01* — Damage wears off simultaneously with this effect ending, so it does save an artifact creature from lethal damage.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 281 decks; highest synergy [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) (+81%), [Myr Retriever](../../cards/M/my.md#myr-retriever) (+81%), [Scrap Trawler](../../cards/S/sc.md#scrap-trawler) (+78%) · EDHREC: in 18,296 decks; most often under [Slicer, Hired Muscle](../../cards/S/sl.md#slicer-hired-muscle--slicer-high-speed-antagonist) (46.8% of its decks), [Mishra, Eminent One](../../cards/M/mis.md#mishra-eminent-one) (26.1% of its decks), [Daretti, Scrap Savant](../../cards/D/da.md#daretti-scrap-savant) (27.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/133/slobad-goblin-tinkerer) · oracle_id `1f2d6cf4-b8f4-440f-ac08-ca47ada868ac` · printing: C16 #133 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Slobad, Iron Goblin

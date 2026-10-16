@@ -247,6 +247,8 @@ schema: 2
   - *2020-11-10* — If an opponent leaves the game, all permanents you gave to them courtesy of Zedruu will return to your control.
   - *2020-11-10* — If either the opponent or the permanent you control becomes an illegal target by the time Zedruu's last ability tries to resolve, the ability does nothing.
   - *2020-11-10* — If you leave the game, all permanents you own leave the game with you.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 74 combos; most popular [Zedruu the Greathearted + Transcendence](https://commanderspellbook.com/combo/2736-3473/) (Each opponent with 20 or more life loses the game) · EDHREC as commander: 12,610 decks; highest synergy [Humble Defector](../../cards/H/hu.md#humble-defector) (+74%), [Nine Lives](../../cards/N/ni.md#nine-lives) (+70%), [Role Reversal](../../cards/R/ro.md#role-reversal) (+66%) · EDHREC: in 2,813 decks; most often under [Karona, False God](../../cards/K/ka.md#karona-false-god) (10.5% of its decks), [Kynaios and Tiro of Meletis](../../cards/K/ky.md#kynaios-and-tiro-of-meletis) (3.0% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/231/zedruu-the-greathearted) · oracle_id `514179c0-a50b-4565-8e71-9dad256edd85` · printing: C16 #231 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zegana, Utopian Speaker

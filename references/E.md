@@ -480,8 +480,9 @@ schema: 2
 
 ### Elenda and Azor
 
-[Card entry](../cards/E/el.md#elenda-and-azor) · **1 pages** (card data 1)
+[Card entry](../cards/E/el.md#elenda-and-azor) · **2 pages** (edh guides 1 · card data 1)
 
+- **EDH guides (1):** [EDH Packages → Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Elenda's Hierophant
@@ -633,7 +634,7 @@ schema: 2
 
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists T](../Artist%20Index.md#artists-t) · [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
-- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Elspeth Tirel](../Characters%20Index.md#elspeth-tirel) (name-match) · [Elspeth Tirel](../Planeswalker%20Dossiers.md#elspeth-tirel) (name-match)
+- **Lore entries (2; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Elspeth Tirel](../Characters%20Index.md#elspeth-tirel) (depicts) · [Elspeth Tirel](../Planeswalker%20Dossiers.md#elspeth-tirel) (depicts)
 
 ### Elspeth's Smite
 
@@ -1404,9 +1405,9 @@ schema: 2
 
 ### Erinis, Gloom Stalker
 
-[Card entry](../cards/E/er.md#erinis-gloom-stalker) · **1 pages** (edh guides 1)
+[Card entry](../cards/E/er.md#erinis-gloom-stalker) · **2 pages** (edh guides 2)
 
-- **EDH guides (1):** [EDH Pairings — Partner, Background, Friends forever & Doctor's companion → Choose a Background](../EDH%20Pairings.md#choose-a-background)
+- **EDH guides (2):** [EDH Packages → Lands / landfall: Lands from graveyard](../EDH%20Packages.md#lands--landfall-lands-from-graveyard) · [EDH Pairings — Partner, Background, Friends forever & Doctor's companion → Choose a Background](../EDH%20Pairings.md#choose-a-background)
 
 ### Eris, Roar of the Storm
 
@@ -1669,7 +1670,7 @@ schema: 2
 - **Rules (1):** [Keyword Encyclopedia → Cloak](../Keyword%20Encyclopedia.md#cloak)
 - **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists I](../Artist%20Index.md#artists-i)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Proft, Etrata, Aminatou, Niv-Mizzet](../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) (name-match)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Proft, Etrata, Aminatou, Niv-Mizzet](../Characters%20Index.md#proft-etrata-aminatou-niv-mizzet) (depicts)
 
 ### Etrata, the Silencer
 

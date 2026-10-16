@@ -36,6 +36,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-06-10* — Check the types of those permanents as they last existed on the battlefield to see if there were three or more card types among the sacrificed permanents.
   - *2022-06-10* — You may sacrifice permanents that aren't different card types to pay the cost of Baba Lysaga's activated ability, but if you do, it will have no effect.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Baba Lysaga, Night Witch + Dross Scorpion + Thran Vigil + Cauldron of Souls + Biotransference](https://commanderspellbook.com/combo/549-1365-2131-4853-7098/) (Near-infinite artifact ETB, Near-infinite artifact LTB) · EDHREC as commander: 5,608 decks; highest synergy [Mishra's Factory](../../cards/M/mis.md#mishras-factory) (+82%), [Tree of Tales](../../cards/T/tre.md#tree-of-tales) (+76%), [Vault of Whispers](../../cards/V/va.md#vault-of-whispers) (+75%) · EDHREC: in 7,895 decks; most often under [Rendmaw, Creaking Nest](../../cards/R/ren.md#rendmaw-creaking-nest) (27.3% of its decks), [Korvold, Gleeful Glutton](../../cards/K/ko.md#korvold-gleeful-glutton) (58.2% of its decks), [Ygra, Eater of All](../../cards/Y/yg.md#ygra-eater-of-all) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/266/baba-lysaga-night-witch) · oracle_id `d6cd4aa1-ff3a-4453-8735-e5ace5cbe386` · printing: CLB #266 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baboon Spirit

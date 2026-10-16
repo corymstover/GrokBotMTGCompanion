@@ -290,6 +290,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8290 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2016-06-08* — A permanent spell that becomes white this way will enter the battlefield and continue to be white until end of turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,646 decks; highest synergy [Circle of Protection: White](../../cards/C/ci.md#circle-of-protection-white) (+63%), [Rune of Protection: White](../../cards/R/ru.md#rune-of-protection-white) (+56%), [Glare of Heresy](../../cards/G/gl.md#glare-of-heresy) (+52%) · EDHREC: in 15,051 decks; most often under [Nalia de'Arnise](../../cards/N/na.md#nalia-dearnise) (36.9% of its decks), [Burakos, Party Leader // Folk Hero](../../cards/B/bu.md#burakos-party-leader) (27.6% of its decks), [Keleth, Sunmane Familiar // Yoshimaru, Ever Faithful](../../cards/K/ke.md#keleth-sunmane-familiar) (45.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/692/eight-and-a-half-tails) · oracle_id `01c8d29f-4924-4d55-80bc-0c0c06bcb733` · printing: CLB #692 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eightfold Maze
@@ -356,6 +358,8 @@ schema: 2
 - **Keywords:** Vigilance, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9235 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,451 decks; highest synergy [Bureau Headmaster](../../cards/B/bu.md#bureau-headmaster) (+76%), [Battlefield Improvisation](../../cards/B/bat.md#battlefield-improvisation) (+60%), [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+59%) · EDHREC: in 12,726 decks; most often under [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (17.2% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (7.8% of its decks), [Nahiri, Forged in Fury](../../cards/N/na.md#nahiri-forged-in-fury) (16.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/274/eivor-battle-ready) · oracle_id `1b4a07bd-5345-4520-bd05-b5173e08135c` · printing: ACR #274 (2024-07-05) · [rulings](https://api.scryfall.com/cards/4242961d-87e8-4dd2-bdea-5d765a5cf136/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eivor, Wolf-Kissed

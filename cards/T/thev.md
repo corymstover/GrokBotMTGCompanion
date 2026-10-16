@@ -43,6 +43,8 @@ schema: 2
   - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
   - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (3): [Davros, Dalek Creator (Grixis)](../../grixis/decks/davros-dalek-creator.md) · [Dr. Eggman (Grixis)](../../grixis/decks/dr-eggman.md) · [Missy (Grixis)](../../grixis/decks/missy.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,069 decks; highest synergy [Great Intelligence's Plan](../../cards/G/gre.md#great-intelligences-plan) (+94%), [This Is How It Ends](../../cards/T/thi.md#this-is-how-it-ends) (+93%), [Ensnared by the Mara](../../cards/E/en.md#ensnared-by-the-mara) (+92%) · EDHREC: in 14,653 decks; most often under [Dr. Eggman](../../cards/D/dre.md#dr-eggman) (62.8% of its decks), [Davros, Dalek Creator](../../cards/D/da.md#davros-dalek-creator) (55.4% of its decks), [Missy](../../cards/M/mis.md#missy) (37.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/T.md#the-valeyard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/165/the-valeyard) · oracle_id `ed202f1d-3511-45f4-bfbc-e6b76d4311d1` · printing: WHO #165 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -114,6 +116,9 @@ schema: 2
 - **Keywords:** Density Control, Flying, Vigilance, Technopathy, Solar Beam
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7250 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 611 decks; highest synergy [Adaptive Omnitool](../../cards/A/ad.md#adaptive-omnitool) (+59%), [Shimmer Myr](../../cards/S/shi.md#shimmer-myr) (+57%), [Vedalken Orrery](../../cards/V/ve.md#vedalken-orrery) (+50%) · EDHREC: in 19,984 decks; most often under [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (30.8% of its decks), [Ultron, Artificial Malevolence](../../cards/U/ul.md#ultron-artificial-malevolence) (38.4% of its decks), [T'Challa, the Black Panther](../../cards/T/tc.md#tchalla-the-black-panther) (23.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-vision)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/255/the-vision) · oracle_id `32aee76a-e738-4898-985a-801d1cce15ea` · printing: MSH #255 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2961cf20-33c8-4e66-9d0f-6daca8ea7880/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Vision and Scarlet Witch

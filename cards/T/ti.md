@@ -2395,6 +2395,9 @@ schema: 2
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8761 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 90 combos; most popular [Camellia, the Seedmiser + Ninja Pizza + Tippy-Toe, Terrific Partner](https://commanderspellbook.com/combo/5777-7313-7810/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 30 decks; highest synergy [Night of the Sweets' Revenge](../../cards/N/ni.md#night-of-the-sweets-revenge) (+78%), [Honored Dreyleader](../../cards/H/ho.md#honored-dreyleader) (+77%), [Peregrin Took](../../cards/P/pe.md#peregrin-took) (+77%) · EDHREC: in 15,498 decks; most often under [The Unbeatable Squirrel Girl](../../cards/T/theu.md#the-unbeatable-squirrel-girl) (57.2% of its decks), [Chatterfang, Squirrel General](../../cards/C/cha.md#chatterfang-squirrel-general) (24.1% of its decks), [Frodo, Adventurous Hobbit // Sam, Loyal Attendant](../../cards/F/fr.md#frodo-adventurous-hobbit) (12.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#tippy-toe-terrific-partner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/734/tippy-toe-terrific-partner) · oracle_id `6a1bce89-0c11-4d8d-aacb-c0a5a5effffc` · printing: MSC #734 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6082ab9f-290e-4230-84a0-46c7f8ed712d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tip the Scales

@@ -495,6 +495,9 @@ schema: 2
   - *2024-03-08* — Sentinel Sarah Lyons’s second ability only cares if one or more artifacts entered the battlefield under your control this turn. Your creatures won’t get more powerful if more than one artifact entered the battlefield under your control this turn.
   - *2024-03-08* — The three attacking creatures don’t have to be attacking the same player, planeswalker, or battle.
   - *2024-03-08* — Use the number of artifacts you control at the time Sentinel Sarah Lyons’s battalion ability resolves to determine how much damage to deal.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 412 decks; highest synergy [Paladin Danse, Steel Maverick](../../cards/P/pa.md#paladin-danse-steel-maverick) (+68%), [The Prydwen, Steel Flagship](../../cards/T/thep.md#the-prydwen-steel-flagship) (+58%), [Loyal Apprentice](../../cards/L/lo.md#loyal-apprentice) (+56%) · EDHREC: in 17,806 decks; most often under [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (56.0% of its decks), [Dr. Madison Li](../../cards/D/drm.md#dr-madison-li) (38.5% of its decks), [Liberty Prime, Recharged](../../cards/L/li.md#liberty-prime-recharged) (33.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#sentinel-sarah-lyons)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/118/sentinel-sarah-lyons) · oracle_id `b368b1bd-3273-40a9-8102-27501f4d0e15` · printing: PIP #118 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentinel's Eyes
@@ -629,6 +632,8 @@ schema: 2
   - *2020-08-07* — The target opponent can't activate any abilities, including mana abilities.
   - *2020-08-07* — Triggered abilities use the word “when,” “whenever,” or “at.” They're often written as “[Trigger condition], [effect].” Triggered abilities are unaffected by Sen Triplets.
   - *2020-08-07* — You can't activate abilities of cards in the target opponent's hand.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8,140 decks; highest synergy [Telepathy](../../cards/T/te.md#telepathy) (+55%), [Chromatic Lantern](../../cards/C/chr.md#chromatic-lantern) (+47%), [Vega, the Watcher](../../cards/V/ve.md#vega-the-watcher) (+45%) · EDHREC: in 5,598 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.1% of its decks), [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (1.4% of its decks), [Merieke Ri Berit](../../cards/M/me.md#merieke-ri-berit) (10.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sen-triplets)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/218/sen-triplets) · oracle_id `f0c5864f-83c3-4d99-8f97-0ab92608fff3` · printing: 2XM #218 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
