@@ -1,0 +1,412 @@
+{
+ "schema": 1,
+ "deck_id": "Be_lakor__the_Dark_Master",
+ "slug": "belakor-the-dark-master",
+ "commanders": [
+  "Be'lakor, the Dark Master"
+ ],
+ "deck_sha256": "75543f31a16d5398fabe73ce29a2ca2999ea9e1c33f2f62b11a33b3ad7f21eb0",
+ "list_source": "exports/grixis-archidekt/belakor-the-dark-master.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 46,
+ "batch": "A",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+   "note": "deck #7: RULES PASS"
+  }
+ ],
+ "summary": "Be'lakor, the Dark Master is a Demon tribal deck that converts Demons entering into card draw and damage. This review re-verifies the retrospective attestation (another Demon, Spark Double, Roaming Throne, Liliana's Contract names, Heartless Summoning).\n\nRules surprise: Be'lakor + Rite of Replication is a damage kill. The legend rule bounds the 'near-infinite card draw' label.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "belakor-01",
+   "category": "commander",
+   "title": "Prince of Chaos counts Demons on resolution",
+   "cards": [
+    "Be'lakor, the Dark Master"
+   ],
+   "ruling": "X is counted as the trigger resolves, including Be'lakor itself if it's still on the battlefield. You both draw and lose X life. A large X late in the game can be lethal to you, so check your life total. Vilis turns that life loss into more cards.",
+   "short": "Draw and lose X = Demons you control on resolution (Be'lakor counts itself).",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "608.2h",
+    "603.2"
+   ],
+   "oracle": [
+    {
+     "card": "Be'lakor, the Dark Master",
+     "quote": "Prince of Chaos — When Be'lakor enters, you draw X cards and you lose X life, where X is the number of Demons you control."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Be'lakor, the Dark Master",
+     "quote": "The number of Demons you control is counted only as Be'lakor, the Dark Master's ability resolves."
+    }
+   ]
+  },
+  {
+   "id": "belakor-02",
+   "category": "commander",
+   "title": "Lord of Torment: another Demon, its own power, last known information",
+   "cards": [
+    "Be'lakor, the Dark Master",
+    "Warstorm Surge"
+   ],
+   "ruling": "Lord of Torment triggers only for *another* Demon entering, so Be'lakor doesn't trigger itself. The entering Demon is the damage source and deals damage equal to its power when the trigger resolves. If it has left, its last known power is used (compare Warstorm Surge's ruling). Warstorm Surge adds a second, separate trigger.",
+   "short": "Another Demon entering deals damage equal to its power; uses last known power if it's gone.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "608.2h",
+    "603.2"
+   ],
+   "oracle": [
+    {
+     "card": "Be'lakor, the Dark Master",
+     "quote": "Lord of Torment — Whenever another Demon you control enters, it deals damage equal to its power to any target."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Warstorm Surge",
+     "quote": "If it's no longer on the battlefield, its last known existence on the battlefield is checked to determine its power."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "Be'lakor entering does not trigger its own Lord of Torment because that ability requires another Demon."
+    }
+   ]
+  },
+  {
+   "id": "belakor-03",
+   "category": "combo",
+   "title": "Rite of Replication on Be'lakor: legend rule, then the damage",
+   "cards": [
+    "Be'lakor, the Dark Master",
+    "Rite of Replication"
+   ],
+   "ruling": "Kicked Rite makes five token Be'lakors at once. They see each other enter. The original's Lord triggers five times and each token's triggers four times: 25 Lord triggers, each 6 damage by last known information, about 150 damage. There are also five Prince triggers.\n\nBefore any trigger goes on the stack, the legend rule leaves you one Be'lakor; the triggers still resolve. Each Prince counts only the Demons you control *on resolution*, so the draw is your surviving Demon count times five, not 'near-infinite'.",
+   "short": "Kicked Rite on Be'lakor: about 150 damage across 25 triggers; draw is limited by the legend rule.",
+   "status": "flag",
+   "flag": {
+    "kind": "documentation",
+    "note": "The deck page's combo guidance says the Rite line gives 'Near-infinite card draw' (Spellbook's label). The damage is the real kill (25 triggers × 6 power). The draw is bounded: the legend rule leaves one Be'lakor before Prince of Chaos resolves, and X is counted on resolution. Unkicked Rite (one token) gives two Lord triggers. No list change."
+   },
+   "key": true,
+   "cr": [
+    "704.5j",
+    "603.3",
+    "603.6a",
+    "608.2h",
+    "117.5"
+   ],
+   "oracle": [
+    {
+     "card": "Rite of Replication",
+     "quote": "Create a token that's a copy of target creature. If this spell was kicked, create five of those tokens instead."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Be'lakor, the Dark Master",
+     "quote": "The number of Demons you control is counted only as Be'lakor, the Dark Master's ability resolves."
+    },
+    {
+     "card": "Rite of Replication",
+     "quote": "Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield."
+    }
+   ]
+  },
+  {
+   "id": "belakor-04",
+   "category": "pair",
+   "title": "Spark Double copies Be'lakor without the legend rule",
+   "cards": [
+    "Be'lakor, the Dark Master",
+    "Spark Double"
+   ],
+   "ruling": "Spark Double copying Be'lakor isn't legendary and enters with an extra +1/+1 counter (7/6). It triggers its own Prince of Chaos (counting both Be'lakors), and the original's Lord sees another Demon enter. Spark Double can't copy something that enters at the same time as it.",
+   "status": "verified",
+   "cr": [
+    "707.9b",
+    "704.5j"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Spark Double",
+     "quote": "Spark Double isn’t legendary if it copies a legendary permanent, and this exception is copiable."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "`Spark Double` may enter as a copy of Be'lakor you control; its modification makes the copy nonlegendary and gives it an additional +1/+1 counter."
+    }
+   ]
+  },
+  {
+   "id": "belakor-05",
+   "category": "trigger-order",
+   "title": "Roaming Throne and Panharmonicon stack",
+   "cards": [
+    "Be'lakor, the Dark Master",
+    "Roaming Throne",
+    "Panharmonicon"
+   ],
+   "ruling": "Roaming Throne (Demon) and Panharmonicon each add one extra trigger for Be'lakor's two abilities. Throne covers triggered abilities of other Demon creatures; Panharmonicon covers triggers caused by an artifact or creature entering. With both, each Prince and Lord trigger happens three times. Each instance picks its own target.",
+   "status": "verified",
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "oracle": [
+    {
+     "card": "Panharmonicon",
+     "quote": "If an artifact or creature entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Roaming Throne",
+     "quote": "Roaming Throne's last ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "`Roaming Throne` choosing Demon causes triggered abilities of another Demon creature you control to trigger an additional time"
+    }
+   ]
+  },
+  {
+   "id": "belakor-06",
+   "category": "pair",
+   "title": "Liliana's Contract needs four different names",
+   "cards": [
+    "Be'lakor, the Dark Master",
+    "Liliana's Contract",
+    "Molten Echoes"
+   ],
+   "ruling": "Liliana's Contract wins only with four or more Demons with *different names* at the start of your upkeep and again on resolution. Molten Echoes tokens (exiled at end step anyway), Rite tokens and Spark Double copies share names. Count distinct Demons, not total Demons.",
+   "status": "verified",
+   "cr": [
+    "603.4"
+   ],
+   "oracle": [
+    {
+     "card": "Liliana's Contract",
+     "quote": "At the beginning of your upkeep, if you control four or more Demons with different names, you win the game."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Liliana's Contract",
+     "quote": "If the second ability does trigger, but you no longer control four Demons with different names as the ability resolves, you won't win the game."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "token / copy quantity alone does not bypass the different-name condition."
+    }
+   ]
+  },
+  {
+   "id": "belakor-07",
+   "category": "pair",
+   "title": "Heartless Summoning shrinks Lord damage",
+   "cards": [
+    "Be'lakor, the Dark Master",
+    "Heartless Summoning"
+   ],
+   "ruling": "Heartless Summoning's −1/−1 lowers each entering Demon's power, so each Lord trigger deals 1 less. It reduces only generic mana costs. It also kills your own 1-toughness creatures.",
+   "status": "verified",
+   "cr": [
+    "613.4c"
+   ],
+   "oracle": [
+    {
+     "card": "Heartless Summoning",
+     "quote": "Creatures you control get -1/-1."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "`Heartless Summoning` power reduction is a real interaction cost because Be'lakor's Lord trigger uses the entering Demon's power"
+    }
+   ]
+  },
+  {
+   "id": "belakor-08",
+   "category": "replacement",
+   "title": "Bloodletter doubles life loss; Sower of Discord passes it on",
+   "cards": [
+    "Be'lakor, the Dark Master",
+    "Bloodletter of Aclazotz",
+    "Sower of Discord",
+    "Archfiend of Despair"
+   ],
+   "ruling": "- **Bloodletter of Aclazotz:** opponents' life loss on your turn is doubled. The damage dealt isn't doubled, so lifelink gains are unchanged.\n- **Sower of Discord:** when one chosen player is dealt damage, the other chosen player loses that much life. That's loss, not damage, from no source.\n- **Archfiend of Despair:** at end step each opponent loses again the life they lost that turn.\n\nA Lord trigger on your turn can therefore cost opponents several times its power.",
+   "status": "verified",
+   "cr": [
+    "614.1a",
+    "120.3"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Bloodletter of Aclazotz",
+     "quote": "Bloodletter of Aclazotz's last ability doesn't change the amount of damage dealt to opponents."
+    },
+    {
+     "card": "Sower of Discord",
+     "quote": "Sower of Discord’s triggered ability causes the second player to lose life. This isn’t damage and it’s not caused by the source that dealt damage to the first player."
+    }
+   ]
+  },
+  {
+   "id": "belakor-09",
+   "category": "pair",
+   "title": "Vilis draws for Be'lakor's life loss",
+   "cards": [
+    "Be'lakor, the Dark Master",
+    "Vilis, Broker of Blood",
+    "Doom Whisperer"
+   ],
+   "ruling": "Vilis draws a card for each life you lose: Prince of Chaos's X, Doom Whisperer's 2 life per activation, and damage dealt to you. Life paid as a cost draws after you finish activating.",
+   "status": "verified",
+   "cr": [
+    "119.3",
+    "603.2"
+   ],
+   "oracle": [
+    {
+     "card": "Vilis, Broker of Blood",
+     "quote": "Whenever you lose life, draw that many cards."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Vilis, Broker of Blood",
+     "quote": "If you pay life to cast a spell or activate an ability, you don't draw cards until after you've finished casting that spell or activating that ability."
+    }
+   ]
+  },
+  {
+   "id": "belakor-10",
+   "category": "pair",
+   "title": "Copy enablers: Molten Echoes and Reflections of Littjara",
+   "cards": [
+    "Be'lakor, the Dark Master",
+    "Molten Echoes",
+    "Reflections of Littjara"
+   ],
+   "ruling": "- **Molten Echoes (Demon):** copies each nontoken Demon that enters as a hasty token, exiled at the next end step. The token is another Demon entering, so it causes another Lord trigger.\n- **Reflections of Littjara (Demon):** copies Demon *spells*. The copy becomes a token, which still enters (Lord, Prince) but isn't 'created'.\n\nCopying Be'lakor itself (a cast from the command zone with Reflections, or Molten Echoes) triggers the legend rule, but the enter triggers still happen.",
+   "status": "verified",
+   "cr": [
+    "111.13",
+    "704.5j",
+    "603.6a"
+   ],
+   "oracle": [
+    {
+     "card": "Molten Echoes",
+     "quote": "Whenever a nontoken creature you control of the chosen type enters, create a token that's a copy of that creature. That token gains haste."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Reflections of Littjara",
+     "quote": "The token that a resolving copy of a permanent spell becomes isn't \"created.\""
+    }
+   ]
+  },
+  {
+   "id": "belakor-11",
+   "category": "timing",
+   "title": "Cheat-in Demons still trigger Lord",
+   "cards": [
+    "Be'lakor, the Dark Master",
+    "Sneak Attack",
+    "Whip of Erebos",
+    "Patriarch's Bidding",
+    "Reanimate",
+    "Ghostly Flicker"
+   ],
+   "ruling": "Lord of Torment triggers however the Demon enters. Sneak Attack (sacrificed at end step), Whip of Erebos (exiled at end step), Reanimate, Patriarch's Bidding (each player picks a type) and Ghostly Flicker on Be'lakor plus a Demon (both re-enter at once, so both Prince and Lord trigger) all count. Whip also gives lifelink to your creatures, and the Lord damage is dealt by your creature.",
+   "status": "verified",
+   "cr": [
+    "603.6a",
+    "702.15b"
+   ],
+   "oracle": [
+    {
+     "card": "Sneak Attack",
+     "quote": "{R}: You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice the creature at the beginning of the next end step."
+    }
+   ],
+   "rulings": []
+  },
+  {
+   "id": "belakor-12",
+   "category": "legality",
+   "title": "Gyruda in the 99, not as companion",
+   "cards": [
+    "Be'lakor, the Dark Master",
+    "Gyruda, Doom of Depths"
+   ],
+   "ruling": "Gyruda is played in the main deck, so its companion condition (even mana values only) doesn't apply. It's a Demon Kraken, so it triggers Lord on entering.",
+   "status": "verified",
+   "cr": [
+    "702.139a"
+   ],
+   "oracle": [
+    {
+     "card": "Gyruda, Doom of Depths",
+     "quote": "Companion — Your starting deck contains only cards with even mana values."
+    }
+   ],
+   "rulings": []
+  },
+  {
+   "id": "belakor-13",
+   "category": "zone",
+   "title": "Commander tax at six mana",
+   "cards": [
+    "Be'lakor, the Dark Master",
+    "Herald of Slaanesh",
+    "Urza's Incubator",
+    "Ancient Cellarspawn"
+   ],
+   "ruling": "Be'lakor costs {3}{U}{B}{R} (6), then 8, then 10. Demon cost reducers (Herald of Slaanesh −2, Urza's Incubator −2 on Demon creature spells, Ancient Cellarspawn −1) apply to Be'lakor because it's a Demon. Reductions reduce only generic mana, tax included.",
+   "status": "verified",
+   "cr": [
+    "903.8",
+    "601.2f"
+   ],
+   "oracle": [
+    {
+     "card": "Herald of Slaanesh",
+     "quote": "Locus of Slaanesh — Demon spells you cast cost {2} less to cast."
+    }
+   ],
+   "rulings": []
+  }
+ ]
+}

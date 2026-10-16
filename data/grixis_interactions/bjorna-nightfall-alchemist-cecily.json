@@ -1,0 +1,435 @@
+{
+ "schema": 1,
+ "deck_id": "Cecily__Bjorna__Lutri",
+ "slug": "bjorna-nightfall-alchemist-cecily",
+ "commanders": [
+  "Bjorna, Nightfall Alchemist",
+  "Cecily, Haunted Mage"
+ ],
+ "deck_sha256": "31f7fae30dcee31b0c92d8baf2c943f396061b2cb51b7771e4e260e55b9aadc8",
+ "list_source": "exports/grixis-archidekt/bjorna-nightfall-alchemist-cecily.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 46,
+ "batch": "A",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+   "note": "deck #8: RULES PASS / PROJECT_EXCEPTION"
+  }
+ ],
+ "summary": "Bjorna, Nightfall Alchemist and Cecily, Haunted Mage (Friends forever) run a big-hand spells deck: wheels and draw to eleven cards for free Cecily casts. This review re-verifies the retrospective attestation and records the legality fix: the companion's list drops Lutri and the two banned project exceptions.\n\nRules surprises:\n- Peer into the Abyss + Teferi's Ageless Insight loses on an odd library.\n- Notion Thief starves the Breach + Wheel + Jeska's Will mana.\n- The source blueprint misdescribes both commanders.",
+ "absent": [
+  "Lutri, the Spellchaser",
+  "Trade Secrets",
+  "Yawgmoth's Bargain"
+ ],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "bjorna-01",
+   "category": "commander",
+   "title": "Bjorna: sacrifice an artifact, ping and goad a creature",
+   "cards": [
+    "Bjorna, Nightfall Alchemist",
+    "Academy Manufactor",
+    "Lightning Greaves"
+   ],
+   "ruling": "Bjorna's ability costs {T} and sacrificing an artifact, so it can't be responded to. It targets a **creature** (never a player), deals 1 damage and goads it. Goad lasts until your next turn: the creature must attack each combat, and must attack someone other than you if able.\n\nThe {T} cost needs haste the turn Bjorna arrives; Lightning Greaves' shroud doesn't stop her targeting other creatures. Treasures from Big Score, Brass's Bounty and Deadly Dispute, and Academy Manufactor's Clue + Food + Treasure, are fodder.",
+   "short": "{T}, sacrifice an artifact: 1 damage to a creature and goad it.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "701.15a",
+    "701.15b",
+    "602.2"
+   ],
+   "oracle": [
+    {
+     "card": "Bjorna, Nightfall Alchemist",
+     "quote": "{T}, Sacrifice an artifact: Bjorna, Nightfall Alchemist deals 1 damage to target creature. Goad that creature."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "Bjorna's artifact sacrifice is paid before the ability can be responded to. Bjorna cannot target a player with that ability."
+    }
+   ]
+  },
+  {
+   "id": "bjorna-02",
+   "category": "commander",
+   "title": "Cecily: draw, lose 1, *then* check eleven cards",
+   "cards": [
+    "Cecily, Haunted Mage"
+   ],
+   "ruling": "When Cecily attacks you draw a card and lose 1 life, then check whether you have eleven or more cards in hand. The card just drawn counts. If you do, you may cast an instant or sorcery from your hand without paying its mana cost, during the trigger's resolution, so a sorcery is fine mid-combat. It's still cast from hand. X is 0. Additional costs (Big Score's discard, Deadly Dispute's sacrifice) must still be paid. Cecily's maximum hand size of eleven lets the hand stay big between turns.",
+   "short": "Attack: draw, lose 1; then with 11+ cards in hand cast an instant or sorcery free.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "608.2g",
+    "601.2b",
+    "402.2"
+   ],
+   "oracle": [
+    {
+     "card": "Cecily, Haunted Mage",
+     "quote": "Whenever Cecily, Haunted Mage attacks, you draw a card and you lose 1 life. Then if you have eleven or more cards in your hand, you may cast an instant or sorcery spell from your hand without paying its mana cost."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "Cecily performs the draw / life-loss instruction before checking the eleven-card threshold"
+    }
+   ]
+  },
+  {
+   "id": "bjorna-03",
+   "category": "trigger-order",
+   "title": "Harmonic Prodigy doubles Wizard and Shaman triggers",
+   "cards": [
+    "Cecily, Haunted Mage",
+    "Harmonic Prodigy",
+    "Niv-Mizzet, Parun",
+    "Archmage Emeritus",
+    "Storm-Kiln Artist",
+    "Emry, Lurker of the Loch"
+   ],
+   "ruling": "Harmonic Prodigy makes triggered abilities of Shamans and *other* Wizards you control trigger an additional time:\n- Cecily (Wizard): two attack triggers, each drawing, losing 1 and checking the hand separately, so possibly two free spells.\n- Niv-Mizzet, Parun (Dragon Wizard): both its draw-ping and its cast-draw doubled.\n- Archmage Emeritus (Wizard), Storm-Kiln Artist (Shaman) and Emry's enter trigger also doubled.\n\nBjorna is a Human, not a Wizard, so she isn't affected.",
+   "short": "Prodigy doubles Cecily, Niv-Mizzet, Archmage Emeritus, Storm-Kiln and Emry triggers.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.2",
+    "603.3b"
+   ],
+   "oracle": [
+    {
+     "card": "Harmonic Prodigy",
+     "quote": "If a triggered ability of a Shaman or another Wizard you control triggers, that ability triggers an additional time."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "`Harmonic Prodigy` can cause Cecily's triggered ability to trigger an additional time because Cecily is a Wizard"
+    }
+   ]
+  },
+  {
+   "id": "bjorna-04",
+   "category": "timing",
+   "title": "Robe of the Archmagi draws after Cecily's trigger",
+   "cards": [
+    "Cecily, Haunted Mage",
+    "Robe of the Archmagi"
+   ],
+   "ruling": "Robe of the Archmagi draws on *combat damage*, after Cecily's attack trigger has resolved. So it can't raise the hand to eleven for that attack; it sets up the next one. Cecily is a Wizard, so the {1} equip cost applies.",
+   "status": "verified",
+   "cr": [
+    "510.2",
+    "508.1m"
+   ],
+   "oracle": [
+    {
+     "card": "Robe of the Archmagi",
+     "quote": "Whenever equipped creature deals combat damage to a player, you draw that many cards."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "Robe cannot raise the hand to eleven for that same attack; it supports later attacks."
+    }
+   ]
+  },
+  {
+   "id": "bjorna-05",
+   "category": "combo",
+   "title": "Peer into the Abyss + Teferi's Ageless Insight: an odd library loses",
+   "cards": [
+    "Cecily, Haunted Mage",
+    "Peer into the Abyss",
+    "Teferi's Ageless Insight"
+   ],
+   "ruling": "Spellbook lists Peer into the Abyss (targeting yourself) + Teferi's Ageless Insight as infinite card draw. Peer first fixes the number (half your library, rounded up), then each draw is replaced by two. With L cards in library you try to draw 2 × ⌈L/2⌉ cards.\n- **Odd L:** that's L + 1 draws, so one draw from an empty library, and you lose at the next state-based check, *before* Niv-Mizzet or Psychosis Crawler triggers go on the stack.\n- **Even L:** you draw your whole library exactly and survive until your next draw.\n\nPeer also takes half your life (rounded up).",
+   "short": "Peer on yourself with Ageless Insight draws the whole library; an odd library size makes you lose.",
+   "status": "flag",
+   "flag": {
+    "kind": "dependency-risk",
+    "note": "With an odd number of cards in library, Peer + Teferi's Ageless Insight makes you draw from an empty library and lose before any drain or damage trigger resolves. Count the library first (a cantrip or one fetch changes parity), or win through Psychosis Crawler/Niv-Mizzet only when the parity is safe."
+   },
+   "key": true,
+   "cr": [
+    "121.4",
+    "704.5b",
+    "117.5",
+    "614.1a"
+   ],
+   "oracle": [
+    {
+     "card": "Teferi's Ageless Insight",
+     "quote": "If you would draw a card except the first one you draw in each of your draw steps, draw two cards instead."
+    },
+    {
+     "card": "Peer into the Abyss",
+     "quote": "Target player draws cards equal to half the number of cards in their library and loses half their life. Round up each time."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Peer into the Abyss",
+     "quote": "To draw the cards, first the player determines how many cards to draw, then draws them. This event may be modified so that a different number of cards are actually drawn."
+    }
+   ]
+  },
+  {
+   "id": "bjorna-06",
+   "category": "combo",
+   "title": "Peer into the Abyss + Psychosis Crawler",
+   "cards": [
+    "Cecily, Haunted Mage",
+    "Peer into the Abyss",
+    "Psychosis Crawler",
+    "Niv-Mizzet, Parun"
+   ],
+   "ruling": "Peer on yourself draws half your library. Each card drawn triggers Psychosis Crawler (each opponent loses 1) and Niv-Mizzet (1 damage to any target). It's lethal when the cards drawn reach the opponents' life totals. You also lose half your life. The Crawler's P/T equals your hand size.",
+   "status": "verified",
+   "cr": [
+    "603.2",
+    "121.2"
+   ],
+   "oracle": [
+    {
+     "card": "Psychosis Crawler",
+     "quote": "Whenever you draw a card, each opponent loses 1 life."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Peer into the Abyss",
+     "quote": "The life lost is rounded up, not the remaining life total."
+    }
+   ]
+  },
+  {
+   "id": "bjorna-07",
+   "category": "combo",
+   "title": "Underworld Breach + Wheel of Fortune + Jeska's Will",
+   "cards": [
+    "Cecily, Haunted Mage",
+    "Underworld Breach",
+    "Wheel of Fortune",
+    "Jeska's Will",
+    "Notion Thief"
+   ],
+   "ruling": "With Breach, Wheel of Fortune escapes for {2}{R} plus three other graveyard cards and refills every hand to seven. Jeska's Will (both modes with a commander) then adds {R} per card in an opponent's hand and exiles three to play. Repeating this is the Spellbook loop, limited by graveyard fuel.\n\nAnti-synergy: with Notion Thief out, opponents' wheel draws (other than their first in their draw step) become your draws. Their hands stay empty and Jeska's Will's mana mode makes nothing.",
+   "status": "flag",
+   "flag": {
+    "kind": "anti-synergy",
+    "note": "Notion Thief and the Breach + Wheel + Jeska's Will loop conflict: Thief steals the opponents' wheel draws, leaving Jeska's Will's mana mode at zero. Use one plan or the other in a given turn."
+   },
+   "cr": [
+    "702.138a",
+    "614.1a"
+   ],
+   "oracle": [
+    {
+     "card": "Wheel of Fortune",
+     "quote": "Each player discards their hand, then draws seven cards."
+    },
+    {
+     "card": "Notion Thief",
+     "quote": "If an opponent would draw a card except the first one they draw in each of their draw steps, instead that player skips that draw and you draw a card."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Jeska's Will",
+     "quote": "Use the number of cards in the target opponent's hand as Jeska's Will resolves to determine how much {R} to add."
+    }
+   ]
+  },
+  {
+   "id": "bjorna-08",
+   "category": "replacement",
+   "title": "Wheels with Notion Thief and Teferi's Ageless Insight",
+   "cards": [
+    "Cecily, Haunted Mage",
+    "Notion Thief",
+    "Teferi's Ageless Insight",
+    "Windfall",
+    "Whispering Madness",
+    "Reforge the Soul",
+    "Echo of Eons",
+    "Dark Deal"
+   ],
+   "ruling": "- **Notion Thief:** opponents skip their wheel draws and you draw instead. With three opponents, Windfall or Wheel gives you up to 7 + 21 cards. They still discard.\n- **Teferi's Ageless Insight:** doubles your non-draw-step draws, so a wheel gives 14.\n- **Order of replacements:** the drawing player chooses the order of replacement effects.\n\nThis reaches eleven cards for Cecily and thirteen for Triskaidekaphile.",
+   "status": "verified",
+   "cr": [
+    "614.1a",
+    "616.1"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Notion Thief",
+     "quote": "If an opponent is instructed to draw a card then discard a card, and Notion Thief causes you to draw a card instead, that opponent still discards a card."
+    },
+    {
+     "card": "Teferi's Ageless Insight",
+     "quote": "If two or more replacement effects would apply to a card-drawing event, the player drawing the card chooses the order in which to apply them."
+    }
+   ]
+  },
+  {
+   "id": "bjorna-09",
+   "category": "pair",
+   "title": "Triskaidekaphile needs exactly thirteen at upkeep",
+   "cards": [
+    "Cecily, Haunted Mage",
+    "Triskaidekaphile"
+   ],
+   "ruling": "Triskaidekaphile wins only with *exactly* thirteen cards as your upkeep begins (and on resolution). You can't draw in your upkeep before it checks. Its {3}{U} draw on the previous end step or an opponent's turn sets the count.",
+   "status": "verified",
+   "cr": [
+    "603.4"
+   ],
+   "oracle": [
+    {
+     "card": "Triskaidekaphile",
+     "quote": "At the beginning of your upkeep, if you have exactly thirteen cards in your hand, you win the game."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Triskaidekaphile",
+     "quote": "If you have fewer cards in your hand, you won't be able to draw cards during your upkeep in time to cause the ability to trigger."
+    }
+   ]
+  },
+  {
+   "id": "bjorna-10",
+   "category": "pair",
+   "title": "Flame of Anor gets both modes with a Wizard",
+   "cards": [
+    "Cecily, Haunted Mage",
+    "Flame of Anor"
+   ],
+   "ruling": "Flame of Anor can choose two modes if you control a Wizard as you cast it. Cecily, Harmonic Prodigy, Archmage Emeritus, Niv-Mizzet, Triskaidekaphile, Kess, Emry and Goblin Electromancer all count. Cast free with Cecily, it's still cast, so the Wizard check applies.",
+   "status": "verified",
+   "cr": [
+    "700.2",
+    "601.2b"
+   ],
+   "oracle": [
+    {
+     "card": "Flame of Anor",
+     "quote": "Choose one. If you control a Wizard as you cast this spell, you may choose two instead."
+    }
+   ],
+   "rulings": []
+  },
+  {
+   "id": "bjorna-11",
+   "category": "legality",
+   "title": "Project exceptions replaced; Lutri dropped as companion",
+   "cards": [
+    "Cecily, Haunted Mage",
+    "Bjorna, Nightfall Alchemist",
+    "Wizard Class",
+    "Flame of Anor",
+    "Lutri, the Spellchaser",
+    "Trade Secrets",
+    "Yawgmoth's Bargain"
+   ],
+   "ruling": "The source kept three project exceptions: Lutri as companion, plus Trade Secrets and Yawgmoth's Bargain in the main deck. Current Scryfall data (2026-10-15) lists Trade Secrets and Yawgmoth's Bargain as banned in Commander. Lutri is legal in the 99 but banned as a companion (the project's B&R note, 2026-02-09).\n\nThe companion's final list follows official legality: Trade Secrets → Wizard Class, Yawgmoth's Bargain → Flame of Anor, and no companion. The source's Lutri rulings (copying only if cast, the {3} special action) don't apply to this list.",
+   "short": "Official-legal list: Trade Secrets/Bargain replaced, Lutri companion dropped.",
+   "status": "verified",
+   "cr": [
+    "903.3",
+    "702.139a"
+   ],
+   "oracle": [
+    {
+     "card": "Lutri, the Spellchaser",
+     "quote": "Companion — Each nonland card in your starting deck has a different name."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "The deck is therefore **project-valid under the registered exceptions, not officially Commander-legal without qualification**."
+    }
+   ]
+  },
+  {
+   "id": "bjorna-12",
+   "category": "commander",
+   "title": "Source blueprint misdescribes both commanders",
+   "cards": [
+    "Bjorna, Nightfall Alchemist",
+    "Cecily, Haunted Mage"
+   ],
+   "ruling": "The source blueprint says Bjorna 'rewards casting noncreature spells by granting haste and goading a creature', and Cecily 'rewards combat damage to a player'. Current Oracle text, quoted in bjorna-01 and bjorna-02, says otherwise: Bjorna is an artifact-sacrifice ping-and-goad, and Cecily triggers on *attacking*. The retrospective attestation already uses the correct text.",
+   "status": "flag",
+   "flag": {
+    "kind": "documentation",
+    "note": "The source blueprint's commander summaries don't match current Oracle text (Bjorna has no noncreature-spell trigger; Cecily triggers on attack, not combat damage). It's documentation only; the approved list and the retrospective rules attestation use the correct text."
+   },
+   "cr": [
+    "108.1"
+   ],
+   "oracle": [
+    {
+     "card": "Cecily, Haunted Mage",
+     "quote": "Whenever Cecily, Haunted Mage attacks, you draw a card and you lose 1 life."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/blueprints/Cecily__Bjorna__Lutri_v1.md",
+     "quote": "Bjorna rewards casting noncreature spells by granting haste and goading a creature, while Cecily rewards combat damage to a player"
+    }
+   ]
+  },
+  {
+   "id": "bjorna-13",
+   "category": "zone",
+   "title": "Two commanders, separate tax",
+   "cards": [
+    "Bjorna, Nightfall Alchemist",
+    "Cecily, Haunted Mage"
+   ],
+   "ruling": "Bjorna and Cecily share Partner—Friends forever. Each has its own tax: Bjorna {U}{R} then 4, 6; Cecily {1}{U}{B}{R} then 6, 8. Commander damage is tracked per commander. 'Control a commander' (Jeska's Will) is satisfied by either.",
+   "status": "verified",
+   "cr": [
+    "702.124i",
+    "903.8",
+    "903.10a"
+   ],
+   "oracle": [
+    {
+     "card": "Bjorna, Nightfall Alchemist",
+     "quote": "Partner—Friends forever (You can have two commanders if both have this ability.)"
+    }
+   ],
+   "rulings": []
+  }
+ ]
+}

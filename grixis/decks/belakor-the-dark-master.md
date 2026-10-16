@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -501,6 +502,19 @@ The 100-card list and three changes are proposed for the user's **explicit appro
 ### Further source evidence (linked, not copied)
 
 - [refinement/verification/Belakor_the_Dark_Master_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Belakor_the_Dark_Master_Final_Verification_2026-10-13.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 46 interaction review: **13 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Be'lakor, the Dark Master — Interaction Review](../interactions/belakor-the-dark-master.md).
+
+- **Prince of Chaos counts Demons on resolution** — Draw and lose X = Demons you control on resolution (Be'lakor counts itself). ([belakor-01](../interactions/belakor-the-dark-master.md#belakor-01-prince-of-chaos-counts-demons-on-resolution))
+- **Lord of Torment: another Demon, its own power, last known information** — Another Demon entering deals damage equal to its power; uses last known power if it's gone. ([belakor-02](../interactions/belakor-the-dark-master.md#belakor-02-lord-of-torment-another-demon-its-own-power-last-known-information))
+- **Rite of Replication on Be'lakor: legend rule, then the damage** — Kicked Rite on Be'lakor: about 150 damage across 25 triggers; draw is limited by the legend rule. ([belakor-03](../interactions/belakor-the-dark-master.md#belakor-03-rite-of-replication-on-belakor-legend-rule-then-the-damage))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Rite of Replication on Be'lakor: legend rule, then the damage: The deck page's combo guidance says the Rite line gives 'Near-infinite card draw' (Spellbook's label). The damage is the real kill (25 triggers × 6 power). The draw is bounded: the legend rule leaves one Be'lakor before Prince of Chaos resolves, and X is counted on resolution. Unkicked Rite (one token) gives two Lord triggers. No list change. ([belakor-03](../interactions/belakor-the-dark-master.md#belakor-03-rite-of-replication-on-belakor-legend-rule-then-the-damage))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
