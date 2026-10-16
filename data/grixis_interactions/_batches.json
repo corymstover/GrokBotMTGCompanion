@@ -1,0 +1,98 @@
+{
+ "_doc": "Phase 2 interaction-review batches (alphabetical by deck slug). status: planned | in progress | done. scripts/grixis_interactions.py --check fails if a done batch has a deck without a review.",
+ "batches": {
+  "A": {
+   "status": "in progress",
+   "decks": [
+    "abaddon-the-despoiler",
+    "admiral-beckett-brass",
+    "admiral-brass-unsinkable",
+    "anhelo-the-painter",
+    "ashad-the-lone-cyberman",
+    "ashnod-the-uncaring",
+    "belakor-the-dark-master",
+    "bjorna-nightfall-alchemist-cecily",
+    "cormela-glamour-thief",
+    "crosis-the-purger",
+    "cult-of-skaro",
+    "davros-dalek-creator"
+   ],
+   "cycle": 46
+  },
+  "B": {
+   "status": "planned",
+   "decks": [
+    "doctor-doom-king-of-latveria",
+    "don-andres-the-renegade",
+    "dr-eggman",
+    "edea-possessed-sorceress",
+    "edward-kenway",
+    "evelyn-the-covetous",
+    "fire-lord-azula",
+    "garza-zol-plague-queen",
+    "goro-goro-and-satoru",
+    "grixistax-october-2026"
+   ]
+  },
+  "C": {
+   "status": "planned",
+   "decks": [
+    "gwendlyn-di-corci",
+    "inalla-archmage-ritualist",
+    "jeleva-nephalias-scourge",
+    "kefka-court-mage",
+    "kess-dissident-mage",
+    "loki-the-deceiver",
+    "lord-of-tresserhorn",
+    "lord-xander-the-collector",
+    "lynde-cheerful-tormentor",
+    "mai-and-zuko"
+   ]
+  },
+  "D": {
+   "status": "planned",
+   "decks": [
+    "mairsil-the-pretender",
+    "marchesa-dealer-of-death",
+    "marchesa-the-black-rose",
+    "mishra-artificer-prodigy",
+    "mishra-eminent-one",
+    "missy",
+    "nathan-drake-treasure-hunter",
+    "nekusar-the-mindrazer",
+    "nicol-bolas-the-ravager",
+    "nicol-bolas"
+   ]
+  },
+  "E": {
+   "status": "planned",
+   "decks": [
+    "norman-osborn",
+    "obeka-brute-chronologist",
+    "obeka-splitter-of-seconds",
+    "parnesse-the-subtle-brush",
+    "rograkh-son-of-rohgahh-silas-renn",
+    "saruman-the-white-hand",
+    "sauron-lord-of-the-rings",
+    "sauron-the-dark-lord",
+    "sedris-the-traitor-king",
+    "solkanar-the-swamp-king"
+   ]
+  },
+  "F": {
+   "status": "planned",
+   "decks": [
+    "solkanar-the-tainted",
+    "tetsuo-imperial-champion",
+    "tetsuo-umezawa",
+    "the-madcap-jester",
+    "the-rani",
+    "the-valeyard",
+    "thraximundar",
+    "tresserhorns-lord-returned",
+    "wick-the-whorled-mind",
+    "zevlor-elturel-exile"
+   ]
+  }
+ }
+}

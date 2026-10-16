@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -637,6 +638,29 @@ Because the global restart explicitly revoked all historical approvals, the prio
 ### Further source evidence (linked, not copied)
 
 - [refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 46 interaction review: **28 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Abaddon the Despoiler — Interaction Review](../interactions/abaddon-the-despoiler.md).
+
+- **Abaddon's threshold counts life opponents actually lost this turn** — X = total life opponents lost this turn (damage counts; your own life payments don't). ([abaddon-01](../interactions/abaddon-the-despoiler.md#abaddon-01-abaddons-threshold-counts-life-opponents-actually-lost-this-turn))
+- **Only spells cast from your hand, during your turn, get cascade** — Hand-cast spells on your turn only; exile, graveyard and command-zone casts never get the grant. ([abaddon-02](../interactions/abaddon-the-despoiler.md#abaddon-02-only-spells-cast-from-your-hand-during-your-turn-get-cascade))
+- **Eligibility is checked as the spell is cast; later life loss can't add cascade** — Build X before casting: a spell's own damage can't give it cascade retroactively. ([abaddon-03](../interactions/abaddon-the-despoiler.md#abaddon-03-eligibility-is-checked-as-the-spell-is-cast-later-life-loss-cant-add-cascade))
+- **Mana value, not the cost you paid, is what is compared** — Free/pitch casts still cascade at their printed MV; Force of Negation's free mode is opponent-turn only. ([abaddon-04](../interactions/abaddon-the-despoiler.md#abaddon-04-mana-value-not-the-cost-you-paid-is-what-is-compared))
+- **A stacked top card is exposed to every later cascade on your turn** — Tutoring to the top, then casting a qualifying spell, can send the tutored card to the bottom. ([abaddon-06](../interactions/abaddon-the-despoiler.md#abaddon-06-a-stacked-top-card-is-exposed-to-every-later-cascade-on-your-turn))
+- **Mana value 0 spells always qualify, and their cascade randomizes your library** — 0-MV spells (LED, Petal, Mox, Pact) cascade into nothing and randomize your whole library. ([abaddon-07](../interactions/abaddon-the-despoiler.md#abaddon-07-mana-value-0-spells-always-qualify-and-their-cascade-randomizes-your-library))
+- **Granted cascade stacks with printed cascade** — Printed + granted cascade trigger separately (Bituminous Blast ×2, Call Forth ×3 at X ≥ 8). ([abaddon-08](../interactions/abaddon-the-despoiler.md#abaddon-08-granted-cascade-stacks-with-printed-cascade))
+- **Bloodletter and Solphim modify different events** — Solphim doubles damage, Bloodletter doubles the resulting life loss: Boltwave → 12 per opponent. ([abaddon-10](../interactions/abaddon-the-despoiler.md#abaddon-10-bloodletter-and-solphim-modify-different-events))
+- **Cast-from-exile payoffs see cascade hits but not copies** — Exile casts trigger Keeper/Archaeologist/Lost and Damned/Prosper/Nalfeshnee; copies trigger none. ([abaddon-14](../interactions/abaddon-the-despoiler.md#abaddon-14-cast-from-exile-payoffs-see-cascade-hits-but-not-copies))
+- **Underworld Breach + Lion's Eye Diamond + Brain Freeze** — Breach + LED + Brain Freeze: escape loop; mill alone doesn't win, Wheel/Windfall finishes. ([abaddon-20](../interactions/abaddon-the-despoiler.md#abaddon-20-underworld-breach--lions-eye-diamond--brain-freeze))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag A stacked top card is exposed to every later cascade on your turn: Sequencing hazard, not a list error. Top-of-library tutors and Abaddon's mandatory cascade compete on your own turn. Pilot note: draw the tutored card first, or tutor on an opponent's end step. ([abaddon-06](../interactions/abaddon-the-despoiler.md#abaddon-06-a-stacked-top-card-is-exposed-to-every-later-cascade-on-your-turn))
+- 🚩 list flag Mana value 0 spells always qualify, and their cascade randomizes your library: Pilot note: casting a 0-drop artifact or Pact from hand on your turn with Abaddon out effectively shuffles your library. Cast them before stacking the top, or on another turn. No list change: the cards are core fast mana. ([abaddon-07](../interactions/abaddon-the-despoiler.md#abaddon-07-mana-value-0-spells-always-qualify-and-their-cascade-randomizes-your-library))
+- 🚩 list flag Granted cascade stacks with printed cascade: The source review's Call Forth the Tempest mana value (11) is wrong; current Oracle is MV 8, so the third instance needs X ≥ 8, not 11. No list change. ([abaddon-08](../interactions/abaddon-the-despoiler.md#abaddon-08-granted-cascade-stacks-with-printed-cascade))
+- ⚠️ uncertain Upkeep and combat life loss open the threshold early: The exact X depends on table size (three opponents assumed) and on Stormfist also feeding opponents a card each turn; this is a strategic cost, not a rules question. ([abaddon-11](../interactions/abaddon-the-despoiler.md#abaddon-11-upkeep-and-combat-life-loss-open-the-threshold-early))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

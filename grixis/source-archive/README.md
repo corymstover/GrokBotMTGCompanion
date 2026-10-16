@@ -16,7 +16,7 @@
 - [Why a snapshot plus a bundle](#why-a-snapshot-plus-a-bundle)
 - [Inert by design](#inert-by-design)
 - [Map of the archive](#map-of-the-archive)
-- [Where the content is already integrated](#where-the-content-is-already-integrated)
+- [Where the content is already integrated](#where-the-content-is-already-integrated) (see also the [coverage audit](COVERAGE_AUDIT_2026-10-16.md))
 - [Refreshing](#refreshing)
 
 ## Verification
@@ -73,7 +73,7 @@ Paths are relative to [grixis-commander-encyclopediaGPT/](grixis-commander-encyc
 | `exports/` | 66 | 62-deck Archidekt import package (2026-10-15): ZIP, MASTER.txt, per-deck files, README |
 
 ## Where the content is already integrated
-Cory's coverage audit (cited in the Bot cycle 45 brief) puts **about 78% of the source's unique content** in companion pages already. This archive holds the rest verbatim, mainly the process machinery, per-deck verification packets and the full test programme.
+Cory's [coverage audit](COVERAGE_AUDIT_2026-10-16.md) (a separate read-only analysis, 2026-10-16) puts **about 78% (range 70–85%) of the source's unique content** in companion pages already. It found the top gaps to be the rules attestations, the Abaddon review, the ledger keep/cut reasons, the Norman blueprint, the Admiral Deck_Quality_v3 files, the Bjorna/Cecily Rule 0 variant and the pipeline/Forge methods. This archive holds the rest verbatim, mainly the process machinery, per-deck verification packets and the full test programme.
 - **Decks:** [grixis/decks/](../decks/): 62 deck pages, with each commander's blueprint, swap decisions, approval record and evidence dossiers quoted verbatim, the source's role tags and pinned printings, plus refined lists.
 - **Grixis section:** [Grixis README](../README.md) · [Evaluation](../Grixis%20Evaluation.md) (all 62 source lists re-checked) · [Corrections](../Grixis%20Corrections.md) · [Packages](../Grixis%20Packages.md) · [Refinement Cycle](../Grixis%20Refinement%20Cycle.md) · [Mission](../Grixis%20Mission.md).
 - **Integration record:** [Grixis Integration Summary](../Grixis%20Integration%20Summary.md): inventory, what was integrated, what was generalized into the any-identity [EDH Deck Template](../../EDH%20Deck%20Template.md), [Evaluation Checklist](../../EDH%20Deck%20Evaluation%20Checklist.md) and [EDH Standards](../../EDH%20Standards.md#deck-evaluation-method-from-the-grixis-repo), and what was not taken.

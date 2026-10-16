@@ -6,6 +6,7 @@ cd "$(dirname "$0")/.."
 export SCRYFALL_OFFLINE=1
 step() { echo "== $*"; "$@"; }
 step python3 scripts/grixis_refine.py   # Bot cycle 39: Refined-list blocks, metrics, Archidekt exports
+step python3 scripts/grixis_interactions.py   # Bot cycle 46: interaction reviews + deck-page Rules notes blocks
 step python3 scripts/build_crossrefs.py >/dev/null
 python3 scripts/build_card_enrichment.py | head -1 || true   # package back-link problems are expected until packages run
 step python3 scripts/build_packages.py
