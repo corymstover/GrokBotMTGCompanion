@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 57.1 (M3: evidence layer)](#2026-10-16--bot-cycle-571-m3-evidence-layer)
 - [2026-10-16 — Bot cycle 55 (M2: commander blueprints, batch 4; Norman Osborn registry id)](#2026-10-16--bot-cycle-55-m2-commander-blueprints-batch-4-norman-osborn-registry-id)
 - [2026-10-16 — Bot cycle 54 (phase 2 / M1: batch E)](#2026-10-16--bot-cycle-54-phase-2--m1-batch-e)
 - [2026-10-16 — Bot cycle 53 (M2: commander blueprints, batch 3; EDH Packages deck labels)](#2026-10-16--bot-cycle-53-m2-commander-blueprints-batch-3-edh-packages-deck-labels)
@@ -70,6 +71,23 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 57.1 (M3: evidence layer)
+- **M3 started** (`program.milestones.M3: in_progress`). The plan is five checkpointed sub-cycles: 57.1 evidence layer, 57.2 simulator core, 57.3 paired test records, 57.4 stress scenarios, 57.5 knowledge pages. The 9 numbered criteria are in [the Authority Model](grixis/Grixis%20Authority%20Model.md#m3).
+- **Evidence vectors** (`scripts/grixis_evidence.py`, `data/grixis/evidence/<slug>.json`, schema `evidence_vector.schema.json`): 62 decks, 17,712 vectors. That is every canonical-list card plus every EDHREC candidate on the deck's page that fits the colour identity and isn't a basic land. They expand to 27,986 schema-valid evidence items: 16,824 `derived_metric`, 7,293 `heuristic`, 1,569 `strategic_judgment`, 1,376 `fact`.
+- **EDHREC handling:**
+  - EDHREC is never above `moderate`. It is `low` for small samples (549 rows), for pooled partner pages and for lift/synergy-inconsistent rows. 202 rows are `rising` and 71 `falling` (|trend z| ≥ 2).
+  - Partner decks use the combined page (3 decks). Otherwise the commander pages are pooled; no deck needs that today, so it is unit-tested only.
+  - Every row is checked against lift = inclusion / (inclusion − synergy). It holds to 0.1% on 51 pages and fails on 1,851 rows across 11 pages; those rows are flagged and kept `low`.
+  - The retrieval date is the cache file's mtime, because the payload has no fetch time. The newest deck-save date is recorded too.
+- **Snapshot-keyed caching:** each file records the sha256 of every input; `--build` skips unchanged snapshots; the new `validate_all` step `evidence` fails on stale or invalid files (21 steps). 9 new tests are in `tests/test_evidence_layer.py`: aggregation, flags, confidence cap, items vs schema, the decision rule and schema negatives.
+- **Tresserhorn's Lord, Returned stays `PENDING_RELEASE`.** The Wizards date for its set, **2026-11-13**, is authoritative (confirmed by the user, relayed by MTG Bot). Two sources conflict with it:
+  - the source repo's verification record (L48, L67) and approval record call it legal now;
+  - the Scryfall cache shows `not_legal`, but with a set release date of 2026-10-19.
+  - Neither changes the state. The exception row already records the source error.
+- **M2 unchanged:** criteria 1–3 met, 4–5 wait for Cory. No blueprint is marked `cory_reviewed` and M2 is not accepted.
+- **Not touched:** `grixis/interactions/`, `data/grixis_interactions/` and `scripts/grixis_interactions.py` (read only; batch F, cycle 56, runs on the other executor). No decklist changed.
+- **Files:** `scripts/grixis_evidence.py`, `data/grixis/evidence/` (62), `data/grixis/schemas/evidence_vector.schema.json`, `tests/test_evidence_layer.py`, `scripts/validate_all.py`, `data/grixis/registry.json` (M3 status), `grixis/Grixis Authority Model.md`, `README.md`, this log, `data/kb_index.json`.
 
 ## 2026-10-16 — Bot cycle 55 (M2: commander blueprints, batch 4; Norman Osborn registry id)
 - **Batch 4: 16 decks**, Rograkh + Silas Renn … Zevlor, Elturel Exile alphabetically (Rograkh + Silas, Saruman, Sauron (Lord of the Rings), Sauron (the Dark Lord), Sedris, Sol'kanar the Swamp King, Sol'Kanar the Tainted, Tetsuo Umezawa, Tetsuo (Imperial Champion), The Madcap Jester, The Rani, The Valeyard, Thraximundar, Tresserhorn's Lord (Returned), Wick, Zevlor). **62/62 blueprints**: M2 criteria 1–3 are met; criteria 4–5 need Cory. Same standard as batches 1–3: every field carries an `evidence_class`, a `confidence` and line-numbered evidence.
