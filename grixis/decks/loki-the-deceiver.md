@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -422,6 +423,16 @@ The final current-cycle changes are:
 3. `Reliquary Tower` → `Hall of Echoes`
 
 The user explicitly approved this candidate on the condition that no gate errors were returned. The complete gate records `errors: []`, satisfying that condition. This exact list is therefore canonical and locked unless the user explicitly reopens it.
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 49 interaction review: **7 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Loki, the Deceiver — Interaction Review](../interactions/loki-the-deceiver.md).
+
+- **The token enters attacking, so its own attack triggers don't fire** — Copy token enters attacking: no attack triggers, but ETB, statics and combat-damage triggers work. ([loki-01](../interactions/loki-the-deceiver.md#loki-01-the-token-enters-attacking-so-its-own-attack-triggers-dont-fire))
+- **Titan of Littjara and Roaming Throne choose Villain** — Throne on Villain doubles Loki's attack trigger; Titan/Throne copies re-choose Villain. ([loki-03](../interactions/loki-the-deceiver.md#loki-03-titan-of-littjara-and-roaming-throne-choose-villain))
+- **Keeping the token: The Master, Multiplied and Sundial** — Master stops the sacrifice; Sundial only works with the trigger already on the stack. ([loki-05](../interactions/loki-the-deceiver.md#loki-05-keeping-the-token-the-master-multiplied-and-sundial))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
