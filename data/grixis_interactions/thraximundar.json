@@ -1,0 +1,267 @@
+{
+ "schema": 1,
+ "deck_id": "Thraximundar",
+ "slug": "thraximundar",
+ "commanders": [
+  "Thraximundar"
+ ],
+ "deck_sha256": "e5cf53533e1e71adce8e404d00cbad9a31c5ad68b9ac79632319ffc9b26e133e",
+ "list_source": "exports/grixis-archidekt/thraximundar.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 56,
+ "batch": "F",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/Thraximundar_Approval_Ready_Verification_v2_2026-10-15.md",
+   "note": "Approval-ready verification v2 (no rules attestation JSON in source)"
+  }
+ ],
+ "summary": "Thraximundar is a hasty Zombie that forces an edict when it attacks and gets a +1/+1 counter whenever any player sacrifices a creature. The deck pairs opponent edicts (Winter, Vona's Hunger, Flare of Malice, Call to the Grave) with sacrifice loops: 17 Spellbook lines with Gravecrawler, which Thraximundar enables as the other Zombie, and Reassembling Skeleton. The source has no rules attestation JSON, so this review uses the v2 approval-ready verification, and the canonical list matches its 13-card delta.\n\nRules surprises: the attack edict resolves before blocks; any sacrifice anywhere grows him; Rooftop Storm still pays commander tax. One dependency-risk flag: Cultist's upkeep sacrifice is mandatory and can force Thraximundar to sacrifice himself. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "thrax-01",
+   "category": "commander",
+   "title": "Thraximundar: attack edict before blocks; grows on ANY player's sacrifice",
+   "cards": [
+    "Thraximundar",
+    "Winter, Tormented Loner",
+    "Vona's Hunger",
+    "Flare of Malice",
+    "Call to the Grave"
+   ],
+   "ruling": "Thraximundar's attack trigger resolves in the declare attackers step, so the defending player sacrifices before they can block. His counter trigger fires on every creature sacrifice by any player for any reason:\n- **Your own outlets:** each sacrifice is a trigger.\n- **Opponents' edicts:** Winter, Vona's Hunger and Flare of Malice each give one trigger per creature sacrificed. A planeswalker sacrificed to Flare doesn't count.\n- **Flare of Malice's alternative cost:** sacrificing a nontoken black creature to cast it is a sacrifice too.\n- **Call to the Grave:** every player's upkeep. Thraximundar is a Zombie, so it can't be chosen.",
+   "short": "Edict before blocks; every creature sacrifice anywhere = a counter.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "508.1m",
+    "603.2",
+    "701.21a"
+   ],
+   "oracle": [
+    {
+     "card": "Thraximundar",
+     "quote": "Whenever a player sacrifices a creature, you may put a +1/+1 counter on Thraximundar."
+    },
+    {
+     "card": "Call to the Grave",
+     "quote": "At the beginning of each player's upkeep, that player sacrifices a non-Zombie creature of their choice."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Thraximundar",
+     "quote": "Thraximundar's middle ability resolves during the declare attackers step. The defending player sacrifices a creature before it would get a chance to block."
+    },
+    {
+     "card": "Thraximundar",
+     "quote": "Thraximundar's last ability triggers whenever any player (including you) sacrifices a creature for any reason. It doesn't trigger only when a creature is sacrificed due to its middle ability. Note that Thraximundar itself doesn't allow you to sacrifice any creatures."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Thraximundar_Approval_Ready_Verification_v2_2026-10-15.md",
+     "quote": "Its attack trigger makes the defending player sacrifice a creature, and its last ability triggers whenever **any player** sacrifices a creature."
+    },
+    {
+     "path": "refinement/verification/Thraximundar_Approval_Ready_Verification_v2_2026-10-15.md",
+     "quote": "**Call to the Grave** makes each player sacrifice a non-Zombie creature on that player's upkeep."
+    }
+   ]
+  },
+  {
+   "id": "thrax-02",
+   "category": "combo",
+   "title": "Gravecrawler loops: Thraximundar is the \"other Zombie\"",
+   "cards": [
+    "Thraximundar",
+    "Gravecrawler",
+    "Phyrexian Altar",
+    "Ashnod's Altar",
+    "Rooftop Storm",
+    "Carrion Feeder",
+    "Pitiless Plunderer",
+    "Warren Soultrader",
+    "Goblin Bombardment",
+    "Altar of Dementia",
+    "Grimgrin, Corpse-Born",
+    "Blood Artist",
+    "Zulaport Cutthroat"
+   ],
+   "ruling": "Gravecrawler can be cast from your graveyard while you control a Zombie, and Thraximundar is one. Sacrifice it to an outlet, then recast it with:\n- **Phyrexian Altar:** its {B}.\n- **Rooftop Storm:** {0}.\n- **Pitiless Plunderer:** its Treasure.\n- **Warren Soultrader:** its Treasure.\n\nThat's 13 Spellbook lines, all with every piece in the list. Every loop is a sacrifice, so Thraximundar grows without limit. Add Blood Artist, Zulaport or Goblin Bombardment to finish. Once Gravecrawler is on the stack, losing the other Zombie doesn't matter. Rooftop Storm doesn't change Gravecrawler's mana value.",
+   "short": "Thrax himself enables every Gravecrawler loop and grows each iteration.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "601.2",
+    "118.9"
+   ],
+   "oracle": [
+    {
+     "card": "Gravecrawler",
+     "quote": "You may cast this card from your graveyard as long as you control a Zombie."
+    },
+    {
+     "card": "Rooftop Storm",
+     "quote": "You may pay {0} rather than pay the mana cost for Zombie creature spells you cast."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Gravecrawler",
+     "quote": "Once you've cast Gravecrawler and it's on the stack, it doesn't matter if you lose control of the other Zombie."
+    },
+    {
+     "card": "Rooftop Storm",
+     "quote": "The mana cost and mana value of the spell are unchanged. Rooftop Storm only changes what you pay."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "2577-4050",
+     "quote": "You control an additional Zombie."
+    },
+    {
+     "id": "2577-4050",
+     "quote": "Cast Gravecrawler from your graveyard by paying {B}."
+    },
+    {
+     "id": "2438-2452-2577",
+     "quote": "Cast Gravecrawler from your graveyard by paying {0}."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Thraximundar_Approval_Ready_Verification_v2_2026-10-15.md",
+     "quote": "**Gravecrawler + Phyrexian Altar + another Zombie:** sacrifice Gravecrawler for {B}, then recast it for {B}."
+    }
+   ]
+  },
+  {
+   "id": "thrax-03",
+   "category": "combo",
+   "title": "Reassembling Skeleton + Pitiless Plunderer + Ashnod's / Phyrexian Altar",
+   "cards": [
+    "Thraximundar",
+    "Reassembling Skeleton",
+    "Pitiless Plunderer",
+    "Ashnod's Altar",
+    "Phyrexian Altar",
+    "Warren Soultrader"
+   ],
+   "ruling": "Sacrificing Skeleton gives altar mana plus a Plunderer Treasure, and that pays {1}{B} to return it tapped. Ashnod's Altar nets {C} per loop. Spellbook lists 1580-2034-4871, 1580-4050-4871 and the Soultrader variants. These loops don't need a Zombie. Each sacrifice is another Thraximundar counter.",
+   "status": "verified",
+   "cr": [
+    "605.1a"
+   ],
+   "oracle": [
+    {
+     "card": "Reassembling Skeleton",
+     "quote": "{1}{B}: Return this card from your graveyard to the battlefield tapped."
+    }
+   ],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "1580-2034-4871",
+     "quote": "Activate Reassembling Skeleton by paying {1}{B}, returning it from your graveyard to the battlefield tapped."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Thraximundar_Approval_Ready_Verification_v2_2026-10-15.md",
+     "quote": "**Reassembling Skeleton + Pitiless Plunderer + Ashnod's Altar:** Ashnod's Altar supplies {C}{C} and Plunderer supplies a Treasure"
+    }
+   ]
+  },
+  {
+   "id": "thrax-04",
+   "category": "dependency",
+   "title": "Cultist of the Absolute: +3/+3 flying deathtouch ward, and a mandatory upkeep sacrifice",
+   "cards": [
+    "Thraximundar",
+    "Cultist of the Absolute"
+   ],
+   "ruling": "Cultist of the Absolute gives commander creatures you own +3/+3, flying, deathtouch, \"Ward—Pay 3 life\" and \"At the beginning of your upkeep, sacrifice a creature.\" That upkeep sacrifice is mandatory and can be any creature, including Thraximundar himself. With another creature it's a free counter. If Thraximundar is your only creature, you must sacrifice him. Keep fodder such as Gravecrawler or Reassembling Skeleton, which can come back.",
+   "short": "Cultist's upkeep sacrifice is mandatory; with no fodder Thrax eats himself.",
+   "status": "flag",
+   "flag": {
+    "kind": "dependency-risk",
+    "note": "Cultist of the Absolute's granted upkeep sacrifice is mandatory; with no other creature, Thraximundar must sacrifice himself."
+   },
+   "key": true,
+   "cr": [
+    "603.2",
+    "701.21a"
+   ],
+   "oracle": [
+    {
+     "card": "Cultist of the Absolute",
+     "quote": "Commander creatures you own get +3/+3 and have flying, deathtouch, \"Ward—Pay 3 life,\" and \"At the beginning of your upkeep, sacrifice a creature.\""
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Thraximundar_Approval_Ready_Verification_v2_2026-10-15.md",
+     "quote": "Sacrificing another creature to the granted upkeep ability grows Thraximundar."
+    }
+   ]
+  },
+  {
+   "id": "thrax-05",
+   "category": "engine",
+   "title": "Yawgmoth proliferate, Shizo fear, Command Beacon, Rooftop Storm on the commander",
+   "cards": [
+    "Thraximundar",
+    "Yawgmoth, Thran Physician",
+    "Shizo, Death's Storehouse",
+    "Command Beacon",
+    "Rooftop Storm"
+   ],
+   "ruling": "Support pieces:\n- **Yawgmoth:** pay 1 life and sacrifice another creature for a card and an optional -1/-1 counter. Each one is a Thraximundar counter, and his proliferate adds another +1/+1.\n- **Shizo:** gives the legendary Thraximundar fear for {B}.\n- **Command Beacon:** puts him in your hand. Casting him from hand has no commander tax and doesn't add to it.\n- **Rooftop Storm:** casts the Zombie Thraximundar for {0} instead of {4}{U}{B}{R}, but commander tax from the command zone is still added.",
+   "status": "verified",
+   "cr": [
+    "701.34a",
+    "903.8",
+    "702.36b"
+   ],
+   "oracle": [
+    {
+     "card": "Shizo, Death's Storehouse",
+     "quote": "{B}, {T}: Target legendary creature gains fear until end of turn. (It can't be blocked except by artifact creatures and/or black creatures.)"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Command Beacon",
+     "quote": "If you cast a commander from your hand, the commander tax doesn't apply. Additionally, that casting won't add to commander tax if you later cast the commander from the command zone."
+    },
+    {
+     "card": "Yawgmoth, Thran Physician",
+     "quote": "To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Thraximundar_Approval_Ready_Verification_v2_2026-10-15.md",
+     "quote": "**Rooftop Storm** remains a major commander-specific accelerator"
+    }
+   ]
+  }
+ ]
+}

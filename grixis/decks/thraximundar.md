@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -573,6 +574,19 @@ The approved list is frozen and must not be revised unless the user explicitly r
 - [refinement/verification/Thraximundar_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Thraximundar_Approval_Ready_Verification_2026-10-15.md)
 - [refinement/verification/Thraximundar_Approval_Ready_Verification_v2_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Thraximundar_Approval_Ready_Verification_v2_2026-10-15.md)
 - [refinement/audits/Thraximundar_Whole_List_Audit_2026-10-15.csv](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/audits/Thraximundar_Whole_List_Audit_2026-10-15.csv)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 56 interaction review: **5 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Thraximundar — Interaction Review](../interactions/thraximundar.md).
+
+- **Thraximundar: attack edict before blocks; grows on ANY player's sacrifice** — Edict before blocks; every creature sacrifice anywhere = a counter. ([thrax-01](../interactions/thraximundar.md#thrax-01-thraximundar-attack-edict-before-blocks-grows-on-any-players-sacrifice))
+- **Gravecrawler loops: Thraximundar is the "other Zombie"** — Thrax himself enables every Gravecrawler loop and grows each iteration. ([thrax-02](../interactions/thraximundar.md#thrax-02-gravecrawler-loops-thraximundar-is-the-other-zombie))
+- **Cultist of the Absolute: +3/+3 flying deathtouch ward, and a mandatory upkeep sacrifice** — Cultist's upkeep sacrifice is mandatory; with no fodder Thrax eats himself. ([thrax-04](../interactions/thraximundar.md#thrax-04-cultist-of-the-absolute-33-flying-deathtouch-ward-and-a-mandatory-upkeep-sacrifice))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Cultist of the Absolute: +3/+3 flying deathtouch ward, and a mandatory upkeep sacrifice: Cultist of the Absolute's granted upkeep sacrifice is mandatory; with no other creature, Thraximundar must sacrifice himself. ([thrax-04](../interactions/thraximundar.md#thrax-04-cultist-of-the-absolute-33-flying-deathtouch-ward-and-a-mandatory-upkeep-sacrifice))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

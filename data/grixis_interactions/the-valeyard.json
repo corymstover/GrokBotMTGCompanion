@@ -1,0 +1,230 @@
+{
+ "schema": 1,
+ "deck_id": "The_Valeyard",
+ "slug": "the-valeyard",
+ "commanders": [
+  "The Valeyard"
+ ],
+ "deck_sha256": "f68cb26275da3a765e1009fc62fd6de4bb834cab57770dc6ed4f3f74578dc404",
+ "list_source": "exports/grixis-archidekt/the-valeyard.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 56,
+ "batch": "F",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/The_Valeyard_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification (no rules attestation JSON in source)"
+  }
+ ],
+ "summary": "The Valeyard makes opponents face each villainous choice an additional time and gives you an extra vote. The deck runs 13 villainous-choice sources plus voting cards (will of the council, council's dilemma, secret council), Valeyard copies (Spark Double, Quantum Misalignment, Sakashima, Auton Soldier) and vote payoffs (Grudge Keeper, Model of Unity, Illusion of Choice). The source has no rules attestation JSON, so this review uses the approval-ready verification. The canonical list matches its delta (Force of Will, Messenger Jays, Spark Double, Quantum Misalignment, Sakashima, Auton Soldier, Arid Mesa, City of Brass, Mana Confluence in; Prisoner's Dilemma, Windswept Heath out). No Spellbook lines.\n\nRules surprises: Prisoner's Dilemma isn't a vote; each Valeyard copy adds another full choice; splitting your extra vote turns off Grudge Keeper; Arid Mesa also finds basic Mountains. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "valeyard-01",
+   "category": "commander",
+   "title": "Villainous choices are faced again, one at a time; copies add more",
+   "cards": [
+    "The Valeyard",
+    "Hunted by The Family",
+    "Great Intelligence's Plan",
+    "Damocles Base, Sword of Kang",
+    "Davros, Dalek Creator",
+    "Dr. Eggman",
+    "Ensnared by the Mara",
+    "Genesis of the Daleks",
+    "This Is How It Ends",
+    "Midnight Crusader Shuttle"
+   ],
+   "ruling": "The Valeyard's first ability is a replacement effect. When an opponent would face a villainous choice, they face it an additional time. They complete the whole choice and its actions, then face it again, and they can pick differently each time. Each additional Valeyard (Spark Double, Quantum Misalignment, Sakashima) applies its own replacement, adding one more time.\n\nOn Hunted by The Family, each targeted creature is a separate choice. Choosing \"token copy\" twice gives you two tokens, and choosing \"becomes 1/1\" twice changes nothing more. Only opponents are affected.",
+   "short": "Each opponent's villainous choice happens twice (more with copies), performed in full each time.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "701.55a",
+    "701.55c",
+    "614.1a"
+   ],
+   "oracle": [
+    {
+     "card": "The Valeyard",
+     "quote": "If an opponent would face a villainous choice, they face that choice an additional time. (They can make the same or different choices.)"
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/The_Valeyard_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Multiple Valeyard effects stack additively: each replacement effect causes an additional villainous choice, performed one at a time under rule 701.55c"
+    }
+   ]
+  },
+  {
+   "id": "valeyard-02",
+   "category": "commander",
+   "title": "Extra votes: only real votes count (Prisoner's Dilemma correctly cut); secret council counts",
+   "cards": [
+    "The Valeyard",
+    "Messenger Jays",
+    "Expropriate",
+    "Capital Punishment",
+    "Fateful Tempest",
+    "Mob Verdict",
+    "Trap the Trespassers",
+    "Truth or Consequences",
+    "Tyrant's Choice",
+    "Coercive Portal"
+   ],
+   "ruling": "\"While voting\" applies only to actual votes. Prisoner's Dilemma has players choose silence or snitch without voting, so it never worked with Valeyard and was correctly cut. Messenger Jays is a real council's dilemma vote, so it was correctly added. Secret council cards (Mob Verdict, Trap the Trespassers, Truth or Consequences) are votes too, and your extra votes are written down at the same time. On council's dilemma each vote adds an effect: two time votes on Expropriate are two extra turns. On will of the council an extra vote can swing the majority.",
+   "short": "Real votes only; council's dilemma votes stack, will-of-the-council votes swing majorities.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "701.38a",
+    "701.38c",
+    "701.38d"
+   ],
+   "oracle": [
+    {
+     "card": "The Valeyard",
+     "quote": "While voting, you may vote an additional time."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Messenger Jays",
+     "quote": "Unlike the will of the council cards from the original Conspiracy set, where a majority of votes determined what happened, each vote made for a council’s dilemma card adds to the ultimate effect."
+    },
+    {
+     "card": "Mob Verdict",
+     "quote": "To secretly vote, each player writes down their chosen option without showing it to anyone else. Each player then keeps their vote secret until all players simultaneously reveal their votes."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/The_Valeyard_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Prisoner's Dilemma does not currently interact with The Valeyard's extra-vote ability."
+    },
+    {
+     "path": "refinement/verification/The_Valeyard_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Messenger Jays is a real voting card."
+    }
+   ]
+  },
+  {
+   "id": "valeyard-03",
+   "category": "dependency",
+   "title": "Grudge Keeper and Model of Unity: split votes weaken them",
+   "cards": [
+    "The Valeyard",
+    "Grudge Keeper",
+    "Model of Unity",
+    "Illusion of Choice"
+   ],
+   "ruling": "Grudge Keeper drains an opponent only if they voted for none of your choices. If you split your extra Valeyard vote across both options, every opponent matched one of them and nobody loses life. Put both votes on the same option to keep the drain. Model of Unity works the other way: split votes let more opponents scry with you. Illusion of Choice lets you set every vote, including your own extra ones, so you can pick exactly who matches.",
+   "status": "verified",
+   "cr": [
+    "701.38d"
+   ],
+   "oracle": [
+    {
+     "card": "Grudge Keeper",
+     "quote": "Whenever players finish voting, each opponent who voted for a choice you didn't vote for loses 2 life."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Grudge Keeper",
+     "quote": "If you have additional votes because of Brago’s Representative, and you vote for more than one choice, an opponent will lose 2 life only if they voted for none of those choices."
+    },
+    {
+     "card": "Illusion of Choice",
+     "quote": "If another player controls Ballot Broker, that player first takes their “normal” vote with you choosing the result, then that player decides whether they are taking the additional vote. If there is an additional vote, you again choose the result."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "valeyard-04",
+   "category": "layers",
+   "title": "Copying The Valeyard: Spark Double, Quantum Misalignment, Sakashima, Auton Soldier",
+   "cards": [
+    "The Valeyard",
+    "Spark Double",
+    "Quantum Misalignment",
+    "Sakashima of a Thousand Faces",
+    "Auton Soldier"
+   ],
+   "ruling": "Each copy of The Valeyard has both abilities, so it adds one more villainous choice and one more vote.\n- **Spark Double and Quantum Misalignment** copies aren't legendary, so the legend rule doesn't apply. Misalignment rebounds for a second token next upkeep.\n- **Sakashima** stays legendary, but the legend rule doesn't apply to you while it's out. If Sakashima leaves, you must keep only one.\n- **Auton Soldier** copies aren't legendary and have myriad. The myriad tokens enter attacking, and are exiled at end of combat, so they help only with instant-speed votes and choices during that combat (Split Decision, Trap the Trespassers).",
+   "status": "verified",
+   "cr": [
+    "707.2",
+    "704.5j",
+    "702.116a"
+   ],
+   "oracle": [
+    {
+     "card": "Quantum Misalignment",
+     "quote": "Create a token that's a copy of target creature you control, except it isn't legendary."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Spark Double",
+     "quote": "Spark Double isn’t legendary if it copies a legendary permanent, and this exception is copiable. If something else copies Spark Double later, that copy also won’t be legendary. If you control two or more permanents with the same name but only one is legendary, the “legend rule” doesn’t apply."
+    },
+    {
+     "card": "Sakashima of a Thousand Faces",
+     "quote": "If you control more than one legendary permanent with the same name and the \"legend rule\" begins applying again (perhaps because Sakashima of a Thousand Faces leaves the battlefield), you'll immediately have to comply with the rule and put all but one of those permanents into the graveyard."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/The_Valeyard_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "The accepted copy package directly multiplies the commander's text without immediately losing copies to the legend rule."
+    }
+   ]
+  },
+  {
+   "id": "valeyard-05",
+   "category": "legality",
+   "title": "Mana fix: Arid Mesa replaces a dead Windswept Heath",
+   "cards": [
+    "The Valeyard",
+    "Arid Mesa",
+    "City of Brass",
+    "Mana Confluence"
+   ],
+   "ruling": "Windswept Heath finds only a Forest or Plains, and this list has neither, so it was a dead land. Arid Mesa finds a Mountain or Plains. Its targets are Badlands, Blood Crypt, Steam Vents, Volcanic Island and Xander's Lounge, plus the 2 basic Mountains, which the approval-ready note doesn't list. City of Brass and Mana Confluence replace the conditional checklands. The canonical list matches the approval-ready delta.",
+   "status": "verified",
+   "cr": [
+    "205.3i",
+    "701.23a"
+   ],
+   "oracle": [
+    {
+     "card": "Arid Mesa",
+     "quote": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/The_Valeyard_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Windswept Heath has zero fetchable lands in the authoritative current list."
+    }
+   ]
+  }
+ ]
+}
