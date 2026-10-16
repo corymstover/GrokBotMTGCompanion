@@ -1,0 +1,310 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/evidence_vector.schema.json",
+ "title": "Per-deck evidence vectors (M3, v1)",
+ "description": "Bot cycle 57 (M3): one vector per canonical-list card and per EDHREC candidate, each part classed (fact / derived_metric / heuristic / strategic_judgment) with a confidence. Built by scripts/grixis_evidence.py; items() expands a vector into evidence.schema.json items.",
+ "type": "object",
+ "properties": {
+  "schema_version": {
+   "const": 1
+  },
+  "deck_id": {
+   "type": "string"
+  },
+  "slug": {
+   "type": "string"
+  },
+  "generated_by": {
+   "type": "string"
+  },
+  "cycle": {
+   "type": "integer"
+  },
+  "date": {
+   "$ref": "common.schema.json#/$defs/date"
+  },
+  "edhrec": {
+   "type": "object",
+   "properties": {
+    "pages": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "properties": {
+       "page": {
+        "type": "string"
+       },
+       "sha256": {
+        "type": "string",
+        "pattern": "^sha256:[0-9a-f]{64}$"
+       },
+       "retrieved": {
+        "$ref": "common.schema.json#/$defs/date"
+       },
+       "newest_deck_save": {
+        "type": [
+         "string",
+         "null"
+        ]
+       }
+      },
+      "required": [
+       "page",
+       "sha256",
+       "retrieved"
+      ],
+      "additionalProperties": false
+     }
+    },
+    "method": {
+     "enum": [
+      "single_page",
+      "combined_page",
+      "pooled",
+      "none"
+     ]
+    },
+    "note": {
+     "type": "string"
+    },
+    "class": {
+     "const": "derived_metric"
+    },
+    "columns": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   },
+   "required": [
+    "pages",
+    "method",
+    "class",
+    "columns"
+   ],
+   "additionalProperties": false
+  },
+  "snapshot": {
+   "type": "object",
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "inputs": {
+     "type": "object",
+     "additionalProperties": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   },
+   "required": [
+    "id",
+    "inputs"
+   ],
+   "additionalProperties": false
+  },
+  "counts": {
+   "type": "object",
+   "properties": {
+    "incumbent": {
+     "type": "integer"
+    },
+    "candidate": {
+     "type": "integer"
+    },
+    "with_edhrec": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "incumbent",
+    "candidate",
+    "with_edhrec"
+   ],
+   "additionalProperties": false
+  },
+  "vectors": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "card": {
+      "type": "string",
+      "minLength": 1
+     },
+     "status": {
+      "enum": [
+       "commander",
+       "incumbent",
+       "candidate"
+      ]
+     },
+     "zone": {
+      "type": "string"
+     },
+     "legal": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "edhrec": {
+      "description": "null, or the columns named in edhrec.columns: lift, synergy, inclusion, num_decks, potential_decks, trend_zscore, confidence, flags.",
+      "type": [
+       "array",
+       "null"
+      ],
+      "minItems": 8,
+      "maxItems": 8
+     },
+     "oracle_hook": {
+      "type": [
+       "object",
+       "null"
+      ],
+      "properties": {
+       "label": {
+        "type": "string"
+       },
+       "commander": {
+        "type": "string"
+       },
+       "class": {
+        "const": "heuristic"
+       },
+       "confidence": {
+        "$ref": "common.schema.json#/$defs/confidence"
+       }
+      },
+      "required": [
+       "label",
+       "commander",
+       "class",
+       "confidence"
+      ],
+      "additionalProperties": false
+     },
+     "graph": {
+      "type": "object",
+      "properties": {
+       "spellbook": {
+        "type": "object",
+        "properties": {
+         "ids": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          },
+          "minItems": 1
+         },
+         "class": {
+          "const": "fact"
+         },
+         "confidence": {
+          "$ref": "common.schema.json#/$defs/confidence"
+         }
+        },
+        "required": [
+         "ids",
+         "class",
+         "confidence"
+        ],
+        "additionalProperties": false
+       },
+       "m1": {
+        "type": "object",
+        "properties": {
+         "ids": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          },
+          "minItems": 1
+         },
+         "flags": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "class": {
+          "const": "fact"
+         },
+         "confidence": {
+          "$ref": "common.schema.json#/$defs/confidence"
+         }
+        },
+        "required": [
+         "ids",
+         "flags",
+         "class",
+         "confidence"
+        ],
+        "additionalProperties": false
+       },
+       "blueprint": {
+        "type": "object",
+        "properties": {
+         "packages": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "identity_core": {
+          "type": "boolean"
+         },
+         "version": {
+          "type": [
+           "integer",
+           "string",
+           "null"
+          ]
+         },
+         "class": {
+          "const": "strategic_judgment"
+         },
+         "confidence": {
+          "$ref": "common.schema.json#/$defs/confidence"
+         }
+        },
+        "required": [
+         "packages",
+         "identity_core",
+         "class",
+         "confidence"
+        ],
+        "additionalProperties": false
+       }
+      },
+      "additionalProperties": false
+     }
+    },
+    "required": [
+     "card",
+     "status",
+     "edhrec"
+    ],
+    "additionalProperties": false
+   },
+   "minItems": 1
+  }
+ },
+ "required": [
+  "schema_version",
+  "deck_id",
+  "slug",
+  "generated_by",
+  "date",
+  "edhrec",
+  "snapshot",
+  "counts",
+  "vectors"
+ ],
+ "additionalProperties": false
+}

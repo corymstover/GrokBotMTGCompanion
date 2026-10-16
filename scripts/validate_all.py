@@ -28,7 +28,9 @@ Steps (run in this order; each prints its own summary):
   7f blueprints     scripts/grixis_blueprints.py --check  Bot cycle 50 (M2): commander blueprints validate (schema v2, Oracle text vs
                     cache, card refs in the canonical list or declared candidates, evidence on every field, refs resolve,
                     class rules, ceilings/disagreement vs registry, rendered pages current)
-  7g unit-tests     scripts/run_tests.py  tests/ via pytest (stdlib fallback runner when pytest is absent)
+  7g evidence       scripts/grixis_evidence.py --check  Bot cycle 57 (M3): per-deck evidence vectors validate (schema, classes and
+                    confidence rules, EDHREC lift/synergy identity flags, evidence items vs evidence.schema.json, snapshot fresh)
+  7h unit-tests     scripts/run_tests.py  tests/ via pytest (stdlib fallback runner when pytest is absent)
   8 freshness    (built in)                              generated pages built from an older bulk than the cache (warning);
                                                          with --online, a newer Scryfall bulk than the cache (warning; --strict fails)
 Default is offline (SCRYFALL_OFFLINE=1: newest cached bulk in .cache/, recorded citation results).
@@ -178,6 +180,7 @@ def main(argv):
              ("source-archive", ["scripts/grixis_archive.py", "--check"]),  # Bot cycle 45: archived Grixis source byte-identical to its manifest
              ("authority", ["scripts/grixis_authority.py", "--check"]),  # Bot cycle 47 (M0): authority registry, exceptions, approvals, schemas
              ("blueprints", ["scripts/grixis_blueprints.py", "--check"]),  # Bot cycle 50 (M2): commander blueprints, evidence on every field
+             ("evidence", ["scripts/grixis_evidence.py", "--check"]),  # Bot cycle 57 (M3): evidence vectors, classes, snapshot keys
              ("unit-tests", ["scripts/run_tests.py"]),  # Bot cycle 47 (M0): tests/ (hashes, states, approvals, legality vs authorization, schemas)
              ("freshness", None)]
     results = []
