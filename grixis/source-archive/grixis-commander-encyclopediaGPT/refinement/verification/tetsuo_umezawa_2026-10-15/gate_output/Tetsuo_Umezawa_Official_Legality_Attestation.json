@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "deck_sha256": "14ca66ceae4d634630a85aa1787731cfe840fd9fc2093bc37ad5dc17d1539ff6",
+  "checked_at_utc": "2026-10-15T22:37:43.991397+00:00",
+  "sources": [
+    "Current_Cycle_Oracle_Cache.jsonl refreshed from current Scryfall metadata",
+    "Current official Commander legality checkpoint"
+  ],
+  "unexpected_banned_cards": [],
+  "project_exceptions_required": [],
+  "finding": "Every candidate card is currently Commander-legal; no project exception is required."
+}

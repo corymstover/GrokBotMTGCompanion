@@ -1,0 +1,27 @@
+name: Finalize Madcap Jester approval once
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/finalize-obeka-splitter-of-seconds-approval-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Finalize exact approved Madcap Jester candidate
+        run: python scripts/finalize_madcap_jester_approval_once.py
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Approve and lock The Madcap Jester [skip ci]"
+          file_pattern: "state/current_deck_overrides.json refinement/Deck_Refinement_Tracker_2026-10-12.csv refinement/decklists/The_Madcap_Jester_Approved_2026-10-15.txt refinement/approvals/The_Madcap_Jester_Approved_2026-10-15.md refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md"

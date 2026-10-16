@@ -1,0 +1,137 @@
+{
+  "package_generated_at": "2026-10-12",
+  "timezone": "America/Chicago",
+  "package_version": "source-refresh-1.0",
+  "current_decklist_archives": [
+    {
+      "filename": "GrixisFINAL60--2026.zip",
+      "sha256": "572d5e96e7cec18e8eaaa5bd11058c01dcb255a98e91f0398f05d5ca4cdd52d3",
+      "role": "CURRENT_AUTHORITATIVE_DECKLIST_ARCHIVE"
+    },
+    {
+      "filename": "GrixisFINAL2--2026.zip",
+      "sha256": "4223170ca208fda81f12d0456cc427ffcfc46546fd600f944905cf59a838ab4f",
+      "role": "CURRENT_AUTHORITATIVE_DECKLIST_ARCHIVE"
+    },
+    {
+      "filename": "GrixisFINALTXT60--2026.zip",
+      "sha256": "f299a8526444915ac0caf421aa7c8eaf28a437a69ef2cf66dae38a4c22196d1a",
+      "role": "CURRENT_AUTHORITATIVE_DECKLIST_ARCHIVE"
+    },
+    {
+      "filename": "GrixisFINALTXT2--2026.zip",
+      "sha256": "5c2badae566041c095ef431cba31bcdcea4b12f6758190f2ad0ba1e21af6b24c",
+      "role": "CURRENT_AUTHORITATIVE_DECKLIST_ARCHIVE"
+    }
+  ],
+  "historical_decklist_archives": [
+    {
+      "filename": "Grixis60CSVFiles-Updated-10-11-2026.zip",
+      "sha256": "f9813fbbcd4cc954f3ee75c6ab86ec01ea88f12f0de8c5c99cf86a52f0ca8815",
+      "role": "HISTORICAL_PRE_FINAL_BASELINE"
+    },
+    {
+      "filename": "Grixis2CSVFiles-Updated-10-11-2026.zip",
+      "sha256": "1c2bfb315daab8db984bf77a8228263a5201a2e41c41a653a0d2cf2550165e98",
+      "role": "HISTORICAL_PRE_FINAL_BASELINE"
+    },
+    {
+      "filename": "Grixis60TXTFiles-Updated-10-11-2026.zip",
+      "sha256": "435529605111c3013b58ea3b32c7962dc9fabe2ffc5db970968a0853f96c7603",
+      "role": "HISTORICAL_PRE_FINAL_BASELINE"
+    },
+    {
+      "filename": "Grixis2TXTFiles__Updated-10-11-2026.zip",
+      "sha256": "3b34d362e2dada515f11e64008e725adcad4d30b4d13fa492546bab780324e77",
+      "role": "HISTORICAL_PRE_FINAL_BASELINE"
+    }
+  ],
+  "current_counts": {
+    "deck_count": 62,
+    "csv_txt_reconciliation_pass_count": 62,
+    "main_deck_plus_commander_quantity_total": 6200,
+    "csv_quantity_total_including_companion": 6201,
+    "changed_decks_vs_prior": 62,
+    "copy_additions_vs_prior": 306,
+    "copy_cuts_vs_prior": 306,
+    "main_decks_with_100_copies": 62,
+    "singleton_pass_decks": 62
+  },
+  "metadata_freshness": {
+    "source_audit_snapshot_date": "2026-10-11",
+    "final_archive_membership_refresh_date": "2026-10-12",
+    "current_oracle_rulings_full_refresh": false,
+    "current_official_commander_legality_full_refresh": false,
+    "legality_refresh_status": "Official banned-list checkpoint and named-card comparison completed 2026-10-12; comprehensive current Oracle/rulings/printing-level legality refresh remains pending.",
+    "power_score_recalculated": false,
+    "prior_archidekt_tags_carried_forward": true
+  },
+  "known_exceptions_preserved": 8,
+  "unknown_current_card_names_in_prior_audit_or_candidate_snapshot": [],
+  "notes": [
+    "Current card list count and source pair reconciliation rebuilt from GrixisFINAL archives.",
+    "Prior v8.1.4 card metadata is included as inherited context and provenance only.",
+    "A successful mechanical count/reconciliation is not a substitute for strategy/rules/legality approval.",
+    "Archive ordering intentionally separated from project master numbering."
+  ],
+  "source_package_sha256": "47892245c2cefcf528c38fa9d9e56653d6e71a0fc73fd5ea5eecdd90e2032746",
+  "independent_verification": {
+    "snapshot_date": "2026-10-12",
+    "source_zip_integrity": "PASS",
+    "internal_file_manifest_entries": 165,
+    "internal_file_manifest_hashes_passed": 165,
+    "internal_file_manifest_hash_failures": 0,
+    "per_deck_csv_txt_hash_manifest_committed": "source-package/Grixis_Independent_Deck_Hash_Manifest_2026-10-12.csv",
+    "independent_csv_txt_reconciliation": "62/62 PASS",
+    "independent_100_card_count": "62/62 PASS",
+    "independent_singleton_scan": "62/62 PASS",
+    "official_commander_named_ban_list_crosscheck": "PASS — only three registered project-exception cards found",
+    "comprehensive_current_oracle_rulings_and_printing_legality_refresh": "PENDING"
+  },
+  "official_legality_checkpoint": {
+    "checked_date": "2026-10-12",
+    "october_12_b_r_announcement_url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-october-12-2026",
+    "consolidated_ban_list_url": "https://magic.wizards.com/en/banned-restricted-list",
+    "tabletop_commander_changes_announced_october_12": false,
+    "explicit_banned_card_findings": [
+      {
+        "deck_id": "Cecily__Bjorna__Lutri",
+        "card_name": "Lutri, the Spellchaser",
+        "zone": "companion",
+        "project_exception": "authorized"
+      },
+      {
+        "deck_id": "Cecily__Bjorna__Lutri",
+        "card_name": "Trade Secrets",
+        "zone": "main",
+        "project_exception": "authorized"
+      },
+      {
+        "deck_id": "Cecily__Bjorna__Lutri",
+        "card_name": "Yawgmoth's Bargain",
+        "zone": "main",
+        "project_exception": "authorized"
+      }
+    ],
+    "unexpected_named_banned_cards_found": 0,
+    "comprehensive_all_printing_legality_audit": false
+  },
+  "current_decklist_mirror": {
+    "path": "source-package/GrixisFINAL_62Decks_CSV_TXT_2026-10-12.tar.gz",
+    "kind": "new compressed mirror bundle of the 124 current extracted CSV/TXT decklist files; not a replacement for the four original archives",
+    "files": 124,
+    "csv_files": 62,
+    "txt_files": 62,
+    "bytes": 78061,
+    "sha256": "f2f46436c3514ecf8412d1fe1f9926919d8d1a3d7a2f938ffee7efce073b2b20",
+    "raw_individual_hash_manifest": "source-package/Grixis_Independent_Deck_Hash_Manifest_2026-10-12.csv"
+  },
+  "card_verification_queue": {
+    "path": "source-package/Grixis_Targeted_Card_Review_Queue_2026-10-12.csv",
+    "unique_card_names": 1524,
+    "p0_metadata_gap_or_identity_resolution": 1,
+    "p1_inherited_legality_not_reverified": 182,
+    "p2_normal_fresh_metadata_checkpoint": 1341,
+    "note": "Queue uses empty color identity cautiously: empty is commonly valid for colorless cards and is not automatically treated as a defect."
+  }
+}

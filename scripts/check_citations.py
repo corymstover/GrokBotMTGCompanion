@@ -24,6 +24,9 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from grixis_archive import in_archive  # noqa: E402  Bot cycle 45: archived Grixis source is inert data, not checked
+
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "citations.json"
 URL = re.compile(r"https?://(?:[a-z0-9-]+\.)*wizards\.com[^\s)<>\]\"'`|]*", re.I)
@@ -34,7 +37,7 @@ UA = {"User-Agent": "Mozilla/5.0 (GrokBotMTGCompanion citation check; +https://g
 
 
 def md_files():
-    return [p for p in ROOT.rglob("*.md") if ".git" not in p.parts and ".cache" not in p.parts]
+    return [p for p in ROOT.rglob("*.md") if ".git" not in p.parts and ".cache" not in p.parts and not in_archive(p)]
 
 
 def norm(u):

@@ -1,0 +1,95 @@
+version: 1
+defaults:
+  max_attempts: 3
+  timeout_seconds: 900
+  circuit_breaker_failures: 3
+  checkpoint_on_success: true
+stages:
+  intake:
+    cache_scope: deck_hash
+    timeout_seconds: 120
+  blueprint:
+    cache_scope: deck_hash_and_blueprint_version
+    timeout_seconds: 300
+  candidate_triage:
+    cache_scope: deck_hash_commander_source_snapshot_method
+    timeout_seconds: 900
+    research_budget:
+      broad_passes: 1
+      targeted_passes: 2
+  rules_review:
+    cache_scope: oracle_ids_rules_snapshot
+    timeout_seconds: 900
+  verify:
+    cache_scope: deck_hash_metadata_snapshot_legality_snapshot
+    timeout_seconds: 300
+  test:
+    cache_scope: deck_hash_engine_config_seed_set
+    timeout_seconds: 1800
+    max_attempts: 2
+  red_team:
+    cache_scope: deck_hash_blueprint_candidate_decisions_test_evidence
+    timeout_seconds: 300
+  evidence_review:
+    cache_scope: deck_hash_all_evidence_artifact_hashes
+    timeout_seconds: 300
+  finalize:
+    cache_scope: deck_hash_all_gate_artifact_hashes
+    timeout_seconds: 180
+adaptive_optimizer:
+  enabled: true
+  allowed_parameters:
+    - timeout_seconds
+    - concurrency
+    - batch_size
+    - cache_policy
+    - retry_backoff
+  forbidden_mutations:
+    - decklists
+    - project_exceptions
+    - approval_status
+    - lock_status
+    - hard_gate_definitions
+    - commander_strategy
+  acceptance:
+    require_hard_gate_equivalence: true
+    require_fixture_pass: true
+    max_failure_rate_regression: 0.0
+    min_runtime_improvement_fraction: 0.10
+
+quality_gates:
+  whole_list_optimization:
+    required: true
+    review_all_noncommander_slots: true
+    challenge_historical_approvals: true
+    challenge_generic_staples: true
+    require_package_coverage: true
+    require_mana_curve_structure_review: true
+    require_current_release_check_when_material: true
+    require_post_swap_full_pass: true
+    require_zero_new_material_improvements_final_pass: true
+  candidate_exhaustion:
+    require_no_unresolved_high_impact_hold: true
+    require_zero_new_material_candidates_last_pass: true
+  red_team:
+    require_zero_unresolved_material_findings: true
+  hypothesis_testing:
+    preregistration_required_when_testing_is_material: true
+    controlled_comparison_required: true
+    integrity_preservation_required: true
+  commander_necessity:
+    require_material_counterfactual_impact: true
+  evidence_confidence:
+    block_on_blocked_dimension: true
+    block_on_test_required_dimension: true
+  diversity_audit:
+    advisory_not_auto_rejection: true
+    ignore_universal_infrastructure_cards: true
+  cross_deck_learning:
+    evidence_leads_only: true
+    automatic_card_propagation: false
+  approval:
+    standing_user_authorization_active: true
+    per_deck_approval_pause_required: false
+    autonomous_finalization_after_all_gates: true
+    block_on_new_exception_or_out_of_policy_decision: true

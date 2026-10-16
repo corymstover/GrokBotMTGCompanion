@@ -486,7 +486,8 @@ def render(R, summ, plans, fetch=False):
                 info[did]["sb"] = None
             else:
                 info[did]["sb"] = sb
-    top = Counter(n for s in sets_src.values() for n in s).most_common(25)
+    # Bot cycle 45: ties sorted by name (set iteration order is hash-randomized, so most_common() reordered ties between runs)
+    top = sorted(Counter(n for s in sets_src.values() for n in s).items(), key=lambda kv: (-kv[1], kv[0]))[:25]
     return info, metrics, top, problems
 
 
@@ -763,9 +764,10 @@ def main():
     plans = json.loads(PLANS.read_text(encoding="utf-8")) if PLANS.exists() else {"_doc": "Frozen Grixis refinement plans (scripts/grixis_refine.py).", "batches": {}, "decks": {}, "log": {}, "spellbook": {}}
     if a.plan:
         import subprocess
-        src = ROOT.parent / "grixis-src"
+        import grixis_archive  # Bot cycle 45: the companion's source archive is the source of truth
+        src = grixis_archive.TREE
         if src.exists():
-            sha = subprocess.run(["git", "-C", str(src), "rev-parse", "--short", "HEAD"], capture_output=True, text=True).stdout.strip()
+            sha = grixis_archive.source_commit()
             prev = plans.get("source", {}).get("commit")
             plans["source"] = {"commit": sha, "checked": dt.date.today().isoformat(),
                                "note": f"`git pull` on {dt.date.today().isoformat()}: " + ("no upstream changes since the Bot cycle 37 re-analysis" if sha == "1836b97" else f"moved from {prev}")}

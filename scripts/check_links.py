@@ -11,6 +11,9 @@ import urllib.parse
 from collections import Counter
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from grixis_archive import in_archive  # noqa: E402  Bot cycle 45: archived Grixis source is inert data, not checked
+
 ROOT = Path(__file__).resolve().parent.parent
 LINK = re.compile(r"(?<!!)\[[^\]]*\]\(([^)\s]+)\)")
 HEAD = re.compile(r"^#{1,6}\s+(.*?)\s*$", re.M)
@@ -38,7 +41,7 @@ def anchors_of(p: Path) -> set:
 
 def main() -> int:
     include_cards = "--all" in sys.argv
-    files = [p for p in ROOT.rglob("*.md") if ".git" not in p.parts and ".cache" not in p.parts
+    files = [p for p in ROOT.rglob("*.md") if ".git" not in p.parts and ".cache" not in p.parts and not in_archive(p)
              and (include_cards or "cards" not in p.relative_to(ROOT).parts[:1])]
     bad = 0
     for f in sorted(files):

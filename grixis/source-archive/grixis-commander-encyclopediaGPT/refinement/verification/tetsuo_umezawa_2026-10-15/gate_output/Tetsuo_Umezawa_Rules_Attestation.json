@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "deck_sha256": "14ca66ceae4d634630a85aa1787731cfe840fd9fc2093bc37ad5dc17d1539ff6",
+  "checked_at_utc": "2026-10-15T22:37:43.991397+00:00",
+  "sources": [
+    "Current Oracle text in current-cycle Scryfall cache",
+    "Magic Comprehensive Rules — activated abilities, targets, combat, triggered abilities, equipment, copying abilities, Aura targeting, MDFCs, overload and landfall"
+  ],
+  "interactions": [
+    {
+      "name": "Tetsuo target condition",
+      "status": "PASS",
+      "finding": "A target creature may qualify because it is tapped OR because it is blocking; it need not satisfy both. It must still satisfy at least one targeting condition when the ability resolves."
+    },
+    {
+      "name": "Combat windows",
+      "status": "PASS",
+      "finding": "Non-vigilance attackers normally tap when declared, creating legal targets before blockers/damage. An untapped blocking creature is independently a legal Tetsuo target after blockers are declared."
+    },
+    {
+      "name": "Rings plus Bracers",
+      "status": "PASS",
+      "finding": "Rings of Brighthearth and Illusionist’s Bracers can each copy the same Tetsuo activation when their conditions are met; copies may choose new legal targets."
+    },
+    {
+      "name": "Sting the Glinting Dagger",
+      "status": "PASS",
+      "finding": "Sting gives equipped Tetsuo haste and triggers at the beginning of each combat to untap the equipped creature. After that trigger resolves, priority is received before declare attackers, so Tetsuo may activate again if UBBR is available. In multiplayer this can recur on each player’s combat step while Sting remains equipped."
+    },
+    {
+      "name": "Untap after activation",
+      "status": "PASS",
+      "finding": "Untapping Tetsuo does not remove an existing activation from the stack; another activation may be made if its costs can be paid."
+    },
+    {
+      "name": "Patriars Seal",
+      "status": "PASS",
+      "finding": "Patriar’s Seal can make any color or pay 1 and tap to untap legendary Tetsuo; one untapped Seal cannot pay both tap costs simultaneously."
+    },
+    {
+      "name": "Puppeteer and Flood",
+      "status": "PASS",
+      "finding": "Puppeteer can tap an opposing creature or untap Tetsuo. Flood can repeatedly tap a target creature without flying, manufacturing Tetsuo targets."
+    },
+    {
+      "name": "Blustersquall",
+      "status": "PASS",
+      "finding": "Normal mode taps one opposing creature; overloaded Blustersquall does not target and taps each creature the caster does not control."
+    },
+    {
+      "name": "Retreat plus fetchlands",
+      "status": "PASS",
+      "finding": "Each land entry triggers Retreat to Coralhelm. A fetchland and the land it fetches can produce separate triggers, each able to tap or untap target creature."
+    },
+    {
+      "name": "Aura restriction",
+      "status": "PASS",
+      "finding": "Tetsuo cannot be the target of Aura spells; Equipment and non-Aura abilities such as Sting, Minamo, Puppeteer, Patriar’s Seal and Retreat are unaffected."
+    },
+    {
+      "name": "Haste package",
+      "status": "PASS",
+      "finding": "Sting, Lightning Greaves and Swiftfoot Boots can grant haste, allowing Tetsuo’s tap-cost activated ability on the turn he comes under control."
+    },
+    {
+      "name": "Frozen Aether and forced combat",
+      "status": "PASS",
+      "finding": "Creatures entering tapped under Frozen Aether satisfy Tetsuo while tapped. Forced/goaded combat naturally produces tapped attackers; Propaganda attack costs are not forced to be paid."
+    },
+    {
+      "name": "Sink into Stupor MDFC",
+      "status": "PASS",
+      "finding": "Soporific Springs preserves a land-capable slot; Sink into Stupor can return an opposing spell or nonland permanent to its owner’s hand without countering the spell."
+    }
+  ]
+}
