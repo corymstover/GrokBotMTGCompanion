@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/admiral-beckett-brass.txt`](../../exports/grixis-archidekt/admiral-beckett-brass.txt) · SHA-256 `dbc2ce511a88eb94d70357edbf0088cf26110c3052bd2230eeb6a583b4437808` |
+| Canonical project list | [`exports/grixis-archidekt/admiral-beckett-brass.txt`](../../exports/grixis-archidekt/admiral-beckett-brass.txt) · SHA-256 `dbc2ce511a88eb94d70357edbf0088cf26110c3052bd2230eeb6a583b4437808` |
 | Rulings | **17** (16 verified · 0 uncertain · 1 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) (deck #2: RULES PASS) |
@@ -47,7 +47,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### beckett-01: Three different Pirates, same player, combat damage, this turn
 
-**Status:** ✅ verified · **Cards:** Admiral Beckett Brass
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Beckett Brass
 
 **Ruling.** The end-step trigger targets a nonland permanent controlled by a player who was dealt combat damage by three or more *different* Pirates this turn. A double striker counts once. Damage over several combat phases (Port Razer) adds up. The condition is turn history: the Pirates needn't still be on the battlefield or still be Pirates, and Beckett needn't have been out when they connected. If no player qualifies, there is no legal target and the trigger does nothing. The theft lasts indefinitely, even after Beckett leaves.
 
@@ -62,7 +62,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### beckett-02: One target, even if several players qualify
 
-**Status:** ✅ verified · **Cards:** Admiral Beckett Brass, Roaming Throne
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Beckett Brass, Roaming Throne
 
 **Ruling.** If two players were each hit by three Pirates, Beckett still takes one permanent from either of them. With Roaming Throne naming Pirate, Beckett is 'another creature of the chosen type', so his trigger triggers an additional time. Each instance picks its own target, so you can take two permanents, from one player or from two.
 
@@ -78,7 +78,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### beckett-09: Roaming Throne naming Pirate doubles the deck's Pirate triggers
 
-**Status:** ✅ verified · **Cards:** Admiral Beckett Brass, Roaming Throne, Admiral Brass, Unsinkable, Breeches, Eager Pillager, Coercive Recruiter, Merchant Raiders, Forerunner of the Coalition
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Beckett Brass, Roaming Throne, Admiral Brass, Unsinkable, Breeches, Eager Pillager, Coercive Recruiter, Merchant Raiders, Forerunner of the Coalition
 
 **Ruling.** Roaming Throne (choose Pirate, so it's a Pirate too) makes triggered abilities of your *other* Pirate creatures trigger an additional time. That doubles Beckett's end step, Admiral Brass's combat reanimation and Coercive Recruiter's steal. Merchant Raiders taps a second target, and Forerunner's life loss doubles. Breeches, Eager Pillager triggers twice per attacking Pirate, but there are only three modes per turn, so the extra trigger may have no mode left to choose. Only abilities of creatures are doubled, so Double Down and Kindred Discovery aren't.
 
@@ -92,7 +92,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### beckett-10: Port Razer extra combats and Beckett's tally
 
-**Status:** ✅ verified · **Cards:** Admiral Beckett Brass, Port Razer
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Beckett Brass, Port Razer
 
 **Ruling.** Port Razer connecting untaps all your creatures and adds a combat phase after the current one. Pirates that dealt damage in the first combat still count for Beckett. A second combat lets different Pirates hit the same player and complete the three. Port Razer itself can't attack a player it already attacked this turn, and it never has to attack.
 
@@ -106,7 +106,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### beckett-03: Kari Zev's Ragavan token is a Monkey, not a Pirate
 
-**Status:** 🚩 list flag · **Cards:** Admiral Beckett Brass, Kari Zev, Skyship Raider, Ragavan, Nimble Pilferer
+**Status:** 🚩 list flag · **Evidence:** fact · **Cards:** Admiral Beckett Brass, Kari Zev, Skyship Raider, Ragavan, Nimble Pilferer
 
 **Ruling.** Kari Zev's token is 'Ragavan, a legendary 2/1 red Monkey'. It isn't a Pirate, so it doesn't count toward Beckett's three and doesn't get his +1/+1. It enters attacking but was never declared as an attacker, so attack triggers don't see it. The card Ragavan, Nimble Pilferer (Monkey Pirate) has a different name, so the two can coexist under the legend rule.
 
@@ -120,7 +120,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### beckett-04: Don Andres and Coercive Recruiter turn stolen creatures into Pirates
 
-**Status:** ✅ verified · **Cards:** Admiral Beckett Brass, Don Andres, the Renegade, Coercive Recruiter, Zara, Renegade Recruiter, Hostage Taker
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Beckett Brass, Don Andres, the Renegade, Coercive Recruiter, Zara, Renegade Recruiter, Hostage Taker
 
 **Ruling.** Don Andres makes each creature you control but don't own a Pirate, with +2/+2, menace and deathtouch. That covers Hostage Taker casts, Zara's hand-stolen attacker and Coercive Recruiter steals. Coercive Recruiter also makes its own target a Pirate with haste until end of turn. These creatures count toward Beckett's three when they deal combat damage. Tokens you create are owned by you, so Don Andres doesn't affect them.
 
@@ -133,7 +133,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### beckett-05: Zara's stolen attacker counts but skips attack triggers
 
-**Status:** ✅ verified · **Cards:** Admiral Beckett Brass, Zara, Renegade Recruiter, Don Andres, the Renegade
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Beckett Brass, Zara, Renegade Recruiter, Don Andres, the Renegade
 
 **Ruling.** Zara puts a creature from the defending player's hand onto the battlefield tapped and attacking. It wasn't declared as an attacker, so Breeches, Dire Fleet Captain and Fathom Fleet Captain don't trigger for it. With Don Andres out it's a Pirate and counts for Beckett if it connects. It returns to its owner's hand at the next end step, but Beckett's history check doesn't care.
 
@@ -145,7 +145,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### beckett-06: Changelings count as Pirates
 
-**Status:** ✅ verified · **Cards:** Admiral Beckett Brass, Changeling Outcast, Black Market Connections
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Beckett Brass, Changeling Outcast, Black Market Connections
 
 **Ruling.** Changeling makes an object every creature type in every zone. Changeling Outcast (can't block, can't be blocked) and the Shapeshifter token from Black Market Connections' 'Hire a Mercenary' mode are Pirates. They get Beckett's +1/+1 and count toward his three. They survive Fiery Cannonade and Raise the Palisade (choosing Pirate).
 
@@ -157,7 +157,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### beckett-07: One-sided sweepers: Fiery Cannonade and Raise the Palisade
 
-**Status:** ✅ verified · **Cards:** Admiral Beckett Brass, Fiery Cannonade, Raise the Palisade, Roaming Throne, Kari Zev, Skyship Raider
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Beckett Brass, Fiery Cannonade, Raise the Palisade, Roaming Throne, Kari Zev, Skyship Raider
 
 **Ruling.** Fiery Cannonade deals 2 to each non-Pirate creature. Raise the Palisade naming Pirate bounces every non-Pirate. Your survivors are your Pirates, changelings, a Roaming Throne that named Pirate, and stolen creatures made Pirates by Don Andres or Coercive Recruiter. Kari Zev's Monkey token is hit by both. Beckett's +1/+1 doesn't protect a 1-toughness non-Pirate.
 
@@ -169,7 +169,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### beckett-08: Double Down copies Pirate spells; legendary copies hit the legend rule
 
-**Status:** ✅ verified · **Cards:** Admiral Beckett Brass, Double Down, Ramirez DePietro, Pillager, Hostage Taker, Coercive Recruiter
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Beckett Brass, Double Down, Ramirez DePietro, Pillager, Hostage Taker, Coercive Recruiter
 
 **Ruling.** Double Down copies each outlaw spell you cast, and Pirates are outlaws. The copy resolves first and becomes a token. For nonlegendary Pirates that's a second body with its own enter-the-battlefield trigger: a second Hostage Taker exile, or a Coercive Recruiter steal. For legendary Pirates (Ramirez, Breeches, Kari Zev, Malcolm, Zara, Edward Kenway, Admiral Brass, Beckett himself), the original then resolves and the legend rule makes you keep one. Both enter-the-battlefield triggers still happen; Ramirez makes 4 Treasures and you lose 4 life. A copy isn't cast, so it doesn't count for cast triggers. Double Down doesn't trigger on Pirates put onto the battlefield without being cast.
 
@@ -182,7 +182,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### beckett-11: Open into Wonder and evasion only enable; damage must happen
 
-**Status:** ✅ verified · **Cards:** Admiral Beckett Brass, Open into Wonder, Cover of Darkness, Storm Fleet Sprinter
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Beckett Brass, Open into Wonder, Cover of Darkness, Storm Fleet Sprinter
 
 **Ruling.** Open into Wonder (X creatures can't be blocked) and Cover of Darkness (choose Pirate: fear) get Pirates through, but Beckett still needs actual combat damage. Prevention or a creature removed before damage means it doesn't count.
 
@@ -194,7 +194,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### beckett-12: The Indomitable is cast from the graveyard with tapped Pirates
 
-**Status:** ✅ verified · **Cards:** Admiral Beckett Brass, The Indomitable
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Beckett Brass, The Indomitable
 
 **Ruling.** The Indomitable can be cast from your graveyard while you control three or more tapped Pirates and/or Vehicles. That is checked only as you begin casting, so post-combat after a three-Pirate attack is the natural window. You still pay its cost. It needs crew 3 to attack. Its combat-damage draw triggers for any creature you control, not only Vehicles.
 
@@ -208,7 +208,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### beckett-14: Beckett's anthem, Admiral Brass's base 4/4 and the lords
 
-**Status:** ✅ verified · **Cards:** Admiral Beckett Brass, Admiral Brass, Unsinkable, Corsair Captain
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Beckett Brass, Admiral Brass, Unsinkable, Corsair Captain
 
 **Ruling.** Admiral Brass sets a reanimated Pirate's base power and toughness to 4/4 (layer 7b). Beckett's and Corsair Captain's +1/+1 apply afterwards (layer 7c), so the creature is 6/6 with both lords. Counters also apply on top. The finality counter exiles it if it would die.
 
@@ -223,7 +223,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### beckett-17: Breeches, Eager Pillager's extra triggers run out of modes
 
-**Status:** ✅ verified · **Cards:** Admiral Beckett Brass, Breeches, Eager Pillager, Roaming Throne
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Beckett Brass, Breeches, Eager Pillager, Roaming Throne
 
 **Ruling.** Each Breeches trigger must choose a mode not yet chosen that turn. Once all three are used, a further trigger (from Roaming Throne or a fourth attacking Pirate) has no legal mode and is removed from the stack with no effect. The modes are chosen as the trigger goes on the stack.
 
@@ -235,7 +235,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### beckett-13: End-step pile-up: Beckett, Edward Kenway, Daring Piracy, Zara, dash
 
-**Status:** ✅ verified · **Cards:** Admiral Beckett Brass, Edward Kenway, Daring Piracy, Zara, Renegade Recruiter, Ragavan, Nimble Pilferer
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Beckett Brass, Edward Kenway, Daring Piracy, Zara, Renegade Recruiter, Ragavan, Nimble Pilferer
 
 **Ruling.** At the beginning of your end step all of these trigger, and you choose the order:
 - Beckett's steal;
@@ -256,7 +256,7 @@ Beckett's condition is history, so exiling the token or returning Zara's creatur
 
 ### beckett-15: Commander tax and the 4-mana commander
 
-**Status:** ✅ verified · **Cards:** Admiral Beckett Brass, Deflecting Swat, Fierce Guardianship, Jeska's Will
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Beckett Brass, Deflecting Swat, Fierce Guardianship, Jeska's Will
 
 **Ruling.** Beckett costs {1}{U}{B}{R}, then 6, then 8. Fierce Guardianship and Deflecting Swat are free and Jeska's Will gets both modes only while you control a commander, so they get worse while Beckett is off the battlefield. Beckett has no protection of his own: Lightning Greaves (shroud) and Siren Stormtamer cover him.
 
@@ -271,7 +271,7 @@ Beckett's condition is history, so exiling the token or returning Zara's creatur
 
 ### beckett-16: What the list depends on
 
-**Status:** ✅ verified · **Cards:** Admiral Beckett Brass
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Beckett Brass
 
 **Ruling.** The plan needs three Pirates connecting with the same player in one turn. Evasion density is high: flyers, menace, unblockable, fear via Cover of Darkness, Open into Wonder. Interaction is light on fogs and blockers. Mass blockers or fogs stop the steal for a turn but don't disable the board. Stealing a permanent is the main value; the deck has no deterministic two-card combo (Spellbook lists none).
 

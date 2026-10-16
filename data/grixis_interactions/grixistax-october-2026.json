@@ -63,7 +63,8 @@
      "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
      "item": "Commander-dependent free spells and Mox Amber"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "grixistax-02",
@@ -98,7 +99,8 @@
      "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
      "item": "Damping Sphere and Kraum's second-spell trigger"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "grixistax-03",
@@ -149,7 +151,8 @@
      "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
      "item": "Tevesh Szat plus Phyrexian Tower / Culling the Weak / Diabolic Intent"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "grixistax-04",
@@ -199,7 +202,8 @@
      "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
      "item": "Contamination with Blood Moon and artifact mana"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "grixistax-05",
@@ -287,7 +291,8 @@
      "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
      "item": "Tangle Wire with Tevesh tokens"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "grixistax-07",
@@ -338,7 +343,8 @@
      "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
      "item": "Chalice of the Void sequencing"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "grixistax-08",
@@ -372,7 +378,8 @@
      "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
      "item": "Karn, the Great Creator plus Wishclaw Talisman"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "grixistax-09",
@@ -496,7 +503,8 @@
      "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
      "item": "Tainted Pact singleton condition"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   }
  ]
 }

@@ -13,10 +13,10 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/kefka-court-mage.txt`](../../exports/grixis-archidekt/kefka-court-mage.txt) · SHA-256 `9388bb55da7655d18604837675e4fcb72ced74414fd184841f2074b7e31d1de0` |
-| Rulings | **11** (11 verified · 0 uncertain · 0 flags) |
+| Canonical project list | [`exports/grixis-archidekt/source-baseline/kefka-court-mage.txt`](../../exports/grixis-archidekt/source-baseline/kefka-court-mage.txt) · SHA-256 `1bf9bb268230bdf1978b734b906a2d5ff44f0dd06ce8f400fc694f0f90348391` |
+| Rulings | **13** (13 verified · 0 uncertain · 0 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
-| Source attestations | [`Kefka_Court_Mage_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json) (17 interactions, all PASS (Valley Floodcaller, Cursed Totem and Samut items refer to cards not in the list)) |
+| Source attestations | [`Kefka_Court_Mage_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json) (17 interactions, all PASS (the Cursed Totem and Samut items refer to cards deliberately left out)) |
 
 ## Contents
 - [Summary](#summary)
@@ -33,7 +33,7 @@ schema: 2
 
 Kefka, Court Mage makes everyone discard on enter and attack, and draws for each card type discarded. For {8} he transforms into Ruler of Ruin, which draws you a card for each point of life opponents lose on your turn. This review re-verifies the attestation. Six Spellbook lines (Oracle, Breach) are confirmed.
 
-Rules surprises: single-faced clones can't transform (CR 701.27c), but Molten Duplication's token can; Saw in Half on your commander still makes tokens; discarding Anger to Kefka's own trigger gives same-turn haste. The attestation's Valley Floodcaller item is about a card that isn't in the current list. No list errors.
+Rules surprises: single-faced clones can't transform (CR 701.27c), but Molten Duplication's token can; Saw in Half on your commander still makes tokens; discarding Anger to Kefka's own trigger gives same-turn haste. Re-reviewed in the same cycle against the M0 canonical project list (the source baseline: Final Fortune and Valley Floodcaller, not GrokBot's unapproved challenger swaps Liliana's Caress and Dauthi Voidwalker). No list errors.
 
 ## Commander rules text and edge cases
 
@@ -124,6 +124,19 @@ Rules surprises: single-faced clones can't transform (CR 701.27c), but Molten Du
 - Source (re-verified): [`Kefka_Court_Mage_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json) → “Anger discarded to Kefka grants same-turn haste”
 - Source (re-verified): [`Kefka_Court_Mage_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json) → “Arena of Glory grants Kefka haste”
 
+### kefka-12: Valley Floodcaller: flash for noncreature spells, but no Kefka untap
+
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Kefka, Court Mage, Valley Floodcaller
+
+**Ruling.** Floodcaller lets you cast noncreature spells at instant speed, including from other zones when something lets you cast them there. Its cast trigger only pumps and untaps Birds, Frogs, Otters and Rats. Kefka isn't one of those, so there's no untap or haste for him, and Floodcaller doesn't make the {8} sorcery-speed ability instant-speed. There's no Floodcaller infinite in this list.
+
+**Citations**
+
+- Oracle, *Valley Floodcaller*: “Whenever you cast a noncreature spell, Birds, Frogs, Otters, and Rats you control get +1/+1 until end of turn. Untap them.”
+- Scryfall ruling, *Valley Floodcaller*: “Valley Floodcaller’s second ability has no effect on abilities that you can activate “any time you could cast a sorcery.””
+- [CR 702.8a](#cr-7028a), [CR 602.5d](#cr-6025d)
+- Source (re-verified): [`Kefka_Court_Mage_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json) → “Valley Floodcaller role and limits”
+
 ## Replacement and prevention effects
 
 ### kefka-10: Demonic Counsel needs delirium to be a full tutor
@@ -165,6 +178,18 @@ Rules surprises: single-faced clones can't transform (CR 701.27c), but Molten Du
 - Oracle, *Tinybones, Bauble Burglar*: “Whenever an opponent discards a card, exile it from their graveyard with a stash counter on it.”
 - [CR 603.3](#cr-6033), [CR 608.2](#cr-6082)
 - Source (re-verified): [`Kefka_Court_Mage_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json) → “Tinybones and Waste Not with Kefka discard”
+
+### kefka-13: Final Fortune: an extra Kefka turn that you must win
+
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Kefka, Court Mage, Final Fortune
+
+**Ruling.** Final Fortune gives you an extra turn: another Kefka attack trigger, and with Ruler of Ruin, another turn of life-loss draws. You lose at that turn's end step unless you win first. The loss only applies if you actually take the extra turn.
+
+**Citations**
+
+- Oracle, *Final Fortune*: “Take an extra turn after this one. At the beginning of that turn's end step, you lose the game.”
+- Scryfall ruling, *Final Fortune*: “If you end up skipping the extra turn that is gained, you do not lose the game.”
+- [CR 500.7](#cr-5007)
 
 ## Zones, commander tax and the command zone
 
@@ -220,6 +245,14 @@ An ability word appears in italics at the beginning of some abilities. Ability w
 
 An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. This rule has the following exceptions.
 
+#### CR 500.7
+
+Some effects can give a player extra turns. They do this by adding the turns directly after the specified turn. If a player is given multiple extra turns, the extra turns are added one at a time. If multiple players are given extra turns, the extra turns are added one at a time, in APNAP order (see rule 101.4). The most recently created turn will be taken first.
+
+#### CR 602.5d
+
+Activated abilities that read “Activate only as a sorcery” mean the player must follow the timing rules for casting a sorcery spell, though the ability isn’t actually a sorcery. The player doesn’t actually need to have a sorcery card that they could cast.
+
 #### CR 603.2
 
 Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
@@ -247,6 +280,10 @@ To transform a permanent, turn it over so that its other face is up. Only perman
 #### CR 701.27c
 
 If a spell or ability instructs a player to transform a permanent that isn’t represented by a double-faced token or a double-faced card, nothing happens.
+
+#### CR 702.8a
+
+Flash is a static ability that functions in any zone from which you could play the card it’s on. “Flash” means “You may play this card any time you could cast an instant.”
 
 #### CR 702.10a
 

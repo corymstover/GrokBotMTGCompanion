@@ -5,8 +5,8 @@
  "commanders": [
   "Kefka, Court Mage // Kefka, Ruler of Ruin"
  ],
- "deck_sha256": "9388bb55da7655d18604837675e4fcb72ced74414fd184841f2074b7e31d1de0",
- "list_source": "exports/grixis-archidekt/kefka-court-mage.txt",
+ "deck_sha256": "1bf9bb268230bdf1978b734b906a2d5ff44f0dd06ce8f400fc694f0f90348391",
+ "list_source": "exports/grixis-archidekt/source-baseline/kefka-court-mage.txt",
  "reviewed": "2026-10-16",
  "cycle": 49,
  "batch": "C",
@@ -20,10 +20,10 @@
  "source_attestations": [
   {
    "path": "refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json",
-   "note": "17 interactions, all PASS (Valley Floodcaller, Cursed Totem and Samut items refer to cards not in the list)"
+   "note": "17 interactions, all PASS (the Cursed Totem and Samut items refer to cards deliberately left out)"
   }
  ],
- "summary": "Kefka, Court Mage makes everyone discard on enter and attack, and draws for each card type discarded. For {8} he transforms into Ruler of Ruin, which draws you a card for each point of life opponents lose on your turn. This review re-verifies the attestation. Six Spellbook lines (Oracle, Breach) are confirmed.\n\nRules surprises: single-faced clones can't transform (CR 701.27c), but Molten Duplication's token can; Saw in Half on your commander still makes tokens; discarding Anger to Kefka's own trigger gives same-turn haste. The attestation's Valley Floodcaller item is about a card that isn't in the current list. No list errors.",
+ "summary": "Kefka, Court Mage makes everyone discard on enter and attack, and draws for each card type discarded. For {8} he transforms into Ruler of Ruin, which draws you a card for each point of life opponents lose on your turn. This review re-verifies the attestation. Six Spellbook lines (Oracle, Breach) are confirmed.\n\nRules surprises: single-faced clones can't transform (CR 701.27c), but Molten Duplication's token can; Saw in Half on your commander still makes tokens; discarding Anger to Kefka's own trigger gives same-turn haste. Re-reviewed in the same cycle against the M0 canonical project list (the source baseline: Final Fortune and Valley Floodcaller, not GrokBot's unapproved challenger swaps Liliana's Caress and Dauthi Voidwalker). No list errors.",
  "absent": [],
  "companion": [],
  "interactions": [
@@ -413,6 +413,67 @@
      "item": "Beseech the Mirror and rejected Samut split-second anti-synergy"
     }
    ]
+  },
+  {
+   "id": "kefka-12",
+   "category": "timing",
+   "title": "Valley Floodcaller: flash for noncreature spells, but no Kefka untap",
+   "cards": [
+    "Kefka, Court Mage",
+    "Valley Floodcaller"
+   ],
+   "ruling": "Floodcaller lets you cast noncreature spells at instant speed, including from other zones when something lets you cast them there. Its cast trigger only pumps and untaps Birds, Frogs, Otters and Rats. Kefka isn't one of those, so there's no untap or haste for him, and Floodcaller doesn't make the {8} sorcery-speed ability instant-speed. There's no Floodcaller infinite in this list.",
+   "status": "verified",
+   "cr": [
+    "702.8a",
+    "602.5d"
+   ],
+   "oracle": [
+    {
+     "card": "Valley Floodcaller",
+     "quote": "Whenever you cast a noncreature spell, Birds, Frogs, Otters, and Rats you control get +1/+1 until end of turn. Untap them."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Valley Floodcaller",
+     "quote": "Valley Floodcaller’s second ability has no effect on abilities that you can activate “any time you could cast a sorcery.”"
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/kefka_court_mage_2026-10-14/Kefka_Court_Mage_Rules_Attestation.json",
+     "item": "Valley Floodcaller role and limits"
+    }
+   ]
+  },
+  {
+   "id": "kefka-13",
+   "category": "trigger-order",
+   "title": "Final Fortune: an extra Kefka turn that you must win",
+   "cards": [
+    "Kefka, Court Mage",
+    "Final Fortune"
+   ],
+   "ruling": "Final Fortune gives you an extra turn: another Kefka attack trigger, and with Ruler of Ruin, another turn of life-loss draws. You lose at that turn's end step unless you win first. The loss only applies if you actually take the extra turn.",
+   "status": "verified",
+   "cr": [
+    "500.7"
+   ],
+   "oracle": [
+    {
+     "card": "Final Fortune",
+     "quote": "Take an extra turn after this one. At the beginning of that turn's end step, you lose the game."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Final Fortune",
+     "quote": "If you end up skipping the extra turn that is gained, you do not lose the game."
+    }
+   ],
+   "evidence_class": "fact"
   }
  ]
 }

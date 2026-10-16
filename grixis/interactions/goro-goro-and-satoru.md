@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/goro-goro-and-satoru.txt`](../../exports/grixis-archidekt/goro-goro-and-satoru.txt) · SHA-256 `bdc129bcd94c00b293ddaabb4585ac3130fb4eca7ca8646177335900e7aedfec` |
+| Canonical project list | [`exports/grixis-archidekt/goro-goro-and-satoru.txt`](../../exports/grixis-archidekt/goro-goro-and-satoru.txt) · SHA-256 `bdc129bcd94c00b293ddaabb4585ac3130fb4eca7ca8646177335900e7aedfec` |
 | Rulings | **9** (9 verified · 0 uncertain · 0 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Goro_Goro_and_Satoru_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json) (12 interactions, all PASS) |
@@ -37,7 +37,7 @@ Key rule: Goro-Goro's haste only covers creatures you control when it resolves, 
 
 ### goro-01: One Dragon per player per damage step
 
-**Status:** ✅ verified · **Cards:** Goro-Goro and Satoru
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Goro-Goro and Satoru
 
 **Ruling.** The trigger says 'one or more creatures … deal combat damage to a player', so several fresh creatures hitting the same player in one damage step make one Dragon. Hitting two players makes two. A first-strike damage step and a regular one are separate events, so double strike can trigger it twice. Only creatures that entered this turn count, however they entered.
 
@@ -49,7 +49,7 @@ Key rule: Goro-Goro's haste only covers creatures you control when it resolves, 
 
 ### goro-02: The haste ability only covers creatures you control when it resolves
 
-**Status:** ✅ verified · **Cards:** Goro-Goro and Satoru, Samut, Hazoret's Champion, Dragon Tempest
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Goro-Goro and Satoru, Samut, Hazoret's Champion, Dragon Tempest
 
 **Ruling.** Goro-Goro's {1}{R} gives haste only to creatures you control as it resolves. A Dragon Spirit made later needs another activation before it can attack in the next combat; the activation has no timing restriction, so it can be done between combats. Samut gives haste continuously, including to later Dragons. Dragon Tempest gives every flying creature that enters haste, and the Dragon Spirits have flying.
 
@@ -101,7 +101,7 @@ Key rule: Goro-Goro's haste only covers creatures you control when it resolves, 
 
 ### goro-08: Dragon payoffs: Terror of the Peaks and Dragon Tempest
 
-**Status:** ✅ verified · **Cards:** Goro-Goro and Satoru, Terror of the Peaks, Dragon Tempest
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Goro-Goro and Satoru, Terror of the Peaks, Dragon Tempest
 
 **Ruling.** Each 5/5 Dragon Spirit entering makes Terror of the Peaks deal 5 to any target. Dragon Tempest makes it deal damage equal to the number of Dragons you control (counted on resolution) and gives it haste. This damage isn't combat damage, so it doesn't trigger Goro-Goro.
 
@@ -115,7 +115,7 @@ Key rule: Goro-Goro's haste only covers creatures you control when it resolves, 
 
 ### goro-09: Waterbender Ascension counts each creature
 
-**Status:** ✅ verified · **Cards:** Goro-Goro and Satoru, Waterbender Ascension
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Goro-Goro and Satoru, Waterbender Ascension
 
 **Ruling.** Ascension triggers once for each creature that deals combat damage to a player, unlike Goro-Goro's 'one or more'. From the fourth quest counter, each trigger also draws. Waterbend {4} (tap artifacts or creatures for the generic) makes a creature unblockable, which helps satisfy the Breath of Fury loops' 'can't be blocked' prerequisite.
 
@@ -130,7 +130,7 @@ Key rule: Goro-Goro's haste only covers creatures you control when it resolves, 
 
 ### goro-04: Raphael's sneak gives double strike before first-strike damage
 
-**Status:** ✅ verified · **Cards:** Goro-Goro and Satoru, Raphael, the Nightwatcher, Fire Navy Trebuchet
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Goro-Goro and Satoru, Raphael, the Nightwatcher, Fire Navy Trebuchet
 
 **Ruling.** Sneak casts Raphael during the declare blockers step by returning an unblocked attacker. He enters tapped and attacking after blocks, so he's unblocked, and attacking creatures you control have double strike. That's before damage, so there are two damage steps. Fresh attackers (Raphael, a Ballistic Boulder) connecting in both steps trigger Goro-Goro twice for that player.
 
@@ -143,7 +143,7 @@ Key rule: Goro-Goro's haste only covers creatures you control when it resolves, 
 
 ### goro-07: Fresh creatures stay fresh through extra combats
 
-**Status:** ✅ verified · **Cards:** Goro-Goro and Satoru, Karlach, Fury of Avernus, Great Train Heist, Aggravated Assault
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Goro-Goro and Satoru, Karlach, Fury of Avernus, Great Train Heist, Aggravated Assault
 
 **Ruling.** 'Entered this turn' lasts the whole turn, so a creature from the first combat can trigger Goro-Goro again in every extra combat. Karlach adds one combat after the first, Great Train Heist's first mode adds one if cast during combat, and Aggravated Assault adds a combat and main phase at sorcery speed.
 
@@ -158,7 +158,7 @@ Key rule: Goro-Goro's haste only covers creatures you control when it resolves, 
 
 ### goro-03: Ninjutsu, sneak and 'enters attacking' creatures all qualify
 
-**Status:** ✅ verified · **Cards:** Goro-Goro and Satoru, Ninja of the Deep Hours, Thousand-Faced Shadow, Fire Navy Trebuchet, Phoenix Chick
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Goro-Goro and Satoru, Ninja of the Deep Hours, Thousand-Faced Shadow, Fire Navy Trebuchet, Phoenix Chick
 
 **Ruling.** Ninjutsu puts the Ninja onto the battlefield tapped and attacking the same player as the creature you returned. It entered this turn, so its combat damage triggers Goro-Goro. The same goes for Thousand-Faced Shadow's token copy, Fire Navy Trebuchet's Ballistic Boulder, and Phoenix Chick returning attacking. None of them were declared as attackers, so 'whenever attacks' triggers don't see them.
 

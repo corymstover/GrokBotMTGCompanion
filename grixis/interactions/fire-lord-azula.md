@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/fire-lord-azula.txt`](../../exports/grixis-archidekt/fire-lord-azula.txt) · SHA-256 `e52f1cbbf1b17f3e3cef0ef9d466e93bdf5e85bc4d32ac5f2856b4bd2b36fda4` |
+| Canonical project list | [`exports/grixis-archidekt/fire-lord-azula.txt`](../../exports/grixis-archidekt/fire-lord-azula.txt) · SHA-256 `e52f1cbbf1b17f3e3cef0ef9d466e93bdf5e85bc4d32ac5f2856b4bd2b36fda4` |
 | Rulings | **11** (11 verified · 0 uncertain · 0 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Fire_Lord_Azula_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json) (15 interactions, all PASS (Samut and Final Fortune items refer to cards not in the current list)) |
@@ -38,7 +38,7 @@ Rules surprise: copying a sorcery (Beseech the Mirror, Wheel, Jeska's Will) with
 
 ### azula-01: The copy resolves first, even if the original is countered
 
-**Status:** ✅ verified · **Cards:** Fire Lord Azula
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Fire Lord Azula
 
 **Ruling.** Azula's trigger goes on the stack above the spell that caused it. The copy is created when the trigger resolves, so the copy resolves before the original. The trigger and copy still resolve if the original is countered first. The copy isn't cast: it doesn't add to storm or trigger cast abilities.
 
@@ -52,7 +52,7 @@ Rules surprise: copying a sorcery (Beseech the Mirror, Wheel, Jeska's Will) with
 
 ### azula-03: Additional costs are paid once, but the copy counts them as paid
 
-**Status:** ✅ verified · **Cards:** Fire Lord Azula, Big Score, Demand Answers, Redirect Lightning
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Fire Lord Azula, Big Score, Demand Answers, Redirect Lightning
 
 **Ruling.** You can't pay additional costs for the copy. Effects that depend on an additional cost paid for the original are copied as if it were paid. Big Score (discard one): the original and the copy together draw four and make four Treasures. Demand Answers (sacrifice or discard once): four cards. Redirect Lightning's 5 life or {2} is paid once.
 
@@ -129,7 +129,7 @@ Rules surprise: copying a sorcery (Beseech the Mirror, Wheel, Jeska's Will) with
 
 ### azula-04: A bargained Beseech the Mirror copy is bargained too
 
-**Status:** ✅ verified · **Cards:** Fire Lord Azula, Beseech the Mirror
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Fire Lord Azula, Beseech the Mirror
 
 **Ruling.** Bargain is an optional additional cost. A copy of a bargained spell is bargained, so one sacrifice gives two tutors, and each can cast a mana value 4 or less card free. Beseech is a sorcery, so it needs flash timing while Azula attacks (see azula-02).
 
@@ -141,7 +141,7 @@ Rules surprise: copying a sorcery (Beseech the Mirror, Wheel, Jeska's Will) with
 
 ### azula-09: Arena of Glory gives Azula haste
 
-**Status:** ✅ verified · **Cards:** Fire Lord Azula, Arena of Glory
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Fire Lord Azula, Arena of Glory
 
 **Ruling.** Arena of Glory's exert ability makes {R}{R}. Any of that mana spent on a creature spell gives it haste, so Azula can attack the turn she's cast. It enters tapped unless you already control a Mountain.
 
@@ -171,7 +171,7 @@ Rules surprise: copying a sorcery (Beseech the Mirror, Wheel, Jeska's Will) with
 
 ### azula-10: Copied permanent spells become tokens, but aren't 'created'
 
-**Status:** ✅ verified · **Cards:** Fire Lord Azula
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Fire Lord Azula
 
 **Ruling.** A copy of a permanent spell becomes a token as it resolves. It isn't 'created', so 'whenever you create a token' effects don't see it. A copy of a legendary permanent hits the legend rule.
 

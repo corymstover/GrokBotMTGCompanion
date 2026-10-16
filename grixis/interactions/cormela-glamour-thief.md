@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/cormela-glamour-thief.txt`](../../exports/grixis-archidekt/cormela-glamour-thief.txt) · SHA-256 `29dad7ed42b4c5b81bb507f96d3638c6dbe8f509f6d8e8f935f25df484930578` |
+| Canonical project list | [`exports/grixis-archidekt/cormela-glamour-thief.txt`](../../exports/grixis-archidekt/cormela-glamour-thief.txt) · SHA-256 `29dad7ed42b4c5b81bb507f96d3638c6dbe8f509f6d8e8f935f25df484930578` |
 | Rulings | **10** (10 verified · 0 uncertain · 0 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Cormela_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cormela_2026-10-14/Cormela_Rules_Attestation.json) (8 interactions, all PASS) |
@@ -36,7 +36,7 @@ Rules point: when Cormela dies, decline the command-zone move to keep the reanim
 
 ### cormela-01: Restricted mana and the death trigger
 
-**Status:** ✅ verified · **Cards:** Cormela, Glamour Thief
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cormela, Glamour Thief
 
 **Ruling.** Cormela has haste, so her {1}, {T}: add {U}{B}{R} works the turn she arrives, including on token copies. That mana can only be spent to cast instants and sorceries: not creatures (Dualcaster Mage, Thassa's Oracle), not activated abilities, not artifacts. When Cormela dies, she returns up to one instant or sorcery card from your graveyard to hand. The spell that killed her is already in the graveyard by the time the trigger targets, so she can return it.
 
@@ -51,7 +51,7 @@ Rules point: when Cormela dies, decline the command-zone move to keep the reanim
 
 ### cormela-03: Cormela + Saw in Half (+ ritual or Jeska's Will)
 
-**Status:** ✅ verified · **Cards:** Cormela, Glamour Thief, Saw in Half, Dark Ritual, Cabal Ritual, Seething Song, Jeska's Will
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cormela, Glamour Thief, Saw in Half, Dark Ritual, Cabal Ritual, Seething Song, Jeska's Will
 
 **Ruling.** Saw in Half destroys Cormela and makes two token Cormelas. The legend rule puts one into the graveyard: it 'dies' and triggers its own copy of the death ability. The original's trigger returns Saw in Half; the token's returns the ritual. The surviving token has haste and taps for {U}{B}{R}.
 
@@ -66,7 +66,7 @@ For example, with Dark Ritual a loop costs 5 (Saw {2}{B}, Ritual {B}, Cormela's 
 
 ### cormela-04: Cormela + Goryo's Vengeance or Shallow Grave + altar
 
-**Status:** ✅ verified · **Cards:** Cormela, Glamour Thief, Goryo's Vengeance, Shallow Grave, Ashnod's Altar, Phyrexian Altar
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cormela, Glamour Thief, Goryo's Vengeance, Shallow Grave, Ashnod's Altar, Phyrexian Altar
 
 **Ruling.** Reanimate Cormela (Goryo's: a legendary creature card; Shallow Grave: the top creature card). Tap her for {U}{B}{R}, then sacrifice her to an altar. Her death trigger returns the reanimation spell, which you recast with the restricted mana. The end-step exile doesn't matter because she has already left; Goryo's ruling confirms she stays in the graveyard.
 
@@ -80,7 +80,7 @@ For example, with Dark Ritual a loop costs 5 (Saw {2}{B}, Ritual {B}, Cormela's 
 
 ### cormela-05: Demonic Gifts loops (Cormela or Dualcaster + altar)
 
-**Status:** ✅ verified · **Cards:** Cormela, Glamour Thief, Demonic Gifts, Dualcaster Mage, Ashnod's Altar, Phyrexian Altar
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cormela, Glamour Thief, Demonic Gifts, Dualcaster Mage, Ashnod's Altar, Phyrexian Altar
 
 **Ruling.** - **With Cormela:** Demonic Gifts gives her 'when this dies, return it'. Sacrifice her to an altar: she returns as a new object (Gifts works only once), and her death trigger returns Gifts to recast.
 - **With Dualcaster:** cast Gifts, respond with Dualcaster copying it onto itself, then sacrifice. The returned Dualcaster copies the original Gifts, still on the stack, again.
@@ -93,7 +93,7 @@ For example, with Dark Ritual a loop costs 5 (Saw {2}{B}, Ritual {B}, Cormela's 
 
 ### cormela-06: Birgi + Molten Duplication; Dualcaster + Molten Duplication or Saw in Half
 
-**Status:** ✅ verified · **Cards:** Cormela, Glamour Thief, Birgi, God of Storytelling // Harnfel, Horn of Bounty, Molten Duplication, Dualcaster Mage, Saw in Half
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cormela, Glamour Thief, Birgi, God of Storytelling // Harnfel, Horn of Bounty, Molten Duplication, Dualcaster Mage, Saw in Half
 
 **Ruling.** - **Birgi:** Molten Duplication on Cormela makes a hasty token Cormela. The legend rule sends one to the graveyard, its death trigger returns Duplication, and Birgi adds {R} on each cast.
 - **Dualcaster:** responding to Molten Duplication (or Saw in Half) on your creature, Dualcaster copies it targeting the newest Dualcaster. This gives arbitrarily many hasty Dualcaster tokens.
@@ -107,7 +107,7 @@ For example, with Dark Ritual a loop costs 5 (Saw {2}{B}, Ritual {B}, Cormela's 
 
 ### cormela-07: Thassa's Oracle + Demonic Consultation or Tainted Pact
 
-**Status:** ✅ verified · **Cards:** Cormela, Glamour Thief, Thassa's Oracle, Demonic Consultation, Tainted Pact
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cormela, Glamour Thief, Thassa's Oracle, Demonic Consultation, Tainted Pact
 
 **Ruling.** With Thassa's Oracle's trigger on the stack (or before casting Oracle), Demonic Consultation naming a card not in your library, or Tainted Pact, exiles the library. Oracle then wins with X ≥ 0 cards. Tainted Pact stops on two cards with the same name; the list has no basic lands or duplicates, so it exiles everything. Exiling your library doesn't lose by itself; drawing from it later does.
 
@@ -121,7 +121,7 @@ For example, with Dark Ritual a loop costs 5 (Saw {2}{B}, Ritual {B}, Cormela's 
 
 ### cormela-08: Underworld Breach + Lion's Eye Diamond / Lotus Petal + Brain Freeze or Wheel
 
-**Status:** ✅ verified · **Cards:** Cormela, Glamour Thief, Underworld Breach, Lion's Eye Diamond, Lotus Petal, Brain Freeze, Wheel of Fortune, Jeska's Will
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cormela, Glamour Thief, Underworld Breach, Lion's Eye Diamond, Lotus Petal, Brain Freeze, Wheel of Fortune, Jeska's Will
 
 **Ruling.** Breach gives escape (mana cost plus exile three other cards). Lion's Eye Diamond has a mana cost of {0}, so it can escape for {0} plus three cards. Its ability is a mana ability usable only at instant speed. Each escape is a cast, so Brain Freeze's storm count grows, and storm counts spells cast from any zone. Breach + Wheel + Jeska's Will refills opponents' hands for Jeska's mana. Breach is sacrificed at end step.
 
@@ -136,7 +136,7 @@ For example, with Dark Ritual a loop costs 5 (Saw {2}{B}, Ritual {B}, Cormela's 
 
 ### cormela-09: Orcish Bowmasters punishes your own wheels
 
-**Status:** ✅ verified · **Cards:** Cormela, Glamour Thief, Orcish Bowmasters, Wheel of Fortune, Windfall
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cormela, Glamour Thief, Orcish Bowmasters, Wheel of Fortune, Windfall
 
 **Ruling.** Orcish Bowmasters triggers whenever an opponent draws a card other than the first in their draw step. Wheel of Fortune or Windfall makes each opponent draw seven: up to 21 pings and 21 amass in a four-player game. A card put into hand without the word 'draw' doesn't count.
 
@@ -150,7 +150,7 @@ For example, with Dark Ritual a loop costs 5 (Saw {2}{B}, Ritual {B}, Cormela's 
 
 ### cormela-02: Leave Cormela in the graveyard for reanimation loops
 
-**Status:** ✅ verified · **Cards:** Cormela, Glamour Thief, Goryo's Vengeance, Shallow Grave
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cormela, Glamour Thief, Goryo's Vengeance, Shallow Grave
 
 **Ruling.** When your commander dies it goes to the graveyard, so 'dies' triggers fire. Afterward you *may* move it to the command zone as a state-based action. For Goryo's Vengeance and Shallow Grave loops you must decline, leaving Cormela in the graveyard. Shallow Grave also needs her to be the *top* creature card there.
 
@@ -161,7 +161,7 @@ For example, with Dark Ritual a loop costs 5 (Saw {2}{B}, Ritual {B}, Cormela's 
 
 ### cormela-10: Commander tax
 
-**Status:** ✅ verified · **Cards:** Cormela, Glamour Thief
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cormela, Glamour Thief
 
 **Ruling.** Cormela costs {1}{U}{B}{R}, then 6, then 8. Combo lines that sacrifice her repeatedly don't add tax, because she stays in the graveyard. Only casts from the command zone add tax.
 

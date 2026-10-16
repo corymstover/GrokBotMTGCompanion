@@ -6,8 +6,8 @@
   "Bjorna, Nightfall Alchemist",
   "Cecily, Haunted Mage"
  ],
- "deck_sha256": "31f7fae30dcee31b0c92d8baf2c943f396061b2cb51b7771e4e260e55b9aadc8",
- "list_source": "exports/grixis-archidekt/bjorna-nightfall-alchemist-cecily.txt",
+ "deck_sha256": "745885c96c41ba3b00c4e7bab3fe677c333cfb225927ea914ecc3212a9a0d871",
+ "list_source": "exports/grixis-archidekt/source-baseline/bjorna-nightfall-alchemist-cecily.txt",
  "reviewed": "2026-10-16",
  "cycle": 46,
  "batch": "A",
@@ -24,13 +24,11 @@
    "note": "deck #8: RULES PASS / PROJECT_EXCEPTION"
   }
  ],
- "summary": "Bjorna, Nightfall Alchemist and Cecily, Haunted Mage (Friends forever) run a big-hand spells deck: wheels and draw to eleven cards for free Cecily casts. This review re-verifies the retrospective attestation and records the legality fix: the companion's list drops Lutri and the two banned project exceptions.\n\nRules surprises:\n- Peer into the Abyss + Teferi's Ageless Insight loses on an odd library.\n- Notion Thief starves the Breach + Wheel + Jeska's Will mana.\n- The source blueprint misdescribes both commanders.",
- "absent": [
-  "Lutri, the Spellchaser",
-  "Trade Secrets",
-  "Yawgmoth's Bargain"
+ "summary": "Bjorna, Nightfall Alchemist and Cecily, Haunted Mage (Friends forever) run a big-hand spells deck: wheels and draw to eleven cards for free Cecily casts. This review re-verifies the retrospective attestation. Bot cycle 49 re-reviewed it against the M0 canonical project list, which restores the three authorized project exceptions (🚩 NOT Commander-legal): Lutri as companion, Trade Secrets and Yawgmoth's Bargain.\n\nRules surprises:\n- Peer into the Abyss + Teferi's Ageless Insight loses on an odd library.\n- Notion Thief starves the Breach + Wheel + Jeska's Will mana.\n- The source blueprint misdescribes both commanders.\n- Notion Thief turns Trade Secrets into a one-sided draw-6.\n- Yawgmoth's Bargain + Ageless Insight gives two cards per life.",
+ "absent": [],
+ "companion": [
+  "Lutri, the Spellchaser"
  ],
- "companion": [],
  "interactions": [
   {
    "id": "bjorna-01",
@@ -62,7 +60,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "Bjorna's artifact sacrifice is paid before the ability can be responded to. Bjorna cannot target a player with that ability."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "bjorna-02",
@@ -92,7 +91,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "Cecily performs the draw / life-loss instruction before checking the eleven-card threshold"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "bjorna-03",
@@ -126,7 +126,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "`Harmonic Prodigy` can cause Cecily's triggered ability to trigger an additional time because Cecily is a Wizard"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "bjorna-04",
@@ -154,7 +155,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "Robe cannot raise the hand to eleven for that same attack; it supports later attacks."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "bjorna-05",
@@ -194,7 +196,8 @@
      "card": "Peer into the Abyss",
      "quote": "To draw the cards, first the player determines how many cards to draw, then draws them. This event may be modified so that a different number of cards are actually drawn."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "bjorna-06",
@@ -223,7 +226,8 @@
      "card": "Peer into the Abyss",
      "quote": "The life lost is rounded up, not the remaining life total."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "bjorna-07",
@@ -261,7 +265,8 @@
      "card": "Jeska's Will",
      "quote": "Use the number of cards in the target opponent's hand as Jeska's Will resolves to determine how much {R} to add."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "bjorna-08",
@@ -293,7 +298,8 @@
      "card": "Teferi's Ageless Insight",
      "quote": "If two or more replacement effects would apply to a card-drawing event, the player drawing the card chooses the order in which to apply them."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "bjorna-09",
@@ -319,46 +325,24 @@
      "card": "Triskaidekaphile",
      "quote": "If you have fewer cards in your hand, you won't be able to draw cards during your upkeep in time to cause the ability to trigger."
     }
-   ]
-  },
-  {
-   "id": "bjorna-10",
-   "category": "pair",
-   "title": "Flame of Anor gets both modes with a Wizard",
-   "cards": [
-    "Cecily, Haunted Mage",
-    "Flame of Anor"
    ],
-   "ruling": "Flame of Anor can choose two modes if you control a Wizard as you cast it. Cecily, Harmonic Prodigy, Archmage Emeritus, Niv-Mizzet, Triskaidekaphile, Kess, Emry and Goblin Electromancer all count. Cast free with Cecily, it's still cast, so the Wizard check applies.",
-   "status": "verified",
-   "cr": [
-    "700.2",
-    "601.2b"
-   ],
-   "oracle": [
-    {
-     "card": "Flame of Anor",
-     "quote": "Choose one. If you control a Wizard as you cast this spell, you may choose two instead."
-    }
-   ],
-   "rulings": []
+   "evidence_class": "fact"
   },
   {
    "id": "bjorna-11",
    "category": "legality",
-   "title": "Project exceptions replaced; Lutri dropped as companion",
+   "title": "Canonical list keeps three authorized project exceptions",
    "cards": [
     "Cecily, Haunted Mage",
     "Bjorna, Nightfall Alchemist",
-    "Wizard Class",
-    "Flame of Anor",
     "Lutri, the Spellchaser",
     "Trade Secrets",
     "Yawgmoth's Bargain"
    ],
-   "ruling": "The source kept three project exceptions: Lutri as companion, plus Trade Secrets and Yawgmoth's Bargain in the main deck. Current Scryfall data (2026-10-15) lists Trade Secrets and Yawgmoth's Bargain as banned in Commander. Lutri is legal in the 99 but banned as a companion (the project's B&R note, 2026-02-09).\n\nThe companion's final list follows official legality: Trade Secrets → Wizard Class, Yawgmoth's Bargain → Flame of Anor, and no companion. The source's Lutri rulings (copying only if cast, the {3} special action) don't apply to this list.",
-   "short": "Official-legal list: Trade Secrets/Bargain replaced, Lutri companion dropped.",
+   "ruling": "The canonical project list (M0 registry) keeps Cory's three authorized exceptions: Lutri as companion, plus Trade Secrets and Yawgmoth's Bargain in the main deck. None of them is Commander-legal.\n- Trade Secrets and Yawgmoth's Bargain are banned in Commander (Wizards B&R; Scryfall 2026-10-15).\n- Lutri is legal in the 99 but banned as a companion (Wizards B&R). Scryfall's legality field can't express that.\n\nThe Bot cycle 16 swaps (Trade Secrets → Wizard Class, Yawgmoth's Bargain → Flame of Anor, no companion) now exist only as the derived compliance projection, which isn't canonical. This review covers the canonical list. bjorna-10 (Flame of Anor) was retired in cycle 49 because that card is only in the projection.",
+   "short": "🚩 Project exceptions (authorized, NOT Commander-legal): Lutri companion, Trade Secrets, Yawgmoth's Bargain.",
    "status": "verified",
+   "key": true,
    "cr": [
     "903.3",
     "702.139a"
@@ -369,7 +353,13 @@
      "quote": "Companion — Each nonland card in your starting deck has a different name."
     }
    ],
-   "rulings": [],
+   "rulings": [
+    {
+     "card": "Lutri, the Spellchaser",
+     "quote": "You may have one companion in the Commander variant. Your deck, including your commander, must meet its companion requirement. Your companion is not one of your one hundred cards."
+    }
+   ],
+   "evidence_class": "approved_decision",
    "source": [
     {
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
@@ -406,7 +396,8 @@
      "path": "refinement/blueprints/Cecily__Bjorna__Lutri_v1.md",
      "quote": "Bjorna rewards casting noncreature spells by granting haste and goading a creature, while Cecily rewards combat damage to a player"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "bjorna-13",
@@ -429,7 +420,115 @@
      "quote": "Partner—Friends forever (You can have two commanders if both have this ability.)"
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "bjorna-14",
+   "category": "zone",
+   "title": "Lutri as companion: {3} to hand, then a flash copy of your spell",
+   "cards": [
+    "Cecily, Haunted Mage",
+    "Lutri, the Spellchaser"
+   ],
+   "ruling": "Lutri starts outside the game. Paying {3} to put it into your hand is a special action: main phase, stack empty, can't be responded to. After that it's an ordinary card. Lutri has flash, and its copy trigger only works if you cast it. So cast it while your own instant or sorcery is on the stack, including one Cecily cast for free, since you get priority before it resolves. The copy isn't cast. Commander singleton already meets the companion condition.",
+   "short": "Companion {3} is a sorcery-speed special action; Lutri copies only if cast.",
+   "status": "verified",
+   "cr": [
+    "116.2g",
+    "702.139c",
+    "707.10"
+   ],
+   "oracle": [
+    {
+     "card": "Lutri, the Spellchaser",
+     "quote": "When Lutri enters, if you cast it, copy target instant or sorcery spell you control. You may choose new targets for the copy."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Lutri, the Spellchaser",
+     "quote": "Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions."
+    },
+    {
+     "card": "Lutri, the Spellchaser",
+     "quote": "The copy is created on the stack, so it's not \"cast.\" Abilities that trigger when a player casts a spell won't trigger. It will resolve before the original spell does."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "bjorna-15",
+   "category": "replacement",
+   "title": "Trade Secrets with Notion Thief: the opponent's two become yours",
+   "cards": [
+    "Cecily, Haunted Mage",
+    "Trade Secrets",
+    "Notion Thief",
+    "Teferi's Ageless Insight"
+   ],
+   "ruling": "Trade Secrets makes the target opponent draw two, then you draw up to four, and the opponent may repeat. With Notion Thief out, the opponent's draws aren't in their draw step, so they skip them and you draw instead: six cards for you, none for them, and they have no reason to repeat. Teferi's Ageless Insight can then double each of your draws, including the ones Thief hands you, since that's a new draw event. That's up to twelve, enough for Cecily's eleven.",
+   "short": "Thief turns Trade Secrets into a one-sided draw-6 (12 with Ageless Insight).",
+   "status": "verified",
+   "cr": [
+    "614.1a",
+    "616.1f",
+    "614.5"
+   ],
+   "oracle": [
+    {
+     "card": "Trade Secrets",
+     "quote": "Target opponent draws two cards, then you draw up to four cards. That opponent may repeat this process as many times as they choose."
+    },
+    {
+     "card": "Notion Thief",
+     "quote": "If an opponent would draw a card except the first one they draw in each of their draw steps, instead that player skips that draw and you draw a card."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Teferi's Ageless Insight",
+     "quote": "If two or more replacement effects would apply to a card-drawing event, the player drawing the card chooses the order in which to apply them."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "bjorna-16",
+   "category": "replacement",
+   "title": "Yawgmoth's Bargain: skip the draw step, pay 1 life per card",
+   "cards": [
+    "Cecily, Haunted Mage",
+    "Yawgmoth's Bargain",
+    "Teferi's Ageless Insight",
+    "Psychosis Crawler",
+    "Triskaidekaphile"
+   ],
+   "ruling": "Bargain skips your draw step and draws a card for each 1 life at instant speed. That fills the hand to Cecily's eleven, or to exactly thirteen before your end step for Triskaidekaphile. With no draw step there's no 'first draw' for Teferi's Ageless Insight to exempt, so every Bargain draw becomes two cards for 1 life. Each card drawn also triggers Psychosis Crawler. Life is the limit: Cecily's attacks and Peer into the Abyss cost life too.",
+   "short": "Bargain + Ageless Insight: two cards per life; Crawler drains each.",
+   "status": "verified",
+   "cr": [
+    "614.1b",
+    "614.1a",
+    "119.4"
+   ],
+   "oracle": [
+    {
+     "card": "Yawgmoth's Bargain",
+     "quote": "Pay 1 life: Draw a card."
+    },
+    {
+     "card": "Teferi's Ageless Insight",
+     "quote": "If you would draw a card except the first one you draw in each of your draw steps, draw two cards instead."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact"
   }
- ]
+ ],
+ "rereview": {
+  "cycle": 49,
+  "date": "2026-10-16",
+  "reason": "M0: canonical project list restores Trade Secrets, Yawgmoth's Bargain and the Lutri companion (authorized exceptions); bjorna-10 (Flame of Anor) retired, bjorna-11 rewritten, bjorna-14..16 added"
+ }
 }

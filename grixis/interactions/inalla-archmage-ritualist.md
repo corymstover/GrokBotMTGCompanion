@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/inalla-archmage-ritualist.txt`](../../exports/grixis-archidekt/inalla-archmage-ritualist.txt) · SHA-256 `45924e0eabb7a253004d5cdf69c32f7ab82d1e0e7406938a033a8f8b39026598` |
+| Canonical project list | [`exports/grixis-archidekt/inalla-archmage-ritualist.txt`](../../exports/grixis-archidekt/inalla-archmage-ritualist.txt) · SHA-256 `45924e0eabb7a253004d5cdf69c32f7ab82d1e0e7406938a033a8f8b39026598` |
 | Rulings | **9** (8 verified · 1 uncertain · 0 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Inalla_Archmage_Ritualist_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/inalla_archmage_ritualist_2026-10-14/Inalla_Archmage_Ritualist_Rules_Attestation.json) (15 interactions, all PASS (the Kefka and Samut items refer to cards not in the current list)) |

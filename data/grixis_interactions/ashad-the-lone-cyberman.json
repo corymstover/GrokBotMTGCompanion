@@ -64,7 +64,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "the copied permanent spell is not cast and becomes a token as it resolves."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "ashad-02",
@@ -92,7 +93,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "Ashad's +1/+1 trigger is for sacrificing **another** creature"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "ashad-03",
@@ -125,7 +127,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "A copied `Solemn Simulacrum` spell resolves as its own token permanent and supplies its own enter-the-battlefield trigger."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "ashad-04",
@@ -153,7 +156,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "That replacement effect is not limited to instants and sorceries; therefore it applies to Ashad copying a nonlegendary artifact permanent spell."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "ashad-05",
@@ -198,7 +202,8 @@
      "id": "66-457-5491",
      "quote": "Activate a Worldwalker Helm by paying {1}{U} and tapping it, creating a token copy of the Worldwalker Helm token plus a Map token for each Worldwalker Helm you control."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "ashad-14",
@@ -259,7 +264,8 @@
      "card": "Biotransference",
      "quote": "Replacement effects that modify artifacts as they enter the battlefield will apply after you apply Biotransference's effect."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "ashad-07",
@@ -282,7 +288,8 @@
      "quote": "Whenever you cast an artifact spell, you may copy it, except the copy isn't legendary. Do this only once each turn."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   },
   {
    "id": "ashad-08",
@@ -315,7 +322,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "Flash-granting artifact infrastructure can exploit Ashad's “first ... each turn” wording on other players' turns"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "ashad-09",
@@ -346,7 +354,8 @@
      "quote": "Whenever a player sacrifices a permanent, this creature deals 1 damage to any target."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   },
   {
    "id": "ashad-10",
@@ -373,7 +382,8 @@
      "card": "Cybermen Squadron",
      "quote": "If the defending player is your only opponent, no tokens are put onto the battlefield."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "ashad-11",
@@ -396,7 +406,8 @@
      "card": "Esoteric Duplicator",
      "quote": "If the copied artifact was a token, the token that’s created copies the original characteristics of that token as stated by the effect that created that token."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "ashad-12",
@@ -417,7 +428,8 @@
      "quote": "When this artifact enters, each opponent sacrifices three creatures of their choice."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   },
   {
    "id": "ashad-13",
@@ -439,7 +451,8 @@
      "quote": "{1}{U}, {T}: Put target artifact card from your graveyard on top of your library."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   }
  ]
 }

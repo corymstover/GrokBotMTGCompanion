@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/gwendlyn-di-corci.txt`](../../exports/grixis-archidekt/gwendlyn-di-corci.txt) · SHA-256 `4120c13480a4daa65cfd672e720c9e8a7bc83b7964730aaf342bf1da44589ca4` |
+| Canonical project list | [`exports/grixis-archidekt/gwendlyn-di-corci.txt`](../../exports/grixis-archidekt/gwendlyn-di-corci.txt) · SHA-256 `4120c13480a4daa65cfd672e720c9e8a7bc83b7964730aaf342bf1da44589ca4` |
 | Rulings | **10** (8 verified · 0 uncertain · 2 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Gwendlyn_Di_Corci_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/gwendlyn_di_corci_2026-10-14/Gwendlyn_Di_Corci_Rules_Attestation.json) (15 interactions, all PASS) |

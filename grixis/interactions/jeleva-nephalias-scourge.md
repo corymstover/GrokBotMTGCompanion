@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/jeleva-nephalias-scourge.txt`](../../exports/grixis-archidekt/jeleva-nephalias-scourge.txt) · SHA-256 `900a09d494293665662756ef2be07998b9d86af42c2a23ea54900953f9f181af` |
+| Canonical project list | [`exports/grixis-archidekt/jeleva-nephalias-scourge.txt`](../../exports/grixis-archidekt/jeleva-nephalias-scourge.txt) · SHA-256 `900a09d494293665662756ef2be07998b9d86af42c2a23ea54900953f9f181af` |
 | Rulings | **10** (10 verified · 0 uncertain · 0 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Jeleva_Nephalia_s_Scourge_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/jeleva_nephalia_s_scourge_2026-10-14/Jeleva_Nephalia_s_Scourge_Rules_Attestation.json) (17 interactions, all PASS) |

@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/kess-dissident-mage.txt`](../../exports/grixis-archidekt/kess-dissident-mage.txt) · SHA-256 `94dee35afe9fdb9871ee84abc0ac616ab23e133198d7d5d0ddba090b6942f2bd` |
+| Canonical project list | [`exports/grixis-archidekt/kess-dissident-mage.txt`](../../exports/grixis-archidekt/kess-dissident-mage.txt) · SHA-256 `94dee35afe9fdb9871ee84abc0ac616ab23e133198d7d5d0ddba090b6942f2bd` |
 | Rulings | **9** (9 verified · 0 uncertain · 0 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Kess_Dissident_Mage_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/kess_dissident_mage_2026-10-14/Kess_Dissident_Mage_Rules_Attestation.json) (13 interactions, all PASS) |

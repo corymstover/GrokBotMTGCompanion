@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/crosis-the-purger.txt`](../../exports/grixis-archidekt/crosis-the-purger.txt) · SHA-256 `04784e892c930bb5e60f8551ffffa7e9527634359db38378fd1bd7e4c8e3647d` |
+| Canonical project list | [`exports/grixis-archidekt/crosis-the-purger.txt`](../../exports/grixis-archidekt/crosis-the-purger.txt) · SHA-256 `04784e892c930bb5e60f8551ffffa7e9527634359db38378fd1bd7e4c8e3647d` |
 | Rulings | **11** (9 verified · 1 uncertain · 1 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Crosis_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json) (10 interactions, all PASS) |
@@ -49,7 +49,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### crosis-01: Pay {2}{B} on resolution, then choose the color
 
-**Status:** ✅ verified · **Cards:** Crosis, the Purger
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Crosis, the Purger
 
 **Ruling.** Crosis triggers after it deals combat damage to a player. On resolution you may pay {2}{B}; you can't prepay, and it isn't an attack cost. Then you choose a color, so the opponent can't respond knowing it. They reveal and discard all cards of that color. Colorless cards (artifacts, lands) are safe unless Painter's Servant is out.
 
@@ -64,7 +64,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### crosis-02: Painter's Servant makes Crosis a full-hand discard
 
-**Status:** ✅ verified · **Cards:** Crosis, the Purger, Painter's Servant
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Crosis, the Purger, Painter's Servant
 
 **Ruling.** Painter's Servant makes every card not on the battlefield (hands included) the chosen color in addition to its own colors, colorless cards included. Naming the Painter color with Crosis discards the whole hand. If Painter leaves before Crosis's trigger resolves, the cards revert. Another color-setting effect overrides Painter on that object.
 
@@ -77,7 +77,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### crosis-07: Notion Thief + Teferi's Puzzle Box lock
 
-**Status:** ✅ verified · **Cards:** Crosis, the Purger, Notion Thief, Teferi's Puzzle Box
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Crosis, the Purger, Notion Thief, Teferi's Puzzle Box
 
 **Ruling.** On each opponent's draw step, after their normal draw, Puzzle Box puts their hand on the bottom and has them draw that many. Notion Thief replaces those draws, so you draw instead. Opponents end each draw step with one card. Puzzle Box is symmetric: it also cycles *your* hand on your draw step, and your draws aren't stolen.
 
@@ -92,7 +92,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### crosis-05: Brotherhood Regalia: unblockable for {1}
 
-**Status:** ✅ verified · **Cards:** Crosis, the Purger, Brotherhood Regalia
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Crosis, the Purger, Brotherhood Regalia
 
 **Ruling.** Brotherhood Regalia equips a legendary creature for {1} and gives ward {2} and 'can't be blocked', so Crosis connects. It doesn't change the {2}{B} payment.
 
@@ -104,7 +104,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### crosis-09: Recoil and Dream Salvage
 
-**Status:** ✅ verified · **Cards:** Crosis, the Purger, Recoil, Dream Salvage
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Crosis, the Purger, Recoil, Dream Salvage
 
 **Ruling.** - **Recoil:** bounces a permanent, then its owner discards a card. With an empty hand, the bounced card is the only choice.
 - **Dream Salvage:** draws for every card the target opponent discarded *this turn*, so cast it after Crosis, Painter or a wheel.
@@ -119,7 +119,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### crosis-10: Oppression is symmetric
 
-**Status:** ⚠️ uncertain · **Cards:** Crosis, the Purger, Oppression
+**Status:** ⚠️ uncertain · **Evidence:** strategic_judgment · **Cards:** Crosis, the Purger, Oppression
 
 **Ruling.** Oppression makes *every* player who casts a spell discard, you included. In a deck with many instants and rituals, that costs you cards too. Its value comes from opponents casting from smaller hands, and Waste Not and Tergrid reward their discards.
 
@@ -134,7 +134,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### crosis-03: Painter's color can knock Sword of Feast and Famine off Crosis
 
-**Status:** 🚩 list flag · **Cards:** Crosis, the Purger, Painter's Servant, Sword of Feast and Famine
+**Status:** 🚩 list flag · **Evidence:** fact · **Cards:** Crosis, the Purger, Painter's Servant, Sword of Feast and Famine
 
 **Ruling.** Painter also colors permanents. If it names black or green, Sword of Feast and Famine becomes black or green and can't stay attached to a creature with protection from black and from green. It falls off as a state-based action. Name blue, red or white with Sword equipped.
 
@@ -150,7 +150,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### crosis-08: Notion Thief turns wheels one-sided
 
-**Status:** ✅ verified · **Cards:** Crosis, the Purger, Notion Thief, Wheel of Fortune, Windfall, Dark Deal
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Crosis, the Purger, Notion Thief, Wheel of Fortune, Windfall, Dark Deal
 
 **Ruling.** Wheel of Fortune, Windfall and Dark Deal make opponents discard their hands; Notion Thief takes their redraws. Waste Not and Tergrid profit from the discards.
 
@@ -164,7 +164,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### crosis-04: Sword of Feast and Famine above Crosis: untapped lands pay {2}{B}
 
-**Status:** ✅ verified · **Cards:** Crosis, the Purger, Sword of Feast and Famine
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Crosis, the Purger, Sword of Feast and Famine
 
 **Ruling.** Both trigger on combat damage. Put Crosis's trigger on the stack first and Sword's on top. Sword resolves first (one discard, untap all lands), and the untapped lands pay {2}{B} for Crosis. Mana made while the triggers are on the stack empties at the end of the combat damage step.
 
@@ -176,7 +176,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### crosis-06: Tergrid and Tinybones: order Tergrid on top
 
-**Status:** ✅ verified · **Cards:** Crosis, the Purger, Tergrid, God of Fright // Tergrid's Lantern, Tinybones, Bauble Burglar
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Crosis, the Purger, Tergrid, God of Fright // Tergrid's Lantern, Tinybones, Bauble Burglar
 
 **Ruling.** When an opponent discards a permanent card, Tergrid and Tinybones both trigger. Put Tinybones first and Tergrid on top: Tergrid resolves first and puts the permanent onto the battlefield under your control. Tinybones then finds the card gone. Tinybones still exiles non-permanent cards (instants, sorceries) for you to play during your turn.
 
@@ -190,7 +190,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### crosis-11: Commander tax at six mana
 
-**Status:** ✅ verified · **Cards:** Crosis, the Purger, Lightning Greaves, Swiftfoot Boots
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Crosis, the Purger, Lightning Greaves, Swiftfoot Boots
 
 **Ruling.** Crosis costs {3}{U}{B}{R} (6), then 8, then 10. Lightning Greaves and Swiftfoot Boots give haste so it can connect the turn it lands. Equip targets 'creature you control', so Greaves' shroud stops your own later equips (Regalia, Sword) while it's attached; Boots' hexproof only stops opponents. Equip the other Equipment first, or use Boots.
 

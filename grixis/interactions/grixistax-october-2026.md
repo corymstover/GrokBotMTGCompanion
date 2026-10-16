@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/grixistax-october-2026.txt`](../../exports/grixis-archidekt/grixistax-october-2026.txt) · SHA-256 `f0a28f936c03705df0e215738e4ad314d337bb3e713dcf7b2c50beba5a2f9a08` |
+| Canonical project list | [`exports/grixis-archidekt/grixistax-october-2026.txt`](../../exports/grixis-archidekt/grixistax-october-2026.txt) · SHA-256 `f0a28f936c03705df0e215738e4ad314d337bb3e713dcf7b2c50beba5a2f9a08` |
 | Rulings | **11** (10 verified · 0 uncertain · 1 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Grixistax_October_2026_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json) (18 interactions, all PASS) |
@@ -50,7 +50,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### grixistax-01: Partners: Kraum + Tevesh Szat
 
-**Status:** ✅ verified · **Cards:** Kraum, Ludevic's Opus, Tevesh Szat, Doom of Fools
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Kraum, Ludevic's Opus, Tevesh Szat, Doom of Fools
 
 **Ruling.** Both have partner, so they can be co-commanders; combined identity is blue, black and red. Either one satisfies 'if you control a commander' (Fierce Guardianship, Deflecting Swat, Deadly Rollick). Commander tax is tracked separately for each. Mox Amber makes one mana of a color among your legendary creatures and planeswalkers: Kraum gives blue or red, Tevesh gives black.
 
@@ -64,7 +64,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### grixistax-02: Kraum: once per opponent per turn, under Damping Sphere too
 
-**Status:** ✅ verified · **Cards:** Kraum, Ludevic's Opus, Damping Sphere
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Kraum, Ludevic's Opus, Damping Sphere
 
 **Ruling.** Kraum draws when one opponent casts their second spell in a turn. It's once per opponent per turn, two spells from different opponents don't count, and it looks at the whole turn even if Kraum arrived late. Damping Sphere taxes each extra spell but doesn't forbid it, so an opponent who pays still gives you a card.
 
@@ -96,7 +96,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### grixistax-03: Tevesh Thrulls feed every sacrifice outlet
 
-**Status:** ✅ verified · **Cards:** Tevesh Szat, Doom of Fools, Contamination, Skullclamp, Phyrexian Tower, Culling the Weak, Diabolic Intent
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Tevesh Szat, Doom of Fools, Contamination, Skullclamp, Phyrexian Tower, Culling the Weak, Diabolic Intent
 
 **Ruling.** Tevesh's +2 makes two 0/1 Thrulls. They pay Contamination's upkeep, die at once to Skullclamp (+1/-1 makes them 1/0, a state-based death, draw two), and are sacrifice fodder for Phyrexian Tower ({B}{B}), Culling the Weak ({B}{B}{B}{B}) and Diabolic Intent. Tevesh's +1 can also sacrifice one to draw two (three if it was a commander). You choose what to sacrifice as the ability resolves.
 
@@ -114,7 +114,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### grixistax-08: Karn locks the Wishclaw you hand over
 
-**Status:** ✅ verified · **Cards:** Tevesh Szat, Doom of Fools, Karn, the Great Creator, Wishclaw Talisman
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Tevesh Szat, Doom of Fools, Karn, the Great Creator, Wishclaw Talisman
 
 **Ruling.** After Wishclaw's tutor resolves, an opponent gains control of it. With Karn out, opponents can't activate abilities of artifacts they control, so they can't use it. Karn doesn't stop triggered abilities. His -2 needs an artifact you own from outside the game or face-up in exile; the deck doesn't plan on a wishboard.
 
@@ -148,7 +148,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### grixistax-06: Overburden and Tangle Wire with Thrull tokens
 
-**Status:** ✅ verified · **Cards:** Tevesh Szat, Doom of Fools, Overburden, Tangle Wire
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Tevesh Szat, Doom of Fools, Overburden, Tangle Wire
 
 **Ruling.** Overburden only triggers on nontoken creatures, so Thrulls are free; casting Kraum bounces one of your lands. At your upkeep, Tangle Wire's fading trigger and tap trigger are both yours to order. Resolve fading first so the tap trigger counts one fewer counter. Untapped Thrulls can be the permanents you tap.
 
@@ -162,7 +162,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### grixistax-07: Trinisphere and Chalice tax your own free spells
 
-**Status:** ✅ verified · **Cards:** Tevesh Szat, Doom of Fools, Trinisphere, Chalice of the Void, Force of Will, Fierce Guardianship, Lion's Eye Diamond
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Tevesh Szat, Doom of Fools, Trinisphere, Chalice of the Void, Force of Will, Fierce Guardianship, Lion's Eye Diamond
 
 **Ruling.** An untapped Trinisphere applies after alternative costs and reductions. Force of Will's pitch, a free Fierce Guardianship or Pact, and 0-cost artifacts all cost three mana. Chalice checks mana value as the spell is cast, not what was paid. At 0 it counters your Moxen, LED and Lotus Petal; at 1 it counters your Sol Ring, Vampiric Tutor and similar.
 
@@ -180,7 +180,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### grixistax-04: Contamination, Damping Sphere and Blood Moon on the same land
 
-**Status:** ✅ verified · **Cards:** Tevesh Szat, Doom of Fools, Contamination, Damping Sphere, Blood Moon, Ancient Tomb
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Tevesh Szat, Doom of Fools, Contamination, Damping Sphere, Blood Moon, Ancient Tomb
 
 **Ruling.** Contamination makes every land produce exactly {B}. Damping Sphere turns a land that would make two or more into {C}. When both apply to one tap, the land's controller picks which applies first, and either way Ancient Tomb gives one mana. Blood Moon makes nonbasics Mountains ({T}: Add {R}), and Contamination still turns that into {B}. Artifact mana is untouched by all three.
 
@@ -198,7 +198,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### grixistax-11: Tainted Pact as a tutor, and Tevesh's −10
 
-**Status:** ✅ verified · **Cards:** Tevesh Szat, Doom of Fools, Tainted Pact
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Tevesh Szat, Doom of Fools, Tainted Pact
 
 **Ruling.** The list has 100 distinct names, two partners included, so Tainted Pact never stops on a duplicate; it's a tutor here, since there's no Thassa's Oracle. Tevesh's −10 takes control of every commander on the battlefield first, then puts all commanders from command zones onto the battlefield under your control. If you leave the game, the ones you put onto the battlefield are exiled.
 

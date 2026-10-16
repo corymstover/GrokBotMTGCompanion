@@ -69,7 +69,8 @@
      "path": "refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json",
      "item": "Wheel of Fortune and Windfall retained role"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "doom-02",
@@ -97,7 +98,8 @@
      "path": "refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json",
      "item": "Doctor Doom beginning-of-combat target legality"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "doom-03",
@@ -141,7 +143,8 @@
      "path": "refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json",
      "item": "Spark Double entering as Doctor Doom"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "doom-04",
@@ -173,7 +176,8 @@
      "path": "refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json",
      "item": "Roaming Throne choosing Villain"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "doom-05",
@@ -203,7 +207,8 @@
      "path": "refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json",
      "item": "Glorious Purpose with repeated connive"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "doom-06",
@@ -232,7 +237,8 @@
      "path": "refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json",
      "item": "Psychic Frog as separable land-discard outlet"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "doom-07",
@@ -266,7 +272,8 @@
      "path": "refinement/verification/doctor_doom_king_of_latveria_2026-10-14/Doctor_Doom_King_of_Latveria_Rules_Attestation.json",
      "item": "Dakmor Salvage dredge replacement"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "doom-08",
@@ -390,7 +397,8 @@
      "card": "Crucible of Worlds",
      "quote": "Crucible of Worlds doesn't allow you to activate abilities (such as cycling) of land cards in your graveyard."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "doom-11",
@@ -418,7 +426,8 @@
      "card": "Archfiend of Ifnir",
      "quote": "An ability that triggers whenever you \"cycle or discard\" a card triggers only once if you cycle a card."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   }
  ]
 }

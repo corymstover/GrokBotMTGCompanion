@@ -604,7 +604,7 @@ This deck is now locked. Do not revise, reopen, or replace it unless the user ex
 <!-- INTERACTIONS:START -->
 ## Rules notes
 
-> Bot cycle 49 interaction review: **11 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Kefka, Court Mage // Kefka, Ruler of Ruin — Interaction Review](../interactions/kefka-court-mage.md).
+> Bot cycle 49 interaction review: **13 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Kefka, Court Mage // Kefka, Ruler of Ruin — Interaction Review](../interactions/kefka-court-mage.md).
 
 - **Discard trigger counts card types, per trigger** — Draw = number of card types among that trigger's discards (supertypes don't count). ([kefka-01](../interactions/kefka-court-mage.md#kefka-01-discard-trigger-counts-card-types-per-trigger))
 - **Haste: discard Anger to Kefka's own trigger, or use Arena of Glory** — Discard Anger to the ETB, then attack the same turn. ([kefka-04](../interactions/kefka-court-mage.md#kefka-04-haste-discard-anger-to-kefkas-own-trigger-or-use-arena-of-glory))

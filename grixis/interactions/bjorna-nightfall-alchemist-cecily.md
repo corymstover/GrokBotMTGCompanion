@@ -13,8 +13,8 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/bjorna-nightfall-alchemist-cecily.txt`](../../exports/grixis-archidekt/bjorna-nightfall-alchemist-cecily.txt) · SHA-256 `31f7fae30dcee31b0c92d8baf2c943f396061b2cb51b7771e4e260e55b9aadc8` |
-| Rulings | **13** (10 verified · 0 uncertain · 3 flags) |
+| Canonical project list | [`exports/grixis-archidekt/source-baseline/bjorna-nightfall-alchemist-cecily.txt`](../../exports/grixis-archidekt/source-baseline/bjorna-nightfall-alchemist-cecily.txt) · SHA-256 `745885c96c41ba3b00c4e7bab3fe677c333cfb225927ea914ecc3212a9a0d871` |
+| Rulings | **15** (12 verified · 0 uncertain · 3 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) (deck #8: RULES PASS / PROJECT_EXCEPTION) |
 
@@ -33,12 +33,14 @@ schema: 2
 
 ## Summary
 
-Bjorna, Nightfall Alchemist and Cecily, Haunted Mage (Friends forever) run a big-hand spells deck: wheels and draw to eleven cards for free Cecily casts. This review re-verifies the retrospective attestation and records the legality fix: the companion's list drops Lutri and the two banned project exceptions.
+Bjorna, Nightfall Alchemist and Cecily, Haunted Mage (Friends forever) run a big-hand spells deck: wheels and draw to eleven cards for free Cecily casts. This review re-verifies the retrospective attestation. Bot cycle 49 re-reviewed it against the M0 canonical project list, which restores the three authorized project exceptions (🚩 NOT Commander-legal): Lutri as companion, Trade Secrets and Yawgmoth's Bargain.
 
 Rules surprises:
 - Peer into the Abyss + Teferi's Ageless Insight loses on an odd library.
 - Notion Thief starves the Breach + Wheel + Jeska's Will mana.
 - The source blueprint misdescribes both commanders.
+- Notion Thief turns Trade Secrets into a one-sided draw-6.
+- Yawgmoth's Bargain + Ageless Insight gives two cards per life.
 
 ## Flags and open questions
 
@@ -54,7 +56,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### bjorna-01: Bjorna: sacrifice an artifact, ping and goad a creature
 
-**Status:** ✅ verified · **Cards:** Bjorna, Nightfall Alchemist, Academy Manufactor, Lightning Greaves
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Bjorna, Nightfall Alchemist, Academy Manufactor, Lightning Greaves
 
 **Ruling.** Bjorna's ability costs {T} and sacrificing an artifact, so it can't be responded to. It targets a **creature** (never a player), deals 1 damage and goads it. Goad lasts until your next turn: the creature must attack each combat, and must attack someone other than you if able.
 
@@ -68,7 +70,7 @@ The {T} cost needs haste the turn Bjorna arrives; Lightning Greaves' shroud does
 
 ### bjorna-02: Cecily: draw, lose 1, *then* check eleven cards
 
-**Status:** ✅ verified · **Cards:** Cecily, Haunted Mage
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cecily, Haunted Mage
 
 **Ruling.** When Cecily attacks you draw a card and lose 1 life, then check whether you have eleven or more cards in hand. The card just drawn counts. If you do, you may cast an instant or sorcery from your hand without paying its mana cost, during the trigger's resolution, so a sorcery is fine mid-combat. It's still cast from hand. X is 0. Additional costs (Big Score's discard, Deadly Dispute's sacrifice) must still be paid. Cecily's maximum hand size of eleven lets the hand stay big between turns.
 
@@ -80,7 +82,7 @@ The {T} cost needs haste the turn Bjorna arrives; Lightning Greaves' shroud does
 
 ### bjorna-12: Source blueprint misdescribes both commanders
 
-**Status:** 🚩 list flag · **Cards:** Bjorna, Nightfall Alchemist, Cecily, Haunted Mage
+**Status:** 🚩 list flag · **Evidence:** fact · **Cards:** Bjorna, Nightfall Alchemist, Cecily, Haunted Mage
 
 **Ruling.** The source blueprint says Bjorna 'rewards casting noncreature spells by granting haste and goading a creature', and Cecily 'rewards combat damage to a player'. Current Oracle text, quoted in bjorna-01 and bjorna-02, says otherwise: Bjorna is an artifact-sacrifice ping-and-goad, and Cecily triggers on *attacking*. The retrospective attestation already uses the correct text.
 
@@ -96,7 +98,7 @@ The {T} cost needs haste the turn Bjorna arrives; Lightning Greaves' shroud does
 
 ### bjorna-05: Peer into the Abyss + Teferi's Ageless Insight: an odd library loses
 
-**Status:** 🚩 list flag · **Cards:** Cecily, Haunted Mage, Peer into the Abyss, Teferi's Ageless Insight
+**Status:** 🚩 list flag · **Evidence:** fact · **Cards:** Cecily, Haunted Mage, Peer into the Abyss, Teferi's Ageless Insight
 
 **Ruling.** Spellbook lists Peer into the Abyss (targeting yourself) + Teferi's Ageless Insight as infinite card draw. Peer first fixes the number (half your library, rounded up), then each draw is replaced by two. With L cards in library you try to draw 2 × ⌈L/2⌉ cards.
 - **Odd L:** that's L + 1 draws, so one draw from an empty library, and you lose at the next state-based check, *before* Niv-Mizzet or Psychosis Crawler triggers go on the stack.
@@ -115,7 +117,7 @@ Peer also takes half your life (rounded up).
 
 ### bjorna-06: Peer into the Abyss + Psychosis Crawler
 
-**Status:** ✅ verified · **Cards:** Cecily, Haunted Mage, Peer into the Abyss, Psychosis Crawler, Niv-Mizzet, Parun
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cecily, Haunted Mage, Peer into the Abyss, Psychosis Crawler, Niv-Mizzet, Parun
 
 **Ruling.** Peer on yourself draws half your library. Each card drawn triggers Psychosis Crawler (each opponent loses 1) and Niv-Mizzet (1 damage to any target). It's lethal when the cards drawn reach the opponents' life totals. You also lose half your life. The Crawler's P/T equals your hand size.
 
@@ -127,7 +129,7 @@ Peer also takes half your life (rounded up).
 
 ### bjorna-07: Underworld Breach + Wheel of Fortune + Jeska's Will
 
-**Status:** 🚩 list flag · **Cards:** Cecily, Haunted Mage, Underworld Breach, Wheel of Fortune, Jeska's Will, Notion Thief
+**Status:** 🚩 list flag · **Evidence:** fact · **Cards:** Cecily, Haunted Mage, Underworld Breach, Wheel of Fortune, Jeska's Will, Notion Thief
 
 **Ruling.** With Breach, Wheel of Fortune escapes for {2}{R} plus three other graveyard cards and refills every hand to seven. Jeska's Will (both modes with a commander) then adds {R} per card in an opponent's hand and exiles three to play. Repeating this is the Spellbook loop, limited by graveyard fuel.
 
@@ -146,7 +148,7 @@ Anti-synergy: with Notion Thief out, opponents' wheel draws (other than their fi
 
 ### bjorna-09: Triskaidekaphile needs exactly thirteen at upkeep
 
-**Status:** ✅ verified · **Cards:** Cecily, Haunted Mage, Triskaidekaphile
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cecily, Haunted Mage, Triskaidekaphile
 
 **Ruling.** Triskaidekaphile wins only with *exactly* thirteen cards as your upkeep begins (and on resolution). You can't draw in your upkeep before it checks. Its {3}{U} draw on the previous end step or an opponent's turn sets the count.
 
@@ -156,22 +158,11 @@ Anti-synergy: with Notion Thief out, opponents' wheel draws (other than their fi
 - Scryfall ruling, *Triskaidekaphile*: “If you have fewer cards in your hand, you won't be able to draw cards during your upkeep in time to cause the ability to trigger.”
 - [CR 603.4](#cr-6034)
 
-### bjorna-10: Flame of Anor gets both modes with a Wizard
-
-**Status:** ✅ verified · **Cards:** Cecily, Haunted Mage, Flame of Anor
-
-**Ruling.** Flame of Anor can choose two modes if you control a Wizard as you cast it. Cecily, Harmonic Prodigy, Archmage Emeritus, Niv-Mizzet, Triskaidekaphile, Kess, Emry and Goblin Electromancer all count. Cast free with Cecily, it's still cast, so the Wizard check applies.
-
-**Citations**
-
-- Oracle, *Flame of Anor*: “Choose one. If you control a Wizard as you cast this spell, you may choose two instead.”
-- [CR 700.2](#cr-7002), [CR 601.2b](#cr-6012b)
-
 ## Timing and priority
 
 ### bjorna-04: Robe of the Archmagi draws after Cecily's trigger
 
-**Status:** ✅ verified · **Cards:** Cecily, Haunted Mage, Robe of the Archmagi
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cecily, Haunted Mage, Robe of the Archmagi
 
 **Ruling.** Robe of the Archmagi draws on *combat damage*, after Cecily's attack trigger has resolved. So it can't raise the hand to eleven for that attack; it sets up the next one. Cecily is a Wizard, so the {1} equip cost applies.
 
@@ -185,7 +176,7 @@ Anti-synergy: with Notion Thief out, opponents' wheel draws (other than their fi
 
 ### bjorna-08: Wheels with Notion Thief and Teferi's Ageless Insight
 
-**Status:** ✅ verified · **Cards:** Cecily, Haunted Mage, Notion Thief, Teferi's Ageless Insight, Windfall, Whispering Madness, Reforge the Soul, Echo of Eons, Dark Deal
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cecily, Haunted Mage, Notion Thief, Teferi's Ageless Insight, Windfall, Whispering Madness, Reforge the Soul, Echo of Eons, Dark Deal
 
 **Ruling.** - **Notion Thief:** opponents skip their wheel draws and you draw instead. With three opponents, Windfall or Wheel gives you up to 7 + 21 cards. They still discard.
 - **Teferi's Ageless Insight:** doubles your non-draw-step draws, so a wheel gives 14.
@@ -199,11 +190,36 @@ This reaches eleven cards for Cecily and thirteen for Triskaidekaphile.
 - Scryfall ruling, *Teferi's Ageless Insight*: “If two or more replacement effects would apply to a card-drawing event, the player drawing the card chooses the order in which to apply them.”
 - [CR 614.1a](#cr-6141a), [CR 616.1](#cr-6161)
 
+### bjorna-15: Trade Secrets with Notion Thief: the opponent's two become yours
+
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cecily, Haunted Mage, Trade Secrets, Notion Thief, Teferi's Ageless Insight
+
+**Ruling.** Trade Secrets makes the target opponent draw two, then you draw up to four, and the opponent may repeat. With Notion Thief out, the opponent's draws aren't in their draw step, so they skip them and you draw instead: six cards for you, none for them, and they have no reason to repeat. Teferi's Ageless Insight can then double each of your draws, including the ones Thief hands you, since that's a new draw event. That's up to twelve, enough for Cecily's eleven.
+
+**Citations**
+
+- Oracle, *Trade Secrets*: “Target opponent draws two cards, then you draw up to four cards. That opponent may repeat this process as many times as they choose.”
+- Oracle, *Notion Thief*: “If an opponent would draw a card except the first one they draw in each of their draw steps, instead that player skips that draw and you draw a card.”
+- Scryfall ruling, *Teferi's Ageless Insight*: “If two or more replacement effects would apply to a card-drawing event, the player drawing the card chooses the order in which to apply them.”
+- [CR 614.1a](#cr-6141a), [CR 616.1f](#cr-6161f), [CR 614.5](#cr-6145)
+
+### bjorna-16: Yawgmoth's Bargain: skip the draw step, pay 1 life per card
+
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cecily, Haunted Mage, Yawgmoth's Bargain, Teferi's Ageless Insight, Psychosis Crawler, Triskaidekaphile
+
+**Ruling.** Bargain skips your draw step and draws a card for each 1 life at instant speed. That fills the hand to Cecily's eleven, or to exactly thirteen before your end step for Triskaidekaphile. With no draw step there's no 'first draw' for Teferi's Ageless Insight to exempt, so every Bargain draw becomes two cards for 1 life. Each card drawn also triggers Psychosis Crawler. Life is the limit: Cecily's attacks and Peer into the Abyss cost life too.
+
+**Citations**
+
+- Oracle, *Yawgmoth's Bargain*: “Pay 1 life: Draw a card.”
+- Oracle, *Teferi's Ageless Insight*: “If you would draw a card except the first one you draw in each of your draw steps, draw two cards instead.”
+- [CR 614.1b](#cr-6141b), [CR 614.1a](#cr-6141a), [CR 119.4](#cr-1194)
+
 ## Trigger ordering
 
 ### bjorna-03: Harmonic Prodigy doubles Wizard and Shaman triggers
 
-**Status:** ✅ verified · **Cards:** Cecily, Haunted Mage, Harmonic Prodigy, Niv-Mizzet, Parun, Archmage Emeritus, Storm-Kiln Artist, Emry, Lurker of the Loch
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cecily, Haunted Mage, Harmonic Prodigy, Niv-Mizzet, Parun, Archmage Emeritus, Storm-Kiln Artist, Emry, Lurker of the Loch
 
 **Ruling.** Harmonic Prodigy makes triggered abilities of Shamans and *other* Wizards you control trigger an additional time:
 - Cecily (Wizard): two attack triggers, each drawing, losing 1 and checking the hand separately, so possibly two free spells.
@@ -222,7 +238,7 @@ Bjorna is a Human, not a Wizard, so she isn't affected.
 
 ### bjorna-13: Two commanders, separate tax
 
-**Status:** ✅ verified · **Cards:** Bjorna, Nightfall Alchemist, Cecily, Haunted Mage
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Bjorna, Nightfall Alchemist, Cecily, Haunted Mage
 
 **Ruling.** Bjorna and Cecily share Partner—Friends forever. Each has its own tax: Bjorna {U}{R} then 4, 6; Cecily {1}{U}{B}{R} then 6, 8. Commander damage is tracked per commander. 'Control a commander' (Jeska's Will) is satisfied by either.
 
@@ -231,19 +247,35 @@ Bjorna is a Human, not a Wizard, so she isn't affected.
 - Oracle, *Bjorna, Nightfall Alchemist*: “Partner—Friends forever (You can have two commanders if both have this ability.)”
 - [CR 702.124i](#cr-702124i), [CR 903.8](#cr-9038), [CR 903.10a](#cr-90310a)
 
+### bjorna-14: Lutri as companion: {3} to hand, then a flash copy of your spell
+
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cecily, Haunted Mage, Lutri, the Spellchaser
+
+**Ruling.** Lutri starts outside the game. Paying {3} to put it into your hand is a special action: main phase, stack empty, can't be responded to. After that it's an ordinary card. Lutri has flash, and its copy trigger only works if you cast it. So cast it while your own instant or sorcery is on the stack, including one Cecily cast for free, since you get priority before it resolves. The copy isn't cast. Commander singleton already meets the companion condition.
+
+**Citations**
+
+- Oracle, *Lutri, the Spellchaser*: “When Lutri enters, if you cast it, copy target instant or sorcery spell you control. You may choose new targets for the copy.”
+- Scryfall ruling, *Lutri, the Spellchaser*: “Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.”
+- Scryfall ruling, *Lutri, the Spellchaser*: “The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger. It will resolve before the original spell does.”
+- [CR 116.2g](#cr-1162g), [CR 702.139c](#cr-702139c), [CR 707.10](#cr-70710)
+
 ## Legality and project exceptions
 
-### bjorna-11: Project exceptions replaced; Lutri dropped as companion
+### bjorna-11: Canonical list keeps three authorized project exceptions
 
-**Status:** ✅ verified · **Cards:** Cecily, Haunted Mage, Bjorna, Nightfall Alchemist, Wizard Class, Flame of Anor, Lutri, the Spellchaser, Trade Secrets, Yawgmoth's Bargain
+**Status:** ✅ verified · **Evidence:** approved_decision · **Cards:** Cecily, Haunted Mage, Bjorna, Nightfall Alchemist, Lutri, the Spellchaser, Trade Secrets, Yawgmoth's Bargain
 
-**Ruling.** The source kept three project exceptions: Lutri as companion, plus Trade Secrets and Yawgmoth's Bargain in the main deck. Current Scryfall data (2026-10-15) lists Trade Secrets and Yawgmoth's Bargain as banned in Commander. Lutri is legal in the 99 but banned as a companion (the project's B&R note, 2026-02-09).
+**Ruling.** The canonical project list (M0 registry) keeps Cory's three authorized exceptions: Lutri as companion, plus Trade Secrets and Yawgmoth's Bargain in the main deck. None of them is Commander-legal.
+- Trade Secrets and Yawgmoth's Bargain are banned in Commander (Wizards B&R; Scryfall 2026-10-15).
+- Lutri is legal in the 99 but banned as a companion (Wizards B&R). Scryfall's legality field can't express that.
 
-The companion's final list follows official legality: Trade Secrets → Wizard Class, Yawgmoth's Bargain → Flame of Anor, and no companion. The source's Lutri rulings (copying only if cast, the {3} special action) don't apply to this list.
+The Bot cycle 16 swaps (Trade Secrets → Wizard Class, Yawgmoth's Bargain → Flame of Anor, no companion) now exist only as the derived compliance projection, which isn't canonical. This review covers the canonical list. bjorna-10 (Flame of Anor) was retired in cycle 49 because that card is only in the projection.
 
 **Citations**
 
 - Oracle, *Lutri, the Spellchaser*: “Companion — Each nonland card in your starting deck has a different name.”
+- Scryfall ruling, *Lutri, the Spellchaser*: “You may have one companion in the Commander variant. Your deck, including your commander, must meet its companion requirement. Your companion is not one of your one hundred cards.”
 - [CR 903.3](#cr-9033), [CR 702.139a](#cr-702139a)
 - Source (re-verified): [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) → “The deck is therefore **project-valid under the registered exceptions, not officially Commander-legal without qualification**.”
 
@@ -255,9 +287,17 @@ Verbatim from the [Comprehensive Rules](https://media.wizards.com/2026/downloads
 
 Use the Oracle card reference when determining a card’s wording. A card’s Oracle text can be found using the Gatherer card database at Gatherer.Wizards.com.
 
+#### CR 116.2g
+
+A player who has chosen a companion may pay {3} to put that card from outside the game into their hand. This is a special action. A player can take this action any time they have priority and the stack is empty during a main phase of their turn, but only if they haven’t done so yet this game. (See rule 702.139, “Companion.”)
+
 #### CR 117.5
 
 Each time a player would get priority, the game first performs all applicable state-based actions as a single event (see rule 704, “State-Based Actions”), then repeats this process until no state-based actions are performed. Then triggered abilities are put on the stack (see rule 603, “Handling Triggered Abilities”). These steps repeat in order until no further state-based actions are performed and no abilities trigger. Then the player who would have received priority does so.
+
+#### CR 119.4
+
+If a cost or effect allows a player to pay an amount of life greater than 0, the player may do so only if their life total is greater than or equal to the amount of the payment. If a player pays life, the payment is subtracted from their life total; in other words, the player loses that much life.
 
 #### CR 121.2
 
@@ -307,13 +347,21 @@ If an effect gives a player the option to pay mana, they may activate mana abili
 
 Effects that use the word “instead” are replacement effects. Most replacement effects use the word “instead” to indicate what events will be replaced with other events.
 
+#### CR 614.1b
+
+Effects that use the word “skip” are replacement effects. These replacement effects use the word “skip” to indicate what events, steps, phases, or turns will be replaced with nothing.
+
+#### CR 614.5
+
+A replacement effect doesn’t invoke itself repeatedly; it gets only one opportunity to affect an event or any modified events that may replace that event.
+
 #### CR 616.1
 
 If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object’s controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below. If two or more players have to make these choices at the same time, choices are made in APNAP order (see rule 101.4).
 
-#### CR 700.2
+#### CR 616.1f
 
-A spell or ability is modal if it has two or more options in a bulleted list preceded by instructions for a player to choose a number of those options, such as “Choose one —.” Each of those options is a mode. Modal cards printed prior to the Khans of Tarkir™ set didn’t use bulleted lists for the modes; these cards have received errata in the Oracle card reference so the modes do appear in a bulleted list.
+Once the chosen effect has been applied, this process is repeated (taking into account only replacement or prevention effects that would now be applicable) until there are no more left to apply.
 
 #### CR 701.15a
 
@@ -335,9 +383,17 @@ Escape represents a static ability that functions while the card with escape is 
 
 Companion is a keyword ability that functions outside the game. It’s written as “Companion—[Condition].” Before the game begins, you may reveal one card you own from outside the game with a companion ability whose condition is fulfilled by your starting deck. (See rule 103.2b.) Once during the game, any time you have priority and the stack is empty, but only during a main phase of your turn, you may pay {3} and put that card into your hand. This is a special action that doesn’t use the stack (see rule 116.2g). This is a change from previous rules.
 
+#### CR 702.139c
+
+Once you take the special action and put the card with companion into your hand, it remains in the game until the game ends.
+
 #### CR 704.5b
 
 If a player attempted to draw a card from a library with no cards in it since the last time state-based actions were checked, that player loses the game.
+
+#### CR 707.10
+
+To copy a spell, activated ability, or triggered ability means to put a copy of it onto the stack; a copy of a spell isn’t cast and a copy of an activated ability isn’t activated. A copy of a spell or ability copies both the characteristics of the spell or ability and all decisions made for it, including modes, targets, the value of X, and additional or alternative costs. (See rule 601, “Casting Spells.”) Choices that are normally made on resolution are not copied. If an effect of the copy refers to objects used to pay its costs, it uses the objects used to pay the costs of the original spell …
 
 #### CR 903.3
 

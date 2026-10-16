@@ -55,7 +55,8 @@
      "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
      "item": "Dr. Eggman villainous-choice sequencing"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "eggman-02",
@@ -88,7 +89,8 @@
      "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
      "item": "Tinybones and actual Eggman discards"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "eggman-03",
@@ -128,7 +130,8 @@
      "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
      "item": "Vision, Spectral Synthezoid"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "eggman-04",
@@ -156,7 +159,8 @@
      "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
      "item": "The Valeyard with Dr. Eggman"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "eggman-05",
@@ -199,7 +203,8 @@
      "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
      "item": "Strionic Resonator copying Dr. Eggman"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "eggman-06",
@@ -247,7 +252,8 @@
      "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
      "item": "Multiple first-end-step Y'shtola effects"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "eggman-07",
@@ -275,7 +281,8 @@
      "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
      "item": "Y'shtola blinking Eggman"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "eggman-08",
@@ -303,7 +310,8 @@
      "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
      "item": "Thopter Fabricator and Eggman's draw"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "eggman-09",
@@ -355,7 +363,8 @@
      "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
      "item": "Master Transmuter and artifact-enter engines"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "eggman-10",
@@ -388,7 +397,8 @@
      "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
      "item": "One with the Machine draw scaling"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   }
  ]
 }

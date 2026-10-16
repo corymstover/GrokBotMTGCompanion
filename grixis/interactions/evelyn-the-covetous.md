@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/evelyn-the-covetous.txt`](../../exports/grixis-archidekt/evelyn-the-covetous.txt) · SHA-256 `e230c85b8254f533b0a8d6e2e5699e9eac000010f594a822892c3d74cd76390f` |
+| Canonical project list | [`exports/grixis-archidekt/evelyn-the-covetous.txt`](../../exports/grixis-archidekt/evelyn-the-covetous.txt) · SHA-256 `e230c85b8254f533b0a8d6e2e5699e9eac000010f594a822892c3d74cd76390f` |
 | Rulings | **10** (7 verified · 1 uncertain · 2 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Evelyn_the_Covetous_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/evelyn_the_covetous_2026-10-14/Evelyn_the_Covetous_Rules_Attestation.json) (13 interactions, all PASS) |
@@ -53,7 +53,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### evelyn-01: One play per turn, from any Evelyn's exile
 
-**Status:** ✅ verified · **Cards:** Evelyn, the Covetous
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Evelyn, the Covetous
 
 **Ruling.** Evelyn exiles the top card of each library, yours included, with a collection counter, whenever she or another Vampire enters. Once each turn you may play one of those cards, if an ability you controlled exiled it; you may spend mana as though it were any color. The permission isn't tied to the Evelyn that exiled the card, so a new Evelyn (after a blink or recast) can play cards an earlier one exiled. It's once each turn, not once on your turn, so with flash timing you get a play on each opponent's turn too.
 
@@ -149,7 +149,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### evelyn-10: Party Thrasher gives Evelyn casts convoke
 
-**Status:** ✅ verified · **Cards:** Evelyn, the Covetous, Party Thrasher
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Evelyn, the Covetous, Party Thrasher
 
 **Ruling.** Noncreature spells you cast from exile have convoke, so a noncreature card from Evelyn's exile can be paid partly by tapping creatures. Convoke applies after the total cost is set and doesn't change mana value. If you sacrifice Party Thrasher while casting the spell, it loses convoke.
 
@@ -164,7 +164,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### evelyn-02: Flash enablers use Evelyn on opponents' turns
 
-**Status:** ✅ verified · **Cards:** Evelyn, the Covetous, Leyline of Anticipation, Borne Upon a Wind, Valley Floodcaller
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Evelyn, the Covetous, Leyline of Anticipation, Borne Upon a Wind, Valley Floodcaller
 
 **Ruling.** Leyline of Anticipation (all spells) and Borne Upon a Wind (all spells, this turn) let you cast an exiled sorcery-speed spell on an opponent's turn, using that turn's Evelyn play. Valley Floodcaller only covers noncreature spells, in any zone. None of them change sorcery-speed activated abilities, and lands still can only be played on your own turn.
 
@@ -199,7 +199,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### evelyn-04: The Worldgorger loop is mandatory: have a way out
 
-**Status:** ✅ verified · **Cards:** Evelyn, the Covetous, Worldgorger Dragon, Animate Dead
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Evelyn, the Covetous, Worldgorger Dragon, Animate Dead
 
 **Ruling.** Every step of the loop is mandatory. If nothing can stop it, the game is a draw. The returning Aura doesn't target: whoever controls it picks any creature card in any graveyard to enchant, opponents' included. So any other creature card in any graveyard breaks the loop. Getting the Dragon off the battlefield in response to its enters trigger also ends the loop, but its leaves trigger then returns nothing and your other permanents stay exiled for good. Check for an exit before you start.
 
