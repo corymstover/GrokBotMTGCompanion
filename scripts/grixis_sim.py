@@ -1,0 +1,622 @@
+#!/usr/bin/env python3
+"""M3 goldfish simulator core (Bot cycle 57.2): exact hypergeometric layer + deterministic seeded goldfish games.
+
+What it models (one player, no opponents, no interaction — a goldfish):
+  * Library = the canonical list's main deck (quantities kept); commanders start in the command zone (CR 903.6);
+    a companion stays outside the game and is ignored.
+  * London mulligan (CR 103.5) with the multiplayer free first mulligan (CR 103.5c); no draw skip on turn 1 in
+    multiplayer (CR 103.8c; --two-player skips it, CR 103.8a). Keep rule and bottoming rule are fixed and documented
+    (KEEP_RULE) so every test pre-registers the same policy.
+  * Mana: lands (Scryfall produced_mana; fetch lands produce the land types they can find; unconditional "enters
+    tapped" lands are tapped the turn they're played), mana rocks (usable the turn they're cast) and mana creatures
+    (usable from the next turn). Colours are paid by bipartite matching of pips to mana units; hybrid pips accept either
+    colour; Phyrexian pips are paid with life; X = 0. Commander tax is 2 per earlier cast (CR 903.8).
+  * Casting policy each turn: one land (the one adding the most missing colours, untapped first); the commander as soon
+    as it's castable; then mana sources, cheapest first; then other permanents and spells, highest mana value first.
+    Combo pieces that are instants/sorceries are held, not cast for value.
+  * Recorded per game: mulligans taken, kept hand size, lands / mana available / mana spent by turn, commander cast
+    turn, first-seen turn of every key-card set (blueprint packages, tutor targets) and of every card, and the
+    combo-assembly turn and win-turn proxy for each Commander Spellbook combo in the list.
+
+Win-turn proxy: the first turn on which every piece of some Spellbook combo has been drawn (or is a commander) and the
+mana available that turn covers the pieces still to be cast. It is a goldfish proxy: no opponents, no removal, no
+"requires" conditions, no tutors or extra card draw. It is not a win rate and is never reported as one.
+
+Exact layer: hyper_* functions (hypergeometric), p_seen_by_turn and p_land_drops (exact dynamic programme). The unit
+tests check the Monte Carlo against them.
+
+Usage:
+  python3 scripts/grixis_sim.py --deck SLUG [--samples 2000] [--seed 57] [--turns 10] [--json]
+  python3 scripts/grixis_sim.py --model SLUG          # parsed mana model (lands, sources, unparsed)
+  python3 scripts/grixis_sim.py --selftest            # MC vs exact math on a real deck (validate_all step 'simulator')
+"""
+import argparse
+import hashlib
+import json
+import math
+import random
+import re
+import sys
+from functools import lru_cache
+from math import comb
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+
+NAME = "grixis_sim"
+VERSION = "1.0"
+COLORS = "WUBRG"
+BASIC_TYPES = {"Plains": "W", "Island": "U", "Swamp": "B", "Mountain": "R", "Forest": "G"}
+KEEP_RULE = ("keep 2-5 lands with (lands + mana sources costing <= 2) >= 3; otherwise mulligan; always keep at 5 cards or fewer; "
+             "bottom (London): excess lands beyond 4 first, then the highest mana value nonlands")
+MAX_TURNS = 10
+
+
+def model_sha256():
+    return "sha256:" + hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
+
+
+# ---------------------------------------------------------------- exact layer
+def hyper_pmf(N, K, n, k):
+    if k < 0 or k > K or k > n or n - k > N - K:
+        return 0.0
+    return comb(K, k) * comb(N - K, n - k) / comb(N, n)
+
+
+def hyper_atleast(N, K, n, k):
+    return sum(hyper_pmf(N, K, n, i) for i in range(max(k, 0), min(K, n) + 1))
+
+
+def hyper_between(N, K, n, lo, hi):
+    return sum(hyper_pmf(N, K, n, i) for i in range(max(lo, 0), min(hi, K, n) + 1))
+
+
+def cards_seen(turn, hand=7, skip_first_draw=False):
+    """Cards seen by the end of the draw step of `turn` (no mulligan, no extra draws)."""
+    return hand + turn - (1 if skip_first_draw else 0)
+
+
+def p_seen_by_turn(N, K, turn, k=1, hand=7, skip_first_draw=False):
+    """P(at least k of the K copies/cards are seen by turn `turn`)."""
+    return hyper_atleast(N, K, min(N, cards_seen(turn, hand, skip_first_draw)), k)
+
+
+def p_land_drops(N, L, turns, hand=7, skip_first_draw=False):
+    """Exact P(a land drop available on every turn 1..turns): lands seen by turn t >= t for every t (no mulligan).
+    Dynamic programme over the draws; the opening hand is hypergeometric."""
+    dist = {l: hyper_pmf(N, L, hand, l) for l in range(0, min(L, hand) + 1)}
+    seen = hand
+    for t in range(1, turns + 1):
+        if not (t == 1 and skip_first_draw):
+            nd = {}
+            for l, p in dist.items():
+                rem, reml = N - seen, L - l
+                if rem <= 0:
+                    nd[l] = nd.get(l, 0) + p
+                    continue
+                pl = reml / rem
+                nd[l + 1] = nd.get(l + 1, 0) + p * pl
+                nd[l] = nd.get(l, 0) + p * (1 - pl)
+            dist, seen = nd, seen + 1
+        dist = {l: p for l, p in dist.items() if l >= t}
+    return sum(dist.values())
+
+
+# ---------------------------------------------------------------- statistics
+def mean_ci(xs):
+    n = len(xs)
+    if n == 0:
+        return None, [None, None]
+    m = sum(xs) / n
+    if n < 2:
+        return m, [m, m]
+    sd = math.sqrt(sum((x - m) ** 2 for x in xs) / (n - 1))
+    h = 1.96 * sd / math.sqrt(n)
+    return m, [m - h, m + h]
+
+
+def wilson(k, n, z=1.96):
+    if n == 0:
+        return None, [None, None]
+    p = k / n
+    d = 1 + z * z / n
+    c = (p + z * z / (2 * n)) / d
+    h = z * math.sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / d
+    return p, [max(0.0, c - h), min(1.0, c + h)]
+
+
+# ---------------------------------------------------------------- card model
+def faces(c):
+    return c.get("card_faces") or [c]
+
+
+def front(c):
+    return faces(c)[0]
+
+
+def otext(c):
+    return "\n".join(f.get("oracle_text") or "" for f in faces(c)) if c.get("card_faces") else (c.get("oracle_text") or "")
+
+
+PIP = re.compile(r"\{([^}]+)\}")
+
+
+def parse_cost(cost):
+    """{generic, pips: [frozenset(colours)], life_pips}."""
+    g, pips, life = 0, [], 0
+    for s in PIP.findall(cost or ""):
+        if s.isdigit():
+            g += int(s)
+        elif s in ("X", "Y", "Z"):
+            continue
+        elif s == "C":
+            pips.append(frozenset("C"))
+        elif "/P" in s:
+            life += 1
+        elif "/" in s:
+            parts = s.split("/")
+            if parts[0].isdigit():  # {2/B}: pay the colour (cheaper)
+                pips.append(frozenset(parts[1]))
+            else:
+                pips.append(frozenset(p for p in parts if p in COLORS))
+        elif s in COLORS:
+            pips.append(frozenset(s))
+        elif s == "S":
+            g += 1
+    return {"generic": g, "pips": pips, "life": life}
+
+
+ADD = re.compile(r"\{T\}(?:, [^:]*)?: Add ([^.]*)\.")
+WORDS = {"one": 1, "two": 2, "three": 3}
+
+
+def mana_amount(add):
+    syms = PIP.findall(add)
+    if "or" in add.split() and syms:
+        return 1
+    m = re.match(r"(one|two|three) mana", add)
+    if m:
+        return WORDS[m.group(1)]
+    return max(1, len(syms))
+
+
+def source_spec(c, ci):
+    """(colours, amount) for a permanent that taps for mana every turn, or None (front face only)."""
+    t = front(c).get("oracle_text") or ""
+    if "doesn't untap during your untap step" in t:
+        return None
+    m = ADD.search(t)
+    pm = None if c.get("card_faces") else c.get("produced_mana")
+    if not m:
+        return None
+    if re.search(r"\{T\}, Sacrifice [^:]*: Add", t):
+        return None
+    cols = set(pm or []) or set(x for x in PIP.findall(m.group(1)) if x in COLORS + "C")
+    cols = {x for x in cols if x == "C" or x in ci}
+    if not cols:
+        cols = {"C"}
+    return frozenset(cols), mana_amount(m.group(1))
+
+
+def fetch_colors(t, ci):
+    m = re.search(r"Search your library for an? ([^.]*?) card", t)
+    if not m:
+        return None
+    s = m.group(1)
+    if "basic land" in s:
+        return frozenset(ci) or frozenset("C")
+    cols = {v for k, v in BASIC_TYPES.items() if k in s}
+    cols &= set(ci) | set()
+    return frozenset(cols) if cols else None
+
+
+def enters_tapped(t):
+    for l in t.splitlines():
+        if re.search(r"enters (the battlefield )?tapped", l) and not re.search(r"unless|you may pay|if you don't|If you control two or fewer", l, re.I):
+            if l.lower().startswith(("this land enters tapped", "this land enters the battlefield tapped")) or "enters tapped." in l:
+                return True
+    return False
+
+
+def card_model(c, ci):
+    f0 = front(c)
+    tl = f0.get("type_line") or c.get("type_line") or ""
+    back = faces(c)[1] if len(faces(c)) > 1 else None
+    t = otext(c)
+    d = {"name": c["name"], "mv": int(c.get("cmc") or 0), "cost": parse_cost(f0.get("mana_cost") if c.get("card_faces") else c.get("mana_cost")),
+         "land": "Land" in tl, "flex_land": bool(back and "Land" in (back.get("type_line") or "") and "Land" not in tl and c.get("layout") == "modal_dfc"),
+         "permanent": not any(x in tl for x in ("Instant", "Sorcery")), "creature": "Creature" in tl, "source": None, "tapped": False}
+    if d["land"]:
+        pm = c.get("produced_mana")
+        if pm:
+            d["source"] = (frozenset(x for x in pm if x == "C" or x in ci) or frozenset("C"), mana_amount(ADD.search(t).group(1)) if ADD.search(t) else 1)
+        else:
+            fc = fetch_colors(t, ci)
+            d["source"] = (fc, 1) if fc else None
+        d["tapped"] = enters_tapped(t)
+    elif d["permanent"]:
+        d["source"] = source_spec(c, ci)
+    if d["flex_land"]:
+        bt = back.get("oracle_text") or ""
+        m = ADD.search(bt)
+        cols = frozenset(x for x in PIP.findall(m.group(1)) if x in ci) if m else frozenset()
+        d["flex_source"] = (cols or frozenset("C"), 1)
+        d["flex_tapped"] = "enters tapped" in bt or "enters the battlefield tapped" in bt
+    return d
+
+
+class Deck:
+    """A simulatable deck: library cards (with quantity), commanders, key sets and combos."""
+
+    def __init__(self, slug, commanders, library, key_sets=None, combos=None, name_order=None):
+        self.slug = slug
+        self.commanders = commanders          # list of card models
+        self.library = library                # list of card models (one per physical card)
+        self.key_sets = key_sets or {}        # id -> set(card names)
+        self.combos = combos or []            # [{id, cards}]
+        self.ci = set()
+
+    @property
+    def N(self):
+        return len(self.library)
+
+
+def load_deck(slug, R=None, text=None):
+    """Build a Deck from the canonical project list (or `text`, an import list, for a challenger)."""
+    import grixis_authority as ga
+    if R is None:
+        import evaluate_decklist as ev
+        R = ev.Resolver()
+    summ = ga.summary()
+    did = next(k for k, v in summ.items() if v["slug"] == slug)
+    ents = ga.list_entries(text if text is not None else ga.deck_block_text(slug), R)
+    cards = {n: R.get(n)[0] for _, _, _, n in ents}
+    ci = set().union(*(set(cards[n].get("color_identity", [])) for z, _, _, n in ents if z == "commander"))
+    cmds = [card_model(cards[n], ci) for z, _, _, n in ents if z == "commander"]
+    lib = []
+    for z, _, q, n in sorted(ents, key=lambda e: e[3]):
+        if z == "main":
+            m = card_model(cards[n], ci)
+            lib += [m] * q
+    names = {m["name"] for m in lib} | {m["name"] for m in cmds}
+    keys = {}
+    bp = ROOT / "data" / "grixis" / "blueprints" / f"{slug}.json"
+    if bp.exists():
+        b = json.loads(bp.read_text(encoding="utf-8"))
+        for p in b.get("packages", []):
+            s = {x for x in p.get("cards", []) if x in names}
+            if s:
+                keys[p["id"]] = s
+        tt = {x.get("card") for x in b.get("tutor_targets", []) if isinstance(x, dict)} & names
+        if tt:
+            keys["tutor_targets"] = tt
+    combos = []
+    cj = ROOT / "data" / "grixis_combos.json"
+    if cj.exists():
+        src = ga.source_deck_id(did) if hasattr(ga, "source_deck_id") else did
+        cd = json.loads(cj.read_text(encoding="utf-8"))["decks"]
+        for co in (cd.get(src) or cd.get(did) or {}).get("combos", []):
+            if set(co["cards"]) <= names:
+                combos.append({"id": co["id"], "cards": list(co["cards"])})
+    d = Deck(slug, cmds, lib, keys, combos)
+    d.ci = ci
+    return d
+
+
+# ---------------------------------------------------------------- payment
+def can_pay(cost, units, tax=0):
+    """units: list of frozensets (one per mana). Returns indices used, or None. Coloured pips by bipartite matching."""
+    pips = cost["pips"]
+    need = len(pips) + cost["generic"] + tax
+    if need > len(units):
+        return None
+    match = {}  # unit index -> pip index
+
+    def aug(pi, seen):
+        for ui, u in enumerate(units):
+            if ui in seen or not (pips[pi] & u):
+                continue
+            seen.add(ui)
+            if ui not in match or aug(match[ui], seen):
+                match[ui] = pi
+                return True
+        return False
+
+    # most-constrained pips first
+    for pi in sorted(range(len(pips)), key=lambda i: len(pips[i])):
+        if not aug(pi, set()):
+            return None
+    used = set(match)
+    rest = [i for i in range(len(units)) if i not in used]
+    # generic: spend the least flexible units first
+    rest.sort(key=lambda i: len(units[i]))
+    g = cost["generic"] + tax
+    if len(rest) < g:
+        return None
+    return sorted(used | set(rest[:g]))
+
+
+# ---------------------------------------------------------------- one game
+def keep(hand):
+    lands = sum(1 for c in hand if c["land"])
+    cheap = sum(1 for c in hand if not c["land"] and c["source"] and c["mv"] <= 2)
+    return 2 <= lands <= 5 and lands + cheap >= 3
+
+
+def bottom(hand, k):
+    """London mulligan bottoming: lands beyond 4 first, then the highest mana value nonlands, then lands."""
+    h, out = list(hand), []
+    while len(out) < k:
+        lands = [c for c in h if c["land"]]
+        nl = sorted([c for c in h if not c["land"]], key=lambda c: (-c["mv"], c["name"]))
+        c = lands[-1] if len(lands) > 4 or not nl else nl[0]
+        h.remove(c)
+        out.append(c)
+    return h, out
+
+
+def play_game(deck, rng, turns=MAX_TURNS, multiplayer=True, skip_first_draw=False, mulligan=True, perm=None, scenario=None):
+    """One goldfish game. `perm` (a permutation of library indices) overrides the rng shuffle (paired seeds)."""
+    lib_idx = perm if perm is not None else rng.sample(range(deck.N), deck.N)
+    lib = [deck.library[i] for i in lib_idx]
+    mulls, counted = 0, 0
+    while True:
+        hand, rest = lib[:7], lib[7:]
+        if not mulligan or keep(hand) or len(hand) - counted <= 5:
+            break
+        mulls += 1
+        if not (multiplayer and mulls == 1):
+            counted += 1
+        if 7 - counted <= 4:
+            break
+        lib = rng.sample(lib, len(lib))
+    hand, bot = bottom(hand, counted)
+    library = rest + bot
+    seen = {c["name"] for c in hand} | {c["name"] for c in deck.commanders}
+    first_seen = {c["name"]: 0 for c in hand}
+    battlefield, cmd_zone = [], list(deck.commanders)
+    cmd_casts = {c["name"]: 0 for c in deck.commanders}
+    rec = {"mulligans": mulls, "kept": len(hand), "lands": [], "mana": [], "spent": [], "commander_turn": None,
+           "key_turn": {k: (0 if s & seen else None) for k, s in deck.key_sets.items()}, "combo_turn": None, "win_turn_proxy": None}
+    hold = {n for co in deck.combos for n in co["cards"]}
+    lands_played = 0
+    for t in range(1, turns + 1):
+        if not (t == 1 and skip_first_draw) and library:
+            c = library.pop(0)
+            hand.append(c)
+            first_seen.setdefault(c["name"], t)
+            seen.add(c["name"])
+        # untap; sickness ends
+        for p in battlefield:
+            p["_tapped"] = False
+            p["_sick"] = False
+        # land drop
+        lands = [c for c in hand if c["land"] or c.get("flex_land")]
+        if lands:
+            have = set().union(*[set(p["_src"][0]) for p in battlefield if p.get("_src")]) if battlefield else set()
+            want = set()
+            for c in hand + cmd_zone:
+                for pp in c["cost"]["pips"]:
+                    want |= set(pp)
+            real = [c for c in lands if c["land"]]
+            pool = real or lands
+
+            def score(c):
+                src = c["source"] if c["land"] else c["flex_source"]
+                tap = c["tapped"] if c["land"] else c["flex_tapped"]
+                cols = set(src[0]) if src else set()
+                return (len((cols - have) & want), not tap, src[1] if src else 0, c["name"])
+            c = max(pool, key=score)
+            hand.remove(c)
+            src = c["source"] if c["land"] else c["flex_source"]
+            p = {"card": c, "_src": src, "_tapped": c["tapped"] if c["land"] else c["flex_tapped"], "_sick": False, "_land": True}
+            battlefield.append(p)
+            lands_played += 1
+
+        floating = []  # unspent mana from sources tapped this turn (a Sol Ring tapped for one spell keeps its 2nd {C})
+
+        def units():
+            u = [(None, f) for f in floating]
+            for p in battlefield:
+                if p.get("_src") and not p["_tapped"] and not (p["_sick"] and p["card"]["creature"]):
+                    u += [(p, p["_src"][0])] * p["_src"][1]
+            return u
+
+        avail = len(units())
+        spent = 0
+
+        def cast(c, tax=0):
+            nonlocal spent, floating
+            us = units()
+            idx = can_pay(c["cost"], [u[1] for u in us], tax)
+            if idx is None:
+                return False
+            used = set(idx)
+            newf = [us[i][1] for i in range(len(us)) if us[i][0] is None and i not in used]
+            tapped = {}
+            for i in idx:
+                if us[i][0] is not None:
+                    tapped[id(us[i][0])] = us[i][0]
+            for p in tapped.values():
+                p["_tapped"] = True
+                k = sum(1 for i in idx if us[i][0] is p)
+                newf += [p["_src"][0]] * (p["_src"][1] - k)
+            floating = newf
+            spent += len(idx)
+            return True
+
+        progress = True
+        while progress:
+            progress = False
+            for cm in list(cmd_zone):
+                tax = 2 * cmd_casts[cm["name"]]
+                if cast(cm, tax):
+                    cmd_zone.remove(cm)
+                    cmd_casts[cm["name"]] += 1
+                    battlefield.append({"card": cm, "_src": cm["source"], "_tapped": False, "_sick": True})
+                    if rec["commander_turn"] is None:
+                        rec["commander_turn"] = t
+                    progress = True
+            srcs = sorted([c for c in hand if not c["land"] and c["source"] and c["permanent"]], key=lambda c: (c["mv"], c["name"]))
+            for c in srcs:
+                if cast(c):
+                    hand.remove(c)
+                    battlefield.append({"card": c, "_src": c["source"], "_tapped": False, "_sick": True})
+                    progress = True
+                    break
+            if progress:
+                continue
+            others = sorted([c for c in hand if not c["land"] and not (not c["permanent"] and c["name"] in hold)],
+                            key=lambda c: (-c["mv"], c["name"]))
+            for c in others:
+                if cast(c):
+                    hand.remove(c)
+                    if c["permanent"]:
+                        battlefield.append({"card": c, "_src": c["source"], "_tapped": False, "_sick": True})
+                    progress = True
+                    break
+        rec["lands"].append(lands_played)
+        rec["mana"].append(avail)
+        rec["spent"].append(spent)
+        for k, s in deck.key_sets.items():
+            if rec["key_turn"][k] is None and s & seen:
+                rec["key_turn"][k] = t
+        if deck.combos and rec["win_turn_proxy"] is None:
+            onbf = {p["card"]["name"] for p in battlefield}
+            cmdn = {c["name"] for c in deck.commanders}
+            for co in deck.combos:
+                if all(n in seen for n in co["cards"]):
+                    if rec["combo_turn"] is None:
+                        rec["combo_turn"] = t
+                    need = 0
+                    for n in co["cards"]:
+                        if n in onbf:
+                            continue
+                        m = next((c for c in deck.library if c["name"] == n), None) or next((c for c in deck.commanders if c["name"] == n), None)
+                        need += (m["mv"] if m else 0) + (2 * cmd_casts.get(n, 0) if n in cmdn else 0)
+                    if avail >= need:
+                        rec["win_turn_proxy"] = t
+                        break
+    rec["first_seen"] = first_seen
+    return rec
+
+
+# ---------------------------------------------------------------- many games
+def seed_for(seed, i):
+    return int.from_bytes(hashlib.sha256(f"{seed}:{i}".encode()).digest()[:8], "big")
+
+
+def run(deck, samples=2000, seed=57, turns=MAX_TURNS, multiplayer=True, skip_first_draw=False, mulligan=True, perms=None):
+    recs = []
+    for i in range(samples):
+        rng = random.Random(seed_for(seed, i))
+        recs.append(play_game(deck, rng, turns, multiplayer, skip_first_draw, mulligan, perm=perms[i] if perms else None))
+    return recs
+
+
+def summarize(deck, recs, turns=MAX_TURNS):
+    n = len(recs)
+    out = {"samples": n}
+    m, ci = mean_ci([r["mulligans"] for r in recs])
+    out["mulligans_mean"] = {"value": m, "ci95": ci}
+    ct = [r["commander_turn"] for r in recs]
+    got = [x for x in ct if x is not None]
+    out["commander_cast_by_turn"] = {str(t): wilson(sum(1 for x in got if x <= t), n)[0] for t in (2, 3, 4, 5, 6, turns)}
+    out["commander_turn_mean_when_cast"] = mean_ci(got)[0]
+    for k in ("lands", "mana", "spent"):
+        out[f"{k}_by_turn"] = [round(sum(r[k][t] for r in recs) / n, 3) for t in range(turns)]
+    out["key_access_by_turn4"] = {k: wilson(sum(1 for r in recs if r["key_turn"][k] is not None and r["key_turn"][k] <= 4), n)[0] for k in deck.key_sets}
+    if deck.combos:
+        w = [r["win_turn_proxy"] for r in recs]
+        out["win_turn_proxy_by_turn"] = {str(t): sum(1 for x in w if x is not None and x <= t) / n for t in (4, 6, 8, turns)}
+        out["combo_assembled_by_turn"] = {str(t): sum(1 for r in recs if r["combo_turn"] is not None and r["combo_turn"] <= t) / n for t in (4, 6, 8, turns)}
+    return out
+
+
+# fast mana whose condition the model does not check (it's treated as unconditional): listed in model_report and
+# in every test record's limitations
+CONDITIONAL_SOURCES = {"Chrome Mox", "Mox Diamond", "Mox Opal", "Mox Amber", "Springleaf Drum", "Paradise Mantle"}
+
+
+def model_report(deck):
+    lands = [c for c in deck.library if c["land"]]
+    rep = {"N": deck.N, "lands": len(lands), "lands_no_mana": sorted({c["name"] for c in lands if not c["source"]}),
+           "tapped_lands": sorted({c["name"] for c in lands if c["tapped"]}),
+           "mana_sources": sorted({c["name"] for c in deck.library if not c["land"] and c["source"]}),
+           "flex_lands": sorted({c["name"] for c in deck.library if c.get("flex_land")}),
+           "conditional_sources": sorted({c["name"] for c in deck.library if c["name"] in CONDITIONAL_SOURCES}),
+           "commanders": [{"name": c["name"], "mv": c["mv"]} for c in deck.commanders],
+           "key_sets": {k: len(v) for k, v in deck.key_sets.items()}, "combos": len(deck.combos)}
+    return rep
+
+
+def selftest(slug="wick-the-whorled-mind", samples=4000):
+    """Monte Carlo (mulligans off) vs exact math on a real deck. Returns problems."""
+    deck = load_deck(slug)
+    recs = run(deck, samples, seed=1, mulligan=False)
+    N = deck.N
+    L = sum(1 for c in deck.library if c["land"])
+    p = []
+
+    def close(name, mc, exact):
+        se = math.sqrt(max(exact * (1 - exact), 1e-9) / samples)
+        ok = abs(mc - exact) <= 4 * se + 1e-9
+        print(f"  {name}: MC {mc:.4f} vs exact {exact:.4f} ({'ok' if ok else 'OFF'}; 4 SE = {4 * se:.4f})")
+        if not ok:
+            p.append(f"{name}: MC {mc:.4f} vs exact {exact:.4f}")
+
+    # lands in the opening 7 (same seeds and shuffles as the games)
+    rng_hands = []
+    for i in range(samples):
+        rng = random.Random(seed_for(1, i))
+        idx = rng.sample(range(N), N)
+        rng_hands.append(sum(1 for j in idx[:7] if deck.library[j]["land"]))
+    close("P(3-4 lands in opening 7)", sum(1 for x in rng_hands if 3 <= x <= 4) / samples, hyper_between(N, L, 7, 3, 4))
+    # land drop every turn through 4 (land count by turn = min(t, lands seen))
+    LF = L + sum(1 for c in deck.library if c.get("flex_land"))  # modal DFC lands also make land drops
+    close("P(land drop on each of turns 1-4)", sum(1 for r in recs if r["lands"][3] >= 4) / samples, p_land_drops(N, LF, 4))
+    # a specific singleton card seen by turn 5
+    name = sorted({c["name"] for c in deck.library if not c["land"]})[0]
+    K = sum(1 for c in deck.library if c["name"] == name)
+    close(f"P({name} seen by turn 5)", sum(1 for r in recs if r["first_seen"].get(name, 99) <= 5) / samples, p_seen_by_turn(N, K, 5))
+    for k, s in deck.key_sets.items():
+        K = sum(1 for c in deck.library if c["name"] in s)
+        if K and all(n not in {c["name"] for c in deck.commanders} for n in s):
+            close(f"P(any of {k} ({K} cards) seen by turn 4)", sum(1 for r in recs if r["key_turn"][k] is not None and r["key_turn"][k] <= 4) / samples, p_seen_by_turn(N, K, 4))
+            break
+    return p
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--deck")
+    ap.add_argument("--model")
+    ap.add_argument("--samples", type=int, default=2000)
+    ap.add_argument("--seed", type=int, default=57)
+    ap.add_argument("--turns", type=int, default=MAX_TURNS)
+    ap.add_argument("--two-player", action="store_true")
+    ap.add_argument("--json", action="store_true")
+    ap.add_argument("--selftest", action="store_true")
+    a = ap.parse_args()
+    if a.selftest:
+        print(f"{NAME} v{VERSION} selftest (model {model_sha256()[:19]}…):")
+        p = selftest()
+        print(f"selftest: {len(p)} problem(s)")
+        return 1 if p else 0
+    if a.model:
+        print(json.dumps(model_report(load_deck(a.model)), indent=1, ensure_ascii=False))
+        return 0
+    if a.deck:
+        d = load_deck(a.deck)
+        recs = run(d, a.samples, a.seed, a.turns, multiplayer=not a.two_player, skip_first_draw=a.two_player)
+        s = summarize(d, recs, a.turns)
+        s.update({"deck": a.deck, "seed": a.seed, "simulator": {"name": NAME, "version": VERSION, "model_sha256": model_sha256()}, "keep_rule": KEEP_RULE})
+        print(json.dumps(s, indent=1) if a.json else json.dumps(s, indent=1))
+        return 0
+    ap.print_help()
+    return 2
+
+
+if __name__ == "__main__":
+    sys.exit(main())

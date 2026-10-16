@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 57.2 (M3: goldfish simulator core)](#2026-10-16--bot-cycle-572-m3-goldfish-simulator-core)
 - [2026-10-16 — Bot cycle 57.1 (M3: evidence layer)](#2026-10-16--bot-cycle-571-m3-evidence-layer)
 - [2026-10-16 — Bot cycle 56 (phase 2 / M1: batch F)](#2026-10-16--bot-cycle-56-phase-2--m1-batch-f)
 - [2026-10-16 — Bot cycle 55 (M2: commander blueprints, batch 4; Norman Osborn registry id)](#2026-10-16--bot-cycle-55-m2-commander-blueprints-batch-4-norman-osborn-registry-id)
@@ -72,6 +73,16 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 57.2 (M3: goldfish simulator core)
+- **`scripts/grixis_sim.py` v1.0:** deterministic goldfish games on the canonical lists. The model:
+  - an exact hypergeometric layer, plus an exact DP for a land drop every turn;
+  - London mulligan with the multiplayer free first mulligan (CR 103.5, 103.5c) and no turn-1 draw skip in multiplayer (103.8c);
+  - mana and colours by bipartite pip matching, commander tax;
+  - metrics: commander turn, curve (mana available and spent by turn), first access to each blueprint package and to the tutor targets, Spellbook combo assembly, and a win-turn proxy that is never a win rate.
+- **Exact-math checks:** the new `validate_all` step `simulator` (22 steps) checks 4 Monte Carlo values against exact math on Wick's list, each within 4 standard errors. `tests/test_simulator.py` adds 12 tests.
+- **Smoke run:** all 62 decks load and simulate (62 × 200 games in about 5 s). The model's limits are listed in [the Authority Model, M3 criterion 5](grixis/Grixis%20Authority%20Model.md#m3); every test record will carry them.
+- **Unchanged:** no decklist or interaction file was touched; M2 is still waiting for Cory; Tresserhorn's Lord stays `PENDING_RELEASE`.
 
 ## 2026-10-16 — Bot cycle 57.1 (M3: evidence layer)
 - **M3 started** (`program.milestones.M3: in_progress`). The plan is five checkpointed sub-cycles: 57.1 evidence layer, 57.2 simulator core, 57.3 paired test records, 57.4 stress scenarios, 57.5 knowledge pages. The 9 numbered criteria are in [the Authority Model](grixis/Grixis%20Authority%20Model.md#m3).
