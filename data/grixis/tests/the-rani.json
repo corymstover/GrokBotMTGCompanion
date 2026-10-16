@@ -1,0 +1,117 @@
+{
+ "_doc": "Bot cycle 57.3 (M3): paired goldfish test records; built by scripts/grixis_paired.py; schema test.schema.json.",
+ "records": [
+  {
+   "schema_version": 1,
+   "id": "test:the-rani:goldfish:3bfffe60b024f3dd",
+   "deck_id": "The_Rani",
+   "kind": "goldfish_mc",
+   "baseline_hash": "lh1:f740437f9975b3bb7ff64ace82a85b4310ff7b36ab35a0fb9a60a83776edb9e4",
+   "challenger_hash": "lh1:b58f43a8cb1349cbf2d31b872f21443c4c58d118be8c1a03e77ae8d68f4f4de0",
+   "simulator": {
+    "name": "grixis_sim",
+    "version": "1.0",
+    "model_sha256": "sha256:c78326fdc11a3e11a7a5e113c1e7a1fce6847ca6c046f096de16288d22061362"
+   },
+   "seed": 57,
+   "paired": true,
+   "samples": 2000,
+   "mulligan": "keep 2-5 lands with (lands + mana sources costing <= 2) >= 3; otherwise mulligan; always keep at 5 cards or fewer; bottom (London): excess lands beyond 4 first, then the highest mana value nonlands",
+   "seat": "multiplayer, seat-agnostic (no turn-1 draw skip, CR 103.8c); first mulligan free (CR 103.5c)",
+   "scenario": null,
+   "preregistered": {
+    "metric": "mana_spent_t1_t6",
+    "threshold": 0.25,
+    "registered": "2026-10-16 (Bot cycle 57.3, before any paired run)"
+   },
+   "results": [
+    {
+     "metric": "mana_spent_t1_t6",
+     "baseline": 20.01,
+     "challenger": 20.0665,
+     "diff": 0.0565,
+     "ci95": [
+      0.04155,
+      0.07145
+     ],
+     "method": "paired goldfish, 2000 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences"
+    },
+    {
+     "metric": "commander_cast_by_t4",
+     "baseline": 0.9005,
+     "challenger": 0.901,
+     "diff": 0.0005,
+     "ci95": [
+      -0.00048,
+      0.00148
+     ],
+     "method": "paired goldfish, 2000 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)"
+    },
+    {
+     "metric": "mana_available_t4",
+     "baseline": 4.684,
+     "challenger": 4.685,
+     "diff": 0.001,
+     "ci95": [
+      -0.00096,
+      0.00296
+     ],
+     "method": "paired goldfish, 2000 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)"
+    },
+    {
+     "metric": "win_turn_proxy_by_t8",
+     "baseline": 0.0,
+     "challenger": 0.0,
+     "diff": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "method": "paired goldfish, 2000 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)"
+    },
+    {
+     "metric": "mulligans_neg",
+     "baseline": -0.679,
+     "challenger": -0.679,
+     "diff": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "method": "paired goldfish, 2000 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)"
+    },
+    {
+     "metric": "key_access_by_t4:pkg:artifact-payoff",
+     "baseline": 0.6395,
+     "challenger": 0.6395,
+     "diff": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "method": "paired goldfish, 2000 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)"
+    },
+    {
+     "metric": "key_access_by_t4:pkg:goad",
+     "baseline": 0.808,
+     "challenger": 0.808,
+     "diff": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "method": "paired goldfish, 2000 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)"
+    }
+   ],
+   "verdict": "inconclusive",
+   "limitations": [
+    "Goldfish: one player, no opponents, no interaction, no combat; results are about the deck's own development, never win rates.",
+    "Not modelled: tutors, card draw and selection beyond the natural draw, treasures, rituals and one-shot mana (Lotus Petal, Mana Vault, Lion's Eye Diamond); a swap whose value is card draw, interaction or a tutor effect is invisible here.",
+    "Conditional fast mana (Chrome Mox, Mox Diamond, Mox Opal, Mox Amber, Springleaf Drum, Paradise Mantle) is treated as unconditional; 'enters tapped unless ...' lands as untapped.",
+    "Combo pieces are 'assembled' when drawn; Commander Spellbook 'requires' conditions and the combo's own mana needs beyond the cards' mana values are ignored.",
+    "Fixed policy: commander first, then mana sources, then highest mana value; keep/bottom rule as recorded in 'mulligan'.",
+    "Challenger chal:the-rani:grokbot-v1 (GrokBot challenger (unapproved)); swaps tested: Mystic Remora → Idol of Oblivion."
+   ]
+  }
+ ]
+}
