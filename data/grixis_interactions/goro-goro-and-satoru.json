@@ -1,0 +1,398 @@
+{
+ "schema": 1,
+ "deck_id": "Goro_Goro_and_Satoru",
+ "slug": "goro-goro-and-satoru",
+ "commanders": [
+  "Goro-Goro and Satoru"
+ ],
+ "deck_sha256": "bdc129bcd94c00b293ddaabb4585ac3130fb4eca7ca8646177335900e7aedfec",
+ "list_source": "exports/grixis-archidekt/goro-goro-and-satoru.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 48,
+ "batch": "B",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json",
+   "note": "12 interactions, all PASS"
+  }
+ ],
+ "summary": "Goro-Goro and Satoru makes a 5/5 flying Dragon Spirit whenever creatures that entered this turn deal combat damage to a player, and can give your team haste. The list runs Ninjutsu, enters-attacking creatures and extra combats. This review re-verifies the twelve items of the deck's rules attestation, and confirms the five Breath of Fury loops against cached Commander Spellbook steps.\n\nKey rule: Goro-Goro's haste only covers creatures you control when it resolves, so each new Dragon needs another {1}{R} (Spellbook repeats it each combat), or haste from Samut or Dragon Tempest. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "goro-01",
+   "category": "commander",
+   "title": "One Dragon per player per damage step",
+   "cards": [
+    "Goro-Goro and Satoru"
+   ],
+   "ruling": "The trigger says 'one or more creatures … deal combat damage to a player', so several fresh creatures hitting the same player in one damage step make one Dragon. Hitting two players makes two. A first-strike damage step and a regular one are separate events, so double strike can trigger it twice. Only creatures that entered this turn count, however they entered.",
+   "short": "One Dragon per damaged player per combat-damage step; spread fresh attackers across opponents.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.2c",
+    "510.4"
+   ],
+   "oracle": [
+    {
+     "card": "Goro-Goro and Satoru",
+     "quote": "Whenever one or more creatures you control that entered this turn deal combat damage to a player, create a 5/5 red Dragon Spirit creature token with flying."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json",
+     "item": "Goro-Goro and Satoru combat-damage trigger scope"
+    }
+   ]
+  },
+  {
+   "id": "goro-02",
+   "category": "commander",
+   "title": "The haste ability only covers creatures you control when it resolves",
+   "cards": [
+    "Goro-Goro and Satoru",
+    "Samut, Hazoret's Champion",
+    "Dragon Tempest"
+   ],
+   "ruling": "Goro-Goro's {1}{R} gives haste only to creatures you control as it resolves. A Dragon Spirit made later needs another activation before it can attack in the next combat; the activation has no timing restriction, so it can be done between combats. Samut gives haste continuously, including to later Dragons. Dragon Tempest gives every flying creature that enters haste, and the Dragon Spirits have flying.",
+   "short": "Re-activate {1}{R} each combat for new Dragons, or let Samut or Dragon Tempest give them haste.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "611.2c",
+    "604.2"
+   ],
+   "oracle": [
+    {
+     "card": "Goro-Goro and Satoru",
+     "quote": "{1}{R}: Creatures you control gain haste until end of turn."
+    },
+    {
+     "card": "Samut, Hazoret's Champion",
+     "quote": "Creatures you control have haste."
+    },
+    {
+     "card": "Dragon Tempest",
+     "quote": "Whenever a creature you control with flying enters, it gains haste until end of turn."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Goro-Goro and Satoru",
+     "quote": "The set of creatures affected by the last ability is determined as that ability resolves. Creatures you begin to control later in the turn and permanents that become creatures later in the turn won’t gain haste."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json",
+     "item": "Samut continuous haste versus Goro-Goro activated haste"
+    }
+   ]
+  },
+  {
+   "id": "goro-03",
+   "category": "zone",
+   "title": "Ninjutsu, sneak and 'enters attacking' creatures all qualify",
+   "cards": [
+    "Goro-Goro and Satoru",
+    "Ninja of the Deep Hours",
+    "Thousand-Faced Shadow",
+    "Fire Navy Trebuchet",
+    "Phoenix Chick"
+   ],
+   "ruling": "Ninjutsu puts the Ninja onto the battlefield tapped and attacking the same player as the creature you returned. It entered this turn, so its combat damage triggers Goro-Goro. The same goes for Thousand-Faced Shadow's token copy, Fire Navy Trebuchet's Ballistic Boulder, and Phoenix Chick returning attacking. None of them were declared as attackers, so 'whenever attacks' triggers don't see them.",
+   "status": "verified",
+   "cr": [
+    "702.49a",
+    "702.49c",
+    "508.4"
+   ],
+   "oracle": [
+    {
+     "card": "Fire Navy Trebuchet",
+     "quote": "Whenever you attack, create a 2/1 colorless Construct artifact creature token with flying named Ballistic Boulder that's tapped and attacking."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Phoenix Chick",
+     "quote": "If Phoenix Chick enters the battlefield attacking, it wasn't declared as an attacking creature that turn. Abilities that trigger when a creature attacks won't trigger."
+    },
+    {
+     "card": "Fire Navy Trebuchet",
+     "quote": "Fire Navy Trebuchet's controller chooses which player, planeswalker, or battle the token is attacking."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json",
+     "item": "Ninjutsu entrants satisfy the commander condition"
+    },
+    {
+     "path": "refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json",
+     "item": "Fire Navy Trebuchet fresh-attacker engine"
+    },
+    {
+     "path": "refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json",
+     "item": "Phoenix Chick recursion"
+    }
+   ]
+  },
+  {
+   "id": "goro-04",
+   "category": "timing",
+   "title": "Raphael's sneak gives double strike before first-strike damage",
+   "cards": [
+    "Goro-Goro and Satoru",
+    "Raphael, the Nightwatcher",
+    "Fire Navy Trebuchet"
+   ],
+   "ruling": "Sneak casts Raphael during the declare blockers step by returning an unblocked attacker. He enters tapped and attacking after blocks, so he's unblocked, and attacking creatures you control have double strike. That's before damage, so there are two damage steps. Fresh attackers (Raphael, a Ballistic Boulder) connecting in both steps trigger Goro-Goro twice for that player.",
+   "short": "Sneaked Raphael = double strike for all attackers; two Goro-Goro triggers per player.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "702.190a",
+    "702.4b",
+    "510.4"
+   ],
+   "oracle": [
+    {
+     "card": "Raphael, the Nightwatcher",
+     "quote": "Attacking creatures you control have double strike."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json",
+     "item": "Raphael sneak plus double strike"
+    },
+    {
+     "path": "refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json",
+     "item": "Raphael plus Fire Navy Trebuchet"
+    }
+   ]
+  },
+  {
+   "id": "goro-05",
+   "category": "combo",
+   "title": "Goro-Goro + Breath of Fury: order Goro-Goro's trigger on top",
+   "cards": [
+    "Goro-Goro and Satoru",
+    "Breath of Fury"
+   ],
+   "ruling": "Put Breath of Fury on a creature that entered this turn and give it haste. When it connects, both Breath and Goro-Goro trigger. Put Goro-Goro's trigger on top so it resolves first and makes the Dragon Spirit. Breath then sacrifices its creature, attaches to the new Dragon, untaps your creatures and adds a combat. The Dragon entered this turn, so it carries the loop, but it needs haste: Spellbook repeats the {1}{R} haste step every combat, or use Samut or Dragon Tempest.",
+   "short": "Commander trigger on top → Dragon → Breath moves onto it → extra combat. Needs {1}{R} haste each combat.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.3b",
+    "500.8"
+   ],
+   "oracle": [
+    {
+     "card": "Breath of Fury",
+     "quote": "When enchanted creature deals combat damage to a player, sacrifice it and attach this Aura to a creature you control. If you do, untap all creatures you control and after this phase, there is an additional combat phase."
+    },
+    {
+     "card": "Goro-Goro and Satoru",
+     "quote": "{1}{R}: Creatures you control gain haste until end of turn."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Breath of Fury",
+     "quote": "If there isn’t a legal creature to attach Breath of Fury to after the enchanted creature is sacrificed, you don’t untap your creatures or get an additional combat phase, and Breath of Fury is put into its owner’s graveyard as a state-based action."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "2237-3259",
+     "quote": "Resolve the Goro-Goro and Satoru trigger, creating a 5/5 Dragon Spirit creature token."
+    },
+    {
+     "id": "2237-3259",
+     "quote": "Repeat from step 3 each combat phase."
+    },
+    {
+     "id": "2237-3259",
+     "quote": "Activate Goro-Goro and Satoru by paying {1}{R}, giving creatures you control haste until end of turn."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json",
+     "item": "Goro-Goro and Satoru plus Breath of Fury loop"
+    }
+   ]
+  },
+  {
+   "id": "goro-06",
+   "category": "combo",
+   "title": "Breath of Fury + a beginning-of-combat token maker",
+   "cards": [
+    "Goro-Goro and Satoru",
+    "Breath of Fury",
+    "Urabrask's Forge",
+    "Daring Piracy",
+    "Loyal Apprentice",
+    "Determined Iteration"
+   ],
+   "ruling": "Each of these makes a hasty creature token at the beginning of each combat on your turn, including extra combats. When Breath's creature connects, Breath moves to the new token and adds another combat, which makes another token. Every line needs the attacker to connect each time: Spellbook's prerequisite is that an opponent can't block. Loyal Apprentice needs you to control your commander. Determined Iteration needs a nonlegendary creature token to populate. Urabrask's Forge's token grows with each oil counter.",
+   "status": "verified",
+   "cr": [
+    "500.8",
+    "701.36a"
+   ],
+   "oracle": [
+    {
+     "card": "Daring Piracy",
+     "quote": "At the beginning of combat on your turn, create a 1/1 red Pirate creature token with menace and haste."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Determined Iteration",
+     "quote": "If you control no creature tokens when you populate, nothing will happen."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "1347-3259",
+     "quote": "An opponent cannot block creatures you control."
+    },
+    {
+     "id": "1347-3259",
+     "quote": "At the beginning of your combat phase, Urabrask's Forge triggers, creating a creature token."
+    },
+    {
+     "id": "3259-3934",
+     "quote": "You control a nonlegendary creature token."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json",
+     "item": "Daring Piracy, Loyal Apprentice and Urabrask's Forge"
+    }
+   ]
+  },
+  {
+   "id": "goro-07",
+   "category": "timing",
+   "title": "Fresh creatures stay fresh through extra combats",
+   "cards": [
+    "Goro-Goro and Satoru",
+    "Karlach, Fury of Avernus",
+    "Great Train Heist",
+    "Aggravated Assault"
+   ],
+   "ruling": "'Entered this turn' lasts the whole turn, so a creature from the first combat can trigger Goro-Goro again in every extra combat. Karlach adds one combat after the first, Great Train Heist's first mode adds one if cast during combat, and Aggravated Assault adds a combat and main phase at sorcery speed.",
+   "status": "verified",
+   "cr": [
+    "500.8"
+   ],
+   "oracle": [
+    {
+     "card": "Great Train Heist",
+     "quote": "If it's your combat phase, there is an additional combat phase after this phase."
+    },
+    {
+     "card": "Aggravated Assault",
+     "quote": "After this main phase, there is an additional combat phase followed by an additional main phase."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json",
+     "item": "Extra-combat effects and commander retriggering"
+    }
+   ]
+  },
+  {
+   "id": "goro-08",
+   "category": "engine",
+   "title": "Dragon payoffs: Terror of the Peaks and Dragon Tempest",
+   "cards": [
+    "Goro-Goro and Satoru",
+    "Terror of the Peaks",
+    "Dragon Tempest"
+   ],
+   "ruling": "Each 5/5 Dragon Spirit entering makes Terror of the Peaks deal 5 to any target. Dragon Tempest makes it deal damage equal to the number of Dragons you control (counted on resolution) and gives it haste. This damage isn't combat damage, so it doesn't trigger Goro-Goro.",
+   "status": "verified",
+   "cr": [
+    "120.2",
+    "603.2"
+   ],
+   "oracle": [
+    {
+     "card": "Terror of the Peaks",
+     "quote": "Whenever another creature you control enters, this creature deals damage equal to that creature's power to any target."
+    },
+    {
+     "card": "Dragon Tempest",
+     "quote": "Whenever a Dragon you control enters, it deals X damage to any target, where X is the number of Dragons you control."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Dragon Tempest",
+     "quote": "The amount of damage dealt by the Dragon that entered the battlefield is based on the number of Dragons you control when the ability resolves."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json",
+     "item": "Dragon Tempest and Terror of the Peaks"
+    }
+   ]
+  },
+  {
+   "id": "goro-09",
+   "category": "engine",
+   "title": "Waterbender Ascension counts each creature",
+   "cards": [
+    "Goro-Goro and Satoru",
+    "Waterbender Ascension"
+   ],
+   "ruling": "Ascension triggers once for each creature that deals combat damage to a player, unlike Goro-Goro's 'one or more'. From the fourth quest counter, each trigger also draws. Waterbend {4} (tap artifacts or creatures for the generic) makes a creature unblockable, which helps satisfy the Breath of Fury loops' 'can't be blocked' prerequisite.",
+   "status": "verified",
+   "cr": [
+    "603.2c"
+   ],
+   "oracle": [
+    {
+     "card": "Waterbender Ascension",
+     "quote": "Whenever a creature you control deals combat damage to a player, put a quest counter on this enchantment. Then if it has four or more quest counters on it, draw a card."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Waterbender Ascension",
+     "quote": "You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json",
+     "item": "Waterbender Ascension trigger granularity"
+    }
+   ]
+  }
+ ]
+}

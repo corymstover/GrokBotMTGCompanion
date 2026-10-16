@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -550,6 +551,20 @@ Canonical approved artifact: `refinement/decklists/Garza_Zol_Plague_Queen_Approv
 Complete gate artifact: `refinement/verification/garza_zol_plague_queen_2026-10-14/gate_output/Garza_Zol_Plague_Queen_2026-10-14_Complete_Gate.json`
 
 This deck is now locked. Do not revise, reopen, or replace it unless the user explicitly requests that action.
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 48 interaction review: **11 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Garza Zol, Plague Queen — Interaction Review](../interactions/garza-zol-plague-queen.md).
+
+- **Basilisk Collar + Thornbite Staff: a repeatable deathtouch ping** — Deathtouch ping, the death untaps Garza: one kill per {2}. ([garza-02](../interactions/garza-zol-plague-queen.md#garza-02-basilisk-collar--thornbite-staff-a-repeatable-deathtouch-ping))
+- **Chandra's Ignition and Nova Flame: Garza is the source** — Garza deals the damage: deathtouch wipes the board, each death = 3 counters with Blade. ([garza-03](../interactions/garza-zol-plague-queen.md#garza-03-chandras-ignition-and-nova-flame-garza-is-the-source))
+- **Kediss + Grafted Exoskeleton: one hit poisons every opponent** — Infect Garza with power 10+ and Kediss: every opponent gets 10 poison from one hit. ([garza-05](../interactions/garza-zol-plague-queen.md#garza-05-kediss--grafted-exoskeleton-one-hit-poisons-every-opponent))
+- **Jeska needs Garza cast from the command zone first** — No command-zone casts yet = Jeska dies on entry. Beacon casts don't count. ([garza-08](../interactions/garza-zol-plague-queen.md#garza-08-jeska-needs-garza-cast-from-the-command-zone-first))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Jeska needs Garza cast from the command zone first: Edge case, not a list error: Jeska is a planeswalker in the 99 here, not a partner commander, so her loyalty depends on how many times Garza was cast from the command zone. Cast Garza normally at least once before deploying Jeska. ([garza-08](../interactions/garza-zol-plague-queen.md#garza-08-jeska-needs-garza-cast-from-the-command-zone-first))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

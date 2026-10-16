@@ -14,7 +14,7 @@ schema: 2
 | | |
 |---|---|
 | Current list | [`exports/grixis-archidekt/admiral-beckett-brass.txt`](../../exports/grixis-archidekt/admiral-beckett-brass.txt) · SHA-256 `dbc2ce511a88eb94d70357edbf0088cf26110c3052bd2230eeb6a583b4437808` |
-| Rulings | **16** (14 verified · 1 uncertain · 1 flags) |
+| Rulings | **17** (16 verified · 0 uncertain · 1 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) (deck #2: RULES PASS) |
 
@@ -42,7 +42,6 @@ Input for later refinement. **No decklist was changed in this phase.**
 | # | Status | Interaction | Note |
 |---|---|---|---|
 | [beckett-03](#beckett-03-kari-zevs-ragavan-token-is-a-monkey-not-a-pirate) | 🚩 list flag (documentation) | Kari Zev's Ragavan token is a Monkey, not a Pirate | Easy miscount: the Ragavan token never counts as one of Beckett's three Pirates. Count Kari Zev herself, not her token. |
-| [beckett-09](#beckett-09-roaming-throne-naming-pirate-doubles-the-decks-pirate-triggers) | ⚠️ uncertain | Roaming Throne naming Pirate doubles the deck's Pirate triggers | With Breeches, Eager Pillager, an extra trigger after all three modes have been chosen that turn has no legal mode. The CR on modal triggers whose modes are used up applies, but no card-specific ruling confirms it. |
 
 ## Commander rules text and edge cases
 
@@ -79,11 +78,9 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### beckett-09: Roaming Throne naming Pirate doubles the deck's Pirate triggers
 
-**Status:** ⚠️ uncertain · **Cards:** Admiral Beckett Brass, Roaming Throne, Admiral Brass, Unsinkable, Breeches, Eager Pillager, Coercive Recruiter, Merchant Raiders, Forerunner of the Coalition
+**Status:** ✅ verified · **Cards:** Admiral Beckett Brass, Roaming Throne, Admiral Brass, Unsinkable, Breeches, Eager Pillager, Coercive Recruiter, Merchant Raiders, Forerunner of the Coalition
 
 **Ruling.** Roaming Throne (choose Pirate, so it's a Pirate too) makes triggered abilities of your *other* Pirate creatures trigger an additional time. That doubles Beckett's end step, Admiral Brass's combat reanimation and Coercive Recruiter's steal. Merchant Raiders taps a second target, and Forerunner's life loss doubles. Breeches, Eager Pillager triggers twice per attacking Pirate, but there are only three modes per turn, so the extra trigger may have no mode left to choose. Only abilities of creatures are doubled, so Double Down and Kindred Discovery aren't.
-
-**Uncertain.** With Breeches, Eager Pillager, an extra trigger after all three modes have been chosen that turn has no legal mode. The CR on modal triggers whose modes are used up applies, but no card-specific ruling confirms it.
 
 **Citations**
 
@@ -224,6 +221,18 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ## Trigger ordering
 
+### beckett-17: Breeches, Eager Pillager's extra triggers run out of modes
+
+**Status:** ✅ verified · **Cards:** Admiral Beckett Brass, Breeches, Eager Pillager, Roaming Throne
+
+**Ruling.** Each Breeches trigger must choose a mode not yet chosen that turn. Once all three are used, a further trigger (from Roaming Throne or a fourth attacking Pirate) has no legal mode and is removed from the stack with no effect. The modes are chosen as the trigger goes on the stack.
+
+**Citations**
+
+- Oracle, *Breeches, Eager Pillager*: “Whenever a Pirate you control attacks, choose one that hasn't been chosen this turn —”
+- Scryfall ruling, *Breeches, Eager Pillager*: “If you can't legally choose a mode because all three have been chosen that turn, that instance of the ability is removed from the stack with no effect.”
+- [CR 603.3c](#cr-6033c), [CR 700.2](#cr-7002)
+
 ### beckett-13: End-step pile-up: Beckett, Edward Kenway, Daring Piracy, Zara, dash
 
 **Status:** ✅ verified · **Cards:** Admiral Beckett Brass, Edward Kenway, Daring Piracy, Zara, Renegade Recruiter, Ragavan, Nimble Pilferer
@@ -327,6 +336,10 @@ Whenever a game event or game state matches a triggered ability’s trigger even
 
 If multiple abilities have triggered since the last time a player received priority, the abilities are placed on the stack in a two-part process. First, each player, in APNAP order, puts each triggered ability they control with a trigger condition that isn’t another ability triggering on the stack in any order they choose. (See rule 101.4.) Second, each player, in APNAP order, puts all remaining triggered abilities they control on the stack in any order they choose. Then the game once again checks for and performs state-based actions until none are performed, then abilities that triggered …
 
+#### CR 603.3c
+
+If a triggered ability is modal, its controller announces the mode choice when putting the ability on the stack. If one of the modes would be illegal (due to an inability to choose legal targets, for example), that mode can’t be chosen. If no mode is chosen, the ability is removed from the stack. (See rule 700.2.)
+
 #### CR 603.3d
 
 The remainder of the process for putting a triggered ability on the stack is identical to the process for casting a spell listed in rules 601.2c–d. If a choice is required when the triggered ability goes on the stack but no legal choices can be made for it, or if a rule or a continuous effect otherwise makes the ability illegal, the ability is simply removed from the stack.
@@ -354,6 +367,10 @@ Layer 7b: Effects that set power and/or toughness to a specific number or value 
 #### CR 613.4c
 
 Layer 7c: Effects and counters that modify power and/or toughness (but don’t set power and/or toughness to a specific number or value) are applied.
+
+#### CR 700.2
+
+A spell or ability is modal if it has two or more options in a bulleted list preceded by instructions for a player to choose a number of those options, such as “Choose one —.” Each of those options is a mode. Modal cards printed prior to the Khans of Tarkir™ set didn’t use bulleted lists for the modes; these cards have received errata in the Oracle card reference so the modes do appear in a bulleted list.
 
 #### CR 702.73a
 

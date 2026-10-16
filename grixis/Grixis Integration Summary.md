@@ -14,6 +14,7 @@ schema: 2
 > **Bot cycle 16 · milestone [Grixis integration](https://github.com/corymstover/GrokBotMTGCompanion/milestone/13) · issues [#59](https://github.com/corymstover/GrokBotMTGCompanion/issues/59)–[#63](https://github.com/corymstover/GrokBotMTGCompanion/issues/63).** What we took from the user's [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) repo (read-only; commit `df1abb9` in Bot cycle 16, **re-analyzed at `1836b97` in Bot cycle 37**), what was fixed, what was generalized for every color identity, and what remains. Back to [Grixis](README.md).
 
 ## Contents
+- [Bot cycle 48 interaction reviews](#bot-cycle-48-interaction-reviews)
 - [Bot cycle 46 interaction reviews](#bot-cycle-46-interaction-reviews)
 - [Bot cycle 45 full source archive](#bot-cycle-45-full-source-archive)
 - [Bot cycle 39 commander-first refinement](#bot-cycle-39-commander-first-refinement)
@@ -27,6 +28,22 @@ schema: 2
 - [What we did not take](#what-we-did-not-take)
 - [Recommended follow-ups](#recommended-follow-ups)
 - [Reproducing](#reproducing)
+
+## Bot cycle 48 interaction reviews
+Batch B of phase 2 (now milestone M1 of Cory's authority program) covers the next 10 decks alphabetically: Doctor Doom through Grixistax. That's **107 rulings: 99 verified, 2 uncertain, 6 flags**. Every deck has a source attestation JSON, re-verified item by item. No decklist changed.
+- **Commander Spellbook step cache (new):** `scripts/spellbook_steps.py` fetches the public variant API for all 302 combo ids in `data/grixis_combos.json`. It stores steps, prerequisites, mana needed and a retrieval date (2026-10-16) in `data/grixis_spellbook_steps.json`. Interaction entries can now cite a variant's step text verbatim; `--check` checks the quote. `spellbook_steps.py --check` is a new offline `validate_all` step that requires every combo id to be cached.
+- **Batch A uncertain items:** 7 of 11 resolved with the cached steps: Anhelo ×3, Ashad, Ashnod ×2, Beckett. One of them corrects our own batch-A entry: ashnod-08 had said the Scrap Trawler/Myr Retriever loop needs a simultaneous sacrifice; Spellbook's sequential line works. It's now a `documentation` flag. Still open: 4 strategic or no-ruling items (Abaddon, Admiral Brass, Crosis, Anhelo), plus one new hypothesis (Ashad casualty shortcut).
+- **Rules surprises in batch B:**
+  - **Don Andres:** Dauthi Voidwalker stops opponent-owned creatures from dying, so Thieving Amalgam's drain doesn't trigger.
+  - **Edward Kenway:** Fateful Discovery + Academy Manufactor's mandatory draws can deck you during a Time Sieve lock.
+  - **Evelyn:**
+    - Vexing Bauble counters escaped LED and Lotus Petal casts.
+    - The source's Saw in Half caveat uses the pre-2020 commander rule. Under CR 903.9a Evelyn always dies, so the copies are always made.
+  - **Fire Lord Azula:** copying a sorcery needs a flash enabler during combat.
+  - **Garza Zol:** Jeska, Thrice Reborn enters with 0 loyalty if Garza hasn't been cast from the command zone.
+  - **Goro-Goro:** the haste ability doesn't cover later Dragons; Spellbook re-activates it each combat.
+  - **Grixistax:** Blood Moon switches off the deck's own Phyrexian Tower.
+- **Evidence classes:** records may carry an optional `evidence_class`, using the seven M0 classes. M0 (Bot cycle 47) isn't on main yet, so the planned pass is **pending**. That pass makes the field universal and re-reviews Bjorna/Cecily against the restored canonical project list (Trade Secrets, Yawgmoth's Bargain, Lutri).
 
 ## Bot cycle 46 interaction reviews
 Phase 2 adds an Abaddon-style rules review for every deck in [interactions/](interactions/README.md). Batch A covers the first 12 decks alphabetically: 164 rulings, of which 142 are verified, 11 uncertain and 11 flags.

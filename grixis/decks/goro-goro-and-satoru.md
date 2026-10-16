@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -474,6 +475,17 @@ Canonical approved artifact: `refinement/decklists/Goro_Goro_and_Satoru_Approved
 Complete gate artifact: `refinement/verification/goro_goro_and_satoru_2026-10-14/gate_output/Goro_Goro_and_Satoru_2026-10-14_Complete_Gate.json`
 
 This deck is now locked. Do not revise, reopen, or replace it unless the user explicitly requests that action.
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 48 interaction review: **9 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Goro-Goro and Satoru — Interaction Review](../interactions/goro-goro-and-satoru.md).
+
+- **One Dragon per player per damage step** — One Dragon per damaged player per combat-damage step; spread fresh attackers across opponents. ([goro-01](../interactions/goro-goro-and-satoru.md#goro-01-one-dragon-per-player-per-damage-step))
+- **The haste ability only covers creatures you control when it resolves** — Re-activate {1}{R} each combat for new Dragons, or let Samut or Dragon Tempest give them haste. ([goro-02](../interactions/goro-goro-and-satoru.md#goro-02-the-haste-ability-only-covers-creatures-you-control-when-it-resolves))
+- **Raphael's sneak gives double strike before first-strike damage** — Sneaked Raphael = double strike for all attackers; two Goro-Goro triggers per player. ([goro-04](../interactions/goro-goro-and-satoru.md#goro-04-raphaels-sneak-gives-double-strike-before-first-strike-damage))
+- **Goro-Goro + Breath of Fury: order Goro-Goro's trigger on top** — Commander trigger on top → Dragon → Breath moves onto it → extra combat. Needs {1}{R} haste each combat. ([goro-05](../interactions/goro-goro-and-satoru.md#goro-05-goro-goro--breath-of-fury-order-goro-goros-trigger-on-top))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

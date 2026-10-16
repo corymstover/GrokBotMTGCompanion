@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -705,6 +706,24 @@ Important rules safeguards preserved in the audit include the mandatory-break-ta
 - Complete gate: `refinement/verification/evelyn_the_covetous_2026-10-14/gate_output/Evelyn_the_Covetous_2026-10-14_Complete_Gate.json`
 
 The frozen source-package CSV/TXT exports remain preserved as historical baseline evidence. The current-cycle approved artifact above is now canonical.
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 48 interaction review: **10 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Evelyn, the Covetous — Interaction Review](../interactions/evelyn-the-covetous.md).
+
+- **One play per turn, from any Evelyn's exile** — One collection-counter play per turn (any turn); the permission isn't tied to one Evelyn object. ([evelyn-01](../interactions/evelyn-the-covetous.md#evelyn-01-one-play-per-turn-from-any-evelyns-exile))
+- **Worldgorger Dragon + Animate Dead / Dance of the Dead / Necromancy** — Each loop returns your lands untapped: tap them each iteration for unbounded mana. ([evelyn-03](../interactions/evelyn-the-covetous.md#evelyn-03-worldgorger-dragon--animate-dead--dance-of-the-dead--necromancy))
+- **The Worldgorger loop is mandatory: have a way out** — Unbreakable Worldgorger loop = draw. Another creature card in any graveyard is the standard exit. ([evelyn-04](../interactions/evelyn-the-covetous.md#evelyn-04-the-worldgorger-loop-is-mandatory-have-a-way-out))
+- **Worldgorger + Evelyn → Thassa's Oracle** — Loop Evelyn to exile your library, break, cast Oracle from exile with Evelyn's once-per-turn play. ([evelyn-05](../interactions/evelyn-the-covetous.md#evelyn-05-worldgorger--evelyn--thassas-oracle))
+- **Vexing Bauble counters your own free spells, including escaped LED and Petal** — Bauble counters your 0-mana casts too, so it stops the Breach + LED loop. Crack it first. ([evelyn-08](../interactions/evelyn-the-covetous.md#evelyn-08-vexing-bauble-counters-your-own-free-spells-including-escaped-led-and-petal))
+- **Saw in Half on Evelyn: the commander rule no longer prevents dying** — A commander destroyed by Saw in Half always dies, so you always get the tokens: four Evelyn triggers. ([evelyn-09](../interactions/evelyn-the-covetous.md#evelyn-09-saw-in-half-on-evelyn-the-commander-rule-no-longer-prevents-dying))
+
+**Flags for later refinement** (no list change in this phase):
+- ⚠️ uncertain Worldgorger + Evelyn → Thassa's Oracle: Rebuilt from the source attestation. Spellbook's cached Worldgorger variants confirm the mana loop, but not the Evelyn-to-Oracle endpoint, which is checked only against Oracle and CR. ([evelyn-05](../interactions/evelyn-the-covetous.md#evelyn-05-worldgorger--evelyn--thassas-oracle))
+- 🚩 list flag Vexing Bauble counters your own free spells, including escaped LED and Petal: Known and accepted by the source; the specific casualty is the Breach + LED/Petal escape loop, which spends no mana on the artifact. Pilot note: sacrifice Vexing Bauble before going off. No list change. ([evelyn-08](../interactions/evelyn-the-covetous.md#evelyn-08-vexing-bauble-counters-your-own-free-spells-including-escaped-led-and-petal))
+- 🚩 list flag Saw in Half on Evelyn: the commander rule no longer prevents dying: The source attestation's caveat ('If the commander replacement effect moves Evelyn directly to the command zone instead of the graveyard … no copies are created') describes the pre-2020 rule. Under current CR 903.9a the graveyard/exile move is a state-based action after the fact, so Evelyn always dies. No list change; the rest of the source item (four triggers, legend rule) is correct. ([evelyn-09](../interactions/evelyn-the-covetous.md#evelyn-09-saw-in-half-on-evelyn-the-commander-rule-no-longer-prevents-dying))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

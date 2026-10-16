@@ -1,0 +1,502 @@
+{
+ "schema": 1,
+ "deck_id": "Grixistax___October_2026",
+ "slug": "grixistax-october-2026",
+ "commanders": [
+  "Kraum, Ludevic's Opus",
+  "Tevesh Szat, Doom of Fools"
+ ],
+ "deck_sha256": "f0a28f936c03705df0e215738e4ad314d337bb3e713dcf7b2c50beba5a2f9a08",
+ "list_source": "exports/grixis-archidekt/grixistax-october-2026.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 48,
+ "batch": "B",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
+   "note": "18 interactions, all PASS"
+  }
+ ],
+ "summary": "Grixistax (October 2026) is a Kraum + Tevesh Szat partner prison deck: Contamination, Blood Moon, Back to Basics, Trinisphere and Chalice, with artifact mana to break parity. Tevesh's Thrulls pay for everything. This review re-verifies the eighteen items of the deck's rules attestation, and confirms the Helm of Obedience and Breach lines against cached Commander Spellbook steps.\n\nRules surprise: Blood Moon switches off the deck's own Phyrexian Tower and other utility lands (anti-synergy flag, no list change).",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "grixistax-01",
+   "category": "commander",
+   "title": "Partners: Kraum + Tevesh Szat",
+   "cards": [
+    "Kraum, Ludevic's Opus",
+    "Tevesh Szat, Doom of Fools"
+   ],
+   "ruling": "Both have partner, so they can be co-commanders; combined identity is blue, black and red. Either one satisfies 'if you control a commander' (Fierce Guardianship, Deflecting Swat, Deadly Rollick). Commander tax is tracked separately for each. Mox Amber makes one mana of a color among your legendary creatures and planeswalkers: Kraum gives blue or red, Tevesh gives black.",
+   "status": "verified",
+   "cr": [
+    "702.124a",
+    "903.4",
+    "903.8"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Kraum, Ludevic's Opus",
+     "quote": "An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders."
+    },
+    {
+     "card": "Mox Amber",
+     "quote": "Mox Amber's ability adds one mana of the color of your choice from among the colors of legendary creatures and legendary planeswalkers you control. It doesn't add one mana of each of those colors."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
+     "item": "Partner commanders and combined color identity"
+    },
+    {
+     "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
+     "item": "Commander-dependent free spells and Mox Amber"
+    }
+   ]
+  },
+  {
+   "id": "grixistax-02",
+   "category": "commander",
+   "title": "Kraum: once per opponent per turn, under Damping Sphere too",
+   "cards": [
+    "Kraum, Ludevic's Opus",
+    "Damping Sphere"
+   ],
+   "ruling": "Kraum draws when one opponent casts their second spell in a turn. It's once per opponent per turn, two spells from different opponents don't count, and it looks at the whole turn even if Kraum arrived late. Damping Sphere taxes each extra spell but doesn't forbid it, so an opponent who pays still gives you a card.",
+   "status": "verified",
+   "cr": [
+    "603.2"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Kraum, Ludevic's Opus",
+     "quote": "One opponent must cast two spells for Kraum's triggered ability to trigger. Two spells from different opponents won't cause it to trigger."
+    },
+    {
+     "card": "Kraum, Ludevic's Opus",
+     "quote": "Kraum's triggered ability can trigger only once each turn for each opponent."
+    },
+    {
+     "card": "Damping Sphere",
+     "quote": "Damping Sphere’s second ability counts spells that were cast during a turn even if Damping Sphere wasn’t on the battlefield as they were cast."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
+     "item": "Damping Sphere and Kraum's second-spell trigger"
+    }
+   ]
+  },
+  {
+   "id": "grixistax-03",
+   "category": "engine",
+   "title": "Tevesh Thrulls feed every sacrifice outlet",
+   "cards": [
+    "Tevesh Szat, Doom of Fools",
+    "Contamination",
+    "Skullclamp",
+    "Phyrexian Tower",
+    "Culling the Weak",
+    "Diabolic Intent"
+   ],
+   "ruling": "Tevesh's +2 makes two 0/1 Thrulls. They pay Contamination's upkeep, die at once to Skullclamp (+1/-1 makes them 1/0, a state-based death, draw two), and are sacrifice fodder for Phyrexian Tower ({B}{B}), Culling the Weak ({B}{B}{B}{B}) and Diabolic Intent. Tevesh's +1 can also sacrifice one to draw two (three if it was a commander). You choose what to sacrifice as the ability resolves.",
+   "short": "0/1 Thrulls: Contamination upkeep, Skullclamp draws, Tower/Culling mana, Diabolic Intent.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "704.5f",
+    "701.21a"
+   ],
+   "oracle": [
+    {
+     "card": "Tevesh Szat, Doom of Fools",
+     "quote": "+2: Create two 0/1 black Thrull creature tokens."
+    },
+    {
+     "card": "Skullclamp",
+     "quote": "Whenever equipped creature dies, draw two cards."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Tevesh Szat, Doom of Fools",
+     "quote": "For the second ability of Tevesh Szat, Doom of Fools, you choose whether to sacrifice anything and what to sacrifice as the ability resolves."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
+     "item": "Tevesh Szat plus Contamination"
+    },
+    {
+     "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
+     "item": "Tevesh Szat plus Skullclamp"
+    },
+    {
+     "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
+     "item": "Tevesh Szat plus Phyrexian Tower / Culling the Weak / Diabolic Intent"
+    }
+   ]
+  },
+  {
+   "id": "grixistax-04",
+   "category": "replacement",
+   "title": "Contamination, Damping Sphere and Blood Moon on the same land",
+   "cards": [
+    "Tevesh Szat, Doom of Fools",
+    "Contamination",
+    "Damping Sphere",
+    "Blood Moon",
+    "Ancient Tomb"
+   ],
+   "ruling": "Contamination makes every land produce exactly {B}. Damping Sphere turns a land that would make two or more into {C}. When both apply to one tap, the land's controller picks which applies first, and either way Ancient Tomb gives one mana. Blood Moon makes nonbasics Mountains ({T}: Add {R}), and Contamination still turns that into {B}. Artifact mana is untouched by all three.",
+   "short": "Lands make one {B} under Contamination; artifact mana is the parity breaker.",
+   "status": "verified",
+   "cr": [
+    "616.1",
+    "613.1d",
+    "106.12"
+   ],
+   "oracle": [
+    {
+     "card": "Contamination",
+     "quote": "If a land is tapped for mana, it produces {B} instead of any other type and amount."
+    },
+    {
+     "card": "Damping Sphere",
+     "quote": "If a land is tapped for two or more mana, it produces {C} instead of any other type and amount."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Damping Sphere",
+     "quote": "If multiple replacement effects would modify the mana an ability you control produces, choose one to apply. After that, determine if any others are applicable."
+    },
+    {
+     "card": "Contamination",
+     "quote": "The second ability of this card is a replacement effect, not a triggered ability."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
+     "item": "Damping Sphere and Ancient Tomb"
+    },
+    {
+     "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
+     "item": "Contamination with Blood Moon and artifact mana"
+    }
+   ]
+  },
+  {
+   "id": "grixistax-05",
+   "category": "layers",
+   "title": "Blood Moon strips your own utility lands; Back to Basics still locks them",
+   "cards": [
+    "Tevesh Szat, Doom of Fools",
+    "Blood Moon",
+    "Back to Basics",
+    "Phyrexian Tower"
+   ],
+   "ruling": "Blood Moon makes nonbasic lands Mountains: they lose every other ability, enters-tapped clauses included. Your Phyrexian Tower stops being a sacrifice outlet, and fetchlands and Ancient Tomb stop working. They remain nonbasic (Blood Moon doesn't change supertypes or names), so Back to Basics still keeps them from untapping. That locks your own nonbasics as hard as your opponents'.",
+   "short": "Under Blood Moon, Phyrexian Tower is just a Mountain; Back to Basics still stops it untapping.",
+   "status": "flag",
+   "flag": {
+    "kind": "anti-synergy",
+    "note": "Accepted prison cost, documented by the source for Back to Basics. The extra point here is that Blood Moon switches off the deck's own Phyrexian Tower (the Thrull mana outlet). Sequence Tower activations before Moon. No list change."
+   },
+   "key": true,
+   "cr": [
+    "305.7",
+    "613.1d",
+    "205.4a"
+   ],
+   "oracle": [
+    {
+     "card": "Blood Moon",
+     "quote": "Nonbasic lands are Mountains."
+    },
+    {
+     "card": "Back to Basics",
+     "quote": "Nonbasic lands don't untap during their controllers' untap steps."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Blood Moon",
+     "quote": "This effect doesn't affect names or supertypes. It won't turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won't be named \"Mountain.\""
+    },
+    {
+     "card": "Blood Moon",
+     "quote": "Nonbasic lands will lose any other land types and abilities they had. They will gain the land type Mountain and gain the ability \"{T}: Add {R}.\""
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
+     "item": "Blood Moon plus Back to Basics"
+    }
+   ]
+  },
+  {
+   "id": "grixistax-06",
+   "category": "timing",
+   "title": "Overburden and Tangle Wire with Thrull tokens",
+   "cards": [
+    "Tevesh Szat, Doom of Fools",
+    "Overburden",
+    "Tangle Wire"
+   ],
+   "ruling": "Overburden only triggers on nontoken creatures, so Thrulls are free; casting Kraum bounces one of your lands. At your upkeep, Tangle Wire's fading trigger and tap trigger are both yours to order. Resolve fading first so the tap trigger counts one fewer counter. Untapped Thrulls can be the permanents you tap.",
+   "status": "verified",
+   "cr": [
+    "603.3b",
+    "702.32a"
+   ],
+   "oracle": [
+    {
+     "card": "Overburden",
+     "quote": "Whenever a player puts a nontoken creature onto the battlefield, that player returns a land they control to its owner's hand."
+    },
+    {
+     "card": "Tangle Wire",
+     "quote": "At the beginning of each player's upkeep, that player taps an untapped artifact, creature, or land they control for each fade counter on this artifact."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
+     "item": "Overburden and Tevesh tokens"
+    },
+    {
+     "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
+     "item": "Tangle Wire with Tevesh tokens"
+    }
+   ]
+  },
+  {
+   "id": "grixistax-07",
+   "category": "timing",
+   "title": "Trinisphere and Chalice tax your own free spells",
+   "cards": [
+    "Tevesh Szat, Doom of Fools",
+    "Trinisphere",
+    "Chalice of the Void",
+    "Force of Will",
+    "Fierce Guardianship",
+    "Lion's Eye Diamond"
+   ],
+   "ruling": "An untapped Trinisphere applies after alternative costs and reductions. Force of Will's pitch, a free Fierce Guardianship or Pact, and 0-cost artifacts all cost three mana. Chalice checks mana value as the spell is cast, not what was paid. At 0 it counters your Moxen, LED and Lotus Petal; at 1 it counters your Sol Ring, Vampiric Tutor and similar.",
+   "short": "Trinisphere makes free spells cost 3; Chalice at 0 or 1 hits your own fast mana.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "601.2f",
+    "202.3"
+   ],
+   "oracle": [
+    {
+     "card": "Trinisphere",
+     "quote": "As long as this artifact is untapped, each spell that would cost less than three mana to cast costs three mana to cast."
+    },
+    {
+     "card": "Chalice of the Void",
+     "quote": "Whenever a player casts a spell with mana value equal to the number of charge counters on this artifact, counter that spell."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Trinisphere",
+     "quote": "Finally, apply Trinisphere's effect if the mana component of the spell's cost is less than three mana."
+    },
+    {
+     "card": "Chalice of the Void",
+     "quote": "If there are zero charge counters on Chalice of the Void, it counters each spell with a mana value of 0."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
+     "item": "Trinisphere and free/alternative-cost interaction"
+    },
+    {
+     "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
+     "item": "Chalice of the Void sequencing"
+    }
+   ]
+  },
+  {
+   "id": "grixistax-08",
+   "category": "pair",
+   "title": "Karn locks the Wishclaw you hand over",
+   "cards": [
+    "Tevesh Szat, Doom of Fools",
+    "Karn, the Great Creator",
+    "Wishclaw Talisman"
+   ],
+   "ruling": "After Wishclaw's tutor resolves, an opponent gains control of it. With Karn out, opponents can't activate abilities of artifacts they control, so they can't use it. Karn doesn't stop triggered abilities. His -2 needs an artifact you own from outside the game or face-up in exile; the deck doesn't plan on a wishboard.",
+   "status": "verified",
+   "cr": [
+    "602.5",
+    "108.3"
+   ],
+   "oracle": [
+    {
+     "card": "Karn, the Great Creator",
+     "quote": "Activated abilities of artifacts your opponents control can't be activated."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Karn, the Great Creator",
+     "quote": "Triggered abilities (starting with \"when,\" \"whenever,\" or \"at\") are unaffected by Karn."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
+     "item": "Karn, the Great Creator plus Wishclaw Talisman"
+    }
+   ]
+  },
+  {
+   "id": "grixistax-09",
+   "category": "combo",
+   "title": "Helm of Obedience + Leyline of the Void or Dauthi Voidwalker",
+   "cards": [
+    "Tevesh Szat, Doom of Fools",
+    "Helm of Obedience",
+    "Leyline of the Void",
+    "Dauthi Voidwalker"
+   ],
+   "ruling": "With Leyline or Voidwalker exiling cards that would go to the opponent's graveyard, Helm's mill never puts a card there. The stop condition is never met, so X = 1 exiles the opponent's whole library. Voidwalker's exiled cards also get void counters.",
+   "short": "Helm for {1} + graveyard hate = exile an opponent's entire library.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "614.6",
+    "701.17a"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Helm of Obedience",
+     "quote": "If an effect like that of Leyline of the Void prevents cards from being put into your opponent’s graveyard, the process described in the first sentence of Helm of Obedience’s effect will never stop. Your opponent’s entire library will be exiled, even if X is 1."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "2163-5065",
+     "quote": "Activate Helm of Obedience by paying {1} and tapping it, causing target opponent to mill a card."
+    },
+    {
+     "id": "2581-5065",
+     "quote": "Due to Dauthi Voidwalker's replacement effect, the milled card is exiled instead of going to the graveyard, and that opponents repeats that process until their library is empty."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
+     "item": "Helm of Obedience plus Leyline of the Void or Dauthi Voidwalker"
+    }
+   ]
+  },
+  {
+   "id": "grixistax-10",
+   "category": "dependency",
+   "title": "The Breach finish needs your own prison pieces gone",
+   "cards": [
+    "Tevesh Szat, Doom of Fools",
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze",
+    "Necropotence",
+    "Trinisphere",
+    "Damping Sphere"
+   ],
+   "ruling": "Breach + LED + Brain Freeze needs six other cards in hand and/or graveyard. Under your own Trinisphere, every escaped LED costs three mana. Damping Sphere taxes each successive spell. Chalice on 0 counters LED, and Contamination turns lands black-only. Necropotence exiles discarded cards (LED's discard), cutting Breach fuel. Remove or sequence around these before going off.",
+   "status": "verified",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "oracle": [
+    {
+     "card": "Necropotence",
+     "quote": "Whenever you discard a card, exile that card from your graveyard."
+    }
+   ],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "1368-3518-4856",
+     "quote": "You have at least six other cards in hand and/or graveyard."
+    },
+    {
+     "id": "1368-3518-4856",
+     "quote": "Cast Lion's Eye Diamond from your graveyard for its escape cost by exiling three cards besides Brain Freeze from your graveyard."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
+     "item": "Underworld Breach plus Lion's Eye Diamond plus Brain Freeze"
+    },
+    {
+     "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
+     "item": "Necropotence with commander draw and Breach"
+    }
+   ]
+  },
+  {
+   "id": "grixistax-11",
+   "category": "zone",
+   "title": "Tainted Pact as a tutor, and Tevesh's −10",
+   "cards": [
+    "Tevesh Szat, Doom of Fools",
+    "Tainted Pact"
+   ],
+   "ruling": "The list has 100 distinct names, two partners included, so Tainted Pact never stops on a duplicate; it's a tutor here, since there's no Thassa's Oracle. Tevesh's −10 takes control of every commander on the battlefield first, then puts all commanders from command zones onto the battlefield under your control. If you leave the game, the ones you put onto the battlefield are exiled.",
+   "status": "verified",
+   "cr": [
+    "903.3",
+    "800.4a"
+   ],
+   "oracle": [
+    {
+     "card": "Tevesh Szat, Doom of Fools",
+     "quote": "−10: Gain control of all commanders. Put all commanders from the command zone onto the battlefield under your control."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Tevesh Szat, Doom of Fools",
+     "quote": "As the third ability is resolving, you'll gain control of all commanders that were already on the battlefield before the commanders from the command zone enter the battlefield under your control."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/grixistax_october_2026_2026-10-14/Grixistax_October_2026_Rules_Attestation.json",
+     "item": "Tainted Pact singleton condition"
+    }
+   ]
+  }
+ ]
+}

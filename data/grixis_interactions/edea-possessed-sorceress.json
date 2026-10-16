@@ -1,0 +1,448 @@
+{
+ "schema": 1,
+ "deck_id": "Edea__Possessed_Sorceress",
+ "slug": "edea-possessed-sorceress",
+ "commanders": [
+  "Edea, Possessed Sorceress"
+ ],
+ "deck_sha256": "d41924a6b09c4232b438aa863c833a28f67bdd6598c9bba470ae66f23428acd6",
+ "list_source": "exports/grixis-archidekt/edea-possessed-sorceress.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 48,
+ "batch": "B",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
+   "note": "18 interactions, all PASS"
+  }
+ ],
+ "summary": "Edea, Possessed Sorceress steals an opponent's creature each combat; when a creature you control but don't own dies, it goes back to its owner and you draw. This review re-verifies the eighteen items of the deck's rules attestation.\n\nKey rules: extra Edea death triggers only draw, Irma-Edea misses the combat she copies in, and ordering Chaos Shrine's Black Crystal first keeps the opponent's creature. Thassa makes a steal permanent. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "edea-01",
+   "category": "commander",
+   "title": "The combat steal is targeted; Arcane Lighthouse handles hexproof",
+   "cards": [
+    "Edea, Possessed Sorceress",
+    "Arcane Lighthouse"
+   ],
+   "ruling": "Edea's combat trigger targets a creature an opponent controls. If the target is illegal on resolution, nothing happens. Activate Arcane Lighthouse before beginning of combat: opponents' creatures lose hexproof and shroud for the turn. It only affects creatures they control when it resolves.",
+   "status": "verified",
+   "cr": [
+    "115.1",
+    "608.2b",
+    "702.11a"
+   ],
+   "oracle": [
+    {
+     "card": "Edea, Possessed Sorceress",
+     "quote": "At the beginning of combat on your turn, gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Arcane Lighthouse",
+     "quote": "The second ability applies only to creatures controlled by your opponents when it resolves."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
+     "item": "Edea temporary control and targeting"
+    }
+   ]
+  },
+  {
+   "id": "edea-02",
+   "category": "commander",
+   "title": "A borrowed creature that dies goes back to its owner, and you draw",
+   "cards": [
+    "Edea, Possessed Sorceress",
+    "Viscera Seer",
+    "Phyrexian Altar",
+    "Pitiless Plunderer"
+   ],
+   "ruling": "A creature Edea took is still owned by its opponent. If it dies while you control it (sacrificed to Viscera Seer, Phyrexian Altar, Ashnod's Altar), Edea returns it under its owner's control and you draw. Your 'creature you control dies' triggers (Pitiless Plunderer, Grave Pact, Mayhem Devil on the sacrifice) see the death. Edea's return is a new permanent for its owner: its enters abilities trigger for that player, not for you.",
+   "short": "Sacrifice the borrowed creature: you draw and get your death triggers; its owner gets it back, enters triggers included.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "700.4",
+    "603.3a",
+    "400.7",
+    "108.3"
+   ],
+   "oracle": [
+    {
+     "card": "Edea, Possessed Sorceress",
+     "quote": "Whenever a creature you control but don't own dies, return it to the battlefield under its owner's control and you draw a card."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
+     "item": "Edea death trigger after a borrowed creature dies"
+    }
+   ]
+  },
+  {
+   "id": "edea-03",
+   "category": "trigger-order",
+   "title": "Extra death triggers only draw",
+   "cards": [
+    "Edea, Possessed Sorceress",
+    "Roaming Throne",
+    "Strionic Resonator",
+    "Gogo, Master of Mimicry"
+   ],
+   "ruling": "When one borrowed creature dies and Edea's death ability triggers more than once (Roaming Throne naming Warlock, a Spark Double or Sakashima copy) or is copied (Strionic Resonator, Gogo), only the first instance can return the card. The card is then a new object. Every other instance still draws a card. An extra or copied combat trigger can target a second opposing creature. Gogo copies X times for {X}{X}, X can't be 0, and the copies resolve before the original.",
+   "short": "Each extra Edea death trigger = one more card; only the first returns the creature.",
+   "status": "verified",
+   "cr": [
+    "400.7",
+    "707.10",
+    "603.2"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Roaming Throne",
+     "quote": "Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability."
+    },
+    {
+     "card": "Gogo, Master of Mimicry",
+     "quote": "The copy will resolve before the original ability does."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
+     "item": "Multiple Edea death triggers for one death"
+    },
+    {
+     "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
+     "item": "Roaming Throne naming Warlock"
+    },
+    {
+     "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
+     "item": "Strionic Resonator with Edea"
+    },
+    {
+     "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
+     "item": "Gogo, Master of Mimicry copying Edea triggers"
+    }
+   ]
+  },
+  {
+   "id": "edea-04",
+   "category": "layers",
+   "title": "Edea copies: Spark Double, Sakashima, Irma",
+   "cards": [
+    "Edea, Possessed Sorceress",
+    "Spark Double",
+    "Sakashima of a Thousand Faces",
+    "Irma, Part-Time Mutant"
+   ],
+   "ruling": "Spark Double is a nonlegendary Edea. With Sakashima out, the legend rule doesn't apply to you, so a Sakashima-Edea is fine. Irma becomes a copy at beginning of combat but keeps her own name and the copy ability. She doesn't become Edea until after that combat's beginning-of-combat triggers, so she misses that steal. She stays Edea afterwards, so she triggers in later combats that turn, such as Full Throttle or Karlach extra combats.",
+   "short": "Irma-Edea misses the combat she copies in, but steals in each later combat.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "707.2",
+    "704.5j",
+    "603.2",
+    "507.1"
+   ],
+   "oracle": [
+    {
+     "card": "Irma, Part-Time Mutant",
+     "quote": "At the beginning of combat on your turn, Irma becomes a copy of up to one other target creature you control, except her name is Irma, Part-Time Mutant and she has this ability."
+    },
+    {
+     "card": "Sakashima of a Thousand Faces",
+     "quote": "The \"legend rule\" doesn't apply to permanents you control."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Irma, Part-Time Mutant",
+     "quote": "Because Irma isn't entering the battlefield when she becomes a copy of another creature, any \"When [this creature] enters\" or \"[This creature] enters with\" abilities of the copied creature won't apply."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
+     "item": "Spark Double and Sakashima as Edea copies"
+    },
+    {
+     "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
+     "item": "Irma, Part-Time Mutant copying Edea"
+    }
+   ]
+  },
+  {
+   "id": "edea-05",
+   "category": "timing",
+   "title": "Extra combats mean extra steals",
+   "cards": [
+    "Edea, Possessed Sorceress",
+    "Full Throttle",
+    "Karlach, Fury of Avernus"
+   ],
+   "ruling": "Every combat phase has its own beginning-of-combat step, so Edea takes another creature in each one. Full Throttle adds two combats after the main phase you cast it in. There's no main phase between them, so sorcery-speed sacrifice outlets and Captivating Crew can't be used in between. Full Throttle untaps creatures that attacked this turn at each combat. Karlach adds one combat after the first, only if you attack in the first combat phase.",
+   "status": "verified",
+   "cr": [
+    "500.8",
+    "507.1"
+   ],
+   "oracle": [
+    {
+     "card": "Full Throttle",
+     "quote": "After this main phase, there are two additional combat phases."
+    },
+    {
+     "card": "Karlach, Fury of Avernus",
+     "quote": "Whenever you attack, if it's the first combat phase of the turn, untap all attacking creatures."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Full Throttle",
+     "quote": "There is no main phase between the two additional combat phases."
+    },
+    {
+     "card": "Karlach, Fury of Avernus",
+     "quote": "Notably, the triggered ability of Karlach doesn't give you any additional main phases."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
+     "item": "Full Throttle and Edea"
+    },
+    {
+     "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
+     "item": "Karlach additional combat and Edea"
+    }
+   ]
+  },
+  {
+   "id": "edea-06",
+   "category": "zone",
+   "title": "Thassa turns a temporary steal into a permanent one",
+   "cards": [
+    "Edea, Possessed Sorceress",
+    "Thassa, Deep-Dwelling"
+   ],
+   "ruling": "You still control the borrowed creature during your end step, because 'until end of turn' effects end in cleanup. Thassa can blink it: it returns under your control as a new object, unaffected by Edea's expiring effect. You keep it indefinitely, until another effect changes control or its owner leaves the game.",
+   "short": "Thassa at end step blinks the borrowed creature: you keep it permanently.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "514.2",
+    "400.7",
+    "800.4a"
+   ],
+   "oracle": [
+    {
+     "card": "Thassa, Deep-Dwelling",
+     "quote": "At the beginning of your end step, exile up to one other target creature you control, then return that card to the battlefield under your control."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Thassa, Deep-Dwelling",
+     "quote": "If you gain control of a creature “until end of turn,” you’ll control it during your end step."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
+     "item": "Thassa, Deep-Dwelling permanently retains an Edea-borrowed creature"
+    }
+   ]
+  },
+  {
+   "id": "edea-07",
+   "category": "trigger-order",
+   "title": "Black Crystal vs Edea: order the triggers to keep the card",
+   "cards": [
+    "Edea, Possessed Sorceress",
+    "Chaos Shrine's Black Crystal"
+   ],
+   "ruling": "When a borrowed nontoken creature dies, Black Crystal (exile it) and Edea (return it, draw) both trigger, and you order them. Put Black Crystal on top: it exiles the card, Edea can't find it but still draws, and on a later upkeep you can put that opponent's card onto the battlefield under your control with a finality counter. Put Edea on top to give the creature back.",
+   "short": "Resolve Black Crystal first to keep the opponent's creature for later; Edea still draws.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.3b",
+    "400.7",
+    "122.1"
+   ],
+   "oracle": [
+    {
+     "card": "Chaos Shrine's Black Crystal",
+     "quote": "At the beginning of your upkeep, you may put a creature card exiled with Chaos Shrine's Black Crystal onto the battlefield under your control with a finality counter on it."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Chaos Shrine's Black Crystal",
+     "quote": "Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
+     "item": "Chaos Shrine's Black Crystal and Edea"
+    }
+   ]
+  },
+  {
+   "id": "edea-08",
+   "category": "trigger-order",
+   "title": "Nightmare Shepherd first gives you a 1/1 copy",
+   "cards": [
+    "Edea, Possessed Sorceress",
+    "Nightmare Shepherd"
+   ],
+   "ruling": "If Nightmare Shepherd's trigger resolves first, you may exile the borrowed creature and get a 1/1 Nightmare token copy that you own. Edea then can't return the card, but you still draw. The token copies the creature as it last existed on the battlefield.",
+   "status": "verified",
+   "cr": [
+    "603.3b",
+    "111.2",
+    "707.2"
+   ],
+   "oracle": [
+    {
+     "card": "Nightmare Shepherd",
+     "quote": "Whenever another nontoken creature you control dies, you may exile it. If you do, create a token that's a copy of that creature, except it's 1/1 and it's a Nightmare in addition to its other types."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Nightmare Shepherd",
+     "quote": "The token copies the creature as it last existed on the battlefield before it died, not as it existed in the graveyard before it was exiled."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
+     "item": "Nightmare Shepherd and Edea"
+    }
+   ]
+  },
+  {
+   "id": "edea-09",
+   "category": "pair",
+   "title": "Saw in Half on a borrowed creature",
+   "cards": [
+    "Edea, Possessed Sorceress",
+    "Saw in Half"
+   ],
+   "ruling": "Saw in Half destroys the creature, and the creature's controller makes the two half-size copies. If you destroy a creature you borrowed, you get the tokens, Edea returns the card to its owner and you draw. If a replacement effect exiles it instead of letting it die, there are no tokens.",
+   "status": "verified",
+   "cr": [
+    "701.8a",
+    "700.4"
+   ],
+   "oracle": [
+    {
+     "card": "Saw in Half",
+     "quote": "If that creature dies this way, its controller creates two tokens that are copies of that creature"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Saw in Half",
+     "quote": "The same is true if the creature is destroyed but instead of going to its owner's graveyard, a replacement effect moves it elsewhere, such as exile."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
+     "item": "Saw in Half on a borrowed creature"
+    }
+   ]
+  },
+  {
+   "id": "edea-10",
+   "category": "pair",
+   "title": "More borrowing: Mass Mutiny and Captivating Crew",
+   "cards": [
+    "Edea, Possessed Sorceress",
+    "Mass Mutiny",
+    "Captivating Crew"
+   ],
+   "ruling": "Mass Mutiny takes up to one creature from each opponent until end of turn. It's errata'd to 'up to one', so you can cast it when an opponent has none. Captivating Crew steals at sorcery speed for {3}{R}, so do it precombat, then let Edea take a second creature at beginning of combat. Every borrowed creature is opponent-owned, so each death triggers Edea.",
+   "status": "verified",
+   "cr": [
+    "108.3",
+    "307.1"
+   ],
+   "oracle": [
+    {
+     "card": "Captivating Crew",
+     "quote": "{3}{R}: Gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn. Activate only as a sorcery."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Mass Mutiny",
+     "quote": "The phrase \"up to one\" was inadvertently omitted from Mass Mutiny's rules text. The card has received errata to correct this."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
+     "item": "Mass Mutiny with Edea"
+    },
+    {
+     "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
+     "item": "Captivating Crew sequencing"
+    }
+   ]
+  },
+  {
+   "id": "edea-11",
+   "category": "dependency",
+   "title": "Cut cards: Garland and Marchesa",
+   "cards": [
+    "Edea, Possessed Sorceress"
+   ],
+   "ruling": "Two source decisions are re-checked. Garland, Royal Kidnapper (cut) stops you from sacrificing any creature you control but don't own, which shuts off Edea's sacrifice plan. Marchesa, the Black Rose (cut) is unreliable here: Edea's mandatory trigger returns the card to its owner before Marchesa's delayed return, and once the card leaves the graveyard Marchesa can't return it. Neither card is in the current list. Both cuts are correct.",
+   "status": "verified",
+   "cr": [
+    "701.21a",
+    "400.7"
+   ],
+   "oracle": [
+    {
+     "card": "Edea, Possessed Sorceress",
+     "quote": "Whenever a creature you control but don't own dies, return it to the battlefield under its owner's control and you draw a card."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
+     "item": "Garland, Royal Kidnapper anti-synergy"
+    },
+    {
+     "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
+     "item": "Marchesa, the Black Rose does not cleanly retain Edea's borrowed dead creature"
+    }
+   ]
+  }
+ ]
+}

@@ -1,7 +1,7 @@
 {
 "schema": 2,
 "generated_by": "scripts/kb_find.py --build",
-"entries": 474,
+"entries": 472,
 "note": "Pages, decks and lore entries (Bot cycle 31); card entries are indexed by data/card_index.csv.",
 "items": [
 {
@@ -3832,9 +3832,9 @@
 "EDH Bracket Calibration.md",
 "Knowledge Index.md",
 "Lore Primary Sources.md",
-"grixis/Grixis Authority Model.md",
 "Art & Flavor Story Links.md",
-"Card Data Conventions.md"
+"Card Data Conventions.md",
+"Characters Index.md"
 ]
 },
 {
@@ -5792,8 +5792,8 @@
 "headings": [
 [
 2,
-"2026-10-16 — Bot cycle 47 (M0: Grixis authority foundation)",
-"2026-10-16--bot-cycle-47-m0-grixis-authority-foundation"
+"2026-10-16 — Bot cycle 48 (phase 2 / M1: Spellbook step cache, batch B)",
+"2026-10-16--bot-cycle-48-phase-2--m1-spellbook-step-cache-batch-b"
 ],
 [
 2,
@@ -6151,261 +6151,6 @@
 ]
 },
 {
-"path": "grixis/Grixis Authority Gap Analysis.md",
-"kind": "page",
-"title": "Grixis Authority Gap Analysis",
-"category": "meta",
-"tags": [
-"grixis",
-"authority",
-"governance",
-"plan"
-],
-"headings": [
-[
-2,
-"0. Executive summary",
-"0-executive-summary"
-],
-[
-2,
-"(a) Status of all 24 brief sections",
-"a-status-of-all-24-brief-sections"
-],
-[
-2,
-"(b) Items to omit or modify, with reasons",
-"b-items-to-omit-or-modify-with-reasons"
-],
-[
-3,
-"2.1 Decisions only Cory can make (blockers for M0)",
-"21-decisions-only-cory-can-make-blockers-for-m0"
-],
-[
-3,
-"2.2 Impractical as written, with realistic versions",
-"22-impractical-as-written-with-realistic-versions"
-],
-[
-3,
-"2.3 Harmful or redundant (modify)",
-"23-harmful-or-redundant-modify"
-],
-[
-2,
-"(c) Milestone plan (brief merged with the queued program)",
-"c-milestone-plan-brief-merged-with-the-queued-program"
-],
-[
-2,
-"(d) Key risks",
-"d-key-risks"
-],
-[
-2,
-"(e) Recommended data model",
-"e-recommended-data-model"
-],
-[
-3,
-"File layout",
-"file-layout"
-],
-[
-3,
-"Canonical list hash",
-"canonical-list-hash"
-],
-[
-3,
-"Evidence item (shared by all records; §15)",
-"evidence-item-shared-by-all-records-15"
-],
-[
-3,
-"Blueprint (§3)",
-"blueprint-3"
-],
-[
-3,
-"Dependency graph (§4; generated)",
-"dependency-graph-4-generated"
-],
-[
-3,
-"99-slot audit (§5, §16)",
-"99-slot-audit-5-16"
-],
-[
-3,
-"Swap / challenger record (§7, §8)",
-"swap--challenger-record-7-8"
-],
-[
-3,
-"Test record (§9, §10)",
-"test-record-9-10"
-],
-[
-3,
-"Certificate (§17)",
-"certificate-17"
-],
-[
-3,
-"Registry entry (§19)",
-"registry-entry-19"
-],
-[
-3,
-"Exception (§13)",
-"exception-13"
-]
-],
-"issues": [],
-"related": [
-"grixis/Grixis Authority Model.md",
-"Front-Matter Schema.md",
-"Update Log.md",
-"grixis/README.md"
-]
-},
-{
-"path": "grixis/Grixis Authority Model.md",
-"kind": "page",
-"title": "Grixis Authority Model",
-"category": "meta",
-"tags": [
-"grixis",
-"authority",
-"governance",
-"legality",
-"approvals"
-],
-"headings": [
-[
-2,
-"Authority hierarchy",
-"authority-hierarchy"
-],
-[
-2,
-"Standing rules (Cory's binding constraints)",
-"standing-rules-corys-binding-constraints"
-],
-[
-2,
-"Deck states",
-"deck-states"
-],
-[
-2,
-"Evidence classes",
-"evidence-classes"
-],
-[
-2,
-"Legality model",
-"legality-model"
-],
-[
-2,
-"Hashes",
-"hashes"
-],
-[
-2,
-"Ceilings",
-"ceilings"
-],
-[
-2,
-"Files and checks",
-"files-and-checks"
-],
-[
-2,
-"Migration steps",
-"migration-steps"
-],
-[
-2,
-"The GPT repository's role",
-"the-gpt-repositorys-role"
-],
-[
-2,
-"Milestone acceptance criteria",
-"milestone-acceptance-criteria"
-],
-[
-3,
-"M0",
-"m0"
-],
-[
-3,
-"M1",
-"m1"
-],
-[
-3,
-"M2",
-"m2"
-],
-[
-3,
-"M3",
-"m3"
-],
-[
-3,
-"M4",
-"m4"
-],
-[
-3,
-"M5",
-"m5"
-],
-[
-3,
-"M6",
-"m6"
-],
-[
-3,
-"M7",
-"m7"
-],
-[
-3,
-"M8",
-"m8"
-],
-[
-2,
-"Testing doctrine: stress scenarios and red team",
-"testing-doctrine-stress-scenarios-and-red-team"
-],
-[
-2,
-"Why this is stricter than both earlier systems",
-"why-this-is-stricter-than-both-earlier-systems"
-]
-],
-"issues": [],
-"related": [
-"Front-Matter Schema.md",
-"grixis/Grixis Authority Gap Analysis.md",
-"grixis/Grixis Refinement Cycle.md",
-"grixis/README.md",
-"Update Log.md",
-"grixis/Grixis Evaluation.md"
-]
-},
-{
 "path": "grixis/Grixis Corrections.md",
 "kind": "page",
 "title": "Grixis Corrections",
@@ -6492,6 +6237,11 @@
 "follow-ups"
 ],
 "headings": [
+[
+2,
+"Bot cycle 48 interaction reviews",
+"bot-cycle-48-interaction-reviews"
+],
 [
 2,
 "Bot cycle 46 interaction reviews",
@@ -6699,13 +6449,13 @@
 ],
 [
 2,
-"Sac Outlet",
-"sac-outlet"
+"Burn",
+"burn"
 ],
 [
 2,
-"Burn",
-"burn"
+"Sac Outlet",
+"sac-outlet"
 ],
 [
 2,
@@ -6842,13 +6592,13 @@
 ],
 [
 3,
-"Decks with a GrokBot challenger (unapproved)",
-"decks-with-a-grokbot-challenger-unapproved"
+"Decks that changed",
+"decks-that-changed"
 ],
 [
 3,
-"Heuristic: no candidate passed v1 gates (not a certificate)",
-"heuristic-no-candidate-passed-v1-gates-not-a-certificate"
+"Decks at their ceiling (unchanged)",
+"decks-at-their-ceiling-unchanged"
 ],
 [
 3,
@@ -6970,11 +6720,6 @@
 ],
 [
 2,
-"Project exceptions",
-"project-exceptions"
-],
-[
-2,
 "Pending legality",
 "pending-legality"
 ],
@@ -6990,9 +6735,9 @@
 "61"
 ],
 "related": [
-"grixis/Grixis Packages.md",
 "EDH Standards.md",
 "grixis/Grixis Evaluation.md",
+"grixis/Grixis Packages.md",
 "EDH Deck Template.md",
 "grixis/Grixis Corrections.md",
 "grixis/Grixis Refinement Cycle.md"
@@ -12286,8 +12031,7 @@
 "grixis",
 "bracket-floor-4",
 "game-changers",
-"two-card-infinite",
-"project-exceptions"
+"two-card-infinite"
 ],
 "headings": [
 [
@@ -12339,11 +12083,6 @@
 2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
-],
-[
-2,
-"Official-legal projection (derived, not canonical)",
-"official-legal-projection-derived-not-canonical"
 ],
 [
 2,
@@ -12996,6 +12735,11 @@
 ],
 [
 2,
+"Rules notes",
+"rules-notes"
+],
+[
+2,
 "Combos (Commander Spellbook)",
 "combos-commander-spellbook"
 ],
@@ -13108,6 +12852,11 @@
 3,
 "From `refinement/approvals/Don_Andres_the_Renegade_Approved_2026-10-14.md`",
 "from-refinementapprovalsdon_andres_the_renegade_approved_2026-10-14md"
+],
+[
+2,
+"Rules notes",
+"rules-notes"
 ],
 [
 2,
@@ -13226,6 +12975,11 @@
 ],
 [
 2,
+"Rules notes",
+"rules-notes"
+],
+[
+2,
 "Combos (Commander Spellbook)",
 "combos-commander-spellbook"
 ],
@@ -13333,6 +13087,11 @@
 3,
 "From `refinement/approvals/Edea_Possessed_Sorceress_Approved_2026-10-14.md`",
 "from-refinementapprovalsedea_possessed_sorceress_approved_2026-10-14md"
+],
+[
+2,
+"Rules notes",
+"rules-notes"
 ],
 [
 2,
@@ -13447,6 +13206,11 @@
 ],
 [
 2,
+"Rules notes",
+"rules-notes"
+],
+[
+2,
 "Combos (Commander Spellbook)",
 "combos-commander-spellbook"
 ],
@@ -13558,6 +13322,11 @@
 ],
 [
 2,
+"Rules notes",
+"rules-notes"
+],
+[
+2,
 "Combos (Commander Spellbook)",
 "combos-commander-spellbook"
 ],
@@ -13666,6 +13435,11 @@
 3,
 "From `refinement/approvals/Fire_Lord_Azula_Approved_2026-10-14.md`",
 "from-refinementapprovalsfire_lord_azula_approved_2026-10-14md"
+],
+[
+2,
+"Rules notes",
+"rules-notes"
 ],
 [
 2,
@@ -13785,6 +13559,11 @@
 ],
 [
 2,
+"Rules notes",
+"rules-notes"
+],
+[
+2,
 "Combos (Commander Spellbook)",
 "combos-commander-spellbook"
 ],
@@ -13896,6 +13675,11 @@
 ],
 [
 2,
+"Rules notes",
+"rules-notes"
+],
+[
+2,
 "Combos (Commander Spellbook)",
 "combos-commander-spellbook"
 ],
@@ -14004,6 +13788,11 @@
 3,
 "From `refinement/approvals/Grixistax_October_2026_Approved_2026-10-14.md`",
 "from-refinementapprovalsgrixistax_october_2026_approved_2026-10-14md"
+],
+[
+2,
+"Rules notes",
+"rules-notes"
 ],
 [
 2,

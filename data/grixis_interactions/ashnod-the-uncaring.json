@@ -27,7 +27,7 @@
    "note": ""
   }
  ],
- "summary": "Ashnod the Uncaring copies every non-mana artifact or creature ability that sacrificed a permanent to activate. The source's correction (no once-per-turn limit, tokens count) is re-verified against current Oracle.\n\nThe main rules surprise: the Scrap Trawler + Myr Retriever loops need both artifacts sacrificed during a single cost payment. The list is unchanged; one documentation flag records the stale source wording.",
+ "summary": "Ashnod the Uncaring copies every non-mana artifact or creature ability that sacrificed a permanent to activate. The source's correction (no once-per-turn limit, tokens count) is re-verified against current Oracle.\n\nBot cycle 48: the combo lines are now checked against cached Commander Spellbook steps, which corrected this review's earlier claim that the Scrap Trawler + Myr Retriever loop needs a simultaneous sacrifice (see ashnod-08). The list is unchanged; documentation flags record the stale source wording and the corrected entry.",
  "absent": [],
  "companion": [],
  "interactions": [
@@ -245,7 +245,7 @@
   {
    "id": "ashnod-08",
    "category": "combo",
-   "title": "Scrap Trawler + Myr Retriever loops need a simultaneous sacrifice",
+   "title": "Scrap Trawler + Myr Retriever + Altar or KCI + a cost reducer",
    "cards": [
     "Ashnod the Uncaring",
     "Scrap Trawler",
@@ -256,17 +256,18 @@
     "Enthusiastic Mechanaut",
     "Foundry Inspector"
    ],
-   "ruling": "Spellbook lists Trawler + Retriever + a sacrifice-for-mana outlet (Altar or KCI) + a cost reducer as infinite artifact enters and leaves.\n\nThe returns only work if both leave together. Retriever returns Trawler, and Trawler's own death trigger returns Retriever (MV 2 < 3). If Retriever dies alone while Trawler is on the battlefield, Trawler can't return it, because its MV isn't lesser.\n\nAfter each mana ability you activate while holding priority, triggers go on the stack before you can activate the next one. So sacrifice both while paying a single cost, letting both triggers see the other card in the graveyard. With one reducer, recasting both costs 3; the sacrifices give 4.",
-   "short": "Spellbook infinite: Trawler + Retriever + Altar/KCI + reducer; sacrifice both while paying one cost.",
-   "status": "uncertain",
-   "uncertainty": "The simultaneous-sacrifice sequencing is our reading of the CR (Spellbook step text isn't cached). Sai and Crime Novelist variants follow the same pattern.",
+   "ruling": "Spellbook's line (for example 1020-1976-2034-2866, cached) is *sequential*. It starts with one artifact creature on the battlefield and the other in the graveyard:\n1. Sacrifice Myr Retriever for {C}{C}; its trigger returns Scrap Trawler to hand. Cast Trawler (reduced).\n2. Sacrifice Trawler for {C}{C}; its own death trigger returns Retriever (MV 2 < 3). Cast Retriever (reduced).\n\nWith one reducer, the two casts cost 3 and the two sacrifices give 4, so each loop nets {C}. The Sai and Crime Novelist variants replace the reducer with Thopter fodder or {R}.\n\nCorrection: the batch-A version of this entry said both had to be sacrificed during one cost payment. That was wrong. It started from both on the battlefield; Spellbook's starting position avoids that.",
+   "short": "Spellbook infinite: alternate Retriever and Trawler through an altar; a reducer makes it mana-positive.",
+   "status": "flag",
+   "flag": {
+    "kind": "documentation",
+    "note": "Corrects this review's own batch-A wording (Bot cycle 46), which said the loop needed a simultaneous sacrifice. Spellbook's sequential line, starting with one creature in the graveyard, is simpler and is now the recorded line. No list change."
+   },
    "key": true,
    "cr": [
-    "601.2g",
-    "605.3a",
-    "117.3c",
-    "117.5",
-    "603.10a"
+    "605.1a",
+    "603.10a",
+    "601.2f"
    ],
    "oracle": [
     {
@@ -278,7 +279,17 @@
      "quote": "When this creature dies, return another target artifact card from your graveyard to your hand."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "1020-1976-2034-2866",
+     "quote": "When Scrap Trawler dies, it triggers, returning Myr Retriever from your graveyard to your hand."
+    },
+    {
+     "id": "1020-2034-2866-5346",
+     "quote": "One of the artifact creatures must be on the battlefield, with the other in your graveyard."
+    }
+   ]
   },
   {
    "id": "ashnod-09",
@@ -293,9 +304,8 @@
     "Farid, Enterprising Salvager",
     "Krark-Clan Ironworks"
    ],
-   "ruling": "Nim Deathmantle returns a nontoken creature put into your graveyard for {4}.\n- **Marionette Apprentice:** sacrifice it and its Servo to the Altar for {C}{C}{C}{C}, then pay {4} to return it, making a new Servo. Each loop drains through Apprentice.\n- **Urza:** sacrifice Urza and its Construct (after tapping the Construct for {U}) for 4 mana plus {U}, so each loop nets mana.\n- **Farid with KCI:** works the same way using Scrap tokens.\n\nThe Altar is a mana ability, so Ashnod doesn't copy it.",
-   "status": "uncertain",
-   "uncertainty": "The per-loop accounting is reconstructed from Oracle text; Spellbook step text isn't cached.",
+   "ruling": "Spellbook's lines (cached) all pay {4} to Nim Deathmantle from altar mana. The Altar is a mana ability, so Ashnod doesn't copy it.\n- **Marionette Apprentice (2034-5003-6199):** sacrifice Apprentice ({C}{C}), return it with Deathmantle, sacrifice the Servo from its fabricate ({C}{C}). Each death drains opponents.\n- **Urza (457-2034-5003):** sacrifice Urza and the Construct its enter trigger makes.\n- **Farid with KCI (4659-5003-5272):** sacrifice a nontoken artifact creature, then the Scrap token from Farid, then pay Deathmantle's {4}.",
+   "status": "verified",
    "cr": [
     "605.1a",
     "603.10a"
@@ -306,7 +316,17 @@
      "quote": "Whenever a nontoken creature is put into your graveyard from the battlefield, you may pay {4}. If you do, return that card to the battlefield and attach this Equipment to it."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "2034-5003-6199",
+     "quote": "When Marionette Apprentice dies, Nim Deathmantle triggers, causing you to pay {4} to return Marionette Apprentice from your graveyard to the battlefield and attach Nim Deathmantle to it."
+    },
+    {
+     "id": "4659-5003-5272",
+     "quote": "Resolve the Farid trigger, creating a Scrap artifact token."
+    }
+   ]
   },
   {
    "id": "ashnod-10",

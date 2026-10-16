@@ -1,0 +1,394 @@
+{
+ "schema": 1,
+ "deck_id": "Dr__Eggman",
+ "slug": "dr-eggman",
+ "commanders": [
+  "Dr. Eggman"
+ ],
+ "deck_sha256": "7110223f41570f87c3e5aa879cb46f2727ab94c43f96163cd861f2561882744a",
+ "list_source": "exports/grixis-archidekt/dr-eggman.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 48,
+ "batch": "B",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
+   "note": "17 interactions, all PASS"
+  }
+ ],
+ "summary": "Dr. Eggman draws at your end step, then each opponent chooses: discard, or you may put a Construct, Robot or Vehicle from your hand onto the battlefield. This review re-verifies the seventeen items of the deck's rules attestation.\n\nKey rules: empty-handed opponents can choose 'discard' at no cost, Eggman's placement isn't a cast, and Y'shtola Rhul only adds extra end steps from the first end step. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "eggman-01",
+   "category": "commander",
+   "title": "Opponents choose one at a time, in turn order",
+   "cards": [
+    "Dr. Eggman"
+   ],
+   "ruling": "Eggman's trigger draws you a card first. Then each opponent, one at a time in APNAP order, picks an option and it's carried out before the next opponent chooses. Later opponents see any Construct, Robot or Vehicle already put onto the battlefield.",
+   "short": "Draw, then each opponent chooses and resolves in turn order; later opponents see earlier results.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "701.55a",
+    "701.55d",
+    "101.4"
+   ],
+   "oracle": [
+    {
+     "card": "Dr. Eggman",
+     "quote": "At the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
+     "item": "Dr. Eggman villainous-choice sequencing"
+    }
+   ]
+  },
+  {
+   "id": "eggman-02",
+   "category": "commander",
+   "title": "An empty-handed opponent can choose to discard and lose nothing",
+   "cards": [
+    "Dr. Eggman",
+    "Tinybones, Bauble Burglar"
+   ],
+   "ruling": "A player facing a villainous choice may pick an impossible option and do as much as possible. An opponent with no cards in hand can choose 'discard' and nothing happens. There's no fallback that forces the other option. Eggman's own placement is also a 'may'. Tinybones only triggers on an actual discard, so it gets nothing from an empty-handed 'discard' choice.",
+   "short": "Empty-handed opponents pick 'discard' for free; Tinybones then gets nothing.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "701.55b"
+   ],
+   "oracle": [
+    {
+     "card": "Tinybones, Bauble Burglar",
+     "quote": "Whenever an opponent discards a card, exile it from their graveyard with a stash counter on it."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
+     "item": "Impossible villainous-choice branch"
+    },
+    {
+     "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
+     "item": "Tinybones and actual Eggman discards"
+    }
+   ]
+  },
+  {
+   "id": "eggman-03",
+   "category": "zone",
+   "title": "Eggman's placement isn't a cast",
+   "cards": [
+    "Dr. Eggman",
+    "Vision, Spectral Synthezoid",
+    "Mechan Assembler",
+    "Weapons Manufacturing",
+    "Simulacrum Synthesizer"
+   ],
+   "ruling": "The card goes from hand directly to the battlefield, so cast triggers don't happen, but every 'enters' trigger does: Mechan Assembler (once per turn), Weapons Manufacturing (nontoken artifact), Simulacrum Synthesizer (artifact with MV 3+). Vision's free spell is a real cast, so cast triggers apply to it.",
+   "short": "Put onto the battlefield: enters triggers yes, cast triggers no. Vision's free spell is a real cast.",
+   "status": "verified",
+   "cr": [
+    "601.2",
+    "603.6a"
+   ],
+   "oracle": [
+    {
+     "card": "Mechan Assembler",
+     "quote": "Whenever another artifact you control enters, create a 2/2 colorless Robot artifact creature token. This ability triggers only once each turn."
+    },
+    {
+     "card": "Vision, Spectral Synthezoid",
+     "quote": "Once during each of your turns, you may cast a noncreature or Robot spell from your hand without paying its mana cost."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
+     "item": "Eggman placement is not casting"
+    },
+    {
+     "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
+     "item": "Vision, Spectral Synthezoid"
+    }
+   ]
+  },
+  {
+   "id": "eggman-04",
+   "category": "replacement",
+   "title": "The Valeyard makes each opponent choose twice",
+   "cards": [
+    "Dr. Eggman",
+    "The Valeyard",
+    "Davros, Dalek Creator"
+   ],
+   "ruling": "The Valeyard replaces 'face a villainous choice' with facing it an additional time. Each instance is chosen and performed separately, and the choices can differ. This works for Davros's end-step villainous choice too.",
+   "status": "verified",
+   "cr": [
+    "701.55c"
+   ],
+   "oracle": [
+    {
+     "card": "The Valeyard",
+     "quote": "If an opponent would face a villainous choice, they face that choice an additional time. (They can make the same or different choices.)"
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
+     "item": "The Valeyard with Dr. Eggman"
+    }
+   ]
+  },
+  {
+   "id": "eggman-05",
+   "category": "trigger-order",
+   "title": "Extra Eggman triggers: Roaming Throne, Spark Double, Strionic Resonator",
+   "cards": [
+    "Dr. Eggman",
+    "Roaming Throne",
+    "Spark Double",
+    "Strionic Resonator"
+   ],
+   "ruling": "Eggman is a Human Scientist. Roaming Throne naming Scientist makes his trigger trigger again; that's not a copy, and Davros (also a Scientist) benefits too. Spark Double copies him as a nonlegendary creature with its own trigger. Strionic Resonator copies the trigger on the stack. Each instance resolves fully: one draw and a new round of choices.",
+   "short": "Each extra instance = another draw plus another full round of villainous choices.",
+   "status": "verified",
+   "cr": [
+    "603.2",
+    "707.10"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Roaming Throne",
+     "quote": "Roaming Throne's last ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time."
+    },
+    {
+     "card": "Strionic Resonator",
+     "quote": "Any choices made when the triggered ability resolves won't have been made yet when it's copied."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
+     "item": "Roaming Throne naming Scientist"
+    },
+    {
+     "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
+     "item": "Spark Double copying Dr. Eggman"
+    },
+    {
+     "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
+     "item": "Strionic Resonator copying Dr. Eggman"
+    }
+   ]
+  },
+  {
+   "id": "eggman-06",
+   "category": "timing",
+   "title": "Y'shtola Rhul's extra end step retriggers Eggman",
+   "cards": [
+    "Dr. Eggman",
+    "Y'shtola Rhul"
+   ],
+   "ruling": "If Y'shtola's ability resolves during the first end step, there's an additional end step and every 'beginning of your end step' trigger fires again. If its only target is illegal on resolution, nothing happens, so there's no extra step. Several Y'shtola triggers in the first end step (including a Spark Double copy) each add an extra step. Ones triggering in the extra steps don't, because it's no longer the first end step. Damage and 'until end of turn' effects last until cleanup, after the last end step.",
+   "short": "Y'shtola resolving in the first end step adds an end step; its own later triggers don't add more.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "500.8",
+    "513.1",
+    "608.2b"
+   ],
+   "oracle": [
+    {
+     "card": "Y'shtola Rhul",
+     "quote": "Then if it's the first end step of the turn, there is an additional end step after this step."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Y'shtola Rhul",
+     "quote": "Abilities that trigger \"at the beginning of [your/the] end step\" will trigger at the beginning of each of your additional end steps as well."
+    },
+    {
+     "card": "Y'shtola Rhul",
+     "quote": "If the target creature is an illegal target as Y'shtola Rhul's ability tries to resolve, it won't resolve and none of its effects will happen. There won't be an additional end step."
+    },
+    {
+     "card": "Y'shtola Rhul",
+     "quote": "Damage marked on permanents won't be removed until you actually get to the cleanup step (which will happen after your second end step), and \"until end of turn\" and \"this turn\" effects won't end until the cleanup step either."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
+     "item": "Y'shtola Rhul additional end step"
+    },
+    {
+     "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
+     "item": "Multiple first-end-step Y'shtola effects"
+    }
+   ]
+  },
+  {
+   "id": "eggman-07",
+   "category": "zone",
+   "title": "Blinking Eggman with Y'shtola doesn't cancel the trigger already on the stack",
+   "cards": [
+    "Dr. Eggman",
+    "Y'shtola Rhul"
+   ],
+   "ruling": "Triggered abilities exist independently of their source. Blink Eggman in response to his end-step trigger and that trigger still resolves. The returned Eggman is a new object, and it triggers again in the extra end step.",
+   "status": "verified",
+   "cr": [
+    "113.7a",
+    "400.7"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Y'shtola Rhul",
+     "quote": "If a permanent with an ability that triggers \"at the beginning of the end step\" enters during your first end step, that ability won't trigger during that end step, but it will trigger during your second end step."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
+     "item": "Y'shtola blinking Eggman"
+    }
+   ]
+  },
+  {
+   "id": "eggman-08",
+   "category": "trigger-order",
+   "title": "Thopter Fabricator triggers only on the second draw",
+   "cards": [
+    "Dr. Eggman",
+    "Thopter Fabricator"
+   ],
+   "ruling": "On a normal turn your draw step is the first card, and Eggman's end-step draw is the second, so it makes one Thopter. Extra Eggman draws later that turn are the third and beyond and don't trigger Fabricator.",
+   "status": "verified",
+   "cr": [
+    "121.2",
+    "603.2"
+   ],
+   "oracle": [
+    {
+     "card": "Thopter Fabricator",
+     "quote": "Whenever you draw your second card each turn, create a 1/1 colorless Thopter artifact creature token with flying."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
+     "item": "Thopter Fabricator and Eggman's draw"
+    }
+   ]
+  },
+  {
+   "id": "eggman-09",
+   "category": "engine",
+   "title": "Construct, Robot and Vehicle supply",
+   "cards": [
+    "Dr. Eggman",
+    "Scrapyard Recombiner",
+    "Master Transmuter",
+    "Ultron, Artificial Malevolence"
+   ],
+   "ruling": "Scrapyard Recombiner is a Construct (a legal Eggman placement) and tutors Constructs to hand; it can sacrifice itself to pay its own cost. Master Transmuter returns an artifact to pay its cost and puts one from hand onto the battlefield; it can be the same card, which returns as a new object. Ultron, Artificial Malevolence can copy any nontoken artifact that enters, including one Eggman placed, for {2}; a noncreature copy becomes a 2/2 Robot.",
+   "status": "verified",
+   "cr": [
+    "602.2",
+    "400.7",
+    "707.2"
+   ],
+   "oracle": [
+    {
+     "card": "Scrapyard Recombiner",
+     "quote": "{T}, Sacrifice an artifact: Search your library for a Construct card, reveal it, put it into your hand, then shuffle."
+    },
+    {
+     "card": "Ultron, Artificial Malevolence",
+     "quote": "Whenever another nontoken artifact you control enters, you may pay {2}. If you do, create a token that's a copy of it."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Scrapyard Recombiner",
+     "quote": "You can sacrifice Scrapyard Recombiner to pay the cost of its second ability."
+    },
+    {
+     "card": "Master Transmuter",
+     "quote": "The artifact card you put onto the battlefield when the ability resolves may be the same card that you returned to your hand when you paid the cost."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
+     "item": "Scrapyard Recombiner feeds Eggman targets"
+    },
+    {
+     "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
+     "item": "Ultron, Artificial Malevolence artifact-copy trigger"
+    },
+    {
+     "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
+     "item": "Master Transmuter and artifact-enter engines"
+    }
+   ]
+  },
+  {
+   "id": "eggman-10",
+   "category": "engine",
+   "title": "One with the Machine counts on resolution",
+   "cards": [
+    "Dr. Eggman",
+    "One with the Machine"
+   ],
+   "ruling": "One with the Machine draws equal to the highest mana value among your artifacts, checked as it resolves. A big artifact Eggman put out raises it. {X} in a permanent's mana cost counts as 0.",
+   "status": "verified",
+   "cr": [
+    "202.3",
+    "608.2h"
+   ],
+   "oracle": [
+    {
+     "card": "One with the Machine",
+     "quote": "Draw cards equal to the greatest mana value among artifacts you control."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "One with the Machine",
+     "quote": "If a permanent has {X} in its mana cost, X is considered to be 0."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Rules_Attestation.json",
+     "item": "One with the Machine draw scaling"
+    }
+   ]
+  }
+ ]
+}
