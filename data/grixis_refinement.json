@@ -614,7 +614,8 @@
     "artifacts",
     "discard",
     "opponents losing life",
-    "tokens"
+    "tokens",
+    "villainous choices / voting"
    ],
    "edhrec_pages": [
     "davros-dalek-creator"
@@ -760,7 +761,8 @@
    "hooks": [
     "Construct synergy",
     "Robot synergy",
-    "discard"
+    "discard",
+    "villainous choices / voting"
    ],
    "edhrec_pages": [
     "dr-eggman"
@@ -905,7 +907,7 @@
     "nonland": 73,
     "dependence": 0.151,
     "generic_share": 0.37,
-    "mean_overlap": 0.178,
+    "mean_overlap": 0.177,
     "max_overlap": [
      0.543,
      "Kess__Dissident_Mage"
@@ -1545,7 +1547,7 @@
     "nonland": 72,
     "dependence": 0.75,
     "generic_share": 0.167,
-    "mean_overlap": 0.222,
+    "mean_overlap": 0.221,
     "max_overlap": [
      0.621,
      "Cormela__Glamour_Thief"
@@ -2146,7 +2148,7 @@
     "nonland": 64,
     "dependence": 0.812,
     "generic_share": 0.125,
-    "mean_overlap": 0.133,
+    "mean_overlap": 0.132,
     "max_overlap": [
      0.265,
      "Marchesa__the_Black_Rose"
@@ -2164,7 +2166,8 @@
    "hooks": [
     "Cyberman synergy",
     "artifacts",
-    "graveyard as a resource"
+    "graveyard as a resource",
+    "villainous choices / voting"
    ],
    "edhrec_pages": [
     "missy"
@@ -2417,7 +2420,7 @@
     "nonland": 65,
     "dependence": 0.554,
     "generic_share": 0.338,
-    "mean_overlap": 0.172,
+    "mean_overlap": 0.171,
     "max_overlap": [
      0.267,
      "Sedris__the_Traitor_King"
@@ -2518,7 +2521,7 @@
     "nonland": 64,
     "dependence": 0.688,
     "generic_share": 0.281,
-    "mean_overlap": 0.125,
+    "mean_overlap": 0.124,
     "max_overlap": [
      0.372,
      "Anhelo__the_Painter"
@@ -2574,7 +2577,7 @@
     "nonland": 74,
     "dependence": 0.986,
     "generic_share": 0.0,
-    "mean_overlap": 0.188,
+    "mean_overlap": 0.187,
     "max_overlap": [
      0.596,
      "Goben__Gene_Splice_Savant"
@@ -2784,7 +2787,7 @@
   "Sedris__the_Traitor_King": {
    "source": {
     "nonland": 68,
-    "dependence": 0.515,
+    "dependence": 0.574,
     "generic_share": 0.338,
     "mean_overlap": 0.163,
     "max_overlap": [
@@ -2806,7 +2809,7 @@
    },
    "final": {
     "nonland": 68,
-    "dependence": 0.515,
+    "dependence": 0.574,
     "generic_share": 0.338,
     "mean_overlap": 0.163,
     "max_overlap": [
@@ -2826,7 +2829,9 @@
      "Toxic Deluge"
     ]
    },
-   "hooks": [],
+   "hooks": [
+    "unearth / creature cards in your graveyard"
+   ],
    "edhrec_pages": [
     "sedris-the-traitor-king"
    ]
@@ -2834,7 +2839,7 @@
   "Sol_kanar_the_Swamp_King": {
    "source": {
     "nonland": 64,
-    "dependence": 0.344,
+    "dependence": 0.391,
     "generic_share": 0.422,
     "mean_overlap": 0.169,
     "max_overlap": [
@@ -2857,12 +2862,12 @@
    },
    "final": {
     "nonland": 64,
-    "dependence": 0.344,
-    "generic_share": 0.422,
-    "mean_overlap": 0.168,
+    "dependence": 0.406,
+    "generic_share": 0.406,
+    "mean_overlap": 0.165,
     "max_overlap": [
-     0.245,
-     "Crosis__the_Purger"
+     0.234,
+     "Mai_and_Zuko"
     ],
     "thoracle_core": [],
     "control_core": [
@@ -2878,7 +2883,10 @@
      "Toxic Deluge"
     ]
    },
-   "hooks": [],
+   "hooks": [
+    "black spells / Swamps",
+    "life gain"
+   ],
    "edhrec_pages": [
     "solkanar-the-swamp-king"
    ]
@@ -2927,6 +2935,7 @@
     ]
    },
    "hooks": [
+    "life gain",
     "opponents losing life"
    ],
    "edhrec_pages": [
@@ -2936,7 +2945,7 @@
   "Tetsuo_Umezawa": {
    "source": {
     "nonland": 64,
-    "dependence": 0.312,
+    "dependence": 0.484,
     "generic_share": 0.297,
     "mean_overlap": 0.128,
     "max_overlap": [
@@ -2954,11 +2963,11 @@
    },
    "final": {
     "nonland": 64,
-    "dependence": 0.312,
+    "dependence": 0.484,
     "generic_share": 0.297,
-    "mean_overlap": 0.128,
+    "mean_overlap": 0.127,
     "max_overlap": [
-     0.275,
+     0.262,
      "The_Rani"
     ],
     "thoracle_core": [],
@@ -2970,7 +2979,9 @@
      "Mystic Remora"
     ]
    },
-   "hooks": [],
+   "hooks": [
+    "tapping / blocking creatures"
+   ],
    "edhrec_pages": [
     "tetsuo-umezawa"
    ]
@@ -3112,11 +3123,11 @@
    },
    "final": {
     "nonland": 66,
-    "dependence": 0.606,
-    "generic_share": 0.348,
-    "mean_overlap": 0.156,
+    "dependence": 0.621,
+    "generic_share": 0.333,
+    "mean_overlap": 0.151,
     "max_overlap": [
-     0.275,
+     0.262,
      "Tetsuo_Umezawa"
     ],
     "thoracle_core": [],
@@ -3127,7 +3138,6 @@
      "Fierce Guardianship",
      "Force of Will",
      "Mana Drain",
-     "Mystic Remora",
      "Rhystic Study",
      "Swan Song",
      "Toxic Deluge"
@@ -3145,7 +3155,7 @@
   "The_Valeyard": {
    "source": {
     "nonland": 63,
-    "dependence": 0.54,
+    "dependence": 0.587,
     "generic_share": 0.381,
     "mean_overlap": 0.152,
     "max_overlap": [
@@ -3167,7 +3177,7 @@
    },
    "final": {
     "nonland": 63,
-    "dependence": 0.54,
+    "dependence": 0.587,
     "generic_share": 0.381,
     "mean_overlap": 0.152,
     "max_overlap": [
@@ -3187,7 +3197,9 @@
      "Rhystic Study"
     ]
    },
-   "hooks": [],
+   "hooks": [
+    "villainous choices / voting"
+   ],
    "edhrec_pages": [
     "the-valeyard"
    ]
@@ -3359,7 +3371,7 @@
     "nonland": 65,
     "dependence": 0.908,
     "generic_share": 0.062,
-    "mean_overlap": 0.136,
+    "mean_overlap": 0.135,
     "max_overlap": [
      0.215,
      "Anhelo__the_Painter"

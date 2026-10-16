@@ -52,6 +52,22 @@
   "Sauron__Lord_of_the_Rings|Windfall|Palantír of Orthanc": {
    "verdict": "reject",
    "why": "Windfall is now protected as part of the discard-to-graveyard reanimation core. Palantír of Orthanc mills and draws slowly each end step, which does not do more than a one-shot hand refill that also stocks the graveyard."
+  },
+  "Sol_kanar_the_Swamp_King|Windfall|Well of Lost Dreams": {
+   "verdict": "accept",
+   "why": "Sol'kanar's \"Whenever a player casts a black spell, you gain 1 life.\" fires on every player's black spell, and the list adds Exquisite Blood, Vito, Sheoldred, the Apocalypse, Bloodthirsty Conqueror and Enduring Tenacity. Well of Lost Dreams (\"Whenever you gain life, you may pay {X}… draw X cards\") turns that life into a repeatable draw engine. Windfall is a one-shot refill and the weaker of the two wheels. Wheel of Fortune stays and still pairs with Underworld Dreams. 31.7% vs 7.6% of Sol'kanar decks; MV 3→4 (draw for draw, within +1)."
+  },
+  "Sol_kanar_the_Swamp_King|Wheel of Fortune|Ayara, First of Locthwain": {
+   "verdict": "reject",
+   "why": "Wheel of Fortune is the deck's remaining wheel. With Underworld Dreams it hits each opponent for 7, and that life loss feeds Exquisite Blood and Vito. Ayara only triggers on black creatures entering, and the list runs about 12 creatures. Not clearly more. Wheel of Fortune is now protected."
+  },
+  "The_Rani|Mystic Remora|Idol of Oblivion": {
+   "verdict": "accept",
+   "why": "The Rani creates a Mark of the Rani Aura token each time she enters or attacks (\"create a red Aura enchantment token named Mark of the Rani\"), and her goad trigger investigates (Clue tokens). The list adds Academy Manufactor, Erdwal Illuminator and Forensic Gadgeteer, so Idol of Oblivion (\"{T}: Draw a card. Activate only if you created a token this turn.\") draws on most of her turns and becomes a 10/10 late. Mystic Remora is a turn-1 tax engine that has to be dropped after a few upkeeps, and The Rani's own players run it in 7.1% of decks vs 16.6% for Idol. Ranks 191 vs 101 are within the guard; MV 1→2, draw for draw."
+  },
+  "Thraximundar|Reanimate|Village Rites": {
+   "verdict": "reject",
+   "why": "The list already runs seven repeatable sacrifice outlets (Altar of Dementia, Ashnod's Altar, Phyrexian Altar, Carrion Feeder, Goblin Bombardment, Warren Soultrader, Yawgmoth) plus Skullclamp. A one-shot outlet adds little. Reanimate is the deck's cheapest recursion: it returns a sacrificed threat or an opponent's best creature lost to Thraximundar's edict, and it is protected now."
   }
  },
  "overlap": {
@@ -83,6 +99,18 @@
     "Windfall"
    ],
    "why": "Discards every hand into graveyards for the Entomb / Buried Alive / Animate Dead / Necromancy / Reanimate package and Sauron's cast-trigger return."
+  },
+  "Sol_kanar_the_Swamp_King": {
+   "cards": [
+    "Wheel of Fortune"
+   ],
+   "why": "Remaining wheel; with Underworld Dreams each opponent takes 7, which Exquisite Blood and Vito turn into more drain."
+  },
+  "Thraximundar": {
+   "cards": [
+    "Reanimate"
+   ],
+   "why": "Cheapest recursion in a sacrifice deck. It brings back a sacrificed threat, or an opponent's creature lost to Thraximundar's edict."
   }
  },
  "manual_swaps": {
@@ -146,6 +174,53 @@
    "cycle": 42,
    "verdict": "identity confirmed after a scoring fix; 1 hand-picked swap",
    "tradeoff": "The 31% score was mostly our gap. Nicol's trigger is \"Whenever Nicol Bolas deals damage to an opponent\", and the combat hook did not cover it until this cycle. The list is already built to make him connect or deal damage: Lightning Greaves, Swiftfoot Boots, Sword of Feast and Famine, Pain for All, Chandra's Ignition, Kediss, Emberclaw Familiar. It also punishes the hand discard: Liliana's Caress, Raiders' Wake, Waste Not, the Tinybones pair, Torment of Hailfire. Pain for All, Chandra's Ignition and Kediss look generic, but each makes Nicol himself deal damage to an opponent, so they stay. One change: No Mercy (defensive) → Megrim (another discard payoff)."
+  },
+  "Sol_kanar_the_Swamp_King": {
+   "cycle": 43,
+   "verdict": "identity confirmed after a scoring fix; 1 swap",
+   "tradeoff": "The low 34% score was our gap. Sol'kanar's \"Whenever a player casts a black spell, you gain 1 life.\" matched no hook until the cycle 43 \"life gain\" and \"black spells / Swamps\" hooks (now 39%). The list is a black life-swing deck: Aetherflux Reservoir, Exquisite Blood and Vito with drain and life-gain cards (Bloodthirsty Conqueror, Marauding Blight-Priest, Starscape Cleric, Enduring Tenacity, Bloodchief Ascension), Gray Merchant, Cabal Coffers / Crypt Ghast for black mana. The generic share (42%) is the fast mana and interaction a ceiling list needs. One swap: Windfall → Well of Lost Dreams."
+  },
+  "Tetsuo_Umezawa": {
+   "cycle": 43,
+   "verdict": "identity confirmed after a scoring fix; unchanged",
+   "tradeoff": "Tetsuo's text (\"{U}{B}{B}{R}, {T}: Destroy target tapped or blocking creature.\") matched no hook until the cycle 43 \"tapping / blocking creatures\" hook (31% → 48%; the hook covers tappers, untappers, ability copiers and goad). The list is a tap-and-untap removal engine: untappers (Aphetto Alchemist, Fatestitcher, Magewright's Stone, Thousand-Year Elixir), ability copiers (Rings of Brighthearth, Illusionist's Bracers), tappers (Flood, Frozen Aether, Sink into Stupor, Blustersquall), forced attacks (Disrupt Decorum), which leave creatures tapped, and Maze of Ith / Propaganda. The automatic plan found no generic card with a stronger Tetsuo-specific replacement, so the list is left as is."
+  },
+  "Thraximundar": {
+   "cycle": 43,
+   "verdict": "unchanged; source flag kept",
+   "tradeoff": "67% commander dependence; the automatic candidate (Reanimate → Village Rites) was rejected in writing. ⚠️ Flag kept from Bot cycle 37: the source state's `whole_list_audit_artifact` points to `refinement/decisions/Thraximundar_Whole_List_Audit_v2_2026-10-15.csv`, which does not exist at `1836b97` (re-checked this cycle). The file on disk is `refinement/audits/Thraximundar_Whole_List_Audit_2026-10-15.csv`. We did not modify the source."
+  },
+  "Fire_Lord_Azula": {
+   "cycle": 43,
+   "verdict": "cEDH ceiling; identity-first version would be weaker; unchanged (flagged)",
+   "tradeoff": "Added late: Azula's 25% score is under the hand-review line, but batch 2 (Bot cycle 40) ran before that rule was applied to every deck. The list is a cEDH turbo shell: Thassa's Oracle, Demonic Consultation / Tainted Pact, Ad Nauseam, Underworld Breach with Lion's Eye Diamond and Brain Freeze, fast mana, and free counterspells. Azula is used as an attacking copy engine: \"Whenever you cast a spell while Fire Lord Azula is attacking, copy that spell.\" Her support is haste (Expedite, Crimson Wisps), Birgi's mana for every spell cast, instant-speed sorceries (Quicken, Borne Upon a Wind), and copied rituals and tutors. Swapping the combo core for more attack-copy payoffs would lower the deck's ceiling, so the list is left as is. Same tradeoff as Evelyn."
+  },
+  "Garza_Zol__Plague_Queen": {
+   "cycle": 43,
+   "verdict": "identity confirmed; unchanged",
+   "tradeoff": "Added late: Garza's 31% score is near the hand-review line (batch 2, Bot cycle 40). Garza is a flying, hasty Voltron commander: \"Whenever Garza Zol deals combat damage to a player, you may draw a card.\" The low score comes from equipment (Swords of Feast and Famine and Fire and Ice, Shadowspear, Blackblade Reforged, Commander's Plate, Grafted Exoskeleton, Quietus Spike) and pump spells (Hatred, Psychotic Fury). Their text names \"equipped creature\" or \"target creature\", not combat damage, but every one of them is there to make Garza connect. The automatic plan found no stronger Garza-specific replacement, so the list is left as is."
   }
+ },
+ "final": {
+  "flags": [
+   {
+    "deck": "Evelyn__the_Covetous",
+    "item": "Identity vs ceiling tradeoff (Bot cycle 41 hand review): the list wins through a cEDH combo core (Worldgorger Dragon with Animate Dead / Necromancy, Thassa's Oracle with Tainted Pact / Demonic Consultation, Underworld Breach with Brain Freeze). Evelyn adds value, not the win line. An identity-first Vampire build would be clearly weaker, so the list is left as is and flagged. Same call for Fire Lord Azula (Bot cycle 43 late hand review)."
+   },
+   {
+    "deck": "Thraximundar",
+    "item": "Source state file: `whole_list_audit_artifact` points to `refinement/decisions/Thraximundar_Whole_List_Audit_v2_2026-10-15.csv`, which does not exist at `1836b97` (re-checked in Bot cycle 43). The file on disk is `refinement/audits/Thraximundar_Whole_List_Audit_2026-10-15.csv`. Reported, not fixed: the source is read-only for us."
+   },
+   {
+    "deck": null,
+    "item": "Archidekt import not tested in Archidekt itself. The export files are checked offline: format matches the source's own Archidekt package (`exports/archidekt_2026-10-15/`), each file matches its deck page card for card, every file is 100 cards with the commander line(s) first and tagged `[Commander]`, and every file passes `evaluate_decklist.check`. Nobody has pasted them into Archidekt yet. Do that once per deck before relying on the `[Commander]` category."
+   },
+   {
+    "deck": "Kefka__Court_Mage",
+    "item": "Open idea, not applied: Mystic Remora → Monument to Endurance (hand-picked, Bot cycle 41). The role/MV parity gate rejects it (cut MV 1, add MV 3). The identity case is real: Kefka's \"each player discards a card\" turns Monument into draw, Treasure, or a 3-point drain each turn. A draw-role cut at MV 2 or more would let it pass. Left open for Cory's call."
+   }
+  ],
+  "pending_followup": "On or after 2026-10-19 (scheduled follow-up: 2026-10-20), run `python3 scripts/activate_pending_grixis.py`. It refreshes the Scryfall bulk, re-checks the `mbc` cards (The Madcap Jester, Dragon's Smile, Tresserhorn's Lord, Returned) and flips both decks from ⏳ pending to active. Then run their refinement pass: `python3 scripts/grixis_refine.py --plan 6 --cycle <N> --decks The_Madcap_Jester,Tresserhorn_s_Lord__Returned`, then `rebuild_enrichment.sh`. `validate_all` fails a pending deck once its `legal_from` date has passed, so this cannot be forgotten. Lord of Tresserhorn is a different, already-legal deck (batch 3).",
+  "homogenization": "Measured on the final lists. Most shared cards are fast mana, tutors and free interaction (see the table): the Game Changer-era ceiling cards any Grixis list at Bracket 4+ plays. That is principle 2 (no artificial weakening), not homogenization, so none of them was cut for being shared. Where overlap was high (the Kess pairs below), the hand review found the shared core explained by each commander's text except for part of Kefka's list, and Kefka was refined in batch 3. The refinement cut only generic cards with no hook to their commander. Every add carries an Oracle hook, so each changed list moved away from the shared core, not toward it."
  }
 }

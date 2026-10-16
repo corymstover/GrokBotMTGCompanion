@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 43 (Grixis refinement batch 5, end-of-cycle summary, v2.5-grixis-refinement)](#2026-10-16--bot-cycle-43-grixis-refinement-batch-5-end-of-cycle-summary-v25-grixis-refinement)
 - [2026-10-16 — Bot cycle 42 (Grixis refinement batch 4)](#2026-10-16--bot-cycle-42-grixis-refinement-batch-4)
 - [2026-10-16 — Bot cycle 41 (Grixis refinement batch 3, hand-picked swaps, hand reviews)](#2026-10-16--bot-cycle-41-grixis-refinement-batch-3-hand-picked-swaps-hand-reviews)
 - [2026-10-16 — Bot cycle 40 (Grixis refinement: power guard, batch-1 re-check, batch 2)](#2026-10-16--bot-cycle-40-grixis-refinement-power-guard-batch-1-re-check-batch-2)
@@ -57,11 +58,39 @@ schema: 2
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
 
+## 2026-10-16 — Bot cycle 43 (Grixis refinement batch 5, end-of-cycle summary, v2.5-grixis-refinement)
+- **Batch 5 (10 decks):** Sedris, Sol'kanar the Swamp King, Sol'kanar the Tainted, Tetsuo Umezawa, Tetsuo Imperial Champion, The Rani, The Valeyard, Thraximundar, Wick, Zevlor.
+  - **2 refined:**
+    - Sol'kanar the Swamp King: −Windfall +Well of Lost Dreams. "Whenever a player casts a black spell, you gain 1 life" becomes repeatable card draw.
+    - The Rani: −Mystic Remora +Idol of Oblivion. Her Mark of the Rani Aura tokens and Clues let it draw on most turns.
+  - **8 at/near ceiling.**
+  - **2 automatic candidates rejected in writing:**
+    - Wheel of Fortune → Ayara: Wheel stays with Underworld Dreams.
+    - Reanimate → Village Rites: Thraximundar already has seven sacrifice outlets.
+  - Wheel of Fortune (Sol'kanar) and Reanimate (Thraximundar) are now protected.
+- **Hand reviews:**
+  - Batch 5: Sol'kanar the Swamp King and Tetsuo Umezawa.
+  - Thraximundar: its existing flag is kept. The source state's audit path `refinement/decisions/Thraximundar_Whole_List_Audit_v2_2026-10-15.csv` is still missing at `1836b97`.
+  - Late hand reviews for two batch 2 decks that were under or near the line: Fire Lord Azula (25%; cEDH ceiling, same tradeoff as Evelyn, flagged) and Garza Zol (31%; Voltron identity confirmed). Neither list changed.
+- **Scoring fixes:** new hooks for unearth (Sedris), life gain and black spells / Swamps (Sol'kanar), tapping / blocking creatures (Tetsuo Umezawa), and villainous choice / voting (The Valeyard). All four commanders matched no hook before.
+- **End state:** all 60 legal decks reviewed.
+  - 6 changed, with 7 swaps (3 hand-picked).
+  - 54 at/near ceiling.
+  - 17 written verdicts on automatic candidates (4 accepted, 13 rejected).
+  - 8 hand reviews.
+- **Grixis Refinement Cycle.md:** new end-of-cycle summary section. It covers the method, the changed decks with their identity impact, the decks at ceiling, flagged items (Evelyn/Azula tradeoff, Thraximundar audit path, Archidekt import not tested in Archidekt, Kefka's Monument to Endurance idea left open), homogenization and overlap findings, and the two pending decks with the 2026-10-20 follow-up. The batch log now counts written verdicts for each batch.
+- **Exports:**
+  - The export README now carries per-deck key notes: dependence, hooks, hand-review verdict, flags, protected cards. It also has an import-notes section.
+  - Final export pass in `validate_all`: every file has well-formed `N Name` lines, the commander line(s) first as `1 Name [Commander]`, exactly 100 cards, and no repeated lines.
+- **Batch 4 miscount fixed:** 7 verdicts covering 6 cards (Consider twice). The merged PR #113 body was corrected the same way (one `gh api` PATCH; `gh pr edit` fails on the Projects-classic deprecation).
+- **Source:** pulled again, still at `1836b97`.
+- Tagged `v2.5-grixis-refinement` after merge. `validate_all` PASS.
+
 ## 2026-10-16 — Bot cycle 42 (Grixis refinement batch 4)
 - **Batch 4 (12 decks):** Missy, Nathan Drake, Nekusar, Nicol Bolas, Nicol Bolas the Ravager, both Obekas, Parnesse, Rograkh + Silas Renn, Saruman, both Saurons.
   - 1 refined: Nicol Bolas, No Mercy → Megrim (hand-picked). Nicol's "deals damage to an opponent" makes that player discard their hand, so each card discarded deals 2.
   - 11 at/near ceiling.
-  - 6 automatic candidates passed the guard and were rejected in writing (Aqueous Form, Faithless Looting, Lavaspur Boots, Consider, Deep Analysis, Palantír of Orthanc). Each replaced a stronger or core card. Windfall is now protected in Sauron, Lord of the Rings as part of the reanimation core.
+  - Automatic candidates that passed the guard got 7 written reject verdicts covering 6 cards: Aqueous Form, Faithless Looting, Lavaspur Boots, Consider (twice: for Mystic Remora and for Windfall), Deep Analysis, Palantír of Orthanc. *(Corrected in Bot cycle 43; the original entry said 6 candidates.)* Each replaced a stronger or core card. Windfall is now protected in Sauron, Lord of the Rings as part of the reanimation core.
 - **Hand review:** Nicol Bolas. The low 31% score was mostly a hook gap; with the "deals damage to an opponent" hook it is 40%. The list is a connect-and-punish deck (boots, Sword of Feast and Famine, Pain for All, Chandra's Ignition, Kediss; Liliana's Caress, Raiders' Wake, Waste Not).
 - **Scoring fixes:**
   - New "opponents drawing" hook (Nekusar had no hook before).

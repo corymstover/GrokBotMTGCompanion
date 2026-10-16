@@ -213,6 +213,8 @@ Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
 - **Commander dependence:** 31% → **31%** · generic share 38% → **38%** · mean overlap with the other 61 lists 16% → **16%**.
 - **Decision:** at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged.
 
+> 🔎 **Hand review (Bot cycle 43): identity confirmed; unchanged.** Added late: Garza's 31% score is near the hand-review line (batch 2, Bot cycle 40). Garza is a flying, hasty Voltron commander: "Whenever Garza Zol deals combat damage to a player, you may draw a card." The low score comes from equipment (Swords of Feast and Famine and Fire and Ice, Shadowspear, Blackblade Reforged, Commander's Plate, Grafted Exoskeleton, Quietus Spike) and pump spells (Hatred, Psychotic Fury). Their text names "equipped creature" or "target creature", not combat damage, but every one of them is there to make Garza connect. The automatic plan found no stronger Garza-specific replacement, so the list is left as is.
+
 **Considered and rejected:** −Deadly Rollick +Olivia Voldaren (power guard: overall EDHREC rank 6491 vs cut 106 (more than 4x / +2000 worse); the cut can be cast for free; the add cannot (tempo downgrade))
 
 ### Refinement log
@@ -220,6 +222,7 @@ Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
 | Date | Cycle | Change | Cards added | Cards removed |
 |---|---|---|---|---|
 | 2026-10-16 | Bot cycle 40 (batch 2) | reviewed: at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged | — | — |
+| 2026-10-16 | Bot cycle 43 (batch 2 hand review) | late hand review (identity confirmed; unchanged): list unchanged | — | — |
 <!-- REFINED:END -->
 
 ## Card breakdown

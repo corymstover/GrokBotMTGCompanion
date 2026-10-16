@@ -82,6 +82,22 @@
     "Sauron__Lord_of_the_Rings",
     "Sauron__the_Dark_Lord"
    ]
+  },
+  "5": {
+   "cycle": 43,
+   "date": "2026-10-16",
+   "decks": [
+    "Sedris__the_Traitor_King",
+    "Sol_kanar_the_Swamp_King",
+    "Sol_kanar_the_Tainted",
+    "Tetsuo_Umezawa",
+    "Tetsuo__Imperial_Champion",
+    "The_Rani",
+    "The_Valeyard",
+    "Thraximundar",
+    "Wick__the_Whorled_Mind",
+    "Zevlor__Elturel_Exile"
+   ]
   }
  },
  "decks": {
@@ -1259,6 +1275,263 @@
     }
    ],
    "needs_review": []
+  },
+  "Sedris__the_Traitor_King": {
+   "deck": "Sedris__the_Traitor_King",
+   "batch": 5,
+   "cycle": 43,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "sedris-the-traitor-king"
+   ],
+   "rejected": [
+    {
+     "cut": "Deadly Rollick",
+     "add": "Ravenous Chupacabra",
+     "by": "power guard",
+     "why": "the cut can be cast for free; the add cannot (tempo downgrade)"
+    }
+   ],
+   "needs_review": []
+  },
+  "Sol_kanar_the_Swamp_King": {
+   "deck": "Sol_kanar_the_Swamp_King",
+   "batch": 5,
+   "cycle": 43,
+   "date": "2026-10-16",
+   "swaps": [
+    {
+     "cut": "Windfall",
+     "add": "Well of Lost Dreams",
+     "cycle": 43,
+     "guard": [
+      "commander-page inclusion 31.7% vs cut 7.6%",
+      "overall EDHREC rank 1122 vs 159"
+     ],
+     "review": "Sol'kanar's \"Whenever a player casts a black spell, you gain 1 life.\" fires on every player's black spell, and the list adds Exquisite Blood, Vito, Sheoldred, the Apocalypse, Bloodthirsty Conqueror and Enduring Tenacity. Well of Lost Dreams (\"Whenever you gain life, you may pay {X}… draw X cards\") turns that life into a repeatable draw engine. Windfall is a one-shot refill and the weaker of the two wheels. Wheel of Fortune stays and still pairs with Underworld Dreams. 31.7% vs 7.6% of Sol'kanar decks; MV 3→4 (draw for draw, within +1).",
+     "roles": [
+      "draw"
+     ],
+     "add_roles": [
+      "draw"
+     ],
+     "hook": {
+      "label": "life gain",
+      "commander": "Sol'kanar the Swamp King",
+      "commander_text": "Whenever a player casts a black spell, you gain 1 life.",
+      "card_text": "Whenever you gain life, you may pay {X}, where X is less than or equal to the amount of life you gained"
+     },
+     "add_edhrec": [
+      32,
+      31.7,
+      264,
+      834
+     ],
+     "cut_edhrec": [
+      -16,
+      7.6,
+      63,
+      834
+     ],
+     "cut_freq": 20,
+     "mv": [
+      3.0,
+      4.0
+     ]
+    }
+   ],
+   "decision": "refined: 1 swap(s)",
+   "edhrec_pages": [
+    "solkanar-the-swamp-king"
+   ],
+   "rejected": [],
+   "needs_review": []
+  },
+  "Sol_kanar_the_Tainted": {
+   "deck": "Sol_kanar_the_Tainted",
+   "batch": 5,
+   "cycle": 43,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+   "edhrec_pages": [
+    "solkanar-the-tainted"
+   ],
+   "rejected": [],
+   "needs_review": []
+  },
+  "Tetsuo_Umezawa": {
+   "deck": "Tetsuo_Umezawa",
+   "batch": 5,
+   "cycle": 43,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+   "edhrec_pages": [
+    "tetsuo-umezawa"
+   ],
+   "rejected": [],
+   "needs_review": []
+  },
+  "Tetsuo__Imperial_Champion": {
+   "deck": "Tetsuo__Imperial_Champion",
+   "batch": 5,
+   "cycle": 43,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: commander dependence 84% ≥ 60% and generic share 14% ≤ 15%; unchanged",
+   "edhrec_pages": [
+    "tetsuo-imperial-champion"
+   ]
+  },
+  "The_Rani": {
+   "deck": "The_Rani",
+   "batch": 5,
+   "cycle": 43,
+   "date": "2026-10-16",
+   "swaps": [
+    {
+     "cut": "Mystic Remora",
+     "add": "Idol of Oblivion",
+     "cycle": 43,
+     "guard": [
+      "commander-page inclusion 16.6% vs cut 7.1%",
+      "overall EDHREC rank 191 vs 101"
+     ],
+     "review": "The Rani creates a Mark of the Rani Aura token each time she enters or attacks (\"create a red Aura enchantment token named Mark of the Rani\"), and her goad trigger investigates (Clue tokens). The list adds Academy Manufactor, Erdwal Illuminator and Forensic Gadgeteer, so Idol of Oblivion (\"{T}: Draw a card. Activate only if you created a token this turn.\") draws on most of her turns and becomes a 10/10 late. Mystic Remora is a turn-1 tax engine that has to be dropped after a few upkeeps, and The Rani's own players run it in 7.1% of decks vs 16.6% for Idol. Ranks 191 vs 101 are within the guard; MV 1→2, draw for draw.",
+     "roles": [
+      "draw"
+     ],
+     "add_roles": [
+      "draw"
+     ],
+     "hook": {
+      "label": "tokens",
+      "commander": "The Rani",
+      "commander_text": "Whenever The Rani enters or attacks, create a red Aura enchantment token named Mark of the Rani attached to another target creature",
+      "card_text": "Activate only if you created a token this turn."
+     },
+     "add_edhrec": [
+      15,
+      16.6,
+      393,
+      2368
+     ],
+     "cut_edhrec": [
+      -8,
+      7.1,
+      169,
+      2368
+     ],
+     "cut_freq": 36,
+     "mv": [
+      1.0,
+      2.0
+     ]
+    }
+   ],
+   "decision": "refined: 1 swap(s)",
+   "edhrec_pages": [
+    "the-rani"
+   ],
+   "rejected": [
+    {
+     "cut": "Reanimate",
+     "add": "Popular Entertainer",
+     "by": "power guard",
+     "why": "overall EDHREC rank 9043 vs cut 53 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Reanimate",
+     "add": "Fell Beast's Shriek",
+     "by": "power guard",
+     "why": "overall EDHREC rank 14835 vs cut 53 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Reanimate",
+     "add": "Piper Wright, Publick Reporter",
+     "by": "power guard",
+     "why": "overall EDHREC rank 6408 vs cut 53 (more than 4x / +2000 worse)"
+    }
+   ],
+   "needs_review": []
+  },
+  "The_Valeyard": {
+   "deck": "The_Valeyard",
+   "batch": 5,
+   "cycle": 43,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+   "edhrec_pages": [
+    "the-valeyard"
+   ],
+   "rejected": [],
+   "needs_review": []
+  },
+  "Thraximundar": {
+   "deck": "Thraximundar",
+   "batch": 5,
+   "cycle": 43,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+   "edhrec_pages": [
+    "thraximundar"
+   ],
+   "rejected": [],
+   "needs_review": []
+  },
+  "Wick__the_Whorled_Mind": {
+   "deck": "Wick__the_Whorled_Mind",
+   "batch": 5,
+   "cycle": 43,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: all 4 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "wick-the-whorled-mind"
+   ],
+   "rejected": [
+    {
+     "cut": "Blasphemous Act",
+     "add": "Swarmyard Massacre",
+     "by": "power guard",
+     "why": "overall EDHREC rank 2229 vs cut 22 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Toxic Deluge",
+     "add": "Crypt Rats",
+     "by": "power guard",
+     "why": "overall EDHREC rank 5663 vs cut 65 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Blasphemous Act",
+     "add": "Crypt Rats",
+     "by": "power guard",
+     "why": "commander-page inclusion 18.4% < cut's 33.2% (this commander's players keep the cut more often); overall EDHREC rank 5663 vs cut 22 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Blasphemous Act",
+     "add": "Bloodline Bidding",
+     "by": "power guard",
+     "why": "commander-page inclusion 18.2% < cut's 33.2% (this commander's players keep the cut more often); overall EDHREC rank 2449 vs cut 22 (more than 4x / +2000 worse)"
+    }
+   ],
+   "needs_review": []
+  },
+  "Zevlor__Elturel_Exile": {
+   "deck": "Zevlor__Elturel_Exile",
+   "batch": 5,
+   "cycle": 43,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: commander dependence 91% ≥ 60% and generic share 6% ≤ 15%; unchanged",
+   "edhrec_pages": [
+    "zevlor-elturel-exile"
+   ]
   }
  },
  "log": {
@@ -1584,6 +1857,14 @@
     "change": "reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
     "added": [],
     "removed": []
+   },
+   {
+    "date": "2026-10-16",
+    "cycle": 43,
+    "batch": "2 hand review",
+    "change": "late hand review (cEDH ceiling; identity-first version would be weaker; unchanged (flagged)): list unchanged",
+    "added": [],
+    "removed": []
    }
   ],
   "Garza_Zol__Plague_Queen": [
@@ -1592,6 +1873,14 @@
     "cycle": 40,
     "batch": 2,
     "change": "reviewed: at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   },
+   {
+    "date": "2026-10-16",
+    "cycle": 43,
+    "batch": "2 hand review",
+    "change": "late hand review (identity confirmed; unchanged): list unchanged",
     "added": [],
     "removed": []
    }
@@ -1906,6 +2195,114 @@
     "cycle": 42,
     "batch": 4,
     "change": "reviewed: at/near ceiling: all 4 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Sedris__the_Traitor_King": [
+   {
+    "date": "2026-10-16",
+    "cycle": 43,
+    "batch": 5,
+    "change": "reviewed: at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Sol_kanar_the_Swamp_King": [
+   {
+    "date": "2026-10-16",
+    "cycle": 43,
+    "batch": 5,
+    "change": "hand review (identity confirmed after a scoring fix; 1 swap); 1 commander-first swap(s): life gain",
+    "added": [
+     "Well of Lost Dreams"
+    ],
+    "removed": [
+     "Windfall"
+    ]
+   }
+  ],
+  "Sol_kanar_the_Tainted": [
+   {
+    "date": "2026-10-16",
+    "cycle": 43,
+    "batch": 5,
+    "change": "reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Tetsuo_Umezawa": [
+   {
+    "date": "2026-10-16",
+    "cycle": 43,
+    "batch": 5,
+    "change": "hand review (identity confirmed after a scoring fix; unchanged); reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Tetsuo__Imperial_Champion": [
+   {
+    "date": "2026-10-16",
+    "cycle": 43,
+    "batch": 5,
+    "change": "reviewed: at/near ceiling: commander dependence 84% ≥ 60% and generic share 14% ≤ 15%; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "The_Rani": [
+   {
+    "date": "2026-10-16",
+    "cycle": 43,
+    "batch": 5,
+    "change": "1 commander-first swap(s): tokens",
+    "added": [
+     "Idol of Oblivion"
+    ],
+    "removed": [
+     "Mystic Remora"
+    ]
+   }
+  ],
+  "The_Valeyard": [
+   {
+    "date": "2026-10-16",
+    "cycle": 43,
+    "batch": 5,
+    "change": "reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Thraximundar": [
+   {
+    "date": "2026-10-16",
+    "cycle": 43,
+    "batch": 5,
+    "change": "hand review (unchanged; source flag kept); reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Wick__the_Whorled_Mind": [
+   {
+    "date": "2026-10-16",
+    "cycle": 43,
+    "batch": 5,
+    "change": "reviewed: at/near ceiling: all 4 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Zevlor__Elturel_Exile": [
+   {
+    "date": "2026-10-16",
+    "cycle": 43,
+    "batch": 5,
+    "change": "reviewed: at/near ceiling: commander dependence 91% ≥ 60% and generic share 6% ≤ 15%; unchanged",
     "added": [],
     "removed": []
    }
@@ -2697,6 +3094,314 @@
      "infinite": true
     }
    ],
+   "queried": "2026-10-16"
+  },
+  "Sol_kanar_the_Swamp_King": {
+   "sig": [
+    "Aetherflux Reservoir",
+    "Alhammarret's Archive",
+    "Ancient Tomb",
+    "Arcane Signet",
+    "Badlands",
+    "Baleful Strix",
+    "Beseech the Mirror",
+    "Black Market Connections",
+    "Blanket of Night",
+    "Blood Crypt",
+    "Bloodchief Ascension",
+    "Bloodletter of Aclazotz",
+    "Bloodstained Mire",
+    "Bloodthirsty Conqueror",
+    "Bojuka Bog",
+    "Bolas's Citadel",
+    "Bontu's Monument",
+    "Cabal Coffers",
+    "Chrome Mox",
+    "City of Brass",
+    "Command Tower",
+    "Consuming Corruption",
+    "Counterspell",
+    "Crypt Ghast",
+    "Cyclonic Rift",
+    "Dark Ritual",
+    "Deadly Rollick",
+    "Deflecting Swat",
+    "Demon's Horn",
+    "Demonic Tutor",
+    "Dimir Signet",
+    "Dread Presence",
+    "Enduring Tenacity",
+    "Exquisite Blood",
+    "Exsanguinate",
+    "Fell the Profane // Fell Mire",
+    "Fierce Guardianship",
+    "Flooded Strand",
+    "Gray Merchant of Asphodel",
+    "Grindstone",
+    "Imperial Seal",
+    "Jeska's Will",
+    "Jet Medallion",
+    "K'rrik, Son of Yawgmoth",
+    "Lotus Petal",
+    "Luxury Suite",
+    "Mana Confluence",
+    "Mana Drain",
+    "Mana Vault",
+    "Marauding Blight-Priest",
+    "Marsh Flats",
+    "Misty Rainforest",
+    "Morphic Pool",
+    "Mox Diamond",
+    "Mystic Remora",
+    "Otawara, Soaring City",
+    "Painter's Servant",
+    "Polluted Delta",
+    "Rakdos Charm",
+    "Rakdos Signet",
+    "Raucous Theater",
+    "Rhystic Study",
+    "Scalding Tarn",
+    "Sensei's Divining Top",
+    "Sheoldred, the Apocalypse",
+    "Smoldering Marsh",
+    "Sol Ring",
+    "Sol'kanar the Swamp King",
+    "Starscape Cleric",
+    "Steam Vents",
+    "Sunken Hollow",
+    "Swamp",
+    "Swan Song",
+    "Takenuma, Abandoned Mire",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence",
+    "The One Ring",
+    "The Soul Stone",
+    "Torment of Hailfire",
+    "Toxic Deluge",
+    "Training Center",
+    "Undercity Sewers",
+    "Underground Sea",
+    "Underworld Dreams",
+    "Urborg, Tomb of Yawgmoth",
+    "Vampiric Tutor",
+    "Vito, Thorn of the Dusk Rose",
+    "Volcanic Island",
+    "Watery Grave",
+    "Well of Lost Dreams",
+    "Wheel of Fortune",
+    "Witch of the Moors",
+    "Withering Torment",
+    "Xander's Lounge"
+   ],
+   "combos": [
+    {
+     "id": "314-3966",
+     "cards": [
+      "Vito, Thorn of the Dusk Rose",
+      "Exquisite Blood"
+     ],
+     "infinite": true
+    },
+    {
+     "id": "314-6191",
+     "cards": [
+      "Vito, Thorn of the Dusk Rose",
+      "Bloodthirsty Conqueror"
+     ],
+     "infinite": true
+    },
+    {
+     "id": "3966-5755",
+     "cards": [
+      "Exquisite Blood",
+      "Enduring Tenacity"
+     ],
+     "infinite": true
+    },
+    {
+     "id": "5755-6191",
+     "cards": [
+      "Enduring Tenacity",
+      "Bloodthirsty Conqueror"
+     ],
+     "infinite": true
+    },
+    {
+     "id": "110-3966",
+     "cards": [
+      "Marauding Blight-Priest",
+      "Exquisite Blood"
+     ],
+     "infinite": true
+    },
+    {
+     "id": "3966-4740",
+     "cards": [
+      "Aetherflux Reservoir",
+      "Exquisite Blood"
+     ],
+     "infinite": true
+    },
+    {
+     "id": "2173-4740-5078",
+     "cards": [
+      "Sensei's Divining Top",
+      "Aetherflux Reservoir",
+      "Bolas's Citadel"
+     ],
+     "infinite": true
+    },
+    {
+     "id": "110-6191",
+     "cards": [
+      "Marauding Blight-Priest",
+      "Bloodthirsty Conqueror"
+     ],
+     "infinite": true
+    },
+    {
+     "id": "4740-6191",
+     "cards": [
+      "Aetherflux Reservoir",
+      "Bloodthirsty Conqueror"
+     ],
+     "infinite": true
+    },
+    {
+     "id": "3966-5867",
+     "cards": [
+      "Exquisite Blood",
+      "Starscape Cleric"
+     ],
+     "infinite": true
+    },
+    {
+     "id": "2173-2498-5078",
+     "cards": [
+      "Sensei's Divining Top",
+      "Bolas's Citadel",
+      "Sheoldred, the Apocalypse"
+     ],
+     "infinite": true
+    },
+    {
+     "id": "5867-6191",
+     "cards": [
+      "Starscape Cleric",
+      "Bloodthirsty Conqueror"
+     ],
+     "infinite": true
+    },
+    {
+     "id": "1078-2302",
+     "cards": [
+      "Painter's Servant",
+      "Grindstone"
+     ],
+     "infinite": true
+    }
+   ],
+   "queried": "2026-10-16"
+  },
+  "The_Rani": {
+   "sig": [
+    "Academy Manufactor",
+    "Arcane Signet",
+    "Badlands",
+    "Baeloth Barrityl, Entertainer",
+    "Bjorna, Nightfall Alchemist",
+    "Blasphemous Act",
+    "Blood Crypt",
+    "Bloodstained Mire",
+    "Bloodthirsty Blade",
+    "Bothersome Quasit",
+    "Chaos Warp",
+    "City of Brass",
+    "Coercive Impetus",
+    "Command Tower",
+    "Curse of Opulence",
+    "Cyclonic Rift",
+    "Deadly Rollick",
+    "Death Kiss",
+    "Deflecting Swat",
+    "Demonic Tutor",
+    "Dimir Signet",
+    "Displacer Kitten",
+    "Disrupt Decorum",
+    "Entity Tracker",
+    "Erdwal Illuminator",
+    "Exotic Orchard",
+    "Eye of Nidhogg",
+    "Fellwar Stone",
+    "Fierce Guardianship",
+    "Firkraag, Cunning Instigator",
+    "Five Hundred Year Diary",
+    "Flooded Strand",
+    "Force of Will",
+    "Forensic Gadgeteer",
+    "Ghoulish Impetus",
+    "Grenzo, Havoc Raiser",
+    "Hateful Eidolon",
+    "Haunted Ridge",
+    "Hot Pursuit",
+    "Idol of Oblivion",
+    "Incriminating Impetus",
+    "Inspiring Statuary",
+    "Island",
+    "Izzet Signet",
+    "Karazikar, the Eye Tyrant",
+    "Kardur, Doomscourge",
+    "Lightning Greaves",
+    "Luxury Suite",
+    "Maestros Confluence",
+    "Mana Confluence",
+    "Mana Drain",
+    "Mocking Doppelganger",
+    "Morphic Pool",
+    "Mountain",
+    "Mystical Tutor",
+    "Otawara, Soaring City",
+    "Polluted Delta",
+    "Psychic Impetus",
+    "Puppet Master, String Puller",
+    "Rakdos Charm",
+    "Reanimate",
+    "Red Death, Shipwrecker",
+    "Reflecting Pool",
+    "Rhystic Study",
+    "Scalding Tarn",
+    "Shiny Impetus",
+    "Shipwreck Marsh",
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+    "Sol Ring",
+    "Spectacular Showdown",
+    "Steam Vents",
+    "Stormcarved Coast",
+    "Swamp",
+    "Swan Song",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence",
+    "Tangletrove Kelp",
+    "Thassa, Deep-Dwelling",
+    "The Master, Mesmerist",
+    "The One Ring",
+    "The Rani",
+    "The Sound of Drums",
+    "Time Sieve",
+    "Toxic Deluge",
+    "Training Center",
+    "Underground Sea",
+    "Urborg, Tomb of Yawgmoth",
+    "Urza, Lord High Artificer",
+    "Vampiric Tutor",
+    "Vengeful Ancestor",
+    "Volcanic Island",
+    "Watery Grave",
+    "Xander's Lounge"
+   ],
+   "combos": [],
    "queried": "2026-10-16"
   }
  },

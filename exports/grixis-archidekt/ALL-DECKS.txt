@@ -4970,7 +4970,7 @@
 1 Wonder
 1 Xander's Lounge
 
-===== 51/62 — Sedris, the Traitor King — unchanged (not reviewed yet) =====
+===== 51/62 — Sedris, the Traitor King — unchanged (at/near ceiling) =====
 1 Sedris, the Traitor King [Commander]
 1 Ancient Tomb
 1 Animate Dead
@@ -5071,7 +5071,7 @@
 1 Windfall
 1 Xander's Lounge
 
-===== 52/62 — Sol'kanar the Swamp King — unchanged (not reviewed yet) =====
+===== 52/62 — Sol'kanar the Swamp King — refined =====
 1 Sol'kanar the Swamp King [Commander]
 1 Aetherflux Reservoir
 1 Alhammarret's Archive
@@ -5162,13 +5162,13 @@
 1 Vito, Thorn of the Dusk Rose
 1 Volcanic Island
 1 Watery Grave
+1 Well of Lost Dreams
 1 Wheel of Fortune
-1 Windfall
 1 Witch of the Moors
 1 Withering Torment
 1 Xander's Lounge
 
-===== 53/62 — Sol'Kanar the Tainted — unchanged (not reviewed yet) =====
+===== 53/62 — Sol'Kanar the Tainted — unchanged (at/near ceiling) =====
 1 Sol'Kanar the Tainted [Commander]
 1 Arcane Signet
 1 Archfiend of the Dross
@@ -5263,7 +5263,7 @@
 1 Xander's Lounge
 1 Xantcha, Sleeper Agent
 
-===== 54/62 — Tetsuo Umezawa — unchanged (not reviewed yet) =====
+===== 54/62 — Tetsuo Umezawa — unchanged (at/near ceiling) =====
 1 Tetsuo Umezawa [Commander]
 1 Aphetto Alchemist
 1 Arcane Signet
@@ -5352,7 +5352,7 @@
 1 Xander's Lounge
 1 Xantcha, Sleeper Agent
 
-===== 55/62 — Tetsuo, Imperial Champion — unchanged (not reviewed yet) =====
+===== 55/62 — Tetsuo, Imperial Champion — unchanged (at/near ceiling) =====
 1 Tetsuo, Imperial Champion [Commander]
 1 Academy Ruins
 1 Aggravated Assault
@@ -5547,7 +5547,7 @@
 1 Wooded Foothills
 1 Xander's Lounge
 
-===== 57/62 — The Rani — unchanged (not reviewed yet) =====
+===== 57/62 — The Rani — refined =====
 1 The Rani [Commander]
 1 Academy Manufactor
 1 Arcane Signet
@@ -5588,6 +5588,7 @@
 1 Hateful Eidolon
 1 Haunted Ridge
 1 Hot Pursuit
+1 Idol of Oblivion
 1 Incriminating Impetus
 1 Inspiring Statuary
 3 Island
@@ -5602,7 +5603,6 @@
 1 Mocking Doppelganger
 1 Morphic Pool
 3 Mountain
-1 Mystic Remora
 1 Mystical Tutor
 1 Otawara, Soaring City
 1 Polluted Delta
@@ -5643,7 +5643,7 @@
 1 Watery Grave
 1 Xander's Lounge
 
-===== 58/62 — The Valeyard — unchanged (not reviewed yet) =====
+===== 58/62 — The Valeyard — unchanged (at/near ceiling) =====
 1 The Valeyard [Commander]
 1 Arcane Denial
 1 Arcane Signet
@@ -5741,7 +5741,7 @@
 1 Wooded Foothills
 1 Xander's Lounge
 
-===== 59/62 — Thraximundar — unchanged (not reviewed yet) =====
+===== 59/62 — Thraximundar — unchanged (at/near ceiling) =====
 1 Thraximundar [Commander]
 1 Accursed Marauder
 1 Altar of Dementia
@@ -5931,7 +5931,7 @@
 1 Yawgmoth, Thran Physician
 1 Zulaport Cutthroat
 
-===== 61/62 — Wick, the Whorled Mind — unchanged (not reviewed yet) =====
+===== 61/62 — Wick, the Whorled Mind — unchanged (at/near ceiling) =====
 1 Wick, the Whorled Mind [Commander]
 1 Altar of Dementia
 1 An Offer You Can't Refuse
@@ -6032,7 +6032,7 @@
 1 Xander's Lounge
 1 Zulaport Cutthroat
 
-===== 62/62 — Zevlor, Elturel Exile — unchanged (not reviewed yet) =====
+===== 62/62 — Zevlor, Elturel Exile — unchanged (at/near ceiling) =====
 1 Zevlor, Elturel Exile [Commander]
 1 Abrade
 1 Acquire

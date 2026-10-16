@@ -79,6 +79,14 @@ HOOKS = [
     ("enters triggers", r"whenever (another|a|one or more|[^.]* or another) [^.]* enters", r"\bflicker|exile [^.]*, then return|return [^.]* to the battlefield|enters[^.]* an additional time"),
     ("casualty / power 2 or greater", r"\bcasualty\b|power 2 or greater", r"\bcasualty\b|creates? [^.]*\d/\d"),
     ("connive / looting", r"\bconniv", r"\bconniv|draw a card, then discard|discard a card, then draw"),
+    # Bot cycle 43: hook gaps found in batch 5 (commanders whose text matched no hook)
+    ("unearth / creature cards in your graveyard", r"\bunearth\b",
+     r"\bunearth\b|\bmill\b|into your graveyard|creature cards? (from your library )?(in|into) your graveyard|When [^.]* enters"),
+    ("black spells / Swamps", r"casts a black spell|\bswampwalk\b", r"\bSwamps?\b|\bswampwalk\b"),
+    ("tapping / blocking creatures", r"tapped or blocking creature",
+     r"\btap (target|up to|all|each)\b[^.]*creatures?|doesn't untap|don't untap|\buntap target\b|copy target activated|\bgoad|tapped creature"),
+    ("life gain", r"you gain \d+ life|you gain life", r"whenever you gain life|\bgain(s)? [^.]*life\b|\blifelink\b|life total"),
+    ("villainous choices / voting", r"villainous choice|\bvot(e|ing)\b", r"villainous choice|\bvotes?\b|\bcouncil's dilemma\b|will of the council"),
 ]
 CTYPES = None
 REVIEW = ROOT / "data" / "grixis_refine_review.json"
@@ -551,6 +559,72 @@ def export_txt(lst):
     return "\n".join(cmd + rest) + "\n"
 
 
+def final_summary(summ, info, metrics, top, plans):
+    """Bot cycle 43: end-of-cycle summary for the legal decks (data/grixis_refine_review.json → final)."""
+    rv = load_review()
+    fin = rv.get("final", {})
+    legal = [d for d in summ if not info[d]["pending"]]
+    done = [d for d in legal if plans["decks"].get(d)]
+    ch = [d for d in done if plans["decks"][d]["swaps"]]
+    nm = lambda d: " + ".join(summ[d]["commanders"])
+    lk = lambda d: f"[{nm(d)}](decks/{summ[d]['slug']}.md#refined-list-bot-cycle-39)"
+    nsw = sum(len(plans["decks"][d]["swaps"]) for d in ch)
+    nman = sum(1 for d in ch for w in plans["decks"][d]["swaps"] if w.get("manual"))
+    ver = rv.get("swaps", {})
+    L = ["## End-of-cycle summary (60 legal decks)", "",
+         f"Bot cycles 39–{max(b['cycle'] for b in plans['batches'].values())}, batches 1–{len(plans['batches'])}. "
+         f"**{len(done)}/{len(legal)} legal decks reviewed: {len(ch)} changed ({nsw} swaps, {nman} hand-picked), {len(done) - len(ch)} at/near ceiling and unchanged.** "
+         f"{len(ver)} written verdicts on guard-passing automatic candidates ({sum(1 for x in ver.values() if x['verdict'] == 'accept')} accepted, "
+         f"{sum(1 for x in ver.values() if x['verdict'] == 'reject')} rejected); {len(rv.get('hand_review', {}))} hand reviews; "
+         f"{len(rv.get('protect', {}))} decks with protected core cards. Source lists stay on each deck page; every change is guidance with its evidence.", "",
+         "### Method in brief", "",
+         "- **Commander identity first:** every add needs an Oracle-text hook to the commander (quoted verbatim on the deck page) and EDHREC synergy ≥ "
+         f"{ADD_SYN}% on that commander's page. Every cut must be generic: in ≥ {GENERIC_MIN} of the 62 lists, no hook, and synergy < {CUT_SYN}%.",
+         "- **Power guard (Bot cycle 40):** no clear downgrade. The add's inclusion on the commander's page must be at least the cut's, its overall EDHREC rank no worse than "
+         f"{RANK_X}× the cut's or +{RANK_PLUS}, and a free spell is never replaced by one that costs mana. Never cut Game Changers, Spellbook combo pieces, mana sources of MV ≤ 2, "
+         "trigger doublers for triggered commanders, or reviewer-protected core cards. Role parity: interaction is replaced only by interaction at equal or lower MV.",
+         "- **Written review:** a swap that passes the guard is applied only with a written verdict saying why the add does more in *this* deck. Unreviewed swaps fail `validate_all`.",
+         "- **Hand-picked swaps (Bot cycle 41):** reviewer-chosen swaps with verbatim Oracle hooks. They pass the same gates.",
+         "- **Hand reviews:** every deck scoring under about 30% commander dependence when it was reviewed (Evelyn, Marchesa, Dealer of Death, Nicol Bolas, Fire Lord Azula) got a commander-first hand look. "
+         "So did the decks near that line (Garza Zol, Sol'kanar the Swamp King, Tetsuo Umezawa) and Thraximundar, for its source flag. Several low scores were hook gaps, fixed below.",
+         "- **Scoring fixes found by hand review:** Evelyn's exile-play hook (cycle 40); the crimes hook for Marchesa (cycle 41); the wheels / punishers hook (Nekusar), "
+         "\"deals damage to an opponent\" (Nicol Bolas), ward no longer counted as a counterspell (cycle 42); unearth (Sedris), life gain and black spells (Sol'kanar), "
+         "tapping / blocking creatures (Tetsuo Umezawa), villainous choice / voting (The Valeyard), and reminder text ignored for roles (cycle 43).",
+         "- **Verification:** each changed list passes `evaluate_decklist.check`, keeps every Spellbook combo of the source list, and does not raise the bracket floor.", "",
+         "### Decks that changed", "", "| Deck | Batch | Swaps | Identity impact (commander dependence) | Why |", "|---|---|---|---|---|"]
+    for d in ch:
+        e, m = plans["decks"][d], metrics[d]
+        why = " ".join((w.get("review") or "").split(". ")[0].rstrip(".") + "." for w in e["swaps"])
+        L.append(f"| {lk(d)} | {e['batch']} | " + "; ".join(f"−{w['cut']} +**{w['add']}**{' (hand-picked)' if w.get('manual') else ''}" for w in e["swaps"]) +
+                 f" | {', '.join(sorted({w['hook']['label'] for w in e['swaps']}))}: {m['source']['dependence']:.0%} → **{m['final']['dependence']:.0%}** | {q(why)} |")
+    L += ["", "### Decks at their ceiling (unchanged)", "",
+          "No qualifying swap passed the gates, guard and review, so these lists are left as the source built them (principle 2). Hand-reviewed decks are marked 🔎.", ""]
+    for b, bv in sorted(plans["batches"].items(), key=lambda kv: int(kv[0])):
+        un = [d for d in bv["decks"] if d in done and not plans["decks"][d]["swaps"]]
+        if un:
+            L.append(f"- **Batch {b}:** " + " · ".join(f"{lk(d)} ({metrics[d]['final']['dependence']:.0%}{' 🔎' if d in rv.get('hand_review', {}) else ''})" for d in un))
+    L += ["", "### Flagged items", ""]
+    for x in fin.get("flags", []):
+        L.append(f"- ⚠️ " + (f"**{nm(x['deck'])}:** " if x.get("deck") else "**Archidekt exports:** ") + x["item"])
+    srcm = sum(metrics[d]["source"]["dependence"] for d in legal) / len(legal)
+    finm = sum(metrics[d]["final"]["dependence"] for d in legal) / len(legal)
+    L += ["", "### Homogenization and overlap findings", "",
+          f"- Legal decks, source → final: mean commander dependence {srcm:.1%} → **{finm:.1%}** · mean generic share "
+          f"{sum(metrics[d]['source']['generic_share'] for d in legal) / len(legal):.1%} → **{sum(metrics[d]['final']['generic_share'] for d in legal) / len(legal):.1%}** · "
+          f"mean pairwise overlap {sum(metrics[d]['source']['mean_overlap'] for d in legal) / len(legal):.1%} → **{sum(metrics[d]['final']['mean_overlap'] for d in legal) / len(legal):.1%}**.",
+          f"- Most shared cards: " + ", ".join(f"{n} ({k})" for n, k in top[:10]) + " (lists out of 62).",
+          f"- {fin.get('homogenization', '')}"]
+    for k, x in rv.get("overlap", {}).items():
+        L.append(f"- **{k}:** {x['verdict'].split('. ')[0].rstrip('.')}.")
+    pend = [d for d in summ if info[d]["pending"]]
+    L += ["", "### Pending decks (not in the 60)", ""]
+    for d in pend:
+        L.append(f"- ⏳ [{nm(d)}](decks/{summ[d]['slug']}.md): {', '.join(info[d]['pending'])} not Commander-legal before {plans_pending_date(d)}. "
+                 "Measured but not refined; the export is marked pending.")
+    L += [f"- **Follow-up (2026-10-20):** {fin.get('pending_followup', '')}", ""]
+    return L
+
+
 def summary_page(summ, info, metrics, top, plans):
     done = [d for d in summ if plans["decks"].get(d)]
     L = ["# Grixis Refinement Cycle", "",
@@ -559,7 +633,7 @@ def summary_page(summ, info, metrics, top, plans):
          "Source lists stay on each deck page, credited to Cory's [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT). "
          "Archidekt exports: [exports/grixis-archidekt/](../exports/grixis-archidekt/README.md).", "",
          f"Grixis source commit used: `{plans.get('source', {}).get('commit', '?')}` ({plans.get('source', {}).get('note', '')}).", "",
-         "## Contents", "- [Status](#status)", "- [Batch log](#batch-log)", "- [Hand reviews](#hand-reviews)", "- [Overlap review (manual)](#overlap-review-manual)", "- [All decks: metrics](#all-decks-metrics)", "- [Homogenization](#homogenization)", "- [Method](#method)", "",
+         "## Contents", "- [Status](#status)", "- [End-of-cycle summary (60 legal decks)](#end-of-cycle-summary-60-legal-decks)", "- [Batch log](#batch-log)", "- [Hand reviews](#hand-reviews)", "- [Overlap review (manual)](#overlap-review-manual)", "- [All decks: metrics](#all-decks-metrics)", "- [Homogenization](#homogenization)", "- [Method](#method)", "",
          "## Status", "",
          f"- **Reviewed: {len(done)}/62** decks ({sum(1 for d in done if plans['decks'][d]['swaps'])} refined, {sum(1 for d in done if not plans['decks'][d]['swaps'])} at/near ceiling and unchanged). "
          f"{sum(1 for d in summ if info[d]['pending'])} decks are ⏳ pending legality (measured; exports marked pending).",
@@ -567,7 +641,7 @@ def summary_page(summ, info, metrics, top, plans):
          f"mean generic share: **{sum(metrics[d]['final']['generic_share'] for d in summ) / len(summ):.0%}** · "
          f"mean pairwise overlap: **{sum(metrics[d]['final']['mean_overlap'] for d in summ) / len(summ):.0%}**.",
          f"- Thoracle core present in {sum(1 for d in summ if metrics[d]['final']['thoracle_core'])} lists · median control-core cards per list: "
-         f"{sorted(len(metrics[d]['final']['control_core']) for d in summ)[31]}.", "", "## Batch log", ""]
+         f"{sorted(len(metrics[d]['final']['control_core']) for d in summ)[31]}.", ""] + final_summary(summ, info, metrics, top, plans) + ["## Batch log", ""]
     for b, bv in sorted(plans["batches"].items(), key=lambda kv: int(kv[0])):
         L += [f"### Batch {b} — Bot cycle {bv['cycle']}, {bv['date']}", ""]
         for d in bv["decks"]:
@@ -577,6 +651,12 @@ def summary_page(summ, info, metrics, top, plans):
             m = metrics[d]
             L.append(f"- [{nm}](decks/{v['slug']}.md#refined-list-bot-cycle-39): {e['decision']}. Dependence {m['source']['dependence']:.0%} → {m['final']['dependence']:.0%}." +
                      ("".join(f" Cut **{w['cut']}** → add **{w['add']}** ({w['hook']['label']})." for w in e["swaps"])))
+        sw = {k: x for k, x in load_review().get("swaps", {}).items() if k.split("|")[0] in bv["decks"]}
+        man = sum(len(load_review().get("manual_swaps", {}).get(d, [])) for d in bv["decks"])
+        if sw or man:
+            acc = sum(1 for x in sw.values() if x["verdict"] == "accept")
+            L += ["", f"- *Written reviews in this batch:* {len(sw)} verdict(s) on automatic candidates ({acc} accepted, {len(sw) - acc} rejected) covering "
+                      f"{len({k.split('|')[2] for k in sw})} distinct add(s)" + (f", plus {man} hand-picked swap(s)" if man else "") + "."]
         L.append("")
     hrs = load_review().get("hand_review", {})
     if hrs:
@@ -621,7 +701,9 @@ def exports(summ, info, plans):
            "(`exports/archidekt_2026-10-15/`: one `1x Card Name` line per card, commander first, no set codes); here lines read `1 Card Name` and the "
            "commander line carries Archidekt's `[Commander]` category so Archidekt sets it as commander on import. Paste one file into one deck. "
            "`ALL-DECKS.txt` is for reference only (do not paste it into one deck). `validate_all` checks every file against its deck page.", "",
-           "| # | File | Commander(s) | Status | Changes vs previous version |", "|---|---|---|---|---|"]
+           "| # | File | Commander(s) | Status | Changes vs previous version | Key notes (final list) |", "|---|---|---|---|---|---|"]
+    rv = load_review()
+    flags = {x["deck"]: x["item"].split(". ")[0] for x in rv.get("final", {}).get("flags", []) if x.get("deck")}
     master = []
     for i, (did, v) in enumerate(summ.items(), 1):
         lst = lines_of(info[did]["fin_text"], ev_R)
@@ -631,9 +713,22 @@ def exports(summ, info, plans):
         st = ("⏳ PENDING LEGALITY (not Commander-legal before " + plans_pending_date(did) + ") · " if info[did]["pending"] else "") + \
              ("refined" if e and e["swaps"] else "unchanged (at/near ceiling)" if e else "unchanged (not reviewed yet)")
         ch = "; ".join(f"−{w['cut']} +{w['add']} ({w['hook']['label']})" for w in e["swaps"]) if e and e["swaps"] else "none"
-        idx.append(f"| {i} | [{v['slug']}.txt]({v['slug']}.txt) | {' + '.join(v['commanders'])} | {st} | {ch} |")
+        m = info[did].get("metrics")
+        hr = rv.get("hand_review", {}).get(did)
+        note = ([f"dependence {m['source']['dependence']:.0%}" + (f" → {m['final']['dependence']:.0%}" if e and e["swaps"] else "") + (f"; hooks: {', '.join(m['hooks'][:3])}{' …' if len(m['hooks']) > 3 else ''}" if m['hooks'] else "")] if m else []) + \
+               ([f"hand review: {hr['verdict']}"] if hr else []) + ([f"⚠️ {flags[did]}"] if did in flags else []) + \
+               ([f"protected core: {', '.join(rv['protect'][did]['cards'])}"] if did in rv.get("protect", {}) else [])
+        idx.append(f"| {i} | [{v['slug']}.txt]({v['slug']}.txt) | {' + '.join(v['commanders'])} | {st} | {ch} | {q('; '.join(note)) or '—'} |")
         master += [f"===== {i:02d}/62 — {' + '.join(v['commanders'])} — {st} =====", txt.rstrip(), ""]
     files[EXP / "ALL-DECKS.txt"] = "\n".join(master)
+    fu = rv.get("final", {}).get("pending_followup", "")
+    idx += ["", "## Import notes", "",
+            "- ⚠️ **Not tested in Archidekt itself.** The files are checked offline on every `validate_all` run. Each matches its deck page card for card. "
+            "Each is 100 cards, with the commander line(s) first and tagged `[Commander]`, no duplicate lines and no blank lines inside the list, and each passes "
+            "`evaluate_decklist.check` (singleton, color identity, Commander legality). Paste one deck into Archidekt and confirm the commander category before relying on it.",
+            "- ⏳ The two pending decks are exported for completeness but are not Commander-legal before their set release. " + fu,
+            "- Full method, every change with its written review, flagged items and homogenization findings: "
+            "[Grixis Refinement Cycle](../../grixis/Grixis%20Refinement%20Cycle.md#end-of-cycle-summary-60-legal-decks)."]
     files[EXP / "README.md"] = "\n".join(idx) + "\n"
     return files
 
@@ -699,6 +794,8 @@ def main():
         blk = block(did, v, info[did], metrics[did], plans) if info[did]["plan"] else ""
         files[p] = inject(p.read_text(encoding="utf-8"), blk)
     files[PAGE] = summary_page(summ, info, metrics, top, plans)
+    for did in summ:
+        info[did]["metrics"] = metrics[did]
     files.update(exports(summ, info, plans))
     files[OUT] = json.dumps({"_doc": "Bot cycle 39+: per-deck commander-dependence and homogenization metrics (scripts/grixis_refine.py).",
                              "decks": metrics}, indent=1, ensure_ascii=False) + "\n"
@@ -723,6 +820,18 @@ def main():
                 problems.append(f"exports/grixis-archidekt/{v['slug']}.txt differs from the deck page's final list")
             if hard(ev.check(ep.read_text(encoding="utf-8"), R), info[did]["pending"]):
                 problems.append(f"exports/grixis-archidekt/{v['slug']}.txt fails the hard checks")
+            # Bot cycle 43 final export pass: Archidekt line format
+            raw = ep.read_text(encoding="utf-8").rstrip("\n").split("\n")
+            bad = [l for l in raw if not re.fullmatch(r"\d+ [^\s].*[^\s]", l)]
+            if bad or not raw:
+                problems.append(f"exports/grixis-archidekt/{v['slug']}.txt has malformed line(s): {bad[:3]}")
+            cmdl = [l for l in raw if l.endswith(" [Commander]")]
+            if not cmdl or raw[:len(cmdl)] != cmdl or not all(l.startswith("1 ") for l in cmdl):
+                problems.append(f"exports/grixis-archidekt/{v['slug']}.txt: commander line(s) must come first as `1 Name [Commander]`")
+            if sum(int(l.split(" ", 1)[0]) for l in raw if not bad) != 100:
+                problems.append(f"exports/grixis-archidekt/{v['slug']}.txt is not 100 cards")
+            if len({l.split(" ", 1)[1] for l in raw}) != len(raw):
+                problems.append(f"exports/grixis-archidekt/{v['slug']}.txt repeats a card line")
         for d in summ:
             for w in (plans["decks"].get(d) or {}).get("needs_review", []):
                 problems.append(f"{d}: swap −{w['cut']} +{w['add']} has no manual review in data/grixis_refine_review.json")
