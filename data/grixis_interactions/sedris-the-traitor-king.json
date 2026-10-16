@@ -1,0 +1,288 @@
+{
+ "schema": 1,
+ "deck_id": "Sedris__the_Traitor_King",
+ "slug": "sedris-the-traitor-king",
+ "commanders": [
+  "Sedris, the Traitor King"
+ ],
+ "deck_sha256": "ddcd18ab4826834cde491cd21b8f9697c77677dc8890a696b3ad6bd5f4e96aa0",
+ "list_source": "exports/grixis-archidekt/sedris-the-traitor-king.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 54,
+ "batch": "E",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/sedris_2026-10-15/gate_output/Sedris_the_Traitor_King_Rules_Attestation.json",
+   "note": "Rules attestation (12 items, all PASS) re-verified"
+  },
+  {
+   "path": "refinement/verification/Sedris_the_Traitor_King_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification"
+  }
+ ],
+ "summary": "Sedris gives every creature card in your graveyard unearth {2}{B}, which Convergence of Dominion cuts to {B}. The list keeps unearthed creatures with Obeka, Sundial, Teferi's Veil or Deadeye Navigator, cashes in their arrival with River Kelpie, Twilight Diviner and Panharmonicon, and runs Peregrine Drake + Deadeye for infinite mana. All 12 attestation items and the Spellbook line are re-verified against the canonical list.\n\nRules surprises: Stifling the exile trigger keeps the creature, but the leave-the-battlefield exile stays; Teferi's Veil phase-out skips the end-step exile; a Deadeye blink resets the creature as a new object; Diviner tokens are never exiled by unearth. Note: the attestation's reason Embalmer's Tools couldn't reduce further is off (Tools isn't in the list).",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "sedris-01",
+   "category": "commander",
+   "title": "Sedris-granted unearth: an activated ability of each card, sorcery speed, with two exile clauses",
+   "cards": [
+    "Sedris, the Traitor King"
+   ],
+   "ruling": "Each creature card in your graveyard has unearth {2}{B}. It's an activated ability of the card, not of Sedris, and can be used only at sorcery speed. Unearthing isn't casting, so spell counters can't stop it, but Stifle can. The creature returns with haste and has two exile clauses:\n- **A delayed end-step exile trigger:** if it's countered or removed, it never comes back.\n- **A replacement effect:** if the creature would leave the battlefield, it's exiled instead. This always stays.\n\nA card with its own unearth has both, and you choose which to use.",
+   "short": "Unearth = card's own ability; delayed exile trigger can be dodged, the leave-the-battlefield replacement can't.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "702.84a",
+    "602.5d",
+    "603.7"
+   ],
+   "oracle": [
+    {
+     "card": "Sedris, the Traitor King",
+     "quote": "Each creature card in your graveyard has unearth {2}{B}. ({2}{B}: Return the card to the battlefield. The creature gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Sedris, the Traitor King",
+     "quote": "At the beginning of the end step, a creature returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects such as Stifle or Voidslime that counter triggered abilities. If the ability is countered, the creature will stay on the battlefield and the delayed trigger won't trigger again. However, the replacement effect will still exile the creature when it eventually leaves the battlefield."
+    },
+    {
+     "card": "Sedris, the Traitor King",
+     "quote": "Activating a creature card's unearth ability isn't the same as casting the creature card. The unearth ability is put on the stack, but the creature card is not. Spells and abilities that interact with activated abilities (such as Stifle) will interact with unearth, but spells and abilities that interact with spells (such as Remove Soul) will not."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/sedris_2026-10-15/gate_output/Sedris_the_Traitor_King_Rules_Attestation.json",
+     "item": "Sedris-granted unearth"
+    }
+   ]
+  },
+  {
+   "id": "sedris-02",
+   "category": "pair",
+   "title": "Convergence of Dominion makes unearth cost {B}",
+   "cards": [
+    "Sedris, the Traitor King",
+    "Convergence of Dominion"
+   ],
+   "ruling": "While you control Sedris, Convergence makes activated abilities of cards in your graveyard cost {2} less, so unearth {2}{B} costs {B}. It can't enable an ability you couldn't already activate. The attestation says Convergence's one-mana floor stops Embalmer's Tools from reducing it further. The result is right, but the real reason is that no generic mana is left to reduce. Embalmer's Tools isn't in the canonical list anyway.",
+   "status": "verified",
+   "cr": [
+    "601.2f",
+    "602.2b"
+   ],
+   "oracle": [
+    {
+     "card": "Convergence of Dominion",
+     "quote": "Dynastic Command Node — As long as you control your commander, activated abilities of cards in your graveyard cost {2} less to activate. This effect can't reduce the mana in that ability's activation cost to less than one mana."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Convergence of Dominion",
+     "quote": "Convergence of Dominion doesn't allow you to activate abilities of cards in graveyards unless you could already activate those abilities."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/sedris_2026-10-15/gate_output/Sedris_the_Traitor_King_Rules_Attestation.json",
+     "item": "Convergence of Dominion"
+    }
+   ]
+  },
+  {
+   "id": "sedris-03",
+   "category": "timing",
+   "title": "Keeping unearthed creatures: Obeka / Sundial on the exile trigger, Teferi's Veil phase-out, Deadeye blink",
+   "cards": [
+    "Sedris, the Traitor King",
+    "Obeka, Brute Chronologist",
+    "Sundial of the Infinite",
+    "Teferi's Veil",
+    "Deadeye Navigator"
+   ],
+   "ruling": "Three ways to keep an unearthed creature:\n- **Obeka or Sundial:** end the turn while the unearth exile trigger is on the stack. It's exiled and never triggers again. Ending the turn earlier only pushes it to the next end step.\n- **Teferi's Veil:** attackers phase out at end of combat, after combat damage, so they're still out when the end-step exile trigger resolves and can't be found. They phase back in during your next untap step.\n- **Deadeye Navigator:** blinking is itself an exile, so the replacement doesn't change it. The card returns as a new object with no unearth tracking.\n\nIn the first two cases the leave-the-battlefield replacement still applies later.",
+   "short": "End the turn over the trigger, phase out past it, or blink into a fresh object.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "724.1b",
+    "702.26b",
+    "400.7"
+   ],
+   "oracle": [
+    {
+     "card": "Teferi's Veil",
+     "quote": "Whenever a creature you control attacks, it phases out at end of combat. (While it's phased out, it's treated as though it doesn't exist. It phases in before you untap during your next untap step.)"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Sedris, the Traitor King",
+     "quote": "If a creature returned to the battlefield with unearth would leave the battlefield for any reason, it's exiled instead — unless the spell or ability that's causing the creature to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If it later returns the creature card to the battlefield (as Oblivion Ring or Flickerwisp might, for example), the creature card will return to the battlefield as a new object with no relation to its previous existence. The unearth effect will no longer apply to it."
+    },
+    {
+     "card": "Teferi's Veil",
+     "quote": "The “at end of combat” ability triggers after combat damage resolves. Creatures dealt lethal damage in combat won’t be saved this way."
+    },
+    {
+     "card": "Obeka, Brute Chronologist",
+     "quote": "If the turn ends during the end step after \"At the beginning of the next end step\" abilities have triggered but before they've resolved, those abilities won't trigger again next turn."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/sedris_2026-10-15/gate_output/Sedris_the_Traitor_King_Rules_Attestation.json",
+     "item": "Obeka / Sundial timing"
+    },
+    {
+     "path": "refinement/verification/sedris_2026-10-15/gate_output/Sedris_the_Traitor_King_Rules_Attestation.json",
+     "item": "Teferi's Veil"
+    },
+    {
+     "path": "refinement/verification/sedris_2026-10-15/gate_output/Sedris_the_Traitor_King_Rules_Attestation.json",
+     "item": "Deadeye Navigator rescue"
+    }
+   ]
+  },
+  {
+   "id": "sedris-04",
+   "category": "trigger-order",
+   "title": "Enter-from-graveyard payoffs: River Kelpie, Twilight Diviner, Panharmonicon",
+   "cards": [
+    "Sedris, the Traitor King",
+    "River Kelpie",
+    "Twilight Diviner",
+    "Panharmonicon"
+   ],
+   "ruling": "Unearth puts creatures onto the battlefield from the graveyard:\n- **River Kelpie** draws for each one, plus one more if Kelpie itself returns at the same time.\n- **Twilight Diviner** makes a token copy of one of them, once per turn. The token isn't the unearthed card, so neither exile clause touches it.\n- **Panharmonicon** doubles their artifact and creature ETB triggers.",
+   "status": "verified",
+   "cr": [
+    "603.6a",
+    "111.1"
+   ],
+   "oracle": [
+    {
+     "card": "Twilight Diviner",
+     "quote": "Whenever one or more other creatures you control enter, if they entered or were cast from a graveyard, create a token that's a copy of one of them. This ability triggers only once each turn."
+    },
+    {
+     "card": "River Kelpie",
+     "quote": "Whenever this creature or another permanent enters from a graveyard, draw a card."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Twilight Diviner",
+     "quote": "Any enters abilities of the copied creature will trigger when the token enters. Any \"as [this creature] enters\" or \"[this creature] enters with\" abilities of the copied permanent will also work."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/sedris_2026-10-15/gate_output/Sedris_the_Traitor_King_Rules_Attestation.json",
+     "item": "River Kelpie"
+    },
+    {
+     "path": "refinement/verification/sedris_2026-10-15/gate_output/Sedris_the_Traitor_King_Rules_Attestation.json",
+     "item": "Twilight Diviner"
+    },
+    {
+     "path": "refinement/verification/sedris_2026-10-15/gate_output/Sedris_the_Traitor_King_Rules_Attestation.json",
+     "item": "Panharmonicon ETB package"
+    }
+   ]
+  },
+  {
+   "id": "sedris-05",
+   "category": "combo",
+   "title": "Peregrine Drake + Deadeye Navigator: infinite mana and blinks",
+   "cards": [
+    "Sedris, the Traitor King",
+    "Peregrine Drake",
+    "Deadeye Navigator"
+   ],
+   "ruling": "Pair Deadeye with Peregrine Drake, then pay {1}{U} to blink Drake. Drake untaps up to five lands, which is a net mana gain if they make at least {2}{U}, and Deadeye re-pairs. Repeat for unlimited mana and ETBs. Either piece can be unearthed from the graveyard with Sedris. A blinked unearthed creature is a new object, so the unearth exile no longer applies.",
+   "status": "verified",
+   "cr": [
+    "702.95a",
+    "400.7"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Deadeye Navigator",
+     "quote": "If you activate the ability granted by Deadeye Navigator, the creature will be exiled, the pair will immediately be broken, and then the card will be returned to the battlefield. Deadeye Navigator’s soulbond ability triggers when that card enters the battlefield and the pair can then be reunited."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "1409-3821",
+     "quote": "Resolve the Peregrine Drake trigger, untapping up to five lands you control."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/sedris_2026-10-15/gate_output/Sedris_the_Traitor_King_Rules_Attestation.json",
+     "item": "Deadeye Navigator + Peregrine Drake"
+    }
+   ]
+  },
+  {
+   "id": "sedris-06",
+   "category": "zone",
+   "title": "Graveyard setup: Ripples of Undeath, Undercity Sewers; Grim Monolith is just ramp",
+   "cards": [
+    "Sedris, the Traitor King",
+    "Ripples of Undeath",
+    "Undercity Sewers",
+    "Grim Monolith"
+   ],
+   "ruling": "Ripples of Undeath mills three at the start of your first main phase, then you may pay {1} and 3 life to take one into hand. The rest stay in the graveyard for unearth. Undercity Sewers is an Island Swamp, so fetchlands find it, and it surveils 1 on entering. Grim Monolith only helps cast six-mana Sedris; the list has no Power Artifact package.",
+   "status": "verified",
+   "cr": [
+    "701.17a",
+    "701.25a"
+   ],
+   "oracle": [
+    {
+     "card": "Ripples of Undeath",
+     "quote": "At the beginning of your first main phase, mill three cards. Then you may pay {1} and 3 life. If you do, put a card from among those cards into your hand."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/sedris_2026-10-15/gate_output/Sedris_the_Traitor_King_Rules_Attestation.json",
+     "item": "Ripples of Undeath"
+    },
+    {
+     "path": "refinement/verification/sedris_2026-10-15/gate_output/Sedris_the_Traitor_King_Rules_Attestation.json",
+     "item": "Undercity Sewers"
+    },
+    {
+     "path": "refinement/verification/sedris_2026-10-15/gate_output/Sedris_the_Traitor_King_Rules_Attestation.json",
+     "item": "Grim Monolith role"
+    }
+   ]
+  }
+ ]
+}

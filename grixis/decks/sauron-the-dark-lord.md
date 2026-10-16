@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -418,6 +419,15 @@ This approval freezes `refinement/decklists/Sauron_the_Dark_Lord_Approved_2026-1
 
 - [refinement/verification/Sauron_the_Dark_Lord_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Sauron_the_Dark_Lord_Approval_Ready_Verification_2026-10-15.md)
 - [refinement/verification/Sauron_the_Dark_Lord_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Sauron_the_Dark_Lord_Whole_List_Audit_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 54 interaction review: **5 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Sauron, the Dark Lord — Interaction Review](../interactions/sauron-the-dark-lord.md).
+
+- **Sauron's loop: opponents' spells feed the Army, Army hits tempt the Ring, each temptation offers discard-hand / draw four** — Opponent spell → amass 1; Army combat hit → tempt → optional wheel-for-four. ([saurondl-01](../interactions/sauron-the-dark-lord.md#saurondl-01-saurons-loop-opponents-spells-feed-the-army-army-hits-tempt-the-ring-each-temptation-offers-discard-hand--draw-four))
+- **Minas Morgul turns the Army into a Wraith with shadow, so it stays an Army for Sauron** — Shadow-counter Army = evasive Wraith Army: grows from Nazgûl and still triggers Sauron. ([saurondl-03](../interactions/sauron-the-dark-lord.md#saurondl-03-minas-morgul-turns-the-army-into-a-wraith-with-shadow-so-it-stays-an-army-for-sauron))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
