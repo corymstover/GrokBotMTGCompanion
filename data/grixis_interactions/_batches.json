@@ -36,7 +36,7 @@
    "cycle": 48
   },
   "C": {
-   "status": "planned",
+   "status": "in progress",
    "decks": [
     "gwendlyn-di-corci",
     "inalla-archmage-ritualist",
@@ -48,7 +48,8 @@
     "lord-xander-the-collector",
     "lynde-cheerful-tormentor",
     "mai-and-zuko"
-   ]
+   ],
+   "cycle": 49
   },
   "D": {
    "status": "planned",

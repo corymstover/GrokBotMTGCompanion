@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -480,6 +481,21 @@ The approved artifact is byte-identical to the exact SHA-bound candidate approve
 4. Sangromancer → Tinybones, Pocket Nuisance
 5. Feed the Swarm → Withering Torment
 6. Island → Minamo, School at Water's Edge
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 49 interaction review: **10 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Gwendlyn Di Corci — Interaction Review](../interactions/gwendlyn-di-corci.md).
+
+- **Tap ability: your turn only, and summoning sickness applies** — Needs haste (Greaves) or Elixir the turn she lands; targets a player, so her own shroud is fine. ([gwendlyn-01](../interactions/gwendlyn-di-corci.md#gwendlyn-01-tap-ability-your-turn-only-and-summoning-sickness-applies))
+- **Shroud on Gwendlyn turns off the targeted untappers, but not Pemmin's own untap** — Greaves/Pemmin shroud blocks Minamo, Stone, Seal and Bracers' equip; Pemmin's untap still works. ([gwendlyn-04](../interactions/gwendlyn-di-corci.md#gwendlyn-04-shroud-on-gwendlyn-turns-off-the-targeted-untappers-but-not-pemmins-own-untap))
+- **Discard payoffs: per card vs per event** — Caress/Grimoire per card; Tinybones once per discard event (any player). ([gwendlyn-05](../interactions/gwendlyn-di-corci.md#gwendlyn-05-discard-payoffs-per-card-vs-per-event))
+- **Chains of Mephistopheles hits wheels, yours included** — With Chains out, every wheel draw after an empty hand becomes a mill, for you too. ([gwendlyn-06](../interactions/gwendlyn-di-corci.md#gwendlyn-06-chains-of-mephistopheles-hits-wheels-yours-included))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Shroud on Gwendlyn turns off the targeted untappers, but not Pemmin's own untap: Pilot note, not a list error: Lightning Greaves (the haste piece) shrouds Gwendlyn against the deck's own targeted untappers and Bracers. Equip Bracers first, or move Greaves away ({0}, sorcery speed) before untapping her with Minamo, Magewright's Stone or Patriar's Seal. The source notes this for Pemmin's shroud only. ([gwendlyn-04](../interactions/gwendlyn-di-corci.md#gwendlyn-04-shroud-on-gwendlyn-turns-off-the-targeted-untappers-but-not-pemmins-own-untap))
+- 🚩 list flag Chains of Mephistopheles hits wheels, yours included: Pilot note, not a list error: Chains of Mephistopheles is symmetric. Don't run the Breach + LED + Wheel draw engine with Chains on the battlefield unless milling is the goal. ([gwendlyn-06](../interactions/gwendlyn-di-corci.md#gwendlyn-06-chains-of-mephistopheles-hits-wheels-yours-included))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
