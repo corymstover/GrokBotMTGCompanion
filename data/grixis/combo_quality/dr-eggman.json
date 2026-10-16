@@ -1,0 +1,28 @@
+{
+ "authority": {
+  "can_decide": false,
+  "exploratory": true,
+  "note": "Step B evidence only. Structural/outcome labels are provisional hints; M6 judgment decides priority and deck changes."
+ },
+ "canonical_hash": "lh1:04e4d973c9055eda049e943fc333e8642f24a11a20b61c77437127c6cf1b9e95",
+ "combos": [],
+ "deck_id": "Dr__Eggman",
+ "generated_by": "scripts/grixis_combo_quality.py v1",
+ "inputs": {
+  "blueprint": "data/grixis/blueprints/dr-eggman.json",
+  "graph": "data/grixis/graph/dr-eggman.json",
+  "registry": "data/grixis/registry.json",
+  "spellbook": "data/grixis_combos.json"
+ },
+ "schema_version": 1,
+ "slug": "dr-eggman",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_win_linked_count": 0,
+  "combo_count": 0,
+  "commander_independent_win_hint_count": 0,
+  "commander_piece_count": 0,
+  "infinite_count": 0,
+  "unresolved_classification_count": 0
+ }
+}

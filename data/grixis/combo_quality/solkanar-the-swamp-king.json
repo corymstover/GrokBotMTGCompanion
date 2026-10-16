@@ -1,0 +1,4506 @@
+{
+ "authority": {
+  "can_decide": false,
+  "exploratory": true,
+  "note": "Step B evidence only. Structural/outcome labels are provisional hints; M6 judgment decides priority and deck changes."
+ },
+ "canonical_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+ "combos": [
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:1078-2302"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 2
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/painter-grindstone",
+      "spellbook:1078-2302"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/painter-grindstone",
+      "spellbook:1078-2302"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Grindstone",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Painter's Servant"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 1,
+      "low_independent_signal_pieces": [
+       "Grindstone"
+      ]
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/painter-grindstone",
+      "spellbook:1078-2302"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Grindstone",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Painter's Servant"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Grindstone": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 0,
+       "tutor_target": false
+      },
+      "Painter's Servant": {
+       "identity_core": true,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Grindstone",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Painter's Servant"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Grindstone",
+       "Painter's Servant"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Grindstone",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Painter's Servant"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": 3,
+      "piece_count": 2
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/solkanar-the-swamp-king"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 0,
+      "near_variant_ids": [],
+      "piece_spellbook_occurrences": {
+       "Grindstone": 1,
+       "Painter's Servant": 1
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/painter-grindstone",
+      "spellbook:1078-2302"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Demonic Tutor"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Grindstone",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Painter's Servant",
+      "spellbook:1078-2302"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 0,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Grindstone",
+       "Painter's Servant"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/painter-grindstone",
+      "spellbook:1078-2302"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Demonic Tutor"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Grindstone",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Painter's Servant"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Grindstone",
+        "Painter's Servant"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [],
+      "piece_count": 2,
+      "targeted_piece_count": 0,
+      "via": {}
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Grindstone",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Painter's Servant",
+      "spellbook:1078-2302"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Grindstone",
+        "Painter's Servant"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Painter's Servant",
+    "Grindstone"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/painter-grindstone"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_independent_power_package"
+   },
+   "id": "1078-2302",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 1,
+     "mv": 2,
+     "name": "Painter's Servant",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Artifact Creature — Scarecrow"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 0,
+     "mv": 1,
+     "name": "Grindstone",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Artifact"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "S",
+    "evidence": [
+     "spellbook:1078-2302"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite self-mill",
+     "Infinite mill for target opponent"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:110-3966"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 2
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:110-3966"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [
+       "Sol'kanar the Swamp King"
+      ],
+      "commander_names": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:110-3966"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Marauding Blight-Priest"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:110-3966"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Marauding Blight-Priest"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Exquisite Blood": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:life-loop"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 3,
+       "tutor_target": true
+      },
+      "Marauding Blight-Priest": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:life-loop"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Marauding Blight-Priest"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Exquisite Blood",
+       "Marauding Blight-Priest"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Marauding Blight-Priest"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": 8,
+      "piece_count": 2
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/solkanar-the-swamp-king"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 5,
+      "near_variant_ids": [
+       "110-6191",
+       "314-3966",
+       "3966-4740",
+       "3966-5755",
+       "3966-5867"
+      ],
+      "piece_spellbook_occurrences": {
+       "Exquisite Blood": 5,
+       "Marauding Blight-Priest": 2
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:110-3966"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Demon's Horn",
+       "Sol'kanar the Swamp King"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Marauding Blight-Priest",
+      "spellbook:110-3966"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 5,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": []
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:110-3966"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Demon's Horn",
+       "Sol'kanar the Swamp King"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Marauding Blight-Priest"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Exquisite Blood",
+        "Marauding Blight-Priest"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Exquisite Blood"
+      ],
+      "piece_count": 2,
+      "targeted_piece_count": 1,
+      "via": {
+       "Exquisite Blood": [
+        "Beseech the Mirror",
+        "Demonic Tutor",
+        "Imperial Seal",
+        "Vampiric Tutor"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Marauding Blight-Priest",
+      "spellbook:110-3966"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Exquisite Blood",
+        "Marauding Blight-Priest"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Marauding Blight-Priest",
+    "Exquisite Blood"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_supported_combo"
+   },
+   "id": "110-3966",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 3,
+     "name": "Marauding Blight-Priest",
+     "packages": [
+      "pkg:life-loop"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Creature — Vampire Cleric"
+    },
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 3,
+     "mv": 5,
+     "name": "Exquisite Blood",
+     "packages": [
+      "pkg:life-loop"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Enchantment"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "S",
+    "evidence": [
+     "spellbook:110-3966"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite lifegain"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:110-6191"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 2
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:110-6191"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [
+       "Sol'kanar the Swamp King"
+      ],
+      "commander_names": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:110-6191"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Marauding Blight-Priest"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:110-6191"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Marauding Blight-Priest"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Bloodthirsty Conqueror": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:life-loop"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 2,
+       "tutor_target": false
+      },
+      "Marauding Blight-Priest": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:life-loop"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Marauding Blight-Priest"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Bloodthirsty Conqueror",
+       "Marauding Blight-Priest"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Marauding Blight-Priest"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": 8,
+      "piece_count": 2
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/solkanar-the-swamp-king"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 5,
+      "near_variant_ids": [
+       "110-3966",
+       "314-6191",
+       "4740-6191",
+       "5755-6191",
+       "5867-6191"
+      ],
+      "piece_spellbook_occurrences": {
+       "Bloodthirsty Conqueror": 5,
+       "Marauding Blight-Priest": 2
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:110-6191"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Demon's Horn",
+       "Sol'kanar the Swamp King"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Marauding Blight-Priest",
+      "spellbook:110-6191"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 5,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": []
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:110-6191"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Demon's Horn",
+       "Sol'kanar the Swamp King"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Marauding Blight-Priest"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Bloodthirsty Conqueror",
+        "Marauding Blight-Priest"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [],
+      "piece_count": 2,
+      "targeted_piece_count": 0,
+      "via": {}
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Marauding Blight-Priest",
+      "spellbook:110-6191"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Bloodthirsty Conqueror",
+        "Marauding Blight-Priest"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Marauding Blight-Priest",
+    "Bloodthirsty Conqueror"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_supported_combo"
+   },
+   "id": "110-6191",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 3,
+     "name": "Marauding Blight-Priest",
+     "packages": [
+      "pkg:life-loop"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Creature — Vampire Cleric"
+    },
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 2,
+     "mv": 5,
+     "name": "Bloodthirsty Conqueror",
+     "packages": [
+      "pkg:life-loop"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Creature — Vampire Knight"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "S",
+    "evidence": [
+     "spellbook:110-6191"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite lifegain"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:314-3966"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 2
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:314-3966"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [
+       "Sol'kanar the Swamp King"
+      ],
+      "commander_names": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:314-3966"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Vito, Thorn of the Dusk Rose"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:314-3966"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Vito, Thorn of the Dusk Rose"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Exquisite Blood": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:life-loop"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 3,
+       "tutor_target": true
+      },
+      "Vito, Thorn of the Dusk Rose": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:life-loop"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Vito, Thorn of the Dusk Rose"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Exquisite Blood",
+       "Vito, Thorn of the Dusk Rose"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Vito, Thorn of the Dusk Rose"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": 8,
+      "piece_count": 2
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/solkanar-the-swamp-king"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 5,
+      "near_variant_ids": [
+       "110-3966",
+       "314-6191",
+       "3966-4740",
+       "3966-5755",
+       "3966-5867"
+      ],
+      "piece_spellbook_occurrences": {
+       "Exquisite Blood": 5,
+       "Vito, Thorn of the Dusk Rose": 2
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:314-3966"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Demon's Horn",
+       "Sol'kanar the Swamp King"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Vito, Thorn of the Dusk Rose",
+      "spellbook:314-3966"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 5,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": []
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:314-3966"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Demon's Horn",
+       "Sol'kanar the Swamp King"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Vito, Thorn of the Dusk Rose"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Exquisite Blood",
+        "Vito, Thorn of the Dusk Rose"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Exquisite Blood"
+      ],
+      "piece_count": 2,
+      "targeted_piece_count": 1,
+      "via": {
+       "Exquisite Blood": [
+        "Beseech the Mirror",
+        "Demonic Tutor",
+        "Imperial Seal",
+        "Vampiric Tutor"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Vito, Thorn of the Dusk Rose",
+      "spellbook:314-3966"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Exquisite Blood",
+        "Vito, Thorn of the Dusk Rose"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Vito, Thorn of the Dusk Rose",
+    "Exquisite Blood"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_supported_combo"
+   },
+   "id": "314-3966",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 3,
+     "name": "Vito, Thorn of the Dusk Rose",
+     "packages": [
+      "pkg:life-loop"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Legendary Creature — Vampire Cleric"
+    },
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 3,
+     "mv": 5,
+     "name": "Exquisite Blood",
+     "packages": [
+      "pkg:life-loop"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Enchantment"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "S",
+    "evidence": [
+     "spellbook:314-3966"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite lifegain"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:314-6191"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 2
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:314-6191"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [
+       "Sol'kanar the Swamp King"
+      ],
+      "commander_names": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:314-6191"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Vito, Thorn of the Dusk Rose"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:314-6191"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Vito, Thorn of the Dusk Rose"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Bloodthirsty Conqueror": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:life-loop"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 2,
+       "tutor_target": false
+      },
+      "Vito, Thorn of the Dusk Rose": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:life-loop"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Vito, Thorn of the Dusk Rose"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Bloodthirsty Conqueror",
+       "Vito, Thorn of the Dusk Rose"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Vito, Thorn of the Dusk Rose"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": 8,
+      "piece_count": 2
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/solkanar-the-swamp-king"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 5,
+      "near_variant_ids": [
+       "110-6191",
+       "314-3966",
+       "4740-6191",
+       "5755-6191",
+       "5867-6191"
+      ],
+      "piece_spellbook_occurrences": {
+       "Bloodthirsty Conqueror": 5,
+       "Vito, Thorn of the Dusk Rose": 2
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:314-6191"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Demon's Horn",
+       "Sol'kanar the Swamp King"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Vito, Thorn of the Dusk Rose",
+      "spellbook:314-6191"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 5,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": []
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:314-6191"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Demon's Horn",
+       "Sol'kanar the Swamp King"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Vito, Thorn of the Dusk Rose"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Bloodthirsty Conqueror",
+        "Vito, Thorn of the Dusk Rose"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [],
+      "piece_count": 2,
+      "targeted_piece_count": 0,
+      "via": {}
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Vito, Thorn of the Dusk Rose",
+      "spellbook:314-6191"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Bloodthirsty Conqueror",
+        "Vito, Thorn of the Dusk Rose"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Vito, Thorn of the Dusk Rose",
+    "Bloodthirsty Conqueror"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_supported_combo"
+   },
+   "id": "314-6191",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 3,
+     "name": "Vito, Thorn of the Dusk Rose",
+     "packages": [
+      "pkg:life-loop"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Legendary Creature — Vampire Cleric"
+    },
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 2,
+     "mv": 5,
+     "name": "Bloodthirsty Conqueror",
+     "packages": [
+      "pkg:life-loop"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Creature — Vampire Knight"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "S",
+    "evidence": [
+     "spellbook:314-6191"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite lifegain"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:3966-4740"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 2
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/reservoir-activation",
+      "spellbook:3966-4740"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [
+       "Sol'kanar the Swamp King"
+      ],
+      "commander_names": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/reservoir-activation",
+      "spellbook:3966-4740"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Aetherflux Reservoir",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/reservoir-activation",
+      "spellbook:3966-4740"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Aetherflux Reservoir",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Aetherflux Reservoir": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [
+        "removal"
+       ],
+       "signal_count": 1,
+       "tutor_target": false
+      },
+      "Exquisite Blood": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:life-loop"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 3,
+       "tutor_target": true
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Aetherflux Reservoir",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Aetherflux Reservoir",
+       "Exquisite Blood"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Aetherflux Reservoir",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": 9,
+      "piece_count": 2
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/solkanar-the-swamp-king"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 6,
+      "near_variant_ids": [
+       "110-3966",
+       "2173-4740-5078",
+       "314-3966",
+       "3966-5755",
+       "3966-5867",
+       "4740-6191"
+      ],
+      "piece_spellbook_occurrences": {
+       "Aetherflux Reservoir": 3,
+       "Exquisite Blood": 5
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/reservoir-activation",
+      "spellbook:3966-4740"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Demon's Horn",
+       "Sol'kanar the Swamp King"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Aetherflux Reservoir",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "spellbook:3966-4740"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 6,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": []
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/reservoir-activation",
+      "spellbook:3966-4740"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Demon's Horn",
+       "Sol'kanar the Swamp King"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Aetherflux Reservoir",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Aetherflux Reservoir",
+        "Exquisite Blood"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Exquisite Blood"
+      ],
+      "piece_count": 2,
+      "targeted_piece_count": 1,
+      "via": {
+       "Exquisite Blood": [
+        "Beseech the Mirror",
+        "Demonic Tutor",
+        "Imperial Seal",
+        "Vampiric Tutor"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Aetherflux Reservoir",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "spellbook:3966-4740"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Aetherflux Reservoir",
+        "Exquisite Blood"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Aetherflux Reservoir",
+    "Exquisite Blood"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/reservoir-activation"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_supported_combo"
+   },
+   "id": "3966-4740",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 4,
+     "name": "Aetherflux Reservoir",
+     "packages": [],
+     "recursion": false,
+     "roles": [
+      "removal"
+     ],
+     "tutor_target": false,
+     "type_line": "Artifact"
+    },
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 3,
+     "mv": 5,
+     "name": "Exquisite Blood",
+     "packages": [
+      "pkg:life-loop"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Enchantment"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "S",
+    "evidence": [
+     "spellbook:3966-4740"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite damage",
+     "Infinite lifegain triggers"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:3966-5755"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 2
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:3966-5755"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [
+       "Sol'kanar the Swamp King"
+      ],
+      "commander_names": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:3966-5755"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Enduring Tenacity",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:3966-5755"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Enduring Tenacity",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Enduring Tenacity": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:life-loop"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      },
+      "Exquisite Blood": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:life-loop"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 3,
+       "tutor_target": true
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Enduring Tenacity",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Enduring Tenacity",
+       "Exquisite Blood"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Enduring Tenacity",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": 9,
+      "piece_count": 2
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/solkanar-the-swamp-king"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 5,
+      "near_variant_ids": [
+       "110-3966",
+       "314-3966",
+       "3966-4740",
+       "3966-5867",
+       "5755-6191"
+      ],
+      "piece_spellbook_occurrences": {
+       "Enduring Tenacity": 2,
+       "Exquisite Blood": 5
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:3966-5755"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Demon's Horn",
+       "Sol'kanar the Swamp King"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Enduring Tenacity",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "spellbook:3966-5755"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 5,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": []
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:3966-5755"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Demon's Horn",
+       "Sol'kanar the Swamp King"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Enduring Tenacity",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Enduring Tenacity",
+        "Exquisite Blood"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Exquisite Blood"
+      ],
+      "piece_count": 2,
+      "targeted_piece_count": 1,
+      "via": {
+       "Exquisite Blood": [
+        "Beseech the Mirror",
+        "Demonic Tutor",
+        "Imperial Seal",
+        "Vampiric Tutor"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Enduring Tenacity",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "spellbook:3966-5755"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Enduring Tenacity",
+        "Exquisite Blood"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Exquisite Blood",
+    "Enduring Tenacity"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_supported_combo"
+   },
+   "id": "3966-5755",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 3,
+     "mv": 5,
+     "name": "Exquisite Blood",
+     "packages": [
+      "pkg:life-loop"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Enchantment"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 4,
+     "name": "Enduring Tenacity",
+     "packages": [
+      "pkg:life-loop"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Enchantment Creature — Snake Glimmer"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "S",
+    "evidence": [
+     "spellbook:3966-5755"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite lifegain"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:3966-5867"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 2
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:3966-5867"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [
+       "Sol'kanar the Swamp King"
+      ],
+      "commander_names": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:3966-5867"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Starscape Cleric"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:3966-5867"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Starscape Cleric"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Exquisite Blood": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:life-loop"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 3,
+       "tutor_target": true
+      },
+      "Starscape Cleric": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:life-loop"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Starscape Cleric"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Exquisite Blood",
+       "Starscape Cleric"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Starscape Cleric"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": 7,
+      "piece_count": 2
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/solkanar-the-swamp-king"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 5,
+      "near_variant_ids": [
+       "110-3966",
+       "314-3966",
+       "3966-4740",
+       "3966-5755",
+       "5867-6191"
+      ],
+      "piece_spellbook_occurrences": {
+       "Exquisite Blood": 5,
+       "Starscape Cleric": 2
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:3966-5867"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Demon's Horn",
+       "Sol'kanar the Swamp King"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Starscape Cleric",
+      "spellbook:3966-5867"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 5,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": []
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:3966-5867"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Demon's Horn",
+       "Sol'kanar the Swamp King"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Starscape Cleric"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Exquisite Blood",
+        "Starscape Cleric"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Exquisite Blood"
+      ],
+      "piece_count": 2,
+      "targeted_piece_count": 1,
+      "via": {
+       "Exquisite Blood": [
+        "Beseech the Mirror",
+        "Demonic Tutor",
+        "Imperial Seal",
+        "Vampiric Tutor"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Exquisite Blood",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Starscape Cleric",
+      "spellbook:3966-5867"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Exquisite Blood",
+        "Starscape Cleric"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Exquisite Blood",
+    "Starscape Cleric"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_supported_combo"
+   },
+   "id": "3966-5867",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 3,
+     "mv": 5,
+     "name": "Exquisite Blood",
+     "packages": [
+      "pkg:life-loop"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Enchantment"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 2,
+     "name": "Starscape Cleric",
+     "packages": [
+      "pkg:life-loop"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Creature — Bat Cleric"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "S",
+    "evidence": [
+     "spellbook:3966-5867"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite lifegain"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:4740-6191"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 2
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/reservoir-activation",
+      "spellbook:4740-6191"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [
+       "Sol'kanar the Swamp King"
+      ],
+      "commander_names": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/reservoir-activation",
+      "spellbook:4740-6191"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Aetherflux Reservoir",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/reservoir-activation",
+      "spellbook:4740-6191"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Aetherflux Reservoir",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Aetherflux Reservoir": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [
+        "removal"
+       ],
+       "signal_count": 1,
+       "tutor_target": false
+      },
+      "Bloodthirsty Conqueror": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:life-loop"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 2,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Aetherflux Reservoir",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Aetherflux Reservoir",
+       "Bloodthirsty Conqueror"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Aetherflux Reservoir",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": 9,
+      "piece_count": 2
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/solkanar-the-swamp-king"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 6,
+      "near_variant_ids": [
+       "110-6191",
+       "2173-4740-5078",
+       "314-6191",
+       "3966-4740",
+       "5755-6191",
+       "5867-6191"
+      ],
+      "piece_spellbook_occurrences": {
+       "Aetherflux Reservoir": 3,
+       "Bloodthirsty Conqueror": 5
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/reservoir-activation",
+      "spellbook:4740-6191"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Demon's Horn",
+       "Sol'kanar the Swamp King"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Aetherflux Reservoir",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "spellbook:4740-6191"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 6,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": []
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/reservoir-activation",
+      "spellbook:4740-6191"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Demon's Horn",
+       "Sol'kanar the Swamp King"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Aetherflux Reservoir",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Aetherflux Reservoir",
+        "Bloodthirsty Conqueror"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [],
+      "piece_count": 2,
+      "targeted_piece_count": 0,
+      "via": {}
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Aetherflux Reservoir",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "spellbook:4740-6191"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Aetherflux Reservoir",
+        "Bloodthirsty Conqueror"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Aetherflux Reservoir",
+    "Bloodthirsty Conqueror"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/reservoir-activation"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_supported_combo"
+   },
+   "id": "4740-6191",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 4,
+     "name": "Aetherflux Reservoir",
+     "packages": [],
+     "recursion": false,
+     "roles": [
+      "removal"
+     ],
+     "tutor_target": false,
+     "type_line": "Artifact"
+    },
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 2,
+     "mv": 5,
+     "name": "Bloodthirsty Conqueror",
+     "packages": [
+      "pkg:life-loop"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Creature — Vampire Knight"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "S",
+    "evidence": [
+     "spellbook:4740-6191"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite damage",
+     "Infinite lifegain triggers"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:5755-6191"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 2
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:5755-6191"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [
+       "Sol'kanar the Swamp King"
+      ],
+      "commander_names": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:5755-6191"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Enduring Tenacity"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:5755-6191"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Enduring Tenacity"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Bloodthirsty Conqueror": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:life-loop"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 2,
+       "tutor_target": false
+      },
+      "Enduring Tenacity": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:life-loop"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Enduring Tenacity"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Bloodthirsty Conqueror",
+       "Enduring Tenacity"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Enduring Tenacity"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": 9,
+      "piece_count": 2
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/solkanar-the-swamp-king"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 5,
+      "near_variant_ids": [
+       "110-6191",
+       "314-6191",
+       "3966-5755",
+       "4740-6191",
+       "5867-6191"
+      ],
+      "piece_spellbook_occurrences": {
+       "Bloodthirsty Conqueror": 5,
+       "Enduring Tenacity": 2
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:5755-6191"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Demon's Horn",
+       "Sol'kanar the Swamp King"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Enduring Tenacity",
+      "spellbook:5755-6191"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 5,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": []
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:5755-6191"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Demon's Horn",
+       "Sol'kanar the Swamp King"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Enduring Tenacity"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Bloodthirsty Conqueror",
+        "Enduring Tenacity"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [],
+      "piece_count": 2,
+      "targeted_piece_count": 0,
+      "via": {}
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Enduring Tenacity",
+      "spellbook:5755-6191"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Bloodthirsty Conqueror",
+        "Enduring Tenacity"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Enduring Tenacity",
+    "Bloodthirsty Conqueror"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_supported_combo"
+   },
+   "id": "5755-6191",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 4,
+     "name": "Enduring Tenacity",
+     "packages": [
+      "pkg:life-loop"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Enchantment Creature — Snake Glimmer"
+    },
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 2,
+     "mv": 5,
+     "name": "Bloodthirsty Conqueror",
+     "packages": [
+      "pkg:life-loop"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Creature — Vampire Knight"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "S",
+    "evidence": [
+     "spellbook:5755-6191"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite lifegain"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:5867-6191"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 2
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:5867-6191"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [
+       "Sol'kanar the Swamp King"
+      ],
+      "commander_names": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:5867-6191"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Starscape Cleric"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:5867-6191"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Starscape Cleric"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Bloodthirsty Conqueror": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:life-loop"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 2,
+       "tutor_target": false
+      },
+      "Starscape Cleric": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:life-loop"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Starscape Cleric"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Bloodthirsty Conqueror",
+       "Starscape Cleric"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Starscape Cleric"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": 7,
+      "piece_count": 2
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/solkanar-the-swamp-king"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 5,
+      "near_variant_ids": [
+       "110-6191",
+       "314-6191",
+       "3966-5867",
+       "4740-6191",
+       "5755-6191"
+      ],
+      "piece_spellbook_occurrences": {
+       "Bloodthirsty Conqueror": 5,
+       "Starscape Cleric": 2
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:5867-6191"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Demon's Horn",
+       "Sol'kanar the Swamp King"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Starscape Cleric",
+      "spellbook:5867-6191"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 5,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": []
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops",
+      "spellbook:5867-6191"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Demon's Horn",
+       "Sol'kanar the Swamp King"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Starscape Cleric"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Bloodthirsty Conqueror",
+        "Starscape Cleric"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [],
+      "piece_count": 2,
+      "targeted_piece_count": 0,
+      "via": {}
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bloodthirsty Conqueror",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Starscape Cleric",
+      "spellbook:5867-6191"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Bloodthirsty Conqueror",
+        "Starscape Cleric"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Starscape Cleric",
+    "Bloodthirsty Conqueror"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_supported_combo"
+   },
+   "id": "5867-6191",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 2,
+     "name": "Starscape Cleric",
+     "packages": [
+      "pkg:life-loop"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Creature — Bat Cleric"
+    },
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 2,
+     "mv": 5,
+     "name": "Bloodthirsty Conqueror",
+     "packages": [
+      "pkg:life-loop"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Creature — Vampire Knight"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "S",
+    "evidence": [
+     "spellbook:5867-6191"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite lifegain"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:2173-2498-5078"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 3
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "spellbook:2173-2498-5078"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_pieces": [],
+      "mode": "unlinked_to_blueprint_combo_win"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "spellbook:2173-2498-5078"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [],
+      "mode": "unlinked_to_blueprint_combo_win"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bolas's Citadel",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sensei's Divining Top",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sheoldred, the Apocalypse"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 1,
+      "low_independent_signal_pieces": [
+       "Bolas's Citadel"
+      ]
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "spellbook:2173-2498-5078"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": false,
+      "status": "unverified"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bolas's Citadel",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sensei's Divining Top",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sheoldred, the Apocalypse"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Bolas's Citadel": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 0,
+       "tutor_target": false
+      },
+      "Sensei's Divining Top": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [
+        "draw"
+       ],
+       "signal_count": 1,
+       "tutor_target": false
+      },
+      "Sheoldred, the Apocalypse": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [
+        "draw"
+       ],
+       "signal_count": 1,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bolas's Citadel",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sensei's Divining Top",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sheoldred, the Apocalypse"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Bolas's Citadel",
+       "Sensei's Divining Top",
+       "Sheoldred, the Apocalypse"
+      ],
+      "count_proxy": 3
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bolas's Citadel",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sensei's Divining Top",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sheoldred, the Apocalypse"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 3,
+      "mv_sum_proxy": 11,
+      "piece_count": 3
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/solkanar-the-swamp-king"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 1,
+      "near_variant_ids": [
+       "2173-4740-5078"
+      ],
+      "piece_spellbook_occurrences": {
+       "Bolas's Citadel": 2,
+       "Sensei's Divining Top": 2,
+       "Sheoldred, the Apocalypse": 1
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "low",
+     "evidence": [
+      "spellbook:2173-2498-5078"
+     ],
+     "evidence_class": "heuristic",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [],
+      "status": "none_declared_but_not_proven_unnecessary"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bolas's Citadel",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sensei's Divining Top",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sheoldred, the Apocalypse",
+      "spellbook:2173-2498-5078"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 1,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Sheoldred, the Apocalypse"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "moderate",
+     "evidence": [
+      "spellbook:2173-2498-5078"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bolas's Citadel",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sensei's Divining Top",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sheoldred, the Apocalypse"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Bolas's Citadel",
+        "Sensei's Divining Top",
+        "Sheoldred, the Apocalypse"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [],
+      "piece_count": 3,
+      "targeted_piece_count": 0,
+      "via": {}
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bolas's Citadel",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sensei's Divining Top",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sheoldred, the Apocalypse",
+      "spellbook:2173-2498-5078"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Bolas's Citadel",
+        "Sensei's Divining Top",
+        "Sheoldred, the Apocalypse"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Sensei's Divining Top",
+    "Bolas's Citadel",
+    "Sheoldred, the Apocalypse"
+   ],
+   "classification": {
+    "confidence": "low",
+    "evidence": [
+     "spellbook:2173-2498-5078"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "incidental_infinite_or_value_loop_requires_judgment",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "unlinked_spellbook_combo"
+   },
+   "id": "2173-2498-5078",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 1,
+     "name": "Sensei's Divining Top",
+     "packages": [],
+     "recursion": false,
+     "roles": [
+      "draw"
+     ],
+     "tutor_target": false,
+     "type_line": "Artifact"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 0,
+     "mv": 6,
+     "name": "Bolas's Citadel",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Legendary Artifact"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 4,
+     "name": "Sheoldred, the Apocalypse",
+     "packages": [],
+     "recursion": false,
+     "roles": [
+      "draw"
+     ],
+     "tutor_target": false,
+     "type_line": "Legendary Creature — Phyrexian Praetor"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "S",
+    "evidence": [
+     "spellbook:2173-2498-5078"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite lifegain",
+     "Near-infinite lifegain triggers"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:2173-4740-5078"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 3
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir",
+      "spellbook:2173-4740-5078"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Sol'kanar the Swamp King"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role",
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir",
+      "spellbook:2173-4740-5078"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Aetherflux Reservoir",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bolas's Citadel",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sensei's Divining Top"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 1,
+      "low_independent_signal_pieces": [
+       "Bolas's Citadel"
+      ]
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir",
+      "spellbook:2173-4740-5078"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "unverified"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Aetherflux Reservoir",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bolas's Citadel",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sensei's Divining Top"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Aetherflux Reservoir": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [
+        "removal"
+       ],
+       "signal_count": 1,
+       "tutor_target": false
+      },
+      "Bolas's Citadel": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 0,
+       "tutor_target": false
+      },
+      "Sensei's Divining Top": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [
+        "draw"
+       ],
+       "signal_count": 1,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Aetherflux Reservoir",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bolas's Citadel",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sensei's Divining Top"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Aetherflux Reservoir",
+       "Bolas's Citadel",
+       "Sensei's Divining Top"
+      ],
+      "count_proxy": 3
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Aetherflux Reservoir",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bolas's Citadel",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sensei's Divining Top"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 3,
+      "mv_sum_proxy": 11,
+      "piece_count": 3
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/solkanar-the-swamp-king"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 3,
+      "near_variant_ids": [
+       "2173-2498-5078",
+       "3966-4740",
+       "4740-6191"
+      ],
+      "piece_spellbook_occurrences": {
+       "Aetherflux Reservoir": 3,
+       "Bolas's Citadel": 2,
+       "Sensei's Divining Top": 2
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir",
+      "spellbook:2173-4740-5078"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [],
+      "status": "none_declared_but_not_proven_unnecessary"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Aetherflux Reservoir",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bolas's Citadel",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sensei's Divining Top",
+      "spellbook:2173-4740-5078"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 3,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": []
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir",
+      "spellbook:2173-4740-5078"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Aetherflux Reservoir",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bolas's Citadel",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sensei's Divining Top"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Aetherflux Reservoir",
+        "Bolas's Citadel",
+        "Sensei's Divining Top"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [],
+      "piece_count": 3,
+      "targeted_piece_count": 0,
+      "via": {}
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Aetherflux Reservoir",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Bolas's Citadel",
+      "graph:data/grixis/graph/solkanar-the-swamp-king.json#card:Sensei's Divining Top",
+      "spellbook:2173-4740-5078"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Aetherflux Reservoir",
+        "Bolas's Citadel",
+        "Sensei's Divining Top"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Sensei's Divining Top",
+    "Aetherflux Reservoir",
+    "Bolas's Citadel"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_designated_win_line",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_independent_power_package"
+   },
+   "id": "2173-4740-5078",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 1,
+     "name": "Sensei's Divining Top",
+     "packages": [],
+     "recursion": false,
+     "roles": [
+      "draw"
+     ],
+     "tutor_target": false,
+     "type_line": "Artifact"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 4,
+     "name": "Aetherflux Reservoir",
+     "packages": [],
+     "recursion": false,
+     "roles": [
+      "removal"
+     ],
+     "tutor_target": false,
+     "type_line": "Artifact"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 0,
+     "mv": 6,
+     "name": "Bolas's Citadel",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Legendary Artifact"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "P",
+    "evidence": [
+     "spellbook:2173-4740-5078"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite damage",
+     "Near-infinite lifegain"
+    ],
+    "requires": []
+   }
+  }
+ ],
+ "deck_id": "Sol_kanar_the_Swamp_King",
+ "generated_by": "scripts/grixis_combo_quality.py v1",
+ "inputs": {
+  "blueprint": "data/grixis/blueprints/solkanar-the-swamp-king.json",
+  "graph": "data/grixis/graph/solkanar-the-swamp-king.json",
+  "registry": "data/grixis/registry.json",
+  "spellbook": "data/grixis_combos.json"
+ },
+ "schema_version": 1,
+ "slug": "solkanar-the-swamp-king",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_win_linked_count": 12,
+  "combo_count": 13,
+  "commander_independent_win_hint_count": 2,
+  "commander_piece_count": 0,
+  "infinite_count": 13,
+  "unresolved_classification_count": 13
+ }
+}

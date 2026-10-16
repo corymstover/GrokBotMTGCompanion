@@ -1,0 +1,5659 @@
+{
+ "authority": {
+  "can_decide": false,
+  "exploratory": true,
+  "note": "Step B evidence only. Structural/outcome labels are provisional hints; M6 judgment decides priority and deck changes."
+ },
+ "canonical_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+ "combos": [
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:1295-3093"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 2
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:1295-3093"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:1295-3093"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Tainted Pact",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Thassa's Oracle"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 1,
+      "low_independent_signal_pieces": [
+       "Tainted Pact"
+      ]
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:1295-3093"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "unverified"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Tainted Pact",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Thassa's Oracle"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Tainted Pact": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 0,
+       "tutor_target": false
+      },
+      "Thassa's Oracle": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": true
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Tainted Pact",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Thassa's Oracle"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Tainted Pact",
+       "Thassa's Oracle"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Tainted Pact",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Thassa's Oracle"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": 4,
+      "piece_count": 2
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/inalla-archmage-ritualist"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 1,
+      "near_variant_ids": [
+       "742-1295"
+      ],
+      "piece_spellbook_occurrences": {
+       "Tainted Pact": 1,
+       "Thassa's Oracle": 2
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:1295-3093"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [],
+      "status": "none_declared_but_not_proven_unnecessary"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Tainted Pact",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Thassa's Oracle",
+      "spellbook:1295-3093"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 1,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Tainted Pact"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:1295-3093"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Tainted Pact",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Thassa's Oracle"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [
+        "Tainted Pact"
+       ],
+       "land": [],
+       "permanent": [
+        "Thassa's Oracle"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Thassa's Oracle"
+      ],
+      "piece_count": 2,
+      "targeted_piece_count": 1,
+      "via": {
+       "Thassa's Oracle": [
+        "Mystical Tutor",
+        "Vampiric Tutor",
+        "Wishclaw Talisman"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Tainted Pact",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Thassa's Oracle",
+      "spellbook:1295-3093"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [
+        "Tainted Pact"
+       ],
+       "land": [],
+       "permanent": [
+        "Thassa's Oracle"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Tainted Pact",
+    "Thassa's Oracle"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_designated_win_line",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_independent_power_package"
+   },
+   "id": "1295-3093",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 0,
+     "mv": 2,
+     "name": "Tainted Pact",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Instant"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 2,
+     "name": "Thassa's Oracle",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Creature — Merfolk Wizard"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "R",
+    "evidence": [
+     "spellbook:1295-3093"
+    ],
+    "evidence_class": "fact",
+    "infinite": false,
+    "produces": [
+     "Win the game"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:742-1295"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 2
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:742-1295"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:742-1295"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Demonic Consultation",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Thassa's Oracle"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:742-1295"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "unverified"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Demonic Consultation",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Thassa's Oracle"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Demonic Consultation": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [
+        "wipe"
+       ],
+       "signal_count": 1,
+       "tutor_target": false
+      },
+      "Thassa's Oracle": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": true
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Demonic Consultation",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Thassa's Oracle"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Demonic Consultation",
+       "Thassa's Oracle"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Demonic Consultation",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Thassa's Oracle"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": 3,
+      "piece_count": 2
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/inalla-archmage-ritualist"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 1,
+      "near_variant_ids": [
+       "1295-3093"
+      ],
+      "piece_spellbook_occurrences": {
+       "Demonic Consultation": 1,
+       "Thassa's Oracle": 2
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:742-1295"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [],
+      "status": "none_declared_but_not_proven_unnecessary"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Demonic Consultation",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Thassa's Oracle",
+      "spellbook:742-1295"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 1,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Demonic Consultation"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:742-1295"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Demonic Consultation",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Thassa's Oracle"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [
+        "Demonic Consultation"
+       ],
+       "land": [],
+       "permanent": [
+        "Thassa's Oracle"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Thassa's Oracle"
+      ],
+      "piece_count": 2,
+      "targeted_piece_count": 1,
+      "via": {
+       "Thassa's Oracle": [
+        "Mystical Tutor",
+        "Vampiric Tutor",
+        "Wishclaw Talisman"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Demonic Consultation",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Thassa's Oracle",
+      "spellbook:742-1295"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [
+        "Demonic Consultation"
+       ],
+       "land": [],
+       "permanent": [
+        "Thassa's Oracle"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Demonic Consultation",
+    "Thassa's Oracle"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_designated_win_line",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_independent_power_package"
+   },
+   "id": "742-1295",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 1,
+     "name": "Demonic Consultation",
+     "packages": [],
+     "recursion": false,
+     "roles": [
+      "wipe"
+     ],
+     "tutor_target": false,
+     "type_line": "Instant"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 2,
+     "name": "Thassa's Oracle",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Creature — Merfolk Wizard"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "R",
+    "evidence": [
+     "spellbook:742-1295"
+    ],
+    "evidence_class": "fact",
+    "infinite": false,
+    "produces": [
+     "Exile your library",
+     "Win the game"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:1368-1414-4856"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 3
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:1368-1414-4856"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:1368-1414-4856"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Brain Freeze",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Lotus Petal",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Underworld Breach"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 1,
+      "low_independent_signal_pieces": [
+       "Brain Freeze"
+      ]
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:1368-1414-4856"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "unverified"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Brain Freeze",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Lotus Petal",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Underworld Breach"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Brain Freeze": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 0,
+       "tutor_target": false
+      },
+      "Lotus Petal": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [
+        "ramp"
+       ],
+       "signal_count": 1,
+       "tutor_target": false
+      },
+      "Underworld Breach": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": true,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Brain Freeze",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Lotus Petal",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Underworld Breach"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Brain Freeze",
+       "Lotus Petal",
+       "Underworld Breach"
+      ],
+      "count_proxy": 3
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Brain Freeze",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Lotus Petal",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Underworld Breach"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 3,
+      "mv_sum_proxy": 4,
+      "piece_count": 3
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [
+       "Underworld Breach"
+      ],
+      "count": 1,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/inalla-archmage-ritualist"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 1,
+      "near_variant_ids": [
+       "1368-3518-4856"
+      ],
+      "piece_spellbook_occurrences": {
+       "Brain Freeze": 2,
+       "Lotus Petal": 1,
+       "Underworld Breach": 3
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:1368-1414-4856"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [],
+      "status": "none_declared_but_not_proven_unnecessary"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Brain Freeze",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Lotus Petal",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Underworld Breach",
+      "spellbook:1368-1414-4856"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 1,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Lotus Petal"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:1368-1414-4856"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Brain Freeze",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Lotus Petal",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Underworld Breach"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [
+        "Brain Freeze"
+       ],
+       "land": [],
+       "permanent": [
+        "Lotus Petal",
+        "Underworld Breach"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [],
+      "piece_count": 3,
+      "targeted_piece_count": 0,
+      "via": {}
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Brain Freeze",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Lotus Petal",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Underworld Breach",
+      "spellbook:1368-1414-4856"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [
+        "Brain Freeze"
+       ],
+       "land": [],
+       "permanent": [
+        "Lotus Petal",
+        "Underworld Breach"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Underworld Breach",
+    "Lotus Petal",
+    "Brain Freeze"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_designated_win_line",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_independent_power_package"
+   },
+   "id": "1368-1414-4856",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 2,
+     "name": "Underworld Breach",
+     "packages": [],
+     "recursion": true,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Enchantment"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 0,
+     "name": "Lotus Petal",
+     "packages": [],
+     "recursion": false,
+     "roles": [
+      "ramp"
+     ],
+     "tutor_target": false,
+     "type_line": "Artifact"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 0,
+     "mv": 2,
+     "name": "Brain Freeze",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Instant"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "P",
+    "evidence": [
+     "spellbook:1368-1414-4856"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:1368-2706-3518"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 3
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:1368-2706-3518"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:1368-2706-3518"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Lion's Eye Diamond",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Underworld Breach",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Wheel of Fortune"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 1,
+      "low_independent_signal_pieces": [
+       "Lion's Eye Diamond"
+      ]
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:1368-2706-3518"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "unverified"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Lion's Eye Diamond",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Underworld Breach",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Wheel of Fortune"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Lion's Eye Diamond": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 0,
+       "tutor_target": false
+      },
+      "Underworld Breach": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": true,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      },
+      "Wheel of Fortune": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [
+        "draw"
+       ],
+       "signal_count": 1,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Lion's Eye Diamond",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Underworld Breach",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Wheel of Fortune"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Lion's Eye Diamond",
+       "Underworld Breach",
+       "Wheel of Fortune"
+      ],
+      "count_proxy": 3
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Lion's Eye Diamond",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Underworld Breach",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Wheel of Fortune"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 3,
+      "mv_sum_proxy": 5,
+      "piece_count": 3
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [
+       "Underworld Breach"
+      ],
+      "count": 1,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/inalla-archmage-ritualist"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 1,
+      "near_variant_ids": [
+       "1368-3518-4856"
+      ],
+      "piece_spellbook_occurrences": {
+       "Lion's Eye Diamond": 2,
+       "Underworld Breach": 3,
+       "Wheel of Fortune": 1
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:1368-2706-3518"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [],
+      "status": "none_declared_but_not_proven_unnecessary"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Lion's Eye Diamond",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Underworld Breach",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Wheel of Fortune",
+      "spellbook:1368-2706-3518"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 1,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Wheel of Fortune"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:1368-2706-3518"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Lion's Eye Diamond",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Underworld Breach",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Wheel of Fortune"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Lion's Eye Diamond",
+        "Underworld Breach"
+       ],
+       "sorcery": [
+        "Wheel of Fortune"
+       ],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [],
+      "piece_count": 3,
+      "targeted_piece_count": 0,
+      "via": {}
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Lion's Eye Diamond",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Underworld Breach",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Wheel of Fortune",
+      "spellbook:1368-2706-3518"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Lion's Eye Diamond",
+        "Underworld Breach"
+       ],
+       "sorcery": [
+        "Wheel of Fortune"
+       ],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Wheel of Fortune"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_designated_win_line",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_independent_power_package"
+   },
+   "id": "1368-2706-3518",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 2,
+     "name": "Underworld Breach",
+     "packages": [],
+     "recursion": true,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Enchantment"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 0,
+     "mv": 0,
+     "name": "Lion's Eye Diamond",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Artifact"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 3,
+     "name": "Wheel of Fortune",
+     "packages": [],
+     "recursion": false,
+     "roles": [
+      "draw"
+     ],
+     "tutor_target": false,
+     "type_line": "Sorcery"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "P",
+    "evidence": [
+     "spellbook:1368-2706-3518"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite looting for opponents",
+     "Near-infinite storm count"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:1368-3518-4856"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 3
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:1368-3518-4856"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:1368-3518-4856"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_line_has_no_commander_piece_or_enabler"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Brain Freeze",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Lion's Eye Diamond",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Underworld Breach"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 2,
+      "low_independent_signal_pieces": [
+       "Brain Freeze",
+       "Lion's Eye Diamond"
+      ]
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:1368-3518-4856"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "unverified"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Brain Freeze",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Lion's Eye Diamond",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Underworld Breach"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Brain Freeze": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 0,
+       "tutor_target": false
+      },
+      "Lion's Eye Diamond": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 0,
+       "tutor_target": false
+      },
+      "Underworld Breach": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": true,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Brain Freeze",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Lion's Eye Diamond",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Underworld Breach"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Brain Freeze",
+       "Lion's Eye Diamond",
+       "Underworld Breach"
+      ],
+      "count_proxy": 3
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Brain Freeze",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Lion's Eye Diamond",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Underworld Breach"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 3,
+      "mv_sum_proxy": 4,
+      "piece_count": 3
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [
+       "Underworld Breach"
+      ],
+      "count": 1,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/inalla-archmage-ritualist"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 2,
+      "near_variant_ids": [
+       "1368-1414-4856",
+       "1368-2706-3518"
+      ],
+      "piece_spellbook_occurrences": {
+       "Brain Freeze": 2,
+       "Lion's Eye Diamond": 2,
+       "Underworld Breach": 3
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:1368-3518-4856"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [],
+      "status": "none_declared_but_not_proven_unnecessary"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Brain Freeze",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Lion's Eye Diamond",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Underworld Breach",
+      "spellbook:1368-3518-4856"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 2,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": []
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach",
+      "spellbook:1368-3518-4856"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Brain Freeze",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Lion's Eye Diamond",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Underworld Breach"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [
+        "Brain Freeze"
+       ],
+       "land": [],
+       "permanent": [
+        "Lion's Eye Diamond",
+        "Underworld Breach"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [],
+      "piece_count": 3,
+      "targeted_piece_count": 0,
+      "via": {}
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Brain Freeze",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Lion's Eye Diamond",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Underworld Breach",
+      "spellbook:1368-3518-4856"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [
+        "Brain Freeze"
+       ],
+       "land": [],
+       "permanent": [
+        "Lion's Eye Diamond",
+        "Underworld Breach"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_designated_win_line",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_independent_power_package"
+   },
+   "id": "1368-3518-4856",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 2,
+     "name": "Underworld Breach",
+     "packages": [],
+     "recursion": true,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Enchantment"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 0,
+     "mv": 0,
+     "name": "Lion's Eye Diamond",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Artifact"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 0,
+     "mv": 2,
+     "name": "Brain Freeze",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Instant"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "P",
+    "evidence": [
+     "spellbook:1368-3518-4856"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite colored mana",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:1869-2721-3719"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 3
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/bloodline-technomancer",
+      "spellbook:1869-2721-3719"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [],
+      "commander_names": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_pieces": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/bloodline-technomancer",
+      "spellbook:1869-2721-3719"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [],
+      "direct_commander_pieces": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "mode": "direct_piece"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Bloodline Necromancer",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Inalla, Archmage Ritualist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Ruthless Technomancer"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/bloodline-technomancer",
+      "spellbook:1869-2721-3719"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Bloodline Necromancer",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Inalla, Archmage Ritualist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Ruthless Technomancer"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Bloodline Necromancer": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:wizards"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 3,
+       "tutor_target": true
+      },
+      "Inalla, Archmage Ritualist": {
+       "identity_core": false,
+       "noncombo_packages": [],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 0,
+       "tutor_target": false
+      },
+      "Ruthless Technomancer": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:wizards"
+       ],
+       "recursion": false,
+       "roles": [
+        "ramp"
+       ],
+       "signal_count": 2,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Bloodline Necromancer",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Inalla, Archmage Ritualist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Ruthless Technomancer"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Bloodline Necromancer",
+       "Ruthless Technomancer"
+      ],
+      "count_proxy": 2
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Bloodline Necromancer",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Inalla, Archmage Ritualist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Ruthless Technomancer"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 2,
+      "mv_sum_proxy": null,
+      "piece_count": 3
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/inalla-archmage-ritualist"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 0,
+      "near_variant_ids": [],
+      "piece_spellbook_occurrences": {
+       "Bloodline Necromancer": 1,
+       "Inalla, Archmage Ritualist": 1,
+       "Ruthless Technomancer": 1
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/bloodline-technomancer",
+      "spellbook:1869-2721-3719"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Apprentice Necromancer"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Bloodline Necromancer",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Inalla, Archmage Ritualist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Ruthless Technomancer",
+      "spellbook:1869-2721-3719"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 0,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": [
+       "Bloodline Necromancer",
+       "Inalla, Archmage Ritualist",
+       "Ruthless Technomancer"
+      ]
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/bloodline-technomancer",
+      "spellbook:1869-2721-3719"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Apprentice Necromancer"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Bloodline Necromancer",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Inalla, Archmage Ritualist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Ruthless Technomancer"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Bloodline Necromancer",
+        "Ruthless Technomancer"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Inalla, Archmage Ritualist"
+       ]
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Bloodline Necromancer"
+      ],
+      "piece_count": 3,
+      "targeted_piece_count": 1,
+      "via": {
+       "Bloodline Necromancer": [
+        "Spellseeker",
+        "Step Through",
+        "Vedalken Aethermage"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Bloodline Necromancer",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Inalla, Archmage Ritualist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Ruthless Technomancer",
+      "spellbook:1869-2721-3719"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [],
+       "land": [],
+       "permanent": [
+        "Bloodline Necromancer",
+        "Ruthless Technomancer"
+       ],
+       "sorcery": [],
+       "unknown": [
+        "Inalla, Archmage Ritualist"
+       ]
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Inalla, Archmage Ritualist",
+    "Bloodline Necromancer",
+    "Ruthless Technomancer"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/bloodline-technomancer"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_native_combo"
+   },
+   "id": "1869-2721-3719",
+   "piece_facts": [
+    {
+     "graph_present": false,
+     "identity_core": false,
+     "independent_signal_count": 0,
+     "mv": null,
+     "name": "Inalla, Archmage Ritualist",
+     "packages": [],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": null
+    },
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 3,
+     "mv": 5,
+     "name": "Bloodline Necromancer",
+     "packages": [
+      "pkg:wizards"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Creature — Vampire Wizard"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 2,
+     "mv": 4,
+     "name": "Ruthless Technomancer",
+     "packages": [
+      "pkg:wizards"
+     ],
+     "recursion": false,
+     "roles": [
+      "ramp"
+     ],
+     "tutor_target": false,
+     "type_line": "Creature — Human Wizard"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "S",
+    "evidence": [
+     "spellbook:1869-2721-3719"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:500-813-1181"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 3
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:500-813-1181"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "commander_names": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:500-813-1181"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Sacrifice",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Saw in Half",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:500-813-1181"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Sacrifice",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Saw in Half",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Sacrifice": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:sac-reanimate"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      },
+      "Saw in Half": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:sac-reanimate"
+       ],
+       "recursion": false,
+       "roles": [
+        "removal"
+       ],
+       "signal_count": 2,
+       "tutor_target": false
+      },
+      "Scholar of the Ages": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:wizards"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 3,
+       "tutor_target": true
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Sacrifice",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Saw in Half",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Sacrifice",
+       "Saw in Half",
+       "Scholar of the Ages"
+      ],
+      "count_proxy": 3
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Sacrifice",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Saw in Half",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 3,
+      "mv_sum_proxy": 11,
+      "piece_count": 3
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/inalla-archmage-ritualist"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 4,
+      "near_variant_ids": [
+       "500-813-1777",
+       "500-813-2081",
+       "813-1181-1893",
+       "813-1181-2171"
+      ],
+      "piece_spellbook_occurrences": {
+       "Sacrifice": 3,
+       "Saw in Half": 3,
+       "Scholar of the Ages": 9
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:500-813-1181"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Inalla, Archmage Ritualist",
+       "Spellseeker"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Sacrifice",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Saw in Half",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "spellbook:500-813-1181"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 4,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": []
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:500-813-1181"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Inalla, Archmage Ritualist",
+       "Spellseeker"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Sacrifice",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Saw in Half",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [
+        "Sacrifice",
+        "Saw in Half"
+       ],
+       "land": [],
+       "permanent": [
+        "Scholar of the Ages"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Scholar of the Ages"
+      ],
+      "piece_count": 3,
+      "targeted_piece_count": 1,
+      "via": {
+       "Scholar of the Ages": [
+        "Demonic Tutor",
+        "Entomb",
+        "Intuition"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Sacrifice",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Saw in Half",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "spellbook:500-813-1181"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [
+        "Sacrifice",
+        "Saw in Half"
+       ],
+       "land": [],
+       "permanent": [
+        "Scholar of the Ages"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Saw in Half",
+    "Sacrifice",
+    "Scholar of the Ages"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_supported_combo"
+   },
+   "id": "500-813-1181",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 2,
+     "mv": 3,
+     "name": "Saw in Half",
+     "packages": [
+      "pkg:sac-reanimate"
+     ],
+     "recursion": false,
+     "roles": [
+      "removal"
+     ],
+     "tutor_target": false,
+     "type_line": "Instant"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 1,
+     "name": "Sacrifice",
+     "packages": [
+      "pkg:sac-reanimate"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Instant"
+    },
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 3,
+     "mv": 7,
+     "name": "Scholar of the Ages",
+     "packages": [
+      "pkg:wizards"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Creature — Human Wizard"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "E",
+    "evidence": [
+     "spellbook:500-813-1181"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite black mana",
+     "Cast a subset of spells in your graveyard",
+     "Infinite death triggers",
+     "Infinite creature ETB"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:500-813-1777"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 3
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:500-813-1777"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "commander_names": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:500-813-1777"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Burnt Offering",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Saw in Half",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:500-813-1777"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Burnt Offering",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Saw in Half",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Burnt Offering": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:sac-reanimate"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      },
+      "Saw in Half": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:sac-reanimate"
+       ],
+       "recursion": false,
+       "roles": [
+        "removal"
+       ],
+       "signal_count": 2,
+       "tutor_target": false
+      },
+      "Scholar of the Ages": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:wizards"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 3,
+       "tutor_target": true
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Burnt Offering",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Saw in Half",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Burnt Offering",
+       "Saw in Half",
+       "Scholar of the Ages"
+      ],
+      "count_proxy": 3
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Burnt Offering",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Saw in Half",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 3,
+      "mv_sum_proxy": 11,
+      "piece_count": 3
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/inalla-archmage-ritualist"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 4,
+      "near_variant_ids": [
+       "500-813-1181",
+       "500-813-2081",
+       "813-1777-1893",
+       "813-1777-2171"
+      ],
+      "piece_spellbook_occurrences": {
+       "Burnt Offering": 3,
+       "Saw in Half": 3,
+       "Scholar of the Ages": 9
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:500-813-1777"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Inalla, Archmage Ritualist",
+       "Spellseeker"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Burnt Offering",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Saw in Half",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "spellbook:500-813-1777"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 4,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": []
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:500-813-1777"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Inalla, Archmage Ritualist",
+       "Spellseeker"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Burnt Offering",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Saw in Half",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [
+        "Burnt Offering",
+        "Saw in Half"
+       ],
+       "land": [],
+       "permanent": [
+        "Scholar of the Ages"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Scholar of the Ages"
+      ],
+      "piece_count": 3,
+      "targeted_piece_count": 1,
+      "via": {
+       "Scholar of the Ages": [
+        "Demonic Tutor",
+        "Entomb",
+        "Intuition"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Burnt Offering",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Saw in Half",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "spellbook:500-813-1777"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [
+        "Burnt Offering",
+        "Saw in Half"
+       ],
+       "land": [],
+       "permanent": [
+        "Scholar of the Ages"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Saw in Half",
+    "Burnt Offering",
+    "Scholar of the Ages"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_supported_combo"
+   },
+   "id": "500-813-1777",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 2,
+     "mv": 3,
+     "name": "Saw in Half",
+     "packages": [
+      "pkg:sac-reanimate"
+     ],
+     "recursion": false,
+     "roles": [
+      "removal"
+     ],
+     "tutor_target": false,
+     "type_line": "Instant"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 1,
+     "name": "Burnt Offering",
+     "packages": [
+      "pkg:sac-reanimate"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Instant"
+    },
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 3,
+     "mv": 7,
+     "name": "Scholar of the Ages",
+     "packages": [
+      "pkg:wizards"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Creature — Human Wizard"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "E",
+    "evidence": [
+     "spellbook:500-813-1777"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:500-813-2081"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 3
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:500-813-2081"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "commander_names": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:500-813-2081"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Culling the Weak",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Saw in Half",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:500-813-2081"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Culling the Weak",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Saw in Half",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Culling the Weak": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:sac-reanimate"
+       ],
+       "recursion": false,
+       "roles": [
+        "ramp"
+       ],
+       "signal_count": 2,
+       "tutor_target": false
+      },
+      "Saw in Half": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:sac-reanimate"
+       ],
+       "recursion": false,
+       "roles": [
+        "removal"
+       ],
+       "signal_count": 2,
+       "tutor_target": false
+      },
+      "Scholar of the Ages": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:wizards"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 3,
+       "tutor_target": true
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Culling the Weak",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Saw in Half",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Culling the Weak",
+       "Saw in Half",
+       "Scholar of the Ages"
+      ],
+      "count_proxy": 3
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Culling the Weak",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Saw in Half",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 3,
+      "mv_sum_proxy": 11,
+      "piece_count": 3
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [],
+      "count": 0,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/inalla-archmage-ritualist"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 4,
+      "near_variant_ids": [
+       "500-813-1181",
+       "500-813-1777",
+       "813-1893-2081",
+       "813-2081-2171"
+      ],
+      "piece_spellbook_occurrences": {
+       "Culling the Weak": 3,
+       "Saw in Half": 3,
+       "Scholar of the Ages": 9
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:500-813-2081"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Inalla, Archmage Ritualist",
+       "Spellseeker"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Culling the Weak",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Saw in Half",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "spellbook:500-813-2081"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 4,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": []
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:500-813-2081"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Inalla, Archmage Ritualist",
+       "Spellseeker"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Culling the Weak",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Saw in Half",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [
+        "Culling the Weak",
+        "Saw in Half"
+       ],
+       "land": [],
+       "permanent": [
+        "Scholar of the Ages"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Scholar of the Ages"
+      ],
+      "piece_count": 3,
+      "targeted_piece_count": 1,
+      "via": {
+       "Scholar of the Ages": [
+        "Demonic Tutor",
+        "Entomb",
+        "Intuition"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Culling the Weak",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Saw in Half",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "spellbook:500-813-2081"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [
+        "Culling the Weak",
+        "Saw in Half"
+       ],
+       "land": [],
+       "permanent": [
+        "Scholar of the Ages"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Saw in Half",
+    "Culling the Weak",
+    "Scholar of the Ages"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_supported_combo"
+   },
+   "id": "500-813-2081",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 2,
+     "mv": 3,
+     "name": "Saw in Half",
+     "packages": [
+      "pkg:sac-reanimate"
+     ],
+     "recursion": false,
+     "roles": [
+      "removal"
+     ],
+     "tutor_target": false,
+     "type_line": "Instant"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 2,
+     "mv": 1,
+     "name": "Culling the Weak",
+     "packages": [
+      "pkg:sac-reanimate"
+     ],
+     "recursion": false,
+     "roles": [
+      "ramp"
+     ],
+     "tutor_target": false,
+     "type_line": "Instant"
+    },
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 3,
+     "mv": 7,
+     "name": "Scholar of the Ages",
+     "packages": [
+      "pkg:wizards"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Creature — Human Wizard"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "E",
+    "evidence": [
+     "spellbook:500-813-2081"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite death triggers",
+     "Infinite storm count"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:813-1181-1893"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 3
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1181-1893"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "commander_names": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1181-1893"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Sacrifice",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Shallow Grave"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1181-1893"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Sacrifice",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Shallow Grave"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Sacrifice": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:sac-reanimate"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      },
+      "Scholar of the Ages": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:wizards"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 3,
+       "tutor_target": true
+      },
+      "Shallow Grave": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:sac-reanimate"
+       ],
+       "recursion": true,
+       "roles": [],
+       "signal_count": 2,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Sacrifice",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Shallow Grave"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Sacrifice",
+       "Scholar of the Ages",
+       "Shallow Grave"
+      ],
+      "count_proxy": 3
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Sacrifice",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Shallow Grave"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 3,
+      "mv_sum_proxy": 10,
+      "piece_count": 3
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [
+       "Shallow Grave"
+      ],
+      "count": 1,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/inalla-archmage-ritualist"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 4,
+      "near_variant_ids": [
+       "500-813-1181",
+       "813-1181-2171",
+       "813-1777-1893",
+       "813-1893-2081"
+      ],
+      "piece_spellbook_occurrences": {
+       "Sacrifice": 3,
+       "Scholar of the Ages": 9,
+       "Shallow Grave": 3
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1181-1893"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Inalla, Archmage Ritualist",
+       "Spellseeker"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Sacrifice",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Shallow Grave",
+      "spellbook:813-1181-1893"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 4,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": []
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1181-1893"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Inalla, Archmage Ritualist",
+       "Spellseeker"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Sacrifice",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Shallow Grave"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [
+        "Sacrifice",
+        "Shallow Grave"
+       ],
+       "land": [],
+       "permanent": [
+        "Scholar of the Ages"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Scholar of the Ages"
+      ],
+      "piece_count": 3,
+      "targeted_piece_count": 1,
+      "via": {
+       "Scholar of the Ages": [
+        "Demonic Tutor",
+        "Entomb",
+        "Intuition"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Sacrifice",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Shallow Grave",
+      "spellbook:813-1181-1893"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [
+        "Sacrifice",
+        "Shallow Grave"
+       ],
+       "land": [],
+       "permanent": [
+        "Scholar of the Ages"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Scholar of the Ages",
+    "Sacrifice",
+    "Shallow Grave"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_supported_combo"
+   },
+   "id": "813-1181-1893",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 3,
+     "mv": 7,
+     "name": "Scholar of the Ages",
+     "packages": [
+      "pkg:wizards"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Creature — Human Wizard"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 1,
+     "name": "Sacrifice",
+     "packages": [
+      "pkg:sac-reanimate"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Instant"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 2,
+     "mv": 2,
+     "name": "Shallow Grave",
+     "packages": [
+      "pkg:sac-reanimate"
+     ],
+     "recursion": true,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Instant"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "E",
+    "evidence": [
+     "spellbook:813-1181-1893"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite black mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:813-1181-2171"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 3
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1181-2171"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "commander_names": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1181-2171"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Persist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Sacrifice",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1181-2171"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Persist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Sacrifice",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Persist": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:sac-reanimate"
+       ],
+       "recursion": true,
+       "roles": [],
+       "signal_count": 2,
+       "tutor_target": false
+      },
+      "Sacrifice": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:sac-reanimate"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      },
+      "Scholar of the Ages": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:wizards"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 3,
+       "tutor_target": true
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Persist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Sacrifice",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Persist",
+       "Sacrifice",
+       "Scholar of the Ages"
+      ],
+      "count_proxy": 3
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Persist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Sacrifice",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 3,
+      "mv_sum_proxy": 10,
+      "piece_count": 3
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [
+       "Persist"
+      ],
+      "count": 1,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/inalla-archmage-ritualist"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 4,
+      "near_variant_ids": [
+       "500-813-1181",
+       "813-1181-1893",
+       "813-1777-2171",
+       "813-2081-2171"
+      ],
+      "piece_spellbook_occurrences": {
+       "Persist": 3,
+       "Sacrifice": 3,
+       "Scholar of the Ages": 9
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1181-2171"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Inalla, Archmage Ritualist",
+       "Spellseeker"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Persist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Sacrifice",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "spellbook:813-1181-2171"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 4,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": []
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1181-2171"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Inalla, Archmage Ritualist",
+       "Spellseeker"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Persist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Sacrifice",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [
+        "Sacrifice"
+       ],
+       "land": [],
+       "permanent": [
+        "Scholar of the Ages"
+       ],
+       "sorcery": [
+        "Persist"
+       ],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Scholar of the Ages"
+      ],
+      "piece_count": 3,
+      "targeted_piece_count": 1,
+      "via": {
+       "Scholar of the Ages": [
+        "Demonic Tutor",
+        "Entomb",
+        "Intuition"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Persist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Sacrifice",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "spellbook:813-1181-2171"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [
+        "Sacrifice"
+       ],
+       "land": [],
+       "permanent": [
+        "Scholar of the Ages"
+       ],
+       "sorcery": [
+        "Persist"
+       ],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Scholar of the Ages",
+    "Sacrifice",
+    "Persist"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_supported_combo"
+   },
+   "id": "813-1181-2171",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 3,
+     "mv": 7,
+     "name": "Scholar of the Ages",
+     "packages": [
+      "pkg:wizards"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Creature — Human Wizard"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 1,
+     "name": "Sacrifice",
+     "packages": [
+      "pkg:sac-reanimate"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Instant"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 2,
+     "mv": 2,
+     "name": "Persist",
+     "packages": [
+      "pkg:sac-reanimate"
+     ],
+     "recursion": true,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Sorcery"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "E",
+    "evidence": [
+     "spellbook:813-1181-2171"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite black mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:813-1777-1893"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 3
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1777-1893"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "commander_names": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1777-1893"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Burnt Offering",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Shallow Grave"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1777-1893"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Burnt Offering",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Shallow Grave"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Burnt Offering": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:sac-reanimate"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      },
+      "Scholar of the Ages": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:wizards"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 3,
+       "tutor_target": true
+      },
+      "Shallow Grave": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:sac-reanimate"
+       ],
+       "recursion": true,
+       "roles": [],
+       "signal_count": 2,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Burnt Offering",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Shallow Grave"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Burnt Offering",
+       "Scholar of the Ages",
+       "Shallow Grave"
+      ],
+      "count_proxy": 3
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Burnt Offering",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Shallow Grave"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 3,
+      "mv_sum_proxy": 10,
+      "piece_count": 3
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [
+       "Shallow Grave"
+      ],
+      "count": 1,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/inalla-archmage-ritualist"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 4,
+      "near_variant_ids": [
+       "500-813-1777",
+       "813-1181-1893",
+       "813-1777-2171",
+       "813-1893-2081"
+      ],
+      "piece_spellbook_occurrences": {
+       "Burnt Offering": 3,
+       "Scholar of the Ages": 9,
+       "Shallow Grave": 3
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1777-1893"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Inalla, Archmage Ritualist",
+       "Spellseeker"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Burnt Offering",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Shallow Grave",
+      "spellbook:813-1777-1893"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 4,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": []
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1777-1893"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Inalla, Archmage Ritualist",
+       "Spellseeker"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Burnt Offering",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Shallow Grave"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [
+        "Burnt Offering",
+        "Shallow Grave"
+       ],
+       "land": [],
+       "permanent": [
+        "Scholar of the Ages"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Scholar of the Ages"
+      ],
+      "piece_count": 3,
+      "targeted_piece_count": 1,
+      "via": {
+       "Scholar of the Ages": [
+        "Demonic Tutor",
+        "Entomb",
+        "Intuition"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Burnt Offering",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Shallow Grave",
+      "spellbook:813-1777-1893"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [
+        "Burnt Offering",
+        "Shallow Grave"
+       ],
+       "land": [],
+       "permanent": [
+        "Scholar of the Ages"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Scholar of the Ages",
+    "Burnt Offering",
+    "Shallow Grave"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_supported_combo"
+   },
+   "id": "813-1777-1893",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 3,
+     "mv": 7,
+     "name": "Scholar of the Ages",
+     "packages": [
+      "pkg:wizards"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Creature — Human Wizard"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 1,
+     "name": "Burnt Offering",
+     "packages": [
+      "pkg:sac-reanimate"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Instant"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 2,
+     "mv": 2,
+     "name": "Shallow Grave",
+     "packages": [
+      "pkg:sac-reanimate"
+     ],
+     "recursion": true,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Instant"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "E",
+    "evidence": [
+     "spellbook:813-1777-1893"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite creature sacrifice triggers",
+     "Infinite black mana",
+     "Infinite death triggers",
+     "Infinite creature ETB"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:813-1777-2171"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 3
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1777-2171"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "commander_names": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1777-2171"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Burnt Offering",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Persist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1777-2171"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Burnt Offering",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Persist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Burnt Offering": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:sac-reanimate"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 1,
+       "tutor_target": false
+      },
+      "Persist": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:sac-reanimate"
+       ],
+       "recursion": true,
+       "roles": [],
+       "signal_count": 2,
+       "tutor_target": false
+      },
+      "Scholar of the Ages": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:wizards"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 3,
+       "tutor_target": true
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Burnt Offering",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Persist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Burnt Offering",
+       "Persist",
+       "Scholar of the Ages"
+      ],
+      "count_proxy": 3
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Burnt Offering",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Persist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 3,
+      "mv_sum_proxy": 10,
+      "piece_count": 3
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [
+       "Persist"
+      ],
+      "count": 1,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/inalla-archmage-ritualist"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 4,
+      "near_variant_ids": [
+       "500-813-1777",
+       "813-1181-2171",
+       "813-1777-1893",
+       "813-2081-2171"
+      ],
+      "piece_spellbook_occurrences": {
+       "Burnt Offering": 3,
+       "Persist": 3,
+       "Scholar of the Ages": 9
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1777-2171"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Inalla, Archmage Ritualist",
+       "Spellseeker"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Burnt Offering",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Persist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "spellbook:813-1777-2171"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 4,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": []
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1777-2171"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Inalla, Archmage Ritualist",
+       "Spellseeker"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Burnt Offering",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Persist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [
+        "Burnt Offering"
+       ],
+       "land": [],
+       "permanent": [
+        "Scholar of the Ages"
+       ],
+       "sorcery": [
+        "Persist"
+       ],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Scholar of the Ages"
+      ],
+      "piece_count": 3,
+      "targeted_piece_count": 1,
+      "via": {
+       "Scholar of the Ages": [
+        "Demonic Tutor",
+        "Entomb",
+        "Intuition"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Burnt Offering",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Persist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "spellbook:813-1777-2171"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [
+        "Burnt Offering"
+       ],
+       "land": [],
+       "permanent": [
+        "Scholar of the Ages"
+       ],
+       "sorcery": [
+        "Persist"
+       ],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Scholar of the Ages",
+    "Burnt Offering",
+    "Persist"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_supported_combo"
+   },
+   "id": "813-1777-2171",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 3,
+     "mv": 7,
+     "name": "Scholar of the Ages",
+     "packages": [
+      "pkg:wizards"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Creature — Human Wizard"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 1,
+     "mv": 1,
+     "name": "Burnt Offering",
+     "packages": [
+      "pkg:sac-reanimate"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Instant"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 2,
+     "mv": 2,
+     "name": "Persist",
+     "packages": [
+      "pkg:sac-reanimate"
+     ],
+     "recursion": true,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Sorcery"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "E",
+    "evidence": [
+     "spellbook:813-1777-2171"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite black mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:813-1893-2081"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 3
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1893-2081"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "commander_names": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1893-2081"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Culling the Weak",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Shallow Grave"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1893-2081"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Culling the Weak",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Shallow Grave"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Culling the Weak": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:sac-reanimate"
+       ],
+       "recursion": false,
+       "roles": [
+        "ramp"
+       ],
+       "signal_count": 2,
+       "tutor_target": false
+      },
+      "Scholar of the Ages": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:wizards"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 3,
+       "tutor_target": true
+      },
+      "Shallow Grave": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:sac-reanimate"
+       ],
+       "recursion": true,
+       "roles": [],
+       "signal_count": 2,
+       "tutor_target": false
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Culling the Weak",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Shallow Grave"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Culling the Weak",
+       "Scholar of the Ages",
+       "Shallow Grave"
+      ],
+      "count_proxy": 3
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Culling the Weak",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Shallow Grave"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 3,
+      "mv_sum_proxy": 10,
+      "piece_count": 3
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [
+       "Shallow Grave"
+      ],
+      "count": 1,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/inalla-archmage-ritualist"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 4,
+      "near_variant_ids": [
+       "500-813-2081",
+       "813-1181-1893",
+       "813-1777-1893",
+       "813-2081-2171"
+      ],
+      "piece_spellbook_occurrences": {
+       "Culling the Weak": 3,
+       "Scholar of the Ages": 9,
+       "Shallow Grave": 3
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1893-2081"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Inalla, Archmage Ritualist",
+       "Spellseeker"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Culling the Weak",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Shallow Grave",
+      "spellbook:813-1893-2081"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 4,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": []
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-1893-2081"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Inalla, Archmage Ritualist",
+       "Spellseeker"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Culling the Weak",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Shallow Grave"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [
+        "Culling the Weak",
+        "Shallow Grave"
+       ],
+       "land": [],
+       "permanent": [
+        "Scholar of the Ages"
+       ],
+       "sorcery": [],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Scholar of the Ages"
+      ],
+      "piece_count": 3,
+      "targeted_piece_count": 1,
+      "via": {
+       "Scholar of the Ages": [
+        "Demonic Tutor",
+        "Entomb",
+        "Intuition"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Culling the Weak",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Shallow Grave",
+      "spellbook:813-1893-2081"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [
+        "Culling the Weak",
+        "Shallow Grave"
+       ],
+       "land": [],
+       "permanent": [
+        "Scholar of the Ages"
+       ],
+       "sorcery": [],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Scholar of the Ages",
+    "Shallow Grave",
+    "Culling the Weak"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_supported_combo"
+   },
+   "id": "813-1893-2081",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 3,
+     "mv": 7,
+     "name": "Scholar of the Ages",
+     "packages": [
+      "pkg:wizards"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Creature — Human Wizard"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 2,
+     "mv": 2,
+     "name": "Shallow Grave",
+     "packages": [
+      "pkg:sac-reanimate"
+     ],
+     "recursion": true,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Instant"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 2,
+     "mv": 1,
+     "name": "Culling the Weak",
+     "packages": [
+      "pkg:sac-reanimate"
+     ],
+     "recursion": false,
+     "roles": [
+      "ramp"
+     ],
+     "tutor_target": false,
+     "type_line": "Instant"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "E",
+    "evidence": [
+     "spellbook:813-1893-2081"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite black mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "requires": []
+   }
+  },
+  {
+   "axes": {
+    "card_count": {
+     "confidence": "verified",
+     "evidence": [
+      "spellbook:813-2081-2171"
+     ],
+     "evidence_class": "fact",
+     "note": "Spellbook piece count; external payoff cards are reported separately.",
+     "value": 3
+    },
+    "commander_contribution": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-2081-2171"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_support": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "commander_names": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "commander_requirement": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#commander_role",
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-2081-2171"
+     ],
+     "evidence_class": "derived_metric",
+     "value": {
+      "blueprint_commander_support": [
+       "Inalla, Archmage Ritualist"
+      ],
+      "direct_commander_pieces": [],
+      "mode": "blueprint_supports_line"
+     }
+    },
+    "dead_card_burden": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Culling the Weak",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Persist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Low-signal means no non-combo role/package, identity-core, tutor-target or recursion signal in the accepted graph/blueprint. It is not a claim that the card is literally dead.",
+     "value": {
+      "count_proxy": 0,
+      "low_independent_signal_pieces": []
+     }
+    },
+    "immediate_win": {
+     "confidence": "test_required",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-2081-2171"
+     ],
+     "evidence_class": "heuristic",
+     "note": "`infinite` is never treated as synonymous with immediate win. A judgment/rules review must resolve the endpoint.",
+     "value": {
+      "blueprint_designated_win": true,
+      "status": "requires_external_payoff"
+     }
+    },
+    "independent_usefulness": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Culling the Weak",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Persist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Signals are structural evidence only; they do not substitute for card-by-card judgment.",
+     "value": {
+      "Culling the Weak": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:sac-reanimate"
+       ],
+       "recursion": false,
+       "roles": [
+        "ramp"
+       ],
+       "signal_count": 2,
+       "tutor_target": false
+      },
+      "Persist": {
+       "identity_core": false,
+       "noncombo_packages": [
+        "pkg:sac-reanimate"
+       ],
+       "recursion": true,
+       "roles": [],
+       "signal_count": 2,
+       "tutor_target": false
+      },
+      "Scholar of the Ages": {
+       "identity_core": true,
+       "noncombo_packages": [
+        "pkg:wizards"
+       ],
+       "recursion": false,
+       "roles": [],
+       "signal_count": 3,
+       "tutor_target": true
+      }
+     }
+    },
+    "interaction_windows": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Culling the Weak",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Persist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "This is deliberately not an interaction-resilience score; exact stack windows require line-specific rules analysis.",
+     "value": {
+      "activated_or_triggered_windows": "unresolved",
+      "cast_or_resolution_exposed_pieces": [
+       "Culling the Weak",
+       "Persist",
+       "Scholar of the Ages"
+      ],
+      "count_proxy": 3
+     }
+    },
+    "mana": {
+     "confidence": "moderate",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Culling the Weak",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Persist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Mana value sum is only a curve/setup proxy; alternate costs, rituals, activated costs and colors can make actual startup mana differ.",
+     "value": {
+      "colored_mana": "deferred_to_step_C",
+      "exact_startup_mana": "unresolved",
+      "known_piece_mv_count": 3,
+      "mv_sum_proxy": 10,
+      "piece_count": 3
+     }
+    },
+    "recovery": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#recursion"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint recursion coverage does not prove the whole combo can recover after disruption.",
+     "value": {
+      "blueprint_recursion_pieces": [
+       "Persist"
+      ],
+      "count": 1,
+      "full_line_recovery": "unresolved"
+     }
+    },
+    "redundancy": {
+     "confidence": "high",
+     "evidence": [
+      "spellbook:data/grixis_combos.json#decks/inalla-archmage-ritualist"
+     ],
+     "evidence_class": "derived_metric",
+     "note": "Near variants share all but roughly one piece; occurrence counts are within this deck's cached Spellbook variants.",
+     "value": {
+      "near_variant_count": 4,
+      "near_variant_ids": [
+       "500-813-2081",
+       "813-1181-2171",
+       "813-1777-2171",
+       "813-1893-2081"
+      ],
+      "piece_spellbook_occurrences": {
+       "Culling the Weak": 3,
+       "Persist": 3,
+       "Scholar of the Ages": 9
+      }
+     }
+    },
+    "required_payoff": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-2081-2171"
+     ],
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "blueprint_external_payoffs_or_enablers": [
+       "Inalla, Archmage Ritualist",
+       "Spellseeker"
+      ],
+      "status": "known_external_enabler"
+     }
+    },
+    "resilience": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Culling the Weak",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Persist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "spellbook:813-2081-2171"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Variant redundancy is only one resilience dimension; protection, graveyard hate and recovery are separate.",
+     "value": {
+      "near_variant_count_proxy": 4,
+      "protection_and_recovery_not_inferred": true,
+      "single_variant_pieces": []
+     }
+    },
+    "setup": {
+     "confidence": "high",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops",
+      "spellbook:813-2081-2171"
+     ],
+     "evidence_class": "fact",
+     "note": "This records declared requirements/enablers; it does not infer hidden sequencing costs.",
+     "value": {
+      "blueprint_external_enablers": [
+       "Inalla, Archmage Ritualist",
+       "Spellseeker"
+      ],
+      "spellbook_requires": []
+     }
+    },
+    "timing": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Culling the Weak",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Persist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages"
+     ],
+     "evidence_class": "heuristic",
+     "note": "Card types expose broad timing constraints only; exact combo timing remains unresolved.",
+     "value": {
+      "exact_sequence_timing": "unresolved_without_step_or_oracle_timing_model",
+      "piece_types": {
+       "instant": [
+        "Culling the Weak"
+       ],
+       "land": [],
+       "permanent": [
+        "Scholar of the Ages"
+       ],
+       "sorcery": [
+        "Persist"
+       ],
+       "unknown": []
+      }
+     }
+    },
+    "tutor_accessibility": {
+     "confidence": "moderate",
+     "evidence": [
+      "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#tutor_targets"
+     ],
+     "evidence_class": "strategic_judgment",
+     "note": "Blueprint tutor targets are deck-specific strategic judgments, not an exhaustive tutor solver.",
+     "value": {
+      "blueprint_targeted_pieces": [
+       "Scholar of the Ages"
+      ],
+      "piece_count": 3,
+      "targeted_piece_count": 1,
+      "via": {
+       "Scholar of the Ages": [
+        "Demonic Tutor",
+        "Entomb",
+        "Intuition"
+       ]
+      }
+     }
+    },
+    "zones": {
+     "confidence": "low",
+     "evidence": [
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Culling the Weak",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Persist",
+      "graph:data/grixis/graph/inalla-archmage-ritualist.json#card:Scholar of the Ages",
+      "spellbook:813-2081-2171"
+     ],
+     "evidence_class": "fact",
+     "note": "The cached Spellbook record lists pieces/requirements but not a normalized execution-zone requirement for every line.",
+     "value": {
+      "card_type_buckets": {
+       "instant": [
+        "Culling the Weak"
+       ],
+       "land": [],
+       "permanent": [
+        "Scholar of the Ages"
+       ],
+       "sorcery": [
+        "Persist"
+       ],
+       "unknown": []
+      },
+      "execution_zones": "unresolved_in_spellbook_snapshot"
+     }
+    }
+   },
+   "cards": [
+    "Scholar of the Ages",
+    "Culling the Weak",
+    "Persist"
+   ],
+   "classification": {
+    "confidence": "moderate",
+    "evidence": [
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops"
+    ],
+    "evidence_class": "heuristic",
+    "outcome_hint": "blueprint_win_requires_external_payoff",
+    "priority": "unresolved_requires_judgment",
+    "status": "provisional_hint_not_decision",
+    "structural_hint": "commander_supported_combo"
+   },
+   "id": "813-2081-2171",
+   "piece_facts": [
+    {
+     "graph_present": true,
+     "identity_core": true,
+     "independent_signal_count": 3,
+     "mv": 7,
+     "name": "Scholar of the Ages",
+     "packages": [
+      "pkg:wizards"
+     ],
+     "recursion": false,
+     "roles": [],
+     "tutor_target": true,
+     "type_line": "Creature — Human Wizard"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 2,
+     "mv": 1,
+     "name": "Culling the Weak",
+     "packages": [
+      "pkg:sac-reanimate"
+     ],
+     "recursion": false,
+     "roles": [
+      "ramp"
+     ],
+     "tutor_target": false,
+     "type_line": "Instant"
+    },
+    {
+     "graph_present": true,
+     "identity_core": false,
+     "independent_signal_count": 2,
+     "mv": 2,
+     "name": "Persist",
+     "packages": [
+      "pkg:sac-reanimate"
+     ],
+     "recursion": true,
+     "roles": [],
+     "tutor_target": false,
+     "type_line": "Sorcery"
+    }
+   ],
+   "spellbook": {
+    "confidence": "verified",
+    "csb_bracket_tag": "E",
+    "evidence": [
+     "spellbook:813-2081-2171"
+    ],
+    "evidence_class": "fact",
+    "infinite": true,
+    "produces": [
+     "Infinite black mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "requires": []
+   }
+  }
+ ],
+ "deck_id": "Inalla__Archmage_Ritualist",
+ "generated_by": "scripts/grixis_combo_quality.py v1",
+ "inputs": {
+  "blueprint": "data/grixis/blueprints/inalla-archmage-ritualist.json",
+  "graph": "data/grixis/graph/inalla-archmage-ritualist.json",
+  "registry": "data/grixis/registry.json",
+  "spellbook": "data/grixis_combos.json"
+ },
+ "schema_version": 1,
+ "slug": "inalla-archmage-ritualist",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_win_linked_count": 15,
+  "combo_count": 15,
+  "commander_independent_win_hint_count": 5,
+  "commander_piece_count": 1,
+  "infinite_count": 13,
+  "unresolved_classification_count": 15
+ }
+}
