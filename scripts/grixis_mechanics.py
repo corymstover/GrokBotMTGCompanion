@@ -29,7 +29,13 @@ def dump(p, d):
 def cards_index():
     import grixis_candidates as gc
     pool, _ = gc.load_pool()
-    return {n: {"text": gc.otext(c), "type_line": gc.tline(c)} for n, c in pool.items()}
+
+    def row(c):
+        f = (c.get("card_faces") or [c])[0]
+        return {"text": gc.otext(c), "type_line": gc.tline(c),
+                "mana_cost": f.get("mana_cost") or c.get("mana_cost") or ""}
+
+    return {n: row(c) for n, c in pool.items()}
 
 
 def coverage(cards):

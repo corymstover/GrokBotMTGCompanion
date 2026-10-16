@@ -1,5 +1,5 @@
 {
- "framework_version": "1.2-mech.6",
+ "framework_version": "1.2-mech.7",
  "modules": [
   {
    "assumptions": [
@@ -38,6 +38,47 @@
    },
    "test_file": "tests/test_mech.py",
    "version": "2"
+  },
+  {
+   "assumptions": [
+    "normal and alternate mana requirements are converted to total mana for a readiness proxy",
+    "'if it's not your turn' is evaluated against the following opponent-turn cycle represented by end-of-own-turn held mana",
+    "commander-free costs require a project commander to be on the battlefield in the trace"
+   ],
+   "confidence": "low",
+   "determinism": "seeded paired v1.1 games; derived from the deterministic zone/mana trace",
+   "does_not_model": [
+    "pitch/exile/discard/life-payment alternate costs",
+    "delve/convoke/improvise/affinity resource accounting",
+    "Flashback/escape/retrace/adventure or other alternate zones",
+    "the strategic drawback/value of Evoke",
+    "colored-pip availability",
+    "multiplayer win rates (never produced)"
+   ],
+   "evidence_class": "test_result",
+   "family": "alternate casting costs",
+   "id": "alternate_costs",
+   "limitations": [
+    "An alternate-cost opportunity is not a recommendation; resource-based alternate costs stay explicitly not_modelable."
+   ],
+   "metrics": [
+    "alternate_ready_turns_by_turn",
+    "alternate_only_ready_turns_by_turn"
+   ],
+   "models": [
+    "supported self-contained alternate costs: fixed mana rather than normal cost, not-your-turn fixed mana, commander-controlled free cast, and Evoke",
+    "turns by 4/6/8/10 where the card is in hand and the alternate line is affordable; separately, turns where the alternate line works but the normal cost does not"
+   ],
+   "parameters": {
+    "turns": [
+     4,
+     6,
+     8,
+     10
+    ]
+   },
+   "test_file": "tests/test_mech_cost_semantics.py",
+   "version": "1"
   },
   {
    "assumptions": [
@@ -617,10 +658,49 @@
    },
    "test_file": "tests/test_mech.py",
    "version": "2"
+  },
+  {
+   "assumptions": [
+    "v1.1's card-model mana value is the fixed portion because X contributes zero to mana value",
+    "when v1.1 casts the card, all end-of-turn unspent mana is treated as potential additional X without undoing other casts",
+    "multiple {X} symbols divide available extra mana equally (e.g. {X}{X} uses two mana per +1 X)"
+   ],
+   "confidence": "low",
+   "determinism": "seeded paired v1.1 games; derived from the deterministic zone/mana trace",
+   "does_not_model": [
+    "what X buys (damage, cards, tokens, targets)",
+    "X in activated abilities rather than the spell mana cost",
+    "colored-pip constraints beyond v1.1's already-paid fixed cost",
+    "cost reducers/increasers that specifically affect X",
+    "multiplayer win rates (never produced)"
+   ],
+   "evidence_class": "test_result",
+   "family": "X-spell mana scaling",
+   "id": "x_spells",
+   "limitations": [
+    "This is capacity, not strategic value; a larger X is not automatically better than another card."
+   ],
+   "metrics": [
+    "mean_max_x_by_turn",
+    "x_ready_turns_by_turn"
+   ],
+   "models": [
+    "for spells with X in the printed mana cost: maximum additional X supported by the v1.1 mana trace by turn 4/6/8/10",
+    "both pre-cast hand opportunities and the turn v1.1 actually casts the spell at X=0"
+   ],
+   "parameters": {
+    "turns": [
+     4,
+     6,
+     8,
+     10
+    ]
+   },
+   "test_file": "tests/test_mech_cost_semantics.py",
+   "version": "1"
   }
  ],
  "planned_families": [
-  "alternate_costs",
   "commander_specific",
   "death_other",
   "discard",
@@ -631,7 +711,6 @@
   "repeatable_tutors",
   "sacrifice_other",
   "stax_tax",
-  "tokens_other",
-  "x_spells"
+  "tokens_other"
  ]
 }
