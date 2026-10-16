@@ -13,10 +13,10 @@
 
 - **Primary plan:** Villainous-choice artifact cheat: hold big Constructs, Robots and Vehicles so each opponent either discards or lets you put one onto the battlefield free at your end step; punish discards and multiply Eggman's trigger. *strategic_judgment · high*
 - **Secondary:** Artifact ETB payoffs over cast payoffs (Eggman doesn't cast), Gearhulks and Myr Battlesphere, discard punishers (Liliana's Caress, Waste Not, Tinybones) and The Valeyard/Y'shtola extra choices.
-  - Evidence: [Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md) · [eggman-01](../interactions/dr-eggman.md#eggman-01) · [eggman-03](../interactions/dr-eggman.md#eggman-03)
+  - Evidence: [Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md) · [eggman-01](../interactions/dr-eggman.md#eggman-01-opponents-choose-one-at-a-time-in-turn-order) · [eggman-03](../interactions/dr-eggman.md#eggman-03-eggmans-placement-isnt-a-cast)
 - **Commander role: central.** Eggman draws every end step and forces a discard or a free deployment from each opponent. *strategic_judgment · high*
 - ⚠️ **Honest note:** Opponents choose: an empty-handed opponent can 'discard' for free, and late in the game the choice gets cheap. The deck needs a dense hand of real threats to make the fork bite.
-  - Evidence: [Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md#L45](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md) · [eggman-01](../interactions/dr-eggman.md#eggman-01) · [eggman-02](../interactions/dr-eggman.md#eggman-02)
+  - Evidence: [Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md#L45](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md) · [eggman-01](../interactions/dr-eggman.md#eggman-01-opponents-choose-one-at-a-time-in-turn-order) · [eggman-02](../interactions/dr-eggman.md#eggman-02-an-empty-handed-opponent-can-choose-to-discard-and-lose-nothing)
 - **Dependency level:** high *strategic_judgment · high* — [Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md)
 
 ## Power
@@ -24,7 +24,7 @@
 | Field | Value | Class | Evidence |
 |---|---|---|---|
 | Source ceiling | 4 (Bracket 4 — Optimized (current-cycle blueprint).) | *fact · verified* | [Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md#L43](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md) |
-| GrokBot estimated ceiling | 4 (Bracket 4 ceiling: strong free-deployment value with trigger multipliers; no compact win; the list sits at its computed floor of 3. Agrees with the source ceiling.) | *strategic_judgment · high* | [Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md#L43](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md) · [eggman-05](../interactions/dr-eggman.md#eggman-05) |
+| GrokBot estimated ceiling | 4 (Bracket 4 ceiling: strong free-deployment value with trigger multipliers; no compact win; the list sits at its computed floor of 3. Agrees with the source ceiling.) | *strategic_judgment · high* | [Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md#L43](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md) · [eggman-05](../interactions/dr-eggman.md#eggman-05-extra-eggman-triggers-roaming-throne-spark-double-strionic-resonator) |
 | Expected bracket (list as built) | 3 (computed floor 3) | *strategic_judgment · high* | `companion:data/grixis_summary.json#Dr__Eggman` |
 | Resolved ceiling | — (only Cory resolves) | | |
 | Disagreement | no | | |
@@ -38,24 +38,24 @@
 
 ## Engines
 
-- **end-step-fork:** Dr. Eggman, The Valeyard, Roaming Throne, Strionic Resonator, Spark Double, Y'shtola Rhul. Online when: Your end step with Eggman in play. *fact · verified* — [eggman-01](../interactions/dr-eggman.md#eggman-01) · [eggman-04](../interactions/dr-eggman.md#eggman-04) · [eggman-05](../interactions/dr-eggman.md#eggman-05) · [eggman-06](../interactions/dr-eggman.md#eggman-06)
-- **robot-construct-supply:** Master Transmuter, Mechan Assembler, Simulacrum Synthesizer, One with the Machine, Scrap Trawler. Online when: Artifacts entering. *fact · verified* — [eggman-09](../interactions/dr-eggman.md#eggman-09) · [eggman-10](../interactions/dr-eggman.md#eggman-10)
+- **end-step-fork:** Dr. Eggman, The Valeyard, Roaming Throne, Strionic Resonator, Spark Double, Y'shtola Rhul. Online when: Your end step with Eggman in play. *fact · verified* — [eggman-01](../interactions/dr-eggman.md#eggman-01-opponents-choose-one-at-a-time-in-turn-order) · [eggman-04](../interactions/dr-eggman.md#eggman-04-the-valeyard-makes-each-opponent-choose-twice) · [eggman-05](../interactions/dr-eggman.md#eggman-05-extra-eggman-triggers-roaming-throne-spark-double-strionic-resonator) · [eggman-06](../interactions/dr-eggman.md#eggman-06-yshtola-rhuls-extra-end-step-retriggers-eggman)
+- **robot-construct-supply:** Master Transmuter, Mechan Assembler, Simulacrum Synthesizer, One with the Machine, Scrap Trawler. Online when: Artifacts entering. *fact · verified* — [eggman-09](../interactions/dr-eggman.md#eggman-09-construct-robot-and-vehicle-supply) · [eggman-10](../interactions/dr-eggman.md#eggman-10-one-with-the-machine-counts-on-resolution)
 
 ## Packages
 
 | Package | Required | Min | Role | In list | Candidates (not in list) | Class | Evidence |
 |---|---|---|---|---|---|---|---|
-| `pkg:eggman-targets` | yes | 20 | Construct/Robot/Vehicle cards worth putting in free (the source counts 28). | 22: Myr Battlesphere, Metalwork Colossus, Noxious Gearhulk, Combustible Gearhulk, Coalstoke Gearhulk, Oildeep Gearhulk, Cityscape Leveler, Thunderhawk Gunship, Depthshaker Titan, Krang, Utrom Warlord, Vision, Spectral Synthezoid, Ultron, Machine Overlord, Ultron, Artificial Malevolence, Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant, Cyberdrive Awakener, Scrap Trawler, Foundry Inspector, Thought Monitor, Scrapyard Recombiner, The Regalia, Nautiloid Ship, Curie, Emergent Intelligence | — | *strategic_judgment · high* | [Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md) · [eggman-09](../interactions/dr-eggman.md#eggman-09) |
+| `pkg:eggman-targets` | yes | 20 | Construct/Robot/Vehicle cards worth putting in free (the source counts 28). | 22: Myr Battlesphere, Metalwork Colossus, Noxious Gearhulk, Combustible Gearhulk, Coalstoke Gearhulk, Oildeep Gearhulk, Cityscape Leveler, Thunderhawk Gunship, Depthshaker Titan, Krang, Utrom Warlord, Vision, Spectral Synthezoid, Ultron, Machine Overlord, Ultron, Artificial Malevolence, Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant, Cyberdrive Awakener, Scrap Trawler, Foundry Inspector, Thought Monitor, Scrapyard Recombiner, The Regalia, Nautiloid Ship, Curie, Emergent Intelligence | — | *strategic_judgment · high* | [Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md) · [eggman-09](../interactions/dr-eggman.md#eggman-09-construct-robot-and-vehicle-supply) |
 | `pkg:trigger-multipliers` | yes | 4 | More Eggman triggers or end steps. | 5: The Valeyard, Roaming Throne, Strionic Resonator, Spark Double, Y'shtola Rhul | — | *strategic_judgment · high* | [Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md) |
 | `pkg:discard-punishers` | yes | 4 | Make the discard branch costly. | 5: Liliana's Caress, Waste Not, Tinybones, Bauble Burglar, Geth's Grimoire, Entropic Battlecruiser | — | *strategic_judgment · high* | [Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md) |
 
 ## Key interactions
 
-- **turn-order:** Draw, then each opponent chooses in turn order. (Dr. Eggman) *fact · verified* — [eggman-01](../interactions/dr-eggman.md#eggman-01)
-- **empty-hand:** An empty-handed opponent can choose discard and lose nothing. (Dr. Eggman) *fact · verified* — [eggman-02](../interactions/dr-eggman.md#eggman-02)
-- **not-cast:** Eggman's placement isn't a cast: ETB triggers yes, cast triggers no. (Dr. Eggman, Vision, Spectral Synthezoid) *fact · verified* — [eggman-03](../interactions/dr-eggman.md#eggman-03)
-- **valeyard:** The Valeyard makes each opponent choose twice. (The Valeyard) *fact · verified* — [eggman-04](../interactions/dr-eggman.md#eggman-04)
-- **yshtola:** Y'shtola Rhul's extra end step retriggers Eggman. (Y'shtola Rhul) *fact · verified* — [eggman-06](../interactions/dr-eggman.md#eggman-06)
+- **turn-order:** Draw, then each opponent chooses in turn order. (Dr. Eggman) *fact · verified* — [eggman-01](../interactions/dr-eggman.md#eggman-01-opponents-choose-one-at-a-time-in-turn-order)
+- **empty-hand:** An empty-handed opponent can choose discard and lose nothing. (Dr. Eggman) *fact · verified* — [eggman-02](../interactions/dr-eggman.md#eggman-02-an-empty-handed-opponent-can-choose-to-discard-and-lose-nothing)
+- **not-cast:** Eggman's placement isn't a cast: ETB triggers yes, cast triggers no. (Dr. Eggman, Vision, Spectral Synthezoid) *fact · verified* — [eggman-03](../interactions/dr-eggman.md#eggman-03-eggmans-placement-isnt-a-cast)
+- **valeyard:** The Valeyard makes each opponent choose twice. (The Valeyard) *fact · verified* — [eggman-04](../interactions/dr-eggman.md#eggman-04-the-valeyard-makes-each-opponent-choose-twice)
+- **yshtola:** Y'shtola Rhul's extra end step retriggers Eggman. (Y'shtola Rhul) *fact · verified* — [eggman-06](../interactions/dr-eggman.md#eggman-06-yshtola-rhuls-extra-end-step-retriggers-eggman)
 
 ## Tutors and recursion
 
@@ -72,15 +72,15 @@
 
 ## Failure modes
 
-- **cheap-choice:** Opponents with empty hands choose discard for free. Mitigations: Discard punishers still trigger only on real discards; Valeyard. *strategic_judgment · high* — [eggman-02](../interactions/dr-eggman.md#eggman-02)
+- **cheap-choice:** Opponents with empty hands choose discard for free. Mitigations: Discard punishers still trigger only on real discards; Valeyard. *strategic_judgment · high* — [eggman-02](../interactions/dr-eggman.md#eggman-02-an-empty-handed-opponent-can-choose-to-discard-and-lose-nothing)
 - **eggman-removed:** Five-mana commander removed: no fork. Mitigations: Protection; Artifact infrastructure works alone. *strategic_judgment · high* — [Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md)
 - **empty-own-hand:** No good targets in hand makes the deployment branch harmless. Mitigations: Eggman's own draw; Keep threats in hand. *strategic_judgment · moderate* — [Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md)
 
 ## Identity core
 
 - **Dr. Eggman:** End-step draw and the discard-or-deploy fork. *fact · verified* — `oracle:Dr. Eggman`
-- **The Valeyard:** Doubles every opponent's villainous choice. *strategic_judgment · high* — [eggman-04](../interactions/dr-eggman.md#eggman-04)
-- **Y'shtola Rhul:** Extra end step: another full Eggman trigger. *strategic_judgment · high* — [eggman-06](../interactions/dr-eggman.md#eggman-06)
+- **The Valeyard:** Doubles every opponent's villainous choice. *strategic_judgment · high* — [eggman-04](../interactions/dr-eggman.md#eggman-04-the-valeyard-makes-each-opponent-choose-twice)
+- **Y'shtola Rhul:** Extra end step: another full Eggman trigger. *strategic_judgment · high* — [eggman-06](../interactions/dr-eggman.md#eggman-06-yshtola-rhuls-extra-end-step-retriggers-eggman)
 - **Myr Battlesphere:** Premium free Construct deployment. *strategic_judgment · high* — [Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md)
 - **Liliana's Caress:** Each discard costs 2 life, so the discard branch hurts. *strategic_judgment · moderate* — [Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Dr_Eggman_Current_Cycle_Blueprint_2026-10-14.md)
 

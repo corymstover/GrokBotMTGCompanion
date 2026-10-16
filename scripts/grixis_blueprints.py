@@ -366,6 +366,21 @@ def lab(cl):
     return f"*{cl['evidence_class']} · {cl['confidence']}*"
 
 
+_ANCH = {}
+
+
+def m1_anchor(slug, iid):
+    """Anchor of an M1 interaction heading ('### <id>: <title>') on grixis/interactions/<slug>.md, as check_links computes it."""
+    if slug not in _ANCH:
+        from check_links import anchor
+        p = ROOT / "grixis" / "interactions" / f"{slug}.md"
+        _ANCH[slug] = {}
+        if p.exists():
+            for m in re.finditer(r"^#{2,6} ([a-z0-9]+-\d+): .*$", p.read_text(encoding="utf-8"), re.M):
+                _ANCH[slug].setdefault(m.group(1), anchor(m.group(0).lstrip("#").strip()))
+    return _ANCH[slug].get(iid)
+
+
 def refs(cl):
     out = []
     for r in cl["evidence"]:
@@ -375,7 +390,8 @@ def refs(cl):
             out.append(f"[{Path(path).name}{'#' + frag if frag else ''}](../source-archive/grixis-commander-encyclopediaGPT/{path.replace(' ', '%20')})")
         elif k == "interaction":
             s2, _, i = rest.partition("#")
-            out.append(f"[{i}](../interactions/{s2}.md#{i})" if (ROOT / "grixis" / "interactions" / f"{s2}.md").exists() else f"`{i}`")
+            a = m1_anchor(s2, i)
+            out.append(f"[{i}](../interactions/{s2}.md#{a})" if a else f"`{i}`")
         elif k == "deck":
             s2, _, a = rest.partition("#")
             out.append(f"[deck page](../decks/{s2}.md{'#' + a if a else ''})")
@@ -454,7 +470,7 @@ def render_files(bps, summ, reg):
     for s, b in sorted(bps.items()):
         pw = b["power"]
         L.append(f"| [{' + '.join(c['name'] for c in b['commanders']['value'])}]({s}.md) | {b['commander_role']['value']['level']} | {b['dependency_level']['value']} | "
-                 f"{pw['source_ceiling']['value']['value'] or '—'} | {pw['grok_estimated_ceiling']['value']['value']} | {pw['expected_bracket']['value']['value']} | "
+                 f"{(pw['source_ceiling']['value']['value'] or '—') + (' (recovered)' if pw['source_ceiling']['value']['value'] and reg['decks'][b['deck_id']]['ceiling']['source_ceiling']['value'] is None else '')} | {pw['grok_estimated_ceiling']['value']['value']} | {pw['expected_bracket']['value']['value']} | "
                  f"{'⚠️ yes' if pw['disagreement'] else 'no' if pw['disagreement'] is False else '—'} | v{b['version']} {b['status']} |")
     todo = sorted(v["slug"] for d, v in summ.items() if v["slug"] not in bps)
     L += ["", f"Not written yet ({len(todo)}): " + (", ".join(f"[{t}](../decks/{t}.md)" for t in todo) or "none") + ".", "",

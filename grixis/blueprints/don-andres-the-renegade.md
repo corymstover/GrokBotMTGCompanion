@@ -13,10 +13,10 @@
 
 - **Primary plan:** Play opponents' cards: steal creatures (they become +2/+2 menace deathtouch Pirates) and cast opponents' noncreature spells for two Treasures each, snowballing mana and board from Ragavan, Breeches, Grenzo, Thief of Sanity, Gonti, Hostage Taker and friends. *strategic_judgment · high*
 - **Secondary:** Pirate payoffs for the stolen Pirates (Admiral Beckett Brass, Kindred Discovery, Malcolm, Coercive Recruiter) and Insurrection as the mass-theft finisher.
-  - Evidence: [Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md) · [donandres-01](../interactions/don-andres-the-renegade.md#donandres-01) · [donandres-02](../interactions/don-andres-the-renegade.md#donandres-02)
+  - Evidence: [Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md) · [donandres-01](../interactions/don-andres-the-renegade.md#donandres-01-ownership-not-control-decides-both-of-dons-abilities) · [donandres-02](../interactions/don-andres-the-renegade.md#donandres-02-the-treasure-trigger-needs-a-noncreature-spell-that-someone-else-owns)
 - **Commander role: central.** Both theft axes pay off only through Don: stolen creatures become threats and stolen noncreature casts become Treasure. *strategic_judgment · high*
 - ⚠️ **Honest note:** Power depends on what opponents play; casting from your own copies or putting cards onto the battlefield (Jhoira, Reanimate) gives no Treasure.
-  - Evidence: [Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md#L34](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md) · [donandres-03](../interactions/don-andres-the-renegade.md#donandres-03) · [donandres-04](../interactions/don-andres-the-renegade.md#donandres-04)
+  - Evidence: [Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md#L34](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md) · [donandres-03](../interactions/don-andres-the-renegade.md#donandres-03-copies-you-make-are-spells-you-own) · [donandres-04](../interactions/don-andres-the-renegade.md#donandres-04-putting-a-card-onto-the-battlefield-isnt-casting-it)
 - **Dependency level:** high *strategic_judgment · high* — [Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md)
 
 ## Power
@@ -24,7 +24,7 @@
 | Field | Value | Class | Evidence |
 |---|---|---|---|
 | Source ceiling | 4 (Bracket 4 — Optimized (current-cycle blueprint).) | *fact · verified* | [Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md#L34](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md) |
-| GrokBot estimated ceiling | 4 (Low-to-mid Bracket 4: strong theft value, no compact win, opponent-dependent. Agrees with the source.) | *strategic_judgment · high* | [Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md#L34](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md) · [donandres-02](../interactions/don-andres-the-renegade.md#donandres-02) |
+| GrokBot estimated ceiling | 4 (Low-to-mid Bracket 4: strong theft value, no compact win, opponent-dependent. Agrees with the source.) | *strategic_judgment · high* | [Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md#L34](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md) · [donandres-02](../interactions/don-andres-the-renegade.md#donandres-02-the-treasure-trigger-needs-a-noncreature-spell-that-someone-else-owns) |
 | Expected bracket (list as built) | 4 (computed floor 4) | *strategic_judgment · high* | `companion:data/grixis_summary.json#Don_Andres__the_Renegade` |
 | Resolved ceiling | — (only Cory resolves) | | |
 | Disagreement | no | | |
@@ -35,12 +35,12 @@
 
 - **stolen-board** (natural): A board of opponents' creatures as 2/2-bigger menace deathtouch Pirates. Cards: Don Andres, the Renegade, Hostage Taker, Coercive Recruiter, Thieving Amalgam, Gonti, Night Minister. Enablers: Roaming Throne, Kindred Discovery. *strategic_judgment · high* — [Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md)
 - **insurrection** (natural): Insurrection steals every creature for a lethal swing, all buffed by Don. Cards: Insurrection. Enablers: Don Andres, the Renegade. *strategic_judgment · high* — [Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md)
-- **beckett-theft** (natural): Admiral Beckett Brass counts Don-made Pirates and permanently steals each end step. Cards: Admiral Beckett Brass. Enablers: Don Andres, the Renegade. *strategic_judgment · moderate* — [Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md) · [donandres-10](../interactions/don-andres-the-renegade.md#donandres-10)
+- **beckett-theft** (natural): Admiral Beckett Brass counts Don-made Pirates and permanently steals each end step. Cards: Admiral Beckett Brass. Enablers: Don Andres, the Renegade. *strategic_judgment · moderate* — [Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md) · [donandres-10](../interactions/don-andres-the-renegade.md#donandres-10-don-makes-stolen-creatures-pirates-for-pirate-payoffs)
 
 ## Engines
 
-- **stolen-spell-treasure:** Don Andres, the Renegade, Roaming Throne, Gonti, Night Minister, Tasha, the Witch Queen, Thief of Sanity, Grenzo, Havoc Raiser. Online when: Cast a noncreature spell you don't own. *fact · verified* — [donandres-02](../interactions/don-andres-the-renegade.md#donandres-02) · [donandres-07](../interactions/don-andres-the-renegade.md#donandres-07) · [donandres-11](../interactions/don-andres-the-renegade.md#donandres-11)
-- **stolen-creature-buff:** Don Andres, the Renegade, Thieving Amalgam, Hostage Taker, Gilded Drake. Online when: Control a creature you don't own. *fact · verified* — [donandres-01](../interactions/don-andres-the-renegade.md#donandres-01) · [donandres-05](../interactions/don-andres-the-renegade.md#donandres-05)
+- **stolen-spell-treasure:** Don Andres, the Renegade, Roaming Throne, Gonti, Night Minister, Tasha, the Witch Queen, Thief of Sanity, Grenzo, Havoc Raiser. Online when: Cast a noncreature spell you don't own. *fact · verified* — [donandres-02](../interactions/don-andres-the-renegade.md#donandres-02-the-treasure-trigger-needs-a-noncreature-spell-that-someone-else-owns) · [donandres-07](../interactions/don-andres-the-renegade.md#donandres-07-roaming-throne-on-pirate-doubles-the-treasure-trigger-not-the-static) · [donandres-11](../interactions/don-andres-the-renegade.md#donandres-11-cast-a-spell-you-dont-own-payoffs-stack-with-don)
+- **stolen-creature-buff:** Don Andres, the Renegade, Thieving Amalgam, Hostage Taker, Gilded Drake. Online when: Control a creature you don't own. *fact · verified* — [donandres-01](../interactions/don-andres-the-renegade.md#donandres-01-ownership-not-control-decides-both-of-dons-abilities) · [donandres-05](../interactions/don-andres-the-renegade.md#donandres-05-manifested-opponent-cards-are-22s-that-get-the-bonus)
 
 ## Packages
 
@@ -53,11 +53,11 @@
 
 ## Key interactions
 
-- **ownership:** Ownership, not control, decides both abilities. (Don Andres, the Renegade) *fact · verified* — [donandres-01](../interactions/don-andres-the-renegade.md#donandres-01)
-- **copies-and-put:** Copies you make are spells you own; putting onto the battlefield isn't casting. (Arcane Heist, Jhoira, Weatherlight Corsair, Reanimate, Animate Dead) *fact · verified* — [donandres-03](../interactions/don-andres-the-renegade.md#donandres-03) · [donandres-04](../interactions/don-andres-the-renegade.md#donandres-04)
-- **amalgam-manifests:** Thieving Amalgam manifests are 4/4 menace deathtouch with Don. (Thieving Amalgam) *fact · verified* — [donandres-05](../interactions/don-andres-the-renegade.md#donandres-05)
-- **voidwalker-nonbo:** Dauthi Voidwalker turns off Thieving Amalgam's drain. (Dauthi Voidwalker, Thieving Amalgam) *fact · verified* — [donandres-06](../interactions/don-andres-the-renegade.md#donandres-06)
-- **throne:** Roaming Throne (Pirate) doubles the Treasure trigger, not the static. (Roaming Throne) *fact · verified* — [donandres-07](../interactions/don-andres-the-renegade.md#donandres-07)
+- **ownership:** Ownership, not control, decides both abilities. (Don Andres, the Renegade) *fact · verified* — [donandres-01](../interactions/don-andres-the-renegade.md#donandres-01-ownership-not-control-decides-both-of-dons-abilities)
+- **copies-and-put:** Copies you make are spells you own; putting onto the battlefield isn't casting. (Arcane Heist, Jhoira, Weatherlight Corsair, Reanimate, Animate Dead) *fact · verified* — [donandres-03](../interactions/don-andres-the-renegade.md#donandres-03-copies-you-make-are-spells-you-own) · [donandres-04](../interactions/don-andres-the-renegade.md#donandres-04-putting-a-card-onto-the-battlefield-isnt-casting-it)
+- **amalgam-manifests:** Thieving Amalgam manifests are 4/4 menace deathtouch with Don. (Thieving Amalgam) *fact · verified* — [donandres-05](../interactions/don-andres-the-renegade.md#donandres-05-manifested-opponent-cards-are-22s-that-get-the-bonus)
+- **voidwalker-nonbo:** Dauthi Voidwalker turns off Thieving Amalgam's drain. (Dauthi Voidwalker, Thieving Amalgam) *fact · verified* — [donandres-06](../interactions/don-andres-the-renegade.md#donandres-06-dauthi-voidwalker-turns-off-thieving-amalgams-drain)
+- **throne:** Roaming Throne (Pirate) doubles the Treasure trigger, not the static. (Roaming Throne) *fact · verified* — [donandres-07](../interactions/don-andres-the-renegade.md#donandres-07-roaming-throne-on-pirate-doubles-the-treasure-trigger-not-the-static)
 
 ## Tutors and recursion
 
@@ -76,15 +76,15 @@
 
 - **weak-opponent-cards:** Opponents' cards are weak or off-color for what you need. Mitigations: Many theft angles. *strategic_judgment · high* — [Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md)
 - **don-removed:** Without Don stolen creatures shrink and Treasures stop. Mitigations: Protection package. *strategic_judgment · high* — [Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md)
-- **owner-leaves:** Stolen permanents leave when their owner leaves the game. Mitigations: —. *fact · verified* — [donandres-12](../interactions/don-andres-the-renegade.md#donandres-12)
+- **owner-leaves:** Stolen permanents leave when their owner leaves the game. Mitigations: —. *fact · verified* — [donandres-12](../interactions/don-andres-the-renegade.md#donandres-12-stolen-permanents-leave-with-their-owner)
 
 ## Identity core
 
 - **Don Andres, the Renegade:** Turns stolen cards into Pirates and Treasure. *fact · verified* — `oracle:Don Andres, the Renegade`
 - **Thief of Sanity:** Repeatable access to opponents' best spells for Treasure. *strategic_judgment · high* — [Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md)
-- **Thieving Amalgam:** Every opponent's turn makes a Don-buffed manifest. *strategic_judgment · high* — [donandres-05](../interactions/don-andres-the-renegade.md#donandres-05)
+- **Thieving Amalgam:** Every opponent's turn makes a Don-buffed manifest. *strategic_judgment · high* — [donandres-05](../interactions/don-andres-the-renegade.md#donandres-05-manifested-opponent-cards-are-22s-that-get-the-bonus)
 - **Insurrection:** The dedicated mass-theft finisher. *strategic_judgment · high* — [Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md)
-- **Gonti, Night Minister:** Another cast-what-you-don't-own engine that stacks with Don. *strategic_judgment · moderate* — [donandres-11](../interactions/don-andres-the-renegade.md#donandres-11)
+- **Gonti, Night Minister:** Another cast-what-you-don't-own engine that stacks with Don. *strategic_judgment · moderate* — [donandres-11](../interactions/don-andres-the-renegade.md#donandres-11-cast-a-spell-you-dont-own-payoffs-stack-with-don)
 
 ## Anti-goals and thematic constraints
 

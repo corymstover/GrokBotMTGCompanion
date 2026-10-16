@@ -25,7 +25,10 @@ Steps (run in this order; each prints its own summary):
   7d source-archive scripts/grixis_archive.py --check  archived Grixis source tree matches SHA256SUMS + source.json (count, hashes, bundle)
   7e authority      scripts/grixis_authority.py --check  Bot cycle 47 (M0): registry/exceptions/approvals schemas, states, human-approval
                     enforcement, projection rules, registry freshness, exceptions vs Scryfall + canonical lists
-  7f unit-tests     scripts/run_tests.py  tests/ via pytest (stdlib fallback runner when pytest is absent)
+  7f blueprints     scripts/grixis_blueprints.py --check  Bot cycle 50 (M2): commander blueprints validate (schema v2, Oracle text vs
+                    cache, card refs in the canonical list or declared candidates, evidence on every field, refs resolve,
+                    class rules, ceilings/disagreement vs registry, rendered pages current)
+  7g unit-tests     scripts/run_tests.py  tests/ via pytest (stdlib fallback runner when pytest is absent)
   8 freshness    (built in)                              generated pages built from an older bulk than the cache (warning);
                                                          with --online, a newer Scryfall bulk than the cache (warning; --strict fails)
 Default is offline (SCRYFALL_OFFLINE=1: newest cached bulk in .cache/, recorded citation results).
@@ -174,6 +177,7 @@ def main(argv):
              ("spellbook-steps", ["scripts/spellbook_steps.py", "--check"]),  # Bot cycle 48: Spellbook step cache covers every combo id (offline)
              ("source-archive", ["scripts/grixis_archive.py", "--check"]),  # Bot cycle 45: archived Grixis source byte-identical to its manifest
              ("authority", ["scripts/grixis_authority.py", "--check"]),  # Bot cycle 47 (M0): authority registry, exceptions, approvals, schemas
+             ("blueprints", ["scripts/grixis_blueprints.py", "--check"]),  # Bot cycle 50 (M2): commander blueprints, evidence on every field
              ("unit-tests", ["scripts/run_tests.py"]),  # Bot cycle 47 (M0): tests/ (hashes, states, approvals, legality vs authorization, schemas)
              ("freshness", None)]
     results = []

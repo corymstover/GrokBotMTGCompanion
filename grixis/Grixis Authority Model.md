@@ -187,6 +187,13 @@ Status is in `data/grixis/registry.json → program.milestones`. Only Cory sets 
 ### M2
 **Commander blueprints v1.** 62 blueprints validate against `blueprint.schema.json`; each names identity core, anti-goals, packages with minimum counts, win conditions, failure modes, tutor targets and construction rules; each has a `grok_estimated_ceiling` with evidence and a `disagreement` flag where it differs from the source; Cory has reviewed the sample he chooses and marked them reviewed.
 
+*Status (Bot cycle 50, in progress):* the schema is v2 (every field is a claim with `evidence_class`, `confidence` and resolvable evidence refs); tooling `scripts/grixis_blueprints.py` (`--scaffold`, `--check` = `validate_all` step `blueprints`, `--render`, `--m2-status`); **15/62 blueprints** (Abaddon … Dr. Eggman) in `data/grixis/blueprints/`, rendered in [blueprints/](blueprints/README.md). The registry takes `blueprint_version` and `grok_estimated_ceiling` from the blueprint, computes `disagreement`, and records a source ceiling the original parse missed as `source_ceiling.recovered` (cited `path#Lline`; the parsed claim is never overwritten). Criteria, live: `python3 scripts/grixis_blueprints.py --m2-status`.
+1. ⏳ 62 blueprints validate — 15/62.
+2. ⏳ Every required section present (identity core ≥3, anti-goals, required packages with min counts, win conditions, failure modes ≥2, tutor targets, construction rules) — 15/15 written ones complete.
+3. ⏳ GrokBot ceiling estimate with evidence and a disagreement flag — 15/62 (0 disagreements so far; 6 written decks have no source ceiling to compare).
+4. ⏳ Cory's review of a sample he chooses (`status: cory_reviewed`, `provenance.reviewed_by`).
+5. ⏳ Cory's acceptance (`program.milestones.M2`).
+
 ### M3
 **Evidence layer and simulator.** Evidence vectors per candidate (lift, sample size, retrieval date, trend, Oracle hooks, graph facts) with classes and confidence; deterministic paired-seed goldfish simulator with a hypergeometric layer, London mulligan, mana/colors, commander turn and package assembly, unit-tested against exact math; stress scenarios scripted (below); every test record carries pre-registered metrics, CIs and limitations; snapshot-keyed caching.
 

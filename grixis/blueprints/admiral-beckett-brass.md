@@ -13,18 +13,18 @@
 
 - **Primary plan:** Pirate aggro: develop several evasive Pirates and token makers, connect with three different Pirates against one opponent, and steal their best nonland permanent at every end step while Beckett's anthem grows the team. *strategic_judgment · high*
 - **Secondary:** Combat-damage card draw and Treasure ramp (Malcolm, Breeches, Coastal-style draw) plus a creature-theft package (Hostage Taker, Coercive Recruiter, Don Andres) that turns stolen creatures into Pirates.
-  - Evidence: [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [beckett-01](../interactions/admiral-beckett-brass.md#beckett-01) · [beckett-16](../interactions/admiral-beckett-brass.md#beckett-16)
+  - Evidence: [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [beckett-01](../interactions/admiral-beckett-brass.md#beckett-01-three-different-pirates-same-player-combat-damage-this-turn) · [beckett-16](../interactions/admiral-beckett-brass.md#beckett-16-what-the-list-depends-on)
 - **Commander role: central.** Beckett is both the anthem and the theft engine; the deck's evasion, token and Pirate-density choices exist to meet his three-Pirate condition. *strategic_judgment · high*
 - ⚠️ **Honest note:** The three-different-Pirates-to-the-same-player condition is genuinely hard to meet through blockers, and the payoff is one steal per end step (two with Roaming Throne). Without evasion the deck is ordinary tribal aggro.
-  - Evidence: [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [beckett-01](../interactions/admiral-beckett-brass.md#beckett-01) · [beckett-02](../interactions/admiral-beckett-brass.md#beckett-02) · [beckett-11](../interactions/admiral-beckett-brass.md#beckett-11)
-- **Dependency level:** high *strategic_judgment · high* — [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [beckett-16](../interactions/admiral-beckett-brass.md#beckett-16)
+  - Evidence: [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [beckett-01](../interactions/admiral-beckett-brass.md#beckett-01-three-different-pirates-same-player-combat-damage-this-turn) · [beckett-02](../interactions/admiral-beckett-brass.md#beckett-02-one-target-even-if-several-players-qualify) · [beckett-11](../interactions/admiral-beckett-brass.md#beckett-11-open-into-wonder-and-evasion-only-enable-damage-must-happen)
+- **Dependency level:** high *strategic_judgment · high* — [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [beckett-16](../interactions/admiral-beckett-brass.md#beckett-16-what-the-list-depends-on)
 
 ## Power
 
 | Field | Value | Class | Evidence |
 |---|---|---|---|
 | Source ceiling | — (none stated) (No source ceiling stated in the source blueprint, closeout or reconciliation records (checked Bot cycle 50).) | *fact · high* | [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [Admiral_Beckett_Brass_Approval_Ready_Closeout_2026-10-13.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Admiral_Beckett_Brass_Approval_Ready_Closeout_2026-10-13.md) |
-| GrokBot estimated ceiling | 4 (Bracket 4 by card pool (premium tutors, free counters, fast mana) around a fair, combat-dependent commander with no compact win; low-end B4.) | *strategic_judgment · moderate* | [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [beckett-16](../interactions/admiral-beckett-brass.md#beckett-16) · [deck page](../decks/admiral-beckett-brass.md) |
+| GrokBot estimated ceiling | 4 (Bracket 4 by card pool (premium tutors, free counters, fast mana) around a fair, combat-dependent commander with no compact win; low-end B4.) | *strategic_judgment · moderate* | [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [beckett-16](../interactions/admiral-beckett-brass.md#beckett-16-what-the-list-depends-on) · [deck page](../decks/admiral-beckett-brass.md) |
 | Expected bracket (list as built) | 4 (computed floor 4) | *strategic_judgment · high* | `companion:data/grixis_summary.json#Admiral_Beckett_Brass` |
 | Resolved ceiling | — (only Cory resolves) | | |
 | Disagreement | — (no source ceiling) | | |
@@ -33,37 +33,37 @@
 
 ## Win conditions
 
-- **pirate-beats-and-theft** (natural): Wide evasive Pirate attacks pumped by lords and Beckett, stealing a blocker, rock or threat each end step until the table falls behind. Cards: Admiral Beckett Brass, Fathom Fleet Captain, Dire Fleet Captain, Corsair Captain, Port Razer. Enablers: Cover of Darkness, Open into Wonder, Siren Stormtamer. *strategic_judgment · high* — [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [beckett-01](../interactions/admiral-beckett-brass.md#beckett-01)
-- **port-razer-combats** (natural): Port Razer's extra combats let the same Pirates connect again; Beckett's tally counts damage across all combats this turn. Cards: Port Razer. Enablers: Lightning Greaves. *strategic_judgment · moderate* — [beckett-10](../interactions/admiral-beckett-brass.md#beckett-10)
+- **pirate-beats-and-theft** (natural): Wide evasive Pirate attacks pumped by lords and Beckett, stealing a blocker, rock or threat each end step until the table falls behind. Cards: Admiral Beckett Brass, Fathom Fleet Captain, Dire Fleet Captain, Corsair Captain, Port Razer. Enablers: Cover of Darkness, Open into Wonder, Siren Stormtamer. *strategic_judgment · high* — [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [beckett-01](../interactions/admiral-beckett-brass.md#beckett-01-three-different-pirates-same-player-combat-damage-this-turn)
+- **port-razer-combats** (natural): Port Razer's extra combats let the same Pirates connect again; Beckett's tally counts damage across all combats this turn. Cards: Port Razer. Enablers: Lightning Greaves. *strategic_judgment · moderate* — [beckett-10](../interactions/admiral-beckett-brass.md#beckett-10-port-razer-extra-combats-and-becketts-tally)
 
 ## Engines
 
-- **end-step-theft:** Admiral Beckett Brass, Roaming Throne. Online when: Three or more different Pirates dealt combat damage to one player this turn. *fact · verified* — [beckett-01](../interactions/admiral-beckett-brass.md#beckett-01) · [beckett-02](../interactions/admiral-beckett-brass.md#beckett-02)
+- **end-step-theft:** Admiral Beckett Brass, Roaming Throne. Online when: Three or more different Pirates dealt combat damage to one player this turn. *fact · verified* — [beckett-01](../interactions/admiral-beckett-brass.md#beckett-01-three-different-pirates-same-player-combat-damage-this-turn) · [beckett-02](../interactions/admiral-beckett-brass.md#beckett-02-one-target-even-if-several-players-qualify)
 - **combat-draw-and-treasure:** Bident of Thassa, Kindred Discovery, Malcolm, Keen-Eyed Navigator, Breeches, Brazen Plunderer, Ramirez DePietro, Pillager, Captain Lannery Storm. Online when: Pirates connect. *strategic_judgment · high* — [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md)
 
 ## Packages
 
 | Package | Required | Min | Role | In list | Candidates (not in list) | Class | Evidence |
 |---|---|---|---|---|---|---|---|
-| `pkg:evasion` | yes | 6 | Make three Pirates connect with the same opponent. | 10: Changeling Outcast, Cover of Darkness, Daring Saboteur, Siren Stormtamer, Storm Fleet Sprinter, Warkite Marauder, Open into Wonder, Spectral Sailor, Spyglass Siren, Kitesail Freebooter | Slippery Scoundrel | *strategic_judgment · high* | [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [beckett-11](../interactions/admiral-beckett-brass.md#beckett-11) |
+| `pkg:evasion` | yes | 6 | Make three Pirates connect with the same opponent. | 10: Changeling Outcast, Cover of Darkness, Daring Saboteur, Siren Stormtamer, Storm Fleet Sprinter, Warkite Marauder, Open into Wonder, Spectral Sailor, Spyglass Siren, Kitesail Freebooter | Slippery Scoundrel | *strategic_judgment · high* | [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [beckett-11](../interactions/admiral-beckett-brass.md#beckett-11-open-into-wonder-and-evasion-only-enable-damage-must-happen) |
 | `pkg:pirate-bodies-and-tokens` | yes | 5 | Keep enough Pirates on board to re-trigger Beckett after removal. | 6: Fathom Fleet Captain, Daring Piracy, Kari Zev, Skyship Raider, Black Market Connections, Admiral Brass, Unsinkable, Merchant Raiders | — | *strategic_judgment · high* | [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) |
-| `pkg:pirate-lords` | yes | 3 | Tribal pumps that win combats. | 4: Admiral Beckett Brass, Dire Fleet Captain, Corsair Captain, Francisco, Fowl Marauder | Fell Flagship | *strategic_judgment · high* | [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [beckett-14](../interactions/admiral-beckett-brass.md#beckett-14) |
-| `pkg:creature-theft` | optional | 3 | Steal creatures and make them Pirates (they count for Beckett). | 4: Hostage Taker, Coercive Recruiter, Don Andres, the Renegade, Zara, Renegade Recruiter | — | *fact · verified* | [beckett-04](../interactions/admiral-beckett-brass.md#beckett-04) · [beckett-05](../interactions/admiral-beckett-brass.md#beckett-05) |
-| `pkg:interaction-protection` | yes | 8 | Clear blockers, survive sweepers, protect the attack. | 11: Fierce Guardianship, Deflecting Swat, Counterspell, Mana Drain, Chaos Warp, Toxic Deluge, Cyclonic Rift, Fiery Cannonade, Raise the Palisade, Lightning Greaves, Feed the Swarm | — | *strategic_judgment · high* | [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [beckett-07](../interactions/admiral-beckett-brass.md#beckett-07) |
+| `pkg:pirate-lords` | yes | 3 | Tribal pumps that win combats. | 4: Admiral Beckett Brass, Dire Fleet Captain, Corsair Captain, Francisco, Fowl Marauder | Fell Flagship | *strategic_judgment · high* | [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [beckett-14](../interactions/admiral-beckett-brass.md#beckett-14-becketts-anthem-admiral-brasss-base-44-and-the-lords) |
+| `pkg:creature-theft` | optional | 3 | Steal creatures and make them Pirates (they count for Beckett). | 4: Hostage Taker, Coercive Recruiter, Don Andres, the Renegade, Zara, Renegade Recruiter | — | *fact · verified* | [beckett-04](../interactions/admiral-beckett-brass.md#beckett-04-don-andres-and-coercive-recruiter-turn-stolen-creatures-into-pirates) · [beckett-05](../interactions/admiral-beckett-brass.md#beckett-05-zaras-stolen-attacker-counts-but-skips-attack-triggers) |
+| `pkg:interaction-protection` | yes | 8 | Clear blockers, survive sweepers, protect the attack. | 11: Fierce Guardianship, Deflecting Swat, Counterspell, Mana Drain, Chaos Warp, Toxic Deluge, Cyclonic Rift, Fiery Cannonade, Raise the Palisade, Lightning Greaves, Feed the Swarm | — | *strategic_judgment · high* | [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [beckett-07](../interactions/admiral-beckett-brass.md#beckett-07-one-sided-sweepers-fiery-cannonade-and-raise-the-palisade) |
 
 ## Key interactions
 
-- **three-pirates:** Three different Pirates must deal combat damage to the same player this turn; theft is permanent. (Admiral Beckett Brass) *fact · verified* — [beckett-01](../interactions/admiral-beckett-brass.md#beckett-01)
-- **throne-doubles:** Roaming Throne naming Pirate doubles Beckett's end-step steal (separate targets). (Roaming Throne, Admiral Beckett Brass) *fact · verified* — [beckett-02](../interactions/admiral-beckett-brass.md#beckett-02) · [beckett-09](../interactions/admiral-beckett-brass.md#beckett-09)
-- **kari-monkey:** Kari Zev's Ragavan token is a Monkey, not a Pirate: it doesn't count. (Kari Zev, Skyship Raider) *fact · verified* — [beckett-03](../interactions/admiral-beckett-brass.md#beckett-03)
-- **changelings:** Changelings count as Pirates. (Changeling Outcast) *fact · verified* — [beckett-06](../interactions/admiral-beckett-brass.md#beckett-06)
-- **one-sided-sweepers:** Fiery Cannonade spares Pirates; Raise the Palisade spares the chosen type. (Fiery Cannonade, Raise the Palisade) *fact · verified* — [beckett-07](../interactions/admiral-beckett-brass.md#beckett-07)
+- **three-pirates:** Three different Pirates must deal combat damage to the same player this turn; theft is permanent. (Admiral Beckett Brass) *fact · verified* — [beckett-01](../interactions/admiral-beckett-brass.md#beckett-01-three-different-pirates-same-player-combat-damage-this-turn)
+- **throne-doubles:** Roaming Throne naming Pirate doubles Beckett's end-step steal (separate targets). (Roaming Throne, Admiral Beckett Brass) *fact · verified* — [beckett-02](../interactions/admiral-beckett-brass.md#beckett-02-one-target-even-if-several-players-qualify) · [beckett-09](../interactions/admiral-beckett-brass.md#beckett-09-roaming-throne-naming-pirate-doubles-the-decks-pirate-triggers)
+- **kari-monkey:** Kari Zev's Ragavan token is a Monkey, not a Pirate: it doesn't count. (Kari Zev, Skyship Raider) *fact · verified* — [beckett-03](../interactions/admiral-beckett-brass.md#beckett-03-kari-zevs-ragavan-token-is-a-monkey-not-a-pirate)
+- **changelings:** Changelings count as Pirates. (Changeling Outcast) *fact · verified* — [beckett-06](../interactions/admiral-beckett-brass.md#beckett-06-changelings-count-as-pirates)
+- **one-sided-sweepers:** Fiery Cannonade spares Pirates; Raise the Palisade spares the chosen type. (Fiery Cannonade, Raise the Palisade) *fact · verified* — [beckett-07](../interactions/admiral-beckett-brass.md#beckett-07-one-sided-sweepers-fiery-cannonade-and-raise-the-palisade)
 
 ## Tutors and recursion
 
 - Tutor target **Roaming Throne** via Demonic Tutor, Vampiric Tutor *strategic_judgment · moderate* — [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md)
 - Tutor target **Open into Wonder** via Demonic Tutor, Vampiric Tutor *strategic_judgment · moderate* — [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md)
-- Recursion: The Indomitable *fact · verified* — [beckett-12](../interactions/admiral-beckett-brass.md#beckett-12)
+- Recursion: The Indomitable *fact · verified* — [beckett-12](../interactions/admiral-beckett-brass.md#beckett-12-the-indomitable-is-cast-from-the-graveyard-with-tapped-pirates)
 
 ## Requirements
 
@@ -74,17 +74,17 @@
 
 ## Failure modes
 
-- **blocked-out:** Blockers or fog effects stop the third Pirate from connecting, so no steal. Mitigations: Evasion package; Open into Wonder; Cyclonic Rift on a key turn. *strategic_judgment · high* — [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [beckett-01](../interactions/admiral-beckett-brass.md#beckett-01)
+- **blocked-out:** Blockers or fog effects stop the third Pirate from connecting, so no steal. Mitigations: Evasion package; Open into Wonder; Cyclonic Rift on a key turn. *strategic_judgment · high* — [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [beckett-01](../interactions/admiral-beckett-brass.md#beckett-01-three-different-pirates-same-player-combat-damage-this-turn)
 - **sweeper-reset:** A board wipe removes the Pirate density the condition needs. Mitigations: Token makers; Raise the Palisade/Cannonade are one-sided; Admiral Brass reanimates Pirates. *strategic_judgment · high* — [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md)
-- **commander-removal:** Beckett removed repeatedly: the theft engine and anthem are gone. Mitigations: Lightning Greaves; Free protection. *strategic_judgment · moderate* — [beckett-15](../interactions/admiral-beckett-brass.md#beckett-15)
+- **commander-removal:** Beckett removed repeatedly: the theft engine and anthem are gone. Mitigations: Lightning Greaves; Free protection. *strategic_judgment · moderate* — [beckett-15](../interactions/admiral-beckett-brass.md#beckett-15-commander-tax-and-the-4-mana-commander)
 
 ## Identity core
 
 - **Admiral Beckett Brass:** Anthem plus the end-step theft that defines the deck. *fact · verified* — `oracle:Admiral Beckett Brass`
-- **Roaming Throne:** Naming Pirate doubles both Beckett's theft and the Pirate ETB/attack triggers. *strategic_judgment · high* — [beckett-09](../interactions/admiral-beckett-brass.md#beckett-09)
+- **Roaming Throne:** Naming Pirate doubles both Beckett's theft and the Pirate ETB/attack triggers. *strategic_judgment · high* — [beckett-09](../interactions/admiral-beckett-brass.md#beckett-09-roaming-throne-naming-pirate-doubles-the-decks-pirate-triggers)
 - **Fathom Fleet Captain:** Each attack makes another Pirate token, refilling the three-Pirate count. *strategic_judgment · high* — [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md)
-- **Cover of Darkness:** Naming Pirate gives the whole crew fear: the most direct answer to blockers. *strategic_judgment · high* — [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [beckett-11](../interactions/admiral-beckett-brass.md#beckett-11)
-- **Coercive Recruiter:** Every Pirate ETB steals a creature and makes it a Pirate that can attack for the count. *fact · verified* — [beckett-04](../interactions/admiral-beckett-brass.md#beckett-04)
+- **Cover of Darkness:** Naming Pirate gives the whole crew fear: the most direct answer to blockers. *strategic_judgment · high* — [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [beckett-11](../interactions/admiral-beckett-brass.md#beckett-11-open-into-wonder-and-evasion-only-enable-damage-must-happen)
+- **Coercive Recruiter:** Every Pirate ETB steals a creature and makes it a Pirate that can attack for the count. *fact · verified* — [beckett-04](../interactions/admiral-beckett-brass.md#beckett-04-don-andres-and-coercive-recruiter-turn-stolen-creatures-into-pirates)
 
 ## Anti-goals and thematic constraints
 
@@ -101,7 +101,7 @@ None.
 
 ## Construction-relevant rules
 
-- **CR 704.5j:** Double Down copies of legendary Pirates hit the legend rule; both ETBs still happen. *fact · verified* — `cr:704.5j` · [beckett-08](../interactions/admiral-beckett-brass.md#beckett-08)
+- **CR 704.5j:** Double Down copies of legendary Pirates hit the legend rule; both ETBs still happen. *fact · verified* — `cr:704.5j` · [beckett-08](../interactions/admiral-beckett-brass.md#beckett-08-double-down-copies-pirate-spells-legendary-copies-hit-the-legend-rule)
 - **CR 903.8:** Commander tax on a four-mana commander that is a removal magnet. *fact · verified* — `cr:903.8`
 
 ## Supporting features (heuristic, not identity)
@@ -110,5 +110,5 @@ None.
 
 ## Provenance
 
-- Seeded from: [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [Admiral_Beckett_Brass_Approval_Ready_Closeout_2026-10-13.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Admiral_Beckett_Brass_Approval_Ready_Closeout_2026-10-13.md) · [Admiral_Beckett_Brass_Approval_Ready_2026-10-13.txt](../source-archive/grixis-commander-encyclopediaGPT/refinement/decklists/Admiral_Beckett_Brass_Approval_Ready_2026-10-13.txt) · [beckett-16](../interactions/admiral-beckett-brass.md#beckett-16)
+- Seeded from: [Admiral_Beckett_Brass_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Beckett_Brass_v1.md) · [Admiral_Beckett_Brass_Approval_Ready_Closeout_2026-10-13.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Admiral_Beckett_Brass_Approval_Ready_Closeout_2026-10-13.md) · [Admiral_Beckett_Brass_Approval_Ready_2026-10-13.txt](../source-archive/grixis-commander-encyclopediaGPT/refinement/decklists/Admiral_Beckett_Brass_Approval_Ready_2026-10-13.txt) · [beckett-16](../interactions/admiral-beckett-brass.md#beckett-16-what-the-list-depends-on)
 - Reviewed by: — (not yet reviewed by Cory)

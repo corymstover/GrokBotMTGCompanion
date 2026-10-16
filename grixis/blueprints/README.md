@@ -27,10 +27,10 @@
 | [Admiral Brass, Unsinkable](admiral-brass-unsinkable.md) | central | high | — | 4 | 4 | — | v1 seeded |
 | [Anhelo, the Painter](anhelo-the-painter.md) | significant | medium | — | 4 | 4 | — | v1 seeded |
 | [Ashad, the Lone Cyberman](ashad-the-lone-cyberman.md) | significant | medium | — | 4 | 3 | — | v1 seeded |
-| [Ashnod the Uncaring](ashnod-the-uncaring.md) | central | medium | 4 | 4 | 4 | no | v1 seeded |
+| [Ashnod the Uncaring](ashnod-the-uncaring.md) | central | medium | 4 (recovered) | 4 | 4 | no | v1 seeded |
 | [Be'lakor, the Dark Master](belakor-the-dark-master.md) | central | high | — | 4 | 4 | — | v1 seeded |
 | [Bjorna, Nightfall Alchemist + Cecily, Haunted Mage](bjorna-nightfall-alchemist-cecily.md) | supporting | low | — | 4 | 4 | — | v1 seeded |
-| [Cormela, Glamour Thief](cormela-glamour-thief.md) | central | medium | 5 | 5 | 5 | no | v1 seeded |
+| [Cormela, Glamour Thief](cormela-glamour-thief.md) | central | medium | 5 (recovered) | 5 | 5 | no | v1 seeded |
 | [Crosis, the Purger](crosis-the-purger.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
 | [Cult of Skaro](cult-of-skaro.md) | central | high | 4 | 4 | 3 | no | v1 seeded |
 | [Davros, Dalek Creator](davros-dalek-creator.md) | central | high | 4 | 4 | 4 | no | v1 seeded |

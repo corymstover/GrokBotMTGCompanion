@@ -14,7 +14,7 @@
 
 - **Primary plan:** cEDH instant/sorcery combo: Cormela's hasty restricted UBR mana pays for spell chains, and her death trigger loops with sacrifice outlets plus reanimation/cloning (Saw in Half, Goryo's Vengeance, Shallow Grave, Demonic Gifts, Molten Duplication + Birgi). *strategic_judgment · high*
 - **Secondary:** Commander-independent cEDH failovers: Thassa's Oracle + Demonic Consultation/Tainted Pact, Underworld Breach + LED/Petal + Brain Freeze or Wheel, Tendrils of Agony storm.
-  - Evidence: [Cormela_Optimization_Decision_Ledger.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md) · [Cormela_Glamour_Thief_Finalization_Certificate_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cormela_2026-10-14/Cormela_Glamour_Thief_Finalization_Certificate_2026-10-14.md) · [cormela-03](../interactions/cormela-glamour-thief.md#cormela-03) · [cormela-07](../interactions/cormela-glamour-thief.md#cormela-07)
+  - Evidence: [Cormela_Optimization_Decision_Ledger.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md) · [Cormela_Glamour_Thief_Finalization_Certificate_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cormela_2026-10-14/Cormela_Glamour_Thief_Finalization_Certificate_2026-10-14.md) · [cormela-03](../interactions/cormela-glamour-thief.md#cormela-03-cormela--saw-in-half--ritual-or-jeskas-will) · [cormela-07](../interactions/cormela-glamour-thief.md#cormela-07-thassas-oracle--demonic-consultation-or-tainted-pact)
 - **Commander role: central.** Cormela is a ritual on a hasty body and the recursion piece of a dozen Spellbook loops; most of the deck's infinites name her. *strategic_judgment · high*
 - ⚠️ **Honest note:** The compact Thassa's Oracle and Breach wins don't need her, which is correct for cEDH resilience; the ledger keeps them as failovers, not the identity.
   - Evidence: [Cormela_Optimization_Decision_Ledger.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md) · [Cormela_Glamour_Thief_Finalization_Certificate_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cormela_2026-10-14/Cormela_Glamour_Thief_Finalization_Certificate_2026-10-14.md) · `spellbook:500-2701-4867`
@@ -25,7 +25,7 @@
 | Field | Value | Class | Evidence |
 |---|---|---|---|
 | Source ceiling | 5 (cEDH — 'Cormela is treated at her natural cEDH ceiling' (optimization decision ledger).) | *fact · verified* | [Cormela_Optimization_Decision_Ledger.md#L12](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md) |
-| GrokBot estimated ceiling | 5 (cEDH (Bracket 5): Thassa's Oracle failover, Breach/LED, Necropotence/Ad Nauseam and 14 fast-mana pieces; the commander-specific loops are real. Agrees with the recovered source claim.) | *strategic_judgment · high* | [Cormela_Optimization_Decision_Ledger.md#L12](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md) · [cormela-07](../interactions/cormela-glamour-thief.md#cormela-07) · `spellbook:742-1295` · [cormela-03](../interactions/cormela-glamour-thief.md#cormela-03) |
+| GrokBot estimated ceiling | 5 (cEDH (Bracket 5): Thassa's Oracle failover, Breach/LED, Necropotence/Ad Nauseam and 14 fast-mana pieces; the commander-specific loops are real. Agrees with the recovered source claim.) | *strategic_judgment · high* | [Cormela_Optimization_Decision_Ledger.md#L12](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md) · [cormela-07](../interactions/cormela-glamour-thief.md#cormela-07-thassas-oracle--demonic-consultation-or-tainted-pact) · `spellbook:742-1295` · [cormela-03](../interactions/cormela-glamour-thief.md#cormela-03-cormela--saw-in-half--ritual-or-jeskas-will) |
 | Expected bracket (list as built) | 5 (computed floor 4) | *strategic_judgment · high* | `companion:data/grixis_summary.json#Cormela__Glamour_Thief` |
 | Resolved ceiling | — (only Cory resolves) | | |
 | Disagreement | no | | |
@@ -34,16 +34,16 @@
 
 ## Win conditions
 
-- **saw-in-half** (combo): Saw in Half on Cormela with a mana-positive ritual or Jeska's Will: legend rule + death trigger loop. Cards: Cormela, Glamour Thief, Saw in Half, Dark Ritual, Cabal Ritual, Seething Song, Jeska's Will. Enablers: Tendrils of Agony. *fact · verified* — [cormela-03](../interactions/cormela-glamour-thief.md#cormela-03) · `spellbook:500-2701-4867` · `spellbook:500-1878-4867`
-- **reanimate-altar** (combo): Cormela + Goryo's Vengeance or Shallow Grave + Ashnod's Altar or Phyrexian Altar. Cards: Cormela, Glamour Thief, Goryo's Vengeance, Shallow Grave, Ashnod's Altar, Phyrexian Altar. Enablers: Entomb. *fact · verified* — [cormela-04](../interactions/cormela-glamour-thief.md#cormela-04) · `spellbook:1893-2034-4867` · `spellbook:2034-3599-4867`
-- **molten-duplication** (combo): Cormela + Birgi + Molten Duplication; Dualcaster Mage + Molten Duplication or Saw in Half. Cards: Molten Duplication, Birgi, God of Storytelling // Harnfel, Horn of Bounty, Dualcaster Mage. *fact · verified* — [cormela-06](../interactions/cormela-glamour-thief.md#cormela-06) · `spellbook:392-4867-5487` · `spellbook:147-5487`
-- **thoracle** (combo): Thassa's Oracle + Demonic Consultation or Tainted Pact. Cards: Thassa's Oracle, Demonic Consultation, Tainted Pact. *fact · verified* — [cormela-07](../interactions/cormela-glamour-thief.md#cormela-07) · `spellbook:742-1295` · `spellbook:1295-3093`
-- **breach** (combo): Underworld Breach + LED/Petal + Brain Freeze or Wheel of Fortune. Cards: Underworld Breach, Lion's Eye Diamond, Lotus Petal, Brain Freeze, Wheel of Fortune. *fact · verified* — [cormela-08](../interactions/cormela-glamour-thief.md#cormela-08) · `spellbook:1368-3518-4856`
+- **saw-in-half** (combo): Saw in Half on Cormela with a mana-positive ritual or Jeska's Will: legend rule + death trigger loop. Cards: Cormela, Glamour Thief, Saw in Half, Dark Ritual, Cabal Ritual, Seething Song, Jeska's Will. Enablers: Tendrils of Agony. *fact · verified* — [cormela-03](../interactions/cormela-glamour-thief.md#cormela-03-cormela--saw-in-half--ritual-or-jeskas-will) · `spellbook:500-2701-4867` · `spellbook:500-1878-4867`
+- **reanimate-altar** (combo): Cormela + Goryo's Vengeance or Shallow Grave + Ashnod's Altar or Phyrexian Altar. Cards: Cormela, Glamour Thief, Goryo's Vengeance, Shallow Grave, Ashnod's Altar, Phyrexian Altar. Enablers: Entomb. *fact · verified* — [cormela-04](../interactions/cormela-glamour-thief.md#cormela-04-cormela--goryos-vengeance-or-shallow-grave--altar) · `spellbook:1893-2034-4867` · `spellbook:2034-3599-4867`
+- **molten-duplication** (combo): Cormela + Birgi + Molten Duplication; Dualcaster Mage + Molten Duplication or Saw in Half. Cards: Molten Duplication, Birgi, God of Storytelling // Harnfel, Horn of Bounty, Dualcaster Mage. *fact · verified* — [cormela-06](../interactions/cormela-glamour-thief.md#cormela-06-birgi--molten-duplication-dualcaster--molten-duplication-or-saw-in-half) · `spellbook:392-4867-5487` · `spellbook:147-5487`
+- **thoracle** (combo): Thassa's Oracle + Demonic Consultation or Tainted Pact. Cards: Thassa's Oracle, Demonic Consultation, Tainted Pact. *fact · verified* — [cormela-07](../interactions/cormela-glamour-thief.md#cormela-07-thassas-oracle--demonic-consultation-or-tainted-pact) · `spellbook:742-1295` · `spellbook:1295-3093`
+- **breach** (combo): Underworld Breach + LED/Petal + Brain Freeze or Wheel of Fortune. Cards: Underworld Breach, Lion's Eye Diamond, Lotus Petal, Brain Freeze, Wheel of Fortune. *fact · verified* — [cormela-08](../interactions/cormela-glamour-thief.md#cormela-08-underworld-breach--lions-eye-diamond--lotus-petal--brain-freeze-or-wheel) · `spellbook:1368-3518-4856`
 
 ## Engines
 
-- **restricted-mana:** Cormela, Glamour Thief. Online when: {1},{T}: UBR for instants/sorceries; haste means it's usable the turn she lands. *fact · verified* — [cormela-01](../interactions/cormela-glamour-thief.md#cormela-01)
-- **death-recursion:** Cormela, Glamour Thief, Ashnod's Altar, Phyrexian Altar, Phyrexian Tower, Demonic Gifts. Online when: Cormela dies: return an instant or sorcery; leave her in the graveyard for reanimation loops. *fact · verified* — [cormela-02](../interactions/cormela-glamour-thief.md#cormela-02) · [cormela-05](../interactions/cormela-glamour-thief.md#cormela-05)
+- **restricted-mana:** Cormela, Glamour Thief. Online when: {1},{T}: UBR for instants/sorceries; haste means it's usable the turn she lands. *fact · verified* — [cormela-01](../interactions/cormela-glamour-thief.md#cormela-01-restricted-mana-and-the-death-trigger)
+- **death-recursion:** Cormela, Glamour Thief, Ashnod's Altar, Phyrexian Altar, Phyrexian Tower, Demonic Gifts. Online when: Cormela dies: return an instant or sorcery; leave her in the graveyard for reanimation loops. *fact · verified* — [cormela-02](../interactions/cormela-glamour-thief.md#cormela-02-leave-cormela-in-the-graveyard-for-reanimation-loops) · [cormela-05](../interactions/cormela-glamour-thief.md#cormela-05-demonic-gifts-loops-cormela-or-dualcaster--altar)
 
 ## Packages
 
@@ -56,16 +56,16 @@
 
 ## Key interactions
 
-- **restricted-mana-death:** Hasty UBR for instants/sorceries; when she dies, return an instant or sorcery. (Cormela, Glamour Thief) *fact · verified* — [cormela-01](../interactions/cormela-glamour-thief.md#cormela-01)
-- **decline-command-zone:** Decline the command-zone move to keep her in the graveyard for reanimation loops. (Cormela, Glamour Thief) *fact · verified* — [cormela-02](../interactions/cormela-glamour-thief.md#cormela-02)
-- **saw-in-half-legend:** Saw in Half on Cormela: the legend rule gives a death trigger while one copy stays. (Saw in Half) *fact · verified* — [cormela-03](../interactions/cormela-glamour-thief.md#cormela-03)
-- **bowmasters-wheels:** Orcish Bowmasters punishes your own wheels too. (Orcish Bowmasters, Wheel of Fortune, Windfall) *fact · verified* — [cormela-09](../interactions/cormela-glamour-thief.md#cormela-09)
+- **restricted-mana-death:** Hasty UBR for instants/sorceries; when she dies, return an instant or sorcery. (Cormela, Glamour Thief) *fact · verified* — [cormela-01](../interactions/cormela-glamour-thief.md#cormela-01-restricted-mana-and-the-death-trigger)
+- **decline-command-zone:** Decline the command-zone move to keep her in the graveyard for reanimation loops. (Cormela, Glamour Thief) *fact · verified* — [cormela-02](../interactions/cormela-glamour-thief.md#cormela-02-leave-cormela-in-the-graveyard-for-reanimation-loops)
+- **saw-in-half-legend:** Saw in Half on Cormela: the legend rule gives a death trigger while one copy stays. (Saw in Half) *fact · verified* — [cormela-03](../interactions/cormela-glamour-thief.md#cormela-03-cormela--saw-in-half--ritual-or-jeskas-will)
+- **bowmasters-wheels:** Orcish Bowmasters punishes your own wheels too. (Orcish Bowmasters, Wheel of Fortune, Windfall) *fact · verified* — [cormela-09](../interactions/cormela-glamour-thief.md#cormela-09-orcish-bowmasters-punishes-your-own-wheels)
 
 ## Tutors and recursion
 
-- Tutor target **Thassa's Oracle** via Demonic Tutor, Vampiric Tutor, Imperial Seal, Wishclaw Talisman, Intuition *strategic_judgment · high* — [cormela-07](../interactions/cormela-glamour-thief.md#cormela-07)
-- Tutor target **Saw in Half** via Mystical Tutor, Demonic Tutor, Gamble, Diabolic Intent *strategic_judgment · high* — [cormela-03](../interactions/cormela-glamour-thief.md#cormela-03)
-- Tutor target **Underworld Breach** via Mystical Tutor, Gamble, Imperial Seal *strategic_judgment · high* — [cormela-08](../interactions/cormela-glamour-thief.md#cormela-08)
+- Tutor target **Thassa's Oracle** via Demonic Tutor, Vampiric Tutor, Imperial Seal, Wishclaw Talisman, Intuition *strategic_judgment · high* — [cormela-07](../interactions/cormela-glamour-thief.md#cormela-07-thassas-oracle--demonic-consultation-or-tainted-pact)
+- Tutor target **Saw in Half** via Mystical Tutor, Demonic Tutor, Gamble, Diabolic Intent *strategic_judgment · high* — [cormela-03](../interactions/cormela-glamour-thief.md#cormela-03-cormela--saw-in-half--ritual-or-jeskas-will)
+- Tutor target **Underworld Breach** via Mystical Tutor, Gamble, Imperial Seal *strategic_judgment · high* — [cormela-08](../interactions/cormela-glamour-thief.md#cormela-08-underworld-breach--lions-eye-diamond--lotus-petal--brain-freeze-or-wheel)
 - Recursion: Underworld Breach, Reanimate, Goryo's Vengeance, Shallow Grave, Entomb *fact · verified* — [Cormela_Optimization_Decision_Ledger.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md)
 
 ## Requirements
@@ -78,15 +78,15 @@
 ## Failure modes
 
 - **stack-war-lost:** Losing the counter war on the combo turn. Mitigations: Free counters; Multiple distinct lines. *strategic_judgment · high* — [Cormela_Optimization_Decision_Ledger.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md)
-- **graveyard-hate:** Graveyard hate stops reanimation/Breach lines. Mitigations: Saw in Half and Thassa's Oracle don't use the graveyard. *strategic_judgment · moderate* — [cormela-02](../interactions/cormela-glamour-thief.md#cormela-02)
+- **graveyard-hate:** Graveyard hate stops reanimation/Breach lines. Mitigations: Saw in Half and Thassa's Oracle don't use the graveyard. *strategic_judgment · moderate* — [cormela-02](../interactions/cormela-glamour-thief.md#cormela-02-leave-cormela-in-the-graveyard-for-reanimation-loops)
 - **self-damage:** Ad Nauseam, Necropotence, City of Brass and Mana Confluence cost life. Mitigations: Fast kill. *strategic_judgment · moderate* — [Cormela_Optimization_Decision_Ledger.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md)
 
 ## Identity core
 
 - **Cormela, Glamour Thief:** Hasty spell ritual and the death-trigger half of most loops. *fact · verified* — `oracle:Cormela, Glamour Thief`
-- **Saw in Half:** Two-card commander loop with any mana-positive ritual. *strategic_judgment · high* — [cormela-03](../interactions/cormela-glamour-thief.md#cormela-03)
+- **Saw in Half:** Two-card commander loop with any mana-positive ritual. *strategic_judgment · high* — [cormela-03](../interactions/cormela-glamour-thief.md#cormela-03-cormela--saw-in-half--ritual-or-jeskas-will)
 - **Molten Duplication:** Copies Cormela for the Birgi loop and Dualcaster for the token loop. *strategic_judgment · high* — [Cormela_Optimization_Decision_Ledger.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md)
-- **Goryo's Vengeance:** Instant-speed reanimation half of the altar loop. *strategic_judgment · high* — [cormela-04](../interactions/cormela-glamour-thief.md#cormela-04)
+- **Goryo's Vengeance:** Instant-speed reanimation half of the altar loop. *strategic_judgment · high* — [cormela-04](../interactions/cormela-glamour-thief.md#cormela-04-cormela--goryos-vengeance-or-shallow-grave--altar)
 - **Thassa's Oracle:** Compact failover that raises resilience. *strategic_judgment · high* — [Cormela_Optimization_Decision_Ledger.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md)
 
 ## Anti-goals and thematic constraints

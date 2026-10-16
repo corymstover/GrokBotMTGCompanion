@@ -13,10 +13,10 @@
 
 - **Primary plan:** Make every opponent lose 3+ life on your turn (Maestros Charm, Boltwave, Court of Ambition, Loyal Subordinate, Torment of Hailfire), so Davros's end-step trigger makes a 3/3 menace Dalek and forces a draw-or-discard villainous choice on each of them; multiply the trigger with Auton Soldier, Strionic Resonator, Scientist Supreme and The Valeyard. *strategic_judgment · high*
 - **Secondary:** Punish the discard branch (Entropic Battlecruiser, Waste Not, Tinybones) and turn menace Daleks into a clock with Labyrinth Raptor and Dalek lords.
-  - Evidence: [Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md) · [davros-01](../interactions/davros-dalek-creator.md#davros-01) · [davros-05](../interactions/davros-dalek-creator.md#davros-05)
+  - Evidence: [Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md) · [davros-01](../interactions/davros-dalek-creator.md#davros-01-the-3-life-check-is-on-resolution-not-an-intervening-if) · [davros-05](../interactions/davros-dalek-creator.md#davros-05-the-valeyard-doubles-every-villainous-choice)
 - **Commander role: central.** Davros is the repeatable value engine: Dalek every turn plus a card or a discard per qualifying opponent. *strategic_judgment · high*
 - ⚠️ **Honest note:** Value-only engine with delayed payoff and opponent choice; no Spellbook combos. The deck is Bracket 4 mainly because of its Game Changers and premium interaction, not because Davros threatens fast wins.
-  - Evidence: [Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md#L45](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md) · [davros-01](../interactions/davros-dalek-creator.md#davros-01) · [davros-02](../interactions/davros-dalek-creator.md#davros-02)
+  - Evidence: [Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md#L45](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md) · [davros-01](../interactions/davros-dalek-creator.md#davros-01-the-3-life-check-is-on-resolution-not-an-intervening-if) · [davros-02](../interactions/davros-dalek-creator.md#davros-02-villainous-choices-resolve-player-by-player)
 - **Dependency level:** high *strategic_judgment · high* — [Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md)
 
 ## Power
@@ -24,7 +24,7 @@
 | Field | Value | Class | Evidence |
 |---|---|---|---|
 | Source ceiling | 4 (Bracket 4 — Optimized (current-cycle decisions).) | *fact · verified* | [Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md#L45](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md) · [Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md#L94](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md) |
-| GrokBot estimated ceiling | 4 (Low-end Bracket 4: forced there by Game Changers and premium interaction; the engine itself is fair value with no combo. Agrees with the source.) | *strategic_judgment · moderate* | [Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md#L45](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md) · [davros-01](../interactions/davros-dalek-creator.md#davros-01) |
+| GrokBot estimated ceiling | 4 (Low-end Bracket 4: forced there by Game Changers and premium interaction; the engine itself is fair value with no combo. Agrees with the source.) | *strategic_judgment · moderate* | [Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md#L45](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md) · [davros-01](../interactions/davros-dalek-creator.md#davros-01-the-3-life-check-is-on-resolution-not-an-intervening-if) |
 | Expected bracket (list as built) | 4 (computed floor 4) | *strategic_judgment · high* | `companion:data/grixis_summary.json#Davros__Dalek_Creator` |
 | Resolved ceiling | — (only Cory resolves) | | |
 | Disagreement | no | | |
@@ -34,29 +34,29 @@
 ## Win conditions
 
 - **dalek-army** (natural): Menace Dalek tokens every turn, pumped and protected, with Labyrinth Raptor forcing bad blocks. Cards: Davros, Dalek Creator, Labyrinth Raptor, The Dalek Emperor, Genesis of the Daleks, Dalek Squadron. Enablers: Loyal Subordinate. *strategic_judgment · high* — [Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md)
-- **drain-and-discard** (natural): Entropic Battlecruiser and Court of Ambition make each discard cost 3 life; Torment of Hailfire and Exterminate! close. Cards: Entropic Battlecruiser, Court of Ambition, Torment of Hailfire, Exterminate!, Wound Reflection. Enablers: Geier Reach Sanitarium. *strategic_judgment · moderate* — [Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md) · [davros-06](../interactions/davros-dalek-creator.md#davros-06)
+- **drain-and-discard** (natural): Entropic Battlecruiser and Court of Ambition make each discard cost 3 life; Torment of Hailfire and Exterminate! close. Cards: Entropic Battlecruiser, Court of Ambition, Torment of Hailfire, Exterminate!, Wound Reflection. Enablers: Geier Reach Sanitarium. *strategic_judgment · moderate* — [Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md) · [davros-06](../interactions/davros-dalek-creator.md#davros-06-entropic-battlecruiser-at-station-1-punishes-discards)
 
 ## Engines
 
-- **end-step-davros:** Davros, Dalek Creator, Auton Soldier, Strionic Resonator, Scientist Supreme of A.I.M., Roaming Throne, The Valeyard. Online when: At least one opponent lost 3+ life this turn when the trigger resolves. *fact · verified* — [davros-01](../interactions/davros-dalek-creator.md#davros-01) · [davros-04](../interactions/davros-dalek-creator.md#davros-04) · [davros-05](../interactions/davros-dalek-creator.md#davros-05)
-- **three-life-enablers:** Maestros Charm, Boltwave, Court of Ambition, Loyal Subordinate, Sygg, River Cutthroat. Online when: Fixed 3-life loss to each opponent during your turn. *fact · verified* — [davros-07](../interactions/davros-dalek-creator.md#davros-07)
+- **end-step-davros:** Davros, Dalek Creator, Auton Soldier, Strionic Resonator, Scientist Supreme of A.I.M., Roaming Throne, The Valeyard. Online when: At least one opponent lost 3+ life this turn when the trigger resolves. *fact · verified* — [davros-01](../interactions/davros-dalek-creator.md#davros-01-the-3-life-check-is-on-resolution-not-an-intervening-if) · [davros-04](../interactions/davros-dalek-creator.md#davros-04-copying-and-doubling-davros) · [davros-05](../interactions/davros-dalek-creator.md#davros-05-the-valeyard-doubles-every-villainous-choice)
+- **three-life-enablers:** Maestros Charm, Boltwave, Court of Ambition, Loyal Subordinate, Sygg, River Cutthroat. Online when: Fixed 3-life loss to each opponent during your turn. *fact · verified* — [davros-07](../interactions/davros-dalek-creator.md#davros-07-fixed-3-life-enablers)
 
 ## Packages
 
 | Package | Required | Min | Role | In list | Candidates (not in list) | Class | Evidence |
 |---|---|---|---|---|---|---|---|
-| `pkg:three-life-enablers` | yes | 6 | Turn on Davros for the whole table. | 8: Maestros Charm, Boltwave, Court of Ambition, Loyal Subordinate, Torment of Hailfire, Exterminate!, Perforating Artist, Wound Reflection | — | *strategic_judgment · high* | [Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md) · [davros-07](../interactions/davros-dalek-creator.md#davros-07) |
-| `pkg:trigger-multipliers` | yes | 4 | More Davros triggers or choices. | 5: Auton Soldier, Strionic Resonator, Scientist Supreme of A.I.M., Roaming Throne, The Valeyard | — | *strategic_judgment · high* | [Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md) · [davros-04](../interactions/davros-dalek-creator.md#davros-04) |
+| `pkg:three-life-enablers` | yes | 6 | Turn on Davros for the whole table. | 8: Maestros Charm, Boltwave, Court of Ambition, Loyal Subordinate, Torment of Hailfire, Exterminate!, Perforating Artist, Wound Reflection | — | *strategic_judgment · high* | [Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md) · [davros-07](../interactions/davros-dalek-creator.md#davros-07-fixed-3-life-enablers) |
+| `pkg:trigger-multipliers` | yes | 4 | More Davros triggers or choices. | 5: Auton Soldier, Strionic Resonator, Scientist Supreme of A.I.M., Roaming Throne, The Valeyard | — | *strategic_judgment · high* | [Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md) · [davros-04](../interactions/davros-dalek-creator.md#davros-04-copying-and-doubling-davros) |
 | `pkg:discard-punishers` | yes | 3 | Make the discard branch hurt. | 5: Entropic Battlecruiser, Waste Not, Tinybones, Trinket Thief, Geth's Grimoire, Sycorax Commander | — | *strategic_judgment · high* | [Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md) |
 | `pkg:interaction-protection` | yes | 10 | Bracket 4 interaction and commander protection. | 13: Counterspell, Mana Drain, Swan Song, Fierce Guardianship, Deflecting Swat, Snuff Out, Deadly Rollick, Delete, Toxic Deluge, Cyclonic Rift, Lightning Greaves, Swiftfoot Boots, Padeem, Consul of Innovation | — | *strategic_judgment · high* | [Davros_Dalek_Creator_Whole_List_Audit_Closeout_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Whole_List_Audit_Closeout_2026-10-14.md) |
 
 ## Key interactions
 
-- **check-on-resolution:** Always triggers; the 3-life check is on resolution, not an intervening if. (Davros, Dalek Creator) *fact · verified* — [davros-01](../interactions/davros-dalek-creator.md#davros-01)
-- **order-drains:** Put Davros's trigger on the stack first so end-step drains resolve before it. (Davros, Dalek Creator) *fact · verified* — [davros-03](../interactions/davros-dalek-creator.md#davros-03)
-- **valeyard:** The Valeyard doubles every villainous choice. (The Valeyard) *fact · verified* — [davros-05](../interactions/davros-dalek-creator.md#davros-05)
-- **battlecruiser:** Entropic Battlecruiser at station 1+ makes each discard cost 3 life. (Entropic Battlecruiser) *fact · verified* — [davros-06](../interactions/davros-dalek-creator.md#davros-06)
-- **raptor:** Labyrinth Raptor punishes blocks on menace Daleks. (Labyrinth Raptor) *fact · verified* — [davros-08](../interactions/davros-dalek-creator.md#davros-08)
+- **check-on-resolution:** Always triggers; the 3-life check is on resolution, not an intervening if. (Davros, Dalek Creator) *fact · verified* — [davros-01](../interactions/davros-dalek-creator.md#davros-01-the-3-life-check-is-on-resolution-not-an-intervening-if)
+- **order-drains:** Put Davros's trigger on the stack first so end-step drains resolve before it. (Davros, Dalek Creator) *fact · verified* — [davros-03](../interactions/davros-dalek-creator.md#davros-03-order-end-step-drains-above-davros)
+- **valeyard:** The Valeyard doubles every villainous choice. (The Valeyard) *fact · verified* — [davros-05](../interactions/davros-dalek-creator.md#davros-05-the-valeyard-doubles-every-villainous-choice)
+- **battlecruiser:** Entropic Battlecruiser at station 1+ makes each discard cost 3 life. (Entropic Battlecruiser) *fact · verified* — [davros-06](../interactions/davros-dalek-creator.md#davros-06-entropic-battlecruiser-at-station-1-punishes-discards)
+- **raptor:** Labyrinth Raptor punishes blocks on menace Daleks. (Labyrinth Raptor) *fact · verified* — [davros-08](../interactions/davros-dalek-creator.md#davros-08-labyrinth-raptor-and-menace-daleks)
 
 ## Tutors and recursion
 
@@ -73,8 +73,8 @@
 
 ## Failure modes
 
-- **threshold-missed:** No opponent at 3 life lost this turn: the trigger does nothing. Mitigations: Fixed 3-life enablers. *strategic_judgment · high* — [davros-01](../interactions/davros-dalek-creator.md#davros-01)
-- **opponents-choose:** Opponents pick the cheaper branch every time. Mitigations: Discard punishers make both branches cost something. *strategic_judgment · moderate* — [davros-02](../interactions/davros-dalek-creator.md#davros-02)
+- **threshold-missed:** No opponent at 3 life lost this turn: the trigger does nothing. Mitigations: Fixed 3-life enablers. *strategic_judgment · high* — [davros-01](../interactions/davros-dalek-creator.md#davros-01-the-3-life-check-is-on-resolution-not-an-intervening-if)
+- **opponents-choose:** Opponents pick the cheaper branch every time. Mitigations: Discard punishers make both branches cost something. *strategic_judgment · moderate* — [davros-02](../interactions/davros-dalek-creator.md#davros-02-villainous-choices-resolve-player-by-player)
 - **slow-clock:** Value without a kill: games go long. Mitigations: Torment of Hailfire; Labyrinth Raptor. *strategic_judgment · moderate* — [Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md)
 
 ## Identity core
@@ -82,8 +82,8 @@
 - **Davros, Dalek Creator:** Dalek and villainous choice every end step. *fact · verified* — `oracle:Davros, Dalek Creator`
 - **Maestros Charm:** Instant 3 life from every opponent: turns Davros on for the full table. *strategic_judgment · high* — [Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md)
 - **Court of Ambition:** Upkeep 3-life-or-discard for each opponent; both branches feed Davros. *strategic_judgment · high* — [Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md)
-- **Entropic Battlecruiser:** Converts discard choices into 3-life losses. *strategic_judgment · high* — [davros-06](../interactions/davros-dalek-creator.md#davros-06)
-- **The Valeyard:** Doubles every villainous choice. *strategic_judgment · moderate* — [davros-05](../interactions/davros-dalek-creator.md#davros-05)
+- **Entropic Battlecruiser:** Converts discard choices into 3-life losses. *strategic_judgment · high* — [davros-06](../interactions/davros-dalek-creator.md#davros-06-entropic-battlecruiser-at-station-1-punishes-discards)
+- **The Valeyard:** Doubles every villainous choice. *strategic_judgment · moderate* — [davros-05](../interactions/davros-dalek-creator.md#davros-05-the-valeyard-doubles-every-villainous-choice)
 
 ## Anti-goals and thematic constraints
 
