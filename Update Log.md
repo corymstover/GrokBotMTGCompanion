@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 57.3 (M3: paired champion-vs-challenger tests)](#2026-10-16--bot-cycle-573-m3-paired-champion-vs-challenger-tests)
 - [2026-10-16 — Bot cycle 57.2 (M3: goldfish simulator core)](#2026-10-16--bot-cycle-572-m3-goldfish-simulator-core)
 - [2026-10-16 — Bot cycle 57.1 (M3: evidence layer)](#2026-10-16--bot-cycle-571-m3-evidence-layer)
 - [2026-10-16 — Bot cycle 55 (M2: commander blueprints, batch 4; Norman Osborn registry id)](#2026-10-16--bot-cycle-55-m2-commander-blueprints-batch-4-norman-osborn-registry-id)
@@ -72,6 +73,17 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 57.3 (M3: paired champion-vs-challenger tests)
+- **`scripts/grixis_paired.py`:** aligned libraries; both lists get the same shuffles and mulligan reshuffles on identical seeds.
+  - The metrics and thresholds were pre-registered before any run (`PREREG`): primary is mana spent on turns 1–6, threshold 0.25. CI95s come from the per-game differences; the verdict rule is fixed.
+  - Records validate against `test.schema.json`, with limitations in every record.
+- **6 records** in `data/grixis/tests/`, one per registered GrokBot v1 challenger (Abaddon, Kefka, Nicol Bolas, Norman Osborn, Sol'kanar the Swamp King, The Rani; 2,000 paired games each).
+  - Every primary is `inconclusive`: a detectable curve shift of −0.09 to +0.07 mana, below the threshold.
+  - Every secondary shows no detectable difference.
+  - The goldfish can't see card draw, interaction or commander triggers, which is what these swaps are for. The records are evidence and decide nothing.
+- **Caching and checks:** records are keyed by list hashes + simulator sha + seed + samples + pre-registration. The new `validate_all` step `paired-tests` (23 steps) checks schema, freshness, the verdict rule and an exact re-run. `tests/test_paired.py` adds 6 tests.
+- **Unchanged:** no decklist or interaction file was touched; M2 is still waiting for Cory; Tresserhorn's Lord stays `PENDING_RELEASE`.
 
 ## 2026-10-16 — Bot cycle 57.2 (M3: goldfish simulator core)
 - **`scripts/grixis_sim.py` v1.0:** deterministic goldfish games on the canonical lists. The model:

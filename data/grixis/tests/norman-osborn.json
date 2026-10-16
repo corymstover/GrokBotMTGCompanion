@@ -1,0 +1,139 @@
+{
+ "_doc": "Bot cycle 57.3 (M3): paired goldfish test records; built by scripts/grixis_paired.py; schema test.schema.json.",
+ "records": [
+  {
+   "schema_version": 1,
+   "id": "test:norman-osborn:goldfish:def51ee67c7e35f6",
+   "deck_id": "Norman_Osborn_Green_Goblin",
+   "kind": "goldfish_mc",
+   "baseline_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
+   "challenger_hash": "lh1:f18a9fa5dbf3b029a97ae9aa61501b21e4d4e04c362284dc4e41c567d315c83e",
+   "simulator": {
+    "name": "grixis_sim",
+    "version": "1.0",
+    "model_sha256": "sha256:c78326fdc11a3e11a7a5e113c1e7a1fce6847ca6c046f096de16288d22061362"
+   },
+   "seed": 57,
+   "paired": true,
+   "samples": 2000,
+   "mulligan": "keep 2-5 lands with (lands + mana sources costing <= 2) >= 3; otherwise mulligan; always keep at 5 cards or fewer; bottom (London): excess lands beyond 4 first, then the highest mana value nonlands",
+   "seat": "multiplayer, seat-agnostic (no turn-1 draw skip, CR 103.8c); first mulligan free (CR 103.5c)",
+   "scenario": null,
+   "preregistered": {
+    "metric": "mana_spent_t1_t6",
+    "threshold": 0.25,
+    "registered": "2026-10-16 (Bot cycle 57.3, before any paired run)"
+   },
+   "results": [
+    {
+     "metric": "mana_spent_t1_t6",
+     "baseline": 13.971,
+     "challenger": 14.044,
+     "diff": 0.073,
+     "ci95": [
+      0.05958,
+      0.08642
+     ],
+     "method": "paired goldfish, 2000 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences"
+    },
+    {
+     "metric": "commander_cast_by_t4",
+     "baseline": 0.957,
+     "challenger": 0.957,
+     "diff": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "method": "paired goldfish, 2000 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)"
+    },
+    {
+     "metric": "mana_available_t4",
+     "baseline": 4.518,
+     "challenger": 4.518,
+     "diff": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "method": "paired goldfish, 2000 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)"
+    },
+    {
+     "metric": "win_turn_proxy_by_t8",
+     "baseline": 0.042,
+     "challenger": 0.042,
+     "diff": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "method": "paired goldfish, 2000 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)"
+    },
+    {
+     "metric": "mulligans_neg",
+     "baseline": -1.2975,
+     "challenger": -1.2975,
+     "diff": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "method": "paired goldfish, 2000 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)"
+    },
+    {
+     "metric": "key_access_by_t4:pkg:discard-into-mayhem",
+     "baseline": 0.7785,
+     "challenger": 0.7785,
+     "diff": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "method": "paired goldfish, 2000 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)"
+    },
+    {
+     "metric": "key_access_by_t4:pkg:stack",
+     "baseline": 0.7135,
+     "challenger": 0.714,
+     "diff": 0.0005,
+     "ci95": [
+      -0.00048,
+      0.00148
+     ],
+     "method": "paired goldfish, 2000 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)"
+    },
+    {
+     "metric": "key_access_by_t4:pkg:timing",
+     "baseline": 0.148,
+     "challenger": 0.148,
+     "diff": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "method": "paired goldfish, 2000 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)"
+    },
+    {
+     "metric": "key_access_by_t4:pkg:tutors",
+     "baseline": 0.6525,
+     "challenger": 0.6525,
+     "diff": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "method": "paired goldfish, 2000 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)"
+    }
+   ],
+   "verdict": "inconclusive",
+   "limitations": [
+    "Goldfish: one player, no opponents, no interaction, no combat; results are about the deck's own development, never win rates.",
+    "Not modelled: tutors, card draw and selection beyond the natural draw, treasures, rituals and one-shot mana (Lotus Petal, Mana Vault, Lion's Eye Diamond); a swap whose value is card draw, interaction or a tutor effect is invisible here.",
+    "Conditional fast mana (Chrome Mox, Mox Diamond, Mox Opal, Mox Amber, Springleaf Drum, Paradise Mantle) is treated as unconditional; 'enters tapped unless ...' lands as untapped.",
+    "Combo pieces are 'assembled' when drawn; Commander Spellbook 'requires' conditions and the combo's own mana needs beyond the cards' mana values are ignored.",
+    "Fixed policy: commander first, then mana sources, then highest mana value; keep/bottom rule as recorded in 'mulligan'.",
+    "Challenger chal:norman-osborn:grokbot-v1 (GrokBot challenger (unapproved)); swaps tested: Mystic Remora → Thrill of Possibility."
+   ]
+  }
+ ]
+}
