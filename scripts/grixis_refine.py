@@ -297,7 +297,7 @@ def plan(dids, batch, R, summ, plans, cycle):
         dep = sum(ctx.dependent(c) for c in nl) / len(nl)
         gen = sum(1 for c in nl if not ctx.dependent(c) and freq[c["name"]] >= GENERIC_MIN) / len(nl)
         entry = {"deck": did, "batch": batch, "cycle": cycle, "date": dt.date.today().isoformat(), "swaps": [], "decision": "", "edhrec_pages": ctx.pages}
-        if dep >= CEIL_DEP and gen <= CEIL_GEN:
+        if dep >= CEIL_DEP and gen <= CEIL_GEN and not load_review().get("manual_swaps", {}).get(did):
             entry["decision"] = f"at/near ceiling: commander dependence {dep:.0%} ≥ {CEIL_DEP:.0%} and generic share {gen:.0%} ≤ {CEIL_GEN:.0%}; unchanged"
             plans["decks"][did] = entry
             continue
@@ -331,6 +331,46 @@ def plan(dids, batch, R, summ, plans, cycle):
             adds.append((c, s, h))
         swaps, used, rejected, needs = [], set(), [], []
         rv = load_review()["swaps"]
+        # Bot cycle 41: hand-picked swaps (data/grixis_refine_review.json "manual_swaps") pass the same gates as automatic ones
+        nlnames = {x["name"] for x in nl}
+        for m in load_review().get("manual_swaps", {}).get(did, []):
+            k, _ = R.get(m["cut"]); c, _ = R.get(m["add"])
+            fail = []
+            if not k or k["name"] not in nlnames:
+                fail.append("cut is not a nonland card of the list")
+            if not c:
+                fail.append("add does not resolve on Scryfall")
+            if not fail:
+                if c["name"] in have:
+                    fail.append("add is already in the list")
+                if c.get("legalities", {}).get("commander") != "legal" or not set(c.get("color_identity", [])) <= ci:
+                    fail.append("add is not Commander-legal inside the color identity")
+                if (c.get("game_changer") and not (gcn > 3 and tgt >= 4)) or ev.MLD.search(otext(c)) or ("extra turn" in otext(c).lower() and not xturn):
+                    fail.append("add would raise the bracket (Game Changer / mass land denial / extra turn)")
+                if k["name"] in pieces:
+                    fail.append("cut is a piece of a Commander Spellbook combo in the list")
+                rk = roles(k)
+                cap = k.get("cmc", 0) if rk & INTERACTION else k.get("cmc", 0) + 1
+                if not (rk <= roles(c) and c.get("cmc", 0) <= cap):
+                    fail.append(f"role/MV parity: cut roles {sorted(rk)} MV {k.get('cmc', 0):g}, add roles {sorted(roles(c))} MV {c.get('cmc', 0):g}")
+                ok, reasons = guard(k, c, ctx)
+                if not ok:
+                    fail += reasons
+                h = m["hook"]
+                cmd_txt = " ".join(otext(x) for x in ctx.cmds)
+                if h["commander_text"] not in cmd_txt or h["card_text"] not in (tline(c) + "\n" + otext(c)):
+                    fail.append("quoted Oracle text is not verbatim")
+            if fail:
+                rejected.append({"cut": m["cut"], "add": m["add"], "by": "manual pick, failed gates", "why": "; ".join(fail)})
+                continue
+            used.add(k["name"]); have.add(c["name"])
+            ks, s_ = ctx.syn.get(k["name"]), ctx.syn.get(c["name"])
+            swaps.append({"cut": k["name"], "add": c["name"], "cycle": cycle, "guard": reasons, "review": m["why"], "manual": True,
+                          "roles": sorted(roles(k)) or ["(no key role)"], "add_roles": sorted(roles(c)),
+                          "hook": {"label": m["hook"]["label"], "commander": ctx.cmds[0]["name"], "commander_text": m["hook"]["commander_text"], "card_text": m["hook"]["card_text"]},
+                          "add_edhrec": list(s_) if s_ else None, "cut_edhrec": list(ks) if ks else None,
+                          "cut_freq": freq[k["name"]], "mv": [k.get("cmc", 0), c.get("cmc", 0)]})
+        adds = [x for x in adds if x[0]["name"] not in have]
         for c, s, h in adds:
             if len(swaps) + len(needs) >= MAX_SWAPS:
                 break
@@ -365,7 +405,8 @@ def plan(dids, batch, R, summ, plans, cycle):
             fl, _, _ = ev.bracket_floor(res["cards"], two)
             if not hard(res, pend) and fl <= max(floor_src, tgt) and src_combo_ids <= {co["id"] for co in sb["combos"]}:
                 break
-            swaps.pop()
+            x = swaps.pop()
+            rejected.append({"cut": x["cut"], "add": x["add"], "by": "verification", "why": "dropped: the refined list failed legality, the bracket-floor cap or kept-combo check"})
         entry["swaps"] = swaps
         entry["rejected"] = rejected
         entry["needs_review"] = needs
@@ -456,9 +497,9 @@ def block(did, v, info, m, plans):
         for w in e["swaps"]:
             h = w["hook"]
             why = (f"**{h['label']}**: {h['commander']} reads \"{q(h['commander_text'])}\"; {w['add']} reads \"{q(h['card_text'])}\". "
-                   f"EDHREC: {fmt_syn(w['add_edhrec'])}. Cut: no Oracle hook to the commander, EDHREC {fmt_syn(w['cut_edhrec'])}, "
-                   f"in {w['cut_freq']}/62 Grixis lists (generic). MV {w['mv'][0]:g} → {w['mv'][1]:g}.")
-            L.append(f"| {w['cut']} | **{w['add']}** | {', '.join(w['roles'])} | {why} | {q('; '.join(w.get('guard') or ['(cycle 39 swap, not re-checked)']))}. **Review:** {q(w.get('review') or '—')} |")
+                   f"EDHREC: {fmt_syn(w['add_edhrec'])}. Cut: " + ("" if w.get("manual") else "no Oracle hook to the commander, ") + f"EDHREC {fmt_syn(w['cut_edhrec'])}, "
+                   f"in {w['cut_freq']}/62 Grixis lists" + ("" if w.get("manual") else " (generic)") + f". MV {w['mv'][0]:g} → {w['mv'][1]:g}.")
+            L.append(f"| {w['cut']} | **{w['add']}**{' (hand-picked)' if w.get('manual') else ''} | {', '.join(w['roles'])} | {why} | {q('; '.join(w.get('guard') or ['(cycle 39 swap, not re-checked)']))}. **Review:** {q(w.get('review') or '—')} |")
         res, sb = info["res"], info.get("sb")
         two = sum(1 for co in sb["combos"] if co["infinite"] and len(co["cards"]) == 2) if sb else 0
         fl, gcs, mld = ev.bracket_floor(res["cards"], two)
@@ -611,7 +652,8 @@ def main():
         old = {d: plans["decks"].get(d, {}) for d in dids}
         plan(dids, a.plan, R, summ, plans, a.cycle)
         b = plans["batches"].get(str(a.plan), {})
-        plans["batches"][str(a.plan)] = {"cycle": b.get("cycle", a.cycle), "date": b.get("date", dt.date.today().isoformat()), "decks": dids,
+        plans["batches"][str(a.plan)] = {"cycle": b.get("cycle", a.cycle), "date": b.get("date", dt.date.today().isoformat()),
+                                         "decks": b.get("decks", []) + [d for d in dids if d not in b.get("decks", [])],
                                          **({"rechecked": {"cycle": a.cycle, "date": dt.date.today().isoformat()}} if b and b.get("cycle") != a.cycle else {})}
         for d in dids:
             e = plans["decks"][d]
