@@ -12,12 +12,12 @@
 
 ## Status
 <!-- INTERACTIONS-STATUS:START -->
-**12/62 decks reviewed · 164 rulings (11 uncertain, 11 flags).**
+**22/62 decks reviewed · 273 rulings (7 uncertain, 18 flags).**
 
 | Batch | Status | Decks |
 |---|---|---|
-| A | done (Bot cycle 46) | [abaddon-the-despoiler](abaddon-the-despoiler.md) (28) · [admiral-beckett-brass](admiral-beckett-brass.md) (16) · [admiral-brass-unsinkable](admiral-brass-unsinkable.md) (15) · [anhelo-the-painter](anhelo-the-painter.md) (14) · [ashad-the-lone-cyberman](ashad-the-lone-cyberman.md) (13) · [ashnod-the-uncaring](ashnod-the-uncaring.md) (12) · [belakor-the-dark-master](belakor-the-dark-master.md) (13) · [bjorna-nightfall-alchemist-cecily](bjorna-nightfall-alchemist-cecily.md) (13) · [cormela-glamour-thief](cormela-glamour-thief.md) (10) · [crosis-the-purger](crosis-the-purger.md) (11) · [cult-of-skaro](cult-of-skaro.md) (10) · [davros-dalek-creator](davros-dalek-creator.md) (9) |
-| B | planned | doctor-doom-king-of-latveria · don-andres-the-renegade · dr-eggman · edea-possessed-sorceress · edward-kenway · evelyn-the-covetous · fire-lord-azula · garza-zol-plague-queen · goro-goro-and-satoru · grixistax-october-2026 |
+| A | done (Bot cycle 46) | [abaddon-the-despoiler](abaddon-the-despoiler.md) (28) · [admiral-beckett-brass](admiral-beckett-brass.md) (17) · [admiral-brass-unsinkable](admiral-brass-unsinkable.md) (15) · [anhelo-the-painter](anhelo-the-painter.md) (14) · [ashad-the-lone-cyberman](ashad-the-lone-cyberman.md) (14) · [ashnod-the-uncaring](ashnod-the-uncaring.md) (12) · [belakor-the-dark-master](belakor-the-dark-master.md) (13) · [bjorna-nightfall-alchemist-cecily](bjorna-nightfall-alchemist-cecily.md) (13) · [cormela-glamour-thief](cormela-glamour-thief.md) (10) · [crosis-the-purger](crosis-the-purger.md) (11) · [cult-of-skaro](cult-of-skaro.md) (10) · [davros-dalek-creator](davros-dalek-creator.md) (9) |
+| B | done (Bot cycle 48) | [doctor-doom-king-of-latveria](doctor-doom-king-of-latveria.md) (11) · [don-andres-the-renegade](don-andres-the-renegade.md) (12) · [dr-eggman](dr-eggman.md) (10) · [edea-possessed-sorceress](edea-possessed-sorceress.md) (11) · [edward-kenway](edward-kenway.md) (11) · [evelyn-the-covetous](evelyn-the-covetous.md) (10) · [fire-lord-azula](fire-lord-azula.md) (11) · [garza-zol-plague-queen](garza-zol-plague-queen.md) (11) · [goro-goro-and-satoru](goro-goro-and-satoru.md) (9) · [grixistax-october-2026](grixistax-october-2026.md) (11) |
 | C | planned | gwendlyn-di-corci · inalla-archmage-ritualist · jeleva-nephalias-scourge · kefka-court-mage · kess-dissident-mage · loki-the-deceiver · lord-of-tresserhorn · lord-xander-the-collector · lynde-cheerful-tormentor · mai-and-zuko |
 | D | planned | mairsil-the-pretender · marchesa-dealer-of-death · marchesa-the-black-rose · mishra-artificer-prodigy · mishra-eminent-one · missy · nathan-drake-treasure-hunter · nekusar-the-mindrazer · nicol-bolas-the-ravager · nicol-bolas |
 | E | planned | norman-osborn · obeka-brute-chronologist · obeka-splitter-of-seconds · parnesse-the-subtle-brush · rograkh-son-of-rohgahh-silas-renn · saruman-the-white-hand · sauron-lord-of-the-rings · sauron-the-dark-lord · sedris-the-traitor-king · solkanar-the-swamp-king |
@@ -31,7 +31,7 @@
 2. **Gather facts (authoring dossier).** `python3 scripts/grixis_interactions.py --dossier <slug>` prints:
    - the commander's Oracle text and rulings;
    - every card's current Oracle text;
-   - the Commander Spellbook combos that are still complete in the final list;
+   - the Commander Spellbook combos that are still complete in the final list, with their cached prerequisites and steps (Bot cycle 48);
    - the source's attestation entries for the deck.
 3. **Work through these areas, in order:**
    - the commander's own text and its edge cases;
@@ -50,6 +50,7 @@
    - **CR rule numbers** from the current Comprehensive Rules (effective 2026-09-25).
    - **Verbatim Oracle text** (Scryfall oracle bulk).
    - **Verbatim Scryfall rulings** (rulings bulk).
+   - **Verbatim Commander Spellbook steps or prerequisites** for combo lines (Bot cycle 48). They come from the cached `data/grixis_spellbook_steps.json`, built by `scripts/spellbook_steps.py` from the public API with a retrieval date. Spellbook is community-maintained, so it confirms a combo line's steps but is not an official rules source. Each line's rules points still cite CR, Oracle and rulings.
    
    An interaction with no citation is not allowed.
 5. **Fold in the source, re-verified.**
@@ -58,6 +59,7 @@
    - Where the source is wrong or stale, the entry says so and is flagged `documentation`. Example: Call Forth the Tempest's mana value.
 6. **Mark uncertainty.**
    - Use `uncertain` with a note when the answer depends on table state, an unresolved rules question, or something the cited sources don't settle.
+   - A combo line rebuilt from a source attestation that no cached Spellbook variant confirms stays `uncertain`, with `evidence_class: hypothesis`, until it's Spellbook-confirmed (Bot cycle 48).
    - Never invent a ruling.
 7. **Flag list problems** for later refinement (`flag` status): non-bos, anti-synergies, misunderstood combos, dead cards, dependency risks and documentation errors. **No decklist is changed in phase 2.**
 
@@ -89,10 +91,14 @@ The deck page's **Rules notes** block lists the entries marked `key` as one-line
    "flag": {"kind": "non-bo|anti-synergy|misunderstood-combo|dead-card|dependency-risk|documentation|other", "note": "…"},
    "key": true,
    "cr": ["702.85a"], "oracle": [{"card": "…", "quote": "verbatim"}], "rulings": [{"card": "…", "quote": "verbatim"}],
+   "spellbook": [{"id": "<Spellbook variant id>", "quote": "verbatim step or prerequisite"}],
+   "evidence_class": "optional: fact|derived_metric|heuristic|hypothesis|test_result|strategic_judgment|approved_decision",
    "source": [{"path": "<archived file>", "item": "<attestation interaction name>"} , {"path": "<archived .md>", "quote": "verbatim"}]
  }]
 }
 ```
+
+`spellbook` and `evidence_class` were added in Bot cycle 48. `evidence_class` uses the evidence classes of Cory's authority program (milestone M0). For now it's optional and set only where it adds information. Once M0 is on main, every record gets one: verified rulings `fact`, rebuilt combo lines `hypothesis` until Spellbook-confirmed, strategic calls `strategic_judgment`.
 
 Batches are in `data/grixis_interactions/_batches.json`: A–F, alphabetical by slug, about 10–12 decks each, with status `planned`, `in progress` or `done`.
 
@@ -103,6 +109,8 @@ Batches are in `data/grixis_interactions/_batches.json`: A–F, alphabetical by 
 - every CR rule exists in the cached CR and the CR version matches;
 - every Oracle quote and ruling quote is verbatim (whitespace and curly quotes normalized);
 - every source reference resolves to an archived file and item;
+- every Spellbook citation names a cached variant, and its quote appears verbatim in that variant's steps or prerequisites (normalized);
+- `evidence_class`, if present, is one of the seven classes;
 - every done batch has all its reviews;
 - the rendered pages, deck-page blocks and this status table are current.
 

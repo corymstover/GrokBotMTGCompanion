@@ -1,0 +1,474 @@
+{
+ "schema": 1,
+ "deck_id": "Don_Andres__the_Renegade",
+ "slug": "don-andres-the-renegade",
+ "commanders": [
+  "Don Andres, the Renegade"
+ ],
+ "deck_sha256": "3c5a31e6cf23e2b81d7d4e85d28426231de10d714aae769da886aeff384c7e03",
+ "list_source": "exports/grixis-archidekt/don-andres-the-renegade.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 48,
+ "batch": "B",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
+   "note": "13 interactions, all PASS"
+  }
+ ],
+ "summary": "Don Andres, the Renegade pays off stealing: opponent-owned creatures you control become +2/+2 menace deathtouch Pirates, and casting an opponent-owned noncreature spell makes two tapped Treasures. This review re-verifies the thirteen items of the deck's rules attestation against current CR, Oracle and official rulings.\n\nRules surprise: Dauthi Voidwalker stops opponent-owned creatures from dying, so Thieving Amalgam's drain doesn't trigger while it's out (anti-synergy note, no list change). No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "donandres-01",
+   "category": "commander",
+   "title": "Ownership, not control, decides both of Don's abilities",
+   "cards": [
+    "Don Andres, the Renegade"
+   ],
+   "ruling": "Don's static bonus applies to every creature you control whose card (or token) belongs to someone else. That covers creatures you steal, opponents' creature cards you cast, creatures you reanimate from opponents' graveyards, and opponent-owned cards put directly onto the battlefield under your control. Ownership never changes: the owner is whoever started the game with the card, and the owner of a token is the player who created it. So a stolen opponent token (for example from Coercive Recruiter or Insurrection) gets the bonus too.",
+   "short": "'Don't own' = started in another player's deck, or a token another player created.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "108.3",
+    "111.2",
+    "613.1b"
+   ],
+   "oracle": [
+    {
+     "card": "Don Andres, the Renegade",
+     "quote": "Each creature you control but don't own gets +2/+2, has menace and deathtouch, and is a Pirate in addition to its other types."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Don Andres, the Renegade",
+     "quote": "The player who creates a token is its owner."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
+     "item": "Don Andres controlled-but-not-owned creature static effect"
+    }
+   ]
+  },
+  {
+   "id": "donandres-02",
+   "category": "commander",
+   "title": "The Treasure trigger needs a noncreature spell that someone else owns",
+   "cards": [
+    "Don Andres, the Renegade",
+    "Court of Locthwain",
+    "Praetor's Grasp",
+    "Outrageous Robbery"
+   ],
+   "ruling": "Don triggers when you cast a noncreature spell whose card belongs to another player: an opponent's instant, sorcery, artifact, enchantment or planeswalker cast from exile (Court of Locthwain, Praetor's Grasp, Outrageous Robbery) or from their graveyard. The spell that steals (Praetor's Grasp, Outrageous Robbery) is your own card and doesn't trigger Don. Opponent-owned creature spells don't trigger him either; they get the static bonus once they're on the battlefield.",
+   "short": "Stolen instants/sorceries/artifacts/enchantments trigger; your steal spell and stolen creatures don't.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "108.3",
+    "601.2"
+   ],
+   "oracle": [
+    {
+     "card": "Don Andres, the Renegade",
+     "quote": "Whenever you cast a noncreature spell you don't own, create two tapped Treasure tokens."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
+     "item": "Don Andres noncreature stolen-spell trigger"
+    },
+    {
+     "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
+     "item": "Court of Locthwain stolen-card casting"
+    }
+   ]
+  },
+  {
+   "id": "donandres-03",
+   "category": "zone",
+   "title": "Copies you make are spells you own",
+   "cards": [
+    "Don Andres, the Renegade",
+    "Arcane Heist"
+   ],
+   "ruling": "The owner of a copy of a spell is the player who put it on the stack. A cipher copy of Arcane Heist is therefore yours, and casting it doesn't trigger Don. The opponent's instant or sorcery that Arcane Heist lets you cast from their graveyard is theirs, so that cast does trigger Don. If that spell would go to their graveyard afterwards, Arcane Heist exiles it instead.",
+   "short": "Cipher copy of Arcane Heist: no trigger; the opponent's spell it casts: trigger.",
+   "status": "verified",
+   "cr": [
+    "707.10",
+    "707.12",
+    "702.99a"
+   ],
+   "oracle": [
+    {
+     "card": "Arcane Heist",
+     "quote": "You may cast target instant or sorcery card from an opponent's graveyard without paying its mana cost. If that spell would be put into their graveyard, exile it instead."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Don Andres, the Renegade",
+     "quote": "The owner of a copy of a spell is the player under whose control it was put onto the stack."
+    },
+    {
+     "card": "Arcane Heist",
+     "quote": "The copy of the card with cipher is created in and cast from exile."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
+     "item": "Arcane Heist cipher copies"
+    }
+   ]
+  },
+  {
+   "id": "donandres-04",
+   "category": "zone",
+   "title": "Putting a card onto the battlefield isn't casting it",
+   "cards": [
+    "Don Andres, the Renegade",
+    "Jhoira, Weatherlight Corsair",
+    "Animate Dead",
+    "Reanimate"
+   ],
+   "ruling": "Jhoira puts an opponent's historic permanent card onto the battlefield under your control, and Animate Dead and Reanimate can return an opponent's creature card. None of those is a cast, so a noncreature historic permanent from Jhoira doesn't trigger Don's Treasures. Any creature that arrives this way is still opponent-owned, so it gets +2/+2, menace, deathtouch and the Pirate type.",
+   "short": "Jhoira/Animate Dead/Reanimate: no Treasures, but opponent-owned creatures get the bonus.",
+   "status": "verified",
+   "cr": [
+    "601.2",
+    "108.3"
+   ],
+   "oracle": [
+    {
+     "card": "Jhoira, Weatherlight Corsair",
+     "quote": "You put that card onto the battlefield under your control and lose life equal to that permanent's mana value."
+    },
+    {
+     "card": "Reanimate",
+     "quote": "Put target creature card from a graveyard onto the battlefield under your control."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
+     "item": "Jhoira, Weatherlight Corsair"
+    },
+    {
+     "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
+     "item": "Animate Dead and Reanimate opposing graveyards"
+    }
+   ]
+  },
+  {
+   "id": "donandres-05",
+   "category": "layers",
+   "title": "Manifested opponent cards are 2/2s that get the bonus",
+   "cards": [
+    "Don Andres, the Renegade",
+    "Thieving Amalgam"
+   ],
+   "ruling": "Thieving Amalgam manifests the top card of each opponent's library at their upkeep. The face-down 2/2 is a creature you control and that opponent owns, so with Don out it's a 4/4 menace, deathtouch Pirate. The opponent can't look at the face-down card. It can only be turned face up for its mana cost if it's a creature card.",
+   "short": "Each Amalgam manifest is a 4/4 menace deathtouch Pirate under Don.",
+   "status": "verified",
+   "cr": [
+    "701.40a",
+    "708.2",
+    "613.1"
+   ],
+   "oracle": [
+    {
+     "card": "Thieving Amalgam",
+     "quote": "At the beginning of each opponent's upkeep, you manifest the top card of that player's library."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Thieving Amalgam",
+     "quote": "Your opponents can't look at the card they own that you manifested."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
+     "item": "Thieving Amalgam manifest interaction"
+    }
+   ]
+  },
+  {
+   "id": "donandres-06",
+   "category": "replacement",
+   "title": "Dauthi Voidwalker turns off Thieving Amalgam's drain",
+   "cards": [
+    "Don Andres, the Renegade",
+    "Dauthi Voidwalker",
+    "Thieving Amalgam"
+   ],
+   "ruling": "Dauthi Voidwalker exiles any card that would go to an opponent's graveyard from anywhere. A stolen or manifested creature you control is owned by an opponent, so when it would die it goes to exile with a void counter instead. It never dies, so Thieving Amalgam's 'creature you control but don't own dies' drain doesn't trigger. Tokens still die normally. The upside: the exiled card gets a void counter, so Voidwalker can later play it for free.",
+   "short": "With Voidwalker out, opponent-owned creatures are exiled instead of dying, so Amalgam doesn't drain.",
+   "status": "flag",
+   "flag": {
+    "kind": "anti-synergy",
+    "note": "Pilot note, not a list error: the two cards pull in different directions for opponent-owned nontoken creatures. Voidwalker gives free replays; Amalgam gives the 2-life drain. Choose which one you want before chump-attacking or sacrificing stolen creatures."
+   },
+   "key": true,
+   "cr": [
+    "700.4",
+    "614.6",
+    "400.3"
+   ],
+   "oracle": [
+    {
+     "card": "Dauthi Voidwalker",
+     "quote": "If a card would be put into an opponent's graveyard from anywhere, instead exile it with a void counter on it."
+    },
+    {
+     "card": "Thieving Amalgam",
+     "quote": "Whenever a creature you control but don't own dies, its owner loses 2 life and you gain 2 life."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Dauthi Voidwalker",
+     "quote": "Abilities that would trigger when those creatures die won't trigger."
+    },
+    {
+     "card": "Dauthi Voidwalker",
+     "quote": "Tokens still die while Dauthi Voidwalker is on the battlefield."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "donandres-07",
+   "category": "trigger-order",
+   "title": "Roaming Throne on Pirate doubles the Treasure trigger, not the static",
+   "cards": [
+    "Don Andres, the Renegade",
+    "Roaming Throne"
+   ],
+   "ruling": "Don is a Pirate. With Roaming Throne naming Pirate, his Treasure ability triggers an additional time, so each qualifying spell makes four tapped Treasures. Throne only affects triggered abilities; the +2/+2, menace and deathtouch are static and aren't doubled. Throne doesn't copy the ability, it triggers again.",
+   "short": "Throne (Pirate): four Treasures per stolen noncreature spell; the static isn't doubled.",
+   "status": "verified",
+   "cr": [
+    "603.2",
+    "604.1"
+   ],
+   "oracle": [
+    {
+     "card": "Roaming Throne",
+     "quote": "If a triggered ability of another creature you control of the chosen type triggers, it triggers an additional time."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Roaming Throne",
+     "quote": "Roaming Throne's last ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
+     "item": "Roaming Throne naming Pirate"
+    }
+   ]
+  },
+  {
+   "id": "donandres-08",
+   "category": "pair",
+   "title": "Each Wand of Wonder spell is a separate trigger",
+   "cards": [
+    "Don Andres, the Renegade",
+    "Wand of Wonder"
+   ],
+   "ruling": "Wand of Wonder lets you cast up to X instants and sorceries exiled from opponents' libraries, X from 1 to 3 by the d20 roll. Each is a separate noncreature spell you don't own, so each triggers Don separately.",
+   "status": "verified",
+   "cr": [
+    "601.2"
+   ],
+   "oracle": [
+    {
+     "card": "Wand of Wonder",
+     "quote": "You may cast up to X instant and/or sorcery spells from among cards exiled this way without paying their mana costs."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
+     "item": "Wand of Wonder multi-cast interaction"
+    }
+   ]
+  },
+  {
+   "id": "donandres-09",
+   "category": "pair",
+   "title": "Exiled-face-down theft keeps the owner",
+   "cards": [
+    "Don Andres, the Renegade",
+    "Decadent Dragon // Expensive Taste",
+    "Black Cat, Cunning Thief",
+    "Siphon Insight"
+   ],
+   "ruling": "Expensive Taste, Black Cat and Siphon Insight exile opponents' cards face down for you to play. Exile doesn't change ownership. Noncreature spells cast from them trigger Don, and creature spells cast from them get his bonus. Black Cat's permission lasts as long as the cards stay exiled, and mana of any type can be spent. Normal timing rules still apply.",
+   "status": "verified",
+   "cr": [
+    "108.3",
+    "406.3"
+   ],
+   "oracle": [
+    {
+     "card": "Decadent Dragon // Expensive Taste",
+     "quote": "Exile the top two cards of target opponent's library face down. You may look at and play those cards for as long as they remain exiled."
+    },
+    {
+     "card": "Black Cat, Cunning Thief",
+     "quote": "You may play the exiled cards for as long as they remain exiled."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Black Cat, Cunning Thief",
+     "quote": "You must follow all normal timing rules when playing a land or casting a spell this way."
+    },
+    {
+     "card": "Decadent Dragon // Expensive Taste",
+     "quote": "You must still follow all normal timing rules to play cards exiled with Expensive Taste."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
+     "item": "Decadent Dragon // Expensive Taste"
+    },
+    {
+     "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
+     "item": "Black Cat, Cunning Thief"
+    }
+   ]
+  },
+  {
+   "id": "donandres-10",
+   "category": "pair",
+   "title": "Don makes stolen creatures Pirates for Pirate payoffs",
+   "cards": [
+    "Don Andres, the Renegade",
+    "Admiral Beckett Brass",
+    "Kindred Discovery",
+    "Coercive Recruiter"
+   ],
+   "ruling": "Opponent-owned creatures you control are Pirates while Don is out. They count for Beckett's three-Pirate damage check and for Kindred Discovery naming Pirate, and their arrival triggers Coercive Recruiter. Beckett's check looks back at which Pirates dealt combat damage, so it doesn't matter if Don leaves later in the turn.",
+   "short": "Stolen creatures are Pirates: they count for Beckett, Kindred Discovery and Coercive Recruiter.",
+   "status": "verified",
+   "cr": [
+    "613.1d",
+    "205.3m"
+   ],
+   "oracle": [
+    {
+     "card": "Don Andres, the Renegade",
+     "quote": "Each creature you control but don't own gets +2/+2, has menace and deathtouch, and is a Pirate in addition to its other types."
+    },
+    {
+     "card": "Coercive Recruiter",
+     "quote": "Whenever this creature or another Pirate you control enters, gain control of target creature until end of turn."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Admiral Beckett Brass",
+     "quote": "It doesn't care whether Admiral Beckett Brass was on the battlefield when those Pirates dealt combat damage, whether those creatures are still on the battlefield, or whether they're still Pirates."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
+     "item": "Admiral Beckett Brass and Don's Pirate type"
+    },
+    {
+     "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
+     "item": "Kindred Discovery / Coercive Recruiter Pirate checks"
+    }
+   ]
+  },
+  {
+   "id": "donandres-11",
+   "category": "engine",
+   "title": "Cast-a-spell-you-don't-own payoffs stack with Don",
+   "cards": [
+    "Don Andres, the Renegade",
+    "Gonti, Night Minister",
+    "Tasha, the Witch Queen",
+    "Thieving Varmint"
+   ],
+   "ruling": "Gonti gives a Treasure to any player who casts a spell they don't own, Tasha makes a 3/3 Demon whenever you cast a spell you don't own, and Thieving Varmint's mana can only be spent on such spells. Unlike Don's trigger, Gonti and Tasha also count opponent-owned creature spells. A stolen noncreature spell with all three out makes three Treasures and a Demon.",
+   "short": "Gonti and Tasha also count stolen creature spells; Don only noncreature ones.",
+   "status": "verified",
+   "cr": [
+    "603.2"
+   ],
+   "oracle": [
+    {
+     "card": "Gonti, Night Minister",
+     "quote": "Whenever a player casts a spell they don't own, that player creates a Treasure token."
+    },
+    {
+     "card": "Tasha, the Witch Queen",
+     "quote": "Whenever you cast a spell you don't own, create a 3/3 black Demon creature token."
+    },
+    {
+     "card": "Thieving Varmint",
+     "quote": "Spend this mana only to cast spells you don't own."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Thieving Varmint",
+     "quote": "You may spend the two mana added by the last ability on the same spell you don’t own or on two different spells you don’t own."
+    }
+   ]
+  },
+  {
+   "id": "donandres-12",
+   "category": "zone",
+   "title": "Stolen permanents leave with their owner",
+   "cards": [
+    "Don Andres, the Renegade",
+    "Hostage Taker",
+    "Admiral Beckett Brass"
+   ],
+   "ruling": "If an opponent leaves the game, every object they own leaves too, including creatures you stole (Beckett, Gilded Drake, Hostage Taker casts). If you leave, cards you control from Hostage Taker are exiled. Hostage Taker's exiled card returns at once if Taker leaves before you cast it; once you begin casting it, it's a new object you keep.",
+   "status": "verified",
+   "cr": [
+    "800.4a"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Hostage Taker",
+     "quote": "Once you begin to cast the exiled card, it's considered a new object. You'll control that spell and the permanent that spell becomes even if Hostage Taker leaves the battlefield."
+    },
+    {
+     "card": "Admiral Beckett Brass",
+     "quote": "In a multiplayer game, if a player leaves the game, all cards that player owns leave as well, and any effects that give the player control of permanents immediately end."
+    }
+   ]
+  }
+ ]
+}

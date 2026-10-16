@@ -1,0 +1,461 @@
+{
+ "schema": 1,
+ "deck_id": "Evelyn__the_Covetous",
+ "slug": "evelyn-the-covetous",
+ "commanders": [
+  "Evelyn, the Covetous"
+ ],
+ "deck_sha256": "e230c85b8254f533b0a8d6e2e5699e9eac000010f594a822892c3d74cd76390f",
+ "list_source": "exports/grixis-archidekt/evelyn-the-covetous.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 48,
+ "batch": "B",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/evelyn_the_covetous_2026-10-14/Evelyn_the_Covetous_Rules_Attestation.json",
+   "note": "13 interactions, all PASS"
+  }
+ ],
+ "summary": "Evelyn, the Covetous exiles the top card of each library whenever a Vampire enters, and lets you play one such card each turn. The list is a cEDH-style Grixis shell with Worldgorger Dragon, Thassa's Oracle and Underworld Breach lines. This review re-verifies the thirteen items of the deck's rules attestation, and confirms six combo lines against cached Commander Spellbook steps.\n\nRules surprises:\n- Vexing Bauble counters escaped LED and Lotus Petal casts.\n- The source's Saw in Half caveat uses the pre-2020 commander rule; Evelyn always dies (documentation flag).\n\nNo list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "evelyn-01",
+   "category": "commander",
+   "title": "One play per turn, from any Evelyn's exile",
+   "cards": [
+    "Evelyn, the Covetous"
+   ],
+   "ruling": "Evelyn exiles the top card of each library, yours included, with a collection counter, whenever she or another Vampire enters. Once each turn you may play one of those cards, if an ability you controlled exiled it; you may spend mana as though it were any color. The permission isn't tied to the Evelyn that exiled the card, so a new Evelyn (after a blink or recast) can play cards an earlier one exiled. It's once each turn, not once on your turn, so with flash timing you get a play on each opponent's turn too.",
+   "short": "One collection-counter play per turn (any turn); the permission isn't tied to one Evelyn object.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "400.7",
+    "601.3"
+   ],
+   "oracle": [
+    {
+     "card": "Evelyn, the Covetous",
+     "quote": "Whenever Evelyn or another Vampire you control enters, exile the top card of each player's library with a collection counter on it."
+    },
+    {
+     "card": "Evelyn, the Covetous",
+     "quote": "Once each turn, you may play a card from exile with a collection counter on it if it was exiled by an ability you controlled, and you may spend mana as though it were mana of any color to cast it."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/evelyn_the_covetous_2026-10-14/Evelyn_the_Covetous_Rules_Attestation.json",
+     "item": "Evelyn collection-counter permission across Evelyn objects"
+    }
+   ]
+  },
+  {
+   "id": "evelyn-02",
+   "category": "timing",
+   "title": "Flash enablers use Evelyn on opponents' turns",
+   "cards": [
+    "Evelyn, the Covetous",
+    "Leyline of Anticipation",
+    "Borne Upon a Wind",
+    "Valley Floodcaller"
+   ],
+   "ruling": "Leyline of Anticipation (all spells) and Borne Upon a Wind (all spells, this turn) let you cast an exiled sorcery-speed spell on an opponent's turn, using that turn's Evelyn play. Valley Floodcaller only covers noncreature spells, in any zone. None of them change sorcery-speed activated abilities, and lands still can only be played on your own turn.",
+   "status": "verified",
+   "cr": [
+    "307.1",
+    "305.3",
+    "702.8a"
+   ],
+   "oracle": [
+    {
+     "card": "Leyline of Anticipation",
+     "quote": "You may cast spells as though they had flash."
+    },
+    {
+     "card": "Valley Floodcaller",
+     "quote": "You may cast noncreature spells as though they had flash."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Valley Floodcaller",
+     "quote": "Valley Floodcaller’s second ability applies to noncreature cards in any zone, provided something is allowing you to cast them."
+    },
+    {
+     "card": "Borne Upon a Wind",
+     "quote": "This applies only to casting spells. It does not, for example, change when you can activate abilities that can be activated \"only as a sorcery.\""
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/evelyn_the_covetous_2026-10-14/Evelyn_the_Covetous_Rules_Attestation.json",
+     "item": "Leyline of Anticipation with Evelyn once-each-turn permission"
+    },
+    {
+     "path": "refinement/verification/evelyn_the_covetous_2026-10-14/Evelyn_the_Covetous_Rules_Attestation.json",
+     "item": "Borne Upon a Wind and Valley Floodcaller timing"
+    }
+   ]
+  },
+  {
+   "id": "evelyn-03",
+   "category": "combo",
+   "title": "Worldgorger Dragon + Animate Dead / Dance of the Dead / Necromancy",
+   "cards": [
+    "Evelyn, the Covetous",
+    "Worldgorger Dragon",
+    "Animate Dead",
+    "Dance of the Dead",
+    "Necromancy"
+   ],
+   "ruling": "Reanimate Worldgorger with one of the three Auras. Its enters trigger exiles all your other permanents, including the Aura. The Aura leaving makes you sacrifice the Dragon, whose leaves trigger returns everything, and the returning Aura reanimates the Dragon again. Tap your lands for mana each iteration while holding priority: unbounded mana of any colors your lands make.",
+   "short": "Each loop returns your lands untapped: tap them each iteration for unbounded mana.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.6c",
+    "603.10a",
+    "303.4a"
+   ],
+   "oracle": [
+    {
+     "card": "Worldgorger Dragon",
+     "quote": "When this creature enters, exile all other permanents you control."
+    },
+    {
+     "card": "Worldgorger Dragon",
+     "quote": "When this creature leaves the battlefield, return the exiled cards to the battlefield under their owners' control."
+    }
+   ],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "4812-4846",
+     "quote": "Worldgorger Dragon enters the battlefield, exiling all other permanents you control."
+    },
+    {
+     "id": "4812-4846",
+     "quote": "Holding priority, activate all lands you control by tapping those, adding manas of any colors those lands can produce."
+    },
+    {
+     "id": "3605-4846",
+     "quote": "Dance of the Dead triggers, sacrificing Worldgorger Dragon."
+    },
+    {
+     "id": "2896-4846",
+     "quote": "Cast Necromancy by paying {2}{B}."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/evelyn_the_covetous_2026-10-14/Evelyn_the_Covetous_Rules_Attestation.json",
+     "item": "Worldgorger reanimation loop"
+    }
+   ]
+  },
+  {
+   "id": "evelyn-04",
+   "category": "dependency",
+   "title": "The Worldgorger loop is mandatory: have a way out",
+   "cards": [
+    "Evelyn, the Covetous",
+    "Worldgorger Dragon",
+    "Animate Dead"
+   ],
+   "ruling": "Every step of the loop is mandatory. If nothing can stop it, the game is a draw. The returning Aura doesn't target: whoever controls it picks any creature card in any graveyard to enchant, opponents' included. So any other creature card in any graveyard breaks the loop. Getting the Dragon off the battlefield in response to its enters trigger also ends the loop, but its leaves trigger then returns nothing and your other permanents stay exiled for good. Check for an exit before you start.",
+   "short": "Unbreakable Worldgorger loop = draw. Another creature card in any graveyard is the standard exit.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "104.4b",
+    "303.4f"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Worldgorger Dragon",
+     "quote": "If an Aura is exiled with Worldgorger Dragon and then returns to the battlefield, the player who controls the Aura as it enters the battlefield chooses what it will enchant."
+    },
+    {
+     "card": "Worldgorger Dragon",
+     "quote": "If Worldgorger Dragon leaves the battlefield before its enters-the-battlefield ability resolves, the \"leaves-the-battlefield\" ability will trigger and resolve first."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/evelyn_the_covetous_2026-10-14/Evelyn_the_Covetous_Rules_Attestation.json",
+     "item": "Mandatory Worldgorger loop safety condition"
+    }
+   ]
+  },
+  {
+   "id": "evelyn-05",
+   "category": "combo",
+   "title": "Worldgorger + Evelyn → Thassa's Oracle",
+   "cards": [
+    "Evelyn, the Covetous",
+    "Worldgorger Dragon",
+    "Thassa's Oracle"
+   ],
+   "ruling": "Evelyn is one of the permanents exiled and returned every iteration. Each return is a new Evelyn entering, so she exiles the top card of each library each loop. Loop until your library is exiled, break safely, then use the turn's Evelyn play to cast Thassa's Oracle from exile with any-color mana. With an empty library Oracle wins. This needs the Evelyn play unused that turn.",
+   "short": "Loop Evelyn to exile your library, break, cast Oracle from exile with Evelyn's once-per-turn play.",
+   "status": "uncertain",
+   "uncertainty": "Rebuilt from the source attestation. Spellbook's cached Worldgorger variants confirm the mana loop, but not the Evelyn-to-Oracle endpoint, which is checked only against Oracle and CR.",
+   "key": true,
+   "cr": [
+    "400.7",
+    "603.6a"
+   ],
+   "oracle": [
+    {
+     "card": "Thassa's Oracle",
+     "quote": "If X is greater than or equal to the number of cards in your library, you win the game."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Thassa's Oracle",
+     "quote": "If you have no cards in your library, you win the game."
+    }
+   ],
+   "evidence_class": "hypothesis",
+   "source": [
+    {
+     "path": "refinement/verification/evelyn_the_covetous_2026-10-14/Evelyn_the_Covetous_Rules_Attestation.json",
+     "item": "Worldgorger plus Evelyn repeated ETBs"
+    },
+    {
+     "path": "refinement/verification/evelyn_the_covetous_2026-10-14/Evelyn_the_Covetous_Rules_Attestation.json",
+     "item": "Worldgorger Evelyn endpoint with Thassa's Oracle"
+    }
+   ]
+  },
+  {
+   "id": "evelyn-06",
+   "category": "combo",
+   "title": "Thassa's Oracle + Demonic Consultation or Tainted Pact",
+   "cards": [
+    "Evelyn, the Covetous",
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact"
+   ],
+   "ruling": "Demonic Consultation naming Oracle (with Oracle not in the library) exiles your whole library. Tainted Pact exiles card by card and stops at a duplicate name; this list is 100 distinct names (one Island, one Swamp), so it exiles everything you don't take. Then cast Oracle (or have it on the stack with the tutor in response). Exiling the library isn't a loss until you draw.",
+   "status": "verified",
+   "cr": [
+    "121.4",
+    "608.2"
+   ],
+   "oracle": [
+    {
+     "card": "Tainted Pact",
+     "quote": "Repeat this process until you put a card into your hand or you exile two cards with the same name, whichever comes first."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Demonic Consultation",
+     "quote": "You don't lose the game at that point, but will lose the next time you're instructed to draw a card."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "742-1295",
+     "quote": "Cast Demonic Consultation by paying {B}, naming Thassa's Oracle and thus exiling your library due to you not having a card named Thassa's Oracle in your library."
+    },
+    {
+     "id": "1295-3093",
+     "quote": "No two cards in library share a name."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/evelyn_the_covetous_2026-10-14/Evelyn_the_Covetous_Rules_Attestation.json",
+     "item": "Thassa's Oracle plus Demonic Consultation"
+    },
+    {
+     "path": "refinement/verification/evelyn_the_covetous_2026-10-14/Evelyn_the_Covetous_Rules_Attestation.json",
+     "item": "Thassa's Oracle plus Tainted Pact"
+    }
+   ]
+  },
+  {
+   "id": "evelyn-07",
+   "category": "combo",
+   "title": "Underworld Breach + Lion's Eye Diamond / Lotus Petal + Brain Freeze",
+   "cards": [
+    "Evelyn, the Covetous",
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Brain Freeze"
+   ],
+   "ruling": "With Breach, LED escapes for {0} plus exiling three cards and nets {U}{U}{U}. Each escaped Brain Freeze gets a bigger storm count, milling you for more fuel. Spellbook's LED line needs at least six other cards in hand and/or graveyard to start; the Lotus Petal version needs six (ten if Brain Freeze is in the graveyard). It's not a combo from an empty graveyard.",
+   "status": "verified",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "oracle": [
+    {
+     "card": "Underworld Breach",
+     "quote": "Each nonland card in your graveyard has escape."
+    }
+   ],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "1368-3518-4856",
+     "quote": "You have at least six other cards in hand and/or graveyard."
+    },
+    {
+     "id": "1368-3518-4856",
+     "quote": "Activate Lion's Eye Diamond by discarding your hand and sacrificing it, adding {U}{U}{U}."
+    },
+    {
+     "id": "1368-1414-4856",
+     "quote": "You have at least six other cards in your graveyard, plus an additional four cards if Brain Freeze is in your graveyard."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/evelyn_the_covetous_2026-10-14/Evelyn_the_Covetous_Rules_Attestation.json",
+     "item": "Underworld Breach plus Lion's Eye Diamond plus Brain Freeze"
+    }
+   ]
+  },
+  {
+   "id": "evelyn-08",
+   "category": "pair",
+   "title": "Vexing Bauble counters your own free spells, including escaped LED and Petal",
+   "cards": [
+    "Evelyn, the Covetous",
+    "Vexing Bauble",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Force of Will",
+    "Pact of Negation",
+    "Underworld Breach"
+   ],
+   "ruling": "Vexing Bauble counters any spell cast with no mana spent, yours included: Force of Will's pitch, Pact of Negation, Lotus Petal, LED, and escape casts of LED or Petal through Breach (their escape cost is all exiling, no mana). It doesn't counter a spell where mana was spent on any part of the cost. Sacrifice the Bauble ({1}, tap: draw) before the Breach turn.",
+   "short": "Bauble counters your 0-mana casts too, so it stops the Breach + LED loop. Crack it first.",
+   "status": "flag",
+   "flag": {
+    "kind": "anti-synergy",
+    "note": "Known and accepted by the source; the specific casualty is the Breach + LED/Petal escape loop, which spends no mana on the artifact. Pilot note: sacrifice Vexing Bauble before going off. No list change."
+   },
+   "key": true,
+   "cr": [
+    "601.2h",
+    "702.138a"
+   ],
+   "oracle": [
+    {
+     "card": "Vexing Bauble",
+     "quote": "Whenever a player casts a spell, if no mana was spent to cast it, counter that spell."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Vexing Bauble",
+     "quote": "If a spell is cast with an alternative cost that includes mana (such as flashback), Vexing Bauble's first ability won't trigger and won't counter that spell."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/evelyn_the_covetous_2026-10-14/Evelyn_the_Covetous_Rules_Attestation.json",
+     "item": "Vexing Bauble symmetry"
+    }
+   ]
+  },
+  {
+   "id": "evelyn-09",
+   "category": "zone",
+   "title": "Saw in Half on Evelyn: the commander rule no longer prevents dying",
+   "cards": [
+    "Evelyn, the Covetous",
+    "Saw in Half"
+   ],
+   "ruling": "Saw in Half on Evelyn: she's destroyed and goes to the graveyard, so she dies. Only after that can you move her to the command zone, as a state-based action. Since the 2020 commander-zone change this is no longer a replacement for graveyard or exile, only for hand or library. So the copies are always created. The two legendary Evelyn tokens trigger four times (each sees itself and the other Vampire), then the legend rule removes one; the four triggers still resolve.",
+   "short": "A commander destroyed by Saw in Half always dies, so you always get the tokens: four Evelyn triggers.",
+   "status": "flag",
+   "flag": {
+    "kind": "documentation",
+    "note": "The source attestation's caveat ('If the commander replacement effect moves Evelyn directly to the command zone instead of the graveyard … no copies are created') describes the pre-2020 rule. Under current CR 903.9a the graveyard/exile move is a state-based action after the fact, so Evelyn always dies. No list change; the rest of the source item (four triggers, legend rule) is correct."
+   },
+   "key": true,
+   "cr": [
+    "903.9a",
+    "903.9b",
+    "704.5j",
+    "603.10a"
+   ],
+   "oracle": [
+    {
+     "card": "Saw in Half",
+     "quote": "If that creature dies this way, its controller creates two tokens that are copies of that creature"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Saw in Half",
+     "quote": "Any enters-the-battlefield abilities of the copied creature will trigger when the tokens enter the battlefield."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/evelyn_the_covetous_2026-10-14/Evelyn_the_Covetous_Rules_Attestation.json",
+     "item": "Saw in Half plus Evelyn"
+    }
+   ]
+  },
+  {
+   "id": "evelyn-10",
+   "category": "pair",
+   "title": "Party Thrasher gives Evelyn casts convoke",
+   "cards": [
+    "Evelyn, the Covetous",
+    "Party Thrasher"
+   ],
+   "ruling": "Noncreature spells you cast from exile have convoke, so a noncreature card from Evelyn's exile can be paid partly by tapping creatures. Convoke applies after the total cost is set and doesn't change mana value. If you sacrifice Party Thrasher while casting the spell, it loses convoke.",
+   "status": "verified",
+   "cr": [
+    "702.51a"
+   ],
+   "oracle": [
+    {
+     "card": "Party Thrasher",
+     "quote": "Noncreature spells you cast from exile have convoke."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Party Thrasher",
+     "quote": "If you sacrifice Party Thrasher while casting a noncreature spell from exile (to activate a mana ability, for example), the spell won't have convoke when you pay its costs unless it has convoke some other way."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/evelyn_the_covetous_2026-10-14/Evelyn_the_Covetous_Rules_Attestation.json",
+     "item": "Party Thrasher with Evelyn exile casting"
+    }
+   ]
+  }
+ ]
+}

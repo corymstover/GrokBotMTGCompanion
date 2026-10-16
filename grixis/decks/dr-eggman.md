@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -439,6 +440,16 @@ Archidekt tags: **Villainous Choice / Robots / Artifact Cheat**
 ### Further source evidence (linked, not copied)
 
 - [refinement/tracker_reconciliation/Dr_Eggman_Current_Cycle_Reconciliation_2026-10-14.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/tracker_reconciliation/Dr_Eggman_Current_Cycle_Reconciliation_2026-10-14.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 48 interaction review: **10 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Dr. Eggman — Interaction Review](../interactions/dr-eggman.md).
+
+- **Opponents choose one at a time, in turn order** — Draw, then each opponent chooses and resolves in turn order; later opponents see earlier results. ([eggman-01](../interactions/dr-eggman.md#eggman-01-opponents-choose-one-at-a-time-in-turn-order))
+- **An empty-handed opponent can choose to discard and lose nothing** — Empty-handed opponents pick 'discard' for free; Tinybones then gets nothing. ([eggman-02](../interactions/dr-eggman.md#eggman-02-an-empty-handed-opponent-can-choose-to-discard-and-lose-nothing))
+- **Y'shtola Rhul's extra end step retriggers Eggman** — Y'shtola resolving in the first end step adds an end step; its own later triggers don't add more. ([eggman-06](../interactions/dr-eggman.md#eggman-06-yshtola-rhuls-extra-end-step-retriggers-eggman))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

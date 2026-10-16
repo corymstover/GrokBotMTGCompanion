@@ -20,7 +20,7 @@
    "cycle": 46
   },
   "B": {
-   "status": "planned",
+   "status": "done",
    "decks": [
     "doctor-doom-king-of-latveria",
     "don-andres-the-renegade",
@@ -32,7 +32,8 @@
     "garza-zol-plague-queen",
     "goro-goro-and-satoru",
     "grixistax-october-2026"
-   ]
+   ],
+   "cycle": 48
   },
   "C": {
    "status": "planned",

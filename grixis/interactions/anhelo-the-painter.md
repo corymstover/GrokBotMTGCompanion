@@ -14,7 +14,7 @@ schema: 2
 | | |
 |---|---|
 | Current list | [`exports/grixis-archidekt/anhelo-the-painter.txt`](../../exports/grixis-archidekt/anhelo-the-painter.txt) · SHA-256 `29ad395f939b5b7cbd2f2b72c4a7db6e0fb8c3e6458dec77ebb2dc009696a0a2` |
-| Rulings | **14** (10 verified · 4 uncertain · 0 flags) |
+| Rulings | **14** (13 verified · 1 uncertain · 0 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) (deck #4: RULES PASS) |
 
@@ -35,7 +35,7 @@ schema: 2
 
 Anhelo, the Painter is a spellslinger copy deck. Casualty 2 on the first instant or sorcery each turn adds a copy, and the deck stacks magecraft payoffs and copy combos (Dualcaster + Twinflame, Reiterate loops, Narset's Reversal loops). This review re-verifies the retrospective attestation and the closeout record, and separates cast payoffs from copy payoffs.
 
-No list errors were found. Three Spellbook combos are marked uncertain only because their step text isn't cached.
+No list errors were found. Its three Spellbook combo lines are now confirmed against cached Spellbook steps (Bot cycle 48).
 
 ## Flags and open questions
 
@@ -44,9 +44,6 @@ Input for later refinement. **No decklist was changed in this phase.**
 | # | Status | Interaction | Note |
 |---|---|---|---|
 | [anhelo-02](#anhelo-02-spells-cast-before-anhelo-arrived-still-count-as-first) | ⚠️ uncertain | Spells cast before Anhelo arrived still count as 'first' | No Anhelo ruling addresses spells cast before it entered; inferred from the wording and the Baral and Kari Zev ruling for similar text. Sequence Anhelo before your first spell to be safe. |
-| [anhelo-07](#anhelo-07-narsets-reversal-copy-loops-with-twinning-staff-or-reiterate) | ⚠️ uncertain | Narset's Reversal copy loops (with Twinning Staff or Reiterate) | Spellbook's step text isn't cached. The sequencing above is reconstructed from Oracle text and rulings, not quoted. The rules pieces are verified, but confirm the exact line on commanderspellbook.com before relying on it in a tournament. |
-| [anhelo-10](#anhelo-10-primal-wellspring--frantic-search--reiterate-or-narsets-reversal) | ⚠️ uncertain | Primal Wellspring + Frantic Search (+ Reiterate or Narset's Reversal) | Spellbook marks these near-infinite; the net mana per loop depends on which lands you untap and on cost reducers (Goblin Electromancer, Thunderclap Drake, Amulet). No step text is cached. |
-| [anhelo-11](#anhelo-11-cormela--storm-kiln-artist--twinflame) | ⚠️ uncertain | Cormela + Storm-Kiln Artist + Twinflame | Spellbook step text not cached; the line was not reconstructed. |
 
 ## Commander rules text and edge cases
 
@@ -84,22 +81,19 @@ It's the *first* spell, not the first one you choose: if you cast an instant wit
 
 ### anhelo-07: Narset's Reversal copy loops (with Twinning Staff or Reiterate)
 
-**Status:** ⚠️ uncertain · **Cards:** Anhelo, the Painter, Narset's Reversal, Twinning Staff, Reiterate
+**Status:** ✅ verified · **Cards:** Anhelo, the Painter, Narset's Reversal, Twinning Staff, Reiterate
 
-**Ruling.** Commander Spellbook lists Twinning Staff + Narset's Reversal and Narset's Reversal + Reiterate as infinite magecraft-trigger combos. The rules pieces are verified:
-- A copy of Narset's Reversal can target another Reversal spell or copy on the stack.
-- Reversal returns its target to hand, and a copy returned to hand ceases to exist.
-- With Staff, each copy event makes one more copy.
-
-In the Staff line, each resolving copy creates two new copies while removing one, so the stack never runs out until you stop. Each copy triggers magecraft (Storm-Kiln Treasures, Ral pings, Deekah tokens).
-
-**Uncertain.** Spellbook's step text isn't cached. The sequencing above is reconstructed from Oracle text and rulings, not quoted. The rules pieces are verified, but confirm the exact line on commanderspellbook.com before relying on it in a tournament.
+**Ruling.** Commander Spellbook's steps (cached), each needing another instant or sorcery to start:
+- **Twinning Staff (11-2539):** cast Narset's Reversal targeting that spell, then activate Staff's {7} ability on Reversal, which makes two copies. Each copy of Reversal targets another copy, copying it twice and returning the targeted copy to hand, where it ceases to exist. Every copy triggers magecraft. Total mana {7}{U}{U}. Anhelo's casualty can supply the first copy instead of Staff's activation; that's our addition, not part of Spellbook's line.
+- **Reiterate (11-3368):** Reiterate targets the first spell. Narset's Reversal copies Reiterate and returns the original to hand. Recast Reiterate targeting the copy of Reiterate, and each resolving copy creates a new copy targeting the last. Total mana {1}{U}{U}{R}{R} plus the first spell.
 
 **Citations**
 
 - Oracle, *Narset's Reversal*: “Copy target instant or sorcery spell, then return it to its owner's hand. You may choose new targets for the copy.”
 - Scryfall ruling, *Narset's Reversal*: “If a copy of a spell is returned to its owner’s hand, it’s moved there, then it will cease to exist as a state-based action.”
 - [CR 707.10](#cr-70710), [CR 707.10a](#cr-70710a), [CR 707.10c](#cr-70710c)
+- Commander Spellbook [11-2539](https://commanderspellbook.com/combo/11-2539/) (community-maintained, retrieved 2026-10-16): “Resolve one copy of Narset's Reversal targeting another copy of Narset's Reversal, copying it twice and returning the targeted copy to your hand.”
+- Commander Spellbook [11-3368](https://commanderspellbook.com/combo/11-3368/) (community-maintained, retrieved 2026-10-16): “Resolve the copy of Reiterate, creating a copy of Reiterate targeting the copy of Reiterate.”
 
 ### anhelo-08: Reiterate with buyback plus Jeska's Will or Mana Geyser
 
@@ -131,30 +125,40 @@ In the Staff line, each resolving copy creates two new copies while removing one
 
 ### anhelo-10: Primal Wellspring + Frantic Search (+ Reiterate or Narset's Reversal)
 
-**Status:** ⚠️ uncertain · **Cards:** Anhelo, the Painter, Primal Amulet // Primal Wellspring, Frantic Search, Reiterate, Narset's Reversal
+**Status:** ✅ verified · **Cards:** Anhelo, the Painter, Primal Amulet // Primal Wellspring, Frantic Search, Reiterate, Narset's Reversal
 
-**Ruling.** After Primal Amulet transforms, mana from Primal Wellspring copies the spell it's spent on. Frantic Search untaps three lands, including Wellspring, and the copy untaps three more. Spellbook adds Reiterate or Narset's Reversal to repeat it. You can't use Wellspring mana for the spell that gives Amulet its fourth counter.
+**Ruling.** After Primal Amulet transforms, mana from Primal Wellspring copies the spell it's spent on. Spellbook's line (11-1484-2196, cached):
+1. Tap Wellspring and two other lands for at least {1}{U}{U} and cast Frantic Search. Wellspring copies it.
+2. The copy loots twice and untaps Wellspring and the two lands.
+3. Spend fresh Wellspring mana on Narset's Reversal. Its copy returns the original Reversal, the next copy returns Frantic Search, and so on.
 
-**Uncertain.** Spellbook marks these near-infinite; the net mana per loop depends on which lands you untap and on cost reducers (Goblin Electromancer, Thunderclap Drake, Amulet). No step text is cached.
+The Reiterate version (1484-2196-3368) casts Reiterate with buyback and needs two lands making at least {2}. You can't use Wellspring mana for the spell that gives Amulet its fourth counter.
 
 **Citations**
 
 - Oracle, *Frantic Search*: “Draw two cards, then discard two cards. Untap up to three lands.”
 - Scryfall ruling, *Primal Amulet // Primal Wellspring*: “Notably, you can't use Primal Wellspring to pay for the spell that gives Primal Amulet its fourth counter.”
 - [CR 707.10](#cr-70710)
+- Commander Spellbook [11-1484-2196](https://commanderspellbook.com/combo/11-1484-2196/) (community-maintained, retrieved 2026-10-16): “You control two additional lands that can tap to produce at least {1}{U}.”
+- Commander Spellbook [1484-2196-3368](https://commanderspellbook.com/combo/1484-2196-3368/) (community-maintained, retrieved 2026-10-16): “Cast Reiterate with buyback by paying {4}{R}{R}, targeting Frantic Search, ensuring to use the mana produced by Primal Wellspring.”
 
 ### anhelo-11: Cormela + Storm-Kiln Artist + Twinflame
 
-**Status:** ⚠️ uncertain · **Cards:** Anhelo, the Painter, Cormela, Glamour Thief, Storm-Kiln Artist, Twinflame
+**Status:** ✅ verified · **Cards:** Anhelo, the Painter, Cormela, Glamour Thief, Storm-Kiln Artist, Twinflame
 
-**Ruling.** Commander Spellbook lists Cormela, Storm-Kiln Artist and Twinflame together for infinite instant/sorcery-only mana. All three are in the list. This review doesn't reconstruct the line.
+**Ruling.** Spellbook's line (1235-4867-5195, cached):
+1. Tap Cormela ({1}) for {U}{B}{R} and cast Twinflame ({1}{R}); Storm-Kiln Artist makes a Treasure.
+2. Twinflame makes a hasty token copy of Cormela. The legend rule puts the tapped original into the graveyard, and her death trigger returns Twinflame.
+3. The token taps for more mana, and the Treasure pays the {1}.
 
-**Uncertain.** Spellbook step text not cached; the line was not reconstructed.
+Each loop nets one restricted mana. The tokens are exiled at the next end step.
 
 **Citations**
 
 - Oracle, *Cormela, Glamour Thief*: “{1}, {T}: Add {U}{B}{R}. Spend this mana only to cast instant and/or sorcery spells.”
-- [CR 707.10](#cr-70710)
+- Oracle, *Twinflame*: “For each of them, create a token that's a copy of that creature, except it has haste.”
+- [CR 704.5j](#cr-7045j), [CR 707.10](#cr-70710)
+- Commander Spellbook [1235-4867-5195](https://commanderspellbook.com/combo/1235-4867-5195/) (community-maintained, retrieved 2026-10-16): “Put the tapped Cormela into your graveyard due to the legend rule.”
 
 ## Engines and payoffs
 
@@ -294,6 +298,10 @@ Casualty is a keyword that represents two abilities. The first is a static abili
 #### CR 702.153b
 
 If a spell has multiple instances of casualty, each is paid separately and triggers based on the payments made for it, not any other instance of casualty.
+
+#### CR 704.5j
+
+If two or more legendary permanents with the same name are controlled by the same player, that player chooses one of them, and the rest are put into their owners’ graveyards. This is called the “legend rule.”
 
 #### CR 707.10
 

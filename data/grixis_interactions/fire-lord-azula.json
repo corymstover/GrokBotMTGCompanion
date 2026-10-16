@@ -1,0 +1,440 @@
+{
+ "schema": 1,
+ "deck_id": "Fire_Lord_Azula",
+ "slug": "fire-lord-azula",
+ "commanders": [
+  "Fire Lord Azula"
+ ],
+ "deck_sha256": "e52f1cbbf1b17f3e3cef0ef9d466e93bdf5e85bc4d32ac5f2856b4bd2b36fda4",
+ "list_source": "exports/grixis-archidekt/fire-lord-azula.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 48,
+ "batch": "B",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json",
+   "note": "15 interactions, all PASS (Samut and Final Fortune items refer to cards not in the current list)"
+  }
+ ],
+ "summary": "Fire Lord Azula copies every spell you cast while she's attacking. The list is a cEDH-style turbo shell with Narset's Reversal, Underworld Breach and Thassa's Oracle lines. This review re-verifies the deck's rules attestation and confirms seven combo lines against cached Commander Spellbook steps.\n\nRules surprise: copying a sorcery (Beseech the Mirror, Wheel, Jeska's Will) with Azula needs a flash enabler during combat. The list has five. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "azula-01",
+   "category": "commander",
+   "title": "The copy resolves first, even if the original is countered",
+   "cards": [
+    "Fire Lord Azula"
+   ],
+   "ruling": "Azula's trigger goes on the stack above the spell that caused it. The copy is created when the trigger resolves, so the copy resolves before the original. The trigger and copy still resolve if the original is countered first. The copy isn't cast: it doesn't add to storm or trigger cast abilities.",
+   "short": "Copy resolves above the original; it isn't cast (no storm, no cast triggers).",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "707.10",
+    "603.3"
+   ],
+   "oracle": [
+    {
+     "card": "Fire Lord Azula",
+     "quote": "Whenever you cast a spell while Fire Lord Azula is attacking, copy that spell. You may choose new targets for the copy."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Fire Lord Azula",
+     "quote": "Azula's ability and the copy it creates both resolve before the spell that caused the ability to trigger. They resolve even if the spell is countered before the copy is created."
+    },
+    {
+     "card": "Fire Lord Azula",
+     "quote": "The copy is created on the stack, so it's not \"cast.\" Abilities that trigger when a player casts a spell won't trigger."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json",
+     "item": "Fire Lord Azula copy timing"
+    }
+   ]
+  },
+  {
+   "id": "azula-02",
+   "category": "timing",
+   "title": "'While attacking' means during combat: sorceries need a flash enabler",
+   "cards": [
+    "Fire Lord Azula",
+    "Beseech the Mirror",
+    "Borne Upon a Wind",
+    "Valley Floodcaller",
+    "Quicken",
+    "Emergence Zone"
+   ],
+   "ruling": "Azula is only attacking from declare attackers until combat ends. You can normally only cast instants and flash spells then. To copy a sorcery (Beseech the Mirror, Wheel of Fortune, Jeska's Will) or a non-flash creature, cast Borne Upon a Wind, Quicken (next sorcery only), or use Emergence Zone or Valley Floodcaller (noncreature spells) first. Firebending's {R}{R} lasts until end of combat, so it can pay for those spells.",
+   "short": "Sorceries copied by Azula need Borne Upon a Wind, Quicken, Emergence Zone or Floodcaller.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "506.1",
+    "307.1",
+    "508.1"
+   ],
+   "oracle": [
+    {
+     "card": "Fire Lord Azula",
+     "quote": "Firebending 2 (Whenever this creature attacks, add {R}{R}. This mana lasts until end of combat.)"
+    },
+    {
+     "card": "Quicken",
+     "quote": "The next sorcery spell you cast this turn can be cast as though it had flash."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Fire Lord Azula",
+     "quote": "Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "azula-03",
+   "category": "commander",
+   "title": "Additional costs are paid once, but the copy counts them as paid",
+   "cards": [
+    "Fire Lord Azula",
+    "Big Score",
+    "Demand Answers",
+    "Redirect Lightning"
+   ],
+   "ruling": "You can't pay additional costs for the copy. Effects that depend on an additional cost paid for the original are copied as if it were paid. Big Score (discard one): the original and the copy together draw four and make four Treasures. Demand Answers (sacrifice or discard once): four cards. Redirect Lightning's 5 life or {2} is paid once.",
+   "short": "One discard/sacrifice, two resolutions: Big Score = 4 cards + 4 Treasures.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "707.10",
+    "601.2f"
+   ],
+   "oracle": [
+    {
+     "card": "Big Score",
+     "quote": "As an additional cost to cast this spell, discard a card."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Fire Lord Azula",
+     "quote": "You can't choose to pay any additional costs for a copied spell. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json",
+     "item": "Additional costs on copied spells"
+    },
+    {
+     "path": "refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json",
+     "item": "Big Score with attacking Azula"
+    },
+    {
+     "path": "refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json",
+     "item": "Demand Answers with attacking Azula"
+    }
+   ]
+  },
+  {
+   "id": "azula-04",
+   "category": "pair",
+   "title": "A bargained Beseech the Mirror copy is bargained too",
+   "cards": [
+    "Fire Lord Azula",
+    "Beseech the Mirror"
+   ],
+   "ruling": "Bargain is an optional additional cost. A copy of a bargained spell is bargained, so one sacrifice gives two tutors, and each can cast a mana value 4 or less card free. Beseech is a sorcery, so it needs flash timing while Azula attacks (see azula-02).",
+   "status": "verified",
+   "cr": [
+    "702.166a",
+    "707.10"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Beseech the Mirror",
+     "quote": "If you copy a bargained spell, the copy is also bargained. If a card or token enters the battlefield as a copy of a permanent that's already on the battlefield, the new permanent isn't bargained, even if the original was."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json",
+     "item": "Beseech the Mirror bargain copy"
+    }
+   ]
+  },
+  {
+   "id": "azula-05",
+   "category": "combo",
+   "title": "Azula + Narset's Reversal + Frantic Search",
+   "cards": [
+    "Fire Lord Azula",
+    "Narset's Reversal",
+    "Frantic Search"
+   ],
+   "ruling": "Attack with Azula (firebending {R}{R}). Cast Frantic Search; Azula's copy loots and untaps three lands. Cast Narset's Reversal on the original Frantic Search; Azula copies the Reversal, targeting the original Reversal. The copied Reversal copies the original Reversal and returns it to your hand, and the chain copies Frantic Search again and returns it to your hand. Spellbook rates the result as infinite loot and draw triggers and near-infinite storm, with three lands that make {U}{U}{U}.",
+   "short": "Attacking Azula + Reversal + Frantic Search: loop untaps and returns both spells.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "707.10",
+    "702.40a"
+   ],
+   "oracle": [
+    {
+     "card": "Narset's Reversal",
+     "quote": "Copy target instant or sorcery spell, then return it to its owner's hand. You may choose new targets for the copy."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Narset's Reversal",
+     "quote": "If a copy of a spell is returned to its owner’s hand, it’s moved there, then it will cease to exist as a state-based action."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "11-2196-7089",
+     "quote": "You control up to three lands that can tap to produce at least {U}{U}{U}."
+    },
+    {
+     "id": "11-2196-7089",
+     "quote": "Cast Narset's Reversal by paying {U}{U}, targeting the original Frantic Search spell."
+    },
+    {
+     "id": "11-2196-7089",
+     "quote": "Fire Lord Azula's second ability triggers, copying Narset's Reversal, targeting the original Narset's Reversal."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json",
+     "item": "Azula + Narset's Reversal + Frantic Search loop"
+    }
+   ]
+  },
+  {
+   "id": "azula-06",
+   "category": "combo",
+   "title": "Azula + Underworld Breach + Frantic Search",
+   "cards": [
+    "Fire Lord Azula",
+    "Underworld Breach",
+    "Frantic Search"
+   ],
+   "ruling": "While Azula attacks with Breach out, each Frantic Search (from hand or escaped) is copied. Two Frantic Search resolutions untap six lands for the {2}{U} cost and loot four cards, refilling the graveyard. Prerequisites: three lands that make {1}{U}, and three other cards in the graveyard to escape Frantic Search.",
+   "status": "verified",
+   "cr": [
+    "702.138a"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Frantic Search",
+     "quote": "You choose which lands to untap as the spell resolves. They aren't targeted, and they don't have to be lands that you control."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "1368-2196-7089",
+     "quote": "There are at least three other cards in your graveyard if Frantic Search is in your graveyard."
+    },
+    {
+     "id": "1368-2196-7089",
+     "quote": "Resolve the copy of Frantic Search, causing you to loot twice and untap up to three lands."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json",
+     "item": "Azula + Underworld Breach + Frantic Search"
+    }
+   ]
+  },
+  {
+   "id": "azula-07",
+   "category": "combo",
+   "title": "Breach lines without Azula",
+   "cards": [
+    "Fire Lord Azula",
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze",
+    "Grinding Station",
+    "Wheel of Fortune",
+    "Jeska's Will"
+   ],
+   "ruling": "Breach + LED + Brain Freeze needs six other cards in hand and/or graveyard to start. Breach + Grinding Station needs a mana value 0 artifact: escape it for {0} plus three cards, and its entering untaps the Station. Breach + Wheel of Fortune + Jeska's Will (or LED) needs an opponent with six cards in hand for Jeska's Will mana. Wheel and Jeska's Will are sorceries, cast in a main phase.",
+   "status": "verified",
+   "cr": [
+    "702.138a"
+   ],
+   "oracle": [],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "1368-3518-4856",
+     "quote": "You have at least six other cards in hand and/or graveyard."
+    },
+    {
+     "id": "1368-3698--44",
+     "quote": "Cast the artifact from your graveyard for its escape cost by paying {0} and exiling three cards from your graveyard."
+    },
+    {
+     "id": "1368-1878-2706",
+     "quote": "An opponent has at least six cards in hand."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json",
+     "item": "Underworld Breach + Lion's Eye Diamond + Brain Freeze"
+    }
+   ]
+  },
+  {
+   "id": "azula-08",
+   "category": "combo",
+   "title": "Thassa's Oracle + Consultation / Tainted Pact",
+   "cards": [
+    "Fire Lord Azula",
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact"
+   ],
+   "ruling": "Same compact wins as other Grixis cEDH lists. The list has 100 distinct names, so Tainted Pact can't stop early on a duplicate. Under an attacking Azula, a copied Consultation or Pact resolves first. Name the Oracle and make sure the Oracle trigger resolves after the library is gone.",
+   "status": "verified",
+   "cr": [
+    "121.4"
+   ],
+   "oracle": [],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "742-1295",
+     "quote": "Cast Demonic Consultation by paying {B}, naming Thassa's Oracle and thus exiling your library due to you not having a card named Thassa's Oracle in your library."
+    },
+    {
+     "id": "1295-3093",
+     "quote": "No two cards in library share a name."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json",
+     "item": "Thassa's Oracle + Demonic Consultation"
+    },
+    {
+     "path": "refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json",
+     "item": "Thassa's Oracle + Tainted Pact"
+    }
+   ]
+  },
+  {
+   "id": "azula-09",
+   "category": "pair",
+   "title": "Arena of Glory gives Azula haste",
+   "cards": [
+    "Fire Lord Azula",
+    "Arena of Glory"
+   ],
+   "ruling": "Arena of Glory's exert ability makes {R}{R}. Any of that mana spent on a creature spell gives it haste, so Azula can attack the turn she's cast. It enters tapped unless you already control a Mountain.",
+   "status": "verified",
+   "cr": [
+    "702.10b",
+    "701.43a"
+   ],
+   "oracle": [
+    {
+     "card": "Arena of Glory",
+     "quote": "{R}, {T}, Exert this land: Add {R}{R}. If any of that mana is spent on a creature spell, it gains haste until end of turn."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Arena of Glory",
+     "quote": "You must already control a Mountain as Arena of Glory enters the battlefield for it to enter untapped."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json",
+     "item": "Arena of Glory haste on Azula"
+    }
+   ]
+  },
+  {
+   "id": "azula-10",
+   "category": "zone",
+   "title": "Copied permanent spells become tokens, but aren't 'created'",
+   "cards": [
+    "Fire Lord Azula"
+   ],
+   "ruling": "A copy of a permanent spell becomes a token as it resolves. It isn't 'created', so 'whenever you create a token' effects don't see it. A copy of a legendary permanent hits the legend rule.",
+   "status": "verified",
+   "cr": [
+    "707.10f",
+    "704.5j"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Fire Lord Azula",
+     "quote": "A resolving copy of a permanent spell becomes a token. That token isn't \"created\" and won't interact with abilities that care about tokens being created."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json",
+     "item": "Permanent spell copies"
+    }
+   ]
+  },
+  {
+   "id": "azula-11",
+   "category": "dependency",
+   "title": "Mox Opal metalcraft density",
+   "cards": [
+    "Fire Lord Azula",
+    "Mox Opal"
+   ],
+   "ruling": "Mox Opal needs three artifacts. Counting Oracle type lines in the current list, there are 15 artifact cards including Opal, matching the source, plus Harnfel, Horn of Bounty, the artifact back face of Birgi. That's enough to turn on metalcraft regularly, but not reliably early.",
+   "status": "verified",
+   "cr": [
+    "207.2c"
+   ],
+   "oracle": [
+    {
+     "card": "Mox Opal",
+     "quote": "Metalcraft — {T}: Add one mana of any color. Activate only if you control three or more artifacts."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "derived_metric",
+   "source": [
+    {
+     "path": "refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json",
+     "item": "Mox Opal metalcraft structural support"
+    }
+   ]
+  }
+ ]
+}

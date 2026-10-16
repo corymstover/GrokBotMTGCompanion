@@ -14,7 +14,7 @@ schema: 2
 | | |
 |---|---|
 | Current list | [`exports/grixis-archidekt/ashnod-the-uncaring.txt`](../../exports/grixis-archidekt/ashnod-the-uncaring.txt) · SHA-256 `b96f2d08a8659c3e51611c2203ca4599c4c606f927280f1b7515abb96385ce39` |
-| Rulings | **12** (9 verified · 2 uncertain · 1 flags) |
+| Rulings | **12** (10 verified · 0 uncertain · 2 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) (Ashnod the Uncaring — RULES PASS WITH DOCUMENTATION CORRECTION) · [`Ashnod_Oracle_Correction_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Ashnod_Oracle_Correction_2026-10-14.md) () |
 
@@ -33,7 +33,7 @@ schema: 2
 
 Ashnod the Uncaring copies every non-mana artifact or creature ability that sacrificed a permanent to activate. The source's correction (no once-per-turn limit, tokens count) is re-verified against current Oracle.
 
-The main rules surprise: the Scrap Trawler + Myr Retriever loops need both artifacts sacrificed during a single cost payment. The list is unchanged; one documentation flag records the stale source wording.
+Bot cycle 48: the combo lines are now checked against cached Commander Spellbook steps, which corrected this review's earlier claim that the Scrap Trawler + Myr Retriever loop needs a simultaneous sacrifice (see ashnod-08). The list is unchanged; documentation flags record the stale source wording and the corrected entry.
 
 ## Flags and open questions
 
@@ -42,8 +42,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 | # | Status | Interaction | Note |
 |---|---|---|---|
 | [ashnod-01](#ashnod-01-current-oracle-no-once-per-turn-limit-tokens-count) | 🚩 list flag (documentation) | Current Oracle: no once-per-turn limit, tokens count | The source's older Ashnod notes describe a once-per-turn, nontoken restriction that current Oracle doesn't have. The retrospective and Ashnod_Oracle_Correction_2026-10-14.md already repair it; noted so older source text isn't reused. |
-| [ashnod-08](#ashnod-08-scrap-trawler--myr-retriever-loops-need-a-simultaneous-sacrifice) | ⚠️ uncertain | Scrap Trawler + Myr Retriever loops need a simultaneous sacrifice | The simultaneous-sacrifice sequencing is our reading of the CR (Spellbook step text isn't cached). Sai and Crime Novelist variants follow the same pattern. |
-| [ashnod-09](#ashnod-09-nim-deathmantle-loops-apprentice-urza-farid) | ⚠️ uncertain | Nim Deathmantle loops (Apprentice, Urza, Farid) | The per-loop accounting is reconstructed from Oracle text; Spellbook step text isn't cached. |
+| [ashnod-08](#ashnod-08-scrap-trawler--myr-retriever--altar-or-kci--a-cost-reducer) | 🚩 list flag (documentation) | Scrap Trawler + Myr Retriever + Altar or KCI + a cost reducer | Corrects this review's own batch-A wording (Bot cycle 46), which said the loop needed a simultaneous sacrifice. Spellbook's sequential line, starting with one creature in the graveyard, is simpler and is now the recorded line. No list change. |
 
 ## Commander rules text and edge cases
 
@@ -76,41 +75,43 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ## Combos and engine lines
 
-### ashnod-08: Scrap Trawler + Myr Retriever loops need a simultaneous sacrifice
+### ashnod-08: Scrap Trawler + Myr Retriever + Altar or KCI + a cost reducer
 
-**Status:** ⚠️ uncertain · **Cards:** Ashnod the Uncaring, Scrap Trawler, Myr Retriever, Ashnod's Altar, Krark-Clan Ironworks, Etherium Sculptor, Enthusiastic Mechanaut, Foundry Inspector
+**Status:** 🚩 list flag · **Cards:** Ashnod the Uncaring, Scrap Trawler, Myr Retriever, Ashnod's Altar, Krark-Clan Ironworks, Etherium Sculptor, Enthusiastic Mechanaut, Foundry Inspector
 
-**Ruling.** Spellbook lists Trawler + Retriever + a sacrifice-for-mana outlet (Altar or KCI) + a cost reducer as infinite artifact enters and leaves.
+**Ruling.** Spellbook's line (for example 1020-1976-2034-2866, cached) is *sequential*. It starts with one artifact creature on the battlefield and the other in the graveyard:
+1. Sacrifice Myr Retriever for {C}{C}; its trigger returns Scrap Trawler to hand. Cast Trawler (reduced).
+2. Sacrifice Trawler for {C}{C}; its own death trigger returns Retriever (MV 2 < 3). Cast Retriever (reduced).
 
-The returns only work if both leave together. Retriever returns Trawler, and Trawler's own death trigger returns Retriever (MV 2 < 3). If Retriever dies alone while Trawler is on the battlefield, Trawler can't return it, because its MV isn't lesser.
+With one reducer, the two casts cost 3 and the two sacrifices give 4, so each loop nets {C}. The Sai and Crime Novelist variants replace the reducer with Thopter fodder or {R}.
 
-After each mana ability you activate while holding priority, triggers go on the stack before you can activate the next one. So sacrifice both while paying a single cost, letting both triggers see the other card in the graveyard. With one reducer, recasting both costs 3; the sacrifices give 4.
+Correction: the batch-A version of this entry said both had to be sacrificed during one cost payment. That was wrong. It started from both on the battlefield; Spellbook's starting position avoids that.
 
-**Uncertain.** The simultaneous-sacrifice sequencing is our reading of the CR (Spellbook step text isn't cached). Sai and Crime Novelist variants follow the same pattern.
+**List flag (documentation).** Corrects this review's own batch-A wording (Bot cycle 46), which said the loop needed a simultaneous sacrifice. Spellbook's sequential line, starting with one creature in the graveyard, is simpler and is now the recorded line. No list change.
 
 **Citations**
 
 - Oracle, *Scrap Trawler*: “Whenever this creature dies or another artifact you control is put into a graveyard from the battlefield, return to your hand target artifact card in your graveyard with lesser mana value.”
 - Oracle, *Myr Retriever*: “When this creature dies, return another target artifact card from your graveyard to your hand.”
-- [CR 601.2g](#cr-6012g), [CR 605.3a](#cr-6053a), [CR 117.3c](#cr-1173c), [CR 117.5](#cr-1175), [CR 603.10a](#cr-60310a)
+- [CR 605.1a](#cr-6051a), [CR 603.10a](#cr-60310a), [CR 601.2f](#cr-6012f)
+- Commander Spellbook [1020-1976-2034-2866](https://commanderspellbook.com/combo/1020-1976-2034-2866/) (community-maintained, retrieved 2026-10-16): “When Scrap Trawler dies, it triggers, returning Myr Retriever from your graveyard to your hand.”
+- Commander Spellbook [1020-2034-2866-5346](https://commanderspellbook.com/combo/1020-2034-2866-5346/) (community-maintained, retrieved 2026-10-16): “One of the artifact creatures must be on the battlefield, with the other in your graveyard.”
 
 ### ashnod-09: Nim Deathmantle loops (Apprentice, Urza, Farid)
 
-**Status:** ⚠️ uncertain · **Cards:** Ashnod the Uncaring, Nim Deathmantle, Ashnod's Altar, Marionette Apprentice, Urza, Lord High Artificer, Farid, Enterprising Salvager, Krark-Clan Ironworks
+**Status:** ✅ verified · **Cards:** Ashnod the Uncaring, Nim Deathmantle, Ashnod's Altar, Marionette Apprentice, Urza, Lord High Artificer, Farid, Enterprising Salvager, Krark-Clan Ironworks
 
-**Ruling.** Nim Deathmantle returns a nontoken creature put into your graveyard for {4}.
-- **Marionette Apprentice:** sacrifice it and its Servo to the Altar for {C}{C}{C}{C}, then pay {4} to return it, making a new Servo. Each loop drains through Apprentice.
-- **Urza:** sacrifice Urza and its Construct (after tapping the Construct for {U}) for 4 mana plus {U}, so each loop nets mana.
-- **Farid with KCI:** works the same way using Scrap tokens.
-
-The Altar is a mana ability, so Ashnod doesn't copy it.
-
-**Uncertain.** The per-loop accounting is reconstructed from Oracle text; Spellbook step text isn't cached.
+**Ruling.** Spellbook's lines (cached) all pay {4} to Nim Deathmantle from altar mana. The Altar is a mana ability, so Ashnod doesn't copy it.
+- **Marionette Apprentice (2034-5003-6199):** sacrifice Apprentice ({C}{C}), return it with Deathmantle, sacrifice the Servo from its fabricate ({C}{C}). Each death drains opponents.
+- **Urza (457-2034-5003):** sacrifice Urza and the Construct its enter trigger makes.
+- **Farid with KCI (4659-5003-5272):** sacrifice a nontoken artifact creature, then the Scrap token from Farid, then pay Deathmantle's {4}.
 
 **Citations**
 
 - Oracle, *Nim Deathmantle*: “Whenever a nontoken creature is put into your graveyard from the battlefield, you may pay {4}. If you do, return that card to the battlefield and attach this Equipment to it.”
 - [CR 605.1a](#cr-6051a), [CR 603.10a](#cr-60310a)
+- Commander Spellbook [2034-5003-6199](https://commanderspellbook.com/combo/2034-5003-6199/) (community-maintained, retrieved 2026-10-16): “When Marionette Apprentice dies, Nim Deathmantle triggers, causing you to pay {4} to return Marionette Apprentice from your graveyard to the battlefield and attach Nim Deathmantle to it.”
+- Commander Spellbook [4659-5003-5272](https://commanderspellbook.com/combo/4659-5003-5272/) (community-maintained, retrieved 2026-10-16): “Resolve the Farid trigger, creating a Scrap artifact token.”
 
 ### ashnod-10: Dross Scorpion + Retrofitter Foundry + Altar or KCI
 
@@ -235,21 +236,13 @@ Once activated or triggered, an ability exists on the stack independently of its
 
 Effects can add or remove abilities of objects. An effect that adds an ability will state that the object “gains” or “has” that ability, or similar. An effect that removes an ability will state that the object “loses” that ability.
 
-#### CR 117.3c
-
-If a player has priority when they cast a spell, activate an ability, or take a special action, that player receives priority afterward.
-
-#### CR 117.5
-
-Each time a player would get priority, the game first performs all applicable state-based actions as a single event (see rule 704, “State-Based Actions”), then repeats this process until no state-based actions are performed. Then triggered abilities are put on the stack (see rule 603, “Handling Triggered Abilities”). These steps repeat in order until no further state-based actions are performed and no abilities trigger. Then the player who would have received priority does so.
-
 #### CR 500.7
 
 Some effects can give a player extra turns. They do this by adding the turns directly after the specified turn. If a player is given multiple extra turns, the extra turns are added one at a time. If multiple players are given extra turns, the extra turns are added one at a time, in APNAP order (see rule 101.4). The most recently created turn will be taken first.
 
-#### CR 601.2g
+#### CR 601.2f
 
-If the total cost includes a mana payment, the player then has a chance to activate mana abilities (see rule 605, “Mana Abilities”). Mana abilities must be activated before costs are paid.
+The player determines the total cost of the spell. Usually this is just the mana cost. Some spells have additional or alternative costs. Some effects may increase or reduce the cost to pay, or may provide other alternative costs. Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. The total cost is the mana cost or alternative cost (as determined in rule 601.2b), plus all additional costs and cost increases, and minus all cost reductions. If multiple cost reductions apply, the player may apply them in any order. If the mana component of the …
 
 #### CR 602.2b
 

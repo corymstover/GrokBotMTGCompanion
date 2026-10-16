@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -510,6 +511,17 @@ Verified state at approval:
 - Second serious pass closed with ZERO NEW MATERIAL IMPROVEMENTS
 
 The approved decklist is the exact frozen candidate. No card substitutions or post-approval edits were made.
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 48 interaction review: **11 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Fire Lord Azula — Interaction Review](../interactions/fire-lord-azula.md).
+
+- **The copy resolves first, even if the original is countered** — Copy resolves above the original; it isn't cast (no storm, no cast triggers). ([azula-01](../interactions/fire-lord-azula.md#azula-01-the-copy-resolves-first-even-if-the-original-is-countered))
+- **'While attacking' means during combat: sorceries need a flash enabler** — Sorceries copied by Azula need Borne Upon a Wind, Quicken, Emergence Zone or Floodcaller. ([azula-02](../interactions/fire-lord-azula.md#azula-02-while-attacking-means-during-combat-sorceries-need-a-flash-enabler))
+- **Additional costs are paid once, but the copy counts them as paid** — One discard/sacrifice, two resolutions: Big Score = 4 cards + 4 Treasures. ([azula-03](../interactions/fire-lord-azula.md#azula-03-additional-costs-are-paid-once-but-the-copy-counts-them-as-paid))
+- **Azula + Narset's Reversal + Frantic Search** — Attacking Azula + Reversal + Frantic Search: loop untaps and returns both spells. ([azula-05](../interactions/fire-lord-azula.md#azula-05-azula--narsets-reversal--frantic-search))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

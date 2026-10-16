@@ -165,14 +165,13 @@
     "Worldwalker Helm",
     "Artificer Class"
    ],
-   "ruling": "Commander Spellbook lists this as infinite artifact tokens and blue mana, then Urza's {5} repeatedly exiles and plays the library.\n\n1. Artificer Class level 3 makes an end-step token copy of Worldwalker Helm.\n2. A Helm token can copy itself ({1}{U}, {T}). Each Helm adds a Map token to every artifact-token creation.\n3. Urza taps the new untapped Helm token and the Maps for {U}. With two Helms, each activation makes a new Helm token plus two Maps, enough to pay for the next activation.\n\nAn Ashad casualty copy of Worldwalker Helm is a token Helm too, so Ashad can replace step 1.",
+   "ruling": "Commander Spellbook (66-457-5491, cached) lists this as infinite artifact tokens and blue mana. Its line, with Artificer Class at level 3:\n1. At your end step, the Class makes a token copy of Worldwalker Helm plus a Map.\n2. Urza taps a Helm and a Map for {U}{U}.\n3. A Helm token copies itself ({1}{U}, {T}), creating another Helm token plus a Map *for each Helm you control*.\n4. Urza taps two Maps for {U}{U}. Repeat from step 3.\n\nUrza's {5} then exiles and plays the library.",
    "short": "Spellbook infinite: Helm tokens copy themselves with Urza paying via the tokens and Maps.",
-   "status": "uncertain",
-   "uncertainty": "The line is reconstructed from Oracle text (Spellbook step text isn't cached). The Ashad shortcut in particular is our derivation, not a Spellbook entry.",
+   "status": "verified",
    "key": true,
    "cr": [
-    "111.13",
-    "605.1a"
+    "605.1a",
+    "614.1a"
    ],
    "oracle": [
     {
@@ -193,7 +192,39 @@
      "card": "Worldwalker Helm",
      "quote": "Worldwaker Helm's first ability applies to all kinds of artifact tokens that its controller creates, not just Map tokens."
     }
+   ],
+   "spellbook": [
+    {
+     "id": "66-457-5491",
+     "quote": "Activate a Worldwalker Helm by paying {1}{U} and tapping it, creating a token copy of the Worldwalker Helm token plus a Map token for each Worldwalker Helm you control."
+    }
    ]
+  },
+  {
+   "id": "ashad-14",
+   "category": "combo",
+   "title": "Ashad's casualty copy of Worldwalker Helm as the starting token",
+   "cards": [
+    "Ashad, the Lone Cyberman",
+    "Urza, Lord High Artificer",
+    "Worldwalker Helm"
+   ],
+   "ruling": "Our derivation, not a Spellbook line. Casting Worldwalker Helm as your first nonlegendary artifact spell with casualty gives a token Helm. It isn't 'created', so no Map, but it's an artifact token that Helm's ability can target. With Urza, tap the nontoken Helm and another artifact for {U}{U}, then activate the token Helm. It copies itself and gets two Maps (two Helms on the battlefield), and steps 3–4 of the Spellbook line follow without Artificer Class.",
+   "status": "uncertain",
+   "uncertainty": "Reconstructed from Oracle text and CR 111.13; not a Commander Spellbook variant. It needs a second untapped artifact for the first {U}{U}.",
+   "cr": [
+    "111.13",
+    "608.3f",
+    "702.153a"
+   ],
+   "oracle": [
+    {
+     "card": "Ashad, the Lone Cyberman",
+     "quote": "The first nonlegendary artifact spell you cast each turn has casualty 2."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "hypothesis"
   },
   {
    "id": "ashad-06",

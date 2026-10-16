@@ -53,6 +53,9 @@ CATS = [("commander", "Commander rules text and edge cases"), ("combo", "Combos 
         ("legality", "Legality and project exceptions")]
 CAT_IDS = [c for c, _ in CATS]
 STATUS = {"verified": "✅ verified", "uncertain": "⚠️ uncertain", "flag": "🚩 list flag"}
+SPELLBOOK = ROOT / "data" / "grixis_spellbook_steps.json"
+# Evidence classes (M0 authority foundation). Optional until M0 lands, then required.
+EVIDENCE = {"fact", "derived_metric", "heuristic", "hypothesis", "test_result", "strategic_judgment", "approved_decision"}
 FLAG_KINDS = {"non-bo", "anti-synergy", "misunderstood-combo", "dead-card", "dependency-risk", "documentation", "other"}
 
 
@@ -119,7 +122,11 @@ def dossier(slug, ctx):
     out.append("## COMBOS (Spellbook, source list; [x] = all pieces in final list)")
     for k in combos.get("combos", []):
         ok = all(any(x == y or y.startswith(x + " //") for y in have) for x in k["cards"])
-        out.append(f"  [{'x' if ok else ' '}] {' + '.join(k['cards'])} → {', '.join(k['produces'][:4])}")
+        out.append(f"  [{'x' if ok else ' '}] {k['id']}: {' + '.join(k['cards'])} → {', '.join(k['produces'][:4])}")
+        v = spellbook().get(k["id"], {})
+        if ok and v.get("steps"):
+            out.append("      prereq: " + " | ".join(x for x in (v.get("easy_prerequisites", ""), v.get("notable_prerequisites", "")) if x).replace("\n", " | "))
+            out.append("      steps: " + v["steps"].replace("\n", " | "))
     out.append("")
     out.append("## CARDS")
     for n in sorted(set(main)):
@@ -141,6 +148,17 @@ def dossier(slug, ctx):
                 if x.get("deck_id") == did:
                     out.append(f"  - deck entry: {x}")
     print("\n".join(out))
+
+
+_SB = None
+
+
+def spellbook():
+    """Cached Commander Spellbook variants (data/grixis_spellbook_steps.json), keyed by id."""
+    global _SB
+    if _SB is None:
+        _SB = json.loads(SPELLBOOK.read_text(encoding="utf-8"))["variants"] if SPELLBOOK.exists() else {}
+    return _SB
 
 
 # ---------------------------------------------------------------- validation
@@ -172,7 +190,7 @@ def validate(slug, d, ctx):
             bad.append(f"{i}: flag needs flag.kind in {sorted(FLAG_KINDS)} and flag.note")
         if it.get("status") == "uncertain" and not it.get("uncertainty"):
             bad.append(f"{i}: uncertain needs an `uncertainty` note")
-        if not (it.get("cr") or it.get("oracle") or it.get("rulings")):
+        if not (it.get("cr") or it.get("oracle") or it.get("rulings") or it.get("spellbook")):
             bad.append(f"{i}: no citation (cr / oracle / rulings)")
         for n in it.get("cards", []):
             if n not in have and n not in absent and not any(x.startswith(n + " //") for x in have):
@@ -189,6 +207,14 @@ def validate(slug, d, ctx):
         for q in it.get("rulings", []):
             if not any(norm(q["quote"]) in norm(r["comment"]) for r in ctx.rulings(q["card"])):
                 bad.append(f"{i}: ruling quote not found for {q['card']}: {q['quote'][:60]}")
+        if it.get("evidence_class") is not None and it["evidence_class"] not in EVIDENCE:
+            bad.append(f"{i}: unknown evidence_class {it['evidence_class']}")
+        for q in it.get("spellbook", []):
+            v = spellbook().get(q.get("id"))
+            if not v or not v.get("steps"):
+                bad.append(f"{i}: Spellbook variant {q.get('id')} not cached (run scripts/spellbook_steps.py --ids {q.get('id')})")
+            elif q.get("quote") and norm(q["quote"]) not in norm("\n".join([v.get("steps", ""), v.get("notable_prerequisites", ""), v.get("easy_prerequisites", "")])):
+                bad.append(f"{i}: Spellbook step quote not in {q['id']}: {q['quote'][:60]}")
         for s in it.get("source", []):
             p = ARCH / s["path"]
             if not p.exists():
@@ -250,7 +276,7 @@ def render(slug, d, ctx):
         L += [f"## {t}", ""]
         for x in [y for y in its if y["category"] == cid]:
             L += [f"### {x['id']}: {x['title']}", "",
-                  f"**Status:** {STATUS[x['status']]} · **Cards:** " + ", ".join(x["cards"]), ""]
+                  f"**Status:** {STATUS[x['status']]}" + (f" · **Evidence:** {x['evidence_class']}" if x.get("evidence_class") else "") + " · **Cards:** " + ", ".join(x["cards"]), ""]
             if x.get("question"):
                 L += [f"**Question.** {x['question']}", ""]
             L += [f"**Ruling.** {x['ruling']}", ""]
@@ -265,6 +291,10 @@ def render(slug, d, ctx):
                 cit.append(f"- Scryfall ruling, *{q['card']}*: “{q['quote']}”")
             if x.get("cr"):
                 cit.append("- " + ", ".join(f"[CR {r}](#{crid(r)})" for r in x["cr"]))
+            for q in x.get("spellbook", []):
+                v = spellbook().get(q["id"], {})
+                cit.append(f"- Commander Spellbook [{q['id']}]({v.get('url', 'https://commanderspellbook.com/combo/' + q['id'] + '/')}) (community-maintained, retrieved {v.get('retrieved', '?')})"
+                           + (f": “{q['quote']}”" if q.get("quote") else ""))
             for s in x.get("source", []):
                 cit.append(f"- Source (re-verified): [`{s['path'].rsplit('/', 1)[-1]}`](../source-archive/grixis-commander-encyclopediaGPT/{s['path']})"
                            + (f" → “{s['item']}”" if s.get("item") else "") + (f" → “{s['quote']}”" if s.get("quote") else ""))

@@ -1,0 +1,475 @@
+{
+ "schema": 1,
+ "deck_id": "Garza_Zol__Plague_Queen",
+ "slug": "garza-zol-plague-queen",
+ "commanders": [
+  "Garza Zol, Plague Queen"
+ ],
+ "deck_sha256": "b0dfe1fc5ad19d3d8b3eeb350b1abc42f0de3e32526032a558b5717df32e5fda",
+ "list_source": "exports/grixis-archidekt/garza-zol-plague-queen.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 48,
+ "batch": "B",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
+   "note": "15 interactions, all PASS"
+  }
+ ],
+ "summary": "Garza Zol, Plague Queen is a flying, hasty Voltron commander. She grows when creatures she damaged die and draws when she connects. This review re-verifies the fifteen items of the deck's rules attestation, and confirms the Kediss + Grafted Exoskeleton and Aggravated Assault lines against cached Commander Spellbook steps.\n\nRules surprise: Jeska, Thrice Reborn (in the 99) enters with 0 loyalty and dies if Garza hasn't been cast from the command zone yet. Casting Garza from hand after Command Beacon doesn't count (dependency-risk flag, no list change). No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "garza-01",
+   "category": "commander",
+   "title": "Any damage from Garza counts, and the death can come later",
+   "cards": [
+    "Garza Zol, Plague Queen"
+   ],
+   "ruling": "Garza's counter ability looks for a creature that Garza dealt damage to at any point this turn and that then dies, however it dies. The damage can be combat or noncombat (her Chandra's Ignition or Nova Flame blast, a Thornbite Staff ping). Each such death is a separate trigger and a separate counter.",
+   "status": "verified",
+   "cr": [
+    "120.1",
+    "603.10a",
+    "700.4"
+   ],
+   "oracle": [
+    {
+     "card": "Garza Zol, Plague Queen",
+     "quote": "Whenever a creature dealt damage by Garza Zol this turn dies, put a +1/+1 counter on Garza Zol."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
+     "item": "Garza damage-and-death trigger scope"
+    }
+   ]
+  },
+  {
+   "id": "garza-02",
+   "category": "engine",
+   "title": "Basilisk Collar + Thornbite Staff: a repeatable deathtouch ping",
+   "cards": [
+    "Garza Zol, Plague Queen",
+    "Basilisk Collar",
+    "Thornbite Staff"
+   ],
+   "ruling": "Thornbite Staff gives Garza '{2}, {T}: 1 damage to any target' and untaps her whenever any creature dies. With Basilisk Collar's deathtouch, 1 damage kills any creature that can be damaged. Each kill untaps Garza and gives her a counter, and Collar's lifelink gains 1. Each ping still costs {2}, so it repeats as long as you have mana and targets.",
+   "short": "Deathtouch ping, the death untaps Garza: one kill per {2}.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "702.2b",
+    "704.5h",
+    "702.15b"
+   ],
+   "oracle": [
+    {
+     "card": "Thornbite Staff",
+     "quote": "Equipped creature has \"{2}, {T}: This creature deals 1 damage to any target\" and \"Whenever a creature dies, untap this creature.\""
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
+     "item": "Basilisk Collar plus Thornbite Staff"
+    }
+   ]
+  },
+  {
+   "id": "garza-03",
+   "category": "engine",
+   "title": "Chandra's Ignition and Nova Flame: Garza is the source",
+   "cards": [
+    "Garza Zol, Plague Queen",
+    "Chandra's Ignition",
+    "Nova Flame",
+    "Basilisk Collar",
+    "Blade of the Bloodchief",
+    "Curiosity"
+   ],
+   "ruling": "Both spells make the targeted creature deal the damage, so Garza is the source. With deathtouch she kills every other creature that can be damaged. Each death gives a Garza counter, and Blade of the Bloodchief adds two more per death because she's a Vampire. Ignition also hits each opponent, so Curiosity draws once per opponent. If Garza is an illegal target on resolution, Ignition does nothing.",
+   "short": "Garza deals the damage: deathtouch wipes the board, each death = 3 counters with Blade.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "120.1",
+    "702.2b",
+    "608.2b"
+   ],
+   "oracle": [
+    {
+     "card": "Chandra's Ignition",
+     "quote": "Target creature you control deals damage equal to its power to each other creature and each opponent."
+    },
+    {
+     "card": "Blade of the Bloodchief",
+     "quote": "If equipped creature is a Vampire, put two +1/+1 counters on it instead."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Chandra's Ignition",
+     "quote": "The creature is the source of the damage, not Chandra's Ignition. For example, Chandra's Ignition can have a white creature deal damage to a creature with protection from red."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
+     "item": "Deathtouch with Chandra's Ignition and Nova Flame"
+    },
+    {
+     "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
+     "item": "Blade of the Bloodchief counter stacking"
+    }
+   ]
+  },
+  {
+   "id": "garza-04",
+   "category": "engine",
+   "title": "Scythe of the Wretched steals everything Garza damaged",
+   "cards": [
+    "Garza Zol, Plague Queen",
+    "Scythe of the Wretched"
+   ],
+   "ruling": "Scythe triggers for each creature equipped Garza damaged this turn that dies, even if something else killed it. It only has to be attached when the creature dies, not when the damage was dealt. Each trigger returns that card under your control and moves Scythe onto it. After an Ignition wipe, Scythe ends up on the last creature returned, so re-equip Garza for {4}.",
+   "status": "verified",
+   "cr": [
+    "603.2",
+    "701.3a"
+   ],
+   "oracle": [
+    {
+     "card": "Scythe of the Wretched",
+     "quote": "Whenever a creature dealt damage by equipped creature this turn dies, return that card to the battlefield under your control. Attach this Equipment to that creature."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Scythe of the Wretched",
+     "quote": "The Scythe's ability triggers even if something other than the damage dealt by the equipped creature causes the creature to be put into a graveyard that turn."
+    },
+    {
+     "card": "Scythe of the Wretched",
+     "quote": "Scythe of the Wretched needs to equip your creature when the other creature goes to the graveyard for the ability to trigger, but it doesn't matter whether the Scythe equipped your creature when the damage was actually dealt."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
+     "item": "Scythe of the Wretched with Garza-sourced mass damage"
+    }
+   ]
+  },
+  {
+   "id": "garza-05",
+   "category": "combo",
+   "title": "Kediss + Grafted Exoskeleton: one hit poisons every opponent",
+   "cards": [
+    "Garza Zol, Plague Queen",
+    "Kediss, Emberclaw Familiar",
+    "Grafted Exoskeleton"
+   ],
+   "ruling": "Garza is 5/5; Exoskeleton makes her 7/7 with infect, so she needs three more power for 10 (counters, Hatred). Her combat damage gives the defending player 10+ poison. Kediss then makes Garza deal that much noncombat damage to each other opponent. That damage also has infect, so each other opponent gets 10+ poison too. Kediss's extra damage isn't combat damage, so it doesn't count as commander damage.",
+   "short": "Infect Garza with power 10+ and Kediss: every opponent gets 10 poison from one hit.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "702.90b",
+    "704.5c",
+    "903.10a"
+   ],
+   "oracle": [
+    {
+     "card": "Kediss, Emberclaw Familiar",
+     "quote": "Whenever a commander you control deals combat damage to an opponent, it deals that much damage to each other opponent."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Grafted Exoskeleton",
+     "quote": "Infect's effect applies to any damage, not just combat damage."
+    },
+    {
+     "card": "Kediss, Emberclaw Familiar",
+     "quote": "The damage the commander deals as a result of Kediss's triggered ability isn't combat damage. It isn't tracked with combat damage dealt by commanders and won't cause Kediss's ability to trigger again."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "2822-3681",
+     "quote": "Your commander has power 10 or greater."
+    },
+    {
+     "id": "2822-3681",
+     "quote": "Kediss triggers, causing your commander to give each other opponent at least ten poison counters due to its infect."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
+     "item": "Kediss secondary damage"
+    },
+    {
+     "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
+     "item": "Grafted Exoskeleton infect multipliers"
+    }
+   ]
+  },
+  {
+   "id": "garza-06",
+   "category": "dependency",
+   "title": "Grafted Exoskeleton: unattaching it sacrifices Garza",
+   "cards": [
+    "Garza Zol, Plague Queen",
+    "Grafted Exoskeleton",
+    "Slip Out the Back"
+   ],
+   "ruling": "If Exoskeleton becomes unattached for any reason (moved by its own equip, removed, or Garza stops being a creature), you sacrifice Garza. Re-equipping it to another creature sacrifices Garza. Phasing out with Slip Out the Back is safe: attached Equipment phases out with her and stays attached.",
+   "status": "verified",
+   "cr": [
+    "702.26g",
+    "701.3a"
+   ],
+   "oracle": [
+    {
+     "card": "Grafted Exoskeleton",
+     "quote": "Whenever this Equipment becomes unattached from a permanent, sacrifice that permanent."
+    },
+    {
+     "card": "Slip Out the Back",
+     "quote": "Put a +1/+1 counter on target creature. It phases out."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
+     "item": "Slip Out the Back and attached permanents"
+    }
+   ]
+  },
+  {
+   "id": "garza-07",
+   "category": "replacement",
+   "title": "Damage multipliers for commander damage and poison",
+   "cards": [
+    "Garza Zol, Plague Queen",
+    "Hatred",
+    "Jeska, Thrice Reborn",
+    "Inquisitor's Flail",
+    "Psychotic Fury"
+   ],
+   "ruling": "Commander damage is lethal at 21 from one commander. Hatred: pay 16 life for +16/+0 on a 5-power Garza = 21. The life is paid as a cost, so it's lost if Hatred is countered. Jeska's 0 triples Garza's combat damage to an opponent: 7 power (with Exoskeleton) = 21 damage or 21 poison. Two Jeska activations multiply by nine. Inquisitor's Flail doubles it. Psychotic Fury gives the multicolored Garza double strike, two hits.",
+   "status": "verified",
+   "cr": [
+    "903.10a",
+    "614.1a",
+    "702.4b"
+   ],
+   "oracle": [
+    {
+     "card": "Jeska, Thrice Reborn",
+     "quote": "Until your next turn, if that creature would deal combat damage to one of your opponents, it deals triple that damage to that player instead."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Hatred",
+     "quote": "The life payment is part of the cost to cast Hatred, so it is lost if this spell is countered."
+    },
+    {
+     "card": "Inquisitor's Flail",
+     "quote": "If a creature is equipped with a second Inquisitor’s Flail, combat damage dealt by and dealt to that creature will be multiplied by four."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
+     "item": "Hatred commander-damage threshold"
+    },
+    {
+     "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
+     "item": "Jeska commander-damage threshold"
+    },
+    {
+     "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
+     "item": "Grafted Exoskeleton infect multipliers"
+    }
+   ]
+  },
+  {
+   "id": "garza-08",
+   "category": "dependency",
+   "title": "Jeska needs Garza cast from the command zone first",
+   "cards": [
+    "Garza Zol, Plague Queen",
+    "Jeska, Thrice Reborn",
+    "Command Beacon"
+   ],
+   "ruling": "Jeska enters with one loyalty counter for each time you've cast a commander from the command zone this game. If you've never cast Garza from the command zone, she enters with 0 loyalty and goes to the graveyard as a state-based action before you can use her 0. Casting Garza from hand after Command Beacon doesn't count. Command Beacon avoids commander tax because that cast isn't from the command zone.",
+   "short": "No command-zone casts yet = Jeska dies on entry. Beacon casts don't count.",
+   "status": "flag",
+   "flag": {
+    "kind": "dependency-risk",
+    "note": "Edge case, not a list error: Jeska is a planeswalker in the 99 here, not a partner commander, so her loyalty depends on how many times Garza was cast from the command zone. Cast Garza normally at least once before deploying Jeska."
+   },
+   "key": true,
+   "cr": [
+    "704.5i",
+    "903.8"
+   ],
+   "oracle": [
+    {
+     "card": "Jeska, Thrice Reborn",
+     "quote": "Jeska enters with a loyalty counter on her for each time you've cast a commander from the command zone this game."
+    },
+    {
+     "card": "Command Beacon",
+     "quote": "{T}, Sacrifice this land: Put your commander into your hand from the command zone."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
+     "item": "Command Beacon commander-tax mitigation"
+    }
+   ]
+  },
+  {
+   "id": "garza-09",
+   "category": "combo",
+   "title": "Sword of Feast and Famine or Reaver Cleaver + Aggravated Assault",
+   "cards": [
+    "Garza Zol, Plague Queen",
+    "Sword of Feast and Famine",
+    "The Reaver Cleaver",
+    "Aggravated Assault"
+   ],
+   "ruling": "Each connecting hit with Sword of Feast and Famine untaps your lands; in the postcombat main phase pay {3}{R}{R} for Aggravated Assault (untap creatures, another combat and main phase), and repeat. Reaver Cleaver works the same way: power 5+ means at least six Treasures per hit. Aggravated Assault is sorcery speed, so activate it in the postcombat main phase. Garza has flying and haste, which helps her connect.",
+   "status": "verified",
+   "cr": [
+    "500.8",
+    "602.5d"
+   ],
+   "oracle": [
+    {
+     "card": "Aggravated Assault",
+     "quote": "{3}{R}{R}: Untap all creatures you control. After this main phase, there is an additional combat phase followed by an additional main phase. Activate only as a sorcery."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Aggravated Assault",
+     "quote": "You will normally activate this ability during your postcombat main phase so you can untap any creatures that attacked."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "900-3750",
+     "quote": "Sword of Feast and Famine triggers, causing that opponent to discard a card, and you to untap all lands you control."
+    },
+    {
+     "id": "3750-5039",
+     "quote": "The creature triggers, creating at least six Treasure tokens."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
+     "item": "Sword of Feast and Famine plus Aggravated Assault"
+    }
+   ]
+  },
+  {
+   "id": "garza-10",
+   "category": "engine",
+   "title": "Robe of the Archmagi and Curiosity draws",
+   "cards": [
+    "Garza Zol, Plague Queen",
+    "Robe of the Archmagi",
+    "Curiosity",
+    "Kediss, Emberclaw Familiar"
+   ],
+   "ruling": "Robe draws cards equal to Garza's combat damage to a player, and Garza's own trigger may draw one more (six cards from a base 5-power hit). Curiosity triggers on any damage to an opponent, so it also draws for Kediss's damage and Chandra's Ignition, once per opponent.",
+   "status": "verified",
+   "cr": [
+    "120.1",
+    "603.2"
+   ],
+   "oracle": [
+    {
+     "card": "Robe of the Archmagi",
+     "quote": "Whenever equipped creature deals combat damage to a player, you draw that many cards."
+    },
+    {
+     "card": "Garza Zol, Plague Queen",
+     "quote": "Whenever Garza Zol deals combat damage to a player, you may draw a card."
+    },
+    {
+     "card": "Curiosity",
+     "quote": "Whenever enchanted creature deals damage to an opponent, you may draw a card."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
+     "item": "Robe of the Archmagi plus Garza combat trigger"
+    },
+    {
+     "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
+     "item": "Curiosity retained over redundant combat-only draw"
+    }
+   ]
+  },
+  {
+   "id": "garza-11",
+   "category": "zone",
+   "title": "The Ozolith keeps Garza's counters",
+   "cards": [
+    "Garza Zol, Plague Queen",
+    "The Ozolith"
+   ],
+   "ruling": "When Garza leaves with counters, wherever she goes (the command zone included), The Ozolith gets the same counters, using her last-known information. At your beginning of combat you may move all of them (not some) to a target creature, such as the recast Garza. If that target is illegal, the counters stay.",
+   "status": "verified",
+   "cr": [
+    "603.10a",
+    "903.9a"
+   ],
+   "oracle": [
+    {
+     "card": "The Ozolith",
+     "quote": "Whenever a creature you control leaves the battlefield, if it had counters on it, put those counters on The Ozolith."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "The Ozolith",
+     "quote": "You can't move only some of the counters from The Ozolith onto the target creature."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json",
+     "item": "The Ozolith and commander zone changes"
+    }
+   ]
+  }
+ ]
+}
