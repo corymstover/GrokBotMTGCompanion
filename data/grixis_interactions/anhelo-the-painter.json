@@ -1,0 +1,458 @@
+{
+ "schema": 1,
+ "deck_id": "Anhelo__the_Painter",
+ "slug": "anhelo-the-painter",
+ "commanders": [
+  "Anhelo, the Painter"
+ ],
+ "deck_sha256": "29ad395f939b5b7cbd2f2b72c4a7db6e0fb8c3e6458dec77ebb2dc009696a0a2",
+ "list_source": "exports/grixis-archidekt/anhelo-the-painter.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 46,
+ "batch": "A",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+   "note": "deck #4: RULES PASS"
+  }
+ ],
+ "summary": "Anhelo, the Painter is a spellslinger copy deck. Casualty 2 on the first instant or sorcery each turn adds a copy, and the deck stacks magecraft payoffs and copy combos (Dualcaster + Twinflame, Reiterate loops, Narset's Reversal loops). This review re-verifies the retrospective attestation and the closeout record, and separates cast payoffs from copy payoffs.\n\nNo list errors were found. Three Spellbook combos are marked uncertain only because their step text isn't cached.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "anhelo-01",
+   "category": "commander",
+   "title": "Casualty 2 on your first instant or sorcery each turn",
+   "cards": [
+    "Anhelo, the Painter"
+   ],
+   "ruling": "The first instant or sorcery spell you cast each turn, on any player's turn, has casualty 2. As you cast it you may sacrifice a creature with power 2 or greater. The sacrifice is part of the cost, so it can't be responded to. Then a 'when you cast' trigger copies the spell, and you may choose new targets. The copy resolves before the original. Only one creature, and only one copy, per casualty instance.\n\nIt's the *first* spell, not the first one you choose: if you cast an instant without sacrificing, later spells that turn don't get casualty. Anhelo has deathtouch, which matters for blocking, not for the spell.",
+   "short": "First instant/sorcery each turn: optionally sacrifice a power-2+ creature to copy it.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "702.153a",
+    "601.2f",
+    "707.10"
+   ],
+   "oracle": [
+    {
+     "card": "Anhelo, the Painter",
+     "quote": "The first instant or sorcery spell you cast each turn has casualty 2."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Anhelo, the Painter",
+     "quote": "You may sacrifice only one creature to pay a spell's casualty cost, and you copy the spell only once."
+    },
+    {
+     "card": "Anhelo, the Painter",
+     "quote": "If you pay the casualty cost of a spell, the copy will resolve before the original spell."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "Casualty is paid while casting by sacrificing a creature with the required power"
+    }
+   ]
+  },
+  {
+   "id": "anhelo-02",
+   "category": "commander",
+   "title": "Spells cast before Anhelo arrived still count as 'first'",
+   "cards": [
+    "Anhelo, the Painter"
+   ],
+   "ruling": "Anhelo's text counts the first instant or sorcery you cast that turn, apparently including one cast before Anhelo was on the battlefield. So casting a ritual, then Anhelo, then a spell gives that spell no casualty. The closest official analogue is the Baral and Kari Zev ruling for a 'first instant or sorcery spell each turn' trigger. There's no Anhelo-specific ruling.",
+   "status": "uncertain",
+   "uncertainty": "No Anhelo ruling addresses spells cast before it entered; inferred from the wording and the Baral and Kari Zev ruling for similar text. Sequence Anhelo before your first spell to be safe.",
+   "cr": [
+    "702.153a"
+   ],
+   "oracle": [
+    {
+     "card": "Anhelo, the Painter",
+     "quote": "The first instant or sorcery spell you cast each turn has casualty 2."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Baral and Kari Zev",
+     "quote": "Baral and Kari Zev will count any instant or sorcery spell you cast during a turn, even if it wasn't on the battlefield at the time."
+    }
+   ]
+  },
+  {
+   "id": "anhelo-03",
+   "category": "pair",
+   "title": "Casualty stacks with A Little Chat's own casualty",
+   "cards": [
+    "Anhelo, the Painter",
+    "A Little Chat"
+   ],
+   "ruling": "If A Little Chat is your first instant, it has casualty 1 and Anhelo's casualty 2. Each instance is paid separately with its own creature and makes its own copy, so up to two copies.",
+   "status": "verified",
+   "cr": [
+    "702.153b"
+   ],
+   "oracle": [
+    {
+     "card": "A Little Chat",
+     "quote": "Casualty 1 (As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell.)"
+    }
+   ],
+   "rulings": []
+  },
+  {
+   "id": "anhelo-04",
+   "category": "engine",
+   "title": "Copy payoffs versus cast payoffs",
+   "cards": [
+    "Anhelo, the Painter",
+    "Archmage Emeritus",
+    "Deekah, Fractal Theorist",
+    "Storm-Kiln Artist",
+    "Ral, Storm Conduit",
+    "Veyran, Voice of Duality",
+    "Talrand, Sky Summoner",
+    "Judith, Carnage Connoisseur",
+    "Poppet Stitcher // Poppet Factory",
+    "Primal Amulet // Primal Wellspring",
+    "Cryptic Pursuit"
+   ],
+   "ruling": "Casualty, Reiterate, Narset's Reversal, Dualcaster, Galvanic Iteration and Twinning Staff copies aren't cast.\n- **Trigger on copies (magecraft, 'cast or copy'):** Archmage Emeritus, Deekah, Storm-Kiln Artist, Ral, Storm Conduit, Veyran.\n- **Trigger on casting only:** Talrand, Judith, Poppet Stitcher, Primal Amulet's counter, Baral and Kari Zev.\n- **Cryptic Pursuit** needs a spell cast from your *hand*, so graveyard casts (Kess, Maestros Ascendancy, Underworld Breach, flashback) don't trigger it either.",
+   "short": "Copies trigger magecraft ('cast or copy') but not 'whenever you cast' cards.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "707.10",
+    "207.2c"
+   ],
+   "oracle": [
+    {
+     "card": "Cryptic Pursuit",
+     "quote": "Whenever you cast an instant or sorcery spell from your hand, manifest the top card of your library."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Anhelo, the Painter",
+     "quote": "The copy of the spell is created on the stack, so it's not “cast.” Abilities that trigger when a player casts a spell won't trigger."
+    },
+    {
+     "card": "Storm-Kiln Artist",
+     "quote": "If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "The casualty-created spell object is a **copy**, not a cast spell."
+    }
+   ]
+  },
+  {
+   "id": "anhelo-05",
+   "category": "trigger-order",
+   "title": "Veyran doubles permanents' triggers, not the casualty copy",
+   "cards": [
+    "Anhelo, the Painter",
+    "Veyran, Voice of Duality"
+   ],
+   "ruling": "Veyran makes each triggered ability *of a permanent you control* that triggers from casting or copying an instant or sorcery trigger an additional time. That includes Veyran's own and other magecraft. Casualty's copy trigger belongs to the spell, not a permanent, so Veyran doesn't double the Anhelo copy. It does double magecraft for both the cast and the copy.",
+   "status": "verified",
+   "cr": [
+    "702.153a",
+    "603.2"
+   ],
+   "oracle": [
+    {
+     "card": "Veyran, Voice of Duality",
+     "quote": "If you casting or copying an instant or sorcery spell causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Veyran, Voice of Duality",
+     "quote": "Veyran, Voice of Duality's last ability causes each of your magecraft abilities, including Veyran's own, to trigger an additional time."
+    }
+   ]
+  },
+  {
+   "id": "anhelo-06",
+   "category": "replacement",
+   "title": "Twinning Staff adds one to every copy event",
+   "cards": [
+    "Anhelo, the Painter",
+    "Twinning Staff"
+   ],
+   "ruling": "Twinning Staff replaces 'copy a spell one or more times' with that many plus one. So Anhelo's casualty, Reiterate, Narset's Reversal, Dualcaster and Galvanic Iteration each make an extra copy. Only the additional copy is guaranteed new targets. Copies keep the original's modes and X. Effects based on additional costs paid for the original (casualty) are copied, but casualty itself isn't re-paid.",
+   "status": "verified",
+   "cr": [
+    "614.1a",
+    "707.10"
+   ],
+   "oracle": [
+    {
+     "card": "Twinning Staff",
+     "quote": "If you would copy a spell one or more times, instead copy it that many times plus an additional time."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Twinning Staff",
+     "quote": "You may choose new targets for the additional copy, even if you can't choose new targets for the original copy or copies."
+    },
+    {
+     "card": "Twinning Staff",
+     "quote": "If the spell that's copied is modal (that is, it says “Choose one —” or the like), the copy will have the same mode. A different mode can't be chosen."
+    }
+   ]
+  },
+  {
+   "id": "anhelo-07",
+   "category": "combo",
+   "title": "Narset's Reversal copy loops (with Twinning Staff or Reiterate)",
+   "cards": [
+    "Anhelo, the Painter",
+    "Narset's Reversal",
+    "Twinning Staff",
+    "Reiterate"
+   ],
+   "ruling": "Commander Spellbook lists Twinning Staff + Narset's Reversal and Narset's Reversal + Reiterate as infinite magecraft-trigger combos. The rules pieces are verified:\n- A copy of Narset's Reversal can target another Reversal spell or copy on the stack.\n- Reversal returns its target to hand, and a copy returned to hand ceases to exist.\n- With Staff, each copy event makes one more copy.\n\nIn the Staff line, each resolving copy creates two new copies while removing one, so the stack never runs out until you stop. Each copy triggers magecraft (Storm-Kiln Treasures, Ral pings, Deekah tokens).",
+   "short": "Spellbook infinite: Narset's Reversal copies recurse with Staff or Reiterate.",
+   "status": "uncertain",
+   "uncertainty": "Spellbook's step text isn't cached. The sequencing above is reconstructed from Oracle text and rulings, not quoted. The rules pieces are verified, but confirm the exact line on commanderspellbook.com before relying on it in a tournament.",
+   "key": true,
+   "cr": [
+    "707.10",
+    "707.10a",
+    "707.10c"
+   ],
+   "oracle": [
+    {
+     "card": "Narset's Reversal",
+     "quote": "Copy target instant or sorcery spell, then return it to its owner's hand. You may choose new targets for the copy."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Narset's Reversal",
+     "quote": "If a copy of a spell is returned to its owner’s hand, it’s moved there, then it will cease to exist as a state-based action."
+    }
+   ]
+  },
+  {
+   "id": "anhelo-08",
+   "category": "combo",
+   "title": "Reiterate with buyback plus Jeska's Will or Mana Geyser",
+   "cards": [
+    "Anhelo, the Painter",
+    "Reiterate",
+    "Jeska's Will",
+    "Mana Geyser"
+   ],
+   "ruling": "Reiterate with buyback costs six mana ({1}{R}{R} + {3}) and returns to hand. Each copy of the targeted Jeska's Will or Mana Geyser keeps the original's modes, so a Jeska's Will cast with both modes copies both. Each copy adds {R} on resolution, and the original stays on the stack the whole time.\n- **Mana Geyser:** net positive when opponents control seven or more tapped lands.\n- **Jeska's Will:** net positive when the target opponent has seven or more cards in hand. Each copy also exiles three cards to play.",
+   "short": "Reiterate buyback loops a mana spell; net mana needs 7+ tapped opponent lands or cards in hand.",
+   "status": "verified",
+   "cr": [
+    "702.27a",
+    "707.10"
+   ],
+   "oracle": [
+    {
+     "card": "Reiterate",
+     "quote": "Buyback {3}"
+    },
+    {
+     "card": "Mana Geyser",
+     "quote": "Add {R} for each tapped land your opponents control."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Jeska's Will",
+     "quote": "Use the number of cards in the target opponent's hand as Jeska's Will resolves to determine how much {R} to add."
+    },
+    {
+     "card": "Reiterate",
+     "quote": "If the spell that's copied is modal (that is, it says \"Choose one —\" or the like), the copy will have the same mode. A different mode can't be chosen."
+    }
+   ]
+  },
+  {
+   "id": "anhelo-09",
+   "category": "combo",
+   "title": "Dualcaster Mage + Twinflame",
+   "cards": [
+    "Anhelo, the Painter",
+    "Dualcaster Mage",
+    "Twinflame"
+   ],
+   "ruling": "Cast Twinflame targeting a creature you control. In response, flash in Dualcaster Mage and copy Twinflame targeting Dualcaster. The copy makes a hasty token Dualcaster, whose enter trigger copies the original Twinflame (still on the stack) targeting the new token, and so on. This gives arbitrarily many hasty Dualcasters, each copy triggering magecraft. The tokens are exiled at the next end step. Anhelo's casualty isn't needed.",
+   "short": "Twinflame plus a Dualcaster response: arbitrarily many hasty Dualcaster tokens.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "707.10c",
+    "603.2"
+   ],
+   "oracle": [
+    {
+     "card": "Dualcaster Mage",
+     "quote": "When this creature enters, copy target instant or sorcery spell. You may choose new targets for the copy."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "`Dualcaster Mage` + `Twinflame` remains a deterministic repeated-copy line"
+    }
+   ]
+  },
+  {
+   "id": "anhelo-10",
+   "category": "combo",
+   "title": "Primal Wellspring + Frantic Search (+ Reiterate or Narset's Reversal)",
+   "cards": [
+    "Anhelo, the Painter",
+    "Primal Amulet // Primal Wellspring",
+    "Frantic Search",
+    "Reiterate",
+    "Narset's Reversal"
+   ],
+   "ruling": "After Primal Amulet transforms, mana from Primal Wellspring copies the spell it's spent on. Frantic Search untaps three lands, including Wellspring, and the copy untaps three more. Spellbook adds Reiterate or Narset's Reversal to repeat it. You can't use Wellspring mana for the spell that gives Amulet its fourth counter.",
+   "status": "uncertain",
+   "uncertainty": "Spellbook marks these near-infinite; the net mana per loop depends on which lands you untap and on cost reducers (Goblin Electromancer, Thunderclap Drake, Amulet). No step text is cached.",
+   "cr": [
+    "707.10"
+   ],
+   "oracle": [
+    {
+     "card": "Frantic Search",
+     "quote": "Draw two cards, then discard two cards. Untap up to three lands."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Primal Amulet // Primal Wellspring",
+     "quote": "Notably, you can't use Primal Wellspring to pay for the spell that gives Primal Amulet its fourth counter."
+    }
+   ]
+  },
+  {
+   "id": "anhelo-11",
+   "category": "combo",
+   "title": "Cormela + Storm-Kiln Artist + Twinflame",
+   "cards": [
+    "Anhelo, the Painter",
+    "Cormela, Glamour Thief",
+    "Storm-Kiln Artist",
+    "Twinflame"
+   ],
+   "ruling": "Commander Spellbook lists Cormela, Storm-Kiln Artist and Twinflame together for infinite instant/sorcery-only mana. All three are in the list. This review doesn't reconstruct the line.",
+   "status": "uncertain",
+   "uncertainty": "Spellbook step text not cached; the line was not reconstructed.",
+   "cr": [
+    "707.10"
+   ],
+   "oracle": [
+    {
+     "card": "Cormela, Glamour Thief",
+     "quote": "{1}, {T}: Add {U}{B}{R}. Spend this mana only to cast instant and/or sorcery spells."
+    }
+   ],
+   "rulings": []
+  },
+  {
+   "id": "anhelo-12",
+   "category": "timing",
+   "title": "Graveyard casting: Kess, Maestros Ascendancy, Underworld Breach",
+   "cards": [
+    "Anhelo, the Painter",
+    "Kess, Dissident Mage",
+    "Maestros Ascendancy",
+    "Underworld Breach"
+   ],
+   "ruling": "- **Kess and Maestros Ascendancy:** each allows one graveyard cast per turn and exiles the spell afterward. Casting with flashback doesn't use up Kess.\n- **Underworld Breach:** gives escape (mana cost plus exile three other cards). A spell cast with escape can't also be cast without paying its mana cost. Breach is sacrificed at the end step.\n\nA graveyard-cast spell can still be the first of the turn and get Anhelo's casualty.",
+   "status": "verified",
+   "cr": [
+    "702.138a",
+    "601.2f"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Kess, Dissident Mage",
+     "quote": "If you cast a card from your graveyard using another permission (such as that of flashback), Kess's effect doesn't apply."
+    },
+    {
+     "card": "Underworld Breach",
+     "quote": "If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost."
+    }
+   ]
+  },
+  {
+   "id": "anhelo-13",
+   "category": "pair",
+   "title": "Thunderclap Drake copies scale with commander casts",
+   "cards": [
+    "Anhelo, the Painter",
+    "Thunderclap Drake"
+   ],
+   "ruling": "Thunderclap Drake's sacrifice ability copies your next instant or sorcery once for each time you've cast Anhelo from the command zone. Recasting Anhelo after removal increases the count.",
+   "status": "verified",
+   "cr": [
+    "903.8"
+   ],
+   "oracle": [
+    {
+     "card": "Thunderclap Drake",
+     "quote": "copy it for each time you've cast your commander from the command zone this game."
+    }
+   ],
+   "rulings": []
+  },
+  {
+   "id": "anhelo-14",
+   "category": "zone",
+   "title": "Commander tax and casualty fodder",
+   "cards": [
+    "Anhelo, the Painter",
+    "Jadar, Ghoulcaller of Nephalia",
+    "Startle",
+    "Bloodghast"
+   ],
+   "ruling": "Anhelo is three mana, so tax matters less ({U}{B}{R}, then 5, 7). Casualty needs power 2 or greater. Decayed 2/2 Zombies (Jadar, Startle, Poppet Stitcher), Bloodghast and the Fractal tokens qualify. Startle's copy makes its own Zombie and draws its own card.",
+   "status": "verified",
+   "cr": [
+    "903.8",
+    "702.153a"
+   ],
+   "oracle": [
+    {
+     "card": "Startle",
+     "quote": "Create a 2/2 black Zombie creature token with decayed."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "`Startle` copies resolve independently"
+    }
+   ]
+  }
+ ]
+}

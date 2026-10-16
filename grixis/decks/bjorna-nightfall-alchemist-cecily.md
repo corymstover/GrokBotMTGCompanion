@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -428,6 +429,22 @@ All 98 noncommander main-deck card copies, plus the one outside-deck companion, 
 
 **Approval gate**
 Request explicit approval for the single Reckless Fireweaver -> Robe of the Archmagi change and resulting 100-card main-deck list with outside-deck Lutri companion. **Do not lock without user approval.**
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 46 interaction review: **13 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Bjorna, Nightfall Alchemist + Cecily, Haunted Mage — Interaction Review](../interactions/bjorna-nightfall-alchemist-cecily.md).
+
+- **Bjorna: sacrifice an artifact, ping and goad a creature** — {T}, sacrifice an artifact: 1 damage to a creature and goad it. ([bjorna-01](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-01-bjorna-sacrifice-an-artifact-ping-and-goad-a-creature))
+- **Cecily: draw, lose 1, *then* check eleven cards** — Attack: draw, lose 1; then with 11+ cards in hand cast an instant or sorcery free. ([bjorna-02](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-02-cecily-draw-lose-1-then-check-eleven-cards))
+- **Harmonic Prodigy doubles Wizard and Shaman triggers** — Prodigy doubles Cecily, Niv-Mizzet, Archmage Emeritus, Storm-Kiln and Emry triggers. ([bjorna-03](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-03-harmonic-prodigy-doubles-wizard-and-shaman-triggers))
+- **Peer into the Abyss + Teferi's Ageless Insight: an odd library loses** — Peer on yourself with Ageless Insight draws the whole library; an odd library size makes you lose. ([bjorna-05](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-05-peer-into-the-abyss--teferis-ageless-insight-an-odd-library-loses))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Peer into the Abyss + Teferi's Ageless Insight: an odd library loses: With an odd number of cards in library, Peer + Teferi's Ageless Insight makes you draw from an empty library and lose before any drain or damage trigger resolves. Count the library first (a cantrip or one fetch changes parity), or win through Psychosis Crawler/Niv-Mizzet only when the parity is safe. ([bjorna-05](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-05-peer-into-the-abyss--teferis-ageless-insight-an-odd-library-loses))
+- 🚩 list flag Underworld Breach + Wheel of Fortune + Jeska's Will: Notion Thief and the Breach + Wheel + Jeska's Will loop conflict: Thief steals the opponents' wheel draws, leaving Jeska's Will's mana mode at zero. Use one plan or the other in a given turn. ([bjorna-07](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-07-underworld-breach--wheel-of-fortune--jeskas-will))
+- 🚩 list flag Source blueprint misdescribes both commanders: The source blueprint's commander summaries don't match current Oracle text (Bjorna has no noncreature-spell trigger; Cecily triggers on attack, not combat damage). It's documentation only; the approved list and the retrospective rules attestation use the correct text. ([bjorna-12](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-12-source-blueprint-misdescribes-both-commanders))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

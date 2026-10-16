@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -498,6 +499,22 @@ Full per-slot 99-card strategic decision ledger; ranked-candidate exhaustion; co
 ### Further source evidence (linked, not copied)
 
 - [refinement/verification/Ashnod_the_Uncaring_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Ashnod_the_Uncaring_Final_Verification_2026-10-13.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 46 interaction review: **12 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Ashnod the Uncaring — Interaction Review](../interactions/ashnod-the-uncaring.md).
+
+- **Current Oracle: no once-per-turn limit, tokens count** — Copies every non-mana artifact/creature ability that sacrificed something to activate; no turn limit, tokens count. ([ashnod-01](../interactions/ashnod-the-uncaring.md#ashnod-01-current-oracle-no-once-per-turn-limit-tokens-count))
+- **Sacrifice-cost artifacts become two-for-one** — Self-sacrificing artifacts give double value with Ashnod. ([ashnod-03](../interactions/ashnod-the-uncaring.md#ashnod-03-sacrifice-cost-artifacts-become-two-for-one))
+- **Scrap Trawler + Myr Retriever loops need a simultaneous sacrifice** — Spellbook infinite: Trawler + Retriever + Altar/KCI + reducer; sacrifice both while paying one cost. ([ashnod-08](../interactions/ashnod-the-uncaring.md#ashnod-08-scrap-trawler--myr-retriever-loops-need-a-simultaneous-sacrifice))
+- **Dross Scorpion + Retrofitter Foundry + Altar or KCI** — Spellbook infinite: Foundry Servo, Altar sacrifice, Scorpion untap. ([ashnod-10](../interactions/ashnod-the-uncaring.md#ashnod-10-dross-scorpion--retrofitter-foundry--altar-or-kci))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Current Oracle: no once-per-turn limit, tokens count: The source's older Ashnod notes describe a once-per-turn, nontoken restriction that current Oracle doesn't have. The retrospective and Ashnod_Oracle_Correction_2026-10-14.md already repair it; noted so older source text isn't reused. ([ashnod-01](../interactions/ashnod-the-uncaring.md#ashnod-01-current-oracle-no-once-per-turn-limit-tokens-count))
+- ⚠️ uncertain Scrap Trawler + Myr Retriever loops need a simultaneous sacrifice: The simultaneous-sacrifice sequencing is our reading of the CR (Spellbook step text isn't cached). Sai and Crime Novelist variants follow the same pattern. ([ashnod-08](../interactions/ashnod-the-uncaring.md#ashnod-08-scrap-trawler--myr-retriever-loops-need-a-simultaneous-sacrifice))
+- ⚠️ uncertain Nim Deathmantle loops (Apprentice, Urza, Farid): The per-loop accounting is reconstructed from Oracle text; Spellbook step text isn't cached. ([ashnod-09](../interactions/ashnod-the-uncaring.md#ashnod-09-nim-deathmantle-loops-apprentice-urza-farid))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

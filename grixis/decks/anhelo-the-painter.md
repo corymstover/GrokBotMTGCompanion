@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -387,6 +388,23 @@ Source: [refinement/decisions/Anhelo_the_Painter_Candidate_Decisions_2026-10-13.
 - [refinement/verification/Anhelo_the_Painter_99_Slot_Audit_Working_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Anhelo_the_Painter_99_Slot_Audit_Working_2026-10-13.md)
 - [refinement/verification/Anhelo_the_Painter_Approval_Ready_Closeout_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Anhelo_the_Painter_Approval_Ready_Closeout_2026-10-13.md)
 - [refinement/verification/Anhelo_the_Painter_Proposed_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Anhelo_the_Painter_Proposed_Final_Verification_2026-10-13.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 46 interaction review: **14 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Anhelo, the Painter — Interaction Review](../interactions/anhelo-the-painter.md).
+
+- **Casualty 2 on your first instant or sorcery each turn** — First instant/sorcery each turn: optionally sacrifice a power-2+ creature to copy it. ([anhelo-01](../interactions/anhelo-the-painter.md#anhelo-01-casualty-2-on-your-first-instant-or-sorcery-each-turn))
+- **Copy payoffs versus cast payoffs** — Copies trigger magecraft ('cast or copy') but not 'whenever you cast' cards. ([anhelo-04](../interactions/anhelo-the-painter.md#anhelo-04-copy-payoffs-versus-cast-payoffs))
+- **Narset's Reversal copy loops (with Twinning Staff or Reiterate)** — Spellbook infinite: Narset's Reversal copies recurse with Staff or Reiterate. ([anhelo-07](../interactions/anhelo-the-painter.md#anhelo-07-narsets-reversal-copy-loops-with-twinning-staff-or-reiterate))
+- **Dualcaster Mage + Twinflame** — Twinflame plus a Dualcaster response: arbitrarily many hasty Dualcaster tokens. ([anhelo-09](../interactions/anhelo-the-painter.md#anhelo-09-dualcaster-mage--twinflame))
+
+**Flags for later refinement** (no list change in this phase):
+- ⚠️ uncertain Spells cast before Anhelo arrived still count as 'first': No Anhelo ruling addresses spells cast before it entered; inferred from the wording and the Baral and Kari Zev ruling for similar text. Sequence Anhelo before your first spell to be safe. ([anhelo-02](../interactions/anhelo-the-painter.md#anhelo-02-spells-cast-before-anhelo-arrived-still-count-as-first))
+- ⚠️ uncertain Narset's Reversal copy loops (with Twinning Staff or Reiterate): Spellbook's step text isn't cached. The sequencing above is reconstructed from Oracle text and rulings, not quoted. The rules pieces are verified, but confirm the exact line on commanderspellbook.com before relying on it in a tournament. ([anhelo-07](../interactions/anhelo-the-painter.md#anhelo-07-narsets-reversal-copy-loops-with-twinning-staff-or-reiterate))
+- ⚠️ uncertain Primal Wellspring + Frantic Search (+ Reiterate or Narset's Reversal): Spellbook marks these near-infinite; the net mana per loop depends on which lands you untap and on cost reducers (Goblin Electromancer, Thunderclap Drake, Amulet). No step text is cached. ([anhelo-10](../interactions/anhelo-the-painter.md#anhelo-10-primal-wellspring--frantic-search--reiterate-or-narsets-reversal))
+- ⚠️ uncertain Cormela + Storm-Kiln Artist + Twinflame: Spellbook step text not cached; the line was not reconstructed. ([anhelo-11](../interactions/anhelo-the-painter.md#anhelo-11-cormela--storm-kiln-artist--twinflame))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

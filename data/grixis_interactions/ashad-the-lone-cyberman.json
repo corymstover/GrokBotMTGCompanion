@@ -1,0 +1,414 @@
+{
+ "schema": 1,
+ "deck_id": "Ashad__the_Lone_Cyberman",
+ "slug": "ashad-the-lone-cyberman",
+ "commanders": [
+  "Ashad, the Lone Cyberman"
+ ],
+ "deck_sha256": "13fa3b590700b08a41783ab763a1055f9f82103db01a3757a3662be7a092637c",
+ "list_source": "exports/grixis-archidekt/ashad-the-lone-cyberman.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 46,
+ "batch": "A",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+   "note": "deck #5: RULES PASS"
+  }
+ ],
+ "summary": "Ashad, the Lone Cyberman is an artifact engine. Casualty 2 on the first nonlegendary artifact spell each turn turns it into a token copy. This review re-verifies the retrospective attestation (Twinning Staff, Solemn and Ichor Wellspring copies, flash timing, 'another creature').\n\nRules surprises:\n- Casualty copies aren't 'created' tokens, so Worldwalker Helm adds no Map.\n- Biotransference makes your creatures artifacts, so your own Delete and Their Name Is Death spare them.\n\nNo list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "ashad-01",
+   "category": "commander",
+   "title": "Casualty 2 on your first nonlegendary artifact spell",
+   "cards": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "ruling": "The first nonlegendary artifact spell you cast each turn has casualty 2. Sacrificing a creature with power 2 or greater as you cast it copies the spell. The copy of a permanent spell resolves into a token. Only the *first* nonlegendary artifact spell each turn qualifies. Legendary artifacts (The Cyber-Controller, Mox Opal, Iron Man) neither get casualty nor use up the 'first'. Artifact lands are played, not cast.",
+   "short": "First nonlegendary artifact spell each turn: sacrifice power 2+ to copy it into a token.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "702.153a",
+    "707.10f",
+    "608.3f"
+   ],
+   "oracle": [
+    {
+     "card": "Ashad, the Lone Cyberman",
+     "quote": "The first nonlegendary artifact spell you cast each turn has casualty 2."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Ashad, the Lone Cyberman",
+     "quote": "You may sacrifice only one creature to pay a spell's casualty cost, and you copy the spell only once."
+    },
+    {
+     "card": "Ashad, the Lone Cyberman",
+     "quote": "The copy of the spell is created on the stack, so it's not \"cast.\" Abilities that trigger when a player casts a spell won't trigger."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "the copied permanent spell is not cast and becomes a token as it resolves."
+    }
+   ]
+  },
+  {
+   "id": "ashad-02",
+   "category": "commander",
+   "title": "The +1/+1 trigger needs *another* creature sacrificed",
+   "cards": [
+    "Ashad, the Lone Cyberman",
+    "Ashnod's Altar",
+    "Phyrexian Altar"
+   ],
+   "ruling": "Ashad gets a +1/+1 counter whenever you sacrifice another creature: casualty payments, Ashnod's Altar, Phyrexian Altar, Krark-Clan Ironworks on an artifact creature. Sacrificing Ashad itself doesn't count.",
+   "status": "verified",
+   "cr": [
+    "701.21a"
+   ],
+   "oracle": [
+    {
+     "card": "Ashad, the Lone Cyberman",
+     "quote": "Whenever you sacrifice another creature, put a +1/+1 counter on Ashad."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "Ashad's +1/+1 trigger is for sacrificing **another** creature"
+    }
+   ]
+  },
+  {
+   "id": "ashad-03",
+   "category": "replacement",
+   "title": "Casualty tokens aren't 'created': no Worldwalker Helm Map",
+   "cards": [
+    "Ashad, the Lone Cyberman",
+    "Worldwalker Helm",
+    "Simulacrum Synthesizer",
+    "Ichor Wellspring",
+    "Solemn Simulacrum"
+   ],
+   "ruling": "A copy of a permanent spell becomes a token as it resolves but isn't 'created' for replacement effects or triggers that refer to creating tokens. Worldwalker Helm adds no Map for Ashad's copy.\n\nEnter triggers still work: the token Solemn Simulacrum fetches a land, the token Ichor Wellspring draws, and Simulacrum Synthesizer sees an artifact with MV 3 or more enter, because the copy keeps the mana cost.",
+   "short": "Casualty copies enter as tokens but aren't 'created': enter triggers work, Helm's Map doesn't.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "111.13",
+    "608.3f"
+   ],
+   "oracle": [
+    {
+     "card": "Worldwalker Helm",
+     "quote": "If you would create one or more artifact tokens, instead create those tokens plus an additional Map token."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "A copied `Solemn Simulacrum` spell resolves as its own token permanent and supplies its own enter-the-battlefield trigger."
+    }
+   ]
+  },
+  {
+   "id": "ashad-04",
+   "category": "replacement",
+   "title": "Twinning Staff applies to artifact spell copies",
+   "cards": [
+    "Ashad, the Lone Cyberman",
+    "Twinning Staff"
+   ],
+   "ruling": "Twinning Staff's replacement covers copying any spell, so an Ashad casualty copy becomes two copies (two tokens). Staff's {7} activated ability is the part limited to instants and sorceries.",
+   "status": "verified",
+   "cr": [
+    "614.1a",
+    "707.10"
+   ],
+   "oracle": [
+    {
+     "card": "Twinning Staff",
+     "quote": "If you would copy a spell one or more times, instead copy it that many times plus an additional time."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "That replacement effect is not limited to instants and sorceries; therefore it applies to Ashad copying a nonlegendary artifact permanent spell."
+    }
+   ]
+  },
+  {
+   "id": "ashad-05",
+   "category": "combo",
+   "title": "Urza + Worldwalker Helm + Artificer Class",
+   "cards": [
+    "Ashad, the Lone Cyberman",
+    "Urza, Lord High Artificer",
+    "Worldwalker Helm",
+    "Artificer Class"
+   ],
+   "ruling": "Commander Spellbook lists this as infinite artifact tokens and blue mana, then Urza's {5} repeatedly exiles and plays the library.\n\n1. Artificer Class level 3 makes an end-step token copy of Worldwalker Helm.\n2. A Helm token can copy itself ({1}{U}, {T}). Each Helm adds a Map token to every artifact-token creation.\n3. Urza taps the new untapped Helm token and the Maps for {U}. With two Helms, each activation makes a new Helm token plus two Maps, enough to pay for the next activation.\n\nAn Ashad casualty copy of Worldwalker Helm is a token Helm too, so Ashad can replace step 1.",
+   "short": "Spellbook infinite: Helm tokens copy themselves with Urza paying via the tokens and Maps.",
+   "status": "uncertain",
+   "uncertainty": "The line is reconstructed from Oracle text (Spellbook step text isn't cached). The Ashad shortcut in particular is our derivation, not a Spellbook entry.",
+   "key": true,
+   "cr": [
+    "111.13",
+    "605.1a"
+   ],
+   "oracle": [
+    {
+     "card": "Worldwalker Helm",
+     "quote": "{1}{U}, {T}: Create a token that's a copy of target artifact token you control."
+    },
+    {
+     "card": "Urza, Lord High Artificer",
+     "quote": "Tap an untapped artifact you control: Add {U}."
+    },
+    {
+     "card": "Artificer Class",
+     "quote": "At the beginning of your end step, create a token that's a copy of target artifact you control."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Worldwalker Helm",
+     "quote": "Worldwaker Helm's first ability applies to all kinds of artifact tokens that its controller creates, not just Map tokens."
+    }
+   ]
+  },
+  {
+   "id": "ashad-06",
+   "category": "layers",
+   "title": "Biotransference makes creature spells artifact spells",
+   "cards": [
+    "Ashad, the Lone Cyberman",
+    "Biotransference",
+    "Delete",
+    "Their Name Is Death"
+   ],
+   "ruling": "Biotransference makes your creature spells, your creatures and your creature cards in other zones artifacts too.\n- Nonlegendary creature spells (Mayhem Devil, Marionette Master, Pitiless Plunderer) become eligible for Ashad's casualty, artifact cost reducers and Jhoira.\n- Delete and Their Name Is Death hit only nonartifact creatures, so they spare your board.\n\nThe effect is a layer 4 type change. Replacement effects that modify artifacts entering apply after it.",
+   "short": "Biotransference: your creatures become artifacts, so they get casualty and survive Delete and Their Name Is Death.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "613.1d",
+    "205.1b"
+   ],
+   "oracle": [
+    {
+     "card": "Biotransference",
+     "quote": "Creatures you control are artifacts in addition to their other types. The same is true for creature spells you control and creature cards you own that aren't on the battlefield."
+    },
+    {
+     "card": "Delete",
+     "quote": "Delete deals X damage to each nonartifact creature and each player."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Biotransference",
+     "quote": "Replacement effects that modify artifacts as they enter the battlefield will apply after you apply Biotransference's effect."
+    }
+   ]
+  },
+  {
+   "id": "ashad-07",
+   "category": "pair",
+   "title": "Iron Man copies legendary artifacts as nonlegendary",
+   "cards": [
+    "Ashad, the Lone Cyberman",
+    "Iron Man, Bleeding Edge",
+    "The Cyber-Controller"
+   ],
+   "ruling": "Iron Man's once-per-turn copy works on any artifact spell, including legendary ones (the copy isn't legendary). It covers The Cyber-Controller, which Ashad can't copy; the copy keeps X. On a nonlegendary spell, Ashad's casualty copy and Iron Man's copy stack. Twinning Staff adds one to each copy event.",
+   "status": "verified",
+   "cr": [
+    "707.10",
+    "707.9b"
+   ],
+   "oracle": [
+    {
+     "card": "Iron Man, Bleeding Edge",
+     "quote": "Whenever you cast an artifact spell, you may copy it, except the copy isn't legendary. Do this only once each turn."
+    }
+   ],
+   "rulings": []
+  },
+  {
+   "id": "ashad-08",
+   "category": "timing",
+   "title": "Flash artifacts reuse 'first each turn' on other turns",
+   "cards": [
+    "Ashad, the Lone Cyberman",
+    "Shimmer Myr"
+   ],
+   "ruling": "Ashad's casualty resets every turn, not just yours. With Shimmer Myr, artifact spells can be cast at instant speed, so you can cast a nonlegendary artifact with casualty on each opponent's turn. Artifact lands aren't affected (they're played).",
+   "status": "verified",
+   "cr": [
+    "702.8a",
+    "702.153a"
+   ],
+   "oracle": [
+    {
+     "card": "Shimmer Myr",
+     "quote": "You may cast artifact spells as though they had flash."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Shimmer Myr",
+     "quote": "Shimmer Myr has no effect on artifact lands because they aren't cast as spells."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
+     "quote": "Flash-granting artifact infrastructure can exploit Ashad's “first ... each turn” wording on other players' turns"
+    }
+   ]
+  },
+  {
+   "id": "ashad-09",
+   "category": "engine",
+   "title": "Sacrifice and artifact-death drains",
+   "cards": [
+    "Ashad, the Lone Cyberman",
+    "Disciple of the Vault",
+    "Marionette Master",
+    "Mayhem Devil",
+    "Ingenious Artillerist",
+    "Reckless Fireweaver"
+   ],
+   "ruling": "- **Artifact leaves the battlefield:** artifact tokens are put into the graveyard before ceasing to exist, so Disciple of the Vault and Marionette Master trigger for each sacrificed Treasure, Servo or casualty token.\n- **Any sacrifice:** Mayhem Devil triggers on each one, including the casualty payment and opponents' sacrifices.\n- **Artifacts entering:** Ingenious Artillerist and Reckless Fireweaver trigger on each artifact that enters, tokens from casualty included.",
+   "status": "verified",
+   "cr": [
+    "700.4",
+    "603.10a",
+    "704.5d"
+   ],
+   "oracle": [
+    {
+     "card": "Disciple of the Vault",
+     "quote": "Whenever an artifact is put into a graveyard from the battlefield, you may have target opponent lose 1 life."
+    },
+    {
+     "card": "Mayhem Devil",
+     "quote": "Whenever a player sacrifices a permanent, this creature deals 1 damage to any target."
+    }
+   ],
+   "rulings": []
+  },
+  {
+   "id": "ashad-10",
+   "category": "pair",
+   "title": "Myriad: Cybermen Squadron and Auton Soldier",
+   "cards": [
+    "Ashad, the Lone Cyberman",
+    "Cybermen Squadron",
+    "Auton Soldier"
+   ],
+   "ruling": "Cybermen Squadron gives nonlegendary artifact creatures myriad, so Ashad (legendary) doesn't get it. Myriad tokens enter attacking but weren't declared as attackers, so 'whenever attacks' abilities don't trigger for them. The tokens are exiled at end of combat. With only one opponent left, myriad makes nothing.",
+   "status": "verified",
+   "cr": [
+    "702.116a",
+    "508.4"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Cybermen Squadron",
+     "quote": "Although the tokens enter the battlefield attacking, they were never declared as attackers."
+    },
+    {
+     "card": "Cybermen Squadron",
+     "quote": "If the defending player is your only opponent, no tokens are put onto the battlefield."
+    }
+   ]
+  },
+  {
+   "id": "ashad-11",
+   "category": "pair",
+   "title": "Esoteric Duplicator rebuys sacrificed artifacts",
+   "cards": [
+    "Ashad, the Lone Cyberman",
+    "Esoteric Duplicator",
+    "Ashnod's Altar"
+   ],
+   "ruling": "Whenever you sacrifice Duplicator or another artifact (artifact creatures to an altar or casualty, Treasures, KCI fodder), you may pay {2} for an end-step token copy. The copy copies the printed card (or the original token characteristics) without counters. Its enter triggers work.",
+   "status": "verified",
+   "cr": [
+    "707.2",
+    "603.6a"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Esoteric Duplicator",
+     "quote": "If the copied artifact was a token, the token that’s created copies the original characteristics of that token as stated by the effect that created that token."
+    }
+   ]
+  },
+  {
+   "id": "ashad-12",
+   "category": "pair",
+   "title": "Portal to Phyrexia with casualty",
+   "cards": [
+    "Ashad, the Lone Cyberman",
+    "Portal to Phyrexia"
+   ],
+   "ruling": "Portal to Phyrexia is a nonlegendary artifact spell. A casualty copy resolves into a token Portal with its own enter trigger, so each opponent sacrifices three creatures twice, and you get two upkeep reanimation triggers.",
+   "status": "verified",
+   "cr": [
+    "608.3f"
+   ],
+   "oracle": [
+    {
+     "card": "Portal to Phyrexia",
+     "quote": "When this artifact enters, each opponent sacrifices three creatures of their choice."
+    }
+   ],
+   "rulings": []
+  },
+  {
+   "id": "ashad-13",
+   "category": "zone",
+   "title": "Commander tax and Ashad's artifact type",
+   "cards": [
+    "Ashad, the Lone Cyberman",
+    "Academy Ruins"
+   ],
+   "ruling": "Ashad is a four-mana legendary artifact creature ({1}{U}{B}{R}, then 6, 8). As a legendary it doesn't trigger its own casualty, and Cybermen Squadron doesn't give it myriad. If Ashad goes to the graveyard you may move it to the command zone. If you leave it there, Academy Ruins can put it on top of the library because it's an artifact card.",
+   "status": "verified",
+   "cr": [
+    "903.8",
+    "903.9a"
+   ],
+   "oracle": [
+    {
+     "card": "Academy Ruins",
+     "quote": "{1}{U}, {T}: Put target artifact card from your graveyard on top of your library."
+    }
+   ],
+   "rulings": []
+  }
+ ]
+}

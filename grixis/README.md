@@ -31,6 +31,7 @@ schema: 2
 | [Grixis Mission](Grixis%20Mission.md) | Cory's commander-first mission and principles (Bot cycle 39) |
 | [Grixis Refinement Cycle](Grixis%20Refinement%20Cycle.md) | Commander-dependence and homogenization metrics for all 62 decks, batch log, per-deck swaps |
 | [exports/grixis-archidekt/](../exports/grixis-archidekt/README.md) | Archidekt import file per deck (final list) and ALL-DECKS.txt |
+| [interactions/](interactions/README.md) | Phase 2 (Bot cycle 46+): card-level rules review per deck, with Oracle, Scryfall rulings and CR citations, flags and open questions; batch status |
 | [source-archive/](source-archive/README.md) | Full byte-identical archive of the source repo (Bot cycle 45): area map, SHA-256 manifest, history bundle |
 | [Grixis Evaluation](Grixis%20Evaluation.md) | Check results for all 62 source lists, and how each current list was chosen |
 | [Grixis Corrections](Grixis%20Corrections.md) | All 135 corrections (deck, issue, fix), the Oracle-text check, source-repo structural findings |
