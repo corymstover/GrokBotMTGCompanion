@@ -64,6 +64,24 @@
     "Mishra__Artificer_Prodigy",
     "Mishra__Eminent_One"
    ]
+  },
+  "4": {
+   "cycle": 42,
+   "date": "2026-10-16",
+   "decks": [
+    "Missy",
+    "Nathan_Drake__Treasure_Hunter",
+    "Nekusar__the_Mindrazer",
+    "Nicol_Bolas",
+    "Nicol_Bolas__the_Ravager",
+    "Obeka__Brute_Chronologist",
+    "Obeka__Splitter_of_Seconds",
+    "Parnesse__the_Subtle_Brush",
+    "RogSi",
+    "Saruman__the_White_Hand",
+    "Sauron__Lord_of_the_Rings",
+    "Sauron__the_Dark_Lord"
+   ]
   }
  },
  "decks": {
@@ -950,6 +968,297 @@
     }
    ],
    "needs_review": []
+  },
+  "Missy": {
+   "deck": "Missy",
+   "batch": 4,
+   "cycle": 42,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: commander dependence 81% ≥ 60% and generic share 12% ≤ 15%; unchanged",
+   "edhrec_pages": [
+    "missy"
+   ]
+  },
+  "Nathan_Drake__Treasure_Hunter": {
+   "deck": "Nathan_Drake__Treasure_Hunter",
+   "batch": 4,
+   "cycle": 42,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: all 8 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "nathan-drake-treasure-hunter"
+   ],
+   "rejected": [
+    {
+     "cut": "Reanimate",
+     "add": "Aqueous Form",
+     "by": "manual review",
+     "why": "Nathan's exile-and-cast trigger fires on attack whether or not he is blocked, and he already has first strike. Aqueous Form adds unblockability and scry 1 per attack: a small gain. Reanimate is a 1-mana answer that can take the best creature from any graveyard. Not clearly more in this deck."
+    },
+    {
+     "cut": "Deflecting Swat",
+     "add": "Whispersilk Cloak",
+     "by": "power guard",
+     "why": "the cut can be cast for free; the add cannot (tempo downgrade)"
+    },
+    {
+     "cut": "Reanimate",
+     "add": "Rogue Class",
+     "by": "power guard",
+     "why": "commander-page inclusion 26.1% < cut's 27.3% (this commander's players keep the cut more often); overall EDHREC rank 5797 vs cut 53 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Reanimate",
+     "add": "Trailblazer's Boots",
+     "by": "power guard",
+     "why": "commander-page inclusion 24.1% < cut's 27.3% (this commander's players keep the cut more often)"
+    },
+    {
+     "cut": "Reanimate",
+     "add": "Thieves' Tools",
+     "by": "power guard",
+     "why": "commander-page inclusion 20.3% < cut's 27.3% (this commander's players keep the cut more often); overall EDHREC rank 5955 vs cut 53 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Reanimate",
+     "add": "Black Widow, Super Spy",
+     "by": "power guard",
+     "why": "commander-page inclusion 18.4% < cut's 27.3% (this commander's players keep the cut more often); overall EDHREC rank 13723 vs cut 53 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Reanimate",
+     "add": "Party Thrasher",
+     "by": "power guard",
+     "why": "commander-page inclusion 18.1% < cut's 27.3% (this commander's players keep the cut more often); overall EDHREC rank 2085 vs cut 53 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Reanimate",
+     "add": "Cruelclaw's Heist",
+     "by": "power guard",
+     "why": "commander-page inclusion 18.1% < cut's 27.3% (this commander's players keep the cut more often); overall EDHREC rank 6092 vs cut 53 (more than 4x / +2000 worse)"
+    }
+   ],
+   "needs_review": []
+  },
+  "Nekusar__the_Mindrazer": {
+   "deck": "Nekusar__the_Mindrazer",
+   "batch": 4,
+   "cycle": 42,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+   "edhrec_pages": [
+    "nekusar-the-mindrazer"
+   ],
+   "rejected": [],
+   "needs_review": []
+  },
+  "Nicol_Bolas": {
+   "deck": "Nicol_Bolas",
+   "batch": 4,
+   "cycle": 42,
+   "date": "2026-10-16",
+   "swaps": [
+    {
+     "cut": "No Mercy",
+     "add": "Megrim",
+     "cycle": 42,
+     "guard": [
+      "commander-page inclusion 31.8% vs cut 7.3%",
+      "overall EDHREC rank 2598 vs 1455"
+     ],
+     "review": "Each time Nicol Bolas deals damage to an opponent, that player discards their whole hand. With Megrim each discarded card deals 2, so one hit on a 5-card hand is 10 extra damage. The list already plays Liliana's Caress, Raiders' Wake and Waste Not, and Megrim is the redundant copy of that payoff. No Mercy only deters attackers, so it is defensive. 31.8% of Nicol Bolas decks play Megrim vs 7.3% for No Mercy; ranks 2,598 vs 1,455 are within the guard, and MV drops from 4 to 3.",
+     "manual": true,
+     "roles": [
+      "(no key role)"
+     ],
+     "add_roles": [],
+     "hook": {
+      "label": "damage to an opponent → discard (hand-picked)",
+      "commander": "Nicol Bolas",
+      "commander_text": "Whenever Nicol Bolas deals damage to an opponent, that player discards their hand.",
+      "card_text": "Whenever an opponent discards a card, this enchantment deals 2 damage to that player."
+     },
+     "add_edhrec": [
+      25,
+      31.8,
+      455,
+      1431
+     ],
+     "cut_edhrec": [
+      5,
+      7.3,
+      105,
+      1431
+     ],
+     "cut_freq": 1,
+     "mv": [
+      4.0,
+      3.0
+     ]
+    }
+   ],
+   "decision": "refined: 1 swap(s)",
+   "edhrec_pages": [
+    "nicol-bolas"
+   ],
+   "rejected": [],
+   "needs_review": []
+  },
+  "Nicol_Bolas__the_Ravager": {
+   "deck": "Nicol_Bolas__the_Ravager",
+   "batch": 4,
+   "cycle": 42,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+   "edhrec_pages": [
+    "nicol-bolas-the-ravager"
+   ],
+   "rejected": [],
+   "needs_review": []
+  },
+  "Obeka__Brute_Chronologist": {
+   "deck": "Obeka__Brute_Chronologist",
+   "batch": 4,
+   "cycle": 42,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "obeka-brute-chronologist"
+   ],
+   "rejected": [
+    {
+     "cut": "Reanimate",
+     "add": "Faithless Looting",
+     "by": "manual review",
+     "why": "The list runs a reanimation package (Animate Dead, Necromancy, Frantic Search). Reanimate is its cheapest payoff; Faithless Looting is only an enabler that costs a card. Obeka's end-the-turn ability makes you discard to hand size, which does not need looting. Swapping a payoff for an enabler adds no power."
+    }
+   ],
+   "needs_review": []
+  },
+  "Obeka__Splitter_of_Seconds": {
+   "deck": "Obeka__Splitter_of_Seconds",
+   "batch": 4,
+   "cycle": 42,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "obeka-splitter-of-seconds"
+   ],
+   "rejected": [
+    {
+     "cut": "Deflecting Swat",
+     "add": "Whispersilk Cloak",
+     "by": "power guard",
+     "why": "the cut can be cast for free; the add cannot (tempo downgrade)"
+    }
+   ],
+   "needs_review": []
+  },
+  "Parnesse__the_Subtle_Brush": {
+   "deck": "Parnesse__the_Subtle_Brush",
+   "batch": 4,
+   "cycle": 42,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "parnesse-the-subtle-brush"
+   ],
+   "rejected": [
+    {
+     "cut": "Feed the Swarm",
+     "add": "Malicious Affliction",
+     "by": "power guard",
+     "why": "commander-page inclusion 15.1% < cut's 30.6% (this commander's players keep the cut more often); overall EDHREC rank 9021 vs cut 93 (more than 4x / +2000 worse)"
+    }
+   ],
+   "needs_review": []
+  },
+  "RogSi": {
+   "deck": "RogSi",
+   "batch": 4,
+   "cycle": 42,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: commander dependence 99% ≥ 60% and generic share 0% ≤ 15%; unchanged",
+   "edhrec_pages": [
+    "rograkh-son-of-rohgahh-silas-renn-seeker-adept"
+   ]
+  },
+  "Saruman__the_White_Hand": {
+   "deck": "Saruman__the_White_Hand",
+   "batch": 4,
+   "cycle": 42,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: commander dependence 87% ≥ 60% and generic share 10% ≤ 15%; unchanged",
+   "edhrec_pages": [
+    "saruman-the-white-hand"
+   ]
+  },
+  "Sauron__Lord_of_the_Rings": {
+   "deck": "Sauron__Lord_of_the_Rings",
+   "batch": 4,
+   "cycle": 42,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "sauron-lord-of-the-rings"
+   ],
+   "rejected": [
+    {
+     "cut": "Mystic Remora",
+     "add": "Consider",
+     "by": "manual review",
+     "why": "Consider (surveil 1, draw) barely feeds Sauron's own mill-five recursion. Mystic Remora draws several cards in the early turns at a Bracket 4 table. Not clearly more."
+    }
+   ],
+   "needs_review": []
+  },
+  "Sauron__the_Dark_Lord": {
+   "deck": "Sauron__the_Dark_Lord",
+   "batch": 4,
+   "cycle": 42,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: all 4 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "sauron-the-dark-lord"
+   ],
+   "rejected": [
+    {
+     "cut": "Deflecting Swat",
+     "add": "Orcish Medicine",
+     "by": "power guard",
+     "why": "overall EDHREC rank 4648 vs cut 74 (more than 4x / +2000 worse); the cut can be cast for free; the add cannot (tempo downgrade)"
+    },
+    {
+     "cut": "Deadly Rollick",
+     "add": "Foray of Orcs",
+     "by": "power guard",
+     "why": "overall EDHREC rank 6225 vs cut 106 (more than 4x / +2000 worse); the cut can be cast for free; the add cannot (tempo downgrade)"
+    },
+    {
+     "cut": "Deflecting Swat",
+     "add": "Lazotep Plating",
+     "by": "power guard",
+     "why": "overall EDHREC rank 2835 vs cut 74 (more than 4x / +2000 worse); the cut can be cast for free; the add cannot (tempo downgrade)"
+    },
+    {
+     "cut": "Deadly Rollick",
+     "add": "Fall of Cair Andros",
+     "by": "power guard",
+     "why": "overall EDHREC rank 6933 vs cut 106 (more than 4x / +2000 worse); the cut can be cast for free; the add cannot (tempo downgrade)"
+    }
+   ],
+   "needs_review": []
   }
  },
  "log": {
@@ -1473,6 +1782,130 @@
     "cycle": 41,
     "batch": 3,
     "change": "reviewed: at/near ceiling: all 2 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Missy": [
+   {
+    "date": "2026-10-16",
+    "cycle": 42,
+    "batch": 4,
+    "change": "reviewed: at/near ceiling: commander dependence 81% ≥ 60% and generic share 12% ≤ 15%; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Nathan_Drake__Treasure_Hunter": [
+   {
+    "date": "2026-10-16",
+    "cycle": 42,
+    "batch": 4,
+    "change": "reviewed: at/near ceiling: all 8 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Nekusar__the_Mindrazer": [
+   {
+    "date": "2026-10-16",
+    "cycle": 42,
+    "batch": 4,
+    "change": "reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Nicol_Bolas": [
+   {
+    "date": "2026-10-16",
+    "cycle": 42,
+    "batch": 4,
+    "change": "hand review (identity confirmed after a scoring fix; 1 hand-picked swap); 1 commander-first swap(s): damage to an opponent → discard (hand-picked)",
+    "added": [
+     "Megrim"
+    ],
+    "removed": [
+     "No Mercy"
+    ]
+   }
+  ],
+  "Nicol_Bolas__the_Ravager": [
+   {
+    "date": "2026-10-16",
+    "cycle": 42,
+    "batch": 4,
+    "change": "reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Obeka__Brute_Chronologist": [
+   {
+    "date": "2026-10-16",
+    "cycle": 42,
+    "batch": 4,
+    "change": "reviewed: at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Obeka__Splitter_of_Seconds": [
+   {
+    "date": "2026-10-16",
+    "cycle": 42,
+    "batch": 4,
+    "change": "reviewed: at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Parnesse__the_Subtle_Brush": [
+   {
+    "date": "2026-10-16",
+    "cycle": 42,
+    "batch": 4,
+    "change": "reviewed: at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "RogSi": [
+   {
+    "date": "2026-10-16",
+    "cycle": 42,
+    "batch": 4,
+    "change": "reviewed: at/near ceiling: commander dependence 99% ≥ 60% and generic share 0% ≤ 15%; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Saruman__the_White_Hand": [
+   {
+    "date": "2026-10-16",
+    "cycle": 42,
+    "batch": 4,
+    "change": "reviewed: at/near ceiling: commander dependence 87% ≥ 60% and generic share 10% ≤ 15%; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Sauron__Lord_of_the_Rings": [
+   {
+    "date": "2026-10-16",
+    "cycle": 42,
+    "batch": 4,
+    "change": "reviewed: at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Sauron__the_Dark_Lord": [
+   {
+    "date": "2026-10-16",
+    "cycle": 42,
+    "batch": 4,
+    "change": "reviewed: at/near ceiling: all 4 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
     "added": [],
     "removed": []
    }
@@ -2146,6 +2579,120 @@
       "Underworld Breach",
       "Lion's Eye Diamond",
       "Wheel of Fortune"
+     ],
+     "infinite": true
+    }
+   ],
+   "queried": "2026-10-16"
+  },
+  "Nicol_Bolas": {
+   "sig": [
+    "Aggravated Assault",
+    "Ancient Tomb",
+    "Arcane Signet",
+    "Arena of Glory",
+    "Arid Mesa",
+    "Badlands",
+    "Bedevil",
+    "Blood Crypt",
+    "Bloodstained Mire",
+    "Bojuka Bog",
+    "Brotherhood Regalia",
+    "Cabal Ritual",
+    "Cavern of Souls",
+    "Chandra's Ignition",
+    "Chaos Warp",
+    "Chrome Mox",
+    "City of Brass",
+    "Command Beacon",
+    "Command Tower",
+    "Counterspell",
+    "Court of Ambition",
+    "Curiosity",
+    "Cyclonic Rift",
+    "Dark Ritual",
+    "Deflecting Swat",
+    "Demonic Tutor",
+    "Dimir Signet",
+    "Dragon Tempest",
+    "Exotic Orchard",
+    "Fellwar Stone",
+    "Fierce Guardianship",
+    "Flooded Strand",
+    "Force of Will",
+    "Geth's Grimoire",
+    "Grim Monolith",
+    "Hall of the Bandit Lord",
+    "Hypnotic Specter",
+    "Ingris Stingerquill",
+    "Island",
+    "Izzet Signet",
+    "Jeska's Will",
+    "Kediss, Emberclaw Familiar",
+    "Lightning Greaves",
+    "Liliana's Caress",
+    "Luxury Suite",
+    "Mana Confluence",
+    "Mana Drain",
+    "Mana Vault",
+    "Marsh Flats",
+    "Megrim",
+    "Misty Rainforest",
+    "Morphic Pool",
+    "Mountain",
+    "Mox Diamond",
+    "Mystic Remora",
+    "Nicol Bolas",
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "Nightscape Familiar",
+    "Notion Thief",
+    "Oppression",
+    "Otawara, Soaring City",
+    "Pain for All",
+    "Polluted Delta",
+    "Quicksilver Dagger",
+    "Raiders' Wake",
+    "Rakdos Signet",
+    "Reflecting Pool",
+    "Rhystic Study",
+    "Sangromancer",
+    "Scalding Tarn",
+    "Seething Song",
+    "Sheoldred's Edict",
+    "Shizo, Death's Storehouse",
+    "Sol Ring",
+    "Steam Vents",
+    "Swamp",
+    "Swiftfoot Boots",
+    "Sword of Feast and Famine",
+    "Takenuma, Abandoned Mire",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence",
+    "Tergrid, God of Fright // Tergrid's Lantern",
+    "Terminate",
+    "The Eldest Reborn",
+    "Tinybones, Bauble Burglar",
+    "Tinybones, Trinket Thief",
+    "Torment of Hailfire",
+    "Toxic Deluge",
+    "Training Center",
+    "Underground Sea",
+    "Vampiric Tutor",
+    "Verdant Catacombs",
+    "Viridian Longbow",
+    "Volcanic Island",
+    "Waste Not",
+    "Watery Grave",
+    "Wooded Foothills",
+    "Xander's Lounge"
+   ],
+   "combos": [
+    {
+     "id": "900-3750",
+     "cards": [
+      "Sword of Feast and Famine",
+      "Aggravated Assault"
      ],
      "infinite": true
     }

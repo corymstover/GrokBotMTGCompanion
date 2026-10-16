@@ -3782,7 +3782,7 @@
 1 Worldwalker Helm
 1 Xander's Lounge
 
-===== 39/62 — Missy — unchanged (not reviewed yet) =====
+===== 39/62 — Missy — unchanged (at/near ceiling) =====
 1 Missy [Commander]
 1 Accursed Marauder
 1 Altar of Dementia
@@ -3881,7 +3881,7 @@
 1 Xander's Lounge
 1 Zulaport Cutthroat
 
-===== 40/62 — Nathan Drake, Treasure Hunter — unchanged (not reviewed yet) =====
+===== 40/62 — Nathan Drake, Treasure Hunter — unchanged (at/near ceiling) =====
 1 Nathan Drake, Treasure Hunter [Commander]
 1 An Offer You Can't Refuse
 1 Ancient Tomb
@@ -3980,7 +3980,7 @@
 1 Xander's Lounge
 1 You Find Some Prisoners
 
-===== 41/62 — Nekusar, the Mindrazer — unchanged (not reviewed yet) =====
+===== 41/62 — Nekusar, the Mindrazer — unchanged (at/near ceiling) =====
 1 Nekusar, the Mindrazer [Commander]
 1 An Offer You Can't Refuse
 1 Ancient Tomb
@@ -4079,7 +4079,7 @@
 1 Wooded Foothills
 1 Xander's Lounge
 
-===== 42/62 — Nicol Bolas — unchanged (not reviewed yet) =====
+===== 42/62 — Nicol Bolas — refined =====
 1 Nicol Bolas [Commander]
 1 Aggravated Assault
 1 Ancient Tomb
@@ -4130,6 +4130,7 @@
 1 Mana Drain
 1 Mana Vault
 1 Marsh Flats
+1 Megrim
 1 Misty Rainforest
 1 Morphic Pool
 1 Mountain
@@ -4137,7 +4138,6 @@
 1 Mystic Remora
 1 Nicol Bolas, the Ravager // Nicol Bolas, the Arisen
 1 Nightscape Familiar
-1 No Mercy
 1 Notion Thief
 1 Oppression
 1 Otawara, Soaring City
@@ -4180,7 +4180,7 @@
 1 Wooded Foothills
 1 Xander's Lounge
 
-===== 43/62 — Nicol Bolas, the Ravager // Nicol Bolas, the Arisen — unchanged (not reviewed yet) =====
+===== 43/62 — Nicol Bolas, the Ravager // Nicol Bolas, the Arisen — unchanged (at/near ceiling) =====
 1 Nicol Bolas, the Ravager // Nicol Bolas, the Arisen [Commander]
 1 An Offer You Can't Refuse
 1 Ancient Tomb
@@ -4280,7 +4280,7 @@
 1 Wooded Foothills
 1 Xander's Lounge
 
-===== 44/62 — Obeka, Brute Chronologist — unchanged (not reviewed yet) =====
+===== 44/62 — Obeka, Brute Chronologist — unchanged (at/near ceiling) =====
 1 Obeka, Brute Chronologist [Commander]
 1 Alchemist's Gambit
 1 Ancient Tomb
@@ -4382,7 +4382,7 @@
 1 Wooded Foothills
 1 Xander's Lounge
 
-===== 45/62 — Obeka, Splitter of Seconds — unchanged (not reviewed yet) =====
+===== 45/62 — Obeka, Splitter of Seconds — unchanged (at/near ceiling) =====
 1 Obeka, Splitter of Seconds [Commander]
 1 An Offer You Can't Refuse
 1 Ancestral Vision
@@ -4480,7 +4480,7 @@
 1 Wooded Foothills
 1 Xander's Lounge
 
-===== 46/62 — Parnesse, the Subtle Brush — unchanged (not reviewed yet) =====
+===== 46/62 — Parnesse, the Subtle Brush — unchanged (at/near ceiling) =====
 1 Parnesse, the Subtle Brush [Commander]
 1 Alania, Divergent Storm
 1 An Offer You Can't Refuse
@@ -4578,7 +4578,7 @@
 1 Xander's Lounge
 1 Zevlor, Elturel Exile
 
-===== 47/62 — Rograkh, Son of Rohgahh + Silas Renn, Seeker Adept — unchanged (not reviewed yet) =====
+===== 47/62 — Rograkh, Son of Rohgahh + Silas Renn, Seeker Adept — unchanged (at/near ceiling) =====
 1 Rograkh, Son of Rohgahh [Commander]
 1 Silas Renn, Seeker Adept [Commander]
 1 Ad Nauseam
@@ -4680,7 +4680,7 @@
 1 Wooded Foothills
 1 Yawgmoth's Will
 
-===== 48/62 — Saruman, the White Hand — unchanged (not reviewed yet) =====
+===== 48/62 — Saruman, the White Hand — unchanged (at/near ceiling) =====
 1 Saruman, the White Hand [Commander]
 1 All Will Be One
 1 Ancient Tomb
@@ -4779,7 +4779,7 @@
 1 Wizard's Staff
 1 Xander's Lounge
 
-===== 49/62 — Sauron, Lord of the Rings — unchanged (not reviewed yet) =====
+===== 49/62 — Sauron, Lord of the Rings — unchanged (at/near ceiling) =====
 1 Sauron, Lord of the Rings [Commander]
 1 Ancient Brass Dragon
 1 Ancient Tomb
@@ -4877,7 +4877,7 @@
 1 Wonder
 1 Xander's Lounge
 
-===== 50/62 — Sauron, the Dark Lord — unchanged (not reviewed yet) =====
+===== 50/62 — Sauron, the Dark Lord — unchanged (at/near ceiling) =====
 1 Sauron, the Dark Lord [Commander]
 1 Ancient Tomb
 1 Anger

@@ -42,18 +42,18 @@
 | 36 | [marchesa-the-black-rose.txt](marchesa-the-black-rose.txt) | Marchesa, the Black Rose | unchanged (at/near ceiling) | none |
 | 37 | [mishra-artificer-prodigy.txt](mishra-artificer-prodigy.txt) | Mishra, Artificer Prodigy | unchanged (at/near ceiling) | none |
 | 38 | [mishra-eminent-one.txt](mishra-eminent-one.txt) | Mishra, Eminent One | unchanged (at/near ceiling) | none |
-| 39 | [missy.txt](missy.txt) | Missy | unchanged (not reviewed yet) | none |
-| 40 | [nathan-drake-treasure-hunter.txt](nathan-drake-treasure-hunter.txt) | Nathan Drake, Treasure Hunter | unchanged (not reviewed yet) | none |
-| 41 | [nekusar-the-mindrazer.txt](nekusar-the-mindrazer.txt) | Nekusar, the Mindrazer | unchanged (not reviewed yet) | none |
-| 42 | [nicol-bolas.txt](nicol-bolas.txt) | Nicol Bolas | unchanged (not reviewed yet) | none |
-| 43 | [nicol-bolas-the-ravager.txt](nicol-bolas-the-ravager.txt) | Nicol Bolas, the Ravager // Nicol Bolas, the Arisen | unchanged (not reviewed yet) | none |
-| 44 | [obeka-brute-chronologist.txt](obeka-brute-chronologist.txt) | Obeka, Brute Chronologist | unchanged (not reviewed yet) | none |
-| 45 | [obeka-splitter-of-seconds.txt](obeka-splitter-of-seconds.txt) | Obeka, Splitter of Seconds | unchanged (not reviewed yet) | none |
-| 46 | [parnesse-the-subtle-brush.txt](parnesse-the-subtle-brush.txt) | Parnesse, the Subtle Brush | unchanged (not reviewed yet) | none |
-| 47 | [rograkh-son-of-rohgahh-silas-renn.txt](rograkh-son-of-rohgahh-silas-renn.txt) | Rograkh, Son of Rohgahh + Silas Renn, Seeker Adept | unchanged (not reviewed yet) | none |
-| 48 | [saruman-the-white-hand.txt](saruman-the-white-hand.txt) | Saruman, the White Hand | unchanged (not reviewed yet) | none |
-| 49 | [sauron-lord-of-the-rings.txt](sauron-lord-of-the-rings.txt) | Sauron, Lord of the Rings | unchanged (not reviewed yet) | none |
-| 50 | [sauron-the-dark-lord.txt](sauron-the-dark-lord.txt) | Sauron, the Dark Lord | unchanged (not reviewed yet) | none |
+| 39 | [missy.txt](missy.txt) | Missy | unchanged (at/near ceiling) | none |
+| 40 | [nathan-drake-treasure-hunter.txt](nathan-drake-treasure-hunter.txt) | Nathan Drake, Treasure Hunter | unchanged (at/near ceiling) | none |
+| 41 | [nekusar-the-mindrazer.txt](nekusar-the-mindrazer.txt) | Nekusar, the Mindrazer | unchanged (at/near ceiling) | none |
+| 42 | [nicol-bolas.txt](nicol-bolas.txt) | Nicol Bolas | refined | −No Mercy +Megrim (damage to an opponent → discard (hand-picked)) |
+| 43 | [nicol-bolas-the-ravager.txt](nicol-bolas-the-ravager.txt) | Nicol Bolas, the Ravager // Nicol Bolas, the Arisen | unchanged (at/near ceiling) | none |
+| 44 | [obeka-brute-chronologist.txt](obeka-brute-chronologist.txt) | Obeka, Brute Chronologist | unchanged (at/near ceiling) | none |
+| 45 | [obeka-splitter-of-seconds.txt](obeka-splitter-of-seconds.txt) | Obeka, Splitter of Seconds | unchanged (at/near ceiling) | none |
+| 46 | [parnesse-the-subtle-brush.txt](parnesse-the-subtle-brush.txt) | Parnesse, the Subtle Brush | unchanged (at/near ceiling) | none |
+| 47 | [rograkh-son-of-rohgahh-silas-renn.txt](rograkh-son-of-rohgahh-silas-renn.txt) | Rograkh, Son of Rohgahh + Silas Renn, Seeker Adept | unchanged (at/near ceiling) | none |
+| 48 | [saruman-the-white-hand.txt](saruman-the-white-hand.txt) | Saruman, the White Hand | unchanged (at/near ceiling) | none |
+| 49 | [sauron-lord-of-the-rings.txt](sauron-lord-of-the-rings.txt) | Sauron, Lord of the Rings | unchanged (at/near ceiling) | none |
+| 50 | [sauron-the-dark-lord.txt](sauron-the-dark-lord.txt) | Sauron, the Dark Lord | unchanged (at/near ceiling) | none |
 | 51 | [sedris-the-traitor-king.txt](sedris-the-traitor-king.txt) | Sedris, the Traitor King | unchanged (not reviewed yet) | none |
 | 52 | [solkanar-the-swamp-king.txt](solkanar-the-swamp-king.txt) | Sol'kanar the Swamp King | unchanged (not reviewed yet) | none |
 | 53 | [solkanar-the-tainted.txt](solkanar-the-tainted.txt) | Sol'Kanar the Tainted | unchanged (not reviewed yet) | none |
