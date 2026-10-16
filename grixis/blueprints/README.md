@@ -10,11 +10,11 @@
 
 ## Status
 
-**30/62 blueprints written.** M2 acceptance criteria ([definition](../Grixis%20Authority%20Model.md#m2)):
+**46/62 blueprints written.** M2 acceptance criteria ([definition](../Grixis%20Authority%20Model.md#m2)):
 
-- ⏳ 62 blueprints validate against blueprint.schema.json and --check — 30/62 written
-- ⏳ each names identity core (≥3), anti-goals, required packages with min counts, win conditions, failure modes (≥2), tutor targets, construction rules — 30/62 complete
-- ⏳ each has grok_estimated_ceiling with evidence and a disagreement flag where it differs from the source — 30/62 estimated
+- ⏳ 62 blueprints validate against blueprint.schema.json and --check — 46/62 written
+- ⏳ each names identity core (≥3), anti-goals, required packages with min counts, win conditions, failure modes (≥2), tutor targets, construction rules — 46/62 complete
+- ⏳ each has grok_estimated_ceiling with evidence and a disagreement flag where it differs from the source — 46/62 estimated
 - ⏳ Cory has reviewed the sample he chooses (status cory_reviewed) — 0 reviewed
 - ⏳ Cory accepted M2 (registry program.milestones.M2) — in_progress
 
@@ -52,8 +52,24 @@
 | [Loki, the Deceiver](loki-the-deceiver.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
 | [Lord of Tresserhorn](lord-of-tresserhorn.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
 | [Lord Xander, the Collector](lord-xander-the-collector.md) | central | medium | 4 | 4 | 4 | no | v1 seeded |
+| [Lynde, Cheerful Tormentor](lynde-cheerful-tormentor.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
+| [Mai and Zuko](mai-and-zuko.md) | significant | low | 4 | 4 | 4 | no | v1 seeded |
+| [Mairsil, the Pretender](mairsil-the-pretender.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
+| [Marchesa, Dealer of Death](marchesa-dealer-of-death.md) | significant | low | 5 | 5 | 5 | no | v1 seeded |
+| [Marchesa, the Black Rose](marchesa-the-black-rose.md) | significant | low | 4 | 4 | 4 | no | v1 seeded |
+| [Mishra, Artificer Prodigy](mishra-artificer-prodigy.md) | central | high | 5 | 5 | 5 | no | v1 seeded |
+| [Mishra, Eminent One](mishra-eminent-one.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
+| [Missy](missy.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
+| [Nathan Drake, Treasure Hunter](nathan-drake-treasure-hunter.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
+| [Nekusar, the Mindrazer](nekusar-the-mindrazer.md) | significant | medium | 4 | 4 | 4 | no | v1 seeded |
+| [Nicol Bolas](nicol-bolas.md) | central | total | 4 | 4 | 4 | no | v1 seeded |
+| [Nicol Bolas, the Ravager // Nicol Bolas, the Arisen](nicol-bolas-the-ravager.md) | significant | low | 4 | 4 | 4 | no | v1 seeded |
+| [Norman Osborn // Green Goblin](norman-osborn.md) | significant | low | 5 | 5 | 5 | no | v1 seeded |
+| [Obeka, Brute Chronologist](obeka-brute-chronologist.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
+| [Obeka, Splitter of Seconds](obeka-splitter-of-seconds.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
+| [Parnesse, the Subtle Brush](parnesse-the-subtle-brush.md) | supporting | low | 4 | 4 | 4 | no | v1 seeded |
 
-Not written yet (32): [lynde-cheerful-tormentor](../decks/lynde-cheerful-tormentor.md), [mai-and-zuko](../decks/mai-and-zuko.md), [mairsil-the-pretender](../decks/mairsil-the-pretender.md), [marchesa-dealer-of-death](../decks/marchesa-dealer-of-death.md), [marchesa-the-black-rose](../decks/marchesa-the-black-rose.md), [mishra-artificer-prodigy](../decks/mishra-artificer-prodigy.md), [mishra-eminent-one](../decks/mishra-eminent-one.md), [missy](../decks/missy.md), [nathan-drake-treasure-hunter](../decks/nathan-drake-treasure-hunter.md), [nekusar-the-mindrazer](../decks/nekusar-the-mindrazer.md), [nicol-bolas](../decks/nicol-bolas.md), [nicol-bolas-the-ravager](../decks/nicol-bolas-the-ravager.md), [norman-osborn](../decks/norman-osborn.md), [obeka-brute-chronologist](../decks/obeka-brute-chronologist.md), [obeka-splitter-of-seconds](../decks/obeka-splitter-of-seconds.md), [parnesse-the-subtle-brush](../decks/parnesse-the-subtle-brush.md), [rograkh-son-of-rohgahh-silas-renn](../decks/rograkh-son-of-rohgahh-silas-renn.md), [saruman-the-white-hand](../decks/saruman-the-white-hand.md), [sauron-lord-of-the-rings](../decks/sauron-lord-of-the-rings.md), [sauron-the-dark-lord](../decks/sauron-the-dark-lord.md), [sedris-the-traitor-king](../decks/sedris-the-traitor-king.md), [solkanar-the-swamp-king](../decks/solkanar-the-swamp-king.md), [solkanar-the-tainted](../decks/solkanar-the-tainted.md), [tetsuo-imperial-champion](../decks/tetsuo-imperial-champion.md), [tetsuo-umezawa](../decks/tetsuo-umezawa.md), [the-madcap-jester](../decks/the-madcap-jester.md), [the-rani](../decks/the-rani.md), [the-valeyard](../decks/the-valeyard.md), [thraximundar](../decks/thraximundar.md), [tresserhorns-lord-returned](../decks/tresserhorns-lord-returned.md), [wick-the-whorled-mind](../decks/wick-the-whorled-mind.md), [zevlor-elturel-exile](../decks/zevlor-elturel-exile.md).
+Not written yet (16): [rograkh-son-of-rohgahh-silas-renn](../decks/rograkh-son-of-rohgahh-silas-renn.md), [saruman-the-white-hand](../decks/saruman-the-white-hand.md), [sauron-lord-of-the-rings](../decks/sauron-lord-of-the-rings.md), [sauron-the-dark-lord](../decks/sauron-the-dark-lord.md), [sedris-the-traitor-king](../decks/sedris-the-traitor-king.md), [solkanar-the-swamp-king](../decks/solkanar-the-swamp-king.md), [solkanar-the-tainted](../decks/solkanar-the-tainted.md), [tetsuo-imperial-champion](../decks/tetsuo-imperial-champion.md), [tetsuo-umezawa](../decks/tetsuo-umezawa.md), [the-madcap-jester](../decks/the-madcap-jester.md), [the-rani](../decks/the-rani.md), [the-valeyard](../decks/the-valeyard.md), [thraximundar](../decks/thraximundar.md), [tresserhorns-lord-returned](../decks/tresserhorns-lord-returned.md), [wick-the-whorled-mind](../decks/wick-the-whorled-mind.md), [zevlor-elturel-exile](../decks/zevlor-elturel-exile.md).
 
 ## Ceiling disagreements
 

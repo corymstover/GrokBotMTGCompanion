@@ -63,8 +63,16 @@ def index_rows():
 
 
 def meta_of(p):
-    m = fm.FM.match(p.read_text(encoding="utf-8"))
-    return fm.parse_fm(m.group(0)) if m else {}
+    text = p.read_text(encoding="utf-8")
+    m = fm.FM.match(text)
+    if m:
+        return fm.parse_fm(m.group(0))
+    # Bot cycle 53: a deck page regenerated without front matter yet (build_grixis.py runs before front_matter.py in
+    # the rebuild chain) still gets its real kind/commander, so deck labels ("Used in decks" in EDH Packages.md,
+    # data/deck_packages.json) keep the full deck name instead of falling back to the file slug.
+    if p.parent.name == "decks" and p.suffix == ".md":
+        return {k: v for k, v in fm.deck_fields(p, text).items() if v is not None}
+    return {}
 
 
 # ------------------------------------------------------------------ sections + card links in a page

@@ -1,0 +1,597 @@
+{
+ "schema_version": 2,
+ "deck_id": "Mai_and_Zuko",
+ "slug": "mai-and-zuko",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 53,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+ "commanders": {
+  "value": [
+   {
+    "name": "Mai and Zuko",
+    "oracle_id": "b86ba0aa-89f3-4924-b3c4-f7ca44468e9b",
+    "oracle_text": "Firebending 3\nYou may cast Ally spells and artifact spells as though they had flash.",
+    "oracle_sha256": "sha256:fe97e45ef0fc5a8d943b568da4b484110d91359d54a1b8ffb2edeec4e5843199",
+    "type_line": "Legendary Creature — Human Noble Ally"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Mai and Zuko"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Artifact/Ally flash-combo: cast artifacts and Allies at instant speed (combat tricks, end-step development, interaction) and assemble compact artifact wins: Basalt Monolith + Rings of Brighthearth, Sensei's Divining Top with Bolas's Citadel + Aetherflux or Mystic Forge + a cost reducer.",
+   "secondary": "Firebending's combat mana pays for flashed artifacts and Allies; Breach + LED/Petal + Brain Freeze as a backup."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Mai_and_Zuko_Current_Cycle_Decisions_2026-10-14.md#L13",
+   "interaction:mai-and-zuko#maizuko-01",
+   "interaction:mai-and-zuko#maizuko-08"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "significant",
+   "advances_plan": "Flash for Allies and artifacts lets the combo and value pieces land on opponents' turns, and firebending adds combat mana.",
+   "honest_note": "Every Spellbook infinite in the list (Monolith + Rings, the Top loops, Breach) works without Mai and Zuko; the commander adds speed and instant-speed safety, not the kill."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Mai_and_Zuko_Current_Cycle_Decisions_2026-10-14.md",
+   "interaction:mai-and-zuko#maizuko-07",
+   "interaction:mai-and-zuko#maizuko-08"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "monolith-rings",
+   "kind": "combo",
+   "description": "Basalt Monolith + Rings of Brighthearth: unbounded colorless mana into a mana sink.",
+   "cards": [
+    "Basalt Monolith",
+    "Rings of Brighthearth"
+   ],
+   "enablers": [
+    "Aetherflux Reservoir"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:4131-4235",
+    "interaction:mai-and-zuko#maizuko-07"
+   ]
+  },
+  {
+   "id": "top-loops",
+   "kind": "combo",
+   "description": "Sensei's Divining Top with Bolas's Citadel + Aetherflux, or Mystic Forge + a cost reducer (Foundry Inspector, Etherium Sculptor, Enthusiastic Mechanaut, Longshot).",
+   "cards": [
+    "Sensei's Divining Top",
+    "Bolas's Citadel",
+    "Aetherflux Reservoir",
+    "Mystic Forge",
+    "Foundry Inspector",
+    "Etherium Sculptor",
+    "Enthusiastic Mechanaut",
+    "Longshot, Rebel Bowman"
+   ],
+   "enablers": [
+    "Mai and Zuko"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:2173-4740-5078",
+    "spellbook:777-985-5078",
+    "spellbook:985-1976-5078",
+    "spellbook:985-4908-5078",
+    "spellbook:985-5078-7356",
+    "interaction:mai-and-zuko#maizuko-08"
+   ]
+  },
+  {
+   "id": "breach",
+   "kind": "combo",
+   "description": "Underworld Breach + LED/Lotus Petal + Brain Freeze.",
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Brain Freeze"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856",
+    "interaction:mai-and-zuko#maizuko-09"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "flash-artifacts",
+   "cards": [
+    "Mai and Zuko",
+    "Tundra Tank",
+    "The Fire Nation Drill",
+    "Thought Monitor",
+    "Urza, Lord High Artificer",
+    "Sai, Master Thopterist"
+   ],
+   "online_condition": "Mai and Zuko in play.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:mai-and-zuko#maizuko-01",
+    "interaction:mai-and-zuko#maizuko-03"
+   ]
+  },
+  {
+   "id": "combat-and-off-turn",
+   "cards": [
+    "The Blue Spirit",
+    "Katara, Waterbending Master",
+    "Uthros Research Craft",
+    "Unwinding Clock",
+    "Boiling Rock Rioter",
+    "Ally Encampment"
+   ],
+   "online_condition": "Casting on combat or opponents' turns.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:mai-and-zuko#maizuko-02",
+    "interaction:mai-and-zuko#maizuko-04",
+    "interaction:mai-and-zuko#maizuko-06"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:artifact-combo",
+   "required": true,
+   "min_count": 8,
+   "role": "Compact artifact wins.",
+   "cards": [
+    "Basalt Monolith",
+    "Rings of Brighthearth",
+    "Sensei's Divining Top",
+    "Bolas's Citadel",
+    "Aetherflux Reservoir",
+    "Mystic Forge",
+    "Foundry Inspector",
+    "Etherium Sculptor",
+    "Enthusiastic Mechanaut"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mai_and_Zuko_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:mai-and-zuko#maizuko-08"
+   ]
+  },
+  {
+   "id": "pkg:allies",
+   "required": true,
+   "min_count": 5,
+   "role": "Ally bodies that benefit from flash.",
+   "cards": [
+    "The Blue Spirit",
+    "Katara, Waterbending Master",
+    "Sokka, Bold Boomeranger",
+    "Ty Lee, Chi Blocker",
+    "Boiling Rock Rioter",
+    "Avatar Roku, Firebender"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mai_and_Zuko_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:mai-and-zuko#maizuko-06"
+   ]
+  },
+  {
+   "id": "pkg:fast-mana",
+   "required": true,
+   "min_count": 8,
+   "role": "Artifact mana for an artifact-combo deck.",
+   "cards": [
+    "Sol Ring",
+    "Mana Vault",
+    "Basalt Monolith",
+    "Chrome Mox",
+    "Mox Diamond",
+    "Mox Opal",
+    "Lotus Petal",
+    "Arcane Signet",
+    "Fellwar Stone",
+    "Urza's Saga"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mai_and_Zuko_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "flash-firebend",
+   "summary": "Flash for Allies/artifacts; firebending's RRR lasts all combat.",
+   "cards": [
+    "Mai and Zuko"
+   ],
+   "m1_refs": [
+    "maizuko-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:mai-and-zuko#maizuko-01"
+   ]
+  },
+  {
+   "id": "unwinding-clock",
+   "summary": "Unwinding Clock untaps Mana Vault and Basalt Monolith on others' turns.",
+   "cards": [
+    "Unwinding Clock",
+    "Mana Vault",
+    "Basalt Monolith"
+   ],
+   "m1_refs": [
+    "maizuko-04"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:mai-and-zuko#maizuko-04"
+   ]
+  },
+  {
+   "id": "saga-cost",
+   "summary": "Urza's Saga looks at mana cost {0}/{1}, not mana value.",
+   "cards": [
+    "Urza's Saga"
+   ],
+   "m1_refs": [
+    "maizuko-05"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:mai-and-zuko#maizuko-05"
+   ]
+  },
+  {
+   "id": "monolith-rings",
+   "summary": "Monolith + Rings gives unbounded colorless mana.",
+   "cards": [
+    "Basalt Monolith",
+    "Rings of Brighthearth"
+   ],
+   "m1_refs": [
+    "maizuko-07"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:mai-and-zuko#maizuko-07"
+   ]
+  },
+  {
+   "id": "top-flash",
+   "summary": "Flash lets the Top loops run on opponents' turns.",
+   "cards": [
+    "Sensei's Divining Top",
+    "Mystic Forge"
+   ],
+   "m1_refs": [
+    "maizuko-08"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:mai-and-zuko#maizuko-08"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Rings of Brighthearth",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:4131-4235"
+   ]
+  },
+  {
+   "target": "Sensei's Divining Top",
+   "via": [
+    "Urza's Saga",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "spellbook:2173-4740-5078"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Underworld Breach",
+   "Emry, Lurker of the Loch"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Mai_and_Zuko_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Swan Song, Toxic Deluge, Cyclonic Rift, flash artifacts.",
+   "protection": "Lightning Greaves, Deflecting Swat, instant-speed deployment.",
+   "mana": "31 lands plus heavy artifact fast mana."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Mai_and_Zuko_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "artifact-hate",
+   "description": "Artifact wipes and stax hit both mana and combos.",
+   "mitigations": [
+    "Counters",
+    "Breach backup"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mai_and_Zuko_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "saga-misses",
+   "description": "Urza's Saga can't find {X} cards.",
+   "mitigations": [
+    "Pick {0}/{1} targets"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:mai-and-zuko#maizuko-05"
+   ]
+  },
+  {
+   "id": "commander-optional",
+   "description": "Without Mai and Zuko the deck loses flash speed, not its wins.",
+   "mitigations": [
+    "Commander-free combos"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Mai_and_Zuko_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "low",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Mai_and_Zuko_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (decisions)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Mai_and_Zuko_Current_Cycle_Decisions_2026-10-14.md#L19"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 ceiling, high end: fast mana and eight Spellbook infinites; the source rejects a Thoracle conversion to keep the commander relevant. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mai_and_Zuko_Current_Cycle_Decisions_2026-10-14.md#L17",
+    "spellbook:4131-4235"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Mai_and_Zuko"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 3,
+     "2": 45,
+     "3": 56,
+     "4": 22,
+     "5": 8
+    },
+    "decks_with_bracket": 134,
+    "share_b4_plus": 0.224,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__mai-and-zuko.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Mai and Zuko",
+   "why": "Flash for Allies and artifacts plus firebending 3.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Mai and Zuko"
+   ]
+  },
+  {
+   "card": "Sensei's Divining Top",
+   "why": "Hub of the Citadel and Forge loops.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:mai-and-zuko#maizuko-08"
+   ]
+  },
+  {
+   "card": "Rings of Brighthearth",
+   "why": "With Basalt Monolith, unbounded mana.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:mai-and-zuko#maizuko-07"
+   ]
+  },
+  {
+   "card": "Tundra Tank",
+   "why": "Flashed artifact as an instant-speed trick.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:mai-and-zuko#maizuko-03"
+   ]
+  },
+  {
+   "card": "The Blue Spirit",
+   "why": "Rewards creatures entering in combat.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:mai-and-zuko#maizuko-02"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Generic Grixis Thoracle/Consultation conversion rejected (decisions L17).",
+   "Keep cards that use flash or firebending mana over generic value."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Mai_and_Zuko_Current_Cycle_Decisions_2026-10-14.md#L17"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Avatar: Mai and Zuko with Fire Nation machines and Allies."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Mai_and_Zuko_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 702.8a",
+   "note": "Flash.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.8a"
+   ]
+  },
+  {
+   "rule": "CR 106.4",
+   "note": "Mana empties between steps unless an effect says otherwise (firebending lasts through combat).",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:106.4"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "Ally synergy",
+    "artifacts"
+   ],
+   "hooked_cards": 48,
+   "role_counts": {
+    "counter": 5,
+    "draw": 12,
+    "protection": 3,
+    "ramp": 15,
+    "removal": 7,
+    "tutor": 4,
+    "wipe": 1
+   },
+   "lands": 31,
+   "edhrec_pages": [
+    "mai-and-zuko"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Mai_and_Zuko_Current_Cycle_Decisions_2026-10-14.md",
+   "source_archive:refinement/approvals/Mai_and_Zuko_Approved_2026-10-14.md",
+   "source_archive:refinement/decisions/Mai_and_Zuko_Whole_List_Audit_2026-10-14.csv",
+   "source_archive:refinement/decklists/Mai_and_Zuko_Approved_2026-10-14.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 53)"
+ }
+}

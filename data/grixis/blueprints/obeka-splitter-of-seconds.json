@@ -1,0 +1,589 @@
+{
+ "schema_version": 2,
+ "deck_id": "Obeka__Splitter_of_Seconds",
+ "slug": "obeka-splitter-of-seconds",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 53,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+ "commanders": {
+  "value": [
+   {
+    "name": "Obeka, Splitter of Seconds",
+    "oracle_id": "1d15a06f-5471-48f2-8c4a-9b0886bef5af",
+    "oracle_text": "Menace\nWhenever Obeka deals combat damage to a player, you get that many additional upkeep steps after this phase.",
+    "oracle_sha256": "sha256:f5a85df1607b911e93cfa0a3a0f0e96fec5a33d7712798dec486d2dacd7c078d",
+    "type_line": "Legendary Creature — Ogre Warlock"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Obeka, Splitter of Seconds"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Connect with Obeka (menace, evasion, protection), increase her damage or double her trigger, and turn the extra upkeep steps into cards, Treasures, Clues, tokens and counters through upkeep engines.",
+   "secondary": "Time Sieve plus upkeep-made artifacts gives repeatable extra turns; Darksteel Reactor and Mechanized Production give alternate wins."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L15",
+   "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L20",
+   "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L21"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Obeka's combat-damage trigger is the deck's resource multiplier, and she's in all 5 Spellbook combos in the list.",
+   "honest_note": "Strongly commander-native: every combo includes Obeka (Time Sieve + Court of Vantress/Thopter Spy Network/Replicating Ring/Smaug; Mechanized Production). She has to connect in combat first, so a 2/5 menace attacker is the bottleneck, and the extra upkeeps arrive after combat. No M1 interaction review exists yet for this deck."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L13",
+   "spellbook:1558-5085-5471"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "time-sieve-turns",
+   "kind": "combo",
+   "description": "Obeka + Time Sieve + an upkeep artifact maker (Court of Vantress, Thopter Spy Network, Replicating Ring, Smaug): infinite turns.",
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Time Sieve",
+    "Court of Vantress",
+    "Thopter Spy Network",
+    "Replicating Ring",
+    "Smaug the Magnificent"
+   ],
+   "enablers": [
+    "Mjölnir, Hammer of Thor",
+    "Roaming Throne"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1469-1558-5471",
+    "spellbook:1558-5085-5471",
+    "spellbook:1558-5471-7348",
+    "spellbook:1558-5471-7651"
+   ]
+  },
+  {
+   "id": "alt-wins",
+   "kind": "alternate",
+   "description": "Mechanized Production (eight same-name artifacts) or Darksteel Reactor (20 counters), both reached through extra upkeeps.",
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Mechanized Production",
+    "Darksteel Reactor"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:2047-5471",
+    "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L37"
+   ]
+  },
+  {
+   "id": "advantage-combat",
+   "kind": "natural",
+   "description": "Out-value the table with extra-upkeep engines and win with combat or Smaug's Treasure damage.",
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Smaug the Magnificent"
+   ],
+   "enablers": [
+    "Super Intelligence",
+    "Smaug the Magnificent",
+    "Tamiyo's Journal",
+    "Darksteel Reactor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L20"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "extra-upkeeps",
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Super Intelligence",
+    "Smaug the Magnificent",
+    "Tamiyo's Journal",
+    "Darksteel Reactor",
+    "Court of Ambition",
+    "Court of Cunning"
+   ],
+   "online_condition": "Obeka deals combat damage to a player.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Obeka, Splitter of Seconds",
+    "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L13",
+    "cr:500.9"
+   ]
+  },
+  {
+   "id": "damage-multiplication",
+   "cards": [
+    "Mjölnir, Hammer of Thor",
+    "Dragonfire Blade",
+    "Hatred",
+    "Roaming Throne",
+    "Wizard's Staff",
+    "Combat Research",
+    "Embercleave",
+    "Sword of Feast and Famine"
+   ],
+   "online_condition": "Obeka equipped or pumped before damage.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L25"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:damage-trigger-scaling",
+   "required": true,
+   "min_count": 5,
+   "role": "More damage or more triggers per connection.",
+   "cards": [
+    "Mjölnir, Hammer of Thor",
+    "Dragonfire Blade",
+    "Hatred",
+    "Roaming Throne",
+    "Wizard's Staff",
+    "Combat Research",
+    "Embercleave",
+    "Sword of Feast and Famine"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L25"
+   ]
+  },
+  {
+   "id": "pkg:upkeep-engines",
+   "required": true,
+   "min_count": 10,
+   "role": "Turn each extra upkeep into resources.",
+   "cards": [
+    "Super Intelligence",
+    "Smaug the Magnificent",
+    "Tamiyo's Journal",
+    "Darksteel Reactor",
+    "Court of Ambition",
+    "Court of Cunning",
+    "Court of Embereth",
+    "Court of Ire",
+    "Court of Locthwain",
+    "Court of Vantress",
+    "As Foretold",
+    "Phyrexian Arena",
+    "Thopter Spy Network",
+    "Mechanized Production",
+    "Replicating Ring"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L33",
+    "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L38"
+   ]
+  },
+  {
+   "id": "pkg:suspend",
+   "required": false,
+   "min_count": 4,
+   "role": "Time-counter cards sped up by upkeeps.",
+   "cards": [
+    "Ancestral Vision",
+    "Inspiring Refrain",
+    "Jhoira of the Ghitu",
+    "Profane Tutor",
+    "Rousing Refrain",
+    "Suspended Sentence"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L41"
+   ]
+  },
+  {
+   "id": "pkg:connection",
+   "required": true,
+   "min_count": 5,
+   "role": "Evasion and protection.",
+   "cards": [
+    "Aqueous Form",
+    "Brotherhood Regalia",
+    "Silver Shroud Costume",
+    "Lightning Greaves",
+    "Swiftfoot Boots",
+    "Thassa, God of the Sea",
+    "Shizo, Death's Storehouse",
+    "Silent Arbiter"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L50"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "upkeep-phases",
+   "summary": "The additional upkeeps come in extra beginning phases whose untap and draw steps are skipped.",
+   "cards": [
+    "Obeka, Splitter of Seconds"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L13",
+    "cr:500.9"
+   ]
+  },
+  {
+   "id": "mjolnir-worthy",
+   "summary": "Mjölnir doubles Obeka's damage, and she's worthy, so equip costs {1}.",
+   "cards": [
+    "Mjölnir, Hammer of Thor",
+    "Obeka, Splitter of Seconds"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L26"
+   ]
+  },
+  {
+   "id": "staff-not-wizard",
+   "summary": "Wizard's Staff doubles her triggers, but she's a Warlock, so equip is the normal {3}.",
+   "cards": [
+    "Wizard's Staff",
+    "Obeka, Splitter of Seconds"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L30"
+   ]
+  },
+  {
+   "id": "throne-ogre",
+   "summary": "Roaming Throne naming Ogre or Warlock doubles the trigger.",
+   "cards": [
+    "Roaming Throne",
+    "Obeka, Splitter of Seconds"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L29"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Time Sieve",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Profane Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1558-5085-5471"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Shizo, Death's Storehouse"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "low",
+  "evidence": [
+   "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Mana Drain, Swan Song, An Offer You Can't Refuse, Deadly Rollick, Cyclonic Rift, Toxic Deluge.",
+   "protection": "Fierce Guardianship, Deflecting Swat, Greaves, Boots, Dragonfire Blade.",
+   "mana": "35 lands (blueprint L52)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L52"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "no-connection",
+   "description": "Blockers, fogs and removal stop the engine.",
+   "mitigations": [
+    "Menace",
+    "Evasion package"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L18"
+   ]
+  },
+  {
+   "id": "artifact-hate",
+   "description": "Artifact removal answers Time Sieve.",
+   "mitigations": [
+    "Upkeep value even without the combo"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "spellbook:1558-5085-5471"
+   ]
+  },
+  {
+   "id": "four-to-six-drops",
+   "description": "Many upkeep engines cost four to six mana.",
+   "mitigations": [
+    "35 lands"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L52"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "spellbook:1558-5085-5471"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (blueprint)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L9"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 ceiling: commander-native infinite turns, but they need a combat connection first. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L48",
+    "spellbook:1558-5085-5471"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Obeka__Splitter_of_Seconds"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 44,
+     "2": 1838,
+     "3": 1436,
+     "4": 384,
+     "5": 24
+    },
+    "decks_with_bracket": 3726,
+    "share_b4_plus": 0.11,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__obeka-splitter-of-seconds.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Obeka, Splitter of Seconds",
+   "why": "Extra upkeeps from combat damage.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Obeka, Splitter of Seconds"
+   ]
+  },
+  {
+   "card": "Time Sieve",
+   "why": "Turns upkeep artifacts into extra turns.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1558-5085-5471"
+   ]
+  },
+  {
+   "card": "Mjölnir, Hammer of Thor",
+   "why": "Doubles her damage.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L26"
+   ]
+  },
+  {
+   "card": "Smaug the Magnificent",
+   "why": "Treasure each upkeep, and a combo piece.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L35"
+   ]
+  },
+  {
+   "card": "Super Intelligence",
+   "why": "One mana: a card each upkeep.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L34"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Not generic Grixis cEDH (blueprint L48); no generic extra turns or Oracle/Breach (L49).",
+   "No more evasion slots (L50)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L48",
+   "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L49",
+   "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L50"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Extra upkeeps / combat damage / upkeep triggers (blueprint L11)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L11"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 500.9",
+   "note": "Adding steps.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:500.9"
+   ]
+  },
+  {
+   "rule": "CR 503.1",
+   "note": "Upkeep step.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:503.1"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "combat damage / attack triggers"
+   ],
+   "hooked_cards": 12,
+   "role_counts": {
+    "counter": 4,
+    "draw": 7,
+    "protection": 7,
+    "ramp": 11,
+    "removal": 4,
+    "tutor": 4,
+    "wipe": 2
+   },
+   "lands": 35,
+   "edhrec_pages": [
+    "obeka-splitter-of-seconds"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md",
+   "source_archive:refinement/decisions/Obeka_Splitter_of_Seconds_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/decisions/Obeka_Splitter_of_Seconds_Final_Challenger_Red_Team_2026-10-15.md",
+   "source_archive:refinement/approvals/Obeka_Splitter_of_Seconds_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/Obeka_Splitter_of_Seconds_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/verification/Obeka_Splitter_of_Seconds_Whole_List_Audit_2026-10-15.md",
+   "source_archive:refinement/decklists/Obeka_Splitter_of_Seconds_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 53)"
+ }
+}
