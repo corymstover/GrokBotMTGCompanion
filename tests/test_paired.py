@@ -76,3 +76,20 @@ def test_record_validates_against_test_schema():
     assert not ga.validate_file(rec, "test.schema.json")
     assert rec["limitations"] and rec["preregistered"]["registered"].startswith("2026-10-16")
     assert all(not r["metric"].startswith("win_rate") for r in rec["results"])  # no win-rate simulation
+
+
+def test_records_are_kept_per_model_version():
+    """Bot cycle 57.6: the v1.0 records are preserved next to the v1.1 ones, ids keyed by the model version."""
+    import json
+    import grixis_paired as gp
+    assert set(gp.LIMITATIONS_BY_MODEL) == set(gs.MODELS)
+    files = sorted(gp.OUT.glob("*.json"))
+    assert files
+    for f in files:
+        recs = json.loads(f.read_text(encoding="utf-8"))["records"]
+        by = {}
+        for r in recs:
+            by.setdefault(r["challenger_hash"], {})[r["simulator"]["version"]] = r["id"]
+        for ch, vs in by.items():
+            assert "1.0" in vs and gs.VERSION in vs, (f.name, ch, vs)
+            assert len(set(vs.values())) == len(vs)  # distinct ids per version

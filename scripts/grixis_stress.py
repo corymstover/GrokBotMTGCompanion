@@ -49,10 +49,13 @@ STRESS_PREREG = {
 }
 ASSEMBLY = ("win_turn_proxy_by_t8", 0.02)   # decks with Spellbook combos
 SPENT = ("mana_spent_t1_t8", 0.5)           # decks without
+# v1.0 stress records (Bot cycle 57.4, PR #132) stay in git history; the stress set is rebuilt at the current model.
 LIMITATIONS = [
     "Goldfish stress test: one player, scripted perturbations, no opponents; never a win rate.",
-    "v1.0 model: no tutors, card draw beyond the natural draw, treasures, rituals or one-shot mana; conditional fast mana unconditional; no cleanup discard.",
-    "The graveyard holds only what the model puts there (cast instants/sorceries, countered or destroyed cards); self-mill and recursion are not modelled, so graveyard_exiled mostly measures nothing in this model.",
+] + gs.MODEL_NOTES[gs.VERSION] + [
+    "The graveyard holds only what the model puts there (cast instants/sorceries, countered, destroyed, discarded or "
+    "wheeled-away cards, Mox Diamond lands); self-mill and recursion are not modelled, so graveyard_exiled mostly "
+    "measures nothing in this model.",
     "A graveyard piece counts toward a combo only when some piece of that combo mentions a graveyard in its Oracle text (recursion assumed, not simulated).",
 ]
 
