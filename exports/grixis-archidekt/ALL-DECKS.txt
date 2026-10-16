@@ -2475,7 +2475,7 @@
 1 Wishclaw Talisman
 1 Wooded Foothills
 
-===== 26/62 — Jeleva, Nephalia's Scourge — unchanged (not reviewed yet) =====
+===== 26/62 — Jeleva, Nephalia's Scourge — unchanged (at/near ceiling) =====
 1 Jeleva, Nephalia's Scourge [Commander]
 1 Ad Nauseam
 1 An Offer You Can't Refuse
@@ -2577,7 +2577,7 @@
 1 Wooded Foothills
 1 Yawgmoth's Will
 
-===== 27/62 — Kefka, Court Mage // Kefka, Ruler of Ruin — unchanged (not reviewed yet) =====
+===== 27/62 — Kefka, Court Mage // Kefka, Ruler of Ruin — refined =====
 1 Kefka, Court Mage // Kefka, Ruler of Ruin [Commander]
 1 Ad Nauseam
 1 An Offer You Can't Refuse
@@ -2601,6 +2601,7 @@
 1 Command Tower
 1 Culling the Weak
 1 Dark Ritual
+1 Dauthi Voidwalker
 1 Deflecting Swat
 1 Demonic Consultation
 1 Demonic Counsel
@@ -2610,7 +2611,6 @@
 1 Essence Flux
 1 Fellwar Stone
 1 Fierce Guardianship
-1 Final Fortune
 1 Flooded Strand
 1 Flusterstorm
 1 Force of Negation
@@ -2625,6 +2625,7 @@
 1 Into the Flood Maw
 1 Island
 1 Jeska's Will
+1 Liliana's Caress
 1 Lion's Eye Diamond
 1 Lotus Petal
 1 Luxury Suite
@@ -2669,7 +2670,6 @@
 1 Toxic Deluge
 1 Underground Sea
 1 Underworld Breach
-1 Valley Floodcaller
 1 Vampiric Tutor
 1 Verdant Catacombs
 1 Volcanic Island
@@ -2679,7 +2679,7 @@
 1 Wishclaw Talisman
 1 Wooded Foothills
 
-===== 28/62 — Kess, Dissident Mage — unchanged (not reviewed yet) =====
+===== 28/62 — Kess, Dissident Mage — unchanged (at/near ceiling) =====
 1 Kess, Dissident Mage [Commander]
 1 Ad Nauseam
 1 An Offer You Can't Refuse
@@ -2781,7 +2781,7 @@
 1 Wishclaw Talisman
 1 Wooded Foothills
 
-===== 29/62 — Loki, the Deceiver — unchanged (not reviewed yet) =====
+===== 29/62 — Loki, the Deceiver — unchanged (at/near ceiling) =====
 1 Loki, the Deceiver [Commander]
 1 An Offer You Can't Refuse
 1 Arcane Signet
@@ -2878,7 +2878,7 @@
 1 Watery Grave
 1 Xander's Lounge
 
-===== 30/62 — Lord Xander, the Collector — unchanged (not reviewed yet) =====
+===== 30/62 — Lord Xander, the Collector — unchanged (at/near ceiling) =====
 1 Lord Xander, the Collector [Commander]
 1 Aggravated Assault
 1 Altar of Dementia
@@ -2977,7 +2977,7 @@
 1 Wheel of Fortune
 1 Xander's Lounge
 
-===== 31/62 — Lord of Tresserhorn — unchanged (not reviewed yet) =====
+===== 31/62 — Lord of Tresserhorn — unchanged (at/near ceiling) =====
 1 Lord of Tresserhorn [Commander]
 1 Anger
 1 Arcane Signet
@@ -3077,7 +3077,7 @@
 1 Xander's Lounge
 1 Zulaport Cutthroat
 
-===== 32/62 — Lynde, Cheerful Tormentor — unchanged (not reviewed yet) =====
+===== 32/62 — Lynde, Cheerful Tormentor — unchanged (at/near ceiling) =====
 1 Lynde, Cheerful Tormentor [Commander]
 1 Accursed Witch // Infectious Curse
 1 Ancient Tomb
@@ -3172,7 +3172,7 @@
 1 Withering Torment
 1 Xander's Lounge
 
-===== 33/62 — Mai and Zuko — unchanged (not reviewed yet) =====
+===== 33/62 — Mai and Zuko — unchanged (at/near ceiling) =====
 1 Mai and Zuko [Commander]
 1 Aetherflux Reservoir
 1 Ally Encampment
@@ -3274,7 +3274,7 @@
 1 Xander's Lounge
 1 Zuko, Firebending Master
 
-===== 34/62 — Mairsil, the Pretender — unchanged (not reviewed yet) =====
+===== 34/62 — Mairsil, the Pretender — unchanged (at/near ceiling) =====
 1 Mairsil, the Pretender [Commander]
 1 Aetherling
 1 An Offer You Can't Refuse
@@ -3376,7 +3376,7 @@
 1 Wishclaw Talisman
 1 Xander's Lounge
 
-===== 35/62 — Marchesa, Dealer of Death — unchanged (not reviewed yet) =====
+===== 35/62 — Marchesa, Dealer of Death — unchanged (at/near ceiling) =====
 1 Marchesa, Dealer of Death [Commander]
 1 Ad Nauseam
 1 An Offer You Can't Refuse
@@ -3478,7 +3478,7 @@
 1 Wan Shi Tong, Librarian
 1 Watery Grave
 
-===== 36/62 — Marchesa, the Black Rose — unchanged (not reviewed yet) =====
+===== 36/62 — Marchesa, the Black Rose — unchanged (at/near ceiling) =====
 1 Marchesa, the Black Rose [Commander]
 1 Agatha's Soul Cauldron
 1 Altar of Dementia
@@ -3578,7 +3578,7 @@
 1 Yawgmoth, Thran Physician
 1 Zulaport Cutthroat
 
-===== 37/62 — Mishra, Artificer Prodigy — unchanged (not reviewed yet) =====
+===== 37/62 — Mishra, Artificer Prodigy — unchanged (at/near ceiling) =====
 1 Mishra, Artificer Prodigy [Commander]
 1 Academy Ruins
 1 Aetherflux Reservoir
@@ -3680,7 +3680,7 @@
 1 Whir of Invention
 1 Wishclaw Talisman
 
-===== 38/62 — Mishra, Eminent One — unchanged (not reviewed yet) =====
+===== 38/62 — Mishra, Eminent One — unchanged (at/near ceiling) =====
 1 Mishra, Eminent One [Commander]
 1 Academy Ruins
 1 Aetherflux Reservoir

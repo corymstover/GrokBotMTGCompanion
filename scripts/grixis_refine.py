@@ -72,6 +72,8 @@ HOOKS = [
     ("playing cards from exile", r"play (a card|cards|lands and cast spells) from exile|cast [^.]* from exile|exile the top card of each player's library",
      r"from exile|exile the top|collection counter|cast [^.]* exiled|you may play (that card|it|them|those cards)"),
     ("flash", r"^Flash$", r"\bflash\b"),
+    ("crimes (targeting opponents and their things)", r"commit a crime",
+     r"\btarget (player|opponent|spell|creature|permanent|nonland permanent|artifact|enchantment|planeswalker|land|activated|triggered|instant|noncreature)|\bcounter target\b|\bany target\b|an opponent controls|card in a graveyard|from an opponent's graveyard"),
     ("enters triggers", r"whenever (another|a|one or more|[^.]* or another) [^.]* enters", r"\bflicker|exile [^.]*, then return|return [^.]* to the battlefield|enters[^.]* an additional time"),
     ("casualty / power 2 or greater", r"\bcasualty\b|power 2 or greater", r"\bcasualty\b|creates? [^.]*\d/\d"),
     ("connive / looting", r"\bconniv", r"\bconniv|draw a card, then discard|discard a card, then draw"),
@@ -297,7 +299,7 @@ def plan(dids, batch, R, summ, plans, cycle):
         dep = sum(ctx.dependent(c) for c in nl) / len(nl)
         gen = sum(1 for c in nl if not ctx.dependent(c) and freq[c["name"]] >= GENERIC_MIN) / len(nl)
         entry = {"deck": did, "batch": batch, "cycle": cycle, "date": dt.date.today().isoformat(), "swaps": [], "decision": "", "edhrec_pages": ctx.pages}
-        if dep >= CEIL_DEP and gen <= CEIL_GEN:
+        if dep >= CEIL_DEP and gen <= CEIL_GEN and not load_review().get("manual_swaps", {}).get(did):
             entry["decision"] = f"at/near ceiling: commander dependence {dep:.0%} ≥ {CEIL_DEP:.0%} and generic share {gen:.0%} ≤ {CEIL_GEN:.0%}; unchanged"
             plans["decks"][did] = entry
             continue
@@ -331,6 +333,46 @@ def plan(dids, batch, R, summ, plans, cycle):
             adds.append((c, s, h))
         swaps, used, rejected, needs = [], set(), [], []
         rv = load_review()["swaps"]
+        # Bot cycle 41: hand-picked swaps (data/grixis_refine_review.json "manual_swaps") pass the same gates as automatic ones
+        nlnames = {x["name"] for x in nl}
+        for m in load_review().get("manual_swaps", {}).get(did, []):
+            k, _ = R.get(m["cut"]); c, _ = R.get(m["add"])
+            fail = []
+            if not k or k["name"] not in nlnames:
+                fail.append("cut is not a nonland card of the list")
+            if not c:
+                fail.append("add does not resolve on Scryfall")
+            if not fail:
+                if c["name"] in have:
+                    fail.append("add is already in the list")
+                if c.get("legalities", {}).get("commander") != "legal" or not set(c.get("color_identity", [])) <= ci:
+                    fail.append("add is not Commander-legal inside the color identity")
+                if (c.get("game_changer") and not (gcn > 3 and tgt >= 4)) or ev.MLD.search(otext(c)) or ("extra turn" in otext(c).lower() and not xturn):
+                    fail.append("add would raise the bracket (Game Changer / mass land denial / extra turn)")
+                if k["name"] in pieces:
+                    fail.append("cut is a piece of a Commander Spellbook combo in the list")
+                rk = roles(k)
+                cap = k.get("cmc", 0) if rk & INTERACTION else k.get("cmc", 0) + 1
+                if not (rk <= roles(c) and c.get("cmc", 0) <= cap):
+                    fail.append(f"role/MV parity: cut roles {sorted(rk)} MV {k.get('cmc', 0):g}, add roles {sorted(roles(c))} MV {c.get('cmc', 0):g}")
+                ok, reasons = guard(k, c, ctx)
+                if not ok:
+                    fail += reasons
+                h = m["hook"]
+                cmd_txt = " ".join(otext(x) for x in ctx.cmds)
+                if h["commander_text"] not in cmd_txt or h["card_text"] not in (tline(c) + "\n" + otext(c)):
+                    fail.append("quoted Oracle text is not verbatim")
+            if fail:
+                rejected.append({"cut": m["cut"], "add": m["add"], "by": "manual pick, failed gates", "why": "; ".join(fail)})
+                continue
+            used.add(k["name"]); have.add(c["name"])
+            ks, s_ = ctx.syn.get(k["name"]), ctx.syn.get(c["name"])
+            swaps.append({"cut": k["name"], "add": c["name"], "cycle": cycle, "guard": reasons, "review": m["why"], "manual": True,
+                          "roles": sorted(roles(k)) or ["(no key role)"], "add_roles": sorted(roles(c)),
+                          "hook": {"label": m["hook"]["label"], "commander": ctx.cmds[0]["name"], "commander_text": m["hook"]["commander_text"], "card_text": m["hook"]["card_text"]},
+                          "add_edhrec": list(s_) if s_ else None, "cut_edhrec": list(ks) if ks else None,
+                          "cut_freq": freq[k["name"]], "mv": [k.get("cmc", 0), c.get("cmc", 0)]})
+        adds = [x for x in adds if x[0]["name"] not in have]
         for c, s, h in adds:
             if len(swaps) + len(needs) >= MAX_SWAPS:
                 break
@@ -365,7 +407,8 @@ def plan(dids, batch, R, summ, plans, cycle):
             fl, _, _ = ev.bracket_floor(res["cards"], two)
             if not hard(res, pend) and fl <= max(floor_src, tgt) and src_combo_ids <= {co["id"] for co in sb["combos"]}:
                 break
-            swaps.pop()
+            x = swaps.pop()
+            rejected.append({"cut": x["cut"], "add": x["add"], "by": "verification", "why": "dropped: the refined list failed legality, the bracket-floor cap or kept-combo check"})
         entry["swaps"] = swaps
         entry["rejected"] = rejected
         entry["needs_review"] = needs
@@ -456,9 +499,9 @@ def block(did, v, info, m, plans):
         for w in e["swaps"]:
             h = w["hook"]
             why = (f"**{h['label']}**: {h['commander']} reads \"{q(h['commander_text'])}\"; {w['add']} reads \"{q(h['card_text'])}\". "
-                   f"EDHREC: {fmt_syn(w['add_edhrec'])}. Cut: no Oracle hook to the commander, EDHREC {fmt_syn(w['cut_edhrec'])}, "
-                   f"in {w['cut_freq']}/62 Grixis lists (generic). MV {w['mv'][0]:g} → {w['mv'][1]:g}.")
-            L.append(f"| {w['cut']} | **{w['add']}** | {', '.join(w['roles'])} | {why} | {q('; '.join(w.get('guard') or ['(cycle 39 swap, not re-checked)']))}. **Review:** {q(w.get('review') or '—')} |")
+                   f"EDHREC: {fmt_syn(w['add_edhrec'])}. Cut: " + ("" if w.get("manual") else "no Oracle hook to the commander, ") + f"EDHREC {fmt_syn(w['cut_edhrec'])}, "
+                   f"in {w['cut_freq']}/62 Grixis lists" + ("" if w.get("manual") else " (generic)") + f". MV {w['mv'][0]:g} → {w['mv'][1]:g}.")
+            L.append(f"| {w['cut']} | **{w['add']}**{' (hand-picked)' if w.get('manual') else ''} | {', '.join(w['roles'])} | {why} | {q('; '.join(w.get('guard') or ['(cycle 39 swap, not re-checked)']))}. **Review:** {q(w.get('review') or '—')} |")
         res, sb = info["res"], info.get("sb")
         two = sum(1 for co in sb["combos"] if co["infinite"] and len(co["cards"]) == 2) if sb else 0
         fl, gcs, mld = ev.bracket_floor(res["cards"], two)
@@ -467,6 +510,9 @@ def block(did, v, info, m, plans):
               f"Game Changers {v['gcs'].__len__()} → {len(gcs)} · floor Bracket {v['floor']} → **{fl}** (target {target_of(v)}) · "
               f"Commander Spellbook: {len(sb["combos"]) if sb else "?"} combo(s) ({two} two-card infinite), every source combo kept (queried {sb['queried'] if sb else '?'}).",
               "", "```text", info["fin_text"].strip(), "```"]
+    hr = load_review().get("hand_review", {}).get(did)
+    if hr:
+        L += ["", f"> 🔎 **Hand review (Bot cycle {hr['cycle']}): {hr['verdict']}.** {hr['tradeoff']}"]
     if e.get("rejected"):
         L += ["", "**Considered and rejected:** " + " · ".join(f"−{x['cut']} +{x['add']} ({x['by']}: {q(x['why'])})" for x in e["rejected"])]
     L += ["", "### Refinement log", "", "| Date | Cycle | Change | Cards added | Cards removed |", "|---|---|---|---|---|"]
@@ -509,7 +555,7 @@ def summary_page(summ, info, metrics, top, plans):
          "Source lists stay on each deck page, credited to Cory's [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT). "
          "Archidekt exports: [exports/grixis-archidekt/](../exports/grixis-archidekt/README.md).", "",
          f"Grixis source commit used: `{plans.get('source', {}).get('commit', '?')}` ({plans.get('source', {}).get('note', '')}).", "",
-         "## Contents", "- [Status](#status)", "- [Batch log](#batch-log)", "- [Overlap review (manual)](#overlap-review-manual)", "- [All decks: metrics](#all-decks-metrics)", "- [Homogenization](#homogenization)", "- [Method](#method)", "",
+         "## Contents", "- [Status](#status)", "- [Batch log](#batch-log)", "- [Hand reviews](#hand-reviews)", "- [Overlap review (manual)](#overlap-review-manual)", "- [All decks: metrics](#all-decks-metrics)", "- [Homogenization](#homogenization)", "- [Method](#method)", "",
          "## Status", "",
          f"- **Reviewed: {len(done)}/62** decks ({sum(1 for d in done if plans['decks'][d]['swaps'])} refined, {sum(1 for d in done if not plans['decks'][d]['swaps'])} at/near ceiling and unchanged). "
          f"{sum(1 for d in summ if info[d]['pending'])} decks are ⏳ pending legality (measured; exports marked pending).",
@@ -527,6 +573,12 @@ def summary_page(summ, info, metrics, top, plans):
             m = metrics[d]
             L.append(f"- [{nm}](decks/{v['slug']}.md#refined-list-bot-cycle-39): {e['decision']}. Dependence {m['source']['dependence']:.0%} → {m['final']['dependence']:.0%}." +
                      ("".join(f" Cut **{w['cut']}** → add **{w['add']}** ({w['hook']['label']})." for w in e["swaps"])))
+        L.append("")
+    hrs = load_review().get("hand_review", {})
+    if hrs:
+        L += ["## Hand reviews", "", "Decks given a commander-first hand look (guidance; principle 2: no artificial weakening).", ""]
+        for d, x in hrs.items():
+            L += [f"- **[{' + '.join(summ[d]['commanders'])}](decks/{summ[d]['slug']}.md#refined-list-bot-cycle-39)** (Bot cycle {x['cycle']}): **{x['verdict']}.** {x['tradeoff']}"]
         L.append("")
     ov = load_review().get("overlap", {})
     L += ["## Overlap review (manual)", "", "High-overlap pairs judged by hand (Bot cycle 40): is the shared core explained by both commanders' Oracle text, or is it homogenization? Guidance.", ""]
@@ -611,7 +663,8 @@ def main():
         old = {d: plans["decks"].get(d, {}) for d in dids}
         plan(dids, a.plan, R, summ, plans, a.cycle)
         b = plans["batches"].get(str(a.plan), {})
-        plans["batches"][str(a.plan)] = {"cycle": b.get("cycle", a.cycle), "date": b.get("date", dt.date.today().isoformat()), "decks": dids,
+        plans["batches"][str(a.plan)] = {"cycle": b.get("cycle", a.cycle), "date": b.get("date", dt.date.today().isoformat()),
+                                         "decks": b.get("decks", []) + [d for d in dids if d not in b.get("decks", [])],
                                          **({"rechecked": {"cycle": a.cycle, "date": dt.date.today().isoformat()}} if b and b.get("cycle") != a.cycle else {})}
         for d in dids:
             e = plans["decks"][d]
@@ -623,12 +676,16 @@ def main():
                 rej = {(x["cut"], x["add"]): x for x in e.get("rejected", [])}
                 txt = "; ".join([f"reverted −{c} +{ad} ({rej[(c, ad)]['by']}: {rej[(c, ad)]['why']})" if (c, ad) in rej else f"reverted −{c} +{ad}" for c, ad in gone] +
                                 [f"new −{c} +{ad}" for c, ad in new]) or "re-checked: no change"
+                hr = load_review().get("hand_review", {}).get(d)
+                if hr:
+                    txt = f"hand review ({hr['verdict']}): {txt}"
                 plans["log"][d] = prev + [{"date": e["date"], "cycle": a.cycle, "batch": f"{a.plan} re-check", "change": f"power-guard re-check: {txt}",
                                            "added": [c for c, _ in gone] + [ad for _, ad in new], "removed": [ad for _, ad in gone] + [c for c, _ in new]}]
                 continue
             plans["log"][d] = [x for x in plans["log"].get(d, []) if x["batch"] != a.plan] + [{
                 "date": e["date"], "cycle": a.cycle, "batch": a.plan,
-                "change": (f"{len(e['swaps'])} commander-first swap(s): " + "; ".join(f"{w['hook']['label']}" for w in e["swaps"])) if e["swaps"] else "reviewed: " + e["decision"],
+                "change": (f"hand review ({load_review()['hand_review'][d]['verdict']}); " if d in load_review().get("hand_review", {}) else "") +
+                          ((f"{len(e['swaps'])} commander-first swap(s): " + "; ".join(f"{w['hook']['label']}" for w in e["swaps"])) if e["swaps"] else "reviewed: " + e["decision"]),
                 "added": [w["add"] for w in e["swaps"]], "removed": [w["cut"] for w in e["swaps"]]}]
         PLANS.write_text(json.dumps(plans, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     info, metrics, top, problems = render(R, summ, plans, fetch=not a.check)

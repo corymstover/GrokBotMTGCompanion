@@ -21,6 +21,7 @@
 1 Command Tower
 1 Culling the Weak
 1 Dark Ritual
+1 Dauthi Voidwalker
 1 Deflecting Swat
 1 Demonic Consultation
 1 Demonic Counsel
@@ -30,7 +31,6 @@
 1 Essence Flux
 1 Fellwar Stone
 1 Fierce Guardianship
-1 Final Fortune
 1 Flooded Strand
 1 Flusterstorm
 1 Force of Negation
@@ -45,6 +45,7 @@
 1 Into the Flood Maw
 1 Island
 1 Jeska's Will
+1 Liliana's Caress
 1 Lion's Eye Diamond
 1 Lotus Petal
 1 Luxury Suite
@@ -89,7 +90,6 @@
 1 Toxic Deluge
 1 Underground Sea
 1 Underworld Breach
-1 Valley Floodcaller
 1 Vampiric Tutor
 1 Verdant Catacombs
 1 Volcanic Island

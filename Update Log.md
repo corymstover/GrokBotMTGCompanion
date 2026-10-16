@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 41 (Grixis refinement batch 3, hand-picked swaps, hand reviews)](#2026-10-16--bot-cycle-41-grixis-refinement-batch-3-hand-picked-swaps-hand-reviews)
 - [2026-10-16 — Bot cycle 40 (Grixis refinement: power guard, batch-1 re-check, batch 2)](#2026-10-16--bot-cycle-40-grixis-refinement-power-guard-batch-1-re-check-batch-2)
 - [2026-10-16 — Bot cycle 39 (Grixis commander-first refinement, batch 1)](#2026-10-16--bot-cycle-39-grixis-commander-first-refinement-batch-1)
 - [2026-10-16 — Bot cycle 38 (Grixis: 62/62 pages, 2 pending legality)](#2026-10-16--bot-cycle-38-grixis-6262-pages-2-pending-legality)
@@ -54,6 +55,21 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 41 (Grixis refinement batch 3, hand-picked swaps, hand reviews)
+- **Hand-picked swaps:** new `manual_swaps` input in `data/grixis_refine_review.json`. It goes through the same gates as automatic swaps: legality, color identity, bracket, combo-piece protection, role and MV parity, power guard, and a verbatim check on the Oracle quotes. Failures are logged on the deck page.
+- **Batch 3 (13 decks, Jeleva through Mishra, Eminent One):**
+  - 1 refined: Kefka, with 2 hand-picked swaps.
+    - Final Fortune → Liliana's Caress: every Kefka enter/attack discard drains each opponent 2. 33.4% of Kefka decks vs 11.1%; one fewer extra-turn card.
+    - Valley Floodcaller → Dauthi Voidwalker: opponents' discards and Brain Freeze mills are exiled with void counters, so one can be cast. 33.1% vs 16.1%.
+    - Monument to Endurance was rejected by the gates (MV 3 vs Mystic Remora's 1).
+    - The proposed Brain Freeze and Borne Upon a Wind cuts were replaced: Brain Freeze is a Breach combo piece, and Borne is a flash enabler.
+  - 12 at/near ceiling. Lord of Tresserhorn is the legal deck; the pending one is Tresserhorn's Lord, Returned, whose markers are untouched.
+- **Hand reviews:**
+  - Evelyn: an identity-first Vampire version would clearly be weaker. Her "once each turn" play limit means extra Vampire triggers add little, and every candidate would replace a cEDH combo or protection piece. Left unchanged and flagged.
+  - Marchesa, Dealer of Death: the low score was our gap. A new crimes hook raised her dependence from 14% to 56%. The list (recorded by the source as a 2026-10-11 tournament-winning configuration) is identity-driven. Gitaxian Probe was considered and not swapped in.
+- **Source:** pulled again, still at `1836b97`.
+- **Exports** regenerated. `validate_all` PASS.
 
 ## 2026-10-16 — Bot cycle 40 (Grixis refinement: power guard, batch-1 re-check, batch 2)
 Cory tightened the method: precision over speed, no artificial weakening.

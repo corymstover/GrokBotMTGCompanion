@@ -214,6 +214,8 @@ Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
 - **Commander dependence:** 15% → **15%** · generic share 37% → **37%** · mean overlap with the other 61 lists 18% → **18%**.
 - **Decision:** at/near ceiling: all 8 role-compatible candidate swap(s) failed the power guard or manual review; unchanged.
 
+> 🔎 **Hand review (Bot cycle 41): identity-first rebuild assessed, list left unchanged and flagged.** Evelyn's engine is "Once each turn, you may play a card from exile with a collection counter on it", so extra Vampire-enters triggers in one turn only add to the exile pool, not to plays. The list's best line is the cEDH core: Worldgorger Dragon + Animate Dead / Necromancy / Dance of the Dead, Thassa's Oracle + Tainted Pact / Demonic Consultation, and Underworld Breach + Brain Freeze. Evelyn adds one flash card-advantage play per turn from any library. Every Vampire or flicker card on her EDHREC page was checked against the list's weakest slots. Cordial Vampire, Blood Artist, Captivating Vampire, Bloodline Keeper and Dusk Legion Zealot (overall ranks 142–5,228) only fit by replacing a 1-mana combo or protection piece (Reanimate, Defense Grid, Culling the Weak, Vexing Bauble) and fail the power guard or role parity. Viscera Seer (rank 257) is the closest, but it would replace Defense Grid's protection for the combo turn. An identity-first Vampire version would clearly be weaker at the source's stated cEDH ceiling, so no swap is made. Flag: the commander contributes value, not the win line. Revisit if a cEDH-grade Vampire or exile-play payoff is printed.
+
 **Considered and rejected:** −Windfall +Glass-Cast Heart (power guard: overall EDHREC rank 4928 vs cut 159 (more than 4x / +2000 worse)) · −Windfall +Preacher of the Schism (power guard: overall EDHREC rank 4713 vs cut 159 (more than 4x / +2000 worse)) · −Mystic Remora +Dusk Legion Zealot (power guard: overall EDHREC rank 4489 vs cut 101 (more than 4x / +2000 worse)) · −Windfall +Dusk Legion Zealot (power guard: overall EDHREC rank 4489 vs cut 159 (more than 4x / +2000 worse)) · −Mystic Remora +Voldaren Epicure (power guard: overall EDHREC rank 5228 vs cut 101 (more than 4x / +2000 worse)) · −Windfall +Voldaren Epicure (power guard: overall EDHREC rank 5228 vs cut 159 (more than 4x / +2000 worse)) · −Windfall +Anje, Maid of Dishonor (power guard: overall EDHREC rank 7567 vs cut 159 (more than 4x / +2000 worse)) · −Mystic Remora +Bloodtithe Harvester (power guard: overall EDHREC rank 7973 vs cut 101 (more than 4x / +2000 worse))
 
 ### Refinement log
@@ -221,6 +223,7 @@ Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
 | Date | Cycle | Change | Cards added | Cards removed |
 |---|---|---|---|---|
 | 2026-10-16 | Bot cycle 40 (batch 2) | reviewed: at/near ceiling: all 8 role-compatible candidate swap(s) failed the power guard or manual review; unchanged | — | — |
+| 2026-10-16 | Bot cycle 41 (batch 2 re-check) | power-guard re-check: hand review (identity-first rebuild assessed, list left unchanged and flagged): re-checked: no change | — | — |
 <!-- REFINED:END -->
 
 ## Card breakdown

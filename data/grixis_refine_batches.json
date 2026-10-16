@@ -40,6 +40,29 @@
     "Grixistax___October_2026",
     "Gwendlyn_Di_Corci",
     "Inalla__Archmage_Ritualist"
+   ],
+   "rechecked": {
+    "cycle": 41,
+    "date": "2026-10-16"
+   }
+  },
+  "3": {
+   "cycle": 41,
+   "date": "2026-10-16",
+   "decks": [
+    "Jeleva__Nephalia_s_Scourge",
+    "Kefka__Court_Mage",
+    "Kess__Dissident_Mage",
+    "Loki__the_Deceiver",
+    "Lord_Xander__the_Collector",
+    "Lord_of_Tresserhorn",
+    "Lynde__Cheerful_Tormentor",
+    "Mai_and_Zuko",
+    "Mairsil__the_Pretender",
+    "Marchesa__Dealer_of_Death",
+    "Marchesa__the_Black_Rose",
+    "Mishra__Artificer_Prodigy",
+    "Mishra__Eminent_One"
    ]
   }
  },
@@ -360,7 +383,7 @@
   "Evelyn__the_Covetous": {
    "deck": "Evelyn__the_Covetous",
    "batch": 2,
-   "cycle": 40,
+   "cycle": 41,
    "date": "2026-10-16",
    "swaps": [],
    "decision": "at/near ceiling: all 8 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
@@ -579,6 +602,353 @@
     "inalla-archmage-ritualist"
    ],
    "rejected": [],
+   "needs_review": []
+  },
+  "Jeleva__Nephalia_s_Scourge": {
+   "deck": "Jeleva__Nephalia_s_Scourge",
+   "batch": 3,
+   "cycle": 41,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+   "edhrec_pages": [
+    "jeleva-nephalias-scourge"
+   ],
+   "rejected": [],
+   "needs_review": []
+  },
+  "Kefka__Court_Mage": {
+   "deck": "Kefka__Court_Mage",
+   "batch": 3,
+   "cycle": 41,
+   "date": "2026-10-16",
+   "swaps": [
+    {
+     "cut": "Final Fortune",
+     "add": "Liliana's Caress",
+     "cycle": 41,
+     "guard": [
+      "commander-page inclusion 33.4% vs cut 11.1%",
+      "overall EDHREC rank 2404 vs 1531"
+     ],
+     "review": "Every Kefka enter/attack trigger makes each opponent discard, so Caress drains 2 from each opponent per trigger. With the list's Wheel of Fortune, Windfall-style wheels and Gamble-style discards it threatens a lethal drain without combat. After Kefka transforms, his back face draws a card for each point of life an opponent loses during your turn. Final Fortune is a one-turn gamble that loses the game if the combo fails. 33.4% of Kefka decks play Caress against 11.1% for Final Fortune (overall ranks 2,404 vs 1,531, within the guard). It also removes an extra-turn card.",
+     "manual": true,
+     "roles": [
+      "(no key role)"
+     ],
+     "add_roles": [],
+     "hook": {
+      "label": "discard (hand-picked)",
+      "commander": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+      "commander_text": "Whenever Kefka enters or attacks, each player discards a card.",
+      "card_text": "Whenever an opponent discards a card, that player loses 2 life."
+     },
+     "add_edhrec": [
+      26,
+      33.4,
+      10750,
+      32203
+     ],
+     "cut_edhrec": [
+      6,
+      11.1,
+      3571,
+      32203
+     ],
+     "cut_freq": 9,
+     "mv": [
+      2.0,
+      2.0
+     ]
+    },
+    {
+     "cut": "Valley Floodcaller",
+     "add": "Dauthi Voidwalker",
+     "cycle": 41,
+     "guard": [
+      "commander-page inclusion 33.1% vs cut 16.1%",
+      "overall EDHREC rank 395 vs 761"
+     ],
+     "review": "Kefka forces opponents to discard every enter and attack, and Brain Freeze mills them. With Dauthi those cards are exiled with void counters instead, and Dauthi can be sacrificed to play the best one for free. It also turns off opposing graveyard engines. Valley Floodcaller is a second flash enabler that Borne Upon a Wind already covers. Kefka decks play Dauthi 33.1% vs Floodcaller 16.1%; overall rank 395 vs 761. The proposal was Brain Freeze, but that card is a piece of the list's Underworld Breach + Lion's Eye Diamond / Lotus Petal combos and stays.",
+     "manual": true,
+     "roles": [
+      "(no key role)"
+     ],
+     "add_roles": [],
+     "hook": {
+      "label": "discard (hand-picked)",
+      "commander": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+      "commander_text": "Whenever Kefka enters or attacks, each player discards a card.",
+      "card_text": "If a card would be put into an opponent's graveyard from anywhere, instead exile it with a void counter on it."
+     },
+     "add_edhrec": [
+      26,
+      33.1,
+      10646,
+      32203
+     ],
+     "cut_edhrec": [
+      9,
+      16.1,
+      5171,
+      32203
+     ],
+     "cut_freq": 7,
+     "mv": [
+      3.0,
+      2.0
+     ]
+    }
+   ],
+   "decision": "refined: 2 swap(s)",
+   "edhrec_pages": [
+    "kefka-court-mage"
+   ],
+   "rejected": [
+    {
+     "cut": "Mystic Remora",
+     "add": "Monument to Endurance",
+     "by": "manual pick, failed gates",
+     "why": "role/MV parity: cut roles ['draw'] MV 1, add roles ['draw', 'ramp'] MV 3"
+    }
+   ],
+   "needs_review": []
+  },
+  "Kess__Dissident_Mage": {
+   "deck": "Kess__Dissident_Mage",
+   "batch": 3,
+   "cycle": 41,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+   "edhrec_pages": [
+    "kess-dissident-mage"
+   ],
+   "rejected": [],
+   "needs_review": []
+  },
+  "Loki__the_Deceiver": {
+   "deck": "Loki__the_Deceiver",
+   "batch": 3,
+   "cycle": 41,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: all 6 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "loki-the-deceiver"
+   ],
+   "rejected": [
+    {
+     "cut": "Reanimate",
+     "add": "Glorious Purpose",
+     "by": "power guard",
+     "why": "overall EDHREC rank 10622 vs cut 53 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Reanimate",
+     "add": "Skullclamp",
+     "by": "power guard",
+     "why": "commander-page inclusion 28.6% < cut's 30.0% (this commander's players keep the cut more often)"
+    },
+    {
+     "cut": "Reanimate",
+     "add": "Living Lies of Loki",
+     "by": "power guard",
+     "why": "commander-page inclusion 22.9% < cut's 30.0% (this commander's players keep the cut more often); overall EDHREC rank 23906 vs cut 53 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Deflecting Swat",
+     "add": "Kid Loki",
+     "by": "power guard",
+     "why": "overall EDHREC rank 9742 vs cut 74 (more than 4x / +2000 worse); the cut can be cast for free; the add cannot (tempo downgrade)"
+    },
+    {
+     "cut": "Reanimate",
+     "add": "Kid Loki",
+     "by": "power guard",
+     "why": "commander-page inclusion 21.4% < cut's 30.0% (this commander's players keep the cut more often); overall EDHREC rank 9742 vs cut 53 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Reanimate",
+     "add": "HYDRA Assault Robot",
+     "by": "power guard",
+     "why": "commander-page inclusion 18.4% < cut's 30.0% (this commander's players keep the cut more often); overall EDHREC rank 14118 vs cut 53 (more than 4x / +2000 worse)"
+    }
+   ],
+   "needs_review": []
+  },
+  "Lord_Xander__the_Collector": {
+   "deck": "Lord_Xander__the_Collector",
+   "batch": 3,
+   "cycle": 41,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+   "edhrec_pages": [
+    "lord-xander-the-collector"
+   ],
+   "rejected": [],
+   "needs_review": []
+  },
+  "Lord_of_Tresserhorn": {
+   "deck": "Lord_of_Tresserhorn",
+   "batch": 3,
+   "cycle": 41,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+   "edhrec_pages": [
+    "lord-of-tresserhorn"
+   ],
+   "rejected": [],
+   "needs_review": []
+  },
+  "Lynde__Cheerful_Tormentor": {
+   "deck": "Lynde__Cheerful_Tormentor",
+   "batch": 3,
+   "cycle": 41,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "lynde-cheerful-tormentor"
+   ],
+   "rejected": [
+    {
+     "cut": "Toxic Deluge",
+     "add": "Crystal Chimes",
+     "by": "power guard",
+     "why": "overall EDHREC rank 9175 vs cut 65 (more than 4x / +2000 worse)"
+    }
+   ],
+   "needs_review": []
+  },
+  "Mai_and_Zuko": {
+   "deck": "Mai_and_Zuko",
+   "batch": 3,
+   "cycle": 41,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "mai-and-zuko"
+   ],
+   "rejected": [
+    {
+     "cut": "Chaos Warp",
+     "add": "Fire Nation Turret",
+     "by": "power guard",
+     "why": "overall EDHREC rank 6180 vs cut 29 (more than 4x / +2000 worse)"
+    }
+   ],
+   "needs_review": []
+  },
+  "Mairsil__the_Pretender": {
+   "deck": "Mairsil__the_Pretender",
+   "batch": 3,
+   "cycle": 41,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: all 2 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "mairsil-the-pretender"
+   ],
+   "rejected": [
+    {
+     "cut": "Chaos Warp",
+     "add": "Planar Incision",
+     "by": "power guard",
+     "why": "overall EDHREC rank 2263 vs cut 29 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Deadly Rollick",
+     "add": "Planar Incision",
+     "by": "power guard",
+     "why": "overall EDHREC rank 2263 vs cut 106 (more than 4x / +2000 worse); the cut can be cast for free; the add cannot (tempo downgrade)"
+    }
+   ],
+   "needs_review": []
+  },
+  "Marchesa__Dealer_of_Death": {
+   "deck": "Marchesa__Dealer_of_Death",
+   "batch": 3,
+   "cycle": 41,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: all 3 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "marchesa-dealer-of-death"
+   ],
+   "rejected": [
+    {
+     "cut": "Mystic Remora",
+     "add": "Gitaxian Probe",
+     "by": "manual review",
+     "why": "Probe passes the guard (37.4% vs 14.4% of Marchesa decks) and is a free crime cantrip. But the source names Mystic Remora one of the list's card-advantage pillars, and records the list as matching a 2026-10-11 tournament-winning configuration. One extra crime trigger does not clearly outdraw Remora over the early turns at a cEDH table. Precision over speed: no swap without clear evidence."
+    },
+    {
+     "cut": "Mystic Remora",
+     "add": "Duelist of the Mind",
+     "by": "power guard",
+     "why": "overall EDHREC rank 10483 vs cut 101 (more than 4x / +2000 worse)"
+    },
+    {
+     "cut": "Mystic Remora",
+     "add": "Red Death, Shipwrecker",
+     "by": "power guard",
+     "why": "overall EDHREC rank 6357 vs cut 101 (more than 4x / +2000 worse)"
+    }
+   ],
+   "needs_review": []
+  },
+  "Marchesa__the_Black_Rose": {
+   "deck": "Marchesa__the_Black_Rose",
+   "batch": 3,
+   "cycle": 41,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+   "edhrec_pages": [
+    "marchesa-the-black-rose"
+   ],
+   "rejected": [],
+   "needs_review": []
+  },
+  "Mishra__Artificer_Prodigy": {
+   "deck": "Mishra__Artificer_Prodigy",
+   "batch": 3,
+   "cycle": 41,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: commander dependence 86% ≥ 60% and generic share 14% ≤ 15%; unchanged",
+   "edhrec_pages": [
+    "mishra-artificer-prodigy"
+   ]
+  },
+  "Mishra__Eminent_One": {
+   "deck": "Mishra__Eminent_One",
+   "batch": 3,
+   "cycle": 41,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: all 2 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+   "edhrec_pages": [
+    "mishra-eminent-one"
+   ],
+   "rejected": [
+    {
+     "cut": "Deflecting Swat",
+     "add": "Slobad, Goblin Tinkerer",
+     "by": "power guard",
+     "why": "overall EDHREC rank 7742 vs cut 74 (more than 4x / +2000 worse); the cut can be cast for free; the add cannot (tempo downgrade)"
+    },
+    {
+     "cut": "Toxic Deluge",
+     "add": "Sundial of the Infinite",
+     "by": "power guard",
+     "why": "overall EDHREC rank 2796 vs cut 65 (more than 4x / +2000 worse)"
+    }
+   ],
    "needs_review": []
   }
  },
@@ -887,6 +1257,14 @@
     "change": "reviewed: at/near ceiling: all 8 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
     "added": [],
     "removed": []
+   },
+   {
+    "date": "2026-10-16",
+    "cycle": 41,
+    "batch": "2 re-check",
+    "change": "power-guard re-check: hand review (identity-first rebuild assessed, list left unchanged and flagged): re-checked: no change",
+    "added": [],
+    "removed": []
    }
   ],
   "Fire_Lord_Azula": [
@@ -959,6 +1337,142 @@
     "cycle": 40,
     "batch": 2,
     "change": "reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Jeleva__Nephalia_s_Scourge": [
+   {
+    "date": "2026-10-16",
+    "cycle": 41,
+    "batch": 3,
+    "change": "reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Kefka__Court_Mage": [
+   {
+    "date": "2026-10-16",
+    "cycle": 41,
+    "batch": 3,
+    "change": "2 commander-first swap(s): discard (hand-picked); discard (hand-picked)",
+    "added": [
+     "Liliana's Caress",
+     "Dauthi Voidwalker"
+    ],
+    "removed": [
+     "Final Fortune",
+     "Valley Floodcaller"
+    ]
+   }
+  ],
+  "Kess__Dissident_Mage": [
+   {
+    "date": "2026-10-16",
+    "cycle": 41,
+    "batch": 3,
+    "change": "reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Loki__the_Deceiver": [
+   {
+    "date": "2026-10-16",
+    "cycle": 41,
+    "batch": 3,
+    "change": "reviewed: at/near ceiling: all 6 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Lord_Xander__the_Collector": [
+   {
+    "date": "2026-10-16",
+    "cycle": 41,
+    "batch": 3,
+    "change": "reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Lord_of_Tresserhorn": [
+   {
+    "date": "2026-10-16",
+    "cycle": 41,
+    "batch": 3,
+    "change": "reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Lynde__Cheerful_Tormentor": [
+   {
+    "date": "2026-10-16",
+    "cycle": 41,
+    "batch": 3,
+    "change": "reviewed: at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Mai_and_Zuko": [
+   {
+    "date": "2026-10-16",
+    "cycle": 41,
+    "batch": 3,
+    "change": "reviewed: at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Mairsil__the_Pretender": [
+   {
+    "date": "2026-10-16",
+    "cycle": 41,
+    "batch": 3,
+    "change": "reviewed: at/near ceiling: all 2 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Marchesa__Dealer_of_Death": [
+   {
+    "date": "2026-10-16",
+    "cycle": 41,
+    "batch": 3,
+    "change": "hand review (identity confirmed after a scoring fix, list left unchanged); reviewed: at/near ceiling: all 3 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Marchesa__the_Black_Rose": [
+   {
+    "date": "2026-10-16",
+    "cycle": 41,
+    "batch": 3,
+    "change": "reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Mishra__Artificer_Prodigy": [
+   {
+    "date": "2026-10-16",
+    "cycle": 41,
+    "batch": 3,
+    "change": "reviewed: at/near ceiling: commander dependence 86% ≥ 60% and generic share 14% ≤ 15%; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Mishra__Eminent_One": [
+   {
+    "date": "2026-10-16",
+    "cycle": 41,
+    "batch": 3,
+    "change": "reviewed: at/near ceiling: all 2 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
     "added": [],
     "removed": []
    }
@@ -1473,6 +1987,165 @@
      "cards": [
       "Underworld Breach",
       "Grinding Station"
+     ],
+     "infinite": true
+    }
+   ],
+   "queried": "2026-10-16"
+  },
+  "Kefka__Court_Mage": {
+   "sig": [
+    "Ad Nauseam",
+    "An Offer You Can't Refuse",
+    "Ancient Tomb",
+    "Anger",
+    "Arcane Signet",
+    "Arena of Glory",
+    "Arid Mesa",
+    "Badlands",
+    "Beseech the Mirror",
+    "Blood Crypt",
+    "Bloodstained Mire",
+    "Borne Upon a Wind",
+    "Brain Freeze",
+    "Cabal Ritual",
+    "Cavern of Souls",
+    "Chain of Vapor",
+    "Chrome Mox",
+    "City of Brass",
+    "City of Traitors",
+    "Command Tower",
+    "Culling the Weak",
+    "Dark Ritual",
+    "Dauthi Voidwalker",
+    "Deflecting Swat",
+    "Demonic Consultation",
+    "Demonic Counsel",
+    "Demonic Tutor",
+    "Diabolic Intent",
+    "Displacer Kitten",
+    "Essence Flux",
+    "Fellwar Stone",
+    "Fierce Guardianship",
+    "Flooded Strand",
+    "Flusterstorm",
+    "Force of Negation",
+    "Force of Will",
+    "Gamble",
+    "Gemstone Caverns",
+    "Gogo, Mysterious Mime",
+    "Grim Monolith",
+    "Harmonic Prodigy",
+    "Hexing Squelcher",
+    "Imperial Seal",
+    "Into the Flood Maw",
+    "Island",
+    "Jeska's Will",
+    "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "Liliana's Caress",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Luxury Suite",
+    "Mana Confluence",
+    "Mana Vault",
+    "Marsh Flats",
+    "Mental Misstep",
+    "Mindbreak Trap",
+    "Misty Rainforest",
+    "Mnemonic Betrayal",
+    "Molten Duplication",
+    "Morphic Pool",
+    "Mox Diamond",
+    "Mox Opal",
+    "Mystic Remora",
+    "Mystical Tutor",
+    "Necropotence",
+    "Orcish Bowmasters",
+    "Otawara, Soaring City",
+    "Pact of Negation",
+    "Phantasmal Image",
+    "Phyrexian Metamorph",
+    "Polluted Delta",
+    "Pyroblast",
+    "Ragavan, Nimble Pilferer",
+    "Reanimate",
+    "Red Elemental Blast",
+    "Rhystic Study",
+    "Rite of Flame",
+    "Saw in Half",
+    "Scalding Tarn",
+    "Simian Spirit Guide",
+    "Sol Ring",
+    "Starting Town",
+    "Steam Vents",
+    "Swan Song",
+    "Tainted Pact",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Thassa's Oracle",
+    "Tinybones, Bauble Burglar",
+    "Toxic Deluge",
+    "Underground Sea",
+    "Underworld Breach",
+    "Vampiric Tutor",
+    "Verdant Catacombs",
+    "Volcanic Island",
+    "Waste Not",
+    "Watery Grave",
+    "Wheel of Fortune",
+    "Wishclaw Talisman",
+    "Wooded Foothills"
+   ],
+   "combos": [
+    {
+     "id": "742-1295",
+     "cards": [
+      "Demonic Consultation",
+      "Thassa's Oracle"
+     ],
+     "infinite": false
+    },
+    {
+     "id": "1295-3093",
+     "cards": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "infinite": false
+    },
+    {
+     "id": "1368-1414-4856",
+     "cards": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "infinite": true
+    },
+    {
+     "id": "1368-3518-4856",
+     "cards": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "infinite": true
+    },
+    {
+     "id": "1368-1878-2706",
+     "cards": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "infinite": true
+    },
+    {
+     "id": "1368-2706-3518",
+     "cards": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
      ],
      "infinite": true
     }
