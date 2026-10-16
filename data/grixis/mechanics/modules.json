@@ -1,5 +1,5 @@
 {
- "framework_version": "1.2-mech.11",
+ "framework_version": "1.2-mech.12",
  "modules": [
   {
    "assumptions": [
@@ -285,6 +285,48 @@
   },
   {
    "assumptions": [
+    "four-player Commander table (three opponents)",
+    "discard demand counts instructions, not successful cards discarded; empty hands are not simulated",
+    "beginning-of-phase permanent triggers begin on the turn after the source first appears in the end-step trace"
+   ],
+   "confidence": "low",
+   "determinism": "deterministic function of seeded v1.1 zone/cast traces; no extra rng",
+   "does_not_model": [
+    "opponent hand sizes, whether requested discards can actually be paid, card selection/randomness quality, madness or graveyard synergies",
+    "self-discard/loot as an enabler, whole-hand/variable discard, combat-damage discard, opponent-behaviour triggers, conditional effects",
+    "the strategic value of stripping a particular card or whether discard converts into a win",
+    "multiplayer win rates (never produced)"
+   ],
+   "evidence_class": "test_result",
+   "family": "fixed opponent discard pressure",
+   "id": "discard",
+   "limitations": [
+    "Demand is deliberately not converted into card advantage or a generic disruption score."
+   ],
+   "metrics": [
+    "opponent_discard_demand_by_turn",
+    "max_same_turn_opponent_discard_demand",
+    "self_discard_burden"
+   ],
+   "models": [
+    "fixed 'each opponent/other player/target opponent discards N cards' payloads and symmetric each-player discard",
+    "supported event families: one-shot instant/sorcery resolution, ETB, beginning-of-phase, and supported 'whenever you cast' triggers",
+    "cumulative opponent discard demand and maximum same-turn demand by turn 4/6/8/10"
+   ],
+   "parameters": {
+    "opponents": 3,
+    "turns": [
+     4,
+     6,
+     8,
+     10
+    ]
+   },
+   "test_file": "tests/test_mech_pressure_semantics.py",
+   "version": "1"
+  },
+  {
+   "assumptions": [
     "a supported target is legal from its card model's card types/permanent flag; nonland permanent excludes lands",
     "spell/activated liveness is potential access only: costs and timing windows are not paid/simulated",
     "ETB liveness uses the end-of-turn trace and therefore assumes a same-turn graveyard target was available when the ETB trigger resolved",
@@ -437,6 +479,49 @@
     ]
    },
    "test_file": "tests/test_mech_breach_semantics.py",
+   "version": "1"
+  },
+  {
+   "assumptions": [
+    "four-player Commander table (three opponents)",
+    "supported damage is treated as nominal life loss before prevention/replacement effects",
+    "beginning-of-phase permanent triggers begin on the turn after the source first appears in the end-step trace",
+    "cast-trigger frequency uses the same supported cast parser and v1.1 cast trace as cast_triggers"
+   ],
+   "confidence": "low",
+   "determinism": "deterministic function of seeded v1.1 zone/cast traces; no extra rng",
+   "does_not_model": [
+    "damage prevention, infect/wither-style replacement, lifelink, damage doublers/replacers, or player-specific replacement effects",
+    "targeted/choice-based damage, variable X/for-each amounts, combat-damage triggers, death triggers, or conditional/intervening-if effects",
+    "whether life loss is strategically useful or sufficient for a commander threshold; judgment/Step D owns that interpretation",
+    "multiplayer win rates (never produced)"
+   ],
+   "evidence_class": "test_result",
+   "family": "fixed table life loss / damage",
+   "id": "life_loss",
+   "limitations": [
+    "This is pressure/threshold evidence, not a damage-to-win simulation or card-quality score."
+   ],
+   "metrics": [
+    "opponent_life_loss_by_turn",
+    "max_same_turn_opponent_life_loss",
+    "self_life_loss_burden"
+   ],
+   "models": [
+    "fixed 'each opponent/player loses N life' and '~ deals N damage to each opponent/player' payloads",
+    "supported event families: one-shot instant/sorcery resolution, ETB, beginning-of-phase, and supported 'whenever you cast' triggers",
+    "cumulative nominal opponent life loss and maximum same-turn nominal contribution by turn 4/6/8/10"
+   ],
+   "parameters": {
+    "opponents": 3,
+    "turns": [
+     4,
+     6,
+     8,
+     10
+    ]
+   },
+   "test_file": "tests/test_mech_pressure_semantics.py",
    "version": "1"
   },
   {
@@ -967,8 +1052,6 @@
  "planned_families": [
   "commander_specific",
   "death_other",
-  "discard",
-  "life_loss",
   "sacrifice_other",
   "tokens_other"
  ]
