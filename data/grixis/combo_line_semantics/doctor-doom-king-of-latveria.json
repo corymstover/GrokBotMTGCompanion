@@ -1,0 +1,92 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+ "deck_id": "Doctor_Doom__King_of_Latveria",
+ "lines": [
+  {
+   "cards": [
+    "Surly Badgersaur",
+    "Tectonic Reformation",
+    "Dakmor Salvage"
+   ],
+   "combo_id": "779-2546-4467",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "mill"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "R"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:779-2546-4467",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/779-2546-4467"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{R}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite self-discard triggers"
+    ],
+    "steps": "Activate Dakmor Salvage's cycling ability by paying {R} and discarding it.\nSurly Badgersaur's second ability triggers, creating a Treasure token.\nResolve the Dakmor Salvage ability, causing you to mill two cards and return Dakmor Salvage from your graveyard to your hand.\nActivate the Treasure token by tapping and sacrificing it, adding {R}.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "doctor-doom-king-of-latveria",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 1,
+  "direct_endpoint_hint_count": 1,
+  "mana_needed_declared_count": 1,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 1,
+  "zone_mention_count": 2
+ }
+}

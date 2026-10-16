@@ -1,0 +1,1659 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+ "deck_id": "Cormela__Glamour_Thief",
+ "lines": [
+  {
+   "cards": [
+    "Tainted Pact",
+    "Thassa's Oracle"
+   ],
+   "combo_id": "1295-3093",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 0,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "B",
+     "U"
+    ],
+    "endpoint_hints": [],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [
+     "1",
+     "U",
+     "U",
+     "B"
+    ],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 2
+    }
+   },
+   "evidence": [
+    "spellbook:1295-3093",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1295-3093"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "No two cards in library share a name.",
+    "mana_needed": "{1}{U}{U}{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Win the game"
+    ],
+    "steps": "Cast Tainted Pact by paying {1}{B}, exiling your library.\nCast Thassa's Oracle by paying {U}{U}.\nThassa's Oracle enters the battlefield, causing you to win the game."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Dualcaster Mage",
+    "Saw in Half"
+   ],
+   "combo_id": "147-500",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "tokens",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "1",
+     "R",
+     "R"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:147-500",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/147-500"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}{R}{R}",
+    "notable_prerequisites": "You control at least one creature.\nYou have enough mana to cast Saw in Half",
+    "notes": "",
+    "produces": [
+     "Infinite creature tokens",
+     "Infinite creature ETB",
+     "Infinite magecraft triggers",
+     "Infinite creature LTB",
+     "Infinite death triggers"
+    ],
+    "steps": "Cast Saw in Half by paying its mana cost, targeting a creature you control.\nHolding priority, cast Dualcaster Mage by paying {1}{R}{R}.\nWhen Dualcaster Mage enters the battlefield, it triggers, copying Saw in Half, targeting Dualcaster Mage.\nResolve the copy of Saw in Half, destroying Dualcaster Mage and creating two token copies of it with half its toughness and power, rounded up each time.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Dualcaster Mage",
+    "Molten Duplication"
+   ],
+   "combo_id": "147-5487",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "tokens",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "2",
+     "R",
+     "R",
+     "R"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:147-5487",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/147-5487"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}{R}{R}{R}",
+    "notable_prerequisites": "You control at least one creature.\nYou have enough mana to cast Molten Duplication",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite creature tokens with haste",
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast Molten Duplication by paying its mana cost, targeting a creature you control.\nHolding priority, cast Dualcaster Mage by paying {1}{R}{R}.\nWhen Dualcaster Mage enters the battlefield, it triggers, copying Molten Duplication, targeting Dualcaster Mage.\nResolve the copy of Molten Duplication, creating a token copy of Dualcaster Mage.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Demonic Consultation",
+    "Thassa's Oracle"
+   ],
+   "combo_id": "742-1295",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 0,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "B",
+     "U"
+    ],
+    "endpoint_hints": [
+     "mill"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [
+     "U",
+     "U",
+     "B"
+    ],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 2
+    }
+   },
+   "evidence": [
+    "spellbook:742-1295",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/742-1295"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{U}{U}{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Exile your library",
+     "Win the game"
+    ],
+    "steps": "Cast Demonic Consultation by paying {B}, naming Thassa's Oracle and thus exiling your library due to you not having a card named Thassa's Oracle in your library.\nCast Thassa's Oracle by paying {U}{U}.\nThassa's Oracle enters the battlefield, causing you to win the game."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Underworld Breach",
+    "Lotus Petal",
+    "Brain Freeze"
+   ],
+   "combo_id": "1368-1414-4856",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 2,
+     "repeat": 2,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mill",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 6,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1368-1414-4856",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1368-1414-4856"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least six other cards in your graveyard, plus an additional four cards if Brain Freeze is in your graveyard.",
+    "notes": "",
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ],
+    "steps": "Activate Lotus Petal by tapping and sacrificing it, adding {U}.\nCast Lotus Petal from your graveyard for its escape cost by exiling three cards besides Brain Freeze from your graveyard.\nRepeat from step 1 one additional time.\nCast Brain Freeze either from your hand by paying {1}{U}, or from your graveyard for its escape cost by paying {1}{U} and exiling three cards from your graveyard.\nBrain Freeze's storm ability triggers, creating at least two copies of Brain Freeze targeting yourself, and any remaining copies targeting an opponent.\nResolve each Brain Freeze, causing yourself to mill nine cards and, if applicable, an opponent to mill three cards for each Brain Freeze remaining.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Underworld Breach",
+    "Wheel of Fortune",
+    "Jeska's Will"
+   ],
+   "combo_id": "1368-1878-2706",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "draw",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [
+     "2",
+     "R"
+    ],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 6,
+     "hand": 3,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1368-1878-2706",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1368-1878-2706"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}{R}",
+    "notable_prerequisites": "You have at least six additional cards in your graveyard, plus an additional six cards between your hand and/or graveyard.\nAn opponent has at least six cards in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite draw triggers for all players",
+     "Infinite looting for all players",
+     "Near-infinite magecraft triggers",
+     "Near-infinite storm count"
+    ],
+    "steps": "Cast Jeska's Will from your graveyard for its escape cost by paying {2}{R} and exiling three other cards from your graveyard, adding at least six {R}.\nCast Wheel of Fortune from your graveyard for its escape cost by paying {2}{R} and exiling three other cards from your graveyard, causing each player to discard their hand and draw seven cards.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Wheel of Fortune"
+   ],
+   "combo_id": "1368-2706-3518",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "draw",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 5,
+     "hand": 3,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1368-2706-3518",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1368-2706-3518"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least six other cards in hand and/or graveyard.",
+    "notes": "",
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite looting for opponents",
+     "Near-infinite storm count"
+    ],
+    "steps": "Activate Lion's Eye Diamond by discarding your hand and sacrificing it, adding {R}{R}{R}.\nCast Wheel of Fortune from your graveyard for its escape cost by paying {2}{R} and exiling 3 cards from your graveyard.\nResolve Wheel of Fortune, causing each player to discard their hand and draw seven cards.\nCast Lion's Eye Diamond from your graveyard for its escape cost by exiling 3 cards from your graveyard.\n Repeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze"
+   ],
+   "combo_id": "1368-3518-4856",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mill",
+     "mana",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 5,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1368-3518-4856",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1368-3518-4856"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least six other cards in hand and/or graveyard.",
+    "notes": "",
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite colored mana",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill",
+     "Near-infinite storm count"
+    ],
+    "steps": "Activate Lion's Eye Diamond by discarding your hand and sacrificing it, adding {U}{U}{U}.\nCast Lion's Eye Diamond from your graveyard for its escape cost by exiling three cards besides Brain Freeze from your graveyard.\nCast Brain Freeze from your graveyard for its escape cost by paying {1}{U} and exiling three cards from your graveyard.\nBrain Freeze's storm ability triggers, creating at least one copy of Brain Freeze targeting yourself, and any remaining copies targeting an opponent.\nResolve each Brain Freeze, causing yourself to mill six cards and, if applicable, an opponent to mill three cards for each Brain Freeze remaining.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Ashnod's Altar",
+    "Dualcaster Mage",
+    "Shallow Grave"
+   ],
+   "combo_id": "147-1893-2034",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 2,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [
+     "B",
+     "R"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 7
+    },
+    "mana_symbols_declared": [
+     "2",
+     "B",
+     "R",
+     "R"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:147-1893-2034",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/147-1893-2034"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "There's a creature card in your graveyard.",
+    "mana_needed": "{2}{B}{R}{R}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast Shallow Grave by paying its mana cost.\nHolding priority, cast Dualcaster Mage by paying its mana cost.\nWhen Dualcaster Mage enters, it triggers, targeting Shallow Grave.\nHolding priority, activate Ashnod's Altar by sacrificing Dualcaster Mage, adding {C}{C}.\nResolve the Dualcaster Mage trigger, copying Shallow Grave\nResolve the Shallow Grave copy, returning Dualcaster Mage from your graveyard to the battlefield.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Phyrexian Altar",
+    "Dualcaster Mage",
+    "Shallow Grave"
+   ],
+   "combo_id": "147-1893-4050",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 2,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [
+     "B",
+     "R"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 7
+    },
+    "mana_symbols_declared": [
+     "2",
+     "B",
+     "R",
+     "R"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:147-1893-4050",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/147-1893-4050"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "There's a creature card in your graveyard.",
+    "mana_needed": "{2}{B}{R}{R}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite colored mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast Shallow Grave by paying its mana cost.\nHolding priority, cast Dualcaster Mage by paying its mana cost.\nWhen Dualcaster Mage enters, it triggers, targeting Shallow Grave.\nHolding priority, activate Phyrexian Altar by sacrificing Dualcaster Mage, adding one mana of any color.\nResolve the Dualcaster Mage trigger, copying Shallow Grave\nResolve the Shallow Grave copy, returning Dualcaster Mage from your graveyard to the battlefield.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Ashnod's Altar",
+    "Dualcaster Mage",
+    "Demonic Gifts"
+   ],
+   "combo_id": "147-2034-3440",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [
+     "B",
+     "R"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [
+     "2",
+     "B",
+     "R",
+     "R"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:147-2034-3440",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/147-2034-3440"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}{B}{R}{R}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite colorless mana",
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast Demonic Gifts by paying its mana cost.\nHolding priority, cast Dualcaster Mage by paying its mana cost.\nWhen Dualcaster Mage enters, it triggers, copying Demonic Gifts, with the copy targeting Dualcaster Mage.\nResolve the copy of Demonic Gifts.\nHolding priority, activate Ashnod's Altar by sacrificing Dualcaster Mage.\nWhen Dualcaster Mage dies, it triggers, returning it from your graveyard to the battlefield.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Phyrexian Altar",
+    "Dualcaster Mage",
+    "Demonic Gifts"
+   ],
+   "combo_id": "147-3440-4050",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [
+     "B",
+     "R"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [
+     "2",
+     "B",
+     "R",
+     "R"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:147-3440-4050",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/147-3440-4050"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}{B}{R}{R}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite colored mana",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast Demonic Gifts by paying its mana cost.\nHolding priority, cast Dualcaster Mage by paying its mana cost.\nWhen Dualcaster Mage enters, it triggers, copying Demonic Gifts, with the copy targeting Dualcaster Mage.\nResolve the copy of Demonic Gifts.\nHolding priority, activate Phyrexian Altar by sacrificing Dualcaster Mage.\nWhen Dualcaster Mage dies, it triggers, returning it from your graveyard to the battlefield.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Shallow Grave",
+    "Ashnod's Altar"
+   ],
+   "combo_id": "1893-2034-4867",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "1"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1893-2034-4867",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1893-2034-4867"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite blue mana that can only be spent to cast instant and sorcery spells",
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite magecraft triggers",
+     "Infinite red mana that can only be spent to cast instant and sorcery spells",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instant and sorcery spells.\nActivate Ashnod's Altar by sacrificing Cormela, adding {C}{C}.\nCormela dies, returning Shallow Grave from your graveyard to your hand.\nCast Shallow Grave by paying {1}{B}, putting Cormela from your graveyard onto the battlefield.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Shallow Grave",
+    "Phyrexian Altar"
+   ],
+   "combo_id": "1893-4050-4867",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "1"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1893-4050-4867",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1893-4050-4867"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite blue mana that can only be spent to cast instant and sorcery spells",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite magecraft triggers",
+     "Infinite red mana that can only be spent to cast instant and sorcery spells",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instant and sorcery spells.\nActivate Phyrexian Altar by sacrificing Cormela, adding {1}.\nCormela dies, returning Shallow Grave from your graveyard to your hand.\nCast Shallow Grave by paying {1}{B}, putting Cormela from your graveyard onto the battlefield.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Demonic Gifts",
+    "Ashnod's Altar"
+   ],
+   "combo_id": "2034-3440-4867",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 2,
+     "sacrifice": 1,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 9
+    },
+    "mana_symbols_declared": [
+     "1"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2034-3440-4867",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2034-3440-4867"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite blue mana that can only be spent to cast instant and sorcery spells",
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite magecraft triggers",
+     "Infinite red mana that can only be spent to cast instant and sorcery spells",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instant or sorcery spells.\nCast Demonic Gifts by paying {1}{B}, targeting Cormela.\nActivate Ashnod's Altar by sacrificing Cormela, adding {C}{C}.\nWhen Cormela dies, it triggers twice.\nResolve the first trigger, returning Cormela from your graveyard to the battlefield.\nResolve the second trigger, returning Demonic Gifts from your graveyard to your hand.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Goryo's Vengeance",
+    "Ashnod's Altar"
+   ],
+   "combo_id": "2034-3599-4867",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "1"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2034-3599-4867",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2034-3599-4867"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite blue mana that can only be spent to cast instant and sorcery spells",
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite magecraft triggers",
+     "Infinite red mana that can only be spent to cast instant and sorcery spells",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instant and sorcery spells.\nActivate Ashnod's Altar by sacrificing Cormela, adding {C}{C}.\nCormela dies, returning Goryo's Vengeance from your graveyard to your hand.\nCast Goryo's Vengeance by paying {1}{B}, putting Cormela from your graveyard onto the battlefield.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Demonic Gifts",
+    "Phyrexian Altar"
+   ],
+   "combo_id": "3440-4050-4867",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 2,
+     "sacrifice": 1,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 9
+    },
+    "mana_symbols_declared": [
+     "1"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:3440-4050-4867",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3440-4050-4867"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite blue mana that can only be spent to cast instant and sorcery spells",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite magecraft triggers",
+     "Infinite red mana that can only be spent to cast instant and sorcery spells",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instant or sorcery spells.\nCast Demonic Gifts by paying {1}{B}, targeting Cormela.\nActivate Phyrexian Altar by sacrificing Cormela, adding {1}.\nWhen Cormela dies, it triggers twice.\nResolve the first trigger, returning Cormela from your graveyard to the battlefield.\nResolve the second trigger, returning Demonic Gifts from your graveyard to your hand.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Goryo's Vengeance",
+    "Phyrexian Altar"
+   ],
+   "combo_id": "3599-4050-4867",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "1"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:3599-4050-4867",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3599-4050-4867"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite blue mana that can only be spent to cast instant and sorcery spells",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite magecraft triggers",
+     "Infinite red mana that can only be spent to cast instant and sorcery spells",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instant and sorcery spells.\nActivate Phyrexian Altar by sacrificing Cormela, adding {1}.\nCormela dies, returning Goryo's Vengeance from your graveyard to your hand.\nCast Goryo's Vengeance by paying {1}{B}, putting Cormela from your graveyard onto the battlefield.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "Molten Duplication"
+   ],
+   "combo_id": "392-4867-5487",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [
+     "1"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:392-4867-5487",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/392-4867-5487"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite black mana that can only be spent to cast instant and sorcery spells",
+     "Infinite blue mana that can only be spent to cast instant and sorcery spells",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite magecraft triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instant and/or sorcery spells.\nCast Molten Duplication by paying {1}{R}.\nBirgi triggers, adding {R}.\nResolve Molten Duplication, creating a token copy of Cormela.\nPut the tapped Cormela into your graveyard due to the legend rule.\nWhen Cormela dies, it triggers, returning Molten Duplication from your graveyard to your hand.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Saw in Half",
+    "Jeska's Will"
+   ],
+   "combo_id": "500-1878-4867",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 3,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "mill",
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [
+     "2",
+     "R"
+    ],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:500-1878-4867",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/500-1878-4867"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}{R}",
+    "notable_prerequisites": "An opponent has at least four cards in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite blue mana that can only be spent to cast instant and sorcery spells",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ],
+    "steps": "Cast Jeska's Will by paying {2}{R}, adding at least {R}{R}{R}{R}.\nActivate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instand and/or sorcery spells.\nCast Saw in Half by paying {2}{B}, destroying Cormela and creating two token copies of it with base power equal to half the destroyed creature's power and base toughness equal to half the destroyed creature's toughness, rounding up each time.\nPut one of the Cormela tokens into your graveyard due to the legend rule.\nThe Cormela that died in step 3 and the Cormela that died in step 4 each trigger, returning Jeska's Will and Saw in Half from your graveyard to your hand.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Saw in Half",
+    "Dark Ritual"
+   ],
+   "combo_id": "500-2701-4867",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 3,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [
+     "B"
+    ],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:500-2701-4867",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/500-2701-4867"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite black mana",
+     "Infinite blue mana that can only be spent to cast instant and sorcery spells",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite magecraft triggers",
+     "Infinite red mana that can only be spent to cast instant and sorcery spells",
+     "Infinite storm count"
+    ],
+    "steps": "Cast Dark Ritual by paying {B}, adding {B}{B}{B}.\nActivate Cormela by paying {1} and tapping them, adding {U}{B}{R} that can only be used to cast instants or sorceries.\nCast Saw in Half by paying {2}{B} targeting Cormela, destroying them and creating two token copies of Cormela with half the destroyed creature's base power and toughness.\nPut one of the Cormela tokens in the graveyard due to the legend rule.\nThe Cormela that died in step 3 and the Cormela that died in step 4 each trigger when they die, returning Dark Ritual and Saw in Half from your graveyard to your hand.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Saw in Half",
+    "Seething Song"
+   ],
+   "combo_id": "500-4036-4867",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 3,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [
+     "2",
+     "R"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 3,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:500-4036-4867",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/500-4036-4867"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}{R}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite blue mana that can only be spent to cast instant and sorcery spells",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count"
+    ],
+    "steps": "Cast Seething Song by paying {2}{R}, adding {R}{R}{R}{R}{R}.\nActivate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instand and/or sorcery spells.\nCast Saw in Half by paying {2}{B}, destroying Cormela and creating two token copies of it with base power equal to half the destroyed creature's power and base toughness equal to half the destroyed creature's toughness, rounding up each time.\nPut one of the Cormela tokens into your graveyard due to the legend rule.\nThe Cormela that died in step 3 and the Cormela that died in step 4 each trigger, returning Seething Song and Saw in Half from your graveyard to your hand.\nRepeat.\nIf you have seven or more cards in your graveyard, this combo nets infinite mana.\n"
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Saw in Half",
+    "Cabal Ritual"
+   ],
+   "combo_id": "500-4867-4923",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 3,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "B"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [
+     "1",
+     "B"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 3,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:500-4867-4923",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/500-4867-4923"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}{B}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite black mana",
+     "Infinite blue mana that can only be spent to cast instant and sorcery spells",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite magecraft triggers",
+     "Infinite red mana that can only be spent to cast instant and sorcery spells",
+     "Infinite storm count"
+    ],
+    "steps": "Cast Cabal Ritual by paying {1}{B}, adding at least {B}{B}{B}.\nActivate Cormela by paying {1} and tapping it, adding {U}{B}{R} that can only be spent to cast instand and/or sorcery spells.\nCast Saw in Half by paying {2}{B}, destroying Cormela and creating two token copies of it with base power equal to half the destroyed creature's power and base toughness equal to half the destroyed creature's toughness, rounding up each time.\nPut one of the Cormela tokens into your graveyard due to the legend rule.\nThe Cormela that died in step 3 and the Cormela that died in step 4 each trigger, returning Cabal Ritual and Saw in Half from your graveyard to your hand.\nRepeat.\nIf you have seven or more cards in your graveyard, this combo nets infinite mana.\n"
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "cormela-glamour-thief",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 23,
+  "direct_endpoint_hint_count": 4,
+  "mana_needed_declared_count": 20,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 23,
+  "zone_mention_count": 91
+ }
+}

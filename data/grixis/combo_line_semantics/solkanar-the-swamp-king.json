@@ -1,0 +1,829 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+ "deck_id": "Sol_kanar_the_Swamp_King",
+ "lines": [
+  {
+   "cards": [
+    "Painter's Servant",
+    "Grindstone"
+   ],
+   "combo_id": "1078-2302",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 0,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mill"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 1
+    },
+    "mana_symbols_declared": [
+     "3"
+    ],
+    "step_count": 2,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 1
+    }
+   },
+   "evidence": [
+    "spellbook:1078-2302",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1078-2302"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{3}",
+    "notable_prerequisites": "Any color chosen with Painter's Servant.",
+    "notes": "Since you can only target one player, this combo can result either in infinite mill for an opponent or in infinite self-mill, but not both.",
+    "produces": [
+     "Infinite self-mill",
+     "Infinite mill for target opponent"
+    ],
+    "steps": "Activate Grindstone by paying {3} and tapping it, causing target player to mill two cards.\nBecause both cards will share a color due to Painter's Servant, the process in step 1 repeats until the player has milled their entire library."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Marauding Blight-Priest",
+    "Exquisite Blood"
+   ],
+   "combo_id": "110-3966",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:110-3966",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/110-3966"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have a way to gain life.",
+    "notes": "",
+    "produces": [
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite lifegain"
+    ],
+    "steps": "Gain life.\nMarauding Blight-Priest triggers, causing each opponent to lose 1 life.\nExquisite Blood triggers for each opponent that lost life.\nResolve a Exquisite Blood trigger, gaining 1 life.\nRepeat from step 2."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Marauding Blight-Priest",
+    "Bloodthirsty Conqueror"
+   ],
+   "combo_id": "110-6191",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:110-6191",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/110-6191"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have a way to gain life.",
+    "notes": "",
+    "produces": [
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite lifegain"
+    ],
+    "steps": "Gain life.\nMarauding Blight-Priest triggers, causing each opponent to lose 1 life.\nBloodthirsty Conqueror triggers for each opponent that lost life.\nResolve a Bloodthirsty Conqueror trigger, gaining 1 life.\nRepeat from step 2."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Vito, Thorn of the Dusk Rose",
+    "Exquisite Blood"
+   ],
+   "combo_id": "314-3966",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:314-3966",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/314-3966"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have a way to gain life.",
+    "notes": "",
+    "produces": [
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite lifegain"
+    ],
+    "steps": "Gain life.\nVito triggers, causing an opponent to lose 1 life.\nExquisite Blood triggers, causing you to gain 1 life.\nRepeat from step 2."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Vito, Thorn of the Dusk Rose",
+    "Bloodthirsty Conqueror"
+   ],
+   "combo_id": "314-6191",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:314-6191",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/314-6191"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have a way to gain life.",
+    "notes": "",
+    "produces": [
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite lifegain"
+    ],
+    "steps": "Gain life.\nVito triggers, causing an opponent to lose 1 life.\nBloodthirsty Conqueror triggers, causing you to gain 1 life.\nRepeat from step 2."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Aetherflux Reservoir",
+    "Exquisite Blood"
+   ],
+   "combo_id": "3966-4740",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "damage"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:3966-4740",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3966-4740"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least 51 life.",
+    "notes": "",
+    "produces": [
+     "Infinite damage",
+     "Infinite lifegain triggers"
+    ],
+    "steps": "Activate Aetherflux Reservoir by paying 50 life, dealing 50 damage to target opponent.\nExquisite Blood triggers, causing you to gain you 50 life.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Exquisite Blood",
+    "Enduring Tenacity"
+   ],
+   "combo_id": "3966-5755",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:3966-5755",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3966-5755"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have a way to gain life.",
+    "notes": "",
+    "produces": [
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite lifegain"
+    ],
+    "steps": "Gain life.\nEnduring Tenacity triggers, causing an opponent to lose 1 life.\nExquisite Blood triggers, causing you to gain 1 life.\nRepeat from step 2."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Exquisite Blood",
+    "Starscape Cleric"
+   ],
+   "combo_id": "3966-5867",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:3966-5867",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3966-5867"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have a way to gain life.",
+    "notes": "",
+    "produces": [
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite lifegain"
+    ],
+    "steps": "Gain life.\nStarscape Cleric triggers, causing each opponent to lose 1 life.\nExquisite Blood triggers for each opponent that lost life.\nResolve a Exquisite Blood trigger, gaining 1 life.\nRepeat from step 2."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Aetherflux Reservoir",
+    "Bloodthirsty Conqueror"
+   ],
+   "combo_id": "4740-6191",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "damage"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:4740-6191",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/4740-6191"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have at least 51 life.",
+    "notes": "",
+    "produces": [
+     "Infinite damage",
+     "Infinite lifegain triggers"
+    ],
+    "steps": "Activate Aetherflux Reservoir by paying 50 life, dealing 50 damage to target opponent.\nBloodthirsty Conqueror triggers, causing you to gain you 50 life.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Enduring Tenacity",
+    "Bloodthirsty Conqueror"
+   ],
+   "combo_id": "5755-6191",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:5755-6191",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/5755-6191"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have a way to gain life.",
+    "notes": "",
+    "produces": [
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite lifegain"
+    ],
+    "steps": "Gain life.\nEnduring Tenacity triggers, causing an opponent to lose 1 life.\nBloodthirsty Conqueror triggers, causing you to gain 1 life.\nRepeat from step 2."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Starscape Cleric",
+    "Bloodthirsty Conqueror"
+   ],
+   "combo_id": "5867-6191",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:5867-6191",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/5867-6191"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You have a way to gain life.",
+    "notes": "",
+    "produces": [
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite lifegain"
+    ],
+    "steps": "Gain life.\nStarscape Cleric triggers, causing each opponent to lose 1 life.\nBloodthirsty Conqueror triggers for each opponent that lost life.\nResolve a Bloodthirsty Conqueror trigger, gaining 1 life.\nRepeat from step 2."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Sensei's Divining Top",
+    "Bolas's Citadel",
+    "Sheoldred, the Apocalypse"
+   ],
+   "combo_id": "2173-2498-5078",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "draw",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 2
+    }
+   },
+   "evidence": [
+    "spellbook:2173-2498-5078",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2173-2498-5078"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite lifegain",
+     "Near-infinite lifegain triggers",
+     "Near-infinite storm count"
+    ],
+    "steps": "Activate Sense's Divining Top's second ability by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library from the battlefield.\nSheoldred triggers, causing you to gain 2 life\nCast Sensei's Divining Top from the top of your library by paying 1 life.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Sensei's Divining Top",
+    "Aetherflux Reservoir",
+    "Bolas's Citadel"
+   ],
+   "combo_id": "2173-4740-5078",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 2,
+     "repeat": 2,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "damage",
+     "draw",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 2
+    }
+   },
+   "evidence": [
+    "spellbook:2173-4740-5078",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2173-4740-5078"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "Your life total is at least 2.",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite damage",
+     "Near-infinite lifegain",
+     "Near-infinite lifegain triggers",
+     "Near-infinite storm count"
+    ],
+    "steps": "Activate Sensei's Divining Top by tapping it, drawing a card and then putting Sensei's Divining Top on top of your library.\nCast Sensei's Divining Top from the top of your library by paying 1 life.\nAetherflux Reservoir triggers, gaining you 1 life for each spell you have cast this turn.\nRepeat until your life total is 52 or greater.\nActivate Aetherflux Reservoir by paying 50 life, dealing 50 damage to any target.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "solkanar-the-swamp-king",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 13,
+  "direct_endpoint_hint_count": 4,
+  "mana_needed_declared_count": 1,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 13,
+  "zone_mention_count": 6
+ }
+}

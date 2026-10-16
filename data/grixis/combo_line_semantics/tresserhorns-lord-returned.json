@@ -1,0 +1,1456 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
+ "deck_id": "Tresserhorn_s_Lord__Returned",
+ "lines": [
+  {
+   "cards": [
+    "Gravecrawler",
+    "Phyrexian Altar"
+   ],
+   "combo_id": "2577-4050",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2577-4050",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2577-4050"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You control an additional Zombie.",
+    "notes": "",
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Phyrexian Altar by sacrificing Gravecrawler, adding {B}.\nCast Gravecrawler from your graveyard by paying {B}.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "The Locust God",
+    "Ashnod's Altar",
+    "Tresserhorn's Lord, Returned"
+   ],
+   "combo_id": "1339-2034-7920",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "draw",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1339-2034-7920",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1339-2034-7920"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You control at least one additional creature.",
+    "notes": "",
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite colorless mana",
+     "Near-infinite creature ETB",
+     "Near-infinite creature LTB",
+     "Near-infinite creature sacrifice triggers",
+     "Near-infinite death triggers",
+     "Near-infinite lifegain",
+     "Near-infinite lifegain triggers"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing another creature.\nWhen the creature dies, Tresserhorn's Lord triggers, causing you to draw a card.\nThe Locust God triggers, creating a 1/1 Insect creature token with flying and haste.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "The Locust God",
+    "Viscera Seer",
+    "Tresserhorn's Lord, Returned"
+   ],
+   "combo_id": "1339-2292-7920",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "draw",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1339-2292-7920",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1339-2292-7920"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You control at least one additional creature.",
+    "notes": "",
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite colorless mana",
+     "Near-infinite creature ETB",
+     "Near-infinite creature LTB",
+     "Near-infinite creature sacrifice triggers",
+     "Near-infinite death triggers",
+     "Near-infinite lifegain",
+     "Near-infinite lifegain triggers"
+    ],
+    "steps": "Activate Viscera Seer by sacrificing another creature.\nWhen the creature dies, Tresserhorn's Lord triggers, causing you to draw a card.\nThe Locust God triggers, creating a 1/1 Insect creature token with flying and haste.\nResolve the Viscera Seer ability.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "The Locust God",
+    "Carrion Feeder",
+    "Tresserhorn's Lord, Returned"
+   ],
+   "combo_id": "1339-2438-7920",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "draw",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1339-2438-7920",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1339-2438-7920"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You control at least one additional creature.",
+    "notes": "",
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite colorless mana",
+     "Near-infinite creature ETB",
+     "Near-infinite creature LTB",
+     "Near-infinite creature sacrifice triggers",
+     "Near-infinite death triggers",
+     "Near-infinite lifegain",
+     "Near-infinite lifegain triggers"
+    ],
+    "steps": "Activate Carrion Feeder by sacrificing another creature.\nWhen the creature dies, Tresserhorn's Lord triggers, causing you to draw a card.\nThe Locust God triggers, creating a 1/1 Insect creature token with flying and haste.\nResolve the Carrion Feeder ability.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Yawgmoth, Thran Physician",
+    "The Locust God",
+    "Blood Artist"
+   ],
+   "combo_id": "1339-2842-4279",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "draw",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1339-2842-4279",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1339-2842-4279"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Your life total is at least 2.\nYou control at least one additional creature.",
+    "notes": "",
+    "produces": [
+     "Infinite card draw",
+     "Near-infinite lifeloss",
+     "Near-infinite lifegain triggers",
+     "Near-infinite creature ETB",
+     "Infinite draw triggers",
+     "Near-infinite creature LTB",
+     "Near-infinite death triggers",
+     "Near-infinite creature sacrifice triggers",
+     "Near-infinite -1/-1 counters"
+    ],
+    "steps": "Activate Yawgmoth's first ability by paying 1 life and sacrificing another creature.\nWhen the creature dies, Blood Artist triggers, causing you to gain 1 life and an opponent to lose 1 life.\nResolve the Yawgmoth ability, causing you to draw a card and allowing you to put a -1/-1 counter on up to one creature.\nThe Locust God triggers, creating a 1/1 Insect creature token with flying and haste.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "The Locust God",
+    "Phyrexian Altar",
+    "Tresserhorn's Lord, Returned"
+   ],
+   "combo_id": "1339-4050-7920",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "draw",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1339-4050-7920",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1339-4050-7920"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You control at least one additional creature.",
+    "notes": "",
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite colorless mana",
+     "Near-infinite creature ETB",
+     "Near-infinite creature LTB",
+     "Near-infinite creature sacrifice triggers",
+     "Near-infinite death triggers",
+     "Near-infinite lifegain",
+     "Near-infinite lifegain triggers"
+    ],
+    "steps": "Activate Phyrexian Altar by sacrificing another creature.\nWhen the creature dies, Tresserhorn's Lord triggers, causing you to draw a card.\nThe Locust God triggers, creating a 1/1 Insect creature token with flying and haste.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Yawgmoth, Thran Physician",
+    "The Locust God",
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "combo_id": "1339-4279-6578",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "draw",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1339-4279-6578",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1339-4279-6578"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Your life total is at least 2.\nYou control at least one additional creature.",
+    "notes": "Whether Sephiroth, Fabled SOLDIER or Sephiroth, One-Winged Angel is on the battlefield, the combo will function, either by using Sephiroth, Fabled SOLDIER's ability or the ability from Sephiroth, One-Winged Angel's emblem.",
+    "produces": [
+     "Infinite card draw",
+     "Near-infinite lifegain triggers",
+     "Near-infinite creature ETB",
+     "Infinite draw triggers",
+     "Near-infinite creature LTB",
+     "Near-infinite death triggers",
+     "Near-infinite creature sacrifice triggers",
+     "Near-infinite -1/-1 counters",
+     "Near-infinite lifeloss"
+    ],
+    "steps": "Activate Yawgmoth's first ability by paying 1 life and sacrificing another creature.\nWhen the creature dies, Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel triggers, causing you to gain 1 life and an opponent to lose 1 life.\nResolve the Yawgmoth ability, causing you to draw a card and allowing you to put a -1/-1 counter on up to one creature.\nThe Locust God triggers, creating a 1/1 Insect creature token with flying and haste.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "The Locust God",
+    "Goblin Bombardment",
+    "Tresserhorn's Lord, Returned"
+   ],
+   "combo_id": "1339-5147-7920",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "draw",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1339-5147-7920",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1339-5147-7920"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You control at least one additional creature.",
+    "notes": "",
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite colorless mana",
+     "Near-infinite creature ETB",
+     "Near-infinite creature LTB",
+     "Near-infinite creature sacrifice triggers",
+     "Near-infinite death triggers",
+     "Near-infinite lifegain",
+     "Near-infinite lifegain triggers"
+    ],
+    "steps": "Activate Goblin Bombardment by sacrificing another creature.\nWhen the creature dies, Tresserhorn's Lord triggers, causing you to draw a card.\nThe Locust God triggers, creating a 1/1 Insect creature token with flying and haste.\nResolve the Goblin Bombardment ability.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Warren Soultrader",
+    "Gravecrawler",
+    "Zulaport Cutthroat"
+   ],
+   "combo_id": "1385-2577-5670",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 2,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1385-2577-5670",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1385-2577-5670"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Your life total is at least 2.",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Warren Soultrader by paying 1 life and sacrificing Gravecrawler.\nWhen Gravecrawler dies, Zulaport Cutthroat triggers, causing you to gain 1 life and target opponent to lose 1 life.\nResolve the Warren Soultrader ability, creating a Treasure token.\nActivate the Treasure by tapping and sacrificing it, adding {B}.\nCast Gravecrawler from your graveyard by paying {B}.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Gravecrawler",
+    "Pitiless Plunderer",
+    "Ashnod's Altar"
+   ],
+   "combo_id": "2034-2577-4871",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 2,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2034-2577-4871",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2034-2577-4871"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "You control an additional Zombie.",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing Gravecrawler, adding {C}{C}.\nWhen Gravecrawler dies, Pitiless Plunderer triggers, creating a Treasure token.\nActivate the Treasure token by tapping and sacrificing it, adding {B}.\nCast Gravecrawler from your graveyard by paying {B}.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "The Locust God",
+    "Skullclamp",
+    "Ashnod's Altar"
+   ],
+   "combo_id": "228-1339-2034",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "draw",
+     "tokens",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "1"
+    ],
+    "step_count": 8,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:228-1339-2034",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/228-1339-2034"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}",
+    "notable_prerequisites": "You have a way to draw a card.",
+    "notes": "",
+    "produces": [
+     "Infinite card draw",
+     "Near-infinite colorless mana",
+     "Near-infinite creature tokens with haste",
+     "Near-infinite death triggers",
+     "Near-infinite creature ETB",
+     "Near-infinite creature LTB",
+     "Near-infinite creature sacrifice triggers"
+    ],
+    "steps": "Draw a card.\nThe Locust God triggers, creating a 1/1 Insect creature token with flying and haste.\nEquip Skullclamp to the Insect by paying {1}.\nThe Insect dies as a state-based action due to having zero toughness.\nSkullclamp triggers, causing you to draw two cards.\nThe Locust God triggers twice, creating two 1/1 Insect creature tokens with flying and haste.\nActivate Ashnod's Altar by sacrificing an Insect token, adding {C}{C}.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "The Locust God",
+    "Skullclamp",
+    "Phyrexian Altar"
+   ],
+   "combo_id": "228-1339-4050",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "draw",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "1"
+    ],
+    "step_count": 8,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:228-1339-4050",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/228-1339-4050"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}",
+    "notable_prerequisites": "You have a way to draw a card.",
+    "notes": "",
+    "produces": [
+     "Infinite card draw",
+     "Near-infinite death triggers",
+     "Near-infinite creature ETB",
+     "Near-infinite creature LTB",
+     "Near-infinite creature sacrifice triggers"
+    ],
+    "steps": "Draw a card.\nThe Locust God triggers, creating a 1/1 Insect creature token with flying and haste.\nEquip Skullclamp to the Insect by paying {1}.\nThe Insect dies as a state-based action due to having zero toughness.\nSkullclamp triggers, causing you to draw two cards.\nThe Locust God triggers twice, creating two 1/1 Insect creature tokens with flying and haste.\nActivate Phyrexian Altar by sacrificing an Insect token, adding {1}.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "The Locust God",
+    "Skullclamp",
+    "Pitiless Plunderer"
+   ],
+   "combo_id": "228-1339-4871",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 2,
+     "sacrifice": 1,
+     "trigger": 4
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "draw",
+     "tokens",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 8
+    },
+    "mana_symbols_declared": [
+     "1"
+    ],
+    "step_count": 8,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:228-1339-4871",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/228-1339-4871"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}",
+    "notable_prerequisites": "You control a creature whose toughness is equal to one.",
+    "notes": "",
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite creature tokens with haste",
+     "Near-infinite death triggers",
+     "Near-infinite creature ETB",
+     "Near-infinite creature LTB"
+    ],
+    "steps": "Activate Skullclamp's equip ability by paying {1}, attaching it to a creature whose toughness is equal to one.\nThe creature dies as a state-based action due to having zero toughness.\nSkullclamp and Pitiless Plunderer trigger.\nResolve the Skullclamp trigger, causing you to draw two cards.\nThe Locust God triggers twice, creating two 1/1 Insect creature tokens with flying and haste.\nResolve the Pitiless Plunderer trigger, creating a Treasure token.\nActivate the Treasure by tapping and sacrificing it, adding {1}.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Gravecrawler",
+    "Pitiless Plunderer",
+    "Viscera Seer"
+   ],
+   "combo_id": "2292-2577-4871",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 2,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2292-2577-4871",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2292-2577-4871"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "You control an additional Zombie.\nYou control another Zombie.",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "Once you have infinite Treasure tokens, you may repeat this loop spending mana from Treasures instead of the creature tokens, giving you infinite creature tokens.",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite scry 1",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Viscera Seer by sacrificing Gravecrawler.\nWhen Gravecrawler dies, Pitiless Plunderer triggers, creating a Treasure token.\nResolve the Viscera Seer ability.\nActivate the Treasure token by tapping and sacrificing it, adding {B}.\nCast Gravecrawler from your graveyard by paying {B}.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Gravecrawler",
+    "Pitiless Plunderer",
+    "Carrion Feeder"
+   ],
+   "combo_id": "2438-2577-4871",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 2,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2438-2577-4871",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2438-2577-4871"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "You control an additional Zombie.\nYou control another Zombie.",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "Once you have infinite Treasure tokens, you may repeat this loop spending mana from Treasures instead of the creature tokens, giving you infinite creature tokens.",
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Carrion Feeder by sacrificing Gravecrawler.\nWhen Gravecrawler dies, Pitiless Plunderer triggers, creating a Treasure token.\nResolve the Carrion Feeder ability.\nActivate the Treasure token by tapping and sacrificing it, adding {B}.\nCast Gravecrawler from your graveyard by paying {B}.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Warren Soultrader",
+    "Gravecrawler",
+    "Blood Artist"
+   ],
+   "combo_id": "2577-2842-5670",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 2,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2577-2842-5670",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2577-2842-5670"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Your life total is at least 2.",
+    "notes": "",
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Warren Soultrader by paying 1 life and sacrificing Gravecrawler.\nWhen Gravecrawler dies, Blood Artist triggers, causing you to gain 1 life and target opponent to lose 1 life.\nResolve the Warren Soultrader ability, creating a Treasure token.\nActivate the Treasure by tapping and sacrificing it, adding {B}.\nCast Gravecrawler from your graveyard by paying {B}.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Warren Soultrader",
+    "Gravecrawler",
+    "Bastion of Remembrance"
+   ],
+   "combo_id": "2577-3025-5670",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 2,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2577-3025-5670",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2577-3025-5670"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Your life total is at least 2.",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Warren Soultrader by paying 1 life and sacrificing Gravecrawler.\nWhen Gravecrawler dies, Bastion of Remembrance triggers, causing you to gain 1 life and target opponent to lose 1 life.\nResolve the Warren Soultrader ability, creating a Treasure token.\nActivate the Treasure by tapping and sacrificing it, adding {B}.\nCast Gravecrawler from your graveyard by paying {B}.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Gravecrawler",
+    "Pitiless Plunderer",
+    "Goblin Bombardment"
+   ],
+   "combo_id": "2577-4871-5147",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 2,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "damage",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2577-4871-5147",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2577-4871-5147"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "You control an additional Zombie.\nYou control another Zombie.",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "Once you have infinite Treasure tokens, you may repeat this loop spending mana from Treasures instead of the creature tokens, giving you infinite creature tokens.",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite damage",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Goblin Bombardment by sacrificing Gravecrawler.\nWhen Gravecrawler dies, Pitiless Plunderer triggers, creating a Treasure token.\nResolve the Goblin Bombardment ability.\nActivate the Treasure token by tapping and sacrificing it, adding {B}.\nCast Gravecrawler from your graveyard by paying {B}.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Warren Soultrader",
+    "Gravecrawler",
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "combo_id": "2577-5670-6578",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 2,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2577-5670-6578",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2577-5670-6578"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Your life total is at least 2.",
+    "notes": "Whether Sephiroth, Fabled SOLDIER or Sephiroth, One-Winged Angel is on the battlefield, the combo will function, either by using Sephiroth, Fabled SOLDIER's ability or the ability from Sephiroth, One-Winged Angel's emblem.",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite lifegain triggers",
+     "Infinite storm count",
+     "Infinite lifeloss"
+    ],
+    "steps": "Activate Warren Soultrader by paying 1 life and sacrificing Gravecrawler.\nWhen Gravecrawler dies, Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel triggers, causing you to gain 1 life and target opponent to lose 1 life.\nResolve the Warren Soultrader ability, creating a Treasure token.\nActivate the Treasure by tapping and sacrificing it, adding {B}.\nCast Gravecrawler from your graveyard by paying {B}.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "The Locust God",
+    "Woe Strider",
+    "Tresserhorn's Lord, Returned"
+   ],
+   "combo_id": "997-1339-7920",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "draw",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:997-1339-7920",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/997-1339-7920"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You control at least one additional creature.",
+    "notes": "",
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite colorless mana",
+     "Near-infinite creature ETB",
+     "Near-infinite creature LTB",
+     "Near-infinite creature sacrifice triggers",
+     "Near-infinite death triggers",
+     "Near-infinite lifegain",
+     "Near-infinite lifegain triggers"
+    ],
+    "steps": "Activate Woe Strider by sacrificing another creature.\nWhen the creature dies, Tresserhorn's Lord triggers, causing you to draw a card.\nThe Locust God triggers, creating a 1/1 Insect creature token with flying and haste.\nResolve the Woe Strider ability.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Gravecrawler",
+    "Pitiless Plunderer",
+    "Woe Strider"
+   ],
+   "combo_id": "997-2577-4871",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 2,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:997-2577-4871",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/997-2577-4871"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "You control an additional Zombie.\nYou control another Zombie.",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "Once you have infinite Treasure tokens, you may repeat this loop spending mana from Treasures instead of the creature tokens, giving you infinite creature tokens.",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite scry 1",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Woe Strider by sacrificing Gravecrawler.\nWhen Gravecrawler dies, Pitiless Plunderer triggers, creating a Treasure token.\nResolve the Woe Strider ability.\nActivate the Treasure token by tapping and sacrificing it, adding {B}.\nCast Gravecrawler from your graveyard by paying {B}.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "tresserhorns-lord-returned",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 21,
+  "direct_endpoint_hint_count": 1,
+  "mana_needed_declared_count": 3,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 21,
+  "zone_mention_count": 12
+ }
+}

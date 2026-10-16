@@ -1,0 +1,92 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
+ "deck_id": "Saruman__the_White_Hand",
+ "lines": [
+  {
+   "cards": [
+    "Fall of Cair Andros",
+    "Blasphemous Act"
+   ],
+   "combo_id": "1823-2484",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 1,
+     "repeat": 0,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "damage"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [
+     "7",
+     "R"
+    ],
+    "step_count": 2,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1823-2484",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1823-2484"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{7}{R} (at most)",
+    "notable_prerequisites": "An opponent controls a creature with toughness less than 13.",
+    "notes": "",
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite damage to creatures"
+    ],
+    "steps": "Cast Blasphemous Act by paying at most {7}{R}, dealing 13 damage to each creature.\nFor each creature opponents control that is dealt excess damage, Fall of Cair Andros triggers, creating a 0/0 Army if you dont control one, and putting a number of +1/+1 counters on an Army you control equal to the excess damage."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "saruman-the-white-hand",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 1,
+  "direct_endpoint_hint_count": 1,
+  "mana_needed_declared_count": 1,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 1,
+  "zone_mention_count": 0
+ }
+}

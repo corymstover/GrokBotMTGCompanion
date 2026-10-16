@@ -1,0 +1,93 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:6d87a5e4a87ac6dd866849a1f1d31c15e25b5a6a283b9d89b7b398e1f5696f5b",
+ "deck_id": "Ashad__the_Lone_Cyberman",
+ "lines": [
+  {
+   "cards": [
+    "Urza, Lord High Artificer",
+    "Worldwalker Helm",
+    "Artificer Class"
+   ],
+   "combo_id": "66-457-5491",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 3,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mill",
+     "mana",
+     "tokens"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:66-457-5491",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/66-457-5491"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "Artificer Class is level three.",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "Once you have infinite mana, you may use it to activate Urza's ability.",
+    "produces": [
+     "Infinite artifact tokens",
+     "Infinite blue mana",
+     "Exile your library",
+     "Cast all spells in your library",
+     "Infinite Map tokens"
+    ],
+    "steps": "At the beginning of your end step, Artificer Class's level 3 ability triggers, creating a token copy of Worldwalker Helm plus a Map token\nActivate Urza's first ability twice by tapping a Worldwaker Helm and a Map, adding {U}{U}.\nActivate a Worldwalker Helm by paying {1}{U} and tapping it, creating a token copy of the Worldwalker Helm token plus a Map token for each Worldwalker Helm you control.\nActivate Urza's first ability twice by tapping two Maps, adding {U}{U}.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "ashad-the-lone-cyberman",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 1,
+  "direct_endpoint_hint_count": 1,
+  "mana_needed_declared_count": 0,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 1,
+  "zone_mention_count": 0
+ }
+}

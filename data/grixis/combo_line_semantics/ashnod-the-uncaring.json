@@ -1,0 +1,1068 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
+ "deck_id": "Ashnod_the_Uncaring",
+ "lines": [
+  {
+   "cards": [
+    "Dross Scorpion",
+    "Retrofitter Foundry",
+    "Ashnod's Altar"
+   ],
+   "combo_id": "2034-2797-4853",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [
+     "2"
+    ],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2034-2797-4853",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2034-2797-4853"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ],
+    "steps": "Activate Retrofitter Foundry's second ability by paying {2} and tapping it, creating a 1/1 Servo artifact creature token.\nActivate Ashnod's Altar by sacrificing the Servo, adding {C}{C}.\nWhen the Servo dies, Dross Scorpion triggers, untapping Retrofitter Foundry.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Nim Deathmantle",
+    "Ashnod's Altar",
+    "Marionette Apprentice"
+   ],
+   "combo_id": "2034-5003-6199",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 2,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [
+     "2"
+    ],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2034-5003-6199",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2034-5003-6199"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite lifeloss"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing Marionette Apprentice, adding {C}{C}.\nWhen Marionette Apprentice dies, Nim Deathmantle triggers, causing you to pay {4} to return Marionette Apprentice from your graveyard to the battlefield and attach Nim Deathmantle to it.\nWhen Marionette Apprentice enters, it triggers, creating a creature token.\nActivate Ashnod's Altar by sacrificing a creature token, adding {C}{C}.\nWhen the creature token dies, Marionette Apprentice triggers, causing each opponent to lose 1 life.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Dross Scorpion",
+    "Retrofitter Foundry",
+    "Krark-Clan Ironworks"
+   ],
+   "combo_id": "2797-4659-4853",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [
+     "2"
+    ],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2797-4659-4853",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2797-4659-4853"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ],
+    "steps": "Activate Retrofitter Foundry's second ability by paying {2} and tapping it, creating a 1/1 Servo artifact creature token.\nActivate Krark-Clan Ironworks by sacrificing the Servo, adding {C}{C}.\nWhen the Servo dies, Dross Scorpion triggers, untapping Retrofitter Foundry.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Nim Deathmantle",
+    "Ashnod's Altar",
+    "Urza, Lord High Artificer"
+   ],
+   "combo_id": "457-2034-5003",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 2,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mill",
+     "mana",
+     "tokens",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "2"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:457-2034-5003",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/457-2034-5003"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}",
+    "notable_prerequisites": "",
+    "notes": "Once you have infinite mana, you may use it to activate Urza's ability.\r\nYou can also tap the Construct for {U} due to Urza's ability, netting mana and allowing you to not sacrifice the Constructs eventually.",
+    "produces": [
+     "Infinite blue mana",
+     "Infinite colorless mana",
+     "Infinite creature tokens",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Exile your library",
+     "Cast all spells in your library",
+     "Infinite creature tokens that are infinitely large"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing Urza, adding {C}{C}.\nWhen Urza dies, Nim Deathmantle triggers, causing you to pay {4} to return Urza from your graveyard to the battlefield and attach Nim Deathmantle to it.\nWhen Urza enters, it triggers, creating a creature token.\nActivate Ashnod's Altar by sacrificing a creature token, adding {C}{C}.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Farid, Enterprising Salvager",
+    "Nim Deathmantle",
+    "Krark-Clan Ironworks"
+   ],
+   "combo_id": "4659-5003-5272",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 2,
+     "sacrifice": 2,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 7
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:4659-5003-5272",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/4659-5003-5272"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "You control a nontoken artifact creature.",
+    "notes": "",
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Krark-Clan Ironworks by sacrificing a nontoken artifact creature, adding {C}{C}.\nWhen the creature dies, Farid and Nim Deathmantle triggers.\nResolve the Farid trigger, creating a Scrap artifact token.\nActivate Krark-Clan Ironworks by sacrificing the Scrap, adding {C}{C}.\nResolve the Nim Deathmantle trigger from step 2, causing you to pay {4} to return the artifact creature from your graveyard to the battlefield, and attach Nim Deathmantle to it.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Scrap Trawler",
+    "Myr Retriever",
+    "Ashnod's Altar",
+    "Etherium Sculptor"
+   ],
+   "combo_id": "1020-1976-2034-2866",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 2,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1020-1976-2034-2866",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1020-1976-2034-2866"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing Myr Retriever, adding {C}{C}.\nWhen Myr Retriever dies, it triggers, returning Scrap Trawler from your graveyard to your hand.\nCast Scrap Trawler by paying its mana cost, which is reduced by Etherium Sculptor.\nActivate Ashnod's Altar by sacrificing Scrap Trawler, adding {C}{C}.\nWhen Scrap Trawler dies, it triggers, returning Myr Retriever from your graveyard to your hand.\nCast Myr Retriever by paying its mana cost, which is reduced by Etherium Sculptor.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Scrap Trawler",
+    "Myr Retriever",
+    "Krark-Clan Ironworks",
+    "Etherium Sculptor"
+   ],
+   "combo_id": "1020-1976-2866-4659",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 2,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1020-1976-2866-4659",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1020-1976-2866-4659"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Krark-Clan Ironworks by sacrificing Myr Retriever, adding {C}{C}.\nWhen Myr Retriever dies, it triggers, returning Scrap Trawler from your graveyard to your hand.\nCast Scrap Trawler by paying its mana cost, which is reduced by Etherium Sculptor.\nActivate Krark-Clan Ironworks by sacrificing Scrap Trawler, adding {C}{C}.\nWhen Scrap Trawler dies, it triggers, returning Myr Retriever from your graveyard to your hand.\nCast Myr Retriever by paying its mana cost, which is reduced by Etherium Sculptor.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Scrap Trawler",
+    "Myr Retriever",
+    "Ashnod's Altar",
+    "Enthusiastic Mechanaut"
+   ],
+   "combo_id": "1020-2034-2866-4908",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 2,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1020-2034-2866-4908",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1020-2034-2866-4908"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing Myr Retriever, adding {C}{C}.\nWhen Myr Retriever dies, it triggers, returning Scrap Trawler from your graveyard to your hand.\nCast Scrap Trawler by paying its mana cost, which is reduced by Enthusiastic Mechanaut.\nActivate Ashnod's Altar by sacrificing Scrap Trawler, adding {C}{C}.\nWhen Scrap Trawler dies, it triggers, returning Myr Retriever from your graveyard to your hand.\nCast Myr Retriever by paying its mana cost, which is reduced by Enthusiastic Mechanaut.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Sai, Master Thopterist",
+    "Myr Retriever",
+    "Scrap Trawler",
+    "Ashnod's Altar"
+   ],
+   "combo_id": "1020-2034-2866-4947",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 2,
+     "trigger": 4
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "tokens",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 8
+    },
+    "mana_symbols_declared": [],
+    "step_count": 9,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1020-2034-2866-4947",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1020-2034-2866-4947"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite colorless mana",
+     "Infinite creature tokens",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing Scrap Trawler, adding {C}{C}.\nWhen Scrap Trawler dies, it triggers, returning Myr Retriever from your graveyard to your hand.\nCast Myr Retriever by paying {2}.\nSai triggers, creating a 1/1 Thopter artifact creature token.\nActivate Ashnod's Altar twice by sacrificing the Thopter and Myr Retriever, adding {C}{C}{C}{C}.\nWhen Myr Retriever dies, it triggers, returning Scrap Trawler from your graveyard to your hand.\nCast Scrap Trawler by paying {3}.\nSai triggers, creating a 1/1 Thopter artifact creature token.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Crime Novelist",
+    "Ashnod's Altar",
+    "Myr Retriever",
+    "Scrap Trawler"
+   ],
+   "combo_id": "1020-2034-2866-5346",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 2,
+     "sacrifice": 1,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 7
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1020-2034-2866-5346",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1020-2034-2866-5346"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "One of the artifact creatures must be on the battlefield, with the other in your graveyard.",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite storm count",
+     "Infinite +1/+1 counters on a creature",
+     "Infinite colorless mana",
+     "Infinite red mana"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing the artifact creature, adding {C}{C}.\nWhen the artifact creature dies, it and Crime Novelist trigger.\nResolve the artifact creature's trigger, returning the other artifact creature from your graveyard to your hand.\nResolve the Crime Novelist trigger, adding {R} and putting a +1/+1 counter on it.\nCast the artifact creature from your hand by paying its mana cost.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Scrap Trawler",
+    "Myr Retriever",
+    "Krark-Clan Ironworks",
+    "Enthusiastic Mechanaut"
+   ],
+   "combo_id": "1020-2866-4659-4908",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 2,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1020-2866-4659-4908",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1020-2866-4659-4908"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Krark-Clan Ironworks by sacrificing Myr Retriever, adding {C}{C}.\nWhen Myr Retriever dies, it triggers, returning Scrap Trawler from your graveyard to your hand.\nCast Scrap Trawler by paying its mana cost, which is reduced by Enthusiastic Mechanaut.\nActivate Krark-Clan Ironworks by sacrificing Scrap Trawler, adding {C}{C}.\nWhen Scrap Trawler dies, it triggers, returning Myr Retriever from your graveyard to your hand.\nCast Myr Retriever by paying its mana cost, which is reduced by Enthusiastic Mechanaut.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Sai, Master Thopterist",
+    "Myr Retriever",
+    "Scrap Trawler",
+    "Krark-Clan Ironworks"
+   ],
+   "combo_id": "1020-2866-4659-4947",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 2,
+     "trigger": 4
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "tokens",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 8
+    },
+    "mana_symbols_declared": [],
+    "step_count": 9,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1020-2866-4659-4947",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1020-2866-4659-4947"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite colorless mana",
+     "Infinite creature tokens",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Krark-Clan Ironworks by sacrificing Scrap Trawler, adding {C}{C}.\nWhen Scrap Trawler dies, it triggers, returning Myr Retriever from your graveyard to your hand.\nCast Myr Retriever by paying {2}.\nSai triggers, creating a 1/1 Thopter artifact creature token.\nActivate Krark-Clan Ironworks twice by sacrificing the Thopter and Myr Retriever, adding {C}{C}{C}{C}.\nWhen Myr Retriever dies, it triggers, returning Scrap Trawler from your graveyard to your hand.\nCast Scrap Trawler by paying {3}.\nSai triggers, creating a 1/1 Thopter artifact creature token.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Crime Novelist",
+    "Krark-Clan Ironworks",
+    "Myr Retriever",
+    "Scrap Trawler"
+   ],
+   "combo_id": "1020-2866-4659-5346",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 2,
+     "sacrifice": 1,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 7
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1020-2866-4659-5346",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1020-2866-4659-5346"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "One of the artifact creatures must be on the battlefield, with the other in your graveyard.",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite storm count",
+     "Infinite +1/+1 counters on a creature",
+     "Infinite colorless mana",
+     "Infinite red mana"
+    ],
+    "steps": "Activate Krark-Clan Ironworks by sacrificing the artifact creature, adding {C}{C}.\nWhen the artifact creature dies, it and Crime Novelist trigger.\nResolve the artifact creature's trigger, returning the other artifact creature from your graveyard to your hand.\nResolve the Crime Novelist trigger, adding {R} and putting a +1/+1 counter on it.\nCast the artifact creature from your hand by paying its mana cost.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Scrap Trawler",
+    "Myr Retriever",
+    "Ashnod's Altar",
+    "Foundry Inspector"
+   ],
+   "combo_id": "777-1020-2034-2866",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 2,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:777-1020-2034-2866",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/777-1020-2034-2866"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing Myr Retriever, adding {C}{C}.\nWhen Myr Retriever dies, it triggers, returning Scrap Trawler from your graveyard to your hand.\nCast Scrap Trawler by paying its mana cost, which is reduced by Foundry Inspector.\nActivate Ashnod's Altar by sacrificing Scrap Trawler, adding {C}{C}.\nWhen Scrap Trawler dies, it triggers, returning Myr Retriever from your graveyard to your hand.\nCast Myr Retriever by paying its mana cost, which is reduced by Foundry Inspector.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Scrap Trawler",
+    "Myr Retriever",
+    "Krark-Clan Ironworks",
+    "Foundry Inspector"
+   ],
+   "combo_id": "777-1020-2866-4659",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 2,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:777-1020-2866-4659",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/777-1020-2866-4659"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Activate Krark-Clan Ironworks by sacrificing Myr Retriever, adding {C}{C}.\nWhen Myr Retriever dies, it triggers, returning Scrap Trawler from your graveyard to your hand.\nCast Scrap Trawler by paying its mana cost, which is reduced by Foundry Inspector.\nActivate Krark-Clan Ironworks by sacrificing Scrap Trawler, adding {C}{C}.\nWhen Scrap Trawler dies, it triggers, returning Myr Retriever from your graveyard to your hand.\nCast Myr Retriever by paying its mana cost, which is reduced by Foundry Inspector.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "ashnod-the-uncaring",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 15,
+  "direct_endpoint_hint_count": 1,
+  "mana_needed_declared_count": 4,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 15,
+  "zone_mention_count": 48
+ }
+}

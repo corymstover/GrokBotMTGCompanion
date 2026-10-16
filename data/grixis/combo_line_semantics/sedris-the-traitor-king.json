@@ -1,0 +1,95 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:8b145ace962d556ae92e34d7b0056c789f99cba0c40c60bb5828aa1602bded95",
+ "deck_id": "Sedris__the_Traitor_King",
+ "lines": [
+  {
+   "cards": [
+    "Peregrine Drake",
+    "Deadeye Navigator"
+   ],
+   "combo_id": "1409-3821",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 2,
+     "sacrifice": 0,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [
+     "U"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 7
+    },
+    "mana_symbols_declared": [
+     "1",
+     "U"
+    ],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1409-3821",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1409-3821"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}{U}",
+    "notable_prerequisites": "Deadeye Navigator is paired with Peregrine Drake.\nYou control up to five lands that can tap to produce {2}{U}.",
+    "notes": "",
+    "produces": [
+     "Infinite blinking",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite mana lands you control can produce"
+    ],
+    "steps": "Activate Peregrine Drake by paying {1}{U}, blinking itself.\nPeregrine Drake enters the battlefield, triggering itself and Deadeye Navigator.\nResolve the Peregrine Drake trigger, untapping up to five lands you control.\nResolve the Deadeye Navigator trigger, repairing Deadeye Navigator and Peregrine Drake.\nActivate up to five lands you control by tapping them, adding at least {2}{U}.\nRepeat.\nOnce you have infinite mana, you may use Deadeye Navigator's abilities to blink any number of creatures you control any number of times."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "sedris-the-traitor-king",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 1,
+  "direct_endpoint_hint_count": 0,
+  "mana_needed_declared_count": 1,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 1,
+  "zone_mention_count": 1
+ }
+}

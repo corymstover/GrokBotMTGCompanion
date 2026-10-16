@@ -1,0 +1,408 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+ "deck_id": "Mairsil__the_Pretender",
+ "lines": [
+  {
+   "cards": [
+    "Mairsil, the Pretender",
+    "Hateflayer",
+    "Tree of Perdition"
+   ],
+   "combo_id": "2615-4449-5112",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 0,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [
+     "2",
+     "R"
+    ],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2615-4449-5112",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2615-4449-5112"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}{R}",
+    "notable_prerequisites": "Mairsil does not have summoning sickness.\nMairsil's toughness is less than or equal to its power.",
+    "notes": "",
+    "produces": [
+     "Target opponent loses the game"
+    ],
+    "steps": "Activate Mairsil using Tree of Perdition's ability by tapping it, exchanging target opponent's life total with Mairsil's toughness.\nActivate Mairsil using Hateflayer's ability by paying {2}{R} and untapping it, dealing damage equal to Mairsil's power to the opponent.\nThe opponent loses the game due to having zero or less life."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Rings of Brighthearth",
+    "Aphetto Alchemist",
+    "Gilded Lotus"
+   ],
+   "combo_id": "4091-4235-5116",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "untap"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:4091-4235-5116",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/4091-4235-5116"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Aphetto Alchemist does not have summoning sickness.",
+    "notes": "",
+    "produces": [
+     "Infinite colored mana",
+     "Infinite untap of artifacts and creatures"
+    ],
+    "steps": "Activate Gilded Lotus by tapping it, adding three mana of any color.\nActivate Aphetto Alchemist by tapping it.\nRings of Brighthearth triggers, allowing you to pay {2} to copy Aphetto Alchemist's ability and choose a new target for the copy.\nResolve both copies of Aphetto Alchemist's ability, untapping Aphetto Alchemist and Gilded Lotus.\nRepeat.\nOnce you have infinite mana, you may untap any artifact or creature instead of Gilded Lotus in step 4."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mairsil, the Pretender",
+    "Aetherling",
+    "Anger",
+    "Nevinyrral's Disk"
+   ],
+   "combo_id": "1050-4068-4439-5112",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "U"
+    ],
+    "endpoint_hints": [],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [
+     "1",
+     "U"
+    ],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1050-4068-4439-5112",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1050-4068-4439-5112"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}{U}",
+    "notable_prerequisites": "You control a Mountain.",
+    "notes": "",
+    "produces": [
+     "Destroy all creatures, artifacts, and enchantments on each player's turn",
+     "Lock"
+    ],
+    "steps": "Activate Mairsil using Nevinyrral's Disk's ability by paying {1} and tapping it.\nHolding priority, activate Mairsil using Aetherling's first ability by paying {U}, exiling it and returning it to the battlefield at beginning of the next end step.\nResolve the Nevinyrral's Disk's ability, destroying all artifacts, creatures, and enchantments.\nRepeat.\n"
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mairsil, the Pretender",
+    "Quicksilver Elemental",
+    "Gilded Lotus",
+    "Staff of Domination"
+   ],
+   "combo_id": "1369-2645-5112-5116",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 3,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "draw",
+     "untap"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1369-2645-5112-5116",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1369-2645-5112-5116"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Mairsil does not have summoning sickness.",
+    "notes": "",
+    "produces": [
+     "Infinite card draw",
+     "Infinite colored mana",
+     "Infinite draw triggers",
+     "Infinite lifegain",
+     "Infinite lifegain triggers",
+     "Infinite mana creatures you control can produce",
+     "Infinite untap of creatures you control"
+    ],
+    "steps": "Activate Mairsil using Gilded Lotus' ability by tapping it, adding {U}{U}{U}.\nActivate Mairsil using Staff of Domination's first ability by paying {1}, untapping it.\nActivate Mairsil using Quicksilver Elemental's ability by paying {U}, causing it to gain all activated abilities of itself until end of turn.\nRepeat.\nIf desired, you may use any of Staff of Domination's other abilities using Mairsil, and then use Quicksilver Elemental's ability to use them infinitely."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mairsil, the Pretender",
+    "Quicksilver Elemental",
+    "Gilded Lotus",
+    "Horseshoe Crab"
+   ],
+   "combo_id": "1369-3995-5112-5116",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 3,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1369-3995-5112-5116",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1369-3995-5112-5116"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Mairsil does not have summoning sickness.",
+    "notes": "",
+    "produces": [
+     "Infinite colored mana"
+    ],
+    "steps": "Activate Mairsil using Gilded Lotus' ability by tapping it, adding {U}{U}{U}.\nActivate Mairsil using Horseshoe Crab's ability by paying {U}, untapping it.\nActivate Mairsil using Quicksilver Elemental's ability by paying {U}, causing it to gain all activated abilities of itself until end of turn.\nRepeat.\nIf desired, you may use any of Staff of Domination's other abilities using Mairsil, and then use Quicksilver Elemental's ability to use them infinitely."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mairsil, the Pretender",
+    "Morphling",
+    "Gilded Lotus",
+    "Quicksilver Elemental"
+   ],
+   "combo_id": "1369-5112-5116-5137",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 3,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1369-5112-5116-5137",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1369-5112-5116-5137"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Mairsil does not have summoning sickness.",
+    "notes": "",
+    "produces": [
+     "Infinite colored mana"
+    ],
+    "steps": "Activate Mairsil using Gilded Lotus' ability by tapping it, adding {U}{U}{U}.\nActivate Mairsil using Morphling's first ability by paying {U}, untapping Mairsil.\nActivate Mairsil using Quicksilver Elemental's ability by paying {U}, causing Mairsil to gain all activated abilities of itself until end of turn.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "mairsil-the-pretender",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 6,
+  "direct_endpoint_hint_count": 0,
+  "mana_needed_declared_count": 2,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 6,
+  "zone_mention_count": 1
+ }
+}

@@ -1,0 +1,3132 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
+ "deck_id": "Marchesa__the_Black_Rose",
+ "lines": [
+  {
+   "cards": [
+    "Murderous Redcap",
+    "Gev, Scaled Scorch"
+   ],
+   "combo_id": "1657-5805",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1657-5805",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1657-5805"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "An opponent has lost life this turn.",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite death triggers"
+    ],
+    "steps": "Cast Murderous Redcap by paying {2}{B/R}{B/R}.\nMurderous Redcap enters, triggering itself, dealing damage to itself equal to its power.\nMurderous Redcap dies, triggering its persist ability, returning it to the battlefield with a -1/-1 counter and at least one +1/+1 counter from Gev.\nThe -1/-1 counter and a +1/+1 counter are both removed as a state-based action.\nRepeat from step 2."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Murderous Redcap",
+    "Uncivil Unrest"
+   ],
+   "combo_id": "1657-5961",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [
+     "B",
+     "R"
+    ],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [
+     "2",
+     "B/R",
+     "B/R"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 2,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1657-5961",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1657-5961"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}{B/R}{B/R}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite death triggers"
+    ],
+    "steps": "Cast Murderous Redcap by paying {2}{B/R}{B/R}, which enters with a +1/+1 counter on it due to Uncivil Unrest.\nWhen Murderous Redcap enters the battlefield, it triggers, dealing an amount of damage to itself equal to its power.\nMurderous Redcap dies as a state-based action due to having 0 toughness.\nMurderous Redcap's persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to Uncivil Unrest.\nRepeat from step 2."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Ashnod's Altar",
+    "Thran Vigil"
+   ],
+   "combo_id": "2034-2131--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2034-2131--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2034-2131--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing the creature with persist.\nWhen that creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.\nThran Vigil triggers, putting a +1/+1 counter on that creature.\nRemove a +1/+1 counter and a -1/-1 counter from that creature as a state-based action.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Ashnod's Altar",
+    "Gev, Scaled Scorch"
+   ],
+   "combo_id": "2034-5805--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2034-5805--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2034-5805--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "At least one opponent has lost life this turn.",
+    "notes": "",
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing the creature with persist, adding {2}.\nThe persist ability triggers, returning that creature to the battlefield with a -1/-1 counter on it, as well as a +1/+1 counter due to Gev.\nThe +1/+1 and -1/-1 counters on that creature are removed as a state-based action.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Ashnod's Altar",
+    "Uncivil Unrest"
+   ],
+   "combo_id": "2034-5961--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2034-5961--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2034-5961--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing the persist creature.\nWhen the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to Uncivil Unrest.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Viscera Seer",
+    "Thran Vigil"
+   ],
+   "combo_id": "2131-2292--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2131-2292--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2131-2292--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite scry 1"
+    ],
+    "steps": "Activate Viscera Seer by sacrificing the creature with persist.\nWhen that creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.\nThran Vigil triggers, putting a +1/+1 counter on that creature.\nRemove a +1/+1 counter and a -1/-1 counter from that creature as a state-based action.\nResolve the Viscera Seer ability from step 1.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Thran Vigil",
+    "Carrion Feeder"
+   ],
+   "combo_id": "2131-2438--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2131-2438--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2131-2438--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ],
+    "steps": "Activate Carrion Feeder by sacrificing the creature with persist.\nWhen that creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.\nThran Vigil triggers, putting a +1/+1 counter on that creature.\nRemove a +1/+1 counter and a -1/-1 counter from that creature as a state-based action.\nResolve the Carrion Feeder ability from step 1.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Thran Vigil",
+    "Yahenni, Undying Partisan"
+   ],
+   "combo_id": "2131-3967--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2131-3967--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2131-3967--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ],
+    "steps": "Activate Yahenni by sacrificing the creature with persist.\nWhen that creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.\nThran Vigil triggers, putting a +1/+1 counter on that creature.\nRemove a +1/+1 counter and a -1/-1 counter from that creature as a state-based action.\nResolve the Yahenni ability from step 1.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Phyrexian Altar",
+    "Thran Vigil"
+   ],
+   "combo_id": "2131-4050--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2131-4050--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2131-4050--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite colored mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ],
+    "steps": "Activate Phyrexian Altar by sacrificing the creature with persist.\nWhen that creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.\nThran Vigil triggers, putting a +1/+1 counter on that creature.\nRemove a +1/+1 counter and a -1/-1 counter from that creature as a state-based action.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Goblin Bombardment",
+    "Thran Vigil"
+   ],
+   "combo_id": "2131-5147--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "damage",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2131-5147--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2131-5147--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite damage",
+     "Infinite death triggers"
+    ],
+    "steps": "Activate Goblin Bombardment by sacrificing the creature with persist.\nWhen that creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.\nThran Vigil triggers, putting a +1/+1 counter on that creature.\nRemove a +1/+1 counter and a -1/-1 counter from that creature as a state-based action.\nResolve the Goblin Bombardment ability from step 1.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Altar of Dementia",
+    "Thran Vigil"
+   ],
+   "combo_id": "2131-5256--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mill",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2131-5256--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2131-5256--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite mill",
+     "Infinite self-mill"
+    ],
+    "steps": "Activate Altar of Dementia by sacrificing the creature with persist.\nWhen that creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.\nThran Vigil triggers, putting a +1/+1 counter on that creature.\nRemove a +1/+1 counter and a -1/-1 counter from that creature as a state-based action.\nResolve the Altar of Dementia ability from step 1.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Viscera Seer",
+    "Gev, Scaled Scorch"
+   ],
+   "combo_id": "2292-5805--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2292-5805--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2292-5805--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "At least one opponent has lost life this turn.",
+    "notes": "",
+    "produces": [
+     "Infinite scry 1",
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ],
+    "steps": "Activate Viscera Seer by sacrificing the creature with persist.\nThe persist ability triggers, returning that creature to the battlefield with a -1/-1 counter on it, as well as a +1/+1 counter due to Gev.\nThe +1/+1 and -1/-1 counters on that creature are removed as a state-based action.\nResolve the ability from step 1, scrying 1.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Viscera Seer",
+    "Uncivil Unrest"
+   ],
+   "combo_id": "2292-5961--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2292-5961--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2292-5961--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers",
+     "Infinite scry 1"
+    ],
+    "steps": "Activate Viscera Seer by sacrificing the persist creature.\nWhen the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to Uncivil Unrest\nResolve the Viscera Seer ability.\nRepeat"
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Carrion Feeder",
+    "Gev, Scaled Scorch"
+   ],
+   "combo_id": "2438-5805--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2438-5805--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2438-5805--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "At least one opponent has lost life this turn.",
+    "notes": "",
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ],
+    "steps": "Activate Carrion Feeder by sacrificing the creature with persist.\nThe persist ability triggers, returning that creature to the battlefield with a -1/-1 counter on it, as well as a +1/+1 counter due to Gev.\nThe +1/+1 and -1/-1 counters on that creature are removed as a state-based action.\nResolve the ability from step 1, putting a +1/+1 counter on Carrion Feeder.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Carrion Feeder",
+    "Uncivil Unrest"
+   ],
+   "combo_id": "2438-5961--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2438-5961--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2438-5961--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Carrion Feeder by sacrificing the persist creature.\nWhen the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to Uncivil Unrest\nResolve the Carrion Feeder ability.\nRepeat"
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Murderous Redcap",
+    "Metallic Mimic"
+   ],
+   "combo_id": "345-1657",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [
+     "B",
+     "R"
+    ],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [
+     "2",
+     "B/R",
+     "B/R"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 2,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:345-1657",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/345-1657"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "\"Goblin\" or \"Assassin\" chosen with Metallic Mimic.",
+    "mana_needed": "{2}{B/R}{B/R}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite death triggers"
+    ],
+    "steps": "Cast Murderous Redcap by paying {2}{B/R}{B/R}, which enters with a +1/+1 counter on it due to Metallic Mimic.\nWhen Murderous Redcap enters the battlefield, it triggers, dealing an amount of damage to itself equal to its power.\nMurderous Redcap dies as a state-based action due to having 0 toughness.\nMurderous Redcap's persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to Metallic Mimic.\nRepeat from step 2."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Ashnod's Altar",
+    "Metallic Mimic"
+   ],
+   "combo_id": "345-2034--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:345-2034--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/345-2034--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing the persist creature.\nWhen the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to Metallic Mimic.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Viscera Seer",
+    "Metallic Mimic"
+   ],
+   "combo_id": "345-2292--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:345-2292--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/345-2292--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers",
+     "Infinite scry 1"
+    ],
+    "steps": "Activate Viscera Seer by sacrificing the persist creature.\nWhen the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to Metallic Mimic\nResolve the Viscera Seer ability.\nRepeat"
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Metallic Mimic",
+    "Carrion Feeder"
+   ],
+   "combo_id": "345-2438--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:345-2438--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/345-2438--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Carrion Feeder by sacrificing the persist creature.\nWhen the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to Metallic Mimic\nResolve the Carrion Feeder ability.\nRepeat"
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Metallic Mimic",
+    "Yahenni, Undying Partisan"
+   ],
+   "combo_id": "345-3967--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:345-3967--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/345-3967--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Yahenni by sacrificing the persist creature.\nWhen the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to Metallic Mimic\nResolve the Yahenni ability.\nRepeat"
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Phyrexian Altar",
+    "Metallic Mimic"
+   ],
+   "combo_id": "345-4050--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:345-4050--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/345-4050--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite colored mana",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Phyrexian Altar by sacrificing the persist creature.\nWhen the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to Metallic Mimic.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Goblin Bombardment",
+    "Metallic Mimic"
+   ],
+   "combo_id": "345-5147--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "damage",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:345-5147--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/345-5147--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite damage",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Goblin Bombardment by sacrificing the persist creature.\nWhen the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to Metallic Mimic\nResolve the Goblin Bombardment ability.\nRepeat"
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Altar of Dementia",
+    "Metallic Mimic"
+   ],
+   "combo_id": "345-5256--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mill",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:345-5256--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/345-5256--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite death triggers",
+     "Infinite mill",
+     "Infinite creature sacrifice triggers",
+     "Infinite self-mill"
+    ],
+    "steps": "Activate Altar of Dementia by sacrificing the persist creature.\nWhen the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to Metallic Mimic\nResolve the Altar of Dementia ability.\nRepeat"
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Yahenni, Undying Partisan",
+    "Gev, Scaled Scorch"
+   ],
+   "combo_id": "3967-5805--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:3967-5805--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3967-5805--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "At least one opponent has lost life this turn.",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ],
+    "steps": "Activate Yahenni by sacrificing the creature with persist.\nThe persist ability triggers, returning that creature to the battlefield with a -1/-1 counter on it, as well as a +1/+1 counter due to Gev.\nThe +1/+1 and -1/-1 counters on that creature are removed as a state-based action.\nResolve the ability from step 1, giving it indestructible until end of turn.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Yahenni, Undying Partisan",
+    "Uncivil Unrest"
+   ],
+   "combo_id": "3967-5961--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:3967-5961--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3967-5961--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Yahenni by sacrificing the persist creature.\nWhen the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to Uncivil Unrest\nResolve the Yahenni ability.\nRepeat"
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Phyrexian Altar",
+    "Gev, Scaled Scorch"
+   ],
+   "combo_id": "4050-5805--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:4050-5805--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/4050-5805--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "At least one opponent has lost life this turn.",
+    "notes": "",
+    "produces": [
+     "Infinite colored mana",
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ],
+    "steps": "Activate Phyrexian Altar by sacrificing the creature with persist, adding one mana of any color.\nThe persist ability triggers, returning that creature to the battlefield with a -1/-1 counter on it, as well as a +1/+1 counter due to Gev.\nThe +1/+1 and -1/-1 counters on that creature are removed as a state-based action.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Phyrexian Altar",
+    "Uncivil Unrest"
+   ],
+   "combo_id": "4050-5961--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:4050-5961--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/4050-5961--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite colored mana",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Phyrexian Altar by sacrificing the persist creature.\nWhen the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to Uncivil Unrest.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Goblin Bombardment",
+    "Gev, Scaled Scorch"
+   ],
+   "combo_id": "5147-5805--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "damage",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:5147-5805--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/5147-5805--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "At least one opponent has lost life this turn.",
+    "notes": "",
+    "produces": [
+     "Infinite damage",
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ],
+    "steps": "Activate Goblin Bombardment by sacrificing the creature with persist.\nThe persist ability triggers, returning that creature to the battlefield with a -1/-1 counter on it, as well as a +1/+1 counter due to Gev.\nThe +1/+1 and -1/-1 counters on that creature are removed as a state-based action.\nResolve the ability from step 1, dealing 1 damage to any target.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Goblin Bombardment",
+    "Uncivil Unrest"
+   ],
+   "combo_id": "5147-5961--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "damage",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:5147-5961--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/5147-5961--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite damage",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Goblin Bombardment by sacrificing the persist creature.\nWhen the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to Uncivil Unrest\nResolve the Goblin Bombardment ability.\nRepeat"
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Altar of Dementia",
+    "Gev, Scaled Scorch"
+   ],
+   "combo_id": "5256-5805--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 2,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mill",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:5256-5805--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/5256-5805--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "At least one opponent has lost life this turn.",
+    "notes": "",
+    "produces": [
+     "Infinite self-mill",
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite mill"
+    ],
+    "steps": "Activate Altar of Dementia by sacrificing the creature with persist.\nThe persist ability triggers, returning that creature to the battlefield with a -1/-1 counter on it, as well as a +1/+1 counter due to Gev.\nThe +1/+1 and -1/-1 counters on that creature are removed as a state-based action.\nResolve the ability from step 1, milling target player a number of cards equal to the sacrificed creature's power.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Altar of Dementia",
+    "Uncivil Unrest"
+   ],
+   "combo_id": "5256-5961--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mill",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:5256-5961--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/5256-5961--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite death triggers",
+     "Infinite mill",
+     "Infinite creature sacrifice triggers",
+     "Infinite self-mill"
+    ],
+    "steps": "Activate Altar of Dementia by sacrificing the persist creature.\nWhen the persist creature dies, its persist ability triggers, returning it from your graveyard to the battlefield without a -1/-1 counter on it due to Uncivil Unrest\nResolve the Altar of Dementia ability.\nRepeat"
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Ashnod's Altar"
+   ],
+   "combo_id": "628-2034--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 2,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 2,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:628-2034--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/628-2034--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing the creature with persist, adding {C}{C}.\nWhen that creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.\nActivate Ashnod's Altar by sacrificing the persist creature, adding {C}{C}.\nWhen the persist creature dies, its undying ability triggers, returning it from your graveyard to the battlefield with a +1/+1 counter on it.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Viscera Seer"
+   ],
+   "combo_id": "628-2292--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 2,
+     "sacrifice": 2,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 2,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:628-2292--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/628-2292--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite scry 1"
+    ],
+    "steps": "Activate Viscera Seer by sacrificing the creature with persist.\nWhen that creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.\nResolve the Viscera Seer ability.\nActivate Viscera Seer by sacrificing the persist creature.\nWhen the persist creature dies, its undying ability triggers, returning it from your graveyard to the battlefield with a +1/+1 counter on it.\nResolve the Viscera Seer ability.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Carrion Feeder"
+   ],
+   "combo_id": "628-2438--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 2,
+     "sacrifice": 2,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 2,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:628-2438--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/628-2438--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ],
+    "steps": "Activate Carrion Feeder by sacrificing the creature with persist.\nWhen that creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.\nResolve the Carrion Feeder ability.\nActivate Carrion Feeder by sacrificing the persist creature.\nWhen the persist creature dies, its undying ability triggers, returning it from your graveyard to the battlefield with a +1/+1 counter on it.\nResolve the Carrion Feeder ability.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Yahenni, Undying Partisan"
+   ],
+   "combo_id": "628-3967--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 2,
+     "sacrifice": 2,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 2,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:628-3967--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/628-3967--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ],
+    "steps": "Activate Yahenni by sacrificing the creature with persist.\nWhen that creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.\nResolve the Yahenni ability.\nActivate Yahenni by sacrificing the persist creature.\nWhen the persist creature dies, its undying ability triggers, returning it from your graveyard to the battlefield with a +1/+1 counter on it.\nResolve the Yahenni ability.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Phyrexian Altar"
+   ],
+   "combo_id": "628-4050--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 2,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 2,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:628-4050--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/628-4050--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite colored mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ],
+    "steps": "Activate Phyrexian Altar by sacrificing the creature with persist, adding one mana.\nWhen that creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.\nActivate Phyrexian Altar by sacrificing the persist creature, adding one mana.\nWhen the persist creature dies, its undying ability triggers, returning it from your graveyard to the battlefield with a +1/+1 counter on it.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Goblin Bombardment"
+   ],
+   "combo_id": "628-5147--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 2,
+     "sacrifice": 2,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "damage",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 2,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:628-5147--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/628-5147--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite damage",
+     "Infinite death triggers"
+    ],
+    "steps": "Activate Goblin Bombardment by sacrificing the creature with persist.\nWhen that creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.\nResolve the Goblin Bombardment ability.\nActivate Goblin Bombardment by sacrificing the persist creature.\nWhen the persist creature dies, its undying ability triggers, returning it from your graveyard to the battlefield with a +1/+1 counter on it.\nResolve the Goblin Bombardment ability.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Altar of Dementia"
+   ],
+   "combo_id": "628-5256--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 2,
+     "sacrifice": 2,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mill",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 2,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:628-5256--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/628-5256--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite mill",
+     "Infinite self-mill"
+    ],
+    "steps": "Activate Altar of Dementia by sacrificing the creature with persist.\nWhen that creature dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.\nResolve the Altar of Dementia ability.\nActivate Altar of Dementia by sacrificing the persist creature.\nWhen the persist creature dies, its undying ability triggers, returning it from your graveyard to the battlefield with a +1/+1 counter on it.\nResolve the Altar of Dementia ability.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Ashnod's Altar",
+    "Flayer of the Hatebound",
+    "Sage of Fables"
+   ],
+   "combo_id": "1123-2034-4866",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 0,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "damage",
+     "draw",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "2"
+    ],
+    "step_count": 3,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1123-2034-4866",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1123-2034-4866"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}",
+    "notable_prerequisites": "No +1/+1 counter on Flayer or",
+    "notes": "",
+    "produces": [
+     "Infinite card draw",
+     "Infinite damage",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Sacrifice Flayer to Altar, adding {C}{C} and triggering Undying and then Flayer's damage trigger.\nPay {2} to activate Sage of Fables, removing the counter from Flayer and drawing a card.\nNote you may hold priority while the Sage of Fables draw trigger is on the stack and continue the combo without drawing cards to avoid decking."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Spark Double",
+    "Murderous Redcap",
+    "Ashnod's Altar"
+   ],
+   "combo_id": "1657-2034-3908",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "damage",
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 4,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1657-2034-3908",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1657-2034-3908"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite damage",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing Spark Double, adding {C}{C}.\nWhen Spark Double dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.\nAs Spark Double enters the battlefield, choose to have it enter the battlefield as a copy of Murderous Redcap with a +1/+1 counter on it.\nWhen Spark Double enters the battlefield, it triggers, dealing damage equal to its power to any target.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Spark Double",
+    "Murderous Redcap",
+    "Viscera Seer"
+   ],
+   "combo_id": "1657-2292-3908",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "U"
+    ],
+    "endpoint_hints": [
+     "damage",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [
+     "3",
+     "U"
+    ],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1657-2292-3908",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1657-2292-3908"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{3}{U}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite damage",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite scry"
+    ],
+    "steps": "Cast Spark Double choosing to have it enter as a copy of Murderous Redcap, dealing 3 damage to any target.\nSacrifice the Spark Double to Viscera Seer, triggering persist.\nThe -1/-1 counter from persist and the +1/+1 counter from Spark Double cancel each other out and you deal 2 damage to any target.\nRepeat until opponent are dead."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Spark Double",
+    "Glen Elendra Archmage",
+    "Ashnod's Altar"
+   ],
+   "combo_id": "2034-2831-3908",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 3,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2034-2831-3908",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2034-2831-3908"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing Spark Double, adding {C}{C}.\nWhen Spark Double dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.\nAs Spark Double enters the battlefield, choose to have it enter the battlefield as a copy of Glen Elendra Archmage with a +1/+1 counter on it.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Spark Double",
+    "River Kelpie",
+    "Ashnod's Altar"
+   ],
+   "combo_id": "2034-3607-3908",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 3
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "draw",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 4,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2034-3607-3908",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2034-3607-3908"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite colorless mana",
+     "Near-infinite death triggers",
+     "Near-infinite creature ETB",
+     "Near-infinite creature LTB",
+     "Near-infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing Spark Double, adding {C}{C}.\nWhen Spark Double dies, its persist ability triggers, returning it from your graveyard to the battlefield with a -1/-1 counter on it.\nAs Spark Double enters the battlefield, choose to have it enter the battlefield as a copy of River Kelpie with a +1/+1 counter on it.\nWhen Spark Double enters the battlefield, it and River Kelpie's first abilities trigger.\nResolve both triggers, causing you to draw two cards.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Spark Double",
+    "Puppeteer Clique",
+    "Altar of Dementia"
+   ],
+   "combo_id": "3020-3908-5256",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [
+     "U"
+    ],
+    "endpoint_hints": [
+     "mill",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "3",
+     "U"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 1
+    }
+   },
+   "evidence": [
+    "spellbook:3020-3908-5256",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3020-3908-5256"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{3}{U}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite mill",
+     "Infinite creature sacrifice triggers"
+    ],
+    "steps": "Cast Spark Double, choosing to have it enter as a copy of Puppeteer Clique.\nResolve its ETB trigger.\nSacrifice it to Altar of Dementia targeting an opponent.\nPersist triggers, returning Spark Double with a -1/-1 counter, which is removed because of the +1/+1 counter that Spark Double enters with.\nRepeat to get every creature out of each opponent library and mill them all out."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Yawgmoth, Thran Physician",
+    "Gray Merchant of Asphodel"
+   ],
+   "combo_id": "328-628-4279",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 2,
+     "sacrifice": 2,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "draw",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [],
+    "step_count": 8,
+    "zone_mentions": {
+     "battlefield": 3,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:328-628-4279",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/328-628-4279"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Your life total is at least 2.\nYou control at least one additional nontoken non-Human creature with toughness two or greater.",
+    "notes": "",
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite death triggers",
+     "Near-infinite creature ETB",
+     "Near-infinite lifegain",
+     "Near-infinite lifegain triggers",
+     "Near-infinite lifeloss",
+     "Near-infinite creature LTB",
+     "Near-infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Yawgmoth by paying 1 life and sacrificing Gray Merchant, targeting any other nontoken non-Human creature you control.\nGray Merchant dies, triggering its undying ability, returning it from your graveyard to the battlefield with a +1/+1 counter on it.\nGray Merchant enters the battlefield, causing each opponent to lose life equal to your devotion to black, and causing you to gain life equal to the life lost this way.\nResolve the Yawgmoth ability from step 1, putting a -1/-1 counter on the additional creature and causing you to draw a card.\nActivate Yawgmoth by paying 1 life and sacrificing the additional creature, targeting Gray Merchant.\nThe creature dies, triggering its undying ability, returning it from your graveyard to the battlefield with a +1/+1 counter on it.\nResolve the Yawgmoth ability, putting a -1/-1 counter on Gray Merchant and causing you to draw a card.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Murderous Redcap",
+    "Metallic Mimic",
+    "Viscera Seer"
+   ],
+   "combo_id": "345-1657-2292",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "damage",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:345-1657-2292",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/345-1657-2292"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "\"Goblin\" chosen with Metallic Mimic.",
+    "notes": "",
+    "produces": [
+     "Infinite damage",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ],
+    "steps": "Activate Viscera Seer by sacrificing Murderous Redcap.\nMurderous Redcap persist ability triggers, returning it to the battlefield, dealing damage equal to its power to any target.\nResolve Viscera Seer's ablity, causing you to scry one.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Sage of Fables",
+    "Ashnod's Altar"
+   ],
+   "combo_id": "628-2034-4866",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 1,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "draw",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 1,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:628-2034-4866",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/628-2034-4866"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Sage of Fables does not have a +1/+1 counter on it.",
+    "notes": "",
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite death triggers",
+     "Near-infinite creature ETB",
+     "Near-infinite creature LTB",
+     "Near-infinite creature sacrifice triggers"
+    ],
+    "steps": "Activate Ashnod's Altar by sacrificing Sage of Fables, adding {C}{C}.\nWhen Sage of Fables dies, its undying ability triggers, returning it from your graveyard to the battlefield with a +1/+1 counter on it.\nActivate Sage of Fables by paying {2} and removing the +1/+1 counter from it, causing you to draw a card.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Warren Soultrader",
+    "Blood Artist"
+   ],
+   "combo_id": "628-2842-5670--5",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 4,
+     "sacrifice": 1,
+     "trigger": 6
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "tokens",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 11
+    },
+    "mana_symbols_declared": [],
+    "step_count": 7,
+    "zone_mentions": {
+     "battlefield": 2,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 2,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:628-2842-5670--5",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/628-2842-5670--5"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "Your life total is at least 2.",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens",
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite colored mana",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite Treasure tokens"
+    ],
+    "steps": "Activate Warren Soultrader by paying 1 life and sacrificing the persist creature.\nWhen the persist creature dies, its persist ability triggers if it didn't have a -1/-1 counter on it, and its undying ability triggers if it didn't have a +1/+1 counter on it. Blood Artist also triggers regardless.\nResolve the Blood Artist trigger, causing target opponent to lose 1 life and you to gain 1 life.\nResolve the persist trigger, if applicable, returning the creature from your graveyard to the battlefield with a -1/-1 counter on it.\nResolve the undying trigger, if applicable, returning the creature from your graveyard to the battlefield with a +1/+1 counter on it.\nResolve the Warren Soultrader ability, creating a Treasure token.\nRepeat"
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "marchesa-the-black-rose",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 48,
+  "direct_endpoint_hint_count": 15,
+  "mana_needed_declared_count": 5,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 48,
+  "zone_mention_count": 111
+ }
+}

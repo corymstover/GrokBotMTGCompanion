@@ -1,0 +1,1695 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+ "deck_id": "Parnesse__the_Subtle_Brush",
+ "lines": [
+  {
+   "cards": [
+    "Twinning Staff",
+    "Narset's Reversal"
+   ],
+   "combo_id": "11-2539",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "U"
+    ],
+    "endpoint_hints": [
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "7",
+     "U",
+     "U"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:11-2539",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/11-2539"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{7}{U}{U}",
+    "notable_prerequisites": "an instant or sorcery spell in hand.\nMana available to cast the instant or sorcery spell.",
+    "notes": "",
+    "produces": [
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast the instant or sorcery spell.\nHolding priority, cast Narset's Reversal by paying {U}{U}, targeting the instant or sorcery spell.\nHolding priority, activate twinning staff by paying {7} targeting Narset's Reversal, copying Narset's Reversal twice.\nResolve one copy of Narset's Reversal targeting another copy of Narset's Reversal, copying it twice and returning the targeted copy to your hand.\nRepeat step 4.\n"
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Narset's Reversal",
+    "Reiterate"
+   ],
+   "combo_id": "11-3368",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 6,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "R",
+     "U"
+    ],
+    "endpoint_hints": [
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 7
+    },
+    "mana_symbols_declared": [
+     "1",
+     "U",
+     "U",
+     "R",
+     "R"
+    ],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:11-3368",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/11-3368"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "You have an additional instant or sorcery card in hand with valid targets as applicable.",
+    "mana_needed": "{1}{U}{U}{R}{R} plus enough mana to cast the additional instant or sorcery",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast any instant or sorcery by paying its mana cost.\nHolding priority, cast Reiterate by paying its mana cost, targeting the instant or sorcery cast in step 1.\nCast Narset's Reversal by paying {U}{U}, copying Reiterate targeting the spell cast in step 1 and returning the original Reiterate to your hand.\nCast Reiterate by paying its mana cost, copying the copy of Reiterate, targeting the copy of Reiterate.\nResolve the copy of Reiterate, creating a copy of Reiterate targeting the copy of Reiterate.\nRepeat step 5."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Narset's Reversal",
+    "Increasing Vengeance"
+   ],
+   "combo_id": "11-4285",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 6,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "R",
+     "U"
+    ],
+    "endpoint_hints": [
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 7
+    },
+    "mana_symbols_declared": [
+     "U",
+     "U",
+     "R",
+     "R"
+    ],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:11-4285",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/11-4285"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "You have an additional instant or sorcery card in hand with valid targets as applicable.",
+    "mana_needed": "{U}{U}{R}{R} plus enough mana to cast the additional instant or sorcery",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast any instant or sorcery by paying its mana cost.\nHolding priority, cast Increasing Vengeance by paying its mana cost, targeting the instant or sorcery cast in step 1.\nCast Narset's Reversal by paying {U}{U}, copying Increasing Vengeance targeting the spell cast in step 1 and returning the original Increasing Vengeance to your hand.\nCast Increasing Vengeance by paying its mana cost, copying the copy of Increasing Vengeance, targeting the copy of Increasing Vengeance.\nResolve the copy of Increasing Vengeance, creating a copy of Increasing Vengeance targeting the copy of Increasing Vengeance.\nRepeat step 5."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Narset's Reversal",
+    "Reverberate"
+   ],
+   "combo_id": "11-5026",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 6,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "R",
+     "U"
+    ],
+    "endpoint_hints": [
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 7
+    },
+    "mana_symbols_declared": [
+     "U",
+     "U",
+     "R",
+     "R"
+    ],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:11-5026",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/11-5026"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "You have an additional instant or sorcery card in hand with valid targets as applicable.",
+    "mana_needed": "{U}{U}{R}{R} plus enough mana to cast the additional instant or sorcery",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast any instant or sorcery by paying its mana cost.\nHolding priority, cast Reverberate by paying its mana cost, targeting the instant or sorcery cast in step 1.\nCast Narset's Reversal by paying {U}{U}, copying Reverberate targeting the spell cast in step 1 and returning the original Reverberate to your hand.\nCast Reverberate by paying its mana cost, copying the copy of Reverberate, targeting the copy of Reverberate.\nResolve the copy of Reverberate, creating a copy of Reverberate targeting the copy of Reverberate.\nRepeat step 5."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Narset's Reversal",
+    "Return the Favor"
+   ],
+   "combo_id": "11-5940",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 6,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "R",
+     "U"
+    ],
+    "endpoint_hints": [
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 7
+    },
+    "mana_symbols_declared": [
+     "1",
+     "U",
+     "U",
+     "R",
+     "R"
+    ],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:11-5940",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/11-5940"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "You have an additional instant or sorcery card in hand with valid targets as applicable.",
+    "mana_needed": "{1}{U}{U}{R}{R} plus enough mana to cast the additional instant or sorcery",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast any instant or sorcery by paying its mana cost.\nHolding priority, cast Return the Favor by paying {R}{R} plus an additional {1} to choose its first mode, targeting the instant or sorcery cast in step 1.\nCast Narset's Reversal by paying {U}{U}, copying Return the Favor targeting the spell cast in step 1 and returning the original Return the Favor to your hand.\nCast Return the Favor by paying its mana cost, copying the copy of Return the Favor, targeting the copy of Return the Favor.\nResolve the copy of Return the Favor, creating a copy of Return the Favor targeting the copy of Return the Favor.\nRepeat step 5."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Dualcaster Mage",
+    "Replication Technique"
+   ],
+   "combo_id": "147-1883",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "tokens",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "1",
+     "R",
+     "R"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:147-1883",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/147-1883"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}{R}{R}",
+    "notable_prerequisites": "You control at least one creature.\nYou have enough mana to cast Replication Technique",
+    "notes": "",
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature tokens",
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast Replication Technique by paying its mana cost, targeting a creature you control.\nHolding priority, cast Dualcaster Mage by paying {1}{R}{R}.\nWhen Dualcaster Mage enters the battlefield, it triggers, copying Replication Technique, targeting Dualcaster Mage.\nResolve the copy of Replication Technique, creating a token copy of Dualcaster Mage.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Reiterate",
+    "Jeska's Will"
+   ],
+   "combo_id": "1878-3368",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "mill",
+     "mana",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [
+     "6",
+     "R",
+     "R",
+     "R"
+    ],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1878-3368",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1878-3368"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{6}{R}{R}{R}",
+    "notable_prerequisites": "An opponent has six or more cards in their hand.",
+    "notes": "",
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ],
+    "steps": "Cast Jeska's Will by paying its mana cost\nHolding priority, cast Reiterate with buyback by paying {4}{R}{R}, creating a copy of Jeska's Will and returning Reiterate to your hand.\nResolve the copy of Jeska's Will, adding at least six {R}.\nRepeat from step 2."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Reiterate",
+    "Mana Geyser"
+   ],
+   "combo_id": "2091-3368",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 0
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 3
+    },
+    "mana_symbols_declared": [
+     "7",
+     "R",
+     "R",
+     "R",
+     "R"
+    ],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:2091-3368",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/2091-3368"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{7}{R}{R}{R}{R}",
+    "notable_prerequisites": "Your opponents collectively control at least six tapped lands.",
+    "notes": "",
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count"
+    ],
+    "steps": "Cast Mana Geyser by paying its mana cost\nHolding priority, cast Reiterate with buyback by paying {4}{R}{R}, creating a copy of Mana Geyser and returning Reiterate to your hand.\nResolve the copy of Mana Geyser, adding at least six {R}.\nRepeat from step 2."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Thousand-Year Storm",
+    "Reiterate"
+   ],
+   "combo_id": "3368-3584",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "1",
+     "R",
+     "R"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:3368-3584",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3368-3584"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}{R}{R} plus enough mana to cast the additional instant or sorcery",
+    "notable_prerequisites": "You have at least one other instant or sorcery card in hand that can be cast this turn.",
+    "notes": "",
+    "produces": [
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast any instant or sorcery spell by paying its mana cost.\nHolding priority, cast Reiterate by paying {1}{R}{R}, targeting the spell.\nThousand-Year Storm triggers, copying Reiterate at least once, targeting the original Reiterate.\nResolve the first copy of Reiterate, copying Reiterate targeting the original Reiterate.\nRepeat step 4."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Alania, Divergent Storm",
+    "Reiterate"
+   ],
+   "combo_id": "3368-5959",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [
+     "1",
+     "R",
+     "R"
+    ],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:3368-5959",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3368-5959"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}{R}{R} plus enough mana to cast the additional sorcery",
+    "notable_prerequisites": "You have not cast an instant or sorcery spell this turn.\nYou have a sorcery card in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast the additional sorcery by paying its mana cost.\nAlania triggers; choose not to have an opponent draw a card.\nHolding priority, cast Reiterate by paying {1}{R}{R}, targeting the additional sorcery.\nAlania triggers, causing an opponent to draw a card and you to copy Reiterate, with the copy targeting the original Reiterate.\nResolve the copy of Reiterate, copying the original Reiterate, with the copy targeting the original Reiterate.\nRepeat step 5."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Pyromancer's Goggles",
+    "Reiterate"
+   ],
+   "combo_id": "3368-6790",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 3,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [
+     "1",
+     "R"
+    ],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:3368-6790",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3368-6790"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "You have an additional instant or sorcery card in hand.",
+    "mana_needed": "{1}{R} plus enough mana to cast the additional instant or sorcery",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast any instant or sorcery by paying its mana cost.\nHolding priority, activate Pyromancer's Goggles by tapping it, adding {R}.\nCast Reiterate by paying its mana cost, targeting the instant or sorcery cast in step 1.\nPyromancer's Goggles triggers, copying Reiterate, with the copy targeting the original Reiterate.\nResolve the copy of Reiterate, creating a copy of Reiterate targeting the original Reiterate.\nRepeat step 5."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Prismari, the Inspiration",
+    "Reiterate"
+   ],
+   "combo_id": "3368-7683",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 3,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [
+     "1",
+     "R",
+     "R"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:3368-7683",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/3368-7683"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}{R}{R}",
+    "notable_prerequisites": "You have another instant or sorcery card in hand with the mana to cast it and applicable target(s) if needed.",
+    "notes": "",
+    "produces": [
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast any other instant or sorcery by paying its mana cost.\nHolding priority, cast Reiterate by paying its mana cost, targeting the instant or sorcery cast in step 1.\nReiterate's storm ability triggers, creating at least one copy of Reiterate targeting the original Reiterate.\nResolve a copy of Reiterate, copying Reiterate targeting the original Reiterate.\nRepeat step 4."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Alania, Divergent Storm",
+    "Increasing Vengeance"
+   ],
+   "combo_id": "4285-5959",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [
+     "R",
+     "R"
+    ],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:4285-5959",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/4285-5959"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{R}{R} plus enough mana to cast the additional sorcery",
+    "notable_prerequisites": "You have not cast an instant or sorcery spell this turn.\nYou have a sorcery card in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast the additional sorcery by paying its mana cost.\nAlania triggers; choose not to have an opponent draw a card.\nHolding priority, cast Increasing Vengeance by paying {R}{R}, targeting the additional sorcery.\nAlania triggers, causing an opponent to draw a card and you to copy Increasing Vengeance, with the copy targeting the original Increasing Vengeance.\nResolve the copy of Increasing Vengeance, copying the original Increasing Vengeance, with the copy targeting the original Increasing Vengeance.\nRepeat step 5."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Pyromancer's Goggles",
+    "Increasing Vengeance"
+   ],
+   "combo_id": "4285-6790",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 3,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [
+     "R"
+    ],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:4285-6790",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/4285-6790"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "You have an additional instant or sorcery card in hand.",
+    "mana_needed": "{R} plus enough mana to cast the additional instant or sorcery",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast any instant or sorcery by paying its mana cost.\nHolding priority, activate Pyromancer's Goggles by tapping it, adding {R}.\nCast Increasing Vengeance by paying its mana cost, targeting the instant or sorcery cast in step 1.\nPyromancer's Goggles triggers, copying Increasing Vengeance, with the copy targeting the original Increasing Vengeance.\nResolve the copy of Increasing Vengeance, creating a copy of Increasing Vengeance targeting the original Increasing Vengeance.\nRepeat step 5."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Prismari, the Inspiration",
+    "Increasing Vengeance"
+   ],
+   "combo_id": "4285-7683",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 3,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [
+     "R",
+     "R"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:4285-7683",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/4285-7683"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{R}{R}",
+    "notable_prerequisites": "You have another instant or sorcery card in hand with the mana to cast it and applicable target(s) if needed.",
+    "notes": "",
+    "produces": [
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast any other instant or sorcery by paying its mana cost.\nHolding priority, cast Increasing Vengeance by paying its mana cost, targeting the instant or sorcery cast in step 1.\nIncreasing Vengeance's storm ability triggers, creating at least one copy of Increasing Vengeance targeting the original Increasing Vengeance.\nResolve a copy of Increasing Vengeance, copying Increasing Vengeance targeting the original Increasing Vengeance.\nRepeat step 4."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Alania, Divergent Storm",
+    "Reverberate"
+   ],
+   "combo_id": "5026-5959",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [
+     "R",
+     "R"
+    ],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:5026-5959",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/5026-5959"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{R}{R} plus enough mana to cast the additional sorcery",
+    "notable_prerequisites": "You have not cast an instant or sorcery spell this turn.\nYou have a sorcery card in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast the additional sorcery by paying its mana cost.\nAlania triggers; choose not to have an opponent draw a card.\nHolding priority, cast Reverberate by paying {R}{R}, targeting the additional sorcery.\nAlania triggers, causing an opponent to draw a card and you to copy Reverberate, with the copy targeting the original Reverberate.\nResolve the copy of Reverberate, copying the original Reverberate, with the copy targeting the original Reverberate.\nRepeat step 5."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Pyromancer's Goggles",
+    "Reverberate"
+   ],
+   "combo_id": "5026-6790",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 3,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [
+     "R"
+    ],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:5026-6790",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/5026-6790"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "You have an additional instant or sorcery card in hand.",
+    "mana_needed": "{R} plus enough mana to cast the additional instant or sorcery",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast any instant or sorcery by paying its mana cost.\nHolding priority, activate Pyromancer's Goggles by tapping it, adding {R}.\nCast Reverberate by paying its mana cost, targeting the instant or sorcery cast in step 1.\nPyromancer's Goggles triggers, copying Reverberate, with the copy targeting the original Reverberate.\nResolve the copy of Reverberate, creating a copy of Reverberate targeting the original Reverberate.\nRepeat step 5."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Prismari, the Inspiration",
+    "Reverberate"
+   ],
+   "combo_id": "5026-7683",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 3,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [
+     "R",
+     "R"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:5026-7683",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/5026-7683"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{R}{R}",
+    "notable_prerequisites": "You have another instant or sorcery card in hand with the mana to cast it and applicable target(s) if needed.",
+    "notes": "",
+    "produces": [
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast any other instant or sorcery by paying its mana cost.\nHolding priority, cast Reverberate by paying its mana cost, targeting the instant or sorcery cast in step 1.\nReverberate's storm ability triggers, creating at least one copy of Reverberate targeting the original Reverberate.\nResolve a copy of Reverberate, copying Reverberate targeting the original Reverberate.\nRepeat step 4."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Alania, Divergent Storm",
+    "Return the Favor"
+   ],
+   "combo_id": "5940-5959",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [
+     "1",
+     "R",
+     "R"
+    ],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:5940-5959",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/5940-5959"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}{R}{R} plus enough mana to cast the additional sorcery",
+    "notable_prerequisites": "You have not cast an instant or sorcery spell this turn.\nYou have a sorcery card in hand.",
+    "notes": "",
+    "produces": [
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast the additional sorcery by paying its mana cost.\nAlania triggers; choose not to have an opponent draw a card.\nHolding priority, cast Return the Favor by paying {1}{R}{R}, targeting the additional sorcery.\nAlania triggers, causing an opponent to draw a card and you to copy Return the Favor, with the copy targeting the original Return the Favor.\nResolve the copy of Return the Favor, copying the original Return the Favor, with the copy targeting the original Return the Favor.\nRepeat step 5."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Pyromancer's Goggles",
+    "Return the Favor"
+   ],
+   "combo_id": "5940-6790",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 3,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 6
+    },
+    "mana_symbols_declared": [
+     "1",
+     "R"
+    ],
+    "step_count": 6,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:5940-6790",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/5940-6790"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "You have an additional instant or sorcery card in hand.",
+    "mana_needed": "{1}{R} plus enough mana to cast the additional instant or sorcery",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast any instant or sorcery by paying its mana cost.\nHolding priority, activate Pyromancer's Goggles by tapping it, adding {R}.\nCast Return the Favor by paying its mana cost, choosing its first mode, targeting the instant or sorcery cast in step 1.\nPyromancer's Goggles triggers, copying Return the Favor, with the copy targeting the original Return the Favor.\nResolve the copy of Return the Favor, creating a copy of Return the Favor targeting the original Return the Favor.\nRepeat step 5."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Prismari, the Inspiration",
+    "Return the Favor"
+   ],
+   "combo_id": "5940-7683",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 3,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 5
+    },
+    "mana_symbols_declared": [
+     "1",
+     "R",
+     "R"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:5940-7683",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/5940-7683"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}{R}{R}",
+    "notable_prerequisites": "You have another instant or sorcery card in hand with the mana to cast it and applicable target(s) if needed.",
+    "notes": "",
+    "produces": [
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast any other instant or sorcery by paying its mana cost.\nHolding priority, cast Return the Favor by paying its mana cost, targeting the instant or sorcery cast in step 1.\nReturn the Favor's storm ability triggers, creating at least one copy of Return the Favor targeting the original Return the Favor.\nResolve a copy of Return the Favor, copying Return the Favor targeting the original Return the Favor.\nRepeat step 4."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Primal Amulet // Primal Wellspring",
+    "Frantic Search",
+    "Narset's Reversal"
+   ],
+   "combo_id": "11-1484-2196",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 4,
+     "sacrifice": 0,
+     "trigger": 4
+    },
+    "colored_symbols_declared": [
+     "U"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "draw",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 12
+    },
+    "mana_symbols_declared": [
+     "2",
+     "U"
+    ],
+    "step_count": 11,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 2,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:11-1484-2196",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/11-1484-2196"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}{U}",
+    "notable_prerequisites": "You control two additional lands that can tap to produce at least {1}{U}.",
+    "notes": "",
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mana lands you control can produce",
+     "Near-infinite storm count"
+    ],
+    "steps": "Activate Primal Wellspring and the two additional lands by tapping them, adding {1}{U}{U} and creating a delayed triggered ability.\nCast Frantic Search by paying {2}{U}.\nPrimal Wellspring's ability triggers, copying Frantic Search.\nResolve the copy of Frantic Search, looting twice and untapping Primal Wellspring and the two other lands.\nActivate Primal Wellspring and those two lands, adding at least {1}{U}{U} and creating another delayed triggered ability.\nCast Narset's Reversal by paying {U}{U}, targeting Frantic Search.\nPrimal Wellspring's ability triggers, creating a copy of Narset's Reversal targeting the original Narset's Reversal.\nResolve the copy of Narset's Reversal, copying the original Narset's Reversal and returning the original Narset's Reversal to your hand.\nResolve the new copy of Narset's Reversal, creating a copy of Frantic Search and returning the original Frantic Search to your hand.\nResolve the copy of Frantic Search, looting twice and untapping Primal Wellspring and two other lands.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Narset's Reversal",
+    "Storm-Kiln Artist",
+    "Bonus Round"
+   ],
+   "combo_id": "11-2492-5195",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 3,
+     "repeat": 1,
+     "resolve": 8,
+     "sacrifice": 1,
+     "trigger": 11
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "mana",
+     "tokens",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 23
+    },
+    "mana_symbols_declared": [],
+    "step_count": 19,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 3,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:11-2492-5195",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/11-2492-5195"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "You have another instant or sorcery in hand that can be cast using at most four colored mana, with valid targets (as applicable).\nYou have enough mana to cast the additional instant or sorcery minus one colored mana.",
+    "mana_needed": "",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens",
+     "Infinite Treasure tokens",
+     "Infinite colored mana",
+     "Infinite copies of the casted instant or sorcery",
+     "Infinite magecraft triggers",
+     "Infinite storm count"
+    ],
+    "steps": "Cast Bonus Round by paying {1}{R}{R}.\nStorm-Kiln Artist triggers, creating a Treasure token.\nResolve Bonus Round.\nCast the additional instant or sorcery by paying its mana cost.\nBonus Round and Storm-Kiln Artist trigger.\nResolve the Bonus Round trigger, copying the instant or sorcery.\nStorm-Kiln Artist triggers. Resolve both triggers from this step and step 5, creating two Treasure tokens.\nActivate two Treasures by tapping and sacrificing them, adding {U}{U}.\nCast Narset's Reversal by paying {U}{U}, targeting the spell from step 4.\nBonus Round and Storm-Kiln Artist trigger.\nResolve the Storm-Kiln Artist trigger, creating a Treasure token.\nResolve the Bonus Round trigger, copying Narset's Reversal targeting the original Narset's Reversal.\nStorm-Kiln Artist triggers, creating a Treasure token.\nResolve the copy of Narset's Reversal, causing you to copy Narset's Reversal targeting the original spell from step 4, and then return the original Narset's Reversal to your hand.\nStorm-Kiln Artist triggers, creating a Treasure token.\nResolve the copy of Narset's Reversal, copying the spell from step 4 and returning the original spell from step 4 to your hand.\nStorm-Kiln Artist triggers, creating a Treasure token.\nResolve the copy of the spell from step 16.\nHolding priority, repeat from step 4."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Storm-Kiln Artist",
+    "Thousand-Year Storm",
+    "Narset's Reversal"
+   ],
+   "combo_id": "11-3584-5195",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 6,
+     "repeat": 2,
+     "resolve": 8,
+     "sacrifice": 2,
+     "trigger": 10
+    },
+    "colored_symbols_declared": [
+     "U"
+    ],
+    "endpoint_hints": [
+     "mana",
+     "tokens",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 26
+    },
+    "mana_symbols_declared": [
+     "U"
+    ],
+    "step_count": 21,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 4,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:11-3584-5195",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/11-3584-5195"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{U} if you have not cast an instant or sorcery this turn",
+    "notable_prerequisites": "You have another instant and/or sorcery card in hand that can be cast using X or less colored mana, where X is equal to four plus twice the number of instants and sorceries you've cast this turn.\nYou have enough mana to cast the additional instant or sorcery, plus an additional",
+    "notes": "",
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens",
+     "Infinite colored mana",
+     "Infinite copies of instant and sorcery spells on the stack",
+     "Infinite power for any creature",
+     "Infinite magecraft triggers",
+     "Infinite storm count",
+     "Infinite Treasure tokens"
+    ],
+    "steps": "Cast any other instant or sorcery spell by paying its mana cost.\nStorm-Kiln Artist triggers, as well as Thousand-Year Storm if you've cast another instant and/or sorcery spell this turn.\nResolve the Storm-Kiln Artist trigger, creating a Treasure artifact token.\nResolve the Thousand-Year Storm trigger, if applicable, copying the spell at least once.\nStorm-Kiln Artist triggers for each copy made this way, creating that many Treasure artifact tokens.\nResolve each copy of the instant or sorcery.\nHolding priority, activate two Treasures by tapping and sacrificing them, adding {U}{U}.\nCast Narset's Reversal by paying {U}{U}, targeting the spell cast in step 1.\nThousand-Year Storm and Storm-Kiln Artist trigger.\nResolve the Storm-Kiln Artist trigger, creating a Treasure artifact token.\nResolve the Thousand-Year Storm trigger, creating at least one copy of Narset's Reversal, with each copy targeting the original Narset's Reversal.\nStorm-Kiln Artist triggers for each copy made this way, creating that many Treasure artifact tokens.\nResolve the first copy of Narset's Reversal, copying Narset's Reversal with the copy targeting the spell cast in step 1, and then returning the original Narset's Reversal to your hand.\nAll remaining Narset's Reversal copies made in step 11 fizzle due to having no legal target.\nStorm-Kiln Artist triggers, creating a Treasure artifact token.\nResolve the Narset's Reversal copy from step 13, copying the spell it is targeting and returning the original spell to your hand.\nStorm-Kiln Artist triggers, creating a Treasure artifact token.\nResolve the copy of the spell.\nActivate any number of Treasures by tapping and sacrificing them, adding enough mana to cast the additional instant or sorcery.\nRepeat.\nOnce you have infinite mana, you may repeat this combo targeting any other instant and/or sorcery card in your hand and/or on the stack."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Primal Amulet // Primal Wellspring",
+    "Frantic Search",
+    "Reiterate"
+   ],
+   "combo_id": "1484-2196-3368",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 3,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 4,
+     "sacrifice": 0,
+     "trigger": 2
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "draw",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 11
+    },
+    "mana_symbols_declared": [
+     "1",
+     "R"
+    ],
+    "step_count": 12,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 1,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1484-2196-3368",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1484-2196-3368"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{1}{R}",
+    "notable_prerequisites": "You control up to two mana-producing lands that can tap to produce at least {2}.",
+    "notes": "",
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite self-discard triggers",
+     "Near-infinite magecraft triggers",
+     "Near-infinite storm count"
+    ],
+    "steps": "Activate Primal Wellspring and two other mana-producing lands by tapping them, adding at least {2}{U}.\nCast Frantic Search by paying {2}{U}, ensuring to use the mana produced by Primal Wellspring.\nPrimal Wellspring triggers, copying Frantic Search.\nResolve the copy of Frantic Search, causing you to loot twice, untap Primal Wellspring and untap the two other lands.\nHolding priority, activate Primal Wellspring and two other mana-producing lands by tapping them, adding at least {2}{R}.\nCast Reiterate with buyback by paying {4}{R}{R}, targeting Frantic Search, ensuring to use the mana produced by Primal Wellspring.\nPrimal Wellspring triggers, copying Reiterate targeting Frantic Search.\nResolve both Reiterates, copying Frantic Search twice and returning the original Reiterate to your hand.\nResolve the first copy of Frantic Search, causing you to loot twice, untap Primal Wellspring and untap the two other lands.\n Activate Primal Wellspring and two other mana-producing lands by tapping them, adding at least {2}{R}.\nResolve the second copy of Frantic Search, causing you to loot twice, untap Primal Wellspring and untap the two other lands.\nRepeat from step 5."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "parnesse-the-subtle-brush",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 25,
+  "direct_endpoint_hint_count": 1,
+  "mana_needed_declared_count": 24,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 25,
+  "zone_mention_count": 37
+ }
+}

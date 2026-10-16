@@ -1,0 +1,289 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Community step text enriches Step B evidence only. Official rules/M1 review and later judgment remain authoritative.",
+  "official_rules_source": false
+ },
+ "canonical_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
+ "deck_id": "Obeka__Brute_Chronologist",
+ "lines": [
+  {
+   "cards": [
+    "Dualcaster Mage",
+    "Twinflame"
+   ],
+   "combo_id": "147-1235",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 0,
+     "cast": 2,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [
+     "R"
+    ],
+    "endpoint_hints": [
+     "tokens",
+     "etb_ltb_death",
+     "storm"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "2",
+     "R",
+     "R",
+     "R"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 1,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:147-1235",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/147-1235"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}{R}{R}{R}",
+    "notable_prerequisites": "You control at least one creature.\nYou have enough mana to cast Twinflame",
+    "notes": "",
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature tokens with haste",
+     "Infinite magecraft triggers"
+    ],
+    "steps": "Cast Twinflame by paying its mana cost, targeting a creature you control.\nHolding priority, cast Dualcaster Mage by paying {1}{R}{R}.\nWhen Dualcaster Mage enters the battlefield, it triggers, copying Twinflame, targeting Dualcaster Mage.\nResolve the copy of Twinflame, creating a token copy of Dualcaster Mage.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Kiki-Jiki, Mirror Breaker",
+    "Delina, Wild Mage"
+   ],
+   "combo_id": "282-618",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 1,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "tokens",
+     "etb_ltb_death"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 2
+    },
+    "mana_symbols_declared": [],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:282-618",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/282-618"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "",
+    "notable_prerequisites": "Delina does not have summoning sickness.",
+    "notes": "",
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite tapped creature tokens",
+     "Infinite tapped creature tokens until end of turn"
+    ],
+    "steps": "Declare Delina as an attacker.\nDelina triggers, creating at least one nonlegendary token copy of Kiki-Jiki.\nActivate a Kiki-Jiki by tapping it, creating a copy of the nonlegendary Kiki-Jiki.\nRepeat from step 3."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Isochron Scepter",
+    "Final Fortune",
+    "Sundial of the Infinite"
+   ],
+   "combo_id": "1173-2160-5261",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 0,
+     "repeat": 1,
+     "resolve": 1,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "3"
+    ],
+    "step_count": 5,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:1173-2160-5261",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/1173-2160-5261"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{3} each turn",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ],
+    "steps": "Activate Isochron Scepter by paying {2}, casting a copy of Final Fortune without paying its mana cost.\nResolve the Final Fortune, taking an extra turn after this one.\nAt the beginning of each extra turn's end step, Final Fortune triggers.\nHolding priority, activate Sundial of the Infinite by paying {1} and tapping it, ending the turn.\nRepeat."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  },
+  {
+   "cards": [
+    "Isochron Scepter",
+    "Final Fortune",
+    "Obeka, Brute Chronologist"
+   ],
+   "combo_id": "126-1173-5261",
+   "confidence": "moderate",
+   "derived": {
+    "action_counts": {
+     "activate": 2,
+     "cast": 1,
+     "repeat": 1,
+     "resolve": 0,
+     "sacrifice": 0,
+     "trigger": 1
+    },
+    "colored_symbols_declared": [],
+    "endpoint_hints": [
+     "other_infinite"
+    ],
+    "interaction_window_proxy": {
+     "note": "Transparent word/action count from community step text; not the exact number of legal opponent priority windows.",
+     "stack_action_count_proxy": 4
+    },
+    "mana_symbols_declared": [
+     "2"
+    ],
+    "step_count": 4,
+    "zone_mentions": {
+     "battlefield": 0,
+     "command_zone": 0,
+     "exile": 0,
+     "graveyard": 0,
+     "hand": 0,
+     "library": 0
+    }
+   },
+   "evidence": [
+    "spellbook:126-1173-5261",
+    "spellbook_steps:data/grixis_spellbook_steps.json#variants/126-1173-5261"
+   ],
+   "evidence_class": "derived_metric",
+   "limitations": [
+    "Commander Spellbook is community-maintained and is not an official Comprehensive Rules/rulings source.",
+    "Zone mentions are word counts in prerequisites/notes/steps, not normalized per-piece zone requirements.",
+    "Declared mana is preserved from Spellbook's mana_needed field; blank does not mean zero mana.",
+    "The stack-action proxy counts textual cast/activate/trigger/resolve actions and is not a priority-window simulator."
+   ],
+   "raw": {
+    "easy_prerequisites": "",
+    "mana_needed": "{2}",
+    "notable_prerequisites": "",
+    "notes": "",
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ],
+    "steps": "Activate Isochron Scepter by paying {2}, casting a copy of Final Fortune.\nAt the beginning of your next end step, if you cast Final Fortune on the previous turn, Final Fortune's lose the game ability triggers.\nIn response, activate Obeka by tapping it, choosing to end the turn and exiling the stack in the process.\nRepeat each turn."
+   },
+   "record_found": true,
+   "source_status": "OK"
+  }
+ ],
+ "schema_version": 1,
+ "slug": "obeka-brute-chronologist",
+ "source": {
+  "path": "data/grixis_spellbook_steps.json",
+  "retrieved": "2026-10-16",
+  "source_kind": "Commander Spellbook community-maintained steps cache"
+ },
+ "status": "provisional_evidence",
+ "summary": {
+  "combo_count": 4,
+  "direct_endpoint_hint_count": 0,
+  "mana_needed_declared_count": 3,
+  "missing_step_record_count": 0,
+  "step_record_found_count": 4,
+  "zone_mention_count": 1
+ }
+}
