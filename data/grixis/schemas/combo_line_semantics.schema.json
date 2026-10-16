@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020/schema",
+  "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/combo_line_semantics.schema.json",
+  "title": "Commander Spellbook line semantics v1",
+  "description": "Step B cache-derived line semantics from Commander Spellbook's community-maintained steps. These are evidence/context, not official rules or a win claim.",
+  "type": "object",
+  "required": ["schema_version", "deck_id", "slug", "canonical_hash", "status", "authority", "source", "lines", "summary"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "deck_id": {"$ref": "common.schema.json#/$defs/deck_id"},
+    "slug": {"$ref": "common.schema.json#/$defs/slug"},
+    "canonical_hash": {"$ref": "common.schema.json#/$defs/list_hash"},
+    "status": {"const": "provisional_evidence"},
+    "authority": {
+      "type": "object",
+      "required": ["official_rules_source", "can_decide", "note"],
+      "properties": {
+        "official_rules_source": {"const": false},
+        "can_decide": {"const": false},
+        "note": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "required": ["path", "retrieved", "source_kind"],
+      "properties": {
+        "path": {"const": "data/grixis_spellbook_steps.json"},
+        "retrieved": {"type": "string"},
+        "source_kind": {"const": "Commander Spellbook community-maintained steps cache"}
+      },
+      "additionalProperties": false
+    },
+    "lines": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/line"}
+    },
+    "summary": {
+      "type": "object",
+      "required": ["combo_count", "step_record_found_count", "missing_step_record_count", "mana_needed_declared_count", "zone_mention_count", "direct_endpoint_hint_count"],
+      "properties": {
+        "combo_count": {"type": "integer", "minimum": 0},
+        "step_record_found_count": {"type": "integer", "minimum": 0},
+        "missing_step_record_count": {"type": "integer", "minimum": 0},
+        "mana_needed_declared_count": {"type": "integer", "minimum": 0},
+        "zone_mention_count": {"type": "integer", "minimum": 0},
+        "direct_endpoint_hint_count": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "line": {
+      "type": "object",
+      "required": ["combo_id", "cards", "record_found", "source_status", "raw", "derived", "evidence_class", "confidence", "evidence", "limitations"],
+      "properties": {
+        "combo_id": {"type": "string"},
+        "cards": {"type": "array", "items": {"type": "string"}},
+        "record_found": {"type": "boolean"},
+        "source_status": {"type": ["string", "null"]},
+        "raw": {
+          "type": "object",
+          "required": ["mana_needed", "easy_prerequisites", "notable_prerequisites", "notes", "produces", "steps"],
+          "properties": {
+            "mana_needed": {"type": "string"},
+            "easy_prerequisites": {"type": "string"},
+            "notable_prerequisites": {"type": "string"},
+            "notes": {"type": "string"},
+            "produces": {"type": "array", "items": {"type": "string"}},
+            "steps": {"type": "string"}
+          },
+          "additionalProperties": false
+        },
+        "derived": {
+          "type": "object",
+          "required": ["step_count", "action_counts", "mana_symbols_declared", "colored_symbols_declared", "zone_mentions", "interaction_window_proxy", "endpoint_hints"],
+          "properties": {
+            "step_count": {"type": "integer", "minimum": 0},
+            "action_counts": {
+              "type": "object",
+              "required": ["cast", "activate", "sacrifice", "trigger", "resolve", "repeat"],
+              "properties": {
+                "cast": {"type": "integer", "minimum": 0},
+                "activate": {"type": "integer", "minimum": 0},
+                "sacrifice": {"type": "integer", "minimum": 0},
+                "trigger": {"type": "integer", "minimum": 0},
+                "resolve": {"type": "integer", "minimum": 0},
+                "repeat": {"type": "integer", "minimum": 0}
+              },
+              "additionalProperties": false
+            },
+            "mana_symbols_declared": {"type": "array", "items": {"type": "string"}},
+            "colored_symbols_declared": {"type": "array", "items": {"enum": ["W", "U", "B", "R", "G"]}},
+            "zone_mentions": {
+              "type": "object",
+              "properties": {
+                "hand": {"type": "integer", "minimum": 0},
+                "graveyard": {"type": "integer", "minimum": 0},
+                "battlefield": {"type": "integer", "minimum": 0},
+                "exile": {"type": "integer", "minimum": 0},
+                "command_zone": {"type": "integer", "minimum": 0},
+                "library": {"type": "integer", "minimum": 0}
+              },
+              "required": ["hand", "graveyard", "battlefield", "exile", "command_zone", "library"],
+              "additionalProperties": false
+            },
+            "interaction_window_proxy": {
+              "type": "object",
+              "required": ["stack_action_count_proxy", "note"],
+              "properties": {
+                "stack_action_count_proxy": {"type": "integer", "minimum": 0},
+                "note": {"type": "string"}
+              },
+              "additionalProperties": false
+            },
+            "endpoint_hints": {"type": "array", "items": {"enum": ["damage", "life_loss", "mill", "mana", "draw", "tokens", "etb_ltb_death", "storm", "untap", "other_infinite"]}}
+          },
+          "additionalProperties": false
+        },
+        "evidence_class": {"const": "derived_metric"},
+        "confidence": {"enum": ["moderate", "low"]},
+        "evidence": {"type": "array", "minItems": 1, "items": {"$ref": "common.schema.json#/$defs/evidence_ref"}},
+        "limitations": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    }
+  }
+}
