@@ -98,6 +98,14 @@
     "Wick__the_Whorled_Mind",
     "Zevlor__Elturel_Exile"
    ]
+  },
+  "6": {
+   "cycle": 44,
+   "date": "2026-10-16",
+   "decks": [
+    "The_Madcap_Jester",
+    "Tresserhorn_s_Lord__Returned"
+   ]
   }
  },
  "decks": {
@@ -1532,6 +1540,32 @@
    "edhrec_pages": [
     "zevlor-elturel-exile"
    ]
+  },
+  "The_Madcap_Jester": {
+   "deck": "The_Madcap_Jester",
+   "batch": 6,
+   "cycle": 44,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+   "edhrec_pages": [
+    "the-madcap-jester"
+   ],
+   "rejected": [],
+   "needs_review": []
+  },
+  "Tresserhorn_s_Lord__Returned": {
+   "deck": "Tresserhorn_s_Lord__Returned",
+   "batch": 6,
+   "cycle": 44,
+   "date": "2026-10-16",
+   "swaps": [],
+   "decision": "at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+   "edhrec_pages": [
+    "tresserhorns-lord-returned"
+   ],
+   "rejected": [],
+   "needs_review": []
   }
  },
  "log": {
@@ -2303,6 +2337,26 @@
     "cycle": 43,
     "batch": 5,
     "change": "reviewed: at/near ceiling: commander dependence 91% ≥ 60% and generic share 6% ≤ 15%; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "The_Madcap_Jester": [
+   {
+    "date": "2026-10-16",
+    "cycle": 44,
+    "batch": 6,
+    "change": "hand review (identity confirmed; at ceiling; unchanged (⏳ pending legality)); reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
+    "added": [],
+    "removed": []
+   }
+  ],
+  "Tresserhorn_s_Lord__Returned": [
+   {
+    "date": "2026-10-16",
+    "cycle": 44,
+    "batch": 6,
+    "change": "hand review (identity confirmed; at ceiling; unchanged (⏳ pending legality, source legality claim flagged)); reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
     "added": [],
     "removed": []
    }
