@@ -1,4 +1,4 @@
-name: Temporary breach mechanics artifact sync
+name: Temporary breach mechanics registry sync
 
 on:
   push:
@@ -8,10 +8,10 @@ permissions:
   contents: write
 
 jobs:
-  sync-generated-mechanics:
-    if: ${{ !contains(github.event.head_commit.message, 'sync generated breach mechanics artifacts') }}
+  sync-registry:
+    if: ${{ !contains(github.event.head_commit.message, 'sync generated breach module registry') }}
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 10
     env:
       SCRYFALL_OFFLINE: "1"
     steps:
@@ -26,21 +26,31 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install build dependencies
-        run: python -m pip install --disable-pip-version-check jsonschema
+      - name: Regenerate cache-independent module registry only
+        run: |
+          python - <<'PY'
+          import json, sys
+          from pathlib import Path
+          ROOT = Path.cwd()
+          sys.path.insert(0, str(ROOT / "scripts"))
+          import grixis_mech as gm
+          from grixis_mech import router
+          out = ROOT / "data/grixis/mechanics/modules.json"
+          data = {"framework_version": gm.FRAMEWORK_VERSION,
+                  "modules": gm.registry(),
+                  "planned_families": sorted(k for k in router.PLANNED if k not in gm.MODULES)}
+          out.write_text(json.dumps(data, indent=1, ensure_ascii=False, sort_keys=True) + "\n")
+          PY
 
-      - name: Rebuild mechanics registry, coverage and examples
-        run: python scripts/grixis_mechanics.py --build
-
-      - name: Commit generated artifacts if changed
+      - name: Commit generated registry if changed
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/grixis/mechanics/modules.json data/grixis/mechanics/coverage_legacy_m5.json data/grixis/mechanics/examples.json
+          git add data/grixis/mechanics/modules.json
           if git diff --cached --quiet; then
-            echo "Generated mechanics artifacts already current."
+            echo "Module registry already current."
           else
-            git commit -m "ChatGPT: sync generated breach mechanics artifacts"
+            git commit -m "ChatGPT: sync generated breach module registry"
             git push origin HEAD:chatgpt-cycle66-11-breach
           fi
