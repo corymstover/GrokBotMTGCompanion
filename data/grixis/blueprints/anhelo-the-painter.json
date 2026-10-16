@@ -1,0 +1,654 @@
+{
+ "schema_version": 2,
+ "deck_id": "Anhelo__the_Painter",
+ "slug": "anhelo-the-painter",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 50,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
+ "commanders": {
+  "value": [
+   {
+    "name": "Anhelo, the Painter",
+    "oracle_id": "d3c3f293-6790-4dce-900a-8af0464c2572",
+    "oracle_text": "Deathtouch\nThe first instant or sorcery spell you cast each turn has casualty 2. (As you cast that spell, you may sacrifice a creature with power 2 or greater. When you do, copy the spell and you may choose new targets for the copy.)",
+    "oracle_sha256": "sha256:710d81609c7ac0630a3b45d72cf61bdbdba7aa7affb470efd83933e0cd78786b",
+    "type_line": "Legendary Creature — Vampire Assassin"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Anhelo, the Painter"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Spell-copy spellslinger: keep cheap power-2+ bodies around to pay casualty 2 on the first instant or sorcery each turn (on every player's turn), copying tutors, removal, extra turns and finishers.",
+   "secondary": "Commander-independent spell-copy infinites (Twinning Staff or Reiterate + Narset's Reversal, Dualcaster Mage + Twinflame, Reiterate + Mana Geyser/Jeska's Will, Primal Wellspring + Frantic Search)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Anhelo_the_Painter_v1.md",
+   "interaction:anhelo-the-painter#anhelo-01",
+   "interaction:anhelo-the-painter#anhelo-07",
+   "interaction:anhelo-the-painter#anhelo-09"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "significant",
+   "advances_plan": "Anhelo turns one spell per turn into two and makes token makers double as copy fuel; his deathtouch body also blocks.",
+   "honest_note": "The deck's kills are mostly two-card spell-copy infinites that do not need Anhelo; he is a value engine (one casualty per turn), not the win condition. Calling him 'central' would overstate it."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Anhelo_the_Painter_v1.md",
+   "interaction:anhelo-the-painter#anhelo-01",
+   "interaction:anhelo-the-painter#anhelo-07",
+   "interaction:anhelo-the-painter#anhelo-09",
+   "interaction:anhelo-the-painter#anhelo-14"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "narset-reversal-loop",
+   "kind": "combo",
+   "description": "Narset's Reversal copying itself with Twinning Staff or Reiterate: arbitrary copies of the target spell (storm/magecraft payoffs or copied Crackle/Torment).",
+   "cards": [
+    "Narset's Reversal",
+    "Twinning Staff",
+    "Reiterate"
+   ],
+   "enablers": [
+    "Archmage Emeritus",
+    "Talrand, Sky Summoner"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:anhelo-the-painter#anhelo-07",
+    "spellbook:11-2539",
+    "spellbook:11-3368"
+   ]
+  },
+  {
+   "id": "dualcaster-twinflame",
+   "kind": "combo",
+   "description": "Dualcaster Mage + Twinflame: arbitrarily many hasty Dualcaster tokens.",
+   "cards": [
+    "Dualcaster Mage",
+    "Twinflame"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:anhelo-the-painter#anhelo-09",
+    "spellbook:147-1235"
+   ]
+  },
+  {
+   "id": "reiterate-mana",
+   "kind": "combo",
+   "description": "Reiterate with buyback on Mana Geyser or Jeska's Will for infinite mana into a big X spell.",
+   "cards": [
+    "Reiterate",
+    "Mana Geyser",
+    "Jeska's Will"
+   ],
+   "enablers": [
+    "Crackle with Power",
+    "Torment of Hailfire"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:anhelo-the-painter#anhelo-08",
+    "spellbook:2091-3368",
+    "spellbook:1878-3368"
+   ]
+  },
+  {
+   "id": "copied-extra-turns",
+   "kind": "natural",
+   "description": "Casualty-copied Time Warp and big spells grind out a value win.",
+   "cards": [
+    "Time Warp",
+    "Army of the Damned",
+    "Crackle with Power"
+   ],
+   "enablers": [
+    "Anhelo, the Painter"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Anhelo_the_Painter_v1.md"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "casualty-copy",
+   "cards": [
+    "Anhelo, the Painter",
+    "Archmage Emeritus",
+    "Talrand, Sky Summoner",
+    "Veyran, Voice of Duality",
+    "Storm-Kiln Artist"
+   ],
+   "online_condition": "A creature with power 2+ to sacrifice when casting the first instant/sorcery of a turn.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:anhelo-the-painter#anhelo-01",
+    "interaction:anhelo-the-painter#anhelo-04"
+   ]
+  },
+  {
+   "id": "spell-recursion",
+   "cards": [
+    "Kess, Dissident Mage",
+    "Maestros Ascendancy",
+    "Underworld Breach",
+    "Snapcaster Mage"
+   ],
+   "online_condition": "Key spells in the graveyard.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:anhelo-the-painter#anhelo-12"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:casualty-fodder",
+   "required": true,
+   "min_count": 8,
+   "role": "Bodies or token makers with power 2+ that are fine to sacrifice.",
+   "cards": [
+    "Bloodghast",
+    "Army of the Damned",
+    "Ghoulish Procession",
+    "Jadar, Ghoulcaller of Nephalia",
+    "Poppet Stitcher // Poppet Factory",
+    "Lagomos, Hand of Hatred",
+    "Baral and Kari Zev",
+    "Startle",
+    "Judith, Carnage Connoisseur",
+    "Snapcaster Mage"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Anhelo_the_Painter_v1.md",
+    "source_archive:refinement/verification/Anhelo_the_Painter_99_Slot_Audit_Working_2026-10-13.md"
+   ]
+  },
+  {
+   "id": "pkg:copy-multipliers",
+   "required": true,
+   "min_count": 4,
+   "role": "Copy effects that stack with casualty.",
+   "cards": [
+    "Twinning Staff",
+    "Reiterate",
+    "Narset's Reversal",
+    "Galvanic Iteration",
+    "Twinflame",
+    "Ral, Storm Conduit"
+   ],
+   "candidates": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:anhelo-the-painter#anhelo-06",
+    "interaction:anhelo-the-painter#anhelo-07"
+   ]
+  },
+  {
+   "id": "pkg:copy-worthy-spells",
+   "required": true,
+   "min_count": 6,
+   "role": "Spells that are much better copied.",
+   "cards": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Time Warp",
+    "Crackle with Power",
+    "Torment of Hailfire",
+    "Dig Through Time",
+    "An Offer You Can't Refuse",
+    "A Little Chat"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Anhelo_the_Painter_v1.md"
+   ]
+  },
+  {
+   "id": "pkg:interaction",
+   "required": true,
+   "min_count": 8,
+   "role": "Counters and removal, many cheap enough to be the 'first' spell on opponents' turns.",
+   "cards": [
+    "Counterspell",
+    "Mana Drain",
+    "Fierce Guardianship",
+    "Deflecting Swat",
+    "Narset's Reversal",
+    "Chaos Warp",
+    "Deadly Rollick",
+    "Feed the Swarm",
+    "Toxic Deluge",
+    "Cyclonic Rift"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Anhelo_the_Painter_v1.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "casualty-2",
+   "summary": "First instant/sorcery each turn: optionally sacrifice a power-2+ creature to copy it.",
+   "cards": [
+    "Anhelo, the Painter"
+   ],
+   "m1_refs": [
+    "anhelo-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:anhelo-the-painter#anhelo-01"
+   ]
+  },
+  {
+   "id": "first-spell-tracking",
+   "summary": "Spells cast before Anhelo arrived still count as the turn's first.",
+   "cards": [
+    "Anhelo, the Painter"
+   ],
+   "m1_refs": [
+    "anhelo-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:anhelo-the-painter#anhelo-02"
+   ]
+  },
+  {
+   "id": "copy-vs-cast",
+   "summary": "Copies trigger magecraft (cast or copy) but not 'whenever you cast' payoffs.",
+   "cards": [
+    "Archmage Emeritus",
+    "Storm-Kiln Artist",
+    "Talrand, Sky Summoner"
+   ],
+   "m1_refs": [
+    "anhelo-04"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:anhelo-the-painter#anhelo-04"
+   ]
+  },
+  {
+   "id": "twinning-staff",
+   "summary": "Twinning Staff adds one to every copy event, including casualty.",
+   "cards": [
+    "Twinning Staff"
+   ],
+   "m1_refs": [
+    "anhelo-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:anhelo-the-painter#anhelo-06"
+   ]
+  },
+  {
+   "id": "double-casualty",
+   "summary": "Granted casualty stacks with A Little Chat's own casualty.",
+   "cards": [
+    "A Little Chat"
+   ],
+   "m1_refs": [
+    "anhelo-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:anhelo-the-painter#anhelo-03"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Narset's Reversal",
+   "via": [
+    "Mystical Tutor",
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:anhelo-the-painter#anhelo-07"
+   ]
+  },
+  {
+   "target": "Twinflame",
+   "via": [
+    "Mystical Tutor",
+    "Demonic Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:anhelo-the-painter#anhelo-09"
+   ]
+  },
+  {
+   "target": "Twinning Staff",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:anhelo-the-painter#anhelo-07"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Kess, Dissident Mage",
+   "Maestros Ascendancy",
+   "Underworld Breach",
+   "Snapcaster Mage",
+   "Bloodghast"
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "interaction:anhelo-the-painter#anhelo-12",
+   "source_archive:refinement/blueprints/Anhelo_the_Painter_v1.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Cheap instant-speed interaction that doubles as the turn's casualty spell.",
+   "protection": "Free counters protect combo turns; Anhelo himself is cheap to recast.",
+   "mana": "Rituals, rocks and Storm-Kiln Treasures; 31 lands."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Anhelo_the_Painter_v1.md",
+   "source_archive:refinement/verification/Anhelo_the_Painter_Approval_Ready_Closeout_2026-10-13.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "no-fodder",
+   "description": "No power-2+ creature when the important spell is cast: no copy.",
+   "mitigations": [
+    "Token makers",
+    "Bloodghast recursion"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Anhelo_the_Painter_v1.md",
+    "source_archive:refinement/verification/Anhelo_the_Painter_99_Slot_Audit_Working_2026-10-13.md"
+   ]
+  },
+  {
+   "id": "fodder-is-engine",
+   "description": "Sacrificing an engine creature (Talrand, Archmage) to casualty trades away the value engine.",
+   "mitigations": [
+    "Prioritize token fodder"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:anhelo-the-painter#anhelo-14"
+   ]
+  },
+  {
+   "id": "combo-disrupted",
+   "description": "Graveyard hate and stack interaction stop the copy loops.",
+   "mitigations": [
+    "Multiple distinct infinites",
+    "Free counters"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Anhelo_the_Painter_v1.md"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "medium",
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Anhelo_the_Painter_v1.md",
+   "interaction:anhelo-the-painter#anhelo-07",
+   "interaction:anhelo-the-painter#anhelo-09"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": null,
+    "label": "No source ceiling stated in the source blueprint, slot audit or closeout (checked Bot cycle 50)."
+   },
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Anhelo_the_Painter_v1.md",
+    "source_archive:refinement/verification/Anhelo_the_Painter_Approval_Ready_Closeout_2026-10-13.md"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4: eight Spellbook infinites, several of them two-card, with tutors and free counters; the commander is a value engine, not cEDH-speed."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:anhelo-the-painter#anhelo-07",
+    "interaction:anhelo-the-painter#anhelo-09",
+    "spellbook:11-2539",
+    "spellbook:147-1235"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Anhelo__the_Painter"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": null,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 24,
+     "2": 649,
+     "3": 553,
+     "4": 171,
+     "5": 30
+    },
+    "decks_with_bracket": 1427,
+    "share_b4_plus": 0.141,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__anhelo-the-painter.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Anhelo, the Painter",
+   "why": "Grants casualty 2 every turn: the one effect no other card in the deck provides.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Anhelo, the Painter"
+   ]
+  },
+  {
+   "card": "Twinning Staff",
+   "why": "Adds a copy to every casualty copy and loops Narset's Reversal.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:anhelo-the-painter#anhelo-06"
+   ]
+  },
+  {
+   "card": "Ghoulish Procession",
+   "why": "Steady supply of sacrificial bodies that turns the casualty cost into value.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Anhelo_the_Painter_99_Slot_Audit_Working_2026-10-13.md"
+   ]
+  },
+  {
+   "card": "Narset's Reversal",
+   "why": "Cheap interaction that is also the core copy-loop piece.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:anhelo-the-painter#anhelo-07"
+   ]
+  },
+  {
+   "card": "Archmage Emeritus",
+   "why": "Magecraft draws on copies, so every casualty copy cantrips.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:anhelo-the-painter#anhelo-04"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Don't homogenize into generic Grixis storm that ignores casualty fodder.",
+   "Don't cut the power-2+ body count below what casualty needs."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Anhelo_the_Painter_v1.md"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Spell copying as artistry ('the Painter'): copies over raw storm count."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "low",
+  "evidence": [
+   "source_archive:refinement/blueprints/Anhelo_the_Painter_v1.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 702.153a",
+   "note": "Casualty is an additional cost paid while casting; the copy is made by a reflexive trigger.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.153a"
+   ]
+  },
+  {
+   "rule": "CR 707.10",
+   "note": "Copies are not cast: no cast triggers, but magecraft sees them.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:707.10"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "casualty / power 2 or greater",
+    "copying",
+    "instants and sorceries",
+    "sacrifice"
+   ],
+   "hooked_cards": 55,
+   "role_counts": {
+    "counter": 4,
+    "draw": 6,
+    "protection": 1,
+    "ramp": 18,
+    "removal": 5,
+    "tutor": 4,
+    "wipe": 1
+   },
+   "lands": 34,
+   "edhrec_pages": [
+    "anhelo-the-painter"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Anhelo_the_Painter_v1.md",
+   "source_archive:refinement/verification/Anhelo_the_Painter_Approval_Ready_Closeout_2026-10-13.md",
+   "source_archive:refinement/verification/Anhelo_the_Painter_99_Slot_Audit_Working_2026-10-13.md",
+   "source_archive:refinement/decklists/Anhelo_the_Painter_Approval_Ready_2026-10-13.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 50)"
+ }
+}
