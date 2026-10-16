@@ -1,0 +1,584 @@
+{
+ "schema_version": 2,
+ "deck_id": "Mairsil__the_Pretender",
+ "slug": "mairsil-the-pretender",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 53,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+ "commanders": {
+  "value": [
+   {
+    "name": "Mairsil, the Pretender",
+    "oracle_id": "ed5fbae0-2dca-44a5-84dc-62674b3a92a6",
+    "oracle_text": "When Mairsil enters, you may exile an artifact or creature card from your hand or graveyard and put a cage counter on it.\nMairsil has all activated abilities of all cards you own in exile with cage counters on them. You may activate each of those abilities only once each turn.",
+    "oracle_sha256": "sha256:0a24367dc166de788222f2464bceba61175a240df72508c2d95b7c1fb072b99b",
+    "type_line": "Legendary Creature — Human Wizard"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Mairsil, the Pretender"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Cage toolbox: put cards with strong activated abilities into hand or graveyard (Entomb, Buried Alive, Faithless Looting), re-enter, blink or copy Mairsil to cage more, use haste and untaps for repeated tap abilities, and close with Mairsil-dependent activated-ability loops.",
+   "secondary": "Exploit caged cards whose drawbacks aren't copied (Asmodeus draws seven cleanly) and grind with Arcanis, Pack Rat copies and Rings of Brighthearth."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L29",
+   "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L56"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Mairsil is the engine: every caged ability lives on him, and five of the six Spellbook combos include him.",
+   "honest_note": "Each acquired ability is once per turn per Mairsil object, so the loops need fresh objects (Quicksilver Elemental, blinks, copies). The deck is fragile to graveyard and exile hate on caged cards. This deck has no M1 interaction review yet (batch D is in progress), so the rules notes rest on the source's verification and Oracle text."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L27",
+   "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L51"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "quicksilver-lotus",
+   "kind": "combo",
+   "description": "Mairsil + Quicksilver Elemental + Gilded Lotus with Staff of Domination, Horseshoe Crab or Morphling: unbounded mana and activations.",
+   "cards": [
+    "Mairsil, the Pretender",
+    "Quicksilver Elemental",
+    "Gilded Lotus",
+    "Staff of Domination",
+    "Horseshoe Crab",
+    "Morphling"
+   ],
+   "enablers": [
+    "Walking Ballista"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1369-2645-5112-5116",
+    "spellbook:1369-3995-5112-5116",
+    "spellbook:1369-5112-5116-5137",
+    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L57"
+   ]
+  },
+  {
+   "id": "rings-alchemist",
+   "kind": "combo",
+   "description": "Rings of Brighthearth + Aphetto Alchemist + Gilded Lotus: unbounded mana.",
+   "cards": [
+    "Rings of Brighthearth",
+    "Aphetto Alchemist",
+    "Gilded Lotus"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:4091-4235-5116"
+   ]
+  },
+  {
+   "id": "mairsil-lines",
+   "kind": "combo",
+   "description": "Mairsil + Hateflayer + Tree of Perdition, and Mairsil + Aetherling + Anger + Nevinyrral's Disk.",
+   "cards": [
+    "Mairsil, the Pretender",
+    "Hateflayer",
+    "Tree of Perdition",
+    "Aetherling",
+    "Anger",
+    "Nevinyrral's Disk"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:2615-4449-5112",
+    "spellbook:1050-4068-4439-5112"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "re-cage",
+   "cards": [
+    "Mairsil, the Pretender",
+    "Essence Flux",
+    "Displacer Kitten",
+    "Spark Double",
+    "Pack Rat",
+    "Rings of Brighthearth"
+   ],
+   "online_condition": "Mairsil re-enters or is copied.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L51",
+    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L52",
+    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L53"
+   ]
+  },
+  {
+   "id": "tap-payloads",
+   "cards": [
+    "Arcanis the Omnipotent",
+    "Asmodeus the Archfiend",
+    "Minamo, School at Water's Edge",
+    "Patriar's Seal",
+    "Anger",
+    "Thousand-Year Elixir",
+    "Training Grounds"
+   ],
+   "online_condition": "Payloads caged with haste/untap available.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L54",
+    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L56",
+    "source_archive:refinement/decisions/Mairsil_the_Pretender_Whole_List_Audit_2026-10-14.csv"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:cage-payloads",
+   "required": true,
+   "min_count": 10,
+   "role": "Activated abilities worth caging.",
+   "cards": [
+    "Aetherling",
+    "Aphetto Alchemist",
+    "Arcanis the Omnipotent",
+    "Asmodeus the Archfiend",
+    "Cephalid Inkshrouder",
+    "Hateflayer",
+    "Horseshoe Crab",
+    "Morphling",
+    "Pack Rat",
+    "Quicksilver Elemental",
+    "Tree of Perdition",
+    "Staff of Domination",
+    "Walking Ballista",
+    "Torchling"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mairsil_the_Pretender_Whole_List_Audit_2026-10-14.csv"
+   ]
+  },
+  {
+   "id": "pkg:graveyard-setup",
+   "required": true,
+   "min_count": 5,
+   "role": "Put payloads where Mairsil can cage them.",
+   "cards": [
+    "Entomb",
+    "Buried Alive",
+    "Faithless Looting",
+    "Frantic Search",
+    "Intuition",
+    "Unmarked Grave"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mairsil_the_Pretender_Whole_List_Audit_2026-10-14.csv"
+   ]
+  },
+  {
+   "id": "pkg:re-entry",
+   "required": true,
+   "min_count": 4,
+   "role": "Fresh Mairsil objects and more cage triggers.",
+   "cards": [
+    "Essence Flux",
+    "Displacer Kitten",
+    "Spark Double",
+    "Marvin, Murderous Mimic",
+    "Pack Rat"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L51",
+    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L52"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "once-per-object",
+   "summary": "Each acquired ability once per turn per Mairsil object; blinks make a new object with fresh uses.",
+   "cards": [
+    "Mairsil, the Pretender",
+    "Essence Flux",
+    "Displacer Kitten"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Mairsil, the Pretender",
+    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L27"
+   ]
+  },
+  {
+   "id": "asmodeus",
+   "summary": "Mairsil gains Asmodeus's draw-seven but not its replacement effect.",
+   "cards": [
+    "Asmodeus the Archfiend"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L56"
+   ]
+  },
+  {
+   "id": "rings-pack-rat",
+   "summary": "Rings copies the caged Pack Rat activation without the discard cost: another Mairsil copy and cage trigger.",
+   "cards": [
+    "Rings of Brighthearth",
+    "Pack Rat"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L58"
+   ]
+  },
+  {
+   "id": "marvin",
+   "summary": "Marvin gains Mairsil's acquired activated abilities without the once-per-turn static.",
+   "cards": [
+    "Marvin, Murderous Mimic"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L59"
+   ]
+  },
+  {
+   "id": "spark-double",
+   "summary": "Spark Double copies Mairsil's printed cage ability and triggers its ETB.",
+   "cards": [
+    "Spark Double"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L53"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Quicksilver Elemental",
+   "via": [
+    "Entomb",
+    "Buried Alive",
+    "Demonic Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1369-2645-5112-5116"
+   ]
+  },
+  {
+   "target": "Gilded Lotus",
+   "via": [
+    "Vampiric Tutor",
+    "Wishclaw Talisman"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "spellbook:1369-2645-5112-5116"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Essence Flux",
+   "Unmarked Grave",
+   "Mairsil, the Pretender"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Mairsil_the_Pretender_Whole_List_Audit_2026-10-14.csv"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Force of Will, Fierce Guardianship, Swan Song, An Offer You Can't Refuse, Deadly Rollick, Toxic Deluge, Cyclonic Rift.",
+   "protection": "Lightning Greaves, Deflecting Swat, Aetherling and Cephalid Inkshrouder cages.",
+   "mana": "32 lands, Mana Vault, Chrome Mox, Mox Diamond, Lotus Petal, Gilded Lotus."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Mairsil_the_Pretender_Whole_List_Audit_2026-10-14.csv"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "mairsil-removed",
+   "description": "Without Mairsil the caged abilities are inaccessible.",
+   "mitigations": [
+    "Aetherling cage",
+    "Greaves",
+    "Counters"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L27"
+   ]
+  },
+  {
+   "id": "graveyard-hate",
+   "description": "Graveyard hate stops caging from the yard.",
+   "mitigations": [
+    "Cage from hand"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mairsil_the_Pretender_Whole_List_Audit_2026-10-14.csv"
+   ]
+  },
+  {
+   "id": "unsafe-lines",
+   "description": "Self-mill lines like Mirror-Mad Phantasm were cut as unsafe.",
+   "mitigations": [
+    "Use the verified Quicksilver lines"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L60"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L27"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (decisions closeout)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Mairsil_the_Pretender_Current_Cycle_Decisions_2026-10-14.md#L17"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 ceiling, high end: lethal, tutor-dense, fast-mana combo toolbox, kept below cEDH to preserve the cage identity per the source. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L37",
+    "spellbook:1369-2645-5112-5116"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Mairsil__the_Pretender"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 16,
+     "2": 117,
+     "3": 241,
+     "4": 116,
+     "5": 39
+    },
+    "decks_with_bracket": 529,
+    "share_b4_plus": 0.293,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__mairsil-the-pretender.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Mairsil, the Pretender",
+   "why": "Gains the activated abilities of every caged card.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Mairsil, the Pretender"
+   ]
+  },
+  {
+   "card": "Quicksilver Elemental",
+   "why": "Fresh ability instances for the infinite-mana lines.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L57"
+   ]
+  },
+  {
+   "card": "Asmodeus the Archfiend",
+   "why": "Draw seven without the drawback.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L56"
+   ]
+  },
+  {
+   "card": "Pack Rat",
+   "why": "Caged copy-maker for more cage triggers.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L58"
+   ]
+  },
+  {
+   "card": "Minamo, School at Water's Edge",
+   "why": "Untaps Mairsil for another tap ability.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L54"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Don't replace the cage-toolbox identity with a tournament cEDH shell (verification L37).",
+   "Avoid unsafe self-mill lines (verification L60)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L37"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Mairsil the pretender: caged cards and borrowed powers."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 400.7",
+   "note": "A blinked Mairsil is a new object with fresh activation limits.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:400.7"
+   ]
+  },
+  {
+   "rule": "CR 602.5b",
+   "note": "Activation restrictions apply per object.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:602.5b"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "artifacts"
+   ],
+   "hooked_cards": 25,
+   "role_counts": {
+    "counter": 4,
+    "draw": 7,
+    "protection": 4,
+    "ramp": 17,
+    "removal": 6,
+    "tutor": 9,
+    "wipe": 3
+   },
+   "lands": 32,
+   "edhrec_pages": [
+    "mairsil-the-pretender"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Mairsil_the_Pretender_Current_Cycle_Decisions_2026-10-14.md",
+   "source_archive:refinement/approvals/Mairsil_the_Pretender_Approved_2026-10-14.md",
+   "source_archive:refinement/decisions/Mairsil_the_Pretender_Whole_List_Audit_2026-10-14.csv",
+   "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md",
+   "source_archive:refinement/decklists/Mairsil_the_Pretender_Approved_2026-10-14.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 53)"
+ }
+}

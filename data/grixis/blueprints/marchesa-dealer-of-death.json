@@ -1,0 +1,560 @@
+{
+ "schema_version": 2,
+ "deck_id": "Marchesa__Dealer_of_Death",
+ "slug": "marchesa-dealer-of-death",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 53,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+ "commanders": {
+  "value": [
+   {
+    "name": "Marchesa, Dealer of Death",
+    "oracle_id": "37449c93-4d32-4f1a-982f-8f3416214368",
+    "oracle_text": "Whenever you commit a crime, you may pay {1}. If you do, look at the top two cards of your library. Put one of them into your hand and the other into your graveyard. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)",
+    "oracle_sha256": "sha256:846b4dbd899a7324278f6cbe1f114bccc00743c52bd5296d153f77ff016db564",
+    "type_line": "Legendary Creature — Human Rogue"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Marchesa, Dealer of Death"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "cEDH: necessary targeted interaction doubles as crimes, so Marchesa turns each answer into {1} top-two card selection; fast mana and tutors race to Tainted Pact + Thassa's Oracle, Breach + LED/Petal + Brain Freeze, or Aphetto Alchemist + Hawkeye's Bow.",
+   "secondary": "Cheap repeatable crime sources (Spatial Binding, Hex Parasite, Spellskite, Tezzeret, Lapis Lazuli Talisman, Talon Gates) keep the selection engine running; Rhystic Study, Remora, Necropotence and Ad Nauseam refill."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md#L16",
+   "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md#L20"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "significant",
+   "advances_plan": "Marchesa converts the deck's interaction into card selection and graveyard setup.",
+   "honest_note": "All three win packages work without her, and the list is the exact copy of a tournament-winning list (Takeda Ryuhei, 2026-10-11), a 48-card rebuild from the source baseline (decisions L10, L12). She is a selection engine in a generic Grixis cEDH shell, not a kill. No M1 interaction review exists yet for this deck."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md#L10",
+   "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md#L12"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "oracle-pact",
+   "kind": "combo",
+   "description": "Tainted Pact + Thassa's Oracle.",
+   "cards": [
+    "Tainted Pact",
+    "Thassa's Oracle"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "breach",
+   "kind": "combo",
+   "description": "Underworld Breach + LED/Lotus Petal + Brain Freeze.",
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Brain Freeze"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "bow-alchemist",
+   "kind": "combo",
+   "description": "Aphetto Alchemist + Hawkeye's Bow: deterministic damage loop.",
+   "cards": [
+    "Aphetto Alchemist",
+    "Hawkeye's Bow"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:4091-7786",
+    "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md#L26"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "crime-selection",
+   "cards": [
+    "Marchesa, Dealer of Death",
+    "Spatial Binding",
+    "Hex Parasite",
+    "Spellskite",
+    "Tezzeret, Cruel Captain",
+    "Lapis Lazuli Talisman",
+    "Talon Gates of Madara"
+   ],
+   "online_condition": "Targeting an opponent or their stuff with {1} spare.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Marchesa, Dealer of Death",
+    "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md#L16"
+   ]
+  },
+  {
+   "id": "fast-mana-draw",
+   "cards": [
+    "Mana Vault",
+    "Chrome Mox",
+    "Mox Diamond",
+    "Lotus Petal",
+    "Dark Ritual",
+    "Rhystic Study",
+    "Mystic Remora",
+    "Necropotence",
+    "Ad Nauseam"
+   ],
+   "online_condition": "Opening hand.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:crime-sources",
+   "required": true,
+   "min_count": 5,
+   "role": "Cheap repeatable targeting of opponents.",
+   "cards": [
+    "Spatial Binding",
+    "Hex Parasite",
+    "Spellskite",
+    "Tezzeret, Cruel Captain",
+    "Lapis Lazuli Talisman",
+    "Talon Gates of Madara",
+    "Urborg"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md#L27",
+    "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md#L28"
+   ]
+  },
+  {
+   "id": "pkg:free-interaction",
+   "required": true,
+   "min_count": 10,
+   "role": "cEDH interaction that is also a crime.",
+   "cards": [
+    "Force of Will",
+    "Force of Negation",
+    "Pact of Negation",
+    "Fierce Guardianship",
+    "Mental Misstep",
+    "Minor Misstep",
+    "Mindbreak Trap",
+    "Flusterstorm",
+    "Swan Song",
+    "Pyroblast",
+    "Red Elemental Blast",
+    "Dispel",
+    "Stifle",
+    "Into the Flood Maw",
+    "Chain of Vapor",
+    "An Offer You Can't Refuse"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md",
+    "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Whole_List_Audit_2026-10-15.csv"
+   ]
+  },
+  {
+   "id": "pkg:tutors",
+   "required": true,
+   "min_count": 5,
+   "role": "Find a win package.",
+   "cards": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Imperial Seal",
+    "Mystical Tutor",
+    "Tainted Pact",
+    "Praetor's Grasp"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "crime-definition",
+   "summary": "Targeting an opponent, their permanents or their graveyard cards is a crime; Marchesa triggers once per crime.",
+   "cards": [
+    "Marchesa, Dealer of Death"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Marchesa, Dealer of Death",
+    "cr:700.13"
+   ]
+  },
+  {
+   "id": "hex-parasite-x0",
+   "summary": "Hex Parasite at X=0 still targets, so it's a cheap repeatable crime.",
+   "cards": [
+    "Hex Parasite"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md#L28"
+   ]
+  },
+  {
+   "id": "spatial-binding",
+   "summary": "Spatial Binding targets for 1 life: a crime each activation.",
+   "cards": [
+    "Spatial Binding"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md#L27"
+   ]
+  },
+  {
+   "id": "lapis",
+   "summary": "Lapis Lazuli Talisman turns blue spells into targeted triggers and more crimes.",
+   "cards": [
+    "Lapis Lazuli Talisman"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md#L25"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Thassa's Oracle",
+   "via": [
+    "Vampiric Tutor",
+    "Imperial Seal",
+    "Mystical Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "target": "Underworld Breach",
+   "via": [
+    "Demonic Tutor",
+    "Praetor's Grasp"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1368-3518-4856"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Underworld Breach",
+   "Jeska's Will"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Free and one-mana permission, bounce and removal.",
+   "protection": "Fierce Guardianship, Deflecting Swat, Spellskite.",
+   "mana": "29 lands, zero/one-mana acceleration and rituals."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "graveyard-hate",
+   "description": "Graveyard hate stops Breach.",
+   "mitigations": [
+    "Oracle + Pact",
+    "Bow + Alchemist"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md"
+   ]
+  },
+  {
+   "id": "marchesa-removed",
+   "description": "Without Marchesa, crimes give no selection.",
+   "mitigations": [
+    "Commander-free wins"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md"
+   ]
+  },
+  {
+   "id": "baseline-loss",
+   "description": "The 48-card rebuild abandons most of the source baseline's identity.",
+   "mitigations": [
+    "Accepted by the source as the commander's real ceiling"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md#L12"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "low",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Power Bracket 5 — cEDH (approval)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/approvals/Marchesa_Dealer_of_Death_Approved_2026-10-15.md#L6"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Bracket 5 ceiling: an exact tournament-winning cEDH list with three compact wins. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Marchesa_Dealer_of_Death_Approval_Ready_Verification_2026-10-15.md#L28",
+    "spellbook:1295-3093"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "5",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Marchesa__Dealer_of_Death"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 37,
+     "2": 651,
+     "3": 524,
+     "4": 167,
+     "5": 138
+    },
+    "decks_with_bracket": 1517,
+    "share_b4_plus": 0.201,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__marchesa-dealer-of-death.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Marchesa, Dealer of Death",
+   "why": "Crime trigger: pay {1} for top-two selection.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Marchesa, Dealer of Death"
+   ]
+  },
+  {
+   "card": "Spatial Binding",
+   "why": "Repeatable 1-life crime.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md#L27"
+   ]
+  },
+  {
+   "card": "Hex Parasite",
+   "why": "X=0 crime activations.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md#L28"
+   ]
+  },
+  {
+   "card": "Hawkeye's Bow",
+   "why": "With Aphetto Alchemist, a compact damage win.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md#L26"
+   ]
+  },
+  {
+   "card": "Lapis Lazuli Talisman",
+   "why": "More crimes from blue spells.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md#L25"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Don't restore generic crime payoffs only for theme density (decisions L30).",
+   "The source froze this exact list; revise only on explicit request (decisions closeout)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md#L30"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Theme subordinate to cEDH: crimes come from interaction, not a crime-payoff theme."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 700.13",
+   "note": "Committing a crime.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:700.13"
+   ]
+  },
+  {
+   "rule": "CR 115.1",
+   "note": "Targets: what makes an action a crime.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:115.1"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "crimes (targeting opponents and their things)",
+    "graveyard as a resource"
+   ],
+   "hooked_cards": 37,
+   "role_counts": {
+    "counter": 15,
+    "draw": 5,
+    "protection": 2,
+    "ramp": 22,
+    "removal": 6,
+    "tutor": 5
+   },
+   "lands": 29,
+   "edhrec_pages": [
+    "marchesa-dealer-of-death"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Current_Cycle_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Marchesa_Dealer_of_Death_Approved_2026-10-15.md",
+   "source_archive:refinement/decisions/Marchesa_Dealer_of_Death_Whole_List_Audit_2026-10-15.csv",
+   "source_archive:refinement/verification/Marchesa_Dealer_of_Death_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 53)"
+ }
+}
