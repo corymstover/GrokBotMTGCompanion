@@ -193,3 +193,25 @@ Implements decision D1. Code: `scripts/grixis_saturation.py`. Certificates: `dat
   - check output `p[:30]`.
   - The saturation `PAIRED_TARGET` (250) is a per-batch ordering target with an overflow queue, not a cap.
 - **Stored M5 files:** `data/grixis/candidates/*.json.gz` are kept as-is and marked **capped legacy, superseded at M5 regeneration**. `--check` validates them against the bounds each file recorded. The byte-identical rebuild check is retired for legacy files, since the builder no longer produces capped universes.
+
+## Step E: targeted mechanic modules (simulator v1.2 framework), batch 66.1
+
+This step implements Cory directive item 3 and decision D4. It is **not** a multiplayer simulator: it adds declared, deterministic mechanic components on top of the paired v1.1 goldfish games.
+
+- **Framework** (`scripts/grixis_mech/`): each module declares what it models and does not model, its assumptions, parameters, confidence, limitations, metrics, determinism and test file. Declarations are validated against `data/grixis/schemas/mechanic_module.schema.json`. Evidence class is `test_result`; win-rate metrics are forbidden by the schema and the check.
+- **v1.1 stays byte-identical:**
+  - `observe.py` runs the unchanged `grixis_sim.play_game` under a read-only line observer that snapshots battlefield, graveyard and hand at each end of turn. It uses no rng.
+  - `grixis_sim.py` is not edited, so the model sha, stored tests, audits and M5 files are not invalidated.
+  - `tests/test_mech.py` checks seeded v1.0/v1.1 outputs against golden hashes generated from main (996350d). The native hook and the v1.2 model bump come at M5 regeneration.
+- **Opponents:** they appear only as bounded, deterministic perturbation grids (closed-form expectations) reported as a sensitivity range, never as win rates.
+- **Router** (`router.py`): it maps the cut and add cards' Oracle features to step-E module families. A swap invokes only the modules it routes to; an unrouted swap stays `not_modelable` with a reason.
+- **Module families:** graveyard recursion\*, graveyard tutoring, sacrifice costs, death triggers, attack/combat triggers\*, cast triggers, activated engines, repeatable draw, repeatable tutors, stax/tax, stack protection, counterspell density, opponent-dependent draw (bounded proxy), LED/Breach sequences, X spells, alternate costs, commander-specific engines, plus tokens, life loss and discard. \* = implemented in 66.1.
+- **Modules in 66.1:**
+  - `attack_trigger_proxy`: a creature with an attack trigger attacks every turn from the first turn it could (haste-aware). It reports expected trigger counts by turns 6/8/10 under block ∈ {0, .25, .5} × survive ∈ {1, .85, .7}.
+  - `graveyard_recursion`: zone tracking. It reports P(a recursion card is available while the graveyard holds a legal target) by turns 4/6/8. This is a lower bound: v1.1 has no creature deaths.
+- **Coverage over legacy M5 `not_modelable` swaps:** 9,040 swaps.
+  - 2,158 (23.9%) now route to an implemented module.
+  - 6,300 route only to planned modules.
+  - 582 match no family (in total, 93.6% route to some family).
+  - Per-family counts are in `data/grixis/mechanics/coverage_legacy_m5.json`; real-deck examples are in `examples.json`.
+- **Known gap:** the recursion matcher counts self-recursion (e.g. Poxwalkers) as recursing other cards. It is to be split in 66.2.
