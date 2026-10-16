@@ -17,6 +17,7 @@ Grixis source commit used: `1836b97` (`git pull` on 2026-10-16: no upstream chan
 
 ## Contents
 - [Status](#status)
+- [End-of-cycle summary (60 legal decks)](#end-of-cycle-summary-60-legal-decks)
 - [Batch log](#batch-log)
 - [Hand reviews](#hand-reviews)
 - [Overlap review (manual)](#overlap-review-manual)
@@ -29,6 +30,63 @@ Grixis source commit used: `1836b97` (`git pull` on 2026-10-16: no upstream chan
 - **Reviewed: 60/62** decks (6 refined, 54 at/near ceiling and unchanged). 2 decks are ⏳ pending legality (measured; exports marked pending).
 - Mean commander dependence, all 62 (final lists): **66%** · mean generic share: **24%** · mean pairwise overlap: **16%**.
 - Thoracle core present in 12 lists · median control-core cards per list: 9.
+
+## End-of-cycle summary (60 legal decks)
+
+Bot cycles 39–43, batches 1–5. **60/60 legal decks reviewed: 6 changed (7 swaps, 3 hand-picked), 54 at/near ceiling and unchanged.** 17 written verdicts on guard-passing automatic candidates (4 accepted, 13 rejected); 8 hand reviews; 4 decks with protected core cards. Source lists stay on each deck page; every change is guidance with its evidence.
+
+### Method in brief
+
+- **Commander identity first:** every add needs an Oracle-text hook to the commander (quoted verbatim on the deck page) and EDHREC synergy ≥ 15% on that commander's page. Every cut must be generic: in ≥ 16 of the 62 lists, no hook, and synergy < 5%.
+- **Power guard (Bot cycle 40):** no clear downgrade. The add's inclusion on the commander's page must be at least the cut's, its overall EDHREC rank no worse than 4× the cut's or +2000, and a free spell is never replaced by one that costs mana. Never cut Game Changers, Spellbook combo pieces, mana sources of MV ≤ 2, trigger doublers for triggered commanders, or reviewer-protected core cards. Role parity: interaction is replaced only by interaction at equal or lower MV.
+- **Written review:** a swap that passes the guard is applied only with a written verdict saying why the add does more in *this* deck. Unreviewed swaps fail `validate_all`.
+- **Hand-picked swaps (Bot cycle 41):** reviewer-chosen swaps with verbatim Oracle hooks. They pass the same gates.
+- **Hand reviews:** every deck scoring under about 30% commander dependence when it was reviewed (Evelyn, Marchesa, Dealer of Death, Nicol Bolas, Fire Lord Azula) got a commander-first hand look. So did the decks near that line (Garza Zol, Sol'kanar the Swamp King, Tetsuo Umezawa) and Thraximundar, for its source flag. Several low scores were hook gaps, fixed below.
+- **Scoring fixes found by hand review:** Evelyn's exile-play hook (cycle 40); the crimes hook for Marchesa (cycle 41); the wheels / punishers hook (Nekusar), "deals damage to an opponent" (Nicol Bolas), ward no longer counted as a counterspell (cycle 42); unearth (Sedris), life gain and black spells (Sol'kanar), tapping / blocking creatures (Tetsuo Umezawa), villainous choice / voting (The Valeyard), and reminder text ignored for roles (cycle 43).
+- **Verification:** each changed list passes `evaluate_decklist.check`, keeps every Spellbook combo of the source list, and does not raise the bracket floor.
+
+### Decks that changed
+
+| Deck | Batch | Swaps | Identity impact (commander dependence) | Why |
+|---|---|---|---|---|
+| [Abaddon the Despoiler](decks/abaddon-the-despoiler.md#refined-list-bot-cycle-39) | 1 | −Mystic Remora +**Stormfist Crusader** | opponents losing life: 51% → **52%** | Abaddon's cascade X is the life opponents lost this turn. |
+| [Norman Osborn // Green Goblin](decks/norman-osborn.md#refined-list-bot-cycle-39) | 2 | −Mystic Remora +**Thrill of Possibility** | graveyard as a resource: 32% → **33%** | Green Goblin gives every nonland card in the graveyard mayhem and makes graveyard casts cost {2} less. |
+| [Kefka, Court Mage // Kefka, Ruler of Ruin](decks/kefka-court-mage.md#refined-list-bot-cycle-39) | 3 | −Final Fortune +**Liliana's Caress** (hand-picked); −Valley Floodcaller +**Dauthi Voidwalker** (hand-picked) | discard (hand-picked): 59% → **62%** | Every Kefka enter/attack trigger makes each opponent discard, so Caress drains 2 from each opponent per trigger. Kefka forces opponents to discard every enter and attack, and Brain Freeze mills them. |
+| [Nicol Bolas](decks/nicol-bolas.md#refined-list-bot-cycle-39) | 4 | −No Mercy +**Megrim** (hand-picked) | damage to an opponent → discard (hand-picked): 40% → **42%** | Each time Nicol Bolas deals damage to an opponent, that player discards their whole hand. |
+| [Sol'kanar the Swamp King](decks/solkanar-the-swamp-king.md#refined-list-bot-cycle-39) | 5 | −Windfall +**Well of Lost Dreams** | life gain: 39% → **41%** | Sol'kanar's "Whenever a player casts a black spell, you gain 1 life." fires on every player's black spell, and the list adds Exquisite Blood, Vito, Sheoldred, the Apocalypse, Bloodthirsty Conqueror and Enduring Tenacity. |
+| [The Rani](decks/the-rani.md#refined-list-bot-cycle-39) | 5 | −Mystic Remora +**Idol of Oblivion** | tokens: 61% → **62%** | The Rani creates a Mark of the Rani Aura token each time she enters or attacks ("create a red Aura enchantment token named Mark of the Rani"), and her goad trigger investigates (Clue tokens). |
+
+### Decks at their ceiling (unchanged)
+
+No qualifying swap passed the gates, guard and review, so these lists are left as the source built them (principle 2). Hand-reviewed decks are marked 🔎.
+
+- **Batch 1:** [Admiral Beckett Brass](decks/admiral-beckett-brass.md#refined-list-bot-cycle-39) (67%) · [Admiral Brass, Unsinkable](decks/admiral-brass-unsinkable.md#refined-list-bot-cycle-39) (68%) · [Anhelo, the Painter](decks/anhelo-the-painter.md#refined-list-bot-cycle-39) (89%) · [Ashad, the Lone Cyberman](decks/ashad-the-lone-cyberman.md#refined-list-bot-cycle-39) (90%) · [Ashnod the Uncaring](decks/ashnod-the-uncaring.md#refined-list-bot-cycle-39) (88%) · [Be'lakor, the Dark Master](decks/belakor-the-dark-master.md#refined-list-bot-cycle-39) (75%) · [Bjorna, Nightfall Alchemist + Cecily, Haunted Mage](decks/bjorna-nightfall-alchemist-cecily.md#refined-list-bot-cycle-39) (98%) · [Cormela, Glamour Thief](decks/cormela-glamour-thief.md#refined-list-bot-cycle-39) (78%) · [Crosis, the Purger](decks/crosis-the-purger.md#refined-list-bot-cycle-39) (49%) · [Cult of Skaro](decks/cult-of-skaro.md#refined-list-bot-cycle-39) (91%) · [Davros, Dalek Creator](decks/davros-dalek-creator.md#refined-list-bot-cycle-39) (85%)
+- **Batch 2:** [Doctor Doom, King of Latveria](decks/doctor-doom-king-of-latveria.md#refined-list-bot-cycle-39) (79%) · [Don Andres, the Renegade](decks/don-andres-the-renegade.md#refined-list-bot-cycle-39) (81%) · [Dr. Eggman](decks/dr-eggman.md#refined-list-bot-cycle-39) (68%) · [Edea, Possessed Sorceress](decks/edea-possessed-sorceress.md#refined-list-bot-cycle-39) (62%) · [Edward Kenway](decks/edward-kenway.md#refined-list-bot-cycle-39) (64%) · [Evelyn, the Covetous](decks/evelyn-the-covetous.md#refined-list-bot-cycle-39) (15% 🔎) · [Fire Lord Azula](decks/fire-lord-azula.md#refined-list-bot-cycle-39) (25% 🔎) · [Garza Zol, Plague Queen](decks/garza-zol-plague-queen.md#refined-list-bot-cycle-39) (31% 🔎) · [Goro-Goro and Satoru](decks/goro-goro-and-satoru.md#refined-list-bot-cycle-39) (70%) · [Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools](decks/grixistax-october-2026.md#refined-list-bot-cycle-39) (76%) · [Gwendlyn Di Corci](decks/gwendlyn-di-corci.md#refined-list-bot-cycle-39) (52%) · [Inalla, Archmage Ritualist](decks/inalla-archmage-ritualist.md#refined-list-bot-cycle-39) (40%)
+- **Batch 3:** [Jeleva, Nephalia's Scourge](decks/jeleva-nephalias-scourge.md#refined-list-bot-cycle-39) (71%) · [Kess, Dissident Mage](decks/kess-dissident-mage.md#refined-list-bot-cycle-39) (75%) · [Loki, the Deceiver](decks/loki-the-deceiver.md#refined-list-bot-cycle-39) (78%) · [Lord Xander, the Collector](decks/lord-xander-the-collector.md#refined-list-bot-cycle-39) (53%) · [Lord of Tresserhorn](decks/lord-of-tresserhorn.md#refined-list-bot-cycle-39) (58%) · [Lynde, Cheerful Tormentor](decks/lynde-cheerful-tormentor.md#refined-list-bot-cycle-39) (64%) · [Mai and Zuko](decks/mai-and-zuko.md#refined-list-bot-cycle-39) (76%) · [Mairsil, the Pretender](decks/mairsil-the-pretender.md#refined-list-bot-cycle-39) (75%) · [Marchesa, Dealer of Death](decks/marchesa-dealer-of-death.md#refined-list-bot-cycle-39) (56% 🔎) · [Marchesa, the Black Rose](decks/marchesa-the-black-rose.md#refined-list-bot-cycle-39) (65%) · [Mishra, Artificer Prodigy](decks/mishra-artificer-prodigy.md#refined-list-bot-cycle-39) (86%) · [Mishra, Eminent One](decks/mishra-eminent-one.md#refined-list-bot-cycle-39) (83%)
+- **Batch 4:** [Missy](decks/missy.md#refined-list-bot-cycle-39) (81%) · [Nathan Drake, Treasure Hunter](decks/nathan-drake-treasure-hunter.md#refined-list-bot-cycle-39) (62%) · [Nekusar, the Mindrazer](decks/nekusar-the-mindrazer.md#refined-list-bot-cycle-39) (61%) · [Nicol Bolas, the Ravager // Nicol Bolas, the Arisen](decks/nicol-bolas-the-ravager.md#refined-list-bot-cycle-39) (54%) · [Obeka, Brute Chronologist](decks/obeka-brute-chronologist.md#refined-list-bot-cycle-39) (55%) · [Obeka, Splitter of Seconds](decks/obeka-splitter-of-seconds.md#refined-list-bot-cycle-39) (64%) · [Parnesse, the Subtle Brush](decks/parnesse-the-subtle-brush.md#refined-list-bot-cycle-39) (69%) · [Rograkh, Son of Rohgahh + Silas Renn, Seeker Adept](decks/rograkh-son-of-rohgahh-silas-renn.md#refined-list-bot-cycle-39) (99%) · [Saruman, the White Hand](decks/saruman-the-white-hand.md#refined-list-bot-cycle-39) (87%) · [Sauron, Lord of the Rings](decks/sauron-lord-of-the-rings.md#refined-list-bot-cycle-39) (55%) · [Sauron, the Dark Lord](decks/sauron-the-dark-lord.md#refined-list-bot-cycle-39) (75%)
+- **Batch 5:** [Sedris, the Traitor King](decks/sedris-the-traitor-king.md#refined-list-bot-cycle-39) (57%) · [Sol'Kanar the Tainted](decks/solkanar-the-tainted.md#refined-list-bot-cycle-39) (56%) · [Tetsuo Umezawa](decks/tetsuo-umezawa.md#refined-list-bot-cycle-39) (48% 🔎) · [Tetsuo, Imperial Champion](decks/tetsuo-imperial-champion.md#refined-list-bot-cycle-39) (84%) · [The Valeyard](decks/the-valeyard.md#refined-list-bot-cycle-39) (59%) · [Thraximundar](decks/thraximundar.md#refined-list-bot-cycle-39) (67% 🔎) · [Wick, the Whorled Mind](decks/wick-the-whorled-mind.md#refined-list-bot-cycle-39) (64%) · [Zevlor, Elturel Exile](decks/zevlor-elturel-exile.md#refined-list-bot-cycle-39) (91%)
+
+### Flagged items
+
+- ⚠️ **Evelyn, the Covetous:** Identity vs ceiling tradeoff (Bot cycle 41 hand review): the list wins through a cEDH combo core (Worldgorger Dragon with Animate Dead / Necromancy, Thassa's Oracle with Tainted Pact / Demonic Consultation, Underworld Breach with Brain Freeze). Evelyn adds value, not the win line. An identity-first Vampire build would be clearly weaker, so the list is left as is and flagged. Same call for Fire Lord Azula (Bot cycle 43 late hand review).
+- ⚠️ **Thraximundar:** Source state file: `whole_list_audit_artifact` points to `refinement/decisions/Thraximundar_Whole_List_Audit_v2_2026-10-15.csv`, which does not exist at `1836b97` (re-checked in Bot cycle 43). The file on disk is `refinement/audits/Thraximundar_Whole_List_Audit_2026-10-15.csv`. Reported, not fixed: the source is read-only for us.
+- ⚠️ **Archidekt exports:** Archidekt import not tested in Archidekt itself. The export files are checked offline: format matches the source's own Archidekt package (`exports/archidekt_2026-10-15/`), each file matches its deck page card for card, every file is 100 cards with the commander line(s) first and tagged `[Commander]`, and every file passes `evaluate_decklist.check`. Nobody has pasted them into Archidekt yet. Do that once per deck before relying on the `[Commander]` category.
+- ⚠️ **Kefka, Court Mage // Kefka, Ruler of Ruin:** Open idea, not applied: Mystic Remora → Monument to Endurance (hand-picked, Bot cycle 41). The role/MV parity gate rejects it (cut MV 1, add MV 3). The identity case is real: Kefka's "each player discards a card" turns Monument into draw, Treasure, or a 3-point drain each turn. A draw-role cut at MV 2 or more would let it pass. Left open for Cory's call.
+
+### Homogenization and overlap findings
+
+- Legal decks, source → final: mean commander dependence 65.8% → **66.0%** · mean generic share 24.5% → **24.4%** · mean pairwise overlap 15.8% → **15.8%**.
+- Most shared cards: Sol Ring (62), Arcane Signet (61), Talisman of Dominance (61), Demonic Tutor (57), Talisman of Indulgence (56), Talisman of Creativity (56), Fierce Guardianship (54), Vampiric Tutor (54), Deflecting Swat (53), Cyclonic Rift (46) (lists out of 62).
+- Measured on the final lists. Most shared cards are fast mana, tutors and free interaction (see the table): the Game Changer-era ceiling cards any Grixis list at Bracket 4+ plays. That is principle 2 (no artificial weakening), not homogenization, so none of them was cut for being shared. Where overlap was high (the Kess pairs below), the hand review found the shared core explained by each commander's text except for part of Kefka's list, and Kefka was refined in batch 3. The refinement cut only generic cards with no hook to their commander. Every add carries an Oracle hook, so each changed list moved away from the shared core, not toward it.
+- **Kess, Dissident Mage / Kefka, Court Mage (64% overlap):** Partly homogenization.
+- **Cormela, Glamour Thief / Kess, Dissident Mage (62%):** Identity-justified.
+- **Jeleva, Nephalia's Scourge / Kess, Dissident Mage (62%):** Identity-justified.
+
+### Pending decks (not in the 60)
+
+- ⏳ [The Madcap Jester](decks/the-madcap-jester.md): The Madcap Jester, Dragon's Smile not Commander-legal before 2026-10-19. Measured but not refined; the export is marked pending.
+- ⏳ [Tresserhorn's Lord, Returned](decks/tresserhorns-lord-returned.md): Tresserhorn's Lord, Returned not Commander-legal before 2026-10-19. Measured but not refined; the export is marked pending.
+- **Follow-up (2026-10-20):** On or after 2026-10-19 (scheduled follow-up: 2026-10-20), run `python3 scripts/activate_pending_grixis.py`. It refreshes the Scryfall bulk, re-checks the `mbc` cards (The Madcap Jester, Dragon's Smile, Tresserhorn's Lord, Returned) and flips both decks from ⏳ pending to active. Then run their refinement pass: `python3 scripts/grixis_refine.py --plan 6 --cycle <N> --decks The_Madcap_Jester,Tresserhorn_s_Lord__Returned`, then `rebuild_enrichment.sh`. `validate_all` fails a pending deck once its `legal_from` date has passed, so this cannot be forgotten. Lord of Tresserhorn is a different, already-legal deck (batch 3).
 
 ## Batch log
 
@@ -47,6 +105,8 @@ Grixis source commit used: `1836b97` (`git pull` on 2026-10-16: no upstream chan
 - [Cult of Skaro](decks/cult-of-skaro.md#refined-list-bot-cycle-39): at/near ceiling: commander dependence 91% ≥ 60% and generic share 9% ≤ 15%; unchanged. Dependence 91% → 91%.
 - [Davros, Dalek Creator](decks/davros-dalek-creator.md#refined-list-bot-cycle-39): at/near ceiling: commander dependence 85% ≥ 60% and generic share 12% ≤ 15%; unchanged. Dependence 85% → 85%.
 
+- *Written reviews in this batch:* 1 verdict(s) on automatic candidates (1 accepted, 0 rejected) covering 1 distinct add(s).
+
 ### Batch 2 — Bot cycle 40, 2026-10-16
 
 - [Doctor Doom, King of Latveria](decks/doctor-doom-king-of-latveria.md#refined-list-bot-cycle-39): at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged. Dependence 79% → 79%.
@@ -62,6 +122,8 @@ Grixis source commit used: `1836b97` (`git pull` on 2026-10-16: no upstream chan
 - [Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools](decks/grixistax-october-2026.md#refined-list-bot-cycle-39): at/near ceiling: commander dependence 76% ≥ 60% and generic share 3% ≤ 15%; unchanged. Dependence 76% → 76%.
 - [Gwendlyn Di Corci](decks/gwendlyn-di-corci.md#refined-list-bot-cycle-39): at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged. Dependence 52% → 52%.
 - [Inalla, Archmage Ritualist](decks/inalla-archmage-ritualist.md#refined-list-bot-cycle-39): at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged. Dependence 40% → 40%.
+
+- *Written reviews in this batch:* 4 verdict(s) on automatic candidates (1 accepted, 3 rejected) covering 4 distinct add(s).
 
 ### Batch 3 — Bot cycle 41, 2026-10-16
 
@@ -79,6 +141,8 @@ Grixis source commit used: `1836b97` (`git pull` on 2026-10-16: no upstream chan
 - [Mishra, Artificer Prodigy](decks/mishra-artificer-prodigy.md#refined-list-bot-cycle-39): at/near ceiling: commander dependence 86% ≥ 60% and generic share 14% ≤ 15%; unchanged. Dependence 86% → 86%.
 - [Mishra, Eminent One](decks/mishra-eminent-one.md#refined-list-bot-cycle-39): at/near ceiling: all 2 role-compatible candidate swap(s) failed the power guard or manual review; unchanged. Dependence 83% → 83%.
 
+- *Written reviews in this batch:* 1 verdict(s) on automatic candidates (0 accepted, 1 rejected) covering 1 distinct add(s), plus 3 hand-picked swap(s).
+
 ### Batch 4 — Bot cycle 42, 2026-10-16
 
 - [Missy](decks/missy.md#refined-list-bot-cycle-39): at/near ceiling: commander dependence 81% ≥ 60% and generic share 12% ≤ 15%; unchanged. Dependence 81% → 81%.
@@ -94,6 +158,8 @@ Grixis source commit used: `1836b97` (`git pull` on 2026-10-16: no upstream chan
 - [Sauron, Lord of the Rings](decks/sauron-lord-of-the-rings.md#refined-list-bot-cycle-39): at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged. Dependence 55% → 55%.
 - [Sauron, the Dark Lord](decks/sauron-the-dark-lord.md#refined-list-bot-cycle-39): at/near ceiling: all 4 role-compatible candidate swap(s) failed the power guard or manual review; unchanged. Dependence 75% → 75%.
 
+- *Written reviews in this batch:* 7 verdict(s) on automatic candidates (0 accepted, 7 rejected) covering 6 distinct add(s), plus 1 hand-picked swap(s).
+
 ### Batch 5 — Bot cycle 43, 2026-10-16
 
 - [Sedris, the Traitor King](decks/sedris-the-traitor-king.md#refined-list-bot-cycle-39): at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged. Dependence 57% → 57%.
@@ -107,6 +173,8 @@ Grixis source commit used: `1836b97` (`git pull` on 2026-10-16: no upstream chan
 - [Wick, the Whorled Mind](decks/wick-the-whorled-mind.md#refined-list-bot-cycle-39): at/near ceiling: all 4 role-compatible candidate swap(s) failed the power guard or manual review; unchanged. Dependence 64% → 64%.
 - [Zevlor, Elturel Exile](decks/zevlor-elturel-exile.md#refined-list-bot-cycle-39): at/near ceiling: commander dependence 91% ≥ 60% and generic share 6% ≤ 15%; unchanged. Dependence 91% → 91%.
 
+- *Written reviews in this batch:* 4 verdict(s) on automatic candidates (2 accepted, 2 rejected) covering 4 distinct add(s).
+
 ## Hand reviews
 
 Decks given a commander-first hand look (guidance; principle 2: no artificial weakening).
@@ -115,10 +183,10 @@ Decks given a commander-first hand look (guidance; principle 2: no artificial we
 - **[Marchesa, Dealer of Death](decks/marchesa-dealer-of-death.md#refined-list-bot-cycle-39)** (Bot cycle 41): **identity confirmed after a scoring fix, list left unchanged.** The 14% score was our gap, not the list's. Marchesa triggers on "Whenever you commit a crime", and the reminder text says targeting opponents, anything they control, or cards in their graveyards counts. Most of the list's cEDH interaction (targeted counterspells, bounce, removal) plus Spatial Binding, Hex Parasite, Spellskite, Tezzeret and Lapis Lazuli Talisman commit crimes. A new crimes hook now counts them. The source records this list as matching the 2026-10-11 Takeda Ryuhei tournament-winning configuration and keeps Lapis deliberately: it turns blue spells into targeted untaps, which are crimes. Considered and not made: Gitaxian Probe (a free crime cantrip, 37.4% of Marchesa decks) for Mystic Remora, Lapis Lazuli Talisman or Last Chance. It passes the guard, but each cut is a deliberate source decision (Remora: card-advantage pillar; Lapis: crime density; Last Chance: finisher), and Probe does not clearly do more. No swap.
 - **[Nicol Bolas](decks/nicol-bolas.md#refined-list-bot-cycle-39)** (Bot cycle 42): **identity confirmed after a scoring fix; 1 hand-picked swap.** The 31% score was mostly our gap. Nicol's trigger is "Whenever Nicol Bolas deals damage to an opponent", and the combat hook did not cover it until this cycle. The list is already built to make him connect or deal damage: Lightning Greaves, Swiftfoot Boots, Sword of Feast and Famine, Pain for All, Chandra's Ignition, Kediss, Emberclaw Familiar. It also punishes the hand discard: Liliana's Caress, Raiders' Wake, Waste Not, the Tinybones pair, Torment of Hailfire. Pain for All, Chandra's Ignition and Kediss look generic, but each makes Nicol himself deal damage to an opponent, so they stay. One change: No Mercy (defensive) → Megrim (another discard payoff).
 - **[Sol'kanar the Swamp King](decks/solkanar-the-swamp-king.md#refined-list-bot-cycle-39)** (Bot cycle 43): **identity confirmed after a scoring fix; 1 swap.** The low 34% score was our gap. Sol'kanar's "Whenever a player casts a black spell, you gain 1 life." matched no hook until the cycle 43 "life gain" and "black spells / Swamps" hooks (now 39%). The list is a black life-swing deck: Aetherflux Reservoir, Exquisite Blood and Vito with drain and life-gain cards (Bloodthirsty Conqueror, Marauding Blight-Priest, Starscape Cleric, Enduring Tenacity, Bloodchief Ascension), Gray Merchant, Cabal Coffers / Crypt Ghast for black mana. The generic share (42%) is the fast mana and interaction a ceiling list needs. One swap: Windfall → Well of Lost Dreams.
-- **[Tetsuo Umezawa](decks/tetsuo-umezawa.md#refined-list-bot-cycle-39)** (Bot cycle 43): **identity confirmed after a scoring fix; unchanged.** Tetsuo's text ("{U}{B}{B}{R}, {T}: Destroy target tapped or blocking creature.") matched no hook until the cycle 43 "tapping / blocking creatures" hook (31% → 36%). The list is a tap-and-untap removal engine: untappers (Aphetto Alchemist, Fatestitcher, Magewright's Stone, Thousand-Year Elixir), ability copiers (Rings of Brighthearth, Illusionist's Bracers), tappers (Flood, Frozen Aether, Sink into Stupor, Blustersquall), forced attacks (Disrupt Decorum), which leave creatures tapped, and Maze of Ith / Propaganda. The automatic plan found no generic card with a stronger Tetsuo-specific replacement, so the list is left as is.
+- **[Tetsuo Umezawa](decks/tetsuo-umezawa.md#refined-list-bot-cycle-39)** (Bot cycle 43): **identity confirmed after a scoring fix; unchanged.** Tetsuo's text ("{U}{B}{B}{R}, {T}: Destroy target tapped or blocking creature.") matched no hook until the cycle 43 "tapping / blocking creatures" hook (31% → 48%; the hook covers tappers, untappers, ability copiers and goad). The list is a tap-and-untap removal engine: untappers (Aphetto Alchemist, Fatestitcher, Magewright's Stone, Thousand-Year Elixir), ability copiers (Rings of Brighthearth, Illusionist's Bracers), tappers (Flood, Frozen Aether, Sink into Stupor, Blustersquall), forced attacks (Disrupt Decorum), which leave creatures tapped, and Maze of Ith / Propaganda. The automatic plan found no generic card with a stronger Tetsuo-specific replacement, so the list is left as is.
 - **[Thraximundar](decks/thraximundar.md#refined-list-bot-cycle-39)** (Bot cycle 43): **unchanged; source flag kept.** 67% commander dependence; the automatic candidate (Reanimate → Village Rites) was rejected in writing. ⚠️ Flag kept from Bot cycle 37: the source state's `whole_list_audit_artifact` points to `refinement/decisions/Thraximundar_Whole_List_Audit_v2_2026-10-15.csv`, which does not exist at `1836b97` (re-checked this cycle). The file on disk is `refinement/audits/Thraximundar_Whole_List_Audit_2026-10-15.csv`. We did not modify the source.
-- **[Fire Lord Azula](decks/fire-lord-azula.md#refined-list-bot-cycle-39)** (Bot cycle 43): **cEDH ceiling; identity-first version would be weaker; unchanged (flagged).** Added late: Azula's 25% score is under the hand-review line, but batch 2 (Bot cycle 40) ran before that rule was applied to every deck. The list is a cEDH turbo shell: Thassa's Oracle, Demonic Consultation / Tainted Pact, Ad Nauseam, Underworld Breach with Lion's Eye Diamond and Brain Freeze, fast mana, and free counterspells. Azula is used as an attacking copy engine: "Whenever you cast a spell while Fire Lord Azula is attacking, copy that spell." Her support is haste (Birgi, Expedite, Crimson Wisps), instant-speed sorceries (Quicken, Borne Upon a Wind), and copied rituals and tutors. Swapping the combo core for more attack-copy payoffs would lower the deck's ceiling, so the list is left as is. Same tradeoff as Evelyn.
-- **[Garza Zol, Plague Queen](decks/garza-zol-plague-queen.md#refined-list-bot-cycle-39)** (Bot cycle 43): **identity confirmed; unchanged.** Added late: Garza's 31% score is near the hand-review line (batch 2, Bot cycle 40). Garza is a flying, hasty Voltron commander: "Whenever Garza Zol deals combat damage to a player, you may draw a card." The low score comes from equipment and Auras (Swords of Feast and Famine and Fire and Ice, Shadowspear, Blackblade Reforged, Commander's Plate, Grafted Exoskeleton, Quietus Spike, Hatred, Psychotic Fury). Their text names "equipped creature", not combat damage, but every one of them is there to make Garza connect. The automatic plan found no stronger Garza-specific replacement, so the list is left as is.
+- **[Fire Lord Azula](decks/fire-lord-azula.md#refined-list-bot-cycle-39)** (Bot cycle 43): **cEDH ceiling; identity-first version would be weaker; unchanged (flagged).** Added late: Azula's 25% score is under the hand-review line, but batch 2 (Bot cycle 40) ran before that rule was applied to every deck. The list is a cEDH turbo shell: Thassa's Oracle, Demonic Consultation / Tainted Pact, Ad Nauseam, Underworld Breach with Lion's Eye Diamond and Brain Freeze, fast mana, and free counterspells. Azula is used as an attacking copy engine: "Whenever you cast a spell while Fire Lord Azula is attacking, copy that spell." Her support is haste (Expedite, Crimson Wisps), Birgi's mana for every spell cast, instant-speed sorceries (Quicken, Borne Upon a Wind), and copied rituals and tutors. Swapping the combo core for more attack-copy payoffs would lower the deck's ceiling, so the list is left as is. Same tradeoff as Evelyn.
+- **[Garza Zol, Plague Queen](decks/garza-zol-plague-queen.md#refined-list-bot-cycle-39)** (Bot cycle 43): **identity confirmed; unchanged.** Added late: Garza's 31% score is near the hand-review line (batch 2, Bot cycle 40). Garza is a flying, hasty Voltron commander: "Whenever Garza Zol deals combat damage to a player, you may draw a card." The low score comes from equipment (Swords of Feast and Famine and Fire and Ice, Shadowspear, Blackblade Reforged, Commander's Plate, Grafted Exoskeleton, Quietus Spike) and pump spells (Hatred, Psychotic Fury). Their text names "equipped creature" or "target creature", not combat damage, but every one of them is there to make Garza connect. The automatic plan found no stronger Garza-specific replacement, so the list is left as is.
 
 ## Overlap review (manual)
 
@@ -216,8 +284,8 @@ Most-shared nonland cards across the 62 source lists (count of lists):
 | Card | Lists |
 |---|---|
 | Sol Ring | 62 |
-| Talisman of Dominance | 61 |
 | Arcane Signet | 61 |
+| Talisman of Dominance | 61 |
 | Demonic Tutor | 57 |
 | Talisman of Indulgence | 56 |
 | Talisman of Creativity | 56 |

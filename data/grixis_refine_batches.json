@@ -1857,6 +1857,14 @@
     "change": "reviewed: at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged",
     "added": [],
     "removed": []
+   },
+   {
+    "date": "2026-10-16",
+    "cycle": 43,
+    "batch": "2 hand review",
+    "change": "late hand review (cEDH ceiling; identity-first version would be weaker; unchanged (flagged)): list unchanged",
+    "added": [],
+    "removed": []
    }
   ],
   "Garza_Zol__Plague_Queen": [
@@ -1865,6 +1873,14 @@
     "cycle": 40,
     "batch": 2,
     "change": "reviewed: at/near ceiling: all 1 role-compatible candidate swap(s) failed the power guard or manual review; unchanged",
+    "added": [],
+    "removed": []
+   },
+   {
+    "date": "2026-10-16",
+    "cycle": 43,
+    "batch": "2 hand review",
+    "change": "late hand review (identity confirmed; unchanged): list unchanged",
     "added": [],
     "removed": []
    }
