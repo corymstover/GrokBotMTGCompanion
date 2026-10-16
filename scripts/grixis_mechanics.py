@@ -4,7 +4,9 @@
   python3 scripts/grixis_mechanics.py --build    # writes data/grixis/mechanics/{modules,coverage_legacy_m5,examples}.json
   python3 scripts/grixis_mechanics.py --check    # schema + registry matches code + no forbidden metric (cheap)
 """
-import argparse, glob, gzip, json, sys, time
+import argparse, glob, gzip, json, os, sys, time
+
+os.environ.setdefault("SCRYFALL_OFFLINE", "1")  # never refresh the shared bulk cache (snap-20261016 is frozen, Cory D6)
 from collections import Counter
 from pathlib import Path
 
@@ -32,6 +34,8 @@ def cards_index():
 
 def coverage(cards):
     tot, st, per, ex = 0, Counter(), Counter(), {}
+    from grixis_mech import death_triggers as dt
+    dnm = Counter()
     for f in sorted(glob.glob(str(ROOT / "data/grixis/candidates/*.json.gz"))):
         d = json.loads(gzip.decompress(Path(f).read_bytes()))
         for sw in d["swaps"]:
@@ -39,6 +43,11 @@ def coverage(cards):
                 continue
             tot += 1
             r = router.route_swap(sw["cuts"][0], sw["adds"][0], cards)
+            for n in (sw["cuts"][0], sw["adds"][0]):
+                if n in cards:
+                    why = dt.parse(n, cards[n]["text"])[1]
+                    if why:
+                        dnm[why] += 1
             st[r["status"]] += 1
             for k in r["modules"] + r["planned"]:
                 per[k] += 1
@@ -50,7 +59,8 @@ def coverage(cards):
             "not_modelable_swaps": tot, "by_status": dict(sorted(st.items())),
             "now_routed_to_implemented_module": st["routed"], "now_routed_share": round(st["routed"] / max(1, tot), 4),
             "routed_incl_planned_share": round((st["routed"] + st["planned_module"]) / max(1, tot), 4),
-            "per_module_family": dict(sorted(per.items())), "note": "a swap can route to several families; routing is "
+            "per_module_family": dict(sorted(per.items())),
+            "death_triggers_not_modelable_card_occurrences": dict(sorted(dnm.items())), "note": "a swap can route to several families; routing is "
             "eligibility to be tested by a module, not a test result"}, ex
 
 

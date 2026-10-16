@@ -57,13 +57,17 @@
     "an opponent wipe at the end of turn `wipe` kills every creature you control",
     "a sacrifice outlet you control is used once per turn when it has fodder (not itself, not the commander, tracked cards last)",
     "dead non-commander creatures go to your graveyard and stay there (no exile, no graveyard hate)",
-    "no regeneration, indestructible, protection or recursion of the dead creature inside the layer"
+    "no regeneration, indestructible, protection or recursion of the dead creature inside the layer",
+    "removal deaths in one opponent turn cycle are separate events in random order: the watcher sees another creature's removal with probability alive_before(watcher) x (1 - removal/2)",
+    "wipes and sacrifices are single simultaneous events; victims' death probabilities are treated as independent of the watcher's",
+    "non-creature watchers are not removed by the layer (alive while on the battlefield in the trace)"
    ],
    "confidence": "low",
    "determinism": "seeded paired v1.1 games (grixis_sim.seed_for); the death layer is closed-form (no rng)",
    "does_not_model": [
     "trigger payloads (value of the trigger)",
-    "opponents' creatures dying (watchers that count all creatures are under-counted)",
+    "opponents' creatures dying: 'a creature dies' watchers count only your creatures (lower bound), and 'an opponent controls' watchers are not_modelable",
+    "creature-type filters ('whenever a Rat you control dies'): not_modelable",
     "real removal choices, combat deaths, politics",
     "multiplayer win rates (never produced)"
    ],
@@ -72,7 +76,8 @@
    "id": "death_triggers",
    "limitations": [
     "The death layer is a scripted proxy; results are a sensitivity range, not an estimate of real games.",
-    "Opponents' creature deaths are not modelled."
+    "Opponents' creature deaths are not modelled.",
+    "Version 2 (66.2a) replaces v1, which counted creatures for event wording, included the watcher's own death for 'another', and gave full triggers while the trace still listed a dead watcher."
    ],
    "metrics": [
     "self_p_dead_by_turn",
@@ -80,7 +85,7 @@
    ],
    "models": [
     "self death triggers: P(the card has died by turn 6/8/10)",
-    "watcher death triggers: expected creature deaths (yours) while the watcher is on the battlefield, by turn 6/8/10",
+    "watcher death triggers with distinct semantics (a / another / one or more / one or more other; you control or any controller; nontoken): expected triggers by turn 6/8/10, counting deaths per creature or death EVENTS per the wording, weighted by the watcher's own survival in the death layer, with CR 603.10a look-back for simultaneous deaths",
     "every metric over the shared death-perturbation grid (deaths.GRID), with the no-death lower bound reported separately"
    ],
    "parameters": {
@@ -107,7 +112,7 @@
     ]
    },
    "test_file": "tests/test_mech.py",
-   "version": "1"
+   "version": "2"
   },
   {
    "assumptions": [

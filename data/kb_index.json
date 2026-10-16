@@ -6679,6 +6679,11 @@
 3,
 "Step E batch 66.2: shared death layer, death triggers, sacrifice, self-recursion split",
 "step-e-batch-662-shared-death-layer-death-triggers-sacrifice-self-recursion-split"
+],
+[
+3,
+"Step E batch 66.2a: death-trigger semantics correction (Cory t56u)",
+"step-e-batch-662a-death-trigger-semantics-correction-cory-t56u"
 ]
 ],
 "issues": [],
