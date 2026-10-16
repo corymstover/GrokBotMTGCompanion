@@ -1,5 +1,5 @@
 {
- "framework_version": "1.2-mech.8",
+ "framework_version": "1.2-mech.9",
  "modules": [
   {
    "assumptions": [
@@ -388,6 +388,72 @@
     ]
    },
    "test_file": "tests/test_mech_tutor_semantics.py",
+   "version": "1"
+  },
+  {
+   "assumptions": [
+    "three opponents (four-player Commander table)",
+    "opponent spells per opponent turn is swept over 1/2/3; noncreature share over 0.5/0.7/0.9",
+    "for taxed draw, nonpayment share is swept over 0.25/0.5/0.75 independent of tax size; these are sensitivity points, not estimates",
+    "opponent cards drawn per opponent turn is swept over 1/2/3 for opponent-draw triggers",
+    "if the permanent is present at your end step, it observes the following opponent turn cycle"
+   ],
+   "confidence": "low",
+   "determinism": "seeded paired v1.1 battlefield trace plus closed-form bounded opponent sensitivity grid",
+   "does_not_model": [
+    "actual opponent decks, sequencing, mana, choices, threat assessment or politics",
+    "artifact/enchantment/instant/sorcery opponent-cast mix (parsed but left unscored rather than guessed)",
+    "tax amount -> payment-behavior conversion; tax is recorded but nonpayment is a declared sensitivity axis",
+    "opponent replacement effects, wheels or exact draw-step timing",
+    "trigger payloads other than the direct fixed cards you draw",
+    "multiplayer win rates (never produced)"
+   ],
+   "evidence_class": "test_result",
+   "family": "opponent-dependent draw",
+   "id": "opponent_dependent_draw",
+   "limitations": [
+    "The range is deliberately wide and should only distinguish robust direction/availability; no midpoint is a real-game estimate.",
+    "Creature/enchantment removal by opponents is not coupled to this proxy; bracket stress handles disruption separately."
+   ],
+   "metrics": [
+    "opponent_dependent_draw_range_by_turn"
+   ],
+   "models": [
+    "Rhystic/Mystic-style 'whenever an opponent casts [noncreature] spell, you draw unless they pay' as a bounded sensitivity grid",
+    "unconditional supported opponent-cast draw triggers",
+    "supported opponent-draw triggers: each card / first / second / cards beyond the first draw-step card",
+    "active opponent turn cycles by turn 4/6/8/10 from the v1.1 battlefield trace"
+   ],
+   "parameters": {
+    "noncreature_share": [
+     0.5,
+     0.7,
+     0.9
+    ],
+    "nonpay_share": [
+     0.25,
+     0.5,
+     0.75
+    ],
+    "opponent_cards_drawn_per_turn": [
+     1.0,
+     2.0,
+     3.0
+    ],
+    "opponent_spells_per_turn": [
+     1.0,
+     2.0,
+     3.0
+    ],
+    "opponents": 3,
+    "turns": [
+     4,
+     6,
+     8,
+     10
+    ]
+   },
+   "test_file": "tests/test_mech_opponent_semantics.py",
    "version": "1"
   },
   {
@@ -792,7 +858,6 @@
   "discard",
   "led_breach_sequences",
   "life_loss",
-  "opponent_dependent_draw",
   "sacrifice_other",
   "stax_tax",
   "tokens_other"
