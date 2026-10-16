@@ -100,6 +100,7 @@ schema: 2
   - new inalla-10: a Kefka token copy gives two enters triggers before the legend rule (CR 704.5j).
   Three were dispositioned with reasons in `data/grixis_interactions/_attestation_dispositions.json`: Final Fortune exclusion (not in Azula's list), and Lynde's and Mai and Zuko's color identity (checked by the `decks` step). Overall: 594 rulings.
 - **Evidence:** rebuilt only the M3 evidence snapshots made stale by this cycle's review and deck-page changes (derived files only).
+- **M4 graph (cycle 59.1, merged from main):** `grixis_graph.py` reads these edge files. Only the 3 graphs this cycle's review changes made stale were rebuilt (`--build --deck`, derived only): Azula, Gwendlyn and Inalla, now `M1 ingested`. The other 59 graphs show the ingest warning until the M4 owner rebuilds them.
 - **M1:** criteria 1–5 are met (status in [Authority Model](grixis/Grixis%20Authority%20Model.md#m1)). M1 acceptance is not recorded; that is Cory's.
 - **Not touched:** `data/grixis/registry*`, blueprints, existing schemas, `grixis_refine.py`, exception data and simulator code. No decklist changed.
 - **Files:** `scripts/grixis_interactions.py`, `data/grixis/schemas/interaction_edges.schema.json` (new), `data/grixis_interactions/edges/` (new), `_attestation_dispositions.json` (new), 3 reviews, rendered pages, `tests/test_interaction_edges.py`, `grixis/interactions/README.md`, `grixis/Grixis Authority Model.md`, `README.md`, `data/grixis/evidence/` (stale snapshots), `data/kb_index.json`.
