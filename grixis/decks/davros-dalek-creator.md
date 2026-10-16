@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -505,6 +506,15 @@ Next unlocked deck in tracker order: **#13 Doctor Doom, King of Latveria**.
 ### Further source evidence (linked, not copied)
 
 - [refinement/verification/Davros_Dalek_Creator_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Davros_Dalek_Creator_Final_Verification_2026-10-13.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 46 interaction review: **9 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Davros, Dalek Creator — Interaction Review](../interactions/davros-dalek-creator.md).
+
+- **The 3-life check is on resolution, not an intervening if** — Always triggers at end step; the 3-life condition is checked on resolution. ([davros-01](../interactions/davros-dalek-creator.md#davros-01-the-3-life-check-is-on-resolution-not-an-intervening-if))
+- **Order end-step drains above Davros** — Put Davros's trigger on the stack first so the drains resolve before it. ([davros-03](../interactions/davros-dalek-creator.md#davros-03-order-end-step-drains-above-davros))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

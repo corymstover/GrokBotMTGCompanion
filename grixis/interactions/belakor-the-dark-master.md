@@ -14,7 +14,7 @@ schema: 2
 | | |
 |---|---|
 | Current list | [`exports/grixis-archidekt/belakor-the-dark-master.txt`](../../exports/grixis-archidekt/belakor-the-dark-master.txt) · SHA-256 `75543f31a16d5398fabe73ce29a2ca2999ea9e1c33f2f62b11a33b3ad7f21eb0` |
-| Rulings | **13** (12 verified · 0 uncertain · 1 list flags) |
+| Rulings | **13** (12 verified · 0 uncertain · 1 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) (deck #7: RULES PASS) |
 

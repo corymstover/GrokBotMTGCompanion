@@ -14,7 +14,7 @@ schema: 2
 | | |
 |---|---|
 | Current list | [`exports/grixis-archidekt/bjorna-nightfall-alchemist-cecily.txt`](../../exports/grixis-archidekt/bjorna-nightfall-alchemist-cecily.txt) · SHA-256 `31f7fae30dcee31b0c92d8baf2c943f396061b2cb51b7771e4e260e55b9aadc8` |
-| Rulings | **13** (10 verified · 0 uncertain · 3 list flags) |
+| Rulings | **13** (10 verified · 0 uncertain · 3 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) (deck #8: RULES PASS / PROJECT_EXCEPTION) |
 

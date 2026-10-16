@@ -1,0 +1,322 @@
+{
+ "schema": 1,
+ "deck_id": "Davros__Dalek_Creator",
+ "slug": "davros-dalek-creator",
+ "commanders": [
+  "Davros, Dalek Creator"
+ ],
+ "deck_sha256": "c4d7cc547b742cc562c33e9ab3debca5d2c51fdeaad0b81a9f01e0a2c4f5bf30",
+ "list_source": "exports/grixis-archidekt/davros-dalek-creator.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 46,
+ "batch": "A",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
+   "note": "15 interactions, all PASS"
+  }
+ ],
+ "summary": "Davros, Dalek Creator is a drain-and-discard deck that rewards opponents losing 3+ life each turn. This review re-verifies all fifteen items of the deck's rules attestation.\n\nKey rule: Davros's condition is checked on resolution, not an intervening if, so end-step drains ordered above it count. Entropic Battlecruiser turns discard choices into life loss. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "davros-01",
+   "category": "commander",
+   "title": "The 3-life check is on resolution, not an intervening if",
+   "cards": [
+    "Davros, Dalek Creator"
+   ],
+   "ruling": "Davros's 'if an opponent lost 3 or more life this turn' comes after the effect, not right after the trigger condition, so it isn't an intervening-if clause. Davros always triggers at your end step and checks the turn's life-loss history on resolution. So end-step drains (Perforating Artist, Wound Reflection, Missy) ordered above Davros still count.",
+   "short": "Always triggers at end step; the 3-life condition is checked on resolution.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.4",
+    "608.2h"
+   ],
+   "oracle": [
+    {
+     "card": "Davros, Dalek Creator",
+     "quote": "At the beginning of your end step, create a 3/3 black Dalek artifact creature token with menace if an opponent lost 3 or more life this turn."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
+     "item": "Davros end-step trigger and 3-life qualification timing"
+    }
+   ]
+  },
+  {
+   "id": "davros-02",
+   "category": "commander",
+   "title": "Villainous choices resolve player by player",
+   "cards": [
+    "Davros, Dalek Creator"
+   ],
+   "ruling": "Each qualifying opponent faces 'you draw a card, or that player discards a card'. With several opponents, the first in turn order chooses and that option is carried out before the next player chooses. A player may pick either option even if it's impossible (discarding from an empty hand).",
+   "status": "verified",
+   "cr": [
+    "701.55a"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Davros, Dalek Creator",
+     "quote": "If a spell or ability requires multiple players to face a villainous choice, the result is a little different from other effects in Magic. In that case, the first player in turn order makes their choice and the action for that choice is performed before the next player makes their choice."
+    },
+    {
+     "card": "Davros, Dalek Creator",
+     "quote": "A player facing a villainous choice can always choose either option, even if one or both of the options are impossible."
+    }
+   ]
+  },
+  {
+   "id": "davros-03",
+   "category": "trigger-order",
+   "title": "Order end-step drains above Davros",
+   "cards": [
+    "Davros, Dalek Creator",
+    "Perforating Artist",
+    "Wound Reflection",
+    "Missy"
+   ],
+   "ruling": "Perforating Artist (raid), Wound Reflection and Missy also trigger at the beginning of your end step. Put Davros on the stack first and the others on top so they resolve first:\n- **Wound Reflection:** doubles each opponent's life lost so far, so someone who lost 2 has now lost 4.\n- **Perforating Artist:** each opponent loses 3 unless they sacrifice a nonland permanent or discard (and a discard triggers Battlecruiser).\n- **Missy:** each artifact creature deals 1 damage, or you draw and chaos ensues.\n\nThen Davros resolves with more opponents qualifying.",
+   "short": "Put Davros's trigger on the stack first so the drains resolve before it.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.3b"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Wound Reflection",
+     "quote": "When Wound Reflection's ability resolves, it checks how much life each opponent lost over the course of the turn, then it causes that opponent to lose that much life."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
+     "item": "Perforating Artist ordering with Davros"
+    },
+    {
+     "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
+     "item": "Wound Reflection ordering with Davros"
+    },
+    {
+     "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
+     "item": "Missy ordering with Davros"
+    }
+   ]
+  },
+  {
+   "id": "davros-04",
+   "category": "trigger-order",
+   "title": "Copying and doubling Davros",
+   "cards": [
+    "Davros, Dalek Creator",
+    "Scientist Supreme of A.I.M.",
+    "Strionic Resonator",
+    "Roaming Throne",
+    "Auton Soldier"
+   ],
+   "ruling": "Several cards repeat Davros's trigger; each instance resolves separately and checks life loss when it resolves:\n- **Scientist Supreme (once per turn, your turn) and Strionic Resonator:** copy it, because Davros is an artifact.\n- **Roaming Throne:** naming Alien or Scientist adds a separate trigger.\n- **Auton Soldier:** as a nonlegendary artifact copy of Davros, it has its own trigger.",
+   "status": "verified",
+   "cr": [
+    "707.10",
+    "603.2",
+    "707.9b"
+   ],
+   "oracle": [
+    {
+     "card": "Strionic Resonator",
+     "quote": "{2}, {T}: Copy target triggered ability you control."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
+     "item": "Davros + Scientist Supreme of A.I.M."
+    },
+    {
+     "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
+     "item": "Davros + Roaming Throne"
+    },
+    {
+     "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
+     "item": "Davros + Strionic Resonator"
+    },
+    {
+     "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
+     "item": "Auton Soldier entering as Davros"
+    }
+   ]
+  },
+  {
+   "id": "davros-05",
+   "category": "replacement",
+   "title": "The Valeyard doubles every villainous choice",
+   "cards": [
+    "Davros, Dalek Creator",
+    "The Valeyard",
+    "Missy",
+    "The Dalek Emperor",
+    "Genesis of the Daleks"
+   ],
+   "ruling": "Whenever an opponent would face a villainous choice, The Valeyard makes them face it an additional time; they can choose differently. This doubles Davros's, Missy's, The Dalek Emperor's and Genesis of the Daleks chapter IV choices.",
+   "status": "verified",
+   "cr": [
+    "701.55a",
+    "614.1a"
+   ],
+   "oracle": [
+    {
+     "card": "The Valeyard",
+     "quote": "If an opponent would face a villainous choice, they face that choice an additional time."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
+     "item": "Davros + The Valeyard"
+    }
+   ]
+  },
+  {
+   "id": "davros-06",
+   "category": "engine",
+   "title": "Entropic Battlecruiser at station 1+ punishes discards",
+   "cards": [
+    "Davros, Dalek Creator",
+    "Entropic Battlecruiser",
+    "Court of Ambition",
+    "Geier Reach Sanitarium"
+   ],
+   "ruling": "With at least one charge counter, Battlecruiser makes each opponent who discards lose 3 life. It doesn't need to be a creature for that; it becomes an artifact creature at 8+. Station is sorcery speed: tap another creature, add counters equal to its power.\n\nThis turns 'or discard' options into 3 life:\n- Court of Ambition's upkeep 'unless they discard'.\n- Davros's own discard option.\n- Geier Reach Sanitarium's draw-then-discard on your turn, which also qualifies opponents for Davros.",
+   "status": "verified",
+   "cr": [
+    "702.184a",
+    "603.2"
+   ],
+   "oracle": [
+    {
+     "card": "Entropic Battlecruiser",
+     "quote": "1+ | Whenever an opponent discards a card, they lose 3 life."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
+     "item": "Entropic Battlecruiser station thresholds"
+    },
+    {
+     "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
+     "item": "Court of Ambition + Entropic Battlecruiser at station 1+"
+    },
+    {
+     "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
+     "item": "Geier Reach Sanitarium + Entropic Battlecruiser at station 1+"
+    }
+   ]
+  },
+  {
+   "id": "davros-07",
+   "category": "pair",
+   "title": "Fixed 3-life enablers",
+   "cards": [
+    "Davros, Dalek Creator",
+    "Maestros Charm",
+    "Loyal Subordinate"
+   ],
+   "ruling": "Maestros Charm's drain mode (each opponent loses 3, you gain 3) and Loyal Subordinate (beginning of combat, if you control your commander: each opponent loses 3) each qualify every opponent for Davros that turn.",
+   "status": "verified",
+   "cr": [
+    "119.3"
+   ],
+   "oracle": [
+    {
+     "card": "Loyal Subordinate",
+     "quote": "Lieutenant — At the beginning of combat on your turn, if you control your commander, each opponent loses 3 life."
+    },
+    {
+     "card": "Maestros Charm",
+     "quote": "Each opponent loses 3 life and you gain 3 life."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
+     "item": "Maestros Charm threshold mode"
+    },
+    {
+     "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
+     "item": "Loyal Subordinate threshold line"
+    }
+   ]
+  },
+  {
+   "id": "davros-08",
+   "category": "pair",
+   "title": "Labyrinth Raptor and menace Daleks",
+   "cards": [
+    "Davros, Dalek Creator",
+    "Labyrinth Raptor"
+   ],
+   "ruling": "Davros and the Dalek tokens have menace. When one becomes blocked, Labyrinth Raptor makes the defending player sacrifice a creature of their choice that's blocking it. {B}{R} gives all your menace creatures +1/+0.",
+   "status": "verified",
+   "cr": [
+    "702.111b",
+    "509.1h"
+   ],
+   "oracle": [
+    {
+     "card": "Labyrinth Raptor",
+     "quote": "Whenever a creature you control with menace becomes blocked, defending player sacrifices a creature of their choice that's blocking it."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
+     "item": "Labyrinth Raptor + Davros/Dalek menace creatures"
+    }
+   ]
+  },
+  {
+   "id": "davros-09",
+   "category": "zone",
+   "title": "Commander tax; Loyal Subordinate needs Davros out",
+   "cards": [
+    "Davros, Dalek Creator",
+    "Loyal Subordinate"
+   ],
+   "ruling": "Davros costs {1}{U}{B}{R}, then 6, then 8. Loyal Subordinate checks that you control your commander at beginning of combat, so it's off while Davros is in the command zone. Davros is an artifact creature, so artifact copy effects (Scientist Supreme, Auton Soldier) apply.",
+   "status": "verified",
+   "cr": [
+    "903.8",
+    "603.4"
+   ],
+   "oracle": [
+    {
+     "card": "Davros, Dalek Creator",
+     "quote": "Menace"
+    }
+   ],
+   "rulings": []
+  }
+ ]
+}

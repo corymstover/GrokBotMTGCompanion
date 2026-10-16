@@ -14,7 +14,7 @@ schema: 2
 | | |
 |---|---|
 | Current list | [`exports/grixis-archidekt/ashnod-the-uncaring.txt`](../../exports/grixis-archidekt/ashnod-the-uncaring.txt) · SHA-256 `b96f2d08a8659c3e51611c2203ca4599c4c606f927280f1b7515abb96385ce39` |
-| Rulings | **12** (9 verified · 2 uncertain · 1 list flags) |
+| Rulings | **12** (9 verified · 2 uncertain · 1 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) (Ashnod the Uncaring — RULES PASS WITH DOCUMENTATION CORRECTION) · [`Ashnod_Oracle_Correction_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Ashnod_Oracle_Correction_2026-10-14.md) () |
 

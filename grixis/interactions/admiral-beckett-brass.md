@@ -14,7 +14,7 @@ schema: 2
 | | |
 |---|---|
 | Current list | [`exports/grixis-archidekt/admiral-beckett-brass.txt`](../../exports/grixis-archidekt/admiral-beckett-brass.txt) · SHA-256 `dbc2ce511a88eb94d70357edbf0088cf26110c3052bd2230eeb6a583b4437808` |
-| Rulings | **16** (14 verified · 1 uncertain · 1 list flags) |
+| Rulings | **16** (14 verified · 1 uncertain · 1 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) (deck #2: RULES PASS) |
 

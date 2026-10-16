@@ -14,6 +14,7 @@ schema: 2
 > **Bot cycle 16 · milestone [Grixis integration](https://github.com/corymstover/GrokBotMTGCompanion/milestone/13) · issues [#59](https://github.com/corymstover/GrokBotMTGCompanion/issues/59)–[#63](https://github.com/corymstover/GrokBotMTGCompanion/issues/63).** What we took from the user's [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) repo (read-only; commit `df1abb9` in Bot cycle 16, **re-analyzed at `1836b97` in Bot cycle 37**), what was fixed, what was generalized for every color identity, and what remains. Back to [Grixis](README.md).
 
 ## Contents
+- [Bot cycle 46 interaction reviews](#bot-cycle-46-interaction-reviews)
 - [Bot cycle 45 full source archive](#bot-cycle-45-full-source-archive)
 - [Bot cycle 39 commander-first refinement](#bot-cycle-39-commander-first-refinement)
 - [Bot cycle 38 pending-legality pages](#bot-cycle-38-pending-legality-pages)
@@ -26,6 +27,24 @@ schema: 2
 - [What we did not take](#what-we-did-not-take)
 - [Recommended follow-ups](#recommended-follow-ups)
 - [Reproducing](#reproducing)
+
+## Bot cycle 46 interaction reviews
+Phase 2 adds an Abaddon-style rules review for every deck in [interactions/](interactions/README.md). Batch A covers the first 12 decks alphabetically: 164 rulings, of which 142 are verified, 11 uncertain and 11 flags.
+- **Method:**
+  - Every ruling cites current Oracle text, Scryfall rulings (bulk 2026-10-15) and CR rule numbers (2026-09-25), quoted verbatim.
+  - Source attestations are re-verified, not copied.
+  - Uncertain items name what is unresolved, for example Spellbook step text that isn't cached, or a play-pattern judgment.
+- **Validation:** `validate_all` → `interactions` checks:
+  - each deck's list hash and every quote;
+  - every cited rule exists, and every card is in the list;
+  - every deck in a done batch has a review.
+- **List flags (no decklist changed):** non-bos and risks are listed per deck in each review's *Flags and open questions* table, for example:
+  - Abaddon's 0-MV cascades;
+  - Admiral Brass's finality counters vs. Pitiless Plunderer;
+  - Peer into the Abyss + Teferi's Ageless Insight on an odd library;
+  - Notion Thief vs. the Jeska's Will loop;
+  - Painter's Servant vs. Sword of Feast and Famine.
+- **Next:** batches B–F, 10 decks each, in later cycles.
 
 ## Bot cycle 45 full source archive
 Cory no longer wants to depend on two repos. **The companion now holds everything** from grixis-commander-encyclopediaGPT and is the **single source of truth** from now on. The original GitHub repo was not changed.

@@ -2,7 +2,7 @@
  "_doc": "Phase 2 interaction-review batches (alphabetical by deck slug). status: planned | in progress | done. scripts/grixis_interactions.py --check fails if a done batch has a deck without a review.",
  "batches": {
   "A": {
-   "status": "in progress",
+   "status": "done",
    "decks": [
     "abaddon-the-despoiler",
     "admiral-beckett-brass",

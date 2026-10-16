@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -440,6 +441,16 @@ This exact list is approved and locked. Reopen it only upon explicit user instru
 ### Further source evidence (linked, not copied)
 
 - [refinement/verification/Cult_of_Skaro_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Cult_of_Skaro_Final_Verification_2026-10-13.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 46 interaction review: **10 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Cult of Skaro — Interaction Review](../interactions/cult-of-skaro.md).
+
+- **The random mode is chosen as the trigger goes on the stack** — Attack trigger: one of four modes at random, fixed as it goes on the stack. ([skaro-01](../interactions/cult-of-skaro.md#skaro-01-the-random-mode-is-chosen-as-the-trigger-goes-on-the-stack))
+- **Copies keep the mode; extra triggers re-roll** — Resonator/Scientist copies repeat the rolled mode; Roaming Throne gives a fresh roll. ([skaro-02](../interactions/cult-of-skaro.md#skaro-02-copies-keep-the-mode-extra-triggers-re-roll))
+- **Sword of Feast and Famine + Aggravated Assault** — Spellbook infinite combats: Sword untaps lands, Assault adds combats. ([skaro-05](../interactions/cult-of-skaro.md#skaro-05-sword-of-feast-and-famine--aggravated-assault))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

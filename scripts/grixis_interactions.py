@@ -227,7 +227,7 @@ def render(slug, d, ctx):
          "Source attestations from the archived source repo were re-verified, not copied.", "",
          "| | |", "|---|---|",
          f"| Current list | [`exports/grixis-archidekt/{slug}.txt`](../../exports/grixis-archidekt/{slug}.txt) · SHA-256 `{h}` |",
-         f"| Rulings | **{len(its)}** ({len(its) - n_flag - n_unc} verified · {n_unc} uncertain · {n_flag} list flags) |",
+         f"| Rulings | **{len(its)}** ({len(its) - n_flag - n_unc} verified · {n_unc} uncertain · {n_flag} flags) |",
          f"| CR / Oracle / rulings | CR {ctx.cr_version} · Oracle {ctx.R.bulk[:10]} · rulings {ctx.rdate[:10]} |"]
     if d.get("source_attestations"):
         L.append("| Source attestations | " + " · ".join(f"[`{s['path'].rsplit('/', 1)[-1]}`](../source-archive/grixis-commander-encyclopediaGPT/{s['path']}) ({s['note']})" for s in d["source_attestations"]) + " |")
@@ -315,7 +315,7 @@ def status_table(reviews, batches):
     n = sum(len(r["interactions"]) for r in reviews.values())
     nf = sum(1 for r in reviews.values() for x in r["interactions"] if x["status"] == "flag")
     nu = sum(1 for r in reviews.values() for x in r["interactions"] if x["status"] == "uncertain")
-    L = [SSTART, f"**{done}/{len(order)} decks reviewed · {n} rulings ({nu} uncertain, {nf} list flags).**", "",
+    L = [SSTART, f"**{done}/{len(order)} decks reviewed · {n} rulings ({nu} uncertain, {nf} flags).**", "",
          "| Batch | Status | Decks |", "|---|---|---|"]
     for b, x in batches["batches"].items():
         L.append(f"| {b} | {x['status']}{' (Bot cycle ' + str(x['cycle']) + ')' if x.get('cycle') else ''} | " +
