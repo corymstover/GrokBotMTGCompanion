@@ -31,7 +31,9 @@ Steps (run in this order; each prints its own summary):
   7g evidence       scripts/grixis_evidence.py --check  Bot cycle 57 (M3): per-deck evidence vectors validate (schema, classes and
                     confidence rules, EDHREC lift/synergy identity flags, evidence items vs evidence.schema.json, snapshot fresh)
   7h simulator      scripts/grixis_sim.py --selftest  Bot cycle 57.2 (M3): goldfish Monte Carlo vs exact hypergeometric math on a real deck
-  7i unit-tests     scripts/run_tests.py  tests/ via pytest (stdlib fallback runner when pytest is absent)
+  7i paired-tests   scripts/grixis_paired.py --check  Bot cycle 57.3 (M3): paired goldfish records for every registered challenger
+                    (test.schema.json, canonical hash, simulator sha, PREREG, verdict rule, exact re-run)
+  7j unit-tests     scripts/run_tests.py  tests/ via pytest (stdlib fallback runner when pytest is absent)
   8 freshness    (built in)                              generated pages built from an older bulk than the cache (warning);
                                                          with --online, a newer Scryfall bulk than the cache (warning; --strict fails)
 Default is offline (SCRYFALL_OFFLINE=1: newest cached bulk in .cache/, recorded citation results).
@@ -183,6 +185,7 @@ def main(argv):
              ("blueprints", ["scripts/grixis_blueprints.py", "--check"]),  # Bot cycle 50 (M2): commander blueprints, evidence on every field
              ("evidence", ["scripts/grixis_evidence.py", "--check"]),  # Bot cycle 57 (M3): evidence vectors, classes, snapshot keys
              ("simulator", ["scripts/grixis_sim.py", "--selftest"]),  # Bot cycle 57.2 (M3): simulator vs exact math
+             ("paired-tests", ["scripts/grixis_paired.py", "--check"]),  # Bot cycle 57.3 (M3): paired champion-vs-challenger records
              ("unit-tests", ["scripts/run_tests.py"]),  # Bot cycle 47 (M0): tests/ (hashes, states, approvals, legality vs authorization, schemas)
              ("freshness", None)]
     results = []
