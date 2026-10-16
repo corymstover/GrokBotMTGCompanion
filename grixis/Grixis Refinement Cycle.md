@@ -198,13 +198,13 @@ Most-shared nonland cards across the 62 source lists (count of lists):
 | Card | Lists |
 |---|---|
 | Sol Ring | 62 |
-| Arcane Signet | 61 |
 | Talisman of Dominance | 61 |
+| Arcane Signet | 61 |
 | Demonic Tutor | 57 |
 | Talisman of Indulgence | 56 |
 | Talisman of Creativity | 56 |
-| Fierce Guardianship | 54 |
 | Vampiric Tutor | 54 |
+| Fierce Guardianship | 54 |
 | Deflecting Swat | 53 |
 | Cyclonic Rift | 46 |
 | Toxic Deluge | 45 |
