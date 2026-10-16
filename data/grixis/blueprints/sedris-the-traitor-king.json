@@ -1,0 +1,564 @@
+{
+ "schema_version": 2,
+ "deck_id": "Sedris__the_Traitor_King",
+ "slug": "sedris-the-traitor-king",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 55,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:8b145ace962d556ae92e34d7b0056c789f99cba0c40c60bb5828aa1602bded95",
+ "commanders": {
+  "value": [
+   {
+    "name": "Sedris, the Traitor King",
+    "oracle_id": "48054407-b5e1-431c-ad03-c12a31d0d9a8",
+    "oracle_text": "Each creature card in your graveyard has unearth {2}{B}. ({2}{B}: Return the card to the battlefield. The creature gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
+    "oracle_sha256": "sha256:3ac3fd46e13661413eea7ea58577ebe8996bf70dd5922da6c974a37f6392f2cf",
+    "type_line": "Legendary Creature — Zombie Warrior"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Sedris, the Traitor King"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Unearth reanimator: self-mill and discard creatures, then use Sedris's granted unearth {2}{B} (down to {B} with Convergence of Dominion) to return ETB creatures each turn, with Panharmonicon doubling their ETBs.",
+   "secondary": "Keep unearthed creatures by ending the turn with Obeka or Sundial, or phasing them with Teferi's Veil; Deadeye Navigator + Peregrine Drake is the combo package."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L25",
+   "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L26",
+   "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L27",
+   "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L31",
+   "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L32"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Sedris gives every creature card in the graveyard unearth, which makes the whole graveyard reusable.",
+   "honest_note": "Commander-native. The one Spellbook combo (1409-3821, Deadeye Navigator + Peregrine Drake) doesn't need Sedris, but Sedris can unearth either half. The deck has backup reanimation (Reanimate, Animate Dead, Necromancy, Living Death) but is far weaker without him. There is no source blueprint file; the closeout and verification are the evidence."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L25",
+   "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L46",
+   "spellbook:1409-3821"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "etb-value-beats",
+   "kind": "natural",
+   "description": "Repeated hasty unearth of Archon, Grave Titan, Massacre Wurm or Terror of the Peaks.",
+   "cards": [
+    "Sedris, the Traitor King",
+    "Archon of Cruelty",
+    "Grave Titan",
+    "Massacre Wurm",
+    "Sepulchral Primordial",
+    "Terror of the Peaks"
+   ],
+   "enablers": [
+    "Panharmonicon",
+    "Convergence of Dominion"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L32"
+   ]
+  },
+  {
+   "id": "drake-navigator",
+   "kind": "combo",
+   "description": "Peregrine Drake + Deadeye Navigator for infinite mana, then sinks such as Goblin Bombardment or repeated unearth.",
+   "cards": [
+    "Peregrine Drake",
+    "Deadeye Navigator"
+   ],
+   "enablers": [
+    "Goblin Bombardment"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1409-3821",
+    "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L31"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "granted-unearth",
+   "cards": [
+    "Sedris, the Traitor King",
+    "Convergence of Dominion"
+   ],
+   "online_condition": "Sedris on the battlefield; creature cards in the graveyard.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Sedris, the Traitor King",
+    "cr:702.84a"
+   ]
+  },
+  {
+   "id": "unearth-rescue",
+   "cards": [
+    "Obeka, Brute Chronologist",
+    "Sundial of the Infinite",
+    "Teferi's Veil",
+    "Deadeye Navigator"
+   ],
+   "online_condition": "An unearthed creature with its exile trigger pending.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L26",
+    "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L27"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:etb-targets",
+   "required": true,
+   "min_count": 7,
+   "role": "ETB creatures worth unearthing.",
+   "cards": [
+    "Archon of Cruelty",
+    "Grave Titan",
+    "Massacre Wurm",
+    "Sepulchral Primordial",
+    "Sheoldred, Whispering One",
+    "Jin-Gitaxias, Core Augur",
+    "Rune-Scarred Demon",
+    "Terror of the Peaks",
+    "Etali, Primal Storm",
+    "Burning-Rune Demon"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L32"
+   ]
+  },
+  {
+   "id": "pkg:self-mill",
+   "required": true,
+   "min_count": 6,
+   "role": "Fill the graveyard.",
+   "cards": [
+    "Entomb",
+    "Buried Alive",
+    "Faithless Looting",
+    "Frantic Search",
+    "Gifts Ungiven",
+    "Ripples of Undeath",
+    "Likeness Looter",
+    "Corpse Connoisseur",
+    "Convergence of Dominion"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L15",
+    "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L43"
+   ]
+  },
+  {
+   "id": "pkg:rescue",
+   "required": true,
+   "min_count": 4,
+   "role": "Keep unearthed creatures.",
+   "cards": [
+    "Obeka, Brute Chronologist",
+    "Sundial of the Infinite",
+    "Teferi's Veil",
+    "Deadeye Navigator"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L26",
+    "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L41"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "convergence-floor",
+   "summary": "Convergence makes unearth {B}; it can't go below one mana.",
+   "cards": [
+    "Convergence of Dominion",
+    "Sedris, the Traitor King"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Convergence of Dominion",
+    "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L25"
+   ]
+  },
+  {
+   "id": "end-turn-exile",
+   "summary": "Ending the turn with Obeka or Sundial while the exile trigger is on the stack removes it.",
+   "cards": [
+    "Obeka, Brute Chronologist",
+    "Sundial of the Infinite"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L26",
+    "cr:723.1"
+   ]
+  },
+  {
+   "id": "veil-phase",
+   "summary": "Teferi's Veil phases attackers out at end of combat, so the end-step exile trigger can't find them.",
+   "cards": [
+    "Teferi's Veil"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L27"
+   ]
+  },
+  {
+   "id": "navigator-reset",
+   "summary": "Deadeye resets an unearthed creature as a new object; the unearth replacement doesn't replace an exile already happening.",
+   "cards": [
+    "Deadeye Navigator"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L28"
+   ]
+  },
+  {
+   "id": "kelpie-draw",
+   "summary": "Unearthed creatures enter from a graveyard and trigger River Kelpie.",
+   "cards": [
+    "River Kelpie"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L29"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Archon of Cruelty",
+   "via": [
+    "Entomb",
+    "Buried Alive",
+    "Demonic Tutor",
+    "Rune-Scarred Demon"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L44"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Reanimate",
+   "Animate Dead",
+   "Necromancy",
+   "Dread Return",
+   "Living Death",
+   "Chainer, Nightmare Adept",
+   "Sedris, the Traitor King"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L37"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Deadly Rollick, Feed the Swarm, Cyclonic Rift, Toxic Deluge.",
+   "protection": "Force of Will, Deflecting Swat, Lightning Greaves.",
+   "mana": "31 lands, fast mana and Signets for a six-mana commander."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L14",
+   "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L16"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "graveyard-hate",
+   "description": "Graveyard hate shuts off unearth and the backup reanimation.",
+   "mitigations": [
+    "Fresh self-mill",
+    "Hard casts"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Sedris, the Traitor King"
+   ]
+  },
+  {
+   "id": "six-drop",
+   "description": "Sedris costs six; slow without fast mana.",
+   "mitigations": [
+    "Grim Monolith",
+    "Mana Vault"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L14"
+   ]
+  },
+  {
+   "id": "unearth-exile",
+   "description": "Unearthed creatures are exiled without rescue.",
+   "mitigations": [
+    "Obeka",
+    "Sundial",
+    "Teferi's Veil"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "cr:702.84a"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L25"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (decisions)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L58"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4: deep reanimator with a two-card combo and premium staples; a graveyard deck with a six-mana commander, not cEDH. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Sedris_the_Traitor_King_Approval_Ready_Verification_2026-10-15.md#L25",
+    "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L46"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Sedris__the_Traitor_King"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 6,
+     "2": 178,
+     "3": 181,
+     "4": 66,
+     "5": 5
+    },
+    "decks_with_bracket": 436,
+    "share_b4_plus": 0.163,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__sedris-the-traitor-king.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Sedris, the Traitor King",
+   "why": "Unearth {2}{B} for every creature card in the graveyard.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Sedris, the Traitor King"
+   ]
+  },
+  {
+   "card": "Convergence of Dominion",
+   "why": "Cuts unearth to {B}.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L25"
+   ]
+  },
+  {
+   "card": "Obeka, Brute Chronologist",
+   "why": "Ends the turn to keep unearthed creatures.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L26"
+   ]
+  },
+  {
+   "card": "Panharmonicon",
+   "why": "Doubles ETBs of unearthed creatures.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L32"
+   ]
+  },
+  {
+   "card": "Deadeye Navigator",
+   "why": "Rescue piece and half of the combo.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1409-3821"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No generic Thassa's Oracle / Underworld Breach conversion (decisions L46).",
+   "No Hela (future release, no exception; L45)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L46",
+   "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L45"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Unearth / reanimator / end-step control (decisions L59)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L59"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 702.84a",
+   "note": "Unearth.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.84a"
+   ]
+  },
+  {
+   "rule": "CR 723.1",
+   "note": "Ending the turn.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:723.1"
+   ]
+  },
+  {
+   "rule": "CR 702.26a",
+   "note": "Phasing.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.26a"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "unearth / creature cards in your graveyard"
+   ],
+   "hooked_cards": 21,
+   "role_counts": {
+    "counter": 3,
+    "draw": 9,
+    "protection": 2,
+    "ramp": 12,
+    "removal": 4,
+    "tutor": 9,
+    "wipe": 1
+   },
+   "lands": 31,
+   "edhrec_pages": [
+    "sedris-the-traitor-king"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Sedris_the_Traitor_King_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/Sedris_the_Traitor_King_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/verification/Sedris_the_Traitor_King_Whole_List_Audit_2026-10-15.md",
+   "source_archive:refinement/decklists/Sedris_the_Traitor_King_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 55)"
+ }
+}

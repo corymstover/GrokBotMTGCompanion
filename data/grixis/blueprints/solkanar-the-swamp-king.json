@@ -1,0 +1,582 @@
+{
+ "schema_version": 2,
+ "deck_id": "Sol_kanar_the_Swamp_King",
+ "slug": "solkanar-the-swamp-king",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 55,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+ "commanders": {
+  "value": [
+   {
+    "name": "Sol'kanar the Swamp King",
+    "oracle_id": "b8aac8e8-4588-4cb9-8b95-5c4abab1c48b",
+    "oracle_text": "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)\nWhenever a player casts a black spell, you gain 1 life.",
+    "oracle_sha256": "sha256:65e3ba9d7ec1bfa11e0316cf8e0e93411a351d899276f9a33f85addbbb0385c3",
+    "type_line": "Legendary Creature — Demon"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Sol'kanar the Swamp King"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Black-spell lifegain: Sol'kanar and Demon's Horn trigger on every black spell (on every spell with Painter's Servant naming black), and the gains feed Exquisite Blood / Bloodthirsty Conqueror loops with Vito, Blight-Priest, Enduring Tenacity or Starscape Cleric.",
+   "secondary": "Swamp matters (Blanket of Night, Urborg, Cabal Coffers, Crypt Ghast) for swampwalk and mana; Painter + Grindstone; wheels with Sheoldred and Underworld Dreams."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L15",
+   "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L16",
+   "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L17",
+   "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L18",
+   "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L19",
+   "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L20"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "supporting",
+   "advances_plan": "Sol'kanar gains 1 life per black spell, which starts the life loops, and has swampwalk once Blanket of Night or Urborg is out.",
+   "honest_note": "Honest call: supporting. None of the 13 Spellbook combos uses Sol'kanar; the loops start from any lifegain, and Demon's Horn duplicates the trigger. The source itself calls him a five-mana incremental trigger engine (blueprint L26). The deck is a strong two-card life-loop deck built around a modest commander."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L26",
+   "source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L22",
+   "spellbook:110-3966"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "life-loops",
+   "kind": "combo",
+   "description": "Exquisite Blood or Bloodthirsty Conqueror plus a drain-on-gain payoff loops until opponents die.",
+   "cards": [
+    "Exquisite Blood",
+    "Bloodthirsty Conqueror",
+    "Vito, Thorn of the Dusk Rose",
+    "Marauding Blight-Priest",
+    "Enduring Tenacity",
+    "Starscape Cleric",
+    "Aetherflux Reservoir"
+   ],
+   "enablers": [
+    "Sol'kanar the Swamp King",
+    "Demon's Horn"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:110-3966",
+    "spellbook:3966-4740",
+    "source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L25"
+   ]
+  },
+  {
+   "id": "painter-grindstone",
+   "kind": "combo",
+   "description": "Painter's Servant + Grindstone mills each library.",
+   "cards": [
+    "Painter's Servant",
+    "Grindstone"
+   ],
+   "enablers": [
+    "Demonic Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1078-2302",
+    "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L19"
+   ]
+  },
+  {
+   "id": "citadel-top-reservoir",
+   "kind": "combo",
+   "description": "Sensei's Top + Bolas's Citadel + Aetherflux Reservoir.",
+   "cards": [
+    "Sensei's Divining Top",
+    "Bolas's Citadel",
+    "Aetherflux Reservoir"
+   ],
+   "enablers": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "spellbook:2173-4740-5078",
+    "source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L26"
+   ]
+  },
+  {
+   "id": "wheel-pressure",
+   "kind": "natural",
+   "description": "Wheels with Sheoldred / Underworld Dreams, plus Gray Merchant and Exsanguinate drains.",
+   "cards": [
+    "Wheel of Fortune",
+    "Windfall",
+    "Sheoldred, the Apocalypse",
+    "Underworld Dreams",
+    "Gray Merchant of Asphodel",
+    "Exsanguinate"
+   ],
+   "enablers": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L20"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "black-spell-gain",
+   "cards": [
+    "Sol'kanar the Swamp King",
+    "Demon's Horn",
+    "Painter's Servant",
+    "Bontu's Monument",
+    "Jet Medallion",
+    "K'rrik, Son of Yawgmoth"
+   ],
+   "online_condition": "Black spells are cast (all spells with Painter naming black).",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Sol'kanar the Swamp King",
+    "source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L22",
+    "source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L23"
+   ]
+  },
+  {
+   "id": "swamp-mana",
+   "cards": [
+    "Blanket of Night",
+    "Urborg, Tomb of Yawgmoth",
+    "Cabal Coffers",
+    "Crypt Ghast",
+    "Dread Presence",
+    "Consuming Corruption"
+   ],
+   "online_condition": "Swamps on the battlefield.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L24",
+    "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L18"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:life-loop",
+   "required": true,
+   "min_count": 5,
+   "role": "Redundant two-card loops.",
+   "cards": [
+    "Exquisite Blood",
+    "Bloodthirsty Conqueror",
+    "Vito, Thorn of the Dusk Rose",
+    "Marauding Blight-Priest",
+    "Enduring Tenacity",
+    "Starscape Cleric",
+    "Aetherflux Reservoir"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L31",
+    "source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L25"
+   ]
+  },
+  {
+   "id": "pkg:swamp",
+   "required": true,
+   "min_count": 5,
+   "role": "Swamp infrastructure.",
+   "cards": [
+    "Blanket of Night",
+    "Urborg, Tomb of Yawgmoth",
+    "Cabal Coffers",
+    "Crypt Ghast",
+    "Dread Presence",
+    "Consuming Corruption"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L18"
+   ]
+  },
+  {
+   "id": "pkg:black-spells",
+   "required": false,
+   "min_count": 4,
+   "role": "Black versions of removal and ramp.",
+   "cards": [
+    "Withering Torment",
+    "The Soul Stone",
+    "Fell the Profane // Fell Mire",
+    "Toxic Deluge",
+    "Dark Ritual"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L30",
+    "source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L14",
+    "source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L15"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "painter-black",
+   "summary": "Painter naming black makes every spell black in addition to its colors, so opponents' spells trigger Sol'kanar and Horn.",
+   "cards": [
+    "Painter's Servant",
+    "Sol'kanar the Swamp King",
+    "Demon's Horn"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Painter's Servant",
+    "source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L23",
+    "cr:105.3"
+   ]
+  },
+  {
+   "id": "blanket-swampwalk",
+   "summary": "Blanket of Night / Urborg make every land a Swamp, which turns on swampwalk and widens Coffers/Crypt Ghast.",
+   "cards": [
+    "Blanket of Night",
+    "Urborg, Tomb of Yawgmoth",
+    "Sol'kanar the Swamp King"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L24",
+    "cr:702.14c"
+   ]
+  },
+  {
+   "id": "separate-triggers",
+   "summary": "Sol'kanar and Demon's Horn trigger separately for each black spell.",
+   "cards": [
+    "Sol'kanar the Swamp King",
+    "Demon's Horn"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L22"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Exquisite Blood",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Imperial Seal",
+    "Beseech the Mirror"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:110-3966"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "The Soul Stone",
+   "Witch of the Moors"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L15",
+   "source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L35"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Counterspell, Mana Drain, Swan Song, Fierce Guardianship, Withering Torment, Deadly Rollick, Toxic Deluge, Cyclonic Rift.",
+   "protection": "Deflecting Swat, Fierce Guardianship.",
+   "mana": "36 land-capable slots (Swamp-typed duals, Coffers) plus Mox Diamond, Chrome Mox and Lotus Petal."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L52",
+   "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L34"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "loop-hate",
+   "description": "Enchantment or creature removal on loop pieces; the deck needs both halves.",
+   "mitigations": [
+    "Redundant loop halves",
+    "Tutors"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:3966-5755"
+   ]
+  },
+  {
+   "id": "weak-commander",
+   "description": "Sol'kanar alone is slow incremental value.",
+   "mitigations": [
+    "Demon's Horn",
+    "Other lifegain sources"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L26"
+   ]
+  },
+  {
+   "id": "no-force",
+   "description": "Too few blue cards to pitch to Force of Will.",
+   "mitigations": [
+    "Counterspell",
+    "Fierce Guardianship"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L42"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "low",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "spellbook:110-3966"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (blueprint)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L24"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4: many two-card loops and premium tutors/fast mana; the commander adds little speed. High Bracket 4; agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L26",
+    "spellbook:110-3966"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Sol_kanar_the_Swamp_King"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 32,
+     "2": 83,
+     "3": 46,
+     "4": 22,
+     "5": 2
+    },
+    "decks_with_bracket": 185,
+    "share_b4_plus": 0.13,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__solkanar-the-swamp-king.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Sol'kanar the Swamp King",
+   "why": "Lifegain per black spell; swampwalk.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Sol'kanar the Swamp King"
+   ]
+  },
+  {
+   "card": "Painter's Servant",
+   "why": "Makes every spell black; half of Grindstone.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L19"
+   ]
+  },
+  {
+   "card": "Exquisite Blood",
+   "why": "Loop half.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:3966-4740"
+   ]
+  },
+  {
+   "card": "Bloodthirsty Conqueror",
+   "why": "Second loop half.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:4740-6191"
+   ]
+  },
+  {
+   "card": "Demon's Horn",
+   "why": "Second black-spell trigger.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L22"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No generic Thoracle/Breach (blueprint L36).",
+   "No redundant low-impact lifegain artifacts from EDHREC (L35)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L36",
+   "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L35"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Black spells / lifegain / Swamp matters (blueprint L42)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L42"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 702.14c",
+   "note": "Landwalk.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.14c"
+   ]
+  },
+  {
+   "rule": "CR 105.3",
+   "note": "Changing an object's color.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:105.3"
+   ]
+  },
+  {
+   "rule": "CR 119.9",
+   "note": "Life gain events.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:119.9"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "black spells / Swamps",
+    "life gain"
+   ],
+   "hooked_cards": 19,
+   "role_counts": {
+    "counter": 4,
+    "draw": 12,
+    "protection": 1,
+    "ramp": 16,
+    "removal": 8,
+    "tutor": 4,
+    "wipe": 2
+   },
+   "lands": 35,
+   "edhrec_pages": [
+    "solkanar-the-swamp-king"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md",
+   "source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Solkanar_the_Swamp_King_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/Solkanar_the_Swamp_King_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/verification/Solkanar_the_Swamp_King_Whole_List_Audit_2026-10-15.md",
+   "source_archive:refinement/decklists/Solkanar_the_Swamp_King_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 55)"
+ }
+}

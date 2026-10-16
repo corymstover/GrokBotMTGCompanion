@@ -5840,9 +5840,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/sedris-the-traitor-king.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 55
     },
     "resolved_ceiling": {
      "value": null,
@@ -5850,10 +5852,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -5967,9 +5969,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/solkanar-the-swamp-king.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 55
     },
     "resolved_ceiling": {
      "value": null,
@@ -5977,10 +5981,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -6076,9 +6080,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/solkanar-the-tainted.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 55
     },
     "resolved_ceiling": {
      "value": null,
@@ -6086,10 +6092,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -6185,9 +6191,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/tetsuo-umezawa.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 55
     },
     "resolved_ceiling": {
      "value": null,
@@ -6195,10 +6203,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -6294,9 +6302,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/tetsuo-imperial-champion.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 55
     },
     "resolved_ceiling": {
      "value": null,
@@ -6304,10 +6314,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
