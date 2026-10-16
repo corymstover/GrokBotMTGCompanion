@@ -5445,7 +5445,7 @@
 1 World at War
 1 Xander's Lounge
 
-===== 56/62 — The Madcap Jester — ⏳ PENDING LEGALITY (not Commander-legal before 2026-10-19) · unchanged (at/near ceiling) =====
+===== 56/62 — The Madcap Jester — ⏳ PENDING LEGALITY (not Commander-legal before 2026-11-13) · unchanged (at/near ceiling) =====
 1 The Madcap Jester [Commander]
 1 Ancient Tomb
 1 Arcane Signet
@@ -5836,7 +5836,7 @@
 1 Yawgmoth, Thran Physician
 1 Zulaport Cutthroat
 
-===== 60/62 — Tresserhorn's Lord, Returned — ⏳ PENDING LEGALITY (not Commander-legal before 2026-10-19) · unchanged (at/near ceiling) =====
+===== 60/62 — Tresserhorn's Lord, Returned — ⏳ PENDING LEGALITY (not Commander-legal before 2026-11-13) · unchanged (at/near ceiling) =====
 1 Tresserhorn's Lord, Returned [Commander]
 1 Accursed Marauder
 1 Arcane Signet

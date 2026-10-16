@@ -631,7 +631,7 @@ def final_summary(summ, info, metrics, top, plans):
         hr = rv.get("hand_review", {}).get(d)
         L.append(f"- ⏳ {lk(d)}: **refined but pending**. " + (f"Batch {e['batch']} (Bot cycle {e['cycle']}): {e['decision']}" + (" (hand review: " + hr["verdict"] + ")" if hr else "") + ". " if e else "Not reviewed yet. ") +
                  f"Pending card(s): {', '.join(info[d]['pending'])} (registry `legal_from` {plans_pending_date(d)}). The export stays marked pending.")
-    L += [f"- **Activation follow-up:** {fin.get('pending_followup', '')}", ""]
+    L += [f"- **Activation follow-up (routine `grixis-pending-legality-activation`, scheduled for 2026-11-13):** {fin.get('pending_followup', '')}", ""]
     return L
 
 
@@ -737,8 +737,8 @@ def exports(summ, info, plans):
             "Each is 100 cards, with the commander line(s) first and tagged `[Commander]`, no duplicate lines and no blank lines inside the list, and each passes "
             "`evaluate_decklist.check` (singleton, color identity, Commander legality). Paste one deck into Archidekt and confirm the commander category before relying on it.",
             "- ⏳ The two pending decks are exported for completeness, but they are not Commander-legal yet. Both have had their refinement pass (batch 6). "
-            "The status column shows the registry's `legal_from` (Scryfall's `mbc` release date, 2026-10-19). Wizards' official Commander date for new MBC cards is 2026-11-13; "
-            "see the flags in the Refinement Cycle summary. " + fu,
+            "The status column shows the registry's `legal_from`, Wizards' official Commander date for new MBC cards: 2026-11-13 "
+            "([What's Inside Mystery Booster Commander Edition?](https://magic.wizards.com/en/news/feature/whats-inside-mystery-booster-commander-edition)). " + fu,
             "- Full method, every change with its written review, flagged items and homogenization findings: "
             "[Grixis Refinement Cycle](../../grixis/Grixis%20Refinement%20Cycle.md#end-of-cycle-summary-all-62-decks)."]
     files[EXP / "README.md"] = "\n".join(idx) + "\n"

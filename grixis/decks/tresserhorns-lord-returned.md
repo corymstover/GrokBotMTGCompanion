@@ -12,14 +12,14 @@ validated: false
 tags: [grixis, grixis, bracket-floor-3, game-changers, two-card-infinite, pending-legality]
 source_repo: corymstover/grixis-commander-encyclopediaGPT
 legality_status: pending
-legal_from: 2026-10-19
+legal_from: 2026-11-13
 pending_cards: ["Tresserhorn's Lord, Returned"]
 schema: 2
 ---
 
 # Grixis Deck — Tresserhorn's Lord, Returned
 
-> ⏳ **PENDING LEGALITY — not Commander-legal yet.** Legal from **2026-10-19** (Scryfall set `mbc` release). Not-yet-legal cards: **Tresserhorn's Lord, Returned**. This page is published so all 62 source decks are in the companion, but it is **excluded from every legal-deck count** (Grixis index, packages, summaries). `validate_all` accepts these cards only while `legality_status: pending` and the date is still ahead. Activation: `python3 scripts/activate_pending_grixis.py` (refreshes the Scryfall bulk, re-checks the cards, flips the deck to active once they are legal).
+> ⏳ **PENDING LEGALITY — not Commander-legal yet.** Legal from **2026-11-13** ([Wizards](https://magic.wizards.com/en/news/feature/whats-inside-mystery-booster-commander-edition): "New-to-Magic MBC cards will be legal in Commander on November 13, 2026."; Scryfall set `mbc`). Not-yet-legal cards: **Tresserhorn's Lord, Returned**. This page is published so all 62 source decks are in the companion, but it is **excluded from every legal-deck count** (Grixis index, packages, summaries). `validate_all` accepts these cards only while `legality_status: pending` and the date is still ahead. Activation: `python3 scripts/activate_pending_grixis.py` (refreshes the Scryfall bulk, re-checks the cards, flips the deck to active once they are legal).
 
 > **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Tresserhorn_s_Lord_Returned_Approved_2026-10-15.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Tresserhorn_s_Lord_Returned_Approved_2026-10-15.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-15; source commit `1836b97`). Imported in Bot cycle 38 as a pending-legality page against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
@@ -34,7 +34,6 @@ schema: 2
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
-- [Cross-references](#cross-references)
 
 ## Commander
 
@@ -45,7 +44,7 @@ schema: 2
 ## Validation
 
 - Total cards: **100** (1 commander(s) + 66 nonland + 23 nonbasic lands + 10 basics) · average nonland MV 2.70
-- Strict color identity (CR 903.5c), singleton (903.5b), size (903.5a): pass. **Commander legality: ⏳ pending.** Tresserhorn's Lord, Returned is `not_legal` on Scryfall until the `mbc` release (2026-10-19); every other card is Commander-legal.
+- Strict color identity (CR 903.5c), singleton (903.5b), size (903.5a): pass. **Commander legality: ⏳ pending.** Tresserhorn's Lord, Returned is `not_legal` on Scryfall until their official Commander-legal date (2026-11-13, per Wizards); every other card is Commander-legal.
 - Every card resolves to an entry in our card DB (93/93 lines linked).
 
 ## Bracket assessment
@@ -97,7 +96,7 @@ schema: 2
 
 | Type | Change | Reason |
 |---|---|---|
-| pending legality | published as **PENDING LEGALITY** (legal from 2026-10-19) | The commander is in Scryfall set `mbc`, releasing 2026-10-19, and is `not_legal` in Commander until then (Scryfall API and bulk, checked 2026-10-16). ⚠️ The source's 2026-10-15 approval record calls its earlier future-release exception "historical only" and reports "current official Commander legality PASS"; Scryfall does not agree yet. Not yet Commander-legal: Tresserhorn's Lord, Returned. Activation: `python3 scripts/activate_pending_grixis.py`. |
+| pending legality | published as **PENDING LEGALITY** (legal from 2026-11-13) | The commander is in Scryfall set `mbc`, and is `not_legal` in Commander (Scryfall API and bulk, checked 2026-10-16) until Wizards' Commander-legal date, 2026-11-13. ⚠️ The source's 2026-10-15 approval record calls its earlier future-release exception "historical only" and reports "current official Commander legality PASS"; Scryfall does not agree yet. Bot cycle 44: `legal_from` set to Wizards' official Commander date, 2026-11-13 (earlier it used Scryfall's set release date): "New-to-Magic MBC cards will be legal in Commander on November 13, 2026." Not yet Commander-legal: Tresserhorn's Lord, Returned. Activation: `python3 scripts/activate_pending_grixis.py`. |
 | format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (1 line(s)); role tags restored on 84 untagged line(s): 73 from this deck's FINAL baseline, 11 from the tag the source uses most for that card in other decks; 8 untagged line(s) given a type tag (e.g. `[Land]`). |
 | bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **2 Game Changers**, so the minimum bracket is **3**. Commander Spellbook finds 21 complete combos (1 two-card infinite). |
 
@@ -209,7 +208,7 @@ Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
 - **Commander hooks (from Oracle text):** sacrifice.
 - **Commander dependence:** 74% → **74%** · generic share 21% → **21%** · mean overlap with the other 61 lists 11% → **11%**.
 - **Decision:** at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged.
-- ⏳ **Pending legality:** Tresserhorn's Lord, Returned are not Commander-legal before 2026-10-19; the export is marked pending.
+- ⏳ **Pending legality:** Tresserhorn's Lord, Returned are not Commander-legal before 2026-11-13; the export is marked pending.
 
 > 🔎 **Hand review (Bot cycle 44): identity confirmed; at ceiling; unchanged; source legality claim flagged.** New deck, so it got a hand look; commander dependence is 74%, the deck most tied to its commander in batch 6. Tresserhorn's Lord reads "When Tresserhorn's Lord enters, sacrifice him unless you sacrifice three creatures, pay 3 life, and have target opponent draw three cards." and "Whenever you sacrifice a creature, draw a card." The list is a sacrifice-draw engine. Free outlets: Ashnod's Altar, Phyrexian Altar, Carrion Feeder, Viscera Seer, Goblin Bombardment, Warren Soultrader, Yawgmoth. Fodder that pays the enter cost: Bitterblossom, Mogg War Marshal, Endrek Sahr, The Locust God, Chittering Witch, Ophiomancer. Loops, per the source's rules review: Gravecrawler plus Tresserhorn (a Zombie) with Phyrexian Altar or Pitiless Plunderer, and The Locust God with a free outlet. Payoffs: Blood Artist, Zulaport Cutthroat, Bastion of Remembrance, Plumb the Forbidden. The few cards with no hook are there for the 10-power, indestructible, trampling body: Not of This World costs {0} when it protects a creature with power 7 or greater; Stubborn Denial is a hard counter with ferocious; Lightning Greaves. The automatic plan found no generic cut with a stronger Tresserhorn-specific add. Reassembling Skeleton (38.0%), the top add by synergy, has no Oracle hook to Tresserhorn, so it does not qualify. The generic cards left are fast mana, tutors (Game Changers) and interaction. Pending exception: the commander itself is not Commander-legal yet; every other card passes the normal gates.
 
@@ -226,7 +225,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 | Card | Role (source tag) | Type | MV | Identity | GC | Printing |
 |---|---|---|---|---|---|---|
-| [Tresserhorn's Lord, Returned](../../cards/T/tre.md#tresserhorns-lord-returned) | Commander · ⏳ not legal until 2026-10-19 | Legendary Creature — Zombie Noble | 5 | UBR |  | — |
+| [Tresserhorn's Lord, Returned](../../cards/T/tre.md#tresserhorns-lord-returned) | Commander · ⏳ not legal until 2026-11-13 | Legendary Creature — Zombie Noble | 5 | UBR |  | — |
 | [My Precious // Allure of Power](../../cards/M/my.md#my-precious--allure-of-power) | Artifact | Legendary Artifact — Equipment // Instant — Adventure | 3 | B |  | — |
 | [Boggart Trawler // Boggart Bog](../../cards/B/bo.md#boggart-trawler--boggart-bog) | Creature | Creature — Goblin // Land | 3 | B |  | — |
 | [Weaponcraft Enthusiast](../../cards/W/we.md#weaponcraft-enthusiast) | Creature | Creature — Aetherborn Artificer | 3 | B |  | — |
@@ -508,16 +507,3 @@ Next unlocked deck in authoritative tracker order: **Wick, the Whorled Mind — 
 | The Locust God + Woe Strider + Tresserhorn's Lord, Returned | Infinite card draw, Infinite draw triggers, Near-infinite colorless mana, Near-infinite creature ETB | — | [997-1339-7920](https://commanderspellbook.com/combo/997-1339-7920/) |
 | Gravecrawler + Pitiless Plunderer + Woe Strider | Infinite creature LTB, Infinite creature ETB, Infinite creature sacrifice triggers, Infinite death triggers | — | [997-2577-4871](https://commanderspellbook.com/combo/997-2577-4871/) |
 <!-- COMBOS:END -->
-
-<!-- CROSSREFS:START -->
-## Cross-references
-
-> Generated by `scripts/build_crossrefs.py` (Bot cycle 18, [#66](https://github.com/corymstover/GrokBotMTGCompanion/issues/66)) from this list. Package counts are Oracle-text pattern matches using the [EDH Packages](../../EDH%20Packages.md) patterns, so a card can fit loosely or count in several packages. Facts, not advice. Every card entry also lists where else it is cited (*Referenced in* → the [reverse card index](../../references/README.md)).
-
-- **EDH packages in this list:** [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) 6 · [Aristocrats: Free sacrifice outlets](../../EDH%20Packages.md#aristocrats-free-sacrifice-outlets) 6 · [Ramp: Mana rocks (MV ≤ 2)](../../EDH%20Packages.md#ramp-mana-rocks-mv--2) 6 · [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) 3 · [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) 3 · [Aristocrats: Death-trigger drain payoffs](../../EDH%20Packages.md#aristocrats-death-trigger-drain-payoffs) 2 · [Card advantage: Burst draw (instants & sorceries)](../../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) 2 · [+1/+1 counters: Proliferate](../../EDH%20Packages.md#11-counters-proliferate) 1 · [Graveyard: Reanimation](../../EDH%20Packages.md#graveyard-reanimation) 1 · [Lands / landfall: Landfall payoffs](../../EDH%20Packages.md#lands--landfall-landfall-payoffs) 1 · [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) 1 · [Voltron (equipment & auras): Evasion & double strike](../../EDH%20Packages.md#voltron-equipment--auras-evasion--double-strike) 1 · [Voltron (equipment & auras): Protective equipment/auras](../../EDH%20Packages.md#voltron-equipment--auras-protective-equipmentauras) 1
-- **Keywords → [Keyword Encyclopedia](../../Keyword%20Encyclopedia.md):** [Equip](../../Keyword%20Encyclopedia.md#equip) 5 · [Flying](../../Keyword%20Encyclopedia.md#flying) 3 · [Fabricate](../../Keyword%20Encyclopedia.md#fabricate) 2 · [Scry](../../Keyword%20Encyclopedia.md#scry) 2 · [Cycling](../../Keyword%20Encyclopedia.md#cycling) 1 · [Echo](../../Keyword%20Encyclopedia.md#echo) 1 · [Escape](../../Keyword%20Encyclopedia.md#escape) 1 · [Flash](../../Keyword%20Encyclopedia.md#flash) 1 · [Indestructible](../../Keyword%20Encyclopedia.md#indestructible) 1 · [Proliferate](../../Keyword%20Encyclopedia.md#proliferate) 1 · [Protection](../../Keyword%20Encyclopedia.md#protection) 1 · [Regenerate](../../Keyword%20Encyclopedia.md#regenerate) 1
-- **Rules sections citing cards in this list:** [Keyword Encyclopedia → Fabricate](../../Keyword%20Encyclopedia.md#fabricate) (Marionette Apprentice, Weaponcraft Enthusiast) · [Rules Interactions → Commander: color identity](../../Rules%20Interactions.md#commander-color-identity) (Arcane Signet, Command Tower) · [Rules Interactions → Replacement effects vs. triggered abilities](../../Rules%20Interactions.md#replacement-effects-vs-triggered-abilities) (Exotic Orchard, Fellwar Stone) · [Keyword Encyclopedia → Equip](../../Keyword%20Encyclopedia.md#equip) (Lightning Greaves) · [Keyword Encyclopedia → Escape](../../Keyword%20Encyclopedia.md#escape) (Woe Strider) · [Keyword Encyclopedia → Protection](../../Keyword%20Encyclopedia.md#protection) (Yawgmoth, Thran Physician) · [Keyword Encyclopedia → Regenerate](../../Keyword%20Encyclopedia.md#regenerate) (Nightscape Familiar) · [Keyword Encyclopedia → Scry](../../Keyword%20Encyclopedia.md#scry) (Viscera Seer) · …4 more sections
-- **Lore & story sections citing cards in this list:** [Art & Flavor Story Links → Captioned art on cited story pages](../../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Command Tower) · [Art & Flavor Story Links → The Phyrexian Invasion saga (2023)](../../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) (Diabolic Intent) · [Characters Index → Character cards (name-matched)](../../Characters%20Index.md#character-cards-name-matched) (Yawgmoth, Thran Physician) · [Planes Index → New Capenna](../../Planes%20Index.md#new-capenna) (Xander's Lounge) · [Planes Index → Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres) (Yawgmoth, Thran Physician)
-- **EDH guide sections citing cards in this list:** [Grixis Packages → Land](../../grixis/Grixis%20Packages.md#land) (Badlands, Blood Crypt, Bloodstained Mire +17) · [Grixis Packages → Ramp](../../grixis/Grixis%20Packages.md#ramp) (Arcane Signet, Ashnod's Altar, Dark Ritual +8) · [EDH Upgrade Paths → Teysa Karlov](../../EDH%20Upgrade%20Paths.md#teysa-karlov) (Ashnod's Altar, Dark Ritual, Demonic Tutor +7) · [EDH Archetypes → Aristocrats (sacrifice & death triggers)](../../EDH%20Archetypes.md#aristocrats-sacrifice--death-triggers) (Ashnod's Altar, Bastion of Remembrance, Diabolic Intent +6) · [EDH Staples → Black](../../EDH%20Staples.md#black) (Black Market Connections, Blood Artist, Dark Ritual +6) · [EDH Staples → Sacrifice / aristocrats](../../EDH%20Staples.md#sacrifice--aristocrats) (Ashnod's Altar, Bastion of Remembrance, Carrion Feeder +6) · …89 more sections
-- **Decks sharing the most cards:** [Lord of Tresserhorn (Grixis)](../../grixis/decks/lord-of-tresserhorn.md) 55 · [Marchesa, the Black Rose (Grixis)](../../grixis/decks/marchesa-the-black-rose.md) 53 · [Thraximundar (Grixis)](../../grixis/decks/thraximundar.md) 52 · [Edea, Possessed Sorceress (Grixis)](../../grixis/decks/edea-possessed-sorceress.md) 47
-<!-- CROSSREFS:END -->

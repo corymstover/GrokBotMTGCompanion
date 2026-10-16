@@ -134,7 +134,7 @@ SCHEMA = {
         "lore_standard_met": ("bool", False, "Lore decks only: lore_score ≥ 85 (the Lore-Themed Deckbuilding standard; enforced by `build_lore_decks.py --check`)."),
         "source_repo": ("string", False, "Grixis decks only: the read-only source repository."),
         "legality_status": ("enum: pending", False, "Bot cycle 38: present only on decks published before some cards are Commander-legal (data/grixis_pending.json). validate_all accepts the listed cards only while legal_from is in the future."),
-        "legal_from": ("date YYYY-MM-DD", False, "Pending decks only: the date Scryfall gives for the not-yet-legal cards' set release."),
+        "legal_from": ("date YYYY-MM-DD", False, "Pending decks only: the official date the not-yet-legal cards become Commander-legal (data/grixis_pending.json → legal_from_source; Bot cycle 44: Wizards' MBC announcement, 2026-11-13)."),
         "pending_cards": ("list of card names", False, "Pending decks only: the cards that are not Commander-legal yet."),
         "schema": ("int", True, f"Front-matter schema version (currently {SCHEMA_VERSION})."),
     },
