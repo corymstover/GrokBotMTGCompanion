@@ -3036,7 +3036,7 @@
   "The_Madcap_Jester": {
    "source": {
     "nonland": 65,
-    "dependence": 0.508,
+    "dependence": 0.523,
     "generic_share": 0.354,
     "mean_overlap": 0.182,
     "max_overlap": [
@@ -3064,7 +3064,7 @@
    },
    "final": {
     "nonland": 65,
-    "dependence": 0.508,
+    "dependence": 0.523,
     "generic_share": 0.354,
     "mean_overlap": 0.181,
     "max_overlap": [
@@ -3091,7 +3091,8 @@
     ]
    },
    "hooks": [
-    "combat damage / attack triggers"
+    "combat damage / attack triggers",
+    "exiling and playing opponents' library cards"
    ],
    "edhrec_pages": [
     "the-madcap-jester"

@@ -5792,6 +5792,11 @@
 "headings": [
 [
 2,
+"2026-10-16 — Bot cycle 44 (Grixis refinement batch 6: the 2 pending decks)",
+"2026-10-16--bot-cycle-44-grixis-refinement-batch-6-the-2-pending-decks"
+],
+[
+2,
 "2026-10-16 — Bot cycle 43 (Grixis refinement batch 5, end-of-cycle summary, v2.5-grixis-refinement)",
 "2026-10-16--bot-cycle-43-grixis-refinement-batch-5-end-of-cycle-summary-v25-grixis-refinement"
 ],
@@ -6542,8 +6547,8 @@
 ],
 [
 2,
-"End-of-cycle summary (60 legal decks)",
-"end-of-cycle-summary-60-legal-decks"
+"End-of-cycle summary (all 62 decks)",
+"end-of-cycle-summary-all-62-decks"
 ],
 [
 3,
@@ -6572,8 +6577,8 @@
 ],
 [
 3,
-"Pending decks (not in the 60)",
-"pending-decks-not-in-the-60"
+"Pending decks: refined but pending legality",
+"pending-decks-refined-but-pending-legality"
 ],
 [
 2,
@@ -6604,6 +6609,11 @@
 3,
 "Batch 5 — Bot cycle 43, 2026-10-16",
 "batch-5--bot-cycle-43-2026-10-16"
+],
+[
+3,
+"Batch 6 — Bot cycle 44, 2026-10-16",
+"batch-6--bot-cycle-44-2026-10-16"
 ],
 [
 2,
@@ -17596,6 +17606,16 @@
 ],
 [
 2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
+],
+[
+2,
 "Card breakdown",
 "card-breakdown"
 ],
@@ -18051,6 +18071,16 @@
 2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
+],
+[
+2,
+"Refined list (Bot cycle 39)",
+"refined-list-bot-cycle-39"
+],
+[
+3,
+"Refinement log",
+"refinement-log"
 ],
 [
 2,

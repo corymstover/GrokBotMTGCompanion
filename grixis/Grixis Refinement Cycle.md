@@ -17,7 +17,7 @@ Grixis source commit used: `1836b97` (`git pull` on 2026-10-16: no upstream chan
 
 ## Contents
 - [Status](#status)
-- [End-of-cycle summary (60 legal decks)](#end-of-cycle-summary-60-legal-decks)
+- [End-of-cycle summary (all 62 decks)](#end-of-cycle-summary-all-62-decks)
 - [Batch log](#batch-log)
 - [Hand reviews](#hand-reviews)
 - [Overlap review (manual)](#overlap-review-manual)
@@ -27,13 +27,13 @@ Grixis source commit used: `1836b97` (`git pull` on 2026-10-16: no upstream chan
 
 ## Status
 
-- **Reviewed: 60/62** decks (6 refined, 54 at/near ceiling and unchanged). 2 decks are ⏳ pending legality (measured; exports marked pending).
+- **Reviewed: 62/62** decks (6 refined, 56 at/near ceiling and unchanged). 2 decks are ⏳ pending legality (measured; exports marked pending).
 - Mean commander dependence, all 62 (final lists): **66%** · mean generic share: **24%** · mean pairwise overlap: **16%**.
 - Thoracle core present in 12 lists · median control-core cards per list: 9.
 
-## End-of-cycle summary (60 legal decks)
+## End-of-cycle summary (all 62 decks)
 
-Bot cycles 39–43, batches 1–5. **60/60 legal decks reviewed: 6 changed (7 swaps, 3 hand-picked), 54 at/near ceiling and unchanged.** 17 written verdicts on guard-passing automatic candidates (4 accepted, 13 rejected); 8 hand reviews; 4 decks with protected core cards. Source lists stay on each deck page; every change is guidance with its evidence.
+Bot cycles 39–44, batches 1–6. **62/62 decks reviewed (60/60 legal + 2/2 ⏳ pending legality): 6 changed (7 swaps, 3 hand-picked), 56 at/near ceiling and unchanged.** The 2 pending decks are refined but pending: their refinement pass is done (batch 6), and they stay ⏳ pending until their cards are Commander-legal. 17 written verdicts on guard-passing automatic candidates (4 accepted, 13 rejected); 10 hand reviews; 4 decks with protected core cards. Source lists stay on each deck page; every change is guidance with its evidence.
 
 ### Method in brief
 
@@ -41,7 +41,7 @@ Bot cycles 39–43, batches 1–5. **60/60 legal decks reviewed: 6 changed (7 sw
 - **Power guard (Bot cycle 40):** no clear downgrade. The add's inclusion on the commander's page must be at least the cut's, its overall EDHREC rank no worse than 4× the cut's or +2000, and a free spell is never replaced by one that costs mana. Never cut Game Changers, Spellbook combo pieces, mana sources of MV ≤ 2, trigger doublers for triggered commanders, or reviewer-protected core cards. Role parity: interaction is replaced only by interaction at equal or lower MV.
 - **Written review:** a swap that passes the guard is applied only with a written verdict saying why the add does more in *this* deck. Unreviewed swaps fail `validate_all`.
 - **Hand-picked swaps (Bot cycle 41):** reviewer-chosen swaps with verbatim Oracle hooks. They pass the same gates.
-- **Hand reviews:** every deck scoring under about 30% commander dependence when it was reviewed (Evelyn, Marchesa, Dealer of Death, Nicol Bolas, Fire Lord Azula) got a commander-first hand look. So did the decks near that line (Garza Zol, Sol'kanar the Swamp King, Tetsuo Umezawa) and Thraximundar, for its source flag. Several low scores were hook gaps, fixed below.
+- **Hand reviews:** every deck scoring under about 30% commander dependence when it was reviewed (Evelyn, Marchesa, Dealer of Death, Nicol Bolas, Fire Lord Azula) got a commander-first hand look, as did both new pending decks (batch 6). So did the decks near that line (Garza Zol, Sol'kanar the Swamp King, Tetsuo Umezawa) and Thraximundar, for its source flag. Several low scores were hook gaps, fixed below.
 - **Scoring fixes found by hand review:** Evelyn's exile-play hook (cycle 40); the crimes hook for Marchesa (cycle 41); the wheels / punishers hook (Nekusar), "deals damage to an opponent" (Nicol Bolas), ward no longer counted as a counterspell (cycle 42); unearth (Sedris), life gain and black spells (Sol'kanar), tapping / blocking creatures (Tetsuo Umezawa), villainous choice / voting (The Valeyard), and reminder text ignored for roles (cycle 43).
 - **Verification:** each changed list passes `evaluate_decklist.check`, keeps every Spellbook combo of the source list, and does not raise the bracket floor.
 
@@ -65,6 +65,7 @@ No qualifying swap passed the gates, guard and review, so these lists are left a
 - **Batch 3:** [Jeleva, Nephalia's Scourge](decks/jeleva-nephalias-scourge.md#refined-list-bot-cycle-39) (71%) · [Kess, Dissident Mage](decks/kess-dissident-mage.md#refined-list-bot-cycle-39) (75%) · [Loki, the Deceiver](decks/loki-the-deceiver.md#refined-list-bot-cycle-39) (78%) · [Lord Xander, the Collector](decks/lord-xander-the-collector.md#refined-list-bot-cycle-39) (53%) · [Lord of Tresserhorn](decks/lord-of-tresserhorn.md#refined-list-bot-cycle-39) (58%) · [Lynde, Cheerful Tormentor](decks/lynde-cheerful-tormentor.md#refined-list-bot-cycle-39) (64%) · [Mai and Zuko](decks/mai-and-zuko.md#refined-list-bot-cycle-39) (76%) · [Mairsil, the Pretender](decks/mairsil-the-pretender.md#refined-list-bot-cycle-39) (75%) · [Marchesa, Dealer of Death](decks/marchesa-dealer-of-death.md#refined-list-bot-cycle-39) (56% 🔎) · [Marchesa, the Black Rose](decks/marchesa-the-black-rose.md#refined-list-bot-cycle-39) (65%) · [Mishra, Artificer Prodigy](decks/mishra-artificer-prodigy.md#refined-list-bot-cycle-39) (86%) · [Mishra, Eminent One](decks/mishra-eminent-one.md#refined-list-bot-cycle-39) (83%)
 - **Batch 4:** [Missy](decks/missy.md#refined-list-bot-cycle-39) (81%) · [Nathan Drake, Treasure Hunter](decks/nathan-drake-treasure-hunter.md#refined-list-bot-cycle-39) (62%) · [Nekusar, the Mindrazer](decks/nekusar-the-mindrazer.md#refined-list-bot-cycle-39) (61%) · [Nicol Bolas, the Ravager // Nicol Bolas, the Arisen](decks/nicol-bolas-the-ravager.md#refined-list-bot-cycle-39) (54%) · [Obeka, Brute Chronologist](decks/obeka-brute-chronologist.md#refined-list-bot-cycle-39) (55%) · [Obeka, Splitter of Seconds](decks/obeka-splitter-of-seconds.md#refined-list-bot-cycle-39) (64%) · [Parnesse, the Subtle Brush](decks/parnesse-the-subtle-brush.md#refined-list-bot-cycle-39) (69%) · [Rograkh, Son of Rohgahh + Silas Renn, Seeker Adept](decks/rograkh-son-of-rohgahh-silas-renn.md#refined-list-bot-cycle-39) (99%) · [Saruman, the White Hand](decks/saruman-the-white-hand.md#refined-list-bot-cycle-39) (87%) · [Sauron, Lord of the Rings](decks/sauron-lord-of-the-rings.md#refined-list-bot-cycle-39) (55%) · [Sauron, the Dark Lord](decks/sauron-the-dark-lord.md#refined-list-bot-cycle-39) (75%)
 - **Batch 5:** [Sedris, the Traitor King](decks/sedris-the-traitor-king.md#refined-list-bot-cycle-39) (57%) · [Sol'Kanar the Tainted](decks/solkanar-the-tainted.md#refined-list-bot-cycle-39) (56%) · [Tetsuo Umezawa](decks/tetsuo-umezawa.md#refined-list-bot-cycle-39) (48% 🔎) · [Tetsuo, Imperial Champion](decks/tetsuo-imperial-champion.md#refined-list-bot-cycle-39) (84%) · [The Valeyard](decks/the-valeyard.md#refined-list-bot-cycle-39) (59%) · [Thraximundar](decks/thraximundar.md#refined-list-bot-cycle-39) (67% 🔎) · [Wick, the Whorled Mind](decks/wick-the-whorled-mind.md#refined-list-bot-cycle-39) (64%) · [Zevlor, Elturel Exile](decks/zevlor-elturel-exile.md#refined-list-bot-cycle-39) (91%)
+- **Batch 6:** [The Madcap Jester](decks/the-madcap-jester.md#refined-list-bot-cycle-39) (52% 🔎 ⏳ pending) · [Tresserhorn's Lord, Returned](decks/tresserhorns-lord-returned.md#refined-list-bot-cycle-39) (74% 🔎 ⏳ pending)
 
 ### Flagged items
 
@@ -72,21 +73,23 @@ No qualifying swap passed the gates, guard and review, so these lists are left a
 - ⚠️ **Thraximundar:** Source state file: `whole_list_audit_artifact` points to `refinement/decisions/Thraximundar_Whole_List_Audit_v2_2026-10-15.csv`, which does not exist at `1836b97` (re-checked in Bot cycle 43). The file on disk is `refinement/audits/Thraximundar_Whole_List_Audit_2026-10-15.csv`. Reported, not fixed: the source is read-only for us.
 - ⚠️ **Archidekt exports:** Archidekt import not tested in Archidekt itself. The export files are checked offline: format matches the source's own Archidekt package (`exports/archidekt_2026-10-15/`), each file matches its deck page card for card, every file is 100 cards with the commander line(s) first and tagged `[Commander]`, and every file passes `evaluate_decklist.check`. Nobody has pasted them into Archidekt yet. Do that once per deck before relying on the `[Commander]` category.
 - ⚠️ **Kefka, Court Mage // Kefka, Ruler of Ruin:** Open idea, not applied: Mystic Remora → Monument to Endurance (hand-picked, Bot cycle 41). The role/MV parity gate rejects it (cut MV 1, add MV 3). The identity case is real: Kefka's "each player discards a card" turns Monument into draw, Treasure, or a 3-point drain each turn. A draw-role cut at MV 2 or more would let it pass. Left open for Cory's call.
+- ⚠️ **Tresserhorn's Lord, Returned:** Source legality claim not supported, re-verified in Bot cycle 44. The source's 2026-10-15 approval record says the Mystery Booster Commander Edition release notes make MBC collector numbers 1–60 "legal in Commander", so "current official Commander legality PASS, no project exception required". The release notes do say "(MBC collector numbers 1–60) are legal in Commander, Legacy, and Vintage" but give no date. Wizards' "What's Inside Mystery Booster Commander Edition?" article (Aug 3, 2026, with an editor's note that the legality dates were updated) says "New-to-Magic MBC cards will be legal in Commander on November 13, 2026." Scryfall (live API, 2026-10-16) lists Tresserhorn's Lord, Returned (mbc 52) as `not_legal` in Commander. The source's own Madcap Jester verification gives the same date: "NOT officially Commander-legal until 2026-11-13". The source contradicts itself. The flag stays.
+- ⚠️ **Pending date (MBC):** ⏳ Pending date: our registry (`data/grixis_pending.json`) uses Scryfall's `released_at` of 2026-10-19 as `legal_from` for all three `mbc` cards. Wizards' official Commander-legal date is **2026-11-13**. Under the current rules `validate_all` fails both pending decks from 2026-10-19 ("pending legality expired"), and `activate_pending_grixis.py` would exit 2 ("legal_from has passed but Scryfall still lists these as not legal") until Scryfall flips them. The pending markers and date were left untouched in Bot cycle 44 as instructed. Cory needs to decide whether to move `legal_from` to 2026-11-13.
 
 ### Homogenization and overlap findings
 
-- Legal decks, source → final: mean commander dependence 65.8% → **66.0%** · mean generic share 24.5% → **24.4%** · mean pairwise overlap 15.8% → **15.8%**.
-- Most shared cards: Sol Ring (62), Talisman of Dominance (61), Arcane Signet (61), Demonic Tutor (57), Talisman of Indulgence (56), Talisman of Creativity (56), Fierce Guardianship (54), Vampiric Tutor (54), Deflecting Swat (53), Cyclonic Rift (46) (lists out of 62).
+- All 62 lists, source → final: mean commander dependence 65.7% → **65.9%** · mean generic share 24.6% → **24.5%** · mean pairwise overlap 15.8% → **15.7%**.
+- Most shared cards: Sol Ring (62), Talisman of Dominance (61), Arcane Signet (61), Demonic Tutor (57), Talisman of Indulgence (56), Talisman of Creativity (56), Vampiric Tutor (54), Fierce Guardianship (54), Deflecting Swat (53), Cyclonic Rift (46) (lists out of 62).
 - Measured on the final lists. Most shared cards are fast mana, tutors and free interaction (see the table): the Game Changer-era ceiling cards any Grixis list at Bracket 4+ plays. That is principle 2 (no artificial weakening), not homogenization, so none of them was cut for being shared. Where overlap was high (the Kess pairs below), the hand review found the shared core explained by each commander's text except for part of Kefka's list, and Kefka was refined in batch 3. The refinement cut only generic cards with no hook to their commander. Every add carries an Oracle hook, so each changed list moved away from the shared core, not toward it.
 - **Kess, Dissident Mage / Kefka, Court Mage (64% overlap):** Partly homogenization.
 - **Cormela, Glamour Thief / Kess, Dissident Mage (62%):** Identity-justified.
 - **Jeleva, Nephalia's Scourge / Kess, Dissident Mage (62%):** Identity-justified.
 
-### Pending decks (not in the 60)
+### Pending decks: refined but pending legality
 
-- ⏳ [The Madcap Jester](decks/the-madcap-jester.md): The Madcap Jester, Dragon's Smile not Commander-legal before 2026-10-19. Measured but not refined; the export is marked pending.
-- ⏳ [Tresserhorn's Lord, Returned](decks/tresserhorns-lord-returned.md): Tresserhorn's Lord, Returned not Commander-legal before 2026-10-19. Measured but not refined; the export is marked pending.
-- **Follow-up (2026-10-20):** On or after 2026-10-19 (scheduled follow-up: 2026-10-20), run `python3 scripts/activate_pending_grixis.py`. It refreshes the Scryfall bulk, re-checks the `mbc` cards (The Madcap Jester, Dragon's Smile, Tresserhorn's Lord, Returned) and flips both decks from ⏳ pending to active. Then run their refinement pass: `python3 scripts/grixis_refine.py --plan 6 --cycle <N> --decks The_Madcap_Jester,Tresserhorn_s_Lord__Returned`, then `rebuild_enrichment.sh`. `validate_all` fails a pending deck once its `legal_from` date has passed, so this cannot be forgotten. Lord of Tresserhorn is a different, already-legal deck (batch 3).
+- ⏳ [The Madcap Jester](decks/the-madcap-jester.md#refined-list-bot-cycle-39): **refined but pending**. Batch 6 (Bot cycle 44): at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged (hand review: identity confirmed; at ceiling; unchanged). Pending card(s): The Madcap Jester, Dragon's Smile (registry `legal_from` 2026-10-19). The export stays marked pending.
+- ⏳ [Tresserhorn's Lord, Returned](decks/tresserhorns-lord-returned.md#refined-list-bot-cycle-39): **refined but pending**. Batch 6 (Bot cycle 44): at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged (hand review: identity confirmed; at ceiling; unchanged; source legality claim flagged). Pending card(s): Tresserhorn's Lord, Returned (registry `legal_from` 2026-10-19). The export stays marked pending.
+- **Activation follow-up:** Both decks have had their refinement pass (batch 6, Bot cycle 44: at ceiling, unchanged), so the activation step only needs to activate and re-verify. Run `python3 scripts/activate_pending_grixis.py` once Scryfall lists the `mbc` cards (The Madcap Jester, Dragon's Smile, Tresserhorn's Lord, Returned) as Commander-legal. Wizards' date is 2026-11-13; the registry still says 2026-10-19 (see the flag above). The script flips both decks from ⏳ pending to active. Then run `rebuild_enrichment.sh`, which includes `grixis_refine.py` and `validate_all`. A new refinement batch is only needed if Scryfall's Oracle text for these cards changes on release. Lord of Tresserhorn is a different, already-legal deck (batch 3).
 
 ## Batch log
 
@@ -175,6 +178,11 @@ No qualifying swap passed the gates, guard and review, so these lists are left a
 
 - *Written reviews in this batch:* 4 verdict(s) on automatic candidates (2 accepted, 2 rejected) covering 4 distinct add(s).
 
+### Batch 6 — Bot cycle 44, 2026-10-16
+
+- [The Madcap Jester](decks/the-madcap-jester.md#refined-list-bot-cycle-39): at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged. Dependence 52% → 52%.
+- [Tresserhorn's Lord, Returned](decks/tresserhorns-lord-returned.md#refined-list-bot-cycle-39): at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged. Dependence 74% → 74%.
+
 ## Hand reviews
 
 Decks given a commander-first hand look (guidance; principle 2: no artificial weakening).
@@ -187,6 +195,8 @@ Decks given a commander-first hand look (guidance; principle 2: no artificial we
 - **[Thraximundar](decks/thraximundar.md#refined-list-bot-cycle-39)** (Bot cycle 43): **unchanged; source flag kept.** 67% commander dependence; the automatic candidate (Reanimate → Village Rites) was rejected in writing. ⚠️ Flag kept from Bot cycle 37: the source state's `whole_list_audit_artifact` points to `refinement/decisions/Thraximundar_Whole_List_Audit_v2_2026-10-15.csv`, which does not exist at `1836b97` (re-checked this cycle). The file on disk is `refinement/audits/Thraximundar_Whole_List_Audit_2026-10-15.csv`. We did not modify the source.
 - **[Fire Lord Azula](decks/fire-lord-azula.md#refined-list-bot-cycle-39)** (Bot cycle 43): **cEDH ceiling; identity-first version would be weaker; unchanged (flagged).** Added late: Azula's 25% score is under the hand-review line, but batch 2 (Bot cycle 40) ran before that rule was applied to every deck. The list is a cEDH turbo shell: Thassa's Oracle, Demonic Consultation / Tainted Pact, Ad Nauseam, Underworld Breach with Lion's Eye Diamond and Brain Freeze, fast mana, and free counterspells. Azula is used as an attacking copy engine: "Whenever you cast a spell while Fire Lord Azula is attacking, copy that spell." Her support is haste (Expedite, Crimson Wisps), Birgi's mana for every spell cast, instant-speed sorceries (Quicken, Borne Upon a Wind), and copied rituals and tutors. Swapping the combo core for more attack-copy payoffs would lower the deck's ceiling, so the list is left as is. Same tradeoff as Evelyn.
 - **[Garza Zol, Plague Queen](decks/garza-zol-plague-queen.md#refined-list-bot-cycle-39)** (Bot cycle 43): **identity confirmed; unchanged.** Added late: Garza's 31% score is near the hand-review line (batch 2, Bot cycle 40). Garza is a flying, hasty Voltron commander: "Whenever Garza Zol deals combat damage to a player, you may draw a card." The low score comes from equipment (Swords of Feast and Famine and Fire and Ice, Shadowspear, Blackblade Reforged, Commander's Plate, Grafted Exoskeleton, Quietus Spike) and pump spells (Hatred, Psychotic Fury). Their text names "equipped creature" or "target creature", not combat damage, but every one of them is there to make Garza connect. The automatic plan found no stronger Garza-specific replacement, so the list is left as is.
+- **[The Madcap Jester](decks/the-madcap-jester.md#refined-list-bot-cycle-39)** (Bot cycle 44): **identity confirmed; at ceiling; unchanged.** New deck, so it got a hand look even at 52% commander dependence. The score was 51% before the cycle 44 hook for exiling and playing cards from opponents' libraries. The Madcap Jester reads "Whenever a spell or ability you control causes one or more cards to be exiled from an opponent's library, you may play those cards until the end of your next turn. Mana of any type can be spent to cast spells this way." The list is built on that line. Library-exile effects: Praetor's Grasp, Extract, Bitter Ordeal and Jester's Cap (these become tutors from an opponent's library), Ashiok, Nightmare Weaver, Circu, Dimir Lobotomist, Jester's Scepter, Laughing Jasper Flint, Psychic Surgery, Ragavan, Sire of Stagnation, Plargg and Nassari and Ensnared by the Mara. Payoffs for casting from exile: Dragon's Smile ("pay {0} rather than pay the mana cost for a spell you cast from exile"), Bilbo, Gonti, Night Minister, Don Andres, Thieving Varmint, Nalfeshnee, Wild-Magic Sorcerer, Party Thrasher and Passionate Archaeologist. The rest is a cEDH Thassa's Oracle / Underworld Breach core with fast mana and free counterspells; the source states a Bracket 5 ceiling. Every generic card is a Game Changer, a combo piece or a mana source of MV ≤ 2, so none can be cut. The best on-theme adds (Cunning Rhetoric, Thief of Sanity, Fathom Feeder, You Find Some Prisoners) only fit by replacing a free counterspell (Pact of Negation, Force of Negation, rank 370 / 272). They fail interaction parity and the rank guard, so the list is left as is. Pending exception: The Madcap Jester and Dragon's Smile are not Commander-legal yet; every other card passes the normal gates.
+- **[Tresserhorn's Lord, Returned](decks/tresserhorns-lord-returned.md#refined-list-bot-cycle-39)** (Bot cycle 44): **identity confirmed; at ceiling; unchanged; source legality claim flagged.** New deck, so it got a hand look; commander dependence is 74%, the deck most tied to its commander in batch 6. Tresserhorn's Lord reads "When Tresserhorn's Lord enters, sacrifice him unless you sacrifice three creatures, pay 3 life, and have target opponent draw three cards." and "Whenever you sacrifice a creature, draw a card." The list is a sacrifice-draw engine. Free outlets: Ashnod's Altar, Phyrexian Altar, Carrion Feeder, Viscera Seer, Goblin Bombardment, Warren Soultrader, Yawgmoth. Fodder that pays the enter cost: Bitterblossom, Mogg War Marshal, Endrek Sahr, The Locust God, Chittering Witch, Ophiomancer. Loops, per the source's rules review: Gravecrawler plus Tresserhorn (a Zombie) with Phyrexian Altar or Pitiless Plunderer, and The Locust God with a free outlet. Payoffs: Blood Artist, Zulaport Cutthroat, Bastion of Remembrance, Plumb the Forbidden. The few cards with no hook are there for the 10-power, indestructible, trampling body: Not of This World costs {0} when it protects a creature with power 7 or greater; Stubborn Denial is a hard counter with ferocious; Lightning Greaves. The automatic plan found no generic cut with a stronger Tresserhorn-specific add. Reassembling Skeleton (38.0%), the top add by synergy, has no Oracle hook to Tresserhorn, so it does not qualify. The generic cards left are fast mana, tutors (Game Changers) and interaction. Pending exception: the commander itself is not Commander-legal yet; every other card passes the normal gates.
 
 ## Overlap review (manual)
 
@@ -223,9 +233,9 @@ High-overlap pairs judged by hand (Bot cycle 40): is the shared core explained b
 | [Nicol Bolas](decks/nicol-bolas.md) | refined | 40% → **42%** | 37% | 18% | Crosis, the Purger (36%) | 0 | 9 | combat damage / attack triggers, discard, sacrifice |
 | [Tetsuo Umezawa](decks/tetsuo-umezawa.md) | unchanged (ceiling) | 48% | 30% | 13% | The Rani (26%) | 0 | 5 | tapping / blocking creatures |
 | [Crosis, the Purger](decks/crosis-the-purger.md) | unchanged (ceiling) | 49% | 41% | 18% | Gwendlyn Di Corci (41%) | 0 | 7 | combat damage / attack triggers, discard |
-| [The Madcap Jester](decks/the-madcap-jester.md) | ⏳ pending · not reviewed yet | 51% | 35% | 18% | Kefka, Court Mage // Kefka, Ruler of Ruin (36%) | 3 | 11 | combat damage / attack triggers |
 | [Gwendlyn Di Corci](decks/gwendlyn-di-corci.md) | unchanged (ceiling) | 52% | 36% | 17% | Crosis, the Purger (41%) | 0 | 11 | discard |
 | [Abaddon the Despoiler](decks/abaddon-the-despoiler.md) | refined | 51% → **52%** | 31% | 16% | Cormela, Glamour Thief (34%) | 0 | 9 | cascade / cheap spells, opponents losing life |
+| [The Madcap Jester](decks/the-madcap-jester.md) | ⏳ pending · unchanged (ceiling) | 52% | 35% | 18% | Kefka, Court Mage // Kefka, Ruler of Ruin (36%) | 3 | 11 | combat damage / attack triggers, exiling and playing opponents' library cards |
 | [Lord Xander, the Collector](decks/lord-xander-the-collector.md) | unchanged (ceiling) | 53% | 36% | 21% | Cormela, Glamour Thief (32%) | 0 | 13 | combat damage / attack triggers, discard, graveyard as a resource, sacrifice |
 | [Nicol Bolas, the Ravager // Nicol Bolas, the Arisen](decks/nicol-bolas-the-ravager.md) | unchanged (ceiling) | 54% | 35% | 17% | Mairsil, the Pretender (29%) | 0 | 10 | discard |
 | [Sauron, Lord of the Rings](decks/sauron-lord-of-the-rings.md) | unchanged (ceiling) | 55% | 34% | 17% | Sauron, the Dark Lord (43%) | 0 | 9 | Orc synergy, graveyard as a resource |
@@ -252,7 +262,7 @@ High-overlap pairs judged by hand (Bot cycle 40): is the shared core explained b
 | [Parnesse, the Subtle Brush](decks/parnesse-the-subtle-brush.md) | unchanged (ceiling) | 69% | 28% | 12% | Anhelo, the Painter (37%) | 0 | 5 | copying |
 | [Goro-Goro and Satoru](decks/goro-goro-and-satoru.md) | unchanged (ceiling) | 70% | 24% | 14% | Nathan Drake, Treasure Hunter (19%) | 0 | 10 | Dragon synergy, Spirit synergy, combat damage / attack triggers, tokens |
 | [Jeleva, Nephalia's Scourge](decks/jeleva-nephalias-scourge.md) | unchanged (ceiling) | 71% | 18% | 21% | Kess, Dissident Mage (62%) | 3 | 13 | combat damage / attack triggers, instants and sorceries |
-| [Tresserhorn's Lord, Returned](decks/tresserhorns-lord-returned.md) | ⏳ pending · not reviewed yet | 74% | 21% | 11% | Thraximundar (32%) | 0 | 1 | sacrifice |
+| [Tresserhorn's Lord, Returned](decks/tresserhorns-lord-returned.md) | ⏳ pending · unchanged (ceiling) | 74% | 21% | 11% | Thraximundar (32%) | 0 | 1 | sacrifice |
 | [Be'lakor, the Dark Master](decks/belakor-the-dark-master.md) | unchanged (ceiling) | 75% | 22% | 13% | Don Andres, the Renegade (19%) | 0 | 6 | Demon synergy, enters triggers |
 | [Mairsil, the Pretender](decks/mairsil-the-pretender.md) | unchanged (ceiling) | 75% | 21% | 18% | Nicol Bolas, the Ravager // Nicol Bolas, the Arisen (29%) | 0 | 10 | artifacts |
 | [Sauron, the Dark Lord](decks/sauron-the-dark-lord.md) | unchanged (ceiling) | 75% | 22% | 18% | Sauron, Lord of the Rings (43%) | 0 | 10 | Army synergy, Orc synergy, artifacts, combat damage / attack triggers … |
@@ -289,8 +299,8 @@ Most-shared nonland cards across the 62 source lists (count of lists):
 | Demonic Tutor | 57 |
 | Talisman of Indulgence | 56 |
 | Talisman of Creativity | 56 |
-| Fierce Guardianship | 54 |
 | Vampiric Tutor | 54 |
+| Fierce Guardianship | 54 |
 | Deflecting Swat | 53 |
 | Cyclonic Rift | 46 |
 | Toxic Deluge | 45 |
@@ -301,8 +311,8 @@ Most-shared nonland cards across the 62 source lists (count of lists):
 | Chaos Warp | 37 |
 | Deadly Rollick | 36 |
 | Mystic Remora | 36 |
-| Jeska's Will | 35 |
 | Force of Will | 35 |
+| Jeska's Will | 35 |
 | Mana Vault | 34 |
 | Dark Ritual | 33 |
 | Lightning Greaves | 33 |
