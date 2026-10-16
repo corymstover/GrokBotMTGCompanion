@@ -27,51 +27,11 @@
       }
      },
      "module": "activated_engines"
-    },
-    {
-     "evidence_class": "test_result",
-     "layer": "deaths",
-     "metrics": {
-      "10": {
-       "diff_lower_bound": 0.0,
-       "diff_mid": 0.1758,
-       "diff_range": [
-        0.0,
-        0.4367
-       ]
-      },
-      "4": {
-       "diff_lower_bound": 0.0,
-       "diff_mid": 0.0054,
-       "diff_range": [
-        0.0,
-        0.0123
-       ]
-      },
-      "6": {
-       "diff_lower_bound": 0.0,
-       "diff_mid": 0.046,
-       "diff_range": [
-        0.0,
-        0.22
-       ]
-      },
-      "8": {
-       "diff_lower_bound": 0.0,
-       "diff_mid": 0.1119,
-       "diff_range": [
-        0.0,
-        0.4267
-       ]
-      }
-     },
-     "module": "repeatable_draw"
     }
    ],
    "route": {
     "modules": [
-     "activated_engines",
-     "repeatable_draw"
+     "activated_engines"
     ],
     "planned": [
      "death_other",
@@ -251,10 +211,10 @@
        "add_kind": "another",
        "cut_kind": null,
        "diff_lower_bound": 0.0,
-       "diff_mid": 0.093,
+       "diff_mid": 0.0913,
        "diff_range": [
         0.0,
-        0.3433
+        0.3367
        ]
       },
       "6": {
@@ -271,10 +231,10 @@
        "add_kind": "another",
        "cut_kind": null,
        "diff_lower_bound": 0.0,
-       "diff_mid": 0.046,
+       "diff_mid": 0.0452,
        "diff_range": [
         0.0,
-        0.3433
+        0.3367
        ]
       }
      },
@@ -397,7 +357,7 @@
    "swap": "swap:admiral-beckett-brass:m5:d792c9710c85"
   },
   {
-   "add": "Mutalith Vortex Beast",
+   "add": "Doctor Doom",
    "authority": {
     "can_decide": false,
     "exploratory": true
@@ -411,11 +371,11 @@
      "layer": "deaths",
      "metrics": {
       "10": {
-       "diff_lower_bound": 0.0,
-       "diff_mid": 0.0,
+       "diff_lower_bound": 0.4233,
+       "diff_mid": 0.4233,
        "diff_range": [
-        0.0,
-        0.0
+        0.4233,
+        0.4233
        ]
       },
       "4": {
@@ -427,38 +387,60 @@
        ]
       },
       "6": {
-       "diff_lower_bound": 0.0,
-       "diff_mid": 0.0,
+       "diff_lower_bound": 0.0433,
+       "diff_mid": 0.0433,
        "diff_range": [
-        0.0,
-        0.0
+        0.0433,
+        0.0433
        ]
       },
       "8": {
-       "diff_lower_bound": 0.0,
-       "diff_mid": 0.0,
+       "diff_lower_bound": 0.2067,
+       "diff_mid": 0.2067,
        "diff_range": [
-        0.0,
-        0.0
+        0.2067,
+        0.2067
        ]
       }
      },
      "module": "repeatable_draw"
+    },
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_lower_bound": 0.24
+      },
+      "4": {
+       "diff_lower_bound": 0.02
+      },
+      "6": {
+       "diff_lower_bound": 0.1533
+      },
+      "8": {
+       "diff_lower_bound": 0.2133
+      }
+     },
+     "module": "token_makers"
     }
    ],
    "route": {
     "modules": [
-     "repeatable_draw"
+     "repeatable_draw",
+     "token_makers"
     ],
     "planned": [
-     "opponent_dependent_draw"
+     "life_loss",
+     "opponent_dependent_draw",
+     "stack_protection",
+     "tokens_other"
     ],
     "reason": null,
     "status": "routed"
    },
    "samples": 300,
    "seed": 66,
-   "swap": "swap:abaddon-the-despoiler:m5:1f031606ff0e"
+   "swap": "swap:abaddon-the-despoiler:m5:64cb53a3113b"
   },
   {
    "add": "Poxwalkers",
@@ -474,16 +456,16 @@
      "evidence_class": "test_result",
      "metrics": {
       "10": {
-       "diff_lower_bound": -0.0333
+       "diff_lower_bound": -0.52
       },
       "4": {
-       "diff_lower_bound": 0.0
+       "diff_lower_bound": -0.0667
       },
       "6": {
-       "diff_lower_bound": -0.0267
+       "diff_lower_bound": -0.1933
       },
       "8": {
-       "diff_lower_bound": -0.0367
+       "diff_lower_bound": -0.35
       }
      },
      "module": "cast_triggers"
@@ -551,62 +533,43 @@
      "metrics": {
       "10": {
        "diff_lower_bound": 0.1333,
-       "diff_mid": 0.1167,
+       "diff_mid": 0.1067,
        "diff_range": [
-        0.0867,
+        0.0667,
         0.1333
        ]
       },
       "4": {
        "diff_lower_bound": 0.03,
-       "diff_mid": 0.0067,
+       "diff_mid": 0.0033,
        "diff_range": [
-        0.0067,
+        0.0033,
         0.03
        ]
       },
       "6": {
        "diff_lower_bound": 0.0867,
-       "diff_mid": 0.0567,
+       "diff_mid": 0.0433,
        "diff_range": [
-        0.03,
+        0.0167,
         0.0867
        ]
       },
       "8": {
        "diff_lower_bound": 0.1267,
-       "diff_mid": 0.1033,
+       "diff_mid": 0.09,
        "diff_range": [
-        0.0667,
+        0.0533,
         0.1267
        ]
       }
      },
      "module": "sacrifice_additional_cost"
-    },
-    {
-     "evidence_class": "test_result",
-     "metrics": {
-      "10": {
-       "diff_lower_bound": -0.13
-      },
-      "4": {
-       "diff_lower_bound": -0.0367
-      },
-      "6": {
-       "diff_lower_bound": -0.0867
-      },
-      "8": {
-       "diff_lower_bound": -0.1233
-      }
-     },
-     "module": "token_makers"
     }
    ],
    "route": {
     "modules": [
-     "sacrifice_additional_cost",
-     "token_makers"
+     "sacrifice_additional_cost"
     ],
     "planned": [
      "life_loss",
@@ -673,7 +636,7 @@
       "10": {
        "diff_lower_bound": 0.5933,
        "diff_range": [
-        0.1111,
+        0.1097,
         0.5933
        ]
       },
@@ -758,16 +721,16 @@
      "evidence_class": "test_result",
      "metrics": {
       "10": {
-       "diff_lower_bound": -0.0333
+       "diff_lower_bound": -0.52
       },
       "4": {
-       "diff_lower_bound": 0.0
+       "diff_lower_bound": -0.0667
       },
       "6": {
-       "diff_lower_bound": -0.0267
+       "diff_lower_bound": -0.1933
       },
       "8": {
-       "diff_lower_bound": -0.0367
+       "diff_lower_bound": -0.35
       }
      },
      "module": "cast_triggers"
@@ -820,47 +783,68 @@
    "swap": "swap:abaddon-the-despoiler:m5:19cc391585d8"
   },
   {
-   "add": "Great Unclean One",
+   "add": "Doctor Doom",
    "authority": {
     "can_decide": false,
     "exploratory": true
    },
-   "cut": "Vivi Ornitier",
+   "cut": "Mystic Remora",
    "deck": "abaddon-the-despoiler",
    "evidence_class": "test_result",
    "results": [
     {
      "evidence_class": "test_result",
+     "layer": "deaths",
      "metrics": {
       "10": {
-       "diff_lower_bound": -0.3
+       "diff_lower_bound": 0.4233,
+       "diff_mid": 0.4233,
+       "diff_range": [
+        0.4233,
+        0.4233
+       ]
       },
       "4": {
-       "diff_lower_bound": -0.0167
+       "diff_lower_bound": 0.0,
+       "diff_mid": 0.0,
+       "diff_range": [
+        0.0,
+        0.0
+       ]
       },
       "6": {
-       "diff_lower_bound": -0.08
+       "diff_lower_bound": 0.0433,
+       "diff_mid": 0.0433,
+       "diff_range": [
+        0.0433,
+        0.0433
+       ]
       },
       "8": {
-       "diff_lower_bound": -0.1433
+       "diff_lower_bound": 0.2067,
+       "diff_mid": 0.2067,
+       "diff_range": [
+        0.2067,
+        0.2067
+       ]
       }
      },
-     "module": "cast_triggers"
+     "module": "repeatable_draw"
     },
     {
      "evidence_class": "test_result",
      "metrics": {
       "10": {
-       "diff_lower_bound": 0.16
+       "diff_lower_bound": 0.24
       },
       "4": {
-       "diff_lower_bound": 0.03
+       "diff_lower_bound": 0.02
       },
       "6": {
-       "diff_lower_bound": 0.0767
+       "diff_lower_bound": 0.1533
       },
       "8": {
-       "diff_lower_bound": 0.1233
+       "diff_lower_bound": 0.2133
       }
      },
      "module": "token_makers"
@@ -868,11 +852,13 @@
    ],
    "route": {
     "modules": [
-     "cast_triggers",
+     "repeatable_draw",
      "token_makers"
     ],
     "planned": [
      "life_loss",
+     "opponent_dependent_draw",
+     "stack_protection",
      "tokens_other"
     ],
     "reason": null,
@@ -880,7 +866,7 @@
    },
    "samples": 300,
    "seed": 66,
-   "swap": "swap:abaddon-the-despoiler:m5:cd1786cf03db"
+   "swap": "swap:abaddon-the-despoiler:m5:64cb53a3113b"
   }
  ],
  "framework_version": "1.2-mech.3"

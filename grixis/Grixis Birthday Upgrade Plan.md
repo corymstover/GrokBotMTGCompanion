@@ -306,3 +306,70 @@ The frozen development snapshot (D6) is now enforced for every script, not by co
   - First refresh: 21:07 UTC, from the 66.3 `grixis_mechanics.py --build`.
   - Second refresh: 21:17:34 UTC (file mtime), during the 66.2a session. The likely trigger is a direct `pytest tests/test_mech.py` run, whose golden test calls `load_deck` online; pytest captured the "Downloading" message.
   - No cron jobs or background processes were found.
+
+### Step E batch 66.4: semantic self-audit of the 66.3 modules (lesson: routing coverage is not correctness)
+
+The audit followed the method of Cory's 66.2 death-trigger review. It used a seeded (664) sample of 12 UBR-identity cards per module, drawn from the match sets (cast 741, draw 530, activated 3,748, tokens 1,123, sacrifice cost 91), plus 42 probe cards. The probe cards were Rhystic Study, Mystic Remora, Howling Mine, Phyrexian Arena, Coveted Jewel, Psychosis Crawler, Plasma Jockey, Skeleton Key, Slith Strider, Lyra, Storm of Saruman, Devoted Duelist, Mysidian Elder, Quicksilver Servitor, Nightmare Sower, Coralhelm Chronicler, Battlefield Thaumaturge, Indris, Kaito Shizuki, Brood Keeper, Rooftop Bypass, Syphon Flesh, Firebender Ascension, Krenko, Bitterblossom, Encroaching Wastes, Deadly Dispute, Demand Answers, Trash for Treasure, Village Rites, and others.
+
+Defects found, each now fixed:
+
+- **Cast triggers:**
+  - Unknown qualifiers mapped to "any". These were kicked, "from among cards put into your hand", "during an opponent's turn" and "that targets ~".
+  - "Second spell each turn" was counted on every spell.
+  - Quoted abilities granted to other objects (Mysidian Elder) and reminder text (prowess) were read as the card's own.
+  - Opponent and any-player cast triggers had no not_modelable reason.
+  - "Whenever you cast your commander" was unhandled.
+  - "An instant or sorcery spell" was mis-parsed.
+  - Copies are not casts.
+- **Repeatable draw:**
+  - The "other" rule matched but counted 0.
+  - Blitz reminder text was counted as a death draw.
+  - The subject was not checked: "that player/target player draws" was counted as yours.
+  - Rhystic-style "unless ... pays" was counted as full draw. It is now not_modelable and left to the planned bounded D4 proxy.
+  - "Whenever you draw" / "would draw" was counted as a draw.
+  - Loots were counted as +1. They now count 0 net.
+  - Intervening-if conditions were ignored.
+  - "Each upkeep/end step" now counts x4.
+  - Howling Mine-style "each player's ... that player draws" now counts only your own draw and is flagged symmetric. Its untapped condition is assumed true.
+- **Activated engines:**
+  - "Sacrifice this artifact/land" one-shots, hand costs (discard ~, channel) and loyalty abilities were counted.
+  - A {T} cost on a mana source did not give up that source's mana. It now needs unspent mana of cost + 1.
+  - Repeatable non-{T} abilities are still counted once per turn. This is a lower bound and is declared as a limitation.
+- **Token makers:**
+  - type_line was not used, so planeswalker loyalty abilities were counted.
+  - Variable counts (for each / X) were counted as 1.
+  - Intervening-if triggers and unmodelled trigger conditions (Brood Keeper, Rooftop Bypass) were classified as "spell".
+  - Attack makers are now applied once per later turn.
+- **Sacrifice as an additional cost:** artifact, artifact-or-creature and land fodder, and "or discard a card" alternatives, were all treated as creature fodder.
+
+Fixes:
+
+- `grixis_mech/semantics.py`: `clean` (name to ~; quoted granted abilities and reminder text removed), sentence split, and intervening-if detection.
+- `engines.cast_parse`, `draw_parse`, `act_cost` and `sac_parse`.
+- `events.token_parse` with type_line.
+- Each module has a `why_not`, so wording that looks like the mechanic but is not recognised gets a not_modelable reason.
+- Module versions are bumped to 2.
+- Four negative/edge-case tests were added (`test_664_*`).
+
+Old vs new figures, legacy M5 not_modelable swaps (9,040):
+
+| | 66.3 | 66.4 |
+|---|---|---|
+| routed to an implemented module | 6,775 (74.9%) | 4,353 (48.2%) |
+| planned module | 1,732 | 4,048 |
+| none | 533 | 639 |
+| cast_triggers | 1,270 | 792 |
+| repeatable_draw | 2,825 | 283 |
+| activated_engines | 1,745 | 1,483 |
+| token_makers | 1,964 | 535 |
+| sacrifice_additional_cost | 65 | 109 |
+
+The 66.3 routed share overstated correctness. The draw drop is wording that matched before but was not modelled correctly. Across the UBR pool, most of it is combat-damage draw and other unmodelled trigger conditions (about 200 cards), then intervening-if draws, "whenever you draw" and replacement text, another player drawing, and opponent-dependent draw (Rhystic Study, Mystic Remora). Opponent-dependent draw is left to the planned `opponent_dependent_draw` proxy family.
+
+Not yet done, carried to the next batch:
+
+- Bucket classification of the 1,228 broad sacrifice_other matches.
+- Per-module not_modelable reason tallies in the coverage file.
+- graveyard_tutoring / repeatable_tutors / stack modules.
+
+v1.1 outputs are unchanged (golden test), and the build ran offline under the dev snapshot lock.

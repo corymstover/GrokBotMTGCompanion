@@ -6694,6 +6694,11 @@
 3,
 "Dev snapshot lock (Bot cycle 66.3b)",
 "dev-snapshot-lock-bot-cycle-663b"
+],
+[
+3,
+"Step E batch 66.4: semantic self-audit of the 66.3 modules (lesson: routing coverage is not correctness)",
+"step-e-batch-664-semantic-self-audit-of-the-663-modules-lesson-routing-coverage-is-not-correctness"
 ]
 ],
 "issues": [],

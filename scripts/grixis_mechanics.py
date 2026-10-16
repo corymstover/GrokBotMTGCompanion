@@ -82,7 +82,7 @@ def example(slug, cut, add, cards):
            "outlets": {n for n in models if n in cards and deaths.is_outlet(cards[n]["text"])}}
     from grixis_mech import events
     ctx.update(cards=cards, models=models, token_makers={})
-    makers = {n: events.token_rule(n, cards[n]["text"]) for n in models if n in cards and events.token_rule(n, cards[n]["text"])[0]}
+    makers = {n: events.token_rule(n, cards[n]["text"], cards[n]["type_line"]) for n in models if n in cards and events.token_rule(n, cards[n]["text"], cards[n]["type_line"])[0]}
     bgT = [(r_, events.with_tokens(tr, models, makers)) for r_, tr in bg]   # tokens as death-layer fodder (66.3)
     cgT = [(r_, events.with_tokens(tr, models, makers)) for r_, tr in cg]
     r = router.route_swap(cut, add, cards)

@@ -5,7 +5,7 @@ from .deaths import TOKEN
 
 NUMW = {"a": 1, "an": 1, "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "x": 1}
 TOKEN_RX = re.compile(r"create (a|an|one|two|three|four|five|x|\d+) (?:tapped )?(?:[\w/+\- ]{0,40}?)creature tokens?", re.I)
-ETB = re.compile(r"when(?:ever)? ~ enters", re.I)
+ETB = re.compile(r"when(?:ever)? ~ enters", re.I)  # texts pass through semantics.clean ("this creature" -> ~)
 UPKEEP = re.compile(r"at the beginning of (?:your|each)(?: [a-z]+)? (?:upkeep|end step|combat|draw step|precombat main phase)", re.I)
 CAST = re.compile(r"whenever you cast", re.I)
 
@@ -30,24 +30,60 @@ def amount(m):
     return int(w) if w.isdigit() else NUMW.get(w, 1)
 
 
-def token_rule(name, text):
-    """('etb'|'upkeep'|'cast'|'activated'|None, tokens per event)."""
-    t = text.replace(name, "~")
-    for sent in re.split(r"(?<=\.)\s+|\n", t):
+def token_rule(name, text, type_line=""):
+    """(rule, tokens per event) with rule in etb / upkeep / cast / attack / activated / spell; (None, 0) when the card
+    makes no creature token. Unrecognised token wording -> (None, 0) here; token_reason() says why."""
+    r, k, _ = token_parse(name, text, type_line)
+    return r, k
+
+
+def token_reason(name, text, type_line=""):
+    return token_parse(name, text, type_line)[2]
+
+
+def token_parse(name, text, type_line=""):
+    from .semantics import clean, sentences, intervening_if, N_PLAYERS
+    t = clean(name, text)
+    why = None
+    for sent in sentences(t):
         m = TOKEN_RX.search(sent)
         if not m:
             continue
         k = amount(m)
-        if ETB.search(sent):
-            return "etb", k
-        if UPKEEP.search(sent):
-            return "upkeep", k
-        if CAST.search(sent):
-            return "cast", k
-        if ":" in sent.split("create")[0]:
-            return "activated", k
-        return "spell", k
-    return None, 0
+        pre = sent[:m.start()]
+        if re.search(r"for each opponent", sent, re.I):
+            k *= N_PLAYERS - 1
+        elif re.search(r"\bfor each\b|equal to|\bX\b", sent):
+            why = "variable token count (for each / equal to / X)"
+            continue
+        if "Planeswalker" in type_line and re.match(r"^[+\u2212\-]?\d+:", sent):
+            why = "planeswalker loyalty ability (loyalty is not modelled)"
+            continue
+        if intervening_if(sent):
+            why = "conditional (intervening-if) token trigger"
+            continue
+        if ETB.search(pre):
+            return "etb", k, None
+        if UPKEEP.search(pre):
+            return "upkeep", k * (N_PLAYERS if re.search(r"beginning of each", pre, re.I) else 1), None
+        if re.search(r"whenever you cast", pre, re.I):
+            from .engines import cast_parse
+            f, w = cast_parse(name, sent)
+            if f:
+                return "cast", k, None
+            why = w
+            continue
+        if re.search(r"whenever ~ attacks", pre, re.I):
+            return "attack", k, None
+        if re.search(r"\b(?:whenever|when|at the beginning of)\b", pre, re.I):
+            why = "token trigger condition not modelled: " + pre.strip()[:60]
+            continue
+        if ":" in pre:
+            return "activated", k, None
+        if "Instant" in type_line or "Sorcery" in type_line:
+            return "spell", k, None
+        why = "token creation outside a recognised trigger, activation or spell"
+    return None, 0, why
 
 
 def with_tokens(trace, models, makers):
@@ -67,7 +103,7 @@ def with_tokens(trace, models, makers):
             m = 0
             if rule in ("etb", "spell") and arrived:
                 m = k
-            elif rule in ("upkeep", "activated") and here and not arrived:
+            elif rule in ("upkeep", "activated", "attack") and here and not arrived:
                 m = k
             elif rule == "cast" and here:
                 m = k * sum(1 for c in cs.get(t, []) if c != name)

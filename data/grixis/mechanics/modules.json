@@ -3,7 +3,9 @@
  "modules": [
   {
    "assumptions": [
-    "one activation per turn when unspent mana >= its mana cost; unspent = v1.1 available minus spent"
+    "one activation per own turn when unspent mana >= its mana cost (+1 when the {T} cost taps a mana source); unspent = v1.1 available minus spent; repeatable non-{T} abilities are also counted once per turn (lower bound)",
+    "summoning sickness applies to {T} abilities of creatures (no haste check)",
+    "excluded: abilities that sacrifice/exile/discard/return the card itself (one-shot), loyalty abilities, reminder text"
    ],
    "confidence": "low",
    "determinism": "seeded paired v1.1 games (grixis_sim.seed_for); derived events and the death layer are closed-form (no rng)",
@@ -35,7 +37,7 @@
     ]
    },
    "test_file": "tests/test_mech.py",
-   "version": "1"
+   "version": "2"
   },
   {
    "assumptions": [
@@ -89,7 +91,11 @@
   },
   {
    "assumptions": [
-    "every spell v1.1 casts resolves to the battlefield or graveyard that turn"
+    "every spell v1.1 casts resolves to the battlefield or graveyard that turn",
+    "'your second spell each turn' triggers at most once per turn, when v1.1 casts >= 2 spells that turn",
+    "'whenever you cast your commander' triggers on v1.1's single commander cast (recasts are not modelled)",
+    "copies are not casts; reminder text and abilities granted to other objects (quoted text) are ignored",
+    "opponent / any-player cast triggers and unrecognised qualifiers (kicked, from exile, that targets, during an opponent's turn, ...) are not_modelable with a reason"
    ],
    "confidence": "low",
    "determinism": "seeded paired v1.1 games (grixis_sim.seed_for); derived events and the death layer are closed-form (no rng)",
@@ -122,7 +128,7 @@
     ]
    },
    "test_file": "tests/test_mech.py",
-   "version": "1"
+   "version": "2"
   },
   {
    "assumptions": [
@@ -245,7 +251,10 @@
   },
   {
    "assumptions": [
-    "the permanent stays on the battlefield (death-triggered draw uses the death layer)",
+    "the permanent stays on the battlefield (death-triggered draw uses death_triggers v2 semantics and the death layer)",
+    "'at the beginning of each upkeep/end step' fires on every player's turn: x4 (N_PLAYERS)",
+    "loots (draw then discard) are 0 net cards; 'each player draws' counts only your draw (flagged symmetric)",
+    "not_modelable with a reason: another player draws, opponent-dependent (Rhystic-style) draw, draw-triggered or replacement text, intervening-if conditions, variable counts, unmodelled trigger conditions",
     "opponent removal hits each of your creatures independently with probability `removal` per opponent turn cycle",
     "an opponent wipe at the end of turn `wipe` kills every creature you control",
     "a sacrifice outlet you control is used once per turn when it has fodder (not itself, not the commander, tracked cards last)",
@@ -268,7 +277,7 @@
     "Extra cards are counted, not played."
    ],
    "metrics": [
-    "extra_cards_by_turn"
+    "net_extra_cards_by_turn"
    ],
    "models": [
     "repeatable draw on a permanent: beginning-of-phase (1 event per later turn), 'whenever you cast' (per matching cast), 'whenever ... attacks' (per later turn, attack proxy), 'whenever ... dies' (per death in the death layer)",
@@ -299,11 +308,13 @@
     ]
    },
    "test_file": "tests/test_mech.py",
-   "version": "1"
+   "version": "2"
   },
   {
    "assumptions": [
-    "fodder must be alive (death layer) at the end of a turn when the card is in hand or on the battlefield",
+    "fodder of the named kind must exist at the end of a turn when the card is in hand or on the battlefield: creatures/tokens alive in the death layer, artifacts or lands on the battlefield in the trace",
+    "'or discard a card' alternatives are payable with any other card in hand",
+    "unrecognised sacrifice qualifiers are not_modelable with a reason",
     "opponent removal hits each of your creatures independently with probability `removal` per opponent turn cycle",
     "an opponent wipe at the end of turn `wipe` kills every creature you control",
     "a sacrifice outlet you control is used once per turn when it has fodder (not itself, not the commander, tracked cards last)",
@@ -316,7 +327,7 @@
    "does_not_model": [
     "what the spell or ability does",
     "the value lost by sacrificing",
-    "artifact/land fodder (only creatures and creature tokens are tracked)",
+    "artifact tokens (Treasure etc.) as fodder beyond the v1.1 trace",
     "multiplayer win rates (never produced)"
    ],
    "evidence_class": "test_result",
@@ -357,7 +368,7 @@
     ]
    },
    "test_file": "tests/test_mech.py",
-   "version": "1"
+   "version": "2"
   },
   {
    "assumptions": [
@@ -474,8 +485,10 @@
   },
   {
    "assumptions": [
-    "activated token makers are used once per later turn",
-    "X = 1"
+    "activated token makers are used once per later turn; attack makers once per later turn (attack proxy)",
+    "'each upkeep/end step' makers fire on every player's turn (x4); 'for each opponent' = x3",
+    "only creature tokens; ETB/attack/upkeep/cast/activated/spell rules are parsed per sentence",
+    "not_modelable with a reason: variable counts (for each / equal to / X), planeswalker loyalty, intervening-if and other trigger conditions (combat damage, Aura attached, ...)"
    ],
    "confidence": "low",
    "determinism": "seeded paired v1.1 games (grixis_sim.seed_for); derived events and the death layer are closed-form (no rng)",
@@ -507,7 +520,7 @@
     ]
    },
    "test_file": "tests/test_mech.py",
-   "version": "1"
+   "version": "2"
   }
  ],
  "planned_families": [
