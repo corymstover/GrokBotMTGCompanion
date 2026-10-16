@@ -1,0 +1,593 @@
+{
+ "schema_version": 2,
+ "deck_id": "Kefka__Court_Mage",
+ "slug": "kefka-court-mage",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 52,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+ "commanders": {
+  "value": [
+   {
+    "name": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "oracle_id": "6d3ca5cb-781d-4608-b7f1-38c020536376",
+    "oracle_text": "Whenever Kefka enters or attacks, each player discards a card. Then you draw a card for each card type among cards discarded this way.\n{8}: Each opponent sacrifices a permanent of their choice. Transform Kefka. Activate only as a sorcery.\nFlying\nWhenever an opponent loses life during your turn, you draw that many cards.",
+    "oracle_sha256": "sha256:28ad3021573802ea02bd5bd35a6a81a070943114f30b4dd55e005039a0490368",
+    "type_line": "Legendary Creature — Human Wizard // Legendary Creature — Avatar Wizard"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Kefka, Court Mage // Kefka, Ruler of Ruin"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "cEDH hand attack: repeat Kefka's enter/attack trigger (haste via Anger or Arena of Glory, Harmonic Prodigy, blink, clones, Gogo, Saw in Half) so every player discards while you draw per card type, then win with Thassa's Oracle or Underworld Breach.",
+   "secondary": "Discard payoffs (Waste Not, Tinybones) and opposing life loss on your turn for the Ruler of Ruin face; Final Fortune for an extra Kefka turn."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md#L21",
+   "interaction:kefka-court-mage#kefka-01",
+   "interaction:kefka-court-mage#kefka-11"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Haste, blink and copy slots all exist to make more Kefka triggers; his discard-draw is the deck's card-advantage and disruption engine.",
+   "honest_note": "The kills (Oracle + Consultation/Pact, Breach lines) are generic and commander-independent. The {8} transform is rarely reached, and the back face is incidental (the source declined a Psychosis Crawler package)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md#L23",
+   "interaction:kefka-court-mage#kefka-02",
+   "interaction:kefka-court-mage#kefka-11"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "oracle",
+   "kind": "combo",
+   "description": "Thassa's Oracle with Demonic Consultation or Tainted Pact.",
+   "cards": [
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:742-1295",
+    "spellbook:1295-3093",
+    "interaction:kefka-court-mage#kefka-11"
+   ]
+  },
+  {
+   "id": "breach",
+   "kind": "combo",
+   "description": "Underworld Breach + LED/Petal + Brain Freeze, or Wheel of Fortune + Jeska's Will/LED.",
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Brain Freeze",
+    "Wheel of Fortune",
+    "Jeska's Will"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-2706-3518",
+    "interaction:kefka-court-mage#kefka-11"
+   ]
+  },
+  {
+   "id": "hand-lock-turns",
+   "kind": "natural",
+   "description": "Repeated Kefka triggers empty opposing hands; Final Fortune buys a protected combo turn.",
+   "cards": [
+    "Final Fortune",
+    "Waste Not",
+    "Tinybones, Bauble Burglar"
+   ],
+   "enablers": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:kefka-court-mage#kefka-13"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "kefka-triggers",
+   "cards": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "Harmonic Prodigy",
+    "Anger",
+    "Arena of Glory"
+   ],
+   "online_condition": "Kefka enters or attacks.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:kefka-court-mage#kefka-01",
+    "interaction:kefka-court-mage#kefka-03",
+    "interaction:kefka-court-mage#kefka-04"
+   ]
+  },
+  {
+   "id": "extra-kefkas",
+   "cards": [
+    "Gogo, Mysterious Mime",
+    "Phantasmal Image",
+    "Phyrexian Metamorph",
+    "Molten Duplication",
+    "Saw in Half",
+    "Essence Flux",
+    "Displacer Kitten"
+   ],
+   "online_condition": "Kefka in play to copy or blink.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:kefka-court-mage#kefka-05",
+    "interaction:kefka-court-mage#kefka-06",
+    "interaction:kefka-court-mage#kefka-07",
+    "interaction:kefka-court-mage#kefka-08"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:copy-blink",
+   "required": true,
+   "min_count": 6,
+   "role": "More Kefka ETBs and attacks.",
+   "cards": [
+    "Gogo, Mysterious Mime",
+    "Phantasmal Image",
+    "Phyrexian Metamorph",
+    "Molten Duplication",
+    "Saw in Half",
+    "Essence Flux",
+    "Displacer Kitten",
+    "Harmonic Prodigy"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:kefka-court-mage#kefka-06"
+   ]
+  },
+  {
+   "id": "pkg:haste",
+   "required": true,
+   "min_count": 2,
+   "role": "Same-turn attack trigger.",
+   "cards": [
+    "Anger",
+    "Arena of Glory"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:kefka-court-mage#kefka-04"
+   ]
+  },
+  {
+   "id": "pkg:free-interaction",
+   "required": true,
+   "min_count": 8,
+   "role": "cEDH stack protection.",
+   "cards": [
+    "Force of Will",
+    "Force of Negation",
+    "Pact of Negation",
+    "Fierce Guardianship",
+    "Mental Misstep",
+    "Mindbreak Trap",
+    "Flusterstorm",
+    "Swan Song",
+    "Pyroblast",
+    "Red Elemental Blast",
+    "Deflecting Swat",
+    "Into the Flood Maw"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "card-types",
+   "summary": "Draw equals the card types among that trigger's discards; supertypes don't count.",
+   "cards": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "m1_refs": [
+    "kefka-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:kefka-court-mage#kefka-01"
+   ]
+  },
+  {
+   "id": "anger-haste",
+   "summary": "Discard Anger to Kefka's own ETB and attack the same turn (needs a Mountain).",
+   "cards": [
+    "Anger",
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "m1_refs": [
+    "kefka-04"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:kefka-court-mage#kefka-04"
+   ]
+  },
+  {
+   "id": "clones-transform",
+   "summary": "Single-faced clones can't transform; Molten Duplication's token is double-faced.",
+   "cards": [
+    "Phantasmal Image",
+    "Phyrexian Metamorph",
+    "Molten Duplication"
+   ],
+   "m1_refs": [
+    "kefka-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:kefka-court-mage#kefka-06"
+   ]
+  },
+  {
+   "id": "counsel-delirium",
+   "summary": "Demonic Counsel is a full tutor only with delirium.",
+   "cards": [
+    "Demonic Counsel"
+   ],
+   "m1_refs": [
+    "kefka-10"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:kefka-court-mage#kefka-10"
+   ]
+  },
+  {
+   "id": "floodcaller",
+   "summary": "Valley Floodcaller gives noncreature spells flash but doesn't untap Kefka.",
+   "cards": [
+    "Valley Floodcaller"
+   ],
+   "m1_refs": [
+    "kefka-12"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:kefka-court-mage#kefka-12"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Thassa's Oracle",
+   "via": [
+    "Vampiric Tutor",
+    "Imperial Seal",
+    "Mystical Tutor",
+    "Wishclaw Talisman"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:742-1295"
+   ]
+  },
+  {
+   "target": "Underworld Breach",
+   "via": [
+    "Demonic Tutor",
+    "Gamble",
+    "Diabolic Intent"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1368-3518-4856"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Reanimate",
+   "Underworld Breach",
+   "Jeska's Will"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Free counters and one-mana interaction.",
+   "protection": "Fierce Guardianship, Deflecting Swat, Cavern of Souls.",
+   "mana": "Fast mana and rituals for a five-mana commander."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "kefka-removed",
+   "description": "A five-mana commander removed before triggering much.",
+   "mitigations": [
+    "Commander-free Oracle/Breach",
+    "Clones and Saw in Half"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "low-diversity",
+   "description": "Opponents discarding one card type each draw you little.",
+   "mitigations": [
+    "Repeat triggers",
+    "Discard payoffs"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:kefka-court-mage#kefka-01"
+   ]
+  },
+  {
+   "id": "counsel-no-delirium",
+   "description": "Demonic Counsel without delirium only finds a Demon.",
+   "mitigations": [
+    "Discard types into your yard first"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:kefka-court-mage#kefka-10"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "medium",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Power Bracket 5 — cEDH (decisions)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md#L23"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Bracket 5 ceiling: genuine competitive commander with 2026 top cuts per the source and a full cEDH shell. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md#L23",
+    "spellbook:742-1295"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "5",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Kefka__Court_Mage"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 45,
+     "2": 680,
+     "3": 2878,
+     "4": 2401,
+     "5": 2208
+    },
+    "decks_with_bracket": 8212,
+    "share_b4_plus": 0.561,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__kefka-court-mage.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "why": "Symmetric discard on enter/attack; you draw per card type.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ]
+  },
+  {
+   "card": "Harmonic Prodigy",
+   "why": "Doubles Kefka's Wizard triggers on both faces.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:kefka-court-mage#kefka-03"
+   ]
+  },
+  {
+   "card": "Anger",
+   "why": "Discarded to Kefka's own trigger for same-turn haste.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:kefka-court-mage#kefka-04"
+   ]
+  },
+  {
+   "card": "Gogo, Mysterious Mime",
+   "why": "A Kefka copy without the legend rule; two attack triggers.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:kefka-court-mage#kefka-05"
+   ]
+  },
+  {
+   "card": "Displacer Kitten",
+   "why": "Each noncreature spell re-triggers Kefka's ETB.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:kefka-court-mage#kefka-08"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No dedicated Psychosis Crawler/back-face package (decisions L60).",
+   "Slow discard payoffs (Geth's Grimoire) cut at this ceiling (decisions L44)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md#L60"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Final Fantasy VI's mad court mage: ruin, discard and chaos."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 701.27c",
+   "note": "Single-faced permanents can't transform.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:701.27c"
+   ]
+  },
+  {
+   "rule": "CR 704.5j",
+   "note": "Legend rule after clone ETBs trigger.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:704.5j"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "combat damage / attack triggers",
+    "discard",
+    "sacrifice"
+   ],
+   "hooked_cards": 23,
+   "role_counts": {
+    "counter": 10,
+    "draw": 6,
+    "protection": 1,
+    "ramp": 20,
+    "removal": 6,
+    "tutor": 9,
+    "wipe": 3
+   },
+   "lands": 28,
+   "edhrec_pages": [
+    "kefka-court-mage"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md",
+   "source_archive:refinement/approvals/Kefka_Court_Mage_Approved_2026-10-14.md",
+   "source_archive:refinement/decklists/Kefka_Court_Mage_Approved_2026-10-14.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 52)"
+ }
+}

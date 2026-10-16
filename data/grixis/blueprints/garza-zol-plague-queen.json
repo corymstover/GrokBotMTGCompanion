@@ -1,0 +1,593 @@
+{
+ "schema_version": 2,
+ "deck_id": "Garza_Zol__Plague_Queen",
+ "slug": "garza-zol-plague-queen",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 52,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+ "commanders": {
+  "value": [
+   {
+    "name": "Garza Zol, Plague Queen",
+    "oracle_id": "5b48e926-fc0e-403c-a47b-1f1d96e2eaf7",
+    "oracle_text": "Flying, haste\nWhenever a creature dealt damage by Garza Zol this turn dies, put a +1/+1 counter on Garza Zol.\nWhenever Garza Zol deals combat damage to a player, you may draw a card.",
+    "oracle_sha256": "sha256:7655880e35481581c3626aa10509fa8703c2e31859756fdb733ec0240b7b8162",
+    "type_line": "Legendary Creature — Vampire Noble"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Garza Zol, Plague Queen"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Voltron with Garza as the damage source: ramp out a seven-mana commander, make her damage lethal (Basilisk Collar, Quietus Spike, Thornbite Staff, Chandra's Ignition, Nova Flame) so each kill grows her, and close with commander damage, infect or extra combats.",
+   "secondary": "Equipment card flow (Robe of the Archmagi, Mask of Memory, Sword of Fire and Ice, Curiosity) and compact closers: Kediss + Grafted Exoskeleton, Hatred, Jeska tripling power, Sword of Feast and Famine or Reaver Cleaver + Aggravated Assault."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Garza_Zol_Plague_Queen_Current_Cycle_Blueprint_2026-10-14.md#L12",
+   "interaction:garza-zol-plague-queen#garza-02",
+   "interaction:garza-zol-plague-queen#garza-05"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Garza is the only real threat: her damage triggers the growth, her hits draw, and every closer is aimed at her.",
+   "honest_note": "Seven mana with a rising commander tax, and every plan runs through one creature: removal or a chump-proof blocker stalls the deck (source: blueprint L44). Her draw clause is a 'may' that only works on player hits."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Garza_Zol_Plague_Queen_Current_Cycle_Blueprint_2026-10-14.md#L44",
+   "interaction:garza-zol-plague-queen#garza-01"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "commander-damage",
+   "kind": "natural",
+   "description": "Grown, evasive Garza with equipment, Hatred or Jeska kills through commander damage.",
+   "cards": [
+    "Hatred",
+    "Jeska, Thrice Reborn",
+    "Blackblade Reforged",
+    "Blade of the Bloodchief",
+    "Tarrian's Soulcleaver"
+   ],
+   "enablers": [
+    "Garza Zol, Plague Queen",
+    "Rogue's Passage",
+    "Brotherhood Regalia"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Garza_Zol_Plague_Queen_Current_Cycle_Blueprint_2026-10-14.md",
+    "interaction:garza-zol-plague-queen#garza-07"
+   ]
+  },
+  {
+   "id": "kediss-infect",
+   "kind": "combo",
+   "description": "Infect Garza at 10+ power with Kediss: one hit gives every opponent 10 poison.",
+   "cards": [
+    "Kediss, Emberclaw Familiar",
+    "Grafted Exoskeleton"
+   ],
+   "enablers": [
+    "Garza Zol, Plague Queen",
+    "Psychotic Fury",
+    "Inquisitor's Flail"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:2822-3681",
+    "interaction:garza-zol-plague-queen#garza-05"
+   ]
+  },
+  {
+   "id": "extra-combats",
+   "kind": "combo",
+   "description": "Sword of Feast and Famine or The Reaver Cleaver + Aggravated Assault: unbounded combats.",
+   "cards": [
+    "Aggravated Assault",
+    "Sword of Feast and Famine",
+    "The Reaver Cleaver"
+   ],
+   "enablers": [
+    "Garza Zol, Plague Queen"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:900-3750",
+    "spellbook:3750-5039",
+    "interaction:garza-zol-plague-queen#garza-09"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "deathtouch-growth",
+   "cards": [
+    "Garza Zol, Plague Queen",
+    "Basilisk Collar",
+    "Quietus Spike",
+    "Thornbite Staff",
+    "Chandra's Ignition",
+    "Nova Flame",
+    "Fall of the Hammer",
+    "Soul's Fire"
+   ],
+   "online_condition": "Garza in play with a deathtouch source or a damage effect sourced from her.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:garza-zol-plague-queen#garza-02",
+    "interaction:garza-zol-plague-queen#garza-03"
+   ]
+  },
+  {
+   "id": "combat-draw",
+   "cards": [
+    "Garza Zol, Plague Queen",
+    "Robe of the Archmagi",
+    "Curiosity",
+    "Mask of Memory",
+    "Sword of Fire and Ice"
+   ],
+   "online_condition": "Garza connects with a player.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:garza-zol-plague-queen#garza-10"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:evasion-protection",
+   "required": true,
+   "min_count": 8,
+   "role": "Make the one threat connect and survive.",
+   "cards": [
+    "Brotherhood Regalia",
+    "Trailblazer's Boots",
+    "Rogue's Passage",
+    "Shizo, Death's Storehouse",
+    "Swiftfoot Boots",
+    "Mithril Coat",
+    "Commander's Plate",
+    "Shadowspear",
+    "Slip Out the Back",
+    "Deflecting Swat",
+    "Fierce Guardianship"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Garza_Zol_Plague_Queen_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "pkg:deathtouch-damage",
+   "required": true,
+   "min_count": 5,
+   "role": "Turn Garza's damage into kills that grow her.",
+   "cards": [
+    "Basilisk Collar",
+    "Quietus Spike",
+    "Thornbite Staff",
+    "Chandra's Ignition",
+    "Nova Flame",
+    "Fall of the Hammer",
+    "Soul's Fire"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Garza_Zol_Plague_Queen_Current_Cycle_Blueprint_2026-10-14.md",
+    "interaction:garza-zol-plague-queen#garza-02"
+   ]
+  },
+  {
+   "id": "pkg:fast-mana",
+   "required": true,
+   "min_count": 6,
+   "role": "Pay for a seven-mana commander and its tax.",
+   "cards": [
+    "Sol Ring",
+    "Mana Vault",
+    "Grim Monolith",
+    "Ancient Tomb",
+    "Arcane Signet",
+    "Fellwar Stone",
+    "Command Beacon",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Garza_Zol_Plague_Queen_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "any-damage",
+   "summary": "Any damage Garza dealt this turn counts; the death can come later in the turn.",
+   "cards": [
+    "Garza Zol, Plague Queen"
+   ],
+   "m1_refs": [
+    "garza-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:garza-zol-plague-queen#garza-01"
+   ]
+  },
+  {
+   "id": "garza-source",
+   "summary": "Chandra's Ignition and Nova Flame make Garza the source, so deathtouch wipes boards and each death grows her.",
+   "cards": [
+    "Chandra's Ignition",
+    "Nova Flame"
+   ],
+   "m1_refs": [
+    "garza-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:garza-zol-plague-queen#garza-03"
+   ]
+  },
+  {
+   "id": "exoskeleton-sac",
+   "summary": "Unattaching Grafted Exoskeleton sacrifices Garza.",
+   "cards": [
+    "Grafted Exoskeleton"
+   ],
+   "m1_refs": [
+    "garza-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:garza-zol-plague-queen#garza-06"
+   ]
+  },
+  {
+   "id": "jeska-cz",
+   "summary": "Jeska dies on entry unless Garza has been cast from the command zone; Command Beacon casts don't count.",
+   "cards": [
+    "Jeska, Thrice Reborn",
+    "Command Beacon"
+   ],
+   "m1_refs": [
+    "garza-08"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:garza-zol-plague-queen#garza-08"
+   ]
+  },
+  {
+   "id": "ozolith",
+   "summary": "The Ozolith keeps Garza's counters when she leaves.",
+   "cards": [
+    "The Ozolith"
+   ],
+   "m1_refs": [
+    "garza-11"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:garza-zol-plague-queen#garza-11"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Basilisk Collar",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Garza_Zol_Plague_Queen_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "target": "Aggravated Assault",
+   "via": [
+    "Demonic Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "spellbook:900-3750"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Command Beacon",
+   "The Ozolith"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "low",
+  "evidence": [
+   "source_archive:refinement/blueprints/Garza_Zol_Plague_Queen_Current_Cycle_Blueprint_2026-10-14.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Cheap removal and counters (Mana Drain, Counterspell, Terminate, Deadly Rollick, Pongify, Toxic Deluge, Cyclonic Rift).",
+   "protection": "Equipment protection, boots, Fierce Guardianship, Deflecting Swat.",
+   "mana": "38 lands plus Sol Ring, Mana Vault, Grim Monolith, Ancient Tomb, Command Beacon."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Garza_Zol_Plague_Queen_Current_Cycle_Blueprint_2026-10-14.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "tax",
+   "description": "Repeated removal makes a seven-mana commander uncastable.",
+   "mitigations": [
+    "Command Beacon",
+    "Protection suite"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Garza_Zol_Plague_Queen_Current_Cycle_Blueprint_2026-10-14.md#L44"
+   ]
+  },
+  {
+   "id": "single-threat",
+   "description": "One-threat Voltron loses to edicts and chump-blocking.",
+   "mitigations": [
+    "Flying, Rogue's Passage, Shizo",
+    "Kediss infect closer"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Garza_Zol_Plague_Queen_Current_Cycle_Blueprint_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "jeska-dead",
+   "description": "Jeska dies if Garza hasn't been cast from the command zone.",
+   "mitigations": [
+    "Cast Garza first"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:garza-zol-plague-queen#garza-08"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Garza_Zol_Plague_Queen_Current_Cycle_Blueprint_2026-10-14.md"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (blueprint target)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/blueprints/Garza_Zol_Plague_Queen_Current_Cycle_Blueprint_2026-10-14.md#L6"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 ceiling: optimized Voltron with compact closers, capped by a seven-mana combat commander. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Garza_Zol_Plague_Queen_Current_Cycle_Blueprint_2026-10-14.md#L44",
+    "spellbook:2822-3681"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Garza_Zol__Plague_Queen"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 5,
+     "2": 22,
+     "3": 9,
+     "4": 6
+    },
+    "decks_with_bracket": 42,
+    "share_b4_plus": 0.143,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__garza-zol-plague-queen.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Garza Zol, Plague Queen",
+   "why": "Grows from creatures she damaged dying; draws on player hits.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Garza Zol, Plague Queen"
+   ]
+  },
+  {
+   "card": "Basilisk Collar",
+   "why": "Deathtouch turns every Garza ping into a kill.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:garza-zol-plague-queen#garza-02"
+   ]
+  },
+  {
+   "card": "Thornbite Staff",
+   "why": "Repeatable ping that untaps Garza on each death.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:garza-zol-plague-queen#garza-02"
+   ]
+  },
+  {
+   "card": "Kediss, Emberclaw Familiar",
+   "why": "With an infect Garza, poisons every opponent at once.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:garza-zol-plague-queen#garza-05"
+   ]
+  },
+  {
+   "card": "Chandra's Ignition",
+   "why": "Garza-sourced board wipe that grows her.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:garza-zol-plague-queen#garza-03"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Generic cEDH packages (Chrome Mox, Mox Diamond, rituals, Thassa's Oracle) were deliberately not added (blueprint L48).",
+   "Don't treat Garza as an incidental body in a value shell."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Garza_Zol_Plague_Queen_Current_Cycle_Blueprint_2026-10-14.md#L48"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Vampire plague queen: deathtouch, plague and a single growing threat."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Garza_Zol_Plague_Queen_Current_Cycle_Blueprint_2026-10-14.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 702.2b",
+   "note": "Deathtouch: any damage is lethal.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.2b"
+   ]
+  },
+  {
+   "rule": "CR 903.10a",
+   "note": "21 combat damage from one commander.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:903.10a"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "+1/+1 counters",
+    "combat damage / attack triggers",
+    "graveyard as a resource"
+   ],
+   "hooked_cards": 16,
+   "role_counts": {
+    "counter": 4,
+    "draw": 6,
+    "protection": 6,
+    "ramp": 14,
+    "removal": 9,
+    "tutor": 2,
+    "wipe": 1
+   },
+   "lands": 38,
+   "edhrec_pages": [
+    "garza-zol-plague-queen"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Garza_Zol_Plague_Queen_Current_Cycle_Blueprint_2026-10-14.md",
+   "source_archive:refinement/decisions/Garza_Zol_Plague_Queen_Current_Cycle_Decisions_2026-10-14.md",
+   "source_archive:refinement/approvals/Garza_Zol_Plague_Queen_Approved_2026-10-14.md",
+   "source_archive:refinement/decklists/Garza_Zol_Plague_Queen_Approved_2026-10-14.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 52)"
+ }
+}

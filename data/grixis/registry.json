@@ -1879,9 +1879,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/edea-possessed-sorceress.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 52
     },
     "resolved_ceiling": {
      "value": null,
@@ -1889,10 +1891,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -1988,9 +1990,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/edward-kenway.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 52
     },
     "resolved_ceiling": {
      "value": null,
@@ -1998,10 +2002,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -2097,9 +2101,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "5",
+     "evidence": [
+      "companion:data/grixis/blueprints/evelyn-the-covetous.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 52
     },
     "resolved_ceiling": {
      "value": null,
@@ -2107,10 +2113,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -2206,9 +2212,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "5",
+     "evidence": [
+      "companion:data/grixis/blueprints/fire-lord-azula.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 52
     },
     "resolved_ceiling": {
      "value": null,
@@ -2216,10 +2224,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -2315,9 +2323,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/garza-zol-plague-queen.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 52
     },
     "resolved_ceiling": {
      "value": null,
@@ -2325,10 +2335,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -2551,9 +2561,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/goro-goro-and-satoru.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 52
     },
     "resolved_ceiling": {
      "value": null,
@@ -2561,10 +2573,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -2661,9 +2673,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "5",
+     "evidence": [
+      "companion:data/grixis/blueprints/grixistax-october-2026.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 52
     },
     "resolved_ceiling": {
      "value": null,
@@ -2671,10 +2685,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -2770,9 +2784,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/gwendlyn-di-corci.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 52
     },
     "resolved_ceiling": {
      "value": null,
@@ -2780,10 +2796,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -2879,9 +2895,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "5",
+     "evidence": [
+      "companion:data/grixis/blueprints/inalla-archmage-ritualist.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 52
     },
     "resolved_ceiling": {
      "value": null,
@@ -2889,10 +2907,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -2988,9 +3006,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "5",
+     "evidence": [
+      "companion:data/grixis/blueprints/jeleva-nephalias-scourge.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 52
     },
     "resolved_ceiling": {
      "value": null,
@@ -2998,10 +3018,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -3120,9 +3140,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "5",
+     "evidence": [
+      "companion:data/grixis/blueprints/kefka-court-mage.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 52
     },
     "resolved_ceiling": {
      "value": null,
@@ -3130,10 +3152,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -3229,9 +3251,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "5",
+     "evidence": [
+      "companion:data/grixis/blueprints/kess-dissident-mage.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 52
     },
     "resolved_ceiling": {
      "value": null,
@@ -3239,10 +3263,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -3338,9 +3362,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/loki-the-deceiver.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 52
     },
     "resolved_ceiling": {
      "value": null,
@@ -3348,10 +3374,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -3447,9 +3473,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/lord-xander-the-collector.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 52
     },
     "resolved_ceiling": {
      "value": null,
@@ -3457,10 +3485,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -3556,9 +3584,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/lord-of-tresserhorn.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 52
     },
     "resolved_ceiling": {
      "value": null,
@@ -3566,10 +3596,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,

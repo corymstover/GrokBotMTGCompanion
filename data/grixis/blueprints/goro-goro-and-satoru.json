@@ -1,0 +1,573 @@
+{
+ "schema_version": 2,
+ "deck_id": "Goro_Goro_and_Satoru",
+ "slug": "goro-goro-and-satoru",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 52,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
+ "commanders": {
+  "value": [
+   {
+    "name": "Goro-Goro and Satoru",
+    "oracle_id": "854bdd4a-d549-41d5-af43-0e2154ed017e",
+    "oracle_text": "Whenever one or more creatures you control that entered this turn deal combat damage to a player, create a 5/5 red Dragon Spirit creature token with flying.\n{1}{R}: Creatures you control gain haste until end of turn.",
+    "oracle_sha256": "sha256:8ab01a7ea3ef39a9ff972f1e7a1dddd748c8a2c0e4266b1965eb0c70492ef4a8",
+    "type_line": "Legendary Creature — Goblin Human"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Goro-Goro and Satoru"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Fresh attackers every turn (hasty creatures, ninjutsu/sneak, attack-token makers) connect across several opponents so Goro-Goro makes a 5/5 flying Dragon per damaged player; the Dragon army wins in the air.",
+   "secondary": "Breath of Fury extra-combat loops (with Goro-Goro, Urabrask's Forge, Daring Piracy, Determined Iteration or Loyal Apprentice), extra combats (Karlach, Great Train Heist, Aggravated Assault) and Dragon damage (Terror of the Peaks, Dragon Tempest)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md#L12",
+   "interaction:goro-goro-and-satoru#goro-01",
+   "interaction:goro-goro-and-satoru#goro-05"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Goro-Goro is the Dragon factory and the haste source the whole combat plan runs through.",
+   "honest_note": "The trigger needs creatures that entered this turn to connect, so blockers and fogs hurt; his own haste only covers creatures already in play when it resolves (M1 goro-02). Breath of Fury goes infinite with four other cards without him."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md#L20",
+   "interaction:goro-goro-and-satoru#goro-02"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "dragon-army",
+   "kind": "natural",
+   "description": "Repeated 5/5 flying Dragons plus Terror of the Peaks/Dragon Tempest damage.",
+   "cards": [
+    "Terror of the Peaks",
+    "Dragon Tempest",
+    "Samut, Hazoret's Champion"
+   ],
+   "enablers": [
+    "Goro-Goro and Satoru"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:goro-goro-and-satoru#goro-08"
+   ]
+  },
+  {
+   "id": "goro-breath",
+   "kind": "combo",
+   "description": "Goro-Goro + Breath of Fury: each new Dragon takes the Aura for another combat.",
+   "cards": [
+    "Goro-Goro and Satoru",
+    "Breath of Fury"
+   ],
+   "enablers": [
+    "Samut, Hazoret's Champion"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:2237-3259",
+    "interaction:goro-goro-and-satoru#goro-05"
+   ]
+  },
+  {
+   "id": "breath-token-makers",
+   "kind": "combo",
+   "description": "Breath of Fury with a beginning-of-combat token maker loops combats without the commander.",
+   "cards": [
+    "Breath of Fury",
+    "Urabrask's Forge",
+    "Daring Piracy",
+    "Determined Iteration",
+    "Loyal Apprentice"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1347-3259",
+    "spellbook:1674-3259",
+    "spellbook:3259-3934",
+    "spellbook:33-3259",
+    "interaction:goro-goro-and-satoru#goro-06"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "fresh-attackers",
+   "cards": [
+    "Goro-Goro and Satoru",
+    "Ninja of the Deep Hours",
+    "Mistblade Shinobi",
+    "Fallen Shinobi",
+    "Yuriko, the Tiger's Shadow",
+    "Satoru Umezawa",
+    "Raphael, the Nightwatcher",
+    "Phoenix Chick"
+   ],
+   "online_condition": "Creatures that entered this turn connect.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:goro-goro-and-satoru#goro-01",
+    "interaction:goro-goro-and-satoru#goro-03",
+    "interaction:goro-goro-and-satoru#goro-04"
+   ]
+  },
+  {
+   "id": "dragon-payoffs",
+   "cards": [
+    "Terror of the Peaks",
+    "Dragon Tempest",
+    "Waterbender Ascension",
+    "Enduring Curiosity"
+   ],
+   "online_condition": "Dragons entering or creatures connecting.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:goro-goro-and-satoru#goro-08",
+    "interaction:goro-goro-and-satoru#goro-09"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:ninjutsu-entrants",
+   "required": true,
+   "min_count": 8,
+   "role": "Creatures that enter during combat and count as fresh.",
+   "cards": [
+    "Ninja of the Deep Hours",
+    "Mistblade Shinobi",
+    "Fallen Shinobi",
+    "Moon-Circuit Hacker",
+    "Silver-Fur Master",
+    "Yuriko, the Tiger's Shadow",
+    "Satoru Umezawa",
+    "Satoru, the Infiltrator",
+    "Ingenious Infiltrator",
+    "Thousand-Faced Shadow",
+    "Raphael, the Nightwatcher",
+    "Nashi, Moon Sage's Scion"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:goro-goro-and-satoru#goro-03"
+   ]
+  },
+  {
+   "id": "pkg:extra-combat",
+   "required": true,
+   "min_count": 4,
+   "role": "More damage steps with fresh creatures.",
+   "cards": [
+    "Breath of Fury",
+    "Karlach, Fury of Avernus",
+    "Great Train Heist",
+    "Aggravated Assault"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "pkg:combat-token-makers",
+   "required": true,
+   "min_count": 4,
+   "role": "New creatures every combat.",
+   "cards": [
+    "Urabrask's Forge",
+    "Daring Piracy",
+    "Determined Iteration",
+    "Loyal Apprentice"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:goro-goro-and-satoru#goro-06"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "one-per-player",
+   "summary": "One Dragon per damaged player per combat-damage step.",
+   "cards": [
+    "Goro-Goro and Satoru"
+   ],
+   "m1_refs": [
+    "goro-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:goro-goro-and-satoru#goro-01"
+   ]
+  },
+  {
+   "id": "haste-snapshot",
+   "summary": "The {1}{R} haste covers only creatures you control on resolution.",
+   "cards": [
+    "Goro-Goro and Satoru",
+    "Samut, Hazoret's Champion"
+   ],
+   "m1_refs": [
+    "goro-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:goro-goro-and-satoru#goro-02"
+   ]
+  },
+  {
+   "id": "raphael-double",
+   "summary": "Sneaked Raphael gives double strike: two triggers per player.",
+   "cards": [
+    "Raphael, the Nightwatcher"
+   ],
+   "m1_refs": [
+    "goro-04"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:goro-goro-and-satoru#goro-04"
+   ]
+  },
+  {
+   "id": "breath-order",
+   "summary": "Put Goro-Goro's trigger on top so the Dragon exists for Breath of Fury.",
+   "cards": [
+    "Breath of Fury",
+    "Goro-Goro and Satoru"
+   ],
+   "m1_refs": [
+    "goro-05"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:goro-goro-and-satoru#goro-05"
+   ]
+  },
+  {
+   "id": "still-fresh",
+   "summary": "Creatures that entered this turn stay fresh in later combats.",
+   "cards": [
+    "Goro-Goro and Satoru"
+   ],
+   "m1_refs": [
+    "goro-07"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:goro-goro-and-satoru#goro-07"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Breath of Fury",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:2237-3259"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Phoenix Chick",
+   "Jeska's Will"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "low",
+  "evidence": [
+   "source_archive:refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Counters and cheap removal (Mana Drain, Counterspell, Swan Song, Terminate, Deadly Rollick, Toxic Deluge).",
+   "protection": "Lightning Greaves, Fierce Guardianship, Deflecting Swat.",
+   "mana": "Three-mana commander; Sol Ring, Ancient Tomb, Talismans, Treasure from combat."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "blocked",
+   "description": "Flying blockers, fogs or wipes stop fresh creatures connecting.",
+   "mitigations": [
+    "Evasive Ninjas",
+    "Rogue's Passage"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "haste-gap",
+   "description": "New Dragons lack haste in later combats without Samut/Tempest or another activation.",
+   "mitigations": [
+    "Samut, Hazoret's Champion",
+    "Dragon Tempest"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:goro-goro-and-satoru#goro-02"
+   ]
+  },
+  {
+   "id": "commander-removed",
+   "description": "Without Goro-Goro, no Dragons.",
+   "mitigations": [
+    "Commander-free Breath loops"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 — Optimized (decisions natural ceiling)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md#L24"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 ceiling: explosive, deterministic combat loops, but combat- and setup-dependent; a generic Thoracle conversion would sideline the commander. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md#L24",
+    "spellbook:2237-3259"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Goro_Goro_and_Satoru"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 21,
+     "2": 750,
+     "3": 859,
+     "4": 188,
+     "5": 13
+    },
+    "decks_with_bracket": 1831,
+    "share_b4_plus": 0.11,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__goro-goro-and-satoru.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Goro-Goro and Satoru",
+   "why": "5/5 Dragon whenever fresh creatures connect; team haste.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Goro-Goro and Satoru"
+   ]
+  },
+  {
+   "card": "Breath of Fury",
+   "why": "Extra-combat engine with the commander's Dragons.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:goro-goro-and-satoru#goro-05"
+   ]
+  },
+  {
+   "card": "Samut, Hazoret's Champion",
+   "why": "Continuous haste for Dragons made mid-loop.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "card": "Raphael, the Nightwatcher",
+   "why": "Double strike doubles the triggers.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:goro-goro-and-satoru#goro-04"
+   ]
+  },
+  {
+   "card": "Terror of the Peaks",
+   "why": "Each Dragon deals 5 on entry.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:goro-goro-and-satoru#goro-08"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No generic Grixis Thoracle/Breach turbo conversion (decisions L24).",
+   "Keep creatures that can enter and connect the same turn."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md#L24"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Ninjas, sneaky entrants and Dragon spirits (Kamigawa Goro-Goro and Satoru)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 702.49a",
+   "note": "Ninjutsu puts the creature onto the battlefield attacking.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.49a"
+   ]
+  },
+  {
+   "rule": "CR 508.4",
+   "note": "Creatures put onto the battlefield attacking never attacked for trigger purposes, but they count as entering this turn.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:508.4"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "Dragon synergy",
+    "Spirit synergy",
+    "combat damage / attack triggers",
+    "tokens"
+   ],
+   "hooked_cards": 40,
+   "role_counts": {
+    "counter": 6,
+    "draw": 11,
+    "protection": 2,
+    "ramp": 13,
+    "removal": 8,
+    "tutor": 2,
+    "wipe": 1
+   },
+   "lands": 33,
+   "edhrec_pages": [
+    "goro-goro-and-satoru"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md",
+   "source_archive:refinement/approvals/Goro_Goro_and_Satoru_Approved_2026-10-14.md",
+   "source_archive:refinement/decklists/Goro_Goro_and_Satoru_Approved_2026-10-14.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 52)"
+ }
+}
