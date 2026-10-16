@@ -13,8 +13,8 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/abaddon-the-despoiler.txt`](../../exports/grixis-archidekt/abaddon-the-despoiler.txt) · SHA-256 `848b3bdcf8dac911ccaa9a448cd9c943b1d7a10dd135dd690ee935d005ce0b44` |
-| Rulings | **28** (24 verified · 1 uncertain · 3 flags) |
+| Canonical project list | [`exports/grixis-archidekt/source-baseline/abaddon-the-despoiler.txt`](../../exports/grixis-archidekt/source-baseline/abaddon-the-despoiler.txt) · SHA-256 `5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff` |
+| Rulings | **29** (26 verified · 0 uncertain · 3 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md) (Interaction Review v1, 63 KB, re-verified) · [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) (deck #1: RULES PASS) |
 
@@ -34,7 +34,7 @@ schema: 2
 
 ## Summary
 
-Abaddon gives hand-cast spells cascade on your turn, up to the life opponents have lost that turn. This review re-verifies the source's 63 KB interaction review and the retrospective attestation against current Oracle text, rulings and CR 2026-09-25. It also covers the refined list's Stormfist Crusader.
+Abaddon gives hand-cast spells cascade on your turn, up to the life opponents have lost that turn. This review re-verifies the source's 63 KB interaction review and the retrospective attestation against current Oracle text, rulings and CR 2026-09-25. Bot cycle 49 re-reviewed it against the M0 canonical project list (the source baseline, with Mystic Remora; GrokBot's unapproved Stormfist Crusader swap is not canonical).
 
 New findings:
 - Abaddon's cascade is mandatory once a spell qualifies. It can send a card tutored to the top to the bottom, and any 0-MV spell cast on your turn randomizes your whole library. Both are sequencing hazards.
@@ -51,13 +51,12 @@ Input for later refinement. **No decklist was changed in this phase.**
 | [abaddon-06](#abaddon-06-a-stacked-top-card-is-exposed-to-every-later-cascade-on-your-turn) | 🚩 list flag (anti-synergy) | A stacked top card is exposed to every later cascade on your turn | Sequencing hazard, not a list error. Top-of-library tutors and Abaddon's mandatory cascade compete on your own turn. Pilot note: draw the tutored card first, or tutor on an opponent's end step. |
 | [abaddon-07](#abaddon-07-mana-value-0-spells-always-qualify-and-their-cascade-randomizes-your-library) | 🚩 list flag (anti-synergy) | Mana value 0 spells always qualify, and their cascade randomizes your library | Pilot note: casting a 0-drop artifact or Pact from hand on your turn with Abaddon out effectively shuffles your library. Cast them before stacking the top, or on another turn. No list change: the cards are core fast mana. |
 | [abaddon-08](#abaddon-08-granted-cascade-stacks-with-printed-cascade) | 🚩 list flag (documentation) | Granted cascade stacks with printed cascade | The source review's Call Forth the Tempest mana value (11) is wrong; current Oracle is MV 8, so the third instance needs X ≥ 8, not 11. No list change. |
-| [abaddon-11](#abaddon-11-upkeep-and-combat-life-loss-open-the-threshold-early) | ⚠️ uncertain | Upkeep and combat life loss open the threshold early | The exact X depends on table size (three opponents assumed) and on Stormfist also feeding opponents a card each turn; this is a strategic cost, not a rules question. |
 
 ## Commander rules text and edge cases
 
 ### abaddon-01: Abaddon's threshold counts life opponents actually lost this turn
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler
 
 **Ruling.** X is the total life all opponents have lost so far this turn, summed across opponents. It resets each turn. Damage to a player counts because damage causes life loss. Direct life loss counts too. Your own life payments (fetchlands, shocklands, Ancient Tomb, Mana Confluence, Force of Will's alternative cost, Flame Rift's damage to you) never count. Gaining life back later doesn't lower X: the text counts life lost, not the net change.
 
@@ -70,7 +69,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### abaddon-02: Only spells cast from your hand, during your turn, get cascade
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Underworld Breach, Jeska's Will, The Ruinous Powers
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Underworld Breach, Jeska's Will, The Ruinous Powers
 
 **Ruling.** The grant needs all three: it is your turn, the spell is cast from your hand, and its mana value is ≤ X when cast. Spells cast from exile (cascade hits, Jeska's Will, Harnfel, The Ruinous Powers, Prosper, suspend, foretell), from the graveyard (Underworld Breach escape) or from the command zone (Abaddon himself) never get Abaddon's cascade. Their own printed cascade still works.
 
@@ -83,7 +82,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### abaddon-04: Mana value, not the cost you paid, is what is compared
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Fierce Guardianship, Deadly Rollick, Force of Will, Nightscape Familiar, Blasphemous Act
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Fierce Guardianship, Deadly Rollick, Force of Will, Nightscape Familiar, Blasphemous Act
 
 **Ruling.** Abaddon and cascade both compare mana value, which comes only from the printed mana cost. Alternative costs (Fierce Guardianship, Deadly Rollick and Deflecting Swat for free, Force of Will's pitch) and cost reductions (Nightscape Familiar, Blasphemous Act's own discount) change what you pay, not mana value. A free Fierce Guardianship cast from your hand on your turn at X ≥ 3 has cascade and can hit a nonland card with MV 0–2. A free Deadly Rollick at X ≥ 4 can hit MV 0–3. Force of Negation's free mode works only on an opponent's turn, so its free cast never gets Abaddon's cascade.
 
@@ -97,7 +96,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### abaddon-07: Mana value 0 spells always qualify, and their cascade randomizes your library
 
-**Status:** 🚩 list flag · **Cards:** Abaddon the Despoiler, Lion's Eye Diamond, Lotus Petal, Chrome Mox, Pact of Negation
+**Status:** 🚩 list flag · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Lion's Eye Diamond, Lotus Petal, Chrome Mox, Pact of Negation
 
 **Ruling.** X can't be negative, so Lion's Eye Diamond, Lotus Petal, Chrome Mox and Pact of Negation cast from your hand on your turn always have cascade. Cascade looks for a nonland card with mana value less than 0, which doesn't exist. You therefore exile your whole library, then put it all on the bottom in a random order. Nothing is cast, and any card you set up on top is randomized. The source review only noted that Pact 'gains no useful cascade hit'. The library randomization is an addition from this review.
 
@@ -111,7 +110,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### abaddon-08: Granted cascade stacks with printed cascade
 
-**Status:** 🚩 list flag · **Cards:** Abaddon the Despoiler, Bituminous Blast, Call Forth the Tempest, Noise Marine
+**Status:** 🚩 list flag · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Bituminous Blast, Call Forth the Tempest, Noise Marine
 
 **Ruling.** Each cascade instance triggers separately. Bituminous Blast (MV 5) cast from hand on your turn at X ≥ 5 cascades twice, and each trigger looks for MV < 5. Call Forth the Tempest has **mana value 8** ({5}{R}{R}{R}), so at X ≥ 8 it gets a third instance. The archived review said 'mana value 11 ({8}{R}{R}{R})', which is wrong for current Oracle. Noise Marine (MV 5) gets two triggers at X ≥ 5. Each hit resolves above the original spell, so Blast's 4 damage resolves last.
 
@@ -126,7 +125,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### abaddon-09: Cards without a mana cost: cascade hits, never Abaddon casts
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Ancestral Vision, Inevitable Betrayal, Profane Tutor
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Ancestral Vision, Inevitable Betrayal, Profane Tutor
 
 **Ruling.** Ancestral Vision, Inevitable Betrayal and Profane Tutor have MV 0 and no mana cost, so they can't be cast from hand normally. Suspending them is a special action, not a cast. When suspend's last time counter comes off you may cast them from exile, which gets no Abaddon cascade. Any cascade with MV ≥ 1 can hit them and cast them for free. That is a cast from exile, so it triggers Keeper of Secrets, The Lost and the Damned, Prosper, Passionate Archaeologist, Wild-Magic Sorcerer and Nalfeshnee. Underworld Breach can't escape them: their escape cost includes an unpayable mana cost.
 
@@ -142,7 +141,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### abaddon-20: Underworld Breach + Lion's Eye Diamond + Brain Freeze
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Underworld Breach, Lion's Eye Diamond, Brain Freeze
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Underworld Breach, Lion's Eye Diamond, Brain Freeze
 
 **Ruling.** With Breach and LED on the battlefield and Brain Freeze in the graveyard:
 1. Sacrifice LED for three mana of one color. LED's mana ability is instant-speed, and discarding your hand is part of its cost.
@@ -169,7 +168,7 @@ Notes:
 
 ### abaddon-21: Breach + Lotus Petal + Brain Freeze
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Underworld Breach, Lotus Petal, Brain Freeze
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Underworld Breach, Lotus Petal, Brain Freeze
 
 **Ruling.** Lotus Petal's escape cost is {0} plus three cards. Each escape is a cast and nets one mana, so two Petal escapes pay for each Brain Freeze escape ({1}{U}) and add storm. The mill must keep returning at least nine cards per cycle (6 for the two Petals, 3 for Brain Freeze) to sustain the loop. The Spellbook record lists this as infinite self-mill and near-infinite mill. The same notes apply as for the LED line: no Abaddon cascade, and a mill finish needs a draw.
 
@@ -181,7 +180,7 @@ Notes:
 
 ### abaddon-22: Breach + Wheel of Fortune (+ LED or Jeska's Will)
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Underworld Breach, Wheel of Fortune, Lion's Eye Diamond, Jeska's Will
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Underworld Breach, Wheel of Fortune, Lion's Eye Diamond, Jeska's Will
 
 **Ruling.** Each escaped Wheel discards everyone's hand and draws seven. That refills your graveyard, and opponents run out of library first if you've milled them. With LED, cracking LED in response pays for the next escaped Wheel ({2}{R} + 3 cards). With Jeska's Will, its mana mode (red for each card in a target opponent's hand, seven after a Wheel) plus its exile mode pay for and fuel the loop. Both modes need you to control a commander as you cast it. Drawing from an empty library is a loss at the next priority check. That is the kill, and also your own risk.
 
@@ -194,25 +193,35 @@ Notes:
 
 ## Engines and payoffs
 
-### abaddon-11: Upkeep and combat life loss open the threshold early
+### abaddon-11: Combat life loss opens the threshold early
 
-**Status:** ⚠️ uncertain · **Cards:** Abaddon the Despoiler, Stormfist Crusader, Loyal Subordinate, Bloodletter of Aclazotz
+**Status:** ✅ verified · **Evidence:** derived_metric · **Cards:** Abaddon the Despoiler, Loyal Subordinate, Bloodletter of Aclazotz
 
-**Ruling.** Stormfist Crusader (added in the refined list) makes each player lose 1 at your upkeep. Each opponent loses 1, so X = 3 at a four-player table before your main phase, or 6 with Bloodletter. Your own 1 doesn't count. Loyal Subordinate makes each opponent lose 3 at beginning of combat if you control your commander as it resolves, so 9, or 18 with Bloodletter. That opens Abaddon cascades for post-combat main-phase spells. Both are life loss, not damage, so Solphim doesn't double them.
-
-**Uncertain.** The exact X depends on table size (three opponents assumed) and on Stormfist also feeding opponents a card each turn; this is a strategic cost, not a rules question.
+**Ruling.** Loyal Subordinate makes each opponent lose 3 at beginning of combat if you control your commander as it resolves. That's X = 9 at a four-player table, or 18 with Bloodletter, which opens Abaddon cascades for post-combat main-phase spells. It's life loss, not damage, so Solphim doesn't double it. (The cycle 46 version of this ruling also covered Stormfist Crusader, a GrokBot challenger swap that isn't in the canonical list.)
 
 **Citations**
 
-- Oracle, *Stormfist Crusader*: “At the beginning of your upkeep, each player draws a card and loses 1 life.”
 - Oracle, *Loyal Subordinate*: “At the beginning of combat on your turn, if you control your commander, each opponent loses 3 life.”
 - Scryfall ruling, *Loyal Subordinate*: “If you don’t control your commander as the lieutenant ability resolves, you won’t get its effect.”
 - [CR 603.4](#cr-6034), [CR 119.3](#cr-1193)
 - Source (re-verified): [`Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md) → “**Loyal Subordinate + Bloodletter**”
 
+### abaddon-29: Mystic Remora: triggers aren't casts; its own cascade can only hit a 0-drop
+
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Mystic Remora
+
+**Ruling.** Mystic Remora's cumulative upkeep and draw triggers aren't spells cast, so they don't raise X or cascade. Cast from hand on your turn with X ≥ 1, Remora (mana value 1) cascades into a mana-value-0 nonland card only. That randomizes your library like any 0-drop cascade (abaddon-07). It's in the canonical list in the slot GrokBot's challenger gave to Stormfist Crusader.
+
+**Citations**
+
+- Oracle, *Mystic Remora*: “Whenever an opponent casts a noncreature spell, you may draw a card unless that player pays {4}.”
+- Scryfall ruling, *Mystic Remora*: “Paying cumulative upkeep is always optional. If it's not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can't be made.”
+- [CR 702.24a](#cr-70224a), [CR 702.85a](#cr-70285a)
+- Source (re-verified): [`Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md) → “Its upkeep and draw triggers are not casts and do not increase Abaddon's threshold.”
+
 ### abaddon-12: Neheb converts the turn's life loss into post-combat mana
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Neheb, the Eternal
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Neheb, the Eternal
 
 **Ruling.** Neheb adds {R} for each 1 life opponents lost this turn, at the beginning of your postcombat main phase. It counts total life lost, not the net change in life totals. The trigger uses the stack (it is not a mana ability), and Neheb must be on the battlefield when that phase begins. Neheb's afflict is life loss, so it also raises X.
 
@@ -225,7 +234,7 @@ Notes:
 
 ### abaddon-13: Rakdos: castable only after life loss; reduces generic mana only
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Rakdos, Lord of Riots
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Rakdos, Lord of Riots
 
 **Ruling.** Rakdos can't be cast unless an opponent lost life this turn, and his discount doesn't apply to himself. Once he's out, creature spells cost {1} less per life opponents lost. The discount can't reduce colored pips and applies after cost increases like commander tax, so it can make Abaddon's recast cheaper. Reduced cost doesn't change mana value, so Abaddon's cascade comparison is unaffected.
 
@@ -239,7 +248,7 @@ Notes:
 
 ### abaddon-14: Cast-from-exile payoffs see cascade hits but not copies
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Keeper of Secrets, Passionate Archaeologist, The Lost and the Damned, Prosper, Tome-Bound, Nalfeshnee
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Keeper of Secrets, Passionate Archaeologist, The Lost and the Damned, Prosper, Tome-Bound, Nalfeshnee
 
 **Ruling.** Each spell cast off a cascade, Jeska's Will, Harnfel, The Ruinous Powers, Prosper or Mind's Desire is a cast from exile. It triggers Keeper of Secrets (damage equal to its MV), Abaddon's Passionate Archaeologist ability (same), a Spawn from The Lost and the Damned, and a Treasure from Prosper. Nalfeshnee also copies it. Copies (Nalfeshnee, storm) are not cast and trigger none of these. Keeper and The Lost and the Damned also trigger on escape casts from the graveyard and on casting Abaddon from the command zone. Keeper's and Archaeologist's damage to opponents is damage, so it raises X and Solphim doubles it.
 
@@ -257,7 +266,7 @@ Notes:
 
 ### abaddon-15: Passionate Archaeologist works from the 99
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Passionate Archaeologist
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Passionate Archaeologist
 
 **Ruling.** Passionate Archaeologist is a Background, but the deck runs it as an ordinary enchantment in the 99, not as a second commander (Abaddon has no 'Choose a Background'). Its static ability gives the trigger to commander creatures you own, so Abaddon has it only while Abaddon is on the battlefield. A cast from exile while Abaddon is in the command zone or graveyard deals nothing.
 
@@ -270,7 +279,7 @@ Notes:
 
 ### abaddon-16: Wild-Magic Sorcerer: only the first exile cast each turn cascades
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Wild-Magic Sorcerer
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Wild-Magic Sorcerer
 
 **Ruling.** The first spell you cast from exile each turn gets cascade, so the first cascade hit or Jeska's Will card can chain. Later exile casts that turn don't. If Sorcerer arrives after your first exile cast that turn, it gives nothing more that turn. Two Sorcerers would give that one spell two instances, but the deck has one.
 
@@ -283,7 +292,7 @@ Notes:
 
 ### abaddon-17: Nalfeshnee copies exile casts; permanent copies are hasty, temporary tokens
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Nalfeshnee, Storm-Kiln Artist
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Nalfeshnee, Storm-Kiln Artist
 
 **Ruling.** Nalfeshnee copies each spell you cast from exile. A copied permanent spell becomes a token with haste that's sacrificed at end step. The copy isn't cast, so it gets no cascade and doesn't trigger Keeper, Archaeologist, Prosper, The Lost and the Damned or storm count. Storm-Kiln Artist does trigger on a copied instant or sorcery.
 
@@ -296,7 +305,7 @@ Notes:
 
 ### abaddon-18: Delayed Blast Fireball is the 5-damage version whenever it's cast from exile
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Delayed Blast Fireball
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Delayed Blast Fireball
 
 **Ruling.** Cast from exile for any reason (cascade hit, foretell, Jeska's Will, Harnfel, Prosper), it deals 5 to each opponent and their creatures. That is 15 life lost at a three-opponent table, 30 with Solphim, 60 with Solphim and Bloodletter. Cast from hand it deals 2, but it can get Abaddon's cascade at X ≥ 3. Foretelling is a special action that costs {2} on your turn.
 
@@ -308,7 +317,7 @@ Notes:
 
 ### abaddon-19: The Ruinous Powers: opponents' cards, life loss only after the cast
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, The Ruinous Powers, Bloodletter of Aclazotz
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, The Ruinous Powers, Bloodletter of Aclazotz
 
 **Ruling.** At your upkeep you exile a random opponent's top card. Until end of turn you may play it, with mana of any color. When you cast it, its owner (that opponent) loses life equal to its MV, which raises X, and Bloodletter doubles it. It's cast from exile, so it never gets Abaddon's cascade, and the life loss comes after the cast. Normal timing rules apply. A land played this way causes no life loss.
 
@@ -321,7 +330,7 @@ Notes:
 
 ### abaddon-23: Jeska's Will: needs a commander to choose both modes; exiled cards can't cascade off Abaddon
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Jeska's Will
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Jeska's Will
 
 **Ruling.** The 'both modes' check is made as you cast. Any commander you control counts, and losing it afterwards changes nothing. Cards played from the exile mode follow normal timing; a land needs an unused land drop. As casts from exile they trigger the exile payoffs but not Abaddon's cascade. Jeska's Will itself, cast from hand at X ≥ 3, can have cascade.
 
@@ -334,7 +343,7 @@ Notes:
 
 ### abaddon-24: Storm counts cascade hits and escapes; copies count for magecraft only
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Mind's Desire, Brain Freeze, Flusterstorm, Storm-Kiln Artist, Birgi, God of Storytelling // Harnfel, Horn of Bounty
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Mind's Desire, Brain Freeze, Flusterstorm, Storm-Kiln Artist, Birgi, God of Storytelling // Harnfel, Horn of Bounty
 
 **Ruling.** Storm counts every spell cast before it this turn, including cascade hits, exile casts and escapes. Storm copies aren't cast. Storm-Kiln Artist's magecraft triggers on cast *or copy*, so each Brain Freeze or Flusterstorm copy makes a Treasure. Birgi, Kessig Flamebreather, Vivi Ornitier and Exalted Flamer trigger only on casts. Mind's Desire cast from hand at X ≥ 6 cascades as well as storming. Its exiled cards are played from exile, which feeds the exile payoffs.
 
@@ -348,7 +357,7 @@ Notes:
 
 ### abaddon-25: Blasphemous Act under Abaddon
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Blasphemous Act
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Blasphemous Act
 
 **Ruling.** Blasphemous Act has mana value 9 however little you pay, so it gets Abaddon's cascade only at X ≥ 9. A creature cast off that cascade resolves before the wipe and then dies to it. Its 13 damage hits your own engines too (Abaddon, Keeper, Storm-Kiln Artist, Thermo-Alchemist). Damage to creatures isn't life loss, so it doesn't raise X.
 
@@ -363,9 +372,9 @@ Notes:
 
 ### abaddon-03: Eligibility is checked as the spell is cast; later life loss can't add cascade
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Thermo-Alchemist, Boltwave
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Thermo-Alchemist, Boltwave
 
-**Ruling.** Cascade is a cast trigger, so whether the spell has cascade is fixed when casting finishes. If a spell's own damage or life loss pushes X up after it resolves, that same spell does not gain cascade. Raise X first: ping with Thermo-Alchemist, let Loyal Subordinate's or Stormfist Crusader's triggers resolve, or resolve a Boltwave. Only then cast the spell that needs the higher threshold.
+**Ruling.** Cascade is a cast trigger, so whether the spell has cascade is fixed when casting finishes. If a spell's own damage or life loss pushes X up after it resolves, that same spell does not gain cascade. Raise X first: ping with Thermo-Alchemist, let Loyal Subordinate's trigger resolve, or resolve a Boltwave. Only then cast the spell that needs the higher threshold.
 
 **Citations**
 
@@ -377,7 +386,7 @@ Notes:
 
 ### abaddon-27: Thermo-Alchemist, Vivi and Birgi: summoning sickness and mana windows
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Thermo-Alchemist, Vivi Ornitier, Birgi, God of Storytelling // Harnfel, Horn of Bounty
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Thermo-Alchemist, Vivi Ornitier, Birgi, God of Storytelling // Harnfel, Horn of Bounty
 
 **Ruling.** Thermo-Alchemist's {T} ability needs it to have been under your control since your turn began. Each instant or sorcery cast untaps it, so it can ping again before the next spell. Vivi's {0} mana ability works only during your turn and once per turn, for X equal to its power. Its +1/+1 counter trigger resolves before the spell that caused it. Birgi's {R} stays in your pool until end of turn.
 
@@ -392,9 +401,9 @@ Notes:
 
 ### abaddon-10: Bloodletter and Solphim modify different events
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Bloodletter of Aclazotz, Solphim, Mayhem Dominus, Boltwave, Flame Rift
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Bloodletter of Aclazotz, Solphim, Mayhem Dominus, Boltwave, Flame Rift
 
-**Ruling.** Solphim doubles noncombat **damage** from your sources to opponents. Bloodletter doubles the **life loss** an opponent takes on your turn. They are replacement effects on different events, so both apply. Boltwave's 3 becomes 6 damage, which causes 12 life lost per opponent, so X = 36 at a three-opponent table. Flame Rift's 4 becomes 8 damage and 16 lost per opponent; the 4 it deals to you is not doubled. Bloodletter doesn't change damage, so lifelink gains only the damage dealt. Solphim does nothing for pure life loss (Loyal Subordinate, Stormfist Crusader, The Ruinous Powers).
+**Ruling.** Solphim doubles noncombat **damage** from your sources to opponents. Bloodletter doubles the **life loss** an opponent takes on your turn. They are replacement effects on different events, so both apply. Boltwave's 3 becomes 6 damage, which causes 12 life lost per opponent, so X = 36 at a three-opponent table. Flame Rift's 4 becomes 8 damage and 16 lost per opponent; the 4 it deals to you is not doubled. Bloodletter doesn't change damage, so lifelink gains only the damage dealt. Solphim does nothing for pure life loss (Loyal Subordinate, The Ruinous Powers).
 
 **Citations**
 
@@ -408,7 +417,7 @@ Notes:
 
 ### abaddon-05: Cascade resolves before the spell that has it
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Vampiric Tutor, Imperial Seal, Mystical Tutor, Brainstorm, Ponder
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Vampiric Tutor, Imperial Seal, Mystical Tutor, Brainstorm, Ponder
 
 **Ruling.** Cascade triggers on cast and goes on the stack above its spell, so it resolves first. A cascaded Vampiric Tutor, Imperial Seal, Mystical Tutor, Brainstorm or Ponder can't set up the top card for its own cascade. The tutor's top-deck effect only applies after its cascade has already exiled cards.
 
@@ -420,7 +429,7 @@ Notes:
 
 ### abaddon-06: A stacked top card is exposed to every later cascade on your turn
 
-**Status:** 🚩 list flag · **Cards:** Abaddon the Despoiler, Vampiric Tutor, Imperial Seal, Mystical Tutor, Brainstorm
+**Status:** 🚩 list flag · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Vampiric Tutor, Imperial Seal, Mystical Tutor, Brainstorm
 
 **Ruling.** Under Abaddon, cascade is not optional. Once a hand-cast spell qualifies, the cascade must exile cards; you only choose whether to cast the hit. A card you put on top (Vampiric Tutor, Imperial Seal, Mystical Tutor, Brainstorm) is the first card the next cascade on your turn exiles. If it is a nonland card with lower mana value than the cascading spell, you may cast it for free, which is a strong line. Otherwise (a land, or MV equal or higher) it goes to the bottom in a random order and is lost for the turn. Sequence: draw it first, or cascade only from a spell with higher MV than the tutored card.
 
@@ -437,7 +446,7 @@ Notes:
 
 ### abaddon-26: Commander tax and recasting Abaddon
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Keeper of Secrets, The Lost and the Damned, Rakdos, Lord of Riots
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Keeper of Secrets, The Lost and the Damned, Rakdos, Lord of Riots
 
 **Ruling.** Each cast from the command zone costs {2} more per previous cast: {2}{U}{B}{R}, then 7, then 9. Casting Abaddon from the command zone isn't a cast from hand, so it gets no cascade (his ability works only on the battlefield anyway). It does count as 'anywhere other than your hand', so it triggers Keeper of Secrets and The Lost and the Damned. Rakdos reduces the generic part after the tax.
 
@@ -451,10 +460,10 @@ Notes:
 
 ### abaddon-28: What the list depends on
 
-**Status:** ✅ verified · **Cards:** Abaddon the Despoiler, Underworld Breach, Lion's Eye Diamond, Brain Freeze, Wheel of Fortune, Bloodletter of Aclazotz
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Abaddon the Despoiler, Underworld Breach, Lion's Eye Diamond, Brain Freeze, Wheel of Fortune, Bloodletter of Aclazotz
 
 **Ruling.** The deck wins in two ways:
-- **Abaddon cascade turns:** these need X built before the big spells, with Boltwave, Thermo-Alchemist, Stormfist, Loyal Subordinate, the exile-damage creatures and Bloodletter doubling.
+- **Abaddon cascade turns:** these need X built before the big spells, with Boltwave, Thermo-Alchemist, Loyal Subordinate, the exile-damage creatures and Bloodletter doubling.
 - **The Breach package:** it is commander-independent. Abaddon adds nothing to escape casts.
 
 Both lines fold to graveyard hate and counters on key pieces. The interaction suite (Force of Will, Fierce Guardianship, Pact of Negation, Swan Song, Flusterstorm, Pyroblast, Deflecting Swat) protects them. Pact of Negation needs {3}{U}{U} at your next upkeep or you lose the game. If Pact is countered, the delayed trigger never happens.
@@ -572,6 +581,10 @@ If two or more replacement and/or prevention effects are attempting to modify th
 #### CR 701.17a
 
 For a player to mill a number of cards, that player puts that many cards from the top of their library into their graveyard.
+
+#### CR 702.24a
+
+Cumulative upkeep is a triggered ability that imposes an increasing cost on a permanent. “Cumulative upkeep [cost]” means “At the beginning of your upkeep, if this permanent is on the battlefield, put an age counter on this permanent. Then you may pay [cost] for each age counter on it. If you don’t, sacrifice it.” If [cost] has choices associated with it, each choice is made separately for each age counter, then either the entire set of costs is paid, or none of them is paid. Partial payments aren’t allowed.
 
 #### CR 702.40a
 

@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/edea-possessed-sorceress.txt`](../../exports/grixis-archidekt/edea-possessed-sorceress.txt) · SHA-256 `d41924a6b09c4232b438aa863c833a28f67bdd6598c9bba470ae66f23428acd6` |
+| Canonical project list | [`exports/grixis-archidekt/edea-possessed-sorceress.txt`](../../exports/grixis-archidekt/edea-possessed-sorceress.txt) · SHA-256 `d41924a6b09c4232b438aa863c833a28f67bdd6598c9bba470ae66f23428acd6` |
 | Rulings | **11** (11 verified · 0 uncertain · 0 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Edea_Possessed_Sorceress_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json) (18 interactions, all PASS) |
@@ -39,7 +39,7 @@ Key rules: extra Edea death triggers only draw, Irma-Edea misses the combat she 
 
 ### edea-01: The combat steal is targeted; Arcane Lighthouse handles hexproof
 
-**Status:** ✅ verified · **Cards:** Edea, Possessed Sorceress, Arcane Lighthouse
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Edea, Possessed Sorceress, Arcane Lighthouse
 
 **Ruling.** Edea's combat trigger targets a creature an opponent controls. If the target is illegal on resolution, nothing happens. Activate Arcane Lighthouse before beginning of combat: opponents' creatures lose hexproof and shroud for the turn. It only affects creatures they control when it resolves.
 
@@ -52,7 +52,7 @@ Key rules: extra Edea death triggers only draw, Irma-Edea misses the combat she 
 
 ### edea-02: A borrowed creature that dies goes back to its owner, and you draw
 
-**Status:** ✅ verified · **Cards:** Edea, Possessed Sorceress, Viscera Seer, Phyrexian Altar, Pitiless Plunderer
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Edea, Possessed Sorceress, Viscera Seer, Phyrexian Altar, Pitiless Plunderer
 
 **Ruling.** A creature Edea took is still owned by its opponent. If it dies while you control it (sacrificed to Viscera Seer, Phyrexian Altar, Ashnod's Altar), Edea returns it under its owner's control and you draw. Your 'creature you control dies' triggers (Pitiless Plunderer, Grave Pact, Mayhem Devil on the sacrifice) see the death. Edea's return is a new permanent for its owner: its enters abilities trigger for that player, not for you.
 
@@ -66,7 +66,7 @@ Key rules: extra Edea death triggers only draw, Irma-Edea misses the combat she 
 
 ### edea-09: Saw in Half on a borrowed creature
 
-**Status:** ✅ verified · **Cards:** Edea, Possessed Sorceress, Saw in Half
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Edea, Possessed Sorceress, Saw in Half
 
 **Ruling.** Saw in Half destroys the creature, and the creature's controller makes the two half-size copies. If you destroy a creature you borrowed, you get the tokens, Edea returns the card to its owner and you draw. If a replacement effect exiles it instead of letting it die, there are no tokens.
 
@@ -79,7 +79,7 @@ Key rules: extra Edea death triggers only draw, Irma-Edea misses the combat she 
 
 ### edea-10: More borrowing: Mass Mutiny and Captivating Crew
 
-**Status:** ✅ verified · **Cards:** Edea, Possessed Sorceress, Mass Mutiny, Captivating Crew
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Edea, Possessed Sorceress, Mass Mutiny, Captivating Crew
 
 **Ruling.** Mass Mutiny takes up to one creature from each opponent until end of turn. It's errata'd to 'up to one', so you can cast it when an opponent has none. Captivating Crew steals at sorcery speed for {3}{R}, so do it precombat, then let Edea take a second creature at beginning of combat. Every borrowed creature is opponent-owned, so each death triggers Edea.
 
@@ -95,7 +95,7 @@ Key rules: extra Edea death triggers only draw, Irma-Edea misses the combat she 
 
 ### edea-04: Edea copies: Spark Double, Sakashima, Irma
 
-**Status:** ✅ verified · **Cards:** Edea, Possessed Sorceress, Spark Double, Sakashima of a Thousand Faces, Irma, Part-Time Mutant
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Edea, Possessed Sorceress, Spark Double, Sakashima of a Thousand Faces, Irma, Part-Time Mutant
 
 **Ruling.** Spark Double is a nonlegendary Edea. With Sakashima out, the legend rule doesn't apply to you, so a Sakashima-Edea is fine. Irma becomes a copy at beginning of combat but keeps her own name and the copy ability. She doesn't become Edea until after that combat's beginning-of-combat triggers, so she misses that steal. She stays Edea afterwards, so she triggers in later combats that turn, such as Full Throttle or Karlach extra combats.
 
@@ -112,7 +112,7 @@ Key rules: extra Edea death triggers only draw, Irma-Edea misses the combat she 
 
 ### edea-05: Extra combats mean extra steals
 
-**Status:** ✅ verified · **Cards:** Edea, Possessed Sorceress, Full Throttle, Karlach, Fury of Avernus
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Edea, Possessed Sorceress, Full Throttle, Karlach, Fury of Avernus
 
 **Ruling.** Every combat phase has its own beginning-of-combat step, so Edea takes another creature in each one. Full Throttle adds two combats after the main phase you cast it in. There's no main phase between them, so sorcery-speed sacrifice outlets and Captivating Crew can't be used in between. Full Throttle untaps creatures that attacked this turn at each combat. Karlach adds one combat after the first, only if you attack in the first combat phase.
 
@@ -130,7 +130,7 @@ Key rules: extra Edea death triggers only draw, Irma-Edea misses the combat she 
 
 ### edea-03: Extra death triggers only draw
 
-**Status:** ✅ verified · **Cards:** Edea, Possessed Sorceress, Roaming Throne, Strionic Resonator, Gogo, Master of Mimicry
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Edea, Possessed Sorceress, Roaming Throne, Strionic Resonator, Gogo, Master of Mimicry
 
 **Ruling.** When one borrowed creature dies and Edea's death ability triggers more than once (Roaming Throne naming Warlock, a Spark Double or Sakashima copy) or is copied (Strionic Resonator, Gogo), only the first instance can return the card. The card is then a new object. Every other instance still draws a card. An extra or copied combat trigger can target a second opposing creature. Gogo copies X times for {X}{X}, X can't be 0, and the copies resolve before the original.
 
@@ -146,7 +146,7 @@ Key rules: extra Edea death triggers only draw, Irma-Edea misses the combat she 
 
 ### edea-07: Black Crystal vs Edea: order the triggers to keep the card
 
-**Status:** ✅ verified · **Cards:** Edea, Possessed Sorceress, Chaos Shrine's Black Crystal
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Edea, Possessed Sorceress, Chaos Shrine's Black Crystal
 
 **Ruling.** When a borrowed nontoken creature dies, Black Crystal (exile it) and Edea (return it, draw) both trigger, and you order them. Put Black Crystal on top: it exiles the card, Edea can't find it but still draws, and on a later upkeep you can put that opponent's card onto the battlefield under your control with a finality counter. Put Edea on top to give the creature back.
 
@@ -159,7 +159,7 @@ Key rules: extra Edea death triggers only draw, Irma-Edea misses the combat she 
 
 ### edea-08: Nightmare Shepherd first gives you a 1/1 copy
 
-**Status:** ✅ verified · **Cards:** Edea, Possessed Sorceress, Nightmare Shepherd
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Edea, Possessed Sorceress, Nightmare Shepherd
 
 **Ruling.** If Nightmare Shepherd's trigger resolves first, you may exile the borrowed creature and get a 1/1 Nightmare token copy that you own. Edea then can't return the card, but you still draw. The token copies the creature as it last existed on the battlefield.
 
@@ -174,7 +174,7 @@ Key rules: extra Edea death triggers only draw, Irma-Edea misses the combat she 
 
 ### edea-06: Thassa turns a temporary steal into a permanent one
 
-**Status:** ✅ verified · **Cards:** Edea, Possessed Sorceress, Thassa, Deep-Dwelling
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Edea, Possessed Sorceress, Thassa, Deep-Dwelling
 
 **Ruling.** You still control the borrowed creature during your end step, because 'until end of turn' effects end in cleanup. Thassa can blink it: it returns under your control as a new object, unaffected by Edea's expiring effect. You keep it indefinitely, until another effect changes control or its owner leaves the game.
 
@@ -189,7 +189,7 @@ Key rules: extra Edea death triggers only draw, Irma-Edea misses the combat she 
 
 ### edea-11: Cut cards: Garland and Marchesa
 
-**Status:** ✅ verified · **Cards:** Edea, Possessed Sorceress
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Edea, Possessed Sorceress
 
 **Ruling.** Two source decisions are re-checked. Garland, Royal Kidnapper (cut) stops you from sacrificing any creature you control but don't own, which shuts off Edea's sacrifice plan. Marchesa, the Black Rose (cut) is unreliable here: Edea's mandatory trigger returns the card to its owner before Marchesa's delayed return, and once the card leaves the graveyard Marchesa can't return it. Neither card is in the current list. Both cuts are correct.
 

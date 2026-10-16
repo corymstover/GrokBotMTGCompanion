@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/garza-zol-plague-queen.txt`](../../exports/grixis-archidekt/garza-zol-plague-queen.txt) · SHA-256 `b0dfe1fc5ad19d3d8b3eeb350b1abc42f0de3e32526032a558b5717df32e5fda` |
+| Canonical project list | [`exports/grixis-archidekt/garza-zol-plague-queen.txt`](../../exports/grixis-archidekt/garza-zol-plague-queen.txt) · SHA-256 `b0dfe1fc5ad19d3d8b3eeb350b1abc42f0de3e32526032a558b5717df32e5fda` |
 | Rulings | **11** (10 verified · 0 uncertain · 1 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Garza_Zol_Plague_Queen_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/garza_zol_plague_queen_2026-10-14/Garza_Zol_Plague_Queen_Rules_Attestation.json) (15 interactions, all PASS) |
@@ -47,7 +47,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### garza-01: Any damage from Garza counts, and the death can come later
 
-**Status:** ✅ verified · **Cards:** Garza Zol, Plague Queen
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Garza Zol, Plague Queen
 
 **Ruling.** Garza's counter ability looks for a creature that Garza dealt damage to at any point this turn and that then dies, however it dies. The damage can be combat or noncombat (her Chandra's Ignition or Nova Flame blast, a Thornbite Staff ping). Each such death is a separate trigger and a separate counter.
 
@@ -95,7 +95,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### garza-02: Basilisk Collar + Thornbite Staff: a repeatable deathtouch ping
 
-**Status:** ✅ verified · **Cards:** Garza Zol, Plague Queen, Basilisk Collar, Thornbite Staff
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Garza Zol, Plague Queen, Basilisk Collar, Thornbite Staff
 
 **Ruling.** Thornbite Staff gives Garza '{2}, {T}: 1 damage to any target' and untaps her whenever any creature dies. With Basilisk Collar's deathtouch, 1 damage kills any creature that can be damaged. Each kill untaps Garza and gives her a counter, and Collar's lifelink gains 1. Each ping still costs {2}, so it repeats as long as you have mana and targets.
 
@@ -107,7 +107,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### garza-03: Chandra's Ignition and Nova Flame: Garza is the source
 
-**Status:** ✅ verified · **Cards:** Garza Zol, Plague Queen, Chandra's Ignition, Nova Flame, Basilisk Collar, Blade of the Bloodchief, Curiosity
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Garza Zol, Plague Queen, Chandra's Ignition, Nova Flame, Basilisk Collar, Blade of the Bloodchief, Curiosity
 
 **Ruling.** Both spells make the targeted creature deal the damage, so Garza is the source. With deathtouch she kills every other creature that can be damaged. Each death gives a Garza counter, and Blade of the Bloodchief adds two more per death because she's a Vampire. Ignition also hits each opponent, so Curiosity draws once per opponent. If Garza is an illegal target on resolution, Ignition does nothing.
 
@@ -122,7 +122,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### garza-04: Scythe of the Wretched steals everything Garza damaged
 
-**Status:** ✅ verified · **Cards:** Garza Zol, Plague Queen, Scythe of the Wretched
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Garza Zol, Plague Queen, Scythe of the Wretched
 
 **Ruling.** Scythe triggers for each creature equipped Garza damaged this turn that dies, even if something else killed it. It only has to be attached when the creature dies, not when the damage was dealt. Each trigger returns that card under your control and moves Scythe onto it. After an Ignition wipe, Scythe ends up on the last creature returned, so re-equip Garza for {4}.
 
@@ -136,7 +136,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### garza-10: Robe of the Archmagi and Curiosity draws
 
-**Status:** ✅ verified · **Cards:** Garza Zol, Plague Queen, Robe of the Archmagi, Curiosity, Kediss, Emberclaw Familiar
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Garza Zol, Plague Queen, Robe of the Archmagi, Curiosity, Kediss, Emberclaw Familiar
 
 **Ruling.** Robe draws cards equal to Garza's combat damage to a player, and Garza's own trigger may draw one more (six cards from a base 5-power hit). Curiosity triggers on any damage to an opponent, so it also draws for Kediss's damage and Chandra's Ignition, once per opponent.
 
@@ -153,7 +153,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### garza-07: Damage multipliers for commander damage and poison
 
-**Status:** ✅ verified · **Cards:** Garza Zol, Plague Queen, Hatred, Jeska, Thrice Reborn, Inquisitor's Flail, Psychotic Fury
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Garza Zol, Plague Queen, Hatred, Jeska, Thrice Reborn, Inquisitor's Flail, Psychotic Fury
 
 **Ruling.** Commander damage is lethal at 21 from one commander. Hatred: pay 16 life for +16/+0 on a 5-power Garza = 21. The life is paid as a cost, so it's lost if Hatred is countered. Jeska's 0 triples Garza's combat damage to an opponent: 7 power (with Exoskeleton) = 21 damage or 21 poison. Two Jeska activations multiply by nine. Inquisitor's Flail doubles it. Psychotic Fury gives the multicolored Garza double strike, two hits.
 
@@ -171,7 +171,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### garza-11: The Ozolith keeps Garza's counters
 
-**Status:** ✅ verified · **Cards:** Garza Zol, Plague Queen, The Ozolith
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Garza Zol, Plague Queen, The Ozolith
 
 **Ruling.** When Garza leaves with counters, wherever she goes (the command zone included), The Ozolith gets the same counters, using her last-known information. At your beginning of combat you may move all of them (not some) to a target creature, such as the recast Garza. If that target is illegal, the counters stay.
 
@@ -186,7 +186,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### garza-06: Grafted Exoskeleton: unattaching it sacrifices Garza
 
-**Status:** ✅ verified · **Cards:** Garza Zol, Plague Queen, Grafted Exoskeleton, Slip Out the Back
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Garza Zol, Plague Queen, Grafted Exoskeleton, Slip Out the Back
 
 **Ruling.** If Exoskeleton becomes unattached for any reason (moved by its own equip, removed, or Garza stops being a creature), you sacrifice Garza. Re-equipping it to another creature sacrifices Garza. Phasing out with Slip Out the Back is safe: attached Equipment phases out with her and stays attached.
 

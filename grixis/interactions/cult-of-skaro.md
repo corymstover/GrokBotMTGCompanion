@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/cult-of-skaro.txt`](../../exports/grixis-archidekt/cult-of-skaro.txt) · SHA-256 `e17919e46769952d0318157693b278c29ba9a39a352105fa76df9abb9a868e7d` |
+| Canonical project list | [`exports/grixis-archidekt/cult-of-skaro.txt`](../../exports/grixis-archidekt/cult-of-skaro.txt) · SHA-256 `e17919e46769952d0318157693b278c29ba9a39a352105fa76df9abb9a868e7d` |
 | Rulings | **10** (10 verified · 0 uncertain · 0 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Cult_of_Skaro_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cult_of_skaro_2026-10-14/Cult_of_Skaro_Rules_Attestation.json) (11 interactions, all PASS) |
@@ -43,7 +43,7 @@ No list errors.
 
 ### skaro-01: The random mode is chosen as the trigger goes on the stack
 
-**Status:** ✅ verified · **Cards:** Cult of Skaro
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cult of Skaro
 
 **Ruling.** Cult of Skaro's attack trigger is modal, with the mode chosen at random. Modes are chosen when a triggered ability is put on the stack, so everyone knows the result before anyone responds. It triggers on being *declared* as an attacker, not on entering attacking.
 - **Thay:** +1/+1 counter on each artifact creature you control.
@@ -61,7 +61,7 @@ No list errors.
 
 ### skaro-05: Sword of Feast and Famine + Aggravated Assault
 
-**Status:** ✅ verified · **Cards:** Cult of Skaro, Sword of Feast and Famine, Aggravated Assault
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cult of Skaro, Sword of Feast and Famine, Aggravated Assault
 
 **Ruling.** When the equipped creature connects, Sword untaps all your lands. In the next main phase, Aggravated Assault ({3}{R}{R}, sorcery speed) untaps your creatures and adds another combat and main phase. Repeat for unlimited combats, with each Cult attack rolling again. You need lands producing {3}{R}{R} and a creature that connects.
 
@@ -75,7 +75,7 @@ No list errors.
 
 ### skaro-03: Helm of the Host, Spark Double, Sakashima, Auton Soldier copies
 
-**Status:** ✅ verified · **Cards:** Cult of Skaro, Helm of the Host, Spark Double, Sakashima of a Thousand Faces, Auton Soldier
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cult of Skaro, Helm of the Host, Spark Double, Sakashima of a Thousand Faces, Auton Soldier
 
 **Ruling.** These copies of Cult each have the attack trigger:
 - **Helm of the Host:** a hasty nonlegendary token copy at each beginning of combat on your turn, including extra combats.
@@ -93,7 +93,7 @@ Each copy declared as an attacker rolls its own mode. Myriad tokens (from Auton 
 
 ### skaro-04: The Master, Multiplied keeps myriad tokens
 
-**Status:** ✅ verified · **Cards:** Cult of Skaro, The Master, Multiplied, Dalek Squadron, Auton Soldier, Cybermen Squadron
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cult of Skaro, The Master, Multiplied, Dalek Squadron, Auton Soldier, Cybermen Squadron
 
 **Ruling.** The Master stops your triggered abilities from sacrificing or exiling your creature tokens, so myriad's 'exile at end of combat' trigger does nothing. Dalek Squadron, Auton Soldier and Cybermen Squadron's myriad tokens stay. It also turns off the legend rule for creature tokens. Those tokens weren't declared attackers the combat they appeared, but they can attack in later combats and trigger their own abilities (myriad, a copied Cult trigger).
 
@@ -105,7 +105,7 @@ Each copy declared as an attacker rolls its own mode. Myriad tokens (from Auton 
 
 ### skaro-07: Arena of Glory haste; Plaza of Heroes protection
 
-**Status:** ✅ verified · **Cards:** Cult of Skaro, Arena of Glory, Plaza of Heroes
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cult of Skaro, Arena of Glory, Plaza of Heroes
 
 **Ruling.** Arena of Glory's exert mana gives haste to a creature spell it's spent on, so a fresh Cult can attack that turn. Plaza of Heroes can exile itself to give a legendary creature hexproof and indestructible until end of turn.
 
@@ -118,7 +118,7 @@ Each copy declared as an attacker rolls its own mode. Myriad tokens (from Auton 
 
 ### skaro-08: Exterminate! replicates by tapping Daleks
 
-**Status:** ✅ verified · **Cards:** Cult of Skaro, Exterminate!, Davros, Dalek Creator
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cult of Skaro, Exterminate!, Davros, Dalek Creator
 
 **Ruling.** Exterminate!'s replicate cost is tapping an untapped Dalek. Cult, Davros's tokens, Dalek Squadron and the Sec tokens all count. Each payment adds a copy (destroy a creature, its controller loses 3). Daleks that attacked are tapped unless untapped again, so cast it before combat or after an untap.
 
@@ -131,7 +131,7 @@ Each copy declared as an attacker rolls its own mode. Myriad tokens (from Auton 
 
 ### skaro-09: Biotransference and Their Name Is Death or Delete
 
-**Status:** ✅ verified · **Cards:** Cult of Skaro, Biotransference, Their Name Is Death, Delete
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cult of Skaro, Biotransference, Their Name Is Death, Delete
 
 **Ruling.** Biotransference makes your creatures artifacts, so Their Name Is Death (nonartifact creatures) and Delete (nonartifact creatures) spare them. Cult and the Daleks are artifacts already. Thay's counters go on every artifact creature you control, so with Biotransference that's every creature.
 
@@ -144,7 +144,7 @@ Each copy declared as an attacker rolls its own mode. Myriad tokens (from Auton 
 
 ### skaro-06: Full Throttle and Great Train Heist extra combats
 
-**Status:** ✅ verified · **Cards:** Cult of Skaro, Full Throttle, Great Train Heist
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cult of Skaro, Full Throttle, Great Train Heist
 
 **Ruling.** - **Full Throttle:** cast in a main phase, it adds two combats (no main phase between them) and untaps the creatures that attacked at the start of each combat that turn.
 - **Great Train Heist:** the first spree mode during your combat untaps your creatures and adds one more combat right after, with no main phase.
@@ -163,7 +163,7 @@ Each new attack with Cult rolls again.
 
 ### skaro-02: Copies keep the mode; extra triggers re-roll
 
-**Status:** ✅ verified · **Cards:** Cult of Skaro, Strionic Resonator, Scientist Supreme of A.I.M., Roaming Throne
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cult of Skaro, Strionic Resonator, Scientist Supreme of A.I.M., Roaming Throne
 
 **Ruling.** - **Strionic Resonator ({2}, {T}) and Scientist Supreme (pay 2 life, once per turn, your turn, artifact source):** these *copy* the trigger, and a copy keeps the already chosen mode.
 - **Roaming Throne (naming Dalek):** makes Cult trigger an additional time, a separate trigger that rolls its own random mode.
@@ -182,7 +182,7 @@ Use copies when you like the roll; Throne gives more chances.
 
 ### skaro-10: Commander tax and artifact recursion
 
-**Status:** ✅ verified · **Cards:** Cult of Skaro, Academy Ruins
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Cult of Skaro, Academy Ruins
 
 **Ruling.** Cult costs {1}{U}{B}{R}, then 6, then 8. It's an artifact, so if you leave it in the graveyard Academy Ruins can put it on top of your library.
 

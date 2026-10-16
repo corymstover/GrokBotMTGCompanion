@@ -59,7 +59,8 @@
      "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
      "item": "Edea temporary control and targeting"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "edea-02",
@@ -93,7 +94,8 @@
      "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
      "item": "Edea death trigger after a borrowed creature dies"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "edea-03",
@@ -141,7 +143,8 @@
      "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
      "item": "Gogo, Master of Mimicry copying Edea triggers"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "edea-04",
@@ -188,7 +191,8 @@
      "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
      "item": "Irma, Part-Time Mutant copying Edea"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "edea-05",
@@ -234,7 +238,8 @@
      "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
      "item": "Karlach additional combat and Edea"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "edea-06",
@@ -270,7 +275,8 @@
      "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
      "item": "Thassa, Deep-Dwelling permanently retains an Edea-borrowed creature"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "edea-07",
@@ -306,7 +312,8 @@
      "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
      "item": "Chaos Shrine's Black Crystal and Edea"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "edea-08",
@@ -340,7 +347,8 @@
      "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
      "item": "Nightmare Shepherd and Edea"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "edea-09",
@@ -373,7 +381,8 @@
      "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
      "item": "Saw in Half on a borrowed creature"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "edea-10",
@@ -411,7 +420,8 @@
      "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
      "item": "Captivating Crew sequencing"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "edea-11",
@@ -442,7 +452,8 @@
      "path": "refinement/verification/edea_possessed_sorceress_2026-10-14/Edea_Possessed_Sorceress_Rules_Attestation.json",
      "item": "Marchesa, the Black Rose does not cleanly retain Edea's borrowed dead creature"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   }
  ]
 }

@@ -40,7 +40,7 @@
 
 ## Engines
 
-- **life-loss-threshold:** Thermo-Alchemist, Kessig Flamebreather, Exalted Flamer of Tzeentch, Loyal Subordinate, Noise Marine, Neheb, the Eternal. Online when: At least one opponent has lost life this turn before the key spell is cast from hand; X is the total lost. *strategic_judgment · high* — [abaddon-01](../interactions/abaddon-the-despoiler.md#abaddon-01-abaddons-threshold-counts-life-opponents-actually-lost-this-turn) · [abaddon-11](../interactions/abaddon-the-despoiler.md#abaddon-11-upkeep-and-combat-life-loss-open-the-threshold-early) · [abaddon-12](../interactions/abaddon-the-despoiler.md#abaddon-12-neheb-converts-the-turns-life-loss-into-post-combat-mana)
+- **life-loss-threshold:** Thermo-Alchemist, Kessig Flamebreather, Exalted Flamer of Tzeentch, Loyal Subordinate, Noise Marine, Neheb, the Eternal. Online when: At least one opponent has lost life this turn before the key spell is cast from hand; X is the total lost. *strategic_judgment · high* — [abaddon-01](../interactions/abaddon-the-despoiler.md#abaddon-01-abaddons-threshold-counts-life-opponents-actually-lost-this-turn) · [abaddon-11](../interactions/abaddon-the-despoiler.md#abaddon-11-combat-life-loss-opens-the-threshold-early) · [abaddon-12](../interactions/abaddon-the-despoiler.md#abaddon-12-neheb-converts-the-turns-life-loss-into-post-combat-mana)
 - **exile-cast-payoffs:** Prosper, Tome-Bound, Nalfeshnee, Wild-Magic Sorcerer, Passionate Archaeologist, The Lost and the Damned, Keeper of Secrets. Online when: Cascade hits are cast from exile; copies do not trigger them. *fact · verified* — [abaddon-14](../interactions/abaddon-the-despoiler.md#abaddon-14-cast-from-exile-payoffs-see-cascade-hits-but-not-copies) · [abaddon-16](../interactions/abaddon-the-despoiler.md#abaddon-16-wild-magic-sorcerer-only-the-first-exile-cast-each-turn-cascades) · [abaddon-17](../interactions/abaddon-the-despoiler.md#abaddon-17-nalfeshnee-copies-exile-casts-permanent-copies-are-hasty-temporary-tokens)
 
 ## Packages
@@ -88,7 +88,7 @@
 - **Solphim, Mayhem Dominus:** Doubles every point of noncombat damage, which doubles the threshold and the burn finish. *strategic_judgment · high* — [abaddon-10](../interactions/abaddon-the-despoiler.md#abaddon-10-bloodletter-and-solphim-modify-different-events)
 - **Prosper, Tome-Bound:** Turns every cascade hit into Treasure, paying for the next spell in the chain. *strategic_judgment · high* — [abaddon-14](../interactions/abaddon-the-despoiler.md#abaddon-14-cast-from-exile-payoffs-see-cascade-hits-but-not-copies)
 - **Nalfeshnee:** Copies exile casts, adding a second cascade-hit resolution per hit. *strategic_judgment · high* — [abaddon-17](../interactions/abaddon-the-despoiler.md#abaddon-17-nalfeshnee-copies-exile-casts-permanent-copies-are-hasty-temporary-tokens)
-- **Thermo-Alchemist:** Repeatable cheap ping that opens the threshold every turn without spending a card. *strategic_judgment · moderate* — [abaddon-11](../interactions/abaddon-the-despoiler.md#abaddon-11-upkeep-and-combat-life-loss-open-the-threshold-early)
+- **Thermo-Alchemist:** Repeatable cheap ping that opens the threshold every turn without spending a card. *strategic_judgment · moderate* — [abaddon-11](../interactions/abaddon-the-despoiler.md#abaddon-11-combat-life-loss-opens-the-threshold-early)
 
 ## Anti-goals and thematic constraints
 

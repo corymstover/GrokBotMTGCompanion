@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -458,6 +459,15 @@ Canonical approved artifact: `refinement/decklists/Jeleva_Nephalia_s_Scourge_App
 Complete gate artifact: `refinement/verification/jeleva_nephalia_s_scourge_2026-10-14/gate_output/Jeleva_Nephalia_s_Scourge_2026-10-14_Complete_Gate.json`
 
 This deck is now locked. Do not revise, reopen, or replace it unless the user explicitly requests that action.
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 49 interaction review: **10 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Jeleva, Nephalia's Scourge — Interaction Review](../interactions/jeleva-nephalias-scourge.md).
+
+- **X counts the mana actually spent, including commander tax** — X = mana spent including tax (4, 6, 8 …); not cast = X 0. ([jeleva-01](../interactions/jeleva-nephalias-scourge.md#jeleva-01-x-counts-the-mana-actually-spent-including-commander-tax))
+- **Harmonic Prodigy doubles both Jeleva triggers** — Prodigy: two exiles, two free casts. ([jeleva-04](../interactions/jeleva-nephalias-scourge.md#jeleva-04-harmonic-prodigy-doubles-both-jeleva-triggers))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

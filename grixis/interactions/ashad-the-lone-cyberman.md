@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/ashad-the-lone-cyberman.txt`](../../exports/grixis-archidekt/ashad-the-lone-cyberman.txt) · SHA-256 `13fa3b590700b08a41783ab763a1055f9f82103db01a3757a3662be7a092637c` |
+| Canonical project list | [`exports/grixis-archidekt/ashad-the-lone-cyberman.txt`](../../exports/grixis-archidekt/ashad-the-lone-cyberman.txt) · SHA-256 `13fa3b590700b08a41783ab763a1055f9f82103db01a3757a3662be7a092637c` |
 | Rulings | **14** (13 verified · 1 uncertain · 0 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) (deck #5: RULES PASS) |
@@ -53,7 +53,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### ashad-01: Casualty 2 on your first nonlegendary artifact spell
 
-**Status:** ✅ verified · **Cards:** Ashad, the Lone Cyberman
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashad, the Lone Cyberman
 
 **Ruling.** The first nonlegendary artifact spell you cast each turn has casualty 2. Sacrificing a creature with power 2 or greater as you cast it copies the spell. The copy of a permanent spell resolves into a token. Only the *first* nonlegendary artifact spell each turn qualifies. Legendary artifacts (The Cyber-Controller, Mox Opal, Iron Man) neither get casualty nor use up the 'first'. Artifact lands are played, not cast.
 
@@ -67,7 +67,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### ashad-02: The +1/+1 trigger needs *another* creature sacrificed
 
-**Status:** ✅ verified · **Cards:** Ashad, the Lone Cyberman, Ashnod's Altar, Phyrexian Altar
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashad, the Lone Cyberman, Ashnod's Altar, Phyrexian Altar
 
 **Ruling.** Ashad gets a +1/+1 counter whenever you sacrifice another creature: casualty payments, Ashnod's Altar, Phyrexian Altar, Krark-Clan Ironworks on an artifact creature. Sacrificing Ashad itself doesn't count.
 
@@ -81,7 +81,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### ashad-05: Urza + Worldwalker Helm + Artificer Class
 
-**Status:** ✅ verified · **Cards:** Ashad, the Lone Cyberman, Urza, Lord High Artificer, Worldwalker Helm, Artificer Class
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashad, the Lone Cyberman, Urza, Lord High Artificer, Worldwalker Helm, Artificer Class
 
 **Ruling.** Commander Spellbook (66-457-5491, cached) lists this as infinite artifact tokens and blue mana. Its line, with Artificer Class at level 3:
 1. At your end step, the Class makes a token copy of Worldwalker Helm plus a Map.
@@ -117,7 +117,7 @@ Urza's {5} then exiles and plays the library.
 
 ### ashad-09: Sacrifice and artifact-death drains
 
-**Status:** ✅ verified · **Cards:** Ashad, the Lone Cyberman, Disciple of the Vault, Marionette Master, Mayhem Devil, Ingenious Artillerist, Reckless Fireweaver
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashad, the Lone Cyberman, Disciple of the Vault, Marionette Master, Mayhem Devil, Ingenious Artillerist, Reckless Fireweaver
 
 **Ruling.** - **Artifact leaves the battlefield:** artifact tokens are put into the graveyard before ceasing to exist, so Disciple of the Vault and Marionette Master trigger for each sacrificed Treasure, Servo or casualty token.
 - **Any sacrifice:** Mayhem Devil triggers on each one, including the casualty payment and opponents' sacrifices.
@@ -133,7 +133,7 @@ Urza's {5} then exiles and plays the library.
 
 ### ashad-07: Iron Man copies legendary artifacts as nonlegendary
 
-**Status:** ✅ verified · **Cards:** Ashad, the Lone Cyberman, Iron Man, Bleeding Edge, The Cyber-Controller
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashad, the Lone Cyberman, Iron Man, Bleeding Edge, The Cyber-Controller
 
 **Ruling.** Iron Man's once-per-turn copy works on any artifact spell, including legendary ones (the copy isn't legendary). It covers The Cyber-Controller, which Ashad can't copy; the copy keeps X. On a nonlegendary spell, Ashad's casualty copy and Iron Man's copy stack. Twinning Staff adds one to each copy event.
 
@@ -144,7 +144,7 @@ Urza's {5} then exiles and plays the library.
 
 ### ashad-10: Myriad: Cybermen Squadron and Auton Soldier
 
-**Status:** ✅ verified · **Cards:** Ashad, the Lone Cyberman, Cybermen Squadron, Auton Soldier
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashad, the Lone Cyberman, Cybermen Squadron, Auton Soldier
 
 **Ruling.** Cybermen Squadron gives nonlegendary artifact creatures myriad, so Ashad (legendary) doesn't get it. Myriad tokens enter attacking but weren't declared as attackers, so 'whenever attacks' abilities don't trigger for them. The tokens are exiled at end of combat. With only one opponent left, myriad makes nothing.
 
@@ -156,7 +156,7 @@ Urza's {5} then exiles and plays the library.
 
 ### ashad-11: Esoteric Duplicator rebuys sacrificed artifacts
 
-**Status:** ✅ verified · **Cards:** Ashad, the Lone Cyberman, Esoteric Duplicator, Ashnod's Altar
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashad, the Lone Cyberman, Esoteric Duplicator, Ashnod's Altar
 
 **Ruling.** Whenever you sacrifice Duplicator or another artifact (artifact creatures to an altar or casualty, Treasures, KCI fodder), you may pay {2} for an end-step token copy. The copy copies the printed card (or the original token characteristics) without counters. Its enter triggers work.
 
@@ -167,7 +167,7 @@ Urza's {5} then exiles and plays the library.
 
 ### ashad-12: Portal to Phyrexia with casualty
 
-**Status:** ✅ verified · **Cards:** Ashad, the Lone Cyberman, Portal to Phyrexia
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashad, the Lone Cyberman, Portal to Phyrexia
 
 **Ruling.** Portal to Phyrexia is a nonlegendary artifact spell. A casualty copy resolves into a token Portal with its own enter trigger, so each opponent sacrifices three creatures twice, and you get two upkeep reanimation triggers.
 
@@ -180,7 +180,7 @@ Urza's {5} then exiles and plays the library.
 
 ### ashad-06: Biotransference makes creature spells artifact spells
 
-**Status:** ✅ verified · **Cards:** Ashad, the Lone Cyberman, Biotransference, Delete, Their Name Is Death
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashad, the Lone Cyberman, Biotransference, Delete, Their Name Is Death
 
 **Ruling.** Biotransference makes your creature spells, your creatures and your creature cards in other zones artifacts too.
 - Nonlegendary creature spells (Mayhem Devil, Marionette Master, Pitiless Plunderer) become eligible for Ashad's casualty, artifact cost reducers and Jhoira.
@@ -199,7 +199,7 @@ The effect is a layer 4 type change. Replacement effects that modify artifacts e
 
 ### ashad-08: Flash artifacts reuse 'first each turn' on other turns
 
-**Status:** ✅ verified · **Cards:** Ashad, the Lone Cyberman, Shimmer Myr
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashad, the Lone Cyberman, Shimmer Myr
 
 **Ruling.** Ashad's casualty resets every turn, not just yours. With Shimmer Myr, artifact spells can be cast at instant speed, so you can cast a nonlegendary artifact with casualty on each opponent's turn. Artifact lands aren't affected (they're played).
 
@@ -214,7 +214,7 @@ The effect is a layer 4 type change. Replacement effects that modify artifacts e
 
 ### ashad-03: Casualty tokens aren't 'created': no Worldwalker Helm Map
 
-**Status:** ✅ verified · **Cards:** Ashad, the Lone Cyberman, Worldwalker Helm, Simulacrum Synthesizer, Ichor Wellspring, Solemn Simulacrum
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashad, the Lone Cyberman, Worldwalker Helm, Simulacrum Synthesizer, Ichor Wellspring, Solemn Simulacrum
 
 **Ruling.** A copy of a permanent spell becomes a token as it resolves but isn't 'created' for replacement effects or triggers that refer to creating tokens. Worldwalker Helm adds no Map for Ashad's copy.
 
@@ -228,7 +228,7 @@ Enter triggers still work: the token Solemn Simulacrum fetches a land, the token
 
 ### ashad-04: Twinning Staff applies to artifact spell copies
 
-**Status:** ✅ verified · **Cards:** Ashad, the Lone Cyberman, Twinning Staff
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashad, the Lone Cyberman, Twinning Staff
 
 **Ruling.** Twinning Staff's replacement covers copying any spell, so an Ashad casualty copy becomes two copies (two tokens). Staff's {7} activated ability is the part limited to instants and sorceries.
 
@@ -242,7 +242,7 @@ Enter triggers still work: the token Solemn Simulacrum fetches a land, the token
 
 ### ashad-13: Commander tax and Ashad's artifact type
 
-**Status:** ✅ verified · **Cards:** Ashad, the Lone Cyberman, Academy Ruins
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Ashad, the Lone Cyberman, Academy Ruins
 
 **Ruling.** Ashad is a four-mana legendary artifact creature ({1}{U}{B}{R}, then 6, 8). As a legendary it doesn't trigger its own casualty, and Cybermen Squadron doesn't give it myriad. If Ashad goes to the graveyard you may move it to the command zone. If you leave it there, Academy Ruins can put it on top of the library because it's an artifact card.
 

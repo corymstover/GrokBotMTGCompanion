@@ -15,6 +15,7 @@ schema: 2
 
 ## Contents
 - [2026-10-16 — Bot cycle 50 (M2: commander blueprints, batch 1; M0 accepted)](#2026-10-16--bot-cycle-50-m2-commander-blueprints-batch-1-m0-accepted)
+- [2026-10-16 — Bot cycle 49 (phase 2 / M1: batch C; M0 follow-ups)](#2026-10-16--bot-cycle-49-phase-2--m1-batch-c-m0-follow-ups)
 - [2026-10-16 — Bot cycle 48 (phase 2 / M1: Spellbook step cache, batch B)](#2026-10-16--bot-cycle-48-phase-2--m1-spellbook-step-cache-batch-b)
 - [2026-10-16 — Bot cycle 47 (M0: Grixis authority foundation)](#2026-10-16--bot-cycle-47-m0-grixis-authority-foundation)
 - [2026-10-16 — Bot cycle 46 (phase 2: interaction reviews, tooling + batch A)](#2026-10-16--bot-cycle-46-phase-2-interaction-reviews-tooling--batch-a)
@@ -84,6 +85,33 @@ schema: 2
   - Honest roles: Bjorna/Cecily is `supporting`. Bjorna is near-incidental, and the source misdescribes both commanders. Anhelo and Ashad are `significant`, not `central`, because their decks' infinites run without them. Crosis and Davros are low-end Bracket 4 because of their card pools, not their engines.
 - **Tests:** `tests/test_blueprints.py` adds 17 tests (63 in total): schema, Oracle mismatch, card refs and candidates, min counts, class rules, ref resolution, ceilings, review status, boilerplate, exceptions, M2 status, milestone acceptance.
 - **Not touched:** `grixis/interactions/`, `data/grixis_interactions/`, `scripts/grixis_interactions.py` (the M1 executor's area; read only). No decklist changed.
+## 2026-10-16 — Bot cycle 49 (phase 2 / M1: batch C; M0 follow-ups)
+- **Batch C is done** (the next 10 decks alphabetically, Gwendlyn Di Corci through Mai and Zuko): **99 rulings** (94 verified, 1 uncertain, 4 flags). Overall: 32/62 decks and 375 rulings. Every batch-C deck's source attestation JSON is re-verified item by item. No decklist changed.
+- **M0 landed on main during the cycle** (PR #120). The pending follow-ups are done:
+  - **Canonical list.** Interaction reviews now hash the M0 registry's `canonical_project_list.export` (read-only), not the legacy export. `list_source` must name that list. A `[Companion]` line must match the record's `companion`. This affects the 7 decks whose canonical list is the source baseline.
+  - **Re-reviews.** Three of those 7 decks were already reviewed, and all three were re-reviewed:
+    - **Abaddon:** Mystic Remora replaces GrokBot's unapproved Stormfist Crusader. abaddon-11 is rewritten and now verified; abaddon-29 is added.
+    - **Bjorna + Cecily:** the canonical list restores the three authorized exceptions (Trade Secrets, Yawgmoth's Bargain, Lutri as companion), all 🚩 NOT Commander-legal. bjorna-10 (Flame of Anor, now only in the derived projection) is retired. bjorna-11 is rewritten (`approved_decision`). New entries: bjorna-14 (Lutri companion), bjorna-15 (Trade Secrets + Notion Thief) and bjorna-16 (Yawgmoth's Bargain + Ageless Insight).
+    - **Kefka:** reviewed on its canonical list in this batch (Final Fortune and Valley Floodcaller, not the challenger swaps).
+  - **evidence_class required.** Every record now has an `evidence_class`. The batch A/B pass gave: verified and flag → `fact`; uncertain → `hypothesis`; brass-10 and crosis-10 → `strategic_judgment`; abaddon-11 → `derived_metric`.
+  - **validate_all:** the step lists had already been merged by cycle 47 (7c `spellbook-steps`, 7d `source-archive`, 7e `authority`, 7f `unit-tests`).
+- **Batch C flags** (pilot notes, not list errors; all anti-synergy):
+  - Gwendlyn: Lightning Greaves' shroud stops the targeted untappers and Bracers' equip.
+  - Gwendlyn: Chains of Mephistopheles hits your own wheels.
+  - Lord of Tresserhorn: Greaves' shroud blocks the deck's own Lord-targeting kill spells.
+  - Lynde: returned Curses attach to you and punish you until moved, one per upkeep.
+- **Uncertain:** inalla-06, the Spellseeker one-card chain. It's a rebuilt line with no confirming Spellbook variant (`hypothesis`).
+- **Rules surprises:**
+  - Single-faced clones of Kefka can't transform (CR 701.27c).
+  - Saw in Half on a commander still makes tokens (CR 903.9a).
+  - Mox Diamond doesn't work as the Grinding Station + Breach artifact.
+  - A Curse sacrificed during an end step returns a turn later (CR 513.2).
+  - Urza's Saga can't find Walking Ballista.
+  - Loki's enter-attacking tokens never get the copied creature's attack triggers.
+  - Auton Soldier's myriad Xanders give enter triggers but no dies triggers.
+- **Files:** `scripts/grixis_interactions.py` (canonical list via the registry, companion parsing, required `evidence_class`), `data/grixis_interactions/` (10 new reviews, the A/B evidence pass, 3 re-reviews), `_batches.json` (C done), the rendered pages, deck-page Rules notes, `grixis/interactions/README.md`, `README.md`, `grixis/Grixis Integration Summary.md`.
+- **Not touched:** `data/grixis/registry*`, schemas, `grixis_refine.py` and the exception data.
+- **Next:** batches D–F (30 decks).
 
 ## 2026-10-16 — Bot cycle 48 (phase 2 / M1: Spellbook step cache, batch B)
 - **Batch B is done** (the next 10 decks alphabetically): **107 rulings** (99 verified, 2 uncertain, 6 flags). Overall: 22/62 decks and 273 rulings. Every batch-B deck's source attestation JSON is re-verified item by item. No decklist changed.

@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -532,6 +533,20 @@ Verified state:
 The final current-cycle refinement is the exact 27-cut / 27-add package documented in the decision closeout, centered on Lord of Tresserhorn Voltron/Infect, drawback suppression, and a narrowed Zombie sacrifice/recursion backup engine.
 
 The user explicitly approved this exact candidate after the complete gate returned `APPROVAL_READY`. This exact list is therefore canonical and locked unless the user explicitly reopens it.
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 49 interaction review: **13 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Lord of Tresserhorn — Interaction Review](../interactions/lord-of-tresserhorn.md).
+
+- **The enter trigger: life loss, two sacrifices (possibly Lord), opponent draws** — ETB: lose 2, sacrifice two creatures (Lord too if needed; regeneration doesn't help), opponent draws two. ([tresserhorn-01](../interactions/lord-of-tresserhorn.md#tresserhorn-01-the-enter-trigger-life-loss-two-sacrifices-possibly-lord-opponent-draws))
+- **Turning off the drawback: Torpor Orb, Karn, Dress Down, Stifle, Tale's End** — Torpor/Karn/Dress Down must be in place first; Stifle/Tale's End counter the trigger. ([tresserhorn-02](../interactions/lord-of-tresserhorn.md#tresserhorn-02-turning-off-the-drawback-torpor-orb-karn-dress-down-stifle-tales-end))
+- **Infect Lord: Tainted Strike or Phyresis, then Kediss** — Phyresis/Tainted Strike + Kediss: one connection gives every opponent 10+ poison. ([tresserhorn-05](../interactions/lord-of-tresserhorn.md#tresserhorn-05-infect-lord-tainted-strike-or-phyresis-then-kediss))
+- **Gravecrawler loops (Lord himself is the other Zombie)** — Gravecrawler + Rooftop Storm/Plunderer + outlet; Lord counts as the needed Zombie. ([tresserhorn-11](../interactions/lord-of-tresserhorn.md#tresserhorn-11-gravecrawler-loops-lord-himself-is-the-other-zombie))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Lightning Greaves' shroud blocks your own Lord spells; Brotherhood Regalia doesn't: Pilot note, not a list error: Lightning Greaves' shroud blocks the deck's own Lord-targeting kill spells (Tainted Strike, Uncaged Fury, Chandra's Ignition, Pain for All, Slip Out the Back). Re-equip Greaves to another creature before the kill turn; Boots and Regalia don't conflict. ([tresserhorn-08](../interactions/lord-of-tresserhorn.md#tresserhorn-08-lightning-greaves-shroud-blocks-your-own-lord-spells-brotherhood-regalia-doesnt))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

@@ -30,7 +30,7 @@
 | Field | Value | Class | Evidence |
 |---|---|---|---|
 | Source ceiling | — (none stated) (No source ceiling stated in the blueprint, approval or approval-gate dossier (checked Bot cycle 50).) | *fact · high* | [Cecily__Bjorna__Lutri_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Cecily__Bjorna__Lutri_v1.md) · [Cecily__Bjorna__Lutri_Approved_2026-10-13.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/approvals/Cecily__Bjorna__Lutri_Approved_2026-10-13.md) · [Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md) |
-| GrokBot estimated ceiling | 4 (Bracket 4 (project list with three banned-card exceptions): draw/wheel combo power, but the commanders add little speed; the official projection is weaker.) | *strategic_judgment · moderate* | [bjorna-05](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-05-peer-into-the-abyss--teferis-ageless-insight-an-odd-library-loses) · [bjorna-11](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-11-project-exceptions-replaced-lutri-dropped-as-companion) · [Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md) |
+| GrokBot estimated ceiling | 4 (Bracket 4 (project list with three banned-card exceptions): draw/wheel combo power, but the commanders add little speed; the official projection is weaker.) | *strategic_judgment · moderate* | [bjorna-05](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-05-peer-into-the-abyss--teferis-ageless-insight-an-odd-library-loses) · [bjorna-11](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-11-canonical-list-keeps-three-authorized-project-exceptions) · [Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md) |
 | Expected bracket (list as built) | 4 (computed floor 4) | *strategic_judgment · high* | `companion:data/grixis_summary.json#Cecily__Bjorna__Lutri` |
 | Resolved ceiling | — (only Cory resolves) | | |
 | Disagreement | — (no source ceiling) | | |
@@ -64,7 +64,7 @@
 - **cecily-order:** Draw and lose 1 first, then check eleven cards; free cast from hand. (Cecily, Haunted Mage) *fact · verified* — [bjorna-02](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-02-cecily-draw-lose-1-then-check-eleven-cards)
 - **prodigy-doubles:** Harmonic Prodigy doubles Cecily, Niv-Mizzet and Archmage triggers. (Harmonic Prodigy) *fact · verified* — [bjorna-03](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-03-harmonic-prodigy-doubles-wizard-and-shaman-triggers)
 - **triskaidekaphile:** Triskaidekaphile wins with exactly thirteen cards at upkeep. (Triskaidekaphile) *fact · verified* — [bjorna-09](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-09-triskaidekaphile-needs-exactly-thirteen-at-upkeep)
-- **exceptions:** Lutri companion, Trade Secrets and Yawgmoth's Bargain are project exceptions, not Commander-legal. (Trade Secrets, Yawgmoth's Bargain, Lutri, the Spellchaser) *fact · verified* — [bjorna-11](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-11-project-exceptions-replaced-lutri-dropped-as-companion)
+- **exceptions:** Lutri companion, Trade Secrets and Yawgmoth's Bargain are project exceptions, not Commander-legal. (Trade Secrets, Yawgmoth's Bargain, Lutri, the Spellchaser) *fact · verified* — [bjorna-11](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-11-canonical-list-keeps-three-authorized-project-exceptions)
 
 ## Tutors and recursion
 
@@ -83,7 +83,7 @@
 
 - **cecily-cant-attack:** Cecily dies in combat or can't attack safely; free casts never happen. Mitigations: Bjorna goads blockers; Greaves. *strategic_judgment · high* — [Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md)
 - **wheel-shrinks-hand:** Wheels replace the hand and can drop below eleven. Mitigations: Sequence wheels before draw engines. *strategic_judgment · moderate* — [bjorna-08](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-08-wheels-with-notion-thief-and-teferis-ageless-insight)
-- **legality:** Outside the project the list is not Commander-legal (three exceptions); the official projection swaps them out and loses power. Mitigations: Projection is labeled and never canonical. *strategic_judgment · high* — [bjorna-11](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-11-project-exceptions-replaced-lutri-dropped-as-companion)
+- **legality:** Outside the project the list is not Commander-legal (three exceptions); the official projection swaps them out and loses power. Mitigations: Projection is labeled and never canonical. *strategic_judgment · high* — [bjorna-11](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-11-canonical-list-keeps-three-authorized-project-exceptions)
 
 ## Identity core
 
@@ -91,7 +91,7 @@
 - **Bjorna, Nightfall Alchemist:** Required commander; goads one blocker or attacker per turn using spare artifacts. *fact · verified* — `oracle:Bjorna, Nightfall Alchemist`
 - **Peer into the Abyss:** Central combo piece and the biggest single hand-size swing. *strategic_judgment · high* — [bjorna-06](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-06-peer-into-the-abyss--psychosis-crawler)
 - **The One Ring:** Protection plus escalating draw toward eleven. *strategic_judgment · high* — [Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md)
-- **Trade Secrets:** Project-authorized exception that fuels the hand-size plan. *approved_decision · verified* — [bjorna-11](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-11-project-exceptions-replaced-lutri-dropped-as-companion) · [Cecily__Bjorna__Lutri_Approved_2026-10-13.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/approvals/Cecily__Bjorna__Lutri_Approved_2026-10-13.md)
+- **Trade Secrets:** Project-authorized exception that fuels the hand-size plan. *approved_decision · verified* — [bjorna-11](../interactions/bjorna-nightfall-alchemist-cecily.md#bjorna-11-canonical-list-keeps-three-authorized-project-exceptions) · [Cecily__Bjorna__Lutri_Approved_2026-10-13.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/approvals/Cecily__Bjorna__Lutri_Approved_2026-10-13.md)
 
 ## Anti-goals and thematic constraints
 

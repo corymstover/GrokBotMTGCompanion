@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -474,6 +475,19 @@ Decision closeout: `refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_
 **Lock rule**
 
 This exact list is canonical for the current refinement cycle and must not be revised or reopened unless the user explicitly requests that Lynde, Cheerful Tormentor be reopened.
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 49 interaction review: **8 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Lynde, Cheerful Tormentor — Interaction Review](../interactions/lynde-cheerful-tormentor.md).
+
+- **Return trigger: battlefield to graveyard only, back at the next end step, attached to you** — Curse dies from play → returns attached to you at next end step. ([lynde-01](../interactions/lynde-cheerful-tormentor.md#lynde-01-return-trigger-battlefield-to-graveyard-only-back-at-the-next-end-step-attached-to-you))
+- **Upkeep move: one Curse, no targeting, draw two** — Moves one Curse per upkeep (ignores hexproof) and draws two. ([lynde-02](../interactions/lynde-cheerful-tormentor.md#lynde-02-upkeep-move-one-curse-no-targeting-draw-two))
+- **Extra upkeeps: Paradox Haze, The Ninth Doctor, Obeka (+ Curse of Bloodletting)** — Each extra upkeep = another Lynde move + two cards; Bloodletting doubles Obeka's count. ([lynde-04](../interactions/lynde-cheerful-tormentor.md#lynde-04-extra-upkeeps-paradox-haze-the-ninth-doctor-obeka--curse-of-bloodletting))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Curses returned to you hit you until they move: Pilot note, not a list error: Lynde's return puts Curses on you, and only one moves per upkeep. Recycle the self-harming Curses (Cruel Reality, Torment of Scarabs, Curse of Thirst, Bloodletting, Death's Hold, Echoes) last, or have an extra upkeep (Paradox Haze/Ninth Doctor/Obeka) ready to move them. Ordering Lynde first doesn't stop an upkeep Curse's trigger that is already on the stack. ([lynde-06](../interactions/lynde-cheerful-tormentor.md#lynde-06-curses-returned-to-you-hit-you-until-they-move))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

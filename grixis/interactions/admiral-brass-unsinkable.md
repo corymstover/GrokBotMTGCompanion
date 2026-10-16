@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/admiral-brass-unsinkable.txt`](../../exports/grixis-archidekt/admiral-brass-unsinkable.txt) · SHA-256 `e29dc5ed5ec6cc85863cf82408f7ecb29128e6668b5adf6ac60ea2c2b4deb2b5` |
+| Canonical project list | [`exports/grixis-archidekt/admiral-brass-unsinkable.txt`](../../exports/grixis-archidekt/admiral-brass-unsinkable.txt) · SHA-256 `e29dc5ed5ec6cc85863cf82408f7ecb29128e6668b5adf6ac60ea2c2b4deb2b5` |
 | Rulings | **15** (13 verified · 1 uncertain · 1 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) (deck #3: RULES PASS) |
@@ -49,7 +49,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### brass-01: The combat reanimation: Pirate creature card, finality counter, base 4/4, haste
 
-**Status:** ✅ verified · **Cards:** Admiral Brass, Unsinkable
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Brass, Unsinkable
 
 **Ruling.** At the beginning of combat on your turn, Brass may return target Pirate creature card from your graveyard. It comes back with a finality counter, has base power and toughness 4/4 indefinitely, and haste until end of turn, so it can attack that combat. The trigger targets on the stack, so opponents can respond by exiling the card from your graveyard. It also needs a Pirate creature card in your graveyard when the trigger goes on the stack. Brass's own enter trigger (mill four) and Buried Alive, Entomb and the looters fill the graveyard.
 
@@ -64,7 +64,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### brass-07: Skeleton Crew triggers on every reanimation and encore
 
-**Status:** ✅ verified · **Cards:** Admiral Brass, Unsinkable, Skeleton Crew, Amphin Mutineer, Living Death
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Brass, Unsinkable, Skeleton Crew, Amphin Mutineer, Living Death
 
 **Ruling.** Whenever one or more creature cards leave your graveyard, Skeleton Crew makes a 2/2 Skeleton Pirate. Each separate event triggers it once: Brass's reanimation, Reanimate, Animate Dead, Victimize (two cards at once = one trigger), Living Death (one trigger), and exiling Amphin Mutineer to pay encore. Its own {5}{B} return from the graveyard doesn't trigger it.
 
@@ -77,7 +77,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### brass-08: Descend: milling and discarding permanent cards
 
-**Status:** ✅ verified · **Cards:** Admiral Brass, Unsinkable, Enterprising Scallywag, Brass's Tunnel-Grinder // Tecutlan, the Searing Rift
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Brass, Unsinkable, Enterprising Scallywag, Brass's Tunnel-Grinder // Tecutlan, the Searing Rift
 
 **Ruling.** You descend when a permanent card goes to your graveyard from anywhere. Brass's mill four, Entomb, Buried Alive and discarding creatures all count; tokens don't. Enterprising Scallywag and Tunnel-Grinder check once at your end step. They needn't have been on the battlefield when you descended.
 
@@ -91,7 +91,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### brass-03: Power Conduit removes the finality counter
 
-**Status:** ✅ verified · **Cards:** Admiral Brass, Unsinkable, Power Conduit
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Brass, Unsinkable, Power Conduit
 
 **Ruling.** Power Conduit's cost includes removing a counter from a permanent you control, so the finality counter can go. Without it, the creature dies normally and can be reanimated again later. The 4/4 base and haste come from Brass's resolved effect, not from the counter, so they stay. Removing the counter is a cost, so it happens immediately and can't be responded to. The creature has to be on the battlefield first.
 
@@ -103,7 +103,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### brass-04: Roaming Throne (Pirate) doubles the reanimation
 
-**Status:** ✅ verified · **Cards:** Admiral Brass, Unsinkable, Roaming Throne
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Brass, Unsinkable, Roaming Throne
 
 **Ruling.** Brass is a Pirate creature, so Roaming Throne naming Pirate makes Brass's beginning-of-combat trigger trigger an additional time. Each instance needs its own target Pirate creature card. If Throne is already on the battlefield when Brass enters, Brass's mill-four enter trigger is doubled too.
 
@@ -115,7 +115,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### brass-05: Changeling cards are Pirate creature cards in the graveyard
 
-**Status:** ✅ verified · **Cards:** Admiral Brass, Unsinkable, Changeling Outcast
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Brass, Unsinkable, Changeling Outcast
 
 **Ruling.** Changeling works in every zone, so Changeling Outcast in your graveyard is a legal 'Pirate creature card' target for Brass. It returns as a 4/4 haste creature that can't be blocked.
 
@@ -126,7 +126,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### brass-09: Wonder in the graveyard gives your team flying
 
-**Status:** ✅ verified · **Cards:** Admiral Brass, Unsinkable, Wonder, Entomb, Buried Alive
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Brass, Unsinkable, Wonder, Entomb, Buried Alive
 
 **Ruling.** Wonder works from the graveyard as long as you control an Island. The list has 2 basic Islands, Volcanic Island and other Island-typed duals (Underground Sea, Steam Vents, Watery Grave, Xander's Lounge). Entomb or Buried Alive puts Wonder in the graveyard for evasive Pirate attacks that feed Beckett-style combat triggers. Wonder is an Incarnation, not a Pirate, so Brass can't return it.
 
@@ -137,7 +137,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### brass-10: Mass reanimation: Patriarch's Bidding and Living Death are symmetric
 
-**Status:** ⚠️ uncertain · **Cards:** Admiral Brass, Unsinkable, Patriarch's Bidding, Living Death
+**Status:** ⚠️ uncertain · **Evidence:** strategic_judgment · **Cards:** Admiral Brass, Unsinkable, Patriarch's Bidding, Living Death
 
 **Ruling.** Each player chooses a type for Patriarch's Bidding. You choose Pirate (changelings included), but opponents return their own chosen type too. Living Death returns every player's graveyard creatures after everyone sacrifices their board. Your finality-counter creatures are exiled during the sacrifice (brass-02). These are table-wide effects; the value depends on the graveyards.
 
@@ -151,7 +151,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### brass-11: Victimize needs two targets and a sacrifice on resolution
 
-**Status:** ✅ verified · **Cards:** Admiral Brass, Unsinkable, Victimize
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Brass, Unsinkable, Victimize
 
 **Ruling.** Victimize must target two creature cards in your graveyard. The sacrifice happens on resolution, so the creature you sacrifice can't be one of the returned cards. If one target is gone you still sacrifice and return the other. A Brass-returned creature sacrificed to it is exiled (finality).
 
@@ -163,7 +163,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### brass-13: Gemcutter Buccaneer turns Treasures into Pirate equipment
 
-**Status:** ✅ verified · **Cards:** Admiral Brass, Unsinkable, Gemcutter Buccaneer
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Brass, Unsinkable, Gemcutter Buccaneer
 
 **Ruling.** With Gemcutter Buccaneer, Treasures are also Equipment with 'Equipped creature gets +2/+0', and equip Pirate {1} is cheaper than equip {3}. Sacrificing an attached Treasure for mana removes the bonus. Each Pirate that enters makes a tapped Treasure, including Brass's reanimations.
 
@@ -176,7 +176,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### brass-06: Base 4/4 overwrites earlier P/T-setting effects; lords and counters still apply
 
-**Status:** ✅ verified · **Cards:** Admiral Brass, Unsinkable, Admiral Beckett Brass, Corsair Captain, Skeleton Crew, Animate Dead
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Brass, Unsinkable, Admiral Beckett Brass, Corsair Captain, Skeleton Crew, Animate Dead
 
 **Ruling.** Brass's base 4/4 is a layer 7b setting effect. It overwrites earlier setting effects but not modifications. Beckett's, Corsair Captain's and Skeleton Crew's +1/+1, +1/+1 counters, and Animate Dead's −1/−0 (on a different reanimation) apply in layer 7c on top.
 
@@ -189,7 +189,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### brass-02: Finality counters mean exile, not death
 
-**Status:** 🚩 list flag · **Cards:** Admiral Brass, Unsinkable, Pitiless Plunderer, Victimize, Living Death
+**Status:** 🚩 list flag · **Evidence:** fact · **Cards:** Admiral Brass, Unsinkable, Pitiless Plunderer, Victimize, Living Death
 
 **Ruling.** A creature with a finality counter that would go to the graveyard from the battlefield is exiled instead, so it never 'dies'.
 - **Pitiless Plunderer** doesn't make a Treasure for it.
@@ -209,7 +209,7 @@ Bounce or other zone changes work normally. Remove the counter with Power Condui
 
 ### brass-12: Angrath's Marauders doubles all your damage
 
-**Status:** ✅ verified · **Cards:** Admiral Brass, Unsinkable, Angrath's Marauders, Broadside Bombardiers
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Brass, Unsinkable, Angrath's Marauders, Broadside Bombardiers
 
 **Ruling.** Angrath's Marauders doubles damage from any source you control to any permanent or player: combat damage, Broadside Bombardiers' boast, and so on. For trample you assign the unmodified damage first. Divided damage is divided before doubling.
 
@@ -223,7 +223,7 @@ Bounce or other zone changes work normally. Remove the counter with Power Condui
 
 ### brass-14: Commander tax and the graveyard plan
 
-**Status:** ✅ verified · **Cards:** Admiral Brass, Unsinkable
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Brass, Unsinkable
 
 **Ruling.** Brass costs {2}{U}{B}{R}, then 7, then 9. Each recast mills four more. The deck relies on its graveyard, so graveyard hate (exile effects, Rest in Peace-style pieces) stops both Brass's trigger and the reanimation spells. Brass's trigger targets, so a response that exiles the target card fizzles it.
 
@@ -236,7 +236,7 @@ Bounce or other zone changes work normally. Remove the counter with Power Condui
 
 ### brass-15: What the list depends on
 
-**Status:** ✅ verified · **Cards:** Admiral Brass, Unsinkable, Buried Alive, Entomb, Reanimate, Animate Dead
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Admiral Brass, Unsinkable, Buried Alive, Entomb, Reanimate, Animate Dead
 
 **Ruling.** The deck depends on Pirate creature cards in the graveyard at beginning of combat and on Brass surviving to combat. Entomb (instant) and Buried Alive set up the turn before. Reanimate costs life equal to the card's mana value. Animate Dead's creature is sacrificed if the Aura leaves. No two-card combo (Spellbook lists none); the plan is recurring value and combat.
 

@@ -60,7 +60,8 @@
      "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
      "item": "Don Andres controlled-but-not-owned creature static effect"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "donandres-02",
@@ -96,7 +97,8 @@
      "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
      "item": "Court of Locthwain stolen-card casting"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "donandres-03",
@@ -135,7 +137,8 @@
      "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
      "item": "Arcane Heist cipher copies"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "donandres-04",
@@ -174,7 +177,8 @@
      "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
      "item": "Animate Dead and Reanimate opposing graveyards"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "donandres-05",
@@ -209,7 +213,8 @@
      "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
      "item": "Thieving Amalgam manifest interaction"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "donandres-06",
@@ -287,7 +292,8 @@
      "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
      "item": "Roaming Throne naming Pirate"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "donandres-08",
@@ -314,7 +320,8 @@
      "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
      "item": "Wand of Wonder multi-cast interaction"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "donandres-09",
@@ -361,7 +368,8 @@
      "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
      "item": "Black Cat, Cunning Thief"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "donandres-10",
@@ -405,7 +413,8 @@
      "path": "refinement/verification/don_andres_the_renegade_2026-10-14/Don_Andres_the_Renegade_Rules_Attestation.json",
      "item": "Kindred Discovery / Coercive Recruiter Pirate checks"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "donandres-11",
@@ -442,7 +451,8 @@
      "card": "Thieving Varmint",
      "quote": "You may spend the two mana added by the last ability on the same spell you don’t own or on two different spells you don’t own."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "donandres-12",
@@ -468,7 +478,8 @@
      "card": "Admiral Beckett Brass",
      "quote": "In a multiplayer game, if a player leaves the game, all cards that player owns leave as well, and any effects that give the player control of permanents immediately end."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   }
  ]
 }

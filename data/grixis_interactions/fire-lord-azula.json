@@ -63,7 +63,8 @@
      "path": "refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json",
      "item": "Fire Lord Azula copy timing"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "azula-02",
@@ -147,7 +148,8 @@
      "path": "refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json",
      "item": "Demand Answers with attacking Azula"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "azula-04",
@@ -175,7 +177,8 @@
      "path": "refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json",
      "item": "Beseech the Mirror bargain copy"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "azula-05",
@@ -379,7 +382,8 @@
      "path": "refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json",
      "item": "Arena of Glory haste on Azula"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "azula-10",
@@ -406,7 +410,8 @@
      "path": "refinement/verification/fire_lord_azula_2026-10-14/Fire_Lord_Azula_Rules_Attestation.json",
      "item": "Permanent spell copies"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "azula-11",

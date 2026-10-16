@@ -62,7 +62,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "Current Ashnod has **no once-per-turn restriction** and does **not** require the sacrificed permanent to be nontoken."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "ashnod-02",
@@ -98,7 +99,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "the prior `Goblin Welder` noninteraction conclusion therefore remains correct."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "ashnod-03",
@@ -130,7 +132,8 @@
      "quote": "{T}, Sacrifice this artifact: Look at the top card of target player's library. Draw a card at the beginning of the next turn's upkeep."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   },
   {
    "id": "ashnod-04",
@@ -163,7 +166,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "`Oni-Cult Anvil`, `Arcbound Ravager`, `Trading Post` sacrifice modes, `Repurposing Bay`, `Time Sieve`, and other nonmana artifact/creature activated abilities qualify"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "ashnod-05",
@@ -191,7 +195,8 @@
      "card": "Repurposing Bay",
      "quote": "If there’s an {X} in the sacrificed artifact’s mana cost, X is 0 when determining its mana value."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "ashnod-06",
@@ -218,7 +223,8 @@
      "card": "Rings of Brighthearth",
      "quote": "If paying the activation cost of the ability includes sacrificing Rings of Brighthearth, the ability won't be copied."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "ashnod-07",
@@ -240,7 +246,8 @@
      "quote": "Commander creatures you own have \"{2}, Sacrifice an artifact: Put a +1/+1 counter on this creature and draw a card.\""
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   },
   {
    "id": "ashnod-08",
@@ -289,7 +296,8 @@
      "id": "1020-2034-2866-5346",
      "quote": "One of the artifact creatures must be on the battlefield, with the other in your graveyard."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "ashnod-09",
@@ -326,7 +334,8 @@
      "id": "4659-5003-5272",
      "quote": "Resolve the Farid trigger, creating a Scrap artifact token."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "ashnod-10",
@@ -357,7 +366,8 @@
      "quote": "{2}, {T}: Create a 1/1 colorless Servo artifact creature token."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   },
   {
    "id": "ashnod-11",
@@ -383,7 +393,8 @@
      "quote": "This ability triggers only once each turn."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   },
   {
    "id": "ashnod-12",
@@ -406,7 +417,8 @@
      "quote": "{T}, Sacrifice a creature: This artifact deals 1 damage to any target."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   }
  ]
 }

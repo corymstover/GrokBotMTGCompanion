@@ -68,7 +68,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "the permanents need not still be on the battlefield at the end step for the turn-history condition to have happened."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "beckett-02",
@@ -106,7 +107,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "`Roaming Throne` choosing Pirate causes a triggered ability of another Pirate creature you control to trigger an additional time"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "beckett-03",
@@ -139,7 +141,8 @@
      "card": "Kari Zev, Skyship Raider",
      "quote": "Although Ragavan is attacking, it was never declared as an attacking creature"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "beckett-04",
@@ -177,7 +180,8 @@
      "card": "Don Andres, the Renegade",
      "quote": "The player who creates a token is its owner."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "beckett-05",
@@ -204,7 +208,8 @@
      "card": "Zara, Renegade Recruiter",
      "quote": "Although the creature is attacking, it was never declared as an attacking creature."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "beckett-06",
@@ -231,7 +236,8 @@
      "quote": "Create a 3/2 colorless Shapeshifter creature token with changeling."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   },
   {
    "id": "beckett-07",
@@ -259,7 +265,8 @@
      "quote": "Return all creatures that aren't of the chosen type to their owners' hands."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   },
   {
    "id": "beckett-08",
@@ -295,7 +302,8 @@
      "card": "Double Down",
      "quote": "Double Down's ability doesn't trigger if an outlaw permanent is put onto the battlefield without being cast."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "beckett-09",
@@ -326,7 +334,8 @@
      "card": "Roaming Throne",
      "quote": "Roaming Throne's last ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "beckett-17",
@@ -354,7 +363,8 @@
      "card": "Breeches, Eager Pillager",
      "quote": "If you can't legally choose a mode because all three have been chosen that turn, that instance of the ability is removed from the stack with no effect."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "beckett-10",
@@ -381,7 +391,8 @@
      "card": "Port Razer",
      "quote": "Port Razer doesn't have to attack in any additional combat it creates (or any other time for that matter)."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "beckett-11",
@@ -411,7 +422,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "the resulting Beckett condition still depends on actual combat damage."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "beckett-12",
@@ -437,7 +449,8 @@
      "card": "The Indomitable",
      "quote": "The Indomitable checks if you control three or more tapped Pirates and/or Vehicles only as you begin to cast it."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "beckett-13",
@@ -466,7 +479,8 @@
      "card": "Edward Kenway",
      "quote": "If a tapped permanent you control has more than one of the subtypes listed in Edward’s first ability, count it only once when determining how many Treasure tokens to create."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "beckett-14",
@@ -498,7 +512,8 @@
      "card": "Admiral Brass, Unsinkable",
      "quote": "Effects that otherwise modify the returned creature's power and toughness will still apply no matter when they took effect."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "beckett-15",
@@ -530,7 +545,8 @@
      "card": "Fierce Guardianship",
      "quote": "It doesn't matter whose commander you control. Any one will do."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "beckett-16",
@@ -550,7 +566,8 @@
      "quote": "At the beginning of your end step, gain control of target nonland permanent controlled by a player who was dealt combat damage by three or more Pirates this turn."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   }
  ]
 }

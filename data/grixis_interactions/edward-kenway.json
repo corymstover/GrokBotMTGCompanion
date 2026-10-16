@@ -59,7 +59,8 @@
      "path": "refinement/verification/edward_kenway_2026-10-14/Edward_Kenway_Rules_Attestation.json",
      "item": "Edward subtype count-once rule"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "edward-02",
@@ -106,7 +107,8 @@
      "path": "refinement/verification/edward_kenway_2026-10-14/Edward_Kenway_Rules_Attestation.json",
      "item": "Ramirez versus Edward exile permissions"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "edward-03",
@@ -410,7 +412,8 @@
      "path": "refinement/verification/edward_kenway_2026-10-14/Edward_Kenway_Rules_Attestation.json",
      "item": "RMS Titanic timing with Edward"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "edward-10",
@@ -442,7 +445,8 @@
      "path": "refinement/verification/edward_kenway_2026-10-14/Edward_Kenway_Rules_Attestation.json",
      "item": "Roaming Throne with Edward"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "edward-11",
@@ -470,7 +474,8 @@
      "path": "refinement/verification/edward_kenway_2026-10-14/Edward_Kenway_Rules_Attestation.json",
      "item": "Ramirez and Don Andres"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   }
  ]
 }

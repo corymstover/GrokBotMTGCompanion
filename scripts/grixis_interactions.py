@@ -8,7 +8,10 @@ Renders: grixis/interactions/<slug>.md          (full review)
          grixis/interactions/README.md           status table between <!-- INTERACTIONS-STATUS --> markers
 
 Every citation is machine-checked (`--check`, a validate_all step):
-  * deck_sha256 = SHA-256 of the deck's current final list (exports/grixis-archidekt/<slug>.txt);
+  * deck_sha256 = SHA-256 of the deck's canonical project list: the M0 registry's canonical_project_list.export
+    (data/grixis/registry.json), which is exports/grixis-archidekt/<slug>.txt except for the decks whose canonical
+    list is a source baseline (exports/grixis-archidekt/source-baseline/<slug>.txt); list_source must name it;
+  * every interaction has an evidence_class from the seven M0 authority classes;
   * every card named in an interaction is in that list (or listed in `absent` / the companion);
   * every CR rule number exists in the cached Comprehensive Rules (version must match `cr_version`);
   * every Oracle quote is verbatim in the card's current Oracle text (Scryfall oracle bulk);
@@ -54,7 +57,7 @@ CATS = [("commander", "Commander rules text and edge cases"), ("combo", "Combos 
 CAT_IDS = [c for c, _ in CATS]
 STATUS = {"verified": "✅ verified", "uncertain": "⚠️ uncertain", "flag": "🚩 list flag"}
 SPELLBOOK = ROOT / "data" / "grixis_spellbook_steps.json"
-# Evidence classes (M0 authority foundation). Optional until M0 lands, then required.
+# Evidence classes (M0 authority foundation). Required on every interaction since Bot cycle 49 (M0 on main).
 EVIDENCE = {"fact", "derived_metric", "heuristic", "hypothesis", "test_result", "strategic_judgment", "approved_decision"}
 FLAG_KINDS = {"non-bo", "anti-synergy", "misunderstood-combo", "dead-card", "dependency-risk", "documentation", "other"}
 
@@ -88,15 +91,35 @@ class Ctx:
         return self.rul.get(c["oracle_id"], []) if c else []
 
 
-def deck_list(slug):
-    p = EXPORTS / f"{slug}.txt"
+REGISTRY = ROOT / "data" / "grixis" / "registry.json"
+_REG = None
+
+
+def list_path(slug):
+    """Repo-relative path of the list a review must hash (Bot cycle 49, M1 on M0): the deck's
+    `canonical_project_list.export` from the M0 authority registry (read-only here), else the legacy export."""
+    global _REG
+    if _REG is None:
+        _REG = {}
+        if REGISTRY.exists():
+            for d in json.loads(REGISTRY.read_text(encoding="utf-8")).get("decks", {}).values():
+                exp = (d.get("canonical_project_list") or {}).get("export")
+                if d.get("slug") and exp:
+                    _REG[d["slug"]] = exp
+    return _REG.get(slug, f"exports/grixis-archidekt/{slug}.txt")
+
+
+def deck_list(slug, with_companion=False):
+    p = ROOT / list_path(slug)
     raw = p.read_bytes()
-    cmd, main = [], []
+    cmd, main, comp = [], [], []
     for line in raw.decode("utf-8").splitlines():
-        m = re.match(r"^(\d+) (.+?)(?: \[Commander\])?$", line.strip())
+        m = re.match(r"^(\d+) (.+?)(?: \[(Commander|Companion)\])?$", line.strip())
         if not m:
             continue
-        (cmd if line.rstrip().endswith("[Commander]") else main).append(m.group(2))
+        {"Commander": cmd, "Companion": comp}.get(m.group(3), main).append(m.group(2))
+    if with_companion:
+        return cmd, main, comp, hashlib.sha256(raw).hexdigest()
     return cmd, main, hashlib.sha256(raw).hexdigest()
 
 
@@ -164,8 +187,12 @@ def spellbook():
 # ---------------------------------------------------------------- validation
 def validate(slug, d, ctx):
     bad = []
-    cmd, main, h = deck_list(slug)
+    cmd, main, comp, h = deck_list(slug, with_companion=True)
     have = set(cmd) | set(main) | set(d.get("companion", []))
+    if d.get("list_source") != list_path(slug):
+        bad.append(f"list_source {d.get('list_source')} ≠ canonical project list {list_path(slug)} (M0 registry)")
+    if comp and sorted(d.get("companion", [])) != sorted(comp):
+        bad.append(f"companion {d.get('companion')} ≠ list companion {comp}")
     absent = set(d.get("absent", []))
     if d.get("deck_sha256") != h:
         bad.append(f"deck_sha256 {str(d.get('deck_sha256'))[:12]} ≠ current list {h[:12]} (re-review the changed cards)")
@@ -207,8 +234,8 @@ def validate(slug, d, ctx):
         for q in it.get("rulings", []):
             if not any(norm(q["quote"]) in norm(r["comment"]) for r in ctx.rulings(q["card"])):
                 bad.append(f"{i}: ruling quote not found for {q['card']}: {q['quote'][:60]}")
-        if it.get("evidence_class") is not None and it["evidence_class"] not in EVIDENCE:
-            bad.append(f"{i}: unknown evidence_class {it['evidence_class']}")
+        if it.get("evidence_class") not in EVIDENCE:
+            bad.append(f"{i}: evidence_class {it.get('evidence_class')!r} not in {sorted(EVIDENCE)} (required since M0)")
         for q in it.get("spellbook", []):
             v = spellbook().get(q.get("id"))
             if not v or not v.get("steps"):
@@ -252,7 +279,7 @@ def render(slug, d, ctx):
          f"[Comprehensive Rules]({CR_URL}) effective {ctx.cr_version}; quotes are verbatim and machine-verified by `scripts/grixis_interactions.py --check`. "
          "Source attestations from the archived source repo were re-verified, not copied.", "",
          "| | |", "|---|---|",
-         f"| Current list | [`exports/grixis-archidekt/{slug}.txt`](../../exports/grixis-archidekt/{slug}.txt) · SHA-256 `{h}` |",
+         f"| Canonical project list | [`{list_path(slug)}`](../../{list_path(slug)}) · SHA-256 `{h}` |",
          f"| Rulings | **{len(its)}** ({len(its) - n_flag - n_unc} verified · {n_unc} uncertain · {n_flag} flags) |",
          f"| CR / Oracle / rulings | CR {ctx.cr_version} · Oracle {ctx.R.bulk[:10]} · rulings {ctx.rdate[:10]} |"]
     if d.get("source_attestations"):

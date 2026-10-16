@@ -13,7 +13,7 @@ schema: 2
 
 | | |
 |---|---|
-| Current list | [`exports/grixis-archidekt/davros-dalek-creator.txt`](../../exports/grixis-archidekt/davros-dalek-creator.txt) · SHA-256 `c4d7cc547b742cc562c33e9ab3debca5d2c51fdeaad0b81a9f01e0a2c4f5bf30` |
+| Canonical project list | [`exports/grixis-archidekt/davros-dalek-creator.txt`](../../exports/grixis-archidekt/davros-dalek-creator.txt) · SHA-256 `c4d7cc547b742cc562c33e9ab3debca5d2c51fdeaad0b81a9f01e0a2c4f5bf30` |
 | Rulings | **9** (9 verified · 0 uncertain · 0 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Davros_Dalek_Creator_Rules_Attestation.json`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json) (15 interactions, all PASS) |
@@ -38,7 +38,7 @@ Key rule: Davros's condition is checked on resolution, not an intervening if, so
 
 ### davros-01: The 3-life check is on resolution, not an intervening if
 
-**Status:** ✅ verified · **Cards:** Davros, Dalek Creator
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Davros, Dalek Creator
 
 **Ruling.** Davros's 'if an opponent lost 3 or more life this turn' comes after the effect, not right after the trigger condition, so it isn't an intervening-if clause. Davros always triggers at your end step and checks the turn's life-loss history on resolution. So end-step drains (Perforating Artist, Wound Reflection, Missy) ordered above Davros still count.
 
@@ -50,7 +50,7 @@ Key rule: Davros's condition is checked on resolution, not an intervening if, so
 
 ### davros-02: Villainous choices resolve player by player
 
-**Status:** ✅ verified · **Cards:** Davros, Dalek Creator
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Davros, Dalek Creator
 
 **Ruling.** Each qualifying opponent faces 'you draw a card, or that player discards a card'. With several opponents, the first in turn order chooses and that option is carried out before the next player chooses. A player may pick either option even if it's impossible (discarding from an empty hand).
 
@@ -64,7 +64,7 @@ Key rule: Davros's condition is checked on resolution, not an intervening if, so
 
 ### davros-06: Entropic Battlecruiser at station 1+ punishes discards
 
-**Status:** ✅ verified · **Cards:** Davros, Dalek Creator, Entropic Battlecruiser, Court of Ambition, Geier Reach Sanitarium
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Davros, Dalek Creator, Entropic Battlecruiser, Court of Ambition, Geier Reach Sanitarium
 
 **Ruling.** With at least one charge counter, Battlecruiser makes each opponent who discards lose 3 life. It doesn't need to be a creature for that; it becomes an artifact creature at 8+. Station is sorcery speed: tap another creature, add counters equal to its power.
 
@@ -85,7 +85,7 @@ This turns 'or discard' options into 3 life:
 
 ### davros-07: Fixed 3-life enablers
 
-**Status:** ✅ verified · **Cards:** Davros, Dalek Creator, Maestros Charm, Loyal Subordinate
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Davros, Dalek Creator, Maestros Charm, Loyal Subordinate
 
 **Ruling.** Maestros Charm's drain mode (each opponent loses 3, you gain 3) and Loyal Subordinate (beginning of combat, if you control your commander: each opponent loses 3) each qualify every opponent for Davros that turn.
 
@@ -99,7 +99,7 @@ This turns 'or discard' options into 3 life:
 
 ### davros-08: Labyrinth Raptor and menace Daleks
 
-**Status:** ✅ verified · **Cards:** Davros, Dalek Creator, Labyrinth Raptor
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Davros, Dalek Creator, Labyrinth Raptor
 
 **Ruling.** Davros and the Dalek tokens have menace. When one becomes blocked, Labyrinth Raptor makes the defending player sacrifice a creature of their choice that's blocking it. {B}{R} gives all your menace creatures +1/+0.
 
@@ -113,7 +113,7 @@ This turns 'or discard' options into 3 life:
 
 ### davros-05: The Valeyard doubles every villainous choice
 
-**Status:** ✅ verified · **Cards:** Davros, Dalek Creator, The Valeyard, Missy, The Dalek Emperor, Genesis of the Daleks
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Davros, Dalek Creator, The Valeyard, Missy, The Dalek Emperor, Genesis of the Daleks
 
 **Ruling.** Whenever an opponent would face a villainous choice, The Valeyard makes them face it an additional time; they can choose differently. This doubles Davros's, Missy's, The Dalek Emperor's and Genesis of the Daleks chapter IV choices.
 
@@ -127,7 +127,7 @@ This turns 'or discard' options into 3 life:
 
 ### davros-03: Order end-step drains above Davros
 
-**Status:** ✅ verified · **Cards:** Davros, Dalek Creator, Perforating Artist, Wound Reflection, Missy
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Davros, Dalek Creator, Perforating Artist, Wound Reflection, Missy
 
 **Ruling.** Perforating Artist (raid), Wound Reflection and Missy also trigger at the beginning of your end step. Put Davros on the stack first and the others on top so they resolve first:
 - **Wound Reflection:** doubles each opponent's life lost so far, so someone who lost 2 has now lost 4.
@@ -146,7 +146,7 @@ Then Davros resolves with more opponents qualifying.
 
 ### davros-04: Copying and doubling Davros
 
-**Status:** ✅ verified · **Cards:** Davros, Dalek Creator, Scientist Supreme of A.I.M., Strionic Resonator, Roaming Throne, Auton Soldier
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Davros, Dalek Creator, Scientist Supreme of A.I.M., Strionic Resonator, Roaming Throne, Auton Soldier
 
 **Ruling.** Several cards repeat Davros's trigger; each instance resolves separately and checks life loss when it resolves:
 - **Scientist Supreme (once per turn, your turn) and Strionic Resonator:** copy it, because Davros is an artifact.
@@ -166,7 +166,7 @@ Then Davros resolves with more opponents qualifying.
 
 ### davros-09: Commander tax; Loyal Subordinate needs Davros out
 
-**Status:** ✅ verified · **Cards:** Davros, Dalek Creator, Loyal Subordinate
+**Status:** ✅ verified · **Evidence:** fact · **Cards:** Davros, Dalek Creator, Loyal Subordinate
 
 **Ruling.** Davros costs {1}{U}{B}{R}, then 6, then 8. Loyal Subordinate checks that you control your commander at beginning of combat, so it's off while Davros is in the command zone. Davros is an artifact creature, so artifact copy effects (Scientist Supreme, Auton Soldier) apply.
 

@@ -54,7 +54,8 @@
      "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
      "item": "Davros end-step trigger and 3-life qualification timing"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "davros-02",
@@ -78,7 +79,8 @@
      "card": "Davros, Dalek Creator",
      "quote": "A player facing a villainous choice can always choose either option, even if one or both of the options are impossible."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "davros-03",
@@ -117,7 +119,8 @@
      "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
      "item": "Missy ordering with Davros"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "davros-04",
@@ -161,7 +164,8 @@
      "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
      "item": "Auton Soldier entering as Davros"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "davros-05",
@@ -192,7 +196,8 @@
      "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
      "item": "Davros + The Valeyard"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "davros-06",
@@ -230,7 +235,8 @@
      "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
      "item": "Geier Reach Sanitarium + Entropic Battlecruiser at station 1+"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "davros-07",
@@ -266,7 +272,8 @@
      "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
      "item": "Loyal Subordinate threshold line"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "davros-08",
@@ -294,7 +301,8 @@
      "path": "refinement/verification/davros_dalek_creator_2026-10-14/Davros_Dalek_Creator_Rules_Attestation.json",
      "item": "Labyrinth Raptor + Davros/Dalek menace creatures"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "davros-09",
@@ -316,7 +324,8 @@
      "quote": "Menace"
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "evidence_class": "fact"
   }
  ]
 }

@@ -5,8 +5,8 @@
  "commanders": [
   "Abaddon the Despoiler"
  ],
- "deck_sha256": "848b3bdcf8dac911ccaa9a448cd9c943b1d7a10dd135dd690ee935d005ce0b44",
- "list_source": "exports/grixis-archidekt/abaddon-the-despoiler.txt",
+ "deck_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+ "list_source": "exports/grixis-archidekt/source-baseline/abaddon-the-despoiler.txt",
  "reviewed": "2026-10-16",
  "cycle": 46,
  "batch": "A",
@@ -27,7 +27,7 @@
    "note": "deck #1: RULES PASS"
   }
  ],
- "summary": "Abaddon gives hand-cast spells cascade on your turn, up to the life opponents have lost that turn. This review re-verifies the source's 63 KB interaction review and the retrospective attestation against current Oracle text, rulings and CR 2026-09-25. It also covers the refined list's Stormfist Crusader.\n\nNew findings:\n- Abaddon's cascade is mandatory once a spell qualifies. It can send a card tutored to the top to the bottom, and any 0-MV spell cast on your turn randomizes your whole library. Both are sequencing hazards.\n- The source's mana value for Call Forth the Tempest is wrong (8, not 11).\n\nThe Breach package is rules-coherent but finite and fuel-dependent.",
+ "summary": "Abaddon gives hand-cast spells cascade on your turn, up to the life opponents have lost that turn. This review re-verifies the source's 63 KB interaction review and the retrospective attestation against current Oracle text, rulings and CR 2026-09-25. Bot cycle 49 re-reviewed it against the M0 canonical project list (the source baseline, with Mystic Remora; GrokBot's unapproved Stormfist Crusader swap is not canonical).\n\nNew findings:\n- Abaddon's cascade is mandatory once a spell qualifies. It can send a card tutored to the top to the bottom, and any 0-MV spell cast on your turn randomizes your whole library. Both are sequencing hazards.\n- The source's mana value for Call Forth the Tempest is wrong (8, not 11).\n\nThe Breach package is rules-coherent but finite and fuel-dependent.",
  "absent": [],
  "companion": [],
  "interactions": [
@@ -62,7 +62,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "The threshold uses life actually lost, not attempted/prevented damage."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-02",
@@ -99,7 +100,8 @@
      "path": "refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md",
      "quote": "A spell cast from exile by cascade is not cast from hand and does not receive Abaddon's grant"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-03",
@@ -110,7 +112,7 @@
     "Thermo-Alchemist",
     "Boltwave"
    ],
-   "ruling": "Cascade is a cast trigger, so whether the spell has cascade is fixed when casting finishes. If a spell's own damage or life loss pushes X up after it resolves, that same spell does not gain cascade. Raise X first: ping with Thermo-Alchemist, let Loyal Subordinate's or Stormfist Crusader's triggers resolve, or resolve a Boltwave. Only then cast the spell that needs the higher threshold.",
+   "ruling": "Cascade is a cast trigger, so whether the spell has cascade is fixed when casting finishes. If a spell's own damage or life loss pushes X up after it resolves, that same spell does not gain cascade. Raise X first: ping with Thermo-Alchemist, let Loyal Subordinate's trigger resolve, or resolve a Boltwave. Only then cast the spell that needs the higher threshold.",
    "short": "Build X before casting: a spell's own damage can't give it cascade retroactively.",
    "status": "verified",
    "key": true,
@@ -139,7 +141,8 @@
      "path": "refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md",
      "quote": "Abaddon checks the threshold as each spell is cast. Life loss caused by that spell after it has been cast cannot retroactively give that spell cascade."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-04",
@@ -183,7 +186,8 @@
      "path": "refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md",
      "quote": "The general rule is that **alternate cost changes what is paid, not mana value or the hand-cast zone condition**."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-05",
@@ -216,7 +220,8 @@
      "path": "refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md",
      "quote": "Cascade resolves before its source spell, so the cantrip/tutor cannot set up the top card for its own already-triggered cascade"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-06",
@@ -257,7 +262,8 @@
      "path": "refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md",
      "quote": "A tutor that puts a card on top can therefore set up a later, higher-mana-value cascade spell."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-07",
@@ -294,7 +300,8 @@
      "path": "refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md",
      "quote": "Pact of Negation remains different: its mana value is 0, so no card can have lower mana value than it; its cascade instance cannot find a legal card to cast."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-08",
@@ -334,7 +341,8 @@
      "path": "refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md",
      "quote": "**Call Forth the Tempest** has two printed instances of cascade and mana value 11 ({8}{R}{R}{R})."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-09",
@@ -373,7 +381,8 @@
      "path": "refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md",
      "quote": "When cast from exile this way they are normal spell casts, not suspend casts."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-10",
@@ -386,7 +395,7 @@
     "Boltwave",
     "Flame Rift"
    ],
-   "ruling": "Solphim doubles noncombat **damage** from your sources to opponents. Bloodletter doubles the **life loss** an opponent takes on your turn. They are replacement effects on different events, so both apply. Boltwave's 3 becomes 6 damage, which causes 12 life lost per opponent, so X = 36 at a three-opponent table. Flame Rift's 4 becomes 8 damage and 16 lost per opponent; the 4 it deals to you is not doubled. Bloodletter doesn't change damage, so lifelink gains only the damage dealt. Solphim does nothing for pure life loss (Loyal Subordinate, Stormfist Crusader, The Ruinous Powers).",
+   "ruling": "Solphim doubles noncombat **damage** from your sources to opponents. Bloodletter doubles the **life loss** an opponent takes on your turn. They are replacement effects on different events, so both apply. Boltwave's 3 becomes 6 damage, which causes 12 life lost per opponent, so X = 36 at a three-opponent table. Flame Rift's 4 becomes 8 damage and 16 lost per opponent; the 4 it deals to you is not doubled. Bloodletter doesn't change damage, so lifelink gains only the damage dealt. Solphim does nothing for pure life loss (Loyal Subordinate, The Ruinous Powers).",
    "short": "Solphim doubles damage, Bloodletter doubles the resulting life loss: Boltwave → 12 per opponent.",
    "status": "verified",
    "key": true,
@@ -416,31 +425,26 @@
      "path": "refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md",
      "quote": "These are replacement effects acting on different parts of damage/life loss."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-11",
    "category": "engine",
-   "title": "Upkeep and combat life loss open the threshold early",
+   "title": "Combat life loss opens the threshold early",
    "cards": [
     "Abaddon the Despoiler",
-    "Stormfist Crusader",
     "Loyal Subordinate",
     "Bloodletter of Aclazotz"
    ],
-   "ruling": "Stormfist Crusader (added in the refined list) makes each player lose 1 at your upkeep. Each opponent loses 1, so X = 3 at a four-player table before your main phase, or 6 with Bloodletter. Your own 1 doesn't count. Loyal Subordinate makes each opponent lose 3 at beginning of combat if you control your commander as it resolves, so 9, or 18 with Bloodletter. That opens Abaddon cascades for post-combat main-phase spells. Both are life loss, not damage, so Solphim doesn't double them.",
-   "short": "Stormfist (upkeep, 1 each) and Loyal Subordinate (combat, 3 each) build X without damage.",
-   "status": "uncertain",
-   "uncertainty": "The exact X depends on table size (three opponents assumed) and on Stormfist also feeding opponents a card each turn; this is a strategic cost, not a rules question.",
+   "ruling": "Loyal Subordinate makes each opponent lose 3 at beginning of combat if you control your commander as it resolves. That's X = 9 at a four-player table, or 18 with Bloodletter, which opens Abaddon cascades for post-combat main-phase spells. It's life loss, not damage, so Solphim doesn't double it. (The cycle 46 version of this ruling also covered Stormfist Crusader, a GrokBot challenger swap that isn't in the canonical list.)",
+   "short": "Loyal Subordinate (combat, 3 each) builds X without damage: 9, or 18 with Bloodletter.",
+   "status": "verified",
    "cr": [
     "603.4",
     "119.3"
    ],
    "oracle": [
-    {
-     "card": "Stormfist Crusader",
-     "quote": "At the beginning of your upkeep, each player draws a card and loses 1 life."
-    },
     {
      "card": "Loyal Subordinate",
      "quote": "At the beginning of combat on your turn, if you control your commander, each opponent loses 3 life."
@@ -452,12 +456,47 @@
      "quote": "If you don’t control your commander as the lieutenant ability resolves, you won’t get its effect."
     }
    ],
+   "evidence_class": "derived_metric",
    "source": [
     {
      "path": "refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md",
      "quote": "**Loyal Subordinate + Bloodletter**"
     }
    ]
+  },
+  {
+   "id": "abaddon-29",
+   "category": "engine",
+   "title": "Mystic Remora: triggers aren't casts; its own cascade can only hit a 0-drop",
+   "cards": [
+    "Abaddon the Despoiler",
+    "Mystic Remora"
+   ],
+   "ruling": "Mystic Remora's cumulative upkeep and draw triggers aren't spells cast, so they don't raise X or cascade. Cast from hand on your turn with X ≥ 1, Remora (mana value 1) cascades into a mana-value-0 nonland card only. That randomizes your library like any 0-drop cascade (abaddon-07). It's in the canonical list in the slot GrokBot's challenger gave to Stormfist Crusader.",
+   "status": "verified",
+   "cr": [
+    "702.24a",
+    "702.85a"
+   ],
+   "oracle": [
+    {
+     "card": "Mystic Remora",
+     "quote": "Whenever an opponent casts a noncreature spell, you may draw a card unless that player pays {4}."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Mystic Remora",
+     "quote": "Paying cumulative upkeep is always optional. If it's not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can't be made."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md",
+     "quote": "Its upkeep and draw triggers are not casts and do not increase Abaddon's threshold."
+    }
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-12",
@@ -488,7 +527,8 @@
      "card": "Neheb, the Eternal",
      "quote": "Because it triggers at the beginning of a phase, Neheb's last ability isn't a mana ability."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-13",
@@ -523,7 +563,8 @@
      "card": "Rakdos, Lord of Riots",
      "quote": "Rakdos's last ability can't reduce the colored mana requirement of a creature spell you cast."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-14",
@@ -574,7 +615,8 @@
      "path": "refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md",
      "quote": "Copies of a spell are not cast, so they do not trigger Keeper of Secrets."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-15",
@@ -607,7 +649,8 @@
      "path": "refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md",
      "quote": "Abaddon is a commander creature you own, so the Background gives Abaddon an ability that triggers when you cast a spell from exile."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-16",
@@ -639,7 +682,8 @@
      "path": "refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md",
      "quote": "The extra cascade is limited to the first spell cast from exile each turn"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-17",
@@ -671,7 +715,8 @@
      "path": "refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md",
      "quote": "Nalfeshnee's copy is not cast."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-18",
@@ -698,7 +743,8 @@
      "card": "Delayed Blast Fireball",
      "quote": "Delayed Blast Fireball deals 5 damage if it was cast from exile for any reason; it doesn't have to be from its foretell ability."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-19",
@@ -731,7 +777,8 @@
      "path": "refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md",
      "quote": "The spell cast from The Ruinous Powers is from exile, not your hand, so Abaddon does not grant cascade to that spell."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-20",
@@ -788,7 +835,8 @@
      "path": "refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md",
      "quote": "This is a resource-dependent finite-game combo sequence, not a resource-free mathematical infinite."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-21",
@@ -817,7 +865,8 @@
      "card": "Underworld Breach",
      "quote": "If it is a permanent spell, it enters the battlefield and will return to its owner's graveyard if it dies later."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-22",
@@ -852,7 +901,8 @@
      "card": "Jeska's Will",
      "quote": "Use the number of cards in the target opponent's hand as Jeska's Will resolves to determine how much {R} to add."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-23",
@@ -882,7 +932,8 @@
      "card": "Jeska's Will",
      "quote": "You pay all costs and follow all timing rules for cards played with the permission from the last mode of Jeska's Will."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-24",
@@ -923,7 +974,8 @@
      "path": "refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md",
      "quote": "Storm-Kiln Artist** triggers when you cast or copy an instant or sorcery."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-25",
@@ -956,7 +1008,8 @@
      "path": "refinement/tests/Abaddon_Step_5_Blasphemous_Act_Interaction_Check_2026-10-13.md",
      "quote": "Blasphemous Act"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-26",
@@ -985,7 +1038,8 @@
      "card": "Rakdos, Lord of Riots",
      "quote": "If there are additional costs to cast a creature spell, such as a kicker cost or the commander tax, apply those increases before applying cost reductions."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-27",
@@ -1019,7 +1073,8 @@
      "card": "Vivi Ornitier",
      "quote": "Vivi Ornitier's last ability resolves before the spell that caused it to trigger."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "abaddon-28",
@@ -1033,7 +1088,7 @@
     "Wheel of Fortune",
     "Bloodletter of Aclazotz"
    ],
-   "ruling": "The deck wins in two ways:\n- **Abaddon cascade turns:** these need X built before the big spells, with Boltwave, Thermo-Alchemist, Stormfist, Loyal Subordinate, the exile-damage creatures and Bloodletter doubling.\n- **The Breach package:** it is commander-independent. Abaddon adds nothing to escape casts.\n\nBoth lines fold to graveyard hate and counters on key pieces. The interaction suite (Force of Will, Fierce Guardianship, Pact of Negation, Swan Song, Flusterstorm, Pyroblast, Deflecting Swat) protects them. Pact of Negation needs {3}{U}{U} at your next upkeep or you lose the game. If Pact is countered, the delayed trigger never happens.",
+   "ruling": "The deck wins in two ways:\n- **Abaddon cascade turns:** these need X built before the big spells, with Boltwave, Thermo-Alchemist, Loyal Subordinate, the exile-damage creatures and Bloodletter doubling.\n- **The Breach package:** it is commander-independent. Abaddon adds nothing to escape casts.\n\nBoth lines fold to graveyard hate and counters on key pieces. The interaction suite (Force of Will, Fierce Guardianship, Pact of Negation, Swan Song, Flusterstorm, Pyroblast, Deflecting Swat) protects them. Pact of Negation needs {3}{U}{U} at your next upkeep or you lose the game. If Pact is countered, the delayed trigger never happens.",
    "status": "verified",
    "cr": [
     "603.7a"
@@ -1049,7 +1104,13 @@
      "card": "Pact of Negation",
      "quote": "If Pact of Negation is countered or otherwise doesn't resolve (perhaps because its target became illegal), the delayed triggered ability that threatens you with a game loss won't trigger at the beginning of your next upkeep."
     }
-   ]
+   ],
+   "evidence_class": "fact"
   }
- ]
+ ],
+ "rereview": {
+  "cycle": 49,
+  "date": "2026-10-16",
+  "reason": "M0: hash the canonical project list (source baseline) instead of the GrokBot challenger export; Stormfist Crusader → Mystic Remora"
+ }
 }

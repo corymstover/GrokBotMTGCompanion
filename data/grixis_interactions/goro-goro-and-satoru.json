@@ -54,7 +54,8 @@
      "path": "refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json",
      "item": "Goro-Goro and Satoru combat-damage trigger scope"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "goro-02",
@@ -98,7 +99,8 @@
      "path": "refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json",
      "item": "Samut continuous haste versus Goro-Goro activated haste"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "goro-03",
@@ -147,7 +149,8 @@
      "path": "refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json",
      "item": "Phoenix Chick recursion"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "goro-04",
@@ -183,7 +186,8 @@
      "path": "refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json",
      "item": "Raphael plus Fire Navy Trebuchet"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "goro-05",
@@ -322,7 +326,8 @@
      "path": "refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json",
      "item": "Extra-combat effects and commander retriggering"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "goro-08",
@@ -360,7 +365,8 @@
      "path": "refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json",
      "item": "Dragon Tempest and Terror of the Peaks"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   },
   {
    "id": "goro-09",
@@ -392,7 +398,8 @@
      "path": "refinement/verification/goro_goro_and_satoru_2026-10-14/Goro_Goro_and_Satoru_Rules_Attestation.json",
      "item": "Waterbender Ascension trigger granularity"
     }
-   ]
+   ],
+   "evidence_class": "fact"
   }
  ]
 }
