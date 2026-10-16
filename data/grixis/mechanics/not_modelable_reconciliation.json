@@ -1,0 +1,43 @@
+{
+ "evidence_class": "fact",
+ "cycle": "Bot cycle 66.2",
+ "question": "9,044 (plan/authority docs) vs 9,040 (66.1 coverage scan) legacy M5 not_modelable swaps",
+ "answer": "Both are correct for different commits. 9,044 = 25,933 swaps - 16,889 paired tests at Bot cycle 61 (fcbce1e) and still 9,044 at 62.3 (bd4b5af, 25,940 swaps). The cycle 63.2 regeneration on snap-20261016 (42157ff) moved 11 swaps out of and 7 into the not_modelable set (net -4) across 12 decks; the stored files (and every later commit) hold 9,040 = 25,940 - 16,900. The docs quoted the cycle-61 figure.",
+ "by_commit": {
+  "fcbce1e": {
+   "swaps": 25933,
+   "not_modelable": 9044
+  },
+  "bd4b5af": {
+   "swaps": 25940,
+   "not_modelable": 9044
+  },
+  "42157ff": {
+   "swaps": 25940,
+   "not_modelable": 9040
+  }
+ },
+ "left_not_modelable": [
+  "swap:ashnod-the-uncaring:m5:2777443d6669",
+  "swap:cult-of-skaro:m5:c095dda480b2",
+  "swap:goro-goro-and-satoru:m5:0699293e2cdc",
+  "swap:kefka-court-mage:m5:e5e3e2c55ceb",
+  "swap:kess-dissident-mage:m5:a9809b288a1f",
+  "swap:lord-of-tresserhorn:m5:bd54010b0e52",
+  "swap:lord-of-tresserhorn:m5:34523789b417",
+  "swap:marchesa-dealer-of-death:m5:baaf1037f2af",
+  "swap:obeka-brute-chronologist:m5:fce279422b21",
+  "swap:tetsuo-imperial-champion:m5:0b2fcb95b610",
+  "swap:thraximundar:m5:050ea35fee9c"
+ ],
+ "entered_not_modelable": [
+  "swap:anhelo-the-painter:m5:e14be04e15dd",
+  "swap:ashnod-the-uncaring:m5:845ce69fd3b1",
+  "swap:kefka-court-mage:m5:f2e2f09efe18",
+  "swap:lord-of-tresserhorn:m5:24efb3f4f13b",
+  "swap:marchesa-dealer-of-death:m5:c44f6907acd1",
+  "swap:thraximundar:m5:a7972f491406",
+  "swap:wick-the-whorled-mind:m5:941d78a8a6fb"
+ ],
+ "method": "per-swap diff of swaps with an empty tests list between git revisions (swap ids are hashes of list hash|cut|add)"
+}

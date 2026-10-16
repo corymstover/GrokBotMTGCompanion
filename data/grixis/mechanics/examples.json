@@ -55,6 +55,156 @@
    "swap": "swap:abaddon-the-despoiler:m5:a1f5c1b907c3"
   },
   {
+   "add": "Syr Konrad, the Grim",
+   "authority": {
+    "can_decide": false,
+    "exploratory": true
+   },
+   "cut": "Vivi Ornitier",
+   "deck": "abaddon-the-despoiler",
+   "evidence_class": "test_result",
+   "results": [
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "add_kind": "watcher",
+       "cut_kind": null,
+       "diff_lower_bound": 0.0,
+       "diff_mid": 0.1658,
+       "diff_range": [
+        0.0,
+        0.45
+       ]
+      },
+      "6": {
+       "add_kind": "watcher",
+       "cut_kind": null,
+       "diff_lower_bound": 0.0,
+       "diff_mid": 0.0264,
+       "diff_range": [
+        0.0,
+        0.1667
+       ]
+      },
+      "8": {
+       "add_kind": "watcher",
+       "cut_kind": null,
+       "diff_lower_bound": 0.0,
+       "diff_mid": 0.0818,
+       "diff_range": [
+        0.0,
+        0.45
+       ]
+      }
+     },
+     "module": "death_triggers"
+    }
+   ],
+   "route": {
+    "modules": [
+     "death_triggers"
+    ],
+    "planned": [
+     "activated_engines",
+     "cast_triggers",
+     "death_other",
+     "graveyard_tutoring"
+    ],
+    "reason": null,
+    "status": "routed"
+   },
+   "samples": 300,
+   "seed": 66,
+   "swap": "swap:abaddon-the-despoiler:m5:76ca04b0b4e0"
+  },
+  {
+   "add": "Back in Town",
+   "authority": {
+    "can_decide": false,
+    "exploratory": true
+   },
+   "cut": "Edward Kenway",
+   "deck": "admiral-beckett-brass",
+   "evidence_class": "test_result",
+   "results": [
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "4": {
+       "add": {
+        "p_live": 0.0,
+        "targets_when_live": 0.0
+       },
+       "cut": null,
+       "diff_p_live": 0.0
+      },
+      "6": {
+       "add": {
+        "p_live": 0.0,
+        "targets_when_live": 0.0
+       },
+       "cut": null,
+       "diff_p_live": 0.0
+      },
+      "8": {
+       "add": {
+        "p_live": 0.0033,
+        "targets_when_live": 1.0
+       },
+       "cut": null,
+       "diff_p_live": 0.0033
+      }
+     },
+     "module": "graveyard_recursion"
+    },
+    {
+     "evidence_class": "test_result",
+     "layer": "deaths",
+     "metrics": {
+      "4": {
+       "diff_lower_bound": 0.0,
+       "diff_mid": 0.0143,
+       "diff_range": [
+        0.0,
+        0.0285
+       ]
+      },
+      "6": {
+       "diff_lower_bound": 0.0,
+       "diff_mid": 0.0204,
+       "diff_range": [
+        0.0,
+        0.0423
+       ]
+      },
+      "8": {
+       "diff_lower_bound": 0.0033,
+       "diff_mid": 0.0282,
+       "diff_range": [
+        0.0033,
+        0.049
+       ]
+      }
+     },
+     "module": "graveyard_recursion"
+    }
+   ],
+   "route": {
+    "modules": [
+     "graveyard_recursion"
+    ],
+    "planned": [
+     "tokens"
+    ],
+    "reason": null,
+    "status": "routed"
+   },
+   "samples": 300,
+   "seed": 66,
+   "swap": "swap:admiral-beckett-brass:m5:d792c9710c85"
+  },
+  {
    "add": "Poxwalkers",
    "authority": {
     "can_decide": false,
@@ -66,38 +216,183 @@
    "results": [
     {
      "evidence_class": "test_result",
+     "layer": "deaths",
      "metrics": {
       "4": {
-       "add": {
-        "p_live": 0.08,
-        "targets_when_live": 1.5417
-       },
-       "cut": null,
-       "diff_p_live": 0.08
+       "diff_lower_bound": 0.0067,
+       "diff_mid": 0.0145,
+       "diff_range": [
+        0.0067,
+        0.0236
+       ]
       },
       "6": {
-       "add": {
-        "p_live": 0.0967,
-        "targets_when_live": 1.7241
-       },
-       "cut": null,
-       "diff_p_live": 0.0967
+       "diff_lower_bound": 0.0067,
+       "diff_mid": 0.0261,
+       "diff_range": [
+        0.0067,
+        0.08
+       ]
       },
       "8": {
-       "add": {
-        "p_live": 0.1133,
-        "targets_when_live": 1.8529
-       },
-       "cut": null,
-       "diff_p_live": 0.1133
+       "diff_lower_bound": 0.0067,
+       "diff_mid": 0.042,
+       "diff_range": [
+        0.0067,
+        0.1133
+       ]
       }
      },
-     "module": "graveyard_recursion"
+     "module": "self_recursion"
     }
    ],
    "route": {
     "modules": [
-     "graveyard_recursion"
+     "self_recursion"
+    ],
+    "planned": [
+     "cast_triggers",
+     "discard"
+    ],
+    "reason": null,
+    "status": "routed"
+   },
+   "samples": 300,
+   "seed": 66,
+   "swap": "swap:abaddon-the-despoiler:m5:19cc391585d8"
+  },
+  {
+   "add": "Gollum the Abandoned",
+   "authority": {
+    "can_decide": false,
+    "exploratory": true
+   },
+   "cut": "Vivi Ornitier",
+   "deck": "abaddon-the-despoiler",
+   "evidence_class": "test_result",
+   "results": [
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_lower_bound": 0.5933,
+       "diff_range": [
+        0.1097,
+        0.5933
+       ]
+      },
+      "6": {
+       "diff_lower_bound": 0.1033,
+       "diff_range": [
+        0.0482,
+        0.1033
+       ]
+      },
+      "8": {
+       "diff_lower_bound": 0.3033,
+       "diff_range": [
+        0.062,
+        0.3033
+       ]
+      }
+     },
+     "module": "sacrifice_costs"
+    },
+    {
+     "evidence_class": "test_result",
+     "layer": "deaths",
+     "metrics": {
+      "4": {
+       "diff_lower_bound": 0.01,
+       "diff_mid": 0.0237,
+       "diff_range": [
+        0.01,
+        0.04
+       ]
+      },
+      "6": {
+       "diff_lower_bound": 0.01,
+       "diff_mid": 0.0371,
+       "diff_range": [
+        0.01,
+        0.1067
+       ]
+      },
+      "8": {
+       "diff_lower_bound": 0.01,
+       "diff_mid": 0.0555,
+       "diff_range": [
+        0.01,
+        0.15
+       ]
+      }
+     },
+     "module": "self_recursion"
+    }
+   ],
+   "route": {
+    "modules": [
+     "sacrifice_costs",
+     "self_recursion"
+    ],
+    "planned": [
+     "activated_engines",
+     "cast_triggers",
+     "life_loss",
+     "sacrifice_other"
+    ],
+    "reason": null,
+    "status": "routed"
+   },
+   "samples": 300,
+   "seed": 66,
+   "swap": "swap:abaddon-the-despoiler:m5:849726ad2a15"
+  },
+  {
+   "add": "Poxwalkers",
+   "authority": {
+    "can_decide": false,
+    "exploratory": true
+   },
+   "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+   "deck": "abaddon-the-despoiler",
+   "evidence_class": "test_result",
+   "results": [
+    {
+     "evidence_class": "test_result",
+     "layer": "deaths",
+     "metrics": {
+      "4": {
+       "diff_lower_bound": 0.0067,
+       "diff_mid": 0.0145,
+       "diff_range": [
+        0.0067,
+        0.0236
+       ]
+      },
+      "6": {
+       "diff_lower_bound": 0.0067,
+       "diff_mid": 0.0261,
+       "diff_range": [
+        0.0067,
+        0.08
+       ]
+      },
+      "8": {
+       "diff_lower_bound": 0.0067,
+       "diff_mid": 0.042,
+       "diff_range": [
+        0.0067,
+        0.1133
+       ]
+      }
+     },
+     "module": "self_recursion"
+    }
+   ],
+   "route": {
+    "modules": [
+     "self_recursion"
     ],
     "planned": [
      "cast_triggers",
@@ -111,5 +406,5 @@
    "swap": "swap:abaddon-the-despoiler:m5:19cc391585d8"
   }
  ],
- "framework_version": "1.2-mech.1"
+ "framework_version": "1.2-mech.2"
 }

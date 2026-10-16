@@ -17,6 +17,7 @@ OUT = ROOT / "data" / "grixis" / "mechanics"
 SCHEMA = ROOT / "data" / "grixis" / "schemas" / "mechanic_module.schema.json"
 EXAMPLES = [("wick-the-whorled-mind", None, None)]  # filled from the coverage scan: first routed swap per implemented module
 SAMPLES, SEED = 300, 66
+RECURSION_REPLAY = {"swap:abaddon-the-despoiler:m5:19cc391585d8"}  # 66.1 recursion example (Birgi -> Poxwalkers), re-run in 66.2
 
 
 def dump(p, d):
@@ -43,6 +44,8 @@ def coverage(cards):
                 per[k] += 1
             for k in r["modules"]:
                 ex.setdefault(k, (d["slug"], sw["cuts"][0], sw["adds"][0], sw["id"]))
+            if sw["id"] in RECURSION_REPLAY:
+                ex.setdefault("replay:" + sw["id"], (d["slug"], sw["cuts"][0], sw["adds"][0], sw["id"]))
     return {"evidence_class": "derived_metric", "scope": "legacy M5 (capped, Bot cycle 61) swaps with no paired test",
             "not_modelable_swaps": tot, "by_status": dict(sorted(st.items())),
             "now_routed_to_implemented_module": st["routed"], "now_routed_share": round(st["routed"] / max(1, tot), 4),
@@ -63,12 +66,21 @@ def example(slug, cut, add, cards):
     t0 = time.time()
     bg = observe.trace_games(base, SAMPLES, SEED)
     cg = observe.trace_games(chal, SAMPLES, SEED)
-    models = {x["name"]: x for x in base.library + [am]}
+    models = {x["name"]: x for x in base.library + [am] + list(base.commanders)}
+    from grixis_mech import deaths
+    ctx = {"creatures": {n for n, x in models.items() if x.get("creature")}, "commanders": {x["name"] for x in base.commanders},
+           "outlets": {n for n in models if n in cards and deaths.is_outlet(cards[n]["text"])}}
     r = router.route_swap(cut, add, cards)
     res = []
     for k in r["modules"]:
         m = gm.MODULES[k]
-        res.append(m.evaluate(bg, cg, cut, add, cards, models) if k == "graveyard_recursion" else m.evaluate(bg, cg, cut, add, cards))
+        if k == "graveyard_recursion":
+            res.append(m.evaluate(bg, cg, cut, add, cards, models))          # no-death lower bound
+            res.append(m.evaluate_grid(bg, cg, cut, add, cards, models, ctx))  # shared death layer grid
+        elif k == "attack_trigger_proxy":
+            res.append(m.evaluate(bg, cg, cut, add, cards))
+        else:
+            res.append(m.evaluate(bg, cg, cut, add, cards, ctx))
     return {"deck": slug, "cut": cut, "add": add, "route": r, "samples": SAMPLES, "seed": SEED, "results": res,
             "evidence_class": "test_result", "authority": {"exploratory": True, "can_decide": False},
             "runtime_seconds_note": f"{round(time.time() - t0, 1)}s for {2 * SAMPLES} traced games (not stored in the check)"}
