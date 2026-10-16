@@ -1,0 +1,622 @@
+{
+ "card_window": "ONE_YEAR",
+ "cards": {
+  "Adaptive Training Post": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2486,
+    "entries": 3902,
+    "top_cuts": 970
+   }
+  },
+  "Ajani Unrelenting": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2486,
+    "entries": 3902,
+    "top_cuts": 970
+   }
+  },
+  "Arc Reactor": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2486,
+    "entries": 3902,
+    "top_cuts": 970
+   }
+  },
+  "Birgi, God of Storytelling // Harnfel, Horn of Bounty": {
+   "withCard": {
+    "conversion": 0.249,
+    "entries": 3667,
+    "top_cuts": 913
+   },
+   "withoutCard": {
+    "conversion": 0.2426,
+    "entries": 235,
+    "top_cuts": 57
+   }
+  },
+  "Breaking // Entering": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2487,
+    "entries": 3900,
+    "top_cuts": 970
+   }
+  },
+  "Chromatic Star": {
+   "withCard": {
+    "conversion": 0.2389,
+    "entries": 1900,
+    "top_cuts": 454
+   },
+   "withoutCard": {
+    "conversion": 0.2577,
+    "entries": 2002,
+    "top_cuts": 516
+   }
+  },
+  "City of Traitors": {
+   "withCard": {
+    "conversion": 0.2531,
+    "entries": 3604,
+    "top_cuts": 912
+   },
+   "withoutCard": {
+    "conversion": 0.1946,
+    "entries": 298,
+    "top_cuts": 58
+   }
+  },
+  "Deflecting Swat": {
+   "withCard": {
+    "conversion": 0.249,
+    "entries": 3892,
+    "top_cuts": 969
+   },
+   "withoutCard": {
+    "conversion": 0.1,
+    "entries": 10,
+    "top_cuts": 1
+   }
+  },
+  "Demonic Counsel": {
+   "withCard": {
+    "conversion": 0.2503,
+    "entries": 2413,
+    "top_cuts": 604
+   },
+   "withoutCard": {
+    "conversion": 0.2458,
+    "entries": 1489,
+    "top_cuts": 366
+   }
+  },
+  "Fellwar Stone": {
+   "withCard": {
+    "conversion": 0.2409,
+    "entries": 1154,
+    "top_cuts": 278
+   },
+   "withoutCard": {
+    "conversion": 0.2518,
+    "entries": 2748,
+    "top_cuts": 692
+   }
+  },
+  "Flashback": {
+   "withCard": {
+    "conversion": 0.2404,
+    "entries": 678,
+    "top_cuts": 163
+   },
+   "withoutCard": {
+    "conversion": 0.2503,
+    "entries": 3224,
+    "top_cuts": 807
+   }
+  },
+  "Gemstone Mine": {
+   "withCard": {
+    "conversion": 0.2039,
+    "entries": 775,
+    "top_cuts": 158
+   },
+   "withoutCard": {
+    "conversion": 0.2597,
+    "entries": 3127,
+    "top_cuts": 812
+   }
+  },
+  "Grim Tutor": {
+   "withCard": {
+    "conversion": 0.207,
+    "entries": 686,
+    "top_cuts": 142
+   },
+   "withoutCard": {
+    "conversion": 0.2575,
+    "entries": 3216,
+    "top_cuts": 828
+   }
+  },
+  "Guile": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2486,
+    "entries": 3902,
+    "top_cuts": 970
+   }
+  },
+  "Into the Flood Maw": {
+   "withCard": {
+    "conversion": 0.2475,
+    "entries": 1810,
+    "top_cuts": 448
+   },
+   "withoutCard": {
+    "conversion": 0.2495,
+    "entries": 2092,
+    "top_cuts": 522
+   }
+  },
+  "Jace, Reality Sculptor": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2486,
+    "entries": 3902,
+    "top_cuts": 970
+   }
+  },
+  "Last Chance": {
+   "withCard": {
+    "conversion": 0.2522,
+    "entries": 2922,
+    "top_cuts": 737
+   },
+   "withoutCard": {
+    "conversion": 0.2378,
+    "entries": 980,
+    "top_cuts": 233
+   }
+  },
+  "Lightning Greaves": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2486,
+    "entries": 3902,
+    "top_cuts": 970
+   }
+  },
+  "Memnite": {
+   "withCard": {
+    "conversion": 0.1379,
+    "entries": 29,
+    "top_cuts": 4
+   },
+   "withoutCard": {
+    "conversion": 0.2494,
+    "entries": 3873,
+    "top_cuts": 966
+   }
+  },
+  "Mjölnir, Hammer of Thor": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2486,
+    "entries": 3902,
+    "top_cuts": 970
+   }
+  },
+  "Mnemonic Betrayal": {
+   "withCard": {
+    "conversion": 0.2496,
+    "entries": 3582,
+    "top_cuts": 894
+   },
+   "withoutCard": {
+    "conversion": 0.2375,
+    "entries": 320,
+    "top_cuts": 76
+   }
+  },
+  "My Precious // Allure of Power": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2486,
+    "entries": 3902,
+    "top_cuts": 970
+   }
+  },
+  "Orcish Bowmasters": {
+   "withCard": {
+    "conversion": 0.2291,
+    "entries": 1148,
+    "top_cuts": 263
+   },
+   "withoutCard": {
+    "conversion": 0.2567,
+    "entries": 2754,
+    "top_cuts": 707
+   }
+  },
+  "Orcrist, Goblin-cleaver": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2486,
+    "entries": 3902,
+    "top_cuts": 970
+   }
+  },
+  "Platinum Angel": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2486,
+    "entries": 3902,
+    "top_cuts": 970
+   }
+  },
+  "Platinum Emperion": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2486,
+    "entries": 3902,
+    "top_cuts": 970
+   }
+  },
+  "Power Artifact": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2487,
+    "entries": 3900,
+    "top_cuts": 970
+   }
+  },
+  "Prismari, the Inspiration": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 3,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2488,
+    "entries": 3899,
+    "top_cuts": 970
+   }
+  },
+  "Pyromancer's Goggles": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2486,
+    "entries": 3902,
+    "top_cuts": 970
+   }
+  },
+  "Ragavan, Nimble Pilferer": {
+   "withCard": {
+    "conversion": 0.2504,
+    "entries": 3838,
+    "top_cuts": 961
+   },
+   "withoutCard": {
+    "conversion": 0.1406,
+    "entries": 64,
+    "top_cuts": 9
+   }
+  },
+  "Resonating Lute": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2486,
+    "entries": 3902,
+    "top_cuts": 970
+   }
+  },
+  "Retraction Helix": {
+   "withCard": {
+    "conversion": 0.1429,
+    "entries": 112,
+    "top_cuts": 16
+   },
+   "withoutCard": {
+    "conversion": 0.2517,
+    "entries": 3790,
+    "top_cuts": 954
+   }
+  },
+  "Saheeli, Sublime Artificer": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2486,
+    "entries": 3902,
+    "top_cuts": 970
+   }
+  },
+  "Smaug the Magnificent": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2486,
+    "entries": 3902,
+    "top_cuts": 970
+   }
+  },
+  "Smaug, Wicked Worm": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2486,
+    "entries": 3902,
+    "top_cuts": 970
+   }
+  },
+  "Snap": {
+   "withCard": {
+    "conversion": 0.2283,
+    "entries": 1743,
+    "top_cuts": 398
+   },
+   "withoutCard": {
+    "conversion": 0.2649,
+    "entries": 2159,
+    "top_cuts": 572
+   }
+  },
+  "Starting Town": {
+   "withCard": {
+    "conversion": 0.2739,
+    "entries": 1650,
+    "top_cuts": 452
+   },
+   "withoutCard": {
+    "conversion": 0.23,
+    "entries": 2252,
+    "top_cuts": 518
+   }
+  },
+  "Strike It Rich": {
+   "withCard": {
+    "conversion": 0.2403,
+    "entries": 387,
+    "top_cuts": 93
+   },
+   "withoutCard": {
+    "conversion": 0.2495,
+    "entries": 3515,
+    "top_cuts": 877
+   }
+  },
+  "Swiftfoot Boots": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2486,
+    "entries": 3902,
+    "top_cuts": 970
+   }
+  },
+  "Tablet of Discovery": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2486,
+    "entries": 3902,
+    "top_cuts": 970
+   }
+  },
+  "Talisman of Creativity": {
+   "withCard": {
+    "conversion": 0.234,
+    "entries": 517,
+    "top_cuts": 121
+   },
+   "withoutCard": {
+    "conversion": 0.2508,
+    "entries": 3385,
+    "top_cuts": 849
+   }
+  },
+  "Talisman of Indulgence": {
+   "withCard": {
+    "conversion": 0.2548,
+    "entries": 2237,
+    "top_cuts": 570
+   },
+   "withoutCard": {
+    "conversion": 0.2402,
+    "entries": 1665,
+    "top_cuts": 400
+   }
+  },
+  "The Enigma Jewel // Locus of Enlightenment": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2486,
+    "entries": 3902,
+    "top_cuts": 970
+   }
+  },
+  "The One Ring": {
+   "withCard": {
+    "conversion": 0.2488,
+    "entries": 623,
+    "top_cuts": 155
+   },
+   "withoutCard": {
+    "conversion": 0.2486,
+    "entries": 3279,
+    "top_cuts": 815
+   }
+  },
+  "Timetwister": {
+   "withCard": {
+    "conversion": 0.2566,
+    "entries": 2249,
+    "top_cuts": 577
+   },
+   "withoutCard": {
+    "conversion": 0.2377,
+    "entries": 1653,
+    "top_cuts": 393
+   }
+  },
+  "Unstable Molecule Suit": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2486,
+    "entries": 3902,
+    "top_cuts": 970
+   }
+  },
+  "Vexing Bauble": {
+   "withCard": {
+    "conversion": 0.2569,
+    "entries": 3001,
+    "top_cuts": 771
+   },
+   "withoutCard": {
+    "conversion": 0.2209,
+    "entries": 901,
+    "top_cuts": 199
+   }
+  },
+  "Wheel of Misfortune": {
+   "withCard": {
+    "conversion": 0.2378,
+    "entries": 534,
+    "top_cuts": 127
+   },
+   "withoutCard": {
+    "conversion": 0.2503,
+    "entries": 3368,
+    "top_cuts": 843
+   }
+  },
+  "Yawgmoth's Will": {
+   "withCard": {
+    "conversion": 0.2529,
+    "entries": 3468,
+    "top_cuts": 877
+   },
+   "withoutCard": {
+    "conversion": 0.2143,
+    "entries": 434,
+    "top_cuts": 93
+   }
+  }
+ },
+ "class": "derived_metric",
+ "commander": {
+  "color_id": "UBR",
+  "name": "Rograkh, Son of Rohgahh / Silas Renn, Seeker Adept",
+  "windows": {
+   "ONE_YEAR": {
+    "conversionRate": 0.2486,
+    "count": 3902,
+    "metaShare": 0.0193,
+    "topCuts": 970
+   },
+   "SIX_MONTHS": {
+    "conversionRate": 0.2391,
+    "count": 2179,
+    "metaShare": 0.0183,
+    "topCuts": 521
+   }
+  }
+ },
+ "commander_query": "Rograkh, Son of Rohgahh / Silas Renn, Seeker Adept",
+ "list_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+ "note": "EDHTop16 aggregates reported cEDH tournament results (entries with and without a card, top cuts, conversion = top cuts / entries). Entries without a submitted decklist count as 'without' the card, so 'without' figures are upper bounds on non-play. Observational, confounded by pilot skill and meta: derived_metric only.",
+ "retrieved": "2026-10-16",
+ "sample_size": 3902,
+ "schema_version": 1,
+ "slug": "rograkh-son-of-rohgahh-silas-renn",
+ "source": "https://edhtop16.com/api/graphql",
+ "status": "collected",
+ "window": "ONE_YEAR"
+}
