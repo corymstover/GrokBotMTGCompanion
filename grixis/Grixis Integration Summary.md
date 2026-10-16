@@ -5,7 +5,7 @@ tags: [grixis, summary, follow-ups]
 issues: [59, 60, 61, 62, 63]
 generated_by: hand-written
 sources: [grixis-repo]
-related: ["grixis/Grixis Corrections.md", "Front-Matter Schema.md", "grixis/Grixis Refinement Cycle.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md", "grixis/Grixis Evaluation.md"]
+related: ["grixis/Grixis Corrections.md", "Front-Matter Schema.md", "grixis/Grixis Evaluation.md", "grixis/Grixis Packages.md", "grixis/Grixis Refinement Cycle.md", "EDH Deck Evaluation Checklist.md"]
 schema: 2
 ---
 
@@ -14,6 +14,7 @@ schema: 2
 > **Bot cycle 16 · milestone [Grixis integration](https://github.com/corymstover/GrokBotMTGCompanion/milestone/13) · issues [#59](https://github.com/corymstover/GrokBotMTGCompanion/issues/59)–[#63](https://github.com/corymstover/GrokBotMTGCompanion/issues/63).** What we took from the user's [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) repo (read-only; commit `df1abb9` in Bot cycle 16, **re-analyzed at `1836b97` in Bot cycle 37**), what was fixed, what was generalized for every color identity, and what remains. Back to [Grixis](README.md).
 
 ## Contents
+- [Bot cycle 45 full source archive](#bot-cycle-45-full-source-archive)
 - [Bot cycle 39 commander-first refinement](#bot-cycle-39-commander-first-refinement)
 - [Bot cycle 38 pending-legality pages](#bot-cycle-38-pending-legality-pages)
 - [Bot cycle 37 re-analysis](#bot-cycle-37-re-analysis)
@@ -25,6 +26,21 @@ schema: 2
 - [What we did not take](#what-we-did-not-take)
 - [Recommended follow-ups](#recommended-follow-ups)
 - [Reproducing](#reproducing)
+
+## Bot cycle 45 full source archive
+Cory no longer wants to depend on two repos. **The companion now holds everything** from grixis-commander-encyclopediaGPT and is the **single source of truth** from now on. The original GitHub repo was not changed.
+- **Archive:** [source-archive/](source-archive/README.md) holds the complete tree at `1836b97`: **1,017 files, 14.9 MB**. Archives, CSVs, JSON, scripts, tests, `grixis_pipeline` and `.github` are all included and byte-identical; only `.git` is excluded.
+  - [`SHA256SUMS`](source-archive/SHA256SUMS) lists a hash for every file. `source.json` records the commit and counts.
+  - A 6.4 MB git bundle keeps all 49 branches and 1,726 commits.
+- **Verification:**
+  - At import: 1,017/1,017 hashes match the source clone, with 0 differences.
+  - `validate_all` has a new step, `source-archive` (`scripts/grixis_archive.py --check`), that re-verifies every hash on every run.
+- **Inert:** nothing in the archive runs here.
+  - There are no root workflows, and `pytest.ini` uses `norecursedirs`.
+  - The link and citation checkers skip the tree, and `.rgignore` hides it from plain `rg`.
+  - The KB index and front matter only cover registered pages.
+- **Generators:** `build_grixis.py`, `grixis_eval.py`, `grixis_refine.py` and `lore_quotes.py` now read the archive by default, not a separate clone. Rebuilding gives the same pages.
+- **Coverage:** Cory's coverage audit puts about **78%** of the source's unique content in companion pages already: the [deck pages](decks/), [Evaluation](Grixis%20Evaluation.md), [Corrections](Grixis%20Corrections.md), [Packages](Grixis%20Packages.md), and the generalized template and checklist ([below](#what-was-generalized)). The rest, mainly the process machinery, per-deck verification packets (including 518 rules attestations) and the Abaddon test programme, is now archived verbatim for the later phases. See the [area map](source-archive/README.md#map-of-the-archive).
 
 ## Bot cycle 39 commander-first refinement
 Cory set a new [mission](Grixis%20Mission.md): each deck must be the definitive, maximally optimized version of *its commander's* deck. Batch progress, metrics for all 62 decks and the method are on the [Grixis Refinement Cycle](Grixis%20Refinement%20Cycle.md) page. Refined lists appear as a *Refined list* section on the deck pages; the source list stays credited. Final lists are exported for Archidekt in [exports/grixis-archidekt/](../exports/grixis-archidekt/README.md).
@@ -114,6 +130,8 @@ Everything below works for **any color identity**. The pages state what came fro
 ## What we did not take
 The source's process machinery is specific to running a 62-deck campaign: the content-addressed pipeline, state machine, CI telemetry, Forge-AI simulation qualification, hash manifests, and per-gate JSON packets. We link to it but did not copy it. Our checks run by script, and git history keeps provenance. The one Forge pilot result that touches a card choice (Aurora Phoenix vs Mind's Desire: inconclusive, no change) is quoted in the Abaddon decision ledger.
 
+*Bot cycle 45:* all of this machinery is now archived verbatim in [source-archive/](source-archive/README.md) (inert, not run). It is available for the later phases: the interaction reviews, candidate deep dives and playtest tooling.
+
 ## Recommended follow-ups
 Tracked in [#63](https://github.com/corymstover/GrokBotMTGCompanion/issues/63). None of these were started.
 1. ✅ *Done in Bot cycle 37:* imported the 20 lists the source approved on 2026-10-15. Earlier text: import the remaining 20 lists as the source approves them: re-run `python3 scripts/build_grixis.py` (it picks up new approvals from the source state file), then `front_matter.py`.
@@ -124,7 +142,7 @@ Tracked in [#63](https://github.com/corymstover/GrokBotMTGCompanion/issues/63). 
 
 ## Reproducing
 ```bash
-git clone https://github.com/corymstover/grixis-commander-encyclopediaGPT /workspace/grixis-src   # read-only source
+python3 scripts/grixis_archive.py --check   # Bot cycle 45: the source lives in grixis/source-archive/ (no separate clone needed)
 python3 scripts/build_grixis.py            # runs grixis_eval.py, writes grixis/ + data/grixis_*.json (Spellbook results cached)
 python3 scripts/front_matter.py && python3 scripts/front_matter.py --check
 ```

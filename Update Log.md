@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 45 (full Grixis source archive, single source of truth)](#2026-10-16--bot-cycle-45-full-grixis-source-archive-single-source-of-truth)
 - [2026-10-16 — Bot cycle 44 follow-up (pending legality date → 2026-11-13)](#2026-10-16--bot-cycle-44-follow-up-pending-legality-date--2026-11-13)
 - [2026-10-16 — Bot cycle 44 (Grixis refinement batch 6: the 2 pending decks)](#2026-10-16--bot-cycle-44-grixis-refinement-batch-6-the-2-pending-decks)
 - [2026-10-16 — Bot cycle 43 (Grixis refinement batch 5, end-of-cycle summary, v2.5-grixis-refinement)](#2026-10-16--bot-cycle-43-grixis-refinement-batch-5-end-of-cycle-summary-v25-grixis-refinement)
@@ -59,6 +60,29 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 45 (full Grixis source archive, single source of truth)
+- **Phase 1 of Cory's multi-phase program.** The complete [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) repo at `1836b97` (re-pulled; no upstream change) is now archived in [grixis/source-archive/](grixis/source-archive/README.md).
+  - 1,017 files (14,865,126 bytes), byte-identical, with only `.git` excluded.
+  - [`SHA256SUMS`](grixis/source-archive/SHA256SUMS) and `source.json` record the hashes, commit and counts.
+  - `history/…bundle` (6.4 MB) holds all 49 branches and 1,726 commits.
+  - Method: a plain `git archive` snapshot plus a bundle, chosen over `git subtree` so an interrupted run can simply be repeated.
+- **Verified:**
+  - 1,017/1,017 SHA-256 hashes match the source clone, with 0 differences, and `diff -r` is clean.
+  - `sha256sum -c` passes, and a clone from the bundle restores HEAD `1836b97`.
+- **New:**
+  - `scripts/grixis_archive.py` (`--check`, `--against CLONE`, `--import CLONE`).
+  - A `validate_all` step, `source-archive`, that re-hashes every file on each run and fails if a root `.github/workflows` appears.
+- **Kept inert:**
+  - The archived workflows stay under the archive path, so GitHub does not run them.
+  - `pytest.ini` uses `norecursedirs`, and `.rgignore` hides the tree from plain `rg`.
+  - `check_links.py` and `check_citations.py` skip the tree, so the counts are unchanged.
+  - The KB index and front matter only index registered pages.
+- **Single source of truth:** `build_grixis.py`, `grixis_eval.py`, `grixis_refine.py` and `lore_quotes.py` default to the archive. The cited commit comes from `source.json`. Rebuilt output is unchanged.
+- **Fix:** in the Refinement Cycle's "Most shared cards" list, cards with equal counts are now sorted by name. Their order used to change between runs because set iteration is hash-randomized. The output is now deterministic.
+- **Docs:** Grixis section index (archive callout + Pages row), [Integration Summary](grixis/Grixis%20Integration%20Summary.md#bot-cycle-45-full-source-archive), README, Knowledge Index.
+- **Coverage pointer:** about 78% of the source's unique content was already integrated (Cory's coverage audit). The rest is archived for phases 2–6.
+- Original GitHub repo untouched. `validate_all` PASS.
 
 ## 2026-10-16 — Bot cycle 44 follow-up (pending legality date → 2026-11-13)
 - **`legal_from` → 2026-11-13** for The Madcap Jester and Tresserhorn's Lord, Returned (`data/grixis_pending.json`), approved by Cory. The new `legal_from_source` field cites [Wizards](https://magic.wizards.com/en/news/feature/whats-inside-mystery-booster-commander-edition): "New-to-Magic MBC cards will be legal in Commander on November 13, 2026." (What's Inside Mystery Booster Commander Edition?, Aug 3, 2026; legality dates updated per the editor's note).

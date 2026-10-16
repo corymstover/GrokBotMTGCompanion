@@ -15,6 +15,8 @@ schema: 2
 
 > **Bot cycle 16 import, refreshed in Bot cycle 37** (all 62 source lists are now APPROVED/LOCKED in the source). This section brings in the user's Grixis Commander work from [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) (commit `1836b97`, read-only): the user-approved, refined decklists, each with its commander-first blueprint, swap decisions and approval record quoted verbatim. Each list was re-validated against our card DB, corrected where needed, and given Game Changer counts, bracket floors and Commander Spellbook combos. Source analysis is **the source author's guidance**. Our facts come from Scryfall and Commander Spellbook. Built by `scripts/build_grixis.py`. Related: [EDH Standards](../EDH%20Standards.md) · [EDH Deck Template](../EDH%20Deck%20Template.md) · [EDH Deck Evaluation Checklist](../EDH%20Deck%20Evaluation%20Checklist.md) · [Grixis mana base](../EDH%20Mana%20Bases.md) · [data-derived Nekusar skeleton](../decks/nekusar-the-mindrazer.md)
 
+> 🗄️ **Single source of truth (Bot cycle 45):** the companion now holds the **complete source repository** in [source-archive/](source-archive/README.md): every file at commit `1836b97`, byte-identical (SHA-256 manifest, checked by `validate_all`), plus a git bundle with all branches and history. The archive is inert data; generators read it instead of a separate clone. The original GitHub repo stays untouched.
+
 ## Contents
 - [Pages](#pages)
 - [Decks](#decks)
@@ -29,6 +31,7 @@ schema: 2
 | [Grixis Mission](Grixis%20Mission.md) | Cory's commander-first mission and principles (Bot cycle 39) |
 | [Grixis Refinement Cycle](Grixis%20Refinement%20Cycle.md) | Commander-dependence and homogenization metrics for all 62 decks, batch log, per-deck swaps |
 | [exports/grixis-archidekt/](../exports/grixis-archidekt/README.md) | Archidekt import file per deck (final list) and ALL-DECKS.txt |
+| [source-archive/](source-archive/README.md) | Full byte-identical archive of the source repo (Bot cycle 45): area map, SHA-256 manifest, history bundle |
 | [Grixis Evaluation](Grixis%20Evaluation.md) | Check results for all 62 source lists, and how each current list was chosen |
 | [Grixis Corrections](Grixis%20Corrections.md) | All 135 corrections (deck, issue, fix), the Oracle-text check, source-repo structural findings |
 | [Grixis Packages](Grixis%20Packages.md) | Cross-deck package library (cards shared by 4 or more of the 60 lists, by role) and verified rules insights |

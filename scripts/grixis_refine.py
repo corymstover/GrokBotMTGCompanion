@@ -486,7 +486,8 @@ def render(R, summ, plans, fetch=False):
                 info[did]["sb"] = None
             else:
                 info[did]["sb"] = sb
-    top = Counter(n for s in sets_src.values() for n in s).most_common(25)
+    # Bot cycle 45: ties sorted by name (set iteration order is hash-randomized, so most_common() reordered ties between runs)
+    top = sorted(Counter(n for s in sets_src.values() for n in s).items(), key=lambda kv: (-kv[1], kv[0]))[:25]
     return info, metrics, top, problems
 
 

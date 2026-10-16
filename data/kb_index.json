@@ -5792,6 +5792,11 @@
 "headings": [
 [
 2,
+"2026-10-16 — Bot cycle 45 (full Grixis source archive, single source of truth)",
+"2026-10-16--bot-cycle-45-full-grixis-source-archive-single-source-of-truth"
+],
+[
+2,
 "2026-10-16 — Bot cycle 44 follow-up (pending legality date → 2026-11-13)",
 "2026-10-16--bot-cycle-44-follow-up-pending-legality-date--2026-11-13"
 ],
@@ -6224,6 +6229,11 @@
 "headings": [
 [
 2,
+"Bot cycle 45 full source archive",
+"bot-cycle-45-full-source-archive"
+],
+[
+2,
 "Bot cycle 39 commander-first refinement",
 "bot-cycle-39-commander-first-refinement"
 ],
@@ -6288,10 +6298,10 @@
 "related": [
 "grixis/Grixis Corrections.md",
 "Front-Matter Schema.md",
+"grixis/Grixis Evaluation.md",
+"grixis/Grixis Packages.md",
 "grixis/Grixis Refinement Cycle.md",
-"EDH Deck Evaluation Checklist.md",
-"EDH Deck Template.md",
-"grixis/Grixis Evaluation.md"
+"EDH Deck Evaluation Checklist.md"
 ]
 },
 {
