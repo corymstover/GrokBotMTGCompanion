@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 48 (phase 2 / M1: Spellbook step cache, batch B)](#2026-10-16--bot-cycle-48-phase-2--m1-spellbook-step-cache-batch-b)
 - [2026-10-16 — Bot cycle 46 (phase 2: interaction reviews, tooling + batch A)](#2026-10-16--bot-cycle-46-phase-2-interaction-reviews-tooling--batch-a)
 - [2026-10-16 — Bot cycle 45 (full Grixis source archive, single source of truth)](#2026-10-16--bot-cycle-45-full-grixis-source-archive-single-source-of-truth)
 - [2026-10-16 — Bot cycle 44 follow-up (pending legality date → 2026-11-13)](#2026-10-16--bot-cycle-44-follow-up-pending-legality-date--2026-11-13)
@@ -61,6 +62,28 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 48 (phase 2 / M1: Spellbook step cache, batch B)
+- **Batch B is done** (the next 10 decks alphabetically): **107 rulings** (99 verified, 2 uncertain, 6 flags). Overall: 22/62 decks and 273 rulings. Every batch-B deck's source attestation JSON is re-verified item by item. No decklist changed.
+- **New:**
+  - `scripts/spellbook_steps.py` caches Commander Spellbook variant step text (public API) for all 302 combo ids in `data/grixis_combos.json`, to `data/grixis_spellbook_steps.json`, with retrieval date 2026-10-16.
+  - Its `--check` (offline, every id cached) is a new `validate_all` step, `spellbook-steps`.
+  - Interaction records gain `spellbook` citations (a verbatim step or prerequisite, checked) and an optional `evidence_class`. The dossier prints each combo's steps.
+- **Batch A uncertain items:** 7 of 11 resolved with the cached steps.
+  - **Self-correction:** ashnod-08 had claimed a simultaneous-sacrifice requirement; Spellbook's sequential line shows it isn't needed. It's now a documentation flag.
+  - New entries: beckett-17 (Breeches modes exhausted), and ashad-14, an uncertain hypothesis.
+- **Batch B flags:**
+  - Don Andres: Dauthi Voidwalker vs Thieving Amalgam (anti-synergy).
+  - Edward Kenway: Fateful Discovery + Academy Manufactor decking during a Time Sieve lock (dependency-risk).
+  - Evelyn: Vexing Bauble vs escaped LED/Petal (anti-synergy); the source's pre-2020 commander-zone caveat on Saw in Half (documentation).
+  - Garza Zol: Jeska enters with 0 loyalty before any command-zone cast (dependency-risk).
+  - Grixistax: Blood Moon vs its own Phyrexian Tower (anti-synergy).
+- **Uncertain:** doom-09 (the Trade Routes loops) and evelyn-05 (the Worldgorger → Evelyn → Oracle endpoint). Both are rebuilt lines with no confirming Spellbook variant, marked `hypothesis`.
+- **M0 coordination:** Bot cycle 47 (authority foundation) is not on main at the end of this cycle, so these steps are **pending**:
+  - make `evidence_class` universal;
+  - re-review Bjorna/Cecily against the restored canonical project list.
+
+  Registry, schemas, `grixis_refine.py` and the exception data weren't touched.
 
 ## 2026-10-16 — Bot cycle 46 (phase 2: interaction reviews, tooling + batch A)
 - **Phase 2 of Cory's program:** an Abaddon-style, card-level rules review per deck, in [grixis/interactions/](grixis/interactions/README.md). Batch A (the first 12 decks alphabetically) is done: **164 rulings** (142 verified, 11 uncertain, 11 flags).

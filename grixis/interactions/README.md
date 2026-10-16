@@ -31,7 +31,7 @@
 2. **Gather facts (authoring dossier).** `python3 scripts/grixis_interactions.py --dossier <slug>` prints:
    - the commander's Oracle text and rulings;
    - every card's current Oracle text;
-   - the Commander Spellbook combos that are still complete in the final list;
+   - the Commander Spellbook combos that are still complete in the final list, with their cached prerequisites and steps (Bot cycle 48);
    - the source's attestation entries for the deck.
 3. **Work through these areas, in order:**
    - the commander's own text and its edge cases;
@@ -50,6 +50,7 @@
    - **CR rule numbers** from the current Comprehensive Rules (effective 2026-09-25).
    - **Verbatim Oracle text** (Scryfall oracle bulk).
    - **Verbatim Scryfall rulings** (rulings bulk).
+   - **Verbatim Commander Spellbook steps or prerequisites** for combo lines (Bot cycle 48). They come from the cached `data/grixis_spellbook_steps.json`, built by `scripts/spellbook_steps.py` from the public API with a retrieval date. Spellbook is community-maintained, so it confirms a combo line's steps but is not an official rules source. Each line's rules points still cite CR, Oracle and rulings.
    
    An interaction with no citation is not allowed.
 5. **Fold in the source, re-verified.**
@@ -58,6 +59,7 @@
    - Where the source is wrong or stale, the entry says so and is flagged `documentation`. Example: Call Forth the Tempest's mana value.
 6. **Mark uncertainty.**
    - Use `uncertain` with a note when the answer depends on table state, an unresolved rules question, or something the cited sources don't settle.
+   - A combo line rebuilt from a source attestation that no cached Spellbook variant confirms stays `uncertain`, with `evidence_class: hypothesis`, until it's Spellbook-confirmed (Bot cycle 48).
    - Never invent a ruling.
 7. **Flag list problems** for later refinement (`flag` status): non-bos, anti-synergies, misunderstood combos, dead cards, dependency risks and documentation errors. **No decklist is changed in phase 2.**
 
@@ -89,10 +91,14 @@ The deck page's **Rules notes** block lists the entries marked `key` as one-line
    "flag": {"kind": "non-bo|anti-synergy|misunderstood-combo|dead-card|dependency-risk|documentation|other", "note": "…"},
    "key": true,
    "cr": ["702.85a"], "oracle": [{"card": "…", "quote": "verbatim"}], "rulings": [{"card": "…", "quote": "verbatim"}],
+   "spellbook": [{"id": "<Spellbook variant id>", "quote": "verbatim step or prerequisite"}],
+   "evidence_class": "optional: fact|derived_metric|heuristic|hypothesis|test_result|strategic_judgment|approved_decision",
    "source": [{"path": "<archived file>", "item": "<attestation interaction name>"} , {"path": "<archived .md>", "quote": "verbatim"}]
  }]
 }
 ```
+
+`spellbook` and `evidence_class` were added in Bot cycle 48. `evidence_class` uses the evidence classes of Cory's authority program (milestone M0). For now it's optional and set only where it adds information. Once M0 is on main, every record gets one: verified rulings `fact`, rebuilt combo lines `hypothesis` until Spellbook-confirmed, strategic calls `strategic_judgment`.
 
 Batches are in `data/grixis_interactions/_batches.json`: A–F, alphabetical by slug, about 10–12 decks each, with status `planned`, `in progress` or `done`.
 
@@ -103,6 +109,8 @@ Batches are in `data/grixis_interactions/_batches.json`: A–F, alphabetical by 
 - every CR rule exists in the cached CR and the CR version matches;
 - every Oracle quote and ruling quote is verbatim (whitespace and curly quotes normalized);
 - every source reference resolves to an archived file and item;
+- every Spellbook citation names a cached variant, and its quote appears verbatim in that variant's steps or prerequisites (normalized);
+- `evidence_class`, if present, is one of the seven classes;
 - every done batch has all its reviews;
 - the rendered pages, deck-page blocks and this status table are current.
 
