@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -482,6 +483,18 @@ This approval freezes `refinement/decklists/Nathan_Drake_Treasure_Hunter_Approve
 
 - [refinement/verification/Nathan_Drake_Treasure_Hunter_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Nathan_Drake_Treasure_Hunter_Approval_Ready_Verification_2026-10-15.md)
 - [refinement/verification/Nathan_Drake_Treasure_Hunter_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Nathan_Drake_Treasure_Hunter_Whole_List_Audit_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 51 interaction review: **8 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Nathan Drake, Treasure Hunter — Interaction Review](../interactions/nathan-drake-treasure-hunter.md).
+
+- **Attack trigger: one spell from the exiled tops, cast during resolution; the rest stay exiled** — Cast one exiled spell during resolution (timing ignored, costs paid); the rest stay exiled forever. ([nathan-01](../interactions/nathan-drake-treasure-hunter.md#nathan-01-attack-trigger-one-spell-from-the-exiled-tops-cast-during-resolution-the-rest-stay-exiled))
+- **Firebending first: Fire Nation Palace and Fire Lord Azula pay for the stolen spell** — Stack firebending above Nathan's trigger; Azula copies whatever Nathan lets you cast. ([nathan-03](../interactions/nathan-drake-treasure-hunter.md#nathan-03-firebending-first-fire-nation-palace-and-fire-lord-azula-pay-for-the-stolen-spell))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Dauthi Voidwalker starves Tinybones: Dauthi Voidwalker's replacement keeps opponents' graveyards empty, turning off Tinybones' combat-damage cast. ([nathan-07](../interactions/nathan-drake-treasure-hunter.md#nathan-07-dauthi-voidwalker-starves-tinybones))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

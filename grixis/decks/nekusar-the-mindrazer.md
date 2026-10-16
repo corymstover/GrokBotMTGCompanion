@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -527,6 +528,18 @@ This approval freezes `refinement/decklists/Nekusar_the_Mindrazer_Approved_2026-
 
 - [refinement/verification/Nekusar_the_Mindrazer_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Nekusar_the_Mindrazer_Approval_Ready_Verification_2026-10-15.md)
 - [refinement/verification/Nekusar_the_Mindrazer_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Nekusar_the_Mindrazer_Whole_List_Audit_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 51 interaction review: **9 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Nekusar, the Mindrazer — Interaction Review](../interactions/nekusar-the-mindrazer.md).
+
+- **Extra draw for everyone; 1 damage per opponent draw** — Everyone draws +1 in their draw step; each opponent draw = 1 damage. ([nekusar-01](../interactions/nekusar-the-mindrazer.md#nekusar-01-extra-draw-for-everyone-1-damage-per-opponent-draw))
+- **Wizard's Staff + Harmonic Prodigy + Krang: additive, and Krang skips the draw-step trigger** — Staff/Prodigy add to both triggers; Krang only to the damage trigger (3 and 4 instances). ([nekusar-02](../interactions/nekusar-the-mindrazer.md#nekusar-02-wizards-staff--harmonic-prodigy--krang-additive-and-krang-skips-the-draw-step-trigger))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Krang also doubles Spiteful Visions and Phyrexian Tyranny on your own draws: Spiteful Visions and Phyrexian Tyranny punish your own draws, and Krang doubles those triggers too, so your wheels can kill you. ([nekusar-03](../interactions/nekusar-the-mindrazer.md#nekusar-03-krang-also-doubles-spiteful-visions-and-phyrexian-tyranny-on-your-own-draws))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -471,6 +472,16 @@ This deck is now locked. Do not revise, reopen, or replace it unless the user ex
 ### Further source evidence (linked, not copied)
 
 - [refinement/verification/Marchesa_the_Black_Rose_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Marchesa_the_Black_Rose_Approval_Ready_Verification_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 51 interaction review: **11 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Marchesa, the Black Rose — Interaction Review](../interactions/marchesa-the-black-rose.md).
+
+- **Dethrone for the team; creatures with +1/+1 counters return at the next end step** — Team dethrone; dies with +1/+1 counter → returns at next end step (next turn's if it died during an end step). ([marchbr-01](../interactions/marchesa-the-black-rose.md#marchbr-01-dethrone-for-the-team-creatures-with-11-counters-return-at-the-next-end-step))
+- **Persist resets: Gev, Metallic Mimic, Uncivil Unrest, Thran Vigil cancel the -1/-1 counter** — +1/+1 and -1/-1 annihilate, so persist re-arms; Thran Vigil only on your turn. ([marchbr-02](../interactions/marchesa-the-black-rose.md#marchbr-02-persist-resets-gev-metallic-mimic-uncivil-unrest-thran-vigil-cancel-the--1-1-counter))
+- **Murderous Redcap loops: Gev / Mimic (Goblin) / Uncivil Unrest, no outlet needed** — Redcap shoots itself; the +1/+1 source cancels persist's counter → infinite deaths/ETBs. ([marchbr-03](../interactions/marchesa-the-black-rose.md#marchbr-03-murderous-redcap-loops-gev--mimic-goblin--uncivil-unrest-no-outlet-needed))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

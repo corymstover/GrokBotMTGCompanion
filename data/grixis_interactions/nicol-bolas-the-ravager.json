@@ -1,0 +1,386 @@
+{
+ "schema": 1,
+ "deck_id": "Nicol_Bolas__the_Ravager",
+ "slug": "nicol-bolas-the-ravager",
+ "commanders": [
+  "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+ ],
+ "deck_sha256": "ff0f90a467b05c94bdf58371d37a848946877ec707115ac5e47c2260bc40c1f4",
+ "list_source": "exports/grixis-archidekt/nicol-bolas-the-ravager.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 51,
+ "batch": "D",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/Nicol_Bolas_the_Ravager_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification; rules sections 5–16 re-checked against Oracle, rulings and CR"
+  }
+ ],
+ "summary": "Nicol Bolas, the Ravager transforms by exiling and returning, so the Arisen arrives as a new planeswalker that can activate loyalty at once. Training Grounds makes this cost five mana. The list copies loyalty abilities (Rowan's Talent, Rings, Jaya's Phoenix), runs Chain Veil and Teferi engines, and supports loyalty with proliferate, Sanctum Lurker and phasing. Three Spellbook lines are confirmed; the source's Rings + Chain Veil variant is rules-checked but tagged hypothesis.\n\nRules surprises: Kitten on the Arisen returns Ravager and strips its Talents; copied loyalty abilities don't move loyalty; Dark Intimations doesn't boost a transformed Arisen; a non-DFC copy of Ravager is exiled for good. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "bolasrav-01",
+   "category": "commander",
+   "title": "Transform by exile-and-return: the Arisen is a new object and can use loyalty right away",
+   "cards": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "Training Grounds"
+   ],
+   "ruling": "The {4}{U}{B}{R} ability (sorcery speed) exiles Ravager and returns the card transformed as Nicol Bolas, the Arisen. As a new object, the Arisen enters with its printed loyalty and can activate a loyalty ability that same turn. If Ravager leaves the battlefield in response, the card stays wherever it went. Training Grounds reduces the cost to {2}{U}{B}{R}, because this is an activated ability of a creature. Colored symbols aren't reduced. A non-DFC copy of Ravager (Spark Double) is exiled by the ability and never returns.",
+   "short": "Exile + return transformed = fresh Arisen that can activate loyalty at once; Training Grounds makes it 5 mana.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "712.14a",
+    "400.7",
+    "606.3",
+    "306.5b"
+   ],
+   "oracle": [
+    {
+     "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+     "quote": "{4}{U}{B}{R}: Exile Nicol Bolas, then return him to the battlefield transformed under his owner's control. Activate only as a sorcery."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+     "quote": "You can activate one of the planeswalker's loyalty abilities the turn it enters the battlefield."
+    },
+    {
+     "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+     "quote": "If Nicol Bolas leaves the battlefield after his creature face's activated ability has been activated but before it resolves, the card remains in whichever zone it moves to. It won't be exiled or return transformed."
+    },
+    {
+     "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+     "quote": "If another permanent that isn't a double-faced card (such as Mirror Image) becomes a copy of Nicol Bolas, the Ravager, activating the ability to exile it and return it transformed will only exile it. It won't return to the battlefield at all."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Nicol_Bolas_the_Ravager_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Training Grounds reduces `{4}{U}{B}{R}` to **`{2}{U}{B}{R}`**."
+    }
+   ]
+  },
+  {
+   "id": "bolasrav-02",
+   "category": "zone",
+   "title": "Displacer Kitten resets to Ravager (front face) — and strips Talents",
+   "cards": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "Displacer Kitten",
+    "Rowan's Talent",
+    "Liliana's Talent",
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "ruling": "A DFC that enters from anywhere but the stack comes in front face up unless told otherwise. So when Kitten blinks the Arisen, it returns as Ravager, a new object with no loyalty counters. Each opponent discards again, and Tergrid can take any permanent cards they discard. Any Aura on the Arisen, such as Rowan's Talent or Liliana's Talent, goes to the graveyard. Use Kitten to replay the ETB, not to protect the planeswalker.",
+   "short": "Kitten on the Arisen returns Ravager (new ETB discard) but drops attached Talents and loyalty.",
+   "status": "verified",
+   "cr": [
+    "712.14",
+    "400.7",
+    "704.5m"
+   ],
+   "oracle": [
+    {
+     "card": "Tergrid, God of Fright // Tergrid's Lantern",
+     "quote": "Whenever an opponent sacrifices a nontoken permanent or discards a permanent card, you may put that card from a graveyard onto the battlefield under your control."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Displacer Kitten",
+     "quote": "When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled. Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist."
+    },
+    {
+     "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+     "quote": "A double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed, in which case it enters with its back face up. The back face of a double-faced card can't be played."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Nicol_Bolas_the_Ravager_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Because Kitten does not instruct the card to enter transformed, the double-faced card returns front face up as Ravager, retriggering the ETB discard."
+    }
+   ]
+  },
+  {
+   "id": "bolasrav-03",
+   "category": "engine",
+   "title": "Copied loyalty abilities don't cost loyalty: Rowan's Talent, Rings of Brighthearth, Jaya's Phoenix",
+   "cards": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "Rowan's Talent",
+    "Rings of Brighthearth",
+    "Jaya's Phoenix"
+   ],
+   "ruling": "Rowan's Talent copies every loyalty ability of the enchanted planeswalker. Rings of Brighthearth can copy one for {2}. Jaya's Phoenix copies the next one after it deals combat damage. Only the original changes loyalty. On the Arisen: +2 draws four, −3 makes two 10-damage instances, and −4 reanimates two targets. The −12 can be copied whenever the original is legal. Loyalty abilities still need your main phase with an empty stack.",
+   "short": "Copies of loyalty abilities add or remove no loyalty: +2 draws 4, −3 hits twice, −4 reanimates two.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "707.10",
+    "606.4"
+   ],
+   "oracle": [
+    {
+     "card": "Rowan's Talent",
+     "quote": "Whenever you activate a loyalty ability of enchanted planeswalker, copy that ability. You may choose new targets for the copy."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Rowan's Talent",
+     "quote": "Copying a loyalty ability doesn't cause any loyalty counters to be added to or removed from the enchanted planeswalker."
+    },
+    {
+     "card": "Rings of Brighthearth",
+     "quote": "An activated mana ability is one that produces mana as it resolves, not one that costs mana to activate."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Nicol_Bolas_the_Ravager_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "A copied loyalty ability does **not** repeat its loyalty cost."
+    }
+   ]
+  },
+  {
+   "id": "bolasrav-04",
+   "category": "combo",
+   "title": "Teferi, Temporal Archmage + The Chain Veil (+ Rings)",
+   "cards": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "Teferi, Temporal Archmage",
+    "The Chain Veil",
+    "Rings of Brighthearth",
+    "Mana Vault",
+    "Sol Ring"
+   ],
+   "ruling": "The Spellbook line:\n1. Pay {4} and tap The Chain Veil.\n2. Use Teferi's −1 to untap Chain Veil and three mana permanents that make {4}.\n3. Repeat until Teferi runs out of loyalty, then recast him and use his +1.\n\nThe source's Rings version: copy the Chain Veil activation for {2}. Each Chain Veil resolution grants another activation, so two resolutions pay for both a −1 and a +1. Teferi's loyalty then stays level as long as the untapped permanents make {6}. The Rings version isn't a Spellbook line and needs at least {6} from three permanents Teferi can untap (for example Mana Vault + Sol Ring + a Signet). Every activation must be in your main phase with an empty stack.",
+   "short": "Chain Veil + Teferi −1 untap loop; with Rings, two Veil resolutions per {6} keep Teferi's loyalty level.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "606.3",
+    "707.10"
+   ],
+   "oracle": [
+    {
+     "card": "The Chain Veil",
+     "quote": "{4}, {T}: For each planeswalker you control, you may activate one of its loyalty abilities once this turn as though none of its loyalty abilities have been activated this turn."
+    },
+    {
+     "card": "Teferi, Temporal Archmage",
+     "quote": "−1: Untap up to four target permanents."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "The Chain Veil",
+     "quote": "Each additional time The Chain Veil’s last ability resolves will allow you to activate a loyalty ability of each planeswalker you control an additional time. For example, if you activate The Chain Veil’s last ability, untap it, then activate it again, you can activate a loyalty ability of a planeswalker you control three times that turn."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "787-1124",
+     "quote": "Activate Teferi's second loyalty ability by removing a loyalty counter from it, untapping the Chain Veil and the three mana-producing permanents."
+    }
+   ],
+   "evidence_class": "hypothesis",
+   "source": [
+    {
+     "path": "refinement/verification/Nicol_Bolas_the_Ravager_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "The verification does **not** claim that any two pieces alone form an infinite combo."
+    }
+   ]
+  },
+  {
+   "id": "bolasrav-05",
+   "category": "combo",
+   "title": "Teferi, Master of Time + Ichormoon Gauntlet + Chain Veil / Rowan's Talent: infinite turns",
+   "cards": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "Teferi, Master of Time",
+    "Ichormoon Gauntlet",
+    "The Chain Veil",
+    "Rowan's Talent"
+   ],
+   "ruling": "Ichormoon Gauntlet gives every planeswalker \"[0]: Proliferate\" and \"[−12]: Take an extra turn\". Teferi, Master of Time's −10 takes two extra turns. Teferi can activate at instant speed on any player's turn, but still only once per turn. With two other planeswalkers (the Arisen counts), you build Teferi to 10 by proliferating. With Rowan's Talent on Teferi, his −10 is copied for four extra turns. The Chain Veil adds one more activation each turn. Each extra turn rebuilds the loyalty.",
+   "status": "verified",
+   "cr": [
+    "606.3",
+    "500.7",
+    "701.34a"
+   ],
+   "oracle": [
+    {
+     "card": "Ichormoon Gauntlet",
+     "quote": "Planeswalkers you control have \"[0]: Proliferate\" and \"[−12]: Take an extra turn after this one.\""
+    },
+    {
+     "card": "Teferi, Master of Time",
+     "quote": "−10: Take two extra turns after this one."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Ichormoon Gauntlet",
+     "quote": "Only one loyalty ability of each planeswalker may be activated per turn, no matter how many it has gained."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "1124-1543-2247",
+     "quote": "You control at least two other planeswalkers."
+    },
+    {
+     "id": "652-1543-2247",
+     "quote": "Rowan's Talent triggers, copying Teferi's ability."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "bolasrav-06",
+   "category": "pair",
+   "title": "Bolas planeswalker checks and casts: Deliver Unto Evil yes, Dark Intimations no",
+   "cards": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "Deliver Unto Evil",
+    "Dark Intimations",
+    "Nicol Bolas, Dragon-God",
+    "Nicol Bolas, God-Pharaoh",
+    "Nicol Bolas, Planeswalker",
+    "Nicol Bolas, the Deceiver"
+   ],
+   "ruling": "Deliver Unto Evil returns all four cards if you control any Bolas planeswalker: the Arisen, Dragon-God, God-Pharaoh, Planeswalker or Deceiver. Dark Intimations' graveyard bonus needs you to cast a Bolas planeswalker spell. Transforming Ravager isn't a cast, so the Arisen doesn't get the extra loyalty. Casting one of the four other Bolas walkers does.",
+   "status": "verified",
+   "cr": [
+    "205.3j",
+    "601.2"
+   ],
+   "oracle": [
+    {
+     "card": "Deliver Unto Evil",
+     "quote": "Choose up to four target cards in your graveyard. If you control a Bolas planeswalker, return those cards to your hand."
+    },
+    {
+     "card": "Dark Intimations",
+     "quote": "When you cast a Bolas planeswalker spell, exile this card from your graveyard. That planeswalker enters with an additional loyalty counter on it."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Nicol_Bolas_the_Ravager_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Transforming Ravager through his activated ability does **not** cast a planeswalker spell"
+    }
+   ]
+  },
+  {
+   "id": "bolasrav-07",
+   "category": "layers",
+   "title": "Spark Double copies the Arisen; Nicol Bolas, Dragon-God borrows every walker's loyalty abilities",
+   "cards": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "Spark Double",
+    "Nicol Bolas, Dragon-God"
+   ],
+   "ruling": "Spark Double can enter as a copy of the transformed Arisen. It's nonlegendary, has one extra loyalty, and has the Arisen's abilities. It isn't a DFC, but it never needs to transform. Nicol Bolas, Dragon-God has the loyalty abilities of every other planeswalker on the battlefield, including opponents' walkers and the Gauntlet's granted ones. References to the original's name refer to Dragon-God instead. He still gets only one loyalty activation per turn, unless The Chain Veil adds one.",
+   "status": "verified",
+   "cr": [
+    "707.2",
+    "707.9b",
+    "606.3"
+   ],
+   "oracle": [
+    {
+     "card": "Nicol Bolas, Dragon-God",
+     "quote": "Nicol Bolas has all loyalty abilities of all other planeswalkers on the battlefield."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Nicol Bolas, Dragon-God",
+     "quote": "While Nicol Bolas may end up with an astonishing number of loyalty abilities, you can still activate only one loyalty ability of Nicol Bolas, Dragon-God during each of your turns."
+    },
+    {
+     "card": "Nicol Bolas, Dragon-God",
+     "quote": "Nicol Bolas doesn't gain any static or triggered abilities of other planeswalkers or any activated abilities they may have that aren't loyalty abilities."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Nicol_Bolas_the_Ravager_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "It may copy the **currently transformed Arisen** because the Arisen is a planeswalker you control."
+    }
+   ]
+  },
+  {
+   "id": "bolasrav-08",
+   "category": "engine",
+   "title": "Loyalty support: proliferate (Tekuthal doubles), Sanctum Lurker at 0, Ripples phase-out",
+   "cards": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "Sanctum Lurker",
+    "Ripples of Potential",
+    "Dreamtide Whale",
+    "Tekuthal, Inquiry Dominus",
+    "Flux Channeler",
+    "Inexorable Tide",
+    "Karn's Bastion",
+    "Vraska, Betrayal's Sting"
+   ],
+   "ruling": "These keep loyalty up:\n- **Proliferate** (Flux Channeler, Inexorable Tide, Dreamtide Whale, Karn's Bastion, Vraska's 0, the Gauntlet's 0): Tekuthal makes each one happen twice. Dreamtide Whale can proliferate its own time counters to delay vanishing.\n- **Sanctum Lurker:** a walker at 0 loyalty isn't put into the graveyard, so you can use the −12 down to exactly 0 and then use Lurker's +2. Other removal still works.\n- **Ripples of Potential:** proliferates, then phases out anything that got a counter. The counters stay, and phasing out doesn't trigger leaves-the-battlefield abilities.",
+   "status": "verified",
+   "cr": [
+    "701.34a",
+    "704.5i",
+    "702.26b"
+   ],
+   "oracle": [
+    {
+     "card": "Sanctum Lurker",
+     "quote": "Planeswalkers you control aren't put into their owners' graveyards for having 0 loyalty."
+    },
+    {
+     "card": "Tekuthal, Inquiry Dominus",
+     "quote": "If you would proliferate, proliferate twice instead."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Sanctum Lurker",
+     "quote": "If a planeswalker you control has zero loyalty counters while you control Sanctum Lurker, it will not be put into its owner's graveyard. You may still activate abilities of that planeswalker that cost [0] or that add counters to it as a cost, such as the one granted by Sanctum Lurker."
+    },
+    {
+     "card": "Ripples of Potential",
+     "quote": "Phasing out doesn't cause any \"leaves the battlefield\" abilities to trigger. Similarly, phasing in won't cause any \"enters the battlefield\" abilities to trigger."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Nicol_Bolas_the_Ravager_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "The protection is specifically from the state-based action for 0 loyalty; it does not make planeswalkers indestructible or prevent other removal."
+    }
+   ]
+  }
+ ]
+}
