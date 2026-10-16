@@ -1,6 +1,6 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
- "$id": "saturation_certificate.schema.json",
+ "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/saturation_certificate.schema.json",
  "title": "Grixis step A saturation certificate (v2, Bot cycle 65.2)",
  "type": "object",
  "additionalProperties": false,

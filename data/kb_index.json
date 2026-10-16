@@ -6649,6 +6649,26 @@
 2,
 "G0 benchmark scoring rule (Bot cycle 64.3)",
 "g0-benchmark-scoring-rule-bot-cycle-643"
+],
+[
+2,
+"Development-snapshot policy (Cory D6, recorded in Bot cycle 65.1)",
+"development-snapshot-policy-cory-d6-recorded-in-bot-cycle-651"
+],
+[
+2,
+"Step A: adaptive candidate saturation (design, Bot cycle 65.1)",
+"step-a-adaptive-candidate-saturation-design-bot-cycle-651"
+],
+[
+3,
+"Step A revision (Bot cycle 65.2, rulings on 65.1 open questions)",
+"step-a-revision-bot-cycle-652-rulings-on-651-open-questions"
+],
+[
+3,
+"Step A wiring (Bot cycle 65.3)",
+"step-a-wiring-bot-cycle-653"
 ]
 ],
 "issues": [],
