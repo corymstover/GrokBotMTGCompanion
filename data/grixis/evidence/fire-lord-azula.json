@@ -29,13 +29,13 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:14242d4c01b1a7f96dba69567010bf826e23ab6f2e73e79f258435f2f7fb0f0e",
+  "id": "sha256:3d74c78485e4994331113cd5fa2ea25f63130ea753ddc0ea45c114478295bcad",
   "inputs": {
    ".cache/edhrec/commanders__fire-lord-azula.json": "sha256:896b7ea6bdfd27fc8be1e8cbdb8872ea954288122c01b5f0ffeb08fb1c3d28d4",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
-   "data/grixis_interactions/fire-lord-azula.json": "sha256:bbb58888ab801c625fe6f2f787a6fd48d61b7bf3d7ba8a666534da2f54ddb3d6",
+   "data/grixis_interactions/fire-lord-azula.json": "sha256:860529adfe9d1f89720ca221be4ecb4e69590786976209b235b929281eb55e55",
    "data/grixis/blueprints/fire-lord-azula.json": "sha256:5a56d32faae39e511170af81f230b0920f9645b93053eaab8b0df36fd5111e5c",
-   "grixis/decks/fire-lord-azula.md": "sha256:1a2dcd5808d3a6b8645b8598080205a27425a415896516366474854d60819be9",
+   "grixis/decks/fire-lord-azula.md": "sha256:18db8c15f36a08e6346ad35db067c70781bac966c3ea789ff0174cbbfe4da3c2",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
    "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
   }
@@ -78,7 +78,7 @@
   {"card":"Faerie Mastermind","status":"incumbent","zone":"main","edhrec":[3.211,0.20401,0.27974,10879,38890,0.287,"low",["lift_synergy_inconsistent"]]},
   {"card":"Fellwar Stone","status":"incumbent","zone":"main","edhrec":[1.008,0.00532,0.36246,14096,38890,0.0,"moderate",[]]},
   {"card":"Fierce Guardianship","status":"incumbent","zone":"main","edhrec":[1.349,0.07043,0.26246,10207,38890,-0.358,"moderate",[]],"graph":{"blueprint":{"packages":["pkg:free-interaction"],"identity_core":false,"version":1,"class":"strategic_judgment","confidence":"moderate"}}},
-  {"card":"Fire Lord Azula","status":"commander","edhrec":null,"graph":{"spellbook":{"ids":["11-2196-7089","1368-2196-7089"],"class":"fact","confidence":"verified"},"m1":{"ids":["azula-01","azula-02","azula-03","azula-04","azula-05","azula-06","azula-07","azula-08","azula-09","azula-10","azula-11"],"class":"fact","confidence":"verified","flags":[]},"blueprint":{"packages":[],"identity_core":true,"version":1,"class":"strategic_judgment","confidence":"high"}}},
+  {"card":"Fire Lord Azula","status":"commander","edhrec":null,"graph":{"spellbook":{"ids":["11-2196-7089","1368-2196-7089"],"class":"fact","confidence":"verified"},"m1":{"ids":["azula-01","azula-02","azula-03","azula-04","azula-05","azula-06","azula-07","azula-08","azula-09","azula-10","azula-11","azula-12"],"class":"fact","confidence":"verified","flags":[]},"blueprint":{"packages":[],"identity_core":true,"version":1,"class":"strategic_judgment","confidence":"high"}}},
   {"card":"Flooded Strand","status":"incumbent","zone":"main","edhrec":null},
   {"card":"Flusterstorm","status":"incumbent","zone":"main","edhrec":null,"oracle_hook":{"label":"copying","commander":"Fire Lord Azula","class":"heuristic","confidence":"moderate"},"graph":{"blueprint":{"packages":["pkg:free-interaction"],"identity_core":false,"version":1,"class":"strategic_judgment","confidence":"moderate"}}},
   {"card":"Force of Negation","status":"incumbent","zone":"main","edhrec":null,"graph":{"blueprint":{"packages":["pkg:free-interaction"],"identity_core":false,"version":1,"class":"strategic_judgment","confidence":"moderate"}}},
@@ -120,7 +120,7 @@
   {"card":"Repeal","status":"incumbent","zone":"main","edhrec":null},
   {"card":"Rhystic Study","status":"incumbent","zone":"main","edhrec":[0.959,-0.01502,0.20707,8053,38890,-0.375,"low",["lift_synergy_inconsistent"]]},
   {"card":"Rite of Flame","status":"incumbent","zone":"main","edhrec":[0.913,-0.00327,0.05886,2289,38890,-0.164,"low",["lift_synergy_inconsistent"]]},
-  {"card":"Samut, Tyrant of Naktamun","status":"incumbent","zone":"main","edhrec":null},
+  {"card":"Samut, Tyrant of Naktamun","status":"incumbent","zone":"main","edhrec":null,"graph":{"m1":{"ids":["azula-12"],"class":"fact","confidence":"verified","flags":[]}}},
   {"card":"Scalding Tarn","status":"incumbent","zone":"main","edhrec":[0.965,-0.01014,0.31252,12154,38890,0.0,"moderate",[]]},
   {"card":"Simian Spirit Guide","status":"incumbent","zone":"main","edhrec":[1.014,0.00415,0.07886,3067,38890,-0.309,"low",["lift_synergy_inconsistent"]]},
   {"card":"Snap","status":"incumbent","zone":"main","edhrec":[4.587,0.4457,0.54415,21162,38890,0.08,"low",["lift_synergy_inconsistent"]],"graph":{"blueprint":{"packages":["pkg:copy-payoffs"],"identity_core":false,"version":1,"class":"strategic_judgment","confidence":"moderate"}}},

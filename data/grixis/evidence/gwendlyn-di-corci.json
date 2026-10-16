@@ -29,11 +29,11 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:6176b9d4bd25256e984055dc205854315c4f1d158a8d059748e456a9527c1378",
+  "id": "sha256:e9adb528d30d58d00281f8626ca564f105ec978a2b7f16152d6ee5a39a00dcb2",
   "inputs": {
    ".cache/edhrec/commanders__gwendlyn-di-corci.json": "sha256:1642cb2fc7891d7a0029307cb8ce55b84650a251440dcd208eb3adad043fbc1d",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
-   "data/grixis_interactions/gwendlyn-di-corci.json": "sha256:3d02690cee7004c7c2f3ba89f63f7a2e9965ac562ee299f34b1e4cbe69a704e6",
+   "data/grixis_interactions/gwendlyn-di-corci.json": "sha256:fdd3d8b868e5cd6187aebeebecb57ac4575d0be992a03bd3bae92e8c3c6b818c",
    "data/grixis/blueprints/gwendlyn-di-corci.json": "sha256:28d0da293e10b04d494e6eb7843f3345a44158e467a408963000bf7969ae61a0",
    "grixis/decks/gwendlyn-di-corci.md": "sha256:2ec2d36cbde8852d4028e11f3190f0a34edfac41334b70bc25d4159cd40827bf",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
