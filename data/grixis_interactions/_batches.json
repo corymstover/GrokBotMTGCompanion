@@ -68,7 +68,7 @@
    "cycle": 51
   },
   "E": {
-   "status": "planned",
+   "status": "in progress",
    "decks": [
     "norman-osborn",
     "obeka-brute-chronologist",
@@ -80,7 +80,8 @@
     "sauron-the-dark-lord",
     "sedris-the-traitor-king",
     "solkanar-the-swamp-king"
-   ]
+   ],
+   "cycle": 54
   },
   "F": {
    "status": "planned",

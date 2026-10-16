@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -673,6 +674,15 @@ On 2026-10-15, the fail-closed GitHub Actions finalizer recomputed the raw bytes
 
 - [refinement/verification/Obeka_Splitter_of_Seconds_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Obeka_Splitter_of_Seconds_Approval_Ready_Verification_2026-10-15.md)
 - [refinement/verification/Obeka_Splitter_of_Seconds_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Obeka_Splitter_of_Seconds_Whole_List_Audit_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 54 interaction review: **5 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Obeka, Splitter of Seconds — Interaction Review](../interactions/obeka-splitter-of-seconds.md).
+
+- **Extra upkeeps come as extra beginning phases after combat; untap and draw are skipped** — Combat damage = that many extra beginning phases (upkeep only); upkeep triggers fire each time. ([obekass-01](../interactions/obeka-splitter-of-seconds.md#obekass-01-extra-upkeeps-come-as-extra-beginning-phases-after-combat-untap-and-draw-are-skipped))
+- **Time Sieve fed by upkeep artifacts: Thopter Spy Network, Smaug, Court of Vantress, Replicating Ring** — Spellbook 1558-5085-5471 etc.: Obeka's upkeeps make 5 artifacts → Time Sieve extra turn. ([obekass-04](../interactions/obeka-splitter-of-seconds.md#obekass-04-time-sieve-fed-by-upkeep-artifacts-thopter-spy-network-smaug-court-of-vantress-replicating-ring))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
