@@ -1,0 +1,540 @@
+{
+ "schema_version": 2,
+ "deck_id": "Nathan_Drake__Treasure_Hunter",
+ "slug": "nathan-drake-treasure-hunter",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 53,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:ac167a53ea77215d7eb148ea2eb814c2596d8da1943a971a8ee077c6d35ceb00",
+ "commanders": {
+  "value": [
+   {
+    "name": "Nathan Drake, Treasure Hunter",
+    "oracle_id": "ed69b907-272c-4a87-a943-06aaad976fb1",
+    "oracle_text": "First strike\nYou may spend mana as though it were mana of any color to cast spells you don't own or to activate abilities of permanents you control but don't own.\nWhenever Nathan Drake attacks, exile the top card of each player's library. You may cast a spell from among those cards.",
+    "oracle_sha256": "sha256:aaf5b9218d75a8c532c284a525fd8ffd6fbc858151cf2e8a9928c24243ee132a",
+    "type_line": "Legendary Creature — Human Rogue"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Nathan Drake, Treasure Hunter"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Accelerate and protect a three-mana commander and attack with Nathan every turn. Each attack exiles the top card of every library and lets you cast one of them; trigger multipliers and extra combats (Roaming Throne, Firebender Ascension, Karlach, Fire Lord Azula) turn that into a repeatable heist.",
+   "secondary": "A theft suite (Gonti, Thief of Sanity, Tinybones, Hostage Taker, Opposition Agent, Notion Thief, Laughing Jasper Flint) turns stolen resources into card advantage; payoffs like Don Andres and Nalfeshnee monetize casting cards you don't own."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L20",
+   "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L22"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Nathan is the main card-advantage engine and the reason the list values trigger copies and combat-time mana.",
+   "honest_note": "Commander Spellbook finds no combos in the list, and the source says the deck doesn't run a generic Oracle/Breach finish (blueprint L41). It wins by accumulated advantage and combat damage, so it's a low-to-mid Bracket 4 value deck. Nathan is central to the engine but provides no compact kill. No M1 interaction review exists yet for this deck."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L35",
+   "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L41"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "advantage-combat",
+   "kind": "natural",
+   "description": "Out-value the table with stolen spells and win through combat with first strike, extra combats and stolen threats.",
+   "cards": [
+    "Nathan Drake, Treasure Hunter",
+    "Karlach, Fury of Avernus",
+    "Fire Lord Azula",
+    "Etali, Primal Storm",
+    "Ragavan, Nimble Pilferer"
+   ],
+   "enablers": [
+    "Roaming Throne",
+    "Firebender Ascension"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L41"
+   ]
+  },
+  {
+   "id": "stolen-wincons",
+   "kind": "alternate",
+   "description": "Whatever win condition the opponents' libraries provide; it can't be planned for.",
+   "cards": [
+    "Nathan Drake, Treasure Hunter"
+   ],
+   "enablers": [
+    "Gonti, Night Minister",
+    "Thief of Sanity",
+    "Tinybones, the Pickpocket"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "nathan-heist",
+   "cards": [
+    "Nathan Drake, Treasure Hunter",
+    "Roaming Throne",
+    "Firebender Ascension",
+    "Karlach, Fury of Avernus",
+    "Fire Lord Azula",
+    "Fire Nation Palace",
+    "Arena of Glory"
+   ],
+   "online_condition": "Nathan attacks with mana available for the stolen spell.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Nathan Drake, Treasure Hunter",
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L9"
+   ]
+  },
+  {
+   "id": "theft-payoffs",
+   "cards": [
+    "Don Andres, the Renegade",
+    "Passionate Archaeologist",
+    "Nalfeshnee",
+    "Prosper, Tome-Bound",
+    "Gonti, Night Minister",
+    "Thief of Sanity",
+    "Opposition Agent",
+    "Notion Thief"
+   ],
+   "online_condition": "Casting cards you don't own.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L16"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:trigger-scaling",
+   "required": true,
+   "min_count": 4,
+   "role": "More Nathan attack triggers per turn.",
+   "cards": [
+    "Roaming Throne",
+    "Firebender Ascension",
+    "Karlach, Fury of Avernus",
+    "Fire Lord Azula"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L24",
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L25",
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L26",
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L27"
+   ]
+  },
+  {
+   "id": "pkg:haste-protection",
+   "required": true,
+   "min_count": 4,
+   "role": "Safe, immediate attacks.",
+   "cards": [
+    "Lightning Greaves",
+    "Swiftfoot Boots",
+    "Arena of Glory",
+    "Fierce Guardianship",
+    "Deflecting Swat",
+    "Force of Negation",
+    "Swan Song"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L13",
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L53"
+   ]
+  },
+  {
+   "id": "pkg:theft",
+   "required": true,
+   "min_count": 8,
+   "role": "Steal opponents' resources.",
+   "cards": [
+    "Gonti, Night Minister",
+    "Thief of Sanity",
+    "Tinybones, the Pickpocket",
+    "Hostage Taker",
+    "Opposition Agent",
+    "Notion Thief",
+    "Laughing Jasper Flint",
+    "Robber of the Rich",
+    "Black Cat, Cunning Thief",
+    "Stolen Strategy",
+    "Siphon Insight"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L51"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "attack-not-damage",
+   "summary": "Nathan triggers when he's declared as an attacker, not on damage; evasion only matters to keep him alive.",
+   "cards": [
+    "Nathan Drake, Treasure Hunter"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Nathan Drake, Treasure Hunter",
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L52"
+   ]
+  },
+  {
+   "id": "any-color-mana",
+   "summary": "Mana spends as any color only for spells you don't own and abilities of permanents you don't own.",
+   "cards": [
+    "Nathan Drake, Treasure Hunter"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Nathan Drake, Treasure Hunter"
+   ]
+  },
+  {
+   "id": "firebending-window",
+   "summary": "Fire Nation Palace's firebending makes mana before Nathan's trigger resolves, paying for the stolen spell.",
+   "cards": [
+    "Nathan Drake, Treasure Hunter",
+    "Fire Nation Palace"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L28",
+    "cr:702.189a"
+   ]
+  },
+  {
+   "id": "roaming-throne-rogue",
+   "summary": "Roaming Throne naming Rogue doubles Nathan's attack trigger.",
+   "cards": [
+    "Roaming Throne",
+    "Nathan Drake, Treasure Hunter"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L24"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Roaming Throne",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Praetor's Grasp"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Reanimate",
+   "Jeska's Will"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Mana Drain, Force of Negation, Swan Song, An Offer You Can't Refuse, Chaos Warp, Cyclonic Rift, Blasphemous Act.",
+   "protection": "Boots, Greaves, Fierce Guardianship, Deflecting Swat.",
+   "mana": "34 lands, Sol Ring, Lotus Petal, Dark Ritual, Talismans."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L53",
+   "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L54"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "nathan-dies-in-combat",
+   "description": "Nathan is a small attacker; blockers and removal shut off the engine.",
+   "mitigations": [
+    "First strike",
+    "Protection"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L13"
+   ]
+  },
+  {
+   "id": "no-compact-kill",
+   "description": "No deterministic win, so long games against interaction-heavy tables.",
+   "mitigations": [
+    "Theft of opponents' finishers"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L41"
+   ]
+  },
+  {
+   "id": "mana-in-combat",
+   "description": "Stolen spells need mana during combat.",
+   "mitigations": [
+    "Firebending",
+    "Treasures"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L15"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L35"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (blueprint v1)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L39"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 ceiling, low end: strong value engine and premium staples, but no compact win. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L41"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Nathan_Drake__Treasure_Hunter"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 11,
+     "2": 178,
+     "3": 283,
+     "4": 92,
+     "5": 13
+    },
+    "decks_with_bracket": 577,
+    "share_b4_plus": 0.182,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__nathan-drake-treasure-hunter.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Nathan Drake, Treasure Hunter",
+   "why": "Attack-trigger heist engine.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Nathan Drake, Treasure Hunter"
+   ]
+  },
+  {
+   "card": "Roaming Throne",
+   "why": "Doubles the trigger.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L24"
+   ]
+  },
+  {
+   "card": "Karlach, Fury of Avernus",
+   "why": "Extra combat and untap.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L26"
+   ]
+  },
+  {
+   "card": "Fire Lord Azula",
+   "why": "Combat mana and spell copy.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L27"
+   ]
+  },
+  {
+   "card": "Firebender Ascension",
+   "why": "Copies attack triggers.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L25"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Don't add theft cards just for popularity (blueprint L51).",
+   "Don't over-invest in damage-only evasion (blueprint L52)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L51",
+   "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L52"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Treasure-hunter heists from every library."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L33"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 508.1",
+   "note": "Declare attackers; attack triggers.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:508.1"
+   ]
+  },
+  {
+   "rule": "CR 702.189a",
+   "note": "Firebending.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.189a"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "combat damage / attack triggers",
+    "playing cards from exile",
+    "stealing / casting opponents' cards"
+   ],
+   "hooked_cards": 36,
+   "role_counts": {
+    "counter": 5,
+    "draw": 5,
+    "protection": 3,
+    "ramp": 21,
+    "removal": 5,
+    "tutor": 2,
+    "wipe": 1
+   },
+   "lands": 34,
+   "edhrec_pages": [
+    "nathan-drake-treasure-hunter"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md",
+   "source_archive:refinement/decisions/Nathan_Drake_Treasure_Hunter_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Nathan_Drake_Treasure_Hunter_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/Nathan_Drake_Treasure_Hunter_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/verification/Nathan_Drake_Treasure_Hunter_Whole_List_Audit_2026-10-15.md",
+   "source_archive:refinement/decklists/Nathan_Drake_Treasure_Hunter_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 53)"
+ }
+}
