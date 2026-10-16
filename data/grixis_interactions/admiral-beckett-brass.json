@@ -311,8 +311,7 @@
     "Forerunner of the Coalition"
    ],
    "ruling": "Roaming Throne (choose Pirate, so it's a Pirate too) makes triggered abilities of your *other* Pirate creatures trigger an additional time. That doubles Beckett's end step, Admiral Brass's combat reanimation and Coercive Recruiter's steal. Merchant Raiders taps a second target, and Forerunner's life loss doubles. Breeches, Eager Pillager triggers twice per attacking Pirate, but there are only three modes per turn, so the extra trigger may have no mode left to choose. Only abilities of creatures are doubled, so Double Down and Kindred Discovery aren't.",
-   "status": "uncertain",
-   "uncertainty": "With Breeches, Eager Pillager, an extra trigger after all three modes have been chosen that turn has no legal mode. The CR on modal triggers whose modes are used up applies, but no card-specific ruling confirms it.",
+   "status": "verified",
    "cr": [
     "603.2"
    ],
@@ -326,6 +325,34 @@
     {
      "card": "Roaming Throne",
      "quote": "Roaming Throne's last ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time."
+    }
+   ]
+  },
+  {
+   "id": "beckett-17",
+   "category": "trigger-order",
+   "title": "Breeches, Eager Pillager's extra triggers run out of modes",
+   "cards": [
+    "Admiral Beckett Brass",
+    "Breeches, Eager Pillager",
+    "Roaming Throne"
+   ],
+   "ruling": "Each Breeches trigger must choose a mode not yet chosen that turn. Once all three are used, a further trigger (from Roaming Throne or a fourth attacking Pirate) has no legal mode and is removed from the stack with no effect. The modes are chosen as the trigger goes on the stack.",
+   "status": "verified",
+   "cr": [
+    "603.3c",
+    "700.2"
+   ],
+   "oracle": [
+    {
+     "card": "Breeches, Eager Pillager",
+     "quote": "Whenever a Pirate you control attacks, choose one that hasn't been chosen this turn —"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Breeches, Eager Pillager",
+     "quote": "If you can't legally choose a mode because all three have been chosen that turn, that instance of the ability is removed from the stack with no effect."
     }
    ]
   },

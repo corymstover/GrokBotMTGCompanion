@@ -23,7 +23,7 @@
    "note": "deck #4: RULES PASS"
   }
  ],
- "summary": "Anhelo, the Painter is a spellslinger copy deck. Casualty 2 on the first instant or sorcery each turn adds a copy, and the deck stacks magecraft payoffs and copy combos (Dualcaster + Twinflame, Reiterate loops, Narset's Reversal loops). This review re-verifies the retrospective attestation and the closeout record, and separates cast payoffs from copy payoffs.\n\nNo list errors were found. Three Spellbook combos are marked uncertain only because their step text isn't cached.",
+ "summary": "Anhelo, the Painter is a spellslinger copy deck. Casualty 2 on the first instant or sorcery each turn adds a copy, and the deck stacks magecraft payoffs and copy combos (Dualcaster + Twinflame, Reiterate loops, Narset's Reversal loops). This review re-verifies the retrospective attestation and the closeout record, and separates cast payoffs from copy payoffs.\n\nNo list errors were found. Its three Spellbook combo lines are now confirmed against cached Spellbook steps (Bot cycle 48).",
  "absent": [],
  "companion": [],
  "interactions": [
@@ -229,10 +229,9 @@
     "Twinning Staff",
     "Reiterate"
    ],
-   "ruling": "Commander Spellbook lists Twinning Staff + Narset's Reversal and Narset's Reversal + Reiterate as infinite magecraft-trigger combos. The rules pieces are verified:\n- A copy of Narset's Reversal can target another Reversal spell or copy on the stack.\n- Reversal returns its target to hand, and a copy returned to hand ceases to exist.\n- With Staff, each copy event makes one more copy.\n\nIn the Staff line, each resolving copy creates two new copies while removing one, so the stack never runs out until you stop. Each copy triggers magecraft (Storm-Kiln Treasures, Ral pings, Deekah tokens).",
+   "ruling": "Commander Spellbook's steps (cached), each needing another instant or sorcery to start:\n- **Twinning Staff (11-2539):** cast Narset's Reversal targeting that spell, then activate Staff's {7} ability on Reversal, which makes two copies. Each copy of Reversal targets another copy, copying it twice and returning the targeted copy to hand, where it ceases to exist. Every copy triggers magecraft. Total mana {7}{U}{U}. Anhelo's casualty can supply the first copy instead of Staff's activation; that's our addition, not part of Spellbook's line.\n- **Reiterate (11-3368):** Reiterate targets the first spell. Narset's Reversal copies Reiterate and returns the original to hand. Recast Reiterate targeting the copy of Reiterate, and each resolving copy creates a new copy targeting the last. Total mana {1}{U}{U}{R}{R} plus the first spell.",
    "short": "Spellbook infinite: Narset's Reversal copies recurse with Staff or Reiterate.",
-   "status": "uncertain",
-   "uncertainty": "Spellbook's step text isn't cached. The sequencing above is reconstructed from Oracle text and rulings, not quoted. The rules pieces are verified, but confirm the exact line on commanderspellbook.com before relying on it in a tournament.",
+   "status": "verified",
    "key": true,
    "cr": [
     "707.10",
@@ -249,6 +248,16 @@
     {
      "card": "Narset's Reversal",
      "quote": "If a copy of a spell is returned to its owner’s hand, it’s moved there, then it will cease to exist as a state-based action."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "11-2539",
+     "quote": "Resolve one copy of Narset's Reversal targeting another copy of Narset's Reversal, copying it twice and returning the targeted copy to your hand."
+    },
+    {
+     "id": "11-3368",
+     "quote": "Resolve the copy of Reiterate, creating a copy of Reiterate targeting the copy of Reiterate."
     }
    ]
   },
@@ -332,9 +341,8 @@
     "Reiterate",
     "Narset's Reversal"
    ],
-   "ruling": "After Primal Amulet transforms, mana from Primal Wellspring copies the spell it's spent on. Frantic Search untaps three lands, including Wellspring, and the copy untaps three more. Spellbook adds Reiterate or Narset's Reversal to repeat it. You can't use Wellspring mana for the spell that gives Amulet its fourth counter.",
-   "status": "uncertain",
-   "uncertainty": "Spellbook marks these near-infinite; the net mana per loop depends on which lands you untap and on cost reducers (Goblin Electromancer, Thunderclap Drake, Amulet). No step text is cached.",
+   "ruling": "After Primal Amulet transforms, mana from Primal Wellspring copies the spell it's spent on. Spellbook's line (11-1484-2196, cached):\n1. Tap Wellspring and two other lands for at least {1}{U}{U} and cast Frantic Search. Wellspring copies it.\n2. The copy loots twice and untaps Wellspring and the two lands.\n3. Spend fresh Wellspring mana on Narset's Reversal. Its copy returns the original Reversal, the next copy returns Frantic Search, and so on.\n\nThe Reiterate version (1484-2196-3368) casts Reiterate with buyback and needs two lands making at least {2}. You can't use Wellspring mana for the spell that gives Amulet its fourth counter.",
+   "status": "verified",
    "cr": [
     "707.10"
    ],
@@ -349,6 +357,16 @@
      "card": "Primal Amulet // Primal Wellspring",
      "quote": "Notably, you can't use Primal Wellspring to pay for the spell that gives Primal Amulet its fourth counter."
     }
+   ],
+   "spellbook": [
+    {
+     "id": "11-1484-2196",
+     "quote": "You control two additional lands that can tap to produce at least {1}{U}."
+    },
+    {
+     "id": "1484-2196-3368",
+     "quote": "Cast Reiterate with buyback by paying {4}{R}{R}, targeting Frantic Search, ensuring to use the mana produced by Primal Wellspring."
+    }
    ]
   },
   {
@@ -361,19 +379,29 @@
     "Storm-Kiln Artist",
     "Twinflame"
    ],
-   "ruling": "Commander Spellbook lists Cormela, Storm-Kiln Artist and Twinflame together for infinite instant/sorcery-only mana. All three are in the list. This review doesn't reconstruct the line.",
-   "status": "uncertain",
-   "uncertainty": "Spellbook step text not cached; the line was not reconstructed.",
+   "ruling": "Spellbook's line (1235-4867-5195, cached):\n1. Tap Cormela ({1}) for {U}{B}{R} and cast Twinflame ({1}{R}); Storm-Kiln Artist makes a Treasure.\n2. Twinflame makes a hasty token copy of Cormela. The legend rule puts the tapped original into the graveyard, and her death trigger returns Twinflame.\n3. The token taps for more mana, and the Treasure pays the {1}.\n\nEach loop nets one restricted mana. The tokens are exiled at the next end step.",
+   "status": "verified",
    "cr": [
+    "704.5j",
     "707.10"
    ],
    "oracle": [
     {
      "card": "Cormela, Glamour Thief",
      "quote": "{1}, {T}: Add {U}{B}{R}. Spend this mana only to cast instant and/or sorcery spells."
+    },
+    {
+     "card": "Twinflame",
+     "quote": "For each of them, create a token that's a copy of that creature, except it has haste."
     }
    ],
-   "rulings": []
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "1235-4867-5195",
+     "quote": "Put the tapped Cormela into your graveyard due to the legend rule."
+    }
+   ]
   },
   {
    "id": "anhelo-12",

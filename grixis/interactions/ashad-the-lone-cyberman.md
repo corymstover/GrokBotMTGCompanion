@@ -14,7 +14,7 @@ schema: 2
 | | |
 |---|---|
 | Current list | [`exports/grixis-archidekt/ashad-the-lone-cyberman.txt`](../../exports/grixis-archidekt/ashad-the-lone-cyberman.txt) · SHA-256 `13fa3b590700b08a41783ab763a1055f9f82103db01a3757a3662be7a092637c` |
-| Rulings | **13** (12 verified · 1 uncertain · 0 flags) |
+| Rulings | **14** (13 verified · 1 uncertain · 0 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) (deck #5: RULES PASS) |
 
@@ -47,7 +47,7 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 | # | Status | Interaction | Note |
 |---|---|---|---|
-| [ashad-05](#ashad-05-urza--worldwalker-helm--artificer-class) | ⚠️ uncertain | Urza + Worldwalker Helm + Artificer Class | The line is reconstructed from Oracle text (Spellbook step text isn't cached). The Ashad shortcut in particular is our derivation, not a Spellbook entry. |
+| [ashad-14](#ashad-14-ashads-casualty-copy-of-worldwalker-helm-as-the-starting-token) | ⚠️ uncertain | Ashad's casualty copy of Worldwalker Helm as the starting token | Reconstructed from Oracle text and CR 111.13; not a Commander Spellbook variant. It needs a second untapped artifact for the first {U}{U}. |
 
 ## Commander rules text and edge cases
 
@@ -81,17 +81,15 @@ Input for later refinement. **No decklist was changed in this phase.**
 
 ### ashad-05: Urza + Worldwalker Helm + Artificer Class
 
-**Status:** ⚠️ uncertain · **Cards:** Ashad, the Lone Cyberman, Urza, Lord High Artificer, Worldwalker Helm, Artificer Class
+**Status:** ✅ verified · **Cards:** Ashad, the Lone Cyberman, Urza, Lord High Artificer, Worldwalker Helm, Artificer Class
 
-**Ruling.** Commander Spellbook lists this as infinite artifact tokens and blue mana, then Urza's {5} repeatedly exiles and plays the library.
+**Ruling.** Commander Spellbook (66-457-5491, cached) lists this as infinite artifact tokens and blue mana. Its line, with Artificer Class at level 3:
+1. At your end step, the Class makes a token copy of Worldwalker Helm plus a Map.
+2. Urza taps a Helm and a Map for {U}{U}.
+3. A Helm token copies itself ({1}{U}, {T}), creating another Helm token plus a Map *for each Helm you control*.
+4. Urza taps two Maps for {U}{U}. Repeat from step 3.
 
-1. Artificer Class level 3 makes an end-step token copy of Worldwalker Helm.
-2. A Helm token can copy itself ({1}{U}, {T}). Each Helm adds a Map token to every artifact-token creation.
-3. Urza taps the new untapped Helm token and the Maps for {U}. With two Helms, each activation makes a new Helm token plus two Maps, enough to pay for the next activation.
-
-An Ashad casualty copy of Worldwalker Helm is a token Helm too, so Ashad can replace step 1.
-
-**Uncertain.** The line is reconstructed from Oracle text (Spellbook step text isn't cached). The Ashad shortcut in particular is our derivation, not a Spellbook entry.
+Urza's {5} then exiles and plays the library.
 
 **Citations**
 
@@ -99,7 +97,21 @@ An Ashad casualty copy of Worldwalker Helm is a token Helm too, so Ashad can rep
 - Oracle, *Urza, Lord High Artificer*: “Tap an untapped artifact you control: Add {U}.”
 - Oracle, *Artificer Class*: “At the beginning of your end step, create a token that's a copy of target artifact you control.”
 - Scryfall ruling, *Worldwalker Helm*: “Worldwaker Helm's first ability applies to all kinds of artifact tokens that its controller creates, not just Map tokens.”
-- [CR 111.13](#cr-11113), [CR 605.1a](#cr-6051a)
+- [CR 605.1a](#cr-6051a), [CR 614.1a](#cr-6141a)
+- Commander Spellbook [66-457-5491](https://commanderspellbook.com/combo/66-457-5491/) (community-maintained, retrieved 2026-10-16): “Activate a Worldwalker Helm by paying {1}{U} and tapping it, creating a token copy of the Worldwalker Helm token plus a Map token for each Worldwalker Helm you control.”
+
+### ashad-14: Ashad's casualty copy of Worldwalker Helm as the starting token
+
+**Status:** ⚠️ uncertain · **Evidence:** hypothesis · **Cards:** Ashad, the Lone Cyberman, Urza, Lord High Artificer, Worldwalker Helm
+
+**Ruling.** Our derivation, not a Spellbook line. Casting Worldwalker Helm as your first nonlegendary artifact spell with casualty gives a token Helm. It isn't 'created', so no Map, but it's an artifact token that Helm's ability can target. With Urza, tap the nontoken Helm and another artifact for {U}{U}, then activate the token Helm. It copies itself and gets two Maps (two Helms on the battlefield), and steps 3–4 of the Spellbook line follow without Artificer Class.
+
+**Uncertain.** Reconstructed from Oracle text and CR 111.13; not a Commander Spellbook variant. It needs a second untapped artifact for the first {U}{U}.
+
+**Citations**
+
+- Oracle, *Ashad, the Lone Cyberman*: “The first nonlegendary artifact spell you cast each turn has casualty 2.”
+- [CR 111.13](#cr-11113), [CR 608.3f](#cr-6083f), [CR 702.153a](#cr-702153a)
 
 ## Engines and payoffs
 

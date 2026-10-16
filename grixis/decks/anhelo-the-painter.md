@@ -401,9 +401,6 @@ Source: [refinement/decisions/Anhelo_the_Painter_Candidate_Decisions_2026-10-13.
 
 **Flags for later refinement** (no list change in this phase):
 - ⚠️ uncertain Spells cast before Anhelo arrived still count as 'first': No Anhelo ruling addresses spells cast before it entered; inferred from the wording and the Baral and Kari Zev ruling for similar text. Sequence Anhelo before your first spell to be safe. ([anhelo-02](../interactions/anhelo-the-painter.md#anhelo-02-spells-cast-before-anhelo-arrived-still-count-as-first))
-- ⚠️ uncertain Narset's Reversal copy loops (with Twinning Staff or Reiterate): Spellbook's step text isn't cached. The sequencing above is reconstructed from Oracle text and rulings, not quoted. The rules pieces are verified, but confirm the exact line on commanderspellbook.com before relying on it in a tournament. ([anhelo-07](../interactions/anhelo-the-painter.md#anhelo-07-narsets-reversal-copy-loops-with-twinning-staff-or-reiterate))
-- ⚠️ uncertain Primal Wellspring + Frantic Search (+ Reiterate or Narset's Reversal): Spellbook marks these near-infinite; the net mana per loop depends on which lands you untap and on cost reducers (Goblin Electromancer, Thunderclap Drake, Amulet). No step text is cached. ([anhelo-10](../interactions/anhelo-the-painter.md#anhelo-10-primal-wellspring--frantic-search--reiterate-or-narsets-reversal))
-- ⚠️ uncertain Cormela + Storm-Kiln Artist + Twinflame: Spellbook step text not cached; the line was not reconstructed. ([anhelo-11](../interactions/anhelo-the-painter.md#anhelo-11-cormela--storm-kiln-artist--twinflame))
 <!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->

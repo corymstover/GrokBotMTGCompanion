@@ -379,7 +379,7 @@ No matched-start simulator or representative multiplayer playtest was available.
 <!-- INTERACTIONS:START -->
 ## Rules notes
 
-> Bot cycle 46 interaction review: **13 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Ashad, the Lone Cyberman — Interaction Review](../interactions/ashad-the-lone-cyberman.md).
+> Bot cycle 46 interaction review: **14 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Ashad, the Lone Cyberman — Interaction Review](../interactions/ashad-the-lone-cyberman.md).
 
 - **Casualty 2 on your first nonlegendary artifact spell** — First nonlegendary artifact spell each turn: sacrifice power 2+ to copy it into a token. ([ashad-01](../interactions/ashad-the-lone-cyberman.md#ashad-01-casualty-2-on-your-first-nonlegendary-artifact-spell))
 - **Casualty tokens aren't 'created': no Worldwalker Helm Map** — Casualty copies enter as tokens but aren't 'created': enter triggers work, Helm's Map doesn't. ([ashad-03](../interactions/ashad-the-lone-cyberman.md#ashad-03-casualty-tokens-arent-created-no-worldwalker-helm-map))
@@ -387,7 +387,7 @@ No matched-start simulator or representative multiplayer playtest was available.
 - **Biotransference makes creature spells artifact spells** — Biotransference: your creatures become artifacts, so they get casualty and survive Delete and Their Name Is Death. ([ashad-06](../interactions/ashad-the-lone-cyberman.md#ashad-06-biotransference-makes-creature-spells-artifact-spells))
 
 **Flags for later refinement** (no list change in this phase):
-- ⚠️ uncertain Urza + Worldwalker Helm + Artificer Class: The line is reconstructed from Oracle text (Spellbook step text isn't cached). The Ashad shortcut in particular is our derivation, not a Spellbook entry. ([ashad-05](../interactions/ashad-the-lone-cyberman.md#ashad-05-urza--worldwalker-helm--artificer-class))
+- ⚠️ uncertain Ashad's casualty copy of Worldwalker Helm as the starting token: Reconstructed from Oracle text and CR 111.13; not a Commander Spellbook variant. It needs a second untapped artifact for the first {U}{U}. ([ashad-14](../interactions/ashad-the-lone-cyberman.md#ashad-14-ashads-casualty-copy-of-worldwalker-helm-as-the-starting-token))
 <!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
