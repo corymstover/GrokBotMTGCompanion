@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 40 (Grixis refinement: power guard, batch-1 re-check, batch 2)](#2026-10-16--bot-cycle-40-grixis-refinement-power-guard-batch-1-re-check-batch-2)
 - [2026-10-16 — Bot cycle 39 (Grixis commander-first refinement, batch 1)](#2026-10-16--bot-cycle-39-grixis-commander-first-refinement-batch-1)
 - [2026-10-16 — Bot cycle 38 (Grixis: 62/62 pages, 2 pending legality)](#2026-10-16--bot-cycle-38-grixis-6262-pages-2-pending-legality)
 - [2026-10-16 — Bot cycle 37 (Grixis re-analysis)](#2026-10-16--bot-cycle-37-grixis-re-analysis)
@@ -53,6 +54,28 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 40 (Grixis refinement: power guard, batch-1 re-check, batch 2)
+Cory tightened the method: precision over speed, no artificial weakening.
+- **Power guard** (`scripts/grixis_refine.py`). An add must:
+  - match or beat the cut's inclusion on the commander's EDHREC page;
+  - keep its overall EDHREC rank within 4× / +2000 of the cut's;
+  - not replace a free spell (pitch or commander-free) with one that costs mana.
+- **Manual review.** Every guard-passing swap needs a written accept/reject reason in `data/grixis_refine_review.json`. That file can also protect deck-core cards from cuts. Trigger doublers such as Roaming Throne are now protected automatically for triggered commanders.
+- **Batch-1 re-check:** 3 swaps reverted and logged:
+  - Abaddon: Chandra, Torch of Defiance for Deadly Rollick (free spell lost; lower Abaddon inclusion);
+  - Crosis: Whispersilk Cloak for Deflecting Swat (free spell lost) and Quest for the Nihil Stone for Reanimate (rank 10,497 vs 53; lower Crosis inclusion);
+  - Admiral Brass, Unsinkable: Lethal Scheme for Deadly Rollick (free spell lost).
+  - Kept, with a written review: Abaddon −Mystic Remora +Stormfist Crusader.
+- **Evelyn scoring gap fixed** with new hooks for playing cards from exile, flash, and "or another … enters". Her score went from 1% to 15%. The remaining gap is real: the list is a generic cEDH reanimator/Thoracle shell (flagged).
+- **Overlap review** (manual, on the [Refinement Cycle](grixis/Grixis%20Refinement%20Cycle.md#overlap-review-manual) page):
+  - Kess/Kefka is partly homogenization for Kefka. Identity-driven proposals for his batch: Liliana's Caress, Monument to Endurance, Dauthi Voidwalker.
+  - Cormela/Kess and Jeleva/Kess are identity-justified (shared spellslinger engines).
+- **Batch 2 (13 decks, Doctor Doom through Inalla):**
+  - 1 refined: Norman Osborn −Mystic Remora +Thrill of Possibility. Thrill's discard cost gives the discarded card mayhem from Green Goblin at {2} less.
+  - 12 at/near ceiling. 17 candidate swaps were rejected by the guard and 3 by review.
+- **Source:** `git pull` on the read-only Grixis clone. It is still at `1836b97`, so there are no upstream changes to fold in.
+- **Exports** regenerated (62 files + ALL-DECKS.txt + README). `validate_all` PASS.
 
 ## 2026-10-16 — Bot cycle 39 (Grixis commander-first refinement, batch 1)
 Cory's mission: every Grixis deck must be the definitive, maximally optimized version of its commander's deck, not a Grixis shell ([Grixis Mission](grixis/Grixis%20Mission.md), also at the top of the [Grixis index](grixis/README.md)).

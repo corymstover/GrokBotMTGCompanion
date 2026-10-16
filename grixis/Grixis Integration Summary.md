@@ -29,6 +29,8 @@ schema: 2
 ## Bot cycle 39 commander-first refinement
 Cory set a new [mission](Grixis%20Mission.md): each deck must be the definitive, maximally optimized version of *its commander's* deck. Batch progress, metrics for all 62 decks and the method are on the [Grixis Refinement Cycle](Grixis%20Refinement%20Cycle.md) page. Refined lists appear as a *Refined list* section on the deck pages; the source list stays credited. Final lists are exported for Archidekt in [exports/grixis-archidekt/](../exports/grixis-archidekt/README.md).
 
+*Bot cycle 40:* power guard plus a written review for each swap. The batch-1 re-check reverted 3 swaps (Chandra for Deadly Rollick, Whispersilk Cloak for Deflecting Swat, Quest for the Nihil Stone for Reanimate). Batch 2 covers 13 decks. The manual overlap review is on the Refinement Cycle page. The Grixis source is still at `1836b97` (pulled 2026-10-16, no upstream changes).
+
 ## Bot cycle 38 pending-legality pages
 Cory asked for all 62 Grixis decks in the companion. **62/62 deck pages: 60 legal + 2 ⏳ pending legality.**
 - **Pending pages:** [The Madcap Jester](decks/the-madcap-jester.md) (not-yet-legal: The Madcap Jester, Dragon's Smile) and [Tresserhorn's Lord, Returned](decks/tresserhorns-lord-returned.md) (not-yet-legal: Tresserhorn's Lord, Returned). Set `mbc` releases 2026-10-19; on 2026-10-16 the Scryfall API and bulk list these cards as `not_legal`. Each page has a ⏳ banner at the top and `legality_status: pending`, `legal_from: 2026-10-19`, `pending_cards` in its front matter.
