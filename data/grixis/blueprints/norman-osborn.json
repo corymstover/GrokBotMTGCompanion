@@ -1,0 +1,642 @@
+{
+ "schema_version": 2,
+ "deck_id": "Goben__Gene_Splice_Savant",
+ "slug": "norman-osborn",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 53,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
+ "commanders": {
+  "value": [
+   {
+    "name": "Norman Osborn // Green Goblin",
+    "oracle_id": "aa5b06a4-90c3-45e7-ab83-cb5c96ded21d",
+    "oracle_text": "Norman Osborn can't be blocked.\nWhenever Norman Osborn deals combat damage to a player, he connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.)\n{1}{U}{B}{R}: Transform Norman Osborn. Activate only as a sorcery.\nFlying, menace\nSpells you cast from your graveyard cost {2} less to cast.\nGoblin Formula — Each nonland card in your graveyard has mayhem. The mayhem cost is equal to its mana cost. (You may cast a card from your graveyard for its mayhem cost if you discarded it this turn. Timing rules still apply.)",
+    "oracle_sha256": "sha256:8037862f2af14ed46f91c3b75b1ed0609d585036ae39ced016e070a57c720c51",
+    "type_line": "Legendary Creature — Human Scientist Villain // Legendary Creature — Goblin Human Villain"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Norman Osborn // Green Goblin"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Turbo combo: fast mana and tutors race to Thassa's Oracle + Demonic Consultation/Tainted Pact or Underworld Breach lines (LED + Brain Freeze, Wheel of Fortune + Jeska's Will, Grinding Station + Mox Amber).",
+   "secondary": "Commander-native mayhem: Norman connives unblockably, then Green Goblin makes every nonland card discarded this turn castable from the graveyard for {2} less, turning loot and discard outlets into card advantage."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L13",
+   "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L18",
+   "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L25"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "significant",
+   "advances_plan": "Green Goblin's mayhem and cost reduction turn the loot/discard package into virtual card advantage. Norman is a blue legendary that turns on Mox Amber.",
+   "honest_note": "All 7 Spellbook combos in the list are commander-free generic cEDH kills (Oracle, Breach). The source keeps them because the ceiling is genuinely cEDH and says they're not the deck's sole identity (verification L179). The mayhem engine needs a four-mana sorcery-speed transform. Good card selection, but the deck mostly wins without him. Registry quirk: this deck's registry id is the stale tracker id Goben__Gene_Splice_Savant, so the source files (Norman_Osborn_Green_Goblin_*) were cited by hand. No M1 interaction review exists yet for this deck."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md#L179",
+   "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L39"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "oracle",
+   "kind": "combo",
+   "description": "Thassa's Oracle + Demonic Consultation or Tainted Pact.",
+   "cards": [
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1295-3093",
+    "spellbook:742-1295"
+   ]
+  },
+  {
+   "id": "breach",
+   "kind": "combo",
+   "description": "Underworld Breach + LED/Lotus Petal + Brain Freeze, or + Wheel of Fortune (+ LED or Jeska's Will).",
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Brain Freeze",
+    "Wheel of Fortune",
+    "Jeska's Will"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1368-1414-4856",
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-2706-3518",
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "breach-station",
+   "kind": "combo",
+   "description": "Underworld Breach + Grinding Station + Mox Amber: self-mill, storm and mana. With Norman out, Mox Amber makes blue.",
+   "cards": [
+    "Underworld Breach",
+    "Grinding Station",
+    "Mox Amber"
+   ],
+   "enablers": [
+    "Norman Osborn // Green Goblin",
+    "Brain Freeze",
+    "Thassa's Oracle"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1368-3698--44",
+    "source_archive:refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md#L193",
+    "source_archive:refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md#L195"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "mayhem",
+   "cards": [
+    "Norman Osborn // Green Goblin",
+    "Careful Study",
+    "Faithless Looting",
+    "Frantic Search",
+    "Psychic Frog",
+    "Shadow of the Goblin",
+    "Unstable Experiment",
+    "Big Score",
+    "Dark Deal"
+   ],
+   "online_condition": "Green Goblin transformed ({1}{U}{B}{R}, sorcery speed) and a discard outlet.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Norman Osborn // Green Goblin",
+    "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L13",
+    "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L16"
+   ]
+  },
+  {
+   "id": "fast-mana",
+   "cards": [
+    "Mana Vault",
+    "Grim Monolith",
+    "Chrome Mox",
+    "Mox Diamond",
+    "Mox Opal",
+    "Mox Amber",
+    "Lotus Petal",
+    "Dark Ritual",
+    "Cabal Ritual",
+    "Rite of Flame",
+    "Simian Spirit Guide",
+    "City of Traitors",
+    "Gemstone Caverns",
+    "Ancient Tomb"
+   ],
+   "online_condition": "Opening hand.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:discard-into-mayhem",
+   "required": true,
+   "min_count": 10,
+   "role": "Discard outlets that feed mayhem.",
+   "cards": [
+    "Careful Study",
+    "Faithless Looting",
+    "Frantic Search",
+    "Psychic Frog",
+    "Shadow of the Goblin",
+    "Unstable Experiment",
+    "Big Score",
+    "Dark Deal",
+    "Attunement",
+    "Breakthrough",
+    "Ghostly Pilferer",
+    "Tolarian Winds",
+    "Artist's Talent",
+    "Gamble",
+    "Reckless Handling"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L22"
+   ]
+  },
+  {
+   "id": "pkg:timing",
+   "required": false,
+   "min_count": 2,
+   "role": "Flash timing for mayhem-cast noncreature spells.",
+   "cards": [
+    "Borne Upon a Wind",
+    "Valley Floodcaller"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L24"
+   ]
+  },
+  {
+   "id": "pkg:tutors",
+   "required": true,
+   "min_count": 8,
+   "role": "Find the compact wins.",
+   "cards": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Imperial Seal",
+    "Mystical Tutor",
+    "Beseech the Mirror",
+    "Wishclaw Talisman",
+    "Reckless Handling",
+    "Gamble",
+    "Demonic Consultation",
+    "Tainted Pact"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L26"
+   ]
+  },
+  {
+   "id": "pkg:stack",
+   "required": true,
+   "min_count": 8,
+   "role": "cEDH stack interaction.",
+   "cards": [
+    "Force of Will",
+    "Pact of Negation",
+    "Fierce Guardianship",
+    "Flusterstorm",
+    "Mental Misstep",
+    "Mindbreak Trap",
+    "Swan Song",
+    "Pyroblast",
+    "Red Elemental Blast",
+    "Deflecting Swat",
+    "Into the Flood Maw",
+    "Chain of Vapor",
+    "Defense Grid"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "generic-only-reduction",
+   "summary": "Green Goblin's {2} reduction only reduces generic mana.",
+   "cards": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Norman Osborn // Green Goblin",
+    "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L15"
+   ]
+  },
+  {
+   "id": "mayhem-timing",
+   "summary": "Mayhem needs the card discarded this turn and follows normal timing rules; Borne Upon a Wind/Valley Floodcaller add flash.",
+   "cards": [
+    "Norman Osborn // Green Goblin",
+    "Borne Upon a Wind",
+    "Valley Floodcaller"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Norman Osborn // Green Goblin",
+    "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L16"
+   ]
+  },
+  {
+   "id": "no-necropotence",
+   "summary": "Necropotence exiles discarded cards, which conflicts with mayhem, so it's deliberately excluded.",
+   "cards": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L36"
+   ]
+  },
+  {
+   "id": "mox-amber-norman",
+   "summary": "Norman is a blue legendary creature, so Mox Amber makes blue mana.",
+   "cards": [
+    "Mox Amber",
+    "Norman Osborn // Green Goblin"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md#L195"
+   ]
+  },
+  {
+   "id": "connive",
+   "summary": "Connive: draw, discard; a nonland discard adds a +1/+1 counter.",
+   "cards": [
+    "Norman Osborn // Green Goblin"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "cr:701.50a"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Thassa's Oracle",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Imperial Seal",
+    "Mystical Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "target": "Lion's Eye Diamond",
+   "via": [
+    "Beseech the Mirror",
+    "Wishclaw Talisman",
+    "Reckless Handling"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1368-3518-4856"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Norman Osborn // Green Goblin",
+   "Underworld Breach",
+   "Yawgmoth's Will",
+   "Jeska's Will"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Full cEDH free-counter suite.",
+   "protection": "Fierce Guardianship, Deflecting Swat, Defense Grid, Cavern of Souls.",
+   "mana": "23 lands plus a dense fast-mana package."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L45",
+   "source_archive:refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md#L239"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "graveyard-hate",
+   "description": "Graveyard hate stops Breach and mayhem.",
+   "mitigations": [
+    "Oracle lines"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md"
+   ]
+  },
+  {
+   "id": "slow-transform",
+   "description": "Green Goblin needs a four-mana sorcery-speed transform.",
+   "mitigations": [
+    "Generic combo without him"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L38"
+   ]
+  },
+  {
+   "id": "23-lands",
+   "description": "A 23-land turbo build can stumble without fast mana.",
+   "mitigations": [
+    "Loot density"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L45"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "low",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md#L179"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Power Bracket 5 — cEDH (blueprint)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L9"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Bracket 5 ceiling: tournament-backed turbo shell with Oracle and Breach lines. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L30",
+    "source_archive:refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md#L41"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "5",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Goben__Gene_Splice_Savant"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 58,
+     "2": 857,
+     "3": 1622,
+     "4": 681,
+     "5": 788
+    },
+    "decks_with_bracket": 4006,
+    "share_b4_plus": 0.367,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__norman-osborn.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Norman Osborn // Green Goblin",
+   "why": "Unblockable connive, then mayhem and cost reduction.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Norman Osborn // Green Goblin"
+   ]
+  },
+  {
+   "card": "Faithless Looting",
+   "why": "Cheap discard into mayhem.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L22"
+   ]
+  },
+  {
+   "card": "Borne Upon a Wind",
+   "why": "Flash for mayhem casts.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L24"
+   ]
+  },
+  {
+   "card": "Grinding Station",
+   "why": "Breach engine piece.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md#L193"
+   ]
+  },
+  {
+   "card": "Thassa's Oracle",
+   "why": "Compact win.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1295-3093"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No Necropotence (blueprint L36).",
+   "Don't cut commander-native discard engines for generic staples (L37).",
+   "No five-mana discard payoffs or combat-only value (L38)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L36",
+   "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L37",
+   "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L38"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Mayhem / graveyard casting / turbo combo (blueprint L11)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L11"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 701.50a",
+   "note": "Connive.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:701.50a"
+   ]
+  },
+  {
+   "rule": "CR 601.2f",
+   "note": "Cost reductions reduce generic mana.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:601.2f"
+   ]
+  },
+  {
+   "rule": "CR 702.187a",
+   "note": "Mayhem.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.187a"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "+1/+1 counters",
+    "combat damage / attack triggers",
+    "connive / looting",
+    "discard",
+    "graveyard as a resource"
+   ],
+   "hooked_cards": 24,
+   "role_counts": {
+    "counter": 8,
+    "draw": 21,
+    "protection": 1,
+    "ramp": 22,
+    "removal": 5,
+    "tutor": 9,
+    "wipe": 1
+   },
+   "lands": 23,
+   "edhrec_pages": [
+    "norman-osborn"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md",
+   "source_archive:refinement/decisions/Norman_Osborn_Green_Goblin_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Norman_Osborn_Green_Goblin_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/verification/Norman_Osborn_Green_Goblin_Whole_List_Audit_2026-10-15.md",
+   "source_archive:refinement/decklists/Norman_Osborn_Green_Goblin_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 53)"
+ }
+}

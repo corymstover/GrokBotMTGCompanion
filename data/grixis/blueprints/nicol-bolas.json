@@ -1,0 +1,587 @@
+{
+ "schema_version": 2,
+ "deck_id": "Nicol_Bolas",
+ "slug": "nicol-bolas",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 53,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+ "commanders": {
+  "value": [
+   {
+    "name": "Nicol Bolas",
+    "oracle_id": "e26bf6a9-b31c-4bc0-b55b-c01f2f69be6b",
+    "oracle_text": "Flying\nAt the beginning of your upkeep, sacrifice Nicol Bolas unless you pay {U}{B}{R}.\nWhenever Nicol Bolas deals damage to an opponent, that player discards their hand.",
+    "oracle_sha256": "sha256:d6da0ebf968f2b0a5804219ca19df97344c865aa640e32499c25ccb1cb192046",
+    "type_line": "Legendary Creature — Elder Dragon"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Nicol Bolas"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Ramp to an eight-mana UUBBRR commander, protect it, and have Bolas deal damage (combat or noncombat) to empty opponents' hands. Discard payoffs turn each hand wipe into cards, mana, permanents and life loss.",
+   "secondary": "Aggravated Assault + Sword of Feast and Famine as a repeatable extra-combat finisher; Torment of Hailfire and attrition with an emptied table."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L23",
+   "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L24",
+   "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L25",
+   "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L27"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Bolas's damage-triggered hand wipe is the engine every damage enabler and discard payoff is built around.",
+   "honest_note": "The identity is real but the commander is weak: 8 mana with UUBBRR, an {U}{B}{R} upkeep tax, and no command-zone combo (blueprint L57). The only Spellbook combo in the list is Sword of Feast and Famine + Aggravated Assault, which doesn't need him. Expect a slow, low-end Bracket 4 control deck. No M1 interaction review exists yet for this deck."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L57",
+   "spellbook:900-3750"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "sword-assault",
+   "kind": "combo",
+   "description": "Sword of Feast and Famine + Aggravated Assault: infinite combats once a creature connects.",
+   "cards": [
+    "Sword of Feast and Famine",
+    "Aggravated Assault"
+   ],
+   "enablers": [
+    "Nicol Bolas"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:900-3750",
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L27"
+   ]
+  },
+  {
+   "id": "discard-lock",
+   "kind": "natural",
+   "description": "Repeated whole-hand discard, then Bolas beats or Liliana's Caress, Raiders' Wake and Torment of Hailfire drain.",
+   "cards": [
+    "Nicol Bolas",
+    "Liliana's Caress",
+    "Raiders' Wake",
+    "Torment of Hailfire"
+   ],
+   "enablers": [
+    "Dragon Tempest",
+    "Ingris Stingerquill",
+    "Kediss, Emberclaw Familiar",
+    "Chandra's Ignition",
+    "Pain for All",
+    "Quicksilver Dagger",
+    "Viridian Longbow"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L47",
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L57"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "bolas-damage",
+   "cards": [
+    "Nicol Bolas",
+    "Dragon Tempest",
+    "Ingris Stingerquill",
+    "Kediss, Emberclaw Familiar",
+    "Chandra's Ignition",
+    "Pain for All",
+    "Quicksilver Dagger",
+    "Viridian Longbow"
+   ],
+   "online_condition": "Bolas in play and survives upkeep.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Nicol Bolas",
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L19",
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L31",
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L32",
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L33",
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L34"
+   ]
+  },
+  {
+   "id": "discard-payoffs",
+   "cards": [
+    "Waste Not",
+    "Geth's Grimoire",
+    "Tergrid, God of Fright // Tergrid's Lantern",
+    "Tinybones, Bauble Burglar",
+    "Tinybones, Trinket Thief",
+    "Sangromancer",
+    "Liliana's Caress",
+    "Raiders' Wake"
+   ],
+   "online_condition": "Opponents discard.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L41",
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L42",
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L43"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:bolas-sourced-damage",
+   "required": true,
+   "min_count": 5,
+   "role": "Make Bolas himself deal damage, ideally outside combat.",
+   "cards": [
+    "Dragon Tempest",
+    "Ingris Stingerquill",
+    "Kediss, Emberclaw Familiar",
+    "Chandra's Ignition",
+    "Pain for All",
+    "Quicksilver Dagger",
+    "Viridian Longbow"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L29"
+   ]
+  },
+  {
+   "id": "pkg:discard-payoffs",
+   "required": true,
+   "min_count": 6,
+   "role": "Turn hand wipes into advantage.",
+   "cards": [
+    "Waste Not",
+    "Geth's Grimoire",
+    "Tergrid, God of Fright // Tergrid's Lantern",
+    "Tinybones, Bauble Burglar",
+    "Tinybones, Trinket Thief",
+    "Sangromancer",
+    "Liliana's Caress",
+    "Raiders' Wake"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L39"
+   ]
+  },
+  {
+   "id": "pkg:mana",
+   "required": true,
+   "min_count": 10,
+   "role": "Accelerate an eight-mana, triple-color commander.",
+   "cards": [
+    "Sol Ring",
+    "Mana Vault",
+    "Grim Monolith",
+    "Chrome Mox",
+    "Mox Diamond",
+    "Dark Ritual",
+    "Cabal Ritual",
+    "Seething Song",
+    "Ancient Tomb",
+    "Arcane Signet",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L23"
+   ]
+  },
+  {
+   "id": "pkg:protection",
+   "required": true,
+   "min_count": 5,
+   "role": "Protect the eight-drop.",
+   "cards": [
+    "Lightning Greaves",
+    "Swiftfoot Boots",
+    "Brotherhood Regalia",
+    "Cavern of Souls",
+    "Command Beacon",
+    "Fierce Guardianship",
+    "Deflecting Swat",
+    "Force of Will"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L26"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "any-damage",
+   "summary": "The discard trigger fires on damage of any kind, not only combat damage.",
+   "cards": [
+    "Nicol Bolas"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Nicol Bolas",
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L19"
+   ]
+  },
+  {
+   "id": "ingris-pre-blocks",
+   "summary": "Ingris makes Nicol deal 1 to each opponent when he attacks, so they discard before blockers.",
+   "cards": [
+    "Ingris Stingerquill",
+    "Nicol Bolas"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L32"
+   ]
+  },
+  {
+   "id": "tergrid-tinybones-order",
+   "summary": "Tergrid and Tinybones, Bauble Burglar both trigger on a discarded permanent; their controller chooses the order.",
+   "cards": [
+    "Tergrid, God of Fright // Tergrid's Lantern",
+    "Tinybones, Bauble Burglar"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L51"
+   ]
+  },
+  {
+   "id": "upkeep-tax",
+   "summary": "Pay {U}{B}{R} each upkeep or sacrifice Bolas.",
+   "cards": [
+    "Nicol Bolas"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Nicol Bolas",
+    "cr:603.3b"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Dragon Tempest",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L31"
+   ]
+  },
+  {
+   "target": "Aggravated Assault",
+   "via": [
+    "Demonic Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "spellbook:900-3750"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Jeska's Will",
+   "Tergrid, God of Fright // Tergrid's Lantern",
+   "Shizo, Death's Storehouse"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "low",
+  "evidence": [
+   "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Force of Will, Mana Drain, Counterspell, Terminate, Sheoldred's Edict, Chaos Warp, Toxic Deluge, Cyclonic Rift.",
+   "protection": "Boots, Greaves, Regalia, Cavern, Command Beacon.",
+   "mana": "High-quality UUBBRR mana plus rituals."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L23",
+   "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L26"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "eight-drop-removed",
+   "description": "Losing an eight-mana commander before it deals damage is catastrophic.",
+   "mitigations": [
+    "Protection package",
+    "Command Beacon"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L26"
+   ]
+  },
+  {
+   "id": "upkeep-cost",
+   "description": "The upkeep tax delays the rest of the game plan.",
+   "mitigations": [
+    "Mana density"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Nicol Bolas"
+   ]
+  },
+  {
+   "id": "no-combo",
+   "description": "No deterministic commander win; fast combo tables outrace it.",
+   "mitigations": [
+    "Free counters"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L57"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "total",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L57"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (blueprint)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L55"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 ceiling, low end: high-quality staples around a slow eight-drop with no commander combo. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L57"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Nicol_Bolas"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 42,
+     "2": 91,
+     "3": 107,
+     "4": 59,
+     "5": 1
+    },
+    "decks_with_bracket": 300,
+    "share_b4_plus": 0.2,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__nicol-bolas.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Nicol Bolas",
+   "why": "Damage → whole-hand discard.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Nicol Bolas"
+   ]
+  },
+  {
+   "card": "Dragon Tempest",
+   "why": "Haste plus immediate damage on entry.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L31"
+   ]
+  },
+  {
+   "card": "Kediss, Emberclaw Familiar",
+   "why": "One hit spreads to the whole table.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L33"
+   ]
+  },
+  {
+   "card": "Chandra's Ignition",
+   "why": "7 to each opponent and a creature sweep.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L34"
+   ]
+  },
+  {
+   "card": "Waste Not",
+   "why": "Each discard becomes value.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L41"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Don't import Bolas planeswalkers; they belong to deck #42 (blueprint L61).",
+   "Not a generic Grixis combo shell."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L61"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Discard / commander damage / control (blueprint L63)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md#L63"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 120.3",
+   "note": "Results of damage dealt; damage from any source triggers Bolas.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:120.3"
+   ]
+  },
+  {
+   "rule": "CR 603.3b",
+   "note": "Ordering Tergrid/Tinybones triggers.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:603.3b"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "combat damage / attack triggers",
+    "discard",
+    "sacrifice"
+   ],
+   "hooked_cards": 25,
+   "role_counts": {
+    "counter": 4,
+    "draw": 9,
+    "protection": 4,
+    "ramp": 18,
+    "removal": 8,
+    "tutor": 2,
+    "wipe": 2
+   },
+   "lands": 37,
+   "edhrec_pages": [
+    "nicol-bolas"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Nicol_Bolas_Commander_Blueprint_2026-10-15.md",
+   "source_archive:refinement/decisions/Nicol_Bolas_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Nicol_Bolas_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/Nicol_Bolas_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/verification/Nicol_Bolas_Whole_List_Audit_2026-10-15.md",
+   "source_archive:refinement/decklists/Nicol_Bolas_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 53)"
+ }
+}
