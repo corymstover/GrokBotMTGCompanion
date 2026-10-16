@@ -11,7 +11,7 @@
    "simulator": {
     "name": "grixis_sim",
     "version": "1.0",
-    "model_sha256": "sha256:d34115a0e77bce978e24cc1bb092ccb00f27c235f0b30fd318f1491c42f2057f"
+    "model_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58"
    },
    "seed": 57,
    "paired": true,
@@ -93,8 +93,8 @@
     },
     {
      "metric": "key_access_by_t4:pkg:life-loop",
-     "baseline": 0.515,
-     "challenger": 0.515,
+     "baseline": 0.451,
+     "challenger": 0.451,
      "diff": 0.0,
      "ci95": [
       0.0,
@@ -216,12 +216,12 @@
     },
     {
      "metric": "key_access_by_t4:pkg:life-loop",
-     "baseline": 0.5495,
-     "challenger": 0.536,
-     "diff": -0.0135,
+     "baseline": 0.496,
+     "challenger": 0.4835,
+     "diff": -0.0125,
      "ci95": [
-      -0.01856,
-      -0.00844
+      -0.01775,
+      -0.00725
      ],
      "method": "paired goldfish, 2000 games on identical shuffles; diff = challenger - baseline per game; CI95 = mean ± 1.96·sd/√n of the per-game differences; secondary (does not set the verdict)"
     },

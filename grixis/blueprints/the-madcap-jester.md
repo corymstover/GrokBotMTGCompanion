@@ -1,6 +1,6 @@
 # Blueprint — The Madcap Jester
 
-> **Commander Blueprint v1** (seeded, Bot cycle 55, 2026-10-16) for the canonical project list ([deck page](../decks/the-madcap-jester.md), state `PENDING_RELEASE`, list `lh1:5c53783a710fc838…`). Machine-readable source: [`data/grixis/blueprints/the-madcap-jester.json`](../../data/grixis/blueprints/the-madcap-jester.json). Every claim carries its evidence class and confidence ([Grixis Authority Model](../Grixis%20Authority%20Model.md#evidence-classes)). Not reviewed by Cory unless the status says so.
+> **Commander Blueprint v1** (cory_reviewed, Bot cycle 55, 2026-10-16) for the canonical project list ([deck page](../decks/the-madcap-jester.md), state `PENDING_RELEASE`, list `lh1:5c53783a710fc838…`). Machine-readable source: [`data/grixis/blueprints/the-madcap-jester.json`](../../data/grixis/blueprints/the-madcap-jester.json). Every claim carries its evidence class and confidence ([Grixis Authority Model](../Grixis%20Authority%20Model.md#evidence-classes)). Not reviewed by Cory unless the status says so.
 
 ## Commander (Oracle, fact)
 
@@ -16,15 +16,15 @@
   - Evidence: [The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L11](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md) · [The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L41](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md)
 - **Commander role: significant.** The Jester turns every library exile into card access, and its attack trigger is a built-in exile burst. *strategic_judgment · high*
 - ⚠️ **Honest note:** Honest call: significant. None of the four Spellbook combos uses the Jester; the kills are generic Grixis cEDH lines (Oracle/Consult, Oracle/Tainted Pact, Breach + LED/Petal + Brain Freeze). The source added Consultation and Tainted Pact explicitly to complete them (decisions L27, L28). The Jester is a future-release card (project exception, legal from 2026-11-13 per decisions L57) and is not officially Commander-legal today.
-  - Evidence: [The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L27](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md) · [The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L28](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md) · [The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L57](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md) · `spellbook:742-1295`
-- **Dependency level:** low *strategic_judgment · high* — `spellbook:742-1295`
+  - Evidence: [The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L27](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md) · [The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L28](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md) · [The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L57](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md) · `spellbook:742-1295` · `registry:data/grixis/blueprint_reviews.json#the-madcap-jester`
+- **Dependency level:** low *strategic_judgment · high* — `spellbook:742-1295` · `registry:data/grixis/blueprint_reviews.json#the-madcap-jester`
 
 ## Power
 
 | Field | Value | Class | Evidence |
 |---|---|---|---|
 | Source ceiling | 5 (Power Bracket 5 — cEDH (decisions).) | *fact · verified* | [The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L65](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md) |
-| GrokBot estimated ceiling | 5 (Bracket 5: Oracle/Consult, Tainted Pact and Breach/Brain Freeze with Moxen, LED and free counters is a real cEDH shell, though the identity payoffs make it slower than turbo lists. Agrees with the source.) | *strategic_judgment · moderate* | [The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L13](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md) · [The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L50](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md) · `spellbook:742-1295` |
+| GrokBot estimated ceiling | 5 (Bracket 5: Oracle/Consult, Tainted Pact and Breach/Brain Freeze with Moxen, LED and free counters is a real cEDH shell, though the identity payoffs make it slower than turbo lists. Agrees with the source.) | *strategic_judgment · moderate* | [The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L13](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md) · [The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L50](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md) · `spellbook:742-1295` · `registry:data/grixis/blueprint_reviews.json#the-madcap-jester` |
 | Expected bracket (list as built) | 5 (computed floor 4) | *strategic_judgment · high* | `companion:data/grixis_summary.json#The_Madcap_Jester` |
 | Resolved ceiling | — (only Cory resolves) | | |
 | Disagreement | no | | |
@@ -76,16 +76,20 @@
 ## Failure modes
 
 - **slow-payoffs:** The source kept several four-to-seven-mana exile payoffs over generic cEDH staples; slower than a pure turbo shell. Mitigations: Tasha's Hideous Laughter burst; Compact kills. *strategic_judgment · high* — [The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L50](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md)
-- **oracle-hate:** Stax and graveyard hate stop the Oracle and Breach lines. Mitigations: Two separate lines; Free counters. *strategic_judgment · high* — `spellbook:742-1295`
+- **graveyard-hate:** Graveyard hate disrupts the Underworld Breach line but doesn't stop Thassa's Oracle + Demonic Consultation / Tainted Pact. Mitigations: Oracle + Consultation / Tainted Pact still wins; Free counters. *strategic_judgment · high* — `spellbook:742-1295` · `registry:data/grixis/blueprint_reviews.json#the-madcap-jester`
+- **oracle-line-hate:** Stax, ETB-trigger hate and counters stop the Oracle + Consultation / Tainted Pact line; graveyard hate alone does not. Mitigations: Breach line as a second route; Free counters. *strategic_judgment · high* — `spellbook:742-1295` · `registry:data/grixis/blueprint_reviews.json#the-madcap-jester`
 - **future-release-status:** Not officially legal before 2026-11-13; registry status PENDING_RELEASE. Mitigations: Project exception. *strategic_judgment · high* — [The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L57](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md)
 
 ## Identity core
 
 - **The Madcap Jester:** Plays cards exiled from opponents' libraries. *fact · verified* — `oracle:The Madcap Jester`
-- **Thassa's Oracle:** Compact win. *strategic_judgment · high* — `spellbook:742-1295`
-- **Underworld Breach:** Second compact win. *strategic_judgment · high* — `spellbook:1368-3518-4856`
 - **Tasha's Hideous Laughter:** Burst exile under the Jester. *strategic_judgment · high* — [The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L13](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md)
 - **Dauthi Voidwalker:** Mill-to-exile replacement plus hate. *strategic_judgment · high* — [The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L26](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md)
+
+## Power core (compact wins, not identity)
+
+- **Thassa's Oracle:** Compact win. *strategic_judgment · high* — `spellbook:742-1295`
+- **Underworld Breach:** Second compact win. *strategic_judgment · high* — `spellbook:1368-3518-4856`
 
 ## Anti-goals and thematic constraints
 
@@ -97,7 +101,8 @@
 
 ## Project exceptions
 
-None.
+- **Authorized future-release project exception:** The Madcap Jester. Project authorization `AUTHORIZED_FUTURE_RELEASE`; registry state `PENDING_RELEASE`. Official Commander legality, recorded separately: not legal until 2026-11-13 (Wizards: new-to-Magic MBC cards are legal from 2026-11-13).
+- **Authorized future-release project exception:** Dragon's Smile. Project authorization `AUTHORIZED_FUTURE_RELEASE`; registry state `PENDING_RELEASE`. Official Commander legality, recorded separately: not legal until 2026-11-13 (Wizards: new-to-Magic MBC cards are legal from 2026-11-13).
 
 ## Construction-relevant rules
 
@@ -112,4 +117,8 @@ None.
 ## Provenance
 
 - Seeded from: [The_Madcap_Jester_Candidate_Decisions_2026-10-15.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md) · [The_Madcap_Jester_Approved_2026-10-15.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/approvals/The_Madcap_Jester_Approved_2026-10-15.md) · [The_Madcap_Jester_Approval_Ready_Verification_2026-10-15.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/The_Madcap_Jester_Approval_Ready_Verification_2026-10-15.md) · [The_Madcap_Jester_Whole_List_Audit_2026-10-15.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/The_Madcap_Jester_Whole_List_Audit_2026-10-15.md) · [The_Madcap_Jester_Approved_2026-10-15.txt](../source-archive/grixis-commander-encyclopediaGPT/refinement/decklists/The_Madcap_Jester_Approved_2026-10-15.txt)
-- Reviewed by: — (not yet reviewed by Cory)
+- Reviewed by: corymstover
+- **Cory's review (2026-10-16, chat t50u (2026-10-16T17:47Z, relayed)):** ceiling B5 (provisional), commander role significant, dependency low. Resolves this blueprint's ceiling and commander role. Not M2 acceptance; no list change. *approved_decision · verified*
+- **Correction (Bot cycle 62):** retracted Project exceptions section rendered 'None.' → The authorized future-release project exception(s) are recorded in project_exceptions.future_release, separately from official legality (Wizards: legal 2026-11-13). Registry state stays PENDING_RELEASE.
+- **Correction (Bot cycle 62):** retracted failure_modes oracle-hate 'Stax and graveyard hate stop the Oracle and Breach lines' → Split: graveyard hate disrupts Breach but not Oracle + Consultation/Tainted Pact (graveyard-hate); Oracle-line hate is separate (oracle-line-hate).
+- **Correction (Bot cycle 62):** retracted identity_core listed generic compact wins: Thassa's Oracle, Underworld Breach → Moved to power_core (compact-win / power core). They are generic Grixis compact wins, not commander identity (Cory review t50u, applied to every blueprint).

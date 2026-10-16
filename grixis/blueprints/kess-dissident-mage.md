@@ -87,7 +87,7 @@
 
 ## Anti-goals and thematic constraints
 
-- ✗ Six-mana storm engines and storm payoffs (Thousand-Year Storm, Talrand, Guttersnipe) rejected (decisions L137).
+- ✗ Six-mana storm engines (Thousand-Year Storm) and storm payoffs (Talrand, Sky Summoner; Guttersnipe) rejected (decisions L137).
 - ✗ Keep 100 distinct names so Tainted Pact never stops early.
   - *strategic_judgment · high* — [Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md#L137](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md)
 - Theme: Dissident Wizard: spells recast from the graveyard; theme subordinate to cEDH.
@@ -110,3 +110,4 @@ None.
 
 - Seeded from: [Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md) · [Kess_Dissident_Mage_Approved_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/approvals/Kess_Dissident_Mage_Approved_2026-10-14.md) · [Kess_Dissident_Mage_Baseline_SHA_Correction_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Kess_Dissident_Mage_Baseline_SHA_Correction_2026-10-14.md) · [Kess_Dissident_Mage_Approved_2026-10-14.txt](../source-archive/grixis-commander-encyclopediaGPT/refinement/decklists/Kess_Dissident_Mage_Approved_2026-10-14.txt)
 - Reviewed by: — (not yet reviewed by Cory)
+- **Correction (Bot cycle 62):** retracted anti_goals[0] 'Six-mana storm engines and storm payoffs (Thousand-Year Storm, Talrand, Guttersnipe)', which read as calling all three six-mana → Only Thousand-Year Storm is mana value 6; Talrand, Sky Summoner is 4 and Guttersnipe 3 (cache). Wording split; found by the cycle-62 MV rule.

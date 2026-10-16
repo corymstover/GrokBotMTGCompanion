@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 62 (M1 and M3 accepted; Cory's blueprint review and corrections)](#2026-10-16--bot-cycle-62-m1-and-m3-accepted-corys-blueprint-review-and-corrections)
 - [2026-10-16 — Bot cycle 61 (M5 constraint fixes)](#2026-10-16--bot-cycle-61-m5-constraint-fixes)
 - [2026-10-16 — Bot cycle 60 (M5: candidate deep dive)](#2026-10-16--bot-cycle-60-m5-candidate-deep-dive)
 - [2026-10-16 — Bot cycle 59.2 (M4: 99-slot audit)](#2026-10-16--bot-cycle-592-m4-99-slot-audit)
@@ -82,6 +83,26 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 62 (M1 and M3 accepted; Cory's blueprint review and corrections)
+- **62.1, Thraximundar retraction (Cory t49u):** Thraximundar {4}{U}{B}{R} is **mana value 7**. GrokBot's cycle-55 claim `mana-value-six` and its "source error flagged" note were **our error**, and the source's "seven-mana" was correct.
+  - Removed the claim and the note. "six-mana commander" now reads seven-mana in the ceiling label and the commander-removal failure mode.
+  - Re-checked the ceiling: B4, short of cEDH, still holds.
+  - Recorded the retraction in `provenance.corrections`. The cycle-55 "source issue" line below is retracted.
+  - Root cause: the claim was tagged fact/high citing `oracle:Thraximundar`, but nothing compared it with the cached cmc. The new MV checker rule does that for all 62 blueprints. It also found three more mismatches, now fixed: Evelyn "3-mana" (MV 5), Admiral Brass, Unsinkable "Four-mana" (MV 5), and Kess's "Six-mana … (Thousand-Year Storm, Talrand, Guttersnipe)" wording. Every other MV claim matched, including Garza, Madcap, Sedris, Crosis, Parnesse, Be'lakor, Lord Xander, Missy and Kess. The M1 texts for Sedris (six-mana) and Jeleva (Peer into the Abyss seven-mana) are correct.
+  - No simulator or curve input used the wrong number. The simulator reads the cmc from the cache.
+- **62.2, Cory's 8-blueprint review (t50u, 17:47Z):** the framework passes in principle, but **M2 and M4 are not accepted**. The 8 blueprints are `cory_reviewed` with his resolved ceilings and roles (`data/grixis/blueprint_reviews.json`). Corrections:
+  - Parnesse: parnesse-10 resolved (CR derivation, M1 post-acceptance overlay). Dualcaster + Replication Technique gives infinite tokens, ETBs and magecraft triggers; the tokens are not hasty.
+  - Sol'kanar: Aetherflux Reservoir is now an enabler and independent payoff (Spellbook 3966-4740 is an activation loop at 51+ life), not a drain-on-gain loop half.
+  - Bjorna: goad doesn't clear blockers (CR 701.15b). The ping kills X/1s and goad has defensive/political value.
+  - Tresserhorn and Madcap: `project_exceptions.future_release` is recorded apart from official legality (Wizards 2026-11-13). Both stay PENDING_RELEASE.
+  - Mairsil: mairsil-10 re-evaluated under CR 113.10a; the restriction carries over to Marvin, so the hypothesis is incorrect.
+  - Madcap: the graveyard-hate failure mode is split.
+  - `power_core` field: generic compact wins move out of identity core in Madcap (Thassa's Oracle, Underworld Breach), Cormela (Thassa's Oracle), Norman Osborn (Grinding Station, Thassa's Oracle) and RogSi (Ad Nauseam, Underworld Breach).
+- **Registry milestone notes:** M0, M1 and M3 are accepted. M2 is pending Cory's acceptance. M4 is built but unaccepted until the corrected M2 data propagates. M5 is exploratory. Nothing is authoritative.
+- **Accepted:** Cory accepted **M1** and **M3** in chat (2026-10-16T17:39Z, message t48u, relayed by MTG Bot). Both are recorded in `program.milestones` with `accepted_by: corymstover`, the date and time, the evidence and his scope verbatim: "M1 interaction reviews are accepted as complete, and M3 evidence/testing tools are accepted as evidence-generating infrastructure within their documented model limitations; M3 results do not independently decide deck changes."
+- **Scope enforced:** `decision_support_ok()` no longer lets M3 test results alone satisfy a decision, so a fact or strategic judgment is also needed. M6 decisions still need a `judgment_review`. `milestone_problems()` requires the verbatim scope on an accepted M1 or M3. `registry.schema.json` gains `scope_verbatim` and `pending_note`. New `tests/test_milestone_scope.py`.
+- **Not accepted:** M2, M4 and M5 are not accepted, no deck is approved and no `cory_reviewed` is set. M2 waits on Cory's review of 8 blueprints: Parnesse, Sol'kanar the Swamp King, Bjorna/Cecily, Thraximundar, Tresserhorn's Lord Returned, The Madcap Jester, Wick and Mairsil.
 
 ## 2026-10-16 — Bot cycle 61 (M5 constraint fixes)
 - **Constraint 3, no cap:** the 12-per-reason escalation cap is removed (`triage.escalation_cap: null`). Every card meeting a reason is escalated and reviewed: 20,774 escalated, 22,971 reviews.
@@ -253,7 +274,7 @@ schema: 2
     - Both Saurons, Tetsuo Umezawa, The Rani, The Valeyard and Zevlor have no compact kill (the Valeyard is low-end B4).
     - Sedris, Tetsuo (Imperial Champion), Tresserhorn (6 of 21 combos) and Wick (12 of 13) are truly commander-native.
 - **Source issues flagged (not changed):**
-  - Thraximundar is called "seven-mana" in the source; Oracle {4}{U}{B}{R} is mana value 6.
+  - ~~Thraximundar is called "seven-mana" in the source; Oracle {4}{U}{B}{R} is mana value 6.~~ **Retracted in Bot cycle 62.** This was GrokBot's error: {4}{U}{B}{R} is mana value 7 and the source was right.
   - Tresserhorn's source verification (L48, L67) says the card is legal now and the future-release exception is stale. The Scryfall cache shows `not_legal`, and the Madcap source says the same set is legal from 2026-11-13. The registry keeps `PENDING_RELEASE`; Cory decides.
   - The Rani's decisions file still reads "not user approval" (L7); the approval record is the authority.
 - **Norman Osborn registry id:** `Goben__Gene_Splice_Savant` → `Norman_Osborn_Green_Goblin`.

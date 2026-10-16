@@ -81,6 +81,29 @@ def rel(p):
 
 
 # ---------------------------------------------------------------- M1 ingest
+M1_CORR = ROOT / "data" / "grixis" / "m1_corrections.json"
+
+
+def m1_corrections(slug):
+    """Bot cycle 62: {interaction id: correction} for this deck from the M1 post-acceptance overlay (M1 files are not edited)."""
+    if not M1_CORR.exists():
+        return {}
+    return {c["id"]: c for c in json.loads(M1_CORR.read_text(encoding="utf-8"))["corrections"] if c["slug"] == slug}
+
+
+def apply_m1_correction(x, corr, iid):
+    c = corr.get(iid)
+    if c:
+        x["status"] = c["corrected_status"]
+        x["m1_correction"] = f"registry:data/grixis/m1_corrections.json#{iid}"
+        for k in ("class", "evidence_class"):
+            if k in x:
+                x[k] = c["evidence_class"]
+        if isinstance(x.get("evidence"), list) and x["m1_correction"] not in x["evidence"]:
+            x["evidence"] = x["evidence"] + [x["m1_correction"]] + [f"cr:{r}" for r in c["cr"] if f"cr:{r}" not in x["evidence"]]
+    return x
+
+
 def m1_status(slug, export, review):
     """(edges doc or None, status, note). Never writes anything under data/grixis_interactions/."""
     f = EDGES / f"{slug}.json"
@@ -105,6 +128,8 @@ def deck_inputs(slug, export, did):
     files = [export, BPS / f"{slug}.json", COMBOS, INTER / f"{slug}.json", EDGES / f"{slug}.json", EVID / f"{slug}.json",
              Path(__file__), ROOT / "scripts" / "grixis_refine.py"]
     inp = {rel(f): sha_file(f) for f in files}
+    if m1_corrections(slug):  # Bot cycle 62: only decks with an M1 post-acceptance correction depend on the overlay
+        inp[rel(M1_CORR)] = sha_file(M1_CORR)
     bulk = sorted((ROOT / ".cache").glob("oracle-cards-*.jsonl.gz"))
     inp["oracle_bulk"] = bulk[-1].name if bulk else None
     return inp, "sha256:" + sha_bytes((json.dumps(inp, sort_keys=True) + VERSION).encode())
@@ -245,7 +270,13 @@ def build_deck(did, v, R, combos_all, reg):
           "review": rel(review) if review.exists() else None, "review_sha256": sha_file(review)}
     if st in ("invalid", "stale_list", "stale_review"):
         warnings.append(f"M1 edges {st}: {note}")
+    corr = m1_corrections(slug)
     if ed:
+        ed = json.loads(json.dumps(ed))
+        for x in ed["nodes"]:
+            apply_m1_correction(x, corr, x.get("interaction") or x["id"].rpartition("/")[2])
+        for x in ed["edges"]:
+            apply_m1_correction(x, corr, x.get("interaction"))
         for x in ed["nodes"]:
             if x["kind"] in ("combo", "interaction") and x["id"] not in nodes:
                 nodes[x["id"]] = {"id": x["id"], "kind": x["kind"], "name": x.get("interaction") or x["id"],
@@ -265,6 +296,7 @@ def build_deck(did, v, R, combos_all, reg):
     elif review.exists():
         rv = json.loads(review.read_text(encoding="utf-8"))
         for x in rv.get("interactions", []):
+            x = apply_m1_correction(dict(x), corr, x["id"])
             hub = f"interaction:{slug}/{x['id']}"
             nodes[hub] = {"id": hub, "kind": "interaction", "name": x["id"], "topic": x.get("topic"), "status": x.get("status"),
                           "flag_kind": x.get("flag_kind") or x.get("flag"), "class": x.get("evidence_class") or "fact", "layer": "m1_review"}

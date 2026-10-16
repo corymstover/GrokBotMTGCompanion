@@ -557,24 +557,6 @@
    "evidence": [
     "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L34"
    ]
-  },
-  {
-   "card": "Ad Nauseam",
-   "why": "The main reload.",
-   "evidence_class": "strategic_judgment",
-   "confidence": "high",
-   "evidence": [
-    "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L19"
-   ]
-  },
-  {
-   "card": "Underworld Breach",
-   "why": "Primary combo engine.",
-   "evidence_class": "strategic_judgment",
-   "confidence": "high",
-   "evidence": [
-    "spellbook:1368-3518-4856"
-   ]
   }
  ],
  "anti_goals": {
@@ -656,6 +638,34 @@
    "source_archive:refinement/decklists/RogSi_Approved_2026-10-15.txt"
   ],
   "reviewed_by": null,
-  "author": "GrokBot (Bot cycle 55)"
- }
+  "author": "GrokBot (Bot cycle 55)",
+  "corrections": [
+   {
+    "cycle": "Bot cycle 62",
+    "retracted": "identity_core listed generic compact wins: Ad Nauseam, Underworld Breach",
+    "correction": "Moved to power_core (compact-win / power core). They are generic Grixis compact wins, not commander identity (Cory review t50u, applied to every blueprint).",
+    "requested_by": "corymstover (blueprint review t50u, 2026-10-16T17:47Z, relayed)"
+   }
+  ]
+ },
+ "power_core": [
+  {
+   "card": "Ad Nauseam",
+   "why": "The main reload.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L19"
+   ]
+  },
+  {
+   "card": "Underworld Breach",
+   "why": "Primary combo engine.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1368-3518-4856"
+   ]
+  }
+ ]
 }

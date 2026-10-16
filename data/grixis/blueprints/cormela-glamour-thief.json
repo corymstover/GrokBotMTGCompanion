@@ -567,15 +567,6 @@
    "evidence": [
     "interaction:cormela-glamour-thief#cormela-04"
    ]
-  },
-  {
-   "card": "Thassa's Oracle",
-   "why": "Compact failover that raises resilience.",
-   "evidence_class": "strategic_judgment",
-   "confidence": "high",
-   "evidence": [
-    "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md"
-   ]
   }
  ],
  "anti_goals": {
@@ -655,6 +646,25 @@
    "source_archive:refinement/evidence/Cormela_Glamour_Thief_Current_Cycle_Approval_Gate_2026-10-14.md"
   ],
   "reviewed_by": null,
-  "author": "GrokBot (Bot cycle 50)"
- }
+  "author": "GrokBot (Bot cycle 50)",
+  "corrections": [
+   {
+    "cycle": "Bot cycle 62",
+    "retracted": "identity_core listed generic compact wins: Thassa's Oracle",
+    "correction": "Moved to power_core (compact-win / power core). They are generic Grixis compact wins, not commander identity (Cory review t50u, applied to every blueprint).",
+    "requested_by": "corymstover (blueprint review t50u, 2026-10-16T17:47Z, relayed)"
+   }
+  ]
+ },
+ "power_core": [
+  {
+   "card": "Thassa's Oracle",
+   "why": "Compact failover that raises resilience.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md"
+   ]
+  }
+ ]
 }

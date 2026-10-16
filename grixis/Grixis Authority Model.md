@@ -220,7 +220,10 @@ Status is in `data/grixis/registry.json → program.milestones`. Only Cory sets 
 3. ✅ Every citation is verbatim and machine-checked (Oracle, Scryfall rulings, CR, Spellbook steps, archived sources). One exception: the Gatherer 2026-07-29 ruling in tressret-07 is a URL quote. It is linked, but `--check` doesn't verify the quote.
 4. ✅ Bjorna's review covers Trade Secrets, Yawgmoth's Bargain and the Lutri companion.
 5. ✅ Machine-readable edges for M4: `data/grixis_interactions/edges/<slug>.json`, 62/62, valid against `interaction_edges.schema.json` (Bot cycle 58; rule `edges-v1`, see [Interaction reviews](interactions/README.md#edges-for-m4)). The 518 source rulings: 515 folded in, 3 dispositioned with reasons in `_attestation_dispositions.json`, 0 missing (checked).
-6. ⏳ Cory's acceptance (`program.milestones.M1`).
+   - **Post-acceptance corrections (Bot cycle 62, Cory t50u):** these live in `data/grixis/m1_corrections.json`, an overlay. The interaction executor's files under `data/grixis_interactions/` are not edited. `grixis_graph.py` applies the overlay on ingest. Corrections don't reopen M1.
+     - **parnesse-10** is `verified` (approved_decision; source "Cory review + derivation"; CR 707.10, 112.2, 707.10c, 603.2, 702.21a and 701.6a quoted verbatim). An opponent who makes the offered copy controls it. If they target Cory or his permanent, Parnesse's tax applies.
+     - **mairsil-10** is `resolved_hypothesis_incorrect` (fact · high, a documented CR 113.10a derivation, not an official ruling). Marvin's copies keep Mairsil's once-each-turn restriction.
+6. ✅ **Accepted by Cory** (`program.milestones.M1: accepted`, corymstover, 2026-10-16T17:39Z, in-chat message t48u relayed by MTG Bot; recorded in Bot cycle 62). His scope, verbatim: "M1 interaction reviews are accepted as complete, and M3 evidence/testing tools are accepted as evidence-generating infrastructure within their documented model limitations; M3 results do not independently decide deck changes."
 
 ### M2
 **Commander blueprints v1.** 62 blueprints validate against `blueprint.schema.json`; each names identity core, anti-goals, packages with minimum counts, win conditions, failure modes, tutor targets and construction rules; each has a `grok_estimated_ceiling` with evidence and a `disagreement` flag where it differs from the source; Cory has reviewed the sample he chooses and marked them reviewed.
@@ -229,7 +232,24 @@ Status is in `data/grixis/registry.json → program.milestones`. Only Cory sets 
 1. ✅ 62 blueprints validate — 62/62.
 2. ✅ Every required section present (identity core ≥3, anti-goals, required packages with min counts, win conditions, failure modes ≥2, tutor targets, construction rules) — 62/62 complete.
 3. ✅ GrokBot ceiling estimate with evidence and a disagreement flag — 62/62 (0 disagreements; 6 decks have no source ceiling to compare: Admiral Beckett Brass, Admiral Brass, Anhelo, Ashad, Be'lakor, Bjorna + Cecily).
-4. ⏳ Cory's review of a sample he chooses (`status: cory_reviewed`, `provenance.reviewed_by`).
+4. ✅ **Cory reviewed his 8-blueprint sample** (chat t50u, 2026-10-16T17:47Z, relayed; Bot cycle 62): Parnesse, Sol'kanar the Swamp King, Bjorna/Cecily, Thraximundar, Tresserhorn's Lord Returned, The Madcap Jester, Wick and Mairsil. He said the framework passes in principle. Each of the 8 is `cory_reviewed` with `provenance.reviewed_by: corymstover` and a `cory_review` block (resolved ceiling, role and dependency; `approved_decision`), and `data/grixis/blueprint_reviews.json` holds the record. The resolved judgments: Parnesse B4/supporting-low; Sol'kanar B4/supporting-low; Bjorna+Cecily B4/supporting overall (Cecily significant, Bjorna supporting/incidental); Thraximundar B4/significant-medium; Tresserhorn B4/central-high; Madcap provisional B5/significant-low; Wick B4/central-total; Mairsil B4/central-high. These are per-blueprint review records, **not M2 acceptance**.
+   - **Bot cycle 62 corrections:**
+     - *(Thraximundar, t49u)* Retracted GrokBot's wrong "mana value 6" claim. It is MV 7 and the source was right.
+     - *(t50u)* Parnesse: resolved the retargeted-copy tax; Dualcaster Mage + Replication Technique tokens are not inherently hasty.
+     - *(t50u)* Sol'kanar: Aetherflux Reservoir is a lifegain enabler and independent payoff, not a drain-on-gain loop half.
+     - *(t50u)* Bjorna: goad doesn't clear blockers.
+     - *(t50u)* Tresserhorn and Madcap: future-release project exceptions are recorded apart from official legality, and both stay PENDING_RELEASE.
+     - *(t50u)* Mairsil/Marvin: re-evaluated under CR 113.10a.
+     - *(t50u)* Madcap: the graveyard-hate failure mode is split in two.
+     - *(t50u)* Generic compact wins moved to `power_core` (Cormela, Norman Osborn, RogSi, Madcap).
+     - *(MV rule)* Further mismatches the new rule found: Evelyn (MV 5), Admiral Brass, Unsinkable (MV 5) and Kess's anti-goal wording.
+     - Every correction is listed in `provenance.corrections` of its blueprint.
+   - **New checker rules (`grixis_blueprints.py --check`):**
+     - Every N-mana / N-drop / "mana value N" / "MV N" claim about a named card or the commander, and every printed cost stated with its MV, must match the Scryfall cache cmc (`mv_claims`, `mv_problems`, `--mv-report`).
+     - `identity_core` may not hold a generic compact win unless its reason ties it to the commander.
+     - `project_exceptions.future_release` must match the registry's AUTHORIZED_FUTURE_RELEASE rows.
+     - `cory_reviewed` needs a matching `cory_review` and review record.
+     - A key interaction whose M1 record was corrected may not stay `test_required`.
 5. ⏳ Cory's acceptance (`program.milestones.M2`).
 
 ### M3
@@ -292,7 +312,8 @@ Status is in `data/grixis/registry.json → program.milestones`. Only Cory sets 
 8. ✅ *(57.5)* **Knowledge pages:** [EDH Lift and Synergy](../EDH%20Lift%20and%20Synergy.md) and [EDH Commander-First Deckbuilding](../EDH%20Commander-First%20Deckbuilding.md).
    - **Lift and Synergy:** EDHREC's own definitions (Dec 2025 math article, Oct 2026 changelog, dev interview), with worked examples and the identity check from the cache.
    - **Commander-First:** CR 903 quoted verbatim (6 quotes, verified by `lore-quotes`), Wizards' format page and the Oct 2025 / Feb 2026 bracket updates (cited URLs checked by `citations`), and the companion's pipeline as labelled guidance with a "can it decide?" table.
-9. ⏳ Cory's acceptance (`program.milestones.M3`).
+9. ✅ **Accepted by Cory** (`program.milestones.M3: accepted`, corymstover, 2026-10-16T17:39Z, message t48u, relayed; Bot cycle 62). His scope, verbatim: "M1 interaction reviews are accepted as complete, and M3 evidence/testing tools are accepted as evidence-generating infrastructure within their documented model limitations; M3 results do not independently decide deck changes."
+   - **Enforced:** `decision_support_ok()` refuses evidence whose only decision-class items are `test_result`s (simulator, paired tests, stress): "M3 results do not independently decide deck changes". A fact or strategic judgment is also needed. A decision-bearing swap still needs a `judgment_review` (`decision_review_problems()`, `swap_decision_problems()`), whose evidence passes the same rule. `milestone_problems()` fails an accepted M1 or M3 whose `scope_verbatim` is not this exact text.
 
 ### M4
 **Dependency graph and 99-slot audit.** A graph per deck (Spellbook, interaction edges, hooks, roles, blueprint packages) with structural necessity, breaks-if-removed and redundancy; an audit per deck where every slot is `complete` with blueprint, graph and alternative refs or explicitly `provisional`; no duplicated boilerplate reason beyond a lint threshold; baseline simulator metrics per deck.
@@ -320,8 +341,12 @@ Status is in `data/grixis/registry.json → program.milestones`. Only Cory sets 
 6. ✅ *(59.2)* **Baseline simulator metrics per deck** (`baseline_sim`, `test_result`): grixis_sim v1.1, 1,000 games, seed 59. Recorded: commander cast by turn, mana by turn, mana spent on turns 1–6, package access, combo assembly, the win-turn proxy, extra cards drawn and tutors. No win rates.
 7. ⏳ Cory's acceptance (`program.milestones.M4`). The M1 edges ingest (criterion 2) completes when cycle 58 is on main and the graphs and audits are regenerated.
 
+*Bot cycle 62 (Cory, t49u/t50u):* M4 is built but **stays unaccepted** until the corrected M2 blueprint data has propagated. All 62 graphs and audits were regenerated in cycle 62 (`program.milestones.M4.pending_note`).
+
 ### M5
 **Candidate deep dive.** Per deck a recorded candidate universe (definition, sources, size, snapshot), triage with the default 15–40 full reviews and escalations with reasons; tournament evidence only for decks whose estimated ceiling is cEDH, with sample size and date.
+
+*Bot cycle 62:* M5 is **exploratory**: non-authoritative evidence only, with no list changes and no promoted challengers (`program.milestones.M5.pending_note`). Candidates were regenerated on the corrected blueprints.
 
 *Bot cycle 61 revision (after Cory's review of the cycle-60 report; constraints 2 and 3, no absolute protections).* The 12-per-reason escalation cap is gone. Every card meeting a reason is escalated and gets a screening review: 20,774 escalated and 22,971 screening reviews (300–420 per deck). The reviews are relabeled `screening_review`, scripted and never decision-capable ([review kinds](#review-kinds-screening-vs-judgment)).
 

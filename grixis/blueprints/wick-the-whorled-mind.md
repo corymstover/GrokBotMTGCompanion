@@ -1,6 +1,6 @@
 # Blueprint — Wick, the Whorled Mind
 
-> **Commander Blueprint v1** (seeded, Bot cycle 55, 2026-10-16) for the canonical project list ([deck page](../decks/wick-the-whorled-mind.md), state `SOURCE_BASELINE`, list `lh1:8209700d366bf1d1…`). Machine-readable source: [`data/grixis/blueprints/wick-the-whorled-mind.json`](../../data/grixis/blueprints/wick-the-whorled-mind.json). Every claim carries its evidence class and confidence ([Grixis Authority Model](../Grixis%20Authority%20Model.md#evidence-classes)). Not reviewed by Cory unless the status says so.
+> **Commander Blueprint v1** (cory_reviewed, Bot cycle 55, 2026-10-16) for the canonical project list ([deck page](../decks/wick-the-whorled-mind.md), state `SOURCE_BASELINE`, list `lh1:8209700d366bf1d1…`). Machine-readable source: [`data/grixis/blueprints/wick-the-whorled-mind.json`](../../data/grixis/blueprints/wick-the-whorled-mind.json). Every claim carries its evidence class and confidence ([Grixis Authority Model](../Grixis%20Authority%20Model.md#evidence-classes)). Not reviewed by Cory unless the status says so.
 
 ## Commander (Oracle, fact)
 
@@ -16,15 +16,15 @@
   - Evidence: [Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md#L9](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md) · [Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L14](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md) · [Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L54](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md) · [Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L56](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md) · [Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L57](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md)
 - **Commander role: central.** Wick is the Snail factory and the damage-and-draw outlet. *strategic_judgment · high*
 - ⚠️ **Honest note:** Commander-native combo: 12 of the 13 Spellbook combos name Wick (Wick + a type-changer + a free outlet); the 13th (1636-3126, Marrow-Gnawer + Intruder Alarm) doesn't. Wick costs {3}{B}, but the activation needs {U}{B}{R}, and Cavern of Souls mana can't pay it (verification L64).
-  - Evidence: [Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L56](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md) · [Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L64](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md) · `spellbook:4050-5853-5929`
-- **Dependency level:** total *strategic_judgment · high* — `spellbook:4050-5853-5929`
+  - Evidence: [Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L56](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md) · [Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L64](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md) · `spellbook:4050-5853-5929` · `registry:data/grixis/blueprint_reviews.json#wick-the-whorled-mind`
+- **Dependency level:** total *strategic_judgment · high* — `spellbook:4050-5853-5929` · `registry:data/grixis/blueprint_reviews.json#wick-the-whorled-mind`
 
 ## Power
 
 | Field | Value | Class | Evidence |
 |---|---|---|---|
 | Source ceiling | 4 (Power Bracket 4 — Optimized (decisions).) | *fact · verified* | [Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md#L11](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md) |
-| GrokBot estimated ceiling | 4 (High Bracket 4: 12 commander-native three-card loops and tutors, but they're three-card enchantment lines with a three-color activation, and protection is moderate. Agrees with the source.) | *strategic_judgment · high* | [Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md#L139](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md) · `spellbook:803-4050-5853` |
+| GrokBot estimated ceiling | 4 (High Bracket 4: 12 commander-native three-card loops and tutors, but they're three-card enchantment lines with a three-color activation, and protection is moderate. Agrees with the source.) | *strategic_judgment · high* | [Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md#L139](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md) · `spellbook:803-4050-5853` · `registry:data/grixis/blueprint_reviews.json#wick-the-whorled-mind` |
 | Expected bracket (list as built) | 4 (computed floor 4) | *strategic_judgment · high* | `companion:data/grixis_summary.json#Wick__the_Whorled_Mind` |
 | Resolved ceiling | — (only Cory resolves) | | |
 | Disagreement | no | | |
@@ -111,4 +111,5 @@ None.
 ## Provenance
 
 - Seeded from: [Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md) · [Wick_the_Whorled_Mind_Approved_2026-10-15.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/approvals/Wick_the_Whorled_Mind_Approved_2026-10-15.md) · [Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md) · [Wick_the_Whorled_Mind_Approved_2026-10-15.txt](../source-archive/grixis-commander-encyclopediaGPT/refinement/decklists/Wick_the_Whorled_Mind_Approved_2026-10-15.txt)
-- Reviewed by: — (not yet reviewed by Cory)
+- Reviewed by: corymstover
+- **Cory's review (2026-10-16, chat t50u (2026-10-16T17:47Z, relayed)):** ceiling B4, commander role central, dependency total. Resolves this blueprint's ceiling and commander role. Not M2 acceptance; no list change. *approved_decision · verified*

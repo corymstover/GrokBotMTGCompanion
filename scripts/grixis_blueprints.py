@@ -40,7 +40,21 @@ CLASS_RULES = {  # field -> allowed evidence classes
     "power.source_ceiling": {"fact"}, "power.grok_estimated_ceiling": {"strategic_judgment"},
     "power.expected_bracket": {"strategic_judgment", "derived_metric"}, "power.edhrec": {"derived_metric", "heuristic"},
     "construction_rules": {"fact"},
+    "power_core": {"strategic_judgment", "fact"}, "cory_review": {"approved_decision"},  # Bot cycle 62
 }
+# Bot cycle 62 (Cory review t50u): generic Grixis compact wins are power, not commander identity. They go in power_core,
+# and identity_core may hold one only when its reason ties it to the commander.
+GENERIC_COMPACT_WINS = {"Thassa's Oracle", "Demonic Consultation", "Tainted Pact", "Underworld Breach", "Ad Nauseam", "Grinding Station",
+                        "Brain Freeze", "Lion's Eye Diamond", "Laboratory Maniac", "Jace, Wielder of Mysteries"}
+REVIEWS = ga.DATA / "blueprint_reviews.json"
+M1_CORRECTIONS = ga.DATA / "m1_corrections.json"
+
+
+def m1_corrections():
+    """{interaction id: correction} from the Bot cycle 62 M1 post-acceptance overlay."""
+    if not M1_CORRECTIONS.exists():
+        return {}
+    return {c["id"]: c for c in json.loads(M1_CORRECTIONS.read_text(encoding="utf-8"))["corrections"]}
 _R = []
 
 
@@ -214,12 +228,13 @@ def claims(bp):
 
 
 CARD_FIELDS = (("win_conditions", ("cards", "enablers")), ("engines", ("cards",)), ("packages", ("cards",)),
-               ("key_interactions", ("cards",)), ("identity_core", ("card",)), ("tutor_targets", ("target", "via")))
+               ("key_interactions", ("cards",)), ("identity_core", ("card",)), ("tutor_targets", ("target", "via")),
+               ("power_core", ("card",)))
 
 
 def card_refs(bp):
     for f, keys in CARD_FIELDS:
-        for i, it in enumerate(bp[f]):
+        for i, it in enumerate(bp.get(f, [])):
             for k in keys:
                 vals = it[k] if isinstance(it[k], list) else [it[k]]
                 for n in vals:
@@ -318,7 +333,177 @@ def check_one(path, summ, reg, cr_text):
         p.append("status cory_reviewed needs provenance.reviewed_by = a human approver")
     if bp["status"] != "cory_reviewed" and bp["provenance"]["reviewed_by"]:
         p.append("reviewed_by set but status is not cory_reviewed")
+    p += mv_problems(bp, cmc_lookup())
+    p += review_problems(bp, reg)
+    # future-release project exceptions are recorded separately from official legality and must match the registry
+    fr = sorted(x["card"] for x in json.loads(ga.EXCEPTIONS.read_text(encoding="utf-8"))["exceptions"]
+                if x["deck_id"] == sid and x["project_authorization_status"] == "AUTHORIZED_FUTURE_RELEASE")
+    got = sorted(x["card"] for x in bp["project_exceptions"].get("future_release") or [])
+    if got != fr:
+        p.append(f"project_exceptions.future_release {got} ≠ exception registry AUTHORIZED_FUTURE_RELEASE {fr}")
+    for x in bp["identity_core"]:
+        cw = [c["name"].split(",")[0].split(" ")[0] for c in bp["commanders"]["value"]]
+        if x["card"] in GENERIC_COMPACT_WINS and not any(w in x["why"] for w in cw):
+            p.append(f"identity_core: {x['card']} is a generic compact win; put it in power_core unless its reason ties it to the commander")
+    # M1 post-acceptance corrections: a corrected interaction may not stay test_required; an uncorrected uncertain one may not be resolved
+    corr = m1_corrections()
+    for k in bp["key_interactions"]:
+        for r in k["m1_refs"]:
+            c = corr.get(r)
+            if c and c["slug"] == slug and k["confidence"] in ("test_required", "blocked"):
+                p.append(f"key_interactions {k['id']}: M1 {r} was corrected in {M1_CORRECTIONS.name} ({c['corrected_status']}); update the claim")
+            if not c and ids.get(r, {}).get("status") == "uncertain" and k["confidence"] == "verified" and "uncertain" not in k["summary"].lower():
+                p.append(f"key_interactions {k['id']}: M1 {r} is uncertain; the claim can't be verified")
     return p, bp
+
+
+def review_problems(bp, reg):
+    """Bot cycle 62: a cory_reviewed blueprint carries Cory's review record, and its resolved judgments must match the blueprint."""
+    p, cr = [], bp.get("cory_review")
+    if bp["status"] != "cory_reviewed":
+        return ["cory_review present but status is not cory_reviewed"] if cr else []
+    if not cr:
+        return ["status cory_reviewed needs a cory_review record"]
+    if cr["by"] not in set(reg["human_approvers"]) or cr["by"] != bp["provenance"]["reviewed_by"]:
+        p.append("cory_review.by must be a human approver and equal provenance.reviewed_by")
+    rv = {x["slug"]: x for x in json.loads(REVIEWS.read_text(encoding="utf-8"))["reviews"]} if REVIEWS.exists() else {}
+    x = rv.get(bp["slug"])
+    if not x:
+        p.append(f"no review record for {bp['slug']} in {REVIEWS.name}")
+        return p
+    want = {"ceiling": bp["power"]["grok_estimated_ceiling"]["value"]["value"], "commander_role": bp["commander_role"]["value"]["level"],
+            "dependency": bp["dependency_level"]["value"]}
+    for k, v in want.items():
+        if cr[k] != v or x[k] != v:
+            p.append(f"cory_review.{k} {cr[k]} / record {x[k]} ≠ blueprint {v}")
+    return p
+
+
+# ---------------------------------------------------------------- Bot cycle 62: mana-value claims are facts
+# Root cause of the Thraximundar error (cycle 62, Cory t49u): a "mana value 6" claim was tagged fact/high citing
+# oracle:Thraximundar, but nothing compared the number with the Scryfall cache (cmc 7). Every N-mana / N-drop /
+# mana value N / MV N claim about a named card (or the commander) is now checked against the cached cmc.
+_NUMW = {w: i for i, w in enumerate("zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen".split())}
+_N = r"(?:\d+|" + "|".join(_NUMW) + r")"
+_RANGE = re.compile(r"\b" + _N + r"-?\s*(?:to|–|—)\s*-?" + _N + r"[- ](?:mana|drop)s?\b", re.I)
+_PHRASE = re.compile(r"\b(?P<n>" + _N + r")[- ](?P<k>mana|drop)\b(?![- ](?:value|cost|abilit|activat|tap\b))", re.I)
+_MVN = re.compile(r"\b(?:mana value|MV|CMC)\s+(?P<n>\d+)\b(?!\s*(?:or (?:less|more|greater|fewer)|\+))", re.I)
+_CMDR_CTX = re.compile(r"^[^.;:()]{0,40}?\bcommanders?\b", re.I)
+_PRONOUN = re.compile(r"\b(?:he|she|him|her|it|engine)(?:'s|’s| is)?\s+(?:a|an)\s+$", re.I)
+_COMMANDER_FIELDS = ("honest_note", "failure_modes", "grok_estimated_ceiling", "game_plan", "construction")
+
+
+_COST_MV = re.compile(r"(?P<cost>(?:\{[^}]+\})+)[^{.;]{0,20}?\b(?:mana value|MV)\s+(?P<n>\d+)\b", re.I)
+
+
+def cost_mv(cost):
+    """Mana value of a printed cost such as {4}{U}{B}{R} (X = 0, {2/W} = 2)."""
+    t = 0
+    for sym in re.findall(r"\{([^}]+)\}", cost):
+        if sym.isdigit():
+            t += int(sym)
+        elif sym.upper() in ("X", "Y", "Z"):
+            continue
+        elif "/" in sym and sym.split("/")[0].isdigit():
+            t += int(sym.split("/")[0])
+        else:
+            t += 1
+    return float(t)
+
+
+def _num(t):
+    return int(t) if t.isdigit() else _NUMW[t.lower()]
+
+
+def _strings(o, path=""):
+    if isinstance(o, str):
+        yield path, o, None
+    elif isinstance(o, dict):
+        card = o.get("card") if isinstance(o.get("card"), str) else None
+        for k, v in o.items():
+            if k in ("oracle_text", "evidence", "id", "type_line", "oracle_sha256", "oracle_id", "name", "card"):
+                continue
+            for x in _strings(v, f"{path}.{k}" if path else k):
+                yield x[0], x[1], x[2] or (card if isinstance(v, str) else None)
+    elif isinstance(o, list):
+        for i, v in enumerate(o):
+            yield from _strings(v, f"{path}[{i}]")
+
+
+def mv_claims(bp, cmc_of):
+    """[(field, phrase, subject card, claimed MV, cached cmc)] for every checkable mana-value claim in a blueprint.
+    Subjects: the commander ("N-mana … commander", "the/a N-drop" in commander fields, "he's/she's a N-mana …"),
+    the entry's own card ("card" + a why/note that starts with the claim), cards named in a following parenthesis
+    ("N-mana storm engines (A, B)"), and for "mana value N" / "MV N" the claim's single named card or the card named
+    right before it. Ranges ("five- to seven-mana") and thresholds ("MV 3 or less") are not single-card claims."""
+    cmdrs = [c["name"] for c in bp["commanders"]["value"]]
+    out = []
+    for field, text, own in _strings(bp):
+        if field.startswith(("commanders", "provenance")):  # Oracle copies; recorded retractions quote the wrong claim
+            continue
+        for m in _COST_MV.finditer(text):  # a printed cost stated next to its mana value must add up
+            out.append((field, m.group(0), f"cost {m['cost']}", int(m["n"]), {f"cost {m['cost']}": cost_mv(m["cost"])}))
+        t = _RANGE.sub("RANGE", text)
+        top = field.split(".")[0].split("[")[0]
+        cmdr_field = top in _COMMANDER_FIELDS or field.startswith("power.grok_estimated_ceiling")
+        for m in _PHRASE.finditer(t):
+            n, after, before = _num(m["n"]), t[m.end():], t[:m.start()]
+            subj = None
+            par = re.match(r"^[^.;()]{0,60}?\(([^)]*)\)", after)
+            if _CMDR_CTX.match(after):
+                subj = cmdrs
+            elif own and m.start() == 0:
+                subj = [own]
+            elif par and [x for x in (y.strip() for y in par[1].split(",")) if cmc_of(x) is not None]:
+                subj = [x for x in (y.strip() for y in par[1].split(",")) if cmc_of(x) is not None]
+                subj = [[x] for x in subj]  # each listed card must match
+            elif cmdr_field and m["k"].lower() == "drop" and re.search(r"\b(?:the|a)\s+$", before, re.I) and not re.match(r"^s?\s+[A-Z]", after):
+                subj = cmdrs
+            elif _PRONOUN.search(before):
+                subj = cmdrs
+            if subj is None:
+                continue
+            groups = subj if subj and isinstance(subj[0], list) else [subj]
+            for g in groups:
+                vals = {x: cmc_of(x) for x in g}
+                out.append((field, m.group(0), " / ".join(g), n, vals))
+        for m in _MVN.finditer(t):
+            n = int(m["n"])
+            names = [x for x in re.findall(r"[A-Z][\w',.\- ]+?(?=\s+(?:is|has|keeps?|at)\b|\s*\()", t[:m.start()]) if cmc_of(x.strip()) is not None]
+            subj = [names[-1].strip()] if names else None
+            if subj is None and own and m.start() == 0:
+                subj = [own]
+            if subj is None:
+                continue
+            out.append((field, m.group(0), " / ".join(subj), n, {x: cmc_of(x) for x in subj}))
+    # claims with a cards list: "mana value N" must match one of the listed cards
+    for fp, cl in claims(bp):
+        for key in ("summary", "description", "why", "note"):
+            txt = cl.get(key)
+            if not isinstance(txt, str) or not isinstance(cl.get("cards"), list):
+                continue
+            for m in _MVN.finditer(txt):
+                if any(f == f"{fp}.{key}" and ph == m.group(0) for f, ph, *_ in out):
+                    continue
+                out.append((f"{fp}.{key}", m.group(0), " / ".join(cl["cards"]), int(m["n"]), {x: cmc_of(x) for x in cl["cards"]}))
+    return out
+
+
+def mv_problems(bp, cmc_of):
+    p = []
+    for field, ph, subj, n, vals in mv_claims(bp, cmc_of):
+        known = {k: v for k, v in vals.items() if v is not None}
+        if known and n not in {int(v) for v in known.values()}:
+            p.append(f"{field}: '{ph}' claims mana value {n} for {subj}, Scryfall cache cmc is "
+                     + ", ".join(f"{k} {int(v)}" for k, v in known.items()) + " (fact claims must match the cache)")
+    return p
+
+
+def cmc_lookup():
+    def f(name):
+        c, fuzzy = R().get(name)
+        return None if c is None or fuzzy or c.get("cmc") is None else c["cmc"]
+    return f
 
 
 def load_all():
@@ -446,13 +631,31 @@ def page(bp, summ, reg):
     L += ["## Requirements", "", f"- **Interaction:** {rq['value']['interaction']}", f"- **Protection:** {rq['value']['protection']}", f"- **Mana:** {rq['value']['mana']}", f"- {lab(rq)} — {refs(rq)}", ""]
     L += ["## Failure modes", ""] + [f"- **{x['id']}:** {x['description']} Mitigations: {'; '.join(x['mitigations']) or '—'}. {lab(x)} — {refs(x)}" for x in bp["failure_modes"]]
     L += ["", "## Identity core", ""] + [f"- **{x['card']}:** {x['why']} {lab(x)} — {refs(x)}" for x in bp["identity_core"]]
+    if bp.get("power_core"):
+        L += ["", "## Power core (compact wins, not identity)", ""] + [f"- **{x['card']}:** {x['why']} {lab(x)} — {refs(x)}" for x in bp["power_core"]]
     L += ["", "## Anti-goals and thematic constraints", ""] + [f"- ✗ {a}" for a in bp["anti_goals"]["value"]] + [f"  - {lab(bp['anti_goals'])} — {refs(bp['anti_goals'])}"]
     L += [f"- Theme: {t_}" for t_ in bp["thematic_constraints"]["value"]] + ([f"  - {lab(bp['thematic_constraints'])} — {refs(bp['thematic_constraints'])}"] if bp["thematic_constraints"]["value"] else [])
-    L += ["", "## Project exceptions", "", (", ".join(bp["project_exceptions"]["value"]) + " (🚩 NOT Commander-legal; registry `data/grixis/exceptions.json`)") if bp["project_exceptions"]["value"] else "None.", ""]
+    fr = bp["project_exceptions"].get("future_release") or []
+    L += ["", "## Project exceptions", ""]
+    if bp["project_exceptions"]["value"]:
+        L += ["- **Authorized project exceptions (banned / not Commander-legal):** " + ", ".join(bp["project_exceptions"]["value"]) + " (🚩 NOT Commander-legal; registry `data/grixis/exceptions.json`)"]
+    for x in fr:
+        L += [f"- **Authorized future-release project exception:** {x['card']}. Project authorization `{x['project_authorization']}`; registry state `{x['registry_state']}`. "
+              f"Official Commander legality, recorded separately: {x['official_commander_legality']}."]
+    if not bp["project_exceptions"]["value"] and not fr:
+        L += ["None."]
+    L += [""]
     L += ["## Construction-relevant rules", ""] + [f"- **{x['rule']}:** {x['note']} {lab(x)} — {refs(x)}" for x in bp["construction_rules"]]
     sf = bp["supporting_features"]
     L += ["", "## Supporting features (heuristic, not identity)", "", f"- `{json.dumps(sf['value'], ensure_ascii=False)}` {lab(sf)}", "",
           "## Provenance", "", f"- Seeded from: {refs({'evidence': bp['provenance']['seeded_from']})}", f"- Reviewed by: {bp['provenance']['reviewed_by'] or '— (not yet reviewed by Cory)'}"]
+    if bp.get("cory_review"):
+        c = bp["cory_review"]
+        roles = "; ".join(f"{k}: {v}" for k, v in (c.get("per_commander_roles") or {}).items())
+        L += [f"- **Cory's review ({c['date']}, {c['ref']}):** ceiling B{c['ceiling']}{' (provisional)' if c['ceiling_provisional'] else ''}, commander role {c['commander_role']}, "
+              f"dependency {c['dependency']}{'; ' + roles if roles else ''}. {c['scope']} {lab(c)}"]
+    for x in bp["provenance"].get("corrections", []):
+        L += [f"- **Correction ({x['cycle']}):** retracted {x['retracted']} → {x['correction']}"]
     return "\n".join(L) + "\n"
 
 
@@ -508,6 +711,12 @@ def main(argv):
         return 0
     if "--render" in argv:
         render()
+    if "--mv-report" in argv:
+        f = cmc_lookup()
+        for slug, bp in load_all().items():
+            for field, ph, subj, n, vals in mv_claims(bp, f):
+                ok = n in {int(v) for v in vals.values() if v is not None}
+                print(f"{'OK  ' if ok else 'FAIL'} {slug} {field}: '{ph}' → {subj} {vals}")
     if "--m2-status" in argv:
         for c, ok, d in m2_status():
             print(f"{'PASS' if ok else 'OPEN'}  {c} — {d}")

@@ -87,6 +87,9 @@
 - **Saw in Half:** Two-card commander loop with any mana-positive ritual. *strategic_judgment · high* — [cormela-03](../interactions/cormela-glamour-thief.md#cormela-03-cormela--saw-in-half--ritual-or-jeskas-will)
 - **Molten Duplication:** Copies Cormela for the Birgi loop and Dualcaster for the token loop. *strategic_judgment · high* — [Cormela_Optimization_Decision_Ledger.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md)
 - **Goryo's Vengeance:** Instant-speed reanimation half of the altar loop. *strategic_judgment · high* — [cormela-04](../interactions/cormela-glamour-thief.md#cormela-04-cormela--goryos-vengeance-or-shallow-grave--altar)
+
+## Power core (compact wins, not identity)
+
 - **Thassa's Oracle:** Compact failover that raises resilience. *strategic_judgment · high* — [Cormela_Optimization_Decision_Ledger.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md)
 
 ## Anti-goals and thematic constraints
@@ -114,3 +117,4 @@ None.
 
 - Seeded from: [Cormela_Glamour_Thief_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Cormela_Glamour_Thief_v1.md) · [Cormela_Optimization_Decision_Ledger.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cormela_2026-10-14/Cormela_Optimization_Decision_Ledger.md) · [Cormela_Glamour_Thief_Finalization_Certificate_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/cormela_2026-10-14/Cormela_Glamour_Thief_Finalization_Certificate_2026-10-14.md) · [Cormela_Glamour_Thief_Current_Cycle_Approval_Gate_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/evidence/Cormela_Glamour_Thief_Current_Cycle_Approval_Gate_2026-10-14.md)
 - Reviewed by: — (not yet reviewed by Cory)
+- **Correction (Bot cycle 62):** retracted identity_core listed generic compact wins: Thassa's Oracle → Moved to power_core (compact-win / power core). They are generic Grixis compact wins, not commander identity (Cory review t50u, applied to every blueprint).

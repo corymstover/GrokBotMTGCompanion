@@ -11,7 +11,7 @@
    "simulator": {
     "name": "grixis_sim",
     "version": "1.0",
-    "model_sha256": "sha256:d34115a0e77bce978e24cc1bb092ccb00f27c235f0b30fd318f1491c42f2057f"
+    "model_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58"
    },
    "seed": 57,
    "paired": true,

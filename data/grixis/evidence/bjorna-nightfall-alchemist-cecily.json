@@ -29,12 +29,12 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:65eef4d8a10b9fe846b0c7a3af42ce10981da38d6bdbab09ff0ebfd2c76cce57",
+  "id": "sha256:0bed340e35a3007ef2d2144e1c36872f6045aae658168d3e8a2c0a6d6cb397ff",
   "inputs": {
    ".cache/edhrec/commanders__bjorna-nightfall-alchemist-cecily-haunted-mage.json": "sha256:adb794ac3e2edb0819033ddd01d33c703122e25912aede5789284b71dd0e0a17",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
    "data/grixis_interactions/bjorna-nightfall-alchemist-cecily.json": "sha256:b7e2f03d5c4ff3d431a781cf66f3a1e2fd5a91ba368792042863dcba35086bbe",
-   "data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json": "sha256:6ffa8196b656112c04f352e51009c44433e607d6ffb48302ed90db55f7abe591",
+   "data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json": "sha256:cf971ecd75cc9c689376a61f318be601099e3b10c34bc8e5cb7265ed3f9ac25f",
    "grixis/decks/bjorna-nightfall-alchemist-cecily.md": "sha256:3a76fba8cbeb815e8b1c827af9be77f1a8b106f2c6e0ab70c27a2fa940468c52",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",
    "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"

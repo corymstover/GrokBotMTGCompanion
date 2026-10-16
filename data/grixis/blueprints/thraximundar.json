@@ -3,7 +3,7 @@
  "deck_id": "Thraximundar",
  "slug": "thraximundar",
  "version": 1,
- "status": "seeded",
+ "status": "cory_reviewed",
  "cycle": 55,
  "date": "2026-10-16",
  "canonical_hash": "lh1:6a7f264373b7f45348bf2de9c569b7a41d4958106f5791dcf5642dce5e16af1d",
@@ -41,7 +41,7 @@
   "value": {
    "level": "significant",
    "advances_plan": "Thraximundar's attack is an edict, he grows from every sacrifice by any player, and he is a Zombie that enables Gravecrawler.",
-   "honest_note": "Honest call: significant. None of the 17 Spellbook combos names him, though he can be Gravecrawler's 'another Zombie'. Without the loops he is a commander-damage clock. Source error flagged: the source repeatedly calls Thraximundar 'seven-mana' (decisions v2 L11, L33, L45), but the Oracle cost {4}{U}{B}{R} is mana value 6. This inflates the stated ramp need slightly; the list is unaffected. The approval uses the v2 decisions (approvals L14)."
+   "honest_note": "Honest call: significant. None of the 17 Spellbook combos names him, though he can be Gravecrawler's 'another Zombie'. Without the loops he is a commander-damage clock. The approval uses the v2 decisions (approvals L14)."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -49,7 +49,8 @@
    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L11",
    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L33",
    "source_archive:refinement/approvals/Thraximundar_Approved_2026-10-15.md#L14",
-   "spellbook:2577-4050"
+   "spellbook:2577-4050",
+   "registry:data/grixis/blueprint_reviews.json#thraximundar"
   ]
  },
  "win_conditions": [
@@ -302,19 +303,6 @@
    ]
   },
   {
-   "id": "mana-value-six",
-   "summary": "Thraximundar is mana value 6 ({4}{U}{B}{R}); the source says seven.",
-   "cards": [
-    "Thraximundar"
-   ],
-   "m1_refs": [],
-   "evidence_class": "fact",
-   "confidence": "high",
-   "evidence": [
-    "oracle:Thraximundar"
-   ]
-  },
-  {
    "id": "force-cut",
    "summary": "Force of Will was cut for Mana Vault because the blue pitch pool was too thin.",
    "cards": [
@@ -376,7 +364,7 @@
  "failure_modes": [
   {
    "id": "commander-removal",
-   "description": "Repeated removal taxes a six-mana commander.",
+   "description": "Repeated removal taxes a seven-mana commander.",
    "mitigations": [
     "Command Beacon",
     "Swiftfoot Boots"
@@ -419,7 +407,8 @@
   "evidence_class": "strategic_judgment",
   "confidence": "high",
   "evidence": [
-   "spellbook:2577-4050"
+   "spellbook:2577-4050",
+   "registry:data/grixis/blueprint_reviews.json#thraximundar"
   ]
  },
  "power": {
@@ -437,14 +426,15 @@
   "grok_estimated_ceiling": {
    "value": {
     "value": "4",
-    "label": "High Bracket 4: 17 Spellbook loops and strong tutors, but thin protection and a six-mana commander keep it short of cEDH. Agrees with the source."
+    "label": "High Bracket 4: 17 Spellbook loops and strong tutors, but thin protection and a seven-mana commander keep it short of cEDH. Agrees with the source."
    },
    "evidence_class": "strategic_judgment",
    "confidence": "high",
    "evidence": [
     "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L13",
     "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L78",
-    "spellbook:2577-4050"
+    "spellbook:2577-4050",
+    "registry:data/grixis/blueprint_reviews.json#thraximundar"
    ]
   },
   "expected_bracket": {
@@ -623,7 +613,33 @@
    "source_archive:refinement/verification/Thraximundar_Approval_Ready_Verification_v2_2026-10-15.md",
    "source_archive:refinement/decklists/Thraximundar_Approved_2026-10-15.txt"
   ],
-  "reviewed_by": null,
-  "author": "GrokBot (Bot cycle 55)"
+  "reviewed_by": "corymstover",
+  "author": "GrokBot (Bot cycle 55)",
+  "corrections": [
+   {
+    "cycle": "Bot cycle 62",
+    "retracted": "GrokBot's cycle-55 claim 'mana-value-six' (Thraximundar is mana value 6) and the 'source error flagged' note in commander_role.honest_note, plus 'six-mana commander' in the ceiling label and the commander-removal failure mode.",
+    "correction": "Thraximundar {4}{U}{B}{R} is mana value 7 (Scryfall cache cmc 7). The source's 'seven-mana' (decisions v2 L11, L33, L45) was correct; the error was ours. The claim was tagged fact/high citing oracle:Thraximundar but was never checked against the cached cmc (now enforced by the blueprint MV rule). Ceiling re-checked: Bracket 4, short of cEDH, still holds and is if anything reinforced by the higher commander cost.",
+    "requested_by": "corymstover (chat t49u, relayed)"
+   }
+  ],
+  "reviewed_date": "2026-10-16",
+  "review_ref": "registry:data/grixis/blueprint_reviews.json#thraximundar"
+ },
+ "cory_review": {
+  "by": "corymstover",
+  "date": "2026-10-16",
+  "ref": "chat t50u (2026-10-16T17:47Z, relayed)",
+  "ceiling": "4",
+  "ceiling_provisional": false,
+  "commander_role": "significant",
+  "dependency": "medium",
+  "per_commander_roles": null,
+  "evidence_class": "approved_decision",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/blueprint_reviews.json#thraximundar"
+  ],
+  "scope": "Resolves this blueprint's ceiling and commander role. Not M2 acceptance; no list change."
  }
 }

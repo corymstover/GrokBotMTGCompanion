@@ -145,6 +145,20 @@
          "null"
         ],
         "description": "What the acceptance does and does not cover."
+       },
+       "scope_verbatim": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "description": "Cory's exact acceptance wording (Bot cycle 62)."
+       },
+       "pending_note": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "description": "What the milestone still waits on (Bot cycle 62)."
        }
       },
       "required": [

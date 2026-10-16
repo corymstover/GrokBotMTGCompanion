@@ -5,11 +5,11 @@
  "generated_by": "scripts/grixis_audit.py v1",
  "cycle": 59,
  "list_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
- "pass_id": "audit:tresserhorns-lord-returned:c59:a1d386fa8bda",
+ "pass_id": "audit:tresserhorns-lord-returned:c59:85c22e1b4f28",
  "snapshot": {
-  "id": "sha256:a1d386fa8bda619b7acc1500a0fd5124a2714644450aff5c9c3195f8a565c6f9",
-  "graph": "sha256:5ec446385a01b142fa1e0871d4f83e66fd39777d660635d2acd926a146730fff",
-  "evidence": "sha256:50fdd9dd457cbce9ce40210aee254fb51dd98fd2c63d8155d604d1c40b8a8bdc",
+  "id": "sha256:85c22e1b4f283680815e94d3eda4b092f8e7ee7d99ee8401a9fcddf5a0929cdd",
+  "graph": "sha256:49c821d860a7b17714e84979fb3e3f672ddbe7021eacf2c3c93dd7b55c4550bc",
+  "evidence": "sha256:f859946fdcacb7bea8010e9af0c06804f177c4a02bc610b6ad2d263b48e7cd03",
   "m1": "ingested"
  },
  "authority": {
@@ -143,7 +143,7 @@
   "screened": 182,
   "full_review": 0,
   "escalated": 0,
-  "snapshot": "sha256:50fdd9dd457cbce9ce40210aee254fb51dd98fd2c63d8155d604d1c40b8a8bdc"
+  "snapshot": "sha256:f859946fdcacb7bea8010e9af0c06804f177c4a02bc610b6ad2d263b48e7cd03"
  },
  "slots": [
   {"card":"Accursed Marauder","quantity":1,"zone":"main","disposition":"weak_retain","review_status":"provisional","classifier":"script","roles":[],"packages":[],"blueprint_refs":[],"graph_refs":["graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Accursed Marauder"],"alternatives":["evidence:data/grixis/evidence/tresserhorns-lord-returned.json#Pawn of Ulamog"],"redundancy":0,"reason":"weak retain ({1}{B} creature): no structure; Oracle hook sacrifice. Oracle: “When this creature enters, each player sacrifices a nontoken creature of thei…”. Redundancy 0 (no shared job). Best alternative: Pawn of Ulamog (same Oracle hook (sacrifice), EDHREC 36%). EDHREC inclusion 32.6%, synergy +0.31.","evidence":["evidence:data/grixis/evidence/tresserhorns-lord-returned.json#Accursed Marauder","graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Accursed Marauder","oracle:Accursed Marauder"],"structural_necessity":"independent","evidence_classes":{"derived_metric":1,"fact":1},"decision_support":{"ok":false,"why_not":["only heuristic / derived-metric / hypothesis evidence: diagnostics cannot decide"]},"m1_flags":[],"complete_eligible":false},

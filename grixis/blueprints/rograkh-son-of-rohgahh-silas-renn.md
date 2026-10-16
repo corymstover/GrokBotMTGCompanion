@@ -90,6 +90,9 @@
 - **Rograkh, Son of Rohgahh:** Free creature commander that turns on the free-spell and Mox suite. *fact · verified* — `oracle:Rograkh, Son of Rohgahh`
 - **Mox Amber:** Zero-mana mana with Rograkh out. *strategic_judgment · high* — [RogSi_Commander_Blueprint_2026-10-15.md#L35](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md)
 - **Culling the Weak:** Sacrifices Rograkh for BBBB. *strategic_judgment · high* — [RogSi_Commander_Blueprint_2026-10-15.md#L34](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md)
+
+## Power core (compact wins, not identity)
+
 - **Ad Nauseam:** The main reload. *strategic_judgment · high* — [RogSi_Commander_Blueprint_2026-10-15.md#L19](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md)
 - **Underworld Breach:** Primary combo engine. *strategic_judgment · high* — `spellbook:1368-3518-4856`
 
@@ -118,3 +121,4 @@ None.
 
 - Seeded from: [RogSi_Commander_Blueprint_2026-10-15.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md) · [RogSi_Candidate_Decisions_2026-10-15.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/RogSi_Candidate_Decisions_2026-10-15.md) · [RogSi_Approved_2026-10-15.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/approvals/RogSi_Approved_2026-10-15.md) · [RogSi_Approval_Ready_Verification_2026-10-15.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/RogSi_Approval_Ready_Verification_2026-10-15.md) · [RogSi_Whole_List_Audit_2026-10-15.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/RogSi_Whole_List_Audit_2026-10-15.md) · [RogSi_Approved_2026-10-15.txt](../source-archive/grixis-commander-encyclopediaGPT/refinement/decklists/RogSi_Approved_2026-10-15.txt)
 - Reviewed by: — (not yet reviewed by Cory)
+- **Correction (Bot cycle 62):** retracted identity_core listed generic compact wins: Ad Nauseam, Underworld Breach → Moved to power_core (compact-win / power core). They are generic Grixis compact wins, not commander identity (Cory review t50u, applied to every blueprint).

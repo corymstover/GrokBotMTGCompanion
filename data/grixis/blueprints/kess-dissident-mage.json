@@ -519,7 +519,7 @@
  ],
  "anti_goals": {
   "value": [
-   "Six-mana storm engines and storm payoffs (Thousand-Year Storm, Talrand, Guttersnipe) rejected (decisions L137).",
+   "Six-mana storm engines (Thousand-Year Storm) and storm payoffs (Talrand, Sky Summoner; Guttersnipe) rejected (decisions L137).",
    "Keep 100 distinct names so Tainted Pact never stops early."
   ],
   "evidence_class": "strategic_judgment",
@@ -593,6 +593,14 @@
    "source_archive:refinement/decklists/Kess_Dissident_Mage_Approved_2026-10-14.txt"
   ],
   "reviewed_by": null,
-  "author": "GrokBot (Bot cycle 52)"
+  "author": "GrokBot (Bot cycle 52)",
+  "corrections": [
+   {
+    "cycle": "Bot cycle 62",
+    "retracted": "anti_goals[0] 'Six-mana storm engines and storm payoffs (Thousand-Year Storm, Talrand, Guttersnipe)', which read as calling all three six-mana",
+    "correction": "Only Thousand-Year Storm is mana value 6; Talrand, Sky Summoner is 4 and Guttersnipe 3 (cache). Wording split; found by the cycle-62 MV rule.",
+    "requested_by": "corymstover (chat t49u, relayed)"
+   }
+  ]
  }
 }

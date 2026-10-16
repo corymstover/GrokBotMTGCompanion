@@ -802,6 +802,42 @@
       "$ref": "common.schema.json#/$defs/evidence_ref"
      },
      "minItems": 1
+    },
+    "future_release": {
+     "type": "array",
+     "description": "Bot cycle 62: authorized future-release project exceptions, recorded separately from official legality.",
+     "items": {
+      "type": "object",
+      "properties": {
+       "card": {
+        "type": "string"
+       },
+       "legal_from": {
+        "type": "string"
+       },
+       "official_commander_legality": {
+        "type": "string"
+       },
+       "project_authorization": {
+        "const": "AUTHORIZED_FUTURE_RELEASE"
+       },
+       "registry_state": {
+        "const": "PENDING_RELEASE"
+       },
+       "ref": {
+        "$ref": "common.schema.json#/$defs/evidence_ref"
+       }
+      },
+      "required": [
+       "card",
+       "legal_from",
+       "official_commander_legality",
+       "project_authorization",
+       "registry_state",
+       "ref"
+      ],
+      "additionalProperties": false
+     }
     }
    },
    "required": [
@@ -990,12 +1026,160 @@
     },
     "author": {
      "type": "string"
+    },
+    "corrections": {
+     "type": "array",
+     "description": "Bot cycle 62: recorded retractions/corrections of GrokBot claims (cycle, what, why).",
+     "items": {
+      "type": "object",
+      "properties": {
+       "cycle": {
+        "type": "string"
+       },
+       "retracted": {
+        "type": "string"
+       },
+       "correction": {
+        "type": "string"
+       },
+       "requested_by": {
+        "type": "string"
+       }
+      },
+      "required": [
+       "cycle",
+       "retracted",
+       "correction"
+      ],
+      "additionalProperties": false
+     }
+    },
+    "reviewed_date": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "review_ref": {
+     "$ref": "common.schema.json#/$defs/evidence_ref"
     }
    },
    "required": [
     "seeded_from",
     "reviewed_by",
     "author"
+   ],
+   "additionalProperties": false
+  },
+  "power_core": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "card": {
+      "type": "string"
+     },
+     "why": {
+      "type": "string"
+     },
+     "evidence_class": {
+      "$ref": "common.schema.json#/$defs/evidence_class"
+     },
+     "confidence": {
+      "$ref": "common.schema.json#/$defs/confidence"
+     },
+     "evidence": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/evidence_ref"
+      },
+      "minItems": 1
+     }
+    },
+    "required": [
+     "card",
+     "why",
+     "evidence_class",
+     "confidence",
+     "evidence"
+    ],
+    "additionalProperties": false
+   },
+   "description": "Bot cycle 62: compact-win / power core (generic Grixis wins), kept apart from commander identity."
+  },
+  "cory_review": {
+   "type": "object",
+   "description": "Bot cycle 62: Cory's per-blueprint review record (resolved ceiling and role). Not milestone acceptance.",
+   "properties": {
+    "by": {
+     "type": "string"
+    },
+    "date": {
+     "type": "string"
+    },
+    "ref": {
+     "type": "string"
+    },
+    "ceiling": {
+     "$ref": "common.schema.json#/$defs/bracket"
+    },
+    "ceiling_provisional": {
+     "type": "boolean"
+    },
+    "commander_role": {
+     "enum": [
+      "central",
+      "significant",
+      "supporting",
+      "incidental"
+     ]
+    },
+    "dependency": {
+     "enum": [
+      "low",
+      "medium",
+      "high",
+      "total"
+     ]
+    },
+    "per_commander_roles": {
+     "type": [
+      "object",
+      "null"
+     ],
+     "additionalProperties": {
+      "type": "string"
+     }
+    },
+    "scope": {
+     "type": "string"
+    },
+    "evidence_class": {
+     "const": "approved_decision"
+    },
+    "confidence": {
+     "$ref": "common.schema.json#/$defs/confidence"
+    },
+    "evidence": {
+     "type": "array",
+     "items": {
+      "$ref": "common.schema.json#/$defs/evidence_ref"
+     },
+     "minItems": 1
+    }
+   },
+   "required": [
+    "by",
+    "date",
+    "ref",
+    "ceiling",
+    "ceiling_provisional",
+    "commander_role",
+    "dependency",
+    "scope",
+    "evidence_class",
+    "confidence",
+    "evidence"
    ],
    "additionalProperties": false
   }

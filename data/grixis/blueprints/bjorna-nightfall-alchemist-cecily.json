@@ -3,7 +3,7 @@
  "deck_id": "Cecily__Bjorna__Lutri",
  "slug": "bjorna-nightfall-alchemist-cecily",
  "version": 1,
- "status": "seeded",
+ "status": "cory_reviewed",
  "cycle": 50,
  "date": "2026-10-16",
  "canonical_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
@@ -34,7 +34,7 @@
  "plan": {
   "value": {
    "primary": "Big-hand spells: draw to eleven-plus cards with Rhystic Study, The One Ring, wheels and Trade Secrets/Yawgmoth's Bargain, attack with Cecily to draw and cast an instant or sorcery free, and win with draw-based combos (Peer into the Abyss + Psychosis Crawler or Teferi's Ageless Insight, Underworld Breach + Wheel of Fortune + Jeska's Will).",
-   "secondary": "Bjorna sacrifices spare artifacts (Treasures, Thopters, Clues) to ping and goad an opposing creature each turn, keeping attackers pointed away and clearing Cecily's way."
+   "secondary": "Bjorna sacrifices spare artifacts (Treasures, Thopters, Clues) to deal 1 damage to and goad an opposing creature: the ping kills X/1s, and goad gives defensive and political value on opponents' turns (the creature must attack a player other than Bjorna's controller if able). Goad sets attack requirements only; it doesn't stop a creature from blocking, so it doesn't clear blockers for Cecily."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "moderate",
@@ -43,13 +43,14 @@
    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-01",
    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-02",
    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-05",
-   "interaction:bjorna-nightfall-alchemist-cecily#bjorna-07"
+   "interaction:bjorna-nightfall-alchemist-cecily#bjorna-07",
+   "cr:701.15b"
   ]
  },
  "commander_role": {
   "value": {
    "level": "supporting",
-   "advances_plan": "Cecily turns attacks into a card and, with 11+ cards, a free spell; Bjorna is a small repeatable goad/ping that uses artifact tokens. Together they help, but the deck wins with draw-and-wheel combos that don't need either commander.",
+   "advances_plan": "Cecily (significant) turns attacks into a card and, with 11+ cards, a free spell. Bjorna (supporting/incidental) is a small repeatable ping/goad that uses artifact tokens: it kills X/1s and redirects attacks on opponents' turns. As a pair they are supporting; the deck wins with draw-and-wheel combos that don't need either commander.",
    "honest_note": "The source blueprint misdescribes both commanders (Bjorna does not grant haste on noncreature spells; Cecily triggers on attacking, not combat damage; M1 bjorna-12). On current Oracle Bjorna is close to incidental and Cecily is a significant but combat-exposed engine. The approval dossier calls the pair the 'strategic center'; GrokBot's reading is that the draw/wheel/Peer package is."
   },
   "evidence_class": "strategic_judgment",
@@ -58,7 +59,8 @@
    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-12",
    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-01",
    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-02",
-   "source_archive:refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md#L23"
+   "source_archive:refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md#L23",
+   "registry:data/grixis/blueprint_reviews.json#bjorna-nightfall-alchemist-cecily"
   ]
  },
  "win_conditions": [
@@ -389,7 +391,7 @@
    "id": "cecily-cant-attack",
    "description": "Cecily dies in combat or can't attack safely; free casts never happen.",
    "mitigations": [
-    "Bjorna goads blockers",
+    "Bjorna pings X/1 blockers",
     "Greaves"
    ],
    "evidence_class": "strategic_judgment",
@@ -430,7 +432,8 @@
   "evidence": [
    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-05",
    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-07",
-   "source_archive:refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md"
+   "source_archive:refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md",
+   "registry:data/grixis/blueprint_reviews.json#bjorna-nightfall-alchemist-cecily"
   ]
  },
  "power": {
@@ -457,7 +460,8 @@
    "evidence": [
     "interaction:bjorna-nightfall-alchemist-cecily#bjorna-05",
     "interaction:bjorna-nightfall-alchemist-cecily#bjorna-11",
-    "source_archive:refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md"
+    "source_archive:refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md",
+    "registry:data/grixis/blueprint_reviews.json#bjorna-nightfall-alchemist-cecily"
    ]
   },
   "expected_bracket": {
@@ -517,7 +521,7 @@
   },
   {
    "card": "Bjorna, Nightfall Alchemist",
-   "why": "Required commander; goads one blocker or attacker per turn using spare artifacts.",
+   "why": "Required partner: 1 damage kills an X/1, and goad pushes an opponent's creature to attack someone else on their turn. Goad doesn't stop blocking.",
    "evidence_class": "fact",
    "confidence": "verified",
    "evidence": [
@@ -635,7 +639,37 @@
    "source_archive:refinement/decklists/Cecily__Bjorna__Lutri_Approved_2026-10-13.txt",
    "interaction:bjorna-nightfall-alchemist-cecily#bjorna-12"
   ],
-  "reviewed_by": null,
-  "author": "GrokBot (Bot cycle 50)"
+  "reviewed_by": "corymstover",
+  "author": "GrokBot (Bot cycle 50)",
+  "corrections": [
+   {
+    "cycle": "Bot cycle 62",
+    "retracted": "plan.secondary 'clearing Cecily's way', failure-mode mitigation 'Bjorna goads blockers', identity_core 'goads one blocker'",
+    "correction": "Goad (CR 701.15b) creates attack requirements and does not prevent blocking. Bjorna's 1 damage kills X/1s, and goad's value is defensive and political on opponents' turns. Roles per Cory: Cecily significant, Bjorna supporting/incidental, pair supporting; B4.",
+    "requested_by": "corymstover (blueprint review t50u, 2026-10-16T17:47Z, relayed)"
+   }
+  ],
+  "reviewed_date": "2026-10-16",
+  "review_ref": "registry:data/grixis/blueprint_reviews.json#bjorna-nightfall-alchemist-cecily"
+ },
+ "cory_review": {
+  "by": "corymstover",
+  "date": "2026-10-16",
+  "ref": "chat t50u (2026-10-16T17:47Z, relayed)",
+  "ceiling": "4",
+  "ceiling_provisional": false,
+  "commander_role": "supporting",
+  "dependency": "low",
+  "per_commander_roles": {
+   "Cecily, Haunted Mage": "significant",
+   "Bjorna, Nightfall Alchemist": "supporting/incidental",
+   "pair": "supporting"
+  },
+  "evidence_class": "approved_decision",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/blueprint_reviews.json#bjorna-nightfall-alchemist-cecily"
+  ],
+  "scope": "Resolves this blueprint's ceiling and commander role. Not M2 acceptance; no list change."
  }
 }

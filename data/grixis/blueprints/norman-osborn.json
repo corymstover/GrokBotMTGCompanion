@@ -573,24 +573,6 @@
    "evidence": [
     "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L24"
    ]
-  },
-  {
-   "card": "Grinding Station",
-   "why": "Breach engine piece.",
-   "evidence_class": "strategic_judgment",
-   "confidence": "high",
-   "evidence": [
-    "source_archive:refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md#L193"
-   ]
-  },
-  {
-   "card": "Thassa's Oracle",
-   "why": "Compact win.",
-   "evidence_class": "strategic_judgment",
-   "confidence": "high",
-   "evidence": [
-    "spellbook:1295-3093"
-   ]
   }
  ],
  "anti_goals": {
@@ -686,6 +668,34 @@
    "source_archive:refinement/decklists/Norman_Osborn_Green_Goblin_Approved_2026-10-15.txt"
   ],
   "reviewed_by": null,
-  "author": "GrokBot (Bot cycle 55)"
- }
+  "author": "GrokBot (Bot cycle 55)",
+  "corrections": [
+   {
+    "cycle": "Bot cycle 62",
+    "retracted": "identity_core listed generic compact wins: Grinding Station, Thassa's Oracle",
+    "correction": "Moved to power_core (compact-win / power core). They are generic Grixis compact wins, not commander identity (Cory review t50u, applied to every blueprint).",
+    "requested_by": "corymstover (blueprint review t50u, 2026-10-16T17:47Z, relayed)"
+   }
+  ]
+ },
+ "power_core": [
+  {
+   "card": "Grinding Station",
+   "why": "Breach engine piece.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md#L193"
+   ]
+  },
+  {
+   "card": "Thassa's Oracle",
+   "why": "Compact win.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1295-3093"
+   ]
+  }
+ ]
 }

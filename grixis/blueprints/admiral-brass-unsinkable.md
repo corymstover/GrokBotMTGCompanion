@@ -69,7 +69,7 @@
 
 - **Interaction:** Graveyard hate is the main threat; keep stack interaction to protect the reanimation turn.
 - **Protection:** Greaves, Stormtamer and free protection for the commander.
-- **Mana:** Four-mana commander; 34 lands plus rocks.
+- **Mana:** Five-mana commander; 34 lands plus rocks.
 - *strategic_judgment · moderate* — [Admiral_Brass_Unsinkable_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Brass_Unsinkable_v1.md)
 
 ## Failure modes
@@ -112,3 +112,4 @@ None.
 
 - Seeded from: [Admiral_Brass_Unsinkable_v1.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Admiral_Brass_Unsinkable_v1.md) · [Admiral_Brass_Unsinkable_Deck_Quality_v3.json](../source-archive/grixis-commander-encyclopediaGPT/refinement/evidence/Admiral_Brass_Unsinkable_Deck_Quality_v3.json) · [brass-15](../interactions/admiral-brass-unsinkable.md#brass-15-what-the-list-depends-on)
 - Reviewed by: — (not yet reviewed by Cory)
+- **Correction (Bot cycle 62):** retracted requirements.mana 'Four-mana commander' → Admiral Brass, Unsinkable {2}{U}{B}{R} is mana value 5 (cache cmc 5); found by the cycle-62 MV rule.

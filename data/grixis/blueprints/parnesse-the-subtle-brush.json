@@ -3,7 +3,7 @@
  "deck_id": "Parnesse__the_Subtle_Brush",
  "slug": "parnesse-the-subtle-brush",
  "version": 1,
- "status": "seeded",
+ "status": "cory_reviewed",
  "cycle": 55,
  "date": "2026-10-16",
  "canonical_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
@@ -47,7 +47,8 @@
   "evidence": [
    "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L12",
    "spellbook:11-3368",
-   "spellbook:3368-5959"
+   "spellbook:3368-5959",
+   "registry:data/grixis/blueprint_reviews.json#parnesse-the-subtle-brush"
   ]
  },
  "win_conditions": [
@@ -124,7 +125,7 @@
   {
    "id": "dualcaster-tech",
    "kind": "combo",
-   "description": "Dualcaster Mage + Replication Technique: infinite hasty tokens.",
+   "description": "Dualcaster Mage + Replication Technique: infinite creature tokens (Dualcaster copies), so infinite ETBs and magecraft triggers. The tokens are not inherently hasty; a haste source is needed to attack with them.",
    "cards": [
     "Dualcaster Mage",
     "Replication Technique"
@@ -316,17 +317,25 @@
   },
   {
    "id": "retargeted-copy-tax",
-   "summary": "Unresolved (M1 uncertain): whether an opponent's retargeted copy of your spell must pay Parnesse's 4-life tax.",
+   "summary": "Resolved (Cory review + derivation): an opponent who makes Parnesse's offered copy controls it; if they target you or a permanent you control, Parnesse's first ability triggers and they must pay 4 life or the copy is countered.",
    "cards": [
     "Parnesse, the Subtle Brush"
    ],
    "m1_refs": [
     "parnesse-10"
    ],
-   "evidence_class": "fact",
-   "confidence": "test_required",
+   "evidence_class": "approved_decision",
+   "confidence": "verified",
    "evidence": [
-    "interaction:parnesse-the-subtle-brush#parnesse-10"
+    "interaction:parnesse-the-subtle-brush#parnesse-10",
+    "registry:data/grixis/m1_corrections.json#parnesse-10",
+    "cr:707.10",
+    "cr:112.2",
+    "cr:707.10c",
+    "cr:603.2",
+    "cr:702.21a",
+    "cr:701.6a",
+    "registry:data/grixis/blueprint_reviews.json#parnesse-the-subtle-brush"
    ]
   },
   {
@@ -455,7 +464,8 @@
   "evidence_class": "strategic_judgment",
   "confidence": "high",
   "evidence": [
-   "spellbook:11-3368"
+   "spellbook:11-3368",
+   "registry:data/grixis/blueprint_reviews.json#parnesse-the-subtle-brush"
   ]
  },
  "power": {
@@ -479,7 +489,8 @@
    "confidence": "high",
    "evidence": [
     "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L53",
-    "spellbook:11-3368"
+    "spellbook:11-3368",
+    "registry:data/grixis/blueprint_reviews.json#parnesse-the-subtle-brush"
    ]
   },
   "expected_bracket": {
@@ -646,7 +657,39 @@
    "source_archive:refinement/verification/Parnesse_the_Subtle_Brush_Whole_List_Audit_2026-10-15.md",
    "source_archive:refinement/decklists/Parnesse_the_Subtle_Brush_Approved_2026-10-15.txt"
   ],
-  "reviewed_by": null,
-  "author": "GrokBot (Bot cycle 55)"
+  "reviewed_by": "corymstover",
+  "author": "GrokBot (Bot cycle 55)",
+  "corrections": [
+   {
+    "cycle": "Bot cycle 62",
+    "retracted": "win_conditions dualcaster-tech 'infinite hasty tokens'",
+    "correction": "Dualcaster Mage + Replication Technique makes infinite creature tokens, ETBs and magecraft triggers; the tokens are not inherently hasty (neither card grants haste).",
+    "requested_by": "corymstover (blueprint review t50u, 2026-10-16T17:47Z, relayed)"
+   },
+   {
+    "cycle": "Bot cycle 62",
+    "retracted": "key_interactions retargeted-copy-tax 'Unresolved (M1 uncertain)' / test_required",
+    "correction": "Resolved by Cory's review with a CR derivation (707.10, 112.2, 707.10c, 603.2, 702.21a, 701.6a); recorded as an M1 post-acceptance correction (data/grixis/m1_corrections.json#parnesse-10).",
+    "requested_by": "corymstover (blueprint review t50u, 2026-10-16T17:47Z, relayed)"
+   }
+  ],
+  "reviewed_date": "2026-10-16",
+  "review_ref": "registry:data/grixis/blueprint_reviews.json#parnesse-the-subtle-brush"
+ },
+ "cory_review": {
+  "by": "corymstover",
+  "date": "2026-10-16",
+  "ref": "chat t50u (2026-10-16T17:47Z, relayed)",
+  "ceiling": "4",
+  "ceiling_provisional": false,
+  "commander_role": "supporting",
+  "dependency": "low",
+  "per_commander_roles": null,
+  "evidence_class": "approved_decision",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/blueprint_reviews.json#parnesse-the-subtle-brush"
+  ],
+  "scope": "Resolves this blueprint's ceiling and commander role. Not M2 acceptance; no list change."
  }
 }

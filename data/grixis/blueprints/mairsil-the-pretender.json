@@ -3,7 +3,7 @@
  "deck_id": "Mairsil__the_Pretender",
  "slug": "mairsil-the-pretender",
  "version": 1,
- "status": "seeded",
+ "status": "cory_reviewed",
  "cycle": 53,
  "date": "2026-10-16",
  "canonical_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
@@ -39,13 +39,14 @@
   "value": {
    "level": "central",
    "advances_plan": "Mairsil is the engine: every caged ability lives on him, and five of the six Spellbook combos include him.",
-   "honest_note": "Each acquired ability is once per turn per Mairsil object, so the loops need fresh objects (Quicksilver Elemental, blinks, copies). The deck is fragile to graveyard and exile hate on caged cards. The cycle 51 M1 review (mairsil-01..11) verifies the cage rules; mairsil-10 (Marvin, Murderous Mimic without the once-per-turn limit) is uncertain, so that key interaction is test_required."
+   "honest_note": "Each acquired ability is once per turn per Mairsil object, so the loops need fresh objects (Quicksilver Elemental, blinks, copies). The deck is fragile to graveyard and exile hate on caged cards. The cycle 51 M1 review (mairsil-01..11) verifies the cage rules; mairsil-10 (Marvin without the once-per-turn limit) was re-evaluated in Bot cycle 62 under CR 113.10a: Marvin's copies keep the restriction, so the no-restriction hypothesis is incorrect (M1 post-acceptance correction, data/grixis/m1_corrections.json)."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
   "evidence": [
    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L27",
-   "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L51"
+   "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L51",
+   "registry:data/grixis/blueprint_reviews.json#mairsil-the-pretender"
   ]
  },
  "win_conditions": [
@@ -278,7 +279,7 @@
   },
   {
    "id": "marvin",
-   "summary": "Marvin gains Mairsil's acquired activated abilities without the once-per-turn static (M1 marks this uncertain).",
+   "summary": "Marvin gains Mairsil's caged activated abilities with the once-each-turn restriction. By CR 113.10a Mairsil's activation instruction is part of each added ability, so Marvin is a second, parallel once-per-turn activation per turn, not an unrestricted engine. The source's no-restriction hypothesis is incorrect.",
    "cards": [
     "Marvin, Murderous Mimic"
    ],
@@ -286,10 +287,16 @@
     "mairsil-10"
    ],
    "evidence_class": "fact",
-   "confidence": "test_required",
+   "confidence": "high",
    "evidence": [
     "interaction:mairsil-the-pretender#mairsil-10",
-    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L59"
+    "registry:data/grixis/m1_corrections.json#mairsil-10",
+    "cr:113.10a",
+    "cr:113.3b",
+    "cr:113.2c",
+    "cr:602.5b",
+    "oracle:Mairsil, the Pretender",
+    "oracle:Marvin, Murderous Mimic"
    ]
   },
   {
@@ -439,7 +446,8 @@
   "evidence_class": "strategic_judgment",
   "confidence": "high",
   "evidence": [
-   "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L27"
+   "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L27",
+   "registry:data/grixis/blueprint_reviews.json#mairsil-the-pretender"
   ]
  },
  "power": {
@@ -463,7 +471,8 @@
    "confidence": "high",
    "evidence": [
     "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md#L37",
-    "spellbook:1369-2645-5112-5116"
+    "spellbook:1369-2645-5112-5116",
+    "registry:data/grixis/blueprint_reviews.json#mairsil-the-pretender"
    ]
   },
   "expected_bracket": {
@@ -629,7 +638,33 @@
    "source_archive:refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md",
    "source_archive:refinement/decklists/Mairsil_the_Pretender_Approved_2026-10-14.txt"
   ],
-  "reviewed_by": null,
-  "author": "GrokBot (Bot cycle 53)"
+  "reviewed_by": "corymstover",
+  "author": "GrokBot (Bot cycle 53)",
+  "corrections": [
+   {
+    "cycle": "Bot cycle 62",
+    "retracted": "key_interactions marvin 'gains Mairsil's acquired activated abilities without the once-per-turn static' (test_required)",
+    "correction": "Re-evaluated under CR 113.10a (verbatim in data/grixis/m1_corrections.json#mairsil-10): the restriction is part of each granted ability, so Marvin's instances are once each turn too. Hypothesis incorrect; no longer test_required.",
+    "requested_by": "corymstover (blueprint review t50u, 2026-10-16T17:47Z, relayed)"
+   }
+  ],
+  "reviewed_date": "2026-10-16",
+  "review_ref": "registry:data/grixis/blueprint_reviews.json#mairsil-the-pretender"
+ },
+ "cory_review": {
+  "by": "corymstover",
+  "date": "2026-10-16",
+  "ref": "chat t50u (2026-10-16T17:47Z, relayed)",
+  "ceiling": "4",
+  "ceiling_provisional": false,
+  "commander_role": "central",
+  "dependency": "high",
+  "per_commander_roles": null,
+  "evidence_class": "approved_decision",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/blueprint_reviews.json#mairsil-the-pretender"
+  ],
+  "scope": "Resolves this blueprint's ceiling and commander role. Not M2 acceptance; no list change."
  }
 }

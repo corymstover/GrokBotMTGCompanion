@@ -1,6 +1,6 @@
 # Blueprint — Tresserhorn's Lord, Returned
 
-> **Commander Blueprint v1** (seeded, Bot cycle 55, 2026-10-16) for the canonical project list ([deck page](../decks/tresserhorns-lord-returned.md), state `PENDING_RELEASE`, list `lh1:2d34a55fec543ac9…`). Machine-readable source: [`data/grixis/blueprints/tresserhorns-lord-returned.json`](../../data/grixis/blueprints/tresserhorns-lord-returned.json). Every claim carries its evidence class and confidence ([Grixis Authority Model](../Grixis%20Authority%20Model.md#evidence-classes)). Not reviewed by Cory unless the status says so.
+> **Commander Blueprint v1** (cory_reviewed, Bot cycle 55, 2026-10-16) for the canonical project list ([deck page](../decks/tresserhorns-lord-returned.md), state `PENDING_RELEASE`, list `lh1:2d34a55fec543ac9…`). Machine-readable source: [`data/grixis/blueprints/tresserhorns-lord-returned.json`](../../data/grixis/blueprints/tresserhorns-lord-returned.json). Every claim carries its evidence class and confidence ([Grixis Authority Model](../Grixis%20Authority%20Model.md#evidence-classes)). Not reviewed by Cory unless the status says so.
 
 ## Commander (Oracle, fact)
 
@@ -17,15 +17,15 @@
   - Evidence: [Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L13](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md) · [Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L50](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md) · [Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L54](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md) · [Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L60](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md)
 - **Commander role: central.** Tresserhorn is the card-draw engine for every sacrifice, a Zombie for Gravecrawler, and a 10-power threat. *strategic_judgment · high*
 - ⚠️ **Honest note:** Commander-native: 6 of the 21 Spellbook combos need him (The Locust God + an outlet + Tresserhorn), and he is the Zombie that lets Gravecrawler loop. The ETB gives an opponent three cards. Legality conflict for Cory: the source says the future-release exception is stale and the card is legal now (verification L48, L67; approvals L18), but the Scryfall cache used by the registry shows it not_legal (mbc, released 2026-10-19), and the Madcap Jester source gives 2026-11-13 for the same set. The registry keeps PENDING_RELEASE and the exception row; this blueprint changes neither.
-  - Evidence: [Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L54](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md) · [Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L48](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md) · [Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L67](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md) · [Tresserhorn_s_Lord_Returned_Approved_2026-10-15.md#L18](../source-archive/grixis-commander-encyclopediaGPT/refinement/approvals/Tresserhorn_s_Lord_Returned_Approved_2026-10-15.md) · `spellbook:1339-2292-7920`
-- **Dependency level:** high *strategic_judgment · high* — `spellbook:1339-2292-7920`
+  - Evidence: [Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L54](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md) · [Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L48](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md) · [Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L67](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md) · [Tresserhorn_s_Lord_Returned_Approved_2026-10-15.md#L18](../source-archive/grixis-commander-encyclopediaGPT/refinement/approvals/Tresserhorn_s_Lord_Returned_Approved_2026-10-15.md) · `spellbook:1339-2292-7920` · `registry:data/grixis/blueprint_reviews.json#tresserhorns-lord-returned`
+- **Dependency level:** high *strategic_judgment · high* — `spellbook:1339-2292-7920` · `registry:data/grixis/blueprint_reviews.json#tresserhorns-lord-returned`
 
 ## Power
 
 | Field | Value | Class | Evidence |
 |---|---|---|---|
 | Source ceiling | 4 (Power Bracket 4 — Optimized (recovered from the verification record; the registry's extractor found none).) | *fact · verified* | [Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L15](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md) |
-| GrokBot estimated ceiling | 4 (Bracket 4: many deterministic loops and high card throughput, but the ETB cost and the cards it gives away keep it below cEDH. Agrees with the recovered source ceiling. The registry bracket floor is 3 (fewer Game Changers); the expected bracket is 4.) | *strategic_judgment · high* | [Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L15](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md) · `spellbook:1339-2292-7920` |
+| GrokBot estimated ceiling | 4 (Bracket 4: many deterministic loops and high card throughput, but the ETB cost and the cards it gives away keep it below cEDH. Agrees with the recovered source ceiling. The registry bracket floor is 3 (fewer Game Changers); the expected bracket is 4.) | *strategic_judgment · high* | [Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L15](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md) · `spellbook:1339-2292-7920` · `registry:data/grixis/blueprint_reviews.json#tresserhorns-lord-returned` |
 | Expected bracket (list as built) | 4 (computed floor 3) | *strategic_judgment · high* | `companion:data/grixis_summary.json#Tresserhorn_s_Lord__Returned` |
 | Resolved ceiling | — (only Cory resolves) | | |
 | Disagreement | no | | |
@@ -96,7 +96,7 @@
 
 ## Project exceptions
 
-None.
+- **Authorized future-release project exception:** Tresserhorn's Lord, Returned. Project authorization `AUTHORIZED_FUTURE_RELEASE`; registry state `PENDING_RELEASE`. Official Commander legality, recorded separately: not legal until 2026-11-13 (Wizards: new-to-Magic MBC cards are legal from 2026-11-13).
 
 ## Construction-relevant rules
 
@@ -111,4 +111,6 @@ None.
 ## Provenance
 
 - Seeded from: [Tresserhorn_s_Lord_Returned_Candidate_Decisions_2026-10-15.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Tresserhorn_s_Lord_Returned_Candidate_Decisions_2026-10-15.md) · [Tresserhorn_s_Lord_Returned_Approved_2026-10-15.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/approvals/Tresserhorn_s_Lord_Returned_Approved_2026-10-15.md) · [Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md) · [Tresserhorn_s_Lord_Returned_Approved_2026-10-15.txt](../source-archive/grixis-commander-encyclopediaGPT/refinement/decklists/Tresserhorn_s_Lord_Returned_Approved_2026-10-15.txt)
-- Reviewed by: — (not yet reviewed by Cory)
+- Reviewed by: corymstover
+- **Cory's review (2026-10-16, chat t50u (2026-10-16T17:47Z, relayed)):** ceiling B4, commander role central, dependency high. Resolves this blueprint's ceiling and commander role. Not M2 acceptance; no list change. *approved_decision · verified*
+- **Correction (Bot cycle 62):** retracted Project exceptions section rendered 'None.' → The authorized future-release project exception(s) are recorded in project_exceptions.future_release, separately from official legality (Wizards: legal 2026-11-13). Registry state stays PENDING_RELEASE.
