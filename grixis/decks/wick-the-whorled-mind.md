@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -503,6 +504,17 @@ Next unlocked deck: **Zevlor, Elturel Exile — deck 62 of 62**.
 ### Further source evidence (linked, not copied)
 
 - [refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 56 interaction review: **6 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Wick, the Whorled Mind — Interaction Review](../interactions/wick-the-whorled-mind.md).
+
+- **Wick: create-or-grow Snail on Rat entry; the activation uses the Snail's last-known power** — One Snail grows with every Rat; sac it to Wick for power-sized damage to each opponent + draws. ([wick-01](../interactions/wick-the-whorled-mind.md#wick-01-wick-create-or-grow-snail-on-rat-entry-the-activation-uses-the-snails-last-known-power))
+- **Rat-typed Snails + free outlet: each Snail is a Rat that makes the next Snail** — Type-adders make Snails into Rats; sac in response and Wick re-makes it forever. ([wick-02](../interactions/wick-the-whorled-mind.md#wick-02-rat-typed-snails--free-outlet-each-snail-is-a-rat-that-makes-the-next-snail))
+- **Marrow-Gnawer + Intruder Alarm: infinite Rats (and infinite Snail growth)** — Arbitrarily many Rats → arbitrarily large Snail → Wick kills the table. ([wick-03](../interactions/wick-the-whorled-mind.md#wick-03-marrow-gnawer--intruder-alarm-infinite-rats-and-infinite-snail-growth))
+- **Tainted Strike: Wick's damage becomes poison** — Infect on Wick (the source) = power-sized poison to every opponent. ([wick-04](../interactions/wick-the-whorled-mind.md#wick-04-tainted-strike-wicks-damage-becomes-poison))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
