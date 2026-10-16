@@ -58,7 +58,7 @@
     "accepted_by": null,
     "accepted_date": null,
     "criteria_doc": "grixis/Grixis Authority Model.md#m2",
-    "pending_note": "Pending Cory's review of 8 blueprints: Parnesse, Sol'kanar the Swamp King, Bjorna/Cecily, Thraximundar, Tresserhorn's Lord Returned, The Madcap Jester, Wick, Mairsil (noted Bot cycle 62)."
+    "pending_note": "Cory completed the 8-blueprint sample review (chat t50u, 2026-10-16T17:47Z; Parnesse, Sol'kanar the Swamp King, Bjorna/Cecily, Thraximundar, Tresserhorn's Lord Returned, The Madcap Jester, Wick, Mairsil): the framework passes in principle, and his corrections were applied in Bot cycle 62 (per-blueprint cory_reviewed records in data/grixis/blueprint_reviews.json). M2 is NOT accepted and waits on Cory's explicit acceptance."
    },
    "M3": {
     "status": "accepted",
@@ -74,13 +74,15 @@
     "status": "in_progress",
     "accepted_by": null,
     "accepted_date": null,
-    "criteria_doc": "grixis/Grixis Authority Model.md#m4"
+    "criteria_doc": "grixis/Grixis Authority Model.md#m4",
+    "pending_note": "Built (graph + 99-slot audit) but stays unaccepted until the corrected M2 blueprint data (Bot cycle 62) has propagated into the regenerated graphs and audits and Cory has reviewed them (Cory, t49u/t50u). Not accepted."
    },
    "M5": {
     "status": "in_progress",
     "accepted_by": null,
     "accepted_date": null,
-    "criteria_doc": "grixis/Grixis Authority Model.md#m5"
+    "criteria_doc": "grixis/Grixis Authority Model.md#m5",
+    "pending_note": "Exploratory only (Cory, t49u): candidate universes, screening reviews and swap hypotheses are non-authoritative evidence. No list changes, no challengers promoted. Not accepted."
    },
    "M6": {
     "status": "not_started",

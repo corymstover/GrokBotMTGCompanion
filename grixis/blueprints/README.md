@@ -15,7 +15,7 @@
 - ✅ 62 blueprints validate against blueprint.schema.json and --check — 62/62 written
 - ✅ each names identity core (≥3), anti-goals, required packages with min counts, win conditions, failure modes (≥2), tutor targets, construction rules — 62/62 complete
 - ✅ each has grok_estimated_ceiling with evidence and a disagreement flag where it differs from the source — 62/62 estimated
-- ⏳ Cory has reviewed the sample he chooses (status cory_reviewed) — 0 reviewed
+- ✅ Cory has reviewed the sample he chooses (status cory_reviewed) — 8 reviewed
 - ⏳ Cory accepted M2 (registry program.milestones.M2) — in_progress
 
 ## Blueprints
@@ -29,7 +29,7 @@
 | [Ashad, the Lone Cyberman](ashad-the-lone-cyberman.md) | significant | medium | — | 4 | 3 | — | v1 seeded |
 | [Ashnod the Uncaring](ashnod-the-uncaring.md) | central | medium | 4 (recovered) | 4 | 4 | no | v1 seeded |
 | [Be'lakor, the Dark Master](belakor-the-dark-master.md) | central | high | — | 4 | 4 | — | v1 seeded |
-| [Bjorna, Nightfall Alchemist + Cecily, Haunted Mage](bjorna-nightfall-alchemist-cecily.md) | supporting | low | — | 4 | 4 | — | v1 seeded |
+| [Bjorna, Nightfall Alchemist + Cecily, Haunted Mage](bjorna-nightfall-alchemist-cecily.md) | supporting | low | — | 4 | 4 | — | v1 cory_reviewed |
 | [Cormela, Glamour Thief](cormela-glamour-thief.md) | central | medium | 5 (recovered) | 5 | 5 | no | v1 seeded |
 | [Crosis, the Purger](crosis-the-purger.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
 | [Cult of Skaro](cult-of-skaro.md) | central | high | 4 | 4 | 3 | no | v1 seeded |
@@ -54,7 +54,7 @@
 | [Lord Xander, the Collector](lord-xander-the-collector.md) | central | medium | 4 | 4 | 4 | no | v1 seeded |
 | [Lynde, Cheerful Tormentor](lynde-cheerful-tormentor.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
 | [Mai and Zuko](mai-and-zuko.md) | significant | low | 4 | 4 | 4 | no | v1 seeded |
-| [Mairsil, the Pretender](mairsil-the-pretender.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
+| [Mairsil, the Pretender](mairsil-the-pretender.md) | central | high | 4 | 4 | 4 | no | v1 cory_reviewed |
 | [Marchesa, Dealer of Death](marchesa-dealer-of-death.md) | significant | low | 5 | 5 | 5 | no | v1 seeded |
 | [Marchesa, the Black Rose](marchesa-the-black-rose.md) | significant | low | 4 | 4 | 4 | no | v1 seeded |
 | [Mishra, Artificer Prodigy](mishra-artificer-prodigy.md) | central | high | 5 | 5 | 5 | no | v1 seeded |
@@ -67,22 +67,22 @@
 | [Norman Osborn // Green Goblin](norman-osborn.md) | significant | low | 5 | 5 | 5 | no | v1 seeded |
 | [Obeka, Brute Chronologist](obeka-brute-chronologist.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
 | [Obeka, Splitter of Seconds](obeka-splitter-of-seconds.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
-| [Parnesse, the Subtle Brush](parnesse-the-subtle-brush.md) | supporting | low | 4 | 4 | 4 | no | v1 seeded |
+| [Parnesse, the Subtle Brush](parnesse-the-subtle-brush.md) | supporting | low | 4 | 4 | 4 | no | v1 cory_reviewed |
 | [Rograkh, Son of Rohgahh + Silas Renn, Seeker Adept](rograkh-son-of-rohgahh-silas-renn.md) | significant | low | 5 | 5 | 5 | no | v1 seeded |
 | [Saruman, the White Hand](saruman-the-white-hand.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
 | [Sauron, Lord of the Rings](sauron-lord-of-the-rings.md) | central | medium | 4 | 4 | 4 | no | v1 seeded |
 | [Sauron, the Dark Lord](sauron-the-dark-lord.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
 | [Sedris, the Traitor King](sedris-the-traitor-king.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
-| [Sol'kanar the Swamp King](solkanar-the-swamp-king.md) | supporting | low | 4 | 4 | 4 | no | v1 seeded |
+| [Sol'kanar the Swamp King](solkanar-the-swamp-king.md) | supporting | low | 4 | 4 | 4 | no | v1 cory_reviewed |
 | [Sol'Kanar the Tainted](solkanar-the-tainted.md) | significant | medium | 4 | 4 | 4 | no | v1 seeded |
 | [Tetsuo, Imperial Champion](tetsuo-imperial-champion.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
 | [Tetsuo Umezawa](tetsuo-umezawa.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
-| [The Madcap Jester](the-madcap-jester.md) | significant | low | 5 | 5 | 5 | no | v1 seeded |
+| [The Madcap Jester](the-madcap-jester.md) | significant | low | 5 | 5 | 5 | no | v1 cory_reviewed |
 | [The Rani](the-rani.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
 | [The Valeyard](the-valeyard.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
-| [Thraximundar](thraximundar.md) | significant | medium | 4 | 4 | 4 | no | v1 seeded |
-| [Tresserhorn's Lord, Returned](tresserhorns-lord-returned.md) | central | high | 4 (recovered) | 4 | 4 | no | v1 seeded |
-| [Wick, the Whorled Mind](wick-the-whorled-mind.md) | central | total | 4 | 4 | 4 | no | v1 seeded |
+| [Thraximundar](thraximundar.md) | significant | medium | 4 | 4 | 4 | no | v1 cory_reviewed |
+| [Tresserhorn's Lord, Returned](tresserhorns-lord-returned.md) | central | high | 4 (recovered) | 4 | 4 | no | v1 cory_reviewed |
+| [Wick, the Whorled Mind](wick-the-whorled-mind.md) | central | total | 4 | 4 | 4 | no | v1 cory_reviewed |
 | [Zevlor, Elturel Exile](zevlor-elturel-exile.md) | central | high | 4 | 4 | 4 | no | v1 seeded |
 
 Not written yet (0): none.

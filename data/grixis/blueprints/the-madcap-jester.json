@@ -3,7 +3,7 @@
  "deck_id": "The_Madcap_Jester",
  "slug": "the-madcap-jester",
  "version": 1,
- "status": "seeded",
+ "status": "cory_reviewed",
  "cycle": 55,
  "date": "2026-10-16",
  "canonical_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
@@ -47,7 +47,8 @@
    "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L27",
    "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L28",
    "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L57",
-   "spellbook:742-1295"
+   "spellbook:742-1295",
+   "registry:data/grixis/blueprint_reviews.json#the-madcap-jester"
   ]
  },
  "win_conditions": [
@@ -409,16 +410,31 @@
    ]
   },
   {
-   "id": "oracle-hate",
-   "description": "Stax and graveyard hate stop the Oracle and Breach lines.",
+   "id": "graveyard-hate",
+   "description": "Graveyard hate disrupts the Underworld Breach line but doesn't stop Thassa's Oracle + Demonic Consultation / Tainted Pact.",
    "mitigations": [
-    "Two separate lines",
+    "Oracle + Consultation / Tainted Pact still wins",
     "Free counters"
    ],
    "evidence_class": "strategic_judgment",
    "confidence": "high",
    "evidence": [
-    "spellbook:742-1295"
+    "spellbook:742-1295",
+    "registry:data/grixis/blueprint_reviews.json#the-madcap-jester"
+   ]
+  },
+  {
+   "id": "oracle-line-hate",
+   "description": "Stax, ETB-trigger hate and counters stop the Oracle + Consultation / Tainted Pact line; graveyard hate alone does not.",
+   "mitigations": [
+    "Breach line as a second route",
+    "Free counters"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:742-1295",
+    "registry:data/grixis/blueprint_reviews.json#the-madcap-jester"
    ]
   },
   {
@@ -439,7 +455,8 @@
   "evidence_class": "strategic_judgment",
   "confidence": "high",
   "evidence": [
-   "spellbook:742-1295"
+   "spellbook:742-1295",
+   "registry:data/grixis/blueprint_reviews.json#the-madcap-jester"
   ]
  },
  "power": {
@@ -464,7 +481,8 @@
    "evidence": [
     "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L13",
     "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L50",
-    "spellbook:742-1295"
+    "spellbook:742-1295",
+    "registry:data/grixis/blueprint_reviews.json#the-madcap-jester"
    ]
   },
   "expected_bracket": {
@@ -506,6 +524,24 @@
   "confidence": "verified",
   "evidence": [
    "registry:data/grixis/exceptions.json"
+  ],
+  "future_release": [
+   {
+    "card": "The Madcap Jester",
+    "legal_from": "2026-11-13",
+    "official_commander_legality": "not legal until 2026-11-13 (Wizards: new-to-Magic MBC cards are legal from 2026-11-13)",
+    "project_authorization": "AUTHORIZED_FUTURE_RELEASE",
+    "registry_state": "PENDING_RELEASE",
+    "ref": "registry:data/grixis/exceptions.json#exc:the-madcap-jester:the-madcap-jester"
+   },
+   {
+    "card": "Dragon's Smile",
+    "legal_from": "2026-11-13",
+    "official_commander_legality": "not legal until 2026-11-13 (Wizards: new-to-Magic MBC cards are legal from 2026-11-13)",
+    "project_authorization": "AUTHORIZED_FUTURE_RELEASE",
+    "registry_state": "PENDING_RELEASE",
+    "ref": "registry:data/grixis/exceptions.json#exc:the-madcap-jester:dragon-s-smile"
+   }
   ]
  },
  "identity_core": [
@@ -516,24 +552,6 @@
    "confidence": "verified",
    "evidence": [
     "oracle:The Madcap Jester"
-   ]
-  },
-  {
-   "card": "Thassa's Oracle",
-   "why": "Compact win.",
-   "evidence_class": "strategic_judgment",
-   "confidence": "high",
-   "evidence": [
-    "spellbook:742-1295"
-   ]
-  },
-  {
-   "card": "Underworld Breach",
-   "why": "Second compact win.",
-   "evidence_class": "strategic_judgment",
-   "confidence": "high",
-   "evidence": [
-    "spellbook:1368-3518-4856"
    ]
   },
   {
@@ -642,7 +660,65 @@
    "source_archive:refinement/verification/The_Madcap_Jester_Whole_List_Audit_2026-10-15.md",
    "source_archive:refinement/decklists/The_Madcap_Jester_Approved_2026-10-15.txt"
   ],
-  "reviewed_by": null,
-  "author": "GrokBot (Bot cycle 55)"
- }
+  "reviewed_by": "corymstover",
+  "author": "GrokBot (Bot cycle 55)",
+  "corrections": [
+   {
+    "cycle": "Bot cycle 62",
+    "retracted": "Project exceptions section rendered 'None.'",
+    "correction": "The authorized future-release project exception(s) are recorded in project_exceptions.future_release, separately from official legality (Wizards: legal 2026-11-13). Registry state stays PENDING_RELEASE.",
+    "requested_by": "corymstover (blueprint review t50u, 2026-10-16T17:47Z, relayed)"
+   },
+   {
+    "cycle": "Bot cycle 62",
+    "retracted": "failure_modes oracle-hate 'Stax and graveyard hate stop the Oracle and Breach lines'",
+    "correction": "Split: graveyard hate disrupts Breach but not Oracle + Consultation/Tainted Pact (graveyard-hate); Oracle-line hate is separate (oracle-line-hate).",
+    "requested_by": "corymstover (blueprint review t50u, 2026-10-16T17:47Z, relayed)"
+   },
+   {
+    "cycle": "Bot cycle 62",
+    "retracted": "identity_core listed generic compact wins: Thassa's Oracle, Underworld Breach",
+    "correction": "Moved to power_core (compact-win / power core). They are generic Grixis compact wins, not commander identity (Cory review t50u, applied to every blueprint).",
+    "requested_by": "corymstover (blueprint review t50u, 2026-10-16T17:47Z, relayed)"
+   }
+  ],
+  "reviewed_date": "2026-10-16",
+  "review_ref": "registry:data/grixis/blueprint_reviews.json#the-madcap-jester"
+ },
+ "cory_review": {
+  "by": "corymstover",
+  "date": "2026-10-16",
+  "ref": "chat t50u (2026-10-16T17:47Z, relayed)",
+  "ceiling": "5",
+  "ceiling_provisional": true,
+  "commander_role": "significant",
+  "dependency": "low",
+  "per_commander_roles": null,
+  "evidence_class": "approved_decision",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/blueprint_reviews.json#the-madcap-jester"
+  ],
+  "scope": "Resolves this blueprint's ceiling and commander role. Not M2 acceptance; no list change."
+ },
+ "power_core": [
+  {
+   "card": "Thassa's Oracle",
+   "why": "Compact win.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:742-1295"
+   ]
+  },
+  {
+   "card": "Underworld Breach",
+   "why": "Second compact win.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1368-3518-4856"
+   ]
+  }
+ ]
 }

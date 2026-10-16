@@ -112,3 +112,4 @@ None.
 
 - Seeded from: [Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md) · [Evelyn_the_Covetous_Approved_2026-10-14.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/approvals/Evelyn_the_Covetous_Approved_2026-10-14.md) · [Evelyn_the_Covetous_Approved_2026-10-14.txt](../source-archive/grixis-commander-encyclopediaGPT/refinement/decklists/Evelyn_the_Covetous_Approved_2026-10-14.txt)
 - Reviewed by: — (not yet reviewed by Cory)
+- **Correction (Bot cycle 62):** retracted requirements.mana '3-mana flash commander' → Evelyn, the Covetous {2}{U/B}{B}{B/R} is mana value 5 (cache cmc 5); found by the cycle-62 MV rule.

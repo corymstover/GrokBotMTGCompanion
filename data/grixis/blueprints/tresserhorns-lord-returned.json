@@ -3,7 +3,7 @@
  "deck_id": "Tresserhorn_s_Lord__Returned",
  "slug": "tresserhorns-lord-returned",
  "version": 1,
- "status": "seeded",
+ "status": "cory_reviewed",
  "cycle": 55,
  "date": "2026-10-16",
  "canonical_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
@@ -50,7 +50,8 @@
    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L48",
    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L67",
    "source_archive:refinement/approvals/Tresserhorn_s_Lord_Returned_Approved_2026-10-15.md#L18",
-   "spellbook:1339-2292-7920"
+   "spellbook:1339-2292-7920",
+   "registry:data/grixis/blueprint_reviews.json#tresserhorns-lord-returned"
   ]
  },
  "win_conditions": [
@@ -418,7 +419,8 @@
   "evidence_class": "strategic_judgment",
   "confidence": "high",
   "evidence": [
-   "spellbook:1339-2292-7920"
+   "spellbook:1339-2292-7920",
+   "registry:data/grixis/blueprint_reviews.json#tresserhorns-lord-returned"
   ]
  },
  "power": {
@@ -442,7 +444,8 @@
    "confidence": "high",
    "evidence": [
     "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L15",
-    "spellbook:1339-2292-7920"
+    "spellbook:1339-2292-7920",
+    "registry:data/grixis/blueprint_reviews.json#tresserhorns-lord-returned"
    ]
   },
   "expected_bracket": {
@@ -483,6 +486,16 @@
   "confidence": "verified",
   "evidence": [
    "registry:data/grixis/exceptions.json"
+  ],
+  "future_release": [
+   {
+    "card": "Tresserhorn's Lord, Returned",
+    "legal_from": "2026-11-13",
+    "official_commander_legality": "not legal until 2026-11-13 (Wizards: new-to-Magic MBC cards are legal from 2026-11-13)",
+    "project_authorization": "AUTHORIZED_FUTURE_RELEASE",
+    "registry_state": "PENDING_RELEASE",
+    "ref": "registry:data/grixis/exceptions.json#exc:tresserhorns-lord-returned:tresserhorn-s-lord-returned"
+   }
   ]
  },
  "identity_core": [
@@ -618,7 +631,33 @@
    "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md",
    "source_archive:refinement/decklists/Tresserhorn_s_Lord_Returned_Approved_2026-10-15.txt"
   ],
-  "reviewed_by": null,
-  "author": "GrokBot (Bot cycle 55)"
+  "reviewed_by": "corymstover",
+  "author": "GrokBot (Bot cycle 55)",
+  "corrections": [
+   {
+    "cycle": "Bot cycle 62",
+    "retracted": "Project exceptions section rendered 'None.'",
+    "correction": "The authorized future-release project exception(s) are recorded in project_exceptions.future_release, separately from official legality (Wizards: legal 2026-11-13). Registry state stays PENDING_RELEASE.",
+    "requested_by": "corymstover (blueprint review t50u, 2026-10-16T17:47Z, relayed)"
+   }
+  ],
+  "reviewed_date": "2026-10-16",
+  "review_ref": "registry:data/grixis/blueprint_reviews.json#tresserhorns-lord-returned"
+ },
+ "cory_review": {
+  "by": "corymstover",
+  "date": "2026-10-16",
+  "ref": "chat t50u (2026-10-16T17:47Z, relayed)",
+  "ceiling": "4",
+  "ceiling_provisional": false,
+  "commander_role": "central",
+  "dependency": "high",
+  "per_commander_roles": null,
+  "evidence_class": "approved_decision",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/blueprint_reviews.json#tresserhorns-lord-returned"
+  ],
+  "scope": "Resolves this blueprint's ceiling and commander role. Not M2 acceptance; no list change."
  }
 }

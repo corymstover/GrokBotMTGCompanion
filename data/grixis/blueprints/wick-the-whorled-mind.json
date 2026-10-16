@@ -3,7 +3,7 @@
  "deck_id": "Wick__the_Whorled_Mind",
  "slug": "wick-the-whorled-mind",
  "version": 1,
- "status": "seeded",
+ "status": "cory_reviewed",
  "cycle": 55,
  "date": "2026-10-16",
  "canonical_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
@@ -49,7 +49,8 @@
   "evidence": [
    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L56",
    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md#L64",
-   "spellbook:4050-5853-5929"
+   "spellbook:4050-5853-5929",
+   "registry:data/grixis/blueprint_reviews.json#wick-the-whorled-mind"
   ]
  },
  "win_conditions": [
@@ -424,7 +425,8 @@
   "evidence_class": "strategic_judgment",
   "confidence": "high",
   "evidence": [
-   "spellbook:4050-5853-5929"
+   "spellbook:4050-5853-5929",
+   "registry:data/grixis/blueprint_reviews.json#wick-the-whorled-mind"
   ]
  },
  "power": {
@@ -448,7 +450,8 @@
    "confidence": "high",
    "evidence": [
     "source_archive:refinement/decisions/Wick_the_Whorled_Mind_Candidate_Decisions_2026-10-15.md#L139",
-    "spellbook:803-4050-5853"
+    "spellbook:803-4050-5853",
+    "registry:data/grixis/blueprint_reviews.json#wick-the-whorled-mind"
    ]
   },
   "expected_bracket": {
@@ -629,7 +632,25 @@
    "source_archive:refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md",
    "source_archive:refinement/decklists/Wick_the_Whorled_Mind_Approved_2026-10-15.txt"
   ],
-  "reviewed_by": null,
-  "author": "GrokBot (Bot cycle 55)"
+  "reviewed_by": "corymstover",
+  "author": "GrokBot (Bot cycle 55)",
+  "reviewed_date": "2026-10-16",
+  "review_ref": "registry:data/grixis/blueprint_reviews.json#wick-the-whorled-mind"
+ },
+ "cory_review": {
+  "by": "corymstover",
+  "date": "2026-10-16",
+  "ref": "chat t50u (2026-10-16T17:47Z, relayed)",
+  "ceiling": "4",
+  "ceiling_provisional": false,
+  "commander_role": "central",
+  "dependency": "total",
+  "per_commander_roles": null,
+  "evidence_class": "approved_decision",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/blueprint_reviews.json#wick-the-whorled-mind"
+  ],
+  "scope": "Resolves this blueprint's ceiling and commander role. Not M2 acceptance; no list change."
  }
 }

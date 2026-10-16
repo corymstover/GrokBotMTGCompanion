@@ -1,0 +1,110 @@
+{
+ "schema_version": 1,
+ "cycle": "Bot cycle 62",
+ "note": "Post-acceptance corrections to M1 interaction records (M1 accepted 2026-10-16T17:39Z). The interaction files under data/grixis_interactions/ are owned by the interaction executor and are not edited here; this overlay records the corrected status, ruling and derivation, and grixis_graph.py applies it on ingest. Correcting a record does not reopen M1.",
+ "corrections": [
+  {
+   "id": "parnesse-10",
+   "slug": "parnesse-the-subtle-brush",
+   "original_status": "uncertain",
+   "original_evidence_class": "hypothesis",
+   "corrected_status": "verified",
+   "evidence_class": "approved_decision",
+   "confidence": "verified",
+   "source": "Cory review + derivation",
+   "decided_by": "corymstover",
+   "date": "2026-10-16",
+   "decision_ref": "chat t50u (2026-10-16T17:47Z, relayed by MTG Bot)",
+   "human_ruling": "Cory's ruling (approved_decision), confirmed by the CR derivation below; there is no official Gatherer ruling for Parnesse.",
+   "ruling": "An opponent who makes the copy Parnesse offers controls that copy. If they choose Cory (Parnesse's controller) or a permanent he controls as a new target, Parnesse's first ability triggers and that opponent must pay 4 life or the copy is countered.",
+   "derivation": [
+    {
+     "step": "The offered copy is put on the stack under the opponent's control, so the opponent controls it.",
+     "cr": "707.10",
+     "quote": "To copy a spell, activated ability, or triggered ability means to put a copy of it onto the stack; a copy of a spell isn’t cast and a copy of an activated ability isn’t activated. A copy of a spell or ability copies both the characteristics of the spell or ability and all decisions made for it, including modes, targets, the value of X, and additional or alternative costs. (See rule 601, “Casting Spells.”) Choices that are normally made on resolution are not copied. If an effect of the copy refers to objects used to pay its costs, it uses the objects used to pay the costs of the original spell or ability. A copy of a spell is owned by the player under whose control it was put on the stack. A copy of a spell or ability is controlled by the player under whose control it was put on the stack. A copy of a spell is itself a spell, even though it has no spell card associated with it. A copy of an ability is itself an ability."
+    },
+    {
+     "step": "A spell's controller is by default the player who put it on the stack; a copy is owned by that player too.",
+     "cr": "112.2",
+     "quote": "A spell’s owner is the same as the owner of the card that represents it, unless it’s a copy. In that case, the owner of the spell is the player under whose control it was put on the stack. A spell’s controller is, by default, the player who put it on the stack. Every spell has a controller."
+    },
+    {
+     "step": "The opponent may choose new targets; once chosen, the copy is put onto the stack with those targets, so Cory or his permanent becomes the target of a spell an opponent controls.",
+     "cr": "707.10c",
+     "quote": "Some effects copy a spell or ability and state that its controller may choose new targets for the copy. The player may leave any number of the targets unchanged, even if those targets would be illegal. If the player chooses to change some or all of the targets, the new targets must be legal. Once the player has decided what the copy’s targets will be, the copy is put onto the stack with those targets."
+    },
+    {
+     "step": "Parnesse's first ability triggers on that event (Oracle: 'Whenever you or a permanent you control becomes the target of a spell or ability an opponent controls, counter that spell or ability unless that player pays 4 life.').",
+     "cr": "603.2",
+     "quote": "Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point."
+    },
+    {
+     "step": "Same structure as ward, which triggers on retargeted copies an opponent controls.",
+     "cr": "702.21a",
+     "quote": "Ward is a triggered ability. Ward [cost] means “Whenever this permanent becomes the target of a spell or ability an opponent controls, counter that spell or ability unless that player pays [cost].”"
+    },
+    {
+     "step": "If the opponent doesn't pay, the copy is countered.",
+     "cr": "701.6a",
+     "quote": "To counter a spell or ability means to cancel it, removing it from the stack. It doesn’t resolve and none of its effects occur. A countered spell is put into its owner’s graveyard."
+    }
+   ],
+   "cr": [
+    "707.10",
+    "112.2",
+    "707.10c",
+    "603.2",
+    "702.21a",
+    "701.6a"
+   ]
+  },
+  {
+   "id": "mairsil-10",
+   "slug": "mairsil-the-pretender",
+   "original_status": "uncertain",
+   "original_evidence_class": "hypothesis",
+   "corrected_status": "resolved_hypothesis_incorrect",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "source": "Cory review + derivation (CR 113.10a)",
+   "decided_by": null,
+   "date": "2026-10-16",
+   "decision_ref": "chat t50u (2026-10-16T17:47Z, relayed): Cory asked for a formal re-evaluation under CR 113.10a",
+   "human_ruling": "Cory flagged that the hypothesis looks wrong under CR 113.10a. This is GrokBot's documented CR derivation, not an official ruling, so confidence is high, not verified.",
+   "ruling": "Mairsil's 'You may activate each of those abilities only once each turn' is an activation instruction from the effect that adds the caged abilities. By CR 113.10a it becomes part of each added ability. Marvin, Murderous Mimic gains those activated abilities as they exist on Mairsil, restriction included, so each of Marvin's instances is also once each turn (per object, CR 602.5b / 113.2c). The source hypothesis that Marvin gets them without the restriction (and so an untap loop with no Quicksilver Elemental) is incorrect. Marvin is a second, parallel once-per-turn activation, not an unbounded engine.",
+   "derivation": [
+    {
+     "step": "Mairsil's Oracle: 'Mairsil has all activated abilities of all cards you own in exile with cage counters on them. You may activate each of those abilities only once each turn.' The second sentence is an activation instruction attached by the ability-adding effect.",
+     "cr": "113.10a",
+     "quote": "An effect that adds an activated ability may include activation instructions for that ability. These instructions become part of the ability that’s added to the object."
+    },
+    {
+     "step": "Activation instructions are part of an activated ability's text ('[Cost]: [Effect.] [Activation instructions (if any).]').",
+     "cr": "113.3b",
+     "quote": "Activated abilities have a cost and an effect. They are written as “[Cost]: [Effect.] [Activation instructions (if any).]” A player may activate such an ability whenever they have priority. Doing so puts it on the stack, where it remains until it’s countered, it resolves, or it otherwise leaves the stack. See rule 602, “Activating Activated Abilities.”"
+    },
+    {
+     "step": "So the ability Mairsil has is '[cost]: [effect]. Activate only once each turn.' Marvin ('has all activated abilities of creatures you control…') gains that ability, instruction included. Marvin's ruling confirms it gains only activated abilities, and the restriction is not a separate static ability it fails to copy, because it is part of the activated ability.",
+     "cr": "113.10a",
+     "quote": "An effect that adds an activated ability may include activation instructions for that ability. These instructions become part of the ability that’s added to the object."
+    },
+    {
+     "step": "Each instance on a different object functions independently, so Marvin's copy is limited once each turn on Marvin, separately from Mairsil's.",
+     "cr": "113.2c",
+     "quote": "An object may have multiple abilities. If the object is represented by a card, then aside from certain defined abilities that may be strung together on a single line (see rule 702, “Keyword Abilities”), each paragraph break in a card’s text marks a separate ability. If the object is not represented by a card, the effect that created it may have given it multiple abilities. An object may also be granted additional abilities by a spell or ability. If an object has multiple instances of the same ability, each instance functions independently. This may or may not produce more effects than a single instance; refer to the specific ability for more information."
+    },
+    {
+     "step": "Use restrictions stay with the object's ability.",
+     "cr": "602.5b",
+     "quote": "If an activated ability has a restriction on its use (for example, “Activate only once each turn”), the restriction continues to apply to that object even if its controller changes."
+    }
+   ],
+   "cr": [
+    "113.10a",
+    "113.3b",
+    "113.2c",
+    "602.5b"
+   ]
+  }
+ ]
+}

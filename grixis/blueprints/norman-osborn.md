@@ -89,6 +89,9 @@
 - **Norman Osborn // Green Goblin:** Unblockable connive, then mayhem and cost reduction. *fact · verified* — `oracle:Norman Osborn // Green Goblin`
 - **Faithless Looting:** Cheap discard into mayhem. *strategic_judgment · high* — [Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L22](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md)
 - **Borne Upon a Wind:** Flash for mayhem casts. *strategic_judgment · high* — [Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L24](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md)
+
+## Power core (compact wins, not identity)
+
 - **Grinding Station:** Breach engine piece. *strategic_judgment · high* — [Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md#L193](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md)
 - **Thassa's Oracle:** Compact win. *strategic_judgment · high* — `spellbook:1295-3093`
 
@@ -119,3 +122,4 @@ None.
 
 - Seeded from: [Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md) · [Norman_Osborn_Green_Goblin_Candidate_Decisions_2026-10-15.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Norman_Osborn_Green_Goblin_Candidate_Decisions_2026-10-15.md) · [Norman_Osborn_Green_Goblin_Approved_2026-10-15.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/approvals/Norman_Osborn_Green_Goblin_Approved_2026-10-15.md) · [Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md) · [Norman_Osborn_Green_Goblin_Whole_List_Audit_2026-10-15.md](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Norman_Osborn_Green_Goblin_Whole_List_Audit_2026-10-15.md) · [Norman_Osborn_Green_Goblin_Approved_2026-10-15.txt](../source-archive/grixis-commander-encyclopediaGPT/refinement/decklists/Norman_Osborn_Green_Goblin_Approved_2026-10-15.txt)
 - Reviewed by: — (not yet reviewed by Cory)
+- **Correction (Bot cycle 62):** retracted identity_core listed generic compact wins: Grinding Station, Thassa's Oracle → Moved to power_core (compact-win / power core). They are generic Grixis compact wins, not commander identity (Cory review t50u, applied to every blueprint).

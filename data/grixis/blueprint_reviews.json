@@ -1,0 +1,111 @@
+{
+ "schema_version": 1,
+ "cycle": "Bot cycle 62",
+ "reviewer": "corymstover",
+ "date": "2026-10-16",
+ "reviewed_at": "2026-10-16T17:47Z",
+ "evidence": "In-chat blueprint sample review by Cory (message t50u, 2026-10-16T17:47Z), relayed to the executor by MTG Bot; recorded in Bot cycle 62.",
+ "scope": "Per-blueprint review records for the 8 sampled blueprints. They resolve each blueprint's ceiling and commander role. This is NOT M2 or M4 acceptance, approves no deck list, and promotes no challenger. Cory: the M2 framework passes in principle.",
+ "reviews": [
+  {
+   "slug": "parnesse-the-subtle-brush",
+   "deck": "Parnesse",
+   "ceiling": "4",
+   "ceiling_provisional": false,
+   "commander_role": "supporting",
+   "dependency": "low",
+   "per_commander_roles": null,
+   "corrections_applied": [
+    "win_conditions dualcaster-tech 'infinite hasty tokens'",
+    "key_interactions retargeted-copy-tax 'Unresolved (M1 uncertain)' / test_required"
+   ]
+  },
+  {
+   "slug": "solkanar-the-swamp-king",
+   "deck": "Sol'kanar the Swamp King",
+   "ceiling": "4",
+   "ceiling_provisional": false,
+   "commander_role": "supporting",
+   "dependency": "low",
+   "per_commander_roles": null,
+   "corrections_applied": [
+    "Aetherflux Reservoir listed as a drain-on-gain half of the Exquisite Blood / Bloodthirsty Conqueror loops (win_conditions life-loops, pkg:life-loop)"
+   ]
+  },
+  {
+   "slug": "bjorna-nightfall-alchemist-cecily",
+   "deck": "Bjorna/Cecily",
+   "ceiling": "4",
+   "ceiling_provisional": false,
+   "commander_role": "supporting",
+   "dependency": "low",
+   "per_commander_roles": {
+    "Cecily, Haunted Mage": "significant",
+    "Bjorna, Nightfall Alchemist": "supporting/incidental",
+    "pair": "supporting"
+   },
+   "corrections_applied": [
+    "plan.secondary 'clearing Cecily's way', failure-mode mitigation 'Bjorna goads blockers', identity_core 'goads one blocker'"
+   ]
+  },
+  {
+   "slug": "thraximundar",
+   "deck": "Thraximundar",
+   "ceiling": "4",
+   "ceiling_provisional": false,
+   "commander_role": "significant",
+   "dependency": "medium",
+   "per_commander_roles": null,
+   "corrections_applied": [
+    "GrokBot's cycle-55 claim 'mana-value-six' (Thraximundar is mana value 6) and the 'source error flagged' note in commander_role.honest_note, plus 'six-mana comma"
+   ]
+  },
+  {
+   "slug": "tresserhorns-lord-returned",
+   "deck": "Tresserhorn's Lord, Returned",
+   "ceiling": "4",
+   "ceiling_provisional": false,
+   "commander_role": "central",
+   "dependency": "high",
+   "per_commander_roles": null,
+   "corrections_applied": [
+    "Project exceptions section rendered 'None.'"
+   ]
+  },
+  {
+   "slug": "the-madcap-jester",
+   "deck": "The Madcap Jester",
+   "ceiling": "5",
+   "ceiling_provisional": true,
+   "commander_role": "significant",
+   "dependency": "low",
+   "per_commander_roles": null,
+   "corrections_applied": [
+    "Project exceptions section rendered 'None.'",
+    "failure_modes oracle-hate 'Stax and graveyard hate stop the Oracle and Breach lines'"
+   ]
+  },
+  {
+   "slug": "wick-the-whorled-mind",
+   "deck": "Wick",
+   "ceiling": "4",
+   "ceiling_provisional": false,
+   "commander_role": "central",
+   "dependency": "total",
+   "per_commander_roles": null,
+   "corrections_applied": []
+  },
+  {
+   "slug": "mairsil-the-pretender",
+   "deck": "Mairsil",
+   "ceiling": "4",
+   "ceiling_provisional": false,
+   "commander_role": "central",
+   "dependency": "high",
+   "per_commander_roles": null,
+   "corrections_applied": [
+    "key_interactions marvin 'gains Mairsil's acquired activated abilities without the once-per-turn static' (test_required)"
+   ]
+  }
+ ]
+}

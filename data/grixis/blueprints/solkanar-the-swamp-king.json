@@ -3,7 +3,7 @@
  "deck_id": "Sol_kanar_the_Swamp_King",
  "slug": "solkanar-the-swamp-king",
  "version": 1,
- "status": "seeded",
+ "status": "cory_reviewed",
  "cycle": 55,
  "date": "2026-10-16",
  "canonical_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
@@ -50,22 +50,22 @@
   "evidence": [
    "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L26",
    "source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L22",
-   "spellbook:110-3966"
+   "spellbook:110-3966",
+   "registry:data/grixis/blueprint_reviews.json#solkanar-the-swamp-king"
   ]
  },
  "win_conditions": [
   {
    "id": "life-loops",
    "kind": "combo",
-   "description": "Exquisite Blood or Bloodthirsty Conqueror plus a drain-on-gain payoff loops until opponents die.",
+   "description": "Exquisite Blood or Bloodthirsty Conqueror plus a drain-on-gain payoff (Vito, Marauding Blight-Priest, Enduring Tenacity, Starscape Cleric) loops until opponents die.",
    "cards": [
     "Exquisite Blood",
     "Bloodthirsty Conqueror",
     "Vito, Thorn of the Dusk Rose",
     "Marauding Blight-Priest",
     "Enduring Tenacity",
-    "Starscape Cleric",
-    "Aetherflux Reservoir"
+    "Starscape Cleric"
    ],
    "enablers": [
     "Sol'kanar the Swamp King",
@@ -75,8 +75,28 @@
    "confidence": "high",
    "evidence": [
     "spellbook:110-3966",
-    "spellbook:3966-4740",
     "source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L25"
+   ]
+  },
+  {
+   "id": "reservoir-activation",
+   "kind": "combo",
+   "description": "Aetherflux Reservoir is a lifegain enabler and an independent payoff, not a drain-on-gain loop half. With Exquisite Blood or Bloodthirsty Conqueror at 51+ life, each 'pay 50 life: 50 damage' activation gives the 50 life back (Spellbook 3966-4740), which is a repeated-activation kill, not a Vito-style loop.",
+   "cards": [
+    "Aetherflux Reservoir",
+    "Exquisite Blood",
+    "Bloodthirsty Conqueror"
+   ],
+   "enablers": [
+    "Sol'kanar the Swamp King",
+    "Demon's Horn"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:3966-4740",
+    "oracle:Aetherflux Reservoir",
+    "registry:data/grixis/blueprint_reviews.json#solkanar-the-swamp-king"
    ]
   },
   {
@@ -178,15 +198,14 @@
    "id": "pkg:life-loop",
    "required": true,
    "min_count": 5,
-   "role": "Redundant two-card loops.",
+   "role": "Redundant two-card drain-on-gain loops (Aetherflux Reservoir is modelled separately as an enabler/payoff).",
    "cards": [
     "Exquisite Blood",
     "Bloodthirsty Conqueror",
     "Vito, Thorn of the Dusk Rose",
     "Marauding Blight-Priest",
     "Enduring Tenacity",
-    "Starscape Cleric",
-    "Aetherflux Reservoir"
+    "Starscape Cleric"
    ],
    "candidates": [],
    "evidence_class": "strategic_judgment",
@@ -416,7 +435,8 @@
   "evidence_class": "strategic_judgment",
   "confidence": "high",
   "evidence": [
-   "spellbook:110-3966"
+   "spellbook:110-3966",
+   "registry:data/grixis/blueprint_reviews.json#solkanar-the-swamp-king"
   ]
  },
  "power": {
@@ -440,7 +460,8 @@
    "confidence": "high",
    "evidence": [
     "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L26",
-    "spellbook:110-3966"
+    "spellbook:110-3966",
+    "registry:data/grixis/blueprint_reviews.json#solkanar-the-swamp-king"
    ]
   },
   "expected_bracket": {
@@ -618,7 +639,33 @@
    "source_archive:refinement/verification/Solkanar_the_Swamp_King_Whole_List_Audit_2026-10-15.md",
    "source_archive:refinement/decklists/Solkanar_the_Swamp_King_Approved_2026-10-15.txt"
   ],
-  "reviewed_by": null,
-  "author": "GrokBot (Bot cycle 55)"
+  "reviewed_by": "corymstover",
+  "author": "GrokBot (Bot cycle 55)",
+  "corrections": [
+   {
+    "cycle": "Bot cycle 62",
+    "retracted": "Aetherflux Reservoir listed as a drain-on-gain half of the Exquisite Blood / Bloodthirsty Conqueror loops (win_conditions life-loops, pkg:life-loop)",
+    "correction": "Reservoir gains life on cast and pays 50 life for 50 damage; it is a lifegain enabler and an independent payoff (win_conditions reservoir-activation), not a Vito-style loop half.",
+    "requested_by": "corymstover (blueprint review t50u, 2026-10-16T17:47Z, relayed)"
+   }
+  ],
+  "reviewed_date": "2026-10-16",
+  "review_ref": "registry:data/grixis/blueprint_reviews.json#solkanar-the-swamp-king"
+ },
+ "cory_review": {
+  "by": "corymstover",
+  "date": "2026-10-16",
+  "ref": "chat t50u (2026-10-16T17:47Z, relayed)",
+  "ceiling": "4",
+  "ceiling_provisional": false,
+  "commander_role": "supporting",
+  "dependency": "low",
+  "per_commander_roles": null,
+  "evidence_class": "approved_decision",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/blueprint_reviews.json#solkanar-the-swamp-king"
+  ],
+  "scope": "Resolves this blueprint's ceiling and commander role. Not M2 acceptance; no list change."
  }
 }

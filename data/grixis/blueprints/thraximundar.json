@@ -3,7 +3,7 @@
  "deck_id": "Thraximundar",
  "slug": "thraximundar",
  "version": 1,
- "status": "seeded",
+ "status": "cory_reviewed",
  "cycle": 55,
  "date": "2026-10-16",
  "canonical_hash": "lh1:6a7f264373b7f45348bf2de9c569b7a41d4958106f5791dcf5642dce5e16af1d",
@@ -49,7 +49,8 @@
    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L11",
    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L33",
    "source_archive:refinement/approvals/Thraximundar_Approved_2026-10-15.md#L14",
-   "spellbook:2577-4050"
+   "spellbook:2577-4050",
+   "registry:data/grixis/blueprint_reviews.json#thraximundar"
   ]
  },
  "win_conditions": [
@@ -406,7 +407,8 @@
   "evidence_class": "strategic_judgment",
   "confidence": "high",
   "evidence": [
-   "spellbook:2577-4050"
+   "spellbook:2577-4050",
+   "registry:data/grixis/blueprint_reviews.json#thraximundar"
   ]
  },
  "power": {
@@ -431,7 +433,8 @@
    "evidence": [
     "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L13",
     "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L78",
-    "spellbook:2577-4050"
+    "spellbook:2577-4050",
+    "registry:data/grixis/blueprint_reviews.json#thraximundar"
    ]
   },
   "expected_bracket": {
@@ -610,7 +613,7 @@
    "source_archive:refinement/verification/Thraximundar_Approval_Ready_Verification_v2_2026-10-15.md",
    "source_archive:refinement/decklists/Thraximundar_Approved_2026-10-15.txt"
   ],
-  "reviewed_by": null,
+  "reviewed_by": "corymstover",
   "author": "GrokBot (Bot cycle 55)",
   "corrections": [
    {
@@ -619,6 +622,24 @@
     "correction": "Thraximundar {4}{U}{B}{R} is mana value 7 (Scryfall cache cmc 7). The source's 'seven-mana' (decisions v2 L11, L33, L45) was correct; the error was ours. The claim was tagged fact/high citing oracle:Thraximundar but was never checked against the cached cmc (now enforced by the blueprint MV rule). Ceiling re-checked: Bracket 4, short of cEDH, still holds and is if anything reinforced by the higher commander cost.",
     "requested_by": "corymstover (chat t49u, relayed)"
    }
-  ]
+  ],
+  "reviewed_date": "2026-10-16",
+  "review_ref": "registry:data/grixis/blueprint_reviews.json#thraximundar"
+ },
+ "cory_review": {
+  "by": "corymstover",
+  "date": "2026-10-16",
+  "ref": "chat t50u (2026-10-16T17:47Z, relayed)",
+  "ceiling": "4",
+  "ceiling_provisional": false,
+  "commander_role": "significant",
+  "dependency": "medium",
+  "per_commander_roles": null,
+  "evidence_class": "approved_decision",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/blueprint_reviews.json#thraximundar"
+  ],
+  "scope": "Resolves this blueprint's ceiling and commander role. Not M2 acceptance; no list change."
  }
 }
