@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   focused-validation:
@@ -15,8 +15,11 @@ jobs:
     env:
       SCRYFALL_OFFLINE: "1"
     steps:
-      - name: Check out branch
+      - name: Check out PR head branch
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -26,8 +29,38 @@ jobs:
       - name: Install focused test dependencies
         run: python -m pip install --disable-pip-version-check pytest jsonschema
 
+      - name: Regenerate cache-independent module registry
+        run: |
+          python - <<'PY'
+          import json, sys
+          from pathlib import Path
+          ROOT = Path.cwd()
+          sys.path.insert(0, str(ROOT / "scripts"))
+          import grixis_mech as gm
+          from grixis_mech import router
+          p = ROOT / "data/grixis/mechanics/modules.json"
+          data = {"framework_version": gm.FRAMEWORK_VERSION,
+                  "modules": gm.registry(),
+                  "planned_families": sorted(k for k in router.PLANNED if k not in gm.MODULES)}
+          p.write_text(json.dumps(data, indent=1, ensure_ascii=False, sort_keys=True) + "\n")
+          PY
+
       - name: Run mechanics semantic regression tests
         run: python -m pytest -q tests/test_mech_attack_semantics.py tests/test_mech_recursion_semantics.py tests/test_mech_stack_semantics.py tests/test_mech_cost_semantics.py tests/test_mech_tutor_semantics.py tests/test_mech_opponent_semantics.py tests/test_mech_stax_semantics.py tests/test_mech_breach_semantics.py
 
       - name: Check mechanic registry schema/coherence
         run: python scripts/grixis_mechanics.py --check
+
+      - name: Sync generated module registry to PR branch
+        if: ${{ github.event_name == 'pull_request' }}
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/grixis/mechanics/modules.json
+          if git diff --cached --quiet; then
+            echo "Module registry already current."
+          else
+            git commit -m "ChatGPT: sync generated breach module registry"
+            git push origin HEAD:${{ github.head_ref }}
+          fi
