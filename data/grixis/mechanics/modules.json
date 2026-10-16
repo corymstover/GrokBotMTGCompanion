@@ -1,5 +1,5 @@
 {
- "framework_version": "1.2-mech.4",
+ "framework_version": "1.2-mech.5",
  "modules": [
   {
    "assumptions": [
@@ -202,14 +202,19 @@
   },
   {
    "assumptions": [
-    "a target is legal if its card model has the type the recursion text names (creature/artifact/instant/sorcery/permanent/any card)",
-    "no opponent interaction with the graveyard"
+    "a supported target is legal from its card model's card types/permanent flag; nonland permanent excludes lands",
+    "spell/activated liveness is potential access only: costs and timing windows are not paid/simulated",
+    "ETB liveness uses the end-of-turn trace and therefore assumes a same-turn graveyard target was available when the ETB trigger resolved",
+    "no opponent interaction with the graveyard inside this module"
    ],
    "confidence": "low",
-   "determinism": "seeded paired v1.1 games (grixis_sim.seed_for); no extra rng",
+   "determinism": "seeded paired v1.1 games (grixis_sim.seed_for); shared death layer is closed-form (no extra rng)",
    "does_not_model": [
-    "self-mill, discard outlets, opponents' removal filling the graveyard (the v1.1 graveyard is thin, so this under-counts)",
-    "the value of the returned card",
+    "mana, tap, sacrifice, life or other costs of the recursion spell/ability",
+    "trigger timings other than ETB (dies, combat damage, upkeep/end step, cast triggers, etc.)",
+    "mana-value, color, subtype, legendary/nonlegendary, owner/source-zone or other target qualifiers",
+    "opponents' graveyards or choosing opponent-owned cards",
+    "the value of the returned card or destination-specific strategic value",
     "graveyard hate from opponents (see stress scenario graveyard_exiled)",
     "multiplayer win rates (never produced)"
    ],
@@ -217,7 +222,8 @@
    "family": "graveyard recursion",
    "id": "graveyard_recursion",
    "limitations": [
-    "v1.1 sends few cards to the graveyard (no creature deaths), so live rates are lower bounds."
+    "v1.1's native graveyard is thin; the shared death layer only adds creature deaths, not milled/discarded/noncreature permanents.",
+    "The zone trace has end-of-turn resolution, so ETB same-turn ordering is approximate."
    ],
    "metrics": [
     "recursion_live_by_turn",
@@ -225,9 +231,11 @@
     "recursion_live_by_turn_death_grid"
    ],
    "models": [
-    "graveyard contents by turn from the v1.1 zone trace (cards the model already puts there: spent spells, sacrificed/used one-shots, scenario events)",
-    "turn a recursion card is available (on battlefield or in hand) while your graveyard holds a legal target of the type it names",
-    "P(recursion live by turn 4/6/8) and mean legal targets when live"
+    "spell recursion: an instant/sorcery in hand while your graveyard contains a supported legal target",
+    "activated recursion: a permanent on the battlefield while your graveyard contains a supported legal target",
+    "ETB recursion: the permanent's arrival turn while your graveyard contains a supported legal target",
+    "supported target classes: any card; single card types; type unions; type intersections such as artifact creature; nonland permanent",
+    "P(recursion live by turn 4/6/8), mean legal targets when live, and the shared creature-death sensitivity grid"
    ],
    "parameters": {
     "death_grid": {
@@ -253,7 +261,7 @@
     ]
    },
    "test_file": "tests/test_mech.py",
-   "version": "1"
+   "version": "2"
   },
   {
    "assumptions": [

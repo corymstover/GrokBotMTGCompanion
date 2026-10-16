@@ -14,7 +14,7 @@ its cut/add cards route to (router.py); anything unrouted stays not_modelable wi
 """
 from __future__ import annotations
 
-FRAMEWORK_VERSION = "1.2-mech.4"
+FRAMEWORK_VERSION = "1.2-mech.5"
 EVIDENCE_CLASS = "test_result"
 FORBIDDEN_METRICS = ("win_rate", "multiplayer_win_rate", "win_probability")
 
