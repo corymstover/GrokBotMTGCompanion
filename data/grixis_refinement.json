@@ -742,7 +742,7 @@
     "nonland": 68,
     "dependence": 0.676,
     "generic_share": 0.25,
-    "mean_overlap": 0.112,
+    "mean_overlap": 0.113,
     "max_overlap": [
      0.234,
      "Ashad__the_Lone_Cyberman"
@@ -973,8 +973,8 @@
     "generic_share": 0.397,
     "mean_overlap": 0.2,
     "max_overlap": [
-     0.582,
-     "Kefka__Court_Mage"
+     0.576,
+     "Kess__Dissident_Mage"
     ],
     "thoracle_core": [
      "Demonic Consultation",
@@ -1218,7 +1218,7 @@
     "generic_share": 0.028,
     "mean_overlap": 0.189,
     "max_overlap": [
-     0.444,
+     0.459,
      "Kefka__Court_Mage"
     ],
     "thoracle_core": [
@@ -1341,8 +1341,8 @@
     "generic_share": 0.306,
     "mean_overlap": 0.163,
     "max_overlap": [
-     0.505,
-     "Kefka__Court_Mage"
+     0.5,
+     "Kess__Dissident_Mage"
     ],
     "thoracle_core": [
      "Demonic Consultation",
@@ -1472,11 +1472,11 @@
    },
    "final": {
     "nonland": 71,
-    "dependence": 0.592,
+    "dependence": 0.62,
     "generic_share": 0.197,
-    "mean_overlap": 0.213,
+    "mean_overlap": 0.211,
     "max_overlap": [
-     0.644,
+     0.607,
      "Kess__Dissident_Mage"
     ],
     "thoracle_core": [
@@ -1547,8 +1547,8 @@
     "generic_share": 0.167,
     "mean_overlap": 0.222,
     "max_overlap": [
-     0.644,
-     "Kefka__Court_Mage"
+     0.621,
+     "Cormela__Glamour_Thief"
     ],
     "thoracle_core": [
      "Demonic Consultation",
@@ -1904,8 +1904,8 @@
   "Marchesa__Dealer_of_Death": {
    "source": {
     "nonland": 70,
-    "dependence": 0.143,
-    "generic_share": 0.357,
+    "dependence": 0.557,
+    "generic_share": 0.214,
     "mean_overlap": 0.19,
     "max_overlap": [
      0.5,
@@ -1934,9 +1934,9 @@
    },
    "final": {
     "nonland": 70,
-    "dependence": 0.143,
-    "generic_share": 0.357,
-    "mean_overlap": 0.19,
+    "dependence": 0.557,
+    "generic_share": 0.214,
+    "mean_overlap": 0.189,
     "max_overlap": [
      0.5,
      "RogSi"
@@ -1963,6 +1963,7 @@
     ]
    },
    "hooks": [
+    "crimes (targeting opponents and their things)",
     "graveyard as a resource"
    ],
    "edhrec_pages": [
@@ -2572,8 +2573,8 @@
     "generic_share": 0.0,
     "mean_overlap": 0.188,
     "max_overlap": [
-     0.611,
-     "Kefka__Court_Mage"
+     0.596,
+     "Goben__Gene_Splice_Savant"
     ],
     "thoracle_core": [
      "Demonic Consultation",
@@ -3053,8 +3054,8 @@
     "generic_share": 0.354,
     "mean_overlap": 0.181,
     "max_overlap": [
-     0.356,
-     "Kess__Dissident_Mage"
+     0.36,
+     "Kefka__Court_Mage"
     ],
     "thoracle_core": [
      "Demonic Consultation",

@@ -29,19 +29,19 @@
 | 23 | [grixistax-october-2026.txt](grixistax-october-2026.txt) | Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools | unchanged (at/near ceiling) | none |
 | 24 | [gwendlyn-di-corci.txt](gwendlyn-di-corci.txt) | Gwendlyn Di Corci | unchanged (at/near ceiling) | none |
 | 25 | [inalla-archmage-ritualist.txt](inalla-archmage-ritualist.txt) | Inalla, Archmage Ritualist | unchanged (at/near ceiling) | none |
-| 26 | [jeleva-nephalias-scourge.txt](jeleva-nephalias-scourge.txt) | Jeleva, Nephalia's Scourge | unchanged (not reviewed yet) | none |
-| 27 | [kefka-court-mage.txt](kefka-court-mage.txt) | Kefka, Court Mage // Kefka, Ruler of Ruin | unchanged (not reviewed yet) | none |
-| 28 | [kess-dissident-mage.txt](kess-dissident-mage.txt) | Kess, Dissident Mage | unchanged (not reviewed yet) | none |
-| 29 | [loki-the-deceiver.txt](loki-the-deceiver.txt) | Loki, the Deceiver | unchanged (not reviewed yet) | none |
-| 30 | [lord-xander-the-collector.txt](lord-xander-the-collector.txt) | Lord Xander, the Collector | unchanged (not reviewed yet) | none |
-| 31 | [lord-of-tresserhorn.txt](lord-of-tresserhorn.txt) | Lord of Tresserhorn | unchanged (not reviewed yet) | none |
-| 32 | [lynde-cheerful-tormentor.txt](lynde-cheerful-tormentor.txt) | Lynde, Cheerful Tormentor | unchanged (not reviewed yet) | none |
-| 33 | [mai-and-zuko.txt](mai-and-zuko.txt) | Mai and Zuko | unchanged (not reviewed yet) | none |
-| 34 | [mairsil-the-pretender.txt](mairsil-the-pretender.txt) | Mairsil, the Pretender | unchanged (not reviewed yet) | none |
-| 35 | [marchesa-dealer-of-death.txt](marchesa-dealer-of-death.txt) | Marchesa, Dealer of Death | unchanged (not reviewed yet) | none |
-| 36 | [marchesa-the-black-rose.txt](marchesa-the-black-rose.txt) | Marchesa, the Black Rose | unchanged (not reviewed yet) | none |
-| 37 | [mishra-artificer-prodigy.txt](mishra-artificer-prodigy.txt) | Mishra, Artificer Prodigy | unchanged (not reviewed yet) | none |
-| 38 | [mishra-eminent-one.txt](mishra-eminent-one.txt) | Mishra, Eminent One | unchanged (not reviewed yet) | none |
+| 26 | [jeleva-nephalias-scourge.txt](jeleva-nephalias-scourge.txt) | Jeleva, Nephalia's Scourge | unchanged (at/near ceiling) | none |
+| 27 | [kefka-court-mage.txt](kefka-court-mage.txt) | Kefka, Court Mage // Kefka, Ruler of Ruin | refined | −Final Fortune +Liliana's Caress (discard (hand-picked)); −Valley Floodcaller +Dauthi Voidwalker (discard (hand-picked)) |
+| 28 | [kess-dissident-mage.txt](kess-dissident-mage.txt) | Kess, Dissident Mage | unchanged (at/near ceiling) | none |
+| 29 | [loki-the-deceiver.txt](loki-the-deceiver.txt) | Loki, the Deceiver | unchanged (at/near ceiling) | none |
+| 30 | [lord-xander-the-collector.txt](lord-xander-the-collector.txt) | Lord Xander, the Collector | unchanged (at/near ceiling) | none |
+| 31 | [lord-of-tresserhorn.txt](lord-of-tresserhorn.txt) | Lord of Tresserhorn | unchanged (at/near ceiling) | none |
+| 32 | [lynde-cheerful-tormentor.txt](lynde-cheerful-tormentor.txt) | Lynde, Cheerful Tormentor | unchanged (at/near ceiling) | none |
+| 33 | [mai-and-zuko.txt](mai-and-zuko.txt) | Mai and Zuko | unchanged (at/near ceiling) | none |
+| 34 | [mairsil-the-pretender.txt](mairsil-the-pretender.txt) | Mairsil, the Pretender | unchanged (at/near ceiling) | none |
+| 35 | [marchesa-dealer-of-death.txt](marchesa-dealer-of-death.txt) | Marchesa, Dealer of Death | unchanged (at/near ceiling) | none |
+| 36 | [marchesa-the-black-rose.txt](marchesa-the-black-rose.txt) | Marchesa, the Black Rose | unchanged (at/near ceiling) | none |
+| 37 | [mishra-artificer-prodigy.txt](mishra-artificer-prodigy.txt) | Mishra, Artificer Prodigy | unchanged (at/near ceiling) | none |
+| 38 | [mishra-eminent-one.txt](mishra-eminent-one.txt) | Mishra, Eminent One | unchanged (at/near ceiling) | none |
 | 39 | [missy.txt](missy.txt) | Missy | unchanged (not reviewed yet) | none |
 | 40 | [nathan-drake-treasure-hunter.txt](nathan-drake-treasure-hunter.txt) | Nathan Drake, Treasure Hunter | unchanged (not reviewed yet) | none |
 | 41 | [nekusar-the-mindrazer.txt](nekusar-the-mindrazer.txt) | Nekusar, the Mindrazer | unchanged (not reviewed yet) | none |

@@ -72,6 +72,8 @@ HOOKS = [
     ("playing cards from exile", r"play (a card|cards|lands and cast spells) from exile|cast [^.]* from exile|exile the top card of each player's library",
      r"from exile|exile the top|collection counter|cast [^.]* exiled|you may play (that card|it|them|those cards)"),
     ("flash", r"^Flash$", r"\bflash\b"),
+    ("crimes (targeting opponents and their things)", r"commit a crime",
+     r"\btarget (player|opponent|spell|creature|permanent|nonland permanent|artifact|enchantment|planeswalker|land|activated|triggered|instant|noncreature)|\bcounter target\b|\bany target\b|an opponent controls|card in a graveyard|from an opponent's graveyard"),
     ("enters triggers", r"whenever (another|a|one or more|[^.]* or another) [^.]* enters", r"\bflicker|exile [^.]*, then return|return [^.]* to the battlefield|enters[^.]* an additional time"),
     ("casualty / power 2 or greater", r"\bcasualty\b|power 2 or greater", r"\bcasualty\b|creates? [^.]*\d/\d"),
     ("connive / looting", r"\bconniv", r"\bconniv|draw a card, then discard|discard a card, then draw"),
@@ -508,6 +510,9 @@ def block(did, v, info, m, plans):
               f"Game Changers {v['gcs'].__len__()} → {len(gcs)} · floor Bracket {v['floor']} → **{fl}** (target {target_of(v)}) · "
               f"Commander Spellbook: {len(sb["combos"]) if sb else "?"} combo(s) ({two} two-card infinite), every source combo kept (queried {sb['queried'] if sb else '?'}).",
               "", "```text", info["fin_text"].strip(), "```"]
+    hr = load_review().get("hand_review", {}).get(did)
+    if hr:
+        L += ["", f"> 🔎 **Hand review (Bot cycle {hr['cycle']}): {hr['verdict']}.** {hr['tradeoff']}"]
     if e.get("rejected"):
         L += ["", "**Considered and rejected:** " + " · ".join(f"−{x['cut']} +{x['add']} ({x['by']}: {q(x['why'])})" for x in e["rejected"])]
     L += ["", "### Refinement log", "", "| Date | Cycle | Change | Cards added | Cards removed |", "|---|---|---|---|---|"]
@@ -550,7 +555,7 @@ def summary_page(summ, info, metrics, top, plans):
          "Source lists stay on each deck page, credited to Cory's [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT). "
          "Archidekt exports: [exports/grixis-archidekt/](../exports/grixis-archidekt/README.md).", "",
          f"Grixis source commit used: `{plans.get('source', {}).get('commit', '?')}` ({plans.get('source', {}).get('note', '')}).", "",
-         "## Contents", "- [Status](#status)", "- [Batch log](#batch-log)", "- [Overlap review (manual)](#overlap-review-manual)", "- [All decks: metrics](#all-decks-metrics)", "- [Homogenization](#homogenization)", "- [Method](#method)", "",
+         "## Contents", "- [Status](#status)", "- [Batch log](#batch-log)", "- [Hand reviews](#hand-reviews)", "- [Overlap review (manual)](#overlap-review-manual)", "- [All decks: metrics](#all-decks-metrics)", "- [Homogenization](#homogenization)", "- [Method](#method)", "",
          "## Status", "",
          f"- **Reviewed: {len(done)}/62** decks ({sum(1 for d in done if plans['decks'][d]['swaps'])} refined, {sum(1 for d in done if not plans['decks'][d]['swaps'])} at/near ceiling and unchanged). "
          f"{sum(1 for d in summ if info[d]['pending'])} decks are ⏳ pending legality (measured; exports marked pending).",
@@ -568,6 +573,12 @@ def summary_page(summ, info, metrics, top, plans):
             m = metrics[d]
             L.append(f"- [{nm}](decks/{v['slug']}.md#refined-list-bot-cycle-39): {e['decision']}. Dependence {m['source']['dependence']:.0%} → {m['final']['dependence']:.0%}." +
                      ("".join(f" Cut **{w['cut']}** → add **{w['add']}** ({w['hook']['label']})." for w in e["swaps"])))
+        L.append("")
+    hrs = load_review().get("hand_review", {})
+    if hrs:
+        L += ["## Hand reviews", "", "Decks given a commander-first hand look (guidance; principle 2: no artificial weakening).", ""]
+        for d, x in hrs.items():
+            L += [f"- **[{' + '.join(summ[d]['commanders'])}](decks/{summ[d]['slug']}.md#refined-list-bot-cycle-39)** (Bot cycle {x['cycle']}): **{x['verdict']}.** {x['tradeoff']}"]
         L.append("")
     ov = load_review().get("overlap", {})
     L += ["## Overlap review (manual)", "", "High-overlap pairs judged by hand (Bot cycle 40): is the shared core explained by both commanders' Oracle text, or is it homogenization? Guidance.", ""]
@@ -665,12 +676,16 @@ def main():
                 rej = {(x["cut"], x["add"]): x for x in e.get("rejected", [])}
                 txt = "; ".join([f"reverted −{c} +{ad} ({rej[(c, ad)]['by']}: {rej[(c, ad)]['why']})" if (c, ad) in rej else f"reverted −{c} +{ad}" for c, ad in gone] +
                                 [f"new −{c} +{ad}" for c, ad in new]) or "re-checked: no change"
+                hr = load_review().get("hand_review", {}).get(d)
+                if hr:
+                    txt = f"hand review ({hr['verdict']}): {txt}"
                 plans["log"][d] = prev + [{"date": e["date"], "cycle": a.cycle, "batch": f"{a.plan} re-check", "change": f"power-guard re-check: {txt}",
                                            "added": [c for c, _ in gone] + [ad for _, ad in new], "removed": [ad for _, ad in gone] + [c for c, _ in new]}]
                 continue
             plans["log"][d] = [x for x in plans["log"].get(d, []) if x["batch"] != a.plan] + [{
                 "date": e["date"], "cycle": a.cycle, "batch": a.plan,
-                "change": (f"{len(e['swaps'])} commander-first swap(s): " + "; ".join(f"{w['hook']['label']}" for w in e["swaps"])) if e["swaps"] else "reviewed: " + e["decision"],
+                "change": (f"hand review ({load_review()['hand_review'][d]['verdict']}); " if d in load_review().get("hand_review", {}) else "") +
+                          ((f"{len(e['swaps'])} commander-first swap(s): " + "; ".join(f"{w['hook']['label']}" for w in e["swaps"])) if e["swaps"] else "reviewed: " + e["decision"]),
                 "added": [w["add"] for w in e["swaps"]], "removed": [w["cut"] for w in e["swaps"]]}]
         PLANS.write_text(json.dumps(plans, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     info, metrics, top, problems = render(R, summ, plans, fetch=not a.check)

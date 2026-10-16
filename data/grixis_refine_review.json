@@ -20,6 +20,10 @@
   "Evelyn__the_Covetous|Reanimate|Blood Artist": {
    "verdict": "reject",
    "why": "Same as Cordial Vampire: Reanimate is part of the reanimator core (now protected); Blood Artist is a drain payoff the list has no sacrifice engine for."
+  },
+  "Marchesa__Dealer_of_Death|Mystic Remora|Gitaxian Probe": {
+   "verdict": "reject",
+   "why": "Probe passes the guard (37.4% vs 14.4% of Marchesa decks) and is a free crime cantrip. But the source names Mystic Remora one of the list's card-advantage pillars, and records the list as matching a 2026-10-11 tournament-winning configuration. One extra crime trigger does not clearly outdraw Remora over the early turns at a cEDH table. Precision over speed: no swap without clear evidence."
   }
  },
  "overlap": {
@@ -45,6 +49,52 @@
     "Reanimate"
    ],
    "why": "1-mana piece of the list's Entomb / Unmarked Grave reanimator core; replacing it with a Vampire is a downgrade at this cEDH ceiling."
+  }
+ },
+ "manual_swaps": {
+  "Kefka__Court_Mage": [
+   {
+    "cut": "Final Fortune",
+    "add": "Liliana's Caress",
+    "hook": {
+     "label": "discard (hand-picked)",
+     "commander_text": "Whenever Kefka enters or attacks, each player discards a card.",
+     "card_text": "Whenever an opponent discards a card, that player loses 2 life."
+    },
+    "why": "Every Kefka enter/attack trigger makes each opponent discard, so Caress drains 2 from each opponent per trigger. With the list's Wheel of Fortune, Windfall-style wheels and Gamble-style discards it threatens a lethal drain without combat. After Kefka transforms, his back face draws a card for each point of life an opponent loses during your turn. Final Fortune is a one-turn gamble that loses the game if the combo fails. 33.4% of Kefka decks play Caress against 11.1% for Final Fortune (overall ranks 2,404 vs 1,531, within the guard). It also removes an extra-turn card."
+   },
+   {
+    "cut": "Mystic Remora",
+    "add": "Monument to Endurance",
+    "hook": {
+     "label": "discard (hand-picked)",
+     "commander_text": "Whenever Kefka enters or attacks, each player discards a card.",
+     "card_text": "Whenever you discard a card, choose one that hasn't been chosen this turn"
+    },
+    "why": "Kefka's trigger also makes you discard, as do the list's Wheel of Fortune, Gamble, Jeska's Will and Lion's Eye Diamond / Underworld Breach loops. Each discard turn gives up to three modes: draw, Treasure, and each opponent loses 3 (that loss also feeds Kefka's back face). Mystic Remora only draws off opponents' noncreature spells and costs upkeep. Kefka decks play Monument 37.8% vs Remora 35.3%; ranks 930 vs 101 are within the guard. The proposal was Borne Upon a Wind, but that card stays: it is one of the list's two ways to cast spells as though they had flash for the instant-speed combo turns."
+   },
+   {
+    "cut": "Valley Floodcaller",
+    "add": "Dauthi Voidwalker",
+    "hook": {
+     "label": "discard (hand-picked)",
+     "commander_text": "Whenever Kefka enters or attacks, each player discards a card.",
+     "card_text": "If a card would be put into an opponent's graveyard from anywhere, instead exile it with a void counter on it."
+    },
+    "why": "Kefka forces opponents to discard every enter and attack, and Brain Freeze mills them. With Dauthi those cards are exiled with void counters instead, and Dauthi can be sacrificed to play the best one for free. It also turns off opposing graveyard engines. Valley Floodcaller is a second flash enabler that Borne Upon a Wind already covers. Kefka decks play Dauthi 33.1% vs Floodcaller 16.1%; overall rank 395 vs 761. The proposal was Brain Freeze, but that card is a piece of the list's Underworld Breach + Lion's Eye Diamond / Lotus Petal combos and stays."
+   }
+  ]
+ },
+ "hand_review": {
+  "Evelyn__the_Covetous": {
+   "cycle": 41,
+   "verdict": "identity-first rebuild assessed, list left unchanged and flagged",
+   "tradeoff": "Evelyn's engine is \"Once each turn, you may play a card from exile with a collection counter on it\", so extra Vampire-enters triggers in one turn only add to the exile pool, not to plays. The list's best line is the cEDH core: Worldgorger Dragon + Animate Dead / Necromancy / Dance of the Dead, Thassa's Oracle + Tainted Pact / Demonic Consultation, and Underworld Breach + Brain Freeze. Evelyn adds one flash card-advantage play per turn from any library. Every Vampire or flicker card on her EDHREC page was checked against the list's weakest slots. Cordial Vampire, Blood Artist, Captivating Vampire, Bloodline Keeper and Dusk Legion Zealot (overall ranks 142–5,228) only fit by replacing a 1-mana combo or protection piece (Reanimate, Defense Grid, Culling the Weak, Vexing Bauble) and fail the power guard or role parity. Viscera Seer (rank 257) is the closest, but it would replace Defense Grid's protection for the combo turn. An identity-first Vampire version would clearly be weaker at the source's stated cEDH ceiling, so no swap is made. Flag: the commander contributes value, not the win line. Revisit if a cEDH-grade Vampire or exile-play payoff is printed."
+  },
+  "Marchesa__Dealer_of_Death": {
+   "cycle": 41,
+   "verdict": "identity confirmed after a scoring fix, list left unchanged",
+   "tradeoff": "The 14% score was our gap, not the list's. Marchesa triggers on \"Whenever you commit a crime\", and the reminder text says targeting opponents, anything they control, or cards in their graveyards counts. Most of the list's cEDH interaction (targeted counterspells, bounce, removal) plus Spatial Binding, Hex Parasite, Spellskite, Tezzeret and Lapis Lazuli Talisman commit crimes. A new crimes hook now counts them. The source records this list as matching the 2026-10-11 Takeda Ryuhei tournament-winning configuration and keeps Lapis deliberately: it turns blue spells into targeted untaps, which are crimes. Considered and not made: Gitaxian Probe (a free crime cantrip, 37.4% of Marchesa decks) for Mystic Remora, Lapis Lazuli Talisman or Last Chance. It passes the guard, but each cut is a deliberate source decision (Remora: card-advantage pillar; Lapis: crime density; Last Chance: finisher), and Probe does not clearly do more. No swap."
   }
  }
 }
