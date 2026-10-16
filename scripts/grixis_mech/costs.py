@@ -151,6 +151,8 @@ def alternate_parse(name, text, type_line):
         cost = _mana_value_of_symbols(m.group("cost"))
         if cost is not None:
             return {"kind": "evoke", "mana": cost, "condition": "none", "drawback": "sacrifice_after_etb"}, None
+    if re.search(r"\b(?:flashback|escape|retrace|jump-start|aftermath)\b", t, re.I):
+        return None, "alternate zone/keyword casting cost is not modelled"
     if RESOURCE_ALT.search(t) or re.search(r"rather than pay (?:~|this spell)'?s? mana cost|without paying its mana cost", t, re.I):
         return None, "alternate cost depends on cards/life/resources or an unsupported condition"
     if re.search(r"\b(?:evoke|delve|convoke|improvise)\b", t, re.I):
