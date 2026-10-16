@@ -242,6 +242,38 @@ This step implements Cory directive item 3 and decision D4. It is **not** a mult
   - Death/sacrifice text the new modules do not claim (`death_other` 649, `sacrifice_other` 1,228, e.g. sacrifice as a spell cost or "dies" in non-trigger text) stays planned.
 - **Reconciliation of 9,044 vs 9,040:** 9,044 = 25,933 − 16,889 at cycle 61, and still 9,044 at 62.3. The cycle 63.2 regeneration (42157ff) moved 11 swaps out of the not_modelable set and 7 in (net −4) across 12 decks. The ids are listed in `not_modelable_reconciliation.json`.
 
+### Step E batch 66.2a: death-trigger semantics correction (Cory t56u)
+
+Cory caught an architecture error in the 66.2 `death_triggers` module (v1). v1 treated every watcher as "count every creature death while the watcher is listed in the trace":
+- it counted the watcher's own death for "another creature";
+- it counted creatures, not events, for "one or more creatures die";
+- it gave full triggers on later turns because the unperturbed v1.1 trace still listed a watcher the death layer had killed.
+
+**v2 (`death_triggers` version 2):**
+- **Semantics are parsed from Oracle text:**
+  - `self` ("when ~ dies");
+  - `a` ("a creature dies", "~ or another creature dies"; includes its own death via CR 603.10a look-back);
+  - `another` (excludes its own death);
+  - `one_or_more` / `one_or_more_other` (one trigger per qualifying death **event**);
+  - filters "you control" / any, and "nontoken".
+- **Unknown wording is `not_modelable` with a reason, never a generic fallback:** "an opponent controls" / "your opponents control" / "you don't control" (the death layer has no opponent creatures), and creature-type filters such as "a Rat you control dies".
+- **The death layer emits death events:** one per removed creature, one simultaneous event per wipe, one per sacrifice.
+- **Survival weighting:** watcher expectations are weighted by the watcher's own survival probability before each event.
+- **Look-back:** a watcher dying in the same wipe or sacrifice still sees the others die; its own death counts only where the wording includes it.
+- **Tests:** edge cases cover the "another" self-exclusion, a multi-creature wipe as one "one or more" trigger, simultaneous watcher + other death, survival weighting (no triggers after the watcher died), nontoken, and the not_modelable wordings.
+- **Old vs new, Syr Konrad, the Grim** (Abaddon; "another"; lower bound 0 in both):
+
+  | Version | T6 grid range (mid) | T8 grid range (mid) | T10 grid range (mid) |
+  |---|---|---|---|
+  | v1 | 0–0.167 (0.026) | 0–0.45 (0.082) | 0–0.45 (0.166) |
+  | v2 | 0–0.11 (0.013) | 0–0.337 (0.045) | 0–0.337 (0.091) |
+
+- **Coverage (9,040 legacy not_modelable swaps):**
+  - `death_triggers` routes 129 swaps (v1: 171).
+  - Routed to an implemented module: 2,374 / 26.3% (66.2: 2,412 / 26.7%). Planned only: 6,086 (was 6,048). Matching none: 580 (unchanged).
+  - not_modelable card occurrences with reasons: unrecognised wording 275, opponents' creatures 51.
+- **Prospective holdout:** not added. Holdout rules require sealing before the evaluated system has seen the correction. The correction was received and implemented in this same batch, so a sealed item could not be uncontaminated (`contamination.level` must be "no"). The frozen corpus is untouched.
+- **Shared cache:** the frozen dev-snapshot Oracle bulk was replaced in `.cache` by a newer Scryfall bulk twice this session (online `load_deck` runs). Both times it was restored from `/tmp/c64-cache-partial-backup`; the newer file is in `/tmp/c66-cache-refresh-backup/`. `grixis_mechanics.py` now forces `SCRYFALL_OFFLINE=1`.
 ### Step E batch 66.3: cast triggers, repeatable draw, activated engines, tokens, sacrifice as an additional cost
 
 - **Derived events** (`scripts/grixis_mech/events.py`), deterministic:

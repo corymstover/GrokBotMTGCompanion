@@ -88,7 +88,7 @@ def test_self_recursion_split():
 
 
 def test_death_trigger_kinds_and_outlets():
-    assert death_triggers.kind("K", "Whenever another creature dies, each opponent loses 1 life.") == "watcher"
+    assert death_triggers.kind("K", "Whenever another creature dies, each opponent loses 1 life.") == "another"
     assert death_triggers.kind("K", "When K dies, draw a card.") == "self"
     assert death_triggers.kind("K", "Flying") is None
     assert sacrifice.matches("V", "Sacrifice a creature: Scry 1.", "Creature") and not sacrifice.matches("V", "Flying", "Creature")
@@ -130,3 +130,61 @@ def test_engine_modules():
     assert engines.sac_kind("F", "Sacrifice a creature: Scry 1.") is None  # a free outlet is sacrifice_costs
     for m in (engines.CastTriggers, engines.RepeatableDraw, engines.ActivatedEngines, engines.TokenMakers, engines.SacrificeAdditionalCost):
         assert m.SPEC["evidence_class"] == "test_result" and any("win rate" in x for x in m.SPEC["does_not_model"])
+
+# ---- Bot cycle 66.2a: death-trigger semantics correction (Cory t56u)
+DT = death_triggers
+A_ = {"scope": "a", "controller": "any", "nontoken": False}
+AN = {"scope": "another", "controller": "any", "nontoken": False}
+OM = {"scope": "one_or_more", "controller": "any", "nontoken": False}
+OMO = {"scope": "one_or_more_other", "controller": "any", "nontoken": False}
+SF = {"scope": "self", "controller": "you", "nontoken": False}
+
+
+def _row(*events):
+    return {"events": [{"kind": k, "victims": v} for k, v in events]}
+
+
+def test_another_excludes_watcher_own_death():
+    r = _row(("removal", {"W": 0.1}))
+    assert DT.triggers_in_row(AN, "W", 1.0, r, 0.1) == 0.0
+    assert DT.triggers_in_row(A_, "W", 1.0, r, 0.1) == 0.1 and DT.triggers_in_row(SF, "W", 1.0, r, 0.1) == 0.1
+
+
+def test_one_or_more_counts_events_not_creatures():
+    wipe = _row(("wipe", {"A": 1.0, "B": 1.0, "C": 1.0}))
+    assert DT.triggers_in_row(OM, "W", 1.0, wipe, 0.0) == 1.0   # one wipe = one trigger
+    assert DT.triggers_in_row(AN, "W", 1.0, wipe, 0.0) == 3.0   # per creature
+    two = _row(("removal", {"A": 0.25}), ("removal", {"B": 0.25}))
+    assert abs(DT.triggers_in_row(OM, "W", 1.0, two, 0.25) - 2 * 0.25 * (1 - 0.125)) < 1e-9  # separate removal events
+
+
+def test_simultaneous_watcher_death_look_back():
+    wipe = _row(("wipe", {"W": 1.0, "A": 1.0}))
+    assert DT.triggers_in_row(AN, "W", 1.0, wipe, 0.0) == 1.0   # sees A die in the same event, not itself
+    assert DT.triggers_in_row(A_, "W", 1.0, wipe, 0.0) == 2.0   # 'a creature' includes its own death
+    assert DT.triggers_in_row(SF, "W", 1.0, wipe, 0.0) == 1.0
+    assert DT.triggers_in_row(OMO, "W", 1.0, wipe, 0.0) == 1.0
+    assert DT.triggers_in_row(OMO, "W", 1.0, _row(("wipe", {"W": 1.0})), 0.0) == 0.0  # only itself died
+
+
+def test_watcher_weighted_by_survival():
+    wipe = _row(("wipe", {"W": 0.5, "A": 1.0}))
+    assert DT.triggers_in_row(AN, "W", 0.5, wipe, 0.0) == 0.5
+    tr = [{"turn": t, "battlefield": ["W", "A"], "graveyard": [], "hand": []} for t in range(1, 9)]
+    ctx = {"creatures": {"W", "A"}, "outlets": set(), "commanders": set()}
+    v = DT.side([(None, tr)], "W", [AN], ctx, 8, (0.0, 6, False))
+    assert v == 1.0  # the wipe on T6 kills both; no triggers on T7-8 although the trace still lists W
+    assert DT.side([(None, tr)], "W", [AN], ctx, 8, deaths.LOWER_BOUND) == 0.0
+    assert DT.side([(None, tr)], "W", [AN], ctx, 8, (0.25, None, False)) < 7 * 0.25  # survival-weighted, below naive
+
+
+def test_nontoken_and_unmodelable_wording():
+    r = _row(("wipe", {"token:X#1": 1.0, "A": 1.0}))
+    assert DT.triggers_in_row(dict(AN, nontoken=True), "W", 1.0, r, 0.0) == 1.0
+    s, why = DT.parse("K", "Whenever a creature an opponent controls dies, you gain 1 life.")
+    assert s == [] and "opponent" in why
+    s, why = DT.parse("K", "Whenever a Rat you control dies, draw a card.")
+    assert s == [] and why
+    assert DT.parse("K", "Whenever one or more other creatures you control die, draw a card.")[0] == [
+        {"scope": "one_or_more_other", "controller": "you", "nontoken": False}]
+    assert DT.parse("Blood Artist", "Whenever Blood Artist or another creature dies, drain 1.")[0][0]["scope"] == "a"
