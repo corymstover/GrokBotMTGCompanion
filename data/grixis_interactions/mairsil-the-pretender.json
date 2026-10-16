@@ -1,0 +1,508 @@
+{
+ "schema": 1,
+ "deck_id": "Mairsil__the_Pretender",
+ "slug": "mairsil-the-pretender",
+ "commanders": [
+  "Mairsil, the Pretender"
+ ],
+ "deck_sha256": "843c09811f41b7bcdf5d7e4aec1c27de69d48dfa071cd3cc905541618bf10e94",
+ "list_source": "exports/grixis-archidekt/mairsil-the-pretender.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 51,
+ "batch": "D",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md",
+   "note": "Approval-ready verification; rules conclusions re-checked against Oracle, rulings and CR"
+  }
+ ],
+ "summary": "Mairsil cages artifacts and creatures from hand or graveyard and uses their activated abilities, once per instance per turn. The list combines Quicksilver Elemental loops with Gilded Lotus and untappers, Tree of Perdition + Hateflayer, the Aetherling + Disk + Anger lock, and blink/copy resets (Pack Rat, Spark Double, Essence Flux, Displacer Kitten). Five Spellbook lines are confirmed against the canonical list.\n\nRules surprises: caged Asmodeus draws seven for real; Rings copies the Pack Rat activation without the discard; Spark Double gets the caged abilities on its own; a caged Wishclaw can't be activated. The Marvin line is unconfirmed.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "mairsil-01",
+   "category": "commander",
+   "title": "Cage from hand or graveyard; one activation per caged ability instance per turn",
+   "cards": [
+    "Mairsil, the Pretender"
+   ],
+   "ruling": "When Mairsil enters, you may exile an artifact or creature card from your hand or graveyard with a cage counter. Mairsil then has every activated ability of the cards you own in exile with cage counters. Triggered and static abilities don't come along. Self-references on a caged ability mean Mairsil (Pack Rat's \"copy of this creature\" copies Mairsil). Each instance can be activated once each turn. If two caged cards share an ability, Mairsil has two instances. Caged cards stay caged when Mairsil leaves, and a returning Mairsil sees them all again.",
+   "short": "Gains caged cards' activated abilities only; self-references mean Mairsil; once per instance per turn.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "113.3b",
+    "400.7",
+    "602.5b"
+   ],
+   "oracle": [
+    {
+     "card": "Mairsil, the Pretender",
+     "quote": "Mairsil has all activated abilities of all cards you own in exile with cage counters on them. You may activate each of those abilities only once each turn."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Mairsil, the Pretender",
+     "quote": "If an activated ability of a card in exile with a cage counter on it references the card it's printed on by name, treat Mairsil's instance of that ability as though it referenced Mairsil by name instead. For instance, if Mairsil exiles Magus of the Mind, the cost to activate the ability includes sacrificing Mairsil, not sacrificing Magus of the Mind."
+    },
+    {
+     "card": "Mairsil, the Pretender",
+     "quote": "The exiled cards remain exiled with cage counters when Mairsil leaves the battlefield. If Mairsil returns to the battlefield, it will see all of those exiled cards with cage counters on them."
+    },
+    {
+     "card": "Mairsil, the Pretender",
+     "quote": "If multiple cards exiled with cage counters on them have the same ability, Mairsil will have multiple instances of that ability. Each may be activated once each turn."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md",
+     "quote": "Mairsil cages an artifact or creature card from hand or graveyard on entry"
+    }
+   ]
+  },
+  {
+   "id": "mairsil-02",
+   "category": "combo",
+   "title": "Quicksilver Elemental + Gilded Lotus + Morphling / Horseshoe Crab / Staff of Domination",
+   "cards": [
+    "Mairsil, the Pretender",
+    "Quicksilver Elemental",
+    "Gilded Lotus",
+    "Morphling",
+    "Horseshoe Crab",
+    "Staff of Domination"
+   ],
+   "ruling": "With Gilded Lotus, Quicksilver Elemental and one untapper caged:\n1. Tap Mairsil with Lotus's ability for {U}{U}{U}.\n2. Untap it with the untapper: {U} for Morphling or Horseshoe Crab, or {1} for Staff of Domination.\n3. Pay {U} for Quicksilver Elemental's ability, targeting Mairsil itself. Mairsil gains new instances of all its activated abilities until end of turn, so the once-per-turn limit is spent on old instances only.\n\nEach loop nets {U}. With Staff, the {5} draw and {2} lifegain abilities go infinite too. Mairsil needs to have been under your control since your turn began (or have haste), because Lotus's ability uses {T}. Walking Ballista (cast for huge X) is the main mana outlet.",
+   "short": "QE re-grants Mairsil its own abilities: Lotus + untapper = infinite blue mana.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "302.6",
+    "602.5b"
+   ],
+   "oracle": [
+    {
+     "card": "Quicksilver Elemental",
+     "quote": "{U}: This creature gains all activated abilities of target creature until end of turn."
+    },
+    {
+     "card": "Gilded Lotus",
+     "quote": "{T}: Add three mana of any one color."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Quicksilver Elemental",
+     "quote": "If you make two copies of an ability that can be activated once a turn, you can activate each of them once a turn."
+    },
+    {
+     "card": "Quicksilver Elemental",
+     "quote": "You can activate the ability more than once, collecting abilities from multiple creatures (or the same creature more than once)."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "1369-5112-5116-5137",
+     "quote": "Activate Mairsil using Quicksilver Elemental's ability by paying {U}, causing Mairsil to gain all activated abilities of itself until end of turn."
+    },
+    {
+     "id": "1369-3995-5112-5116",
+     "quote": "Activate Mairsil using Horseshoe Crab's ability by paying {U}, untapping it."
+    },
+    {
+     "id": "1369-2645-5112-5116",
+     "quote": "Activate Mairsil using Staff of Domination's first ability by paying {1}, untapping it."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md",
+     "quote": "established Mairsil combo engine that can create fresh instances of acquired activated abilities"
+    }
+   ]
+  },
+  {
+   "id": "mairsil-03",
+   "category": "combo",
+   "title": "Tree of Perdition + Hateflayer: swap life, then {Q} for power",
+   "cards": [
+    "Mairsil, the Pretender",
+    "Tree of Perdition",
+    "Hateflayer"
+   ],
+   "ruling": "With both caged:\n1. Tap Mairsil with Tree of Perdition's ability. The target opponent's life total and Mairsil's toughness are exchanged. Mairsil is printed 4/4, so the opponent goes to 4.\n2. Pay {2}{R} and untap Mairsil ({Q}) for Hateflayer's ability. It deals damage equal to Mairsil's power (4) to that opponent.\n\nThe line needs Mairsil's toughness to be no higher than its power, and both {T} and {Q} need Mairsil free of summoning sickness. Endling, Torchling and Morphling's caged +1/-1 abilities can fix the stats. If Mairsil leaves the battlefield before the exchange resolves, nothing happens.",
+   "short": "Tree swaps opponent to Mairsil's toughness; Hateflayer {Q} deals its power.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "302.6",
+    "701.12a",
+    "701.12c"
+   ],
+   "oracle": [
+    {
+     "card": "Tree of Perdition",
+     "quote": "{T}: Exchange target opponent's life total with this creature's toughness."
+    },
+    {
+     "card": "Hateflayer",
+     "quote": "{2}{R}, {Q}: This creature deals damage equal to its power to any target."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Hateflayer",
+     "quote": "The \"summoning sickness\" rule applies to {Q}. If a creature with an {Q} ability hasn't been under your control since your most recent turn began, you can't activate that ability. Ignore this rule if the creature also has haste."
+    },
+    {
+     "card": "Tree of Perdition",
+     "quote": "If Tree of Perdition isn't on the battlefield when the ability resolves, the exchange can't happen and the ability will have no effect. Notably, activating the ability and giving Tree of Perdition -13/-13 in response won't cause your opponent to lose the game."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "2615-4449-5112",
+     "quote": "Mairsil's toughness is less than or equal to its power."
+    },
+    {
+     "id": "2615-4449-5112",
+     "quote": "Activate Mairsil using Hateflayer's ability by paying {2}{R} and untapping it, dealing damage equal to Mairsil's power to the opponent."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "mairsil-04",
+   "category": "combo",
+   "title": "Aetherling + Nevinyrral's Disk + Anger: a wrath every turn",
+   "cards": [
+    "Mairsil, the Pretender",
+    "Aetherling",
+    "Nevinyrral's Disk",
+    "Anger"
+   ],
+   "ruling": "With Disk and Aetherling caged, Anger in your graveyard and a Mountain in play:\n1. Activate Disk's ability ({1}, {T}) on Mairsil.\n2. Holding priority, pay {U} for Aetherling's exile ability. Mairsil is exiled and returns at the beginning of the next end step.\n3. The wrath resolves without Mairsil on the battlefield.\n\nWhen Mairsil returns, its cage trigger fires again. As a new object it has fresh activations, and Anger's haste lets it tap for Disk on the next turn, so you can repeat on every player's turn. Exiling your commander gives you the option to put it into the command zone; decline it. Only Mountain-typed lands keep Anger working (Volcanic Island, Badlands, Steam Vents, Blood Crypt). Your own artifacts die to every wrath too.",
+   "short": "Disk, then blink Mairsil with Aetherling in response; Anger haste repeats it each turn.",
+   "status": "verified",
+   "cr": [
+    "903.9a",
+    "400.7",
+    "702.10c"
+   ],
+   "oracle": [
+    {
+     "card": "Aetherling",
+     "quote": "{U}: Exile this creature. Return it to the battlefield under its owner's control at the beginning of the next end step."
+    },
+    {
+     "card": "Anger",
+     "quote": "As long as this card is in your graveyard and you control a Mountain, creatures you control have haste."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Aetherling",
+     "quote": "Aetherling's first ability will return it to the battlefield only if that ability also exiled it. If Aetherling left the battlefield in response to that ability, it won't return, even if it was exiled by another spell or ability."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "1050-4068-4439-5112",
+     "quote": "Holding priority, activate Mairsil using Aetherling's first ability by paying {U}, exiling it and returning it to the battlefield at beginning of the next end step."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "mairsil-05",
+   "category": "combo",
+   "title": "Rings of Brighthearth + Aphetto Alchemist + Gilded Lotus",
+   "cards": [
+    "Rings of Brighthearth",
+    "Aphetto Alchemist",
+    "Gilded Lotus"
+   ],
+   "ruling": "This combo doesn't need Mairsil, and all three cards are on the battlefield. Tap Gilded Lotus for three mana, then tap Aphetto Alchemist to untap Lotus. Pay {2} to Rings to copy that ability, and point the copy at the Alchemist. Each loop nets one mana. Lotus's ability is a mana ability, so Rings can't copy it, but the Alchemist's ability is targeted, so it's not a mana ability and can be copied. Rings's {2} is paid when its trigger resolves, so it isn't an activation cost and Training Grounds can't reduce it.",
+   "status": "verified",
+   "cr": [
+    "605.1a",
+    "707.10"
+   ],
+   "oracle": [
+    {
+     "card": "Rings of Brighthearth",
+     "quote": "Whenever you activate an ability, if it isn't a mana ability, you may pay {2}. If you do, copy that ability. You may choose new targets for the copy."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Rings of Brighthearth",
+     "quote": "You can't pay {2} more than once for each time the triggered ability of Rings of Brighthearth resolves."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "4091-4235-5116",
+     "quote": "Rings of Brighthearth triggers, allowing you to pay {2} to copy Aphetto Alchemist's ability and choose a new target for the copy."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "mairsil-06",
+   "category": "engine",
+   "title": "Pack Rat caged: discard to copy Mairsil; Rings copies the activation",
+   "cards": [
+    "Mairsil, the Pretender",
+    "Pack Rat",
+    "Rings of Brighthearth",
+    "Training Grounds",
+    "Anger",
+    "Thousand-Year Elixir"
+   ],
+   "ruling": "Caged Pack Rat gives Mairsil \"{2}{B}, Discard a card: Create a token that's a copy of Mairsil.\" The token copies Mairsil's printed static ability, so it has all caged abilities too. Its cage trigger fires even though the legend rule then removes one copy, and it can cage the card you just discarded. If you keep the token, its abilities are new instances, but tap abilities need haste (Anger) or Thousand-Year Elixir. The original Mairsil then goes to the graveyard or command zone, and recasting it later costs commander tax. Rings copies the Pack Rat activation without the discard. A copied ability isn't activated, so it doesn't use up Mairsil's once-per-turn limit. Training Grounds makes the activation cost just {B}.",
+   "short": "Pack Rat = discard-to-cage engine; Rings copies it free of the discard; Training Grounds makes it {B}.",
+   "status": "verified",
+   "cr": [
+    "704.5j",
+    "707.2",
+    "707.10"
+   ],
+   "oracle": [
+    {
+     "card": "Pack Rat",
+     "quote": "{2}{B}, Discard a card: Create a token that's a copy of this creature."
+    },
+    {
+     "card": "Training Grounds",
+     "quote": "Activated abilities of creatures you control cost {2} less to activate. This effect can't reduce the mana in that cost to less than one mana."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Mairsil, the Pretender",
+     "quote": "If you have a creature enter the battlefield as a copy of Mairsil, its first ability triggers. You won't be able to activate any abilities before the \"legend rule\" applies, but the triggered ability will still let you exile another card with a cage counter regardless of which Mairsil you keep."
+    },
+    {
+     "card": "Training Grounds",
+     "quote": "Training Grounds won't affect a cost that isn't the cost to activate a creature's activated ability. For example, it won't affect Flameblast Dragon's {X}{R} cost, since that's a cost paid when a triggered ability resolves, and it won't affect a kicker cost, since that's an additional cost to cast a spell."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md",
+     "quote": "Rings can copy the Pack Rat activation; the copied ability does not require paying the discard cost again"
+    }
+   ]
+  },
+  {
+   "id": "mairsil-07",
+   "category": "layers",
+   "title": "Spark Double copies the cage ability, not the gained abilities",
+   "cards": [
+    "Mairsil, the Pretender",
+    "Spark Double"
+   ],
+   "ruling": "Spark Double enters as a nonlegendary copy of Mairsil with a +1/+1 counter, so the legend rule doesn't apply and the cage trigger fires. It doesn't copy the abilities Mairsil has gained. It does copy Mairsil's printed static ability, though, so on its own it has every caged ability with its own once-per-turn limits. That counter also gives a caged Walking Ballista's \"remove a +1/+1 counter\" ability something to remove. Spark Double needs haste to use the {T} abilities on the turn it enters.",
+   "status": "verified",
+   "cr": [
+    "707.2",
+    "707.9b",
+    "302.6"
+   ],
+   "oracle": [
+    {
+     "card": "Spark Double",
+     "quote": "You may have this creature enter as a copy of a creature or planeswalker you control, except it enters with an additional +1/+1 counter on it if it's a creature, it enters with an additional loyalty counter on it if it's a planeswalker, and it isn't legendary."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Spark Double",
+     "quote": "Spark Double copies exactly what was printed on the original permanent (unless that permanent is copying something else or is a token; see below). It doesn’t copy whether that permanent is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md",
+     "quote": "Spark Double copies Mairsil's printed static cage ability, so once on the battlefield it independently gains all activated abilities from the owner's caged cards"
+    }
+   ]
+  },
+  {
+   "id": "mairsil-08",
+   "category": "zone",
+   "title": "Blink resets: Essence Flux, Displacer Kitten, Arcanis, Minamo / Patriar's Seal untaps",
+   "cards": [
+    "Mairsil, the Pretender",
+    "Essence Flux",
+    "Displacer Kitten",
+    "Arcanis the Omnipotent",
+    "Minamo, School at Water's Edge",
+    "Patriar's Seal"
+   ],
+   "ruling": "Blinked by Essence Flux or Displacer Kitten, Mairsil comes back as a new object. You get another cage trigger and fresh instances of every caged ability. Caged cards stay caged. Kitten triggers on every noncreature spell, and that includes Faithless Looting's flashback. A blinked Mairsil needs haste for {T} abilities that turn. Caged Arcanis gives \"{2}{U}{U}: Return Mairsil to its owner's hand\" for a recast-and-cage. Minamo ({U},{T}) and Patriar's Seal ({1},{T}) untap Mairsil because it's legendary, which gives a second use of a caged tap ability.",
+   "status": "verified",
+   "cr": [
+    "400.7",
+    "302.6"
+   ],
+   "oracle": [
+    {
+     "card": "Displacer Kitten",
+     "quote": "Whenever you cast a noncreature spell, exile up to one target nonland permanent you control, then return that card to the battlefield under its owner's control."
+    },
+    {
+     "card": "Minamo, School at Water's Edge",
+     "quote": "{U}, {T}: Untap target legendary permanent."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Displacer Kitten",
+     "quote": "When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled. Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md",
+     "quote": "the returned card is explicitly a new object, producing another cage ETB and fresh activation instances"
+    }
+   ]
+  },
+  {
+   "id": "mairsil-09",
+   "category": "dependency",
+   "title": "Drawbacks stay behind: Asmodeus, Minion of Leshrac, Shauku",
+   "cards": [
+    "Mairsil, the Pretender",
+    "Asmodeus the Archfiend",
+    "Minion of Leshrac",
+    "Shauku, Endbringer"
+   ],
+   "ruling": "Mairsil gains only activated abilities, so the drawbacks don't come along:\n- **Asmodeus:** {B}{B}{B} draws seven real cards, because Binding Contract is a static replacement on Asmodeus. Asmodeus's {B} return ability is linked to that static ability, so on Mairsil it returns nothing.\n- **Minion of Leshrac:** Mairsil gets \"{T}: Destroy target creature or land\" with no upkeep damage.\n- **Shauku:** Mairsil gets \"{T}: Exile target creature\" with no life loss or attack restriction.",
+   "short": "Asmodeus draws seven for real; Minion/Shauku removal without upkeep costs.",
+   "status": "verified",
+   "cr": [
+    "113.3b",
+    "607.1"
+   ],
+   "oracle": [
+    {
+     "card": "Asmodeus the Archfiend",
+     "quote": "{B}{B}{B}: Draw seven cards."
+    },
+    {
+     "card": "Minion of Leshrac",
+     "quote": "{T}: Destroy target creature or land."
+    },
+    {
+     "card": "Shauku, Endbringer",
+     "quote": "{T}: Exile target creature and put a +1/+1 counter on Shauku."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Mairsil, the Pretender",
+     "quote": "Activated abilities contain a colon. They're generally written \"[Cost]: [Effect].\" Some keyword abilities (such as equip) are activated abilities and will have colons in their reminder text. Mairsil won't gain triggered abilities (which start with \"when,\" \"whenever,\" or \"at\")."
+    },
+    {
+     "card": "Mairsil, the Pretender",
+     "quote": "If Mairsil gains an activated ability that's normally linked to a non-activated ability of the card it came from, the ability Mairsil has isn't linked to any ability. For example, if Mairsil exiles Prototype Portal, the activated ability creates no tokens at all; it doesn't create Prototype Portal tokens."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md",
+     "quote": "the caged `{B}{B}{B}: Draw seven cards` therefore draws normally"
+    }
+   ]
+  },
+  {
+   "id": "mairsil-10",
+   "category": "dependency",
+   "title": "Marvin, Murderous Mimic copies Mairsil's acquired abilities — without the once-per-turn limit?",
+   "cards": [
+    "Mairsil, the Pretender",
+    "Marvin, Murderous Mimic"
+   ],
+   "ruling": "Marvin has all activated abilities of your other creatures, so it has the caged abilities Mairsil has. Marvin's ruling confirms it doesn't gain static abilities. The source argues that Mairsil's once-each-turn restriction is a separate static ability, so Marvin's instances aren't limited. If so, Marvin with caged Gilded Lotus and Morphling or Horseshoe Crab untaps itself for {U} and nets {U}{U} per loop with no Quicksilver Elemental. No official ruling covers whether \"those abilities\" in Mairsil's restriction reach the abilities Marvin gets.",
+   "status": "uncertain",
+   "uncertainty": "No official ruling on whether Mairsil's once-each-turn restriction applies to Marvin's instances; this list's Marvin line depends on it.",
+   "cr": [
+    "113.3b",
+    "602.5b"
+   ],
+   "oracle": [
+    {
+     "card": "Marvin, Murderous Mimic",
+     "quote": "Marvin has all activated abilities of creatures you control that don't have the same name as this creature."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Marvin, Murderous Mimic",
+     "quote": "Marvin gains only activated abilities. It doesn't gain triggered abilities or static abilities. Activated abilities contain a colon. They're generally written \"[Cost]: [Effect].\" Some keywords are activated abilities and may have colons in their reminder text."
+    }
+   ],
+   "evidence_class": "hypothesis",
+   "source": [
+    {
+     "path": "refinement/verification/Mairsil_the_Pretender_Approval_Ready_Verification_2026-10-14.md",
+     "quote": "Mairsil's separate once-per-turn restriction is static, so Marvin provides a parallel activated-ability engine without inheriting that restriction"
+    }
+   ]
+  },
+  {
+   "id": "mairsil-11",
+   "category": "timing",
+   "title": "Thousand-Year Elixir lets new Mairsils tap but not attack; Wishclaw can't be used from the cage",
+   "cards": [
+    "Mairsil, the Pretender",
+    "Thousand-Year Elixir",
+    "Wishclaw Talisman",
+    "Lightning Greaves"
+   ],
+   "ruling": "Thousand-Year Elixir lets a Mairsil that just entered (a recast, blinked or Pack Rat copy) use {T} abilities at once, but it doesn't give haste for attacking. Lightning Greaves gives real haste, plus shroud. Your own Minamo, Patriar's Seal and Elixir untaps can't target a shrouded Mairsil, though its abilities still work. Don't cage Wishclaw Talisman: on Mairsil its cost asks you to remove a wish counter from Mairsil, which has none. Cast Wishclaw as a tutor instead.",
+   "status": "verified",
+   "cr": [
+    "302.6",
+    "702.18a",
+    "118.3"
+   ],
+   "oracle": [
+    {
+     "card": "Thousand-Year Elixir",
+     "quote": "You may activate abilities of creatures you control as though those creatures had haste."
+    },
+    {
+     "card": "Wishclaw Talisman",
+     "quote": "{1}, {T}, Remove a wish counter from this artifact: Search your library for a card, put it into your hand, then shuffle. An opponent gains control of this artifact. Activate only during your turn."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Thousand-Year Elixir",
+     "quote": "Thousand-Year Elixir doesn’t actually grant haste to creatures you control, nor does it let you attack with them as though they had haste."
+    }
+   ],
+   "evidence_class": "fact"
+  }
+ ]
+}

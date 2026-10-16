@@ -1,0 +1,437 @@
+{
+ "schema": 1,
+ "deck_id": "Mishra__Eminent_One",
+ "slug": "mishra-eminent-one",
+ "commanders": [
+  "Mishra, Eminent One"
+ ],
+ "deck_sha256": "13f54e4dd95e420371a70b002cd959c580fcbc9d7f360367288c8784da86caaf",
+ "list_source": "exports/grixis-archidekt/mishra-eminent-one.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 51,
+ "batch": "D",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/Mishra_Eminent_One_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification; rules sections 5–12 re-checked against Oracle, rulings and CR"
+  }
+ ],
+ "summary": "Each combat, Mishra makes a hasty 4/4 Warform copy of a noncreature artifact. The list copies Gonti's Aether Heart for infinite turns, Worldwalker Helm (with Urza and Elixir) for infinite mana, and Mindslaver for turn control, plus value and removal artifacts that trigger on both entering and dying. All 22 Spellbook lines in the canonical list are covered; representative ones are cited.\n\nRules surprises: Helm copies of the Warform keep the name and 4/4 body but lose haste, and they aren't sacrificed; Esoteric Duplicator copies from Mishra's end-step sacrifice arrive a turn later; a One Ring Warform gives no protection; a Portal to Phyrexia Warform edicts but never reanimates. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "mishraeo-01",
+   "category": "layers",
+   "title": "Mishra's Warform: a hasty 4/4 copy of a noncreature artifact, sacrificed at end step",
+   "cards": [
+    "Mishra, Eminent One"
+   ],
+   "ruling": "At the beginning of combat on your turn, Mishra copies target noncreature artifact you control. The token is named Mishra's Warform and is a 4/4 Construct artifact creature in addition to its other types. Those exceptions are part of its copiable values. It keeps the original's abilities, mana cost and mana value, but not counters or tapped status. X in the cost counts as 0. ETB abilities trigger, and haste lets you use {T} abilities right away. A Warform of a legendary artifact is still legendary. It doesn't clash with the original, which has a different name, but two legendary Warforms do.",
+   "short": "Hasty 4/4 token copy (renamed Mishra's Warform) keeps abilities and mana value; sacrificed at end step.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "707.9b",
+    "707.2",
+    "704.5j"
+   ],
+   "oracle": [
+    {
+     "card": "Mishra, Eminent One",
+     "quote": "At the beginning of combat on your turn, create a token that's a copy of target noncreature artifact you control, except its name is Mishra's Warform and it's a 4/4 Construct artifact creature in addition to its other types. It gains haste until end of turn. Sacrifice it at the beginning of the next end step."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Mishra, Eminent One",
+     "quote": "Except for name, power, toughness, and types, the token copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else or it is a token; see below). It doesn’t copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras attached to it, and so on."
+    },
+    {
+     "card": "Mishra, Eminent One",
+     "quote": "If the copied permanent has {X} in its mana cost, X is 0."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Mishra_Eminent_One_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "A copied legendary artifact produces a legendary Warform; multiple legendary permanents named Mishra's Warform are subject to the legend rule."
+    }
+   ]
+  },
+  {
+   "id": "mishraeo-02",
+   "category": "combo",
+   "title": "Gonti's Aether Heart infinite turns: Determined Iteration / Strionic Resonator / Lithoform Engine / Worldwalker Helm / Brudiclad",
+   "cards": [
+    "Mishra, Eminent One",
+    "Gonti's Aether Heart",
+    "Determined Iteration",
+    "Strionic Resonator",
+    "Lithoform Engine",
+    "Worldwalker Helm",
+    "Brudiclad, Telchor Engineer"
+   ],
+   "ruling": "A Warform copy of Gonti's Aether Heart has the Heart's energy trigger, and \"Gonti's Aether Heart\" in it now means the Warform. When it enters, both the original and the Warform trigger, for {E}{E}{E}{E}. One more artifact entering after that gives 4+ more, enough for eight. Options:\n- Copy Mishra's trigger with Strionic Resonator or Lithoform Engine.\n- Determined Iteration's populate: order Mishra's trigger to resolve first. Populate doesn't target, so it can copy the new Warform.\n- Worldwalker Helm's extra Map.\n- Brudiclad's Myr.\n\nThen pay eight energy and exile the Warform (not the original) for an extra turn. The original Heart stays, so you repeat it every turn.",
+   "short": "Warform Heart + one more artifact ETB = 8 energy → exile the Warform for an extra turn, every turn.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.3b",
+    "701.36a",
+    "500.7"
+   ],
+   "oracle": [
+    {
+     "card": "Gonti's Aether Heart",
+     "quote": "Whenever Gonti's Aether Heart or another artifact you control enters, you get {E}{E} (two energy counters)."
+    },
+    {
+     "card": "Determined Iteration",
+     "quote": "At the beginning of combat on your turn, populate. The token created this way gains haste. Sacrifice it at the beginning of the next end step."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Determined Iteration",
+     "quote": "Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control."
+    },
+    {
+     "card": "Gonti's Aether Heart",
+     "quote": "Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana \"of any type\" can't give you energy counters."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "3934-4636-5159",
+     "quote": "Resolve the Mishra trigger, creating a 4/4 artifact creature token copy of Gonti's Aether Heart named Mishra's Warform."
+    },
+    {
+     "id": "2751-4636-5159",
+     "quote": "Holding priority, activate Strionic Resonator by paying {2} and tapping it, copying Mishra's trigger."
+    },
+    {
+     "id": "4636-5159-5491",
+     "quote": "Activate Mishra's Warform by paying eight {E} and exiling it, causing you to take an extra turn after this one."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Mishra_Eminent_One_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Determined Iteration's populate instruction does not target the token in advance; on resolution it can copy the newly created creature token."
+    }
+   ]
+  },
+  {
+   "id": "mishraeo-03",
+   "category": "combo",
+   "title": "Worldwalker Helm + Urza + Thousand-Year Elixir: infinite Warforms, Maps and {U}",
+   "cards": [
+    "Mishra, Eminent One",
+    "Worldwalker Helm",
+    "Urza, Lord High Artificer",
+    "Thousand-Year Elixir"
+   ],
+   "ruling": "Mishra copies Worldwalker Helm. Helm's replacement adds a Map to every artifact token you create, including the Warform. Urza taps artifacts for {U}. The Warform's {1}{U},{T} copies an artifact token, so it copies itself, plus Maps. Copies of the Warform keep the Warform's name and 4/4 body, but not the haste (that came from Mishra's effect), so Thousand-Year Elixir lets them tap right away. Mishra's end-step sacrifice covers only the original Warform, so the copies stay.",
+   "short": "Warform Helm copies itself; Urza taps the Maps for {U}; Elixir lets copies tap = infinite.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "707.9b",
+    "614.1a",
+    "603.7c"
+   ],
+   "oracle": [
+    {
+     "card": "Worldwalker Helm",
+     "quote": "If you would create one or more artifact tokens, instead create those tokens plus an additional Map token. (It's an artifact with \"{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.\")"
+    },
+    {
+     "card": "Thousand-Year Elixir",
+     "quote": "You may activate abilities of creatures you control as though those creatures had haste."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Worldwalker Helm",
+     "quote": "Worldwaker Helm's first ability applies to all kinds of artifact tokens that its controller creates, not just Map tokens."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "457-5159-5295-5491",
+     "quote": "Activate Mishra's Warform by paying {1}{U} and tapping it, creating a token copy of it and a Map token for each Mishra's Warform and/or Worldwalker Helm you control."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Mishra_Eminent_One_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Thousand-Year Elixir allows the newly created non-hasty copies to activate tap abilities immediately."
+    }
+   ]
+  },
+  {
+   "id": "mishraeo-04",
+   "category": "combo",
+   "title": "Mindslaver Warforms: Strionic + Lithoform, Esoteric Duplicator, Emry, Academy Ruins",
+   "cards": [
+    "Mishra, Eminent One",
+    "Mindslaver",
+    "Strionic Resonator",
+    "Lithoform Engine",
+    "Esoteric Duplicator",
+    "Emry, Lurker of the Loch",
+    "Academy Ruins"
+   ],
+   "ruling": "A hasty Mindslaver Warform can pay {4}, tap and sacrifice itself the turn it's made, so you control an opponent's next turn while the real Mindslaver stays. Copying Mishra's trigger (Strionic Resonator) and the Warform's ability (Lithoform Engine) takes up to three opponents' turns each turn cycle. If one player-control effect overlaps another on the same player, the most recent one wins. Esoteric Duplicator turns each Mindslaver sacrifice into a token copy at the next end step. Emry or Academy Ruins recast or restack the real Mindslaver.",
+   "status": "verified",
+   "cr": [
+    "723.1",
+    "723.8"
+   ],
+   "oracle": [
+    {
+     "card": "Mindslaver",
+     "quote": "{4}, {T}, Sacrifice Mindslaver: You control target player during that player's next turn. (You see all cards that player could see and make all decisions for them.)"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Mindslaver",
+     "quote": "Multiple player-controlling effects that affect the same player overwrite each other. The last one to be created is the one that works."
+    },
+    {
+     "card": "Mindslaver",
+     "quote": "You can use only the affected player's resources (cards, mana, and so on) to pay costs for that player; you can't use your own. Similarly, you can use the affected player's resources only to pay that player's costs; you can't spend them on your costs."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "1167-2751-3094-5159",
+     "quote": "Resolve the first Mishra trigger, creating a token copy of Mindslaver that is a 4/4 artifact creature named Mishra's Warform in addition to it's other types."
+    },
+    {
+     "id": "1167-5483",
+     "quote": "Esoteric Duplicator triggers, causing you to pay {2} to create a copy of Mindslaver at the beginning of the next end step."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "mishraeo-05",
+   "category": "trigger-order",
+   "title": "Value Warforms: Ichor Wellspring, Prized Statue, Cryogen Relic, Nihil Spellbomb, Coveted Jewel, The Mightstone and Weakstone",
+   "cards": [
+    "Mishra, Eminent One",
+    "Ichor Wellspring",
+    "Prized Statue",
+    "Cryogen Relic",
+    "Nihil Spellbomb",
+    "Coveted Jewel",
+    "The Mightstone and Weakstone"
+   ],
+   "ruling": "A Warform of one of these triggers once when it enters and again when it's sacrificed at end step. Leaves-the-battlefield and dies triggers look back in time, so they fire before the token ceases to exist:\n- **Ichor Wellspring, Cryogen Relic:** draw twice.\n- **Prized Statue:** two Treasures.\n- **Nihil Spellbomb:** haste lets it sacrifice itself right away to exile a graveyard, then pay {B} to draw.\n- **Coveted Jewel:** draws three and can tap for three mana immediately.\n- **The Mightstone and Weakstone:** draw two or -5/-5, then taps for {C}{C}.",
+   "short": "Enter + graveyard triggers both fire on each Warform; tokens trigger before ceasing to exist.",
+   "status": "verified",
+   "cr": [
+    "603.10a",
+    "111.7",
+    "702.10c"
+   ],
+   "oracle": [
+    {
+     "card": "Ichor Wellspring",
+     "quote": "When this artifact enters or is put into a graveyard from the battlefield, draw a card."
+    },
+    {
+     "card": "Nihil Spellbomb",
+     "quote": "When this artifact is put into a graveyard from the battlefield, you may pay {B}. If you do, draw a card."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Ichor Wellspring",
+     "quote": "The ability will trigger when Ichor Wellspring is put into a graveyard from the battlefield, even if the ability that triggered when it entered hasn't resolved yet."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Mishra_Eminent_One_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "The token ceasing to exist after reaching the graveyard does not prevent the graveyard-from-battlefield trigger."
+    }
+   ]
+  },
+  {
+   "id": "mishraeo-06",
+   "category": "engine",
+   "title": "Removal Warforms: Lich's Relic, Portal to Phyrexia, Spine of Ish Sah",
+   "cards": [
+    "Mishra, Eminent One",
+    "Lich's Relic",
+    "Portal to Phyrexia",
+    "Spine of Ish Sah"
+   ],
+   "ruling": "Each of these gives removal on every combat:\n- **Lich's Relic:** a Warform copy's ETB lets you pay {2}, then destroy up to one creature or planeswalker per opponent.\n- **Portal to Phyrexia:** a Warform copy makes each opponent sacrifice three creatures. It's sacrificed at end step, before your upkeep, so you don't get the reanimation trigger.\n- **Spine of Ish Sah:** a Warform copy destroys a target permanent. Its return-to-hand trigger does nothing for a token.",
+   "status": "verified",
+   "cr": [
+    "603.12",
+    "111.8"
+   ],
+   "oracle": [
+    {
+     "card": "Lich's Relic",
+     "quote": "When this Equipment enters, you may pay {2}. When you do, for each opponent, destroy up to one target creature or planeswalker that player controls."
+    },
+    {
+     "card": "Portal to Phyrexia",
+     "quote": "When this artifact enters, each opponent sacrifices three creatures of their choice."
+    },
+    {
+     "card": "Spine of Ish Sah",
+     "quote": "When this artifact is put into a graveyard from the battlefield, return it to its owner's hand."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Mishra_Eminent_One_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "This converts each Mishra combat into repeatable multiplayer creature/planeswalker removal while the source Relic remains available to copy again."
+    }
+   ]
+  },
+  {
+   "id": "mishraeo-07",
+   "category": "timing",
+   "title": "Sorcery-speed sinks: Repurposing Bay, Uthros station, Esoteric Duplicator at end step",
+   "cards": [
+    "Mishra, Eminent One",
+    "Repurposing Bay",
+    "Uthros Research Craft",
+    "Esoteric Duplicator",
+    "Transmute Artifact"
+   ],
+   "ruling": "Use the Warform after combat:\n- **Repurposing Bay:** at sorcery speed in your postcombat main phase, sacrifice the Warform to find an artifact with mana value one higher.\n- **Uthros Research Craft:** station it precombat by tapping Mishra (power 5) for 5 counters. Mishra's combat trigger still fires while he's tapped.\n- **Esoteric Duplicator:** if the Warform is sacrificed to Mishra's own end-step trigger, the Duplicator's copy comes at the next turn's end step, because \"the next end step\" made during an end step is the following turn's.\n- **Transmute Artifact:** sacrifices on resolution, not as a cost.",
+   "status": "verified",
+   "cr": [
+    "513.2",
+    "702.184a",
+    "602.5d"
+   ],
+   "oracle": [
+    {
+     "card": "Repurposing Bay",
+     "quote": "{2}, {T}, Sacrifice another artifact: Search your library for an artifact card with mana value equal to 1 plus the sacrificed artifact's mana value, put that card onto the battlefield, then shuffle. Activate only as a sorcery."
+    },
+    {
+     "card": "Esoteric Duplicator",
+     "quote": "Whenever you sacrifice this artifact or another artifact, you may pay {2}. If you do, at the beginning of the next end step, create a token that's a copy of that artifact."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Mishra_Eminent_One_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Tapping Mishra this way does not prevent his beginning-of-combat triggered ability from triggering."
+    },
+    {
+     "path": "refinement/verification/Mishra_Eminent_One_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Warform retains the copied artifact's mana cost and mana value."
+    }
+   ]
+  },
+  {
+   "id": "mishraeo-08",
+   "category": "layers",
+   "title": "Machine God's Effigy turns creatures into Warform targets",
+   "cards": [
+    "Mishra, Eminent One",
+    "Machine God's Effigy",
+    "Master Transmuter",
+    "Goblin Welder",
+    "Goblin Engineer"
+   ],
+   "ruling": "Machine God's Effigy can enter as a copy of a creature, except it's only an artifact (not a creature) with \"{T}: Add {U}.\" Those exceptions are copiable, so Mishra can copy the Effigy. The Warform is a 4/4 hasty creature with the copied creature's abilities and the {U} mana ability. Copying Master Transmuter or Goblin Welder gives a hasty extra activation each combat. The Effigy also keeps a legendary creature's supertype and name.",
+   "status": "verified",
+   "cr": [
+    "707.9a",
+    "707.9b"
+   ],
+   "oracle": [
+    {
+     "card": "Machine God's Effigy",
+     "quote": "You may have this artifact enter as a copy of any creature on the battlefield, except it's an artifact and it has \"{T}: Add {U}.\" (It's not a creature.)"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Machine God's Effigy",
+     "quote": "If Machine God’s Effigy somehow enters the battlefield at the same time as another creature, it can’t become a copy of that creature. You may choose only a creature that’s already on the battlefield."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Mishra_Eminent_One_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Mishra can therefore later copy a noncreature Effigy; the resulting Warform becomes an artifact creature and retains the copied creature abilities plus the Effigy's added mana ability."
+    }
+   ]
+  },
+  {
+   "id": "mishraeo-09",
+   "category": "combo",
+   "title": "Strionic Resonator / Lithoform Engine Warform + KCI loop; KCI + Scrap Trawler; Emry + One Ring",
+   "cards": [
+    "Mishra, Eminent One",
+    "Strionic Resonator",
+    "Lithoform Engine",
+    "Krark-Clan Ironworks",
+    "Scrap Trawler",
+    "Myr Retriever",
+    "Emry, Lurker of the Loch",
+    "The One Ring"
+   ],
+   "ruling": "Copy Mishra's trigger with Strionic Resonator (or Lithoform Engine), aimed at the Resonator itself. The new Resonator Warform has haste, so while that trigger copy is still on the stack it can pay {2} and tap to copy it again. Then sacrifice the Warform to KCI for {C}{C}. That's mana-neutral, with infinite artifact ETBs and deaths. The KCI + Scrap Trawler + Myr Retriever loops and Emry + The One Ring also fit this list. A One Ring Warform wasn't cast, so it doesn't give protection.",
+   "status": "verified",
+   "cr": [
+    "707.10",
+    "603.10a"
+   ],
+   "oracle": [
+    {
+     "card": "Strionic Resonator",
+     "quote": "{2}, {T}: Copy target triggered ability you control. You may choose new targets for the copy."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Strionic Resonator",
+     "quote": "Strionic Resonator targets a triggered ability that has triggered and is on the stack and creates another instance of that ability on the stack. It doesn't cause any object to gain an ability."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "2751-4659-5159",
+     "quote": "Holding priority, activate Krark-Clan Ironworks by sacrificing Mishra's Warform, adding {C}{C}."
+    },
+    {
+     "id": "1329-3363-4659",
+     "quote": "The One Ring triggers, giving you protection from everything until your next turn."
+    }
+   ],
+   "evidence_class": "fact"
+  }
+ ]
+}

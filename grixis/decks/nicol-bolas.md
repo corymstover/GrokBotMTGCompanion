@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -854,6 +855,20 @@ This approval freezes `refinement/decklists/Nicol_Bolas_the_Ravager_Approved_202
 - [refinement/verification/Nicol_Bolas_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Nicol_Bolas_Whole_List_Audit_2026-10-15.md)
 - [refinement/verification/Nicol_Bolas_the_Ravager_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Nicol_Bolas_the_Ravager_Approval_Ready_Verification_2026-10-15.md)
 - [refinement/verification/Nicol_Bolas_the_Ravager_Whole_List_Audit_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Nicol_Bolas_the_Ravager_Whole_List_Audit_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 51 interaction review: **9 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Nicol Bolas — Interaction Review](../interactions/nicol-bolas.md).
+
+- **Nicol Bolas: any damage to an opponent empties that hand; the upkeep tax and Command Beacon** — Any Nicol-sourced damage to an opponent = discard hand; Command Beacon dodges commander tax. ([bolas-01](../interactions/nicol-bolas.md#bolas-01-nicol-bolas-any-damage-to-an-opponent-empties-that-hand-the-upkeep-tax-and-command-beacon))
+- **Ingris, Kediss and Dragon Tempest make Nicol the source of table-wide damage** — Ingris (on attack), Kediss (combat→each other opponent) and Dragon Tempest (on ETB) all make Nicol the damage source. ([bolas-02](../interactions/nicol-bolas.md#bolas-02-ingris-kediss-and-dragon-tempest-make-nicol-the-source-of-table-wide-damage))
+- **Whole-hand discard sets off per-card payoffs** — One hand wipe = one trigger per discarded card for every per-card payoff. ([bolas-05](../interactions/nicol-bolas.md#bolas-05-whole-hand-discard-sets-off-per-card-payoffs))
+- **Sword of Feast and Famine + Aggravated Assault: infinite combats** — Spellbook 900-3750: Sword untaps lands, Assault adds combats; repeat while you connect. ([bolas-07](../interactions/nicol-bolas.md#bolas-07-sword-of-feast-and-famine--aggravated-assault-infinite-combats))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Chandra's Ignition also hits your own creatures: Chandra's Ignition with Nicol (7 power) kills every one of your own creature payoffs (Ingris, Kediss, Sangromancer, both Tinybones, Notion Thief, Hypnotic Specter). It's a sequencing cost to document, not a list error. ([bolas-04](../interactions/nicol-bolas.md#bolas-04-chandras-ignition-also-hits-your-own-creatures))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

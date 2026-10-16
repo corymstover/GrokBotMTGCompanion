@@ -1,0 +1,366 @@
+{
+ "schema": 1,
+ "deck_id": "Marchesa__Dealer_of_Death",
+ "slug": "marchesa-dealer-of-death",
+ "commanders": [
+  "Marchesa, Dealer of Death"
+ ],
+ "deck_sha256": "0f07ba66bdbfb883b3513098988621df7b83092eb5cc08cf01669416b961d4cb",
+ "list_source": "exports/grixis-archidekt/marchesa-dealer-of-death.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 51,
+ "batch": "D",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/Marchesa_Dealer_of_Death_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification; rules sections re-checked against Oracle, rulings and CR"
+  }
+ ],
+ "summary": "Marchesa turns every targeted interaction into an optional {1} top-two dig, and fills the graveyard for Breach. Repeatable crimes come from Spatial Binding, Hex Parasite and Spellskite (paid in life), utility lands, Forbidden Orchard and Lapis Lazuli Talisman. It wins with Tainted Pact + Oracle, Breach + Brain Freeze, or Aphetto Alchemist + Hawkeye's Bow. All four Spellbook lines are confirmed against the canonical list.\n\nRules surprises: Spellskite works as a crime even with no target to change; Forbidden Orchard's mana trigger is a crime; Brain Freeze's storm copies aren't crimes; stacking Final Fortune and Last Chance doesn't give two clean turns.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "marchdod-01",
+   "category": "commander",
+   "title": "Crimes: one per spell or ability, on cast or activation, before it resolves",
+   "cards": [
+    "Marchesa, Dealer of Death"
+   ],
+   "ruling": "A crime is any spell, activated ability or triggered ability you control that targets an opponent, something an opponent controls, or a card in an opponent's graveyard. You commit it as soon as the spell is cast or the ability is put on the stack. Marchesa's trigger resolves first, and the crime still counts if that spell or ability is later countered or fizzles. Only the initial targets matter. One spell or ability is at most one crime, however many opposing things it targets. Each trigger is \"may pay {1}\": you choose one of the top two cards for your hand, and the other goes to your graveyard.",
+   "short": "Any opposing target = one crime; {1} for top-two selection, resolving before the crime.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "700.13",
+    "601.2i",
+    "405.2"
+   ],
+   "oracle": [
+    {
+     "card": "Marchesa, Dealer of Death",
+     "quote": "Whenever you commit a crime, you may pay {1}. If you do, look at the top two cards of your library. Put one of them into your hand and the other into your graveyard."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Marchesa, Dealer of Death",
+     "quote": "A player can commit only one crime per spell or ability they control. Targeting multiple opponents, permanents, spells, abilities, and/or cards with the same spell or ability doesn’t constitute committing multiple crimes."
+    },
+    {
+     "card": "Marchesa, Dealer of Death",
+     "quote": "The spell or ability that constituted a crime doesn’t have to have resolved yet or at all. As soon as you’re finished casting the spell, activating the ability, or putting the triggered ability on the stack, you’ve committed a crime."
+    },
+    {
+     "card": "Marchesa, Dealer of Death",
+     "quote": "Changing the target or targets of a spell or ability won’t affect whether or not the controller of that spell or ability has committed a crime. Only the initial targets chosen for that spell or ability are used to determine whether or not its controller committed a crime."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Marchesa_Dealer_of_Death_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "A single spell or ability can cause at most one crime."
+    }
+   ]
+  },
+  {
+   "id": "marchdod-02",
+   "category": "engine",
+   "title": "Free repeatable crimes: Spatial Binding, Hex Parasite (X=0), Spellskite",
+   "cards": [
+    "Marchesa, Dealer of Death",
+    "Spatial Binding",
+    "Hex Parasite",
+    "Spellskite"
+   ],
+   "ruling": "These turn life into crimes, with no limit on how often:\n- **Spatial Binding:** pay 1 life and target an opposing permanent.\n- **Hex Parasite:** with X = 0, pay 2 life for {B/P} and target an opposing permanent. X can be larger than the number of counters there.\n- **Spellskite:** pay 2 life for {U/P} and target an opponent's spell or ability. You can do this even if Spellskite can't become a legal target, or the spell has no targets at all. Then nothing changes, but the crime is still committed.\n\nEach activation lets you pay {1} for another Marchesa dig, so your mana sets the limit, not the number of cards.",
+   "short": "Spatial Binding (1 life), Hex Parasite X=0 / Spellskite (2 life) = repeatable crimes.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "700.13",
+    "107.4f",
+    "602.2b"
+   ],
+   "oracle": [
+    {
+     "card": "Spatial Binding",
+     "quote": "Pay 1 life: Until your next upkeep, target permanent can't phase out."
+    },
+    {
+     "card": "Hex Parasite",
+     "quote": "{X}{B/P}: Remove up to X counters from target permanent."
+    },
+    {
+     "card": "Spellskite",
+     "quote": "{U/P}: Change a target of target spell or ability to this creature."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Spellskite",
+     "quote": "You can activate Spellskite's ability even if Spellskite isn't a legal target for the target spell or ability—or even if that spell or ability has no targets. In this case, no targets are changed."
+    },
+    {
+     "card": "Hex Parasite",
+     "quote": "You may choose a value for X that’s greater than the number of counters on the targeted permanent. However, Hex Parasite only gets the bonus for counters actually removed."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Marchesa_Dealer_of_Death_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Targeting an opposing permanent is therefore a repeatable, mana-free crime source while Marchesa is present."
+    },
+    {
+     "path": "refinement/verification/Marchesa_Dealer_of_Death_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "X may be zero."
+    }
+   ]
+  },
+  {
+   "id": "marchdod-03",
+   "category": "engine",
+   "title": "Crime from lands and triggers: Urborg, Hammerheim, Talon Gates, Forbidden Orchard, Lapis Lazuli Talisman, Orcish Bowmasters",
+   "cards": [
+    "Marchesa, Dealer of Death",
+    "Urborg",
+    "Hammerheim",
+    "Talon Gates of Madara",
+    "Forbidden Orchard",
+    "Lapis Lazuli Talisman",
+    "Orcish Bowmasters"
+   ],
+   "ruling": "Crimes can come from lands and triggers too:\n- **Urborg and Hammerheim:** the {T} ability can target an opposing creature that has none of the abilities it removes.\n- **Talon Gates of Madara:** its ETB can target an opposing creature.\n- **Forbidden Orchard:** whenever you tap it for mana, its trigger targets an opponent. That's a crime every time, and the mana can pay Marchesa's {1}.\n- **Lapis Lazuli Talisman:** it triggers whenever any player casts a blue spell. Targeting an opposing permanent is a crime even if you don't pay {3}.\n- **Orcish Bowmasters:** each of its pings that targets an opponent or their creature is a crime.\n\nCopy Enchantment doesn't target, so it's never a crime.",
+   "status": "verified",
+   "cr": [
+    "700.13",
+    "603.3d"
+   ],
+   "oracle": [
+    {
+     "card": "Urborg",
+     "quote": "{T}: Target creature loses first strike or swampwalk until end of turn."
+    },
+    {
+     "card": "Forbidden Orchard",
+     "quote": "Whenever you tap this land for mana, target opponent creates a 1/1 colorless Spirit creature token."
+    },
+    {
+     "card": "Lapis Lazuli Talisman",
+     "quote": "Whenever a player casts a blue spell, you may pay {3}. If you do, untap target permanent."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Urborg",
+     "quote": "The ability can be used on a creature without First Strike or Swampwalk but has no effect."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Marchesa_Dealer_of_Death_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "The target may legally be a creature without either ability; targeting an opposing creature can therefore create a crime from a land slot."
+    }
+   ]
+  },
+  {
+   "id": "marchdod-04",
+   "category": "combo",
+   "title": "Aphetto Alchemist + Hawkeye's Bow: infinite pings",
+   "cards": [
+    "Marchesa, Dealer of Death",
+    "Aphetto Alchemist",
+    "Hawkeye's Bow",
+    "Tezzeret, Cruel Captain"
+   ],
+   "ruling": "Equip Hawkeye's Bow to Aphetto Alchemist (sorcery speed). Then tap the Alchemist to untap itself. Tapping is part of the cost, so the Bow triggers and deals 1 damage to each opponent. The Alchemist's ability then untaps it. The Bow's trigger has no target, so these pings aren't crimes. The Alchemist must not be summoning sick. Tezzeret's −3 finds the Bow (mana value 1).",
+   "short": "Bow on Alchemist, Alchemist untaps itself = infinite pings; not crimes.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "302.6",
+    "602.2b",
+    "702.6a"
+   ],
+   "oracle": [
+    {
+     "card": "Hawkeye's Bow",
+     "quote": "Whenever equipped creature becomes tapped, it deals 1 damage to each opponent."
+    },
+    {
+     "card": "Aphetto Alchemist",
+     "quote": "{T}: Untap target artifact or creature."
+    }
+   ],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "4091-7786",
+     "quote": "Activate Aphetto Alchemist by tapping it, targeting itself."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Marchesa_Dealer_of_Death_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Repeating this loop deals deterministic lethal damage to all opponents."
+    }
+   ]
+  },
+  {
+   "id": "marchdod-05",
+   "category": "combo",
+   "title": "Tainted Pact + Thassa's Oracle; Breach + LED / Lotus Petal + Brain Freeze",
+   "cards": [
+    "Marchesa, Dealer of Death",
+    "Tainted Pact",
+    "Thassa's Oracle",
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Brain Freeze"
+   ],
+   "ruling": "The list has no basic lands and no duplicate names, so Tainted Pact exiles your whole library. Thassa's Oracle then wins with devotion 1 or more. For Breach lines, Brain Freeze's copies target yourself to mill and fuel escape. Copies aimed at an opponent aren't crimes, because copies are created, not cast. The original Brain Freeze is a crime only if you target an opponent with it. Marchesa's own trigger fills the graveyard for escape.",
+   "status": "verified",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "707.10"
+   ],
+   "oracle": [
+    {
+     "card": "Tainted Pact",
+     "quote": "Repeat this process until you put a card into your hand or you exile two cards with the same name, whichever comes first."
+    }
+   ],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "1295-3093",
+     "quote": "No two cards in library share a name."
+    },
+    {
+     "id": "1368-3518-4856",
+     "quote": "You have at least six other cards in hand and/or graveyard."
+    },
+    {
+     "id": "1368-1414-4856",
+     "quote": "Cast Lotus Petal from your graveyard for its escape cost by exiling three cards besides Brain Freeze from your graveyard."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Marchesa_Dealer_of_Death_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "candidate has no duplicate card names, so Tainted Pact supports the established Oracle line."
+    }
+   ]
+  },
+  {
+   "id": "marchdod-06",
+   "category": "timing",
+   "title": "Tezzeret's 0 is a crime; Displacer Kitten resets loyalty",
+   "cards": [
+    "Marchesa, Dealer of Death",
+    "Tezzeret, Cruel Captain",
+    "Displacer Kitten"
+   ],
+   "ruling": "Tezzeret's 0 (\"untap target artifact or creature\") is a crime when you target an opposing creature or artifact. Normally you get one loyalty ability per permanent per turn. If Displacer Kitten blinks Tezzeret when you cast a noncreature spell, it returns as a new object and can activate a loyalty ability again. That still has to be in your main phase with an empty stack.",
+   "status": "verified",
+   "cr": [
+    "606.3",
+    "400.7"
+   ],
+   "oracle": [
+    {
+     "card": "Tezzeret, Cruel Captain",
+     "quote": "0: Untap target artifact or creature. If it's an artifact creature, put a +1/+1 counter on it."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Displacer Kitten",
+     "quote": "When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled. Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Marchesa_Dealer_of_Death_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "the returned Tezzeret is a new object and may activate a loyalty ability again that turn, subject to normal timing and priority."
+    }
+   ]
+  },
+  {
+   "id": "marchdod-07",
+   "category": "timing",
+   "title": "Final Fortune / Last Chance: the most recent extra turn comes first",
+   "cards": [
+    "Marchesa, Dealer of Death",
+    "Final Fortune",
+    "Last Chance"
+   ],
+   "ruling": "Each spell gives one extra turn, and you lose at the beginning of that turn's end step. If you cast both, the later one's turn comes first and you lose at the end of it, so stacking them doesn't buy a clean double turn. Use them only when the extra turn wins. Valley Floodcaller lets you cast Last Chance at instant speed. If the extra turn gets skipped, you don't lose.",
+   "status": "verified",
+   "cr": [
+    "500.7",
+    "603.7"
+   ],
+   "oracle": [
+    {
+     "card": "Final Fortune",
+     "quote": "Take an extra turn after this one. At the beginning of that turn's end step, you lose the game."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Final Fortune",
+     "quote": "If multiple \"extra turn\" effects resolve in the same turn, take them in the reverse of the order that the effects resolved. In other words, the most recently created extra turn is taken first."
+    },
+    {
+     "card": "Final Fortune",
+     "quote": "If you end up skipping the extra turn that is gained, you do not lose the game."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "marchdod-08",
+   "category": "pair",
+   "title": "Magda: once-per-turn Treasure; Mox Amber reads Marchesa",
+   "cards": [
+    "Marchesa, Dealer of Death",
+    "Magda, the Hoardmaster",
+    "Mox Amber"
+   ],
+   "ruling": "Magda makes one tapped Treasure for your first crime each turn, not for every crime. Mox Amber makes any of {U}, {B} or {R} while Marchesa is on the battlefield, since she's a legendary creature. Tezzeret is a colorless planeswalker, so with only Tezzeret, Amber makes no mana.",
+   "status": "verified",
+   "cr": [
+    "700.13",
+    "106.1b"
+   ],
+   "oracle": [
+    {
+     "card": "Magda, the Hoardmaster",
+     "quote": "Whenever you commit a crime, create a tapped Treasure token. This ability triggers only once each turn."
+    },
+    {
+     "card": "Mox Amber",
+     "quote": "{T}: Add one mana of any color among legendary creatures and planeswalkers you control."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact"
+  }
+ ]
+}

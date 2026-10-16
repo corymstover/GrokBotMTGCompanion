@@ -14,6 +14,7 @@ schema: 2
 > **Bot cycle 16 · milestone [Grixis integration](https://github.com/corymstover/GrokBotMTGCompanion/milestone/13) · issues [#59](https://github.com/corymstover/GrokBotMTGCompanion/issues/59)–[#63](https://github.com/corymstover/GrokBotMTGCompanion/issues/63).** What we took from the user's [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) repo (read-only; commit `df1abb9` in Bot cycle 16, **re-analyzed at `1836b97` in Bot cycle 37**), what was fixed, what was generalized for every color identity, and what remains. Back to [Grixis](README.md).
 
 ## Contents
+- [Bot cycle 51 interaction reviews](#bot-cycle-51-interaction-reviews)
 - [Bot cycle 49 interaction reviews](#bot-cycle-49-interaction-reviews)
 - [Bot cycle 48 interaction reviews](#bot-cycle-48-interaction-reviews)
 - [Bot cycle 46 interaction reviews](#bot-cycle-46-interaction-reviews)
@@ -29,6 +30,27 @@ schema: 2
 - [What we did not take](#what-we-did-not-take)
 - [Recommended follow-ups](#recommended-follow-ups)
 - [Reproducing](#reproducing)
+
+## Bot cycle 51 interaction reviews
+Batch D covers the next 10 decks alphabetically: Mairsil, Marchesa (Dealer of Death), Marchesa (the Black Rose), Mishra (Artificer Prodigy), Mishra (Eminent One), Missy, Nathan Drake, Nekusar, Nicol Bolas the Ravager and Nicol Bolas. That's **92 rulings: 86 verified, 1 uncertain, 5 flags**. Overall: 42/62 decks and 467 rulings. No decklist changed.
+- Every review hashes the deck's canonical project list from the M0 registry. Nicol Bolas's is its source baseline, so No Mercy is reviewed, not the challenger's Megrim.
+- **Flags** (pilot notes):
+  - Mishra AP: own stax vs own spells.
+  - Mishra AP: Void Mirror and Vexing Bauble without Mishra.
+  - Nathan Drake: Dauthi Voidwalker vs Tinybones.
+  - Nekusar: Krang doubles self-punishers.
+  - Nicol Bolas: Chandra's Ignition wipes your own creatures.
+- **Uncertain:** Mairsil + Marvin (no official ruling). The Ravager's Rings + Chain Veil variant is tagged `hypothesis`.
+- **Rules surprises:**
+  - A caged Asmodeus draws seven.
+  - Spellskite is a crime with no target to change.
+  - Uncivil Unrest doubles only the first Redcap shot.
+  - A Chalice that Mishra returns enters at X=0.
+  - Face-down Cybermen don't loop.
+  - Krang skips Nekusar's draw-step trigger.
+  - Kitten on the Arisen returns the Ravager without its Talents.
+  - Copied loyalty abilities don't move loyalty.
+  - Kediss's spread damage is noncombat.
 
 ## Bot cycle 49 interaction reviews
 Batch C covers the next 10 decks alphabetically: Gwendlyn Di Corci, Inalla, Jeleva, Kefka, Kess, Loki, Lord of Tresserhorn, Lord Xander, Lynde and Mai and Zuko. That's **99 rulings: 94 verified, 1 uncertain, 4 flags**. Overall: 32/62 decks and 375 rulings. No decklist changed.

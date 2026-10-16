@@ -1,0 +1,406 @@
+{
+ "schema": 1,
+ "deck_id": "Missy",
+ "slug": "missy",
+ "commanders": [
+  "Missy"
+ ],
+ "deck_sha256": "6127c9e74e6e7cc22f9d98b5f93038b7cd957dd70c6bf12efb1285a8d5ac129e",
+ "list_source": "exports/grixis-archidekt/missy.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 51,
+ "batch": "D",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/Missy_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification; rules sections 5–11 re-checked against Oracle, rulings and CR"
+  }
+ ],
+ "summary": "Missy returns any nonartifact creature that dies to your side as a face-down 2/2 artifact Cyberman. Free-reveal morphs (Ripper, Savants, Ambusher) loop with any free sac outlet, nonartifact wipes hand you opponents' creatures, and The Valeyard doubles her end-step villainous choice. All 17 Spellbook lines in the canonical list are covered.\n\nRules surprises: face-down Cybermen are artifacts and won't return until turned face up; Missy still returns creatures that die alongside her; opponents can pick the damage choice when you have no artifact creatures, and then nothing happens; \"chaos ensues\" does nothing here; Pipes forces a draw on every loop. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "missy-01",
+   "category": "commander",
+   "title": "Any nonartifact creature that dies returns to you face down as a 2/2 Cyberman artifact",
+   "cards": [
+    "Missy"
+   ],
+   "ruling": "Whenever another nonartifact creature dies, yours or an opponent's, Missy returns it to the battlefield under your control, face down and tapped. It's a 2/2 colorless, nameless Cyberman artifact creature. Because it's now an artifact, it won't return a second time if it dies while face down. Turn it face up first and Missy's effect ends, so it's a nonartifact creature again. Face-down cards can be turned face up with their morph cost or with an effect. Turning one face up doesn't make it enter again. Tokens that die cease to exist, so they can't come back. If an opponent's commander dies, its owner can move it to the command zone as a state-based action before Missy's trigger resolves.",
+   "short": "Nonartifact deaths return to you as face-down 2/2 artifact Cybermen; face-down Cybermen don't loop until turned face up.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "708.2",
+    "708.8",
+    "111.7",
+    "903.9a"
+   ],
+   "oracle": [
+    {
+     "card": "Missy",
+     "quote": "Whenever another nonartifact creature dies, return it to the battlefield under your control face down and tapped. It's a 2/2 Cyberman artifact creature."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Missy",
+     "quote": "Each creature turned face down this way or put onto the battlefield this way is a 2/2 Cyberman artifact creature with no name and no color."
+    },
+    {
+     "card": "Missy",
+     "quote": "If, for any reason, the face-down creature is turned face up, the effect making it a Cyberman ends. It will be whatever is printed on the card."
+    },
+    {
+     "card": "Missy",
+     "quote": "If the face-down card has a morph ability, its controller may turn it face up by paying the associated morph cost."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Missy_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Turning a face-down permanent face up does not cause it to leave and re-enter the battlefield."
+    }
+   ]
+  },
+  {
+   "id": "missy-02",
+   "category": "combo",
+   "title": "Free morph loops: Ruthless Ripper / Dragon's Eye Savants / Horde Ambusher + free sac outlet",
+   "cards": [
+    "Missy",
+    "Ruthless Ripper",
+    "Dragon's Eye Savants",
+    "Horde Ambusher",
+    "Ashnod's Altar",
+    "Phyrexian Altar",
+    "Goblin Bombardment",
+    "Viscera Seer",
+    "Altar of Dementia"
+   ],
+   "ruling": "Loop:\n1. Sacrifice the face-up creature to a free outlet.\n2. Missy returns it face down.\n3. Turn it face up by revealing a card of its color from your hand. That's a special action, so it costs no mana and doesn't use the stack.\n4. Repeat.\n\nRuthless Ripper also makes a target player lose 2 life each time it turns face up. Ashnod's Altar makes infinite colorless mana, Phyrexian Altar infinite colored, Goblin Bombardment infinite damage. With Altar of Dementia, Ripper (power 1) and Ambusher mill, but Savants (power 0) mills nothing. You need a black, blue or red card in hand to reveal.",
+   "short": "Sac → Missy returns face down → reveal-cost morph face up for free → repeat.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "702.37e",
+    "116.2b",
+    "708.8"
+   ],
+   "oracle": [
+    {
+     "card": "Ruthless Ripper",
+     "quote": "When this creature is turned face up, target player loses 2 life."
+    }
+   ],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "1794-2034-4424",
+     "quote": "Activate Ruthless Ripper's morph ability by revealing a black card from your hand, turning it face up."
+    },
+    {
+     "id": "3565-4050-4424",
+     "quote": "Activate Dragon's Eye Savants's morph ability by revealing a blue card from your hand, turning it face up."
+    },
+    {
+     "id": "1045-4424-5147",
+     "quote": "Activate Horde Ambusher's morph ability by revealing a red card from your hand, turning it face up."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Missy_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Savants has printed power 0, so Altar of Dementia alone does not mill cards in the Savants loop without a power boost."
+    }
+   ]
+  },
+  {
+   "id": "missy-03",
+   "category": "combo",
+   "title": "Grim Haruspex + Phyrexian Altar; Ixidor + Pitiless Plunderer + Ashnod's Altar",
+   "cards": [
+    "Missy",
+    "Grim Haruspex",
+    "Phyrexian Altar",
+    "Ixidor, Reality Sculptor",
+    "Pitiless Plunderer",
+    "Ashnod's Altar"
+   ],
+   "ruling": "These loops need mana instead of a reveal:\n- **Grim Haruspex:** morph costs {B}, and Phyrexian Altar's {B} from sacrificing it pays for it.\n- **Ixidor:** {2}{U} turns any face-down creature face up, morph or not, and you skip the morph cost. Sacrificing a nontoken nonartifact creature to Ashnod's Altar gives {C}{C}, and Pitiless Plunderer adds a Treasure for the {U}. So any of your creatures loops.",
+   "status": "verified",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "oracle": [
+    {
+     "card": "Ixidor, Reality Sculptor",
+     "quote": "{2}{U}: Turn target face-down creature face up."
+    },
+    {
+     "card": "Pitiless Plunderer",
+     "quote": "Whenever another creature you control dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Ixidor, Reality Sculptor",
+     "quote": "When you turn a card face up, its controller does not have to pay its Morph cost."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "631-4050-4424",
+     "quote": "Activate Grim Haruspex's morph ability by paying {B}, turning it face up."
+    },
+    {
+     "id": "419-2034-4424-4871",
+     "quote": "Activate Ixidor by paying {2}{U}, turning the creature face up."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "missy-04",
+   "category": "trigger-order",
+   "title": "Face-up multipliers: Panoptic Projektor, Pyrotechnic Performer, Aphetto Runecaster",
+   "cards": [
+    "Missy",
+    "Panoptic Projektor",
+    "Pyrotechnic Performer",
+    "Aphetto Runecaster",
+    "Ruthless Ripper"
+   ],
+   "ruling": "Panoptic Projektor makes each \"turned face up\" trigger of your permanents trigger one more time. With it, Ripper drains 4 per loop, Pyrotechnic Performer deals the creature's power twice to each opponent, and Aphetto Runecaster draws twice. Projektor's {3} discount applies only to face-down spells you cast, not to Missy's returns.",
+   "status": "verified",
+   "cr": [
+    "603.2",
+    "708.8"
+   ],
+   "oracle": [
+    {
+     "card": "Panoptic Projektor",
+     "quote": "If turning a face-down permanent face up causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time."
+    },
+    {
+     "card": "Pyrotechnic Performer",
+     "quote": "Whenever this creature or another creature you control is turned face up, that creature deals damage equal to its power to each opponent."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Panoptic Projektor",
+     "quote": "Panoptic Projektor’s last ability affects a permanent’s own abilities that trigger when it turns face up as well as other triggered abilities that trigger when that permanent turns face up. Such triggered abilities start with “when” or “whenever”."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Missy_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "It does **not** pay for turning Missy-returned permanents face up."
+    }
+   ]
+  },
+  {
+   "id": "missy-05",
+   "category": "zone",
+   "title": "Wipes and edicts become theft: Delete, Their Name Is Death, Doomsday Confluence, Grave Pact, Accursed Marauder",
+   "cards": [
+    "Missy",
+    "Delete",
+    "Their Name Is Death",
+    "Doomsday Confluence",
+    "Grave Pact",
+    "Accursed Marauder",
+    "Toxic Deluge"
+   ],
+   "ruling": "Your Cybermen are artifacts, so they survive the nonartifact wipes:\n- **Delete:** X damage to each nonartifact creature and each player.\n- **Their Name Is Death:** destroys all nonartifact creatures.\n- **Doomsday Confluence:** its edict mode makes each player sacrifice a nonartifact creature.\n\nEvery nonartifact creature that dies, including opponents', comes back to you as a Cyberman. Grave Pact and Accursed Marauder edicts do the same. If Missy dies in the same wipe, she still returns the others, because her trigger looks back at the moment of death.",
+   "short": "Nonartifact wipes/edicts spare your Cybermen and hand you their creatures; Missy sees simultaneous deaths.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.10a",
+    "603.6c"
+   ],
+   "oracle": [
+    {
+     "card": "Delete",
+     "quote": "Delete deals X damage to each nonartifact creature and each player."
+    },
+    {
+     "card": "Their Name Is Death",
+     "quote": "Destroy all nonartifact creatures."
+    },
+    {
+     "card": "Grave Pact",
+     "quote": "Whenever a creature you control dies, each other player sacrifices a creature of their choice."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Missy_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "asymmetric wipes"
+    }
+   ]
+  },
+  {
+   "id": "missy-06",
+   "category": "engine",
+   "title": "Villainous choices: The Valeyard doubles them; the draw option has no chaos payoff here",
+   "cards": [
+    "Missy",
+    "The Valeyard",
+    "The Master, Gallifrey's End",
+    "Cyberman Patrol",
+    "Cybermen Squadron"
+   ],
+   "ruling": "At your end step, each opponent in turn order chooses: each artifact creature you control deals 1 damage to them, or you draw a card. \"Chaos ensues\" matters only to abilities that trigger on chaos, like plane cards, and nothing in this list has one. They can pick the damage option even if you control no artifact creatures, and then nothing happens. The Valeyard makes each opponent face the choice twice, and they can choose differently each time. The Master gives a separate choice when a nontoken artifact creature you control dies, such as a face-down Cyberman: lose 4 life, or you make a token copy of the exiled card. Cyberman Patrol (afflict 3) and Cybermen Squadron (myriad) make the Cybermen hit harder.",
+   "status": "verified",
+   "cr": [
+    "701.55a",
+    "701.55b",
+    "701.55c",
+    "701.55d"
+   ],
+   "oracle": [
+    {
+     "card": "Missy",
+     "quote": "At the beginning of your end step, each opponent faces a villainous choice — Each artifact creature you control deals 1 damage to that opponent, or you draw a card and chaos ensues."
+    },
+    {
+     "card": "The Valeyard",
+     "quote": "If an opponent would face a villainous choice, they face that choice an additional time. (They can make the same or different choices.)"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Missy",
+     "quote": "A player facing a villainous choice can always choose either option, even if one or both of the options are impossible. For example, if one of the options is to sacrifice a creature, a player who controls no creatures can still choose that option."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Missy_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "The Valeyard directly doubles the commander-specific choice event for each opponent."
+    }
+   ]
+  },
+  {
+   "id": "missy-07",
+   "category": "zone",
+   "title": "Turning stolen Cybermen face up: Etrata, Skirk Alarmist, Ugin's Mastery, Ixidor",
+   "cards": [
+    "Missy",
+    "Etrata, Deadly Fugitive",
+    "Skirk Alarmist",
+    "Ugin's Mastery",
+    "Ixidor, Reality Sculptor"
+   ],
+   "ruling": "A creature Missy brings back stays under your control after it's turned face up, because the control effect isn't part of the Cyberman effect. Ways to flip one:\n- **Etrata:** gives face-down creatures \"{2}{U}{B}: turn this face up\". If that's impossible, you exile it and may cast it free.\n- **Skirk Alarmist:** flips one but sacrifices it at the next end step. If that's during the end step, the sacrifice waits until the following turn.\n- **Ugin's Mastery:** flips one when you attack with total power 6 or more.\n- **Ixidor:** flips any.\n\nA flipped stolen creature becomes a nonartifact creature, so it returns again if it dies.",
+   "status": "verified",
+   "cr": [
+    "708.8",
+    "116.2b"
+   ],
+   "oracle": [
+    {
+     "card": "Etrata, Deadly Fugitive",
+     "quote": "Face-down creatures you control have \"{2}{U}{B}: Turn this creature face up. If you can't, exile it, then you may cast the exiled card without paying its mana cost.\""
+    },
+    {
+     "card": "Skirk Alarmist",
+     "quote": "{T}: Turn target face-down creature you control face up. At the beginning of the next end step, sacrifice it."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Skirk Alarmist",
+     "quote": "If this ability is used during the end step, the creature is not sacrificed until the end of the next turn."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "missy-08",
+   "category": "engine",
+   "title": "Morph interaction rebuys: Willbender, Boltbender, Stratus Dancer, Kadena's Silencer",
+   "cards": [
+    "Missy",
+    "Willbender",
+    "Boltbender",
+    "Stratus Dancer",
+    "Kadena's Silencer"
+   ],
+   "ruling": "When one of these dies, Missy returns it face down. Turning it face up again for its morph or disguise cost ({1}{U} or {1}{R}) recasts the trigger: redirect, retarget, counter an instant or sorcery, or counter all opponents' abilities. Megamorph also adds a +1/+1 counter. These Missy returns have no ward, because ward comes from casting with disguise.",
+   "status": "verified",
+   "cr": [
+    "702.37e",
+    "702.37b",
+    "702.168a",
+    "702.168d"
+   ],
+   "oracle": [
+    {
+     "card": "Willbender",
+     "quote": "When this creature is turned face up, change the target of target spell or ability with a single target."
+    },
+    {
+     "card": "Kadena's Silencer",
+     "quote": "When this creature is turned face up, counter all abilities your opponents control."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "missy-09",
+   "category": "dependency",
+   "title": "They Came from the Pipes draws on every face-down entry, including each loop",
+   "cards": [
+    "Missy",
+    "They Came from the Pipes",
+    "Cybership",
+    "The Cyber-Controller",
+    "Death in Heaven"
+   ],
+   "ruling": "Every Missy return is a face-down creature entering, so They Came from the Pipes draws a card each time. In an infinite loop that's a draw per iteration. The draws are mandatory, so stop before you deck yourself. Cybership, The Cyber-Controller and Death in Heaven also put opponents' creature cards onto the battlefield face down as Cybermen under your control, and each of those draws with Pipes too.",
+   "status": "verified",
+   "cr": [
+    "708.2",
+    "121.4"
+   ],
+   "oracle": [
+    {
+     "card": "They Came from the Pipes",
+     "quote": "Whenever a face-down creature you control enters, draw a card."
+    },
+    {
+     "card": "Cybership",
+     "quote": "Whenever this Vehicle deals combat damage to a player, put the top two cards of that player's library onto the battlefield face down under your control. They're 2/2 Cyberman artifact creatures."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Missy_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "Cybership is therefore a direct commander-identity theft/Cyberman engine rather than a generic six-drop."
+    }
+   ]
+  }
+ ]
+}
