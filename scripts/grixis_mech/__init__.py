@@ -14,17 +14,18 @@ its cut/add cards route to (router.py); anything unrouted stays not_modelable wi
 """
 from __future__ import annotations
 
-FRAMEWORK_VERSION = "1.2-mech.7"
+FRAMEWORK_VERSION = "1.2-mech.8"
 EVIDENCE_CLASS = "test_result"
 FORBIDDEN_METRICS = ("win_rate", "multiplayer_win_rate", "win_probability")
 
-from . import combat, graveyard, self_recursion, death_triggers, sacrifice, engines, stack, costs  # noqa: E402
+from . import combat, graveyard, self_recursion, death_triggers, sacrifice, engines, stack, costs, tutors  # noqa: E402
 
 MODULES = {m.SPEC["id"]: m for m in (combat, graveyard, self_recursion, death_triggers, sacrifice,
                                      engines.CastTriggers, engines.RepeatableDraw, engines.ActivatedEngines,
                                      engines.TokenMakers, engines.SacrificeAdditionalCost,
                                      stack.Counterspells, stack.StackProtection,
-                                     costs.XSpells, costs.AlternateCosts)}
+                                     costs.XSpells, costs.AlternateCosts,
+                                     tutors.GraveyardTutoring, tutors.RepeatableTutors)}
 
 
 def registry():
