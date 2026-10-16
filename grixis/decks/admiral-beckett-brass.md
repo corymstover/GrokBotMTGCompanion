@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -420,6 +421,20 @@ Source: [refinement/decisions/Admiral_Beckett_Brass_Candidate_Decisions_2026-10-
 - [refinement/verification/Admiral_Beckett_Brass_Source_Reconciliation_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Admiral_Beckett_Brass_Source_Reconciliation_2026-10-13.md)
 - [refinement/verification/Admiral_Beckett_Brass_Whole_List_Pass4_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Admiral_Beckett_Brass_Whole_List_Pass4_2026-10-13.md)
 - [refinement/verification/Admiral_Beckett_Brass_v3_Review_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Admiral_Beckett_Brass_v3_Review_2026-10-13.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 46 interaction review: **16 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Admiral Beckett Brass — Interaction Review](../interactions/admiral-beckett-brass.md).
+
+- **Three different Pirates, same player, combat damage, this turn** — Three different Pirates must deal combat damage to the same player; history counts, theft is permanent. ([beckett-01](../interactions/admiral-beckett-brass.md#beckett-01-three-different-pirates-same-player-combat-damage-this-turn))
+- **One target, even if several players qualify** — One steal per trigger; Roaming Throne (Pirate) makes it two, with separate targets. ([beckett-02](../interactions/admiral-beckett-brass.md#beckett-02-one-target-even-if-several-players-qualify))
+- **Don Andres and Coercive Recruiter turn stolen creatures into Pirates** — Stolen creatures become Pirates (Don Andres, Coercive Recruiter) and count for Beckett. ([beckett-04](../interactions/admiral-beckett-brass.md#beckett-04-don-andres-and-coercive-recruiter-turn-stolen-creatures-into-pirates))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Kari Zev's Ragavan token is a Monkey, not a Pirate: Easy miscount: the Ragavan token never counts as one of Beckett's three Pirates. Count Kari Zev herself, not her token. ([beckett-03](../interactions/admiral-beckett-brass.md#beckett-03-kari-zevs-ragavan-token-is-a-monkey-not-a-pirate))
+- ⚠️ uncertain Roaming Throne naming Pirate doubles the deck's Pirate triggers: With Breeches, Eager Pillager, an extra trigger after all three modes have been chosen that turn has no legal mode. The CR on modal triggers whose modes are used up applies, but no card-specific ruling confirms it. ([beckett-09](../interactions/admiral-beckett-brass.md#beckett-09-roaming-throne-naming-pirate-doubles-the-decks-pirate-triggers))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
