@@ -1596,7 +1596,7 @@ schema: 2
 - **Rulings** (2):
   - *2011-01-22* — Gravecrawler's ability doesn't change when you could cast it.
   - *2011-01-22* — Once you've cast Gravecrawler and it's on the stack, it doesn't matter if you lose control of the other Zombie.
-- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/G.md#gravecrawler)
+- **Referenced in:** 5 pages (4 decks · 1 card data) → [reverse index](../../references/G.md#gravecrawler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/93/gravecrawler) · oracle_id `09ff28b1-b6c9-48e6-b12e-2f0e644f709f` · printing: TDC #93 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grave Defiler
@@ -1865,7 +1865,7 @@ schema: 2
   - *2023-09-01* — In a Two-Headed Giant game, when a creature you control dies, Grave Pact's triggered ability will cause each other player, including your teammate, to sacrifice a creature. Grave Pact's ability won't trigger when a creature your teammate controls dies.
   - *2023-09-01* — None of the players are targeted. A player with hexproof would still sacrifice a creature.
   - *2023-09-01* — When the triggered ability resolves, first the player whose turn it is (if it isn't your turn) chooses which creature they will sacrifice, then each other player in turn order does the same, then all chosen creatures are sacrificed at the same time.
-- **Referenced in:** 9 pages (5 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/G.md#grave-pact)
+- **Referenced in:** 10 pages (6 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/G.md#grave-pact)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/165/grave-pact) · oracle_id `6f4ac4a4-53ec-4bc9-8f5c-d4b801d867b2` · printing: CMM #165 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grave Peril

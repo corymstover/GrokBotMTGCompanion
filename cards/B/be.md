@@ -3176,7 +3176,7 @@ schema: 2
   - *2023-09-01* — If you copy a bargained spell, the copy is also bargained. If a card or token enters the battlefield as a copy of a permanent that's already on the battlefield, the new permanent isn't bargained, even if the original was.
   - *2023-09-01* — Some instant and sorcery spells require additional targets if they're bargained. You ignore those targeting requirements if those spells aren't bargained, and you can't bargain those spells unless you can choose the appropriate targets. On the other hand, you can bargain a permanent spell even if you won't be able to choose targets for an enters-the-battlefield ability of that permanent once the spell resolves.
   - *2023-09-01* — You may sacrifice only one artifact, enchantment, or token to pay a spell's bargain cost.
-- **Referenced in:** 13 pages (10 decks · 2 edh guides · 1 rules) → [reverse index](../../references/B.md#beseech-the-mirror)
+- **Referenced in:** 14 pages (11 decks · 2 edh guides · 1 rules) → [reverse index](../../references/B.md#beseech-the-mirror)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/82/beseech-the-mirror) · oracle_id `cbbe535b-12d6-4e6c-8b26-9220f06a1604` · printing: WOE #82 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Beseech the Queen

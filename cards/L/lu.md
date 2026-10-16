@@ -1844,5 +1844,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #161 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-06-08* — If you began the game with two or more opponents but now only have one opponent left, these lands enter the battlefield tapped.
-- **Referenced in:** 59 pages (55 decks · 4 edh guides) → [reverse index](../../references/L.md#luxury-suite)
+- **Referenced in:** 61 pages (57 decks · 4 edh guides) → [reverse index](../../references/L.md#luxury-suite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/252/luxury-suite) · oracle_id `819e1765-8325-4e6f-89c1-63ea86de369f` · printing: MSC #252 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

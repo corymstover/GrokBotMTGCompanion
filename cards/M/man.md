@@ -290,8 +290,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #116 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
 - **Lore:** ✅ Card art shown on [Thank the Gods](https://magic.wizards.com/en/news/magic-story/thank-gods-2014-04-30), [Zendikar's Last Stand](https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — KB decks (54): [Uro, Titan of Nature's Wrath (Theros-only)](../../decks/plane-theros-uro-titan-of-natures-wrath.md) · [Abaddon the Despoiler (Grixis)](../../grixis/decks/abaddon-the-despoiler.md) · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) · [Admiral Brass, Unsinkable (Grixis)](../../grixis/decks/admiral-brass-unsinkable.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 727,085 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (23.8% of its decks), [Kinnan, Bonder Prodigy](../../cards/K/ki.md#kinnan-bonder-prodigy) (53.9% of its decks), [Kraum, Ludevic's Opus // Tymna the Weaver](../../cards/K/kr.md#kraum-ludevics-opus) (87.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 58 pages (54 decks · 2 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/M.md#mana-confluence)
+- **Synergy:** *Proven* — KB decks (55): [Uro, Titan of Nature's Wrath (Theros-only)](../../decks/plane-theros-uro-titan-of-natures-wrath.md) · [Abaddon the Despoiler (Grixis)](../../grixis/decks/abaddon-the-despoiler.md) · [Admiral Beckett Brass (Grixis)](../../grixis/decks/admiral-beckett-brass.md) · [Admiral Brass, Unsinkable (Grixis)](../../grixis/decks/admiral-brass-unsinkable.md) … · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 727,085 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (23.8% of its decks), [Kinnan, Bonder Prodigy](../../cards/K/ki.md#kinnan-bonder-prodigy) (53.9% of its decks), [Kraum, Ludevic's Opus // Tymna the Weaver](../../cards/K/kr.md#kraum-ludevics-opus) (87.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 59 pages (55 decks · 2 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/M.md#mana-confluence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/163/mana-confluence) · oracle_id `d0ee5bdc-2b69-4b73-9a20-ffcc18783b29` · printing: JOU #163 (2014-05-02) · [rulings](https://api.scryfall.com/cards/504a69eb-3c2d-4bb1-b117-252b15acf0c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mana Crypt
@@ -331,7 +331,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — If the target spell is an illegal target by the time Mana Drain tries to resolve, Mana Drain doesn't resolve. You don't add mana at the beginning of your next main phase. If the target is legal but not countered (most likely because an effect says that the spell can't be countered), you do add mana.
   - *2020-11-10* — Mana Drain's delayed triggered ability will usually trigger at the beginning of your precombat main phase. However, if you cast Mana Drain during your precombat main phase or during your combat phase, its delayed triggered ability will trigger at the beginning of that turn's postcombat main phase.
-- **Referenced in:** 50 pages (44 decks · 4 edh guides · 2 card data) → [reverse index](../../references/M.md#mana-drain)
+- **Referenced in:** 51 pages (45 decks · 4 edh guides · 2 card data) → [reverse index](../../references/M.md#mana-drain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/57/mana-drain) · oracle_id `74d3277a-38e5-4732-afed-084a56148f20` · printing: 2X2 #57 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mana Echoes
@@ -766,7 +766,7 @@ schema: 2
   > {T}: Add {C}{C}{C}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #152 · Game Changer: **yes** · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 41 pages (35 decks · 4 edh guides · 2 card data) → [reverse index](../../references/M.md#mana-vault)
+- **Referenced in:** 42 pages (36 decks · 4 edh guides · 2 card data) → [reverse index](../../references/M.md#mana-vault)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/308/mana-vault) · oracle_id `736892cb-a34b-4bb9-b56c-e26e3db207a2` · printing: 2X2 #308 (2022-07-08) · [rulings](https://api.scryfall.com/cards/c1a31d52-a407-4ded-bfca-cc812f11afa0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mana Vortex

@@ -3342,7 +3342,7 @@ schema: 2
   > *"Hard to imagine," mused Hanna, stroking the petal, "such a lovely flower inspiring such greed."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #120 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 33 pages (28 decks · 3 edh guides · 2 card data) → [reverse index](../../references/L.md#lotus-petal)
+- **Referenced in:** 34 pages (29 decks · 3 edh guides · 2 card data) → [reverse index](../../references/L.md#lotus-petal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/225/lotus-petal) · oracle_id `32e5339e-9e4f-46f8-b305-f9d6d3ba8bb5` · printing: TPR #225 (2015-05-06) · [rulings](https://api.scryfall.com/cards/f85ab5f9-508e-45de-8fa1-ce1f16552ffc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lotus Ring

@@ -857,8 +857,9 @@ schema: 2
 
 ### Kher Keep
 
-[Card entry](../cards/K/kh.md#kher-keep) · **2 pages** (edh guides 1 · card data 1)
+[Card entry](../cards/K/kh.md#kher-keep) · **3 pages** (decks 1 · edh guides 1 · card data 1)
 
+- **Decks (1):** [Tresserhorn's Lord, Returned (Grixis)](../grixis/decks/tresserhorns-lord-returned.md)
 - **EDH guides (1):** [EDH Mana Bases → Red R](../EDH%20Mana%20Bases.md#red-r)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 

@@ -991,7 +991,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — In a multiplayer game, opponents who have left the game aren't counted by Chittering Witch's triggered ability.
   - *2019-10-04* — You can sacrifice Chittering Witch to pay the cost of its last ability.
-- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/C.md#chittering-witch)
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/C.md#chittering-witch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/175/chittering-witch) · oracle_id `8b1aa532-4f19-407e-83a5-13b3160ad8c2` · printing: TDC #175 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chitterspitter

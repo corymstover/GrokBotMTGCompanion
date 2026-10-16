@@ -147,9 +147,9 @@ schema: 2
 
 ### Yawgmoth, Thran Physician
 
-[Card entry](../cards/Y/ya.md#yawgmoth-thran-physician) · **7 pages** (decks 2 · edh guides 2 · rules 1 · lore & story 2)
+[Card entry](../cards/Y/ya.md#yawgmoth-thran-physician) · **8 pages** (decks 3 · edh guides 2 · rules 1 · lore & story 2)
 
-- **Decks (2):** [Marchesa, the Black Rose (Grixis)](../grixis/decks/marchesa-the-black-rose.md) · [Thraximundar (Grixis)](../grixis/decks/thraximundar.md)
+- **Decks (3):** [Marchesa, the Black Rose (Grixis)](../grixis/decks/marchesa-the-black-rose.md) · [Thraximundar (Grixis)](../grixis/decks/thraximundar.md) · [Tresserhorn's Lord, Returned (Grixis)](../grixis/decks/tresserhorns-lord-returned.md)
 - **EDH guides (2):** [EDH Packages → +1/+1 counters: Proliferate](../EDH%20Packages.md#11-counters-proliferate) · [EDH Win Conditions → Proliferate finishers](../EDH%20Win%20Conditions.md#proliferate-finishers)
 - **Rules (1):** [Keyword Encyclopedia → Protection](../Keyword%20Encyclopedia.md#protection)
 - **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planes Index → Phyrexia (Old Phyrexia) & New Phyrexia's spheres](../Planes%20Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres)

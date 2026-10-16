@@ -131,6 +131,9 @@ SCHEMA = {
         "lore_score": ("float 0–100", False, "Lore decks only (Bot cycle 23): % of non-basic cards (commander + non-lands + non-basic lands) that are story-linked."),
         "lore_standard_met": ("bool", False, "Lore decks only: lore_score ≥ 85 (the Lore-Themed Deckbuilding standard; enforced by `build_lore_decks.py --check`)."),
         "source_repo": ("string", False, "Grixis decks only: the read-only source repository."),
+        "legality_status": ("enum: pending", False, "Bot cycle 38: present only on decks published before some cards are Commander-legal (data/grixis_pending.json). validate_all accepts the listed cards only while legal_from is in the future."),
+        "legal_from": ("date YYYY-MM-DD", False, "Pending decks only: the date Scryfall gives for the not-yet-legal cards' set release."),
+        "pending_cards": ("list of card names", False, "Pending decks only: the cards that are not Commander-legal yet."),
         "schema": ("int", True, f"Front-matter schema version (currently {SCHEMA_VERSION})."),
     },
     "reference": {
@@ -271,6 +274,10 @@ def deck_fields(path, body):
         tags.append("two-card-infinite")
     elif f["combos"]:
         tags.append("combos")
+    pend = re.search(r"PENDING LEGALITY — not Commander-legal yet\.\*\* Legal from \*\*(\d{4}-\d{2}-\d{2})\*\*.*?Not-yet-legal cards: (.*?)\. This page", body)
+    if pend:  # Bot cycle 38: pending-legality banner written by scripts/build_grixis.py
+        f.update(legality_status="pending", legal_from=pend.group(1), pending_cards=re.findall(r"\*\*(.+?)\*\*", pend.group(2)))
+        tags.append("pending-legality")
     if f.get("plane"):
         tags.append(f"plane-{f['plane']}")
     if f.get("theme"):
@@ -296,6 +303,8 @@ def deck_fm(path, body):
         lines.append(f"lore_standard_met: {'true' if (f['lore_score'] or 0) >= 85 else 'false'}")
     if f["kind"] == "grixis":
         lines.append("source_repo: corymstover/grixis-commander-encyclopediaGPT")
+    if f.get("legality_status"):
+        lines += [f"legality_status: {f['legality_status']}", f"legal_from: {f['legal_from']}", f"pending_cards: {ylist([q(c) for c in f['pending_cards']])}"]
     lines += [f"schema: {SCHEMA_VERSION}", "---", ""]
     return "\n".join(lines)
 

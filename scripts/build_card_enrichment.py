@@ -733,6 +733,9 @@ def build(fetch=False):
             continue
         batch = next((n for n, _, sel in BATCHES if sel(c, tiers.get(r["oracle_id"], set()))), None)
         if batch is None:
+            # Bot cycle 38: membership is sticky, so a Scryfall bulk refresh (new EDHREC ranks) never drops an enriched card
+            batch = prev.get(r["oracle_id"], {}).get("batch")
+        if batch is None:
             continue
         lore = lore_for(r, c, links, cc, keys, prints, S, norm, notes, caps, afs, prev.get(r["oracle_id"], {}).get("lore"))
         syn = synergy_for(c, decks, pkgmatch, False, prev.get(r["oracle_id"], {}).get("synergy"))

@@ -592,7 +592,7 @@ schema: 2
   - *2020-11-10* — If you don't have a commander, Arcane Signet's ability produces no mana.
   - *2020-11-10* — If you have two commanders, the ability adds one mana of any color in their combined color identities.
   - *2020-11-10* — If your commander is a card that has no colors in its color identity, Arcane Signet's ability produces no mana. It doesn't produce {C}.
-- **Referenced in:** 101 pages (94 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/A.md#arcane-signet)
+- **Referenced in:** 103 pages (96 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/A.md#arcane-signet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/20/arcane-signet) · oracle_id `0bc7f093-bef0-4f1a-852c-4b75ebf54838` · printing: FRC #20 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Spyglass

@@ -5,7 +5,7 @@ tags: [grixis, summary, follow-ups]
 issues: [59, 60, 61, 62, 63]
 generated_by: hand-written
 sources: [grixis-repo]
-related: ["Front-Matter Schema.md", "grixis/Grixis Corrections.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md", "grixis/README.md", "EDH Standards.md"]
+related: ["grixis/Grixis Corrections.md", "Front-Matter Schema.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md", "grixis/Grixis Evaluation.md", "grixis/Grixis Packages.md"]
 schema: 2
 ---
 
@@ -14,6 +14,7 @@ schema: 2
 > **Bot cycle 16 · milestone [Grixis integration](https://github.com/corymstover/GrokBotMTGCompanion/milestone/13) · issues [#59](https://github.com/corymstover/GrokBotMTGCompanion/issues/59)–[#63](https://github.com/corymstover/GrokBotMTGCompanion/issues/63).** What we took from the user's [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) repo (read-only; commit `df1abb9` in Bot cycle 16, **re-analyzed at `1836b97` in Bot cycle 37**), what was fixed, what was generalized for every color identity, and what remains. Back to [Grixis](README.md).
 
 ## Contents
+- [Bot cycle 38 pending-legality pages](#bot-cycle-38-pending-legality-pages)
 - [Bot cycle 37 re-analysis](#bot-cycle-37-re-analysis)
 - [Source repo inventory](#source-repo-inventory)
 - [What was integrated](#what-was-integrated)
@@ -23,6 +24,14 @@ schema: 2
 - [What we did not take](#what-we-did-not-take)
 - [Recommended follow-ups](#recommended-follow-ups)
 - [Reproducing](#reproducing)
+
+## Bot cycle 38 pending-legality pages
+Cory asked for all 62 Grixis decks in the companion. **62/62 deck pages: 60 legal + 2 ⏳ pending legality.**
+- **Pending pages:** [The Madcap Jester](decks/the-madcap-jester.md) (not-yet-legal: The Madcap Jester, Dragon's Smile) and [Tresserhorn's Lord, Returned](decks/tresserhorns-lord-returned.md) (not-yet-legal: Tresserhorn's Lord, Returned). Set `mbc` releases 2026-10-19; on 2026-10-16 the Scryfall API and bulk list these cards as `not_legal`. Each page has a ⏳ banner at the top and `legality_status: pending`, `legal_from: 2026-10-19`, `pending_cards` in its front matter.
+- **Excluded from legal counts:** the README Decks table, the [Packages](Grixis%20Packages.md) library (N = 60), and every "legal" number. The [Evaluation](Grixis%20Evaluation.md) and [Corrections](Grixis%20Corrections.md) pages list them as pending (2 `pending legality` entries).
+- **Registry:** `data/grixis_pending.json` (deck id → status, legal_from, set, cards).
+- **Validation:** `validate_all` accepts the listed not-legal cards only while `legality_status` is pending and `legal_from` is in the future. Once the date passes, it fails ("pending legality expired") until the deck is activated. It also fails if a listed card is already legal or the registry and page disagree.
+- **Activation:** `python3 scripts/activate_pending_grixis.py` (`--check` for a read-only live check). It refreshes the Scryfall bulk, re-checks the listed cards, flips decks to `active`, and rebuilds the pages, calibration, enrichment and validate_all.
 
 ## Bot cycle 37 re-analysis
 Source moved from `df1abb9` to `1836b97`: 275 commits, 400 files changed (2026-10-15 to 2026-10-16). The clone at `/workspace/grixis-src` was only fast-forwarded and never modified.
@@ -69,7 +78,7 @@ Source moved from `df1abb9` to `1836b97`: 275 commits, 400 files changed (2026-1
 
 ## What was left out and why
 - **20 lists (#41–62 in the source's order, minus the 2 below)**: the source's own state file marks them UNREFINED. Its whole-list audit has not run on them, so they are frozen baselines that will change. All 20 pass our hard checks (100 cards, singleton including Nazgûl's nine-copy rule, identity, legality). They are ready to import once approved (see follow-ups).
-- **2 future-release lists:** The Madcap Jester (and Dragon's Smile) and Tresserhorn's Lord, Returned. These cards are in Scryfall set `mbc` (release 2026-10-19) and are `not_legal` in Commander today. The source registers them as future-release exceptions.
+- **2 future-release lists** (*Bot cycle 38: now published as ⏳ pending-legality pages, not left out; see [above](#bot-cycle-38-pending-legality-pages)*): The Madcap Jester (and Dragon's Smile) and Tresserhorn's Lord, Returned. These cards are in Scryfall set `mbc` (release 2026-10-19) and are `not_legal` in Commander today. The source registers them as future-release exceptions.
 
 ## Fixes
 **87 logged corrections** ([table](Grixis%20Corrections.md#corrections-table)):
@@ -102,7 +111,7 @@ The source's process machinery is specific to running a 62-deck campaign: the co
 ## Recommended follow-ups
 Tracked in [#63](https://github.com/corymstover/GrokBotMTGCompanion/issues/63). None of these were started.
 1. ✅ *Done in Bot cycle 37:* imported the 20 lists the source approved on 2026-10-15. Earlier text: import the remaining 20 lists as the source approves them: re-run `python3 scripts/build_grixis.py` (it picks up new approvals from the source state file), then `front_matter.py`.
-2. Re-check the three `mbc` cards after 2026-10-19 for Commander legality (still `not_legal` on 2026-10-16). Then re-run `build_grixis.py` to import The Madcap Jester and Tresserhorn's Lord, Returned.
+2. After 2026-10-19, run `python3 scripts/activate_pending_grixis.py` (Bot cycle 38). It refreshes the Scryfall bulk, re-checks the three `mbc` cards (still `not_legal` on 2026-10-16) and flips The Madcap Jester and Tresserhorn's Lord, Returned from ⏳ pending to active. `validate_all` fails from 2026-10-19 until this is done.
 3. Optional optimization pass (guidance): the low-land flags (Bot cycle 37: Ashad, Dr. Eggman, Saruman, Sedris), and the 5 decks whose source target (Bracket 4) is above their Game Changer floor of 3 (Bot cycle 37: Cult of Skaro, Dr. Eggman, Edea, Lord of Tresserhorn, Parnesse). These are not errors, but they are worth a Rule 0 note.
 4. Re-run Spellbook (`build_grixis.py --refresh-combos`) during the regular maintenance cycle ([#17](https://github.com/corymstover/GrokBotMTGCompanion/issues/17)).
 5. Use the new template and checklist when upgrading the 46 EDHREC-derived [decks/](../decks/) skeletons, starting with a blueprint for each.

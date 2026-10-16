@@ -247,7 +247,7 @@ schema: 2
   - *2025-02-07* — If no card is exiled with this artifact, it can’t add mana. The same is true if the exiled card is colorless.
   - *2025-02-07* — If the exiled card is multicolored, you choose one of that card’s colors each time you tap this artifact for mana.
   - *2025-02-07* — This artifact's activated ability can never add {C}, even if the exiled card is colorless or has a colorless mana symbol in its mana cost.
-- **Referenced in:** 31 pages (25 decks · 4 edh guides · 2 card data) → [reverse index](../../references/C.md#chrome-mox)
+- **Referenced in:** 32 pages (26 decks · 4 edh guides · 2 card data) → [reverse index](../../references/C.md#chrome-mox)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/240/chrome-mox) · oracle_id `ec3d4466-547c-4e02-b1b5-a156ec4637e9` · printing: 2XM #240 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chrome Prowler

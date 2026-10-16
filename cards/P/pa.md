@@ -491,7 +491,7 @@ schema: 2
   - *2013-06-07* — Although originally printed with a characteristic-defining ability that defined its color, this card now has a color indicator. This color indicator can't be affected by text-changing effects (such as the one created by Crystal Spray), although color-changing effects can still overwrite it.
   - *2021-03-19* — If Pact of Negation is countered or otherwise doesn't resolve (perhaps because its target became illegal), the delayed triggered ability that threatens you with a game loss won't trigger at the beginning of your next upkeep.
   - *2021-03-19* — If Pact of Negation resolves with a legal target but fails to counter that spell (most likely because that spell can't be countered), the delayed triggered ability will still trigger at the beginning of your next upkeep and you will have to pay. Or else.
-- **Referenced in:** 17 pages (13 decks · 3 edh guides · 1 card data) → [reverse index](../../references/P.md#pact-of-negation)
+- **Referenced in:** 18 pages (14 decks · 3 edh guides · 1 card data) → [reverse index](../../references/P.md#pact-of-negation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/77/pact-of-negation) · oracle_id `f3e213a4-ba5a-468a-93b3-c0a34e1bd725` · printing: TSR #77 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pact of the Serpent
@@ -3123,7 +3123,7 @@ schema: 2
   - *2024-06-07* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2024-06-07* — When using convoke to cast a spell with {X} in its cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Wrath of the Skies (a spell with mana cost {X}{W}{W}) from exile, choosing 3 as the value of X, the total cost is {3}{W}{W}. If you tap a white creature and a red creature, you'll have to pay {2}{W}.
   - *2024-06-07* — You pay all costs and follow all normal timing rules for cards played using Party Thrasher's second ability. For example, if the chosen exiled card is a land card, you may play it only during your main phase while the stack is empty.
-- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/P.md#party-thrasher)
+- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 card data) → [reverse index](../../references/P.md#party-thrasher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/129/party-thrasher) · oracle_id `03cd7583-d054-4359-8c94-7776c54198ed` · printing: MH3 #129 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pashalik Mons
@@ -3207,7 +3207,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
-- **Referenced in:** 5 pages (4 decks · 1 edh guides) → [reverse index](../../references/P.md#passionate-archaeologist)
+- **Referenced in:** 6 pages (5 decks · 1 edh guides) → [reverse index](../../references/P.md#passionate-archaeologist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/656/passionate-archaeologist) · oracle_id `6299d18e-a6a7-414c-85c0-d57a8e7d2627` · printing: CLB #656 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Passwall Adept

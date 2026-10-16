@@ -2115,7 +2115,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #224 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-01-19* — If Pitiless Plunderer dies at the same time as one or more other creatures you control, its ability will still trigger for each of those other creatures.
-- **Referenced in:** 18 pages (10 decks · 7 edh guides · 1 card data) → [reverse index](../../references/P.md#pitiless-plunderer)
+- **Referenced in:** 19 pages (11 decks · 7 edh guides · 1 card data) → [reverse index](../../references/P.md#pitiless-plunderer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/208/pitiless-plunderer) · oracle_id `a784481f-eccb-4112-bb38-04a659319660` · printing: LCC #208 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pitiless Pontiff

@@ -640,7 +640,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-09-01* — Rhystic Study's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered. The player gets the option to pay when this triggered ability resolves.
   - *2023-09-01* — You don't have to decide whether or not to draw a card until after the player decides whether or not to pay.
-- **Referenced in:** 58 pages (50 decks · 6 edh guides · 2 card data) → [reverse index](../../references/R.md#rhystic-study)
+- **Referenced in:** 59 pages (51 decks · 6 edh guides · 2 card data) → [reverse index](../../references/R.md#rhystic-study)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j22/114/rhystic-study) · oracle_id `53236dd7-845a-444c-96d5-f41ed7325d8f` · printing: J22 #114 (2022-12-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhystic Syphon

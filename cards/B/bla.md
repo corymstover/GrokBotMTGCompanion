@@ -457,7 +457,7 @@ schema: 2
 - **Keywords:** Hire a Mercenary, Treasure, Sell Contraband, Buy Information
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #129 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 20 pages (14 decks · 4 edh guides · 2 card data) → [reverse index](../../references/B.md#black-market-connections)
+- **Referenced in:** 21 pages (15 decks · 4 edh guides · 2 card data) → [reverse index](../../references/B.md#black-market-connections)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/155/black-market-connections) · oracle_id `d2664f28-49e1-46f8-a863-b217e961a57c` · printing: MSC #155 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9d9ca869-e68a-4f53-9f52-85c714dac6f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Black Market Tycoon
@@ -1472,7 +1472,7 @@ schema: 2
   - *2020-11-10* — Blasphemous Act's ability can't reduce the total cost to cast the spell below {R}.
   - *2020-11-10* — The total cost to cast Blasphemous Act is locked in before you pay that cost. For example, if there are three creatures on the battlefield, including one you can sacrifice to add {C}, the total cost of Blasphemous Act is {5}{R}. Then you can sacrifice the creature when you activate mana abilities just before paying the cost.
   - *2020-11-10* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Blasphemous Act). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
-- **Referenced in:** 39 pages (33 decks · 4 edh guides · 2 card data) → [reverse index](../../references/B.md#blasphemous-act)
+- **Referenced in:** 40 pages (34 decks · 4 edh guides · 2 card data) → [reverse index](../../references/B.md#blasphemous-act)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/163/blasphemous-act) · oracle_id `7a2484a9-04fd-41a0-8224-610c1c07ed10` · printing: MSC #163 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blasphemous Edict
@@ -1489,7 +1489,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — If a player controls fewer than thirteen creatures when Blasphemous Edict resolves, they will sacrifice all of their creatures.
   - *2024-11-08* — Starting with the player whose turn it is, each player in turn order chooses which creatures they will sacrifice, then all the creatures chosen by all players are sacrificed at the same time. Players get to know the choices made by players who chose before them.
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#blasphemous-edict)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/B.md#blasphemous-edict)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/57/blasphemous-edict) · oracle_id `6cf50e21-0f60-4e9a-b910-ebe1bad2a29e` · printing: FDN #57 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blasted Landscape
@@ -1753,7 +1753,7 @@ schema: 2
   > *Here, the Balemurk spits and boils, the oppressive darkness pierced by scorching spears of fire.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #496 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#blazemire-verge)
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#blazemire-verge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/256/blazemire-verge) · oracle_id `977c2f33-b622-4172-9efb-7f523becd32b` · printing: DSK #256 (2024-09-27) · [rulings](https://api.scryfall.com/cards/d151c8e2-d715-470d-868a-f45191db9fa0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blaze of Glory

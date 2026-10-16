@@ -3056,7 +3056,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-10-17* — After each opponent has decided, the effect happens simultaneously for each one who accepted the offer. Then, the effect happens again for you a number of times equal to the number of opponents who accepted.
   - *2013-10-17* — Your opponents decide in turn order whether or not they accept the offer, starting with the opponent on your left. Each opponent will know the decisions of previous opponents in turn order when making their decision.
-- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/T.md#tempt-with-vengeance)
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/T.md#tempt-with-vengeance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/239/tempt-with-vengeance) · oracle_id `8e356df5-ca92-4be2-871e-8965c2510fbe` · printing: TDC #239 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Temur Ascendancy

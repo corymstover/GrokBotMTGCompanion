@@ -856,7 +856,7 @@ schema: 2
   - *2026-03-20* — There's no extra bonus if you control more than one commander.
   - *2026-03-20* — Use the number of cards in the target opponent's hand as Jeska's Will resolves to determine how much {R} to add.
   - *2026-03-20* — You pay all costs and follow all timing rules for cards played with the permission from the last mode of Jeska's Will. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
-- **Referenced in:** 42 pages (36 decks · 5 edh guides · 1 card data) → [reverse index](../../references/J.md#jeskas-will)
+- **Referenced in:** 43 pages (37 decks · 5 edh guides · 1 card data) → [reverse index](../../references/J.md#jeskas-will)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/156/jeskas-will) · oracle_id `0fd114c4-092b-4e28-b0dc-ef529f3bc73e` · printing: MKC #156 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeska, Thrice Reborn
@@ -927,6 +927,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13379 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-12-08* — As long as there are three or more cards in that library, you must find three cards and exile them. If there are fewer than three cards in the player's library, you exile all of them.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/J.md#jesters-cap)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/227/jesters-cap) · oracle_id `8783a94a-d0b2-4291-a550-dbcf8e16bf4b` · printing: DMR #227 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jester's Mask
@@ -953,6 +954,7 @@ schema: 2
   - *2006-07-15* — If half of a split card is cast (for example, Hit), and you put one of those split cards into its owner’s graveyard with Jester’s Scepter (for example, Hit/Run), the spell is countered.
   - *2006-07-15* — When Jester’s Scepter’s second ability is activated, any of the exiled cards may be put into its owner’s graveyard, and any spell may be targeted, whether or not the card and the spell have the same name. If they don’t have the same name, the effect does nothing. The spell’s controller and the owner of the card put into a graveyard this way may be different.
   - *2006-07-15* — You can see the cards that are exiled with Jester’s Scepter, but no one else can.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/J.md#jesters-scepter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/137/jesters-scepter) · oracle_id `396b943c-b45d-4e5b-a9c1-f70bc603ee9f` · printing: CSP #137 (2006-07-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jester's Sombrero

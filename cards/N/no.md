@@ -1465,7 +1465,7 @@ schema: 2
   - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
   - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
   - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
-- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/N.md#not-of-this-world)
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/N.md#not-of-this-world)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/807/not-of-this-world) · oracle_id `5da5d8a3-009e-4d8a-977e-6ebc73ba2682` · printing: CMM #807 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Not on My Watch

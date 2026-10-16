@@ -604,7 +604,7 @@ schema: 2
   > *With one motion, a pest is removed and a scourge inflicted.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #463 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 15 pages (10 decks · 4 edh guides · 1 card data) → [reverse index](../../references/G.md#goblin-bombardment)
+- **Referenced in:** 16 pages (11 decks · 4 edh guides · 1 card data) → [reverse index](../../references/G.md#goblin-bombardment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/279/goblin-bombardment) · oracle_id `edad60c6-80de-4033-af1b-a703ac332983` · printing: MH2 #279 (2021-06-18) · [rulings](https://api.scryfall.com/cards/e262f55e-9239-4a97-a19e-9b08fb34502e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Bookie

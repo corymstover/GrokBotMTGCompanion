@@ -1916,7 +1916,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — If a creature enters the battlefield under your control and gains haste, but then loses it before attacking, it won't be able to attack that turn. This means that you can't use one Lightning Greaves to allow two new creatures to attack in the same turn.
   - *2020-08-07* — You can't simply unequip Equipment from a creature. If Lightning Greaves is attached to the only creature you control, you won't be able to attach other equipment to it (or target it with anything else) until you have another creature to which you can attach Lightning Greaves.
-- **Referenced in:** 61 pages (55 decks · 3 edh guides · 1 rules · 2 card data) → [reverse index](../../references/L.md#lightning-greaves)
+- **Referenced in:** 63 pages (57 decks · 3 edh guides · 1 rules · 2 card data) → [reverse index](../../references/L.md#lightning-greaves)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/202/lightning-greaves) · oracle_id `ca204b66-8d0c-431a-8d34-282f7c2d17da` · printing: MSC #202 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lightning Helix
@@ -3801,7 +3801,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #741 · Game Changer: **yes** · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — The ability is a mana ability, so it is activated and resolves as a mana ability, but it can only be activated at times when you can cast an instant. Yes, this is a bit weird.
-- **Referenced in:** 21 pages (15 decks · 3 edh guides · 3 card data) → [reverse index](../../references/L.md#lions-eye-diamond)
+- **Referenced in:** 22 pages (16 decks · 3 edh guides · 3 card data) → [reverse index](../../references/L.md#lions-eye-diamond)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/271/lions-eye-diamond) · oracle_id `ee6099b0-fb1f-42f1-b862-7708c6e36d05` · printing: VMA #271 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lion Umbra
@@ -4386,7 +4386,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-03-16* — As Living Death resolves, all players exile their creature cards from graveyards at the same time. Then all players sacrifice all creatures they control at the same time. Then all players put all creatures they exiled onto the battlefield at the same time.
   - *2018-03-16* — Only cards exiled by Living Death's first instruction are put onto the battlefield. If a replacement effect (such as that of Leyline of the Void) causes any of the sacrificed creatures to be exiled instead of put into a graveyard, those cards aren't returned to the battlefield.
-- **Referenced in:** 7 pages (5 decks · 1 edh guides · 1 card data) → [reverse index](../../references/L.md#living-death)
+- **Referenced in:** 8 pages (6 decks · 1 edh guides · 1 card data) → [reverse index](../../references/L.md#living-death)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/185/living-death) · oracle_id `9e6a3df4-67a3-452e-a6ef-f04dbadb21ef` · printing: TDC #185 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Living Destiny

@@ -1,7 +1,7 @@
 {
 "schema": 2,
 "generated_by": "scripts/kb_find.py --build",
-"entries": 468,
+"entries": 470,
 "note": "Pages, decks and lore entries (Bot cycle 31); card entries are indexed by data/card_index.csv.",
 "items": [
 {
@@ -5787,6 +5787,11 @@
 "headings": [
 [
 2,
+"2026-10-16 — Bot cycle 38 (Grixis: 62/62 pages, 2 pending legality)",
+"2026-10-16--bot-cycle-38-grixis-6262-pages-2-pending-legality"
+],
+[
+2,
 "2026-10-16 — Bot cycle 37 (Grixis re-analysis)",
 "2026-10-16--bot-cycle-37-grixis-re-analysis"
 ],
@@ -6179,6 +6184,11 @@
 "headings": [
 [
 2,
+"Bot cycle 38 pending-legality pages",
+"bot-cycle-38-pending-legality-pages"
+],
+[
+2,
 "Bot cycle 37 re-analysis",
 "bot-cycle-37-re-analysis"
 ],
@@ -6231,12 +6241,12 @@
 "63"
 ],
 "related": [
-"Front-Matter Schema.md",
 "grixis/Grixis Corrections.md",
+"Front-Matter Schema.md",
 "EDH Deck Evaluation Checklist.md",
 "EDH Deck Template.md",
-"grixis/README.md",
-"EDH Standards.md"
+"grixis/Grixis Evaluation.md",
+"grixis/Grixis Packages.md"
 ]
 },
 {
@@ -6464,6 +6474,11 @@
 ],
 [
 2,
+"Pending legality",
+"pending-legality"
+],
+[
+2,
 "What was left out",
 "what-was-left-out"
 ]
@@ -6476,9 +6491,9 @@
 "related": [
 "EDH Standards.md",
 "grixis/Grixis Evaluation.md",
+"grixis/Grixis Packages.md",
 "EDH Deck Template.md",
 "grixis/Grixis Corrections.md",
-"grixis/Grixis Packages.md",
 "EDH Bracket Calibration.md"
 ]
 },
@@ -16765,6 +16780,113 @@
 "two_card_infinites": "1"
 },
 {
+"path": "grixis/decks/the-madcap-jester.md",
+"kind": "deck",
+"title": "Grixis Deck — The Madcap Jester",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-4",
+"game-changers",
+"combos",
+"pending-legality"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionsthe_madcap_jester_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/The_Madcap_Jester_Approved_2026-10-15.md`",
+"from-refinementapprovalsthe_madcap_jester_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "The Madcap Jester",
+"color_identity": "UBR",
+"bracket_floor": "4",
+"game_changers": "17",
+"two_card_infinites": "0"
+},
+{
 "path": "grixis/decks/the-rani.md",
 "kind": "deck",
 "title": "Grixis Deck — The Rani",
@@ -17083,6 +17205,113 @@
 "color_identity": "UBR",
 "bracket_floor": "4",
 "game_changers": "8",
+"two_card_infinites": "1"
+},
+{
+"path": "grixis/decks/tresserhorns-lord-returned.md",
+"kind": "deck",
+"title": "Grixis Deck — Tresserhorn's Lord, Returned",
+"category": "deck",
+"tags": [
+"grixis",
+"grixis",
+"bracket-floor-3",
+"game-changers",
+"two-card-infinite",
+"pending-legality"
+],
+"headings": [
+[
+2,
+"Commander",
+"commander"
+],
+[
+2,
+"Validation",
+"validation"
+],
+[
+2,
+"Bracket assessment",
+"bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
+"Corrections applied",
+"corrections-applied"
+],
+[
+2,
+"Decklist (Archidekt import)",
+"decklist-archidekt-import"
+],
+[
+2,
+"Card breakdown",
+"card-breakdown"
+],
+[
+2,
+"Source commentary (verbatim)",
+"source-commentary-verbatim"
+],
+[
+3,
+"From `refinement/decisions/Tresserhorn_s_Lord_Returned_Candidate_Decisions_2026-10-15.md`",
+"from-refinementdecisionstresserhorn_s_lord_returned_candidate_decisions_2026-10-15md"
+],
+[
+3,
+"From `refinement/approvals/Tresserhorn_s_Lord_Returned_Approved_2026-10-15.md`",
+"from-refinementapprovalstresserhorn_s_lord_returned_approved_2026-10-15md"
+],
+[
+3,
+"Further source evidence (linked, not copied)",
+"further-source-evidence-linked-not-copied"
+],
+[
+2,
+"Combos (Commander Spellbook)",
+"combos-commander-spellbook"
+],
+[
+2,
+"Cross-references",
+"cross-references"
+]
+],
+"deck_kind": "grixis",
+"commander": "Tresserhorn's Lord, Returned",
+"color_identity": "UBR",
+"bracket_floor": "3",
+"game_changers": "2",
 "two_card_infinites": "1"
 },
 {
@@ -23835,6 +24064,11 @@
 ],
 [
 3,
+"Circu, Dimir Lobotomist",
+"circu-dimir-lobotomist"
+],
+[
+3,
 "Circuit Mender",
 "circuit-mender"
 ],
@@ -27547,6 +27781,11 @@
 ],
 [
 3,
+"Dragon's Smile",
+"dragons-smile"
+],
+[
+3,
 "Dragonstorm Globe",
 "dragonstorm-globe"
 ],
@@ -29601,6 +29840,11 @@
 3,
 "Extinguish the Light",
 "extinguish-the-light"
+],
+[
+3,
+"Extract",
+"extract"
 ],
 [
 3,
@@ -35947,6 +36191,11 @@
 ],
 [
 3,
+"Infantry Shield",
+"infantry-shield"
+],
+[
+3,
 "Infectious Bite",
 "infectious-bite"
 ],
@@ -36124,6 +36373,11 @@
 3,
 "Inscription of Insight",
 "inscription-of-insight"
+],
+[
+3,
+"Inside Information",
+"inside-information"
 ],
 [
 3,
@@ -36956,6 +37210,16 @@
 3,
 "Jeska, Thrice Reborn",
 "jeska-thrice-reborn"
+],
+[
+3,
+"Jester's Cap",
+"jesters-cap"
+],
+[
+3,
+"Jester's Scepter",
+"jesters-scepter"
 ],
 [
 3,
@@ -46411,6 +46675,11 @@
 ],
 [
 3,
+"Psychic Surgery",
+"psychic-surgery"
+],
+[
+3,
 "Psychic Vortex",
 "psychic-vortex"
 ],
@@ -49209,6 +49478,11 @@
 ],
 [
 3,
+"Sadistic Sacrament",
+"sadistic-sacrament"
+],
+[
+3,
 "Safana, Calimport Cutthroat",
 "safana-calimport-cutthroat"
 ],
@@ -51481,6 +51755,11 @@
 3,
 "Siren Stormtamer",
 "siren-stormtamer"
+],
+[
+3,
+"Sire of Stagnation",
+"sire-of-stagnation"
 ],
 [
 3,
@@ -56031,6 +56310,11 @@
 ],
 [
 3,
+"The Madcap Jester",
+"the-madcap-jester"
+],
+[
+3,
 "The Magic Mirror",
 "the-magic-mirror"
 ],
@@ -57858,6 +58142,11 @@
 3,
 "Trespasser's Curse",
 "trespassers-curse"
+],
+[
+3,
+"Tresserhorn's Lord, Returned",
+"tresserhorns-lord-returned"
 ],
 [
 3,
@@ -60319,6 +60608,11 @@
 3,
 "Wanderwine Prophets",
 "wanderwine-prophets"
+],
+[
+3,
+"Wand of Orcus",
+"wand-of-orcus"
 ],
 [
 3,

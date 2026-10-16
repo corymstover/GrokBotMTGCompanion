@@ -1539,6 +1539,7 @@ schema: 2
 - **Keywords:** Flying, Crew
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #22236 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#dragons-smile)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/22/dragons-smile) · oracle_id `e7611ef9-e5fc-45eb-bc3f-4358a27107fd` · printing: MBC #22 (2026-10-19) · [rulings](https://api.scryfall.com/cards/3c771c10-0b1c-4a03-9d91-83dab069410f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragonstalker

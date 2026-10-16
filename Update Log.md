@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 38 (Grixis: 62/62 pages, 2 pending legality)](#2026-10-16--bot-cycle-38-grixis-6262-pages-2-pending-legality)
 - [2026-10-16 — Bot cycle 37 (Grixis re-analysis)](#2026-10-16--bot-cycle-37-grixis-re-analysis)
 - [2026-10-16 — Bot cycle 36 (Phase 8: Legends evidence, audit pass 2, batch 4 partial)](#2026-10-16--bot-cycle-36-phase-8-legends-evidence-audit-pass-2-batch-4-partial)
 - [2026-10-15 — Bot cycle 35 (Phase 8: story cache, name-match audit, batch 3)](#2026-10-15--bot-cycle-35-phase-8-story-cache-name-match-audit-batch-3)
@@ -51,6 +52,13 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 38 (Grixis: 62/62 pages, 2 pending legality)
+Cory wants all 62 Grixis decks in the companion. **62/62 deck pages: 60 legal + 2 ⏳ pending legality** ([#63](https://github.com/corymstover/GrokBotMTGCompanion/issues/63)).
+- **New pages:** [The Madcap Jester](grixis/decks/the-madcap-jester.md) and [Tresserhorn's Lord, Returned](grixis/decks/tresserhorns-lord-returned.md). Same format as the others, plus a ⏳ PENDING LEGALITY banner and front matter `legality_status: pending`, `legal_from: 2026-10-19`, `pending_cards`. Set `mbc` is still `not_legal` on 2026-10-16 (Scryfall API and bulk).
+- **Counts:** the pending decks are excluded from the README Decks table, Packages (N = 60) and all legal counts. Corrections: 135 (+2 format, +2 bracket, +2 pending legality). Calibration: 110 decks, the 2 pending ones marked ⏳.
+- **Validation:** `validate_all` accepts the listed cards only while `legal_from` is in the future. After that it fails until activation. Tested with a simulated 2026-10-19 date: 5 problems, as intended.
+- **Activation:** new `scripts/activate_pending_grixis.py` with registry `data/grixis_pending.json`. `--check` runs a live Scryfall API check. The full run refreshes the bulk, flips decks to active and rebuilds. Phase 8 enrichment batch membership is now sticky, so a bulk refresh never drops enriched cards.
 
 ## 2026-10-16 — Bot cycle 37 (Grixis re-analysis)
 Cory resumed the Grixis work. The read-only source [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) moved from `df1abb9` (v1.9) to `1836b97`: 275 commits and 400 files. The clone was only fast-forwarded.

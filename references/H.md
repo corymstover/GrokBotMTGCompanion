@@ -1199,9 +1199,9 @@ schema: 2
 
 ### High Market
 
-[Card entry](../cards/H/hi.md#high-market) · **5 pages** (decks 4 · card data 1)
+[Card entry](../cards/H/hi.md#high-market) · **6 pages** (decks 5 · card data 1)
 
-- **Decks (4):** [Edea, Possessed Sorceress (Grixis)](../grixis/decks/edea-possessed-sorceress.md) · [Lord of Tresserhorn (Grixis)](../grixis/decks/lord-of-tresserhorn.md) · [Marchesa, the Black Rose (Grixis)](../grixis/decks/marchesa-the-black-rose.md) · [Teysa Karlov](../decks/teysa-karlov.md)
+- **Decks (5):** [Edea, Possessed Sorceress (Grixis)](../grixis/decks/edea-possessed-sorceress.md) · [Lord of Tresserhorn (Grixis)](../grixis/decks/lord-of-tresserhorn.md) · [Marchesa, the Black Rose (Grixis)](../grixis/decks/marchesa-the-black-rose.md) · [Teysa Karlov](../decks/teysa-karlov.md) · [Tresserhorn's Lord, Returned (Grixis)](../grixis/decks/tresserhorns-lord-returned.md)
 - **Card data (1):** [Artist Index → Artists A](../Artist%20Index.md#artists-a) (+1 more)
 
 ### High Noon

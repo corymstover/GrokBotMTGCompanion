@@ -30,7 +30,8 @@
   "lands": 34,
   "avg_mv": 2.5846153846153848,
   "source_path": "refinement/decklists/Abaddon_the_Despoiler_Approved_2026-10-13.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Admiral_Beckett_Brass": {
   "slug": "admiral-beckett-brass",
@@ -55,7 +56,8 @@
   "lands": 35,
   "avg_mv": 2.75,
   "source_path": "refinement/decklists/Admiral_Beckett_Brass_Approval_Ready_2026-10-13.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Admiral_Brass__Unsinkable": {
   "slug": "admiral-brass-unsinkable",
@@ -80,7 +82,8 @@
   "lands": 34,
   "avg_mv": 2.953846153846154,
   "source_path": "refinement/decklists/Admiral_Brass_Unsinkable_Whole_List_Approval_Candidate_2026-10-13.txt",
-  "fixes": 3
+  "fixes": 3,
+  "legality_status": "legal"
  },
  "Anhelo__the_Painter": {
   "slug": "anhelo-the-painter",
@@ -106,7 +109,8 @@
   "lands": 34,
   "avg_mv": 2.830769230769231,
   "source_path": "refinement/decklists/Anhelo_the_Painter_Approval_Ready_2026-10-13.txt",
-  "fixes": 3
+  "fixes": 3,
+  "legality_status": "legal"
  },
  "Ashad__the_Lone_Cyberman": {
   "slug": "ashad-the-lone-cyberman",
@@ -128,7 +132,8 @@
   "lands": 30,
   "avg_mv": 3.4057971014492754,
   "source_path": "refinement/decklists/Ashad_the_Lone_Cyberman_Approval_Ready_2026-10-13.txt",
-  "fixes": 3
+  "fixes": 3,
+  "legality_status": "legal"
  },
  "Ashnod_the_Uncaring": {
   "slug": "ashnod-the-uncaring",
@@ -153,7 +158,8 @@
   "lands": 33,
   "avg_mv": 2.212121212121212,
   "source_path": "refinement/decklists/Ashnod_the_Uncaring_Approved_2026-10-13.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Be_lakor__the_Dark_Master": {
   "slug": "belakor-the-dark-master",
@@ -177,7 +183,8 @@
   "lands": 36,
   "avg_mv": 4.079365079365079,
   "source_path": "refinement/decklists/Be_lakor_the_Dark_Master_Approved_2026-10-13.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Cecily__Bjorna__Lutri": {
   "slug": "bjorna-nightfall-alchemist-cecily",
@@ -207,7 +214,8 @@
   "lands": 33,
   "avg_mv": 3.2615384615384615,
   "source_path": "refinement/decklists/Cecily__Bjorna__Lutri_Approved_2026-10-13.txt",
-  "fixes": 5
+  "fixes": 5,
+  "legality_status": "legal"
  },
  "Cormela__Glamour_Thief": {
   "slug": "cormela-glamour-thief",
@@ -246,7 +254,8 @@
   "lands": 30,
   "avg_mv": 1.8405797101449275,
   "source_path": "refinement/decklists/Cormela_Glamour_Thief_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Crosis__the_Purger": {
   "slug": "crosis-the-purger",
@@ -279,7 +288,8 @@
   "lands": 36,
   "avg_mv": 2.2857142857142856,
   "source_path": "refinement/decklists/Crosis_the_Purger_Approval_Candidate_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Cult_of_Skaro": {
   "slug": "cult-of-skaro",
@@ -301,7 +311,8 @@
   "lands": 34,
   "avg_mv": 3.353846153846154,
   "source_path": "refinement/decklists/Cult_of_Skaro_Approval_Candidate_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Davros__Dalek_Creator": {
   "slug": "davros-dalek-creator",
@@ -325,7 +336,8 @@
   "lands": 34,
   "avg_mv": 3.1846153846153844,
   "source_path": "refinement/decklists/Davros_Dalek_Creator_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Doctor_Doom__King_of_Latveria": {
   "slug": "doctor-doom-king-of-latveria",
@@ -350,7 +362,8 @@
   "lands": 38,
   "avg_mv": 2.8524590163934427,
   "source_path": "refinement/decklists/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Don_Andres__the_Renegade": {
   "slug": "don-andres-the-renegade",
@@ -374,7 +387,8 @@
   "lands": 35,
   "avg_mv": 3.3125,
   "source_path": "refinement/decklists/Don_Andres_the_Renegade_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Dr__Eggman": {
   "slug": "dr-eggman",
@@ -396,7 +410,8 @@
   "lands": 31,
   "avg_mv": 4.205882352941177,
   "source_path": "refinement/decklists/Dr_Eggman_Approved_2026-10-14.txt",
-  "fixes": 3
+  "fixes": 3,
+  "legality_status": "legal"
  },
  "Edea__Possessed_Sorceress": {
   "slug": "edea-possessed-sorceress",
@@ -418,7 +433,8 @@
   "lands": 35,
   "avg_mv": 3.203125,
   "source_path": "refinement/decklists/Edea_Possessed_Sorceress_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Edward_Kenway": {
   "slug": "edward-kenway",
@@ -447,7 +463,8 @@
   "lands": 35,
   "avg_mv": 2.796875,
   "source_path": "refinement/decklists/Edward_Kenway_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Evelyn__the_Covetous": {
   "slug": "evelyn-the-covetous",
@@ -485,7 +502,8 @@
   "lands": 26,
   "avg_mv": 1.8356164383561644,
   "source_path": "refinement/decklists/Evelyn_the_Covetous_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Fire_Lord_Azula": {
   "slug": "fire-lord-azula",
@@ -524,7 +542,8 @@
   "lands": 26,
   "avg_mv": 1.8493150684931507,
   "source_path": "refinement/decklists/Fire_Lord_Azula_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Garza_Zol__Plague_Queen": {
   "slug": "garza-zol-plague-queen",
@@ -552,7 +571,8 @@
   "lands": 38,
   "avg_mv": 2.2131147540983607,
   "source_path": "refinement/decklists/Garza_Zol_Plague_Queen_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Goben__Gene_Splice_Savant": {
   "slug": "norman-osborn",
@@ -590,7 +610,8 @@
   "lands": 23,
   "avg_mv": 1.868421052631579,
   "source_path": "refinement/decklists/Norman_Osborn_Green_Goblin_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Goro_Goro_and_Satoru": {
   "slug": "goro-goro-and-satoru",
@@ -615,7 +636,8 @@
   "lands": 33,
   "avg_mv": 2.5303030303030303,
   "source_path": "refinement/decklists/Goro_Goro_and_Satoru_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Grixistax___October_2026": {
   "slug": "grixistax-october-2026",
@@ -657,7 +679,8 @@
   "lands": 26,
   "avg_mv": 2.0555555555555554,
   "source_path": "refinement/decklists/Grixistax_October_2026_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Gwendlyn_Di_Corci": {
   "slug": "gwendlyn-di-corci",
@@ -693,7 +716,8 @@
   "lands": 35,
   "avg_mv": 2.328125,
   "source_path": "refinement/decklists/Gwendlyn_Di_Corci_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Inalla__Archmage_Ritualist": {
   "slug": "inalla-archmage-ritualist",
@@ -730,7 +754,8 @@
   "lands": 27,
   "avg_mv": 2.0,
   "source_path": "refinement/decklists/Inalla_Archmage_Ritualist_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Jeleva__Nephalia_s_Scourge": {
   "slug": "jeleva-nephalias-scourge",
@@ -769,7 +794,8 @@
   "lands": 27,
   "avg_mv": 1.9027777777777777,
   "source_path": "refinement/decklists/Jeleva_Nephalia_s_Scourge_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Kefka__Court_Mage": {
   "slug": "kefka-court-mage",
@@ -808,7 +834,8 @@
   "lands": 28,
   "avg_mv": 1.943661971830986,
   "source_path": "refinement/decklists/Kefka_Court_Mage_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Kess__Dissident_Mage": {
   "slug": "kess-dissident-mage",
@@ -848,7 +875,8 @@
   "lands": 27,
   "avg_mv": 1.8472222222222223,
   "source_path": "refinement/decklists/Kess_Dissident_Mage_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Loki__the_Deceiver": {
   "slug": "loki-the-deceiver",
@@ -872,7 +900,8 @@
   "lands": 34,
   "avg_mv": 3.3846153846153846,
   "source_path": "refinement/decklists/Loki_the_Deceiver_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Lord_Xander__the_Collector": {
   "slug": "lord-xander-the-collector",
@@ -911,7 +940,8 @@
   "lands": 33,
   "avg_mv": 2.3333333333333335,
   "source_path": "refinement/decklists/Lord_Xander_the_Collector_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Lord_of_Tresserhorn": {
   "slug": "lord-of-tresserhorn",
@@ -932,7 +962,8 @@
   "lands": 35,
   "avg_mv": 2.4375,
   "source_path": "refinement/decklists/Lord_of_Tresserhorn_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Lynde__Cheerful_Tormentor": {
   "slug": "lynde-cheerful-tormentor",
@@ -959,7 +990,8 @@
   "lands": 35,
   "avg_mv": 3.21875,
   "source_path": "refinement/decklists/Lynde_Cheerful_Tormentor_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Mai_and_Zuko": {
   "slug": "mai-and-zuko",
@@ -993,7 +1025,8 @@
   "lands": 31,
   "avg_mv": 2.6029411764705883,
   "source_path": "refinement/decklists/Mai_and_Zuko_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Mairsil__the_Pretender": {
   "slug": "mairsil-the-pretender",
@@ -1025,7 +1058,8 @@
   "lands": 32,
   "avg_mv": 2.8059701492537314,
   "source_path": "refinement/decklists/Mairsil_the_Pretender_Approved_2026-10-14.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Marchesa__Dealer_of_Death": {
   "slug": "marchesa-dealer-of-death",
@@ -1062,7 +1096,8 @@
   "lands": 29,
   "avg_mv": 1.8714285714285714,
   "source_path": "refinement/decklists/Marchesa_Dealer_of_Death_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Marchesa__the_Black_Rose": {
   "slug": "marchesa-the-black-rose",
@@ -1086,7 +1121,8 @@
   "lands": 34,
   "avg_mv": 2.8153846153846156,
   "source_path": "refinement/decklists/Marchesa_the_Black_Rose_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Mishra__Artificer_Prodigy": {
   "slug": "mishra-artificer-prodigy",
@@ -1120,7 +1156,8 @@
   "lands": 29,
   "avg_mv": 2.657142857142857,
   "source_path": "refinement/decklists/Mishra_Artificer_Prodigy_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Mishra__Eminent_One": {
   "slug": "mishra-eminent-one",
@@ -1153,7 +1190,8 @@
   "lands": 34,
   "avg_mv": 2.7846153846153845,
   "source_path": "refinement/decklists/Mishra_Eminent_One_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Missy": {
   "slug": "missy",
@@ -1179,7 +1217,8 @@
   "lands": 35,
   "avg_mv": 2.71875,
   "source_path": "refinement/decklists/Missy_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Nathan_Drake__Treasure_Hunter": {
   "slug": "nathan-drake-treasure-hunter",
@@ -1207,7 +1246,8 @@
   "lands": 34,
   "avg_mv": 2.9076923076923076,
   "source_path": "refinement/decklists/Nathan_Drake_Treasure_Hunter_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Nekusar__the_Mindrazer": {
   "slug": "nekusar-the-mindrazer",
@@ -1241,7 +1281,8 @@
   "lands": 35,
   "avg_mv": 2.671875,
   "source_path": "refinement/decklists/Nekusar_the_Mindrazer_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Nicol_Bolas": {
   "slug": "nicol-bolas",
@@ -1274,7 +1315,8 @@
   "lands": 37,
   "avg_mv": 2.4838709677419355,
   "source_path": "refinement/decklists/Nicol_Bolas_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Nicol_Bolas__the_Ravager": {
   "slug": "nicol-bolas-the-ravager",
@@ -1309,7 +1351,8 @@
   "lands": 34,
   "avg_mv": 3.1384615384615384,
   "source_path": "refinement/decklists/Nicol_Bolas_the_Ravager_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Obeka__Brute_Chronologist": {
   "slug": "obeka-brute-chronologist",
@@ -1341,7 +1384,8 @@
   "lands": 34,
   "avg_mv": 2.7846153846153845,
   "source_path": "refinement/decklists/Obeka_Brute_Chronologist_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Obeka__Splitter_of_Seconds": {
   "slug": "obeka-splitter-of-seconds",
@@ -1366,7 +1410,8 @@
   "lands": 35,
   "avg_mv": 2.890625,
   "source_path": "refinement/decklists/Obeka_Splitter_of_Seconds_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Parnesse__the_Subtle_Brush": {
   "slug": "parnesse-the-subtle-brush",
@@ -1388,7 +1433,8 @@
   "lands": 35,
   "avg_mv": 3.0,
   "source_path": "refinement/decklists/Parnesse_the_Subtle_Brush_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "RogSi": {
   "slug": "rograkh-son-of-rohgahh-silas-renn",
@@ -1427,7 +1473,8 @@
   "lands": 24,
   "avg_mv": 1.8243243243243243,
   "source_path": "refinement/decklists/RogSi_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Saruman__the_White_Hand": {
   "slug": "saruman-the-white-hand",
@@ -1457,7 +1504,8 @@
   "lands": 31,
   "avg_mv": 3.3529411764705883,
   "source_path": "refinement/decklists/Saruman_the_White_Hand_Approved_2026-10-15.txt",
-  "fixes": 3
+  "fixes": 3,
+  "legality_status": "legal"
  },
  "Sauron__Lord_of_the_Rings": {
   "slug": "sauron-lord-of-the-rings",
@@ -1487,7 +1535,8 @@
   "lands": 32,
   "avg_mv": 3.5074626865671643,
   "source_path": "refinement/decklists/Sauron_Lord_of_the_Rings_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Sauron__the_Dark_Lord": {
   "slug": "sauron-the-dark-lord",
@@ -1518,7 +1567,8 @@
   "lands": 34,
   "avg_mv": 2.9692307692307693,
   "source_path": "refinement/decklists/Sauron_the_Dark_Lord_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Sedris__the_Traitor_King": {
   "slug": "sedris-the-traitor-king",
@@ -1549,7 +1599,8 @@
   "lands": 31,
   "avg_mv": 3.426470588235294,
   "source_path": "refinement/decklists/Sedris_the_Traitor_King_Approved_2026-10-15.txt",
-  "fixes": 3
+  "fixes": 3,
+  "legality_status": "legal"
  },
  "Sol_kanar_the_Swamp_King": {
   "slug": "solkanar-the-swamp-king",
@@ -1581,7 +1632,8 @@
   "lands": 35,
   "avg_mv": 2.65625,
   "source_path": "refinement/decklists/Solkanar_the_Swamp_King_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Sol_kanar_the_Tainted": {
   "slug": "solkanar-the-tainted",
@@ -1607,7 +1659,8 @@
   "lands": 35,
   "avg_mv": 3.03125,
   "source_path": "refinement/decklists/Solkanar_the_Tainted_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Tetsuo_Umezawa": {
   "slug": "tetsuo-umezawa",
@@ -1630,7 +1683,8 @@
   "lands": 35,
   "avg_mv": 2.75,
   "source_path": "refinement/decklists/Tetsuo_Umezawa_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Tetsuo__Imperial_Champion": {
   "slug": "tetsuo-imperial-champion",
@@ -1654,7 +1708,45 @@
   "lands": 35,
   "avg_mv": 3.1875,
   "source_path": "refinement/decklists/Tetsuo_Imperial_Champion_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
+ },
+ "The_Madcap_Jester": {
+  "slug": "the-madcap-jester",
+  "themes": "Exile Theft / Library Control / Grixis Combo",
+  "commanders": [
+   "The Madcap Jester"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Ancient Tomb",
+   "Chrome Mox",
+   "Demonic Tutor",
+   "Fierce Guardianship",
+   "Force of Will",
+   "Gamble",
+   "Imperial Seal",
+   "Jeska's Will",
+   "Lion's Eye Diamond",
+   "Mana Vault",
+   "Mox Diamond",
+   "Mystical Tutor",
+   "Necropotence",
+   "Rhystic Study",
+   "Thassa's Oracle",
+   "Underworld Breach",
+   "Vampiric Tutor"
+  ],
+  "floor": 4,
+  "cfloor": 4,
+  "n_combos": 4,
+  "n_two": 0,
+  "src_claim": "5 — cEDH",
+  "lands": 34,
+  "avg_mv": 2.4,
+  "source_path": "refinement/decklists/The_Madcap_Jester_Approved_2026-10-15.txt",
+  "fixes": 3,
+  "legality_status": "pending"
  },
  "The_Rani": {
   "slug": "the-rani",
@@ -1681,7 +1773,8 @@
   "lands": 33,
   "avg_mv": 3.015151515151515,
   "source_path": "refinement/decklists/The_Rani_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "The_Valeyard": {
   "slug": "the-valeyard",
@@ -1706,7 +1799,8 @@
   "lands": 36,
   "avg_mv": 3.6031746031746033,
   "source_path": "refinement/decklists/The_Valeyard_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Thraximundar": {
   "slug": "thraximundar",
@@ -1733,7 +1827,30 @@
   "lands": 36,
   "avg_mv": 2.7777777777777777,
   "source_path": "refinement/decklists/Thraximundar_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
+ },
+ "Tresserhorn_s_Lord__Returned": {
+  "slug": "tresserhorns-lord-returned",
+  "themes": "",
+  "commanders": [
+   "Tresserhorn's Lord, Returned"
+  ],
+  "ci": "UBR",
+  "gcs": [
+   "Demonic Tutor",
+   "Vampiric Tutor"
+  ],
+  "floor": 3,
+  "cfloor": 3,
+  "n_combos": 21,
+  "n_two": 1,
+  "src_claim": null,
+  "lands": 33,
+  "avg_mv": 2.696969696969697,
+  "source_path": "refinement/decklists/Tresserhorn_s_Lord_Returned_Approved_2026-10-15.txt",
+  "fixes": 3,
+  "legality_status": "pending"
  },
  "Wick__the_Whorled_Mind": {
   "slug": "wick-the-whorled-mind",
@@ -1757,7 +1874,8 @@
   "lands": 35,
   "avg_mv": 2.546875,
   "source_path": "refinement/decklists/Wick_the_Whorled_Mind_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  },
  "Zevlor__Elturel_Exile": {
   "slug": "zevlor-elturel-exile",
@@ -1787,6 +1905,7 @@
   "lands": 34,
   "avg_mv": 2.7384615384615385,
   "source_path": "refinement/decklists/Zevlor_Elturel_Exile_Approved_2026-10-15.txt",
-  "fixes": 2
+  "fixes": 2,
+  "legality_status": "legal"
  }
 }

@@ -107,6 +107,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-04-04* — Although the Warrior tokens enter as attacking creatures, they were never declared as attacking creatures. Abilities that trigger whenever a creature attacks won’t trigger when the tokens enter attacking.
   - *2025-04-04* — You choose the player, planeswalker, or battle each Warrior token is attacking. They don’t all have to attack the same one, and they don’t have to attack the same player, planeswalker, or battle as the creature with mobilize.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#infantry-shield)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/35/infantry-shield) · oracle_id `71c68002-1489-4858-a8fb-1f575641983e` · printing: TDC #35 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infantry Veteran

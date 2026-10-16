@@ -631,8 +631,8 @@ schema: 2
   - *2026-06-29* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Bilbo, Thief in the Night). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2026-06-29* — You can choose to cast an Adventure instant or sorcery spell from your graveyard as Bilbo's ability resolves. If that Adventure spell resolves, you can exile it using the replacement effect associated with the Adventure, and you can cast the permanent spell later from exile. If that Adventure spell fails to resolve (because it's countered or its targets become illegal), that card is exiled by the replacement effect created by Bilbo's ability; you can't cast the permanent spell later from exile.
 - **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: 38 combos; most popular [Sensei's Divining Top + The Reality Chip + Bilbo, Thief in the Night](https://commanderspellbook.com/combo/5078-5243-7650/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 1,138 decks; highest synergy [Bilbo's Ring](../../cards/B/bi.md#bilbos-ring) (+69%), [Riddles in the Dark](../../cards/R/ri.md#riddles-in-the-dark) (+58%), [The Reality Chip](../../cards/T/ther.md#the-reality-chip) (+58%) · EDHREC: in 12,902 decks; most often under [Kellan, the Kid](../../cards/K/ke.md#kellan-the-kid) (15.3% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (5.4% of its decks), [Gonti, Canny Acquisitor](../../cards/G/gon.md#gonti-canny-acquisitor) (13.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/B.md#bilbo-thief-in-the-night)
+- **Synergy:** *Proven* — KB decks (1): [The Madcap Jester (Grixis)](../../grixis/decks/the-madcap-jester.md) · Commander Spellbook: 38 combos; most popular [Sensei's Divining Top + The Reality Chip + Bilbo, Thief in the Night](https://commanderspellbook.com/combo/5078-5243-7650/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 1,138 decks; highest synergy [Bilbo's Ring](../../cards/B/bi.md#bilbos-ring) (+69%), [Riddles in the Dark](../../cards/R/ri.md#riddles-in-the-dark) (+58%), [The Reality Chip](../../cards/T/ther.md#the-reality-chip) (+58%) · EDHREC: in 12,902 decks; most often under [Kellan, the Kid](../../cards/K/ke.md#kellan-the-kid) (15.3% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (5.4% of its decks), [Gonti, Canny Acquisitor](../../cards/G/gon.md#gonti-canny-acquisitor) (13.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#bilbo-thief-in-the-night)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/33/bilbo-thief-in-the-night) · oracle_id `72a9a85d-7cfc-4b3c-82db-9d35be6c0982` · printing: HOB #33 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bilbo, Unexpected Adventurer
@@ -1849,7 +1849,7 @@ schema: 2
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1843 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/B.md#bitterbloom-bearer)
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/B.md#bitterbloom-bearer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/88/bitterbloom-bearer) · oracle_id `5effb651-f9e0-4c14-8192-bd0e132b8d5d` · printing: ECL #88 (2026-01-23) · [rulings](https://api.scryfall.com/cards/7127164d-f2a3-4d79-b6db-93507ff5ab47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bitterblossom
@@ -1867,7 +1867,7 @@ schema: 2
   - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
   - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
   - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
-- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/B.md#bitterblossom)
+- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/B.md#bitterblossom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/69/bitterblossom) · oracle_id `fb868840-09fa-49b1-85cb-b08ad065e972` · printing: 2X2 #69 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bitterbow Sharpshooters
@@ -1955,7 +1955,7 @@ schema: 2
 - **Keywords:** Gravestorm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13568 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/B.md#bitter-ordeal)
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/B.md#bitter-ordeal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fut/80/bitter-ordeal) · oracle_id `c02fdb2e-10bb-49fc-bce0-b31b6fad8e38` · printing: FUT #80 (2007-05-04) · [rulings](https://api.scryfall.com/cards/2879e7a1-0256-4116-be22-7c9972e4ce0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bitter Reunion

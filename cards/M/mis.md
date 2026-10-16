@@ -1866,7 +1866,7 @@ schema: 2
   > {T}, Pay 1 life, Sacrifice this land: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #42 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 53 pages (47 decks · 4 edh guides · 2 card data) → [reverse index](../../references/M.md#misty-rainforest)
+- **Referenced in:** 54 pages (48 decks · 4 edh guides · 2 card data) → [reverse index](../../references/M.md#misty-rainforest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/250/misty-rainforest) · oracle_id `09dd85aa-47bc-4713-a9b9-8b52ff2285ed` · printing: MH2 #250 (2021-06-18) · [rulings](https://api.scryfall.com/cards/88231c0d-0cc8-44ec-bf95-81d1710ac141/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Misunderstood Trapeze Elf

@@ -175,7 +175,7 @@ schema: 2
   > *Everything is flammable in the Burning Isles, even the mana itself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #144 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 21 pages (16 decks · 4 edh guides · 1 card data) → [reverse index](../../references/S.md#sulfurous-springs)
+- **Referenced in:** 23 pages (18 decks · 4 edh guides · 1 card data) → [reverse index](../../references/S.md#sulfurous-springs)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/85/sulfurous-springs) · oracle_id `f5c38c01-4a40-469f-91a0-7479daf4e8e7` · printing: FRC #85 (2026-10-02) · [rulings](https://api.scryfall.com/cards/be340a1c-f1e7-446e-ae91-86ecb884479c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sulfur Vent

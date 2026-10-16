@@ -881,5 +881,5 @@ schema: 2
 - **Rulings** (2):
   - *2018-10-05* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
   - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
-- **Referenced in:** 74 pages (69 decks · 4 edh guides · 1 card data) → [reverse index](../../references/W.md#watery-grave)
+- **Referenced in:** 76 pages (71 decks · 4 edh guides · 1 card data) → [reverse index](../../references/W.md#watery-grave)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/306/watery-grave) · oracle_id `fc9ec820-4245-4a96-b009-5308a818ca58` · printing: TRK #306 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

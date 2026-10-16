@@ -657,7 +657,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-04-17* — It doesn't matter whose commander you control. Any one will do. If you have two commanders, you just need to control one of them.
   - *2020-04-17* — Once you begin casting this spell, players can't take any other actions until you're done casting it. Notably, they can't try to remove the commander you control to make you pay its cost.
-- **Referenced in:** 68 pages (59 decks · 7 edh guides · 2 card data) → [reverse index](../../references/F.md#fierce-guardianship)
+- **Referenced in:** 69 pages (60 decks · 7 edh guides · 2 card data) → [reverse index](../../references/F.md#fierce-guardianship)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/94/fierce-guardianship) · oracle_id `d09c9cba-fdd2-479b-ad5d-d05181c3e3f9` · printing: CMM #94 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fierce Invocation

@@ -782,7 +782,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #149 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-06-08* — If you began the game with two or more opponents but now only have one opponent left, these lands enter the battlefield tapped.
-- **Referenced in:** 61 pages (57 decks · 3 edh guides · 1 card data) → [reverse index](../../references/M.md#morphic-pool)
+- **Referenced in:** 63 pages (59 decks · 3 edh guides · 1 card data) → [reverse index](../../references/M.md#morphic-pool)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/357/morphic-pool) · oracle_id `bd004c9d-771e-4e63-a97d-a2259c096af8` · printing: CLB #357 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Morphling

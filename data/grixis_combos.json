@@ -12973,6 +12973,656 @@
    ],
    "almost": 39,
    "queried": "2026-10-15"
+  },
+  "The_Madcap_Jester": {
+   "sig": [
+    "Ancient Tomb",
+    "Arcane Signet",
+    "Arid Mesa",
+    "Ashiok, Nightmare Weaver",
+    "Badlands",
+    "Beseech the Mirror",
+    "Bilbo, Thief in the Night",
+    "Bitter Ordeal",
+    "Blazemire Verge",
+    "Blood Crypt",
+    "Bloodstained Mire",
+    "Brain Freeze",
+    "Cabal Ritual",
+    "Chrome Mox",
+    "Circu, Dimir Lobotomist",
+    "City of Brass",
+    "City of Traitors",
+    "Command Tower",
+    "Dark Ritual",
+    "Dauthi Voidwalker",
+    "Deadly Rollick",
+    "Deflecting Swat",
+    "Demonic Consultation",
+    "Demonic Tutor",
+    "Don Andres, the Renegade",
+    "Dragon's Smile",
+    "Drowned Catacomb",
+    "Ensnared by the Mara",
+    "Exotic Orchard",
+    "Extract",
+    "Fierce Guardianship",
+    "Flooded Strand",
+    "Force of Negation",
+    "Force of Will",
+    "Gamble",
+    "Gemstone Caverns",
+    "Gonti, Night Minister",
+    "Imperial Seal",
+    "Inside Information",
+    "Island",
+    "Jeska's Will",
+    "Jester's Cap",
+    "Jester's Scepter",
+    "Laughing Jasper Flint",
+    "Lightning Greaves",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Luxury Suite",
+    "Mana Confluence",
+    "Mana Drain",
+    "Mana Vault",
+    "Marsh Flats",
+    "Misty Rainforest",
+    "Morphic Pool",
+    "Mox Diamond",
+    "Mox Opal",
+    "Mystic Remora",
+    "Mystical Tutor",
+    "Nalfeshnee",
+    "Necropotence",
+    "Otawara, Soaring City",
+    "Pact of Negation",
+    "Party Thrasher",
+    "Passionate Archaeologist",
+    "Plargg and Nassari",
+    "Polluted Delta",
+    "Praetor's Grasp",
+    "Prosper, Tome-Bound",
+    "Psychic Surgery",
+    "Ragavan, Nimble Pilferer",
+    "Rhystic Study",
+    "Rite of Flame",
+    "Sadistic Sacrament",
+    "Scalding Tarn",
+    "Shivan Reef",
+    "Sire of Stagnation",
+    "Sol Ring",
+    "Starting Town",
+    "Steam Vents",
+    "Sulfurous Springs",
+    "Swan Song",
+    "Tainted Pact",
+    "Talisman of Dominance",
+    "Talisman of Indulgence",
+    "Tasha's Hideous Laughter",
+    "Thassa's Oracle",
+    "The Madcap Jester",
+    "Thieving Varmint",
+    "Toxic Deluge",
+    "Training Center",
+    "Undercity Sewers",
+    "Underground Sea",
+    "Underworld Breach",
+    "Vampiric Tutor",
+    "Verdant Catacombs",
+    "Volcanic Island",
+    "Watery Grave",
+    "Wild-Magic Sorcerer",
+    "Wooded Foothills",
+    "Xander's Lounge"
+   ],
+   "combos": [
+    {
+     "id": "1295-3093",
+     "cards": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "n": 2,
+     "infinite": false,
+     "produces": [
+      "Win the game"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "R"
+    },
+    {
+     "id": "742-1295",
+     "cards": [
+      "Demonic Consultation",
+      "Thassa's Oracle"
+     ],
+     "n": 2,
+     "infinite": false,
+     "produces": [
+      "Exile your library",
+      "Win the game"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "R"
+    },
+    {
+     "id": "1368-1414-4856",
+     "cards": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "P"
+    },
+    {
+     "id": "1368-3518-4856",
+     "cards": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "P"
+    }
+   ],
+   "almost": 42,
+   "queried": "2026-10-15"
+  },
+  "Tresserhorn_s_Lord__Returned": {
+   "sig": [
+    "Accursed Marauder",
+    "Arcane Signet",
+    "Ashnod's Altar",
+    "Badlands",
+    "Bastion of Remembrance",
+    "Bitterbloom Bearer",
+    "Bitterblossom",
+    "Black Market Connections",
+    "Blasphemous Act",
+    "Blasphemous Edict",
+    "Blood Artist",
+    "Blood Crypt",
+    "Bloodghast",
+    "Bloodstained Mire",
+    "Boggart Trawler // Boggart Bog",
+    "Braids, Arisen Nightmare",
+    "Carrion Feeder",
+    "Cavern of Souls",
+    "Chandra's Ignition",
+    "Chaos Warp",
+    "Chasm Skulker",
+    "Chittering Witch",
+    "Command Tower",
+    "Dark Ritual",
+    "Deadly Dispute",
+    "Demonic Tutor",
+    "Diabolic Intent",
+    "Endrek Sahr, Master Breeder",
+    "Exotic Orchard",
+    "Feed the Swarm",
+    "Fellwar Stone",
+    "Goblin Bombardment",
+    "Grave Pact",
+    "Gravecrawler",
+    "High Market",
+    "Infantry Shield",
+    "Island",
+    "Jadar, Ghoulcaller of Nephalia",
+    "Kher Keep",
+    "Lagomos, Hand of Hatred",
+    "Lightning Greaves",
+    "Living Death",
+    "Luxury Suite",
+    "Mahadi, Emporium Master",
+    "Marionette Apprentice",
+    "Mayhem Devil",
+    "Mogg War Marshal",
+    "Morphic Pool",
+    "Mountain",
+    "My Precious // Allure of Power",
+    "Nightscape Familiar",
+    "Not of This World",
+    "Ophiomancer",
+    "Phyrexian Altar",
+    "Phyrexian Tower",
+    "Pitiless Plunderer",
+    "Plumb the Forbidden",
+    "Polluted Delta",
+    "Reanimate",
+    "Scalding Tarn",
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "Shizo, Death's Storehouse",
+    "Skullclamp",
+    "Sol Ring",
+    "Steam Vents",
+    "Stubborn Denial",
+    "Sulfurous Springs",
+    "Swamp",
+    "Swan Song",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence",
+    "Tempt with Vengeance",
+    "The Locust God",
+    "Training Center",
+    "Tresserhorn's Lord, Returned",
+    "Underground River",
+    "Underground Sea",
+    "Urborg, Tomb of Yawgmoth",
+    "Vampiric Tutor",
+    "Victimize",
+    "Village Rites",
+    "Viscera Seer",
+    "Volcanic Island",
+    "Wand of Orcus",
+    "Warren Soultrader",
+    "Watery Grave",
+    "Weaponcraft Enthusiast",
+    "Wilhelt, the Rotcleaver",
+    "Woe Strider",
+    "Xander's Lounge",
+    "Yawgmoth, Thran Physician",
+    "Zulaport Cutthroat"
+   ],
+   "combos": [
+    {
+     "id": "2577-4050",
+     "cards": [
+      "Gravecrawler",
+      "Phyrexian Altar"
+     ],
+     "n": 2,
+     "infinite": true,
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1339-2034-7920",
+     "cards": [
+      "The Locust God",
+      "Ashnod's Altar",
+      "Tresserhorn's Lord, Returned"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite colorless mana",
+      "Near-infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1339-2292-7920",
+     "cards": [
+      "The Locust God",
+      "Viscera Seer",
+      "Tresserhorn's Lord, Returned"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite colorless mana",
+      "Near-infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1339-2438-7920",
+     "cards": [
+      "The Locust God",
+      "Carrion Feeder",
+      "Tresserhorn's Lord, Returned"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite colorless mana",
+      "Near-infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1339-2842-4279",
+     "cards": [
+      "Yawgmoth, Thran Physician",
+      "The Locust God",
+      "Blood Artist"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite lifeloss",
+      "Near-infinite lifegain triggers",
+      "Near-infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1339-4050-7920",
+     "cards": [
+      "The Locust God",
+      "Phyrexian Altar",
+      "Tresserhorn's Lord, Returned"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite colorless mana",
+      "Near-infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1339-4279-6578",
+     "cards": [
+      "Yawgmoth, Thran Physician",
+      "The Locust God",
+      "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite lifegain triggers",
+      "Near-infinite creature ETB",
+      "Infinite draw triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1339-5147-7920",
+     "cards": [
+      "The Locust God",
+      "Goblin Bombardment",
+      "Tresserhorn's Lord, Returned"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite colorless mana",
+      "Near-infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "1385-2577-5670",
+     "cards": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Zulaport Cutthroat"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2034-2577-4871",
+     "cards": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Ashnod's Altar"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "228-1339-2034",
+     "cards": [
+      "The Locust God",
+      "Skullclamp",
+      "Ashnod's Altar"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite colorless mana",
+      "Near-infinite creature tokens with haste",
+      "Near-infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "228-1339-4050",
+     "cards": [
+      "The Locust God",
+      "Skullclamp",
+      "Phyrexian Altar"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite death triggers",
+      "Near-infinite creature ETB",
+      "Near-infinite creature LTB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "228-1339-4871",
+     "cards": [
+      "The Locust God",
+      "Skullclamp",
+      "Pitiless Plunderer"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite creature tokens with haste",
+      "Near-infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2292-2577-4871",
+     "cards": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Viscera Seer"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2438-2577-4871",
+     "cards": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Carrion Feeder"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2577-2842-5670",
+     "cards": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Blood Artist"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2577-3025-5670",
+     "cards": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Bastion of Remembrance"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2577-4871-5147",
+     "cards": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Goblin Bombardment"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "2577-5670-6578",
+     "cards": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "997-1339-7920",
+     "cards": [
+      "The Locust God",
+      "Woe Strider",
+      "Tresserhorn's Lord, Returned"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite colorless mana",
+      "Near-infinite creature ETB"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    },
+    {
+     "id": "997-2577-4871",
+     "cards": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Woe Strider"
+     ],
+     "n": 3,
+     "infinite": true,
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers"
+     ],
+     "requires": [],
+     "csb_bracket_tag": "E"
+    }
+   ],
+   "almost": 273,
+   "queried": "2026-10-15"
   }
  }
 }

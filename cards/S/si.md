@@ -4892,7 +4892,8 @@ schema: 2
   - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it’s just the new color, not that color and colorless.
   - *2015-08-25* — The cards are exiled from the library face up.
 - **Lore:** ✅ Card art shown on [At Any Cost](https://magic.wizards.com/en/news/magic-story/any-cost-2015-11-25) (caption names the card and its artist) · [format](../../Card%20Enrichment.md#lore-line)
-- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 59,952 decks; most often under [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (74.2% of its decks), [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (38.3% of its decks), [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (18.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Synergy:** *Proven* — KB decks (1): [The Madcap Jester (Grixis)](../../grixis/decks/the-madcap-jester.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC: in 59,952 decks; most often under [Ulalek, Fused Atrocity](../../cards/U/ul.md#ulalek-fused-atrocity) (74.2% of its decks), [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (38.3% of its decks), [Hashaton, Scarab's Fist](../../cards/H/ha.md#hashaton-scarabs-fist) (18.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sire-of-stagnation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/206/sire-of-stagnation) · oracle_id `ed6607f4-20ab-4d3f-a8af-bcc148423336` · printing: BFZ #206 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sire of the Storm

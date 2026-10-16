@@ -2810,7 +2810,7 @@ schema: 2
   > *"Behold! The most arcane powers of the multiverse are mere tools in service of Doom's ambition."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #33 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 48 pages (40 decks · 5 edh guides · 3 card data) → [reverse index](../../references/D.md#dark-ritual)
+- **Referenced in:** 50 pages (42 decks · 5 edh guides · 3 card data) → [reverse index](../../references/D.md#dark-ritual)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/793/dark-ritual) · oracle_id `53f7c868-b03e-4fc2-8dcf-a75bbfa3272b` · printing: MSC #793 (2026-06-26) · [rulings](https://api.scryfall.com/cards/11e12a84-e7be-4afc-a230-c2e644743fa8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dark Salvation
@@ -3981,7 +3981,7 @@ schema: 2
   - *2021-06-18* — Playing a card with Dauthi Voidwalker's last ability is still subject to normal timing restrictions.
   - *2021-06-18* — Tokens still die while Dauthi Voidwalker is on the battlefield.
   - *2021-06-18* — While Dauthi Voidwalker is on the battlefield, nontoken creatures your opponents control won't die. They'll be exiled instead. Abilities that would trigger when those creatures die won't trigger.
-- **Referenced in:** 12 pages (8 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/D.md#dauthi-voidwalker)
+- **Referenced in:** 13 pages (9 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/D.md#dauthi-voidwalker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/176/dauthi-voidwalker) · oracle_id `f1c2dbe2-fbe0-4058-bdf1-91d1b1832786` · printing: TDC #176 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dauthi Warlord

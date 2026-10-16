@@ -241,7 +241,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #236 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — If another creature you control dies at the same time as Zulaport Cutthroat, its ability triggers for that creature.
-- **Referenced in:** 12 pages (8 decks · 3 edh guides · 1 card data) → [reverse index](../../references/Z.md#zulaport-cutthroat)
+- **Referenced in:** 13 pages (9 decks · 3 edh guides · 1 card data) → [reverse index](../../references/Z.md#zulaport-cutthroat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/233/zulaport-cutthroat) · oracle_id `76b003e0-15af-4f22-bdf2-1ade5430964a` · printing: SOC #233 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zulaport Duelist

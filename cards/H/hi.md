@@ -1140,7 +1140,7 @@ schema: 2
   > *If it can't be had here, it can't be had on any world.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #420 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 5 pages (4 decks · 1 card data) → [reverse index](../../references/H.md#high-market)
+- **Referenced in:** 6 pages (5 decks · 1 card data) → [reverse index](../../references/H.md#high-market)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/380/high-market) · oracle_id `86fb3749-37d6-48a6-8524-71e996850307` · printing: SOC #380 (2026-04-24) · [rulings](https://api.scryfall.com/cards/894aa6b6-0d08-4c43-8734-9cb7b31359c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### High Noon

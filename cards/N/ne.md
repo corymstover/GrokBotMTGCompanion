@@ -1024,7 +1024,7 @@ schema: 2
   - *2017-11-17* — If you discard a card with madness and wish to cast it, Necropotence's ability won't exile that card. If you don't wish to cast it, you choose whether it ends up exiled or in your graveyard.
   - *2017-11-17* — Necropotence's last ability creates a delayed triggered ability that will put the exiled card into your hand. That ability still triggers even if Necropotence is removed from the battlefield before your end step.
   - *2023-09-01* — You can't look at the cards exiled by the last ability while they're face down.
-- **Referenced in:** 16 pages (12 decks · 2 edh guides · 2 card data) → [reverse index](../../references/N.md#necropotence)
+- **Referenced in:** 17 pages (13 decks · 2 edh guides · 2 card data) → [reverse index](../../references/N.md#necropotence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/98/necropotence) · oracle_id `94a844d2-0574-45a7-b347-e0e329767c42` · printing: IMA #98 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Necropouncer

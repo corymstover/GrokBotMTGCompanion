@@ -841,7 +841,7 @@ schema: 2
   > Exile the top card of your library. You may put that card into your hand unless it has the same name as another card exiled this way. Repeat this process until you put a card into your hand or you exile two cards with the same name, whichever comes first.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #887 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 15 pages (11 decks · 2 edh guides · 2 card data) → [reverse index](../../references/T.md#tainted-pact)
+- **Referenced in:** 16 pages (12 decks · 2 edh guides · 2 card data) → [reverse index](../../references/T.md#tainted-pact)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/164/tainted-pact) · oracle_id `1a85ba2b-ae10-4917-954a-7709b75a9740` · printing: ODY #164 (2001-10-01) · [rulings](https://api.scryfall.com/cards/c513f51b-a0db-4c08-8acc-1e91060b93b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tainted Peak
@@ -1815,7 +1815,7 @@ schema: 2
   > *—Ral Zarek*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #125 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 64 pages (59 decks · 4 edh guides · 1 card data) → [reverse index](../../references/T.md#talisman-of-creativity)
+- **Referenced in:** 65 pages (60 decks · 4 edh guides · 1 card data) → [reverse index](../../references/T.md#talisman-of-creativity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/61/talisman-of-creativity) · oracle_id `14d2979d-5728-42d7-a027-0eb1f754655d` · printing: FRC #61 (2026-10-02) · [rulings](https://api.scryfall.com/cards/d4ba86c8-8052-4c9e-a0d0-ac6ad0b2679c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Curiosity
@@ -1842,7 +1842,7 @@ schema: 2
   > {T}: Add {U} or {B}. This artifact deals 1 damage to you.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #92 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 67 pages (63 decks · 3 edh guides · 1 card data) → [reverse index](../../references/T.md#talisman-of-dominance)
+- **Referenced in:** 69 pages (65 decks · 3 edh guides · 1 card data) → [reverse index](../../references/T.md#talisman-of-dominance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/62/talisman-of-dominance) · oracle_id `4c0a0448-b9d6-43a0-8549-64066dac63f0` · printing: FRC #62 (2026-10-02) · [rulings](https://api.scryfall.com/cards/78d5366f-eb6d-4ec1-880b-111872863766/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Hierarchy
@@ -1881,7 +1881,7 @@ schema: 2
   > {T}: Add {B} or {R}. This artifact deals 1 damage to you.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #127 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 60 pages (56 decks · 3 edh guides · 1 card data) → [reverse index](../../references/T.md#talisman-of-indulgence)
+- **Referenced in:** 62 pages (58 decks · 3 edh guides · 1 card data) → [reverse index](../../references/T.md#talisman-of-indulgence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/63/talisman-of-indulgence) · oracle_id `1d9aeaaa-66f6-41cb-9bac-162d6fd8662c` · printing: FRC #63 (2026-10-02) · [rulings](https://api.scryfall.com/cards/36bd614f-ab3b-4ad1-ab5c-a7ca0a641f32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Progress
@@ -3600,7 +3600,7 @@ schema: 2
   > *The raging behir reared back, opened its terrible maw . . . and collapsed in a fit of horrifying giggles.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2975 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/T.md#tashas-hideous-laughter)
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/T.md#tashas-hideous-laughter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/78/tashas-hideous-laughter) · oracle_id `e352f5b9-6406-4914-bc79-f24608be6bc9` · printing: AFR #78 (2021-07-23) · [rulings](https://api.scryfall.com/cards/c4932113-904f-427a-9566-509cc008f3ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tasha, the Witch Queen

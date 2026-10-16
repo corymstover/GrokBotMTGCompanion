@@ -27,6 +27,7 @@ Default is offline (SCRYFALL_OFFLINE=1: newest cached bulk in .cache/, recorded 
   python3 scripts/validate_all.py --online        also refresh citations live and compare the cache with Scryfall's latest bulk
   python3 scripts/validate_all.py --skip oracle   skip steps by name (comma-separated); --only links,schema runs a subset
 """
+import datetime as dt
 import json
 import os
 import re
@@ -57,19 +58,46 @@ def deck_text(path):
 def decks_step():
     import evaluate_decklist as ev
     R = ev.Resolver()
-    bad, n = [], 0
+    bad, n, pending_n = [], 0, 0
+    pf = ROOT / "data" / "grixis_pending.json"
+    pend_reg = json.loads(pf.read_text(encoding="utf-8"))["decks"] if pf.exists() else {}
+    slugs = json.loads((ROOT / "data" / "grixis_summary.json").read_text(encoding="utf-8")) if (ROOT / "data" / "grixis_summary.json").exists() else {}
+    by_slug = {v["slug"]: k for k, v in slugs.items()}
+    did_of = lambda p: by_slug.get(p.stem) if p.parent.name == "decks" and p.parent.parent.name == "grixis" else None
+    for did, v in pend_reg.items():
+        if v.get("status") == "pending" and did in slugs and slugs[did].get("legality_status") != "pending":
+            bad.append(f"data/grixis_pending.json: {did} is pending but its page is not (re-run scripts/build_grixis.py)")
     for d in ("decks", "grixis/decks"):
         for p in sorted((ROOT / d).glob("*.md")):
             n += 1
             rel = p.relative_to(ROOT)
             res = ev.check(deck_text(p), R)
             hard = [i for i in res["issues"] if i["type"] in ev.HARD]
+            text = p.read_text(encoding="utf-8")
+            if re.search(r"^legality_status: pending$", text, re.M):
+                # Bot cycle 38: a pending-legality deck may contain its listed not-yet-legal cards, only before legal_from
+                lf = re.search(r"^legal_from: (\d{4}-\d{2}-\d{2})$", text, re.M)
+                pc = re.search(r"^pending_cards: (\[.*\])$", text, re.M)
+                names = re.findall(r'"((?:[^"\\]|\\.)*)"', pc.group(1)) if pc else []
+                pending_n += 1
+                if not lf or not names:
+                    bad.append(f"{rel}: legality_status pending needs legal_from and pending_cards")
+                elif dt.date.fromisoformat(lf.group(1)) <= dt.date.today():
+                    bad.append(f"{rel}: pending legality expired (legal_from {lf.group(1)} has passed) — run python3 scripts/activate_pending_grixis.py")
+                else:
+                    failing = {i["card"] for i in hard if i["type"] == "not Commander-legal"}
+                    hard = [i for i in hard if not (i["type"] == "not Commander-legal" and i["card"] in names)]
+                    for n_ in names:
+                        if n_ not in failing:
+                            bad.append(f"{rel}: pending card {n_} is already Commander-legal on Scryfall — run python3 scripts/activate_pending_grixis.py")
+                if did_of(p) and pend_reg.get(did_of(p), {}).get("status") != "pending":
+                    bad.append(f"{rel}: page is pending but data/grixis_pending.json is not")
             bad += [f"{rel}: [{i['type']}] {i['card']}: {i['detail']}" for i in hard]
             gcs = [r["name"] for r in res["cards"] if r["gc"] and r["zone"] != "companion"]
             fm = re.search(r"^game_changers: (\d+)", p.read_text(encoding="utf-8"), re.M)
             if fm and int(fm.group(1)) != len(gcs):
                 bad.append(f"{rel}: Game Changer drift — page says {fm.group(1)}, Scryfall flags now {len(gcs)} ({', '.join(gcs) or 'none'})")
-    return (1 if bad else 0), [f"decks: {n} lists re-checked against Scryfall bulk {R.bulk[:10]}; {len(bad)} problems"] + ["  - " + b for b in bad[:30]]
+    return (1 if bad else 0), [f"decks: {n} lists re-checked against Scryfall bulk {R.bulk[:10]} ({pending_n} pending legality, accepted until legal_from); {len(bad)} problems"] + ["  - " + b for b in bad[:30]]
 
 
 def freshness_step(online, strict):
