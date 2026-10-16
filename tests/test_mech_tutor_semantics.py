@@ -28,7 +28,7 @@ def test_graveyard_setup_refuses_variable_and_unsupported_trigger_timing():
         ("Whenever Setup attacks, mill two cards.", "Creature", "trigger timing"),
         ("At the beginning of each end step, surveil 2.", "Enchantment", "trigger timing"),
         ("Mill X cards.", "Sorcery", "unsupported"),
-        ("Target opponent mills three cards.", "Sorcery", "unsupported"),
+        ("Target opponent mills three cards.", "Sorcery", "opponent/other-player"),
     )
     for text, tl, frag in cases:
         r, why = tutors.graveyard_parse("Setup", text, tl)
