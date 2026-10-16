@@ -42,7 +42,7 @@
   "value": {
    "level": "central",
    "advances_plan": "Sedris gives every creature card in the graveyard unearth, which makes the whole graveyard reusable.",
-   "honest_note": "Commander-native. The one Spellbook combo (1409-3821, Deadeye Navigator + Peregrine Drake) doesn't need Sedris, but Sedris can unearth either half. The deck has backup reanimation (Reanimate, Animate Dead, Necromancy, Living Death) but is far weaker without him. There is no source blueprint file; the closeout and verification are the evidence."
+   "honest_note": "Commander-native. The one Spellbook combo (1409-3821, Deadeye Navigator + Peregrine Drake) doesn't need Sedris, but Sedris can unearth either half. The deck has backup reanimation (Reanimate, Animate Dead, Necromancy, Living Death) but is far weaker without him. There is no source blueprint file; the closeout and verification are the evidence. M1 review (sedris-01..06, all verified) confirms the unearth and rescue rules."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -203,10 +203,13 @@
     "Convergence of Dominion",
     "Sedris, the Traitor King"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "sedris-02"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:sedris-the-traitor-king#sedris-02",
     "oracle:Convergence of Dominion",
     "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L25"
    ]
@@ -218,10 +221,13 @@
     "Obeka, Brute Chronologist",
     "Sundial of the Infinite"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "sedris-03"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:sedris-the-traitor-king#sedris-03",
     "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L26",
     "cr:723.1"
    ]
@@ -232,10 +238,13 @@
    "cards": [
     "Teferi's Veil"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "sedris-03"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:sedris-the-traitor-king#sedris-03",
     "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L27"
    ]
   },
@@ -245,10 +254,13 @@
    "cards": [
     "Deadeye Navigator"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "sedris-03"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:sedris-the-traitor-king#sedris-03",
     "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L28"
    ]
   },
@@ -258,11 +270,45 @@
    "cards": [
     "River Kelpie"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "sedris-04"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:sedris-the-traitor-king#sedris-04",
     "source_archive:refinement/decisions/Sedris_the_Traitor_King_Candidate_Decisions_2026-10-15.md#L29"
+   ]
+  },
+  {
+   "id": "granted-unearth-rules",
+   "summary": "Sedris-granted unearth is each card's own sorcery-speed activated ability with both exile clauses.",
+   "cards": [
+    "Sedris, the Traitor King"
+   ],
+   "m1_refs": [
+    "sedris-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:sedris-the-traitor-king#sedris-01"
+   ]
+  },
+  {
+   "id": "drake-navigator-m1",
+   "summary": "Peregrine Drake + Deadeye Navigator is infinite mana and blinks.",
+   "cards": [
+    "Peregrine Drake",
+    "Deadeye Navigator"
+   ],
+   "m1_refs": [
+    "sedris-05"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:sedris-the-traitor-king#sedris-05"
    ]
   }
  ],

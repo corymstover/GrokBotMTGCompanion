@@ -41,7 +41,7 @@
   "value": {
    "level": "central",
    "advances_plan": "Sauron's cast trigger is the deck's best reanimation spell, and Command Beacon recasts it without tax.",
-   "honest_note": "Commander-native but expensive: eight mana, and Spellbook finds no combos. The source calls the engine value/reanimation rather than a compact win (blueprint L21). The deck can win without him through cheap reanimation of Archon, Valgavoth or Jin-Gitaxias. Expect mid Bracket 4."
+   "honest_note": "Commander-native but expensive: eight mana, and Spellbook finds no combos. The source calls the engine value/reanimation rather than a compact win (blueprint L21). The deck can win without him through cheap reanimation of Archon, Valgavoth or Jin-Gitaxias. Expect mid Bracket 4. M1 review (sauronlotr-01..05, all verified) confirms the cast trigger and reanimation rules."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -243,10 +243,13 @@
    "cards": [
     "Sauron, Lord of the Rings"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "sauronlotr-01"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:sauron-lord-of-the-rings#sauronlotr-01",
     "oracle:Sauron, Lord of the Rings",
     "source_archive:refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md#L43"
    ]
@@ -257,10 +260,13 @@
    "cards": [
     "Sauron, Lord of the Rings"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "sauronlotr-01"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:sauron-lord-of-the-rings#sauronlotr-01",
     "source_archive:refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md#L44"
    ]
   },
@@ -286,10 +292,13 @@
     "Metamorphosis Fanatic",
     "Sauron, Lord of the Rings"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "sauronlotr-02"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:sauron-lord-of-the-rings#sauronlotr-02",
     "source_archive:refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md#L46"
    ]
   },
@@ -299,10 +308,13 @@
    "cards": [
     "Nazgûl"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "sauronlotr-04"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:sauron-lord-of-the-rings#sauronlotr-04",
     "source_archive:refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md#L49"
    ]
   },
@@ -313,11 +325,29 @@
     "Anger",
     "Wonder"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "sauronlotr-05"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:sauron-lord-of-the-rings#sauronlotr-05",
     "source_archive:refinement/decisions/Sauron_Lord_of_the_Rings_Candidate_Decisions_2026-10-15.md#L50"
+   ]
+  },
+  {
+   "id": "living-death-order",
+   "summary": "Living Death exiles, then sacrifices, then returns; tokens and Sauron don't come back.",
+   "cards": [
+    "Living Death"
+   ],
+   "m1_refs": [
+    "sauronlotr-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:sauron-lord-of-the-rings#sauronlotr-03"
    ]
   }
  ],

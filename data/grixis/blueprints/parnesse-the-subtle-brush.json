@@ -4,7 +4,7 @@
  "slug": "parnesse-the-subtle-brush",
  "version": 1,
  "status": "seeded",
- "cycle": 53,
+ "cycle": 55,
  "date": "2026-10-16",
  "canonical_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
  "commanders": {
@@ -40,7 +40,7 @@
   "value": {
    "level": "supporting",
    "advances_plan": "Parnesse protects herself and your permanents with a 4-life targeting tax, and her copy-sharing is a political tool.",
-   "honest_note": "None of the 25 Spellbook infinites in the list uses Parnesse; all are copy-spell pairs that work in any Grixis spellslinger deck. Her second ability gives opponents copies, which is optional politics and can be a liability. The source frames the deck as political conversion (blueprint L12), but mechanically she's a five-mana protection/politics commander on top of a strong generic copy-combo shell. The calibration floor is 3, below the source's 4; the 25 two-card infinites support 4. No M1 interaction review exists yet for this deck."
+   "honest_note": "None of the 25 Spellbook infinites in the list uses Parnesse; all are copy-spell pairs that work in any Grixis spellslinger deck. Her second ability gives opponents copies, which is optional politics and can be a liability. The source frames the deck as political conversion (blueprint L12), but mechanically she's a five-mana protection/politics commander on top of a strong generic copy-combo shell. The calibration floor is 3, below the source's 4; the 25 two-card infinites support 4. M1 review (parnesse-01..10) flags Bonus Round as symmetric (parnesse-07) and leaves one question uncertain (parnesse-10: whether opponents' retargeted copies pay her 4-life tax)."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -255,10 +255,13 @@
     "Parnesse, the Subtle Brush",
     "Mizzix's Mastery"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "parnesse-01"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:parnesse-the-subtle-brush#parnesse-01",
     "oracle:Parnesse, the Subtle Brush",
     "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L25",
     "cr:707.10"
@@ -284,10 +287,13 @@
    "cards": [
     "Parnesse, the Subtle Brush"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "parnesse-02"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:parnesse-the-subtle-brush#parnesse-02",
     "oracle:Parnesse, the Subtle Brush"
    ]
   },
@@ -298,11 +304,61 @@
     "Tempt with Mayhem",
     "Parnesse, the Subtle Brush"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "parnesse-08"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:parnesse-the-subtle-brush#parnesse-08",
+    "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L33"
+   ]
+  },
+  {
+   "id": "retargeted-copy-tax",
+   "summary": "Unresolved (M1 uncertain): whether an opponent's retargeted copy of your spell must pay Parnesse's 4-life tax.",
+   "cards": [
+    "Parnesse, the Subtle Brush"
+   ],
+   "m1_refs": [
+    "parnesse-10"
+   ],
+   "evidence_class": "fact",
+   "confidence": "test_required",
+   "evidence": [
+    "interaction:parnesse-the-subtle-brush#parnesse-10"
+   ]
+  },
+  {
+   "id": "bonus-round-symmetric",
+   "summary": "Bonus Round also copies opponents' responses (M1 anti-synergy flag; a sequencing risk, not a list error).",
+   "cards": [
+    "Bonus Round"
+   ],
+   "m1_refs": [
+    "parnesse-07"
+   ],
    "evidence_class": "fact",
    "confidence": "high",
    "evidence": [
-    "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L33"
+    "interaction:parnesse-the-subtle-brush#parnesse-07"
+   ]
+  },
+  {
+   "id": "reiterate-mana",
+   "summary": "Reiterate with buyback + Mana Geyser or Jeska's Will is infinite red mana.",
+   "cards": [
+    "Reiterate",
+    "Mana Geyser",
+    "Jeska's Will"
+   ],
+   "m1_refs": [
+    "parnesse-05"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:parnesse-the-subtle-brush#parnesse-05"
    ]
   }
  ],
@@ -591,6 +647,6 @@
    "source_archive:refinement/decklists/Parnesse_the_Subtle_Brush_Approved_2026-10-15.txt"
   ],
   "reviewed_by": null,
-  "author": "GrokBot (Bot cycle 53)"
+  "author": "GrokBot (Bot cycle 55)"
  }
 }

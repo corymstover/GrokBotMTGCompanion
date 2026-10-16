@@ -40,7 +40,7 @@
   "value": {
    "level": "significant",
    "advances_plan": "Green Goblin's mayhem and cost reduction turn the loot/discard package into virtual card advantage. Norman is a blue legendary that turns on Mox Amber.",
-   "honest_note": "All 7 Spellbook combos in the list are commander-free generic cEDH kills (Oracle, Breach). The source keeps them because the ceiling is genuinely cEDH and says they're not the deck's sole identity (verification L179). The mayhem engine needs a four-mana sorcery-speed transform. Good card selection, but the deck mostly wins without him. Its registry id was corrected in Bot cycle 55 from the stale source tracker id Goben__Gene_Splice_Savant to Norman_Osborn_Green_Goblin (registry deck_id_provenance). No M1 interaction review exists yet for this deck."
+   "honest_note": "All 7 Spellbook combos in the list are commander-free generic cEDH kills (Oracle, Breach). The source keeps them because the ceiling is genuinely cEDH and says they're not the deck's sole identity (verification L179). The mayhem engine needs a four-mana sorcery-speed transform. Good card selection, but the deck mostly wins without him. Its registry id was corrected in Bot cycle 55 from the stale source tracker id Goben__Gene_Splice_Savant to Norman_Osborn_Green_Goblin (registry deck_id_provenance). M1 review (norman-01..09, all verified) confirms the mayhem, cost-stacking and Breach lines."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -266,10 +266,13 @@
    "cards": [
     "Norman Osborn // Green Goblin"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "norman-03"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:norman-osborn#norman-03",
     "oracle:Norman Osborn // Green Goblin",
     "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L15"
    ]
@@ -282,10 +285,13 @@
     "Borne Upon a Wind",
     "Valley Floodcaller"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "norman-02"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:norman-osborn#norman-02",
     "oracle:Norman Osborn // Green Goblin",
     "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L16"
    ]
@@ -296,10 +302,13 @@
    "cards": [
     "Norman Osborn // Green Goblin"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "norman-05"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:norman-osborn#norman-05",
     "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L36"
    ]
   },
@@ -310,10 +319,13 @@
     "Mox Amber",
     "Norman Osborn // Green Goblin"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "norman-08"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:norman-osborn#norman-08",
     "source_archive:refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md#L195"
    ]
   },
@@ -328,6 +340,43 @@
    "confidence": "high",
    "evidence": [
     "cr:701.50a"
+   ]
+  },
+  {
+   "id": "cavern-human",
+   "summary": "Cavern of Souls naming Human protects only the Norman face's cast.",
+   "cards": [
+    "Cavern of Souls",
+    "Norman Osborn // Green Goblin"
+   ],
+   "m1_refs": [
+    "norman-09"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:norman-osborn#norman-09"
+   ]
+  },
+  {
+   "id": "generic-kills",
+   "summary": "The Oracle and Breach kills are verified and need no commander.",
+   "cards": [
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze"
+   ],
+   "m1_refs": [
+    "norman-06",
+    "norman-07"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:norman-osborn#norman-06",
+    "interaction:norman-osborn#norman-07"
    ]
   }
  ],

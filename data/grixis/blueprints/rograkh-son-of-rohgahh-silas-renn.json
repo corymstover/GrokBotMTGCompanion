@@ -49,7 +49,7 @@
   "value": {
    "level": "significant",
    "advances_plan": "Rograkh is a free creature on turn 0 that turns on Mox Amber, Springleaf Drum, Paradise Mantle, the free sacrifice tutors (Culling the Weak, Infernal Plunge, Diabolic Intent) and the commander-conditional free spells (Fierce Guardianship, Deflecting Swat, Deadly Rollick, Jeska's Will, Flare of Duplication).",
-   "honest_note": "The pair is deliberately asymmetric (blueprint L11): Rograkh is a cost-free enabler, and Silas Renn is mostly color identity; the strongest games often never cast Silas (L14). None of the 7 Spellbook combos uses either commander; the wins are the generic cEDH Oracle and Breach lines. The commanders make those lines cheaper, not possible."
+   "honest_note": "The pair is deliberately asymmetric (blueprint L11): Rograkh is a cost-free enabler, and Silas Renn is mostly color identity; the strongest games often never cast Silas (L14). None of the 7 Spellbook combos uses either commander; the wins are the generic cEDH Oracle and Breach lines. The commanders make those lines cheaper, not possible. M1 review (rogsi-01..08) verifies the partner and Silas rules and flags Vexing Bauble as a self-counter risk (rogsi-04)."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -252,10 +252,13 @@
    "cards": [
     "Silas Renn, Seeker Adept"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "rogsi-03"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:rograkh-son-of-rohgahh-silas-renn#rogsi-03",
     "source_archive:refinement/decisions/RogSi_Candidate_Decisions_2026-10-15.md#L35",
     "oracle:Silas Renn, Seeker Adept"
    ]
@@ -281,10 +284,13 @@
     "Samut, Tyrant of Naktamun",
     "Vexing Bauble"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "rogsi-05"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:rograkh-son-of-rohgahh-silas-renn#rogsi-05",
     "source_archive:refinement/decisions/RogSi_Candidate_Decisions_2026-10-15.md#L37",
     "cr:702.61a"
    ]
@@ -296,10 +302,13 @@
     "Final Fortune",
     "Warrior's Oath"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "rogsi-07"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:rograkh-son-of-rohgahh-silas-renn#rogsi-07",
     "source_archive:refinement/decisions/RogSi_Candidate_Decisions_2026-10-15.md#L38"
    ]
   },
@@ -309,11 +318,48 @@
    "cards": [
     "Demonic Counsel"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "rogsi-08"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:rograkh-son-of-rohgahh-silas-renn#rogsi-08",
+    "source_archive:refinement/decisions/RogSi_Candidate_Decisions_2026-10-15.md#L39"
+   ]
+  },
+  {
+   "id": "bauble-m1-flag",
+   "summary": "M1 dependency-risk flag: Vexing Bauble counters the deck's own free spells and {0} escapes; have Hexing Squelcher out or sacrifice Bauble first.",
+   "cards": [
+    "Vexing Bauble",
+    "Hexing Squelcher"
+   ],
+   "m1_refs": [
+    "rogsi-04"
+   ],
    "evidence_class": "fact",
    "confidence": "high",
    "evidence": [
-    "source_archive:refinement/decisions/RogSi_Candidate_Decisions_2026-10-15.md#L39"
+    "interaction:rograkh-son-of-rohgahh-silas-renn#rogsi-04"
+   ]
+  },
+  {
+   "id": "partner-tax",
+   "summary": "Rograkh and Silas have separate commander tax; Rograkh is a free red legendary body.",
+   "cards": [
+    "Rograkh, Son of Rohgahh",
+    "Silas Renn, Seeker Adept"
+   ],
+   "m1_refs": [
+    "rogsi-01",
+    "rogsi-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:rograkh-son-of-rohgahh-silas-renn#rogsi-01",
+    "interaction:rograkh-son-of-rohgahh-silas-renn#rogsi-02"
    ]
   }
  ],

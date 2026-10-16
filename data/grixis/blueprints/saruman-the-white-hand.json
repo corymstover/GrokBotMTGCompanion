@@ -41,7 +41,7 @@
   "value": {
    "level": "central",
    "advances_plan": "Saruman is the Army engine and gives Goblins and Orcs ward {2}.",
-   "honest_note": "Commander-native identity, but the only Spellbook combo in the list is Fall of Cair Andros + Blasphemous Act, which doesn't need him. He's a four-mana engine with no compact win; the source rejected commander-independent All Will Be One loops (decisions L40). Expect a mid Bracket 4 value/burn deck."
+   "honest_note": "Commander-native identity, but the only Spellbook combo in the list is Fall of Cair Andros + Blasphemous Act, which doesn't need him. He's a four-mana engine with no compact win; the source rejected commander-independent All Will Be One loops (decisions L40). Expect a mid Bracket 4 value/burn deck. M1 review (saruman-01..07) verifies the mana-value and copy rules and flags a documentation error about The Black Gate (saruman-07)."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -219,10 +219,13 @@
     "Dig Through Time",
     "Treasure Cruise"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "saruman-01"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:saruman-the-white-hand#saruman-01",
     "oracle:Saruman, the White Hand",
     "cr:118.9c",
     "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L33"
@@ -235,10 +238,13 @@
     "Saruman, the White Hand",
     "Shatterskull Smashing // Shatterskull, the Hammer Pass"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "saruman-02"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:saruman-the-white-hand#saruman-02",
     "cr:202.3e",
     "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L35"
    ]
@@ -277,11 +283,94 @@
     "Saruman, the White Hand",
     "Kazuul's Fury // Kazuul's Cliffs"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "saruman-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:saruman-the-white-hand#saruman-02",
+    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L55"
+   ]
+  },
+  {
+   "id": "saruman-doublers",
+   "summary": "Saruman is an Avatar Wizard: Harmonic Prodigy, Wizard's Staff and Veyran double his trigger.",
+   "cards": [
+    "Harmonic Prodigy",
+    "Wizard's Staff",
+    "Veyran, Voice of Duality"
+   ],
+   "m1_refs": [
+    "saruman-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:saruman-the-white-hand#saruman-03"
+   ]
+  },
+  {
+   "id": "counter-events",
+   "summary": "Mauhúr adds one per counter event; The Great Goblin and All Will Be One work per event.",
+   "cards": [
+    "Mauhúr, Uruk-hai Captain",
+    "The Great Goblin",
+    "All Will Be One"
+   ],
+   "m1_refs": [
+    "saruman-04"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:saruman-the-white-hand#saruman-04"
+   ]
+  },
+  {
+   "id": "cair-andros-act",
+   "summary": "Fall of Cair Andros + Blasphemous Act amasses off every damaged creature (the Spellbook combo).",
+   "cards": [
+    "Fall of Cair Andros",
+    "Blasphemous Act"
+   ],
+   "m1_refs": [
+    "saruman-05"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:saruman-the-white-hand#saruman-05"
+   ]
+  },
+  {
+   "id": "mizzix-casts",
+   "summary": "Mizzix's Mastery casts copies, so those copies do trigger Saruman (unlike stack copies).",
+   "cards": [
+    "Mizzix's Mastery"
+   ],
+   "m1_refs": [
+    "saruman-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:saruman-the-white-hand#saruman-06"
+   ]
+  },
+  {
+   "id": "black-gate-wording",
+   "summary": "M1 documentation flag: The Black Gate targets only the creature and chooses the player; the source attestation says it targets both. Text fix only.",
+   "cards": [
+    "The Black Gate"
+   ],
+   "m1_refs": [
+    "saruman-07"
+   ],
    "evidence_class": "fact",
    "confidence": "high",
    "evidence": [
-    "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L55"
+    "interaction:saruman-the-white-hand#saruman-07"
    ]
   }
  ],

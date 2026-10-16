@@ -5062,7 +5062,7 @@
      "evidence": [
       "companion:data/grixis/blueprints/obeka-brute-chronologist.json#power.grok_estimated_ceiling"
      ],
-     "cycle": 53
+     "cycle": 55
     },
     "resolved_ceiling": {
      "value": null,
@@ -5173,7 +5173,7 @@
      "evidence": [
       "companion:data/grixis/blueprints/obeka-splitter-of-seconds.json#power.grok_estimated_ceiling"
      ],
-     "cycle": 53
+     "cycle": 55
     },
     "resolved_ceiling": {
      "value": null,
@@ -5284,7 +5284,7 @@
      "evidence": [
       "companion:data/grixis/blueprints/parnesse-the-subtle-brush.json#power.grok_estimated_ceiling"
      ],
-     "cycle": 53
+     "cycle": 55
     },
     "resolved_ceiling": {
      "value": null,

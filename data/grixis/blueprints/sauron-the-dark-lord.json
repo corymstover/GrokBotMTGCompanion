@@ -41,7 +41,7 @@
   "value": {
    "level": "central",
    "advances_plan": "Sauron makes the Army, turns its hits into Ring temptations and card draw, and is protected by a legendary-sacrifice ward.",
-   "honest_note": "Commander-native, with no compact win: Spellbook finds no combos, and the source rejected Oracle/Breach conversion (decisions L34). The deck wins by Army/Nazgûl combat and card flow. This is the only batch-4 deck without a source blueprint file; the closeout and verification are the evidence."
+   "honest_note": "Commander-native, with no compact win: Spellbook finds no combos, and the source rejected Oracle/Breach conversion (decisions L34). The deck wins by Army/Nazgûl combat and card flow. There is no source blueprint file; the closeout and verification are the evidence. M1 review (saurondl-01..05, all verified) confirms the Army/Ring loop."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -208,10 +208,13 @@
    "cards": [
     "Sauron, the Dark Lord"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "saurondl-01"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:sauron-the-dark-lord#saurondl-01",
     "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L39"
    ]
   },
@@ -221,10 +224,13 @@
    "cards": [
     "Mauhúr, Uruk-hai Captain"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "saurondl-05"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:sauron-the-dark-lord#saurondl-05",
     "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L42"
    ]
   },
@@ -234,10 +240,13 @@
    "cards": [
     "The Great Goblin"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "saurondl-05"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:sauron-the-dark-lord#saurondl-05",
     "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L43"
    ]
   },
@@ -249,11 +258,44 @@
     "Sauron, the Dark Lord",
     "Nazgûl"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "saurondl-04"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:sauron-the-dark-lord#saurondl-04",
     "source_archive:refinement/decisions/Sauron_the_Dark_Lord_Candidate_Decisions_2026-10-15.md#L46"
+   ]
+  },
+  {
+   "id": "seven-nazgul",
+   "summary": "Seven Nazgûl are legal; each temptation is a counter wave plus a Sauron draw.",
+   "cards": [
+    "Nazgûl"
+   ],
+   "m1_refs": [
+    "saurondl-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:sauron-the-dark-lord#saurondl-02"
+   ]
+  },
+  {
+   "id": "morgul-wraith-army",
+   "summary": "Minas Morgul makes the Army a Wraith with shadow, and it stays an Army.",
+   "cards": [
+    "Minas Morgul, Dark Fortress"
+   ],
+   "m1_refs": [
+    "saurondl-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:sauron-the-dark-lord#saurondl-03"
    ]
   }
  ],
