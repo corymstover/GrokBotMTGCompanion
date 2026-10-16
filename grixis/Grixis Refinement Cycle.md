@@ -197,8 +197,8 @@ Most-shared nonland cards across the 62 source lists (count of lists):
 | Fellwar Stone | 40 |
 | Swan Song | 39 |
 | Chaos Warp | 37 |
-| Mystic Remora | 36 |
 | Deadly Rollick | 36 |
+| Mystic Remora | 36 |
 | Jeska's Will | 35 |
 | Force of Will | 35 |
 | Mana Vault | 34 |
