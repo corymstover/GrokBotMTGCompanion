@@ -48,6 +48,7 @@
 1 Mana Drain
 1 Mana Vault
 1 Marsh Flats
+1 Megrim
 1 Misty Rainforest
 1 Morphic Pool
 1 Mountain
@@ -55,7 +56,6 @@
 1 Mystic Remora
 1 Nicol Bolas, the Ravager // Nicol Bolas, the Arisen
 1 Nightscape Familiar
-1 No Mercy
 1 Notion Thief
 1 Oppression
 1 Otawara, Soaring City

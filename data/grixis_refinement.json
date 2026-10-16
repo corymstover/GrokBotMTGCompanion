@@ -2229,7 +2229,7 @@
   "Nekusar__the_Mindrazer": {
    "source": {
     "nonland": 64,
-    "dependence": 0.562,
+    "dependence": 0.609,
     "generic_share": 0.359,
     "mean_overlap": 0.165,
     "max_overlap": [
@@ -2253,7 +2253,7 @@
    },
    "final": {
     "nonland": 64,
-    "dependence": 0.562,
+    "dependence": 0.609,
     "generic_share": 0.359,
     "mean_overlap": 0.165,
     "max_overlap": [
@@ -2275,7 +2275,9 @@
      "Toxic Deluge"
     ]
    },
-   "hooks": [],
+   "hooks": [
+    "opponents drawing (wheels / punishers)"
+   ],
    "edhrec_pages": [
     "nekusar-the-mindrazer"
    ]
@@ -2283,8 +2285,8 @@
   "Nicol_Bolas": {
    "source": {
     "nonland": 62,
-    "dependence": 0.306,
-    "generic_share": 0.387,
+    "dependence": 0.403,
+    "generic_share": 0.371,
     "mean_overlap": 0.183,
     "max_overlap": [
      0.359,
@@ -2305,8 +2307,8 @@
    },
    "final": {
     "nonland": 62,
-    "dependence": 0.306,
-    "generic_share": 0.387,
+    "dependence": 0.419,
+    "generic_share": 0.371,
     "mean_overlap": 0.183,
     "max_overlap": [
      0.359,
@@ -2326,6 +2328,7 @@
     ]
    },
    "hooks": [
+    "combat damage / attack triggers",
     "discard",
     "sacrifice"
    ],

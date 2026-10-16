@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 42 (Grixis refinement batch 4)](#2026-10-16--bot-cycle-42-grixis-refinement-batch-4)
 - [2026-10-16 — Bot cycle 41 (Grixis refinement batch 3, hand-picked swaps, hand reviews)](#2026-10-16--bot-cycle-41-grixis-refinement-batch-3-hand-picked-swaps-hand-reviews)
 - [2026-10-16 — Bot cycle 40 (Grixis refinement: power guard, batch-1 re-check, batch 2)](#2026-10-16--bot-cycle-40-grixis-refinement-power-guard-batch-1-re-check-batch-2)
 - [2026-10-16 — Bot cycle 39 (Grixis commander-first refinement, batch 1)](#2026-10-16--bot-cycle-39-grixis-commander-first-refinement-batch-1)
@@ -55,6 +56,19 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 42 (Grixis refinement batch 4)
+- **Batch 4 (12 decks):** Missy, Nathan Drake, Nekusar, Nicol Bolas, Nicol Bolas the Ravager, both Obekas, Parnesse, Rograkh + Silas Renn, Saruman, both Saurons.
+  - 1 refined: Nicol Bolas, No Mercy → Megrim (hand-picked). Nicol's "deals damage to an opponent" makes that player discard their hand, so each card discarded deals 2.
+  - 11 at/near ceiling.
+  - 6 automatic candidates passed the guard and were rejected in writing (Aqueous Form, Faithless Looting, Lavaspur Boots, Consider, Deep Analysis, Palantír of Orthanc). Each replaced a stronger or core card. Windfall is now protected in Sauron, Lord of the Rings as part of the reanimation core.
+- **Hand review:** Nicol Bolas. The low 31% score was mostly a hook gap; with the "deals damage to an opponent" hook it is 40%. The list is a connect-and-punish deck (boots, Sword of Feast and Famine, Pain for All, Chandra's Ignition, Kediss; Liliana's Caress, Raiders' Wake, Waste Not).
+- **Scoring fixes:**
+  - New "opponents drawing" hook (Nekusar had no hook before).
+  - The combat hook now covers "deals damage to an opponent".
+  - Reminder text no longer counts for roles: ward's "counter it" is not a counterspell.
+- **Source:** pulled again, still at `1836b97`.
+- **Exports** regenerated. `validate_all` PASS.
 
 ## 2026-10-16 — Bot cycle 41 (Grixis refinement batch 3, hand-picked swaps, hand reviews)
 - **Hand-picked swaps:** new `manual_swaps` input in `data/grixis_refine_review.json`. It goes through the same gates as automatic swaps: legality, color identity, bracket, combo-piece protection, role and MV parity, power guard, and a verbatim check on the Oracle quotes. Failures are logged on the deck page.

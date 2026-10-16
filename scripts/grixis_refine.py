@@ -54,7 +54,7 @@ HOOKS = [
      r"each opponent loses|loses? \d+ life|deals? (\d+|X) damage to (each opponent|any target|target player|each player|that player)"),
     ("stealing / casting opponents' cards", r"gain control|you control but don't own|you don't own|an opponent owns",
      r"gain control|exchange control|you don't own|an opponent owns|cast (it|that card|them|spells?) [^.]*exiled|exile the top [^.]* (of|from) (each|target) (opponent|player)"),
-    ("combat damage / attack triggers", r"combat damage to (a|that) player|dealt combat damage|whenever [^.]* attacks",
+    ("combat damage / attack triggers", r"combat damage to (a|that) player|dealt combat damage|whenever [^.]* attacks|deals damage to an opponent",
      r"\bhaste\b|can't be blocked|additional combat|extra combat|\bdouble strike\b|whenever [^.]* (attacks|deals combat damage)|\bmenace\b"),
     ("graveyard as a resource", r"from your graveyard|into your graveyard|\bmill\b|\bdies\b",
      r"\bmill\b|\bsurveil\b|\bdredge\b|from (your|a) graveyard|into your graveyard|\bdiscard\b|\breanimate\b|return target creature card"),
@@ -72,6 +72,8 @@ HOOKS = [
     ("playing cards from exile", r"play (a card|cards|lands and cast spells) from exile|cast [^.]* from exile|exile the top card of each player's library",
      r"from exile|exile the top|collection counter|cast [^.]* exiled|you may play (that card|it|them|those cards)"),
     ("flash", r"^Flash$", r"\bflash\b"),
+    ("opponents drawing (wheels / punishers)", r"whenever an opponent draws|draws an additional card|each player draws",
+     r"each (player|opponent) draws|target player draws|each player discards (their|his or her) hand|draws? seven cards|whenever an opponent draws|draws an additional card|\bwheel"),
     ("crimes (targeting opponents and their things)", r"commit a crime",
      r"\btarget (player|opponent|spell|creature|permanent|nonland permanent|artifact|enchantment|planeswalker|land|activated|triggered|instant|noncreature)|\bcounter target\b|\bany target\b|an opponent controls|card in a graveyard|from an opponent's graveyard"),
     ("enters triggers", r"whenever (another|a|one or more|[^.]* or another) [^.]* enters", r"\bflicker|exile [^.]*, then return|return [^.]* to the battlefield|enters[^.]* an additional time"),
@@ -215,7 +217,7 @@ NOT_REMOVAL = re.compile(r"target ([\w-]+ ){0,3}card\b|graveyard|target ([\w-]+ 
 
 
 def roles(c):
-    t = otext(c)
+    t = re.sub(r"\([^)]*\)", "", otext(c))  # reminder text (e.g. ward's "counter it unless") is not a role
     out = set()
     for k in KEY_ROLES:
         rxs = [RX[k]] + ([EXTRA_RX[k]] if k in EXTRA_RX else [])
@@ -223,6 +225,8 @@ def roles(c):
             for m in rx.finditer(t):
                 if k == "removal" and NOT_REMOVAL.search(sentence(t, m)):
                     continue  # graveyard hate, self-blink and temporary theft are not spot removal
+                if k == "counter" and re.search(r"\bward\b", sentence(t, m), re.I):
+                    continue  # ward is not a counterspell
                 if k == "protection" and re.search(r"this creature|" + re.escape(c["name"].split(",")[0]), sentence(t, m)):
                     continue  # a creature protecting itself does not protect the commander
                 out.add(k)

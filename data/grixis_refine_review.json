@@ -24,6 +24,34 @@
   "Marchesa__Dealer_of_Death|Mystic Remora|Gitaxian Probe": {
    "verdict": "reject",
    "why": "Probe passes the guard (37.4% vs 14.4% of Marchesa decks) and is a free crime cantrip. But the source names Mystic Remora one of the list's card-advantage pillars, and records the list as matching a 2026-10-11 tournament-winning configuration. One extra crime trigger does not clearly outdraw Remora over the early turns at a cEDH table. Precision over speed: no swap without clear evidence."
+  },
+  "Nathan_Drake__Treasure_Hunter|Reanimate|Aqueous Form": {
+   "verdict": "reject",
+   "why": "Nathan's exile-and-cast trigger fires on attack whether or not he is blocked, and he already has first strike. Aqueous Form adds unblockability and scry 1 per attack: a small gain. Reanimate is a 1-mana answer that can take the best creature from any graveyard. Not clearly more in this deck."
+  },
+  "Obeka__Brute_Chronologist|Reanimate|Faithless Looting": {
+   "verdict": "reject",
+   "why": "The list runs a reanimation package (Animate Dead, Necromancy, Frantic Search). Reanimate is its cheapest payoff; Faithless Looting is only an enabler that costs a card. Obeka's end-the-turn ability makes you discard to hand size, which does not need looting. Swapping a payoff for an enabler adds no power."
+  },
+  "Obeka__Splitter_of_Seconds|Mana Drain|Lavaspur Boots": {
+   "verdict": "reject",
+   "why": "Lavaspur Boots' haste lets Obeka connect the turn she lands, which helps her combat-damage upkeep trigger. But Mana Drain is real stack interaction, and ward {1} only taxes a removal spell; the guard read Boots' ward as a counterspell, and that role match is now excluded. Losing a hard counter is a downgrade."
+  },
+  "Sauron__Lord_of_the_Rings|Mystic Remora|Consider": {
+   "verdict": "reject",
+   "why": "Consider (surveil 1, draw) barely feeds Sauron's own mill-five recursion. Mystic Remora draws several cards in the early turns at a Bracket 4 table. Not clearly more."
+  },
+  "Sauron__Lord_of_the_Rings|Windfall|Deep Analysis": {
+   "verdict": "reject",
+   "why": "Windfall discards hands, which fills the graveyard with targets for the list's Entomb / Animate Dead / Necromancy / Reanimate package and Sauron's own return. Deep Analysis only draws (flashback after a mill is minor). Windfall is the reanimator-relevant card."
+  },
+  "Sauron__Lord_of_the_Rings|Windfall|Consider": {
+   "verdict": "reject",
+   "why": "Same as Deep Analysis. Windfall's discard fills the graveyard for the reanimation package and Sauron's return; Consider surveils one card. Not clearly more."
+  },
+  "Sauron__Lord_of_the_Rings|Windfall|Palantír of Orthanc": {
+   "verdict": "reject",
+   "why": "Windfall is now protected as part of the discard-to-graveyard reanimation core. Palantír of Orthanc mills and draws slowly each end step, which does not do more than a one-shot hand refill that also stocks the graveyard."
   }
  },
  "overlap": {
@@ -49,6 +77,12 @@
     "Reanimate"
    ],
    "why": "1-mana piece of the list's Entomb / Unmarked Grave reanimator core; replacing it with a Vampire is a downgrade at this cEDH ceiling."
+  },
+  "Sauron__Lord_of_the_Rings": {
+   "cards": [
+    "Windfall"
+   ],
+   "why": "Discards every hand into graveyards for the Entomb / Buried Alive / Animate Dead / Necromancy / Reanimate package and Sauron's cast-trigger return."
   }
  },
  "manual_swaps": {
@@ -83,6 +117,18 @@
     },
     "why": "Kefka forces opponents to discard every enter and attack, and Brain Freeze mills them. With Dauthi those cards are exiled with void counters instead, and Dauthi can be sacrificed to play the best one for free. It also turns off opposing graveyard engines. Valley Floodcaller is a second flash enabler that Borne Upon a Wind already covers. Kefka decks play Dauthi 33.1% vs Floodcaller 16.1%; overall rank 395 vs 761. The proposal was Brain Freeze, but that card is a piece of the list's Underworld Breach + Lion's Eye Diamond / Lotus Petal combos and stays."
    }
+  ],
+  "Nicol_Bolas": [
+   {
+    "cut": "No Mercy",
+    "add": "Megrim",
+    "hook": {
+     "label": "damage to an opponent → discard (hand-picked)",
+     "commander_text": "Whenever Nicol Bolas deals damage to an opponent, that player discards their hand.",
+     "card_text": "Whenever an opponent discards a card, this enchantment deals 2 damage to that player."
+    },
+    "why": "Each time Nicol Bolas deals damage to an opponent, that player discards their whole hand. With Megrim each discarded card deals 2, so one hit on a 5-card hand is 10 extra damage. The list already plays Liliana's Caress, Raiders' Wake and Waste Not, and Megrim is the redundant copy of that payoff. No Mercy only deters attackers, so it is defensive. 31.8% of Nicol Bolas decks play Megrim vs 7.3% for No Mercy; ranks 2,598 vs 1,455 are within the guard, and MV drops from 4 to 3."
+   }
   ]
  },
  "hand_review": {
@@ -95,6 +141,11 @@
    "cycle": 41,
    "verdict": "identity confirmed after a scoring fix, list left unchanged",
    "tradeoff": "The 14% score was our gap, not the list's. Marchesa triggers on \"Whenever you commit a crime\", and the reminder text says targeting opponents, anything they control, or cards in their graveyards counts. Most of the list's cEDH interaction (targeted counterspells, bounce, removal) plus Spatial Binding, Hex Parasite, Spellskite, Tezzeret and Lapis Lazuli Talisman commit crimes. A new crimes hook now counts them. The source records this list as matching the 2026-10-11 Takeda Ryuhei tournament-winning configuration and keeps Lapis deliberately: it turns blue spells into targeted untaps, which are crimes. Considered and not made: Gitaxian Probe (a free crime cantrip, 37.4% of Marchesa decks) for Mystic Remora, Lapis Lazuli Talisman or Last Chance. It passes the guard, but each cut is a deliberate source decision (Remora: card-advantage pillar; Lapis: crime density; Last Chance: finisher), and Probe does not clearly do more. No swap."
+  },
+  "Nicol_Bolas": {
+   "cycle": 42,
+   "verdict": "identity confirmed after a scoring fix; 1 hand-picked swap",
+   "tradeoff": "The 31% score was mostly our gap. Nicol's trigger is \"Whenever Nicol Bolas deals damage to an opponent\", and the combat hook did not cover it until this cycle. The list is already built to make him connect or deal damage: Lightning Greaves, Swiftfoot Boots, Sword of Feast and Famine, Pain for All, Chandra's Ignition, Kediss, Emberclaw Familiar. It also punishes the hand discard: Liliana's Caress, Raiders' Wake, Waste Not, the Tinybones pair, Torment of Hailfire. Pain for All, Chandra's Ignition and Kediss look generic, but each makes Nicol himself deal damage to an opponent, so they stay. One change: No Mercy (defensive) → Megrim (another discard payoff)."
   }
  }
 }
