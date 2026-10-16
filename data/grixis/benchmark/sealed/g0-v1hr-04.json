@@ -1,0 +1,6 @@
+{
+  "id": "g0-v1hr-04",
+  "expected_outcome": "Reject (v1 hand review): This Evelyn list is a cEDH reanimator/Thoracle build (Entomb, Unmarked Grave, Animate Dead, Necromancy, Worldgorger Dragon). Reanimate is a 1-mana piece of that core. Cordial Vampire is one more Vampire trigger for Evelyn but a 2-mana +1/+1-counter body that does not advance any win line: a power downgrade at this ceiling despite its synergy.",
+  "label_authority": "grokbot_v1_hand_review (not Cory-validated)",
+  "leak_terms": []
+}

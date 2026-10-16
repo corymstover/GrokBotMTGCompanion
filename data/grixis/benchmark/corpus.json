@@ -1,0 +1,1053 @@
+{
+  "schema_version": 1,
+  "cycle": "Bot cycle 64.1",
+  "frozen_from_commit": "6ccc5b0",
+  "items": [
+    {
+      "id": "g0-ash-01",
+      "category": "rules",
+      "deck": "Ashnod_the_Uncaring",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "Does sacrificing a token permanent to pay an activation cost satisfy Ashnod the Uncaring's copy trigger?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/evidence/Ashnod_the_Uncaring_Oracle_Red_Team_Correction_2026-10-13.md",
+          "quote": "token sacrifices qualify",
+          "commit": "1836b97"
+        },
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Ashnod_Oracle_Correction_2026-10-14.md",
+          "quote": "need not be nontoken",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Source archive imported verbatim in Bot cycle 45 and read by M0-M5 generators; blueprints cite these files."
+      }
+    },
+    {
+      "id": "g0-ash-02",
+      "category": "rules",
+      "deck": "Ashnod_the_Uncaring",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "How many times per turn can Ashnod the Uncaring copy qualifying activated abilities?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/evidence/Ashnod_the_Uncaring_Oracle_Red_Team_Correction_2026-10-13.md",
+          "quote": "'once each turn' is false",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Source archive imported verbatim in Bot cycle 45 and read by M0-M5 generators; blueprints cite these files."
+      }
+    },
+    {
+      "id": "g0-ash-03",
+      "category": "rules",
+      "deck": "Ashnod_the_Uncaring",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "Does activating Goblin Welder trigger Ashnod the Uncaring?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/evidence/Ashnod_the_Uncaring_Oracle_Red_Team_Correction_2026-10-13.md",
+          "quote": "Goblin Welder's sacrifice occurs on resolution",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Source archive imported verbatim in Bot cycle 45 and read by M0-M5 generators; blueprints cite these files."
+      }
+    },
+    {
+      "id": "g0-ash-04",
+      "category": "rules",
+      "deck": "Ashnod_the_Uncaring",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "Do Ashnod's Altar and Krark-Clan Ironworks activations get copied by Ashnod the Uncaring?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/evidence/Ashnod_the_Uncaring_Oracle_Red_Team_Correction_2026-10-13.md",
+          "quote": "Ashnod's Altar and Krark-Clan Ironworks have mana abilities",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Source archive imported verbatim in Bot cycle 45 and read by M0-M5 generators; blueprints cite these files."
+      }
+    },
+    {
+      "id": "g0-ash-05",
+      "category": "rules",
+      "deck": "Ashnod_the_Uncaring",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "Does Time Sieve's activation interact with Ashnod the Uncaring, and what can the copy produce?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/evidence/Ashnod_the_Uncaring_Oracle_Red_Team_Correction_2026-10-13.md",
+          "quote": "Time Sieve's sacrifice-five-artifacts activation does qualify",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Source archive imported verbatim in Bot cycle 45 and read by M0-M5 generators; blueprints cite these files."
+      }
+    },
+    {
+      "id": "g0-aba-01",
+      "category": "factual",
+      "deck": "Abaddon_the_Despoiler",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "Which 0-mana-value nonland cards in the frozen 2026-10-12 Abaddon baseline can a mana-value-1 cascade source hit? Is Wheel of Fate among them?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/tests/Abaddon_Cascade_Hit_Correction_2026-10-13.md",
+          "quote": "Wheel of Fate is not in this deck",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Source archive imported verbatim in Bot cycle 45 and read by M0-M5 generators; blueprints cite these files."
+      }
+    },
+    {
+      "id": "g0-aba-02",
+      "category": "rules",
+      "deck": "Abaddon_the_Despoiler",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "If Abaddon gives Pact of Negation cascade when it is cast from hand on your turn, what can that cascade hit?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/tests/Abaddon_Cascade_Hit_Correction_2026-10-13.md",
+          "quote": "Pact of Negation has mana value 0",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Source archive imported verbatim in Bot cycle 45 and read by M0-M5 generators; blueprints cite these files."
+      }
+    },
+    {
+      "id": "g0-aba-03",
+      "category": "rules",
+      "deck": "Abaddon_the_Despoiler",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "Can a mana-value-1 tutor cast with Abaddon's cascade set up the top card and then reveal that card with its own cascade?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/tests/Abaddon_Cascade_Hit_Correction_2026-10-13.md",
+          "quote": "Cascade resolves before the source spell",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Source archive imported verbatim in Bot cycle 45 and read by M0-M5 generators; blueprints cite these files."
+      }
+    },
+    {
+      "id": "g0-aba-04",
+      "category": "rules",
+      "deck": "Abaddon_the_Despoiler",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "A land is played from exile in the Abaddon deck. Does it get Abaddon's cascade, and does it trigger Prosper, Tome-Bound?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/tests/Abaddon_Cascade_Hit_Correction_2026-10-13.md",
+          "quote": "A land played from exile is not a spell cast",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Source archive imported verbatim in Bot cycle 45 and read by M0-M5 generators; blueprints cite these files."
+      }
+    },
+    {
+      "id": "g0-kess-01",
+      "category": "factual",
+      "deck": "Kess_Dissident_Mage",
+      "originated_by": "original_encyclopedia",
+      "caught_by": "original_encyclopedia",
+      "prompt": "The Kess complete-gate run checks the baseline artifact SHA-256 recorded in the gate config against the repository bytes. Do the recorded and actual hashes agree?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/Kess_Dissident_Mage_Baseline_SHA_Correction_2026-10-14.md",
+          "quote": "Incorrect previously recorded artifact SHA-256",
+          "commit": "1836b97"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Source archive imported verbatim in Bot cycle 45 and read by M0-M5 generators; blueprints cite these files."
+      }
+    },
+    {
+      "id": "g0-v1rev-01",
+      "category": "bad_swap",
+      "deck": "Abaddon_the_Despoiler",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "Evaluate the swap -Deadly Rollick +Chandra, Torch of Defiance for this deck's canonical list. Should it be made?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_batches.json",
+          "quote": "reverted −Deadly Rollick +Chandra, Torch of Defiance",
+          "commit": "6ccc5b0"
+        },
+        {
+          "kind": "pr",
+          "number": 111,
+          "merge_commit": "822e5d6"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1rev-02",
+      "category": "bad_swap",
+      "deck": "Admiral_Brass__Unsinkable",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "Evaluate the swap -Deadly Rollick +Lethal Scheme for this deck's canonical list. Should it be made?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_batches.json",
+          "quote": "reverted −Deadly Rollick +Lethal Scheme",
+          "commit": "6ccc5b0"
+        },
+        {
+          "kind": "pr",
+          "number": 111,
+          "merge_commit": "822e5d6"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1rev-03",
+      "category": "bad_swap",
+      "deck": "Crosis__the_Purger",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "Evaluate the swap -Deflecting Swat +Whispersilk Cloak for this deck's canonical list. Should it be made?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_batches.json",
+          "quote": "reverted −Deflecting Swat +Whispersilk Cloak",
+          "commit": "6ccc5b0"
+        },
+        {
+          "kind": "pr",
+          "number": 111,
+          "merge_commit": "822e5d6"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1rev-04",
+      "category": "bad_swap",
+      "deck": "Crosis__the_Purger",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "Evaluate the swap -Reanimate +Quest for the Nihil Stone for this deck's canonical list. Should it be made?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_batches.json",
+          "quote": "reverted −Reanimate +Quest for the Nihil Stone",
+          "commit": "6ccc5b0"
+        },
+        {
+          "kind": "pr",
+          "number": 111,
+          "merge_commit": "822e5d6"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1hr-01",
+      "category": "good_upgrade_found",
+      "deck": "Abaddon_the_Despoiler",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "Evaluate the swap -Mystic Remora +Stormfist Crusader for this deck's canonical list. Should it be made, and why?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "Abaddon_the_Despoiler|Mystic Remora|Stormfist Crusader",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1hr-02",
+      "category": "bad_upgrade_rejected",
+      "deck": "Dr__Eggman",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "Evaluate the swap -Roaming Throne +Steel Overseer for this deck's canonical list. Should it be made, and why?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "Dr__Eggman|Roaming Throne|Steel Overseer",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1hr-03",
+      "category": "bad_upgrade_rejected",
+      "deck": "Evelyn__the_Covetous",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "Evaluate the swap -Reanimate +Blood Artist for this deck's canonical list. Should it be made, and why?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "Evelyn__the_Covetous|Reanimate|Blood Artist",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1hr-04",
+      "category": "bad_upgrade_rejected",
+      "deck": "Evelyn__the_Covetous",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "Evaluate the swap -Reanimate +Cordial Vampire for this deck's canonical list. Should it be made, and why?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "Evelyn__the_Covetous|Reanimate|Cordial Vampire",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1hr-05",
+      "category": "good_upgrade_found",
+      "deck": "Goben__Gene_Splice_Savant",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "Evaluate the swap -Mystic Remora +Thrill of Possibility for this deck's canonical list. Should it be made, and why?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "Goben__Gene_Splice_Savant|Mystic Remora|Thrill of Possibility",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1hr-06",
+      "category": "bad_upgrade_rejected",
+      "deck": "Marchesa__Dealer_of_Death",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "Evaluate the swap -Mystic Remora +Gitaxian Probe for this deck's canonical list. Should it be made, and why?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "Marchesa__Dealer_of_Death|Mystic Remora|Gitaxian Probe",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1hr-07",
+      "category": "bad_upgrade_rejected",
+      "deck": "Nathan_Drake__Treasure_Hunter",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "Evaluate the swap -Reanimate +Aqueous Form for this deck's canonical list. Should it be made, and why?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "Nathan_Drake__Treasure_Hunter|Reanimate|Aqueous Form",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1hr-08",
+      "category": "bad_upgrade_rejected",
+      "deck": "Obeka__Brute_Chronologist",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "Evaluate the swap -Reanimate +Faithless Looting for this deck's canonical list. Should it be made, and why?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "Obeka__Brute_Chronologist|Reanimate|Faithless Looting",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1hr-09",
+      "category": "bad_upgrade_rejected",
+      "deck": "Obeka__Splitter_of_Seconds",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "Evaluate the swap -Mana Drain +Lavaspur Boots for this deck's canonical list. Should it be made, and why?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "Obeka__Splitter_of_Seconds|Mana Drain|Lavaspur Boots",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1hr-10",
+      "category": "bad_upgrade_rejected",
+      "deck": "Sauron__Lord_of_the_Rings",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "Evaluate the swap -Mystic Remora +Consider for this deck's canonical list. Should it be made, and why?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "Sauron__Lord_of_the_Rings|Mystic Remora|Consider",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1hr-11",
+      "category": "bad_upgrade_rejected",
+      "deck": "Sauron__Lord_of_the_Rings",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "Evaluate the swap -Windfall +Consider for this deck's canonical list. Should it be made, and why?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "Sauron__Lord_of_the_Rings|Windfall|Consider",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1hr-12",
+      "category": "bad_upgrade_rejected",
+      "deck": "Sauron__Lord_of_the_Rings",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "Evaluate the swap -Windfall +Deep Analysis for this deck's canonical list. Should it be made, and why?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "Sauron__Lord_of_the_Rings|Windfall|Deep Analysis",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1hr-13",
+      "category": "bad_upgrade_rejected",
+      "deck": "Sauron__Lord_of_the_Rings",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "Evaluate the swap -Windfall +Palantír of Orthanc for this deck's canonical list. Should it be made, and why?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "Sauron__Lord_of_the_Rings|Windfall|Palantír of Orthanc",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1hr-14",
+      "category": "bad_upgrade_rejected",
+      "deck": "Sol_kanar_the_Swamp_King",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "Evaluate the swap -Wheel of Fortune +Ayara, First of Locthwain for this deck's canonical list. Should it be made, and why?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "Sol_kanar_the_Swamp_King|Wheel of Fortune|Ayara, First of Locthwain",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1hr-15",
+      "category": "good_upgrade_found",
+      "deck": "Sol_kanar_the_Swamp_King",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "Evaluate the swap -Windfall +Well of Lost Dreams for this deck's canonical list. Should it be made, and why?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "Sol_kanar_the_Swamp_King|Windfall|Well of Lost Dreams",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1hr-16",
+      "category": "good_upgrade_found",
+      "deck": "The_Rani",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "Evaluate the swap -Mystic Remora +Idol of Oblivion for this deck's canonical list. Should it be made, and why?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "The_Rani|Mystic Remora|Idol of Oblivion",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1hr-17",
+      "category": "bad_upgrade_rejected",
+      "deck": "Thraximundar",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "Evaluate the swap -Reanimate +Village Rites for this deck's canonical list. Should it be made, and why?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "Thraximundar|Reanimate|Village Rites",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1id-01",
+      "category": "commander_identity_failure",
+      "deck": "Marchesa__Dealer_of_Death",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "An automated commander-dependence score rates this list as weakly tied to its commander. Is the list actually off-identity, or is the scoring wrong? Justify from the commander's Oracle text.",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "The 14% score was our gap",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "partial",
+        "reason": "The v1 hand-review verdict is in data/grixis_refine_review.json, but the new architecture's blueprints were written independently from Oracle text; the specific scoring-gap finding is not an input to M2-M5 scoring."
+      }
+    },
+    {
+      "id": "g0-v1id-02",
+      "category": "commander_identity_failure",
+      "deck": "Nicol_Bolas",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "An automated commander-dependence score rates this list as weakly tied to its commander. Is the list actually off-identity, or is the scoring wrong? Justify from the commander's Oracle text.",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "The 31% score was mostly our gap",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "partial",
+        "reason": "The v1 hand-review verdict is in data/grixis_refine_review.json, but the new architecture's blueprints were written independently from Oracle text; the specific scoring-gap finding is not an input to M2-M5 scoring."
+      }
+    },
+    {
+      "id": "g0-v1id-03",
+      "category": "commander_identity_failure",
+      "deck": "Sol_kanar_the_Swamp_King",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "An automated commander-dependence score rates this list as weakly tied to its commander. Is the list actually off-identity, or is the scoring wrong? Justify from the commander's Oracle text.",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "The low 34% score was our gap",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "partial",
+        "reason": "The v1 hand-review verdict is in data/grixis_refine_review.json, but the new architecture's blueprints were written independently from Oracle text; the specific scoring-gap finding is not an input to M2-M5 scoring."
+      }
+    },
+    {
+      "id": "g0-v1id-04",
+      "category": "commander_identity_failure",
+      "deck": "Tetsuo_Umezawa",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "An automated commander-dependence score rates this list as weakly tied to its commander. Is the list actually off-identity, or is the scoring wrong? Justify from the commander's Oracle text.",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "matched no hook until",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "partial",
+        "reason": "The v1 hand-review verdict is in data/grixis_refine_review.json, but the new architecture's blueprints were written independently from Oracle text; the specific scoring-gap finding is not an input to M2-M5 scoring."
+      }
+    },
+    {
+      "id": "g0-v1ceil-01",
+      "category": "power_ceiling_mistake",
+      "deck": "Evelyn__the_Covetous",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "The list wins through a generic cEDH combo core while the commander adds value, not the win line. Should it be rebuilt identity-first?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "Identity vs ceiling tradeoff",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-v1ceil-02",
+      "category": "power_ceiling_mistake",
+      "deck": "Fire_Lord_Azula",
+      "originated_by": "grokbot_v1",
+      "caught_by": "grokbot_v1",
+      "prompt": "The list wins through a generic cEDH combo core while the commander adds value, not the win line. Should it be rebuilt identity-first?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis_refine_review.json",
+          "quote": "identity-first version would be weaker",
+          "commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "GrokBot v1 refinement data (cycles 39-44) lives in data/ and its verdicts are recorded in deck pages and the refine log the new system reads."
+      }
+    },
+    {
+      "id": "g0-new-thrax",
+      "category": "factual",
+      "deck": "Thraximundar",
+      "originated_by": "new_architecture",
+      "caught_by": "cory",
+      "prompt": "What is Thraximundar's mana value, and is the source deck's stated mana value for it correct?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "Update Log.md",
+          "quote": "Thraximundar {4}{U}{B}{R} is **mana value 7**",
+          "commit": "6ccc5b0"
+        },
+        {
+          "kind": "chat",
+          "ref": "t49u",
+          "recorded_in": "Update Log.md"
+        },
+        {
+          "kind": "pr",
+          "number": 140,
+          "merge_commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Cory's correction is already applied to M1/M2 data (overlay or blueprint provenance) that the new system ingests."
+      }
+    },
+    {
+      "id": "g0-new-mv-evelyn",
+      "category": "factual",
+      "deck": "Evelyn__the_Covetous",
+      "originated_by": "new_architecture",
+      "caught_by": "new_architecture",
+      "prompt": "What is this commander's mana value? Check the blueprint's mana-value claim against Oracle.",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "Update Log.md",
+          "quote": "Evelyn \"3-mana\" (MV 5)",
+          "commit": "6ccc5b0"
+        },
+        {
+          "kind": "pr",
+          "number": 140,
+          "merge_commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "The corrected blueprint is new-system data."
+      }
+    },
+    {
+      "id": "g0-new-mv-brass",
+      "category": "factual",
+      "deck": "Admiral_Brass__Unsinkable",
+      "originated_by": "new_architecture",
+      "caught_by": "new_architecture",
+      "prompt": "What is this commander's mana value? Check the blueprint's mana-value claim against Oracle.",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "Update Log.md",
+          "quote": "Admiral Brass, Unsinkable \"Four-mana\" (MV 5)",
+          "commit": "6ccc5b0"
+        },
+        {
+          "kind": "pr",
+          "number": 140,
+          "merge_commit": "6ccc5b0"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "The corrected blueprint is new-system data."
+      }
+    },
+    {
+      "id": "g0-new-parnesse",
+      "category": "combo_misunderstanding",
+      "deck": "Parnesse_the_Subtle_Brush",
+      "originated_by": "new_architecture",
+      "caught_by": "cory",
+      "prompt": "In the Parnesse list, what does Dualcaster Mage + Replication Technique produce, and are the tokens hasty?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "Update Log.md",
+          "quote": "the tokens are not hasty",
+          "commit": "6ccc5b0"
+        },
+        {
+          "kind": "chat",
+          "ref": "t50u",
+          "recorded_in": "data/grixis/blueprint_reviews.json"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Cory's correction is already applied to M1/M2 data (overlay or blueprint provenance) that the new system ingests."
+      }
+    },
+    {
+      "id": "g0-new-parnesse10",
+      "category": "rules",
+      "deck": "Parnesse_the_Subtle_Brush",
+      "originated_by": "new_architecture",
+      "caught_by": "cory",
+      "prompt": "An opponent controls the copy Parnesse offers and chooses Parnesse's controller (or one of their permanents) as a new target. What happens?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis/m1_corrections.json",
+          "quote": "parnesse-10",
+          "commit": "6ccc5b0"
+        },
+        {
+          "kind": "chat",
+          "ref": "t50u",
+          "recorded_in": "data/grixis/m1_corrections.json"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Cory's correction is already applied to M1/M2 data (overlay or blueprint provenance) that the new system ingests."
+      }
+    },
+    {
+      "id": "g0-new-solkanar",
+      "category": "combo_misunderstanding",
+      "deck": "Sol_kanar_the_Swamp_King",
+      "originated_by": "new_architecture",
+      "caught_by": "cory",
+      "prompt": "What role does Aetherflux Reservoir play in the Sol'kanar list relative to the Exquisite Blood / Bloodthirsty Conqueror loops?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "Update Log.md",
+          "quote": "Aetherflux Reservoir is now an enabler and independent payoff",
+          "commit": "6ccc5b0"
+        },
+        {
+          "kind": "chat",
+          "ref": "t50u",
+          "recorded_in": "data/grixis/blueprint_reviews.json"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Cory's correction is already applied to M1/M2 data (overlay or blueprint provenance) that the new system ingests."
+      }
+    },
+    {
+      "id": "g0-new-bjorna",
+      "category": "rules",
+      "deck": "Bjorna_Nightfall_Alchemist",
+      "originated_by": "new_architecture",
+      "caught_by": "cory",
+      "prompt": "Does Bjorna goading a creature clear the way for Cecily's attacks (does goad remove it as a blocker)?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "Update Log.md",
+          "quote": "goad doesn't clear blockers",
+          "commit": "6ccc5b0"
+        },
+        {
+          "kind": "chat",
+          "ref": "t50u",
+          "recorded_in": "data/grixis/blueprint_reviews.json"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Cory's correction is already applied to M1/M2 data (overlay or blueprint provenance) that the new system ingests."
+      }
+    },
+    {
+      "id": "g0-new-mairsil10",
+      "category": "rules",
+      "deck": "Mairsil_the_Pretender",
+      "originated_by": "new_architecture",
+      "caught_by": "cory",
+      "prompt": "Does Marvin, Murderous Mimic gain Mairsil's caged activated abilities without the 'only once each turn' restriction?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis/m1_corrections.json",
+          "quote": "mairsil-10",
+          "commit": "6ccc5b0"
+        },
+        {
+          "kind": "chat",
+          "ref": "t50u",
+          "recorded_in": "data/grixis/m1_corrections.json"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Cory's correction is already applied to M1/M2 data (overlay or blueprint provenance) that the new system ingests."
+      }
+    },
+    {
+      "id": "g0-new-pex",
+      "category": "project_exception_mistake",
+      "deck": "Tresserhorn_s_Lord__Returned",
+      "originated_by": "new_architecture",
+      "caught_by": "cory",
+      "prompt": "How should the not-yet-Commander-legal cards of Tresserhorn's Lord, Returned and The Madcap Jester be represented relative to official legality?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "Update Log.md",
+          "quote": "`project_exceptions.future_release` is recorded apart from official legality",
+          "commit": "6ccc5b0"
+        },
+        {
+          "kind": "chat",
+          "ref": "t50u",
+          "recorded_in": "data/grixis/blueprint_reviews.json"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Cory's correction is already applied to M1/M2 data (overlay or blueprint provenance) that the new system ingests."
+      }
+    },
+    {
+      "id": "g0-new-powercore",
+      "category": "goodstuff_drift",
+      "deck": "Norman_Osborn_Green_Goblin",
+      "originated_by": "new_architecture",
+      "caught_by": "cory",
+      "prompt": "Are Grinding Station and Thassa's Oracle part of Norman Osborn // Green Goblin's commander identity core?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "Update Log.md",
+          "quote": "generic compact wins move out of identity core",
+          "commit": "6ccc5b0"
+        },
+        {
+          "kind": "chat",
+          "ref": "t50u",
+          "recorded_in": "data/grixis/blueprint_reviews.json"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Cory's correction is already applied to M1/M2 data (overlay or blueprint provenance) that the new system ingests."
+      }
+    },
+    {
+      "id": "g0-new-madcap-fm",
+      "category": "false_package_label",
+      "deck": "The_Madcap_Jester",
+      "originated_by": "new_architecture",
+      "caught_by": "cory",
+      "prompt": "Is 'Stax and graveyard hate stop the Oracle and Breach lines' a single failure mode for The Madcap Jester?",
+      "sources": [
+        {
+          "kind": "file",
+          "path": "data/grixis/blueprint_reviews.json",
+          "quote": "Stax and graveyard hate stop the Oracle and Breach lines",
+          "commit": "6ccc5b0"
+        },
+        {
+          "kind": "chat",
+          "ref": "t50u",
+          "recorded_in": "data/grixis/blueprint_reviews.json"
+        }
+      ],
+      "contamination": {
+        "level": "yes",
+        "reason": "Cory's correction is already applied to M1/M2 data (overlay or blueprint provenance) that the new system ingests."
+      }
+    }
+  ]
+}

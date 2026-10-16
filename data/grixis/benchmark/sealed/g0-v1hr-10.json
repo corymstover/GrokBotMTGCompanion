@@ -1,0 +1,6 @@
+{
+  "id": "g0-v1hr-10",
+  "expected_outcome": "Reject (v1 hand review): Consider (surveil 1, draw) barely feeds Sauron's own mill-five recursion. Mystic Remora draws several cards in the early turns at a Bracket 4 table. Not clearly more.",
+  "label_authority": "grokbot_v1_hand_review (not Cory-validated)",
+  "leak_terms": []
+}

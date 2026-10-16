@@ -1,0 +1,9 @@
+{
+  "id": "g0-new-mairsil10",
+  "expected_outcome": "No. By CR 113.10a the once-each-turn instruction becomes part of each added ability, so it carries over to Marvin; the hypothesis was incorrect.",
+  "label_authority": "cory_flag + CR derivation",
+  "leak_terms": [
+    "113.10a",
+    "carries over"
+  ]
+}

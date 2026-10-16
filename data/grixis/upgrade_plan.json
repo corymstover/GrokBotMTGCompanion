@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "title": "Grixis Birthday Upgrade Plan",
+  "doc": "grixis/Grixis Birthday Upgrade Plan.md",
+  "recorded_cycle": "Bot cycle 64.1",
+  "approval": {
+    "by": "corymstover",
+    "ref": "chat t54u",
+    "date": "2026-10-16",
+    "scope": "Plan and order approved on the basis of the Bot cycle 64 gap audit. Accepts no milestone, approves no deck."
+  },
+  "milestone_effects": {
+    "accepts_milestones": [],
+    "M2_M4": "acceptance proceeds independently (PR #141)",
+    "M5": "stays unaccepted until saturation and A-F layers regenerate it"
+  },
+  "decisions": [
+    {
+      "id": "D1",
+      "topic": "candidate_saturation",
+      "text": "Adaptive saturation with tiered testing, not exhaustive paired testing. No fixed numeric discovery cap. Cheap screening may prioritize workload but must never be an absolute exclusion gate; candidates may escalate through dependency evidence, unusual Oracle interaction, new-card status, package gaps, human evidence, anomaly detection, or other justified signals."
+    },
+    {
+      "id": "D2",
+      "topic": "benchmark_blinding",
+      "text": "Frozen retrospective corpus with contamination flags plus a genuinely prospective holdout for future cards, corrections and human decisions. Never claim the historical corpus is perfectly blind where prior ingestion makes that impossible."
+    },
+    {
+      "id": "D3",
+      "topic": "pass_a_b_blinding",
+      "text": "Shared factual inputs, commit-then-reveal output blinding; neither sees the other's conclusions before both outputs are committed and hashed. Pass C (incumbent-defense critic) may see both. Reconciliation only afterward."
+    },
+    {
+      "id": "D4",
+      "topic": "opponent_facing_mechanics",
+      "text": "Bounded scripted proxies and deterministic perturbations approved, with explicit assumptions, sensitivity where appropriate, documented limitations. No unsupported multiplayer win-rate simulation."
+    },
+    {
+      "id": "D5",
+      "topic": "power_core_backfill",
+      "text": "Versioned post-M2 correction overlay plus a materiality gate. If a change does not alter commander role, dependency, ceiling, anti-goals, required packages or another material Blueprint conclusion, M2 is not reopened; if it does, targeted review/reopen for that deck. Regenerate downstream artifacts either way."
+    },
+    {
+      "id": "D6",
+      "topic": "two_snapshot_model",
+      "text": "snap-20261016 frozen as the development snapshot during A-F. Immediately before final M5 acceptance and the Birthday baseline freeze, create a fresh Birthday authority snapshot (current Oracle/Scryfall, rules, legality, EDHREC, Spellbook, tournament evidence, new cards), delta refresh, regenerate every affected artifact. The Birthday snapshot is M6's authoritative start."
+    },
+    {
+      "id": "D7",
+      "topic": "human_sampling",
+      "text": "Build and freeze the H sampler/schema before M6 outputs exist.",
+      "strata": [
+        "random",
+        "anomaly",
+        "exception",
+        "pending_release",
+        "cedh",
+        "low_commander_dependence",
+        "high_optimizer_disagreement",
+        "rules_sensitive",
+        "major_change"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "id": "G0",
+      "name": "benchmark corpus freeze",
+      "batches": [
+        3,
+        4
+      ],
+      "status": "in_progress",
+      "started": "Bot cycle 64.1",
+      "freeze_rule": "corpus immutable once step A begins; only the prospective holdout grows afterwards"
+    },
+    {
+      "order": 2,
+      "id": "A",
+      "name": "adaptive candidate saturation",
+      "batches": [
+        6,
+        8
+      ],
+      "status": "not_started",
+      "depends_on": [
+        "G0"
+      ],
+      "decisions": [
+        "D1"
+      ]
+    },
+    {
+      "order": 3,
+      "id": "E",
+      "name": "mechanic test modules (sim v1.2)",
+      "batches": [
+        10,
+        14
+      ],
+      "status": "not_started",
+      "depends_on": [
+        "A"
+      ],
+      "decisions": [
+        "D4"
+      ]
+    },
+    {
+      "order": 4,
+      "id": "B",
+      "name": "combo quality model + power_core backfill overlay",
+      "batches": [
+        4,
+        6
+      ],
+      "status": "not_started",
+      "depends_on": [
+        "E"
+      ],
+      "decisions": [
+        "D5"
+      ]
+    },
+    {
+      "order": 4,
+      "id": "C",
+      "name": "mana-base optimizer",
+      "batches": [
+        5,
+        7
+      ],
+      "status": "not_started",
+      "depends_on": [
+        "E"
+      ]
+    },
+    {
+      "order": 5,
+      "id": "D",
+      "name": "commander marginal value",
+      "batches": [
+        3,
+        4
+      ],
+      "status": "not_started",
+      "depends_on": [
+        "E"
+      ]
+    },
+    {
+      "order": 6,
+      "id": "F",
+      "name": "bracket stress suites",
+      "batches": [
+        4,
+        5
+      ],
+      "status": "not_started",
+      "depends_on": [
+        "E"
+      ],
+      "decisions": [
+        "D4"
+      ]
+    },
+    {
+      "order": 7,
+      "id": "H",
+      "name": "human-sampling infra",
+      "batches": [
+        2,
+        3
+      ],
+      "status": "not_started",
+      "must_precede": [
+        "M6_outputs"
+      ],
+      "decisions": [
+        "D7"
+      ]
+    },
+    {
+      "order": 8,
+      "id": "M5_regen",
+      "name": "regenerate M5 on A-F",
+      "batches": [
+        2,
+        3
+      ],
+      "status": "not_started",
+      "depends_on": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "order": 9,
+      "id": "BIRTHDAY_SNAPSHOT",
+      "name": "fresh Birthday authority snapshot + delta refresh + full rebuild/validate_all",
+      "batches": [
+        2,
+        3
+      ],
+      "status": "not_started",
+      "depends_on": [
+        "M5_regen"
+      ],
+      "decisions": [
+        "D6"
+      ]
+    },
+    {
+      "order": 10,
+      "id": "M5_ACCEPT",
+      "name": "Cory's M5 review/acceptance",
+      "batches": null,
+      "status": "not_started",
+      "human_only": true,
+      "depends_on": [
+        "BIRTHDAY_SNAPSHOT"
+      ]
+    },
+    {
+      "order": 11,
+      "id": "IJ",
+      "name": "Zero-Improvement Certificate + reproducibility bundle schemas",
+      "batches": [
+        4,
+        5
+      ],
+      "status": "not_started",
+      "depends_on": [
+        "M5_ACCEPT"
+      ]
+    },
+    {
+      "order": 12,
+      "id": "K",
+      "name": "three-sided M6 (Pass A/B commit-then-reveal, Pass C critic, reconciliation)",
+      "batches": [
+        6,
+        9
+      ],
+      "status": "not_started",
+      "depends_on": [
+        "IJ"
+      ],
+      "decisions": [
+        "D3"
+      ]
+    },
+    {
+      "order": 13,
+      "id": "M6",
+      "name": "M6 with H sampling",
+      "batches": null,
+      "status": "not_started",
+      "depends_on": [
+        "K",
+        "H"
+      ]
+    },
+    {
+      "order": 14,
+      "id": "G_EVAL",
+      "name": "benchmark evaluation",
+      "batches": [
+        3,
+        4
+      ],
+      "status": "not_started",
+      "depends_on": [
+        "M6"
+      ],
+      "decisions": [
+        "D2"
+      ]
+    },
+    {
+      "order": 15,
+      "id": "M7_M8",
+      "name": "M7/M8",
+      "batches": null,
+      "status": "not_started",
+      "depends_on": [
+        "G_EVAL"
+      ]
+    }
+  ],
+  "snapshots": {
+    "development": "snap-20261016 (frozen during A-F)",
+    "birthday": null
+  },
+  "acceptance_standard": [
+    "schema",
+    "determinism",
+    "tests",
+    "validate_all_integration",
+    "provenance",
+    "limitations",
+    "evidence_classes",
+    "real_deck_examples",
+    "demonstrated_decision_quality_gain"
+  ]
+}

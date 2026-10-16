@@ -1,0 +1,9 @@
+{
+  "id": "g0-new-solkanar",
+  "expected_outcome": "An enabler and independent payoff (Spellbook 3966-4740, activation loop at 51+ life), not a drain-on-gain loop half.",
+  "label_authority": "cory_correction",
+  "leak_terms": [
+    "independent payoff",
+    "51"
+  ]
+}

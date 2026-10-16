@@ -1,0 +1,8 @@
+{
+  "id": "g0-new-parnesse",
+  "expected_outcome": "Infinite tokens, ETBs and magecraft triggers; the tokens are NOT hasty (the blueprint's 'infinite hasty tokens' was wrong).",
+  "label_authority": "cory_correction",
+  "leak_terms": [
+    "not hasty"
+  ]
+}

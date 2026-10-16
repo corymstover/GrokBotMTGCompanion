@@ -1,0 +1,6 @@
+{
+  "id": "g0-v1hr-06",
+  "expected_outcome": "Reject (v1 hand review): Probe passes the guard (37.4% vs 14.4% of Marchesa decks) and is a free crime cantrip. But the source names Mystic Remora one of the list's card-advantage pillars, and records the list as matching a 2026-10-11 tournament-winning configuration. One extra crime trigger does not clearly outdraw Remora over the early turns at a cEDH table. Precision over speed: no swap without clear evidence.",
+  "label_authority": "grokbot_v1_hand_review (not Cory-validated)",
+  "leak_terms": []
+}

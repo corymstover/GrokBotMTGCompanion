@@ -1,0 +1,9 @@
+{
+  "id": "g0-ash-01",
+  "expected_outcome": "Yes. Ashnod has no nontoken restriction; the earlier blueprint statement 'nontoken permanent' was false.",
+  "label_authority": "original_process_correction_with_oracle",
+  "leak_terms": [
+    "nontoken restriction",
+    "token sacrifices qualify"
+  ]
+}

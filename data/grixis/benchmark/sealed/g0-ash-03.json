@@ -1,0 +1,8 @@
+{
+  "id": "g0-ash-03",
+  "expected_outcome": "No. Goblin Welder's sacrifice happens on resolution, not as part of the activation cost.",
+  "label_authority": "original_process_correction_with_oracle",
+  "leak_terms": [
+    "on resolution"
+  ]
+}

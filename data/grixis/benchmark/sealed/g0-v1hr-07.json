@@ -1,0 +1,6 @@
+{
+  "id": "g0-v1hr-07",
+  "expected_outcome": "Reject (v1 hand review): Nathan's exile-and-cast trigger fires on attack whether or not he is blocked, and he already has first strike. Aqueous Form adds unblockability and scry 1 per attack: a small gain. Reanimate is a 1-mana answer that can take the best creature from any graveyard. Not clearly more in this deck.",
+  "label_authority": "grokbot_v1_hand_review (not Cory-validated)",
+  "leak_terms": []
+}

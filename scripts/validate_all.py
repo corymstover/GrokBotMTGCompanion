@@ -43,6 +43,7 @@ Steps (run in this order; each prints its own summary):
                     candidate/swap/test records, escalations get full review, swaps exploratory and unregistered, exact rebuild)
   7o spellbook-near  scripts/grixis_spellbook_almost.py  Bot cycle 60.1 (M5): Spellbook near-miss snapshot sanity
   7p tournament     scripts/grixis_tournament.py --check  Bot cycle 60.3 (M5): tournament evidence only and always for cEDH-ceiling decks
+  7q benchmark       scripts/grixis_benchmark.py --check   Bot cycle 64.1 (G0): sealed benchmark corpus (schema, hashes, no leaks, sources exist)
   7k unit-tests     scripts/run_tests.py  tests/ via pytest (stdlib fallback runner when pytest is absent)
   8 freshness    (built in)                              generated pages built from an older bulk than the cache (warning);
                                                          with --online, a newer Scryfall bulk than the cache (warning; --strict fails)
@@ -202,6 +203,7 @@ def main(argv):
              ("spellbook-near", ["scripts/grixis_spellbook_almost.py"]),  # Bot cycle 60.1 (M5): near-miss snapshot
              ("candidates", ["scripts/grixis_candidates.py", "--check"]),  # Bot cycle 60 (M5): candidate deep dive
              ("tournament", ["scripts/grixis_tournament.py", "--check"]),  # Bot cycle 60.3 (M5): cEDH-only tournament evidence
+             ("benchmark", ["scripts/grixis_benchmark.py", "--check"]),  # Bot cycle 64.1 (G0): sealed benchmark corpus
              ("unit-tests", ["scripts/run_tests.py"]),  # Bot cycle 47 (M0): tests/ (hashes, states, approvals, legality vs authorization, schemas)
              ("freshness", None)]
     results = []

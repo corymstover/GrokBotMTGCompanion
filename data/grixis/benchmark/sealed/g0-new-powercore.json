@@ -1,0 +1,9 @@
+{
+  "id": "g0-new-powercore",
+  "expected_outcome": "No. They are generic Grixis compact wins (power_core), not commander identity (Cory t50u; also applied to Madcap, Cormela, RogSi).",
+  "label_authority": "cory_correction",
+  "leak_terms": [
+    "power_core",
+    "generic compact"
+  ]
+}

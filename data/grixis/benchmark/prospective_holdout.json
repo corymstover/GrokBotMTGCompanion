@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "items": [],
+  "rules": [
+    "An item enters the holdout only BEFORE the system under evaluation has seen its subject: a card printed or made Commander-legal after the item's sealed date, a correction Cory makes after the item is sealed, or a human decision recorded only in the sealed file.",
+    "Each item is sealed (expected outcome in sealed/, sha256 in manifest.json) in a commit that precedes any commit of an artifact that ingests its subject; the checker compares commit order when evaluation runs.",
+    "Holdout items use the benchmark_item schema with contamination.level 'no'. If later ingestion happens before evaluation, the item is downgraded to 'partial' or 'yes' by a new record; it is never silently kept as blind.",
+    "The holdout keeps growing after the retrospective corpus is frozen (step A); it is scored separately from the retrospective corpus."
+  ]
+}

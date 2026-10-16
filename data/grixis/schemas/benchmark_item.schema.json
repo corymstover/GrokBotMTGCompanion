@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/benchmark_item.schema.json",
+  "title": "G0 benchmark item (Bot cycle 64.1): outcome-free prompt; the expected outcome lives in a sealed file whose sha256 is in manifest.json",
+  "type": "object",
+  "properties": {
+    "id": {"type": "string", "pattern": "^g0-[a-z0-9-]+$"},
+    "category": {"enum": ["factual", "rules", "legality", "color_identity", "false_package_label", "commander_identity_failure", "goodstuff_drift", "mana_decision", "bad_swap", "good_upgrade_found", "bad_upgrade_rejected", "combo_misunderstanding", "project_exception_mistake", "power_ceiling_mistake"]},
+    "deck": {"type": "string"},
+    "originated_by": {"enum": ["original_encyclopedia", "grokbot_v1", "new_architecture", "cory"]},
+    "caught_by": {"enum": ["original_encyclopedia", "grokbot_v1", "new_architecture", "cory"]},
+    "prompt": {"type": "string", "minLength": 10},
+    "sources": {"type": "array", "minItems": 1, "items": {"oneOf": [
+      {"type": "object", "properties": {"kind": {"const": "file"}, "path": {"type": "string"}, "quote": {"type": "string", "minLength": 4}, "commit": {"type": "string"}}, "required": ["kind", "path", "quote", "commit"], "additionalProperties": false},
+      {"type": "object", "properties": {"kind": {"const": "pr"}, "number": {"type": "integer"}, "merge_commit": {"type": "string", "pattern": "^[0-9a-f]{7,40}$"}}, "required": ["kind", "number", "merge_commit"], "additionalProperties": false},
+      {"type": "object", "properties": {"kind": {"const": "chat"}, "ref": {"type": "string", "pattern": "^t[0-9]+u$"}, "recorded_in": {"type": "string"}}, "required": ["kind", "ref", "recorded_in"], "additionalProperties": false}]}},
+    "contamination": {"type": "object", "properties": {"level": {"enum": ["yes", "partial", "no"]}, "reason": {"type": "string", "minLength": 10}}, "required": ["level", "reason"], "additionalProperties": false}
+  },
+  "required": ["id", "category", "deck", "originated_by", "caught_by", "prompt", "sources", "contamination"],
+  "additionalProperties": false,
+  "$defs": {
+    "sealed": {"type": "object", "properties": {"id": {"type": "string"}, "expected_outcome": {"type": "string", "minLength": 5}, "label_authority": {"type": "string"}, "leak_terms": {"type": "array", "items": {"type": "string"}}}, "required": ["id", "expected_outcome", "label_authority", "leak_terms"], "additionalProperties": false}
+  }
+}

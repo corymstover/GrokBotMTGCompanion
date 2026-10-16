@@ -1,0 +1,9 @@
+{
+  "id": "g0-aba-01",
+  "expected_outcome": "Exactly seven: Ancestral Vision, Chrome Mox, Inevitable Betrayal, Lion's Eye Diamond, Lotus Petal, Pact of Negation, Profane Tutor. Wheel of Fate is not in the deck.",
+  "label_authority": "original_process_correction_with_oracle",
+  "leak_terms": [
+    "is not in this deck",
+    "exactly seven"
+  ]
+}
