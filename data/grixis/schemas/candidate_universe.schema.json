@@ -2,7 +2,7 @@
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/candidate_universe.schema.json",
  "title": "M5 per-deck candidate universe, triage, full reviews, swap hypotheses and paired tests (v1)",
- "description": "Bot cycle 60. `candidates` items are candidate.schema.json records, `swaps` swap.schema.json, `tests` test.schema.json (validated separately by scripts/grixis_candidates.py --check). Provisional and exploratory: nothing here changes a list or registers a challenger.",
+ "description": "Bot cycle 60. `candidates` items are candidate.schema.json records, `swaps` swap.schema.json, `tests` test.schema.json (validated separately by scripts/grixis_candidates.py --check). Provisional and exploratory: nothing here changes a list or registers a challenger. Bot cycle 61: no escalation cap; reviews are screening_reviews; swaps record their protection burden; project requirements are evaluated and labeled.",
  "type": "object",
  "properties": {
   "schema_version": {
@@ -102,6 +102,12 @@
     },
     "workload_is_gate": {
      "const": false
+    },
+    "escalation_cap": {
+     "const": null
+    },
+    "review_kind": {
+     "const": "screening_review"
     }
    },
    "required": [
@@ -110,13 +116,27 @@
     "escalated",
     "escalation_reasons",
     "escalation_rules",
-    "escalation_overflow",
-    "full_reviews",
-    "workload_is_gate"
+    "escalation_cap",
+    "screening_reviews",
+    "workload_is_gate",
+    "review_kind",
+    "review_note"
    ]
   },
   "counts": {
-   "type": "object"
+   "type": "object",
+   "properties": {
+    "judgment_reviews": {
+     "const": 0
+    }
+   },
+   "required": [
+    "universe",
+    "screening_reviews",
+    "judgment_reviews",
+    "swaps",
+    "paired_tests"
+   ]
   },
   "tournament": {
    "type": "object",
@@ -149,6 +169,31 @@
     "limitations",
     "method"
    ]
+  },
+  "swap_rules": {
+   "type": "object",
+   "required": [
+    "levels",
+    "B1_evidence",
+    "B2_compensation",
+    "B3_identity",
+    "cleared"
+   ]
+  },
+  "project_requirements": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "card",
+     "exception",
+     "authorization",
+     "zone",
+     "evaluated_in_reviews",
+     "burden_cleared_in",
+     "note"
+    ]
+   }
   }
  },
  "required": [
@@ -168,7 +213,9 @@
   "candidates",
   "swaps",
   "tests",
-  "test_common"
+  "test_common",
+  "swap_rules",
+  "project_requirements"
  ],
  "additionalProperties": false
 }

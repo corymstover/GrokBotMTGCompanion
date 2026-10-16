@@ -13,7 +13,67 @@
     "top_cuts": 75
    }
   },
+  "Abstergo Entertainment": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1748,
+    "entries": 429,
+    "top_cuts": 75
+   }
+  },
+  "Abstract Performance": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Advanced Reconstruction": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Age of Ultron": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Ajani Unrelenting": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Along the Crooked Way": {
    "withCard": {
     "conversion": 0,
     "entries": 0,
@@ -37,6 +97,18 @@
     "top_cuts": 72
    }
   },
+  "Ant-Man, Elusive Avenger": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Archfiend of Ifnir": {
    "withCard": {
     "conversion": 0.1111,
@@ -49,6 +121,30 @@
     "top_cuts": 73
    }
   },
+  "Archnemesis": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Archon of Cruelty": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Arid Mesa": {
    "withCard": {
     "conversion": 0.2065,
@@ -59,6 +155,150 @@
     "conversion": 0.1311,
     "entries": 183,
     "top_cuts": 24
+   }
+  },
+  "Arni, Humble Scribe": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Artistic Process": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Astonishing Spider-Man": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Avengers Quinjet": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Avengers: Under Siege": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Azog, Moria's Ruin": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Bag of Holding": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Balefire Dragon": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Balin, Loremaster": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Banishing Betrayal": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Banishing Knack": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1752,
+    "entries": 428,
+    "top_cuts": 75
+   }
+  },
+  "Baron Helmut Zemo": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
    }
   },
   "Baron Strucker, HYDRA Overlord": {
@@ -85,6 +325,66 @@
     "top_cuts": 74
    }
   },
+  "Bident of Thassa": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Big Wheel": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Bilbo's Ring": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Bilbo, Luckwearer // Burglar's Plot": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Bilbo, Thief in the Night": {
+   "withCard": {
+    "conversion": 0.2222,
+    "entries": 9,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0.1734,
+    "entries": 421,
+    "top_cuts": 73
+   }
+  },
   "Birgi, God of Storytelling // Harnfel, Horn of Bounty": {
    "withCard": {
     "conversion": 0.1848,
@@ -109,6 +409,66 @@
     "top_cuts": 73
    }
   },
+  "Black Widow, Deadly Hunter": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Black Widow, Super Spy": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Bold Biochemist": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Bolg of the North": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Bolg's Company": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Bone Miser": {
    "withCard": {
     "conversion": 0.0625,
@@ -121,7 +481,43 @@
     "top_cuts": 74
    }
   },
+  "Bonus Round": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Bothersome Noisemaker": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Breaking // Entering": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Buried Alive": {
    "withCard": {
     "conversion": 0,
     "entries": 0,
@@ -143,6 +539,30 @@
     "conversion": 0.1896,
     "entries": 364,
     "top_cuts": 69
+   }
+  },
+  "Buster Sword": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1748,
+    "entries": 429,
+    "top_cuts": 75
+   }
+  },
+  "Captain America's Shield": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
    }
   },
   "Captain Howler, Sea Scourge": {
@@ -205,6 +625,162 @@
     "top_cuts": 75
    }
   },
+  "Chandra, Chill of Compliance": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Chandra, Flamecaller": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Charging Strifeknight": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Chasm Skulker": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Cheerful Osteomancer // Raise Dead": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Choreographed Sparks": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Coastal Peak": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1748,
+    "entries": 429,
+    "top_cuts": 75
+   }
+  },
+  "Coercive Impetus": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Colorstorm Stallion": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Combustible Gearhulk": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Confusticate and Bebother": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Consider": {
+   "withCard": {
+    "conversion": 0.3333,
+    "entries": 3,
+    "top_cuts": 1
+   },
+   "withoutCard": {
+    "conversion": 0.1733,
+    "entries": 427,
+    "top_cuts": 74
+   }
+  },
+  "Construct a Cosmic Cube": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Cool but Rude": {
    "withCard": {
     "conversion": 0.1,
@@ -217,6 +793,66 @@
     "top_cuts": 70
    }
   },
+  "Cost of Brilliance": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Countersculpt": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Craterclaw Colossus": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Crimson Cowl, Master of Evil": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Crossbones, Malicious Mercenary": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Cryptcaller Chariot": {
    "withCard": {
     "conversion": 0,
@@ -226,6 +862,78 @@
    "withoutCard": {
     "conversion": 0.1781,
     "entries": 421,
+    "top_cuts": 75
+   }
+  },
+  "Culling the Weak": {
+   "withCard": {
+    "conversion": 0.1886,
+    "entries": 175,
+    "top_cuts": 33
+   },
+   "withoutCard": {
+    "conversion": 0.1647,
+    "entries": 255,
+    "top_cuts": 42
+   }
+  },
+  "Curse-Marred Demon": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Daily Bugle Newspaper": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Damocles Base, Sword of Kang": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Daredevil, Fearless Fighter": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Daughter of the Deep": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
     "top_cuts": 75
    }
   },
@@ -241,6 +949,18 @@
     "top_cuts": 75
    }
   },
+  "Defiling Daemogoth": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Deflecting Swat": {
    "withCard": {
     "conversion": 0.1859,
@@ -251,6 +971,78 @@
     "conversion": 0.0833,
     "entries": 48,
     "top_cuts": 4
+   }
+  },
+  "Demonic Counsel": {
+   "withCard": {
+    "conversion": 0.1932,
+    "entries": 207,
+    "top_cuts": 40
+   },
+   "withoutCard": {
+    "conversion": 0.157,
+    "entries": 223,
+    "top_cuts": 35
+   }
+  },
+  "Desert Were-Worm": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Diplomatic Escort": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Dismissive Denial": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Divergent Equation": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Divining Duelist": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
    }
   },
   "Divining Witch": {
@@ -289,6 +1081,18 @@
     "top_cuts": 75
    }
   },
+  "Doom's Time Platform": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Dragon's Rage Channeler": {
    "withCard": {
     "conversion": 0.2143,
@@ -299,6 +1103,54 @@
     "conversion": 0.1667,
     "entries": 360,
     "top_cuts": 60
+   }
+  },
+  "Dragon-Cursed Halls": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Dáin Ironfoot": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Elder Brain": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Emeritus of Ideation // Ancestral Recall": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
    }
   },
   "Emet-Selch of the Third Seat": {
@@ -313,7 +1165,67 @@
     "top_cuts": 73
    }
   },
+  "Encouraging Aviator // Jump": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Endless Ranks of HYDRA": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Enduring Curiosity": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Enter the Infinite": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Entomb": {
+   "withCard": {
+    "conversion": 0.2581,
+    "entries": 31,
+    "top_cuts": 8
+   },
+   "withoutCard": {
+    "conversion": 0.1679,
+    "entries": 399,
+    "top_cuts": 67
+   }
+  },
+  "Expansion Algorithm": {
    "withCard": {
     "conversion": 0,
     "entries": 0,
@@ -337,7 +1249,247 @@
     "top_cuts": 75
    }
   },
+  "Fantastic Elasticity": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Fast // Furious": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Fateful Tempest": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Fblthp, Impossibly Lost": {
+   "withCard": {
+    "conversion": 1,
+    "entries": 1,
+    "top_cuts": 1
+   },
+   "withoutCard": {
+    "conversion": 0.1725,
+    "entries": 429,
+    "top_cuts": 74
+   }
+  },
+  "Fearsome Goblin Pair": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Fire Lord Azula": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Firebird, Blazing Ranger": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Flashback": {
+   "withCard": {
+    "conversion": 0.125,
+    "entries": 40,
+    "top_cuts": 5
+   },
+   "withoutCard": {
+    "conversion": 0.1795,
+    "entries": 390,
+    "top_cuts": 70
+   }
+  },
+  "Flying Drone": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Fogwell's Gym": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Forum Necroscribe": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Fractal Anomaly": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Frostbite Pyromental": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Funeral Room // Awakening Hall": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1748,
+    "entries": 429,
+    "top_cuts": 75
+   }
+  },
+  "Furygale Flocking": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Fíli and Kíli, Joyous": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Gandalf, Shadow's Foe": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Garrison Excavator": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Garruk, Veiled Butcher": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Gathering of Darkness": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Ginger, Queen of Sweets": {
    "withCard": {
     "conversion": 0,
     "entries": 0,
@@ -361,6 +1513,30 @@
     "top_cuts": 47
    }
   },
+  "Glamdring, Foe-hammer // Gleam of Death": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Glimpse the Unthinkable": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Glint-Horn Buccaneer": {
    "withCard": {
     "conversion": 0.1034,
@@ -374,6 +1550,102 @@
    }
   },
   "Glorious Purpose": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Goblin Engineer": {
+   "withCard": {
+    "conversion": 0.125,
+    "entries": 8,
+    "top_cuts": 1
+   },
+   "withoutCard": {
+    "conversion": 0.1754,
+    "entries": 422,
+    "top_cuts": 74
+   }
+  },
+  "Goblin Plate Mail": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Goblin-town": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Goblin-town Flunkies": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Gollum, Riddle Master": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Grave Researcher // Reanimate": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Great Goblin, Foul-Hearted": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Great Ugly-Looking Goblin // Clap! Snap!": {
    "withCard": {
     "conversion": 0,
     "entries": 0,
@@ -421,6 +1693,18 @@
     "top_cuts": 75
    }
   },
+  "Grim Monolith": {
+   "withCard": {
+    "conversion": 0.1875,
+    "entries": 256,
+    "top_cuts": 48
+   },
+   "withoutCard": {
+    "conversion": 0.1552,
+    "entries": 174,
+    "top_cuts": 27
+   }
+  },
   "Guile": {
    "withCard": {
     "conversion": 0,
@@ -430,6 +1714,78 @@
    "withoutCard": {
     "conversion": 0.1744,
     "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "H.E.R.B.I.E., Lovable Robot": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Hallway Heckler // Vicious Verse": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Hawkeye, Master Marksman": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Heart-Shaped Herb": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "High Tide": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 4,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1761,
+    "entries": 426,
+    "top_cuts": 75
+   }
+  },
+  "Hobbit Hole": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1748,
+    "entries": 429,
     "top_cuts": 75
    }
   },
@@ -457,6 +1813,162 @@
     "top_cuts": 75
    }
   },
+  "Human Torch, Johnny Storm": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Iceman and Firestar": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Ill-Timed Explosion": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Immortus, Master of Eternity": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Incendiary Command": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1748,
+    "entries": 429,
+    "top_cuts": 75
+   }
+  },
+  "Ingris Stingerquill": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Inspired Skypainter // Maestro's Gift": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Invasion of Fiora // Marchesa, Resolute Monarch": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Invasion of Kaldheim // Pyre of the World Tree": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Iron Lad, Young Avenger": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1748,
+    "entries": 429,
+    "top_cuts": 75
+   }
+  },
+  "Iron Man, Armored Avenger": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Iron Man, Master of Machines": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Iron Man, Modern Marvel": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Iron Monger, Sadistic Tycoon": {
    "withCard": {
     "conversion": 0,
@@ -469,7 +1981,223 @@
     "top_cuts": 75
    }
   },
+  "Jace's Machinations": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Jace, Reality Sculptor": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Jack of Hearts, Volatile Hero": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Jadzi, Steward of Fate // Oracle's Gift": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Jhoira, Weatherlight Corsair": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Jiang Yanggu, Alone": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1748,
+    "entries": 429,
+    "top_cuts": 75
+   }
+  },
+  "Jocasta, Automaton Avenger": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "K'un-Lun Warrior": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Kang Dynasty": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Kang Prime": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Kang, Temporal Tyrant": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Key to the Side-Door": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Kid Loki": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Killmonger, Ruthless Usurper": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Kindred Discovery": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Kingpin, Wilson Fisk": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Kozilek, Butcher of Truth": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Lantern of the Lost": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Last Light of Durin's Day": {
    "withCard": {
     "conversion": 0,
     "entries": 0,
@@ -517,6 +2245,30 @@
     "top_cuts": 72
    }
   },
+  "Leitmotif Composer": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Lich": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Lightning Greaves": {
    "withCard": {
     "conversion": 0.0952,
@@ -541,6 +2293,30 @@
     "top_cuts": 74
    }
   },
+  "Liliana the Repentant": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Liliana, Death's Majesty": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Living Laser": {
    "withCard": {
     "conversion": 0,
@@ -550,6 +2326,42 @@
    "withoutCard": {
     "conversion": 0.1744,
     "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Lockjaw, Slobbering Teleporter": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Loki Laufeyson": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Loki's Scepter": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1748,
+    "entries": 429,
     "top_cuts": 75
    }
   },
@@ -565,6 +2377,30 @@
     "top_cuts": 75
    }
   },
+  "Love on the Battlefield": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Lyra, Tolarian Archangel": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
   "M.O.D.O.K.": {
    "withCard": {
     "conversion": 0,
@@ -577,7 +2413,31 @@
     "top_cuts": 75
    }
   },
+  "Machinesmith Automaton": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Madame Hydra": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Madame Masque": {
    "withCard": {
     "conversion": 0,
     "entries": 0,
@@ -601,6 +2461,162 @@
     "top_cuts": 73
    }
   },
+  "Magus of the Wheel": {
+   "withCard": {
+    "conversion": 0.25,
+    "entries": 8,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0.173,
+    "entries": 422,
+    "top_cuts": 73
+   }
+  },
+  "Mask of Memory": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Massacre Girl": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Memnarch, the Warden": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Memnite": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Merchant of Venom": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Mesmeric Orb": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Mirrorshell Crab": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Misty Knight, Hero for Hire": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Misty Mountains Raider": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Mizzix of the Izmagnus": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Mjölnir, Hammer of Thor": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Molten-Core Maestro": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Monument to Endurance": {
    "withCard": {
     "conversion": 0.037,
@@ -613,7 +2629,199 @@
     "top_cuts": 74
    }
   },
+  "Moonstone, Harsh Mistress": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Moseo, Vein's New Dean": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Muddle the Mixture": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 6,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1769,
+    "entries": 424,
+    "top_cuts": 75
+   }
+  },
+  "Muddle, the Ever-Changing": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Multiversal Recruitment": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Murmuring Volume": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1748,
+    "entries": 429,
+    "top_cuts": 75
+   }
+  },
+  "Muse Seeker": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "My Precious // Allure of Power": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Mysterio's Mirage": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Mystic Remora": {
+   "withCard": {
+    "conversion": 0.183,
+    "entries": 399,
+    "top_cuts": 73
+   },
+   "withoutCard": {
+    "conversion": 0.0645,
+    "entries": 31,
+    "top_cuts": 2
+   }
+  },
+  "N'Yami-Class Mother Ship": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Naktamun Lorespinner // Wheel of Fortune": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1748,
+    "entries": 429,
+    "top_cuts": 75
+   }
+  },
+  "Nezahal, Primal Tide": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Nico Minoru, Runaway": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Nova Flame": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Oblivion's Hunger": {
    "withCard": {
     "conversion": 0,
     "entries": 0,
@@ -637,6 +2845,30 @@
     "top_cuts": 23
    }
   },
+  "Orcrist, Goblin-cleaver": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Origin of Thor": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
   "Oscorp Industries": {
    "withCard": {
     "conversion": 0,
@@ -646,6 +2878,42 @@
    "withoutCard": {
     "conversion": 0.1852,
     "entries": 405,
+    "top_cuts": 75
+   }
+  },
+  "Overwrite the Multiverse": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Page, Loose Leaf": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Panther Habit": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
     "top_cuts": 75
    }
   },
@@ -673,6 +2941,186 @@
     "top_cuts": 75
    }
   },
+  "Pensive Professor": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Photon, Mighty Marvel": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Phyrexian Devourer": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Plan for All Outcomes": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Platinum Angel": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Platinum Emperion": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Plunder the Trollshaws": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Pompous Battlemage // Improvised Act": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Postmortem Professor": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Pox Plague": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Prismari Charm": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1748,
+    "entries": 429,
+    "top_cuts": 75
+   }
+  },
+  "Prismari Command": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Professor Hulk": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Proft, Consulting Detective": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Protege's Awakening": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
   "Prowler, Clawed Thief": {
    "withCard": {
     "conversion": 0,
@@ -682,6 +3130,30 @@
    "withoutCard": {
     "conversion": 0.1756,
     "entries": 427,
+    "top_cuts": 75
+   }
+  },
+  "Pull from Tomorrow": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1748,
+    "entries": 429,
+    "top_cuts": 75
+   }
+  },
+  "Pull from the Grave": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1748,
+    "entries": 429,
     "top_cuts": 75
    }
   },
@@ -697,6 +3169,54 @@
     "top_cuts": 75
    }
   },
+  "Pym Particles": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Pyroblast": {
+   "withCard": {
+    "conversion": 0.1931,
+    "entries": 202,
+    "top_cuts": 39
+   },
+   "withoutCard": {
+    "conversion": 0.1579,
+    "entries": 228,
+    "top_cuts": 36
+   }
+  },
+  "Quicksilver, Brash Blur": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Quicksilver, Speedster": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Ragavan, Nimble Pilferer": {
    "withCard": {
     "conversion": 0.1851,
@@ -707,6 +3227,66 @@
     "conversion": 0.1368,
     "entries": 95,
     "top_cuts": 13
+   }
+  },
+  "Rage into the Valley": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Ragged Short Spear": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Ral Zarek, Guest Lecturer": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Rapturous Moment": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1752,
+    "entries": 428,
+    "top_cuts": 75
+   }
+  },
+  "Ravenhill Flock": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
    }
   },
   "Reanimate": {
@@ -721,6 +3301,150 @@
     "top_cuts": 57
    }
   },
+  "Reconnaissance Mission": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Red Ghost, Intangible Genius": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Red Hulk": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Reiterate": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Renegade Bull": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Requiem Monolith": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Rescue, Pepper Potts": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Retraction Helix": {
+   "withCard": {
+    "conversion": 0.1875,
+    "entries": 16,
+    "top_cuts": 3
+   },
+   "withoutCard": {
+    "conversion": 0.1739,
+    "entries": 414,
+    "top_cuts": 72
+   }
+  },
+  "Rewrite History": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Rhovanion Rampager": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Riddles in the Dark": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Ripples of Potential": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "River Kelpie": {
    "withCard": {
     "conversion": 0.0714,
@@ -731,6 +3455,18 @@
     "conversion": 0.1779,
     "entries": 416,
     "top_cuts": 74
+   }
+  },
+  "Robot Domination": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1748,
+    "entries": 429,
+    "top_cuts": 75
    }
   },
   "Rocket-Powered Goblin Glider": {
@@ -757,6 +3493,78 @@
     "top_cuts": 75
    }
   },
+  "Rootha, Mastering the Moment": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Rubble Rouser": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Saheeli, Sublime Artificer": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Samut, Hazoret's Champion": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Scarlet Witch, Chaotic Avenger": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Seasoned Cryomancer": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1748,
+    "entries": 429,
+    "top_cuts": 75
+   }
+  },
   "Secrets of the Dead": {
    "withCard": {
     "conversion": 0.087,
@@ -769,6 +3577,18 @@
     "top_cuts": 73
    }
   },
+  "Send in the Pest": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Sensei's Divining Top": {
    "withCard": {
     "conversion": 0,
@@ -778,6 +3598,78 @@
    "withoutCard": {
     "conversion": 0.1829,
     "entries": 410,
+    "top_cuts": 75
+   }
+  },
+  "She-Hulk, Jennifer Walters": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "She-Hulk, Wallbreaker": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Shuri's Fabricator": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Silver Shroud Costume": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Silver Surfer, Galactus's Herald": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Singularity Rupture": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1748,
+    "entries": 429,
     "top_cuts": 75
    }
   },
@@ -793,6 +3685,174 @@
     "top_cuts": 70
    }
   },
+  "Smaug the Impenetrable": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Smaug the Magnificent": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Sound the Trumpets": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Spaceshift": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Spectacle Summit": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1748,
+    "entries": 429,
+    "top_cuts": 75
+   }
+  },
+  "Spellbook Seeker // Careful Study": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Sphinx of False Conclusions": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Sphinx's Approach": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Spider-Man, New Champion": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Spirit of Resilience": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Stadium Tidalmage": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Stark's Ingenuity": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Steal the Show": {
+   "withCard": {
+    "conversion": 0.0909,
+    "entries": 11,
+    "top_cuts": 1
+   },
+   "withoutCard": {
+    "conversion": 0.1766,
+    "entries": 419,
+    "top_cuts": 74
+   }
+  },
+  "Stensian Sanguinist // Exsanguinate": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Stitcher's Supplier": {
    "withCard": {
     "conversion": 0,
@@ -802,6 +3862,30 @@
    "withoutCard": {
     "conversion": 0.1756,
     "entries": 427,
+    "top_cuts": 75
+   }
+  },
+  "Stony-Voiced Goblins": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Super-Adaptoid": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
     "top_cuts": 75
    }
   },
@@ -817,7 +3901,175 @@
     "top_cuts": 74
    }
   },
+  "Surveillance Room": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Svyelun of Sea and Sky": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Sword of Feast and Famine": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Sword of Fire and Ice": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Sword of Forge and Frontier": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Sword of Hearth and Home": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Sword of Light and Shadow": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Sword of Truth and Justice": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Sword of Wealth and Power": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Syphon Mind": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Tablet of Discovery": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1748,
+    "entries": 429,
+    "top_cuts": 75
+   }
+  },
+  "Teferi, Master of Time": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1752,
+    "entries": 428,
+    "top_cuts": 75
+   }
+  },
+  "Tezzeret's Gambit": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Tezzeret, Cruel Captain": {
+   "withCard": {
+    "conversion": 0.156,
+    "entries": 141,
+    "top_cuts": 22
+   },
+   "withoutCard": {
+    "conversion": 0.1834,
+    "entries": 289,
+    "top_cuts": 53
+   }
+  },
+  "The Dawning Archaic": {
    "withCard": {
     "conversion": 0,
     "entries": 0,
@@ -841,7 +4093,187 @@
     "top_cuts": 75
    }
   },
+  "The Elder Dragon War": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "The Enigma Jewel // Locus of Enlightenment": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "The Frightful Four": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "The Masters of Evil": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "The Ruinous Wrecking Crew": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
   "The Squadron Sinister": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "The Thanos-Copter": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "The Theorist, Jace Beleren": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "The Vision": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "The Vision and Scarlet Witch": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "The Wasp, Winsome Avenger": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Theorix Charm": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Thor, God of Thunder": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Thorin, Company's Leader": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Thousand-Year Storm": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Three Steps Ahead": {
    "withCard": {
     "conversion": 0,
     "entries": 0,
@@ -865,6 +4297,198 @@
     "top_cuts": 73
    }
   },
+  "Thrór's Map": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Tidespout Tyrant": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Tidings of War": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Timeline Inquiry": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Timestream Navigator": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Tinybones, Pocket Nuisance": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Titania, Proud Pummeler": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Tony Stark // The Invincible Iron Man": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Tragedy Feaster": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Transcendent Archaic": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Traumatic Critique": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Treasure Cruise": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Tri-Sentinel, Act of Vengeance": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Twinned Vision": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Typhoid Mary, Fractured": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Uldaros Theorix": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
   "Ultimate Green Goblin": {
    "withCard": {
     "conversion": 0.0625,
@@ -877,7 +4501,43 @@
     "top_cuts": 74
    }
   },
+  "Ultron Drone": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Ultron the Annihilator": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
   "Ultron, Unlimited": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Uncover the Moon-Letters": {
    "withCard": {
     "conversion": 0,
     "entries": 0,
@@ -901,7 +4561,247 @@
     "top_cuts": 72
    }
   },
+  "Unstable Experiment": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 8,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1777,
+    "entries": 422,
+    "top_cuts": 75
+   }
+  },
+  "Variable Chaser // Arc of Fortune": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Vibranium Mining Mech": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Vibranium Strike Gauntlets": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
   "Villainous Hideout": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Vision Quest": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Vision of Love": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 6,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1769,
+    "entries": 424,
+    "top_cuts": 75
+   }
+  },
+  "Vision, Synthezoid Avenger": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Viv Vision, Teen Synthezoid": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Voltaic Whip": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Vulture, Feathered Fiend": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "War Machine, Avenging Arsenal": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Wasp, Shrinking Savior": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Way of the Mind Sculptor": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Way of the Necromancer": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Way of the Pyromancer": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Whispersilk Cloak": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Wisdom of Ages": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1752,
+    "entries": 428,
+    "top_cuts": 75
+   }
+  },
+  "Wizard Class": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Yawgmoth, Thran Physician": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.1744,
+    "entries": 430,
+    "top_cuts": 75
+   }
+  },
+  "Óin the Brave": {
    "withCard": {
     "conversion": 0,
     "entries": 0,

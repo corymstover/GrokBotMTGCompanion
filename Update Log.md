@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 61 (M5 constraint fixes)](#2026-10-16--bot-cycle-61-m5-constraint-fixes)
 - [2026-10-16 — Bot cycle 60 (M5: candidate deep dive)](#2026-10-16--bot-cycle-60-m5-candidate-deep-dive)
 - [2026-10-16 — Bot cycle 59.2 (M4: 99-slot audit)](#2026-10-16--bot-cycle-592-m4-99-slot-audit)
 - [2026-10-16 — Bot cycle 59.1 (M4: dependency graph)](#2026-10-16--bot-cycle-591-m4-dependency-graph)
@@ -81,6 +82,16 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 61 (M5 constraint fixes)
+- **Constraint 3, no cap:** the 12-per-reason escalation cap is removed (`triage.escalation_cap: null`). Every card meeting a reason is escalated and reviewed: 20,774 escalated, 22,971 reviews.
+- **Constraint 2, review kinds:** scripted reviews are `screening_review` (`method: scripted`, heuristic/derived, `can_decide: false`). A separate `judgment_review` schema is the only thing that can support an M6 decision. New in `grixis_authority.py`: `decision_review_problems()` and `swap_decision_problems()`. The checker rejects script-authored judgments.
+- **No absolute protections:** core, strong-retain, combo pieces and project requirements can be cut once the recorded `BURDEN_RULES` clear: evidence, compensation of every graph break, and identity. 3,382 elevated and 24 labeled project-exception hypotheses sit next to 22,527 standard ones. Bjorna's Trade Secrets and Yawgmoth's Bargain are evaluated and labeled, not immune. Lutri, the companion, is recorded as a project-level question.
+- **Card-specific dispositions:** 395 reviews record why the would-be cut dominates them (`dominated_by`) instead of forming a swap.
+- **Paired tests and tournament:** 16,889 paired v1.1 tests. EDHTop16 rows were re-fetched for the 13 cEDH-ceiling decks.
+- **Footprint:** deck files are deterministic `<slug>.json.gz` (14 MB, down from 44 MB), checked on the decompressed text.
+- **Status:** nothing authoritative, no list changes, no acceptances.
+- Schemas: `candidate`, `swap` and `candidate_universe` updated. `tests/test_candidates.py` has 9 tests.
 
 ## 2026-10-16 — Bot cycle 60 (M5: candidate deep dive)
 - **M5 started** (`program.milestones.M5: in_progress`), with sub-cycles 60.1 (universe, triage, reviews, swaps, paired tests) and 60.2 (tournament evidence).

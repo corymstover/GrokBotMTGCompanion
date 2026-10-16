@@ -5881,6 +5881,11 @@
 "headings": [
 [
 2,
+"2026-10-16 — Bot cycle 61 (M5 constraint fixes)",
+"2026-10-16--bot-cycle-61-m5-constraint-fixes"
+],
+[
+2,
 "2026-10-16 — Bot cycle 60 (M5: candidate deep dive)",
 "2026-10-16--bot-cycle-60-m5-candidate-deep-dive"
 ],
@@ -6477,6 +6482,16 @@
 2,
 "Standing rules (Cory's binding constraints)",
 "standing-rules-corys-binding-constraints"
+],
+[
+3,
+"Review kinds: screening vs judgment",
+"review-kinds-screening-vs-judgment"
+],
+[
+3,
+"No absolute protections",
+"no-absolute-protections"
 ],
 [
 2,

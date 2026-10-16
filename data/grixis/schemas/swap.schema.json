@@ -260,6 +260,52 @@
     "date"
    ],
    "additionalProperties": false
+  },
+  "burden": {
+   "type": "object",
+   "description": "Bot cycle 61: the cut's protection level and, above standard, the recorded higher burden (rules in the candidate file's swap_rules).",
+   "properties": {
+    "level": {
+     "enum": [
+      "standard",
+      "elevated",
+      "project_exception"
+     ]
+    },
+    "cleared": {
+     "type": "boolean"
+    },
+    "tests": {
+     "type": "object"
+    },
+    "breaks": {
+     "type": "array"
+    },
+    "compensated": {
+     "type": "object"
+    },
+    "uncompensated": {
+     "type": "array"
+    },
+    "compensating_adds": {
+     "type": "array"
+    },
+    "note": {
+     "type": "string"
+    },
+    "rules": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "level",
+    "cleared"
+   ],
+   "additionalProperties": false
+  },
+  "judgment_review_ref": {
+   "type": "string",
+   "description": "M6: the candidate judgment_review that supports a decision"
   }
  },
  "required": [

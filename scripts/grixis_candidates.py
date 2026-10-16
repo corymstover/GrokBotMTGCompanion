@@ -15,14 +15,20 @@ in the list, drawn from five sources, then screened, ranked and bounded to 200-5
   package      Oracle/type search: shares a signature creature type of a blueprint package
   new_card     first printed on or after NEW_SINCE (Scryfall default-cards, earliest released_at per oracle id)
   rank_fill    only if the sources above give fewer than 200: identity staples with a key role, by EDHREC overall rank
-Triage: the default full-review set is the top clamp(#tier A, 15, 40) by screening score; escalations add full
-reviews beyond it for the ESCALATION_REASONS listed in ESCALATION_RULES (Cory constraint 3: 15-40 is not a gate).
-Each full review compares the candidate with the blueprint, the role model, the graph and the best incumbent in its
-role, and forms one pairwise swap hypothesis (cut = the weakest replaceable incumbent in that role).  Swaps are
+Triage: the default review set is the top clamp(#tier A, 15, 40) by screening score; every card meeting an
+ESCALATION_RULES reason is escalated and reviewed too, with no cap (Cory constraint 3; Bot cycle 61).
+Reviews are `screening_review`s (scripted, heuristic/derived evidence, can_decide false): they triage and can never
+satisfy an M6 decision, which needs a human-grade `judgment_review` (grixis_authority.decision_review_problems).
+Each review compares the candidate with the blueprint, the role model, the graph and the best incumbent in its role,
+and forms a pairwise swap hypothesis: cut = the weakest standard incumbent in that role; core / strong-retain / combo
+pieces / project requirements are not immune but must clear the recorded BURDEN_RULES (evidence, compensation of every
+graph break, identity), and a cleared one is recorded as a second, labeled hypothesis.  A card the would-be cut
+dominates on every recorded axis gets a card-specific `dominated_by` instead of a swap.  Files are <slug>.json.gz
+(deterministic gzip; --check compares the decompressed text).  Swaps are
 swap.schema.json records, state CHALLENGER, exploratory, decision null: never registered, never promoted, no list
 changes.  A paired goldfish test (simulator v1.1, PREREG) runs when the model can see something of either card.
 
-  python3 scripts/grixis_candidates.py --build [--deck SLUG] [--jobs N]
+  python3 scripts/grixis_candidates.py --build [--deck SLUG[,SLUG...]] [--jobs N]
   python3 scripts/grixis_candidates.py --check
   python3 scripts/grixis_candidates.py --summary
 """
@@ -34,14 +40,13 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 import grixis_authority as ga  # noqa: E402
 
-VERSION = "1"
-CYCLE = 60
+VERSION = "2"
+CYCLE = 61
 TODAY = dt.date(2026, 10, 16)
 NEW_SINCE = "2026-04-16"            # first printed within 183 days of TODAY = a new card
 UNIVERSE_MIN, UNIVERSE_MAX = 200, 500
 NICHE_RESERVE = 60                  # universe slots kept for no-EDHREC-row Oracle/package hits
 DEFAULT_RANGE = [15, 40]
-ESC_CAP = 12                        # escalations listed per reason (the overflow is recorded by name, not dropped silently)
 SAMPLES, SEED = 300, 60
 TIER_A, TIER_B = 45.0, 25.0
 OUT = ROOT / "data" / "grixis" / "candidates"
@@ -52,7 +57,22 @@ KEY_ROLES = ("ramp", "draw", "removal", "wipe", "counter", "protection", "tutor"
 INTERACTION = {"removal", "wipe", "counter", "protection"}
 SKIP_LAYOUTS = {"token", "double_faced_token", "art_series", "emblem", "scheme", "planar", "vanguard", "augment", "host"}
 CUT_ORDER = ["active_cut_candidate", "flexible", "weak_retain", "package_dependent", "meta_dependent", "functional_retain"]
-PROTECTED = {"core", "strong_retain", "project_requirement"}
+ELEVATED = {"core", "strong_retain"}   # cuttable only when the recorded higher burden clears (BURDEN_RULES)
+REVIEW_KIND = "screening_review"      # scripted; never a judgment_review (M6), never decision-capable
+BURDEN_RULES = {
+    "levels": {"standard": "an unprotected incumbent (CUT_ORDER) with no Spellbook combo and nothing in breaks_if_removed",
+               "elevated": "core or strong_retain, or a Spellbook combo piece, or anything that breaks something per the graph",
+               "project_exception": "a registered project requirement (exceptions.json, AUTHORIZED_*): evaluated like elevated and "
+                                    "labeled; cutting it would revoke an exception only Cory can revoke"},
+    "B1_evidence": f"the add's screening score >= {TIER_A} (tier A) and EDHREC inclusion >= the cut's + 0.05 (or the cut has no row); "
+                   "or the add completes an infinite Spellbook variant that does not use the cut",
+    "B2_compensation": "every graph break of the cut is compensated: combo:<id> by an interchangeable incumbent (graph "
+                       "interchangeable_with) or a variant the add completes; package:<p> by the add fitting <p>; win:<w> by "
+                       "an infinite variant the add completes; engine:<e> never by script (judgment needed)",
+    "B3_identity": "a blueprint identity_core cut needs an add with the same Oracle hook and a package fit",
+    "cleared": "B1 and B2 and (B3 when it applies); the cost (breaks, compensation, uncompensated) is recorded on the swap",
+    "never_cut": "a piece of the very combo the add completes (the swap would remove what it adds): recorded, not a protection",
+}
 AUTHORITY = {"status": "provisional", "exploratory": True,
              "note": "M5 deep dive. Screening scores are heuristics; EDHREC is a derived metric; goldfish tests are model "
                      "evidence, never win rates. No list changes, no challenger registered or promoted, no swap decided "
@@ -86,7 +106,7 @@ ESCALATION_RULES = {
     "unusual_oracle_interaction": "Oracle hook or package-type hit with no EDHREC row on the commander page (niche)",
     "package_gap": "fits a required blueprint package that holds fewer than its min_count in the list",
     "rank_miss_suspected": "EDHREC synergy >= 0.15 but inclusion < 0.10, or a blueprint-named candidate ranked outside the default set",
-    "cap": f"at most {ESC_CAP} per reason by score; the overflow is listed by name in triage.escalation_overflow",
+    "cap": "none (Bot cycle 61, constraint 3): every card meeting a reason is escalated and gets a screening review",
 }
 
 
@@ -203,6 +223,10 @@ class DeckCtx:
         self.edh = {x["card"]: dict(zip(cols, x["edhrec"])) for x in self.ev["vectors"] if x.get("edhrec")}
         self.ev_cands = [x["card"] for x in self.ev["vectors"] if x["status"] == "candidate"]
         self.slots = {s["card"]: s for s in self.au["slots"]}
+        self.met = self.g["metrics"]
+        self.node = {x["name"]: x for x in self.g["nodes"] if x["kind"] in ("card", "commander")}
+        self.exc = {x["card"]: x for x in ga.load_json(ga.EXCEPTIONS)["exceptions"] if x["deck_id"] in (self.rid, did)
+                    and x.get("project_authorization_status") in ("AUTHORIZED_EXCEPTION", "AUTHORIZED_FUTURE_RELEASE")}
         tp = OUT / "tournament" / f"{self.slug}.json"
         self.tour = json.loads(tp.read_text(encoding="utf-8")) if tp.exists() else None
         self.tour_ref = f"tournament:{rel(tp)}"
@@ -386,10 +410,8 @@ def triage(D, keep, cand, scored):
         if (e.get("synergy") is not None and e["synergy"] >= 0.15 and e["inclusion"] < 0.10) or "blueprint" in s:
             reasons["rank_miss_suspected"].append(n)
     for r, ns in reasons.items():
-        for n in ns[:ESC_CAP]:
+        for n in ns:
             esc.setdefault(n, []).append(r)
-        if len(ns) > ESC_CAP:
-            over[r] = ns[ESC_CAP:]
     return default, esc, over, k
 
 
@@ -453,19 +475,96 @@ def incl(D, n):
     return e["inclusion"] if e else None
 
 
-def pick(D, kind, val, completes_with, R):
+def level_of(D, n, s):
+    m = D.met.get(n) or {}
+    if s["disposition"] == "project_requirement" or n in D.exc:
+        return "project_exception"
+    if s["disposition"] in ELEVATED or m.get("combos") or m.get("breaks_if_removed"):
+        return "elevated"
+    return "standard"
+
+
+def burden(D, x, n, f, sc, R):
+    """The recorded higher burden for cutting an elevated / project-exception incumbent `x` for the add `n`."""
+    m = D.met.get(x) or {}
+    e_c, e_x = incl(D, n), incl(D, x)
+    own_inf = [v["id"] for v in D.almost.get(n, []) if v["infinite"] and x not in v["cards"]]
+    b1 = bool(own_inf) or (sc >= TIER_A and (e_x is None or (e_c is not None and e_c >= e_x + 0.05)))
+    comp, unc = {}, []
+    mates = [y for y in m.get("interchangeable_with", []) if y != x and y in D.slots]
+    for br in m.get("breaks_if_removed", []):
+        k, _, v = br.partition(":")
+        if k == "combo" and mates:
+            comp[br] = f"interchangeable incumbent(s) {', '.join(mates[:3])} keep the line"
+        elif k == "combo" and own_inf:
+            comp[br] = f"the add completes {own_inf[0]}"
+        elif k == "package" and (v in f.get("packages", []) and f.get("package_basis", {}).get(v) == "type" or n in (D.pk.get(v) or {}).get("candidates", set())):
+            comp[br] = f"the add fits {v}"
+        elif k == "win" and own_inf:
+            comp[br] = f"new route: the add completes {own_inf[0]}"
+        else:
+            unc.append(br)
+    core = bool((D.node.get(x) or {}).get("identity_core"))
+    b3 = None
+    if core:
+        xc = D.cards.get(x) or R.get(x)[0]
+        xh = D.ctx.hook(xc) if xc else None
+        b3 = bool(xh and f.get("oracle_hook") == xh["label"] and f.get("packages"))
+    cleared = b1 and not unc and (b3 is not False)
+    out = {"level": level_of(D, x, D.slots[x]), "tests": {"B1_evidence": b1, "B2_compensation": not unc, **({"B3_identity": b3} if core else {})},
+           "breaks": m.get("breaks_if_removed", []), "compensated": comp, "uncompensated": unc,
+           "compensating_adds": [n] + mates[:3], "cleared": cleared}
+    if out["level"] == "project_exception":
+        ex = D.exc.get(x) or {}
+        out["note"] = (f"Authorized project exception {ex.get('id', '(audit project_requirement)')}: evaluable, not immune; any cut is a "
+                       "project decision only Cory can make (labeled hypothesis).")
+    return out
+
+
+def pick(D, kind, val, completes_with, R, n=None, f=None, sc=0.0):
+    """(mates, bench, cut, considered). cut = (name, slot, burden-or-None). Standard incumbents first (weakest by
+    CUT_ORDER); elevated and project-exception incumbents are evaluated against BURDEN_RULES and used when no standard
+    cut exists and the burden clears."""
     mates = []
-    for n, s in sorted(D.slots.items()):
+    for x, s in sorted(D.slots.items()):
         if s["zone"] != "main":
             continue
-        ic = D.cards.get(n) or R.get(n)[0]
+        ic = D.cards.get(x) or R.get(x)[0]
         if in_role(D, kind, val, s, ic):
-            mates.append((n, s))
-    nonbasic = [(n, s) for n, s in mates if not (n in D.cards and "Basic Land" in tline(D.cards[n]))]
-    bench = max(nonbasic, key=lambda x: ((incl(D, x[0]) or 0.0), x[0]), default=None)
-    elig = [(n, s) for n, s in mates if s["disposition"] not in PROTECTED and n not in completes_with and s["disposition"] in CUT_ORDER]
-    cut = min(elig, key=lambda x: (CUT_ORDER.index(x[1]["disposition"]), incl(D, x[0]) or 0.0, -x[1]["redundancy"], x[0]), default=None)
-    return mates, bench, cut
+            mates.append((x, s))
+    nonbasic = [(x, s) for x, s in mates if not (x in D.cards and "Basic Land" in tline(D.cards[x]))]
+    bench = max(nonbasic, key=lambda y: ((incl(D, y[0]) or 0.0), y[0]), default=None)
+    std = [(x, s) for x, s in mates if x not in completes_with and level_of(D, x, s) == "standard" and s["disposition"] in CUT_ORDER]
+    cut = min(std, key=lambda y: (CUT_ORDER.index(y[1]["disposition"]), incl(D, y[0]) or 0.0, -y[1]["redundancy"], y[0]), default=None)
+    cut = (cut[0], cut[1], None) if cut else None
+    considered = {"elevated": 0, "project_exception": 0, "cleared": [], "closest": None, "excluded_own_combo": sorted(completes_with & {x for x, _ in mates})}
+    if n is not None:
+        best = None
+        for x, s in mates:
+            lv = level_of(D, x, s)
+            if lv == "standard" or x in completes_with:
+                continue
+            considered[lv] += 1
+            if lv == "project_exception":
+                considered.setdefault("project_exception_cards", []).append(x)
+            bd = burden(D, x, n, f, sc, R)
+            if bd["cleared"]:
+                considered["cleared"].append(x)
+                if best is None or (incl(D, x) or 0.0) < (incl(D, best[0]) or 0.0):
+                    best = (x, s, bd)
+            elif considered["closest"] is None or len(bd["uncompensated"]) + (not bd["tests"]["B1_evidence"]) < considered["closest"][1]:
+                considered["closest"] = (x, len(bd["uncompensated"]) + (not bd["tests"]["B1_evidence"]),
+                                         [k for k, v in bd["tests"].items() if v is False] + bd["uncompensated"][:3])
+        if considered["closest"]:
+            x, _, failed = considered["closest"]
+            considered["closest"] = {"card": x, "failed": failed}
+        alt = None
+        if cut is None and best:
+            cut = best
+        elif best:
+            alt = best  # a cleared elevated cut is a second, labeled hypothesis next to the standard one
+        return mates, bench, cut, considered, alt
+    return mates, bench, cut, considered, None
 
 
 def full_review(D, n, c, sc, parts, f, R):
@@ -475,10 +574,10 @@ def full_review(D, n, c, sc, parts, f, R):
         comp_with |= set(v["cards"]) - {n}
         inf |= v["infinite"]
     kind, val = role_key(D, n, c, f)
-    mates, bench, cut = pick(D, kind, val, comp_with, R)
+    mates, bench, cut, considered, alt = pick(D, kind, val, comp_with, R, n, f, sc)
     if cut is None and kind != "type":  # nothing replaceable in the primary role: fall back to the card type
         kind, val = type_key(c)
-        mates, bench, cut = pick(D, kind, val, comp_with, R)
+        mates, bench, cut, considered, alt = pick(D, kind, val, comp_with, R, n, f, sc)
     bref = f"blueprint:{rel(D.bpf)}"
     named = sorted(p for p, x in D.pk.items() if n in x["candidates"])
     anti = len(n) > 4 and n in D.anti
@@ -514,6 +613,7 @@ def full_review(D, n, c, sc, parts, f, R):
         if tc.get(n):
             items.append({"id": f"{D.tour_ref}#{n}", "class": "derived_metric", "confidence": "low" if (tc[n].get("withCard") or {}).get("entries", 0) < 30 else "moderate"})
     ok, why_not = ga.decision_support_ok(items)
+    dom = dominated(D, n, c, f, parts, cut, R) if cut and cut[2] is None else None
     lines = [f"{cost_of(c) or 'MV ' + str(int(c.get('cmc') or 0))} {tline(c).split(' // ')[0]}: “{digest(c)}”."]
     lines.append(f"Competes as {kind} `{val}` ({len(mates)} incumbent(s) in that role).")
     lines.append(f"Blueprint fit {fit}" + (f": named by {', '.join(named)}" if named else "") +
@@ -535,17 +635,61 @@ def full_review(D, n, c, sc, parts, f, R):
         w = tour["card"].get("withCard") or {}
         lines.append(f"EDHTop16 ({tour['window']}): in {w.get('entries', 0)} of {tour['commander_entries']} tournament entries" +
                      (f", conversion {w['conversion']:.0%}" if w.get("conversion") is not None else "") + ".")
-    if cut:
+    if cut and dom:
+        lines.append(f"No swap hypothesis: dominated by the would-be cut {cut[0]} ({dom}).")
+    elif cut and cut[2]:
+        bd = cut[2]
+        lines.append(f"Swap hypothesis at the {bd['level'].replace('_', ' ')} burden: cut {cut[0]} ({cut[1]['disposition'].replace('_', ' ')}); "
+                     f"breaks {len(bd['breaks'])}, all compensated." + (" " + bd["note"] if bd.get("note") else ""))
+    elif cut:
         lines.append(f"Swap hypothesis: cut {cut[0]} ({cut[1]['disposition'].replace('_', ' ')}).")
+    if alt:
+        lines.append(f"Second hypothesis at the {alt[2]['level'].replace('_', ' ')} burden (cleared): cut {alt[0]} "
+                     f"({alt[1]['disposition'].replace('_', ' ')}; breaks {len(alt[2]['breaks'])}, all compensated).")
     else:
-        lines.append("No replaceable incumbent in role (all protected): no swap hypothesis.")
-    rv = {"role": {"kind": kind, "value": val, "incumbents": len(mates), "list_counts": {r: D.role_count[r] for r in f["roles"] if r in KEY_ROLES or r == "land"}},
+        cl = considered.get("closest")
+        lines.append(f"No swap hypothesis: no standard cut in role and no elevated cut clears the burden ({considered['elevated']} elevated, "
+                     f"{considered['project_exception']} project-exception incumbent(s) evaluated" +
+                     (f"; closest {cl['card']}, failed {', '.join(cl['failed'])}" if cl else "") + ").")
+    rv = {"kind": REVIEW_KIND, "method": "scripted", "by": f"script:grixis_candidates.py v{VERSION}",
+          "evidence_class": "heuristic" if not e else "derived_metric",
+          "role": {"kind": kind, "value": val, "incumbents": len(mates), "list_counts": {r: D.role_count[r] for r in f["roles"] if r in KEY_ROLES or r == "land"}},
           "blueprint": {"fit": fit, "named_by": named, "oracle_hook": f.get("oracle_hook"), "packages": f.get("packages", []), "anti_goal": anti},
           "graph": {"completes_spellbook": f.get("spellbook", []), "infinite": inf, "with_incumbents": sorted(comp_with)[:8]},
-          "best_incumbent": cmp_, "cut": cut[0] if cut else None, **({"tournament": tour} if tour else {}), "assessment": " ".join(lines),
+          "best_incumbent": cmp_, "cut": None if (not cut or dom) else cut[0],
+          "cut_level": None if (not cut or dom) else (cut[2]["level"] if cut[2] else "standard"),
+          "protected_considered": {k: v for k, v in considered.items() if v not in (0, [], None)},
+          **({"dominated_by": {"card": cut[0], "detail": dom}} if dom else {}),
+          **({"elevated_alternative": {"card": alt[0], "level": alt[2]["level"]}} if alt else {}), **({"tournament": tour} if tour else {}), "assessment": " ".join(lines),
           "evidence_classes": dict(sorted(Counter(i["class"] for i in items).items())),
-          "decision_support": {"ok": ok, "why_not": why_not}}
-    return rv, cut, items
+          "decision_support": {"evidence_ok": ok, "why_not": why_not, "can_decide": False,
+                               "because": "screening_review (scripted heuristic/derived evidence): an M6 decision needs a judgment_review"}}
+    return rv, (None if dom else cut), items, alt
+
+
+def dominated(D, n, c, f, parts, cut, R):
+    """Card-specific reason the add cannot improve on the would-be (standard) cut, or None. Never applied to new cards,
+    Spellbook links, blueprint-named cards or package fits the cut lacks."""
+    x = cut[0]
+    xc = D.cards.get(x) or R.get(x)[0]
+    if not xc or "new_card" in parts or f.get("spellbook") or f.get("blueprint_candidate_of"):
+        return None
+    xs = D.slots[x]
+    if set(f.get("packages", [])) - set(xs["packages"]):
+        return None
+    kr = {r for r in f["roles"] if r in KEY_ROLES}
+    if not kr <= set(xs["roles"]):
+        return None
+    if f.get("oracle_hook"):
+        body = tline(xc) + "\n" + otext(xc)
+        if not any(lab == f["oracle_hook"] and rx.search(body) for lab, _, _, rx in D.ctx.hooks):
+            return None
+    mv_c, mv_x = int(c.get("cmc") or 0), int(xc.get("cmc") or 0)
+    rk_c, rk_x = c.get("edhrec_rank"), xc.get("edhrec_rank")
+    if mv_c < mv_x or not rk_x or (rk_c and rk_c <= rk_x) or (incl(D, n) or 0) > (incl(D, x) or 0):
+        return None
+    return (f"MV {mv_c} vs {mv_x}; EDHREC overall rank {rk_c or 'none'} vs {rk_x}; roles {sorted(kr) or 'none'} within the cut's; "
+            + (f"both match hook {f['oracle_hook']}" if f.get("oracle_hook") else "no Oracle hook") + "; no package, Spellbook or blueprint edge the cut lacks")
 
 
 # ---------------------------------------------------------------- swaps and paired tests
@@ -575,14 +719,14 @@ def run_paired(D, base, add_c, cut, R):
     am = gs.card_model(add_c, D.ci)
     i = next(j for j, x in enumerate(base.library) if x["name"] == cut)
     lib = base.library[:i] + [am] + base.library[i + 1:]
-    combos = list(base.combos) + [{"id": v["id"], "cards": v["cards"]} for v in D.almost.get(add_c["name"], [])
+    combos = [co for co in base.combos if cut not in co["cards"]] + [{"id": v["id"], "cards": v["cards"]} for v in D.almost.get(add_c["name"], [])
                                   if set(v["cards"]) - {add_c["name"]} <= ({x["name"] for x in lib} | {x["name"] for x in base.commanders})
                                   and cut not in v["cards"]]
     b = gs.Deck(base.slug, base.commanders, lib, base.key_sets, combos)
     b.ci = base.ci
     b.engine, b.gy_combo = base.engine, base.gy_combo
     res, sw = gp.paired(base, b, SAMPLES, SEED, pairs=[(cut, add_c["name"])], model=gs.VERSION)
-    return res, sw, b, len(combos) - len(base.combos)
+    return res, sw, b, sum(1 for co in combos if co not in base.combos)
 
 
 def swap_class(f, parts):
@@ -597,7 +741,7 @@ def swap_class(f, parts):
     return "raw_efficiency"
 
 
-def make_swap(D, n, c, parts, f, rv, cut, items, R, base, base_cm):
+def make_swap(D, n, c, parts, f, rv, cut, items, R, base, base_cm, bd=None):
     import grixis_sim as gs, grixis_paired as gp
     text = swap_text(D, cut, n)
     rh = ga.text_hash(text, R)
@@ -640,13 +784,17 @@ def make_swap(D, n, c, parts, f, rv, cut, items, R, base, base_cm):
           "base_hash": D.e["canonical_project_list"]["hash"], "result_hash": rh, "adds": [n], "cuts": [cut],
           "role_package": f"{rv['role']['kind']}:{rv['role']['value']}",
           "hypothesis": f"Replacing {cut} with {n} in role {rv['role']['value']} improves the deck's fit or efficiency "
-                        f"without breaking a dependency (cut is {D.slots[cut]['disposition'].replace('_', ' ')}; add blueprint fit {rv['blueprint']['fit']}).",
+                        + ("without breaking a dependency" if not bd else f"while every graph break of the cut is compensated ({bd['level'].replace('_', ' ')} burden cleared)")
+                        + f" (cut is {D.slots[cut]['disposition'].replace('_', ' ')}; add blueprint fit {rv['blueprint']['fit']})."
+                        + (" " + bd["note"] if bd and bd.get("note") else ""),
           "expected_benefit": "; ".join(filter(None, [
               f"Oracle hook {f['oracle_hook']}" if f.get("oracle_hook") else "",
               f"completes Spellbook {', '.join(f['spellbook'][:2])}" if f.get("spellbook") else "",
               f"EDHREC inclusion {f['edhrec']['inclusion']:.1%} vs cut {(incl(D, cut) or 0):.1%}" if f.get("edhrec") else "",
               f"roles {', '.join(f['roles'])}" if f["roles"] else ""])) or "unclear (screening only)",
-          "expected_cost": f"loses {cut}: " + (D.slots[cut]["reason"][:220]),
+          "expected_cost": (f"breaks {', '.join(bd['breaks'][:4])}" + ("…" if len(bd["breaks"]) > 4 else "") + "; compensated by "
+                            + ", ".join(bd["compensating_adds"]) + ". " if bd and bd["breaks"] else "") + f"loses {cut}: " + (D.slots[cut]["reason"][:160]),
+          "burden": dict(bd, rules="BURDEN_RULES (this file's swap_rules)") if bd else {"level": "standard", "cleared": True},
           "rules_interactions": [], "legality": {"official": "legal", "project_authorization": "NOT_REQUIRED"},
           "impacts": {"identity": ident, "power": "?", "speed": speed, "consistency": "?", "resilience": "?", "interaction": inter,
                       "distinctiveness": "?", "commander_dependence": "?", "homogenization": "?", "complexity": "?"},
@@ -676,21 +824,27 @@ def build_deck(did, v, R, reg, pool, first, almost):
                "full_review": n in full,
                "escalation": {"escalated": bool(rs), "reasons": rs, "evidence_refs": esc_refs(D, n, rs, f) if rs else [],
                               "by": "script:grixis_candidates.py" if rs else None,
-                              "note": ("; ".join(ESCALATION_RULES[r] for r in rs)) if rs else None},
+                              "note": "triage.escalation_rules" if rs else None},
                "evidence": sorted({f"oracle:{n}"} | ({f"evidence:data/grixis/evidence/{D.slug}.json#{n}"} if f.get("edhrec") else set()) |
                                   {f"spellbook:{x}" for x in f.get("spellbook", [])[:4]}),
                "workload": {"default_full_review_range": DEFAULT_RANGE, "is_gate": False},
                "sources": sorted(cand[n]), "screening": {"score": sc, "parts": parts, "facts": f}}
         if n in full:
-            rv, cut, items = full_review(D, n, c, sc, parts, f, R)
+            rv, cut, items, alt = full_review(D, n, c, sc, parts, f, R)
             rec["review"] = rv
             if cut:
-                sw, test, gold = make_swap(D, n, c, parts, f, rv, cut[0], items, R, base, base_cm)
+                sw, test, gold = make_swap(D, n, c, parts, f, rv, cut[0], items, R, base, base_cm, cut[2])
                 rec["review"]["swap"] = sw["id"]
                 same = {ch.get("hash"): ch.get("id") for ch in D.e.get("challengers") or []}.get(sw["result_hash"])
                 if same:  # an independent rediscovery of a registered challenger: noted, never merged into it
                     rec["review"]["matches_registered_challenger"] = same
                 rec["review"]["goldfish"] = gold
+                swaps.append(sw)
+                if test:
+                    tests.append(test)
+            if alt:
+                sw, test, gold = make_swap(D, n, c, parts, f, rv, alt[0], items, R, base, base_cm, alt[2])
+                rec["review"]["elevated_alternative"].update({"swap": sw["id"], "goldfish": gold})
                 swaps.append(sw)
                 if test:
                     tests.append(test)
@@ -711,15 +865,42 @@ def build_deck(did, v, R, reg, pool, first, almost):
            "triage": {"default_full_reviews": k, "default_rule": f"top clamp(#tier A, {DEFAULT_RANGE[0]}, {DEFAULT_RANGE[1]}) by screening score",
                       "tier_A": sum(1 for n in keep if tier(scored[n][0]) == "A"), "escalated": len(esc),
                       "escalation_reasons": dict(sorted(Counter(r for rs in esc.values() for r in rs).items())),
-                      "escalation_rules": ESCALATION_RULES, "escalation_overflow": {r: ns[:40] + ([f"+{len(ns) - 40} more"] if len(ns) > 40 else []) for r, ns in sorted(over.items())},
-                      "full_reviews": len(full), "workload_is_gate": False},
-           "counts": {"universe": len(recs), "full_reviews": len(full), "swaps": len(swaps), "paired_tests": len(tests),
+                      "escalation_rules": ESCALATION_RULES, "escalation_cap": None,
+                      "screening_reviews": len(full), "workload_is_gate": False,
+                      "review_kind": REVIEW_KIND, "review_note": REVIEW_NOTE},
+           "swap_rules": BURDEN_RULES,
+           "project_requirements": proj_block(D, recs),
+           "counts": {"universe": len(recs), "screening_reviews": len(full), "judgment_reviews": 0, "swaps": len(swaps), "paired_tests": len(tests),
                       "not_modelable": len(swaps) - len(tests), "verdicts": dict(sorted(vd.items())),
+                      "swap_levels": dict(sorted(Counter(sw["burden"]["level"] for sw in swaps).items())),
+                      "dominated": sum(1 for r in recs if (r.get("review") or {}).get("dominated_by")),
+                      "no_cut": sum(1 for r in recs if r.get("review") and not r["review"]["cut"] and not r["review"].get("dominated_by")),
                       "tiers": dict(sorted(Counter(r["tier"] for r in recs).items()))},
            "tournament": tournament_block(D),
            "test_common": test_common(),
            "candidates": recs, "swaps": swaps, "tests": tests}
     return doc
+
+
+REVIEW_NOTE = ("Every `review` here is a screening_review: scripted, heuristic/derived evidence, can_decide false. It "
+               "triages; it never satisfies an M6 decision requirement, which needs a judgment_review "
+               "(grixis_authority.decision_review_problems). This script never writes a judgment_review.")
+
+
+def proj_block(D, recs):
+    """Registered project requirements (e.g. Bjorna's exceptions): authorized, still evaluated, labeled, never silently immune."""
+    out = []
+    for x, ex in sorted(D.exc.items()):
+        ev = sum(1 for r in recs if x in ((r.get("review") or {}).get("protected_considered") or {}).get("project_exception_cards", []))
+        cl = sum(1 for r in recs if x in ((r.get("review") or {}).get("protected_considered") or {}).get("cleared", []))
+        zone = (D.slots.get(x) or {}).get("zone") or ex.get("zone")
+        out.append({"card": x, "exception": ex["id"], "authorization": ex["project_authorization_status"], "zone": zone,
+                    "evaluated_in_reviews": ev, "burden_cleared_in": cl,
+                    "note": ("Authorized exception, evaluable and not immune: in-role challengers are checked against it at the "
+                             "project_exception burden; a cut stays a labeled hypothesis that only Cory can act on."
+                             + (" Companion (outside the 100): no main-deck role to compete in; an alternative companion or none "
+                                "is a project-level question, recorded here rather than as a swap." if zone == "companion" else ""))})
+    return out
 
 
 def test_common():
@@ -753,6 +934,28 @@ def dump(doc):
     return s + "\n}\n"
 
 
+# Bot cycle 61 (footprint): one gzip per deck, written deterministically (mtime 0, level 9). Reproducibility is checked on
+# the decompressed JSON text, so a different zlib build cannot break --check.
+def path_of(slug):
+    return OUT / f"{slug}.json.gz"
+
+
+def write_doc(slug, doc):
+    path_of(slug).write_bytes(gzip.compress(dump(doc).encode("utf-8"), compresslevel=9, mtime=0))
+
+
+def read_text(path):
+    return gzip.decompress(Path(path).read_bytes()).decode("utf-8")
+
+
+def load(slug):
+    return json.loads(read_text(path_of(slug)))
+
+
+def deck_files():
+    return {f.name[:-len(".json.gz")]: f for f in OUT.glob("*.json.gz")}
+
+
 def _ctx():
     import evaluate_decklist as ev
     R = ev.Resolver()
@@ -769,16 +972,17 @@ def _one(slug):
     R, reg, pool, first, almost = _CTX or _ctx()
     did, v = next((d, v) for d, v in ga.summary().items() if v["slug"] == slug)
     doc = build_deck(did, v, R, reg, pool, first, almost)
-    (OUT / f"{slug}.json").write_text(dump(doc), encoding="utf-8")
+    write_doc(slug, doc)
     c = doc["counts"]
-    return f"{slug}: universe {c['universe']}, full reviews {c['full_reviews']} (escalated {doc['triage']['escalated']}), swaps {c['swaps']}, tests {c['paired_tests']} {c['verdicts']}"
+    return f"{slug}: universe {c['universe']}, screening reviews {c['screening_reviews']} (escalated {doc['triage']['escalated']}), swaps {c['swaps']}, tests {c['paired_tests']} {c['verdicts']}"
 
 
 def build(only=None, jobs=6):
     global _CTX
     OUT.mkdir(parents=True, exist_ok=True)
     _CTX = _ctx()  # loaded once before forking; workers share it copy-on-write
-    slugs = sorted(v["slug"] for v in ga.summary().values() if not only or v["slug"] == only)
+    want = set(only.split(",")) if only else None
+    slugs = sorted(v["slug"] for v in ga.summary().values() if not want or v["slug"] in want)
     if jobs > 1 and len(slugs) > 1:
         import multiprocessing as mp
         with mp.get_context("fork").Pool(jobs) as p:
@@ -797,7 +1001,10 @@ def check(verbose=True, rebuild=True):
     summ = ga.summary()
     reg = ga.load_json(ga.REGISTRY)
     want = {v["slug"]: (did, v) for did, v in summ.items()}
-    files = {f.stem: f for f in OUT.glob("*.json") if f.stem != "spellbook_almost"}
+    files = deck_files()
+    for f in OUT.glob("*.json"):
+        if f.stem != "spellbook_almost":
+            p.append(f"{f.name}: uncompressed deck file (Bot cycle 61 stores <slug>.json.gz)")
     for s in sorted(set(want) - set(files)):
         p.append(f"{s}: no candidate file (run --build)")
     tot = Counter()
@@ -807,7 +1014,8 @@ def check(verbose=True, rebuild=True):
             p.append(f"{s}: candidate file for an unknown deck")
             continue
         did, v = want[s]
-        doc = json.loads(f.read_text(encoding="utf-8"))
+        text = read_text(f)
+        doc = json.loads(text)
         for e in ga.validate_file({k: v2 for k, v2 in doc.items() if k not in ("candidates", "swaps", "tests")} | {"candidates": [], "swaps": [], "tests": []},
                                   "candidate_universe.schema.json"):
             p.append(f"{s}: {e}")
@@ -832,8 +1040,26 @@ def check(verbose=True, rebuild=True):
             nf += c["full_review"]
             if c["full_review"] and "review" not in c:
                 p.append(f"{s}: {c['card']}: full_review without a review")
+            r = c.get("review")
+            if r and (r["kind"] != REVIEW_KIND or r["method"] != "scripted" or r["decision_support"]["can_decide"] is not False):
+                p.append(f"{s}: {c['card']}: a scripted review must be a screening_review that cannot decide")
+            if "judgment_review" in c:
+                p += [f"{s}: {x}" for x in ga.decision_review_problems(c)]
+                if str(c["judgment_review"].get("by", "")).startswith("script"):
+                    p.append(f"{s}: {c['card']}: a script wrote a judgment_review")
+            elif not ga.decision_review_problems(c):
+                p.append(f"{s}: {c['card']}: decision-capable without a judgment_review")
         if nf < DEFAULT_RANGE[0]:
-            p.append(f"{s}: only {nf} full reviews (default range starts at {DEFAULT_RANGE[0]})")
+            p.append(f"{s}: only {nf} screening reviews (default range starts at {DEFAULT_RANGE[0]})")
+        if doc["counts"]["judgment_reviews"] != sum(1 for c in doc["candidates"] if "judgment_review" in c):
+            p.append(f"{s}: counts.judgment_reviews is wrong")
+        byc = {c["card"]: c for c in doc["candidates"]}
+        for c in doc["candidates"]:
+            r = c.get("review") or {}
+            if r.get("swap"):
+                sw = next((x for x in doc["swaps"] if x["id"] == r["swap"]), None)
+                if not sw or sw["burden"]["level"] != r["cut_level"]:
+                    p.append(f"{s}: {c['card']}: cut_level does not match its swap's burden")
         tids = {t["id"] for t in doc["tests"]}
         for sw in doc["swaps"]:
             for x in ga.validate_file(sw, "swap.schema.json"):
@@ -842,6 +1068,12 @@ def check(verbose=True, rebuild=True):
                 p.append(f"{s}: {sw['id']}: M5 swaps must stay exploratory CHALLENGER hypotheses with no decision")
             if sw["base_hash"] != e["canonical_project_list"]["hash"]:
                 p.append(f"{s}: {sw['id']}: base_hash is not the canonical hash")
+            b = sw["burden"]
+            if b["level"] != "standard" and (not b["cleared"] or b.get("uncompensated")):
+                p.append(f"{s}: {sw['id']}: a {b['level']} cut needs a cleared burden with every break compensated")
+            if b["level"] == "project_exception" and not b.get("note"):
+                p.append(f"{s}: {sw['id']}: a project-exception cut must carry the labeled note")
+            p += [f"{s}: {x}" for x in ga.swap_decision_problems(sw, byc)]
             for t in sw["tests"]:
                 if t not in tids:
                     p.append(f"{s}: {sw['id']}: test {t} missing")
@@ -864,10 +1096,10 @@ def check(verbose=True, rebuild=True):
         if rebuild and (ROOT / ".cache").exists() and s in CHECK_REBUILD:
             ctx = ctx or _ctx()
             R, reg2, pool, first, almost = ctx
-            if dump(build_deck(did, v, R, reg2, pool, first, almost)) != f.read_text(encoding="utf-8"):
+            if dump(build_deck(did, v, R, reg2, pool, first, almost)) != text:
                 p.append(f"{s}: rebuild does not reproduce the stored candidate file")
     if verbose:
-        print(f"candidates: {len(files)} deck(s); universe {tot['universe']}, full reviews {tot['full']} (escalated {tot['escalated']}), "
+        print(f"candidates: {len(files)} deck(s); universe {tot['universe']}, screening reviews {tot['full']} (escalated {tot['escalated']}), "
               f"swaps {tot['swaps']}, paired tests {tot['tests']}; {len(p)} problem(s)")
         for x in p[:30]:
             print("  -", x)
@@ -876,10 +1108,8 @@ def check(verbose=True, rebuild=True):
 
 def summary():
     tot, vd, rs, cl = Counter(), Counter(), Counter(), Counter()
-    for f in sorted(OUT.glob("*.json")):
-        if f.stem == "spellbook_almost":
-            continue
-        d = json.loads(f.read_text(encoding="utf-8"))
+    for slug, f in sorted(deck_files().items()):
+        d = json.loads(read_text(f))
         tot["decks"] += 1
         for k, v in d["counts"].items():
             if isinstance(v, int):
