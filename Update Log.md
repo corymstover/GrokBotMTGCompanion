@@ -5,7 +5,7 @@ tags: [changelog]
 issues: []
 generated_by: hand-written
 sources: []
-related: ["Contradictions & Retcons Log.md", "Planeswalker Dossiers.md", "Items & Artifacts Index.md", "Lore Primary Sources.md", "Planes Index.md", "grixis/Grixis Authority Model.md"]
+related: ["Contradictions & Retcons Log.md", "Planeswalker Dossiers.md", "grixis/Grixis Authority Model.md", "Items & Artifacts Index.md", "Lore Primary Sources.md", "Planes Index.md"]
 schema: 2
 ---
 
