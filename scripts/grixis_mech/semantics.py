@@ -6,12 +6,23 @@ REMINDER = re.compile(r"\([^)]*\)")
 QUOTED = re.compile(r"\u201c[^\u201d]*\u201d|\"[^\"]*\"")
 
 
+def _replace_name(t, name):
+    """Replace a printed card-name phrase only when it is not embedded inside a larger word."""
+    if not name:
+        return t
+    return re.sub(rf"(?<![\w]){re.escape(name)}(?![\w])", "~", t)
+
+
 def clean(name, text):
-    """~ for the card's own name; reminder text and quoted abilities granted to other objects removed."""
-    t = text.replace(name, "~")
+    """~ for the card's own name; reminder text and quoted abilities granted to other objects removed.
+
+    Name replacement is phrase-bounded. A raw str.replace() can corrupt unrelated Oracle words when a short synthetic
+    or real card name is a substring (for example name='C' would turn 'Counter' into '~ounter').
+    """
+    t = _replace_name(text, name)
     for short in {name.split(",")[0], name.split(" // ")[0]}:
         if len(short) > 3:
-            t = t.replace(short, "~")
+            t = _replace_name(t, short)
     t = QUOTED.sub('"granted ability"', t)
     t = REMINDER.sub("", t)
     return re.sub(r"\bthis (?:creature|artifact|enchantment|permanent|land|card|spell|token|vehicle|equipment)\b", "~", t, flags=re.I)

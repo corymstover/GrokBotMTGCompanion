@@ -1,5 +1,5 @@
 {
- "framework_version": "1.2-mech.5",
+ "framework_version": "1.2-mech.6",
  "modules": [
   {
    "assumptions": [
@@ -135,6 +135,48 @@
    },
    "test_file": "tests/test_mech.py",
    "version": "2"
+  },
+  {
+   "assumptions": [
+    "end-of-own-turn unspent mana is a proxy for mana held through the following opponent turn cycle",
+    "normal spell cost uses mana value rather than exact colored pips, so readiness is an upper bound when colors are constrained",
+    "readiness is opportunity count, not number of counters actually cast"
+   ],
+   "confidence": "low",
+   "determinism": "seeded paired v1.1 games; readiness is a deterministic function of the zone/mana trace",
+   "does_not_model": [
+    "whether an opponent actually casts a legal/important target",
+    "soft counters ('unless ... pays')",
+    "conditional target qualifiers",
+    "Force-of-Will-style pitch/resource alternate costs",
+    "colored-mana hold-up",
+    "activation costs for permanent counter abilities",
+    "multiplayer win rates (never produced)"
+   ],
+   "evidence_class": "test_result",
+   "family": "counterspell readiness",
+   "id": "counterspell_density",
+   "limitations": [
+    "Does not evaluate counterspell quality, target breadth or opponent pressure; scope is reported but not weighted."
+   ],
+   "metrics": [
+    "counter_ready_turns_by_turn"
+   ],
+   "models": [
+    "turns by 4/6/8/10 on which a supported counterspell is in hand and normal-cost mana remains unspent",
+    "Fierce-Guardianship-style explicit 'control a commander -> cast without paying' readiness",
+    "supported activated counter abilities: battlefield-available turns (cost not reconstructed)"
+   ],
+   "parameters": {
+    "turns": [
+     4,
+     6,
+     8,
+     10
+    ]
+   },
+   "test_file": "tests/test_mech_stack_semantics.py",
+   "version": "1"
   },
   {
    "assumptions": [
@@ -499,6 +541,46 @@
   },
   {
    "assumptions": [
+    "normal spell cost uses mana value rather than exact colored pips",
+    "active-turn/readiness counts are opportunities, not uses or prevented interactions"
+   ],
+   "confidence": "low",
+   "determinism": "seeded paired v1.1 games; readiness is a deterministic function of the zone/mana trace",
+   "does_not_model": [
+    "whether protection has a valuable legal target",
+    "colored mana",
+    "ward cost/effect magnitude",
+    "conditional protection",
+    "redirects/copies, bounce-as-protection, prevention, regeneration, protection-from-color, Teferi-style timing locks",
+    "multiplayer win rates (never produced)"
+   ],
+   "evidence_class": "test_result",
+   "family": "protection availability",
+   "id": "stack_protection",
+   "limitations": [
+    "Protection modes differ materially; this module reports availability only and does not claim a universal value conversion."
+   ],
+   "metrics": [
+    "protection_ready_or_active_turns_by_turn"
+   ],
+   "models": [
+    "supported reactive protection spells: turns in hand with normal-cost mana left unspent",
+    "supported activated/static team/self protection permanents: battlefield-active turns",
+    "direct hexproof/indestructible/phase-out protection and explicit 'spells you control can't be countered'"
+   ],
+   "parameters": {
+    "turns": [
+     4,
+     6,
+     8,
+     10
+    ]
+   },
+   "test_file": "tests/test_mech_stack_semantics.py",
+   "version": "1"
+  },
+  {
+   "assumptions": [
     "activated token makers are used once per later turn; attack makers once per later turn (attack proxy)",
     "'each upkeep/end step' makers fire on every player's turn (x4); 'for each opponent' = x3",
     "only creature tokens; ETB/attack/upkeep/cast/activated/spell rules are parsed per sentence",
@@ -540,7 +622,6 @@
  "planned_families": [
   "alternate_costs",
   "commander_specific",
-  "counterspell_density",
   "death_other",
   "discard",
   "graveyard_tutoring",
@@ -549,7 +630,6 @@
   "opponent_dependent_draw",
   "repeatable_tutors",
   "sacrifice_other",
-  "stack_protection",
   "stax_tax",
   "tokens_other",
   "x_spells"
