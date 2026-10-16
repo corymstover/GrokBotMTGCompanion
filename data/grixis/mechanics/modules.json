@@ -1,5 +1,5 @@
 {
- "framework_version": "1.2-mech.3",
+ "framework_version": "1.2-mech.4",
  "modules": [
   {
    "assumptions": [
@@ -41,38 +41,44 @@
   },
   {
    "assumptions": [
-    "the creature attacks every turn it is untapped and not summoning-sick",
-    "blocker perturbation: each attack's trigger is lost with probability `block` (deterministic expectation)",
-    "removal perturbation: the creature survives each opponent turn cycle with probability `survive`, compounded from the turn it lands (deterministic expectation)"
+    "an otherwise eligible attacker is declared with probability `attack_rate` (deterministic expectation)",
+    "a creature that has remained on the battlefield survives each opponent turn cycle with probability `survive`; the proxy resets on re-entry",
+    "haste permits attacking on the turn the creature first appears in the end-of-turn zone trace; otherwise it must have been present on the prior turn",
+    "for controller attack-event triggers, different other attackers' declaration/survival events are treated as independent; the watcher's own attack is handled without double-counting its survival"
    ],
    "confidence": "low",
    "determinism": "seeded paired v1.1 games (grixis_sim.seed_for); perturbations are closed-form expectations (no rng)",
    "does_not_model": [
     "trigger payloads (damage, tokens, cards): counted as triggers only",
-    "actual opponents, blockers, combat math or politics",
-    "attack restrictions, tapping for other costs, vigilance trade-offs",
+    "extra combats, vigilance/tap trade-offs, goad, attack taxes, attack restrictions or politics",
+    "which player/battle/planeswalker is attacked",
+    "creature-type attack filters, attack-alone/attack-with conditions, intervening-if clauses, attack-or-block abilities",
+    "actual blockers or combat damage (blockers occur after attack triggers have triggered)",
     "multiplayer win rates (never produced)"
    ],
    "evidence_class": "test_result",
    "family": "attack/combat triggers",
    "id": "attack_trigger_proxy",
    "limitations": [
-    "Proxy only: ranks how often a trigger can happen, not what it is worth.",
-    "Opponent behaviour is a fixed perturbation grid, reported as a sensitivity range."
+    "Proxy only: it ranks how often supported attack triggers can happen, not what the trigger is worth.",
+    "The end-of-turn trace cannot see mid-turn blink/control changes or whether a creature is tapped before combat.",
+    "Opponent behaviour is represented only by declared sensitivity parameters, not simulated players."
    ],
    "metrics": [
     "attack_triggers_by_turn",
     "attack_triggers_by_turn_sensitivity"
    ],
    "models": [
-    "turn a creature with a 'whenever ~ attacks' / 'whenever you attack' trigger is on your battlefield (zone trace)",
-    "summoning sickness (haste attacks the turn it lands)",
-    "expected attack-trigger count by turns 6/8/10 under a bounded blocker/removal perturbation grid"
+    "self attack triggers: expected triggers when the card itself can attack",
+    "controller attack-event triggers ('whenever you attack' / 'one or more creatures you control attack'): at most one trigger per combat",
+    "per-attacker triggers ('a creature you control attacks' / 'another creature you control attacks'): one trigger per qualifying attacker",
+    "summoning sickness and haste from the v1.1 zone trace",
+    "bounded attack-declaration and creature-survival sensitivity by turns 6/8/10"
    ],
    "parameters": {
-    "block": [
-     0.0,
-     0.25,
+    "attack_rate": [
+     1.0,
+     0.75,
      0.5
     ],
     "survive": [
@@ -87,7 +93,7 @@
     ]
    },
    "test_file": "tests/test_mech.py",
-   "version": "1"
+   "version": "2"
   },
   {
    "assumptions": [

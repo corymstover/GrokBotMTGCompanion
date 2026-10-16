@@ -1,0 +1,33 @@
+name: Focused Grixis mechanics validation
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  focused-validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      SCRYFALL_OFFLINE: "1"
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install focused test dependencies
+        run: python -m pip install --disable-pip-version-check pytest jsonschema
+
+      - name: Run attack-semantics regression tests
+        run: python -m pytest -q tests/test_mech_attack_semantics.py
+
+      - name: Check mechanic registry schema/coherence
+        run: python scripts/grixis_mechanics.py --check
