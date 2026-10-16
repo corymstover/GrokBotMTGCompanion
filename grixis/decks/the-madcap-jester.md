@@ -12,14 +12,14 @@ validated: false
 tags: [grixis, grixis, bracket-floor-4, game-changers, combos, pending-legality]
 source_repo: corymstover/grixis-commander-encyclopediaGPT
 legality_status: pending
-legal_from: 2026-10-19
+legal_from: 2026-11-13
 pending_cards: ["The Madcap Jester", "Dragon's Smile"]
 schema: 2
 ---
 
 # Grixis Deck — The Madcap Jester
 
-> ⏳ **PENDING LEGALITY — not Commander-legal yet.** Legal from **2026-10-19** (Scryfall set `mbc` release). Not-yet-legal cards: **The Madcap Jester**, **Dragon's Smile**. This page is published so all 62 source decks are in the companion, but it is **excluded from every legal-deck count** (Grixis index, packages, summaries). `validate_all` accepts these cards only while `legality_status: pending` and the date is still ahead. Activation: `python3 scripts/activate_pending_grixis.py` (refreshes the Scryfall bulk, re-checks the cards, flips the deck to active once they are legal).
+> ⏳ **PENDING LEGALITY — not Commander-legal yet.** Legal from **2026-11-13** ([Wizards](https://magic.wizards.com/en/news/feature/whats-inside-mystery-booster-commander-edition): "New-to-Magic MBC cards will be legal in Commander on November 13, 2026."; Scryfall set `mbc`). Not-yet-legal cards: **The Madcap Jester**, **Dragon's Smile**. This page is published so all 62 source decks are in the companion, but it is **excluded from every legal-deck count** (Grixis index, packages, summaries). `validate_all` accepts these cards only while `legality_status: pending` and the date is still ahead. Activation: `python3 scripts/activate_pending_grixis.py` (refreshes the Scryfall bulk, re-checks the cards, flips the deck to active once they are legal).
 
 > **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/The_Madcap_Jester_Approved_2026-10-15.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/The_Madcap_Jester_Approved_2026-10-15.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-15; source commit `1836b97`). Imported in Bot cycle 38 as a pending-legality page against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
@@ -45,7 +45,7 @@ schema: 2
 ## Validation
 
 - Total cards: **100** (1 commander(s) + 65 nonland + 33 nonbasic lands + 1 basics) · average nonland MV 2.40
-- Strict color identity (CR 903.5c), singleton (903.5b), size (903.5a): pass. **Commander legality: ⏳ pending.** The Madcap Jester, Dragon's Smile are `not_legal` on Scryfall until the `mbc` release (2026-10-19); every other card is Commander-legal.
+- Strict color identity (CR 903.5c), singleton (903.5b), size (903.5a): pass. **Commander legality: ⏳ pending.** The Madcap Jester, Dragon's Smile are `not_legal` on Scryfall until their official Commander-legal date (2026-11-13, per Wizards); every other card is Commander-legal.
 - Every card resolves to an entry in our card DB (100/100 lines linked).
 
 ## Bracket assessment
@@ -100,7 +100,7 @@ schema: 2
 
 | Type | Change | Reason |
 |---|---|---|
-| pending legality | published as **PENDING LEGALITY** (legal from 2026-10-19) | The commander and Dragon's Smile come from Scryfall set `mbc` (draft_innovation), releasing 2026-10-19. Both are `not_legal` in Commander until then (Scryfall API and bulk, checked 2026-10-16). The source's 2026-10-15 approval keeps them under its registered *future-release* exceptions. Not yet Commander-legal: The Madcap Jester, Dragon's Smile. Activation: `python3 scripts/activate_pending_grixis.py`. |
+| pending legality | published as **PENDING LEGALITY** (legal from 2026-11-13) | The commander and Dragon's Smile come from Scryfall set `mbc` (draft_innovation). Both are `not_legal` in Commander (Scryfall API and bulk, checked 2026-10-16) until Wizards' Commander-legal date, 2026-11-13. The source's 2026-10-15 approval keeps them under its registered *future-release* exceptions. Bot cycle 44: `legal_from` set to Wizards' official Commander date, 2026-11-13 (earlier it used Scryfall's set release date): "New-to-Magic MBC cards will be legal in Commander on November 13, 2026." Not yet Commander-legal: The Madcap Jester, Dragon's Smile. Activation: `python3 scripts/activate_pending_grixis.py`. |
 | format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (1 line(s)); role tags restored on 98 untagged line(s): 94 from this deck's FINAL baseline, 4 from the tag the source uses most for that card in other decks; 1 untagged line(s) given a type tag (e.g. `[Land]`). |
 | bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **17 Game Changers**, so the minimum bracket is **4**. Commander Spellbook finds 4 complete combos (0 two-card infinite). This is consistent with the source's stated Bracket 5. |
 
@@ -219,7 +219,7 @@ Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
 - **Commander hooks (from Oracle text):** combat damage / attack triggers, exiling and playing opponents' library cards.
 - **Commander dependence:** 52% → **52%** · generic share 35% → **35%** · mean overlap with the other 61 lists 18% → **18%**.
 - **Decision:** at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged.
-- ⏳ **Pending legality:** The Madcap Jester, Dragon's Smile are not Commander-legal before 2026-10-19; the export is marked pending.
+- ⏳ **Pending legality:** The Madcap Jester, Dragon's Smile are not Commander-legal before 2026-11-13; the export is marked pending.
 
 > 🔎 **Hand review (Bot cycle 44): identity confirmed; at ceiling; unchanged.** New deck, so it got a hand look even at 52% commander dependence. The score was 51% before the cycle 44 hook for exiling and playing cards from opponents' libraries. The Madcap Jester reads "Whenever a spell or ability you control causes one or more cards to be exiled from an opponent's library, you may play those cards until the end of your next turn. Mana of any type can be spent to cast spells this way." The list is built on that line. Library-exile effects: Praetor's Grasp, Extract, Bitter Ordeal and Jester's Cap (these become tutors from an opponent's library), Ashiok, Nightmare Weaver, Circu, Dimir Lobotomist, Jester's Scepter, Laughing Jasper Flint, Psychic Surgery, Ragavan, Sire of Stagnation, Plargg and Nassari and Ensnared by the Mara. Payoffs for casting from exile: Dragon's Smile ("pay {0} rather than pay the mana cost for a spell you cast from exile"), Bilbo, Gonti, Night Minister, Don Andres, Thieving Varmint, Nalfeshnee, Wild-Magic Sorcerer, Party Thrasher and Passionate Archaeologist. The rest is a cEDH Thassa's Oracle / Underworld Breach core with fast mana and free counterspells; the source states a Bracket 5 ceiling. Every generic card is a Game Changer, a combo piece or a mana source of MV ≤ 2, so none can be cut. The best on-theme adds (Cunning Rhetoric, Thief of Sanity, Fathom Feeder, You Find Some Prisoners) only fit by replacing a free counterspell (Pact of Negation, Force of Negation, rank 370 / 272). They fail interaction parity and the rank guard, so the list is left as is. Pending exception: The Madcap Jester and Dragon's Smile are not Commander-legal yet; every other card passes the normal gates.
 
@@ -236,7 +236,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 | Card | Role (source tag) | Type | MV | Identity | GC | Printing |
 |---|---|---|---|---|---|---|
-| [The Madcap Jester](../../cards/T/them.md#the-madcap-jester) | Commander · ⏳ not legal until 2026-10-19 | Legendary Creature — Clown Wizard | 4 | UBR |  | — |
+| [The Madcap Jester](../../cards/T/them.md#the-madcap-jester) | Commander · ⏳ not legal until 2026-11-13 | Legendary Creature — Clown Wizard | 4 | UBR |  | — |
 | [Passionate Archaeologist](../../cards/P/pa.md#passionate-archaeologist) | Burn | Legendary Enchantment — Background | 2 | R |  | — |
 | [Nalfeshnee](../../cards/N/na.md#nalfeshnee) | Copy | Creature — Beast Demon | 6 | R |  | — |
 | [Force of Negation](../../cards/F/fo.md#force-of-negation) | Counters | Instant | 3 | U |  | — |
@@ -298,7 +298,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 | [Cabal Ritual](../../cards/C/cab.md#cabal-ritual) | Ramp | Instant | 2 | B |  | — |
 | [Chrome Mox](../../cards/C/chr.md#chrome-mox) | Ramp | Artifact | 0 | C | ✅ | — |
 | [Dark Ritual](../../cards/D/da.md#dark-ritual) | Ramp | Instant | 1 | B |  | — |
-| [Dragon's Smile](../../cards/D/dra.md#dragons-smile) | Ramp · ⏳ not legal until 2026-10-19 | Legendary Artifact — Vehicle | 7 | R |  | — |
+| [Dragon's Smile](../../cards/D/dra.md#dragons-smile) | Ramp · ⏳ not legal until 2026-11-13 | Legendary Artifact — Vehicle | 7 | R |  | — |
 | [Jeska's Will](../../cards/J/je.md#jeskas-will) | Ramp | Sorcery | 3 | R | ✅ | — |
 | [Lion's Eye Diamond](../../cards/L/li.md#lions-eye-diamond) | Ramp | Artifact | 0 | C | ✅ | — |
 | [Lotus Petal](../../cards/L/lo.md#lotus-petal) | Ramp | Artifact | 0 | C |  | — |

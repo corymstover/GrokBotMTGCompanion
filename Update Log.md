@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 44 follow-up (pending legality date → 2026-11-13)](#2026-10-16--bot-cycle-44-follow-up-pending-legality-date--2026-11-13)
 - [2026-10-16 — Bot cycle 44 (Grixis refinement batch 6: the 2 pending decks)](#2026-10-16--bot-cycle-44-grixis-refinement-batch-6-the-2-pending-decks)
 - [2026-10-16 — Bot cycle 43 (Grixis refinement batch 5, end-of-cycle summary, v2.5-grixis-refinement)](#2026-10-16--bot-cycle-43-grixis-refinement-batch-5-end-of-cycle-summary-v25-grixis-refinement)
 - [2026-10-16 — Bot cycle 42 (Grixis refinement batch 4)](#2026-10-16--bot-cycle-42-grixis-refinement-batch-4)
@@ -59,6 +60,12 @@ schema: 2
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
 
+## 2026-10-16 — Bot cycle 44 follow-up (pending legality date → 2026-11-13)
+- **`legal_from` → 2026-11-13** for The Madcap Jester and Tresserhorn's Lord, Returned (`data/grixis_pending.json`), approved by Cory. The new `legal_from_source` field cites [Wizards](https://magic.wizards.com/en/news/feature/whats-inside-mystery-booster-commander-edition): "New-to-Magic MBC cards will be legal in Commander on November 13, 2026." (What's Inside Mystery Booster Commander Edition?, Aug 3, 2026; legality dates updated per the editor's note).
+- **Rebuilt:** deck pages and banners (which now cite Wizards), front matter (`legal_from: 2026-11-13`; schema doc updated), Grixis Corrections / Evaluation / README, export status and notes, the Refinement Cycle summary and flags. The README, Progress Tracker, ROADMAP, Integration Summary and earlier Update Log entries now say 2026-11-13.
+- **Activation routine:** `grixis-pending-legality-activation` was moved to 2026-11-13. It only activates and re-verifies (`activate_pending_grixis.py`, then rebuild and `validate_all`); no refinement pass. If Scryfall has not updated yet, the script exits 2; re-run it later.
+- Pending markers are unchanged (both decks still ⏳ pending). `validate_all` PASS.
+
 ## 2026-10-16 — Bot cycle 44 (Grixis refinement batch 6: the 2 pending decks)
 - **Batch 6:** The Madcap Jester and Tresserhorn's Lord, Returned, both still ⏳ pending legality. Same method and gates as batches 1–5. The not-yet-legal cards (The Madcap Jester, Dragon's Smile, Tresserhorn's Lord, Returned) are treated as the known pending exception; every other card is judged normally.
   - **The Madcap Jester** (52%): at ceiling, unchanged.
@@ -72,7 +79,7 @@ schema: 2
   - Scryfall (live, 2026-10-16) still lists all three `mbc` cards as `not_legal`.
   - Wizards' "What's Inside Mystery Booster Commander Edition?" article (updated legality dates) says "New-to-Magic MBC cards will be legal in Commander on November 13, 2026."
   - The source's own Madcap Jester verification gives the same 2026-11-13 date.
-- ⚠️ **Registry date is not the legal date.** `data/grixis_pending.json` uses Scryfall's release date 2026-10-19 as `legal_from`. The pending markers were left intact as instructed, but from 2026-10-19 `validate_all` fails both decks ("pending legality expired"), and `activate_pending_grixis.py` will exit 2 until Scryfall flips them. Moving `legal_from` to 2026-11-13 is left for Cory to decide.
+- ⚠️ **Registry date is not the legal date.** `data/grixis_pending.json` used Scryfall's set release date as `legal_from`, not Wizards' Commander date of 2026-11-13. *Resolved in the follow-up below: `legal_from` is now 2026-11-13.*
 - **Activation check:** `activate_pending_grixis.py --check` passes (both decks not legal yet). A worktree simulation with the pending cards forced to legal ran the rebuild (`build_grixis.py`, then `grixis_refine.py`). It gave 62 legal pages, banners removed, both refinement blocks and hand reviews kept, exports no longer marked pending, and `--check` with 0 problems. The summary page no longer crashes if a deck drops out of the build.
 - **Grixis Refinement Cycle.md:** the summary now covers all 62 decks, with the 2 pending decks marked refined but pending. New flags cover the Tresserhorn legality claim and the MBC date. The export README notes the official date.
 - **Source:** pulled again, still at `1836b97`. Tagged `v2.5.1-grixis-refinement-pending` after merge. `validate_all` PASS.
@@ -97,7 +104,7 @@ schema: 2
   - 54 at/near ceiling.
   - 17 written verdicts on automatic candidates (4 accepted, 13 rejected).
   - 8 hand reviews.
-- **Grixis Refinement Cycle.md:** new end-of-cycle summary section. It covers the method, the changed decks with their identity impact, the decks at ceiling, flagged items (Evelyn/Azula tradeoff, Thraximundar audit path, Archidekt import not tested in Archidekt, Kefka's Monument to Endurance idea left open), homogenization and overlap findings, and the two pending decks with the 2026-10-20 follow-up. The batch log now counts written verdicts for each batch.
+- **Grixis Refinement Cycle.md:** new end-of-cycle summary section. It covers the method, the changed decks with their identity impact, the decks at ceiling, flagged items (Evelyn/Azula tradeoff, Thraximundar audit path, Archidekt import not tested in Archidekt, Kefka's Monument to Endurance idea left open), homogenization and overlap findings, and the two pending decks with their activation follow-up (now 2026-11-13). The batch log now counts written verdicts for each batch.
 - **Exports:**
   - The export README now carries per-deck key notes: dependence, hooks, hand-review verdict, flags, protected cards. It also has an import-notes section.
   - Final export pass in `validate_all`: every file has well-formed `N Name` lines, the commander line(s) first as `1 Name [Commander]`, exactly 100 cards, and no repeated lines.
@@ -172,9 +179,9 @@ Cory's mission: every Grixis deck must be the definitive, maximally optimized ve
 
 ## 2026-10-16 — Bot cycle 38 (Grixis: 62/62 pages, 2 pending legality)
 Cory wants all 62 Grixis decks in the companion. **62/62 deck pages: 60 legal + 2 ⏳ pending legality** ([#63](https://github.com/corymstover/GrokBotMTGCompanion/issues/63)).
-- **New pages:** [The Madcap Jester](grixis/decks/the-madcap-jester.md) and [Tresserhorn's Lord, Returned](grixis/decks/tresserhorns-lord-returned.md). Same format as the others, plus a ⏳ PENDING LEGALITY banner and front matter `legality_status: pending`, `legal_from: 2026-10-19`, `pending_cards`. Set `mbc` is still `not_legal` on 2026-10-16 (Scryfall API and bulk).
+- **New pages:** [The Madcap Jester](grixis/decks/the-madcap-jester.md) and [Tresserhorn's Lord, Returned](grixis/decks/tresserhorns-lord-returned.md). Same format as the others, plus a ⏳ PENDING LEGALITY banner and front matter `legality_status: pending`, `legal_from` (now 2026-11-13; corrected in Bot cycle 44), `pending_cards`. Set `mbc` is still `not_legal` on 2026-10-16 (Scryfall API and bulk).
 - **Counts:** the pending decks are excluded from the README Decks table, Packages (N = 60) and all legal counts. Corrections: 135 (+2 format, +2 bracket, +2 pending legality). Calibration: 110 decks, the 2 pending ones marked ⏳.
-- **Validation:** `validate_all` accepts the listed cards only while `legal_from` is in the future. After that it fails until activation. Tested with a simulated 2026-10-19 date: 5 problems, as intended.
+- **Validation:** `validate_all` accepts the listed cards only while `legal_from` is in the future. After that it fails until activation. Tested with a simulated date past `legal_from`: 5 problems, as intended.
 - **Activation:** new `scripts/activate_pending_grixis.py` with registry `data/grixis_pending.json`. `--check` runs a live Scryfall API check. The full run refreshes the bulk, flips decks to active and rebuilds. Phase 8 enrichment batch membership is now sticky, so a bulk refresh never drops enriched cards.
 
 ## 2026-10-16 — Bot cycle 37 (Grixis re-analysis)
@@ -186,7 +193,7 @@ Cory resumed the Grixis work. The read-only source [grixis-commander-encyclopedi
   - New: a 62-deck Archidekt export with `manifest.csv`, per-deck 99-slot whole-list audits and approval-ready verifications, artifact paths in the state file, and one-shot finalizers.
 - **Re-evaluation ([#59](https://github.com/corymstover/GrokBotMTGCompanion/issues/59), [#60](https://github.com/corymstover/GrokBotMTGCompanion/issues/60)):**
   - All 62 lists checked with `grixis_eval.py` against the card DB. The only hard issues are Bjorna + Cecily's 2 banned cards (already corrected) and the 3 `mbc` cards.
-  - `mbc` releases 2026-10-19. The Scryfall API and bulk still say `not_legal` on 2026-10-16.
+  - New `mbc` cards become Commander-legal on 2026-11-13 (Wizards; corrected in Bot cycle 44). The Scryfall API and bulk still say `not_legal` on 2026-10-16.
   - 17,683 source Oracle rows: 0 outdated.
   - The newer Scryfall bulk (2026-10-15 21:01) changes no Oracle text, legality, Game Changer flag or identity, so the KB stays on the 09:02 bulk (its EDHREC ranks drive the Phase 8 batches).
 - **Integrated:** 20 newly approved lists, **60 decks** in total. They include Norman Osborn // Green Goblin (deck id `Goben__…`), both Nicol Bolases, both Obekas, Parnesse, Rograkh + Silas Renn, Saruman, both Saurons, Sedris, both Sol'kanars, both Tetsuos, The Rani, The Valeyard, Thraximundar, Wick and Zevlor. The Madcap Jester and Tresserhorn's Lord, Returned wait for `mbc` legality.

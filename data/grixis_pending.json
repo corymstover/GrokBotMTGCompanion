@@ -1,19 +1,38 @@
 {
- "_doc": "Grixis decks published with legality_status: pending (Bot cycle 38). Each entry lists the cards that are not yet Commander-legal and the date Scryfall gives for their set release. scripts/activate_pending_grixis.py refreshes the Scryfall bulk, re-checks these cards and sets status to active once every listed card is Commander-legal; validate_all fails a pending deck once legal_from has passed or its cards are already legal.",
+ "_doc": "Grixis decks published with legality_status: pending (Bot cycle 38). Each entry lists the cards that are not yet Commander-legal and the official date the cards become Commander-legal (Bot cycle 44: Wizards' announcement, `legal_from_source`; earlier the Scryfall set release date). scripts/activate_pending_grixis.py refreshes the Scryfall bulk, re-checks these cards and sets status to active once every listed card is Commander-legal; validate_all fails a pending deck once legal_from has passed or its cards are already legal.",
  "decks": {
   "The_Madcap_Jester": {
    "status": "pending",
-   "legal_from": "2026-10-19",
+   "legal_from": "2026-11-13",
    "set": "mbc",
-   "cards": ["The Madcap Jester", "Dragon's Smile"],
-   "note": "The commander and Dragon's Smile come from Scryfall set `mbc` (draft_innovation), releasing 2026-10-19. Both are `not_legal` in Commander until then (Scryfall API and bulk, checked 2026-10-16). The source's 2026-10-15 approval keeps them under its registered *future-release* exceptions."
+   "cards": [
+    "The Madcap Jester",
+    "Dragon's Smile"
+   ],
+   "note": "The commander and Dragon's Smile come from Scryfall set `mbc` (draft_innovation). Both are `not_legal` in Commander (Scryfall API and bulk, checked 2026-10-16) until Wizards' Commander-legal date, 2026-11-13. The source's 2026-10-15 approval keeps them under its registered *future-release* exceptions. Bot cycle 44: `legal_from` set to Wizards' official Commander date, 2026-11-13 (earlier it used Scryfall's set release date): \"New-to-Magic MBC cards will be legal in Commander on November 13, 2026.\"",
+   "legal_from_source": {
+    "url": "https://magic.wizards.com/en/news/feature/whats-inside-mystery-booster-commander-edition",
+    "title": "What's Inside Mystery Booster Commander Edition? (Wizards of the Coast, Aug 3, 2026; editor's note: legality dates updated)",
+    "quote": "New-to-Magic MBC cards will be legal in Commander on November 13, 2026.",
+    "checked": "2026-10-16",
+    "scryfall_released_at": "2026-10-19"
+   }
   },
   "Tresserhorn_s_Lord__Returned": {
    "status": "pending",
-   "legal_from": "2026-10-19",
+   "legal_from": "2026-11-13",
    "set": "mbc",
-   "cards": ["Tresserhorn's Lord, Returned"],
-   "note": "The commander is in Scryfall set `mbc`, releasing 2026-10-19, and is `not_legal` in Commander until then (Scryfall API and bulk, checked 2026-10-16). ⚠️ The source's 2026-10-15 approval record calls its earlier future-release exception \"historical only\" and reports \"current official Commander legality PASS\"; Scryfall does not agree yet."
+   "cards": [
+    "Tresserhorn's Lord, Returned"
+   ],
+   "note": "The commander is in Scryfall set `mbc`, and is `not_legal` in Commander (Scryfall API and bulk, checked 2026-10-16) until Wizards' Commander-legal date, 2026-11-13. ⚠️ The source's 2026-10-15 approval record calls its earlier future-release exception \"historical only\" and reports \"current official Commander legality PASS\"; Scryfall does not agree yet. Bot cycle 44: `legal_from` set to Wizards' official Commander date, 2026-11-13 (earlier it used Scryfall's set release date): \"New-to-Magic MBC cards will be legal in Commander on November 13, 2026.\"",
+   "legal_from_source": {
+    "url": "https://magic.wizards.com/en/news/feature/whats-inside-mystery-booster-commander-edition",
+    "title": "What's Inside Mystery Booster Commander Edition? (Wizards of the Coast, Aug 3, 2026; editor's note: legality dates updated)",
+    "quote": "New-to-Magic MBC cards will be legal in Commander on November 13, 2026.",
+    "checked": "2026-10-16",
+    "scryfall_released_at": "2026-10-19"
+   }
   }
  }
 }

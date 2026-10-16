@@ -278,7 +278,7 @@ def main():
         pend = d.get("pending")
         L = [f"# Grixis Deck — {title}", ""]
         if pend:
-            L += [f"> ⏳ **PENDING LEGALITY — not Commander-legal yet.** Legal from **{pend['legal_from']}** (Scryfall set `{pend['set']}` release). "
+            L += [f"> ⏳ **PENDING LEGALITY — not Commander-legal yet.** Legal from **{pend['legal_from']}** ([Wizards]({pend['legal_from_source']['url']}): \"{pend['legal_from_source']['quote']}\"; Scryfall set `{pend['set']}`). "
                   f"Not-yet-legal cards: {', '.join('**' + c + '**' for c in pend['cards'])}. This page is published so all 62 source decks are in the companion, "
                   "but it is **excluded from every legal-deck count** (Grixis index, packages, summaries). `validate_all` accepts these cards only while "
                   "`legality_status: pending` and the date is still ahead. Activation: `python3 scripts/activate_pending_grixis.py` "
@@ -303,7 +303,7 @@ def main():
               f"- Total cards: **{total}** ({len(cmdrs)} commander(s) + {total - len(cmdrs) - lands} nonland + {lands - basics} nonbasic lands + {basics} basics) · average nonland MV {avg:.2f}",
               ("- Strict color identity (CR 903.5c), singleton (903.5b), Commander-legal, size (903.5a): ✅ **all checks pass**" + (" (after the corrections below)" if any(f[0] == "legality" for f in d["fixes"]) else "")) if not pend else
               (f"- Strict color identity (CR 903.5c), singleton (903.5b), size (903.5a): pass. **Commander legality: ⏳ pending.** {', '.join(pend['cards'])} "
-               f"{'is' if len(pend['cards']) == 1 else 'are'} `not_legal` on Scryfall until the `{pend['set']}` release ({pend['legal_from']}); every other card is Commander-legal."),
+               f"{'is' if len(pend['cards']) == 1 else 'are'} `not_legal` on Scryfall until their official Commander-legal date ({pend['legal_from']}, per Wizards); every other card is Commander-legal."),
               f"- Every card resolves to an entry in our card DB ({len(final)}/{len(final)} lines linked).", "",
               "## Bracket assessment", "",
               f"- Game Changers ({len(gcs)}): " + (", ".join(gcs) or "none"),
@@ -409,7 +409,7 @@ def main():
           "- Bot cycle 37 cross-check: all 62 lists we selected match the source's `exports/archidekt_2026-10-15/` package (its `manifest.csv` and per-deck TXT files) card for card.",
           "- Deck id `Goben__Gene_Splice_Savant` (#21) holds the **Norman Osborn // Green Goblin** list (already so in the frozen FINAL baseline). Its files are named for Norman Osborn, so we locate them through the artifact paths in the source state.",
           "- One state artifact path does not exist: Thraximundar's `whole_list_audit_artifact` points to `refinement/decisions/Thraximundar_Whole_List_Audit_v2_2026-10-15.csv`, but the file in the repo is `refinement/audits/Thraximundar_Whole_List_Audit_2026-10-15.csv` (linked from the deck page).",
-          "- ⚠️ The Tresserhorn's Lord, Returned approval record (2026-10-15) reports \"current official Commander legality PASS, no project exception required\". Scryfall lists the card as `not_legal` until its `mbc` release on 2026-10-19, so the deck page is published as ⏳ *pending legality* (Bot cycle 38).",
+          "- ⚠️ The Tresserhorn's Lord, Returned approval record (2026-10-15) reports \"current official Commander legality PASS, no project exception required\". Scryfall lists the card as `not_legal`, and Wizards says new MBC cards are Commander-legal on 2026-11-13 (\"New-to-Magic MBC cards will be legal in Commander on November 13, 2026.\", [What's Inside Mystery Booster Commander Edition?](https://magic.wizards.com/en/news/feature/whats-inside-mystery-booster-commander-edition)), so the deck page is published as ⏳ *pending legality* (Bot cycle 38; date corrected in Bot cycle 44).",
           "- Decklist files use mixed formats: some lines have `(set) number` printings and role tags, some only `Nx Name`. Commanders are tagged `[Commander]` or `[Commander{top}]`.",
           "- The Lutri companion is recorded in the approval record but missing from the approved 100-card file. The two disagree. The source's Archidekt export README still says to set \"the intended commanders/companion manually\" for this deck, and its retrospective gate keeps Trade Secrets, Yawgmoth's Bargain (banned) and Lutri (banned as a companion) as *project exceptions*. Our corrected list keeps the cycle 16 replacements.",
           "- Per-deck evidence is spread across 5–8 folders (blueprints, decisions, approvals, evidence, verification, rules, tests), and one blueprint exists twice (`Be_lakor__the_Dark_Master_v1.md` / `Belakor_the_Dark_Master_v1.md`). On import, each deck's records are gathered into a single page.",

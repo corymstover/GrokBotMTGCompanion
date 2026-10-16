@@ -107,8 +107,8 @@ schema: 2
 
 | Deck | Not yet legal | Legal from | GC | Floor | Source bracket | Lands |
 |---|---|---|---|---|---|---|
-| ⏳ [The Madcap Jester](decks/the-madcap-jester.md) | The Madcap Jester, Dragon's Smile | 2026-10-19 | 17 | 4 | 5 — cEDH | 34 |
-| ⏳ [Tresserhorn's Lord, Returned](decks/tresserhorns-lord-returned.md) | Tresserhorn's Lord, Returned | 2026-10-19 | 2 | 3 | — | 33 |
+| ⏳ [The Madcap Jester](decks/the-madcap-jester.md) | The Madcap Jester, Dragon's Smile | 2026-11-13 | 17 | 4 | 5 — cEDH | 34 |
+| ⏳ [Tresserhorn's Lord, Returned](decks/tresserhorns-lord-returned.md) | Tresserhorn's Lord, Returned | 2026-11-13 | 2 | 3 | — | 33 |
 
 ## What was left out
 

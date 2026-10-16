@@ -74,12 +74,12 @@ No qualifying swap passed the gates, guard and review, so these lists are left a
 - ⚠️ **Archidekt exports:** Archidekt import not tested in Archidekt itself. The export files are checked offline: format matches the source's own Archidekt package (`exports/archidekt_2026-10-15/`), each file matches its deck page card for card, every file is 100 cards with the commander line(s) first and tagged `[Commander]`, and every file passes `evaluate_decklist.check`. Nobody has pasted them into Archidekt yet. Do that once per deck before relying on the `[Commander]` category.
 - ⚠️ **Kefka, Court Mage // Kefka, Ruler of Ruin:** Open idea, not applied: Mystic Remora → Monument to Endurance (hand-picked, Bot cycle 41). The role/MV parity gate rejects it (cut MV 1, add MV 3). The identity case is real: Kefka's "each player discards a card" turns Monument into draw, Treasure, or a 3-point drain each turn. A draw-role cut at MV 2 or more would let it pass. Left open for Cory's call.
 - ⚠️ **Tresserhorn's Lord, Returned:** Source legality claim not supported, re-verified in Bot cycle 44. The source's 2026-10-15 approval record says the Mystery Booster Commander Edition release notes make MBC collector numbers 1–60 "legal in Commander", so "current official Commander legality PASS, no project exception required". The release notes do say "(MBC collector numbers 1–60) are legal in Commander, Legacy, and Vintage" but give no date. Wizards' "What's Inside Mystery Booster Commander Edition?" article (Aug 3, 2026, with an editor's note that the legality dates were updated) says "New-to-Magic MBC cards will be legal in Commander on November 13, 2026." Scryfall (live API, 2026-10-16) lists Tresserhorn's Lord, Returned (mbc 52) as `not_legal` in Commander. The source's own Madcap Jester verification gives the same date: "NOT officially Commander-legal until 2026-11-13". The source contradicts itself. The flag stays.
-- ⚠️ **Pending date (MBC):** ⏳ Pending date: our registry (`data/grixis_pending.json`) uses Scryfall's `released_at` of 2026-10-19 as `legal_from` for all three `mbc` cards. Wizards' official Commander-legal date is **2026-11-13**. Under the current rules `validate_all` fails both pending decks from 2026-10-19 ("pending legality expired"), and `activate_pending_grixis.py` would exit 2 ("legal_from has passed but Scryfall still lists these as not legal") until Scryfall flips them. The pending markers and date were left untouched in Bot cycle 44 as instructed. Cory needs to decide whether to move `legal_from` to 2026-11-13.
+- ⚠️ **Pending date (MBC):** Pending date corrected in Bot cycle 44. `data/grixis_pending.json` first used Scryfall's `mbc` set release date as `legal_from`. Wizards' official Commander-legal date for new MBC cards is **2026-11-13**: "New-to-Magic MBC cards will be legal in Commander on November 13, 2026." ([What's Inside Mystery Booster Commander Edition?](https://magic.wizards.com/en/news/feature/whats-inside-mystery-booster-commander-edition), Aug 3, 2026, legality dates updated per the editor's note). With Cory's approval, `legal_from` is now 2026-11-13, citing that article. Pages, banners, front matter and exports were rebuilt.
 
 ### Homogenization and overlap findings
 
 - All 62 lists, source → final: mean commander dependence 65.7% → **65.9%** · mean generic share 24.6% → **24.5%** · mean pairwise overlap 15.8% → **15.7%**.
-- Most shared cards: Sol Ring (62), Talisman of Dominance (61), Arcane Signet (61), Demonic Tutor (57), Talisman of Indulgence (56), Talisman of Creativity (56), Vampiric Tutor (54), Fierce Guardianship (54), Deflecting Swat (53), Cyclonic Rift (46) (lists out of 62).
+- Most shared cards: Sol Ring (62), Talisman of Dominance (61), Arcane Signet (61), Demonic Tutor (57), Talisman of Indulgence (56), Talisman of Creativity (56), Fierce Guardianship (54), Vampiric Tutor (54), Deflecting Swat (53), Cyclonic Rift (46) (lists out of 62).
 - Measured on the final lists. Most shared cards are fast mana, tutors and free interaction (see the table): the Game Changer-era ceiling cards any Grixis list at Bracket 4+ plays. That is principle 2 (no artificial weakening), not homogenization, so none of them was cut for being shared. Where overlap was high (the Kess pairs below), the hand review found the shared core explained by each commander's text except for part of Kefka's list, and Kefka was refined in batch 3. The refinement cut only generic cards with no hook to their commander. Every add carries an Oracle hook, so each changed list moved away from the shared core, not toward it.
 - **Kess, Dissident Mage / Kefka, Court Mage (64% overlap):** Partly homogenization.
 - **Cormela, Glamour Thief / Kess, Dissident Mage (62%):** Identity-justified.
@@ -87,9 +87,9 @@ No qualifying swap passed the gates, guard and review, so these lists are left a
 
 ### Pending decks: refined but pending legality
 
-- ⏳ [The Madcap Jester](decks/the-madcap-jester.md#refined-list-bot-cycle-39): **refined but pending**. Batch 6 (Bot cycle 44): at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged (hand review: identity confirmed; at ceiling; unchanged). Pending card(s): The Madcap Jester, Dragon's Smile (registry `legal_from` 2026-10-19). The export stays marked pending.
-- ⏳ [Tresserhorn's Lord, Returned](decks/tresserhorns-lord-returned.md#refined-list-bot-cycle-39): **refined but pending**. Batch 6 (Bot cycle 44): at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged (hand review: identity confirmed; at ceiling; unchanged; source legality claim flagged). Pending card(s): Tresserhorn's Lord, Returned (registry `legal_from` 2026-10-19). The export stays marked pending.
-- **Activation follow-up:** Both decks have had their refinement pass (batch 6, Bot cycle 44: at ceiling, unchanged), so the activation step only needs to activate and re-verify. Run `python3 scripts/activate_pending_grixis.py` once Scryfall lists the `mbc` cards (The Madcap Jester, Dragon's Smile, Tresserhorn's Lord, Returned) as Commander-legal. Wizards' date is 2026-11-13; the registry still says 2026-10-19 (see the flag above). The script flips both decks from ⏳ pending to active. Then run `rebuild_enrichment.sh`, which includes `grixis_refine.py` and `validate_all`. A new refinement batch is only needed if Scryfall's Oracle text for these cards changes on release. Lord of Tresserhorn is a different, already-legal deck (batch 3).
+- ⏳ [The Madcap Jester](decks/the-madcap-jester.md#refined-list-bot-cycle-39): **refined but pending**. Batch 6 (Bot cycle 44): at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged (hand review: identity confirmed; at ceiling; unchanged). Pending card(s): The Madcap Jester, Dragon's Smile (registry `legal_from` 2026-11-13). The export stays marked pending.
+- ⏳ [Tresserhorn's Lord, Returned](decks/tresserhorns-lord-returned.md#refined-list-bot-cycle-39): **refined but pending**. Batch 6 (Bot cycle 44): at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged (hand review: identity confirmed; at ceiling; unchanged; source legality claim flagged). Pending card(s): Tresserhorn's Lord, Returned (registry `legal_from` 2026-11-13). The export stays marked pending.
+- **Activation follow-up (routine `grixis-pending-legality-activation`, scheduled for 2026-11-13):** Both decks have had their refinement pass (batch 6, Bot cycle 44: at ceiling, unchanged). The activation routine was moved to 2026-11-13 and now only activates and re-verifies: it runs `python3 scripts/activate_pending_grixis.py`. That refreshes the Scryfall bulk, re-checks the `mbc` cards (The Madcap Jester, Dragon's Smile, Tresserhorn's Lord, Returned), flips both decks from ⏳ pending to active once Scryfall lists them as Commander-legal, and rebuilds with `rebuild_enrichment.sh` (which includes `grixis_refine.py` and `validate_all`). No new refinement batch is run. If Scryfall has not updated yet on 2026-11-13, the script exits 2: re-run it later. A new refinement batch is only needed if the cards' Oracle text changes on release. Lord of Tresserhorn is a different, already-legal deck (batch 3).
 
 ## Batch log
 
@@ -299,8 +299,8 @@ Most-shared nonland cards across the 62 source lists (count of lists):
 | Demonic Tutor | 57 |
 | Talisman of Indulgence | 56 |
 | Talisman of Creativity | 56 |
-| Vampiric Tutor | 54 |
 | Fierce Guardianship | 54 |
+| Vampiric Tutor | 54 |
 | Deflecting Swat | 53 |
 | Cyclonic Rift | 46 |
 | Toxic Deluge | 45 |
@@ -309,8 +309,8 @@ Most-shared nonland cards across the 62 source lists (count of lists):
 | Fellwar Stone | 40 |
 | Swan Song | 39 |
 | Chaos Warp | 37 |
-| Deadly Rollick | 36 |
 | Mystic Remora | 36 |
+| Deadly Rollick | 36 |
 | Force of Will | 35 |
 | Jeska's Will | 35 |
 | Mana Vault | 34 |

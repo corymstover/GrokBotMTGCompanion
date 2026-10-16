@@ -12,14 +12,14 @@ validated: false
 tags: [grixis, grixis, bracket-floor-3, game-changers, two-card-infinite, pending-legality]
 source_repo: corymstover/grixis-commander-encyclopediaGPT
 legality_status: pending
-legal_from: 2026-10-19
+legal_from: 2026-11-13
 pending_cards: ["Tresserhorn's Lord, Returned"]
 schema: 2
 ---
 
 # Grixis Deck — Tresserhorn's Lord, Returned
 
-> ⏳ **PENDING LEGALITY — not Commander-legal yet.** Legal from **2026-10-19** (Scryfall set `mbc` release). Not-yet-legal cards: **Tresserhorn's Lord, Returned**. This page is published so all 62 source decks are in the companion, but it is **excluded from every legal-deck count** (Grixis index, packages, summaries). `validate_all` accepts these cards only while `legality_status: pending` and the date is still ahead. Activation: `python3 scripts/activate_pending_grixis.py` (refreshes the Scryfall bulk, re-checks the cards, flips the deck to active once they are legal).
+> ⏳ **PENDING LEGALITY — not Commander-legal yet.** Legal from **2026-11-13** ([Wizards](https://magic.wizards.com/en/news/feature/whats-inside-mystery-booster-commander-edition): "New-to-Magic MBC cards will be legal in Commander on November 13, 2026."; Scryfall set `mbc`). Not-yet-legal cards: **Tresserhorn's Lord, Returned**. This page is published so all 62 source decks are in the companion, but it is **excluded from every legal-deck count** (Grixis index, packages, summaries). `validate_all` accepts these cards only while `legality_status: pending` and the date is still ahead. Activation: `python3 scripts/activate_pending_grixis.py` (refreshes the Scryfall bulk, re-checks the cards, flips the deck to active once they are legal).
 
 > **From [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT), path [`refinement/decklists/Tresserhorn_s_Lord_Returned_Approved_2026-10-15.txt`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/decklists/Tresserhorn_s_Lord_Returned_Approved_2026-10-15.txt)** (APPROVED / LOCKED in the source, user approval 2026-10-15; source commit `1836b97`). Imported in Bot cycle 38 as a pending-legality page against Scryfall Oracle bulk 2026-10-15. The card choices and all commentary are **the source author's guidance**. Corrections we made are listed below. Facts (Oracle text, legality, identity, Game Changers, combos) come from our card DB and Commander Spellbook. Section index: [Grixis](../README.md).
 
@@ -45,7 +45,7 @@ schema: 2
 ## Validation
 
 - Total cards: **100** (1 commander(s) + 66 nonland + 23 nonbasic lands + 10 basics) · average nonland MV 2.70
-- Strict color identity (CR 903.5c), singleton (903.5b), size (903.5a): pass. **Commander legality: ⏳ pending.** Tresserhorn's Lord, Returned is `not_legal` on Scryfall until the `mbc` release (2026-10-19); every other card is Commander-legal.
+- Strict color identity (CR 903.5c), singleton (903.5b), size (903.5a): pass. **Commander legality: ⏳ pending.** Tresserhorn's Lord, Returned is `not_legal` on Scryfall until their official Commander-legal date (2026-11-13, per Wizards); every other card is Commander-legal.
 - Every card resolves to an entry in our card DB (93/93 lines linked).
 
 ## Bracket assessment
@@ -97,7 +97,7 @@ schema: 2
 
 | Type | Change | Reason |
 |---|---|---|
-| pending legality | published as **PENDING LEGALITY** (legal from 2026-10-19) | The commander is in Scryfall set `mbc`, releasing 2026-10-19, and is `not_legal` in Commander until then (Scryfall API and bulk, checked 2026-10-16). ⚠️ The source's 2026-10-15 approval record calls its earlier future-release exception "historical only" and reports "current official Commander legality PASS"; Scryfall does not agree yet. Not yet Commander-legal: Tresserhorn's Lord, Returned. Activation: `python3 scripts/activate_pending_grixis.py`. |
+| pending legality | published as **PENDING LEGALITY** (legal from 2026-11-13) | The commander is in Scryfall set `mbc`, and is `not_legal` in Commander (Scryfall API and bulk, checked 2026-10-16) until Wizards' Commander-legal date, 2026-11-13. ⚠️ The source's 2026-10-15 approval record calls its earlier future-release exception "historical only" and reports "current official Commander legality PASS"; Scryfall does not agree yet. Bot cycle 44: `legal_from` set to Wizards' official Commander date, 2026-11-13 (earlier it used Scryfall's set release date): "New-to-Magic MBC cards will be legal in Commander on November 13, 2026." Not yet Commander-legal: Tresserhorn's Lord, Returned. Activation: `python3 scripts/activate_pending_grixis.py`. |
 | format | Archidekt list normalized to [EDH Standards](../../EDH%20Standards.md#list-format-archidekt) | `[Commander]` → `[Commander{top}]` (1 line(s)); role tags restored on 84 untagged line(s): 73 from this deck's FINAL baseline, 11 from the tag the source uses most for that card in other decks; 8 untagged line(s) given a type tag (e.g. `[Land]`). |
 | bracket | Game Changers and combo floor added | The source records no Game Changer count and does not check the official Game Changers list anywhere in its approval records. We added it: **2 Game Changers**, so the minimum bracket is **3**. Commander Spellbook finds 21 complete combos (1 two-card infinite). |
 
@@ -209,7 +209,7 @@ Full log for all decks: [Grixis Corrections](../Grixis%20Corrections.md).
 - **Commander hooks (from Oracle text):** sacrifice.
 - **Commander dependence:** 74% → **74%** · generic share 21% → **21%** · mean overlap with the other 61 lists 11% → **11%**.
 - **Decision:** at/near ceiling: no generic, unprotected cut has a role-compatible commander-specific replacement; unchanged.
-- ⏳ **Pending legality:** Tresserhorn's Lord, Returned are not Commander-legal before 2026-10-19; the export is marked pending.
+- ⏳ **Pending legality:** Tresserhorn's Lord, Returned are not Commander-legal before 2026-11-13; the export is marked pending.
 
 > 🔎 **Hand review (Bot cycle 44): identity confirmed; at ceiling; unchanged; source legality claim flagged.** New deck, so it got a hand look; commander dependence is 74%, the deck most tied to its commander in batch 6. Tresserhorn's Lord reads "When Tresserhorn's Lord enters, sacrifice him unless you sacrifice three creatures, pay 3 life, and have target opponent draw three cards." and "Whenever you sacrifice a creature, draw a card." The list is a sacrifice-draw engine. Free outlets: Ashnod's Altar, Phyrexian Altar, Carrion Feeder, Viscera Seer, Goblin Bombardment, Warren Soultrader, Yawgmoth. Fodder that pays the enter cost: Bitterblossom, Mogg War Marshal, Endrek Sahr, The Locust God, Chittering Witch, Ophiomancer. Loops, per the source's rules review: Gravecrawler plus Tresserhorn (a Zombie) with Phyrexian Altar or Pitiless Plunderer, and The Locust God with a free outlet. Payoffs: Blood Artist, Zulaport Cutthroat, Bastion of Remembrance, Plumb the Forbidden. The few cards with no hook are there for the 10-power, indestructible, trampling body: Not of This World costs {0} when it protects a creature with power 7 or greater; Stubborn Denial is a hard counter with ferocious; Lightning Greaves. The automatic plan found no generic cut with a stronger Tresserhorn-specific add. Reassembling Skeleton (38.0%), the top add by synergy, has no Oracle hook to Tresserhorn, so it does not qualify. The generic cards left are fast mana, tutors (Game Changers) and interaction. Pending exception: the commander itself is not Commander-legal yet; every other card passes the normal gates.
 
@@ -226,7 +226,7 @@ Role tags are the source author's (untagged lines show the card type). *Printing
 
 | Card | Role (source tag) | Type | MV | Identity | GC | Printing |
 |---|---|---|---|---|---|---|
-| [Tresserhorn's Lord, Returned](../../cards/T/tre.md#tresserhorns-lord-returned) | Commander · ⏳ not legal until 2026-10-19 | Legendary Creature — Zombie Noble | 5 | UBR |  | — |
+| [Tresserhorn's Lord, Returned](../../cards/T/tre.md#tresserhorns-lord-returned) | Commander · ⏳ not legal until 2026-11-13 | Legendary Creature — Zombie Noble | 5 | UBR |  | — |
 | [My Precious // Allure of Power](../../cards/M/my.md#my-precious--allure-of-power) | Artifact | Legendary Artifact — Equipment // Instant — Adventure | 3 | B |  | — |
 | [Boggart Trawler // Boggart Bog](../../cards/B/bo.md#boggart-trawler--boggart-bog) | Creature | Creature — Goblin // Land | 3 | B |  | — |
 | [Weaponcraft Enthusiast](../../cards/W/we.md#weaponcraft-enthusiast) | Creature | Creature — Aetherborn Artificer | 3 | B |  | — |
