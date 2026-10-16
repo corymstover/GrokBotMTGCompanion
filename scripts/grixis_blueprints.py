@@ -84,7 +84,8 @@ def m1_ids(slug):
 
 
 def source_files(did):
-    keys = {norm(did), norm(did.replace("__", "_"))}
+    # Bot cycle 55: match the registry id and the source id (they differ only for corrected ids, e.g. Norman Osborn)
+    keys = {norm(x) for d in (did, ga.source_deck_id(did)) for x in (d, d.replace("__", "_"))}
     out = []
     for p in ARCH.rglob("*"):
         if p.is_file() and p.suffix in (".md", ".json", ".csv", ".txt") and any(k and k in norm(p.name) for k in keys):
@@ -139,10 +140,11 @@ def supporting(did, slug):
 # ---------------------------------------------------------------- scaffold
 def scaffold(slug):
     summ = summary()
-    did = next(d for d, v in summ.items() if v["slug"] == slug)
+    src = next(d for d, v in summ.items() if v["slug"] == slug)
+    did = ga.registry_id(src)  # Bot cycle 55: registry id (corrected); source-keyed files use src
     reg = ga.load_json(ga.REGISTRY)["decks"][did]
     lst = deck_list(slug)
-    combos = json.loads((ROOT / "data" / "grixis_combos.json").read_text(encoding="utf-8"))["decks"].get(did, {}).get("combos", [])
+    combos = json.loads((ROOT / "data" / "grixis_combos.json").read_text(encoding="utf-8"))["decks"].get(src, {}).get("combos", [])
     print(json.dumps({"deck_id": did, "slug": slug, "canonical_hash": reg["current_canonical_hash"],
                       "commanders": commander_facts(slug), "registry_ceiling": reg["ceiling"],
                       "compliance": reg["official_commander_compliance"], "exceptions": reg["project_exceptions"],
@@ -233,7 +235,8 @@ def check_one(path, summ, reg, cr_text):
     if p:
         return p, bp
     did, slug = bp["deck_id"], bp["slug"]
-    if did not in summ or summ[did]["slug"] != slug or path.stem != slug:
+    sid = ga.source_deck_id(did)  # Bot cycle 55: blueprints carry the registry id; source-keyed files use the source id
+    if sid not in summ or summ[sid]["slug"] != slug or path.stem != slug or did not in reg["decks"]:
         return [f"deck_id/slug mismatch ({did}, {slug}, file {path.name})"], bp
     e = reg["decks"][did]
     if bp["canonical_hash"] != e["current_canonical_hash"]:
@@ -248,7 +251,7 @@ def check_one(path, summ, reg, cr_text):
         if w and (c["oracle_text"] != w["oracle_text"] or c["oracle_sha256"] != w["oracle_sha256"] or c["oracle_id"] != w["oracle_id"] or c["type_line"] != w["type_line"]):
             p.append(f"{n}: Oracle text/type/sha differs from the Scryfall cache (oracle_change: re-review)")
     # evidence on every field, refs resolve, class rules
-    combos = json.loads((ROOT / "data" / "grixis_combos.json").read_text(encoding="utf-8"))["decks"].get(did, {}).get("combos", [])
+    combos = json.loads((ROOT / "data" / "grixis_combos.json").read_text(encoding="utf-8"))["decks"].get(sid, {}).get("combos", [])
     combo_ids = {c["id"] for c in combos}
     ids = m1_ids(slug)
     for fp, cl in claims(bp):
@@ -305,7 +308,7 @@ def check_one(path, summ, reg, cr_text):
         p.append("power.expected_bracket below the computed floor")
     # project exceptions must match the registry
     exc = sorted(x["card"] for x in json.loads(ga.EXCEPTIONS.read_text(encoding="utf-8"))["exceptions"]
-                 if x["deck_id"] == did and x["project_authorization_status"] == "AUTHORIZED_EXCEPTION")
+                 if x["deck_id"] == sid and x["project_authorization_status"] == "AUTHORIZED_EXCEPTION")
     if sorted(bp["project_exceptions"]["value"]) != exc:
         p.append(f"project_exceptions {bp['project_exceptions']['value']} ≠ exception registry {exc}")
     # boilerplate lint: no repeated reason strings

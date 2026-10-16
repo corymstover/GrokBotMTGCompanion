@@ -986,7 +986,7 @@ def main():
     summ = json.loads(SUM.read_text(encoding="utf-8"))
     reg = json.loads((ROOT / "data" / "grixis_pending.json").read_text(encoding="utf-8"))["decks"]
     PEND_DATES.update({k: x["legal_from"] for k, x in reg.items()})
-    STATE.update({k: x["state"] for k, x in (ga.load_json(ga.REGISTRY, {"decks": {}})["decks"]).items()})
+    STATE.update({ga.source_deck_id(k): x["state"] for k, x in (ga.load_json(ga.REGISTRY, {"decks": {}})["decks"]).items()})  # keyed by source id (Bot cycle 55)
     plans = json.loads(PLANS.read_text(encoding="utf-8")) if PLANS.exists() else {"_doc": "Frozen Grixis refinement plans (scripts/grixis_refine.py).", "batches": {}, "decks": {}, "log": {}, "spellbook": {}}
     if a.engine == "v2" and not a.check:
         dids = [d.strip() for d in a.decks.split(",") if d.strip()] or list(summ)

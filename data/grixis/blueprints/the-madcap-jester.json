@@ -1,0 +1,648 @@
+{
+ "schema_version": 2,
+ "deck_id": "The_Madcap_Jester",
+ "slug": "the-madcap-jester",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 55,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+ "commanders": {
+  "value": [
+   {
+    "name": "The Madcap Jester",
+    "oracle_id": "60f3857d-2dcd-427e-aa0f-e2028bbc5acc",
+    "oracle_text": "Whenever The Madcap Jester attacks, each opponent exiles the top card of their library.\nWhenever a spell or ability you control causes one or more cards to be exiled from an opponent's library, you may play those cards until the end of your next turn. Mana of any type can be spent to cast spells this way.",
+    "oracle_sha256": "sha256:1ef86f1d980e50ab108a504a609f068ca821cb9fa1d281abd958eaad8661cc5a",
+    "type_line": "Legendary Creature — Clown Wizard"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:The Madcap Jester"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Exile theft into compact Grixis wins: library-exile effects (Extract, Tasha's Hideous Laughter, Ashiok, Jester's Cap) become tutors and card draw under the Jester's play permission, protected by free counters, and the deck closes with Thassa's Oracle + Demonic Consultation / Tainted Pact or Underworld Breach + Brain Freeze.",
+   "secondary": "Cast-from-exile payoffs (Dragon's Smile, Prosper, Gonti, Laughing Jasper Flint) and the Jester's attack trigger (hasty with Greaves) for incremental stolen resources."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L11",
+   "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L41"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "significant",
+   "advances_plan": "The Jester turns every library exile into card access, and its attack trigger is a built-in exile burst.",
+   "honest_note": "Honest call: significant. None of the four Spellbook combos uses the Jester; the kills are generic Grixis cEDH lines (Oracle/Consult, Oracle/Tainted Pact, Breach + LED/Petal + Brain Freeze). The source added Consultation and Tainted Pact explicitly to complete them (decisions L27, L28). The Jester is a future-release card (project exception, legal from 2026-11-13 per decisions L57) and is not officially Commander-legal today."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L27",
+   "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L28",
+   "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L57",
+   "spellbook:742-1295"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "oracle",
+   "kind": "combo",
+   "description": "Thassa's Oracle with Demonic Consultation or Tainted Pact.",
+   "cards": [
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact"
+   ],
+   "enablers": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Imperial Seal",
+    "Mystical Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:742-1295",
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "id": "breach-freeze",
+   "kind": "combo",
+   "description": "Underworld Breach with Lion's Eye Diamond or Lotus Petal and Brain Freeze mills the table.",
+   "cards": [
+    "Underworld Breach",
+    "Brain Freeze",
+    "Lion's Eye Diamond",
+    "Lotus Petal"
+   ],
+   "enablers": [
+    "Gamble",
+    "Beseech the Mirror"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856"
+   ]
+  },
+  {
+   "id": "exile-theft-value",
+   "kind": "natural",
+   "description": "Out-resource opponents by casting their cards.",
+   "cards": [
+    "The Madcap Jester",
+    "Extract",
+    "Sadistic Sacrament",
+    "Bitter Ordeal",
+    "Tasha's Hideous Laughter",
+    "Dragon's Smile"
+   ],
+   "enablers": [
+    "Dragon's Smile",
+    "Don Andres, the Renegade",
+    "Gonti, Night Minister"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L41",
+    "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L25"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "exile-play-permission",
+   "cards": [
+    "The Madcap Jester",
+    "Extract",
+    "Sadistic Sacrament",
+    "Bitter Ordeal",
+    "Tasha's Hideous Laughter",
+    "Psychic Surgery",
+    "Inside Information",
+    "Jester's Cap",
+    "Jester's Scepter",
+    "Ensnared by the Mara",
+    "Ashiok, Nightmare Weaver",
+    "Praetor's Grasp"
+   ],
+   "online_condition": "A spell or ability you control exiles cards from an opponent's library.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:The Madcap Jester",
+    "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L11"
+   ]
+  },
+  {
+   "id": "hasty-attack",
+   "cards": [
+    "The Madcap Jester",
+    "Lightning Greaves"
+   ],
+   "online_condition": "The Jester can attack.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L29"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:library-exile",
+   "required": true,
+   "min_count": 8,
+   "role": "Exile effects that turn into card access.",
+   "cards": [
+    "Extract",
+    "Sadistic Sacrament",
+    "Bitter Ordeal",
+    "Tasha's Hideous Laughter",
+    "Psychic Surgery",
+    "Inside Information",
+    "Jester's Cap",
+    "Jester's Scepter",
+    "Ensnared by the Mara",
+    "Ashiok, Nightmare Weaver",
+    "Praetor's Grasp"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L41"
+   ]
+  },
+  {
+   "id": "pkg:exile-payoffs",
+   "required": true,
+   "min_count": 8,
+   "role": "Cast-from-exile payoffs and theft.",
+   "cards": [
+    "Dragon's Smile",
+    "Don Andres, the Renegade",
+    "Gonti, Night Minister",
+    "Prosper, Tome-Bound",
+    "Party Thrasher",
+    "Passionate Archaeologist",
+    "Nalfeshnee",
+    "Plargg and Nassari",
+    "Sire of Stagnation",
+    "Circu, Dimir Lobotomist",
+    "Laughing Jasper Flint",
+    "Wild-Magic Sorcerer",
+    "Dauthi Voidwalker"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L41"
+   ]
+  },
+  {
+   "id": "pkg:compact-wins",
+   "required": true,
+   "min_count": 5,
+   "role": "Compact Grixis kills.",
+   "cards": [
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact",
+    "Underworld Breach",
+    "Brain Freeze",
+    "Lion's Eye Diamond"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:742-1295",
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "id": "pkg:free-protection",
+   "required": true,
+   "min_count": 6,
+   "role": "Free and cheap protection.",
+   "cards": [
+    "Force of Will",
+    "Force of Negation",
+    "Fierce Guardianship",
+    "Pact of Negation",
+    "Mana Drain",
+    "Swan Song",
+    "Deadly Rollick",
+    "Deflecting Swat"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L37"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "any-mana-type",
+   "summary": "The Jester lets you spend mana of any type on stolen spells, so off-color cards are castable.",
+   "cards": [
+    "The Madcap Jester"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:The Madcap Jester",
+    "cr:601.3"
+   ]
+  },
+  {
+   "id": "dauthi-replacement",
+   "summary": "Dauthi Voidwalker exiles cards that would be milled from an opponent's library, which the Jester then lets you play.",
+   "cards": [
+    "Dauthi Voidwalker",
+    "The Madcap Jester"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L26"
+   ]
+  },
+  {
+   "id": "uba-mask-no",
+   "summary": "Uba Mask's replacement effect doesn't trigger the Jester by itself and replaces your own draws; rejected.",
+   "cards": [
+    "The Madcap Jester"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L45"
+   ]
+  },
+  {
+   "id": "tainted-pact-singleton",
+   "summary": "With 100 distinct names, Tainted Pact never stops on a duplicate.",
+   "cards": [
+    "Tainted Pact",
+    "Thassa's Oracle"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L28"
+   ]
+  },
+  {
+   "id": "brain-freeze-storm",
+   "summary": "Brain Freeze's storm copies scale with Breach loops.",
+   "cards": [
+    "Brain Freeze",
+    "Underworld Breach"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1368-3518-4856",
+    "cr:702.40a"
+   ]
+  },
+  {
+   "id": "future-release",
+   "summary": "The Jester and Dragon's Smile are project exceptions until 2026-11-13; not officially legal today.",
+   "cards": [
+    "The Madcap Jester",
+    "Dragon's Smile"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L57"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Thassa's Oracle",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Imperial Seal",
+    "Mystical Tutor",
+    "Tainted Pact"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:742-1295"
+   ]
+  },
+  {
+   "target": "Underworld Breach",
+   "via": [
+    "Gamble",
+    "Beseech the Mirror",
+    "Demonic Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1368-3518-4856"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Underworld Breach"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "spellbook:1368-3518-4856"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Force of Will, Force of Negation, Fierce Guardianship, Pact of Negation, Mana Drain, Swan Song, Deadly Rollick, Toxic Deluge.",
+   "protection": "Deflecting Swat, Lightning Greaves, free counters.",
+   "mana": "34 lands plus Moxen, Lotus Petal, LED, Dark/Cabal Ritual, Sol Ring, Mana Vault."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L37",
+   "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L51"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "slow-payoffs",
+   "description": "The source kept several four-to-seven-mana exile payoffs over generic cEDH staples; slower than a pure turbo shell.",
+   "mitigations": [
+    "Tasha's Hideous Laughter burst",
+    "Compact kills"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L50"
+   ]
+  },
+  {
+   "id": "oracle-hate",
+   "description": "Stax and graveyard hate stop the Oracle and Breach lines.",
+   "mitigations": [
+    "Two separate lines",
+    "Free counters"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:742-1295"
+   ]
+  },
+  {
+   "id": "future-release-status",
+   "description": "Not officially legal before 2026-11-13; registry status PENDING_RELEASE.",
+   "mitigations": [
+    "Project exception"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L57"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "low",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "spellbook:742-1295"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Power Bracket 5 — cEDH (decisions)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L65"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Bracket 5: Oracle/Consult, Tainted Pact and Breach/Brain Freeze with Moxen, LED and free counters is a real cEDH shell, though the identity payoffs make it slower than turbo lists. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L13",
+    "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L50",
+    "spellbook:742-1295"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "5",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#The_Madcap_Jester"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 5,
+     "2": 59,
+     "3": 101,
+     "4": 27,
+     "5": 50
+    },
+    "decks_with_bracket": 242,
+    "share_b4_plus": 0.318,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__the-madcap-jester.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "The Madcap Jester",
+   "why": "Plays cards exiled from opponents' libraries.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:The Madcap Jester"
+   ]
+  },
+  {
+   "card": "Thassa's Oracle",
+   "why": "Compact win.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:742-1295"
+   ]
+  },
+  {
+   "card": "Underworld Breach",
+   "why": "Second compact win.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1368-3518-4856"
+   ]
+  },
+  {
+   "card": "Tasha's Hideous Laughter",
+   "why": "Burst exile under the Jester.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L13"
+   ]
+  },
+  {
+   "card": "Dauthi Voidwalker",
+   "why": "Mill-to-exile replacement plus hate.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L26"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No Uba Mask (decisions L45) or Memory Vessel (L46).",
+   "No more generic cEDH staples over commander-specific exile engines (L53)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L45",
+   "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L46",
+   "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L53"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Exile theft / library control / Grixis combo (decisions L67)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md#L67"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 601.3",
+   "note": "Permission to cast.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:601.3"
+   ]
+  },
+  {
+   "rule": "CR 702.40a",
+   "note": "Storm.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.40a"
+   ]
+  },
+  {
+   "rule": "CR 702.138a",
+   "note": "Escape (Breach).",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.138a"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "combat damage / attack triggers",
+    "exiling and playing opponents' library cards"
+   ],
+   "hooked_cards": 16,
+   "role_counts": {
+    "counter": 7,
+    "draw": 3,
+    "protection": 2,
+    "ramp": 18,
+    "removal": 1,
+    "tutor": 6,
+    "wipe": 3
+   },
+   "lands": 34,
+   "edhrec_pages": [
+    "the-madcap-jester"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/The_Madcap_Jester_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/The_Madcap_Jester_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/The_Madcap_Jester_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/verification/The_Madcap_Jester_Whole_List_Audit_2026-10-15.md",
+   "source_archive:refinement/decklists/The_Madcap_Jester_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 55)"
+ }
+}

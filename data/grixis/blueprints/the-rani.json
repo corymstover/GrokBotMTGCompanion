@@ -1,0 +1,563 @@
+{
+ "schema_version": 2,
+ "deck_id": "The_Rani",
+ "slug": "the-rani",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 55,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:f740437f9975b3bb7ff64ace82a85b4310ff7b36ab35a0fb9a60a83776edb9e4",
+ "commanders": {
+  "value": [
+   {
+    "name": "The Rani",
+    "oracle_id": "ac9b0bdf-caf8-4dba-a900-e59de35e77d7",
+    "oracle_text": "Whenever The Rani enters or attacks, create a red Aura enchantment token named Mark of the Rani attached to another target creature. That token has enchant creature and \"Enchanted creature gets +2/+2 and is goaded.\"\nWhenever a goaded creature deals combat damage to one of your opponents, investigate.",
+    "oracle_sha256": "sha256:dde981b31f1b99461b37624786d3d6e5662a4ce23c8e2ce4090bc5c413c3f948",
+    "type_line": "Legendary Creature — Time Lord Scientist"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:The Rani"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Forced combat into Clues: each Rani ETB or attack puts Mark of the Rani (+2/+2 and goaded) on a creature, goaded creatures hitting opponents investigate, and the goad Aura suite makes more goaded attackers. Academy Manufactor and Erdwal Illuminator multiply the Clues.",
+   "secondary": "Blink The Rani for more Marks (Thassa, Displacer Kitten), turn artifact tokens into mana, damage and extra turns (Urza, Bjorna, Time Sieve), and use mass goad (Disrupt Decorum, Kardur, Spectacular Showdown)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L11",
+   "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L45",
+   "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L49",
+   "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L52",
+   "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L53"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "The Rani makes the goad and is the main Clue trigger for opposing creatures' combat damage.",
+   "honest_note": "Commander-native forced combat. Spellbook finds no combos; Time Sieve is kept as a payoff, not a deterministic loop (decisions L48). Source note: the decisions file still says 'working decision closeout; not user approval' (L7), but the approval record (approvals L8) shows APPROVED / LOCKED on 2026-10-15; the approval record is the authority."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L48",
+   "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L7",
+   "source_archive:refinement/approvals/The_Rani_Approved_2026-10-15.md#L8"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "forced-combat",
+   "kind": "natural",
+   "description": "Goaded opponents attack each other while Clues build up; Kardur, Karazikar and Firkraag add pressure.",
+   "cards": [
+    "The Rani",
+    "Ghoulish Impetus",
+    "Psychic Impetus",
+    "Shiny Impetus",
+    "Coercive Impetus",
+    "Incriminating Impetus",
+    "Eye of Nidhogg"
+   ],
+   "enablers": [
+    "Disrupt Decorum",
+    "Kardur, Doomscourge"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L11",
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L53"
+   ]
+  },
+  {
+   "id": "artifact-payoffs",
+   "kind": "natural",
+   "description": "Bjorna turns artifacts into damage; Time Sieve converts tokens into extra turns.",
+   "cards": [
+    "Bjorna, Nightfall Alchemist",
+    "Time Sieve",
+    "Academy Manufactor"
+   ],
+   "enablers": [
+    "Erdwal Illuminator"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L48",
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L50"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "mark-and-investigate",
+   "cards": [
+    "The Rani"
+   ],
+   "online_condition": "The Rani enters or attacks; goaded creatures deal combat damage to opponents.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:The Rani",
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L11"
+   ]
+  },
+  {
+   "id": "token-multiplier",
+   "cards": [
+    "Academy Manufactor",
+    "Erdwal Illuminator"
+   ],
+   "online_condition": "Any investigate.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L45",
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L46",
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L47"
+   ]
+  },
+  {
+   "id": "rani-blink",
+   "cards": [
+    "Thassa, Deep-Dwelling",
+    "Displacer Kitten",
+    "The Rani"
+   ],
+   "online_condition": "The Rani on the battlefield.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L29",
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L49"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:goad",
+   "required": true,
+   "min_count": 10,
+   "role": "Repeatable and mass goad.",
+   "cards": [
+    "Ghoulish Impetus",
+    "Psychic Impetus",
+    "Shiny Impetus",
+    "Coercive Impetus",
+    "Incriminating Impetus",
+    "Eye of Nidhogg",
+    "Bloodthirsty Blade",
+    "The Master, Mesmerist",
+    "Baeloth Barrityl, Entertainer",
+    "Disrupt Decorum",
+    "Spectacular Showdown",
+    "Maestros Confluence",
+    "Kardur, Doomscourge",
+    "Karazikar, the Eye Tyrant",
+    "Firkraag, Cunning Instigator",
+    "Grenzo, Havoc Raiser"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L52",
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L53"
+   ]
+  },
+  {
+   "id": "pkg:artifact-payoff",
+   "required": true,
+   "min_count": 6,
+   "role": "Turn Clues into value.",
+   "cards": [
+    "Academy Manufactor",
+    "Erdwal Illuminator",
+    "Time Sieve",
+    "Bjorna, Nightfall Alchemist",
+    "Five Hundred Year Diary",
+    "Forensic Gadgeteer",
+    "Inspiring Statuary",
+    "Urza, Lord High Artificer",
+    "Tangletrove Kelp",
+    "Entity Tracker"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L45",
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L51"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "manufactor-illuminator",
+   "summary": "Manufactor + Illuminator: the first investigate each turn makes six artifact tokens.",
+   "cards": [
+    "Academy Manufactor",
+    "Erdwal Illuminator"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L47"
+   ]
+  },
+  {
+   "id": "thassa-new-object",
+   "summary": "Thassa returns The Rani as a new object, so her ETB makes another Mark.",
+   "cards": [
+    "Thassa, Deep-Dwelling",
+    "The Rani"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L29",
+    "cr:400.7"
+   ]
+  },
+  {
+   "id": "baeloth-mark",
+   "summary": "A Mark on Baeloth makes him 4/7, so he goads more opposing creatures.",
+   "cards": [
+    "Baeloth Barrityl, Entertainer"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L32"
+   ]
+  },
+  {
+   "id": "sieve-not-infinite",
+   "summary": "Time Sieve is a payoff, not a deterministic infinite.",
+   "cards": [
+    "Time Sieve"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L48"
+   ]
+  },
+  {
+   "id": "goad-investigate",
+   "summary": "Goaded creatures must attack; damage to opponents investigates.",
+   "cards": [
+    "The Rani"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "cr:701.15a",
+    "cr:701.16a"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Academy Manufactor",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Mystical Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L47"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Reanimate"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "low",
+  "evidence": [
+   "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Swan Song, Deadly Rollick, Chaos Warp, Cyclonic Rift, Toxic Deluge, Blasphemous Act.",
+   "protection": "Deflecting Swat, Lightning Greaves, Force of Will.",
+   "mana": "33 lands with City of Brass, Mana Confluence and fetches."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L30",
+   "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L33"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "no-creatures",
+   "description": "Creature-light combo opponents give no goad targets.",
+   "mitigations": [
+    "Counterspells",
+    "Own pressure"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "oracle:The Rani"
+   ]
+  },
+  {
+   "id": "no-compact-win",
+   "description": "No compact kill.",
+   "mitigations": [
+    "Time Sieve",
+    "Bjorna"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L63"
+   ]
+  },
+  {
+   "id": "colored-mana",
+   "description": "Needs U/B/R; Mana Vault and Chrome Mox were rejected.",
+   "mitigations": [
+    "Signets",
+    "Talismans"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L62"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L11"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (decisions)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L71"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4: tuned forced-combat value with premium protection, but no compact kill. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/verification/The_Rani_Approval_Ready_Verification_2026-10-15.md#L25",
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L63"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#The_Rani"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 15,
+     "2": 344,
+     "3": 212,
+     "4": 21,
+     "5": 9
+    },
+    "decks_with_bracket": 601,
+    "share_b4_plus": 0.05,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__the-rani.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "The Rani",
+   "why": "Mark of the Rani and goad-damage Clues.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:The Rani"
+   ]
+  },
+  {
+   "card": "Academy Manufactor",
+   "why": "Each Clue becomes three tokens.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L45"
+   ]
+  },
+  {
+   "card": "Erdwal Illuminator",
+   "why": "Extra investigate each turn.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L46"
+   ]
+  },
+  {
+   "card": "Thassa, Deep-Dwelling",
+   "why": "Repeat ETB Marks.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L29"
+   ]
+  },
+  {
+   "card": "The Master, Mesmerist",
+   "why": "Targeted goad with skulk.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L28"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No generic Oracle/Breach (decisions L63).",
+   "No Propaganda / No Mercy (L61)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L63",
+   "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L61"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Goad / Clues / forced combat (decisions L73)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L73"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 701.15a",
+   "note": "Goad.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:701.15a"
+   ]
+  },
+  {
+   "rule": "CR 701.16a",
+   "note": "Investigate.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:701.16a"
+   ]
+  },
+  {
+   "rule": "CR 400.7",
+   "note": "New object after blink.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:400.7"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "combat damage / attack triggers",
+    "goad / forced attacks",
+    "tokens"
+   ],
+   "hooked_cards": 32,
+   "role_counts": {
+    "counter": 4,
+    "draw": 12,
+    "protection": 2,
+    "ramp": 15,
+    "removal": 5,
+    "tutor": 3,
+    "wipe": 3
+   },
+   "lands": 33,
+   "edhrec_pages": [
+    "the-rani"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/The_Rani_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/The_Rani_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/verification/The_Rani_Whole_List_Audit_2026-10-15.md",
+   "source_archive:refinement/decklists/The_Rani_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 55)"
+ }
+}

@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 55 (M2: commander blueprints, batch 4; Norman Osborn registry id)](#2026-10-16--bot-cycle-55-m2-commander-blueprints-batch-4-norman-osborn-registry-id)
 - [2026-10-16 — Bot cycle 54 (phase 2 / M1: batch E)](#2026-10-16--bot-cycle-54-phase-2--m1-batch-e)
 - [2026-10-16 — Bot cycle 53 (M2: commander blueprints, batch 3; EDH Packages deck labels)](#2026-10-16--bot-cycle-53-m2-commander-blueprints-batch-3-edh-packages-deck-labels)
 - [2026-10-16 — Bot cycle 52 (M2: commander blueprints, batch 2)](#2026-10-16--bot-cycle-52-m2-commander-blueprints-batch-2)
@@ -69,6 +70,33 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 55 (M2: commander blueprints, batch 4; Norman Osborn registry id)
+- **Batch 4: 16 decks**, Rograkh + Silas Renn … Zevlor, Elturel Exile alphabetically (Rograkh + Silas, Saruman, Sauron (Lord of the Rings), Sauron (the Dark Lord), Sedris, Sol'kanar the Swamp King, Sol'Kanar the Tainted, Tetsuo Umezawa, Tetsuo (Imperial Champion), The Madcap Jester, The Rani, The Valeyard, Thraximundar, Tresserhorn's Lord (Returned), Wick, Zevlor). **62/62 blueprints**: M2 criteria 1–3 are met; criteria 4–5 need Cory. Same standard as batches 1–3: every field carries an `evidence_class`, a `confidence` and line-numbered evidence.
+- **Ceilings:** all 16 have a source ceiling (Tresserhorn's was recovered from its verification record, L15; the registry's extractor had found none); **0 disagreements**. Bracket 5 for Rograkh + Silas and The Madcap Jester; Bracket 4 for the other 14. Across all 62 decks there are 0 disagreements, and 6 decks still have no source ceiling.
+- **Honest commander roles:**
+  - `supporting`: Sol'kanar the Swamp King. None of the 13 Spellbook infinites uses him, and Demon's Horn duplicates his trigger.
+  - `significant`, not `central`:
+    - Rograkh + Silas: a zero-mana enabler plus a color-identity partner; all 7 combos are commander-free.
+    - Sol'Kanar the Tainted: all 4 Demonic Pact gifts work without him.
+    - The Madcap Jester: the kills are generic Oracle/Breach lines.
+    - Thraximundar: none of the 17 combos names him, though he can be Gravecrawler's other Zombie.
+  - `central`, with caveats:
+    - Saruman's only combo doesn't need him.
+    - Both Saurons, Tetsuo Umezawa, The Rani, The Valeyard and Zevlor have no compact kill (the Valeyard is low-end B4).
+    - Sedris, Tetsuo (Imperial Champion), Tresserhorn (6 of 21 combos) and Wick (12 of 13) are truly commander-native.
+- **Source issues flagged (not changed):**
+  - Thraximundar is called "seven-mana" in the source; Oracle {4}{U}{B}{R} is mana value 6.
+  - Tresserhorn's source verification (L48, L67) says the card is legal now and the future-release exception is stale. The Scryfall cache shows `not_legal`, and the Madcap source says the same set is legal from 2026-11-13. The registry keeps `PENDING_RELEASE`; Cory decides.
+  - The Rani's decisions file still reads "not user approval" (L7); the approval record is the authority.
+- **Norman Osborn registry id:** `Goben__Gene_Splice_Savant` → `Norman_Osborn_Green_Goblin`.
+  - The correction is made in `grixis_authority.py` (`DECK_ID_CORRECTIONS`, `registry_id()`/`source_deck_id()`). The registry entry gets a `deck_id_provenance` block: source id, cycle, date, note and evidence (the source override key, the approval record, Grixis Corrections L178).
+  - The source archive and the frozen baseline still use the old key. Every source-keyed lookup (summary, Spellbook, exceptions, refine state) translates back.
+  - Schema: optional `deck_id_provenance`. New test `tests/test_deck_id_corrections.py` (4 tests).
+- **M1 citations:** merged batch E (cycle 54) from main. Ten blueprints now cite their M1 reviews (Norman, both Obekas, Parnesse, Rograkh + Silas, Saruman, both Saurons, Sedris, Sol'kanar the Swamp King). M1 flags are carried as their own keys: rogsi-04 (Vexing Bauble self-counter), saruman-07 (Black Gate wording), parnesse-07 (Bonus Round symmetric) and parnesse-10 (`test_required`).
+- **Not touched:** `grixis/interactions/`, `data/grixis_interactions/`, `scripts/grixis_interactions.py` (read only). No decklist changed.
+- **Files:** `data/grixis/blueprints/` (16 new, 10 M1-patched, Norman's id), `grixis/blueprints/`, `data/grixis/registry.json`, `data/grixis/schemas/registry.schema.json`, `scripts/grixis_authority.py`, `scripts/grixis_blueprints.py`, `scripts/grixis_refine.py`, `tests/test_deck_id_corrections.py`, `grixis/Grixis Authority Model.md`, `README.md`, `data/kb_index.json`.
+- **Next:** Cory reviews a sample of blueprints (criterion 4) and accepts M2 (criterion 5). Phases 3–6 follow, with M6 gated on M2+M4.
 
 ## 2026-10-16 — Bot cycle 54 (phase 2 / M1: batch E)
 - **Batch E is done** (the next 10 decks alphabetically, Norman Osborn through Sol'kanar the Swamp King): **66 rulings** (62 verified, 1 uncertain, 3 flags). Overall: 52/62 decks and 533 rulings. Each review hashes the deck's canonical project list from the M0 registry (read-only). Norman Osborn and Sol'kanar the Swamp King use their source baselines. Every record carries an `evidence_class`. No decklist changed.

@@ -1,0 +1,629 @@
+{
+ "schema_version": 2,
+ "deck_id": "Thraximundar",
+ "slug": "thraximundar",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 55,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:6a7f264373b7f45348bf2de9c569b7a41d4958106f5791dcf5642dce5e16af1d",
+ "commanders": {
+  "value": [
+   {
+    "name": "Thraximundar",
+    "oracle_id": "9e0e4217-fefe-48dd-9153-032460192b19",
+    "oracle_text": "Haste\nWhenever Thraximundar attacks, defending player sacrifices a creature of their choice.\nWhenever a player sacrifices a creature, you may put a +1/+1 counter on Thraximundar.",
+    "oracle_sha256": "sha256:1858842332c1bac65d70a9b356d874e1f14431a4091016576f4c9c653d88f3df",
+    "type_line": "Legendary Creature — Zombie Assassin"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Thraximundar"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Sacrifice aristocrats: edicts and forced sacrifices (Fleshbag, Plaguecrafter, Vona's Hunger, Flare of Malice, Call to the Grave, Grave Pact, Dictate of Erebos) shrink opposing boards while every sacrifice grows Thraximundar, and Cultist / Shizo make him an evasive commander-damage clock.",
+   "secondary": "Gravecrawler / Reassembling Skeleton loops with Phyrexian or Ashnod's Altar, Pitiless Plunderer, Rooftop Storm and drain payoffs (Blood Artist, Zulaport Cutthroat) for deterministic kills."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L11",
+   "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L63",
+   "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L83",
+   "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L89"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "significant",
+   "advances_plan": "Thraximundar's attack is an edict, he grows from every sacrifice by any player, and he is a Zombie that enables Gravecrawler.",
+   "honest_note": "Honest call: significant. None of the 17 Spellbook combos names him, though he can be Gravecrawler's 'another Zombie'. Without the loops he is a commander-damage clock. Source error flagged: the source repeatedly calls Thraximundar 'seven-mana' (decisions v2 L11, L33, L45), but the Oracle cost {4}{U}{B}{R} is mana value 6. This inflates the stated ramp need slightly; the list is unaffected. The approval uses the v2 decisions (approvals L14)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L11",
+   "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L33",
+   "source_archive:refinement/approvals/Thraximundar_Approved_2026-10-15.md#L14",
+   "spellbook:2577-4050"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "zombie-loops",
+   "kind": "combo",
+   "description": "Gravecrawler + Phyrexian Altar (with another Zombie), Rooftop Storm lines, or Reassembling Skeleton + Pitiless Plunderer + an Altar, finishing with Blood Artist, Zulaport, Goblin Bombardment or Altar of Dementia.",
+   "cards": [
+    "Gravecrawler",
+    "Phyrexian Altar",
+    "Rooftop Storm",
+    "Carrion Feeder",
+    "Pitiless Plunderer",
+    "Reassembling Skeleton",
+    "Ashnod's Altar",
+    "Blood Artist",
+    "Zulaport Cutthroat",
+    "Warren Soultrader"
+   ],
+   "enablers": [
+    "Diabolic Intent",
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:2577-4050",
+    "spellbook:2577-2842-5670",
+    "spellbook:1580-4050-4871",
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L83",
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L86",
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L87"
+   ]
+  },
+  {
+   "id": "commander-damage",
+   "kind": "natural",
+   "description": "A hasty, growing, evasive Thraximundar (Cultist of the Absolute, Shizo fear).",
+   "cards": [
+    "Thraximundar",
+    "Cultist of the Absolute",
+    "Shizo, Death's Storehouse"
+   ],
+   "enablers": [
+    "Accursed Marauder",
+    "Fleshbag Marauder",
+    "Innocent Blood",
+    "Plaguecrafter"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L37",
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L44"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "any-sacrifice-growth",
+   "cards": [
+    "Thraximundar",
+    "Accursed Marauder",
+    "Fleshbag Marauder",
+    "Innocent Blood",
+    "Plaguecrafter",
+    "Sheoldred's Edict",
+    "Necrotic Hex"
+   ],
+   "online_condition": "Any player sacrifices a creature.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Thraximundar",
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L89"
+   ]
+  },
+  {
+   "id": "pact-dictate",
+   "cards": [
+    "Grave Pact",
+    "Dictate of Erebos",
+    "Mayhem Devil"
+   ],
+   "online_condition": "Your own sacrifices.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L63"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:edicts",
+   "required": true,
+   "min_count": 10,
+   "role": "Forced sacrifice.",
+   "cards": [
+    "Accursed Marauder",
+    "Fleshbag Marauder",
+    "Innocent Blood",
+    "Plaguecrafter",
+    "Sheoldred's Edict",
+    "Necrotic Hex",
+    "Archfiend of Depravity",
+    "Vona's Hunger",
+    "Flare of Malice",
+    "Call to the Grave",
+    "Winter, Tormented Loner",
+    "Liliana, Dreadhorde General",
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L63",
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L69"
+   ]
+  },
+  {
+   "id": "pkg:outlets",
+   "required": true,
+   "min_count": 6,
+   "role": "Free sacrifice outlets.",
+   "cards": [
+    "Phyrexian Altar",
+    "Ashnod's Altar",
+    "Altar of Dementia",
+    "Carrion Feeder",
+    "Goblin Bombardment",
+    "Yawgmoth, Thran Physician",
+    "Warren Soultrader",
+    "Phyrexian Tower"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L83",
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L87"
+   ]
+  },
+  {
+   "id": "pkg:loop-pieces",
+   "required": true,
+   "min_count": 5,
+   "role": "Recursive bodies and payoffs.",
+   "cards": [
+    "Gravecrawler",
+    "Reassembling Skeleton",
+    "Pitiless Plunderer",
+    "Rooftop Storm",
+    "Blood Artist",
+    "Zulaport Cutthroat",
+    "Grimgrin, Corpse-Born"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L83",
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L86"
+   ]
+  },
+  {
+   "id": "pkg:commander-mana",
+   "required": true,
+   "min_count": 6,
+   "role": "Cast and recast an expensive commander.",
+   "cards": [
+    "Mana Vault",
+    "Sol Ring",
+    "Ancient Tomb",
+    "Cabal Coffers",
+    "Command Beacon",
+    "Dark Ritual",
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L33",
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L43",
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L45"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "any-player",
+   "summary": "Thraximundar triggers on any player's creature sacrifice, including costs (Diabolic Intent, Flare of Malice, Yawgmoth).",
+   "cards": [
+    "Thraximundar",
+    "Diabolic Intent",
+    "Flare of Malice"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Thraximundar",
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L89"
+   ]
+  },
+  {
+   "id": "call-spares-zombies",
+   "summary": "Call to the Grave spares Zombies, Thraximundar included.",
+   "cards": [
+    "Call to the Grave",
+    "Thraximundar"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L36"
+   ]
+  },
+  {
+   "id": "skeleton-ashnod",
+   "summary": "Skeleton + Plunderer + Ashnod's Altar nets one colorless mana per loop.",
+   "cards": [
+    "Reassembling Skeleton",
+    "Pitiless Plunderer",
+    "Ashnod's Altar"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L88"
+   ]
+  },
+  {
+   "id": "gravecrawler-zombie",
+   "summary": "Gravecrawler needs another Zombie to be cast from the graveyard; Thraximundar counts.",
+   "cards": [
+    "Gravecrawler",
+    "Thraximundar"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L83"
+   ]
+  },
+  {
+   "id": "mana-value-six",
+   "summary": "Thraximundar is mana value 6 ({4}{U}{B}{R}); the source says seven.",
+   "cards": [
+    "Thraximundar"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Thraximundar"
+   ]
+  },
+  {
+   "id": "force-cut",
+   "summary": "Force of Will was cut for Mana Vault because the blue pitch pool was too thin.",
+   "cards": [
+    "Mana Vault"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L33",
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L49"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Gravecrawler",
+   "via": [
+    "Diabolic Intent",
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:2577-4050",
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L38"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Gravecrawler",
+   "Reassembling Skeleton",
+   "Reanimate",
+   "Victimize",
+   "Wilhelt, the Rotcleaver",
+   "Liliana, Dreadhorde General"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L63"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Mana Drain, Fierce Guardianship, Feed the Swarm, Toxic Deluge, Cyclonic Rift, Vandalblast, edict suite.",
+   "protection": "Deflecting Swat, Lightning Greaves, Swiftfoot Boots, Fierce Guardianship.",
+   "mana": "36 lands with Cabal Coffers, Urborg and Command Beacon."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L43",
+   "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L45"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "commander-removal",
+   "description": "Repeated removal taxes a six-mana commander.",
+   "mitigations": [
+    "Command Beacon",
+    "Swiftfoot Boots"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L45"
+   ]
+  },
+  {
+   "id": "thin-counters",
+   "description": "Few counterspells after Force of Will was cut.",
+   "mitigations": [
+    "Mana Drain",
+    "Fierce Guardianship"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L49"
+   ]
+  },
+  {
+   "id": "graveyard-hate",
+   "description": "Graveyard hate stops Gravecrawler and Skeleton loops.",
+   "mitigations": [
+    "Edict plan",
+    "Commander damage"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "spellbook:2577-4050"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "medium",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "spellbook:2577-4050"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (approved v2 decisions)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L106"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "High Bracket 4: 17 Spellbook loops and strong tutors, but thin protection and a six-mana commander keep it short of cEDH. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L13",
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L78",
+    "spellbook:2577-4050"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Thraximundar"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 16,
+     "2": 206,
+     "3": 223,
+     "4": 90,
+     "5": 4
+    },
+    "decks_with_bracket": 539,
+    "share_b4_plus": 0.174,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__thraximundar.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Thraximundar",
+   "why": "Attack edict and growth from every sacrifice.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Thraximundar"
+   ]
+  },
+  {
+   "card": "Gravecrawler",
+   "why": "The core loop body.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "card": "Phyrexian Altar",
+   "why": "Pays for Gravecrawler.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:2577-4050"
+   ]
+  },
+  {
+   "card": "Grave Pact",
+   "why": "Turns your sacrifices into edicts.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L63"
+   ]
+  },
+  {
+   "card": "Cultist of the Absolute",
+   "why": "Evasive, protected commander clock.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L37"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No Thassa's Oracle / Consultation (v1 decisions L68; v2 L78).",
+   "Zombie tribal stays secondary (v2 L77)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_2026-10-15.md#L68",
+   "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L78",
+   "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md#L77"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Sacrifice / Zombie aristocrats / commander damage (approvals L27)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/approvals/Thraximundar_Approved_2026-10-15.md#L27"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 701.21a",
+   "note": "Sacrifice.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:701.21a"
+   ]
+  },
+  {
+   "rule": "CR 903.10a",
+   "note": "Commander damage.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:903.10a"
+   ]
+  },
+  {
+   "rule": "CR 702.36a",
+   "note": "Fear.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.36a"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "+1/+1 counters",
+    "combat damage / attack triggers",
+    "sacrifice"
+   ],
+   "hooked_cards": 39,
+   "role_counts": {
+    "counter": 2,
+    "draw": 7,
+    "protection": 3,
+    "ramp": 15,
+    "removal": 7,
+    "tutor": 3,
+    "wipe": 1
+   },
+   "lands": 36,
+   "edhrec_pages": [
+    "thraximundar"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_v2_2026-10-15.md",
+   "source_archive:refinement/decisions/Thraximundar_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Thraximundar_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/Thraximundar_Approval_Ready_Verification_v2_2026-10-15.md",
+   "source_archive:refinement/decklists/Thraximundar_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 55)"
+ }
+}

@@ -4,7 +4,7 @@
  "slug": "obeka-brute-chronologist",
  "version": 1,
  "status": "seeded",
- "cycle": 53,
+ "cycle": 55,
  "date": "2026-10-16",
  "canonical_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
  "commanders": {
@@ -40,7 +40,7 @@
   "value": {
    "level": "central",
    "advances_plan": "Obeka's end-the-turn is what makes the risky extra turns and temporary effects profitable.",
-   "honest_note": "Commander-native identity with one commander combo (Scepter + Final Fortune + Obeka). Sundial of the Infinite does the same job without her, and the Kiki/Dualcaster infinites are commander-free. On opponents' turns the active player decides whether to end the turn, so she can't erase liabilities then (blueprint L17). No M1 interaction review exists yet for this deck."
+   "honest_note": "Commander-native identity with one commander combo (Scepter + Final Fortune + Obeka). Sundial of the Infinite does the same job without her, and the Kiki/Dualcaster infinites are commander-free. On opponents' turns the active player decides whether to end the turn, so she can't erase liabilities then (blueprint L17). M1 review (obekabc-01..05, all verified) confirms the end-the-turn timing and both combos."
   },
   "evidence_class": "strategic_judgment",
   "confidence": "high",
@@ -233,10 +233,13 @@
    "cards": [
     "Obeka, Brute Chronologist"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "obekabc-01"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:obeka-brute-chronologist#obekabc-01",
     "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L17"
    ]
   },
@@ -246,10 +249,13 @@
    "cards": [
     "Obeka, Brute Chronologist"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "obekabc-01"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:obeka-brute-chronologist#obekabc-01",
     "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L18",
     "cr:724.1a"
    ]
@@ -260,10 +266,13 @@
    "cards": [
     "Obeka, Brute Chronologist"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "obekabc-03"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:obeka-brute-chronologist#obekabc-03",
     "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L20"
    ]
   },
@@ -274,11 +283,49 @@
     "Hellkite Courser",
     "Obeka, Brute Chronologist"
    ],
-   "m1_refs": [],
+   "m1_refs": [
+    "obekabc-04"
+   ],
    "evidence_class": "fact",
-   "confidence": "high",
+   "confidence": "verified",
    "evidence": [
+    "interaction:obeka-brute-chronologist#obekabc-04",
     "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L65"
+   ]
+  },
+  {
+   "id": "scepter-final-fortune",
+   "summary": "Isochron Scepter + Final Fortune + Obeka (or Sundial) is infinite turns: end the turn on the lose trigger.",
+   "cards": [
+    "Isochron Scepter",
+    "Final Fortune",
+    "Obeka, Brute Chronologist",
+    "Sundial of the Infinite"
+   ],
+   "m1_refs": [
+    "obekabc-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:obeka-brute-chronologist#obekabc-02"
+   ]
+  },
+  {
+   "id": "hasty-token-loops",
+   "summary": "Kiki-Jiki + Delina and Dualcaster Mage + Twinflame make infinite hasty tokens.",
+   "cards": [
+    "Kiki-Jiki, Mirror Breaker",
+    "Delina, Wild Mage",
+    "Dualcaster Mage"
+   ],
+   "m1_refs": [
+    "obekabc-05"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:obeka-brute-chronologist#obekabc-05"
    ]
   }
  ],
@@ -576,6 +623,6 @@
    "source_archive:refinement/decklists/Obeka_Brute_Chronologist_Approved_2026-10-15.txt"
   ],
   "reviewed_by": null,
-  "author": "GrokBot (Bot cycle 53)"
+  "author": "GrokBot (Bot cycle 55)"
  }
 }

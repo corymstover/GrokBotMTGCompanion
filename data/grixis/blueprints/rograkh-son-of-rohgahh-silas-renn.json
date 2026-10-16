@@ -1,0 +1,661 @@
+{
+ "schema_version": 2,
+ "deck_id": "RogSi",
+ "slug": "rograkh-son-of-rohgahh-silas-renn",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 55,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+ "commanders": {
+  "value": [
+   {
+    "name": "Rograkh, Son of Rohgahh",
+    "oracle_id": "584cee10-f18c-4633-95cc-f2e7a11841ac",
+    "oracle_text": "First strike, menace, trample\nPartner (You can have two commanders if both have partner.)",
+    "oracle_sha256": "sha256:729d25fef283b3165f711ae69e25b961ba1347a10559fe6d9009ae5c9fd67d2e",
+    "type_line": "Legendary Creature — Kobold Warrior"
+   },
+   {
+    "name": "Silas Renn, Seeker Adept",
+    "oracle_id": "0dc78b1e-581e-4f28-bf35-e2082553d6a9",
+    "oracle_text": "Deathtouch\nWhenever Silas Renn deals combat damage to a player, choose target artifact card in your graveyard. You may cast that card this turn.\nPartner (You can have two commanders if both have partner.)",
+    "oracle_sha256": "sha256:40be9320ea7a2b0f7cfb163e49b45c8df322cb2510a7626bbb73bfead8f5c81d",
+    "type_line": "Legendary Artifact Creature — Human"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Rograkh, Son of Rohgahh",
+   "oracle:Silas Renn, Seeker Adept"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "RogSi turbo-naus: a zero-mana commander plus Moxen, rituals and zero-mana artifacts make early mana, then Ad Nauseam, Necropotence, Necrodominance or a wheel reloads the hand. Protection (Defense Grid, Hexing Squelcher, Samut, Vexing Bauble) pushes through a compact win.",
+   "secondary": "Final Fortune and Warrior's Oath turn an end-step reload or an unsafe window into an extra turn to finish. Mnemonic Betrayal and Yawgmoth's Will recover resources."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L18",
+   "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L19",
+   "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L20",
+   "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L24"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "significant",
+   "advances_plan": "Rograkh is a free creature on turn 0 that turns on Mox Amber, Springleaf Drum, Paradise Mantle, the free sacrifice tutors (Culling the Weak, Infernal Plunge, Diabolic Intent) and the commander-conditional free spells (Fierce Guardianship, Deflecting Swat, Deadly Rollick, Jeska's Will, Flare of Duplication).",
+   "honest_note": "The pair is deliberately asymmetric (blueprint L11): Rograkh is a cost-free enabler, and Silas Renn is mostly color identity; the strongest games often never cast Silas (L14). None of the 7 Spellbook combos uses either commander; the wins are the generic cEDH Oracle and Breach lines. The commanders make those lines cheaper, not possible. M1 review (rogsi-01..08) verifies the partner and Silas rules and flags Vexing Bauble as a self-counter risk (rogsi-04)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L13",
+   "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L14",
+   "spellbook:1295-3093"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "oracle",
+   "kind": "combo",
+   "description": "Thassa's Oracle + Demonic Consultation or Tainted Pact.",
+   "cards": [
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1295-3093",
+    "spellbook:742-1295"
+   ]
+  },
+  {
+   "id": "breach",
+   "kind": "combo",
+   "description": "Underworld Breach + LED/Lotus Petal + Brain Freeze, + Wheel of Fortune (LED or Jeska's Will), or + Grinding Station with a zero-mana artifact.",
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Brain Freeze",
+    "Wheel of Fortune",
+    "Jeska's Will",
+    "Grinding Station",
+    "Mox Amber"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1368-3518-4856",
+    "spellbook:1368-1414-4856",
+    "spellbook:1368-2706-3518",
+    "spellbook:1368-1878-2706",
+    "spellbook:1368-3698--44"
+   ]
+  },
+  {
+   "id": "extra-turn-finish",
+   "kind": "alternate",
+   "description": "Final Fortune / Warrior's Oath: an extra turn to finish after a reload; the delayed loss trigger must be beaten.",
+   "cards": [
+    "Final Fortune",
+    "Warrior's Oath"
+   ],
+   "enablers": [
+    "Ad Nauseam",
+    "Necrodominance"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L24",
+    "source_archive:refinement/decisions/RogSi_Candidate_Decisions_2026-10-15.md#L38"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "zero-mana-commander",
+   "cards": [
+    "Rograkh, Son of Rohgahh",
+    "Mox Amber",
+    "Springleaf Drum",
+    "Paradise Mantle",
+    "Culling the Weak",
+    "Infernal Plunge",
+    "Diabolic Intent"
+   ],
+   "online_condition": "Rograkh cast for {0} from the command zone.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Rograkh, Son of Rohgahh",
+    "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L13",
+    "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L35"
+   ]
+  },
+  {
+   "id": "reloads",
+   "cards": [
+    "Ad Nauseam",
+    "Necropotence",
+    "Necrodominance",
+    "Rhystic Study",
+    "Mystic Remora",
+    "Wheel of Fortune",
+    "Windfall"
+   ],
+   "online_condition": "Mana from the fast-mana spine.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L19"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:commander-native",
+   "required": true,
+   "min_count": 8,
+   "role": "Cards that get much better with a free creature commander in play.",
+   "cards": [
+    "Mox Amber",
+    "Springleaf Drum",
+    "Paradise Mantle",
+    "Culling the Weak",
+    "Infernal Plunge",
+    "Diabolic Intent",
+    "Deflecting Swat",
+    "Fierce Guardianship",
+    "Deadly Rollick",
+    "Jeska's Will",
+    "Flare of Duplication"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L34",
+    "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L35",
+    "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L36",
+    "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L37",
+    "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L38"
+   ]
+  },
+  {
+   "id": "pkg:protection",
+   "required": true,
+   "min_count": 10,
+   "role": "Proactive and free protection for the win turn.",
+   "cards": [
+    "Defense Grid",
+    "Hexing Squelcher",
+    "Samut, Tyrant of Naktamun",
+    "Vexing Bauble",
+    "Force of Will",
+    "Force of Negation",
+    "Pact of Negation",
+    "Mental Misstep",
+    "Flusterstorm",
+    "Mindbreak Trap",
+    "Swan Song",
+    "Pyroblast",
+    "Red Elemental Blast",
+    "Daze"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L20"
+   ]
+  },
+  {
+   "id": "pkg:tutors",
+   "required": true,
+   "min_count": 8,
+   "role": "Find a win.",
+   "cards": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Imperial Seal",
+    "Mystical Tutor",
+    "Demonic Counsel",
+    "Beseech the Mirror",
+    "Wishclaw Talisman",
+    "Gamble",
+    "Praetor's Grasp",
+    "Diabolic Intent"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/RogSi_Candidate_Decisions_2026-10-15.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "silas-permission",
+   "summary": "Silas's combat-damage trigger lets you cast the targeted artifact that turn; normal timing still applies.",
+   "cards": [
+    "Silas Renn, Seeker Adept"
+   ],
+   "m1_refs": [
+    "rogsi-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:rograkh-son-of-rohgahh-silas-renn#rogsi-03",
+    "source_archive:refinement/decisions/RogSi_Candidate_Decisions_2026-10-15.md#L35",
+    "oracle:Silas Renn, Seeker Adept"
+   ]
+  },
+  {
+   "id": "bauble-symmetry",
+   "summary": "Vexing Bauble also counters your own no-mana spells; sequence or sacrifice it first. Hexing Squelcher makes your spells uncounterable.",
+   "cards": [
+    "Vexing Bauble",
+    "Hexing Squelcher"
+   ],
+   "m1_refs": [],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/RogSi_Candidate_Decisions_2026-10-15.md#L36"
+   ]
+  },
+  {
+   "id": "samut-split-second",
+   "summary": "Samut gives your instants and sorceries split second; triggered abilities like Vexing Bauble still happen.",
+   "cards": [
+    "Samut, Tyrant of Naktamun",
+    "Vexing Bauble"
+   ],
+   "m1_refs": [
+    "rogsi-05"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:rograkh-son-of-rohgahh-silas-renn#rogsi-05",
+    "source_archive:refinement/decisions/RogSi_Candidate_Decisions_2026-10-15.md#L37",
+    "cr:702.61a"
+   ]
+  },
+  {
+   "id": "extra-turn-loss",
+   "summary": "Final Fortune and Warrior's Oath each create a lose-the-game trigger at that extra turn's end step.",
+   "cards": [
+    "Final Fortune",
+    "Warrior's Oath"
+   ],
+   "m1_refs": [
+    "rogsi-07"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:rograkh-son-of-rohgahh-silas-renn#rogsi-07",
+    "source_archive:refinement/decisions/RogSi_Candidate_Decisions_2026-10-15.md#L38"
+   ]
+  },
+  {
+   "id": "demonic-counsel",
+   "summary": "Before delirium, Demonic Counsel can only find a Demon card.",
+   "cards": [
+    "Demonic Counsel"
+   ],
+   "m1_refs": [
+    "rogsi-08"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:rograkh-son-of-rohgahh-silas-renn#rogsi-08",
+    "source_archive:refinement/decisions/RogSi_Candidate_Decisions_2026-10-15.md#L39"
+   ]
+  },
+  {
+   "id": "bauble-m1-flag",
+   "summary": "M1 dependency-risk flag: Vexing Bauble counters the deck's own free spells and {0} escapes; have Hexing Squelcher out or sacrifice Bauble first.",
+   "cards": [
+    "Vexing Bauble",
+    "Hexing Squelcher"
+   ],
+   "m1_refs": [
+    "rogsi-04"
+   ],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "interaction:rograkh-son-of-rohgahh-silas-renn#rogsi-04"
+   ]
+  },
+  {
+   "id": "partner-tax",
+   "summary": "Rograkh and Silas have separate commander tax; Rograkh is a free red legendary body.",
+   "cards": [
+    "Rograkh, Son of Rohgahh",
+    "Silas Renn, Seeker Adept"
+   ],
+   "m1_refs": [
+    "rogsi-01",
+    "rogsi-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:rograkh-son-of-rohgahh-silas-renn#rogsi-01",
+    "interaction:rograkh-son-of-rohgahh-silas-renn#rogsi-02"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Thassa's Oracle",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Imperial Seal",
+    "Mystical Tutor",
+    "Diabolic Intent"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1295-3093"
+   ]
+  },
+  {
+   "target": "Lion's Eye Diamond",
+   "via": [
+    "Beseech the Mirror",
+    "Wishclaw Talisman",
+    "Gamble"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1368-3518-4856"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Underworld Breach",
+   "Yawgmoth's Will",
+   "Mnemonic Betrayal",
+   "Silas Renn, Seeker Adept"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/RogSi_Candidate_Decisions_2026-10-15.md#L40"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Full free-counter suite.",
+   "protection": "Defense Grid, Hexing Squelcher, Samut, Vexing Bauble.",
+   "mana": "24 lands plus Moxen, rituals, LED, Lotus Petal and zero-mana artifacts."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/RogSi_Candidate_Decisions_2026-10-15.md#L18"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "graveyard-hate",
+   "description": "Graveyard hate stops Breach and Mnemonic Betrayal.",
+   "mitigations": [
+    "Oracle lines"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md"
+   ]
+  },
+  {
+   "id": "self-bauble",
+   "description": "Vexing Bauble can counter your own free spells.",
+   "mitigations": [
+    "Sequencing",
+    "Hexing Squelcher"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/RogSi_Candidate_Decisions_2026-10-15.md#L36"
+   ]
+  },
+  {
+   "id": "naus-life",
+   "description": "Ad Nauseam and Necropotence cost a lot of life against fast tables.",
+   "mitigations": [
+    "Low curve"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L19"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "low",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "spellbook:1295-3093"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Power Bracket 5 — cEDH (blueprint)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L9"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "5",
+    "label": "Bracket 5: the classic RogSi turbo-naus list, tournament-dominant (1,767 parsed lists). Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L28",
+    "spellbook:1295-3093"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "5",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#RogSi"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 12,
+     "2": 22,
+     "3": 63,
+     "4": 163,
+     "5": 3378
+    },
+    "decks_with_bracket": 3638,
+    "share_b4_plus": 0.973,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__rograkh-son-of-rohgahh-silas-renn-seeker-adept.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Rograkh, Son of Rohgahh",
+   "why": "Free creature commander that turns on the free-spell and Mox suite.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Rograkh, Son of Rohgahh"
+   ]
+  },
+  {
+   "card": "Mox Amber",
+   "why": "Zero-mana mana with Rograkh out.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L35"
+   ]
+  },
+  {
+   "card": "Culling the Weak",
+   "why": "Sacrifices Rograkh for BBBB.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L34"
+   ]
+  },
+  {
+   "card": "Ad Nauseam",
+   "why": "The main reload.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L19"
+   ]
+  },
+  {
+   "card": "Underworld Breach",
+   "why": "Primary combo engine.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1368-3518-4856"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Not a full artifact/Monolith conversion (decisions L30).",
+   "No Commandeer/Misdirection (L29); no Chromatic Star filler."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/RogSi_Candidate_Decisions_2026-10-15.md#L30",
+   "source_archive:refinement/decisions/RogSi_Candidate_Decisions_2026-10-15.md#L29"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Turbo Naus / Underworld Breach / Fast Mana (blueprint L43)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L43"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 702.124a",
+   "note": "Partner.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.124a"
+   ]
+  },
+  {
+   "rule": "CR 702.61a",
+   "note": "Split second.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.61a"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "artifacts",
+    "combat damage / attack triggers"
+   ],
+   "hooked_cards": 21,
+   "role_counts": {
+    "counter": 12,
+    "draw": 8,
+    "protection": 1,
+    "ramp": 23,
+    "removal": 5,
+    "tutor": 9,
+    "wipe": 2
+   },
+   "lands": 24,
+   "edhrec_pages": [
+    "rograkh-son-of-rohgahh-silas-renn-seeker-adept"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md",
+   "source_archive:refinement/decisions/RogSi_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/RogSi_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/RogSi_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/verification/RogSi_Whole_List_Audit_2026-10-15.md",
+   "source_archive:refinement/decklists/RogSi_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 55)"
+ }
+}
