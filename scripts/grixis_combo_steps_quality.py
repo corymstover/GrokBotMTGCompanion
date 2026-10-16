@@ -104,9 +104,6 @@ def line_record(combo, cache):
             "evidence_class": "derived_metric", "confidence": "low", "evidence": [f"spellbook:{cid}"],
             "limitations": ["No cached Commander Spellbook step record was found for this line."],
         }
-    raw = {k: r.get(k) or ([]) if k == "produces" else r.get(k) or "" for k in
-           ("mana_needed", "easy_prerequisites", "notable_prerequisites", "notes", "produces", "steps")}
-    # The dict comprehension above is intentionally replaced below for clarity around list-vs-string defaults.
     raw = {
         "mana_needed": r.get("mana_needed") or "",
         "easy_prerequisites": r.get("easy_prerequisites") or "",
