@@ -19,7 +19,7 @@ DEST = {
     "battlefield": re.compile(r"put (?:it|that card|the card) onto the battlefield", re.I),
     "top": re.compile(r"put (?:it|that card|the card) on top of your library", re.I),
 }
-MILL = re.compile(r"\bmill (a|an|one|two|three|four|five|six|seven|eight|nine|ten|\d+) cards?\b", re.I)
+MILL = re.compile(r"\bmills? (a|an|one|two|three|four|five|six|seven|eight|nine|ten|\d+) cards?\b", re.I)
 SURVEIL = re.compile(r"\bsurveil (one|two|three|four|five|six|seven|eight|nine|ten|\d+)\b", re.I)
 
 
@@ -102,6 +102,10 @@ def graveyard_parse(name, text, type_line):
             return {"kind": "selected_to_graveyard", "mode": mode, "target": spec, "amount": 1}, None
         mm = MILL.search(sent)
         if mm:
+            pre = sent[:mm.start()].lower()
+            if re.search(r"(?:target|each) (?:player|opponent)|(?:an|each) opponent", pre):
+                reasons.append("opponent/other-player mill is not modelled as self graveyard setup")
+                continue
             mode, why = _mode(sent, type_line, mm.start())
             if not mode:
                 reasons.append(why)
@@ -114,7 +118,7 @@ def graveyard_parse(name, text, type_line):
                 reasons.append(why)
                 continue
             return {"kind": "surveil", "mode": mode, "amount": _num(sv.group(1))}, None
-    if re.search(r"search your library[^.]{0,100}graveyard|\bmill\b|\bsurveil\b", t, re.I):
+    if re.search(r"search your library[^.]{0,100}graveyard|\bmills?\b|\bsurveils?\b", t, re.I):
         return None, (reasons[0] if reasons else "variable/qualified or otherwise unsupported graveyard-setup wording")
     return None, None
 
@@ -248,19 +252,19 @@ def repeatable_uses(games, n, ctx, T):
     creature = "Creature" in ctx["cards"][n]["type_line"]
     total = 0.0
     for _, tr in games:
-        prev, arrival, k = set(), None, 0
+        prev, k = set(), 0
         for s in tr:
             if s["turn"] > T:
                 break
             here = n in s.get("battlefield", [])
-            if here and arrival is None:
-                arrival = s["turn"]
+            arrived = here and n not in prev
             if rule["mode"] == "upkeep":
-                k += 1 if n in prev else 0
+                # End-step trace cannot prove a trigger if the card vanished during the turn; require it before and after.
+                k += 1 if here and n in prev else 0
             elif here:
                 cost = rule["cost"]
-                if cost["tap"] and creature and s["turn"] == arrival:
-                    pass
+                if cost["tap"] and creature and arrived:
+                    pass  # summoning sickness resets on every re-entry
                 elif _unspent(s) >= cost["mana"]:
                     k += 1
             prev = set(s.get("battlefield", []))

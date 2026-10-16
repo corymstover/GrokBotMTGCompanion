@@ -16,7 +16,7 @@ def test_graveyard_setup_parses_selected_tutor_mill_and_surveil():
     assert why is None and r["kind"] == "selected_to_graveyard" and r["mode"] == "spell"
     assert r["target"]["kind"] == "any"
 
-    r, why = tutors.graveyard_parse("Millstone", "{2}, {T}: Target player mills two cards.", "Artifact")
+    r, why = tutors.graveyard_parse("Millstone", "{2}, {T}: Mill two cards.", "Artifact")
     assert why is None and r["kind"] == "mill" and r["mode"] == "activated" and r["amount"] == 2
 
     r, why = tutors.graveyard_parse("Spy", "When Spy enters, surveil 3.", "Creature")

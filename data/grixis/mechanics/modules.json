@@ -1,5 +1,5 @@
 {
- "framework_version": "1.2-mech.7",
+ "framework_version": "1.2-mech.8",
  "modules": [
   {
    "assumptions": [
@@ -348,6 +348,50 @@
   },
   {
    "assumptions": [
+    "spell events use the v1.1 cast trace; ETB uses arrival; your-upkeep triggers begin the turn after arrival",
+    "activated setup is one potential use per own turn while the permanent is on the battlefield (cost not paid)",
+    "surveil N is reported as N cards of selection capacity and zero guaranteed graveyard cards"
+   ],
+   "confidence": "low",
+   "determinism": "seeded paired v1.1 games; derived from the deterministic zone/mana trace",
+   "does_not_model": [
+    "which random cards are milled",
+    "variable X/equal-to/for-each mill counts",
+    "opponent mill",
+    "conditional triggers other than ETB/your upkeep",
+    "mana/tap/non-mana cost affordability of activated setup",
+    "strategic value of the tutored/milled card",
+    "multiplayer win rates (never produced)"
+   ],
+   "evidence_class": "test_result",
+   "family": "graveyard setup/tutoring",
+   "id": "graveyard_tutoring",
+   "limitations": [
+    "This module measures setup opportunity, not actual reanimation/combo conversion."
+   ],
+   "metrics": [
+    "graveyard_setup_events_by_turn",
+    "graveyard_cards_added_by_turn",
+    "surveil_capacity_by_turn"
+   ],
+   "models": [
+    "supported search-to-your-graveyard effects: event opportunities and selected cards put into the graveyard",
+    "fixed-number self-mill: cards milled by turn 4/6/8/10",
+    "fixed-number surveil: cards looked at/ordered as graveyard-selection capacity, not assumed to be binned"
+   ],
+   "parameters": {
+    "turns": [
+     4,
+     6,
+     8,
+     10
+    ]
+   },
+   "test_file": "tests/test_mech_tutor_semantics.py",
+   "version": "1"
+  },
+  {
+   "assumptions": [
     "the permanent stays on the battlefield (death-triggered draw uses death_triggers v2 semantics and the death layer)",
     "'at the beginning of each upkeep/end step' fires on every player's turn: x4 (N_PLAYERS)",
     "loots (draw then discard) are 0 net cards; 'each player draws' counts only your draw (flagged symmetric)",
@@ -406,6 +450,48 @@
    },
    "test_file": "tests/test_mech.py",
    "version": "2"
+  },
+  {
+   "assumptions": [
+    "one supported activated use per own turn; colored pips count as one mana each",
+    "a creature's {T} tutor cannot activate on its arrival turn; other summoning-sickness nuances are not inferred",
+    "upkeep tutor fires only if the permanent was already present in the prior end-of-turn trace"
+   ],
+   "confidence": "low",
+   "determinism": "seeded paired v1.1 games; derived from the deterministic zone/mana trace",
+   "does_not_model": [
+    "one-shot spell/ETB tutors already covered by v1.1",
+    "subtype/color/mana-value/legendary or other target qualifiers",
+    "non-mana activation costs",
+    "conditional/other triggered tutor timings",
+    "opponent tutors",
+    "the value of the selected card",
+    "multiplayer win rates (never produced)"
+   ],
+   "evidence_class": "test_result",
+   "family": "repeatable tutors",
+   "id": "repeatable_tutors",
+   "limitations": [
+    "Readiness is an opportunity count, not proof that using the tutor is strategically correct."
+   ],
+   "metrics": [
+    "repeatable_tutor_uses_by_turn"
+   ],
+   "models": [
+    "supported activated library tutors: turns the permanent is on the battlefield with enough end-of-turn unspent mana",
+    "supported 'at the beginning of your upkeep' library tutors: trigger opportunities beginning after the permanent arrives",
+    "simple any-card/type/union/intersection/nonland-permanent target classes and destinations hand/battlefield/top"
+   ],
+   "parameters": {
+    "turns": [
+     4,
+     6,
+     8,
+     10
+    ]
+   },
+   "test_file": "tests/test_mech_tutor_semantics.py",
+   "version": "1"
   },
   {
    "assumptions": [
@@ -704,11 +790,9 @@
   "commander_specific",
   "death_other",
   "discard",
-  "graveyard_tutoring",
   "led_breach_sequences",
   "life_loss",
   "opponent_dependent_draw",
-  "repeatable_tutors",
   "sacrifice_other",
   "stax_tax",
   "tokens_other"
