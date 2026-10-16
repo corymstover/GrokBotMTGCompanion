@@ -1,0 +1,679 @@
+{
+ "schema_version": 2,
+ "deck_id": "Missy",
+ "slug": "missy",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 53,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:f8f18bbca5711b524143d1a8797cdda0d8b4caf298448a8a63f5b02a842aeabb",
+ "commanders": {
+  "value": [
+   {
+    "name": "Missy",
+    "oracle_id": "905610cd-1461-4f5a-b9c8-19b193b9d513",
+    "oracle_text": "Whenever another nonartifact creature dies, return it to the battlefield under your control face down and tapped. It's a 2/2 Cyberman artifact creature.\nAt the beginning of your end step, each opponent faces a villainous choice — Each artifact creature you control deals 1 damage to that opponent, or you draw a card and chaos ensues.",
+    "oracle_sha256": "sha256:f44ec2e42aa25224b7695786e4ebbadcce8e3e6134a4e43267a3b7517b25dd68",
+    "type_line": "Legendary Creature — Time Lord Rogue"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Missy"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Nonartifact death → Missy returns it face down as a 2/2 Cyberman artifact → turn it face up → the printed nonartifact creature can die again. Free sacrifice outlets plus zero-cost-reveal morphs make this a commander-native infinite.",
+   "secondary": "Steal opponents' dead nonartifact creatures through edicts and nonartifact sweepers, build a Cyberman army for the villainous-choice end step, and drain with aristocrats."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L28",
+   "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L48"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Missy is the recursion engine and a piece in every one of the 17 Spellbook infinites in the list.",
+   "honest_note": "This is genuinely commander-native: Missy + free outlet + Ruthless Ripper/Dragon's Eye Savants/Horde Ambusher is three cards, two of them tutorable. The cost is a six-mana commander, which the source names as the main reason for Bracket 4 (blueprint L42). The cycle 51 M1 review (missy-01..09, all verified) confirms the loop rules."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L35",
+   "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L42",
+   "spellbook:1794-2292-4424"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "missy-morph-loop",
+   "kind": "combo",
+   "description": "Missy + a free sacrifice outlet + Ruthless Ripper, Dragon's Eye Savants or Horde Ambusher (reveal-a-card morph costs): unbounded deaths, damage via Bombardment or drain, mill via Altar of Dementia.",
+   "cards": [
+    "Missy",
+    "Ruthless Ripper",
+    "Dragon's Eye Savants",
+    "Horde Ambusher",
+    "Ashnod's Altar",
+    "Viscera Seer",
+    "Phyrexian Altar",
+    "Goblin Bombardment",
+    "Altar of Dementia"
+   ],
+   "enablers": [
+    "Blood Artist",
+    "Zulaport Cutthroat",
+    "Mayhem Devil"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1794-2034-4424",
+    "spellbook:1794-2292-4424",
+    "spellbook:1794-4050-4424",
+    "spellbook:1794-4424-5147",
+    "spellbook:1794-4424-5256",
+    "spellbook:2034-3565-4424",
+    "spellbook:2292-3565-4424",
+    "spellbook:3565-4050-4424",
+    "spellbook:3565-4424-5147",
+    "spellbook:3565-4424-5256",
+    "spellbook:1045-2034-4424",
+    "spellbook:1045-2292-4424",
+    "spellbook:1045-4050-4424",
+    "spellbook:1045-4424-5147",
+    "spellbook:1045-4424-5256"
+   ]
+  },
+  {
+   "id": "haruspex-ixidor",
+   "kind": "combo",
+   "description": "Missy + Phyrexian Altar + Grim Haruspex; Missy + Ixidor + Pitiless Plunderer + Ashnod's Altar.",
+   "cards": [
+    "Missy",
+    "Phyrexian Altar",
+    "Grim Haruspex",
+    "Ixidor, Reality Sculptor",
+    "Pitiless Plunderer",
+    "Ashnod's Altar"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:631-4050-4424",
+    "spellbook:419-2034-4424-4871"
+   ]
+  },
+  {
+   "id": "villainous-choice",
+   "kind": "natural",
+   "description": "End-step villainous choice: each artifact creature deals 1 damage, scaled by Cybermen and The Valeyard.",
+   "cards": [
+    "Missy",
+    "The Valeyard"
+   ],
+   "enablers": [
+    "Cyberman Patrol",
+    "Cybermen Squadron",
+    "Ashad, the Lone Cyberman",
+    "The Cyber-Controller"
+   ],
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Missy",
+    "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L33"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "cyberman-conversion",
+   "cards": [
+    "Missy",
+    "Grave Pact",
+    "Plaguecrafter",
+    "Feed the Swarm",
+    "Toxic Deluge",
+    "Their Name Is Death",
+    "Death in Heaven"
+   ],
+   "online_condition": "Missy in play while nonartifact creatures die.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Missy",
+    "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L19",
+    "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L22"
+   ]
+  },
+  {
+   "id": "aristocrats",
+   "cards": [
+    "Blood Artist",
+    "Zulaport Cutthroat",
+    "Mayhem Devil",
+    "Reckless Fireweaver",
+    "Pitiless Plunderer",
+    "Grim Haruspex"
+   ],
+   "online_condition": "Sacrifice outlet available.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L24"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:zero-cost-morphs",
+   "required": true,
+   "min_count": 3,
+   "role": "Reveal-cost morphs that turn the loop on.",
+   "cards": [
+    "Ruthless Ripper",
+    "Dragon's Eye Savants",
+    "Horde Ambusher"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L21"
+   ]
+  },
+  {
+   "id": "pkg:morph-utility",
+   "required": false,
+   "min_count": 4,
+   "role": "Hidden interaction that Missy later recycles.",
+   "cards": [
+    "Willbender",
+    "Boltbender",
+    "Stratus Dancer",
+    "Kadena's Silencer",
+    "Bane of the Living",
+    "Pyrotechnic Performer",
+    "Aphetto Runecaster",
+    "Ixidor, Reality Sculptor"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L30"
+   ]
+  },
+  {
+   "id": "pkg:free-outlets",
+   "required": true,
+   "min_count": 4,
+   "role": "Free sacrifice outlets.",
+   "cards": [
+    "Ashnod's Altar",
+    "Viscera Seer",
+    "Phyrexian Altar",
+    "Goblin Bombardment",
+    "Altar of Dementia",
+    "Phyrexian Tower"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L61"
+   ]
+  },
+  {
+   "id": "pkg:cybermen",
+   "required": false,
+   "min_count": 3,
+   "role": "Cyberman artifact creatures for villainous-choice damage.",
+   "cards": [
+    "Ashad, the Lone Cyberman",
+    "Cyberman Patrol",
+    "Cybermen Squadron",
+    "The Cyber-Controller"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L23"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "face-down-colorless",
+   "summary": "A Missy-returned card is a colorless face-down 2/2 Cyberman artifact creature; if it has morph, it can be turned face up for its morph cost.",
+   "cards": [
+    "Missy"
+   ],
+   "m1_refs": [
+    "missy-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:missy#missy-01",
+    "oracle:Missy",
+    "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L15",
+    "cr:708.2"
+   ]
+  },
+  {
+   "id": "turn-up-reset",
+   "summary": "Turning the card face up restores its printed nonartifact characteristics, so its next death triggers Missy again.",
+   "cards": [
+    "Missy",
+    "Ruthless Ripper",
+    "Dragon's Eye Savants",
+    "Horde Ambusher"
+   ],
+   "m1_refs": [
+    "missy-01",
+    "missy-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:missy#missy-01",
+    "interaction:missy#missy-02",
+    "cr:702.37e",
+    "cr:708.8"
+   ]
+  },
+  {
+   "id": "opponent-creatures",
+   "summary": "Missy returns any nonartifact creature, including opponents', under your control.",
+   "cards": [
+    "Missy"
+   ],
+   "m1_refs": [
+    "missy-05"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:missy#missy-05",
+    "oracle:Missy",
+    "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L22"
+   ]
+  },
+  {
+   "id": "villainous-choice-rules",
+   "summary": "Each opponent picks an option; they may choose one that does nothing.",
+   "cards": [
+    "Missy"
+   ],
+   "m1_refs": [
+    "missy-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:missy#missy-06",
+    "cr:701.55a",
+    "cr:701.55b"
+   ]
+  },
+  {
+   "id": "face-up-multipliers",
+   "summary": "Panoptic Projektor, Pyrotechnic Performer and Aphetto Runecaster pay off each turn-face-up in the loop.",
+   "cards": [
+    "Missy",
+    "Panoptic Projektor",
+    "Pyrotechnic Performer",
+    "Aphetto Runecaster"
+   ],
+   "m1_refs": [
+    "missy-04"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:missy#missy-04"
+   ]
+  },
+  {
+   "id": "pipes-draw",
+   "summary": "They Came from the Pipes draws on every face-down entry, including each loop iteration.",
+   "cards": [
+    "Missy",
+    "They Came from the Pipes"
+   ],
+   "m1_refs": [
+    "missy-09"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:missy#missy-09"
+   ]
+  },
+  {
+   "id": "no-chaos-payoff",
+   "summary": "The draw option of the villainous choice has no chaos payoff in this list; opponents can pick it to avoid damage.",
+   "cards": [
+    "Missy",
+    "The Valeyard"
+   ],
+   "m1_refs": [
+    "missy-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:missy#missy-06"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Ruthless Ripper",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Diabolic Intent"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1794-2292-4424"
+   ]
+  },
+  {
+   "target": "Goblin Bombardment",
+   "via": [
+    "Demonic Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "spellbook:1794-4424-5147"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Missy"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L28"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Terminate, Delete, An Offer You Can't Refuse, Chaos Warp, Cyclonic Rift, Toxic Deluge, Swan Song.",
+   "protection": "Lightning Greaves, Willbender, Boltbender.",
+   "mana": "35 lands, Sol Ring, Mana Vault, Ancient Tomb, Talismans."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L58",
+   "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L59"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "six-mana-commander",
+   "description": "Missy costs six; losing her twice is very expensive.",
+   "mitigations": [
+    "Fast mana",
+    "Lightning Greaves"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L42"
+   ]
+  },
+  {
+   "id": "graveyard-exile",
+   "description": "Exile-on-death effects (Rest in Peace, Leyline) stop the loop.",
+   "mitigations": [
+    "Removal"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Missy"
+   ]
+  },
+  {
+   "id": "nonartifact-only",
+   "description": "Artifact creatures don't return; Cybermen and Missy's own returns can't loop until turned face up.",
+   "mitigations": [
+    "Morph density"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "oracle:Missy"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "spellbook:1794-2292-4424"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (blueprint)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L40"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 ceiling: commander-native three-card loops with tutors, held back by a six-mana commander. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L42",
+    "spellbook:1794-2292-4424"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Missy"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 12,
+     "2": 305,
+     "3": 191,
+     "4": 39,
+     "5": 10
+    },
+    "decks_with_bracket": 557,
+    "share_b4_plus": 0.088,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__missy.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Missy",
+   "why": "The loop engine.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Missy"
+   ]
+  },
+  {
+   "card": "Ruthless Ripper",
+   "why": "Free reveal-cost morph.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1794-2292-4424"
+   ]
+  },
+  {
+   "card": "Dragon's Eye Savants",
+   "why": "Second free morph (reveal a blue card).",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:2292-3565-4424"
+   ]
+  },
+  {
+   "card": "Horde Ambusher",
+   "why": "Third free morph (reveal a red card); its face-up trigger also stops blockers.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1045-2292-4424"
+   ]
+  },
+  {
+   "card": "Goblin Bombardment",
+   "why": "Outlet that is also the kill.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1794-4424-5147"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Not generic Grixis artifacts/aristocrats/theft/morph (blueprint L46).",
+   "Cut self-disabling or Dalek-specific high-cost cards (blueprint L63)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L46",
+   "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L63"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Doctor Who Cybermen conversion; the Master and Valeyard support."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md#L50"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 708.2",
+   "note": "Face-down characteristics.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:708.2"
+   ]
+  },
+  {
+   "rule": "CR 702.37e",
+   "note": "Turning a morph face up.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.37e"
+   ]
+  },
+  {
+   "rule": "CR 701.55a",
+   "note": "Villainous choice.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:701.55a"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "Cyberman synergy",
+    "artifacts",
+    "graveyard as a resource",
+    "villainous choices / voting"
+   ],
+   "hooked_cards": 30,
+   "role_counts": {
+    "counter": 4,
+    "draw": 7,
+    "protection": 1,
+    "ramp": 10,
+    "removal": 6,
+    "tutor": 3,
+    "wipe": 3
+   },
+   "lands": 35,
+   "edhrec_pages": [
+    "missy"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Missy_Commander_Blueprint_2026-10-15.md",
+   "source_archive:refinement/decisions/Missy_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Missy_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/Missy_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/verification/Missy_Whole_List_Audit_2026-10-15.md",
+   "source_archive:refinement/decklists/Missy_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 53)"
+ }
+}

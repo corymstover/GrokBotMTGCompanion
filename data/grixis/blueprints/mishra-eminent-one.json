@@ -1,0 +1,646 @@
+{
+ "schema_version": 2,
+ "deck_id": "Mishra__Eminent_One",
+ "slug": "mishra-eminent-one",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 53,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+ "commanders": {
+  "value": [
+   {
+    "name": "Mishra, Eminent One",
+    "oracle_id": "d3438037-3efd-4ce0-88ec-6d48ab521992",
+    "oracle_text": "At the beginning of combat on your turn, create a token that's a copy of target noncreature artifact you control, except its name is Mishra's Warform and it's a 4/4 Construct artifact creature in addition to its other types. It gains haste until end of turn. Sacrifice it at the beginning of the next end step.",
+    "oracle_sha256": "sha256:5e5d0dbc6591b03f3531a136ce50a0917416e316f299ce36bf778a0e003ae6fb",
+    "type_line": "Legendary Creature — Human Artificer"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Mishra, Eminent One"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Warform copies: at each combat Mishra copies a noncreature artifact as a hasty 4/4 token, which repeats ETB/LTB value (Ichor Wellspring, Cryogen Relic, Prized Statue, Lich's Relic, The Mightstone and Weakstone), feeds sacrifice and transmute effects, and closes with commander-native infinite turns or tokens.",
+   "secondary": "Secondary artifact combos (Top + Mystic Forge, KCI + Scrap Trawler + Myr Retriever) and Mindslaver control loops."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L16"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Mishra is the copy engine and part of most of the deck's infinites.",
+   "honest_note": "Commander-native: 9 of the 19 Spellbook combos in the list include Mishra, including every infinite-turn line. The engine is a five-mana sorcery-speed combat trigger, which keeps the deck below cEDH speed; the source declined to swap in Oracle/Breach to force Bracket 5. The cycle 51 M1 review (mishraeo-01..09, all verified) confirms the Warform rules and combos."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L18",
+   "spellbook:2751-4636-5159"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "aether-heart-turns",
+   "kind": "combo",
+   "description": "Mishra + Gonti's Aether Heart + Strionic Resonator, Lithoform Engine, Determined Iteration, Brudiclad or Worldwalker Helm: infinite turns.",
+   "cards": [
+    "Mishra, Eminent One",
+    "Gonti's Aether Heart",
+    "Strionic Resonator",
+    "Lithoform Engine",
+    "Determined Iteration",
+    "Brudiclad, Telchor Engineer",
+    "Worldwalker Helm"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:2751-4636-5159",
+    "spellbook:3094-4636-5159",
+    "spellbook:3934-4636-5159",
+    "spellbook:1953-4636-5159",
+    "spellbook:4636-5159-5491"
+   ]
+  },
+  {
+   "id": "urza-helm",
+   "kind": "combo",
+   "description": "Mishra + Urza, Lord High Artificer + Worldwalker Helm + Thousand-Year Elixir: infinite tokens and blue mana.",
+   "cards": [
+    "Mishra, Eminent One",
+    "Urza, Lord High Artificer",
+    "Worldwalker Helm",
+    "Thousand-Year Elixir"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:457-5159-5295-5491"
+   ]
+  },
+  {
+   "id": "reservoir-kci",
+   "kind": "combo",
+   "description": "Mishra + Aetherflux Reservoir; Mishra + KCI + Strionic Resonator or Lithoform Engine.",
+   "cards": [
+    "Mishra, Eminent One",
+    "Aetherflux Reservoir",
+    "Krark-Clan Ironworks",
+    "Strionic Resonator",
+    "Lithoform Engine"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:4740-5159",
+    "spellbook:2751-4659-5159",
+    "spellbook:3094-4659-5159"
+   ]
+  },
+  {
+   "id": "artifact-backups",
+   "kind": "combo",
+   "description": "Top + Mystic Forge + Etherium Sculptor or Enthusiastic Mechanaut; KCI + Scrap Trawler + Myr Retriever.",
+   "cards": [
+    "Sensei's Divining Top",
+    "Mystic Forge",
+    "Etherium Sculptor",
+    "Enthusiastic Mechanaut",
+    "Krark-Clan Ironworks",
+    "Scrap Trawler",
+    "Myr Retriever"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:985-1976-5078",
+    "spellbook:985-4908-5078",
+    "spellbook:1020-1976-2866-4659",
+    "spellbook:1020-2866-4659-4908"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "warform-value",
+   "cards": [
+    "Mishra, Eminent One",
+    "Ichor Wellspring",
+    "Cryogen Relic",
+    "Prized Statue",
+    "Lich's Relic",
+    "The Mightstone and Weakstone",
+    "Coveted Jewel"
+   ],
+   "online_condition": "Mishra survives to combat with a good noncreature artifact.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Mishra, Eminent One",
+    "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L46",
+    "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L48"
+   ]
+  },
+  {
+   "id": "warform-conversion",
+   "cards": [
+    "Master Transmuter",
+    "Transmute Artifact",
+    "Repurposing Bay",
+    "Krark-Clan Ironworks",
+    "Smelting Vat"
+   ],
+   "online_condition": "Temporary Warforms are turned into real artifacts or mana.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L47",
+    "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L49",
+    "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L52"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:extra-turn-pieces",
+   "required": true,
+   "min_count": 4,
+   "role": "Pieces that finish the Aether Heart infinite-turn loops.",
+   "cards": [
+    "Gonti's Aether Heart",
+    "Strionic Resonator",
+    "Lithoform Engine",
+    "Determined Iteration",
+    "Worldwalker Helm",
+    "Brudiclad, Telchor Engineer"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L59"
+   ]
+  },
+  {
+   "id": "pkg:etb-ltb-artifacts",
+   "required": true,
+   "min_count": 5,
+   "role": "Good Warform copy targets.",
+   "cards": [
+    "Ichor Wellspring",
+    "Cryogen Relic",
+    "Prized Statue",
+    "Lich's Relic",
+    "Nihil Spellbomb",
+    "The Mightstone and Weakstone",
+    "Mindslaver",
+    "Coveted Jewel"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L46"
+   ]
+  },
+  {
+   "id": "pkg:artifact-tutors",
+   "required": true,
+   "min_count": 5,
+   "role": "Find combo pieces.",
+   "cards": [
+    "Whir of Invention",
+    "Transmute Artifact",
+    "Goblin Engineer",
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Imperial Seal",
+    "Gamble",
+    "Urza's Saga",
+    "Inventors' Fair"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "iteration-ordering",
+   "summary": "Order the beginning-of-combat triggers so Mishra resolves first; Determined Iteration can then populate the new Warform.",
+   "cards": [
+    "Mishra, Eminent One",
+    "Determined Iteration"
+   ],
+   "m1_refs": [
+    "mishraeo-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:mishra-eminent-one#mishraeo-02",
+    "oracle:Mishra, Eminent One",
+    "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L44"
+   ]
+  },
+  {
+   "id": "warform-mv",
+   "summary": "The Warform keeps the copied artifact's mana value and survives until the end step, so Repurposing Bay or Transmute effects can cash it in first.",
+   "cards": [
+    "Mishra, Eminent One",
+    "Repurposing Bay",
+    "Transmute Artifact"
+   ],
+   "m1_refs": [
+    "mishraeo-07"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:mishra-eminent-one#mishraeo-07",
+    "oracle:Mishra, Eminent One",
+    "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L52"
+   ]
+  },
+  {
+   "id": "copiable-values",
+   "summary": "Copying an Effigy-modified artifact keeps its copiable modifications (decisions L45).",
+   "cards": [
+    "Mishra, Eminent One",
+    "Machine God's Effigy"
+   ],
+   "m1_refs": [
+    "mishraeo-08"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:mishra-eminent-one#mishraeo-08",
+    "cr:707.2"
+   ]
+  },
+  {
+   "id": "slaver-control",
+   "summary": "Mindslaver + Resonator or Lithoform with Mishra is a repeatable opponent-turn control structure, not a win.",
+   "cards": [
+    "Mishra, Eminent One",
+    "Mindslaver",
+    "Strionic Resonator",
+    "Lithoform Engine"
+   ],
+   "m1_refs": [
+    "mishraeo-04"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:mishra-eminent-one#mishraeo-04",
+    "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L63"
+   ]
+  },
+  {
+   "id": "warform-basics",
+   "summary": "The Warform is a hasty 4/4 copy of a noncreature artifact, sacrificed at the next end step.",
+   "cards": [
+    "Mishra, Eminent One"
+   ],
+   "m1_refs": [
+    "mishraeo-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:mishra-eminent-one#mishraeo-01"
+   ]
+  },
+  {
+   "id": "helm-urza",
+   "summary": "Worldwalker Helm + Urza + Thousand-Year Elixir: infinite Warforms, Maps and {U}.",
+   "cards": [
+    "Mishra, Eminent One",
+    "Worldwalker Helm",
+    "Urza, Lord High Artificer",
+    "Thousand-Year Elixir"
+   ],
+   "m1_refs": [
+    "mishraeo-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:mishra-eminent-one#mishraeo-03"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Gonti's Aether Heart",
+   "via": [
+    "Whir of Invention",
+    "Transmute Artifact",
+    "Goblin Engineer",
+    "Demonic Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:2751-4636-5159"
+   ]
+  },
+  {
+   "target": "Strionic Resonator",
+   "via": [
+    "Whir of Invention",
+    "Urza's Saga"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "spellbook:2751-4636-5159"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Academy Ruins",
+   "Goblin Welder",
+   "Emry, Lurker of the Loch",
+   "Scrap Trawler",
+   "Myr Retriever",
+   "Portal to Phyrexia"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Force of Will, Mana Drain, An Offer You Can't Refuse, Chaos Warp, Cyclonic Rift, Toxic Deluge.",
+   "protection": "Fierce Guardianship, Deflecting Swat.",
+   "mana": "Workshop, Moxen, Talismans, Coveted Jewel."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "mishra-removed",
+   "description": "Mishra must survive to your own combat; sorcery-speed removal or a board wipe resets the engine.",
+   "mitigations": [
+    "Fierce Guardianship",
+    "Deflecting Swat"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Mishra, Eminent One"
+   ]
+  },
+  {
+   "id": "artifact-hate",
+   "description": "Artifact hate stops copy targets and combos.",
+   "mitigations": [
+    "Recursion"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md"
+   ]
+  },
+  {
+   "id": "speed",
+   "description": "A five-mana commander that triggers at combat is slow against cEDH tables.",
+   "mitigations": [
+    "Fast artifact mana"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L18"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "spellbook:2751-4636-5159"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (decisions)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L18"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 ceiling, high end: many commander-native infinites, but gated behind a five-mana sorcery-speed trigger. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L18",
+    "spellbook:2751-4636-5159"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Mishra__Eminent_One"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 17,
+     "2": 859,
+     "3": 1035,
+     "4": 337,
+     "5": 31
+    },
+    "decks_with_bracket": 2279,
+    "share_b4_plus": 0.161,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__mishra-eminent-one.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Mishra, Eminent One",
+   "why": "Warform copy engine.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Mishra, Eminent One"
+   ]
+  },
+  {
+   "card": "Gonti's Aether Heart",
+   "why": "Infinite-turn hub.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:2751-4636-5159"
+   ]
+  },
+  {
+   "card": "Strionic Resonator",
+   "why": "Copies triggers for the turn loop.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:2751-4636-5159"
+   ]
+  },
+  {
+   "card": "Lithoform Engine",
+   "why": "Redundant copier.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:3094-4636-5159"
+   ]
+  },
+  {
+   "card": "Ichor Wellspring",
+   "why": "Card draw on Warform ETB and death.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L46"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "Don't force Bracket 5 with a generic Grixis Oracle/Breach shell (decisions L18).",
+   "Underworld Breach and Brain Freeze were cut for identity, not because they don't work (decisions L70)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L18"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Artifact-copy Warforms; combat-step artifact value."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L16"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 707.2",
+   "note": "Copiable values.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:707.2"
+   ]
+  },
+  {
+   "rule": "CR 603.3b",
+   "note": "Ordering beginning-of-combat triggers.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:603.3b"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "Construct synergy",
+    "artifacts",
+    "copying",
+    "sacrifice",
+    "tokens"
+   ],
+   "hooked_cards": 53,
+   "role_counts": {
+    "counter": 4,
+    "draw": 12,
+    "protection": 2,
+    "ramp": 17,
+    "removal": 5,
+    "tutor": 8,
+    "wipe": 1
+   },
+   "lands": 34,
+   "edhrec_pages": [
+    "mishra-eminent-one"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Mishra_Eminent_One_Approved_2026-10-15.md",
+   "source_archive:refinement/decisions/Mishra_Eminent_One_Whole_List_Audit_2026-10-15.csv",
+   "source_archive:refinement/decklists/Mishra_Eminent_One_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 53)"
+ }
+}

@@ -1,0 +1,576 @@
+{
+ "schema_version": 2,
+ "deck_id": "Lynde__Cheerful_Tormentor",
+ "slug": "lynde-cheerful-tormentor",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 53,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+ "commanders": {
+  "value": [
+   {
+    "name": "Lynde, Cheerful Tormentor",
+    "oracle_id": "dc386f6c-bd4a-462a-8d42-0e7a552a4f17",
+    "oracle_text": "Deathtouch\nWhenever a Curse is put into your graveyard from the battlefield, return it to the battlefield attached to you at the beginning of the next end step.\nAt the beginning of your upkeep, you may attach a Curse attached to you to one of your opponents. If you do, draw two cards.",
+    "oracle_sha256": "sha256:2cd5550ba8dda2d1070957bcd208fedfb9201358e992ef08d75e0873bc462ac5",
+    "type_line": "Legendary Creature — Human Warlock"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Lynde, Cheerful Tormentor"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Curse recycling and control: land high-impact Curses on opponents, deliberately send your own Curses to the graveyard (Despotic Scepter, Claws of Gix, Braids, Perilous Research), let Lynde return them attached to you, then move one to an opponent each upkeep and draw two.",
+   "secondary": "Extra upkeeps (Paradox Haze, The Ninth Doctor, Obeka) multiply Lynde's draw-two and upkeep Curses; enchantment payoffs, Curse copies and premium Grixis interaction hold the table."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md#L13",
+   "interaction:lynde-cheerful-tormentor#lynde-01",
+   "interaction:lynde-cheerful-tormentor#lynde-02",
+   "interaction:lynde-cheerful-tormentor#lynde-04"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "central",
+   "advances_plan": "Lynde is the Curse recursion and the draw-two engine; the reset outlets only exist to feed her.",
+   "honest_note": "There is no compact win: Commander Spellbook finds no combos in the list, so the deck wins slowly through stacked Curse damage. Returned Curses also hit you until Lynde moves them (M1 lynde-06)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md#L19",
+   "interaction:lynde-cheerful-tormentor#lynde-06"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "curse-attrition",
+   "kind": "natural",
+   "description": "Damage and drain Curses (Bloodletting doubling, Torment of Scarabs, Restless Dead, Vengeance, Thirst) recycled every upkeep grind the table out.",
+   "cards": [
+    "Curse of Bloodletting",
+    "Torment of Scarabs",
+    "Curse of the Restless Dead",
+    "Curse of Vengeance",
+    "Curse of Thirst",
+    "Curse of Death's Hold"
+   ],
+   "enablers": [
+    "Lynde, Cheerful Tormentor",
+    "Paradox Haze"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:lynde-cheerful-tormentor#lynde-04"
+   ]
+  },
+  {
+   "id": "constellation-drain",
+   "kind": "natural",
+   "description": "Curses re-entering trigger constellation and enchantment payoffs (Doomwake Giant, Grim Guardian).",
+   "cards": [
+    "Doomwake Giant",
+    "Grim Guardian",
+    "Ashiok's Reaper"
+   ],
+   "enablers": [
+    "Lynde, Cheerful Tormentor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "curse-reset",
+   "cards": [
+    "Lynde, Cheerful Tormentor",
+    "Despotic Scepter",
+    "Claws of Gix",
+    "Braids, Arisen Nightmare",
+    "Demon of Fate's Design",
+    "Perilous Research"
+   ],
+   "online_condition": "A Curse you own goes from the battlefield to your graveyard.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:lynde-cheerful-tormentor#lynde-01",
+    "interaction:lynde-cheerful-tormentor#lynde-03"
+   ]
+  },
+  {
+   "id": "extra-upkeeps",
+   "cards": [
+    "Lynde, Cheerful Tormentor",
+    "Paradox Haze",
+    "The Ninth Doctor",
+    "Obeka, Splitter of Seconds",
+    "Curse of Bloodletting"
+   ],
+   "online_condition": "A Curse attached to you at upkeep.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:lynde-cheerful-tormentor#lynde-02",
+    "interaction:lynde-cheerful-tormentor#lynde-04"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:curses",
+   "required": true,
+   "min_count": 15,
+   "role": "Curses worth recycling.",
+   "cards": [
+    "Curse of Bloodletting",
+    "Curse of Death's Hold",
+    "Curse of Disturbance",
+    "Curse of Echoes",
+    "Curse of Fool's Wisdom",
+    "Curse of Hospitality",
+    "Curse of Misfortunes",
+    "Curse of Obsession",
+    "Curse of Opulence",
+    "Curse of Shaken Faith",
+    "Curse of Surveillance",
+    "Curse of Thirst",
+    "Curse of Unbinding",
+    "Curse of Vengeance",
+    "Curse of Verbosity",
+    "Curse of the Restless Dead",
+    "Torment of Scarabs",
+    "Trespasser's Curse",
+    "Cruel Reality",
+    "Maddening Hex"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md",
+    "source_archive:refinement/decisions/Lynde_Cheerful_Tormentor_Whole_List_Audit_2026-10-14.csv"
+   ]
+  },
+  {
+   "id": "pkg:reset-outlets",
+   "required": true,
+   "min_count": 4,
+   "role": "Send your own Curses to the graveyard.",
+   "cards": [
+    "Despotic Scepter",
+    "Claws of Gix",
+    "Braids, Arisen Nightmare",
+    "Demon of Fate's Design",
+    "Perilous Research"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:lynde-cheerful-tormentor#lynde-03"
+   ]
+  },
+  {
+   "id": "pkg:extra-upkeep",
+   "required": true,
+   "min_count": 3,
+   "role": "More Lynde upkeep triggers.",
+   "cards": [
+    "Paradox Haze",
+    "The Ninth Doctor",
+    "Obeka, Splitter of Seconds"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md",
+    "interaction:lynde-cheerful-tormentor#lynde-04"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "return-window",
+   "summary": "Only battlefield-to-graveyard Curses return, attached to you at the next end step.",
+   "cards": [
+    "Lynde, Cheerful Tormentor"
+   ],
+   "m1_refs": [
+    "lynde-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:lynde-cheerful-tormentor#lynde-01"
+   ]
+  },
+  {
+   "id": "upkeep-move",
+   "summary": "One Curse per upkeep moves without targeting (ignores hexproof) and draws two.",
+   "cards": [
+    "Lynde, Cheerful Tormentor"
+   ],
+   "m1_refs": [
+    "lynde-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:lynde-cheerful-tormentor#lynde-02"
+   ]
+  },
+  {
+   "id": "misfortunes-order",
+   "summary": "Order Curse of Misfortunes before Lynde's move when it's on you.",
+   "cards": [
+    "Curse of Misfortunes",
+    "Lynde, Cheerful Tormentor"
+   ],
+   "m1_refs": [
+    "lynde-05"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:lynde-cheerful-tormentor#lynde-05"
+   ]
+  },
+  {
+   "id": "self-punish",
+   "summary": "Returned Curses hit you until Lynde moves them.",
+   "cards": [
+    "Lynde, Cheerful Tormentor"
+   ],
+   "m1_refs": [
+    "lynde-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:lynde-cheerful-tormentor#lynde-06"
+   ]
+  },
+  {
+   "id": "harmless-on-you",
+   "summary": "Fool's Wisdom, Surveillance and Unbinding are harmless parked on you.",
+   "cards": [
+    "Curse of Fool's Wisdom",
+    "Curse of Surveillance",
+    "Curse of Unbinding"
+   ],
+   "m1_refs": [
+    "lynde-07"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:lynde-cheerful-tormentor#lynde-07"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Paradox Haze",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Imperial Seal"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "target": "Curse of Bloodletting",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Lynde, Cheerful Tormentor",
+   "Jeska's Will"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Mana Drain, Fierce Guardianship, Swan Song, Deadly Rollick, Toxic Deluge, Damnation, Cyclonic Rift.",
+   "protection": "Deathtouch, Propaganda, Deflecting Swat, attack-tax Curses.",
+   "mana": "35 lands, Sol Ring, Ancient Tomb, Signets and Talismans."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "enchantment-removal",
+   "description": "Enchantment wipes remove the whole Curse board at once.",
+   "mitigations": [
+    "Lynde returns Curses that hit the graveyard",
+    "Counters"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  },
+  {
+   "id": "self-damage",
+   "description": "Curses parked on you hurt you.",
+   "mitigations": [
+    "Move dangerous Curses first",
+    "Park harmless ones (lynde-07)"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:lynde-cheerful-tormentor#lynde-06"
+   ]
+  },
+  {
+   "id": "slow-clock",
+   "description": "No compact win: a slow damage clock gives opponents time.",
+   "mitigations": [
+    "Extra upkeeps",
+    "Premium interaction"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "high",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (decisions)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md#L19"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 ceiling, low end: premium interaction and Game Changers put it in B4, but there's no compact win and the Curse engine is slow. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md#L19",
+    "interaction:lynde-cheerful-tormentor#lynde-04"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Lynde__Cheerful_Tormentor"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 51,
+     "2": 869,
+     "3": 440,
+     "4": 81,
+     "5": 3
+    },
+    "decks_with_bracket": 1444,
+    "share_b4_plus": 0.058,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__lynde-cheerful-tormentor.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Lynde, Cheerful Tormentor",
+   "why": "Returns dead Curses to you and moves one each upkeep for two cards.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Lynde, Cheerful Tormentor"
+   ]
+  },
+  {
+   "card": "Paradox Haze",
+   "why": "Extra upkeep: another move and two more cards.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:lynde-cheerful-tormentor#lynde-04"
+   ]
+  },
+  {
+   "card": "Despotic Scepter",
+   "why": "One-mana repeatable Curse reset.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:lynde-cheerful-tormentor#lynde-03"
+   ]
+  },
+  {
+   "card": "Curse of Bloodletting",
+   "why": "Doubles damage to the cursed player.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "interaction:lynde-cheerful-tormentor#lynde-04"
+   ]
+  },
+  {
+   "card": "The Ninth Doctor",
+   "why": "Cheap extra-upkeep engine.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:lynde-cheerful-tormentor#lynde-04"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No generic combo packages added just to raise the theoretical ceiling (decisions L17).",
+   "Prefer Curses that are good to recycle over narrow ones (decisions swaps)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md#L17"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Innistrad Curse witch: tormenting opponents with recycled Curses."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 303.4f",
+   "note": "A Curse returned by Lynde enters attached without targeting.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:303.4f"
+   ]
+  },
+  {
+   "rule": "CR 303.4e",
+   "note": "You keep control of a Curse attached to an opponent.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:303.4e"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "graveyard as a resource"
+   ],
+   "hooked_cards": 2,
+   "role_counts": {
+    "counter": 3,
+    "draw": 9,
+    "protection": 1,
+    "ramp": 8,
+    "removal": 5,
+    "tutor": 5,
+    "wipe": 3
+   },
+   "lands": 35,
+   "edhrec_pages": [
+    "lynde-cheerful-tormentor"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md",
+   "source_archive:refinement/approvals/Lynde_Cheerful_Tormentor_Approved_2026-10-14.md",
+   "source_archive:refinement/decisions/Lynde_Cheerful_Tormentor_Whole_List_Audit_2026-10-14.csv",
+   "source_archive:refinement/decklists/Lynde_Cheerful_Tormentor_Approved_2026-10-14.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 53)"
+ }
+}

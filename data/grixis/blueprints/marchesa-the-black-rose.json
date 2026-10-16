@@ -1,0 +1,650 @@
+{
+ "schema_version": 2,
+ "deck_id": "Marchesa__the_Black_Rose",
+ "slug": "marchesa-the-black-rose",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 53,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
+ "commanders": {
+  "value": [
+   {
+    "name": "Marchesa, the Black Rose",
+    "oracle_id": "17a59d3d-9e01-48cd-bb4a-3eaaa077751c",
+    "oracle_text": "Dethrone (Whenever this creature attacks the player with the most life or tied for most life, put a +1/+1 counter on it.)\nOther creatures you control have dethrone.\nWhenever a creature you control with a +1/+1 counter on it dies, return that card to the battlefield under your control at the beginning of the next end step.",
+    "oracle_sha256": "sha256:c6813ffd0f6e5425c49f2051870355d21fec546fcaca710f0024a124def81496",
+    "type_line": "Legendary Creature — Human Wizard"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Marchesa, the Black Rose"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "+1/+1-counter aristocrats: put counters on creatures (dethrone, Thran Vigil, Metallic Mimic, Forge of Heroes), sacrifice them for mana, cards and damage, let Marchesa return countered creatures at end step, and use counters to reset persist creatures into sacrifice loops.",
+   "secondary": "Drain payoffs (Blood Artist, Mayhem Devil, Gray Merchant, Syr Konrad, Grave Pact) and Sneak Attack/Imperial Recruiter to find loop pieces."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md#L16"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "significant",
+   "advances_plan": "Marchesa gives the team dethrone and returns any countered creature that dies, which makes the sacrifice engine resilient.",
+   "honest_note": "The source calls the closes 'commander-native loops' (decisions L16), but none of the 48 Spellbook infinites in the list needs Marchesa: they're persist/undying loops with Thran Vigil, Metallic Mimic, Gev, Uncivil Unrest or Mikaeus plus an outlet. She's a resilience engine, not the kill. The cycle 51 M1 review (marchbr-01..11, all verified) confirms the persist-reset loops."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md#L16",
+   "spellbook:2131-2292--5",
+   "spellbook:628-2034--5"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "persist-reset-loops",
+   "kind": "combo",
+   "description": "A persist creature plus a counter source (Thran Vigil, Metallic Mimic, Gev, Uncivil Unrest) and a sacrifice outlet loops for unbounded death triggers; Murderous Redcap or Goblin Bombardment kills.",
+   "cards": [
+    "Thran Vigil",
+    "Metallic Mimic",
+    "Gev, Scaled Scorch",
+    "Uncivil Unrest",
+    "Murderous Redcap",
+    "Viscera Seer",
+    "Ashnod's Altar",
+    "Goblin Bombardment",
+    "Carrion Feeder",
+    "Altar of Dementia"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:2131-2292--5",
+    "spellbook:2034-2131--5",
+    "spellbook:345-2034--5",
+    "spellbook:345-1657",
+    "spellbook:1657-5805",
+    "spellbook:1657-5961",
+    "spellbook:2034-5805--5",
+    "spellbook:2034-5961--5",
+    "spellbook:5147-5805--5",
+    "spellbook:5147-5961--5"
+   ]
+  },
+  {
+   "id": "mikaeus-loops",
+   "kind": "combo",
+   "description": "Mikaeus, the Unhallowed with a sacrifice outlet loops undying creatures; with Blood Artist/Warren Soultrader, Sage of Fables or Yawgmoth + Gray Merchant.",
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Ashnod's Altar",
+    "Viscera Seer",
+    "Goblin Bombardment",
+    "Blood Artist",
+    "Warren Soultrader",
+    "Sage of Fables",
+    "Gray Merchant of Asphodel"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:628-2034--5",
+    "spellbook:628-2292--5",
+    "spellbook:628-5147--5",
+    "spellbook:628-2842-5670--5",
+    "spellbook:628-2034-4866",
+    "spellbook:328-628-4279"
+   ]
+  },
+  {
+   "id": "spark-double-loops",
+   "kind": "combo",
+   "description": "Spark Double copies of persist creatures, or Flayer of the Hatebound + Sage of Fables, with an Altar.",
+   "cards": [
+    "Spark Double",
+    "Murderous Redcap",
+    "Glen Elendra Archmage",
+    "River Kelpie",
+    "Puppeteer Clique",
+    "Flayer of the Hatebound",
+    "Sage of Fables",
+    "Ashnod's Altar",
+    "Altar of Dementia"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1657-2034-3908",
+    "spellbook:2034-2831-3908",
+    "spellbook:2034-3607-3908",
+    "spellbook:3020-3908-5256",
+    "spellbook:1123-2034-4866"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "dethrone-return",
+   "cards": [
+    "Marchesa, the Black Rose",
+    "Thran Vigil",
+    "Metallic Mimic",
+    "Forge of Heroes",
+    "The Ozolith"
+   ],
+   "online_condition": "Countered creatures dying with Marchesa in play.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Marchesa, the Black Rose",
+    "source_archive:refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md#L16"
+   ]
+  },
+  {
+   "id": "sac-value",
+   "cards": [
+    "Phyrexian Altar",
+    "Ashnod's Altar",
+    "Goblin Bombardment",
+    "Viscera Seer",
+    "Carrion Feeder",
+    "Altar of Dementia",
+    "Skullclamp",
+    "Pitiless Plunderer",
+    "Grim Haruspex"
+   ],
+   "online_condition": "Sacrifice outlet and fodder.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:sac-outlets",
+   "required": true,
+   "min_count": 7,
+   "role": "Free or cheap outlets for the loops.",
+   "cards": [
+    "Phyrexian Altar",
+    "Ashnod's Altar",
+    "Goblin Bombardment",
+    "Viscera Seer",
+    "Carrion Feeder",
+    "Altar of Dementia",
+    "Phyrexian Tower",
+    "Yahenni, Undying Partisan"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md"
+   ]
+  },
+  {
+   "id": "pkg:persist-undying",
+   "required": true,
+   "min_count": 5,
+   "role": "Creatures that come back with counters.",
+   "cards": [
+    "Murderous Redcap",
+    "Glen Elendra Archmage",
+    "River Kelpie",
+    "Puppeteer Clique",
+    "Flayer of the Hatebound",
+    "Twilight Diviner"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:2131-2292--5"
+   ]
+  },
+  {
+   "id": "pkg:drain-payoffs",
+   "required": true,
+   "min_count": 5,
+   "role": "Turn deaths into damage and value.",
+   "cards": [
+    "Blood Artist",
+    "Mayhem Devil",
+    "Gray Merchant of Asphodel",
+    "Syr Konrad, the Grim",
+    "Grave Pact",
+    "Warren Soultrader"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "counter-return",
+   "summary": "Only creatures with a +1/+1 counter return, at the next end step, under your control.",
+   "cards": [
+    "Marchesa, the Black Rose"
+   ],
+   "m1_refs": [
+    "marchbr-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:marchesa-the-black-rose#marchbr-01",
+    "oracle:Marchesa, the Black Rose"
+   ]
+  },
+  {
+   "id": "dethrone-team",
+   "summary": "Dethrone on the team only triggers attacking the player with the most life.",
+   "cards": [
+    "Marchesa, the Black Rose"
+   ],
+   "m1_refs": [
+    "marchbr-01"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:marchesa-the-black-rose#marchbr-01",
+    "oracle:Marchesa, the Black Rose",
+    "cr:702.105a"
+   ]
+  },
+  {
+   "id": "persist-reset",
+   "summary": "A +1/+1 counter cancels a -1/-1 counter, so persist can trigger again.",
+   "cards": [
+    "Thran Vigil",
+    "Metallic Mimic",
+    "Murderous Redcap"
+   ],
+   "m1_refs": [
+    "marchbr-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:marchesa-the-black-rose#marchbr-02",
+    "cr:702.79a",
+    "spellbook:2131-2292--5"
+   ]
+  },
+  {
+   "id": "yawgmoth-gary",
+   "summary": "Mikaeus + Yawgmoth + Gray Merchant is an infinite drain.",
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Gray Merchant of Asphodel"
+   ],
+   "m1_refs": [
+    "marchbr-05"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:marchesa-the-black-rose#marchbr-05",
+    "spellbook:328-628-4279"
+   ]
+  },
+  {
+   "id": "redcap-no-outlet",
+   "summary": "Murderous Redcap + Gev/Metallic Mimic (Goblin)/Uncivil Unrest loops with no outlet needed.",
+   "cards": [
+    "Murderous Redcap",
+    "Gev, Scaled Scorch",
+    "Metallic Mimic",
+    "Uncivil Unrest"
+   ],
+   "m1_refs": [
+    "marchbr-03"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:marchesa-the-black-rose#marchbr-03"
+   ]
+  },
+  {
+   "id": "sneak-attack-return",
+   "summary": "A creature sacrificed by Sneak Attack at end step returns a turn later, permanently, if it has a +1/+1 counter.",
+   "cards": [
+    "Sneak Attack",
+    "Marchesa, the Black Rose"
+   ],
+   "m1_refs": [
+    "marchbr-08"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:marchesa-the-black-rose#marchbr-08"
+   ]
+  },
+  {
+   "id": "flare-pitch",
+   "summary": "Flare of Denial can sacrifice a countered blue creature that Marchesa returns.",
+   "cards": [
+    "Flare of Denial",
+    "Glen Elendra Archmage",
+    "River Kelpie"
+   ],
+   "m1_refs": [
+    "marchbr-11"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:marchesa-the-black-rose#marchbr-11"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Thran Vigil",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Diabolic Intent"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:2131-2292--5"
+   ]
+  },
+  {
+   "target": "Murderous Redcap",
+   "via": [
+    "Imperial Recruiter"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "spellbook:1657-5805"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Marchesa, the Black Rose",
+   "Reanimate",
+   "Victimize",
+   "Sneak Attack"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Fierce Guardianship, Flare of Denial, An Offer You Can't Refuse, Toxic Deluge, Blasphemous Act, Cyclonic Rift.",
+   "protection": "Lightning Greaves, counters.",
+   "mana": "Sol Ring, Ancient Tomb, Talismans, sacrifice mana."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "graveyard-exile",
+   "description": "Exile removal and graveyard hate stop persist and Marchesa returns.",
+   "mitigations": [
+    "Many redundant loops"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md"
+   ]
+  },
+  {
+   "id": "marchesa-removed",
+   "description": "Losing Marchesa removes dethrone and recursion.",
+   "mitigations": [
+    "Commander-free loops"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "oracle:Marchesa, the Black Rose"
+   ]
+  },
+  {
+   "id": "counter-hate",
+   "description": "Counter removal or -1/-1 effects disrupt the resets.",
+   "mitigations": [
+    "Multiple counter sources"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "low",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "spellbook:2131-2292--5"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (decisions)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md#L18"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 ceiling, high end: dozens of two- and three-card sacrifice infinites with tutors, but board-based and graveyard-reliant. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md#L18",
+    "spellbook:2131-2292--5"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Marchesa__the_Black_Rose"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 41,
+     "2": 1491,
+     "3": 1509,
+     "4": 474,
+     "5": 15
+    },
+    "decks_with_bracket": 3530,
+    "share_b4_plus": 0.139,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__marchesa-the-black-rose.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Marchesa, the Black Rose",
+   "why": "Team dethrone and end-step return for countered creatures.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Marchesa, the Black Rose"
+   ]
+  },
+  {
+   "card": "Thran Vigil",
+   "why": "Counter source that turns persist creatures into loops.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:2131-2292--5"
+   ]
+  },
+  {
+   "card": "Murderous Redcap",
+   "why": "Persist damage creature at the centre of the kills.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1657-5805"
+   ]
+  },
+  {
+   "card": "Mikaeus, the Unhallowed",
+   "why": "Undying for the team.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:628-2034--5"
+   ]
+  },
+  {
+   "card": "Phyrexian Altar",
+   "why": "Free outlet that makes mana.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No generic Grixis combo shell; close through counter/sacrifice loops (decisions L16).",
+   "Cut Village Rites, Black Market Connections and others for loop and tutor density (decisions swaps)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md#L16"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "The Black Rose's dethrone and death-and-return aristocrats."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 702.79a",
+   "note": "Persist.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:702.79a"
+   ]
+  },
+  {
+   "rule": "CR 704.5q",
+   "note": "+1/+1 and -1/-1 counters annihilate.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:704.5q"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "+1/+1 counters",
+    "combat damage / attack triggers",
+    "graveyard as a resource"
+   ],
+   "hooked_cards": 24,
+   "role_counts": {
+    "counter": 4,
+    "draw": 11,
+    "protection": 1,
+    "ramp": 11,
+    "removal": 5,
+    "tutor": 4,
+    "wipe": 2
+   },
+   "lands": 34,
+   "edhrec_pages": [
+    "marchesa-the-black-rose"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Marchesa_the_Black_Rose_Approved_2026-10-15.md",
+   "source_archive:refinement/decisions/Marchesa_the_Black_Rose_Whole_List_Audit_2026-10-15.csv",
+   "source_archive:refinement/decklists/Marchesa_the_Black_Rose_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 53)"
+ }
+}

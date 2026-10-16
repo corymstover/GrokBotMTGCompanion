@@ -1,0 +1,659 @@
+{
+ "schema_version": 2,
+ "deck_id": "Nekusar__the_Mindrazer",
+ "slug": "nekusar-the-mindrazer",
+ "version": 1,
+ "status": "seeded",
+ "cycle": 53,
+ "date": "2026-10-16",
+ "canonical_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+ "commanders": {
+  "value": [
+   {
+    "name": "Nekusar, the Mindrazer",
+    "oracle_id": "8a5e3c8e-8e22-49b9-8ee5-4a36361f0da6",
+    "oracle_text": "At the beginning of each player's draw step, that player draws an additional card.\nWhenever an opponent draws a card, Nekusar deals 1 damage to that player.",
+    "oracle_sha256": "sha256:56bbfa204b99aa8a373c36907c7ef4f4ab13d91fbc7af12e3373ce89edf84378",
+    "type_line": "Legendary Creature — Zombie Wizard"
+   }
+  ],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "oracle:Nekusar, the Mindrazer"
+  ]
+ },
+ "plan": {
+  "value": {
+   "primary": "Wheels and draw punishment: force opponents to draw many cards (wheels, Peer into the Abyss, Winds of Change) with Nekusar and overlapping pingers out, so each draw deals damage.",
+   "secondary": "Multiply Nekusar's Wizard triggers (Harmonic Prodigy, Wizard's Staff, Krang), use Ghyrson for exact-1 damage events, and loop Underworld Breach + Wheel of Fortune + Jeska's Will."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L15",
+   "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L29",
+   "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L32"
+  ]
+ },
+ "commander_role": {
+  "value": {
+   "level": "significant",
+   "advances_plan": "Nekusar is the best punisher and his draw-step trigger gives every opponent an extra draw to punish.",
+   "honest_note": "The source says outright that without Nekusar the deck still works as a wheel/group-slug deck (blueprint L55) and that the punishers were chosen so it isn't commander-or-bust (L29). Only 1 of 7 Spellbook combos needs him (Nekusar + Peer into the Abyss). He multiplies the plan rather than being required by it. The cycle 51 M1 review (nekusar-01..09) verifies the engines and flags Krang self-damage (nekusar-03)."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L29",
+   "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L55",
+   "spellbook:1561-1972"
+  ]
+ },
+ "win_conditions": [
+  {
+   "id": "peer-punish",
+   "kind": "combo",
+   "description": "Peer into the Abyss on an opponent with Nekusar, Sheoldred, Orcish Bowmasters, Razorkin Needlehead or Underworld Dreams out deals lethal draw damage.",
+   "cards": [
+    "Peer into the Abyss",
+    "Nekusar, the Mindrazer",
+    "Sheoldred, the Apocalypse",
+    "Orcish Bowmasters",
+    "Razorkin Needlehead",
+    "Underworld Dreams"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1561-1972",
+    "spellbook:1561-2498",
+    "spellbook:1561-3862",
+    "spellbook:1561-5919",
+    "spellbook:1561-2720"
+   ]
+  },
+  {
+   "id": "breach-wheel",
+   "kind": "combo",
+   "description": "Underworld Breach + Wheel of Fortune + Jeska's Will: repeated wheels for punishment damage.",
+   "cards": [
+    "Underworld Breach",
+    "Wheel of Fortune",
+    "Jeska's Will"
+   ],
+   "enablers": [
+    "Fate Unraveler",
+    "Underworld Dreams",
+    "Sheoldred, the Apocalypse"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "id": "curiosity-niv",
+   "kind": "combo",
+   "description": "Curiosity on Niv-Mizzet, Parun: an infinite draw/damage loop.",
+   "cards": [
+    "Curiosity",
+    "Niv-Mizzet, Parun"
+   ],
+   "enablers": [],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "spellbook:1089-2353"
+   ]
+  },
+  {
+   "id": "wheel-damage",
+   "kind": "natural",
+   "description": "Wheels with multiple punishers out deal table-wide damage over a few turns.",
+   "cards": [
+    "Nekusar, the Mindrazer",
+    "Wheel of Fortune",
+    "Windfall",
+    "Wheel and Deal",
+    "Echo of Eons"
+   ],
+   "enablers": [
+    "Fate Unraveler",
+    "Underworld Dreams",
+    "Sheoldred, the Apocalypse",
+    "Spiteful Visions",
+    "Phyrexian Tyranny",
+    "Kederekt Parasite",
+    "Razorkin Needlehead",
+    "Scrawling Crawler",
+    "Orcish Bowmasters",
+    "Ghyrson Starn, Kelermorph"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L21"
+   ]
+  }
+ ],
+ "engines": [
+  {
+   "id": "draw-punish",
+   "cards": [
+    "Nekusar, the Mindrazer",
+    "Fate Unraveler",
+    "Underworld Dreams",
+    "Sheoldred, the Apocalypse",
+    "Spiteful Visions",
+    "Phyrexian Tyranny",
+    "Kederekt Parasite",
+    "Razorkin Needlehead",
+    "Scrawling Crawler",
+    "Orcish Bowmasters",
+    "Ghyrson Starn, Kelermorph"
+   ],
+   "online_condition": "One or more punishers in play before the wheel.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "oracle:Nekusar, the Mindrazer",
+    "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L12",
+    "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L13"
+   ]
+  },
+  {
+   "id": "wizard-multipliers",
+   "cards": [
+    "Nekusar, the Mindrazer",
+    "Harmonic Prodigy",
+    "Wizard's Staff",
+    "Krang, the All-Powerful"
+   ],
+   "online_condition": "Nekusar in play.",
+   "evidence_class": "fact",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L32",
+    "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L48",
+    "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L49"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "id": "pkg:wheels",
+   "required": true,
+   "min_count": 8,
+   "role": "Force many real draws cheaply.",
+   "cards": [
+    "Wheel of Fortune",
+    "Windfall",
+    "Wheel and Deal",
+    "Echo of Eons",
+    "Reforge the Soul",
+    "Magus of the Wheel",
+    "Wheel of Misfortune",
+    "Whispering Madness",
+    "Burning Inquiry",
+    "Winds of Change",
+    "Molten Psyche",
+    "Peer into the Abyss"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L26"
+   ]
+  },
+  {
+   "id": "pkg:punishers",
+   "required": true,
+   "min_count": 8,
+   "role": "Redundant draw punishment so it isn't commander-or-bust.",
+   "cards": [
+    "Fate Unraveler",
+    "Underworld Dreams",
+    "Sheoldred, the Apocalypse",
+    "Spiteful Visions",
+    "Phyrexian Tyranny",
+    "Kederekt Parasite",
+    "Razorkin Needlehead",
+    "Scrawling Crawler",
+    "Orcish Bowmasters",
+    "Ghyrson Starn, Kelermorph"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L29"
+   ]
+  },
+  {
+   "id": "pkg:interaction",
+   "required": true,
+   "min_count": 6,
+   "role": "Cheap stack interaction and resets.",
+   "cards": [
+    "Force of Will",
+    "Force of Negation",
+    "Fierce Guardianship",
+    "Mana Drain",
+    "Swan Song",
+    "Arcane Denial",
+    "Deflecting Swat",
+    "Toxic Deluge",
+    "Cyclonic Rift"
+   ],
+   "candidates": [],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L40"
+   ]
+  }
+ ],
+ "key_interactions": [
+  {
+   "id": "krang-vs-draw-step",
+   "summary": "Wizard's Staff/Harmonic Prodigy add instances of Nekusar's draw-step trigger; Krang doesn't, because a draw didn't cause that trigger. Krang adds damage-trigger instances only.",
+   "cards": [
+    "Nekusar, the Mindrazer",
+    "Krang, the All-Powerful",
+    "Harmonic Prodigy",
+    "Wizard's Staff"
+   ],
+   "m1_refs": [
+    "nekusar-02"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:nekusar-the-mindrazer#nekusar-02",
+    "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L34"
+   ]
+  },
+  {
+   "id": "ghyrson-exact-one",
+   "summary": "Ghyrson Starn needs exactly 1 damage; damage-increasing replacement effects turn it off, so they were rejected.",
+   "cards": [
+    "Ghyrson Starn, Kelermorph",
+    "Nekusar, the Mindrazer"
+   ],
+   "m1_refs": [
+    "nekusar-04"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:nekusar-the-mindrazer#nekusar-04",
+    "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L37"
+   ]
+  },
+  {
+   "id": "draw-step-extra",
+   "summary": "Nekusar's extra draw is a triggered draw separate from the turn-based draw.",
+   "cards": [
+    "Nekusar, the Mindrazer"
+   ],
+   "m1_refs": [
+    "nekusar-07"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:nekusar-the-mindrazer#nekusar-07",
+    "cr:121.1",
+    "cr:504.1"
+   ]
+  },
+  {
+   "id": "curiosity-nekusar",
+   "summary": "Curiosity on Nekusar draws a card for each damage event.",
+   "cards": [
+    "Curiosity",
+    "Nekusar, the Mindrazer"
+   ],
+   "m1_refs": [
+    "nekusar-06"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:nekusar-the-mindrazer#nekusar-06",
+    "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L51"
+   ]
+  },
+  {
+   "id": "krang-self-damage",
+   "summary": "M1 flag: Krang also doubles Spiteful Visions and Phyrexian Tyranny on your own draws; wheel with care.",
+   "cards": [
+    "Krang, the All-Powerful",
+    "Spiteful Visions",
+    "Phyrexian Tyranny"
+   ],
+   "m1_refs": [
+    "nekusar-03"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "interaction:nekusar-the-mindrazer#nekusar-03"
+   ]
+  },
+  {
+   "id": "discard-vs-shuffle",
+   "summary": "Waste Not and Liliana's Caress need discard wheels; shuffle wheels don't trigger them. Molten Psyche counts all draws.",
+   "cards": [
+    "Wheel of Fortune",
+    "Windfall",
+    "Waste Not",
+    "Liliana's Caress",
+    "Molten Psyche"
+   ],
+   "m1_refs": [
+    "nekusar-08"
+   ],
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "interaction:nekusar-the-mindrazer#nekusar-08"
+   ]
+  }
+ ],
+ "tutor_targets": [
+  {
+   "target": "Peer into the Abyss",
+   "via": [
+    "Demonic Tutor",
+    "Vampiric Tutor",
+    "Mystical Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1561-1972"
+   ]
+  },
+  {
+   "target": "Underworld Breach",
+   "via": [
+    "Demonic Tutor",
+    "Mystical Tutor"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "spellbook:1368-1878-2706"
+   ]
+  }
+ ],
+ "recursion": {
+  "value": [
+   "Underworld Breach",
+   "Jeska's Will",
+   "Echo of Eons"
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md"
+  ]
+ },
+ "requirements": {
+  "value": {
+   "interaction": "Free and cheap counters, Toxic Deluge, Cyclonic Rift.",
+   "protection": "Fierce Guardianship, Deflecting Swat.",
+   "mana": "35 lands, Mana Vault, Grim Monolith, Chrome Mox, Dark Ritual, Talismans; triple pips for Niv-Mizzet."
+  },
+  "evidence_class": "strategic_judgment",
+  "confidence": "moderate",
+  "evidence": [
+   "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L43"
+  ]
+ },
+ "failure_modes": [
+  {
+   "id": "five-mana-setup",
+   "description": "A five-mana setup before the wheels; wheels without punishers refill opponents.",
+   "mitigations": [
+    "Punisher redundancy"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L21"
+   ]
+  },
+  {
+   "id": "draw-locks",
+   "description": "Opposing Narset/Notion Thief turn the deck off.",
+   "mitigations": [
+    "Removal",
+    "Counters"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L59"
+   ]
+  },
+  {
+   "id": "lifegain",
+   "description": "Lifegain blunts the slug damage.",
+   "mitigations": [
+    "Compact Peer kills"
+   ],
+   "evidence_class": "strategic_judgment",
+   "confidence": "moderate",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md"
+   ]
+  }
+ ],
+ "dependency_level": {
+  "value": "medium",
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L55"
+  ]
+ },
+ "power": {
+  "source_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Power Bracket 4 — Optimized (blueprint)."
+   },
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L19"
+   ]
+  },
+  "grok_estimated_ceiling": {
+   "value": {
+    "value": "4",
+    "label": "Bracket 4 ceiling: fast mana, wheels and Peer/Breach kills, but a group-slug plan that the source deliberately keeps clear of Oracle shortcuts. Agrees with the source."
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L21",
+    "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L60"
+   ]
+  },
+  "expected_bracket": {
+   "value": {
+    "value": "4",
+    "floor": 4
+   },
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "companion:data/grixis_summary.json#Nekusar__the_Mindrazer"
+   ]
+  },
+  "resolved_ceiling": null,
+  "disagreement": false,
+  "edhrec": {
+   "value": {
+    "bracket_counts": {
+     "1": 53,
+     "2": 1374,
+     "3": 2892,
+     "4": 2610,
+     "5": 291
+    },
+    "decks_with_bracket": 7220,
+    "share_b4_plus": 0.402,
+    "note": "Self-reported brackets of public EDHREC lists; popularity, not a power measurement."
+   },
+   "evidence_class": "derived_metric",
+   "confidence": "moderate",
+   "evidence": [
+    "edhrec:.cache/edhrec/commanders__nekusar-the-mindrazer.json"
+   ]
+  }
+ },
+ "project_exceptions": {
+  "value": [],
+  "evidence_class": "fact",
+  "confidence": "verified",
+  "evidence": [
+   "registry:data/grixis/exceptions.json"
+  ]
+ },
+ "identity_core": [
+  {
+   "card": "Nekusar, the Mindrazer",
+   "why": "Extra draws plus a damage trigger.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "oracle:Nekusar, the Mindrazer"
+   ]
+  },
+  {
+   "card": "Peer into the Abyss",
+   "why": "The compact kill.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1561-1972"
+   ]
+  },
+  {
+   "card": "Wizard's Staff",
+   "why": "Doubles Nekusar's triggers.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L48"
+   ]
+  },
+  {
+   "card": "Wheel of Fortune",
+   "why": "Best wheel, and the Breach loop.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "spellbook:1368-1878-2706"
+   ]
+  },
+  {
+   "card": "Underworld Dreams",
+   "why": "Redundant punisher.",
+   "evidence_class": "strategic_judgment",
+   "confidence": "high",
+   "evidence": [
+    "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L29"
+   ]
+  }
+ ],
+ "anti_goals": {
+  "value": [
+   "No Narset/Notion Thief wheel locks (blueprint L59).",
+   "No Thassa's Oracle package (L60), no infect shortcuts (L61), no Mindcrank package (L62)."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L59",
+   "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L60",
+   "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L62"
+  ]
+ },
+ "thematic_constraints": {
+  "value": [
+   "Wheels / draw punishment / group slug."
+  ],
+  "evidence_class": "strategic_judgment",
+  "confidence": "high",
+  "evidence": [
+   "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md#L15"
+  ]
+ },
+ "construction_rules": [
+  {
+   "rule": "CR 121.1",
+   "note": "Drawing a card.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:121.1"
+   ]
+  },
+  {
+   "rule": "CR 504.1",
+   "note": "Draw step turn-based action.",
+   "evidence_class": "fact",
+   "confidence": "verified",
+   "evidence": [
+    "cr:504.1"
+   ]
+  }
+ ],
+ "supporting_features": {
+  "value": {
+   "hooks": [
+    "opponents drawing (wheels / punishers)"
+   ],
+   "hooked_cards": 23,
+   "role_counts": {
+    "counter": 7,
+    "draw": 32,
+    "protection": 1,
+    "ramp": 12,
+    "removal": 4,
+    "tutor": 3,
+    "wipe": 1
+   },
+   "lands": 35,
+   "edhrec_pages": [
+    "nekusar-the-mindrazer"
+   ]
+  },
+  "evidence_class": "heuristic",
+  "confidence": "low",
+  "evidence": [
+   "companion:scripts/grixis_refine.py"
+  ]
+ },
+ "provenance": {
+  "seeded_from": [
+   "source_archive:refinement/blueprints/Nekusar_the_Mindrazer_Commander_Blueprint_2026-10-15.md",
+   "source_archive:refinement/decisions/Nekusar_the_Mindrazer_Candidate_Decisions_2026-10-15.md",
+   "source_archive:refinement/approvals/Nekusar_the_Mindrazer_Approved_2026-10-15.md",
+   "source_archive:refinement/verification/Nekusar_the_Mindrazer_Approval_Ready_Verification_2026-10-15.md",
+   "source_archive:refinement/verification/Nekusar_the_Mindrazer_Whole_List_Audit_2026-10-15.md",
+   "source_archive:refinement/decklists/Nekusar_the_Mindrazer_Approved_2026-10-15.txt"
+  ],
+  "reviewed_by": null,
+  "author": "GrokBot (Bot cycle 53)"
+ }
+}

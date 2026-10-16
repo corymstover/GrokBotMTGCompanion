@@ -2452,9 +2452,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "5",
+     "evidence": [
+      "companion:data/grixis/blueprints/norman-osborn.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 53
     },
     "resolved_ceiling": {
      "value": null,
@@ -2462,10 +2464,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -3695,9 +3697,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/lynde-cheerful-tormentor.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 53
     },
     "resolved_ceiling": {
      "value": null,
@@ -3705,10 +3709,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -3804,9 +3808,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/mai-and-zuko.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 53
     },
     "resolved_ceiling": {
      "value": null,
@@ -3814,10 +3820,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -3913,9 +3919,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/mairsil-the-pretender.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 53
     },
     "resolved_ceiling": {
      "value": null,
@@ -3923,10 +3931,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -4022,9 +4030,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "5",
+     "evidence": [
+      "companion:data/grixis/blueprints/marchesa-dealer-of-death.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 53
     },
     "resolved_ceiling": {
      "value": null,
@@ -4032,10 +4042,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -4131,9 +4141,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/marchesa-the-black-rose.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 53
     },
     "resolved_ceiling": {
      "value": null,
@@ -4141,10 +4153,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -4240,9 +4252,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "5",
+     "evidence": [
+      "companion:data/grixis/blueprints/mishra-artificer-prodigy.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 53
     },
     "resolved_ceiling": {
      "value": null,
@@ -4250,10 +4264,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -4349,9 +4363,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/mishra-eminent-one.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 53
     },
     "resolved_ceiling": {
      "value": null,
@@ -4359,10 +4375,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -4458,9 +4474,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/missy.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 53
     },
     "resolved_ceiling": {
      "value": null,
@@ -4468,10 +4486,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -4567,9 +4585,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/nathan-drake-treasure-hunter.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 53
     },
     "resolved_ceiling": {
      "value": null,
@@ -4577,10 +4597,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -4676,9 +4696,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/nekusar-the-mindrazer.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 53
     },
     "resolved_ceiling": {
      "value": null,
@@ -4686,10 +4708,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -4803,9 +4825,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/nicol-bolas.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 53
     },
     "resolved_ceiling": {
      "value": null,
@@ -4813,10 +4837,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -4912,9 +4936,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/nicol-bolas-the-ravager.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 53
     },
     "resolved_ceiling": {
      "value": null,
@@ -4922,10 +4948,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -5021,9 +5047,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/obeka-brute-chronologist.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 53
     },
     "resolved_ceiling": {
      "value": null,
@@ -5031,10 +5059,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -5130,9 +5158,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/obeka-splitter-of-seconds.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 53
     },
     "resolved_ceiling": {
      "value": null,
@@ -5140,10 +5170,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,
@@ -5239,9 +5269,11 @@
      ]
     },
     "grok_estimated_ceiling": {
-     "value": null,
-     "evidence": [],
-     "cycle": null
+     "value": "4",
+     "evidence": [
+      "companion:data/grixis/blueprints/parnesse-the-subtle-brush.json#power.grok_estimated_ceiling"
+     ],
+     "cycle": 53
     },
     "resolved_ceiling": {
      "value": null,
@@ -5249,10 +5281,10 @@
      "date": null,
      "evidence": []
     },
-    "disagreement": null,
+    "disagreement": false,
     "floor_above_source_claim": false
    },
-   "blueprint_version": null,
+   "blueprint_version": 1,
    "snapshots": "snap-20261015",
    "test_suite_version": null,
    "test_result_hash": null,

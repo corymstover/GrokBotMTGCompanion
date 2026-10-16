@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 53 (M2: commander blueprints, batch 3; EDH Packages deck labels)](#2026-10-16--bot-cycle-53-m2-commander-blueprints-batch-3-edh-packages-deck-labels)
 - [2026-10-16 — Bot cycle 52 (M2: commander blueprints, batch 2)](#2026-10-16--bot-cycle-52-m2-commander-blueprints-batch-2)
 - [2026-10-16 — Bot cycle 51 (phase 2 / M1: batch D)](#2026-10-16--bot-cycle-51-phase-2--m1-batch-d)
 - [2026-10-16 — Bot cycle 50 (M2: commander blueprints, batch 1; M0 accepted)](#2026-10-16--bot-cycle-50-m2-commander-blueprints-batch-1-m0-accepted)
@@ -68,6 +69,27 @@ schema: 2
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
 
+## 2026-10-16 — Bot cycle 53 (M2: commander blueprints, batch 3; EDH Packages deck labels)
+- **Batch 3: 16 decks**, Lynde, Cheerful Tormentor … Parnesse, the Subtle Brush alphabetically (Lynde, Mai and Zuko, Mairsil, Marchesa (Dealer of Death), Marchesa (the Black Rose), Mishra (Artificer Prodigy), Mishra (Eminent One), Missy, Nathan Drake, Nekusar, Nicol Bolas, Nicol Bolas (the Ravager), Norman Osborn, Obeka (Brute Chronologist), Obeka (Splitter of Seconds), Parnesse). **46/62 blueprints** in total. Same standard as batches 1–2: every field carries an `evidence_class`, a `confidence` and resolvable evidence. `resolved_ceiling` stays null and every blueprint is `seeded`. Twelve of the 16 cite M1 rulings, including the cycle 51 batch D reviews merged mid-cycle; Mishra (Artificer Prodigy) gets two M1 flags as key interactions. Mairsil's Marvin line is `test_required` because M1 marks it uncertain (mairsil-10). The four decks without an M1 review (Norman Osborn, both Obekas, Parnesse) cite source verification, Oracle text and the CR.
+- **Ceilings:** all 16 have a source ceiling; **0 disagreements**. Bracket 5 for Marchesa, Dealer of Death, Mishra, Artificer Prodigy and Norman Osborn; Bracket 4 for the other 13. Parnesse's calibration floor (3) is below its source ceiling (4); the blueprint supports 4 (25 two-card infinites).
+- **Honest commander roles:**
+  - `supporting`: Parnesse. None of the 25 Spellbook infinites uses her, and her copy-sharing gives opponents copies.
+  - `significant`, not `central`:
+    - Mai and Zuko: all 8 infinites are commander-free.
+    - Marchesa, Dealer of Death: the exact tournament list; all wins work without her.
+    - Marchesa, the Black Rose: the source says "commander-native loops", but none of its 48 Spellbook infinites needs her.
+    - Nekusar: the source itself says the deck works without him.
+    - Nicol Bolas, the Ravager: the Teferi/Chain Veil combos are commander-free.
+    - Norman Osborn: the Oracle/Breach kills are generic.
+  - `central`, with caveats:
+    - Lynde and Nathan Drake have no compact win (low-end B4).
+    - Nicol Bolas is an eight-drop with an upkeep tax and no combo (low-end B4).
+    - Mishra, Artificer Prodigy is central to the stax, and M1 shows Void Mirror/Bauble break his own loops without him.
+    - Mishra, Eminent One, Missy and Obeka (Splitter of Seconds) are truly commander-native (Missy and Splitter appear in every Spellbook combo in their lists).
+    - Mairsil and Obeka (Brute Chronologist) are central too.
+- **Registry quirk:** Norman Osborn's registry deck id is still the stale tracker id `Goben__Gene_Splice_Savant`, so the source files (`Norman_Osborn_Green_Goblin_*`) were cited by hand.
+- **Generator fix (EDH Packages.md deck labels):** `build_grixis.py` rewrites the Grixis deck pages without front matter, and `rebuild_enrichment.sh` runs `build_crossrefs.py`/`build_packages.py` before `front_matter.py` restores it. Deck labels in `data/deck_packages.json` and [EDH Packages](EDH%20Packages.md) therefore fell back to bare slugs. Cycles 50 and 52 worked around this by reverting the file. `build_crossrefs.meta_of` now derives deck fields with `front_matter.deck_fields` when a deck page has no front matter, so a full rebuild keeps full deck names. New `tests/test_deck_labels.py` has 5 tests: labels with and without front matter, non-deck pages, no bare-slug labels in EDH Packages.md, and none in `deck_packages.json`.
+- **Not touched:** `grixis/interactions/`, `data/grixis_interactions/`, `scripts/grixis_interactions.py` (read only). No decklist changed.
 ## 2026-10-16 — Bot cycle 52 (M2: commander blueprints, batch 2)
 - **Batch 2: 15 decks**, Edea, Possessed Sorceress … Lord Xander, the Collector alphabetically (Edea, Edward Kenway, Evelyn, Fire Lord Azula, Garza Zol, Goro-Goro and Satoru, Grixistax (Kraum + Tevesh Szat), Gwendlyn Di Corci, Inalla, Jeleva, Kefka, Kess, Loki, Lord of Tresserhorn, Lord Xander). **30/62 blueprints** in total. Same standard as batch 1: every field carries an `evidence_class`, a `confidence` and resolvable evidence (source decisions/approvals with line numbers, M1 rulings, Spellbook combo ids, CR rules, Oracle text). `resolved_ceiling` stays null and every blueprint is `seeded` (not reviewed by Cory).
 - **Ceilings:** all 15 have a source ceiling; **0 disagreements**. Bracket 5 for Evelyn, Fire Lord Azula, Grixistax, Inalla, Jeleva, Kefka and Kess; Bracket 4 for the other 8.
