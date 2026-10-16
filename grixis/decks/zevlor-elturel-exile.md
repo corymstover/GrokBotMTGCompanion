@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -487,6 +488,15 @@ This approval completes the `global-restart-2026-10-13` refinement cycle at **62
 ### Further source evidence (linked, not copied)
 
 - [refinement/verification/Zevlor_Elturel_Exile_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Zevlor_Elturel_Exile_Approval_Ready_Verification_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 56 interaction review: **4 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Zevlor, Elturel Exile — Interaction Review](../interactions/zevlor-elturel-exile.md).
+
+- **Zevlor's delayed trigger: "only" a single target; copies aren't cast; copies survive a countered original** — Exactly one opponent/opponent-permanent target; copies keep modes/X, aren't cast, and happen even if the original is countered. ([zevlor-01](../interactions/zevlor-elturel-exile.md#zevlor-01-zevlors-delayed-trigger-only-a-single-target-copies-arent-cast-copies-survive-a-countered-original))
+- **Stacking Zevlor: several activations, Illusionist's Bracers, Twinning Staff, Exterminator Magmarch** — Each activation/Bracers copy = another full set of copies; Staff adds one per copy event. ([zevlor-02](../interactions/zevlor-elturel-exile.md#zevlor-02-stacking-zevlor-several-activations-illusionists-bracers-twinning-staff-exterminator-magmarch))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

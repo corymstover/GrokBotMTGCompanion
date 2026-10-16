@@ -33,6 +33,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -476,6 +477,20 @@ Next unlocked deck in authoritative tracker order: **Wick, the Whorled Mind — 
 ### Further source evidence (linked, not copied)
 
 - [refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 56 interaction review: **7 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Tresserhorn's Lord, Returned — Interaction Review](../interactions/tresserhorns-lord-returned.md).
+
+- **The enter trigger: pay all of it (three sacrifices = three draws) or he's sacrificed (one draw)** — Pay all three sacrifices = 3 draws; decline = he's sacrificed and still draws 1. ([tressret-01](../interactions/tresserhorns-lord-returned.md#tressret-01-the-enter-trigger-pay-all-of-it-three-sacrifices--three-draws-or-hes-sacrificed-one-draw))
+- **The Locust God + any free sacrifice outlet: endless draw-and-Insect loop** — Sacrifice → Tresserhorn draw → Locust Insect → sacrifice; stop by choosing not to sacrifice. ([tressret-02](../interactions/tresserhorns-lord-returned.md#tressret-02-the-locust-god--any-free-sacrifice-outlet-endless-draw-and-insect-loop))
+- **Blasphemous Edict sacrifices Tresserhorn unless you have 13+ other creatures** — Under 13 other creatures, Edict takes your commander too. ([tressret-05](../interactions/tresserhorns-lord-returned.md#tressret-05-blasphemous-edict-sacrifices-tresserhorn-unless-you-have-13-other-creatures))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Blasphemous Edict sacrifices Tresserhorn unless you have 13+ other creatures: Blasphemous Edict sacrifices Tresserhorn too unless you control 13+ other creatures (the cards still draw). ([tressret-05](../interactions/tresserhorns-lord-returned.md#tressret-05-blasphemous-edict-sacrifices-tresserhorn-unless-you-have-13-other-creatures))
+- 🚩 list flag Pending release: the source says it's legal now, but official sources say 2026-11-13: Source claims current Commander legality; Gatherer/Wizards/Scryfall: not legal until 2026-11-13. Pending state kept. ([tressret-07](../interactions/tresserhorns-lord-returned.md#tressret-07-pending-release-the-source-says-its-legal-now-but-official-sources-say-2026-11-13))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

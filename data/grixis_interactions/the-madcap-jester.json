@@ -1,0 +1,341 @@
+{
+ "schema": 1,
+ "deck_id": "The_Madcap_Jester",
+ "slug": "the-madcap-jester",
+ "commanders": [
+  "The Madcap Jester"
+ ],
+ "deck_sha256": "1ce93f38a1dc81a07c3f499beb168ba2ac0512da1718ea02ab4204cefb0d8f03",
+ "list_source": "exports/grixis-archidekt/the-madcap-jester.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 56,
+ "batch": "F",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/the_madcap_jester_2026-10-15/gate_output/The_Madcap_Jester_Rules_Attestation.json",
+   "note": "Rules attestation (13 items, all PASS) re-verified"
+  },
+  {
+   "path": "refinement/verification/The_Madcap_Jester_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification"
+  }
+ ],
+ "summary": "The Madcap Jester attacks to make each opponent exile their top card. Any library exile your spells or abilities cause lets you play those cards until the end of your next turn with any mana. Exile effects (Ashiok, Circu, Scepter, Extract, Bitter Ordeal, Tasha's) and cast-from-exile payoffs (Dragon's Smile, Bilbo, Archaeologist, Nalfeshnee, Prosper, Wild-Magic Sorcerer) are the engine. Thassa's Oracle + Consultation / Tainted Pact and Breach + LED / Petal + Brain Freeze are the wins. All 4 Spellbook lines and all 13 attestation items are checked against the canonical list. The deck stays PENDING_RELEASE: Jester and Dragon's Smile are 2026-11-13 project exceptions, and Jester has no official rulings yet.\n\nRules surprises: the opponent doing the exiling still counts as your ability causing it; Scepter's face-down cards are playable because you can look at them; Dragon's Smile's own exile gets Jester's longer window. One uncertain item: whether Dauthi-replaced mill counts. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "jester-01",
+   "category": "commander",
+   "title": "Jester's access trigger: any library exile caused by a spell or ability you control",
+   "cards": [
+    "The Madcap Jester",
+    "Ashiok, Nightmare Weaver",
+    "Circu, Dimir Lobotomist",
+    "Extract",
+    "Sadistic Sacrament",
+    "Bitter Ordeal",
+    "Tasha's Hideous Laughter",
+    "Jester's Cap",
+    "Psychic Surgery",
+    "Inside Information"
+   ],
+   "ruling": "Jester's first ability is an ability you control. Even though each opponent does the exiling, your ability caused it, so the second ability triggers. The same goes for any spell or ability you control that exiles cards straight from an opponent's library:\n- Ashiok's +2, Circu's cast triggers when they target an opponent, and Psychic Surgery.\n- Extract, Sadistic Sacrament, Jester's Cap and Tasha's Hideous Laughter.\n- Bitter Ordeal and each of its gravestorm copies, since copies are spells you control.\n\nThose cards can be played until the end of your next turn with mana of any type, but normal timing, costs and land drops still apply. Exiling from your own library (Prosper's Mystic Arcanum, Wild-Magic Sorcerer's cascade) doesn't count.\n\nInside Information grants its own this-turn permission with a pay-life cost. Its cards are also covered by Jester, so you choose which permission to use. Jester has no official rulings yet (future release). This reading follows directly from the Oracle text and CR 603.2.",
+   "short": "Any library exile your spells or abilities cause (even when the opponent performs it) = play until end of next turn, any mana.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.2",
+    "109.4",
+    "707.10",
+    "305.2"
+   ],
+   "oracle": [
+    {
+     "card": "The Madcap Jester",
+     "quote": "Whenever The Madcap Jester attacks, each opponent exiles the top card of their library."
+    },
+    {
+     "card": "The Madcap Jester",
+     "quote": "Whenever a spell or ability you control causes one or more cards to be exiled from an opponent's library, you may play those cards until the end of your next turn. Mana of any type can be spent to cast spells this way."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Inside Information",
+     "quote": "You must follow all normal timing rules when playing a land or casting a spell for cards exiled with Inside Information. For example, if an exiled card is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/the_madcap_jester_2026-10-15/gate_output/The_Madcap_Jester_Rules_Attestation.json",
+     "item": "Madcap attack and access triggers"
+    },
+    {
+     "path": "refinement/verification/the_madcap_jester_2026-10-15/gate_output/The_Madcap_Jester_Rules_Attestation.json",
+     "item": "Ashiok Nightmare Weaver"
+    },
+    {
+     "path": "refinement/verification/the_madcap_jester_2026-10-15/gate_output/The_Madcap_Jester_Rules_Attestation.json",
+     "item": "Direct exile suite"
+    },
+    {
+     "path": "refinement/verification/the_madcap_jester_2026-10-15/gate_output/The_Madcap_Jester_Rules_Attestation.json",
+     "item": "Lightning Greaves"
+    }
+   ]
+  },
+  {
+   "id": "jester-02",
+   "category": "replacement",
+   "title": "Dauthi Voidwalker turns your mill into exile: does Jester see it?",
+   "cards": [
+    "The Madcap Jester",
+    "Dauthi Voidwalker",
+    "Brain Freeze",
+    "Bitter Ordeal"
+   ],
+   "ruling": "With Dauthi out, cards Brain Freeze mills from an opponent's library are exiled with void counters instead (CR 614.6: the modified event happens). Your spell caused that event, so the attestation counts it as \"a spell you control causes cards to be exiled from an opponent's library.\" That's plausible, but no official ruling covers a replacement-modified event against a \"causes ... to be exiled\" trigger, and Jester has no rulings yet. Treat it as a hypothesis until Jester's release notes.\n\nDauthi doesn't change your own self-mill for Breach, and it doesn't make opponent-caused mill count. It also stops opponents' permanents from reaching the graveyard, which shrinks Bitter Ordeal's gravestorm count.",
+   "short": "Probably qualifies (614.6), but unruled — hypothesis.",
+   "status": "uncertain",
+   "uncertainty": "No official ruling (Jester unreleased) on whether a mill replaced by Dauthi counts as your spell \"causing\" cards to be exiled from an opponent's library; rules-derived from CR 614.6.",
+   "key": true,
+   "cr": [
+    "614.6",
+    "701.17c"
+   ],
+   "oracle": [
+    {
+     "card": "Dauthi Voidwalker",
+     "quote": "If a card would be put into an opponent's graveyard from anywhere, instead exile it with a void counter on it."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Dauthi Voidwalker",
+     "quote": "If your opponent discards a card while you control Dauthi Voidwalker, abilities that function when that card is discarded still work, even though that card never reaches that player's graveyard. In addition, spells or abilities that check the characteristics of the discarded card can find that card in exile."
+    }
+   ],
+   "evidence_class": "hypothesis",
+   "source": [
+    {
+     "path": "refinement/verification/the_madcap_jester_2026-10-15/gate_output/The_Madcap_Jester_Rules_Attestation.json",
+     "item": "Dauthi replacement plus controlled mill"
+    },
+    {
+     "path": "refinement/verification/the_madcap_jester_2026-10-15/gate_output/The_Madcap_Jester_Rules_Attestation.json",
+     "item": "Brain Freeze with Dauthi"
+    }
+   ]
+  },
+  {
+   "id": "jester-03",
+   "category": "zone",
+   "title": "Jester's Scepter: face-down exile you can look at is playable",
+   "cards": [
+    "The Madcap Jester",
+    "Jester's Scepter"
+   ],
+   "ruling": "Jester's Scepter exiles the top five cards of the target player's library face down and lets you look at them. If the target is an opponent, Jester's permission covers them. A face-down exiled card has no characteristics, but a player who may look at it can begin to cast it. It's turned face up just before you play it. Only you can see Scepter's cards, so opponents can't tell what you can play. If you later put a Scepter card into its owner's graveyard for the counter ability, you lose access to that card.",
+   "status": "verified",
+   "cr": [
+    "406.3a",
+    "601.3f"
+   ],
+   "oracle": [
+    {
+     "card": "Jester's Scepter",
+     "quote": "When this artifact enters, exile the top five cards of target player's library face down. You may look at those cards for as long as they remain exiled."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Jester's Scepter",
+     "quote": "You can see the cards that are exiled with Jester’s Scepter, but no one else can."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/the_madcap_jester_2026-10-15/gate_output/The_Madcap_Jester_Rules_Attestation.json",
+     "item": "Jesters Scepter face-down exile"
+    }
+   ]
+  },
+  {
+   "id": "jester-04",
+   "category": "combo",
+   "title": "Thassa's Oracle + Demonic Consultation / Tainted Pact",
+   "cards": [
+    "The Madcap Jester",
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact"
+   ],
+   "ruling": "Respond to Thassa's Oracle's trigger, or cast first and then Oracle, with Demonic Consultation naming a card not in your library, or with Tainted Pact. Your library is exiled, Oracle's devotion check sees 0 cards, and you win (Spellbook 742-1295, 1295-3093). Every card in the exported list is a different card (100 lines of one copy each), so Tainted Pact never hits a duplicate name. Consultation can't be pointed at an opponent.",
+   "status": "verified",
+   "cr": [
+    "104.2b"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Thassa's Oracle",
+     "quote": "If your devotion to blue is zero at the time the triggered ability of Thassa's Oracle resolves, you don't look at or move any cards in your library. If you have no cards in your library, you win the game."
+    },
+    {
+     "card": "Demonic Consultation",
+     "quote": "There is no way to make this card affect your opponent. It affects \"you\", and \"you\" means the controller of the spell. It has no targets."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "1295-3093",
+     "quote": "No two cards in library share a name."
+    },
+    {
+     "id": "742-1295",
+     "quote": "Thassa's Oracle enters the battlefield, causing you to win the game."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/the_madcap_jester_2026-10-15/gate_output/The_Madcap_Jester_Rules_Attestation.json",
+     "item": "Thassa Oracle plus Demonic Consultation"
+    },
+    {
+     "path": "refinement/verification/the_madcap_jester_2026-10-15/gate_output/The_Madcap_Jester_Rules_Attestation.json",
+     "item": "Thassa Oracle plus Tainted Pact"
+    }
+   ]
+  },
+  {
+   "id": "jester-05",
+   "category": "combo",
+   "title": "Underworld Breach + Lion's Eye Diamond / Lotus Petal + Brain Freeze",
+   "cards": [
+    "The Madcap Jester",
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Brain Freeze"
+   ],
+   "ruling": "Breach gives cards in your graveyard escape. Recasting LED or Lotus Petal grows the storm count while making mana, and Brain Freeze's copies mill your own library or an opponent's (Spellbook 1368-3518-4856, 1368-1414-4856). Then win with Oracle. Storm copies aren't cast, so they don't add to storm. Escape exiles cards from your own graveyard, so Dauthi doesn't affect this line.",
+   "status": "verified",
+   "cr": [
+    "702.138a",
+    "702.40a"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Brain Freeze",
+     "quote": "The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn."
+    },
+    {
+     "card": "Underworld Breach",
+     "quote": "If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "1368-3518-4856",
+     "quote": "Activate Lion's Eye Diamond by discarding your hand and sacrificing it, adding {U}{U}{U}."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/the_madcap_jester_2026-10-15/gate_output/The_Madcap_Jester_Rules_Attestation.json",
+     "item": "Underworld Breach LED Brain Freeze"
+    }
+   ]
+  },
+  {
+   "id": "jester-06",
+   "category": "engine",
+   "title": "Casting from exile: Dragon's Smile {0}, Bilbo, Archaeologist, Nalfeshnee, Prosper, Wild-Magic Sorcerer",
+   "cards": [
+    "The Madcap Jester",
+    "Dragon's Smile",
+    "Bilbo, Thief in the Night",
+    "Passionate Archaeologist",
+    "Nalfeshnee",
+    "Prosper, Tome-Bound",
+    "Wild-Magic Sorcerer"
+   ],
+   "ruling": "Payoffs for casting from exile:\n- **Dragon's Smile:** once in each of your turns, a spell cast from exile can cost {0} instead of its mana cost. Opponents' cards under Jester count. It's an alternative cost, so it can't stack with Inside Information's pay-life cost. Its combat-damage exile is also caused by an ability you control, so Jester extends those cards to the end of your next turn.\n- **Bilbo:** each of those spells costs {1} less.\n- **Passionate Archaeologist:** Jester deals damage equal to the spell's mana value.\n- **Nalfeshnee:** copies the spell.\n- **Prosper:** makes a Treasure for any card played from exile, not only its own.\n- **Wild-Magic Sorcerer:** gives cascade to the first spell you cast from exile each turn.\n\nDragon's Smile and Jester are unreleased cards kept only as registered project exceptions.",
+   "status": "verified",
+   "cr": [
+    "118.9",
+    "702.85a"
+   ],
+   "oracle": [
+    {
+     "card": "Dragon's Smile",
+     "quote": "Once during each of your turns, you may pay {0} rather than pay the mana cost for a spell you cast from exile."
+    },
+    {
+     "card": "Passionate Archaeologist",
+     "quote": "Commander creatures you own have \"Whenever you cast a spell from exile, this creature deals damage equal to that spell's mana value to target opponent.\""
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Prosper, Tome-Bound",
+     "quote": "The Pact Boon ability triggers whenever you play any cards from exile, not just those exiled with the Mystic Arcanum ability."
+    },
+    {
+     "card": "Wild-Magic Sorcerer",
+     "quote": "The first spell you cast from exile each turn will have cascade, even if it's not the first spell you've cast that turn."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/the_madcap_jester_2026-10-15/gate_output/The_Madcap_Jester_Rules_Attestation.json",
+     "item": "Dragon’s Smile alternative cost"
+    },
+    {
+     "path": "refinement/verification/the_madcap_jester_2026-10-15/gate_output/The_Madcap_Jester_Rules_Attestation.json",
+     "item": "Cast-from-exile payoffs"
+    }
+   ]
+  },
+  {
+   "id": "jester-07",
+   "category": "legality",
+   "title": "Pending release: The Madcap Jester and Dragon's Smile stay pending",
+   "cards": [
+    "The Madcap Jester",
+    "Dragon's Smile"
+   ],
+   "ruling": "The Madcap Jester and Dragon's Smile are new cards not yet released. They're kept under the registered project future-release exceptions, and Wizards says they become Commander-legal on 2026-11-13. This review checks their interactions against the canonical list but doesn't change the deck's PENDING_RELEASE state or claim the deck is legal now. Their rulings should be re-checked against the release notes, especially jester-02.",
+   "status": "verified",
+   "cr": [],
+   "oracle": [
+    {
+     "card": "Dragon's Smile",
+     "quote": "Once during each of your turns, you may pay {0} rather than pay the mana cost for a spell you cast from exile."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/the_madcap_jester_2026-10-15/gate_output/The_Madcap_Jester_Rules_Attestation.json",
+     "item": "Future-release project exceptions"
+    }
+   ]
+  }
+ ]
+}

@@ -29,11 +29,11 @@
   "note": "EDHREC is community data (derived_metric): it informs, it never decides (decision_support_ok)."
  },
  "snapshot": {
-  "id": "sha256:239dd8d0647695fe1c8455df03e8376def1435e801b913ba653eb3a702171465",
+  "id": "sha256:0b7e2f95ed6e0850e375ef76cad7cf357186e066e7ce32a6d77dfd86fe2fec8c",
   "inputs": {
    ".cache/edhrec/commanders__norman-osborn.json": "sha256:cb0df78704c814a24e9fe2db4f48f6654c1ac2715c866722b026ed3ea93cce1d",
    "data/grixis_combos.json": "sha256:3c8fc18c4c79d1e16db9e4c451ce215f118ee842a5ab3276ec44e3a59672f983",
-   "data/grixis_interactions/norman-osborn.json": "sha256:936390c33fa6ede98d75a0cab236ebadb70b86ff87bfe40e75aa2988e72fe679",
+   "data/grixis_interactions/norman-osborn.json": "sha256:9028f51ec280e392dfca6f97ed36efe36f283a18cb8efc8d612fc83dffc569aa",
    "data/grixis/blueprints/norman-osborn.json": "sha256:7e37612633bc8ea95700e7ac5fd3500edec389f2fb1fa347684e89331d58204d",
    "grixis/decks/norman-osborn.md": "sha256:c454ac9cfef2576b57309d2a47150b7bb0e5a7929f136bef33e014e8998bd969",
    "scripts/grixis_evidence.py": "sha256:e90834a722311b4f9dfc5a060dae1116e4a8e07f1d3d8e50b49a73729ffd82ec",

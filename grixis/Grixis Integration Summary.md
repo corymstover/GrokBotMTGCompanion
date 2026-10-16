@@ -14,6 +14,8 @@ schema: 2
 > **Bot cycle 16 · milestone [Grixis integration](https://github.com/corymstover/GrokBotMTGCompanion/milestone/13) · issues [#59](https://github.com/corymstover/GrokBotMTGCompanion/issues/59)–[#63](https://github.com/corymstover/GrokBotMTGCompanion/issues/63).** What we took from the user's [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) repo (read-only; commit `df1abb9` in Bot cycle 16, **re-analyzed at `1836b97` in Bot cycle 37**), what was fixed, what was generalized for every color identity, and what remains. Back to [Grixis](README.md).
 
 ## Contents
+- [Bot cycle 56 interaction reviews](#bot-cycle-56-interaction-reviews)
+- [Bot cycle 56 interaction reviews](#bot-cycle-56-interaction-reviews)
 - [Bot cycle 54 interaction reviews](#bot-cycle-54-interaction-reviews)
 - [Bot cycle 51 interaction reviews](#bot-cycle-51-interaction-reviews)
 - [Bot cycle 49 interaction reviews](#bot-cycle-49-interaction-reviews)
@@ -31,6 +33,30 @@ schema: 2
 - [What we did not take](#what-we-did-not-take)
 - [Recommended follow-ups](#recommended-follow-ups)
 - [Reproducing](#reproducing)
+
+## Bot cycle 56 interaction reviews
+Batch F covers the last 10 decks: Sol'Kanar the Tainted, Tetsuo (Imperial Champion), Tetsuo Umezawa, The Madcap Jester, The Rani, The Valeyard, Thraximundar, Tresserhorn's Lord (Returned), Wick and Zevlor. That's **59 rulings: 52 verified, 1 uncertain, 6 flags**. **All 62 decks are now reviewed (592 rulings).** No decklist changed. The two pending decks stay pending.
+- **Flags** (pilot notes):
+  - Sol'Kanar the Tainted: donated cards come back if the holder leaves the game.
+  - Sol'Kanar the Tainted: the source has Greed's Gambit's trigger timing wrong.
+  - The Rani: the Force of Will pitch count is 23, not 28.
+  - Thraximundar: Cultist's upkeep sacrifice.
+  - Tresserhorn's Lord: Blasphemous Edict takes the commander.
+  - Tresserhorn's Lord: the source's "legal now" claim is wrong.
+- **Uncertain:** whether Dauthi-replaced mill counts for the Jester.
+- **M1 gaps:** no review emits `edges` yet, and 6 of the 518 source attestation items are still uncited.
+
+## Bot cycle 56 interaction reviews
+Batch F covers the last 10 decks: Sol'Kanar the Tainted, Tetsuo (Imperial Champion), Tetsuo Umezawa, The Madcap Jester, The Rani, The Valeyard, Thraximundar, Tresserhorn's Lord (Returned), Wick and Zevlor. That's **59 rulings: 52 verified, 1 uncertain, 6 flags**. **All 62 decks are now reviewed (592 rulings).** No decklist changed. The two pending decks stay pending.
+- **Flags** (pilot notes):
+  - Sol'Kanar the Tainted: donated cards come back if the holder leaves the game.
+  - Sol'Kanar the Tainted: the source has Greed's Gambit's trigger timing wrong.
+  - The Rani: the Force of Will pitch count is 23, not 28.
+  - Thraximundar: Cultist's upkeep sacrifice.
+  - Tresserhorn's Lord: Blasphemous Edict takes the commander.
+  - Tresserhorn's Lord: the source's "legal now" claim is wrong.
+- **Uncertain:** whether Dauthi-replaced mill counts for the Jester.
+- **M1 gaps:** no review emits `edges` yet, and 6 of the 518 source attestation items are still uncited.
 
 ## Bot cycle 54 interaction reviews
 Batch E covers the next 10 decks alphabetically: Norman Osborn, Obeka (Brute Chronologist), Obeka (Splitter of Seconds), Parnesse, Rograkh + Silas Renn, Saruman, Sauron (Lord of the Rings), Sauron (the Dark Lord), Sedris and Sol'kanar the Swamp King. That's **66 rulings: 62 verified, 1 uncertain, 3 flags**. Overall: 52/62 decks and 533 rulings. No decklist changed.

@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -459,6 +460,15 @@ The approved list is frozen and must not be revised unless the user explicitly r
 ### Further source evidence (linked, not copied)
 
 - [refinement/verification/The_Valeyard_Approval_Ready_Verification_2026-10-15.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/The_Valeyard_Approval_Ready_Verification_2026-10-15.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 56 interaction review: **5 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [The Valeyard — Interaction Review](../interactions/the-valeyard.md).
+
+- **Villainous choices are faced again, one at a time; copies add more** — Each opponent's villainous choice happens twice (more with copies), performed in full each time. ([valeyard-01](../interactions/the-valeyard.md#valeyard-01-villainous-choices-are-faced-again-one-at-a-time-copies-add-more))
+- **Extra votes: only real votes count (Prisoner's Dilemma correctly cut); secret council counts** — Real votes only; council's dilemma votes stack, will-of-the-council votes swing majorities. ([valeyard-02](../interactions/the-valeyard.md#valeyard-02-extra-votes-only-real-votes-count-prisoners-dilemma-correctly-cut-secret-council-counts))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

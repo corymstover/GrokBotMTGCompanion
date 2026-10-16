@@ -1,0 +1,283 @@
+{
+ "schema": 1,
+ "deck_id": "Wick__the_Whorled_Mind",
+ "slug": "wick-the-whorled-mind",
+ "commanders": [
+  "Wick, the Whorled Mind"
+ ],
+ "deck_sha256": "0d784f93911618a7f6698ad8f1ad0799399ed2305df5c9568dbdbfb75b31f8e5",
+ "list_source": "exports/grixis-archidekt/wick-the-whorled-mind.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 56,
+ "batch": "F",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md",
+   "note": "Approval-ready verification (no rules attestation JSON in source)"
+  }
+ ],
+ "summary": "Wick, the Whorled Mind makes or grows a single Snail whenever a Rat enters, then sacrifices it for damage to each opponent and draws equal to its power. The deck makes Snails into Rats (Arcane Adaptation, Leyline of Transformation, Maskwood Nexus) for 12 free-outlet loops, runs Marrow-Gnawer + Intruder Alarm for infinite Rats, and grows Snail power with Bulk Up, Blade, Relic and Ozolith. Tainted Strike turns the hit into poison. The source has no rules attestation JSON, so this review uses the approval-ready verification, and the canonical list matches its 23-card delta. All 13 Spellbook lines have every piece in the list.\n\nRules surprises: Wick is the damage source, so infect on Wick means poison; \"if you don't control a Snail\" is checked on resolution, which is what makes the sacrifice-in-response loop work; Conspiracy would break it; Cavern's mana can't activate Wick. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "wick-01",
+   "category": "commander",
+   "title": "Wick: create-or-grow Snail on Rat entry; the activation uses the Snail's last-known power",
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Song of Totentanz",
+    "Rat King, Verminister",
+    "Tangled Colony",
+    "Voracious Vermin"
+   ],
+   "ruling": "Each time Wick or another Rat you control enters, you get a new 1/1 Snail if you don't control one, or a +1/+1 counter on a Snail you control. \"If you don't control a Snail\" is checked when the trigger resolves, not when it triggers. Several Rats entering at once (Song of Totentanz for X, token makers) give one trigger each: the first makes the Snail and the rest grow it.\n\nWick's activation sacrifices the Snail as a cost. Damage to each opponent and the cards drawn both use the Snail's power as it last existed on the battlefield. Wick is the source of that damage.",
+   "short": "One Snail grows with every Rat; sac it to Wick for power-sized damage to each opponent + draws.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.2c",
+    "608.2h",
+    "113.7a"
+   ],
+   "oracle": [
+    {
+     "card": "Wick, the Whorled Mind",
+     "quote": "Whenever Wick or another Rat you control enters, create a 1/1 black Snail creature token if you don't control a Snail. Otherwise, put a +1/+1 counter on a Snail you control."
+    },
+    {
+     "card": "Song of Totentanz",
+     "quote": "Create X 1/1 black Rat creature tokens with \"This token can't block.\" Creatures you control gain haste until end of turn."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Wick, the Whorled Mind",
+     "quote": "Use the power of the sacrificed Snail as it last existed on the battlefield to determine how much damage to deal and how many cards to draw. While Wick may have given the Snail up, Wick won’t let you down."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "**Wick sacrifice resolution:** damage and cards use the sacrificed Snail's power as it last existed on the battlefield."
+    }
+   ]
+  },
+  {
+   "id": "wick-02",
+   "category": "combo",
+   "title": "Rat-typed Snails + free outlet: each Snail is a Rat that makes the next Snail",
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Arcane Adaptation",
+    "Leyline of Transformation",
+    "Maskwood Nexus",
+    "Ashnod's Altar",
+    "Phyrexian Altar",
+    "Viscera Seer",
+    "Carrion Feeder",
+    "Goblin Bombardment",
+    "Altar of Dementia",
+    "Mirkwood Bats",
+    "Impact Tremors",
+    "Zulaport Cutthroat"
+   ],
+   "ruling": "Arcane Adaptation or Leyline of Transformation naming Rat, or Maskwood Nexus, adds Rat to your creatures and keeps their other types, so the Snail token is also a Rat. When Wick or a Rat enters, sacrifice your Snail in response to the trigger. The trigger then makes a new Snail, which is a Rat, so it triggers Wick again. Repeat. That's 12 Spellbook lines (803-/5853- with Ashnod's or Phyrexian Altar, Viscera Seer, Carrion Feeder, Goblin Bombardment or Altar of Dementia). Each loop is a sacrifice, a death and a token entering. Goblin Bombardment, Mirkwood Bats, Impact Tremors or Zulaport finishes. Conspiracy, correctly cut, would set creatures to Rat only, so the Snail would stop being a Snail.",
+   "short": "Type-adders make Snails into Rats; sac in response and Wick re-makes it forever.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "205.1b",
+    "613.1d",
+    "603.3b"
+   ],
+   "oracle": [
+    {
+     "card": "Arcane Adaptation",
+     "quote": "Creatures you control are the chosen type in addition to their other types. The same is true for creature spells you control and creature cards you own that aren't on the battlefield."
+    }
+   ],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "803-2034-5853",
+     "quote": "Holding priority, if you control a Snail, activate Ashnod's Altar by sacrificing the Snail, adding {C}{C}."
+    },
+    {
+     "id": "803-2034-5853",
+     "quote": "Arcane Adaptation on the battlefield with \"Rat\" chosen."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "**Conspiracy rejected:** choosing Rat makes affected creatures the chosen type rather than preserving all existing creature types, so the Snail ceases to be a Snail."
+    }
+   ]
+  },
+  {
+   "id": "wick-03",
+   "category": "combo",
+   "title": "Marrow-Gnawer + Intruder Alarm: infinite Rats (and infinite Snail growth)",
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Marrow-Gnawer",
+    "Intruder Alarm"
+   ],
+   "ruling": "Tap Marrow-Gnawer and sacrifice a Rat to make X Rats, where X is the Rats you control on resolution. Intruder Alarm untaps all creatures once per token, so Marrow-Gnawer can go again with more Rats each time (Spellbook 1636-3126; needs at least two other Rats). Each Rat token also triggers Wick, so the Snail grows by a counter per Rat. Intruder Alarm also stops your creatures from untapping normally, but Wick's ability doesn't tap.",
+   "short": "Arbitrarily many Rats → arbitrarily large Snail → Wick kills the table.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.2c"
+   ],
+   "oracle": [
+    {
+     "card": "Intruder Alarm",
+     "quote": "Whenever a creature enters, untap all creatures."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Marrow-Gnawer",
+     "quote": "Marrow-Gnawer's ability counts the number of Rats on the battlefield when it resolves, so you don't count the sacrificed Rat."
+    },
+    {
+     "card": "Intruder Alarm",
+     "quote": "If multiple creatures enter the battlefield at one time, this ability triggers once for each of those creatures."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "1636-3126",
+     "quote": "Intruder Alarm triggers once for each creature token created, untapping all creatures that many times."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "**Marrow-Gnawer + Intruder Alarm:** with at least two Rats available to tap with Marrow-Gnawer"
+    }
+   ]
+  },
+  {
+   "id": "wick-04",
+   "category": "pair",
+   "title": "Tainted Strike: Wick's damage becomes poison",
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Tainted Strike"
+   ],
+   "ruling": "Wick is the source of the activated damage, so Tainted Strike on Wick before the ability resolves turns that damage to each opponent into poison counters. A 10-power Snail gives everyone 10 poison. Infect works on noncombat damage too, and it can still be prevented. Cast Tainted Strike on Wick, not on the Snail you're sacrificing.",
+   "short": "Infect on Wick (the source) = power-sized poison to every opponent.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "702.90b",
+    "704.5c"
+   ],
+   "oracle": [
+    {
+     "card": "Tainted Strike",
+     "quote": "Target creature gets +1/+0 and gains infect until end of turn. (It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Tainted Strike",
+     "quote": "Infect’s effect applies to any damage, not just combat damage."
+    },
+    {
+     "card": "Tainted Strike",
+     "quote": "A player who has ten or more poison counters loses the game. This is a state-based action."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "**Tainted Strike:** Wick, not the sacrificed Snail, is the source dealing the activated-ability damage."
+    }
+   ]
+  },
+  {
+   "id": "wick-05",
+   "category": "engine",
+   "title": "Growing and keeping Snail power: Bulk Up, Blade of the Bloodchief, Lich's Relic, The Ozolith",
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Bulk Up",
+    "Blade of the Bloodchief",
+    "Lich's Relic",
+    "The Ozolith"
+   ],
+   "ruling": "Growing the Snail:\n- **Bulk Up** doubles the Snail's power for the turn, and flashback gives a second use.\n- **Blade of the Bloodchief** adds a counter whenever any creature dies. Snails aren't Vampires, so it's one counter.\n- **Lich's Relic** adds +2/+1.\n\n**The Ozolith** stores the counters when you sacrifice a Snail with counters. At your beginning of combat you can move all of them onto the new Snail, but not just some. Its trigger needs a legal target when it resolves.",
+   "status": "verified",
+   "cr": [
+    "122.1",
+    "613.4c"
+   ],
+   "oracle": [
+    {
+     "card": "The Ozolith",
+     "quote": "Whenever a creature you control leaves the battlefield, if it had counters on it, put those counters on The Ozolith."
+    },
+    {
+     "card": "Blade of the Bloodchief",
+     "quote": "Whenever a creature dies, put a +1/+1 counter on equipped creature. If equipped creature is a Vampire, put two +1/+1 counters on it instead."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "The Ozolith",
+     "quote": "You can't move only some of the counters from The Ozolith onto the target creature."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "**The Ozolith:** when a Snail with +1/+1 counters leaves the battlefield, those counters can be stored on The Ozolith"
+    }
+   ]
+  },
+  {
+   "id": "wick-06",
+   "category": "dependency",
+   "title": "Cavern of Souls can't pay Wick's {U}{B}{R}",
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Cavern of Souls"
+   ],
+   "ruling": "Cavern of Souls naming Rat makes Wick and Rat creature spells uncounterable. Its colored mana can only be spent to cast creature spells of that type, so it can't pay Wick's {U}{B}{R} activation. Count it as {C} for the combo. The approval-ready note says the same.",
+   "status": "verified",
+   "cr": [
+    "106.6"
+   ],
+   "oracle": [
+    {
+     "card": "Cavern of Souls",
+     "quote": "{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/Wick_the_Whorled_Mind_Approval_Ready_Verification_2026-10-15.md",
+     "quote": "its restricted colored mana cannot pay Wick's `{U}{B}{R}` activated ability."
+    }
+   ]
+  }
+ ]
+}
