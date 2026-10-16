@@ -50,3 +50,29 @@ def test_v1_labels_marked_unvalidated_and_snapshots_present():
             assert s["label_authority"].startswith("unvalidated_v1_judgment")
         if it["deck"] != "multi":
             assert it.get("deck_snapshot", {}).get("canonical_lh1", "").startswith("lh1:")
+
+
+def test_every_item_has_evaluation_role_and_reports_must_stratify():
+    c = gb.load(gb.B / "corpus.json")["items"]
+    assert {i["evaluation_role"] for i in c} <= {"detection", "regression_guard", "judgment_calibration"}
+    m = gb.load(gb.B / "manifest.json")
+    assert m["reporting_rule"]["pooled_score_allowed"] is False
+    assert m["reporting_rule"]["stratify_by"] == ["evaluation_role", "originated_by", "contamination.level"]
+
+
+def test_regression_guards_are_already_in_the_baseline_and_v1_never_detection():
+    c = gb.load(gb.B / "corpus.json")["items"]
+    for it in c:
+        s = gb.load(gb.B / "sealed" / f"{it['id']}.json")
+        if s["label_authority"].startswith("unvalidated_v1_judgment"):
+            assert it["evaluation_role"] == "judgment_calibration"
+        if it["evaluation_role"] == "regression_guard":
+            assert s["expected_outcome"].startswith("Make the change")
+
+
+def test_deck_snapshot_ids_exist_in_registry():
+    reg = gb.load(gb.ROOT / "data" / "grixis" / "registry.json")["decks"]
+    ids = {d["deck_id"] for d in (reg.values() if isinstance(reg, dict) else reg)}
+    for it in gb.load(gb.B / "corpus.json")["items"]:
+        if "deck_snapshot" in it:
+            assert it["deck_snapshot"]["registry_deck_id"] in ids

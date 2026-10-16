@@ -20,6 +20,14 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 B = ROOT / "data" / "grixis" / "benchmark"
 SCHEMA = ROOT / "data" / "grixis" / "schemas" / "benchmark_item.schema.json"
+REPORTING_RULE = {
+    "stratify_by": ["evaluation_role", "originated_by", "contamination.level"],
+    "pooled_score_allowed": False,
+    "rule": ("Any benchmark report gives results per stratum (evaluation_role x originated_by x contamination level, with counts) "
+             "and never one pooled score. regression_guard items measure non-reversion only, never detection; "
+             "judgment_calibration items measure agreement with unvalidated v1 or source judgments, never accuracy; "
+             "the prospective holdout is reported separately from the retrospective corpus."),
+}
 FREEZE_RULE = ("The retrospective corpus may grow in G0 batches until step A (adaptive saturation) begins. From the first A commit "
                "it is immutable: no item added, edited or removed; a wrong item is retracted by a new record. Only the "
                "prospective holdout grows afterwards.")
@@ -77,7 +85,7 @@ def leak_problems(item, sealed):
 def build_manifest(corpus_path=None):
     corpus = load(corpus_path or B / "corpus.json")
     return {"schema_version": 1, "cycle": "Bot cycle 64.1", "status": "growing", "immutable_from": "first commit of step A",
-            "freeze_rule": FREEZE_RULE, "corpus_sha256": sha(B / "corpus.json"), "item_count": len(corpus["items"]),
+            "freeze_rule": FREEZE_RULE, "reporting_rule": REPORTING_RULE, "corpus_sha256": sha(B / "corpus.json"), "item_count": len(corpus["items"]),
             "sealed": {i["id"]: sha(B / "sealed" / f"{i['id']}.json") for i in corpus["items"]},
             "holdout_sha256": sha(B / "prospective_holdout.json")}
 
@@ -87,6 +95,10 @@ def problems():
     corpus, man = load(B / "corpus.json"), load(B / "manifest.json")
     iv, sv = validator(), validator("sealed")
     ids = [i["id"] for i in corpus["items"]]
+    if man.get("reporting_rule") != REPORTING_RULE:
+        p.append("manifest reporting_rule missing or changed: reports must stratify by evaluation_role, origin and contamination")
+    reg = load(ROOT / "data" / "grixis" / "registry.json")["decks"]
+    reg_ids = {d["deck_id"] for d in (reg.values() if isinstance(reg, dict) else reg)}
     if len(ids) != len(set(ids)):
         p.append("duplicate item ids")
     if man["corpus_sha256"] != sha(B / "corpus.json"):
@@ -113,6 +125,13 @@ def problems():
         p += leak_problems(it, s)
         if any(k in it for k in ("expected_outcome", "verdict", "answer")):
             p.append(f"{it['id']}: outcome field in the evaluation input")
+        ds = it.get("deck_snapshot")
+        if ds and ds["registry_deck_id"] not in reg_ids:
+            p.append(f"{it['id']}: deck_snapshot id {ds['registry_deck_id']} not in the registry")
+        if ds and ds["registry_deck_id"] != it["deck"]:
+            p.append(f"{it['id']}: deck field differs from deck_snapshot id")
+        if it.get("evaluation_role") == "detection" and s.get("label_authority", "").startswith("unvalidated_v1_judgment"):
+            p.append(f"{it['id']}: an unvalidated v1 label cannot be a detection item")
         for src in it["sources"]:
             p += [f"{it['id']}: {x}" for x in source_problems(src)]
     h = load(B / "prospective_holdout.json")
@@ -129,6 +148,9 @@ def summary():
     for k in ("category", "originated_by", "caught_by"):
         print(k, dict(Counter(i[k] for i in c).most_common()))
     print("contamination", dict(Counter(i["contamination"]["level"] for i in c)))
+    print("evaluation_role", dict(Counter(i["evaluation_role"] for i in c)))
+    print("strata (role, origin, contamination)", {"/".join(k): v for k, v in sorted(Counter(
+        (i["evaluation_role"], i["originated_by"], i["contamination"]["level"]) for i in c).items())})
 
 
 def main():

@@ -77,3 +77,12 @@ A step is done only when **all** of these hold. Cory still decides whether a mil
 - **G0 corpus:** may grow in later G0 batches. It becomes **immutable once step A begins** (first A commit). After that only the prospective holdout grows; retrospective items are never edited, and a wrong item is retracted by a new record, not rewritten.
 - **Development snapshot:** snap-20261016 stays frozen during A–F; newer cards and rule changes are logged as reopen triggers, not ingested.
 - **Birthday snapshot:** created immediately before M5 acceptance; it is M6's authoritative start.
+
+## G0 benchmark scoring rule (Bot cycle 64.3)
+
+Most retrospective items cannot measure detection honestly. The source's approved changes are already in the canonical baselines the new system starts from, so the system "starts with the answer". Every G0 item therefore carries an `evaluation_role`:
+- **`detection`:** the system must find or flag the item.
+- **`regression_guard`:** the baseline already contains the outcome. The system passes if it does not propose reverting it without new evidence.
+- **`judgment_calibration`:** v1 or other unvalidated labels. Scored as agreement, never as accuracy.
+
+Any benchmark report (step 14) must stratify results by evaluation_role × origin × contamination level and must never give one pooled score (`data/grixis/benchmark/manifest.json` `reporting_rule`, checked by `scripts/grixis_benchmark.py --check`). Only the prospective holdout can measure uncontaminated detection.

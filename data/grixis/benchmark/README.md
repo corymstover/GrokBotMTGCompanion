@@ -33,3 +33,22 @@ The one-off harvest script is kept outside the repository because it holds answe
 - v1 prompts are self-contained.
 - v1 labels are prefixed `unvalidated_v1_judgment`.
 - Source labels say whether the list was user-approved (`source_process_decision (user-approved list)`) or not human-validated.
+
+**Cycle 64.3 (+271 harvested, −48 de-duplicated → 589 items):**
+- 236-row CUT pass over the 14 whole-list audit CSVs (rows with a named replacement only).
+- `→` bullets from the 27 current-cycle decision files.
+- 62 Game Changer / bracket-floor items and 2 hash-provenance items from the Bot cycle 37 corrections. The 62 `format` rows are not itemised because tag and format normalisation is not a decision-quality question.
+- Quality pass: exact (deck, cut, add) duplicates dropped; mana items with the same (cut, add) pair across decks kept once (48 dropped); 64 no-cut rows (all rejections) reworded to "is there a defensible cut?".
+- The checker now also requires every `deck_snapshot` id to exist in the registry.
+
+## Evaluation roles and the reporting rule (cycle 64.3)
+
+Every item has an `evaluation_role`:
+
+| Role | Meaning | What a pass means |
+|---|---|---|
+| `detection` | The system must find or flag the error or upgrade (rules, factual, legality, bracket-floor and Cory-correction items). | It produces the sealed outcome. |
+| `regression_guard` | The canonical baseline already contains the outcome: the source's approved change is in the list the new system starts from. **These items cannot measure detection.** | The system does NOT propose reverting the change without new evidence. |
+| `judgment_calibration` | The label is an unvalidated GrokBot v1 judgment or a source-process decision no human validated. | Agreement or calibration against that judgment; never reported as accuracy. |
+
+**Reporting rule** (in `manifest.json` `reporting_rule`, enforced by `--check`): every benchmark report gives results per stratum of `evaluation_role` × `originated_by` × `contamination.level`, with counts, and **never one pooled score**. The prospective holdout is reported separately.

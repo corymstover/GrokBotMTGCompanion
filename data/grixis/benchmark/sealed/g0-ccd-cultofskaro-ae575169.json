@@ -1,0 +1,6 @@
+{
+  "id": "g0-ccd-cultofskaro-ae575169",
+  "expected_outcome": "Make the change (user-approved list): Arena remains a red source while offering a commander-specific haste line: when its exerted mana is spent on Cult, Cult gains haste and can produce an attack trigger immediately.",
+  "label_authority": "source_process_decision (user-approved list)",
+  "leak_terms": []
+}

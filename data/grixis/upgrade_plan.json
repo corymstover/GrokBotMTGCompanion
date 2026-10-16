@@ -307,5 +307,20 @@
     "evidence_classes",
     "real_deck_examples",
     "demonstrated_decision_quality_gain"
-  ]
+  ],
+  "benchmark_scoring_rule": {
+    "recorded": "Bot cycle 64.3",
+    "evaluation_roles": [
+      "detection",
+      "regression_guard",
+      "judgment_calibration"
+    ],
+    "stratify_by": [
+      "evaluation_role",
+      "originated_by",
+      "contamination.level"
+    ],
+    "pooled_score_allowed": false,
+    "enforced_by": "scripts/grixis_benchmark.py --check (manifest reporting_rule)"
+  }
 }

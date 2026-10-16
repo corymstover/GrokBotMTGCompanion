@@ -185,6 +185,14 @@
         "registry_commit"
       ],
       "additionalProperties": false
+    },
+    "evaluation_role": {
+      "enum": [
+        "detection",
+        "regression_guard",
+        "judgment_calibration"
+      ],
+      "description": "Bot cycle 64.3. detection: the system must find/flag it. regression_guard: the canonical baseline already contains the outcome; the system passes if it does NOT propose reverting it without new evidence (cannot measure detection). judgment_calibration: the label is an unvalidated v1 or source-process judgment; scored as agreement/calibration, never as accuracy."
     }
   },
   "required": [
@@ -195,7 +203,8 @@
     "caught_by",
     "prompt",
     "sources",
-    "contamination"
+    "contamination",
+    "evaluation_role"
   ],
   "additionalProperties": false,
   "$defs": {
