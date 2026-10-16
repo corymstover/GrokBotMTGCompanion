@@ -46,7 +46,8 @@ PAGES = ["Planeswalker Dossiers.md", "Planes Index.md", "Items & Artifacts Index
          "Art & Flavor Story Links.md"]
 RULES_PAGES = ["FAQ.md", "Rules Interactions.md", "Keyword Encyclopedia.md", "EDH Standards.md", "EDH Mulligans.md",
                "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md", "Card Data Conventions.md", "Tokens, Emblems & Dungeons.md",
-               "Format Legality Matrix.md", "Printing History.md", "EDH Win Conditions.md"]  # Bot cycle 32 (#96)
+               "Format Legality Matrix.md", "Printing History.md", "EDH Win Conditions.md",
+               "EDH Lift and Synergy.md", "EDH Commander-First Deckbuilding.md"]  # Bot cycle 32 (#96); 57.5
 GRIXIS_PAGES = {"EDH Deck Evaluation Checklist.md", "EDH Deck Template.md"}
 PAGES = PAGES + RULES_PAGES
 REASONS = {"image-text": "text printed only on images (e.g. the IKO Story on Cards page), so it cannot be machine-verified",
