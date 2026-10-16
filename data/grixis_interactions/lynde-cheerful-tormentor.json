@@ -1,0 +1,364 @@
+{
+ "schema": 1,
+ "deck_id": "Lynde__Cheerful_Tormentor",
+ "slug": "lynde-cheerful-tormentor",
+ "commanders": [
+  "Lynde, Cheerful Tormentor"
+ ],
+ "deck_sha256": "f1d4ed17411a4229260f39f4e79f6f014bffb29f3c601fedf3488d03676abf82",
+ "list_source": "exports/grixis-archidekt/lynde-cheerful-tormentor.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 49,
+ "batch": "C",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/lynde_cheerful_tormentor_2026-10-14/Lynde_Cheerful_Tormentor_Rules_Attestation.json",
+   "note": "11 interactions, all PASS"
+  }
+ ],
+ "summary": "Lynde, Cheerful Tormentor returns dead Curses attached to you at the next end step. At your upkeep she moves one Curse to an opponent and draws two. Sacrifice and destroy effects recycle the Curses, and extra upkeeps (Paradox Haze, The Ninth Doctor, Obeka) repeat the move-and-draw. This review re-verifies all 11 attestation items. There are no Spellbook combos for this list.\n\nOne flag: returned Curses punish you until they're moved, one per upkeep. Rules surprises: an end-step sacrifice returns a turn late (CR 513.2); Curse of Bloodletting doubles Obeka's extra upkeeps. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "lynde-01",
+   "category": "commander",
+   "title": "Return trigger: battlefield to graveyard only, back at the next end step, attached to you",
+   "cards": [
+    "Lynde, Cheerful Tormentor"
+   ],
+   "ruling": "Lynde only triggers when a Curse goes from the battlefield to your graveyard. Discarding or milling one doesn't count. The Curse returns at the beginning of the next end step attached to you, not to an opponent. If the player a Curse enchants leaves the game, the Curse goes to your graveyard and triggers Lynde.",
+   "short": "Curse dies from play → returns attached to you at next end step.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.7a",
+    "603.10a",
+    "303.4f",
+    "303.4c"
+   ],
+   "oracle": [
+    {
+     "card": "Lynde, Cheerful Tormentor",
+     "quote": "Whenever a Curse is put into your graveyard from the battlefield, return it to the battlefield attached to you at the beginning of the next end step."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Lynde, Cheerful Tormentor",
+     "quote": "In a multiplayer game, if a player enchanted by one of your Curses leaves the game, perhaps because they have been tormented too much by Lynde, that Curse will be put into your graveyard and cause Lynde's first triggered ability to trigger."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/lynde_cheerful_tormentor_2026-10-14/Lynde_Cheerful_Tormentor_Rules_Attestation.json",
+     "item": "Lynde trigger condition and delayed return"
+    },
+    {
+     "path": "refinement/verification/lynde_cheerful_tormentor_2026-10-14/Lynde_Cheerful_Tormentor_Rules_Attestation.json",
+     "item": "Curse of Vengeance and opponent departure"
+    }
+   ]
+  },
+  {
+   "id": "lynde-02",
+   "category": "commander",
+   "title": "Upkeep move: one Curse, no targeting, draw two",
+   "cards": [
+    "Lynde, Cheerful Tormentor"
+   ],
+   "ruling": "At your upkeep Lynde may move one Curse that's attached to you onto an opponent, and if it does you draw two. It doesn't target, so hexproof doesn't stop it. Only one Curse moves per upkeep, so each extra upkeep moves another one and draws two more.",
+   "short": "Moves one Curse per upkeep (ignores hexproof) and draws two.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "303.4e",
+    "115.10a"
+   ],
+   "oracle": [
+    {
+     "card": "Lynde, Cheerful Tormentor",
+     "quote": "At the beginning of your upkeep, you may attach a Curse attached to you to one of your opponents. If you do, draw two cards."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Lynde, Cheerful Tormentor",
+     "quote": "Lynde's last ability doesn't target, so you can use it to attach a Curse to a player who has hexproof."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/lynde_cheerful_tormentor_2026-10-14/Lynde_Cheerful_Tormentor_Rules_Attestation.json",
+     "item": "Lynde upkeep redeployment"
+    }
+   ]
+  },
+  {
+   "id": "lynde-03",
+   "category": "engine",
+   "title": "Resetting Curses: Despotic Scepter, Claws of Gix, Braids, Demon of Fate's Design, Perilous Research",
+   "cards": [
+    "Lynde, Cheerful Tormentor",
+    "Despotic Scepter",
+    "Claws of Gix",
+    "Braids, Arisen Nightmare",
+    "Demon of Fate's Design",
+    "Perilous Research"
+   ],
+   "ruling": "You still own a Curse attached to an opponent, so Despotic Scepter can destroy it. Claws of Gix, Demon of Fate's Design and Perilous Research can sacrifice a Curse you control. Each puts it in your graveyard, so Lynde brings it back. Timing: a Curse sacrificed during an end step (Braids' trigger) creates its 'next end step' return too late for this turn. It comes back at the next turn's end step, which is still before your next upkeep.",
+   "short": "Owner-destroy and sacrifice outlets recycle Curses; an end-step sacrifice returns a turn later.",
+   "status": "verified",
+   "cr": [
+    "108.3",
+    "513.2",
+    "701.21a"
+   ],
+   "oracle": [
+    {
+     "card": "Despotic Scepter",
+     "quote": "{T}: Destroy target permanent you own. It can't be regenerated."
+    },
+    {
+     "card": "Braids, Arisen Nightmare",
+     "quote": "At the beginning of your end step, you may sacrifice an artifact, creature, enchantment, land, or planeswalker."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Despotic Scepter",
+     "quote": "You own a nontoken permanent if it started the game in your deck."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/lynde_cheerful_tormentor_2026-10-14/Lynde_Cheerful_Tormentor_Rules_Attestation.json",
+     "item": "Despotic Scepter as Curse reset engine"
+    },
+    {
+     "path": "refinement/verification/lynde_cheerful_tormentor_2026-10-14/Lynde_Cheerful_Tormentor_Rules_Attestation.json",
+     "item": "Claws of Gix, Braids, Demon of Fate's Design, and Perilous Research"
+    }
+   ]
+  },
+  {
+   "id": "lynde-04",
+   "category": "engine",
+   "title": "Extra upkeeps: Paradox Haze, The Ninth Doctor, Obeka (+ Curse of Bloodletting)",
+   "cards": [
+    "Lynde, Cheerful Tormentor",
+    "Paradox Haze",
+    "The Ninth Doctor",
+    "Obeka, Splitter of Seconds",
+    "Curse of Bloodletting"
+   ],
+   "ruling": "Every additional upkeep triggers Lynde (another move + draw two) and every other 'beginning of your upkeep' ability again. Paradox Haze gives one extra after your first upkeep. The Ninth Doctor gives one after the step its trigger resolves in. Obeka's combat damage gives that many extra beginning phases after combat (no untap or draw steps). Curse of Bloodletting on the player Obeka hits doubles the damage, and so the upkeep count.",
+   "short": "Each extra upkeep = another Lynde move + two cards; Bloodletting doubles Obeka's count.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "500.8",
+    "614.1a"
+   ],
+   "oracle": [
+    {
+     "card": "Obeka, Splitter of Seconds",
+     "quote": "Whenever Obeka deals combat damage to a player, you get that many additional upkeep steps after this phase."
+    },
+    {
+     "card": "Curse of Bloodletting",
+     "quote": "If a source would deal damage to enchanted player, it deals double that damage to that player instead."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Paradox Haze",
+     "quote": "Abilities that trigger \"at the beginning of [your] upkeep\" will trigger at the beginning of each additional upkeep as well."
+    },
+    {
+     "card": "Obeka, Splitter of Seconds",
+     "quote": "Since the upkeep step can only occur during the beginning phase, getting one or more additional upkeep steps outside of the beginning phase actually means you get an additional beginning phase for each of those upkeeps after this phase."
+    },
+    {
+     "card": "The Ninth Doctor",
+     "quote": "The Ninth Doctor's ability triggers during the untap step and goes onto the stack at the beginning of the next step (usually the upkeep). The additional upkeep is taken after that step, not after the untap step."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/lynde_cheerful_tormentor_2026-10-14/Lynde_Cheerful_Tormentor_Rules_Attestation.json",
+     "item": "Paradox Haze and The Ninth Doctor"
+    },
+    {
+     "path": "refinement/verification/lynde_cheerful_tormentor_2026-10-14/Lynde_Cheerful_Tormentor_Rules_Attestation.json",
+     "item": "Obeka, Splitter of Seconds"
+    },
+    {
+     "path": "refinement/verification/lynde_cheerful_tormentor_2026-10-14/Lynde_Cheerful_Tormentor_Rules_Attestation.json",
+     "item": "Curse of Bloodletting plus Obeka"
+    }
+   ]
+  },
+  {
+   "id": "lynde-05",
+   "category": "trigger-order",
+   "title": "Curse of Misfortunes on yourself: order it before Lynde",
+   "cards": [
+    "Lynde, Cheerful Tormentor",
+    "Curse of Misfortunes"
+   ],
+   "ruling": "With Curse of Misfortunes attached to you, it and Lynde both trigger at your upkeep. You control both, so resolve Misfortunes first: it fetches a Curse onto you (a different name from the Curses already on you). Then Lynde's trigger can move that one or another. A Curse that enters during the upkeep doesn't trigger its own upkeep abilities that step.",
+   "status": "verified",
+   "cr": [
+    "603.3b",
+    "603.2"
+   ],
+   "oracle": [
+    {
+     "card": "Curse of Misfortunes",
+     "quote": "At the beginning of your upkeep, you may search your library for a Curse card that doesn't have the same name as a Curse attached to enchanted player, put it onto the battlefield attached to that player, then shuffle."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Curse of Misfortunes",
+     "quote": "The Curse card you put onto the battlefield must have a different name than each other Curse enchanting the enchanted player when the triggered ability resolves."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/lynde_cheerful_tormentor_2026-10-14/Lynde_Cheerful_Tormentor_Rules_Attestation.json",
+     "item": "Curse of Misfortunes plus Lynde on self"
+    }
+   ]
+  },
+  {
+   "id": "lynde-06",
+   "category": "trigger-order",
+   "title": "Curses returned to you hit you until they move",
+   "cards": [
+    "Lynde, Cheerful Tormentor",
+    "Cruel Reality",
+    "Torment of Scarabs",
+    "Curse of Thirst",
+    "Curse of Bloodletting",
+    "Curse of Death's Hold",
+    "Curse of Echoes",
+    "Curse of Shaken Faith",
+    "Maddening Hex"
+   ],
+   "ruling": "Lynde returns Curses attached to *you*, and only one moves per upkeep. In the meantime they work against you:\n- **At your upkeep:** Cruel Reality, Torment of Scarabs and Curse of Thirst trigger together with Lynde. Moving the Curse doesn't remove a trigger already on the stack.\n- **While attached to you:** Curse of Bloodletting doubles damage to you. Curse of Death's Hold shrinks your creatures. Curse of Echoes lets opponents copy your instants and sorceries. Shaken Faith and Maddening Hex punish your spells (Hex then jumps to a random opponent).",
+   "short": "Returned Curses punish you until Lynde moves them; upkeep Curses still trigger on you once.",
+   "status": "flag",
+   "flag": {
+    "kind": "anti-synergy",
+    "note": "Pilot note, not a list error: Lynde's return puts Curses on you, and only one moves per upkeep. Recycle the self-harming Curses (Cruel Reality, Torment of Scarabs, Curse of Thirst, Bloodletting, Death's Hold, Echoes) last, or have an extra upkeep (Paradox Haze/Ninth Doctor/Obeka) ready to move them. Ordering Lynde first doesn't stop an upkeep Curse's trigger that is already on the stack."
+   },
+   "cr": [
+    "113.7a",
+    "603.3b"
+   ],
+   "oracle": [
+    {
+     "card": "Cruel Reality",
+     "quote": "At the beginning of enchanted player's upkeep, that player sacrifices a creature or planeswalker of their choice. If the player can't, they lose 5 life."
+    },
+    {
+     "card": "Curse of Thirst",
+     "quote": "At the beginning of enchanted player's upkeep, this Aura deals damage to that player equal to the number of Curses attached to them."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Curse of Thirst",
+     "quote": "The number of Curses attached to the player is counted when the ability resolves."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "lynde-07",
+   "category": "pair",
+   "title": "Harmless on yourself: Fool's Wisdom, Surveillance, Unbinding",
+   "cards": [
+    "Lynde, Cheerful Tormentor",
+    "Curse of Fool's Wisdom",
+    "Curse of Surveillance",
+    "Curse of Unbinding"
+   ],
+   "ruling": "Some Curses are neutral or good on you. Curse of Fool's Wisdom on you means lose 2, gain 2 per draw, and you don't lose at 0 in between. Curse of Surveillance's controller (you) picks its targets, and 'any number' includes none. Curse of Unbinding gives its controller (you) the revealed creature, but mills the cards above it.",
+   "status": "verified",
+   "cr": [
+    "119.3",
+    "601.2c"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Curse of Fool's Wisdom",
+     "quote": "If you become enchanted by your own Curse of Fool's Wisdom, you'll lose 2 life and gain 2 life whenever you draw a card. You won't lose the game if your life total is 0 or less between those events."
+    },
+    {
+     "card": "Curse of Surveillance",
+     "quote": "The controller of Curse of Surveillance chooses the targets for its triggered ability, no matter which player it is attached to."
+    },
+    {
+     "card": "Curse of Unbinding",
+     "quote": "The controller of Curse of Unbinding puts the creature card onto the battlefield under their control. This may not be the same player as the enchanted player."
+    }
+   ],
+   "evidence_class": "fact"
+  },
+  {
+   "id": "lynde-08",
+   "category": "trigger-order",
+   "title": "Curse of Echoes copies aren't cast; Curse of Vengeance pays out on a loss",
+   "cards": [
+    "Lynde, Cheerful Tormentor",
+    "Curse of Echoes",
+    "Curse of Vengeance"
+   ],
+   "ruling": "Curse of Echoes copies are created, not cast, so no cast triggers. Curse of Vengeance gains a spite counter each time the enchanted player casts a spell, even if that spell is countered. When that player loses, you gain life and draw for each counter. Because they've left the game, the Curse also goes to your graveyard and returns to you through Lynde.",
+   "status": "verified",
+   "cr": [
+    "707.10",
+    "303.4c",
+    "704.5m"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Curse of Echoes",
+     "quote": "All the copies are created on the stack, so none of them are cast. Abilities that trigger when a player casts a spell won’t trigger."
+    },
+    {
+     "card": "Curse of Vengeance",
+     "quote": "Curse of Vengeance's first triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/lynde_cheerful_tormentor_2026-10-14/Lynde_Cheerful_Tormentor_Rules_Attestation.json",
+     "item": "Curse of Echoes and spell copies"
+    },
+    {
+     "path": "refinement/verification/lynde_cheerful_tormentor_2026-10-14/Lynde_Cheerful_Tormentor_Rules_Attestation.json",
+     "item": "Curse of Vengeance and opponent departure"
+    }
+   ]
+  }
+ ]
+}

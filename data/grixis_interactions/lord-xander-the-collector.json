@@ -1,0 +1,484 @@
+{
+ "schema": 1,
+ "deck_id": "Lord_Xander__the_Collector",
+ "slug": "lord-xander-the-collector",
+ "commanders": [
+  "Lord Xander, the Collector"
+ ],
+ "deck_sha256": "26b1674fef88552f6e5f2eaff5c85bcefb05ac1a4afb90b728ae8218f24fab63",
+ "list_source": "exports/grixis-archidekt/lord-xander-the-collector.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 49,
+ "batch": "C",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/lord_xander_the_collector_2026-10-14/Lord_Xander_the_Collector_Rules_Attestation.json",
+   "note": "18 interactions, all PASS"
+  }
+ ],
+ "summary": "Lord Xander, the Collector has three halving triggers: discard on enter, mill on attack, sacrifice on death. The deck multiplies them with clones, myriad, Helm of the Host and Roaming Throne, and finishes the mill with Bruvac, Riverchurn Monument or Fraying Sanity. This review re-verifies all 18 attestation items. Eleven Spellbook lines are confirmed.\n\nRules surprises: legendary copies give a dies trigger through the legend rule, but Auton Soldier's exiled myriad tokens don't; Feign Death needs Xander left in the graveyard; Xander's 'half, rounded down' leaves one card on an odd library. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "xander-01",
+   "category": "commander",
+   "title": "Three separate triggers: enter, attack, dies",
+   "cards": [
+    "Lord Xander, the Collector"
+   ],
+   "ruling": "Xander has three triggers: on enter, a target opponent discards half their hand (rounded down); on attack, the defending player mills half their library (rounded down); on death, a target opponent sacrifices half their nonland permanents of their choice (rounded down). Every copy, clone and recursion card here is judged by which of these it actually triggers. A token that enters attacking triggers enter (and dies, if it dies) but not attack.",
+   "short": "ETB: discard half · attack: mill half · dies: sacrifice half (all rounded down).",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.6a",
+    "603.10a",
+    "508.3a",
+    "107.1a"
+   ],
+   "oracle": [
+    {
+     "card": "Lord Xander, the Collector",
+     "quote": "Whenever Lord Xander attacks, defending player mills half their library, rounded down."
+    },
+    {
+     "card": "Lord Xander, the Collector",
+     "quote": "When Lord Xander dies, target opponent sacrifices half the nonland permanents they control of their choice, rounded down."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/lord_xander_the_collector_2026-10-14/Lord_Xander_the_Collector_Rules_Attestation.json",
+     "item": "Lord Xander trigger structure"
+    }
+   ]
+  },
+  {
+   "id": "xander-02",
+   "category": "zone",
+   "title": "Clones and the legend rule: Phantasmal Image, Molten Duplication, Saw in Half",
+   "cards": [
+    "Lord Xander, the Collector",
+    "Phantasmal Image",
+    "Molten Duplication",
+    "Saw in Half"
+   ],
+   "ruling": "A legendary Xander copy entering gives an enter trigger. The legend rule then puts one Xander into the graveyard, and that counts as dying: a dies trigger, using last-known information. Molten Duplication's hasty token can be the one you keep: the original dies now, the token attacks and dies again at end step. Saw in Half on Xander: one dies trigger, two token enter triggers, then a third Xander dies to the legend rule. A commander that dies can still go to the command zone afterward.",
+   "short": "Each legendary Xander copy = enter trigger + a dies trigger via the legend rule.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "704.5j",
+    "603.10a",
+    "903.9a"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Saw in Half",
+     "quote": "Any enters-the-battlefield abilities of the copied creature will trigger when the tokens enter the battlefield. Any \"as [this creature] enters\" or \"[this creature] enters with\" abilities of the copied creature will also work."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/lord_xander_the_collector_2026-10-14/Lord_Xander_the_Collector_Rules_Attestation.json",
+     "item": "Phantasmal Image copying Lord Xander"
+    },
+    {
+     "path": "refinement/verification/lord_xander_the_collector_2026-10-14/Lord_Xander_the_Collector_Rules_Attestation.json",
+     "item": "Molten Duplication on Lord Xander"
+    },
+    {
+     "path": "refinement/verification/lord_xander_the_collector_2026-10-14/Lord_Xander_the_Collector_Rules_Attestation.json",
+     "item": "Saw in Half on Lord Xander"
+    }
+   ]
+  },
+  {
+   "id": "xander-03",
+   "category": "trigger-order",
+   "title": "Myriad copies: Blade of Selves vs. Auton Soldier",
+   "cards": [
+    "Lord Xander, the Collector",
+    "Blade of Selves",
+    "Auton Soldier"
+   ],
+   "ruling": "Myriad tokens enter tapped and attacking (one per other opponent), so they trigger enter but not attack. Blade of Selves on the real Xander makes legendary tokens: each gives an enter trigger, then the legend rule leaves one, and each Xander that dies gives a dies trigger. Auton Soldier as Xander isn't legendary and has myriad itself. Its tokens give enter triggers but are exiled at end of combat, which isn't dying, so no dies triggers. Auton-Xander's own attack gives an attack trigger.",
+   "short": "Blade: ETB + dies per token (legend rule); Auton: ETB only (tokens exiled).",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "702.116a",
+    "704.5j",
+    "508.4"
+   ],
+   "oracle": [
+    {
+     "card": "Auton Soldier",
+     "quote": "You may have this creature enter as a copy of any creature on the battlefield, except it isn't legendary, is an artifact in addition to its other types, and has myriad."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Blade of Selves",
+     "quote": "If the equipped creature is legendary, the tokens will all enter the battlefield. Then you'll choose one of them to remain on the battlefield. The others will be put into your graveyard. Any enters-the-battlefield or dies triggers of the tokens will work."
+    },
+    {
+     "card": "Auton Soldier",
+     "quote": "Although the tokens enter the battlefield attacking, they were never declared as attackers. Abilities that trigger whenever a creature attacks won't trigger, including the myriad ability of the tokens."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/lord_xander_the_collector_2026-10-14/Lord_Xander_the_Collector_Rules_Attestation.json",
+     "item": "Blade of Selves on Lord Xander"
+    },
+    {
+     "path": "refinement/verification/lord_xander_the_collector_2026-10-14/Lord_Xander_the_Collector_Rules_Attestation.json",
+     "item": "Auton Soldier copying Lord Xander"
+    }
+   ]
+  },
+  {
+   "id": "xander-04",
+   "category": "layers",
+   "title": "Hall of Echoes and Helm of the Host",
+   "cards": [
+    "Lord Xander, the Collector",
+    "Hall of Echoes",
+    "Helm of the Host"
+   ],
+   "ruling": "Hall of Echoes becoming Xander isn't entering, so no enter trigger. If you've controlled it since the turn began, it can attack for its own mill trigger. Helm of the Host's token is non-legendary and hasty. It's made at beginning of combat, so it gets an enter trigger and can then be declared as an attacker for an attack trigger.",
+   "status": "verified",
+   "cr": [
+    "707.2",
+    "302.6"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Helm of the Host",
+     "quote": "The token isn't legendary, and this exception is copiable. If something else copies the token later, that copy also won't be legendary. If you control two or more permanents with the same name but only one is legendary, the \"legend rule\" doesn't apply."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/lord_xander_the_collector_2026-10-14/Lord_Xander_the_Collector_Rules_Attestation.json",
+     "item": "Hall of Echoes copying Lord Xander"
+    },
+    {
+     "path": "refinement/verification/lord_xander_the_collector_2026-10-14/Lord_Xander_the_Collector_Rules_Attestation.json",
+     "item": "Helm of the Host on Lord Xander"
+    }
+   ]
+  },
+  {
+   "id": "xander-05",
+   "category": "combo",
+   "title": "Finishing the mill: Bruvac, Riverchurn Monument, Fraying Sanity, Maddening Cacophony",
+   "cards": [
+    "Lord Xander, the Collector",
+    "Bruvac the Grandiloquent",
+    "Riverchurn Monument",
+    "Fraying Sanity",
+    "Maddening Cacophony"
+   ],
+   "ruling": "- **Bruvac** doubles Xander's half (rounded down): an even library mills completely, an odd one leaves 1 card.\n- **Riverchurn Monument's exhaust** mills as many cards as are already in that graveyard. After Xander, that's at least the rest of the library, unless the graveyard was empty and the library odd (1 left).\n- **Fraying Sanity** mills, at end step, as many as went to that graveyard this turn.\n- **Kicked Maddening Cacophony** mills half rounded *up*, so with Bruvac or Monument it always finishes.",
+   "short": "Xander's half + Bruvac/Monument/Fraying Sanity mills out; odd-library edge leaves 1.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "701.17a",
+    "614.1a",
+    "107.1a"
+   ],
+   "oracle": [
+    {
+     "card": "Bruvac the Grandiloquent",
+     "quote": "If an opponent would mill one or more cards, they mill twice that many cards instead."
+    },
+    {
+     "card": "Riverchurn Monument",
+     "quote": "Exhaust — {2}{U}{U}, {T}: Any number of target players each mill cards equal to the number of cards in their graveyard."
+    },
+    {
+     "card": "Maddening Cacophony",
+     "quote": "If this spell was kicked, instead each opponent mills half their library, rounded up."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Fraying Sanity",
+     "quote": "Fraying Sanity's triggered ability counts the number of cards that were put into the enchanted player's graveyard during the turn, even if Fraying Sanity wasn't on the battlefield at the time those cards were put there, and even if those cards have left that graveyard."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "95-1022",
+     "quote": "Declare Lord Xander as an attacker, triggering its ability, causing an opponent to mill a number of cards equal to half their library, rounded down, times two due to Bruvac."
+    },
+    {
+     "id": "1022-6285",
+     "quote": "Activate Riverchurn Monument's exhaust ability by paying {2}{U}{U} and tapping it, causing each player to mill cards equal to the number of cards in their graveyard."
+    },
+    {
+     "id": "95-5080",
+     "quote": "Cast Maddening Cacophony with kicker by paying {4}{U}{U}, causing each opponent to mill their library due to Bruvac."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/lord_xander_the_collector_2026-10-14/Lord_Xander_the_Collector_Rules_Attestation.json",
+     "item": "Bruvac plus Lord Xander attack"
+    },
+    {
+     "path": "refinement/verification/lord_xander_the_collector_2026-10-14/Lord_Xander_the_Collector_Rules_Attestation.json",
+     "item": "Riverchurn Monument plus Lord Xander attack"
+    },
+    {
+     "path": "refinement/verification/lord_xander_the_collector_2026-10-14/Lord_Xander_the_Collector_Rules_Attestation.json",
+     "item": "Fraying Sanity plus Lord Xander attack"
+    }
+   ]
+  },
+  {
+   "id": "xander-06",
+   "category": "engine",
+   "title": "Cruel Calculations counts the mill",
+   "cards": [
+    "Lord Xander, the Collector",
+    "Cruel Calculations"
+   ],
+   "ruling": "Cruel Calculations draws one card per card put from the target player's library into their graveyard this turn. That includes Xander's mill and Bruvac's doubled count. Cards replaced into exile don't count.",
+   "status": "verified",
+   "cr": [
+    "701.17a"
+   ],
+   "oracle": [
+    {
+     "card": "Cruel Calculations",
+     "quote": "Draw X cards, where X is the number of cards that were put into target player's graveyard from their library this turn."
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/lord_xander_the_collector_2026-10-14/Lord_Xander_the_Collector_Rules_Attestation.json",
+     "item": "Cruel Calculations after Xander mill"
+    }
+   ]
+  },
+  {
+   "id": "xander-07",
+   "category": "trigger-order",
+   "title": "Roaming Throne and Strionic Resonator",
+   "cards": [
+    "Lord Xander, the Collector",
+    "Roaming Throne",
+    "Strionic Resonator"
+   ],
+   "ruling": "Xander is a Vampire Demon Noble, so a Roaming Throne naming any of those makes all three triggers trigger twice. Strionic Resonator copies one trigger on the stack: two mill-half triggers mill three-quarters.",
+   "status": "verified",
+   "cr": [
+    "603.2",
+    "707.10"
+   ],
+   "oracle": [
+    {
+     "card": "Strionic Resonator",
+     "quote": "{2}, {T}: Copy target triggered ability you control. You may choose new targets for the copy."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Roaming Throne",
+     "quote": "Roaming Throne's last ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/lord_xander_the_collector_2026-10-14/Lord_Xander_the_Collector_Rules_Attestation.json",
+     "item": "Roaming Throne and Strionic Resonator"
+    }
+   ]
+  },
+  {
+   "id": "xander-08",
+   "category": "zone",
+   "title": "Feign Death on your commander: leave it in the graveyard",
+   "cards": [
+    "Lord Xander, the Collector",
+    "Feign Death"
+   ],
+   "ruling": "When a Feign Death'd Xander dies, both the dies trigger and the return trigger fire. To get him back you must decline the command-zone move. That move is a state-based action that happens before the triggers resolve, and if he's in the command zone the return finds nothing. The return gives another enter trigger, and he comes back tapped with a +1/+1 counter.",
+   "short": "Feign Death works only if you leave Xander in the graveyard (decline the command zone).",
+   "status": "verified",
+   "cr": [
+    "903.9a",
+    "400.7",
+    "704.3"
+   ],
+   "oracle": [
+    {
+     "card": "Feign Death",
+     "quote": "Until end of turn, target creature gains \"When this creature dies, return it to the battlefield tapped under its owner's control with a +1/+1 counter on it.\""
+    }
+   ],
+   "rulings": [],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/lord_xander_the_collector_2026-10-14/Lord_Xander_the_Collector_Rules_Attestation.json",
+     "item": "Feign Death and commander-zone sequencing"
+    }
+   ]
+  },
+  {
+   "id": "xander-09",
+   "category": "engine",
+   "title": "Tergrid steals Xander's discards and sacrifices",
+   "cards": [
+    "Lord Xander, the Collector",
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "ruling": "Tergrid triggers for each permanent card an opponent discards to Xander's enter trigger, and for each nontoken permanent they sacrifice to his dies trigger. You can put each one onto the battlefield under your control. Each Tergrid trigger fails if the card has left the graveyard by the time it resolves.",
+   "status": "verified",
+   "cr": [
+    "603.2",
+    "701.9a"
+   ],
+   "oracle": [
+    {
+     "card": "Tergrid, God of Fright // Tergrid's Lantern",
+     "quote": "Whenever an opponent sacrifices a nontoken permanent or discards a permanent card, you may put that card from a graveyard onto the battlefield under your control."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Tergrid, God of Fright // Tergrid's Lantern",
+     "quote": "If the card leaves the graveyard before Tergrid's ability resolves, you can't put it onto the battlefield, even if it returns to the graveyard before the ability resolves."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/lord_xander_the_collector_2026-10-14/Lord_Xander_the_Collector_Rules_Attestation.json",
+     "item": "Tergrid with Xander discard and sacrifice"
+    }
+   ]
+  },
+  {
+   "id": "xander-10",
+   "category": "combo",
+   "title": "Sword of Feast and Famine + Aggravated Assault: extra combats, extra Xander mills",
+   "cards": [
+    "Lord Xander, the Collector",
+    "Sword of Feast and Famine",
+    "Aggravated Assault"
+   ],
+   "ruling": "The Sword's hit untaps all your lands. In the following main phase, Aggravated Assault ({3}{R}{R}, sorcery speed) untaps your creatures and adds another combat. Repeat: each combat Xander is declared as an attacker again and mills half again.",
+   "status": "verified",
+   "cr": [
+    "505.1a",
+    "500.8"
+   ],
+   "oracle": [
+    {
+     "card": "Aggravated Assault",
+     "quote": "{3}{R}{R}: Untap all creatures you control. After this main phase, there is an additional combat phase followed by an additional main phase. Activate only as a sorcery."
+    }
+   ],
+   "rulings": [],
+   "spellbook": [
+    {
+     "id": "900-3750",
+     "quote": "Lands you control can tap to produce at least {3}{R}{R}."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/lord_xander_the_collector_2026-10-14/Lord_Xander_the_Collector_Rules_Attestation.json",
+     "item": "Aggravated Assault plus Sword of Feast and Famine"
+    }
+   ]
+  },
+  {
+   "id": "xander-11",
+   "category": "combo",
+   "title": "Duskmantle Guildmage + Mindcrank, and the Breach line",
+   "cards": [
+    "Lord Xander, the Collector",
+    "Duskmantle Guildmage",
+    "Mindcrank",
+    "Maddening Cacophony",
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze"
+   ],
+   "ruling": "After Duskmantle's first ability resolves this turn, each card put into an opponent's graveyard drains 1. Mindcrank mills them for each life lost, and that repeats until they're dead. Xander's attack or Duskmantle's own mill starts it; tokens don't count. Maddening Cacophony + Duskmantle works without Mindcrank if a player's life is at most half their library. Breach + LED + Brain Freeze is the backup.",
+   "status": "verified",
+   "cr": [
+    "603.7a",
+    "702.138a"
+   ],
+   "oracle": [
+    {
+     "card": "Mindcrank",
+     "quote": "Whenever an opponent loses life, that player mills that many cards."
+    },
+    {
+     "card": "Duskmantle Guildmage",
+     "quote": "{1}{U}{B}: Whenever a card is put into an opponent's graveyard from anywhere this turn, that player loses 1 life."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Duskmantle Guildmage",
+     "quote": "The delayed triggered ability created won’t trigger if a token permanent is put into an opponent’s graveyard."
+    }
+   ],
+   "spellbook": [
+    {
+     "id": "936-5069",
+     "quote": "Activate Duskmantle Guildmage's second ability by paying {2}{U}{B}, causing an opponent to mill two cards."
+    },
+    {
+     "id": "5069-5080",
+     "quote": "Each opponent has a life total that is less than or equal to half their library size, rounded up."
+    },
+    {
+     "id": "1368-3518-4856",
+     "quote": "You have at least six other cards in hand and/or graveyard."
+    }
+   ],
+   "evidence_class": "fact",
+   "source": [
+    {
+     "path": "refinement/verification/lord_xander_the_collector_2026-10-14/Lord_Xander_the_Collector_Rules_Attestation.json",
+     "item": "Duskmantle Guildmage plus Mindcrank"
+    },
+    {
+     "path": "refinement/verification/lord_xander_the_collector_2026-10-14/Lord_Xander_the_Collector_Rules_Attestation.json",
+     "item": "Underworld Breach, Lion's Eye Diamond, and Brain Freeze"
+    }
+   ]
+  }
+ ]
+}
