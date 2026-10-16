@@ -5,14 +5,14 @@ tags: [schema, front-matter, tags, retrieval]
 issues: [65]
 generated_by: scripts/front_matter.py
 sources: []
-related: ["EDH Bracket Calibration.md", "Knowledge Index.md", "Lore Primary Sources.md", "grixis/Grixis Authority Model.md", "Art & Flavor Story Links.md", "Card Data Conventions.md"]
+related: ["EDH Bracket Calibration.md", "EDH Commander-First Deckbuilding.md", "EDH Lift and Synergy.md", "Knowledge Index.md", "Lore Primary Sources.md", "grixis/Grixis Authority Model.md"]
 schema: 2
 ---
 
 # Front-Matter Schema
 
 > **Auto-generated** by `scripts/front_matter.py` (Bot cycle 17, issue [#65](https://github.com/corymstover/GrokBotMTGCompanion/issues/65)) from the `SCHEMA` and `PAGES` tables in the script, so this page cannot drift from what `--check` enforces. Schema version **2**. Do not hand-edit.
-> Coverage: **56** registered pages (README.md and GOAL.md are exempt), **110** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
+> Coverage: **58** registered pages (README.md and GOAL.md are exempt), **110** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
 
 ## Contents
 - [Format](#format)
@@ -149,6 +149,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `background` | [EDH Pairings](EDH%20Pairings.md) |
 | `banned-restricted` | [Format Legality Matrix](Format%20Legality%20Matrix.md) |
 | `blueprint` | [EDH Deck Template](EDH%20Deck%20Template.md) |
+| `blueprints` | [EDH Commander-First Deckbuilding](EDH%20Commander-First%20Deckbuilding.md) |
 | `bracket-5` | [cEDH Primer](cEDH%20Primer.md) |
 | `brackets` | [EDH Bracket Calibration](EDH%20Bracket%20Calibration.md) · [EDH Deck Evaluation Checklist](EDH%20Deck%20Evaluation%20Checklist.md) · [EDH Standards](EDH%20Standards.md) |
 | `budget` | [EDH Upgrade Paths](EDH%20Upgrade%20Paths.md) |
@@ -164,22 +165,24 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `color-identity` | [EDH Mana Bases](EDH%20Mana%20Bases.md) · [EDH Standards](EDH%20Standards.md) · [EDH Staples](EDH%20Staples.md) |
 | `combos` | [EDH Bracket Calibration](EDH%20Bracket%20Calibration.md) · [EDH Win Conditions](EDH%20Win%20Conditions.md) |
 | `comics` | [Side-Media Index](Side-Media%20Index.md) |
-| `commander-first` | [Grixis Mission](grixis/Grixis%20Mission.md) · [Grixis Refinement Cycle](grixis/Grixis%20Refinement%20Cycle.md) |
+| `commander-first` | [EDH Commander-First Deckbuilding](EDH%20Commander-First%20Deckbuilding.md) · [Grixis Mission](grixis/Grixis%20Mission.md) · [Grixis Refinement Cycle](grixis/Grixis%20Refinement%20Cycle.md) |
 | `competitive` | [cEDH Primer](cEDH%20Primer.md) |
 | `conflicts` | [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) |
 | `contradictions` | [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) |
 | `conventions` | [Card Data Conventions](Card%20Data%20Conventions.md) |
 | `corrections` | [Grixis Corrections](grixis/Grixis%20Corrections.md) |
 | `coverage` | [Card Enrichment](Card%20Enrichment.md) · [Card Index](Card%20Index.md) |
-| `deckbuilding-rules` | [EDH Standards](EDH%20Standards.md) |
+| `deckbuilding-rules` | [EDH Commander-First Deckbuilding](EDH%20Commander-First%20Deckbuilding.md) · [EDH Standards](EDH%20Standards.md) |
 | `decks` | [EDH Themed Decks](EDH%20Themed%20Decks.md) · [README](grixis/README.md) |
 | `dossiers` | [Planeswalker Dossiers](Planeswalker%20Dossiers.md) |
 | `dungeons` | [Tokens, Emblems & Dungeons](Tokens%2C%20Emblems%20%26%20Dungeons.md) |
+| `edhrec` | [EDH Lift and Synergy](EDH%20Lift%20and%20Synergy.md) |
 | `emblems` | [Tokens, Emblems & Dungeons](Tokens%2C%20Emblems%20%26%20Dungeons.md) |
 | `entries` | [Lore Entry Index](Lore%20Entry%20Index.md) |
 | `eras` | [Master Timeline](Master%20Timeline.md) |
 | `evaluation` | [EDH Deck Evaluation Checklist](EDH%20Deck%20Evaluation%20Checklist.md) |
 | `evergreen` | [Keyword Encyclopedia](Keyword%20Encyclopedia.md) |
+| `evidence` | [EDH Lift and Synergy](EDH%20Lift%20and%20Synergy.md) |
 | `faq` | [FAQ](FAQ.md) |
 | `flavor` | [Art & Flavor Story Links](Art%20%26%20Flavor%20Story%20Links.md) |
 | `follow-ups` | [Grixis Integration Summary](grixis/Grixis%20Integration%20Summary.md) |
@@ -196,12 +199,13 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `keywords` | [Keyword Encyclopedia](Keyword%20Encyclopedia.md) |
 | `lands` | [EDH Mana Bases](EDH%20Mana%20Bases.md) |
 | `legality` | [Format Legality Matrix](Format%20Legality%20Matrix.md) · [Grixis Authority Model](grixis/Grixis%20Authority%20Model.md) · [Grixis Corrections](grixis/Grixis%20Corrections.md) · [Grixis Evaluation](grixis/Grixis%20Evaluation.md) |
+| `lift` | [EDH Lift and Synergy](EDH%20Lift%20and%20Synergy.md) |
 | `lookup` | [Lookup Guide](Lookup%20Guide.md) |
 | `lore` | [Art & Flavor Story Links](Art%20%26%20Flavor%20Story%20Links.md) · [Card Enrichment](Card%20Enrichment.md) · [Characters Index](Characters%20Index.md) · [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) · [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) · [FAQ](FAQ.md) · [Items & Artifacts Index](Items%20%26%20Artifacts%20Index.md) · [Lore Entry Index](Lore%20Entry%20Index.md) · [Lore Primary Sources](Lore%20Primary%20Sources.md) · [Master Timeline](Master%20Timeline.md) · [Omenpath & Multiverse Connections](Omenpath%20%26%20Multiverse%20Connections.md) · [Planes Index](Planes%20Index.md) · [Planeswalker Dossiers](Planeswalker%20Dossiers.md) · [Side-Media Index](Side-Media%20Index.md) · [Story Arc Summaries](Story%20Arc%20Summaries.md) · [Story Archive Index](Story%20Archive%20Index.md) |
 | `lore-decks` | [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) |
 | `maintenance` | [Knowledge Index](Knowledge%20Index.md) |
 | `mana-base` | [EDH Mana Bases](EDH%20Mana%20Bases.md) |
-| `methodology` | [EDH Deck Evaluation Checklist](EDH%20Deck%20Evaluation%20Checklist.md) · [EDH Deck Template](EDH%20Deck%20Template.md) · [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) |
+| `methodology` | [EDH Commander-First Deckbuilding](EDH%20Commander-First%20Deckbuilding.md) · [EDH Deck Evaluation Checklist](EDH%20Deck%20Evaluation%20Checklist.md) · [EDH Deck Template](EDH%20Deck%20Template.md) · [EDH Lift and Synergy](EDH%20Lift%20and%20Synergy.md) · [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) |
 | `milestones` | [Progress Tracker](Progress%20Tracker.md) |
 | `mission` | [Grixis Mission](grixis/Grixis%20Mission.md) |
 | `mulligan` | [EDH Mulligans](EDH%20Mulligans.md) |
@@ -239,6 +243,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `rulings` | [Keyword Encyclopedia](Keyword%20Encyclopedia.md) · [Rules Interactions](Rules%20Interactions.md) |
 | `schema` | [Front-Matter Schema](Front-Matter%20Schema.md) |
 | `side-media` | [Side-Media Index](Side-Media%20Index.md) |
+| `simulator` | [EDH Commander-First Deckbuilding](EDH%20Commander-First%20Deckbuilding.md) |
 | `snapshots` | [Knowledge Snapshots](Knowledge%20Snapshots.md) |
 | `sources` | [Lore Primary Sources](Lore%20Primary%20Sources.md) · [Story Archive Index](Story%20Archive%20Index.md) |
 | `sparks` | [Planeswalker Dossiers](Planeswalker%20Dossiers.md) |
@@ -254,7 +259,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `strategy` | [EDH Archetypes](EDH%20Archetypes.md) |
 | `summary` | [Grixis Integration Summary](grixis/Grixis%20Integration%20Summary.md) |
 | `swap-ledger` | [EDH Deck Template](EDH%20Deck%20Template.md) |
-| `synergy` | [Card Enrichment](Card%20Enrichment.md) |
+| `synergy` | [Card Enrichment](Card%20Enrichment.md) · [EDH Lift and Synergy](EDH%20Lift%20and%20Synergy.md) |
 | `tags` | [Front-Matter Schema](Front-Matter%20Schema.md) · [Knowledge Snapshots](Knowledge%20Snapshots.md) |
 | `template` | [EDH Deck Template](EDH%20Deck%20Template.md) · [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) |
 | `themes` | [EDH Themed Decks](EDH%20Themed%20Decks.md) |

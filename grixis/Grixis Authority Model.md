@@ -5,7 +5,7 @@ tags: [grixis, authority, governance, legality, approvals]
 issues: []
 generated_by: hand-written
 sources: [grixis-repo]
-related: ["Front-Matter Schema.md", "grixis/Grixis Authority Gap Analysis.md", "Update Log.md", "grixis/Grixis Refinement Cycle.md", "grixis/README.md", "grixis/Grixis Evaluation.md"]
+related: ["Front-Matter Schema.md", "grixis/Grixis Authority Gap Analysis.md", "Update Log.md", "EDH Commander-First Deckbuilding.md", "EDH Lift and Synergy.md", "grixis/Grixis Refinement Cycle.md"]
 schema: 2
 ---
 
@@ -201,7 +201,7 @@ Status is in `data/grixis/registry.json → program.milestones`. Only Cory sets 
 ### M3
 **Evidence layer and simulator.** Evidence vectors per candidate (lift, sample size, retrieval date, trend, Oracle hooks, graph facts) with classes and confidence; deterministic paired-seed goldfish simulator with a hypergeometric layer, London mulligan, mana/colors, commander turn and package assembly, unit-tested against exact math; stress scenarios scripted (below); every test record carries pre-registered metrics, CIs and limitations; snapshot-keyed caching.
 
-*Status (Bot cycle 57, started; `program.milestones.M3: in_progress`).* Worked in checkpointed sub-cycles: **57.1** evidence layer · **57.2** simulator core · **57.3** paired champion-vs-challenger test records · **57.4** stress scenarios · 57.5 knowledge pages. Criteria:
+*Status (Bot cycle 57, started; `program.milestones.M3: in_progress`).* Worked in checkpointed sub-cycles: **57.1** evidence layer · **57.2** simulator core · **57.3** paired champion-vs-challenger test records · **57.4** stress scenarios · **57.5** knowledge pages. Criteria:
 1. ✅ *(57.1)* **Evidence vectors** for every card in every canonical list and every EDHREC candidate on the deck's page (in colour identity, not a basic land): `data/grixis/evidence/<slug>.json`, schema `evidence_vector.schema.json`, built by `scripts/grixis_evidence.py`. 62 decks, 17,712 vectors (65 commanders, 5,945 incumbents, 11,702 candidates). Each carries EDHREC lift, synergy, inclusion, `num_decks` / `potential_decks`, trend z-score, the page's retrieval date and newest deck save, the Oracle hook, and graph facts (Spellbook combo ids, M1 review ids with their flags, blueprint package / identity-core membership).
 2. ✅ *(57.1)* **Classes and confidence on every part,** and every vector expands to evidence items that validate against `evidence.schema.json` (27,986 items). EDHREC numbers are `derived_metric`, `moderate` at most and `low` when flagged (small sample < 50 potential decks or < 20 decks, pooled pages, or `lift_synergy_inconsistent`); trend |z| ≥ 2 is flagged `rising` / `falling`. Oracle hooks are `heuristic`; Spellbook and M1 membership are `fact`; blueprint membership is `strategic_judgment`. `decision_support_ok` still refuses derived/heuristic items alone (tested).
 3. ✅ *(57.1)* **Aggregation rules:** a partner deck uses its combined EDHREC page when cached (3 decks); otherwise the commander pages are pooled (counts summed, rates weighted by potential decks, flagged and capped at `low`; no deck needs it today, so it is unit-tested only). Every unpooled row is checked against EDHREC's identity lift = inclusion / (inclusion − synergy). It holds to 0.1% on 51 pages. On 11 pages (Doctor Doom, Dr. Eggman, Edea, Fire Lord Azula, Kefka, Loki, Mai and Zuko, Nathan Drake, Norman Osborn, The Madcap Jester, Tresserhorn's Lord) 1,851 rows break it, so their lift and synergy rest on different baselines; those rows are flagged and kept `low`. The cause is not established. Recent-set pages suggest a release-date baseline, but that is a hypothesis.
@@ -241,7 +241,9 @@ Status is in `data/grixis/registry.json → program.milestones`. Only Cory sets 
      - Colour screw shows no detectable difference on 61, because the commanders still come down by turn 6.
      - Graveyard exiled shows no detectable difference on 62, because the model has no self-mill or recursion. It is a model limit, not resilience.
    - **Tests:** 9 unit tests with exact expectations (recovery turns and tax on an all-land deck, skipped land drops, the colour delay, rocks lost to an artifact wipe, the counter hitting a key spell and not the commander, the verdict rule, a null scenario identical to the plain game).
-8. ⏳ *(57.5)* **Knowledge pages** on lift, synergy and commander-first deckbuilding, citing EDHREC's own definitions and Wizards' Commander pages.
+8. ✅ *(57.5)* **Knowledge pages:** [EDH Lift and Synergy](../EDH%20Lift%20and%20Synergy.md) and [EDH Commander-First Deckbuilding](../EDH%20Commander-First%20Deckbuilding.md).
+   - **Lift and Synergy:** EDHREC's own definitions (Dec 2025 math article, Oct 2026 changelog, dev interview), with worked examples and the identity check from the cache.
+   - **Commander-First:** CR 903 quoted verbatim (6 quotes, verified by `lore-quotes`), Wizards' format page and the Oct 2025 / Feb 2026 bracket updates (cited URLs checked by `citations`), and the companion's pipeline as labelled guidance with a "can it decide?" table.
 9. ⏳ Cory's acceptance (`program.milestones.M3`).
 
 ### M4

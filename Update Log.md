@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 57.5 (M3: knowledge pages on lift, synergy, commander-first)](#2026-10-16--bot-cycle-575-m3-knowledge-pages-on-lift-synergy-commander-first)
 - [2026-10-16 — Bot cycle 57.4 (M3: scripted stress scenarios)](#2026-10-16--bot-cycle-574-m3-scripted-stress-scenarios)
 - [2026-10-16 — Bot cycle 57.3 (M3: paired champion-vs-challenger tests)](#2026-10-16--bot-cycle-573-m3-paired-champion-vs-challenger-tests)
 - [2026-10-16 — Bot cycle 57.2 (M3: goldfish simulator core)](#2026-10-16--bot-cycle-572-m3-goldfish-simulator-core)
@@ -75,6 +76,18 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 57.5 (M3: knowledge pages on lift, synergy, commander-first)
+- **[EDH Lift and Synergy](EDH%20Lift%20and%20Synergy.md):**
+  - Definitions paraphrased from EDHREC's own articles (Julia Maddalena, 15 Dec 2025; keattz changelog, 1 Oct 2026; dev-team interview): inclusion; potential decks, limited by spoil date and colour universe; synergy (retired, a difference); lift (a ratio centred on 1, symmetric, logarithmic).
+  - Four worked rows from the cache, including the identity check and a row that fails it.
+  - Reading guidance, and how the companion classes EDHREC data.
+- **[EDH Commander-First Deckbuilding](EDH%20Commander-First%20Deckbuilding.md):**
+  - CR 903.3 / 903.4 / 903.5a–c / 903.8 quoted verbatim; all 6 quotes verified against the cached CR by `lore-quotes`.
+  - Wizards' Commander format page and the Oct 21, 2025 and Feb 9, 2026 bracket updates (cited URLs already in `data/citations.json`).
+  - The companion's pipeline (blueprint → evidence → paired and stress tests → human approval) as labelled guidance, plus a table of which evidence can decide.
+- **Registered:** both pages in `front_matter.py` and in the `lore_quotes.py` rules pages; listed in the Knowledge Index and README.
+- **Unchanged:** no decklist or interaction file was touched; M2 is still waiting for Cory; Tresserhorn's Lord stays `PENDING_RELEASE`.
 
 ## 2026-10-16 — Bot cycle 57.4 (M3: scripted stress scenarios)
 - **What it adds:** `scripts/grixis_stress.py` runs 9 deterministic scenarios in the same engine. Each perturbed game is paired with the unperturbed game on identical shuffles.

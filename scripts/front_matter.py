@@ -57,6 +57,8 @@ PAGES = {
     "EDH Standards.md": ("edh", ["deckbuilding-rules", "color-identity", "brackets"], [6, 96], None, ["cr", "wotc-articles"]),
     "EDH Staples.md": ("edh", ["staples", "color-identity"], [], "scripts/build_staples.py", ["scryfall", "edhrec"]),
     "EDH Themed Decks.md": ("edh", ["decks", "plane-restricted", "themes"], [33], "scripts/build_themed_index.py", ["scryfall", "edhrec"]),
+    "EDH Lift and Synergy.md": ("edh", ["lift", "synergy", "edhrec", "evidence", "methodology"], [], None, ["edhrec", "cr"]),  # Bot cycle 57.5
+    "EDH Commander-First Deckbuilding.md": ("edh", ["commander-first", "methodology", "blueprints", "simulator", "deckbuilding-rules"], [], None, ["cr", "wotc-articles", "edhrec", "spellbook", "scryfall"]),  # Bot cycle 57.5
     "EDH Lore-Themed Deckbuilding.md": ("edh", ["lore-decks", "story-first", "methodology", "template"], [79, 80, 81, 95], None, ["scryfall", "wizards-story", "spellbook", "cr"]),
     "EDH Upgrade Paths.md": ("edh", ["upgrades", "budget"], [30], "scripts/build_upgrade_paths.py", ["scryfall", "edhrec"]),
     "EDH Win Conditions.md": ("edh", ["win-conditions", "combos"], [27, 96], "scripts/build_wincons.py", ["scryfall", "spellbook"]),
