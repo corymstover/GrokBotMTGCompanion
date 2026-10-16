@@ -14,7 +14,7 @@ schema: 2
 | | |
 |---|---|
 | Current list | [`exports/grixis-archidekt/anhelo-the-painter.txt`](../../exports/grixis-archidekt/anhelo-the-painter.txt) · SHA-256 `29ad395f939b5b7cbd2f2b72c4a7db6e0fb8c3e6458dec77ebb2dc009696a0a2` |
-| Rulings | **14** (10 verified · 4 uncertain · 0 list flags) |
+| Rulings | **14** (10 verified · 4 uncertain · 0 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) (deck #4: RULES PASS) |
 

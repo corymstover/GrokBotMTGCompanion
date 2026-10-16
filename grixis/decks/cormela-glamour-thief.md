@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -384,6 +385,17 @@ Final proposal: frozen source unchanged, 100 cards, singleton and Grixis color i
 ### Further source evidence (linked, not copied)
 
 - [refinement/verification/Cormela_Glamour_Thief_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Cormela_Glamour_Thief_Final_Verification_2026-10-13.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 46 interaction review: **10 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Cormela, Glamour Thief — Interaction Review](../interactions/cormela-glamour-thief.md).
+
+- **Restricted mana and the death trigger** — Hasty UBR mana for instants/sorceries only; dies: return an instant or sorcery. ([cormela-01](../interactions/cormela-glamour-thief.md#cormela-01-restricted-mana-and-the-death-trigger))
+- **Leave Cormela in the graveyard for reanimation loops** — The commander die trigger fires; decline the command-zone move to keep reanimating. ([cormela-02](../interactions/cormela-glamour-thief.md#cormela-02-leave-cormela-in-the-graveyard-for-reanimation-loops))
+- **Cormela + Saw in Half (+ ritual or Jeska's Will)** — Spellbook infinite: Saw in Half on Cormela; the legend rule gives two death triggers per loop. ([cormela-03](../interactions/cormela-glamour-thief.md#cormela-03-cormela--saw-in-half--ritual-or-jeskas-will))
+- **Thassa's Oracle + Demonic Consultation or Tainted Pact** — Thassa's Oracle + Consultation/Pact: exile the library, then Oracle wins. ([cormela-07](../interactions/cormela-glamour-thief.md#cormela-07-thassas-oracle--demonic-consultation-or-tainted-pact))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

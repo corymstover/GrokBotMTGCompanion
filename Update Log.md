@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 46 (phase 2: interaction reviews, tooling + batch A)](#2026-10-16--bot-cycle-46-phase-2-interaction-reviews-tooling--batch-a)
 - [2026-10-16 — Bot cycle 45 (full Grixis source archive, single source of truth)](#2026-10-16--bot-cycle-45-full-grixis-source-archive-single-source-of-truth)
 - [2026-10-16 — Bot cycle 44 follow-up (pending legality date → 2026-11-13)](#2026-10-16--bot-cycle-44-follow-up-pending-legality-date--2026-11-13)
 - [2026-10-16 — Bot cycle 44 (Grixis refinement batch 6: the 2 pending decks)](#2026-10-16--bot-cycle-44-grixis-refinement-batch-6-the-2-pending-decks)
@@ -60,6 +61,25 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 46 (phase 2: interaction reviews, tooling + batch A)
+- **Phase 2 of Cory's program:** an Abaddon-style, card-level rules review per deck, in [grixis/interactions/](grixis/interactions/README.md). Batch A (the first 12 decks alphabetically) is done: **164 rulings** (142 verified, 11 uncertain, 11 flags).
+  - Every ruling is checked against current Oracle text, Scryfall rulings (bulk 2026-10-15) and the CR (2026-09-25), with rule numbers cited.
+  - Source attestations (the retrospective for decks 1–8 and the deck-level JSONs for Cormela, Crosis, Cult of Skaro and Davros) are folded in and re-verified.
+  - Each deck page links its review from a new **Rules notes** section.
+- **New:**
+  - `scripts/grixis_interactions.py` renders the reviews, the deck-page blocks and the status table; `--check` is a new `validate_all` step (`interactions`).
+  - The check verifies the deck hash, every Oracle, ruling and source quote, every CR rule number, card membership, statuses and flags, rendered pages and batch coverage.
+  - Data lives in `data/grixis_interactions/<slug>.json` (schema in the [README](grixis/interactions/README.md#data-format)), with batches in `_batches.json`.
+  - `rebuild_enrichment.sh` re-runs it after `grixis_refine`.
+- **Flags (no decklist changed):**
+  - Abaddon: mandatory cascade on 0-MV spells randomizes the library, and a stacked top card is exposed to later cascades.
+  - Admiral Brass: finality counters exile instead of dying, so Pitiless Plunderer and Victimize lose value.
+  - Bjorna/Cecily: Peer into the Abyss + Teferi's Ageless Insight loses on an odd library, and Notion Thief starves Breach + Wheel + Jeska's Will.
+  - Crosis: Painter's Servant on black or green knocks Sword of Feast and Famine off.
+  - Documentation fixes: Abaddon's Call Forth the Tempest MV, Kari Zev's token type, Ashnod's stale wording, Be'lakor's 'near-infinite draw' label, the Cecily blueprint.
+- **Also:** Cory's coverage audit is saved as [COVERAGE_AUDIT_2026-10-16.md](grixis/source-archive/COVERAGE_AUDIT_2026-10-16.md) and linked from the archive README.
+- **Reason:** Cory's phase 2 request. Batches B–F (50 decks) follow in later cycles.
 
 ## 2026-10-16 — Bot cycle 45 (full Grixis source archive, single source of truth)
 - **Phase 1 of Cory's multi-phase program.** The complete [grixis-commander-encyclopediaGPT](https://github.com/corymstover/grixis-commander-encyclopediaGPT) repo at `1836b97` (re-pulled; no upstream change) is now archived in [grixis/source-archive/](grixis/source-archive/README.md).

@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -404,6 +405,20 @@ Explicit user approval was received on **2026-10-14**. The list with SHA-256 `a5
 ### Further source evidence (linked, not copied)
 
 - [refinement/verification/Crosis_the_Purger_Final_Verification_2026-10-13.md](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/1836b97/refinement/verification/Crosis_the_Purger_Final_Verification_2026-10-13.md)
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 46 interaction review: **11 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Crosis, the Purger — Interaction Review](../interactions/crosis-the-purger.md).
+
+- **Pay {2}{B} on resolution, then choose the color** — Combat damage: on resolution pay {2}{B}, name a color, they discard every card of it. ([crosis-01](../interactions/crosis-the-purger.md#crosis-01-pay-2b-on-resolution-then-choose-the-color))
+- **Painter's Servant makes Crosis a full-hand discard** — Painter's Servant: name its color with Crosis and they discard their whole hand. ([crosis-02](../interactions/crosis-the-purger.md#crosis-02-painters-servant-makes-crosis-a-full-hand-discard))
+- **Notion Thief + Teferi's Puzzle Box lock** — Spellbook lock: Puzzle Box draws become your draws via Notion Thief. ([crosis-07](../interactions/crosis-the-purger.md#crosis-07-notion-thief--teferis-puzzle-box-lock))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Painter's color can knock Sword of Feast and Famine off Crosis: A conditional non-bo: Painter's Servant set to black (the obvious Grixis pick) or green makes Sword of Feast and Famine fall off Crosis. Choose a non-black, non-green color when both are in play. No list change. ([crosis-03](../interactions/crosis-the-purger.md#crosis-03-painters-color-can-knock-sword-of-feast-and-famine-off-crosis))
+- ⚠️ uncertain Oppression is symmetric: Whether Oppression is net positive is a strategic judgment, not a rules question; recorded so the symmetry is visible. ([crosis-10](../interactions/crosis-the-purger.md#crosis-10-oppression-is-symmetric))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)

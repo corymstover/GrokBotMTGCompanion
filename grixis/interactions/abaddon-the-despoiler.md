@@ -14,7 +14,7 @@ schema: 2
 | | |
 |---|---|
 | Current list | [`exports/grixis-archidekt/abaddon-the-despoiler.txt`](../../exports/grixis-archidekt/abaddon-the-despoiler.txt) · SHA-256 `848b3bdcf8dac911ccaa9a448cd9c943b1d7a10dd135dd690ee935d005ce0b44` |
-| Rulings | **28** (24 verified · 1 uncertain · 3 list flags) |
+| Rulings | **28** (24 verified · 1 uncertain · 3 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/rules/Abaddon_the_Despoiler_Interaction_Review_2026-10-13.md) (Interaction Review v1, 63 KB, re-verified) · [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) (deck #1: RULES PASS) |
 

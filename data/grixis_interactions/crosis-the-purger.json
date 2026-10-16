@@ -1,0 +1,367 @@
+{
+ "schema": 1,
+ "deck_id": "Crosis__the_Purger",
+ "slug": "crosis-the-purger",
+ "commanders": [
+  "Crosis, the Purger"
+ ],
+ "deck_sha256": "04784e892c930bb5e60f8551ffffa7e9527634359db38378fd1bd7e4c8e3647d",
+ "list_source": "exports/grixis-archidekt/crosis-the-purger.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 46,
+ "batch": "A",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json",
+   "note": "10 interactions, all PASS"
+  }
+ ],
+ "summary": "Crosis, the Purger is a discard/control deck that turns combat damage into color-based hand wipes, with Painter's Servant as the full-hand version. This review re-verifies all ten items of the deck's rules attestation.\n\nFlag: Painter set to black or green knocks Sword of Feast and Famine off Crosis. Rules note: Lightning Greaves' shroud blocks your own later equips (Swiftfoot Boots' hexproof doesn't). No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "crosis-01",
+   "category": "commander",
+   "title": "Pay {2}{B} on resolution, then choose the color",
+   "cards": [
+    "Crosis, the Purger"
+   ],
+   "ruling": "Crosis triggers after it deals combat damage to a player. On resolution you may pay {2}{B}; you can't prepay, and it isn't an attack cost. Then you choose a color, so the opponent can't respond knowing it. They reveal and discard all cards of that color. Colorless cards (artifacts, lands) are safe unless Painter's Servant is out.",
+   "short": "Combat damage: on resolution pay {2}{B}, name a color, they discard every card of it.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "603.2",
+    "608.2b",
+    "105.2c"
+   ],
+   "oracle": [
+    {
+     "card": "Crosis, the Purger",
+     "quote": "Whenever Crosis deals combat damage to a player, you may pay {2}{B}. If you do, choose a color, then that player reveals their hand and discards all cards of that color."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Crosis, the Purger",
+     "quote": "You choose the color during resolution. This means your opponent does not get to react after knowing the color you chose."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json",
+     "item": "Crosis combat-damage trigger"
+    }
+   ]
+  },
+  {
+   "id": "crosis-02",
+   "category": "combo",
+   "title": "Painter's Servant makes Crosis a full-hand discard",
+   "cards": [
+    "Crosis, the Purger",
+    "Painter's Servant"
+   ],
+   "ruling": "Painter's Servant makes every card not on the battlefield (hands included) the chosen color in addition to its own colors, colorless cards included. Naming the Painter color with Crosis discards the whole hand. If Painter leaves before Crosis's trigger resolves, the cards revert. Another color-setting effect overrides Painter on that object.",
+   "short": "Painter's Servant: name its color with Crosis and they discard their whole hand.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "105.3",
+    "613.1e"
+   ],
+   "oracle": [
+    {
+     "card": "Painter's Servant",
+     "quote": "All cards that aren't on the battlefield, spells, and permanents are the chosen color in addition to their other colors."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Painter's Servant",
+     "quote": "This ability affects every card in every game zone, all tokens on the battlefield, and all spell copies on the stack, regardless of who controls or owns them."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json",
+     "item": "Crosis + Painter's Servant"
+    }
+   ]
+  },
+  {
+   "id": "crosis-03",
+   "category": "layers",
+   "title": "Painter's color can knock Sword of Feast and Famine off Crosis",
+   "cards": [
+    "Crosis, the Purger",
+    "Painter's Servant",
+    "Sword of Feast and Famine"
+   ],
+   "ruling": "Painter also colors permanents. If it names black or green, Sword of Feast and Famine becomes black or green and can't stay attached to a creature with protection from black and from green. It falls off as a state-based action. Name blue, red or white with Sword equipped.",
+   "status": "flag",
+   "flag": {
+    "kind": "anti-synergy",
+    "note": "A conditional non-bo: Painter's Servant set to black (the obvious Grixis pick) or green makes Sword of Feast and Famine fall off Crosis. Choose a non-black, non-green color when both are in play. No list change."
+   },
+   "cr": [
+    "702.16d",
+    "704.5n"
+   ],
+   "oracle": [
+    {
+     "card": "Sword of Feast and Famine",
+     "quote": "Equipped creature gets +2/+2 and has protection from black and from green."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json",
+     "item": "Painter's Servant + Sword of Feast and Famine protection caveat"
+    }
+   ]
+  },
+  {
+   "id": "crosis-04",
+   "category": "trigger-order",
+   "title": "Sword of Feast and Famine above Crosis: untapped lands pay {2}{B}",
+   "cards": [
+    "Crosis, the Purger",
+    "Sword of Feast and Famine"
+   ],
+   "ruling": "Both trigger on combat damage. Put Crosis's trigger on the stack first and Sword's on top. Sword resolves first (one discard, untap all lands), and the untapped lands pay {2}{B} for Crosis. Mana made while the triggers are on the stack empties at the end of the combat damage step.",
+   "status": "verified",
+   "cr": [
+    "603.3b",
+    "106.4"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Sword of Feast and Famine",
+     "quote": "You'll untap all lands you control even if the player can't discard a card."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json",
+     "item": "Sword of Feast and Famine + Crosis trigger ordering"
+    }
+   ]
+  },
+  {
+   "id": "crosis-05",
+   "category": "pair",
+   "title": "Brotherhood Regalia: unblockable for {1}",
+   "cards": [
+    "Crosis, the Purger",
+    "Brotherhood Regalia"
+   ],
+   "ruling": "Brotherhood Regalia equips a legendary creature for {1} and gives ward {2} and 'can't be blocked', so Crosis connects. It doesn't change the {2}{B} payment.",
+   "status": "verified",
+   "cr": [
+    "702.6a",
+    "702.21a"
+   ],
+   "oracle": [
+    {
+     "card": "Brotherhood Regalia",
+     "quote": "Equipped creature has ward {2}, is an Assassin in addition to its other types, and can't be blocked."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json",
+     "item": "Brotherhood Regalia + Crosis"
+    }
+   ]
+  },
+  {
+   "id": "crosis-06",
+   "category": "trigger-order",
+   "title": "Tergrid and Tinybones: order Tergrid on top",
+   "cards": [
+    "Crosis, the Purger",
+    "Tergrid, God of Fright // Tergrid's Lantern",
+    "Tinybones, Bauble Burglar"
+   ],
+   "ruling": "When an opponent discards a permanent card, Tergrid and Tinybones both trigger. Put Tinybones first and Tergrid on top: Tergrid resolves first and puts the permanent onto the battlefield under your control. Tinybones then finds the card gone. Tinybones still exiles non-permanent cards (instants, sorceries) for you to play during your turn.",
+   "status": "verified",
+   "cr": [
+    "603.3b",
+    "400.7"
+   ],
+   "oracle": [],
+   "rulings": [
+    {
+     "card": "Tergrid, God of Fright // Tergrid's Lantern",
+     "quote": "If the card leaves the graveyard before Tergrid's ability resolves, you can't put it onto the battlefield, even if it returns to the graveyard before the ability resolves."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json",
+     "item": "Tergrid + Tinybones, Bauble Burglar discard triggers"
+    }
+   ]
+  },
+  {
+   "id": "crosis-07",
+   "category": "combo",
+   "title": "Notion Thief + Teferi's Puzzle Box lock",
+   "cards": [
+    "Crosis, the Purger",
+    "Notion Thief",
+    "Teferi's Puzzle Box"
+   ],
+   "ruling": "On each opponent's draw step, after their normal draw, Puzzle Box puts their hand on the bottom and has them draw that many. Notion Thief replaces those draws, so you draw instead. Opponents end each draw step with one card. Puzzle Box is symmetric: it also cycles *your* hand on your draw step, and your draws aren't stolen.",
+   "short": "Spellbook lock: Puzzle Box draws become your draws via Notion Thief.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "614.1a",
+    "121.6"
+   ],
+   "oracle": [
+    {
+     "card": "Teferi's Puzzle Box",
+     "quote": "At the beginning of each player's draw step, that player puts the cards in their hand on the bottom of their library in any order, then draws that many cards."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Teferi's Puzzle Box",
+     "quote": "You do your normal draw before this ability is put on the stack."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json",
+     "item": "Notion Thief + Teferi's Puzzle Box"
+    }
+   ]
+  },
+  {
+   "id": "crosis-08",
+   "category": "replacement",
+   "title": "Notion Thief turns wheels one-sided",
+   "cards": [
+    "Crosis, the Purger",
+    "Notion Thief",
+    "Wheel of Fortune",
+    "Windfall",
+    "Dark Deal"
+   ],
+   "ruling": "Wheel of Fortune, Windfall and Dark Deal make opponents discard their hands; Notion Thief takes their redraws. Waste Not and Tergrid profit from the discards.",
+   "status": "verified",
+   "cr": [
+    "614.1a"
+   ],
+   "oracle": [
+    {
+     "card": "Notion Thief",
+     "quote": "If an opponent would draw a card except the first one they draw in each of their draw steps, instead that player skips that draw and you draw a card."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json",
+     "item": "Notion Thief + Wheel of Fortune / Windfall / Dark Deal"
+    }
+   ]
+  },
+  {
+   "id": "crosis-09",
+   "category": "pair",
+   "title": "Recoil and Dream Salvage",
+   "cards": [
+    "Crosis, the Purger",
+    "Recoil",
+    "Dream Salvage"
+   ],
+   "ruling": "- **Recoil:** bounces a permanent, then its owner discards a card. With an empty hand, the bounced card is the only choice.\n- **Dream Salvage:** draws for every card the target opponent discarded *this turn*, so cast it after Crosis, Painter or a wheel.",
+   "status": "verified",
+   "cr": [
+    "608.2c"
+   ],
+   "oracle": [
+    {
+     "card": "Recoil",
+     "quote": "Return target permanent to its owner's hand. Then that player discards a card."
+    },
+    {
+     "card": "Dream Salvage",
+     "quote": "Draw cards equal to the number of cards target opponent discarded this turn."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json",
+     "item": "Recoil on a player with no other cards in hand"
+    },
+    {
+     "path": "refinement/verification/crosis_2026-10-14/Crosis_Rules_Attestation.json",
+     "item": "Dream Salvage after Crosis or mass discard"
+    }
+   ]
+  },
+  {
+   "id": "crosis-10",
+   "category": "pair",
+   "title": "Oppression is symmetric",
+   "cards": [
+    "Crosis, the Purger",
+    "Oppression"
+   ],
+   "ruling": "Oppression makes *every* player who casts a spell discard, you included. In a deck with many instants and rituals, that costs you cards too. Its value comes from opponents casting from smaller hands, and Waste Not and Tergrid reward their discards.",
+   "status": "uncertain",
+   "uncertainty": "Whether Oppression is net positive is a strategic judgment, not a rules question; recorded so the symmetry is visible.",
+   "cr": [
+    "603.2"
+   ],
+   "oracle": [
+    {
+     "card": "Oppression",
+     "quote": "Whenever a player casts a spell, that player discards a card."
+    }
+   ],
+   "rulings": []
+  },
+  {
+   "id": "crosis-11",
+   "category": "zone",
+   "title": "Commander tax at six mana",
+   "cards": [
+    "Crosis, the Purger",
+    "Lightning Greaves",
+    "Swiftfoot Boots"
+   ],
+   "ruling": "Crosis costs {3}{U}{B}{R} (6), then 8, then 10. Lightning Greaves and Swiftfoot Boots give haste so it can connect the turn it lands. Equip targets 'creature you control', so Greaves' shroud stops your own later equips (Regalia, Sword) while it's attached; Boots' hexproof only stops opponents. Equip the other Equipment first, or use Boots.",
+   "status": "verified",
+   "cr": [
+    "702.18a",
+    "702.11b",
+    "903.8"
+   ],
+   "oracle": [
+    {
+     "card": "Lightning Greaves",
+     "quote": "Equipped creature has haste and shroud."
+    }
+   ],
+   "rulings": []
+  }
+ ]
+}

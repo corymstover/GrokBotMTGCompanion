@@ -14,7 +14,7 @@ schema: 2
 | | |
 |---|---|
 | Current list | [`exports/grixis-archidekt/admiral-brass-unsinkable.txt`](../../exports/grixis-archidekt/admiral-brass-unsinkable.txt) · SHA-256 `e29dc5ed5ec6cc85863cf82408f7ecb29128e6668b5adf6ac60ea2c2b4deb2b5` |
-| Rulings | **15** (13 verified · 1 uncertain · 1 list flags) |
+| Rulings | **15** (13 verified · 1 uncertain · 1 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) (deck #3: RULES PASS) |
 

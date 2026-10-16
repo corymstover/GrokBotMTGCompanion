@@ -14,7 +14,7 @@ schema: 2
 | | |
 |---|---|
 | Current list | [`exports/grixis-archidekt/ashad-the-lone-cyberman.txt`](../../exports/grixis-archidekt/ashad-the-lone-cyberman.txt) · SHA-256 `13fa3b590700b08a41783ab763a1055f9f82103db01a3757a3662be7a092637c` |
-| Rulings | **13** (12 verified · 1 uncertain · 0 list flags) |
+| Rulings | **13** (12 verified · 1 uncertain · 0 flags) |
 | CR / Oracle / rulings | CR 2026-09-25 · Oracle 2026-10-15 · rulings 2026-10-15 |
 | Source attestations | [`Retrospective_1_to_8_Rules_Attestation_2026-10-14.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/retrospective_1_to_8/Retrospective_1_to_8_Rules_Attestation_2026-10-14.md) (deck #5: RULES PASS) |
 

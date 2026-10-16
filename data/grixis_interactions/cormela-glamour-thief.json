@@ -1,0 +1,362 @@
+{
+ "schema": 1,
+ "deck_id": "Cormela__Glamour_Thief",
+ "slug": "cormela-glamour-thief",
+ "commanders": [
+  "Cormela, Glamour Thief"
+ ],
+ "deck_sha256": "29dad7ed42b4c5b81bb507f96d3638c6dbe8f509f6d8e8f935f25df484930578",
+ "list_source": "exports/grixis-archidekt/cormela-glamour-thief.txt",
+ "reviewed": "2026-10-16",
+ "cycle": 46,
+ "batch": "A",
+ "cr_version": "2026-09-25",
+ "oracle_bulk": "2026-10-15",
+ "rulings_bulk": "2026-10-15",
+ "sources": [
+  "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt",
+  "Scryfall oracle-cards + rulings bulk 2026-10-15"
+ ],
+ "source_attestations": [
+  {
+   "path": "refinement/verification/cormela_2026-10-14/Cormela_Rules_Attestation.json",
+   "note": "8 interactions, all PASS"
+  }
+ ],
+ "summary": "Cormela, Glamour Thief is a cEDH-style instant/sorcery combo deck. This review re-verifies all eight items of the deck's rules attestation (Saw in Half, Goryo's, Shallow Grave, Birgi + Molten Duplication, Dualcaster, Thassa's Oracle lines, restricted mana) against current Oracle text and the CR.\n\nRules point: when Cormela dies, decline the command-zone move to keep the reanimation loops going. No list errors.",
+ "absent": [],
+ "companion": [],
+ "interactions": [
+  {
+   "id": "cormela-01",
+   "category": "commander",
+   "title": "Restricted mana and the death trigger",
+   "cards": [
+    "Cormela, Glamour Thief"
+   ],
+   "ruling": "Cormela has haste, so her {1}, {T}: add {U}{B}{R} works the turn she arrives, including on token copies. That mana can only be spent to cast instants and sorceries: not creatures (Dualcaster Mage, Thassa's Oracle), not activated abilities, not artifacts. When Cormela dies, she returns up to one instant or sorcery card from your graveyard to hand. The spell that killed her is already in the graveyard by the time the trigger targets, so she can return it.",
+   "short": "Hasty UBR mana for instants/sorceries only; dies: return an instant or sorcery.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "106.6",
+    "608.2n",
+    "603.10a"
+   ],
+   "oracle": [
+    {
+     "card": "Cormela, Glamour Thief",
+     "quote": "{1}, {T}: Add {U}{B}{R}. Spend this mana only to cast instant and/or sorcery spells."
+    },
+    {
+     "card": "Cormela, Glamour Thief",
+     "quote": "When Cormela dies, return up to one target instant or sorcery card from your graveyard to your hand."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/cormela_2026-10-14/Cormela_Rules_Attestation.json",
+     "item": "Cormela restricted mana"
+    }
+   ]
+  },
+  {
+   "id": "cormela-02",
+   "category": "zone",
+   "title": "Leave Cormela in the graveyard for reanimation loops",
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Goryo's Vengeance",
+    "Shallow Grave"
+   ],
+   "ruling": "When your commander dies it goes to the graveyard, so 'dies' triggers fire. Afterward you *may* move it to the command zone as a state-based action. For Goryo's Vengeance and Shallow Grave loops you must decline, leaving Cormela in the graveyard. Shallow Grave also needs her to be the *top* creature card there.",
+   "short": "The commander die trigger fires; decline the command-zone move to keep reanimating.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "903.9a",
+    "704.6d"
+   ],
+   "oracle": [
+    {
+     "card": "Shallow Grave",
+     "quote": "Return the top creature card of your graveyard to the battlefield."
+    }
+   ],
+   "rulings": []
+  },
+  {
+   "id": "cormela-03",
+   "category": "combo",
+   "title": "Cormela + Saw in Half (+ ritual or Jeska's Will)",
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Saw in Half",
+    "Dark Ritual",
+    "Cabal Ritual",
+    "Seething Song",
+    "Jeska's Will"
+   ],
+   "ruling": "Saw in Half destroys Cormela and makes two token Cormelas. The legend rule puts one into the graveyard: it 'dies' and triggers its own copy of the death ability. The original's trigger returns Saw in Half; the token's returns the ritual. The surviving token has haste and taps for {U}{B}{R}.\n\nFor example, with Dark Ritual a loop costs 5 (Saw {2}{B}, Ritual {B}, Cormela's {1}) and gives 6, net +1 each time. Tokens of tokens copy the original token's characteristics.",
+   "short": "Spellbook infinite: Saw in Half on Cormela; the legend rule gives two death triggers per loop.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "704.5j",
+    "608.2n",
+    "707.2"
+   ],
+   "oracle": [
+    {
+     "card": "Saw in Half",
+     "quote": "Destroy target creature. If that creature dies this way, its controller creates two tokens that are copies of that creature"
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Saw in Half",
+     "quote": "If the copied creature was a token, the new tokens copy the original characteristics of that token as stated by the effect that created the token, with the listed exceptions."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/cormela_2026-10-14/Cormela_Rules_Attestation.json",
+     "item": "Cormela + Saw in Half recursion engine"
+    }
+   ]
+  },
+  {
+   "id": "cormela-04",
+   "category": "combo",
+   "title": "Cormela + Goryo's Vengeance or Shallow Grave + altar",
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Goryo's Vengeance",
+    "Shallow Grave",
+    "Ashnod's Altar",
+    "Phyrexian Altar"
+   ],
+   "ruling": "Reanimate Cormela (Goryo's: a legendary creature card; Shallow Grave: the top creature card). Tap her for {U}{B}{R}, then sacrifice her to an altar. Her death trigger returns the reanimation spell, which you recast with the restricted mana. The end-step exile doesn't matter because she has already left; Goryo's ruling confirms she stays in the graveyard.",
+   "status": "verified",
+   "cr": [
+    "605.1a",
+    "903.9a"
+   ],
+   "oracle": [
+    {
+     "card": "Goryo's Vengeance",
+     "quote": "Return target legendary creature card from your graveyard to the battlefield. That creature gains haste."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Goryo's Vengeance",
+     "quote": "If the returned creature leaves the battlefield before the end step, it will remain in its current zone. It won't be exiled."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/cormela_2026-10-14/Cormela_Rules_Attestation.json",
+     "item": "Cormela + Goryo's Vengeance + Ashnod's Altar / Phyrexian Altar"
+    },
+    {
+     "path": "refinement/verification/cormela_2026-10-14/Cormela_Rules_Attestation.json",
+     "item": "Cormela + Shallow Grave + Ashnod's Altar / Phyrexian Altar"
+    }
+   ]
+  },
+  {
+   "id": "cormela-05",
+   "category": "combo",
+   "title": "Demonic Gifts loops (Cormela or Dualcaster + altar)",
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Demonic Gifts",
+    "Dualcaster Mage",
+    "Ashnod's Altar",
+    "Phyrexian Altar"
+   ],
+   "ruling": "- **With Cormela:** Demonic Gifts gives her 'when this dies, return it'. Sacrifice her to an altar: she returns as a new object (Gifts works only once), and her death trigger returns Gifts to recast.\n- **With Dualcaster:** cast Gifts, respond with Dualcaster copying it onto itself, then sacrifice. The returned Dualcaster copies the original Gifts, still on the stack, again.",
+   "status": "verified",
+   "cr": [
+    "400.7",
+    "707.10c"
+   ],
+   "oracle": [
+    {
+     "card": "Demonic Gifts",
+     "quote": "Until end of turn, target creature gets +2/+0 and gains \"When this creature dies, return it to the battlefield under its owner's control.\""
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Demonic Gifts",
+     "quote": "The reanimating effect of Demonic Gifts works only once. Once the creature dies and returns to the battlefield, it’s a new object with no relation to the creature it was."
+    }
+   ]
+  },
+  {
+   "id": "cormela-06",
+   "category": "combo",
+   "title": "Birgi + Molten Duplication; Dualcaster + Molten Duplication or Saw in Half",
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "Molten Duplication",
+    "Dualcaster Mage",
+    "Saw in Half"
+   ],
+   "ruling": "- **Birgi:** Molten Duplication on Cormela makes a hasty token Cormela. The legend rule sends one to the graveyard, its death trigger returns Duplication, and Birgi adds {R} on each cast.\n- **Dualcaster:** responding to Molten Duplication (or Saw in Half) on your creature, Dualcaster copies it targeting the newest Dualcaster. This gives arbitrarily many hasty Dualcaster tokens.",
+   "status": "verified",
+   "cr": [
+    "704.5j",
+    "707.10c"
+   ],
+   "oracle": [
+    {
+     "card": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+     "quote": "Whenever you cast a spell, add {R}."
+    }
+   ],
+   "rulings": [],
+   "source": [
+    {
+     "path": "refinement/verification/cormela_2026-10-14/Cormela_Rules_Attestation.json",
+     "item": "Cormela + Birgi + Molten Duplication"
+    },
+    {
+     "path": "refinement/verification/cormela_2026-10-14/Cormela_Rules_Attestation.json",
+     "item": "Dualcaster Mage + Molten Duplication"
+    }
+   ]
+  },
+  {
+   "id": "cormela-07",
+   "category": "combo",
+   "title": "Thassa's Oracle + Demonic Consultation or Tainted Pact",
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact"
+   ],
+   "ruling": "With Thassa's Oracle's trigger on the stack (or before casting Oracle), Demonic Consultation naming a card not in your library, or Tainted Pact, exiles the library. Oracle then wins with X ≥ 0 cards. Tainted Pact stops on two cards with the same name; the list has no basic lands or duplicates, so it exiles everything. Exiling your library doesn't lose by itself; drawing from it later does.",
+   "short": "Thassa's Oracle + Consultation/Pact: exile the library, then Oracle wins.",
+   "status": "verified",
+   "key": true,
+   "cr": [
+    "704.5b",
+    "603.4"
+   ],
+   "oracle": [
+    {
+     "card": "Thassa's Oracle",
+     "quote": "If X is greater than or equal to the number of cards in your library, you win the game."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Demonic Consultation",
+     "quote": "If you don't reveal the named card (perhaps because it was in the top six cards of your library), you'll end up exiling your entire library. You don't lose the game at that point, but will lose the next time you're instructed to draw a card."
+    }
+   ],
+   "source": [
+    {
+     "path": "refinement/verification/cormela_2026-10-14/Cormela_Rules_Attestation.json",
+     "item": "Thassa's Oracle + Demonic Consultation"
+    },
+    {
+     "path": "refinement/verification/cormela_2026-10-14/Cormela_Rules_Attestation.json",
+     "item": "Thassa's Oracle + Tainted Pact"
+    }
+   ]
+  },
+  {
+   "id": "cormela-08",
+   "category": "combo",
+   "title": "Underworld Breach + Lion's Eye Diamond / Lotus Petal + Brain Freeze or Wheel",
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Brain Freeze",
+    "Wheel of Fortune",
+    "Jeska's Will"
+   ],
+   "ruling": "Breach gives escape (mana cost plus exile three other cards). Lion's Eye Diamond has a mana cost of {0}, so it can escape for {0} plus three cards. Its ability is a mana ability usable only at instant speed. Each escape is a cast, so Brain Freeze's storm count grows, and storm counts spells cast from any zone. Breach + Wheel + Jeska's Will refills opponents' hands for Jeska's mana. Breach is sacrificed at end step.",
+   "status": "verified",
+   "cr": [
+    "702.138a",
+    "702.40a",
+    "605.1a"
+   ],
+   "oracle": [
+    {
+     "card": "Lion's Eye Diamond",
+     "quote": "Discard your hand, Sacrifice this artifact: Add three mana of any one color. Activate only as an instant."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Underworld Breach",
+     "quote": "If a card has no mana cost, its escape cost is an unpayable cost, so you can't cast it for that cost."
+    },
+    {
+     "card": "Brain Freeze",
+     "quote": "Spells cast from zones other than a player's hand and spells that were countered are counted by the storm ability."
+    }
+   ]
+  },
+  {
+   "id": "cormela-09",
+   "category": "pair",
+   "title": "Orcish Bowmasters punishes your own wheels",
+   "cards": [
+    "Cormela, Glamour Thief",
+    "Orcish Bowmasters",
+    "Wheel of Fortune",
+    "Windfall"
+   ],
+   "ruling": "Orcish Bowmasters triggers whenever an opponent draws a card other than the first in their draw step. Wheel of Fortune or Windfall makes each opponent draw seven: up to 21 pings and 21 amass in a four-player game. A card put into hand without the word 'draw' doesn't count.",
+   "status": "verified",
+   "cr": [
+    "121.1",
+    "603.2"
+   ],
+   "oracle": [
+    {
+     "card": "Orcish Bowmasters",
+     "quote": "whenever an opponent draws a card except the first one they draw in each of their draw steps, this creature deals 1 damage to any target."
+    }
+   ],
+   "rulings": [
+    {
+     "card": "Orcish Bowmasters",
+     "quote": "If a spell or ability causes an opponent to put cards into their hand without specifically using the word \"draw,\" it's not a card drawn."
+    }
+   ]
+  },
+  {
+   "id": "cormela-10",
+   "category": "zone",
+   "title": "Commander tax",
+   "cards": [
+    "Cormela, Glamour Thief"
+   ],
+   "ruling": "Cormela costs {1}{U}{B}{R}, then 6, then 8. Combo lines that sacrifice her repeatedly don't add tax, because she stays in the graveyard. Only casts from the command zone add tax.",
+   "status": "verified",
+   "cr": [
+    "903.8"
+   ],
+   "oracle": [
+    {
+     "card": "Cormela, Glamour Thief",
+     "quote": "Haste"
+    }
+   ],
+   "rulings": []
+  }
+ ]
+}
