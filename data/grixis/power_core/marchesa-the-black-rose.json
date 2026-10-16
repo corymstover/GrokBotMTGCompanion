@@ -1,0 +1,1093 @@
+{
+ "authority": {
+  "can_decide_deck": false,
+  "can_reopen_m2": false,
+  "can_rewrite_blueprint": false
+ },
+ "blueprint_version": 1,
+ "candidates": [
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Murderous Redcap",
+    "Gev, Scaled Scorch"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "1657-5805",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:1657-5805"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Murderous Redcap",
+    "Uncivil Unrest"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "1657-5961",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:1657-5961"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Ashnod's Altar",
+    "Thran Vigil"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "2034-2131--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:2034-2131--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Ashnod's Altar",
+    "Gev, Scaled Scorch"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "2034-5805--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:2034-5805--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Ashnod's Altar",
+    "Uncivil Unrest"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "2034-5961--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:2034-5961--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Viscera Seer",
+    "Thran Vigil"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "2131-2292--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:2131-2292--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Thran Vigil",
+    "Carrion Feeder"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "2131-2438--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:2131-2438--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Goblin Bombardment",
+    "Thran Vigil"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "2131-5147--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:2131-5147--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Altar of Dementia",
+    "Thran Vigil"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "2131-5256--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:2131-5256--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Viscera Seer",
+    "Gev, Scaled Scorch"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "2292-5805--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:2292-5805--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Viscera Seer",
+    "Uncivil Unrest"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "2292-5961--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:2292-5961--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Carrion Feeder",
+    "Gev, Scaled Scorch"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "2438-5805--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:2438-5805--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Carrion Feeder",
+    "Uncivil Unrest"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "2438-5961--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:2438-5961--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Murderous Redcap",
+    "Metallic Mimic"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "345-1657",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:345-1657"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Ashnod's Altar",
+    "Metallic Mimic"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "345-2034--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:345-2034--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Viscera Seer",
+    "Metallic Mimic"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "345-2292--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:345-2292--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Metallic Mimic",
+    "Carrion Feeder"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "345-2438--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:345-2438--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Goblin Bombardment",
+    "Metallic Mimic"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "345-5147--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:345-5147--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Altar of Dementia",
+    "Metallic Mimic"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "345-5256--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:345-5256--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Goblin Bombardment",
+    "Gev, Scaled Scorch"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "5147-5805--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:5147-5805--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Goblin Bombardment",
+    "Uncivil Unrest"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "5147-5961--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:5147-5961--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Altar of Dementia",
+    "Gev, Scaled Scorch"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "5256-5805--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:5256-5805--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Altar of Dementia",
+    "Uncivil Unrest"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "5256-5961--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:5256-5961--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Ashnod's Altar"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "628-2034--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops",
+    "spellbook:628-2034--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Viscera Seer"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "628-2292--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops",
+    "spellbook:628-2292--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Goblin Bombardment"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "628-5147--5",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops",
+    "spellbook:628-5147--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Ashnod's Altar",
+    "Flayer of the Hatebound",
+    "Sage of Fables"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "1123-2034-4866",
+   "commander_independent": true,
+   "compactness": "compact_3",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops",
+    "spellbook:1123-2034-4866"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Spark Double",
+    "Murderous Redcap",
+    "Ashnod's Altar"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "1657-2034-3908",
+   "commander_independent": true,
+   "compactness": "compact_3",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops",
+    "spellbook:1657-2034-3908"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Spark Double",
+    "Glen Elendra Archmage",
+    "Ashnod's Altar"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "2034-2831-3908",
+   "commander_independent": true,
+   "compactness": "compact_3",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops",
+    "spellbook:2034-2831-3908"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Spark Double",
+    "River Kelpie",
+    "Ashnod's Altar"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "2034-3607-3908",
+   "commander_independent": true,
+   "compactness": "compact_3",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops",
+    "spellbook:2034-3607-3908"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Spark Double",
+    "Puppeteer Clique",
+    "Altar of Dementia"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "3020-3908-5256",
+   "commander_independent": true,
+   "compactness": "compact_3",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops",
+    "spellbook:3020-3908-5256"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Yawgmoth, Thran Physician",
+    "Gray Merchant of Asphodel"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "328-628-4279",
+   "commander_independent": true,
+   "compactness": "compact_3",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops",
+    "spellbook:328-628-4279"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Murderous Redcap",
+    "Metallic Mimic",
+    "Viscera Seer"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "345-1657-2292",
+   "commander_independent": true,
+   "compactness": "compact_3",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops",
+    "spellbook:345-1657-2292"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Sage of Fables",
+    "Ashnod's Altar"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "628-2034-4866",
+   "commander_independent": true,
+   "compactness": "compact_3",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops",
+    "spellbook:628-2034-4866"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Warren Soultrader",
+    "Blood Artist"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "628-2842-5670--5",
+   "commander_independent": true,
+   "compactness": "compact_3",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role",
+    "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops",
+    "spellbook:628-2842-5670--5"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  }
+ ],
+ "canonical_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
+ "deck_id": "Marchesa__the_Black_Rose",
+ "materiality_policy": {
+  "material_fields": [
+   "commander_role",
+   "dependency_level",
+   "power",
+   "anti_goals",
+   "packages",
+   "requirements",
+   "win_conditions",
+   "construction_rules"
+  ],
+  "rule": "Classification-only overlays do not reopen M2. Any proposed correction touching a material field requires targeted Cory review/reopen before application; downstream artifacts regenerate either way."
+ },
+ "schema_version": 1,
+ "slug": "marchesa-the-black-rose",
+ "status": "provisional_overlay",
+ "summary": {
+  "candidate_count": 35,
+  "compact_candidate_count": 35,
+  "m2_reopen_requested": false,
+  "material_blueprint_changes_proposed": 0
+ }
+}

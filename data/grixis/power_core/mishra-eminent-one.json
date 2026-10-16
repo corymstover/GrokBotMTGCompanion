@@ -1,0 +1,158 @@
+{
+ "authority": {
+  "can_decide_deck": false,
+  "can_reopen_m2": false,
+  "can_rewrite_blueprint": false
+ },
+ "blueprint_version": 1,
+ "candidates": [
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Sensei's Divining Top",
+    "Mystic Forge",
+    "Etherium Sculptor"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "985-1976-5078",
+   "commander_independent": true,
+   "compactness": "compact_3",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/mishra-eminent-one.json#commander_role",
+    "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups",
+    "spellbook:985-1976-5078"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Sensei's Divining Top",
+    "Mystic Forge",
+    "Enthusiastic Mechanaut"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "985-4908-5078",
+   "commander_independent": true,
+   "compactness": "compact_3",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/mishra-eminent-one.json#commander_role",
+    "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups",
+    "spellbook:985-4908-5078"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Scrap Trawler",
+    "Myr Retriever",
+    "Krark-Clan Ironworks",
+    "Etherium Sculptor"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "1020-1976-2866-4659",
+   "commander_independent": true,
+   "compactness": "extended_4_plus",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/mishra-eminent-one.json#commander_role",
+    "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups",
+    "spellbook:1020-1976-2866-4659"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Scrap Trawler",
+    "Myr Retriever",
+    "Krark-Clan Ironworks",
+    "Enthusiastic Mechanaut"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "1020-2866-4659-4908",
+   "commander_independent": true,
+   "compactness": "extended_4_plus",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/mishra-eminent-one.json#commander_role",
+    "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups",
+    "spellbook:1020-2866-4659-4908"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal."
+   ]
+  }
+ ],
+ "canonical_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+ "deck_id": "Mishra__Eminent_One",
+ "materiality_policy": {
+  "material_fields": [
+   "commander_role",
+   "dependency_level",
+   "power",
+   "anti_goals",
+   "packages",
+   "requirements",
+   "win_conditions",
+   "construction_rules"
+  ],
+  "rule": "Classification-only overlays do not reopen M2. Any proposed correction touching a material field requires targeted Cory review/reopen before application; downstream artifacts regenerate either way."
+ },
+ "schema_version": 1,
+ "slug": "mishra-eminent-one",
+ "status": "provisional_overlay",
+ "summary": {
+  "candidate_count": 4,
+  "compact_candidate_count": 2,
+  "m2_reopen_requested": false,
+  "material_blueprint_changes_proposed": 0
+ }
+}

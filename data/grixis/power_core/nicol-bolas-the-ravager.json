@@ -1,0 +1,126 @@
+{
+ "authority": {
+  "can_decide_deck": false,
+  "can_reopen_m2": false,
+  "can_rewrite_blueprint": false
+ },
+ "blueprint_version": 1,
+ "candidates": [
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Teferi, Temporal Archmage",
+    "The Chain Veil"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "787-1124",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#commander_role",
+    "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/teferi-veil",
+    "spellbook:787-1124"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Teferi, Master of Time",
+    "Ichormoon Gauntlet",
+    "The Chain Veil"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "1124-1543-2247",
+   "commander_independent": true,
+   "compactness": "compact_3",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#commander_role",
+    "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/teferi-veil",
+    "spellbook:1124-1543-2247"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Teferi, Master of Time",
+    "Ichormoon Gauntlet",
+    "Rowan's Talent"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "652-1543-2247",
+   "commander_independent": true,
+   "compactness": "compact_3",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#commander_role",
+    "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/teferi-veil",
+    "spellbook:652-1543-2247"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  }
+ ],
+ "canonical_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+ "deck_id": "Nicol_Bolas__the_Ravager",
+ "materiality_policy": {
+  "material_fields": [
+   "commander_role",
+   "dependency_level",
+   "power",
+   "anti_goals",
+   "packages",
+   "requirements",
+   "win_conditions",
+   "construction_rules"
+  ],
+  "rule": "Classification-only overlays do not reopen M2. Any proposed correction touching a material field requires targeted Cory review/reopen before application; downstream artifacts regenerate either way."
+ },
+ "schema_version": 1,
+ "slug": "nicol-bolas-the-ravager",
+ "status": "provisional_overlay",
+ "summary": {
+  "candidate_count": 3,
+  "compact_candidate_count": 3,
+  "m2_reopen_requested": false,
+  "material_blueprint_changes_proposed": 0
+ }
+}

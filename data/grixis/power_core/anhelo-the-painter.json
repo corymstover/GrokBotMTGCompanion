@@ -1,0 +1,188 @@
+{
+ "authority": {
+  "can_decide_deck": false,
+  "can_reopen_m2": false,
+  "can_rewrite_blueprint": false
+ },
+ "blueprint_version": 1,
+ "candidates": [
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Twinning Staff",
+    "Narset's Reversal"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "11-2539",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/anhelo-the-painter.json#commander_role",
+    "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/narset-reversal-loop",
+    "spellbook:11-2539"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance.",
+    "The Blueprint names external payoff/enabler cards; compactness alone therefore does not make the line self-contained."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Narset's Reversal",
+    "Reiterate"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "11-3368",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/anhelo-the-painter.json#commander_role",
+    "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/narset-reversal-loop",
+    "spellbook:11-3368"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance.",
+    "The Blueprint names external payoff/enabler cards; compactness alone therefore does not make the line self-contained."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Dualcaster Mage",
+    "Twinflame"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "147-1235",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/anhelo-the-painter.json#commander_role",
+    "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/dualcaster-twinflame",
+    "spellbook:147-1235"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Reiterate",
+    "Jeska's Will"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "1878-3368",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/anhelo-the-painter.json#commander_role",
+    "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/reiterate-mana",
+    "spellbook:1878-3368"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance.",
+    "The Blueprint names external payoff/enabler cards; compactness alone therefore does not make the line self-contained."
+   ]
+  },
+  {
+   "blueprint_win_linked": true,
+   "cards": [
+    "Reiterate",
+    "Mana Geyser"
+   ],
+   "classification": "power_core_review_candidate",
+   "combo_id": "2091-3368",
+   "commander_independent": true,
+   "compactness": "compact_2",
+   "confidence": "moderate",
+   "evidence": [
+    "blueprint:data/grixis/blueprints/anhelo-the-painter.json#commander_role",
+    "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/reiterate-mana",
+    "spellbook:2091-3368"
+   ],
+   "evidence_class": "heuristic",
+   "materiality": {
+    "current_overlay_changes_blueprint": false,
+    "m2_action": "no_reopen_for_overlay_only; targeted review required before any material application",
+    "material_fields_touched": [],
+    "proposed_blueprint_changes": []
+   },
+   "why_flagged": [
+    "Combo Quality Model links this Spellbook line to a Blueprint combo win.",
+    "Neither a commander card nor a Blueprint commander enabler is part of the linked line.",
+    "Commander-independent win packages require explicit identity scrutiny before M6, rather than automatic protection or removal.",
+    "The line is compact (three or fewer Spellbook pieces), increasing its generic-power-package relevance.",
+    "The Blueprint names external payoff/enabler cards; compactness alone therefore does not make the line self-contained."
+   ]
+  }
+ ],
+ "canonical_hash": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
+ "deck_id": "Anhelo__the_Painter",
+ "materiality_policy": {
+  "material_fields": [
+   "commander_role",
+   "dependency_level",
+   "power",
+   "anti_goals",
+   "packages",
+   "requirements",
+   "win_conditions",
+   "construction_rules"
+  ],
+  "rule": "Classification-only overlays do not reopen M2. Any proposed correction touching a material field requires targeted Cory review/reopen before application; downstream artifacts regenerate either way."
+ },
+ "schema_version": 1,
+ "slug": "anhelo-the-painter",
+ "status": "provisional_overlay",
+ "summary": {
+  "candidate_count": 5,
+  "compact_candidate_count": 5,
+  "m2_reopen_requested": false,
+  "material_blueprint_changes_proposed": 0
+ }
+}
