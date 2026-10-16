@@ -1,0 +1,170 @@
+name: Temporary Step B closure integration
+
+on:
+  push:
+    branches: [chatgpt-cycle67-4-step-b-closure]
+
+permissions:
+  contents: write
+
+jobs:
+  close-step-b:
+    if: ${{ !contains(github.event.head_commit.message, 'sync Step B closure artifacts') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      SCRYFALL_OFFLINE: "1"
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle67-4-step-b-closure
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --disable-pip-version-check pytest jsonschema
+
+      - name: Integrate Step B checks into validate_all
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('scripts/validate_all.py')
+          s = p.read_text()
+          old = '''             ("mechanics", ["scripts/grixis_mechanics.py", "--check"]),  # Bot cycle 66.1 (step E): mechanic module registry  # Bot cycle 65.1 (step A): saturation certificates  # Bot cycle 64.1 (G0): sealed benchmark corpus\n             ("unit-tests", ["scripts/run_tests.py"]),'''
+          new = '''             ("mechanics", ["scripts/grixis_mechanics.py", "--check"]),  # Step E mechanic module registry\n             ("combo-quality", ["scripts/grixis_combo_quality.py", "--check"]),  # Step B: per-line quality vectors\n             ("power-core", ["scripts/grixis_power_core.py", "--check"]),  # Step B / D5: post-M2 overlay + materiality gate\n             ("combo-line-semantics", ["scripts/grixis_combo_steps_quality.py", "--check"]),  # Step B: cached Spellbook step evidence\n             ("combo-quality-gain", ["scripts/grixis_combo_quality_gain.py", "--check"]),  # Step B acceptance criterion 9\n             ("unit-tests", ["scripts/run_tests.py"]),'''
+          if old not in s:
+              raise SystemExit('validate_all insertion point not found')
+          p.write_text(s.replace(old, new))
+          PY
+
+      - name: Update Birthday Upgrade Plan machine state and tracker
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('data/grixis/upgrade_plan.json')
+          d = json.loads(p.read_text())
+          by = {x['id']: x for x in d['steps']}
+          e = by['E']
+          extra = [
+            '66.5a attack-trigger semantic audit',
+            '66.5b graveyard-recursion semantic audit',
+            '66.6 counterspell and stack-protection readiness',
+            '66.7 X-spell capacity and alternate-cost semantics',
+            '66.8 graveyard setup and repeatable tutors',
+            '66.9 bounded opponent-dependent draw',
+            '66.10 category-specific stax/tax proxy',
+            '66.11 LED/Breach startup-resource semantics',
+            '66.12 bounded table life-loss and discard-pressure semantics',
+            '66.13 residual/judgment routing closure (no fake generic simulator for residual or commander-specific text)'
+          ]
+          for x in extra:
+              if x not in e['batches']:
+                  e['batches'].append(x)
+          e['status'] = 'code_complete_pending_local_cache_validation'
+          e['validation_gate'] = ('Full legacy mechanics coverage/examples rebuild and final real-deck/full validate_all require the frozen local Scryfall cache. '
+                                  'Code-level module/routing semantics are closed; do not mark Step E fully validated until the local gate passes.')
+          e['implemented_modules'] = [
+            'activated_engines','alternate_costs','attack_trigger_proxy','cast_triggers','counterspell_density','death_triggers',
+            'discard','graveyard_recursion','graveyard_tutoring','led_breach_sequences','life_loss','opponent_dependent_draw',
+            'repeatable_draw','repeatable_tutors','sacrifice_additional_cost','sacrifice_costs','self_recursion','stack_protection',
+            'stax_tax','token_makers','x_spells'
+          ]
+          e['routing_closure'] = {
+            'genuine_planned_module_families_remaining': 0,
+            'residual_review_families': ['death_other','sacrifice_other','tokens_other'],
+            'commander_specific_policy': 'Commander-specific hooks remain Commander-first judgment / Step D unless a bounded dedicated module exists.'
+          }
+
+          b = by['B']
+          b['batches'] = [
+            '67.1 combo-quality evidence vectors across all 62 decks',
+            '67.2 D5 power_core overlay + materiality gate',
+            '67.3 Commander Spellbook line-semantics evidence',
+            '67.4 validate_all integration + decision-quality gain proof + Step B closure'
+          ]
+          b['status'] = 'complete'
+          b['artifacts'] = [
+            'data/grixis/combo_quality/', 'data/grixis/combo_line_semantics/', 'data/grixis/power_core/',
+            'data/grixis/combo_quality/decision_quality_gain.json'
+          ]
+          b['metrics'] = {
+            'spellbook_lines': 418,
+            'infinite_lines': 369,
+            'blueprint_win_linked_lines': 349,
+            'direct_commander_piece_lines': 78,
+            'commander_independent_win_hints': 205,
+            'compact_power_core_candidates': 195,
+            'step_records': 418,
+            'declared_mana_records': 165,
+            'zone_mentions': 1148,
+            'direct_endpoint_hints': 121,
+            'strategic_priority_auto_decisions': 0
+          }
+          b['next'] = 'Step C mana-base optimizer; Step B evidence remains provisional and decision-bearing combo priority waits for judgment/M6.'
+
+          tracker = d['launch_tracker']
+          tracker['updated'] = 'ChatGPT cycle 67.4 (2026-10-16)'
+          stages = {x['id']: x for x in tracker['stages']}
+          stages['E'].update({
+            'estimated_batches': 16,
+            'batches_done': 15,
+            'status': 'code_complete_pending_local_cache_validation',
+            'note': '15 engineering batches/sub-batches complete through 66.13; reserve 1 batch-equivalent for frozen-cache coverage/examples rebuild + full local validation.'
+          })
+          stages['B'].update({
+            'estimated_batches': 4,
+            'batches_done': 4,
+            'status': 'complete',
+            'note': 'took 4 ChatGPT batches (67.1-67.4); all 62 records built, D5 overlay applied nonmaterially, line semantics + gain proof integrated.'
+          })
+          tracker['total_estimated_batches'] = sum(float(x['estimated_batches']) for x in tracker['stages'])
+          tracker['batches_done'] = sum(float(x['batches_done']) for x in tracker['stages'])
+          tracker['percent_complete'] = round(100 * tracker['batches_done'] / tracker['total_estimated_batches'], 1)
+          p.write_text(json.dumps(d, indent=2, ensure_ascii=False) + '\n')
+          print('Birthday Launch', tracker['batches_done'], '/', tracker['total_estimated_batches'], '=', tracker['percent_complete'], '%')
+          PY
+
+      - name: Update human-readable Birthday plan status
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('grixis/Grixis Birthday Upgrade Plan.md')
+          s = p.read_text()
+          old_e = '| 3 | **E** mechanic test modules (sim v1.2) | 10–14 | A | dev | Priority by `not_modelable` counts (9,040 / 25,940 swaps in the stored files; 9,044 was the cycle-61 figure, see `data/grixis/mechanics/not_modelable_reconciliation.json`). Opponent-facing parts as bounded proxies (decision 4). v1.0/v1.1 stay runnable. |'
+          new_e = '| 3 | **E** mechanic test modules (sim v1.2) | 10–14 est. (15 engineering batches/sub-batches so far) | A | dev | **Code-complete through 66.13; local frozen-cache validation still required.** 21 bounded modules; residual death/sacrifice/token wording and commander-specific hooks remain explicit judgment/not-modelable rather than fake generic simulation. v1.0/v1.1 stay runnable. |'
+          old_b = '| 4 | **B** combo quality model + `power_core` backfill overlay | 4–6 | E | dev | Backfill follows decision 5 (overlay + materiality gate). |'
+          new_b = '| 4 | **B** combo quality model + `power_core` backfill overlay | 4–6 (took 4: 67.1–67.4) | E | dev | **Complete.** 418 Spellbook lines receive quality vectors; D5 overlay flags 205 commander-independent Blueprint-win review candidates without editing accepted M2; community line semantics add mana/zone/action evidence; strategic priority remains unresolved for judgment. |'
+          if old_e not in s or old_b not in s:
+              raise SystemExit('Birthday plan table row changed unexpectedly')
+          s = s.replace(old_e, new_e).replace(old_b, new_b)
+          marker = '\n## Step B completion — ChatGPT cycles 67.1–67.4\n'
+          if marker not in s:
+              s += marker + '''\nStep B is complete as **evidence infrastructure**, not as a deck decision. Across the frozen development baseline it records 418 Commander Spellbook lines (369 marked infinite), links 349 to Blueprint combo-win conditions, identifies 78 lines with a commander as a direct piece, and flags 205 Blueprint-linked commander-independent lines for `power_core` review (195 compact 2–3 piece lines). The D5 overlay changes no accepted M2 Blueprint field and requests no M2 reopen.\n\nThe cached community Spellbook step records cover all 418 lines and add transparent declared-mana, zone-mention, action-count and endpoint-hint evidence; they are explicitly not official rules. The decision-quality gain record demonstrates that the new model distinguishes commander participation, external payoff/setup, tutor/recovery/redundancy/dead-card signals, line semantics and generic power-core risk that the old binary combo-presence layer could not express. **Zero** primary/secondary/backup/incidental/value-loop priority decisions are made automatically.\n\nStep E is code-closed through 66.13 but still waits on one local frozen-cache rebuild/full-validation gate before it is called fully validated.\n'''
+          p.write_text(s)
+          PY
+
+      - name: Build and check decision-quality gain
+        run: |
+          python scripts/grixis_combo_quality_gain.py --build
+          python scripts/grixis_combo_quality_gain.py --check
+
+      - name: Step B unit tests
+        run: python -m pytest -q tests/test_combo_quality.py tests/test_power_core.py tests/test_combo_line_semantics.py tests/test_combo_quality_gain.py
+
+      - name: Targeted validate_all Step B gate
+        run: python scripts/validate_all.py --only combo-quality,power-core,combo-line-semantics,combo-quality-gain
+
+      - name: Commit closure artifacts
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/validate_all.py data/grixis/upgrade_plan.json 'grixis/Grixis Birthday Upgrade Plan.md' data/grixis/combo_quality/decision_quality_gain.json
+          if git diff --cached --quiet; then
+            echo "Step B closure artifacts already current."
+          else
+            git commit -m "ChatGPT: sync Step B closure artifacts"
+            git push origin HEAD:chatgpt-cycle67-4-step-b-closure
+          fi
