@@ -34,6 +34,11 @@
    "checked": "2026-10-16",
    "final": "https://magic.wizards.com/en/news/feature/shadows-over-innistrad-mechanics"
   },
+  "https://gatherer.wizards.com/MBC/en-us/52/tresserhorns-lord-returned": {
+   "status": "live",
+   "http": 200,
+   "checked": "2026-10-16"
+  },
   "https://magic.wizards.com/en/articles/archive/feature/eldritch-moon-mechanics-2016-06-27": {
    "status": "redirect",
    "http": 200,

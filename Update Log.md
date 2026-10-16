@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 56 (phase 2 / M1: batch F)](#2026-10-16--bot-cycle-56-phase-2--m1-batch-f)
 - [2026-10-16 — Bot cycle 55 (M2: commander blueprints, batch 4; Norman Osborn registry id)](#2026-10-16--bot-cycle-55-m2-commander-blueprints-batch-4-norman-osborn-registry-id)
 - [2026-10-16 — Bot cycle 54 (phase 2 / M1: batch E)](#2026-10-16--bot-cycle-54-phase-2--m1-batch-e)
 - [2026-10-16 — Bot cycle 53 (M2: commander blueprints, batch 3; EDH Packages deck labels)](#2026-10-16--bot-cycle-53-m2-commander-blueprints-batch-3-edh-packages-deck-labels)
@@ -70,6 +71,35 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 56 (phase 2 / M1: batch F)
+- **Batch F is done** (the last 10 decks alphabetically, Sol'Kanar the Tainted through Zevlor): **59 rulings** (52 verified, 1 uncertain, 6 flags). Overall: **62/62 decks and 592 rulings; all 6 batches are done.** Each review hashes the deck's canonical project list from the M0 registry (read-only). The Rani uses its source baseline. Every record carries an `evidence_class` (batch F: 58 fact, 1 hypothesis). No decklist changed.
+- **Pending decks:** The Madcap Jester and Tresserhorn's Lord (Returned) were reviewed against their lists. Both stay `PENDING_RELEASE` (legal from 2026-11-13).
+- **Flags** (pilot notes, not list errors):
+  - Sol'Kanar the Tainted: cards you donate (Pact, Coil, Archfiend, Greed's Gambit) come back if the player holding them leaves the game, per CR 800.4a and the official ruling. (dependency-risk)
+  - Sol'Kanar the Tainted: the source attestation says Greed's Gambit triggers at upkeep. Its Oracle text says end step. (documentation)
+  - The Rani: Force of Will's pitch pool is 23 blue nonland cards, not the 28 claimed. (documentation)
+  - Thraximundar: Cultist of the Absolute has a mandatory upkeep sacrifice. (dependency-risk)
+  - Tresserhorn's Lord: Blasphemous Edict takes Tresserhorn unless you control 13 or more other creatures. (anti-synergy)
+  - Tresserhorn's Lord: the source says the deck is legal now. Gatherer, Wizards and Scryfall say it isn't legal until 2026-11-13. It stays pending. (documentation)
+- **Uncertain:** jester-02. If Dauthi Voidwalker replaces a mill, does that card still count for the Jester? There's no official ruling, so it's tagged `hypothesis`.
+- **Rules surprises:**
+  - Blinking Sol'Kanar the Tainted while a mode-4 trigger is waiting makes the trigger fail on the new object.
+  - Excalibur's mana value stays 12.
+  - Savage Beating's extra combat has no main phase before it, and Relentless Assault does nothing if cast during combat.
+  - Tetsuo Umezawa only needs the creature to be tapped or blocking, and only Aura spells can't target him. Bracers plus Aphetto Alchemist untap him without limit.
+  - Cards exiled face down by Jester's Scepter can be played.
+  - Any goaded creature that hits your opponents makes an investigation for The Rani.
+  - Prisoner's Dilemma isn't a vote. Splitting your extra vote turns off Grudge Keeper.
+  - Thraximundar counts as the "other Zombie" for Gravecrawler. Rooftop Storm still makes you pay commander tax.
+  - Declining Tresserhorn's enters cost still draws 1 card.
+  - Wick is the source of its damage, so with infect the damage becomes poison counters. Mana from Cavern of Souls can't pay for Wick's ability.
+  - Zevlor's errata adds "only". The copies happen even if the original spell is countered. An overloaded Rift doesn't count.
+- **Fixes:** Several CR citations were corrected against the 2026-09-25 CR before saving (for example 301.5c → 702.6a, 603.7c → 603.7b, 722.1 → 723.5). Spellbook step quotes now match the stored text exactly. The Norman Osborn review now uses the registry id `Norman_Osborn_Green_Goblin` that cycle 55 corrected (the review content is unchanged).
+- **M1 status:** reviews 62/62, hashes match canonical 62/62, citations verbatim (the checker passes), and Bjorna's review covers Trade Secrets, Yawgmoth's Bargain and Lutri. **Open:** none of the reviews emits machine-readable `edges` for M4 yet. 512 of the 518 source attestation items are cited; 6 are not yet folded in or dispositioned (Azula ×2, Gwendlyn, Inalla, Lynde, Mai and Zuko). M1 acceptance belongs to Cory.
+- **Coordination:** Bot cycle 55 (M2 blueprints batch 4, Norman's registry id) belongs to the other executor and was merged from main. This cycle didn't touch blueprints, `data/grixis/registry*`, schemas, `grixis_refine.py` or the exception data.
+- **Files:** `data/grixis_interactions/` (10 new reviews, plus the Norman id), `_batches.json` (F done), the rendered pages, deck-page Rules notes, `grixis/interactions/README.md`, `README.md`, `grixis/Grixis Integration Summary.md`, `data/kb_index.json`.
+- **Next:** the M1 gaps (review `edges`, the 6 attestation items), then Cory's M1 acceptance.
 
 ## 2026-10-16 — Bot cycle 55 (M2: commander blueprints, batch 4; Norman Osborn registry id)
 - **Batch 4: 16 decks**, Rograkh + Silas Renn … Zevlor, Elturel Exile alphabetically (Rograkh + Silas, Saruman, Sauron (Lord of the Rings), Sauron (the Dark Lord), Sedris, Sol'kanar the Swamp King, Sol'Kanar the Tainted, Tetsuo Umezawa, Tetsuo (Imperial Champion), The Madcap Jester, The Rani, The Valeyard, Thraximundar, Tresserhorn's Lord (Returned), Wick, Zevlor). **62/62 blueprints**: M2 criteria 1–3 are met; criteria 4–5 need Cory. Same standard as batches 1–3: every field carries an `evidence_class`, a `confidence` and line-numbered evidence.
