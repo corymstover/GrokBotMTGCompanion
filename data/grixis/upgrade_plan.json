@@ -191,6 +191,76 @@
           },
           "holdout": "not added: the correction was seen by the evaluated system before any item could be sealed (holdout rule 1)"
         }
+      ],
+      "audits": [
+        {
+          "batch": "66.4",
+          "kind": "semantic self-audit of the 66.3 modules (style of Cory's 66.2 death-trigger review)",
+          "lesson": "routing coverage is not correctness",
+          "sampled": "seeded (664) sample of 12 UBR-identity cards per module (cast 741, draw 530, activated 3748, tokens 1123, sac 91 matches) plus 42 probe cards: Rhystic Study, Mystic Remora, Howling Mine, Phyrexian Arena, Coveted Jewel, Psychosis Crawler, Plasma Jockey, Skeleton Key, Slith Strider, Lyra Tolarian Archangel, Storm of Saruman, Devoted Duelist, Mysidian Elder, Quicksilver Servitor, Nightmare Sower, Coralhelm Chronicler, Battlefield Thaumaturge, Indris, Kaito Shizuki, Brood Keeper, Rooftop Bypass, Syphon Flesh, Firebender Ascension, Krenko Mob Boss, Bitterblossom, Encroaching Wastes, Deadly Dispute, Demand Answers, Trash for Treasure, Village Rites, ...",
+          "defects": {
+            "cast_triggers": [
+              "D1 unknown qualifiers (kicked, from among cards put into your hand, during an opponent's turn, that targets ~) mapped to 'any'",
+              "D2 'second spell each turn' counted every spell",
+              "D3 abilities granted in quotes (Mysidian Elder) and reminder text (prowess) matched as the card's own",
+              "D4 opponent/any-player cast triggers had no not_modelable reason",
+              "D5 'whenever you cast your commander' unhandled",
+              "D6 'an instant or sorcery spell' qualifier mis-parsed (found while fixing)"
+            ],
+            "repeatable_draw": [
+              "D7 'other' rule (combat damage, becomes blocked, ...) matched but counted 0",
+              "D8 reminder text (Blitz) counted as death draw",
+              "D9 subject unchecked: 'that player/target player draws' counted as yours; Rhystic-style 'unless ... pays' counted as full draw",
+              "D10 'whenever you draw' / 'would draw' counted as draw; loots counted as +1",
+              "D11 intervening-if (Lyra) treated as unconditional",
+              "D21 'each upkeep/end step' not x4"
+            ],
+            "activated_engines": [
+              "D12 'Sacrifice this artifact/land' one-shots not excluded",
+              "D13 {T} cost on a mana source did not forgo that mana",
+              "D14 hand costs (discard ~, channel) and planeswalker loyalty counted as engines"
+            ],
+            "token_makers": [
+              "D15 type_line not used (planeswalker loyalty counted)",
+              "D16 variable counts (for each/X) counted as 1",
+              "D17 intervening-if and non-ETB/attack/upkeep triggers (Brood Keeper, Rooftop Bypass) classified as 'spell'",
+              "D18 attack makers not modelled per attack"
+            ],
+            "sacrifice_additional_cost": [
+              "D19 artifact / artifact-or-creature / land fodder and 'or discard a card' alternatives treated as creature fodder only"
+            ]
+          },
+          "fixes": "semantics.py (clean: name->~, quoted granted abilities and reminder text removed; sentence split; intervening-if); engines.cast_parse/draw_parse/act_cost/sac_parse; events.token_parse with type_line; every non-match that looks like the mechanic returns a not_modelable reason (why_not); module versions bumped to 2; 4 new negative/edge-case tests",
+          "figures": {
+            "old": {
+              "routed": 6775,
+              "routed_share": 0.7494,
+              "planned": 1732,
+              "not_modelable": 533,
+              "cast_triggers": 1270,
+              "repeatable_draw": 2825,
+              "activated_engines": 1745,
+              "token_makers": 1964,
+              "sacrifice_additional_cost": 65
+            },
+            "new": {
+              "routed": 4353,
+              "routed_share": 0.4815,
+              "planned": 4048,
+              "not_modelable": 639,
+              "cast_triggers": 792,
+              "repeatable_draw": 283,
+              "activated_engines": 1483,
+              "token_makers": 535,
+              "sacrifice_additional_cost": 109
+            }
+          },
+          "not_done": [
+            "sacrifice_other (1,228 broad matches) bucket classification",
+            "per-module not_modelable reason tallies in the coverage file",
+            "graveyard_tutoring / repeatable_tutors / stack modules"
+          ]
+        }
       ]
     },
     {
@@ -416,7 +486,7 @@
   ],
   "m5_candidate_files": "capped legacy, superseded at M5 regeneration",
   "launch_tracker": {
-    "updated": "Bot cycle 66.3 (2026-10-16)",
+    "updated": "Bot cycle 66.4 (2026-10-16)",
     "definition_of_100_percent": "all prerequisite infrastructure finished and validated, M5 accepted on the fresh Birthday snapshot, I/J and K complete, M6 cleared to begin (M6 itself excluded)",
     "weighting": "batch-weighted: estimated batches per stage = midpoint of the plan range (completed stages count their actual batches); percent = done / total",
     "stages": [
@@ -437,9 +507,9 @@
       {
         "id": "E",
         "estimated_batches": 12,
-        "batches_done": 4,
+        "batches_done": 5,
         "status": "in_progress",
-        "note": "est 10-14; done 66.1, 66.2, 66.2a, 66.3 (incl. 66.3b lock)"
+        "note": "est 10-14; done 66.1, 66.2, 66.2a, 66.3 (incl. 66.3b lock), 66.4 (semantic self-audit)"
       },
       {
         "id": "B",
@@ -513,7 +583,7 @@
       }
     ],
     "total_estimated_batches": 58.5,
-    "batches_done": 11,
-    "percent_complete": 18.8
+    "batches_done": 12,
+    "percent_complete": 20.5
   }
 }

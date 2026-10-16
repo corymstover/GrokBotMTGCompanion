@@ -199,3 +199,75 @@ def test_death_events_count_tokens():
     assert death_triggers.side([(None, tr)], "W", [dict(an, nontoken=True)], ctx, 6, (0.0, 6, False)) == 0.0
     pr = deaths.profile(tr, {"W"}, set(), set(), set(), 0.0, 6, False)
     assert pr[5]["gy_creatures"] == 1.0  # only W reaches the graveyard; tokens cease to exist
+
+
+# ---------------------------------------------------------------- Bot cycle 66.4 semantic self-audit (negative / edge cases)
+def test_664_cast_trigger_semantics():
+    from grixis_mech import engines as E
+    P = E.cast_parse
+    assert P("X", "Whenever you cast a noncreature spell, create a 1/1 token.")[0]["kinds"] == ("noncreature",)
+    assert P("X", "Whenever you cast an instant or sorcery spell, draw a card.")[0]["kinds"] == ("instant", "sorcery")
+    f = P("X", "Whenever you cast your second spell each turn, draw a card.")[0]
+    assert f["ordinal"] == 2
+    assert P("X", "Whenever you cast your commander, draw a card.")[0]["commander"]
+    for t in ("Whenever an opponent casts a spell, you may draw a card.", "Whenever a player casts a spell, X deals 1 damage."):
+        f, why = P("X", t)
+        assert f is None and "opponent" in why
+    for t in ("Whenever you cast a kicked spell, draw a card.", "Whenever you cast a spell during an opponent's turn, mill two.",
+              "Whenever you cast a spell that targets X, scry 1."):
+        f, why = P("X", t)
+        assert f is None and why.startswith("unrecognised")
+    # copies are not casts; granted quoted abilities and reminder text are not the card's own
+    assert P("X", "Whenever you copy a spell, draw a card.") == (None, None)
+    assert P("X", 'When X enters, create a token with "Whenever you cast a spell, scry 1."')[0] is None
+    assert P("X", "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)")[0] is None
+    assert P("X", "Whenever you cast a spell, if it's your turn, draw a card.")[0] is None
+
+
+def test_664_repeatable_draw_semantics():
+    from grixis_mech import engines as E
+    D = E.draw_parse
+    assert D("X", "At the beginning of your upkeep, you draw a card and you lose 1 life.")[:2] == ("upkeep", 1)
+    assert D("X", "At the beginning of each end step, draw a card.")[:2] == ("upkeep", 4)
+    assert D("X", "Whenever you cast a noncreature spell, draw a card, then discard a card.")[:2] == ("cast", 0)  # loot = 0 net
+    r = D("X", "At the beginning of each player's draw step, that player draws an additional card.")
+    assert r[0] == "upkeep" and r[1] == 1 and r[3] == "symmetric"
+    for t, frag in (("Whenever an opponent casts a spell, you may draw a card unless that player pays {1}.", "Rhystic"),
+                    ("Whenever you draw a card, X deals 1 damage to each opponent.", "not a draw"),
+                    ("If you would draw a card, draw two cards instead.", None),
+                    ("At the beginning of your upkeep, if you control a Wizard, draw a card.", "intervening-if"),
+                    ("Whenever X deals combat damage to a player, draw a card.", "not modelled"),
+                    ("At the beginning of your upkeep, draw a card for each creature you control.", "variable"),
+                    ("At the beginning of your upkeep, target player draws a card.", "another player")):
+        rule, k, _, why = D("X", t)
+        assert rule is None, t
+        if frag:
+            assert frag in why, (t, why)
+    # reminder text (Blitz) is not a death draw
+    assert D("X", "Blitz {2}{R} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)")[0] is None
+
+
+def test_664_activated_engine_costs():
+    from grixis_mech import engines as E
+    assert E.act_cost("{2}, Sacrifice X: Draw a card.", "X") is None
+    assert E.act_cost("{1}, Sacrifice this artifact: Draw a card.", "X") is None
+    assert E.act_cost("{2}, Discard X: Search your library for a land.", "X") is None
+    assert E.act_cost("Channel \u2014 {1}{R}, Discard X: It deals 4 damage.", "X") is None
+    c = E.act_cost("{2}, {T}: Draw a card.", "X")
+    assert c["tap"] and c["mana"] == 2
+    assert not E.ActivatedEngines.matches("X", "+1: Draw a card.", "Legendary Planeswalker \u2014 X")
+
+
+def test_664_token_and_sac_semantics():
+    from grixis_mech import events as V, engines as E
+    assert V.token_rule("X", "When X enters, create a 1/1 black Rat creature token.", "Creature")[0] == "etb"
+    assert V.token_rule("X", "At the beginning of each upkeep, create a 1/1 black Faerie Rogue creature token with flying.", "Enchantment")[1] == 4
+    assert V.token_rule("X", "Whenever X attacks, create a 1/1 red Goblin creature token.", "Creature")[0] == "attack"
+    assert V.token_rule("X", "When X enters, create a Treasure token.", "Artifact")[0] is None  # not a creature token
+    assert V.token_rule("X", "Create a 1/1 Rat creature token for each creature you control.", "Sorcery")[0] is None
+    assert "loyalty" in V.token_reason("X", "+1: Create a 1/1 Ninja creature token.", "Legendary Planeswalker \u2014 X")
+    assert "intervening-if" in V.token_reason("X", "Whenever X attacks, if you control a Dragon, create a 4/4 Dragon creature token.", "Creature")
+    assert E.sac_parse("X", "As an additional cost to cast this spell, sacrifice an artifact.")[0] == ("spell_cost", "artifact", False)
+    assert E.sac_parse("X", "As an additional cost to cast this spell, sacrifice an artifact or discard a card.")[0] == ("spell_cost", "artifact", True)
+    assert E.sac_parse("X", "As an additional cost to cast this spell, sacrifice an artifact or creature.")[0][1] == "artifact_or_creature"
+    assert E.sac_parse("X", "As an additional cost to cast this spell, sacrifice a creature.")[0] == ("spell_cost", "creature", False)
