@@ -1,0 +1,42 @@
+name: Verify The Rani targeted approval candidate once
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/verify-parnesse-targeted-v2-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build exact The Rani whole-list decision ledger
+        run: python scripts/build_rani_decision_ledger.py
+      - name: Targeted current Oracle refresh for The Rani candidate
+        run: python scripts/augment_rani_candidate_oracle_cache.py
+      - name: Verify exact The Rani approval candidate
+        run: python scripts/verify_rani_approval_candidate_once.py
+      - name: Commit approval-ready evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add refinement/metadata_audit/Current_Cycle_Oracle_Cache.jsonl \
+                  refinement/metadata_audit/Current_Cycle_Oracle_Cache_Summary.json \
+                  refinement/verification/The_Rani_Whole_List_Audit_2026-10-15.md \
+                  refinement/decisions/The_Rani_Whole_List_Decision_Ledger_2026-10-15.csv \
+                  refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md \
+                  refinement/verification/The_Rani_Approval_Ready_Verification_2026-10-15.md \
+                  refinement/verification/the_rani_2026-10-15/gate_output
+          git commit -m "Verify The Rani approval-ready candidate [skip ci]"
+          git push origin HEAD:main

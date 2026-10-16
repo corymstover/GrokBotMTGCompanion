@@ -1,0 +1,23 @@
+{
+  "generated_at_utc": "2026-10-14T23:56:03.597355+00:00",
+  "deck_id": "Kefka__Court_Mage",
+  "decklist_path": "refinement/decklists/Kefka_Court_Mage_Approval_Candidate_2026-10-14.txt",
+  "deck_sha256": "cd36192fedda7a4f54570fb8b8e4605147b40f9254e6985729097fc998f17b03",
+  "baseline_path": "refinement/decklists/Kefka_Court_Mage_Current_Cycle_Baseline_2026-10-14.txt",
+  "baseline_source_sha256": "46c0446a51d7f915030c6e1f593f76143a1c41d70f1297c7b9680563471321b8",
+  "count": 100,
+  "distinct_names": 100,
+  "commander_color_identity": [
+    "B",
+    "R",
+    "U"
+  ],
+  "cache_generated_at_utc": "2026-10-14T23:51:45.458185+00:00",
+  "cache_sha256": "44a424ccb07ab443c54796e6eaa4c0a159f9cf4db0d75d3289a30f88a90ee2e6",
+  "project_exceptions": [],
+  "rules_gate": "PASS",
+  "official_legality_gate": "PASS",
+  "errors": [],
+  "overall_result": "APPROVAL_READY",
+  "approval_state": "NOT_APPROVED — explicit user approval still required"
+}

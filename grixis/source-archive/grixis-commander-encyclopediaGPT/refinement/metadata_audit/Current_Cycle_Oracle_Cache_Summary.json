@@ -1,0 +1,25 @@
+{
+  "generated_at_utc": "2026-10-16T01:56:14.069907+00:00",
+  "overlay_generated_at_utc": "2026-10-16T01:56:13.745589+00:00",
+  "bulk_updated_at": "2026-10-15T21:05:43.886+00:00",
+  "decklist_file_count": 143,
+  "distinct_names_requested": 1604,
+  "records_written": 1604,
+  "overlay_hits": 1386,
+  "live_named_exact_lookups": 218,
+  "exception_names_included": [
+    "Dragon's Smile",
+    "Lutri, the Spellchaser",
+    "Nazgûl",
+    "The Madcap Jester",
+    "Trade Secrets",
+    "Tresserhorn's Lord, Returned",
+    "Yawgmoth's Bargain"
+  ],
+  "malformed_decklist_lines": [],
+  "ambiguous_overlay_entries_rechecked_live": [],
+  "unresolved": [],
+  "cache_sha256": "78fe27beefa1c0229c5fea4ff60cbee10c387aaaf8537717406ed3b80afcf769",
+  "overall_result": "PASS",
+  "design_note": "Preferred verification cache for chat/container runs. Direct Scryfall access from chat is not required when this cache is fresh and complete."
+}
