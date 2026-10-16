@@ -3,7 +3,7 @@
  "records": [
   {
    "schema_version": 1,
-   "id": "test:kefka-court-mage:goldfish:d1e002940e1334fa",
+   "id": "test:kefka-court-mage:goldfish:a76b87bceffa8d72",
    "deck_id": "Kefka__Court_Mage",
    "kind": "goldfish_mc",
    "baseline_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
@@ -11,7 +11,7 @@
    "simulator": {
     "name": "grixis_sim",
     "version": "1.0",
-    "model_sha256": "sha256:c78326fdc11a3e11a7a5e113c1e7a1fce6847ca6c046f096de16288d22061362"
+    "model_sha256": "sha256:d34115a0e77bce978e24cc1bb092ccb00f27c235f0b30fd318f1491c42f2057f"
    },
    "seed": 57,
    "paired": true,

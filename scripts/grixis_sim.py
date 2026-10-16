@@ -226,7 +226,8 @@ def card_model(c, ci):
     t = otext(c)
     d = {"name": c["name"], "mv": int(c.get("cmc") or 0), "cost": parse_cost(f0.get("mana_cost") if c.get("card_faces") else c.get("mana_cost")),
          "land": "Land" in tl, "flex_land": bool(back and "Land" in (back.get("type_line") or "") and "Land" not in tl and c.get("layout") == "modal_dfc"),
-         "permanent": not any(x in tl for x in ("Instant", "Sorcery")), "creature": "Creature" in tl, "source": None, "tapped": False}
+         "permanent": not any(x in tl for x in ("Instant", "Sorcery")), "creature": "Creature" in tl, "artifact": "Artifact" in tl,
+         "gy_text": "graveyard" in t.lower(), "source": None, "tapped": False}
     if d["land"]:
         pm = c.get("produced_mana")
         if pm:
@@ -256,6 +257,8 @@ class Deck:
         self.key_sets = key_sets or {}        # id -> set(card names)
         self.combos = combos or []            # [{id, cards}]
         self.ci = set()
+        self.engine = set()                   # combo pieces + identity-core cards (stress scenario key_engine_exiled)
+        self.gy_combo = {}                    # combo id -> any piece's Oracle text mentions a graveyard
 
     @property
     def N(self):
@@ -301,6 +304,12 @@ def load_deck(slug, R=None, text=None):
                 combos.append({"id": co["id"], "cards": list(co["cards"])})
     d = Deck(slug, cmds, lib, keys, combos)
     d.ci = ci
+    core = set()
+    if bp.exists():
+        core = {x.get("card") for x in b.get("identity_core", []) if isinstance(x, dict)} & names
+    d.engine = (core | {n for co in combos for n in co["cards"]}) - {m["name"] for m in cmds}
+    bym = {m["name"]: m for m in lib + cmds}
+    d.gy_combo = {co["id"]: any(bym[n].get("gy_text") for n in co["cards"] if n in bym) for co in combos}
     return d
 
 
@@ -356,8 +365,42 @@ def bottom(hand, k):
     return h, out
 
 
+SCENARIOS = {
+    "none": (None, "no perturbation, but scored with the scenario rules (the stress baseline)"),
+    # kind: (default T, description) — deterministic perturbations in the same engine (Authority Model, testing doctrine)
+    "commander_removed_once": (4, "the commander is removed (to the command zone) at the end of the first turn >= T it is on the battlefield"),
+    "commander_removed_twice": (4, "as once, and again at the end of the first turn after the recast that it is back on the battlefield"),
+    "graveyard_exiled": (5, "your graveyard is exiled at the end of turn T"),
+    "artifacts_wiped": (4, "every nonland artifact you control is destroyed at the end of turn T"),
+    "board_wipe": (5, "every nonland creature you control is destroyed at the end of turn T (commanders go to the command zone)"),
+    "first_key_spell_countered": (1, "the first key spell you cast (a blueprint package card, tutor target or combo piece; not the commander) is countered"),
+    "mana_screw": (3, "no land drop on turns T and T+1"),
+    "color_screw": (5, "the colour the commander needs most produces nothing coloured before turn T (those units become {C})"),
+    "key_engine_exiled": (1, "the first engine card (combo piece or identity-core card) to reach the battlefield is exiled at the end of that turn"),
+}
+
+
+def screw_colour(deck):
+    cnt = {}
+    for cm in deck.commanders:
+        for p in cm["cost"]["pips"]:
+            for x in p:
+                if x in COLORS:
+                    cnt[x] = cnt.get(x, 0) + 1
+    if not cnt:
+        for c in deck.library:
+            for p in c["cost"]["pips"]:
+                for x in p:
+                    if x in COLORS:
+                        cnt[x] = cnt.get(x, 0) + 1
+    return max(sorted(cnt), key=lambda x: cnt[x]) if cnt else None
+
+
 def play_game(deck, rng, turns=MAX_TURNS, multiplayer=True, skip_first_draw=False, mulligan=True, perm=None, scenario=None):
-    """One goldfish game. `perm` (a permutation of library indices) overrides the rng shuffle (paired seeds)."""
+    """One goldfish game. `perm` (a permutation of library indices) overrides the rng shuffle (paired seeds).
+    `scenario`: None or {"kind": one of SCENARIOS, "T": turn} (Bot cycle 57.4)."""
+    sk = scenario["kind"] if scenario else None
+    sT = (scenario.get("T") or SCENARIOS[sk][0]) if scenario else None
     lib_idx = perm if perm is not None else rng.sample(range(deck.N), deck.N)
     lib = [deck.library[i] for i in lib_idx]
     mulls, counted = 0, 0
@@ -375,11 +418,20 @@ def play_game(deck, rng, turns=MAX_TURNS, multiplayer=True, skip_first_draw=Fals
     library = rest + bot
     seen = {c["name"] for c in hand} | {c["name"] for c in deck.commanders}
     first_seen = {c["name"]: 0 for c in hand}
-    battlefield, cmd_zone = [], list(deck.commanders)
+    battlefield, cmd_zone, graveyard, exile = [], list(deck.commanders), [], []
     cmd_casts = {c["name"]: 0 for c in deck.commanders}
+    cmdn = {c["name"] for c in deck.commanders}
     rec = {"mulligans": mulls, "kept": len(hand), "lands": [], "mana": [], "spent": [], "commander_turn": None,
            "key_turn": {k: (0 if s & seen else None) for k, s in deck.key_sets.items()}, "combo_turn": None, "win_turn_proxy": None}
+    if scenario:
+        rec.update({"cmd_bf": [], "removals": [], "recasts": [], "event_turn": None})
     hold = {n for co in deck.combos for n in co["cards"]}
+    key_spells = (set().union(*deck.key_sets.values()) if deck.key_sets else set()) | hold
+    key_spells -= cmdn
+    engine = getattr(deck, "engine", set()) - cmdn
+    gy_combo = getattr(deck, "gy_combo", {})
+    bad_colour = screw_colour(deck) if sk == "color_screw" else None
+    countered = False
     lands_played = 0
     for t in range(1, turns + 1):
         if not (t == 1 and skip_first_draw) and library:
@@ -393,7 +445,7 @@ def play_game(deck, rng, turns=MAX_TURNS, multiplayer=True, skip_first_draw=Fals
             p["_sick"] = False
         # land drop
         lands = [c for c in hand if c["land"] or c.get("flex_land")]
-        if lands:
+        if lands and not (sk == "mana_screw" and sT <= t <= sT + 1):
             have = set().union(*[set(p["_src"][0]) for p in battlefield if p.get("_src")]) if battlefield else set()
             want = set()
             for c in hand + cmd_zone:
@@ -415,12 +467,18 @@ def play_game(deck, rng, turns=MAX_TURNS, multiplayer=True, skip_first_draw=Fals
             lands_played += 1
 
         floating = []  # unspent mana from sources tapped this turn (a Sol Ring tapped for one spell keeps its 2nd {C})
+        screw_now = bad_colour is not None and t < sT
+
+        def ucol(cols):
+            if screw_now and bad_colour in cols:
+                cols = frozenset(x for x in cols if x != bad_colour) or frozenset("C")
+            return cols
 
         def units():
             u = [(None, f) for f in floating]
             for p in battlefield:
                 if p.get("_src") and not p["_tapped"] and not (p["_sick"] and p["card"]["creature"]):
-                    u += [(p, p["_src"][0])] * p["_src"][1]
+                    u += [(p, ucol(p["_src"][0]))] * p["_src"][1]
             return u
 
         avail = len(units())
@@ -441,9 +499,23 @@ def play_game(deck, rng, turns=MAX_TURNS, multiplayer=True, skip_first_draw=Fals
             for p in tapped.values():
                 p["_tapped"] = True
                 k = sum(1 for i in idx if us[i][0] is p)
-                newf += [p["_src"][0]] * (p["_src"][1] - k)
+                newf += [ucol(p["_src"][0])] * (p["_src"][1] - k)
             floating = newf
             spent += len(idx)
+            return True
+
+        def resolve(c):
+            """A cast spell resolves (or is countered by the scenario). Returns False when countered."""
+            nonlocal countered
+            if sk == "first_key_spell_countered" and not countered and c["name"] in key_spells:
+                countered = True
+                graveyard.append(c)
+                rec["event_turn"] = t
+                return False
+            if c["permanent"]:
+                battlefield.append({"card": c, "_src": c["source"], "_tapped": False, "_sick": True})
+            else:
+                graveyard.append(c)
             return True
 
         progress = True
@@ -457,12 +529,14 @@ def play_game(deck, rng, turns=MAX_TURNS, multiplayer=True, skip_first_draw=Fals
                     battlefield.append({"card": cm, "_src": cm["source"], "_tapped": False, "_sick": True})
                     if rec["commander_turn"] is None:
                         rec["commander_turn"] = t
+                    if scenario and rec["removals"] and len(rec["recasts"]) < len(rec["removals"]):
+                        rec["recasts"].append(t)
                     progress = True
             srcs = sorted([c for c in hand if not c["land"] and c["source"] and c["permanent"]], key=lambda c: (c["mv"], c["name"]))
             for c in srcs:
                 if cast(c):
                     hand.remove(c)
-                    battlefield.append({"card": c, "_src": c["source"], "_tapped": False, "_sick": True})
+                    resolve(c)
                     progress = True
                     break
             if progress:
@@ -472,8 +546,7 @@ def play_game(deck, rng, turns=MAX_TURNS, multiplayer=True, skip_first_draw=Fals
             for c in others:
                 if cast(c):
                     hand.remove(c)
-                    if c["permanent"]:
-                        battlefield.append({"card": c, "_src": c["source"], "_tapped": False, "_sick": True})
+                    resolve(c)
                     progress = True
                     break
         rec["lands"].append(lands_played)
@@ -484,9 +557,15 @@ def play_game(deck, rng, turns=MAX_TURNS, multiplayer=True, skip_first_draw=Fals
                 rec["key_turn"][k] = t
         if deck.combos and rec["win_turn_proxy"] is None:
             onbf = {p["card"]["name"] for p in battlefield}
-            cmdn = {c["name"] for c in deck.commanders}
+            if scenario:
+                live = {c["name"] for c in hand} | onbf | {c["name"] for c in cmd_zone}
+                gyn = {c["name"] for c in graveyard}
             for co in deck.combos:
-                if all(n in seen for n in co["cards"]):
+                if scenario:
+                    ok = all(n in live or (gy_combo.get(co["id"]) and n in gyn) for n in co["cards"])
+                else:
+                    ok = all(n in seen for n in co["cards"])
+                if ok:
                     if rec["combo_turn"] is None:
                         rec["combo_turn"] = t
                     need = 0
@@ -498,6 +577,37 @@ def play_game(deck, rng, turns=MAX_TURNS, multiplayer=True, skip_first_draw=Fals
                     if avail >= need:
                         rec["win_turn_proxy"] = t
                         break
+        # end step: scenario events
+        if scenario:
+            if sk in ("commander_removed_once", "commander_removed_twice"):
+                limit = 1 if sk == "commander_removed_once" else 2
+                on = [p for p in battlefield if p["card"]["name"] in cmdn]
+                if on and t >= sT and len(rec["removals"]) < limit and len(rec["recasts"]) == len(rec["removals"]):
+                    battlefield.remove(on[0])
+                    cmd_zone.append(on[0]["card"])
+                    rec["removals"].append(t)
+                    rec["event_turn"] = rec["event_turn"] or t
+            elif sk in ("board_wipe", "artifacts_wiped") and t == sT:
+                hit = [p for p in battlefield if not p["card"]["land"] and (p["card"]["creature"] if sk == "board_wipe" else p["card"].get("artifact"))]
+                for p in hit:
+                    battlefield.remove(p)
+                    if p["card"]["name"] in cmdn:
+                        cmd_zone.append(p["card"])
+                        rec["removals"].append(t)
+                    else:
+                        graveyard.append(p["card"])
+                rec["event_turn"] = t
+            elif sk == "graveyard_exiled" and t == sT:
+                exile += graveyard
+                graveyard.clear()
+                rec["event_turn"] = t
+            elif sk == "key_engine_exiled" and rec["event_turn"] is None:
+                hit = [p for p in battlefield if p["card"]["name"] in engine]
+                if hit:
+                    battlefield.remove(hit[0])
+                    exile.append(hit[0]["card"])
+                    rec["event_turn"] = t
+            rec["cmd_bf"].append(any(p["card"]["name"] in cmdn for p in battlefield))
     rec["first_seen"] = first_seen
     return rec
 
