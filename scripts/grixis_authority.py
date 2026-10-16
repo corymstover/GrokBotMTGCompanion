@@ -417,6 +417,14 @@ def projection_text(deck_id, canonical_text, proj=None):
     return "\n".join(out) + "\n"
 
 
+def challenger_base(deck_id, canonical_text, proj=None):
+    """(text, base) the GrokBot v1 challenger swaps apply to. Bjorna's cycle 39 challenger was computed on the Bot
+    cycle 16 legal list, which since Bot cycle 47 is the derived compliance projection; every other deck uses its
+    canonical project list. Keeps v1 reproducible and the exported challenger byte-identical."""
+    pt = projection_text(deck_id, canonical_text, proj)
+    return (pt, "official_legal_projection") if pt else (canonical_text, "canonical_project_list")
+
+
 def oracle_cards():
     import ingest_scryfall as ing
     cards, bulk = ing.get_bulk(ing.DEFAULT_CACHE, None)
@@ -559,9 +567,10 @@ def build_registry(R=None):
         e = (plans["decks"].get(did) or {})
         chal = []
         if e.get("swaps"):
-            ct = gr.apply_swaps(canon, e["swaps"])
+            bt, base = challenger_base(did, canon, proj)
+            ct = gr.apply_swaps(bt, e["swaps"])
             chal.append({"id": f"chal:{slug}:grokbot-v1", "label": CHALLENGER_LABEL, "origin": "GrokBot refinement, Bot cycles 39-44 (data/grixis_refine_batches.json)",
-                         "engine": "grixis_refine v1", "state": "CHALLENGER", "hash": text_hash(ct, R),
+                         "engine": "grixis_refine v1", "state": "CHALLENGER", "base": base, "hash": text_hash(ct, R),
                          "export_path": f"exports/grixis-archidekt/{slug}.txt", "swaps": [{"cut": w["cut"], "add": w["add"], "cycle": w["cycle"]} for w in e["swaps"]]})
             verdict = f"v1 produced a challenger ({len(e['swaps'])} swap(s)); evidence only, not approved"
         elif e:
@@ -588,7 +597,7 @@ def build_registry(R=None):
             "source": {"repository": SOURCE_REPO, "commit": sha, "path": v["source_path"], "raw_sha256": raw_hash(raw),
                        "recorded_sha256": rec, "recorded_matches_raw": (None if not rec else ("sha256:" + rec) == raw_hash(raw))},
             "canonical_project_list": {"hash": ch, "path": f"grixis/decks/{slug}.md#decklist-archidekt-import",
-                                       "companion": next((n for z, o_, q, n in ce if z == "companion"), None), "export": f"exports/grixis-archidekt/" + (f"source-baseline/{slug}.txt" if chal else f"{slug}.txt")},
+                                       "companion": next((n for z, o_, q, n in ce if z == "companion"), None), "export": f"exports/grixis-archidekt/" + (f"source-baseline/{slug}.txt" if chal or pj else f"{slug}.txt")},
             "current_canonical_hash": ch, "canonical_differs_from_source": diff,
             "supersedes_hash": o.get("supersedes_hash"),
             "official_commander_compliance": comp, "project_authorization_status": auth,

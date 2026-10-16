@@ -149,6 +149,20 @@
        ],
        "additionalProperties": false
       }
+     },
+     "verdict": {
+      "type": "string",
+      "description": "Never 'at ceiling' and never 'final'. 'no candidate' is not evidence of a ceiling."
+     },
+     "hard_constraints": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      },
+      "description": "Explicit project/user constraints (the only vetoes): registered project exceptions, commanders, lands not analyzed."
+     },
+     "objective": {
+      "type": "string"
      }
     },
     "required": [
@@ -158,10 +172,33 @@
      "state",
      "edhrec",
      "weakest_slots",
-     "recommendations"
+     "recommendations",
+     "verdict",
+     "hard_constraints",
+     "objective"
     ],
     "additionalProperties": false
    }
+  },
+  "m6_gate": {
+   "type": "object",
+   "properties": {
+    "M2": {
+     "type": "string"
+    },
+    "M4": {
+     "type": "string"
+    },
+    "open": {
+     "type": "boolean"
+    }
+   },
+   "required": [
+    "M2",
+    "M4",
+    "open"
+   ],
+   "additionalProperties": false
   }
  },
  "required": [
@@ -171,7 +208,8 @@
   "exploratory",
   "generated",
   "lift_check",
-  "decks"
+  "decks",
+  "m6_gate"
  ],
  "additionalProperties": false
 }

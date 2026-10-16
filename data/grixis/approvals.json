@@ -1,0 +1,5 @@
+{
+ "_doc": "Human approval records (Bot cycle 47+). The ONLY path for a deck to reach APPROVED or CANONICAL_LOCKED: each record names the exact canonical list hash (lh1), the decision, the human approver (registry.human_approvers) and the instruction that carries the sign-off. No record exists until Cory explicitly approves a list. Schema: data/grixis/schemas/approval.schema.json.",
+ "schema_version": 1,
+ "records": []
+}

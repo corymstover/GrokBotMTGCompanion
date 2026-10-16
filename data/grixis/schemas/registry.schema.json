@@ -439,6 +439,13 @@
           ],
           "additionalProperties": false
          }
+        },
+        "base": {
+         "enum": [
+          "canonical_project_list",
+          "official_legal_projection"
+         ],
+         "description": "Which list the challenger's swaps apply to. Bjorna's cycle 39 challenger was computed on the Bot cycle 16 legal list, which is now the derived compliance projection."
         }
        },
        "required": [
@@ -449,7 +456,8 @@
         "state",
         "hash",
         "export_path",
-        "swaps"
+        "swaps",
+        "base"
        ],
        "additionalProperties": false
       }

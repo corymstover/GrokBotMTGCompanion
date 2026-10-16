@@ -66,7 +66,7 @@
     "project_status": "INTENTIONAL — ACCEPTED",
     "project_rule": "User explicitly permits Trade Secrets in this project deck. Preserve unless the user requests a change."
    },
-   "in_canonical_project_list": false,
+   "in_canonical_project_list": true,
    "verification": {
     "status": "verified",
     "notes": [
@@ -97,7 +97,7 @@
     "project_status": "INTENTIONAL — ACCEPTED",
     "project_rule": "User explicitly permits Yawgmoth's Bargain in this project deck. Preserve unless the user requests a change."
    },
-   "in_canonical_project_list": false,
+   "in_canonical_project_list": true,
    "verification": {
     "status": "verified",
     "notes": [
@@ -199,7 +199,7 @@
      "Scryfall oracle bulk 2026-10-15: legalities.commander = not_legal."
     ]
    },
-   "render_label": "⏳ authorized future release, NOT Commander-legal yet: not Commander-legal yet (legal from 2026-11-13)"
+   "render_label": "⏳ authorized future release, NOT Commander-legal yet (legal from 2026-11-13)"
   },
   {
    "id": "exc:the-madcap-jester:dragon-s-smile",
@@ -229,7 +229,7 @@
      "Scryfall oracle bulk 2026-10-15: legalities.commander = not_legal."
     ]
    },
-   "render_label": "⏳ authorized future release, NOT Commander-legal yet: not Commander-legal yet (legal from 2026-11-13)"
+   "render_label": "⏳ authorized future release, NOT Commander-legal yet (legal from 2026-11-13)"
   },
   {
    "id": "exc:tresserhorns-lord-returned:tresserhorn-s-lord-returned",
@@ -260,7 +260,7 @@
      "Correction: the source's 2026-10-15 approval record reports 'current official Commander legality PASS, no project exception required'. That is wrong today: the card is not_legal until 2026-11-13. Its own registry row (future-release commander) is the correct classification."
     ]
    },
-   "render_label": "⏳ authorized future release, NOT Commander-legal yet: not Commander-legal yet (legal from 2026-11-13)"
+   "render_label": "⏳ authorized future release, NOT Commander-legal yet (legal from 2026-11-13)"
   }
  ]
 }

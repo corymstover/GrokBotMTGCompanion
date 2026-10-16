@@ -1,4 +1,4 @@
-===== 01/62 — Abaddon the Despoiler — refined =====
+===== 01/62 — Abaddon the Despoiler — GrokBot challenger (unapproved) · CHALLENGER =====
 1 Abaddon the Despoiler [Commander]
 1 Ancestral Vision
 1 Ancient Tomb
@@ -94,7 +94,7 @@
 1 Windfall
 1 Xander's Lounge
 
-===== 02/62 — Admiral Beckett Brass — unchanged (at/near ceiling) =====
+===== 02/62 — Admiral Beckett Brass — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Admiral Beckett Brass [Commander]
 1 Admiral Brass, Unsinkable
 1 Ancient Tomb
@@ -193,7 +193,7 @@
 1 Zara, Renegade Recruiter
 1 Zephyr Singer
 
-===== 03/62 — Admiral Brass, Unsinkable — unchanged (at/near ceiling) =====
+===== 03/62 — Admiral Brass, Unsinkable — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Admiral Brass, Unsinkable [Commander]
 1 Admiral Beckett Brass
 1 Amphin Mutineer
@@ -292,7 +292,7 @@
 1 Xander's Lounge
 1 Zara, Renegade Recruiter
 
-===== 04/62 — Anhelo, the Painter — unchanged (at/near ceiling) =====
+===== 04/62 — Anhelo, the Painter — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Anhelo, the Painter [Commander]
 1 A Little Chat
 1 An Offer You Can't Refuse
@@ -388,7 +388,7 @@
 1 Watery Grave
 1 Xander's Lounge
 
-===== 05/62 — Ashad, the Lone Cyberman — unchanged (at/near ceiling) =====
+===== 05/62 — Ashad, the Lone Cyberman — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Ashad, the Lone Cyberman [Commander]
 1 Academy Ruins
 1 Arcane Denial
@@ -485,7 +485,7 @@
 1 Wurmcoil Engine
 1 Xander's Lounge
 
-===== 06/62 — Ashnod the Uncaring — unchanged (at/near ceiling) =====
+===== 06/62 — Ashnod the Uncaring — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Ashnod the Uncaring [Commander]
 1 Academy Ruins
 1 Altar of Dementia
@@ -582,7 +582,7 @@
 1 Wayfarer's Bauble
 1 Xander's Lounge
 
-===== 07/62 — Be'lakor, the Dark Master — unchanged (at/near ceiling) =====
+===== 07/62 — Be'lakor, the Dark Master — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Be'lakor, the Dark Master [Commander]
 1 Abyssal Harvester
 1 Ancient Cellarspawn
@@ -678,7 +678,7 @@
 1 Whip of Erebos
 1 Xander's Lounge
 
-===== 08/62 — Bjorna, Nightfall Alchemist + Cecily, Haunted Mage — unchanged (at/near ceiling) =====
+===== 08/62 — Bjorna, Nightfall Alchemist + Cecily, Haunted Mage — derived compliance projection (not canonical) · SOURCE_BASELINE =====
 1 Bjorna, Nightfall Alchemist [Commander]
 1 Cecily, Haunted Mage [Commander]
 1 Academy Manufactor
@@ -711,6 +711,7 @@
 1 Fabled Passage
 1 Feed the Swarm
 1 Fierce Guardianship
+1 Flame of Anor
 1 Frantic Search
 1 Goblin Electromancer
 1 Goblin Engineer
@@ -765,7 +766,6 @@
 1 Third Path Iconoclast
 1 Thought Vessel
 1 Toxic Deluge
-1 Trade Secrets
 1 Training Center
 1 Triskaidekaphile
 1 Underground River
@@ -776,10 +776,10 @@
 1 Wheel of Misfortune
 1 Whispering Madness
 1 Windfall
+1 Wizard Class
 1 Xander's Lounge
-1 Yawgmoth's Bargain
 
-===== 09/62 — Cormela, Glamour Thief — unchanged (at/near ceiling) =====
+===== 09/62 — Cormela, Glamour Thief — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Cormela, Glamour Thief [Commander]
 1 Ad Nauseam
 1 An Offer You Can't Refuse
@@ -881,7 +881,7 @@
 1 Wishclaw Talisman
 1 Wooded Foothills
 
-===== 10/62 — Crosis, the Purger — unchanged (at/near ceiling) =====
+===== 10/62 — Crosis, the Purger — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Crosis, the Purger [Commander]
 1 Ancient Tomb
 1 Arcane Signet
@@ -975,7 +975,7 @@
 1 Windfall
 1 Xander's Lounge
 
-===== 11/62 — Cult of Skaro — unchanged (at/near ceiling) =====
+===== 11/62 — Cult of Skaro — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Cult of Skaro [Commander]
 1 Academy Ruins
 1 Adaptive Omnitool
@@ -1071,7 +1071,7 @@
 1 Watery Grave
 1 Xander's Lounge
 
-===== 12/62 — Davros, Dalek Creator — unchanged (at/near ceiling) =====
+===== 12/62 — Davros, Dalek Creator — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Davros, Dalek Creator [Commander]
 1 Ancient Tomb
 1 Arcane Signet
@@ -1168,7 +1168,7 @@
 1 Wound Reflection
 1 Xander's Lounge
 
-===== 13/62 — Doctor Doom, King of Latveria — unchanged (at/near ceiling) =====
+===== 13/62 — Doctor Doom, King of Latveria — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Doctor Doom, King of Latveria [Commander]
 1 Ancient Tomb
 1 Arcane Signet
@@ -1270,7 +1270,7 @@
 1 Windfall
 1 Xander's Lounge
 
-===== 14/62 — Don Andres, the Renegade — unchanged (at/near ceiling) =====
+===== 14/62 — Don Andres, the Renegade — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Don Andres, the Renegade [Commander]
 1 Admiral Beckett Brass
 1 Ancient Tomb
@@ -1371,7 +1371,7 @@
 1 Xander's Lounge
 1 You Find Some Prisoners
 
-===== 15/62 — Dr. Eggman — unchanged (at/near ceiling) =====
+===== 15/62 — Dr. Eggman — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Dr. Eggman [Commander]
 1 Academy Ruins
 1 Ancient Tomb
@@ -1470,7 +1470,7 @@
 1 Xander's Lounge
 1 Y'shtola Rhul
 
-===== 16/62 — Edea, Possessed Sorceress — unchanged (at/near ceiling) =====
+===== 16/62 — Edea, Possessed Sorceress — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Edea, Possessed Sorceress [Commander]
 1 An Offer You Can't Refuse
 1 Ancient Tomb
@@ -1566,7 +1566,7 @@
 1 Xander's Lounge
 1 Zara, Renegade Recruiter
 
-===== 17/62 — Edward Kenway — unchanged (at/near ceiling) =====
+===== 17/62 — Edward Kenway — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Edward Kenway [Commander]
 1 Academy Manufactor
 1 Admiral Brass, Unsinkable
@@ -1666,7 +1666,7 @@
 1 Wooded Foothills
 1 Xander's Lounge
 
-===== 18/62 — Evelyn, the Covetous — unchanged (at/near ceiling) =====
+===== 18/62 — Evelyn, the Covetous — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Evelyn, the Covetous [Commander]
 1 Ad Nauseam
 1 An Offer You Can't Refuse
@@ -1768,7 +1768,7 @@
 1 Wooded Foothills
 1 Worldgorger Dragon
 
-===== 19/62 — Fire Lord Azula — unchanged (at/near ceiling) =====
+===== 19/62 — Fire Lord Azula — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Fire Lord Azula [Commander]
 1 Ad Nauseam
 1 An Offer You Can't Refuse
@@ -1870,7 +1870,7 @@
 1 Wishclaw Talisman
 1 Wooded Foothills
 
-===== 20/62 — Garza Zol, Plague Queen — unchanged (at/near ceiling) =====
+===== 20/62 — Garza Zol, Plague Queen — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Garza Zol, Plague Queen [Commander]
 1 Aggravated Assault
 1 An Offer You Can't Refuse
@@ -1972,7 +1972,7 @@
 1 Wooded Foothills
 1 Xander's Lounge
 
-===== 21/62 — Norman Osborn // Green Goblin — refined =====
+===== 21/62 — Norman Osborn // Green Goblin — GrokBot challenger (unapproved) · CHALLENGER =====
 1 Norman Osborn // Green Goblin [Commander]
 1 Ad Nauseam
 1 Ancient Tomb
@@ -2074,7 +2074,7 @@
 1 Wooded Foothills
 1 Yawgmoth's Will
 
-===== 22/62 — Goro-Goro and Satoru — unchanged (at/near ceiling) =====
+===== 22/62 — Goro-Goro and Satoru — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Goro-Goro and Satoru [Commander]
 1 Aggravated Assault
 1 An Offer You Can't Refuse
@@ -2175,7 +2175,7 @@
 1 Xander's Lounge
 1 Yuriko, the Tiger's Shadow
 
-===== 23/62 — Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools — unchanged (at/near ceiling) =====
+===== 23/62 — Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Kraum, Ludevic's Opus [Commander]
 1 Tevesh Szat, Doom of Fools [Commander]
 1 An Offer You Can't Refuse
@@ -2277,7 +2277,7 @@
 1 Wishclaw Talisman
 1 Wooded Foothills
 
-===== 24/62 — Gwendlyn Di Corci — unchanged (at/near ceiling) =====
+===== 24/62 — Gwendlyn Di Corci — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Gwendlyn Di Corci [Commander]
 1 An Offer You Can't Refuse
 1 Ancient Tomb
@@ -2373,7 +2373,7 @@
 1 Xander's Lounge
 1 Yawgmoth's Will
 
-===== 25/62 — Inalla, Archmage Ritualist — unchanged (at/near ceiling) =====
+===== 25/62 — Inalla, Archmage Ritualist — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Inalla, Archmage Ritualist [Commander]
 1 Ad Nauseam
 1 An Offer You Can't Refuse
@@ -2475,7 +2475,7 @@
 1 Wishclaw Talisman
 1 Wooded Foothills
 
-===== 26/62 — Jeleva, Nephalia's Scourge — unchanged (at/near ceiling) =====
+===== 26/62 — Jeleva, Nephalia's Scourge — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Jeleva, Nephalia's Scourge [Commander]
 1 Ad Nauseam
 1 An Offer You Can't Refuse
@@ -2577,7 +2577,7 @@
 1 Wooded Foothills
 1 Yawgmoth's Will
 
-===== 27/62 — Kefka, Court Mage // Kefka, Ruler of Ruin — refined =====
+===== 27/62 — Kefka, Court Mage // Kefka, Ruler of Ruin — GrokBot challenger (unapproved) · CHALLENGER =====
 1 Kefka, Court Mage // Kefka, Ruler of Ruin [Commander]
 1 Ad Nauseam
 1 An Offer You Can't Refuse
@@ -2679,7 +2679,7 @@
 1 Wishclaw Talisman
 1 Wooded Foothills
 
-===== 28/62 — Kess, Dissident Mage — unchanged (at/near ceiling) =====
+===== 28/62 — Kess, Dissident Mage — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Kess, Dissident Mage [Commander]
 1 Ad Nauseam
 1 An Offer You Can't Refuse
@@ -2781,7 +2781,7 @@
 1 Wishclaw Talisman
 1 Wooded Foothills
 
-===== 29/62 — Loki, the Deceiver — unchanged (at/near ceiling) =====
+===== 29/62 — Loki, the Deceiver — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Loki, the Deceiver [Commander]
 1 An Offer You Can't Refuse
 1 Arcane Signet
@@ -2878,7 +2878,7 @@
 1 Watery Grave
 1 Xander's Lounge
 
-===== 30/62 — Lord Xander, the Collector — unchanged (at/near ceiling) =====
+===== 30/62 — Lord Xander, the Collector — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Lord Xander, the Collector [Commander]
 1 Aggravated Assault
 1 Altar of Dementia
@@ -2977,7 +2977,7 @@
 1 Wheel of Fortune
 1 Xander's Lounge
 
-===== 31/62 — Lord of Tresserhorn — unchanged (at/near ceiling) =====
+===== 31/62 — Lord of Tresserhorn — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Lord of Tresserhorn [Commander]
 1 Anger
 1 Arcane Signet
@@ -3077,7 +3077,7 @@
 1 Xander's Lounge
 1 Zulaport Cutthroat
 
-===== 32/62 — Lynde, Cheerful Tormentor — unchanged (at/near ceiling) =====
+===== 32/62 — Lynde, Cheerful Tormentor — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Lynde, Cheerful Tormentor [Commander]
 1 Accursed Witch // Infectious Curse
 1 Ancient Tomb
@@ -3172,7 +3172,7 @@
 1 Withering Torment
 1 Xander's Lounge
 
-===== 33/62 — Mai and Zuko — unchanged (at/near ceiling) =====
+===== 33/62 — Mai and Zuko — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Mai and Zuko [Commander]
 1 Aetherflux Reservoir
 1 Ally Encampment
@@ -3274,7 +3274,7 @@
 1 Xander's Lounge
 1 Zuko, Firebending Master
 
-===== 34/62 — Mairsil, the Pretender — unchanged (at/near ceiling) =====
+===== 34/62 — Mairsil, the Pretender — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Mairsil, the Pretender [Commander]
 1 Aetherling
 1 An Offer You Can't Refuse
@@ -3376,7 +3376,7 @@
 1 Wishclaw Talisman
 1 Xander's Lounge
 
-===== 35/62 — Marchesa, Dealer of Death — unchanged (at/near ceiling) =====
+===== 35/62 — Marchesa, Dealer of Death — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Marchesa, Dealer of Death [Commander]
 1 Ad Nauseam
 1 An Offer You Can't Refuse
@@ -3478,7 +3478,7 @@
 1 Wan Shi Tong, Librarian
 1 Watery Grave
 
-===== 36/62 — Marchesa, the Black Rose — unchanged (at/near ceiling) =====
+===== 36/62 — Marchesa, the Black Rose — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Marchesa, the Black Rose [Commander]
 1 Agatha's Soul Cauldron
 1 Altar of Dementia
@@ -3578,7 +3578,7 @@
 1 Yawgmoth, Thran Physician
 1 Zulaport Cutthroat
 
-===== 37/62 — Mishra, Artificer Prodigy — unchanged (at/near ceiling) =====
+===== 37/62 — Mishra, Artificer Prodigy — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Mishra, Artificer Prodigy [Commander]
 1 Academy Ruins
 1 Aetherflux Reservoir
@@ -3680,7 +3680,7 @@
 1 Whir of Invention
 1 Wishclaw Talisman
 
-===== 38/62 — Mishra, Eminent One — unchanged (at/near ceiling) =====
+===== 38/62 — Mishra, Eminent One — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Mishra, Eminent One [Commander]
 1 Academy Ruins
 1 Aetherflux Reservoir
@@ -3782,7 +3782,7 @@
 1 Worldwalker Helm
 1 Xander's Lounge
 
-===== 39/62 — Missy — unchanged (at/near ceiling) =====
+===== 39/62 — Missy — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Missy [Commander]
 1 Accursed Marauder
 1 Altar of Dementia
@@ -3881,7 +3881,7 @@
 1 Xander's Lounge
 1 Zulaport Cutthroat
 
-===== 40/62 — Nathan Drake, Treasure Hunter — unchanged (at/near ceiling) =====
+===== 40/62 — Nathan Drake, Treasure Hunter — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Nathan Drake, Treasure Hunter [Commander]
 1 An Offer You Can't Refuse
 1 Ancient Tomb
@@ -3980,7 +3980,7 @@
 1 Xander's Lounge
 1 You Find Some Prisoners
 
-===== 41/62 — Nekusar, the Mindrazer — unchanged (at/near ceiling) =====
+===== 41/62 — Nekusar, the Mindrazer — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Nekusar, the Mindrazer [Commander]
 1 An Offer You Can't Refuse
 1 Ancient Tomb
@@ -4079,7 +4079,7 @@
 1 Wooded Foothills
 1 Xander's Lounge
 
-===== 42/62 — Nicol Bolas — refined =====
+===== 42/62 — Nicol Bolas — GrokBot challenger (unapproved) · CHALLENGER =====
 1 Nicol Bolas [Commander]
 1 Aggravated Assault
 1 Ancient Tomb
@@ -4180,7 +4180,7 @@
 1 Wooded Foothills
 1 Xander's Lounge
 
-===== 43/62 — Nicol Bolas, the Ravager // Nicol Bolas, the Arisen — unchanged (at/near ceiling) =====
+===== 43/62 — Nicol Bolas, the Ravager // Nicol Bolas, the Arisen — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Nicol Bolas, the Ravager // Nicol Bolas, the Arisen [Commander]
 1 An Offer You Can't Refuse
 1 Ancient Tomb
@@ -4280,7 +4280,7 @@
 1 Wooded Foothills
 1 Xander's Lounge
 
-===== 44/62 — Obeka, Brute Chronologist — unchanged (at/near ceiling) =====
+===== 44/62 — Obeka, Brute Chronologist — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Obeka, Brute Chronologist [Commander]
 1 Alchemist's Gambit
 1 Ancient Tomb
@@ -4382,7 +4382,7 @@
 1 Wooded Foothills
 1 Xander's Lounge
 
-===== 45/62 — Obeka, Splitter of Seconds — unchanged (at/near ceiling) =====
+===== 45/62 — Obeka, Splitter of Seconds — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Obeka, Splitter of Seconds [Commander]
 1 An Offer You Can't Refuse
 1 Ancestral Vision
@@ -4480,7 +4480,7 @@
 1 Wooded Foothills
 1 Xander's Lounge
 
-===== 46/62 — Parnesse, the Subtle Brush — unchanged (at/near ceiling) =====
+===== 46/62 — Parnesse, the Subtle Brush — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Parnesse, the Subtle Brush [Commander]
 1 Alania, Divergent Storm
 1 An Offer You Can't Refuse
@@ -4578,7 +4578,7 @@
 1 Xander's Lounge
 1 Zevlor, Elturel Exile
 
-===== 47/62 — Rograkh, Son of Rohgahh + Silas Renn, Seeker Adept — unchanged (at/near ceiling) =====
+===== 47/62 — Rograkh, Son of Rohgahh + Silas Renn, Seeker Adept — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Rograkh, Son of Rohgahh [Commander]
 1 Silas Renn, Seeker Adept [Commander]
 1 Ad Nauseam
@@ -4680,7 +4680,7 @@
 1 Wooded Foothills
 1 Yawgmoth's Will
 
-===== 48/62 — Saruman, the White Hand — unchanged (at/near ceiling) =====
+===== 48/62 — Saruman, the White Hand — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Saruman, the White Hand [Commander]
 1 All Will Be One
 1 Ancient Tomb
@@ -4779,7 +4779,7 @@
 1 Wizard's Staff
 1 Xander's Lounge
 
-===== 49/62 — Sauron, Lord of the Rings — unchanged (at/near ceiling) =====
+===== 49/62 — Sauron, Lord of the Rings — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Sauron, Lord of the Rings [Commander]
 1 Ancient Brass Dragon
 1 Ancient Tomb
@@ -4877,7 +4877,7 @@
 1 Wonder
 1 Xander's Lounge
 
-===== 50/62 — Sauron, the Dark Lord — unchanged (at/near ceiling) =====
+===== 50/62 — Sauron, the Dark Lord — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Sauron, the Dark Lord [Commander]
 1 Ancient Tomb
 1 Anger
@@ -4970,7 +4970,7 @@
 1 Wonder
 1 Xander's Lounge
 
-===== 51/62 — Sedris, the Traitor King — unchanged (at/near ceiling) =====
+===== 51/62 — Sedris, the Traitor King — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Sedris, the Traitor King [Commander]
 1 Ancient Tomb
 1 Animate Dead
@@ -5071,7 +5071,7 @@
 1 Windfall
 1 Xander's Lounge
 
-===== 52/62 — Sol'kanar the Swamp King — refined =====
+===== 52/62 — Sol'kanar the Swamp King — GrokBot challenger (unapproved) · CHALLENGER =====
 1 Sol'kanar the Swamp King [Commander]
 1 Aetherflux Reservoir
 1 Alhammarret's Archive
@@ -5168,7 +5168,7 @@
 1 Withering Torment
 1 Xander's Lounge
 
-===== 53/62 — Sol'Kanar the Tainted — unchanged (at/near ceiling) =====
+===== 53/62 — Sol'Kanar the Tainted — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Sol'Kanar the Tainted [Commander]
 1 Arcane Signet
 1 Archfiend of the Dross
@@ -5263,7 +5263,7 @@
 1 Xander's Lounge
 1 Xantcha, Sleeper Agent
 
-===== 54/62 — Tetsuo Umezawa — unchanged (at/near ceiling) =====
+===== 54/62 — Tetsuo Umezawa — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Tetsuo Umezawa [Commander]
 1 Aphetto Alchemist
 1 Arcane Signet
@@ -5352,7 +5352,7 @@
 1 Xander's Lounge
 1 Xantcha, Sleeper Agent
 
-===== 55/62 — Tetsuo, Imperial Champion — unchanged (at/near ceiling) =====
+===== 55/62 — Tetsuo, Imperial Champion — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Tetsuo, Imperial Champion [Commander]
 1 Academy Ruins
 1 Aggravated Assault
@@ -5445,7 +5445,7 @@
 1 World at War
 1 Xander's Lounge
 
-===== 56/62 — The Madcap Jester — ⏳ PENDING LEGALITY (not Commander-legal before 2026-11-13) · unchanged (at/near ceiling) =====
+===== 56/62 — The Madcap Jester — source baseline (canonical project list, SOURCE_BASELINE) · PENDING_RELEASE · ⏳ not Commander-legal before 2026-11-13 =====
 1 The Madcap Jester [Commander]
 1 Ancient Tomb
 1 Arcane Signet
@@ -5547,7 +5547,7 @@
 1 Wooded Foothills
 1 Xander's Lounge
 
-===== 57/62 — The Rani — refined =====
+===== 57/62 — The Rani — GrokBot challenger (unapproved) · CHALLENGER =====
 1 The Rani [Commander]
 1 Academy Manufactor
 1 Arcane Signet
@@ -5643,7 +5643,7 @@
 1 Watery Grave
 1 Xander's Lounge
 
-===== 58/62 — The Valeyard — unchanged (at/near ceiling) =====
+===== 58/62 — The Valeyard — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 The Valeyard [Commander]
 1 Arcane Denial
 1 Arcane Signet
@@ -5741,7 +5741,7 @@
 1 Wooded Foothills
 1 Xander's Lounge
 
-===== 59/62 — Thraximundar — unchanged (at/near ceiling) =====
+===== 59/62 — Thraximundar — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Thraximundar [Commander]
 1 Accursed Marauder
 1 Altar of Dementia
@@ -5836,7 +5836,7 @@
 1 Yawgmoth, Thran Physician
 1 Zulaport Cutthroat
 
-===== 60/62 — Tresserhorn's Lord, Returned — ⏳ PENDING LEGALITY (not Commander-legal before 2026-11-13) · unchanged (at/near ceiling) =====
+===== 60/62 — Tresserhorn's Lord, Returned — source baseline (canonical project list, SOURCE_BASELINE) · PENDING_RELEASE · ⏳ not Commander-legal before 2026-11-13 =====
 1 Tresserhorn's Lord, Returned [Commander]
 1 Accursed Marauder
 1 Arcane Signet
@@ -5931,7 +5931,7 @@
 1 Yawgmoth, Thran Physician
 1 Zulaport Cutthroat
 
-===== 61/62 — Wick, the Whorled Mind — unchanged (at/near ceiling) =====
+===== 61/62 — Wick, the Whorled Mind — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Wick, the Whorled Mind [Commander]
 1 Altar of Dementia
 1 An Offer You Can't Refuse
@@ -6032,7 +6032,7 @@
 1 Xander's Lounge
 1 Zulaport Cutthroat
 
-===== 62/62 — Zevlor, Elturel Exile — unchanged (at/near ceiling) =====
+===== 62/62 — Zevlor, Elturel Exile — source baseline (canonical project list, SOURCE_BASELINE) · SOURCE_BASELINE =====
 1 Zevlor, Elturel Exile [Commander]
 1 Abrade
 1 Acquire
