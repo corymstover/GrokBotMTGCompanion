@@ -97,3 +97,36 @@ def test_death_trigger_kinds_and_outlets():
 def test_no_win_rates_anywhere():
     txt = (ROOT / "data/grixis/mechanics/examples.json").read_text()
     assert "win_rate" not in txt and "win_probability" not in txt
+
+
+# ---- Bot cycle 66.3: events, cast triggers, repeatable draw, activated engines, tokens, sacrifice as a cost
+from grixis_mech import events, engines  # noqa: E402
+
+_M = {"S": {"types": ["sorcery"]}, "C": {"types": ["creature"], "creature": True}, "L": {"types": ["land"], "land": True},
+      "E": {"types": ["enchantment"], "permanent": True}}
+_TR2 = [{"turn": 1, "battlefield": ["L"], "graveyard": [], "hand": ["S", "C", "E"], "mana": 1, "spent": 0},
+        {"turn": 2, "battlefield": ["L", "E"], "graveyard": [], "hand": ["S", "C"], "mana": 2, "spent": 2},
+        {"turn": 3, "battlefield": ["L", "E", "C"], "graveyard": ["S"], "hand": [], "mana": 5, "spent": 3}]
+
+
+def test_events_casts_and_tokens():
+    assert events.casts(_TR2, _M) == [(1, []), (2, ["E"]), (3, ["C", "S"])]
+    assert events.token_rule("E", "When ~ enters, create two 1/1 black Rat creature tokens.") == ("etb", 2)
+    assert events.token_rule("E", "At the beginning of your upkeep, create a 1/1 creature token.") == ("upkeep", 1)
+    aug = events.with_tokens(_TR2, _M, {"E": ("cast", 1)})
+    assert sum(x.startswith(deaths.TOKEN) for x in aug[-1]["battlefield"]) == 2
+
+
+def test_engine_modules():
+    ctx = {"cards": {"E": {"text": "Whenever you cast a creature spell, draw a card.", "type_line": "Enchantment"}},
+           "models": _M, "creatures": {"C"}, "outlets": set(), "commanders": set()}
+    g = [(None, _TR2)]
+    assert engines.cast_count(g, "E", ctx, 3, deaths.LOWER_BOUND) == 1
+    assert engines.draw_count(g, "E", ctx, 3, deaths.LOWER_BOUND) == 1
+    assert engines.act_cost("{2}, {T}: Draw a card.") == {"mana": 2, "tap": True} and engines.act_cost("{T}: Add {B}.") is None
+    ctx["cards"]["E"] = {"text": "{2}: Scry 1.", "type_line": "Enchantment"}
+    assert engines.act_count(g, "E", ctx, 3, deaths.LOWER_BOUND) == 1  # T3: 5 - 3 >= 2 (T2: 0 left)
+    assert engines.sac_kind("F", "As an additional cost to cast this spell, sacrifice a creature.") == "spell_cost"
+    assert engines.sac_kind("F", "Sacrifice a creature: Scry 1.") is None  # a free outlet is sacrifice_costs
+    for m in (engines.CastTriggers, engines.RepeatableDraw, engines.ActivatedEngines, engines.TokenMakers, engines.SacrificeAdditionalCost):
+        assert m.SPEC["evidence_class"] == "test_result" and any("win rate" in x for x in m.SPEC["does_not_model"])

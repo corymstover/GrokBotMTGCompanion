@@ -241,3 +241,23 @@ This step implements Cory directive item 3 and decision D4. It is **not** a mult
   - Per family: attack 1,619; graveyard recursion 492; sacrifice outlets 236; death triggers 171; self-recursion 163.
   - Death/sacrifice text the new modules do not claim (`death_other` 649, `sacrifice_other` 1,228, e.g. sacrifice as a spell cost or "dies" in non-trigger text) stays planned.
 - **Reconciliation of 9,044 vs 9,040:** 9,044 = 25,933 − 16,889 at cycle 61, and still 9,044 at 62.3. The cycle 63.2 regeneration (42157ff) moved 11 swaps out of the not_modelable set and 7 in (net −4) across 12 decks. The ids are listed in `not_modelable_reconciliation.json`.
+
+### Step E batch 66.3: cast triggers, repeatable draw, activated engines, tokens, sacrifice as an additional cost
+
+- **Derived events** (`scripts/grixis_mech/events.py`), deterministic:
+  - Casts are inferred from the trace: a non-land card that newly reaches the battlefield or graveyard that turn.
+  - Synthetic creature tokens come from recognised token makers (on arrival, per later turn, or per matching cast).
+  - Tokens are death-layer fodder; they die like creatures but never reach the graveyard. The sacrifice outlet sacrifices tokens first.
+- **Observer:** the snapshot now also records mana spent. It is still read-only, and v1.1 stays byte-identical (golden test).
+- **New modules:**
+  - `cast_triggers`: matching casts after arrival.
+  - `repeatable_draw`: beginning-of-phase, cast, attack and death-triggered draws; death-triggered draws use the grid.
+  - `activated_engines`: non-mana abilities, one per turn when the mana v1.1 left unspent covers the cost.
+  - `token_makers`: creature tokens created.
+  - `sacrifice_additional_cost`: P(the spell or ability cost is payable with live creature/token fodder), over the grid.
+- **Coverage over the 9,040 legacy not_modelable swaps:**
+  - 6,777 (75.0%) route to an implemented module (66.2: 2,412 / 26.7%).
+  - 1,730 route only to planned families; 533 match none.
+  - Per family: attack_trigger_proxy 1,619, activated_engines 1,745, cast_triggers 1,270, repeatable_draw 2,825, token_makers 1,964, sacrifice_additional_cost 65, sacrifice_costs 236, death_triggers 171, graveyard_recursion 492, self_recursion 163, sacrifice_other 1,228, death_other 649, tokens_other 3,266.
+- **Correction:** the 66.2 `sacrifice_other` figure (1,228) came from a broad planned regex (any ", sacrifice " text). Of those, the cards whose text is a creature/artifact/permanent sacrifice cost now route to `sacrifice_additional_cost`; the rest (land, self-sacrifice, opponent-sacrifice text) stay `sacrifice_other`.
+- **Cache incident (66.3):** an online `load_deck` replaced the frozen dev-snapshot Oracle bulk in the shared `.cache` (oracle-cards-20261016090200) with a newer Scryfall bulk (20261016210202). It was restored from `/tmp/c64-cache-partial-backup`, and the newer file was moved to `/tmp/c66-cache-refresh-backup/`. `grixis_mechanics.py` now forces `SCRYFALL_OFFLINE=1` (D6). Direct runs of other scripts outside `validate_all` (which is offline by default) can still refresh the cache.

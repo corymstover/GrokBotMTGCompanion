@@ -1,19 +1,19 @@
 {
  "by_status": {
-  "not_modelable": 580,
-  "planned_module": 6048,
-  "routed": 2412
+  "not_modelable": 533,
+  "planned_module": 1730,
+  "routed": 6777
  },
  "evidence_class": "derived_metric",
  "not_modelable_swaps": 9040,
  "note": "a swap can route to several families; routing is eligibility to be tested by a module, not a test result",
- "now_routed_share": 0.2668,
- "now_routed_to_implemented_module": 2412,
+ "now_routed_share": 0.7497,
+ "now_routed_to_implemented_module": 6777,
  "per_module_family": {
-  "activated_engines": 1562,
+  "activated_engines": 1745,
   "alternate_costs": 925,
   "attack_trigger_proxy": 1619,
-  "cast_triggers": 1300,
+  "cast_triggers": 1270,
   "counterspell_density": 474,
   "death_other": 649,
   "death_triggers": 171,
@@ -23,16 +23,18 @@
   "led_breach_sequences": 113,
   "life_loss": 1592,
   "opponent_dependent_draw": 2136,
-  "repeatable_draw": 2152,
+  "repeatable_draw": 2825,
   "repeatable_tutors": 20,
+  "sacrifice_additional_cost": 65,
   "sacrifice_costs": 236,
   "sacrifice_other": 1228,
   "self_recursion": 163,
   "stack_protection": 865,
   "stax_tax": 19,
-  "tokens": 3266,
+  "token_makers": 1964,
+  "tokens_other": 3266,
   "x_spells": 89
  },
- "routed_incl_planned_share": 0.9358,
+ "routed_incl_planned_share": 0.941,
  "scope": "legacy M5 (capped, Bot cycle 61) swaps with no paired test"
 }

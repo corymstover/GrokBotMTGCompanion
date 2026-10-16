@@ -15,7 +15,7 @@ def _snap(f):
     L = f.f_locals
     return {"turn": L["t"], "battlefield": [p["card"]["name"] for p in L["battlefield"]],
             "graveyard": [c["name"] for c in L["graveyard"]], "hand": [c["name"] for c in L["hand"]],
-            "mana": L.get("avail"), "commander_cast": L["rec"]["commander_turn"]}
+            "mana": L.get("avail"), "spent": L.get("spent"), "commander_cast": L["rec"]["commander_turn"]}
 
 
 def play_traced(deck, rng, **kw):

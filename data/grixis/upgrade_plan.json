@@ -114,7 +114,8 @@
       "name": "mechanic test modules (sim v1.2)",
       "batches": [
         "66.1 framework, router, attack + recursion",
-        "66.2 death layer, death triggers, sacrifice, self-recursion split, 9,044/9,040 reconciliation"
+        "66.2 death layer, death triggers, sacrifice, self-recursion split, 9,044/9,040 reconciliation",
+        "66.3 cast triggers, repeatable draw, activated engines, token makers, sacrifice as additional cost; tokens as death-layer fodder; offline guard"
       ],
       "status": "in_progress",
       "depends_on": [
@@ -127,20 +128,26 @@
       "framework": "scripts/grixis_mech/",
       "schema": "data/grixis/schemas/mechanic_module.schema.json",
       "implemented_modules": [
+        "activated_engines",
         "attack_trigger_proxy",
-        "graveyard_recursion",
-        "self_recursion",
+        "cast_triggers",
         "death_triggers",
-        "sacrifice_costs"
+        "graveyard_recursion",
+        "repeatable_draw",
+        "sacrifice_additional_cost",
+        "sacrifice_costs",
+        "self_recursion",
+        "token_makers"
       ],
       "legacy_not_modelable_routed": {
-        "routed": 2412,
-        "planned_module": 6048,
-        "not_modelable": 580,
+        "not_modelable": 533,
+        "planned_module": 1730,
+        "routed": 6777,
         "total": 9040
       },
       "shared_layers": [
-        "deaths (bounded removal/wipe/sacrifice grid; lower bound = v1.1 no-death)"
+        "deaths (bounded removal/wipe/sacrifice grid)",
+        "events (casts, creature tokens as fodder)"
       ]
     },
     {
