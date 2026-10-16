@@ -49,6 +49,19 @@ def route(name, text, type_line, hook=None):
     return out
 
 
+def _specific_not_modelable(name, card):
+    """Reasons from implemented parsers that recognized a mechanic but deliberately refused its semantics."""
+    out = []
+    for k, m in sorted(MODULES.items()):
+        f = getattr(m, "reason", None)
+        if not callable(f):
+            continue
+        why = f(name, card["text"], card["type_line"])
+        if why:
+            out.append(f"{name} / {k}: {why}")
+    return out
+
+
 def route_swap(cut, add, cards, hooks=None):
     hooks = hooks or {}
     r = {}
@@ -58,6 +71,16 @@ def route_swap(cut, add, cards, hooks=None):
             for k, imp in route(n, c["text"], c["type_line"], hooks.get(n)):
                 r.setdefault(k, {"implemented": imp, "cards": []})["cards"].append(n)
     impl = sorted(k for k, v in r.items() if v["implemented"])
+    if impl:
+        status, reason = "routed", None
+    elif r:
+        status, reason = "planned_module", "only planned modules match: " + ", ".join(sorted(r))
+    else:
+        specific = []
+        for n in (cut, add):
+            if n in cards:
+                specific.extend(_specific_not_modelable(n, cards[n]))
+        status = "not_modelable"
+        reason = "; ".join(specific) if specific else "no Oracle feature matches any step-E module family"
     return {"modules": impl, "planned": sorted(k for k, v in r.items() if not v["implemented"]),
-            "status": "routed" if impl else ("planned_module" if r else "not_modelable"),
-            "reason": None if impl else ("only planned modules match: " + ", ".join(sorted(r)) if r else "no Oracle feature matches any step-E module family")}
+            "status": status, "reason": reason}
