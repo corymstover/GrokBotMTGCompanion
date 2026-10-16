@@ -20,6 +20,7 @@ schema: 2
 - [Gate D — strategy (guidance)](#gate-d--strategy-guidance)
 - [Gate E — evidence labels and stopping](#gate-e--evidence-labels-and-stopping)
 - [Gate F — approval-ready candidate and lock](#gate-f--approval-ready-candidate-and-lock)
+- [Gate G — commander identity](#gate-g--commander-identity)
 - [Gate L — lore-themed (story-first)](#gate-l--lore-themed-story-first)
 - [Official legality vs house exceptions](#official-legality-vs-house-exceptions)
 - [Running the checks](#running-the-checks)
@@ -70,6 +71,14 @@ A failure here is a **veto**. No synergy argument offsets it. **(Repo addition, 
 - [ ] **Approve the exact hash.** The approved list must be byte-identical to the verified candidate. Any change after a red-team pass makes a new candidate (`v2`) that is verified again from scratch.
 - [ ] **Dated legality checkpoint.** At approval, re-check official Commander legality against a dated source (Scryfall bulk date or B&R date) and write it in the record. Cards from an unreleased set stay *not legal* until Scryfall says otherwise. **Repo addition:** we found one source approval that reported "current official Commander legality PASS" for a card Scryfall still lists as `not_legal` before its release date ([Grixis Corrections](grixis/Grixis%20Corrections.md#source-repo-structural-findings)).
 - [ ] **Record the export provenance.** If the list is exported (e.g. an Archidekt import package), keep a manifest of deck id, file, card total and source hash. Check each export against the approved list card for card. The Grixis export's `manifest.csv` matched all 62 lists in Bot cycle 37.
+
+## Gate G — commander identity
+**(Bot cycle 39, from Cory's [Grixis Mission](grixis/Grixis%20Mission.md); measured by `scripts/grixis_refine.py`, which works for any commander whose EDHREC page is cached)**
+- [ ] **Commander dependence measured.** Report the share of nonland cards that match a hook in the commander's own Oracle text, or that have EDHREC synergy ≥ 15% for this commander. A low share means a generic shell; the [Grixis Refinement Cycle](grixis/Grixis%20Refinement%20Cycle.md) lists the scores.
+- [ ] **Homogenization checked.** Report the overlap with the other lists you maintain (Jaccard), the generic share (cards with no commander link that appear in many lists), and the Thoracle-core and control-core counts. A staple stays only if it serves this commander or the deck's ceiling (fast mana, Game Changers, combo pieces).
+- [ ] **Every swap is commander-specific and verified.** Write *cut X → add Y* with the commander's Oracle text and Y's Oracle text quoted, plus the EDHREC evidence labeled as community data. Interaction is only replaced by interaction at equal or lower mana value. Re-run Gate A and Gate B on the refined list, and keep every Commander Spellbook combo the source list had.
+- [ ] **Ceiling respected.** If no qualifying swap exists, or the list is already commander-dependent with little generic filler, flag it at/near its ceiling and leave it unchanged. Do not weaken it to look different.
+- [ ] **Source preserved and logged.** Keep the source list verbatim and credited. Put the refined list in its own section with a dated per-deck refinement log (cycle, change, cards added and removed), and export the final list (Archidekt import file).
 
 ## Official legality vs house exceptions
 **(From the Grixis repo's exception registry, `source-package/research/Project_Exceptions_Current_2026-10-12.csv`, adapted.)** A playgroup may allow banned cards by Rule 0, but this repo **never presents such a list as Commander-legal**. Record official legality and house permission in separate fields. Published decks here must pass Gate A. The Grixis import replaced its two house-allowed banned cards and dropped a companion that Commander bans ([corrections](grixis/Grixis%20Corrections.md#corrections-table)).

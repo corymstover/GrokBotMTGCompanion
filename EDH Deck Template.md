@@ -49,6 +49,7 @@ Companion:      none, or name + Commander legality as a companion (e.g. Lutri is
 | Natural power ceiling | Target bracket and why. Check it against the Game Changer floor ([Power bracket assessment](EDH%20Standards.md#power-bracket-assessment)) |
 | Deliberately rejected homogenization | Strong but off-plan additions to avoid, e.g. generic combo packages that work without this commander |
 | Commander-necessity test | What is lost if the commander is removed. If the plan barely changes, the blueprint or list needs rework |
+| Commander dependence (measured, Bot cycle 39) | Score from `scripts/grixis_refine.py` (Oracle hooks + EDHREC synergy), generic share and overlap with your other lists. See [Checklist Gate G](EDH%20Deck%20Evaluation%20Checklist.md#gate-g--commander-identity) |
 
 ## 3. Role and package map (whole-list audit)
 **(from the Grixis repo, Deck Quality Gates v3 "Mandatory whole-deck optimization audit")**. Every one of the 99 slots gets a role and a retention label. Start from the commander and work outward, as if building the deck today with no attachment to the existing list.
