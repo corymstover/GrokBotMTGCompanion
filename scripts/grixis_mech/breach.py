@@ -3,7 +3,7 @@
 This is a *resource-readiness* module for the canonical LED/Breach/Brain Freeze loop, not a combo-quality verdict and
 not a win-rate simulator. Commander Spellbook remains the factual combo source; Step B later evaluates combo quality.
 The module asks whether the v1.1 trace has the three pieces in usable zones, enough mana to establish Breach, and the
-minimum pre-loop graveyard fuel to escape the required pieces.
+minimum pre-loop graveyard/hand fuel needed to begin the first sustainable escape cycle.
 """
 import re
 
@@ -45,45 +45,74 @@ def _zones(s):
             "graveyard": set(s.get("graveyard", []))}
 
 
-def _fuel(s):
-    # Underworld Breach's escape additional cost exiles three *other cards*; any card type can pay it.
+def _graveyard_fuel(s):
+    # Underworld Breach's escape additional cost exiles three *other cards*; preserve all three loop pieces.
     return sum(1 for n in s.get("graveyard", []) if n not in PIECES)
+
+
+def _discard_fuel(s, breach_zone, led_zone):
+    """Non-piece cards that LED will discard before Brain Freeze is escaped.
+
+    Breach/LED that begin in hand are cast before LED activation and are therefore not discarded. Brain Freeze in
+    hand is deliberately discarded so it can be escaped, but as the card being escaped it cannot pay its own exile-3
+    cost and therefore does not count as fuel.
+    """
+    hand = list(s.get("hand", []))
+    return sum(1 for n in hand if n not in PIECES)
 
 
 def startup_state(s):
     """Return structured startup state for one end-of-turn trace snapshot.
 
-    Standard line modeled:
-      Breach in hand/battlefield -> LED in hand/battlefield/graveyard -> activate LED, discarding Brain Freeze if needed
-      -> escape Brain Freeze. If LED starts in graveyard it also needs one escape payment before activation.
+    Supported line:
+      establish Breach -> cast/escape LED -> activate LED, discarding Brain Freeze if needed -> escape Brain Freeze.
 
-    Brain Freeze therefore needs 3 pre-loop fuel in every supported zone (hand is discarded to the graveyard by LED);
-    LED in graveyard needs another 3. Once Brain Freeze resolves, the first loop mills >=6 cards even when Breach was
-    already on the battlefield and LED is the first spell of the turn, enough to pay the next LED+Freeze escape costs.
+    If LED starts in the graveyard, its first escape must be paid entirely from the pre-existing graveyard, because
+    LED's hand discard has not happened yet. After LED activates, non-piece cards discarded from hand become legal
+    fuel for Brain Freeze. This distinguishes pre-LED fuel from post-discard fuel instead of requiring all six cards to
+    have been in the graveyard already.
     """
     z = _zones(s)
     breach_zone = next((k for k in ("battlefield", "hand") if BREACH in z[k]), None)
     led_zone = next((k for k in ("battlefield", "hand", "graveyard") if LED in z[k]), None)
     freeze_zone = next((k for k in ("hand", "graveyard") if FREEZE in z[k]), None)
+    gy_fuel = _graveyard_fuel(s)
     if not (breach_zone and led_zone and freeze_zone):
         return {"ready": False, "reason": "piece_zone", "breach_zone": breach_zone, "led_zone": led_zone,
-                "freeze_zone": freeze_zone, "fuel": _fuel(s), "fuel_needed": None, "hand_discard": None}
+                "freeze_zone": freeze_zone, "graveyard_fuel": gy_fuel, "discard_fuel": None,
+                "brain_freeze_fuel": None, "hand_discard": None}
 
     # Breach must be established before LED activation. Total mana is an upper-bound proxy; exact red source is Step C.
     if breach_zone == "hand" and _unspent(s) < 2:
         return {"ready": False, "reason": "breach_mana", "breach_zone": breach_zone, "led_zone": led_zone,
-                "freeze_zone": freeze_zone, "fuel": _fuel(s), "fuel_needed": None, "hand_discard": None}
+                "freeze_zone": freeze_zone, "graveyard_fuel": gy_fuel, "discard_fuel": None,
+                "brain_freeze_fuel": None, "hand_discard": None}
 
-    fuel_need = 3 + (3 if led_zone == "graveyard" else 0)
-    fuel = _fuel(s)
-    if fuel < fuel_need:
-        return {"ready": False, "reason": "escape_fuel", "breach_zone": breach_zone, "led_zone": led_zone,
-                "freeze_zone": freeze_zone, "fuel": fuel, "fuel_needed": fuel_need, "hand_discard": None}
+    # LED in the graveyard must escape before it can discard the hand, so this first payment cannot use discard fuel.
+    spent_for_led = 3 if led_zone == "graveyard" else 0
+    if gy_fuel < spent_for_led:
+        return {"ready": False, "reason": "led_escape_fuel", "breach_zone": breach_zone, "led_zone": led_zone,
+                "freeze_zone": freeze_zone, "graveyard_fuel": gy_fuel, "discard_fuel": 0,
+                "brain_freeze_fuel": None, "hand_discard": None}
 
-    # LED activation discards the remaining hand. Pieces included: this is a real burden, not hidden.
+    discarded_nonpieces = _discard_fuel(s, breach_zone, led_zone)
+    post_led_fuel = gy_fuel - spent_for_led + discarded_nonpieces
+    if post_led_fuel < 3:
+        return {"ready": False, "reason": "brain_freeze_escape_fuel", "breach_zone": breach_zone,
+                "led_zone": led_zone, "freeze_zone": freeze_zone, "graveyard_fuel": gy_fuel,
+                "discard_fuel": discarded_nonpieces, "brain_freeze_fuel": post_led_fuel, "hand_discard": None}
+
+    # Cast Breach/LED leave the hand before LED activation; Brain Freeze and all other remaining cards are discarded.
     hand_discard = len(z["hand"])
+    if breach_zone == "hand":
+        hand_discard -= 1
+    if led_zone == "hand":
+        hand_discard -= 1
+    hand_discard = max(0, hand_discard)
     return {"ready": True, "reason": None, "breach_zone": breach_zone, "led_zone": led_zone,
-            "freeze_zone": freeze_zone, "fuel": fuel, "fuel_needed": fuel_need, "hand_discard": hand_discard}
+            "freeze_zone": freeze_zone, "graveyard_fuel": gy_fuel, "discard_fuel": discarded_nonpieces,
+            "brain_freeze_fuel": post_led_fuel, "hand_discard": hand_discard,
+            "fuel_margin": post_led_fuel - 3}
 
 
 def side(games, T):
@@ -101,7 +130,7 @@ def side(games, T):
             ready += 1
             earliest.append(first[0])
             burdens.append(first[1]["hand_discard"])
-            margins.append(first[1]["fuel"] - first[1]["fuel_needed"])
+            margins.append(first[1]["fuel_margin"])
     n = max(1, len(games))
     return {"p_startup_ready": ready / n,
             "mean_earliest_turn_when_ready": (sum(earliest) / len(earliest) if earliest else None),
@@ -115,8 +144,8 @@ class LEDBreachSequences:
         "evidence_class": "test_result",
         "models": [
             "Underworld Breach + Lion's Eye Diamond + Brain Freeze startup readiness by turn 4/6/8/10",
-            "piece-zone requirements, fixed Breach setup mana, initial escape-fuel requirement, hand-discard burden and fuel margin",
-            "LED in graveyard requires one extra 3-card escape payment; Brain Freeze in hand is intentionally treated as discarded then escaped",
+            "piece-zone requirements, fixed Breach setup mana, ordered LED escape payment, LED hand-discard fuel, Brain Freeze escape fuel, discard burden and remaining fuel margin",
+            "LED in graveyard must pay its first exile-three from the pre-existing graveyard; non-piece hand cards become fuel only after LED activation",
         ],
         "does_not_model": [
             "tutor chains into the pieces, protection, stack interaction, graveyard hate, Drannith/Rule-of-Law effects or other stax",
@@ -127,15 +156,17 @@ class LEDBreachSequences:
         ],
         "assumptions": [
             "standard loop order: establish Breach, cast/escape LED, activate LED and discard hand, escape Brain Freeze",
-            "Brain Freeze needs 3 initial other-card fuel; LED needs another 3 only if it starts in the graveyard",
-            "after the first Brain Freeze, storm produces at least two copies/6 milled cards in the supported line, enough raw cards for the next LED+Freeze escape pair",
-            "any graveyard card can pay the escape exile-three additional cost; the three loop pieces themselves are excluded from pre-loop fuel",
+            "Brain Freeze needs three other cards after LED activation; non-piece cards discarded by LED may pay this first Brain Freeze escape cost",
+            "LED needs three pre-existing graveyard cards if it begins in the graveyard, because its discard event occurs only after LED has been escaped and activated",
+            "after the first Brain Freeze, storm produces at least two total Brain Freeze copies in the supported line and mills at least six cards, enough raw cards for the next LED+Freeze escape pair",
+            "the three loop pieces are preserved and never counted as pre-loop escape fuel",
         ],
         "parameters": {"turns": TURNS, "breach_setup_total_mana": 2, "escape_cards_per_piece": 3},
         "confidence": "moderate",
         "limitations": [
             "Readiness is a necessary resource/zone proxy for this exact line, not a sufficient protected-win claim.",
             "v1.1 does not natively execute the loop; this module only observes whether startup conditions are present.",
+            "End-of-turn traces abstract away exact intra-turn mana colors and sequencing details beyond the explicit resource-order rules above.",
         ],
         "metrics": ["startup_ready_by_turn", "earliest_ready_turn", "hand_discard_burden", "escape_fuel_margin"],
         "determinism": "deterministic evaluation of the seeded v1.1 zone/mana trace; no extra rng",
