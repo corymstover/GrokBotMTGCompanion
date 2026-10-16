@@ -12,12 +12,12 @@
 
 ## Status
 <!-- INTERACTIONS-STATUS:START -->
-**19/62 decks reviewed · 242 rulings (7 uncertain, 16 flags).**
+**22/62 decks reviewed · 273 rulings (7 uncertain, 18 flags).**
 
 | Batch | Status | Decks |
 |---|---|---|
 | A | done (Bot cycle 46) | [abaddon-the-despoiler](abaddon-the-despoiler.md) (28) · [admiral-beckett-brass](admiral-beckett-brass.md) (17) · [admiral-brass-unsinkable](admiral-brass-unsinkable.md) (15) · [anhelo-the-painter](anhelo-the-painter.md) (14) · [ashad-the-lone-cyberman](ashad-the-lone-cyberman.md) (14) · [ashnod-the-uncaring](ashnod-the-uncaring.md) (12) · [belakor-the-dark-master](belakor-the-dark-master.md) (13) · [bjorna-nightfall-alchemist-cecily](bjorna-nightfall-alchemist-cecily.md) (13) · [cormela-glamour-thief](cormela-glamour-thief.md) (10) · [crosis-the-purger](crosis-the-purger.md) (11) · [cult-of-skaro](cult-of-skaro.md) (10) · [davros-dalek-creator](davros-dalek-creator.md) (9) |
-| B | in progress (Bot cycle 48) | [doctor-doom-king-of-latveria](doctor-doom-king-of-latveria.md) (11) · [don-andres-the-renegade](don-andres-the-renegade.md) (12) · [dr-eggman](dr-eggman.md) (10) · [edea-possessed-sorceress](edea-possessed-sorceress.md) (11) · [edward-kenway](edward-kenway.md) (11) · [evelyn-the-covetous](evelyn-the-covetous.md) (10) · [fire-lord-azula](fire-lord-azula.md) (11) · garza-zol-plague-queen · goro-goro-and-satoru · grixistax-october-2026 |
+| B | done (Bot cycle 48) | [doctor-doom-king-of-latveria](doctor-doom-king-of-latveria.md) (11) · [don-andres-the-renegade](don-andres-the-renegade.md) (12) · [dr-eggman](dr-eggman.md) (10) · [edea-possessed-sorceress](edea-possessed-sorceress.md) (11) · [edward-kenway](edward-kenway.md) (11) · [evelyn-the-covetous](evelyn-the-covetous.md) (10) · [fire-lord-azula](fire-lord-azula.md) (11) · [garza-zol-plague-queen](garza-zol-plague-queen.md) (11) · [goro-goro-and-satoru](goro-goro-and-satoru.md) (9) · [grixistax-october-2026](grixistax-october-2026.md) (11) |
 | C | planned | gwendlyn-di-corci · inalla-archmage-ritualist · jeleva-nephalias-scourge · kefka-court-mage · kess-dissident-mage · loki-the-deceiver · lord-of-tresserhorn · lord-xander-the-collector · lynde-cheerful-tormentor · mai-and-zuko |
 | D | planned | mairsil-the-pretender · marchesa-dealer-of-death · marchesa-the-black-rose · mishra-artificer-prodigy · mishra-eminent-one · missy · nathan-drake-treasure-hunter · nekusar-the-mindrazer · nicol-bolas-the-ravager · nicol-bolas |
 | E | planned | norman-osborn · obeka-brute-chronologist · obeka-splitter-of-seconds · parnesse-the-subtle-brush · rograkh-son-of-rohgahh-silas-renn · saruman-the-white-hand · sauron-lord-of-the-rings · sauron-the-dark-lord · sedris-the-traitor-king · solkanar-the-swamp-king |

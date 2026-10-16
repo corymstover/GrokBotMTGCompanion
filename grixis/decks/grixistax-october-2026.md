@@ -28,6 +28,7 @@ schema: 2
 - [Refined list (Bot cycle 39)](#refined-list-bot-cycle-39)
 - [Card breakdown](#card-breakdown)
 - [Source commentary (verbatim)](#source-commentary-verbatim)
+- [Rules notes](#rules-notes)
 - [Combos (Commander Spellbook)](#combos-commander-spellbook)
 - [Cross-references](#cross-references)
 
@@ -515,6 +516,20 @@ The approved list retains two compact closing packages:
 Generic Oracle/Consultation/Ad Nauseam turbo conversion was explicitly rejected to preserve the deck's commander-first prison identity.
 
 This deck is now canonical and must not be revised, reopened, or replaced unless the user explicitly requests it.
+
+<!-- INTERACTIONS:START -->
+## Rules notes
+
+> Bot cycle 48 interaction review: **11 rulings** checked against current Oracle text, Scryfall rulings and the Comprehensive Rules. Full review with citations: [Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools — Interaction Review](../interactions/grixistax-october-2026.md).
+
+- **Tevesh Thrulls feed every sacrifice outlet** — 0/1 Thrulls: Contamination upkeep, Skullclamp draws, Tower/Culling mana, Diabolic Intent. ([grixistax-03](../interactions/grixistax-october-2026.md#grixistax-03-tevesh-thrulls-feed-every-sacrifice-outlet))
+- **Blood Moon strips your own utility lands; Back to Basics still locks them** — Under Blood Moon, Phyrexian Tower is just a Mountain; Back to Basics still stops it untapping. ([grixistax-05](../interactions/grixistax-october-2026.md#grixistax-05-blood-moon-strips-your-own-utility-lands-back-to-basics-still-locks-them))
+- **Trinisphere and Chalice tax your own free spells** — Trinisphere makes free spells cost 3; Chalice at 0 or 1 hits your own fast mana. ([grixistax-07](../interactions/grixistax-october-2026.md#grixistax-07-trinisphere-and-chalice-tax-your-own-free-spells))
+- **Helm of Obedience + Leyline of the Void or Dauthi Voidwalker** — Helm for {1} + graveyard hate = exile an opponent's entire library. ([grixistax-09](../interactions/grixistax-october-2026.md#grixistax-09-helm-of-obedience--leyline-of-the-void-or-dauthi-voidwalker))
+
+**Flags for later refinement** (no list change in this phase):
+- 🚩 list flag Blood Moon strips your own utility lands; Back to Basics still locks them: Accepted prison cost, documented by the source for Back to Basics. The extra point here is that Blood Moon switches off the deck's own Phyrexian Tower (the Thrull mana outlet). Sequence Tower activations before Moon. No list change. ([grixistax-05](../interactions/grixistax-october-2026.md#grixistax-05-blood-moon-strips-your-own-utility-lands-back-to-basics-still-locks-them))
+<!-- INTERACTIONS:END -->
 
 <!-- COMBOS:START -->
 ## Combos (Commander Spellbook)
