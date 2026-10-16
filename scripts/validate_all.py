@@ -37,6 +37,8 @@ Steps (run in this order; each prints its own summary):
                     version, verdict rule, no win-rate metric, exact re-run of 2 decks)
   7l graph          scripts/grixis_graph.py --check  Bot cycle 59.1 (M4): per-deck dependency graphs (graph.schema.json, canonical
                     hash, snapshot, node/edge integrity, metrics cover the list, M1 edges ingest status, exact rebuild of 2 decks)
+  7m audit          scripts/grixis_audit.py --check  Bot cycle 59.2 (M4): 99-slot audits (audit.schema.json, slot coverage, provisional
+                    while M2 is unaccepted, complete-eligibility vs disposition_status, boilerplate lint, baseline, exact rebuild)
   7k unit-tests     scripts/run_tests.py  tests/ via pytest (stdlib fallback runner when pytest is absent)
   8 freshness    (built in)                              generated pages built from an older bulk than the cache (warning);
                                                          with --online, a newer Scryfall bulk than the cache (warning; --strict fails)
@@ -192,6 +194,7 @@ def main(argv):
              ("paired-tests", ["scripts/grixis_paired.py", "--check"]),  # Bot cycle 57.3 (M3): paired champion-vs-challenger records
              ("stress", ["scripts/grixis_stress.py", "--check"]),  # Bot cycle 57.4 (M3): scripted stress scenarios
              ("graph", ["scripts/grixis_graph.py", "--check"]),  # Bot cycle 59.1 (M4): per-deck dependency graphs
+             ("audit", ["scripts/grixis_audit.py", "--check"]),  # Bot cycle 59.2 (M4): 99-slot audits
              ("unit-tests", ["scripts/run_tests.py"]),  # Bot cycle 47 (M0): tests/ (hashes, states, approvals, legality vs authorization, schemas)
              ("freshness", None)]
     results = []

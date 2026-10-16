@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-16 — Bot cycle 59.2 (M4: 99-slot audit)](#2026-10-16--bot-cycle-592-m4-99-slot-audit)
 - [2026-10-16 — Bot cycle 59.1 (M4: dependency graph)](#2026-10-16--bot-cycle-591-m4-dependency-graph)
 - [2026-10-16 — Bot cycle 57.6 (M3: simulator model v1.1)](#2026-10-16--bot-cycle-576-m3-simulator-model-v11)
 - [2026-10-16 — Bot cycle 57.5 (M3: knowledge pages on lift, synergy, commander-first)](#2026-10-16--bot-cycle-575-m3-knowledge-pages-on-lift-synergy-commander-first)
@@ -78,6 +79,13 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-16 — Bot cycle 59.2 (M4: 99-slot audit)
+- **`scripts/grixis_audit.py`** writes a 99-slot audit for each deck (`data/grixis/audit/`, 62 decks, 6,136 cards). Each card gets a disposition checked against the blueprint, the role model, the dependency graph, its redundancy, the best alternative, EDHREC and M1. Every slot records its refs, evidence classes and `decision_support`.
+- **All provisional:** M2 is not accepted (constraint 6), so no cut or add is decided. 2,333 slots are complete-eligible; 2,955 have decision-class evidence.
+- **Boilerplate lint:** a reason may appear on at most 2 slots per deck; all 62 decks pass. Each audit also records a goldfish baseline (sim v1.1, 1,000 games).
+- **Graph fix:** modal double-faced lands (Pathways) are now classed as lands in the graph.
+- `audit.schema.json` v1; `validate_all` step `audit`; `tests/test_audit.py` (7 tests).
 
 ## 2026-10-16 — Bot cycle 59.1 (M4: dependency graph)
 - **M4 started** (`program.milestones.M4: in_progress`), in two sub-cycles: 59.1 dependency graph, 59.2 99-slot audit.

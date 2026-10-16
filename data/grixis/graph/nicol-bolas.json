@@ -18,7 +18,7 @@
   "scripts/grixis_refine.py"
  ],
  "snapshot": {
-  "id": "sha256:cf79aefde87fda98177bd8b2f87055fe0f68c0bde744174b82719b5f9f428f54",
+  "id": "sha256:ff6eee1d5b3b77ca300c9446f61102e57e9130af0488a8b48fd69b3cb139ad34",
   "inputs": {
    "exports/grixis-archidekt/source-baseline/nicol-bolas.txt": "sha256:1c271131d2cb3f824a292391932dbb111c3eb9653051424c16db76a6c16e91b0",
    "data/grixis/blueprints/nicol-bolas.json": "sha256:29659d4f3923c8e34201efccf8764b6dcfc8da51b1a8357253d92c7333b689f2",
@@ -26,7 +26,7 @@
    "data/grixis_interactions/nicol-bolas.json": "sha256:d3047fac1251403725f02a1931505be8773f05cf14ff3569f3ba665fcae87d98",
    "data/grixis_interactions/edges/nicol-bolas.json": null,
    "data/grixis/evidence/nicol-bolas.json": "sha256:402106c545fd928dc77d51b8d445316b50f3127f4541b277f449305bef6c5ede",
-   "scripts/grixis_graph.py": "sha256:f473a1051a22743af797fda69b1b974be5b5875f358fb689269ca6d84d19af0a",
+   "scripts/grixis_graph.py": "sha256:df64c8aeb91d9adb592e59cbfe7dff28878e6c317de20227312e06ccc08af84e",
    "scripts/grixis_refine.py": "sha256:78386fc6e5ac722cd25b35f37a1b2d2ff0c427ce1aa77578fee7bf459da5c4d4",
    "oracle_bulk": "oracle-cards-20261015090201.jsonl.gz"
   }
