@@ -29,11 +29,12 @@ def test_variable_token_text_is_residual_not_a_fake_planned_module():
 
 
 def test_unsupported_sacrifice_semantics_stay_residual():
+    # A mandatory upkeep sacrifice is neither a sacrifice outlet nor an additional casting cost.
     cards = {
-        "Land Cost": card("As an additional cost to cast this spell, sacrifice a land.", "Sorcery"),
+        "Upkeep Tax": card("At the beginning of your upkeep, sacrifice a land."),
         "Blank": card("Flying", "Creature — Bird"),
     }
-    r = router.route_swap("Blank", "Land Cost", cards)
+    r = router.route_swap("Blank", "Upkeep Tax", cards)
     assert "sacrifice_other" in r["residual"]
     assert "sacrifice_other" not in r["planned"]
     assert r["status"] == "not_modelable"
@@ -60,11 +61,9 @@ def test_supported_module_wins_routing_but_residual_warning_is_preserved():
     r = router.route_swap("Blank", "Death Watcher", cards)
     assert "death_triggers" in r["modules"]
     assert r["status"] == "routed"
-    # Broad 'dies' text is retained as a diagnostic residual, not another module.
     assert "death_other" in r["residual"]
 
 
 def test_registry_policy_has_residuals_but_zero_planned_families():
-    # Avoid importing the cache-backed mechanics builder; test the same source-of-truth objects it serializes.
     assert set(router.RESIDUAL) == {"death_other", "sacrifice_other", "tokens_other"}
     assert not set(router.RESIDUAL) & set(gm.MODULES)
