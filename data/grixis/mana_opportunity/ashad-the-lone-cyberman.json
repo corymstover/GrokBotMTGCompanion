@@ -1,0 +1,433 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C opportunity-cost evidence does not rank/cut lands; burden and Commander-first support remain separate for later judgment."
+ },
+ "canonical_hash": "lh1:6d87a5e4a87ac6dd866849a1f1d31c15e25b5a6a283b9d89b7b398e1f5696f5b",
+ "commander_land_text_hooks": [],
+ "confidence": "moderate",
+ "deck_id": "Ashad__the_Lone_Cyberman",
+ "evidence_class": "derived_metric",
+ "inputs": {
+  "blueprint": "data/grixis/blueprints/ashad-the-lone-cyberman.json",
+  "graph": "data/grixis/graph/ashad-the-lone-cyberman.json",
+  "mana_base": "data/grixis/mana_base/ashad-the-lone-cyberman.json",
+  "mana_timing": "data/grixis/mana_timing/ashad-the-lone-cyberman.json"
+ },
+ "land_type_context": {
+  "blueprint_named_lands": [
+   "Academy Ruins",
+   "Inventors' Fair",
+   "Urza's Saga"
+  ],
+  "commander_text_relevant_types": [],
+  "interpretation": "Commander Oracle land/type matches are textual hooks only; they may be opponent-facing or otherwise non-beneficial and require rules/strategic judgment.",
+  "typed_land_counts": {
+   "Island": 8,
+   "Mountain": 6,
+   "Swamp": 7
+  }
+ },
+ "limitations": [
+  "No universal opportunity-cost score is produced; color/timing burdens and strategic support signals stay separate.",
+  "Blueprint exact-name mentions are Commander-first evidence, not automatic protections; absence is not evidence that a land lacks strategic value.",
+  "Utility categories are Oracle-text heuristics and do not price the magnitude, activation cost, timing window or multiplayer value of the effect.",
+  "Commander land/type matches are textual hooks only and can be opponent-facing (for example landwalk) or otherwise irrelevant to own mana-base construction.",
+  "MDFCs are represented as spell/land option-value tradeoffs; later candidate optimization decides whether that flexibility is worth the tapped/color/slot cost.",
+  "Graph package/identity signals are inherited accepted M4 evidence but do not decide a mana-base swap by themselves."
+ ],
+ "mdfcs": [],
+ "schema_version": 1,
+ "slug": "ashad-the-lone-cyberman",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_named_utility_lands": 3,
+  "commander_land_hook_count": 0,
+  "mdfc_count": 0,
+  "utility_burden_flags": {
+   "always_enters_tapped": 1,
+   "conditional_untapped": 5,
+   "no_usable_grixis_color": 3,
+   "single_color_source": 3
+  },
+  "utility_land_count": 14,
+  "utility_support_flags": {
+   "graph_package_member": 1,
+   "named_in_blueprint": 3,
+   "nonmana_utility_text": 14
+  }
+ },
+ "utility_lands": [
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": true,
+   "burden_flags": [
+    "no_usable_grixis_color"
+   ],
+   "card": "Academy Ruins",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [
+    "pkg:artifact-recursion"
+   ],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {C}.\n{1}{U}, {T}: Put target artifact card from your graveyard on top of your library.",
+   "potential_colors": "",
+   "support_flags": [
+    "graph_package_member",
+    "named_in_blueprint",
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "",
+   "utility_categories": [
+    "cost_reduction_or_ramp",
+    "graveyard"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [],
+   "card": "Bloodstained Mire",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle.",
+   "potential_colors": "UBR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UBR",
+   "utility_categories": [
+    "sacrifice",
+    "tutor_or_search"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "always_enters_tapped"
+   ],
+   "card": "Crumbling Necropolis",
+   "conditional_mana_ability": false,
+   "entry_timing": "always_tapped",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "This land enters tapped.\n{T}: Add {U}, {B}, or {R}.",
+   "potential_colors": "UBR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UBR",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "single_color_source"
+   ],
+   "card": "Great Furnace",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {R}.",
+   "potential_colors": "R",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "R",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": true,
+   "burden_flags": [
+    "no_usable_grixis_color"
+   ],
+   "card": "Inventors' Fair",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "At the beginning of your upkeep, if you control three or more artifacts, you gain 1 life.\n{T}: Add {C}.\n{4}, {T}, Sacrifice Inventors' Fair: Search your library for an artifact card, reveal it, put it into your hand, then shuffle. Activate only if you control three or more artifacts.",
+   "potential_colors": "",
+   "support_flags": [
+    "named_in_blueprint",
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "",
+   "utility_categories": [
+    "cost_reduction_or_ramp",
+    "sacrifice",
+    "tutor_or_search"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "conditional_untapped"
+   ],
+   "card": "Luxury Suite",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {B} or {R}.",
+   "potential_colors": "BR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "BR",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "conditional_untapped"
+   ],
+   "card": "Morphic Pool",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {B}.",
+   "potential_colors": "UB",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UB",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [],
+   "card": "Polluted Delta",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle.",
+   "potential_colors": "UBR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UBR",
+   "utility_categories": [
+    "sacrifice",
+    "tutor_or_search"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "single_color_source"
+   ],
+   "card": "Seat of the Synod",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {U}.",
+   "potential_colors": "U",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "U",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "conditional_untapped"
+   ],
+   "card": "Shipwreck Marsh",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "This land enters tapped unless you control two or more other lands.\n{T}: Add {U} or {B}.",
+   "potential_colors": "UB",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UB",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "conditional_untapped"
+   ],
+   "card": "Stormcarved Coast",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "This land enters tapped unless you control two or more other lands.\n{T}: Add {U} or {R}.",
+   "potential_colors": "UR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UR",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "conditional_untapped"
+   ],
+   "card": "Training Center",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {R}.",
+   "potential_colors": "UR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UR",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": true,
+   "burden_flags": [
+    "no_usable_grixis_color"
+   ],
+   "card": "Urza's Saga",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — This Saga gains \"{T}: Add {C}.\"\nII — This Saga gains \"{2}, {T}: Create a 0/0 colorless Construct artifact creature token with 'This token gets +1/+1 for each artifact you control.'\"\nIII — Search your library for an artifact card with mana cost {0} or {1}, put it onto the battlefield, then shuffle.",
+   "potential_colors": "",
+   "support_flags": [
+    "named_in_blueprint",
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "",
+   "utility_categories": [
+    "tutor_or_search"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "single_color_source"
+   ],
+   "card": "Vault of Whispers",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {B}.",
+   "potential_colors": "B",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "B",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  }
+ ]
+}

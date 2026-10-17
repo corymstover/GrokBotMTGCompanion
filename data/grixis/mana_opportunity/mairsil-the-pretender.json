@@ -1,0 +1,502 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C opportunity-cost evidence does not rank/cut lands; burden and Commander-first support remain separate for later judgment."
+ },
+ "canonical_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+ "commander_land_text_hooks": [],
+ "confidence": "moderate",
+ "deck_id": "Mairsil__the_Pretender",
+ "evidence_class": "derived_metric",
+ "inputs": {
+  "blueprint": "data/grixis/blueprints/mairsil-the-pretender.json",
+  "graph": "data/grixis/graph/mairsil-the-pretender.json",
+  "mana_base": "data/grixis/mana_base/mairsil-the-pretender.json",
+  "mana_timing": "data/grixis/mana_timing/mairsil-the-pretender.json"
+ },
+ "land_type_context": {
+  "blueprint_named_lands": [
+   "Minamo, School at Water's Edge"
+  ],
+  "commander_text_relevant_types": [],
+  "interpretation": "Commander Oracle land/type matches are textual hooks only; they may be opponent-facing or otherwise non-beneficial and require rules/strategic judgment.",
+  "typed_land_counts": {
+   "Island": 6,
+   "Mountain": 6,
+   "Swamp": 6
+  }
+ },
+ "limitations": [
+  "No universal opportunity-cost score is produced; color/timing burdens and strategic support signals stay separate.",
+  "Blueprint exact-name mentions are Commander-first evidence, not automatic protections; absence is not evidence that a land lacks strategic value.",
+  "Utility categories are Oracle-text heuristics and do not price the magnitude, activation cost, timing window or multiplayer value of the effect.",
+  "Commander land/type matches are textual hooks only and can be opponent-facing (for example landwalk) or otherwise irrelevant to own mana-base construction.",
+  "MDFCs are represented as spell/land option-value tradeoffs; later candidate optimization decides whether that flexibility is worth the tapped/color/slot cost.",
+  "Graph package/identity signals are inherited accepted M4 evidence but do not decide a mana-base swap by themselves."
+ ],
+ "mdfcs": [],
+ "schema_version": 1,
+ "slug": "mairsil-the-pretender",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_named_utility_lands": 1,
+  "commander_land_hook_count": 0,
+  "mdfc_count": 0,
+  "utility_burden_flags": {
+   "conditional_untapped": 7,
+   "no_usable_grixis_color": 1,
+   "single_color_source": 4
+  },
+  "utility_land_count": 17,
+  "utility_support_flags": {
+   "graph_identity_core": 1,
+   "named_in_blueprint": 1,
+   "nonmana_utility_text": 17
+  }
+ },
+ "utility_lands": [
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "no_usable_grixis_color"
+   ],
+   "card": "Ancient Tomb",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {C}{C}. This land deals 2 damage to you.",
+   "potential_colors": "",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "",
+   "utility_categories": [
+    "cost_reduction_or_ramp",
+    "removal_or_damage"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [],
+   "card": "Bloodstained Mire",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle.",
+   "potential_colors": "UBR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UBR",
+   "utility_categories": [
+    "sacrifice",
+    "tutor_or_search"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [],
+   "card": "City of Brass",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "Whenever this land becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.",
+   "potential_colors": "UBR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UBR",
+   "utility_categories": [
+    "removal_or_damage"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "conditional_untapped"
+   ],
+   "card": "Haunted Ridge",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "This land enters tapped unless you control two or more other lands.\n{T}: Add {B} or {R}.",
+   "potential_colors": "BR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "BR",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "conditional_untapped"
+   ],
+   "card": "Luxury Suite",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {B} or {R}.",
+   "potential_colors": "BR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "BR",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": true,
+   "burden_flags": [
+    "single_color_source"
+   ],
+   "card": "Minamo, School at Water's Edge",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {U}.\n{U}, {T}: Untap target legendary permanent.",
+   "potential_colors": "U",
+   "support_flags": [
+    "graph_identity_core",
+    "named_in_blueprint",
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "U",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "conditional_untapped"
+   ],
+   "card": "Morphic Pool",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {B}.",
+   "potential_colors": "UB",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UB",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "single_color_source"
+   ],
+   "card": "Otawara, Soaring City",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {U}.\nChannel — {3}{U}, Discard this card: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control.",
+   "potential_colors": "U",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "U",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [],
+   "card": "Polluted Delta",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle.",
+   "potential_colors": "UBR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UBR",
+   "utility_categories": [
+    "sacrifice",
+    "tutor_or_search"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [],
+   "card": "Scalding Tarn",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle.",
+   "potential_colors": "UBR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UBR",
+   "utility_categories": [
+    "sacrifice",
+    "tutor_or_search"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "conditional_untapped"
+   ],
+   "card": "Shipwreck Marsh",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "This land enters tapped unless you control two or more other lands.\n{T}: Add {U} or {B}.",
+   "potential_colors": "UB",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UB",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "single_color_source"
+   ],
+   "card": "Sokenzan, Crucible of Defiance",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {R}.\nChannel — {3}{R}, Discard this card: Create two 1/1 colorless Spirit creature tokens. They gain haste until end of turn. This ability costs {1} less to activate for each legendary creature you control.",
+   "potential_colors": "R",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "R",
+   "utility_categories": [
+    "cost_reduction_or_ramp",
+    "creature_mode",
+    "token"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "conditional_untapped"
+   ],
+   "card": "Stormcarved Coast",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "This land enters tapped unless you control two or more other lands.\n{T}: Add {U} or {R}.",
+   "potential_colors": "UR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UR",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "conditional_untapped"
+   ],
+   "card": "Sulfur Falls",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "This land enters tapped unless you control an Island or a Mountain.\n{T}: Add {U} or {R}.",
+   "potential_colors": "UR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UR",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [],
+   "card": "Sulfurous Springs",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {B} or {R}. This land deals 1 damage to you.",
+   "potential_colors": "BR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "BR",
+   "utility_categories": [
+    "cost_reduction_or_ramp",
+    "removal_or_damage"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "single_color_source"
+   ],
+   "card": "Takenuma, Abandoned Mire",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {B}.\nChannel — {3}{B}, Discard this card: Mill three cards, then return a creature or planeswalker card from your graveyard to your hand. This ability costs {1} less to activate for each legendary creature you control.",
+   "potential_colors": "B",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "B",
+   "utility_categories": [
+    "cost_reduction_or_ramp",
+    "graveyard",
+    "recursion"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "conditional_untapped"
+   ],
+   "card": "Training Center",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {R}.",
+   "potential_colors": "UR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UR",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  }
+ ]
+}

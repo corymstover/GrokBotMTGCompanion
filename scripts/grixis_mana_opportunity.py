@@ -180,8 +180,13 @@ def build_one(did,entry,db):
     slug=entry["slug"]; base=load(BASE/f"{slug}.json"); timing=load(TIMING/f"{slug}.json"); blue=load(BLUE/f"{slug}.json"); srcs=source_map(timing); nodes=graph_nodes(slug); lib=library(entry,db)
     byname={}
     for n,c in lib: byname.setdefault(n,c)
+    # 68.1 used a deliberately narrow utility heuristic. 68.4 widens the review population to any strict land
+    # with direct non-mana utility text, while preserving the old list as a signal source.
+    utility_names=set(base["utility_opportunity_cost"]["utility_lands"])
+    for name,c in byname.items():
+        if c["land"] and utility_categories(c): utility_names.add(name)
     utilities=[]
-    for name in base["utility_opportunity_cost"]["utility_lands"]:
+    for name in sorted(utility_names):
         c=byname.get(name); src=srcs.get(name)
         if c and src: utilities.append(utility_record(name,c,src,blue,nodes.get(name)))
     mdfcs=[]

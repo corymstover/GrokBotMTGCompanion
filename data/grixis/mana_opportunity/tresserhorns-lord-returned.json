@@ -1,0 +1,438 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C opportunity-cost evidence does not rank/cut lands; burden and Commander-first support remain separate for later judgment."
+ },
+ "canonical_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
+ "commander_land_text_hooks": [],
+ "confidence": "moderate",
+ "deck_id": "Tresserhorn_s_Lord__Returned",
+ "evidence_class": "derived_metric",
+ "inputs": {
+  "blueprint": "data/grixis/blueprints/tresserhorns-lord-returned.json",
+  "graph": "data/grixis/graph/tresserhorns-lord-returned.json",
+  "mana_base": "data/grixis/mana_base/tresserhorns-lord-returned.json",
+  "mana_timing": "data/grixis/mana_timing/tresserhorns-lord-returned.json"
+ },
+ "land_type_context": {
+  "blueprint_named_lands": [
+   "Cavern of Souls",
+   "High Market",
+   "Kher Keep",
+   "Phyrexian Tower"
+  ],
+  "commander_text_relevant_types": [],
+  "interpretation": "Commander Oracle land/type matches are textual hooks only; they may be opponent-facing or otherwise non-beneficial and require rules/strategic judgment.",
+  "typed_land_counts": {
+   "Island": 8,
+   "Mountain": 8,
+   "Swamp": 9
+  }
+ },
+ "limitations": [
+  "No universal opportunity-cost score is produced; color/timing burdens and strategic support signals stay separate.",
+  "Blueprint exact-name mentions are Commander-first evidence, not automatic protections; absence is not evidence that a land lacks strategic value.",
+  "Utility categories are Oracle-text heuristics and do not price the magnitude, activation cost, timing window or multiplayer value of the effect.",
+  "Commander land/type matches are textual hooks only and can be opponent-facing (for example landwalk) or otherwise irrelevant to own mana-base construction.",
+  "MDFCs are represented as spell/land option-value tradeoffs; later candidate optimization decides whether that flexibility is worth the tapped/color/slot cost.",
+  "Graph package/identity signals are inherited accepted M4 evidence but do not decide a mana-base swap by themselves."
+ ],
+ "mdfcs": [
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "MDFC flexibility is recorded as an option-value tradeoff; this does not silently count the card as a full land or a free spell slot."
+   },
+   "blueprint_named": false,
+   "card": "Boggart Trawler // Boggart Bog",
+   "graph_packages": [],
+   "graph_roles": [
+    "land",
+    "ramp"
+   ],
+   "land_face": {
+    "entry_timing": "untapped_by_default",
+    "potential_colors": "",
+    "unconditional_colors": ""
+   },
+   "spell_face": {
+    "colored_pip_equivalents": {},
+    "mana_cost": "—",
+    "mana_value": 0.0
+   },
+   "support_flags": [],
+   "tradeoff_flags": [
+    "no_usable_grixis_color"
+   ]
+  }
+ ],
+ "schema_version": 1,
+ "slug": "tresserhorns-lord-returned",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_named_utility_lands": 4,
+  "commander_land_hook_count": 0,
+  "mdfc_count": 1,
+  "utility_burden_flags": {
+   "conditional_mana_ability": 1,
+   "conditional_untapped": 3,
+   "no_usable_grixis_color": 2,
+   "single_color_source": 2
+  },
+  "utility_land_count": 13,
+  "utility_support_flags": {
+   "graph_package_member": 2,
+   "named_in_blueprint": 4,
+   "nonmana_utility_text": 13
+  }
+ },
+ "utility_lands": [
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [],
+   "card": "Bloodstained Mire",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle.",
+   "potential_colors": "UBR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UBR",
+   "utility_categories": [
+    "sacrifice",
+    "tutor_or_search"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": true,
+   "burden_flags": [
+    "conditional_mana_ability"
+   ],
+   "card": "Cavern of Souls",
+   "conditional_mana_ability": true,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "As this land enters, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered.",
+   "potential_colors": "UBR",
+   "support_flags": [
+    "named_in_blueprint",
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": true,
+   "burden_flags": [
+    "no_usable_grixis_color"
+   ],
+   "card": "High Market",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [
+    "pkg:outlets"
+   ],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {C}.\n{T}, Sacrifice a creature: You gain 1 life.",
+   "potential_colors": "",
+   "support_flags": [
+    "graph_package_member",
+    "named_in_blueprint",
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "",
+   "utility_categories": [
+    "cost_reduction_or_ramp",
+    "sacrifice"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": true,
+   "burden_flags": [
+    "no_usable_grixis_color"
+   ],
+   "card": "Kher Keep",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {C}.\n{1}{R}, {T}: Create a 0/1 red Kobold creature token named Kobolds of Kher Keep.",
+   "potential_colors": "",
+   "support_flags": [
+    "named_in_blueprint",
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "",
+   "utility_categories": [
+    "cost_reduction_or_ramp",
+    "creature_mode",
+    "token"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "conditional_untapped"
+   ],
+   "card": "Luxury Suite",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {B} or {R}.",
+   "potential_colors": "BR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "BR",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "conditional_untapped"
+   ],
+   "card": "Morphic Pool",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {B}.",
+   "potential_colors": "UB",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UB",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": true,
+   "burden_flags": [
+    "single_color_source"
+   ],
+   "card": "Phyrexian Tower",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [
+    "pkg:outlets"
+   ],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {C}.\n{T}, Sacrifice a creature: Add {B}{B}.",
+   "potential_colors": "B",
+   "support_flags": [
+    "graph_package_member",
+    "named_in_blueprint",
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "B",
+   "utility_categories": [
+    "cost_reduction_or_ramp",
+    "sacrifice"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [],
+   "card": "Polluted Delta",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle.",
+   "potential_colors": "UBR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UBR",
+   "utility_categories": [
+    "sacrifice",
+    "tutor_or_search"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [],
+   "card": "Scalding Tarn",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle.",
+   "potential_colors": "UBR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UBR",
+   "utility_categories": [
+    "sacrifice",
+    "tutor_or_search"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "single_color_source"
+   ],
+   "card": "Shizo, Death's Storehouse",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {B}.\n{B}, {T}: Target legendary creature gains fear until end of turn. (It can't be blocked except by artifact creatures and/or black creatures.)",
+   "potential_colors": "B",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "B",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [],
+   "card": "Sulfurous Springs",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {B} or {R}. This land deals 1 damage to you.",
+   "potential_colors": "BR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "BR",
+   "utility_categories": [
+    "cost_reduction_or_ramp",
+    "removal_or_damage"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "conditional_untapped"
+   ],
+   "card": "Training Center",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {R}.",
+   "potential_colors": "UR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UR",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [],
+   "card": "Underground River",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {B}. This land deals 1 damage to you.",
+   "potential_colors": "UB",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "UB",
+   "utility_categories": [
+    "cost_reduction_or_ramp",
+    "removal_or_damage"
+   ]
+  }
+ ]
+}
