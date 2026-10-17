@@ -1,0 +1,42 @@
+name: ChatGPT cycle 77 - M6 final J receipt gate
+
+on:
+  push:
+    branches:
+      - chatgpt-cycle77-ij-sealing
+    paths:
+      - .github/workflows/chatgpt-cycle77-m6-j-bundles.yml
+      - scripts/grixis_m6_bundle_check.py
+      - tests/test_m6_bundle_check.py
+      - data/grixis/schemas/m6_reproducibility_bundle.schema.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  final-bundle-check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle77-ij-sealing
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m unittest discover -s tests -p 'test_m6_bundle_check.py' -v
+      - run: python scripts/grixis_m6_bundle_check.py --check
+      - name: No approval, lock, or canonical modification
+        run: |
+          git diff --exit-code
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          reg=json.loads(Path('data/grixis/registry.json').read_text())
+          assert len(reg['decks'])==62
+          assert reg['program']['milestones']['M6']['accepted_by'] is None
+          assert reg['program']['milestones']['M6']['accepted_date'] is None
+          print('future final-bundle contract remains non-authoritative')
+          PY
