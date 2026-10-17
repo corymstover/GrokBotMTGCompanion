@@ -1,0 +1,200 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Obeka's combat-damage trigger is the deck's resource multiplier, and she's in all 5 Spellbook combos in the list.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "Strongly commander-native: every combo includes Obeka (Time Sieve + Court of Vantress/Thopter Spy Network/Replicating Ring/Smaug; Mechanized Production). She has to connect in combat first, so a 2/5 menace attacker is the bottleneck, and the extra upkeeps arrive after combat. M1 review (obekass-01..05, all verified) confirms the extra-upkeep rules; Roaming Throne + Wizard's Staff gives three triggers, not four (obekass-03).",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Obeka, Splitter of Seconds"
+    ],
+    "id": "extra-upkeeps",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "damage-multiplication",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:damage-trigger-scaling",
+    "min_count": 5,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:upkeep-engines",
+    "min_count": 10,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:suspend",
+    "min_count": 4,
+    "required": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:connection",
+    "min_count": 5,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Obeka, Splitter of Seconds"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "time-sieve-turns",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Obeka, Splitter of Seconds"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "alt-wins",
+    "kind": "alternate"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Obeka, Splitter of Seconds"
+    ],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "advantage-combat",
+    "kind": "natural"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Mechanized Production"
+   ],
+   "direct_commander_pieces": [
+    "Obeka, Splitter of Seconds"
+   ],
+   "id": "2047-5471",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Time Sieve",
+    "Court of Vantress"
+   ],
+   "direct_commander_pieces": [
+    "Obeka, Splitter of Seconds"
+   ],
+   "id": "1469-1558-5471",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Time Sieve",
+    "Thopter Spy Network"
+   ],
+   "direct_commander_pieces": [
+    "Obeka, Splitter of Seconds"
+   ],
+   "id": "1558-5085-5471",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Time Sieve",
+    "Replicating Ring"
+   ],
+   "direct_commander_pieces": [
+    "Obeka, Splitter of Seconds"
+   ],
+   "id": "1558-5471-7348",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Obeka, Splitter of Seconds",
+    "Smaug the Magnificent",
+    "Time Sieve"
+   ],
+   "direct_commander_pieces": [
+    "Obeka, Splitter of Seconds"
+   ],
+   "id": "1558-5471-7651",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  }
+ ],
+ "commanders": [
+  "Obeka, Splitter of Seconds"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Obeka__Splitter_of_Seconds",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "obeka-splitter-of-seconds",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 3,
+  "blueprint_wins_explicit_commander": 3,
+  "blueprint_wins_structurally_independent": 0,
+  "combo_blueprint_supported": 0,
+  "combo_commander_independent": 0,
+  "combo_direct_commander_piece": 5,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 3,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 5
+ }
+}

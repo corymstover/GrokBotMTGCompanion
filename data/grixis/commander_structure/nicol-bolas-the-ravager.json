@@ -1,0 +1,155 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "The Arisen is the centrepiece planeswalker and Ravager's ETB gives discard.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "All three Spellbook infinites (Teferi + Chain Veil, Teferi + Ichormoon Gauntlet + Chain Veil or Rowan's Talent) are commander-free. Bolas's transform costs seven mana at sorcery speed. He is the deck's best planeswalker rather than its engine, and a superfriends shell would work under another Grixis walker commander. The cycle 51 M1 review (bolasrav-01..08, all verified) confirms the transform and loyalty rules.",
+  "level": "significant"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+    ],
+    "id": "transform",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "loyalty-multiplication",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:planeswalkers",
+    "min_count": 8,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:proliferate",
+    "min_count": 5,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:etb-reset",
+    "min_count": 1,
+    "required": false
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "teferi-veil",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+    ],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "arisen-ultimate",
+    "kind": "alternate"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "superfriends-value",
+    "kind": "natural"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Teferi, Temporal Archmage",
+    "The Chain Veil"
+   ],
+   "direct_commander_pieces": [],
+   "id": "787-1124",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Teferi, Master of Time",
+    "Ichormoon Gauntlet",
+    "The Chain Veil"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1124-1543-2247",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Teferi, Master of Time",
+    "Ichormoon Gauntlet",
+    "Rowan's Talent"
+   ],
+   "direct_commander_pieces": [],
+   "id": "652-1543-2247",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  }
+ ],
+ "commanders": [
+  "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Nicol_Bolas__the_Ravager",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "nicol-bolas-the-ravager",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 3,
+  "blueprint_wins_explicit_commander": 1,
+  "blueprint_wins_structurally_independent": 2,
+  "combo_blueprint_supported": 0,
+  "combo_commander_independent": 3,
+  "combo_direct_commander_piece": 0,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 2,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 3
+ }
+}

@@ -1,0 +1,208 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Mairsil is the engine: every caged ability lives on him, and five of the six Spellbook combos include him.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "Each acquired ability is once per turn per Mairsil object, so the loops need fresh objects (Quicksilver Elemental, blinks, copies). The deck is fragile to graveyard and exile hate on caged cards. The cycle 51 M1 review (mairsil-01..11) verifies the cage rules; mairsil-10 (Marvin without the once-per-turn limit) was re-evaluated in Bot cycle 62 under CR 113.10a: Marvin's copies keep the restriction, so the no-restriction hypothesis is incorrect (M1 post-acceptance correction, data/grixis/m1_corrections.json).",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Mairsil, the Pretender"
+    ],
+    "id": "re-cage",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "tap-payloads",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:cage-payloads",
+    "min_count": 10,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:graveyard-setup",
+    "min_count": 5,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:re-entry",
+    "min_count": 4,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Mairsil, the Pretender"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "quicksilver-lotus",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "rings-alchemist",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Mairsil, the Pretender"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "mairsil-lines",
+    "kind": "combo"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mairsil, the Pretender",
+    "Hateflayer",
+    "Tree of Perdition"
+   ],
+   "direct_commander_pieces": [
+    "Mairsil, the Pretender"
+   ],
+   "id": "2615-4449-5112",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Rings of Brighthearth",
+    "Aphetto Alchemist",
+    "Gilded Lotus"
+   ],
+   "direct_commander_pieces": [],
+   "id": "4091-4235-5116",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mairsil, the Pretender",
+    "Aetherling",
+    "Anger",
+    "Nevinyrral's Disk"
+   ],
+   "direct_commander_pieces": [
+    "Mairsil, the Pretender"
+   ],
+   "id": "1050-4068-4439-5112",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mairsil, the Pretender",
+    "Quicksilver Elemental",
+    "Gilded Lotus",
+    "Staff of Domination"
+   ],
+   "direct_commander_pieces": [
+    "Mairsil, the Pretender"
+   ],
+   "id": "1369-2645-5112-5116",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mairsil, the Pretender",
+    "Quicksilver Elemental",
+    "Gilded Lotus",
+    "Horseshoe Crab"
+   ],
+   "direct_commander_pieces": [
+    "Mairsil, the Pretender"
+   ],
+   "id": "1369-3995-5112-5116",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Mairsil, the Pretender",
+    "Morphling",
+    "Gilded Lotus",
+    "Quicksilver Elemental"
+   ],
+   "direct_commander_pieces": [
+    "Mairsil, the Pretender"
+   ],
+   "id": "1369-5112-5116-5137",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  }
+ ],
+ "commanders": [
+  "Mairsil, the Pretender"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Mairsil__the_Pretender",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "mairsil-the-pretender",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 3,
+  "blueprint_wins_explicit_commander": 2,
+  "blueprint_wins_structurally_independent": 1,
+  "combo_blueprint_supported": 0,
+  "combo_commander_independent": 1,
+  "combo_direct_commander_piece": 5,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 3,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 6
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Brass's combat trigger is a free Pirate reanimation every turn; the self-mill and Pirate-ETB choices exist for it.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "Finality counters exile the returned Pirate when it would die, so each card is usually a one-shot unless Power Conduit removes the counter; the engine slowly consumes the graveyard.",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Admiral Brass, Unsinkable"
+    ],
+    "id": "combat-reanimation",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pirate-etb-value",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:graveyard-setup",
+    "min_count": 4,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:reanimation",
+    "min_count": 4,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:high-impact-pirates",
+    "min_count": 8,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:finality-removal",
+    "min_count": 1,
+    "required": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:interaction-protection",
+    "min_count": 8,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Admiral Brass, Unsinkable"
+    ],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "reanimated-pirate-beats",
+    "kind": "natural"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "moderate",
+    "evidence_class": "fact",
+    "id": "mass-reanimation",
+    "kind": "natural"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
+ "combo_routes": [],
+ "commanders": [
+  "Admiral Brass, Unsinkable"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Admiral_Brass__Unsinkable",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "admiral-brass-unsinkable",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 2,
+  "blueprint_wins_explicit_commander": 1,
+  "blueprint_wins_structurally_independent": 1,
+  "combo_blueprint_supported": 0,
+  "combo_commander_independent": 0,
+  "combo_direct_commander_piece": 0,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 4,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 0
+ }
+}

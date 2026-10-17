@@ -1,0 +1,133 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Tetsuo's activation is the deck's repeatable removal, and the untap suite exists to reuse it.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "Commander-native control. The one Spellbook combo (283-4091, Illusionist's Bracers + Aphetto Alchemist) gives infinite untaps but no mana, so Tetsuo still pays {U}{B}{B}{R} per activation. There is no compact kill; the deck wins by grinding and combat. The source calls Tetsuo mana-intensive and board-dependent (blueprint L43).",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Tetsuo Umezawa"
+    ],
+    "id": "destroy-tapped-or-blocking",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "untap-suite",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "copy-activation",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:untap",
+    "min_count": 7,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:target-makers",
+    "min_count": 8,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:payoffs",
+    "min_count": 3,
+    "required": false
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Tetsuo Umezawa"
+    ],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "grind-and-goad",
+    "kind": "natural"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Tetsuo Umezawa"
+    ],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "bracers-alchemist",
+    "kind": "combo"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [
+    "Tetsuo Umezawa"
+   ],
+   "cards": [
+    "Illusionist's Bracers",
+    "Aphetto Alchemist"
+   ],
+   "direct_commander_pieces": [],
+   "id": "283-4091",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  }
+ ],
+ "commanders": [
+  "Tetsuo Umezawa"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Tetsuo_Umezawa",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "tetsuo-umezawa",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 2,
+  "blueprint_wins_explicit_commander": 2,
+  "blueprint_wins_structurally_independent": 0,
+  "combo_blueprint_supported": 1,
+  "combo_commander_independent": 0,
+  "combo_direct_commander_piece": 0,
+  "engines": 3,
+  "engines_explicit_commander": 1,
+  "required_packages": 2,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 1
+ }
+}

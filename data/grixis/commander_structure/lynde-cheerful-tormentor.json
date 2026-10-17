@@ -1,0 +1,115 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Lynde is the Curse recursion and the draw-two engine; the reset outlets only exist to feed her.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "There is no compact win: Commander Spellbook finds no combos in the list, so the deck wins slowly through stacked Curse damage. Returned Curses also hit you until Lynde moves them (M1 lynde-06).",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Lynde, Cheerful Tormentor"
+    ],
+    "id": "curse-reset",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Lynde, Cheerful Tormentor"
+    ],
+    "id": "extra-upkeeps",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:curses",
+    "min_count": 15,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:reset-outlets",
+    "min_count": 4,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:extra-upkeep",
+    "min_count": 3,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Lynde, Cheerful Tormentor"
+    ],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "curse-attrition",
+    "kind": "natural"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Lynde, Cheerful Tormentor"
+    ],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "constellation-drain",
+    "kind": "natural"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+ "combo_routes": [],
+ "commanders": [
+  "Lynde, Cheerful Tormentor"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Lynde__Cheerful_Tormentor",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "lynde-cheerful-tormentor",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 2,
+  "blueprint_wins_explicit_commander": 2,
+  "blueprint_wins_structurally_independent": 0,
+  "combo_blueprint_supported": 0,
+  "combo_commander_independent": 0,
+  "combo_direct_commander_piece": 0,
+  "engines": 2,
+  "engines_explicit_commander": 2,
+  "required_packages": 3,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 0
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Loki's attack copy and Villain combat draw are the deck's main engine.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "There is no compact win: Commander Spellbook finds no combos in the list. The copy enters attacking, so attack-trigger Villains do nothing as targets (M1 loki-01). Loki has to attack and survive combat to generate value.",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Loki, the Deceiver"
+    ],
+    "id": "attack-copy",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "keep-copies",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:villains",
+    "min_count": 20,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:copy",
+    "min_count": 5,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Loki, the Deceiver"
+    ],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "villain-combat",
+    "kind": "natural"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Loki, the Deceiver"
+    ],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "card-advantage-grind",
+    "kind": "natural"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68",
+ "combo_routes": [],
+ "commanders": [
+  "Loki, the Deceiver"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Loki__the_Deceiver",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "loki-the-deceiver",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 2,
+  "blueprint_wins_explicit_commander": 2,
+  "blueprint_wins_structurally_independent": 0,
+  "combo_blueprint_supported": 0,
+  "combo_commander_independent": 0,
+  "combo_direct_commander_piece": 0,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 2,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 0
+ }
+}

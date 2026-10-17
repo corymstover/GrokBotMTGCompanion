@@ -1,0 +1,320 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Eminence doubles every Wizard ETB without Inalla being cast; she's needed for the Bloodline + Technomancer loop and her five-Wizard tap closes it.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "The deck mostly doesn't cast her (decisions L16). The nine Scholar + sacrifice-ritual loops, Oracle and Breach all win without Inalla, and the one-card Spellseeker line is rated uncertain in M1 (inalla-06).",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Inalla, Archmage Ritualist"
+    ],
+    "id": "eminence-copies",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "fast-mana-tutors",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:wizards",
+    "min_count": 8,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:sac-reanimate",
+    "min_count": 8,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:interaction",
+    "min_count": 6,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Inalla, Archmage Ritualist"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "bloodline-technomancer",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Inalla, Archmage Ritualist"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "scholar-loops",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "oracle-breach",
+    "kind": "combo"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Tainted Pact",
+    "Thassa's Oracle"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1295-3093",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Demonic Consultation",
+    "Thassa's Oracle"
+   ],
+   "direct_commander_pieces": [],
+   "id": "742-1295",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Underworld Breach",
+    "Lotus Petal",
+    "Brain Freeze"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1368-1414-4856",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Wheel of Fortune"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1368-2706-3518",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1368-3518-4856",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Inalla, Archmage Ritualist",
+    "Bloodline Necromancer",
+    "Ruthless Technomancer"
+   ],
+   "direct_commander_pieces": [
+    "Inalla, Archmage Ritualist"
+   ],
+   "id": "1869-2721-3719",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Inalla, Archmage Ritualist"
+   ],
+   "cards": [
+    "Saw in Half",
+    "Sacrifice",
+    "Scholar of the Ages"
+   ],
+   "direct_commander_pieces": [],
+   "id": "500-813-1181",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Inalla, Archmage Ritualist"
+   ],
+   "cards": [
+    "Saw in Half",
+    "Burnt Offering",
+    "Scholar of the Ages"
+   ],
+   "direct_commander_pieces": [],
+   "id": "500-813-1777",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Inalla, Archmage Ritualist"
+   ],
+   "cards": [
+    "Saw in Half",
+    "Culling the Weak",
+    "Scholar of the Ages"
+   ],
+   "direct_commander_pieces": [],
+   "id": "500-813-2081",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Inalla, Archmage Ritualist"
+   ],
+   "cards": [
+    "Scholar of the Ages",
+    "Sacrifice",
+    "Shallow Grave"
+   ],
+   "direct_commander_pieces": [],
+   "id": "813-1181-1893",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Inalla, Archmage Ritualist"
+   ],
+   "cards": [
+    "Scholar of the Ages",
+    "Sacrifice",
+    "Persist"
+   ],
+   "direct_commander_pieces": [],
+   "id": "813-1181-2171",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Inalla, Archmage Ritualist"
+   ],
+   "cards": [
+    "Scholar of the Ages",
+    "Burnt Offering",
+    "Shallow Grave"
+   ],
+   "direct_commander_pieces": [],
+   "id": "813-1777-1893",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Inalla, Archmage Ritualist"
+   ],
+   "cards": [
+    "Scholar of the Ages",
+    "Burnt Offering",
+    "Persist"
+   ],
+   "direct_commander_pieces": [],
+   "id": "813-1777-2171",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Inalla, Archmage Ritualist"
+   ],
+   "cards": [
+    "Scholar of the Ages",
+    "Shallow Grave",
+    "Culling the Weak"
+   ],
+   "direct_commander_pieces": [],
+   "id": "813-1893-2081",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [
+    "Inalla, Archmage Ritualist"
+   ],
+   "cards": [
+    "Scholar of the Ages",
+    "Culling the Weak",
+    "Persist"
+   ],
+   "direct_commander_pieces": [],
+   "id": "813-2081-2171",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  }
+ ],
+ "commanders": [
+  "Inalla, Archmage Ritualist"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Inalla__Archmage_Ritualist",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "inalla-archmage-ritualist",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 3,
+  "blueprint_wins_explicit_commander": 2,
+  "blueprint_wins_structurally_independent": 1,
+  "combo_blueprint_supported": 9,
+  "combo_commander_independent": 5,
+  "combo_direct_commander_piece": 1,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 3,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 15
+ }
+}

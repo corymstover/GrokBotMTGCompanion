@@ -1,0 +1,322 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Wick is the Snail factory and the damage-and-draw outlet.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "Commander-native combo: 12 of the 13 Spellbook combos name Wick (Wick + a type-changer + a free outlet); the 13th (1636-3126, Marrow-Gnawer + Intruder Alarm) doesn't. Wick costs {3}{B}, but the activation needs {U}{B}{R}, and Cavern of Souls mana can't pay it (verification L64).",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Wick, the Whorled Mind"
+    ],
+    "id": "snail-engine",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "type-change",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:rats",
+    "min_count": 12,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:type-changers",
+    "min_count": 3,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:outlets",
+    "min_count": 5,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:snail-growth",
+    "min_count": 4,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Wick, the Whorled Mind"
+    ],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "snail-rat-loop",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Wick, the Whorled Mind"
+    ],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "gnawer-alarm",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Wick, the Whorled Mind"
+    ],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "big-snail",
+    "kind": "natural"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Wick, the Whorled Mind"
+    ],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "tainted-strike",
+    "kind": "alternate"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [
+    "Wick, the Whorled Mind"
+   ],
+   "cards": [
+    "Marrow-Gnawer",
+    "Intruder Alarm"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1636-3126",
+   "mode": "blueprint_supported",
+   "structural_hint": "commander_supported_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Ashnod's Altar",
+    "Leyline of Transformation"
+   ],
+   "direct_commander_pieces": [
+    "Wick, the Whorled Mind"
+   ],
+   "id": "2034-5853-5929",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Viscera Seer",
+    "Leyline of Transformation"
+   ],
+   "direct_commander_pieces": [
+    "Wick, the Whorled Mind"
+   ],
+   "id": "2292-5853-5929",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Carrion Feeder",
+    "Leyline of Transformation"
+   ],
+   "direct_commander_pieces": [
+    "Wick, the Whorled Mind"
+   ],
+   "id": "2438-5853-5929",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Phyrexian Altar",
+    "Leyline of Transformation"
+   ],
+   "direct_commander_pieces": [
+    "Wick, the Whorled Mind"
+   ],
+   "id": "4050-5853-5929",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Goblin Bombardment",
+    "Leyline of Transformation"
+   ],
+   "direct_commander_pieces": [
+    "Wick, the Whorled Mind"
+   ],
+   "id": "5147-5853-5929",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Altar of Dementia",
+    "Leyline of Transformation"
+   ],
+   "direct_commander_pieces": [
+    "Wick, the Whorled Mind"
+   ],
+   "id": "5256-5853-5929",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Ashnod's Altar",
+    "Arcane Adaptation"
+   ],
+   "direct_commander_pieces": [
+    "Wick, the Whorled Mind"
+   ],
+   "id": "803-2034-5853",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Viscera Seer",
+    "Arcane Adaptation"
+   ],
+   "direct_commander_pieces": [
+    "Wick, the Whorled Mind"
+   ],
+   "id": "803-2292-5853",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Arcane Adaptation",
+    "Carrion Feeder"
+   ],
+   "direct_commander_pieces": [
+    "Wick, the Whorled Mind"
+   ],
+   "id": "803-2438-5853",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Phyrexian Altar",
+    "Arcane Adaptation"
+   ],
+   "direct_commander_pieces": [
+    "Wick, the Whorled Mind"
+   ],
+   "id": "803-4050-5853",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Goblin Bombardment",
+    "Arcane Adaptation"
+   ],
+   "direct_commander_pieces": [
+    "Wick, the Whorled Mind"
+   ],
+   "id": "803-5147-5853",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Wick, the Whorled Mind",
+    "Altar of Dementia",
+    "Arcane Adaptation"
+   ],
+   "direct_commander_pieces": [
+    "Wick, the Whorled Mind"
+   ],
+   "id": "803-5256-5853",
+   "mode": "direct_commander_piece",
+   "structural_hint": "commander_native_combo"
+  }
+ ],
+ "commanders": [
+  "Wick, the Whorled Mind"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Wick__the_Whorled_Mind",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "wick-the-whorled-mind",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 4,
+  "blueprint_wins_explicit_commander": 4,
+  "blueprint_wins_structurally_independent": 0,
+  "combo_blueprint_supported": 1,
+  "combo_commander_independent": 0,
+  "combo_direct_commander_piece": 12,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 4,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 13
+ }
+}

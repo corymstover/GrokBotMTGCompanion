@@ -1,0 +1,325 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "Ashnod doubles every non-mana ability that sacrificed something to activate: copied Time Sieve is two extra turns, copied Trading Post is two cards or two artifacts back.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "The source blueprint describes an older 'once each turn, nontoken' Ashnod; current Oracle has no turn limit and tokens count (M1 ashnod-01). The deck is stronger than the source text implies, and its infinites run without Ashnod.",
+  "level": "central"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Ashnod the Uncaring"
+    ],
+    "id": "copy-sac-abilities",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "leave-play-payoffs",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:sac-cost-artifacts",
+    "min_count": 8,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:sac-outlets",
+    "min_count": 5,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:artifact-recursion",
+    "min_count": 6,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:drain-payoffs",
+    "min_count": 3,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "trawler-retriever-loop",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "deathmantle-loop",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "scorpion-foundry",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "Ashnod the Uncaring"
+    ],
+    "confidence": "verified",
+    "evidence_class": "fact",
+    "id": "copied-time-sieve",
+    "kind": "natural"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Dross Scorpion",
+    "Retrofitter Foundry",
+    "Ashnod's Altar"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2034-2797-4853",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Nim Deathmantle",
+    "Ashnod's Altar",
+    "Marionette Apprentice"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2034-5003-6199",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Dross Scorpion",
+    "Retrofitter Foundry",
+    "Krark-Clan Ironworks"
+   ],
+   "direct_commander_pieces": [],
+   "id": "2797-4659-4853",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Nim Deathmantle",
+    "Ashnod's Altar",
+    "Urza, Lord High Artificer"
+   ],
+   "direct_commander_pieces": [],
+   "id": "457-2034-5003",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Farid, Enterprising Salvager",
+    "Nim Deathmantle",
+    "Krark-Clan Ironworks"
+   ],
+   "direct_commander_pieces": [],
+   "id": "4659-5003-5272",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Scrap Trawler",
+    "Myr Retriever",
+    "Ashnod's Altar",
+    "Etherium Sculptor"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1020-1976-2034-2866",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Scrap Trawler",
+    "Myr Retriever",
+    "Krark-Clan Ironworks",
+    "Etherium Sculptor"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1020-1976-2866-4659",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Scrap Trawler",
+    "Myr Retriever",
+    "Ashnod's Altar",
+    "Enthusiastic Mechanaut"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1020-2034-2866-4908",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Sai, Master Thopterist",
+    "Myr Retriever",
+    "Scrap Trawler",
+    "Ashnod's Altar"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1020-2034-2866-4947",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Crime Novelist",
+    "Ashnod's Altar",
+    "Myr Retriever",
+    "Scrap Trawler"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1020-2034-2866-5346",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Scrap Trawler",
+    "Myr Retriever",
+    "Krark-Clan Ironworks",
+    "Enthusiastic Mechanaut"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1020-2866-4659-4908",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Sai, Master Thopterist",
+    "Myr Retriever",
+    "Scrap Trawler",
+    "Krark-Clan Ironworks"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1020-2866-4659-4947",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Crime Novelist",
+    "Krark-Clan Ironworks",
+    "Myr Retriever",
+    "Scrap Trawler"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1020-2866-4659-5346",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Scrap Trawler",
+    "Myr Retriever",
+    "Ashnod's Altar",
+    "Foundry Inspector"
+   ],
+   "direct_commander_pieces": [],
+   "id": "777-1020-2034-2866",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Scrap Trawler",
+    "Myr Retriever",
+    "Krark-Clan Ironworks",
+    "Foundry Inspector"
+   ],
+   "direct_commander_pieces": [],
+   "id": "777-1020-2866-4659",
+   "mode": "commander_independent",
+   "structural_hint": "unlinked_spellbook_combo"
+  }
+ ],
+ "commanders": [
+  "Ashnod the Uncaring"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "Ashnod_the_Uncaring",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "ashnod-the-uncaring",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 4,
+  "blueprint_wins_explicit_commander": 1,
+  "blueprint_wins_structurally_independent": 3,
+  "combo_blueprint_supported": 0,
+  "combo_commander_independent": 15,
+  "combo_direct_commander_piece": 0,
+  "engines": 2,
+  "engines_explicit_commander": 1,
+  "required_packages": 4,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 15
+ }
+}

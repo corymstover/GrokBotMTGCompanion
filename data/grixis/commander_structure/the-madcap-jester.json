@@ -1,0 +1,175 @@
+{
+ "accepted_blueprint_role": {
+  "advances_plan": "The Jester turns every library exile into card access, and its attack trigger is a built-in exile burst.",
+  "confidence": "high",
+  "evidence_class": "strategic_judgment",
+  "honest_note": "Honest call: significant. None of the four Spellbook combos uses the Jester; the kills are generic Grixis cEDH lines (Oracle/Consult, Oracle/Tainted Pact, Breach + LED/Petal + Brain Freeze). The source added Consultation and Tainted Pact explicitly to complete them (decisions L27, L28). The Jester is a future-release card (project exception, legal from 2026-11-13 per decisions L57) and is not officially Commander-legal today.",
+  "level": "significant"
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Structural commander-reference counts are a counterfactual prior only; they cannot decide deck changes or commander value."
+ },
+ "blueprint_routes": {
+  "engines": [
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "The Madcap Jester"
+    ],
+    "id": "exile-play-permission",
+    "online_condition_mentions_commander": false
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "The Madcap Jester"
+    ],
+    "id": "hasty-attack",
+    "online_condition_mentions_commander": false
+   }
+  ],
+  "packages": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:library-exile",
+    "min_count": 8,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:exile-payoffs",
+    "min_count": 8,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:compact-wins",
+    "min_count": 5,
+    "required": true
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "id": "pkg:free-protection",
+    "min_count": 6,
+    "required": true
+   }
+  ],
+  "wins": [
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "oracle",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": false,
+    "commander_refs": [],
+    "confidence": "high",
+    "evidence_class": "strategic_judgment",
+    "id": "breach-freeze",
+    "kind": "combo"
+   },
+   {
+    "commander_explicit": true,
+    "commander_refs": [
+     "The Madcap Jester"
+    ],
+    "confidence": "moderate",
+    "evidence_class": "strategic_judgment",
+    "id": "exile-theft-value",
+    "kind": "natural"
+   }
+  ]
+ },
+ "canonical_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+ "combo_routes": [
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Tainted Pact",
+    "Thassa's Oracle"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1295-3093",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Demonic Consultation",
+    "Thassa's Oracle"
+   ],
+   "direct_commander_pieces": [],
+   "id": "742-1295",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Underworld Breach",
+    "Lotus Petal",
+    "Brain Freeze"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1368-1414-4856",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  },
+  {
+   "blueprint_commander_support": [],
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze"
+   ],
+   "direct_commander_pieces": [],
+   "id": "1368-3518-4856",
+   "mode": "commander_independent",
+   "structural_hint": "commander_independent_power_package"
+  }
+ ],
+ "commanders": [
+  "The Madcap Jester"
+ ],
+ "confidence": "moderate",
+ "counterfactual_questions": [
+  "Which declared wins disappear or change when the commander is unavailable?",
+  "Which declared engines/packages explicitly require the commander?",
+  "Which Spellbook lines remain structurally independent?",
+  "How much dynamic card economy, action efficiency, assembly speed and recovery actually changes? (deferred to later Step D batches)"
+ ],
+ "deck_id": "The_Madcap_Jester",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "Exact-name/Blueprint support is structural evidence, not a complete rules-interaction detector.",
+  "A route without an explicit commander reference may still gain substantial value from the commander in play.",
+  "A route with an explicit commander reference may have redundant alternate routes not captured by a single Blueprint field.",
+  "Counts are intentionally not combined into a synthetic commander-value score.",
+  "Dynamic effects on cards drawn, meaningful actions, mana spent, combo timing and recovery require the Step D counterfactual simulator layer."
+ ],
+ "schema_version": 1,
+ "slug": "the-madcap-jester",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_wins": 3,
+  "blueprint_wins_explicit_commander": 1,
+  "blueprint_wins_structurally_independent": 2,
+  "combo_blueprint_supported": 0,
+  "combo_commander_independent": 4,
+  "combo_direct_commander_piece": 0,
+  "engines": 2,
+  "engines_explicit_commander": 2,
+  "required_packages": 4,
+  "required_packages_explicit_commander": 0,
+  "spellbook_lines": 4
+ }
+}
