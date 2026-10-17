@@ -25,6 +25,26 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
+      - name: Restore SHA-256-verified original frozen development snapshot (offline after this step)
+        run: |
+          python - <<'PY'
+          import hashlib, pathlib, urllib.request
+          source=[
+           ('oracle-cards','oracle-cards-20261016090200.jsonl.gz','ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483'),
+           ('rulings','rulings-20261015090033.jsonl.gz','3d2dfbd501d1f1b35146e9c57b91121cb6f01f8aa5f88b19c3f28ad31492c85a'),
+           ('default-cards','default-cards-20261015090541.jsonl.gz','f902a9a655c9854f535a8f02b1374540c564e31ef405ec8325acb2adbb6672f8'),
+          ]
+          d=pathlib.Path('.cache');d.mkdir(exist_ok=True)
+          for kind,name,want in source:
+              url='https://data.scryfall.io/'+kind+'/'+name
+              dest=d/name
+              urllib.request.urlretrieve(url,dest)
+              got=hashlib.sha256(dest.read_bytes()).hexdigest()
+              if got!=want:
+                  raise SystemExit('FROZEN SNAPSHOT HASH MISMATCH: '+name)
+              print('verified unchanged frozen snapshot',name,dest.stat().st_size)
+          PY
+          python scripts/check_dev_snapshot_lock.py
       - name: Run strictly pre-registered identical-seed one-swap mana evidence
         run: python scripts/grixis_m6_abaddon_mana_pair.py --build --check
       - name: No canonical or approval changes
