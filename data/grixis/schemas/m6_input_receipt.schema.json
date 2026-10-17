@@ -1,0 +1,151 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/m6_input_receipt.schema.json",
+  "title": "M6 I/J immutable-input and reproducibility prerequisite receipt",
+  "description": "Records checked hashes of accepted Birthday M5 inputs and decision-preparation artifacts. NOT a Phase-B result, zero-improvement certificate, strategic judgment, or authorization.",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "stage": {
+      "const": "M6_IJ_input_receipt"
+    },
+    "deck_id": {
+      "$ref": "common.schema.json#/$defs/deck_id"
+    },
+    "slug": {
+      "$ref": "common.schema.json#/$defs/slug"
+    },
+    "list_hash": {
+      "$ref": "common.schema.json#/$defs/list_hash"
+    },
+    "birthday_snapshot": {
+      "type": "string",
+      "minLength": 1
+    },
+    "accepted_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_corpus_commit": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "inputs": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "properties": {
+          "role": {
+            "enum": [
+              "candidate_pool",
+              "regeneration",
+              "birthday_evidence",
+              "optimizer",
+              "review_packet"
+            ]
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "$ref": "common.schema.json#/$defs/sha256"
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "required": [
+          "role",
+          "path",
+          "sha256",
+          "bytes"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "reproduction": {
+      "type": "object",
+      "properties": {
+        "check_command": {
+          "const": "python scripts/grixis_m6_ij.py --check"
+        },
+        "scope": {
+          "const": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+        },
+        "phase_b_replayed": {
+          "const": false
+        },
+        "positive_simulator_verdicts_decisive": {
+          "const": false
+        }
+      },
+      "required": [
+        "check_command",
+        "scope",
+        "phase_b_replayed",
+        "positive_simulator_verdicts_decisive"
+      ],
+      "additionalProperties": false
+    },
+    "status": {
+      "const": "inputs_attested_downstream_incomplete"
+    },
+    "required_next": {
+      "type": "array",
+      "minItems": 4,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "sealed_independent_A_B_commits",
+          "pass_C_critique",
+          "phase_B_validated_evidence",
+          "judgment_review",
+          "final_receipt_bundle",
+          "tested_pool_local_optimum_certificate"
+        ]
+      }
+    },
+    "authority": {
+      "type": "object",
+      "properties": {
+        "can_apply_swap": {
+          "const": false
+        },
+        "can_decide": {
+          "const": false
+        },
+        "can_approve_or_lock": {
+          "const": false
+        }
+      },
+      "required": [
+        "can_apply_swap",
+        "can_decide",
+        "can_approve_or_lock"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "stage",
+    "deck_id",
+    "slug",
+    "list_hash",
+    "birthday_snapshot",
+    "accepted_at",
+    "source_corpus_commit",
+    "inputs",
+    "reproduction",
+    "status",
+    "required_next",
+    "authority"
+  ],
+  "additionalProperties": false
+}
