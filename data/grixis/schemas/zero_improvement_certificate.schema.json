@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/zero_improvement_certificate.schema.json",
+  "title": "M6 zero-improvement / tested-pool local-optimum certificate",
+  "description": "Evidence contract for M6. A PASS certifies only that no improving substitution remains in the explicitly tested pool under the recorded independent optimizer/reconciliation and Phase-B test evidence. It is never a mathematical/global optimum proof and never approves or locks a deck.",
+  "type": "object",
+  "properties": {
+    "schema_version": {"const": 1},
+    "deck_id": {"$ref": "common.schema.json#/$defs/deck_id"},
+    "slug": {"type": "string", "minLength": 1},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "list_hash": {"$ref": "common.schema.json#/$defs/list_hash"},
+    "candidate_pool": {
+      "type": "object",
+      "properties": {
+        "source_ref": {"type": "string", "minLength": 1},
+        "source_sha256": {"$ref": "common.schema.json#/$defs/sha256"},
+        "tested_pool_size": {"type": "integer", "minimum": 0}
+      },
+      "required": ["source_ref", "source_sha256", "tested_pool_size"],
+      "additionalProperties": false
+    },
+    "optimizer_pass_ref": {"type": "string", "minLength": 1},
+    "reconciliation_complete": {"type": "boolean"},
+    "phase_b": {
+      "type": "object",
+      "properties": {
+        "all_required_tests_pass": {"type": "boolean"},
+        "test_refs": {"type": "array", "items": {"type": "string", "minLength": 1}}
+      },
+      "required": ["all_required_tests_pass", "test_refs"],
+      "additionalProperties": false
+    },
+    "unresolved_requires_human_judgment": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "receipt_refs": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "improving_substitution_found": {"type": "boolean"},
+    "local_optimum_for_tested_pool": {"type": "boolean"},
+    "certificate_status": {"enum": ["pass", "blocked", "incomplete"]},
+    "blockers": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "scope_caveat": {
+      "const": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality."
+    },
+    "authority": {
+      "type": "object",
+      "properties": {
+        "can_decide": {"const": false},
+        "can_approve_or_lock": {"const": false},
+        "note": {"type": "string", "minLength": 1}
+      },
+      "required": ["can_decide", "can_approve_or_lock", "note"],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "deck_id",
+    "slug",
+    "generated_at",
+    "list_hash",
+    "candidate_pool",
+    "optimizer_pass_ref",
+    "reconciliation_complete",
+    "phase_b",
+    "unresolved_requires_human_judgment",
+    "receipt_refs",
+    "improving_substitution_found",
+    "local_optimum_for_tested_pool",
+    "certificate_status",
+    "blockers",
+    "scope_caveat",
+    "authority"
+  ],
+  "allOf": [
+    {
+      "if": {"properties": {"certificate_status": {"const": "pass"}}, "required": ["certificate_status"]},
+      "then": {
+        "properties": {
+          "reconciliation_complete": {"const": true},
+          "phase_b": {"properties": {"all_required_tests_pass": {"const": true}}, "required": ["all_required_tests_pass"]},
+          "unresolved_requires_human_judgment": {"maxItems": 0},
+          "receipt_refs": {"minItems": 1},
+          "improving_substitution_found": {"const": false},
+          "local_optimum_for_tested_pool": {"const": true},
+          "blockers": {"maxItems": 0}
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}
