@@ -1,0 +1,79 @@
+name: ChatGPT cycle 92 - Abaddon threshold candidate paired mana controls
+on:
+  push:
+    branches:
+      - chatgpt-cycle92-abaddon-threshold-roles
+    paths:
+      - .github/workflows/chatgpt-cycle92-threshold-mana.yml
+      - scripts/grixis_m6_abaddon_threshold_access.py
+      - tests/test_m6_abaddon_threshold_access.py
+      - data/grixis/m6/phase_b_plans/abaddon_threshold_access_01.json
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cycle92-threshold
+  cancel-in-progress: true
+jobs:
+  threshold-mana:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle92-abaddon-threshold-roles
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Pre-test role and source-of-truth checks
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_threshold_access.py' -v
+      - name: Restore exact SHA-256-verified frozen Oracle bundle
+        run: |
+          python - <<'PY'
+          import pathlib,urllib.request,hashlib
+          cache=pathlib.Path('.cache');cache.mkdir(exist_ok=True)
+          for kind,name,h in [
+             ('oracle-cards','oracle-cards-20261016090200.jsonl.gz','ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483'),
+             ('rulings','rulings-20261015090033.jsonl.gz','3d2dfbd501d1f1b35146e9c57b91121cb6f01f8aa5f88b19c3f28ad31492c85a'),
+             ('default-cards','default-cards-20261015090541.jsonl.gz','f902a9a655c9854f535a8f02b1374540c564e31ef405ec8325acb2adbb6672f8')]:
+              dest=cache/name
+              urllib.request.urlretrieve('https://data.scryfall.io/'+kind+'/'+name,dest)
+              if hashlib.sha256(dest.read_bytes()).hexdigest()!=h:raise SystemExit('Frozen snapshot checksum mismatch '+name)
+              print('verified frozen source',name)
+          PY
+          python scripts/check_dev_snapshot_lock.py
+      - name: Paired M3.1 goldfish for six alternatives, mana and commander access ONLY
+        run: python -u scripts/grixis_m6_abaddon_threshold_access.py --build --check
+      - name: Enforce 100 cards and zero canonical or approval mutations
+        run: |
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/phase_b_bounded/' | grep -q .; then
+            echo 'Forbidden evidence or canonical mutation';exit 1
+          fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('data/grixis/m6/phase_b_bounded/abaddon_threshold_access_01.json').read_text())
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          assert len(d['alternatives'])==6
+          assert d['samples']==600 and d['seed']==92017
+          assert all(not x['supports_improvement_claim'] for x in d['alternatives'])
+          assert d['supports_improvement_claim'] is False
+          assert d['full_phase_b_complete'] is False
+          assert not any(d['authority'].values())
+          assert len(r['decks'])==62 and r['program']['milestones']['M5']['status']=='accepted'
+          assert r['program']['milestones']['M6']['accepted_by'] is None
+          print('Six partial paired controls only; no Phase-B completeness or deck approval')
+          PY
+      - name: Commit only generated bounded comparison
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/phase_b_bounded/abaddon_threshold_access_01.json
+          if git diff --cached --quiet; then
+            echo 'comparison already current'
+          else
+            git commit -m 'Cycle 92: bound Abaddon six threshold candidate tempo controls [skip ci]'
+            git pull --rebase origin chatgpt-cycle92-abaddon-threshold-roles
+            git push origin HEAD:chatgpt-cycle92-abaddon-threshold-roles
+          fi
