@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "stage": "M6_Abaddon_threshold_caster_access_preregistration",
+  "date": "2026-10-17",
+  "source_plan": "data/grixis/m6/phase_b_plans/abaddon_priority_01.json",
+  "deck_id": "Abaddon_the_Despoiler",
+  "slug": "abaddon-the-despoiler",
+  "canonical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+  "samples": 600,
+  "seed": 92017,
+  "turns": 10,
+  "simulator": "grixis_sim",
+  "model": "1.1",
+  "endpoint_set": [
+    "commander_cast_by_t4",
+    "mana_available_t4",
+    "mana_spent_t1_t6"
+  ],
+  "pairing": "same randomized deck-index permutations, identical simulator model and seed for all one-for-one swap comparisons",
+  "hypothesis": "Expensive sorcery-speed and tap-delayed opponent-life-loss threats may impair immediate commander tempo or replace strategically essential low-cost cascade enablers; mana endpoints alone cannot judge their life-loss effects.",
+  "targeted": [
+    {
+      "add": "Heartless Hidetsugu",
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "existing_m5_id": "swap:abaddon-the-despoiler:m5:d17609747acc",
+      "tag": "registered_core_engine_cut"
+    },
+    {
+      "add": "Heartless Hidetsugu",
+      "cut": "Kessig Flamebreather",
+      "existing_m5_id": "swap:abaddon-the-despoiler:m5:5ac285a18b7a",
+      "tag": "registered_threshold_cut"
+    },
+    {
+      "add": "Heartless Hidetsugu",
+      "cut": "Bituminous Blast",
+      "existing_m5_id": null,
+      "tag": "alternate_noncore_printed_cascade_cut"
+    },
+    {
+      "add": "Tree of Perdition",
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "existing_m5_id": "swap:abaddon-the-despoiler:m5:f2e3f08ecb7d",
+      "tag": "registered_core_engine_cut"
+    },
+    {
+      "add": "Tree of Perdition",
+      "cut": "Kessig Flamebreather",
+      "existing_m5_id": "swap:abaddon-the-despoiler:m5:ba42cedcaa2f",
+      "tag": "registered_threshold_cut"
+    },
+    {
+      "add": "Tree of Perdition",
+      "cut": "Bituminous Blast",
+      "existing_m5_id": null,
+      "tag": "alternate_noncore_printed_cascade_cut"
+    }
+  ],
+  "alternative_justification": "Bituminous Blast is a five-mana printed-cascade removal spell. An alternative cut conserves the cheap Kessig Flamebreather threshold engine and Birgi chain-mana engine, but sacrifices one of five cards in the required printed-cascade package, leaving four (blueprint minimum four). It is a counterfactual for testing, not a recommended cut.",
+  "card_effect_truth": "Simulator v1.1 does not model active Heartless Hidetsugu or Tree of Perdition abilities, and does not implement Birgi mana-on-spell-cast, Kessig damage triggers, or Bituminous Blast cascade. A mana-only paired outcome must not be interpreted as net commander-first deck improvement.",
+  "related_mechanics": "data/grixis/m6/phase_b_bounded/abaddon_01.json",
+  "pending": [
+    "Independent current Oracle and legal activation timing checked before final strategic decision",
+    "Opponent interaction and haste assumptions",
+    "A real effect-aware full-deck experiment with spell follow-through",
+    "Mana color readiness/counterplay under actual strategies",
+    "Human review of any conclusion",
+    "User must approve any proposed card swap"
+  ],
+  "status": "registered_before_test",
+  "claims": {
+    "can_claim_win_rate": false,
+    "can_claim_full_phase_b": false,
+    "can_claim_swap_improvement": false,
+    "can_apply_swap": false,
+    "can_approve_or_lock": false
+  }
+}
