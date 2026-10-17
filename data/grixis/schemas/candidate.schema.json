@@ -1,146 +1,57 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/candidate.schema.json",
- "title": "Candidate record with escalation (v1 draft)",
- "description": "The 15–40 full-review range is a default workload, not a gate. Escalated candidates get full review regardless of rank (Cory constraint 3; no cap since Bot cycle 61). Bot cycle 60 (M5): optional `sources`, `screening` and `review`. Bot cycle 61: `review` is a scripted `screening_review` (can_decide false); a human-grade `judgment_review` (M6) is a separate field, and only it can support a decision (grixis_authority.decision_review_problems).",
+ "title": "M5 candidate record with saturation workload and A-F screening evidence",
+ "description": "M5 screening records are scripted and non-decision-capable. Step-A source/escalation labels are workload metadata, not gates. Optional A-F evidence on a screening review records structural/test obligations only; M6 judgment remains separate.",
  "type": "object",
  "properties": {
-  "schema_version": {
-   "const": 1
-  },
-  "deck_id": {
-   "$ref": "common.schema.json#/$defs/deck_id"
-  },
-  "card": {
-   "type": "string"
-  },
-  "oracle_id": {
-   "type": "string"
-  },
-  "rank": {
-   "type": [
-    "integer",
-    "null"
-   ]
-  },
-  "tier": {
-   "enum": [
-    "A",
-    "B",
-    "C"
-   ]
-  },
-  "full_review": {
-   "type": "boolean",
-   "description": "true = a screening_review was done (M5 triage); not a decision-grade review"
-  },
+  "schema_version": {"const": 1},
+  "deck_id": {"$ref": "common.schema.json#/$defs/deck_id"},
+  "card": {"type": "string"},
+  "oracle_id": {"type": "string"},
+  "rank": {"type": ["integer", "null"]},
+  "tier": {"enum": ["A", "B", "C"]},
+  "full_review": {"type": "boolean"},
   "escalation": {
    "type": "object",
    "properties": {
-    "escalated": {
-     "type": "boolean"
-    },
-    "reasons": {
-     "type": "array",
-     "items": {
-      "enum": [
-       "dependency_analysis",
-       "new_card",
-       "unusual_oracle_interaction",
-       "package_gap",
-       "reviewer_evidence",
-       "rank_miss_suspected"
-      ]
-     }
-    },
-    "evidence_refs": {
-     "type": "array",
-     "items": {
-      "$ref": "common.schema.json#/$defs/evidence_ref"
-     }
-    },
-    "by": {
-     "type": [
-      "string",
-      "null"
-     ]
-    },
-    "note": {
-     "type": [
-      "string",
-      "null"
-     ]
-    }
+    "escalated": {"type": "boolean"},
+    "reasons": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "evidence_refs": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/evidence_ref"}},
+    "by": {"type": ["string", "null"]},
+    "note": {"type": ["string", "null"]}
    },
-   "required": [
-    "escalated",
-    "reasons",
-    "evidence_refs",
-    "by",
-    "note"
-   ],
+   "required": ["escalated", "reasons", "evidence_refs", "by", "note"],
    "additionalProperties": false
   },
-  "evidence": {
-   "type": "array",
-   "items": {
-    "$ref": "common.schema.json#/$defs/evidence_ref"
-   }
-  },
+  "evidence": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/evidence_ref"}},
   "workload": {
    "type": "object",
    "properties": {
-    "default_full_review_range": {
-     "const": [
-      15,
-      40
-     ]
-    },
-    "is_gate": {
-     "const": false
-    }
+    "default_full_review_range": {"const": [15, 40]},
+    "test_tier": {"enum": ["paired_test", "escalated_queued", "screen_only"]},
+    "is_gate": {"const": false}
    },
-   "required": [
-    "default_full_review_range",
-    "is_gate"
+   "required": ["is_gate"],
+   "anyOf": [
+    {"required": ["default_full_review_range"]},
+    {"required": ["test_tier"]}
    ],
    "additionalProperties": false
   },
   "sources": {
    "type": "array",
-   "items": {
-    "enum": [
-     "edhrec",
-     "spellbook",
-     "blueprint",
-     "oracle_hook",
-     "package",
-     "new_card",
-     "rank_fill"
-    ]
-   }
+   "items": {"type": "string", "minLength": 1},
+   "uniqueItems": true
   },
   "screening": {
    "type": "object",
    "properties": {
-    "score": {
-     "type": "number"
-    },
-    "parts": {
-     "type": "object",
-     "additionalProperties": {
-      "type": "number"
-     }
-    },
-    "facts": {
-     "type": "object"
-    }
+    "score": {"type": "number"},
+    "parts": {"type": "object", "additionalProperties": {"type": "number"}},
+    "facts": {"type": "object"}
    },
-   "required": [
-    "score",
-    "parts",
-    "facts"
-   ],
+   "required": ["score", "parts", "facts"],
    "additionalProperties": false
   },
   "review": {
@@ -150,244 +61,95 @@
     "blueprint": {},
     "graph": {},
     "best_incumbent": {},
-    "cut": {
-     "type": [
-      "string",
-      "null"
-     ]
-    },
-    "assessment": {
-     "type": "string",
-     "minLength": 1
-    },
+    "cut": {"type": ["string", "null"]},
+    "assessment": {"type": "string", "minLength": 1},
     "evidence_classes": {},
+    "a_f_evidence": {"type": "object"},
     "decision_support": {
      "type": "object",
      "properties": {
-      "evidence_ok": {
-       "type": "boolean"
-      },
-      "why_not": {
-       "type": "array"
-      },
-      "can_decide": {
-       "const": false
-      },
-      "because": {
-       "type": "string"
-      }
+      "evidence_ok": {"type": "boolean"},
+      "why_not": {"type": "array"},
+      "can_decide": {"const": false},
+      "because": {"type": "string"}
      },
-     "required": [
-      "evidence_ok",
-      "why_not",
-      "can_decide",
-      "because"
-     ],
+     "required": ["evidence_ok", "why_not", "can_decide", "because"],
      "additionalProperties": false
     },
-    "swap": {
-     "type": "string",
-     "pattern": "^swap:"
-    },
+    "swap": {"type": "string", "pattern": "^swap:"},
     "goldfish": {},
     "tournament": {
      "type": "object",
      "properties": {
-      "window": {
-       "type": "string"
-      },
-      "retrieved": {
-       "type": "string"
-      },
-      "commander_entries": {
-       "type": "integer"
-      }
+      "window": {"type": "string"},
+      "retrieved": {"type": "string"},
+      "commander_entries": {"type": "integer"}
      },
-     "required": [
-      "window",
-      "retrieved",
-      "commander_entries",
-      "card",
-      "cut"
-     ]
+     "required": ["window", "retrieved", "commander_entries", "card", "cut"]
     },
-    "matches_registered_challenger": {
-     "type": "string"
-    },
-    "kind": {
-     "const": "screening_review"
-    },
-    "method": {
-     "const": "scripted"
-    },
-    "by": {
-     "type": "string",
-     "pattern": "^script:"
-    },
-    "evidence_class": {
-     "enum": [
-      "heuristic",
-      "derived_metric"
-     ]
-    },
-    "cut_level": {
-     "enum": [
-      "standard",
-      "elevated",
-      "project_exception",
-      null
-     ]
-    },
-    "protected_considered": {
-     "type": "object"
-    },
+    "matches_registered_challenger": {"type": "string"},
+    "kind": {"const": "screening_review"},
+    "method": {"const": "scripted"},
+    "by": {"type": "string", "pattern": "^script:"},
+    "evidence_class": {"enum": ["heuristic", "derived_metric"]},
+    "cut_level": {"enum": ["standard", "elevated", "project_exception", null]},
+    "protected_considered": {"type": "object"},
     "dominated_by": {
      "type": "object",
-     "properties": {
-      "card": {
-       "type": "string"
-      },
-      "detail": {
-       "type": "string",
-       "minLength": 1
-      }
-     },
-     "required": [
-      "card",
-      "detail"
-     ],
+     "properties": {"card": {"type": "string"}, "detail": {"type": "string", "minLength": 1}},
+     "required": ["card", "detail"],
      "additionalProperties": false
     },
     "elevated_alternative": {
      "type": "object",
      "properties": {
-      "card": {
-       "type": "string"
-      },
-      "level": {
-       "enum": [
-        "elevated",
-        "project_exception"
-       ]
-      },
-      "swap": {
-       "type": "string"
-      },
-      "goldfish": {
-       "type": "object"
-      }
+      "card": {"type": "string"},
+      "level": {"enum": ["elevated", "project_exception"]},
+      "swap": {"type": "string"},
+      "goldfish": {"type": "object"}
      },
-     "required": [
-      "card",
-      "level"
-     ],
+     "required": ["card", "level"],
      "additionalProperties": false
     }
    },
    "required": [
-    "kind",
-    "method",
-    "by",
-    "evidence_class",
-    "role",
-    "blueprint",
-    "graph",
-    "best_incumbent",
-    "cut",
-    "assessment",
-    "evidence_classes",
-    "decision_support",
-    "cut_level"
+    "kind", "method", "by", "evidence_class", "role", "blueprint", "graph", "best_incumbent",
+    "cut", "assessment", "evidence_classes", "decision_support", "cut_level"
    ],
    "additionalProperties": false,
    "description": "Scripted screening review (M5). Never decision-capable."
   },
   "judgment_review": {
    "type": "object",
-   "description": "M6 decision-grade review (human or agent judgment). Never written by a script.",
+   "description": "M6 decision-grade review. Never written by the M5 script.",
    "properties": {
-    "kind": {
-     "const": "judgment_review"
-    },
-    "method": {
-     "enum": [
-      "human",
-      "agent_judgment"
-     ]
-    },
-    "by": {
-     "type": "string",
-     "minLength": 1
-    },
-    "date": {
-     "type": "string"
-    },
-    "swaps": {
-     "type": "array",
-     "items": {
-      "type": "string",
-      "pattern": "^swap:"
-     }
-    },
-    "verdict": {
-     "enum": [
-      "accept",
-      "reject",
-      "hold",
-      null
-     ]
-    },
-    "reasoning": {
-     "type": "string",
-     "minLength": 1
-    },
+    "kind": {"const": "judgment_review"},
+    "method": {"enum": ["human", "agent_judgment"]},
+    "by": {"type": "string", "minLength": 1},
+    "date": {"type": "string"},
+    "swaps": {"type": "array", "items": {"type": "string", "pattern": "^swap:"}},
+    "verdict": {"enum": ["accept", "reject", "hold", null]},
+    "reasoning": {"type": "string", "minLength": 1},
     "evidence_items": {
      "type": "array",
      "items": {
       "type": "object",
       "properties": {
-       "id": {
-        "$ref": "common.schema.json#/$defs/evidence_ref"
-       },
-       "class": {
-        "type": "string"
-       },
-       "confidence": {
-        "type": "string"
-       }
+       "id": {"$ref": "common.schema.json#/$defs/evidence_ref"},
+       "class": {"type": "string"},
+       "confidence": {"type": "string"}
       },
-      "required": [
-       "id",
-       "class",
-       "confidence"
-      ]
+      "required": ["id", "class", "confidence"]
      }
     }
    },
-   "required": [
-    "kind",
-    "method",
-    "by",
-    "date",
-    "swaps",
-    "verdict",
-    "reasoning",
-    "evidence_items"
-   ],
+   "required": ["kind", "method", "by", "date", "swaps", "verdict", "reasoning", "evidence_items"],
    "additionalProperties": false
   }
  },
  "required": [
-  "schema_version",
-  "deck_id",
-  "card",
-  "oracle_id",
-  "rank",
-  "tier",
-  "full_review",
-  "escalation",
-  "evidence",
-  "workload"
+  "schema_version", "deck_id", "card", "oracle_id", "rank", "tier", "full_review",
+  "escalation", "evidence", "workload"
  ],
  "additionalProperties": false
 }
