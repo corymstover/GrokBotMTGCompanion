@@ -346,9 +346,9 @@
     "68.3 commander casting, fast-mana delta and tax recovery (code-ready; frozen-local-cache outputs/validation pending)",
     "68.4 utility-land/MDFC opportunity-cost and Commander-first land/type signals",
     "68.5 mana/color-screw complements, one-source-unavailable structural sensitivity and fetch-target redundancy",
-    "68.6 Step C integration and demonstrated decision-quality gain (planned)"
+    "68.6 validate_all integration + real-deck decision-resolution gain proof; Step C code complete except 68.3 local-cache closure"
    ],
-   "status": "in_progress",
+   "status": "code_complete_pending_local_cache_validation",
    "depends_on": [
     "E"
    ],
@@ -563,7 +563,7 @@
  ],
  "m5_candidate_files": "capped legacy, superseded at M5 regeneration",
  "launch_tracker": {
-  "updated": "ChatGPT cycle 68.5 (2026-10-16)",
+  "updated": "ChatGPT cycle 68.6 (2026-10-16)",
   "definition_of_100_percent": "all prerequisite infrastructure finished and validated, M5 accepted on the fresh Birthday snapshot, I/J and K complete, M6 cleared to begin (M6 itself excluded)",
   "weighting": "batch-weighted: estimated batches per stage = midpoint of the plan range (completed stages count their actual batches); percent = done / total",
   "stages": [
@@ -598,9 +598,9 @@
    {
     "id": "C",
     "estimated_batches": 6,
-    "batches_done": 4,
-    "status": "in_progress",
-    "note": "4/6 validated batch-equivalents complete (68.1, 68.2, 68.4, 68.5); 68.3 code-ready but separately pending frozen-local-cache validation; 68.6 integration planned."
+    "batches_done": 5,
+    "status": "code_complete_pending_local_cache_validation",
+    "note": "5/6 batch-equivalents complete through 68.6. Cache-independent Step C is integrated and gain-proven; the final equivalent is 68.3 commander-cast/tax output generation + validation on the frozen local Scryfall cache."
    },
    {
     "id": "D",
@@ -660,7 +660,7 @@
    }
   ],
   "total_estimated_batches": 62.5,
-  "batches_done": 31,
-  "percent_complete": 49.6
+  "batches_done": 32,
+  "percent_complete": 51.2
  }
 }
