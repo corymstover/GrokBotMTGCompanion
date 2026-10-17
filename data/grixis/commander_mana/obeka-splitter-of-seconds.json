@@ -1,0 +1,241 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander-casting/tax stress cannot decide mana-base swaps or deck changes."
+ },
+ "canonical_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+ "commanders": [
+  {
+   "baseline": {
+    "cast_by_turn": {
+     "10": 0.992,
+     "2": 0.018,
+     "3": 0.428,
+     "4": 0.866,
+     "5": 0.926,
+     "6": 0.95,
+     "8": 0.976
+    },
+    "cast_share_by_turn10": 0.992,
+    "mana_available_by_turn": [
+     0.918,
+     2.174,
+     3.63,
+     4.62,
+     5.476,
+     6.166,
+     6.76,
+     7.376,
+     7.994,
+     8.52
+    ],
+    "mana_spent_by_turn": [
+     0.48,
+     2.018,
+     3.31,
+     4.276,
+     4.808,
+     4.68,
+     4.312,
+     3.886,
+     3.302,
+     2.926
+    ],
+    "mean_turn_when_cast": 3.8327
+   },
+   "commander": "Obeka, Splitter of Seconds",
+   "fast_mana_contribution": {
+    "interpretation": "Positive values mean the listed fast-mana package increases/accelerates commander casting in this bounded goldfish counterfactual.",
+    "mean_turn_acceleration_when_both_cast": {
+     "ci95": [
+      0.5645,
+      0.7605
+     ],
+     "paired_games": 480,
+     "value": 0.6625
+    },
+    "paired_cast_probability_delta_by_turn": {
+     "2": {
+      "ci95": [
+       0.006335,
+       0.029665
+      ],
+      "value": 0.018
+     },
+     "3": {
+      "ci95": [
+       0.382259,
+       0.469741
+      ],
+      "value": 0.426
+     },
+     "4": {
+      "ci95": [
+       0.077061,
+       0.138939
+      ],
+      "value": 0.108
+     },
+     "5": {
+      "ci95": [
+       0.051984,
+       0.104016
+      ],
+      "value": 0.078
+     },
+     "6": {
+      "ci95": [
+       0.041136,
+       0.086864
+      ],
+      "value": 0.064
+     }
+    }
+   },
+   "fast_mana_inventory": [
+    "Arcane Signet",
+    "Fellwar Stone",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.96,
+     "2": 0.0,
+     "3": 0.002,
+     "4": 0.758,
+     "5": 0.848,
+     "6": 0.886,
+     "8": 0.938
+    },
+    "cast_share_by_turn10": 0.96,
+    "mana_available_by_turn": [
+     0.914,
+     2.024,
+     3.048,
+     4.002,
+     4.706,
+     5.296,
+     5.81,
+     6.32,
+     6.81,
+     7.232
+    ],
+    "mana_spent_by_turn": [
+     0.374,
+     1.4,
+     2.4,
+     3.598,
+     3.946,
+     4.17,
+     4.014,
+     3.552,
+     3.152,
+     2.784
+    ],
+    "mean_turn_when_cast": 4.4688
+   },
+   "static_cost": {
+    "all_required_colors_present_by_base_turn": 0.78059,
+    "base_resource_target": 4,
+    "colored_requirements": {
+     "B": 1,
+     "R": 1,
+     "U": 1
+    },
+    "first_recast_resource_target": 6,
+    "mana_cost": "{1}{U}{B}{R}",
+    "mana_value": 4.0,
+    "name": "Obeka, Splitter of Seconds",
+    "per_color_source_presence_by_base_turn": {
+     "B": 0.903815,
+     "R": 0.903815,
+     "U": 0.916877
+    },
+    "second_recast_resource_target": 8
+   },
+   "tax_recovery_after_one_removal": {
+    "event_count": 496,
+    "recast_count": 469,
+    "recast_share_given_removal": 0.945565,
+    "recast_within_turns_given_removal": {
+     "1": 0.266129,
+     "2": 0.71371,
+     "3": 0.810484
+    },
+    "recovery_turns_mean_when_recast": {
+     "ci95": [
+      2.1137,
+      2.3426
+     ],
+     "value": 2.2281
+    },
+    "removal_event_share": 0.992
+   },
+   "tax_recovery_after_two_removals": {
+    "first": {
+     "event_count": 496,
+     "recast_count": 469,
+     "recast_share_given_removal": 0.945565,
+     "recast_within_turns_given_removal": {
+      "1": 0.266129,
+      "2": 0.71371,
+      "3": 0.810484
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.1137,
+       2.3426
+      ],
+      "value": 2.2281
+     },
+     "removal_event_share": 0.992
+    },
+    "second": {
+     "event_count": 469,
+     "recast_count": 351,
+     "recast_share_given_removal": 0.748401,
+     "recast_within_turns_given_removal": {
+      "1": 0.140725,
+      "2": 0.49467,
+      "3": 0.614072
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.2653,
+       2.4925
+      ],
+      "value": 2.3789
+     },
+     "removal_event_share": 0.938
+    }
+   }
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Obeka__Splitter_of_Seconds",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish engine only: no real opponents, interaction, politics or multiplayer win rates.",
+  "Removal stress deterministically removes the isolated commander at end of the first eligible turn; it is a tax-recovery stress, not a real removal-frequency estimate.",
+  "The no-fast counterfactual keeps fast-mana cards in draws but disables their mana modes and makes them uncastable; this isolates acceleration but ignores any alternate non-mana use.",
+  "Existing grixis_sim v1.1 mana/card-effect limitations remain in force; this wrapper does not silently upgrade that simulator.",
+  "Partner/background-style pairs are evaluated per commander to remove cast-order confounding; actual games can allocate mana between commanders differently.",
+  "These tests measure commander access/recovery only; Step D separately measures commander marginal strategic value once available."
+ ],
+ "method": {
+  "commander_pair_policy": "each commander is simulated separately with the same 99 and deck color identity; co-commander cast-order competition is intentionally removed",
+  "model": "1.1",
+  "pairing": "same library permutations for baseline, no-fast counterfactual, and removal perturbations",
+  "samples": 500,
+  "seed": 6813,
+  "simulator": "grixis_sim",
+  "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+  "turns": 10
+ },
+ "schema_version": 1,
+ "slug": "obeka-splitter-of-seconds",
+ "status": "provisional_test_evidence"
+}

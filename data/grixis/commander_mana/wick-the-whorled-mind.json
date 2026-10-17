@@ -1,0 +1,238 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander-casting/tax stress cannot decide mana-base swaps or deck changes."
+ },
+ "canonical_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+ "commanders": [
+  {
+   "baseline": {
+    "cast_by_turn": {
+     "10": 0.996,
+     "2": 0.084,
+     "3": 0.454,
+     "4": 0.908,
+     "5": 0.968,
+     "6": 0.978,
+     "8": 0.992
+    },
+    "cast_share_by_turn10": 0.996,
+    "mana_available_by_turn": [
+     0.964,
+     2.192,
+     3.536,
+     4.4,
+     5.218,
+     5.848,
+     6.426,
+     6.998,
+     7.474,
+     7.912
+    ],
+    "mana_spent_by_turn": [
+     0.78,
+     2.15,
+     3.348,
+     4.158,
+     4.512,
+     4.134,
+     3.344,
+     2.744,
+     2.602,
+     1.952
+    ],
+    "mean_turn_when_cast": 3.6064
+   },
+   "commander": "Wick, the Whorled Mind",
+   "fast_mana_contribution": {
+    "interpretation": "Positive values mean the listed fast-mana package increases/accelerates commander casting in this bounded goldfish counterfactual.",
+    "mean_turn_acceleration_when_both_cast": {
+     "ci95": [
+      0.7234,
+      0.9487
+     ],
+     "paired_games": 488,
+     "value": 0.8361
+    },
+    "paired_cast_probability_delta_by_turn": {
+     "2": {
+      "ci95": [
+       0.059662,
+       0.108338
+      ],
+      "value": 0.084
+     },
+     "3": {
+      "ci95": [
+       0.410315,
+       0.497685
+      ],
+      "value": 0.454
+     },
+     "4": {
+      "ci95": [
+       0.091097,
+       0.156903
+      ],
+      "value": 0.124
+     },
+     "5": {
+      "ci95": [
+       0.069563,
+       0.122437
+      ],
+      "value": 0.096
+     },
+     "6": {
+      "ci95": [
+       0.052096,
+       0.099904
+      ],
+      "value": 0.076
+     }
+    }
+   },
+   "fast_mana_inventory": [
+    "Arcane Signet",
+    "Dark Ritual",
+    "Fellwar Stone",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.976,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.784,
+     "5": 0.872,
+     "6": 0.902,
+     "8": 0.956
+    },
+    "cast_share_by_turn10": 0.976,
+    "mana_available_by_turn": [
+     0.966,
+     1.986,
+     2.938,
+     3.752,
+     4.458,
+     5.03,
+     5.566,
+     6.038,
+     6.43,
+     6.836
+    ],
+    "mana_spent_by_turn": [
+     0.526,
+     1.594,
+     2.52,
+     3.624,
+     3.732,
+     3.69,
+     3.196,
+     2.626,
+     2.554,
+     1.892
+    ],
+    "mean_turn_when_cast": 4.4385
+   },
+   "static_cost": {
+    "all_required_colors_present_by_base_turn": 0.928307,
+    "base_resource_target": 4,
+    "colored_requirements": {
+     "B": 1
+    },
+    "first_recast_resource_target": 6,
+    "mana_cost": "{3}{B}",
+    "mana_value": 4.0,
+    "name": "Wick, the Whorled Mind",
+    "per_color_source_presence_by_base_turn": {
+     "B": 0.928307
+    },
+    "second_recast_resource_target": 8
+   },
+   "tax_recovery_after_one_removal": {
+    "event_count": 498,
+    "recast_count": 465,
+    "recast_share_given_removal": 0.933735,
+    "recast_within_turns_given_removal": {
+     "1": 0.092369,
+     "2": 0.580321,
+     "3": 0.728916
+    },
+    "recovery_turns_mean_when_recast": {
+     "ci95": [
+      2.5387,
+      2.7688
+     ],
+     "value": 2.6538
+    },
+    "removal_event_share": 0.996
+   },
+   "tax_recovery_after_two_removals": {
+    "first": {
+     "event_count": 498,
+     "recast_count": 465,
+     "recast_share_given_removal": 0.933735,
+     "recast_within_turns_given_removal": {
+      "1": 0.092369,
+      "2": 0.580321,
+      "3": 0.728916
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.5387,
+       2.7688
+      ],
+      "value": 2.6538
+     },
+     "removal_event_share": 0.996
+    },
+    "second": {
+     "event_count": 465,
+     "recast_count": 291,
+     "recast_share_given_removal": 0.625806,
+     "recast_within_turns_given_removal": {
+      "1": 0.088172,
+      "2": 0.378495,
+      "3": 0.507527
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.3795,
+       2.6308
+      ],
+      "value": 2.5052
+     },
+     "removal_event_share": 0.93
+    }
+   }
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Wick__the_Whorled_Mind",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish engine only: no real opponents, interaction, politics or multiplayer win rates.",
+  "Removal stress deterministically removes the isolated commander at end of the first eligible turn; it is a tax-recovery stress, not a real removal-frequency estimate.",
+  "The no-fast counterfactual keeps fast-mana cards in draws but disables their mana modes and makes them uncastable; this isolates acceleration but ignores any alternate non-mana use.",
+  "Existing grixis_sim v1.1 mana/card-effect limitations remain in force; this wrapper does not silently upgrade that simulator.",
+  "Partner/background-style pairs are evaluated per commander to remove cast-order confounding; actual games can allocate mana between commanders differently.",
+  "These tests measure commander access/recovery only; Step D separately measures commander marginal strategic value once available."
+ ],
+ "method": {
+  "commander_pair_policy": "each commander is simulated separately with the same 99 and deck color identity; co-commander cast-order competition is intentionally removed",
+  "model": "1.1",
+  "pairing": "same library permutations for baseline, no-fast counterfactual, and removal perturbations",
+  "samples": 500,
+  "seed": 6813,
+  "simulator": "grixis_sim",
+  "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+  "turns": 10
+ },
+ "schema_version": 1,
+ "slug": "wick-the-whorled-mind",
+ "status": "provisional_test_evidence"
+}

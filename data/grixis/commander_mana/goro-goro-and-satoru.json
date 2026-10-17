@@ -1,0 +1,241 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander-casting/tax stress cannot decide mana-base swaps or deck changes."
+ },
+ "canonical_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
+ "commanders": [
+  {
+   "baseline": {
+    "cast_by_turn": {
+     "10": 0.998,
+     "2": 0.024,
+     "3": 0.818,
+     "4": 0.948,
+     "5": 0.97,
+     "6": 0.982,
+     "8": 0.988
+    },
+    "cast_share_by_turn10": 0.998,
+    "mana_available_by_turn": [
+     0.86,
+     2.228,
+     3.702,
+     4.526,
+     5.352,
+     5.982,
+     6.526,
+     6.988,
+     7.446,
+     7.866
+    ],
+    "mana_spent_by_turn": [
+     0.536,
+     2.1,
+     3.152,
+     4.124,
+     4.394,
+     4.086,
+     3.38,
+     2.772,
+     2.364,
+     2.172
+    ],
+    "mean_turn_when_cast": 3.2766
+   },
+   "commander": "Goro-Goro and Satoru",
+   "fast_mana_contribution": {
+    "interpretation": "Positive values mean the listed fast-mana package increases/accelerates commander casting in this bounded goldfish counterfactual.",
+    "mean_turn_acceleration_when_both_cast": {
+     "ci95": [
+      0.2775,
+      0.4851
+     ],
+     "paired_games": 493,
+     "value": 0.3813
+    },
+    "paired_cast_probability_delta_by_turn": {
+     "2": {
+      "ci95": [
+       0.010571,
+       0.037429
+      ],
+      "value": 0.024
+     },
+     "3": {
+      "ci95": [
+       0.11173,
+       0.17627
+      ],
+      "value": 0.144
+     },
+     "4": {
+      "ci95": [
+       0.065454,
+       0.118546
+      ],
+      "value": 0.092
+     },
+     "5": {
+      "ci95": [
+       0.04352,
+       0.08848
+      ],
+      "value": 0.066
+     },
+     "6": {
+      "ci95": [
+       0.0268,
+       0.0652
+      ],
+      "value": 0.046
+     }
+    }
+   },
+   "fast_mana_inventory": [
+    "Arcane Signet",
+    "Fellwar Stone",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.986,
+     "2": 0.0,
+     "3": 0.674,
+     "4": 0.856,
+     "5": 0.904,
+     "6": 0.936,
+     "8": 0.968
+    },
+    "cast_share_by_turn10": 0.986,
+    "mana_available_by_turn": [
+     0.876,
+     2.058,
+     3.048,
+     3.856,
+     4.518,
+     5.104,
+     5.606,
+     6.024,
+     6.398,
+     6.758
+    ],
+    "mana_spent_by_turn": [
+     0.476,
+     1.498,
+     2.844,
+     3.242,
+     3.678,
+     3.712,
+     3.16,
+     2.612,
+     2.252,
+     2.096
+    ],
+    "mean_turn_when_cast": 3.645
+   },
+   "static_cost": {
+    "all_required_colors_present_by_base_turn": 0.816471,
+    "base_resource_target": 3,
+    "colored_requirements": {
+     "B": 1,
+     "R": 1,
+     "U": 1
+    },
+    "first_recast_resource_target": 5,
+    "mana_cost": "{U}{B}{R}",
+    "mana_value": 3.0,
+    "name": "Goro-Goro and Satoru",
+    "per_color_source_presence_by_base_turn": {
+     "B": 0.907526,
+     "R": 0.907526,
+     "U": 0.946793
+    },
+    "second_recast_resource_target": 7
+   },
+   "tax_recovery_after_one_removal": {
+    "event_count": 499,
+    "recast_count": 478,
+    "recast_share_given_removal": 0.957916,
+    "recast_within_turns_given_removal": {
+     "1": 0.50501,
+     "2": 0.815631,
+     "3": 0.875752
+    },
+    "recovery_turns_mean_when_recast": {
+     "ci95": [
+      1.693,
+      1.9096
+     ],
+     "value": 1.8013
+    },
+    "removal_event_share": 0.998
+   },
+   "tax_recovery_after_two_removals": {
+    "first": {
+     "event_count": 499,
+     "recast_count": 478,
+     "recast_share_given_removal": 0.957916,
+     "recast_within_turns_given_removal": {
+      "1": 0.50501,
+      "2": 0.815631,
+      "3": 0.875752
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       1.693,
+       1.9096
+      ],
+      "value": 1.8013
+     },
+     "removal_event_share": 0.998
+    },
+    "second": {
+     "event_count": 478,
+     "recast_count": 391,
+     "recast_share_given_removal": 0.817992,
+     "recast_within_turns_given_removal": {
+      "1": 0.217573,
+      "2": 0.535565,
+      "3": 0.646444
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.2853,
+       2.5484
+      ],
+      "value": 2.4169
+     },
+     "removal_event_share": 0.956
+    }
+   }
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Goro_Goro_and_Satoru",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish engine only: no real opponents, interaction, politics or multiplayer win rates.",
+  "Removal stress deterministically removes the isolated commander at end of the first eligible turn; it is a tax-recovery stress, not a real removal-frequency estimate.",
+  "The no-fast counterfactual keeps fast-mana cards in draws but disables their mana modes and makes them uncastable; this isolates acceleration but ignores any alternate non-mana use.",
+  "Existing grixis_sim v1.1 mana/card-effect limitations remain in force; this wrapper does not silently upgrade that simulator.",
+  "Partner/background-style pairs are evaluated per commander to remove cast-order confounding; actual games can allocate mana between commanders differently.",
+  "These tests measure commander access/recovery only; Step D separately measures commander marginal strategic value once available."
+ ],
+ "method": {
+  "commander_pair_policy": "each commander is simulated separately with the same 99 and deck color identity; co-commander cast-order competition is intentionally removed",
+  "model": "1.1",
+  "pairing": "same library permutations for baseline, no-fast counterfactual, and removal perturbations",
+  "samples": 500,
+  "seed": 6813,
+  "simulator": "grixis_sim",
+  "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+  "turns": 10
+ },
+ "schema_version": 1,
+ "slug": "goro-goro-and-satoru",
+ "status": "provisional_test_evidence"
+}

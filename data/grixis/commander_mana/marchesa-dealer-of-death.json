@@ -1,0 +1,249 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander-casting/tax stress cannot decide mana-base swaps or deck changes."
+ },
+ "canonical_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+ "commanders": [
+  {
+   "baseline": {
+    "cast_by_turn": {
+     "10": 0.988,
+     "2": 0.182,
+     "3": 0.808,
+     "4": 0.914,
+     "5": 0.936,
+     "6": 0.946,
+     "8": 0.97
+    },
+    "cast_share_by_turn10": 0.988,
+    "mana_available_by_turn": [
+     0.988,
+     2.518,
+     3.61,
+     4.47,
+     5.222,
+     5.69,
+     6.188,
+     6.62,
+     7.082,
+     7.566
+    ],
+    "mana_spent_by_turn": [
+     1.172,
+     2.252,
+     2.956,
+     3.296,
+     2.9,
+     2.246,
+     1.788,
+     1.568,
+     1.396,
+     1.316
+    ],
+    "mean_turn_when_cast": 3.2105
+   },
+   "commander": "Marchesa, Dealer of Death",
+   "fast_mana_contribution": {
+    "interpretation": "Positive values mean the listed fast-mana package increases/accelerates commander casting in this bounded goldfish counterfactual.",
+    "mean_turn_acceleration_when_both_cast": {
+     "ci95": [
+      0.3228,
+      0.5504
+     ],
+     "paired_games": 481,
+     "value": 0.4366
+    },
+    "paired_cast_probability_delta_by_turn": {
+     "2": {
+      "ci95": [
+       0.093025,
+       0.154975
+      ],
+      "value": 0.124
+     },
+     "3": {
+      "ci95": [
+       0.11799,
+       0.19401
+      ],
+      "value": 0.156
+     },
+     "4": {
+      "ci95": [
+       0.032758,
+       0.087242
+      ],
+      "value": 0.06
+     },
+     "5": {
+      "ci95": [
+       0.027204,
+       0.072796
+      ],
+      "value": 0.05
+     },
+     "6": {
+      "ci95": [
+       0.0211,
+       0.0589
+      ],
+      "value": 0.04
+     }
+    }
+   },
+   "fast_mana_inventory": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Dark Ritual",
+    "Fellwar Stone",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Amber",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance"
+   ],
+   "no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.962,
+     "2": 0.058,
+     "3": 0.652,
+     "4": 0.854,
+     "5": 0.886,
+     "6": 0.906,
+     "8": 0.934
+    },
+    "cast_share_by_turn10": 0.962,
+    "mana_available_by_turn": [
+     0.978,
+     2.11,
+     3.034,
+     3.802,
+     4.406,
+     4.83,
+     5.202,
+     5.542,
+     5.858,
+     6.168
+    ],
+    "mana_spent_by_turn": [
+     0.706,
+     1.438,
+     2.536,
+     2.686,
+     2.616,
+     2.002,
+     1.616,
+     1.43,
+     1.326,
+     1.26
+    ],
+    "mean_turn_when_cast": 3.5946
+   },
+   "static_cost": {
+    "all_required_colors_present_by_base_turn": 0.753212,
+    "base_resource_target": 3,
+    "colored_requirements": {
+     "B": 1,
+     "R": 1,
+     "U": 1
+    },
+    "first_recast_resource_target": 5,
+    "mana_cost": "{U}{B}{R}",
+    "mana_value": 3.0,
+    "name": "Marchesa, Dealer of Death",
+    "per_color_source_presence_by_base_turn": {
+     "B": 0.894315,
+     "R": 0.843874,
+     "U": 0.894315
+    },
+    "second_recast_resource_target": 7
+   },
+   "tax_recovery_after_one_removal": {
+    "event_count": 494,
+    "recast_count": 476,
+    "recast_share_given_removal": 0.963563,
+    "recast_within_turns_given_removal": {
+     "1": 0.42915,
+     "2": 0.706478,
+     "3": 0.801619
+    },
+    "recovery_turns_mean_when_recast": {
+     "ci95": [
+      2.0361,
+      2.3126
+     ],
+     "value": 2.1744
+    },
+    "removal_event_share": 0.988
+   },
+   "tax_recovery_after_two_removals": {
+    "first": {
+     "event_count": 494,
+     "recast_count": 476,
+     "recast_share_given_removal": 0.963563,
+     "recast_within_turns_given_removal": {
+      "1": 0.42915,
+      "2": 0.706478,
+      "3": 0.801619
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.0361,
+       2.3126
+      ],
+      "value": 2.1744
+     },
+     "removal_event_share": 0.988
+    },
+    "second": {
+     "event_count": 476,
+     "recast_count": 358,
+     "recast_share_given_removal": 0.752101,
+     "recast_within_turns_given_removal": {
+      "1": 0.197479,
+      "2": 0.430672,
+      "3": 0.590336
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.3676,
+       2.6436
+      ],
+      "value": 2.5056
+     },
+     "removal_event_share": 0.952
+    }
+   }
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Marchesa__Dealer_of_Death",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish engine only: no real opponents, interaction, politics or multiplayer win rates.",
+  "Removal stress deterministically removes the isolated commander at end of the first eligible turn; it is a tax-recovery stress, not a real removal-frequency estimate.",
+  "The no-fast counterfactual keeps fast-mana cards in draws but disables their mana modes and makes them uncastable; this isolates acceleration but ignores any alternate non-mana use.",
+  "Existing grixis_sim v1.1 mana/card-effect limitations remain in force; this wrapper does not silently upgrade that simulator.",
+  "Partner/background-style pairs are evaluated per commander to remove cast-order confounding; actual games can allocate mana between commanders differently.",
+  "These tests measure commander access/recovery only; Step D separately measures commander marginal strategic value once available."
+ ],
+ "method": {
+  "commander_pair_policy": "each commander is simulated separately with the same 99 and deck color identity; co-commander cast-order competition is intentionally removed",
+  "model": "1.1",
+  "pairing": "same library permutations for baseline, no-fast counterfactual, and removal perturbations",
+  "samples": 500,
+  "seed": 6813,
+  "simulator": "grixis_sim",
+  "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+  "turns": 10
+ },
+ "schema_version": 1,
+ "slug": "marchesa-dealer-of-death",
+ "status": "provisional_test_evidence"
+}

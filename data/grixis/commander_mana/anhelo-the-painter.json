@@ -1,0 +1,245 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander-casting/tax stress cannot decide mana-base swaps or deck changes."
+ },
+ "canonical_hash": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
+ "commanders": [
+  {
+   "baseline": {
+    "cast_by_turn": {
+     "10": 1.0,
+     "2": 0.046,
+     "3": 0.944,
+     "4": 0.968,
+     "5": 0.98,
+     "6": 0.988,
+     "8": 0.996
+    },
+    "cast_share_by_turn10": 1.0,
+    "mana_available_by_turn": [
+     0.896,
+     2.166,
+     3.98,
+     4.772,
+     6.062,
+     6.864,
+     7.582,
+     8.2,
+     8.73,
+     9.276
+    ],
+    "mana_spent_by_turn": [
+     0.398,
+     2.304,
+     3.304,
+     4.396,
+     4.624,
+     3.878,
+     2.896,
+     2.348,
+     2.224,
+     2.004
+    ],
+    "mean_turn_when_cast": 3.086
+   },
+   "commander": "Anhelo, the Painter",
+   "fast_mana_contribution": {
+    "interpretation": "Positive values mean the listed fast-mana package increases/accelerates commander casting in this bounded goldfish counterfactual.",
+    "mean_turn_acceleration_when_both_cast": {
+     "ci95": [
+      0.167,
+      0.337
+     ],
+     "paired_games": 496,
+     "value": 0.252
+    },
+    "paired_cast_probability_delta_by_turn": {
+     "2": {
+      "ci95": [
+       0.027619,
+       0.064381
+      ],
+      "value": 0.046
+     },
+     "3": {
+      "ci95": [
+       0.061991,
+       0.118009
+      ],
+      "value": 0.09
+     },
+     "4": {
+      "ci95": [
+       0.033654,
+       0.078346
+      ],
+      "value": 0.056
+     },
+     "5": {
+      "ci95": [
+       0.017868,
+       0.054132
+      ],
+      "value": 0.036
+     },
+     "6": {
+      "ci95": [
+       0.011534,
+       0.044466
+      ],
+      "value": 0.028
+     }
+    }
+   },
+   "fast_mana_inventory": [
+    "Arcane Signet",
+    "Dark Ritual",
+    "Dimir Signet",
+    "Fellwar Stone",
+    "Izzet Signet",
+    "Rakdos Signet",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.992,
+     "2": 0.0,
+     "3": 0.854,
+     "4": 0.912,
+     "5": 0.944,
+     "6": 0.96,
+     "8": 0.986
+    },
+    "cast_share_by_turn10": 0.992,
+    "mana_available_by_turn": [
+     0.892,
+     1.958,
+     2.936,
+     3.736,
+     4.664,
+     5.338,
+     5.924,
+     6.4,
+     6.818,
+     7.222
+    ],
+    "mana_spent_by_turn": [
+     0.194,
+     1.334,
+     2.778,
+     3.202,
+     3.598,
+     3.25,
+     2.624,
+     2.252,
+     2.226,
+     1.88
+    ],
+    "mean_turn_when_cast": 3.3306
+   },
+   "static_cost": {
+    "all_required_colors_present_by_base_turn": 0.772115,
+    "base_resource_target": 3,
+    "colored_requirements": {
+     "B": 1,
+     "R": 1,
+     "U": 1
+    },
+    "first_recast_resource_target": 5,
+    "mana_cost": "{U}{B}{R}",
+    "mana_value": 3.0,
+    "name": "Anhelo, the Painter",
+    "per_color_source_presence_by_base_turn": {
+     "B": 0.87943,
+     "R": 0.907526,
+     "U": 0.929586
+    },
+    "second_recast_resource_target": 7
+   },
+   "tax_recovery_after_one_removal": {
+    "event_count": 500,
+    "recast_count": 492,
+    "recast_share_given_removal": 0.984,
+    "recast_within_turns_given_removal": {
+     "1": 0.558,
+     "2": 0.878,
+     "3": 0.934
+    },
+    "recovery_turns_mean_when_recast": {
+     "ci95": [
+      1.5424,
+      1.7096
+     ],
+     "value": 1.626
+    },
+    "removal_event_share": 1.0
+   },
+   "tax_recovery_after_two_removals": {
+    "first": {
+     "event_count": 500,
+     "recast_count": 492,
+     "recast_share_given_removal": 0.984,
+     "recast_within_turns_given_removal": {
+      "1": 0.558,
+      "2": 0.878,
+      "3": 0.934
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       1.5424,
+       1.7096
+      ],
+      "value": 1.626
+     },
+     "removal_event_share": 1.0
+    },
+    "second": {
+     "event_count": 492,
+     "recast_count": 449,
+     "recast_share_given_removal": 0.912602,
+     "recast_within_turns_given_removal": {
+      "1": 0.327236,
+      "2": 0.70935,
+      "3": 0.804878
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       1.9263,
+       2.1271
+      ],
+      "value": 2.0267
+     },
+     "removal_event_share": 0.984
+    }
+   }
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Anhelo__the_Painter",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish engine only: no real opponents, interaction, politics or multiplayer win rates.",
+  "Removal stress deterministically removes the isolated commander at end of the first eligible turn; it is a tax-recovery stress, not a real removal-frequency estimate.",
+  "The no-fast counterfactual keeps fast-mana cards in draws but disables their mana modes and makes them uncastable; this isolates acceleration but ignores any alternate non-mana use.",
+  "Existing grixis_sim v1.1 mana/card-effect limitations remain in force; this wrapper does not silently upgrade that simulator.",
+  "Partner/background-style pairs are evaluated per commander to remove cast-order confounding; actual games can allocate mana between commanders differently.",
+  "These tests measure commander access/recovery only; Step D separately measures commander marginal strategic value once available."
+ ],
+ "method": {
+  "commander_pair_policy": "each commander is simulated separately with the same 99 and deck color identity; co-commander cast-order competition is intentionally removed",
+  "model": "1.1",
+  "pairing": "same library permutations for baseline, no-fast counterfactual, and removal perturbations",
+  "samples": 500,
+  "seed": 6813,
+  "simulator": "grixis_sim",
+  "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+  "turns": 10
+ },
+ "schema_version": 1,
+ "slug": "anhelo-the-painter",
+ "status": "provisional_test_evidence"
+}

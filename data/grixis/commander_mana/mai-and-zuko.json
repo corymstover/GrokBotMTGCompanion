@@ -1,0 +1,246 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander-casting/tax stress cannot decide mana-base swaps or deck changes."
+ },
+ "canonical_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+ "commanders": [
+  {
+   "baseline": {
+    "cast_by_turn": {
+     "10": 0.988,
+     "2": 0.072,
+     "3": 0.474,
+     "4": 0.816,
+     "5": 0.916,
+     "6": 0.94,
+     "8": 0.974
+    },
+    "cast_share_by_turn10": 0.988,
+    "mana_available_by_turn": [
+     0.87,
+     2.544,
+     3.824,
+     4.698,
+     5.464,
+     6.038,
+     6.61,
+     7.142,
+     7.636,
+     8.156
+    ],
+    "mana_spent_by_turn": [
+     0.842,
+     2.262,
+     3.522,
+     4.096,
+     4.222,
+     3.742,
+     3.14,
+     2.854,
+     2.622,
+     2.294
+    ],
+    "mean_turn_when_cast": 3.7935
+   },
+   "commander": "Mai and Zuko",
+   "fast_mana_contribution": {
+    "interpretation": "Positive values mean the listed fast-mana package increases/accelerates commander casting in this bounded goldfish counterfactual.",
+    "mean_turn_acceleration_when_both_cast": {
+     "ci95": [
+      0.5741,
+      0.8352
+     ],
+     "paired_games": 474,
+     "value": 0.7046
+    },
+    "paired_cast_probability_delta_by_turn": {
+     "2": {
+      "ci95": [
+       0.04932,
+       0.09468
+      ],
+      "value": 0.072
+     },
+     "3": {
+      "ci95": [
+       0.339907,
+       0.428093
+      ],
+      "value": 0.384
+     },
+     "4": {
+      "ci95": [
+       0.069742,
+       0.142258
+      ],
+      "value": 0.106
+     },
+     "5": {
+      "ci95": [
+       0.05682,
+       0.11518
+      ],
+      "value": 0.086
+     },
+     "6": {
+      "ci95": [
+       0.047947,
+       0.104053
+      ],
+      "value": 0.076
+     }
+    }
+   },
+   "fast_mana_inventory": [
+    "Arcane Signet",
+    "Fellwar Stone",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.952,
+     "2": 0.0,
+     "3": 0.09,
+     "4": 0.71,
+     "5": 0.83,
+     "6": 0.864,
+     "8": 0.914
+    },
+    "cast_share_by_turn10": 0.952,
+    "mana_available_by_turn": [
+     0.852,
+     2.128,
+     3.128,
+     4.218,
+     4.774,
+     5.2,
+     5.626,
+     6.048,
+     6.394,
+     6.75
+    ],
+    "mana_spent_by_turn": [
+     0.302,
+     1.396,
+     2.796,
+     3.438,
+     3.546,
+     3.438,
+     2.914,
+     2.604,
+     2.486,
+     2.178
+    ],
+    "mean_turn_when_cast": 4.4958
+   },
+   "static_cost": {
+    "all_required_colors_present_by_base_turn": 0.76047,
+    "base_resource_target": 4,
+    "colored_requirements": {
+     "B": 1,
+     "R": 1,
+     "U": 1
+    },
+    "first_recast_resource_target": 6,
+    "mana_cost": "{1}{U}{B}{R}",
+    "mana_value": 4.0,
+    "name": "Mai and Zuko",
+    "per_color_source_presence_by_base_turn": {
+     "B": 0.903815,
+     "R": 0.871941,
+     "U": 0.888913
+    },
+    "second_recast_resource_target": 8
+   },
+   "tax_recovery_after_one_removal": {
+    "event_count": 494,
+    "recast_count": 463,
+    "recast_share_given_removal": 0.937247,
+    "recast_within_turns_given_removal": {
+     "1": 0.311741,
+     "2": 0.625506,
+     "3": 0.773279
+    },
+    "recovery_turns_mean_when_recast": {
+     "ci95": [
+      2.1925,
+      2.4468
+     ],
+     "value": 2.3197
+    },
+    "removal_event_share": 0.988
+   },
+   "tax_recovery_after_two_removals": {
+    "first": {
+     "event_count": 494,
+     "recast_count": 463,
+     "recast_share_given_removal": 0.937247,
+     "recast_within_turns_given_removal": {
+      "1": 0.311741,
+      "2": 0.625506,
+      "3": 0.773279
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.1925,
+       2.4468
+      ],
+      "value": 2.3197
+     },
+     "removal_event_share": 0.988
+    },
+    "second": {
+     "event_count": 463,
+     "recast_count": 302,
+     "recast_share_given_removal": 0.652268,
+     "recast_within_turns_given_removal": {
+      "1": 0.159827,
+      "2": 0.382289,
+      "3": 0.516199
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.3243,
+       2.6029
+      ],
+      "value": 2.4636
+     },
+     "removal_event_share": 0.926
+    }
+   }
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Mai_and_Zuko",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish engine only: no real opponents, interaction, politics or multiplayer win rates.",
+  "Removal stress deterministically removes the isolated commander at end of the first eligible turn; it is a tax-recovery stress, not a real removal-frequency estimate.",
+  "The no-fast counterfactual keeps fast-mana cards in draws but disables their mana modes and makes them uncastable; this isolates acceleration but ignores any alternate non-mana use.",
+  "Existing grixis_sim v1.1 mana/card-effect limitations remain in force; this wrapper does not silently upgrade that simulator.",
+  "Partner/background-style pairs are evaluated per commander to remove cast-order confounding; actual games can allocate mana between commanders differently.",
+  "These tests measure commander access/recovery only; Step D separately measures commander marginal strategic value once available."
+ ],
+ "method": {
+  "commander_pair_policy": "each commander is simulated separately with the same 99 and deck color identity; co-commander cast-order competition is intentionally removed",
+  "model": "1.1",
+  "pairing": "same library permutations for baseline, no-fast counterfactual, and removal perturbations",
+  "samples": 500,
+  "seed": 6813,
+  "simulator": "grixis_sim",
+  "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+  "turns": 10
+ },
+ "schema_version": 1,
+ "slug": "mai-and-zuko",
+ "status": "provisional_test_evidence"
+}

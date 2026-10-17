@@ -1,0 +1,243 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander-casting/tax stress cannot decide mana-base swaps or deck changes."
+ },
+ "canonical_hash": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
+ "commanders": [
+  {
+   "baseline": {
+    "cast_by_turn": {
+     "10": 0.948,
+     "2": 0.004,
+     "3": 0.05,
+     "4": 0.256,
+     "5": 0.496,
+     "6": 0.73,
+     "8": 0.858
+    },
+    "cast_share_by_turn10": 0.948,
+    "mana_available_by_turn": [
+     0.782,
+     2.216,
+     3.756,
+     4.734,
+     5.528,
+     6.246,
+     6.884,
+     7.474,
+     8.014,
+     8.576
+    ],
+    "mana_spent_by_turn": [
+     0.278,
+     1.848,
+     3.084,
+     3.982,
+     4.802,
+     5.394,
+     5.412,
+     5.338,
+     5.18,
+     4.444
+    ],
+    "mean_turn_when_cast": 5.6498
+   },
+   "commander": "Be'lakor, the Dark Master",
+   "fast_mana_contribution": {
+    "interpretation": "Positive values mean the listed fast-mana package increases/accelerates commander casting in this bounded goldfish counterfactual.",
+    "mean_turn_acceleration_when_both_cast": {
+     "ci95": [
+      1.1039,
+      1.4384
+     ],
+     "paired_games": 402,
+     "value": 1.2711
+    },
+    "paired_cast_probability_delta_by_turn": {
+     "2": {
+      "ci95": [
+       -0.001538,
+       0.009538
+      ],
+      "value": 0.004
+     },
+     "3": {
+      "ci95": [
+       0.030877,
+       0.069123
+      ],
+      "value": 0.05
+     },
+     "4": {
+      "ci95": [
+       0.217708,
+       0.294292
+      ],
+      "value": 0.256
+     },
+     "5": {
+      "ci95": [
+       0.3481,
+       0.4359
+      ],
+      "value": 0.392
+     },
+     "6": {
+      "ci95": [
+       0.204793,
+       0.291207
+      ],
+      "value": 0.248
+     }
+    }
+   },
+   "fast_mana_inventory": [
+    "Arcane Signet",
+    "Dark Ritual",
+    "Fellwar Stone",
+    "Rakdos Signet",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.812,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.0,
+     "5": 0.104,
+     "6": 0.482,
+     "8": 0.668
+    },
+    "cast_share_by_turn10": 0.812,
+    "mana_available_by_turn": [
+     0.782,
+     2.044,
+     3.02,
+     3.852,
+     4.56,
+     5.218,
+     5.75,
+     6.218,
+     6.654,
+     7.106
+    ],
+    "mana_spent_by_turn": [
+     0.074,
+     0.876,
+     1.956,
+     2.59,
+     3.398,
+     4.364,
+     4.442,
+     4.486,
+     4.44,
+     4.368
+    ],
+    "mean_turn_when_cast": 6.7882
+   },
+   "static_cost": {
+    "all_required_colors_present_by_base_turn": 0.904094,
+    "base_resource_target": 6,
+    "colored_requirements": {
+     "B": 1,
+     "R": 1,
+     "U": 1
+    },
+    "first_recast_resource_target": 8,
+    "mana_cost": "{3}{U}{B}{R}",
+    "mana_value": 6.0,
+    "name": "Be'lakor, the Dark Master",
+    "per_color_source_presence_by_base_turn": {
+     "B": 0.975312,
+     "R": 0.949058,
+     "U": 0.964357
+    },
+    "second_recast_resource_target": 10
+   },
+   "tax_recovery_after_one_removal": {
+    "event_count": 474,
+    "recast_count": 350,
+    "recast_share_given_removal": 0.738397,
+    "recast_within_turns_given_removal": {
+     "1": 0.090717,
+     "2": 0.447257,
+     "3": 0.611814
+    },
+    "recovery_turns_mean_when_recast": {
+     "ci95": [
+      2.4127,
+      2.6445
+     ],
+     "value": 2.5286
+    },
+    "removal_event_share": 0.948
+   },
+   "tax_recovery_after_two_removals": {
+    "first": {
+     "event_count": 474,
+     "recast_count": 350,
+     "recast_share_given_removal": 0.738397,
+     "recast_within_turns_given_removal": {
+      "1": 0.090717,
+      "2": 0.447257,
+      "3": 0.611814
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.4127,
+       2.6445
+      ],
+      "value": 2.5286
+     },
+     "removal_event_share": 0.948
+    },
+    "second": {
+     "event_count": 350,
+     "recast_count": 163,
+     "recast_share_given_removal": 0.465714,
+     "recast_within_turns_given_removal": {
+      "1": 0.117143,
+      "2": 0.325714,
+      "3": 0.422857
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.0063,
+       2.2881
+      ],
+      "value": 2.1472
+     },
+     "removal_event_share": 0.7
+    }
+   }
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Be_lakor__the_Dark_Master",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish engine only: no real opponents, interaction, politics or multiplayer win rates.",
+  "Removal stress deterministically removes the isolated commander at end of the first eligible turn; it is a tax-recovery stress, not a real removal-frequency estimate.",
+  "The no-fast counterfactual keeps fast-mana cards in draws but disables their mana modes and makes them uncastable; this isolates acceleration but ignores any alternate non-mana use.",
+  "Existing grixis_sim v1.1 mana/card-effect limitations remain in force; this wrapper does not silently upgrade that simulator.",
+  "Partner/background-style pairs are evaluated per commander to remove cast-order confounding; actual games can allocate mana between commanders differently.",
+  "These tests measure commander access/recovery only; Step D separately measures commander marginal strategic value once available."
+ ],
+ "method": {
+  "commander_pair_policy": "each commander is simulated separately with the same 99 and deck color identity; co-commander cast-order competition is intentionally removed",
+  "model": "1.1",
+  "pairing": "same library permutations for baseline, no-fast counterfactual, and removal perturbations",
+  "samples": 500,
+  "seed": 6813,
+  "simulator": "grixis_sim",
+  "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+  "turns": 10
+ },
+ "schema_version": 1,
+ "slug": "belakor-the-dark-master",
+ "status": "provisional_test_evidence"
+}

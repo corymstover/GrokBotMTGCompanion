@@ -1,0 +1,244 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander-casting/tax stress cannot decide mana-base swaps or deck changes."
+ },
+ "canonical_hash": "lh1:ac167a53ea77215d7eb148ea2eb814c2596d8da1943a971a8ee077c6d35ceb00",
+ "commanders": [
+  {
+   "baseline": {
+    "cast_by_turn": {
+     "10": 0.996,
+     "2": 0.088,
+     "3": 0.846,
+     "4": 0.926,
+     "5": 0.942,
+     "6": 0.958,
+     "8": 0.988
+    },
+    "cast_share_by_turn10": 0.996,
+    "mana_available_by_turn": [
+     0.938,
+     2.28,
+     3.718,
+     4.6,
+     5.624,
+     6.29,
+     6.888,
+     7.44,
+     7.958,
+     8.428
+    ],
+    "mana_spent_by_turn": [
+     0.602,
+     2.06,
+     3.17,
+     4.24,
+     4.762,
+     4.306,
+     3.886,
+     3.122,
+     2.878,
+     2.578
+    ],
+    "mean_turn_when_cast": 3.249
+   },
+   "commander": "Nathan Drake, Treasure Hunter",
+   "fast_mana_contribution": {
+    "interpretation": "Positive values mean the listed fast-mana package increases/accelerates commander casting in this bounded goldfish counterfactual.",
+    "mean_turn_acceleration_when_both_cast": {
+     "ci95": [
+      0.2399,
+      0.4554
+     ],
+     "paired_games": 489,
+     "value": 0.3476
+    },
+    "paired_cast_probability_delta_by_turn": {
+     "2": {
+      "ci95": [
+       0.063143,
+       0.112857
+      ],
+      "value": 0.088
+     },
+     "3": {
+      "ci95": [
+       0.097953,
+       0.166047
+      ],
+      "value": 0.132
+     },
+     "4": {
+      "ci95": [
+       0.037401,
+       0.090599
+      ],
+      "value": 0.064
+     },
+     "5": {
+      "ci95": [
+       0.02183,
+       0.07017
+      ],
+      "value": 0.046
+     },
+     "6": {
+      "ci95": [
+       0.015707,
+       0.060293
+      ],
+      "value": 0.038
+     }
+    }
+   },
+   "fast_mana_inventory": [
+    "Arcane Signet",
+    "Dark Ritual",
+    "Fellwar Stone",
+    "Lotus Petal",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence",
+    "Thieving Varmint"
+   ],
+   "no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.978,
+     "2": 0.0,
+     "3": 0.714,
+     "4": 0.862,
+     "5": 0.896,
+     "6": 0.92,
+     "8": 0.958
+    },
+    "cast_share_by_turn10": 0.978,
+    "mana_available_by_turn": [
+     0.934,
+     2.036,
+     3.046,
+     3.902,
+     4.702,
+     5.294,
+     5.788,
+     6.232,
+     6.64,
+     7.052
+    ],
+    "mana_spent_by_turn": [
+     0.322,
+     1.266,
+     2.77,
+     3.298,
+     3.802,
+     3.818,
+     3.438,
+     2.996,
+     2.65,
+     2.418
+    ],
+    "mean_turn_when_cast": 3.5849
+   },
+   "static_cost": {
+    "all_required_colors_present_by_base_turn": 0.733327,
+    "base_resource_target": 3,
+    "colored_requirements": {
+     "B": 1,
+     "R": 1,
+     "U": 1
+    },
+    "first_recast_resource_target": 5,
+    "mana_cost": "{U}{B}{R}",
+    "mana_value": 3.0,
+    "name": "Nathan Drake, Treasure Hunter",
+    "per_color_source_presence_by_base_turn": {
+     "B": 0.87943,
+     "R": 0.894315,
+     "U": 0.87943
+    },
+    "second_recast_resource_target": 7
+   },
+   "tax_recovery_after_one_removal": {
+    "event_count": 498,
+    "recast_count": 489,
+    "recast_share_given_removal": 0.981928,
+    "recast_within_turns_given_removal": {
+     "1": 0.47992,
+     "2": 0.831325,
+     "3": 0.895582
+    },
+    "recovery_turns_mean_when_recast": {
+     "ci95": [
+      1.7263,
+      1.9302
+     ],
+     "value": 1.8282
+    },
+    "removal_event_share": 0.996
+   },
+   "tax_recovery_after_two_removals": {
+    "first": {
+     "event_count": 498,
+     "recast_count": 489,
+     "recast_share_given_removal": 0.981928,
+     "recast_within_turns_given_removal": {
+      "1": 0.47992,
+      "2": 0.831325,
+      "3": 0.895582
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       1.7263,
+       1.9302
+      ],
+      "value": 1.8282
+     },
+     "removal_event_share": 0.996
+    },
+    "second": {
+     "event_count": 489,
+     "recast_count": 413,
+     "recast_share_given_removal": 0.844581,
+     "recast_within_turns_given_removal": {
+      "1": 0.286299,
+      "2": 0.607362,
+      "3": 0.725971
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.037,
+       2.2632
+      ],
+      "value": 2.1501
+     },
+     "removal_event_share": 0.978
+    }
+   }
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Nathan_Drake__Treasure_Hunter",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish engine only: no real opponents, interaction, politics or multiplayer win rates.",
+  "Removal stress deterministically removes the isolated commander at end of the first eligible turn; it is a tax-recovery stress, not a real removal-frequency estimate.",
+  "The no-fast counterfactual keeps fast-mana cards in draws but disables their mana modes and makes them uncastable; this isolates acceleration but ignores any alternate non-mana use.",
+  "Existing grixis_sim v1.1 mana/card-effect limitations remain in force; this wrapper does not silently upgrade that simulator.",
+  "Partner/background-style pairs are evaluated per commander to remove cast-order confounding; actual games can allocate mana between commanders differently.",
+  "These tests measure commander access/recovery only; Step D separately measures commander marginal strategic value once available."
+ ],
+ "method": {
+  "commander_pair_policy": "each commander is simulated separately with the same 99 and deck color identity; co-commander cast-order competition is intentionally removed",
+  "model": "1.1",
+  "pairing": "same library permutations for baseline, no-fast counterfactual, and removal perturbations",
+  "samples": 500,
+  "seed": 6813,
+  "simulator": "grixis_sim",
+  "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+  "turns": 10
+ },
+ "schema_version": 1,
+ "slug": "nathan-drake-treasure-hunter",
+ "status": "provisional_test_evidence"
+}

@@ -1,0 +1,248 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander-casting/tax stress cannot decide mana-base swaps or deck changes."
+ },
+ "canonical_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+ "commanders": [
+  {
+   "baseline": {
+    "cast_by_turn": {
+     "10": 0.998,
+     "2": 0.162,
+     "3": 0.684,
+     "4": 0.908,
+     "5": 0.942,
+     "6": 0.968,
+     "8": 0.99
+    },
+    "cast_share_by_turn10": 0.998,
+    "mana_available_by_turn": [
+     0.9,
+     2.714,
+     4.378,
+     5.326,
+     6.266,
+     7.084,
+     7.708,
+     8.32,
+     8.916,
+     9.524
+    ],
+    "mana_spent_by_turn": [
+     1.024,
+     2.844,
+     3.898,
+     4.588,
+     4.516,
+     4.05,
+     3.462,
+     3.0,
+     2.718,
+     2.528
+    ],
+    "mean_turn_when_cast": 3.3547
+   },
+   "commander": "Mairsil, the Pretender",
+   "fast_mana_contribution": {
+    "interpretation": "Positive values mean the listed fast-mana package increases/accelerates commander casting in this bounded goldfish counterfactual.",
+    "mean_turn_acceleration_when_both_cast": {
+     "ci95": [
+      0.9388,
+      1.1823
+     ],
+     "paired_games": 479,
+     "value": 1.0605
+    },
+    "paired_cast_probability_delta_by_turn": {
+     "2": {
+      "ci95": [
+       0.129672,
+       0.194328
+      ],
+      "value": 0.162
+     },
+     "3": {
+      "ci95": [
+       0.556305,
+       0.643695
+      ],
+      "value": 0.6
+     },
+     "4": {
+      "ci95": [
+       0.087892,
+       0.156108
+      ],
+      "value": 0.122
+     },
+     "5": {
+      "ci95": [
+       0.074761,
+       0.137239
+      ],
+      "value": 0.106
+     },
+     "6": {
+      "ci95": [
+       0.056079,
+       0.107921
+      ],
+      "value": 0.082
+     }
+    }
+   },
+   "fast_mana_inventory": [
+    "Arcane Signet",
+    "Dimir Signet",
+    "Fellwar Stone",
+    "Izzet Signet",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Omen Hawker",
+    "Rakdos Signet",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.958,
+     "2": 0.0,
+     "3": 0.084,
+     "4": 0.786,
+     "5": 0.836,
+     "6": 0.886,
+     "8": 0.938
+    },
+    "cast_share_by_turn10": 0.958,
+    "mana_available_by_turn": [
+     0.892,
+     2.086,
+     3.118,
+     4.008,
+     4.648,
+     5.308,
+     5.802,
+     6.222,
+     6.65,
+     7.054
+    ],
+    "mana_spent_by_turn": [
+     0.438,
+     1.22,
+     2.326,
+     3.41,
+     3.416,
+     3.184,
+     2.974,
+     2.406,
+     2.428,
+     2.394
+    ],
+    "mean_turn_when_cast": 4.3758
+   },
+   "static_cost": {
+    "all_required_colors_present_by_base_turn": 0.765851,
+    "base_resource_target": 4,
+    "colored_requirements": {
+     "B": 1,
+     "R": 1,
+     "U": 1
+    },
+    "first_recast_resource_target": 6,
+    "mana_cost": "{1}{U}{B}{R}",
+    "mana_value": 4.0,
+    "name": "Mairsil, the Pretender",
+    "per_color_source_presence_by_base_turn": {
+     "B": 0.888913,
+     "R": 0.903815,
+     "U": 0.903815
+    },
+    "second_recast_resource_target": 8
+   },
+   "tax_recovery_after_one_removal": {
+    "event_count": 499,
+    "recast_count": 479,
+    "recast_share_given_removal": 0.95992,
+    "recast_within_turns_given_removal": {
+     "1": 0.412826,
+     "2": 0.771543,
+     "3": 0.841683
+    },
+    "recovery_turns_mean_when_recast": {
+     "ci95": [
+      1.8944,
+      2.1348
+     ],
+     "value": 2.0146
+    },
+    "removal_event_share": 0.998
+   },
+   "tax_recovery_after_two_removals": {
+    "first": {
+     "event_count": 499,
+     "recast_count": 479,
+     "recast_share_given_removal": 0.95992,
+     "recast_within_turns_given_removal": {
+      "1": 0.412826,
+      "2": 0.771543,
+      "3": 0.841683
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       1.8944,
+       2.1348
+      ],
+      "value": 2.0146
+     },
+     "removal_event_share": 0.998
+    },
+    "second": {
+     "event_count": 479,
+     "recast_count": 395,
+     "recast_share_given_removal": 0.824635,
+     "recast_within_turns_given_removal": {
+      "1": 0.306889,
+      "2": 0.601253,
+      "3": 0.697286
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.0282,
+       2.2807
+      ],
+      "value": 2.1544
+     },
+     "removal_event_share": 0.958
+    }
+   }
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Mairsil__the_Pretender",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish engine only: no real opponents, interaction, politics or multiplayer win rates.",
+  "Removal stress deterministically removes the isolated commander at end of the first eligible turn; it is a tax-recovery stress, not a real removal-frequency estimate.",
+  "The no-fast counterfactual keeps fast-mana cards in draws but disables their mana modes and makes them uncastable; this isolates acceleration but ignores any alternate non-mana use.",
+  "Existing grixis_sim v1.1 mana/card-effect limitations remain in force; this wrapper does not silently upgrade that simulator.",
+  "Partner/background-style pairs are evaluated per commander to remove cast-order confounding; actual games can allocate mana between commanders differently.",
+  "These tests measure commander access/recovery only; Step D separately measures commander marginal strategic value once available."
+ ],
+ "method": {
+  "commander_pair_policy": "each commander is simulated separately with the same 99 and deck color identity; co-commander cast-order competition is intentionally removed",
+  "model": "1.1",
+  "pairing": "same library permutations for baseline, no-fast counterfactual, and removal perturbations",
+  "samples": 500,
+  "seed": 6813,
+  "simulator": "grixis_sim",
+  "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+  "turns": 10
+ },
+ "schema_version": 1,
+ "slug": "mairsil-the-pretender",
+ "status": "provisional_test_evidence"
+}

@@ -1,0 +1,248 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander-casting/tax stress cannot decide mana-base swaps or deck changes."
+ },
+ "canonical_hash": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
+ "commanders": [
+  {
+   "baseline": {
+    "cast_by_turn": {
+     "10": 0.96,
+     "2": 0.016,
+     "3": 0.13,
+     "4": 0.488,
+     "5": 0.766,
+     "6": 0.858,
+     "8": 0.924
+    },
+    "cast_share_by_turn10": 0.96,
+    "mana_available_by_turn": [
+     0.896,
+     2.338,
+     3.822,
+     4.778,
+     5.498,
+     6.158,
+     6.716,
+     7.198,
+     7.63,
+     8.07
+    ],
+    "mana_spent_by_turn": [
+     0.774,
+     2.31,
+     3.538,
+     4.142,
+     4.292,
+     3.56,
+     2.742,
+     2.198,
+     1.922,
+     1.812
+    ],
+    "mean_turn_when_cast": 4.7708
+   },
+   "commander": "Ashnod the Uncaring",
+   "fast_mana_contribution": {
+    "interpretation": "Positive values mean the listed fast-mana package increases/accelerates commander casting in this bounded goldfish counterfactual.",
+    "mean_turn_acceleration_when_both_cast": {
+     "ci95": [
+      1.1425,
+      1.5205
+     ],
+     "paired_games": 368,
+     "value": 1.3315
+    },
+    "paired_cast_probability_delta_by_turn": {
+     "2": {
+      "ci95": [
+       0.004991,
+       0.027009
+      ],
+      "value": 0.016
+     },
+     "3": {
+      "ci95": [
+       0.100492,
+       0.159508
+      ],
+      "value": 0.13
+     },
+     "4": {
+      "ci95": [
+       0.372046,
+       0.459954
+      ],
+      "value": 0.416
+     },
+     "5": {
+      "ci95": [
+       0.298436,
+       0.389564
+      ],
+      "value": 0.344
+     },
+     "6": {
+      "ci95": [
+       0.280601,
+       0.371399
+      ],
+      "value": 0.326
+     }
+    }
+   },
+   "fast_mana_inventory": [
+    "Arcane Signet",
+    "Fellwar Stone",
+    "Great Furnace",
+    "Lotus Petal",
+    "Mind Stone",
+    "Mox Opal",
+    "Seat of the Synod",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence",
+    "Treasure Vault",
+    "Vault of Whispers"
+   ],
+   "no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.748,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.072,
+     "5": 0.422,
+     "6": 0.532,
+     "8": 0.652
+    },
+    "cast_share_by_turn10": 0.748,
+    "mana_available_by_turn": [
+     0.882,
+     2.024,
+     2.948,
+     3.638,
+     4.168,
+     4.638,
+     4.988,
+     5.308,
+     5.604,
+     5.902
+    ],
+    "mana_spent_by_turn": [
+     0.428,
+     1.578,
+     2.412,
+     2.768,
+     3.31,
+     3.05,
+     2.444,
+     2.086,
+     2.024,
+     1.896
+    ],
+    "mean_turn_when_cast": 6.0134
+   },
+   "static_cost": {
+    "all_required_colors_present_by_base_turn": 0.715613,
+    "base_resource_target": 5,
+    "colored_requirements": {
+     "B": 1,
+     "R": 1,
+     "U": 1
+    },
+    "first_recast_resource_target": 7,
+    "mana_cost": "{2}{U}{B}{R}",
+    "mana_value": 5.0,
+    "name": "Ashnod the Uncaring",
+    "per_color_source_presence_by_base_turn": {
+     "B": 0.877762,
+     "R": 0.857668,
+     "U": 0.895225
+    },
+    "second_recast_resource_target": 9
+   },
+   "tax_recovery_after_one_removal": {
+    "event_count": 480,
+    "recast_count": 391,
+    "recast_share_given_removal": 0.814583,
+    "recast_within_turns_given_removal": {
+     "1": 0.2,
+     "2": 0.55,
+     "3": 0.66875
+    },
+    "recovery_turns_mean_when_recast": {
+     "ci95": [
+      2.266,
+      2.5269
+     ],
+     "value": 2.3964
+    },
+    "removal_event_share": 0.96
+   },
+   "tax_recovery_after_two_removals": {
+    "first": {
+     "event_count": 480,
+     "recast_count": 391,
+     "recast_share_given_removal": 0.814583,
+     "recast_within_turns_given_removal": {
+      "1": 0.2,
+      "2": 0.55,
+      "3": 0.66875
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.266,
+       2.5269
+      ],
+      "value": 2.3964
+     },
+     "removal_event_share": 0.96
+    },
+    "second": {
+     "event_count": 391,
+     "recast_count": 199,
+     "recast_share_given_removal": 0.508951,
+     "recast_within_turns_given_removal": {
+      "1": 0.12532,
+      "2": 0.322251,
+      "3": 0.43734
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.156,
+       2.457
+      ],
+      "value": 2.3065
+     },
+     "removal_event_share": 0.782
+    }
+   }
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Ashnod_the_Uncaring",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish engine only: no real opponents, interaction, politics or multiplayer win rates.",
+  "Removal stress deterministically removes the isolated commander at end of the first eligible turn; it is a tax-recovery stress, not a real removal-frequency estimate.",
+  "The no-fast counterfactual keeps fast-mana cards in draws but disables their mana modes and makes them uncastable; this isolates acceleration but ignores any alternate non-mana use.",
+  "Existing grixis_sim v1.1 mana/card-effect limitations remain in force; this wrapper does not silently upgrade that simulator.",
+  "Partner/background-style pairs are evaluated per commander to remove cast-order confounding; actual games can allocate mana between commanders differently.",
+  "These tests measure commander access/recovery only; Step D separately measures commander marginal strategic value once available."
+ ],
+ "method": {
+  "commander_pair_policy": "each commander is simulated separately with the same 99 and deck color identity; co-commander cast-order competition is intentionally removed",
+  "model": "1.1",
+  "pairing": "same library permutations for baseline, no-fast counterfactual, and removal perturbations",
+  "samples": 500,
+  "seed": 6813,
+  "simulator": "grixis_sim",
+  "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+  "turns": 10
+ },
+ "schema_version": 1,
+ "slug": "ashnod-the-uncaring",
+ "status": "provisional_test_evidence"
+}

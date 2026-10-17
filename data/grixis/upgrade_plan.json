@@ -349,7 +349,7 @@
     "68.5 mana/color-screw complements, one-source-unavailable structural sensitivity and fetch-target redundancy",
     "68.6 validate_all integration + real-deck decision-resolution gain proof; Step C code complete except 68.3 local-cache closure"
    ],
-   "status": "code_complete_pending_local_cache_validation",
+   "status": "complete",
    "depends_on": [
     "E"
    ],
@@ -368,7 +368,8 @@
    "pending_local_validation_batches": [
     "68.3 isolated commander casting, fast-mana contribution and +2/+4 commander-tax recovery stress — code-ready; requires frozen local Oracle bulk to generate/validate real 62-deck evidence"
    ],
-   "local_validation_gate": "data/grixis/commander_mana/README.md"
+   "local_validation_gate": "data/grixis/commander_mana/README.md",
+   "completed": "ChatGPT cycle 72.3 frozen-cache validation"
   },
   {
    "order": 5,
@@ -568,7 +569,7 @@
  ],
  "m5_candidate_files": "capped legacy, superseded at M5 regeneration",
  "launch_tracker": {
-  "updated": "ChatGPT cycle 72.2 (2026-10-17)",
+  "updated": "ChatGPT cycle 72.3 (2026-10-17)",
   "definition_of_100_percent": "all prerequisite infrastructure finished and validated, M5 accepted on the fresh Birthday snapshot, I/J and K complete, M6 cleared to begin (M6 itself excluded)",
   "weighting": "batch-weighted: estimated batches per stage = midpoint of the plan range (completed stages count their actual batches); percent = done / total",
   "stages": [
@@ -603,9 +604,9 @@
    {
     "id": "C",
     "estimated_batches": 6,
-    "batches_done": 5,
-    "status": "code_complete_pending_local_cache_validation",
-    "note": "5/6 batch-equivalents complete through 68.6. Cache-independent Step C is integrated and gain-proven; the final equivalent is 68.3 commander-cast/tax output generation + validation on the frozen local Scryfall cache."
+    "batches_done": 6,
+    "status": "complete",
+    "note": "Mana optimizer including 62-deck commander cast/tax output generation validated on the frozen development snapshot."
    },
    {
     "id": "D",
@@ -665,7 +666,7 @@
    }
   ],
   "total_estimated_batches": 62.5,
-  "batches_done": 42.5,
-  "percent_complete": 68.0
+  "batches_done": 43.5,
+  "percent_complete": 69.6
  }
 }

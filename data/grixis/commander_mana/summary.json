@@ -1,0 +1,445 @@
+{
+ "decks": [
+  {
+   "commanders": 1,
+   "deck_id": "Abaddon_the_Despoiler",
+   "mean_cast_turn": 4.6578,
+   "mean_recast_share": 0.8627,
+   "slug": "abaddon-the-despoiler"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Admiral_Beckett_Brass",
+   "mean_cast_turn": 3.564,
+   "mean_recast_share": 0.966,
+   "slug": "admiral-beckett-brass"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Admiral_Brass__Unsinkable",
+   "mean_cast_turn": 4.2327,
+   "mean_recast_share": 0.9,
+   "slug": "admiral-brass-unsinkable"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Anhelo__the_Painter",
+   "mean_cast_turn": 3.086,
+   "mean_recast_share": 0.984,
+   "slug": "anhelo-the-painter"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Ashad__the_Lone_Cyberman",
+   "mean_cast_turn": 3.8222,
+   "mean_recast_share": 0.9293,
+   "slug": "ashad-the-lone-cyberman"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Ashnod_the_Uncaring",
+   "mean_cast_turn": 4.7708,
+   "mean_recast_share": 0.8146,
+   "slug": "ashnod-the-uncaring"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Be_lakor__the_Dark_Master",
+   "mean_cast_turn": 5.6498,
+   "mean_recast_share": 0.7384,
+   "slug": "belakor-the-dark-master"
+  },
+  {
+   "commanders": 2,
+   "deck_id": "Cecily__Bjorna__Lutri",
+   "mean_cast_turn": 2.9001,
+   "mean_recast_share": 0.9839,
+   "slug": "bjorna-nightfall-alchemist-cecily"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Cormela__Glamour_Thief",
+   "mean_cast_turn": 3.756,
+   "mean_recast_share": 0.9315,
+   "slug": "cormela-glamour-thief"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Crosis__the_Purger",
+   "mean_cast_turn": 5.0626,
+   "mean_recast_share": 0.8017,
+   "slug": "crosis-the-purger"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Cult_of_Skaro",
+   "mean_cast_turn": 3.6436,
+   "mean_recast_share": 0.9572,
+   "slug": "cult-of-skaro"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Davros__Dalek_Creator",
+   "mean_cast_turn": 3.8793,
+   "mean_recast_share": 0.9256,
+   "slug": "davros-dalek-creator"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Doctor_Doom__King_of_Latveria",
+   "mean_cast_turn": 3.754,
+   "mean_recast_share": 0.984,
+   "slug": "doctor-doom-king-of-latveria"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Don_Andres__the_Renegade",
+   "mean_cast_turn": 3.5591,
+   "mean_recast_share": 0.9739,
+   "slug": "don-andres-the-renegade"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Dr__Eggman",
+   "mean_cast_turn": 4.8941,
+   "mean_recast_share": 0.7966,
+   "slug": "dr-eggman"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Edea__Possessed_Sorceress",
+   "mean_cast_turn": 4.4777,
+   "mean_recast_share": 0.8907,
+   "slug": "edea-possessed-sorceress"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Edward_Kenway",
+   "mean_cast_turn": 4.5283,
+   "mean_recast_share": 0.8623,
+   "slug": "edward-kenway"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Evelyn__the_Covetous",
+   "mean_cast_turn": 4.8362,
+   "mean_recast_share": 0.694,
+   "slug": "evelyn-the-covetous"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Fire_Lord_Azula",
+   "mean_cast_turn": 4.0084,
+   "mean_recast_share": 0.8508,
+   "slug": "fire-lord-azula"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Garza_Zol__Plague_Queen",
+   "mean_cast_turn": 5.9634,
+   "mean_recast_share": 0.722,
+   "slug": "garza-zol-plague-queen"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Goro_Goro_and_Satoru",
+   "mean_cast_turn": 3.2766,
+   "mean_recast_share": 0.9579,
+   "slug": "goro-goro-and-satoru"
+  },
+  {
+   "commanders": 2,
+   "deck_id": "Grixistax___October_2026",
+   "mean_cast_turn": 4.9012,
+   "mean_recast_share": 0.6283,
+   "slug": "grixistax-october-2026"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Gwendlyn_Di_Corci",
+   "mean_cast_turn": 4.2464,
+   "mean_recast_share": 0.9532,
+   "slug": "gwendlyn-di-corci"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Inalla__Archmage_Ritualist",
+   "mean_cast_turn": 4.8263,
+   "mean_recast_share": 0.7288,
+   "slug": "inalla-archmage-ritualist"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Jeleva__Nephalia_s_Scourge",
+   "mean_cast_turn": 3.9834,
+   "mean_recast_share": 0.8794,
+   "slug": "jeleva-nephalias-scourge"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Kefka__Court_Mage",
+   "mean_cast_turn": 4.7403,
+   "mean_recast_share": 0.7296,
+   "slug": "kefka-court-mage"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Kess__Dissident_Mage",
+   "mean_cast_turn": 3.9223,
+   "mean_recast_share": 0.908,
+   "slug": "kess-dissident-mage"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Loki__the_Deceiver",
+   "mean_cast_turn": 3.776,
+   "mean_recast_share": 0.938,
+   "slug": "loki-the-deceiver"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Lord_of_Tresserhorn",
+   "mean_cast_turn": 3.6296,
+   "mean_recast_share": 0.9494,
+   "slug": "lord-of-tresserhorn"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Lord_Xander__the_Collector",
+   "mean_cast_turn": 6.9791,
+   "mean_recast_share": 0.4634,
+   "slug": "lord-xander-the-collector"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Lynde__Cheerful_Tormentor",
+   "mean_cast_turn": 3.7123,
+   "mean_recast_share": 0.9497,
+   "slug": "lynde-cheerful-tormentor"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Mai_and_Zuko",
+   "mean_cast_turn": 3.7935,
+   "mean_recast_share": 0.9372,
+   "slug": "mai-and-zuko"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Mairsil__the_Pretender",
+   "mean_cast_turn": 3.3547,
+   "mean_recast_share": 0.9599,
+   "slug": "mairsil-the-pretender"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Marchesa__Dealer_of_Death",
+   "mean_cast_turn": 3.2105,
+   "mean_recast_share": 0.9636,
+   "slug": "marchesa-dealer-of-death"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Marchesa__the_Black_Rose",
+   "mean_cast_turn": 3.8502,
+   "mean_recast_share": 0.9332,
+   "slug": "marchesa-the-black-rose"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Mishra__Artificer_Prodigy",
+   "mean_cast_turn": 3.9016,
+   "mean_recast_share": 0.918,
+   "slug": "mishra-artificer-prodigy"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Mishra__Eminent_One",
+   "mean_cast_turn": 4.6768,
+   "mean_recast_share": 0.8882,
+   "slug": "mishra-eminent-one"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Missy",
+   "mean_cast_turn": 5.8957,
+   "mean_recast_share": 0.6413,
+   "slug": "missy"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Nathan_Drake__Treasure_Hunter",
+   "mean_cast_turn": 3.249,
+   "mean_recast_share": 0.9819,
+   "slug": "nathan-drake-treasure-hunter"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Nekusar__the_Mindrazer",
+   "mean_cast_turn": 4.4816,
+   "mean_recast_share": 0.9571,
+   "slug": "nekusar-the-mindrazer"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Nicol_Bolas",
+   "mean_cast_turn": 7.0,
+   "mean_recast_share": 0.6079,
+   "slug": "nicol-bolas"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Nicol_Bolas__the_Ravager",
+   "mean_cast_turn": 3.492,
+   "mean_recast_share": 0.9639,
+   "slug": "nicol-bolas-the-ravager"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Norman_Osborn_Green_Goblin",
+   "mean_cast_turn": 2.0283,
+   "mean_recast_share": 0.9798,
+   "slug": "norman-osborn"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Obeka__Brute_Chronologist",
+   "mean_cast_turn": 3.6713,
+   "mean_recast_share": 0.9659,
+   "slug": "obeka-brute-chronologist"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Obeka__Splitter_of_Seconds",
+   "mean_cast_turn": 3.8327,
+   "mean_recast_share": 0.9456,
+   "slug": "obeka-splitter-of-seconds"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Parnesse__the_Subtle_Brush",
+   "mean_cast_turn": 4.3831,
+   "mean_recast_share": 0.9496,
+   "slug": "parnesse-the-subtle-brush"
+  },
+  {
+   "commanders": 2,
+   "deck_id": "RogSi",
+   "mean_cast_turn": 2.1913,
+   "mean_recast_share": 0.9616,
+   "slug": "rograkh-son-of-rohgahh-silas-renn"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Saruman__the_White_Hand",
+   "mean_cast_turn": 3.7617,
+   "mean_recast_share": 0.9552,
+   "slug": "saruman-the-white-hand"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Sauron__Lord_of_the_Rings",
+   "mean_cast_turn": 7.4056,
+   "mean_recast_share": 0.4169,
+   "slug": "sauron-lord-of-the-rings"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Sauron__the_Dark_Lord",
+   "mean_cast_turn": 5.8985,
+   "mean_recast_share": 0.7171,
+   "slug": "sauron-the-dark-lord"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Sedris__the_Traitor_King",
+   "mean_cast_turn": 5.29,
+   "mean_recast_share": 0.7143,
+   "slug": "sedris-the-traitor-king"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Sol_kanar_the_Swamp_King",
+   "mean_cast_turn": 4.2444,
+   "mean_recast_share": 0.9369,
+   "slug": "solkanar-the-swamp-king"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Sol_kanar_the_Tainted",
+   "mean_cast_turn": 4.3814,
+   "mean_recast_share": 0.901,
+   "slug": "solkanar-the-tainted"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Tetsuo__Imperial_Champion",
+   "mean_cast_turn": 3.2289,
+   "mean_recast_share": 0.998,
+   "slug": "tetsuo-imperial-champion"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Tetsuo_Umezawa",
+   "mean_cast_turn": 3.2334,
+   "mean_recast_share": 0.992,
+   "slug": "tetsuo-umezawa"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "The_Madcap_Jester",
+   "mean_cast_turn": 3.7742,
+   "mean_recast_share": 0.9516,
+   "slug": "the-madcap-jester"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "The_Rani",
+   "mean_cast_turn": 3.7241,
+   "mean_recast_share": 0.9148,
+   "slug": "the-rani"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "The_Valeyard",
+   "mean_cast_turn": 4.2032,
+   "mean_recast_share": 0.9477,
+   "slug": "the-valeyard"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Thraximundar",
+   "mean_cast_turn": 6.1943,
+   "mean_recast_share": 0.6419,
+   "slug": "thraximundar"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Tresserhorn_s_Lord__Returned",
+   "mean_cast_turn": 4.8193,
+   "mean_recast_share": 0.8172,
+   "slug": "tresserhorns-lord-returned"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Wick__the_Whorled_Mind",
+   "mean_cast_turn": 3.6064,
+   "mean_recast_share": 0.9337,
+   "slug": "wick-the-whorled-mind"
+  },
+  {
+   "commanders": 1,
+   "deck_id": "Zevlor__Elturel_Exile",
+   "mean_cast_turn": 3.9108,
+   "mean_recast_share": 0.9635,
+   "slug": "zevlor-elturel-exile"
+  }
+ ],
+ "generated_by": "scripts/grixis_commander_mana.py v1",
+ "samples_per_scenario": 500,
+ "schema_version": 1,
+ "totals": {
+  "commander_records": 65,
+  "decks": 62
+ }
+}

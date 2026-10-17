@@ -1,0 +1,242 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander-casting/tax stress cannot decide mana-base swaps or deck changes."
+ },
+ "canonical_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+ "commanders": [
+  {
+   "baseline": {
+    "cast_by_turn": {
+     "10": 0.932,
+     "2": 0.046,
+     "3": 0.252,
+     "4": 0.528,
+     "5": 0.698,
+     "6": 0.762,
+     "8": 0.88
+    },
+    "cast_share_by_turn10": 0.932,
+    "mana_available_by_turn": [
+     0.988,
+     2.762,
+     3.966,
+     4.61,
+     5.194,
+     5.68,
+     6.154,
+     6.544,
+     6.928,
+     7.35
+    ],
+    "mana_spent_by_turn": [
+     1.176,
+     2.32,
+     3.132,
+     3.378,
+     2.876,
+     2.532,
+     2.064,
+     1.736,
+     1.68,
+     1.538
+    ],
+    "mean_turn_when_cast": 4.7403
+   },
+   "commander": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "fast_mana_contribution": {
+    "interpretation": "Positive values mean the listed fast-mana package increases/accelerates commander casting in this bounded goldfish counterfactual.",
+    "mean_turn_acceleration_when_both_cast": {
+     "ci95": [
+      0.9971,
+      1.4018
+     ],
+     "paired_games": 396,
+     "value": 1.1995
+    },
+    "paired_cast_probability_delta_by_turn": {
+     "2": {
+      "ci95": [
+       0.027619,
+       0.064381
+      ],
+      "value": 0.046
+     },
+     "3": {
+      "ci95": [
+       0.200634,
+       0.275366
+      ],
+      "value": 0.238
+     },
+     "4": {
+      "ci95": [
+       0.256679,
+       0.347321
+      ],
+      "value": 0.302
+     },
+     "5": {
+      "ci95": [
+       0.144247,
+       0.231753
+      ],
+      "value": 0.188
+     },
+     "6": {
+      "ci95": [
+       0.147565,
+       0.232435
+      ],
+      "value": 0.19
+     }
+    }
+   },
+   "fast_mana_inventory": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Culling the Weak",
+    "Dark Ritual",
+    "Fellwar Stone",
+    "Grim Monolith",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance"
+   ],
+   "no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.81,
+     "2": 0.0,
+     "3": 0.014,
+     "4": 0.226,
+     "5": 0.51,
+     "6": 0.572,
+     "8": 0.704
+    },
+    "cast_share_by_turn10": 0.81,
+    "mana_available_by_turn": [
+     0.978,
+     2.138,
+     3.128,
+     3.864,
+     4.386,
+     4.82,
+     5.176,
+     5.462,
+     5.722,
+     6.008
+    ],
+    "mana_spent_by_turn": [
+     0.564,
+     1.364,
+     1.926,
+     2.478,
+     2.74,
+     2.136,
+     1.916,
+     1.634,
+     1.644,
+     1.546
+    ],
+    "mean_turn_when_cast": 5.7605
+   },
+   "static_cost": {
+    "all_required_colors_present_by_base_turn": 1.0,
+    "base_resource_target": 1,
+    "colored_requirements": {},
+    "first_recast_resource_target": 3,
+    "mana_cost": "—",
+    "mana_value": 0.0,
+    "name": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "per_color_source_presence_by_base_turn": {},
+    "second_recast_resource_target": 5
+   },
+   "tax_recovery_after_one_removal": {
+    "event_count": 466,
+    "recast_count": 340,
+    "recast_share_given_removal": 0.729614,
+    "recast_within_turns_given_removal": {
+     "1": 0.178112,
+     "2": 0.407725,
+     "3": 0.508584
+    },
+    "recovery_turns_mean_when_recast": {
+     "ci95": [
+      2.6102,
+      2.9603
+     ],
+     "value": 2.7853
+    },
+    "removal_event_share": 0.932
+   },
+   "tax_recovery_after_two_removals": {
+    "first": {
+     "event_count": 466,
+     "recast_count": 340,
+     "recast_share_given_removal": 0.729614,
+     "recast_within_turns_given_removal": {
+      "1": 0.178112,
+      "2": 0.407725,
+      "3": 0.508584
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.6102,
+       2.9603
+      ],
+      "value": 2.7853
+     },
+     "removal_event_share": 0.932
+    },
+    "second": {
+     "event_count": 340,
+     "recast_count": 145,
+     "recast_share_given_removal": 0.426471,
+     "recast_within_turns_given_removal": {
+      "1": 0.129412,
+      "2": 0.282353,
+      "3": 0.355882
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.0561,
+       2.4266
+      ],
+      "value": 2.2414
+     },
+     "removal_event_share": 0.68
+    }
+   }
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Kefka__Court_Mage",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish engine only: no real opponents, interaction, politics or multiplayer win rates.",
+  "Removal stress deterministically removes the isolated commander at end of the first eligible turn; it is a tax-recovery stress, not a real removal-frequency estimate.",
+  "The no-fast counterfactual keeps fast-mana cards in draws but disables their mana modes and makes them uncastable; this isolates acceleration but ignores any alternate non-mana use.",
+  "Existing grixis_sim v1.1 mana/card-effect limitations remain in force; this wrapper does not silently upgrade that simulator.",
+  "Partner/background-style pairs are evaluated per commander to remove cast-order confounding; actual games can allocate mana between commanders differently.",
+  "These tests measure commander access/recovery only; Step D separately measures commander marginal strategic value once available."
+ ],
+ "method": {
+  "commander_pair_policy": "each commander is simulated separately with the same 99 and deck color identity; co-commander cast-order competition is intentionally removed",
+  "model": "1.1",
+  "pairing": "same library permutations for baseline, no-fast counterfactual, and removal perturbations",
+  "samples": 500,
+  "seed": 6813,
+  "simulator": "grixis_sim",
+  "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+  "turns": 10
+ },
+ "schema_version": 1,
+ "slug": "kefka-court-mage",
+ "status": "provisional_test_evidence"
+}

@@ -1,0 +1,459 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander-casting/tax stress cannot decide mana-base swaps or deck changes."
+ },
+ "canonical_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+ "commanders": [
+  {
+   "baseline": {
+    "cast_by_turn": {
+     "10": 1.0,
+     "2": 1.0,
+     "3": 1.0,
+     "4": 1.0,
+     "5": 1.0,
+     "6": 1.0,
+     "8": 1.0
+    },
+    "cast_share_by_turn10": 1.0,
+    "mana_available_by_turn": [
+     0.97,
+     2.884,
+     3.942,
+     4.578,
+     5.09,
+     5.56,
+     5.984,
+     6.438,
+     6.862,
+     7.288
+    ],
+    "mana_spent_by_turn": [
+     1.214,
+     2.224,
+     2.238,
+     2.04,
+     1.78,
+     1.522,
+     1.57,
+     1.424,
+     1.486,
+     1.38
+    ],
+    "mean_turn_when_cast": 1.0
+   },
+   "commander": "Rograkh, Son of Rohgahh",
+   "fast_mana_contribution": {
+    "interpretation": "Positive values mean the listed fast-mana package increases/accelerates commander casting in this bounded goldfish counterfactual.",
+    "mean_turn_acceleration_when_both_cast": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "paired_games": 500,
+     "value": 0.0
+    },
+    "paired_cast_probability_delta_by_turn": {
+     "2": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "value": 0.0
+     },
+     "3": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "value": 0.0
+     },
+     "4": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "value": 0.0
+     },
+     "5": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "value": 0.0
+     },
+     "6": {
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "value": 0.0
+     }
+    }
+   },
+   "fast_mana_inventory": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Culling the Weak",
+    "Dark Ritual",
+    "Grim Monolith",
+    "Infernal Plunge",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Amber",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Springleaf Drum",
+    "Talisman of Dominance"
+   ],
+   "no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 1.0,
+     "2": 1.0,
+     "3": 1.0,
+     "4": 1.0,
+     "5": 1.0,
+     "6": 1.0,
+     "8": 1.0
+    },
+    "cast_share_by_turn10": 1.0,
+    "mana_available_by_turn": [
+     0.956,
+     2.228,
+     3.084,
+     3.66,
+     4.056,
+     4.392,
+     4.712,
+     4.994,
+     5.306,
+     5.626
+    ],
+    "mana_spent_by_turn": [
+     0.604,
+     1.35,
+     1.764,
+     1.706,
+     1.522,
+     1.252,
+     1.27,
+     1.26,
+     1.314,
+     1.296
+    ],
+    "mean_turn_when_cast": 1.0
+   },
+   "static_cost": {
+    "all_required_colors_present_by_base_turn": 1.0,
+    "base_resource_target": 1,
+    "colored_requirements": {},
+    "first_recast_resource_target": 3,
+    "mana_cost": "{0}",
+    "mana_value": 0.0,
+    "name": "Rograkh, Son of Rohgahh",
+    "per_color_source_presence_by_base_turn": {},
+    "second_recast_resource_target": 5
+   },
+   "tax_recovery_after_one_removal": {
+    "event_count": 500,
+    "recast_count": 499,
+    "recast_share_given_removal": 0.998,
+    "recast_within_turns_given_removal": {
+     "1": 0.938,
+     "2": 0.958,
+     "3": 0.964
+    },
+    "recovery_turns_mean_when_recast": {
+     "ci95": [
+      1.1015,
+      1.2512
+     ],
+     "value": 1.1764
+    },
+    "removal_event_share": 1.0
+   },
+   "tax_recovery_after_two_removals": {
+    "first": {
+     "event_count": 500,
+     "recast_count": 499,
+     "recast_share_given_removal": 0.998,
+     "recast_within_turns_given_removal": {
+      "1": 0.938,
+      "2": 0.958,
+      "3": 0.964
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       1.1015,
+       1.2512
+      ],
+      "value": 1.1764
+     },
+     "removal_event_share": 1.0
+    },
+    "second": {
+     "event_count": 499,
+     "recast_count": 483,
+     "recast_share_given_removal": 0.967936,
+     "recast_within_turns_given_removal": {
+      "1": 0.501002,
+      "2": 0.783567,
+      "3": 0.861723
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       1.7719,
+       2.0004
+      ],
+      "value": 1.8861
+     },
+     "removal_event_share": 0.998
+    }
+   }
+  },
+  {
+   "baseline": {
+    "cast_by_turn": {
+     "10": 0.962,
+     "2": 0.22,
+     "3": 0.736,
+     "4": 0.826,
+     "5": 0.86,
+     "6": 0.9,
+     "8": 0.94
+    },
+    "cast_share_by_turn10": 0.962,
+    "mana_available_by_turn": [
+     0.95,
+     2.55,
+     3.608,
+     4.418,
+     4.982,
+     5.49,
+     5.942,
+     6.4,
+     6.818,
+     7.248
+    ],
+    "mana_spent_by_turn": [
+     1.096,
+     2.024,
+     2.712,
+     2.952,
+     2.49,
+     1.848,
+     1.75,
+     1.62,
+     1.55,
+     1.426
+    ],
+    "mean_turn_when_cast": 3.3825
+   },
+   "commander": "Silas Renn, Seeker Adept",
+   "fast_mana_contribution": {
+    "interpretation": "Positive values mean the listed fast-mana package increases/accelerates commander casting in this bounded goldfish counterfactual.",
+    "mean_turn_acceleration_when_both_cast": {
+     "ci95": [
+      0.2471,
+      0.5001
+     ],
+     "paired_games": 455,
+     "value": 0.3736
+    },
+    "paired_cast_probability_delta_by_turn": {
+     "2": {
+      "ci95": [
+       0.122283,
+       0.189717
+      ],
+      "value": 0.156
+     },
+     "3": {
+      "ci95": [
+       0.023946,
+       0.092054
+      ],
+      "value": 0.058
+     },
+     "4": {
+      "ci95": [
+       0.025829,
+       0.082171
+      ],
+      "value": 0.054
+     },
+     "5": {
+      "ci95": [
+       0.029844,
+       0.082156
+      ],
+      "value": 0.056
+     },
+     "6": {
+      "ci95": [
+       0.041551,
+       0.090449
+      ],
+      "value": 0.066
+     }
+    }
+   },
+   "fast_mana_inventory": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Culling the Weak",
+    "Dark Ritual",
+    "Grim Monolith",
+    "Infernal Plunge",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Amber",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Springleaf Drum",
+    "Talisman of Dominance"
+   ],
+   "no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.914,
+     "2": 0.064,
+     "3": 0.678,
+     "4": 0.772,
+     "5": 0.804,
+     "6": 0.834,
+     "8": 0.876
+    },
+    "cast_share_by_turn10": 0.914,
+    "mana_available_by_turn": [
+     0.926,
+     2.076,
+     2.96,
+     3.614,
+     4.022,
+     4.376,
+     4.706,
+     4.996,
+     5.316,
+     5.638
+    ],
+    "mana_spent_by_turn": [
+     0.562,
+     1.308,
+     2.3,
+     2.358,
+     2.008,
+     1.628,
+     1.452,
+     1.426,
+     1.38,
+     1.35
+    ],
+    "mean_turn_when_cast": 3.6718
+   },
+   "static_cost": {
+    "all_required_colors_present_by_base_turn": 0.69557,
+    "base_resource_target": 3,
+    "colored_requirements": {
+     "B": 1,
+     "U": 1
+    },
+    "first_recast_resource_target": 5,
+    "mana_cost": "{1}{U}{B}",
+    "mana_value": 3.0,
+    "name": "Silas Renn, Seeker Adept",
+    "per_color_source_presence_by_base_turn": {
+     "B": 0.802863,
+     "U": 0.802863
+    },
+    "second_recast_resource_target": 7
+   },
+   "tax_recovery_after_one_removal": {
+    "event_count": 481,
+    "recast_count": 445,
+    "recast_share_given_removal": 0.925156,
+    "recast_within_turns_given_removal": {
+     "1": 0.390852,
+     "2": 0.60499,
+     "3": 0.75052
+    },
+    "recovery_turns_mean_when_recast": {
+     "ci95": [
+      2.1559,
+      2.4418
+     ],
+     "value": 2.2989
+    },
+    "removal_event_share": 0.962
+   },
+   "tax_recovery_after_two_removals": {
+    "first": {
+     "event_count": 481,
+     "recast_count": 445,
+     "recast_share_given_removal": 0.925156,
+     "recast_within_turns_given_removal": {
+      "1": 0.390852,
+      "2": 0.60499,
+      "3": 0.75052
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.1559,
+       2.4418
+      ],
+      "value": 2.2989
+     },
+     "removal_event_share": 0.962
+    },
+    "second": {
+     "event_count": 445,
+     "recast_count": 294,
+     "recast_share_given_removal": 0.660674,
+     "recast_within_turns_given_removal": {
+      "1": 0.18427,
+      "2": 0.386517,
+      "3": 0.494382
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.3865,
+       2.7155
+      ],
+      "value": 2.551
+     },
+     "removal_event_share": 0.89
+    }
+   }
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "RogSi",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish engine only: no real opponents, interaction, politics or multiplayer win rates.",
+  "Removal stress deterministically removes the isolated commander at end of the first eligible turn; it is a tax-recovery stress, not a real removal-frequency estimate.",
+  "The no-fast counterfactual keeps fast-mana cards in draws but disables their mana modes and makes them uncastable; this isolates acceleration but ignores any alternate non-mana use.",
+  "Existing grixis_sim v1.1 mana/card-effect limitations remain in force; this wrapper does not silently upgrade that simulator.",
+  "Partner/background-style pairs are evaluated per commander to remove cast-order confounding; actual games can allocate mana between commanders differently.",
+  "These tests measure commander access/recovery only; Step D separately measures commander marginal strategic value once available."
+ ],
+ "method": {
+  "commander_pair_policy": "each commander is simulated separately with the same 99 and deck color identity; co-commander cast-order competition is intentionally removed",
+  "model": "1.1",
+  "pairing": "same library permutations for baseline, no-fast counterfactual, and removal perturbations",
+  "samples": 500,
+  "seed": 6813,
+  "simulator": "grixis_sim",
+  "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+  "turns": 10
+ },
+ "schema_version": 1,
+ "slug": "rograkh-son-of-rohgahh-silas-renn",
+ "status": "provisional_test_evidence"
+}

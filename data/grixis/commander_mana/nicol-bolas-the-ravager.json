@@ -1,0 +1,240 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander-casting/tax stress cannot decide mana-base swaps or deck changes."
+ },
+ "canonical_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+ "commanders": [
+  {
+   "baseline": {
+    "cast_by_turn": {
+     "10": 0.996,
+     "2": 0.136,
+     "3": 0.614,
+     "4": 0.882,
+     "5": 0.934,
+     "6": 0.962,
+     "8": 0.984
+    },
+    "cast_share_by_turn10": 0.996,
+    "mana_available_by_turn": [
+     0.904,
+     2.676,
+     4.292,
+     5.176,
+     6.06,
+     6.844,
+     7.504,
+     8.084,
+     8.656,
+     9.212
+    ],
+    "mana_spent_by_turn": [
+     0.93,
+     2.378,
+     3.636,
+     4.454,
+     4.78,
+     4.742,
+     4.558,
+     4.044,
+     3.41,
+     3.246
+    ],
+    "mean_turn_when_cast": 3.492
+   },
+   "commander": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "fast_mana_contribution": {
+    "interpretation": "Positive values mean the listed fast-mana package increases/accelerates commander casting in this bounded goldfish counterfactual.",
+    "mean_turn_acceleration_when_both_cast": {
+     "ci95": [
+      0.8664,
+      1.1378
+     ],
+     "paired_games": 478,
+     "value": 1.0021
+    },
+    "paired_cast_probability_delta_by_turn": {
+     "2": {
+      "ci95": [
+       0.105923,
+       0.166077
+      ],
+      "value": 0.136
+     },
+     "3": {
+      "ci95": [
+       0.493558,
+       0.582442
+      ],
+      "value": 0.538
+     },
+     "4": {
+      "ci95": [
+       0.124388,
+       0.199612
+      ],
+      "value": 0.162
+     },
+     "5": {
+      "ci95": [
+       0.061664,
+       0.122336
+      ],
+      "value": 0.092
+     },
+     "6": {
+      "ci95": [
+       0.054354,
+       0.109646
+      ],
+      "value": 0.082
+     }
+    }
+   },
+   "fast_mana_inventory": [
+    "Arcane Signet",
+    "Dimir Signet",
+    "Fellwar Stone",
+    "Izzet Signet",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rakdos Signet",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.956,
+     "2": 0.0,
+     "3": 0.076,
+     "4": 0.72,
+     "5": 0.842,
+     "6": 0.88,
+     "8": 0.928
+    },
+    "cast_share_by_turn10": 0.956,
+    "mana_available_by_turn": [
+     0.91,
+     2.116,
+     3.12,
+     3.944,
+     4.652,
+     5.242,
+     5.742,
+     6.17,
+     6.546,
+     6.918
+    ],
+    "mana_spent_by_turn": [
+     0.31,
+     0.89,
+     2.104,
+     3.35,
+     3.736,
+     3.856,
+     3.952,
+     3.642,
+     3.158,
+     3.082
+    ],
+    "mean_turn_when_cast": 4.4561
+   },
+   "static_cost": {
+    "all_required_colors_present_by_base_turn": 1.0,
+    "base_resource_target": 1,
+    "colored_requirements": {},
+    "first_recast_resource_target": 3,
+    "mana_cost": "—",
+    "mana_value": 0.0,
+    "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "per_color_source_presence_by_base_turn": {},
+    "second_recast_resource_target": 5
+   },
+   "tax_recovery_after_one_removal": {
+    "event_count": 498,
+    "recast_count": 480,
+    "recast_share_given_removal": 0.963855,
+    "recast_within_turns_given_removal": {
+     "1": 0.441767,
+     "2": 0.781124,
+     "3": 0.861446
+    },
+    "recovery_turns_mean_when_recast": {
+     "ci95": [
+      1.8144,
+      2.0314
+     ],
+     "value": 1.9229
+    },
+    "removal_event_share": 0.996
+   },
+   "tax_recovery_after_two_removals": {
+    "first": {
+     "event_count": 498,
+     "recast_count": 480,
+     "recast_share_given_removal": 0.963855,
+     "recast_within_turns_given_removal": {
+      "1": 0.441767,
+      "2": 0.781124,
+      "3": 0.861446
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       1.8144,
+       2.0314
+      ],
+      "value": 1.9229
+     },
+     "removal_event_share": 0.996
+    },
+    "second": {
+     "event_count": 480,
+     "recast_count": 401,
+     "recast_share_given_removal": 0.835417,
+     "recast_within_turns_given_removal": {
+      "1": 0.266667,
+      "2": 0.572917,
+      "3": 0.714583
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.0987,
+       2.3352
+      ],
+      "value": 2.217
+     },
+     "removal_event_share": 0.96
+    }
+   }
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Nicol_Bolas__the_Ravager",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish engine only: no real opponents, interaction, politics or multiplayer win rates.",
+  "Removal stress deterministically removes the isolated commander at end of the first eligible turn; it is a tax-recovery stress, not a real removal-frequency estimate.",
+  "The no-fast counterfactual keeps fast-mana cards in draws but disables their mana modes and makes them uncastable; this isolates acceleration but ignores any alternate non-mana use.",
+  "Existing grixis_sim v1.1 mana/card-effect limitations remain in force; this wrapper does not silently upgrade that simulator.",
+  "Partner/background-style pairs are evaluated per commander to remove cast-order confounding; actual games can allocate mana between commanders differently.",
+  "These tests measure commander access/recovery only; Step D separately measures commander marginal strategic value once available."
+ ],
+ "method": {
+  "commander_pair_policy": "each commander is simulated separately with the same 99 and deck color identity; co-commander cast-order competition is intentionally removed",
+  "model": "1.1",
+  "pairing": "same library permutations for baseline, no-fast counterfactual, and removal perturbations",
+  "samples": 500,
+  "seed": 6813,
+  "simulator": "grixis_sim",
+  "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+  "turns": 10
+ },
+ "schema_version": 1,
+ "slug": "nicol-bolas-the-ravager",
+ "status": "provisional_test_evidence"
+}

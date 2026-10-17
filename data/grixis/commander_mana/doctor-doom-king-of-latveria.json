@@ -1,0 +1,242 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander-casting/tax stress cannot decide mana-base swaps or deck changes."
+ },
+ "canonical_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+ "commanders": [
+  {
+   "baseline": {
+    "cast_by_turn": {
+     "10": 1.0,
+     "2": 0.02,
+     "3": 0.436,
+     "4": 0.9,
+     "5": 0.954,
+     "6": 0.97,
+     "8": 0.992
+    },
+    "cast_share_by_turn10": 1.0,
+    "mana_available_by_turn": [
+     0.872,
+     2.178,
+     3.644,
+     4.59,
+     5.624,
+     6.678,
+     7.606,
+     8.438,
+     9.146,
+     9.858
+    ],
+    "mana_spent_by_turn": [
+     0.372,
+     1.934,
+     3.376,
+     4.36,
+     4.994,
+     4.684,
+     4.094,
+     3.042,
+     2.692,
+     2.252
+    ],
+    "mean_turn_when_cast": 3.754
+   },
+   "commander": "Doctor Doom, King of Latveria",
+   "fast_mana_contribution": {
+    "interpretation": "Positive values mean the listed fast-mana package increases/accelerates commander casting in this bounded goldfish counterfactual.",
+    "mean_turn_acceleration_when_both_cast": {
+     "ci95": [
+      0.5326,
+      0.7093
+     ],
+     "paired_games": 496,
+     "value": 0.621
+    },
+    "paired_cast_probability_delta_by_turn": {
+     "2": {
+      "ci95": [
+       0.007716,
+       0.032284
+      ],
+      "value": 0.02
+     },
+     "3": {
+      "ci95": [
+       0.39249,
+       0.47951
+      ],
+      "value": 0.436
+     },
+     "4": {
+      "ci95": [
+       0.061161,
+       0.122839
+      ],
+      "value": 0.092
+     },
+     "5": {
+      "ci95": [
+       0.015419,
+       0.052581
+      ],
+      "value": 0.034
+     },
+     "6": {
+      "ci95": [
+       0.015591,
+       0.048409
+      ],
+      "value": 0.032
+     }
+    }
+   },
+   "fast_mana_inventory": [
+    "Arcane Signet",
+    "Fellwar Stone",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence",
+    "The Soul Stone"
+   ],
+   "no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.992,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.808,
+     "5": 0.92,
+     "6": 0.938,
+     "8": 0.984
+    },
+    "cast_share_by_turn10": 0.992,
+    "mana_available_by_turn": [
+     0.878,
+     2.042,
+     3.042,
+     3.962,
+     4.778,
+     5.62,
+     6.452,
+     7.198,
+     7.86,
+     8.494
+    ],
+    "mana_spent_by_turn": [
+     0.256,
+     1.422,
+     2.536,
+     3.678,
+     4.118,
+     4.278,
+     3.862,
+     3.128,
+     2.606,
+     2.386
+    ],
+    "mean_turn_when_cast": 4.3528
+   },
+   "static_cost": {
+    "all_required_colors_present_by_base_turn": 0.895371,
+    "base_resource_target": 4,
+    "colored_requirements": {
+     "B": 1,
+     "R": 1,
+     "U": 1
+    },
+    "first_recast_resource_target": 6,
+    "mana_cost": "{1}{U}{B}{R}",
+    "mana_value": 4.0,
+    "name": "Doctor Doom, King of Latveria",
+    "per_color_source_presence_by_base_turn": {
+     "B": 0.976023,
+     "R": 0.938289,
+     "U": 0.961141
+    },
+    "second_recast_resource_target": 8
+   },
+   "tax_recovery_after_one_removal": {
+    "event_count": 500,
+    "recast_count": 492,
+    "recast_share_given_removal": 0.984,
+    "recast_within_turns_given_removal": {
+     "1": 0.256,
+     "2": 0.806,
+     "3": 0.928
+    },
+    "recovery_turns_mean_when_recast": {
+     "ci95": [
+      1.9186,
+      2.0652
+     ],
+     "value": 1.9919
+    },
+    "removal_event_share": 1.0
+   },
+   "tax_recovery_after_two_removals": {
+    "first": {
+     "event_count": 500,
+     "recast_count": 492,
+     "recast_share_given_removal": 0.984,
+     "recast_within_turns_given_removal": {
+      "1": 0.256,
+      "2": 0.806,
+      "3": 0.928
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       1.9186,
+       2.0652
+      ],
+      "value": 1.9919
+     },
+     "removal_event_share": 1.0
+    },
+    "second": {
+     "event_count": 492,
+     "recast_count": 448,
+     "recast_share_given_removal": 0.910569,
+     "recast_within_turns_given_removal": {
+      "1": 0.254065,
+      "2": 0.703252,
+      "3": 0.869919
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       1.9239,
+       2.0761
+      ],
+      "value": 2.0
+     },
+     "removal_event_share": 0.984
+    }
+   }
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Doctor_Doom__King_of_Latveria",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish engine only: no real opponents, interaction, politics or multiplayer win rates.",
+  "Removal stress deterministically removes the isolated commander at end of the first eligible turn; it is a tax-recovery stress, not a real removal-frequency estimate.",
+  "The no-fast counterfactual keeps fast-mana cards in draws but disables their mana modes and makes them uncastable; this isolates acceleration but ignores any alternate non-mana use.",
+  "Existing grixis_sim v1.1 mana/card-effect limitations remain in force; this wrapper does not silently upgrade that simulator.",
+  "Partner/background-style pairs are evaluated per commander to remove cast-order confounding; actual games can allocate mana between commanders differently.",
+  "These tests measure commander access/recovery only; Step D separately measures commander marginal strategic value once available."
+ ],
+ "method": {
+  "commander_pair_policy": "each commander is simulated separately with the same 99 and deck color identity; co-commander cast-order competition is intentionally removed",
+  "model": "1.1",
+  "pairing": "same library permutations for baseline, no-fast counterfactual, and removal perturbations",
+  "samples": 500,
+  "seed": 6813,
+  "simulator": "grixis_sim",
+  "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+  "turns": 10
+ },
+ "schema_version": 1,
+ "slug": "doctor-doom-king-of-latveria",
+ "status": "provisional_test_evidence"
+}

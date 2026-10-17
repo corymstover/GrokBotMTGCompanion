@@ -1,0 +1,243 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander-casting/tax stress cannot decide mana-base swaps or deck changes."
+ },
+ "canonical_hash": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
+ "commanders": [
+  {
+   "baseline": {
+    "cast_by_turn": {
+     "10": 0.988,
+     "2": 0.032,
+     "3": 0.522,
+     "4": 0.884,
+     "5": 0.94,
+     "6": 0.966,
+     "8": 0.982
+    },
+    "cast_share_by_turn10": 0.988,
+    "mana_available_by_turn": [
+     0.942,
+     2.226,
+     3.88,
+     4.808,
+     5.688,
+     6.472,
+     7.028,
+     7.654,
+     8.164,
+     8.642
+    ],
+    "mana_spent_by_turn": [
+     0.61,
+     2.508,
+     3.618,
+     4.362,
+     4.184,
+     3.524,
+     2.806,
+     2.158,
+     1.82,
+     1.772
+    ],
+    "mean_turn_when_cast": 3.6296
+   },
+   "commander": "Lord of Tresserhorn",
+   "fast_mana_contribution": {
+    "interpretation": "Positive values mean the listed fast-mana package increases/accelerates commander casting in this bounded goldfish counterfactual.",
+    "mean_turn_acceleration_when_both_cast": {
+     "ci95": [
+      0.7067,
+      0.9255
+     ],
+     "paired_games": 484,
+     "value": 0.8161
+    },
+    "paired_cast_probability_delta_by_turn": {
+     "2": {
+      "ci95": [
+       0.016557,
+       0.047443
+      ],
+      "value": 0.032
+     },
+     "3": {
+      "ci95": [
+       0.45578,
+       0.54422
+      ],
+      "value": 0.5
+     },
+     "4": {
+      "ci95": [
+       0.082001,
+       0.145999
+      ],
+      "value": 0.114
+     },
+     "5": {
+      "ci95": [
+       0.052033,
+       0.107967
+      ],
+      "value": 0.08
+     },
+     "6": {
+      "ci95": [
+       0.031674,
+       0.080326
+      ],
+      "value": 0.056
+     }
+    }
+   },
+   "fast_mana_inventory": [
+    "Arcane Signet",
+    "Dimir Signet",
+    "Fellwar Stone",
+    "Rakdos Signet",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.972,
+     "2": 0.0,
+     "3": 0.022,
+     "4": 0.77,
+     "5": 0.86,
+     "6": 0.91,
+     "8": 0.95
+    },
+    "cast_share_by_turn10": 0.972,
+    "mana_available_by_turn": [
+     0.946,
+     2.008,
+     2.948,
+     3.84,
+     4.506,
+     5.18,
+     5.676,
+     6.17,
+     6.56,
+     6.946
+    ],
+    "mana_spent_by_turn": [
+     0.406,
+     1.746,
+     2.364,
+     3.58,
+     3.46,
+     3.21,
+     2.458,
+     1.956,
+     1.806,
+     1.822
+    ],
+    "mean_turn_when_cast": 4.4383
+   },
+   "static_cost": {
+    "all_required_colors_present_by_base_turn": 0.798563,
+    "base_resource_target": 4,
+    "colored_requirements": {
+     "B": 1,
+     "R": 1,
+     "U": 1
+    },
+    "first_recast_resource_target": 6,
+    "mana_cost": "{1}{U}{B}{R}",
+    "mana_value": 4.0,
+    "name": "Lord of Tresserhorn",
+    "per_color_source_presence_by_base_turn": {
+     "B": 0.954565,
+     "R": 0.888913,
+     "U": 0.903815
+    },
+    "second_recast_resource_target": 8
+   },
+   "tax_recovery_after_one_removal": {
+    "event_count": 494,
+    "recast_count": 469,
+    "recast_share_given_removal": 0.949393,
+    "recast_within_turns_given_removal": {
+     "1": 0.299595,
+     "2": 0.736842,
+     "3": 0.831984
+    },
+    "recovery_turns_mean_when_recast": {
+     "ci95": [
+      2.0077,
+      2.2183
+     ],
+     "value": 2.113
+    },
+    "removal_event_share": 0.988
+   },
+   "tax_recovery_after_two_removals": {
+    "first": {
+     "event_count": 494,
+     "recast_count": 469,
+     "recast_share_given_removal": 0.949393,
+     "recast_within_turns_given_removal": {
+      "1": 0.299595,
+      "2": 0.736842,
+      "3": 0.831984
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.0077,
+       2.2183
+      ],
+      "value": 2.113
+     },
+     "removal_event_share": 0.988
+    },
+    "second": {
+     "event_count": 469,
+     "recast_count": 359,
+     "recast_share_given_removal": 0.765458,
+     "recast_within_turns_given_removal": {
+      "1": 0.196162,
+      "2": 0.522388,
+      "3": 0.692964
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.0861,
+       2.2927
+      ],
+      "value": 2.1894
+     },
+     "removal_event_share": 0.938
+    }
+   }
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Lord_of_Tresserhorn",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish engine only: no real opponents, interaction, politics or multiplayer win rates.",
+  "Removal stress deterministically removes the isolated commander at end of the first eligible turn; it is a tax-recovery stress, not a real removal-frequency estimate.",
+  "The no-fast counterfactual keeps fast-mana cards in draws but disables their mana modes and makes them uncastable; this isolates acceleration but ignores any alternate non-mana use.",
+  "Existing grixis_sim v1.1 mana/card-effect limitations remain in force; this wrapper does not silently upgrade that simulator.",
+  "Partner/background-style pairs are evaluated per commander to remove cast-order confounding; actual games can allocate mana between commanders differently.",
+  "These tests measure commander access/recovery only; Step D separately measures commander marginal strategic value once available."
+ ],
+ "method": {
+  "commander_pair_policy": "each commander is simulated separately with the same 99 and deck color identity; co-commander cast-order competition is intentionally removed",
+  "model": "1.1",
+  "pairing": "same library permutations for baseline, no-fast counterfactual, and removal perturbations",
+  "samples": 500,
+  "seed": 6813,
+  "simulator": "grixis_sim",
+  "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+  "turns": 10
+ },
+ "schema_version": 1,
+ "slug": "lord-of-tresserhorn",
+ "status": "provisional_test_evidence"
+}

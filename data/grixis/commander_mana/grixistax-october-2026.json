@@ -1,0 +1,455 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Commander-casting/tax stress cannot decide mana-base swaps or deck changes."
+ },
+ "canonical_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+ "commanders": [
+  {
+   "baseline": {
+    "cast_by_turn": {
+     "10": 0.9,
+     "2": 0.066,
+     "3": 0.214,
+     "4": 0.412,
+     "5": 0.63,
+     "6": 0.72,
+     "8": 0.826
+    },
+    "cast_share_by_turn10": 0.9,
+    "mana_available_by_turn": [
+     0.984,
+     2.546,
+     3.578,
+     4.18,
+     4.722,
+     5.23,
+     5.624,
+     6.02,
+     6.44,
+     6.862
+    ],
+    "mana_spent_by_turn": [
+     1.236,
+     2.216,
+     3.068,
+     3.326,
+     3.442,
+     3.108,
+     2.61,
+     2.35,
+     2.062,
+     2.06
+    ],
+    "mean_turn_when_cast": 4.9756
+   },
+   "commander": "Kraum, Ludevic's Opus",
+   "fast_mana_contribution": {
+    "interpretation": "Positive values mean the listed fast-mana package increases/accelerates commander casting in this bounded goldfish counterfactual.",
+    "mean_turn_acceleration_when_both_cast": {
+     "ci95": [
+      0.9459,
+      1.3737
+     ],
+     "paired_games": 363,
+     "value": 1.1598
+    },
+    "paired_cast_probability_delta_by_turn": {
+     "2": {
+      "ci95": [
+       0.044215,
+       0.087785
+      ],
+      "value": 0.066
+     },
+     "3": {
+      "ci95": [
+       0.168643,
+       0.239357
+      ],
+      "value": 0.204
+     },
+     "4": {
+      "ci95": [
+       0.236407,
+       0.319593
+      ],
+      "value": 0.278
+     },
+     "5": {
+      "ci95": [
+       0.148297,
+       0.231703
+      ],
+      "value": 0.19
+     },
+     "6": {
+      "ci95": [
+       0.184203,
+       0.267797
+      ],
+      "value": 0.226
+     }
+    }
+   },
+   "fast_mana_inventory": [
+    "Culling the Weak",
+    "Dark Ritual",
+    "Grim Monolith",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Amber",
+    "Mox Diamond",
+    "Mox Opal",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance"
+   ],
+   "no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.744,
+     "2": 0.0,
+     "3": 0.01,
+     "4": 0.134,
+     "5": 0.44,
+     "6": 0.494,
+     "8": 0.628
+    },
+    "cast_share_by_turn10": 0.744,
+    "mana_available_by_turn": [
+     0.964,
+     2.052,
+     2.932,
+     3.592,
+     4.108,
+     4.446,
+     4.744,
+     5.06,
+     5.38,
+     5.634
+    ],
+    "mana_spent_by_turn": [
+     0.544,
+     1.32,
+     2.164,
+     2.642,
+     3.066,
+     2.73,
+     2.442,
+     2.27,
+     2.03,
+     1.934
+    ],
+    "mean_turn_when_cast": 6.0081
+   },
+   "static_cost": {
+    "all_required_colors_present_by_base_turn": 0.764049,
+    "base_resource_target": 5,
+    "colored_requirements": {
+     "R": 1,
+     "U": 1
+    },
+    "first_recast_resource_target": 7,
+    "mana_cost": "{3}{U}{R}",
+    "mana_value": 5.0,
+    "name": "Kraum, Ludevic's Opus",
+    "per_color_source_presence_by_base_turn": {
+     "R": 0.838037,
+     "U": 0.880773
+    },
+    "second_recast_resource_target": 9
+   },
+   "tax_recovery_after_one_removal": {
+    "event_count": 450,
+    "recast_count": 282,
+    "recast_share_given_removal": 0.626667,
+    "recast_within_turns_given_removal": {
+     "1": 0.073333,
+     "2": 0.288889,
+     "3": 0.395556
+    },
+    "recovery_turns_mean_when_recast": {
+     "ci95": [
+      2.9372,
+      3.311
+     ],
+     "value": 3.1241
+    },
+    "removal_event_share": 0.9
+   },
+   "tax_recovery_after_two_removals": {
+    "first": {
+     "event_count": 450,
+     "recast_count": 282,
+     "recast_share_given_removal": 0.626667,
+     "recast_within_turns_given_removal": {
+      "1": 0.073333,
+      "2": 0.288889,
+      "3": 0.395556
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.9372,
+       3.311
+      ],
+      "value": 3.1241
+     },
+     "removal_event_share": 0.9
+    },
+    "second": {
+     "event_count": 282,
+     "recast_count": 91,
+     "recast_share_given_removal": 0.322695,
+     "recast_within_turns_given_removal": {
+      "1": 0.070922,
+      "2": 0.173759,
+      "3": 0.251773
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.2556,
+       2.7114
+      ],
+      "value": 2.4835
+     },
+     "removal_event_share": 0.564
+    }
+   }
+  },
+  {
+   "baseline": {
+    "cast_by_turn": {
+     "10": 0.924,
+     "2": 0.09,
+     "3": 0.248,
+     "4": 0.46,
+     "5": 0.668,
+     "6": 0.748,
+     "8": 0.85
+    },
+    "cast_share_by_turn10": 0.924,
+    "mana_available_by_turn": [
+     0.984,
+     2.546,
+     3.572,
+     4.17,
+     4.708,
+     5.214,
+     5.614,
+     6.01,
+     6.43,
+     6.852
+    ],
+    "mana_spent_by_turn": [
+     1.264,
+     2.258,
+     3.054,
+     3.434,
+     3.436,
+     3.076,
+     2.626,
+     2.316,
+     2.08,
+     2.052
+    ],
+    "mean_turn_when_cast": 4.8268
+   },
+   "commander": "Tevesh Szat, Doom of Fools",
+   "fast_mana_contribution": {
+    "interpretation": "Positive values mean the listed fast-mana package increases/accelerates commander casting in this bounded goldfish counterfactual.",
+    "mean_turn_acceleration_when_both_cast": {
+     "ci95": [
+      1.0702,
+      1.5005
+     ],
+     "paired_games": 375,
+     "value": 1.2853
+    },
+    "paired_cast_probability_delta_by_turn": {
+     "2": {
+      "ci95": [
+       0.06489,
+       0.11511
+      ],
+      "value": 0.09
+     },
+     "3": {
+      "ci95": [
+       0.198743,
+       0.273257
+      ],
+      "value": 0.236
+     },
+     "4": {
+      "ci95": [
+       0.267204,
+       0.352796
+      ],
+      "value": 0.31
+     },
+     "5": {
+      "ci95": [
+       0.168297,
+       0.251703
+      ],
+      "value": 0.21
+     },
+     "6": {
+      "ci95": [
+       0.196348,
+       0.279652
+      ],
+      "value": 0.238
+     }
+    }
+   },
+   "fast_mana_inventory": [
+    "Culling the Weak",
+    "Dark Ritual",
+    "Grim Monolith",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Amber",
+    "Mox Diamond",
+    "Mox Opal",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance"
+   ],
+   "no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.76,
+     "2": 0.0,
+     "3": 0.012,
+     "4": 0.15,
+     "5": 0.458,
+     "6": 0.51,
+     "8": 0.642
+    },
+    "cast_share_by_turn10": 0.76,
+    "mana_available_by_turn": [
+     0.964,
+     2.064,
+     2.932,
+     3.594,
+     4.108,
+     4.446,
+     4.744,
+     5.06,
+     5.38,
+     5.634
+    ],
+    "mana_spent_by_turn": [
+     0.558,
+     1.344,
+     2.154,
+     2.704,
+     3.062,
+     2.72,
+     2.434,
+     2.276,
+     2.02,
+     1.928
+    ],
+    "mean_turn_when_cast": 5.9632
+   },
+   "static_cost": {
+    "all_required_colors_present_by_base_turn": 0.880773,
+    "base_resource_target": 5,
+    "colored_requirements": {
+     "B": 1
+    },
+    "first_recast_resource_target": 7,
+    "mana_cost": "{4}{B}",
+    "mana_value": 5.0,
+    "name": "Tevesh Szat, Doom of Fools",
+    "per_color_source_presence_by_base_turn": {
+     "B": 0.880773
+    },
+    "second_recast_resource_target": 9
+   },
+   "tax_recovery_after_one_removal": {
+    "event_count": 462,
+    "recast_count": 291,
+    "recast_share_given_removal": 0.62987,
+    "recast_within_turns_given_removal": {
+     "1": 0.058442,
+     "2": 0.274892,
+     "3": 0.38961
+    },
+    "recovery_turns_mean_when_recast": {
+     "ci95": [
+      3.0292,
+      3.3969
+     ],
+     "value": 3.2131
+    },
+    "removal_event_share": 0.924
+   },
+   "tax_recovery_after_two_removals": {
+    "first": {
+     "event_count": 462,
+     "recast_count": 291,
+     "recast_share_given_removal": 0.62987,
+     "recast_within_turns_given_removal": {
+      "1": 0.058442,
+      "2": 0.274892,
+      "3": 0.38961
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       3.0292,
+       3.3969
+      ],
+      "value": 3.2131
+     },
+     "removal_event_share": 0.924
+    },
+    "second": {
+     "event_count": 291,
+     "recast_count": 89,
+     "recast_share_given_removal": 0.305842,
+     "recast_within_turns_given_removal": {
+      "1": 0.061856,
+      "2": 0.168385,
+      "3": 0.243986
+     },
+     "recovery_turns_mean_when_recast": {
+      "ci95": [
+       2.2347,
+       2.6642
+      ],
+      "value": 2.4494
+     },
+     "removal_event_share": 0.582
+    }
+   }
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Grixistax___October_2026",
+ "evidence_class": "test_result",
+ "limitations": [
+  "Goldfish engine only: no real opponents, interaction, politics or multiplayer win rates.",
+  "Removal stress deterministically removes the isolated commander at end of the first eligible turn; it is a tax-recovery stress, not a real removal-frequency estimate.",
+  "The no-fast counterfactual keeps fast-mana cards in draws but disables their mana modes and makes them uncastable; this isolates acceleration but ignores any alternate non-mana use.",
+  "Existing grixis_sim v1.1 mana/card-effect limitations remain in force; this wrapper does not silently upgrade that simulator.",
+  "Partner/background-style pairs are evaluated per commander to remove cast-order confounding; actual games can allocate mana between commanders differently.",
+  "These tests measure commander access/recovery only; Step D separately measures commander marginal strategic value once available."
+ ],
+ "method": {
+  "commander_pair_policy": "each commander is simulated separately with the same 99 and deck color identity; co-commander cast-order competition is intentionally removed",
+  "model": "1.1",
+  "pairing": "same library permutations for baseline, no-fast counterfactual, and removal perturbations",
+  "samples": 500,
+  "seed": 6813,
+  "simulator": "grixis_sim",
+  "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+  "turns": 10
+ },
+ "schema_version": 1,
+ "slug": "grixistax-october-2026",
+ "status": "provisional_test_evidence"
+}
