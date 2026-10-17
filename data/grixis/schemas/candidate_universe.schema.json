@@ -1,221 +1,115 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/candidate_universe.schema.json",
- "title": "M5 per-deck candidate universe, triage, full reviews, swap hypotheses and paired tests (v1)",
- "description": "Bot cycle 60. `candidates` items are candidate.schema.json records, `swaps` swap.schema.json, `tests` test.schema.json (validated separately by scripts/grixis_candidates.py --check). Provisional and exploratory: nothing here changes a list or registers a challenger. Bot cycle 61: no escalation cap; reviews are screening_reviews; swaps record their protection burden; project requirements are evaluated and labeled.",
+ "title": "M5 per-deck saturated candidate universe, screening reviews, swap hypotheses and A-F evidence",
+ "description": "Regenerated M5 remains provisional/exploratory. Saturation mode has no fixed universe cap; Step-A test tiers order work and never exclude. A-F context binds screening hypotheses to validated evidence but cannot decide a swap, register a challenger, or approve/lock a deck.",
  "type": "object",
  "properties": {
-  "schema_version": {
-   "const": 1
-  },
-  "deck_id": {
-   "$ref": "common.schema.json#/$defs/deck_id"
-  },
-  "slug": {
-   "type": "string"
-  },
-  "generated_by": {
-   "type": "string"
-  },
-  "cycle": {
-   "type": "integer"
-  },
-  "list_hash": {
-   "$ref": "common.schema.json#/$defs/list_hash"
-  },
-  "pass_id": {
-   "type": "string",
-   "pattern": "^m5:"
-  },
+  "schema_version": {"const": 1},
+  "deck_id": {"$ref": "common.schema.json#/$defs/deck_id"},
+  "slug": {"type": "string"},
+  "generated_by": {"type": "string"},
+  "cycle": {"type": "integer"},
+  "list_hash": {"$ref": "common.schema.json#/$defs/list_hash"},
+  "pass_id": {"type": "string", "pattern": "^m5:"},
   "snapshot": {
    "type": "object",
    "properties": {
-    "id": {
-     "type": "string"
-    },
-    "date": {
-     "type": "string"
-    }
+    "id": {"type": "string"},
+    "date": {"type": "string"},
+    "development_snapshot": {"type": "string"},
+    "a_f_digest": {"type": "string", "pattern": "^sha256:"}
    },
    "required": [
-    "id",
-    "graph",
-    "evidence",
-    "audit",
-    "oracle_bulk",
-    "default_bulk",
-    "spellbook_almost",
-    "edhrec_pages",
-    "simulator",
-    "date"
+    "id", "graph", "evidence", "audit", "oracle_bulk", "default_bulk", "spellbook_almost",
+    "edhrec_pages", "simulator", "date"
    ]
   },
   "authority": {
    "type": "object",
    "properties": {
-    "status": {
-     "const": "provisional"
-    },
-    "exploratory": {
-     "const": true
-    }
+    "status": {"const": "provisional"},
+    "exploratory": {"const": true}
    },
-   "required": [
-    "status",
-    "exploratory",
-    "note"
-   ]
+   "required": ["status", "exploratory", "note"]
   },
   "universe": {
    "type": "object",
    "properties": {
-    "size": {
-     "type": "integer",
-     "minimum": 200,
-     "maximum": 500
-    },
+    "mode": {"type": "string"},
+    "size": {"type": "integer", "minimum": 1},
     "bounds": {
-     "const": [
-      200,
-      500
-     ]
-    }
+     "type": "array",
+     "prefixItems": [{"type": "integer"}, {"type": "integer"}],
+     "minItems": 2,
+     "maxItems": 2
+    },
+    "considered": {"type": "integer", "minimum": 1},
+    "sweep_coverage": {"type": "number", "minimum": 0, "maximum": 1},
+    "saturation_certificate": {"type": "string"},
+    "saturation_sha256": {"type": "string", "pattern": "^sha256:"}
    },
-   "required": [
-    "definition",
-    "bounds",
-    "sources",
-    "size",
-    "sources_kept",
-    "excluded",
-    "screen_rules",
-    "not_legal_watchlist"
+   "required": ["definition", "sources", "size", "excluded", "screen_rules", "not_legal_watchlist"],
+   "allOf": [
+    {
+     "if": {"properties": {"mode": {"const": "saturation"}}, "required": ["mode"]},
+     "then": {
+      "required": [
+       "considered", "sweep_coverage", "saturation_certificate", "saturation_sha256",
+       "sources_considered", "spellbook_snapshot_matches_list", "full_review_rule"
+      ]
+     },
+     "else": {"required": ["bounds", "sources_kept"]}
+    }
    ]
   },
   "triage": {
    "type": "object",
    "properties": {
-    "default_full_reviews": {
-     "type": "integer",
-     "minimum": 15,
-     "maximum": 40
-    },
-    "workload_is_gate": {
-     "const": false
-    },
-    "escalation_cap": {
-     "const": null
-    },
-    "review_kind": {
-     "const": "screening_review"
-    }
+    "default_full_reviews": {"type": "integer", "minimum": 0},
+    "workload_is_gate": {"const": false},
+    "escalation_cap": {"const": null},
+    "review_kind": {"const": "screening_review"}
    },
    "required": [
-    "default_full_reviews",
-    "default_rule",
-    "escalated",
-    "escalation_reasons",
-    "escalation_rules",
-    "escalation_cap",
-    "screening_reviews",
-    "workload_is_gate",
-    "review_kind",
-    "review_note"
+    "default_full_reviews", "default_rule", "escalated", "escalation_reasons", "escalation_rules",
+    "escalation_cap", "screening_reviews", "workload_is_gate", "review_kind", "review_note"
    ]
   },
   "counts": {
    "type": "object",
-   "properties": {
-    "judgment_reviews": {
-     "const": 0
-    }
-   },
-   "required": [
-    "universe",
-    "screening_reviews",
-    "judgment_reviews",
-    "swaps",
-    "paired_tests"
-   ]
+   "properties": {"judgment_reviews": {"const": 0}},
+   "required": ["universe", "screening_reviews", "judgment_reviews", "swaps", "paired_tests"]
   },
   "tournament": {
    "type": "object",
-   "properties": {
-    "applicable": {
-     "type": "boolean"
-    }
-   },
-   "required": [
-    "applicable",
-    "estimated_ceiling"
-   ]
+   "properties": {"applicable": {"type": "boolean"}},
+   "required": ["applicable", "estimated_ceiling"]
   },
-  "candidates": {
-   "type": "array"
-  },
-  "swaps": {
-   "type": "array"
-  },
-  "tests": {
-   "type": "array"
-  },
+  "a_f_context": {"type": "object"},
+  "candidates": {"type": "array"},
+  "swaps": {"type": "array"},
+  "tests": {"type": "array"},
   "test_common": {
    "type": "object",
-   "required": [
-    "simulator",
-    "samples",
-    "seed",
-    "prereg",
-    "limitations",
-    "method"
-   ]
+   "required": ["simulator", "samples", "seed", "prereg", "limitations", "method"]
   },
   "swap_rules": {
    "type": "object",
-   "required": [
-    "levels",
-    "B1_evidence",
-    "B2_compensation",
-    "B3_identity",
-    "cleared"
-   ]
+   "required": ["levels", "B1_evidence", "B2_compensation", "B3_identity", "cleared"]
   },
   "project_requirements": {
    "type": "array",
    "items": {
     "type": "object",
-    "required": [
-     "card",
-     "exception",
-     "authorization",
-     "zone",
-     "evaluated_in_reviews",
-     "burden_cleared_in",
-     "note"
-    ]
+    "required": ["card", "exception", "authorization", "zone", "evaluated_in_reviews", "burden_cleared_in", "note"]
    }
   }
  },
  "required": [
-  "schema_version",
-  "deck_id",
-  "slug",
-  "generated_by",
-  "cycle",
-  "list_hash",
-  "pass_id",
-  "snapshot",
-  "authority",
-  "universe",
-  "triage",
-  "counts",
-  "tournament",
-  "candidates",
-  "swaps",
-  "tests",
-  "test_common",
-  "swap_rules",
-  "project_requirements"
+  "schema_version", "deck_id", "slug", "generated_by", "cycle", "list_hash", "pass_id", "snapshot",
+  "authority", "universe", "triage", "counts", "tournament", "candidates", "swaps", "tests",
+  "test_common", "swap_rules", "project_requirements"
  ],
  "additionalProperties": false
 }
