@@ -1,0 +1,649 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "RogSi",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz"
+  ],
+  "list_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:rograkh-son-of-rohgahh-silas-renn:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Adaptive Training Post",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Adaptive Training Post",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:510ebebff89a",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Alania, Divergent Storm",
+    "cut": "Necrodominance",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Alania, Divergent Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:a19a6a6d7c10",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Alania, Divergent Storm",
+    "cut": "Vexing Bauble",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Alania, Divergent Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:ce240d6f6bc2",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Ambassador Laquatus",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:fbe8e16a6efe",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Banishing Knack",
+    "cut": "Final Fortune",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Banishing Knack",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:e336fae7debd",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Banishing Knack",
+    "cut": "Into the Flood Maw",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Banishing Knack",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:5df5d40b0129",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Breaking // Entering",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Breaking // Entering",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:1e938a71e3cf",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Burning Inquiry",
+    "cut": "Necrodominance",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Burning Inquiry",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:659ce8811a95",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Burning Inquiry",
+    "cut": "Vexing Bauble",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Burning Inquiry",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:a884ce56dbef",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Cool but Rude",
+    "cut": "Necrodominance",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Cool but Rude",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:4018891099e6",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Cool but Rude",
+    "cut": "Vexing Bauble",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Cool but Rude",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:fee1707d0313",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Enter the Infinite",
+    "cut": "Necrodominance",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Enter the Infinite",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:3495f5883952",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Enter the Infinite",
+    "cut": "Vexing Bauble",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Enter the Infinite",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:b30832b7103a",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "False Memories",
+    "cut": "Final Fortune",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=False Memories",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:39570eedaad1",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "False Memories",
+    "cut": "Into the Flood Maw",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=False Memories",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:16d20ef7c667",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Glimpse the Unthinkable",
+    "cut": "Warrior's Oath",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Glimpse the Unthinkable",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:fb559ce374d0",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Glimpse the Unthinkable",
+    "cut": "Yawgmoth's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Glimpse the Unthinkable",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:34b0e8d72c0f",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Grinning Ignus",
+    "cut": "Rain of Filth",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Grinning Ignus",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:b68b3fbd025e",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Guile",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Guile",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:c39acfe3081b",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Into the Flood Maw",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:e8041498872e",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Lich",
+    "cut": "Necrodominance",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:9c0ba7b4db04",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Lich",
+    "cut": "Vexing Bauble",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:30b98cc74a1e",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Memnite",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Memnite",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:a9fc59022ffd",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Mizzix of the Izmagnus",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:1aa0b6f9ff68",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Narset's Reversal",
+    "cut": "Final Fortune",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Narset's Reversal",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:116e4cbfbace",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Narset's Reversal",
+    "cut": "Into the Flood Maw",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Narset's Reversal",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:52ccfb269061",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Path of the Pyromancer",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Path of the Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:dd2fa23531ae",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Platinum Angel",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Platinum Angel",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:7a7900f43d19",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Platinum Emperion",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Platinum Emperion",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:be8b6350c7a6",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Power Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:9ef4f3fe6ca1",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Prismari, the Inspiration",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Prismari, the Inspiration",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:de4f2f714086",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Pyromancer's Goggles",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Pyromancer's Goggles",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:c553a6261f25",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Final Fortune",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:c211d450a50c",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Into the Flood Maw",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:8e29237dd462",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Retraction Helix",
+    "cut": "Final Fortune",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Retraction Helix",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:45a260d3b1f6",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Retraction Helix",
+    "cut": "Into the Flood Maw",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Retraction Helix",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:13cfeea48f47",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Saheeli, Sublime Artificer",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Saheeli, Sublime Artificer",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:f27f480030f7",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Stitcher's Supplier",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Stitcher's Supplier",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:03df05863df1",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=The Enigma Jewel // Locus of Enlightenment",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:c0b52a884319",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Into the Flood Maw",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:8b466305dfd4",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:efc1677c5890",
+     "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "RogSi",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz"
+  ],
+  "list_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:rograkh-son-of-rohgahh-silas-renn:performance:v1",
+  "recommendations": [
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:c4e7114d84c4",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:821e7743798e6b95"
+    ]
+   },
+   {
+    "add": "Brainstorm",
+    "cut": "Vexing Bauble",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:44ffcd0417aa",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:81fdeac5ee6f2a54"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:2c433fab434a",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:41cf4e6292efb80d"
+    ]
+   },
+   {
+    "add": "Grinning Ignus",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:84d56b21de69",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:f0391f916f70ea24"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Into the Flood Maw",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:e8041498872e",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:d6c1587a5f9aa03a"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:bc27e6463f98",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:745122d80e96e215"
+    ]
+   },
+   {
+    "add": "Prismari, the Inspiration",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:57683af729ec",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:062d0e57f7164d16"
+    ]
+   },
+   {
+    "add": "Stitcher's Supplier",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:a98b57785b03",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:c337cc979b86a23e"
+    ]
+   },
+   {
+    "add": "Talisman of Creativity",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:af93d55cb4c6",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:13620b5cb0ae34aa"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:c0b52a884319",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:6fa337d80eb6356a"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Into the Flood Maw",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:8b466305dfd4",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:cd48089e366eee76"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:04a87b6a7317",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:8603a0b4fd59e2af"
+    ]
+   },
+   {
+    "add": "Wheel of Misfortune",
+    "cut": "Vexing Bauble",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:687b5159bab7",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:0c68d03b7b06e4bf"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:8b466305dfd4",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:c0b52a884319",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:e8041498872e"
+  ],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:03df05863df1",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:04a87b6a7317",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:116e4cbfbace",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:13cfeea48f47",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:16d20ef7c667",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:1aa0b6f9ff68",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:1e938a71e3cf",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:2c433fab434a",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:30b98cc74a1e",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:3495f5883952",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:34b0e8d72c0f",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:39570eedaad1",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:4018891099e6",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:44ffcd0417aa",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:45a260d3b1f6",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:510ebebff89a",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:52ccfb269061",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:57683af729ec",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:5df5d40b0129",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:659ce8811a95",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:687b5159bab7",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:7a7900f43d19",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:84d56b21de69",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:8b466305dfd4",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:8e29237dd462",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:9c0ba7b4db04",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:9ef4f3fe6ca1",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:a19a6a6d7c10",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:a884ce56dbef",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:a98b57785b03",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:a9fc59022ffd",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:af93d55cb4c6",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:b30832b7103a",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:b68b3fbd025e",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:bc27e6463f98",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:be8b6350c7a6",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:c0b52a884319",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:c211d450a50c",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:c39acfe3081b",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:c4e7114d84c4",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:c553a6261f25",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:ce240d6f6bc2",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:dd2fa23531ae",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:de4f2f714086",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:e336fae7debd",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:e8041498872e",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:efc1677c5890",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:f27f480030f7",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:fb559ce374d0",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:fbe8e16a6efe",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:fee1707d0313"
+  ],
+  "disagreements": [
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:03df05863df1",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:04a87b6a7317",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:116e4cbfbace",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:13cfeea48f47",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:16d20ef7c667",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:1aa0b6f9ff68",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:1e938a71e3cf",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:2c433fab434a",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:30b98cc74a1e",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:3495f5883952",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:34b0e8d72c0f",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:39570eedaad1",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:4018891099e6",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:44ffcd0417aa",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:45a260d3b1f6",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:510ebebff89a",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:52ccfb269061",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:57683af729ec",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:5df5d40b0129",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:659ce8811a95",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:687b5159bab7",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:7a7900f43d19",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:84d56b21de69",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:8e29237dd462",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:9c0ba7b4db04",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:9ef4f3fe6ca1",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:a19a6a6d7c10",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:a884ce56dbef",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:a98b57785b03",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:a9fc59022ffd",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:af93d55cb4c6",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:b30832b7103a",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:b68b3fbd025e",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:bc27e6463f98",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:be8b6350c7a6",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:c211d450a50c",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:c39acfe3081b",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:c4e7114d84c4",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:c553a6261f25",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:ce240d6f6bc2",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:dd2fa23531ae",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:de4f2f714086",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:e336fae7debd",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:efc1677c5890",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:f27f480030f7",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:fb559ce374d0",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:fbe8e16a6efe",
+   "swap:rograkh-son-of-rohgahh-silas-renn:m5:fee1707d0313"
+  ]
+ },
+ "schema_version": 1
+}

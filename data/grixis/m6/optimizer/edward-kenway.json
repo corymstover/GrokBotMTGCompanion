@@ -1,0 +1,3830 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Edward_Kenway",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/edward-kenway.json.gz"
+  ],
+  "list_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:edward-kenway:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Abyssal Hunter",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Abyssal Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:aaa3b66de3b3",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Admiral Beckett Brass",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Admiral Beckett Brass",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:d1919e574d32",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Aether Channeler",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Aether Channeler",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:d26c8af2d277",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Agent of the Fates",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Agent of the Fates",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:d87cf82a3f38",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Agents of HYDRA",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Agents of HYDRA",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:dda1917ad566",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Aggravated Assault",
+    "cut": "Deluxe Dragster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Aggravated Assault",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:6238f7d0018c",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Alesha, Who Laughs at Fate",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Alesha, Who Laughs at Fate",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:3670044567df",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Alex Wilder, Runaway",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Alex Wilder, Runaway",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:f2af06f49299",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Alexios, Deimos of Kosmos",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Alexios, Deimos of Kosmos",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:c8a255584d97",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Alicia Masters, Skilled Sculptor",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Alicia Masters, Skilled Sculptor",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:f2d646377c5e",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Amphin Mutineer",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Amphin Mutineer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:68184c384c21",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Angrath's Ambusher",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Angrath's Ambusher",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:4489e8432a20",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Angrath's Marauders",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Angrath's Marauders",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:f956634a6e02",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Ant-Man, Elusive Avenger",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Ant-Man, Elusive Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:5d23e887f0dd",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Arcane Artisan",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Arcane Artisan",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:4c902d7b782e",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Archpriest of Shadows",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Archpriest of Shadows",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:d76ed987a976",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Arco-Flagellant",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Arco-Flagellant",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:e04b1ef19a26",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Ardyn, the Usurper",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Ardyn, the Usurper",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:965c0a0150ab",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Armed Assailant",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Armed Assailant",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:5ba470952c3d",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Arni, Humble Scribe",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Arni, Humble Scribe",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:eafa736a80c5",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Arno Dorian",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Arno Dorian",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:3745dbca1611",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Assassin Initiate",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Assassin Initiate",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:a1e037c39d71",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Assault Suit",
+    "cut": "Deluxe Dragster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Assault Suit",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:fba552a2fd29",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Astonishing Spider-Man",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Astonishing Spider-Man",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:1cbebae57e2e",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Avenger of the Fallen",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Avenger of the Fallen",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:61031d9c9c1b",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Ayara's Oathsworn",
+    "cut": "Imperial Seal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Ayara's Oathsworn",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:842d1eaa23dd",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Big Game Hunter",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Big Game Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:94c58cdadf3f",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Bigfin Bouncer",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Bigfin Bouncer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:55381fd5e0eb",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Black Widow, Daring Operative",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Black Widow, Daring Operative",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:09cc168e824a",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Black Widow, Deadly Hunter",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Black Widow, Deadly Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:2ed634e4277b",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Black Widow, Natasha Romanoff",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Black Widow, Natasha Romanoff",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:3d3ada20b323",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Black Widow, Super Spy",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Black Widow, Super Spy",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:11831b781e19",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Blighted Agent",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Blighted Agent",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:f82db5afe21f",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Blue Marvel, Adam Brashear",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Blue Marvel, Adam Brashear",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:7129cb78ca64",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Bob, Reluctant HYDRA Agent",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Bob, Reluctant HYDRA Agent",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:b3ec01a8442a",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Boilerbilges Ripper",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Boilerbilges Ripper",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:d71ee46a4a49",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Boomerang, Blade Flinger",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Boomerang, Blade Flinger",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:be9817935d87",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Breeches, the Blastmaker",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Breeches, the Blastmaker",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:25d1fbd7ff69",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Brineborn Cutthroat",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Brineborn Cutthroat",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:a955b6b68f4b",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Broadside Bombardiers",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Broadside Bombardiers",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:bf6ced5f712f",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Brotherhood Ambushers",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Brotherhood Ambushers",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:2a11aff08d69",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Brotherhood Patriarch",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Brotherhood Patriarch",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:9aa351fddea6",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Bullseye, Death Dealer",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Bullseye, Death Dealer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:de2b66d557da",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Burakos, Party Leader",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Burakos, Party Leader",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:b95a0f0a5f47",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Cackling Slasher",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Cackling Slasher",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:29d1f9afac81",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Calamity, Galloping Inferno",
+    "cut": "Deluxe Dragster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Calamity, Galloping Inferno",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:8aa8b07930f5",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Callidus Assassin",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Callidus Assassin",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:6611e2f073b9",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Captain of Umbar",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Captain of Umbar",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:293a269f9eed",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Captain Ripley Vance",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Captain Ripley Vance",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:64d61bdb355e",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Captivating Crew",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Captivating Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:3dc2b931158a",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Cavern-Hoard Dragon",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Cavern-Hoard Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:31e4b0c3e0e2",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Chainer, Nightmare Adept",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Chainer, Nightmare Adept",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:a641995979b8",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Charming Scoundrel",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Charming Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:55fdec1425c7",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Chittering Witch",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Chittering Witch",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:8958d564e6fb",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Cloud Pirates",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Cloud Pirates",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:64155f668b75",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Coercive Recruiter",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Coercive Recruiter",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:201d3e6e2ecc",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Combat Celebrant",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Combat Celebrant",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:9fa75dea3b23",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Contract Hero",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Contract Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:d5db53644591",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Corsair Captain",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Corsair Captain",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:c56487160eb3",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Council of Reeds",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Council of Reeds",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:94ca9cd5608a",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Crimson Cowl, Master of Evil",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Crimson Cowl, Master of Evil",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:6e0fd16e51f8",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Cruel Sadist",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Cruel Sadist",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:0c320c04a0d6",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Curiosity",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Curiosity",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:cd44d2269fc9",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Cutthroat Negotiator",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Cutthroat Negotiator",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:9fc339a91063",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Cybermen Squadron",
+    "cut": "Deluxe Dragster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Cybermen Squadron",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:ae741c519d46",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Cynical Loner",
+    "cut": "Imperial Seal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Cynical Loner",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:055ca1163442",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Danny Pink",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Danny Pink",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:6e336de2e99b",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Daredevil, Fearless Fighter",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Daredevil, Fearless Fighter",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:5ca371614e35",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Dargo, the Shipwrecker",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Dargo, the Shipwrecker",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:6b567ebf2b8d",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Daring Buccaneer",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Daring Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:c704676b349d",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Deadeye Duelist",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Deadeye Duelist",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:bba97386afde",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Deadeye Plunderers",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Deadeye Plunderers",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:0f5af36226a2",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Deadeye Rig-Hauler",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Deadeye Rig-Hauler",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:fdc02529cf8b",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Deadeye Tormentor",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Deadeye Tormentor",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:8c89cd061e48",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Deadeye Tracker",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Deadeye Tracker",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:2f32b7037c4b",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Delina, Wild Mage",
+    "cut": "Deluxe Dragster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Delina, Wild Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:e1cf6660712e",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Desmond Miles",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Desmond Miles",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:62ae6047f4ab",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Desperate Castaways",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Desperate Castaways",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:f30bf8fa8957",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Dinosaur Hunter",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Dinosaur Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:0a3aec3e42fe",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Dire Fleet Daredevil",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Dire Fleet Daredevil",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:19336602ed63",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Dire Fleet Poisoner",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Dire Fleet Poisoner",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:4d189c6e5a60",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Dire Fleet Warmonger",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Dire Fleet Warmonger",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:d9f8f676e076",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Doctor Doom",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Doctor Doom",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:1b84aa805092",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Doctor Doom, King of Latveria",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Doctor Doom, King of Latveria",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:64ce689f5219",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Dragonmaster Outcast",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Dragonmaster Outcast",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:e33a04356dba",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Eardrum Rattler",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Eardrum Rattler",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:cd7c1cdaf716",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Elektra, Femme Fatale",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Elektra, Femme Fatale",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:bf2dbd6e46a1",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Emeritus of Ideation // Ancestral Recall",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Emeritus of Ideation // Ancestral Recall",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:7f9416e74d3d",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Emry, Lurker of the Loch",
+    "cut": "Vaan, Street Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Emry, Lurker of the Loch",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:772c9dce81b7",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Endrek Sahr, Master Breeder",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Endrek Sahr, Master Breeder",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:109775bd1914",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Experimental Confectioner",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Experimental Confectioner",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:cf01203f3fef",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Expressive Firedancer",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Expressive Firedancer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:0703f06be669",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Exsanguinator Cavalry",
+    "cut": "Deluxe Dragster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Exsanguinator Cavalry",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:0898f5742191",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Ezio, Blade of Vengeance",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Ezio, Blade of Vengeance",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:51efaa3834d9",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Fain, the Broker",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Fain, the Broker",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:26fb9c4137f5",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Falcon, Winged Wonder",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Falcon, Winged Wonder",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:ef370e511a00",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Fathom Fleet Boarder",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Fathom Fleet Boarder",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:c1501af570df",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Fathom Fleet Captain",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Fathom Fleet Captain",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:a844aa53e814",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Fathom Fleet Cutthroat",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Fathom Fleet Cutthroat",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:beb54dfcb897",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Fathom Fleet Firebrand",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Fathom Fleet Firebrand",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:425552bff435",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Feldon of the Third Path",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Feldon of the Third Path",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:9445ef3dcf49",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Fire Lord Azula",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Fire Lord Azula",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:7f7270dd6637",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Firebending Student",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Firebending Student",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:07103df5a7e2",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Firebird, Blazing Ranger",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Firebird, Blazing Ranger",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:849ee591515f",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Forerunner of the Coalition",
+    "cut": "Imperial Seal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Forerunner of the Coalition",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:e6e1ce3dcff1",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Francisco, Fowl Marauder",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Francisco, Fowl Marauder",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:f35a815f01a8",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Frontier Warmonger",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Frontier Warmonger",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:508c3a2d555a",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Garza's Assassin",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Garza's Assassin",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:47dbde376cdd",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Generous Plunderer",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Generous Plunderer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:260604563df6",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Ghost, Spectral Saboteur",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Ghost, Spectral Saboteur",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:68e46effc4d4",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Ghoulcaller Gisa",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Ghoulcaller Gisa",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:bb3824a82fb5",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Gisa, the Hellraiser",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Gisa, the Hellraiser",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:3f9302b8e92c",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Gixian Skullflayer",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Gixian Skullflayer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:226e237c7e17",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Glamorous Grapplers",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Glamorous Grapplers",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:d72188a36c39",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Goblin Boarders",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Goblin Boarders",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:a702295a9454",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Godo, Bandit Warlord",
+    "cut": "Imperial Seal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Godo, Bandit Warlord",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:c2a09954f6ff",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Gorehorn Raider",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Gorehorn Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:445ca2aca11a",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Grasping Scoundrel",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Grasping Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:076da5d407ea",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Graveyard Trespasser // Graveyard Glutton",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Graveyard Trespasser // Graveyard Glutton",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:31595fa8d287",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Graviton, Fundamental Force",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Graviton, Fundamental Force",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:3cb8586d0030",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Greedy Freebooter",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Greedy Freebooter",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:b725378b6104",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Green Goblin, Back for More",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Green Goblin, Back for More",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:94e1960d2053",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Grim Haruspex",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Grim Haruspex",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:eeca4c8494b3",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Grim Hireling",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Grim Hireling",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:3e683587bdaf",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Grim Reaper, Lethal Legionnaire",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Grim Reaper, Lethal Legionnaire",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:ae27c013599e",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Gríma, Saruman's Footman",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Gríma, Saruman's Footman",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:8a95b47246c0",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Guild Artisan",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Guild Artisan",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:22230dfac183",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Gutless Plunderer",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Gutless Plunderer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:b7ccfa505053",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Hagra Sharpshooter",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Hagra Sharpshooter",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:1f29ec26106a",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Hell-Bent Raider",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Hell-Bent Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:c8212b5a7cb8",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Hellkite Charger",
+    "cut": "Deluxe Dragster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Hellkite Charger",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:f38070ac973b",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Helm of the Host",
+    "cut": "Deluxe Dragster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Helm of the Host",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:7f04526958c0",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Helmut Zemo, Mastermind",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Helmut Zemo, Mastermind",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:8212370c07af",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Higure, the Still Wind",
+    "cut": "Imperial Seal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Higure, the Still Wind",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:043302c3430a",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Hired Blade",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Hired Blade",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:4506901776ff",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Hired Poisoner",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Hired Poisoner",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:fed95a7e5fba",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Hooded Assassin",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Hooded Assassin",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:3e1acb4da718",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:8a8ed1019ea1",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "HYDRA Troopers",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=HYDRA Troopers",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:1056b1f0554a",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Iguana Parrot",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Iguana Parrot",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:46eacbbcdab9",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Impulsive Pilferer",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Impulsive Pilferer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:8e8e1abe8232",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Ingenious Prodigy",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Ingenious Prodigy",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:2a2d5ba75d0a",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Inquisitor Eisenhorn",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Inquisitor Eisenhorn",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:06fc02fc586c",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Invisible Stalker",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Invisible Stalker",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:a8cfaf0cac62",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Iron Lad, Young Avenger",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Iron Lad, Young Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:158097e6ea66",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Armored Avenger",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Iron Man, Armored Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:21e8ba897c40",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Bleeding Edge",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Iron Man, Bleeding Edge",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:68fe976ac3f2",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Master of Machines",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Iron Man, Master of Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:2c81ec718891",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Modern Marvel",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Iron Man, Modern Marvel",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:89fe0b596224",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Titan of Innovation",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Iron Man, Titan of Innovation",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:2cbca9a593e6",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Tony Stark",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Iron Man, Tony Stark",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:5e213b3959d4",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Jack of Hearts, Volatile Hero",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Jack of Hearts, Volatile Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:c964c3b51648",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Jacob Frye",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Jacob Frye",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:15fefeced723",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Jadar, Ghoulcaller of Nephalia",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Jadar, Ghoulcaller of Nephalia",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:94d023508378",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Jadzi, Steward of Fate // Oracle's Gift",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Jadzi, Steward of Fate // Oracle's Gift",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:77cdbd102d6c",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Jaxis, the Troublemaker",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Jaxis, the Troublemaker",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:b607ffae7c7f",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Jhoira, Weatherlight Corsair",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Jhoira, Weatherlight Corsair",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:b0cacad39b17",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Jiang Yanggu, Alone",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Jiang Yanggu, Alone",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:8af2dc580656",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Kang Prime",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Kang Prime",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:fe03a784ede5",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Kang, Temporal Tyrant",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Kang, Temporal Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:67ea9ef56077",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Keen Buccaneer",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Keen Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:a29a67909d8b",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Kefka, Court Mage // Kefka, Ruler of Ruin",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:f8530b41eff8",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Kellogg, Dangerous Mind",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Kellogg, Dangerous Mind",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:c7b3d10d9037",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Deluxe Dragster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:729f5b01e899",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Kiku, Night's Flower",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Kiku, Night's Flower",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:6aa99efd9f36",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Killmonger, Ruthless Usurper",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Killmonger, Ruthless Usurper",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:0e2d62fb3d01",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "King's Assassin",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=King's Assassin",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:f5904e841d84",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Kingpin, Wilson Fisk",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Kingpin, Wilson Fisk",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:e7060deca6e2",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Kitesail Corsair",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Kitesail Corsair",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:229f0d7c3f36",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Kitesail Freebooter",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Kitesail Freebooter",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:9427ce054db5",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Koh, the Face Stealer",
+    "cut": "Vaan, Street Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Koh, the Face Stealer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:0f711068170e",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:4ccf4bffdbf3",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Lagomos, Hand of Hatred",
+    "cut": "Imperial Seal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Lagomos, Hand of Hatred",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:670ae77ec721",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Leitmotif Composer",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Leitmotif Composer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:7f9d567ce862",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Lightning-Rig Crew",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Lightning-Rig Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:b9fb4cefc165",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Loyal Apprentice",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Loyal Apprentice",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:b3f1f6adfbcf",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Loyal Inventor",
+    "cut": "Imperial Seal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Loyal Inventor",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:aa8c51b4ffae",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Luke Cage, Hero for Hire",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Luke Cage, Hero for Hire",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:1b64e5dd0bf7",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Lulu, Stern Guardian",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Lulu, Stern Guardian",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:70701aae28f1",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Lurking Deadeye",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Lurking Deadeye",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:07fc7cb0fd15",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Lydia Frye",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Lydia Frye",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:44fc770f87af",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Madame Hydra",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Madame Hydra",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:70f0103700be",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Madame Hydra, Reanimated",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Madame Hydra, Reanimated",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:cd8e05ab6f5c",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Madame Masque",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Madame Masque",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:dba19523b3c0",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Magmakin Artillerist",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Magmakin Artillerist",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:dcbae3d28757",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Malcolm, Alluring Scoundrel",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Malcolm, Alluring Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:31ef44460763",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Marauding Looter",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Marauding Looter",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:1d20f3bceab1",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Marauding Mako",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Marauding Mako",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:7f24835f587d",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Marionette Apprentice",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Marionette Apprentice",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:9451ef440d22",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Marionette Master",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Marionette Master",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:2960ada58381",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Massacre Girl",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Massacre Girl",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:f9bea88cd694",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Massacre Girl, Known Killer",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Massacre Girl, Known Killer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:f5ec05153c1e",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Massacre Girl, Most Wanted",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Massacre Girl, Most Wanted",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:bdb3c9613641",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Matterbending Mage",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Matterbending Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:e4c46362411b",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Merchant Raiders",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Merchant Raiders",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:8de9f4857298",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Merciless Harlequin",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Merciless Harlequin",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:04542102ab47",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Mirage Phalanx",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Mirage Phalanx",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:25dc07998ac4",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Mischievous Mystic",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Mischievous Mystic",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:7f53259dcaec",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Mistblade Shinobi",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Mistblade Shinobi",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:cd8539c53e57",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Mister Fantastic, Reed Richards",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Mister Fantastic, Reed Richards",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:9a52b417aa6a",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Moon-Circuit Hacker",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Moon-Circuit Hacker",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:b3487efbb44b",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Mu Yanling, Wind Rider",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Mu Yanling, Wind Rider",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:b2b75e67cfd5",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Murmuring Mystic",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Murmuring Mystic",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:11a20209f4cc",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Nekrataal",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Nekrataal",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:27eeb7812ef0",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Nightshade Assassin",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Nightshade Assassin",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:55713db4f546",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Ninja of the Deep Hours",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Ninja of the Deep Hours",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:521449bda97c",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Notorious Assassin",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Notorious Assassin",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:a7e053a9951b",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Oaken Siren",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Oaken Siren",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:1199a241088c",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Olivia's Attendants",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Olivia's Attendants",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:3a72527a8381",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Ophidian Eye",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Ophidian Eye",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:6edba57f7b2a",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Ophiomancer",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Ophiomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:c34ff9567814",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Orthion, Hero of Lavabrink",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Orthion, Hero of Lavabrink",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:2570c4aec887",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Orzhov Euthanist",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Orzhov Euthanist",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:a3a530d36a94",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Otepec Huntmaster",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Otepec Huntmaster",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:3d6d7e8e55d7",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Ozai, the Phoenix King",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Ozai, the Phoenix King",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:8abd5a787472",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Phantom Steed",
+    "cut": "Deluxe Dragster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Phantom Steed",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:c372ef6f25b7",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Photon, Mighty Marvel",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Photon, Mighty Marvel",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:464b137fd695",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Pia, Determined Rebuilder",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Pia, Determined Rebuilder",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:7a61d193a5e3",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Piper of the Swarm",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Piper of the Swarm",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:9337d478628a",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Piper Wright, Publick Reporter",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Piper Wright, Publick Reporter",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:bca777085d7e",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Pirate Peddlers",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Pirate Peddlers",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:9787191677c2",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Pirate Ship",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Pirate Ship",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:4c88aff62f64",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Pirated Copy",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Pirated Copy",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:a0a28a8af8c4",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Pitiless Plunderer",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Pitiless Plunderer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:8e08f2f85715",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Professional Face-Breaker",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Professional Face-Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:72763639de7f",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Proft, Sinister Mastermind",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Proft, Sinister Mastermind",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:f3648ad34710",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Prosperous Thief",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Prosperous Thief",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:a644d86dcead",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Protean Raider",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Protean Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:ddec63ca4c22",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Puppet Master, String Puller",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Puppet Master, String Puller",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:8e716ceeeaee",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Radioactive Man",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Radioactive Man",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:8abc86adec06",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Raffine's Silencer",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Raffine's Silencer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:30d83a0eccd1",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Ramses Overdark",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Ramses Overdark",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:0fb3c93fe0f6",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Ramses, Assassin Lord",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Ramses, Assassin Lord",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:e101f03da70e",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Razorkin Needlehead",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Razorkin Needlehead",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:f79903353ec8",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Red Ghost, Intangible Genius",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Red Ghost, Intangible Genius",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:f596ff3ad52a",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Reef Pirates",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Reef Pirates",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:b7e2d9f0969d",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:8c2bea1905e2",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Rev, Tithe Extractor",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Rev, Tithe Extractor",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:7d12f0e4d291",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Rigging Runner",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Rigging Runner",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:e395e2aa3d01",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Rikku, Resourceful Guardian",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Rikku, Resourceful Guardian",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:347005006ed6",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Rionya, Fire Dancer",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Rionya, Fire Dancer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:0a556afe3e74",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Rishadan Airship",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Rishadan Airship",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:c2542473d6da",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Rishadan Cutpurse",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Rishadan Cutpurse",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:7c7943262f12",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Ronin Cliffrider",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Ronin Cliffrider",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:d96dc0e71830",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Roshan, Hidden Magister",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Roshan, Hidden Magister",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:2b9c11e9a626",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Rowdy Crew",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Rowdy Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:e3aa81b88dbe",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Roxxon Brutes",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Roxxon Brutes",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:42f1a63ffeb1",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Royal Assassin",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Royal Assassin",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:5043fb2033a8",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Ruin Raider",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Ruin Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:3acc9515b1d7",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Ruthless Ripper",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Ruthless Ripper",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:19cf70ccae31",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Ruthless Technomancer",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Ruthless Technomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:b8a90b86e493",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Safana, Calimport Cutthroat",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Safana, Calimport Cutthroat",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:ecc8ef4067db",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Saheeli, Jewel of Avishkar",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Saheeli, Jewel of Avishkar",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:32b57156b151",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Sai, Master Thopterist",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Sai, Master Thopterist",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:849c11c65ed2",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Samut, Hazoret's Champion",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Samut, Hazoret's Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:a62486c0655a",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Sandstorm Crasher",
+    "cut": "Vaan, Street Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Sandstorm Crasher",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:ba5e63b3b58b",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Satoru, the Infiltrator",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Satoru, the Infiltrator",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:634287152cde",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Scrounging Skyray",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Scrounging Skyray",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:9935e55b5403",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Sedgemoor Witch",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Sedgemoor Witch",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:5aa21c75aea4",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Sengir Autocrat",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Sengir Autocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:88ba1c5613ad",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:074f15cfa149",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Servant of the Stinger",
+    "cut": "Imperial Seal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Servant of the Stinger",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:87cd9f10b99a",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Setzer, Wandering Gambler",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Setzer, Wandering Gambler",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:4987a379c47a",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Shao Jun",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Shao Jun",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:cbbf596f2d7d",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Shaun, Father of Synths",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Shaun, Father of Synths",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:bb44ed7092d4",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Shipwreck Looter",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Shipwreck Looter",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:6b3841b2b8c5",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Shipwreck Sentry",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Shipwreck Sentry",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:6358687c11e6",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Silent Assassin",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Silent Assassin",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:459467cd2372",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Silumgar Assassin",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Silumgar Assassin",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:f11770b7d747",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Siren Lookout",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Siren Lookout",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:a0298fbf1ad0",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Skeleton Crew",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Skeleton Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:449ad4277b5f",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Skyship Buccaneer",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Skyship Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:cac36d4294ea",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Smuggler Captain",
+    "cut": "Imperial Seal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Smuggler Captain",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:055a71a618d4",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Songbird, Sonic Screamer",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Songbird, Sonic Screamer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:66f1b49b25a4",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Spectral Sailor",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Spectral Sailor",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:97d5379bc9d1",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Spider-Man, Hometown Hero",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Spider-Man, Hometown Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:80d38dc5231f",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Spider-Man, Web-Spinner",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Spider-Man, Web-Spinner",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:cb39ca5dd6d1",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Spider-Punk",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Spider-Punk",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:8263b8292898",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Splinter Twin",
+    "cut": "Deluxe Dragster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Splinter Twin",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:81ed4c3b91e0",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Stalking Assassin",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Stalking Assassin",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:c96bdaf6fbc1",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Stark Industries Executive",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Stark Industries Executive",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:44f78a6e4d8d",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Stature, Size Shifter",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Stature, Size Shifter",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:245be9070fd2",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Staunch Crewmate",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Staunch Crewmate",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:64acd40f7c4c",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Steam Frigate",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Steam Frigate",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:c0641d94327a",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Stingcaster Mage",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Stingcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:54d7e6ee0ef6",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Storm Fleet Aerialist",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Storm Fleet Aerialist",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:926e1cd8d107",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Storm Fleet Pyromancer",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Storm Fleet Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:d658c5c68f24",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Storm Fleet Spy",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Storm Fleet Spy",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:aa0c806fe8fe",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Stormfist Crusader",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Stormfist Crusader",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:a8ea74ba5fb0",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Street Urchin",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Street Urchin",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:db5abecc0d04",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Swab Goblin",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Swab Goblin",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:fa3666c550fb",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Swaggering Corsair",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Swaggering Corsair",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:a215dc7b14c1",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Swordsman, Sharp Scoundrel",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Swordsman, Sharp Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:d7886f2f6c68",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Talas Explorer",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Talas Explorer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:611d034b7044",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Talas Merchant",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Talas Merchant",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:c0b0995fd69a",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Talas Researcher",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Talas Researcher",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:b21a5ccf9eaf",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Talas Scout",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Talas Scout",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:bf4ed6ade1e9",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Tandem Lookout",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Tandem Lookout",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:d96aface31a3",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Termination Facilitator",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Termination Facilitator",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:aa84ff9cc1d5",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Tetsuko Umezawa, Fugitive",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Tetsuko Umezawa, Fugitive",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:e079900a5865",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Tetsuko Umezawa, Pursuer",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Tetsuko Umezawa, Pursuer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:1bc1b51e048b",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "The Immortal Weapons",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=The Immortal Weapons",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:96e582a9630c",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "The Lord of Pain",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=The Lord of Pain",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:6a3dd7c99509",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "The Ruinous Wrecking Crew",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=The Ruinous Wrecking Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:02ccf974c7ed",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "The Squadron Sinister",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=The Squadron Sinister",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:38ad134ee0bf",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "The Wasp, Winsome Avenger",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=The Wasp, Winsome Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:ecea498d42d9",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "The Whizzer, Classic Speedster",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=The Whizzer, Classic Speedster",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:5d73d11f4c34",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Third Path Iconoclast",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Third Path Iconoclast",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:f4aaba68cc75",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Thopter Assembly",
+    "cut": "Vaan, Street Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Thopter Assembly",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:271cb389f036",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Thorin, Company's Leader",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Thorin, Company's Leader",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:5c00f216703b",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Thorn of the Black Rose",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Thorn of the Black Rose",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:2ebf81371eac",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Thousand-Faced Shadow",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Thousand-Faced Shadow",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:70179df2616c",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Thrill-Kill Assassin",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Thrill-Kill Assassin",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:67a8d756f956",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Thunderhead Gunner",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Thunderhead Gunner",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:9528b279c13c",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:6efe3f625c15",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Tiger Shark, Abyssal Hunter",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Tiger Shark, Abyssal Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:cabc027f3550",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:cfc65a534795",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Titania, Proud Pummeler",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Titania, Proud Pummeler",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:351e96ce3fec",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Titanium Man",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Titanium Man",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:8213907c6952",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Tony Stark // The Invincible Iron Man",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Tony Stark // The Invincible Iron Man",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:9a362efcb6fb",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "TVA Bureaucrat",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=TVA Bureaucrat",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:bdddf6a93e7d",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Unscrupulous Contractor",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Unscrupulous Contractor",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:c296edbc3d4c",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Urza, Lord High Artificer",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Urza, Lord High Artificer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:9facbb69952c",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Venser, Fervent Forger",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Venser, Fervent Forger",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:4bc1bb48fbb2",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Viper, Cruel Conspirator",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Viper, Cruel Conspirator",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:f86d0d0166d2",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "War Machine, Avenging Arsenal",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=War Machine, Avenging Arsenal",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:e9e7138071c1",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Warkite Marauder",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Warkite Marauder",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:0326aa03cafc",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Wasp, Shrinking Savior",
+    "cut": "Fateful Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Wasp, Shrinking Savior",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:c34eb24522d4",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Wei Assassins",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Wei Assassins",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:ea21d7dfb506",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Whiplash, Vengeful Engineer",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Whiplash, Vengeful Engineer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:40a39c3fb5fb",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Whirler Rogue",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Whirler Rogue",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:dbcabc876b67",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "White Widow, Yelena Belova",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=White Widow, Yelena Belova",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:87b31639c896",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Xathrid Slyblade",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Xathrid Slyblade",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:ffcacc9ce58e",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Young Pyromancer",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Young Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:9648466eb807",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Yuriko, the Tiger's Shadow",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Yuriko, the Tiger's Shadow",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:1cb731e7fb3b",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Zara, Renegade Recruiter",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Zara, Renegade Recruiter",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:723e6245823d",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   },
+   {
+    "add": "Zealous Conscripts",
+    "cut": "Deadeye Quartermaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/edward-kenway.json.gz#card=Zealous Conscripts",
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:af6ded761310",
+     "blueprint:data/grixis/blueprints/edward-kenway.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Edward_Kenway",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/edward-kenway.json.gz"
+  ],
+  "list_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:edward-kenway:performance:v1",
+  "recommendations": [
+   {
+    "add": "Cultivator's Caravan",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:c758d28a38bb",
+     "m5_test:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=test:edward-kenway:goldfish:baf7423fe555e136"
+    ]
+   },
+   {
+    "add": "Deadly Dispute",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:c5947604eb87",
+     "m5_test:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=test:edward-kenway:goldfish:428ee7d95a409214"
+    ]
+   },
+   {
+    "add": "Deadly Dispute",
+    "cut": "The Reaver Cleaver",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:2a0226db2a60",
+     "m5_test:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=test:edward-kenway:goldfish:0d00593c2537bee6"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:7dc78d266c59",
+     "m5_test:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=test:edward-kenway:goldfish:cfbbe68a30fab8db"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=swap:edward-kenway:m5:4e4b82c13342",
+     "m5_test:data/grixis/birthday_m5/regen/edward-kenway.json.gz#id=test:edward-kenway:goldfish:3d8e943b66dc43b4"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:edward-kenway:m5:02ccf974c7ed",
+   "swap:edward-kenway:m5:0326aa03cafc",
+   "swap:edward-kenway:m5:043302c3430a",
+   "swap:edward-kenway:m5:04542102ab47",
+   "swap:edward-kenway:m5:055a71a618d4",
+   "swap:edward-kenway:m5:055ca1163442",
+   "swap:edward-kenway:m5:06fc02fc586c",
+   "swap:edward-kenway:m5:0703f06be669",
+   "swap:edward-kenway:m5:07103df5a7e2",
+   "swap:edward-kenway:m5:074f15cfa149",
+   "swap:edward-kenway:m5:076da5d407ea",
+   "swap:edward-kenway:m5:07fc7cb0fd15",
+   "swap:edward-kenway:m5:0898f5742191",
+   "swap:edward-kenway:m5:09cc168e824a",
+   "swap:edward-kenway:m5:0a3aec3e42fe",
+   "swap:edward-kenway:m5:0a556afe3e74",
+   "swap:edward-kenway:m5:0c320c04a0d6",
+   "swap:edward-kenway:m5:0e2d62fb3d01",
+   "swap:edward-kenway:m5:0f5af36226a2",
+   "swap:edward-kenway:m5:0f711068170e",
+   "swap:edward-kenway:m5:0fb3c93fe0f6",
+   "swap:edward-kenway:m5:1056b1f0554a",
+   "swap:edward-kenway:m5:109775bd1914",
+   "swap:edward-kenway:m5:11831b781e19",
+   "swap:edward-kenway:m5:1199a241088c",
+   "swap:edward-kenway:m5:11a20209f4cc",
+   "swap:edward-kenway:m5:158097e6ea66",
+   "swap:edward-kenway:m5:15fefeced723",
+   "swap:edward-kenway:m5:19336602ed63",
+   "swap:edward-kenway:m5:19cf70ccae31",
+   "swap:edward-kenway:m5:1b64e5dd0bf7",
+   "swap:edward-kenway:m5:1b84aa805092",
+   "swap:edward-kenway:m5:1bc1b51e048b",
+   "swap:edward-kenway:m5:1cb731e7fb3b",
+   "swap:edward-kenway:m5:1cbebae57e2e",
+   "swap:edward-kenway:m5:1d20f3bceab1",
+   "swap:edward-kenway:m5:1f29ec26106a",
+   "swap:edward-kenway:m5:201d3e6e2ecc",
+   "swap:edward-kenway:m5:21e8ba897c40",
+   "swap:edward-kenway:m5:22230dfac183",
+   "swap:edward-kenway:m5:226e237c7e17",
+   "swap:edward-kenway:m5:229f0d7c3f36",
+   "swap:edward-kenway:m5:245be9070fd2",
+   "swap:edward-kenway:m5:2570c4aec887",
+   "swap:edward-kenway:m5:25d1fbd7ff69",
+   "swap:edward-kenway:m5:25dc07998ac4",
+   "swap:edward-kenway:m5:260604563df6",
+   "swap:edward-kenway:m5:26fb9c4137f5",
+   "swap:edward-kenway:m5:271cb389f036",
+   "swap:edward-kenway:m5:27eeb7812ef0",
+   "swap:edward-kenway:m5:293a269f9eed",
+   "swap:edward-kenway:m5:2960ada58381",
+   "swap:edward-kenway:m5:29d1f9afac81",
+   "swap:edward-kenway:m5:2a0226db2a60",
+   "swap:edward-kenway:m5:2a11aff08d69",
+   "swap:edward-kenway:m5:2a2d5ba75d0a",
+   "swap:edward-kenway:m5:2b9c11e9a626",
+   "swap:edward-kenway:m5:2c81ec718891",
+   "swap:edward-kenway:m5:2cbca9a593e6",
+   "swap:edward-kenway:m5:2ebf81371eac",
+   "swap:edward-kenway:m5:2ed634e4277b",
+   "swap:edward-kenway:m5:2f32b7037c4b",
+   "swap:edward-kenway:m5:30d83a0eccd1",
+   "swap:edward-kenway:m5:31595fa8d287",
+   "swap:edward-kenway:m5:31e4b0c3e0e2",
+   "swap:edward-kenway:m5:31ef44460763",
+   "swap:edward-kenway:m5:32b57156b151",
+   "swap:edward-kenway:m5:347005006ed6",
+   "swap:edward-kenway:m5:351e96ce3fec",
+   "swap:edward-kenway:m5:3670044567df",
+   "swap:edward-kenway:m5:3745dbca1611",
+   "swap:edward-kenway:m5:38ad134ee0bf",
+   "swap:edward-kenway:m5:3a72527a8381",
+   "swap:edward-kenway:m5:3acc9515b1d7",
+   "swap:edward-kenway:m5:3cb8586d0030",
+   "swap:edward-kenway:m5:3d3ada20b323",
+   "swap:edward-kenway:m5:3d6d7e8e55d7",
+   "swap:edward-kenway:m5:3dc2b931158a",
+   "swap:edward-kenway:m5:3e1acb4da718",
+   "swap:edward-kenway:m5:3e683587bdaf",
+   "swap:edward-kenway:m5:3f9302b8e92c",
+   "swap:edward-kenway:m5:40a39c3fb5fb",
+   "swap:edward-kenway:m5:425552bff435",
+   "swap:edward-kenway:m5:42f1a63ffeb1",
+   "swap:edward-kenway:m5:445ca2aca11a",
+   "swap:edward-kenway:m5:4489e8432a20",
+   "swap:edward-kenway:m5:449ad4277b5f",
+   "swap:edward-kenway:m5:44f78a6e4d8d",
+   "swap:edward-kenway:m5:44fc770f87af",
+   "swap:edward-kenway:m5:4506901776ff",
+   "swap:edward-kenway:m5:459467cd2372",
+   "swap:edward-kenway:m5:464b137fd695",
+   "swap:edward-kenway:m5:46eacbbcdab9",
+   "swap:edward-kenway:m5:47dbde376cdd",
+   "swap:edward-kenway:m5:4987a379c47a",
+   "swap:edward-kenway:m5:4bc1bb48fbb2",
+   "swap:edward-kenway:m5:4c88aff62f64",
+   "swap:edward-kenway:m5:4c902d7b782e",
+   "swap:edward-kenway:m5:4ccf4bffdbf3",
+   "swap:edward-kenway:m5:4d189c6e5a60",
+   "swap:edward-kenway:m5:4e4b82c13342",
+   "swap:edward-kenway:m5:5043fb2033a8",
+   "swap:edward-kenway:m5:508c3a2d555a",
+   "swap:edward-kenway:m5:51efaa3834d9",
+   "swap:edward-kenway:m5:521449bda97c",
+   "swap:edward-kenway:m5:54d7e6ee0ef6",
+   "swap:edward-kenway:m5:55381fd5e0eb",
+   "swap:edward-kenway:m5:55713db4f546",
+   "swap:edward-kenway:m5:55fdec1425c7",
+   "swap:edward-kenway:m5:5aa21c75aea4",
+   "swap:edward-kenway:m5:5ba470952c3d",
+   "swap:edward-kenway:m5:5c00f216703b",
+   "swap:edward-kenway:m5:5ca371614e35",
+   "swap:edward-kenway:m5:5d23e887f0dd",
+   "swap:edward-kenway:m5:5d73d11f4c34",
+   "swap:edward-kenway:m5:5e213b3959d4",
+   "swap:edward-kenway:m5:61031d9c9c1b",
+   "swap:edward-kenway:m5:611d034b7044",
+   "swap:edward-kenway:m5:6238f7d0018c",
+   "swap:edward-kenway:m5:62ae6047f4ab",
+   "swap:edward-kenway:m5:634287152cde",
+   "swap:edward-kenway:m5:6358687c11e6",
+   "swap:edward-kenway:m5:64155f668b75",
+   "swap:edward-kenway:m5:64acd40f7c4c",
+   "swap:edward-kenway:m5:64ce689f5219",
+   "swap:edward-kenway:m5:64d61bdb355e",
+   "swap:edward-kenway:m5:6611e2f073b9",
+   "swap:edward-kenway:m5:66f1b49b25a4",
+   "swap:edward-kenway:m5:670ae77ec721",
+   "swap:edward-kenway:m5:67a8d756f956",
+   "swap:edward-kenway:m5:67ea9ef56077",
+   "swap:edward-kenway:m5:68184c384c21",
+   "swap:edward-kenway:m5:68e46effc4d4",
+   "swap:edward-kenway:m5:68fe976ac3f2",
+   "swap:edward-kenway:m5:6a3dd7c99509",
+   "swap:edward-kenway:m5:6aa99efd9f36",
+   "swap:edward-kenway:m5:6b3841b2b8c5",
+   "swap:edward-kenway:m5:6b567ebf2b8d",
+   "swap:edward-kenway:m5:6e0fd16e51f8",
+   "swap:edward-kenway:m5:6e336de2e99b",
+   "swap:edward-kenway:m5:6edba57f7b2a",
+   "swap:edward-kenway:m5:6efe3f625c15",
+   "swap:edward-kenway:m5:70179df2616c",
+   "swap:edward-kenway:m5:70701aae28f1",
+   "swap:edward-kenway:m5:70f0103700be",
+   "swap:edward-kenway:m5:7129cb78ca64",
+   "swap:edward-kenway:m5:723e6245823d",
+   "swap:edward-kenway:m5:72763639de7f",
+   "swap:edward-kenway:m5:729f5b01e899",
+   "swap:edward-kenway:m5:772c9dce81b7",
+   "swap:edward-kenway:m5:77cdbd102d6c",
+   "swap:edward-kenway:m5:7a61d193a5e3",
+   "swap:edward-kenway:m5:7c7943262f12",
+   "swap:edward-kenway:m5:7d12f0e4d291",
+   "swap:edward-kenway:m5:7dc78d266c59",
+   "swap:edward-kenway:m5:7f04526958c0",
+   "swap:edward-kenway:m5:7f24835f587d",
+   "swap:edward-kenway:m5:7f53259dcaec",
+   "swap:edward-kenway:m5:7f7270dd6637",
+   "swap:edward-kenway:m5:7f9416e74d3d",
+   "swap:edward-kenway:m5:7f9d567ce862",
+   "swap:edward-kenway:m5:80d38dc5231f",
+   "swap:edward-kenway:m5:81ed4c3b91e0",
+   "swap:edward-kenway:m5:8212370c07af",
+   "swap:edward-kenway:m5:8213907c6952",
+   "swap:edward-kenway:m5:8263b8292898",
+   "swap:edward-kenway:m5:842d1eaa23dd",
+   "swap:edward-kenway:m5:849c11c65ed2",
+   "swap:edward-kenway:m5:849ee591515f",
+   "swap:edward-kenway:m5:87b31639c896",
+   "swap:edward-kenway:m5:87cd9f10b99a",
+   "swap:edward-kenway:m5:88ba1c5613ad",
+   "swap:edward-kenway:m5:8958d564e6fb",
+   "swap:edward-kenway:m5:89fe0b596224",
+   "swap:edward-kenway:m5:8a8ed1019ea1",
+   "swap:edward-kenway:m5:8a95b47246c0",
+   "swap:edward-kenway:m5:8aa8b07930f5",
+   "swap:edward-kenway:m5:8abc86adec06",
+   "swap:edward-kenway:m5:8abd5a787472",
+   "swap:edward-kenway:m5:8af2dc580656",
+   "swap:edward-kenway:m5:8c2bea1905e2",
+   "swap:edward-kenway:m5:8c89cd061e48",
+   "swap:edward-kenway:m5:8de9f4857298",
+   "swap:edward-kenway:m5:8e08f2f85715",
+   "swap:edward-kenway:m5:8e716ceeeaee",
+   "swap:edward-kenway:m5:8e8e1abe8232",
+   "swap:edward-kenway:m5:926e1cd8d107",
+   "swap:edward-kenway:m5:9337d478628a",
+   "swap:edward-kenway:m5:9427ce054db5",
+   "swap:edward-kenway:m5:9445ef3dcf49",
+   "swap:edward-kenway:m5:9451ef440d22",
+   "swap:edward-kenway:m5:94c58cdadf3f",
+   "swap:edward-kenway:m5:94ca9cd5608a",
+   "swap:edward-kenway:m5:94d023508378",
+   "swap:edward-kenway:m5:94e1960d2053",
+   "swap:edward-kenway:m5:9528b279c13c",
+   "swap:edward-kenway:m5:9648466eb807",
+   "swap:edward-kenway:m5:965c0a0150ab",
+   "swap:edward-kenway:m5:96e582a9630c",
+   "swap:edward-kenway:m5:9787191677c2",
+   "swap:edward-kenway:m5:97d5379bc9d1",
+   "swap:edward-kenway:m5:9935e55b5403",
+   "swap:edward-kenway:m5:9a362efcb6fb",
+   "swap:edward-kenway:m5:9a52b417aa6a",
+   "swap:edward-kenway:m5:9aa351fddea6",
+   "swap:edward-kenway:m5:9fa75dea3b23",
+   "swap:edward-kenway:m5:9facbb69952c",
+   "swap:edward-kenway:m5:9fc339a91063",
+   "swap:edward-kenway:m5:a0298fbf1ad0",
+   "swap:edward-kenway:m5:a0a28a8af8c4",
+   "swap:edward-kenway:m5:a1e037c39d71",
+   "swap:edward-kenway:m5:a215dc7b14c1",
+   "swap:edward-kenway:m5:a29a67909d8b",
+   "swap:edward-kenway:m5:a3a530d36a94",
+   "swap:edward-kenway:m5:a62486c0655a",
+   "swap:edward-kenway:m5:a641995979b8",
+   "swap:edward-kenway:m5:a644d86dcead",
+   "swap:edward-kenway:m5:a702295a9454",
+   "swap:edward-kenway:m5:a7e053a9951b",
+   "swap:edward-kenway:m5:a844aa53e814",
+   "swap:edward-kenway:m5:a8cfaf0cac62",
+   "swap:edward-kenway:m5:a8ea74ba5fb0",
+   "swap:edward-kenway:m5:a955b6b68f4b",
+   "swap:edward-kenway:m5:aa0c806fe8fe",
+   "swap:edward-kenway:m5:aa84ff9cc1d5",
+   "swap:edward-kenway:m5:aa8c51b4ffae",
+   "swap:edward-kenway:m5:aaa3b66de3b3",
+   "swap:edward-kenway:m5:ae27c013599e",
+   "swap:edward-kenway:m5:ae741c519d46",
+   "swap:edward-kenway:m5:af6ded761310",
+   "swap:edward-kenway:m5:b0cacad39b17",
+   "swap:edward-kenway:m5:b21a5ccf9eaf",
+   "swap:edward-kenway:m5:b2b75e67cfd5",
+   "swap:edward-kenway:m5:b3487efbb44b",
+   "swap:edward-kenway:m5:b3ec01a8442a",
+   "swap:edward-kenway:m5:b3f1f6adfbcf",
+   "swap:edward-kenway:m5:b607ffae7c7f",
+   "swap:edward-kenway:m5:b725378b6104",
+   "swap:edward-kenway:m5:b7ccfa505053",
+   "swap:edward-kenway:m5:b7e2d9f0969d",
+   "swap:edward-kenway:m5:b8a90b86e493",
+   "swap:edward-kenway:m5:b95a0f0a5f47",
+   "swap:edward-kenway:m5:b9fb4cefc165",
+   "swap:edward-kenway:m5:ba5e63b3b58b",
+   "swap:edward-kenway:m5:bb3824a82fb5",
+   "swap:edward-kenway:m5:bb44ed7092d4",
+   "swap:edward-kenway:m5:bba97386afde",
+   "swap:edward-kenway:m5:bca777085d7e",
+   "swap:edward-kenway:m5:bdb3c9613641",
+   "swap:edward-kenway:m5:bdddf6a93e7d",
+   "swap:edward-kenway:m5:be9817935d87",
+   "swap:edward-kenway:m5:beb54dfcb897",
+   "swap:edward-kenway:m5:bf2dbd6e46a1",
+   "swap:edward-kenway:m5:bf4ed6ade1e9",
+   "swap:edward-kenway:m5:bf6ced5f712f",
+   "swap:edward-kenway:m5:c0641d94327a",
+   "swap:edward-kenway:m5:c0b0995fd69a",
+   "swap:edward-kenway:m5:c1501af570df",
+   "swap:edward-kenway:m5:c2542473d6da",
+   "swap:edward-kenway:m5:c296edbc3d4c",
+   "swap:edward-kenway:m5:c2a09954f6ff",
+   "swap:edward-kenway:m5:c34eb24522d4",
+   "swap:edward-kenway:m5:c34ff9567814",
+   "swap:edward-kenway:m5:c372ef6f25b7",
+   "swap:edward-kenway:m5:c56487160eb3",
+   "swap:edward-kenway:m5:c5947604eb87",
+   "swap:edward-kenway:m5:c704676b349d",
+   "swap:edward-kenway:m5:c758d28a38bb",
+   "swap:edward-kenway:m5:c7b3d10d9037",
+   "swap:edward-kenway:m5:c8212b5a7cb8",
+   "swap:edward-kenway:m5:c8a255584d97",
+   "swap:edward-kenway:m5:c964c3b51648",
+   "swap:edward-kenway:m5:c96bdaf6fbc1",
+   "swap:edward-kenway:m5:cabc027f3550",
+   "swap:edward-kenway:m5:cac36d4294ea",
+   "swap:edward-kenway:m5:cb39ca5dd6d1",
+   "swap:edward-kenway:m5:cbbf596f2d7d",
+   "swap:edward-kenway:m5:cd44d2269fc9",
+   "swap:edward-kenway:m5:cd7c1cdaf716",
+   "swap:edward-kenway:m5:cd8539c53e57",
+   "swap:edward-kenway:m5:cd8e05ab6f5c",
+   "swap:edward-kenway:m5:cf01203f3fef",
+   "swap:edward-kenway:m5:cfc65a534795",
+   "swap:edward-kenway:m5:d1919e574d32",
+   "swap:edward-kenway:m5:d26c8af2d277",
+   "swap:edward-kenway:m5:d5db53644591",
+   "swap:edward-kenway:m5:d658c5c68f24",
+   "swap:edward-kenway:m5:d71ee46a4a49",
+   "swap:edward-kenway:m5:d72188a36c39",
+   "swap:edward-kenway:m5:d76ed987a976",
+   "swap:edward-kenway:m5:d7886f2f6c68",
+   "swap:edward-kenway:m5:d87cf82a3f38",
+   "swap:edward-kenway:m5:d96aface31a3",
+   "swap:edward-kenway:m5:d96dc0e71830",
+   "swap:edward-kenway:m5:d9f8f676e076",
+   "swap:edward-kenway:m5:db5abecc0d04",
+   "swap:edward-kenway:m5:dba19523b3c0",
+   "swap:edward-kenway:m5:dbcabc876b67",
+   "swap:edward-kenway:m5:dcbae3d28757",
+   "swap:edward-kenway:m5:dda1917ad566",
+   "swap:edward-kenway:m5:ddec63ca4c22",
+   "swap:edward-kenway:m5:de2b66d557da",
+   "swap:edward-kenway:m5:e04b1ef19a26",
+   "swap:edward-kenway:m5:e079900a5865",
+   "swap:edward-kenway:m5:e101f03da70e",
+   "swap:edward-kenway:m5:e1cf6660712e",
+   "swap:edward-kenway:m5:e33a04356dba",
+   "swap:edward-kenway:m5:e395e2aa3d01",
+   "swap:edward-kenway:m5:e3aa81b88dbe",
+   "swap:edward-kenway:m5:e4c46362411b",
+   "swap:edward-kenway:m5:e6e1ce3dcff1",
+   "swap:edward-kenway:m5:e7060deca6e2",
+   "swap:edward-kenway:m5:e9e7138071c1",
+   "swap:edward-kenway:m5:ea21d7dfb506",
+   "swap:edward-kenway:m5:eafa736a80c5",
+   "swap:edward-kenway:m5:ecc8ef4067db",
+   "swap:edward-kenway:m5:ecea498d42d9",
+   "swap:edward-kenway:m5:eeca4c8494b3",
+   "swap:edward-kenway:m5:ef370e511a00",
+   "swap:edward-kenway:m5:f11770b7d747",
+   "swap:edward-kenway:m5:f2af06f49299",
+   "swap:edward-kenway:m5:f2d646377c5e",
+   "swap:edward-kenway:m5:f30bf8fa8957",
+   "swap:edward-kenway:m5:f35a815f01a8",
+   "swap:edward-kenway:m5:f3648ad34710",
+   "swap:edward-kenway:m5:f38070ac973b",
+   "swap:edward-kenway:m5:f4aaba68cc75",
+   "swap:edward-kenway:m5:f5904e841d84",
+   "swap:edward-kenway:m5:f596ff3ad52a",
+   "swap:edward-kenway:m5:f5ec05153c1e",
+   "swap:edward-kenway:m5:f79903353ec8",
+   "swap:edward-kenway:m5:f82db5afe21f",
+   "swap:edward-kenway:m5:f8530b41eff8",
+   "swap:edward-kenway:m5:f86d0d0166d2",
+   "swap:edward-kenway:m5:f956634a6e02",
+   "swap:edward-kenway:m5:f9bea88cd694",
+   "swap:edward-kenway:m5:fa3666c550fb",
+   "swap:edward-kenway:m5:fba552a2fd29",
+   "swap:edward-kenway:m5:fdc02529cf8b",
+   "swap:edward-kenway:m5:fe03a784ede5",
+   "swap:edward-kenway:m5:fed95a7e5fba",
+   "swap:edward-kenway:m5:ffcacc9ce58e"
+  ],
+  "disagreements": [
+   "swap:edward-kenway:m5:02ccf974c7ed",
+   "swap:edward-kenway:m5:0326aa03cafc",
+   "swap:edward-kenway:m5:043302c3430a",
+   "swap:edward-kenway:m5:04542102ab47",
+   "swap:edward-kenway:m5:055a71a618d4",
+   "swap:edward-kenway:m5:055ca1163442",
+   "swap:edward-kenway:m5:06fc02fc586c",
+   "swap:edward-kenway:m5:0703f06be669",
+   "swap:edward-kenway:m5:07103df5a7e2",
+   "swap:edward-kenway:m5:074f15cfa149",
+   "swap:edward-kenway:m5:076da5d407ea",
+   "swap:edward-kenway:m5:07fc7cb0fd15",
+   "swap:edward-kenway:m5:0898f5742191",
+   "swap:edward-kenway:m5:09cc168e824a",
+   "swap:edward-kenway:m5:0a3aec3e42fe",
+   "swap:edward-kenway:m5:0a556afe3e74",
+   "swap:edward-kenway:m5:0c320c04a0d6",
+   "swap:edward-kenway:m5:0e2d62fb3d01",
+   "swap:edward-kenway:m5:0f5af36226a2",
+   "swap:edward-kenway:m5:0f711068170e",
+   "swap:edward-kenway:m5:0fb3c93fe0f6",
+   "swap:edward-kenway:m5:1056b1f0554a",
+   "swap:edward-kenway:m5:109775bd1914",
+   "swap:edward-kenway:m5:11831b781e19",
+   "swap:edward-kenway:m5:1199a241088c",
+   "swap:edward-kenway:m5:11a20209f4cc",
+   "swap:edward-kenway:m5:158097e6ea66",
+   "swap:edward-kenway:m5:15fefeced723",
+   "swap:edward-kenway:m5:19336602ed63",
+   "swap:edward-kenway:m5:19cf70ccae31",
+   "swap:edward-kenway:m5:1b64e5dd0bf7",
+   "swap:edward-kenway:m5:1b84aa805092",
+   "swap:edward-kenway:m5:1bc1b51e048b",
+   "swap:edward-kenway:m5:1cb731e7fb3b",
+   "swap:edward-kenway:m5:1cbebae57e2e",
+   "swap:edward-kenway:m5:1d20f3bceab1",
+   "swap:edward-kenway:m5:1f29ec26106a",
+   "swap:edward-kenway:m5:201d3e6e2ecc",
+   "swap:edward-kenway:m5:21e8ba897c40",
+   "swap:edward-kenway:m5:22230dfac183",
+   "swap:edward-kenway:m5:226e237c7e17",
+   "swap:edward-kenway:m5:229f0d7c3f36",
+   "swap:edward-kenway:m5:245be9070fd2",
+   "swap:edward-kenway:m5:2570c4aec887",
+   "swap:edward-kenway:m5:25d1fbd7ff69",
+   "swap:edward-kenway:m5:25dc07998ac4",
+   "swap:edward-kenway:m5:260604563df6",
+   "swap:edward-kenway:m5:26fb9c4137f5",
+   "swap:edward-kenway:m5:271cb389f036",
+   "swap:edward-kenway:m5:27eeb7812ef0",
+   "swap:edward-kenway:m5:293a269f9eed",
+   "swap:edward-kenway:m5:2960ada58381",
+   "swap:edward-kenway:m5:29d1f9afac81",
+   "swap:edward-kenway:m5:2a0226db2a60",
+   "swap:edward-kenway:m5:2a11aff08d69",
+   "swap:edward-kenway:m5:2a2d5ba75d0a",
+   "swap:edward-kenway:m5:2b9c11e9a626",
+   "swap:edward-kenway:m5:2c81ec718891",
+   "swap:edward-kenway:m5:2cbca9a593e6",
+   "swap:edward-kenway:m5:2ebf81371eac",
+   "swap:edward-kenway:m5:2ed634e4277b",
+   "swap:edward-kenway:m5:2f32b7037c4b",
+   "swap:edward-kenway:m5:30d83a0eccd1",
+   "swap:edward-kenway:m5:31595fa8d287",
+   "swap:edward-kenway:m5:31e4b0c3e0e2",
+   "swap:edward-kenway:m5:31ef44460763",
+   "swap:edward-kenway:m5:32b57156b151",
+   "swap:edward-kenway:m5:347005006ed6",
+   "swap:edward-kenway:m5:351e96ce3fec",
+   "swap:edward-kenway:m5:3670044567df",
+   "swap:edward-kenway:m5:3745dbca1611",
+   "swap:edward-kenway:m5:38ad134ee0bf",
+   "swap:edward-kenway:m5:3a72527a8381",
+   "swap:edward-kenway:m5:3acc9515b1d7",
+   "swap:edward-kenway:m5:3cb8586d0030",
+   "swap:edward-kenway:m5:3d3ada20b323",
+   "swap:edward-kenway:m5:3d6d7e8e55d7",
+   "swap:edward-kenway:m5:3dc2b931158a",
+   "swap:edward-kenway:m5:3e1acb4da718",
+   "swap:edward-kenway:m5:3e683587bdaf",
+   "swap:edward-kenway:m5:3f9302b8e92c",
+   "swap:edward-kenway:m5:40a39c3fb5fb",
+   "swap:edward-kenway:m5:425552bff435",
+   "swap:edward-kenway:m5:42f1a63ffeb1",
+   "swap:edward-kenway:m5:445ca2aca11a",
+   "swap:edward-kenway:m5:4489e8432a20",
+   "swap:edward-kenway:m5:449ad4277b5f",
+   "swap:edward-kenway:m5:44f78a6e4d8d",
+   "swap:edward-kenway:m5:44fc770f87af",
+   "swap:edward-kenway:m5:4506901776ff",
+   "swap:edward-kenway:m5:459467cd2372",
+   "swap:edward-kenway:m5:464b137fd695",
+   "swap:edward-kenway:m5:46eacbbcdab9",
+   "swap:edward-kenway:m5:47dbde376cdd",
+   "swap:edward-kenway:m5:4987a379c47a",
+   "swap:edward-kenway:m5:4bc1bb48fbb2",
+   "swap:edward-kenway:m5:4c88aff62f64",
+   "swap:edward-kenway:m5:4c902d7b782e",
+   "swap:edward-kenway:m5:4ccf4bffdbf3",
+   "swap:edward-kenway:m5:4d189c6e5a60",
+   "swap:edward-kenway:m5:4e4b82c13342",
+   "swap:edward-kenway:m5:5043fb2033a8",
+   "swap:edward-kenway:m5:508c3a2d555a",
+   "swap:edward-kenway:m5:51efaa3834d9",
+   "swap:edward-kenway:m5:521449bda97c",
+   "swap:edward-kenway:m5:54d7e6ee0ef6",
+   "swap:edward-kenway:m5:55381fd5e0eb",
+   "swap:edward-kenway:m5:55713db4f546",
+   "swap:edward-kenway:m5:55fdec1425c7",
+   "swap:edward-kenway:m5:5aa21c75aea4",
+   "swap:edward-kenway:m5:5ba470952c3d",
+   "swap:edward-kenway:m5:5c00f216703b",
+   "swap:edward-kenway:m5:5ca371614e35",
+   "swap:edward-kenway:m5:5d23e887f0dd",
+   "swap:edward-kenway:m5:5d73d11f4c34",
+   "swap:edward-kenway:m5:5e213b3959d4",
+   "swap:edward-kenway:m5:61031d9c9c1b",
+   "swap:edward-kenway:m5:611d034b7044",
+   "swap:edward-kenway:m5:6238f7d0018c",
+   "swap:edward-kenway:m5:62ae6047f4ab",
+   "swap:edward-kenway:m5:634287152cde",
+   "swap:edward-kenway:m5:6358687c11e6",
+   "swap:edward-kenway:m5:64155f668b75",
+   "swap:edward-kenway:m5:64acd40f7c4c",
+   "swap:edward-kenway:m5:64ce689f5219",
+   "swap:edward-kenway:m5:64d61bdb355e",
+   "swap:edward-kenway:m5:6611e2f073b9",
+   "swap:edward-kenway:m5:66f1b49b25a4",
+   "swap:edward-kenway:m5:670ae77ec721",
+   "swap:edward-kenway:m5:67a8d756f956",
+   "swap:edward-kenway:m5:67ea9ef56077",
+   "swap:edward-kenway:m5:68184c384c21",
+   "swap:edward-kenway:m5:68e46effc4d4",
+   "swap:edward-kenway:m5:68fe976ac3f2",
+   "swap:edward-kenway:m5:6a3dd7c99509",
+   "swap:edward-kenway:m5:6aa99efd9f36",
+   "swap:edward-kenway:m5:6b3841b2b8c5",
+   "swap:edward-kenway:m5:6b567ebf2b8d",
+   "swap:edward-kenway:m5:6e0fd16e51f8",
+   "swap:edward-kenway:m5:6e336de2e99b",
+   "swap:edward-kenway:m5:6edba57f7b2a",
+   "swap:edward-kenway:m5:6efe3f625c15",
+   "swap:edward-kenway:m5:70179df2616c",
+   "swap:edward-kenway:m5:70701aae28f1",
+   "swap:edward-kenway:m5:70f0103700be",
+   "swap:edward-kenway:m5:7129cb78ca64",
+   "swap:edward-kenway:m5:723e6245823d",
+   "swap:edward-kenway:m5:72763639de7f",
+   "swap:edward-kenway:m5:729f5b01e899",
+   "swap:edward-kenway:m5:772c9dce81b7",
+   "swap:edward-kenway:m5:77cdbd102d6c",
+   "swap:edward-kenway:m5:7a61d193a5e3",
+   "swap:edward-kenway:m5:7c7943262f12",
+   "swap:edward-kenway:m5:7d12f0e4d291",
+   "swap:edward-kenway:m5:7dc78d266c59",
+   "swap:edward-kenway:m5:7f04526958c0",
+   "swap:edward-kenway:m5:7f24835f587d",
+   "swap:edward-kenway:m5:7f53259dcaec",
+   "swap:edward-kenway:m5:7f7270dd6637",
+   "swap:edward-kenway:m5:7f9416e74d3d",
+   "swap:edward-kenway:m5:7f9d567ce862",
+   "swap:edward-kenway:m5:80d38dc5231f",
+   "swap:edward-kenway:m5:81ed4c3b91e0",
+   "swap:edward-kenway:m5:8212370c07af",
+   "swap:edward-kenway:m5:8213907c6952",
+   "swap:edward-kenway:m5:8263b8292898",
+   "swap:edward-kenway:m5:842d1eaa23dd",
+   "swap:edward-kenway:m5:849c11c65ed2",
+   "swap:edward-kenway:m5:849ee591515f",
+   "swap:edward-kenway:m5:87b31639c896",
+   "swap:edward-kenway:m5:87cd9f10b99a",
+   "swap:edward-kenway:m5:88ba1c5613ad",
+   "swap:edward-kenway:m5:8958d564e6fb",
+   "swap:edward-kenway:m5:89fe0b596224",
+   "swap:edward-kenway:m5:8a8ed1019ea1",
+   "swap:edward-kenway:m5:8a95b47246c0",
+   "swap:edward-kenway:m5:8aa8b07930f5",
+   "swap:edward-kenway:m5:8abc86adec06",
+   "swap:edward-kenway:m5:8abd5a787472",
+   "swap:edward-kenway:m5:8af2dc580656",
+   "swap:edward-kenway:m5:8c2bea1905e2",
+   "swap:edward-kenway:m5:8c89cd061e48",
+   "swap:edward-kenway:m5:8de9f4857298",
+   "swap:edward-kenway:m5:8e08f2f85715",
+   "swap:edward-kenway:m5:8e716ceeeaee",
+   "swap:edward-kenway:m5:8e8e1abe8232",
+   "swap:edward-kenway:m5:926e1cd8d107",
+   "swap:edward-kenway:m5:9337d478628a",
+   "swap:edward-kenway:m5:9427ce054db5",
+   "swap:edward-kenway:m5:9445ef3dcf49",
+   "swap:edward-kenway:m5:9451ef440d22",
+   "swap:edward-kenway:m5:94c58cdadf3f",
+   "swap:edward-kenway:m5:94ca9cd5608a",
+   "swap:edward-kenway:m5:94d023508378",
+   "swap:edward-kenway:m5:94e1960d2053",
+   "swap:edward-kenway:m5:9528b279c13c",
+   "swap:edward-kenway:m5:9648466eb807",
+   "swap:edward-kenway:m5:965c0a0150ab",
+   "swap:edward-kenway:m5:96e582a9630c",
+   "swap:edward-kenway:m5:9787191677c2",
+   "swap:edward-kenway:m5:97d5379bc9d1",
+   "swap:edward-kenway:m5:9935e55b5403",
+   "swap:edward-kenway:m5:9a362efcb6fb",
+   "swap:edward-kenway:m5:9a52b417aa6a",
+   "swap:edward-kenway:m5:9aa351fddea6",
+   "swap:edward-kenway:m5:9fa75dea3b23",
+   "swap:edward-kenway:m5:9facbb69952c",
+   "swap:edward-kenway:m5:9fc339a91063",
+   "swap:edward-kenway:m5:a0298fbf1ad0",
+   "swap:edward-kenway:m5:a0a28a8af8c4",
+   "swap:edward-kenway:m5:a1e037c39d71",
+   "swap:edward-kenway:m5:a215dc7b14c1",
+   "swap:edward-kenway:m5:a29a67909d8b",
+   "swap:edward-kenway:m5:a3a530d36a94",
+   "swap:edward-kenway:m5:a62486c0655a",
+   "swap:edward-kenway:m5:a641995979b8",
+   "swap:edward-kenway:m5:a644d86dcead",
+   "swap:edward-kenway:m5:a702295a9454",
+   "swap:edward-kenway:m5:a7e053a9951b",
+   "swap:edward-kenway:m5:a844aa53e814",
+   "swap:edward-kenway:m5:a8cfaf0cac62",
+   "swap:edward-kenway:m5:a8ea74ba5fb0",
+   "swap:edward-kenway:m5:a955b6b68f4b",
+   "swap:edward-kenway:m5:aa0c806fe8fe",
+   "swap:edward-kenway:m5:aa84ff9cc1d5",
+   "swap:edward-kenway:m5:aa8c51b4ffae",
+   "swap:edward-kenway:m5:aaa3b66de3b3",
+   "swap:edward-kenway:m5:ae27c013599e",
+   "swap:edward-kenway:m5:ae741c519d46",
+   "swap:edward-kenway:m5:af6ded761310",
+   "swap:edward-kenway:m5:b0cacad39b17",
+   "swap:edward-kenway:m5:b21a5ccf9eaf",
+   "swap:edward-kenway:m5:b2b75e67cfd5",
+   "swap:edward-kenway:m5:b3487efbb44b",
+   "swap:edward-kenway:m5:b3ec01a8442a",
+   "swap:edward-kenway:m5:b3f1f6adfbcf",
+   "swap:edward-kenway:m5:b607ffae7c7f",
+   "swap:edward-kenway:m5:b725378b6104",
+   "swap:edward-kenway:m5:b7ccfa505053",
+   "swap:edward-kenway:m5:b7e2d9f0969d",
+   "swap:edward-kenway:m5:b8a90b86e493",
+   "swap:edward-kenway:m5:b95a0f0a5f47",
+   "swap:edward-kenway:m5:b9fb4cefc165",
+   "swap:edward-kenway:m5:ba5e63b3b58b",
+   "swap:edward-kenway:m5:bb3824a82fb5",
+   "swap:edward-kenway:m5:bb44ed7092d4",
+   "swap:edward-kenway:m5:bba97386afde",
+   "swap:edward-kenway:m5:bca777085d7e",
+   "swap:edward-kenway:m5:bdb3c9613641",
+   "swap:edward-kenway:m5:bdddf6a93e7d",
+   "swap:edward-kenway:m5:be9817935d87",
+   "swap:edward-kenway:m5:beb54dfcb897",
+   "swap:edward-kenway:m5:bf2dbd6e46a1",
+   "swap:edward-kenway:m5:bf4ed6ade1e9",
+   "swap:edward-kenway:m5:bf6ced5f712f",
+   "swap:edward-kenway:m5:c0641d94327a",
+   "swap:edward-kenway:m5:c0b0995fd69a",
+   "swap:edward-kenway:m5:c1501af570df",
+   "swap:edward-kenway:m5:c2542473d6da",
+   "swap:edward-kenway:m5:c296edbc3d4c",
+   "swap:edward-kenway:m5:c2a09954f6ff",
+   "swap:edward-kenway:m5:c34eb24522d4",
+   "swap:edward-kenway:m5:c34ff9567814",
+   "swap:edward-kenway:m5:c372ef6f25b7",
+   "swap:edward-kenway:m5:c56487160eb3",
+   "swap:edward-kenway:m5:c5947604eb87",
+   "swap:edward-kenway:m5:c704676b349d",
+   "swap:edward-kenway:m5:c758d28a38bb",
+   "swap:edward-kenway:m5:c7b3d10d9037",
+   "swap:edward-kenway:m5:c8212b5a7cb8",
+   "swap:edward-kenway:m5:c8a255584d97",
+   "swap:edward-kenway:m5:c964c3b51648",
+   "swap:edward-kenway:m5:c96bdaf6fbc1",
+   "swap:edward-kenway:m5:cabc027f3550",
+   "swap:edward-kenway:m5:cac36d4294ea",
+   "swap:edward-kenway:m5:cb39ca5dd6d1",
+   "swap:edward-kenway:m5:cbbf596f2d7d",
+   "swap:edward-kenway:m5:cd44d2269fc9",
+   "swap:edward-kenway:m5:cd7c1cdaf716",
+   "swap:edward-kenway:m5:cd8539c53e57",
+   "swap:edward-kenway:m5:cd8e05ab6f5c",
+   "swap:edward-kenway:m5:cf01203f3fef",
+   "swap:edward-kenway:m5:cfc65a534795",
+   "swap:edward-kenway:m5:d1919e574d32",
+   "swap:edward-kenway:m5:d26c8af2d277",
+   "swap:edward-kenway:m5:d5db53644591",
+   "swap:edward-kenway:m5:d658c5c68f24",
+   "swap:edward-kenway:m5:d71ee46a4a49",
+   "swap:edward-kenway:m5:d72188a36c39",
+   "swap:edward-kenway:m5:d76ed987a976",
+   "swap:edward-kenway:m5:d7886f2f6c68",
+   "swap:edward-kenway:m5:d87cf82a3f38",
+   "swap:edward-kenway:m5:d96aface31a3",
+   "swap:edward-kenway:m5:d96dc0e71830",
+   "swap:edward-kenway:m5:d9f8f676e076",
+   "swap:edward-kenway:m5:db5abecc0d04",
+   "swap:edward-kenway:m5:dba19523b3c0",
+   "swap:edward-kenway:m5:dbcabc876b67",
+   "swap:edward-kenway:m5:dcbae3d28757",
+   "swap:edward-kenway:m5:dda1917ad566",
+   "swap:edward-kenway:m5:ddec63ca4c22",
+   "swap:edward-kenway:m5:de2b66d557da",
+   "swap:edward-kenway:m5:e04b1ef19a26",
+   "swap:edward-kenway:m5:e079900a5865",
+   "swap:edward-kenway:m5:e101f03da70e",
+   "swap:edward-kenway:m5:e1cf6660712e",
+   "swap:edward-kenway:m5:e33a04356dba",
+   "swap:edward-kenway:m5:e395e2aa3d01",
+   "swap:edward-kenway:m5:e3aa81b88dbe",
+   "swap:edward-kenway:m5:e4c46362411b",
+   "swap:edward-kenway:m5:e6e1ce3dcff1",
+   "swap:edward-kenway:m5:e7060deca6e2",
+   "swap:edward-kenway:m5:e9e7138071c1",
+   "swap:edward-kenway:m5:ea21d7dfb506",
+   "swap:edward-kenway:m5:eafa736a80c5",
+   "swap:edward-kenway:m5:ecc8ef4067db",
+   "swap:edward-kenway:m5:ecea498d42d9",
+   "swap:edward-kenway:m5:eeca4c8494b3",
+   "swap:edward-kenway:m5:ef370e511a00",
+   "swap:edward-kenway:m5:f11770b7d747",
+   "swap:edward-kenway:m5:f2af06f49299",
+   "swap:edward-kenway:m5:f2d646377c5e",
+   "swap:edward-kenway:m5:f30bf8fa8957",
+   "swap:edward-kenway:m5:f35a815f01a8",
+   "swap:edward-kenway:m5:f3648ad34710",
+   "swap:edward-kenway:m5:f38070ac973b",
+   "swap:edward-kenway:m5:f4aaba68cc75",
+   "swap:edward-kenway:m5:f5904e841d84",
+   "swap:edward-kenway:m5:f596ff3ad52a",
+   "swap:edward-kenway:m5:f5ec05153c1e",
+   "swap:edward-kenway:m5:f79903353ec8",
+   "swap:edward-kenway:m5:f82db5afe21f",
+   "swap:edward-kenway:m5:f8530b41eff8",
+   "swap:edward-kenway:m5:f86d0d0166d2",
+   "swap:edward-kenway:m5:f956634a6e02",
+   "swap:edward-kenway:m5:f9bea88cd694",
+   "swap:edward-kenway:m5:fa3666c550fb",
+   "swap:edward-kenway:m5:fba552a2fd29",
+   "swap:edward-kenway:m5:fdc02529cf8b",
+   "swap:edward-kenway:m5:fe03a784ede5",
+   "swap:edward-kenway:m5:fed95a7e5fba",
+   "swap:edward-kenway:m5:ffcacc9ce58e"
+  ]
+ },
+ "schema_version": 1
+}

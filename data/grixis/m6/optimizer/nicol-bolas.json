@@ -1,0 +1,937 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Nicol_Bolas",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/nicol-bolas.json.gz"
+  ],
+  "list_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:nicol-bolas:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Alena, Kessig Trapper",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Alena, Kessig Trapper",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:e90901eec7f4",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Ancient Copper Dragon",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Ancient Copper Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:314f89313d85",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Brallin, Skyshark Rider",
+    "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Brallin, Skyshark Rider",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:1e6f5ef61b5a",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Cavern-Hoard Dragon",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Cavern-Hoard Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:e36aadac6d1e",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Ingris Stingerquill",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:d026abd8b8d0",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:0a1a169a0434",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Ingris Stingerquill",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:8bc8672541b0",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:98b8ae0a9fa2",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Ingris Stingerquill",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:63d24b8ab329",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:790cf770b27d",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+    "cut": "Brotherhood Regalia",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:bba99efbc350",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+    "cut": "Ingris Stingerquill",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:ff9cc84d14de",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Dawnsire, Sunstar Dreadnought",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Dawnsire, Sunstar Dreadnought",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:e447c6ef68bb",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Glint-Horn Buccaneer",
+    "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Glint-Horn Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:db433b3210a5",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Glint-Horn Buccaneer",
+    "cut": "Quicksilver Dagger",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Glint-Horn Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:a2d126eeae69",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Hellkite Charger",
+    "cut": "Brotherhood Regalia",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Hellkite Charger",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:b7cf47887708",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Hoard Hauler",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Hoard Hauler",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:d504386d250f",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Howlsquad Heavy",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Howlsquad Heavy",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:c943e4b51aa7",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:64f61085dadc",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Viridian Longbow",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:dd86e8456051",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Ill-Tempered Loner // Howlpack Avenger",
+    "cut": "Ingris Stingerquill",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Ill-Tempered Loner // Howlpack Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:a6bde2309502",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Ill-Tempered Loner // Howlpack Avenger",
+    "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Ill-Tempered Loner // Howlpack Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:0dd3e8585d84",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "J. Jonah Jameson",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=J. Jonah Jameson",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:d31b752ea2a8",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Luxurious Locomotive",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Luxurious Locomotive",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:3bd16df2f851",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Magda, Brazen Outlaw",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Magda, Brazen Outlaw",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:24d2672542eb",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Magda, Brazen Outlaw",
+    "cut": "Waste Not",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Magda, Brazen Outlaw",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:d91f260c0658",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Magmakin Artillerist",
+    "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Magmakin Artillerist",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:561f4ff2b61b",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Mana Echoes",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Mana Echoes",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:55ba0d33fb50",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:7ad2f9804534",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Neheb, Dreadhorde Champion",
+    "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Neheb, Dreadhorde Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:1fe92c15eea6",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Neheb, Dreadhorde Champion",
+    "cut": "Quicksilver Dagger",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Neheb, Dreadhorde Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:b95bbecb197e",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Neheb, the Eternal",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Neheb, the Eternal",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:27806792a548",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Niv-Mizzet, Parun",
+    "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Niv-Mizzet, Parun",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:9cd36697a7dc",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Niv-Mizzet, Parun",
+    "cut": "Quicksilver Dagger",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Niv-Mizzet, Parun",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:f8b0f6602eb5",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Niv-Mizzet, the Firemind",
+    "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Niv-Mizzet, the Firemind",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:ae85aa5908a2",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Niv-Mizzet, the Firemind",
+    "cut": "Quicksilver Dagger",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Niv-Mizzet, the Firemind",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:052362a9d464",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Plague of Vermin",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Plague of Vermin",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:5383745dbc0e",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Plague of Vermin",
+    "cut": "Torment of Hailfire",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Plague of Vermin",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:535e7ab6a018",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Poetic Ingenuity",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Poetic Ingenuity",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:21e477422fdd",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Poetic Ingenuity",
+    "cut": "Waste Not",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Poetic Ingenuity",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:991a4f2999ff",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Power Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:166a1009d30f",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:ebb0b7b2c461",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Shadow of the Second Sun",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Shadow of the Second Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:473e928883cc",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Shadow of the Second Sun",
+    "cut": "Pain for All",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Shadow of the Second Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:69043412ae9b",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Sphinx of the Second Sun",
+    "cut": "Ingris Stingerquill",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Sphinx of the Second Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:f02e42a66d6f",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Sphinx of the Second Sun",
+    "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Sphinx of the Second Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:4e92744d4b81",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=The Enigma Jewel // Locus of Enlightenment",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:ddec7b04ce0f",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "The Reaver Cleaver",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=The Reaver Cleaver",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:38bbf30c36b1",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Thorin, Company's Leader",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Thorin, Company's Leader",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:f3274d394eef",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:e6097387760b",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Viridian Longbow",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:d91a5d3755a3",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Volcano Hellion",
+    "cut": "Ingris Stingerquill",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Volcano Hellion",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:0bcd7dafe809",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   },
+   {
+    "add": "Volcano Hellion",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#card=Volcano Hellion",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:3adba7cabda7",
+     "blueprint:data/grixis/blueprints/nicol-bolas.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Nicol_Bolas",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/nicol-bolas.json.gz"
+  ],
+  "list_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:nicol-bolas:performance:v1",
+  "recommendations": [
+   {
+    "add": "Alena, Kessig Trapper",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:e90901eec7f4",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:ec44eea153be92ad"
+    ]
+   },
+   {
+    "add": "Ancient Copper Dragon",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:314f89313d85",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:3ca22684419b7ffc"
+    ]
+   },
+   {
+    "add": "Brainstorm",
+    "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:4d25df1171eb",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:e4def6657e062012"
+    ]
+   },
+   {
+    "add": "Carnelian Orb of Dragonkind",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:def5bcc9c61e",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:57e71095c0779c0c"
+    ]
+   },
+   {
+    "add": "Charcoal Diamond",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:617f7808b879",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:3568779a5c8241f2"
+    ]
+   },
+   {
+    "add": "Chromatic Lantern",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:3dd2352190fd",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:a78e69dfe6aed1c6"
+    ]
+   },
+   {
+    "add": "Commander's Sphere",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:753d5485f376",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:2c1ea993afc7cb38"
+    ]
+   },
+   {
+    "add": "Crosis, the Purger",
+    "cut": "Brotherhood Regalia",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:e88956ee28c9",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:6bf6c107abaceec3"
+    ]
+   },
+   {
+    "add": "Dawnsire, Sunstar Dreadnought",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:e447c6ef68bb",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:0de8c6397d7dea4d"
+    ]
+   },
+   {
+    "add": "Dawnsire, Sunstar Dreadnought",
+    "cut": "Sword of Feast and Famine",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:958dc1cea187",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:08ae1bebdaba4375"
+    ]
+   },
+   {
+    "add": "Fire Diamond",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:97c9e5e165ec",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:3569ef22b510aa3d"
+    ]
+   },
+   {
+    "add": "Gilded Lotus",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:7597350ea5dc",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:de27ce8a2c195568"
+    ]
+   },
+   {
+    "add": "Goldspan Dragon",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:8b79c5c99903",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:eb082f96c1534f41"
+    ]
+   },
+   {
+    "add": "Hellkite Charger",
+    "cut": "Aggravated Assault",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:dd45f09237e7",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:573381ae35bcfce7"
+    ]
+   },
+   {
+    "add": "Hellkite Charger",
+    "cut": "Brotherhood Regalia",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:b7cf47887708",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:170855a73af99ace"
+    ]
+   },
+   {
+    "add": "Howlsquad Heavy",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:c943e4b51aa7",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:184ed28dd5aa3ab3"
+    ]
+   },
+   {
+    "add": "Luxurious Locomotive",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:3bd16df2f851",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:80aadcbf6b886cb7"
+    ]
+   },
+   {
+    "add": "Obelisk of Grixis",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:41e530ce9e95",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:ef9154b10eb69381"
+    ]
+   },
+   {
+    "add": "Relic of Sauron",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:bbdfb8bef9bf",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:e42a7bb218d60031"
+    ]
+   },
+   {
+    "add": "Rivaz of the Claw",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:4eb33461095a",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:ad4f9d363ed0714f"
+    ]
+   },
+   {
+    "add": "Scythe Specter",
+    "cut": "Brotherhood Regalia",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:6cdf1d51c731",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:c8e1a7d60fd6225d"
+    ]
+   },
+   {
+    "add": "Shadow of the Second Sun",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:473e928883cc",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:dd3363bf4a6d9bfa"
+    ]
+   },
+   {
+    "add": "Sky Diamond",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:867568837098",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:5469bdc837f4c16c"
+    ]
+   },
+   {
+    "add": "Slave of Bolas",
+    "cut": "Viridian Longbow",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:a7f726e6154d",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:6dcc0f63fd8e68b3"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:ddec7b04ce0f",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:ea9a4c3a3bc884fd"
+    ]
+   },
+   {
+    "add": "Thorin, Company's Leader",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:f3274d394eef",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:fcf2e8bfa3b48311"
+    ]
+   },
+   {
+    "add": "Thran Dynamo",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:08b6e1d6dca2",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:bc4efd7094b96f11"
+    ]
+   },
+   {
+    "add": "Visage of Bolas",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:0bfccd051fd5",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:663e0e940dad4264"
+    ]
+   },
+   {
+    "add": "Volcano Hellion",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:3adba7cabda7",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:74486e96136c7888"
+    ]
+   },
+   {
+    "add": "Wheel of Fortune",
+    "cut": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=swap:nicol-bolas:m5:8b34b109245b",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas.json.gz#id=test:nicol-bolas:goldfish:21facd5061d1c691"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [
+   "swap:nicol-bolas:m5:314f89313d85",
+   "swap:nicol-bolas:m5:3adba7cabda7",
+   "swap:nicol-bolas:m5:3bd16df2f851",
+   "swap:nicol-bolas:m5:473e928883cc",
+   "swap:nicol-bolas:m5:b7cf47887708",
+   "swap:nicol-bolas:m5:c943e4b51aa7",
+   "swap:nicol-bolas:m5:ddec7b04ce0f",
+   "swap:nicol-bolas:m5:e447c6ef68bb",
+   "swap:nicol-bolas:m5:e90901eec7f4",
+   "swap:nicol-bolas:m5:f3274d394eef"
+  ],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:nicol-bolas:m5:052362a9d464",
+   "swap:nicol-bolas:m5:08b6e1d6dca2",
+   "swap:nicol-bolas:m5:0a1a169a0434",
+   "swap:nicol-bolas:m5:0bcd7dafe809",
+   "swap:nicol-bolas:m5:0bfccd051fd5",
+   "swap:nicol-bolas:m5:0dd3e8585d84",
+   "swap:nicol-bolas:m5:166a1009d30f",
+   "swap:nicol-bolas:m5:1e6f5ef61b5a",
+   "swap:nicol-bolas:m5:1fe92c15eea6",
+   "swap:nicol-bolas:m5:21e477422fdd",
+   "swap:nicol-bolas:m5:24d2672542eb",
+   "swap:nicol-bolas:m5:27806792a548",
+   "swap:nicol-bolas:m5:314f89313d85",
+   "swap:nicol-bolas:m5:38bbf30c36b1",
+   "swap:nicol-bolas:m5:3adba7cabda7",
+   "swap:nicol-bolas:m5:3bd16df2f851",
+   "swap:nicol-bolas:m5:3dd2352190fd",
+   "swap:nicol-bolas:m5:41e530ce9e95",
+   "swap:nicol-bolas:m5:473e928883cc",
+   "swap:nicol-bolas:m5:4d25df1171eb",
+   "swap:nicol-bolas:m5:4e92744d4b81",
+   "swap:nicol-bolas:m5:4eb33461095a",
+   "swap:nicol-bolas:m5:535e7ab6a018",
+   "swap:nicol-bolas:m5:5383745dbc0e",
+   "swap:nicol-bolas:m5:55ba0d33fb50",
+   "swap:nicol-bolas:m5:561f4ff2b61b",
+   "swap:nicol-bolas:m5:617f7808b879",
+   "swap:nicol-bolas:m5:63d24b8ab329",
+   "swap:nicol-bolas:m5:64f61085dadc",
+   "swap:nicol-bolas:m5:69043412ae9b",
+   "swap:nicol-bolas:m5:6cdf1d51c731",
+   "swap:nicol-bolas:m5:753d5485f376",
+   "swap:nicol-bolas:m5:7597350ea5dc",
+   "swap:nicol-bolas:m5:790cf770b27d",
+   "swap:nicol-bolas:m5:7ad2f9804534",
+   "swap:nicol-bolas:m5:867568837098",
+   "swap:nicol-bolas:m5:8b34b109245b",
+   "swap:nicol-bolas:m5:8b79c5c99903",
+   "swap:nicol-bolas:m5:8bc8672541b0",
+   "swap:nicol-bolas:m5:958dc1cea187",
+   "swap:nicol-bolas:m5:97c9e5e165ec",
+   "swap:nicol-bolas:m5:98b8ae0a9fa2",
+   "swap:nicol-bolas:m5:991a4f2999ff",
+   "swap:nicol-bolas:m5:9cd36697a7dc",
+   "swap:nicol-bolas:m5:a2d126eeae69",
+   "swap:nicol-bolas:m5:a6bde2309502",
+   "swap:nicol-bolas:m5:a7f726e6154d",
+   "swap:nicol-bolas:m5:ae85aa5908a2",
+   "swap:nicol-bolas:m5:b7cf47887708",
+   "swap:nicol-bolas:m5:b95bbecb197e",
+   "swap:nicol-bolas:m5:bba99efbc350",
+   "swap:nicol-bolas:m5:bbdfb8bef9bf",
+   "swap:nicol-bolas:m5:c943e4b51aa7",
+   "swap:nicol-bolas:m5:d026abd8b8d0",
+   "swap:nicol-bolas:m5:d31b752ea2a8",
+   "swap:nicol-bolas:m5:d504386d250f",
+   "swap:nicol-bolas:m5:d91a5d3755a3",
+   "swap:nicol-bolas:m5:d91f260c0658",
+   "swap:nicol-bolas:m5:db433b3210a5",
+   "swap:nicol-bolas:m5:dd45f09237e7",
+   "swap:nicol-bolas:m5:dd86e8456051",
+   "swap:nicol-bolas:m5:ddec7b04ce0f",
+   "swap:nicol-bolas:m5:def5bcc9c61e",
+   "swap:nicol-bolas:m5:e36aadac6d1e",
+   "swap:nicol-bolas:m5:e447c6ef68bb",
+   "swap:nicol-bolas:m5:e6097387760b",
+   "swap:nicol-bolas:m5:e88956ee28c9",
+   "swap:nicol-bolas:m5:e90901eec7f4",
+   "swap:nicol-bolas:m5:ebb0b7b2c461",
+   "swap:nicol-bolas:m5:f02e42a66d6f",
+   "swap:nicol-bolas:m5:f3274d394eef",
+   "swap:nicol-bolas:m5:f8b0f6602eb5",
+   "swap:nicol-bolas:m5:ff9cc84d14de"
+  ],
+  "disagreements": [
+   "swap:nicol-bolas:m5:052362a9d464",
+   "swap:nicol-bolas:m5:08b6e1d6dca2",
+   "swap:nicol-bolas:m5:0a1a169a0434",
+   "swap:nicol-bolas:m5:0bcd7dafe809",
+   "swap:nicol-bolas:m5:0bfccd051fd5",
+   "swap:nicol-bolas:m5:0dd3e8585d84",
+   "swap:nicol-bolas:m5:166a1009d30f",
+   "swap:nicol-bolas:m5:1e6f5ef61b5a",
+   "swap:nicol-bolas:m5:1fe92c15eea6",
+   "swap:nicol-bolas:m5:21e477422fdd",
+   "swap:nicol-bolas:m5:24d2672542eb",
+   "swap:nicol-bolas:m5:27806792a548",
+   "swap:nicol-bolas:m5:38bbf30c36b1",
+   "swap:nicol-bolas:m5:3dd2352190fd",
+   "swap:nicol-bolas:m5:41e530ce9e95",
+   "swap:nicol-bolas:m5:4d25df1171eb",
+   "swap:nicol-bolas:m5:4e92744d4b81",
+   "swap:nicol-bolas:m5:4eb33461095a",
+   "swap:nicol-bolas:m5:535e7ab6a018",
+   "swap:nicol-bolas:m5:5383745dbc0e",
+   "swap:nicol-bolas:m5:55ba0d33fb50",
+   "swap:nicol-bolas:m5:561f4ff2b61b",
+   "swap:nicol-bolas:m5:617f7808b879",
+   "swap:nicol-bolas:m5:63d24b8ab329",
+   "swap:nicol-bolas:m5:64f61085dadc",
+   "swap:nicol-bolas:m5:69043412ae9b",
+   "swap:nicol-bolas:m5:6cdf1d51c731",
+   "swap:nicol-bolas:m5:753d5485f376",
+   "swap:nicol-bolas:m5:7597350ea5dc",
+   "swap:nicol-bolas:m5:790cf770b27d",
+   "swap:nicol-bolas:m5:7ad2f9804534",
+   "swap:nicol-bolas:m5:867568837098",
+   "swap:nicol-bolas:m5:8b34b109245b",
+   "swap:nicol-bolas:m5:8b79c5c99903",
+   "swap:nicol-bolas:m5:8bc8672541b0",
+   "swap:nicol-bolas:m5:958dc1cea187",
+   "swap:nicol-bolas:m5:97c9e5e165ec",
+   "swap:nicol-bolas:m5:98b8ae0a9fa2",
+   "swap:nicol-bolas:m5:991a4f2999ff",
+   "swap:nicol-bolas:m5:9cd36697a7dc",
+   "swap:nicol-bolas:m5:a2d126eeae69",
+   "swap:nicol-bolas:m5:a6bde2309502",
+   "swap:nicol-bolas:m5:a7f726e6154d",
+   "swap:nicol-bolas:m5:ae85aa5908a2",
+   "swap:nicol-bolas:m5:b95bbecb197e",
+   "swap:nicol-bolas:m5:bba99efbc350",
+   "swap:nicol-bolas:m5:bbdfb8bef9bf",
+   "swap:nicol-bolas:m5:d026abd8b8d0",
+   "swap:nicol-bolas:m5:d31b752ea2a8",
+   "swap:nicol-bolas:m5:d504386d250f",
+   "swap:nicol-bolas:m5:d91a5d3755a3",
+   "swap:nicol-bolas:m5:d91f260c0658",
+   "swap:nicol-bolas:m5:db433b3210a5",
+   "swap:nicol-bolas:m5:dd45f09237e7",
+   "swap:nicol-bolas:m5:dd86e8456051",
+   "swap:nicol-bolas:m5:def5bcc9c61e",
+   "swap:nicol-bolas:m5:e36aadac6d1e",
+   "swap:nicol-bolas:m5:e6097387760b",
+   "swap:nicol-bolas:m5:e88956ee28c9",
+   "swap:nicol-bolas:m5:ebb0b7b2c461",
+   "swap:nicol-bolas:m5:f02e42a66d6f",
+   "swap:nicol-bolas:m5:f8b0f6602eb5",
+   "swap:nicol-bolas:m5:ff9cc84d14de"
+  ]
+ },
+ "schema_version": 1
+}

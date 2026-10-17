@@ -1,0 +1,2003 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Mishra__Eminent_One",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz"
+  ],
+  "list_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:mishra-eminent-one:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Advanced Reconstruction",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Advanced Reconstruction",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:e7c20ec10dcc",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Anger",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Anger",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:2cdd13ab182d",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Animate Artifact",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Animate Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:9446054a2d8f",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Armor Wars",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Armor Wars",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:624c3df9c5b8",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Artificer Class",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Artificer Class",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:4b3d4f6b7007",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Artist's Talent",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Artist's Talent",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:c8888fd7bdb2",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Ashnod's Altar",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Ashnod's Altar",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:c390b890839f",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Astral Dragon",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Astral Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:ffe6a693e998",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Ballad of the Black Flag",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Ballad of the Black Flag",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:f61609f68630",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Barbarian Class",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Barbarian Class",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:c3939b9f285b",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Bilbo, Thief in the Night",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Bilbo, Thief in the Night",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:7abaf5761c0e",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:43cdc5b1c4fd",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Blinkmoth Infusion",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Blinkmoth Infusion",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:c56317cf6e72",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Bloodthirsty Conqueror",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Bloodthirsty Conqueror",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:77edfb2237a0",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Bolas's Citadel",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Bolas's Citadel",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:7c05823df70f",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Brash Taunter",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Brash Taunter",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:a59e6006d7c8",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Breath of Fury",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Breath of Fury",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:181b168c230b",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Chakram Retriever",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Chakram Retriever",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:b2d1e1311652",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Cheering Fanatic",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Cheering Fanatic",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:3ae5cadc60dc",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Chromatic Star",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Chromatic Star",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:688e999c604b",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Chrome Dome",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Chrome Dome",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:b9501dd0c8a3",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Cinderhaze Wretch",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Cinderhaze Wretch",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:343a6c6f016b",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Cloud Key",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Cloud Key",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:266ba7c75040",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Court of Vantress",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Court of Vantress",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:da7e4862181d",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Crime Novelist",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Crime Novelist",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:fc9f5d4dc323",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Crystal Skull, Isu Spyglass",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Crystal Skull, Isu Spyglass",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:4908931c8c60",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Cyberdrive Awakener",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Cyberdrive Awakener",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:f39c86b50130",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Cyclops of Eternal Fury",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Cyclops of Eternal Fury",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:b75bc4a0ad52",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Deadeye Navigator",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Deadeye Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:06f5925530ed",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Delina, Wild Mage",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Delina, Wild Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:47bce2c9ea50",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Displacer Kitten",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Displacer Kitten",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:5987fa5164e4",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Dragonlord Kolaghan",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Dragonlord Kolaghan",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:9171ab1c04eb",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Dramatic Reversal",
+    "cut": "Force of Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Dramatic Reversal",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:9a687bab6e99",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Drivnod, Carnage Dominus",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Drivnod, Carnage Dominus",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:0622b95bccd3",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Dutiful Replicator",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Dutiful Replicator",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:65154f5a222c",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Echo Storm",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Echo Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:9e02ceb9002e",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Echoes of Eternity",
+    "cut": "Machine God's Effigy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Echoes of Eternity",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:c230e9498a71",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Efficient Construction",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Efficient Construction",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:536792a81e5b",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Experimental Frenzy",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Experimental Frenzy",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:f4e1fe0ac8be",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Exquisite Blood",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Exquisite Blood",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:2504a14283b8",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Fateful Discovery",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Fateful Discovery",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:fbfce9794779",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Fervor",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Fervor",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:f220a72591a9",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Forensic Gadgeteer",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Forensic Gadgeteer",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:6a696176e48a",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Fortune Teller's Talent",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Fortune Teller's Talent",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:39cab15eea1d",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Foundry Inspector",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Foundry Inspector",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:61cf3d4137af",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Freed from the Real",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Freed from the Real",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:acd0de1ebc54",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Frostcliff Siege",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Frostcliff Siege",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:a90ef636b002",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Future Sight",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Future Sight",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:ad6cae60d965",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Garna, the Bloodflame",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Garna, the Bloodflame",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:0883f7351833",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Geist of Saint Thalia",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Geist of Saint Thalia",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:2b37ecf83292",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Ghostly Flicker",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Ghostly Flicker",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:cbaa07035e97",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Gimli's Reckless Might",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Gimli's Reckless Might",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:d24ec880c851",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Glaring Fleshraker",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Glaring Fleshraker",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:2621e76f84c6",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Gran-Gran",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Gran-Gran",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:02f865757ca0",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Gwenom, Remorseless",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Gwenom, Remorseless",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:c2c72bfb8651",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Hammer of Purphoros",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Hammer of Purphoros",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:d795e2811258",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Helm of Awakening",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Helm of Awakening",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:8b471dbb793a",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Herald of Kozilek",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Herald of Kozilek",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:b2e6ca3ad189",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Lich's Relic",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:4d2e0c3a124e",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Imotekh the Stormlord",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Imotekh the Stormlord",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:11faf0f10d8a",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Intruder Alarm",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Intruder Alarm",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:e0c072111d48",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Iron Lad, Young Avenger",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Iron Lad, Young Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:4840b97958a2",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Jhoira's Familiar",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Jhoira's Familiar",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:41a63523d539",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Junk Diver",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Junk Diver",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:2a23d432bace",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Karn's Touch",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Karn's Touch",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:d56b042106c4",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Karn, Silver Golem",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Karn, Silver Golem",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:6f1e0f913590",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Karn, the Great Creator",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Karn, the Great Creator",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:f30d9bbfe065",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Katsumasa, the Animator",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Katsumasa, the Animator",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:af99bc596ece",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Krang, Utrom Warlord",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Krang, Utrom Warlord",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:654fc5e48e76",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Kratos, God of War",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Kratos, God of War",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:647b971fa454",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Kurkesh, Onakke Ancient",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Kurkesh, Onakke Ancient",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:2972e75460dc",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Lavaleaper",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Lavaleaper",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:e1480896d439",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Longshot, Rebel Bowman",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Longshot, Rebel Bowman",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:8007a0b09b93",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Madame Web, Clairvoyant",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Madame Web, Clairvoyant",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:638fc0341da8",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Magus of the Future",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Magus of the Future",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:07b42b55ffe6",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "March of the Machines",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=March of the Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:24aba6df67d4",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Mass Hysteria",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Mass Hysteria",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:0629fc73263c",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Mechanized Production",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Mechanized Production",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:b5286dc4ed57",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:7a6f515fc5ac",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Mirran Spy",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Mirran Spy",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:b3ed1295cc27",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Mirrodin Besieged",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Mirrodin Besieged",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:0269a4d46dc5",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Mirror Room // Fractured Realm",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Mirror Room // Fractured Realm",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:a6891a37e850",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:38641e122190",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Mirrorworks",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Mirrorworks",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:0a402a35f55a",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Mm'menon, the Right Hand",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Mm'menon, the Right Hand",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:865334efeeb3",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Molten Duplication",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Molten Duplication",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:6c698a5d392c",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Mortuary",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Mortuary",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:0dcec21e63c2",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Myr Welder",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Myr Welder",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:ab060161e933",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "One with the Multiverse",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=One with the Multiverse",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:1436ee241027",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Panharmonicon",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Panharmonicon",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:d9aa496e1175",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Pemmin's Aura",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Pemmin's Aura",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:f3b2c248c44b",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Planar Gate",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Planar Gate",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:c7cb566214ed",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Purphoros, Bronze-Blooded",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Purphoros, Bronze-Blooded",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:77799b72d3ca",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Rakdos, Lord of Riots",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Rakdos, Lord of Riots",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:810d9383bbaa",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Relm's Sketching",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Relm's Sketching",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:3cbe90fa1944",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Replication Specialist",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Replication Specialist",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:45a2e6ebb399",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Retreat to Coralhelm",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Retreat to Coralhelm",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:f0307964aa1f",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Rising of the Day",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Rising of the Day",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:9ee2d34feb96",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Roaming Throne",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Roaming Throne",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:3b5441946d89",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Roar of Resistance",
+    "cut": "Simulacrum Synthesizer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Roar of Resistance",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:a66b4d7bde33",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Rook Turret",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Rook Turret",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:899f319ee26d",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Sage of the Beyond",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Sage of the Beyond",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:3a4a467774f0",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Sai, Master Thopterist",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Sai, Master Thopterist",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:94736b47b552",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Sands of Time",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Sands of Time",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:f8dcb8131f28",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Sculpting Steel",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Sculpting Steel",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:85135190c190",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Semblance Anvil",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Semblance Anvil",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:04717b11c4df",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Sewer-veillance Cam",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Sewer-veillance Cam",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:488199078d23",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Shuri, Wakandan Inventor",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Shuri, Wakandan Inventor",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:2645046ac866",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Skilled Animator",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Skilled Animator",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:58358701e50e",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Skirge Familiar",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Skirge Familiar",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:447c4454206b",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Skyswimmer Koi",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Skyswimmer Koi",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:ceaf163a7a85",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Smellerbee, Rebel Fighter",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Smellerbee, Rebel Fighter",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:908abbfa973a",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Stolen Identity",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Stolen Identity",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:f987583a9424",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Stone Calendar",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Stone Calendar",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:9eda2aa8cd6c",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Stridehangar Automaton",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Stridehangar Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:8d9f54191dba",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Tannuk, Steadfast Second",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Tannuk, Steadfast Second",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:df247b6196dd",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Technomancer",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Technomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:9f5d95920588",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Tezzeret the Seeker",
+    "cut": "Gamble",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Tezzeret the Seeker",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:0a4ee5b9ddc4",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Tezzeret, Agent of Bolas",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Tezzeret, Agent of Bolas",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:1a967996a874",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Tezzeret, Betrayer of Flesh",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Tezzeret, Betrayer of Flesh",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:faf9674b3fb7",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "The Fire Crystal",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=The Fire Crystal",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:a6033b367f46",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "The Immortal Sun",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=The Immortal Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:2c94324d3026",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "The Lunar Whale",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=The Lunar Whale",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:cca130efe9e6",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "The Reality Chip",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=The Reality Chip",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:a25802ea2405",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "The Sibsig Ceremony",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=The Sibsig Ceremony",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:4082b8ce9d68",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "The Underworld Cookbook",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=The Underworld Cookbook",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:0f5a5b6027de",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "The Vision and Scarlet Witch",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=The Vision and Scarlet Witch",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:02fc77f12e8e",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Thopter Engineer",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Thopter Engineer",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:68a9790994d3",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Thopter Squadron",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Thopter Squadron",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:fd1b32603401",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Thornbite Staff",
+    "cut": "Lich's Relic",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Thornbite Staff",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:b11b8d3e57fc",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Three Steps Ahead",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Three Steps Ahead",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:831d0c4ee1e0",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Tidal Control",
+    "cut": "Force of Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Tidal Control",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:bcd34516f035",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Lich's Relic",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:d075f794bc2c",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Toymaker",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Toymaker",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:c106f7257b4c",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Transplant Theorist",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Transplant Theorist",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:750062eff51c",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Trazyn the Infinite",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Trazyn the Infinite",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:13eb35508b4d",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Treasonous Ogre",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Treasonous Ogre",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:cc856ff2510f",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Tuktuk Rubblefort",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Tuktuk Rubblefort",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:d9a77926bd51",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Ugin's Nexus",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Ugin's Nexus",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:a1786aedadad",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Ugin, the Ineffable",
+    "cut": "Lich's Relic",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Ugin, the Ineffable",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:00a19936d945",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Ultron, Artificial Malevolence",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Ultron, Artificial Malevolence",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:f0327e8f516c",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Umbral Mantle",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Umbral Mantle",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:97eb23873743",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Unstoppable Plan",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Unstoppable Plan",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:a031411a3a77",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Urabrask the Hidden",
+    "cut": "Arcum Dagsson",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Urabrask the Hidden",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:efd8880b233a",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Valeria Richards, Precocious",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Valeria Richards, Precocious",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:91e794d4969f",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Virtue of Knowledge // Vantress Visions",
+    "cut": "Machine God's Effigy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Virtue of Knowledge // Vantress Visions",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:18d2f67fba79",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Voltaic Construct",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Voltaic Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:65154fa6c0d0",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Whirler Virtuoso",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Whirler Virtuoso",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:feee3e075ee1",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Xenic Poltergeist",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Xenic Poltergeist",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:49ee032591ae",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   },
+   {
+    "add": "Yotia Declares War",
+    "cut": "Lich's Relic",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#card=Yotia Declares War",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:62282dbb5645",
+     "blueprint:data/grixis/blueprints/mishra-eminent-one.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Mishra__Eminent_One",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz"
+  ],
+  "list_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:mishra-eminent-one:performance:v1",
+  "recommendations": [
+   {
+    "add": "Basalt Monolith",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:3d84d2889ffb",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:23d7a3005d4edd35"
+    ]
+   },
+   {
+    "add": "Commander's Sphere",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:fdb621f132db",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:bb7e982bf936b9ed"
+    ]
+   },
+   {
+    "add": "Commander's Sphere",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:2e0e56fc5f2b",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:b097cd4a85cc09b3"
+    ]
+   },
+   {
+    "add": "Cursed Mirror",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:4d0be29e9cbe",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:6f1db762f35b5827"
+    ]
+   },
+   {
+    "add": "Darkwater Catacombs",
+    "cut": "Academy Ruins",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:7a051341367f",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:05fa228fe3935c70"
+    ]
+   },
+   {
+    "add": "Darkwater Catacombs",
+    "cut": "Flooded Strand",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:d0e061f02189",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:c2ddf93ad743df65"
+    ]
+   },
+   {
+    "add": "Deadly Dispute",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:e130e040d0ed",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:8b2dd11be9b49470"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:8069df9e7aa8",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:839786ea89b72456"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:e02e9203f80d",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:73293081bc43f95f"
+    ]
+   },
+   {
+    "add": "Fabricate",
+    "cut": "Gamble",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:a7a324a98efd",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:a592e7ad70c0306b"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:85c36f826229",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:1f48eeaa5963b9b6"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:220a7814eead",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:10de720e460fe864"
+    ]
+   },
+   {
+    "add": "Hedron Archive",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:a929afcf32cf",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:d8540dece5e92db6"
+    ]
+   },
+   {
+    "add": "Hedron Archive",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:ea847258ceaf",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:829dc264bace7831"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:179caea010fc",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:f21175fdff6bcea5"
+    ]
+   },
+   {
+    "add": "Liquimetal Torque",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:b77f62b37c6e",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:5b30c82c9d98f3b5"
+    ]
+   },
+   {
+    "add": "Liquimetal Torque",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:dc0b95933e52",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:1ad88fcae48aca87"
+    ]
+   },
+   {
+    "add": "Mind Stone",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:ab7fc5859c95",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:2f2e5eb89716bb20"
+    ]
+   },
+   {
+    "add": "Mind Stone",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:3d11b545a786",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:77970e57e76838d0"
+    ]
+   },
+   {
+    "add": "Prophetic Prism",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:d06c93f14cc6",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:16095087e5a097a4"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:1a35f5aa4d00",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:7065668a42d5325e"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:cfdf62422fa0",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:45163c6fb97778d2"
+    ]
+   },
+   {
+    "add": "Shadowblood Ridge",
+    "cut": "Flooded Strand",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:f3bd57542d72",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:9e24c789a424ae69"
+    ]
+   },
+   {
+    "add": "Thirst for Knowledge",
+    "cut": "Esoteric Duplicator",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:53dedc8e552f",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:6bf0194ace694636"
+    ]
+   },
+   {
+    "add": "Thirst for Knowledge",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:a2852299cfc3",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:9d28c9204c039484"
+    ]
+   },
+   {
+    "add": "Thoughtcast",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:cdc6c98bfd23",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:37911b2c672aaf3a"
+    ]
+   },
+   {
+    "add": "Thran Dynamo",
+    "cut": "Chrome Mox",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:bfffcd1d6b74",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:acce038d0ce6c392"
+    ]
+   },
+   {
+    "add": "Thran Dynamo",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=swap:mishra-eminent-one:m5:f07a90d79ee1",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz#id=test:mishra-eminent-one:goldfish:c88d411e22bc504c"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:mishra-eminent-one:m5:00a19936d945",
+   "swap:mishra-eminent-one:m5:0269a4d46dc5",
+   "swap:mishra-eminent-one:m5:02f865757ca0",
+   "swap:mishra-eminent-one:m5:02fc77f12e8e",
+   "swap:mishra-eminent-one:m5:04717b11c4df",
+   "swap:mishra-eminent-one:m5:0622b95bccd3",
+   "swap:mishra-eminent-one:m5:0629fc73263c",
+   "swap:mishra-eminent-one:m5:06f5925530ed",
+   "swap:mishra-eminent-one:m5:07b42b55ffe6",
+   "swap:mishra-eminent-one:m5:0883f7351833",
+   "swap:mishra-eminent-one:m5:0a402a35f55a",
+   "swap:mishra-eminent-one:m5:0a4ee5b9ddc4",
+   "swap:mishra-eminent-one:m5:0dcec21e63c2",
+   "swap:mishra-eminent-one:m5:0f5a5b6027de",
+   "swap:mishra-eminent-one:m5:11faf0f10d8a",
+   "swap:mishra-eminent-one:m5:13eb35508b4d",
+   "swap:mishra-eminent-one:m5:1436ee241027",
+   "swap:mishra-eminent-one:m5:179caea010fc",
+   "swap:mishra-eminent-one:m5:181b168c230b",
+   "swap:mishra-eminent-one:m5:18d2f67fba79",
+   "swap:mishra-eminent-one:m5:1a35f5aa4d00",
+   "swap:mishra-eminent-one:m5:1a967996a874",
+   "swap:mishra-eminent-one:m5:220a7814eead",
+   "swap:mishra-eminent-one:m5:24aba6df67d4",
+   "swap:mishra-eminent-one:m5:2504a14283b8",
+   "swap:mishra-eminent-one:m5:2621e76f84c6",
+   "swap:mishra-eminent-one:m5:2645046ac866",
+   "swap:mishra-eminent-one:m5:266ba7c75040",
+   "swap:mishra-eminent-one:m5:2972e75460dc",
+   "swap:mishra-eminent-one:m5:2a23d432bace",
+   "swap:mishra-eminent-one:m5:2b37ecf83292",
+   "swap:mishra-eminent-one:m5:2c94324d3026",
+   "swap:mishra-eminent-one:m5:2cdd13ab182d",
+   "swap:mishra-eminent-one:m5:2e0e56fc5f2b",
+   "swap:mishra-eminent-one:m5:343a6c6f016b",
+   "swap:mishra-eminent-one:m5:38641e122190",
+   "swap:mishra-eminent-one:m5:39cab15eea1d",
+   "swap:mishra-eminent-one:m5:3a4a467774f0",
+   "swap:mishra-eminent-one:m5:3ae5cadc60dc",
+   "swap:mishra-eminent-one:m5:3b5441946d89",
+   "swap:mishra-eminent-one:m5:3cbe90fa1944",
+   "swap:mishra-eminent-one:m5:3d11b545a786",
+   "swap:mishra-eminent-one:m5:3d84d2889ffb",
+   "swap:mishra-eminent-one:m5:4082b8ce9d68",
+   "swap:mishra-eminent-one:m5:41a63523d539",
+   "swap:mishra-eminent-one:m5:43cdc5b1c4fd",
+   "swap:mishra-eminent-one:m5:447c4454206b",
+   "swap:mishra-eminent-one:m5:45a2e6ebb399",
+   "swap:mishra-eminent-one:m5:47bce2c9ea50",
+   "swap:mishra-eminent-one:m5:4840b97958a2",
+   "swap:mishra-eminent-one:m5:488199078d23",
+   "swap:mishra-eminent-one:m5:4908931c8c60",
+   "swap:mishra-eminent-one:m5:49ee032591ae",
+   "swap:mishra-eminent-one:m5:4b3d4f6b7007",
+   "swap:mishra-eminent-one:m5:4d0be29e9cbe",
+   "swap:mishra-eminent-one:m5:4d2e0c3a124e",
+   "swap:mishra-eminent-one:m5:536792a81e5b",
+   "swap:mishra-eminent-one:m5:53dedc8e552f",
+   "swap:mishra-eminent-one:m5:58358701e50e",
+   "swap:mishra-eminent-one:m5:5987fa5164e4",
+   "swap:mishra-eminent-one:m5:61cf3d4137af",
+   "swap:mishra-eminent-one:m5:62282dbb5645",
+   "swap:mishra-eminent-one:m5:624c3df9c5b8",
+   "swap:mishra-eminent-one:m5:638fc0341da8",
+   "swap:mishra-eminent-one:m5:647b971fa454",
+   "swap:mishra-eminent-one:m5:65154f5a222c",
+   "swap:mishra-eminent-one:m5:65154fa6c0d0",
+   "swap:mishra-eminent-one:m5:654fc5e48e76",
+   "swap:mishra-eminent-one:m5:688e999c604b",
+   "swap:mishra-eminent-one:m5:68a9790994d3",
+   "swap:mishra-eminent-one:m5:6a696176e48a",
+   "swap:mishra-eminent-one:m5:6c698a5d392c",
+   "swap:mishra-eminent-one:m5:6f1e0f913590",
+   "swap:mishra-eminent-one:m5:750062eff51c",
+   "swap:mishra-eminent-one:m5:77799b72d3ca",
+   "swap:mishra-eminent-one:m5:77edfb2237a0",
+   "swap:mishra-eminent-one:m5:7a051341367f",
+   "swap:mishra-eminent-one:m5:7a6f515fc5ac",
+   "swap:mishra-eminent-one:m5:7abaf5761c0e",
+   "swap:mishra-eminent-one:m5:7c05823df70f",
+   "swap:mishra-eminent-one:m5:8007a0b09b93",
+   "swap:mishra-eminent-one:m5:8069df9e7aa8",
+   "swap:mishra-eminent-one:m5:810d9383bbaa",
+   "swap:mishra-eminent-one:m5:831d0c4ee1e0",
+   "swap:mishra-eminent-one:m5:85135190c190",
+   "swap:mishra-eminent-one:m5:85c36f826229",
+   "swap:mishra-eminent-one:m5:865334efeeb3",
+   "swap:mishra-eminent-one:m5:899f319ee26d",
+   "swap:mishra-eminent-one:m5:8b471dbb793a",
+   "swap:mishra-eminent-one:m5:8d9f54191dba",
+   "swap:mishra-eminent-one:m5:908abbfa973a",
+   "swap:mishra-eminent-one:m5:9171ab1c04eb",
+   "swap:mishra-eminent-one:m5:91e794d4969f",
+   "swap:mishra-eminent-one:m5:9446054a2d8f",
+   "swap:mishra-eminent-one:m5:94736b47b552",
+   "swap:mishra-eminent-one:m5:97eb23873743",
+   "swap:mishra-eminent-one:m5:9a687bab6e99",
+   "swap:mishra-eminent-one:m5:9e02ceb9002e",
+   "swap:mishra-eminent-one:m5:9eda2aa8cd6c",
+   "swap:mishra-eminent-one:m5:9ee2d34feb96",
+   "swap:mishra-eminent-one:m5:9f5d95920588",
+   "swap:mishra-eminent-one:m5:a031411a3a77",
+   "swap:mishra-eminent-one:m5:a1786aedadad",
+   "swap:mishra-eminent-one:m5:a25802ea2405",
+   "swap:mishra-eminent-one:m5:a2852299cfc3",
+   "swap:mishra-eminent-one:m5:a59e6006d7c8",
+   "swap:mishra-eminent-one:m5:a6033b367f46",
+   "swap:mishra-eminent-one:m5:a66b4d7bde33",
+   "swap:mishra-eminent-one:m5:a6891a37e850",
+   "swap:mishra-eminent-one:m5:a7a324a98efd",
+   "swap:mishra-eminent-one:m5:a90ef636b002",
+   "swap:mishra-eminent-one:m5:a929afcf32cf",
+   "swap:mishra-eminent-one:m5:ab060161e933",
+   "swap:mishra-eminent-one:m5:ab7fc5859c95",
+   "swap:mishra-eminent-one:m5:acd0de1ebc54",
+   "swap:mishra-eminent-one:m5:ad6cae60d965",
+   "swap:mishra-eminent-one:m5:af99bc596ece",
+   "swap:mishra-eminent-one:m5:b11b8d3e57fc",
+   "swap:mishra-eminent-one:m5:b2d1e1311652",
+   "swap:mishra-eminent-one:m5:b2e6ca3ad189",
+   "swap:mishra-eminent-one:m5:b3ed1295cc27",
+   "swap:mishra-eminent-one:m5:b5286dc4ed57",
+   "swap:mishra-eminent-one:m5:b75bc4a0ad52",
+   "swap:mishra-eminent-one:m5:b77f62b37c6e",
+   "swap:mishra-eminent-one:m5:b9501dd0c8a3",
+   "swap:mishra-eminent-one:m5:bcd34516f035",
+   "swap:mishra-eminent-one:m5:bfffcd1d6b74",
+   "swap:mishra-eminent-one:m5:c106f7257b4c",
+   "swap:mishra-eminent-one:m5:c230e9498a71",
+   "swap:mishra-eminent-one:m5:c2c72bfb8651",
+   "swap:mishra-eminent-one:m5:c390b890839f",
+   "swap:mishra-eminent-one:m5:c3939b9f285b",
+   "swap:mishra-eminent-one:m5:c56317cf6e72",
+   "swap:mishra-eminent-one:m5:c7cb566214ed",
+   "swap:mishra-eminent-one:m5:c8888fd7bdb2",
+   "swap:mishra-eminent-one:m5:cbaa07035e97",
+   "swap:mishra-eminent-one:m5:cc856ff2510f",
+   "swap:mishra-eminent-one:m5:cca130efe9e6",
+   "swap:mishra-eminent-one:m5:cdc6c98bfd23",
+   "swap:mishra-eminent-one:m5:ceaf163a7a85",
+   "swap:mishra-eminent-one:m5:cfdf62422fa0",
+   "swap:mishra-eminent-one:m5:d06c93f14cc6",
+   "swap:mishra-eminent-one:m5:d075f794bc2c",
+   "swap:mishra-eminent-one:m5:d0e061f02189",
+   "swap:mishra-eminent-one:m5:d24ec880c851",
+   "swap:mishra-eminent-one:m5:d56b042106c4",
+   "swap:mishra-eminent-one:m5:d795e2811258",
+   "swap:mishra-eminent-one:m5:d9a77926bd51",
+   "swap:mishra-eminent-one:m5:d9aa496e1175",
+   "swap:mishra-eminent-one:m5:da7e4862181d",
+   "swap:mishra-eminent-one:m5:dc0b95933e52",
+   "swap:mishra-eminent-one:m5:df247b6196dd",
+   "swap:mishra-eminent-one:m5:e02e9203f80d",
+   "swap:mishra-eminent-one:m5:e0c072111d48",
+   "swap:mishra-eminent-one:m5:e130e040d0ed",
+   "swap:mishra-eminent-one:m5:e1480896d439",
+   "swap:mishra-eminent-one:m5:e7c20ec10dcc",
+   "swap:mishra-eminent-one:m5:ea847258ceaf",
+   "swap:mishra-eminent-one:m5:efd8880b233a",
+   "swap:mishra-eminent-one:m5:f0307964aa1f",
+   "swap:mishra-eminent-one:m5:f0327e8f516c",
+   "swap:mishra-eminent-one:m5:f07a90d79ee1",
+   "swap:mishra-eminent-one:m5:f220a72591a9",
+   "swap:mishra-eminent-one:m5:f30d9bbfe065",
+   "swap:mishra-eminent-one:m5:f39c86b50130",
+   "swap:mishra-eminent-one:m5:f3b2c248c44b",
+   "swap:mishra-eminent-one:m5:f3bd57542d72",
+   "swap:mishra-eminent-one:m5:f4e1fe0ac8be",
+   "swap:mishra-eminent-one:m5:f61609f68630",
+   "swap:mishra-eminent-one:m5:f8dcb8131f28",
+   "swap:mishra-eminent-one:m5:f987583a9424",
+   "swap:mishra-eminent-one:m5:faf9674b3fb7",
+   "swap:mishra-eminent-one:m5:fbfce9794779",
+   "swap:mishra-eminent-one:m5:fc9f5d4dc323",
+   "swap:mishra-eminent-one:m5:fd1b32603401",
+   "swap:mishra-eminent-one:m5:fdb621f132db",
+   "swap:mishra-eminent-one:m5:feee3e075ee1",
+   "swap:mishra-eminent-one:m5:ffe6a693e998"
+  ],
+  "disagreements": [
+   "swap:mishra-eminent-one:m5:00a19936d945",
+   "swap:mishra-eminent-one:m5:0269a4d46dc5",
+   "swap:mishra-eminent-one:m5:02f865757ca0",
+   "swap:mishra-eminent-one:m5:02fc77f12e8e",
+   "swap:mishra-eminent-one:m5:04717b11c4df",
+   "swap:mishra-eminent-one:m5:0622b95bccd3",
+   "swap:mishra-eminent-one:m5:0629fc73263c",
+   "swap:mishra-eminent-one:m5:06f5925530ed",
+   "swap:mishra-eminent-one:m5:07b42b55ffe6",
+   "swap:mishra-eminent-one:m5:0883f7351833",
+   "swap:mishra-eminent-one:m5:0a402a35f55a",
+   "swap:mishra-eminent-one:m5:0a4ee5b9ddc4",
+   "swap:mishra-eminent-one:m5:0dcec21e63c2",
+   "swap:mishra-eminent-one:m5:0f5a5b6027de",
+   "swap:mishra-eminent-one:m5:11faf0f10d8a",
+   "swap:mishra-eminent-one:m5:13eb35508b4d",
+   "swap:mishra-eminent-one:m5:1436ee241027",
+   "swap:mishra-eminent-one:m5:179caea010fc",
+   "swap:mishra-eminent-one:m5:181b168c230b",
+   "swap:mishra-eminent-one:m5:18d2f67fba79",
+   "swap:mishra-eminent-one:m5:1a35f5aa4d00",
+   "swap:mishra-eminent-one:m5:1a967996a874",
+   "swap:mishra-eminent-one:m5:220a7814eead",
+   "swap:mishra-eminent-one:m5:24aba6df67d4",
+   "swap:mishra-eminent-one:m5:2504a14283b8",
+   "swap:mishra-eminent-one:m5:2621e76f84c6",
+   "swap:mishra-eminent-one:m5:2645046ac866",
+   "swap:mishra-eminent-one:m5:266ba7c75040",
+   "swap:mishra-eminent-one:m5:2972e75460dc",
+   "swap:mishra-eminent-one:m5:2a23d432bace",
+   "swap:mishra-eminent-one:m5:2b37ecf83292",
+   "swap:mishra-eminent-one:m5:2c94324d3026",
+   "swap:mishra-eminent-one:m5:2cdd13ab182d",
+   "swap:mishra-eminent-one:m5:2e0e56fc5f2b",
+   "swap:mishra-eminent-one:m5:343a6c6f016b",
+   "swap:mishra-eminent-one:m5:38641e122190",
+   "swap:mishra-eminent-one:m5:39cab15eea1d",
+   "swap:mishra-eminent-one:m5:3a4a467774f0",
+   "swap:mishra-eminent-one:m5:3ae5cadc60dc",
+   "swap:mishra-eminent-one:m5:3b5441946d89",
+   "swap:mishra-eminent-one:m5:3cbe90fa1944",
+   "swap:mishra-eminent-one:m5:3d11b545a786",
+   "swap:mishra-eminent-one:m5:3d84d2889ffb",
+   "swap:mishra-eminent-one:m5:4082b8ce9d68",
+   "swap:mishra-eminent-one:m5:41a63523d539",
+   "swap:mishra-eminent-one:m5:43cdc5b1c4fd",
+   "swap:mishra-eminent-one:m5:447c4454206b",
+   "swap:mishra-eminent-one:m5:45a2e6ebb399",
+   "swap:mishra-eminent-one:m5:47bce2c9ea50",
+   "swap:mishra-eminent-one:m5:4840b97958a2",
+   "swap:mishra-eminent-one:m5:488199078d23",
+   "swap:mishra-eminent-one:m5:4908931c8c60",
+   "swap:mishra-eminent-one:m5:49ee032591ae",
+   "swap:mishra-eminent-one:m5:4b3d4f6b7007",
+   "swap:mishra-eminent-one:m5:4d0be29e9cbe",
+   "swap:mishra-eminent-one:m5:4d2e0c3a124e",
+   "swap:mishra-eminent-one:m5:536792a81e5b",
+   "swap:mishra-eminent-one:m5:53dedc8e552f",
+   "swap:mishra-eminent-one:m5:58358701e50e",
+   "swap:mishra-eminent-one:m5:5987fa5164e4",
+   "swap:mishra-eminent-one:m5:61cf3d4137af",
+   "swap:mishra-eminent-one:m5:62282dbb5645",
+   "swap:mishra-eminent-one:m5:624c3df9c5b8",
+   "swap:mishra-eminent-one:m5:638fc0341da8",
+   "swap:mishra-eminent-one:m5:647b971fa454",
+   "swap:mishra-eminent-one:m5:65154f5a222c",
+   "swap:mishra-eminent-one:m5:65154fa6c0d0",
+   "swap:mishra-eminent-one:m5:654fc5e48e76",
+   "swap:mishra-eminent-one:m5:688e999c604b",
+   "swap:mishra-eminent-one:m5:68a9790994d3",
+   "swap:mishra-eminent-one:m5:6a696176e48a",
+   "swap:mishra-eminent-one:m5:6c698a5d392c",
+   "swap:mishra-eminent-one:m5:6f1e0f913590",
+   "swap:mishra-eminent-one:m5:750062eff51c",
+   "swap:mishra-eminent-one:m5:77799b72d3ca",
+   "swap:mishra-eminent-one:m5:77edfb2237a0",
+   "swap:mishra-eminent-one:m5:7a051341367f",
+   "swap:mishra-eminent-one:m5:7a6f515fc5ac",
+   "swap:mishra-eminent-one:m5:7abaf5761c0e",
+   "swap:mishra-eminent-one:m5:7c05823df70f",
+   "swap:mishra-eminent-one:m5:8007a0b09b93",
+   "swap:mishra-eminent-one:m5:8069df9e7aa8",
+   "swap:mishra-eminent-one:m5:810d9383bbaa",
+   "swap:mishra-eminent-one:m5:831d0c4ee1e0",
+   "swap:mishra-eminent-one:m5:85135190c190",
+   "swap:mishra-eminent-one:m5:85c36f826229",
+   "swap:mishra-eminent-one:m5:865334efeeb3",
+   "swap:mishra-eminent-one:m5:899f319ee26d",
+   "swap:mishra-eminent-one:m5:8b471dbb793a",
+   "swap:mishra-eminent-one:m5:8d9f54191dba",
+   "swap:mishra-eminent-one:m5:908abbfa973a",
+   "swap:mishra-eminent-one:m5:9171ab1c04eb",
+   "swap:mishra-eminent-one:m5:91e794d4969f",
+   "swap:mishra-eminent-one:m5:9446054a2d8f",
+   "swap:mishra-eminent-one:m5:94736b47b552",
+   "swap:mishra-eminent-one:m5:97eb23873743",
+   "swap:mishra-eminent-one:m5:9a687bab6e99",
+   "swap:mishra-eminent-one:m5:9e02ceb9002e",
+   "swap:mishra-eminent-one:m5:9eda2aa8cd6c",
+   "swap:mishra-eminent-one:m5:9ee2d34feb96",
+   "swap:mishra-eminent-one:m5:9f5d95920588",
+   "swap:mishra-eminent-one:m5:a031411a3a77",
+   "swap:mishra-eminent-one:m5:a1786aedadad",
+   "swap:mishra-eminent-one:m5:a25802ea2405",
+   "swap:mishra-eminent-one:m5:a2852299cfc3",
+   "swap:mishra-eminent-one:m5:a59e6006d7c8",
+   "swap:mishra-eminent-one:m5:a6033b367f46",
+   "swap:mishra-eminent-one:m5:a66b4d7bde33",
+   "swap:mishra-eminent-one:m5:a6891a37e850",
+   "swap:mishra-eminent-one:m5:a7a324a98efd",
+   "swap:mishra-eminent-one:m5:a90ef636b002",
+   "swap:mishra-eminent-one:m5:a929afcf32cf",
+   "swap:mishra-eminent-one:m5:ab060161e933",
+   "swap:mishra-eminent-one:m5:ab7fc5859c95",
+   "swap:mishra-eminent-one:m5:acd0de1ebc54",
+   "swap:mishra-eminent-one:m5:ad6cae60d965",
+   "swap:mishra-eminent-one:m5:af99bc596ece",
+   "swap:mishra-eminent-one:m5:b11b8d3e57fc",
+   "swap:mishra-eminent-one:m5:b2d1e1311652",
+   "swap:mishra-eminent-one:m5:b2e6ca3ad189",
+   "swap:mishra-eminent-one:m5:b3ed1295cc27",
+   "swap:mishra-eminent-one:m5:b5286dc4ed57",
+   "swap:mishra-eminent-one:m5:b75bc4a0ad52",
+   "swap:mishra-eminent-one:m5:b77f62b37c6e",
+   "swap:mishra-eminent-one:m5:b9501dd0c8a3",
+   "swap:mishra-eminent-one:m5:bcd34516f035",
+   "swap:mishra-eminent-one:m5:bfffcd1d6b74",
+   "swap:mishra-eminent-one:m5:c106f7257b4c",
+   "swap:mishra-eminent-one:m5:c230e9498a71",
+   "swap:mishra-eminent-one:m5:c2c72bfb8651",
+   "swap:mishra-eminent-one:m5:c390b890839f",
+   "swap:mishra-eminent-one:m5:c3939b9f285b",
+   "swap:mishra-eminent-one:m5:c56317cf6e72",
+   "swap:mishra-eminent-one:m5:c7cb566214ed",
+   "swap:mishra-eminent-one:m5:c8888fd7bdb2",
+   "swap:mishra-eminent-one:m5:cbaa07035e97",
+   "swap:mishra-eminent-one:m5:cc856ff2510f",
+   "swap:mishra-eminent-one:m5:cca130efe9e6",
+   "swap:mishra-eminent-one:m5:cdc6c98bfd23",
+   "swap:mishra-eminent-one:m5:ceaf163a7a85",
+   "swap:mishra-eminent-one:m5:cfdf62422fa0",
+   "swap:mishra-eminent-one:m5:d06c93f14cc6",
+   "swap:mishra-eminent-one:m5:d075f794bc2c",
+   "swap:mishra-eminent-one:m5:d0e061f02189",
+   "swap:mishra-eminent-one:m5:d24ec880c851",
+   "swap:mishra-eminent-one:m5:d56b042106c4",
+   "swap:mishra-eminent-one:m5:d795e2811258",
+   "swap:mishra-eminent-one:m5:d9a77926bd51",
+   "swap:mishra-eminent-one:m5:d9aa496e1175",
+   "swap:mishra-eminent-one:m5:da7e4862181d",
+   "swap:mishra-eminent-one:m5:dc0b95933e52",
+   "swap:mishra-eminent-one:m5:df247b6196dd",
+   "swap:mishra-eminent-one:m5:e02e9203f80d",
+   "swap:mishra-eminent-one:m5:e0c072111d48",
+   "swap:mishra-eminent-one:m5:e130e040d0ed",
+   "swap:mishra-eminent-one:m5:e1480896d439",
+   "swap:mishra-eminent-one:m5:e7c20ec10dcc",
+   "swap:mishra-eminent-one:m5:ea847258ceaf",
+   "swap:mishra-eminent-one:m5:efd8880b233a",
+   "swap:mishra-eminent-one:m5:f0307964aa1f",
+   "swap:mishra-eminent-one:m5:f0327e8f516c",
+   "swap:mishra-eminent-one:m5:f07a90d79ee1",
+   "swap:mishra-eminent-one:m5:f220a72591a9",
+   "swap:mishra-eminent-one:m5:f30d9bbfe065",
+   "swap:mishra-eminent-one:m5:f39c86b50130",
+   "swap:mishra-eminent-one:m5:f3b2c248c44b",
+   "swap:mishra-eminent-one:m5:f3bd57542d72",
+   "swap:mishra-eminent-one:m5:f4e1fe0ac8be",
+   "swap:mishra-eminent-one:m5:f61609f68630",
+   "swap:mishra-eminent-one:m5:f8dcb8131f28",
+   "swap:mishra-eminent-one:m5:f987583a9424",
+   "swap:mishra-eminent-one:m5:faf9674b3fb7",
+   "swap:mishra-eminent-one:m5:fbfce9794779",
+   "swap:mishra-eminent-one:m5:fc9f5d4dc323",
+   "swap:mishra-eminent-one:m5:fd1b32603401",
+   "swap:mishra-eminent-one:m5:fdb621f132db",
+   "swap:mishra-eminent-one:m5:feee3e075ee1",
+   "swap:mishra-eminent-one:m5:ffe6a693e998"
+  ]
+ },
+ "schema_version": 1
+}

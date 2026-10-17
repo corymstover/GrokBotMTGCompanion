@@ -1,0 +1,969 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Gwendlyn_Di_Corci",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz"
+  ],
+  "list_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:gwendlyn-di-corci:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Ambassador Laquatus",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:b49904cd7f97",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Opposition Agent",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Ambassador Laquatus",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:c1ca5d6fb50e",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Aphetto Alchemist",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Aphetto Alchemist",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:b9bbc3c3e7ae",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Aphetto Alchemist",
+    "cut": "Opposition Agent",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Aphetto Alchemist",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:912805af858d",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Brain Freeze",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Brain Freeze",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:07fd0141e3a4",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Breaking // Entering",
+    "cut": "Timetwister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Breaking // Entering",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:fe04f0919ba0",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Breaking // Entering",
+    "cut": "Yawgmoth's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Breaking // Entering",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:8af7e2ff6a47",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:6d72cbd283a6",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Opposition Agent",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:c3ce7aa60785",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:51b883fed445",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Opposition Agent",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:52134459cf05",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:8abfa1cc5ee4",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Opposition Agent",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:fb5475a7f078",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Emry, Lurker of the Loch",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Emry, Lurker of the Loch",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:14d5ebfe578a",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Emry, Lurker of the Loch",
+    "cut": "Opposition Agent",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Emry, Lurker of the Loch",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:d51737ae9392",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "False Memories",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=False Memories",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:cb8474c2dfea",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Glimpse the Unthinkable",
+    "cut": "Timetwister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Glimpse the Unthinkable",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:b01afabb252e",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Glimpse the Unthinkable",
+    "cut": "Yawgmoth's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Glimpse the Unthinkable",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:ed7f30bc8706",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "Anvil of Bogardan",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Grinding Station",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:ecbc9c29a52b",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Tergrid, God of Fright // Tergrid's Lantern",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:b9e74eed3a81",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Infinite Reflection",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Infinite Reflection",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:4d28ed676649",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Jeska's Will",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Jeska's Will",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:503a70f91531",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Kelpie Guide",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Kelpie Guide",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:de513f838547",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Kelpie Guide",
+    "cut": "Opposition Agent",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Kelpie Guide",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:13dec9d38b31",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Lich",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:40789741fba2",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Lich",
+    "cut": "Timetwister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:b20730809fbd",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Lich's Mastery",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Lich's Mastery",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:9193fe1c1579",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Lich's Mastery",
+    "cut": "Timetwister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Lich's Mastery",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:6d6cd17ffa7b",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Marina Vendrell's Grimoire",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Marina Vendrell's Grimoire",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:94667769c56e",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Marina Vendrell's Grimoire",
+    "cut": "Timetwister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Marina Vendrell's Grimoire",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:35f120e055e2",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "Anvil of Bogardan",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:27dc8ff09165",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Mindcrank",
+    "cut": "Anvil of Bogardan",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Mindcrank",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:9629af387b80",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Nefarious Lich",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Nefarious Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:e70e01d532b1",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Nefarious Lich",
+    "cut": "Timetwister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Nefarious Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:b8b32e76fea1",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Omen Hawker",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Omen Hawker",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:add90af50788",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Path of the Pyromancer",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Path of the Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:376f2b673b46",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Path of the Pyromancer",
+    "cut": "Waste Not",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Path of the Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:027198403e62",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:2b11482da86f",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Timetwister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:7a7f29958f11",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Requiem Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:5223a4c2a2f9",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Timetwister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Requiem Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:691e7c4e8e36",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Rimewind Taskmage",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Rimewind Taskmage",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:6d248ea6bc6c",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Rimewind Taskmage",
+    "cut": "Opposition Agent",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Rimewind Taskmage",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:2a49e6115481",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Spawnsire of Ulamog",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Spawnsire of Ulamog",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:a1150430cfc6",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "The Master of Lake-town",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=The Master of Lake-town",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:57038fba3231",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "The Master of Lake-town",
+    "cut": "Timetwister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=The Master of Lake-town",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:c8e4771d292c",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Tergrid, God of Fright // Tergrid's Lantern",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:ac9d43c9b742",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Tidewater Minion",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Tidewater Minion",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:b62596758324",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Tidewater Minion",
+    "cut": "Opposition Agent",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Tidewater Minion",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:73ad98bd7031",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Unctus, Grand Metatect",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Unctus, Grand Metatect",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:219ee6a0cd42",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   },
+   {
+    "add": "Unctus, Grand Metatect",
+    "cut": "Timetwister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#card=Unctus, Grand Metatect",
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:10ef46762ffa",
+     "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Gwendlyn_Di_Corci",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz"
+  ],
+  "list_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:gwendlyn-di-corci:performance:v1",
+  "recommendations": [
+   {
+    "add": "Aphetto Alchemist",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:b9bbc3c3e7ae",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:25e34bb43a4f2f3b"
+    ]
+   },
+   {
+    "add": "Aphetto Alchemist",
+    "cut": "Opposition Agent",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:912805af858d",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:9fad2da8f895b315"
+    ]
+   },
+   {
+    "add": "Brainstorm",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:be56e554ec12",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:304c6bfc2930be96"
+    ]
+   },
+   {
+    "add": "Burning Inquiry",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:840e55906639",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:5739a14d1a5bae4b"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:6d72cbd283a6",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:6a7960a3221ebb79"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Opposition Agent",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:c3ce7aa60785",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:8980189f57e8ba4b"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:51b883fed445",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:a5ea5cd9ada8285d"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Opposition Agent",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:52134459cf05",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:4fee894323948c2a"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:8abfa1cc5ee4",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:5c67b8570c0b3a4e"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Opposition Agent",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:fb5475a7f078",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:301e1cd7824a43cd"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:a1e320f7cf52",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:0d730780b37162db"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:950587f5a60d",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:32d98d8145aeceb1"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:cf19d6662638",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:7655fc7ba9bc6a31"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Tergrid, God of Fright // Tergrid's Lantern",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:b9e74eed3a81",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:c146c48e4eb5643d"
+    ]
+   },
+   {
+    "add": "Infinite Reflection",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:757d6cd861dc",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:a0229d61870b7732"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:1144068e64a9",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:2924fe941e689c97"
+    ]
+   },
+   {
+    "add": "Kelpie Guide",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:de513f838547",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:85a4c5dab4ba7944"
+    ]
+   },
+   {
+    "add": "Kelpie Guide",
+    "cut": "Opposition Agent",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:13dec9d38b31",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:b393bc2e29b4519e"
+    ]
+   },
+   {
+    "add": "Lich",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:40789741fba2",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:dbed14291802c484"
+    ]
+   },
+   {
+    "add": "Lich's Mastery",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:9193fe1c1579",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:9a6fbe58a1057624"
+    ]
+   },
+   {
+    "add": "Liliana Vess",
+    "cut": "Imperial Seal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:d62a22cc148a",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:0a3ee90c3d8e221a"
+    ]
+   },
+   {
+    "add": "Marina Vendrell's Grimoire",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:94667769c56e",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:b5e7e6c09272ef14"
+    ]
+   },
+   {
+    "add": "Marina Vendrell's Grimoire",
+    "cut": "Timetwister",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:35f120e055e2",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:539e884af6b00e38"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:f3d1af35b032",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:1e41b44aad64dbfe"
+    ]
+   },
+   {
+    "add": "Mindcrank",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:ca5085ee1a9d",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:7d673eb5f79ffda0"
+    ]
+   },
+   {
+    "add": "Nefarious Lich",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:e70e01d532b1",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:28bd642a43ed4d36"
+    ]
+   },
+   {
+    "add": "Omen Hawker",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:add90af50788",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:7cdf2ea298d5cf83"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:e71ea97d4fba",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:924c2c049e2c38fa"
+    ]
+   },
+   {
+    "add": "Relic of Sauron",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:b30d99ca1791",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:e7169c0125673d34"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:5223a4c2a2f9",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:dc285332fa7cf1cf"
+    ]
+   },
+   {
+    "add": "Talisman of Creativity",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:56f7dc7b2a83",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:b87075f1d6e1d953"
+    ]
+   },
+   {
+    "add": "Teferi's Puzzle Box",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:feb085dd50c5",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:93e60b45d37ea552"
+    ]
+   },
+   {
+    "add": "The Master of Lake-town",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:57038fba3231",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:9a5ceb3198c80cf5"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Tergrid, God of Fright // Tergrid's Lantern",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:ac9d43c9b742",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:299fd484860f57b5"
+    ]
+   },
+   {
+    "add": "Tidewater Minion",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:b62596758324",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:af3cfbacfe1d3236"
+    ]
+   },
+   {
+    "add": "Tidewater Minion",
+    "cut": "Opposition Agent",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:73ad98bd7031",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:f8a008a840e4578d"
+    ]
+   },
+   {
+    "add": "Unctus, Grand Metatect",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:219ee6a0cd42",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:04f3eaf4092f7f6c"
+    ]
+   },
+   {
+    "add": "Wheel and Deal",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=swap:gwendlyn-di-corci:m5:d4105ab6c6a2",
+     "m5_test:data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz#id=test:gwendlyn-di-corci:goldfish:3b446b617c932a5b"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [
+   "swap:gwendlyn-di-corci:m5:13dec9d38b31",
+   "swap:gwendlyn-di-corci:m5:219ee6a0cd42",
+   "swap:gwendlyn-di-corci:m5:35f120e055e2",
+   "swap:gwendlyn-di-corci:m5:40789741fba2",
+   "swap:gwendlyn-di-corci:m5:51b883fed445",
+   "swap:gwendlyn-di-corci:m5:52134459cf05",
+   "swap:gwendlyn-di-corci:m5:5223a4c2a2f9",
+   "swap:gwendlyn-di-corci:m5:57038fba3231",
+   "swap:gwendlyn-di-corci:m5:6d72cbd283a6",
+   "swap:gwendlyn-di-corci:m5:73ad98bd7031",
+   "swap:gwendlyn-di-corci:m5:8abfa1cc5ee4",
+   "swap:gwendlyn-di-corci:m5:912805af858d",
+   "swap:gwendlyn-di-corci:m5:9193fe1c1579",
+   "swap:gwendlyn-di-corci:m5:94667769c56e",
+   "swap:gwendlyn-di-corci:m5:ac9d43c9b742",
+   "swap:gwendlyn-di-corci:m5:add90af50788",
+   "swap:gwendlyn-di-corci:m5:b62596758324",
+   "swap:gwendlyn-di-corci:m5:b9bbc3c3e7ae",
+   "swap:gwendlyn-di-corci:m5:b9e74eed3a81",
+   "swap:gwendlyn-di-corci:m5:c3ce7aa60785",
+   "swap:gwendlyn-di-corci:m5:de513f838547",
+   "swap:gwendlyn-di-corci:m5:e70e01d532b1",
+   "swap:gwendlyn-di-corci:m5:fb5475a7f078"
+  ],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:gwendlyn-di-corci:m5:027198403e62",
+   "swap:gwendlyn-di-corci:m5:07fd0141e3a4",
+   "swap:gwendlyn-di-corci:m5:10ef46762ffa",
+   "swap:gwendlyn-di-corci:m5:1144068e64a9",
+   "swap:gwendlyn-di-corci:m5:13dec9d38b31",
+   "swap:gwendlyn-di-corci:m5:14d5ebfe578a",
+   "swap:gwendlyn-di-corci:m5:219ee6a0cd42",
+   "swap:gwendlyn-di-corci:m5:27dc8ff09165",
+   "swap:gwendlyn-di-corci:m5:2a49e6115481",
+   "swap:gwendlyn-di-corci:m5:2b11482da86f",
+   "swap:gwendlyn-di-corci:m5:35f120e055e2",
+   "swap:gwendlyn-di-corci:m5:376f2b673b46",
+   "swap:gwendlyn-di-corci:m5:40789741fba2",
+   "swap:gwendlyn-di-corci:m5:4d28ed676649",
+   "swap:gwendlyn-di-corci:m5:503a70f91531",
+   "swap:gwendlyn-di-corci:m5:51b883fed445",
+   "swap:gwendlyn-di-corci:m5:52134459cf05",
+   "swap:gwendlyn-di-corci:m5:5223a4c2a2f9",
+   "swap:gwendlyn-di-corci:m5:56f7dc7b2a83",
+   "swap:gwendlyn-di-corci:m5:57038fba3231",
+   "swap:gwendlyn-di-corci:m5:691e7c4e8e36",
+   "swap:gwendlyn-di-corci:m5:6d248ea6bc6c",
+   "swap:gwendlyn-di-corci:m5:6d6cd17ffa7b",
+   "swap:gwendlyn-di-corci:m5:6d72cbd283a6",
+   "swap:gwendlyn-di-corci:m5:73ad98bd7031",
+   "swap:gwendlyn-di-corci:m5:757d6cd861dc",
+   "swap:gwendlyn-di-corci:m5:7a7f29958f11",
+   "swap:gwendlyn-di-corci:m5:840e55906639",
+   "swap:gwendlyn-di-corci:m5:8abfa1cc5ee4",
+   "swap:gwendlyn-di-corci:m5:8af7e2ff6a47",
+   "swap:gwendlyn-di-corci:m5:912805af858d",
+   "swap:gwendlyn-di-corci:m5:9193fe1c1579",
+   "swap:gwendlyn-di-corci:m5:94667769c56e",
+   "swap:gwendlyn-di-corci:m5:950587f5a60d",
+   "swap:gwendlyn-di-corci:m5:9629af387b80",
+   "swap:gwendlyn-di-corci:m5:a1150430cfc6",
+   "swap:gwendlyn-di-corci:m5:a1e320f7cf52",
+   "swap:gwendlyn-di-corci:m5:ac9d43c9b742",
+   "swap:gwendlyn-di-corci:m5:add90af50788",
+   "swap:gwendlyn-di-corci:m5:b01afabb252e",
+   "swap:gwendlyn-di-corci:m5:b20730809fbd",
+   "swap:gwendlyn-di-corci:m5:b30d99ca1791",
+   "swap:gwendlyn-di-corci:m5:b49904cd7f97",
+   "swap:gwendlyn-di-corci:m5:b62596758324",
+   "swap:gwendlyn-di-corci:m5:b8b32e76fea1",
+   "swap:gwendlyn-di-corci:m5:b9bbc3c3e7ae",
+   "swap:gwendlyn-di-corci:m5:b9e74eed3a81",
+   "swap:gwendlyn-di-corci:m5:be56e554ec12",
+   "swap:gwendlyn-di-corci:m5:c1ca5d6fb50e",
+   "swap:gwendlyn-di-corci:m5:c3ce7aa60785",
+   "swap:gwendlyn-di-corci:m5:c8e4771d292c",
+   "swap:gwendlyn-di-corci:m5:ca5085ee1a9d",
+   "swap:gwendlyn-di-corci:m5:cb8474c2dfea",
+   "swap:gwendlyn-di-corci:m5:cf19d6662638",
+   "swap:gwendlyn-di-corci:m5:d4105ab6c6a2",
+   "swap:gwendlyn-di-corci:m5:d51737ae9392",
+   "swap:gwendlyn-di-corci:m5:d62a22cc148a",
+   "swap:gwendlyn-di-corci:m5:de513f838547",
+   "swap:gwendlyn-di-corci:m5:e70e01d532b1",
+   "swap:gwendlyn-di-corci:m5:e71ea97d4fba",
+   "swap:gwendlyn-di-corci:m5:ecbc9c29a52b",
+   "swap:gwendlyn-di-corci:m5:ed7f30bc8706",
+   "swap:gwendlyn-di-corci:m5:f3d1af35b032",
+   "swap:gwendlyn-di-corci:m5:fb5475a7f078",
+   "swap:gwendlyn-di-corci:m5:fe04f0919ba0",
+   "swap:gwendlyn-di-corci:m5:feb085dd50c5"
+  ],
+  "disagreements": [
+   "swap:gwendlyn-di-corci:m5:027198403e62",
+   "swap:gwendlyn-di-corci:m5:07fd0141e3a4",
+   "swap:gwendlyn-di-corci:m5:10ef46762ffa",
+   "swap:gwendlyn-di-corci:m5:1144068e64a9",
+   "swap:gwendlyn-di-corci:m5:14d5ebfe578a",
+   "swap:gwendlyn-di-corci:m5:27dc8ff09165",
+   "swap:gwendlyn-di-corci:m5:2a49e6115481",
+   "swap:gwendlyn-di-corci:m5:2b11482da86f",
+   "swap:gwendlyn-di-corci:m5:376f2b673b46",
+   "swap:gwendlyn-di-corci:m5:4d28ed676649",
+   "swap:gwendlyn-di-corci:m5:503a70f91531",
+   "swap:gwendlyn-di-corci:m5:56f7dc7b2a83",
+   "swap:gwendlyn-di-corci:m5:691e7c4e8e36",
+   "swap:gwendlyn-di-corci:m5:6d248ea6bc6c",
+   "swap:gwendlyn-di-corci:m5:6d6cd17ffa7b",
+   "swap:gwendlyn-di-corci:m5:757d6cd861dc",
+   "swap:gwendlyn-di-corci:m5:7a7f29958f11",
+   "swap:gwendlyn-di-corci:m5:840e55906639",
+   "swap:gwendlyn-di-corci:m5:8af7e2ff6a47",
+   "swap:gwendlyn-di-corci:m5:950587f5a60d",
+   "swap:gwendlyn-di-corci:m5:9629af387b80",
+   "swap:gwendlyn-di-corci:m5:a1150430cfc6",
+   "swap:gwendlyn-di-corci:m5:a1e320f7cf52",
+   "swap:gwendlyn-di-corci:m5:b01afabb252e",
+   "swap:gwendlyn-di-corci:m5:b20730809fbd",
+   "swap:gwendlyn-di-corci:m5:b30d99ca1791",
+   "swap:gwendlyn-di-corci:m5:b49904cd7f97",
+   "swap:gwendlyn-di-corci:m5:b8b32e76fea1",
+   "swap:gwendlyn-di-corci:m5:be56e554ec12",
+   "swap:gwendlyn-di-corci:m5:c1ca5d6fb50e",
+   "swap:gwendlyn-di-corci:m5:c8e4771d292c",
+   "swap:gwendlyn-di-corci:m5:ca5085ee1a9d",
+   "swap:gwendlyn-di-corci:m5:cb8474c2dfea",
+   "swap:gwendlyn-di-corci:m5:cf19d6662638",
+   "swap:gwendlyn-di-corci:m5:d4105ab6c6a2",
+   "swap:gwendlyn-di-corci:m5:d51737ae9392",
+   "swap:gwendlyn-di-corci:m5:d62a22cc148a",
+   "swap:gwendlyn-di-corci:m5:e71ea97d4fba",
+   "swap:gwendlyn-di-corci:m5:ecbc9c29a52b",
+   "swap:gwendlyn-di-corci:m5:ed7f30bc8706",
+   "swap:gwendlyn-di-corci:m5:f3d1af35b032",
+   "swap:gwendlyn-di-corci:m5:fe04f0919ba0",
+   "swap:gwendlyn-di-corci:m5:feb085dd50c5"
+  ]
+ },
+ "schema_version": 1
+}

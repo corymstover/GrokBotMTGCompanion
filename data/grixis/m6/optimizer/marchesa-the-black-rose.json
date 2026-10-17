@@ -1,0 +1,1491 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Marchesa__the_Black_Rose",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz"
+  ],
+  "list_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:marchesa-the-black-rose:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Animation Module",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Animation Module",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:8318b9cc0b82",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Antler Skulkin",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Antler Skulkin",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:26500c4cbec9",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Ashcloud Phoenix",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Ashcloud Phoenix",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:1a82907a5f8d",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Ayara, First of Locthwain",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Ayara, First of Locthwain",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:0730d400c409",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Blade of the Bloodchief",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Blade of the Bloodchief",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:af4906489891",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Blasting Station",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Blasting Station",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:8da3a8089ac8",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Bloodflow Connoisseur",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Bloodflow Connoisseur",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:c3b3ac0abaa8",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Bloodsoaked Champion",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Bloodsoaked Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:b34d697313b2",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Bloodthrone Vampire",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Bloodthrone Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:e61dbd264470",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Bridge from Below",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Bridge from Below",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:7c53cd1c184e",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Carnifex Demon",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Carnifex Demon",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:88ea9f42b9c4",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:0675a8404337",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:07f950170531",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Chainbreaker",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Chainbreaker",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:7e5391a7a5f2",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Chaos Spewer",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Chaos Spewer",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:6e79bc8df7b1",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Cinderhaze Wretch",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Cinderhaze Wretch",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:561d3f70a577",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:89c27dc77b6a",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Creakwood Safewright",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Creakwood Safewright",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:a5f86e663854",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Cryptic Trilobite",
+    "cut": "Deadly Dispute",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Cryptic Trilobite",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:7d8aceb55b2c",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Crystalline Crawler",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Crystalline Crawler",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:888c77b04f66",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Cult Conscript",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Cult Conscript",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:9963647961a1",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Darksteel Angel",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Darksteel Angel",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:c9b72553c1ef",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Deathbringer Thoctar",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Deathbringer Thoctar",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:55f1cb7d7774",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Draconic Visitor",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Draconic Visitor",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:e6ea8a477085",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Dream Seizer",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Dream Seizer",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:786b806a0cfb",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Dross Harvester",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Dross Harvester",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:9d6782feff28",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:5e3656b327a2",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Evereth, Viceroy of Plunder",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Evereth, Viceroy of Plunder",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:1b8f2819c99e",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Fain, the Broker",
+    "cut": "Deadly Dispute",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Fain, the Broker",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:3670e1356d41",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Falkenrath Noble",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Falkenrath Noble",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:9c5ac8f8d794",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:cb2de87acc5b",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Firestorm Phoenix",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Firestorm Phoenix",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:96a0d56981e5",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "First Day of Class",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=First Day of Class",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:d3883ee03e25",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Flitterwing Nuisance",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Flitterwing Nuisance",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:bf6dc406be58",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Forsaken Miner",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Forsaken Miner",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:ea03a4f50e54",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Fumulus, the Infestation",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Fumulus, the Infestation",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:545f6986ae68",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Garna, the Bloodflame",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Garna, the Bloodflame",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:c575657aea2a",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Glen Elendra Guardian",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Glen Elendra Guardian",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:00c1a4f85ad0",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Glitch Interpreter",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Glitch Interpreter",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:5bfd9e474069",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Gnarlbark Elm",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Gnarlbark Elm",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:d06ce934446f",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Golgari Thug",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Golgari Thug",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:81961dcc9ec7",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Gravecrawler",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Gravecrawler",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:5ae5612ee578",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Grim Poppet",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Grim Poppet",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:34022a41ab7a",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Grimgrin, Corpse-Born",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Grimgrin, Corpse-Born",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:c2cfa7f48c4d",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Hammerhead, Maggia Boss",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Hammerhead, Maggia Boss",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:7b5a610627cb",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Haunt of the Dead Marshes",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Haunt of the Dead Marshes",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:18825eea324b",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Havengul Lich",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Havengul Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:25913e520166",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Heirloom Auntie",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Heirloom Auntie",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:f3207d0ca78e",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Hex Parasite",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Hex Parasite",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:c048a498f1b4",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Hexavus",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Hexavus",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:0fbc1ce3931e",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:17ae31bee776",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Immortal Phoenix",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Immortal Phoenix",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:8d4a33a61a66",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Inquisitive Puppet",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Inquisitive Puppet",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:8b07bcc0d194",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Joo Dee, One of Many",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Joo Dee, One of Many",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:d3b0fb1ac8eb",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:3a9da5a23010",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Kokusho, the Evening Star",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Kokusho, the Evening Star",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:f093859653aa",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Krenko, Baron of Tin Street",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Krenko, Baron of Tin Street",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:58215b35c1d0",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Lesser Masticore",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Lesser Masticore",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:29ffecd51f47",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Liliana, Untouched by Death",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Liliana, Untouched by Death",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:30547ec7b931",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Loch Mare",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Loch Mare",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:4cf067b04c9a",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Magmatic Galleon",
+    "cut": "Deadly Dispute",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Magmatic Galleon",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:16a06b24aeed",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Magus of the Bridge",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Magus of the Bridge",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:4030fe675434",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Marang River Prowler",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Marang River Prowler",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:95c50a569e6c",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "March of the Machines",
+    "cut": "Sneak Attack",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=March of the Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:97e23f888568",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:9288f0cf753a",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Missy",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Missy",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:5d6061b1dd99",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Mm'menon, Uthros Exile",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Mm'menon, Uthros Exile",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:4897d87a4a44",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Monoskelion",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Monoskelion",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:06f1f15e9e4b",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Moonshadow",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Moonshadow",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:e4ebd3102df7",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:4903485c1c5d",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Nest of Scarabs",
+    "cut": "Sneak Attack",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Nest of Scarabs",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:8699e993d8a8",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Nim Deathmantle",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Nim Deathmantle",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:c6fb5157dc21",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Oathkeeper, Takeno's Daisho",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Oathkeeper, Takeno's Daisho",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:734f5e79d96b",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Oathsworn Vampire",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Oathsworn Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:f16cb0c3c317",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Ogre Slumlord",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Ogre Slumlord",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:fbb2f6482378",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Olivia, Mobilized for War",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Olivia, Mobilized for War",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:47350e78bc6d",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Omarthis, Ghostfire Initiate",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Omarthis, Ghostfire Initiate",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:a98fc6b145f3",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Open the Graves",
+    "cut": "Sneak Attack",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Open the Graves",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:089419ea1f4f",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Orthion, Hero of Lavabrink",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Orthion, Hero of Lavabrink",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:2b0e1aca42d3",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Ozox, the Clattering King",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Ozox, the Clattering King",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:a1bfb03f4bb3",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Palinchron",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Palinchron",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:db71c1dcab32",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Pashalik Mons",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Pashalik Mons",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:1e679f8098d4",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Pawn of Ulamog",
+    "cut": "Deadly Dispute",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Pawn of Ulamog",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:704146af8aea",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Phantom Train",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Phantom Train",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:6e7ca55f154e",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Phenomenon Investigators",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Phenomenon Investigators",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:e1ae8ae73f55",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Pith Driller",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Pith Driller",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:5b20cca42804",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Plague Belcher",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Plague Belcher",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:5f528dce5fda",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Putrid Goblin",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Putrid Goblin",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:903584d99853",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Raptor Hatchling",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Raptor Hatchling",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:d70c813afeb0",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Rat King, Pale Piper",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Rat King, Pale Piper",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:376bcfb0bc34",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Razorlash Transmogrant",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Razorlash Transmogrant",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:a8fff8861df2",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Reassembling Skeleton",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Reassembling Skeleton",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:baa8b14cc041",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Sneak Attack",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:ada964de4a87",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Retribution of the Ancients",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Retribution of the Ancients",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:7033aa61d456",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Rite of Replication",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Rite of Replication",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:e96728f1af24",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Scuttletide",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Scuttletide",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:f29040da976f",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:b919f101de30",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Shivan Phoenix",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Shivan Phoenix",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:68d20eafb68b",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Sifter of Skulls",
+    "cut": "Deadly Dispute",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Sifter of Skulls",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:4325ae458c1d",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Silverclad Ferocidons",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Silverclad Ferocidons",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:30863cea7bef",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Skittering Precursor",
+    "cut": "Deadly Dispute",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Skittering Precursor",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:e65001f3a4bf",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Slick Imitator",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Slick Imitator",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:abaab0165bdd",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Smaug the Impenetrable",
+    "cut": "Deadly Dispute",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Smaug the Impenetrable",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:f6bc9c10e5f8",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Soulstinger",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Soulstinger",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:07c0dc85f90e",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Spawning Pit",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Spawning Pit",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:bfff9f5cc129",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Spawnsire of Ulamog",
+    "cut": "Deadly Dispute",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Spawnsire of Ulamog",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:80b7d390a569",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Stridehangar Automaton",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Stridehangar Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:bfb94dd5563e",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Summoning Station",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Summoning Station",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:ff4c61d3d53e",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Sway of the Stars",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Sway of the Stars",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:3ff4a9d7fa35",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Tatterkite",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Tatterkite",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:b4a3346386da",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Tenacious Dead",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Tenacious Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:d225067774bf",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "The Locust God",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=The Locust God",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:b7f26a570b5a",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "The Master, Formed Anew",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=The Master, Formed Anew",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:27ae5d7d069f",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "The Mindskinner",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=The Mindskinner",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:1b9d068d6581",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Thermopod",
+    "cut": "Deadly Dispute",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Thermopod",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:8b9feb256812",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:87654217779a",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Tombstone Stairwell",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Tombstone Stairwell",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:bb62da601f01",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:f0603109c023",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Totentanz, Swarm Piper",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Totentanz, Swarm Piper",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:d1a1fbf4bb83",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Triskelion",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Triskelion",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:52bd442444dd",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Umbral Collar Zealot",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Umbral Collar Zealot",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:aa3825d6e39b",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Undead Sprinter",
+    "cut": "Danny Pink",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Undead Sprinter",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:c592993aa41a",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Vein Ripper",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Vein Ripper",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:5220ac90d1d5",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Walking Ballista",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Walking Ballista",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:59c89ac5f41d",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Woe Strider",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Woe Strider",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:e2bb01604e5b",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Workhorse",
+    "cut": "Deadly Dispute",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Workhorse",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:9dfc77c24f91",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Young Necromancer",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Young Necromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:71ed34aef0b1",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   },
+   {
+    "add": "Zodiac Dragon",
+    "cut": "Agatha's Soul Cauldron",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#card=Zodiac Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:4aa2c8109bad",
+     "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Marchesa__the_Black_Rose",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz"
+  ],
+  "list_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:marchesa-the-black-rose:performance:v1",
+  "recommendations": [
+   {
+    "add": "Village Rites",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=swap:marchesa-the-black-rose:m5:d0d17e108cdf",
+     "m5_test:data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz#id=test:marchesa-the-black-rose:goldfish:1137410e0d09bc3d"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:marchesa-the-black-rose:m5:00c1a4f85ad0",
+   "swap:marchesa-the-black-rose:m5:0675a8404337",
+   "swap:marchesa-the-black-rose:m5:06f1f15e9e4b",
+   "swap:marchesa-the-black-rose:m5:0730d400c409",
+   "swap:marchesa-the-black-rose:m5:07c0dc85f90e",
+   "swap:marchesa-the-black-rose:m5:07f950170531",
+   "swap:marchesa-the-black-rose:m5:089419ea1f4f",
+   "swap:marchesa-the-black-rose:m5:0fbc1ce3931e",
+   "swap:marchesa-the-black-rose:m5:16a06b24aeed",
+   "swap:marchesa-the-black-rose:m5:17ae31bee776",
+   "swap:marchesa-the-black-rose:m5:18825eea324b",
+   "swap:marchesa-the-black-rose:m5:1a82907a5f8d",
+   "swap:marchesa-the-black-rose:m5:1b8f2819c99e",
+   "swap:marchesa-the-black-rose:m5:1b9d068d6581",
+   "swap:marchesa-the-black-rose:m5:1e679f8098d4",
+   "swap:marchesa-the-black-rose:m5:25913e520166",
+   "swap:marchesa-the-black-rose:m5:26500c4cbec9",
+   "swap:marchesa-the-black-rose:m5:27ae5d7d069f",
+   "swap:marchesa-the-black-rose:m5:29ffecd51f47",
+   "swap:marchesa-the-black-rose:m5:2b0e1aca42d3",
+   "swap:marchesa-the-black-rose:m5:30547ec7b931",
+   "swap:marchesa-the-black-rose:m5:30863cea7bef",
+   "swap:marchesa-the-black-rose:m5:34022a41ab7a",
+   "swap:marchesa-the-black-rose:m5:3670e1356d41",
+   "swap:marchesa-the-black-rose:m5:376bcfb0bc34",
+   "swap:marchesa-the-black-rose:m5:3a9da5a23010",
+   "swap:marchesa-the-black-rose:m5:3ff4a9d7fa35",
+   "swap:marchesa-the-black-rose:m5:4030fe675434",
+   "swap:marchesa-the-black-rose:m5:4325ae458c1d",
+   "swap:marchesa-the-black-rose:m5:47350e78bc6d",
+   "swap:marchesa-the-black-rose:m5:4897d87a4a44",
+   "swap:marchesa-the-black-rose:m5:4903485c1c5d",
+   "swap:marchesa-the-black-rose:m5:4aa2c8109bad",
+   "swap:marchesa-the-black-rose:m5:4cf067b04c9a",
+   "swap:marchesa-the-black-rose:m5:5220ac90d1d5",
+   "swap:marchesa-the-black-rose:m5:52bd442444dd",
+   "swap:marchesa-the-black-rose:m5:545f6986ae68",
+   "swap:marchesa-the-black-rose:m5:55f1cb7d7774",
+   "swap:marchesa-the-black-rose:m5:561d3f70a577",
+   "swap:marchesa-the-black-rose:m5:58215b35c1d0",
+   "swap:marchesa-the-black-rose:m5:59c89ac5f41d",
+   "swap:marchesa-the-black-rose:m5:5ae5612ee578",
+   "swap:marchesa-the-black-rose:m5:5b20cca42804",
+   "swap:marchesa-the-black-rose:m5:5bfd9e474069",
+   "swap:marchesa-the-black-rose:m5:5d6061b1dd99",
+   "swap:marchesa-the-black-rose:m5:5e3656b327a2",
+   "swap:marchesa-the-black-rose:m5:5f528dce5fda",
+   "swap:marchesa-the-black-rose:m5:68d20eafb68b",
+   "swap:marchesa-the-black-rose:m5:6e79bc8df7b1",
+   "swap:marchesa-the-black-rose:m5:6e7ca55f154e",
+   "swap:marchesa-the-black-rose:m5:7033aa61d456",
+   "swap:marchesa-the-black-rose:m5:704146af8aea",
+   "swap:marchesa-the-black-rose:m5:71ed34aef0b1",
+   "swap:marchesa-the-black-rose:m5:734f5e79d96b",
+   "swap:marchesa-the-black-rose:m5:786b806a0cfb",
+   "swap:marchesa-the-black-rose:m5:7b5a610627cb",
+   "swap:marchesa-the-black-rose:m5:7c53cd1c184e",
+   "swap:marchesa-the-black-rose:m5:7d8aceb55b2c",
+   "swap:marchesa-the-black-rose:m5:7e5391a7a5f2",
+   "swap:marchesa-the-black-rose:m5:80b7d390a569",
+   "swap:marchesa-the-black-rose:m5:81961dcc9ec7",
+   "swap:marchesa-the-black-rose:m5:8318b9cc0b82",
+   "swap:marchesa-the-black-rose:m5:8699e993d8a8",
+   "swap:marchesa-the-black-rose:m5:87654217779a",
+   "swap:marchesa-the-black-rose:m5:888c77b04f66",
+   "swap:marchesa-the-black-rose:m5:88ea9f42b9c4",
+   "swap:marchesa-the-black-rose:m5:89c27dc77b6a",
+   "swap:marchesa-the-black-rose:m5:8b07bcc0d194",
+   "swap:marchesa-the-black-rose:m5:8b9feb256812",
+   "swap:marchesa-the-black-rose:m5:8d4a33a61a66",
+   "swap:marchesa-the-black-rose:m5:8da3a8089ac8",
+   "swap:marchesa-the-black-rose:m5:903584d99853",
+   "swap:marchesa-the-black-rose:m5:9288f0cf753a",
+   "swap:marchesa-the-black-rose:m5:95c50a569e6c",
+   "swap:marchesa-the-black-rose:m5:96a0d56981e5",
+   "swap:marchesa-the-black-rose:m5:97e23f888568",
+   "swap:marchesa-the-black-rose:m5:9963647961a1",
+   "swap:marchesa-the-black-rose:m5:9c5ac8f8d794",
+   "swap:marchesa-the-black-rose:m5:9d6782feff28",
+   "swap:marchesa-the-black-rose:m5:9dfc77c24f91",
+   "swap:marchesa-the-black-rose:m5:a1bfb03f4bb3",
+   "swap:marchesa-the-black-rose:m5:a5f86e663854",
+   "swap:marchesa-the-black-rose:m5:a8fff8861df2",
+   "swap:marchesa-the-black-rose:m5:a98fc6b145f3",
+   "swap:marchesa-the-black-rose:m5:aa3825d6e39b",
+   "swap:marchesa-the-black-rose:m5:abaab0165bdd",
+   "swap:marchesa-the-black-rose:m5:ada964de4a87",
+   "swap:marchesa-the-black-rose:m5:af4906489891",
+   "swap:marchesa-the-black-rose:m5:b34d697313b2",
+   "swap:marchesa-the-black-rose:m5:b4a3346386da",
+   "swap:marchesa-the-black-rose:m5:b7f26a570b5a",
+   "swap:marchesa-the-black-rose:m5:b919f101de30",
+   "swap:marchesa-the-black-rose:m5:baa8b14cc041",
+   "swap:marchesa-the-black-rose:m5:bb62da601f01",
+   "swap:marchesa-the-black-rose:m5:bf6dc406be58",
+   "swap:marchesa-the-black-rose:m5:bfb94dd5563e",
+   "swap:marchesa-the-black-rose:m5:bfff9f5cc129",
+   "swap:marchesa-the-black-rose:m5:c048a498f1b4",
+   "swap:marchesa-the-black-rose:m5:c2cfa7f48c4d",
+   "swap:marchesa-the-black-rose:m5:c3b3ac0abaa8",
+   "swap:marchesa-the-black-rose:m5:c575657aea2a",
+   "swap:marchesa-the-black-rose:m5:c592993aa41a",
+   "swap:marchesa-the-black-rose:m5:c6fb5157dc21",
+   "swap:marchesa-the-black-rose:m5:c9b72553c1ef",
+   "swap:marchesa-the-black-rose:m5:cb2de87acc5b",
+   "swap:marchesa-the-black-rose:m5:d06ce934446f",
+   "swap:marchesa-the-black-rose:m5:d0d17e108cdf",
+   "swap:marchesa-the-black-rose:m5:d1a1fbf4bb83",
+   "swap:marchesa-the-black-rose:m5:d225067774bf",
+   "swap:marchesa-the-black-rose:m5:d3883ee03e25",
+   "swap:marchesa-the-black-rose:m5:d3b0fb1ac8eb",
+   "swap:marchesa-the-black-rose:m5:d70c813afeb0",
+   "swap:marchesa-the-black-rose:m5:db71c1dcab32",
+   "swap:marchesa-the-black-rose:m5:e1ae8ae73f55",
+   "swap:marchesa-the-black-rose:m5:e2bb01604e5b",
+   "swap:marchesa-the-black-rose:m5:e4ebd3102df7",
+   "swap:marchesa-the-black-rose:m5:e61dbd264470",
+   "swap:marchesa-the-black-rose:m5:e65001f3a4bf",
+   "swap:marchesa-the-black-rose:m5:e6ea8a477085",
+   "swap:marchesa-the-black-rose:m5:e96728f1af24",
+   "swap:marchesa-the-black-rose:m5:ea03a4f50e54",
+   "swap:marchesa-the-black-rose:m5:f0603109c023",
+   "swap:marchesa-the-black-rose:m5:f093859653aa",
+   "swap:marchesa-the-black-rose:m5:f16cb0c3c317",
+   "swap:marchesa-the-black-rose:m5:f29040da976f",
+   "swap:marchesa-the-black-rose:m5:f3207d0ca78e",
+   "swap:marchesa-the-black-rose:m5:f6bc9c10e5f8",
+   "swap:marchesa-the-black-rose:m5:fbb2f6482378",
+   "swap:marchesa-the-black-rose:m5:ff4c61d3d53e"
+  ],
+  "disagreements": [
+   "swap:marchesa-the-black-rose:m5:00c1a4f85ad0",
+   "swap:marchesa-the-black-rose:m5:0675a8404337",
+   "swap:marchesa-the-black-rose:m5:06f1f15e9e4b",
+   "swap:marchesa-the-black-rose:m5:0730d400c409",
+   "swap:marchesa-the-black-rose:m5:07c0dc85f90e",
+   "swap:marchesa-the-black-rose:m5:07f950170531",
+   "swap:marchesa-the-black-rose:m5:089419ea1f4f",
+   "swap:marchesa-the-black-rose:m5:0fbc1ce3931e",
+   "swap:marchesa-the-black-rose:m5:16a06b24aeed",
+   "swap:marchesa-the-black-rose:m5:17ae31bee776",
+   "swap:marchesa-the-black-rose:m5:18825eea324b",
+   "swap:marchesa-the-black-rose:m5:1a82907a5f8d",
+   "swap:marchesa-the-black-rose:m5:1b8f2819c99e",
+   "swap:marchesa-the-black-rose:m5:1b9d068d6581",
+   "swap:marchesa-the-black-rose:m5:1e679f8098d4",
+   "swap:marchesa-the-black-rose:m5:25913e520166",
+   "swap:marchesa-the-black-rose:m5:26500c4cbec9",
+   "swap:marchesa-the-black-rose:m5:27ae5d7d069f",
+   "swap:marchesa-the-black-rose:m5:29ffecd51f47",
+   "swap:marchesa-the-black-rose:m5:2b0e1aca42d3",
+   "swap:marchesa-the-black-rose:m5:30547ec7b931",
+   "swap:marchesa-the-black-rose:m5:30863cea7bef",
+   "swap:marchesa-the-black-rose:m5:34022a41ab7a",
+   "swap:marchesa-the-black-rose:m5:3670e1356d41",
+   "swap:marchesa-the-black-rose:m5:376bcfb0bc34",
+   "swap:marchesa-the-black-rose:m5:3a9da5a23010",
+   "swap:marchesa-the-black-rose:m5:3ff4a9d7fa35",
+   "swap:marchesa-the-black-rose:m5:4030fe675434",
+   "swap:marchesa-the-black-rose:m5:4325ae458c1d",
+   "swap:marchesa-the-black-rose:m5:47350e78bc6d",
+   "swap:marchesa-the-black-rose:m5:4897d87a4a44",
+   "swap:marchesa-the-black-rose:m5:4903485c1c5d",
+   "swap:marchesa-the-black-rose:m5:4aa2c8109bad",
+   "swap:marchesa-the-black-rose:m5:4cf067b04c9a",
+   "swap:marchesa-the-black-rose:m5:5220ac90d1d5",
+   "swap:marchesa-the-black-rose:m5:52bd442444dd",
+   "swap:marchesa-the-black-rose:m5:545f6986ae68",
+   "swap:marchesa-the-black-rose:m5:55f1cb7d7774",
+   "swap:marchesa-the-black-rose:m5:561d3f70a577",
+   "swap:marchesa-the-black-rose:m5:58215b35c1d0",
+   "swap:marchesa-the-black-rose:m5:59c89ac5f41d",
+   "swap:marchesa-the-black-rose:m5:5ae5612ee578",
+   "swap:marchesa-the-black-rose:m5:5b20cca42804",
+   "swap:marchesa-the-black-rose:m5:5bfd9e474069",
+   "swap:marchesa-the-black-rose:m5:5d6061b1dd99",
+   "swap:marchesa-the-black-rose:m5:5e3656b327a2",
+   "swap:marchesa-the-black-rose:m5:5f528dce5fda",
+   "swap:marchesa-the-black-rose:m5:68d20eafb68b",
+   "swap:marchesa-the-black-rose:m5:6e79bc8df7b1",
+   "swap:marchesa-the-black-rose:m5:6e7ca55f154e",
+   "swap:marchesa-the-black-rose:m5:7033aa61d456",
+   "swap:marchesa-the-black-rose:m5:704146af8aea",
+   "swap:marchesa-the-black-rose:m5:71ed34aef0b1",
+   "swap:marchesa-the-black-rose:m5:734f5e79d96b",
+   "swap:marchesa-the-black-rose:m5:786b806a0cfb",
+   "swap:marchesa-the-black-rose:m5:7b5a610627cb",
+   "swap:marchesa-the-black-rose:m5:7c53cd1c184e",
+   "swap:marchesa-the-black-rose:m5:7d8aceb55b2c",
+   "swap:marchesa-the-black-rose:m5:7e5391a7a5f2",
+   "swap:marchesa-the-black-rose:m5:80b7d390a569",
+   "swap:marchesa-the-black-rose:m5:81961dcc9ec7",
+   "swap:marchesa-the-black-rose:m5:8318b9cc0b82",
+   "swap:marchesa-the-black-rose:m5:8699e993d8a8",
+   "swap:marchesa-the-black-rose:m5:87654217779a",
+   "swap:marchesa-the-black-rose:m5:888c77b04f66",
+   "swap:marchesa-the-black-rose:m5:88ea9f42b9c4",
+   "swap:marchesa-the-black-rose:m5:89c27dc77b6a",
+   "swap:marchesa-the-black-rose:m5:8b07bcc0d194",
+   "swap:marchesa-the-black-rose:m5:8b9feb256812",
+   "swap:marchesa-the-black-rose:m5:8d4a33a61a66",
+   "swap:marchesa-the-black-rose:m5:8da3a8089ac8",
+   "swap:marchesa-the-black-rose:m5:903584d99853",
+   "swap:marchesa-the-black-rose:m5:9288f0cf753a",
+   "swap:marchesa-the-black-rose:m5:95c50a569e6c",
+   "swap:marchesa-the-black-rose:m5:96a0d56981e5",
+   "swap:marchesa-the-black-rose:m5:97e23f888568",
+   "swap:marchesa-the-black-rose:m5:9963647961a1",
+   "swap:marchesa-the-black-rose:m5:9c5ac8f8d794",
+   "swap:marchesa-the-black-rose:m5:9d6782feff28",
+   "swap:marchesa-the-black-rose:m5:9dfc77c24f91",
+   "swap:marchesa-the-black-rose:m5:a1bfb03f4bb3",
+   "swap:marchesa-the-black-rose:m5:a5f86e663854",
+   "swap:marchesa-the-black-rose:m5:a8fff8861df2",
+   "swap:marchesa-the-black-rose:m5:a98fc6b145f3",
+   "swap:marchesa-the-black-rose:m5:aa3825d6e39b",
+   "swap:marchesa-the-black-rose:m5:abaab0165bdd",
+   "swap:marchesa-the-black-rose:m5:ada964de4a87",
+   "swap:marchesa-the-black-rose:m5:af4906489891",
+   "swap:marchesa-the-black-rose:m5:b34d697313b2",
+   "swap:marchesa-the-black-rose:m5:b4a3346386da",
+   "swap:marchesa-the-black-rose:m5:b7f26a570b5a",
+   "swap:marchesa-the-black-rose:m5:b919f101de30",
+   "swap:marchesa-the-black-rose:m5:baa8b14cc041",
+   "swap:marchesa-the-black-rose:m5:bb62da601f01",
+   "swap:marchesa-the-black-rose:m5:bf6dc406be58",
+   "swap:marchesa-the-black-rose:m5:bfb94dd5563e",
+   "swap:marchesa-the-black-rose:m5:bfff9f5cc129",
+   "swap:marchesa-the-black-rose:m5:c048a498f1b4",
+   "swap:marchesa-the-black-rose:m5:c2cfa7f48c4d",
+   "swap:marchesa-the-black-rose:m5:c3b3ac0abaa8",
+   "swap:marchesa-the-black-rose:m5:c575657aea2a",
+   "swap:marchesa-the-black-rose:m5:c592993aa41a",
+   "swap:marchesa-the-black-rose:m5:c6fb5157dc21",
+   "swap:marchesa-the-black-rose:m5:c9b72553c1ef",
+   "swap:marchesa-the-black-rose:m5:cb2de87acc5b",
+   "swap:marchesa-the-black-rose:m5:d06ce934446f",
+   "swap:marchesa-the-black-rose:m5:d0d17e108cdf",
+   "swap:marchesa-the-black-rose:m5:d1a1fbf4bb83",
+   "swap:marchesa-the-black-rose:m5:d225067774bf",
+   "swap:marchesa-the-black-rose:m5:d3883ee03e25",
+   "swap:marchesa-the-black-rose:m5:d3b0fb1ac8eb",
+   "swap:marchesa-the-black-rose:m5:d70c813afeb0",
+   "swap:marchesa-the-black-rose:m5:db71c1dcab32",
+   "swap:marchesa-the-black-rose:m5:e1ae8ae73f55",
+   "swap:marchesa-the-black-rose:m5:e2bb01604e5b",
+   "swap:marchesa-the-black-rose:m5:e4ebd3102df7",
+   "swap:marchesa-the-black-rose:m5:e61dbd264470",
+   "swap:marchesa-the-black-rose:m5:e65001f3a4bf",
+   "swap:marchesa-the-black-rose:m5:e6ea8a477085",
+   "swap:marchesa-the-black-rose:m5:e96728f1af24",
+   "swap:marchesa-the-black-rose:m5:ea03a4f50e54",
+   "swap:marchesa-the-black-rose:m5:f0603109c023",
+   "swap:marchesa-the-black-rose:m5:f093859653aa",
+   "swap:marchesa-the-black-rose:m5:f16cb0c3c317",
+   "swap:marchesa-the-black-rose:m5:f29040da976f",
+   "swap:marchesa-the-black-rose:m5:f3207d0ca78e",
+   "swap:marchesa-the-black-rose:m5:f6bc9c10e5f8",
+   "swap:marchesa-the-black-rose:m5:fbb2f6482378",
+   "swap:marchesa-the-black-rose:m5:ff4c61d3d53e"
+  ]
+ },
+ "schema_version": 1
+}

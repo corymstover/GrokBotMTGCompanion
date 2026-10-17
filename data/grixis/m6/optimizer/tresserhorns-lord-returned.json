@@ -1,0 +1,3381 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Tresserhorn_s_Lord__Returned",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz"
+  ],
+  "list_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:tresserhorns-lord-returned:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Acererak the Archlich",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Acererak the Archlich",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:83c7a7c1f053",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Acererak the Archlich",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Acererak the Archlich",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:3719a380be61",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Adric, Mathematical Genius",
+    "cut": "Not of This World",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Adric, Mathematical Genius",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:a0f9cbde03f8",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Aether Channeler",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Aether Channeler",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:0d55f17c3089",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Aetherflux Reservoir",
+    "cut": "Chaos Warp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Aetherflux Reservoir",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:4bc1d41b7135",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Agents of HYDRA",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Agents of HYDRA",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:fd8127e4a001",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Aggravated Assault",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Aggravated Assault",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:2c4314fc48d2",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Al Bhed Salvagers",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Al Bhed Salvagers",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:f21714423078",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Alexios, Deimos of Kosmos",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Alexios, Deimos of Kosmos",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:77aae48060a5",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Alicia Masters, Skilled Sculptor",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Alicia Masters, Skilled Sculptor",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:0c00f1deb290",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Altar of Dementia",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Altar of Dementia",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:d525160c4272",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Altar of Dementia",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Altar of Dementia",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:e027fbd09060",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Ancestral Statue",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Ancestral Statue",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:5a792588999d",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Animation Module",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Animation Module",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:073790fd4e53",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Animation Module",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Animation Module",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:45af671dd6f9",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Ant-Man, Elusive Avenger",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Ant-Man, Elusive Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:a284b4a196cc",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Arcane Artisan",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Arcane Artisan",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:fbcdabdd89ad",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Arco-Flagellant",
+    "cut": "Not of This World",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Arco-Flagellant",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:cec933566cc1",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Ardyn, the Usurper",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Ardyn, the Usurper",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:95d430d464fa",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Arnyn, Deathbloom Botanist",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Arnyn, Deathbloom Botanist",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:7aa7f8572b9f",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Arnyn, Deathbloom Botanist",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Arnyn, Deathbloom Botanist",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:d701246ef27a",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Avenger of the Fallen",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Avenger of the Fallen",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:31d93dfe06ec",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Ayara, First of Locthwain",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Ayara, First of Locthwain",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:8a8e8ed4f8c8",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Ayara, First of Locthwain",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Ayara, First of Locthwain",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:2db1c46216af",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Baneblade Scoundrel // Baneclaw Marauder",
+    "cut": "Blasphemous Act",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Baneblade Scoundrel // Baneclaw Marauder",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:7931ad5cafe0",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Blasting Station",
+    "cut": "Chaos Warp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Blasting Station",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:301eba2ef97f",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Bloodflow Connoisseur",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Bloodflow Connoisseur",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:87e968b733cd",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Bloodflow Connoisseur",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Bloodflow Connoisseur",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:a6a8ebdd9763",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Bloodsoaked Champion",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Bloodsoaked Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:e938826106fa",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Bloodthrone Vampire",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Bloodthrone Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:4207ca8373ff",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Bloodthrone Vampire",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Bloodthrone Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:72493abf68c8",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Bog Initiate",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Bog Initiate",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:e0764f37e98e",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Bontu's Monument",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Bontu's Monument",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:e249c313e81a",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Bontu's Monument",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Bontu's Monument",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:bba859068b90",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Breath of Fury",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Breath of Fury",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:c0e54733af70",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Breath of Fury",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Breath of Fury",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:6a2864bfb4c1",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Brine Shaman",
+    "cut": "Not of This World",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Brine Shaman",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:22358752eae3",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Bullseye, Death Dealer",
+    "cut": "Chaos Warp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Bullseye, Death Dealer",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:43f299dfbfc0",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Captain Lannery Storm",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Captain Lannery Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:d889d212e5b7",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Carnival of Souls",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Carnival of Souls",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:82529be35809",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:a4c6f06a6218",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:fb4bf94b9bd3",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Charming Scoundrel",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Charming Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:c92abb06550a",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Chromatic Orrery",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Chromatic Orrery",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:f28ca80cd727",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Chthonian Nightmare",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Chthonian Nightmare",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:68b8904122f6",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Chthonian Nightmare",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Chthonian Nightmare",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:b9ddaf37071e",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Contract Hero",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Contract Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:1b45f7a93360",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Council of Reeds",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Council of Reeds",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:b822229cfab9",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Count Nefaria",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Count Nefaria",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:692d105ad1f7",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:993192985c90",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Crimson Cowl, Master of Evil",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Crimson Cowl, Master of Evil",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:e010d896e0f0",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Crossroads Candleguide",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Crossroads Candleguide",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:72245f160ac9",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Cult Conscript",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Cult Conscript",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:ed01b2ee0a8d",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Daring Apprentice",
+    "cut": "Not of This World",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Daring Apprentice",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:e74fd9cb4c70",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Deathgreeter",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Deathgreeter",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:ce959cd2cb98",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Demon's Disciple",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Demon's Disciple",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:8a4d1fcaacc9",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Dire Undercurrents",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Dire Undercurrents",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:399ca8ae0ca7",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Dire Undercurrents",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Dire Undercurrents",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:f7fb7e105783",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Disciple of Bolas",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Disciple of Bolas",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:d1e38e0e8d1e",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Dockside Chef",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Dockside Chef",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:4b19cc647690",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Doctor Doom",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Doctor Doom",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:2af8acf40a22",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Draconic Visitor",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Draconic Visitor",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:55e9a29373c0",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Dragonmaster Outcast",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Dragonmaster Outcast",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:ccb1c6bbadb7",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Dross Harvester",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Dross Harvester",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:1d903ec7b9e7",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Dross Harvester",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Dross Harvester",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:2e29ea537d4e",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:48c2bef0e220",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Ebondeath, Dracolich",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Ebondeath, Dracolich",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:a987045d9d9c",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Eligeth, Crossroads Augur",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Eligeth, Crossroads Augur",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:e72403559785",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Eligeth, Crossroads Augur",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Eligeth, Crossroads Augur",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:43e51f93804f",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Eloise, Nephalia Sleuth",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Eloise, Nephalia Sleuth",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:3214979a3903",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Endless Cockroaches",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Endless Cockroaches",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:04bbc1196f7a",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Endless Cockroaches",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Endless Cockroaches",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:5412d385d198",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Engineered Plague",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Engineered Plague",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:ebc791b12184",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Evereth, Viceroy of Plunder",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Evereth, Viceroy of Plunder",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:571dee950f1e",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Evereth, Viceroy of Plunder",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Evereth, Viceroy of Plunder",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:3ae786ff43c9",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Experimental Confectioner",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Experimental Confectioner",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:431754a8612d",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Fain, the Broker",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Fain, the Broker",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:9ff1e53fef38",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Falcon, Winged Wonder",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Falcon, Winged Wonder",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:31f169f42032",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Falkenrath Noble",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Falkenrath Noble",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:65e9a2e56b52",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Falkenrath Noble",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Falkenrath Noble",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:2ecb36b59ab6",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Chaos Warp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:27527631e371",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Feldon of the Third Path",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Feldon of the Third Path",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:07c1e03ba67e",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Forsaken Miner",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Forsaken Miner",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:902f7b894ebb",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Funeral Room // Awakening Hall",
+    "cut": "Blasphemous Act",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Funeral Room // Awakening Hall",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:dbcd6f31e111",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Garna, Bloodfist of Keld",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Garna, Bloodfist of Keld",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:ca26bf276725",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Gas Guzzler",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Gas Guzzler",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:d2c398e19255",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Gas Guzzler",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Gas Guzzler",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:a27ff886f873",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Gemstone Array",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Gemstone Array",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:b2d454139069",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Gemstone Array",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Gemstone Array",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:b362d95fb16a",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Generous Plunderer",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Generous Plunderer",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:d681c8cafda0",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Geth, Thane of Contracts",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Geth, Thane of Contracts",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:34b4800d9b2c",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Ghoulcaller Gisa",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Ghoulcaller Gisa",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:25b8547d3436",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Gisa, Glorious Resurrector",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Gisa, Glorious Resurrector",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:7b436690a439",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Gisa, the Hellraiser",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Gisa, the Hellraiser",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:d9fa89d8f5a0",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Gleeful Arsonist",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Gleeful Arsonist",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:e9fb052397ac",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Glitch Interpreter",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Glitch Interpreter",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:d60989a4ec14",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Glitch Interpreter",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Glitch Interpreter",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:a8158b8a6e70",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Golgari Thug",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Golgari Thug",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:d3bf08afc8f9",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Grave Venerations",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Grave Venerations",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:7a9c4ddad90e",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Grave Venerations",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Grave Venerations",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:e0b6b7a74075",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Greedy Freebooter",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Greedy Freebooter",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:7617aff2a619",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Grim Haruspex",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Grim Haruspex",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:c2f8b564aa13",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Grim Haruspex",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Grim Haruspex",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:7d39d26da11f",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Grimgrin, Corpse-Born",
+    "cut": "Chaos Warp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Grimgrin, Corpse-Born",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:eda9f1a2177f",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Hammerhead, Maggia Boss",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Hammerhead, Maggia Boss",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:14887b775619",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Haunt of the Dead Marshes",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Haunt of the Dead Marshes",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:9a6acddb16f9",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Hawkeye, Avenging Archer",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Hawkeye, Avenging Archer",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:4f75198676b9",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Heartless Summoning",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Heartless Summoning",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:1afa702e31d0",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Hellkite Charger",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Hellkite Charger",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:bf8d542cb185",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Chaos Warp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:0d6ddeabc48f",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "HYDRA Troopers",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=HYDRA Troopers",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:3aae3e8f4a02",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Immortal Phoenix",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Immortal Phoenix",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:15816773de05",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Immortal Phoenix",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Immortal Phoenix",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:cd4670785dbe",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Initiates of the Ebon Hand",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Initiates of the Ebon Hand",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:cb9abf0651ec",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Tony Stark",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Iron Man, Tony Stark",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:59933ef5da98",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Jack of Hearts, Volatile Hero",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Jack of Hearts, Volatile Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:95daed7eb00c",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Jadzi, Steward of Fate // Oracle's Gift",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Jadzi, Steward of Fate // Oracle's Gift",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:9687e9925a86",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Jaxis, the Troublemaker",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Jaxis, the Troublemaker",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:b7a487f03880",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Joo Dee, One of Many",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Joo Dee, One of Many",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:ba8eafe0c1d7",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Juri, Master of the Revue",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Juri, Master of the Revue",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:d2bdc7d40f94",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "K'un-Lun Warrior",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=K'un-Lun Warrior",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:cf4f624caf41",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Kaervek, the Spiteful",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Kaervek, the Spiteful",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:b0444bed6dbe",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Kefka, Court Mage // Kefka, Ruler of Ruin",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:c25686be8b21",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Kellogg, Dangerous Mind",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Kellogg, Dangerous Mind",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:bda755d19eb9",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Kels, Fight Fixer",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Kels, Fight Fixer",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:2cc31194ccab",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Kels, Fight Fixer",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Kels, Fight Fixer",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:1c50983e9bad",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Killmonger, Ruthless Usurper",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Killmonger, Ruthless Usurper",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:ada18cd05b31",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Kindred Discovery",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Kindred Discovery",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:a244ab63399b",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Kindred Discovery",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Kindred Discovery",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:04ead10112d7",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Kingpin's Enforcers",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Kingpin's Enforcers",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:8ae9d29320a1",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Kingpin, Wilson Fisk",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Kingpin, Wilson Fisk",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:30c86f002c63",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Krav, the Unredeemed",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Krav, the Unredeemed",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:9e96cf9d64bd",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Krav, the Unredeemed",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Krav, the Unredeemed",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:cbc040dacb43",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Krenko, Baron of Tin Street",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Krenko, Baron of Tin Street",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:63ce64496453",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Krenko, Baron of Tin Street",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Krenko, Baron of Tin Street",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:f75becceba6b",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:dcfd52d99e2f",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Leitmotif Composer",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Leitmotif Composer",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:4bc045df5a0a",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Liliana, Dreadhorde General",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Liliana, Dreadhorde General",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:5dec8097535f",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Liliana, Dreadhorde General",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Liliana, Dreadhorde General",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:85bae1b6fbb5",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Loyal Apprentice",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Loyal Apprentice",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:41d56597b650",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Luke Cage, Hero for Hire",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Luke Cage, Hero for Hire",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:06dbf0f23d12",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Madame Hydra",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Madame Hydra",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:0a73734ef82a",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Madame Masque",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Madame Masque",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:ef9250e356d3",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Magmatic Galleon",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Magmatic Galleon",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:282901a6b237",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Magus of the Wheel",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Magus of the Wheel",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:2a0b4a5438ce",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Malevolent Hermit // Benevolent Geist",
+    "cut": "Not of This World",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Malevolent Hermit // Benevolent Geist",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:46f44f2859b7",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Marang River Prowler",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Marang River Prowler",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:ebfd99596bcb",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "March of the Machines",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=March of the Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:72e47801a0c3",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Marionette Master",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Marionette Master",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:47ec9dde715e",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Martyr of Ashes",
+    "cut": "Blasphemous Act",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Martyr of Ashes",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:69d3ec3f8cd3",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Martyr of Frost",
+    "cut": "Not of This World",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Martyr of Frost",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:36975103ebeb",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Massacre Girl",
+    "cut": "Blasphemous Act",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Massacre Girl",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:7feb8b456055",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Massacre Girl, Known Killer",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Massacre Girl, Known Killer",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:11eedf84eeef",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Massacre Girl, Most Wanted",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Massacre Girl, Most Wanted",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:607e0007d081",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Matoya, Archon Elder",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Matoya, Archon Elder",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:7354b5d7f93c",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Matoya, Archon Elder",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Matoya, Archon Elder",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:cfad0cd71640",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Mica, Reader of Ruins",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Mica, Reader of Ruins",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:c89cb4afd11d",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:4c29f8ac6b6b",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Mindreaver",
+    "cut": "Not of This World",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Mindreaver",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:bf852b0c9c6b",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Mischievous Mystic",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Mischievous Mystic",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:4ac9a13b19fc",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Mister Fantastic, Reed Richards",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Mister Fantastic, Reed Richards",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:3468f6410f30",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Mister Fantastic, Reed Richards",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Mister Fantastic, Reed Richards",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:951b0739dfbd",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Moonstone Eulogist",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Moonstone Eulogist",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:1be3c7dee542",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Moonstone Eulogist",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Moonstone Eulogist",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:4d7bb0e4a8c2",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Mortus Strider",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Mortus Strider",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:7f9fbec0fbfa",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Mortus Strider",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Mortus Strider",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:31875f5187aa",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Murmuring Mystic",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Murmuring Mystic",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:e6f7548df30c",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Mycosynth Lattice",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Mycosynth Lattice",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:19c11a0b1803",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Mycosynth Lattice",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Mycosynth Lattice",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:a4a60e021c33",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Nadier's Nightblade",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Nadier's Nightblade",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:3cb7090f8672",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:42ca34dca635",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Nest of Scarabs",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Nest of Scarabs",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:b368e99231d2",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Nest of Scarabs",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Nest of Scarabs",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:424f235d51c9",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Night of Souls' Betrayal",
+    "cut": "Blasphemous Act",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Night of Souls' Betrayal",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:597621f0f1d9",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Nim Deathmantle",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Nim Deathmantle",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:b2348e6a3489",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Nim Deathmantle",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Nim Deathmantle",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:590cf5ae5c5d",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Niv-Mizzet, Visionary",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Niv-Mizzet, Visionary",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:59cae4c313c2",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Niv-Mizzet, Visionary",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Niv-Mizzet, Visionary",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:9bcd11d0030f",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Oathkeeper, Takeno's Daisho",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Oathkeeper, Takeno's Daisho",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:ef466c19bb9e",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Oathkeeper, Takeno's Daisho",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Oathkeeper, Takeno's Daisho",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:8f6cf503a1e4",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Oathsworn Vampire",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Oathsworn Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:ad445e215995",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Orthion, Hero of Lavabrink",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Orthion, Hero of Lavabrink",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:50dd8a5dc0e3",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Ozox, the Clattering King",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Ozox, the Clattering King",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:f56c0f9a8ced",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Ozox, the Clattering King",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Ozox, the Clattering King",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:3e1ebf5e5a16",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Pashalik Mons",
+    "cut": "Chaos Warp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Pashalik Mons",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:35f0fb5bcf8d",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Phantom Train",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Phantom Train",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:fee5863c6f23",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Phantom Train",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Phantom Train",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:f08fb88b6b93",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Phyrexian Ghoul",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Phyrexian Ghoul",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:c2e5687b6846",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Phyrexian Ghoul",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Phyrexian Ghoul",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:14727e1cbf3e",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Pia, Determined Rebuilder",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Pia, Determined Rebuilder",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:c7333b58f819",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Piper of the Swarm",
+    "cut": "Chaos Warp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Piper of the Swarm",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:0777441c402f",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Plaguecrafter",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Plaguecrafter",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:0e924f6ce315",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Poppet Stitcher // Poppet Factory",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Poppet Stitcher // Poppet Factory",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:a72078f5d66c",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Popular Egotist",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Popular Egotist",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:2f93c43bfe20",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Popular Egotist",
+    "cut": "Not of This World",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Popular Egotist",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:5057f6d18961",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Priest of Forgotten Gods",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Priest of Forgotten Gods",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:ec2088857a20",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Prismite",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Prismite",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:f988a2f5643c",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Professional Face-Breaker",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Professional Face-Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:c8593e4fc6ba",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Prosperous Thief",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Prosperous Thief",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:a1e310e780a3",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Puppet Master, String Puller",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Puppet Master, String Puller",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:bc463eedc65f",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Raptor Hatchling",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Raptor Hatchling",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:603fd2e04c57",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Raptor Hatchling",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Raptor Hatchling",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:4f32186b0e07",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Razorlash Transmogrant",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Razorlash Transmogrant",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:6b89acd0b555",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Reassembling Skeleton",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Reassembling Skeleton",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:900f32d5110c",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Red Ghost, Intangible Genius",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Red Ghost, Intangible Genius",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:52fd6ee734b5",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Relentless Dead",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Relentless Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:9952a99642b0",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Relentless Dead",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Relentless Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:aff3f83df763",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Relic Vial",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Relic Vial",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:5dc75856fccc",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Relic Vial",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Relic Vial",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:815222700d0d",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:e560c1b0b6b8",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Rev, Tithe Extractor",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Rev, Tithe Extractor",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:00b553176ee7",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Rionya, Fire Dancer",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Rionya, Fire Dancer",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:676eccf15546",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Ronin, Shadow Stalker",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Ronin, Shadow Stalker",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:96a4f4d2d0c8",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Rooftop Storm",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Rooftop Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:0872e8893ac9",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Ruthless Technomancer",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Ruthless Technomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:f2cfafe88a3c",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Sage of the Falls",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Sage of the Falls",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:6d02a5341cfb",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Sage of the Falls",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Sage of the Falls",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:fe1bc8450023",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Saheeli, Jewel of Avishkar",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Saheeli, Jewel of Avishkar",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:15f66436aab1",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Sai, Master Thopterist",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Sai, Master Thopterist",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:b8a78bc5a5e0",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Scuttletide",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Scuttletide",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:68cf90f62ae5",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Scuttletide",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Scuttletide",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:be72935afd5f",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Sedgemoor Witch",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Sedgemoor Witch",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:a9c9c6642b38",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Sengir Autocrat",
+    "cut": "Blasphemous Act",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Sengir Autocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:b1be3fabd20a",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Shadow the Hedgehog",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Shadow the Hedgehog",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:3266412afb68",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Shadow the Hedgehog",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Shadow the Hedgehog",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:c1da40f39eaf",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Shadowheart, Dark Justiciar",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Shadowheart, Dark Justiciar",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:7557b4a5c02f",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Shaun, Father of Synths",
+    "cut": "Blasphemous Act",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Shaun, Father of Synths",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:22ae60af6518",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Sheoldred, the Apocalypse",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Sheoldred, the Apocalypse",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:40f7a7c810e1",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Sheoldred, the Apocalypse",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Sheoldred, the Apocalypse",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:e883561e7152",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Shivan Phoenix",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Shivan Phoenix",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:17a84ae7b847",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Shivan Phoenix",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Shivan Phoenix",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:7b017ecb7946",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Signpost Scarecrow",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Signpost Scarecrow",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:42018bfec0ed",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Silumgar Sorcerer",
+    "cut": "Not of This World",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Silumgar Sorcerer",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:1b33e35a1e16",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Silverclad Ferocidons",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Silverclad Ferocidons",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:405bf19d8ecf",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Silverclad Ferocidons",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Silverclad Ferocidons",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:80085635e013",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Skirge Familiar",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Skirge Familiar",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:92b638ea84d3",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Slick Imitator",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Slick Imitator",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:19a132fcb492",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Slick Imitator",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Slick Imitator",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:0d59e900aeed",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Smaug the Impenetrable",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Smaug the Impenetrable",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:61d292a10bdd",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Smothering Abomination",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Smothering Abomination",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:1716378b6c21",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Smothering Abomination",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Smothering Abomination",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:3ef8ebd7445f",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "South Wind Avatar",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=South Wind Avatar",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:00695d60a790",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "South Wind Avatar",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=South Wind Avatar",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:214b8b90a511",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Spawning Pit",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Spawning Pit",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:8a7314f1e7fc",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Spawning Pit",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Spawning Pit",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:bec5d42991de",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Spawnsire of Ulamog",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Spawnsire of Ulamog",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:a2834dcd1c6b",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Species Specialist",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Species Specialist",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:96d7fc547da2",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Species Specialist",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Species Specialist",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:843fa2145a50",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Stark Industries Executive",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Stark Industries Executive",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:f15a61f3ed6d",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Starving Revenant",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Starving Revenant",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:95c211eb6ce7",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Starving Revenant",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Starving Revenant",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:17991d2d2d82",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Stilt-Man, Towering Terror",
+    "cut": "Chaos Warp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Stilt-Man, Towering Terror",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:779672496dea",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Stonework Packbeast",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Stonework Packbeast",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:f57736e4ffb6",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Stridehangar Automaton",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Stridehangar Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:f6d62d93af45",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Summoning Station",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Summoning Station",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:c203c294bcd6",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Summoning Station",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Summoning Station",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:bd037d31a023",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Susurian Voidborn",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Susurian Voidborn",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:9ac89b0f1eff",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Susurian Voidborn",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Susurian Voidborn",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:d5b3128f647e",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Symmetry Matrix",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Symmetry Matrix",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:da709c2963ad",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Symmetry Matrix",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Symmetry Matrix",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:8d95aee38697",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Syr Konrad, the Grim",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Syr Konrad, the Grim",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:2a60e37daacd",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Tenacious Dead",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Tenacious Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:9241dfb5db62",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Tenacious Dead",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Tenacious Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:6de8e24f16b3",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "The Ghoul, Gunslinger",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=The Ghoul, Gunslinger",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:768afe8b08f4",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "The Master of Lake-town",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=The Master of Lake-town",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:1f451e8e3b20",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "The Ruinous Wrecking Crew",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=The Ruinous Wrecking Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:53c34062c1cb",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "The Sibsig Ceremony",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=The Sibsig Ceremony",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:03e188042c83",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "The Sibsig Ceremony",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=The Sibsig Ceremony",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:5f8278359a3e",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Thermopod",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Thermopod",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:d033b85a90f6",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Third Path Iconoclast",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Third Path Iconoclast",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:eabe5ee6854e",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Thousand-Faced Shadow",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Thousand-Faced Shadow",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:126465189291",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Chaos Warp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:9284fa6a3909",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Tombstone Stairwell",
+    "cut": "Blasphemous Act",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Tombstone Stairwell",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:518f452c72c2",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Chaos Warp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:bfb8b0174b95",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Umbral Collar Zealot",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Umbral Collar Zealot",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:1cfdf73cbc6f",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Undead Sprinter",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Undead Sprinter",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:db32e9a4907d",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Unfulfilled Desires",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Unfulfilled Desires",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:e5a4189d552f",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Unfulfilled Desires",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Unfulfilled Desires",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:045378433ef2",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Urza, Lord High Artificer",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Urza, Lord High Artificer",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:cadb46f79ad9",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Vein Ripper",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Vein Ripper",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:60881ddc7ba5",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Vein Ripper",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Vein Ripper",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:f78c0a51053f",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Venerated Stormsinger",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Venerated Stormsinger",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:f91979506f0d",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Venerated Stormsinger",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Venerated Stormsinger",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:787eec21fc92",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Vengeful Bloodwitch",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Vengeful Bloodwitch",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:b3221a721cd0",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Vengeful Bloodwitch",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Vengeful Bloodwitch",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:e160756ddfe8",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Venser, Fervent Forger",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Venser, Fervent Forger",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:34ca7196ae44",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Vindictive Vampire",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Vindictive Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:b1f3f7f1a039",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Vindictive Vampire",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Vindictive Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:239f78c6685a",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Voidmage Prodigy",
+    "cut": "Not of This World",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Voidmage Prodigy",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:4ec903e1eec0",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Weatherlight Compleated",
+    "cut": "Braids, Arisen Nightmare",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Weatherlight Compleated",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:ec9cd7479079",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Weatherlight Compleated",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Weatherlight Compleated",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:703419200583",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Whirler Rogue",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Whirler Rogue",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:94cfb993ceba",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Winter, Tormented Loner",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Winter, Tormented Loner",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:1900e6c20092",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Witch of the Moors",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Witch of the Moors",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:2ef9ee092b09",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Xiahou Dun, the One-Eyed",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Xiahou Dun, the One-Eyed",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:24b445a74f78",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Yahenni, Undying Partisan",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Yahenni, Undying Partisan",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:84d187a3ccbe",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Yahenni, Undying Partisan",
+    "cut": "My Precious // Allure of Power",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Yahenni, Undying Partisan",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:97aa34790bae",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   },
+   {
+    "add": "Young Pyromancer",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#card=Young Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:9ef114210964",
+     "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Tresserhorn_s_Lord__Returned",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz"
+  ],
+  "list_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:tresserhorns-lord-returned:performance:v1",
+  "recommendations": [
+   {
+    "add": "Dimir Signet",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:e12d4241cf22",
+     "m5_test:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=test:tresserhorns-lord-returned:goldfish:2c3cfb17cc9abc31"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:8a04c69ec596",
+     "m5_test:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=test:tresserhorns-lord-returned:goldfish:1efdfeb2bd275c36"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=swap:tresserhorns-lord-returned:m5:6146373ad46c",
+     "m5_test:data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz#id=test:tresserhorns-lord-returned:goldfish:18e2e71b81643d26"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:tresserhorns-lord-returned:m5:00695d60a790",
+   "swap:tresserhorns-lord-returned:m5:00b553176ee7",
+   "swap:tresserhorns-lord-returned:m5:03e188042c83",
+   "swap:tresserhorns-lord-returned:m5:045378433ef2",
+   "swap:tresserhorns-lord-returned:m5:04bbc1196f7a",
+   "swap:tresserhorns-lord-returned:m5:04ead10112d7",
+   "swap:tresserhorns-lord-returned:m5:06dbf0f23d12",
+   "swap:tresserhorns-lord-returned:m5:073790fd4e53",
+   "swap:tresserhorns-lord-returned:m5:0777441c402f",
+   "swap:tresserhorns-lord-returned:m5:07c1e03ba67e",
+   "swap:tresserhorns-lord-returned:m5:0872e8893ac9",
+   "swap:tresserhorns-lord-returned:m5:0a73734ef82a",
+   "swap:tresserhorns-lord-returned:m5:0c00f1deb290",
+   "swap:tresserhorns-lord-returned:m5:0d55f17c3089",
+   "swap:tresserhorns-lord-returned:m5:0d59e900aeed",
+   "swap:tresserhorns-lord-returned:m5:0d6ddeabc48f",
+   "swap:tresserhorns-lord-returned:m5:0e924f6ce315",
+   "swap:tresserhorns-lord-returned:m5:11eedf84eeef",
+   "swap:tresserhorns-lord-returned:m5:126465189291",
+   "swap:tresserhorns-lord-returned:m5:14727e1cbf3e",
+   "swap:tresserhorns-lord-returned:m5:14887b775619",
+   "swap:tresserhorns-lord-returned:m5:15816773de05",
+   "swap:tresserhorns-lord-returned:m5:15f66436aab1",
+   "swap:tresserhorns-lord-returned:m5:1716378b6c21",
+   "swap:tresserhorns-lord-returned:m5:17991d2d2d82",
+   "swap:tresserhorns-lord-returned:m5:17a84ae7b847",
+   "swap:tresserhorns-lord-returned:m5:1900e6c20092",
+   "swap:tresserhorns-lord-returned:m5:19a132fcb492",
+   "swap:tresserhorns-lord-returned:m5:19c11a0b1803",
+   "swap:tresserhorns-lord-returned:m5:1afa702e31d0",
+   "swap:tresserhorns-lord-returned:m5:1b33e35a1e16",
+   "swap:tresserhorns-lord-returned:m5:1b45f7a93360",
+   "swap:tresserhorns-lord-returned:m5:1be3c7dee542",
+   "swap:tresserhorns-lord-returned:m5:1c50983e9bad",
+   "swap:tresserhorns-lord-returned:m5:1cfdf73cbc6f",
+   "swap:tresserhorns-lord-returned:m5:1d903ec7b9e7",
+   "swap:tresserhorns-lord-returned:m5:1f451e8e3b20",
+   "swap:tresserhorns-lord-returned:m5:214b8b90a511",
+   "swap:tresserhorns-lord-returned:m5:22358752eae3",
+   "swap:tresserhorns-lord-returned:m5:22ae60af6518",
+   "swap:tresserhorns-lord-returned:m5:239f78c6685a",
+   "swap:tresserhorns-lord-returned:m5:24b445a74f78",
+   "swap:tresserhorns-lord-returned:m5:25b8547d3436",
+   "swap:tresserhorns-lord-returned:m5:27527631e371",
+   "swap:tresserhorns-lord-returned:m5:282901a6b237",
+   "swap:tresserhorns-lord-returned:m5:2a0b4a5438ce",
+   "swap:tresserhorns-lord-returned:m5:2a60e37daacd",
+   "swap:tresserhorns-lord-returned:m5:2af8acf40a22",
+   "swap:tresserhorns-lord-returned:m5:2c4314fc48d2",
+   "swap:tresserhorns-lord-returned:m5:2cc31194ccab",
+   "swap:tresserhorns-lord-returned:m5:2db1c46216af",
+   "swap:tresserhorns-lord-returned:m5:2e29ea537d4e",
+   "swap:tresserhorns-lord-returned:m5:2ecb36b59ab6",
+   "swap:tresserhorns-lord-returned:m5:2ef9ee092b09",
+   "swap:tresserhorns-lord-returned:m5:2f93c43bfe20",
+   "swap:tresserhorns-lord-returned:m5:301eba2ef97f",
+   "swap:tresserhorns-lord-returned:m5:30c86f002c63",
+   "swap:tresserhorns-lord-returned:m5:31875f5187aa",
+   "swap:tresserhorns-lord-returned:m5:31d93dfe06ec",
+   "swap:tresserhorns-lord-returned:m5:31f169f42032",
+   "swap:tresserhorns-lord-returned:m5:3214979a3903",
+   "swap:tresserhorns-lord-returned:m5:3266412afb68",
+   "swap:tresserhorns-lord-returned:m5:3468f6410f30",
+   "swap:tresserhorns-lord-returned:m5:34b4800d9b2c",
+   "swap:tresserhorns-lord-returned:m5:34ca7196ae44",
+   "swap:tresserhorns-lord-returned:m5:35f0fb5bcf8d",
+   "swap:tresserhorns-lord-returned:m5:36975103ebeb",
+   "swap:tresserhorns-lord-returned:m5:3719a380be61",
+   "swap:tresserhorns-lord-returned:m5:399ca8ae0ca7",
+   "swap:tresserhorns-lord-returned:m5:3aae3e8f4a02",
+   "swap:tresserhorns-lord-returned:m5:3ae786ff43c9",
+   "swap:tresserhorns-lord-returned:m5:3cb7090f8672",
+   "swap:tresserhorns-lord-returned:m5:3e1ebf5e5a16",
+   "swap:tresserhorns-lord-returned:m5:3ef8ebd7445f",
+   "swap:tresserhorns-lord-returned:m5:405bf19d8ecf",
+   "swap:tresserhorns-lord-returned:m5:40f7a7c810e1",
+   "swap:tresserhorns-lord-returned:m5:41d56597b650",
+   "swap:tresserhorns-lord-returned:m5:42018bfec0ed",
+   "swap:tresserhorns-lord-returned:m5:4207ca8373ff",
+   "swap:tresserhorns-lord-returned:m5:424f235d51c9",
+   "swap:tresserhorns-lord-returned:m5:42ca34dca635",
+   "swap:tresserhorns-lord-returned:m5:431754a8612d",
+   "swap:tresserhorns-lord-returned:m5:43e51f93804f",
+   "swap:tresserhorns-lord-returned:m5:43f299dfbfc0",
+   "swap:tresserhorns-lord-returned:m5:45af671dd6f9",
+   "swap:tresserhorns-lord-returned:m5:46f44f2859b7",
+   "swap:tresserhorns-lord-returned:m5:47ec9dde715e",
+   "swap:tresserhorns-lord-returned:m5:48c2bef0e220",
+   "swap:tresserhorns-lord-returned:m5:4ac9a13b19fc",
+   "swap:tresserhorns-lord-returned:m5:4b19cc647690",
+   "swap:tresserhorns-lord-returned:m5:4bc045df5a0a",
+   "swap:tresserhorns-lord-returned:m5:4bc1d41b7135",
+   "swap:tresserhorns-lord-returned:m5:4c29f8ac6b6b",
+   "swap:tresserhorns-lord-returned:m5:4d7bb0e4a8c2",
+   "swap:tresserhorns-lord-returned:m5:4ec903e1eec0",
+   "swap:tresserhorns-lord-returned:m5:4f32186b0e07",
+   "swap:tresserhorns-lord-returned:m5:4f75198676b9",
+   "swap:tresserhorns-lord-returned:m5:5057f6d18961",
+   "swap:tresserhorns-lord-returned:m5:50dd8a5dc0e3",
+   "swap:tresserhorns-lord-returned:m5:518f452c72c2",
+   "swap:tresserhorns-lord-returned:m5:52fd6ee734b5",
+   "swap:tresserhorns-lord-returned:m5:53c34062c1cb",
+   "swap:tresserhorns-lord-returned:m5:5412d385d198",
+   "swap:tresserhorns-lord-returned:m5:55e9a29373c0",
+   "swap:tresserhorns-lord-returned:m5:571dee950f1e",
+   "swap:tresserhorns-lord-returned:m5:590cf5ae5c5d",
+   "swap:tresserhorns-lord-returned:m5:597621f0f1d9",
+   "swap:tresserhorns-lord-returned:m5:59933ef5da98",
+   "swap:tresserhorns-lord-returned:m5:59cae4c313c2",
+   "swap:tresserhorns-lord-returned:m5:5a792588999d",
+   "swap:tresserhorns-lord-returned:m5:5dc75856fccc",
+   "swap:tresserhorns-lord-returned:m5:5dec8097535f",
+   "swap:tresserhorns-lord-returned:m5:5f8278359a3e",
+   "swap:tresserhorns-lord-returned:m5:603fd2e04c57",
+   "swap:tresserhorns-lord-returned:m5:607e0007d081",
+   "swap:tresserhorns-lord-returned:m5:60881ddc7ba5",
+   "swap:tresserhorns-lord-returned:m5:6146373ad46c",
+   "swap:tresserhorns-lord-returned:m5:61d292a10bdd",
+   "swap:tresserhorns-lord-returned:m5:63ce64496453",
+   "swap:tresserhorns-lord-returned:m5:65e9a2e56b52",
+   "swap:tresserhorns-lord-returned:m5:676eccf15546",
+   "swap:tresserhorns-lord-returned:m5:68b8904122f6",
+   "swap:tresserhorns-lord-returned:m5:68cf90f62ae5",
+   "swap:tresserhorns-lord-returned:m5:692d105ad1f7",
+   "swap:tresserhorns-lord-returned:m5:69d3ec3f8cd3",
+   "swap:tresserhorns-lord-returned:m5:6a2864bfb4c1",
+   "swap:tresserhorns-lord-returned:m5:6b89acd0b555",
+   "swap:tresserhorns-lord-returned:m5:6d02a5341cfb",
+   "swap:tresserhorns-lord-returned:m5:6de8e24f16b3",
+   "swap:tresserhorns-lord-returned:m5:703419200583",
+   "swap:tresserhorns-lord-returned:m5:72245f160ac9",
+   "swap:tresserhorns-lord-returned:m5:72493abf68c8",
+   "swap:tresserhorns-lord-returned:m5:72e47801a0c3",
+   "swap:tresserhorns-lord-returned:m5:7354b5d7f93c",
+   "swap:tresserhorns-lord-returned:m5:7557b4a5c02f",
+   "swap:tresserhorns-lord-returned:m5:7617aff2a619",
+   "swap:tresserhorns-lord-returned:m5:768afe8b08f4",
+   "swap:tresserhorns-lord-returned:m5:779672496dea",
+   "swap:tresserhorns-lord-returned:m5:77aae48060a5",
+   "swap:tresserhorns-lord-returned:m5:787eec21fc92",
+   "swap:tresserhorns-lord-returned:m5:7931ad5cafe0",
+   "swap:tresserhorns-lord-returned:m5:7a9c4ddad90e",
+   "swap:tresserhorns-lord-returned:m5:7aa7f8572b9f",
+   "swap:tresserhorns-lord-returned:m5:7b017ecb7946",
+   "swap:tresserhorns-lord-returned:m5:7b436690a439",
+   "swap:tresserhorns-lord-returned:m5:7d39d26da11f",
+   "swap:tresserhorns-lord-returned:m5:7f9fbec0fbfa",
+   "swap:tresserhorns-lord-returned:m5:7feb8b456055",
+   "swap:tresserhorns-lord-returned:m5:80085635e013",
+   "swap:tresserhorns-lord-returned:m5:815222700d0d",
+   "swap:tresserhorns-lord-returned:m5:82529be35809",
+   "swap:tresserhorns-lord-returned:m5:83c7a7c1f053",
+   "swap:tresserhorns-lord-returned:m5:843fa2145a50",
+   "swap:tresserhorns-lord-returned:m5:84d187a3ccbe",
+   "swap:tresserhorns-lord-returned:m5:85bae1b6fbb5",
+   "swap:tresserhorns-lord-returned:m5:87e968b733cd",
+   "swap:tresserhorns-lord-returned:m5:8a04c69ec596",
+   "swap:tresserhorns-lord-returned:m5:8a4d1fcaacc9",
+   "swap:tresserhorns-lord-returned:m5:8a7314f1e7fc",
+   "swap:tresserhorns-lord-returned:m5:8a8e8ed4f8c8",
+   "swap:tresserhorns-lord-returned:m5:8ae9d29320a1",
+   "swap:tresserhorns-lord-returned:m5:8d95aee38697",
+   "swap:tresserhorns-lord-returned:m5:8f6cf503a1e4",
+   "swap:tresserhorns-lord-returned:m5:900f32d5110c",
+   "swap:tresserhorns-lord-returned:m5:902f7b894ebb",
+   "swap:tresserhorns-lord-returned:m5:9241dfb5db62",
+   "swap:tresserhorns-lord-returned:m5:9284fa6a3909",
+   "swap:tresserhorns-lord-returned:m5:92b638ea84d3",
+   "swap:tresserhorns-lord-returned:m5:94cfb993ceba",
+   "swap:tresserhorns-lord-returned:m5:951b0739dfbd",
+   "swap:tresserhorns-lord-returned:m5:95c211eb6ce7",
+   "swap:tresserhorns-lord-returned:m5:95d430d464fa",
+   "swap:tresserhorns-lord-returned:m5:95daed7eb00c",
+   "swap:tresserhorns-lord-returned:m5:9687e9925a86",
+   "swap:tresserhorns-lord-returned:m5:96a4f4d2d0c8",
+   "swap:tresserhorns-lord-returned:m5:96d7fc547da2",
+   "swap:tresserhorns-lord-returned:m5:97aa34790bae",
+   "swap:tresserhorns-lord-returned:m5:993192985c90",
+   "swap:tresserhorns-lord-returned:m5:9952a99642b0",
+   "swap:tresserhorns-lord-returned:m5:9a6acddb16f9",
+   "swap:tresserhorns-lord-returned:m5:9ac89b0f1eff",
+   "swap:tresserhorns-lord-returned:m5:9bcd11d0030f",
+   "swap:tresserhorns-lord-returned:m5:9e96cf9d64bd",
+   "swap:tresserhorns-lord-returned:m5:9ef114210964",
+   "swap:tresserhorns-lord-returned:m5:9ff1e53fef38",
+   "swap:tresserhorns-lord-returned:m5:a0f9cbde03f8",
+   "swap:tresserhorns-lord-returned:m5:a1e310e780a3",
+   "swap:tresserhorns-lord-returned:m5:a244ab63399b",
+   "swap:tresserhorns-lord-returned:m5:a27ff886f873",
+   "swap:tresserhorns-lord-returned:m5:a2834dcd1c6b",
+   "swap:tresserhorns-lord-returned:m5:a284b4a196cc",
+   "swap:tresserhorns-lord-returned:m5:a4a60e021c33",
+   "swap:tresserhorns-lord-returned:m5:a4c6f06a6218",
+   "swap:tresserhorns-lord-returned:m5:a6a8ebdd9763",
+   "swap:tresserhorns-lord-returned:m5:a72078f5d66c",
+   "swap:tresserhorns-lord-returned:m5:a8158b8a6e70",
+   "swap:tresserhorns-lord-returned:m5:a987045d9d9c",
+   "swap:tresserhorns-lord-returned:m5:a9c9c6642b38",
+   "swap:tresserhorns-lord-returned:m5:ad445e215995",
+   "swap:tresserhorns-lord-returned:m5:ada18cd05b31",
+   "swap:tresserhorns-lord-returned:m5:aff3f83df763",
+   "swap:tresserhorns-lord-returned:m5:b0444bed6dbe",
+   "swap:tresserhorns-lord-returned:m5:b1be3fabd20a",
+   "swap:tresserhorns-lord-returned:m5:b1f3f7f1a039",
+   "swap:tresserhorns-lord-returned:m5:b2348e6a3489",
+   "swap:tresserhorns-lord-returned:m5:b2d454139069",
+   "swap:tresserhorns-lord-returned:m5:b3221a721cd0",
+   "swap:tresserhorns-lord-returned:m5:b362d95fb16a",
+   "swap:tresserhorns-lord-returned:m5:b368e99231d2",
+   "swap:tresserhorns-lord-returned:m5:b7a487f03880",
+   "swap:tresserhorns-lord-returned:m5:b822229cfab9",
+   "swap:tresserhorns-lord-returned:m5:b8a78bc5a5e0",
+   "swap:tresserhorns-lord-returned:m5:b9ddaf37071e",
+   "swap:tresserhorns-lord-returned:m5:ba8eafe0c1d7",
+   "swap:tresserhorns-lord-returned:m5:bba859068b90",
+   "swap:tresserhorns-lord-returned:m5:bc463eedc65f",
+   "swap:tresserhorns-lord-returned:m5:bd037d31a023",
+   "swap:tresserhorns-lord-returned:m5:bda755d19eb9",
+   "swap:tresserhorns-lord-returned:m5:be72935afd5f",
+   "swap:tresserhorns-lord-returned:m5:bec5d42991de",
+   "swap:tresserhorns-lord-returned:m5:bf852b0c9c6b",
+   "swap:tresserhorns-lord-returned:m5:bf8d542cb185",
+   "swap:tresserhorns-lord-returned:m5:bfb8b0174b95",
+   "swap:tresserhorns-lord-returned:m5:c0e54733af70",
+   "swap:tresserhorns-lord-returned:m5:c1da40f39eaf",
+   "swap:tresserhorns-lord-returned:m5:c203c294bcd6",
+   "swap:tresserhorns-lord-returned:m5:c25686be8b21",
+   "swap:tresserhorns-lord-returned:m5:c2e5687b6846",
+   "swap:tresserhorns-lord-returned:m5:c2f8b564aa13",
+   "swap:tresserhorns-lord-returned:m5:c7333b58f819",
+   "swap:tresserhorns-lord-returned:m5:c8593e4fc6ba",
+   "swap:tresserhorns-lord-returned:m5:c89cb4afd11d",
+   "swap:tresserhorns-lord-returned:m5:c92abb06550a",
+   "swap:tresserhorns-lord-returned:m5:ca26bf276725",
+   "swap:tresserhorns-lord-returned:m5:cadb46f79ad9",
+   "swap:tresserhorns-lord-returned:m5:cb9abf0651ec",
+   "swap:tresserhorns-lord-returned:m5:cbc040dacb43",
+   "swap:tresserhorns-lord-returned:m5:ccb1c6bbadb7",
+   "swap:tresserhorns-lord-returned:m5:cd4670785dbe",
+   "swap:tresserhorns-lord-returned:m5:ce959cd2cb98",
+   "swap:tresserhorns-lord-returned:m5:cec933566cc1",
+   "swap:tresserhorns-lord-returned:m5:cf4f624caf41",
+   "swap:tresserhorns-lord-returned:m5:cfad0cd71640",
+   "swap:tresserhorns-lord-returned:m5:d033b85a90f6",
+   "swap:tresserhorns-lord-returned:m5:d1e38e0e8d1e",
+   "swap:tresserhorns-lord-returned:m5:d2bdc7d40f94",
+   "swap:tresserhorns-lord-returned:m5:d2c398e19255",
+   "swap:tresserhorns-lord-returned:m5:d3bf08afc8f9",
+   "swap:tresserhorns-lord-returned:m5:d525160c4272",
+   "swap:tresserhorns-lord-returned:m5:d5b3128f647e",
+   "swap:tresserhorns-lord-returned:m5:d60989a4ec14",
+   "swap:tresserhorns-lord-returned:m5:d681c8cafda0",
+   "swap:tresserhorns-lord-returned:m5:d701246ef27a",
+   "swap:tresserhorns-lord-returned:m5:d889d212e5b7",
+   "swap:tresserhorns-lord-returned:m5:d9fa89d8f5a0",
+   "swap:tresserhorns-lord-returned:m5:da709c2963ad",
+   "swap:tresserhorns-lord-returned:m5:db32e9a4907d",
+   "swap:tresserhorns-lord-returned:m5:dbcd6f31e111",
+   "swap:tresserhorns-lord-returned:m5:dcfd52d99e2f",
+   "swap:tresserhorns-lord-returned:m5:e010d896e0f0",
+   "swap:tresserhorns-lord-returned:m5:e027fbd09060",
+   "swap:tresserhorns-lord-returned:m5:e0764f37e98e",
+   "swap:tresserhorns-lord-returned:m5:e0b6b7a74075",
+   "swap:tresserhorns-lord-returned:m5:e12d4241cf22",
+   "swap:tresserhorns-lord-returned:m5:e160756ddfe8",
+   "swap:tresserhorns-lord-returned:m5:e249c313e81a",
+   "swap:tresserhorns-lord-returned:m5:e560c1b0b6b8",
+   "swap:tresserhorns-lord-returned:m5:e5a4189d552f",
+   "swap:tresserhorns-lord-returned:m5:e6f7548df30c",
+   "swap:tresserhorns-lord-returned:m5:e72403559785",
+   "swap:tresserhorns-lord-returned:m5:e74fd9cb4c70",
+   "swap:tresserhorns-lord-returned:m5:e883561e7152",
+   "swap:tresserhorns-lord-returned:m5:e938826106fa",
+   "swap:tresserhorns-lord-returned:m5:e9fb052397ac",
+   "swap:tresserhorns-lord-returned:m5:eabe5ee6854e",
+   "swap:tresserhorns-lord-returned:m5:ebc791b12184",
+   "swap:tresserhorns-lord-returned:m5:ebfd99596bcb",
+   "swap:tresserhorns-lord-returned:m5:ec2088857a20",
+   "swap:tresserhorns-lord-returned:m5:ec9cd7479079",
+   "swap:tresserhorns-lord-returned:m5:ed01b2ee0a8d",
+   "swap:tresserhorns-lord-returned:m5:eda9f1a2177f",
+   "swap:tresserhorns-lord-returned:m5:ef466c19bb9e",
+   "swap:tresserhorns-lord-returned:m5:ef9250e356d3",
+   "swap:tresserhorns-lord-returned:m5:f08fb88b6b93",
+   "swap:tresserhorns-lord-returned:m5:f15a61f3ed6d",
+   "swap:tresserhorns-lord-returned:m5:f21714423078",
+   "swap:tresserhorns-lord-returned:m5:f28ca80cd727",
+   "swap:tresserhorns-lord-returned:m5:f2cfafe88a3c",
+   "swap:tresserhorns-lord-returned:m5:f56c0f9a8ced",
+   "swap:tresserhorns-lord-returned:m5:f57736e4ffb6",
+   "swap:tresserhorns-lord-returned:m5:f6d62d93af45",
+   "swap:tresserhorns-lord-returned:m5:f75becceba6b",
+   "swap:tresserhorns-lord-returned:m5:f78c0a51053f",
+   "swap:tresserhorns-lord-returned:m5:f7fb7e105783",
+   "swap:tresserhorns-lord-returned:m5:f91979506f0d",
+   "swap:tresserhorns-lord-returned:m5:f988a2f5643c",
+   "swap:tresserhorns-lord-returned:m5:fb4bf94b9bd3",
+   "swap:tresserhorns-lord-returned:m5:fbcdabdd89ad",
+   "swap:tresserhorns-lord-returned:m5:fd8127e4a001",
+   "swap:tresserhorns-lord-returned:m5:fe1bc8450023",
+   "swap:tresserhorns-lord-returned:m5:fee5863c6f23"
+  ],
+  "disagreements": [
+   "swap:tresserhorns-lord-returned:m5:00695d60a790",
+   "swap:tresserhorns-lord-returned:m5:00b553176ee7",
+   "swap:tresserhorns-lord-returned:m5:03e188042c83",
+   "swap:tresserhorns-lord-returned:m5:045378433ef2",
+   "swap:tresserhorns-lord-returned:m5:04bbc1196f7a",
+   "swap:tresserhorns-lord-returned:m5:04ead10112d7",
+   "swap:tresserhorns-lord-returned:m5:06dbf0f23d12",
+   "swap:tresserhorns-lord-returned:m5:073790fd4e53",
+   "swap:tresserhorns-lord-returned:m5:0777441c402f",
+   "swap:tresserhorns-lord-returned:m5:07c1e03ba67e",
+   "swap:tresserhorns-lord-returned:m5:0872e8893ac9",
+   "swap:tresserhorns-lord-returned:m5:0a73734ef82a",
+   "swap:tresserhorns-lord-returned:m5:0c00f1deb290",
+   "swap:tresserhorns-lord-returned:m5:0d55f17c3089",
+   "swap:tresserhorns-lord-returned:m5:0d59e900aeed",
+   "swap:tresserhorns-lord-returned:m5:0d6ddeabc48f",
+   "swap:tresserhorns-lord-returned:m5:0e924f6ce315",
+   "swap:tresserhorns-lord-returned:m5:11eedf84eeef",
+   "swap:tresserhorns-lord-returned:m5:126465189291",
+   "swap:tresserhorns-lord-returned:m5:14727e1cbf3e",
+   "swap:tresserhorns-lord-returned:m5:14887b775619",
+   "swap:tresserhorns-lord-returned:m5:15816773de05",
+   "swap:tresserhorns-lord-returned:m5:15f66436aab1",
+   "swap:tresserhorns-lord-returned:m5:1716378b6c21",
+   "swap:tresserhorns-lord-returned:m5:17991d2d2d82",
+   "swap:tresserhorns-lord-returned:m5:17a84ae7b847",
+   "swap:tresserhorns-lord-returned:m5:1900e6c20092",
+   "swap:tresserhorns-lord-returned:m5:19a132fcb492",
+   "swap:tresserhorns-lord-returned:m5:19c11a0b1803",
+   "swap:tresserhorns-lord-returned:m5:1afa702e31d0",
+   "swap:tresserhorns-lord-returned:m5:1b33e35a1e16",
+   "swap:tresserhorns-lord-returned:m5:1b45f7a93360",
+   "swap:tresserhorns-lord-returned:m5:1be3c7dee542",
+   "swap:tresserhorns-lord-returned:m5:1c50983e9bad",
+   "swap:tresserhorns-lord-returned:m5:1cfdf73cbc6f",
+   "swap:tresserhorns-lord-returned:m5:1d903ec7b9e7",
+   "swap:tresserhorns-lord-returned:m5:1f451e8e3b20",
+   "swap:tresserhorns-lord-returned:m5:214b8b90a511",
+   "swap:tresserhorns-lord-returned:m5:22358752eae3",
+   "swap:tresserhorns-lord-returned:m5:22ae60af6518",
+   "swap:tresserhorns-lord-returned:m5:239f78c6685a",
+   "swap:tresserhorns-lord-returned:m5:24b445a74f78",
+   "swap:tresserhorns-lord-returned:m5:25b8547d3436",
+   "swap:tresserhorns-lord-returned:m5:27527631e371",
+   "swap:tresserhorns-lord-returned:m5:282901a6b237",
+   "swap:tresserhorns-lord-returned:m5:2a0b4a5438ce",
+   "swap:tresserhorns-lord-returned:m5:2a60e37daacd",
+   "swap:tresserhorns-lord-returned:m5:2af8acf40a22",
+   "swap:tresserhorns-lord-returned:m5:2c4314fc48d2",
+   "swap:tresserhorns-lord-returned:m5:2cc31194ccab",
+   "swap:tresserhorns-lord-returned:m5:2db1c46216af",
+   "swap:tresserhorns-lord-returned:m5:2e29ea537d4e",
+   "swap:tresserhorns-lord-returned:m5:2ecb36b59ab6",
+   "swap:tresserhorns-lord-returned:m5:2ef9ee092b09",
+   "swap:tresserhorns-lord-returned:m5:2f93c43bfe20",
+   "swap:tresserhorns-lord-returned:m5:301eba2ef97f",
+   "swap:tresserhorns-lord-returned:m5:30c86f002c63",
+   "swap:tresserhorns-lord-returned:m5:31875f5187aa",
+   "swap:tresserhorns-lord-returned:m5:31d93dfe06ec",
+   "swap:tresserhorns-lord-returned:m5:31f169f42032",
+   "swap:tresserhorns-lord-returned:m5:3214979a3903",
+   "swap:tresserhorns-lord-returned:m5:3266412afb68",
+   "swap:tresserhorns-lord-returned:m5:3468f6410f30",
+   "swap:tresserhorns-lord-returned:m5:34b4800d9b2c",
+   "swap:tresserhorns-lord-returned:m5:34ca7196ae44",
+   "swap:tresserhorns-lord-returned:m5:35f0fb5bcf8d",
+   "swap:tresserhorns-lord-returned:m5:36975103ebeb",
+   "swap:tresserhorns-lord-returned:m5:3719a380be61",
+   "swap:tresserhorns-lord-returned:m5:399ca8ae0ca7",
+   "swap:tresserhorns-lord-returned:m5:3aae3e8f4a02",
+   "swap:tresserhorns-lord-returned:m5:3ae786ff43c9",
+   "swap:tresserhorns-lord-returned:m5:3cb7090f8672",
+   "swap:tresserhorns-lord-returned:m5:3e1ebf5e5a16",
+   "swap:tresserhorns-lord-returned:m5:3ef8ebd7445f",
+   "swap:tresserhorns-lord-returned:m5:405bf19d8ecf",
+   "swap:tresserhorns-lord-returned:m5:40f7a7c810e1",
+   "swap:tresserhorns-lord-returned:m5:41d56597b650",
+   "swap:tresserhorns-lord-returned:m5:42018bfec0ed",
+   "swap:tresserhorns-lord-returned:m5:4207ca8373ff",
+   "swap:tresserhorns-lord-returned:m5:424f235d51c9",
+   "swap:tresserhorns-lord-returned:m5:42ca34dca635",
+   "swap:tresserhorns-lord-returned:m5:431754a8612d",
+   "swap:tresserhorns-lord-returned:m5:43e51f93804f",
+   "swap:tresserhorns-lord-returned:m5:43f299dfbfc0",
+   "swap:tresserhorns-lord-returned:m5:45af671dd6f9",
+   "swap:tresserhorns-lord-returned:m5:46f44f2859b7",
+   "swap:tresserhorns-lord-returned:m5:47ec9dde715e",
+   "swap:tresserhorns-lord-returned:m5:48c2bef0e220",
+   "swap:tresserhorns-lord-returned:m5:4ac9a13b19fc",
+   "swap:tresserhorns-lord-returned:m5:4b19cc647690",
+   "swap:tresserhorns-lord-returned:m5:4bc045df5a0a",
+   "swap:tresserhorns-lord-returned:m5:4bc1d41b7135",
+   "swap:tresserhorns-lord-returned:m5:4c29f8ac6b6b",
+   "swap:tresserhorns-lord-returned:m5:4d7bb0e4a8c2",
+   "swap:tresserhorns-lord-returned:m5:4ec903e1eec0",
+   "swap:tresserhorns-lord-returned:m5:4f32186b0e07",
+   "swap:tresserhorns-lord-returned:m5:4f75198676b9",
+   "swap:tresserhorns-lord-returned:m5:5057f6d18961",
+   "swap:tresserhorns-lord-returned:m5:50dd8a5dc0e3",
+   "swap:tresserhorns-lord-returned:m5:518f452c72c2",
+   "swap:tresserhorns-lord-returned:m5:52fd6ee734b5",
+   "swap:tresserhorns-lord-returned:m5:53c34062c1cb",
+   "swap:tresserhorns-lord-returned:m5:5412d385d198",
+   "swap:tresserhorns-lord-returned:m5:55e9a29373c0",
+   "swap:tresserhorns-lord-returned:m5:571dee950f1e",
+   "swap:tresserhorns-lord-returned:m5:590cf5ae5c5d",
+   "swap:tresserhorns-lord-returned:m5:597621f0f1d9",
+   "swap:tresserhorns-lord-returned:m5:59933ef5da98",
+   "swap:tresserhorns-lord-returned:m5:59cae4c313c2",
+   "swap:tresserhorns-lord-returned:m5:5a792588999d",
+   "swap:tresserhorns-lord-returned:m5:5dc75856fccc",
+   "swap:tresserhorns-lord-returned:m5:5dec8097535f",
+   "swap:tresserhorns-lord-returned:m5:5f8278359a3e",
+   "swap:tresserhorns-lord-returned:m5:603fd2e04c57",
+   "swap:tresserhorns-lord-returned:m5:607e0007d081",
+   "swap:tresserhorns-lord-returned:m5:60881ddc7ba5",
+   "swap:tresserhorns-lord-returned:m5:6146373ad46c",
+   "swap:tresserhorns-lord-returned:m5:61d292a10bdd",
+   "swap:tresserhorns-lord-returned:m5:63ce64496453",
+   "swap:tresserhorns-lord-returned:m5:65e9a2e56b52",
+   "swap:tresserhorns-lord-returned:m5:676eccf15546",
+   "swap:tresserhorns-lord-returned:m5:68b8904122f6",
+   "swap:tresserhorns-lord-returned:m5:68cf90f62ae5",
+   "swap:tresserhorns-lord-returned:m5:692d105ad1f7",
+   "swap:tresserhorns-lord-returned:m5:69d3ec3f8cd3",
+   "swap:tresserhorns-lord-returned:m5:6a2864bfb4c1",
+   "swap:tresserhorns-lord-returned:m5:6b89acd0b555",
+   "swap:tresserhorns-lord-returned:m5:6d02a5341cfb",
+   "swap:tresserhorns-lord-returned:m5:6de8e24f16b3",
+   "swap:tresserhorns-lord-returned:m5:703419200583",
+   "swap:tresserhorns-lord-returned:m5:72245f160ac9",
+   "swap:tresserhorns-lord-returned:m5:72493abf68c8",
+   "swap:tresserhorns-lord-returned:m5:72e47801a0c3",
+   "swap:tresserhorns-lord-returned:m5:7354b5d7f93c",
+   "swap:tresserhorns-lord-returned:m5:7557b4a5c02f",
+   "swap:tresserhorns-lord-returned:m5:7617aff2a619",
+   "swap:tresserhorns-lord-returned:m5:768afe8b08f4",
+   "swap:tresserhorns-lord-returned:m5:779672496dea",
+   "swap:tresserhorns-lord-returned:m5:77aae48060a5",
+   "swap:tresserhorns-lord-returned:m5:787eec21fc92",
+   "swap:tresserhorns-lord-returned:m5:7931ad5cafe0",
+   "swap:tresserhorns-lord-returned:m5:7a9c4ddad90e",
+   "swap:tresserhorns-lord-returned:m5:7aa7f8572b9f",
+   "swap:tresserhorns-lord-returned:m5:7b017ecb7946",
+   "swap:tresserhorns-lord-returned:m5:7b436690a439",
+   "swap:tresserhorns-lord-returned:m5:7d39d26da11f",
+   "swap:tresserhorns-lord-returned:m5:7f9fbec0fbfa",
+   "swap:tresserhorns-lord-returned:m5:7feb8b456055",
+   "swap:tresserhorns-lord-returned:m5:80085635e013",
+   "swap:tresserhorns-lord-returned:m5:815222700d0d",
+   "swap:tresserhorns-lord-returned:m5:82529be35809",
+   "swap:tresserhorns-lord-returned:m5:83c7a7c1f053",
+   "swap:tresserhorns-lord-returned:m5:843fa2145a50",
+   "swap:tresserhorns-lord-returned:m5:84d187a3ccbe",
+   "swap:tresserhorns-lord-returned:m5:85bae1b6fbb5",
+   "swap:tresserhorns-lord-returned:m5:87e968b733cd",
+   "swap:tresserhorns-lord-returned:m5:8a04c69ec596",
+   "swap:tresserhorns-lord-returned:m5:8a4d1fcaacc9",
+   "swap:tresserhorns-lord-returned:m5:8a7314f1e7fc",
+   "swap:tresserhorns-lord-returned:m5:8a8e8ed4f8c8",
+   "swap:tresserhorns-lord-returned:m5:8ae9d29320a1",
+   "swap:tresserhorns-lord-returned:m5:8d95aee38697",
+   "swap:tresserhorns-lord-returned:m5:8f6cf503a1e4",
+   "swap:tresserhorns-lord-returned:m5:900f32d5110c",
+   "swap:tresserhorns-lord-returned:m5:902f7b894ebb",
+   "swap:tresserhorns-lord-returned:m5:9241dfb5db62",
+   "swap:tresserhorns-lord-returned:m5:9284fa6a3909",
+   "swap:tresserhorns-lord-returned:m5:92b638ea84d3",
+   "swap:tresserhorns-lord-returned:m5:94cfb993ceba",
+   "swap:tresserhorns-lord-returned:m5:951b0739dfbd",
+   "swap:tresserhorns-lord-returned:m5:95c211eb6ce7",
+   "swap:tresserhorns-lord-returned:m5:95d430d464fa",
+   "swap:tresserhorns-lord-returned:m5:95daed7eb00c",
+   "swap:tresserhorns-lord-returned:m5:9687e9925a86",
+   "swap:tresserhorns-lord-returned:m5:96a4f4d2d0c8",
+   "swap:tresserhorns-lord-returned:m5:96d7fc547da2",
+   "swap:tresserhorns-lord-returned:m5:97aa34790bae",
+   "swap:tresserhorns-lord-returned:m5:993192985c90",
+   "swap:tresserhorns-lord-returned:m5:9952a99642b0",
+   "swap:tresserhorns-lord-returned:m5:9a6acddb16f9",
+   "swap:tresserhorns-lord-returned:m5:9ac89b0f1eff",
+   "swap:tresserhorns-lord-returned:m5:9bcd11d0030f",
+   "swap:tresserhorns-lord-returned:m5:9e96cf9d64bd",
+   "swap:tresserhorns-lord-returned:m5:9ef114210964",
+   "swap:tresserhorns-lord-returned:m5:9ff1e53fef38",
+   "swap:tresserhorns-lord-returned:m5:a0f9cbde03f8",
+   "swap:tresserhorns-lord-returned:m5:a1e310e780a3",
+   "swap:tresserhorns-lord-returned:m5:a244ab63399b",
+   "swap:tresserhorns-lord-returned:m5:a27ff886f873",
+   "swap:tresserhorns-lord-returned:m5:a2834dcd1c6b",
+   "swap:tresserhorns-lord-returned:m5:a284b4a196cc",
+   "swap:tresserhorns-lord-returned:m5:a4a60e021c33",
+   "swap:tresserhorns-lord-returned:m5:a4c6f06a6218",
+   "swap:tresserhorns-lord-returned:m5:a6a8ebdd9763",
+   "swap:tresserhorns-lord-returned:m5:a72078f5d66c",
+   "swap:tresserhorns-lord-returned:m5:a8158b8a6e70",
+   "swap:tresserhorns-lord-returned:m5:a987045d9d9c",
+   "swap:tresserhorns-lord-returned:m5:a9c9c6642b38",
+   "swap:tresserhorns-lord-returned:m5:ad445e215995",
+   "swap:tresserhorns-lord-returned:m5:ada18cd05b31",
+   "swap:tresserhorns-lord-returned:m5:aff3f83df763",
+   "swap:tresserhorns-lord-returned:m5:b0444bed6dbe",
+   "swap:tresserhorns-lord-returned:m5:b1be3fabd20a",
+   "swap:tresserhorns-lord-returned:m5:b1f3f7f1a039",
+   "swap:tresserhorns-lord-returned:m5:b2348e6a3489",
+   "swap:tresserhorns-lord-returned:m5:b2d454139069",
+   "swap:tresserhorns-lord-returned:m5:b3221a721cd0",
+   "swap:tresserhorns-lord-returned:m5:b362d95fb16a",
+   "swap:tresserhorns-lord-returned:m5:b368e99231d2",
+   "swap:tresserhorns-lord-returned:m5:b7a487f03880",
+   "swap:tresserhorns-lord-returned:m5:b822229cfab9",
+   "swap:tresserhorns-lord-returned:m5:b8a78bc5a5e0",
+   "swap:tresserhorns-lord-returned:m5:b9ddaf37071e",
+   "swap:tresserhorns-lord-returned:m5:ba8eafe0c1d7",
+   "swap:tresserhorns-lord-returned:m5:bba859068b90",
+   "swap:tresserhorns-lord-returned:m5:bc463eedc65f",
+   "swap:tresserhorns-lord-returned:m5:bd037d31a023",
+   "swap:tresserhorns-lord-returned:m5:bda755d19eb9",
+   "swap:tresserhorns-lord-returned:m5:be72935afd5f",
+   "swap:tresserhorns-lord-returned:m5:bec5d42991de",
+   "swap:tresserhorns-lord-returned:m5:bf852b0c9c6b",
+   "swap:tresserhorns-lord-returned:m5:bf8d542cb185",
+   "swap:tresserhorns-lord-returned:m5:bfb8b0174b95",
+   "swap:tresserhorns-lord-returned:m5:c0e54733af70",
+   "swap:tresserhorns-lord-returned:m5:c1da40f39eaf",
+   "swap:tresserhorns-lord-returned:m5:c203c294bcd6",
+   "swap:tresserhorns-lord-returned:m5:c25686be8b21",
+   "swap:tresserhorns-lord-returned:m5:c2e5687b6846",
+   "swap:tresserhorns-lord-returned:m5:c2f8b564aa13",
+   "swap:tresserhorns-lord-returned:m5:c7333b58f819",
+   "swap:tresserhorns-lord-returned:m5:c8593e4fc6ba",
+   "swap:tresserhorns-lord-returned:m5:c89cb4afd11d",
+   "swap:tresserhorns-lord-returned:m5:c92abb06550a",
+   "swap:tresserhorns-lord-returned:m5:ca26bf276725",
+   "swap:tresserhorns-lord-returned:m5:cadb46f79ad9",
+   "swap:tresserhorns-lord-returned:m5:cb9abf0651ec",
+   "swap:tresserhorns-lord-returned:m5:cbc040dacb43",
+   "swap:tresserhorns-lord-returned:m5:ccb1c6bbadb7",
+   "swap:tresserhorns-lord-returned:m5:cd4670785dbe",
+   "swap:tresserhorns-lord-returned:m5:ce959cd2cb98",
+   "swap:tresserhorns-lord-returned:m5:cec933566cc1",
+   "swap:tresserhorns-lord-returned:m5:cf4f624caf41",
+   "swap:tresserhorns-lord-returned:m5:cfad0cd71640",
+   "swap:tresserhorns-lord-returned:m5:d033b85a90f6",
+   "swap:tresserhorns-lord-returned:m5:d1e38e0e8d1e",
+   "swap:tresserhorns-lord-returned:m5:d2bdc7d40f94",
+   "swap:tresserhorns-lord-returned:m5:d2c398e19255",
+   "swap:tresserhorns-lord-returned:m5:d3bf08afc8f9",
+   "swap:tresserhorns-lord-returned:m5:d525160c4272",
+   "swap:tresserhorns-lord-returned:m5:d5b3128f647e",
+   "swap:tresserhorns-lord-returned:m5:d60989a4ec14",
+   "swap:tresserhorns-lord-returned:m5:d681c8cafda0",
+   "swap:tresserhorns-lord-returned:m5:d701246ef27a",
+   "swap:tresserhorns-lord-returned:m5:d889d212e5b7",
+   "swap:tresserhorns-lord-returned:m5:d9fa89d8f5a0",
+   "swap:tresserhorns-lord-returned:m5:da709c2963ad",
+   "swap:tresserhorns-lord-returned:m5:db32e9a4907d",
+   "swap:tresserhorns-lord-returned:m5:dbcd6f31e111",
+   "swap:tresserhorns-lord-returned:m5:dcfd52d99e2f",
+   "swap:tresserhorns-lord-returned:m5:e010d896e0f0",
+   "swap:tresserhorns-lord-returned:m5:e027fbd09060",
+   "swap:tresserhorns-lord-returned:m5:e0764f37e98e",
+   "swap:tresserhorns-lord-returned:m5:e0b6b7a74075",
+   "swap:tresserhorns-lord-returned:m5:e12d4241cf22",
+   "swap:tresserhorns-lord-returned:m5:e160756ddfe8",
+   "swap:tresserhorns-lord-returned:m5:e249c313e81a",
+   "swap:tresserhorns-lord-returned:m5:e560c1b0b6b8",
+   "swap:tresserhorns-lord-returned:m5:e5a4189d552f",
+   "swap:tresserhorns-lord-returned:m5:e6f7548df30c",
+   "swap:tresserhorns-lord-returned:m5:e72403559785",
+   "swap:tresserhorns-lord-returned:m5:e74fd9cb4c70",
+   "swap:tresserhorns-lord-returned:m5:e883561e7152",
+   "swap:tresserhorns-lord-returned:m5:e938826106fa",
+   "swap:tresserhorns-lord-returned:m5:e9fb052397ac",
+   "swap:tresserhorns-lord-returned:m5:eabe5ee6854e",
+   "swap:tresserhorns-lord-returned:m5:ebc791b12184",
+   "swap:tresserhorns-lord-returned:m5:ebfd99596bcb",
+   "swap:tresserhorns-lord-returned:m5:ec2088857a20",
+   "swap:tresserhorns-lord-returned:m5:ec9cd7479079",
+   "swap:tresserhorns-lord-returned:m5:ed01b2ee0a8d",
+   "swap:tresserhorns-lord-returned:m5:eda9f1a2177f",
+   "swap:tresserhorns-lord-returned:m5:ef466c19bb9e",
+   "swap:tresserhorns-lord-returned:m5:ef9250e356d3",
+   "swap:tresserhorns-lord-returned:m5:f08fb88b6b93",
+   "swap:tresserhorns-lord-returned:m5:f15a61f3ed6d",
+   "swap:tresserhorns-lord-returned:m5:f21714423078",
+   "swap:tresserhorns-lord-returned:m5:f28ca80cd727",
+   "swap:tresserhorns-lord-returned:m5:f2cfafe88a3c",
+   "swap:tresserhorns-lord-returned:m5:f56c0f9a8ced",
+   "swap:tresserhorns-lord-returned:m5:f57736e4ffb6",
+   "swap:tresserhorns-lord-returned:m5:f6d62d93af45",
+   "swap:tresserhorns-lord-returned:m5:f75becceba6b",
+   "swap:tresserhorns-lord-returned:m5:f78c0a51053f",
+   "swap:tresserhorns-lord-returned:m5:f7fb7e105783",
+   "swap:tresserhorns-lord-returned:m5:f91979506f0d",
+   "swap:tresserhorns-lord-returned:m5:f988a2f5643c",
+   "swap:tresserhorns-lord-returned:m5:fb4bf94b9bd3",
+   "swap:tresserhorns-lord-returned:m5:fbcdabdd89ad",
+   "swap:tresserhorns-lord-returned:m5:fd8127e4a001",
+   "swap:tresserhorns-lord-returned:m5:fe1bc8450023",
+   "swap:tresserhorns-lord-returned:m5:fee5863c6f23"
+  ]
+ },
+ "schema_version": 1
+}

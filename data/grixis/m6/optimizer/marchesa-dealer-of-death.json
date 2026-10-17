@@ -1,0 +1,714 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Marchesa__Dealer_of_Death",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz"
+  ],
+  "list_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:marchesa-dealer-of-death:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Adventurous Eater // Have a Bite",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Adventurous Eater // Have a Bite",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:8fb1a48e2670",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Aether Channeler",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Aether Channeler",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:f8c0f40abb2a",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Ambassador Laquatus",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:4a0c8181ed56",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Ancestral Statue",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Ancestral Statue",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:32212469f5f8",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Archaeomancer",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Archaeomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:681ca6a60c60",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Banishing Knack",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Banishing Knack",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:af3bc8ad6091",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Blazing Firesinger // Seething Song",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Blazing Firesinger // Seething Song",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:5ce1a94e8529",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Breaking // Entering",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Breaking // Entering",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:b48c1bda8815",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Brinelin, the Moon Kraken",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Brinelin, the Moon Kraken",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:5129b85c65fc",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Burning Inquiry",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Burning Inquiry",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:401ff2e82d8e",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Chain of Smog",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Chain of Smog",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:93430b592dc7",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Chancellor of the Spires",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Chancellor of the Spires",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:f5c98c9a5ffc",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Cool but Rude",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Cool but Rude",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:019decbb89a5",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:efedf0a57538",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Enter the Infinite",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Enter the Infinite",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:4e9fbaecfbd6",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "False Memories",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=False Memories",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:3d5ea8bb99f3",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Fury Storm",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Fury Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:6ab7cefe3989",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Glimpse the Unthinkable",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Glimpse the Unthinkable",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:54a96a79d79e",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Goblin Glasswright // Craft with Pride",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Goblin Glasswright // Craft with Pride",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:2f10bbe22146",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Grinding Station",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:0401933aa07c",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Grinning Ignus",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Grinning Ignus",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:7a87fcf654c3",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Guile",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Guile",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:6b491a274ae1",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Hangar Scrounger",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Hangar Scrounger",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:80a7fe03956b",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Haze of Rage",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Haze of Rage",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:6ae16f51b935",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:c1553f4a0e41",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Illusionist's Bracers",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Illusionist's Bracers",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:a125d03a1584",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:6817f1011f88",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Lich",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:6d9c5c4166a6",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Mesmeric Orb",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Mesmeric Orb",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:702fd62807b9",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Mizzix of the Izmagnus",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:a2c97719cc2c",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Mnemonic Wall",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Mnemonic Wall",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:dbd156c0b801",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Neera, Wild Mage",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Neera, Wild Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:4725ed170d10",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Path of the Pyromancer",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Path of the Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:57c619b3cf72",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:8de60a628491",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Pigment Wrangler // Striking Palette",
+    "cut": "Simian Spirit Guide",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Pigment Wrangler // Striking Palette",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:2f9c99670fe9",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Platinum Angel",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Platinum Angel",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:43df910ebe0f",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Platinum Emperion",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Platinum Emperion",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:c8a231dbff91",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:d4e8390ec04b",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Requiem Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:ba643ffdb905",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Retraction Helix",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Retraction Helix",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:31198086ab29",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Rootha, Mercurial Artist",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Rootha, Mercurial Artist",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:0e7ba7940c38",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Shipwreck Dowser",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Shipwreck Dowser",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:1361a5e8a841",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Skycoach Conductor // All Aboard",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Skycoach Conductor // All Aboard",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:674fb2c3ebe1",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Tezzeret, Master of the Bridge",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Tezzeret, Master of the Bridge",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:7d5272fc70b3",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=The Enigma Jewel // Locus of Enlightenment",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:4dded84edeb5",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:dccfbffd9b97",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Tidewater Minion",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Tidewater Minion",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:f8f911b4559d",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Unctus, Grand Metatect",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Unctus, Grand Metatect",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:60f809b786a8",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Venser, Shaper Savant",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Venser, Shaper Savant",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:42171a7b2eef",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "View from Above",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=View from Above",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:3483bda0fd44",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Wake Thrasher",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Wake Thrasher",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:8ba8fc13a2a7",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   },
+   {
+    "add": "Wheel of Fortune",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#card=Wheel of Fortune",
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:f450c108271e",
+     "blueprint:data/grixis/blueprints/marchesa-dealer-of-death.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Marchesa__Dealer_of_Death",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz"
+  ],
+  "list_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:marchesa-dealer-of-death:performance:v1",
+  "recommendations": [
+   {
+    "add": "Bandit's Haul",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:6b0a8f1746b5",
+     "m5_test:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=test:marchesa-dealer-of-death:goldfish:1102233dbcd0749d"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:9ef207eeaca2",
+     "m5_test:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=test:marchesa-dealer-of-death:goldfish:93dd8f2e4a6d0e10"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:c1553f4a0e41",
+     "m5_test:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=test:marchesa-dealer-of-death:goldfish:1af5cee04ab3299c"
+    ]
+   },
+   {
+    "add": "Mnemonic Wall",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:73d1da4b4d00",
+     "m5_test:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=test:marchesa-dealer-of-death:goldfish:bf6d40054c4becfe"
+    ]
+   },
+   {
+    "add": "Shipwreck Dowser",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:511f96aff932",
+     "m5_test:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=test:marchesa-dealer-of-death:goldfish:e8eec8639f2842fd"
+    ]
+   },
+   {
+    "add": "Tezzeret, Master of the Bridge",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:083405838af6",
+     "m5_test:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=test:marchesa-dealer-of-death:goldfish:d607047fd68d2353"
+    ]
+   },
+   {
+    "add": "Wake Thrasher",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:aadd1941bd6d",
+     "m5_test:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=test:marchesa-dealer-of-death:goldfish:0eb2c230bb4f6743"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [
+   "swap:marchesa-dealer-of-death:m5:c1553f4a0e41"
+  ],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:marchesa-dealer-of-death:m5:019decbb89a5",
+   "swap:marchesa-dealer-of-death:m5:0401933aa07c",
+   "swap:marchesa-dealer-of-death:m5:083405838af6",
+   "swap:marchesa-dealer-of-death:m5:0e7ba7940c38",
+   "swap:marchesa-dealer-of-death:m5:1361a5e8a841",
+   "swap:marchesa-dealer-of-death:m5:2f10bbe22146",
+   "swap:marchesa-dealer-of-death:m5:2f9c99670fe9",
+   "swap:marchesa-dealer-of-death:m5:31198086ab29",
+   "swap:marchesa-dealer-of-death:m5:32212469f5f8",
+   "swap:marchesa-dealer-of-death:m5:3483bda0fd44",
+   "swap:marchesa-dealer-of-death:m5:3d5ea8bb99f3",
+   "swap:marchesa-dealer-of-death:m5:401ff2e82d8e",
+   "swap:marchesa-dealer-of-death:m5:42171a7b2eef",
+   "swap:marchesa-dealer-of-death:m5:43df910ebe0f",
+   "swap:marchesa-dealer-of-death:m5:4725ed170d10",
+   "swap:marchesa-dealer-of-death:m5:4a0c8181ed56",
+   "swap:marchesa-dealer-of-death:m5:4dded84edeb5",
+   "swap:marchesa-dealer-of-death:m5:4e9fbaecfbd6",
+   "swap:marchesa-dealer-of-death:m5:511f96aff932",
+   "swap:marchesa-dealer-of-death:m5:5129b85c65fc",
+   "swap:marchesa-dealer-of-death:m5:54a96a79d79e",
+   "swap:marchesa-dealer-of-death:m5:57c619b3cf72",
+   "swap:marchesa-dealer-of-death:m5:5ce1a94e8529",
+   "swap:marchesa-dealer-of-death:m5:60f809b786a8",
+   "swap:marchesa-dealer-of-death:m5:674fb2c3ebe1",
+   "swap:marchesa-dealer-of-death:m5:6817f1011f88",
+   "swap:marchesa-dealer-of-death:m5:681ca6a60c60",
+   "swap:marchesa-dealer-of-death:m5:6ab7cefe3989",
+   "swap:marchesa-dealer-of-death:m5:6ae16f51b935",
+   "swap:marchesa-dealer-of-death:m5:6b0a8f1746b5",
+   "swap:marchesa-dealer-of-death:m5:6b491a274ae1",
+   "swap:marchesa-dealer-of-death:m5:6d9c5c4166a6",
+   "swap:marchesa-dealer-of-death:m5:702fd62807b9",
+   "swap:marchesa-dealer-of-death:m5:73d1da4b4d00",
+   "swap:marchesa-dealer-of-death:m5:7a87fcf654c3",
+   "swap:marchesa-dealer-of-death:m5:7d5272fc70b3",
+   "swap:marchesa-dealer-of-death:m5:80a7fe03956b",
+   "swap:marchesa-dealer-of-death:m5:8ba8fc13a2a7",
+   "swap:marchesa-dealer-of-death:m5:8de60a628491",
+   "swap:marchesa-dealer-of-death:m5:8fb1a48e2670",
+   "swap:marchesa-dealer-of-death:m5:93430b592dc7",
+   "swap:marchesa-dealer-of-death:m5:9ef207eeaca2",
+   "swap:marchesa-dealer-of-death:m5:a125d03a1584",
+   "swap:marchesa-dealer-of-death:m5:a2c97719cc2c",
+   "swap:marchesa-dealer-of-death:m5:aadd1941bd6d",
+   "swap:marchesa-dealer-of-death:m5:af3bc8ad6091",
+   "swap:marchesa-dealer-of-death:m5:b48c1bda8815",
+   "swap:marchesa-dealer-of-death:m5:ba643ffdb905",
+   "swap:marchesa-dealer-of-death:m5:c1553f4a0e41",
+   "swap:marchesa-dealer-of-death:m5:c8a231dbff91",
+   "swap:marchesa-dealer-of-death:m5:d4e8390ec04b",
+   "swap:marchesa-dealer-of-death:m5:dbd156c0b801",
+   "swap:marchesa-dealer-of-death:m5:dccfbffd9b97",
+   "swap:marchesa-dealer-of-death:m5:efedf0a57538",
+   "swap:marchesa-dealer-of-death:m5:f450c108271e",
+   "swap:marchesa-dealer-of-death:m5:f5c98c9a5ffc",
+   "swap:marchesa-dealer-of-death:m5:f8c0f40abb2a",
+   "swap:marchesa-dealer-of-death:m5:f8f911b4559d"
+  ],
+  "disagreements": [
+   "swap:marchesa-dealer-of-death:m5:019decbb89a5",
+   "swap:marchesa-dealer-of-death:m5:0401933aa07c",
+   "swap:marchesa-dealer-of-death:m5:083405838af6",
+   "swap:marchesa-dealer-of-death:m5:0e7ba7940c38",
+   "swap:marchesa-dealer-of-death:m5:1361a5e8a841",
+   "swap:marchesa-dealer-of-death:m5:2f10bbe22146",
+   "swap:marchesa-dealer-of-death:m5:2f9c99670fe9",
+   "swap:marchesa-dealer-of-death:m5:31198086ab29",
+   "swap:marchesa-dealer-of-death:m5:32212469f5f8",
+   "swap:marchesa-dealer-of-death:m5:3483bda0fd44",
+   "swap:marchesa-dealer-of-death:m5:3d5ea8bb99f3",
+   "swap:marchesa-dealer-of-death:m5:401ff2e82d8e",
+   "swap:marchesa-dealer-of-death:m5:42171a7b2eef",
+   "swap:marchesa-dealer-of-death:m5:43df910ebe0f",
+   "swap:marchesa-dealer-of-death:m5:4725ed170d10",
+   "swap:marchesa-dealer-of-death:m5:4a0c8181ed56",
+   "swap:marchesa-dealer-of-death:m5:4dded84edeb5",
+   "swap:marchesa-dealer-of-death:m5:4e9fbaecfbd6",
+   "swap:marchesa-dealer-of-death:m5:511f96aff932",
+   "swap:marchesa-dealer-of-death:m5:5129b85c65fc",
+   "swap:marchesa-dealer-of-death:m5:54a96a79d79e",
+   "swap:marchesa-dealer-of-death:m5:57c619b3cf72",
+   "swap:marchesa-dealer-of-death:m5:5ce1a94e8529",
+   "swap:marchesa-dealer-of-death:m5:60f809b786a8",
+   "swap:marchesa-dealer-of-death:m5:674fb2c3ebe1",
+   "swap:marchesa-dealer-of-death:m5:6817f1011f88",
+   "swap:marchesa-dealer-of-death:m5:681ca6a60c60",
+   "swap:marchesa-dealer-of-death:m5:6ab7cefe3989",
+   "swap:marchesa-dealer-of-death:m5:6ae16f51b935",
+   "swap:marchesa-dealer-of-death:m5:6b0a8f1746b5",
+   "swap:marchesa-dealer-of-death:m5:6b491a274ae1",
+   "swap:marchesa-dealer-of-death:m5:6d9c5c4166a6",
+   "swap:marchesa-dealer-of-death:m5:702fd62807b9",
+   "swap:marchesa-dealer-of-death:m5:73d1da4b4d00",
+   "swap:marchesa-dealer-of-death:m5:7a87fcf654c3",
+   "swap:marchesa-dealer-of-death:m5:7d5272fc70b3",
+   "swap:marchesa-dealer-of-death:m5:80a7fe03956b",
+   "swap:marchesa-dealer-of-death:m5:8ba8fc13a2a7",
+   "swap:marchesa-dealer-of-death:m5:8de60a628491",
+   "swap:marchesa-dealer-of-death:m5:8fb1a48e2670",
+   "swap:marchesa-dealer-of-death:m5:93430b592dc7",
+   "swap:marchesa-dealer-of-death:m5:9ef207eeaca2",
+   "swap:marchesa-dealer-of-death:m5:a125d03a1584",
+   "swap:marchesa-dealer-of-death:m5:a2c97719cc2c",
+   "swap:marchesa-dealer-of-death:m5:aadd1941bd6d",
+   "swap:marchesa-dealer-of-death:m5:af3bc8ad6091",
+   "swap:marchesa-dealer-of-death:m5:b48c1bda8815",
+   "swap:marchesa-dealer-of-death:m5:ba643ffdb905",
+   "swap:marchesa-dealer-of-death:m5:c8a231dbff91",
+   "swap:marchesa-dealer-of-death:m5:d4e8390ec04b",
+   "swap:marchesa-dealer-of-death:m5:dbd156c0b801",
+   "swap:marchesa-dealer-of-death:m5:dccfbffd9b97",
+   "swap:marchesa-dealer-of-death:m5:efedf0a57538",
+   "swap:marchesa-dealer-of-death:m5:f450c108271e",
+   "swap:marchesa-dealer-of-death:m5:f5c98c9a5ffc",
+   "swap:marchesa-dealer-of-death:m5:f8c0f40abb2a",
+   "swap:marchesa-dealer-of-death:m5:f8f911b4559d"
+  ]
+ },
+ "schema_version": 1
+}

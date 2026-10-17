@@ -1,0 +1,489 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Obeka__Splitter_of_Seconds",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz"
+  ],
+  "list_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:obeka-splitter-of-seconds:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Academy Manufactor",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Academy Manufactor",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:d26d107e8a2a",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Aggravated Assault",
+    "cut": "Ring of Valkas",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Aggravated Assault",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:7ebbb89e80c3",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Ant-Man, Elusive Avenger",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Ant-Man, Elusive Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:0f06e04e9b87",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Cavern-Hoard Dragon",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Cavern-Hoard Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:3aeb01d91aa8",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Bonehoard Dracosaur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:0e338835ef82",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:160d0a5e5c41",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Bonehoard Dracosaur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:d92089306a81",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:314370e1398a",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Bonehoard Dracosaur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:687d50eaef75",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:d69d379dd632",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Cybermen Squadron",
+    "cut": "Ring of Valkas",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Cybermen Squadron",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:df9fbc236335",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Descent into Avernus",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Descent into Avernus",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:c5863883cb78",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Edward Kenway",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Edward Kenway",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:1b186d9678d6",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Exsanguinator Cavalry",
+    "cut": "Ring of Valkas",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Exsanguinator Cavalry",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:2819b72e8da4",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Hellkite Charger",
+    "cut": "Ring of Valkas",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Hellkite Charger",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:e6b3aff4fe13",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Hoard Hauler",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Hoard Hauler",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:6f1b5c1ff1f5",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:3c91f1ee4aa6",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Inquisitor Eisenhorn",
+    "cut": "Ring of Valkas",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Inquisitor Eisenhorn",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:229db20a565d",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Luxurious Locomotive",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Luxurious Locomotive",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:d3a787e7aee0",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Myr Battlesphere",
+    "cut": "Ring of Valkas",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Myr Battlesphere",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:a98897bb7f5b",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Olivia's Attendants",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Olivia's Attendants",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:9c97f2f62e65",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Piper Wright, Publick Reporter",
+    "cut": "Ring of Valkas",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Piper Wright, Publick Reporter",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:7b52e6fd3afe",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Hatred",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:5383220fed4a",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Rift Elemental",
+    "cut": "Bonehoard Dracosaur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Rift Elemental",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:5294cbf5ec27",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Rift Elemental",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Rift Elemental",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:50ee6db120ae",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Second Chance",
+    "cut": "Paradox Haze",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Second Chance",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:2383c2973a38",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "The Reaver Cleaver",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=The Reaver Cleaver",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:28bd59f0e617",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "The Tenth Doctor",
+    "cut": "Bonehoard Dracosaur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=The Tenth Doctor",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:9d5bb61e88e3",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "The Tenth Doctor",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=The Tenth Doctor",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:47d81d8b4258",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Thopter Assembly",
+    "cut": "Bonehoard Dracosaur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Thopter Assembly",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:6cf9af09ca33",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Thopter Assembly",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Thopter Assembly",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:96a143c2ba2d",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Thorin, Company's Leader",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Thorin, Company's Leader",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:182b22bc5998",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:c346c44e9f45",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Bonehoard Dracosaur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:da0d4534e384",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:43b83e67bd13",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   },
+   {
+    "add": "Wanderwine Prophets",
+    "cut": "Ring of Valkas",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#card=Wanderwine Prophets",
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:e8b8603f3f02",
+     "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Obeka__Splitter_of_Seconds",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz"
+  ],
+  "list_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:obeka-splitter-of-seconds:performance:v1",
+  "recommendations": [
+   {
+    "add": "Dimir Signet",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:b7e53dca9096",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=test:obeka-splitter-of-seconds:goldfish:5e90c9b2da6a764b"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:9b342b0139a1",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=test:obeka-splitter-of-seconds:goldfish:5b30e7848461ecd0"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:obeka-splitter-of-seconds:m5:0e338835ef82",
+   "swap:obeka-splitter-of-seconds:m5:0f06e04e9b87",
+   "swap:obeka-splitter-of-seconds:m5:160d0a5e5c41",
+   "swap:obeka-splitter-of-seconds:m5:182b22bc5998",
+   "swap:obeka-splitter-of-seconds:m5:1b186d9678d6",
+   "swap:obeka-splitter-of-seconds:m5:229db20a565d",
+   "swap:obeka-splitter-of-seconds:m5:2383c2973a38",
+   "swap:obeka-splitter-of-seconds:m5:2819b72e8da4",
+   "swap:obeka-splitter-of-seconds:m5:28bd59f0e617",
+   "swap:obeka-splitter-of-seconds:m5:314370e1398a",
+   "swap:obeka-splitter-of-seconds:m5:3aeb01d91aa8",
+   "swap:obeka-splitter-of-seconds:m5:3c91f1ee4aa6",
+   "swap:obeka-splitter-of-seconds:m5:43b83e67bd13",
+   "swap:obeka-splitter-of-seconds:m5:47d81d8b4258",
+   "swap:obeka-splitter-of-seconds:m5:50ee6db120ae",
+   "swap:obeka-splitter-of-seconds:m5:5294cbf5ec27",
+   "swap:obeka-splitter-of-seconds:m5:5383220fed4a",
+   "swap:obeka-splitter-of-seconds:m5:687d50eaef75",
+   "swap:obeka-splitter-of-seconds:m5:6cf9af09ca33",
+   "swap:obeka-splitter-of-seconds:m5:6f1b5c1ff1f5",
+   "swap:obeka-splitter-of-seconds:m5:7b52e6fd3afe",
+   "swap:obeka-splitter-of-seconds:m5:7ebbb89e80c3",
+   "swap:obeka-splitter-of-seconds:m5:96a143c2ba2d",
+   "swap:obeka-splitter-of-seconds:m5:9b342b0139a1",
+   "swap:obeka-splitter-of-seconds:m5:9c97f2f62e65",
+   "swap:obeka-splitter-of-seconds:m5:9d5bb61e88e3",
+   "swap:obeka-splitter-of-seconds:m5:a98897bb7f5b",
+   "swap:obeka-splitter-of-seconds:m5:b7e53dca9096",
+   "swap:obeka-splitter-of-seconds:m5:c346c44e9f45",
+   "swap:obeka-splitter-of-seconds:m5:c5863883cb78",
+   "swap:obeka-splitter-of-seconds:m5:d26d107e8a2a",
+   "swap:obeka-splitter-of-seconds:m5:d3a787e7aee0",
+   "swap:obeka-splitter-of-seconds:m5:d69d379dd632",
+   "swap:obeka-splitter-of-seconds:m5:d92089306a81",
+   "swap:obeka-splitter-of-seconds:m5:da0d4534e384",
+   "swap:obeka-splitter-of-seconds:m5:df9fbc236335",
+   "swap:obeka-splitter-of-seconds:m5:e6b3aff4fe13",
+   "swap:obeka-splitter-of-seconds:m5:e8b8603f3f02"
+  ],
+  "disagreements": [
+   "swap:obeka-splitter-of-seconds:m5:0e338835ef82",
+   "swap:obeka-splitter-of-seconds:m5:0f06e04e9b87",
+   "swap:obeka-splitter-of-seconds:m5:160d0a5e5c41",
+   "swap:obeka-splitter-of-seconds:m5:182b22bc5998",
+   "swap:obeka-splitter-of-seconds:m5:1b186d9678d6",
+   "swap:obeka-splitter-of-seconds:m5:229db20a565d",
+   "swap:obeka-splitter-of-seconds:m5:2383c2973a38",
+   "swap:obeka-splitter-of-seconds:m5:2819b72e8da4",
+   "swap:obeka-splitter-of-seconds:m5:28bd59f0e617",
+   "swap:obeka-splitter-of-seconds:m5:314370e1398a",
+   "swap:obeka-splitter-of-seconds:m5:3aeb01d91aa8",
+   "swap:obeka-splitter-of-seconds:m5:3c91f1ee4aa6",
+   "swap:obeka-splitter-of-seconds:m5:43b83e67bd13",
+   "swap:obeka-splitter-of-seconds:m5:47d81d8b4258",
+   "swap:obeka-splitter-of-seconds:m5:50ee6db120ae",
+   "swap:obeka-splitter-of-seconds:m5:5294cbf5ec27",
+   "swap:obeka-splitter-of-seconds:m5:5383220fed4a",
+   "swap:obeka-splitter-of-seconds:m5:687d50eaef75",
+   "swap:obeka-splitter-of-seconds:m5:6cf9af09ca33",
+   "swap:obeka-splitter-of-seconds:m5:6f1b5c1ff1f5",
+   "swap:obeka-splitter-of-seconds:m5:7b52e6fd3afe",
+   "swap:obeka-splitter-of-seconds:m5:7ebbb89e80c3",
+   "swap:obeka-splitter-of-seconds:m5:96a143c2ba2d",
+   "swap:obeka-splitter-of-seconds:m5:9b342b0139a1",
+   "swap:obeka-splitter-of-seconds:m5:9c97f2f62e65",
+   "swap:obeka-splitter-of-seconds:m5:9d5bb61e88e3",
+   "swap:obeka-splitter-of-seconds:m5:a98897bb7f5b",
+   "swap:obeka-splitter-of-seconds:m5:b7e53dca9096",
+   "swap:obeka-splitter-of-seconds:m5:c346c44e9f45",
+   "swap:obeka-splitter-of-seconds:m5:c5863883cb78",
+   "swap:obeka-splitter-of-seconds:m5:d26d107e8a2a",
+   "swap:obeka-splitter-of-seconds:m5:d3a787e7aee0",
+   "swap:obeka-splitter-of-seconds:m5:d69d379dd632",
+   "swap:obeka-splitter-of-seconds:m5:d92089306a81",
+   "swap:obeka-splitter-of-seconds:m5:da0d4534e384",
+   "swap:obeka-splitter-of-seconds:m5:df9fbc236335",
+   "swap:obeka-splitter-of-seconds:m5:e6b3aff4fe13",
+   "swap:obeka-splitter-of-seconds:m5:e8b8603f3f02"
+  ]
+ },
+ "schema_version": 1
+}

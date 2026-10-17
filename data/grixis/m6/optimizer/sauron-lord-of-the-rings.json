@@ -1,0 +1,647 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Sauron__Lord_of_the_Rings",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz"
+  ],
+  "list_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:sauron-lord-of-the-rings:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Aggravated Assault",
+    "cut": "Dance of the Dead",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Aggravated Assault",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:cdce8539b447",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Aggravated Assault",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Aggravated Assault",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:31ef2948da79",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Forbidden Alchemy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:5a83d4a2e6d6",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Necromancy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:d33aa129b58e",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Forbidden Alchemy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:1b58f10c9c1e",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Necromancy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:1849cc1f4ee6",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:23d4a82b538b",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Wonder",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:9cd212d623ec",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:24c6c9a36566",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:4884830f9e4a",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "Forbidden Alchemy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:fa670c3c2992",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "Necromancy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:7b1fd69a7097",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Palinchron",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Palinchron",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:6c81c77c78fe",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Palinchron",
+    "cut": "Wonder",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Palinchron",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:e6aa1d4a7032",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Jin-Gitaxias, Core Augur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:baa4f77b92d4",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:43bb41fc76fb",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Dance of the Dead",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Power Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:a37d1c4161bd",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Power Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:810884f01442",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Forbidden Alchemy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:fd125311ad93",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Dance of the Dead",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:6c8c0211e421",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:39c9f5d4c3c4",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Jin-Gitaxias, Core Augur",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Requiem Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:f69c2fc50100",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Requiem Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:63daa74b18f5",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Rootha, Mercurial Artist",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Rootha, Mercurial Artist",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:0dadff724d4c",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=The Enigma Jewel // Locus of Enlightenment",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:544eaf94e738",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:35703fbe1be9",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Time Sieve",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Time Sieve",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:6d2aee0fe7e0",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:434d07adce79",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   },
+   {
+    "add": "Worldgorger Dragon",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#card=Worldgorger Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:340a0b30191e",
+     "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Sauron__Lord_of_the_Rings",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz"
+  ],
+  "list_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:sauron-lord-of-the-rings:performance:v1",
+  "recommendations": [
+   {
+    "add": "Aggravated Assault",
+    "cut": "Dance of the Dead",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:cdce8539b447",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:a92745e610006afe"
+    ]
+   },
+   {
+    "add": "Aggravated Assault",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:31ef2948da79",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:9c6ed67572e29ebc"
+    ]
+   },
+   {
+    "add": "Arcane Denial",
+    "cut": "Jin-Gitaxias, Core Augur",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:f360c32f562e",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:4ea20df3c85e7eef"
+    ]
+   },
+   {
+    "add": "Arcane Denial",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:d889c89e19d1",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:d54a9052c6e81abd"
+    ]
+   },
+   {
+    "add": "Big Score",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:7ea017497d89",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:9388b5230a535213"
+    ]
+   },
+   {
+    "add": "Boon of the Wish-Giver",
+    "cut": "Jin-Gitaxias, Core Augur",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:2445c531449c",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:813cb5741790a325"
+    ]
+   },
+   {
+    "add": "Boon of the Wish-Giver",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:f9151853e2f6",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:1654987de19767a1"
+    ]
+   },
+   {
+    "add": "Cathartic Reunion",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:4cae498ad033",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:b231896acf1dac00"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Forbidden Alchemy",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:5a83d4a2e6d6",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:899732ae8948ca93"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Necromancy",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:d33aa129b58e",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:b3534d1a65710512"
+    ]
+   },
+   {
+    "add": "Consider",
+    "cut": "Jin-Gitaxias, Core Augur",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:a3525d84453c",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:45e5872d3f6d2059"
+    ]
+   },
+   {
+    "add": "Consider",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:fe3a343aa6e3",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:5aeeefc9dba0efdd"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:23d4a82b538b",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:c25d76e947be3a95"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Wonder",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:9cd212d623ec",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:7d90476f60da3e51"
+    ]
+   },
+   {
+    "add": "Deep Analysis",
+    "cut": "Jin-Gitaxias, Core Augur",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:9ec2debd7721",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:c381caa140cbd091"
+    ]
+   },
+   {
+    "add": "Deep Analysis",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:d34393a4ca8b",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:6c8894ceb5612e42"
+    ]
+   },
+   {
+    "add": "Mordor Muster",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:1146bf729d2c",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:9662c95b8844d8c7"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Dance of the Dead",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:a37d1c4161bd",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:a3aad940926e5078"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:810884f01442",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:d1a05daebfde4209"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:14bf2425f5eb",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:ec30f02ae07d9f02"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Jin-Gitaxias, Core Augur",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:f69c2fc50100",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:1db60de1ecf57de3"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:63daa74b18f5",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:b99b1ab3e81233cb"
+    ]
+   },
+   {
+    "add": "Ringsight",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:b67afae11342",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:48245eaa8358c11d"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:544eaf94e738",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:6854e8d2c716f7e9"
+    ]
+   },
+   {
+    "add": "Thran Dynamo",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:1d33b682ea2e",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:426bdde4b9e0bd0d"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:35703fbe1be9",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:cada3f5f0bdc4c0b"
+    ]
+   },
+   {
+    "add": "Worldgorger Dragon",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:340a0b30191e",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:4fb35db169fc5810"
+    ]
+   },
+   {
+    "add": "Worn Powerstone",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:7ecbeaa12226",
+     "m5_test:data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=test:sauron-lord-of-the-rings:goldfish:2a9906b3a77c02a0"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [
+   "swap:sauron-lord-of-the-rings:m5:23d4a82b538b",
+   "swap:sauron-lord-of-the-rings:m5:31ef2948da79",
+   "swap:sauron-lord-of-the-rings:m5:340a0b30191e",
+   "swap:sauron-lord-of-the-rings:m5:35703fbe1be9",
+   "swap:sauron-lord-of-the-rings:m5:544eaf94e738",
+   "swap:sauron-lord-of-the-rings:m5:5a83d4a2e6d6",
+   "swap:sauron-lord-of-the-rings:m5:63daa74b18f5",
+   "swap:sauron-lord-of-the-rings:m5:810884f01442",
+   "swap:sauron-lord-of-the-rings:m5:9cd212d623ec",
+   "swap:sauron-lord-of-the-rings:m5:a37d1c4161bd",
+   "swap:sauron-lord-of-the-rings:m5:cdce8539b447",
+   "swap:sauron-lord-of-the-rings:m5:d33aa129b58e",
+   "swap:sauron-lord-of-the-rings:m5:f69c2fc50100"
+  ],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:sauron-lord-of-the-rings:m5:0dadff724d4c",
+   "swap:sauron-lord-of-the-rings:m5:1146bf729d2c",
+   "swap:sauron-lord-of-the-rings:m5:14bf2425f5eb",
+   "swap:sauron-lord-of-the-rings:m5:1849cc1f4ee6",
+   "swap:sauron-lord-of-the-rings:m5:1b58f10c9c1e",
+   "swap:sauron-lord-of-the-rings:m5:1d33b682ea2e",
+   "swap:sauron-lord-of-the-rings:m5:23d4a82b538b",
+   "swap:sauron-lord-of-the-rings:m5:2445c531449c",
+   "swap:sauron-lord-of-the-rings:m5:24c6c9a36566",
+   "swap:sauron-lord-of-the-rings:m5:31ef2948da79",
+   "swap:sauron-lord-of-the-rings:m5:340a0b30191e",
+   "swap:sauron-lord-of-the-rings:m5:35703fbe1be9",
+   "swap:sauron-lord-of-the-rings:m5:39c9f5d4c3c4",
+   "swap:sauron-lord-of-the-rings:m5:434d07adce79",
+   "swap:sauron-lord-of-the-rings:m5:43bb41fc76fb",
+   "swap:sauron-lord-of-the-rings:m5:4884830f9e4a",
+   "swap:sauron-lord-of-the-rings:m5:4cae498ad033",
+   "swap:sauron-lord-of-the-rings:m5:544eaf94e738",
+   "swap:sauron-lord-of-the-rings:m5:5a83d4a2e6d6",
+   "swap:sauron-lord-of-the-rings:m5:63daa74b18f5",
+   "swap:sauron-lord-of-the-rings:m5:6c81c77c78fe",
+   "swap:sauron-lord-of-the-rings:m5:6c8c0211e421",
+   "swap:sauron-lord-of-the-rings:m5:6d2aee0fe7e0",
+   "swap:sauron-lord-of-the-rings:m5:7b1fd69a7097",
+   "swap:sauron-lord-of-the-rings:m5:7ea017497d89",
+   "swap:sauron-lord-of-the-rings:m5:7ecbeaa12226",
+   "swap:sauron-lord-of-the-rings:m5:810884f01442",
+   "swap:sauron-lord-of-the-rings:m5:9cd212d623ec",
+   "swap:sauron-lord-of-the-rings:m5:9ec2debd7721",
+   "swap:sauron-lord-of-the-rings:m5:a3525d84453c",
+   "swap:sauron-lord-of-the-rings:m5:a37d1c4161bd",
+   "swap:sauron-lord-of-the-rings:m5:b67afae11342",
+   "swap:sauron-lord-of-the-rings:m5:baa4f77b92d4",
+   "swap:sauron-lord-of-the-rings:m5:cdce8539b447",
+   "swap:sauron-lord-of-the-rings:m5:d33aa129b58e",
+   "swap:sauron-lord-of-the-rings:m5:d34393a4ca8b",
+   "swap:sauron-lord-of-the-rings:m5:d889c89e19d1",
+   "swap:sauron-lord-of-the-rings:m5:e6aa1d4a7032",
+   "swap:sauron-lord-of-the-rings:m5:f360c32f562e",
+   "swap:sauron-lord-of-the-rings:m5:f69c2fc50100",
+   "swap:sauron-lord-of-the-rings:m5:f9151853e2f6",
+   "swap:sauron-lord-of-the-rings:m5:fa670c3c2992",
+   "swap:sauron-lord-of-the-rings:m5:fd125311ad93",
+   "swap:sauron-lord-of-the-rings:m5:fe3a343aa6e3"
+  ],
+  "disagreements": [
+   "swap:sauron-lord-of-the-rings:m5:0dadff724d4c",
+   "swap:sauron-lord-of-the-rings:m5:1146bf729d2c",
+   "swap:sauron-lord-of-the-rings:m5:14bf2425f5eb",
+   "swap:sauron-lord-of-the-rings:m5:1849cc1f4ee6",
+   "swap:sauron-lord-of-the-rings:m5:1b58f10c9c1e",
+   "swap:sauron-lord-of-the-rings:m5:1d33b682ea2e",
+   "swap:sauron-lord-of-the-rings:m5:2445c531449c",
+   "swap:sauron-lord-of-the-rings:m5:24c6c9a36566",
+   "swap:sauron-lord-of-the-rings:m5:39c9f5d4c3c4",
+   "swap:sauron-lord-of-the-rings:m5:434d07adce79",
+   "swap:sauron-lord-of-the-rings:m5:43bb41fc76fb",
+   "swap:sauron-lord-of-the-rings:m5:4884830f9e4a",
+   "swap:sauron-lord-of-the-rings:m5:4cae498ad033",
+   "swap:sauron-lord-of-the-rings:m5:6c81c77c78fe",
+   "swap:sauron-lord-of-the-rings:m5:6c8c0211e421",
+   "swap:sauron-lord-of-the-rings:m5:6d2aee0fe7e0",
+   "swap:sauron-lord-of-the-rings:m5:7b1fd69a7097",
+   "swap:sauron-lord-of-the-rings:m5:7ea017497d89",
+   "swap:sauron-lord-of-the-rings:m5:7ecbeaa12226",
+   "swap:sauron-lord-of-the-rings:m5:9ec2debd7721",
+   "swap:sauron-lord-of-the-rings:m5:a3525d84453c",
+   "swap:sauron-lord-of-the-rings:m5:b67afae11342",
+   "swap:sauron-lord-of-the-rings:m5:baa4f77b92d4",
+   "swap:sauron-lord-of-the-rings:m5:d34393a4ca8b",
+   "swap:sauron-lord-of-the-rings:m5:d889c89e19d1",
+   "swap:sauron-lord-of-the-rings:m5:e6aa1d4a7032",
+   "swap:sauron-lord-of-the-rings:m5:f360c32f562e",
+   "swap:sauron-lord-of-the-rings:m5:f9151853e2f6",
+   "swap:sauron-lord-of-the-rings:m5:fa670c3c2992",
+   "swap:sauron-lord-of-the-rings:m5:fd125311ad93",
+   "swap:sauron-lord-of-the-rings:m5:fe3a343aa6e3"
+  ]
+ },
+ "schema_version": 1
+}

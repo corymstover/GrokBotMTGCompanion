@@ -1,0 +1,686 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Nicol_Bolas__the_Ravager",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz"
+  ],
+  "list_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:nicol-bolas-the-ravager:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Aether Channeler",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Aether Channeler",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:d2cd3560ce32",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Aetheric Amplifier",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Aetheric Amplifier",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:14aef623f1e4",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Ancestral Statue",
+    "cut": "Dreamtide Whale",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Ancestral Statue",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:0bf638b6c18e",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Ancestral Statue",
+    "cut": "Sanctum Lurker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Ancestral Statue",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:bc958de90b0e",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Basalt Monolith",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Basalt Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:174e95ec534c",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Blazing Firesinger // Seething Song",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Blazing Firesinger // Seething Song",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:7df0404e1203",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Brinelin, the Moon Kraken",
+    "cut": "Nicol Bolas, Dragon-God",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Brinelin, the Moon Kraken",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:a12d7ac04109",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Brinelin, the Moon Kraken",
+    "cut": "Tergrid, God of Fright // Tergrid's Lantern",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Brinelin, the Moon Kraken",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:72dd49456ea5",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Chancellor of the Spires",
+    "cut": "Dreamtide Whale",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Chancellor of the Spires",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:3acaf23e6a1e",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Chancellor of the Spires",
+    "cut": "Sanctum Lurker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Chancellor of the Spires",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:04ee3f0ae433",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Chromatic Orrery",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Chromatic Orrery",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:394e029ee348",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Clockspinning",
+    "cut": "Mystical Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Clockspinning",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:b585b98f59ab",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Clockspinning",
+    "cut": "Ripples of Potential",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Clockspinning",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:c050f3f75e76",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Drafna, Founder of Lat-Nam",
+    "cut": "Dreamtide Whale",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Drafna, Founder of Lat-Nam",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:66a6a17062a3",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Drafna, Founder of Lat-Nam",
+    "cut": "Sanctum Lurker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Drafna, Founder of Lat-Nam",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:8964c8ad08eb",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Goblin Glasswright // Craft with Pride",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Goblin Glasswright // Craft with Pride",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:6bf0d9c8acf5",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Nicol Bolas, Dragon-God",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:38701bdcaa0e",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Tergrid, God of Fright // Tergrid's Lantern",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:d9279e11a2c7",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Jace, Cunning Castaway",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Jace, Cunning Castaway",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:989e7e4f36e7",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Dreamtide Whale",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:03b888de7065",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Sanctum Lurker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:3b9516de80bb",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Lithoform Engine",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Lithoform Engine",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:50f1c6711eee",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Lithoform Engine",
+    "cut": "Rings of Brighthearth",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Lithoform Engine",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:72c5150fa061",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Magistrate's Scepter",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Magistrate's Scepter",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:faf997192ac3",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Magistrate's Scepter",
+    "cut": "Rings of Brighthearth",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Magistrate's Scepter",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:2e4f3d3fca8b",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Dreamtide Whale",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:eea6479ac40a",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Sanctum Lurker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:91eb9765763c",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Myojin of Cryptic Dreams",
+    "cut": "Dreamtide Whale",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Myojin of Cryptic Dreams",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:5fa60fa7ab3a",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Myojin of Cryptic Dreams",
+    "cut": "Sanctum Lurker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Myojin of Cryptic Dreams",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:5ef5a268a214",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Mystic Speculation",
+    "cut": "Tezzeret's Gambit",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Mystic Speculation",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:b43644837eaf",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Mystic Speculation",
+    "cut": "The Elderspell",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Mystic Speculation",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:c1e986d05897",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Neera, Wild Mage",
+    "cut": "Dreamtide Whale",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Neera, Wild Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:b2be2dd79142",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Neera, Wild Mage",
+    "cut": "Sanctum Lurker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Neera, Wild Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:c9f3e59c832f",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Omarthis, Ghostfire Initiate",
+    "cut": "Dreamtide Whale",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Omarthis, Ghostfire Initiate",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:fe348b8fc176",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Omarthis, Ghostfire Initiate",
+    "cut": "Sanctum Lurker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Omarthis, Ghostfire Initiate",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:72762e3d5ac0",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Mystical Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:294350972508",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Ripples of Potential",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:dfd6d240ddce",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Spawnsire of Ulamog",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Spawnsire of Ulamog",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:b76a36531ae9",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Tasha, the Witch Queen",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Tasha, the Witch Queen",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:5c89a9fce117",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Tezzeret, Master of the Bridge",
+    "cut": "The Theorist, Jace Beleren",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Tezzeret, Master of the Bridge",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:100dece2fa84",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "The Peregrine Dynamo",
+    "cut": "Dreamtide Whale",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=The Peregrine Dynamo",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:0f07b48753d4",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "The Peregrine Dynamo",
+    "cut": "Sanctum Lurker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=The Peregrine Dynamo",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:3ae8f6aa66c3",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Nicol Bolas, Dragon-God",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:c414196f5e48",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Tergrid, God of Fright // Tergrid's Lantern",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:04dfbdbf9ee8",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Venser, Shaper Savant",
+    "cut": "Nicol Bolas, Dragon-God",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Venser, Shaper Savant",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:0f8877213833",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Venser, Shaper Savant",
+    "cut": "Tergrid, God of Fright // Tergrid's Lantern",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Venser, Shaper Savant",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:ee3cff9cc09f",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Whim of Volrath",
+    "cut": "Mystical Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Whim of Volrath",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:cf60fca280d0",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   },
+   {
+    "add": "Whim of Volrath",
+    "cut": "Ripples of Potential",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#card=Whim of Volrath",
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:39b25ff0b2aa",
+     "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Nicol_Bolas__the_Ravager",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz"
+  ],
+  "list_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:nicol-bolas-the-ravager:performance:v1",
+  "recommendations": [
+   {
+    "add": "Aetheric Amplifier",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:14aef623f1e4",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=test:nicol-bolas-the-ravager:goldfish:650378a2b9d6f13c"
+    ]
+   },
+   {
+    "add": "Basalt Monolith",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:174e95ec534c",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=test:nicol-bolas-the-ravager:goldfish:8688130bda30b5cd"
+    ]
+   },
+   {
+    "add": "Brainstorm",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:7e30a5d77316",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=test:nicol-bolas-the-ravager:goldfish:5e621d0d8998b9f3"
+    ]
+   },
+   {
+    "add": "Chromatic Lantern",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:96e1d19a96c3",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=test:nicol-bolas-the-ravager:goldfish:c73eaa44f955122e"
+    ]
+   },
+   {
+    "add": "Chromatic Orrery",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:394e029ee348",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=test:nicol-bolas-the-ravager:goldfish:c369258fbdd848d7"
+    ]
+   },
+   {
+    "add": "Commander's Sphere",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:b91f44fb6aa3",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=test:nicol-bolas-the-ravager:goldfish:5a53b2a186a5085f"
+    ]
+   },
+   {
+    "add": "Relic of Sauron",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:2add0cb73882",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=test:nicol-bolas-the-ravager:goldfish:7bf544823cb3e1ad"
+    ]
+   },
+   {
+    "add": "Visage of Bolas",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:58e09a3f0687",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=test:nicol-bolas-the-ravager:goldfish:94a6bbfcc566ef19"
+    ]
+   },
+   {
+    "add": "Wheel of Fortune",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:2ee8cd73490c",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=test:nicol-bolas-the-ravager:goldfish:170c0d7e70c330de"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [
+   "swap:nicol-bolas-the-ravager:m5:14aef623f1e4",
+   "swap:nicol-bolas-the-ravager:m5:174e95ec534c",
+   "swap:nicol-bolas-the-ravager:m5:394e029ee348"
+  ],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:nicol-bolas-the-ravager:m5:03b888de7065",
+   "swap:nicol-bolas-the-ravager:m5:04dfbdbf9ee8",
+   "swap:nicol-bolas-the-ravager:m5:04ee3f0ae433",
+   "swap:nicol-bolas-the-ravager:m5:0bf638b6c18e",
+   "swap:nicol-bolas-the-ravager:m5:0f07b48753d4",
+   "swap:nicol-bolas-the-ravager:m5:0f8877213833",
+   "swap:nicol-bolas-the-ravager:m5:100dece2fa84",
+   "swap:nicol-bolas-the-ravager:m5:14aef623f1e4",
+   "swap:nicol-bolas-the-ravager:m5:174e95ec534c",
+   "swap:nicol-bolas-the-ravager:m5:294350972508",
+   "swap:nicol-bolas-the-ravager:m5:2add0cb73882",
+   "swap:nicol-bolas-the-ravager:m5:2e4f3d3fca8b",
+   "swap:nicol-bolas-the-ravager:m5:2ee8cd73490c",
+   "swap:nicol-bolas-the-ravager:m5:38701bdcaa0e",
+   "swap:nicol-bolas-the-ravager:m5:394e029ee348",
+   "swap:nicol-bolas-the-ravager:m5:39b25ff0b2aa",
+   "swap:nicol-bolas-the-ravager:m5:3acaf23e6a1e",
+   "swap:nicol-bolas-the-ravager:m5:3ae8f6aa66c3",
+   "swap:nicol-bolas-the-ravager:m5:3b9516de80bb",
+   "swap:nicol-bolas-the-ravager:m5:50f1c6711eee",
+   "swap:nicol-bolas-the-ravager:m5:58e09a3f0687",
+   "swap:nicol-bolas-the-ravager:m5:5c89a9fce117",
+   "swap:nicol-bolas-the-ravager:m5:5ef5a268a214",
+   "swap:nicol-bolas-the-ravager:m5:5fa60fa7ab3a",
+   "swap:nicol-bolas-the-ravager:m5:66a6a17062a3",
+   "swap:nicol-bolas-the-ravager:m5:6bf0d9c8acf5",
+   "swap:nicol-bolas-the-ravager:m5:72762e3d5ac0",
+   "swap:nicol-bolas-the-ravager:m5:72c5150fa061",
+   "swap:nicol-bolas-the-ravager:m5:72dd49456ea5",
+   "swap:nicol-bolas-the-ravager:m5:7df0404e1203",
+   "swap:nicol-bolas-the-ravager:m5:7e30a5d77316",
+   "swap:nicol-bolas-the-ravager:m5:8964c8ad08eb",
+   "swap:nicol-bolas-the-ravager:m5:91eb9765763c",
+   "swap:nicol-bolas-the-ravager:m5:96e1d19a96c3",
+   "swap:nicol-bolas-the-ravager:m5:989e7e4f36e7",
+   "swap:nicol-bolas-the-ravager:m5:a12d7ac04109",
+   "swap:nicol-bolas-the-ravager:m5:b2be2dd79142",
+   "swap:nicol-bolas-the-ravager:m5:b43644837eaf",
+   "swap:nicol-bolas-the-ravager:m5:b585b98f59ab",
+   "swap:nicol-bolas-the-ravager:m5:b76a36531ae9",
+   "swap:nicol-bolas-the-ravager:m5:b91f44fb6aa3",
+   "swap:nicol-bolas-the-ravager:m5:bc958de90b0e",
+   "swap:nicol-bolas-the-ravager:m5:c050f3f75e76",
+   "swap:nicol-bolas-the-ravager:m5:c1e986d05897",
+   "swap:nicol-bolas-the-ravager:m5:c414196f5e48",
+   "swap:nicol-bolas-the-ravager:m5:c9f3e59c832f",
+   "swap:nicol-bolas-the-ravager:m5:cf60fca280d0",
+   "swap:nicol-bolas-the-ravager:m5:d2cd3560ce32",
+   "swap:nicol-bolas-the-ravager:m5:d9279e11a2c7",
+   "swap:nicol-bolas-the-ravager:m5:dfd6d240ddce",
+   "swap:nicol-bolas-the-ravager:m5:ee3cff9cc09f",
+   "swap:nicol-bolas-the-ravager:m5:eea6479ac40a",
+   "swap:nicol-bolas-the-ravager:m5:faf997192ac3",
+   "swap:nicol-bolas-the-ravager:m5:fe348b8fc176"
+  ],
+  "disagreements": [
+   "swap:nicol-bolas-the-ravager:m5:03b888de7065",
+   "swap:nicol-bolas-the-ravager:m5:04dfbdbf9ee8",
+   "swap:nicol-bolas-the-ravager:m5:04ee3f0ae433",
+   "swap:nicol-bolas-the-ravager:m5:0bf638b6c18e",
+   "swap:nicol-bolas-the-ravager:m5:0f07b48753d4",
+   "swap:nicol-bolas-the-ravager:m5:0f8877213833",
+   "swap:nicol-bolas-the-ravager:m5:100dece2fa84",
+   "swap:nicol-bolas-the-ravager:m5:294350972508",
+   "swap:nicol-bolas-the-ravager:m5:2add0cb73882",
+   "swap:nicol-bolas-the-ravager:m5:2e4f3d3fca8b",
+   "swap:nicol-bolas-the-ravager:m5:2ee8cd73490c",
+   "swap:nicol-bolas-the-ravager:m5:38701bdcaa0e",
+   "swap:nicol-bolas-the-ravager:m5:39b25ff0b2aa",
+   "swap:nicol-bolas-the-ravager:m5:3acaf23e6a1e",
+   "swap:nicol-bolas-the-ravager:m5:3ae8f6aa66c3",
+   "swap:nicol-bolas-the-ravager:m5:3b9516de80bb",
+   "swap:nicol-bolas-the-ravager:m5:50f1c6711eee",
+   "swap:nicol-bolas-the-ravager:m5:58e09a3f0687",
+   "swap:nicol-bolas-the-ravager:m5:5c89a9fce117",
+   "swap:nicol-bolas-the-ravager:m5:5ef5a268a214",
+   "swap:nicol-bolas-the-ravager:m5:5fa60fa7ab3a",
+   "swap:nicol-bolas-the-ravager:m5:66a6a17062a3",
+   "swap:nicol-bolas-the-ravager:m5:6bf0d9c8acf5",
+   "swap:nicol-bolas-the-ravager:m5:72762e3d5ac0",
+   "swap:nicol-bolas-the-ravager:m5:72c5150fa061",
+   "swap:nicol-bolas-the-ravager:m5:72dd49456ea5",
+   "swap:nicol-bolas-the-ravager:m5:7df0404e1203",
+   "swap:nicol-bolas-the-ravager:m5:7e30a5d77316",
+   "swap:nicol-bolas-the-ravager:m5:8964c8ad08eb",
+   "swap:nicol-bolas-the-ravager:m5:91eb9765763c",
+   "swap:nicol-bolas-the-ravager:m5:96e1d19a96c3",
+   "swap:nicol-bolas-the-ravager:m5:989e7e4f36e7",
+   "swap:nicol-bolas-the-ravager:m5:a12d7ac04109",
+   "swap:nicol-bolas-the-ravager:m5:b2be2dd79142",
+   "swap:nicol-bolas-the-ravager:m5:b43644837eaf",
+   "swap:nicol-bolas-the-ravager:m5:b585b98f59ab",
+   "swap:nicol-bolas-the-ravager:m5:b76a36531ae9",
+   "swap:nicol-bolas-the-ravager:m5:b91f44fb6aa3",
+   "swap:nicol-bolas-the-ravager:m5:bc958de90b0e",
+   "swap:nicol-bolas-the-ravager:m5:c050f3f75e76",
+   "swap:nicol-bolas-the-ravager:m5:c1e986d05897",
+   "swap:nicol-bolas-the-ravager:m5:c414196f5e48",
+   "swap:nicol-bolas-the-ravager:m5:c9f3e59c832f",
+   "swap:nicol-bolas-the-ravager:m5:cf60fca280d0",
+   "swap:nicol-bolas-the-ravager:m5:d2cd3560ce32",
+   "swap:nicol-bolas-the-ravager:m5:d9279e11a2c7",
+   "swap:nicol-bolas-the-ravager:m5:dfd6d240ddce",
+   "swap:nicol-bolas-the-ravager:m5:ee3cff9cc09f",
+   "swap:nicol-bolas-the-ravager:m5:eea6479ac40a",
+   "swap:nicol-bolas-the-ravager:m5:faf997192ac3",
+   "swap:nicol-bolas-the-ravager:m5:fe348b8fc176"
+  ]
+ },
+ "schema_version": 1
+}

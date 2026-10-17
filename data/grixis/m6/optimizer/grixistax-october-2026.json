@@ -1,0 +1,532 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Grixistax___October_2026",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz"
+  ],
+  "list_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:grixistax-october-2026:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Aetherflux Reservoir",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Aetherflux Reservoir",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:ef33a761352d",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Magus of the Moon",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Ambassador Laquatus",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:4c49c4eb88d8",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Sheoldred, the Apocalypse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Ambassador Laquatus",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:871833c6f6ee",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Breaking // Entering",
+    "cut": "Beseech the Mirror",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Breaking // Entering",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:aa1cc48025bc",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Cool but Rude",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Cool but Rude",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:a5e11aa570b0",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Cool but Rude",
+    "cut": "Sheoldred, the Apocalypse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Cool but Rude",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:0a2e8c464009",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "False Memories",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=False Memories",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:3a45f468c2b4",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Glimpse the Unthinkable",
+    "cut": "Beseech the Mirror",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Glimpse the Unthinkable",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:f904a13dd4fe",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "Tangle Wire",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Grinding Station",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:5c62b54e1650",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Guile",
+    "cut": "Magus of the Moon",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Guile",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:71bbe238733f",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Guile",
+    "cut": "Sheoldred, the Apocalypse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Guile",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:c87aeecd41bb",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:1dc06500ff2f",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Lich",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:a2b1b0003a4b",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Lich's Mastery",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Lich's Mastery",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:b69789eb16b8",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Marina Vendrell's Grimoire",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Marina Vendrell's Grimoire",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:3cc2ca4b6e36",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Magus of the Moon",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Mizzix of the Izmagnus",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:49b1aaf9e694",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Sheoldred, the Apocalypse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Mizzix of the Izmagnus",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:fa3064acfcc2",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Nefarious Lich",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Nefarious Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:e7bc718c4c12",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Path of the Pyromancer",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Path of the Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:63242df06131",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:c59059916e5e",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Necropotence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Power Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:59e7abffbea3",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:bf0d15465256",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Requiem Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:4f989ae47914",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Sheoldred, the Apocalypse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Requiem Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:7d3582d40c90",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Stitcher's Supplier",
+    "cut": "Tangle Wire",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Stitcher's Supplier",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:651406b3381c",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=The Enigma Jewel // Locus of Enlightenment",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:f238e858fbb6",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:a4e0d954b859",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Vilis, Broker of Blood",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Vilis, Broker of Blood",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:aee739d136dd",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Voltaic Construct",
+    "cut": "Magus of the Moon",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Voltaic Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:5e380e9fdd54",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   },
+   {
+    "add": "Voltaic Construct",
+    "cut": "Sheoldred, the Apocalypse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#card=Voltaic Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:d2f4cc983cb0",
+     "blueprint:data/grixis/blueprints/grixistax-october-2026.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Grixistax___October_2026",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz"
+  ],
+  "list_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:grixistax-october-2026:performance:v1",
+  "recommendations": [
+   {
+    "add": "Arcane Signet",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:3275294198a3",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:18728b1a99c4ae4f"
+    ]
+   },
+   {
+    "add": "Arcane Signet",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:80120dee7b2b",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:9ba00ea8152bd0ba"
+    ]
+   },
+   {
+    "add": "City of Traitors",
+    "cut": "Arid Mesa",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:646bdfe8bea2",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:c610101f53cd2565"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:ecf08f18a85e",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:67dceb9a97090fe9"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:a1022056d40f",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:54a870d43c299aec"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:08d169da6e9a",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:cc3fc5335ab6b063"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:4cb7837789c1",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:e4c1caf57a3b934b"
+    ]
+   },
+   {
+    "add": "Mind Stone",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:cdcf06342bec",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:a124effaf4a6f26f"
+    ]
+   },
+   {
+    "add": "Talisman of Indulgence",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:a5da61df82e3",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:d78d19383a92baf7"
+    ]
+   },
+   {
+    "add": "Talisman of Indulgence",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:c8bde234544b",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:ea40e02b782c6dce"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:0a6871701d46",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:636689fbab5e5e41"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:f238e858fbb6",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:32c5afcc3c1cd5f4"
+    ]
+   },
+   {
+    "add": "Thieving Varmint",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:f81f06eac81f",
+     "m5_test:data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=test:grixistax-october-2026:goldfish:b6dbf85327643277"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [
+   "swap:grixistax-october-2026:m5:f238e858fbb6"
+  ],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:grixistax-october-2026:m5:08d169da6e9a",
+   "swap:grixistax-october-2026:m5:0a2e8c464009",
+   "swap:grixistax-october-2026:m5:0a6871701d46",
+   "swap:grixistax-october-2026:m5:1dc06500ff2f",
+   "swap:grixistax-october-2026:m5:3275294198a3",
+   "swap:grixistax-october-2026:m5:3a45f468c2b4",
+   "swap:grixistax-october-2026:m5:3cc2ca4b6e36",
+   "swap:grixistax-october-2026:m5:49b1aaf9e694",
+   "swap:grixistax-october-2026:m5:4c49c4eb88d8",
+   "swap:grixistax-october-2026:m5:4cb7837789c1",
+   "swap:grixistax-october-2026:m5:4f989ae47914",
+   "swap:grixistax-october-2026:m5:59e7abffbea3",
+   "swap:grixistax-october-2026:m5:5c62b54e1650",
+   "swap:grixistax-october-2026:m5:5e380e9fdd54",
+   "swap:grixistax-october-2026:m5:63242df06131",
+   "swap:grixistax-october-2026:m5:646bdfe8bea2",
+   "swap:grixistax-october-2026:m5:651406b3381c",
+   "swap:grixistax-october-2026:m5:71bbe238733f",
+   "swap:grixistax-october-2026:m5:7d3582d40c90",
+   "swap:grixistax-october-2026:m5:80120dee7b2b",
+   "swap:grixistax-october-2026:m5:871833c6f6ee",
+   "swap:grixistax-october-2026:m5:a1022056d40f",
+   "swap:grixistax-october-2026:m5:a2b1b0003a4b",
+   "swap:grixistax-october-2026:m5:a4e0d954b859",
+   "swap:grixistax-october-2026:m5:a5da61df82e3",
+   "swap:grixistax-october-2026:m5:a5e11aa570b0",
+   "swap:grixistax-october-2026:m5:aa1cc48025bc",
+   "swap:grixistax-october-2026:m5:aee739d136dd",
+   "swap:grixistax-october-2026:m5:b69789eb16b8",
+   "swap:grixistax-october-2026:m5:bf0d15465256",
+   "swap:grixistax-october-2026:m5:c59059916e5e",
+   "swap:grixistax-october-2026:m5:c87aeecd41bb",
+   "swap:grixistax-october-2026:m5:c8bde234544b",
+   "swap:grixistax-october-2026:m5:cdcf06342bec",
+   "swap:grixistax-october-2026:m5:d2f4cc983cb0",
+   "swap:grixistax-october-2026:m5:e7bc718c4c12",
+   "swap:grixistax-october-2026:m5:ecf08f18a85e",
+   "swap:grixistax-october-2026:m5:ef33a761352d",
+   "swap:grixistax-october-2026:m5:f238e858fbb6",
+   "swap:grixistax-october-2026:m5:f81f06eac81f",
+   "swap:grixistax-october-2026:m5:f904a13dd4fe",
+   "swap:grixistax-october-2026:m5:fa3064acfcc2"
+  ],
+  "disagreements": [
+   "swap:grixistax-october-2026:m5:08d169da6e9a",
+   "swap:grixistax-october-2026:m5:0a2e8c464009",
+   "swap:grixistax-october-2026:m5:0a6871701d46",
+   "swap:grixistax-october-2026:m5:1dc06500ff2f",
+   "swap:grixistax-october-2026:m5:3275294198a3",
+   "swap:grixistax-october-2026:m5:3a45f468c2b4",
+   "swap:grixistax-october-2026:m5:3cc2ca4b6e36",
+   "swap:grixistax-october-2026:m5:49b1aaf9e694",
+   "swap:grixistax-october-2026:m5:4c49c4eb88d8",
+   "swap:grixistax-october-2026:m5:4cb7837789c1",
+   "swap:grixistax-october-2026:m5:4f989ae47914",
+   "swap:grixistax-october-2026:m5:59e7abffbea3",
+   "swap:grixistax-october-2026:m5:5c62b54e1650",
+   "swap:grixistax-october-2026:m5:5e380e9fdd54",
+   "swap:grixistax-october-2026:m5:63242df06131",
+   "swap:grixistax-october-2026:m5:646bdfe8bea2",
+   "swap:grixistax-october-2026:m5:651406b3381c",
+   "swap:grixistax-october-2026:m5:71bbe238733f",
+   "swap:grixistax-october-2026:m5:7d3582d40c90",
+   "swap:grixistax-october-2026:m5:80120dee7b2b",
+   "swap:grixistax-october-2026:m5:871833c6f6ee",
+   "swap:grixistax-october-2026:m5:a1022056d40f",
+   "swap:grixistax-october-2026:m5:a2b1b0003a4b",
+   "swap:grixistax-october-2026:m5:a4e0d954b859",
+   "swap:grixistax-october-2026:m5:a5da61df82e3",
+   "swap:grixistax-october-2026:m5:a5e11aa570b0",
+   "swap:grixistax-october-2026:m5:aa1cc48025bc",
+   "swap:grixistax-october-2026:m5:aee739d136dd",
+   "swap:grixistax-october-2026:m5:b69789eb16b8",
+   "swap:grixistax-october-2026:m5:bf0d15465256",
+   "swap:grixistax-october-2026:m5:c59059916e5e",
+   "swap:grixistax-october-2026:m5:c87aeecd41bb",
+   "swap:grixistax-october-2026:m5:c8bde234544b",
+   "swap:grixistax-october-2026:m5:cdcf06342bec",
+   "swap:grixistax-october-2026:m5:d2f4cc983cb0",
+   "swap:grixistax-october-2026:m5:e7bc718c4c12",
+   "swap:grixistax-october-2026:m5:ecf08f18a85e",
+   "swap:grixistax-october-2026:m5:ef33a761352d",
+   "swap:grixistax-october-2026:m5:f81f06eac81f",
+   "swap:grixistax-october-2026:m5:f904a13dd4fe",
+   "swap:grixistax-october-2026:m5:fa3064acfcc2"
+  ]
+ },
+ "schema_version": 1
+}

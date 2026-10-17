@@ -1,0 +1,462 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Tetsuo_Umezawa",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz"
+  ],
+  "list_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:tetsuo-umezawa:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Basalt Monolith",
+    "cut": "Red Death, Shipwrecker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Basalt Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:79914c8211f7",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Basalt Monolith",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Basalt Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:fdb0fe9cbac3",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Xantcha, Sleeper Agent",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:2c6182a982b5",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Xantcha, Sleeper Agent",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:5eea532012b6",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Chromatic Orrery",
+    "cut": "Red Death, Shipwrecker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Chromatic Orrery",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:328d8b02e89b",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Chromatic Orrery",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Chromatic Orrery",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:a8e63c687dfe",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Puppeteer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:4e4dece74541",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Xantcha, Sleeper Agent",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:c77f2e176c73",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Bedevil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:332215019f86",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Gilded Lotus",
+    "cut": "Red Death, Shipwrecker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Gilded Lotus",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:dab56b1256ff",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Gilded Lotus",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Gilded Lotus",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:54741a0c43f1",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Hangar Scrounger",
+    "cut": "Firkraag, Cunning Instigator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Hangar Scrounger",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:b08fd9a5c51f",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Hangar Scrounger",
+    "cut": "Hylda's Crown of Winter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Hangar Scrounger",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:f7c656ef4ec7",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Hawkeye's Bow",
+    "cut": "Hylda's Crown of Winter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Hawkeye's Bow",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:89b7a1c2d859",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Bedevil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:97ef2c08d491",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Puppeteer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:d360f677e420",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Xantcha, Sleeper Agent",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:bbc12406a669",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Magosi, the Waterveil",
+    "cut": "Flooded Strand",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Magosi, the Waterveil",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:9840e2c42af7",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Mesmeric Orb",
+    "cut": "Hylda's Crown of Winter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Mesmeric Orb",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:65a03475c965",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:caa72ac16f7d",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Rimewind Taskmage",
+    "cut": "Hylda's Crown of Winter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Rimewind Taskmage",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:e34b3e1484c3",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Spawnsire of Ulamog",
+    "cut": "Red Death, Shipwrecker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Spawnsire of Ulamog",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:a6ee151e2a97",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Spawnsire of Ulamog",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Spawnsire of Ulamog",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:049f86fe5ef9",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Red Death, Shipwrecker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=The Enigma Jewel // Locus of Enlightenment",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:2c2eee3e0044",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=The Enigma Jewel // Locus of Enlightenment",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:e805c47c259b",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Bedevil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:738d76b7ca71",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Tidewater Minion",
+    "cut": "Hylda's Crown of Winter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Tidewater Minion",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:37917626d8b7",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Bedevil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:1b6d164dafd9",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Unctus, Grand Metatect",
+    "cut": "Firkraag, Cunning Instigator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Unctus, Grand Metatect",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:d9f7df301f95",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Unctus, Grand Metatect",
+    "cut": "Hylda's Crown of Winter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Unctus, Grand Metatect",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:e19d589552b9",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Wake Thrasher",
+    "cut": "Puppeteer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Wake Thrasher",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:d774d5d563b5",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   },
+   {
+    "add": "Wake Thrasher",
+    "cut": "Xantcha, Sleeper Agent",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#card=Wake Thrasher",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:60da35da331f",
+     "blueprint:data/grixis/blueprints/tetsuo-umezawa.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Tetsuo_Umezawa",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz"
+  ],
+  "list_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:tetsuo-umezawa:performance:v1",
+  "recommendations": [
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Aphetto Alchemist",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:92bb1efcae52",
+     "m5_test:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=test:tetsuo-umezawa:goldfish:d9da3912259cb4c8"
+    ]
+   },
+   {
+    "add": "Gilded Lotus",
+    "cut": "Red Death, Shipwrecker",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:dab56b1256ff",
+     "m5_test:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=test:tetsuo-umezawa:goldfish:49ef9da3c416932c"
+    ]
+   },
+   {
+    "add": "Gilded Lotus",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:54741a0c43f1",
+     "m5_test:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=test:tetsuo-umezawa:goldfish:021e7518b3000b53"
+    ]
+   },
+   {
+    "add": "Wheel of Fortune",
+    "cut": "Hylda's Crown of Winter",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:cea2789f6762",
+     "m5_test:data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=test:tetsuo-umezawa:goldfish:54b7440aeb78b49b"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [
+   "swap:tetsuo-umezawa:m5:54741a0c43f1",
+   "swap:tetsuo-umezawa:m5:dab56b1256ff"
+  ],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:tetsuo-umezawa:m5:049f86fe5ef9",
+   "swap:tetsuo-umezawa:m5:1b6d164dafd9",
+   "swap:tetsuo-umezawa:m5:2c2eee3e0044",
+   "swap:tetsuo-umezawa:m5:2c6182a982b5",
+   "swap:tetsuo-umezawa:m5:328d8b02e89b",
+   "swap:tetsuo-umezawa:m5:332215019f86",
+   "swap:tetsuo-umezawa:m5:37917626d8b7",
+   "swap:tetsuo-umezawa:m5:4e4dece74541",
+   "swap:tetsuo-umezawa:m5:54741a0c43f1",
+   "swap:tetsuo-umezawa:m5:5eea532012b6",
+   "swap:tetsuo-umezawa:m5:60da35da331f",
+   "swap:tetsuo-umezawa:m5:65a03475c965",
+   "swap:tetsuo-umezawa:m5:738d76b7ca71",
+   "swap:tetsuo-umezawa:m5:79914c8211f7",
+   "swap:tetsuo-umezawa:m5:89b7a1c2d859",
+   "swap:tetsuo-umezawa:m5:92bb1efcae52",
+   "swap:tetsuo-umezawa:m5:97ef2c08d491",
+   "swap:tetsuo-umezawa:m5:9840e2c42af7",
+   "swap:tetsuo-umezawa:m5:a6ee151e2a97",
+   "swap:tetsuo-umezawa:m5:a8e63c687dfe",
+   "swap:tetsuo-umezawa:m5:b08fd9a5c51f",
+   "swap:tetsuo-umezawa:m5:bbc12406a669",
+   "swap:tetsuo-umezawa:m5:c77f2e176c73",
+   "swap:tetsuo-umezawa:m5:caa72ac16f7d",
+   "swap:tetsuo-umezawa:m5:cea2789f6762",
+   "swap:tetsuo-umezawa:m5:d360f677e420",
+   "swap:tetsuo-umezawa:m5:d774d5d563b5",
+   "swap:tetsuo-umezawa:m5:d9f7df301f95",
+   "swap:tetsuo-umezawa:m5:dab56b1256ff",
+   "swap:tetsuo-umezawa:m5:e19d589552b9",
+   "swap:tetsuo-umezawa:m5:e34b3e1484c3",
+   "swap:tetsuo-umezawa:m5:e805c47c259b",
+   "swap:tetsuo-umezawa:m5:f7c656ef4ec7",
+   "swap:tetsuo-umezawa:m5:fdb0fe9cbac3"
+  ],
+  "disagreements": [
+   "swap:tetsuo-umezawa:m5:049f86fe5ef9",
+   "swap:tetsuo-umezawa:m5:1b6d164dafd9",
+   "swap:tetsuo-umezawa:m5:2c2eee3e0044",
+   "swap:tetsuo-umezawa:m5:2c6182a982b5",
+   "swap:tetsuo-umezawa:m5:328d8b02e89b",
+   "swap:tetsuo-umezawa:m5:332215019f86",
+   "swap:tetsuo-umezawa:m5:37917626d8b7",
+   "swap:tetsuo-umezawa:m5:4e4dece74541",
+   "swap:tetsuo-umezawa:m5:5eea532012b6",
+   "swap:tetsuo-umezawa:m5:60da35da331f",
+   "swap:tetsuo-umezawa:m5:65a03475c965",
+   "swap:tetsuo-umezawa:m5:738d76b7ca71",
+   "swap:tetsuo-umezawa:m5:79914c8211f7",
+   "swap:tetsuo-umezawa:m5:89b7a1c2d859",
+   "swap:tetsuo-umezawa:m5:92bb1efcae52",
+   "swap:tetsuo-umezawa:m5:97ef2c08d491",
+   "swap:tetsuo-umezawa:m5:9840e2c42af7",
+   "swap:tetsuo-umezawa:m5:a6ee151e2a97",
+   "swap:tetsuo-umezawa:m5:a8e63c687dfe",
+   "swap:tetsuo-umezawa:m5:b08fd9a5c51f",
+   "swap:tetsuo-umezawa:m5:bbc12406a669",
+   "swap:tetsuo-umezawa:m5:c77f2e176c73",
+   "swap:tetsuo-umezawa:m5:caa72ac16f7d",
+   "swap:tetsuo-umezawa:m5:cea2789f6762",
+   "swap:tetsuo-umezawa:m5:d360f677e420",
+   "swap:tetsuo-umezawa:m5:d774d5d563b5",
+   "swap:tetsuo-umezawa:m5:d9f7df301f95",
+   "swap:tetsuo-umezawa:m5:e19d589552b9",
+   "swap:tetsuo-umezawa:m5:e34b3e1484c3",
+   "swap:tetsuo-umezawa:m5:e805c47c259b",
+   "swap:tetsuo-umezawa:m5:f7c656ef4ec7",
+   "swap:tetsuo-umezawa:m5:fdb0fe9cbac3"
+  ]
+ },
+ "schema_version": 1
+}

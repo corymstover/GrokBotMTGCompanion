@@ -1,0 +1,1475 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Mishra__Artificer_Prodigy",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz"
+  ],
+  "list_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:mishra-artificer-prodigy:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Advanced Reconstruction",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Advanced Reconstruction",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:031ad90c33ea",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Animate Artifact",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Animate Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:024ba368b79e",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Armor Wars",
+    "cut": "Uthros Research Craft",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Armor Wars",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:1e85dc7508af",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Artist's Talent",
+    "cut": "Uthros Research Craft",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Artist's Talent",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:0083d951474c",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Ashnod's Altar",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Ashnod's Altar",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:fac78c2ad9c4",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Ballad of the Black Flag",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Ballad of the Black Flag",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:d277fb2d28da",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Bilbo, Thief in the Night",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Bilbo, Thief in the Night",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:725bbf70fa71",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:caef094337f4",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Bladewing the Risen",
+    "cut": "Goblin Welder",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Bladewing the Risen",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:2840913c4651",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Blazing Sunsteel",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Blazing Sunsteel",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:9c2c52e635e6",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Bloodsoaked Champion",
+    "cut": "Phyrexian Metamorph",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Bloodsoaked Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:5e096e32fcfd",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Bloodthirsty Conqueror",
+    "cut": "Phyrexian Metamorph",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Bloodthirsty Conqueror",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:37000549b7bc",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Brash Taunter",
+    "cut": "Phyrexian Metamorph",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Brash Taunter",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:887384da6ac5",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Phyrexian Metamorph",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:2467d545b7f3",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Phyrexian Metamorph",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:901ccd26d80a",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Cheering Fanatic",
+    "cut": "Phyrexian Metamorph",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Cheering Fanatic",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:5a9d46b1e8f4",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Chromatic Star",
+    "cut": "Grim Monolith",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Chromatic Star",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:e3c0f2bb195f",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Chrome Dome",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Chrome Dome",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:b1b2202eb7c0",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Cogwork Assembler",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Cogwork Assembler",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:5f5f4ecb2162",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:df5be07c816b",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Crime Novelist",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Crime Novelist",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:53b346ec44c6",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Crystal Skull, Isu Spyglass",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Crystal Skull, Isu Spyglass",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:47dc62f079d0",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Cyberdrive Awakener",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Cyberdrive Awakener",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:c44baec5824d",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Deadeye Navigator",
+    "cut": "Phyrexian Metamorph",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Deadeye Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:9ce9a1606ee7",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Despondency",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Despondency",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:67ca16a8b366",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Displacer Kitten",
+    "cut": "Phyrexian Metamorph",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Displacer Kitten",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:25ca51deb79e",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Drafna, Founder of Lat-Nam",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Drafna, Founder of Lat-Nam",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:94ed51f43cda",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Drivnod, Carnage Dominus",
+    "cut": "Phyrexian Metamorph",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Drivnod, Carnage Dominus",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:fb958ead6f37",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Dross Scorpion",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Dross Scorpion",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:6aff13d0e75a",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Echoes of Eternity",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Echoes of Eternity",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:96bdd8300875",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Efficient Construction",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Efficient Construction",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:290db028eefa",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Experimental Frenzy",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Experimental Frenzy",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:02043a0de5f8",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Exquisite Blood",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Exquisite Blood",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:1603c29dbe59",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Fateful Discovery",
+    "cut": "Uthros Research Craft",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Fateful Discovery",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:4707cf3568d3",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Forensic Gadgeteer",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Forensic Gadgeteer",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:2e0d46bfa3c5",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Fortune Teller's Talent",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Fortune Teller's Talent",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:9e56556a8ff7",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Freed from the Real",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Freed from the Real",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:f3bea9789895",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Future Sight",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Future Sight",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:5dd613c06ffe",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Geist of Saint Thalia",
+    "cut": "Phyrexian Metamorph",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Geist of Saint Thalia",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:acc2fc027b2a",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Glaring Fleshraker",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Glaring Fleshraker",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:bad8a3f5d259",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Glistening Oil",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Glistening Oil",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:8b6806bd4e12",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Golem's Heart",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Golem's Heart",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:51540fa1e8f7",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Gran-Gran",
+    "cut": "Uthros Research Craft",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Gran-Gran",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:eefe99d9e521",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Gravecrawler",
+    "cut": "Phyrexian Metamorph",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Gravecrawler",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:abff6de608a7",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Guile",
+    "cut": "Phyrexian Metamorph",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Guile",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:312536317968",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Gwenom, Remorseless",
+    "cut": "Phyrexian Metamorph",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Gwenom, Remorseless",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:3076116933df",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Helm of Awakening",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Helm of Awakening",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:082afd22a1d7",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Herald of Kozilek",
+    "cut": "Phyrexian Metamorph",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Herald of Kozilek",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:ed93644853ee",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:7f05d69baf0a",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Imotekh the Stormlord",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Imotekh the Stormlord",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:26ce10a42bb8",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Intruder Alarm",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Intruder Alarm",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:158c7827902f",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Iron Lad, Young Avenger",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Iron Lad, Young Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:0103a05127b6",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Jhoira's Familiar",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Jhoira's Familiar",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:c5b22a4d8cc4",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Karn's Touch",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Karn's Touch",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:e23cc89348cb",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Karn, Silver Golem",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Karn, Silver Golem",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:e7b3bf37ffae",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Katsumasa, the Animator",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Katsumasa, the Animator",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:139b49e86796",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Kurkesh, Onakke Ancient",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Kurkesh, Onakke Ancient",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:69559e036845",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Launch",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Launch",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:eb839dd0fe2a",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Lithoform Engine",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Lithoform Engine",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:f19e3ed502a2",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Longshot, Rebel Bowman",
+    "cut": "Phyrexian Metamorph",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Longshot, Rebel Bowman",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:5c9b0fbad2f2",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Madame Web, Clairvoyant",
+    "cut": "Phyrexian Metamorph",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Madame Web, Clairvoyant",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:2f4575321415",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Magus of the Future",
+    "cut": "Phyrexian Metamorph",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Magus of the Future",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:450d2cfaabc0",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "March of the Machines",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=March of the Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:5e2a849866ab",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:5f1225e054a7",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Mirran Spy",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Mirran Spy",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:fb354d0445f2",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Mirrodin Besieged",
+    "cut": "Uthros Research Craft",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Mirrodin Besieged",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:c9e360e319d2",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Goblin Welder",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:d6963e361c61",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Mirrorworks",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Mirrorworks",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:369fe303e696",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Mishra, Eminent One",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Mishra, Eminent One",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:3067cdb8ec83",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Mm'menon, the Right Hand",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Mm'menon, the Right Hand",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:aa56509895f0",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Mortuary",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Mortuary",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:edda54bd4d6f",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Mycosynth Golem",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Mycosynth Golem",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:c16337eb79e2",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Myr Welder",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Myr Welder",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:c8f25c0b9a4b",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "One with the Multiverse",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=One with the Multiverse",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:796d6b9e9401",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Pemmin's Aura",
+    "cut": "Lightning Greaves",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Pemmin's Aura",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:2888c8dbf39b",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Planar Gate",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Planar Gate",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:83d4a2bce9d2",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Power Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:184a9bff3255",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Rakdos, Lord of Riots",
+    "cut": "Phyrexian Metamorph",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Rakdos, Lord of Riots",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:36b4632eaf81",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Reassembling Skeleton",
+    "cut": "Phyrexian Metamorph",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Reassembling Skeleton",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:d7d384d1b2ed",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Retreat to Coralhelm",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Retreat to Coralhelm",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:fa394d182fdc",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Ringing Strike Mastery",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Ringing Strike Mastery",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:37823e830289",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Rook Turret",
+    "cut": "Uthros Research Craft",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Rook Turret",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:a960fac5106e",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Sage of the Beyond",
+    "cut": "Phyrexian Metamorph",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Sage of the Beyond",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:e36407dd3371",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Sai, Master Thopterist",
+    "cut": "Uthros Research Craft",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Sai, Master Thopterist",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:0e9b1f7c00ae",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Scrap Welder",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Scrap Welder",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:9a80db2c1f2d",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Second Wind",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Second Wind",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:70550ae39ea5",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Semblance Anvil",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Semblance Anvil",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:a945f33fdda9",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Sewer-veillance Cam",
+    "cut": "Uthros Research Craft",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Sewer-veillance Cam",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:cffe1d51c567",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Sheoldred, the Apocalypse",
+    "cut": "Uthros Research Craft",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Sheoldred, the Apocalypse",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:3f35e15ab076",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Shuri, Wakandan Inventor",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Shuri, Wakandan Inventor",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:0c3a30708584",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Skilled Animator",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Skilled Animator",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:00cf7275386a",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Skirge Familiar",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Skirge Familiar",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:7fc9584873b5",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Skyswimmer Koi",
+    "cut": "Uthros Research Craft",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Skyswimmer Koi",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:788f65b9d489",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Sluggishness",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Sluggishness",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:f76a68d6bb3e",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Spine of Ish Sah",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Spine of Ish Sah",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:b26a5ed0e671",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Staff of Domination",
+    "cut": "Uthros Research Craft",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Staff of Domination",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:a19d8d1ab0b9",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Starving Revenant",
+    "cut": "Uthros Research Craft",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Starving Revenant",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:ce5a22e3f16d",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Stone Calendar",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Stone Calendar",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:e56ee37b2ffa",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Sword of the Paruns",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Sword of the Paruns",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:2c963043c1c9",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Technomancer",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Technomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:cab9c9bda358",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Tenacious Dead",
+    "cut": "Phyrexian Metamorph",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Tenacious Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:2bcdb64a38a1",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Tezzeret, Agent of Bolas",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Tezzeret, Agent of Bolas",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:96f5e367f24d",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Tezzeret, Betrayer of Flesh",
+    "cut": "Uthros Research Craft",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Tezzeret, Betrayer of Flesh",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:0d19959c6024",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=The Enigma Jewel // Locus of Enlightenment",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:652838df40b1",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "The Immortal Sun",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=The Immortal Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:57932b614cc8",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "The Lunar Whale",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=The Lunar Whale",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:c9cd5e6f47d7",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "The Peregrine Dynamo",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=The Peregrine Dynamo",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:74488aa9084b",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "The Sibsig Ceremony",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=The Sibsig Ceremony",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:2c3f9f9c0457",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "The Vision and Scarlet Witch",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=The Vision and Scarlet Witch",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:09669792d3d3",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Thornbite Staff",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Thornbite Staff",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:b44871b0615f",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:128af98061c4",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Toymaker",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Toymaker",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:4be83f2de989",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Transplant Theorist",
+    "cut": "Uthros Research Craft",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Transplant Theorist",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:af42feb2d5c1",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Trazyn the Infinite",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Trazyn the Infinite",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:564c50380b95",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Treasonous Ogre",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Treasonous Ogre",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:bd5763596d84",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Ugin, the Ineffable",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Ugin, the Ineffable",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:53629d623eee",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Ultron, Artificial Malevolence",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Ultron, Artificial Malevolence",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:c65b355b730b",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Umbral Mantle",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Umbral Mantle",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:aa38ffb40cfc",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Valeria Richards, Precocious",
+    "cut": "Uthros Research Craft",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Valeria Richards, Precocious",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:2025e6fb6210",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Voltaic Construct",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Voltaic Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:c5db13f74e22",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Words of Wind",
+    "cut": "Uthros Research Craft",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Words of Wind",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:4567851590c6",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Xenic Poltergeist",
+    "cut": "Tezzeret, Cruel Captain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Xenic Poltergeist",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:9f1a9d4685b2",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   },
+   {
+    "add": "Yotia Declares War",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#card=Yotia Declares War",
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:9ad1ec64b2d6",
+     "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Mishra__Artificer_Prodigy",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz"
+  ],
+  "list_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:mishra-artificer-prodigy:performance:v1",
+  "recommendations": [
+   {
+    "add": "Brainstorm",
+    "cut": "Uthros Research Craft",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:c606ab78440e",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=test:mishra-artificer-prodigy:goldfish:eba57e1370022e88"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:1233b16b4417",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=test:mishra-artificer-prodigy:goldfish:a23aa066b4ed0daf"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:7518d48426eb",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=test:mishra-artificer-prodigy:goldfish:f302999c92da031c"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:652838df40b1",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=test:mishra-artificer-prodigy:goldfish:f3f0b931986b14ac"
+    ]
+   },
+   {
+    "add": "Ugin, the Ineffable",
+    "cut": "Vandalblast",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:943618f4a434",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=test:mishra-artificer-prodigy:goldfish:f5c8c32923a05903"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [
+   "swap:mishra-artificer-prodigy:m5:652838df40b1"
+  ],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:mishra-artificer-prodigy:m5:0083d951474c",
+   "swap:mishra-artificer-prodigy:m5:00cf7275386a",
+   "swap:mishra-artificer-prodigy:m5:0103a05127b6",
+   "swap:mishra-artificer-prodigy:m5:02043a0de5f8",
+   "swap:mishra-artificer-prodigy:m5:024ba368b79e",
+   "swap:mishra-artificer-prodigy:m5:031ad90c33ea",
+   "swap:mishra-artificer-prodigy:m5:082afd22a1d7",
+   "swap:mishra-artificer-prodigy:m5:09669792d3d3",
+   "swap:mishra-artificer-prodigy:m5:0c3a30708584",
+   "swap:mishra-artificer-prodigy:m5:0d19959c6024",
+   "swap:mishra-artificer-prodigy:m5:0e9b1f7c00ae",
+   "swap:mishra-artificer-prodigy:m5:1233b16b4417",
+   "swap:mishra-artificer-prodigy:m5:128af98061c4",
+   "swap:mishra-artificer-prodigy:m5:139b49e86796",
+   "swap:mishra-artificer-prodigy:m5:158c7827902f",
+   "swap:mishra-artificer-prodigy:m5:1603c29dbe59",
+   "swap:mishra-artificer-prodigy:m5:184a9bff3255",
+   "swap:mishra-artificer-prodigy:m5:1e85dc7508af",
+   "swap:mishra-artificer-prodigy:m5:2025e6fb6210",
+   "swap:mishra-artificer-prodigy:m5:2467d545b7f3",
+   "swap:mishra-artificer-prodigy:m5:25ca51deb79e",
+   "swap:mishra-artificer-prodigy:m5:26ce10a42bb8",
+   "swap:mishra-artificer-prodigy:m5:2840913c4651",
+   "swap:mishra-artificer-prodigy:m5:2888c8dbf39b",
+   "swap:mishra-artificer-prodigy:m5:290db028eefa",
+   "swap:mishra-artificer-prodigy:m5:2bcdb64a38a1",
+   "swap:mishra-artificer-prodigy:m5:2c3f9f9c0457",
+   "swap:mishra-artificer-prodigy:m5:2c963043c1c9",
+   "swap:mishra-artificer-prodigy:m5:2e0d46bfa3c5",
+   "swap:mishra-artificer-prodigy:m5:2f4575321415",
+   "swap:mishra-artificer-prodigy:m5:3067cdb8ec83",
+   "swap:mishra-artificer-prodigy:m5:3076116933df",
+   "swap:mishra-artificer-prodigy:m5:312536317968",
+   "swap:mishra-artificer-prodigy:m5:369fe303e696",
+   "swap:mishra-artificer-prodigy:m5:36b4632eaf81",
+   "swap:mishra-artificer-prodigy:m5:37000549b7bc",
+   "swap:mishra-artificer-prodigy:m5:37823e830289",
+   "swap:mishra-artificer-prodigy:m5:3f35e15ab076",
+   "swap:mishra-artificer-prodigy:m5:450d2cfaabc0",
+   "swap:mishra-artificer-prodigy:m5:4567851590c6",
+   "swap:mishra-artificer-prodigy:m5:4707cf3568d3",
+   "swap:mishra-artificer-prodigy:m5:47dc62f079d0",
+   "swap:mishra-artificer-prodigy:m5:4be83f2de989",
+   "swap:mishra-artificer-prodigy:m5:51540fa1e8f7",
+   "swap:mishra-artificer-prodigy:m5:53629d623eee",
+   "swap:mishra-artificer-prodigy:m5:53b346ec44c6",
+   "swap:mishra-artificer-prodigy:m5:564c50380b95",
+   "swap:mishra-artificer-prodigy:m5:57932b614cc8",
+   "swap:mishra-artificer-prodigy:m5:5a9d46b1e8f4",
+   "swap:mishra-artificer-prodigy:m5:5c9b0fbad2f2",
+   "swap:mishra-artificer-prodigy:m5:5dd613c06ffe",
+   "swap:mishra-artificer-prodigy:m5:5e096e32fcfd",
+   "swap:mishra-artificer-prodigy:m5:5e2a849866ab",
+   "swap:mishra-artificer-prodigy:m5:5f1225e054a7",
+   "swap:mishra-artificer-prodigy:m5:5f5f4ecb2162",
+   "swap:mishra-artificer-prodigy:m5:652838df40b1",
+   "swap:mishra-artificer-prodigy:m5:67ca16a8b366",
+   "swap:mishra-artificer-prodigy:m5:69559e036845",
+   "swap:mishra-artificer-prodigy:m5:6aff13d0e75a",
+   "swap:mishra-artificer-prodigy:m5:70550ae39ea5",
+   "swap:mishra-artificer-prodigy:m5:725bbf70fa71",
+   "swap:mishra-artificer-prodigy:m5:74488aa9084b",
+   "swap:mishra-artificer-prodigy:m5:7518d48426eb",
+   "swap:mishra-artificer-prodigy:m5:788f65b9d489",
+   "swap:mishra-artificer-prodigy:m5:796d6b9e9401",
+   "swap:mishra-artificer-prodigy:m5:7f05d69baf0a",
+   "swap:mishra-artificer-prodigy:m5:7fc9584873b5",
+   "swap:mishra-artificer-prodigy:m5:83d4a2bce9d2",
+   "swap:mishra-artificer-prodigy:m5:887384da6ac5",
+   "swap:mishra-artificer-prodigy:m5:8b6806bd4e12",
+   "swap:mishra-artificer-prodigy:m5:901ccd26d80a",
+   "swap:mishra-artificer-prodigy:m5:943618f4a434",
+   "swap:mishra-artificer-prodigy:m5:94ed51f43cda",
+   "swap:mishra-artificer-prodigy:m5:96bdd8300875",
+   "swap:mishra-artificer-prodigy:m5:96f5e367f24d",
+   "swap:mishra-artificer-prodigy:m5:9a80db2c1f2d",
+   "swap:mishra-artificer-prodigy:m5:9ad1ec64b2d6",
+   "swap:mishra-artificer-prodigy:m5:9c2c52e635e6",
+   "swap:mishra-artificer-prodigy:m5:9ce9a1606ee7",
+   "swap:mishra-artificer-prodigy:m5:9e56556a8ff7",
+   "swap:mishra-artificer-prodigy:m5:9f1a9d4685b2",
+   "swap:mishra-artificer-prodigy:m5:a19d8d1ab0b9",
+   "swap:mishra-artificer-prodigy:m5:a945f33fdda9",
+   "swap:mishra-artificer-prodigy:m5:a960fac5106e",
+   "swap:mishra-artificer-prodigy:m5:aa38ffb40cfc",
+   "swap:mishra-artificer-prodigy:m5:aa56509895f0",
+   "swap:mishra-artificer-prodigy:m5:abff6de608a7",
+   "swap:mishra-artificer-prodigy:m5:acc2fc027b2a",
+   "swap:mishra-artificer-prodigy:m5:af42feb2d5c1",
+   "swap:mishra-artificer-prodigy:m5:b1b2202eb7c0",
+   "swap:mishra-artificer-prodigy:m5:b26a5ed0e671",
+   "swap:mishra-artificer-prodigy:m5:b44871b0615f",
+   "swap:mishra-artificer-prodigy:m5:bad8a3f5d259",
+   "swap:mishra-artificer-prodigy:m5:bd5763596d84",
+   "swap:mishra-artificer-prodigy:m5:c16337eb79e2",
+   "swap:mishra-artificer-prodigy:m5:c44baec5824d",
+   "swap:mishra-artificer-prodigy:m5:c5b22a4d8cc4",
+   "swap:mishra-artificer-prodigy:m5:c5db13f74e22",
+   "swap:mishra-artificer-prodigy:m5:c606ab78440e",
+   "swap:mishra-artificer-prodigy:m5:c65b355b730b",
+   "swap:mishra-artificer-prodigy:m5:c8f25c0b9a4b",
+   "swap:mishra-artificer-prodigy:m5:c9cd5e6f47d7",
+   "swap:mishra-artificer-prodigy:m5:c9e360e319d2",
+   "swap:mishra-artificer-prodigy:m5:cab9c9bda358",
+   "swap:mishra-artificer-prodigy:m5:caef094337f4",
+   "swap:mishra-artificer-prodigy:m5:ce5a22e3f16d",
+   "swap:mishra-artificer-prodigy:m5:cffe1d51c567",
+   "swap:mishra-artificer-prodigy:m5:d277fb2d28da",
+   "swap:mishra-artificer-prodigy:m5:d6963e361c61",
+   "swap:mishra-artificer-prodigy:m5:d7d384d1b2ed",
+   "swap:mishra-artificer-prodigy:m5:df5be07c816b",
+   "swap:mishra-artificer-prodigy:m5:e23cc89348cb",
+   "swap:mishra-artificer-prodigy:m5:e36407dd3371",
+   "swap:mishra-artificer-prodigy:m5:e3c0f2bb195f",
+   "swap:mishra-artificer-prodigy:m5:e56ee37b2ffa",
+   "swap:mishra-artificer-prodigy:m5:e7b3bf37ffae",
+   "swap:mishra-artificer-prodigy:m5:eb839dd0fe2a",
+   "swap:mishra-artificer-prodigy:m5:ed93644853ee",
+   "swap:mishra-artificer-prodigy:m5:edda54bd4d6f",
+   "swap:mishra-artificer-prodigy:m5:eefe99d9e521",
+   "swap:mishra-artificer-prodigy:m5:f19e3ed502a2",
+   "swap:mishra-artificer-prodigy:m5:f3bea9789895",
+   "swap:mishra-artificer-prodigy:m5:f76a68d6bb3e",
+   "swap:mishra-artificer-prodigy:m5:fa394d182fdc",
+   "swap:mishra-artificer-prodigy:m5:fac78c2ad9c4",
+   "swap:mishra-artificer-prodigy:m5:fb354d0445f2",
+   "swap:mishra-artificer-prodigy:m5:fb958ead6f37"
+  ],
+  "disagreements": [
+   "swap:mishra-artificer-prodigy:m5:0083d951474c",
+   "swap:mishra-artificer-prodigy:m5:00cf7275386a",
+   "swap:mishra-artificer-prodigy:m5:0103a05127b6",
+   "swap:mishra-artificer-prodigy:m5:02043a0de5f8",
+   "swap:mishra-artificer-prodigy:m5:024ba368b79e",
+   "swap:mishra-artificer-prodigy:m5:031ad90c33ea",
+   "swap:mishra-artificer-prodigy:m5:082afd22a1d7",
+   "swap:mishra-artificer-prodigy:m5:09669792d3d3",
+   "swap:mishra-artificer-prodigy:m5:0c3a30708584",
+   "swap:mishra-artificer-prodigy:m5:0d19959c6024",
+   "swap:mishra-artificer-prodigy:m5:0e9b1f7c00ae",
+   "swap:mishra-artificer-prodigy:m5:1233b16b4417",
+   "swap:mishra-artificer-prodigy:m5:128af98061c4",
+   "swap:mishra-artificer-prodigy:m5:139b49e86796",
+   "swap:mishra-artificer-prodigy:m5:158c7827902f",
+   "swap:mishra-artificer-prodigy:m5:1603c29dbe59",
+   "swap:mishra-artificer-prodigy:m5:184a9bff3255",
+   "swap:mishra-artificer-prodigy:m5:1e85dc7508af",
+   "swap:mishra-artificer-prodigy:m5:2025e6fb6210",
+   "swap:mishra-artificer-prodigy:m5:2467d545b7f3",
+   "swap:mishra-artificer-prodigy:m5:25ca51deb79e",
+   "swap:mishra-artificer-prodigy:m5:26ce10a42bb8",
+   "swap:mishra-artificer-prodigy:m5:2840913c4651",
+   "swap:mishra-artificer-prodigy:m5:2888c8dbf39b",
+   "swap:mishra-artificer-prodigy:m5:290db028eefa",
+   "swap:mishra-artificer-prodigy:m5:2bcdb64a38a1",
+   "swap:mishra-artificer-prodigy:m5:2c3f9f9c0457",
+   "swap:mishra-artificer-prodigy:m5:2c963043c1c9",
+   "swap:mishra-artificer-prodigy:m5:2e0d46bfa3c5",
+   "swap:mishra-artificer-prodigy:m5:2f4575321415",
+   "swap:mishra-artificer-prodigy:m5:3067cdb8ec83",
+   "swap:mishra-artificer-prodigy:m5:3076116933df",
+   "swap:mishra-artificer-prodigy:m5:312536317968",
+   "swap:mishra-artificer-prodigy:m5:369fe303e696",
+   "swap:mishra-artificer-prodigy:m5:36b4632eaf81",
+   "swap:mishra-artificer-prodigy:m5:37000549b7bc",
+   "swap:mishra-artificer-prodigy:m5:37823e830289",
+   "swap:mishra-artificer-prodigy:m5:3f35e15ab076",
+   "swap:mishra-artificer-prodigy:m5:450d2cfaabc0",
+   "swap:mishra-artificer-prodigy:m5:4567851590c6",
+   "swap:mishra-artificer-prodigy:m5:4707cf3568d3",
+   "swap:mishra-artificer-prodigy:m5:47dc62f079d0",
+   "swap:mishra-artificer-prodigy:m5:4be83f2de989",
+   "swap:mishra-artificer-prodigy:m5:51540fa1e8f7",
+   "swap:mishra-artificer-prodigy:m5:53629d623eee",
+   "swap:mishra-artificer-prodigy:m5:53b346ec44c6",
+   "swap:mishra-artificer-prodigy:m5:564c50380b95",
+   "swap:mishra-artificer-prodigy:m5:57932b614cc8",
+   "swap:mishra-artificer-prodigy:m5:5a9d46b1e8f4",
+   "swap:mishra-artificer-prodigy:m5:5c9b0fbad2f2",
+   "swap:mishra-artificer-prodigy:m5:5dd613c06ffe",
+   "swap:mishra-artificer-prodigy:m5:5e096e32fcfd",
+   "swap:mishra-artificer-prodigy:m5:5e2a849866ab",
+   "swap:mishra-artificer-prodigy:m5:5f1225e054a7",
+   "swap:mishra-artificer-prodigy:m5:5f5f4ecb2162",
+   "swap:mishra-artificer-prodigy:m5:67ca16a8b366",
+   "swap:mishra-artificer-prodigy:m5:69559e036845",
+   "swap:mishra-artificer-prodigy:m5:6aff13d0e75a",
+   "swap:mishra-artificer-prodigy:m5:70550ae39ea5",
+   "swap:mishra-artificer-prodigy:m5:725bbf70fa71",
+   "swap:mishra-artificer-prodigy:m5:74488aa9084b",
+   "swap:mishra-artificer-prodigy:m5:7518d48426eb",
+   "swap:mishra-artificer-prodigy:m5:788f65b9d489",
+   "swap:mishra-artificer-prodigy:m5:796d6b9e9401",
+   "swap:mishra-artificer-prodigy:m5:7f05d69baf0a",
+   "swap:mishra-artificer-prodigy:m5:7fc9584873b5",
+   "swap:mishra-artificer-prodigy:m5:83d4a2bce9d2",
+   "swap:mishra-artificer-prodigy:m5:887384da6ac5",
+   "swap:mishra-artificer-prodigy:m5:8b6806bd4e12",
+   "swap:mishra-artificer-prodigy:m5:901ccd26d80a",
+   "swap:mishra-artificer-prodigy:m5:943618f4a434",
+   "swap:mishra-artificer-prodigy:m5:94ed51f43cda",
+   "swap:mishra-artificer-prodigy:m5:96bdd8300875",
+   "swap:mishra-artificer-prodigy:m5:96f5e367f24d",
+   "swap:mishra-artificer-prodigy:m5:9a80db2c1f2d",
+   "swap:mishra-artificer-prodigy:m5:9ad1ec64b2d6",
+   "swap:mishra-artificer-prodigy:m5:9c2c52e635e6",
+   "swap:mishra-artificer-prodigy:m5:9ce9a1606ee7",
+   "swap:mishra-artificer-prodigy:m5:9e56556a8ff7",
+   "swap:mishra-artificer-prodigy:m5:9f1a9d4685b2",
+   "swap:mishra-artificer-prodigy:m5:a19d8d1ab0b9",
+   "swap:mishra-artificer-prodigy:m5:a945f33fdda9",
+   "swap:mishra-artificer-prodigy:m5:a960fac5106e",
+   "swap:mishra-artificer-prodigy:m5:aa38ffb40cfc",
+   "swap:mishra-artificer-prodigy:m5:aa56509895f0",
+   "swap:mishra-artificer-prodigy:m5:abff6de608a7",
+   "swap:mishra-artificer-prodigy:m5:acc2fc027b2a",
+   "swap:mishra-artificer-prodigy:m5:af42feb2d5c1",
+   "swap:mishra-artificer-prodigy:m5:b1b2202eb7c0",
+   "swap:mishra-artificer-prodigy:m5:b26a5ed0e671",
+   "swap:mishra-artificer-prodigy:m5:b44871b0615f",
+   "swap:mishra-artificer-prodigy:m5:bad8a3f5d259",
+   "swap:mishra-artificer-prodigy:m5:bd5763596d84",
+   "swap:mishra-artificer-prodigy:m5:c16337eb79e2",
+   "swap:mishra-artificer-prodigy:m5:c44baec5824d",
+   "swap:mishra-artificer-prodigy:m5:c5b22a4d8cc4",
+   "swap:mishra-artificer-prodigy:m5:c5db13f74e22",
+   "swap:mishra-artificer-prodigy:m5:c606ab78440e",
+   "swap:mishra-artificer-prodigy:m5:c65b355b730b",
+   "swap:mishra-artificer-prodigy:m5:c8f25c0b9a4b",
+   "swap:mishra-artificer-prodigy:m5:c9cd5e6f47d7",
+   "swap:mishra-artificer-prodigy:m5:c9e360e319d2",
+   "swap:mishra-artificer-prodigy:m5:cab9c9bda358",
+   "swap:mishra-artificer-prodigy:m5:caef094337f4",
+   "swap:mishra-artificer-prodigy:m5:ce5a22e3f16d",
+   "swap:mishra-artificer-prodigy:m5:cffe1d51c567",
+   "swap:mishra-artificer-prodigy:m5:d277fb2d28da",
+   "swap:mishra-artificer-prodigy:m5:d6963e361c61",
+   "swap:mishra-artificer-prodigy:m5:d7d384d1b2ed",
+   "swap:mishra-artificer-prodigy:m5:df5be07c816b",
+   "swap:mishra-artificer-prodigy:m5:e23cc89348cb",
+   "swap:mishra-artificer-prodigy:m5:e36407dd3371",
+   "swap:mishra-artificer-prodigy:m5:e3c0f2bb195f",
+   "swap:mishra-artificer-prodigy:m5:e56ee37b2ffa",
+   "swap:mishra-artificer-prodigy:m5:e7b3bf37ffae",
+   "swap:mishra-artificer-prodigy:m5:eb839dd0fe2a",
+   "swap:mishra-artificer-prodigy:m5:ed93644853ee",
+   "swap:mishra-artificer-prodigy:m5:edda54bd4d6f",
+   "swap:mishra-artificer-prodigy:m5:eefe99d9e521",
+   "swap:mishra-artificer-prodigy:m5:f19e3ed502a2",
+   "swap:mishra-artificer-prodigy:m5:f3bea9789895",
+   "swap:mishra-artificer-prodigy:m5:f76a68d6bb3e",
+   "swap:mishra-artificer-prodigy:m5:fa394d182fdc",
+   "swap:mishra-artificer-prodigy:m5:fac78c2ad9c4",
+   "swap:mishra-artificer-prodigy:m5:fb354d0445f2",
+   "swap:mishra-artificer-prodigy:m5:fb958ead6f37"
+  ]
+ },
+ "schema_version": 1
+}

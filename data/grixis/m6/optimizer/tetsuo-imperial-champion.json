@@ -1,0 +1,556 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Tetsuo__Imperial_Champion",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz"
+  ],
+  "list_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:tetsuo-imperial-champion:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Alena, Kessig Trapper",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Alena, Kessig Trapper",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:f9713e71b639",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Ancient Copper Dragon",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Ancient Copper Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:cf540afa1f46",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Ashnod's Altar",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Ashnod's Altar",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:8358260ad930",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Cavern-Hoard Dragon",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Cavern-Hoard Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:b16867eba814",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:a0c3c1902a17",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+    "cut": "World at War",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:2b68cfa93df2",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:8debee7486b3",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Hellkite Charger",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Hellkite Charger",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:6aff09259205",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Hellkite Charger",
+    "cut": "World at War",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Hellkite Charger",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:2eaa7958903d",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Helm of the Host",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Helm of the Host",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:b9a989142da9",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Helm of the Host",
+    "cut": "World at War",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Helm of the Host",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:82cd600a371f",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Hoard Hauler",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Hoard Hauler",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:13f8260869b7",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Howlsquad Heavy",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Howlsquad Heavy",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:f2a12c0932ca",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:6e51015e32f8",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Irma, Part-Time Mutant",
+    "cut": "Padeem, Consul of Innovation",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Irma, Part-Time Mutant",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:fc701ff28962",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "J. Jonah Jameson",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=J. Jonah Jameson",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:ec89f9c28e79",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:5ed96f585523",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "World at War",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:46e3cba18665",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Luxurious Locomotive",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Luxurious Locomotive",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:5a5ace7bbb5e",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Magar of the Magic Strings",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Magar of the Magic Strings",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:de2862b432de",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Magar of the Magic Strings",
+    "cut": "World at War",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Magar of the Magic Strings",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:a08e85efe7f7",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Magda, Brazen Outlaw",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Magda, Brazen Outlaw",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:fa1230c5cb71",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Neheb, Dreadhorde Champion",
+    "cut": "Swordsman's Steel",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Neheb, Dreadhorde Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:e341fc7b833c",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Neheb, the Eternal",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Neheb, the Eternal",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:fca99dc57cf6",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Poetic Ingenuity",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Poetic Ingenuity",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:1cbb9b523872",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:f92643d1dd43",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Rionya, Fire Dancer",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Rionya, Fire Dancer",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:cc7c82b1c6b7",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Rionya, Fire Dancer",
+    "cut": "World at War",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Rionya, Fire Dancer",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:9c34cb8358bd",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Sensei's Divining Top",
+    "cut": "Swordsman's Steel",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Sensei's Divining Top",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:ee3503eb7f18",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Shadow of the Second Sun",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Shadow of the Second Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:24c2585c59c5",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Spellbinder",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Spellbinder",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:c54d0d6a1bf4",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Spellbinder",
+    "cut": "World at War",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Spellbinder",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:b90fd1e0fa88",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Sphinx of the Second Sun",
+    "cut": "Padeem, Consul of Innovation",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Sphinx of the Second Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:96662accc80f",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Stella Lee, Wild Card",
+    "cut": "Brainstorm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Stella Lee, Wild Card",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:6eed754932b1",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Stella Lee, Wild Card",
+    "cut": "World at War",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Stella Lee, Wild Card",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:f6eaf534c248",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Surge to Victory",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Surge to Victory",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:706029979f6e",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Surge to Victory",
+    "cut": "World at War",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Surge to Victory",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:39b9e708331e",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Sword of Hearth and Home",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Sword of Hearth and Home",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:0bec97720725",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Thorin, Company's Leader",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Thorin, Company's Leader",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:e7de607d2695",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:ed425abe74f4",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Time Sieve",
+    "cut": "Leyline Axe",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Time Sieve",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:4c99a9c690ec",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Time Sieve",
+    "cut": "Swordsman's Steel",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Time Sieve",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:0332917a1f86",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:f30c0f085bac",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   },
+   {
+    "add": "Words of Wind",
+    "cut": "Swordsman's Steel",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#card=Words of Wind",
+     "m5_swap:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:bb4e26b8a8f4",
+     "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Tetsuo__Imperial_Champion",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz"
+  ],
+  "list_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:tetsuo-imperial-champion:performance:v1",
+  "recommendations": []
+ },
+ "reconciliation": {
+  "agreements": [],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:tetsuo-imperial-champion:m5:0332917a1f86",
+   "swap:tetsuo-imperial-champion:m5:0bec97720725",
+   "swap:tetsuo-imperial-champion:m5:13f8260869b7",
+   "swap:tetsuo-imperial-champion:m5:1cbb9b523872",
+   "swap:tetsuo-imperial-champion:m5:24c2585c59c5",
+   "swap:tetsuo-imperial-champion:m5:2b68cfa93df2",
+   "swap:tetsuo-imperial-champion:m5:2eaa7958903d",
+   "swap:tetsuo-imperial-champion:m5:39b9e708331e",
+   "swap:tetsuo-imperial-champion:m5:46e3cba18665",
+   "swap:tetsuo-imperial-champion:m5:4c99a9c690ec",
+   "swap:tetsuo-imperial-champion:m5:5a5ace7bbb5e",
+   "swap:tetsuo-imperial-champion:m5:5ed96f585523",
+   "swap:tetsuo-imperial-champion:m5:6aff09259205",
+   "swap:tetsuo-imperial-champion:m5:6e51015e32f8",
+   "swap:tetsuo-imperial-champion:m5:6eed754932b1",
+   "swap:tetsuo-imperial-champion:m5:706029979f6e",
+   "swap:tetsuo-imperial-champion:m5:82cd600a371f",
+   "swap:tetsuo-imperial-champion:m5:8358260ad930",
+   "swap:tetsuo-imperial-champion:m5:8debee7486b3",
+   "swap:tetsuo-imperial-champion:m5:96662accc80f",
+   "swap:tetsuo-imperial-champion:m5:9c34cb8358bd",
+   "swap:tetsuo-imperial-champion:m5:a08e85efe7f7",
+   "swap:tetsuo-imperial-champion:m5:a0c3c1902a17",
+   "swap:tetsuo-imperial-champion:m5:b16867eba814",
+   "swap:tetsuo-imperial-champion:m5:b90fd1e0fa88",
+   "swap:tetsuo-imperial-champion:m5:b9a989142da9",
+   "swap:tetsuo-imperial-champion:m5:bb4e26b8a8f4",
+   "swap:tetsuo-imperial-champion:m5:c54d0d6a1bf4",
+   "swap:tetsuo-imperial-champion:m5:cc7c82b1c6b7",
+   "swap:tetsuo-imperial-champion:m5:cf540afa1f46",
+   "swap:tetsuo-imperial-champion:m5:de2862b432de",
+   "swap:tetsuo-imperial-champion:m5:e341fc7b833c",
+   "swap:tetsuo-imperial-champion:m5:e7de607d2695",
+   "swap:tetsuo-imperial-champion:m5:ec89f9c28e79",
+   "swap:tetsuo-imperial-champion:m5:ed425abe74f4",
+   "swap:tetsuo-imperial-champion:m5:ee3503eb7f18",
+   "swap:tetsuo-imperial-champion:m5:f2a12c0932ca",
+   "swap:tetsuo-imperial-champion:m5:f30c0f085bac",
+   "swap:tetsuo-imperial-champion:m5:f6eaf534c248",
+   "swap:tetsuo-imperial-champion:m5:f92643d1dd43",
+   "swap:tetsuo-imperial-champion:m5:f9713e71b639",
+   "swap:tetsuo-imperial-champion:m5:fa1230c5cb71",
+   "swap:tetsuo-imperial-champion:m5:fc701ff28962",
+   "swap:tetsuo-imperial-champion:m5:fca99dc57cf6"
+  ],
+  "disagreements": [
+   "swap:tetsuo-imperial-champion:m5:0332917a1f86",
+   "swap:tetsuo-imperial-champion:m5:0bec97720725",
+   "swap:tetsuo-imperial-champion:m5:13f8260869b7",
+   "swap:tetsuo-imperial-champion:m5:1cbb9b523872",
+   "swap:tetsuo-imperial-champion:m5:24c2585c59c5",
+   "swap:tetsuo-imperial-champion:m5:2b68cfa93df2",
+   "swap:tetsuo-imperial-champion:m5:2eaa7958903d",
+   "swap:tetsuo-imperial-champion:m5:39b9e708331e",
+   "swap:tetsuo-imperial-champion:m5:46e3cba18665",
+   "swap:tetsuo-imperial-champion:m5:4c99a9c690ec",
+   "swap:tetsuo-imperial-champion:m5:5a5ace7bbb5e",
+   "swap:tetsuo-imperial-champion:m5:5ed96f585523",
+   "swap:tetsuo-imperial-champion:m5:6aff09259205",
+   "swap:tetsuo-imperial-champion:m5:6e51015e32f8",
+   "swap:tetsuo-imperial-champion:m5:6eed754932b1",
+   "swap:tetsuo-imperial-champion:m5:706029979f6e",
+   "swap:tetsuo-imperial-champion:m5:82cd600a371f",
+   "swap:tetsuo-imperial-champion:m5:8358260ad930",
+   "swap:tetsuo-imperial-champion:m5:8debee7486b3",
+   "swap:tetsuo-imperial-champion:m5:96662accc80f",
+   "swap:tetsuo-imperial-champion:m5:9c34cb8358bd",
+   "swap:tetsuo-imperial-champion:m5:a08e85efe7f7",
+   "swap:tetsuo-imperial-champion:m5:a0c3c1902a17",
+   "swap:tetsuo-imperial-champion:m5:b16867eba814",
+   "swap:tetsuo-imperial-champion:m5:b90fd1e0fa88",
+   "swap:tetsuo-imperial-champion:m5:b9a989142da9",
+   "swap:tetsuo-imperial-champion:m5:bb4e26b8a8f4",
+   "swap:tetsuo-imperial-champion:m5:c54d0d6a1bf4",
+   "swap:tetsuo-imperial-champion:m5:cc7c82b1c6b7",
+   "swap:tetsuo-imperial-champion:m5:cf540afa1f46",
+   "swap:tetsuo-imperial-champion:m5:de2862b432de",
+   "swap:tetsuo-imperial-champion:m5:e341fc7b833c",
+   "swap:tetsuo-imperial-champion:m5:e7de607d2695",
+   "swap:tetsuo-imperial-champion:m5:ec89f9c28e79",
+   "swap:tetsuo-imperial-champion:m5:ed425abe74f4",
+   "swap:tetsuo-imperial-champion:m5:ee3503eb7f18",
+   "swap:tetsuo-imperial-champion:m5:f2a12c0932ca",
+   "swap:tetsuo-imperial-champion:m5:f30c0f085bac",
+   "swap:tetsuo-imperial-champion:m5:f6eaf534c248",
+   "swap:tetsuo-imperial-champion:m5:f92643d1dd43",
+   "swap:tetsuo-imperial-champion:m5:f9713e71b639",
+   "swap:tetsuo-imperial-champion:m5:fa1230c5cb71",
+   "swap:tetsuo-imperial-champion:m5:fc701ff28962",
+   "swap:tetsuo-imperial-champion:m5:fca99dc57cf6"
+  ]
+ },
+ "schema_version": 1
+}

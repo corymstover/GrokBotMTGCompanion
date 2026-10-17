@@ -1,0 +1,656 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Saruman__the_White_Hand",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz"
+  ],
+  "list_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:saruman-the-white-hand:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Chain of Smog",
+    "cut": "Harmonic Prodigy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Chain of Smog",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:0f021246f201",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Chain of Smog",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Chain of Smog",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:2c7ffb866f90",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Eternity Vessel",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Eternity Vessel",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:4fc8e88f63ba",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Eternity Vessel",
+    "cut": "Wizard's Staff",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Eternity Vessel",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:f1ae92edbc4b",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Everlasting Torment",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Everlasting Torment",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:ab4307c40656",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Fury Storm",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Fury Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:988aba0491fd",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Fury Storm",
+    "cut": "Veyran, Voice of Duality",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Fury Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:0f64439331aa",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Haze of Rage",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Haze of Rage",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:34d389646cb2",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Haze of Rage",
+    "cut": "Veyran, Voice of Duality",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Haze of Rage",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:d9c9951a17e1",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:96e59ae22a99",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "All Will Be One",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:635e5fac39ca",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:453dd19c269b",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Night Dealings",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Night Dealings",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:ae835f629315",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Ob Nixilis, Captive Kingpin",
+    "cut": "Commence the Endgame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Ob Nixilis, Captive Kingpin",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:e74e5fe6c9f0",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:2ae6092b6a70",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Phyrexian Devourer",
+    "cut": "Commence the Endgame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Phyrexian Devourer",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:6fe440369cc9",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Quest for Pure Flame",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Quest for Pure Flame",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:cbf953c2b185",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:791582107501",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Veyran, Voice of Duality",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:51c21864fa6b",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "All Will Be One",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:3f027a35b6aa",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:f3bbdde57af2",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Requiem Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:7d822479e25c",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Soul-Scar Mage",
+    "cut": "Storm-Kiln Artist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Soul-Scar Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:cbb835590e88",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Soul-Scar Mage",
+    "cut": "Veyran, Voice of Duality",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Soul-Scar Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:cfe158375ec2",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Star of Extinction",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Star of Extinction",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:d2db94432684",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Talon of Pain",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Talon of Pain",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:f39f5fe307d4",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "The Red Terror",
+    "cut": "Commence the Endgame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=The Red Terror",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:20b97a56bb30",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:80b0a42cf7f8",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:8fb154be82a7",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "View from Above",
+    "cut": "Chandra's Ignition",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=View from Above",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:f27391997456",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "View from Above",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=View from Above",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:44775865e5bc",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "War Elemental",
+    "cut": "Commence the Endgame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=War Elemental",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:61b8a884d51f",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   },
+   {
+    "add": "Worldfire",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#card=Worldfire",
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:dc034e988087",
+     "blueprint:data/grixis/blueprints/saruman-the-white-hand.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Saruman__the_White_Hand",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz"
+  ],
+  "list_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:saruman-the-white-hand:performance:v1",
+  "recommendations": [
+   {
+    "add": "Big Score",
+    "cut": "Mana Geyser",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:3a7cca8befc9",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:64a8531065bf5a6e"
+    ]
+   },
+   {
+    "add": "Chromatic Lantern",
+    "cut": "Mana Geyser",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:4c1bd3611543",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:aced6c73f783e1b0"
+    ]
+   },
+   {
+    "add": "Commander's Sphere",
+    "cut": "Mana Geyser",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:2485efc67e3f",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:1ec3a2edb53607d5"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Mana Geyser",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:920f19152627",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:dd9241ead5535da8"
+    ]
+   },
+   {
+    "add": "Everflowing Chalice",
+    "cut": "Mana Geyser",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:a4436f70c296",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:cc9e348f5bc5a06f"
+    ]
+   },
+   {
+    "add": "Everlasting Torment",
+    "cut": "Fall of Cair Andros",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:039baaf35241",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:539dafa79deb0229"
+    ]
+   },
+   {
+    "add": "Gorbag of Minas Morgul",
+    "cut": "Mana Geyser",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:b6bc77ed6967",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:39f902ee27d2d0a4"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Fall of Cair Andros",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:58d98c84ec09",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:69e5e05547a687cb"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Mana Geyser",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:402dc4bb99f0",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:9d74bbff5bb09b69"
+    ]
+   },
+   {
+    "add": "Mind Stone",
+    "cut": "Mana Geyser",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:9425b5565082",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:b4e307b7aa09c0ef"
+    ]
+   },
+   {
+    "add": "Night's Whisper",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:1d1e367ff87d",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:6e98f1624aa50f83"
+    ]
+   },
+   {
+    "add": "Ob Nixilis, Captive Kingpin",
+    "cut": "Fall of Cair Andros",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:2dbec5912fdf",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:d1d47a64884ceccf"
+    ]
+   },
+   {
+    "add": "Phyrexian Devourer",
+    "cut": "Fall of Cair Andros",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:652f009e6781",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:e31676f7263ad50c"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Mana Geyser",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:dec4032177cd",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:dc8165fdccff5553"
+    ]
+   },
+   {
+    "add": "Relic of Sauron",
+    "cut": "Mana Geyser",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:d3aacf4c189a",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:26fd93fde06bbb86"
+    ]
+   },
+   {
+    "add": "Resonating Lute",
+    "cut": "Mana Geyser",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:66c3ec19d361",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:54591613a9f1e438"
+    ]
+   },
+   {
+    "add": "Tablet of Discovery",
+    "cut": "Mana Geyser",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:95888877c414",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:bc5c882008700e62"
+    ]
+   },
+   {
+    "add": "Talon of Pain",
+    "cut": "Fall of Cair Andros",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:09bb513060fa",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:7211357d07ad9be6"
+    ]
+   },
+   {
+    "add": "The Red Terror",
+    "cut": "Fall of Cair Andros",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:8f33e1a5afd6",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:cd147c7d2ec3c8d2"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Fall of Cair Andros",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:41e3f8647743",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:1a92dd3250052cfd"
+    ]
+   },
+   {
+    "add": "Unexpected Windfall",
+    "cut": "Mana Geyser",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:d27dc2f8c52b",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:2d65e605ad993354"
+    ]
+   },
+   {
+    "add": "Worn Powerstone",
+    "cut": "Mana Geyser",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=swap:saruman-the-white-hand:m5:6651904d99b7",
+     "m5_test:data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz#id=test:saruman-the-white-hand:goldfish:db89fb2f3e12a683"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:saruman-the-white-hand:m5:039baaf35241",
+   "swap:saruman-the-white-hand:m5:09bb513060fa",
+   "swap:saruman-the-white-hand:m5:0f021246f201",
+   "swap:saruman-the-white-hand:m5:0f64439331aa",
+   "swap:saruman-the-white-hand:m5:1d1e367ff87d",
+   "swap:saruman-the-white-hand:m5:20b97a56bb30",
+   "swap:saruman-the-white-hand:m5:2485efc67e3f",
+   "swap:saruman-the-white-hand:m5:2ae6092b6a70",
+   "swap:saruman-the-white-hand:m5:2c7ffb866f90",
+   "swap:saruman-the-white-hand:m5:2dbec5912fdf",
+   "swap:saruman-the-white-hand:m5:34d389646cb2",
+   "swap:saruman-the-white-hand:m5:3a7cca8befc9",
+   "swap:saruman-the-white-hand:m5:3f027a35b6aa",
+   "swap:saruman-the-white-hand:m5:402dc4bb99f0",
+   "swap:saruman-the-white-hand:m5:41e3f8647743",
+   "swap:saruman-the-white-hand:m5:44775865e5bc",
+   "swap:saruman-the-white-hand:m5:453dd19c269b",
+   "swap:saruman-the-white-hand:m5:4c1bd3611543",
+   "swap:saruman-the-white-hand:m5:4fc8e88f63ba",
+   "swap:saruman-the-white-hand:m5:51c21864fa6b",
+   "swap:saruman-the-white-hand:m5:58d98c84ec09",
+   "swap:saruman-the-white-hand:m5:61b8a884d51f",
+   "swap:saruman-the-white-hand:m5:635e5fac39ca",
+   "swap:saruman-the-white-hand:m5:652f009e6781",
+   "swap:saruman-the-white-hand:m5:6651904d99b7",
+   "swap:saruman-the-white-hand:m5:66c3ec19d361",
+   "swap:saruman-the-white-hand:m5:6fe440369cc9",
+   "swap:saruman-the-white-hand:m5:791582107501",
+   "swap:saruman-the-white-hand:m5:7d822479e25c",
+   "swap:saruman-the-white-hand:m5:80b0a42cf7f8",
+   "swap:saruman-the-white-hand:m5:8f33e1a5afd6",
+   "swap:saruman-the-white-hand:m5:8fb154be82a7",
+   "swap:saruman-the-white-hand:m5:920f19152627",
+   "swap:saruman-the-white-hand:m5:9425b5565082",
+   "swap:saruman-the-white-hand:m5:95888877c414",
+   "swap:saruman-the-white-hand:m5:96e59ae22a99",
+   "swap:saruman-the-white-hand:m5:988aba0491fd",
+   "swap:saruman-the-white-hand:m5:a4436f70c296",
+   "swap:saruman-the-white-hand:m5:ab4307c40656",
+   "swap:saruman-the-white-hand:m5:ae835f629315",
+   "swap:saruman-the-white-hand:m5:b6bc77ed6967",
+   "swap:saruman-the-white-hand:m5:cbb835590e88",
+   "swap:saruman-the-white-hand:m5:cbf953c2b185",
+   "swap:saruman-the-white-hand:m5:cfe158375ec2",
+   "swap:saruman-the-white-hand:m5:d27dc2f8c52b",
+   "swap:saruman-the-white-hand:m5:d2db94432684",
+   "swap:saruman-the-white-hand:m5:d3aacf4c189a",
+   "swap:saruman-the-white-hand:m5:d9c9951a17e1",
+   "swap:saruman-the-white-hand:m5:dc034e988087",
+   "swap:saruman-the-white-hand:m5:dec4032177cd",
+   "swap:saruman-the-white-hand:m5:e74e5fe6c9f0",
+   "swap:saruman-the-white-hand:m5:f1ae92edbc4b",
+   "swap:saruman-the-white-hand:m5:f27391997456",
+   "swap:saruman-the-white-hand:m5:f39f5fe307d4",
+   "swap:saruman-the-white-hand:m5:f3bbdde57af2"
+  ],
+  "disagreements": [
+   "swap:saruman-the-white-hand:m5:039baaf35241",
+   "swap:saruman-the-white-hand:m5:09bb513060fa",
+   "swap:saruman-the-white-hand:m5:0f021246f201",
+   "swap:saruman-the-white-hand:m5:0f64439331aa",
+   "swap:saruman-the-white-hand:m5:1d1e367ff87d",
+   "swap:saruman-the-white-hand:m5:20b97a56bb30",
+   "swap:saruman-the-white-hand:m5:2485efc67e3f",
+   "swap:saruman-the-white-hand:m5:2ae6092b6a70",
+   "swap:saruman-the-white-hand:m5:2c7ffb866f90",
+   "swap:saruman-the-white-hand:m5:2dbec5912fdf",
+   "swap:saruman-the-white-hand:m5:34d389646cb2",
+   "swap:saruman-the-white-hand:m5:3a7cca8befc9",
+   "swap:saruman-the-white-hand:m5:3f027a35b6aa",
+   "swap:saruman-the-white-hand:m5:402dc4bb99f0",
+   "swap:saruman-the-white-hand:m5:41e3f8647743",
+   "swap:saruman-the-white-hand:m5:44775865e5bc",
+   "swap:saruman-the-white-hand:m5:453dd19c269b",
+   "swap:saruman-the-white-hand:m5:4c1bd3611543",
+   "swap:saruman-the-white-hand:m5:4fc8e88f63ba",
+   "swap:saruman-the-white-hand:m5:51c21864fa6b",
+   "swap:saruman-the-white-hand:m5:58d98c84ec09",
+   "swap:saruman-the-white-hand:m5:61b8a884d51f",
+   "swap:saruman-the-white-hand:m5:635e5fac39ca",
+   "swap:saruman-the-white-hand:m5:652f009e6781",
+   "swap:saruman-the-white-hand:m5:6651904d99b7",
+   "swap:saruman-the-white-hand:m5:66c3ec19d361",
+   "swap:saruman-the-white-hand:m5:6fe440369cc9",
+   "swap:saruman-the-white-hand:m5:791582107501",
+   "swap:saruman-the-white-hand:m5:7d822479e25c",
+   "swap:saruman-the-white-hand:m5:80b0a42cf7f8",
+   "swap:saruman-the-white-hand:m5:8f33e1a5afd6",
+   "swap:saruman-the-white-hand:m5:8fb154be82a7",
+   "swap:saruman-the-white-hand:m5:920f19152627",
+   "swap:saruman-the-white-hand:m5:9425b5565082",
+   "swap:saruman-the-white-hand:m5:95888877c414",
+   "swap:saruman-the-white-hand:m5:96e59ae22a99",
+   "swap:saruman-the-white-hand:m5:988aba0491fd",
+   "swap:saruman-the-white-hand:m5:a4436f70c296",
+   "swap:saruman-the-white-hand:m5:ab4307c40656",
+   "swap:saruman-the-white-hand:m5:ae835f629315",
+   "swap:saruman-the-white-hand:m5:b6bc77ed6967",
+   "swap:saruman-the-white-hand:m5:cbb835590e88",
+   "swap:saruman-the-white-hand:m5:cbf953c2b185",
+   "swap:saruman-the-white-hand:m5:cfe158375ec2",
+   "swap:saruman-the-white-hand:m5:d27dc2f8c52b",
+   "swap:saruman-the-white-hand:m5:d2db94432684",
+   "swap:saruman-the-white-hand:m5:d3aacf4c189a",
+   "swap:saruman-the-white-hand:m5:d9c9951a17e1",
+   "swap:saruman-the-white-hand:m5:dc034e988087",
+   "swap:saruman-the-white-hand:m5:dec4032177cd",
+   "swap:saruman-the-white-hand:m5:e74e5fe6c9f0",
+   "swap:saruman-the-white-hand:m5:f1ae92edbc4b",
+   "swap:saruman-the-white-hand:m5:f27391997456",
+   "swap:saruman-the-white-hand:m5:f39f5fe307d4",
+   "swap:saruman-the-white-hand:m5:f3bbdde57af2"
+  ]
+ },
+ "schema_version": 1
+}

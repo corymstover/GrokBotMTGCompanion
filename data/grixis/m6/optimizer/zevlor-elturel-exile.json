@@ -1,0 +1,1275 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Zevlor__Elturel_Exile",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz"
+  ],
+  "list_hash": "lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:zevlor-elturel-exile:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Adventurous Eater // Have a Bite",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Adventurous Eater // Have a Bite",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:bb76360756ea",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Alicia Masters, Skilled Sculptor",
+    "cut": "Dark Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Alicia Masters, Skilled Sculptor",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:6a836594246b",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Aphetto Alchemist",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Aphetto Alchemist",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:bb1955c69211",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Aphetto Alchemist",
+    "cut": "Sedgemoor Witch",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Aphetto Alchemist",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:aba1ea045997",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Arcane Artisan",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Arcane Artisan",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:a073c18a9df7",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Arco-Flagellant",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Arco-Flagellant",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:0f13a0680fc1",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Baron Helmut Zemo",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Baron Helmut Zemo",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:50ab7b5c13e0",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Chain of Smog",
+    "cut": "Blue Sun's Twilight",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Chain of Smog",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:48190c8484a9",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Council of Reeds",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Council of Reeds",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:c5591c6714e4",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Crimson Operative",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Crimson Operative",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:41a200148eb3",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Cryotheory Adept",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Cryotheory Adept",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:bc602001edc0",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Deluge Virtuoso",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Deluge Virtuoso",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:3acb30049ee6",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Dire Fleet Daredevil",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Dire Fleet Daredevil",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:63438854a1ce",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Dragon's Rage Channeler",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Dragon's Rage Channeler",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:849688461a85",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Dramatic Reversal",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Dramatic Reversal",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:c24e5a6e1b93",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Dramatic Reversal",
+    "cut": "Praetor's Grasp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Dramatic Reversal",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:0ce67d58e3d9",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:1eaa7be12be9",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Sedgemoor Witch",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:d451692f7a83",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Echo, Perceptive Prodigy",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Echo, Perceptive Prodigy",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:a6013929d5d3",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Electro, Assaulting Battery",
+    "cut": "Dark Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Electro, Assaulting Battery",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:88b2931589cc",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Emeritus of Conflict // Lightning Bolt",
+    "cut": "Abrade",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Emeritus of Conflict // Lightning Bolt",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:4549bcc872ae",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Errant, Street Artist",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Errant, Street Artist",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:d5143a231b01",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Expressive Firedancer",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Expressive Firedancer",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:e3fb722f83c7",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Abrade",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:1885d180a3a2",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Feldon of the Third Path",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Feldon of the Third Path",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:d4069a10d244",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Firebending Student",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Firebending Student",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:1d28c38429cb",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Firebrand Archer",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Firebrand Archer",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:58c89d8ffc85",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Flux Channeler",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Flux Channeler",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:834fb523a7dc",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Freed from the Real",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Freed from the Real",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:a5464b9a5ab1",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Fury Storm",
+    "cut": "Blue Sun's Twilight",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Fury Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:2d9586973aef",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Gale, Waterdeep Prodigy",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Gale, Waterdeep Prodigy",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:473c5242466b",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Gleeful Arsonist",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Gleeful Arsonist",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:55b69de75728",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Harmonic Prodigy",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Harmonic Prodigy",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:7c772d12429e",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Hawkeye's Bow",
+    "cut": "Exterminator Magmarch",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Hawkeye's Bow",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:6fb9b2008b1c",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Haze of Rage",
+    "cut": "Blue Sun's Twilight",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Haze of Rage",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:b9380045d222",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Haze of Rage",
+    "cut": "Sedgemoor Witch",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Haze of Rage",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:edb8d8ea53b8",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Heat Shimmer",
+    "cut": "Blue Sun's Twilight",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Heat Shimmer",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:87dbe5860de9",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Heat Shimmer",
+    "cut": "Sedgemoor Witch",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Heat Shimmer",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:20702ce86072",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Helmut Zemo, Mastermind",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Helmut Zemo, Mastermind",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:a3367c98afc3",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Abrade",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:6b6b32b69afe",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Immortus, Master of Eternity",
+    "cut": "Dark Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Immortus, Master of Eternity",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:08ca6d025462",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Irma, Part-Time Mutant",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Irma, Part-Time Mutant",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:66082f8ec934",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Iron Fist, Hero for Hire",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Iron Fist, Hero for Hire",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:bde38033447c",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Iron Lad, Young Avenger",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Iron Lad, Young Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:8e56cb7f23ab",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Bleeding Edge",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Iron Man, Bleeding Edge",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:9503cbf9670d",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Ironheart, Clever Champion",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Ironheart, Clever Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:08996898bc33",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Jadzi, Steward of Fate // Oracle's Gift",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Jadzi, Steward of Fate // Oracle's Gift",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:499c5479f81b",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Jaxis, the Troublemaker",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Jaxis, the Troublemaker",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:7c0a1b105d52",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Kelpie Guide",
+    "cut": "Baral, Chief of Compliance",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Kelpie Guide",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:385f89f0fa62",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Kessig Flamebreather",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Kessig Flamebreather",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:f03b75adeb55",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Blue Sun's Twilight",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:3ccf5058eae0",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Sedgemoor Witch",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:bec67e6dc594",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Lecturing Scornmage",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Lecturing Scornmage",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:ff8dfbe96456",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Leech Collector // Bloodletting",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Leech Collector // Bloodletting",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:129cdb633a33",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Leitmotif Composer",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Leitmotif Composer",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:06b665e3d2dc",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Mica, Reader of Ruins",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Mica, Reader of Ruins",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:ba723ad284bd",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Baral, Chief of Compliance",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:7cd66f8baa8a",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Molten Duplication",
+    "cut": "Blue Sun's Twilight",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Molten Duplication",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:6aec3ac5a24c",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Molten Duplication",
+    "cut": "Sedgemoor Witch",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Molten Duplication",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:bcdfa9a181fb",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Narset's Reversal",
+    "cut": "Blue Sun's Twilight",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Narset's Reversal",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:91ef05fcad3e",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Narset's Reversal",
+    "cut": "Sedgemoor Witch",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Narset's Reversal",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:8b39cfa66d9f",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:b80e05d8895a",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Sedgemoor Witch",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:0587308ea27c",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Pharaoh Rama-Tut",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Pharaoh Rama-Tut",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:09a621d698df",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Ral, Monsoon Mage // Ral, Leyline Prodigy",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Ral, Monsoon Mage // Ral, Leyline Prodigy",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:cbe1ddd46e89",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Blue Sun's Twilight",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:c7780c926fc0",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Sedgemoor Witch",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:0c47d20e54b4",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:50b4f86bf493",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Rimewind Taskmage",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Rimewind Taskmage",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:463461c62bc0",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Rimewind Taskmage",
+    "cut": "Sedgemoor Witch",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Rimewind Taskmage",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:3eca8f615988",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Saheeli, Jewel of Avishkar",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Saheeli, Jewel of Avishkar",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:99074846a4fa",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Samut, Tyrant of Naktamun",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Samut, Tyrant of Naktamun",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:f0d4a032854d",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Sarkhan, Soul Aflame",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Sarkhan, Soul Aflame",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:7a6b71a5aad9",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Saw in Half",
+    "cut": "Abrade",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Saw in Half",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:e64929af420e",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Scientist Supreme of A.I.M.",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Scientist Supreme of A.I.M.",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:7d583df55e9a",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Shaun, Father of Synths",
+    "cut": "Rakdos Charm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Shaun, Father of Synths",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:8ef94f70e139",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Shuri, Wakandan Inventor",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Shuri, Wakandan Inventor",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:59bb6b0aa1a3",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Spawnsire of Ulamog",
+    "cut": "Dark Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Spawnsire of Ulamog",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:ed261553ce87",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Spellseeker",
+    "cut": "Gamble",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Spellseeker",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:68b2af58636f",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Stingcaster Mage",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Stingcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:a30e9c684eb9",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Taskmaster, Mercenary Mimic",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Taskmaster, Mercenary Mimic",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:6f273fe5fafa",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Tetsuko Umezawa, Pursuer",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Tetsuko Umezawa, Pursuer",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:79e3e2991837",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "The Immortal Weapons",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=The Immortal Weapons",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:b7ec6c8592f6",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Thermo-Alchemist",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Thermo-Alchemist",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:18126d68a494",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Third Path Iconoclast",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Third Path Iconoclast",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:ef2b5bbfeb26",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Thousand-Faced Shadow",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Thousand-Faced Shadow",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:d85ccb56e55d",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Abrade",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:f26ee1327b05",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Tidewater Minion",
+    "cut": "Baral, Chief of Compliance",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Tidewater Minion",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:5ec1fae5929b",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Tomik, Izzet Sparkmage",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Tomik, Izzet Sparkmage",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:184dc83672ce",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Abrade",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:f8e9fc1b8d14",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "TVA Bureaucrat",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=TVA Bureaucrat",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:e1703854d2d5",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Twinflame",
+    "cut": "Blue Sun's Twilight",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Twinflame",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:f8dfe937d8f8",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Twinflame",
+    "cut": "Sedgemoor Witch",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Twinflame",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:ff4684a05dc8",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Unctus, Grand Metatect",
+    "cut": "Leadership Vacuum",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Unctus, Grand Metatect",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:2a64b990024f",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Unctus, Grand Metatect",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Unctus, Grand Metatect",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:cfeabb6fe9d9",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Valeria Richards, Precocious",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Valeria Richards, Precocious",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:28e67c3cbc4e",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Variable Chaser // Arc of Fortune",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Variable Chaser // Arc of Fortune",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:89d69da8c144",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Venser, Fervent Forger",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Venser, Fervent Forger",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:681be5d94ac2",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Winter, Team Player",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Winter, Team Player",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:f26d41752762",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Wizards of Thay",
+    "cut": "Sedgemoor Witch",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Wizards of Thay",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:826676ac93b1",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Young Pyromancer",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Young Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:7e67677e95f7",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   },
+   {
+    "add": "Zaffai and the Tempests",
+    "cut": "Archmage Emeritus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#card=Zaffai and the Tempests",
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:e4ea31f2fabc",
+     "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Zevlor__Elturel_Exile",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz"
+  ],
+  "list_hash": "lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:zevlor-elturel-exile:performance:v1",
+  "recommendations": [
+   {
+    "add": "Dimir Signet",
+    "cut": "Dark Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:e9f7a0438d52",
+     "m5_test:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=test:zevlor-elturel-exile:goldfish:e8c57da05c34f34a"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "Dark Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:f31a0528217a",
+     "m5_test:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=test:zevlor-elturel-exile:goldfish:597d92ace53c5a4d"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Dark Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:aceddf086b97",
+     "m5_test:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=test:zevlor-elturel-exile:goldfish:e018c017e0ee5334"
+    ]
+   },
+   {
+    "add": "Mystic Confluence",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:0fb5c4cfecfd",
+     "m5_test:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=test:zevlor-elturel-exile:goldfish:680f99d07c7f8afc"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Dark Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:19bcd93443a9",
+     "m5_test:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=test:zevlor-elturel-exile:goldfish:3ed9c43c513acb62"
+    ]
+   },
+   {
+    "add": "Resonating Lute",
+    "cut": "Dark Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:8c01bb21be5c",
+     "m5_test:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=test:zevlor-elturel-exile:goldfish:d2d61b5ab20828d2"
+    ]
+   },
+   {
+    "add": "Talisman of Creativity",
+    "cut": "Dark Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:8a1e3bf78930",
+     "m5_test:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=test:zevlor-elturel-exile:goldfish:30995345b357259c"
+    ]
+   },
+   {
+    "add": "Talisman of Dominance",
+    "cut": "Dark Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:20d78ee990a0",
+     "m5_test:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=test:zevlor-elturel-exile:goldfish:47f68bdf1b392de9"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:zevlor-elturel-exile:m5:0587308ea27c",
+   "swap:zevlor-elturel-exile:m5:06b665e3d2dc",
+   "swap:zevlor-elturel-exile:m5:08996898bc33",
+   "swap:zevlor-elturel-exile:m5:08ca6d025462",
+   "swap:zevlor-elturel-exile:m5:09a621d698df",
+   "swap:zevlor-elturel-exile:m5:0c47d20e54b4",
+   "swap:zevlor-elturel-exile:m5:0ce67d58e3d9",
+   "swap:zevlor-elturel-exile:m5:0f13a0680fc1",
+   "swap:zevlor-elturel-exile:m5:0fb5c4cfecfd",
+   "swap:zevlor-elturel-exile:m5:129cdb633a33",
+   "swap:zevlor-elturel-exile:m5:18126d68a494",
+   "swap:zevlor-elturel-exile:m5:184dc83672ce",
+   "swap:zevlor-elturel-exile:m5:1885d180a3a2",
+   "swap:zevlor-elturel-exile:m5:19bcd93443a9",
+   "swap:zevlor-elturel-exile:m5:1d28c38429cb",
+   "swap:zevlor-elturel-exile:m5:1eaa7be12be9",
+   "swap:zevlor-elturel-exile:m5:20702ce86072",
+   "swap:zevlor-elturel-exile:m5:20d78ee990a0",
+   "swap:zevlor-elturel-exile:m5:28e67c3cbc4e",
+   "swap:zevlor-elturel-exile:m5:2a64b990024f",
+   "swap:zevlor-elturel-exile:m5:2d9586973aef",
+   "swap:zevlor-elturel-exile:m5:385f89f0fa62",
+   "swap:zevlor-elturel-exile:m5:3acb30049ee6",
+   "swap:zevlor-elturel-exile:m5:3ccf5058eae0",
+   "swap:zevlor-elturel-exile:m5:3eca8f615988",
+   "swap:zevlor-elturel-exile:m5:41a200148eb3",
+   "swap:zevlor-elturel-exile:m5:4549bcc872ae",
+   "swap:zevlor-elturel-exile:m5:463461c62bc0",
+   "swap:zevlor-elturel-exile:m5:473c5242466b",
+   "swap:zevlor-elturel-exile:m5:48190c8484a9",
+   "swap:zevlor-elturel-exile:m5:499c5479f81b",
+   "swap:zevlor-elturel-exile:m5:50ab7b5c13e0",
+   "swap:zevlor-elturel-exile:m5:50b4f86bf493",
+   "swap:zevlor-elturel-exile:m5:55b69de75728",
+   "swap:zevlor-elturel-exile:m5:58c89d8ffc85",
+   "swap:zevlor-elturel-exile:m5:59bb6b0aa1a3",
+   "swap:zevlor-elturel-exile:m5:5ec1fae5929b",
+   "swap:zevlor-elturel-exile:m5:63438854a1ce",
+   "swap:zevlor-elturel-exile:m5:66082f8ec934",
+   "swap:zevlor-elturel-exile:m5:681be5d94ac2",
+   "swap:zevlor-elturel-exile:m5:68b2af58636f",
+   "swap:zevlor-elturel-exile:m5:6a836594246b",
+   "swap:zevlor-elturel-exile:m5:6aec3ac5a24c",
+   "swap:zevlor-elturel-exile:m5:6b6b32b69afe",
+   "swap:zevlor-elturel-exile:m5:6f273fe5fafa",
+   "swap:zevlor-elturel-exile:m5:6fb9b2008b1c",
+   "swap:zevlor-elturel-exile:m5:79e3e2991837",
+   "swap:zevlor-elturel-exile:m5:7a6b71a5aad9",
+   "swap:zevlor-elturel-exile:m5:7c0a1b105d52",
+   "swap:zevlor-elturel-exile:m5:7c772d12429e",
+   "swap:zevlor-elturel-exile:m5:7cd66f8baa8a",
+   "swap:zevlor-elturel-exile:m5:7d583df55e9a",
+   "swap:zevlor-elturel-exile:m5:7e67677e95f7",
+   "swap:zevlor-elturel-exile:m5:826676ac93b1",
+   "swap:zevlor-elturel-exile:m5:834fb523a7dc",
+   "swap:zevlor-elturel-exile:m5:849688461a85",
+   "swap:zevlor-elturel-exile:m5:87dbe5860de9",
+   "swap:zevlor-elturel-exile:m5:88b2931589cc",
+   "swap:zevlor-elturel-exile:m5:89d69da8c144",
+   "swap:zevlor-elturel-exile:m5:8a1e3bf78930",
+   "swap:zevlor-elturel-exile:m5:8b39cfa66d9f",
+   "swap:zevlor-elturel-exile:m5:8c01bb21be5c",
+   "swap:zevlor-elturel-exile:m5:8e56cb7f23ab",
+   "swap:zevlor-elturel-exile:m5:8ef94f70e139",
+   "swap:zevlor-elturel-exile:m5:91ef05fcad3e",
+   "swap:zevlor-elturel-exile:m5:9503cbf9670d",
+   "swap:zevlor-elturel-exile:m5:99074846a4fa",
+   "swap:zevlor-elturel-exile:m5:a073c18a9df7",
+   "swap:zevlor-elturel-exile:m5:a30e9c684eb9",
+   "swap:zevlor-elturel-exile:m5:a3367c98afc3",
+   "swap:zevlor-elturel-exile:m5:a5464b9a5ab1",
+   "swap:zevlor-elturel-exile:m5:a6013929d5d3",
+   "swap:zevlor-elturel-exile:m5:aba1ea045997",
+   "swap:zevlor-elturel-exile:m5:aceddf086b97",
+   "swap:zevlor-elturel-exile:m5:b7ec6c8592f6",
+   "swap:zevlor-elturel-exile:m5:b80e05d8895a",
+   "swap:zevlor-elturel-exile:m5:b9380045d222",
+   "swap:zevlor-elturel-exile:m5:ba723ad284bd",
+   "swap:zevlor-elturel-exile:m5:bb1955c69211",
+   "swap:zevlor-elturel-exile:m5:bb76360756ea",
+   "swap:zevlor-elturel-exile:m5:bc602001edc0",
+   "swap:zevlor-elturel-exile:m5:bcdfa9a181fb",
+   "swap:zevlor-elturel-exile:m5:bde38033447c",
+   "swap:zevlor-elturel-exile:m5:bec67e6dc594",
+   "swap:zevlor-elturel-exile:m5:c24e5a6e1b93",
+   "swap:zevlor-elturel-exile:m5:c5591c6714e4",
+   "swap:zevlor-elturel-exile:m5:c7780c926fc0",
+   "swap:zevlor-elturel-exile:m5:cbe1ddd46e89",
+   "swap:zevlor-elturel-exile:m5:cfeabb6fe9d9",
+   "swap:zevlor-elturel-exile:m5:d4069a10d244",
+   "swap:zevlor-elturel-exile:m5:d451692f7a83",
+   "swap:zevlor-elturel-exile:m5:d5143a231b01",
+   "swap:zevlor-elturel-exile:m5:d85ccb56e55d",
+   "swap:zevlor-elturel-exile:m5:e1703854d2d5",
+   "swap:zevlor-elturel-exile:m5:e3fb722f83c7",
+   "swap:zevlor-elturel-exile:m5:e4ea31f2fabc",
+   "swap:zevlor-elturel-exile:m5:e64929af420e",
+   "swap:zevlor-elturel-exile:m5:e9f7a0438d52",
+   "swap:zevlor-elturel-exile:m5:ed261553ce87",
+   "swap:zevlor-elturel-exile:m5:edb8d8ea53b8",
+   "swap:zevlor-elturel-exile:m5:ef2b5bbfeb26",
+   "swap:zevlor-elturel-exile:m5:f03b75adeb55",
+   "swap:zevlor-elturel-exile:m5:f0d4a032854d",
+   "swap:zevlor-elturel-exile:m5:f26d41752762",
+   "swap:zevlor-elturel-exile:m5:f26ee1327b05",
+   "swap:zevlor-elturel-exile:m5:f31a0528217a",
+   "swap:zevlor-elturel-exile:m5:f8dfe937d8f8",
+   "swap:zevlor-elturel-exile:m5:f8e9fc1b8d14",
+   "swap:zevlor-elturel-exile:m5:ff4684a05dc8",
+   "swap:zevlor-elturel-exile:m5:ff8dfbe96456"
+  ],
+  "disagreements": [
+   "swap:zevlor-elturel-exile:m5:0587308ea27c",
+   "swap:zevlor-elturel-exile:m5:06b665e3d2dc",
+   "swap:zevlor-elturel-exile:m5:08996898bc33",
+   "swap:zevlor-elturel-exile:m5:08ca6d025462",
+   "swap:zevlor-elturel-exile:m5:09a621d698df",
+   "swap:zevlor-elturel-exile:m5:0c47d20e54b4",
+   "swap:zevlor-elturel-exile:m5:0ce67d58e3d9",
+   "swap:zevlor-elturel-exile:m5:0f13a0680fc1",
+   "swap:zevlor-elturel-exile:m5:0fb5c4cfecfd",
+   "swap:zevlor-elturel-exile:m5:129cdb633a33",
+   "swap:zevlor-elturel-exile:m5:18126d68a494",
+   "swap:zevlor-elturel-exile:m5:184dc83672ce",
+   "swap:zevlor-elturel-exile:m5:1885d180a3a2",
+   "swap:zevlor-elturel-exile:m5:19bcd93443a9",
+   "swap:zevlor-elturel-exile:m5:1d28c38429cb",
+   "swap:zevlor-elturel-exile:m5:1eaa7be12be9",
+   "swap:zevlor-elturel-exile:m5:20702ce86072",
+   "swap:zevlor-elturel-exile:m5:20d78ee990a0",
+   "swap:zevlor-elturel-exile:m5:28e67c3cbc4e",
+   "swap:zevlor-elturel-exile:m5:2a64b990024f",
+   "swap:zevlor-elturel-exile:m5:2d9586973aef",
+   "swap:zevlor-elturel-exile:m5:385f89f0fa62",
+   "swap:zevlor-elturel-exile:m5:3acb30049ee6",
+   "swap:zevlor-elturel-exile:m5:3ccf5058eae0",
+   "swap:zevlor-elturel-exile:m5:3eca8f615988",
+   "swap:zevlor-elturel-exile:m5:41a200148eb3",
+   "swap:zevlor-elturel-exile:m5:4549bcc872ae",
+   "swap:zevlor-elturel-exile:m5:463461c62bc0",
+   "swap:zevlor-elturel-exile:m5:473c5242466b",
+   "swap:zevlor-elturel-exile:m5:48190c8484a9",
+   "swap:zevlor-elturel-exile:m5:499c5479f81b",
+   "swap:zevlor-elturel-exile:m5:50ab7b5c13e0",
+   "swap:zevlor-elturel-exile:m5:50b4f86bf493",
+   "swap:zevlor-elturel-exile:m5:55b69de75728",
+   "swap:zevlor-elturel-exile:m5:58c89d8ffc85",
+   "swap:zevlor-elturel-exile:m5:59bb6b0aa1a3",
+   "swap:zevlor-elturel-exile:m5:5ec1fae5929b",
+   "swap:zevlor-elturel-exile:m5:63438854a1ce",
+   "swap:zevlor-elturel-exile:m5:66082f8ec934",
+   "swap:zevlor-elturel-exile:m5:681be5d94ac2",
+   "swap:zevlor-elturel-exile:m5:68b2af58636f",
+   "swap:zevlor-elturel-exile:m5:6a836594246b",
+   "swap:zevlor-elturel-exile:m5:6aec3ac5a24c",
+   "swap:zevlor-elturel-exile:m5:6b6b32b69afe",
+   "swap:zevlor-elturel-exile:m5:6f273fe5fafa",
+   "swap:zevlor-elturel-exile:m5:6fb9b2008b1c",
+   "swap:zevlor-elturel-exile:m5:79e3e2991837",
+   "swap:zevlor-elturel-exile:m5:7a6b71a5aad9",
+   "swap:zevlor-elturel-exile:m5:7c0a1b105d52",
+   "swap:zevlor-elturel-exile:m5:7c772d12429e",
+   "swap:zevlor-elturel-exile:m5:7cd66f8baa8a",
+   "swap:zevlor-elturel-exile:m5:7d583df55e9a",
+   "swap:zevlor-elturel-exile:m5:7e67677e95f7",
+   "swap:zevlor-elturel-exile:m5:826676ac93b1",
+   "swap:zevlor-elturel-exile:m5:834fb523a7dc",
+   "swap:zevlor-elturel-exile:m5:849688461a85",
+   "swap:zevlor-elturel-exile:m5:87dbe5860de9",
+   "swap:zevlor-elturel-exile:m5:88b2931589cc",
+   "swap:zevlor-elturel-exile:m5:89d69da8c144",
+   "swap:zevlor-elturel-exile:m5:8a1e3bf78930",
+   "swap:zevlor-elturel-exile:m5:8b39cfa66d9f",
+   "swap:zevlor-elturel-exile:m5:8c01bb21be5c",
+   "swap:zevlor-elturel-exile:m5:8e56cb7f23ab",
+   "swap:zevlor-elturel-exile:m5:8ef94f70e139",
+   "swap:zevlor-elturel-exile:m5:91ef05fcad3e",
+   "swap:zevlor-elturel-exile:m5:9503cbf9670d",
+   "swap:zevlor-elturel-exile:m5:99074846a4fa",
+   "swap:zevlor-elturel-exile:m5:a073c18a9df7",
+   "swap:zevlor-elturel-exile:m5:a30e9c684eb9",
+   "swap:zevlor-elturel-exile:m5:a3367c98afc3",
+   "swap:zevlor-elturel-exile:m5:a5464b9a5ab1",
+   "swap:zevlor-elturel-exile:m5:a6013929d5d3",
+   "swap:zevlor-elturel-exile:m5:aba1ea045997",
+   "swap:zevlor-elturel-exile:m5:aceddf086b97",
+   "swap:zevlor-elturel-exile:m5:b7ec6c8592f6",
+   "swap:zevlor-elturel-exile:m5:b80e05d8895a",
+   "swap:zevlor-elturel-exile:m5:b9380045d222",
+   "swap:zevlor-elturel-exile:m5:ba723ad284bd",
+   "swap:zevlor-elturel-exile:m5:bb1955c69211",
+   "swap:zevlor-elturel-exile:m5:bb76360756ea",
+   "swap:zevlor-elturel-exile:m5:bc602001edc0",
+   "swap:zevlor-elturel-exile:m5:bcdfa9a181fb",
+   "swap:zevlor-elturel-exile:m5:bde38033447c",
+   "swap:zevlor-elturel-exile:m5:bec67e6dc594",
+   "swap:zevlor-elturel-exile:m5:c24e5a6e1b93",
+   "swap:zevlor-elturel-exile:m5:c5591c6714e4",
+   "swap:zevlor-elturel-exile:m5:c7780c926fc0",
+   "swap:zevlor-elturel-exile:m5:cbe1ddd46e89",
+   "swap:zevlor-elturel-exile:m5:cfeabb6fe9d9",
+   "swap:zevlor-elturel-exile:m5:d4069a10d244",
+   "swap:zevlor-elturel-exile:m5:d451692f7a83",
+   "swap:zevlor-elturel-exile:m5:d5143a231b01",
+   "swap:zevlor-elturel-exile:m5:d85ccb56e55d",
+   "swap:zevlor-elturel-exile:m5:e1703854d2d5",
+   "swap:zevlor-elturel-exile:m5:e3fb722f83c7",
+   "swap:zevlor-elturel-exile:m5:e4ea31f2fabc",
+   "swap:zevlor-elturel-exile:m5:e64929af420e",
+   "swap:zevlor-elturel-exile:m5:e9f7a0438d52",
+   "swap:zevlor-elturel-exile:m5:ed261553ce87",
+   "swap:zevlor-elturel-exile:m5:edb8d8ea53b8",
+   "swap:zevlor-elturel-exile:m5:ef2b5bbfeb26",
+   "swap:zevlor-elturel-exile:m5:f03b75adeb55",
+   "swap:zevlor-elturel-exile:m5:f0d4a032854d",
+   "swap:zevlor-elturel-exile:m5:f26d41752762",
+   "swap:zevlor-elturel-exile:m5:f26ee1327b05",
+   "swap:zevlor-elturel-exile:m5:f31a0528217a",
+   "swap:zevlor-elturel-exile:m5:f8dfe937d8f8",
+   "swap:zevlor-elturel-exile:m5:f8e9fc1b8d14",
+   "swap:zevlor-elturel-exile:m5:ff4684a05dc8",
+   "swap:zevlor-elturel-exile:m5:ff8dfbe96456"
+  ]
+ },
+ "schema_version": 1
+}

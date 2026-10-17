@@ -1,0 +1,1012 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Fire_Lord_Azula",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz"
+  ],
+  "list_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:fire-lord-azula:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Alchemist's Gambit",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Alchemist's Gambit",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:47763a1186f8",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Alrund's Epiphany",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Alrund's Epiphany",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:3dceb95a6ca7",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Simian Spirit Guide",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Ambassador Laquatus",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:24fa5155777e",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Banishing Knack",
+    "cut": "Repeal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Banishing Knack",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:3bdb0eb76f7b",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Beacon of Tomorrows",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Beacon of Tomorrows",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:fb5a0715833e",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Bonus Round",
+    "cut": "Flusterstorm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Bonus Round",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:907f3038a191",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Breaking // Entering",
+    "cut": "Crimson Wisps",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Breaking // Entering",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:0e2a61f9e526",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Burning Inquiry",
+    "cut": "Repeal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Burning Inquiry",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:3c9bca573905",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Capture of Jingzhou",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Capture of Jingzhou",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:53ebd5426067",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Cool but Rude",
+    "cut": "Repeal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Cool but Rude",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:5b72d412d241",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Deadeye Navigator",
+    "cut": "Simian Spirit Guide",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Deadeye Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:356ecd8f9223",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Dragon's Rage Channeler",
+    "cut": "Simian Spirit Guide",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Dragon's Rage Channeler",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:ee669e63e666",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Drowned Secrets",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Drowned Secrets",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:f624ff46886c",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Flusterstorm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:b50b23c716f4",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Enter the Infinite",
+    "cut": "Repeal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Enter the Infinite",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:3ba330b6ccaf",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Expansion // Explosion",
+    "cut": "Repeal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Expansion // Explosion",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:3b4152b69360",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Expropriate",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Expropriate",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:744c88ed4d36",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "False Memories",
+    "cut": "Repeal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=False Memories",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:e630d0ee074f",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Flare of Duplication",
+    "cut": "Flusterstorm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Flare of Duplication",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:d9687f02523e",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Fork",
+    "cut": "Flusterstorm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Fork",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:27c35213d1a9",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Glimpse the Unthinkable",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Glimpse the Unthinkable",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:5c35d0f55263",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Grinning Ignus",
+    "cut": "Grim Monolith",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Grinning Ignus",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:c10d7ec1215d",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Guile",
+    "cut": "Crimson Wisps",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Guile",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:8c685796f962",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "High Tide",
+    "cut": "Repeal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=High Tide",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:0c5bb3872ed2",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Repeal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:dbc55743b545",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Increasing Vengeance",
+    "cut": "Flusterstorm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Increasing Vengeance",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:8fffa97f232b",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Insidious Will",
+    "cut": "Strix Serenade",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Insidious Will",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:e1f611181c76",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Karn's Temporal Sundering",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Karn's Temporal Sundering",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:56ba4ef3152f",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Lich",
+    "cut": "Repeal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:f200255f0152",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Memnite",
+    "cut": "Simian Spirit Guide",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Memnite",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:db55eccf1208",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Mesmeric Orb",
+    "cut": "Grim Monolith",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Mesmeric Orb",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:6055878f6a8b",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Simian Spirit Guide",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Mizzix of the Izmagnus",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:ada0d91ff835",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Part the Waterveil",
+    "cut": "Crimson Wisps",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Part the Waterveil",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:cf2b35ad72fd",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Path of the Pyromancer",
+    "cut": "Grim Monolith",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Path of the Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:2387d0ba1139",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Repeal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:83e5b2fefba9",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Platinum Angel",
+    "cut": "Simian Spirit Guide",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Platinum Angel",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:1b953e6cc965",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Platinum Emperion",
+    "cut": "Simian Spirit Guide",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Platinum Emperion",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:21a458febd7a",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Power Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:ca460ae85526",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Primal Amulet // Primal Wellspring",
+    "cut": "Grim Monolith",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Primal Amulet // Primal Wellspring",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:9425730c4430",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Quicksilver Elemental",
+    "cut": "Simian Spirit Guide",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Quicksilver Elemental",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:b601c15cbd5c",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Flusterstorm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:870772536a2d",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Repeal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Requiem Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:d6e1af42ed70",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Retraction Helix",
+    "cut": "Repeal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Retraction Helix",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:e72bd7f4d234",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Return the Favor",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Return the Favor",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:41db68072435",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Reverberate",
+    "cut": "Flusterstorm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Reverberate",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:e1f15ffa8a18",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Saheeli, Sublime Artificer",
+    "cut": "Flusterstorm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Saheeli, Sublime Artificer",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:9100b503360f",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Sensei's Divining Top",
+    "cut": "Repeal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Sensei's Divining Top",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:187600b3b8a4",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Storm-Kiln Artist",
+    "cut": "Grim Monolith",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Storm-Kiln Artist",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:2ca86f18a142",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Swarm Intelligence",
+    "cut": "Flusterstorm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Swarm Intelligence",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:89bf96491047",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Temporal Manipulation",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Temporal Manipulation",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:8ebdb842e7c4",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Temporal Mastery",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Temporal Mastery",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:784c5d40b785",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=The Enigma Jewel // Locus of Enlightenment",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:2305dd83d609",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Thousand-Year Storm",
+    "cut": "Flusterstorm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Thousand-Year Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:11b6c6c4974d",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Repeal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:f6f93a051601",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Time Warp",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Time Warp",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:715ff73807be",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Simian Spirit Guide",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:57c007aed973",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Turnabout",
+    "cut": "Repeal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Turnabout",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:0f08948c78cd",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Twice Upon a Time // Unlikely Meeting",
+    "cut": "Beseech the Mirror",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Twice Upon a Time // Unlikely Meeting",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:333ca4dc82e9",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Twincast",
+    "cut": "Flusterstorm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Twincast",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:d90abde3352f",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Twinning Staff",
+    "cut": "Flusterstorm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Twinning Staff",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:f8a725c87f9f",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Walk the Aeons",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Walk the Aeons",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:6ecab58c3be4",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   },
+   {
+    "add": "Wild Ricochet",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#card=Wild Ricochet",
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:abfce90510d7",
+     "blueprint:data/grixis/blueprints/fire-lord-azula.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Fire_Lord_Azula",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz"
+  ],
+  "list_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:fire-lord-azula:performance:v1",
+  "recommendations": [
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:86b1c0f75631",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:9265f0e939193c14"
+    ]
+   },
+   {
+    "add": "Archmage Emeritus",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:cf206fa33a50",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:db39efbdd21d17b6"
+    ]
+   },
+   {
+    "add": "Ashling, Flame Dancer",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:2b4a4b296c33",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:1e4eedbdeea378d6"
+    ]
+   },
+   {
+    "add": "Brainstorm",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:b853ff704a02",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:c4714ac1163d7c58"
+    ]
+   },
+   {
+    "add": "Cool but Rude",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:1256af36c870",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:dc24500ab3b28659"
+    ]
+   },
+   {
+    "add": "Deadeye Navigator",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:d2da786492e6",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:cd5e360559b2f43c"
+    ]
+   },
+   {
+    "add": "Dragon's Rage Channeler",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:1753fc3f24a1",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:037dd9970effed78"
+    ]
+   },
+   {
+    "add": "Enduring Curiosity",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:ed884c73d86a",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:c4ac2f27e5cb650b"
+    ]
+   },
+   {
+    "add": "Grinning Ignus",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:2a611c4b8ff6",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:cf110640a3a8287c"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Repeal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:dbc55743b545",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:31a8bac0a9652ee6"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:4e3860f6b1a4",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:866215173a1444ff"
+    ]
+   },
+   {
+    "add": "Opt",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:0e680ada0cc2",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:fe56fb744a27b818"
+    ]
+   },
+   {
+    "add": "Platinum Angel",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:5496b0d2d955",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:c04bb3e62e96f414"
+    ]
+   },
+   {
+    "add": "Platinum Emperion",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:8cde9ffc6087",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:468b608e099d0a05"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:c551a887f994",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:85332b1814dd89d3"
+    ]
+   },
+   {
+    "add": "Primal Amulet // Primal Wellspring",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:f08ab863ab38",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:ec0c5b0059b75c2e"
+    ]
+   },
+   {
+    "add": "Quicksilver Elemental",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:3ca211984041",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:cfc9d482bfbfb25e"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:0f293d71695c",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:0292b0a4ddf13032"
+    ]
+   },
+   {
+    "add": "Saheeli, Sublime Artificer",
+    "cut": "Brain Freeze",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:cbcdb0e0f5c3",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:db2813794fbfb0d8"
+    ]
+   },
+   {
+    "add": "Sensei's Divining Top",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:06d4f8e91fd2",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:b3db79b1c0702645"
+    ]
+   },
+   {
+    "add": "Storm-Kiln Artist",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:0bb5940827a8",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:d37139c0b51f382d"
+    ]
+   },
+   {
+    "add": "Thousand-Year Storm",
+    "cut": "Flusterstorm",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:11b6c6c4974d",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:644834e5b97b3c9f"
+    ]
+   },
+   {
+    "add": "Thrill of Possibility",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:6421e9a47de6",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:111029729a89d256"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:db10f04ce7e4",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:022175cc4561f8ae"
+    ]
+   },
+   {
+    "add": "Twinning Staff",
+    "cut": "Brain Freeze",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:1274326c35d3",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:1141ca3b5345a4b2"
+    ]
+   },
+   {
+    "add": "Unexpected Windfall",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=swap:fire-lord-azula:m5:9a199866f9b7",
+     "m5_test:data/grixis/birthday_m5/regen/fire-lord-azula.json.gz#id=test:fire-lord-azula:goldfish:0fa1209e49d60f9a"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [
+   "swap:fire-lord-azula:m5:11b6c6c4974d",
+   "swap:fire-lord-azula:m5:dbc55743b545"
+  ],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:fire-lord-azula:m5:06d4f8e91fd2",
+   "swap:fire-lord-azula:m5:0bb5940827a8",
+   "swap:fire-lord-azula:m5:0c5bb3872ed2",
+   "swap:fire-lord-azula:m5:0e2a61f9e526",
+   "swap:fire-lord-azula:m5:0e680ada0cc2",
+   "swap:fire-lord-azula:m5:0f08948c78cd",
+   "swap:fire-lord-azula:m5:0f293d71695c",
+   "swap:fire-lord-azula:m5:11b6c6c4974d",
+   "swap:fire-lord-azula:m5:1256af36c870",
+   "swap:fire-lord-azula:m5:1274326c35d3",
+   "swap:fire-lord-azula:m5:1753fc3f24a1",
+   "swap:fire-lord-azula:m5:187600b3b8a4",
+   "swap:fire-lord-azula:m5:1b953e6cc965",
+   "swap:fire-lord-azula:m5:21a458febd7a",
+   "swap:fire-lord-azula:m5:2305dd83d609",
+   "swap:fire-lord-azula:m5:2387d0ba1139",
+   "swap:fire-lord-azula:m5:24fa5155777e",
+   "swap:fire-lord-azula:m5:27c35213d1a9",
+   "swap:fire-lord-azula:m5:2a611c4b8ff6",
+   "swap:fire-lord-azula:m5:2b4a4b296c33",
+   "swap:fire-lord-azula:m5:2ca86f18a142",
+   "swap:fire-lord-azula:m5:333ca4dc82e9",
+   "swap:fire-lord-azula:m5:356ecd8f9223",
+   "swap:fire-lord-azula:m5:3b4152b69360",
+   "swap:fire-lord-azula:m5:3ba330b6ccaf",
+   "swap:fire-lord-azula:m5:3bdb0eb76f7b",
+   "swap:fire-lord-azula:m5:3c9bca573905",
+   "swap:fire-lord-azula:m5:3ca211984041",
+   "swap:fire-lord-azula:m5:3dceb95a6ca7",
+   "swap:fire-lord-azula:m5:41db68072435",
+   "swap:fire-lord-azula:m5:47763a1186f8",
+   "swap:fire-lord-azula:m5:4e3860f6b1a4",
+   "swap:fire-lord-azula:m5:53ebd5426067",
+   "swap:fire-lord-azula:m5:5496b0d2d955",
+   "swap:fire-lord-azula:m5:56ba4ef3152f",
+   "swap:fire-lord-azula:m5:57c007aed973",
+   "swap:fire-lord-azula:m5:5b72d412d241",
+   "swap:fire-lord-azula:m5:5c35d0f55263",
+   "swap:fire-lord-azula:m5:6055878f6a8b",
+   "swap:fire-lord-azula:m5:6421e9a47de6",
+   "swap:fire-lord-azula:m5:6ecab58c3be4",
+   "swap:fire-lord-azula:m5:715ff73807be",
+   "swap:fire-lord-azula:m5:744c88ed4d36",
+   "swap:fire-lord-azula:m5:784c5d40b785",
+   "swap:fire-lord-azula:m5:83e5b2fefba9",
+   "swap:fire-lord-azula:m5:86b1c0f75631",
+   "swap:fire-lord-azula:m5:870772536a2d",
+   "swap:fire-lord-azula:m5:89bf96491047",
+   "swap:fire-lord-azula:m5:8c685796f962",
+   "swap:fire-lord-azula:m5:8cde9ffc6087",
+   "swap:fire-lord-azula:m5:8ebdb842e7c4",
+   "swap:fire-lord-azula:m5:8fffa97f232b",
+   "swap:fire-lord-azula:m5:907f3038a191",
+   "swap:fire-lord-azula:m5:9100b503360f",
+   "swap:fire-lord-azula:m5:9425730c4430",
+   "swap:fire-lord-azula:m5:9a199866f9b7",
+   "swap:fire-lord-azula:m5:abfce90510d7",
+   "swap:fire-lord-azula:m5:ada0d91ff835",
+   "swap:fire-lord-azula:m5:b50b23c716f4",
+   "swap:fire-lord-azula:m5:b601c15cbd5c",
+   "swap:fire-lord-azula:m5:b853ff704a02",
+   "swap:fire-lord-azula:m5:c10d7ec1215d",
+   "swap:fire-lord-azula:m5:c551a887f994",
+   "swap:fire-lord-azula:m5:ca460ae85526",
+   "swap:fire-lord-azula:m5:cbcdb0e0f5c3",
+   "swap:fire-lord-azula:m5:cf206fa33a50",
+   "swap:fire-lord-azula:m5:cf2b35ad72fd",
+   "swap:fire-lord-azula:m5:d2da786492e6",
+   "swap:fire-lord-azula:m5:d6e1af42ed70",
+   "swap:fire-lord-azula:m5:d90abde3352f",
+   "swap:fire-lord-azula:m5:d9687f02523e",
+   "swap:fire-lord-azula:m5:db10f04ce7e4",
+   "swap:fire-lord-azula:m5:db55eccf1208",
+   "swap:fire-lord-azula:m5:dbc55743b545",
+   "swap:fire-lord-azula:m5:e1f15ffa8a18",
+   "swap:fire-lord-azula:m5:e1f611181c76",
+   "swap:fire-lord-azula:m5:e630d0ee074f",
+   "swap:fire-lord-azula:m5:e72bd7f4d234",
+   "swap:fire-lord-azula:m5:ed884c73d86a",
+   "swap:fire-lord-azula:m5:ee669e63e666",
+   "swap:fire-lord-azula:m5:f08ab863ab38",
+   "swap:fire-lord-azula:m5:f200255f0152",
+   "swap:fire-lord-azula:m5:f624ff46886c",
+   "swap:fire-lord-azula:m5:f6f93a051601",
+   "swap:fire-lord-azula:m5:f8a725c87f9f",
+   "swap:fire-lord-azula:m5:fb5a0715833e"
+  ],
+  "disagreements": [
+   "swap:fire-lord-azula:m5:06d4f8e91fd2",
+   "swap:fire-lord-azula:m5:0bb5940827a8",
+   "swap:fire-lord-azula:m5:0c5bb3872ed2",
+   "swap:fire-lord-azula:m5:0e2a61f9e526",
+   "swap:fire-lord-azula:m5:0e680ada0cc2",
+   "swap:fire-lord-azula:m5:0f08948c78cd",
+   "swap:fire-lord-azula:m5:0f293d71695c",
+   "swap:fire-lord-azula:m5:1256af36c870",
+   "swap:fire-lord-azula:m5:1274326c35d3",
+   "swap:fire-lord-azula:m5:1753fc3f24a1",
+   "swap:fire-lord-azula:m5:187600b3b8a4",
+   "swap:fire-lord-azula:m5:1b953e6cc965",
+   "swap:fire-lord-azula:m5:21a458febd7a",
+   "swap:fire-lord-azula:m5:2305dd83d609",
+   "swap:fire-lord-azula:m5:2387d0ba1139",
+   "swap:fire-lord-azula:m5:24fa5155777e",
+   "swap:fire-lord-azula:m5:27c35213d1a9",
+   "swap:fire-lord-azula:m5:2a611c4b8ff6",
+   "swap:fire-lord-azula:m5:2b4a4b296c33",
+   "swap:fire-lord-azula:m5:2ca86f18a142",
+   "swap:fire-lord-azula:m5:333ca4dc82e9",
+   "swap:fire-lord-azula:m5:356ecd8f9223",
+   "swap:fire-lord-azula:m5:3b4152b69360",
+   "swap:fire-lord-azula:m5:3ba330b6ccaf",
+   "swap:fire-lord-azula:m5:3bdb0eb76f7b",
+   "swap:fire-lord-azula:m5:3c9bca573905",
+   "swap:fire-lord-azula:m5:3ca211984041",
+   "swap:fire-lord-azula:m5:3dceb95a6ca7",
+   "swap:fire-lord-azula:m5:41db68072435",
+   "swap:fire-lord-azula:m5:47763a1186f8",
+   "swap:fire-lord-azula:m5:4e3860f6b1a4",
+   "swap:fire-lord-azula:m5:53ebd5426067",
+   "swap:fire-lord-azula:m5:5496b0d2d955",
+   "swap:fire-lord-azula:m5:56ba4ef3152f",
+   "swap:fire-lord-azula:m5:57c007aed973",
+   "swap:fire-lord-azula:m5:5b72d412d241",
+   "swap:fire-lord-azula:m5:5c35d0f55263",
+   "swap:fire-lord-azula:m5:6055878f6a8b",
+   "swap:fire-lord-azula:m5:6421e9a47de6",
+   "swap:fire-lord-azula:m5:6ecab58c3be4",
+   "swap:fire-lord-azula:m5:715ff73807be",
+   "swap:fire-lord-azula:m5:744c88ed4d36",
+   "swap:fire-lord-azula:m5:784c5d40b785",
+   "swap:fire-lord-azula:m5:83e5b2fefba9",
+   "swap:fire-lord-azula:m5:86b1c0f75631",
+   "swap:fire-lord-azula:m5:870772536a2d",
+   "swap:fire-lord-azula:m5:89bf96491047",
+   "swap:fire-lord-azula:m5:8c685796f962",
+   "swap:fire-lord-azula:m5:8cde9ffc6087",
+   "swap:fire-lord-azula:m5:8ebdb842e7c4",
+   "swap:fire-lord-azula:m5:8fffa97f232b",
+   "swap:fire-lord-azula:m5:907f3038a191",
+   "swap:fire-lord-azula:m5:9100b503360f",
+   "swap:fire-lord-azula:m5:9425730c4430",
+   "swap:fire-lord-azula:m5:9a199866f9b7",
+   "swap:fire-lord-azula:m5:abfce90510d7",
+   "swap:fire-lord-azula:m5:ada0d91ff835",
+   "swap:fire-lord-azula:m5:b50b23c716f4",
+   "swap:fire-lord-azula:m5:b601c15cbd5c",
+   "swap:fire-lord-azula:m5:b853ff704a02",
+   "swap:fire-lord-azula:m5:c10d7ec1215d",
+   "swap:fire-lord-azula:m5:c551a887f994",
+   "swap:fire-lord-azula:m5:ca460ae85526",
+   "swap:fire-lord-azula:m5:cbcdb0e0f5c3",
+   "swap:fire-lord-azula:m5:cf206fa33a50",
+   "swap:fire-lord-azula:m5:cf2b35ad72fd",
+   "swap:fire-lord-azula:m5:d2da786492e6",
+   "swap:fire-lord-azula:m5:d6e1af42ed70",
+   "swap:fire-lord-azula:m5:d90abde3352f",
+   "swap:fire-lord-azula:m5:d9687f02523e",
+   "swap:fire-lord-azula:m5:db10f04ce7e4",
+   "swap:fire-lord-azula:m5:db55eccf1208",
+   "swap:fire-lord-azula:m5:e1f15ffa8a18",
+   "swap:fire-lord-azula:m5:e1f611181c76",
+   "swap:fire-lord-azula:m5:e630d0ee074f",
+   "swap:fire-lord-azula:m5:e72bd7f4d234",
+   "swap:fire-lord-azula:m5:ed884c73d86a",
+   "swap:fire-lord-azula:m5:ee669e63e666",
+   "swap:fire-lord-azula:m5:f08ab863ab38",
+   "swap:fire-lord-azula:m5:f200255f0152",
+   "swap:fire-lord-azula:m5:f624ff46886c",
+   "swap:fire-lord-azula:m5:f6f93a051601",
+   "swap:fire-lord-azula:m5:f8a725c87f9f",
+   "swap:fire-lord-azula:m5:fb5a0715833e"
+  ]
+ },
+ "schema_version": 1
+}

@@ -1,0 +1,817 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Nekusar__the_Mindrazer",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz"
+  ],
+  "list_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:nekusar-the-mindrazer:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Aether Syphon",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Aether Syphon",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:89d7515814a2",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Alhammarret's Archive",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Alhammarret's Archive",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:fa71d4b4e25f",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:488bcc1c8581",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:ecdb96948d70",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Bloodletter of Aclazotz",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Bloodletter of Aclazotz",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:a96d2519b9fb",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Body of Knowledge",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Body of Knowledge",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:967b11125c95",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Brallin, Skyshark Rider",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Brallin, Skyshark Rider",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:98ff06df9cc3",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Electro, Assaulting Battery",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Electro, Assaulting Battery",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:94ac5b856689",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Feast of Sanity",
+    "cut": "Chaos Warp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Feast of Sanity",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:2de8cbf1a5c8",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Glint-Horn Buccaneer",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Glint-Horn Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:cc58839589cb",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "Scrawling Crawler",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Grinding Station",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:9095642fc00f",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Grinding Station",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:0aa26158eaa4",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Helm of the Ghastlord",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Helm of the Ghastlord",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:102616893387",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Chaos Warp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:8beb248e719c",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Kefka, Court Mage // Kefka, Ruler of Ruin",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:acfc70e58c10",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Lich",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:550b8155838f",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Lich's Mastery",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Lich's Mastery",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:199780720db9",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Lion's Eye Diamond",
+    "cut": "Scrawling Crawler",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Lion's Eye Diamond",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:bcfd866f3fd4",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Lion's Eye Diamond",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Lion's Eye Diamond",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:865151e2c0c7",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Magmakin Artillerist",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Magmakin Artillerist",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:91c1513732c5",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Marina Vendrell's Grimoire",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Marina Vendrell's Grimoire",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:fb97e4c5c32b",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:0339269e37d7",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Nefarious Lich",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Nefarious Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:7c6901b05108",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Niv-Mizzet, the Firemind",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Niv-Mizzet, the Firemind",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:a7e4e4edb0e3",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Niv-Mizzet, Visionary",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Niv-Mizzet, Visionary",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:0e2fcbaa438f",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Ophidian Eye",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Ophidian Eye",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:c900ad7dc3ac",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Path of the Pyromancer",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Path of the Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:503e526e369b",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Power Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:27c0da6b2601",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Psychic Corrosion",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Psychic Corrosion",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:ff18aa39f506",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Psychosis Crawler",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Psychosis Crawler",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:711b24342960",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:d018d9ee73be",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Wheel and Deal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:54a30d85bf75",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Requiem Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:b3820cac454f",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Runaway Steam-Kin",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Runaway Steam-Kin",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:12a30983b2c4",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Storm-Kiln Artist",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Storm-Kiln Artist",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:4ffe921e8dfb",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Tandem Lookout",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Tandem Lookout",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:31076cfe1d6d",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Teferi's Ageless Insight",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Teferi's Ageless Insight",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:08457ff67535",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=The Enigma Jewel // Locus of Enlightenment",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:963f0971ebef",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "The Master of Lake-town",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=The Master of Lake-town",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:194139ca840b",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Thought Reflection",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Thought Reflection",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:9e230e164f5c",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Chaos Warp",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:a418ebba2609",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Twenty-Toed Toad",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Twenty-Toed Toad",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:b59ce855b06e",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Vilis, Broker of Blood",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Vilis, Broker of Blood",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:c718cc53a456",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Vnwxt, Verbose Host",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Vnwxt, Verbose Host",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:9038778d380d",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   },
+   {
+    "add": "Worldfire",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#card=Worldfire",
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:ad6ae0fa86da",
+     "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Nekusar__the_Mindrazer",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz"
+  ],
+  "list_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:nekusar-the-mindrazer:performance:v1",
+  "recommendations": [
+   {
+    "add": "Ashling's Command",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:145f96178240",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:81d8f8773c4b2d87"
+    ]
+   },
+   {
+    "add": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:8a813ee0397f",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:cd1ee6ea09a09a44"
+    ]
+   },
+   {
+    "add": "Commander's Sphere",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:713da20642d9",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:64ee019a9b9220c6"
+    ]
+   },
+   {
+    "add": "Compulsive Research",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:63ab0e6d2f7c",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:7ad580a989988ed2"
+    ]
+   },
+   {
+    "add": "Day's Undoing",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:10138750a421",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:bd95f55dcc5b141e"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:00044bb5e5cb",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:2c5a8638ebccd192"
+    ]
+   },
+   {
+    "add": "Electro, Assaulting Battery",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:f0901d7a7c9f",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:8ac3106441361687"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:7f944fad66b1",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:b6afb7eec26dbbb3"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:0007af92b04d",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:e7185edf975b265a"
+    ]
+   },
+   {
+    "add": "Marina Vendrell's Grimoire",
+    "cut": "Niv-Mizzet, Parun",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:7bd9e2b3948a",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:099a060723f8f49a"
+    ]
+   },
+   {
+    "add": "Midnight Clock",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:7a6e6a43fa6f",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:c727a55b9ec61757"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:3e2ed57894bc",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:e6b1c35e425c4dcf"
+    ]
+   },
+   {
+    "add": "Mind Spiral",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:aa75e99df824",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:777ad8eca7e7c193"
+    ]
+   },
+   {
+    "add": "Path of the Enigma",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:8c408285415d",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:ab91eaadd6a6d1f9"
+    ]
+   },
+   {
+    "add": "Path of the Pyromancer",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:ac7a55678194",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:ebaac34b315f2cd8"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:a5e1d40e1805",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:ad19e5f9137bafdc"
+    ]
+   },
+   {
+    "add": "Prismari Command",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:c0f3c4f5809e",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:d09f8f84a9fc7ac4"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:428c257d306d",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:b55090ba9a27d6ec"
+    ]
+   },
+   {
+    "add": "Runaway Steam-Kin",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:26d1c9dd99ad",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:3b7c7d98230f02dd"
+    ]
+   },
+   {
+    "add": "Storm-Kiln Artist",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:78d70565ed0a",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:b3d93544ed4327f5"
+    ]
+   },
+   {
+    "add": "Stunning Reversal",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:0dd305d162ca",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:77e1e1e371a6b75b"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:963f0971ebef",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:fe4ff0e14bc689f5"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:4d6f76460de7",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:52aae92d89d7540a"
+    ]
+   },
+   {
+    "add": "Thought Vessel",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:c5c760b70379",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:ac26c5ad2d20bd0b"
+    ]
+   },
+   {
+    "add": "Timetwister",
+    "cut": "Consecrated Sphinx",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=swap:nekusar-the-mindrazer:m5:9005d0a135d7",
+     "m5_test:data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz#id=test:nekusar-the-mindrazer:goldfish:ee8630771789a3bd"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [
+   "swap:nekusar-the-mindrazer:m5:963f0971ebef"
+  ],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:nekusar-the-mindrazer:m5:00044bb5e5cb",
+   "swap:nekusar-the-mindrazer:m5:0007af92b04d",
+   "swap:nekusar-the-mindrazer:m5:0339269e37d7",
+   "swap:nekusar-the-mindrazer:m5:08457ff67535",
+   "swap:nekusar-the-mindrazer:m5:0aa26158eaa4",
+   "swap:nekusar-the-mindrazer:m5:0dd305d162ca",
+   "swap:nekusar-the-mindrazer:m5:0e2fcbaa438f",
+   "swap:nekusar-the-mindrazer:m5:10138750a421",
+   "swap:nekusar-the-mindrazer:m5:102616893387",
+   "swap:nekusar-the-mindrazer:m5:12a30983b2c4",
+   "swap:nekusar-the-mindrazer:m5:145f96178240",
+   "swap:nekusar-the-mindrazer:m5:194139ca840b",
+   "swap:nekusar-the-mindrazer:m5:199780720db9",
+   "swap:nekusar-the-mindrazer:m5:26d1c9dd99ad",
+   "swap:nekusar-the-mindrazer:m5:27c0da6b2601",
+   "swap:nekusar-the-mindrazer:m5:2de8cbf1a5c8",
+   "swap:nekusar-the-mindrazer:m5:31076cfe1d6d",
+   "swap:nekusar-the-mindrazer:m5:3e2ed57894bc",
+   "swap:nekusar-the-mindrazer:m5:428c257d306d",
+   "swap:nekusar-the-mindrazer:m5:488bcc1c8581",
+   "swap:nekusar-the-mindrazer:m5:4d6f76460de7",
+   "swap:nekusar-the-mindrazer:m5:4ffe921e8dfb",
+   "swap:nekusar-the-mindrazer:m5:503e526e369b",
+   "swap:nekusar-the-mindrazer:m5:54a30d85bf75",
+   "swap:nekusar-the-mindrazer:m5:550b8155838f",
+   "swap:nekusar-the-mindrazer:m5:63ab0e6d2f7c",
+   "swap:nekusar-the-mindrazer:m5:711b24342960",
+   "swap:nekusar-the-mindrazer:m5:713da20642d9",
+   "swap:nekusar-the-mindrazer:m5:78d70565ed0a",
+   "swap:nekusar-the-mindrazer:m5:7a6e6a43fa6f",
+   "swap:nekusar-the-mindrazer:m5:7bd9e2b3948a",
+   "swap:nekusar-the-mindrazer:m5:7c6901b05108",
+   "swap:nekusar-the-mindrazer:m5:7f944fad66b1",
+   "swap:nekusar-the-mindrazer:m5:865151e2c0c7",
+   "swap:nekusar-the-mindrazer:m5:89d7515814a2",
+   "swap:nekusar-the-mindrazer:m5:8a813ee0397f",
+   "swap:nekusar-the-mindrazer:m5:8beb248e719c",
+   "swap:nekusar-the-mindrazer:m5:8c408285415d",
+   "swap:nekusar-the-mindrazer:m5:9005d0a135d7",
+   "swap:nekusar-the-mindrazer:m5:9038778d380d",
+   "swap:nekusar-the-mindrazer:m5:9095642fc00f",
+   "swap:nekusar-the-mindrazer:m5:91c1513732c5",
+   "swap:nekusar-the-mindrazer:m5:94ac5b856689",
+   "swap:nekusar-the-mindrazer:m5:963f0971ebef",
+   "swap:nekusar-the-mindrazer:m5:967b11125c95",
+   "swap:nekusar-the-mindrazer:m5:98ff06df9cc3",
+   "swap:nekusar-the-mindrazer:m5:9e230e164f5c",
+   "swap:nekusar-the-mindrazer:m5:a418ebba2609",
+   "swap:nekusar-the-mindrazer:m5:a5e1d40e1805",
+   "swap:nekusar-the-mindrazer:m5:a7e4e4edb0e3",
+   "swap:nekusar-the-mindrazer:m5:a96d2519b9fb",
+   "swap:nekusar-the-mindrazer:m5:aa75e99df824",
+   "swap:nekusar-the-mindrazer:m5:ac7a55678194",
+   "swap:nekusar-the-mindrazer:m5:acfc70e58c10",
+   "swap:nekusar-the-mindrazer:m5:ad6ae0fa86da",
+   "swap:nekusar-the-mindrazer:m5:b3820cac454f",
+   "swap:nekusar-the-mindrazer:m5:b59ce855b06e",
+   "swap:nekusar-the-mindrazer:m5:bcfd866f3fd4",
+   "swap:nekusar-the-mindrazer:m5:c0f3c4f5809e",
+   "swap:nekusar-the-mindrazer:m5:c5c760b70379",
+   "swap:nekusar-the-mindrazer:m5:c718cc53a456",
+   "swap:nekusar-the-mindrazer:m5:c900ad7dc3ac",
+   "swap:nekusar-the-mindrazer:m5:cc58839589cb",
+   "swap:nekusar-the-mindrazer:m5:d018d9ee73be",
+   "swap:nekusar-the-mindrazer:m5:ecdb96948d70",
+   "swap:nekusar-the-mindrazer:m5:f0901d7a7c9f",
+   "swap:nekusar-the-mindrazer:m5:fa71d4b4e25f",
+   "swap:nekusar-the-mindrazer:m5:fb97e4c5c32b",
+   "swap:nekusar-the-mindrazer:m5:ff18aa39f506"
+  ],
+  "disagreements": [
+   "swap:nekusar-the-mindrazer:m5:00044bb5e5cb",
+   "swap:nekusar-the-mindrazer:m5:0007af92b04d",
+   "swap:nekusar-the-mindrazer:m5:0339269e37d7",
+   "swap:nekusar-the-mindrazer:m5:08457ff67535",
+   "swap:nekusar-the-mindrazer:m5:0aa26158eaa4",
+   "swap:nekusar-the-mindrazer:m5:0dd305d162ca",
+   "swap:nekusar-the-mindrazer:m5:0e2fcbaa438f",
+   "swap:nekusar-the-mindrazer:m5:10138750a421",
+   "swap:nekusar-the-mindrazer:m5:102616893387",
+   "swap:nekusar-the-mindrazer:m5:12a30983b2c4",
+   "swap:nekusar-the-mindrazer:m5:145f96178240",
+   "swap:nekusar-the-mindrazer:m5:194139ca840b",
+   "swap:nekusar-the-mindrazer:m5:199780720db9",
+   "swap:nekusar-the-mindrazer:m5:26d1c9dd99ad",
+   "swap:nekusar-the-mindrazer:m5:27c0da6b2601",
+   "swap:nekusar-the-mindrazer:m5:2de8cbf1a5c8",
+   "swap:nekusar-the-mindrazer:m5:31076cfe1d6d",
+   "swap:nekusar-the-mindrazer:m5:3e2ed57894bc",
+   "swap:nekusar-the-mindrazer:m5:428c257d306d",
+   "swap:nekusar-the-mindrazer:m5:488bcc1c8581",
+   "swap:nekusar-the-mindrazer:m5:4d6f76460de7",
+   "swap:nekusar-the-mindrazer:m5:4ffe921e8dfb",
+   "swap:nekusar-the-mindrazer:m5:503e526e369b",
+   "swap:nekusar-the-mindrazer:m5:54a30d85bf75",
+   "swap:nekusar-the-mindrazer:m5:550b8155838f",
+   "swap:nekusar-the-mindrazer:m5:63ab0e6d2f7c",
+   "swap:nekusar-the-mindrazer:m5:711b24342960",
+   "swap:nekusar-the-mindrazer:m5:713da20642d9",
+   "swap:nekusar-the-mindrazer:m5:78d70565ed0a",
+   "swap:nekusar-the-mindrazer:m5:7a6e6a43fa6f",
+   "swap:nekusar-the-mindrazer:m5:7bd9e2b3948a",
+   "swap:nekusar-the-mindrazer:m5:7c6901b05108",
+   "swap:nekusar-the-mindrazer:m5:7f944fad66b1",
+   "swap:nekusar-the-mindrazer:m5:865151e2c0c7",
+   "swap:nekusar-the-mindrazer:m5:89d7515814a2",
+   "swap:nekusar-the-mindrazer:m5:8a813ee0397f",
+   "swap:nekusar-the-mindrazer:m5:8beb248e719c",
+   "swap:nekusar-the-mindrazer:m5:8c408285415d",
+   "swap:nekusar-the-mindrazer:m5:9005d0a135d7",
+   "swap:nekusar-the-mindrazer:m5:9038778d380d",
+   "swap:nekusar-the-mindrazer:m5:9095642fc00f",
+   "swap:nekusar-the-mindrazer:m5:91c1513732c5",
+   "swap:nekusar-the-mindrazer:m5:94ac5b856689",
+   "swap:nekusar-the-mindrazer:m5:967b11125c95",
+   "swap:nekusar-the-mindrazer:m5:98ff06df9cc3",
+   "swap:nekusar-the-mindrazer:m5:9e230e164f5c",
+   "swap:nekusar-the-mindrazer:m5:a418ebba2609",
+   "swap:nekusar-the-mindrazer:m5:a5e1d40e1805",
+   "swap:nekusar-the-mindrazer:m5:a7e4e4edb0e3",
+   "swap:nekusar-the-mindrazer:m5:a96d2519b9fb",
+   "swap:nekusar-the-mindrazer:m5:aa75e99df824",
+   "swap:nekusar-the-mindrazer:m5:ac7a55678194",
+   "swap:nekusar-the-mindrazer:m5:acfc70e58c10",
+   "swap:nekusar-the-mindrazer:m5:ad6ae0fa86da",
+   "swap:nekusar-the-mindrazer:m5:b3820cac454f",
+   "swap:nekusar-the-mindrazer:m5:b59ce855b06e",
+   "swap:nekusar-the-mindrazer:m5:bcfd866f3fd4",
+   "swap:nekusar-the-mindrazer:m5:c0f3c4f5809e",
+   "swap:nekusar-the-mindrazer:m5:c5c760b70379",
+   "swap:nekusar-the-mindrazer:m5:c718cc53a456",
+   "swap:nekusar-the-mindrazer:m5:c900ad7dc3ac",
+   "swap:nekusar-the-mindrazer:m5:cc58839589cb",
+   "swap:nekusar-the-mindrazer:m5:d018d9ee73be",
+   "swap:nekusar-the-mindrazer:m5:ecdb96948d70",
+   "swap:nekusar-the-mindrazer:m5:f0901d7a7c9f",
+   "swap:nekusar-the-mindrazer:m5:fa71d4b4e25f",
+   "swap:nekusar-the-mindrazer:m5:fb97e4c5c32b",
+   "swap:nekusar-the-mindrazer:m5:ff18aa39f506"
+  ]
+ },
+ "schema_version": 1
+}

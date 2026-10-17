@@ -1,0 +1,1403 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Lord_of_Tresserhorn",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz"
+  ],
+  "list_hash": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:lord-of-tresserhorn:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Acererak the Archlich",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Acererak the Archlich",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:8caba3989ef3",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Aetherflux Reservoir",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Aetherflux Reservoir",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:246301c4c66e",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Al Bhed Salvagers",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Al Bhed Salvagers",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:0389b9d6db4f",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Altar of Dementia",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Altar of Dementia",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:029ada0a674c",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Anax, Hardened in the Forge",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Anax, Hardened in the Forge",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:bcf8103c9320",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Animation Module",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Animation Module",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:d0a2023fe552",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Arnyn, Deathbloom Botanist",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Arnyn, Deathbloom Botanist",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:05de6eb03e66",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Ayara, First of Locthwain",
+    "cut": "Wilhelt, the Rotcleaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Ayara, First of Locthwain",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:f3bd39d209f9",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Bastion of Remembrance",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Bastion of Remembrance",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:b8b14f5a704d",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Blasting Station",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Blasting Station",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:19b7ddbf4c28",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Blight Mound",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Blight Mound",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:c17155940c29",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Bloodflow Connoisseur",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Bloodflow Connoisseur",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:95a593a60081",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Bloodsoaked Champion",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Bloodsoaked Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:a4a413485043",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Bloodthrone Vampire",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Bloodthrone Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:93d6263202f6",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Bog Initiate",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Bog Initiate",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:cf2fbf211165",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Bontu's Monument",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Bontu's Monument",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:907790844997",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Bridge from Below",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Bridge from Below",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:7a3fa508a07e",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Carnival of Souls",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Carnival of Souls",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:e7dfd30d9c48",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:8fe0dd41774e",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:8df6c7df91be",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Chromatic Orrery",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Chromatic Orrery",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:9d0ae7a0f765",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Chthonian Nightmare",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Chthonian Nightmare",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:d141cb2071f9",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Corpse Blockade",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Corpse Blockade",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:74196a3f78ce",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:0eed75c4171a",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Crossroads Candleguide",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Crossroads Candleguide",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:956f1889f6a3",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Cult Conscript",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Cult Conscript",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:2fbafb9204d2",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Dawnsire, Sunstar Dreadnought",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Dawnsire, Sunstar Dreadnought",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:b1c86a2215f4",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Deathgreeter",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Deathgreeter",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:3976fc528b9b",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Desecrated Tomb",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Desecrated Tomb",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:e4bfebfede77",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Draconic Visitor",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Draconic Visitor",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:096d78321d85",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Drivnod, Carnage Dominus",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Drivnod, Carnage Dominus",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:4d3387031c2b",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Dross Harvester",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Dross Harvester",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:2233ef23c06b",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Ebondeath, Dracolich",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Ebondeath, Dracolich",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:d60962a7988e",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Embalmer's Tools",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Embalmer's Tools",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:92939d37fc7a",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Engineered Plague",
+    "cut": "Bitterblossom",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Engineered Plague",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:b3a523443c34",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Evereth, Viceroy of Plunder",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Evereth, Viceroy of Plunder",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:4d0f4275ecd3",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Falkenrath Noble",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Falkenrath Noble",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:e55f04b0dcd0",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:a1ea0f52ba1f",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Forsaken Miner",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Forsaken Miner",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:07c5b921dede",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Fumulus, the Infestation",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Fumulus, the Infestation",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:5010cec6f653",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Funeral Room // Awakening Hall",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Funeral Room // Awakening Hall",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:bca8b98db96c",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Garrison Excavator",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Garrison Excavator",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:f366a44a99b6",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Gemstone Array",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Gemstone Array",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:158a0e2a1835",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Geth, Thane of Contracts",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Geth, Thane of Contracts",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:319ea470aef7",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Glitch Interpreter",
+    "cut": "Wilhelt, the Rotcleaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Glitch Interpreter",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:7bf0643fe0b1",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Grave Venerations",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Grave Venerations",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:9567dde3bf84",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Grimgrin, Corpse-Born",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Grimgrin, Corpse-Born",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:d7cb2c7610a5",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Hammerhead, Maggia Boss",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Hammerhead, Maggia Boss",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:146147d33fbc",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Haunt of the Dead Marshes",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Haunt of the Dead Marshes",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:67574389a851",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Havengul Lich",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Havengul Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:685526e788c0",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Heartless Summoning",
+    "cut": "Bitterblossom",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Heartless Summoning",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:f2fe556ded3c",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:c70b913c537a",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Ill-Tempered Loner // Howlpack Avenger",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Ill-Tempered Loner // Howlpack Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:e3b543fef324",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Initiates of the Ebon Hand",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Initiates of the Ebon Hand",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:f2e33e53149c",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Joo Dee, One of Many",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Joo Dee, One of Many",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:119662e07693",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Kaervek, the Spiteful",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Kaervek, the Spiteful",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:9c5ea28177da",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Krenko, Baron of Tin Street",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Krenko, Baron of Tin Street",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:9cdeeccf381d",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Lava Zombie",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Lava Zombie",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:c166c0b40070",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Magus of the Bridge",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Magus of the Bridge",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:474b3621cde0",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Marang River Prowler",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Marang River Prowler",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:402d7b4a444d",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "March of the Machines",
+    "cut": "Bitterblossom",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=March of the Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:a2132a958710",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Mirror Room // Fractured Realm",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Mirror Room // Fractured Realm",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:803672900dcf",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Moonstone Eulogist",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Moonstone Eulogist",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:b3f2e37eb140",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Mycosynth Lattice",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Mycosynth Lattice",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:422061e9bec8",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Nantuko Husk",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Nantuko Husk",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:6c2e0f8971a6",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Night of Souls' Betrayal",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Night of Souls' Betrayal",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:4056fb85bd94",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Nim Deathmantle",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Nim Deathmantle",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:44b8a8a34939",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Nim Shambler",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Nim Shambler",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:393864a10289",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Oathkeeper, Takeno's Daisho",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Oathkeeper, Takeno's Daisho",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:1073e305ff9c",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Oathsworn Vampire",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Oathsworn Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:7d0a45a688b0",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Ogre Slumlord",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Ogre Slumlord",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:c5950a8cd433",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Open the Graves",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Open the Graves",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:62ad13df92fb",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Ozox, the Clattering King",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Ozox, the Clattering King",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:f37f144ee754",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Pashalik Mons",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Pashalik Mons",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:bd5cdccc82ba",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Pawn of Ulamog",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Pawn of Ulamog",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:9dd614a1d008",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Phantom Train",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Phantom Train",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:7a84c3b3f286",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Phenomenon Investigators",
+    "cut": "Wilhelt, the Rotcleaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Phenomenon Investigators",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:a1112061e598",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Phyrexian Ghoul",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Phyrexian Ghoul",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:efae521a1628",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Poppet Stitcher // Poppet Factory",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Poppet Stitcher // Poppet Factory",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:bc1de2d9dae6",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Popular Egotist",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Popular Egotist",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:0a661cce1ac6",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Prismite",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Prismite",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:f47ad60c7e36",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Raptor Hatchling",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Raptor Hatchling",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:6950e24358b1",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Rat King, Pale Piper",
+    "cut": "Wilhelt, the Rotcleaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Rat King, Pale Piper",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:fd2265fad73d",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Razorlash Transmogrant",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Razorlash Transmogrant",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:5b16a11e9fac",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Relentless Dead",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Relentless Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:6f2d5ea598ae",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Relic Vial",
+    "cut": "Wilhelt, the Rotcleaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Relic Vial",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:29ccbfe1a0f6",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Bitterblossom",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:001922fce95e",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Roaming Throne",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Roaming Throne",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:aa22db8e7a2a",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Sedraxis Alchemist",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Sedraxis Alchemist",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:52a21feec7c6",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "cut": "Wilhelt, the Rotcleaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:2b30eab1d400",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Sifter of Skulls",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Sifter of Skulls",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:863e14abbbd2",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Signpost Scarecrow",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Signpost Scarecrow",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:9b4bf4cb68ee",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Skeleton Crew",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Skeleton Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:0d35aa44cf85",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Skittering Precursor",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Skittering Precursor",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:e1c4f7698d53",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "South Wind Avatar",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=South Wind Avatar",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:7d514d274032",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Spawning Pit",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Spawning Pit",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:4be4f9149b3e",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Spawnsire of Ulamog",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Spawnsire of Ulamog",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:2584be391b31",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Stonework Packbeast",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Stonework Packbeast",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:fe673c1cccf2",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Stridehangar Automaton",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Stridehangar Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:67c30779c3a1",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Summoning Station",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Summoning Station",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:b263440890e4",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Susurian Voidborn",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Susurian Voidborn",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:c08a5befcd66",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Tenacious Dead",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Tenacious Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:c873f71d033c",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "The Ghoul, Gunslinger",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=The Ghoul, Gunslinger",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:f90cd5d65bcd",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "The Masamune",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=The Masamune",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:7c40a2f5fabf",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "The Sibsig Ceremony",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=The Sibsig Ceremony",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:377a737f1ecd",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Thermopod",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Thermopod",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:efafaec6f9e7",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:00917a4da13f",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Tombstone Stairwell",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Tombstone Stairwell",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:a11125aa2c0d",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:9d95a6e7a821",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Tormod, the Desecrator",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Tormod, the Desecrator",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:4238dcc3380d",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Totentanz, Swarm Piper",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Totentanz, Swarm Piper",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:91244ad07c81",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Umbral Collar Zealot",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Umbral Collar Zealot",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:932db0c8b0e7",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Undead Sprinter",
+    "cut": "Nether Traitor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Undead Sprinter",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:d08c9f4ba737",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Vein Ripper",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Vein Ripper",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:c27c0db6c61f",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Venerated Stormsinger",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Venerated Stormsinger",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:b491a9d7b1f7",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Vengeful Bloodwitch",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Vengeful Bloodwitch",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:be5333c05541",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Vindictive Vampire",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Vindictive Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:04245a003409",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Volcano Hellion",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Volcano Hellion",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:0e94b7e1ae0b",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Woe Strider",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Woe Strider",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:d88a38b94047",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   },
+   {
+    "add": "Yahenni, Undying Partisan",
+    "cut": "Sheoldred's Edict",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#card=Yahenni, Undying Partisan",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:b34473c03763",
+     "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Lord_of_Tresserhorn",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz"
+  ],
+  "list_hash": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:lord-of-tresserhorn:performance:v1",
+  "recommendations": [
+   {
+    "add": "Tribute Mage",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=swap:lord-of-tresserhorn:m5:a7d496f4bfea",
+     "m5_test:data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz#id=test:lord-of-tresserhorn:goldfish:ab60ef6c758fc457"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:lord-of-tresserhorn:m5:001922fce95e",
+   "swap:lord-of-tresserhorn:m5:00917a4da13f",
+   "swap:lord-of-tresserhorn:m5:029ada0a674c",
+   "swap:lord-of-tresserhorn:m5:0389b9d6db4f",
+   "swap:lord-of-tresserhorn:m5:04245a003409",
+   "swap:lord-of-tresserhorn:m5:05de6eb03e66",
+   "swap:lord-of-tresserhorn:m5:07c5b921dede",
+   "swap:lord-of-tresserhorn:m5:096d78321d85",
+   "swap:lord-of-tresserhorn:m5:0a661cce1ac6",
+   "swap:lord-of-tresserhorn:m5:0d35aa44cf85",
+   "swap:lord-of-tresserhorn:m5:0e94b7e1ae0b",
+   "swap:lord-of-tresserhorn:m5:0eed75c4171a",
+   "swap:lord-of-tresserhorn:m5:1073e305ff9c",
+   "swap:lord-of-tresserhorn:m5:119662e07693",
+   "swap:lord-of-tresserhorn:m5:146147d33fbc",
+   "swap:lord-of-tresserhorn:m5:158a0e2a1835",
+   "swap:lord-of-tresserhorn:m5:19b7ddbf4c28",
+   "swap:lord-of-tresserhorn:m5:2233ef23c06b",
+   "swap:lord-of-tresserhorn:m5:246301c4c66e",
+   "swap:lord-of-tresserhorn:m5:2584be391b31",
+   "swap:lord-of-tresserhorn:m5:29ccbfe1a0f6",
+   "swap:lord-of-tresserhorn:m5:2b30eab1d400",
+   "swap:lord-of-tresserhorn:m5:2fbafb9204d2",
+   "swap:lord-of-tresserhorn:m5:319ea470aef7",
+   "swap:lord-of-tresserhorn:m5:377a737f1ecd",
+   "swap:lord-of-tresserhorn:m5:393864a10289",
+   "swap:lord-of-tresserhorn:m5:3976fc528b9b",
+   "swap:lord-of-tresserhorn:m5:402d7b4a444d",
+   "swap:lord-of-tresserhorn:m5:4056fb85bd94",
+   "swap:lord-of-tresserhorn:m5:422061e9bec8",
+   "swap:lord-of-tresserhorn:m5:4238dcc3380d",
+   "swap:lord-of-tresserhorn:m5:44b8a8a34939",
+   "swap:lord-of-tresserhorn:m5:474b3621cde0",
+   "swap:lord-of-tresserhorn:m5:4be4f9149b3e",
+   "swap:lord-of-tresserhorn:m5:4d0f4275ecd3",
+   "swap:lord-of-tresserhorn:m5:4d3387031c2b",
+   "swap:lord-of-tresserhorn:m5:5010cec6f653",
+   "swap:lord-of-tresserhorn:m5:52a21feec7c6",
+   "swap:lord-of-tresserhorn:m5:5b16a11e9fac",
+   "swap:lord-of-tresserhorn:m5:62ad13df92fb",
+   "swap:lord-of-tresserhorn:m5:67574389a851",
+   "swap:lord-of-tresserhorn:m5:67c30779c3a1",
+   "swap:lord-of-tresserhorn:m5:685526e788c0",
+   "swap:lord-of-tresserhorn:m5:6950e24358b1",
+   "swap:lord-of-tresserhorn:m5:6c2e0f8971a6",
+   "swap:lord-of-tresserhorn:m5:6f2d5ea598ae",
+   "swap:lord-of-tresserhorn:m5:74196a3f78ce",
+   "swap:lord-of-tresserhorn:m5:7a3fa508a07e",
+   "swap:lord-of-tresserhorn:m5:7a84c3b3f286",
+   "swap:lord-of-tresserhorn:m5:7bf0643fe0b1",
+   "swap:lord-of-tresserhorn:m5:7c40a2f5fabf",
+   "swap:lord-of-tresserhorn:m5:7d0a45a688b0",
+   "swap:lord-of-tresserhorn:m5:7d514d274032",
+   "swap:lord-of-tresserhorn:m5:803672900dcf",
+   "swap:lord-of-tresserhorn:m5:863e14abbbd2",
+   "swap:lord-of-tresserhorn:m5:8caba3989ef3",
+   "swap:lord-of-tresserhorn:m5:8df6c7df91be",
+   "swap:lord-of-tresserhorn:m5:8fe0dd41774e",
+   "swap:lord-of-tresserhorn:m5:907790844997",
+   "swap:lord-of-tresserhorn:m5:91244ad07c81",
+   "swap:lord-of-tresserhorn:m5:92939d37fc7a",
+   "swap:lord-of-tresserhorn:m5:932db0c8b0e7",
+   "swap:lord-of-tresserhorn:m5:93d6263202f6",
+   "swap:lord-of-tresserhorn:m5:9567dde3bf84",
+   "swap:lord-of-tresserhorn:m5:956f1889f6a3",
+   "swap:lord-of-tresserhorn:m5:95a593a60081",
+   "swap:lord-of-tresserhorn:m5:9b4bf4cb68ee",
+   "swap:lord-of-tresserhorn:m5:9c5ea28177da",
+   "swap:lord-of-tresserhorn:m5:9cdeeccf381d",
+   "swap:lord-of-tresserhorn:m5:9d0ae7a0f765",
+   "swap:lord-of-tresserhorn:m5:9d95a6e7a821",
+   "swap:lord-of-tresserhorn:m5:9dd614a1d008",
+   "swap:lord-of-tresserhorn:m5:a1112061e598",
+   "swap:lord-of-tresserhorn:m5:a11125aa2c0d",
+   "swap:lord-of-tresserhorn:m5:a1ea0f52ba1f",
+   "swap:lord-of-tresserhorn:m5:a2132a958710",
+   "swap:lord-of-tresserhorn:m5:a4a413485043",
+   "swap:lord-of-tresserhorn:m5:a7d496f4bfea",
+   "swap:lord-of-tresserhorn:m5:aa22db8e7a2a",
+   "swap:lord-of-tresserhorn:m5:b1c86a2215f4",
+   "swap:lord-of-tresserhorn:m5:b263440890e4",
+   "swap:lord-of-tresserhorn:m5:b34473c03763",
+   "swap:lord-of-tresserhorn:m5:b3a523443c34",
+   "swap:lord-of-tresserhorn:m5:b3f2e37eb140",
+   "swap:lord-of-tresserhorn:m5:b491a9d7b1f7",
+   "swap:lord-of-tresserhorn:m5:b8b14f5a704d",
+   "swap:lord-of-tresserhorn:m5:bc1de2d9dae6",
+   "swap:lord-of-tresserhorn:m5:bca8b98db96c",
+   "swap:lord-of-tresserhorn:m5:bcf8103c9320",
+   "swap:lord-of-tresserhorn:m5:bd5cdccc82ba",
+   "swap:lord-of-tresserhorn:m5:be5333c05541",
+   "swap:lord-of-tresserhorn:m5:c08a5befcd66",
+   "swap:lord-of-tresserhorn:m5:c166c0b40070",
+   "swap:lord-of-tresserhorn:m5:c17155940c29",
+   "swap:lord-of-tresserhorn:m5:c27c0db6c61f",
+   "swap:lord-of-tresserhorn:m5:c5950a8cd433",
+   "swap:lord-of-tresserhorn:m5:c70b913c537a",
+   "swap:lord-of-tresserhorn:m5:c873f71d033c",
+   "swap:lord-of-tresserhorn:m5:cf2fbf211165",
+   "swap:lord-of-tresserhorn:m5:d08c9f4ba737",
+   "swap:lord-of-tresserhorn:m5:d0a2023fe552",
+   "swap:lord-of-tresserhorn:m5:d141cb2071f9",
+   "swap:lord-of-tresserhorn:m5:d60962a7988e",
+   "swap:lord-of-tresserhorn:m5:d7cb2c7610a5",
+   "swap:lord-of-tresserhorn:m5:d88a38b94047",
+   "swap:lord-of-tresserhorn:m5:e1c4f7698d53",
+   "swap:lord-of-tresserhorn:m5:e3b543fef324",
+   "swap:lord-of-tresserhorn:m5:e4bfebfede77",
+   "swap:lord-of-tresserhorn:m5:e55f04b0dcd0",
+   "swap:lord-of-tresserhorn:m5:e7dfd30d9c48",
+   "swap:lord-of-tresserhorn:m5:efae521a1628",
+   "swap:lord-of-tresserhorn:m5:efafaec6f9e7",
+   "swap:lord-of-tresserhorn:m5:f2e33e53149c",
+   "swap:lord-of-tresserhorn:m5:f2fe556ded3c",
+   "swap:lord-of-tresserhorn:m5:f366a44a99b6",
+   "swap:lord-of-tresserhorn:m5:f37f144ee754",
+   "swap:lord-of-tresserhorn:m5:f3bd39d209f9",
+   "swap:lord-of-tresserhorn:m5:f47ad60c7e36",
+   "swap:lord-of-tresserhorn:m5:f90cd5d65bcd",
+   "swap:lord-of-tresserhorn:m5:fd2265fad73d",
+   "swap:lord-of-tresserhorn:m5:fe673c1cccf2"
+  ],
+  "disagreements": [
+   "swap:lord-of-tresserhorn:m5:001922fce95e",
+   "swap:lord-of-tresserhorn:m5:00917a4da13f",
+   "swap:lord-of-tresserhorn:m5:029ada0a674c",
+   "swap:lord-of-tresserhorn:m5:0389b9d6db4f",
+   "swap:lord-of-tresserhorn:m5:04245a003409",
+   "swap:lord-of-tresserhorn:m5:05de6eb03e66",
+   "swap:lord-of-tresserhorn:m5:07c5b921dede",
+   "swap:lord-of-tresserhorn:m5:096d78321d85",
+   "swap:lord-of-tresserhorn:m5:0a661cce1ac6",
+   "swap:lord-of-tresserhorn:m5:0d35aa44cf85",
+   "swap:lord-of-tresserhorn:m5:0e94b7e1ae0b",
+   "swap:lord-of-tresserhorn:m5:0eed75c4171a",
+   "swap:lord-of-tresserhorn:m5:1073e305ff9c",
+   "swap:lord-of-tresserhorn:m5:119662e07693",
+   "swap:lord-of-tresserhorn:m5:146147d33fbc",
+   "swap:lord-of-tresserhorn:m5:158a0e2a1835",
+   "swap:lord-of-tresserhorn:m5:19b7ddbf4c28",
+   "swap:lord-of-tresserhorn:m5:2233ef23c06b",
+   "swap:lord-of-tresserhorn:m5:246301c4c66e",
+   "swap:lord-of-tresserhorn:m5:2584be391b31",
+   "swap:lord-of-tresserhorn:m5:29ccbfe1a0f6",
+   "swap:lord-of-tresserhorn:m5:2b30eab1d400",
+   "swap:lord-of-tresserhorn:m5:2fbafb9204d2",
+   "swap:lord-of-tresserhorn:m5:319ea470aef7",
+   "swap:lord-of-tresserhorn:m5:377a737f1ecd",
+   "swap:lord-of-tresserhorn:m5:393864a10289",
+   "swap:lord-of-tresserhorn:m5:3976fc528b9b",
+   "swap:lord-of-tresserhorn:m5:402d7b4a444d",
+   "swap:lord-of-tresserhorn:m5:4056fb85bd94",
+   "swap:lord-of-tresserhorn:m5:422061e9bec8",
+   "swap:lord-of-tresserhorn:m5:4238dcc3380d",
+   "swap:lord-of-tresserhorn:m5:44b8a8a34939",
+   "swap:lord-of-tresserhorn:m5:474b3621cde0",
+   "swap:lord-of-tresserhorn:m5:4be4f9149b3e",
+   "swap:lord-of-tresserhorn:m5:4d0f4275ecd3",
+   "swap:lord-of-tresserhorn:m5:4d3387031c2b",
+   "swap:lord-of-tresserhorn:m5:5010cec6f653",
+   "swap:lord-of-tresserhorn:m5:52a21feec7c6",
+   "swap:lord-of-tresserhorn:m5:5b16a11e9fac",
+   "swap:lord-of-tresserhorn:m5:62ad13df92fb",
+   "swap:lord-of-tresserhorn:m5:67574389a851",
+   "swap:lord-of-tresserhorn:m5:67c30779c3a1",
+   "swap:lord-of-tresserhorn:m5:685526e788c0",
+   "swap:lord-of-tresserhorn:m5:6950e24358b1",
+   "swap:lord-of-tresserhorn:m5:6c2e0f8971a6",
+   "swap:lord-of-tresserhorn:m5:6f2d5ea598ae",
+   "swap:lord-of-tresserhorn:m5:74196a3f78ce",
+   "swap:lord-of-tresserhorn:m5:7a3fa508a07e",
+   "swap:lord-of-tresserhorn:m5:7a84c3b3f286",
+   "swap:lord-of-tresserhorn:m5:7bf0643fe0b1",
+   "swap:lord-of-tresserhorn:m5:7c40a2f5fabf",
+   "swap:lord-of-tresserhorn:m5:7d0a45a688b0",
+   "swap:lord-of-tresserhorn:m5:7d514d274032",
+   "swap:lord-of-tresserhorn:m5:803672900dcf",
+   "swap:lord-of-tresserhorn:m5:863e14abbbd2",
+   "swap:lord-of-tresserhorn:m5:8caba3989ef3",
+   "swap:lord-of-tresserhorn:m5:8df6c7df91be",
+   "swap:lord-of-tresserhorn:m5:8fe0dd41774e",
+   "swap:lord-of-tresserhorn:m5:907790844997",
+   "swap:lord-of-tresserhorn:m5:91244ad07c81",
+   "swap:lord-of-tresserhorn:m5:92939d37fc7a",
+   "swap:lord-of-tresserhorn:m5:932db0c8b0e7",
+   "swap:lord-of-tresserhorn:m5:93d6263202f6",
+   "swap:lord-of-tresserhorn:m5:9567dde3bf84",
+   "swap:lord-of-tresserhorn:m5:956f1889f6a3",
+   "swap:lord-of-tresserhorn:m5:95a593a60081",
+   "swap:lord-of-tresserhorn:m5:9b4bf4cb68ee",
+   "swap:lord-of-tresserhorn:m5:9c5ea28177da",
+   "swap:lord-of-tresserhorn:m5:9cdeeccf381d",
+   "swap:lord-of-tresserhorn:m5:9d0ae7a0f765",
+   "swap:lord-of-tresserhorn:m5:9d95a6e7a821",
+   "swap:lord-of-tresserhorn:m5:9dd614a1d008",
+   "swap:lord-of-tresserhorn:m5:a1112061e598",
+   "swap:lord-of-tresserhorn:m5:a11125aa2c0d",
+   "swap:lord-of-tresserhorn:m5:a1ea0f52ba1f",
+   "swap:lord-of-tresserhorn:m5:a2132a958710",
+   "swap:lord-of-tresserhorn:m5:a4a413485043",
+   "swap:lord-of-tresserhorn:m5:a7d496f4bfea",
+   "swap:lord-of-tresserhorn:m5:aa22db8e7a2a",
+   "swap:lord-of-tresserhorn:m5:b1c86a2215f4",
+   "swap:lord-of-tresserhorn:m5:b263440890e4",
+   "swap:lord-of-tresserhorn:m5:b34473c03763",
+   "swap:lord-of-tresserhorn:m5:b3a523443c34",
+   "swap:lord-of-tresserhorn:m5:b3f2e37eb140",
+   "swap:lord-of-tresserhorn:m5:b491a9d7b1f7",
+   "swap:lord-of-tresserhorn:m5:b8b14f5a704d",
+   "swap:lord-of-tresserhorn:m5:bc1de2d9dae6",
+   "swap:lord-of-tresserhorn:m5:bca8b98db96c",
+   "swap:lord-of-tresserhorn:m5:bcf8103c9320",
+   "swap:lord-of-tresserhorn:m5:bd5cdccc82ba",
+   "swap:lord-of-tresserhorn:m5:be5333c05541",
+   "swap:lord-of-tresserhorn:m5:c08a5befcd66",
+   "swap:lord-of-tresserhorn:m5:c166c0b40070",
+   "swap:lord-of-tresserhorn:m5:c17155940c29",
+   "swap:lord-of-tresserhorn:m5:c27c0db6c61f",
+   "swap:lord-of-tresserhorn:m5:c5950a8cd433",
+   "swap:lord-of-tresserhorn:m5:c70b913c537a",
+   "swap:lord-of-tresserhorn:m5:c873f71d033c",
+   "swap:lord-of-tresserhorn:m5:cf2fbf211165",
+   "swap:lord-of-tresserhorn:m5:d08c9f4ba737",
+   "swap:lord-of-tresserhorn:m5:d0a2023fe552",
+   "swap:lord-of-tresserhorn:m5:d141cb2071f9",
+   "swap:lord-of-tresserhorn:m5:d60962a7988e",
+   "swap:lord-of-tresserhorn:m5:d7cb2c7610a5",
+   "swap:lord-of-tresserhorn:m5:d88a38b94047",
+   "swap:lord-of-tresserhorn:m5:e1c4f7698d53",
+   "swap:lord-of-tresserhorn:m5:e3b543fef324",
+   "swap:lord-of-tresserhorn:m5:e4bfebfede77",
+   "swap:lord-of-tresserhorn:m5:e55f04b0dcd0",
+   "swap:lord-of-tresserhorn:m5:e7dfd30d9c48",
+   "swap:lord-of-tresserhorn:m5:efae521a1628",
+   "swap:lord-of-tresserhorn:m5:efafaec6f9e7",
+   "swap:lord-of-tresserhorn:m5:f2e33e53149c",
+   "swap:lord-of-tresserhorn:m5:f2fe556ded3c",
+   "swap:lord-of-tresserhorn:m5:f366a44a99b6",
+   "swap:lord-of-tresserhorn:m5:f37f144ee754",
+   "swap:lord-of-tresserhorn:m5:f3bd39d209f9",
+   "swap:lord-of-tresserhorn:m5:f47ad60c7e36",
+   "swap:lord-of-tresserhorn:m5:f90cd5d65bcd",
+   "swap:lord-of-tresserhorn:m5:fd2265fad73d",
+   "swap:lord-of-tresserhorn:m5:fe673c1cccf2"
+  ]
+ },
+ "schema_version": 1
+}

@@ -1,0 +1,491 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "The_Madcap_Jester",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz"
+  ],
+  "list_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:the-madcap-jester:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Bilbo, Thief in the Night",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#card=Ambassador Laquatus",
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:b8e6689337fd",
+     "blueprint:data/grixis/blueprints/the-madcap-jester.json"
+    ]
+   },
+   {
+    "add": "Breaking // Entering",
+    "cut": "Bilbo, Thief in the Night",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#card=Breaking // Entering",
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:18e64ff59c58",
+     "blueprint:data/grixis/blueprints/the-madcap-jester.json"
+    ]
+   },
+   {
+    "add": "Breaking // Entering",
+    "cut": "Dragon's Smile",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#card=Breaking // Entering",
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:778bfb31eab0",
+     "blueprint:data/grixis/blueprints/the-madcap-jester.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Bilbo, Thief in the Night",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:ada09289ebeb",
+     "blueprint:data/grixis/blueprints/the-madcap-jester.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Bilbo, Thief in the Night",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:a486a3e7a173",
+     "blueprint:data/grixis/blueprints/the-madcap-jester.json"
+    ]
+   },
+   {
+    "add": "Cool but Rude",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#card=Cool but Rude",
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:df9fb9d26dbe",
+     "blueprint:data/grixis/blueprints/the-madcap-jester.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Bilbo, Thief in the Night",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:c9ae9c2180c2",
+     "blueprint:data/grixis/blueprints/the-madcap-jester.json"
+    ]
+   },
+   {
+    "add": "Enter the Infinite",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#card=Enter the Infinite",
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:3b4dcc2f114c",
+     "blueprint:data/grixis/blueprints/the-madcap-jester.json"
+    ]
+   },
+   {
+    "add": "False Memories",
+    "cut": "Pact of Negation",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#card=False Memories",
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:f53c8f90ecfe",
+     "blueprint:data/grixis/blueprints/the-madcap-jester.json"
+    ]
+   },
+   {
+    "add": "Glimpse the Unthinkable",
+    "cut": "Imperial Seal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#card=Glimpse the Unthinkable",
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:a7f69ca96fe1",
+     "blueprint:data/grixis/blueprints/the-madcap-jester.json"
+    ]
+   },
+   {
+    "add": "Glimpse the Unthinkable",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#card=Glimpse the Unthinkable",
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:962321e4fe1d",
+     "blueprint:data/grixis/blueprints/the-madcap-jester.json"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "Dragon's Smile",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#card=Grinding Station",
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:fcb36a69ff07",
+     "blueprint:data/grixis/blueprints/the-madcap-jester.json"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#card=Grinding Station",
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:549aebbdd64e",
+     "blueprint:data/grixis/blueprints/the-madcap-jester.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:a3d5f1faeaca",
+     "blueprint:data/grixis/blueprints/the-madcap-jester.json"
+    ]
+   },
+   {
+    "add": "Infinite Reflection",
+    "cut": "Necropotence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#card=Infinite Reflection",
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:8ce3f5685a4a",
+     "blueprint:data/grixis/blueprints/the-madcap-jester.json"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Bilbo, Thief in the Night",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#card=Mizzix of the Izmagnus",
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:7989918ee372",
+     "blueprint:data/grixis/blueprints/the-madcap-jester.json"
+    ]
+   },
+   {
+    "add": "Path of the Pyromancer",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#card=Path of the Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:0faf3563949b",
+     "blueprint:data/grixis/blueprints/the-madcap-jester.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Pact of Negation",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:ebedd1665907",
+     "blueprint:data/grixis/blueprints/the-madcap-jester.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:4062e44375f7",
+     "blueprint:data/grixis/blueprints/the-madcap-jester.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Bilbo, Thief in the Night",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:6fdfa57b32b5",
+     "blueprint:data/grixis/blueprints/the-madcap-jester.json"
+    ]
+   },
+   {
+    "add": "Wheel of Fortune",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#card=Wheel of Fortune",
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:eb905a1ecf00",
+     "blueprint:data/grixis/blueprints/the-madcap-jester.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "The_Madcap_Jester",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz"
+  ],
+  "list_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:the-madcap-jester:performance:v1",
+  "recommendations": [
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:7b143ecd2863",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:cdeb05ba180536e2"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:98abc01acc8b",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:e2ad0c8fa7bc5011"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:e30690351828",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:3abe1649de1dfad9"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:086c307b375f",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:095585a79d51147c"
+    ]
+   },
+   {
+    "add": "Crumbling Sanctuary",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:f0d17b3f90f4",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:7c9e184aa37cab5c"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:156a3a532690",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:94eaed40c9850126"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:26bb6ea9a9a4",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:bc3f542d6cdf1a88"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:04fbbbe4a67f",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:31732f7a4a7220ba"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:549aebbdd64e",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:7d663e1449c58112"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:a3d5f1faeaca",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:6648c4333b779184"
+    ]
+   },
+   {
+    "add": "Interdimensional Web Watch",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:36921adf502d",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:c2c3f0066c09cf33"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:be0560dd6358",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:0549c3f2e14d339b"
+    ]
+   },
+   {
+    "add": "Memory Vessel",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:4cf99342b788",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:63339cd1536d16d5"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:e126a4fcd20b",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:7cdcda818e03217c"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:78880cb51d0c",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:e5a66a2f6b33ae63"
+    ]
+   },
+   {
+    "add": "Relic of Sauron",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:806338fd8648",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:fe65f77a6af974a4"
+    ]
+   },
+   {
+    "add": "Talisman of Creativity",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:cd00350f0307",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:3bec87504f26b56c"
+    ]
+   },
+   {
+    "add": "Talisman of Creativity",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:1a777e3c1b2c",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:1bedbb4e29811b63"
+    ]
+   },
+   {
+    "add": "Thran Dynamo",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:4f1dc319b510",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:7ad6055a247f7919"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [
+   "swap:the-madcap-jester:m5:549aebbdd64e",
+   "swap:the-madcap-jester:m5:a3d5f1faeaca"
+  ],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:the-madcap-jester:m5:04fbbbe4a67f",
+   "swap:the-madcap-jester:m5:086c307b375f",
+   "swap:the-madcap-jester:m5:0faf3563949b",
+   "swap:the-madcap-jester:m5:156a3a532690",
+   "swap:the-madcap-jester:m5:18e64ff59c58",
+   "swap:the-madcap-jester:m5:1a777e3c1b2c",
+   "swap:the-madcap-jester:m5:26bb6ea9a9a4",
+   "swap:the-madcap-jester:m5:36921adf502d",
+   "swap:the-madcap-jester:m5:3b4dcc2f114c",
+   "swap:the-madcap-jester:m5:4062e44375f7",
+   "swap:the-madcap-jester:m5:4cf99342b788",
+   "swap:the-madcap-jester:m5:4f1dc319b510",
+   "swap:the-madcap-jester:m5:549aebbdd64e",
+   "swap:the-madcap-jester:m5:6fdfa57b32b5",
+   "swap:the-madcap-jester:m5:778bfb31eab0",
+   "swap:the-madcap-jester:m5:78880cb51d0c",
+   "swap:the-madcap-jester:m5:7989918ee372",
+   "swap:the-madcap-jester:m5:7b143ecd2863",
+   "swap:the-madcap-jester:m5:806338fd8648",
+   "swap:the-madcap-jester:m5:8ce3f5685a4a",
+   "swap:the-madcap-jester:m5:962321e4fe1d",
+   "swap:the-madcap-jester:m5:98abc01acc8b",
+   "swap:the-madcap-jester:m5:a3d5f1faeaca",
+   "swap:the-madcap-jester:m5:a486a3e7a173",
+   "swap:the-madcap-jester:m5:a7f69ca96fe1",
+   "swap:the-madcap-jester:m5:ada09289ebeb",
+   "swap:the-madcap-jester:m5:b8e6689337fd",
+   "swap:the-madcap-jester:m5:be0560dd6358",
+   "swap:the-madcap-jester:m5:c9ae9c2180c2",
+   "swap:the-madcap-jester:m5:cd00350f0307",
+   "swap:the-madcap-jester:m5:df9fb9d26dbe",
+   "swap:the-madcap-jester:m5:e126a4fcd20b",
+   "swap:the-madcap-jester:m5:e30690351828",
+   "swap:the-madcap-jester:m5:eb905a1ecf00",
+   "swap:the-madcap-jester:m5:ebedd1665907",
+   "swap:the-madcap-jester:m5:f0d17b3f90f4",
+   "swap:the-madcap-jester:m5:f53c8f90ecfe",
+   "swap:the-madcap-jester:m5:fcb36a69ff07"
+  ],
+  "disagreements": [
+   "swap:the-madcap-jester:m5:04fbbbe4a67f",
+   "swap:the-madcap-jester:m5:086c307b375f",
+   "swap:the-madcap-jester:m5:0faf3563949b",
+   "swap:the-madcap-jester:m5:156a3a532690",
+   "swap:the-madcap-jester:m5:18e64ff59c58",
+   "swap:the-madcap-jester:m5:1a777e3c1b2c",
+   "swap:the-madcap-jester:m5:26bb6ea9a9a4",
+   "swap:the-madcap-jester:m5:36921adf502d",
+   "swap:the-madcap-jester:m5:3b4dcc2f114c",
+   "swap:the-madcap-jester:m5:4062e44375f7",
+   "swap:the-madcap-jester:m5:4cf99342b788",
+   "swap:the-madcap-jester:m5:4f1dc319b510",
+   "swap:the-madcap-jester:m5:6fdfa57b32b5",
+   "swap:the-madcap-jester:m5:778bfb31eab0",
+   "swap:the-madcap-jester:m5:78880cb51d0c",
+   "swap:the-madcap-jester:m5:7989918ee372",
+   "swap:the-madcap-jester:m5:7b143ecd2863",
+   "swap:the-madcap-jester:m5:806338fd8648",
+   "swap:the-madcap-jester:m5:8ce3f5685a4a",
+   "swap:the-madcap-jester:m5:962321e4fe1d",
+   "swap:the-madcap-jester:m5:98abc01acc8b",
+   "swap:the-madcap-jester:m5:a486a3e7a173",
+   "swap:the-madcap-jester:m5:a7f69ca96fe1",
+   "swap:the-madcap-jester:m5:ada09289ebeb",
+   "swap:the-madcap-jester:m5:b8e6689337fd",
+   "swap:the-madcap-jester:m5:be0560dd6358",
+   "swap:the-madcap-jester:m5:c9ae9c2180c2",
+   "swap:the-madcap-jester:m5:cd00350f0307",
+   "swap:the-madcap-jester:m5:df9fb9d26dbe",
+   "swap:the-madcap-jester:m5:e126a4fcd20b",
+   "swap:the-madcap-jester:m5:e30690351828",
+   "swap:the-madcap-jester:m5:eb905a1ecf00",
+   "swap:the-madcap-jester:m5:ebedd1665907",
+   "swap:the-madcap-jester:m5:f0d17b3f90f4",
+   "swap:the-madcap-jester:m5:f53c8f90ecfe",
+   "swap:the-madcap-jester:m5:fcb36a69ff07"
+  ]
+ },
+ "schema_version": 1
+}

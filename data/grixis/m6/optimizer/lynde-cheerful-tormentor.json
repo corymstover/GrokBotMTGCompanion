@@ -1,0 +1,347 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Lynde__Cheerful_Tormentor",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz"
+  ],
+  "list_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:lynde-cheerful-tormentor:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Bladewing the Risen",
+    "cut": "Curse of Fool's Wisdom",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#card=Bladewing the Risen",
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:a49682106930",
+     "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json"
+    ]
+   },
+   {
+    "add": "Bladewing the Risen",
+    "cut": "Torment of Scarabs",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#card=Bladewing the Risen",
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:d70b035f00a7",
+     "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json"
+    ]
+   },
+   {
+    "add": "Blazing Sunsteel",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#card=Blazing Sunsteel",
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:363f901a3f08",
+     "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json"
+    ]
+   },
+   {
+    "add": "Descent into Avernus",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#card=Descent into Avernus",
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:d6779fb6357a",
+     "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Withering Torment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:189c3996c9d2",
+     "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json"
+    ]
+   },
+   {
+    "add": "Heartless Hidetsugu",
+    "cut": "Accursed Witch // Infectious Curse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#card=Heartless Hidetsugu",
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:01488caae8db",
+     "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json"
+    ]
+   },
+   {
+    "add": "Heartless Hidetsugu",
+    "cut": "Ashiok's Reaper",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#card=Heartless Hidetsugu",
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:8cf52c2e16e1",
+     "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Withering Torment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:bb1cc7a27136",
+     "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Accursed Witch // Infectious Curse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:5556bafe96fc",
+     "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Ashiok's Reaper",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:64de238a88ad",
+     "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json"
+    ]
+   },
+   {
+    "add": "Rakdos Joins Up",
+    "cut": "Curse of Fool's Wisdom",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#card=Rakdos Joins Up",
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:ee4bc28900e8",
+     "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json"
+    ]
+   },
+   {
+    "add": "Rakdos Joins Up",
+    "cut": "Torment of Scarabs",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#card=Rakdos Joins Up",
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:c0b534c851e1",
+     "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Swan Song",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:28f42a935583",
+     "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Curse of Vengeance",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:5aef80ce9eb5",
+     "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:a0e7dc59e2ca",
+     "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json"
+    ]
+   },
+   {
+    "add": "Second Chance",
+    "cut": "Curse of Vengeance",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#card=Second Chance",
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:50c3f86d9a5e",
+     "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json"
+    ]
+   },
+   {
+    "add": "Second Chance",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#card=Second Chance",
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:969046a1d1ba",
+     "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Withering Torment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:737409132ff9",
+     "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Withering Torment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:3fa38d5b9a52",
+     "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json"
+    ]
+   },
+   {
+    "add": "Vilis, Broker of Blood",
+    "cut": "Ashiok's Reaper",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#card=Vilis, Broker of Blood",
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:628d5d8a9f80",
+     "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json"
+    ]
+   },
+   {
+    "add": "Vilis, Broker of Blood",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#card=Vilis, Broker of Blood",
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:7b67e8216364",
+     "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Lynde__Cheerful_Tormentor",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz"
+  ],
+  "list_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:lynde-cheerful-tormentor:performance:v1",
+  "recommendations": [
+   {
+    "add": "Heartless Hidetsugu",
+    "cut": "Ashiok's Reaper",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:8cf52c2e16e1",
+     "m5_test:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=test:lynde-cheerful-tormentor:goldfish:433eb3cb35e2283c"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Withering Torment",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:bb1cc7a27136",
+     "m5_test:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=test:lynde-cheerful-tormentor:goldfish:199a1905953b340c"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:add8c7970357",
+     "m5_test:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=test:lynde-cheerful-tormentor:goldfish:889204d8f0d4676b"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Withering Torment",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:737409132ff9",
+     "m5_test:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=test:lynde-cheerful-tormentor:goldfish:27ef4d0e7cb6c3eb"
+    ]
+   },
+   {
+    "add": "Vilis, Broker of Blood",
+    "cut": "Ashiok's Reaper",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:628d5d8a9f80",
+     "m5_test:data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=test:lynde-cheerful-tormentor:goldfish:936292f7c53983dd"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [
+   "swap:lynde-cheerful-tormentor:m5:628d5d8a9f80",
+   "swap:lynde-cheerful-tormentor:m5:737409132ff9",
+   "swap:lynde-cheerful-tormentor:m5:8cf52c2e16e1",
+   "swap:lynde-cheerful-tormentor:m5:bb1cc7a27136"
+  ],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:lynde-cheerful-tormentor:m5:01488caae8db",
+   "swap:lynde-cheerful-tormentor:m5:189c3996c9d2",
+   "swap:lynde-cheerful-tormentor:m5:28f42a935583",
+   "swap:lynde-cheerful-tormentor:m5:363f901a3f08",
+   "swap:lynde-cheerful-tormentor:m5:3fa38d5b9a52",
+   "swap:lynde-cheerful-tormentor:m5:50c3f86d9a5e",
+   "swap:lynde-cheerful-tormentor:m5:5556bafe96fc",
+   "swap:lynde-cheerful-tormentor:m5:5aef80ce9eb5",
+   "swap:lynde-cheerful-tormentor:m5:628d5d8a9f80",
+   "swap:lynde-cheerful-tormentor:m5:64de238a88ad",
+   "swap:lynde-cheerful-tormentor:m5:737409132ff9",
+   "swap:lynde-cheerful-tormentor:m5:7b67e8216364",
+   "swap:lynde-cheerful-tormentor:m5:8cf52c2e16e1",
+   "swap:lynde-cheerful-tormentor:m5:969046a1d1ba",
+   "swap:lynde-cheerful-tormentor:m5:a0e7dc59e2ca",
+   "swap:lynde-cheerful-tormentor:m5:a49682106930",
+   "swap:lynde-cheerful-tormentor:m5:add8c7970357",
+   "swap:lynde-cheerful-tormentor:m5:bb1cc7a27136",
+   "swap:lynde-cheerful-tormentor:m5:c0b534c851e1",
+   "swap:lynde-cheerful-tormentor:m5:d6779fb6357a",
+   "swap:lynde-cheerful-tormentor:m5:d70b035f00a7",
+   "swap:lynde-cheerful-tormentor:m5:ee4bc28900e8"
+  ],
+  "disagreements": [
+   "swap:lynde-cheerful-tormentor:m5:01488caae8db",
+   "swap:lynde-cheerful-tormentor:m5:189c3996c9d2",
+   "swap:lynde-cheerful-tormentor:m5:28f42a935583",
+   "swap:lynde-cheerful-tormentor:m5:363f901a3f08",
+   "swap:lynde-cheerful-tormentor:m5:3fa38d5b9a52",
+   "swap:lynde-cheerful-tormentor:m5:50c3f86d9a5e",
+   "swap:lynde-cheerful-tormentor:m5:5556bafe96fc",
+   "swap:lynde-cheerful-tormentor:m5:5aef80ce9eb5",
+   "swap:lynde-cheerful-tormentor:m5:64de238a88ad",
+   "swap:lynde-cheerful-tormentor:m5:7b67e8216364",
+   "swap:lynde-cheerful-tormentor:m5:969046a1d1ba",
+   "swap:lynde-cheerful-tormentor:m5:a0e7dc59e2ca",
+   "swap:lynde-cheerful-tormentor:m5:a49682106930",
+   "swap:lynde-cheerful-tormentor:m5:add8c7970357",
+   "swap:lynde-cheerful-tormentor:m5:c0b534c851e1",
+   "swap:lynde-cheerful-tormentor:m5:d6779fb6357a",
+   "swap:lynde-cheerful-tormentor:m5:d70b035f00a7",
+   "swap:lynde-cheerful-tormentor:m5:ee4bc28900e8"
+  ]
+ },
+ "schema_version": 1
+}

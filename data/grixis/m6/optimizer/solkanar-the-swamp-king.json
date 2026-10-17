@@ -1,0 +1,1162 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Sol_kanar_the_Swamp_King",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz"
+  ],
+  "list_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:solkanar-the-swamp-king:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Animate Artifact",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Animate Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:7f865868c930",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Animate Artifact",
+    "cut": "Underworld Dreams",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Animate Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:b27269bde08e",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Arnyn, Deathbloom Botanist",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Arnyn, Deathbloom Botanist",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:5b90b193b1e0",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Blighted Shaman",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Blighted Shaman",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:39d11342de22",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Blood Artist",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Blood Artist",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:3341bf9c1055",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Blood Tribute",
+    "cut": "Alhammarret's Archive",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Blood Tribute",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:cb3255a2e572",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Bloodbond Vampire",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Bloodbond Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:94688a201d2e",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Brash Taunter",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Brash Taunter",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:7403d10a88bb",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Crossway Troublemakers",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Crossway Troublemakers",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:38b176d9ff76",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Cyberdrive Awakener",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Cyberdrive Awakener",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:cecabecdd1a2",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Falkenrath Noble",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Falkenrath Noble",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:635f43b9a5ed",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Fortune Teller's Talent",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Fortune Teller's Talent",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:449d1a134c14",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Fortune Teller's Talent",
+    "cut": "Underworld Dreams",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Fortune Teller's Talent",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:cb868e1e987e",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Fraying Omnipotence",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Fraying Omnipotence",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:a7ec68983624",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Fraying Omnipotence",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Fraying Omnipotence",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:a2b69ca0a49a",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Golem's Heart",
+    "cut": "Alhammarret's Archive",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Golem's Heart",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:e41056546ee6",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Greed",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Greed",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:3a4bbacd42ac",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Grievous Wound",
+    "cut": "Alhammarret's Archive",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Grievous Wound",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:2386bd467f36",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Guul Draz Overseer",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Guul Draz Overseer",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:81756e33acbf",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Gwenom, Remorseless",
+    "cut": "Alhammarret's Archive",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Gwenom, Remorseless",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:ca2c4476546f",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Gwenom, Remorseless",
+    "cut": "Exsanguinate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Gwenom, Remorseless",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:572b5db3aede",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Rakdos Charm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:ff6a922276cd",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Indulgent Aristocrat",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Indulgent Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:536e3aed68cb",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Karn's Touch",
+    "cut": "Rakdos Charm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Karn's Touch",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:6c37262d9538",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Karn, Silver Golem",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Karn, Silver Golem",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:120c4f6f70f3",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Katsumasa, the Animator",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Katsumasa, the Animator",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:62b01811a3e4",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Leshrac's Sigil",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Leshrac's Sigil",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:14781eab6d40",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Leshrac's Sigil",
+    "cut": "Underworld Dreams",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Leshrac's Sigil",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:d929ef537b9c",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Lich",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:4c6c7e372ce7",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Lich's Mastery",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Lich's Mastery",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:a913aa176861",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Malakir Bloodwitch",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Malakir Bloodwitch",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:18e2aa54ce4d",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "March of the Machines",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=March of the Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:d025e5872ff7",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "March of the Machines",
+    "cut": "Underworld Dreams",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=March of the Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:9dbbd56b5077",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Marina Vendrell's Grimoire",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Marina Vendrell's Grimoire",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:788fcaa9d09b",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Markov Baron",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Markov Baron",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:d5c5ecad8ad8",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Metamorphosis Fanatic",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Metamorphosis Fanatic",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:b9c476c89e3a",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:246132efa300",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "Underworld Dreams",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:b4dc364d80d5",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Mindcrank",
+    "cut": "Mana Vault",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Mindcrank",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:d4c1e2acbc74",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Mishra, Eminent One",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Mishra, Eminent One",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:5bd260b01871",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Myr Welder",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Myr Welder",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:29c1153a7328",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Nefarious Lich",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Nefarious Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:eea73b6318bd",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Nighthawk Scavenger",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Nighthawk Scavenger",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:0531915cd15e",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Nirkana Revenant",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Nirkana Revenant",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:6cdcc884e132",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Orthion, Hero of Lavabrink",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Orthion, Hero of Lavabrink",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:cae81af85fda",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:63dc6596469f",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Pox Plague",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Pox Plague",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:49994eff2408",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Pox Plague",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Pox Plague",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:635f6262f83f",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Qarsi Revenant",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Qarsi Revenant",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:fbc53b9576f0",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Quag Vampires",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Quag Vampires",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:946844d19bfe",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Quietus Spike",
+    "cut": "Mana Vault",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Quietus Spike",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:ecdfa60fab1f",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Rakdos Charm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:7d3c9eefdff2",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Rite of Replication",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Rite of Replication",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:32f024f2fc3d",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Rite of Replication",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Rite of Replication",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:a8eea656fc51",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Rush of Dread",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Rush of Dread",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:5faafc413aef",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Rush of Dread",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Rush of Dread",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:72e21f519d14",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Sanctum Seeker",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Sanctum Seeker",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:4e84a7f9a29c",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Sangromancer",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Sangromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:03a82764b3e3",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Sanguine Bond",
+    "cut": "Alhammarret's Archive",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Sanguine Bond",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:62595520eafc",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Scheming Silvertongue // Sign in Blood",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Scheming Silvertongue // Sign in Blood",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:67f99d942ba3",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Scion of the Swarm",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Scion of the Swarm",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:f87c8353ea73",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Scourge of the Skyclaves",
+    "cut": "Alhammarret's Archive",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Scourge of the Skyclaves",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:98dd09457724",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Scytheclaw",
+    "cut": "Mana Vault",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Scytheclaw",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:2bd5a03a53c2",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Shard of the Nightbringer",
+    "cut": "Alhammarret's Archive",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Shard of the Nightbringer",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:f06ea7f50013",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Shredder, Shadow Master",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Shredder, Shadow Master",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:849992f77895",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Skilled Animator",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Skilled Animator",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:6083792ca6a2",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Sneering Shadewriter",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Sneering Shadewriter",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:0f3a35c5d2e9",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "South Wind Avatar",
+    "cut": "Alhammarret's Archive",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=South Wind Avatar",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:c80f246df65b",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Starving Revenant",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Starving Revenant",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:4dbf5cfa4ab5",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Starving Revenant",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Starving Revenant",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:7cb675f1ba6d",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Stensian Sanguinist // Exsanguinate",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Stensian Sanguinist // Exsanguinate",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:d44f2c99d46a",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Tezzeret, Agent of Bolas",
+    "cut": "Alhammarret's Archive",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Tezzeret, Agent of Bolas",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:0db301135bda",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Tezzeret, Betrayer of Flesh",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Tezzeret, Betrayer of Flesh",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:a3e58aeb1584",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "The Master of Lake-town",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=The Master of Lake-town",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:df84d3c2680f",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Rakdos Charm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:437cf442b9f4",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Torgaar, Famine Incarnate",
+    "cut": "Alhammarret's Archive",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Torgaar, Famine Incarnate",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:8026a986cd83",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Toymaker",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Toymaker",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:874bbd2ea305",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Trazyn the Infinite",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Trazyn the Infinite",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:600ee03fc2ce",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Tree of Perdition",
+    "cut": "Alhammarret's Archive",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Tree of Perdition",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:ae8c44345b11",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Twilight Prophet",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Twilight Prophet",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:f87745f6b261",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Underworld Breach",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Underworld Breach",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:ad652cfd170f",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Underworld Breach",
+    "cut": "Underworld Dreams",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Underworld Breach",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:24f61cc898ee",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Unstoppable Slasher",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Unstoppable Slasher",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:4adcb12f69c2",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Vampire Nighthawk",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Vampire Nighthawk",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:cc719010dd9c",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Vampire of the Dire Moon",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Vampire of the Dire Moon",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:186ba93c9444",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Vein Ripper",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Vein Ripper",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:2906e84959aa",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Vengeful Bloodwitch",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Vengeful Bloodwitch",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:e5bb6f5959ad",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Vilis, Broker of Blood",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Vilis, Broker of Blood",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:abd6fcc39597",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Virtus the Veiled",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Virtus the Veiled",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:62b29c8c8f23",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Volcano Hellion",
+    "cut": "Alhammarret's Archive",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Volcano Hellion",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:03b3064f1152",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Xenic Poltergeist",
+    "cut": "Baleful Strix",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Xenic Poltergeist",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:0c8fb2b6ce29",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   },
+   {
+    "add": "Yotia Declares War",
+    "cut": "Rakdos Charm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#card=Yotia Declares War",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:6ac4573a13d7",
+     "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Sol_kanar_the_Swamp_King",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz"
+  ],
+  "list_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:solkanar-the-swamp-king:performance:v1",
+  "recommendations": [
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Aetherflux Reservoir",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:9b9613dda6f5",
+     "m5_test:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=test:solkanar-the-swamp-king:goldfish:aadd038be025e7fb"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Rakdos Charm",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:ff6a922276cd",
+     "m5_test:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=test:solkanar-the-swamp-king:goldfish:2ce0c49d4a721703"
+    ]
+   },
+   {
+    "add": "Liliana of the Dark Realms",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:01504fb432bb",
+     "m5_test:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=test:solkanar-the-swamp-king:goldfish:6bdd460e3cf46ea3"
+    ]
+   },
+   {
+    "add": "Marina Vendrell's Grimoire",
+    "cut": "Sensei's Divining Top",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:85856307b34c",
+     "m5_test:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=test:solkanar-the-swamp-king:goldfish:6dc39a1d32963012"
+    ]
+   },
+   {
+    "add": "Marina Vendrell's Grimoire",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:788fcaa9d09b",
+     "m5_test:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=test:solkanar-the-swamp-king:goldfish:4f59a7f914cd8d2a"
+    ]
+   },
+   {
+    "add": "Mindcrank",
+    "cut": "Grindstone",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:2d572c3b914f",
+     "m5_test:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=test:solkanar-the-swamp-king:goldfish:ec0ce07c2273ce67"
+    ]
+   },
+   {
+    "add": "Quietus Spike",
+    "cut": "Grindstone",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:885f31cabadc",
+     "m5_test:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=test:solkanar-the-swamp-king:goldfish:1bd19c6d6eab2b79"
+    ]
+   },
+   {
+    "add": "Scytheclaw",
+    "cut": "Grindstone",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=swap:solkanar-the-swamp-king:m5:09bc17fb4fe2",
+     "m5_test:data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz#id=test:solkanar-the-swamp-king:goldfish:e71c44e3dc98466f"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [
+   "swap:solkanar-the-swamp-king:m5:788fcaa9d09b",
+   "swap:solkanar-the-swamp-king:m5:ff6a922276cd"
+  ],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:solkanar-the-swamp-king:m5:01504fb432bb",
+   "swap:solkanar-the-swamp-king:m5:03a82764b3e3",
+   "swap:solkanar-the-swamp-king:m5:03b3064f1152",
+   "swap:solkanar-the-swamp-king:m5:0531915cd15e",
+   "swap:solkanar-the-swamp-king:m5:09bc17fb4fe2",
+   "swap:solkanar-the-swamp-king:m5:0c8fb2b6ce29",
+   "swap:solkanar-the-swamp-king:m5:0db301135bda",
+   "swap:solkanar-the-swamp-king:m5:0f3a35c5d2e9",
+   "swap:solkanar-the-swamp-king:m5:120c4f6f70f3",
+   "swap:solkanar-the-swamp-king:m5:14781eab6d40",
+   "swap:solkanar-the-swamp-king:m5:186ba93c9444",
+   "swap:solkanar-the-swamp-king:m5:18e2aa54ce4d",
+   "swap:solkanar-the-swamp-king:m5:2386bd467f36",
+   "swap:solkanar-the-swamp-king:m5:246132efa300",
+   "swap:solkanar-the-swamp-king:m5:24f61cc898ee",
+   "swap:solkanar-the-swamp-king:m5:2906e84959aa",
+   "swap:solkanar-the-swamp-king:m5:29c1153a7328",
+   "swap:solkanar-the-swamp-king:m5:2bd5a03a53c2",
+   "swap:solkanar-the-swamp-king:m5:2d572c3b914f",
+   "swap:solkanar-the-swamp-king:m5:32f024f2fc3d",
+   "swap:solkanar-the-swamp-king:m5:3341bf9c1055",
+   "swap:solkanar-the-swamp-king:m5:38b176d9ff76",
+   "swap:solkanar-the-swamp-king:m5:39d11342de22",
+   "swap:solkanar-the-swamp-king:m5:3a4bbacd42ac",
+   "swap:solkanar-the-swamp-king:m5:437cf442b9f4",
+   "swap:solkanar-the-swamp-king:m5:449d1a134c14",
+   "swap:solkanar-the-swamp-king:m5:49994eff2408",
+   "swap:solkanar-the-swamp-king:m5:4adcb12f69c2",
+   "swap:solkanar-the-swamp-king:m5:4c6c7e372ce7",
+   "swap:solkanar-the-swamp-king:m5:4dbf5cfa4ab5",
+   "swap:solkanar-the-swamp-king:m5:4e84a7f9a29c",
+   "swap:solkanar-the-swamp-king:m5:536e3aed68cb",
+   "swap:solkanar-the-swamp-king:m5:572b5db3aede",
+   "swap:solkanar-the-swamp-king:m5:5b90b193b1e0",
+   "swap:solkanar-the-swamp-king:m5:5bd260b01871",
+   "swap:solkanar-the-swamp-king:m5:5faafc413aef",
+   "swap:solkanar-the-swamp-king:m5:600ee03fc2ce",
+   "swap:solkanar-the-swamp-king:m5:6083792ca6a2",
+   "swap:solkanar-the-swamp-king:m5:62595520eafc",
+   "swap:solkanar-the-swamp-king:m5:62b01811a3e4",
+   "swap:solkanar-the-swamp-king:m5:62b29c8c8f23",
+   "swap:solkanar-the-swamp-king:m5:635f43b9a5ed",
+   "swap:solkanar-the-swamp-king:m5:635f6262f83f",
+   "swap:solkanar-the-swamp-king:m5:63dc6596469f",
+   "swap:solkanar-the-swamp-king:m5:67f99d942ba3",
+   "swap:solkanar-the-swamp-king:m5:6ac4573a13d7",
+   "swap:solkanar-the-swamp-king:m5:6c37262d9538",
+   "swap:solkanar-the-swamp-king:m5:6cdcc884e132",
+   "swap:solkanar-the-swamp-king:m5:72e21f519d14",
+   "swap:solkanar-the-swamp-king:m5:7403d10a88bb",
+   "swap:solkanar-the-swamp-king:m5:788fcaa9d09b",
+   "swap:solkanar-the-swamp-king:m5:7cb675f1ba6d",
+   "swap:solkanar-the-swamp-king:m5:7d3c9eefdff2",
+   "swap:solkanar-the-swamp-king:m5:7f865868c930",
+   "swap:solkanar-the-swamp-king:m5:8026a986cd83",
+   "swap:solkanar-the-swamp-king:m5:81756e33acbf",
+   "swap:solkanar-the-swamp-king:m5:849992f77895",
+   "swap:solkanar-the-swamp-king:m5:85856307b34c",
+   "swap:solkanar-the-swamp-king:m5:874bbd2ea305",
+   "swap:solkanar-the-swamp-king:m5:885f31cabadc",
+   "swap:solkanar-the-swamp-king:m5:946844d19bfe",
+   "swap:solkanar-the-swamp-king:m5:94688a201d2e",
+   "swap:solkanar-the-swamp-king:m5:98dd09457724",
+   "swap:solkanar-the-swamp-king:m5:9b9613dda6f5",
+   "swap:solkanar-the-swamp-king:m5:9dbbd56b5077",
+   "swap:solkanar-the-swamp-king:m5:a2b69ca0a49a",
+   "swap:solkanar-the-swamp-king:m5:a3e58aeb1584",
+   "swap:solkanar-the-swamp-king:m5:a7ec68983624",
+   "swap:solkanar-the-swamp-king:m5:a8eea656fc51",
+   "swap:solkanar-the-swamp-king:m5:a913aa176861",
+   "swap:solkanar-the-swamp-king:m5:abd6fcc39597",
+   "swap:solkanar-the-swamp-king:m5:ad652cfd170f",
+   "swap:solkanar-the-swamp-king:m5:ae8c44345b11",
+   "swap:solkanar-the-swamp-king:m5:b27269bde08e",
+   "swap:solkanar-the-swamp-king:m5:b4dc364d80d5",
+   "swap:solkanar-the-swamp-king:m5:b9c476c89e3a",
+   "swap:solkanar-the-swamp-king:m5:c80f246df65b",
+   "swap:solkanar-the-swamp-king:m5:ca2c4476546f",
+   "swap:solkanar-the-swamp-king:m5:cae81af85fda",
+   "swap:solkanar-the-swamp-king:m5:cb3255a2e572",
+   "swap:solkanar-the-swamp-king:m5:cb868e1e987e",
+   "swap:solkanar-the-swamp-king:m5:cc719010dd9c",
+   "swap:solkanar-the-swamp-king:m5:cecabecdd1a2",
+   "swap:solkanar-the-swamp-king:m5:d025e5872ff7",
+   "swap:solkanar-the-swamp-king:m5:d44f2c99d46a",
+   "swap:solkanar-the-swamp-king:m5:d4c1e2acbc74",
+   "swap:solkanar-the-swamp-king:m5:d5c5ecad8ad8",
+   "swap:solkanar-the-swamp-king:m5:d929ef537b9c",
+   "swap:solkanar-the-swamp-king:m5:df84d3c2680f",
+   "swap:solkanar-the-swamp-king:m5:e41056546ee6",
+   "swap:solkanar-the-swamp-king:m5:e5bb6f5959ad",
+   "swap:solkanar-the-swamp-king:m5:ecdfa60fab1f",
+   "swap:solkanar-the-swamp-king:m5:eea73b6318bd",
+   "swap:solkanar-the-swamp-king:m5:f06ea7f50013",
+   "swap:solkanar-the-swamp-king:m5:f87745f6b261",
+   "swap:solkanar-the-swamp-king:m5:f87c8353ea73",
+   "swap:solkanar-the-swamp-king:m5:fbc53b9576f0",
+   "swap:solkanar-the-swamp-king:m5:ff6a922276cd"
+  ],
+  "disagreements": [
+   "swap:solkanar-the-swamp-king:m5:01504fb432bb",
+   "swap:solkanar-the-swamp-king:m5:03a82764b3e3",
+   "swap:solkanar-the-swamp-king:m5:03b3064f1152",
+   "swap:solkanar-the-swamp-king:m5:0531915cd15e",
+   "swap:solkanar-the-swamp-king:m5:09bc17fb4fe2",
+   "swap:solkanar-the-swamp-king:m5:0c8fb2b6ce29",
+   "swap:solkanar-the-swamp-king:m5:0db301135bda",
+   "swap:solkanar-the-swamp-king:m5:0f3a35c5d2e9",
+   "swap:solkanar-the-swamp-king:m5:120c4f6f70f3",
+   "swap:solkanar-the-swamp-king:m5:14781eab6d40",
+   "swap:solkanar-the-swamp-king:m5:186ba93c9444",
+   "swap:solkanar-the-swamp-king:m5:18e2aa54ce4d",
+   "swap:solkanar-the-swamp-king:m5:2386bd467f36",
+   "swap:solkanar-the-swamp-king:m5:246132efa300",
+   "swap:solkanar-the-swamp-king:m5:24f61cc898ee",
+   "swap:solkanar-the-swamp-king:m5:2906e84959aa",
+   "swap:solkanar-the-swamp-king:m5:29c1153a7328",
+   "swap:solkanar-the-swamp-king:m5:2bd5a03a53c2",
+   "swap:solkanar-the-swamp-king:m5:2d572c3b914f",
+   "swap:solkanar-the-swamp-king:m5:32f024f2fc3d",
+   "swap:solkanar-the-swamp-king:m5:3341bf9c1055",
+   "swap:solkanar-the-swamp-king:m5:38b176d9ff76",
+   "swap:solkanar-the-swamp-king:m5:39d11342de22",
+   "swap:solkanar-the-swamp-king:m5:3a4bbacd42ac",
+   "swap:solkanar-the-swamp-king:m5:437cf442b9f4",
+   "swap:solkanar-the-swamp-king:m5:449d1a134c14",
+   "swap:solkanar-the-swamp-king:m5:49994eff2408",
+   "swap:solkanar-the-swamp-king:m5:4adcb12f69c2",
+   "swap:solkanar-the-swamp-king:m5:4c6c7e372ce7",
+   "swap:solkanar-the-swamp-king:m5:4dbf5cfa4ab5",
+   "swap:solkanar-the-swamp-king:m5:4e84a7f9a29c",
+   "swap:solkanar-the-swamp-king:m5:536e3aed68cb",
+   "swap:solkanar-the-swamp-king:m5:572b5db3aede",
+   "swap:solkanar-the-swamp-king:m5:5b90b193b1e0",
+   "swap:solkanar-the-swamp-king:m5:5bd260b01871",
+   "swap:solkanar-the-swamp-king:m5:5faafc413aef",
+   "swap:solkanar-the-swamp-king:m5:600ee03fc2ce",
+   "swap:solkanar-the-swamp-king:m5:6083792ca6a2",
+   "swap:solkanar-the-swamp-king:m5:62595520eafc",
+   "swap:solkanar-the-swamp-king:m5:62b01811a3e4",
+   "swap:solkanar-the-swamp-king:m5:62b29c8c8f23",
+   "swap:solkanar-the-swamp-king:m5:635f43b9a5ed",
+   "swap:solkanar-the-swamp-king:m5:635f6262f83f",
+   "swap:solkanar-the-swamp-king:m5:63dc6596469f",
+   "swap:solkanar-the-swamp-king:m5:67f99d942ba3",
+   "swap:solkanar-the-swamp-king:m5:6ac4573a13d7",
+   "swap:solkanar-the-swamp-king:m5:6c37262d9538",
+   "swap:solkanar-the-swamp-king:m5:6cdcc884e132",
+   "swap:solkanar-the-swamp-king:m5:72e21f519d14",
+   "swap:solkanar-the-swamp-king:m5:7403d10a88bb",
+   "swap:solkanar-the-swamp-king:m5:7cb675f1ba6d",
+   "swap:solkanar-the-swamp-king:m5:7d3c9eefdff2",
+   "swap:solkanar-the-swamp-king:m5:7f865868c930",
+   "swap:solkanar-the-swamp-king:m5:8026a986cd83",
+   "swap:solkanar-the-swamp-king:m5:81756e33acbf",
+   "swap:solkanar-the-swamp-king:m5:849992f77895",
+   "swap:solkanar-the-swamp-king:m5:85856307b34c",
+   "swap:solkanar-the-swamp-king:m5:874bbd2ea305",
+   "swap:solkanar-the-swamp-king:m5:885f31cabadc",
+   "swap:solkanar-the-swamp-king:m5:946844d19bfe",
+   "swap:solkanar-the-swamp-king:m5:94688a201d2e",
+   "swap:solkanar-the-swamp-king:m5:98dd09457724",
+   "swap:solkanar-the-swamp-king:m5:9b9613dda6f5",
+   "swap:solkanar-the-swamp-king:m5:9dbbd56b5077",
+   "swap:solkanar-the-swamp-king:m5:a2b69ca0a49a",
+   "swap:solkanar-the-swamp-king:m5:a3e58aeb1584",
+   "swap:solkanar-the-swamp-king:m5:a7ec68983624",
+   "swap:solkanar-the-swamp-king:m5:a8eea656fc51",
+   "swap:solkanar-the-swamp-king:m5:a913aa176861",
+   "swap:solkanar-the-swamp-king:m5:abd6fcc39597",
+   "swap:solkanar-the-swamp-king:m5:ad652cfd170f",
+   "swap:solkanar-the-swamp-king:m5:ae8c44345b11",
+   "swap:solkanar-the-swamp-king:m5:b27269bde08e",
+   "swap:solkanar-the-swamp-king:m5:b4dc364d80d5",
+   "swap:solkanar-the-swamp-king:m5:b9c476c89e3a",
+   "swap:solkanar-the-swamp-king:m5:c80f246df65b",
+   "swap:solkanar-the-swamp-king:m5:ca2c4476546f",
+   "swap:solkanar-the-swamp-king:m5:cae81af85fda",
+   "swap:solkanar-the-swamp-king:m5:cb3255a2e572",
+   "swap:solkanar-the-swamp-king:m5:cb868e1e987e",
+   "swap:solkanar-the-swamp-king:m5:cc719010dd9c",
+   "swap:solkanar-the-swamp-king:m5:cecabecdd1a2",
+   "swap:solkanar-the-swamp-king:m5:d025e5872ff7",
+   "swap:solkanar-the-swamp-king:m5:d44f2c99d46a",
+   "swap:solkanar-the-swamp-king:m5:d4c1e2acbc74",
+   "swap:solkanar-the-swamp-king:m5:d5c5ecad8ad8",
+   "swap:solkanar-the-swamp-king:m5:d929ef537b9c",
+   "swap:solkanar-the-swamp-king:m5:df84d3c2680f",
+   "swap:solkanar-the-swamp-king:m5:e41056546ee6",
+   "swap:solkanar-the-swamp-king:m5:e5bb6f5959ad",
+   "swap:solkanar-the-swamp-king:m5:ecdfa60fab1f",
+   "swap:solkanar-the-swamp-king:m5:eea73b6318bd",
+   "swap:solkanar-the-swamp-king:m5:f06ea7f50013",
+   "swap:solkanar-the-swamp-king:m5:f87745f6b261",
+   "swap:solkanar-the-swamp-king:m5:f87c8353ea73",
+   "swap:solkanar-the-swamp-king:m5:fbc53b9576f0"
+  ]
+ },
+ "schema_version": 1
+}

@@ -1,0 +1,2423 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Wick__the_Whorled_Mind",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz"
+  ],
+  "list_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:wick-the-whorled-mind:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Aethersnipe",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Aethersnipe",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:7fc35e361399",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Ancestral Statue",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Ancestral Statue",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:fc22c46b74c5",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Animating Faerie // Bring to Life",
+    "cut": "Redcap Gutter-Dweller",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Animating Faerie // Bring to Life",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:1e0d25c3cfdc",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Animation Module",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Animation Module",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:d69c84be5a61",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Avacyn's Collar",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Avacyn's Collar",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:3002c268bda7",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Azure Beastbinder",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Azure Beastbinder",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:cc2c81aff773",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Banishing Knack",
+    "cut": "Dark Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Banishing Knack",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:13a2d1c9d1f2",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Banishing Knack",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Banishing Knack",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:b840dd3d6e44",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Blasting Station",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Blasting Station",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:bf4f0cbd93ae",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Blightbelly Rat",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Blightbelly Rat",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:fea2583f7937",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Bloodflow Connoisseur",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Bloodflow Connoisseur",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:4d491782681f",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Bloodline Keeper // Lord of Lineage",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Bloodline Keeper // Lord of Lineage",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:26335f958ef1",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Bloodsoaked Champion",
+    "cut": "Rat King, Verminister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Bloodsoaked Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:6ec8e4b9ed82",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Bog Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Bog Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:a7e00c831ec0",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Burglar Rat",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Burglar Rat",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:eb8f5d16752d",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Carrion Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Carrion Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:3a323c247f8b",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Chittering Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Chittering Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:f74b8db11dd6",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Coercive Recruiter",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Coercive Recruiter",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:83ad1827bc75",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Crypt Rats",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Crypt Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:9e767ea3b67c",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Cult Conscript",
+    "cut": "Rat King, Verminister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Cult Conscript",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:206f33e6c250",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Cyberdrive Awakener",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Cyberdrive Awakener",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:5444c80246aa",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Cybernetica Datasmith",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Cybernetica Datasmith",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:62470ffbe445",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Cybernetica Datasmith",
+    "cut": "Lord Skitter's Butcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Cybernetica Datasmith",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:4c98dc57db60",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Daggerfang Duo",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Daggerfang Duo",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:24aadcf6eb13",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Deadeye Navigator",
+    "cut": "Rat King, Verminister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Deadeye Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:03bbe198ff9e",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Deathmask Nezumi",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Deathmask Nezumi",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:d230e55f042e",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Dirty Wererat",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Dirty Wererat",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:cab42dbfbcf8",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Diseased Vermin",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Diseased Vermin",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:e050a69225f3",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Does Machines",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Does Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:467aec3f4ab8",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Does Machines",
+    "cut": "Lord Skitter's Butcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Does Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:f3cc280ba395",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Donatello, Mutant Mechanic",
+    "cut": "Redcap Gutter-Dweller",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Donatello, Mutant Mechanic",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:1f965331c472",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Draconic Visitor",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Draconic Visitor",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:0b5b199d5136",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Draconic Visitor",
+    "cut": "Lord Skitter's Butcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Draconic Visitor",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:ae7e74f3605b",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Drana's Chosen",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Drana's Chosen",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:6ab7306927e4",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Dream Stalker",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Dream Stalker",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:254d13b046c7",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Earsplitting Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Earsplitting Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:1573292b8a50",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Elemental Mastery",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Elemental Mastery",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:aa777b38b6ac",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Elephant-Rat",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Elephant-Rat",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:b9ecc8a5f560",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Engine Rat",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Engine Rat",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:62c2a492f9d3",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Ensoul Artifact",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Ensoul Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:1a7c4c81328c",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:b9848029956d",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Faces of the Past",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Faces of the Past",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:73b99911c97a",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Fain, the Broker",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Fain, the Broker",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:d8fa8672218d",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:79075030f605",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Forsaken Miner",
+    "cut": "Rat King, Verminister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Forsaken Miner",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:7ae79aed10ad",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Freya Crescent",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Freya Crescent",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:f72708a819ca",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Ghoulcaller Gisa",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Ghoulcaller Gisa",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:10c04de7cf2d",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Glitch Interpreter",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Glitch Interpreter",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:0eef57c22350",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Glitch Interpreter",
+    "cut": "Lord Skitter's Butcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Glitch Interpreter",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:480402ceff1a",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Gnat Miser",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Gnat Miser",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:540786ae906e",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Gnawing Vermin",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Gnawing Vermin",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:9b916b5f9c6b",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Gobhobbler Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Gobhobbler Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:1e8f3974ff7a",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Goblin Warrens",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Goblin Warrens",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:e7464b7c3e00",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Goblin Welder",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Goblin Welder",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:ec30b92f83de",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Graf Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Graf Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:3894dadb1d50",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Gravecrawler",
+    "cut": "Lord Skitter's Butcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Gravecrawler",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:b51e639bca93",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Gravecrawler",
+    "cut": "Zulaport Cutthroat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Gravecrawler",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:c85db5cd1c88",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Gravespawn Sovereign",
+    "cut": "Lord Skitter's Butcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Gravespawn Sovereign",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:d9f32e3a717c",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Gravespawn Sovereign",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Gravespawn Sovereign",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:734a118d10bb",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Gutter Skulk",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Gutter Skulk",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:8521b8ef61b2",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Haunt of the Dead Marshes",
+    "cut": "Rat King, Verminister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Haunt of the Dead Marshes",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:f17922bd707c",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Hell's Caretaker",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Hell's Caretaker",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:8d37ce3c599e",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Hellhole Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Hellhole Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:b94289d999d8",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:a72e3a17e911",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Ichor Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Ichor Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:fc10c489aa35",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Infected Vermin",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Infected Vermin",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:8f37d30e362b",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Ink-Eyes, Servant of Oni",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Ink-Eyes, Servant of Oni",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:7a6b05b5ad13",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Innocuous Rat",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Innocuous Rat",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:0fd77f45da6b",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Jaxis, the Troublemaker",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Jaxis, the Troublemaker",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:c1eb260e1b45",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Jaxis, the Troublemaker",
+    "cut": "Lord Skitter's Butcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Jaxis, the Troublemaker",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:e927160ec280",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Joo Dee, One of Many",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Joo Dee, One of Many",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:0660584027be",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Karn, Silver Golem",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Karn, Silver Golem",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:ab1183f71c72",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Katsumasa, the Animator",
+    "cut": "Redcap Gutter-Dweller",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Katsumasa, the Animator",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:ee7aed538ad8",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:74b0af1b0654",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Krenko, Baron of Tin Street",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Krenko, Baron of Tin Street",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:6b304802ffa6",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Krenko, Baron of Tin Street",
+    "cut": "Diabolic Intent",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Krenko, Baron of Tin Street",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:f91728f1e785",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Krenko, Mob Boss",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Krenko, Mob Boss",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:6dd6360e7478",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Kuro's Taken",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Kuro's Taken",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:a76aac8a107e",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Lab Rats",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Lab Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:884a313871c7",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Lich Lord of Unx",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Lich Lord of Unx",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:63ba62583604",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Lightshell Duo",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Lightshell Duo",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:7342566ac8ed",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Living Brain, Mechanical Marvel",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Living Brain, Mechanical Marvel",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:78305594f878",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Locust Miser",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Locust Miser",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:f2bb5a3c5699",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Man-o'-War",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Man-o'-War",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:3789e3d5f96f",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Marang River Prowler",
+    "cut": "Zulaport Cutthroat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Marang River Prowler",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:94ceacaf7250",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "March of the Machines",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=March of the Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:7a28ec8e5cf3",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Mind Drill Assailant",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Mind Drill Assailant",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:66a78d3b2417",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Mindwhisker",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Mindwhisker",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:c2e092249bf2",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Mishra, Eminent One",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Mishra, Eminent One",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:3b5f7f433f04",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Muck Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Muck Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:ce36808dc65f",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Mukotai Ambusher",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Mukotai Ambusher",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:f08095245e85",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Myr Matrix",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Myr Matrix",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:a2436fb30e92",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Myr Propagator",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Myr Propagator",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:47051ba20058",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Myr Welder",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Myr Welder",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:495465733060",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Nashi, Moon Sage's Scion",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Nashi, Moon Sage's Scion",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:f3c99718988e",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Nashi, Searcher in the Dark",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Nashi, Searcher in the Dark",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:7d901f09d3a7",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Nether Traitor",
+    "cut": "Rat King, Verminister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Nether Traitor",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:c43b7055b721",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Nezumi Bladeblesser",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Nezumi Bladeblesser",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:887cb3f80220",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Nezumi Cutthroat",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Nezumi Cutthroat",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:6a66a643fc94",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Nezumi Graverobber // Nighteyes the Desecrator",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Nezumi Graverobber // Nighteyes the Desecrator",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:c9dcbbff8c58",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Nezumi Informant",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Nezumi Informant",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:067181d933f2",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Nezumi Prowler",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Nezumi Prowler",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:29c7c064c5d0",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Nezumi Ronin",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Nezumi Ronin",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:3fd67f9d8343",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Nezumi Shortfang // Stabwhisker the Odious",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Nezumi Shortfang // Stabwhisker the Odious",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:c7eb6280c7b1",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Nightwhorl Hermit",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Nightwhorl Hermit",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:a7e777444779",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Nim Deathmantle",
+    "cut": "Pack Rat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Nim Deathmantle",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:94e7f41dfb13",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Nim Deathmantle",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Nim Deathmantle",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:29bfee93dae7",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Oathkeeper, Takeno's Daisho",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Oathkeeper, Takeno's Daisho",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:262a8c224a9f",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Oathsworn Vampire",
+    "cut": "Mirkwood Bats",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Oathsworn Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:a224127cd232",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Okiba-Gang Shinobi",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Okiba-Gang Shinobi",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:bba8d620b35b",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Orthion, Hero of Lavabrink",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Orthion, Hero of Lavabrink",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:88701c31f3cf",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Ossuary Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Ossuary Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:fa54d1c741fe",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Ozox, the Clattering King",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Ozox, the Clattering King",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:f0c9f0701966",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Pashalik Mons",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Pashalik Mons",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:cadd5430f7bd",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Pentavus",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Pentavus",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:48f2c6e58703",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Pestilence Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Pestilence Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:114cc25e4175",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Phantom Train",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Phantom Train",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:20d388867e47",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Plague of Vermin",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Plague of Vermin",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:e4a8b3a6ac75",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Plague Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Plague Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:983e19ad9340",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Puppet Conjurer",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Puppet Conjurer",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:2d0d026e6b40",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Rabid Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Rabid Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:7c27efa365b2",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Rakka Mar",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Rakka Mar",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:b27efce2405d",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Rancid Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Rancid Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:8017dec5bc60",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Rank Rat",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Rank Rat",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:256ccfd0fd1f",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Raptor Hatchling",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Raptor Hatchling",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:4eeeaddeec23",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Rat Colony",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Rat Colony",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:2704a0e50f9b",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Rats of Rath",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Rats of Rath",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:984733f1c219",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Ravenous Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Ravenous Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:90bfcf3c650c",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Razorlash Transmogrant",
+    "cut": "Redcap Gutter-Dweller",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Razorlash Transmogrant",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:8f778b616a0f",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Razortooth Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Razortooth Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:40ec7b493f25",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Reassembling Skeleton",
+    "cut": "Rat King, Verminister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Reassembling Skeleton",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:15f9be2f974e",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Refurbished Familiar",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Refurbished Familiar",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:6d4665f59de6",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Dark Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:c73f1e349ff0",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:2f20f3471212",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Relentless Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Relentless Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:b22928f23d64",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:7eeb7aa2e72f",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Retraction Helix",
+    "cut": "Dark Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Retraction Helix",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:a126692cedaf",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Retraction Helix",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Retraction Helix",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:c472ef4d714c",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Rise and Shine",
+    "cut": "Redcap Gutter-Dweller",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Rise and Shine",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:94356164c80f",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Rotlung Reanimator",
+    "cut": "Diabolic Intent",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Rotlung Reanimator",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:571b55082722",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Rotlung Reanimator",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Rotlung Reanimator",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:2c93cdc54f3f",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Rotting Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Rotting Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:4415e1d08bc8",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Ruthless Radrat",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Ruthless Radrat",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:2ed40eb6fd76",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Saheeli, the Sun's Brilliance",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Saheeli, the Sun's Brilliance",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:fd0b50a35a0d",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Sanity Gnawers",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Sanity Gnawers",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:f5860b9201a6",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Satoru Umezawa",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Satoru Umezawa",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:1d43a5e4ebda",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Scrib Nibblers",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Scrib Nibblers",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:8aa37a5ac16e",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Scuttletide",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Scuttletide",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:b0e21ddb7908",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Septic Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Septic Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:129f1792edfc",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Sewer Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Sewer Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:51f5cfe6134a",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Shoreline Looter",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Shoreline Looter",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:a6c465082a42",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Shrieking Drake",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Shrieking Drake",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:6757cd97df44",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Silver-Fur Master",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Silver-Fur Master",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:dca46ac04db8",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Skirsdag High Priest",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Skirsdag High Priest",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:f53e9eae90b1",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Skullsnatcher",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Skullsnatcher",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:944baf74fc54",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Spawnsire of Ulamog",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Spawnsire of Ulamog",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:40e9e7b507bd",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Splinter Twin",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Splinter Twin",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:ac31c729e3cf",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Splinter, Hamato Yoshi",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Splinter, Hamato Yoshi",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:11c7c58002de",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Stella Lee, Wild Card",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Stella Lee, Wild Card",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:e9bbdd93502b",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Stridehangar Automaton",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Stridehangar Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:9b19b61550ec",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Stridehangar Automaton",
+    "cut": "Lord Skitter's Butcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Stridehangar Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:e0ce05810fa0",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Stronghold Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Stronghold Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:2fc8de144ae3",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Summoning Station",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Summoning Station",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:e98edeed82b8",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Summoning Station",
+    "cut": "Diabolic Intent",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Summoning Station",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:8c5d2f46cc1b",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Swarm of Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Swarm of Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:c6fbe64b1255",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Sword of the Paruns",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Sword of the Paruns",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:a38e4ec78438",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Tenacious Dead",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Tenacious Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:43443e2b5773",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Tenacious Dead",
+    "cut": "Diabolic Intent",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Tenacious Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:150f47a9da43",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Tezzeret, Betrayer of Flesh",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Tezzeret, Betrayer of Flesh",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:98338367eded",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Tezzeret, Betrayer of Flesh",
+    "cut": "Lord Skitter's Butcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Tezzeret, Betrayer of Flesh",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:b9242fbdde33",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "The Blackstaff of Waterdeep",
+    "cut": "Lord Skitter's Butcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=The Blackstaff of Waterdeep",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:a7e1d4bb032b",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "The Blackstaff of Waterdeep",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=The Blackstaff of Waterdeep",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:f2137c516241",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "The Locust God",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=The Locust God",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:d6be5c2e2009",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "The Locust God",
+    "cut": "Lord Skitter's Butcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=The Locust God",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:780e9f287a8b",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Thermopod",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Thermopod",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:9fde5f573c89",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Thopter Squadron",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Thopter Squadron",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:dc034015b705",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Thornbite Staff",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Thornbite Staff",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:e7e1d1b29a7d",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Thornplate Intimidator",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Thornplate Intimidator",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:cbde0c737b69",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Thought Shucker",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Thought Shucker",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:3e03ea3eef89",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Throat Slitter",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Throat Slitter",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:456c20e1d824",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Tidecaller Mentor",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Tidecaller Mentor",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:86ee96aaadb1",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:2b2aa4c1af99",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:f509c8acab4f",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Toymaker",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Toymaker",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:8c7d04139549",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Triskelavus",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Triskelavus",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:113a80f47533",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Tunnel Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Tunnel Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:c32bd525211d",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Typhoid Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Typhoid Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:da5367ab01f8",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Ulamog's Dreadsire",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Ulamog's Dreadsire",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:b99552bb31d4",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Umbral Collar Zealot",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Umbral Collar Zealot",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:f712f3a0b138",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Undead Sprinter",
+    "cut": "Redcap Gutter-Dweller",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Undead Sprinter",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:a16ccaa1b6a6",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Undercity Dire Rat",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Undercity Dire Rat",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:3b16bf034a52",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Vedalken Mastermind",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Vedalken Mastermind",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:cd417656704f",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Venser, Shaper Savant",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Venser, Shaper Savant",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:74aa0adcc89e",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Wall of Kelp",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Wall of Kelp",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:cea7ecac1d1f",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Wanderwine Prophets",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Wanderwine Prophets",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:03d89944dd87",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Wave of Rats",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Wave of Rats",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:381751470f9c",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Wick's Patrol",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Wick's Patrol",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:78730fb4fe80",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Woe Strider",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Woe Strider",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:d2f0a3f92543",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Workshop Elders",
+    "cut": "Redcap Gutter-Dweller",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Workshop Elders",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:4777c47c7f3e",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Xathrid Necromancer",
+    "cut": "Diabolic Intent",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Xathrid Necromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:8d1e7c9196e3",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Xathrid Necromancer",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Xathrid Necromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:ee392c9df72b",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Xenic Poltergeist",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Xenic Poltergeist",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:7f95f14a14e1",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Xenograft",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Xenograft",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:c61a66f742c8",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Xerex Strobe-Knight",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Xerex Strobe-Knight",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:04dd2524b754",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Xu-Ifit, Osteoharmonist",
+    "cut": "Rat King, Verminister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Xu-Ifit, Osteoharmonist",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:d9d0c0b6c732",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Yahenni, Undying Partisan",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Yahenni, Undying Partisan",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:921f72c5273a",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Young Necromancer",
+    "cut": "Rat King, Verminister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Young Necromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:7df250601ab6",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Zodiac Rat",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Zodiac Rat",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:fc95d4cb78d3",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Zul Ashur, Lich Lord",
+    "cut": "Lord Skitter's Butcher",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Zul Ashur, Lich Lord",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:66f8da0927f5",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   },
+   {
+    "add": "Zul Ashur, Lich Lord",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#card=Zul Ashur, Lich Lord",
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:8f6404698fa5",
+     "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Wick__the_Whorled_Mind",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz"
+  ],
+  "list_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:wick-the-whorled-mind:performance:v1",
+  "recommendations": [
+   {
+    "add": "Deadly Dispute",
+    "cut": "Ashnod's Altar",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:70a00388181d",
+     "m5_test:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=test:wick-the-whorled-mind:goldfish:698aee80c8dca5d6"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Ashnod's Altar",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:2a543a123511",
+     "m5_test:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=test:wick-the-whorled-mind:goldfish:7750fd4b9f9564bd"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:f218066db204",
+     "m5_test:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=test:wick-the-whorled-mind:goldfish:4f7cee8b84bf5140"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:bc4257552657",
+     "m5_test:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=test:wick-the-whorled-mind:goldfish:859762c3d8f8fb3a"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:wick-the-whorled-mind:m5:03bbe198ff9e",
+   "swap:wick-the-whorled-mind:m5:03d89944dd87",
+   "swap:wick-the-whorled-mind:m5:04dd2524b754",
+   "swap:wick-the-whorled-mind:m5:0660584027be",
+   "swap:wick-the-whorled-mind:m5:067181d933f2",
+   "swap:wick-the-whorled-mind:m5:0b5b199d5136",
+   "swap:wick-the-whorled-mind:m5:0eef57c22350",
+   "swap:wick-the-whorled-mind:m5:0fd77f45da6b",
+   "swap:wick-the-whorled-mind:m5:10c04de7cf2d",
+   "swap:wick-the-whorled-mind:m5:113a80f47533",
+   "swap:wick-the-whorled-mind:m5:114cc25e4175",
+   "swap:wick-the-whorled-mind:m5:11c7c58002de",
+   "swap:wick-the-whorled-mind:m5:129f1792edfc",
+   "swap:wick-the-whorled-mind:m5:13a2d1c9d1f2",
+   "swap:wick-the-whorled-mind:m5:150f47a9da43",
+   "swap:wick-the-whorled-mind:m5:1573292b8a50",
+   "swap:wick-the-whorled-mind:m5:15f9be2f974e",
+   "swap:wick-the-whorled-mind:m5:1a7c4c81328c",
+   "swap:wick-the-whorled-mind:m5:1d43a5e4ebda",
+   "swap:wick-the-whorled-mind:m5:1e0d25c3cfdc",
+   "swap:wick-the-whorled-mind:m5:1e8f3974ff7a",
+   "swap:wick-the-whorled-mind:m5:1f965331c472",
+   "swap:wick-the-whorled-mind:m5:206f33e6c250",
+   "swap:wick-the-whorled-mind:m5:20d388867e47",
+   "swap:wick-the-whorled-mind:m5:24aadcf6eb13",
+   "swap:wick-the-whorled-mind:m5:254d13b046c7",
+   "swap:wick-the-whorled-mind:m5:256ccfd0fd1f",
+   "swap:wick-the-whorled-mind:m5:262a8c224a9f",
+   "swap:wick-the-whorled-mind:m5:26335f958ef1",
+   "swap:wick-the-whorled-mind:m5:2704a0e50f9b",
+   "swap:wick-the-whorled-mind:m5:29bfee93dae7",
+   "swap:wick-the-whorled-mind:m5:29c7c064c5d0",
+   "swap:wick-the-whorled-mind:m5:2a543a123511",
+   "swap:wick-the-whorled-mind:m5:2b2aa4c1af99",
+   "swap:wick-the-whorled-mind:m5:2c93cdc54f3f",
+   "swap:wick-the-whorled-mind:m5:2d0d026e6b40",
+   "swap:wick-the-whorled-mind:m5:2ed40eb6fd76",
+   "swap:wick-the-whorled-mind:m5:2f20f3471212",
+   "swap:wick-the-whorled-mind:m5:2fc8de144ae3",
+   "swap:wick-the-whorled-mind:m5:3002c268bda7",
+   "swap:wick-the-whorled-mind:m5:3789e3d5f96f",
+   "swap:wick-the-whorled-mind:m5:381751470f9c",
+   "swap:wick-the-whorled-mind:m5:3894dadb1d50",
+   "swap:wick-the-whorled-mind:m5:3a323c247f8b",
+   "swap:wick-the-whorled-mind:m5:3b16bf034a52",
+   "swap:wick-the-whorled-mind:m5:3b5f7f433f04",
+   "swap:wick-the-whorled-mind:m5:3e03ea3eef89",
+   "swap:wick-the-whorled-mind:m5:3fd67f9d8343",
+   "swap:wick-the-whorled-mind:m5:40e9e7b507bd",
+   "swap:wick-the-whorled-mind:m5:40ec7b493f25",
+   "swap:wick-the-whorled-mind:m5:43443e2b5773",
+   "swap:wick-the-whorled-mind:m5:4415e1d08bc8",
+   "swap:wick-the-whorled-mind:m5:456c20e1d824",
+   "swap:wick-the-whorled-mind:m5:467aec3f4ab8",
+   "swap:wick-the-whorled-mind:m5:47051ba20058",
+   "swap:wick-the-whorled-mind:m5:4777c47c7f3e",
+   "swap:wick-the-whorled-mind:m5:480402ceff1a",
+   "swap:wick-the-whorled-mind:m5:48f2c6e58703",
+   "swap:wick-the-whorled-mind:m5:495465733060",
+   "swap:wick-the-whorled-mind:m5:4c98dc57db60",
+   "swap:wick-the-whorled-mind:m5:4d491782681f",
+   "swap:wick-the-whorled-mind:m5:4eeeaddeec23",
+   "swap:wick-the-whorled-mind:m5:51f5cfe6134a",
+   "swap:wick-the-whorled-mind:m5:540786ae906e",
+   "swap:wick-the-whorled-mind:m5:5444c80246aa",
+   "swap:wick-the-whorled-mind:m5:571b55082722",
+   "swap:wick-the-whorled-mind:m5:62470ffbe445",
+   "swap:wick-the-whorled-mind:m5:62c2a492f9d3",
+   "swap:wick-the-whorled-mind:m5:63ba62583604",
+   "swap:wick-the-whorled-mind:m5:66a78d3b2417",
+   "swap:wick-the-whorled-mind:m5:66f8da0927f5",
+   "swap:wick-the-whorled-mind:m5:6757cd97df44",
+   "swap:wick-the-whorled-mind:m5:6a66a643fc94",
+   "swap:wick-the-whorled-mind:m5:6ab7306927e4",
+   "swap:wick-the-whorled-mind:m5:6b304802ffa6",
+   "swap:wick-the-whorled-mind:m5:6d4665f59de6",
+   "swap:wick-the-whorled-mind:m5:6dd6360e7478",
+   "swap:wick-the-whorled-mind:m5:6ec8e4b9ed82",
+   "swap:wick-the-whorled-mind:m5:70a00388181d",
+   "swap:wick-the-whorled-mind:m5:7342566ac8ed",
+   "swap:wick-the-whorled-mind:m5:734a118d10bb",
+   "swap:wick-the-whorled-mind:m5:73b99911c97a",
+   "swap:wick-the-whorled-mind:m5:74aa0adcc89e",
+   "swap:wick-the-whorled-mind:m5:74b0af1b0654",
+   "swap:wick-the-whorled-mind:m5:780e9f287a8b",
+   "swap:wick-the-whorled-mind:m5:78305594f878",
+   "swap:wick-the-whorled-mind:m5:78730fb4fe80",
+   "swap:wick-the-whorled-mind:m5:79075030f605",
+   "swap:wick-the-whorled-mind:m5:7a28ec8e5cf3",
+   "swap:wick-the-whorled-mind:m5:7a6b05b5ad13",
+   "swap:wick-the-whorled-mind:m5:7ae79aed10ad",
+   "swap:wick-the-whorled-mind:m5:7c27efa365b2",
+   "swap:wick-the-whorled-mind:m5:7d901f09d3a7",
+   "swap:wick-the-whorled-mind:m5:7df250601ab6",
+   "swap:wick-the-whorled-mind:m5:7eeb7aa2e72f",
+   "swap:wick-the-whorled-mind:m5:7f95f14a14e1",
+   "swap:wick-the-whorled-mind:m5:7fc35e361399",
+   "swap:wick-the-whorled-mind:m5:8017dec5bc60",
+   "swap:wick-the-whorled-mind:m5:83ad1827bc75",
+   "swap:wick-the-whorled-mind:m5:8521b8ef61b2",
+   "swap:wick-the-whorled-mind:m5:86ee96aaadb1",
+   "swap:wick-the-whorled-mind:m5:884a313871c7",
+   "swap:wick-the-whorled-mind:m5:88701c31f3cf",
+   "swap:wick-the-whorled-mind:m5:887cb3f80220",
+   "swap:wick-the-whorled-mind:m5:8aa37a5ac16e",
+   "swap:wick-the-whorled-mind:m5:8c5d2f46cc1b",
+   "swap:wick-the-whorled-mind:m5:8c7d04139549",
+   "swap:wick-the-whorled-mind:m5:8d1e7c9196e3",
+   "swap:wick-the-whorled-mind:m5:8d37ce3c599e",
+   "swap:wick-the-whorled-mind:m5:8f37d30e362b",
+   "swap:wick-the-whorled-mind:m5:8f6404698fa5",
+   "swap:wick-the-whorled-mind:m5:8f778b616a0f",
+   "swap:wick-the-whorled-mind:m5:90bfcf3c650c",
+   "swap:wick-the-whorled-mind:m5:921f72c5273a",
+   "swap:wick-the-whorled-mind:m5:94356164c80f",
+   "swap:wick-the-whorled-mind:m5:944baf74fc54",
+   "swap:wick-the-whorled-mind:m5:94ceacaf7250",
+   "swap:wick-the-whorled-mind:m5:94e7f41dfb13",
+   "swap:wick-the-whorled-mind:m5:98338367eded",
+   "swap:wick-the-whorled-mind:m5:983e19ad9340",
+   "swap:wick-the-whorled-mind:m5:984733f1c219",
+   "swap:wick-the-whorled-mind:m5:9b19b61550ec",
+   "swap:wick-the-whorled-mind:m5:9b916b5f9c6b",
+   "swap:wick-the-whorled-mind:m5:9e767ea3b67c",
+   "swap:wick-the-whorled-mind:m5:9fde5f573c89",
+   "swap:wick-the-whorled-mind:m5:a126692cedaf",
+   "swap:wick-the-whorled-mind:m5:a16ccaa1b6a6",
+   "swap:wick-the-whorled-mind:m5:a224127cd232",
+   "swap:wick-the-whorled-mind:m5:a2436fb30e92",
+   "swap:wick-the-whorled-mind:m5:a38e4ec78438",
+   "swap:wick-the-whorled-mind:m5:a6c465082a42",
+   "swap:wick-the-whorled-mind:m5:a72e3a17e911",
+   "swap:wick-the-whorled-mind:m5:a76aac8a107e",
+   "swap:wick-the-whorled-mind:m5:a7e00c831ec0",
+   "swap:wick-the-whorled-mind:m5:a7e1d4bb032b",
+   "swap:wick-the-whorled-mind:m5:a7e777444779",
+   "swap:wick-the-whorled-mind:m5:aa777b38b6ac",
+   "swap:wick-the-whorled-mind:m5:ab1183f71c72",
+   "swap:wick-the-whorled-mind:m5:ac31c729e3cf",
+   "swap:wick-the-whorled-mind:m5:ae7e74f3605b",
+   "swap:wick-the-whorled-mind:m5:b0e21ddb7908",
+   "swap:wick-the-whorled-mind:m5:b22928f23d64",
+   "swap:wick-the-whorled-mind:m5:b27efce2405d",
+   "swap:wick-the-whorled-mind:m5:b51e639bca93",
+   "swap:wick-the-whorled-mind:m5:b840dd3d6e44",
+   "swap:wick-the-whorled-mind:m5:b9242fbdde33",
+   "swap:wick-the-whorled-mind:m5:b94289d999d8",
+   "swap:wick-the-whorled-mind:m5:b9848029956d",
+   "swap:wick-the-whorled-mind:m5:b99552bb31d4",
+   "swap:wick-the-whorled-mind:m5:b9ecc8a5f560",
+   "swap:wick-the-whorled-mind:m5:bba8d620b35b",
+   "swap:wick-the-whorled-mind:m5:bc4257552657",
+   "swap:wick-the-whorled-mind:m5:bf4f0cbd93ae",
+   "swap:wick-the-whorled-mind:m5:c1eb260e1b45",
+   "swap:wick-the-whorled-mind:m5:c2e092249bf2",
+   "swap:wick-the-whorled-mind:m5:c32bd525211d",
+   "swap:wick-the-whorled-mind:m5:c43b7055b721",
+   "swap:wick-the-whorled-mind:m5:c472ef4d714c",
+   "swap:wick-the-whorled-mind:m5:c61a66f742c8",
+   "swap:wick-the-whorled-mind:m5:c6fbe64b1255",
+   "swap:wick-the-whorled-mind:m5:c73f1e349ff0",
+   "swap:wick-the-whorled-mind:m5:c7eb6280c7b1",
+   "swap:wick-the-whorled-mind:m5:c85db5cd1c88",
+   "swap:wick-the-whorled-mind:m5:c9dcbbff8c58",
+   "swap:wick-the-whorled-mind:m5:cab42dbfbcf8",
+   "swap:wick-the-whorled-mind:m5:cadd5430f7bd",
+   "swap:wick-the-whorled-mind:m5:cbde0c737b69",
+   "swap:wick-the-whorled-mind:m5:cc2c81aff773",
+   "swap:wick-the-whorled-mind:m5:cd417656704f",
+   "swap:wick-the-whorled-mind:m5:ce36808dc65f",
+   "swap:wick-the-whorled-mind:m5:cea7ecac1d1f",
+   "swap:wick-the-whorled-mind:m5:d230e55f042e",
+   "swap:wick-the-whorled-mind:m5:d2f0a3f92543",
+   "swap:wick-the-whorled-mind:m5:d69c84be5a61",
+   "swap:wick-the-whorled-mind:m5:d6be5c2e2009",
+   "swap:wick-the-whorled-mind:m5:d8fa8672218d",
+   "swap:wick-the-whorled-mind:m5:d9d0c0b6c732",
+   "swap:wick-the-whorled-mind:m5:d9f32e3a717c",
+   "swap:wick-the-whorled-mind:m5:da5367ab01f8",
+   "swap:wick-the-whorled-mind:m5:dc034015b705",
+   "swap:wick-the-whorled-mind:m5:dca46ac04db8",
+   "swap:wick-the-whorled-mind:m5:e050a69225f3",
+   "swap:wick-the-whorled-mind:m5:e0ce05810fa0",
+   "swap:wick-the-whorled-mind:m5:e4a8b3a6ac75",
+   "swap:wick-the-whorled-mind:m5:e7464b7c3e00",
+   "swap:wick-the-whorled-mind:m5:e7e1d1b29a7d",
+   "swap:wick-the-whorled-mind:m5:e927160ec280",
+   "swap:wick-the-whorled-mind:m5:e98edeed82b8",
+   "swap:wick-the-whorled-mind:m5:e9bbdd93502b",
+   "swap:wick-the-whorled-mind:m5:eb8f5d16752d",
+   "swap:wick-the-whorled-mind:m5:ec30b92f83de",
+   "swap:wick-the-whorled-mind:m5:ee392c9df72b",
+   "swap:wick-the-whorled-mind:m5:ee7aed538ad8",
+   "swap:wick-the-whorled-mind:m5:f08095245e85",
+   "swap:wick-the-whorled-mind:m5:f0c9f0701966",
+   "swap:wick-the-whorled-mind:m5:f17922bd707c",
+   "swap:wick-the-whorled-mind:m5:f2137c516241",
+   "swap:wick-the-whorled-mind:m5:f218066db204",
+   "swap:wick-the-whorled-mind:m5:f2bb5a3c5699",
+   "swap:wick-the-whorled-mind:m5:f3c99718988e",
+   "swap:wick-the-whorled-mind:m5:f3cc280ba395",
+   "swap:wick-the-whorled-mind:m5:f509c8acab4f",
+   "swap:wick-the-whorled-mind:m5:f53e9eae90b1",
+   "swap:wick-the-whorled-mind:m5:f5860b9201a6",
+   "swap:wick-the-whorled-mind:m5:f712f3a0b138",
+   "swap:wick-the-whorled-mind:m5:f72708a819ca",
+   "swap:wick-the-whorled-mind:m5:f74b8db11dd6",
+   "swap:wick-the-whorled-mind:m5:f91728f1e785",
+   "swap:wick-the-whorled-mind:m5:fa54d1c741fe",
+   "swap:wick-the-whorled-mind:m5:fc10c489aa35",
+   "swap:wick-the-whorled-mind:m5:fc22c46b74c5",
+   "swap:wick-the-whorled-mind:m5:fc95d4cb78d3",
+   "swap:wick-the-whorled-mind:m5:fd0b50a35a0d",
+   "swap:wick-the-whorled-mind:m5:fea2583f7937"
+  ],
+  "disagreements": [
+   "swap:wick-the-whorled-mind:m5:03bbe198ff9e",
+   "swap:wick-the-whorled-mind:m5:03d89944dd87",
+   "swap:wick-the-whorled-mind:m5:04dd2524b754",
+   "swap:wick-the-whorled-mind:m5:0660584027be",
+   "swap:wick-the-whorled-mind:m5:067181d933f2",
+   "swap:wick-the-whorled-mind:m5:0b5b199d5136",
+   "swap:wick-the-whorled-mind:m5:0eef57c22350",
+   "swap:wick-the-whorled-mind:m5:0fd77f45da6b",
+   "swap:wick-the-whorled-mind:m5:10c04de7cf2d",
+   "swap:wick-the-whorled-mind:m5:113a80f47533",
+   "swap:wick-the-whorled-mind:m5:114cc25e4175",
+   "swap:wick-the-whorled-mind:m5:11c7c58002de",
+   "swap:wick-the-whorled-mind:m5:129f1792edfc",
+   "swap:wick-the-whorled-mind:m5:13a2d1c9d1f2",
+   "swap:wick-the-whorled-mind:m5:150f47a9da43",
+   "swap:wick-the-whorled-mind:m5:1573292b8a50",
+   "swap:wick-the-whorled-mind:m5:15f9be2f974e",
+   "swap:wick-the-whorled-mind:m5:1a7c4c81328c",
+   "swap:wick-the-whorled-mind:m5:1d43a5e4ebda",
+   "swap:wick-the-whorled-mind:m5:1e0d25c3cfdc",
+   "swap:wick-the-whorled-mind:m5:1e8f3974ff7a",
+   "swap:wick-the-whorled-mind:m5:1f965331c472",
+   "swap:wick-the-whorled-mind:m5:206f33e6c250",
+   "swap:wick-the-whorled-mind:m5:20d388867e47",
+   "swap:wick-the-whorled-mind:m5:24aadcf6eb13",
+   "swap:wick-the-whorled-mind:m5:254d13b046c7",
+   "swap:wick-the-whorled-mind:m5:256ccfd0fd1f",
+   "swap:wick-the-whorled-mind:m5:262a8c224a9f",
+   "swap:wick-the-whorled-mind:m5:26335f958ef1",
+   "swap:wick-the-whorled-mind:m5:2704a0e50f9b",
+   "swap:wick-the-whorled-mind:m5:29bfee93dae7",
+   "swap:wick-the-whorled-mind:m5:29c7c064c5d0",
+   "swap:wick-the-whorled-mind:m5:2a543a123511",
+   "swap:wick-the-whorled-mind:m5:2b2aa4c1af99",
+   "swap:wick-the-whorled-mind:m5:2c93cdc54f3f",
+   "swap:wick-the-whorled-mind:m5:2d0d026e6b40",
+   "swap:wick-the-whorled-mind:m5:2ed40eb6fd76",
+   "swap:wick-the-whorled-mind:m5:2f20f3471212",
+   "swap:wick-the-whorled-mind:m5:2fc8de144ae3",
+   "swap:wick-the-whorled-mind:m5:3002c268bda7",
+   "swap:wick-the-whorled-mind:m5:3789e3d5f96f",
+   "swap:wick-the-whorled-mind:m5:381751470f9c",
+   "swap:wick-the-whorled-mind:m5:3894dadb1d50",
+   "swap:wick-the-whorled-mind:m5:3a323c247f8b",
+   "swap:wick-the-whorled-mind:m5:3b16bf034a52",
+   "swap:wick-the-whorled-mind:m5:3b5f7f433f04",
+   "swap:wick-the-whorled-mind:m5:3e03ea3eef89",
+   "swap:wick-the-whorled-mind:m5:3fd67f9d8343",
+   "swap:wick-the-whorled-mind:m5:40e9e7b507bd",
+   "swap:wick-the-whorled-mind:m5:40ec7b493f25",
+   "swap:wick-the-whorled-mind:m5:43443e2b5773",
+   "swap:wick-the-whorled-mind:m5:4415e1d08bc8",
+   "swap:wick-the-whorled-mind:m5:456c20e1d824",
+   "swap:wick-the-whorled-mind:m5:467aec3f4ab8",
+   "swap:wick-the-whorled-mind:m5:47051ba20058",
+   "swap:wick-the-whorled-mind:m5:4777c47c7f3e",
+   "swap:wick-the-whorled-mind:m5:480402ceff1a",
+   "swap:wick-the-whorled-mind:m5:48f2c6e58703",
+   "swap:wick-the-whorled-mind:m5:495465733060",
+   "swap:wick-the-whorled-mind:m5:4c98dc57db60",
+   "swap:wick-the-whorled-mind:m5:4d491782681f",
+   "swap:wick-the-whorled-mind:m5:4eeeaddeec23",
+   "swap:wick-the-whorled-mind:m5:51f5cfe6134a",
+   "swap:wick-the-whorled-mind:m5:540786ae906e",
+   "swap:wick-the-whorled-mind:m5:5444c80246aa",
+   "swap:wick-the-whorled-mind:m5:571b55082722",
+   "swap:wick-the-whorled-mind:m5:62470ffbe445",
+   "swap:wick-the-whorled-mind:m5:62c2a492f9d3",
+   "swap:wick-the-whorled-mind:m5:63ba62583604",
+   "swap:wick-the-whorled-mind:m5:66a78d3b2417",
+   "swap:wick-the-whorled-mind:m5:66f8da0927f5",
+   "swap:wick-the-whorled-mind:m5:6757cd97df44",
+   "swap:wick-the-whorled-mind:m5:6a66a643fc94",
+   "swap:wick-the-whorled-mind:m5:6ab7306927e4",
+   "swap:wick-the-whorled-mind:m5:6b304802ffa6",
+   "swap:wick-the-whorled-mind:m5:6d4665f59de6",
+   "swap:wick-the-whorled-mind:m5:6dd6360e7478",
+   "swap:wick-the-whorled-mind:m5:6ec8e4b9ed82",
+   "swap:wick-the-whorled-mind:m5:70a00388181d",
+   "swap:wick-the-whorled-mind:m5:7342566ac8ed",
+   "swap:wick-the-whorled-mind:m5:734a118d10bb",
+   "swap:wick-the-whorled-mind:m5:73b99911c97a",
+   "swap:wick-the-whorled-mind:m5:74aa0adcc89e",
+   "swap:wick-the-whorled-mind:m5:74b0af1b0654",
+   "swap:wick-the-whorled-mind:m5:780e9f287a8b",
+   "swap:wick-the-whorled-mind:m5:78305594f878",
+   "swap:wick-the-whorled-mind:m5:78730fb4fe80",
+   "swap:wick-the-whorled-mind:m5:79075030f605",
+   "swap:wick-the-whorled-mind:m5:7a28ec8e5cf3",
+   "swap:wick-the-whorled-mind:m5:7a6b05b5ad13",
+   "swap:wick-the-whorled-mind:m5:7ae79aed10ad",
+   "swap:wick-the-whorled-mind:m5:7c27efa365b2",
+   "swap:wick-the-whorled-mind:m5:7d901f09d3a7",
+   "swap:wick-the-whorled-mind:m5:7df250601ab6",
+   "swap:wick-the-whorled-mind:m5:7eeb7aa2e72f",
+   "swap:wick-the-whorled-mind:m5:7f95f14a14e1",
+   "swap:wick-the-whorled-mind:m5:7fc35e361399",
+   "swap:wick-the-whorled-mind:m5:8017dec5bc60",
+   "swap:wick-the-whorled-mind:m5:83ad1827bc75",
+   "swap:wick-the-whorled-mind:m5:8521b8ef61b2",
+   "swap:wick-the-whorled-mind:m5:86ee96aaadb1",
+   "swap:wick-the-whorled-mind:m5:884a313871c7",
+   "swap:wick-the-whorled-mind:m5:88701c31f3cf",
+   "swap:wick-the-whorled-mind:m5:887cb3f80220",
+   "swap:wick-the-whorled-mind:m5:8aa37a5ac16e",
+   "swap:wick-the-whorled-mind:m5:8c5d2f46cc1b",
+   "swap:wick-the-whorled-mind:m5:8c7d04139549",
+   "swap:wick-the-whorled-mind:m5:8d1e7c9196e3",
+   "swap:wick-the-whorled-mind:m5:8d37ce3c599e",
+   "swap:wick-the-whorled-mind:m5:8f37d30e362b",
+   "swap:wick-the-whorled-mind:m5:8f6404698fa5",
+   "swap:wick-the-whorled-mind:m5:8f778b616a0f",
+   "swap:wick-the-whorled-mind:m5:90bfcf3c650c",
+   "swap:wick-the-whorled-mind:m5:921f72c5273a",
+   "swap:wick-the-whorled-mind:m5:94356164c80f",
+   "swap:wick-the-whorled-mind:m5:944baf74fc54",
+   "swap:wick-the-whorled-mind:m5:94ceacaf7250",
+   "swap:wick-the-whorled-mind:m5:94e7f41dfb13",
+   "swap:wick-the-whorled-mind:m5:98338367eded",
+   "swap:wick-the-whorled-mind:m5:983e19ad9340",
+   "swap:wick-the-whorled-mind:m5:984733f1c219",
+   "swap:wick-the-whorled-mind:m5:9b19b61550ec",
+   "swap:wick-the-whorled-mind:m5:9b916b5f9c6b",
+   "swap:wick-the-whorled-mind:m5:9e767ea3b67c",
+   "swap:wick-the-whorled-mind:m5:9fde5f573c89",
+   "swap:wick-the-whorled-mind:m5:a126692cedaf",
+   "swap:wick-the-whorled-mind:m5:a16ccaa1b6a6",
+   "swap:wick-the-whorled-mind:m5:a224127cd232",
+   "swap:wick-the-whorled-mind:m5:a2436fb30e92",
+   "swap:wick-the-whorled-mind:m5:a38e4ec78438",
+   "swap:wick-the-whorled-mind:m5:a6c465082a42",
+   "swap:wick-the-whorled-mind:m5:a72e3a17e911",
+   "swap:wick-the-whorled-mind:m5:a76aac8a107e",
+   "swap:wick-the-whorled-mind:m5:a7e00c831ec0",
+   "swap:wick-the-whorled-mind:m5:a7e1d4bb032b",
+   "swap:wick-the-whorled-mind:m5:a7e777444779",
+   "swap:wick-the-whorled-mind:m5:aa777b38b6ac",
+   "swap:wick-the-whorled-mind:m5:ab1183f71c72",
+   "swap:wick-the-whorled-mind:m5:ac31c729e3cf",
+   "swap:wick-the-whorled-mind:m5:ae7e74f3605b",
+   "swap:wick-the-whorled-mind:m5:b0e21ddb7908",
+   "swap:wick-the-whorled-mind:m5:b22928f23d64",
+   "swap:wick-the-whorled-mind:m5:b27efce2405d",
+   "swap:wick-the-whorled-mind:m5:b51e639bca93",
+   "swap:wick-the-whorled-mind:m5:b840dd3d6e44",
+   "swap:wick-the-whorled-mind:m5:b9242fbdde33",
+   "swap:wick-the-whorled-mind:m5:b94289d999d8",
+   "swap:wick-the-whorled-mind:m5:b9848029956d",
+   "swap:wick-the-whorled-mind:m5:b99552bb31d4",
+   "swap:wick-the-whorled-mind:m5:b9ecc8a5f560",
+   "swap:wick-the-whorled-mind:m5:bba8d620b35b",
+   "swap:wick-the-whorled-mind:m5:bc4257552657",
+   "swap:wick-the-whorled-mind:m5:bf4f0cbd93ae",
+   "swap:wick-the-whorled-mind:m5:c1eb260e1b45",
+   "swap:wick-the-whorled-mind:m5:c2e092249bf2",
+   "swap:wick-the-whorled-mind:m5:c32bd525211d",
+   "swap:wick-the-whorled-mind:m5:c43b7055b721",
+   "swap:wick-the-whorled-mind:m5:c472ef4d714c",
+   "swap:wick-the-whorled-mind:m5:c61a66f742c8",
+   "swap:wick-the-whorled-mind:m5:c6fbe64b1255",
+   "swap:wick-the-whorled-mind:m5:c73f1e349ff0",
+   "swap:wick-the-whorled-mind:m5:c7eb6280c7b1",
+   "swap:wick-the-whorled-mind:m5:c85db5cd1c88",
+   "swap:wick-the-whorled-mind:m5:c9dcbbff8c58",
+   "swap:wick-the-whorled-mind:m5:cab42dbfbcf8",
+   "swap:wick-the-whorled-mind:m5:cadd5430f7bd",
+   "swap:wick-the-whorled-mind:m5:cbde0c737b69",
+   "swap:wick-the-whorled-mind:m5:cc2c81aff773",
+   "swap:wick-the-whorled-mind:m5:cd417656704f",
+   "swap:wick-the-whorled-mind:m5:ce36808dc65f",
+   "swap:wick-the-whorled-mind:m5:cea7ecac1d1f",
+   "swap:wick-the-whorled-mind:m5:d230e55f042e",
+   "swap:wick-the-whorled-mind:m5:d2f0a3f92543",
+   "swap:wick-the-whorled-mind:m5:d69c84be5a61",
+   "swap:wick-the-whorled-mind:m5:d6be5c2e2009",
+   "swap:wick-the-whorled-mind:m5:d8fa8672218d",
+   "swap:wick-the-whorled-mind:m5:d9d0c0b6c732",
+   "swap:wick-the-whorled-mind:m5:d9f32e3a717c",
+   "swap:wick-the-whorled-mind:m5:da5367ab01f8",
+   "swap:wick-the-whorled-mind:m5:dc034015b705",
+   "swap:wick-the-whorled-mind:m5:dca46ac04db8",
+   "swap:wick-the-whorled-mind:m5:e050a69225f3",
+   "swap:wick-the-whorled-mind:m5:e0ce05810fa0",
+   "swap:wick-the-whorled-mind:m5:e4a8b3a6ac75",
+   "swap:wick-the-whorled-mind:m5:e7464b7c3e00",
+   "swap:wick-the-whorled-mind:m5:e7e1d1b29a7d",
+   "swap:wick-the-whorled-mind:m5:e927160ec280",
+   "swap:wick-the-whorled-mind:m5:e98edeed82b8",
+   "swap:wick-the-whorled-mind:m5:e9bbdd93502b",
+   "swap:wick-the-whorled-mind:m5:eb8f5d16752d",
+   "swap:wick-the-whorled-mind:m5:ec30b92f83de",
+   "swap:wick-the-whorled-mind:m5:ee392c9df72b",
+   "swap:wick-the-whorled-mind:m5:ee7aed538ad8",
+   "swap:wick-the-whorled-mind:m5:f08095245e85",
+   "swap:wick-the-whorled-mind:m5:f0c9f0701966",
+   "swap:wick-the-whorled-mind:m5:f17922bd707c",
+   "swap:wick-the-whorled-mind:m5:f2137c516241",
+   "swap:wick-the-whorled-mind:m5:f218066db204",
+   "swap:wick-the-whorled-mind:m5:f2bb5a3c5699",
+   "swap:wick-the-whorled-mind:m5:f3c99718988e",
+   "swap:wick-the-whorled-mind:m5:f3cc280ba395",
+   "swap:wick-the-whorled-mind:m5:f509c8acab4f",
+   "swap:wick-the-whorled-mind:m5:f53e9eae90b1",
+   "swap:wick-the-whorled-mind:m5:f5860b9201a6",
+   "swap:wick-the-whorled-mind:m5:f712f3a0b138",
+   "swap:wick-the-whorled-mind:m5:f72708a819ca",
+   "swap:wick-the-whorled-mind:m5:f74b8db11dd6",
+   "swap:wick-the-whorled-mind:m5:f91728f1e785",
+   "swap:wick-the-whorled-mind:m5:fa54d1c741fe",
+   "swap:wick-the-whorled-mind:m5:fc10c489aa35",
+   "swap:wick-the-whorled-mind:m5:fc22c46b74c5",
+   "swap:wick-the-whorled-mind:m5:fc95d4cb78d3",
+   "swap:wick-the-whorled-mind:m5:fd0b50a35a0d",
+   "swap:wick-the-whorled-mind:m5:fea2583f7937"
+  ]
+ },
+ "schema_version": 1
+}

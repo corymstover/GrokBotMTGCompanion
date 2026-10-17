@@ -1,0 +1,2876 @@
+{
+ "pass_a": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Nathan_Drake__Treasure_Hunter",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz"
+  ],
+  "list_hash": "lh1:ac167a53ea77215d7eb148ea2eb814c2596d8da1943a971a8ee077c6d35ceb00",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:nathan-drake-treasure-hunter:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Abbot of Keral Keep",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Abbot of Keral Keep",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:a0aca4cf6f7e",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Admiral Beckett Brass",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Admiral Beckett Brass",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:dbb9968f4100",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Aerial Caravan",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Aerial Caravan",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:731aac4bc105",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Agent of Treachery",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Agent of Treachery",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:31b95dbafc0b",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Agents of HYDRA",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Agents of HYDRA",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:eb32da86ab2a",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Akroan Conscriptor",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Akroan Conscriptor",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:928374624eb3",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Aladdin",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Aladdin",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:2a56322e44cf",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Alesha, Who Laughs at Fate",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Alesha, Who Laughs at Fate",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:4593982cb5e9",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Alex Wilder, Runaway",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Alex Wilder, Runaway",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:a0f9a9184ccf",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Alexios, Deimos of Kosmos",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Alexios, Deimos of Kosmos",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:a0d50d7e5859",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Ant-Man, Elusive Avenger",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Ant-Man, Elusive Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:eca94a43ac13",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Archpriest of Shadows",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Archpriest of Shadows",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:63afea14d291",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Ardyn, the Usurper",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Ardyn, the Usurper",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:c8cf1f3b8620",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Armed Assailant",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Armed Assailant",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:6df07bd54fcb",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Astonishing Spider-Man",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Astonishing Spider-Man",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:60940dc2bb86",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Atlantean Skirmisher",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Atlantean Skirmisher",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:0a6ec2209b0b",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Avenger of the Fallen",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Avenger of the Fallen",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:2ad95209997c",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Ayara's Oathsworn",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Ayara's Oathsworn",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:97075fec963d",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Azula, Cunning Usurper",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Azula, Cunning Usurper",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:e19f518d2f3b",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Basim Ibn Ishaq",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Basim Ibn Ishaq",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:d65aa9a4f653",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Beguiler of Wills",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Beguiler of Wills",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:aae2766b1893",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Bilbo Baggins, Burglar // Take a Glance",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Bilbo Baggins, Burglar // Take a Glance",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:625a660e557a",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Bilbo, Luckwearer // Burglar's Plot",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Bilbo, Luckwearer // Burglar's Plot",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:5e98db19b84d",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Bilbo, Thief in the Night",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Bilbo, Thief in the Night",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:ca0cd4859b3a",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Black Widow, Daring Operative",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Black Widow, Daring Operative",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:413730c09dd3",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Black Widow, Deadly Hunter",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Black Widow, Deadly Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:7268dfb1c218",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Black Widow, Super Spy",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Black Widow, Super Spy",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:eb5e7c356f1e",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Blighted Agent",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Blighted Agent",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:b3819e189cfb",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Blightwing Bandit",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Blightwing Bandit",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:e7ad5b98d8c1",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Blue Marvel, Adam Brashear",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Blue Marvel, Adam Brashear",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:c9a7c2eac5ef",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Bob, Reluctant HYDRA Agent",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Bob, Reluctant HYDRA Agent",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:fed7f51c4fde",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Boomerang, Blade Flinger",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Boomerang, Blade Flinger",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:53703e372449",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Breya's Apprentice",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Breya's Apprentice",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:21a462779b4b",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Bria, Riptide Rogue",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Bria, Riptide Rogue",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:ab49345a1b0b",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Captain Lannery Storm",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Captain Lannery Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:59ccc95da517",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Captivating Crew",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Captivating Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:ba9e9e6efb31",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Nalfeshnee",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:fe9757680744",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:393b1008d363",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Nalfeshnee",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:b144865d850f",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:cf4bdcad8950",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Chainer, Nightmare Adept",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Chainer, Nightmare Adept",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:3bd42e746b60",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Chaos Harlequin",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Chaos Harlequin",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:0cdeb40ecc0f",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Charming Scoundrel",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Charming Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:620bae67fbb9",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Chase Stein, Runaway",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Chase Stein, Runaway",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:4e90016d9451",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Circu, Dimir Lobotomist",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Circu, Dimir Lobotomist",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:25399c7a131c",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Combat Celebrant",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Combat Celebrant",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:8965846d0ca0",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Contract Hero",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Contract Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:feba36738113",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Nalfeshnee",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:b7d421d257c6",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:a0187caf03e2",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Crimson Cowl, Master of Evil",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Crimson Cowl, Master of Evil",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:983eeebdf29e",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Crimson Operative",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Crimson Operative",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:bdd28931478e",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Cunning Bandit // Azamuki, Treachery Incarnate",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Cunning Bandit // Azamuki, Treachery Incarnate",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:b8ac5806e391",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Cynical Loner",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Cynical Loner",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:ba98e2776090",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Cytoplast Manipulator",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Cytoplast Manipulator",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:fed1200afd00",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Danny Pink",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Danny Pink",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:6201dbb9807a",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Daredevil, Fearless Fighter",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Daredevil, Fearless Fighter",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:7c5384703a1f",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Daring Thief",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Daring Thief",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:02a4df985054",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Divining Witch",
+    "cut": "Blasphemous Act",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Divining Witch",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:1780b31dbef8",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Doctor Doom, King of Latveria",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Doctor Doom, King of Latveria",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:b139d45181f6",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Eardrum Rattler",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Eardrum Rattler",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:02031d2c51f1",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Edea, Possessed Sorceress",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Edea, Possessed Sorceress",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:eb272696e0f2",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Embereth Shieldbreaker // Battle Display",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Embereth Shieldbreaker // Battle Display",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:5fe32014e281",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Emeritus of Ideation // Ancestral Recall",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Emeritus of Ideation // Ancestral Recall",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:cf6ac0f120c6",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Endrider Spikespitter",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Endrider Spikespitter",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:93ed7b8cf521",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Enthralling Victor",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Enthralling Victor",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:d0cd64be6601",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Eruth, Tormented Prophet",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Eruth, Tormented Prophet",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:cf6c0e9e3994",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Evelyn, the Covetous",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Evelyn, the Covetous",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:e8e8bcea2c9d",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Expressive Firedancer",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Expressive Firedancer",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:705efab22560",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Falcon, Winged Wonder",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Falcon, Winged Wonder",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:fd64e03359d3",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:0de259d58f98",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Feldon of the Third Path",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Feldon of the Third Path",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:480b60254bc3",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Fire Lord Ozai",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Fire Lord Ozai",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:a9b251a83536",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Firebending Student",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Firebending Student",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:fb0bdd2f5176",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Firebird, Blazing Ranger",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Firebird, Blazing Ranger",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:f554d5c59f40",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Flame Channeler // Embodiment of Flame",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Flame Channeler // Embodiment of Flame",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:244ae8e49fd1",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Frontier Warmonger",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Frontier Warmonger",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:37b954543938",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Garland, Royal Kidnapper",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Garland, Royal Kidnapper",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:d43af2195146",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Generous Plunderer",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Generous Plunderer",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:4341bcd17606",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Ghost, Spectral Saboteur",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Ghost, Spectral Saboteur",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:8a44a9645726",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Ghostly Pilferer",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Ghostly Pilferer",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:3e26478ed4c1",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Gisa, the Hellraiser",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Gisa, the Hellraiser",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:e78435641a89",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Glamorous Grapplers",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Glamorous Grapplers",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:3cef6df6abc2",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Glamorous Outlaw",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Glamorous Outlaw",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:5e6dfd1a3a73",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Goatnapper",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Goatnapper",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:1a2a1ee78e2b",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Godo, Bandit Warlord",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Godo, Bandit Warlord",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:79373d803b78",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Gonti, Lord of Luxury",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Gonti, Lord of Luxury",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:b8e9b6d6b3a9",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Graveyard Trespasser // Graveyard Glutton",
+    "cut": "Blasphemous Act",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Graveyard Trespasser // Graveyard Glutton",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:a36416f5e510",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Graviton, Fundamental Force",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Graviton, Fundamental Force",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:82c5b7d7fbab",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Green Goblin, Back for More",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Green Goblin, Back for More",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:bfa408eba366",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Grim Reaper, Lethal Legionnaire",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Grim Reaper, Lethal Legionnaire",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:f8e1b8c85702",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Grimoire Thief",
+    "cut": "Force of Negation",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Grimoire Thief",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:ab3acb16478d",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Gumdrop Poisoner // Tempt with Treats",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Gumdrop Poisoner // Tempt with Treats",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:254aba085419",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Gundabad Opportunist",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Gundabad Opportunist",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:d4f2956d62f6",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Haldan, Avid Arcanist",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Haldan, Avid Arcanist",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:8da3f04d85dc",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Hama, the Bloodbender",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Hama, the Bloodbender",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:47a4ee9d7a20",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Hell-Bent Raider",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Hell-Bent Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:8d6990d79107",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Hellkite Charger",
+    "cut": "Nalfeshnee",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Hellkite Charger",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:5a98f7457e33",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Hellkite Charger",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Hellkite Charger",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:27c748f8a727",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Helmut Zemo, Mastermind",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Helmut Zemo, Mastermind",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:72b2940f6eb4",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Higure, the Still Wind",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Higure, the Still Wind",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:aad8de996e60",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:7c07ef8e6f7c",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "HYDRA Troopers",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=HYDRA Troopers",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:c70b9b661cfd",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Ian Malcolm, Chaotician",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Ian Malcolm, Chaotician",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:6e534bc6e84f",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Infernal Captor",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Infernal Captor",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:ba6213ac5571",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Infinite Reflection",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Infinite Reflection",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:b4095255769f",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Ingenious Prodigy",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Ingenious Prodigy",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:4acb6b378ae9",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Inti, Seneschal of the Sun",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Inti, Seneschal of the Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:f35eb0646565",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Invisible Stalker",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Invisible Stalker",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:29859449b4b8",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Iron Lad, Young Avenger",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Iron Lad, Young Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:18a3f44b6a99",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Armored Avenger",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Iron Man, Armored Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:158b9baeaddf",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Master of Machines",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Iron Man, Master of Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:b2b7d85256ff",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Modern Marvel",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Iron Man, Modern Marvel",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:052f35c3b064",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Titan of Innovation",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Iron Man, Titan of Innovation",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:ca5dab3f7296",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Tony Stark",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Iron Man, Tony Stark",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:9cd38788bed7",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Jack of Hearts, Volatile Hero",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Jack of Hearts, Volatile Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:a356f13aba16",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Jacob Hauken, Inspector // Hauken's Insight",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Jacob Hauken, Inspector // Hauken's Insight",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:ce759ab103b1",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "James, Wandering Dad // Follow Him",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=James, Wandering Dad // Follow Him",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:37d0eef87bd5",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Jaxis, the Troublemaker",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Jaxis, the Troublemaker",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:3a59ba5e97c7",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Jeering Instigator",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Jeering Instigator",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:d00593fd8e5e",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Jessica Jones, Private Eye",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Jessica Jones, Private Eye",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:b9d36191ac9a",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Jhoira, Weatherlight Corsair",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Jhoira, Weatherlight Corsair",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:11cc4462e16f",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Jiang Yanggu, Alone",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Jiang Yanggu, Alone",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:aebcfb4508c2",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Kaho, Minamo Historian",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Kaho, Minamo Historian",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:ec0834c00f44",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Kang Prime",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Kang Prime",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:aab9fc7580b9",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Kang, Temporal Tyrant",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Kang, Temporal Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:87f2c77c885b",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Kefka, Court Mage // Kefka, Ruler of Ruin",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:fb69728561f2",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Kefka, Dancing Mad",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Kefka, Dancing Mad",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:74f0899db6c0",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Keldon Overseer",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Keldon Overseer",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:d88525425977",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Kellogg, Dangerous Mind",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Kellogg, Dangerous Mind",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:27d638bd4124",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Killmonger, Ruthless Usurper",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Killmonger, Ruthless Usurper",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:5164af3ba809",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Kingpin, Wilson Fisk",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Kingpin, Wilson Fisk",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:a5c3ef6254ed",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Klaw, Master of Sound",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Klaw, Master of Sound",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:2001bd8de137",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Knacksaw Clique",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Knacksaw Clique",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:070f6b04a3ae",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Krang & Shredder",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Krang & Shredder",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:409f24572c22",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Kukemssa Pirates",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Kukemssa Pirates",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:529b357a88d9",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Lagomos, Hand of Hatred",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Lagomos, Hand of Hatred",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:631a13d6e79f",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Leitmotif Composer",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Leitmotif Composer",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:cb83379d5df6",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Loyal Apprentice",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Loyal Apprentice",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:1f8be428d2c1",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Lulu, Stern Guardian",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Lulu, Stern Guardian",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:bca69b1ceab1",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Madame Hydra",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Madame Hydra",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:e09f82f1a96a",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Madame Hydra, Reanimated",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Madame Hydra, Reanimated",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:1258ca211ad2",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Madame Masque",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Madame Masque",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:771b3cc0ab4d",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Magmatic Channeler",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Magmatic Channeler",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:790819497aea",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Magus of the Mind",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Magus of the Mind",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:9ace9f75b3b8",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Magus of the Unseen",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Magus of the Unseen",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:5f1ac6acd371",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Massacre Girl",
+    "cut": "Blasphemous Act",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Massacre Girl",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:0ba8a5136190",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Massacre Girl, Known Killer",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Massacre Girl, Known Killer",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:99defdab30f1",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Master Thief",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Master Thief",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:65d5426f31b2",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Matterbending Mage",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Matterbending Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:8f8634d0f428",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Merchant of the Vale // Haggle",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Merchant of the Vale // Haggle",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:122d3823a89c",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Mezzio Mugger",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Mezzio Mugger",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:ad23de8fa0ec",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Mindreaver",
+    "cut": "Force of Negation",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Mindreaver",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:03fc83ce2402",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Mistblade Shinobi",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Mistblade Shinobi",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:954efcf51322",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Moon-Circuit Hacker",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Moon-Circuit Hacker",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:8925559c3267",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Moonstone, Harsh Mistress",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Moonstone, Harsh Mistress",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:2ee6cee2e5bd",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Ninja of the Deep Hours",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Ninja of the Deep Hours",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:664ecad92d10",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Norin, Swift Survivalist",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Norin, Swift Survivalist",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:1f631f30ec55",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Null Summoner",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Null Summoner",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:be71f0c2e00e",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Order of Midnight // Alter Fate",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Order of Midnight // Alter Fate",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:bb9b151315c8",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Orthion, Hero of Lavabrink",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Orthion, Hero of Lavabrink",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:63724b306ec6",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Otepec Huntmaster",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Otepec Huntmaster",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:76121b39052c",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Ozai, the Phoenix King",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Ozai, the Phoenix King",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:2d169a337797",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Photon, Mighty Marvel",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Photon, Mighty Marvel",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:87969fb69b4c",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Piper of the Swarm",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Piper of the Swarm",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:0f3438ba2a3d",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Proft, Sinister Mastermind",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Proft, Sinister Mastermind",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:5f9b70b86fc1",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Radioactive Man",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Radioactive Man",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:5fa7db4959df",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Ral, Monsoon Mage // Ral, Leyline Prodigy",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Ral, Monsoon Mage // Ral, Leyline Prodigy",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:ad1762d2601f",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Ramirez DePietro, Pillager",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Ramirez DePietro, Pillager",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:a11463d2dd31",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Rangers of Ithilien",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Rangers of Ithilien",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:a87800c7f206",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Rankle, Master of Pranks",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Rankle, Master of Pranks",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:021f98abf4cb",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Ratcatcher",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Ratcatcher",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:fb592ac37246",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Ratcatcher Trainee // Pest Problem",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Ratcatcher Trainee // Pest Problem",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:06e36c10fadb",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Red Ghost, Intangible Genius",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Red Ghost, Intangible Genius",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:e7da824b1af4",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Force of Negation",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:bd5abebd4d9d",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:2550ad4c8571",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Rikku, Resourceful Guardian",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Rikku, Resourceful Guardian",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:6eb12454ea44",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Rionya, Fire Dancer",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Rionya, Fire Dancer",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:9eae8d1e9d71",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Riptide Entrancer",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Riptide Entrancer",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:4f221edd74b3",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Rona, Disciple of Gix",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Rona, Disciple of Gix",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:57052d54b443",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Ronin Cliffrider",
+    "cut": "Blasphemous Act",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Ronin Cliffrider",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:ac625d6ede2f",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Roxxon Brutes",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Roxxon Brutes",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:48dc8c753d16",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Saheeli, Jewel of Avishkar",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Saheeli, Jewel of Avishkar",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:da096434898d",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Samut, Hazoret's Champion",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Samut, Hazoret's Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:73446ab46e87",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Satoru, the Infiltrator",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Satoru, the Infiltrator",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:7ab408d13538",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Sedgemoor Witch",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Sedgemoor Witch",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:f84cfa243cee",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:71dd6c30747f",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Servant of the Stinger",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Servant of the Stinger",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:571ac6ecc9bc",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Shoreline Looter",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Shoreline Looter",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:8e55f66f7150",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Slither Blade",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Slither Blade",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:48ecb98920d3",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Smelt-Ward Gatekeepers",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Smelt-Ward Gatekeepers",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:e2e4581f88f0",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Songbird, Sonic Screamer",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Songbird, Sonic Screamer",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:bd78020e4c83",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Spawnbroker",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Spawnbroker",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:cf509e3f305a",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Spider-Man 2099",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Spider-Man 2099",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:47059316b29c",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Spider-Man, Hometown Hero",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Spider-Man, Hometown Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:8a15daaa8169",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Spider-Man, Web-Spinner",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Spider-Man, Web-Spinner",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:1b1ebacc3050",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Spider-Punk",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Spider-Punk",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:35c1ffbc875d",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Spinneret and Spiderling",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Spinneret and Spiderling",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:cecd81e57c42",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Starfield Vocalist",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Starfield Vocalist",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:48059d5072e9",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Stature, Size Shifter",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Stature, Size Shifter",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:d43c0e8c78ae",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Stella Lee, Wild Card",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Stella Lee, Wild Card",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:5d311ee2e8f3",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Stick, Fearless Mentor",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Stick, Fearless Mentor",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:03c60c9d92ac",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Stilt-Man, Towering Terror",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Stilt-Man, Towering Terror",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:7e7230824e57",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Stingcaster Mage",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Stingcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:0e5743de4125",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Stormfist Crusader",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Stormfist Crusader",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:833c2ee8d3b0",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Strago and Relm",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Strago and Relm",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:cd748956637a",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Superior Foes of Spider-Man",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Superior Foes of Spider-Man",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:1722ede12daf",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Swordsman, Sharp Scoundrel",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Swordsman, Sharp Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:6019f8d73ac6",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Syr Carah, the Bold",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Syr Carah, the Bold",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:058ed9530481",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Tetsuko Umezawa, Fugitive",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Tetsuko Umezawa, Fugitive",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:7ec2199dd6e1",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Tetsuko Umezawa, Pursuer",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Tetsuko Umezawa, Pursuer",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:6b3acf136bd4",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Thada Adel, Acquisitor",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Thada Adel, Acquisitor",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:6015c50e5a4c",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "The Immortal Weapons",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=The Immortal Weapons",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:df6950d20e67",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "The Lord of Pain",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=The Lord of Pain",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:dd755e0fba96",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "The Squadron Sinister",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=The Squadron Sinister",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:22ff470eac7e",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "The Wasp, Winsome Avenger",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=The Wasp, Winsome Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:616ba305900f",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "The Whizzer, Classic Speedster",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=The Whizzer, Classic Speedster",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:22b4c4d72f46",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Thieving Skydiver",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Thieving Skydiver",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:ce6c5faf5be2",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:ea4c4b6f415b",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Tiger Shark, Abyssal Hunter",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Tiger Shark, Abyssal Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:df4cc6c363f5",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Tinybones, Bauble Burglar",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Tinybones, Bauble Burglar",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:dab1824c3d24",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Titania, Proud Pummeler",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Titania, Proud Pummeler",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:f8f862b93343",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Titanium Man",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Titanium Man",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:91fd31c63949",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Tolarian Entrancer",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Tolarian Entrancer",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:43856f64379d",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Tony Stark // The Invincible Iron Man",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Tony Stark // The Invincible Iron Man",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:71e04774dd0b",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:3b7940283e90",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Treasure Nabber",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Treasure Nabber",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:6f45cbe62cb9",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Triton Shorestalker",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Triton Shorestalker",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:3b08516a9c5d",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Tuskeri Firewalker",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Tuskeri Firewalker",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:d60f52eeccf7",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "TVA Bureaucrat",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=TVA Bureaucrat",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:c8dcb6992262",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Unlucky Witness",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Unlucky Witness",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:f449c7ed5574",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Urza, Lord High Artificer",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Urza, Lord High Artificer",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:99951cb4eced",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Varchild, Betrayer of Kjeldor",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Varchild, Betrayer of Kjeldor",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:81372db82075",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Venser, Fervent Forger",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Venser, Fervent Forger",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:3e27ae1f0b0d",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Victor Mancha, Runaway",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Victor Mancha, Runaway",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:4ce65dd93d4e",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Vislor Turlough",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Vislor Turlough",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:24abc4300872",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Voltaic Visionary // Volt-Charged Berserker",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Voltaic Visionary // Volt-Charged Berserker",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:14c798e001a5",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "War Machine, Avenging Arsenal",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=War Machine, Avenging Arsenal",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:a1587e20310c",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Warehouse Thief",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Warehouse Thief",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:2528c001ff9c",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Wasp, Shrinking Savior",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Wasp, Shrinking Savior",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:9ead29af71af",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Whiplash, Vengeful Engineer",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Whiplash, Vengeful Engineer",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:0efaea5a29d8",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Whirler Rogue",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Whirler Rogue",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:e67ad0549b47",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "White Widow, Yelena Belova",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=White Widow, Yelena Belova",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:2193f6a2934c",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Willbreaker",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Willbreaker",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:f30f98b794c0",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Yasmin Khan",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Yasmin Khan",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:5ee53f631aaf",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Yuffie, Materia Hunter",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Yuffie, Materia Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:cfa59d6db5df",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Yuriko, the Tiger's Shadow",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Yuriko, the Tiger's Shadow",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:2f2b3349bf6d",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Zara, Renegade Recruiter",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Zara, Renegade Recruiter",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:7cdd7ef45700",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   },
+   {
+    "add": "Zealous Conscripts",
+    "cut": "Notion Thief",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#card=Zealous Conscripts",
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:bd8c00fb5a3a",
+     "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json"
+    ]
+   }
+  ]
+ },
+ "pass_b": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Nathan_Drake__Treasure_Hunter",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz"
+  ],
+  "list_hash": "lh1:ac167a53ea77215d7eb148ea2eb814c2596d8da1943a971a8ee077c6d35ceb00",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:nathan-drake-treasure-hunter:performance:v1",
+  "recommendations": [
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Nalfeshnee",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:fe9757680744",
+     "m5_test:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=test:nathan-drake-treasure-hunter:goldfish:e719245215114929"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:393b1008d363",
+     "m5_test:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=test:nathan-drake-treasure-hunter:goldfish:8b72e5c5c2ce33f6"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:a0187caf03e2",
+     "m5_test:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=test:nathan-drake-treasure-hunter:goldfish:e917cc1c46bd0c9d"
+    ]
+   },
+   {
+    "add": "Deadly Dispute",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:6bce5af9c27b",
+     "m5_test:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=test:nathan-drake-treasure-hunter:goldfish:1f0468ba48511f73"
+    ]
+   },
+   {
+    "add": "Godo, Bandit Warlord",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:79373d803b78",
+     "m5_test:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=test:nathan-drake-treasure-hunter:goldfish:983ceab085919093"
+    ]
+   },
+   {
+    "add": "Higure, the Still Wind",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:aad8de996e60",
+     "m5_test:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=test:nathan-drake-treasure-hunter:goldfish:19a9063dd3be61ca"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:7c07ef8e6f7c",
+     "m5_test:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=test:nathan-drake-treasure-hunter:goldfish:0993386d0d336856"
+    ]
+   },
+   {
+    "add": "Ratcatcher",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:fb592ac37246",
+     "m5_test:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=test:nathan-drake-treasure-hunter:goldfish:51f8771d108f82f6"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=swap:nathan-drake-treasure-hunter:m5:ea4c4b6f415b",
+     "m5_test:data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz#id=test:nathan-drake-treasure-hunter:goldfish:899387fc73d791f3"
+    ]
+   }
+  ]
+ },
+ "reconciliation": {
+  "agreements": [
+   "swap:nathan-drake-treasure-hunter:m5:393b1008d363",
+   "swap:nathan-drake-treasure-hunter:m5:79373d803b78",
+   "swap:nathan-drake-treasure-hunter:m5:7c07ef8e6f7c",
+   "swap:nathan-drake-treasure-hunter:m5:a0187caf03e2",
+   "swap:nathan-drake-treasure-hunter:m5:aad8de996e60",
+   "swap:nathan-drake-treasure-hunter:m5:ea4c4b6f415b",
+   "swap:nathan-drake-treasure-hunter:m5:fb592ac37246",
+   "swap:nathan-drake-treasure-hunter:m5:fe9757680744"
+  ],
+  "date": "2026-10-17",
+  "deep_review": [
+   "swap:nathan-drake-treasure-hunter:m5:02031d2c51f1",
+   "swap:nathan-drake-treasure-hunter:m5:021f98abf4cb",
+   "swap:nathan-drake-treasure-hunter:m5:02a4df985054",
+   "swap:nathan-drake-treasure-hunter:m5:03c60c9d92ac",
+   "swap:nathan-drake-treasure-hunter:m5:03fc83ce2402",
+   "swap:nathan-drake-treasure-hunter:m5:052f35c3b064",
+   "swap:nathan-drake-treasure-hunter:m5:058ed9530481",
+   "swap:nathan-drake-treasure-hunter:m5:06e36c10fadb",
+   "swap:nathan-drake-treasure-hunter:m5:070f6b04a3ae",
+   "swap:nathan-drake-treasure-hunter:m5:0a6ec2209b0b",
+   "swap:nathan-drake-treasure-hunter:m5:0ba8a5136190",
+   "swap:nathan-drake-treasure-hunter:m5:0cdeb40ecc0f",
+   "swap:nathan-drake-treasure-hunter:m5:0de259d58f98",
+   "swap:nathan-drake-treasure-hunter:m5:0e5743de4125",
+   "swap:nathan-drake-treasure-hunter:m5:0efaea5a29d8",
+   "swap:nathan-drake-treasure-hunter:m5:0f3438ba2a3d",
+   "swap:nathan-drake-treasure-hunter:m5:11cc4462e16f",
+   "swap:nathan-drake-treasure-hunter:m5:122d3823a89c",
+   "swap:nathan-drake-treasure-hunter:m5:1258ca211ad2",
+   "swap:nathan-drake-treasure-hunter:m5:14c798e001a5",
+   "swap:nathan-drake-treasure-hunter:m5:158b9baeaddf",
+   "swap:nathan-drake-treasure-hunter:m5:1722ede12daf",
+   "swap:nathan-drake-treasure-hunter:m5:1780b31dbef8",
+   "swap:nathan-drake-treasure-hunter:m5:18a3f44b6a99",
+   "swap:nathan-drake-treasure-hunter:m5:1a2a1ee78e2b",
+   "swap:nathan-drake-treasure-hunter:m5:1b1ebacc3050",
+   "swap:nathan-drake-treasure-hunter:m5:1f631f30ec55",
+   "swap:nathan-drake-treasure-hunter:m5:1f8be428d2c1",
+   "swap:nathan-drake-treasure-hunter:m5:2001bd8de137",
+   "swap:nathan-drake-treasure-hunter:m5:2193f6a2934c",
+   "swap:nathan-drake-treasure-hunter:m5:21a462779b4b",
+   "swap:nathan-drake-treasure-hunter:m5:22b4c4d72f46",
+   "swap:nathan-drake-treasure-hunter:m5:22ff470eac7e",
+   "swap:nathan-drake-treasure-hunter:m5:244ae8e49fd1",
+   "swap:nathan-drake-treasure-hunter:m5:24abc4300872",
+   "swap:nathan-drake-treasure-hunter:m5:2528c001ff9c",
+   "swap:nathan-drake-treasure-hunter:m5:25399c7a131c",
+   "swap:nathan-drake-treasure-hunter:m5:254aba085419",
+   "swap:nathan-drake-treasure-hunter:m5:2550ad4c8571",
+   "swap:nathan-drake-treasure-hunter:m5:27c748f8a727",
+   "swap:nathan-drake-treasure-hunter:m5:27d638bd4124",
+   "swap:nathan-drake-treasure-hunter:m5:29859449b4b8",
+   "swap:nathan-drake-treasure-hunter:m5:2a56322e44cf",
+   "swap:nathan-drake-treasure-hunter:m5:2ad95209997c",
+   "swap:nathan-drake-treasure-hunter:m5:2d169a337797",
+   "swap:nathan-drake-treasure-hunter:m5:2ee6cee2e5bd",
+   "swap:nathan-drake-treasure-hunter:m5:2f2b3349bf6d",
+   "swap:nathan-drake-treasure-hunter:m5:31b95dbafc0b",
+   "swap:nathan-drake-treasure-hunter:m5:35c1ffbc875d",
+   "swap:nathan-drake-treasure-hunter:m5:37b954543938",
+   "swap:nathan-drake-treasure-hunter:m5:37d0eef87bd5",
+   "swap:nathan-drake-treasure-hunter:m5:393b1008d363",
+   "swap:nathan-drake-treasure-hunter:m5:3a59ba5e97c7",
+   "swap:nathan-drake-treasure-hunter:m5:3b08516a9c5d",
+   "swap:nathan-drake-treasure-hunter:m5:3b7940283e90",
+   "swap:nathan-drake-treasure-hunter:m5:3bd42e746b60",
+   "swap:nathan-drake-treasure-hunter:m5:3cef6df6abc2",
+   "swap:nathan-drake-treasure-hunter:m5:3e26478ed4c1",
+   "swap:nathan-drake-treasure-hunter:m5:3e27ae1f0b0d",
+   "swap:nathan-drake-treasure-hunter:m5:409f24572c22",
+   "swap:nathan-drake-treasure-hunter:m5:413730c09dd3",
+   "swap:nathan-drake-treasure-hunter:m5:4341bcd17606",
+   "swap:nathan-drake-treasure-hunter:m5:43856f64379d",
+   "swap:nathan-drake-treasure-hunter:m5:4593982cb5e9",
+   "swap:nathan-drake-treasure-hunter:m5:47059316b29c",
+   "swap:nathan-drake-treasure-hunter:m5:47a4ee9d7a20",
+   "swap:nathan-drake-treasure-hunter:m5:48059d5072e9",
+   "swap:nathan-drake-treasure-hunter:m5:480b60254bc3",
+   "swap:nathan-drake-treasure-hunter:m5:48dc8c753d16",
+   "swap:nathan-drake-treasure-hunter:m5:48ecb98920d3",
+   "swap:nathan-drake-treasure-hunter:m5:4acb6b378ae9",
+   "swap:nathan-drake-treasure-hunter:m5:4ce65dd93d4e",
+   "swap:nathan-drake-treasure-hunter:m5:4e90016d9451",
+   "swap:nathan-drake-treasure-hunter:m5:4f221edd74b3",
+   "swap:nathan-drake-treasure-hunter:m5:5164af3ba809",
+   "swap:nathan-drake-treasure-hunter:m5:529b357a88d9",
+   "swap:nathan-drake-treasure-hunter:m5:53703e372449",
+   "swap:nathan-drake-treasure-hunter:m5:57052d54b443",
+   "swap:nathan-drake-treasure-hunter:m5:571ac6ecc9bc",
+   "swap:nathan-drake-treasure-hunter:m5:59ccc95da517",
+   "swap:nathan-drake-treasure-hunter:m5:5a98f7457e33",
+   "swap:nathan-drake-treasure-hunter:m5:5d311ee2e8f3",
+   "swap:nathan-drake-treasure-hunter:m5:5e6dfd1a3a73",
+   "swap:nathan-drake-treasure-hunter:m5:5e98db19b84d",
+   "swap:nathan-drake-treasure-hunter:m5:5ee53f631aaf",
+   "swap:nathan-drake-treasure-hunter:m5:5f1ac6acd371",
+   "swap:nathan-drake-treasure-hunter:m5:5f9b70b86fc1",
+   "swap:nathan-drake-treasure-hunter:m5:5fa7db4959df",
+   "swap:nathan-drake-treasure-hunter:m5:5fe32014e281",
+   "swap:nathan-drake-treasure-hunter:m5:6015c50e5a4c",
+   "swap:nathan-drake-treasure-hunter:m5:6019f8d73ac6",
+   "swap:nathan-drake-treasure-hunter:m5:60940dc2bb86",
+   "swap:nathan-drake-treasure-hunter:m5:616ba305900f",
+   "swap:nathan-drake-treasure-hunter:m5:6201dbb9807a",
+   "swap:nathan-drake-treasure-hunter:m5:620bae67fbb9",
+   "swap:nathan-drake-treasure-hunter:m5:625a660e557a",
+   "swap:nathan-drake-treasure-hunter:m5:631a13d6e79f",
+   "swap:nathan-drake-treasure-hunter:m5:63724b306ec6",
+   "swap:nathan-drake-treasure-hunter:m5:63afea14d291",
+   "swap:nathan-drake-treasure-hunter:m5:65d5426f31b2",
+   "swap:nathan-drake-treasure-hunter:m5:664ecad92d10",
+   "swap:nathan-drake-treasure-hunter:m5:6b3acf136bd4",
+   "swap:nathan-drake-treasure-hunter:m5:6bce5af9c27b",
+   "swap:nathan-drake-treasure-hunter:m5:6df07bd54fcb",
+   "swap:nathan-drake-treasure-hunter:m5:6e534bc6e84f",
+   "swap:nathan-drake-treasure-hunter:m5:6eb12454ea44",
+   "swap:nathan-drake-treasure-hunter:m5:6f45cbe62cb9",
+   "swap:nathan-drake-treasure-hunter:m5:705efab22560",
+   "swap:nathan-drake-treasure-hunter:m5:71dd6c30747f",
+   "swap:nathan-drake-treasure-hunter:m5:71e04774dd0b",
+   "swap:nathan-drake-treasure-hunter:m5:7268dfb1c218",
+   "swap:nathan-drake-treasure-hunter:m5:72b2940f6eb4",
+   "swap:nathan-drake-treasure-hunter:m5:731aac4bc105",
+   "swap:nathan-drake-treasure-hunter:m5:73446ab46e87",
+   "swap:nathan-drake-treasure-hunter:m5:74f0899db6c0",
+   "swap:nathan-drake-treasure-hunter:m5:76121b39052c",
+   "swap:nathan-drake-treasure-hunter:m5:771b3cc0ab4d",
+   "swap:nathan-drake-treasure-hunter:m5:790819497aea",
+   "swap:nathan-drake-treasure-hunter:m5:79373d803b78",
+   "swap:nathan-drake-treasure-hunter:m5:7ab408d13538",
+   "swap:nathan-drake-treasure-hunter:m5:7c07ef8e6f7c",
+   "swap:nathan-drake-treasure-hunter:m5:7c5384703a1f",
+   "swap:nathan-drake-treasure-hunter:m5:7cdd7ef45700",
+   "swap:nathan-drake-treasure-hunter:m5:7e7230824e57",
+   "swap:nathan-drake-treasure-hunter:m5:7ec2199dd6e1",
+   "swap:nathan-drake-treasure-hunter:m5:81372db82075",
+   "swap:nathan-drake-treasure-hunter:m5:82c5b7d7fbab",
+   "swap:nathan-drake-treasure-hunter:m5:833c2ee8d3b0",
+   "swap:nathan-drake-treasure-hunter:m5:87969fb69b4c",
+   "swap:nathan-drake-treasure-hunter:m5:87f2c77c885b",
+   "swap:nathan-drake-treasure-hunter:m5:8925559c3267",
+   "swap:nathan-drake-treasure-hunter:m5:8965846d0ca0",
+   "swap:nathan-drake-treasure-hunter:m5:8a15daaa8169",
+   "swap:nathan-drake-treasure-hunter:m5:8a44a9645726",
+   "swap:nathan-drake-treasure-hunter:m5:8d6990d79107",
+   "swap:nathan-drake-treasure-hunter:m5:8da3f04d85dc",
+   "swap:nathan-drake-treasure-hunter:m5:8e55f66f7150",
+   "swap:nathan-drake-treasure-hunter:m5:8f8634d0f428",
+   "swap:nathan-drake-treasure-hunter:m5:91fd31c63949",
+   "swap:nathan-drake-treasure-hunter:m5:928374624eb3",
+   "swap:nathan-drake-treasure-hunter:m5:93ed7b8cf521",
+   "swap:nathan-drake-treasure-hunter:m5:954efcf51322",
+   "swap:nathan-drake-treasure-hunter:m5:97075fec963d",
+   "swap:nathan-drake-treasure-hunter:m5:983eeebdf29e",
+   "swap:nathan-drake-treasure-hunter:m5:99951cb4eced",
+   "swap:nathan-drake-treasure-hunter:m5:99defdab30f1",
+   "swap:nathan-drake-treasure-hunter:m5:9ace9f75b3b8",
+   "swap:nathan-drake-treasure-hunter:m5:9cd38788bed7",
+   "swap:nathan-drake-treasure-hunter:m5:9ead29af71af",
+   "swap:nathan-drake-treasure-hunter:m5:9eae8d1e9d71",
+   "swap:nathan-drake-treasure-hunter:m5:a0187caf03e2",
+   "swap:nathan-drake-treasure-hunter:m5:a0aca4cf6f7e",
+   "swap:nathan-drake-treasure-hunter:m5:a0d50d7e5859",
+   "swap:nathan-drake-treasure-hunter:m5:a0f9a9184ccf",
+   "swap:nathan-drake-treasure-hunter:m5:a11463d2dd31",
+   "swap:nathan-drake-treasure-hunter:m5:a1587e20310c",
+   "swap:nathan-drake-treasure-hunter:m5:a356f13aba16",
+   "swap:nathan-drake-treasure-hunter:m5:a36416f5e510",
+   "swap:nathan-drake-treasure-hunter:m5:a5c3ef6254ed",
+   "swap:nathan-drake-treasure-hunter:m5:a87800c7f206",
+   "swap:nathan-drake-treasure-hunter:m5:a9b251a83536",
+   "swap:nathan-drake-treasure-hunter:m5:aab9fc7580b9",
+   "swap:nathan-drake-treasure-hunter:m5:aad8de996e60",
+   "swap:nathan-drake-treasure-hunter:m5:aae2766b1893",
+   "swap:nathan-drake-treasure-hunter:m5:ab3acb16478d",
+   "swap:nathan-drake-treasure-hunter:m5:ab49345a1b0b",
+   "swap:nathan-drake-treasure-hunter:m5:ac625d6ede2f",
+   "swap:nathan-drake-treasure-hunter:m5:ad1762d2601f",
+   "swap:nathan-drake-treasure-hunter:m5:ad23de8fa0ec",
+   "swap:nathan-drake-treasure-hunter:m5:aebcfb4508c2",
+   "swap:nathan-drake-treasure-hunter:m5:b139d45181f6",
+   "swap:nathan-drake-treasure-hunter:m5:b144865d850f",
+   "swap:nathan-drake-treasure-hunter:m5:b2b7d85256ff",
+   "swap:nathan-drake-treasure-hunter:m5:b3819e189cfb",
+   "swap:nathan-drake-treasure-hunter:m5:b4095255769f",
+   "swap:nathan-drake-treasure-hunter:m5:b7d421d257c6",
+   "swap:nathan-drake-treasure-hunter:m5:b8ac5806e391",
+   "swap:nathan-drake-treasure-hunter:m5:b8e9b6d6b3a9",
+   "swap:nathan-drake-treasure-hunter:m5:b9d36191ac9a",
+   "swap:nathan-drake-treasure-hunter:m5:ba6213ac5571",
+   "swap:nathan-drake-treasure-hunter:m5:ba98e2776090",
+   "swap:nathan-drake-treasure-hunter:m5:ba9e9e6efb31",
+   "swap:nathan-drake-treasure-hunter:m5:bb9b151315c8",
+   "swap:nathan-drake-treasure-hunter:m5:bca69b1ceab1",
+   "swap:nathan-drake-treasure-hunter:m5:bd5abebd4d9d",
+   "swap:nathan-drake-treasure-hunter:m5:bd78020e4c83",
+   "swap:nathan-drake-treasure-hunter:m5:bd8c00fb5a3a",
+   "swap:nathan-drake-treasure-hunter:m5:bdd28931478e",
+   "swap:nathan-drake-treasure-hunter:m5:be71f0c2e00e",
+   "swap:nathan-drake-treasure-hunter:m5:bfa408eba366",
+   "swap:nathan-drake-treasure-hunter:m5:c70b9b661cfd",
+   "swap:nathan-drake-treasure-hunter:m5:c8cf1f3b8620",
+   "swap:nathan-drake-treasure-hunter:m5:c8dcb6992262",
+   "swap:nathan-drake-treasure-hunter:m5:c9a7c2eac5ef",
+   "swap:nathan-drake-treasure-hunter:m5:ca0cd4859b3a",
+   "swap:nathan-drake-treasure-hunter:m5:ca5dab3f7296",
+   "swap:nathan-drake-treasure-hunter:m5:cb83379d5df6",
+   "swap:nathan-drake-treasure-hunter:m5:cd748956637a",
+   "swap:nathan-drake-treasure-hunter:m5:ce6c5faf5be2",
+   "swap:nathan-drake-treasure-hunter:m5:ce759ab103b1",
+   "swap:nathan-drake-treasure-hunter:m5:cecd81e57c42",
+   "swap:nathan-drake-treasure-hunter:m5:cf4bdcad8950",
+   "swap:nathan-drake-treasure-hunter:m5:cf509e3f305a",
+   "swap:nathan-drake-treasure-hunter:m5:cf6ac0f120c6",
+   "swap:nathan-drake-treasure-hunter:m5:cf6c0e9e3994",
+   "swap:nathan-drake-treasure-hunter:m5:cfa59d6db5df",
+   "swap:nathan-drake-treasure-hunter:m5:d00593fd8e5e",
+   "swap:nathan-drake-treasure-hunter:m5:d0cd64be6601",
+   "swap:nathan-drake-treasure-hunter:m5:d43af2195146",
+   "swap:nathan-drake-treasure-hunter:m5:d43c0e8c78ae",
+   "swap:nathan-drake-treasure-hunter:m5:d4f2956d62f6",
+   "swap:nathan-drake-treasure-hunter:m5:d60f52eeccf7",
+   "swap:nathan-drake-treasure-hunter:m5:d65aa9a4f653",
+   "swap:nathan-drake-treasure-hunter:m5:d88525425977",
+   "swap:nathan-drake-treasure-hunter:m5:da096434898d",
+   "swap:nathan-drake-treasure-hunter:m5:dab1824c3d24",
+   "swap:nathan-drake-treasure-hunter:m5:dbb9968f4100",
+   "swap:nathan-drake-treasure-hunter:m5:dd755e0fba96",
+   "swap:nathan-drake-treasure-hunter:m5:df4cc6c363f5",
+   "swap:nathan-drake-treasure-hunter:m5:df6950d20e67",
+   "swap:nathan-drake-treasure-hunter:m5:e09f82f1a96a",
+   "swap:nathan-drake-treasure-hunter:m5:e19f518d2f3b",
+   "swap:nathan-drake-treasure-hunter:m5:e2e4581f88f0",
+   "swap:nathan-drake-treasure-hunter:m5:e67ad0549b47",
+   "swap:nathan-drake-treasure-hunter:m5:e78435641a89",
+   "swap:nathan-drake-treasure-hunter:m5:e7ad5b98d8c1",
+   "swap:nathan-drake-treasure-hunter:m5:e7da824b1af4",
+   "swap:nathan-drake-treasure-hunter:m5:e8e8bcea2c9d",
+   "swap:nathan-drake-treasure-hunter:m5:ea4c4b6f415b",
+   "swap:nathan-drake-treasure-hunter:m5:eb272696e0f2",
+   "swap:nathan-drake-treasure-hunter:m5:eb32da86ab2a",
+   "swap:nathan-drake-treasure-hunter:m5:eb5e7c356f1e",
+   "swap:nathan-drake-treasure-hunter:m5:ec0834c00f44",
+   "swap:nathan-drake-treasure-hunter:m5:eca94a43ac13",
+   "swap:nathan-drake-treasure-hunter:m5:f30f98b794c0",
+   "swap:nathan-drake-treasure-hunter:m5:f35eb0646565",
+   "swap:nathan-drake-treasure-hunter:m5:f449c7ed5574",
+   "swap:nathan-drake-treasure-hunter:m5:f554d5c59f40",
+   "swap:nathan-drake-treasure-hunter:m5:f84cfa243cee",
+   "swap:nathan-drake-treasure-hunter:m5:f8e1b8c85702",
+   "swap:nathan-drake-treasure-hunter:m5:f8f862b93343",
+   "swap:nathan-drake-treasure-hunter:m5:fb0bdd2f5176",
+   "swap:nathan-drake-treasure-hunter:m5:fb592ac37246",
+   "swap:nathan-drake-treasure-hunter:m5:fb69728561f2",
+   "swap:nathan-drake-treasure-hunter:m5:fd64e03359d3",
+   "swap:nathan-drake-treasure-hunter:m5:fe9757680744",
+   "swap:nathan-drake-treasure-hunter:m5:feba36738113",
+   "swap:nathan-drake-treasure-hunter:m5:fed1200afd00",
+   "swap:nathan-drake-treasure-hunter:m5:fed7f51c4fde"
+  ],
+  "disagreements": [
+   "swap:nathan-drake-treasure-hunter:m5:02031d2c51f1",
+   "swap:nathan-drake-treasure-hunter:m5:021f98abf4cb",
+   "swap:nathan-drake-treasure-hunter:m5:02a4df985054",
+   "swap:nathan-drake-treasure-hunter:m5:03c60c9d92ac",
+   "swap:nathan-drake-treasure-hunter:m5:03fc83ce2402",
+   "swap:nathan-drake-treasure-hunter:m5:052f35c3b064",
+   "swap:nathan-drake-treasure-hunter:m5:058ed9530481",
+   "swap:nathan-drake-treasure-hunter:m5:06e36c10fadb",
+   "swap:nathan-drake-treasure-hunter:m5:070f6b04a3ae",
+   "swap:nathan-drake-treasure-hunter:m5:0a6ec2209b0b",
+   "swap:nathan-drake-treasure-hunter:m5:0ba8a5136190",
+   "swap:nathan-drake-treasure-hunter:m5:0cdeb40ecc0f",
+   "swap:nathan-drake-treasure-hunter:m5:0de259d58f98",
+   "swap:nathan-drake-treasure-hunter:m5:0e5743de4125",
+   "swap:nathan-drake-treasure-hunter:m5:0efaea5a29d8",
+   "swap:nathan-drake-treasure-hunter:m5:0f3438ba2a3d",
+   "swap:nathan-drake-treasure-hunter:m5:11cc4462e16f",
+   "swap:nathan-drake-treasure-hunter:m5:122d3823a89c",
+   "swap:nathan-drake-treasure-hunter:m5:1258ca211ad2",
+   "swap:nathan-drake-treasure-hunter:m5:14c798e001a5",
+   "swap:nathan-drake-treasure-hunter:m5:158b9baeaddf",
+   "swap:nathan-drake-treasure-hunter:m5:1722ede12daf",
+   "swap:nathan-drake-treasure-hunter:m5:1780b31dbef8",
+   "swap:nathan-drake-treasure-hunter:m5:18a3f44b6a99",
+   "swap:nathan-drake-treasure-hunter:m5:1a2a1ee78e2b",
+   "swap:nathan-drake-treasure-hunter:m5:1b1ebacc3050",
+   "swap:nathan-drake-treasure-hunter:m5:1f631f30ec55",
+   "swap:nathan-drake-treasure-hunter:m5:1f8be428d2c1",
+   "swap:nathan-drake-treasure-hunter:m5:2001bd8de137",
+   "swap:nathan-drake-treasure-hunter:m5:2193f6a2934c",
+   "swap:nathan-drake-treasure-hunter:m5:21a462779b4b",
+   "swap:nathan-drake-treasure-hunter:m5:22b4c4d72f46",
+   "swap:nathan-drake-treasure-hunter:m5:22ff470eac7e",
+   "swap:nathan-drake-treasure-hunter:m5:244ae8e49fd1",
+   "swap:nathan-drake-treasure-hunter:m5:24abc4300872",
+   "swap:nathan-drake-treasure-hunter:m5:2528c001ff9c",
+   "swap:nathan-drake-treasure-hunter:m5:25399c7a131c",
+   "swap:nathan-drake-treasure-hunter:m5:254aba085419",
+   "swap:nathan-drake-treasure-hunter:m5:2550ad4c8571",
+   "swap:nathan-drake-treasure-hunter:m5:27c748f8a727",
+   "swap:nathan-drake-treasure-hunter:m5:27d638bd4124",
+   "swap:nathan-drake-treasure-hunter:m5:29859449b4b8",
+   "swap:nathan-drake-treasure-hunter:m5:2a56322e44cf",
+   "swap:nathan-drake-treasure-hunter:m5:2ad95209997c",
+   "swap:nathan-drake-treasure-hunter:m5:2d169a337797",
+   "swap:nathan-drake-treasure-hunter:m5:2ee6cee2e5bd",
+   "swap:nathan-drake-treasure-hunter:m5:2f2b3349bf6d",
+   "swap:nathan-drake-treasure-hunter:m5:31b95dbafc0b",
+   "swap:nathan-drake-treasure-hunter:m5:35c1ffbc875d",
+   "swap:nathan-drake-treasure-hunter:m5:37b954543938",
+   "swap:nathan-drake-treasure-hunter:m5:37d0eef87bd5",
+   "swap:nathan-drake-treasure-hunter:m5:3a59ba5e97c7",
+   "swap:nathan-drake-treasure-hunter:m5:3b08516a9c5d",
+   "swap:nathan-drake-treasure-hunter:m5:3b7940283e90",
+   "swap:nathan-drake-treasure-hunter:m5:3bd42e746b60",
+   "swap:nathan-drake-treasure-hunter:m5:3cef6df6abc2",
+   "swap:nathan-drake-treasure-hunter:m5:3e26478ed4c1",
+   "swap:nathan-drake-treasure-hunter:m5:3e27ae1f0b0d",
+   "swap:nathan-drake-treasure-hunter:m5:409f24572c22",
+   "swap:nathan-drake-treasure-hunter:m5:413730c09dd3",
+   "swap:nathan-drake-treasure-hunter:m5:4341bcd17606",
+   "swap:nathan-drake-treasure-hunter:m5:43856f64379d",
+   "swap:nathan-drake-treasure-hunter:m5:4593982cb5e9",
+   "swap:nathan-drake-treasure-hunter:m5:47059316b29c",
+   "swap:nathan-drake-treasure-hunter:m5:47a4ee9d7a20",
+   "swap:nathan-drake-treasure-hunter:m5:48059d5072e9",
+   "swap:nathan-drake-treasure-hunter:m5:480b60254bc3",
+   "swap:nathan-drake-treasure-hunter:m5:48dc8c753d16",
+   "swap:nathan-drake-treasure-hunter:m5:48ecb98920d3",
+   "swap:nathan-drake-treasure-hunter:m5:4acb6b378ae9",
+   "swap:nathan-drake-treasure-hunter:m5:4ce65dd93d4e",
+   "swap:nathan-drake-treasure-hunter:m5:4e90016d9451",
+   "swap:nathan-drake-treasure-hunter:m5:4f221edd74b3",
+   "swap:nathan-drake-treasure-hunter:m5:5164af3ba809",
+   "swap:nathan-drake-treasure-hunter:m5:529b357a88d9",
+   "swap:nathan-drake-treasure-hunter:m5:53703e372449",
+   "swap:nathan-drake-treasure-hunter:m5:57052d54b443",
+   "swap:nathan-drake-treasure-hunter:m5:571ac6ecc9bc",
+   "swap:nathan-drake-treasure-hunter:m5:59ccc95da517",
+   "swap:nathan-drake-treasure-hunter:m5:5a98f7457e33",
+   "swap:nathan-drake-treasure-hunter:m5:5d311ee2e8f3",
+   "swap:nathan-drake-treasure-hunter:m5:5e6dfd1a3a73",
+   "swap:nathan-drake-treasure-hunter:m5:5e98db19b84d",
+   "swap:nathan-drake-treasure-hunter:m5:5ee53f631aaf",
+   "swap:nathan-drake-treasure-hunter:m5:5f1ac6acd371",
+   "swap:nathan-drake-treasure-hunter:m5:5f9b70b86fc1",
+   "swap:nathan-drake-treasure-hunter:m5:5fa7db4959df",
+   "swap:nathan-drake-treasure-hunter:m5:5fe32014e281",
+   "swap:nathan-drake-treasure-hunter:m5:6015c50e5a4c",
+   "swap:nathan-drake-treasure-hunter:m5:6019f8d73ac6",
+   "swap:nathan-drake-treasure-hunter:m5:60940dc2bb86",
+   "swap:nathan-drake-treasure-hunter:m5:616ba305900f",
+   "swap:nathan-drake-treasure-hunter:m5:6201dbb9807a",
+   "swap:nathan-drake-treasure-hunter:m5:620bae67fbb9",
+   "swap:nathan-drake-treasure-hunter:m5:625a660e557a",
+   "swap:nathan-drake-treasure-hunter:m5:631a13d6e79f",
+   "swap:nathan-drake-treasure-hunter:m5:63724b306ec6",
+   "swap:nathan-drake-treasure-hunter:m5:63afea14d291",
+   "swap:nathan-drake-treasure-hunter:m5:65d5426f31b2",
+   "swap:nathan-drake-treasure-hunter:m5:664ecad92d10",
+   "swap:nathan-drake-treasure-hunter:m5:6b3acf136bd4",
+   "swap:nathan-drake-treasure-hunter:m5:6bce5af9c27b",
+   "swap:nathan-drake-treasure-hunter:m5:6df07bd54fcb",
+   "swap:nathan-drake-treasure-hunter:m5:6e534bc6e84f",
+   "swap:nathan-drake-treasure-hunter:m5:6eb12454ea44",
+   "swap:nathan-drake-treasure-hunter:m5:6f45cbe62cb9",
+   "swap:nathan-drake-treasure-hunter:m5:705efab22560",
+   "swap:nathan-drake-treasure-hunter:m5:71dd6c30747f",
+   "swap:nathan-drake-treasure-hunter:m5:71e04774dd0b",
+   "swap:nathan-drake-treasure-hunter:m5:7268dfb1c218",
+   "swap:nathan-drake-treasure-hunter:m5:72b2940f6eb4",
+   "swap:nathan-drake-treasure-hunter:m5:731aac4bc105",
+   "swap:nathan-drake-treasure-hunter:m5:73446ab46e87",
+   "swap:nathan-drake-treasure-hunter:m5:74f0899db6c0",
+   "swap:nathan-drake-treasure-hunter:m5:76121b39052c",
+   "swap:nathan-drake-treasure-hunter:m5:771b3cc0ab4d",
+   "swap:nathan-drake-treasure-hunter:m5:790819497aea",
+   "swap:nathan-drake-treasure-hunter:m5:7ab408d13538",
+   "swap:nathan-drake-treasure-hunter:m5:7c5384703a1f",
+   "swap:nathan-drake-treasure-hunter:m5:7cdd7ef45700",
+   "swap:nathan-drake-treasure-hunter:m5:7e7230824e57",
+   "swap:nathan-drake-treasure-hunter:m5:7ec2199dd6e1",
+   "swap:nathan-drake-treasure-hunter:m5:81372db82075",
+   "swap:nathan-drake-treasure-hunter:m5:82c5b7d7fbab",
+   "swap:nathan-drake-treasure-hunter:m5:833c2ee8d3b0",
+   "swap:nathan-drake-treasure-hunter:m5:87969fb69b4c",
+   "swap:nathan-drake-treasure-hunter:m5:87f2c77c885b",
+   "swap:nathan-drake-treasure-hunter:m5:8925559c3267",
+   "swap:nathan-drake-treasure-hunter:m5:8965846d0ca0",
+   "swap:nathan-drake-treasure-hunter:m5:8a15daaa8169",
+   "swap:nathan-drake-treasure-hunter:m5:8a44a9645726",
+   "swap:nathan-drake-treasure-hunter:m5:8d6990d79107",
+   "swap:nathan-drake-treasure-hunter:m5:8da3f04d85dc",
+   "swap:nathan-drake-treasure-hunter:m5:8e55f66f7150",
+   "swap:nathan-drake-treasure-hunter:m5:8f8634d0f428",
+   "swap:nathan-drake-treasure-hunter:m5:91fd31c63949",
+   "swap:nathan-drake-treasure-hunter:m5:928374624eb3",
+   "swap:nathan-drake-treasure-hunter:m5:93ed7b8cf521",
+   "swap:nathan-drake-treasure-hunter:m5:954efcf51322",
+   "swap:nathan-drake-treasure-hunter:m5:97075fec963d",
+   "swap:nathan-drake-treasure-hunter:m5:983eeebdf29e",
+   "swap:nathan-drake-treasure-hunter:m5:99951cb4eced",
+   "swap:nathan-drake-treasure-hunter:m5:99defdab30f1",
+   "swap:nathan-drake-treasure-hunter:m5:9ace9f75b3b8",
+   "swap:nathan-drake-treasure-hunter:m5:9cd38788bed7",
+   "swap:nathan-drake-treasure-hunter:m5:9ead29af71af",
+   "swap:nathan-drake-treasure-hunter:m5:9eae8d1e9d71",
+   "swap:nathan-drake-treasure-hunter:m5:a0aca4cf6f7e",
+   "swap:nathan-drake-treasure-hunter:m5:a0d50d7e5859",
+   "swap:nathan-drake-treasure-hunter:m5:a0f9a9184ccf",
+   "swap:nathan-drake-treasure-hunter:m5:a11463d2dd31",
+   "swap:nathan-drake-treasure-hunter:m5:a1587e20310c",
+   "swap:nathan-drake-treasure-hunter:m5:a356f13aba16",
+   "swap:nathan-drake-treasure-hunter:m5:a36416f5e510",
+   "swap:nathan-drake-treasure-hunter:m5:a5c3ef6254ed",
+   "swap:nathan-drake-treasure-hunter:m5:a87800c7f206",
+   "swap:nathan-drake-treasure-hunter:m5:a9b251a83536",
+   "swap:nathan-drake-treasure-hunter:m5:aab9fc7580b9",
+   "swap:nathan-drake-treasure-hunter:m5:aae2766b1893",
+   "swap:nathan-drake-treasure-hunter:m5:ab3acb16478d",
+   "swap:nathan-drake-treasure-hunter:m5:ab49345a1b0b",
+   "swap:nathan-drake-treasure-hunter:m5:ac625d6ede2f",
+   "swap:nathan-drake-treasure-hunter:m5:ad1762d2601f",
+   "swap:nathan-drake-treasure-hunter:m5:ad23de8fa0ec",
+   "swap:nathan-drake-treasure-hunter:m5:aebcfb4508c2",
+   "swap:nathan-drake-treasure-hunter:m5:b139d45181f6",
+   "swap:nathan-drake-treasure-hunter:m5:b144865d850f",
+   "swap:nathan-drake-treasure-hunter:m5:b2b7d85256ff",
+   "swap:nathan-drake-treasure-hunter:m5:b3819e189cfb",
+   "swap:nathan-drake-treasure-hunter:m5:b4095255769f",
+   "swap:nathan-drake-treasure-hunter:m5:b7d421d257c6",
+   "swap:nathan-drake-treasure-hunter:m5:b8ac5806e391",
+   "swap:nathan-drake-treasure-hunter:m5:b8e9b6d6b3a9",
+   "swap:nathan-drake-treasure-hunter:m5:b9d36191ac9a",
+   "swap:nathan-drake-treasure-hunter:m5:ba6213ac5571",
+   "swap:nathan-drake-treasure-hunter:m5:ba98e2776090",
+   "swap:nathan-drake-treasure-hunter:m5:ba9e9e6efb31",
+   "swap:nathan-drake-treasure-hunter:m5:bb9b151315c8",
+   "swap:nathan-drake-treasure-hunter:m5:bca69b1ceab1",
+   "swap:nathan-drake-treasure-hunter:m5:bd5abebd4d9d",
+   "swap:nathan-drake-treasure-hunter:m5:bd78020e4c83",
+   "swap:nathan-drake-treasure-hunter:m5:bd8c00fb5a3a",
+   "swap:nathan-drake-treasure-hunter:m5:bdd28931478e",
+   "swap:nathan-drake-treasure-hunter:m5:be71f0c2e00e",
+   "swap:nathan-drake-treasure-hunter:m5:bfa408eba366",
+   "swap:nathan-drake-treasure-hunter:m5:c70b9b661cfd",
+   "swap:nathan-drake-treasure-hunter:m5:c8cf1f3b8620",
+   "swap:nathan-drake-treasure-hunter:m5:c8dcb6992262",
+   "swap:nathan-drake-treasure-hunter:m5:c9a7c2eac5ef",
+   "swap:nathan-drake-treasure-hunter:m5:ca0cd4859b3a",
+   "swap:nathan-drake-treasure-hunter:m5:ca5dab3f7296",
+   "swap:nathan-drake-treasure-hunter:m5:cb83379d5df6",
+   "swap:nathan-drake-treasure-hunter:m5:cd748956637a",
+   "swap:nathan-drake-treasure-hunter:m5:ce6c5faf5be2",
+   "swap:nathan-drake-treasure-hunter:m5:ce759ab103b1",
+   "swap:nathan-drake-treasure-hunter:m5:cecd81e57c42",
+   "swap:nathan-drake-treasure-hunter:m5:cf4bdcad8950",
+   "swap:nathan-drake-treasure-hunter:m5:cf509e3f305a",
+   "swap:nathan-drake-treasure-hunter:m5:cf6ac0f120c6",
+   "swap:nathan-drake-treasure-hunter:m5:cf6c0e9e3994",
+   "swap:nathan-drake-treasure-hunter:m5:cfa59d6db5df",
+   "swap:nathan-drake-treasure-hunter:m5:d00593fd8e5e",
+   "swap:nathan-drake-treasure-hunter:m5:d0cd64be6601",
+   "swap:nathan-drake-treasure-hunter:m5:d43af2195146",
+   "swap:nathan-drake-treasure-hunter:m5:d43c0e8c78ae",
+   "swap:nathan-drake-treasure-hunter:m5:d4f2956d62f6",
+   "swap:nathan-drake-treasure-hunter:m5:d60f52eeccf7",
+   "swap:nathan-drake-treasure-hunter:m5:d65aa9a4f653",
+   "swap:nathan-drake-treasure-hunter:m5:d88525425977",
+   "swap:nathan-drake-treasure-hunter:m5:da096434898d",
+   "swap:nathan-drake-treasure-hunter:m5:dab1824c3d24",
+   "swap:nathan-drake-treasure-hunter:m5:dbb9968f4100",
+   "swap:nathan-drake-treasure-hunter:m5:dd755e0fba96",
+   "swap:nathan-drake-treasure-hunter:m5:df4cc6c363f5",
+   "swap:nathan-drake-treasure-hunter:m5:df6950d20e67",
+   "swap:nathan-drake-treasure-hunter:m5:e09f82f1a96a",
+   "swap:nathan-drake-treasure-hunter:m5:e19f518d2f3b",
+   "swap:nathan-drake-treasure-hunter:m5:e2e4581f88f0",
+   "swap:nathan-drake-treasure-hunter:m5:e67ad0549b47",
+   "swap:nathan-drake-treasure-hunter:m5:e78435641a89",
+   "swap:nathan-drake-treasure-hunter:m5:e7ad5b98d8c1",
+   "swap:nathan-drake-treasure-hunter:m5:e7da824b1af4",
+   "swap:nathan-drake-treasure-hunter:m5:e8e8bcea2c9d",
+   "swap:nathan-drake-treasure-hunter:m5:eb272696e0f2",
+   "swap:nathan-drake-treasure-hunter:m5:eb32da86ab2a",
+   "swap:nathan-drake-treasure-hunter:m5:eb5e7c356f1e",
+   "swap:nathan-drake-treasure-hunter:m5:ec0834c00f44",
+   "swap:nathan-drake-treasure-hunter:m5:eca94a43ac13",
+   "swap:nathan-drake-treasure-hunter:m5:f30f98b794c0",
+   "swap:nathan-drake-treasure-hunter:m5:f35eb0646565",
+   "swap:nathan-drake-treasure-hunter:m5:f449c7ed5574",
+   "swap:nathan-drake-treasure-hunter:m5:f554d5c59f40",
+   "swap:nathan-drake-treasure-hunter:m5:f84cfa243cee",
+   "swap:nathan-drake-treasure-hunter:m5:f8e1b8c85702",
+   "swap:nathan-drake-treasure-hunter:m5:f8f862b93343",
+   "swap:nathan-drake-treasure-hunter:m5:fb0bdd2f5176",
+   "swap:nathan-drake-treasure-hunter:m5:fb69728561f2",
+   "swap:nathan-drake-treasure-hunter:m5:fd64e03359d3",
+   "swap:nathan-drake-treasure-hunter:m5:feba36738113",
+   "swap:nathan-drake-treasure-hunter:m5:fed1200afd00",
+   "swap:nathan-drake-treasure-hunter:m5:fed7f51c4fde"
+  ]
+ },
+ "schema_version": 1
+}
