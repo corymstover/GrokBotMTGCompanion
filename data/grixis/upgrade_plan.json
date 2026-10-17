@@ -1,662 +1,666 @@
 {
-  "schema_version": 1,
-  "title": "Grixis Birthday Upgrade Plan",
-  "doc": "grixis/Grixis Birthday Upgrade Plan.md",
-  "recorded_cycle": "Bot cycle 64.1",
-  "approval": {
-    "by": "corymstover",
-    "ref": "chat t54u",
-    "date": "2026-10-16",
-    "scope": "Plan and order approved on the basis of the Bot cycle 64 gap audit. Accepts no milestone, approves no deck."
+ "schema_version": 1,
+ "title": "Grixis Birthday Upgrade Plan",
+ "doc": "grixis/Grixis Birthday Upgrade Plan.md",
+ "recorded_cycle": "Bot cycle 64.1",
+ "approval": {
+  "by": "corymstover",
+  "ref": "chat t54u",
+  "date": "2026-10-16",
+  "scope": "Plan and order approved on the basis of the Bot cycle 64 gap audit. Accepts no milestone, approves no deck."
+ },
+ "milestone_effects": {
+  "accepts_milestones": [],
+  "M2_M4": "acceptance proceeds independently (PR #141)",
+  "M5": "stays unaccepted until saturation and A-F layers regenerate it"
+ },
+ "decisions": [
+  {
+   "id": "D1",
+   "topic": "candidate_saturation",
+   "text": "Adaptive saturation with tiered testing, not exhaustive paired testing. No fixed numeric discovery cap. Cheap screening may prioritize workload but must never be an absolute exclusion gate; candidates may escalate through dependency evidence, unusual Oracle interaction, new-card status, package gaps, human evidence, anomaly detection, or other justified signals."
   },
-  "milestone_effects": {
-    "accepts_milestones": [],
-    "M2_M4": "acceptance proceeds independently (PR #141)",
-    "M5": "stays unaccepted until saturation and A-F layers regenerate it"
+  {
+   "id": "D2",
+   "topic": "benchmark_blinding",
+   "text": "Frozen retrospective corpus with contamination flags plus a genuinely prospective holdout for future cards, corrections and human decisions. Never claim the historical corpus is perfectly blind where prior ingestion makes that impossible."
   },
-  "decisions": [
-    {
-      "id": "D1",
-      "topic": "candidate_saturation",
-      "text": "Adaptive saturation with tiered testing, not exhaustive paired testing. No fixed numeric discovery cap. Cheap screening may prioritize workload but must never be an absolute exclusion gate; candidates may escalate through dependency evidence, unusual Oracle interaction, new-card status, package gaps, human evidence, anomaly detection, or other justified signals."
-    },
-    {
-      "id": "D2",
-      "topic": "benchmark_blinding",
-      "text": "Frozen retrospective corpus with contamination flags plus a genuinely prospective holdout for future cards, corrections and human decisions. Never claim the historical corpus is perfectly blind where prior ingestion makes that impossible."
-    },
-    {
-      "id": "D3",
-      "topic": "pass_a_b_blinding",
-      "text": "Shared factual inputs, commit-then-reveal output blinding; neither sees the other's conclusions before both outputs are committed and hashed. Pass C (incumbent-defense critic) may see both. Reconciliation only afterward."
-    },
-    {
-      "id": "D4",
-      "topic": "opponent_facing_mechanics",
-      "text": "Bounded scripted proxies and deterministic perturbations approved, with explicit assumptions, sensitivity where appropriate, documented limitations. No unsupported multiplayer win-rate simulation."
-    },
-    {
-      "id": "D5",
-      "topic": "power_core_backfill",
-      "text": "Versioned post-M2 correction overlay plus a materiality gate. If a change does not alter commander role, dependency, ceiling, anti-goals, required packages or another material Blueprint conclusion, M2 is not reopened; if it does, targeted review/reopen for that deck. Regenerate downstream artifacts either way."
-    },
-    {
-      "id": "D6",
-      "topic": "two_snapshot_model",
-      "text": "snap-20261016 frozen as the development snapshot during A-F. Immediately before final M5 acceptance and the Birthday baseline freeze, create a fresh Birthday authority snapshot (current Oracle/Scryfall, rules, legality, EDHREC, Spellbook, tournament evidence, new cards), delta refresh, regenerate every affected artifact. The Birthday snapshot is M6's authoritative start."
-    },
-    {
-      "id": "D7",
-      "topic": "human_sampling",
-      "text": "Build and freeze the H sampler/schema before M6 outputs exist.",
-      "strata": [
-        "random",
-        "anomaly",
-        "exception",
-        "pending_release",
-        "cedh",
-        "low_commander_dependence",
-        "high_optimizer_disagreement",
-        "rules_sensitive",
-        "major_change"
-      ]
-    }
-  ],
-  "steps": [
-    {
-      "order": 1,
-      "id": "G0",
-      "name": "benchmark corpus freeze",
-      "batches": [
-        3,
-        4
-      ],
-      "status": "complete",
-      "started": "Bot cycle 64.1",
-      "freeze_rule": "corpus immutable once step A begins; only the prospective holdout grows afterwards",
-      "completed": "Bot cycle 64.4",
-      "pr": 142,
-      "items": 612,
-      "note": "Merged in PR #142 (fafe2d2). Corpus immutable from the first step-A commit (Bot cycle 65.1); only the prospective holdout grows."
-    },
-    {
-      "order": 2,
-      "id": "A",
-      "name": "adaptive candidate saturation",
-      "batches": [
-        "65.1 engine + 3 certificates",
-        "65.2 full-pool sweep, signal passes, specificity, calibrated escalation + queue, all 62 certificates",
-        "65.3 multi_source_corroboration, compact universes, grixis_candidates.py consumes the saturated universe (caps removed), 3-deck scratch smoke test"
-      ],
-      "status": "complete_pending_m5_regeneration",
-      "depends_on": [
-        "G0"
-      ],
-      "decisions": [
-        "D1"
-      ],
-      "started": "Bot cycle 65.1",
-      "stopping_rule": {
-        "material_k": 3,
-        "material_score": 25.0,
-        "stop_after_non_material": 2
-      },
-      "code": "scripts/grixis_saturation.py",
-      "schema": "data/grixis/schemas/saturation_certificate.schema.json",
-      "paired_test_target": 250,
-      "full_pool_sweep": true,
-      "next": "M5 regeneration after A-F (simulator v1.2 modules, combo quality, mana base, marginal value, bracket suites): grixis_candidates.py --build --out, then paired_test cards first and escalated_queued by priority.",
-      "stored_m5_files": "capped legacy, superseded at M5 regeneration (data/grixis/candidates/*.json.gz kept as-is)"
-    },
-    {
-      "order": 3,
-      "id": "E",
-      "name": "mechanic test modules (sim v1.2)",
-      "batches": [
-        "66.1 framework, router, attack + recursion",
-        "66.2 death layer, death triggers, sacrifice, self-recursion split, 9,044/9,040 reconciliation",
-        "66.2a death-trigger semantics correction (Cory t56u): death_triggers v2, death events in the shared layer",
-        "66.3 cast triggers, repeatable draw, activated engines, token makers, sacrifice as additional cost; tokens as death-event victims; dev snapshot lock",
-        "66.5a attack-trigger semantic audit",
-        "66.5b graveyard-recursion semantic audit",
-        "66.6 counterspell and stack-protection readiness",
-        "66.7 X-spell capacity and alternate-cost semantics",
-        "66.8 graveyard setup and repeatable tutors",
-        "66.9 bounded opponent-dependent draw",
-        "66.10 category-specific stax/tax proxy",
-        "66.11 LED/Breach startup-resource semantics",
-        "66.12 bounded table life-loss and discard-pressure semantics",
-        "66.13 residual/judgment routing closure (no fake generic simulator for residual or commander-specific text)"
-      ],
-      "status": "code_complete_pending_local_cache_validation",
-      "depends_on": [
-        "A"
-      ],
-      "decisions": [
-        "D4"
-      ],
-      "started": "Bot cycle 66.1",
-      "framework": "scripts/grixis_mech/",
-      "schema": "data/grixis/schemas/mechanic_module.schema.json",
-      "implemented_modules": [
-        "activated_engines",
-        "alternate_costs",
-        "attack_trigger_proxy",
-        "cast_triggers",
-        "counterspell_density",
-        "death_triggers",
-        "discard",
-        "graveyard_recursion",
-        "graveyard_tutoring",
-        "led_breach_sequences",
-        "life_loss",
-        "opponent_dependent_draw",
-        "repeatable_draw",
-        "repeatable_tutors",
-        "sacrifice_additional_cost",
-        "sacrifice_costs",
-        "self_recursion",
-        "stack_protection",
-        "stax_tax",
-        "token_makers",
-        "x_spells"
-      ],
-      "legacy_not_modelable_routed": {
-        "routed": 6775,
-        "planned_module": 1732,
-        "not_modelable": 533,
-        "total": 9040
-      },
-      "shared_layers": [
-        "deaths (bounded removal/wipe/sacrifice grid; death events; tokens are victims)",
-        "events (casts, creature tokens)"
-      ],
-      "corrections": [
-        {
-          "batch": "66.2a",
-          "caught_by": "Cory (t56u)",
-          "module": "death_triggers",
-          "from_version": "1",
-          "to_version": "2",
-          "errors": [
-            "'another creature' counted the watcher's own death",
-            "'one or more creatures die' counted creatures, not events",
-            "watchers got full triggers on later turns while the unperturbed trace still listed a dead watcher",
-            "no Oracle-parsed semantics; unknown wording fell back to a generic watcher"
-          ],
-          "example_syr_konrad_T8": {
-            "old": {
-              "range": [
-                0.0,
-                0.45
-              ],
-              "mid": 0.0818
-            },
-            "new": {
-              "range": [
-                0.0,
-                0.3367
-              ],
-              "mid": 0.0452
-            }
-          },
-          "coverage": {
-            "death_triggers_routed": {
-              "old": 171,
-              "new": 129
-            },
-            "routed_total": {
-              "old": 2412,
-              "new": 2374
-            }
-          },
-          "holdout": "not added: the correction was seen by the evaluated system before any item could be sealed (holdout rule 1)"
-        }
-      ],
-      "audits": [
-        {
-          "batch": "66.4",
-          "kind": "semantic self-audit of the 66.3 modules (style of Cory's 66.2 death-trigger review)",
-          "lesson": "routing coverage is not correctness",
-          "sampled": "seeded (664) sample of 12 UBR-identity cards per module (cast 741, draw 530, activated 3748, tokens 1123, sac 91 matches) plus 42 probe cards: Rhystic Study, Mystic Remora, Howling Mine, Phyrexian Arena, Coveted Jewel, Psychosis Crawler, Plasma Jockey, Skeleton Key, Slith Strider, Lyra Tolarian Archangel, Storm of Saruman, Devoted Duelist, Mysidian Elder, Quicksilver Servitor, Nightmare Sower, Coralhelm Chronicler, Battlefield Thaumaturge, Indris, Kaito Shizuki, Brood Keeper, Rooftop Bypass, Syphon Flesh, Firebender Ascension, Krenko Mob Boss, Bitterblossom, Encroaching Wastes, Deadly Dispute, Demand Answers, Trash for Treasure, Village Rites, ...",
-          "defects": {
-            "cast_triggers": [
-              "D1 unknown qualifiers (kicked, from among cards put into your hand, during an opponent's turn, that targets ~) mapped to 'any'",
-              "D2 'second spell each turn' counted every spell",
-              "D3 abilities granted in quotes (Mysidian Elder) and reminder text (prowess) matched as the card's own",
-              "D4 opponent/any-player cast triggers had no not_modelable reason",
-              "D5 'whenever you cast your commander' unhandled",
-              "D6 'an instant or sorcery spell' qualifier mis-parsed (found while fixing)"
-            ],
-            "repeatable_draw": [
-              "D7 'other' rule (combat damage, becomes blocked, ...) matched but counted 0",
-              "D8 reminder text (Blitz) counted as death draw",
-              "D9 subject unchecked: 'that player/target player draws' counted as yours; Rhystic-style 'unless ... pays' counted as full draw",
-              "D10 'whenever you draw' / 'would draw' counted as draw; loots counted as +1",
-              "D11 intervening-if (Lyra) treated as unconditional",
-              "D21 'each upkeep/end step' not x4"
-            ],
-            "activated_engines": [
-              "D12 'Sacrifice this artifact/land' one-shots not excluded",
-              "D13 {T} cost on a mana source did not forgo that mana",
-              "D14 hand costs (discard ~, channel) and planeswalker loyalty counted as engines"
-            ],
-            "token_makers": [
-              "D15 type_line not used (planeswalker loyalty counted)",
-              "D16 variable counts (for each/X) counted as 1",
-              "D17 intervening-if and non-ETB/attack/upkeep triggers (Brood Keeper, Rooftop Bypass) classified as 'spell'",
-              "D18 attack makers not modelled per attack"
-            ],
-            "sacrifice_additional_cost": [
-              "D19 artifact / artifact-or-creature / land fodder and 'or discard a card' alternatives treated as creature fodder only"
-            ]
-          },
-          "fixes": "semantics.py (clean: name->~, quoted granted abilities and reminder text removed; sentence split; intervening-if); engines.cast_parse/draw_parse/act_cost/sac_parse; events.token_parse with type_line; every non-match that looks like the mechanic returns a not_modelable reason (why_not); module versions bumped to 2; 4 new negative/edge-case tests",
-          "figures": {
-            "old": {
-              "routed": 6775,
-              "routed_share": 0.7494,
-              "planned": 1732,
-              "not_modelable": 533,
-              "cast_triggers": 1270,
-              "repeatable_draw": 2825,
-              "activated_engines": 1745,
-              "token_makers": 1964,
-              "sacrifice_additional_cost": 65
-            },
-            "new": {
-              "routed": 4353,
-              "routed_share": 0.4815,
-              "planned": 4048,
-              "not_modelable": 639,
-              "cast_triggers": 792,
-              "repeatable_draw": 283,
-              "activated_engines": 1483,
-              "token_makers": 535,
-              "sacrifice_additional_cost": 109
-            }
-          },
-          "not_done": [
-            "sacrifice_other (1,228 broad matches) bucket classification",
-            "per-module not_modelable reason tallies in the coverage file",
-            "graveyard_tutoring / repeatable_tutors / stack modules"
-          ]
-        }
-      ],
-      "validation_gate": "Full legacy mechanics coverage/examples rebuild and final real-deck/full validate_all require the frozen local Scryfall cache. Code-level module/routing semantics are closed; do not mark Step E fully validated until the local gate passes.",
-      "routing_closure": {
-        "genuine_planned_module_families_remaining": 0,
-        "residual_review_families": [
-          "death_other",
-          "sacrifice_other",
-          "tokens_other"
-        ],
-        "commander_specific_policy": "Commander-specific hooks remain Commander-first judgment / Step D unless a bounded dedicated module exists."
-      }
-    },
-    {
-      "order": 4,
-      "id": "B",
-      "name": "combo quality model + power_core backfill overlay",
-      "batches": [
-        "67.1 combo-quality evidence vectors across all 62 decks",
-        "67.2 D5 power_core overlay + materiality gate",
-        "67.3 Commander Spellbook line-semantics evidence",
-        "67.4 combo near-variant redundancy-family synthesis",
-        "67.5 validate_all integration + decision-quality gain proof + Step B closure"
-      ],
-      "status": "complete",
-      "depends_on": [
-        "E"
-      ],
-      "decisions": [
-        "D5"
-      ],
-      "artifacts": [
-        "data/grixis/combo_quality/",
-        "data/grixis/combo_line_semantics/",
-        "data/grixis/combo_families/",
-        "data/grixis/power_core/",
-        "data/grixis/combo_quality/decision_quality_gain.json"
-      ],
-      "metrics": {
-        "spellbook_lines": 418,
-        "infinite_lines": 369,
-        "blueprint_win_linked_lines": 349,
-        "direct_commander_piece_lines": 78,
-        "commander_independent_win_hints": 205,
-        "compact_power_core_candidates": 195,
-        "step_records": 418,
-        "declared_mana_records": 165,
-        "zone_mentions": 1148,
-        "direct_endpoint_hints": 121,
-        "variant_families": 95,
-        "multi_line_variant_families": 64,
-        "strategic_priority_auto_decisions": 0
-      },
-      "next": "Step C mana-base optimizer; Step B evidence remains provisional and decision-bearing combo priority waits for judgment/M6."
-    },
-    {
-      "order": 4,
-      "id": "C",
-      "name": "mana-base optimizer",
-      "batches": [
-        5,
-        7
-      ],
-      "status": "in_progress",
-      "depends_on": [
-        "E"
-      ],
-      "started": "ChatGPT cycle 68.1",
-      "completed_batches": [
-        "68.1 static mana/pip/source baseline across all 62 canonical decks",
-        "68.2 source reliability, ETB timing, actual fetch-target validation and distinct-source colored readiness",
-        "68.4 utility-land + MDFC opportunity cost and Commander/land-type textual synergy evidence"
-      ],
-      "artifacts": [
-        "data/grixis/mana_base/",
-        "data/grixis/mana_timing/",
-        "data/grixis/mana_opportunity/"
-      ],
-      "next": "68.5 candidate-level mana-base optimizer using saturated legal-pool land/mana candidates; run 68.3 frozen-cache gate before final Step C closure.",
-      "pending_local_validation_batches": [
-        "68.3 isolated commander casting, fast-mana contribution and +2/+4 commander-tax recovery stress — code-ready; requires frozen local Oracle bulk to generate/validate real 62-deck evidence"
-      ],
-      "local_validation_gate": "data/grixis/commander_mana/README.md"
-    },
-    {
-      "order": 5,
-      "id": "D",
-      "name": "commander marginal value",
-      "batches": [
-        3,
-        4
-      ],
-      "status": "not_started",
-      "depends_on": [
-        "E"
-      ]
-    },
-    {
-      "order": 6,
-      "id": "F",
-      "name": "bracket stress suites",
-      "batches": [
-        4,
-        5
-      ],
-      "status": "not_started",
-      "depends_on": [
-        "E"
-      ],
-      "decisions": [
-        "D4"
-      ]
-    },
-    {
-      "order": 7,
-      "id": "H",
-      "name": "human-sampling infra",
-      "batches": [
-        2,
-        3
-      ],
-      "status": "not_started",
-      "must_precede": [
-        "M6_outputs"
-      ],
-      "decisions": [
-        "D7"
-      ]
-    },
-    {
-      "order": 8,
-      "id": "M5_regen",
-      "name": "regenerate M5 on A-F",
-      "batches": [
-        2,
-        3
-      ],
-      "status": "not_started",
-      "depends_on": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ]
-    },
-    {
-      "order": 9,
-      "id": "BIRTHDAY_SNAPSHOT",
-      "name": "fresh Birthday authority snapshot + delta refresh + full rebuild/validate_all",
-      "batches": [
-        2,
-        3
-      ],
-      "status": "not_started",
-      "depends_on": [
-        "M5_regen"
-      ],
-      "decisions": [
-        "D6"
-      ]
-    },
-    {
-      "order": 10,
-      "id": "M5_ACCEPT",
-      "name": "Cory's M5 review/acceptance",
-      "batches": null,
-      "status": "not_started",
-      "human_only": true,
-      "depends_on": [
-        "BIRTHDAY_SNAPSHOT"
-      ]
-    },
-    {
-      "order": 11,
-      "id": "IJ",
-      "name": "Zero-Improvement Certificate + reproducibility bundle schemas",
-      "batches": [
-        4,
-        5
-      ],
-      "status": "not_started",
-      "depends_on": [
-        "M5_ACCEPT"
-      ]
-    },
-    {
-      "order": 12,
-      "id": "K",
-      "name": "three-sided M6 (Pass A/B commit-then-reveal, Pass C critic, reconciliation)",
-      "batches": [
-        6,
-        9
-      ],
-      "status": "not_started",
-      "depends_on": [
-        "IJ"
-      ],
-      "decisions": [
-        "D3"
-      ]
-    },
-    {
-      "order": 13,
-      "id": "M6",
-      "name": "M6 with H sampling",
-      "batches": null,
-      "status": "not_started",
-      "depends_on": [
-        "K",
-        "H"
-      ]
-    },
-    {
-      "order": 14,
-      "id": "G_EVAL",
-      "name": "benchmark evaluation",
-      "batches": [
-        3,
-        4
-      ],
-      "status": "not_started",
-      "depends_on": [
-        "M6"
-      ],
-      "decisions": [
-        "D2"
-      ]
-    },
-    {
-      "order": 15,
-      "id": "M7_M8",
-      "name": "M7/M8",
-      "batches": null,
-      "status": "not_started",
-      "depends_on": [
-        "G_EVAL"
-      ]
-    }
-  ],
-  "snapshots": {
-    "development": "snap-20261016 (frozen during A-F; Cory D6)",
-    "birthday": null,
-    "dev_snapshot_lock": "data/grixis/dev_snapshot_lock.json (enforced by ingest_scryfall.get_bulk and validate_all step dev-snapshot-lock; Birthday override only)"
+  {
+   "id": "D3",
+   "topic": "pass_a_b_blinding",
+   "text": "Shared factual inputs, commit-then-reveal output blinding; neither sees the other's conclusions before both outputs are committed and hashed. Pass C (incumbent-defense critic) may see both. Reconciliation only afterward."
   },
-  "acceptance_standard": [
-    "schema",
-    "determinism",
-    "tests",
-    "validate_all_integration",
-    "provenance",
-    "limitations",
-    "evidence_classes",
-    "real_deck_examples",
-    "demonstrated_decision_quality_gain"
-  ],
-  "benchmark_scoring_rule": {
-    "recorded": "Bot cycle 64.3",
-    "evaluation_roles": [
-      "detection",
-      "regression_guard",
-      "judgment_calibration"
-    ],
-    "stratify_by": [
-      "evaluation_role",
-      "originated_by",
-      "contamination.level"
-    ],
-    "pooled_score_allowed": false,
-    "enforced_by": "scripts/grixis_benchmark.py --check (manifest reporting_rule)"
+  {
+   "id": "D4",
+   "topic": "opponent_facing_mechanics",
+   "text": "Bounded scripted proxies and deterministic perturbations approved, with explicit assumptions, sensitivity where appropriate, documented limitations. No unsupported multiplayer win-rate simulation."
   },
-  "deferred_staleness": [
-    "grixis/Grixis Evaluation.md built from the 2026-10-15 bulk (regenerating rewrites deck pages and cascades); clear at the Birthday snapshot refresh",
-    "rulings bulk 2026-10-16 exists in /tmp/c64-cache-partial-backup while validation uses 2026-10-15; clear at the Birthday snapshot refresh"
-  ],
-  "m5_candidate_files": "capped legacy, superseded at M5 regeneration",
-  "launch_tracker": {
-    "updated": "ChatGPT cycle 68.4 (2026-10-16)",
-    "definition_of_100_percent": "all prerequisite infrastructure finished and validated, M5 accepted on the fresh Birthday snapshot, I/J and K complete, M6 cleared to begin (M6 itself excluded)",
-    "weighting": "batch-weighted: estimated batches per stage = midpoint of the plan range (completed stages count their actual batches); percent = done / total",
-    "stages": [
-      {
-        "id": "G0",
-        "estimated_batches": 4,
-        "batches_done": 4,
-        "status": "complete",
-        "note": "took 4 (64.1-64.4)"
-      },
-      {
-        "id": "A",
-        "estimated_batches": 3,
-        "batches_done": 3,
-        "status": "complete_pending_m5_regeneration",
-        "note": "took 3 (65.1-65.3); plan est 6-8"
-      },
-      {
-        "id": "E",
-        "estimated_batches": 16,
-        "batches_done": 15,
-        "status": "code_complete_pending_local_cache_validation",
-        "note": "15 engineering batches/sub-batches complete through 66.13; reserve 1 batch-equivalent for frozen-cache coverage/examples rebuild + full local validation."
-      },
-      {
-        "id": "B",
-        "estimated_batches": 5,
-        "batches_done": 5,
-        "status": "complete",
-        "note": "took 5 ChatGPT batches (67.1-67.5): 62-deck vectors, D5 overlay, line semantics, variant families, integration/gain proof."
-      },
-      {
-        "id": "C",
-        "estimated_batches": 6,
-        "batches_done": 3,
-        "status": "in_progress",
-        "note": "3/6 validated batch-equivalents complete (68.1, 68.2, 68.4); 68.3 code-ready but separately pending frozen-local-cache validation."
-      },
-      {
-        "id": "D",
-        "estimated_batches": 3.5,
-        "batches_done": 0,
-        "status": "not_started",
-        "note": "est 3-4"
-      },
-      {
-        "id": "F",
-        "estimated_batches": 4.5,
-        "batches_done": 0,
-        "status": "not_started",
-        "note": "est 4-5"
-      },
-      {
-        "id": "H",
-        "estimated_batches": 2.5,
-        "batches_done": 0,
-        "status": "not_started",
-        "note": "est 2-3"
-      },
-      {
-        "id": "rebuild_m5",
-        "estimated_batches": 2.5,
-        "batches_done": 0,
-        "status": "not_started",
-        "note": "est 2-3"
-      },
-      {
-        "id": "birthday_snapshot",
-        "estimated_batches": 2.5,
-        "batches_done": 0,
-        "status": "not_started",
-        "note": "est 2-3"
-      },
-      {
-        "id": "cory_m5_acceptance",
-        "estimated_batches": 1,
-        "batches_done": 0,
-        "status": "not_started",
-        "note": "Cory review; weighted as 1 batch"
-      },
-      {
-        "id": "I_J",
-        "estimated_batches": 4.5,
-        "batches_done": 0,
-        "status": "not_started",
-        "note": "est 4-5"
-      },
-      {
-        "id": "K",
-        "estimated_batches": 7.5,
-        "batches_done": 0,
-        "status": "not_started",
-        "note": "est 6-9"
-      }
-    ],
-    "total_estimated_batches": 62.5,
-    "batches_done": 30.0,
-    "percent_complete": 48.0
+  {
+   "id": "D5",
+   "topic": "power_core_backfill",
+   "text": "Versioned post-M2 correction overlay plus a materiality gate. If a change does not alter commander role, dependency, ceiling, anti-goals, required packages or another material Blueprint conclusion, M2 is not reopened; if it does, targeted review/reopen for that deck. Regenerate downstream artifacts either way."
+  },
+  {
+   "id": "D6",
+   "topic": "two_snapshot_model",
+   "text": "snap-20261016 frozen as the development snapshot during A-F. Immediately before final M5 acceptance and the Birthday baseline freeze, create a fresh Birthday authority snapshot (current Oracle/Scryfall, rules, legality, EDHREC, Spellbook, tournament evidence, new cards), delta refresh, regenerate every affected artifact. The Birthday snapshot is M6's authoritative start."
+  },
+  {
+   "id": "D7",
+   "topic": "human_sampling",
+   "text": "Build and freeze the H sampler/schema before M6 outputs exist.",
+   "strata": [
+    "random",
+    "anomaly",
+    "exception",
+    "pending_release",
+    "cedh",
+    "low_commander_dependence",
+    "high_optimizer_disagreement",
+    "rules_sensitive",
+    "major_change"
+   ]
   }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "id": "G0",
+   "name": "benchmark corpus freeze",
+   "batches": [
+    3,
+    4
+   ],
+   "status": "complete",
+   "started": "Bot cycle 64.1",
+   "freeze_rule": "corpus immutable once step A begins; only the prospective holdout grows afterwards",
+   "completed": "Bot cycle 64.4",
+   "pr": 142,
+   "items": 612,
+   "note": "Merged in PR #142 (fafe2d2). Corpus immutable from the first step-A commit (Bot cycle 65.1); only the prospective holdout grows."
+  },
+  {
+   "order": 2,
+   "id": "A",
+   "name": "adaptive candidate saturation",
+   "batches": [
+    "65.1 engine + 3 certificates",
+    "65.2 full-pool sweep, signal passes, specificity, calibrated escalation + queue, all 62 certificates",
+    "65.3 multi_source_corroboration, compact universes, grixis_candidates.py consumes the saturated universe (caps removed), 3-deck scratch smoke test"
+   ],
+   "status": "complete_pending_m5_regeneration",
+   "depends_on": [
+    "G0"
+   ],
+   "decisions": [
+    "D1"
+   ],
+   "started": "Bot cycle 65.1",
+   "stopping_rule": {
+    "material_k": 3,
+    "material_score": 25.0,
+    "stop_after_non_material": 2
+   },
+   "code": "scripts/grixis_saturation.py",
+   "schema": "data/grixis/schemas/saturation_certificate.schema.json",
+   "paired_test_target": 250,
+   "full_pool_sweep": true,
+   "next": "M5 regeneration after A-F (simulator v1.2 modules, combo quality, mana base, marginal value, bracket suites): grixis_candidates.py --build --out, then paired_test cards first and escalated_queued by priority.",
+   "stored_m5_files": "capped legacy, superseded at M5 regeneration (data/grixis/candidates/*.json.gz kept as-is)"
+  },
+  {
+   "order": 3,
+   "id": "E",
+   "name": "mechanic test modules (sim v1.2)",
+   "batches": [
+    "66.1 framework, router, attack + recursion",
+    "66.2 death layer, death triggers, sacrifice, self-recursion split, 9,044/9,040 reconciliation",
+    "66.2a death-trigger semantics correction (Cory t56u): death_triggers v2, death events in the shared layer",
+    "66.3 cast triggers, repeatable draw, activated engines, token makers, sacrifice as additional cost; tokens as death-event victims; dev snapshot lock",
+    "66.5a attack-trigger semantic audit",
+    "66.5b graveyard-recursion semantic audit",
+    "66.6 counterspell and stack-protection readiness",
+    "66.7 X-spell capacity and alternate-cost semantics",
+    "66.8 graveyard setup and repeatable tutors",
+    "66.9 bounded opponent-dependent draw",
+    "66.10 category-specific stax/tax proxy",
+    "66.11 LED/Breach startup-resource semantics",
+    "66.12 bounded table life-loss and discard-pressure semantics",
+    "66.13 residual/judgment routing closure (no fake generic simulator for residual or commander-specific text)"
+   ],
+   "status": "code_complete_pending_local_cache_validation",
+   "depends_on": [
+    "A"
+   ],
+   "decisions": [
+    "D4"
+   ],
+   "started": "Bot cycle 66.1",
+   "framework": "scripts/grixis_mech/",
+   "schema": "data/grixis/schemas/mechanic_module.schema.json",
+   "implemented_modules": [
+    "activated_engines",
+    "alternate_costs",
+    "attack_trigger_proxy",
+    "cast_triggers",
+    "counterspell_density",
+    "death_triggers",
+    "discard",
+    "graveyard_recursion",
+    "graveyard_tutoring",
+    "led_breach_sequences",
+    "life_loss",
+    "opponent_dependent_draw",
+    "repeatable_draw",
+    "repeatable_tutors",
+    "sacrifice_additional_cost",
+    "sacrifice_costs",
+    "self_recursion",
+    "stack_protection",
+    "stax_tax",
+    "token_makers",
+    "x_spells"
+   ],
+   "legacy_not_modelable_routed": {
+    "routed": 6775,
+    "planned_module": 1732,
+    "not_modelable": 533,
+    "total": 9040
+   },
+   "shared_layers": [
+    "deaths (bounded removal/wipe/sacrifice grid; death events; tokens are victims)",
+    "events (casts, creature tokens)"
+   ],
+   "corrections": [
+    {
+     "batch": "66.2a",
+     "caught_by": "Cory (t56u)",
+     "module": "death_triggers",
+     "from_version": "1",
+     "to_version": "2",
+     "errors": [
+      "'another creature' counted the watcher's own death",
+      "'one or more creatures die' counted creatures, not events",
+      "watchers got full triggers on later turns while the unperturbed trace still listed a dead watcher",
+      "no Oracle-parsed semantics; unknown wording fell back to a generic watcher"
+     ],
+     "example_syr_konrad_T8": {
+      "old": {
+       "range": [
+        0.0,
+        0.45
+       ],
+       "mid": 0.0818
+      },
+      "new": {
+       "range": [
+        0.0,
+        0.3367
+       ],
+       "mid": 0.0452
+      }
+     },
+     "coverage": {
+      "death_triggers_routed": {
+       "old": 171,
+       "new": 129
+      },
+      "routed_total": {
+       "old": 2412,
+       "new": 2374
+      }
+     },
+     "holdout": "not added: the correction was seen by the evaluated system before any item could be sealed (holdout rule 1)"
+    }
+   ],
+   "audits": [
+    {
+     "batch": "66.4",
+     "kind": "semantic self-audit of the 66.3 modules (style of Cory's 66.2 death-trigger review)",
+     "lesson": "routing coverage is not correctness",
+     "sampled": "seeded (664) sample of 12 UBR-identity cards per module (cast 741, draw 530, activated 3748, tokens 1123, sac 91 matches) plus 42 probe cards: Rhystic Study, Mystic Remora, Howling Mine, Phyrexian Arena, Coveted Jewel, Psychosis Crawler, Plasma Jockey, Skeleton Key, Slith Strider, Lyra Tolarian Archangel, Storm of Saruman, Devoted Duelist, Mysidian Elder, Quicksilver Servitor, Nightmare Sower, Coralhelm Chronicler, Battlefield Thaumaturge, Indris, Kaito Shizuki, Brood Keeper, Rooftop Bypass, Syphon Flesh, Firebender Ascension, Krenko Mob Boss, Bitterblossom, Encroaching Wastes, Deadly Dispute, Demand Answers, Trash for Treasure, Village Rites, ...",
+     "defects": {
+      "cast_triggers": [
+       "D1 unknown qualifiers (kicked, from among cards put into your hand, during an opponent's turn, that targets ~) mapped to 'any'",
+       "D2 'second spell each turn' counted every spell",
+       "D3 abilities granted in quotes (Mysidian Elder) and reminder text (prowess) matched as the card's own",
+       "D4 opponent/any-player cast triggers had no not_modelable reason",
+       "D5 'whenever you cast your commander' unhandled",
+       "D6 'an instant or sorcery spell' qualifier mis-parsed (found while fixing)"
+      ],
+      "repeatable_draw": [
+       "D7 'other' rule (combat damage, becomes blocked, ...) matched but counted 0",
+       "D8 reminder text (Blitz) counted as death draw",
+       "D9 subject unchecked: 'that player/target player draws' counted as yours; Rhystic-style 'unless ... pays' counted as full draw",
+       "D10 'whenever you draw' / 'would draw' counted as draw; loots counted as +1",
+       "D11 intervening-if (Lyra) treated as unconditional",
+       "D21 'each upkeep/end step' not x4"
+      ],
+      "activated_engines": [
+       "D12 'Sacrifice this artifact/land' one-shots not excluded",
+       "D13 {T} cost on a mana source did not forgo that mana",
+       "D14 hand costs (discard ~, channel) and planeswalker loyalty counted as engines"
+      ],
+      "token_makers": [
+       "D15 type_line not used (planeswalker loyalty counted)",
+       "D16 variable counts (for each/X) counted as 1",
+       "D17 intervening-if and non-ETB/attack/upkeep triggers (Brood Keeper, Rooftop Bypass) classified as 'spell'",
+       "D18 attack makers not modelled per attack"
+      ],
+      "sacrifice_additional_cost": [
+       "D19 artifact / artifact-or-creature / land fodder and 'or discard a card' alternatives treated as creature fodder only"
+      ]
+     },
+     "fixes": "semantics.py (clean: name->~, quoted granted abilities and reminder text removed; sentence split; intervening-if); engines.cast_parse/draw_parse/act_cost/sac_parse; events.token_parse with type_line; every non-match that looks like the mechanic returns a not_modelable reason (why_not); module versions bumped to 2; 4 new negative/edge-case tests",
+     "figures": {
+      "old": {
+       "routed": 6775,
+       "routed_share": 0.7494,
+       "planned": 1732,
+       "not_modelable": 533,
+       "cast_triggers": 1270,
+       "repeatable_draw": 2825,
+       "activated_engines": 1745,
+       "token_makers": 1964,
+       "sacrifice_additional_cost": 65
+      },
+      "new": {
+       "routed": 4353,
+       "routed_share": 0.4815,
+       "planned": 4048,
+       "not_modelable": 639,
+       "cast_triggers": 792,
+       "repeatable_draw": 283,
+       "activated_engines": 1483,
+       "token_makers": 535,
+       "sacrifice_additional_cost": 109
+      }
+     },
+     "not_done": [
+      "sacrifice_other (1,228 broad matches) bucket classification",
+      "per-module not_modelable reason tallies in the coverage file",
+      "graveyard_tutoring / repeatable_tutors / stack modules"
+     ]
+    }
+   ],
+   "validation_gate": "Full legacy mechanics coverage/examples rebuild and final real-deck/full validate_all require the frozen local Scryfall cache. Code-level module/routing semantics are closed; do not mark Step E fully validated until the local gate passes.",
+   "routing_closure": {
+    "genuine_planned_module_families_remaining": 0,
+    "residual_review_families": [
+     "death_other",
+     "sacrifice_other",
+     "tokens_other"
+    ],
+    "commander_specific_policy": "Commander-specific hooks remain Commander-first judgment / Step D unless a bounded dedicated module exists."
+   }
+  },
+  {
+   "order": 4,
+   "id": "B",
+   "name": "combo quality model + power_core backfill overlay",
+   "batches": [
+    "67.1 combo-quality evidence vectors across all 62 decks",
+    "67.2 D5 power_core overlay + materiality gate",
+    "67.3 Commander Spellbook line-semantics evidence",
+    "67.4 combo near-variant redundancy-family synthesis",
+    "67.5 validate_all integration + decision-quality gain proof + Step B closure"
+   ],
+   "status": "complete",
+   "depends_on": [
+    "E"
+   ],
+   "decisions": [
+    "D5"
+   ],
+   "artifacts": [
+    "data/grixis/combo_quality/",
+    "data/grixis/combo_line_semantics/",
+    "data/grixis/combo_families/",
+    "data/grixis/power_core/",
+    "data/grixis/combo_quality/decision_quality_gain.json"
+   ],
+   "metrics": {
+    "spellbook_lines": 418,
+    "infinite_lines": 369,
+    "blueprint_win_linked_lines": 349,
+    "direct_commander_piece_lines": 78,
+    "commander_independent_win_hints": 205,
+    "compact_power_core_candidates": 195,
+    "step_records": 418,
+    "declared_mana_records": 165,
+    "zone_mentions": 1148,
+    "direct_endpoint_hints": 121,
+    "variant_families": 95,
+    "multi_line_variant_families": 64,
+    "strategic_priority_auto_decisions": 0
+   },
+   "next": "Step C mana-base optimizer; Step B evidence remains provisional and decision-bearing combo priority waits for judgment/M6."
+  },
+  {
+   "order": 4,
+   "id": "C",
+   "name": "mana-base optimizer",
+   "batches": [
+    "68.1 static mana-base baseline, pip demand, land/MDFC counts, fast mana and source inventory",
+    "68.2 source timing, fetch/dual target validation and exact distinct-source colored readiness",
+    "68.3 commander casting, fast-mana delta and tax recovery (code-ready; frozen-local-cache outputs/validation pending)",
+    "68.4 utility-land/MDFC opportunity-cost and Commander-first land/type signals",
+    "68.5 mana/color-screw complements, one-source-unavailable structural sensitivity and fetch-target redundancy",
+    "68.6 Step C integration and demonstrated decision-quality gain (planned)"
+   ],
+   "status": "in_progress",
+   "depends_on": [
+    "E"
+   ],
+   "started": "ChatGPT cycle 68.1",
+   "completed_batches": [
+    "68.1 static mana/pip/source baseline across all 62 canonical decks",
+    "68.2 source reliability, ETB timing, actual fetch-target validation and distinct-source colored readiness",
+    "68.4 utility-land + MDFC opportunity cost and Commander/land-type textual synergy evidence"
+   ],
+   "artifacts": [
+    "data/grixis/mana_base/",
+    "data/grixis/mana_timing/",
+    "data/grixis/mana_opportunity/"
+   ],
+   "next": "68.5 candidate-level mana-base optimizer using saturated legal-pool land/mana candidates; run 68.3 frozen-cache gate before final Step C closure.",
+   "pending_local_validation_batches": [
+    "68.3 isolated commander casting, fast-mana contribution and +2/+4 commander-tax recovery stress — code-ready; requires frozen local Oracle bulk to generate/validate real 62-deck evidence"
+   ],
+   "local_validation_gate": "data/grixis/commander_mana/README.md"
+  },
+  {
+   "order": 5,
+   "id": "D",
+   "name": "commander marginal value",
+   "batches": [
+    3,
+    4
+   ],
+   "status": "not_started",
+   "depends_on": [
+    "E"
+   ]
+  },
+  {
+   "order": 6,
+   "id": "F",
+   "name": "bracket stress suites",
+   "batches": [
+    4,
+    5
+   ],
+   "status": "not_started",
+   "depends_on": [
+    "E"
+   ],
+   "decisions": [
+    "D4"
+   ]
+  },
+  {
+   "order": 7,
+   "id": "H",
+   "name": "human-sampling infra",
+   "batches": [
+    2,
+    3
+   ],
+   "status": "not_started",
+   "must_precede": [
+    "M6_outputs"
+   ],
+   "decisions": [
+    "D7"
+   ]
+  },
+  {
+   "order": 8,
+   "id": "M5_regen",
+   "name": "regenerate M5 on A-F",
+   "batches": [
+    2,
+    3
+   ],
+   "status": "not_started",
+   "depends_on": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ]
+  },
+  {
+   "order": 9,
+   "id": "BIRTHDAY_SNAPSHOT",
+   "name": "fresh Birthday authority snapshot + delta refresh + full rebuild/validate_all",
+   "batches": [
+    2,
+    3
+   ],
+   "status": "not_started",
+   "depends_on": [
+    "M5_regen"
+   ],
+   "decisions": [
+    "D6"
+   ]
+  },
+  {
+   "order": 10,
+   "id": "M5_ACCEPT",
+   "name": "Cory's M5 review/acceptance",
+   "batches": null,
+   "status": "not_started",
+   "human_only": true,
+   "depends_on": [
+    "BIRTHDAY_SNAPSHOT"
+   ]
+  },
+  {
+   "order": 11,
+   "id": "IJ",
+   "name": "Zero-Improvement Certificate + reproducibility bundle schemas",
+   "batches": [
+    4,
+    5
+   ],
+   "status": "not_started",
+   "depends_on": [
+    "M5_ACCEPT"
+   ]
+  },
+  {
+   "order": 12,
+   "id": "K",
+   "name": "three-sided M6 (Pass A/B commit-then-reveal, Pass C critic, reconciliation)",
+   "batches": [
+    6,
+    9
+   ],
+   "status": "not_started",
+   "depends_on": [
+    "IJ"
+   ],
+   "decisions": [
+    "D3"
+   ]
+  },
+  {
+   "order": 13,
+   "id": "M6",
+   "name": "M6 with H sampling",
+   "batches": null,
+   "status": "not_started",
+   "depends_on": [
+    "K",
+    "H"
+   ]
+  },
+  {
+   "order": 14,
+   "id": "G_EVAL",
+   "name": "benchmark evaluation",
+   "batches": [
+    3,
+    4
+   ],
+   "status": "not_started",
+   "depends_on": [
+    "M6"
+   ],
+   "decisions": [
+    "D2"
+   ]
+  },
+  {
+   "order": 15,
+   "id": "M7_M8",
+   "name": "M7/M8",
+   "batches": null,
+   "status": "not_started",
+   "depends_on": [
+    "G_EVAL"
+   ]
+  }
+ ],
+ "snapshots": {
+  "development": "snap-20261016 (frozen during A-F; Cory D6)",
+  "birthday": null,
+  "dev_snapshot_lock": "data/grixis/dev_snapshot_lock.json (enforced by ingest_scryfall.get_bulk and validate_all step dev-snapshot-lock; Birthday override only)"
+ },
+ "acceptance_standard": [
+  "schema",
+  "determinism",
+  "tests",
+  "validate_all_integration",
+  "provenance",
+  "limitations",
+  "evidence_classes",
+  "real_deck_examples",
+  "demonstrated_decision_quality_gain"
+ ],
+ "benchmark_scoring_rule": {
+  "recorded": "Bot cycle 64.3",
+  "evaluation_roles": [
+   "detection",
+   "regression_guard",
+   "judgment_calibration"
+  ],
+  "stratify_by": [
+   "evaluation_role",
+   "originated_by",
+   "contamination.level"
+  ],
+  "pooled_score_allowed": false,
+  "enforced_by": "scripts/grixis_benchmark.py --check (manifest reporting_rule)"
+ },
+ "deferred_staleness": [
+  "grixis/Grixis Evaluation.md built from the 2026-10-15 bulk (regenerating rewrites deck pages and cascades); clear at the Birthday snapshot refresh",
+  "rulings bulk 2026-10-16 exists in /tmp/c64-cache-partial-backup while validation uses 2026-10-15; clear at the Birthday snapshot refresh"
+ ],
+ "m5_candidate_files": "capped legacy, superseded at M5 regeneration",
+ "launch_tracker": {
+  "updated": "ChatGPT cycle 68.5 (2026-10-16)",
+  "definition_of_100_percent": "all prerequisite infrastructure finished and validated, M5 accepted on the fresh Birthday snapshot, I/J and K complete, M6 cleared to begin (M6 itself excluded)",
+  "weighting": "batch-weighted: estimated batches per stage = midpoint of the plan range (completed stages count their actual batches); percent = done / total",
+  "stages": [
+   {
+    "id": "G0",
+    "estimated_batches": 4,
+    "batches_done": 4,
+    "status": "complete",
+    "note": "took 4 (64.1-64.4)"
+   },
+   {
+    "id": "A",
+    "estimated_batches": 3,
+    "batches_done": 3,
+    "status": "complete_pending_m5_regeneration",
+    "note": "took 3 (65.1-65.3); plan est 6-8"
+   },
+   {
+    "id": "E",
+    "estimated_batches": 16,
+    "batches_done": 15,
+    "status": "code_complete_pending_local_cache_validation",
+    "note": "15 engineering batches/sub-batches complete through 66.13; reserve 1 batch-equivalent for frozen-cache coverage/examples rebuild + full local validation."
+   },
+   {
+    "id": "B",
+    "estimated_batches": 5,
+    "batches_done": 5,
+    "status": "complete",
+    "note": "took 5 ChatGPT batches (67.1-67.5): 62-deck vectors, D5 overlay, line semantics, variant families, integration/gain proof."
+   },
+   {
+    "id": "C",
+    "estimated_batches": 6,
+    "batches_done": 4,
+    "status": "in_progress",
+    "note": "4/6 validated batch-equivalents complete (68.1, 68.2, 68.4, 68.5); 68.3 code-ready but separately pending frozen-local-cache validation; 68.6 integration planned."
+   },
+   {
+    "id": "D",
+    "estimated_batches": 3.5,
+    "batches_done": 0,
+    "status": "not_started",
+    "note": "est 3-4"
+   },
+   {
+    "id": "F",
+    "estimated_batches": 4.5,
+    "batches_done": 0,
+    "status": "not_started",
+    "note": "est 4-5"
+   },
+   {
+    "id": "H",
+    "estimated_batches": 2.5,
+    "batches_done": 0,
+    "status": "not_started",
+    "note": "est 2-3"
+   },
+   {
+    "id": "rebuild_m5",
+    "estimated_batches": 2.5,
+    "batches_done": 0,
+    "status": "not_started",
+    "note": "est 2-3"
+   },
+   {
+    "id": "birthday_snapshot",
+    "estimated_batches": 2.5,
+    "batches_done": 0,
+    "status": "not_started",
+    "note": "est 2-3"
+   },
+   {
+    "id": "cory_m5_acceptance",
+    "estimated_batches": 1,
+    "batches_done": 0,
+    "status": "not_started",
+    "note": "Cory review; weighted as 1 batch"
+   },
+   {
+    "id": "I_J",
+    "estimated_batches": 4.5,
+    "batches_done": 0,
+    "status": "not_started",
+    "note": "est 4-5"
+   },
+   {
+    "id": "K",
+    "estimated_batches": 7.5,
+    "batches_done": 0,
+    "status": "not_started",
+    "note": "est 6-9"
+   }
+  ],
+  "total_estimated_batches": 62.5,
+  "batches_done": 31,
+  "percent_complete": 49.6
+ }
 }

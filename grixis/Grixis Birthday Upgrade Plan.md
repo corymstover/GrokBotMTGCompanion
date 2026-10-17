@@ -381,3 +381,13 @@ Step B is complete as **evidence infrastructure**, not as a deck decision. It re
 The demonstrated-gain record shows materially finer decision resolution than binary combo presence while preserving **zero automatic primary/secondary/backup/incidental/value-loop priority decisions**. Exact/colored mana remains Step C; commander marginal value remains Step D; final priority remains judgment/M6.
 
 Step E is code-closed through 66.13 but still waits on one local frozen-cache rebuild/full-validation gate before it is called fully validated.
+
+
+### Step C batch 68.5: mana/color-screw and structural source resilience
+
+- `scripts/grixis_mana_resilience.py` consumes the committed 68.1/68.2 mana artifacts only; it does not refresh Scryfall or simulate opponents.
+- Records exact no-mulligan complements for land-drop and colored-source presence by turns 2–5. These are access failures, not game-loss or cast probabilities.
+- Adds a one-source-unavailable sensitivity probe. The library stays at 99 and one source mask is blanked; absolute and baseline-relative deltas are both retained. Equivalent source masks are collapsed exactly for runtime, not sampled.
+- Records fetch-target redundancy and single-color target points, plus demand/source context. No universal mana-quality score or automatic land cut is produced.
+- All 62 deck records validate against `mana_resilience.schema.json`; focused regression tests pass. The development snapshot metadata is unchanged.
+- 68.3 commander-casting/tax evidence remains code-ready but requires the frozen local Scryfall cache, so it is not counted complete yet.
