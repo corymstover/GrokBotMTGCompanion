@@ -28,10 +28,7 @@ def test_any_color_uses_deck_identity_not_card_identity():
 
 
 def test_fetchland_type_words_become_potential_colors():
-    delta = card(
-        "Polluted Delta",
-        oracle="{T}, Pay 1 life, Sacrifice Polluted Delta: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle.",
-    )
+    delta = card("Polluted Delta", oracle="{T}, Pay 1 life, Sacrifice Polluted Delta: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle.")
     x = mb.classify(delta, set("UBR"))
     assert set(x["fetch_types"]) == {"Island", "Swamp"}
     assert x["basic_fetch"] is False
@@ -39,20 +36,14 @@ def test_fetchland_type_words_become_potential_colors():
 
 
 def test_off_identity_fetch_type_does_not_become_usable_color():
-    strand = card(
-        "Flooded Strand",
-        oracle="{T}, Pay 1 life, Sacrifice Flooded Strand: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle.",
-    )
+    strand = card("Flooded Strand", oracle="{T}, Pay 1 life, Sacrifice Flooded Strand: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle.")
     x = mb.classify(strand, set("UBR"))
     assert set(x["fetch_types"]) == {"Plains", "Island"}
     assert x["source_colors"] == "U"
 
 
 def test_basic_fetch_uses_deck_identity_as_potential_colors():
-    vista = card(
-        "Prismatic Vista",
-        oracle="{T}, Pay 1 life, Sacrifice Prismatic Vista: Search your library for a basic land card, put it onto the battlefield, then shuffle.",
-    )
+    vista = card("Prismatic Vista", oracle="{T}, Pay 1 life, Sacrifice Prismatic Vista: Search your library for a basic land card, put it onto the battlefield, then shuffle.")
     x = mb.classify(vista, set("UBR"))
     assert x["basic_fetch"] is True
     assert x["fetch_types"] == []
@@ -75,22 +66,16 @@ def test_restricted_source_is_labeled_conditional():
 
 
 def test_treasure_grant_is_not_mistaken_for_card_self_sacrifice():
-    maker = card(
-        "Treasure Maker",
-        mana="{3}{R}",
-        mv=4,
-        ci="R",
-        typ="Creature — Dwarf",
-        oracle="Whenever you cast an instant or sorcery spell, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
-    )
+    maker = card("Treasure Maker", mana="{3}{R}", mv=4, ci="R", typ="Creature — Dwarf", oracle="Whenever you cast an instant or sorcery spell, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")")
     x = mb.classify(maker, set("UBR"))
     assert x["one_shot_mana"] is False
 
 
-def test_named_self_sacrifice_is_one_shot_mana():
-    petal = card("Lotus Petal", mv=0, typ="Artifact", oracle="{T}, Sacrifice Lotus Petal: Add one mana of any color.")
+def test_oracle_normalized_self_sacrifice_is_one_shot_not_repeatable():
+    petal = card("Lotus Petal", mv=0, typ="Artifact", oracle="{T}, Sacrifice this artifact: Add one mana of any color.")
     x = mb.classify(petal, set("UBR"))
     assert x["one_shot_mana"] is True
+    assert x["repeatable_nonland_source"] is False
     assert x["fast_mana"] is True
 
 
@@ -119,6 +104,10 @@ def test_real_frozen_card_page_smoke():
     assert set(abaddon["color_identity"]) == {"U", "B", "R"}
     modeled = mb.classify(abaddon, set("UBR"))
     assert modeled["cost"]["colored_equivalent"] == {"U": 1.0, "B": 1.0, "R": 1.0}
+    petal = mb.classify(db.get("Lotus Petal"), set("UBR"))
+    led = mb.classify(db.get("Lion's Eye Diamond"), set("UBR"))
+    assert petal["one_shot_mana"] and not petal["repeatable_nonland_source"]
+    assert led["one_shot_mana"] and led["fast_mana"]
 
 
 def test_build_record_is_never_decision_capable():
