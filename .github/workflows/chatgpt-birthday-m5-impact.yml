@@ -1,0 +1,99 @@
+name: ChatGPT Birthday M5 impact audit
+
+on:
+  push:
+    branches: [chatgpt-cycle74-birthday-authority]
+    paths:
+      - data/grixis/birthday_authority/manifest.json
+      - data/grixis/birthday_authority/delta_vs_snap-20261016.json
+      - data/grixis/birthday_authority/edhrec_current.json.gz
+  workflow_dispatch:
+
+concurrency:
+  group: chatgpt-cycle74-birthday-m5-impact
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  impact:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle74-birthday-authority
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Harden semantic impact classification
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('scripts/grixis_birthday_m5_impact.py')
+          s=p.read_text(encoding='utf-8')
+
+          old='''    oracle = delta["scryfall_oracle"]\n    changed_oracle = {x["name"] for x in oracle.get("changed", []) if x.get("name")}\n'''
+          new='''    oracle = delta["scryfall_oracle"]\n    # Printing representative metadata can move while Oracle/game semantics stay identical.\n    # Only semantic/rules/legality fields can reopen structural or candidate semantics.\n    semantic_fields = {"name", "layout", "mana_cost", "cmc", "type_line", "oracle_text",\n                       "color_identity", "keywords", "commander_legality", "faces"}\n    changed_oracle = {x["name"] for x in oracle.get("changed", [])\n                      if x.get("name") and set(x.get("fields") or []) & semantic_fields}\n    metadata_only_oracle = {x["name"] for x in oracle.get("changed", [])\n                            if x.get("name") and not (set(x.get("fields") or []) & semantic_fields)}\n'''
+          if old in s:
+              s=s.replace(old,new,1)
+              print('patched semantic Oracle classification')
+          elif 'metadata_only_oracle = {' in s:
+              print('semantic Oracle classification already present')
+          else:
+              raise SystemExit('Oracle impact block not found')
+
+          oldfn='''def tournament_delta(slug: str):\n    a = OLD_TOUR / f"{slug}.json"\n    b = FRESH_TOUR / f"{slug}.json"\n    if not a.exists() and not b.exists():\n        return None\n    if not a.exists() or not b.exists():\n        return {"changed": True, "reason": "file_added_or_removed", "old": a.exists(), "fresh": b.exists()}\n    old = json.loads(a.read_text(encoding="utf-8")); new = json.loads(b.read_text(encoding="utf-8"))\n    keys = ("status", "sample_size", "window", "commander", "cards")\n    changed = [k for k in keys if old.get(k) != new.get(k)]\n    return {"changed": bool(changed), "fields": changed,\n            "old_sample_size": old.get("sample_size"), "fresh_sample_size": new.get("sample_size")}\n'''
+          newfn='''def tournament_delta(slug: str):\n    a = OLD_TOUR / f"{slug}.json"\n    b = FRESH_TOUR / f"{slug}.json"\n    if not a.exists() and not b.exists():\n        return None\n    if not a.exists() or not b.exists():\n        return {"changed": True, "reason": "file_added_or_removed", "old": a.exists(), "fresh": b.exists(),\n                "card_rows_refresh_required": b.exists()}\n    old = json.loads(a.read_text(encoding="utf-8")); new = json.loads(b.read_text(encoding="utf-8"))\n    # Authority boundary refreshes current commander/meta state only. Per-card EDHTop16 rows\n    # are intentionally deferred to the affected fresh-M5 review work and must not be read as empty evidence.\n    keys = ("status", "sample_size", "window", "commander")\n    changed = [k for k in keys if old.get(k) != new.get(k)]\n    deferred = new.get("card_rows_status") == "deferred_to_birthday_m5_delta"\n    return {"changed": bool(changed) or deferred, "fields": changed,\n            "card_rows_refresh_required": deferred, "card_rows_status": new.get("card_rows_status"),\n            "old_sample_size": old.get("sample_size"), "fresh_sample_size": new.get("sample_size")}\n'''
+          if oldfn in s:
+              s=s.replace(oldfn,newfn,1)
+              print('patched tournament deferred-row classification')
+          elif 'card_rows_refresh_required' in s:
+              print('tournament deferred-row classification already present')
+          else:
+              raise SystemExit('tournament impact block not found')
+
+          oldg='''        "global": {"rules_changed": rules_changed, "new_eligible_pool_cards": sorted(added_eligible),\n                   "oracle_changed_names": len(changed_oracle), "ruling_affected_names": len(ruling_names),\n                   "commander_legality_changes": len(legality_names)},\n'''
+          newg='''        "global": {"rules_changed": rules_changed, "new_eligible_pool_cards": sorted(added_eligible),\n                   "oracle_semantic_changed_names": len(changed_oracle),\n                   "oracle_metadata_only_changed_names": sorted(metadata_only_oracle),\n                   "ruling_affected_names": len(ruling_names),\n                   "commander_legality_changes": len(legality_names)},\n'''
+          if oldg in s:
+              s=s.replace(oldg,newg,1)
+          elif 'oracle_metadata_only_changed_names' not in s:
+              raise SystemExit('impact global block not found')
+
+          s=s.replace('VERSION = 1\n','VERSION = 2\n',1)
+          p.write_text(s,encoding='utf-8')
+          PY
+
+      - name: Build and validate Birthday M5 dependency impact
+        run: |
+          python scripts/grixis_birthday_m5_impact.py --build --check
+
+      - name: Commit impact audit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/grixis_birthday_m5_impact.py data/grixis/birthday_m5/impact.json
+          if git diff --cached --quiet; then
+            echo "no impact changes to commit"
+          else
+            git commit -m "ChatGPT cycle 74: classify fresh Birthday M5 impact [skip ci]"
+            git pull --rebase origin chatgpt-cycle74-birthday-authority
+            git push origin HEAD:chatgpt-cycle74-birthday-authority
+          fi
+
+      - name: Impact summary
+        run: |
+          python - <<'PY'
+          import json
+          d=json.load(open('data/grixis/birthday_m5/impact.json'))
+          print('snapshot',d['birthday_snapshot'])
+          print('summary',d['summary'])
+          print('global',d['global'])
+          for x in d['decks']:
+              if x['status'] != 'no_change':
+                  print(x['slug'],x['status'],x['structural_reasons'],x['candidate_reasons'],x['evidence_reasons'])
+          PY
