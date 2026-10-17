@@ -3,6 +3,7 @@
 
 The legacy grixis_candidates engine remains the deterministic screening/swap-hypothesis core. This wrapper:
   * builds from the uncapped Step-A saturated universe;
+  * drains both paired_test and escalated_queued work for the completed frozen M5 corpus;
   * leaves every M5 swap exploratory / undecided;
   * adds hash-bound A–F deck context;
   * adds A–F evidence/review obligations to every full screening review and every swap hypothesis;
@@ -39,10 +40,28 @@ VERSION = 1
 CYCLE = 73
 OUT = ROOT / "data/grixis/m5_regen/candidates"
 SUMMARY = ROOT / "data/grixis/m5_regen/summary.json"
-PLAN = ROOT / "data/grixis/upgrade_plan.json"
 DEV_LOCK = ROOT / "data/grixis/dev_snapshot_lock.json"
 
+# Step-A v3 escalation labels extend the older candidate-review vocabulary. They are preserved verbatim.
+SATURATION_ESCALATION_REASONS = (
+    "tier_a_score", "dependency_graph_alternative", "spellbook_near_miss_completion", "package_gap", "new_card",
+    "unusual_oracle_interaction", "anomaly_source_disagreement", "human_evidence", "tournament_evidence",
+    "multi_source_corroboration",
+)
+ga.ESCALATION_REASONS = tuple(sorted(set(ga.ESCALATION_REASONS) | set(SATURATION_ESCALATION_REASONS)))
+
 _CTX = None
+
+
+def final_triage(D, keep, sat):
+    """Final M5 drains Step-A's ordered escalation queue; screen_only stays screened but unreviewed."""
+    esc = {n: sat[n]["escalation"] for n in keep if sat[n]["escalation"]}
+    full = [n for n in keep if sat[n]["test_tier"] in ("paired_test", "escalated_queued")]
+    return full, esc, []
+
+
+# grixis_candidates resolves the triage function at runtime; this changes only Cycle-73 wrapper execution.
+gc.triage = final_triage
 
 
 def sha_bytes(b: bytes):
@@ -70,10 +89,16 @@ def base_context():
     return gc._ctx()
 
 
-def integrate(doc, D, af):
+def integrate(doc, af):
     """Mutate one freshly generated saturated M5 doc into the A-F-bound Cycle-73 form."""
     swap_by = {sw["id"]: sw for sw in doc["swaps"]}
+    sat_ref = f"saturation:data/grixis/saturation/{doc['slug']}.json"
     for rec in doc["candidates"]:
+        if rec["escalation"]["escalated"]:
+            # The Step-A certificate is itself the provenance for the new escalation vocabulary.
+            rec["escalation"]["evidence_refs"] = sorted(set(rec["escalation"]["evidence_refs"] + [sat_ref + "#candidate=" + rec["card"]]))
+            rec["escalation"]["by"] = "script:grixis_saturation.py v3; drained by grixis_m5_regen.py"
+            rec["escalation"]["note"] = "Step-A saturation escalation; final Cycle-73 M5 drains paired_test and escalated_queued work."
         rv = rec.get("review")
         if not rv:
             continue
@@ -93,6 +118,13 @@ def integrate(doc, D, af):
 
     afc = af.deck_context()
     doc["a_f_context"] = afc
+    doc["triage"]["escalated_queued"] = []
+    doc["triage"]["default_rule"] = (
+        "Cycle 73 final frozen M5: fully review every Step-A paired_test and escalated_queued candidate in priority order; "
+        "screen_only cards remain in the uncapped legal-pool universe but are not promoted to scripted full review."
+    )
+    doc["universe"]["full_review_rule"] = doc["triage"]["default_rule"]
+
     old_snapshot = doc["snapshot"]["id"]
     dev = json.loads(DEV_LOCK.read_text(encoding="utf-8"))["snapshot"]
     doc["snapshot"]["development_snapshot"] = dev
@@ -109,8 +141,8 @@ def integrate(doc, D, af):
     doc["cycle"] = CYCLE
     doc["pass_id"] = f"m5:{doc['slug']}:c{CYCLE}:" + sid[7:19]
     doc["authority"]["note"] += (
-        " Cycle 73 regeneration binds each screening hypothesis to validated A-F evidence/review obligations. "
-        "Those envelopes remain non-decision-capable and do not register or promote a challenger."
+        " Cycle 73 regeneration drains Step-A escalations and binds every screening hypothesis to validated A-F "
+        "evidence/review obligations. Those envelopes remain non-decision-capable and do not register or promote a challenger."
     )
     return doc
 
@@ -121,9 +153,8 @@ def build_one(slug):
     doc = gc.build_deck(did, v, R, reg, pool, first, almost)
     rid = ga.registry_id(did)
     canonical_hash = reg["decks"][rid]["canonical_project_list"]["hash"]
-    D = gc.DeckCtx(did, v, R, reg, pool, first, almost)
     af = gaf.DeckAFEvidence(slug, rid, canonical_hash, pool)
-    doc = integrate(doc, D, af)
+    doc = integrate(doc, af)
     write_doc(slug, doc)
     c = doc["counts"]
     return {
@@ -203,9 +234,13 @@ def semantic_problems(doc):
         p.append("wrong frozen development snapshot")
     if doc.get("authority", {}).get("exploratory") is not True:
         p.append("M5 lost exploratory authority")
+    if doc.get("triage", {}).get("escalated_queued"):
+        p.append("Step-A escalated queue not fully drained")
     swap_ids = {s["id"] for s in doc.get("swaps", [])}
     for c in doc.get("candidates", []):
         rv = c.get("review")
+        if c.get("escalation", {}).get("escalated") and not c.get("full_review"):
+            p.append(f"{c['card']}: escalated candidate left without final M5 full review")
         if c.get("full_review") and not rv:
             p.append(f"{c['card']}: full review missing")
             continue
@@ -243,7 +278,7 @@ def check(verbose=True):
     if got != expected:
         probs.append(f"coverage mismatch missing={sorted(expected-got)} extra={sorted(got-expected)}")
 
-    # Reuse the mature legacy structural/schema checker against the regenerated directory, without its expensive rebuild check.
+    # Reuse the mature structural/schema checker against the regenerated directory, without its expensive rebuild check.
     old_out = gc.OUT
     try:
         gc.OUT = OUT
@@ -274,12 +309,13 @@ def check(verbose=True):
 
 
 def summary():
-    rows = []
     totals = Counter()
     route = Counter()
     bracket = Counter()
+    rows = 0
     for slug, path in sorted(files().items()):
         d = read_doc(path)
+        rows += 1
         c = d["counts"]
         for k in ("universe", "screening_reviews", "swaps", "paired_tests"):
             totals[k] += c[k]
@@ -288,8 +324,7 @@ def summary():
             af = (cand.get("review") or {}).get("a_f_evidence") or {}
             for h in af.get("hypotheses", []):
                 route[h["E_mechanics"]["route"]["status"]] += 1
-        rows.append(slug)
-    print(json.dumps({"decks": len(rows), "totals": dict(totals), "E_routes": dict(route), "F_families": dict(bracket)}, indent=2, sort_keys=True))
+    print(json.dumps({"decks": rows, "totals": dict(totals), "E_routes": dict(route), "F_families": dict(bracket)}, indent=2, sort_keys=True))
 
 
 def main():
