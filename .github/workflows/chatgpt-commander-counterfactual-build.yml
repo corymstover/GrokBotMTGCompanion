@@ -1,0 +1,64 @@
+name: Temporary ChatGPT commander counterfactual validation
+
+on:
+  push:
+    branches: [chatgpt-cycle69-2-commander-counterfactual]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      SCRYFALL_OFFLINE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle69-2-commander-counterfactual
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --disable-pip-version-check pytest jsonschema
+      - name: Synthetic paired-counterfactual tests
+        run: python -m pytest -q tests/test_commander_counterfactual.py
+      - name: Validate record schema and explicit pending state
+        run: |
+          python - <<'PY'
+          import json,jsonschema
+          s=json.load(open('data/grixis/schemas/commander_counterfactual.schema.json'))
+          jsonschema.Draft202012Validator.check_schema(s)
+          PY
+          python scripts/grixis_commander_counterfactual.py --check
+      - name: Update Step D plan and tracker
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('data/grixis/upgrade_plan.json'); d=json.loads(p.read_text())
+          s=next(x for x in d['steps'] if x['id']=='D'); s['status']='in_progress'; s['batches']=[
+            '69.1 structural commander marginality: Blueprint routes, engines/packages and Step-B combo route dependence',
+            '69.2 paired counterfactual simulator architecture: normal / unavailable / +2 tax / bounded removal-disruption proxy; synthetic validation complete, real 62 outputs pending frozen local cache',
+            '69.3 dynamic marginal-value integration, meaningful-action instrumentation and gain proof (planned; full outputs require frozen local cache)'
+          ]
+          tr=d['launch_tracker']; tr['updated']='ChatGPT cycle 69.2 (2026-10-16)'
+          x=next(x for x in tr['stages'] if x['id']=='D'); x['batches_done']=2; x['status']='in_progress'; x['note']='2/3.5 batch-equivalents complete: structural layer + paired counterfactual simulator architecture. Real 62 dynamic outputs and final integration/gain closure remain.'
+          tr['batches_done']=34; tr['percent_complete']=54.4
+          p.write_text(json.dumps(d,indent=1,ensure_ascii=False)+'\n')
+          md=Path('grixis/Grixis Birthday Upgrade Plan.md'); t=md.read_text(); marker='### Step D batch 69.2: paired commander counterfactual simulator architecture'
+          if marker not in t:
+              t += '''\n\n### Step D batch 69.2: paired commander counterfactual simulator architecture\n\n- `scripts/grixis_commander_counterfactual.py` defines paired v1.1 goldfish modes using identical library permutations and RNG seeds: normal commander access, commander unavailable, +2 starting commander-tax sensitivity, and the existing bounded commander-removal stress proxy.\n- Commander-unavailable keeps the same 99-card library and removes command-zone access; it does not invent a replacement card. Commander-containing combo lines therefore remain unavailable in that mode.\n- Metrics remain separated: commander casting, mana available/spent, extra draw, tutors, fast-mana use, first key-set access, combo assembly/win proxy, and disruption/recast recovery. No scalar commander-value score is produced.\n- The legacy simulator does not expose a trustworthy meaningful-action event count, so that dimension is explicitly left unmodeled rather than approximated with an invented composite.\n- Synthetic paired tests validate the four modes in cache-free CI. Real 62-deck output generation requires the frozen local Scryfall cache and remains pending.\n'''
+              md.write_text(t)
+          PY
+      - name: Assert snapshot metadata unchanged
+        run: git diff --exit-code HEAD -- data/grixis/dev_snapshot_lock.json
+      - name: Commit plan/docs and cleanup
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/chatgpt-commander-counterfactual-build.yml
+          git add data/grixis/upgrade_plan.json 'grixis/Grixis Birthday Upgrade Plan.md'
+          git commit -m "ChatGPT cycle 69.2: finalize counterfactual architecture [skip ci]"
+          git push
