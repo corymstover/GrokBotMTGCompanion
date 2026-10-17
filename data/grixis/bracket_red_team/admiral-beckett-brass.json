@@ -1,0 +1,2138 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
+ "deck_id": "Admiral_Beckett_Brass",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 96,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#engines/combat-draw-and-treasure"
+      ],
+      "card": "Bident of Thassa",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Bident of Thassa"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:pirate-bodies-and-tokens"
+      ],
+      "card": "Black Market Connections",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Black Market Connections"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#engines/combat-draw-and-treasure"
+      ],
+      "card": "Breeches, Brazen Plunderer",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Breeches, Brazen Plunderer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Breeches, Eager Pillager",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Breeches, Eager Pillager"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#engines/combat-draw-and-treasure"
+      ],
+      "card": "Captain Lannery Storm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Captain Lannery Storm"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#identity_core/Coercive Recruiter",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:creature-theft",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#plan/value"
+      ],
+      "card": "Coercive Recruiter",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Coercive Recruiter"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:pirate-lords",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft"
+      ],
+      "card": "Corsair Captain",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Corsair Captain"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#identity_core/Cover of Darkness",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:evasion",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft"
+      ],
+      "card": "Cover of Darkness",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Cover of Darkness"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:evasion"
+      ],
+      "card": "Daring Saboteur",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Daring Saboteur"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dimir Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Dimir Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:pirate-lords",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft"
+      ],
+      "card": "Dire Fleet Captain",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Dire Fleet Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dire Fleet Poisoner",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Dire Fleet Poisoner"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:creature-theft"
+      ],
+      "card": "Don Andres, the Renegade",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Don Andres, the Renegade"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#construction_rules/0"
+      ],
+      "card": "Double Down",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Double Down"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Edward Kenway",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Edward Kenway"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#identity_core/Fathom Fleet Captain",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:pirate-bodies-and-tokens",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft"
+      ],
+      "card": "Fathom Fleet Captain",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Fathom Fleet Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Izzet Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Izzet Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jeska's Will",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Jeska's Will"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#engines/combat-draw-and-treasure"
+      ],
+      "card": "Kindred Discovery",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Kindred Discovery"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kitesail Larcenist",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Kitesail Larcenist"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#failure_modes/commander-removal",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/port-razer-combats"
+      ],
+      "card": "Lightning Greaves",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Lightning Greaves"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Malcolm, Alluring Scoundrel",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Malcolm, Alluring Scoundrel"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#engines/combat-draw-and-treasure"
+      ],
+      "card": "Malcolm, Keen-Eyed Navigator",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Malcolm, Keen-Eyed Navigator"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "March of the Drowned",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/March of the Drowned"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#failure_modes/blocked-out",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:evasion",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#tutor_targets/Open into Wonder"
+      ],
+      "card": "Open into Wonder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Open into Wonder"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/port-razer-combats"
+      ],
+      "card": "Port Razer",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Port Razer",
+       "graph:data/grixis/graph/admiral-beckett-brass.json#win:port-razer-combats"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ragavan, Nimble Pilferer",
+      "decision_support": true,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Ragavan, Nimble Pilferer"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Rakdos Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#engines/combat-draw-and-treasure"
+      ],
+      "card": "Ramirez DePietro, Pillager",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Ramirez DePietro, Pillager"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't dilute Pirate density for generic Grixis value creatures.",
+      "Don't trim blocker removal/protection just to add more Pirates.",
+      "Don't add one-shot effects unless they convert a key combat into theft or a kill."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Blockers or fog effects stop the third Pirate from connecting, so no steal.",
+      "evidence_class": "strategic_judgment",
+      "id": "blocked-out",
+      "mitigations": [
+       "Evasion package",
+       "Open into Wonder",
+       "Cyclonic Rift on a key turn"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "A board wipe removes the Pirate density the condition needs.",
+      "evidence_class": "strategic_judgment",
+      "id": "sweeper-reset",
+      "mitigations": [
+       "Token makers",
+       "Raise the Palisade/Cannonade are one-sided",
+       "Admiral Brass reanimates Pirates"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Beckett removed repeatedly: the theft engine and anthem are gone.",
+      "evidence_class": "strategic_judgment",
+      "id": "commander-removal",
+      "mitigations": [
+       "Lightning Greaves",
+       "Free protection"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Blocker removal and one-sided sweepers matter more than counters; keep ~8-11 interaction pieces.",
+      "mana": "Four-mana commander; Treasure makers and rocks; 33 lands.",
+      "protection": "Greaves plus free protection (Fierce Guardianship, Deflecting Swat); the anthem dies with Beckett."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Admiral Beckett Brass",
+       "Fathom Fleet Captain",
+       "Dire Fleet Captain",
+       "Corsair Captain",
+       "Port Razer"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Cover of Darkness",
+       "Open into Wonder",
+       "Siren Stormtamer"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "pirate-beats-and-theft",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Port Razer"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Lightning Greaves"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "port-razer-combats",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Beckett is both the anthem and the theft engine; the deck's evasion, token and Pirate-density choices exist to meet his three-Pirate condition.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The three-different-Pirates-to-the-same-player condition is genuinely hard to meet through blockers, and the payoff is one steal per end step (two with Roaming Throne). Without evasion the deck is ordinary tribal aggro.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 1,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:board_wipe:1962192827ab",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:artifacts_wiped:e7321c096333",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:commander_removed_twice:8e5953fe6388",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:key_engine_exiled:3e213aed1bd0",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:mana_screw:ac398a937a4c",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:color_screw:74d6048f0f80",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:graveyard_exiled:0fc67035597f",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#engines/combat-draw-and-treasure"
+      ],
+      "card": "Breeches, Brazen Plunderer",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Breeches, Brazen Plunderer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#identity_core/Coercive Recruiter",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:creature-theft",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#plan/value"
+      ],
+      "card": "Coercive Recruiter",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Coercive Recruiter"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:pirate-lords",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft"
+      ],
+      "card": "Corsair Captain",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Corsair Captain"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#identity_core/Cover of Darkness",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:evasion",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft"
+      ],
+      "card": "Cover of Darkness",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Cover of Darkness"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#failure_modes/blocked-out",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:pirate-lords",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft"
+      ],
+      "card": "Dire Fleet Captain",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Dire Fleet Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dire Fleet Poisoner",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Dire Fleet Poisoner"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#construction_rules/0"
+      ],
+      "card": "Double Down",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Double Down"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#identity_core/Fathom Fleet Captain",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:pirate-bodies-and-tokens",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft"
+      ],
+      "card": "Fathom Fleet Captain",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Fathom Fleet Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:creature-theft",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#plan/value"
+      ],
+      "card": "Hostage Taker",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Hostage Taker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#failure_modes/commander-removal",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/port-razer-combats"
+      ],
+      "card": "Lightning Greaves",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Lightning Greaves"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "March of the Drowned",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/March of the Drowned"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#failure_modes/blocked-out",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:evasion",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#tutor_targets/Open into Wonder"
+      ],
+      "card": "Open into Wonder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Open into Wonder"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/port-razer-combats"
+      ],
+      "card": "Port Razer",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Port Razer",
+       "graph:data/grixis/graph/admiral-beckett-brass.json#win:port-razer-combats"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#failure_modes/sweeper-reset",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#key_interactions/one-sided-sweepers",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Raise the Palisade",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Raise the Palisade"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#engines/end-step-theft",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#identity_core/Roaming Throne"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:evasion",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft"
+      ],
+      "card": "Siren Stormtamer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Siren Stormtamer"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Zephyr Singer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Zephyr Singer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't dilute Pirate density for generic Grixis value creatures.",
+      "Don't trim blocker removal/protection just to add more Pirates.",
+      "Don't add one-shot effects unless they convert a key combat into theft or a kill."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Blockers or fog effects stop the third Pirate from connecting, so no steal.",
+      "evidence_class": "strategic_judgment",
+      "id": "blocked-out",
+      "mitigations": [
+       "Evasion package",
+       "Open into Wonder",
+       "Cyclonic Rift on a key turn"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "A board wipe removes the Pirate density the condition needs.",
+      "evidence_class": "strategic_judgment",
+      "id": "sweeper-reset",
+      "mitigations": [
+       "Token makers",
+       "Raise the Palisade/Cannonade are one-sided",
+       "Admiral Brass reanimates Pirates"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Beckett removed repeatedly: the theft engine and anthem are gone.",
+      "evidence_class": "strategic_judgment",
+      "id": "commander-removal",
+      "mitigations": [
+       "Lightning Greaves",
+       "Free protection"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Blocker removal and one-sided sweepers matter more than counters; keep ~8-11 interaction pieces.",
+      "mana": "Four-mana commander; Treasure makers and rocks; 33 lands.",
+      "protection": "Greaves plus free protection (Fierce Guardianship, Deflecting Swat); the anthem dies with Beckett."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Admiral Beckett Brass",
+       "Fathom Fleet Captain",
+       "Dire Fleet Captain",
+       "Corsair Captain",
+       "Port Razer"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Cover of Darkness",
+       "Open into Wonder",
+       "Siren Stormtamer"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "pirate-beats-and-theft",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Port Razer"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Lightning Greaves"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "port-razer-combats",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Beckett is both the anthem and the theft engine; the deck's evasion, token and Pirate-density choices exist to meet his three-Pirate condition.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The three-different-Pirates-to-the-same-player condition is genuinely hard to meet through blockers, and the payoff is one steal per end step (two with Roaming Throne). Without evasion the deck is ordinary tribal aggro.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 1,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:board_wipe:1962192827ab",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:artifacts_wiped:e7321c096333",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:commander_removed_twice:8e5953fe6388",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:key_engine_exiled:3e213aed1bd0",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:mana_screw:ac398a937a4c",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:color_screw:74d6048f0f80",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:graveyard_exiled:0fc67035597f",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#engines/combat-draw-and-treasure"
+      ],
+      "card": "Breeches, Brazen Plunderer",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Breeches, Brazen Plunderer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#identity_core/Coercive Recruiter",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:creature-theft",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#plan/value"
+      ],
+      "card": "Coercive Recruiter",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Coercive Recruiter"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:pirate-lords",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft"
+      ],
+      "card": "Corsair Captain",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Corsair Captain"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#identity_core/Cover of Darkness",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:evasion",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft"
+      ],
+      "card": "Cover of Darkness",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Cover of Darkness"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#failure_modes/blocked-out",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:pirate-lords",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft"
+      ],
+      "card": "Dire Fleet Captain",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Dire Fleet Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dire Fleet Poisoner",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Dire Fleet Poisoner"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#construction_rules/0"
+      ],
+      "card": "Double Down",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Double Down"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#identity_core/Fathom Fleet Captain",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:pirate-bodies-and-tokens",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft"
+      ],
+      "card": "Fathom Fleet Captain",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Fathom Fleet Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:creature-theft",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#plan/value"
+      ],
+      "card": "Hostage Taker",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Hostage Taker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#failure_modes/commander-removal",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/port-razer-combats"
+      ],
+      "card": "Lightning Greaves",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Lightning Greaves"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "March of the Drowned",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/March of the Drowned"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#failure_modes/blocked-out",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:evasion",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#tutor_targets/Open into Wonder"
+      ],
+      "card": "Open into Wonder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Open into Wonder"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/port-razer-combats"
+      ],
+      "card": "Port Razer",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Port Razer",
+       "graph:data/grixis/graph/admiral-beckett-brass.json#win:port-razer-combats"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#failure_modes/sweeper-reset",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#key_interactions/one-sided-sweepers",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Raise the Palisade",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Raise the Palisade"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#engines/end-step-theft",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#identity_core/Roaming Throne"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:evasion",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft"
+      ],
+      "card": "Siren Stormtamer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Siren Stormtamer"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Zephyr Singer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Zephyr Singer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't dilute Pirate density for generic Grixis value creatures.",
+      "Don't trim blocker removal/protection just to add more Pirates.",
+      "Don't add one-shot effects unless they convert a key combat into theft or a kill."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Blockers or fog effects stop the third Pirate from connecting, so no steal.",
+      "evidence_class": "strategic_judgment",
+      "id": "blocked-out",
+      "mitigations": [
+       "Evasion package",
+       "Open into Wonder",
+       "Cyclonic Rift on a key turn"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "A board wipe removes the Pirate density the condition needs.",
+      "evidence_class": "strategic_judgment",
+      "id": "sweeper-reset",
+      "mitigations": [
+       "Token makers",
+       "Raise the Palisade/Cannonade are one-sided",
+       "Admiral Brass reanimates Pirates"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Beckett removed repeatedly: the theft engine and anthem are gone.",
+      "evidence_class": "strategic_judgment",
+      "id": "commander-removal",
+      "mitigations": [
+       "Lightning Greaves",
+       "Free protection"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Blocker removal and one-sided sweepers matter more than counters; keep ~8-11 interaction pieces.",
+      "mana": "Four-mana commander; Treasure makers and rocks; 33 lands.",
+      "protection": "Greaves plus free protection (Fierce Guardianship, Deflecting Swat); the anthem dies with Beckett."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Admiral Beckett Brass",
+       "Fathom Fleet Captain",
+       "Dire Fleet Captain",
+       "Corsair Captain",
+       "Port Razer"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Cover of Darkness",
+       "Open into Wonder",
+       "Siren Stormtamer"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "pirate-beats-and-theft",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Port Razer"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Lightning Greaves"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "port-razer-combats",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Beckett is both the anthem and the theft engine; the deck's evasion, token and Pirate-density choices exist to meet his three-Pirate condition.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The three-different-Pirates-to-the-same-player condition is genuinely hard to meet through blockers, and the payoff is one steal per end step (two with Roaming Throne). Without evasion the deck is ordinary tribal aggro.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 1,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:board_wipe:1962192827ab",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:artifacts_wiped:e7321c096333",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:commander_removed_twice:8e5953fe6388",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:key_engine_exiled:3e213aed1bd0",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:mana_screw:ac398a937a4c",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:color_screw:74d6048f0f80",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:graveyard_exiled:0fc67035597f",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#engines/combat-draw-and-treasure"
+      ],
+      "card": "Breeches, Brazen Plunderer",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Breeches, Brazen Plunderer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#identity_core/Coercive Recruiter",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:creature-theft",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#plan/value"
+      ],
+      "card": "Coercive Recruiter",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Coercive Recruiter"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:pirate-lords",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft"
+      ],
+      "card": "Corsair Captain",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Corsair Captain"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Counterspell",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Counterspell"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#identity_core/Cover of Darkness",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:evasion",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft"
+      ],
+      "card": "Cover of Darkness",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Cover of Darkness"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#failure_modes/blocked-out",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:pirate-lords",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft"
+      ],
+      "card": "Dire Fleet Captain",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Dire Fleet Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dire Fleet Poisoner",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Dire Fleet Poisoner"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#construction_rules/0"
+      ],
+      "card": "Double Down",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Double Down"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#identity_core/Fathom Fleet Captain",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:pirate-bodies-and-tokens",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft"
+      ],
+      "card": "Fathom Fleet Captain",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Fathom Fleet Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:creature-theft",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#plan/value"
+      ],
+      "card": "Hostage Taker",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Hostage Taker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#failure_modes/commander-removal",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/port-razer-combats"
+      ],
+      "card": "Lightning Greaves",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Lightning Greaves"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "March of the Drowned",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/March of the Drowned"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#failure_modes/blocked-out",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:evasion",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#tutor_targets/Open into Wonder"
+      ],
+      "card": "Open into Wonder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Open into Wonder"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/port-razer-combats"
+      ],
+      "card": "Port Razer",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Port Razer",
+       "graph:data/grixis/graph/admiral-beckett-brass.json#win:port-razer-combats"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#failure_modes/sweeper-reset",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#key_interactions/one-sided-sweepers",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Raise the Palisade",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Raise the Palisade"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#engines/end-step-theft",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#identity_core/Roaming Throne"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:evasion",
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#win_conditions/pirate-beats-and-theft"
+      ],
+      "card": "Siren Stormtamer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Siren Stormtamer"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-beckett-brass.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Zephyr Singer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-beckett-brass.json#metrics/Zephyr Singer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't dilute Pirate density for generic Grixis value creatures.",
+      "Don't trim blocker removal/protection just to add more Pirates.",
+      "Don't add one-shot effects unless they convert a key combat into theft or a kill."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Blockers or fog effects stop the third Pirate from connecting, so no steal.",
+      "evidence_class": "strategic_judgment",
+      "id": "blocked-out",
+      "mitigations": [
+       "Evasion package",
+       "Open into Wonder",
+       "Cyclonic Rift on a key turn"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "A board wipe removes the Pirate density the condition needs.",
+      "evidence_class": "strategic_judgment",
+      "id": "sweeper-reset",
+      "mitigations": [
+       "Token makers",
+       "Raise the Palisade/Cannonade are one-sided",
+       "Admiral Brass reanimates Pirates"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Beckett removed repeatedly: the theft engine and anthem are gone.",
+      "evidence_class": "strategic_judgment",
+      "id": "commander-removal",
+      "mitigations": [
+       "Lightning Greaves",
+       "Free protection"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Blocker removal and one-sided sweepers matter more than counters; keep ~8-11 interaction pieces.",
+      "mana": "Four-mana commander; Treasure makers and rocks; 33 lands.",
+      "protection": "Greaves plus free protection (Fierce Guardianship, Deflecting Swat); the anthem dies with Beckett."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Admiral Beckett Brass",
+       "Fathom Fleet Captain",
+       "Dire Fleet Captain",
+       "Corsair Captain",
+       "Port Razer"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Cover of Darkness",
+       "Open into Wonder",
+       "Siren Stormtamer"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "pirate-beats-and-theft",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Port Razer"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Lightning Greaves"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "port-razer-combats",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Beckett is both the anthem and the theft engine; the deck's evasion, token and Pirate-density choices exist to meet his three-Pirate condition.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The three-different-Pirates-to-the-same-player condition is genuinely hard to meet through blockers, and the payoff is one steal per end step (two with Roaming Throne). Without evasion the deck is ordinary tribal aggro.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 1,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:board_wipe:1962192827ab",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:artifacts_wiped:e7321c096333",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:commander_removed_twice:8e5953fe6388",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:key_engine_exiled:3e213aed1bd0",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:mana_screw:ac398a937a4c",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:color_screw:74d6048f0f80",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-beckett-brass.json#test:admiral-beckett-brass:stress:graveyard_exiled:0fc67035597f",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "admiral-beckett-brass",
+ "source_packet": "data/grixis/bracket_stress_packets/admiral-beckett-brass.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

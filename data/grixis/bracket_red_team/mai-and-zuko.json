@@ -1,0 +1,2537 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+ "deck_id": "Mai_and_Zuko",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 99,
+  "commander_role": "significant",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/monolith-rings",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Aetherflux Reservoir",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Aetherflux Reservoir",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:2173-4740-5078"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:fast-mana"
+      ],
+      "card": "Arcane Signet",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Baleful Strix",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Baleful Strix"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#identity_core/Rings of Brighthearth",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#key_interactions/monolith-rings",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#key_interactions/unwinding-clock"
+      ],
+      "card": "Basalt Monolith",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Basalt Monolith",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:4131-4235",
+       "graph:data/grixis/graph/mai-and-zuko.json#win:monolith-rings"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bender's Waterskin",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Bender's Waterskin"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Blightstep Pathway // Searstep Pathway",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Blightstep Pathway // Searstep Pathway"
+      ],
+      "roles": [
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#plan/value",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Bolas's Citadel",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Bolas's Citadel",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:2173-4740-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#plan/value",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/breach"
+      ],
+      "card": "Brain Freeze",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Brain Freeze",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:fast-mana"
+      ],
+      "card": "Chrome Mox",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Chrome Mox"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Clearwater Pathway // Murkwater Pathway",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Clearwater Pathway // Murkwater Pathway"
+      ],
+      "roles": [
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#recursion/value"
+      ],
+      "card": "Emry, Lurker of the Loch",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Emry, Lurker of the Loch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Enthusiastic Mechanaut",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Enthusiastic Mechanaut",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:985-4908-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Etherium Sculptor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Etherium Sculptor",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:985-1976-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:fast-mana"
+      ],
+      "card": "Fellwar Stone",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fire Lord Azula",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Fire Lord Azula"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fire Nation Occupation",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Fire Nation Occupation"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Firebender Ascension",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Firebender Ascension"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Foundry Inspector",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Foundry Inspector",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:777-985-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jhoira, Weatherlight Captain",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Jhoira, Weatherlight Captain"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#engines/combat-and-off-turn",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:allies"
+      ],
+      "card": "Katara, Waterbending Master",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Katara, Waterbending Master"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/breach"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Longshot, Rebel Bowman",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Longshot, Rebel Bowman",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:985-5078-7356"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:fast-mana",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/breach"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Lotus Petal",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:1368-1414-4856"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#key_interactions/unwinding-clock",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:fast-mana"
+      ],
+      "card": "Mana Vault",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Mana Vault"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:fast-mana"
+      ],
+      "card": "Mox Diamond",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Mox Diamond"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:fast-mana"
+      ],
+      "card": "Mox Opal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Mox Opal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#key_interactions/top-flash",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#plan/value"
+      ],
+      "card": "Mystic Forge",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Mystic Forge",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:777-985-5078",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:985-1976-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystic Remora",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Mystic Remora"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Generic Grixis Thoracle/Consultation conversion rejected (decisions L17).",
+      "Keep cards that use flash or firebending mana over generic value."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Artifact wipes and stax hit both mana and combos.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-hate",
+      "mitigations": [
+       "Counters",
+       "Breach backup"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Urza's Saga can't find {X} cards.",
+      "evidence_class": "strategic_judgment",
+      "id": "saga-misses",
+      "mitigations": [
+       "Pick {0}/{1} targets"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Without Mai and Zuko the deck loses flash speed, not its wins.",
+      "evidence_class": "strategic_judgment",
+      "id": "commander-optional",
+      "mitigations": [
+       "Commander-free combos"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Swan Song, Toxic Deluge, Cyclonic Rift, flash artifacts.",
+      "mana": "31 lands plus heavy artifact fast mana.",
+      "protection": "Lightning Greaves, Deflecting Swat, instant-speed deployment."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Basalt Monolith",
+       "Rings of Brighthearth"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Aetherflux Reservoir"
+      ],
+      "evidence_class": "fact",
+      "id": "monolith-rings",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Sensei's Divining Top",
+       "Bolas's Citadel",
+       "Aetherflux Reservoir",
+       "Mystic Forge",
+       "Foundry Inspector",
+       "Etherium Sculptor",
+       "Enthusiastic Mechanaut",
+       "Longshot, Rebel Bowman"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Mai and Zuko"
+      ],
+      "evidence_class": "fact",
+      "id": "top-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Lotus Petal",
+       "Brain Freeze"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Flash for Allies and artifacts lets the combo and value pieces land on opponents' turns, and firebending adds combat mana.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Every Spellbook infinite in the list (Monolith + Rings, the Top loops, Breach) works without Mai and Zuko; the commander adds speed and instant-speed safety, not the kill.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 5,
+      "combo_commander_independent": 3,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 8
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:board_wipe:9204a1daee62",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:artifacts_wiped:0dba046bcdb2",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:commander_removed_twice:4047ea0787f3",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:key_engine_exiled:00c8699ed1c9",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:mana_screw:7b1e90e1621d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:color_screw:4f3ba9cf57f1",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:graveyard_exiled:53c160bed117",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/monolith-rings",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Aetherflux Reservoir",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Aetherflux Reservoir",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:2173-4740-5078"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#identity_core/Rings of Brighthearth",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#key_interactions/monolith-rings",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#key_interactions/unwinding-clock"
+      ],
+      "card": "Basalt Monolith",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Basalt Monolith",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:4131-4235",
+       "graph:data/grixis/graph/mai-and-zuko.json#win:monolith-rings"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#plan/value",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Bolas's Citadel",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Bolas's Citadel",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:2173-4740-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#plan/value",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/breach"
+      ],
+      "card": "Brain Freeze",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Brain Freeze",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#recursion/value"
+      ],
+      "card": "Emry, Lurker of the Loch",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Emry, Lurker of the Loch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Enthusiastic Mechanaut",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Enthusiastic Mechanaut",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:985-4908-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Etherium Sculptor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Etherium Sculptor",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:985-1976-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fire Lord Azula",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Fire Lord Azula"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fire Nation Occupation",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Fire Nation Occupation"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Firebender Ascension",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Firebender Ascension"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Foundry Inspector",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Foundry Inspector",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:777-985-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/breach"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Longshot, Rebel Bowman",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Longshot, Rebel Bowman",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:985-5078-7356"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:fast-mana",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/breach"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Lotus Petal",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:1368-1414-4856"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#key_interactions/top-flash",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#plan/value"
+      ],
+      "card": "Mystic Forge",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Mystic Forge",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:777-985-5078",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:985-1976-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Phyrexian Metamorph",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Phyrexian Metamorph"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#identity_core/Rings of Brighthearth",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#key_interactions/monolith-rings",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo"
+      ],
+      "card": "Rings of Brighthearth",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Rings of Brighthearth",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:4131-4235",
+       "graph:data/grixis/graph/mai-and-zuko.json#win:monolith-rings"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Roaming Throne",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#identity_core/Sensei's Divining Top",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#key_interactions/top-flash",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo"
+      ],
+      "card": "Sensei's Divining Top",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Sensei's Divining Top",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:2173-4740-5078",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:777-985-5078"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#engines/combat-and-off-turn",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#identity_core/The Blue Spirit",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:allies"
+      ],
+      "card": "The Blue Spirit",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/The Blue Spirit"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#engines/flash-artifacts"
+      ],
+      "card": "The Fire Nation Drill",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/The Fire Nation Drill"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Mechanist, Aerial Artisan",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/The Mechanist, Aerial Artisan"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Tuktuk Scrapper",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Tuktuk Scrapper"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#engines/flash-artifacts",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#identity_core/Tundra Tank"
+      ],
+      "card": "Tundra Tank",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Tundra Tank"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#recursion/value",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/breach"
+      ],
+      "card": "Underworld Breach",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Underworld Breach",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#engines/combat-and-off-turn",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#key_interactions/unwinding-clock"
+      ],
+      "card": "Unwinding Clock",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Unwinding Clock"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Generic Grixis Thoracle/Consultation conversion rejected (decisions L17).",
+      "Keep cards that use flash or firebending mana over generic value."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Artifact wipes and stax hit both mana and combos.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-hate",
+      "mitigations": [
+       "Counters",
+       "Breach backup"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Urza's Saga can't find {X} cards.",
+      "evidence_class": "strategic_judgment",
+      "id": "saga-misses",
+      "mitigations": [
+       "Pick {0}/{1} targets"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Without Mai and Zuko the deck loses flash speed, not its wins.",
+      "evidence_class": "strategic_judgment",
+      "id": "commander-optional",
+      "mitigations": [
+       "Commander-free combos"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Swan Song, Toxic Deluge, Cyclonic Rift, flash artifacts.",
+      "mana": "31 lands plus heavy artifact fast mana.",
+      "protection": "Lightning Greaves, Deflecting Swat, instant-speed deployment."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Basalt Monolith",
+       "Rings of Brighthearth"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Aetherflux Reservoir"
+      ],
+      "evidence_class": "fact",
+      "id": "monolith-rings",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Sensei's Divining Top",
+       "Bolas's Citadel",
+       "Aetherflux Reservoir",
+       "Mystic Forge",
+       "Foundry Inspector",
+       "Etherium Sculptor",
+       "Enthusiastic Mechanaut",
+       "Longshot, Rebel Bowman"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Mai and Zuko"
+      ],
+      "evidence_class": "fact",
+      "id": "top-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Lotus Petal",
+       "Brain Freeze"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Flash for Allies and artifacts lets the combo and value pieces land on opponents' turns, and firebending adds combat mana.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Every Spellbook infinite in the list (Monolith + Rings, the Top loops, Breach) works without Mai and Zuko; the commander adds speed and instant-speed safety, not the kill.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 5,
+      "combo_commander_independent": 3,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 8
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:board_wipe:9204a1daee62",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:artifacts_wiped:0dba046bcdb2",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:commander_removed_twice:4047ea0787f3",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:key_engine_exiled:00c8699ed1c9",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:mana_screw:7b1e90e1621d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:color_screw:4f3ba9cf57f1",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:graveyard_exiled:53c160bed117",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/monolith-rings",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Aetherflux Reservoir",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Aetherflux Reservoir",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:2173-4740-5078"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#identity_core/Rings of Brighthearth",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#key_interactions/monolith-rings",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#key_interactions/unwinding-clock"
+      ],
+      "card": "Basalt Monolith",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Basalt Monolith",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:4131-4235",
+       "graph:data/grixis/graph/mai-and-zuko.json#win:monolith-rings"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#plan/value",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Bolas's Citadel",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Bolas's Citadel",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:2173-4740-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#plan/value",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/breach"
+      ],
+      "card": "Brain Freeze",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Brain Freeze",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#recursion/value"
+      ],
+      "card": "Emry, Lurker of the Loch",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Emry, Lurker of the Loch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Enthusiastic Mechanaut",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Enthusiastic Mechanaut",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:985-4908-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Etherium Sculptor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Etherium Sculptor",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:985-1976-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fire Lord Azula",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Fire Lord Azula"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fire Nation Occupation",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Fire Nation Occupation"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Firebender Ascension",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Firebender Ascension"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Foundry Inspector",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Foundry Inspector",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:777-985-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/breach"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Longshot, Rebel Bowman",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Longshot, Rebel Bowman",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:985-5078-7356"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:fast-mana",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/breach"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Lotus Petal",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:1368-1414-4856"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#key_interactions/top-flash",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#plan/value"
+      ],
+      "card": "Mystic Forge",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Mystic Forge",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:777-985-5078",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:985-1976-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Phyrexian Metamorph",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Phyrexian Metamorph"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#identity_core/Rings of Brighthearth",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#key_interactions/monolith-rings",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo"
+      ],
+      "card": "Rings of Brighthearth",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Rings of Brighthearth",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:4131-4235",
+       "graph:data/grixis/graph/mai-and-zuko.json#win:monolith-rings"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Roaming Throne",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#identity_core/Sensei's Divining Top",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#key_interactions/top-flash",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo"
+      ],
+      "card": "Sensei's Divining Top",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Sensei's Divining Top",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:2173-4740-5078",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:777-985-5078"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#engines/combat-and-off-turn",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#identity_core/The Blue Spirit",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:allies"
+      ],
+      "card": "The Blue Spirit",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/The Blue Spirit"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#engines/flash-artifacts"
+      ],
+      "card": "The Fire Nation Drill",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/The Fire Nation Drill"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Mechanist, Aerial Artisan",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/The Mechanist, Aerial Artisan"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Tuktuk Scrapper",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Tuktuk Scrapper"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#engines/flash-artifacts",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#identity_core/Tundra Tank"
+      ],
+      "card": "Tundra Tank",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Tundra Tank"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#recursion/value",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/breach"
+      ],
+      "card": "Underworld Breach",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Underworld Breach",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#engines/combat-and-off-turn",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#key_interactions/unwinding-clock"
+      ],
+      "card": "Unwinding Clock",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Unwinding Clock"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Generic Grixis Thoracle/Consultation conversion rejected (decisions L17).",
+      "Keep cards that use flash or firebending mana over generic value."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Artifact wipes and stax hit both mana and combos.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-hate",
+      "mitigations": [
+       "Counters",
+       "Breach backup"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Urza's Saga can't find {X} cards.",
+      "evidence_class": "strategic_judgment",
+      "id": "saga-misses",
+      "mitigations": [
+       "Pick {0}/{1} targets"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Without Mai and Zuko the deck loses flash speed, not its wins.",
+      "evidence_class": "strategic_judgment",
+      "id": "commander-optional",
+      "mitigations": [
+       "Commander-free combos"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Swan Song, Toxic Deluge, Cyclonic Rift, flash artifacts.",
+      "mana": "31 lands plus heavy artifact fast mana.",
+      "protection": "Lightning Greaves, Deflecting Swat, instant-speed deployment."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Basalt Monolith",
+       "Rings of Brighthearth"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Aetherflux Reservoir"
+      ],
+      "evidence_class": "fact",
+      "id": "monolith-rings",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Sensei's Divining Top",
+       "Bolas's Citadel",
+       "Aetherflux Reservoir",
+       "Mystic Forge",
+       "Foundry Inspector",
+       "Etherium Sculptor",
+       "Enthusiastic Mechanaut",
+       "Longshot, Rebel Bowman"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Mai and Zuko"
+      ],
+      "evidence_class": "fact",
+      "id": "top-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Lotus Petal",
+       "Brain Freeze"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Flash for Allies and artifacts lets the combo and value pieces land on opponents' turns, and firebending adds combat mana.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Every Spellbook infinite in the list (Monolith + Rings, the Top loops, Breach) works without Mai and Zuko; the commander adds speed and instant-speed safety, not the kill.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 5,
+      "combo_commander_independent": 3,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 8
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:board_wipe:9204a1daee62",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:artifacts_wiped:0dba046bcdb2",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:commander_removed_twice:4047ea0787f3",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:key_engine_exiled:00c8699ed1c9",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:mana_screw:7b1e90e1621d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:color_screw:4f3ba9cf57f1",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:graveyard_exiled:53c160bed117",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/monolith-rings",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Aetherflux Reservoir",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Aetherflux Reservoir",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:2173-4740-5078"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#identity_core/Rings of Brighthearth",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#key_interactions/monolith-rings",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#key_interactions/unwinding-clock"
+      ],
+      "card": "Basalt Monolith",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Basalt Monolith",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:4131-4235",
+       "graph:data/grixis/graph/mai-and-zuko.json#win:monolith-rings"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#plan/value",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Bolas's Citadel",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Bolas's Citadel",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:2173-4740-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#plan/value",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/breach"
+      ],
+      "card": "Brain Freeze",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Brain Freeze",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#recursion/value"
+      ],
+      "card": "Emry, Lurker of the Loch",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Emry, Lurker of the Loch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Enthusiastic Mechanaut",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Enthusiastic Mechanaut",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:985-4908-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Etherium Sculptor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Etherium Sculptor",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:985-1976-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fire Lord Azula",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Fire Lord Azula"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fire Nation Occupation",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Fire Nation Occupation"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Firebender Ascension",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Firebender Ascension"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#requirements/value"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Foundry Inspector",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Foundry Inspector",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:777-985-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/breach"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/top-loops"
+      ],
+      "card": "Longshot, Rebel Bowman",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Longshot, Rebel Bowman",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:985-5078-7356"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:fast-mana",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#win_conditions/breach"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Lotus Petal",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:1368-1414-4856"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#key_interactions/top-flash",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#plan/value"
+      ],
+      "card": "Mystic Forge",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Mystic Forge",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:777-985-5078",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:985-1976-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Phyrexian Metamorph",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Phyrexian Metamorph"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#identity_core/Rings of Brighthearth",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#key_interactions/monolith-rings",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo"
+      ],
+      "card": "Rings of Brighthearth",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Rings of Brighthearth",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:4131-4235",
+       "graph:data/grixis/graph/mai-and-zuko.json#win:monolith-rings"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Roaming Throne",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#identity_core/Sensei's Divining Top",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#key_interactions/top-flash",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:artifact-combo"
+      ],
+      "card": "Sensei's Divining Top",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Sensei's Divining Top",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:2173-4740-5078",
+       "graph:data/grixis/graph/mai-and-zuko.json#combo:777-985-5078"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#requirements/value"
+      ],
+      "card": "Swan Song",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/Swan Song"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#engines/combat-and-off-turn",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#identity_core/The Blue Spirit",
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#packages/pkg:allies"
+      ],
+      "card": "The Blue Spirit",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/The Blue Spirit"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mai-and-zuko.json#engines/flash-artifacts"
+      ],
+      "card": "The Fire Nation Drill",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mai-and-zuko.json#metrics/The Fire Nation Drill"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Generic Grixis Thoracle/Consultation conversion rejected (decisions L17).",
+      "Keep cards that use flash or firebending mana over generic value."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Artifact wipes and stax hit both mana and combos.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-hate",
+      "mitigations": [
+       "Counters",
+       "Breach backup"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Urza's Saga can't find {X} cards.",
+      "evidence_class": "strategic_judgment",
+      "id": "saga-misses",
+      "mitigations": [
+       "Pick {0}/{1} targets"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Without Mai and Zuko the deck loses flash speed, not its wins.",
+      "evidence_class": "strategic_judgment",
+      "id": "commander-optional",
+      "mitigations": [
+       "Commander-free combos"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Swan Song, Toxic Deluge, Cyclonic Rift, flash artifacts.",
+      "mana": "31 lands plus heavy artifact fast mana.",
+      "protection": "Lightning Greaves, Deflecting Swat, instant-speed deployment."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Basalt Monolith",
+       "Rings of Brighthearth"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Aetherflux Reservoir"
+      ],
+      "evidence_class": "fact",
+      "id": "monolith-rings",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Sensei's Divining Top",
+       "Bolas's Citadel",
+       "Aetherflux Reservoir",
+       "Mystic Forge",
+       "Foundry Inspector",
+       "Etherium Sculptor",
+       "Enthusiastic Mechanaut",
+       "Longshot, Rebel Bowman"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Mai and Zuko"
+      ],
+      "evidence_class": "fact",
+      "id": "top-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Lotus Petal",
+       "Brain Freeze"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Flash for Allies and artifacts lets the combo and value pieces land on opponents' turns, and firebending adds combat mana.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Every Spellbook infinite in the list (Monolith + Rings, the Top loops, Breach) works without Mai and Zuko; the commander adds speed and instant-speed safety, not the kill.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 5,
+      "combo_commander_independent": 3,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 8
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:board_wipe:9204a1daee62",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:artifacts_wiped:0dba046bcdb2",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:commander_removed_twice:4047ea0787f3",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:key_engine_exiled:00c8699ed1c9",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:mana_screw:7b1e90e1621d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:color_screw:4f3ba9cf57f1",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mai-and-zuko.json#test:mai-and-zuko:stress:graveyard_exiled:53c160bed117",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "mai-and-zuko",
+ "source_packet": "data/grixis/bracket_stress_packets/mai-and-zuko.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

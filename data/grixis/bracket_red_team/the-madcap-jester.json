@@ -1,0 +1,698 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B5_competitive",
+  "value": 5
+ },
+ "canonical_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+ "deck_id": "The_Madcap_Jester",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 99,
+  "commander_role": "significant",
+  "failure_modes": 4
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume the primary win is identified and opponents hold relevant interaction. Determine whether the deck can assemble, protect, pivot, or recover without relying on generic power-core assumptions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#tutor_targets/Underworld Breach",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#win_conditions/breach-freeze"
+      ],
+      "card": "Beseech the Mirror",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Beseech the Mirror"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bilbo, Thief in the Night",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Bilbo, Thief in the Night"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#engines/exile-play-permission",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#packages/pkg:library-exile",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#win_conditions/exile-theft-value"
+      ],
+      "card": "Bitter Ordeal",
+      "decision_support": false,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Bitter Ordeal"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#key_interactions/brain-freeze-storm",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#packages/pkg:compact-wins"
+      ],
+      "card": "Brain Freeze",
+      "decision_support": false,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Brain Freeze",
+       "graph:data/grixis/graph/the-madcap-jester.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/the-madcap-jester.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#identity_core/Dauthi Voidwalker",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#key_interactions/dauthi-replacement",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#packages/pkg:exile-payoffs"
+      ],
+      "card": "Dauthi Voidwalker",
+      "decision_support": false,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Dauthi Voidwalker"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#packages/pkg:free-protection",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#requirements/value"
+      ],
+      "card": "Deflecting Swat",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Deflecting Swat"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#failure_modes/graveyard-hate",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#packages/pkg:compact-wins",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#plan/value"
+      ],
+      "card": "Demonic Consultation",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Demonic Consultation",
+       "graph:data/grixis/graph/the-madcap-jester.json#combo:742-1295"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#tutor_targets/Thassa's Oracle",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#tutor_targets/Underworld Breach",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#win_conditions/oracle"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#packages/pkg:exile-payoffs",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#win_conditions/exile-theft-value"
+      ],
+      "card": "Don Andres, the Renegade",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Don Andres, the Renegade"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#engines/exile-play-permission",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#packages/pkg:library-exile",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#plan/value"
+      ],
+      "card": "Extract",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Extract"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#packages/pkg:free-protection",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#packages/pkg:free-protection",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#requirements/value"
+      ],
+      "card": "Force of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Force of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#packages/pkg:free-protection",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#requirements/value"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#tutor_targets/Underworld Breach",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#win_conditions/breach-freeze"
+      ],
+      "card": "Gamble",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Gamble"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#packages/pkg:exile-payoffs",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#win_conditions/exile-theft-value"
+      ],
+      "card": "Gonti, Night Minister",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Gonti, Night Minister"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#tutor_targets/Thassa's Oracle",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#win_conditions/oracle"
+      ],
+      "card": "Imperial Seal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Imperial Seal"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#engines/exile-play-permission",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#packages/pkg:library-exile"
+      ],
+      "card": "Jester's Scepter",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Jester's Scepter"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#engines/hasty-attack",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#requirements/value"
+      ],
+      "card": "Lightning Greaves",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Lightning Greaves"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#packages/pkg:compact-wins",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#win_conditions/breach-freeze"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/the-madcap-jester.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#requirements/value",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#win_conditions/breach-freeze"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Lotus Petal",
+       "graph:data/grixis/graph/the-madcap-jester.json#combo:1368-1414-4856"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#packages/pkg:free-protection",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#tutor_targets/Thassa's Oracle",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#win_conditions/oracle"
+      ],
+      "card": "Mystical Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Mystical Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Necropotence",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Necropotence"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#packages/pkg:free-protection",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#requirements/value"
+      ],
+      "card": "Pact of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Pact of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#engines/exile-play-permission",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#packages/pkg:library-exile",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#win_conditions/exile-theft-value"
+      ],
+      "card": "Sadistic Sacrament",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Sadistic Sacrament"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#packages/pkg:free-protection",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#requirements/value"
+      ],
+      "card": "Swan Song",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Swan Song"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#failure_modes/graveyard-hate",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#failure_modes/oracle-line-hate"
+      ],
+      "card": "Tainted Pact",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Tainted Pact",
+       "graph:data/grixis/graph/the-madcap-jester.json#combo:1295-3093"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#engines/exile-play-permission",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#failure_modes/slow-payoffs",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#identity_core/Tasha's Hideous Laughter"
+      ],
+      "card": "Tasha's Hideous Laughter",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Tasha's Hideous Laughter"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#failure_modes/graveyard-hate",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#key_interactions/tainted-pact-singleton",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#packages/pkg:compact-wins"
+      ],
+      "card": "Thassa's Oracle",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Thassa's Oracle",
+       "graph:data/grixis/graph/the-madcap-jester.json#combo:1295-3093",
+       "graph:data/grixis/graph/the-madcap-jester.json#combo:742-1295"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#failure_modes/graveyard-hate",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#key_interactions/brain-freeze-storm",
+       "blueprint:data/grixis/blueprints/the-madcap-jester.json#packages/pkg:compact-wins"
+      ],
+      "card": "Underworld Breach",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-madcap-jester.json#metrics/Underworld Breach",
+       "graph:data/grixis/graph/the-madcap-jester.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/the-madcap-jester.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No Uba Mask (decisions L45) or Memory Vessel (L46).",
+      "No more generic cEDH staples over commander-specific exile engines (L53)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "The source kept several four-to-seven-mana exile payoffs over generic cEDH staples; slower than a pure turbo shell.",
+      "evidence_class": "strategic_judgment",
+      "id": "slow-payoffs",
+      "mitigations": [
+       "Tasha's Hideous Laughter burst",
+       "Compact kills"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Graveyard hate disrupts the Underworld Breach line but doesn't stop Thassa's Oracle + Demonic Consultation / Tainted Pact.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Oracle + Consultation / Tainted Pact still wins",
+       "Free counters"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Stax, ETB-trigger hate and counters stop the Oracle + Consultation / Tainted Pact line; graveyard hate alone does not.",
+      "evidence_class": "strategic_judgment",
+      "id": "oracle-line-hate",
+      "mitigations": [
+       "Breach line as a second route",
+       "Free counters"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Not officially legal before 2026-11-13; registry status PENDING_RELEASE.",
+      "evidence_class": "strategic_judgment",
+      "id": "future-release-status",
+      "mitigations": [
+       "Project exception"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Force of Negation, Fierce Guardianship, Pact of Negation, Mana Drain, Swan Song, Deadly Rollick, Toxic Deluge.",
+      "mana": "34 lands plus Moxen, Lotus Petal, LED, Dark/Cabal Ritual, Sol Ring, Mana Vault.",
+      "protection": "Deflecting Swat, Lightning Greaves, free counters."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Thassa's Oracle",
+       "Demonic Consultation",
+       "Tainted Pact"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Demonic Tutor",
+       "Vampiric Tutor",
+       "Imperial Seal",
+       "Mystical Tutor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "oracle",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Brain Freeze",
+       "Lion's Eye Diamond",
+       "Lotus Petal"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Gamble",
+       "Beseech the Mirror"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "breach-freeze",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "The Madcap Jester",
+       "Extract",
+       "Sadistic Sacrament",
+       "Bitter Ordeal",
+       "Tasha's Hideous Laughter",
+       "Dragon's Smile"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Dragon's Smile",
+       "Don Andres, the Renegade",
+       "Gonti, Night Minister"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "exile-theft-value",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "The Jester turns every library exile into card access, and its attack trigger is a built-in exile burst.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Honest call: significant. None of the four Spellbook combos uses the Jester; the kills are generic Grixis cEDH lines (Oracle/Consult, Oracle/Tainted Pact, Breach + LED/Petal + Brain Freeze). The source added Consultation and Tainted Pact explicitly to complete them (decisions L27, L28). The Jester is a future-release card (project exception, legal from 2026-11-13 per decisions L57) and is not officially Commander-legal today.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 4,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 4
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": null,
+      "source": "data/grixis/audit/the-madcap-jester.json#baseline_sim",
+      "status": "reused_goldfish_readiness",
+      "stress_id": "turbo_clock"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-madcap-jester.json#test:the-madcap-jester:stress:first_key_spell_countered:c2d1697b5af6",
+      "status": "reused_existing_test_result",
+      "stress_id": "first_key_spell_countered"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-madcap-jester.json#test:the-madcap-jester:stress:graveyard_exiled:7b168687158c",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-madcap-jester.json#test:the-madcap-jester:stress:commander_removed_twice:ea16e5fc4293",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-madcap-jester.json#test:the-madcap-jester:stress:key_engine_exiled:edf4c1718aaa",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     }
+    ]
+   },
+   "id": "protected_win_red_team",
+   "priority_weight": 0.05,
+   "question": "Adversarial reviewer asks whether primary wins remain executable through realistic protection/interaction windows.",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "the-madcap-jester",
+ "source_packet": "data/grixis/bracket_stress_packets/the-madcap-jester.json",
+ "status": "red_team_pending",
+ "suite_family": "B5_competitive"
+}

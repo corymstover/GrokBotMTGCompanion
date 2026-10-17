@@ -1,0 +1,2439 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
+ "deck_id": "Goro_Goro_and_Satoru",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 98,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:extra-combat",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:extra-combat"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Denial",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Arcane Denial"
+      ],
+      "roles": [
+       "counter",
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bident of Thassa",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Bident of Thassa"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#identity_core/Breath of Fury",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#key_interactions/breath-order"
+      ],
+      "card": "Breath of Fury",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Breath of Fury",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:1347-3259",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:1674-3259"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Changeling Outcast",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Changeling Outcast"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:combat-token-makers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#win_conditions/breath-token-makers"
+      ],
+      "card": "Daring Piracy",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Daring Piracy",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:1674-3259",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:combat-token-makers"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:combat-token-makers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#win_conditions/breath-token-makers"
+      ],
+      "card": "Determined Iteration",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Determined Iteration",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:3259-3934",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:combat-token-makers"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#engines/dragon-payoffs",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#failure_modes/haste-gap",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value"
+      ],
+      "card": "Dragon Tempest",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Dragon Tempest"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#engines/dragon-payoffs"
+      ],
+      "card": "Enduring Curiosity",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Enduring Curiosity"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fire Navy Trebuchet",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Fire Navy Trebuchet"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Frostcliff Siege",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Frostcliff Siege"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gingerbrute",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Gingerbrute"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Grazilaxx, Illithid Scholar",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Grazilaxx, Illithid Scholar"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:extra-combat",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value"
+      ],
+      "card": "Great Train Heist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Great Train Heist",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:extra-combat"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Grim Hireling",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Grim Hireling"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:ninjutsu-entrants"
+      ],
+      "card": "Ingenious Infiltrator",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Ingenious Infiltrator"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#recursion/value"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Jeska's Will"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kaito, Bane of Nightmares",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Kaito, Bane of Nightmares"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:extra-combat"
+      ],
+      "card": "Karlach, Fury of Avernus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Karlach, Fury of Avernus",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:extra-combat"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:combat-token-makers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#win_conditions/breath-token-makers"
+      ],
+      "card": "Loyal Apprentice",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Loyal Apprentice",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:33-3259",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:combat-token-makers"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mist-Syndicate Naga",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Mist-Syndicate Naga"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:ninjutsu-entrants"
+      ],
+      "card": "Moon-Circuit Hacker",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Moon-Circuit Hacker"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#engines/fresh-attackers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:ninjutsu-entrants"
+      ],
+      "card": "Ninja of the Deep Hours",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Ninja of the Deep Hours"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#engines/fresh-attackers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#recursion/value"
+      ],
+      "card": "Phoenix Chick",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Phoenix Chick"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Professional Face-Breaker",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Professional Face-Breaker"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Prosperous Thief",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Prosperous Thief"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ragavan, Nimble Pilferer",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Ragavan, Nimble Pilferer"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Grixis Thoracle/Breach turbo conversion (decisions L24).",
+      "Keep creatures that can enter and connect the same turn."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Flying blockers, fogs or wipes stop fresh creatures connecting.",
+      "evidence_class": "strategic_judgment",
+      "id": "blocked",
+      "mitigations": [
+       "Evasive Ninjas",
+       "Rogue's Passage"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "New Dragons lack haste in later combats without Samut/Tempest or another activation.",
+      "evidence_class": "strategic_judgment",
+      "id": "haste-gap",
+      "mitigations": [
+       "Samut, Hazoret's Champion",
+       "Dragon Tempest"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Without Goro-Goro, no Dragons.",
+      "evidence_class": "strategic_judgment",
+      "id": "commander-removed",
+      "mitigations": [
+       "Commander-free Breath loops"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters and cheap removal (Mana Drain, Counterspell, Swan Song, Terminate, Deadly Rollick, Toxic Deluge).",
+      "mana": "Three-mana commander; Sol Ring, Ancient Tomb, Talismans, Treasure from combat.",
+      "protection": "Lightning Greaves, Fierce Guardianship, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Terror of the Peaks",
+       "Dragon Tempest",
+       "Samut, Hazoret's Champion"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Goro-Goro and Satoru"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "dragon-army",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Goro-Goro and Satoru",
+       "Breath of Fury"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Samut, Hazoret's Champion"
+      ],
+      "evidence_class": "fact",
+      "id": "goro-breath",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Breath of Fury",
+       "Urabrask's Forge",
+       "Daring Piracy",
+       "Determined Iteration",
+       "Loyal Apprentice"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breath-token-makers",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Goro-Goro is the Dragon factory and the haste source the whole combat plan runs through.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The trigger needs creatures that entered this turn to connect, so blockers and fogs hurt; his own haste only covers creatures already in play when it resolves (M1 goro-02). Breath of Fury goes infinite with four other cards without him.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 4,
+      "combo_direct_commander_piece": 1,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 5
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:board_wipe:5220f7b1549f",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:artifacts_wiped:078631fd6b81",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:commander_removed_twice:cf0fdc49e109",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:key_engine_exiled:3d4033b04fc7",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:mana_screw:d1546a64e0c9",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:color_screw:01b981478451",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:graveyard_exiled:8e7c60f16c00",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:extra-combat",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:extra-combat"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#identity_core/Breath of Fury",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#key_interactions/breath-order"
+      ],
+      "card": "Breath of Fury",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Breath of Fury",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:1347-3259",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:1674-3259"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Changeling Outcast",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Changeling Outcast"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyclonic Rift",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:combat-token-makers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#win_conditions/breath-token-makers"
+      ],
+      "card": "Daring Piracy",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Daring Piracy",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:1674-3259",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:combat-token-makers"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:combat-token-makers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#win_conditions/breath-token-makers"
+      ],
+      "card": "Determined Iteration",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Determined Iteration",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:3259-3934",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:combat-token-makers"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#engines/dragon-payoffs",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#failure_modes/haste-gap",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value"
+      ],
+      "card": "Dragon Tempest",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Dragon Tempest"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fire Navy Trebuchet",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Fire Navy Trebuchet"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gingerbrute",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Gingerbrute"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:extra-combat",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value"
+      ],
+      "card": "Great Train Heist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Great Train Heist",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:extra-combat"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:extra-combat"
+      ],
+      "card": "Karlach, Fury of Avernus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Karlach, Fury of Avernus",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:extra-combat"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:combat-token-makers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#win_conditions/breath-token-makers"
+      ],
+      "card": "Loyal Apprentice",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Loyal Apprentice",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:33-3259",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:combat-token-makers"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mist-Syndicate Naga",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Mist-Syndicate Naga"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#engines/fresh-attackers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:ninjutsu-entrants"
+      ],
+      "card": "Mistblade Shinobi",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Mistblade Shinobi"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#engines/fresh-attackers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#recursion/value"
+      ],
+      "card": "Phoenix Chick",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Phoenix Chick"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#engines/fresh-attackers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#identity_core/Raphael, the Nightwatcher",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#key_interactions/raphael-double"
+      ],
+      "card": "Raphael, the Nightwatcher",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Raphael, the Nightwatcher"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sakashima's Student",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Sakashima's Student"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#failure_modes/haste-gap",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#identity_core/Samut, Hazoret's Champion",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#key_interactions/haste-snapshot"
+      ],
+      "card": "Samut, Hazoret's Champion",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Samut, Hazoret's Champion"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Slither Blade",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Slither Blade"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#requirements/value"
+      ],
+      "card": "Terminate",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Terminate"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#engines/dragon-payoffs",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#identity_core/Terror of the Peaks",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value"
+      ],
+      "card": "Terror of the Peaks",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Terror of the Peaks"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Tetsuko Umezawa, Fugitive",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Tetsuko Umezawa, Fugitive"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Triton Shorestalker",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Triton Shorestalker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:combat-token-makers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#win_conditions/breath-token-makers"
+      ],
+      "card": "Urabrask's Forge",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Urabrask's Forge",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:1347-3259",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:combat-token-makers"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Vandalblast",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Vandalblast"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Withering Torment",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Withering Torment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Grixis Thoracle/Breach turbo conversion (decisions L24).",
+      "Keep creatures that can enter and connect the same turn."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Flying blockers, fogs or wipes stop fresh creatures connecting.",
+      "evidence_class": "strategic_judgment",
+      "id": "blocked",
+      "mitigations": [
+       "Evasive Ninjas",
+       "Rogue's Passage"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "New Dragons lack haste in later combats without Samut/Tempest or another activation.",
+      "evidence_class": "strategic_judgment",
+      "id": "haste-gap",
+      "mitigations": [
+       "Samut, Hazoret's Champion",
+       "Dragon Tempest"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Without Goro-Goro, no Dragons.",
+      "evidence_class": "strategic_judgment",
+      "id": "commander-removed",
+      "mitigations": [
+       "Commander-free Breath loops"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters and cheap removal (Mana Drain, Counterspell, Swan Song, Terminate, Deadly Rollick, Toxic Deluge).",
+      "mana": "Three-mana commander; Sol Ring, Ancient Tomb, Talismans, Treasure from combat.",
+      "protection": "Lightning Greaves, Fierce Guardianship, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Terror of the Peaks",
+       "Dragon Tempest",
+       "Samut, Hazoret's Champion"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Goro-Goro and Satoru"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "dragon-army",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Goro-Goro and Satoru",
+       "Breath of Fury"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Samut, Hazoret's Champion"
+      ],
+      "evidence_class": "fact",
+      "id": "goro-breath",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Breath of Fury",
+       "Urabrask's Forge",
+       "Daring Piracy",
+       "Determined Iteration",
+       "Loyal Apprentice"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breath-token-makers",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Goro-Goro is the Dragon factory and the haste source the whole combat plan runs through.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The trigger needs creatures that entered this turn to connect, so blockers and fogs hurt; his own haste only covers creatures already in play when it resolves (M1 goro-02). Breath of Fury goes infinite with four other cards without him.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 4,
+      "combo_direct_commander_piece": 1,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 5
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:board_wipe:5220f7b1549f",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:artifacts_wiped:078631fd6b81",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:commander_removed_twice:cf0fdc49e109",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:key_engine_exiled:3d4033b04fc7",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:mana_screw:d1546a64e0c9",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:color_screw:01b981478451",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:graveyard_exiled:8e7c60f16c00",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:extra-combat",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:extra-combat"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#identity_core/Breath of Fury",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#key_interactions/breath-order"
+      ],
+      "card": "Breath of Fury",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Breath of Fury",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:1347-3259",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:1674-3259"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Changeling Outcast",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Changeling Outcast"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyclonic Rift",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:combat-token-makers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#win_conditions/breath-token-makers"
+      ],
+      "card": "Daring Piracy",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Daring Piracy",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:1674-3259",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:combat-token-makers"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:combat-token-makers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#win_conditions/breath-token-makers"
+      ],
+      "card": "Determined Iteration",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Determined Iteration",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:3259-3934",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:combat-token-makers"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#engines/dragon-payoffs",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#failure_modes/haste-gap",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value"
+      ],
+      "card": "Dragon Tempest",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Dragon Tempest"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fire Navy Trebuchet",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Fire Navy Trebuchet"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gingerbrute",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Gingerbrute"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:extra-combat",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value"
+      ],
+      "card": "Great Train Heist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Great Train Heist",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:extra-combat"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:extra-combat"
+      ],
+      "card": "Karlach, Fury of Avernus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Karlach, Fury of Avernus",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:extra-combat"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:combat-token-makers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#win_conditions/breath-token-makers"
+      ],
+      "card": "Loyal Apprentice",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Loyal Apprentice",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:33-3259",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:combat-token-makers"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mist-Syndicate Naga",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Mist-Syndicate Naga"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#engines/fresh-attackers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:ninjutsu-entrants"
+      ],
+      "card": "Mistblade Shinobi",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Mistblade Shinobi"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#engines/fresh-attackers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#recursion/value"
+      ],
+      "card": "Phoenix Chick",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Phoenix Chick"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#engines/fresh-attackers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#identity_core/Raphael, the Nightwatcher",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#key_interactions/raphael-double"
+      ],
+      "card": "Raphael, the Nightwatcher",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Raphael, the Nightwatcher"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sakashima's Student",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Sakashima's Student"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#failure_modes/haste-gap",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#identity_core/Samut, Hazoret's Champion",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#key_interactions/haste-snapshot"
+      ],
+      "card": "Samut, Hazoret's Champion",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Samut, Hazoret's Champion"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Slither Blade",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Slither Blade"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#requirements/value"
+      ],
+      "card": "Terminate",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Terminate"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#engines/dragon-payoffs",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#identity_core/Terror of the Peaks",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value"
+      ],
+      "card": "Terror of the Peaks",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Terror of the Peaks"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Tetsuko Umezawa, Fugitive",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Tetsuko Umezawa, Fugitive"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Triton Shorestalker",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Triton Shorestalker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:combat-token-makers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#win_conditions/breath-token-makers"
+      ],
+      "card": "Urabrask's Forge",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Urabrask's Forge",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:1347-3259",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:combat-token-makers"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Vandalblast",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Vandalblast"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Withering Torment",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Withering Torment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Grixis Thoracle/Breach turbo conversion (decisions L24).",
+      "Keep creatures that can enter and connect the same turn."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Flying blockers, fogs or wipes stop fresh creatures connecting.",
+      "evidence_class": "strategic_judgment",
+      "id": "blocked",
+      "mitigations": [
+       "Evasive Ninjas",
+       "Rogue's Passage"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "New Dragons lack haste in later combats without Samut/Tempest or another activation.",
+      "evidence_class": "strategic_judgment",
+      "id": "haste-gap",
+      "mitigations": [
+       "Samut, Hazoret's Champion",
+       "Dragon Tempest"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Without Goro-Goro, no Dragons.",
+      "evidence_class": "strategic_judgment",
+      "id": "commander-removed",
+      "mitigations": [
+       "Commander-free Breath loops"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters and cheap removal (Mana Drain, Counterspell, Swan Song, Terminate, Deadly Rollick, Toxic Deluge).",
+      "mana": "Three-mana commander; Sol Ring, Ancient Tomb, Talismans, Treasure from combat.",
+      "protection": "Lightning Greaves, Fierce Guardianship, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Terror of the Peaks",
+       "Dragon Tempest",
+       "Samut, Hazoret's Champion"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Goro-Goro and Satoru"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "dragon-army",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Goro-Goro and Satoru",
+       "Breath of Fury"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Samut, Hazoret's Champion"
+      ],
+      "evidence_class": "fact",
+      "id": "goro-breath",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Breath of Fury",
+       "Urabrask's Forge",
+       "Daring Piracy",
+       "Determined Iteration",
+       "Loyal Apprentice"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breath-token-makers",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Goro-Goro is the Dragon factory and the haste source the whole combat plan runs through.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The trigger needs creatures that entered this turn to connect, so blockers and fogs hurt; his own haste only covers creatures already in play when it resolves (M1 goro-02). Breath of Fury goes infinite with four other cards without him.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 4,
+      "combo_direct_commander_piece": 1,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 5
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:board_wipe:5220f7b1549f",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:artifacts_wiped:078631fd6b81",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:commander_removed_twice:cf0fdc49e109",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:key_engine_exiled:3d4033b04fc7",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:mana_screw:d1546a64e0c9",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:color_screw:01b981478451",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:graveyard_exiled:8e7c60f16c00",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:extra-combat",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:extra-combat"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Denial",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Arcane Denial"
+      ],
+      "roles": [
+       "counter",
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#identity_core/Breath of Fury",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#key_interactions/breath-order"
+      ],
+      "card": "Breath of Fury",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Breath of Fury",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:1347-3259",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:1674-3259"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Changeling Outcast",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Changeling Outcast"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#requirements/value"
+      ],
+      "card": "Counterspell",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Counterspell"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyclonic Rift",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:combat-token-makers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#win_conditions/breath-token-makers"
+      ],
+      "card": "Daring Piracy",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Daring Piracy",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:1674-3259",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:combat-token-makers"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:combat-token-makers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#win_conditions/breath-token-makers"
+      ],
+      "card": "Determined Iteration",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Determined Iteration",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:3259-3934",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:combat-token-makers"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#engines/dragon-payoffs",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#failure_modes/haste-gap",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value"
+      ],
+      "card": "Dragon Tempest",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Dragon Tempest"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fire Navy Trebuchet",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Fire Navy Trebuchet"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gingerbrute",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Gingerbrute"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:extra-combat",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value"
+      ],
+      "card": "Great Train Heist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Great Train Heist",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:extra-combat"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:extra-combat"
+      ],
+      "card": "Karlach, Fury of Avernus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Karlach, Fury of Avernus",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:extra-combat"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:combat-token-makers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#win_conditions/breath-token-makers"
+      ],
+      "card": "Loyal Apprentice",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Loyal Apprentice",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#combo:33-3259",
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#package:combat-token-makers"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mist-Syndicate Naga",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Mist-Syndicate Naga"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#engines/fresh-attackers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#packages/pkg:ninjutsu-entrants"
+      ],
+      "card": "Mistblade Shinobi",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Mistblade Shinobi"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#engines/fresh-attackers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#recursion/value"
+      ],
+      "card": "Phoenix Chick",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Phoenix Chick"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#engines/fresh-attackers",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#identity_core/Raphael, the Nightwatcher",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#key_interactions/raphael-double"
+      ],
+      "card": "Raphael, the Nightwatcher",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Raphael, the Nightwatcher"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sakashima's Student",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Sakashima's Student"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#failure_modes/haste-gap",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#identity_core/Samut, Hazoret's Champion",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#key_interactions/haste-snapshot"
+      ],
+      "card": "Samut, Hazoret's Champion",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Samut, Hazoret's Champion"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Slither Blade",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Slither Blade"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#requirements/value"
+      ],
+      "card": "Swan Song",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Swan Song"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#requirements/value"
+      ],
+      "card": "Terminate",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Terminate"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#engines/dragon-payoffs",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#identity_core/Terror of the Peaks",
+       "blueprint:data/grixis/blueprints/goro-goro-and-satoru.json#plan/value"
+      ],
+      "card": "Terror of the Peaks",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Terror of the Peaks"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Tetsuko Umezawa, Fugitive",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/goro-goro-and-satoru.json#metrics/Tetsuko Umezawa, Fugitive"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Grixis Thoracle/Breach turbo conversion (decisions L24).",
+      "Keep creatures that can enter and connect the same turn."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Flying blockers, fogs or wipes stop fresh creatures connecting.",
+      "evidence_class": "strategic_judgment",
+      "id": "blocked",
+      "mitigations": [
+       "Evasive Ninjas",
+       "Rogue's Passage"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "New Dragons lack haste in later combats without Samut/Tempest or another activation.",
+      "evidence_class": "strategic_judgment",
+      "id": "haste-gap",
+      "mitigations": [
+       "Samut, Hazoret's Champion",
+       "Dragon Tempest"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Without Goro-Goro, no Dragons.",
+      "evidence_class": "strategic_judgment",
+      "id": "commander-removed",
+      "mitigations": [
+       "Commander-free Breath loops"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters and cheap removal (Mana Drain, Counterspell, Swan Song, Terminate, Deadly Rollick, Toxic Deluge).",
+      "mana": "Three-mana commander; Sol Ring, Ancient Tomb, Talismans, Treasure from combat.",
+      "protection": "Lightning Greaves, Fierce Guardianship, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Terror of the Peaks",
+       "Dragon Tempest",
+       "Samut, Hazoret's Champion"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Goro-Goro and Satoru"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "dragon-army",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Goro-Goro and Satoru",
+       "Breath of Fury"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Samut, Hazoret's Champion"
+      ],
+      "evidence_class": "fact",
+      "id": "goro-breath",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Breath of Fury",
+       "Urabrask's Forge",
+       "Daring Piracy",
+       "Determined Iteration",
+       "Loyal Apprentice"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breath-token-makers",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Goro-Goro is the Dragon factory and the haste source the whole combat plan runs through.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The trigger needs creatures that entered this turn to connect, so blockers and fogs hurt; his own haste only covers creatures already in play when it resolves (M1 goro-02). Breath of Fury goes infinite with four other cards without him.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 4,
+      "combo_direct_commander_piece": 1,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 5
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:board_wipe:5220f7b1549f",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:artifacts_wiped:078631fd6b81",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:commander_removed_twice:cf0fdc49e109",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:key_engine_exiled:3d4033b04fc7",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:mana_screw:d1546a64e0c9",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:color_screw:01b981478451",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/goro-goro-and-satoru.json#test:goro-goro-and-satoru:stress:graveyard_exiled:8e7c60f16c00",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "goro-goro-and-satoru",
+ "source_packet": "data/grixis/bracket_stress_packets/goro-goro-and-satoru.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

@@ -1,0 +1,680 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B5_competitive",
+  "value": 5
+ },
+ "canonical_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+ "deck_id": "RogSi",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 98,
+  "commander_role": "significant",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume the primary win is identified and opponents hold relevant interaction. Determine whether the deck can assemble, protect, pivot, or recover without relying on generic power-core assumptions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#engines/reloads",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#failure_modes/naus-life",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#plan/value"
+      ],
+      "card": "Ad Nauseam",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Ad Nauseam"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#packages/pkg:tutors",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#tutor_targets/Lion's Eye Diamond"
+      ],
+      "card": "Beseech the Mirror",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Beseech the Mirror"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#win_conditions/breach"
+      ],
+      "card": "Brain Freeze",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Brain Freeze",
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#engines/zero-mana-commander",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#identity_core/Culling the Weak"
+      ],
+      "card": "Culling the Weak",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Culling the Weak"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#packages/pkg:protection"
+      ],
+      "card": "Daze",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Daze"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#packages/pkg:commander-native"
+      ],
+      "card": "Deflecting Swat",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Deflecting Swat"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#win_conditions/oracle"
+      ],
+      "card": "Demonic Consultation",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Demonic Consultation",
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#combo:742-1295"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#key_interactions/demonic-counsel",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#packages/pkg:tutors"
+      ],
+      "card": "Demonic Counsel",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Demonic Counsel"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#packages/pkg:tutors",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#tutor_targets/Thassa's Oracle"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#engines/zero-mana-commander",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#packages/pkg:commander-native"
+      ],
+      "card": "Diabolic Intent",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Diabolic Intent"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#packages/pkg:commander-native"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#key_interactions/extra-turn-loss",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#plan/value",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#win_conditions/extra-turn-finish"
+      ],
+      "card": "Final Fortune",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Final Fortune"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#packages/pkg:protection"
+      ],
+      "card": "Flusterstorm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Flusterstorm"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#packages/pkg:protection"
+      ],
+      "card": "Force of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Force of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#packages/pkg:protection"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#packages/pkg:tutors",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#tutor_targets/Lion's Eye Diamond"
+      ],
+      "card": "Gamble",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Gamble"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#win_conditions/breach"
+      ],
+      "card": "Grinding Station",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Grinding Station",
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#combo:1368-3698--44"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#packages/pkg:tutors",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#tutor_targets/Thassa's Oracle"
+      ],
+      "card": "Imperial Seal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Imperial Seal"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#packages/pkg:commander-native",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#win_conditions/breach"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#combo:1368-1878-2706"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#tutor_targets/Lion's Eye Diamond",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#win_conditions/breach"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#requirements/value",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#win_conditions/breach"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Lotus Petal",
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#combo:1368-1414-4856"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#packages/pkg:protection"
+      ],
+      "card": "Mental Misstep",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Mental Misstep"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#engines/zero-mana-commander",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#identity_core/Mox Amber"
+      ],
+      "card": "Mox Amber",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Mox Amber"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#packages/pkg:tutors",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#tutor_targets/Thassa's Oracle"
+      ],
+      "card": "Mystical Tutor",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Mystical Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#engines/reloads",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#plan/value",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#win_conditions/extra-turn-finish"
+      ],
+      "card": "Necrodominance",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Necrodominance"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#engines/reloads",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#failure_modes/naus-life",
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#plan/value"
+      ],
+      "card": "Necropotence",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Necropotence"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#packages/pkg:protection"
+      ],
+      "card": "Pact of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Pact of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#packages/pkg:protection"
+      ],
+      "card": "Pyroblast",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Pyroblast"
+      ],
+      "roles": [
+       "counter",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json#packages/pkg:protection"
+      ],
+      "card": "Red Elemental Blast",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/rograkh-son-of-rohgahh-silas-renn.json#metrics/Red Elemental Blast"
+      ],
+      "roles": [
+       "counter",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Not a full artifact/Monolith conversion (decisions L30).",
+      "No Commandeer/Misdirection (L29); no Chromatic Star filler."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Graveyard hate stops Breach and Mnemonic Betrayal.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Oracle lines"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Vexing Bauble can counter your own free spells.",
+      "evidence_class": "strategic_judgment",
+      "id": "self-bauble",
+      "mitigations": [
+       "Sequencing",
+       "Hexing Squelcher"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Ad Nauseam and Necropotence cost a lot of life against fast tables.",
+      "evidence_class": "strategic_judgment",
+      "id": "naus-life",
+      "mitigations": [
+       "Low curve"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Full free-counter suite.",
+      "mana": "24 lands plus Moxen, rituals, LED, Lotus Petal and zero-mana artifacts.",
+      "protection": "Defense Grid, Hexing Squelcher, Samut, Vexing Bauble."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Thassa's Oracle",
+       "Demonic Consultation",
+       "Tainted Pact"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "oracle",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Lotus Petal",
+       "Brain Freeze",
+       "Wheel of Fortune",
+       "Jeska's Will",
+       "Grinding Station",
+       "Mox Amber"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Final Fortune",
+       "Warrior's Oath"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Ad Nauseam",
+       "Necrodominance"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "extra-turn-finish",
+      "kind": "alternate"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Rograkh is a free creature on turn 0 that turns on Mox Amber, Springleaf Drum, Paradise Mantle, the free sacrifice tutors (Culling the Weak, Infernal Plunge, Diabolic Intent) and the commander-conditional free spells (Fierce Guardianship, Deflecting Swat, Deadly Rollick, Jeska's Will, Flare of Duplication).",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The pair is deliberately asymmetric (blueprint L11): Rograkh is a cost-free enabler, and Silas Renn is mostly color identity; the strongest games often never cast Silas (L14). None of the 7 Spellbook combos uses either commander; the wins are the generic cEDH Oracle and Breach lines. The commanders make those lines cheaper, not possible. M1 review (rogsi-01..08) verifies the partner and Silas rules and flags Vexing Bauble as a self-counter risk (rogsi-04).",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 0,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 7,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 7
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": null,
+      "source": "data/grixis/audit/rograkh-son-of-rohgahh-silas-renn.json#baseline_sim",
+      "status": "reused_goldfish_readiness",
+      "stress_id": "turbo_clock"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/rograkh-son-of-rohgahh-silas-renn.json#test:rograkh-son-of-rohgahh-silas-renn:stress:first_key_spell_countered:e0fb5756f342",
+      "status": "reused_existing_test_result",
+      "stress_id": "first_key_spell_countered"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/rograkh-son-of-rohgahh-silas-renn.json#test:rograkh-son-of-rohgahh-silas-renn:stress:graveyard_exiled:be3c7c160ded",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/rograkh-son-of-rohgahh-silas-renn.json#test:rograkh-son-of-rohgahh-silas-renn:stress:commander_removed_twice:c53fec41d3cb",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/rograkh-son-of-rohgahh-silas-renn.json#test:rograkh-son-of-rohgahh-silas-renn:stress:key_engine_exiled:722e5fb1869d",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     }
+    ]
+   },
+   "id": "protected_win_red_team",
+   "priority_weight": 0.05,
+   "question": "Adversarial reviewer asks whether primary wins remain executable through realistic protection/interaction windows.",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "rograkh-son-of-rohgahh-silas-renn",
+ "source_packet": "data/grixis/bracket_stress_packets/rograkh-son-of-rohgahh-silas-renn.json",
+ "status": "red_team_pending",
+ "suite_family": "B5_competitive"
+}

@@ -1,0 +1,2532 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+ "deck_id": "Gwendlyn_Di_Corci",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 93,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Anvil of Bogardan",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Anvil of Bogardan"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#key_interactions/no-mindcrank"
+      ],
+      "card": "Bloodchief Ascension",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Bloodchief Ascension"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#failure_modes/empty-hands",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/empty-hand-lock"
+      ],
+      "card": "Bottomless Pit",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Bottomless Pit"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#key_interactions/chains-wheels",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/empty-hand-lock"
+      ],
+      "card": "Chains of Mephistopheles",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Chains of Mephistopheles"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#requirements/value"
+      ],
+      "card": "Chrome Mox",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Chrome Mox"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:wheels"
+      ],
+      "card": "Dark Deal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Dark Deal"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#requirements/value"
+      ],
+      "card": "Dark Ritual",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Dark Ritual"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dauthi Voidwalker",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Dauthi Voidwalker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#recursion/value"
+      ],
+      "card": "Dream Salvage",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Dream Salvage"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#key_interactions/per-card-vs-event",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers"
+      ],
+      "card": "Geth's Grimoire",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Geth's Grimoire"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/untap-discard",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#identity_core/Illusionist's Bracers",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:untap-copy"
+      ],
+      "card": "Illusionist's Bracers",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Illusionist's Bracers"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:wheels"
+      ],
+      "card": "Jace's Archivist",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Jace's Archivist"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#recursion/value"
+      ],
+      "card": "Kess, Dissident Mage",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#key_interactions/per-card-vs-event",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers"
+      ],
+      "card": "Liliana's Caress",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Liliana's Caress"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/breach-led-wheel"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#win:breach-led-wheel"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#requirements/value"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Lotus Petal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:wheels"
+      ],
+      "card": "Magus of the Wheel",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Magus of the Wheel"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#identity_core/Mind Twist"
+      ],
+      "card": "Mind Twist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Mind Twist"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystic Remora",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Mystic Remora"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#plan/value",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/empty-hand-lock"
+      ],
+      "card": "Notion Thief",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Notion Thief"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#plan/value"
+      ],
+      "card": "Opposition Agent",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Opposition Agent"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#failure_modes/empty-hands",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/empty-hand-lock"
+      ],
+      "card": "Oppression",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Oppression"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers"
+      ],
+      "card": "Orcish Bowmasters",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/untap-discard",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:untap-copy",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#plan/value"
+      ],
+      "card": "Patriar's Seal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Patriar's Seal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/untap-discard",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#identity_core/Pemmin's Aura",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#key_interactions/shroud-untappers"
+      ],
+      "card": "Pemmin's Aura",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Pemmin's Aura"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:wheels"
+      ],
+      "card": "Reforge the Soul",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Reforge the Soul"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rhystic Study",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Rhystic Study"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Grixis Thoracle/Breach turbo conversion (decisions L28).",
+      "Prefer cards that raise Gwendlyn's activation rate over generic discard bodies (decisions swaps)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "One random discard per tap is slow without untappers.",
+      "evidence_class": "strategic_judgment",
+      "id": "slow-engine",
+      "mitigations": [
+       "Untap package",
+       "Wheels and punishers"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Chains mills you on your own wheels.",
+      "evidence_class": "strategic_judgment",
+      "id": "chains-self",
+      "mitigations": [
+       "Sequence wheels with Chains off"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Opponents empty their hands fast, leaving Gwendlyn nothing to hit.",
+      "evidence_class": "strategic_judgment",
+      "id": "empty-hands",
+      "mitigations": [
+       "Wheels refill",
+       "Oppression/Bottomless Pit lock"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free counters (Force of Will, Force of Negation, Fierce Guardianship), Mana Drain, Toxic Deluge, Cyclonic Rift.",
+      "mana": "Fast mana (Sol Ring, Chrome Mox, Lotus Petal, Ancient Tomb, Dark Ritual) for a four-mana commander.",
+      "protection": "Lightning Greaves, Pemmin's Aura shroud, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Wheel of Fortune",
+       "Windfall",
+       "Timetwister",
+       "Waste Not",
+       "Liliana's Caress",
+       "Sheoldred, the Apocalypse",
+       "Underworld Dreams",
+       "Tinybones, Bauble Burglar"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Gwendlyn Di Corci"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "punisher-wheels",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Wheel of Fortune"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach-led-wheel",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Oppression",
+       "Bottomless Pit",
+       "Chains of Mephistopheles",
+       "Notion Thief"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Gwendlyn Di Corci"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "empty-hand-lock",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Every untapper and Bracers exists only to multiply Gwendlyn's activation.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "She is a four-mana tap ability that discards one random card, on your turn only and with summoning sickness (M1 gwendlyn-01). Without haste and untappers she's slow, and most of the damage comes from wheels plus punishers, which work without her.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:board_wipe:15a0e46eb25a",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:artifacts_wiped:8001d56f0976",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:commander_removed_twice:1f20f0562824",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:key_engine_exiled:5a25887803e5",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:mana_screw:7f6f6ffc40d4",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "inconclusive",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:color_screw:4a9dcdca412d",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:graveyard_exiled:41c22f5131fd",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Anvil of Bogardan",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Anvil of Bogardan"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#key_interactions/no-mindcrank"
+      ],
+      "card": "Bloodchief Ascension",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Bloodchief Ascension"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#failure_modes/empty-hands",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/empty-hand-lock"
+      ],
+      "card": "Bottomless Pit",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Bottomless Pit"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#key_interactions/chains-wheels",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/empty-hand-lock"
+      ],
+      "card": "Chains of Mephistopheles",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Chains of Mephistopheles"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dauthi Voidwalker",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Dauthi Voidwalker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/untap-discard",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#identity_core/Illusionist's Bracers",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:untap-copy"
+      ],
+      "card": "Illusionist's Bracers",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Illusionist's Bracers"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#recursion/value"
+      ],
+      "card": "Kess, Dissident Mage",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#key_interactions/per-card-vs-event",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers"
+      ],
+      "card": "Liliana's Caress",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Liliana's Caress"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/breach-led-wheel"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#win:breach-led-wheel"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#identity_core/Mind Twist"
+      ],
+      "card": "Mind Twist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Mind Twist"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#plan/value",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/empty-hand-lock"
+      ],
+      "card": "Notion Thief",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Notion Thief"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#plan/value"
+      ],
+      "card": "Opposition Agent",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Opposition Agent"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#failure_modes/empty-hands",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/empty-hand-lock"
+      ],
+      "card": "Oppression",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Oppression"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers"
+      ],
+      "card": "Orcish Bowmasters",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/untap-discard",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#identity_core/Pemmin's Aura",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#key_interactions/shroud-untappers"
+      ],
+      "card": "Pemmin's Aura",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Pemmin's Aura"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/punisher-wheels"
+      ],
+      "card": "Sheoldred, the Apocalypse",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Sheoldred, the Apocalypse"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers"
+      ],
+      "card": "Tergrid, God of Fright // Tergrid's Lantern",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Tergrid, God of Fright // Tergrid's Lantern"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Raven Man",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/The Raven Man"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:wheels",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/punisher-wheels"
+      ],
+      "card": "Timetwister",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Timetwister"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/punisher-wheels"
+      ],
+      "card": "Tinybones, Bauble Burglar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Tinybones, Bauble Burglar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Tourach, Dread Cantor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Tourach, Dread Cantor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#recursion/value",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#tutor_targets/Underworld Breach",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/breach-led-wheel"
+      ],
+      "card": "Underworld Breach",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Underworld Breach",
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#win:breach-led-wheel"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#plan/value",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/punisher-wheels"
+      ],
+      "card": "Underworld Dreams",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Underworld Dreams"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#identity_core/Waste Not",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers"
+      ],
+      "card": "Waste Not",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Waste Not"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#key_interactions/chains-wheels",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:wheels",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#plan/value"
+      ],
+      "card": "Wheel of Fortune",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Wheel of Fortune",
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#win:breach-led-wheel"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:wheels",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/punisher-wheels"
+      ],
+      "card": "Windfall",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Windfall"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Withering Torment",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Withering Torment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#recursion/value"
+      ],
+      "card": "Yawgmoth's Will",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Yawgmoth's Will"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Grixis Thoracle/Breach turbo conversion (decisions L28).",
+      "Prefer cards that raise Gwendlyn's activation rate over generic discard bodies (decisions swaps)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "One random discard per tap is slow without untappers.",
+      "evidence_class": "strategic_judgment",
+      "id": "slow-engine",
+      "mitigations": [
+       "Untap package",
+       "Wheels and punishers"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Chains mills you on your own wheels.",
+      "evidence_class": "strategic_judgment",
+      "id": "chains-self",
+      "mitigations": [
+       "Sequence wheels with Chains off"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Opponents empty their hands fast, leaving Gwendlyn nothing to hit.",
+      "evidence_class": "strategic_judgment",
+      "id": "empty-hands",
+      "mitigations": [
+       "Wheels refill",
+       "Oppression/Bottomless Pit lock"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free counters (Force of Will, Force of Negation, Fierce Guardianship), Mana Drain, Toxic Deluge, Cyclonic Rift.",
+      "mana": "Fast mana (Sol Ring, Chrome Mox, Lotus Petal, Ancient Tomb, Dark Ritual) for a four-mana commander.",
+      "protection": "Lightning Greaves, Pemmin's Aura shroud, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Wheel of Fortune",
+       "Windfall",
+       "Timetwister",
+       "Waste Not",
+       "Liliana's Caress",
+       "Sheoldred, the Apocalypse",
+       "Underworld Dreams",
+       "Tinybones, Bauble Burglar"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Gwendlyn Di Corci"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "punisher-wheels",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Wheel of Fortune"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach-led-wheel",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Oppression",
+       "Bottomless Pit",
+       "Chains of Mephistopheles",
+       "Notion Thief"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Gwendlyn Di Corci"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "empty-hand-lock",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Every untapper and Bracers exists only to multiply Gwendlyn's activation.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "She is a four-mana tap ability that discards one random card, on your turn only and with summoning sickness (M1 gwendlyn-01). Without haste and untappers she's slow, and most of the damage comes from wheels plus punishers, which work without her.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:board_wipe:15a0e46eb25a",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:artifacts_wiped:8001d56f0976",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:commander_removed_twice:1f20f0562824",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:key_engine_exiled:5a25887803e5",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:mana_screw:7f6f6ffc40d4",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "inconclusive",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:color_screw:4a9dcdca412d",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:graveyard_exiled:41c22f5131fd",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Anvil of Bogardan",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Anvil of Bogardan"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#key_interactions/no-mindcrank"
+      ],
+      "card": "Bloodchief Ascension",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Bloodchief Ascension"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#failure_modes/empty-hands",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/empty-hand-lock"
+      ],
+      "card": "Bottomless Pit",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Bottomless Pit"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#key_interactions/chains-wheels",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/empty-hand-lock"
+      ],
+      "card": "Chains of Mephistopheles",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Chains of Mephistopheles"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dauthi Voidwalker",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Dauthi Voidwalker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/untap-discard",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#identity_core/Illusionist's Bracers",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:untap-copy"
+      ],
+      "card": "Illusionist's Bracers",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Illusionist's Bracers"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#recursion/value"
+      ],
+      "card": "Kess, Dissident Mage",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#key_interactions/per-card-vs-event",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers"
+      ],
+      "card": "Liliana's Caress",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Liliana's Caress"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/breach-led-wheel"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#win:breach-led-wheel"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#identity_core/Mind Twist"
+      ],
+      "card": "Mind Twist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Mind Twist"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#plan/value",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/empty-hand-lock"
+      ],
+      "card": "Notion Thief",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Notion Thief"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#plan/value"
+      ],
+      "card": "Opposition Agent",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Opposition Agent"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#failure_modes/empty-hands",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/empty-hand-lock"
+      ],
+      "card": "Oppression",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Oppression"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers"
+      ],
+      "card": "Orcish Bowmasters",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/untap-discard",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#identity_core/Pemmin's Aura",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#key_interactions/shroud-untappers"
+      ],
+      "card": "Pemmin's Aura",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Pemmin's Aura"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/punisher-wheels"
+      ],
+      "card": "Sheoldred, the Apocalypse",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Sheoldred, the Apocalypse"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers"
+      ],
+      "card": "Tergrid, God of Fright // Tergrid's Lantern",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Tergrid, God of Fright // Tergrid's Lantern"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Raven Man",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/The Raven Man"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:wheels",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/punisher-wheels"
+      ],
+      "card": "Timetwister",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Timetwister"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/punisher-wheels"
+      ],
+      "card": "Tinybones, Bauble Burglar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Tinybones, Bauble Burglar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Tourach, Dread Cantor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Tourach, Dread Cantor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#recursion/value",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#tutor_targets/Underworld Breach",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/breach-led-wheel"
+      ],
+      "card": "Underworld Breach",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Underworld Breach",
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#win:breach-led-wheel"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#plan/value",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/punisher-wheels"
+      ],
+      "card": "Underworld Dreams",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Underworld Dreams"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#identity_core/Waste Not",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers"
+      ],
+      "card": "Waste Not",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Waste Not"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#key_interactions/chains-wheels",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:wheels",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#plan/value"
+      ],
+      "card": "Wheel of Fortune",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Wheel of Fortune",
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#win:breach-led-wheel"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:wheels",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/punisher-wheels"
+      ],
+      "card": "Windfall",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Windfall"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Withering Torment",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Withering Torment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#recursion/value"
+      ],
+      "card": "Yawgmoth's Will",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Yawgmoth's Will"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Grixis Thoracle/Breach turbo conversion (decisions L28).",
+      "Prefer cards that raise Gwendlyn's activation rate over generic discard bodies (decisions swaps)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "One random discard per tap is slow without untappers.",
+      "evidence_class": "strategic_judgment",
+      "id": "slow-engine",
+      "mitigations": [
+       "Untap package",
+       "Wheels and punishers"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Chains mills you on your own wheels.",
+      "evidence_class": "strategic_judgment",
+      "id": "chains-self",
+      "mitigations": [
+       "Sequence wheels with Chains off"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Opponents empty their hands fast, leaving Gwendlyn nothing to hit.",
+      "evidence_class": "strategic_judgment",
+      "id": "empty-hands",
+      "mitigations": [
+       "Wheels refill",
+       "Oppression/Bottomless Pit lock"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free counters (Force of Will, Force of Negation, Fierce Guardianship), Mana Drain, Toxic Deluge, Cyclonic Rift.",
+      "mana": "Fast mana (Sol Ring, Chrome Mox, Lotus Petal, Ancient Tomb, Dark Ritual) for a four-mana commander.",
+      "protection": "Lightning Greaves, Pemmin's Aura shroud, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Wheel of Fortune",
+       "Windfall",
+       "Timetwister",
+       "Waste Not",
+       "Liliana's Caress",
+       "Sheoldred, the Apocalypse",
+       "Underworld Dreams",
+       "Tinybones, Bauble Burglar"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Gwendlyn Di Corci"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "punisher-wheels",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Wheel of Fortune"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach-led-wheel",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Oppression",
+       "Bottomless Pit",
+       "Chains of Mephistopheles",
+       "Notion Thief"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Gwendlyn Di Corci"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "empty-hand-lock",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Every untapper and Bracers exists only to multiply Gwendlyn's activation.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "She is a four-mana tap ability that discards one random card, on your turn only and with summoning sickness (M1 gwendlyn-01). Without haste and untappers she's slow, and most of the damage comes from wheels plus punishers, which work without her.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:board_wipe:15a0e46eb25a",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:artifacts_wiped:8001d56f0976",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:commander_removed_twice:1f20f0562824",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:key_engine_exiled:5a25887803e5",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:mana_screw:7f6f6ffc40d4",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "inconclusive",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:color_screw:4a9dcdca412d",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:graveyard_exiled:41c22f5131fd",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Anvil of Bogardan",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Anvil of Bogardan"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#key_interactions/no-mindcrank"
+      ],
+      "card": "Bloodchief Ascension",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Bloodchief Ascension"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#failure_modes/empty-hands",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/empty-hand-lock"
+      ],
+      "card": "Bottomless Pit",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Bottomless Pit"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#key_interactions/chains-wheels",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/empty-hand-lock"
+      ],
+      "card": "Chains of Mephistopheles",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Chains of Mephistopheles"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dauthi Voidwalker",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Dauthi Voidwalker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#requirements/value"
+      ],
+      "card": "Force of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Force of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#requirements/value"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/untap-discard",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#identity_core/Illusionist's Bracers",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:untap-copy"
+      ],
+      "card": "Illusionist's Bracers",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Illusionist's Bracers"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#recursion/value"
+      ],
+      "card": "Kess, Dissident Mage",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#key_interactions/per-card-vs-event",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers"
+      ],
+      "card": "Liliana's Caress",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Liliana's Caress"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/breach-led-wheel"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#win:breach-led-wheel"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#identity_core/Mind Twist"
+      ],
+      "card": "Mind Twist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Mind Twist"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#plan/value",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/empty-hand-lock"
+      ],
+      "card": "Notion Thief",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Notion Thief"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#plan/value"
+      ],
+      "card": "Opposition Agent",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Opposition Agent"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#failure_modes/empty-hands",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/empty-hand-lock"
+      ],
+      "card": "Oppression",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Oppression"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers"
+      ],
+      "card": "Orcish Bowmasters",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/untap-discard",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#identity_core/Pemmin's Aura",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#key_interactions/shroud-untappers"
+      ],
+      "card": "Pemmin's Aura",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Pemmin's Aura"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/punisher-wheels"
+      ],
+      "card": "Sheoldred, the Apocalypse",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Sheoldred, the Apocalypse"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Swan Song",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Swan Song"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers"
+      ],
+      "card": "Tergrid, God of Fright // Tergrid's Lantern",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Tergrid, God of Fright // Tergrid's Lantern"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Raven Man",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/The Raven Man"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:wheels",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/punisher-wheels"
+      ],
+      "card": "Timetwister",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Timetwister"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#win_conditions/punisher-wheels"
+      ],
+      "card": "Tinybones, Bauble Burglar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Tinybones, Bauble Burglar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Tourach, Dread Cantor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Tourach, Dread Cantor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/gwendlyn-di-corci.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/gwendlyn-di-corci.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Grixis Thoracle/Breach turbo conversion (decisions L28).",
+      "Prefer cards that raise Gwendlyn's activation rate over generic discard bodies (decisions swaps)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "One random discard per tap is slow without untappers.",
+      "evidence_class": "strategic_judgment",
+      "id": "slow-engine",
+      "mitigations": [
+       "Untap package",
+       "Wheels and punishers"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Chains mills you on your own wheels.",
+      "evidence_class": "strategic_judgment",
+      "id": "chains-self",
+      "mitigations": [
+       "Sequence wheels with Chains off"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Opponents empty their hands fast, leaving Gwendlyn nothing to hit.",
+      "evidence_class": "strategic_judgment",
+      "id": "empty-hands",
+      "mitigations": [
+       "Wheels refill",
+       "Oppression/Bottomless Pit lock"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free counters (Force of Will, Force of Negation, Fierce Guardianship), Mana Drain, Toxic Deluge, Cyclonic Rift.",
+      "mana": "Fast mana (Sol Ring, Chrome Mox, Lotus Petal, Ancient Tomb, Dark Ritual) for a four-mana commander.",
+      "protection": "Lightning Greaves, Pemmin's Aura shroud, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Wheel of Fortune",
+       "Windfall",
+       "Timetwister",
+       "Waste Not",
+       "Liliana's Caress",
+       "Sheoldred, the Apocalypse",
+       "Underworld Dreams",
+       "Tinybones, Bauble Burglar"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Gwendlyn Di Corci"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "punisher-wheels",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Wheel of Fortune"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach-led-wheel",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Oppression",
+       "Bottomless Pit",
+       "Chains of Mephistopheles",
+       "Notion Thief"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Gwendlyn Di Corci"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "empty-hand-lock",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Every untapper and Bracers exists only to multiply Gwendlyn's activation.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "She is a four-mana tap ability that discards one random card, on your turn only and with summoning sickness (M1 gwendlyn-01). Without haste and untappers she's slow, and most of the damage comes from wheels plus punishers, which work without her.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:board_wipe:15a0e46eb25a",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:artifacts_wiped:8001d56f0976",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:commander_removed_twice:1f20f0562824",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:key_engine_exiled:5a25887803e5",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:mana_screw:7f6f6ffc40d4",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "inconclusive",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:color_screw:4a9dcdca412d",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/gwendlyn-di-corci.json#test:gwendlyn-di-corci:stress:graveyard_exiled:41c22f5131fd",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "gwendlyn-di-corci",
+ "source_packet": "data/grixis/bracket_stress_packets/gwendlyn-di-corci.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

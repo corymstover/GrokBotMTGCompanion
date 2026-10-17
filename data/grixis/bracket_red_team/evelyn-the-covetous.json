@@ -1,0 +1,650 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B5_competitive",
+  "value": 5
+ },
+ "canonical_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+ "deck_id": "Evelyn__the_Covetous",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 99,
+  "commander_role": "significant",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume the primary win is identified and opponents hold relevant interaction. Determine whether the deck can assemble, protect, pivot, or recover without relying on generic power-core assumptions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#engines/fast-mana-tutors"
+      ],
+      "card": "Ad Nauseam",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Ad Nauseam"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#packages/pkg:free-interaction"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#packages/pkg:worldgorger",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#recursion/value",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#win_conditions/worldgorger"
+      ],
+      "card": "Animate Dead",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Animate Dead",
+       "graph:data/grixis/graph/evelyn-the-covetous.json#combo:4812-4846"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#plan/value",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#win_conditions/breach-brain-freeze"
+      ],
+      "card": "Brain Freeze",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Brain Freeze",
+       "graph:data/grixis/graph/evelyn-the-covetous.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/evelyn-the-covetous.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#packages/pkg:worldgorger",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#recursion/value",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#win_conditions/worldgorger"
+      ],
+      "card": "Dance of the Dead",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Dance of the Dead",
+       "graph:data/grixis/graph/evelyn-the-covetous.json#combo:3605-4846"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dauthi Voidwalker",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Dauthi Voidwalker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#requirements/value"
+      ],
+      "card": "Defense Grid",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Defense Grid"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#packages/pkg:tutors",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#win_conditions/oracle"
+      ],
+      "card": "Demonic Consultation",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Demonic Consultation",
+       "graph:data/grixis/graph/evelyn-the-covetous.json#combo:742-1295"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#engines/fast-mana-tutors",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#packages/pkg:tutors",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#tutor_targets/Thassa's Oracle"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#packages/pkg:worldgorger",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#tutor_targets/Worldgorger Dragon",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#win_conditions/worldgorger"
+      ],
+      "card": "Entomb",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Entomb"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#packages/pkg:worldgorger",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#win_conditions/worldgorger"
+      ],
+      "card": "Faithless Looting",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Faithless Looting"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Final Fortune",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Final Fortune"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#packages/pkg:free-interaction"
+      ],
+      "card": "Flusterstorm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Flusterstorm"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#packages/pkg:free-interaction"
+      ],
+      "card": "Force of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Force of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#packages/pkg:free-interaction"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#packages/pkg:tutors",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#tutor_targets/Underworld Breach"
+      ],
+      "card": "Gamble",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Gamble"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hexing Squelcher",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Hexing Squelcher"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#engines/fast-mana-tutors",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#packages/pkg:tutors",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#tutor_targets/Thassa's Oracle"
+      ],
+      "card": "Imperial Seal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Imperial Seal"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#engines/collection-exile",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#identity_core/Leyline of Anticipation",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#plan/value"
+      ],
+      "card": "Leyline of Anticipation",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Leyline of Anticipation"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#key_interactions/bauble-self",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#win_conditions/breach-brain-freeze"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/evelyn-the-covetous.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#engines/fast-mana-tutors",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#win_conditions/breach-brain-freeze"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Lotus Petal",
+       "graph:data/grixis/graph/evelyn-the-covetous.json#combo:1368-1414-4856"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#packages/pkg:free-interaction"
+      ],
+      "card": "Mental Misstep",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Mental Misstep"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#packages/pkg:tutors"
+      ],
+      "card": "Mystical Tutor",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Mystical Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#packages/pkg:worldgorger",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#recursion/value",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#win_conditions/worldgorger"
+      ],
+      "card": "Necromancy",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Necromancy",
+       "graph:data/grixis/graph/evelyn-the-covetous.json#combo:2896-4846"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#engines/fast-mana-tutors"
+      ],
+      "card": "Necropotence",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Necropotence"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Opposition Agent",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Opposition Agent"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#packages/pkg:free-interaction"
+      ],
+      "card": "Pact of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Pact of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#engines/collection-exile",
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#identity_core/Party Thrasher"
+      ],
+      "card": "Party Thrasher",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Party Thrasher"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Praetor's Grasp",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Praetor's Grasp"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/evelyn-the-covetous.json#packages/pkg:free-interaction"
+      ],
+      "card": "Pyroblast",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/evelyn-the-covetous.json#metrics/Pyroblast"
+      ],
+      "roles": [
+       "counter",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't rebuild the Vampire/ETB value shell; the source judged it below the commander's ceiling (decisions §2).",
+      "Keep combo exits in the list: the Worldgorger loop can't be left unbroken."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Worldgorger loop with no creature to break it is a forced draw.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-exit",
+      "mitigations": [
+       "Keep a second creature in the yard",
+       "Thassa's Oracle exit"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Graveyard hate stops Worldgorger and Breach.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Thassa's Oracle + Consultation",
+       "Bounce/remove hate"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Your own Vexing Bauble blocks free combo spells.",
+      "evidence_class": "strategic_judgment",
+      "id": "own-bauble",
+      "mitigations": [
+       "Crack it first"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free counters and one-mana stack interaction.",
+      "mana": "Premium fast mana and rituals; 5-mana flash commander.",
+      "protection": "Defense Grid, Spellskite, the counter suite."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Worldgorger Dragon",
+       "Animate Dead",
+       "Dance of the Dead",
+       "Necromancy"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Entomb",
+       "Unmarked Grave",
+       "Faithless Looting",
+       "Evelyn, the Covetous"
+      ],
+      "evidence_class": "fact",
+      "id": "worldgorger",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Thassa's Oracle",
+       "Demonic Consultation",
+       "Tainted Pact"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "oracle",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Lotus Petal",
+       "Brain Freeze"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach-brain-freeze",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Flash card advantage, and a Worldgorger loop that repeatedly re-triggers her exile.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "All three proven win lines (Worldgorger + Aura for mana, Oracle + Consultation/Pact, Breach + LED + Brain Freeze) work without Evelyn; the Evelyn-specific Worldgorger-into-Oracle line is rated uncertain in M1 (evelyn-05). Evelyn is the only Vampire left, so her 'another Vampire' clause is dead text: the source traded the Vampire identity for a generic Grixis cEDH shell.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 3,
+      "combo_commander_independent": 4,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 7
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": null,
+      "source": "data/grixis/audit/evelyn-the-covetous.json#baseline_sim",
+      "status": "reused_goldfish_readiness",
+      "stress_id": "turbo_clock"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/evelyn-the-covetous.json#test:evelyn-the-covetous:stress:first_key_spell_countered:6d1f19dd9f3b",
+      "status": "reused_existing_test_result",
+      "stress_id": "first_key_spell_countered"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/evelyn-the-covetous.json#test:evelyn-the-covetous:stress:graveyard_exiled:7c94a85eda32",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/evelyn-the-covetous.json#test:evelyn-the-covetous:stress:commander_removed_twice:7f47828a7c4c",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/evelyn-the-covetous.json#test:evelyn-the-covetous:stress:key_engine_exiled:f5a45b6d821e",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     }
+    ]
+   },
+   "id": "protected_win_red_team",
+   "priority_weight": 0.05,
+   "question": "Adversarial reviewer asks whether primary wins remain executable through realistic protection/interaction windows.",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "evelyn-the-covetous",
+ "source_packet": "data/grixis/bracket_stress_packets/evelyn-the-covetous.json",
+ "status": "red_team_pending",
+ "suite_family": "B5_competitive"
+}

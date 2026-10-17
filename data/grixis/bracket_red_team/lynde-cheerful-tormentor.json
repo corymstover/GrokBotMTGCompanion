@@ -1,0 +1,2332 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+ "deck_id": "Lynde__Cheerful_Tormentor",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 92,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Accursed Witch // Infectious Curse",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Accursed Witch // Infectious Curse"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/constellation-drain"
+      ],
+      "card": "Ashiok's Reaper",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Ashiok's Reaper"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#engines/curse-reset",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:reset-outlets"
+      ],
+      "card": "Braids, Arisen Nightmare",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Braids, Arisen Nightmare"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Clever Impersonator",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Clever Impersonator"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Copy Enchantment",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Copy Enchantment"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#identity_core/Curse of Bloodletting",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses"
+      ],
+      "card": "Curse of Bloodletting",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of Bloodletting"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/curse-attrition"
+      ],
+      "card": "Curse of Death's Hold",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of Death's Hold"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#key_interactions/harmless-on-you",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses"
+      ],
+      "card": "Curse of Fool's Wisdom",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of Fool's Wisdom"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#key_interactions/harmless-on-you",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses"
+      ],
+      "card": "Curse of Surveillance",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of Surveillance"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/curse-attrition"
+      ],
+      "card": "Curse of Thirst",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of Thirst"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/curse-attrition"
+      ],
+      "card": "Curse of Vengeance",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of Vengeance"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses"
+      ],
+      "card": "Curse of Verbosity",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of Verbosity"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/curse-attrition"
+      ],
+      "card": "Curse of the Restless Dead",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of the Restless Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#engines/curse-reset",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#identity_core/Despotic Scepter",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:reset-outlets"
+      ],
+      "card": "Despotic Scepter",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Despotic Scepter"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dimir Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Dimir Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/constellation-drain"
+      ],
+      "card": "Doomwake Giant",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Doomwake Giant"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Entity Tracker",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Entity Tracker"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Estrid's Invocation",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Estrid's Invocation"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/constellation-drain"
+      ],
+      "card": "Grim Guardian",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Grim Guardian"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#recursion/value"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Jeska's Will"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mirrormade",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Mirrormade"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nightscape Familiar",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Nightscape Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:extra-upkeep"
+      ],
+      "card": "Obeka, Splitter of Seconds",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Obeka, Splitter of Seconds",
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#package:extra-upkeep"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#identity_core/Paradox Haze",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:extra-upkeep"
+      ],
+      "card": "Paradox Haze",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Paradox Haze",
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#package:extra-upkeep"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#engines/curse-reset",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:reset-outlets",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#plan/value"
+      ],
+      "card": "Perilous Research",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Perilous Research"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#requirements/value"
+      ],
+      "card": "Propaganda",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Propaganda"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Rakdos Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rhystic Study",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Rhystic Study"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic combo packages added just to raise the theoretical ceiling (decisions L17).",
+      "Prefer Curses that are good to recycle over narrow ones (decisions swaps)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Enchantment wipes remove the whole Curse board at once.",
+      "evidence_class": "strategic_judgment",
+      "id": "enchantment-removal",
+      "mitigations": [
+       "Lynde returns Curses that hit the graveyard",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Curses parked on you hurt you.",
+      "evidence_class": "strategic_judgment",
+      "id": "self-damage",
+      "mitigations": [
+       "Move dangerous Curses first",
+       "Park harmless ones (lynde-07)"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No compact win: a slow damage clock gives opponents time.",
+      "evidence_class": "strategic_judgment",
+      "id": "slow-clock",
+      "mitigations": [
+       "Extra upkeeps",
+       "Premium interaction"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Fierce Guardianship, Swan Song, Deadly Rollick, Toxic Deluge, Damnation, Cyclonic Rift.",
+      "mana": "35 lands, Sol Ring, Ancient Tomb, Signets and Talismans.",
+      "protection": "Deathtouch, Propaganda, Deflecting Swat, attack-tax Curses."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Curse of Bloodletting",
+       "Torment of Scarabs",
+       "Curse of the Restless Dead",
+       "Curse of Vengeance",
+       "Curse of Thirst",
+       "Curse of Death's Hold"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Lynde, Cheerful Tormentor",
+       "Paradox Haze"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "curse-attrition",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Doomwake Giant",
+       "Grim Guardian",
+       "Ashiok's Reaper"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Lynde, Cheerful Tormentor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "constellation-drain",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Lynde is the Curse recursion and the draw-two engine; the reset outlets only exist to feed her.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "There is no compact win: Commander Spellbook finds no combos in the list, so the deck wins slowly through stacked Curse damage. Returned Curses also hit you until Lynde moves them (M1 lynde-06).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:board_wipe:9d4eecb8b71c",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:artifacts_wiped:3ba456bdb926",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:commander_removed_twice:8b414d4a7151",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:key_engine_exiled:2b2edf1b3322",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:mana_screw:0b806c18551d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:color_screw:5437f2fd1bc6",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:graveyard_exiled:5d1a77b834fe",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Accursed Witch // Infectious Curse",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Accursed Witch // Infectious Curse"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/constellation-drain"
+      ],
+      "card": "Ashiok's Reaper",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Ashiok's Reaper"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Blasphemous Act",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Clever Impersonator",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Clever Impersonator"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Copy Enchantment",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Copy Enchantment"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#identity_core/Curse of Bloodletting",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses"
+      ],
+      "card": "Curse of Bloodletting",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of Bloodletting"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/curse-attrition"
+      ],
+      "card": "Curse of Death's Hold",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of Death's Hold"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/curse-attrition"
+      ],
+      "card": "Curse of Thirst",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of Thirst"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/curse-attrition"
+      ],
+      "card": "Curse of Vengeance",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of Vengeance"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/curse-attrition"
+      ],
+      "card": "Curse of the Restless Dead",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of the Restless Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#requirements/value"
+      ],
+      "card": "Damnation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Damnation"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#engines/curse-reset",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#identity_core/Despotic Scepter",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:reset-outlets"
+      ],
+      "card": "Despotic Scepter",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Despotic Scepter"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/constellation-drain"
+      ],
+      "card": "Doomwake Giant",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Doomwake Giant"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Estrid's Invocation",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Estrid's Invocation"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/constellation-drain"
+      ],
+      "card": "Grim Guardian",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Grim Guardian"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mirrormade",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Mirrormade"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nightscape Familiar",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Nightscape Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:extra-upkeep"
+      ],
+      "card": "Obeka, Splitter of Seconds",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Obeka, Splitter of Seconds",
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#package:extra-upkeep"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#identity_core/Paradox Haze",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:extra-upkeep"
+      ],
+      "card": "Paradox Haze",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Paradox Haze",
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#package:extra-upkeep"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#requirements/value"
+      ],
+      "card": "Propaganda",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Propaganda"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#identity_core/The Ninth Doctor",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:extra-upkeep"
+      ],
+      "card": "The Ninth Doctor",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/The Ninth Doctor",
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#package:extra-upkeep"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/curse-attrition"
+      ],
+      "card": "Torment of Scarabs",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Torment of Scarabs"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Wicked Visitor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Wicked Visitor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Withering Torment",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Withering Torment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic combo packages added just to raise the theoretical ceiling (decisions L17).",
+      "Prefer Curses that are good to recycle over narrow ones (decisions swaps)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Enchantment wipes remove the whole Curse board at once.",
+      "evidence_class": "strategic_judgment",
+      "id": "enchantment-removal",
+      "mitigations": [
+       "Lynde returns Curses that hit the graveyard",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Curses parked on you hurt you.",
+      "evidence_class": "strategic_judgment",
+      "id": "self-damage",
+      "mitigations": [
+       "Move dangerous Curses first",
+       "Park harmless ones (lynde-07)"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No compact win: a slow damage clock gives opponents time.",
+      "evidence_class": "strategic_judgment",
+      "id": "slow-clock",
+      "mitigations": [
+       "Extra upkeeps",
+       "Premium interaction"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Fierce Guardianship, Swan Song, Deadly Rollick, Toxic Deluge, Damnation, Cyclonic Rift.",
+      "mana": "35 lands, Sol Ring, Ancient Tomb, Signets and Talismans.",
+      "protection": "Deathtouch, Propaganda, Deflecting Swat, attack-tax Curses."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Curse of Bloodletting",
+       "Torment of Scarabs",
+       "Curse of the Restless Dead",
+       "Curse of Vengeance",
+       "Curse of Thirst",
+       "Curse of Death's Hold"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Lynde, Cheerful Tormentor",
+       "Paradox Haze"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "curse-attrition",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Doomwake Giant",
+       "Grim Guardian",
+       "Ashiok's Reaper"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Lynde, Cheerful Tormentor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "constellation-drain",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Lynde is the Curse recursion and the draw-two engine; the reset outlets only exist to feed her.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "There is no compact win: Commander Spellbook finds no combos in the list, so the deck wins slowly through stacked Curse damage. Returned Curses also hit you until Lynde moves them (M1 lynde-06).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:board_wipe:9d4eecb8b71c",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:artifacts_wiped:3ba456bdb926",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:commander_removed_twice:8b414d4a7151",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:key_engine_exiled:2b2edf1b3322",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:mana_screw:0b806c18551d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:color_screw:5437f2fd1bc6",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:graveyard_exiled:5d1a77b834fe",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Accursed Witch // Infectious Curse",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Accursed Witch // Infectious Curse"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/constellation-drain"
+      ],
+      "card": "Ashiok's Reaper",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Ashiok's Reaper"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Blasphemous Act",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Clever Impersonator",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Clever Impersonator"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Copy Enchantment",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Copy Enchantment"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#identity_core/Curse of Bloodletting",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses"
+      ],
+      "card": "Curse of Bloodletting",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of Bloodletting"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/curse-attrition"
+      ],
+      "card": "Curse of Death's Hold",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of Death's Hold"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/curse-attrition"
+      ],
+      "card": "Curse of Thirst",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of Thirst"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/curse-attrition"
+      ],
+      "card": "Curse of Vengeance",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of Vengeance"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/curse-attrition"
+      ],
+      "card": "Curse of the Restless Dead",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of the Restless Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#requirements/value"
+      ],
+      "card": "Damnation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Damnation"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#engines/curse-reset",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#identity_core/Despotic Scepter",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:reset-outlets"
+      ],
+      "card": "Despotic Scepter",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Despotic Scepter"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/constellation-drain"
+      ],
+      "card": "Doomwake Giant",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Doomwake Giant"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Estrid's Invocation",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Estrid's Invocation"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/constellation-drain"
+      ],
+      "card": "Grim Guardian",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Grim Guardian"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mirrormade",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Mirrormade"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nightscape Familiar",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Nightscape Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:extra-upkeep"
+      ],
+      "card": "Obeka, Splitter of Seconds",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Obeka, Splitter of Seconds",
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#package:extra-upkeep"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#identity_core/Paradox Haze",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:extra-upkeep"
+      ],
+      "card": "Paradox Haze",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Paradox Haze",
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#package:extra-upkeep"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#requirements/value"
+      ],
+      "card": "Propaganda",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Propaganda"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#identity_core/The Ninth Doctor",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:extra-upkeep"
+      ],
+      "card": "The Ninth Doctor",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/The Ninth Doctor",
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#package:extra-upkeep"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/curse-attrition"
+      ],
+      "card": "Torment of Scarabs",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Torment of Scarabs"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Wicked Visitor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Wicked Visitor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Withering Torment",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Withering Torment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic combo packages added just to raise the theoretical ceiling (decisions L17).",
+      "Prefer Curses that are good to recycle over narrow ones (decisions swaps)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Enchantment wipes remove the whole Curse board at once.",
+      "evidence_class": "strategic_judgment",
+      "id": "enchantment-removal",
+      "mitigations": [
+       "Lynde returns Curses that hit the graveyard",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Curses parked on you hurt you.",
+      "evidence_class": "strategic_judgment",
+      "id": "self-damage",
+      "mitigations": [
+       "Move dangerous Curses first",
+       "Park harmless ones (lynde-07)"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No compact win: a slow damage clock gives opponents time.",
+      "evidence_class": "strategic_judgment",
+      "id": "slow-clock",
+      "mitigations": [
+       "Extra upkeeps",
+       "Premium interaction"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Fierce Guardianship, Swan Song, Deadly Rollick, Toxic Deluge, Damnation, Cyclonic Rift.",
+      "mana": "35 lands, Sol Ring, Ancient Tomb, Signets and Talismans.",
+      "protection": "Deathtouch, Propaganda, Deflecting Swat, attack-tax Curses."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Curse of Bloodletting",
+       "Torment of Scarabs",
+       "Curse of the Restless Dead",
+       "Curse of Vengeance",
+       "Curse of Thirst",
+       "Curse of Death's Hold"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Lynde, Cheerful Tormentor",
+       "Paradox Haze"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "curse-attrition",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Doomwake Giant",
+       "Grim Guardian",
+       "Ashiok's Reaper"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Lynde, Cheerful Tormentor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "constellation-drain",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Lynde is the Curse recursion and the draw-two engine; the reset outlets only exist to feed her.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "There is no compact win: Commander Spellbook finds no combos in the list, so the deck wins slowly through stacked Curse damage. Returned Curses also hit you until Lynde moves them (M1 lynde-06).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:board_wipe:9d4eecb8b71c",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:artifacts_wiped:3ba456bdb926",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:commander_removed_twice:8b414d4a7151",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:key_engine_exiled:2b2edf1b3322",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:mana_screw:0b806c18551d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:color_screw:5437f2fd1bc6",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:graveyard_exiled:5d1a77b834fe",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Accursed Witch // Infectious Curse",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Accursed Witch // Infectious Curse"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/constellation-drain"
+      ],
+      "card": "Ashiok's Reaper",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Ashiok's Reaper"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Blasphemous Act",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Clever Impersonator",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Clever Impersonator"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Copy Enchantment",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Copy Enchantment"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#identity_core/Curse of Bloodletting",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses"
+      ],
+      "card": "Curse of Bloodletting",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of Bloodletting"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/curse-attrition"
+      ],
+      "card": "Curse of Death's Hold",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of Death's Hold"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/curse-attrition"
+      ],
+      "card": "Curse of Thirst",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of Thirst"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/curse-attrition"
+      ],
+      "card": "Curse of Vengeance",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of Vengeance"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/curse-attrition"
+      ],
+      "card": "Curse of the Restless Dead",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Curse of the Restless Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#requirements/value"
+      ],
+      "card": "Damnation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Damnation"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#engines/curse-reset",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#identity_core/Despotic Scepter",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:reset-outlets"
+      ],
+      "card": "Despotic Scepter",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Despotic Scepter"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/constellation-drain"
+      ],
+      "card": "Doomwake Giant",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Doomwake Giant"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Estrid's Invocation",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Estrid's Invocation"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/constellation-drain"
+      ],
+      "card": "Grim Guardian",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Grim Guardian"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mirrormade",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Mirrormade"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nightscape Familiar",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Nightscape Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:extra-upkeep"
+      ],
+      "card": "Obeka, Splitter of Seconds",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Obeka, Splitter of Seconds",
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#package:extra-upkeep"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#identity_core/Paradox Haze",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:extra-upkeep"
+      ],
+      "card": "Paradox Haze",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Paradox Haze",
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#package:extra-upkeep"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#requirements/value"
+      ],
+      "card": "Propaganda",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Propaganda"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#requirements/value"
+      ],
+      "card": "Swan Song",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Swan Song"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#identity_core/The Ninth Doctor",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:extra-upkeep"
+      ],
+      "card": "The Ninth Doctor",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/The Ninth Doctor",
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#package:extra-upkeep"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#win_conditions/curse-attrition"
+      ],
+      "card": "Torment of Scarabs",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Torment of Scarabs"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lynde-cheerful-tormentor.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lynde-cheerful-tormentor.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic combo packages added just to raise the theoretical ceiling (decisions L17).",
+      "Prefer Curses that are good to recycle over narrow ones (decisions swaps)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Enchantment wipes remove the whole Curse board at once.",
+      "evidence_class": "strategic_judgment",
+      "id": "enchantment-removal",
+      "mitigations": [
+       "Lynde returns Curses that hit the graveyard",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Curses parked on you hurt you.",
+      "evidence_class": "strategic_judgment",
+      "id": "self-damage",
+      "mitigations": [
+       "Move dangerous Curses first",
+       "Park harmless ones (lynde-07)"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No compact win: a slow damage clock gives opponents time.",
+      "evidence_class": "strategic_judgment",
+      "id": "slow-clock",
+      "mitigations": [
+       "Extra upkeeps",
+       "Premium interaction"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Fierce Guardianship, Swan Song, Deadly Rollick, Toxic Deluge, Damnation, Cyclonic Rift.",
+      "mana": "35 lands, Sol Ring, Ancient Tomb, Signets and Talismans.",
+      "protection": "Deathtouch, Propaganda, Deflecting Swat, attack-tax Curses."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Curse of Bloodletting",
+       "Torment of Scarabs",
+       "Curse of the Restless Dead",
+       "Curse of Vengeance",
+       "Curse of Thirst",
+       "Curse of Death's Hold"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Lynde, Cheerful Tormentor",
+       "Paradox Haze"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "curse-attrition",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Doomwake Giant",
+       "Grim Guardian",
+       "Ashiok's Reaper"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Lynde, Cheerful Tormentor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "constellation-drain",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Lynde is the Curse recursion and the draw-two engine; the reset outlets only exist to feed her.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "There is no compact win: Commander Spellbook finds no combos in the list, so the deck wins slowly through stacked Curse damage. Returned Curses also hit you until Lynde moves them (M1 lynde-06).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:board_wipe:9d4eecb8b71c",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:artifacts_wiped:3ba456bdb926",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:commander_removed_twice:8b414d4a7151",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:key_engine_exiled:2b2edf1b3322",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:mana_screw:0b806c18551d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:color_screw:5437f2fd1bc6",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lynde-cheerful-tormentor.json#test:lynde-cheerful-tormentor:stress:graveyard_exiled:5d1a77b834fe",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "lynde-cheerful-tormentor",
+ "source_packet": "data/grixis/bracket_stress_packets/lynde-cheerful-tormentor.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

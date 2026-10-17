@@ -1,0 +1,2513 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+ "deck_id": "Garza_Zol__Plague_Queen",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 99,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#plan/value",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#tutor_targets/Aggravated Assault",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/extra-combats"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#combo:3750-5039",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#combo:900-3750"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#packages/pkg:fast-mana"
+      ],
+      "card": "Arcane Signet",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#engines/deathtouch-growth",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#identity_core/Basilisk Collar",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#packages/pkg:deathtouch-damage"
+      ],
+      "card": "Basilisk Collar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Basilisk Collar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Blackblade Reforged",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Blackblade Reforged"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Blade of the Bloodchief",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Blade of the Bloodchief"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#packages/pkg:evasion-protection",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Brotherhood Regalia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Brotherhood Regalia"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#engines/deathtouch-growth",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#identity_core/Chandra's Ignition",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#key_interactions/garza-source"
+      ],
+      "card": "Chandra's Ignition",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Chandra's Ignition"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#engines/combat-draw",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#plan/value"
+      ],
+      "card": "Curiosity",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Curiosity"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dimir Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Dimir Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#packages/pkg:fast-mana"
+      ],
+      "card": "Fellwar Stone",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#key_interactions/exoskeleton-sac",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#plan/value",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/kediss-infect"
+      ],
+      "card": "Grafted Exoskeleton",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Grafted Exoskeleton",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#combo:2822-3681",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#win:kediss-infect"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#packages/pkg:fast-mana",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#requirements/value"
+      ],
+      "card": "Grim Monolith",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Grim Monolith"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#plan/value",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Hatred",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Hatred"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/kediss-infect"
+      ],
+      "card": "Inquisitor's Flail",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Inquisitor's Flail"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Izzet Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Izzet Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jeska's Will",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Jeska's Will"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#key_interactions/jeska-cz",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Jeska, Thrice Reborn",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Jeska, Thrice Reborn"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#identity_core/Kediss, Emberclaw Familiar",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/kediss-infect"
+      ],
+      "card": "Kediss, Emberclaw Familiar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Kediss, Emberclaw Familiar",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#combo:2822-3681",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#win:kediss-infect"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#packages/pkg:fast-mana",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#requirements/value"
+      ],
+      "card": "Mana Vault",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Mana Vault"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#engines/combat-draw",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#plan/value"
+      ],
+      "card": "Mask of Memory",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Mask of Memory"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/kediss-infect"
+      ],
+      "card": "Psychotic Fury",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Psychotic Fury"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Rakdos Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rhystic Study",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Rhystic Study"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#engines/combat-draw",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#plan/value"
+      ],
+      "card": "Robe of the Archmagi",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Robe of the Archmagi"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#failure_modes/single-threat",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#packages/pkg:evasion-protection",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Rogue's Passage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Rogue's Passage"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Scythe of the Wretched",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Scythe of the Wretched"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sheoldred's Edict",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Sheoldred's Edict"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#packages/pkg:fast-mana",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#requirements/value"
+      ],
+      "card": "Sol Ring",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Sol Ring"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Generic cEDH packages (Chrome Mox, Mox Diamond, rituals, Thassa's Oracle) were deliberately not added (blueprint L48).",
+      "Don't treat Garza as an incidental body in a value shell."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Repeated removal makes a seven-mana commander uncastable.",
+      "evidence_class": "strategic_judgment",
+      "id": "tax",
+      "mitigations": [
+       "Command Beacon",
+       "Protection suite"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "One-threat Voltron loses to edicts and chump-blocking.",
+      "evidence_class": "strategic_judgment",
+      "id": "single-threat",
+      "mitigations": [
+       "Flying, Rogue's Passage, Shizo",
+       "Kediss infect closer"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Jeska dies if Garza hasn't been cast from the command zone.",
+      "evidence_class": "strategic_judgment",
+      "id": "jeska-dead",
+      "mitigations": [
+       "Cast Garza first"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Cheap removal and counters (Mana Drain, Counterspell, Terminate, Deadly Rollick, Pongify, Toxic Deluge, Cyclonic Rift).",
+      "mana": "38 lands plus Sol Ring, Mana Vault, Grim Monolith, Ancient Tomb, Command Beacon.",
+      "protection": "Equipment protection, boots, Fierce Guardianship, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Hatred",
+       "Jeska, Thrice Reborn",
+       "Blackblade Reforged",
+       "Blade of the Bloodchief",
+       "Tarrian's Soulcleaver"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Garza Zol, Plague Queen",
+       "Rogue's Passage",
+       "Brotherhood Regalia"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "commander-damage",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Kediss, Emberclaw Familiar",
+       "Grafted Exoskeleton"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Garza Zol, Plague Queen",
+       "Psychotic Fury",
+       "Inquisitor's Flail"
+      ],
+      "evidence_class": "fact",
+      "id": "kediss-infect",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Aggravated Assault",
+       "Sword of Feast and Famine",
+       "The Reaver Cleaver"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Garza Zol, Plague Queen"
+      ],
+      "evidence_class": "fact",
+      "id": "extra-combats",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Garza is the only real threat: her damage triggers the growth, her hits draw, and every closer is aimed at her.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Seven mana with a rising commander tax, and every plan runs through one creature: removal or a chump-proof blocker stalls the deck (source: blueprint L44). Her draw clause is a 'may' that only works on player hits.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 3,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 3
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:board_wipe:7776d17cbe7b",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:artifacts_wiped:59332eadca31",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:commander_removed_twice:87a9d3200847",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:key_engine_exiled:870d572cf0b9",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:mana_screw:1413c715472e",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:color_screw:558434a780b3",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:graveyard_exiled:01cc76a967aa",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#plan/value",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#tutor_targets/Aggravated Assault",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/extra-combats"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#combo:3750-5039",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#combo:900-3750"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#engines/deathtouch-growth",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#identity_core/Basilisk Collar",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#packages/pkg:deathtouch-damage"
+      ],
+      "card": "Basilisk Collar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Basilisk Collar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Blackblade Reforged",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Blackblade Reforged"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Blade of the Bloodchief",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Blade of the Bloodchief"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#packages/pkg:evasion-protection",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Brotherhood Regalia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Brotherhood Regalia"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#engines/deathtouch-growth",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#identity_core/Chandra's Ignition",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#key_interactions/garza-source"
+      ],
+      "card": "Chandra's Ignition",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Chandra's Ignition"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feed the Swarm",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#key_interactions/exoskeleton-sac",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#plan/value",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/kediss-infect"
+      ],
+      "card": "Grafted Exoskeleton",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Grafted Exoskeleton",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#combo:2822-3681",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#win:kediss-infect"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#plan/value",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Hatred",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Hatred"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/kediss-infect"
+      ],
+      "card": "Inquisitor's Flail",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Inquisitor's Flail"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#key_interactions/jeska-cz",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Jeska, Thrice Reborn",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Jeska, Thrice Reborn"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#identity_core/Kediss, Emberclaw Familiar",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/kediss-infect"
+      ],
+      "card": "Kediss, Emberclaw Familiar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Kediss, Emberclaw Familiar",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#combo:2822-3681",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#win:kediss-infect"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#requirements/value"
+      ],
+      "card": "Pongify",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Pongify"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/kediss-infect"
+      ],
+      "card": "Psychotic Fury",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Psychotic Fury"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rapid Hybridization",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Rapid Hybridization"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#failure_modes/single-threat",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#packages/pkg:evasion-protection",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Rogue's Passage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Rogue's Passage"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Scythe of the Wretched",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Scythe of the Wretched"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sheoldred's Edict",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Sheoldred's Edict"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#plan/value",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/extra-combats"
+      ],
+      "card": "Sword of Feast and Famine",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Sword of Feast and Famine",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#combo:900-3750"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#engines/combat-draw",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#plan/value"
+      ],
+      "card": "Sword of Fire and Ice",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Sword of Fire and Ice"
+      ],
+      "roles": [
+       "draw",
+       "protection",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Tarrian's Soulcleaver",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Tarrian's Soulcleaver"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#requirements/value"
+      ],
+      "card": "Terminate",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Terminate"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#key_interactions/ozolith",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#recursion/value"
+      ],
+      "card": "The Ozolith",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/The Ozolith"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/extra-combats"
+      ],
+      "card": "The Reaver Cleaver",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/The Reaver Cleaver",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#combo:3750-5039"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#engines/deathtouch-growth",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#identity_core/Thornbite Staff",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#packages/pkg:deathtouch-damage"
+      ],
+      "card": "Thornbite Staff",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Thornbite Staff"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Generic cEDH packages (Chrome Mox, Mox Diamond, rituals, Thassa's Oracle) were deliberately not added (blueprint L48).",
+      "Don't treat Garza as an incidental body in a value shell."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Repeated removal makes a seven-mana commander uncastable.",
+      "evidence_class": "strategic_judgment",
+      "id": "tax",
+      "mitigations": [
+       "Command Beacon",
+       "Protection suite"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "One-threat Voltron loses to edicts and chump-blocking.",
+      "evidence_class": "strategic_judgment",
+      "id": "single-threat",
+      "mitigations": [
+       "Flying, Rogue's Passage, Shizo",
+       "Kediss infect closer"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Jeska dies if Garza hasn't been cast from the command zone.",
+      "evidence_class": "strategic_judgment",
+      "id": "jeska-dead",
+      "mitigations": [
+       "Cast Garza first"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Cheap removal and counters (Mana Drain, Counterspell, Terminate, Deadly Rollick, Pongify, Toxic Deluge, Cyclonic Rift).",
+      "mana": "38 lands plus Sol Ring, Mana Vault, Grim Monolith, Ancient Tomb, Command Beacon.",
+      "protection": "Equipment protection, boots, Fierce Guardianship, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Hatred",
+       "Jeska, Thrice Reborn",
+       "Blackblade Reforged",
+       "Blade of the Bloodchief",
+       "Tarrian's Soulcleaver"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Garza Zol, Plague Queen",
+       "Rogue's Passage",
+       "Brotherhood Regalia"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "commander-damage",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Kediss, Emberclaw Familiar",
+       "Grafted Exoskeleton"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Garza Zol, Plague Queen",
+       "Psychotic Fury",
+       "Inquisitor's Flail"
+      ],
+      "evidence_class": "fact",
+      "id": "kediss-infect",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Aggravated Assault",
+       "Sword of Feast and Famine",
+       "The Reaver Cleaver"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Garza Zol, Plague Queen"
+      ],
+      "evidence_class": "fact",
+      "id": "extra-combats",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Garza is the only real threat: her damage triggers the growth, her hits draw, and every closer is aimed at her.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Seven mana with a rising commander tax, and every plan runs through one creature: removal or a chump-proof blocker stalls the deck (source: blueprint L44). Her draw clause is a 'may' that only works on player hits.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 3,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 3
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:board_wipe:7776d17cbe7b",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:artifacts_wiped:59332eadca31",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:commander_removed_twice:87a9d3200847",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:key_engine_exiled:870d572cf0b9",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:mana_screw:1413c715472e",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:color_screw:558434a780b3",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:graveyard_exiled:01cc76a967aa",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#plan/value",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#tutor_targets/Aggravated Assault",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/extra-combats"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#combo:3750-5039",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#combo:900-3750"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#engines/deathtouch-growth",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#identity_core/Basilisk Collar",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#packages/pkg:deathtouch-damage"
+      ],
+      "card": "Basilisk Collar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Basilisk Collar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Blackblade Reforged",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Blackblade Reforged"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Blade of the Bloodchief",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Blade of the Bloodchief"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#packages/pkg:evasion-protection",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Brotherhood Regalia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Brotherhood Regalia"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#engines/deathtouch-growth",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#identity_core/Chandra's Ignition",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#key_interactions/garza-source"
+      ],
+      "card": "Chandra's Ignition",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Chandra's Ignition"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feed the Swarm",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#key_interactions/exoskeleton-sac",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#plan/value",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/kediss-infect"
+      ],
+      "card": "Grafted Exoskeleton",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Grafted Exoskeleton",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#combo:2822-3681",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#win:kediss-infect"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#plan/value",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Hatred",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Hatred"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/kediss-infect"
+      ],
+      "card": "Inquisitor's Flail",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Inquisitor's Flail"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#key_interactions/jeska-cz",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Jeska, Thrice Reborn",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Jeska, Thrice Reborn"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#identity_core/Kediss, Emberclaw Familiar",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/kediss-infect"
+      ],
+      "card": "Kediss, Emberclaw Familiar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Kediss, Emberclaw Familiar",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#combo:2822-3681",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#win:kediss-infect"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#requirements/value"
+      ],
+      "card": "Pongify",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Pongify"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/kediss-infect"
+      ],
+      "card": "Psychotic Fury",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Psychotic Fury"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rapid Hybridization",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Rapid Hybridization"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#failure_modes/single-threat",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#packages/pkg:evasion-protection",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Rogue's Passage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Rogue's Passage"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Scythe of the Wretched",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Scythe of the Wretched"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sheoldred's Edict",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Sheoldred's Edict"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#plan/value",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/extra-combats"
+      ],
+      "card": "Sword of Feast and Famine",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Sword of Feast and Famine",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#combo:900-3750"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#engines/combat-draw",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#plan/value"
+      ],
+      "card": "Sword of Fire and Ice",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Sword of Fire and Ice"
+      ],
+      "roles": [
+       "draw",
+       "protection",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Tarrian's Soulcleaver",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Tarrian's Soulcleaver"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#requirements/value"
+      ],
+      "card": "Terminate",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Terminate"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#key_interactions/ozolith",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#recursion/value"
+      ],
+      "card": "The Ozolith",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/The Ozolith"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/extra-combats"
+      ],
+      "card": "The Reaver Cleaver",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/The Reaver Cleaver",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#combo:3750-5039"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#engines/deathtouch-growth",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#identity_core/Thornbite Staff",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#packages/pkg:deathtouch-damage"
+      ],
+      "card": "Thornbite Staff",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Thornbite Staff"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Generic cEDH packages (Chrome Mox, Mox Diamond, rituals, Thassa's Oracle) were deliberately not added (blueprint L48).",
+      "Don't treat Garza as an incidental body in a value shell."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Repeated removal makes a seven-mana commander uncastable.",
+      "evidence_class": "strategic_judgment",
+      "id": "tax",
+      "mitigations": [
+       "Command Beacon",
+       "Protection suite"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "One-threat Voltron loses to edicts and chump-blocking.",
+      "evidence_class": "strategic_judgment",
+      "id": "single-threat",
+      "mitigations": [
+       "Flying, Rogue's Passage, Shizo",
+       "Kediss infect closer"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Jeska dies if Garza hasn't been cast from the command zone.",
+      "evidence_class": "strategic_judgment",
+      "id": "jeska-dead",
+      "mitigations": [
+       "Cast Garza first"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Cheap removal and counters (Mana Drain, Counterspell, Terminate, Deadly Rollick, Pongify, Toxic Deluge, Cyclonic Rift).",
+      "mana": "38 lands plus Sol Ring, Mana Vault, Grim Monolith, Ancient Tomb, Command Beacon.",
+      "protection": "Equipment protection, boots, Fierce Guardianship, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Hatred",
+       "Jeska, Thrice Reborn",
+       "Blackblade Reforged",
+       "Blade of the Bloodchief",
+       "Tarrian's Soulcleaver"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Garza Zol, Plague Queen",
+       "Rogue's Passage",
+       "Brotherhood Regalia"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "commander-damage",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Kediss, Emberclaw Familiar",
+       "Grafted Exoskeleton"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Garza Zol, Plague Queen",
+       "Psychotic Fury",
+       "Inquisitor's Flail"
+      ],
+      "evidence_class": "fact",
+      "id": "kediss-infect",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Aggravated Assault",
+       "Sword of Feast and Famine",
+       "The Reaver Cleaver"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Garza Zol, Plague Queen"
+      ],
+      "evidence_class": "fact",
+      "id": "extra-combats",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Garza is the only real threat: her damage triggers the growth, her hits draw, and every closer is aimed at her.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Seven mana with a rising commander tax, and every plan runs through one creature: removal or a chump-proof blocker stalls the deck (source: blueprint L44). Her draw clause is a 'may' that only works on player hits.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 3,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 3
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:board_wipe:7776d17cbe7b",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:artifacts_wiped:59332eadca31",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:commander_removed_twice:87a9d3200847",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:key_engine_exiled:870d572cf0b9",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:mana_screw:1413c715472e",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:color_screw:558434a780b3",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:graveyard_exiled:01cc76a967aa",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#plan/value",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#tutor_targets/Aggravated Assault",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/extra-combats"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#combo:3750-5039",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#combo:900-3750"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#engines/deathtouch-growth",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#identity_core/Basilisk Collar",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#packages/pkg:deathtouch-damage"
+      ],
+      "card": "Basilisk Collar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Basilisk Collar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Blackblade Reforged",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Blackblade Reforged"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Blade of the Bloodchief",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Blade of the Bloodchief"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#packages/pkg:evasion-protection",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Brotherhood Regalia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Brotherhood Regalia"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#engines/deathtouch-growth",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#identity_core/Chandra's Ignition",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#key_interactions/garza-source"
+      ],
+      "card": "Chandra's Ignition",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Chandra's Ignition"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#requirements/value"
+      ],
+      "card": "Counterspell",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Counterspell"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feed the Swarm",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#packages/pkg:evasion-protection",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#key_interactions/exoskeleton-sac",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#plan/value",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/kediss-infect"
+      ],
+      "card": "Grafted Exoskeleton",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Grafted Exoskeleton",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#combo:2822-3681",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#win:kediss-infect"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#plan/value",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Hatred",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Hatred"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/kediss-infect"
+      ],
+      "card": "Inquisitor's Flail",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Inquisitor's Flail"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#key_interactions/jeska-cz",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Jeska, Thrice Reborn",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Jeska, Thrice Reborn"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#identity_core/Kediss, Emberclaw Familiar",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/kediss-infect"
+      ],
+      "card": "Kediss, Emberclaw Familiar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Kediss, Emberclaw Familiar",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#combo:2822-3681",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#win:kediss-infect"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#requirements/value"
+      ],
+      "card": "Pongify",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Pongify"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/kediss-infect"
+      ],
+      "card": "Psychotic Fury",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Psychotic Fury"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rapid Hybridization",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Rapid Hybridization"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#failure_modes/single-threat",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#packages/pkg:evasion-protection",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Rogue's Passage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Rogue's Passage"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Scythe of the Wretched",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Scythe of the Wretched"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sheoldred's Edict",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Sheoldred's Edict"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#plan/value",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/extra-combats"
+      ],
+      "card": "Sword of Feast and Famine",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Sword of Feast and Famine",
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#combo:900-3750"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#engines/combat-draw",
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#plan/value"
+      ],
+      "card": "Sword of Fire and Ice",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Sword of Fire and Ice"
+      ],
+      "roles": [
+       "draw",
+       "protection",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#win_conditions/commander-damage"
+      ],
+      "card": "Tarrian's Soulcleaver",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Tarrian's Soulcleaver"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json#requirements/value"
+      ],
+      "card": "Terminate",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/garza-zol-plague-queen.json#metrics/Terminate"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Generic cEDH packages (Chrome Mox, Mox Diamond, rituals, Thassa's Oracle) were deliberately not added (blueprint L48).",
+      "Don't treat Garza as an incidental body in a value shell."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Repeated removal makes a seven-mana commander uncastable.",
+      "evidence_class": "strategic_judgment",
+      "id": "tax",
+      "mitigations": [
+       "Command Beacon",
+       "Protection suite"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "One-threat Voltron loses to edicts and chump-blocking.",
+      "evidence_class": "strategic_judgment",
+      "id": "single-threat",
+      "mitigations": [
+       "Flying, Rogue's Passage, Shizo",
+       "Kediss infect closer"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Jeska dies if Garza hasn't been cast from the command zone.",
+      "evidence_class": "strategic_judgment",
+      "id": "jeska-dead",
+      "mitigations": [
+       "Cast Garza first"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Cheap removal and counters (Mana Drain, Counterspell, Terminate, Deadly Rollick, Pongify, Toxic Deluge, Cyclonic Rift).",
+      "mana": "38 lands plus Sol Ring, Mana Vault, Grim Monolith, Ancient Tomb, Command Beacon.",
+      "protection": "Equipment protection, boots, Fierce Guardianship, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Hatred",
+       "Jeska, Thrice Reborn",
+       "Blackblade Reforged",
+       "Blade of the Bloodchief",
+       "Tarrian's Soulcleaver"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Garza Zol, Plague Queen",
+       "Rogue's Passage",
+       "Brotherhood Regalia"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "commander-damage",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Kediss, Emberclaw Familiar",
+       "Grafted Exoskeleton"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Garza Zol, Plague Queen",
+       "Psychotic Fury",
+       "Inquisitor's Flail"
+      ],
+      "evidence_class": "fact",
+      "id": "kediss-infect",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Aggravated Assault",
+       "Sword of Feast and Famine",
+       "The Reaver Cleaver"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Garza Zol, Plague Queen"
+      ],
+      "evidence_class": "fact",
+      "id": "extra-combats",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Garza is the only real threat: her damage triggers the growth, her hits draw, and every closer is aimed at her.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Seven mana with a rising commander tax, and every plan runs through one creature: removal or a chump-proof blocker stalls the deck (source: blueprint L44). Her draw clause is a 'may' that only works on player hits.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 3,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 3
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:board_wipe:7776d17cbe7b",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:artifacts_wiped:59332eadca31",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:commander_removed_twice:87a9d3200847",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:key_engine_exiled:870d572cf0b9",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:mana_screw:1413c715472e",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:color_screw:558434a780b3",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/garza-zol-plague-queen.json#test:garza-zol-plague-queen:stress:graveyard_exiled:01cc76a967aa",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "garza-zol-plague-queen",
+ "source_packet": "data/grixis/bracket_stress_packets/garza-zol-plague-queen.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

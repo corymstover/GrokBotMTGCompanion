@@ -1,0 +1,663 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B5_competitive",
+  "value": 5
+ },
+ "canonical_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+ "deck_id": "Kess__Dissident_Mage",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 99,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume the primary win is identified and opponents hold relevant interaction. Determine whether the deck can assemble, protect, pivot, or recover without relying on generic power-core assumptions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Ad Nauseam",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Ad Nauseam"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#key_interactions/beseech"
+      ],
+      "card": "Beseech the Mirror",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Beseech the Mirror"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#plan/value",
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#win_conditions/breach-led"
+      ],
+      "card": "Brain Freeze",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Brain Freeze",
+       "graph:data/grixis/graph/kess-dissident-mage.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/kess-dissident-mage.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#engines/fast-mana-tutors",
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#win_conditions/breach-station"
+      ],
+      "card": "Chrome Mox",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Chrome Mox"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#requirements/value"
+      ],
+      "card": "Deflecting Swat",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Deflecting Swat"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#identity_core/Demonic Consultation",
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#packages/pkg:oracle-piles",
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#plan/value"
+      ],
+      "card": "Demonic Consultation",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Demonic Consultation",
+       "graph:data/grixis/graph/kess-dissident-mage.json#combo:742-1295",
+       "graph:data/grixis/graph/kess-dissident-mage.json#package:oracle-piles"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#failure_modes/counsel",
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#key_interactions/counsel-delirium"
+      ],
+      "card": "Demonic Counsel",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Demonic Counsel"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#engines/fast-mana-tutors",
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#tutor_targets/Underworld Breach"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#engines/graveyard-replay",
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#identity_core/Displacer Kitten",
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#key_interactions/kitten-reset"
+      ],
+      "card": "Displacer Kitten",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Displacer Kitten"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#engines/graveyard-replay",
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#packages/pkg:yard-stock",
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#plan/value"
+      ],
+      "card": "Entomb",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Entomb"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#packages/pkg:free-interaction",
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Final Fortune",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Final Fortune"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#packages/pkg:free-interaction"
+      ],
+      "card": "Flusterstorm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Flusterstorm"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#packages/pkg:free-interaction"
+      ],
+      "card": "Force of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Force of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#packages/pkg:free-interaction"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#tutor_targets/Underworld Breach"
+      ],
+      "card": "Gamble",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Gamble"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#identity_core/Gifts Ungiven",
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#packages/pkg:oracle-piles",
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#plan/value"
+      ],
+      "card": "Gifts Ungiven",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Gifts Ungiven",
+       "graph:data/grixis/graph/kess-dissident-mage.json#package:oracle-piles"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#key_interactions/station-moxen",
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#plan/value",
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#win_conditions/breach-station"
+      ],
+      "card": "Grinding Station",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Grinding Station",
+       "graph:data/grixis/graph/kess-dissident-mage.json#combo:1368-3698--44"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#engines/fast-mana-tutors",
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#tutor_targets/Thassa's Oracle"
+      ],
+      "card": "Imperial Seal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Imperial Seal"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#identity_core/Intuition",
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#packages/pkg:oracle-piles"
+      ],
+      "card": "Intuition",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Intuition",
+       "graph:data/grixis/graph/kess-dissident-mage.json#package:oracle-piles"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#win_conditions/breach-led"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/kess-dissident-mage.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/kess-dissident-mage.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#engines/fast-mana-tutors",
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#win_conditions/breach-station"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Lotus Petal",
+       "graph:data/grixis/graph/kess-dissident-mage.json#combo:1368-1414-4856"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#packages/pkg:free-interaction"
+      ],
+      "card": "Mental Misstep",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Mental Misstep"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#win_conditions/breach-station"
+      ],
+      "card": "Mox Opal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Mox Opal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystical Tutor",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Mystical Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#engines/fast-mana-tutors"
+      ],
+      "card": "Necropotence",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Necropotence"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#packages/pkg:free-interaction"
+      ],
+      "card": "Pact of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Pact of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#tutor_targets/Underworld Breach"
+      ],
+      "card": "Personal Tutor",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Personal Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kess-dissident-mage.json#packages/pkg:free-interaction"
+      ],
+      "card": "Pyroblast",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kess-dissident-mage.json#metrics/Pyroblast"
+      ],
+      "roles": [
+       "counter",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Six-mana storm engines (Thousand-Year Storm) and storm payoffs (Talrand, Sky Summoner; Guttersnipe) rejected (decisions L137).",
+      "Keep 100 distinct names so Tainted Pact never stops early."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Graveyard hate turns off Kess and Breach.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Oracle + Consultation from hand"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Kess can't replay on opponents' turns.",
+      "evidence_class": "strategic_judgment",
+      "id": "own-turn-only",
+      "mitigations": [
+       "Snapcaster Mage",
+       "Flash protection"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Demonic Counsel without delirium only finds a Demon.",
+      "evidence_class": "strategic_judgment",
+      "id": "counsel",
+      "mitigations": [
+       "Stock the yard first"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free counters and one-mana interaction.",
+      "mana": "Fast mana and rituals; 27 lands with no repeated names for Tainted Pact.",
+      "protection": "Fierce Guardianship, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Thassa's Oracle",
+       "Demonic Consultation",
+       "Tainted Pact",
+       "Intuition",
+       "Gifts Ungiven",
+       "Reanimate"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Kess, Dissident Mage"
+      ],
+      "evidence_class": "fact",
+      "id": "kess-oracle",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Grinding Station",
+       "Lotus Petal",
+       "Mox Opal",
+       "Chrome Mox"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach-station",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Brain Freeze",
+       "Wheel of Fortune"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach-led",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Kess turns single tutors into complete Oracle wins and makes the Gifts/Intuition piles deterministic.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Her permission is once per your own turn at normal timing (M1 kess-01), so it doesn't help on opponents' turns. Oracle + Consultation and the Breach lines still win without her, just less efficiently.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 2,
+      "combo_commander_independent": 4,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 6
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": null,
+      "source": "data/grixis/audit/kess-dissident-mage.json#baseline_sim",
+      "status": "reused_goldfish_readiness",
+      "stress_id": "turbo_clock"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/kess-dissident-mage.json#test:kess-dissident-mage:stress:first_key_spell_countered:dce390538541",
+      "status": "reused_existing_test_result",
+      "stress_id": "first_key_spell_countered"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/kess-dissident-mage.json#test:kess-dissident-mage:stress:graveyard_exiled:1035f001055b",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/kess-dissident-mage.json#test:kess-dissident-mage:stress:commander_removed_twice:718a1d23ae71",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/kess-dissident-mage.json#test:kess-dissident-mage:stress:key_engine_exiled:8071f407f368",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     }
+    ]
+   },
+   "id": "protected_win_red_team",
+   "priority_weight": 0.05,
+   "question": "Adversarial reviewer asks whether primary wins remain executable through realistic protection/interaction windows.",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "kess-dissident-mage",
+ "source_packet": "data/grixis/bracket_stress_packets/kess-dissident-mage.json",
+ "status": "red_team_pending",
+ "suite_family": "B5_competitive"
+}

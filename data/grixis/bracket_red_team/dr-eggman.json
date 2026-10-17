@@ -1,0 +1,2399 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:04e4d973c9055eda049e943fc333e8642f24a11a20b61c77437127c6cf1b9e95",
+ "deck_id": "Dr__Eggman",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 96,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Defiler",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Chaos Defiler"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/free-artifact-army"
+      ],
+      "card": "Cityscape Leveler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Cityscape Leveler"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/free-artifact-army"
+      ],
+      "card": "Combustible Gearhulk",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Combustible Gearhulk"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets"
+      ],
+      "card": "Curie, Emergent Intelligence",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Curie, Emergent Intelligence"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cybermen Squadron",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Cybermen Squadron"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Davros, Dalek Creator",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Davros, Dalek Creator"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:discard-punishers",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/discard-attrition"
+      ],
+      "card": "Geth's Grimoire",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Geth's Grimoire"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Golbez, Crystal Collector",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Golbez, Crystal Collector"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#identity_core/Liliana's Caress",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:discard-punishers",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#plan/value"
+      ],
+      "card": "Liliana's Caress",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Liliana's Caress"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#engines/robot-construct-supply"
+      ],
+      "card": "Master Transmuter",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Master Transmuter"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#engines/robot-construct-supply"
+      ],
+      "card": "Mechan Assembler",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Mechan Assembler"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/free-artifact-army"
+      ],
+      "card": "Metalwork Colossus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Metalwork Colossus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#requirements/value"
+      ],
+      "card": "Mox Opal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Mox Opal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#identity_core/Myr Battlesphere",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#plan/value"
+      ],
+      "card": "Myr Battlesphere",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Myr Battlesphere"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/free-artifact-army"
+      ],
+      "card": "Noxious Gearhulk",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Noxious Gearhulk"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets"
+      ],
+      "card": "Oildeep Gearhulk",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Oildeep Gearhulk"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#engines/robot-construct-supply"
+      ],
+      "card": "One with the Machine",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/One with the Machine"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Padeem, Consul of Innovation",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Padeem, Consul of Innovation"
+      ],
+      "roles": [
+       "draw",
+       "protection"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#engines/end-step-fork",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:trigger-multipliers",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#tutor_targets/Roaming Throne"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#engines/robot-construct-supply"
+      ],
+      "card": "Simulacrum Synthesizer",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Simulacrum Synthesizer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#requirements/value"
+      ],
+      "card": "Sol Ring",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Sol Ring"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Talisman of Creativity",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Talisman of Creativity"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Talisman of Dominance",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Talisman of Dominance"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Talisman of Indulgence",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Talisman of Indulgence"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Tezzeret, Master of the Bridge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Tezzeret, Master of the Bridge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#engines/end-step-fork",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#identity_core/The Valeyard",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#key_interactions/valeyard"
+      ],
+      "card": "The Valeyard",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/The Valeyard"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Thopter Fabricator",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Thopter Fabricator"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets"
+      ],
+      "card": "Thought Monitor",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Thought Monitor"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't force a cEDH shell that makes Eggman incidental (source).",
+      "Prefer artifact-enter payoffs over cast-only payoffs."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Opponents with empty hands choose discard for free.",
+      "evidence_class": "strategic_judgment",
+      "id": "cheap-choice",
+      "mitigations": [
+       "Discard punishers still trigger only on real discards",
+       "Valeyard"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Five-mana commander removed: no fork.",
+      "evidence_class": "strategic_judgment",
+      "id": "eggman-removed",
+      "mitigations": [
+       "Protection",
+       "Artifact infrastructure works alone"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No good targets in hand makes the deployment branch harmless.",
+      "evidence_class": "strategic_judgment",
+      "id": "empty-own-hand",
+      "mitigations": [
+       "Eggman's own draw",
+       "Keep threats in hand"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Direct interaction for when Eggman is removed (Toxic Deluge, Blasphemous Act, Cyclonic Rift, counters).",
+      "mana": "Five-mana commander; artifact mana (Mox Opal, Sol Ring, Urza's Saga).",
+      "protection": "Greaves, Padeem, Cryptothrall, free protection."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Myr Battlesphere",
+       "Metalwork Colossus",
+       "Noxious Gearhulk",
+       "Combustible Gearhulk",
+       "Cityscape Leveler",
+       "Thunderhawk Gunship"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Dr. Eggman"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "free-artifact-army",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Liliana's Caress",
+       "Waste Not",
+       "Tinybones, Bauble Burglar",
+       "Geth's Grimoire",
+       "Withering Torment"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "The Valeyard"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "discard-attrition",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Eggman draws every end step and forces a discard or a free deployment from each opponent.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Opponents choose: an empty-handed opponent can 'discard' for free, and late in the game the choice gets cheap. The deck needs a dense hand of real threats to make the fork bite.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:board_wipe:267916179e50",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:artifacts_wiped:a25e3e9e265a",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:commander_removed_twice:ff05f32ac413",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:key_engine_exiled:a69e478ff195",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:mana_screw:c835a54a327e",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:color_screw:4e74bc133bb3",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:graveyard_exiled:b81a908d43e5",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Defiler",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Chaos Defiler"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/free-artifact-army"
+      ],
+      "card": "Cityscape Leveler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Cityscape Leveler"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/free-artifact-army"
+      ],
+      "card": "Combustible Gearhulk",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Combustible Gearhulk"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cybermen Squadron",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Cybermen Squadron"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Demonic Junker",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Demonic Junker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:discard-punishers",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/discard-attrition"
+      ],
+      "card": "Geth's Grimoire",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Geth's Grimoire"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Golbez, Crystal Collector",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Golbez, Crystal Collector"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#identity_core/Liliana's Caress",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:discard-punishers",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#plan/value"
+      ],
+      "card": "Liliana's Caress",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Liliana's Caress"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#engines/robot-construct-supply"
+      ],
+      "card": "Master Transmuter",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Master Transmuter"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#engines/robot-construct-supply"
+      ],
+      "card": "Mechan Assembler",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Mechan Assembler"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/free-artifact-army"
+      ],
+      "card": "Metalwork Colossus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Metalwork Colossus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#identity_core/Myr Battlesphere",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#plan/value"
+      ],
+      "card": "Myr Battlesphere",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Myr Battlesphere"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/free-artifact-army"
+      ],
+      "card": "Noxious Gearhulk",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Noxious Gearhulk"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#engines/end-step-fork",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:trigger-multipliers",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#tutor_targets/Roaming Throne"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#engines/robot-construct-supply"
+      ],
+      "card": "Simulacrum Synthesizer",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Simulacrum Synthesizer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Tezzeret, Master of the Bridge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Tezzeret, Master of the Bridge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#engines/end-step-fork",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#identity_core/The Valeyard",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#key_interactions/valeyard"
+      ],
+      "card": "The Valeyard",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/The Valeyard"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Their Name Is Death",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Their Name Is Death"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Thopter Fabricator",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Thopter Fabricator"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/free-artifact-army"
+      ],
+      "card": "Thunderhawk Gunship",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Thunderhawk Gunship"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:discard-punishers",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/discard-attrition"
+      ],
+      "card": "Tinybones, Bauble Burglar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Tinybones, Bauble Burglar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Unwinding Clock",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Unwinding Clock"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:discard-punishers",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#plan/value",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/discard-attrition"
+      ],
+      "card": "Waste Not",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Waste Not"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Weapons Manufacturing",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Weapons Manufacturing"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/discard-attrition"
+      ],
+      "card": "Withering Torment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Withering Torment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't force a cEDH shell that makes Eggman incidental (source).",
+      "Prefer artifact-enter payoffs over cast-only payoffs."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Opponents with empty hands choose discard for free.",
+      "evidence_class": "strategic_judgment",
+      "id": "cheap-choice",
+      "mitigations": [
+       "Discard punishers still trigger only on real discards",
+       "Valeyard"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Five-mana commander removed: no fork.",
+      "evidence_class": "strategic_judgment",
+      "id": "eggman-removed",
+      "mitigations": [
+       "Protection",
+       "Artifact infrastructure works alone"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No good targets in hand makes the deployment branch harmless.",
+      "evidence_class": "strategic_judgment",
+      "id": "empty-own-hand",
+      "mitigations": [
+       "Eggman's own draw",
+       "Keep threats in hand"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Direct interaction for when Eggman is removed (Toxic Deluge, Blasphemous Act, Cyclonic Rift, counters).",
+      "mana": "Five-mana commander; artifact mana (Mox Opal, Sol Ring, Urza's Saga).",
+      "protection": "Greaves, Padeem, Cryptothrall, free protection."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Myr Battlesphere",
+       "Metalwork Colossus",
+       "Noxious Gearhulk",
+       "Combustible Gearhulk",
+       "Cityscape Leveler",
+       "Thunderhawk Gunship"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Dr. Eggman"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "free-artifact-army",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Liliana's Caress",
+       "Waste Not",
+       "Tinybones, Bauble Burglar",
+       "Geth's Grimoire",
+       "Withering Torment"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "The Valeyard"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "discard-attrition",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Eggman draws every end step and forces a discard or a free deployment from each opponent.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Opponents choose: an empty-handed opponent can 'discard' for free, and late in the game the choice gets cheap. The deck needs a dense hand of real threats to make the fork bite.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:board_wipe:267916179e50",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:artifacts_wiped:a25e3e9e265a",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:commander_removed_twice:ff05f32ac413",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:key_engine_exiled:a69e478ff195",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:mana_screw:c835a54a327e",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:color_screw:4e74bc133bb3",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:graveyard_exiled:b81a908d43e5",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Defiler",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Chaos Defiler"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/free-artifact-army"
+      ],
+      "card": "Cityscape Leveler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Cityscape Leveler"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/free-artifact-army"
+      ],
+      "card": "Combustible Gearhulk",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Combustible Gearhulk"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cybermen Squadron",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Cybermen Squadron"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Demonic Junker",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Demonic Junker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:discard-punishers",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/discard-attrition"
+      ],
+      "card": "Geth's Grimoire",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Geth's Grimoire"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Golbez, Crystal Collector",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Golbez, Crystal Collector"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#identity_core/Liliana's Caress",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:discard-punishers",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#plan/value"
+      ],
+      "card": "Liliana's Caress",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Liliana's Caress"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#engines/robot-construct-supply"
+      ],
+      "card": "Master Transmuter",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Master Transmuter"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#engines/robot-construct-supply"
+      ],
+      "card": "Mechan Assembler",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Mechan Assembler"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/free-artifact-army"
+      ],
+      "card": "Metalwork Colossus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Metalwork Colossus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#identity_core/Myr Battlesphere",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#plan/value"
+      ],
+      "card": "Myr Battlesphere",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Myr Battlesphere"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/free-artifact-army"
+      ],
+      "card": "Noxious Gearhulk",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Noxious Gearhulk"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#engines/end-step-fork",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:trigger-multipliers",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#tutor_targets/Roaming Throne"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#engines/robot-construct-supply"
+      ],
+      "card": "Simulacrum Synthesizer",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Simulacrum Synthesizer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Tezzeret, Master of the Bridge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Tezzeret, Master of the Bridge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#engines/end-step-fork",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#identity_core/The Valeyard",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#key_interactions/valeyard"
+      ],
+      "card": "The Valeyard",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/The Valeyard"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Their Name Is Death",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Their Name Is Death"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Thopter Fabricator",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Thopter Fabricator"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/free-artifact-army"
+      ],
+      "card": "Thunderhawk Gunship",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Thunderhawk Gunship"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:discard-punishers",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/discard-attrition"
+      ],
+      "card": "Tinybones, Bauble Burglar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Tinybones, Bauble Burglar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Unwinding Clock",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Unwinding Clock"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:discard-punishers",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#plan/value",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/discard-attrition"
+      ],
+      "card": "Waste Not",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Waste Not"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Weapons Manufacturing",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Weapons Manufacturing"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/discard-attrition"
+      ],
+      "card": "Withering Torment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Withering Torment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't force a cEDH shell that makes Eggman incidental (source).",
+      "Prefer artifact-enter payoffs over cast-only payoffs."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Opponents with empty hands choose discard for free.",
+      "evidence_class": "strategic_judgment",
+      "id": "cheap-choice",
+      "mitigations": [
+       "Discard punishers still trigger only on real discards",
+       "Valeyard"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Five-mana commander removed: no fork.",
+      "evidence_class": "strategic_judgment",
+      "id": "eggman-removed",
+      "mitigations": [
+       "Protection",
+       "Artifact infrastructure works alone"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No good targets in hand makes the deployment branch harmless.",
+      "evidence_class": "strategic_judgment",
+      "id": "empty-own-hand",
+      "mitigations": [
+       "Eggman's own draw",
+       "Keep threats in hand"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Direct interaction for when Eggman is removed (Toxic Deluge, Blasphemous Act, Cyclonic Rift, counters).",
+      "mana": "Five-mana commander; artifact mana (Mox Opal, Sol Ring, Urza's Saga).",
+      "protection": "Greaves, Padeem, Cryptothrall, free protection."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Myr Battlesphere",
+       "Metalwork Colossus",
+       "Noxious Gearhulk",
+       "Combustible Gearhulk",
+       "Cityscape Leveler",
+       "Thunderhawk Gunship"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Dr. Eggman"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "free-artifact-army",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Liliana's Caress",
+       "Waste Not",
+       "Tinybones, Bauble Burglar",
+       "Geth's Grimoire",
+       "Withering Torment"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "The Valeyard"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "discard-attrition",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Eggman draws every end step and forces a discard or a free deployment from each opponent.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Opponents choose: an empty-handed opponent can 'discard' for free, and late in the game the choice gets cheap. The deck needs a dense hand of real threats to make the fork bite.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:board_wipe:267916179e50",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:artifacts_wiped:a25e3e9e265a",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:commander_removed_twice:ff05f32ac413",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:key_engine_exiled:a69e478ff195",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:mana_screw:c835a54a327e",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:color_screw:4e74bc133bb3",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:graveyard_exiled:b81a908d43e5",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Defiler",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Chaos Defiler"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/free-artifact-army"
+      ],
+      "card": "Cityscape Leveler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Cityscape Leveler"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/free-artifact-army"
+      ],
+      "card": "Combustible Gearhulk",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Combustible Gearhulk"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cybermen Squadron",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Cybermen Squadron"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Demonic Junker",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Demonic Junker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fierce Guardianship",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:discard-punishers",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/discard-attrition"
+      ],
+      "card": "Geth's Grimoire",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Geth's Grimoire"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Golbez, Crystal Collector",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Golbez, Crystal Collector"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#identity_core/Liliana's Caress",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:discard-punishers",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#plan/value"
+      ],
+      "card": "Liliana's Caress",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Liliana's Caress"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mana Drain",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#engines/robot-construct-supply"
+      ],
+      "card": "Master Transmuter",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Master Transmuter"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#engines/robot-construct-supply"
+      ],
+      "card": "Mechan Assembler",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Mechan Assembler"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/free-artifact-army"
+      ],
+      "card": "Metalwork Colossus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Metalwork Colossus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#identity_core/Myr Battlesphere",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#plan/value"
+      ],
+      "card": "Myr Battlesphere",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Myr Battlesphere"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/free-artifact-army"
+      ],
+      "card": "Noxious Gearhulk",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Noxious Gearhulk"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#engines/end-step-fork",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:trigger-multipliers",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#tutor_targets/Roaming Throne"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#engines/robot-construct-supply"
+      ],
+      "card": "Simulacrum Synthesizer",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Simulacrum Synthesizer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Tezzeret, Master of the Bridge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Tezzeret, Master of the Bridge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#engines/end-step-fork",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#identity_core/The Valeyard",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#key_interactions/valeyard"
+      ],
+      "card": "The Valeyard",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/The Valeyard"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Their Name Is Death",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Their Name Is Death"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Thopter Fabricator",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Thopter Fabricator"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:eggman-targets",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/free-artifact-army"
+      ],
+      "card": "Thunderhawk Gunship",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Thunderhawk Gunship"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:discard-punishers",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/discard-attrition"
+      ],
+      "card": "Tinybones, Bauble Burglar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Tinybones, Bauble Burglar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Unwinding Clock",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Unwinding Clock"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/dr-eggman.json#packages/pkg:discard-punishers",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#plan/value",
+       "blueprint:data/grixis/blueprints/dr-eggman.json#win_conditions/discard-attrition"
+      ],
+      "card": "Waste Not",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/dr-eggman.json#metrics/Waste Not"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't force a cEDH shell that makes Eggman incidental (source).",
+      "Prefer artifact-enter payoffs over cast-only payoffs."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Opponents with empty hands choose discard for free.",
+      "evidence_class": "strategic_judgment",
+      "id": "cheap-choice",
+      "mitigations": [
+       "Discard punishers still trigger only on real discards",
+       "Valeyard"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Five-mana commander removed: no fork.",
+      "evidence_class": "strategic_judgment",
+      "id": "eggman-removed",
+      "mitigations": [
+       "Protection",
+       "Artifact infrastructure works alone"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No good targets in hand makes the deployment branch harmless.",
+      "evidence_class": "strategic_judgment",
+      "id": "empty-own-hand",
+      "mitigations": [
+       "Eggman's own draw",
+       "Keep threats in hand"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Direct interaction for when Eggman is removed (Toxic Deluge, Blasphemous Act, Cyclonic Rift, counters).",
+      "mana": "Five-mana commander; artifact mana (Mox Opal, Sol Ring, Urza's Saga).",
+      "protection": "Greaves, Padeem, Cryptothrall, free protection."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Myr Battlesphere",
+       "Metalwork Colossus",
+       "Noxious Gearhulk",
+       "Combustible Gearhulk",
+       "Cityscape Leveler",
+       "Thunderhawk Gunship"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Dr. Eggman"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "free-artifact-army",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Liliana's Caress",
+       "Waste Not",
+       "Tinybones, Bauble Burglar",
+       "Geth's Grimoire",
+       "Withering Torment"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "The Valeyard"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "discard-attrition",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Eggman draws every end step and forces a discard or a free deployment from each opponent.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Opponents choose: an empty-handed opponent can 'discard' for free, and late in the game the choice gets cheap. The deck needs a dense hand of real threats to make the fork bite.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:board_wipe:267916179e50",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:artifacts_wiped:a25e3e9e265a",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:commander_removed_twice:ff05f32ac413",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:key_engine_exiled:a69e478ff195",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:mana_screw:c835a54a327e",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:color_screw:4e74bc133bb3",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/dr-eggman.json#test:dr-eggman:stress:graveyard_exiled:b81a908d43e5",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "dr-eggman",
+ "source_packet": "data/grixis/bracket_stress_packets/dr-eggman.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

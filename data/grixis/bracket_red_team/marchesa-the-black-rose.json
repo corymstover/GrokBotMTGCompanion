@@ -1,0 +1,2656 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
+ "deck_id": "Marchesa__the_Black_Rose",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 97,
+  "commander_role": "significant",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Agatha's Soul Cauldron",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Agatha's Soul Cauldron"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops"
+      ],
+      "card": "Altar of Dementia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Altar of Dementia",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2131-5256--5",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:3020-3908-5256"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#requirements/value"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1123-2034-4866",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1657-2034-3908"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Baleful Strix",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Baleful Strix"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#plan/value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops"
+      ],
+      "card": "Blood Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Blood Artist",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:628-2842-5670--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Braids, Arisen Nightmare",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Braids, Arisen Nightmare"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops"
+      ],
+      "card": "Carrion Feeder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Carrion Feeder",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2131-2438--5",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2438-5805--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Danny Pink",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Danny Pink"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Dispute",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Deadly Dispute"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:persist-undying",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "Flayer of the Hatebound",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Flayer of the Hatebound",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1123-2034-4866"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fleshbag Marauder",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Fleshbag Marauder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/redcap-no-outlet",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops"
+      ],
+      "card": "Gev, Scaled Scorch",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Gev, Scaled Scorch",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1657-5805",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2034-5805--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/flare-pitch",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:persist-undying",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "Glen Elendra Archmage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Glen Elendra Archmage",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2034-2831-3908"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Goblin Bombardment",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2131-5147--5",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:345-5147--5"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/yawgmoth-gary",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops"
+      ],
+      "card": "Gray Merchant of Asphodel",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Gray Merchant of Asphodel",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:328-628-4279"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value"
+      ],
+      "card": "Grim Haruspex",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Grim Haruspex"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Iron Apprentice",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Iron Apprentice"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Marionette Apprentice",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Marionette Apprentice"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/dethrone-return",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/persist-reset"
+      ],
+      "card": "Metallic Mimic",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Metallic Mimic",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:345-1657",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:345-1657-2292"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#identity_core/Mikaeus, the Unhallowed",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/yawgmoth-gary",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops"
+      ],
+      "card": "Mikaeus, the Unhallowed",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Mikaeus, the Unhallowed",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:328-628-4279",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:628-2034--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#identity_core/Murderous Redcap",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/persist-reset",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/redcap-no-outlet"
+      ],
+      "card": "Murderous Redcap",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Murderous Redcap",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1657-2034-3908",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1657-2292-3908"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#identity_core/Phyrexian Altar",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:sac-outlets"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Phyrexian Altar",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2131-4050--5",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:345-4050--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value"
+      ],
+      "card": "Pitiless Plunderer",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Pitiless Plunderer"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:persist-undying",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "Puppeteer Clique",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Puppeteer Clique",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:3020-3908-5256"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/flare-pitch",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:persist-undying",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "River Kelpie",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/River Kelpie",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2034-3607-3908"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "Sage of Fables",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Sage of Fables",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1123-2034-4866",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:628-2034-4866"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Grixis combo shell; close through counter/sacrifice loops (decisions L16).",
+      "Cut Village Rites, Black Market Connections and others for loop and tutor density (decisions swaps)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Exile removal and graveyard hate stop persist and Marchesa returns.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-exile",
+      "mitigations": [
+       "Many redundant loops"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Losing Marchesa removes dethrone and recursion.",
+      "evidence_class": "strategic_judgment",
+      "id": "marchesa-removed",
+      "mitigations": [
+       "Commander-free loops"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Counter removal or -1/-1 effects disrupt the resets.",
+      "evidence_class": "strategic_judgment",
+      "id": "counter-hate",
+      "mitigations": [
+       "Multiple counter sources"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Fierce Guardianship, Flare of Denial, An Offer You Can't Refuse, Toxic Deluge, Blasphemous Act, Cyclonic Rift.",
+      "mana": "Sol Ring, Ancient Tomb, Talismans, sacrifice mana.",
+      "protection": "Lightning Greaves, counters."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Thran Vigil",
+       "Metallic Mimic",
+       "Gev, Scaled Scorch",
+       "Uncivil Unrest",
+       "Murderous Redcap",
+       "Viscera Seer",
+       "Ashnod's Altar",
+       "Goblin Bombardment",
+       "Carrion Feeder",
+       "Altar of Dementia"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "persist-reset-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Mikaeus, the Unhallowed",
+       "Ashnod's Altar",
+       "Viscera Seer",
+       "Goblin Bombardment",
+       "Blood Artist",
+       "Warren Soultrader",
+       "Sage of Fables",
+       "Gray Merchant of Asphodel"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "mikaeus-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Spark Double",
+       "Murderous Redcap",
+       "Glen Elendra Archmage",
+       "River Kelpie",
+       "Puppeteer Clique",
+       "Flayer of the Hatebound",
+       "Sage of Fables",
+       "Ashnod's Altar",
+       "Altar of Dementia"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "spark-double-loops",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Marchesa gives the team dethrone and returns any countered creature that dies, which makes the sacrifice engine resilient.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The source calls the closes 'commander-native loops' (decisions L16), but none of the 48 Spellbook infinites in the list needs Marchesa: they're persist/undying loops with Thran Vigil, Metallic Mimic, Gev, Uncivil Unrest or Mikaeus plus an outlet. She's a resilience engine, not the kill. The cycle 51 M1 review (marchbr-01..11, all verified) confirms the persist-reset loops.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 0,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 48,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 48
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:board_wipe:86cd0f69ff4c",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:artifacts_wiped:acca18f613df",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:commander_removed_twice:62e3f17b8abf",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:key_engine_exiled:fbd11b7a6aac",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:mana_screw:78b8cfa27ce7",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:color_screw:bc26275c590f",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:graveyard_exiled:7d6ed5b7d36a",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Agatha's Soul Cauldron",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Agatha's Soul Cauldron"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops"
+      ],
+      "card": "Altar of Dementia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Altar of Dementia",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2131-5256--5",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:3020-3908-5256"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1123-2034-4866",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1657-2034-3908"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#plan/value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops"
+      ],
+      "card": "Blood Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Blood Artist",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:628-2842-5670--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops"
+      ],
+      "card": "Carrion Feeder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Carrion Feeder",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2131-2438--5",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2438-5805--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feed the Swarm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:persist-undying",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "Flayer of the Hatebound",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Flayer of the Hatebound",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1123-2034-4866"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fleshbag Marauder",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Fleshbag Marauder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/redcap-no-outlet",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops"
+      ],
+      "card": "Gev, Scaled Scorch",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Gev, Scaled Scorch",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1657-5805",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2034-5805--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/flare-pitch",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:persist-undying",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "Glen Elendra Archmage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Glen Elendra Archmage",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2034-2831-3908"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Goblin Bombardment",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2131-5147--5",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:345-5147--5"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/yawgmoth-gary",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops"
+      ],
+      "card": "Gray Merchant of Asphodel",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Gray Merchant of Asphodel",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:328-628-4279"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Iron Apprentice",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Iron Apprentice"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Marionette Apprentice",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Marionette Apprentice"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#plan/value"
+      ],
+      "card": "Mayhem Devil",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Mayhem Devil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/dethrone-return",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/persist-reset"
+      ],
+      "card": "Metallic Mimic",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Metallic Mimic",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:345-1657",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:345-1657-2292"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#identity_core/Mikaeus, the Unhallowed",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/yawgmoth-gary",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops"
+      ],
+      "card": "Mikaeus, the Unhallowed",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Mikaeus, the Unhallowed",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:328-628-4279",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:628-2034--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#identity_core/Murderous Redcap",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/persist-reset",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/redcap-no-outlet"
+      ],
+      "card": "Murderous Redcap",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Murderous Redcap",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1657-2034-3908",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1657-2292-3908"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#identity_core/Phyrexian Altar",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:sac-outlets"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Phyrexian Altar",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2131-4050--5",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:345-4050--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:persist-undying",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "Puppeteer Clique",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Puppeteer Clique",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:3020-3908-5256"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/flare-pitch",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:persist-undying",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "River Kelpie",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/River Kelpie",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2034-3607-3908"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "Sage of Fables",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Sage of Fables",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1123-2034-4866",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:628-2034-4866"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/sneak-attack-return",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#plan/value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#recursion/value"
+      ],
+      "card": "Sneak Attack",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Sneak Attack"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "Spark Double",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Spark Double",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1657-2034-3908",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1657-2292-3908"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/dethrone-return"
+      ],
+      "card": "The Ozolith",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/The Ozolith"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/dethrone-return",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#identity_core/Thran Vigil"
+      ],
+      "card": "Thran Vigil",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Thran Vigil",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2034-2131--5",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2131-2292--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Grixis combo shell; close through counter/sacrifice loops (decisions L16).",
+      "Cut Village Rites, Black Market Connections and others for loop and tutor density (decisions swaps)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Exile removal and graveyard hate stop persist and Marchesa returns.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-exile",
+      "mitigations": [
+       "Many redundant loops"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Losing Marchesa removes dethrone and recursion.",
+      "evidence_class": "strategic_judgment",
+      "id": "marchesa-removed",
+      "mitigations": [
+       "Commander-free loops"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Counter removal or -1/-1 effects disrupt the resets.",
+      "evidence_class": "strategic_judgment",
+      "id": "counter-hate",
+      "mitigations": [
+       "Multiple counter sources"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Fierce Guardianship, Flare of Denial, An Offer You Can't Refuse, Toxic Deluge, Blasphemous Act, Cyclonic Rift.",
+      "mana": "Sol Ring, Ancient Tomb, Talismans, sacrifice mana.",
+      "protection": "Lightning Greaves, counters."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Thran Vigil",
+       "Metallic Mimic",
+       "Gev, Scaled Scorch",
+       "Uncivil Unrest",
+       "Murderous Redcap",
+       "Viscera Seer",
+       "Ashnod's Altar",
+       "Goblin Bombardment",
+       "Carrion Feeder",
+       "Altar of Dementia"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "persist-reset-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Mikaeus, the Unhallowed",
+       "Ashnod's Altar",
+       "Viscera Seer",
+       "Goblin Bombardment",
+       "Blood Artist",
+       "Warren Soultrader",
+       "Sage of Fables",
+       "Gray Merchant of Asphodel"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "mikaeus-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Spark Double",
+       "Murderous Redcap",
+       "Glen Elendra Archmage",
+       "River Kelpie",
+       "Puppeteer Clique",
+       "Flayer of the Hatebound",
+       "Sage of Fables",
+       "Ashnod's Altar",
+       "Altar of Dementia"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "spark-double-loops",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Marchesa gives the team dethrone and returns any countered creature that dies, which makes the sacrifice engine resilient.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The source calls the closes 'commander-native loops' (decisions L16), but none of the 48 Spellbook infinites in the list needs Marchesa: they're persist/undying loops with Thran Vigil, Metallic Mimic, Gev, Uncivil Unrest or Mikaeus plus an outlet. She's a resilience engine, not the kill. The cycle 51 M1 review (marchbr-01..11, all verified) confirms the persist-reset loops.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 0,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 48,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 48
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:board_wipe:86cd0f69ff4c",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:artifacts_wiped:acca18f613df",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:commander_removed_twice:62e3f17b8abf",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:key_engine_exiled:fbd11b7a6aac",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:mana_screw:78b8cfa27ce7",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:color_screw:bc26275c590f",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:graveyard_exiled:7d6ed5b7d36a",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Agatha's Soul Cauldron",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Agatha's Soul Cauldron"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops"
+      ],
+      "card": "Altar of Dementia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Altar of Dementia",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2131-5256--5",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:3020-3908-5256"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1123-2034-4866",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1657-2034-3908"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#plan/value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops"
+      ],
+      "card": "Blood Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Blood Artist",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:628-2842-5670--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops"
+      ],
+      "card": "Carrion Feeder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Carrion Feeder",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2131-2438--5",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2438-5805--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feed the Swarm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:persist-undying",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "Flayer of the Hatebound",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Flayer of the Hatebound",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1123-2034-4866"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fleshbag Marauder",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Fleshbag Marauder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/redcap-no-outlet",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops"
+      ],
+      "card": "Gev, Scaled Scorch",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Gev, Scaled Scorch",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1657-5805",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2034-5805--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/flare-pitch",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:persist-undying",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "Glen Elendra Archmage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Glen Elendra Archmage",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2034-2831-3908"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Goblin Bombardment",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2131-5147--5",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:345-5147--5"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/yawgmoth-gary",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops"
+      ],
+      "card": "Gray Merchant of Asphodel",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Gray Merchant of Asphodel",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:328-628-4279"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Iron Apprentice",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Iron Apprentice"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Marionette Apprentice",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Marionette Apprentice"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#plan/value"
+      ],
+      "card": "Mayhem Devil",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Mayhem Devil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/dethrone-return",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/persist-reset"
+      ],
+      "card": "Metallic Mimic",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Metallic Mimic",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:345-1657",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:345-1657-2292"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#identity_core/Mikaeus, the Unhallowed",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/yawgmoth-gary",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops"
+      ],
+      "card": "Mikaeus, the Unhallowed",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Mikaeus, the Unhallowed",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:328-628-4279",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:628-2034--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#identity_core/Murderous Redcap",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/persist-reset",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/redcap-no-outlet"
+      ],
+      "card": "Murderous Redcap",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Murderous Redcap",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1657-2034-3908",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1657-2292-3908"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#identity_core/Phyrexian Altar",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:sac-outlets"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Phyrexian Altar",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2131-4050--5",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:345-4050--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:persist-undying",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "Puppeteer Clique",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Puppeteer Clique",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:3020-3908-5256"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/flare-pitch",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:persist-undying",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "River Kelpie",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/River Kelpie",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2034-3607-3908"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "Sage of Fables",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Sage of Fables",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1123-2034-4866",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:628-2034-4866"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/sneak-attack-return",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#plan/value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#recursion/value"
+      ],
+      "card": "Sneak Attack",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Sneak Attack"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "Spark Double",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Spark Double",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1657-2034-3908",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1657-2292-3908"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/dethrone-return"
+      ],
+      "card": "The Ozolith",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/The Ozolith"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/dethrone-return",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#identity_core/Thran Vigil"
+      ],
+      "card": "Thran Vigil",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Thran Vigil",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2034-2131--5",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2131-2292--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Grixis combo shell; close through counter/sacrifice loops (decisions L16).",
+      "Cut Village Rites, Black Market Connections and others for loop and tutor density (decisions swaps)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Exile removal and graveyard hate stop persist and Marchesa returns.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-exile",
+      "mitigations": [
+       "Many redundant loops"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Losing Marchesa removes dethrone and recursion.",
+      "evidence_class": "strategic_judgment",
+      "id": "marchesa-removed",
+      "mitigations": [
+       "Commander-free loops"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Counter removal or -1/-1 effects disrupt the resets.",
+      "evidence_class": "strategic_judgment",
+      "id": "counter-hate",
+      "mitigations": [
+       "Multiple counter sources"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Fierce Guardianship, Flare of Denial, An Offer You Can't Refuse, Toxic Deluge, Blasphemous Act, Cyclonic Rift.",
+      "mana": "Sol Ring, Ancient Tomb, Talismans, sacrifice mana.",
+      "protection": "Lightning Greaves, counters."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Thran Vigil",
+       "Metallic Mimic",
+       "Gev, Scaled Scorch",
+       "Uncivil Unrest",
+       "Murderous Redcap",
+       "Viscera Seer",
+       "Ashnod's Altar",
+       "Goblin Bombardment",
+       "Carrion Feeder",
+       "Altar of Dementia"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "persist-reset-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Mikaeus, the Unhallowed",
+       "Ashnod's Altar",
+       "Viscera Seer",
+       "Goblin Bombardment",
+       "Blood Artist",
+       "Warren Soultrader",
+       "Sage of Fables",
+       "Gray Merchant of Asphodel"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "mikaeus-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Spark Double",
+       "Murderous Redcap",
+       "Glen Elendra Archmage",
+       "River Kelpie",
+       "Puppeteer Clique",
+       "Flayer of the Hatebound",
+       "Sage of Fables",
+       "Ashnod's Altar",
+       "Altar of Dementia"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "spark-double-loops",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Marchesa gives the team dethrone and returns any countered creature that dies, which makes the sacrifice engine resilient.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The source calls the closes 'commander-native loops' (decisions L16), but none of the 48 Spellbook infinites in the list needs Marchesa: they're persist/undying loops with Thran Vigil, Metallic Mimic, Gev, Uncivil Unrest or Mikaeus plus an outlet. She's a resilience engine, not the kill. The cycle 51 M1 review (marchbr-01..11, all verified) confirms the persist-reset loops.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 0,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 48,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 48
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:board_wipe:86cd0f69ff4c",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:artifacts_wiped:acca18f613df",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:commander_removed_twice:62e3f17b8abf",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:key_engine_exiled:fbd11b7a6aac",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:mana_screw:78b8cfa27ce7",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:color_screw:bc26275c590f",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:graveyard_exiled:7d6ed5b7d36a",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Agatha's Soul Cauldron",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Agatha's Soul Cauldron"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops"
+      ],
+      "card": "Altar of Dementia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Altar of Dementia",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2131-5256--5",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:3020-3908-5256"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#requirements/value"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1123-2034-4866",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1657-2034-3908"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#plan/value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops"
+      ],
+      "card": "Blood Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Blood Artist",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:628-2842-5670--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops"
+      ],
+      "card": "Carrion Feeder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Carrion Feeder",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2131-2438--5",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2438-5805--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feed the Swarm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/flare-pitch",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#requirements/value"
+      ],
+      "card": "Flare of Denial",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Flare of Denial"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:persist-undying",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "Flayer of the Hatebound",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Flayer of the Hatebound",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1123-2034-4866"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fleshbag Marauder",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Fleshbag Marauder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/redcap-no-outlet",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/persist-reset-loops"
+      ],
+      "card": "Gev, Scaled Scorch",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Gev, Scaled Scorch",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1657-5805",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2034-5805--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/flare-pitch",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:persist-undying",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "Glen Elendra Archmage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Glen Elendra Archmage",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2034-2831-3908"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Goblin Bombardment",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2131-5147--5",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:345-5147--5"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/yawgmoth-gary",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops"
+      ],
+      "card": "Gray Merchant of Asphodel",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Gray Merchant of Asphodel",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:328-628-4279"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Iron Apprentice",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Iron Apprentice"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Marionette Apprentice",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Marionette Apprentice"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#plan/value"
+      ],
+      "card": "Mayhem Devil",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Mayhem Devil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/dethrone-return",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/persist-reset"
+      ],
+      "card": "Metallic Mimic",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Metallic Mimic",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:345-1657",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:345-1657-2292"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#identity_core/Mikaeus, the Unhallowed",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/yawgmoth-gary",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops"
+      ],
+      "card": "Mikaeus, the Unhallowed",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Mikaeus, the Unhallowed",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:328-628-4279",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:628-2034--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#identity_core/Murderous Redcap",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/persist-reset",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/redcap-no-outlet"
+      ],
+      "card": "Murderous Redcap",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Murderous Redcap",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1657-2034-3908",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1657-2292-3908"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#engines/sac-value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#identity_core/Phyrexian Altar",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:sac-outlets"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Phyrexian Altar",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2131-4050--5",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:345-4050--5"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:persist-undying",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "Puppeteer Clique",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Puppeteer Clique",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:3020-3908-5256"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/flare-pitch",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#packages/pkg:persist-undying",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "River Kelpie",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/River Kelpie",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:2034-3607-3908"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/mikaeus-loops",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#win_conditions/spark-double-loops"
+      ],
+      "card": "Sage of Fables",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Sage of Fables",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:1123-2034-4866",
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#combo:628-2034-4866"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#key_interactions/sneak-attack-return",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#plan/value",
+       "blueprint:data/grixis/blueprints/marchesa-the-black-rose.json#recursion/value"
+      ],
+      "card": "Sneak Attack",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/marchesa-the-black-rose.json#metrics/Sneak Attack"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Grixis combo shell; close through counter/sacrifice loops (decisions L16).",
+      "Cut Village Rites, Black Market Connections and others for loop and tutor density (decisions swaps)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Exile removal and graveyard hate stop persist and Marchesa returns.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-exile",
+      "mitigations": [
+       "Many redundant loops"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Losing Marchesa removes dethrone and recursion.",
+      "evidence_class": "strategic_judgment",
+      "id": "marchesa-removed",
+      "mitigations": [
+       "Commander-free loops"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Counter removal or -1/-1 effects disrupt the resets.",
+      "evidence_class": "strategic_judgment",
+      "id": "counter-hate",
+      "mitigations": [
+       "Multiple counter sources"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Fierce Guardianship, Flare of Denial, An Offer You Can't Refuse, Toxic Deluge, Blasphemous Act, Cyclonic Rift.",
+      "mana": "Sol Ring, Ancient Tomb, Talismans, sacrifice mana.",
+      "protection": "Lightning Greaves, counters."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Thran Vigil",
+       "Metallic Mimic",
+       "Gev, Scaled Scorch",
+       "Uncivil Unrest",
+       "Murderous Redcap",
+       "Viscera Seer",
+       "Ashnod's Altar",
+       "Goblin Bombardment",
+       "Carrion Feeder",
+       "Altar of Dementia"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "persist-reset-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Mikaeus, the Unhallowed",
+       "Ashnod's Altar",
+       "Viscera Seer",
+       "Goblin Bombardment",
+       "Blood Artist",
+       "Warren Soultrader",
+       "Sage of Fables",
+       "Gray Merchant of Asphodel"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "mikaeus-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Spark Double",
+       "Murderous Redcap",
+       "Glen Elendra Archmage",
+       "River Kelpie",
+       "Puppeteer Clique",
+       "Flayer of the Hatebound",
+       "Sage of Fables",
+       "Ashnod's Altar",
+       "Altar of Dementia"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "spark-double-loops",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Marchesa gives the team dethrone and returns any countered creature that dies, which makes the sacrifice engine resilient.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The source calls the closes 'commander-native loops' (decisions L16), but none of the 48 Spellbook infinites in the list needs Marchesa: they're persist/undying loops with Thran Vigil, Metallic Mimic, Gev, Uncivil Unrest or Mikaeus plus an outlet. She's a resilience engine, not the kill. The cycle 51 M1 review (marchbr-01..11, all verified) confirms the persist-reset loops.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 0,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 48,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 48
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:board_wipe:86cd0f69ff4c",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:artifacts_wiped:acca18f613df",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:commander_removed_twice:62e3f17b8abf",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:key_engine_exiled:fbd11b7a6aac",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:mana_screw:78b8cfa27ce7",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:color_screw:bc26275c590f",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/marchesa-the-black-rose.json#test:marchesa-the-black-rose:stress:graveyard_exiled:7d6ed5b7d36a",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "marchesa-the-black-rose",
+ "source_packet": "data/grixis/bracket_stress_packets/marchesa-the-black-rose.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

@@ -1,0 +1,2370 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+ "deck_id": "Sauron__Lord_of_the_Rings",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 95,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#identity_core/Anger",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#key_interactions/anger-wonder-types",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#plan/value"
+      ],
+      "card": "Anger",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Anger"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#recursion/value"
+      ],
+      "card": "Animate Dead",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Animate Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:fast-mana"
+      ],
+      "card": "Arcane Signet",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#tutor_targets/Archon of Cruelty",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/reanimated-threats"
+      ],
+      "card": "Archon of Cruelty",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Archon of Cruelty"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:ring-orc",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/ring-orcs"
+      ],
+      "card": "Call of the Ring",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Call of the Ring"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets"
+      ],
+      "card": "Cavern-Hoard Dragon",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Cavern-Hoard Dragon"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/cast-trigger",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#failure_modes/eight-drop"
+      ],
+      "card": "Command Beacon",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Command Beacon"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#recursion/value"
+      ],
+      "card": "Dance of the Dead",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Dance of the Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:fast-mana"
+      ],
+      "card": "Dark Ritual",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Dark Ritual"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#identity_core/Entomb",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#plan/value"
+      ],
+      "card": "Entomb",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Entomb"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate"
+      ],
+      "card": "Faithless Looting",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Faithless Looting"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate"
+      ],
+      "card": "Forbidden Alchemy",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Forbidden Alchemy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate"
+      ],
+      "card": "Frantic Search",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Frantic Search"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#failure_modes/eight-drop",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:fast-mana"
+      ],
+      "card": "Grim Monolith",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Grim Monolith"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jeska's Will",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Jeska's Will"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/reanimated-threats"
+      ],
+      "card": "Jin-Gitaxias, Core Augur",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Jin-Gitaxias, Core Augur"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#failure_modes/eight-drop",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:fast-mana"
+      ],
+      "card": "Mana Vault",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Mana Vault"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#identity_core/Metamorphosis Fanatic",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#key_interactions/fanatic-chain",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets"
+      ],
+      "card": "Metamorphosis Fanatic",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Metamorphosis Fanatic"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Moria Scavenger",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Moria Scavenger"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystic Remora",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Mystic Remora"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#recursion/value"
+      ],
+      "card": "Necromancy",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Necromancy"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Bowmasters",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:fast-mana"
+      ],
+      "card": "Relic of Sauron",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Relic of Sauron"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rhystic Study",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Rhystic Study"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:ring-orc"
+      ],
+      "card": "Sauron, the Dark Lord",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Sauron, the Dark Lord"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/reanimated-threats"
+      ],
+      "card": "Sheoldred, Whispering One",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Sheoldred, Whispering One"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:fast-mana"
+      ],
+      "card": "Sol Ring",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Sol Ring"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Summons of Saruman",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Summons of Saruman"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Oracle/Breach conversion (decisions L39).",
+      "No Heartless Summoning (L38) or slow recursion engines (L36)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Sauron costs eight; slow without fast mana.",
+      "evidence_class": "strategic_judgment",
+      "id": "eight-drop",
+      "mitigations": [
+       "Mana Vault",
+       "Grim Monolith",
+       "Command Beacon"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Graveyard hate stops the trigger's best mode and the backup reanimation.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Sneak Attack",
+       "Hard-casting"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Living Death is symmetric.",
+      "evidence_class": "strategic_judgment",
+      "id": "living-death-symmetry",
+      "mitigations": [
+       "Set up the graveyard first"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, Swan Song, Deadly Rollick, Feed the Swarm, Cyclonic Rift, Toxic Deluge, Blasphemous Act.",
+      "mana": "32 lands with Mountain and Island types for Anger/Wonder; fast mana.",
+      "protection": "Deflecting Swat, Lightning Greaves, Force of Will."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Sauron, Lord of the Rings",
+       "Archon of Cruelty",
+       "Valgavoth, Terror Eater",
+       "Jin-Gitaxias, Core Augur",
+       "Sheoldred, Whispering One",
+       "Anger",
+       "Wonder"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Reanimate",
+       "Animate Dead",
+       "Necromancy",
+       "Dance of the Dead",
+       "Victimize"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "reanimated-threats",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Nazgûl",
+       "Call of the Ring",
+       "The Black Gate"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Sauron, Lord of the Rings"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "ring-orcs",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Sauron's cast trigger is the deck's best reanimation spell, and Command Beacon recasts it without tax.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native but expensive: eight mana, and Spellbook finds no combos. The source calls the engine value/reanimation rather than a compact win (blueprint L21). The deck can win without him through cheap reanimation of Archon, Valgavoth or Jin-Gitaxias. Expect mid Bracket 4. M1 review (sauronlotr-01..05, all verified) confirms the cast trigger and reanimation rules.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:board_wipe:cb9ba669cc5e",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:artifacts_wiped:87925e0c63d1",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:commander_removed_twice:2c0c39438793",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:key_engine_exiled:f3f58e4b2126",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:mana_screw:e0df63359b02",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "inconclusive",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:color_screw:d8ff6bc49fd0",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:graveyard_exiled:c2fe541e6743",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#identity_core/Anger",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#key_interactions/anger-wonder-types",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#plan/value"
+      ],
+      "card": "Anger",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Anger"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#recursion/value"
+      ],
+      "card": "Animate Dead",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Animate Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#tutor_targets/Archon of Cruelty",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/reanimated-threats"
+      ],
+      "card": "Archon of Cruelty",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Archon of Cruelty"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:ring-orc",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/ring-orcs"
+      ],
+      "card": "Call of the Ring",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Call of the Ring"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/cast-trigger",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#failure_modes/eight-drop"
+      ],
+      "card": "Command Beacon",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Command Beacon"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#recursion/value"
+      ],
+      "card": "Dance of the Dead",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Dance of the Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#identity_core/Entomb",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#plan/value"
+      ],
+      "card": "Entomb",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Entomb"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate"
+      ],
+      "card": "Forbidden Alchemy",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Forbidden Alchemy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/reanimated-threats"
+      ],
+      "card": "Jin-Gitaxias, Core Augur",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Jin-Gitaxias, Core Augur"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#identity_core/Metamorphosis Fanatic",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#key_interactions/fanatic-chain",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets"
+      ],
+      "card": "Metamorphosis Fanatic",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Metamorphosis Fanatic"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#recursion/value"
+      ],
+      "card": "Necromancy",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Necromancy"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Bowmasters",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/reanimated-threats"
+      ],
+      "card": "Sheoldred, Whispering One",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Sheoldred, Whispering One"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Summons of Saruman",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Summons of Saruman"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets"
+      ],
+      "card": "The Balrog of Moria",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/The Balrog of Moria"
+      ],
+      "roles": [
+       "ramp",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/ring-orcs"
+      ],
+      "card": "The Black Gate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/The Black Gate"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/reanimated-threats"
+      ],
+      "card": "Valgavoth, Terror Eater",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Valgavoth, Terror Eater"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#recursion/value"
+      ],
+      "card": "Victimize",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Victimize"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#key_interactions/anger-wonder-types",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#plan/value",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#requirements/value"
+      ],
+      "card": "Wonder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Wonder"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Oracle/Breach conversion (decisions L39).",
+      "No Heartless Summoning (L38) or slow recursion engines (L36)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Sauron costs eight; slow without fast mana.",
+      "evidence_class": "strategic_judgment",
+      "id": "eight-drop",
+      "mitigations": [
+       "Mana Vault",
+       "Grim Monolith",
+       "Command Beacon"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Graveyard hate stops the trigger's best mode and the backup reanimation.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Sneak Attack",
+       "Hard-casting"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Living Death is symmetric.",
+      "evidence_class": "strategic_judgment",
+      "id": "living-death-symmetry",
+      "mitigations": [
+       "Set up the graveyard first"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, Swan Song, Deadly Rollick, Feed the Swarm, Cyclonic Rift, Toxic Deluge, Blasphemous Act.",
+      "mana": "32 lands with Mountain and Island types for Anger/Wonder; fast mana.",
+      "protection": "Deflecting Swat, Lightning Greaves, Force of Will."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Sauron, Lord of the Rings",
+       "Archon of Cruelty",
+       "Valgavoth, Terror Eater",
+       "Jin-Gitaxias, Core Augur",
+       "Sheoldred, Whispering One",
+       "Anger",
+       "Wonder"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Reanimate",
+       "Animate Dead",
+       "Necromancy",
+       "Dance of the Dead",
+       "Victimize"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "reanimated-threats",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Nazgûl",
+       "Call of the Ring",
+       "The Black Gate"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Sauron, Lord of the Rings"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "ring-orcs",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Sauron's cast trigger is the deck's best reanimation spell, and Command Beacon recasts it without tax.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native but expensive: eight mana, and Spellbook finds no combos. The source calls the engine value/reanimation rather than a compact win (blueprint L21). The deck can win without him through cheap reanimation of Archon, Valgavoth or Jin-Gitaxias. Expect mid Bracket 4. M1 review (sauronlotr-01..05, all verified) confirms the cast trigger and reanimation rules.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:board_wipe:cb9ba669cc5e",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:artifacts_wiped:87925e0c63d1",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:commander_removed_twice:2c0c39438793",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:key_engine_exiled:f3f58e4b2126",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:mana_screw:e0df63359b02",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "inconclusive",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:color_screw:d8ff6bc49fd0",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:graveyard_exiled:c2fe541e6743",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#identity_core/Anger",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#key_interactions/anger-wonder-types",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#plan/value"
+      ],
+      "card": "Anger",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Anger"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#recursion/value"
+      ],
+      "card": "Animate Dead",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Animate Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#tutor_targets/Archon of Cruelty",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/reanimated-threats"
+      ],
+      "card": "Archon of Cruelty",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Archon of Cruelty"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:ring-orc",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/ring-orcs"
+      ],
+      "card": "Call of the Ring",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Call of the Ring"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/cast-trigger",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#failure_modes/eight-drop"
+      ],
+      "card": "Command Beacon",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Command Beacon"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#recursion/value"
+      ],
+      "card": "Dance of the Dead",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Dance of the Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#identity_core/Entomb",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#plan/value"
+      ],
+      "card": "Entomb",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Entomb"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate"
+      ],
+      "card": "Forbidden Alchemy",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Forbidden Alchemy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/reanimated-threats"
+      ],
+      "card": "Jin-Gitaxias, Core Augur",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Jin-Gitaxias, Core Augur"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#identity_core/Metamorphosis Fanatic",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#key_interactions/fanatic-chain",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets"
+      ],
+      "card": "Metamorphosis Fanatic",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Metamorphosis Fanatic"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#recursion/value"
+      ],
+      "card": "Necromancy",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Necromancy"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Bowmasters",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/reanimated-threats"
+      ],
+      "card": "Sheoldred, Whispering One",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Sheoldred, Whispering One"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Summons of Saruman",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Summons of Saruman"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets"
+      ],
+      "card": "The Balrog of Moria",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/The Balrog of Moria"
+      ],
+      "roles": [
+       "ramp",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/ring-orcs"
+      ],
+      "card": "The Black Gate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/The Black Gate"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/reanimated-threats"
+      ],
+      "card": "Valgavoth, Terror Eater",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Valgavoth, Terror Eater"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#recursion/value"
+      ],
+      "card": "Victimize",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Victimize"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#key_interactions/anger-wonder-types",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#plan/value",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#requirements/value"
+      ],
+      "card": "Wonder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Wonder"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Oracle/Breach conversion (decisions L39).",
+      "No Heartless Summoning (L38) or slow recursion engines (L36)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Sauron costs eight; slow without fast mana.",
+      "evidence_class": "strategic_judgment",
+      "id": "eight-drop",
+      "mitigations": [
+       "Mana Vault",
+       "Grim Monolith",
+       "Command Beacon"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Graveyard hate stops the trigger's best mode and the backup reanimation.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Sneak Attack",
+       "Hard-casting"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Living Death is symmetric.",
+      "evidence_class": "strategic_judgment",
+      "id": "living-death-symmetry",
+      "mitigations": [
+       "Set up the graveyard first"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, Swan Song, Deadly Rollick, Feed the Swarm, Cyclonic Rift, Toxic Deluge, Blasphemous Act.",
+      "mana": "32 lands with Mountain and Island types for Anger/Wonder; fast mana.",
+      "protection": "Deflecting Swat, Lightning Greaves, Force of Will."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Sauron, Lord of the Rings",
+       "Archon of Cruelty",
+       "Valgavoth, Terror Eater",
+       "Jin-Gitaxias, Core Augur",
+       "Sheoldred, Whispering One",
+       "Anger",
+       "Wonder"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Reanimate",
+       "Animate Dead",
+       "Necromancy",
+       "Dance of the Dead",
+       "Victimize"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "reanimated-threats",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Nazgûl",
+       "Call of the Ring",
+       "The Black Gate"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Sauron, Lord of the Rings"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "ring-orcs",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Sauron's cast trigger is the deck's best reanimation spell, and Command Beacon recasts it without tax.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native but expensive: eight mana, and Spellbook finds no combos. The source calls the engine value/reanimation rather than a compact win (blueprint L21). The deck can win without him through cheap reanimation of Archon, Valgavoth or Jin-Gitaxias. Expect mid Bracket 4. M1 review (sauronlotr-01..05, all verified) confirms the cast trigger and reanimation rules.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:board_wipe:cb9ba669cc5e",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:artifacts_wiped:87925e0c63d1",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:commander_removed_twice:2c0c39438793",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:key_engine_exiled:f3f58e4b2126",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:mana_screw:e0df63359b02",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "inconclusive",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:color_screw:d8ff6bc49fd0",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:graveyard_exiled:c2fe541e6743",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#identity_core/Anger",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#key_interactions/anger-wonder-types",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#plan/value"
+      ],
+      "card": "Anger",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Anger"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#recursion/value"
+      ],
+      "card": "Animate Dead",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Animate Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#tutor_targets/Archon of Cruelty",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/reanimated-threats"
+      ],
+      "card": "Archon of Cruelty",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Archon of Cruelty"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:ring-orc",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/ring-orcs"
+      ],
+      "card": "Call of the Ring",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Call of the Ring"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/cast-trigger",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#failure_modes/eight-drop"
+      ],
+      "card": "Command Beacon",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Command Beacon"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#recursion/value"
+      ],
+      "card": "Dance of the Dead",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Dance of the Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#identity_core/Entomb",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#plan/value"
+      ],
+      "card": "Entomb",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Entomb"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate"
+      ],
+      "card": "Forbidden Alchemy",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Forbidden Alchemy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#requirements/value"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/reanimated-threats"
+      ],
+      "card": "Jin-Gitaxias, Core Augur",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Jin-Gitaxias, Core Augur"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#identity_core/Metamorphosis Fanatic",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#key_interactions/fanatic-chain",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets"
+      ],
+      "card": "Metamorphosis Fanatic",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Metamorphosis Fanatic"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#recursion/value"
+      ],
+      "card": "Necromancy",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Necromancy"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Bowmasters",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/reanimated-threats"
+      ],
+      "card": "Sheoldred, Whispering One",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Sheoldred, Whispering One"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Summons of Saruman",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Summons of Saruman"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#requirements/value"
+      ],
+      "card": "Swan Song",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Swan Song"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets"
+      ],
+      "card": "The Balrog of Moria",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/The Balrog of Moria"
+      ],
+      "roles": [
+       "ramp",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/ring-orcs"
+      ],
+      "card": "The Black Gate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/The Black Gate"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:targets",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#win_conditions/reanimated-threats"
+      ],
+      "card": "Valgavoth, Terror Eater",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Valgavoth, Terror Eater"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#engines/setup-and-reanimate",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#recursion/value"
+      ],
+      "card": "Victimize",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Victimize"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#key_interactions/anger-wonder-types",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#plan/value",
+       "blueprint:data/grixis/blueprints/sauron-lord-of-the-rings.json#requirements/value"
+      ],
+      "card": "Wonder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sauron-lord-of-the-rings.json#metrics/Wonder"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Oracle/Breach conversion (decisions L39).",
+      "No Heartless Summoning (L38) or slow recursion engines (L36)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Sauron costs eight; slow without fast mana.",
+      "evidence_class": "strategic_judgment",
+      "id": "eight-drop",
+      "mitigations": [
+       "Mana Vault",
+       "Grim Monolith",
+       "Command Beacon"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Graveyard hate stops the trigger's best mode and the backup reanimation.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Sneak Attack",
+       "Hard-casting"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Living Death is symmetric.",
+      "evidence_class": "strategic_judgment",
+      "id": "living-death-symmetry",
+      "mitigations": [
+       "Set up the graveyard first"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, Swan Song, Deadly Rollick, Feed the Swarm, Cyclonic Rift, Toxic Deluge, Blasphemous Act.",
+      "mana": "32 lands with Mountain and Island types for Anger/Wonder; fast mana.",
+      "protection": "Deflecting Swat, Lightning Greaves, Force of Will."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Sauron, Lord of the Rings",
+       "Archon of Cruelty",
+       "Valgavoth, Terror Eater",
+       "Jin-Gitaxias, Core Augur",
+       "Sheoldred, Whispering One",
+       "Anger",
+       "Wonder"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Reanimate",
+       "Animate Dead",
+       "Necromancy",
+       "Dance of the Dead",
+       "Victimize"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "reanimated-threats",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Nazgûl",
+       "Call of the Ring",
+       "The Black Gate"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Sauron, Lord of the Rings"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "ring-orcs",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Sauron's cast trigger is the deck's best reanimation spell, and Command Beacon recasts it without tax.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native but expensive: eight mana, and Spellbook finds no combos. The source calls the engine value/reanimation rather than a compact win (blueprint L21). The deck can win without him through cheap reanimation of Archon, Valgavoth or Jin-Gitaxias. Expect mid Bracket 4. M1 review (sauronlotr-01..05, all verified) confirms the cast trigger and reanimation rules.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:board_wipe:cb9ba669cc5e",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:artifacts_wiped:87925e0c63d1",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:commander_removed_twice:2c0c39438793",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:key_engine_exiled:f3f58e4b2126",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:mana_screw:e0df63359b02",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "inconclusive",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:color_screw:d8ff6bc49fd0",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/sauron-lord-of-the-rings.json#test:sauron-lord-of-the-rings:stress:graveyard_exiled:c2fe541e6743",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "sauron-lord-of-the-rings",
+ "source_packet": "data/grixis/bracket_stress_packets/sauron-lord-of-the-rings.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

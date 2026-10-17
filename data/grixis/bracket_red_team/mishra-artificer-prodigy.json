@@ -1,0 +1,692 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B5_competitive",
+  "value": 5
+ },
+ "canonical_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+ "deck_id": "Mishra__Artificer_Prodigy",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 99,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume the primary win is identified and opponents hold relevant interaction. Determine whether the deck can assemble, protect, pivot, or recover without relying on generic power-core assumptions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#win_conditions/aetherflux"
+      ],
+      "card": "Aetherflux Reservoir",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Aetherflux Reservoir",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:2173-4740-5078",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:4740-5089"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#engines/self-counter-recovery",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#key_interactions/own-stax-hits-spells",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#key_interactions/trigger-ordering"
+      ],
+      "card": "Blood Funnel",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Blood Funnel"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#win_conditions/aetherflux"
+      ],
+      "card": "Bolas's Citadel",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Bolas's Citadel",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:2173-4740-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#engines/self-counter-recovery",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#key_interactions/chalice-x0",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#key_interactions/trigger-ordering"
+      ],
+      "card": "Chalice of the Void",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Chalice of the Void"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#win_conditions/kci-loop",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#win_conditions/top-loops"
+      ],
+      "card": "Cloud Key",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Cloud Key",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:1020-2146-2866-4659",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:2146-5078-5243"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#packages/pkg:artifact-tutors",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#tutor_targets/Karn, the Great Creator"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#recursion/value"
+      ],
+      "card": "Emry, Lurker of the Loch",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Emry, Lurker of the Loch",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:1329-3363-4659"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Encroaching Mycosynth",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Encroaching Mycosynth"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#win_conditions/kci-loop",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#win_conditions/top-loops"
+      ],
+      "card": "Enthusiastic Mechanaut",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Enthusiastic Mechanaut",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:1020-2866-4659-4908",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:4908-5078-5243"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#win_conditions/kci-loop",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#win_conditions/top-loops"
+      ],
+      "card": "Etherium Sculptor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Etherium Sculptor",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:1020-1976-2866-4659",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:1976-5078-5243"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#packages/pkg:artifact-tutors",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#tutor_targets/Sensei's Divining Top"
+      ],
+      "card": "Fabricate",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Fabricate"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#packages/pkg:stack-protection",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#packages/pkg:stack-protection",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#requirements/value"
+      ],
+      "card": "Force of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Force of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#packages/pkg:stack-protection",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#requirements/value"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#win_conditions/kci-loop",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#win_conditions/top-loops"
+      ],
+      "card": "Foundry Inspector",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Foundry Inspector",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:777-1020-2866-4659",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:777-5078-5243"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#packages/pkg:artifact-tutors"
+      ],
+      "card": "Gamble",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Gamble"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#packages/pkg:artifact-tutors",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#tutor_targets/Sensei's Divining Top"
+      ],
+      "card": "Goblin Engineer",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Goblin Engineer"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#recursion/value"
+      ],
+      "card": "Goblin Welder",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Goblin Welder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#recursion/value"
+      ],
+      "card": "Junk Diver",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Junk Diver",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:1020-1117-2866-4659-5034"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#identity_core/Karn, the Great Creator",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#tutor_targets/Karn, the Great Creator",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#win_conditions/aetherflux"
+      ],
+      "card": "Karn, the Great Creator",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Karn, the Great Creator",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:3263-5089",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:4740-5089"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#key_interactions/mirror-breaks-own-loops",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#win_conditions/kci-loop"
+      ],
+      "card": "Krark-Clan Ironworks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Krark-Clan Ironworks",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:1020-1117-2866-4659-5034",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:1020-1976-2866-4659"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#failure_modes/mishra-removed",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#requirements/value"
+      ],
+      "card": "Lightning Greaves",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Lightning Greaves"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#packages/pkg:stack-protection",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#plan/value",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#win_conditions/lattice-lock"
+      ],
+      "card": "Mycosynth Lattice",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Mycosynth Lattice",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:2552-3263",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:3263-5089"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#plan/value",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#recursion/value",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#win_conditions/kci-loop"
+      ],
+      "card": "Myr Retriever",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Myr Retriever",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:1020-1117-2866-4659-5034",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:1020-1976-2866-4659"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#plan/value",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#win_conditions/top-loops"
+      ],
+      "card": "Mystic Forge",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Mystic Forge",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:777-985-5078",
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#combo:985-1976-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#engines/self-counter-recovery",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#key_interactions/own-stax-hits-spells",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#key_interactions/trigger-ordering"
+      ],
+      "card": "Nether Void",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Nether Void"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#engines/self-counter-recovery",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#key_interactions/own-stax-hits-spells",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#packages/pkg:parity-stax"
+      ],
+      "card": "Nullstone Gargoyle",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Nullstone Gargoyle"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Phyrexian Metamorph",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Phyrexian Metamorph"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#key_interactions/own-stax-hits-spells",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#packages/pkg:parity-stax",
+       "blueprint:data/grixis/blueprints/mishra-artificer-prodigy.json#plan/value"
+      ],
+      "card": "Planar Chaos",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-artificer-prodigy.json#metrics/Planar Chaos"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't replace the stax package with generic Grixis Oracle/Breach; the asymmetry is the identity (decisions L18).",
+      "Slower value artifacts (Darksteel Forge, Sai, Padeem) were cut at this ceiling (decisions L48)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Without Mishra, the parity stax locks the pilot too.",
+      "evidence_class": "strategic_judgment",
+      "id": "mishra-removed",
+      "mitigations": [
+       "Lightning Greaves",
+       "commander tax affordable with fast mana"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Artifact removal or stax (Collector Ouphe, Stony Silence) shuts off engines and kills.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-hate",
+      "mitigations": [
+       "Counterspells",
+       "Karn lock"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "The lock doesn't stop uncounterable effects, abilities or spells not cast from hand.",
+      "evidence_class": "strategic_judgment",
+      "id": "lock-gaps",
+      "mitigations": [
+       "Fast combo"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Force of Negation, Mana Drain, Swan Song, Cyclonic Rift, Toxic Deluge, Vandalblast.",
+      "mana": "Workshop, Monoliths, Moxen, Signets.",
+      "protection": "Fierce Guardianship, Lightning Greaves."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Sensei's Divining Top",
+       "The Reality Chip",
+       "Mystic Forge",
+       "Etherium Sculptor",
+       "Foundry Inspector",
+       "Cloud Key",
+       "Enthusiastic Mechanaut"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "top-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Aetherflux Reservoir",
+       "Sensei's Divining Top",
+       "Bolas's Citadel",
+       "Karn, the Great Creator"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "aetherflux",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Krark-Clan Ironworks",
+       "Scrap Trawler",
+       "Myr Retriever",
+       "Etherium Sculptor",
+       "Foundry Inspector",
+       "Cloud Key",
+       "Enthusiastic Mechanaut"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "kci-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Mycosynth Lattice",
+       "Karn, the Great Creator",
+       "Vandalblast"
+      ],
+      "confidence": "high",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "lattice-lock",
+      "kind": "alternate"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Mishra turns the deck's own symmetrical counters into one-sided stax: with both triggers ordered, a countered artifact still reaches the battlefield from the graveyard (or from the library after Possibility Storm).",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Mishra is central to the stax half, but none of the 20 Spellbook combos in the list uses him. The kills are generic artifact engines, so without Mishra the deck is a weaker, self-locking artifact pile. His trigger finds only same-name cards; in singleton that means the spell he just cast, after it has left the stack. The cycle 51 M1 review (mishraap-01..10) flags two anti-synergies: the stax hits your own non-artifact spells (mishraap-04), and Void Mirror/Bauble break your own loops without Mishra (mishraap-05). That raises his real importance to the kills too.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 0,
+      "blueprint_wins_structurally_independent": 4,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 20,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 20
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": null,
+      "source": "data/grixis/audit/mishra-artificer-prodigy.json#baseline_sim",
+      "status": "reused_goldfish_readiness",
+      "stress_id": "turbo_clock"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mishra-artificer-prodigy.json#test:mishra-artificer-prodigy:stress:first_key_spell_countered:dd0165f392d3",
+      "status": "reused_existing_test_result",
+      "stress_id": "first_key_spell_countered"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mishra-artificer-prodigy.json#test:mishra-artificer-prodigy:stress:graveyard_exiled:2f8514053407",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mishra-artificer-prodigy.json#test:mishra-artificer-prodigy:stress:commander_removed_twice:409d194329ad",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mishra-artificer-prodigy.json#test:mishra-artificer-prodigy:stress:key_engine_exiled:7c0742cc2af1",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     }
+    ]
+   },
+   "id": "protected_win_red_team",
+   "priority_weight": 0.05,
+   "question": "Adversarial reviewer asks whether primary wins remain executable through realistic protection/interaction windows.",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "mishra-artificer-prodigy",
+ "source_packet": "data/grixis/bracket_stress_packets/mishra-artificer-prodigy.json",
+ "status": "red_team_pending",
+ "suite_family": "B5_competitive"
+}

@@ -1,0 +1,2719 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+ "deck_id": "Sol_kanar_the_Swamp_King",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 94,
+  "commander_role": "supporting",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/top-citadel",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir"
+      ],
+      "card": "Aetherflux Reservoir",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Aetherflux Reservoir",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-4740-5078",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:3966-4740"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Alhammarret's Archive",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Alhammarret's Archive"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Baleful Strix",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Baleful Strix"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Black Market Connections",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Black Market Connections"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bloodchief Ascension",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bloodchief Ascension"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bloodletter of Aclazotz",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bloodletter of Aclazotz"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#identity_core/Bloodthirsty Conqueror",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/life-loops-m1",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop"
+      ],
+      "card": "Bloodthirsty Conqueror",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bloodthirsty Conqueror",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:110-6191",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:314-6191"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/top-citadel",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir"
+      ],
+      "card": "Bolas's Citadel",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bolas's Citadel",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-2498-5078",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-4740-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/black-spell-gain"
+      ],
+      "card": "Bontu's Monument",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bontu's Monument"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#requirements/value"
+      ],
+      "card": "Chrome Mox",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Chrome Mox"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:black-spells"
+      ],
+      "card": "Dark Ritual",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Dark Ritual"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/black-spell-gain",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#failure_modes/weak-commander"
+      ],
+      "card": "Demon's Horn",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Demon's Horn"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#tutor_targets/Exquisite Blood",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/painter-grindstone"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dimir Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Dimir Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/swamp-mana",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:swamp"
+      ],
+      "card": "Dread Presence",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Dread Presence"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#plan/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"
+      ],
+      "card": "Enduring Tenacity",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Enduring Tenacity",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:3966-5755",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:5755-6191"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#identity_core/Exquisite Blood",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/life-loops-m1",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop"
+      ],
+      "card": "Exquisite Blood",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Exquisite Blood",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:110-3966",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:314-3966"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/wheel-pressure"
+      ],
+      "card": "Exsanguinate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Exsanguinate"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:black-spells"
+      ],
+      "card": "Fell the Profane // Fell Mire",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Fell the Profane // Fell Mire"
+      ],
+      "roles": [
+       "land",
+       "ramp",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/wheel-pressure"
+      ],
+      "card": "Gray Merchant of Asphodel",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Gray Merchant of Asphodel"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#identity_core/Painter's Servant",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#plan/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/painter-grindstone"
+      ],
+      "card": "Grindstone",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Grindstone",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:1078-2302",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#win:painter-grindstone"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jeska's Will",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Jeska's Will"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/black-spell-gain"
+      ],
+      "card": "Jet Medallion",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Jet Medallion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/black-spell-gain"
+      ],
+      "card": "K'rrik, Son of Yawgmoth",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/K'rrik, Son of Yawgmoth"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#requirements/value"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Lotus Petal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mana Vault",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Mana Vault"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"
+      ],
+      "card": "Marauding Blight-Priest",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Marauding Blight-Priest",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:110-3966",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:110-6191"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#requirements/value"
+      ],
+      "card": "Mox Diamond",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Mox Diamond"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Thoracle/Breach (blueprint L36).",
+      "No redundant low-impact lifegain artifacts from EDHREC (L35)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Enchantment or creature removal on loop pieces; the deck needs both halves.",
+      "evidence_class": "strategic_judgment",
+      "id": "loop-hate",
+      "mitigations": [
+       "Redundant loop halves",
+       "Tutors"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Sol'kanar alone is slow incremental value.",
+      "evidence_class": "strategic_judgment",
+      "id": "weak-commander",
+      "mitigations": [
+       "Demon's Horn",
+       "Other lifegain sources"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Too few blue cards to pitch to Force of Will.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-force",
+      "mitigations": [
+       "Counterspell",
+       "Fierce Guardianship"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counterspell, Mana Drain, Swan Song, Fierce Guardianship, Withering Torment, Deadly Rollick, Toxic Deluge, Cyclonic Rift.",
+      "mana": "36 land-capable slots (Swamp-typed duals, Coffers) plus Mox Diamond, Chrome Mox and Lotus Petal.",
+      "protection": "Deflecting Swat, Fierce Guardianship."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Exquisite Blood",
+       "Bloodthirsty Conqueror",
+       "Vito, Thorn of the Dusk Rose",
+       "Marauding Blight-Priest",
+       "Enduring Tenacity",
+       "Starscape Cleric"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Sol'kanar the Swamp King",
+       "Demon's Horn"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "life-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Aetherflux Reservoir",
+       "Exquisite Blood",
+       "Bloodthirsty Conqueror"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Sol'kanar the Swamp King",
+       "Demon's Horn"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "reservoir-activation",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Painter's Servant",
+       "Grindstone"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Demonic Tutor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "painter-grindstone",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Sensei's Divining Top",
+       "Bolas's Citadel",
+       "Aetherflux Reservoir"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "citadel-top-reservoir",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Wheel of Fortune",
+       "Windfall",
+       "Sheoldred, the Apocalypse",
+       "Underworld Dreams",
+       "Gray Merchant of Asphodel",
+       "Exsanguinate"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "wheel-pressure",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Sol'kanar gains 1 life per black spell, which starts the life loops, and has swampwalk once Blanket of Night or Urborg is out.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Honest call: supporting. None of the 13 Spellbook combos uses Sol'kanar; the loops start from any lifegain, and Demon's Horn duplicates the trigger. The source itself calls him a five-mana incremental trigger engine (blueprint L26). The deck is a strong two-card life-loop deck built around a modest commander. M1 review (solkanar-01..06, all verified) confirms the trigger and loop rules.",
+      "level": "supporting"
+     },
+     "summary": {
+      "blueprint_wins": 5,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 10,
+      "combo_commander_independent": 3,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 13
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:board_wipe:2a3de34a2702",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:artifacts_wiped:19259e6b4738",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:commander_removed_twice:1f011162e451",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:key_engine_exiled:800dce3cba2b",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:mana_screw:b3dbc06ed8a2",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:color_screw:73cce02a7861",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:graveyard_exiled:6c5d211acb22",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/top-citadel",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir"
+      ],
+      "card": "Aetherflux Reservoir",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Aetherflux Reservoir",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-4740-5078",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:3966-4740"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bloodchief Ascension",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bloodchief Ascension"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bloodletter of Aclazotz",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bloodletter of Aclazotz"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#identity_core/Bloodthirsty Conqueror",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/life-loops-m1",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop"
+      ],
+      "card": "Bloodthirsty Conqueror",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bloodthirsty Conqueror",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:110-6191",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:314-6191"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/top-citadel",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir"
+      ],
+      "card": "Bolas's Citadel",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bolas's Citadel",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-2498-5078",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-4740-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/black-spell-gain"
+      ],
+      "card": "Bontu's Monument",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bontu's Monument"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/swamp-mana",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:swamp"
+      ],
+      "card": "Consuming Corruption",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Consuming Corruption"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/black-spell-gain",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#failure_modes/weak-commander"
+      ],
+      "card": "Demon's Horn",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Demon's Horn"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#tutor_targets/Exquisite Blood",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/painter-grindstone"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/swamp-mana",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:swamp"
+      ],
+      "card": "Dread Presence",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Dread Presence"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#plan/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"
+      ],
+      "card": "Enduring Tenacity",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Enduring Tenacity",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:3966-5755",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:5755-6191"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#identity_core/Exquisite Blood",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/life-loops-m1",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop"
+      ],
+      "card": "Exquisite Blood",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Exquisite Blood",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:110-3966",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:314-3966"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/wheel-pressure"
+      ],
+      "card": "Exsanguinate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Exsanguinate"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:black-spells"
+      ],
+      "card": "Fell the Profane // Fell Mire",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Fell the Profane // Fell Mire"
+      ],
+      "roles": [
+       "land",
+       "ramp",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/wheel-pressure"
+      ],
+      "card": "Gray Merchant of Asphodel",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Gray Merchant of Asphodel"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#identity_core/Painter's Servant",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#plan/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/painter-grindstone"
+      ],
+      "card": "Grindstone",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Grindstone",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:1078-2302",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#win:painter-grindstone"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/black-spell-gain"
+      ],
+      "card": "Jet Medallion",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Jet Medallion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/black-spell-gain"
+      ],
+      "card": "K'rrik, Son of Yawgmoth",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/K'rrik, Son of Yawgmoth"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"
+      ],
+      "card": "Marauding Blight-Priest",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Marauding Blight-Priest",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:110-3966",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:110-6191"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/black-spell-gain",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#identity_core/Painter's Servant",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/painter-black"
+      ],
+      "card": "Painter's Servant",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Painter's Servant",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:1078-2302",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#win:painter-grindstone"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Charm",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Rakdos Charm"
+      ],
+      "roles": [
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/top-citadel",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir"
+      ],
+      "card": "Sensei's Divining Top",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Sensei's Divining Top",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-2498-5078",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-4740-5078"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/wheel-pressure"
+      ],
+      "card": "Sheoldred, the Apocalypse",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Sheoldred, the Apocalypse",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-2498-5078",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#win:wheel-pressure"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#plan/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"
+      ],
+      "card": "Starscape Cleric",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Starscape Cleric",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:3966-5867",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:5867-6191"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Torment of Hailfire",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Torment of Hailfire"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:black-spells",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#plan/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/wheel-pressure"
+      ],
+      "card": "Underworld Dreams",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Underworld Dreams"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"
+      ],
+      "card": "Vito, Thorn of the Dusk Rose",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Vito, Thorn of the Dusk Rose",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:314-3966",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:314-6191"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Thoracle/Breach (blueprint L36).",
+      "No redundant low-impact lifegain artifacts from EDHREC (L35)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Enchantment or creature removal on loop pieces; the deck needs both halves.",
+      "evidence_class": "strategic_judgment",
+      "id": "loop-hate",
+      "mitigations": [
+       "Redundant loop halves",
+       "Tutors"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Sol'kanar alone is slow incremental value.",
+      "evidence_class": "strategic_judgment",
+      "id": "weak-commander",
+      "mitigations": [
+       "Demon's Horn",
+       "Other lifegain sources"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Too few blue cards to pitch to Force of Will.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-force",
+      "mitigations": [
+       "Counterspell",
+       "Fierce Guardianship"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counterspell, Mana Drain, Swan Song, Fierce Guardianship, Withering Torment, Deadly Rollick, Toxic Deluge, Cyclonic Rift.",
+      "mana": "36 land-capable slots (Swamp-typed duals, Coffers) plus Mox Diamond, Chrome Mox and Lotus Petal.",
+      "protection": "Deflecting Swat, Fierce Guardianship."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Exquisite Blood",
+       "Bloodthirsty Conqueror",
+       "Vito, Thorn of the Dusk Rose",
+       "Marauding Blight-Priest",
+       "Enduring Tenacity",
+       "Starscape Cleric"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Sol'kanar the Swamp King",
+       "Demon's Horn"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "life-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Aetherflux Reservoir",
+       "Exquisite Blood",
+       "Bloodthirsty Conqueror"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Sol'kanar the Swamp King",
+       "Demon's Horn"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "reservoir-activation",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Painter's Servant",
+       "Grindstone"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Demonic Tutor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "painter-grindstone",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Sensei's Divining Top",
+       "Bolas's Citadel",
+       "Aetherflux Reservoir"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "citadel-top-reservoir",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Wheel of Fortune",
+       "Windfall",
+       "Sheoldred, the Apocalypse",
+       "Underworld Dreams",
+       "Gray Merchant of Asphodel",
+       "Exsanguinate"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "wheel-pressure",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Sol'kanar gains 1 life per black spell, which starts the life loops, and has swampwalk once Blanket of Night or Urborg is out.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Honest call: supporting. None of the 13 Spellbook combos uses Sol'kanar; the loops start from any lifegain, and Demon's Horn duplicates the trigger. The source itself calls him a five-mana incremental trigger engine (blueprint L26). The deck is a strong two-card life-loop deck built around a modest commander. M1 review (solkanar-01..06, all verified) confirms the trigger and loop rules.",
+      "level": "supporting"
+     },
+     "summary": {
+      "blueprint_wins": 5,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 10,
+      "combo_commander_independent": 3,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 13
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:board_wipe:2a3de34a2702",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:artifacts_wiped:19259e6b4738",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:commander_removed_twice:1f011162e451",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:key_engine_exiled:800dce3cba2b",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:mana_screw:b3dbc06ed8a2",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:color_screw:73cce02a7861",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:graveyard_exiled:6c5d211acb22",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/top-citadel",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir"
+      ],
+      "card": "Aetherflux Reservoir",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Aetherflux Reservoir",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-4740-5078",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:3966-4740"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bloodchief Ascension",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bloodchief Ascension"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bloodletter of Aclazotz",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bloodletter of Aclazotz"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#identity_core/Bloodthirsty Conqueror",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/life-loops-m1",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop"
+      ],
+      "card": "Bloodthirsty Conqueror",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bloodthirsty Conqueror",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:110-6191",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:314-6191"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/top-citadel",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir"
+      ],
+      "card": "Bolas's Citadel",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bolas's Citadel",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-2498-5078",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-4740-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/black-spell-gain"
+      ],
+      "card": "Bontu's Monument",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bontu's Monument"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/swamp-mana",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:swamp"
+      ],
+      "card": "Consuming Corruption",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Consuming Corruption"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/black-spell-gain",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#failure_modes/weak-commander"
+      ],
+      "card": "Demon's Horn",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Demon's Horn"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#tutor_targets/Exquisite Blood",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/painter-grindstone"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/swamp-mana",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:swamp"
+      ],
+      "card": "Dread Presence",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Dread Presence"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#plan/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"
+      ],
+      "card": "Enduring Tenacity",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Enduring Tenacity",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:3966-5755",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:5755-6191"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#identity_core/Exquisite Blood",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/life-loops-m1",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop"
+      ],
+      "card": "Exquisite Blood",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Exquisite Blood",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:110-3966",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:314-3966"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/wheel-pressure"
+      ],
+      "card": "Exsanguinate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Exsanguinate"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:black-spells"
+      ],
+      "card": "Fell the Profane // Fell Mire",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Fell the Profane // Fell Mire"
+      ],
+      "roles": [
+       "land",
+       "ramp",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/wheel-pressure"
+      ],
+      "card": "Gray Merchant of Asphodel",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Gray Merchant of Asphodel"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#identity_core/Painter's Servant",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#plan/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/painter-grindstone"
+      ],
+      "card": "Grindstone",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Grindstone",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:1078-2302",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#win:painter-grindstone"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/black-spell-gain"
+      ],
+      "card": "Jet Medallion",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Jet Medallion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/black-spell-gain"
+      ],
+      "card": "K'rrik, Son of Yawgmoth",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/K'rrik, Son of Yawgmoth"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"
+      ],
+      "card": "Marauding Blight-Priest",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Marauding Blight-Priest",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:110-3966",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:110-6191"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/black-spell-gain",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#identity_core/Painter's Servant",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/painter-black"
+      ],
+      "card": "Painter's Servant",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Painter's Servant",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:1078-2302",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#win:painter-grindstone"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Charm",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Rakdos Charm"
+      ],
+      "roles": [
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/top-citadel",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir"
+      ],
+      "card": "Sensei's Divining Top",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Sensei's Divining Top",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-2498-5078",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-4740-5078"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/wheel-pressure"
+      ],
+      "card": "Sheoldred, the Apocalypse",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Sheoldred, the Apocalypse",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-2498-5078",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#win:wheel-pressure"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#plan/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"
+      ],
+      "card": "Starscape Cleric",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Starscape Cleric",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:3966-5867",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:5867-6191"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Torment of Hailfire",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Torment of Hailfire"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:black-spells",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#plan/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/wheel-pressure"
+      ],
+      "card": "Underworld Dreams",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Underworld Dreams"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"
+      ],
+      "card": "Vito, Thorn of the Dusk Rose",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Vito, Thorn of the Dusk Rose",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:314-3966",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:314-6191"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Thoracle/Breach (blueprint L36).",
+      "No redundant low-impact lifegain artifacts from EDHREC (L35)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Enchantment or creature removal on loop pieces; the deck needs both halves.",
+      "evidence_class": "strategic_judgment",
+      "id": "loop-hate",
+      "mitigations": [
+       "Redundant loop halves",
+       "Tutors"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Sol'kanar alone is slow incremental value.",
+      "evidence_class": "strategic_judgment",
+      "id": "weak-commander",
+      "mitigations": [
+       "Demon's Horn",
+       "Other lifegain sources"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Too few blue cards to pitch to Force of Will.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-force",
+      "mitigations": [
+       "Counterspell",
+       "Fierce Guardianship"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counterspell, Mana Drain, Swan Song, Fierce Guardianship, Withering Torment, Deadly Rollick, Toxic Deluge, Cyclonic Rift.",
+      "mana": "36 land-capable slots (Swamp-typed duals, Coffers) plus Mox Diamond, Chrome Mox and Lotus Petal.",
+      "protection": "Deflecting Swat, Fierce Guardianship."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Exquisite Blood",
+       "Bloodthirsty Conqueror",
+       "Vito, Thorn of the Dusk Rose",
+       "Marauding Blight-Priest",
+       "Enduring Tenacity",
+       "Starscape Cleric"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Sol'kanar the Swamp King",
+       "Demon's Horn"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "life-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Aetherflux Reservoir",
+       "Exquisite Blood",
+       "Bloodthirsty Conqueror"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Sol'kanar the Swamp King",
+       "Demon's Horn"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "reservoir-activation",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Painter's Servant",
+       "Grindstone"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Demonic Tutor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "painter-grindstone",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Sensei's Divining Top",
+       "Bolas's Citadel",
+       "Aetherflux Reservoir"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "citadel-top-reservoir",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Wheel of Fortune",
+       "Windfall",
+       "Sheoldred, the Apocalypse",
+       "Underworld Dreams",
+       "Gray Merchant of Asphodel",
+       "Exsanguinate"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "wheel-pressure",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Sol'kanar gains 1 life per black spell, which starts the life loops, and has swampwalk once Blanket of Night or Urborg is out.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Honest call: supporting. None of the 13 Spellbook combos uses Sol'kanar; the loops start from any lifegain, and Demon's Horn duplicates the trigger. The source itself calls him a five-mana incremental trigger engine (blueprint L26). The deck is a strong two-card life-loop deck built around a modest commander. M1 review (solkanar-01..06, all verified) confirms the trigger and loop rules.",
+      "level": "supporting"
+     },
+     "summary": {
+      "blueprint_wins": 5,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 10,
+      "combo_commander_independent": 3,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 13
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:board_wipe:2a3de34a2702",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:artifacts_wiped:19259e6b4738",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:commander_removed_twice:1f011162e451",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:key_engine_exiled:800dce3cba2b",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:mana_screw:b3dbc06ed8a2",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:color_screw:73cce02a7861",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:graveyard_exiled:6c5d211acb22",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/top-citadel",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir"
+      ],
+      "card": "Aetherflux Reservoir",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Aetherflux Reservoir",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-4740-5078",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:3966-4740"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bloodchief Ascension",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bloodchief Ascension"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bloodletter of Aclazotz",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bloodletter of Aclazotz"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#identity_core/Bloodthirsty Conqueror",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/life-loops-m1",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop"
+      ],
+      "card": "Bloodthirsty Conqueror",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bloodthirsty Conqueror",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:110-6191",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:314-6191"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/top-citadel",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir"
+      ],
+      "card": "Bolas's Citadel",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bolas's Citadel",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-2498-5078",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-4740-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/black-spell-gain"
+      ],
+      "card": "Bontu's Monument",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Bontu's Monument"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/swamp-mana",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:swamp"
+      ],
+      "card": "Consuming Corruption",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Consuming Corruption"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#failure_modes/no-force",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#requirements/value"
+      ],
+      "card": "Counterspell",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Counterspell"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/black-spell-gain",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#failure_modes/weak-commander"
+      ],
+      "card": "Demon's Horn",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Demon's Horn"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#tutor_targets/Exquisite Blood",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/painter-grindstone"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/swamp-mana",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:swamp"
+      ],
+      "card": "Dread Presence",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Dread Presence"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#plan/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"
+      ],
+      "card": "Enduring Tenacity",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Enduring Tenacity",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:3966-5755",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:5755-6191"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#identity_core/Exquisite Blood",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/life-loops-m1",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop"
+      ],
+      "card": "Exquisite Blood",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Exquisite Blood",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:110-3966",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:314-3966"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/wheel-pressure"
+      ],
+      "card": "Exsanguinate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Exsanguinate"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:black-spells"
+      ],
+      "card": "Fell the Profane // Fell Mire",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Fell the Profane // Fell Mire"
+      ],
+      "roles": [
+       "land",
+       "ramp",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#failure_modes/no-force",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/wheel-pressure"
+      ],
+      "card": "Gray Merchant of Asphodel",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Gray Merchant of Asphodel"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#identity_core/Painter's Servant",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#plan/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/painter-grindstone"
+      ],
+      "card": "Grindstone",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Grindstone",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:1078-2302",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#win:painter-grindstone"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/black-spell-gain"
+      ],
+      "card": "Jet Medallion",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Jet Medallion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/black-spell-gain"
+      ],
+      "card": "K'rrik, Son of Yawgmoth",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/K'rrik, Son of Yawgmoth"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"
+      ],
+      "card": "Marauding Blight-Priest",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Marauding Blight-Priest",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:110-3966",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:110-6191"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#engines/black-spell-gain",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#identity_core/Painter's Servant",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/painter-black"
+      ],
+      "card": "Painter's Servant",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Painter's Servant",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:1078-2302",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#win:painter-grindstone"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Charm",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Rakdos Charm"
+      ],
+      "roles": [
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#key_interactions/top-citadel",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/citadel-top-reservoir"
+      ],
+      "card": "Sensei's Divining Top",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Sensei's Divining Top",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-2498-5078",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-4740-5078"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/wheel-pressure"
+      ],
+      "card": "Sheoldred, the Apocalypse",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Sheoldred, the Apocalypse",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:2173-2498-5078",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#win:wheel-pressure"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#packages/pkg:life-loop",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#plan/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-swamp-king.json#win_conditions/life-loops"
+      ],
+      "card": "Starscape Cleric",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#metrics/Starscape Cleric",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:3966-5867",
+       "graph:data/grixis/graph/solkanar-the-swamp-king.json#combo:5867-6191"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Thoracle/Breach (blueprint L36).",
+      "No redundant low-impact lifegain artifacts from EDHREC (L35)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Enchantment or creature removal on loop pieces; the deck needs both halves.",
+      "evidence_class": "strategic_judgment",
+      "id": "loop-hate",
+      "mitigations": [
+       "Redundant loop halves",
+       "Tutors"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Sol'kanar alone is slow incremental value.",
+      "evidence_class": "strategic_judgment",
+      "id": "weak-commander",
+      "mitigations": [
+       "Demon's Horn",
+       "Other lifegain sources"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Too few blue cards to pitch to Force of Will.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-force",
+      "mitigations": [
+       "Counterspell",
+       "Fierce Guardianship"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counterspell, Mana Drain, Swan Song, Fierce Guardianship, Withering Torment, Deadly Rollick, Toxic Deluge, Cyclonic Rift.",
+      "mana": "36 land-capable slots (Swamp-typed duals, Coffers) plus Mox Diamond, Chrome Mox and Lotus Petal.",
+      "protection": "Deflecting Swat, Fierce Guardianship."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Exquisite Blood",
+       "Bloodthirsty Conqueror",
+       "Vito, Thorn of the Dusk Rose",
+       "Marauding Blight-Priest",
+       "Enduring Tenacity",
+       "Starscape Cleric"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Sol'kanar the Swamp King",
+       "Demon's Horn"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "life-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Aetherflux Reservoir",
+       "Exquisite Blood",
+       "Bloodthirsty Conqueror"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Sol'kanar the Swamp King",
+       "Demon's Horn"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "reservoir-activation",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Painter's Servant",
+       "Grindstone"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Demonic Tutor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "painter-grindstone",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Sensei's Divining Top",
+       "Bolas's Citadel",
+       "Aetherflux Reservoir"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "citadel-top-reservoir",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Wheel of Fortune",
+       "Windfall",
+       "Sheoldred, the Apocalypse",
+       "Underworld Dreams",
+       "Gray Merchant of Asphodel",
+       "Exsanguinate"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "wheel-pressure",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Sol'kanar gains 1 life per black spell, which starts the life loops, and has swampwalk once Blanket of Night or Urborg is out.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Honest call: supporting. None of the 13 Spellbook combos uses Sol'kanar; the loops start from any lifegain, and Demon's Horn duplicates the trigger. The source itself calls him a five-mana incremental trigger engine (blueprint L26). The deck is a strong two-card life-loop deck built around a modest commander. M1 review (solkanar-01..06, all verified) confirms the trigger and loop rules.",
+      "level": "supporting"
+     },
+     "summary": {
+      "blueprint_wins": 5,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 10,
+      "combo_commander_independent": 3,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 13
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:board_wipe:2a3de34a2702",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:artifacts_wiped:19259e6b4738",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:commander_removed_twice:1f011162e451",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:key_engine_exiled:800dce3cba2b",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:mana_screw:b3dbc06ed8a2",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:color_screw:73cce02a7861",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/solkanar-the-swamp-king.json#test:solkanar-the-swamp-king:stress:graveyard_exiled:6c5d211acb22",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "solkanar-the-swamp-king",
+ "source_packet": "data/grixis/bracket_stress_packets/solkanar-the-swamp-king.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

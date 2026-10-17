@@ -1,0 +1,640 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B5_competitive",
+  "value": 5
+ },
+ "canonical_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+ "deck_id": "Jeleva__Nephalia_s_Scourge",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 99,
+  "commander_role": "significant",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume the primary win is identified and opponents hold relevant interaction. Determine whether the deck can assemble, protect, pivot, or recover without relying on generic power-core assumptions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Ad Nauseam",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Ad Nauseam"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#engines/exile-and-cast",
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#packages/pkg:haste"
+      ],
+      "card": "Arena of Glory",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Arena of Glory",
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#package:haste"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#plan/value",
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#win_conditions/breach"
+      ],
+      "card": "Brain Freeze",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Brain Freeze",
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#requirements/value"
+      ],
+      "card": "Deflecting Swat",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Deflecting Swat"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#win_conditions/oracle-doomsday"
+      ],
+      "card": "Demonic Consultation",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Demonic Consultation",
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#combo:742-1295"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Demonic Tutor",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#failure_modes/graveyard-hate",
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#key_interactions/doomsday-pile"
+      ],
+      "card": "Doomsday",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Doomsday",
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#combo:1295-3189"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#packages/pkg:free-cast-targets",
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#win_conditions/free-haymaker"
+      ],
+      "card": "Final Fortune",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Final Fortune"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Flusterstorm",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Flusterstorm"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Force of Negation",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Force of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Force of Will",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gamble",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Gamble"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#engines/exile-and-cast",
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#identity_core/Harmonic Prodigy",
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#key_interactions/prodigy"
+      ],
+      "card": "Harmonic Prodigy",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Harmonic Prodigy"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hexing Squelcher",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Hexing Squelcher"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#engines/top-staging",
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#packages/pkg:top-tutors",
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#plan/value"
+      ],
+      "card": "Imperial Seal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Imperial Seal"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#plan/value",
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#recursion/value",
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#win_conditions/breach"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#combo:1368-1878-2706"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#engines/exile-and-cast",
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#key_interactions/greaves-courier",
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#packages/pkg:haste"
+      ],
+      "card": "Lightning Greaves",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Lightning Greaves",
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#package:haste"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Lim-Dûl's Vault",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Lim-Dûl's Vault"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#win_conditions/breach"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#engines/top-staging",
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#packages/pkg:top-tutors",
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#plan/value"
+      ],
+      "card": "Long-Term Plans",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Long-Term Plans"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#win_conditions/breach"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Lotus Petal",
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#combo:1368-1414-4856"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mental Misstep",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Mental Misstep"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#identity_core/Mind's Desire",
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#packages/pkg:free-cast-targets",
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#plan/value"
+      ],
+      "card": "Mind's Desire",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Mind's Desire"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mindbreak Trap",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Mindbreak Trap"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#packages/pkg:free-cast-targets",
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#plan/value",
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#win_conditions/free-haymaker"
+      ],
+      "card": "Mnemonic Betrayal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Mnemonic Betrayal"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#engines/top-staging",
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#packages/pkg:top-tutors",
+       "blueprint:data/grixis/blueprints/jeleva-nephalias-scourge.json#tutor_targets/Mind's Desire"
+      ],
+      "card": "Mystical Tutor",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Mystical Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Necropotence",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Necropotence"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Opposition Agent",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/jeleva-nephalias-scourge.json#metrics/Opposition Agent"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "The 7–10-mana battlecruiser exile-value shell was retired as too slow (decisions).",
+      "Generic slow value (The One Ring, Roaming Throne, Strionic Resonator) rejected (decisions L69, L73)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Jeleva removed before attacking: no free cast.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-attack",
+      "mitigations": [
+       "Haste package",
+       "Commander-free Oracle/Breach"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Top-of-library changes before the ETB miss the staged card.",
+      "evidence_class": "strategic_judgment",
+      "id": "top-disrupted",
+      "mitigations": [
+       "Cast Jeleva in response windows"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Graveyard hate stops Breach and Yawgmoth's Will.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Oracle/Doomsday lines"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free counters and one-mana interaction; Toxic Deluge.",
+      "mana": "Fast mana and rituals to raise Jeleva's X.",
+      "protection": "Fierce Guardianship, Deflecting Swat, haste to minimise exposure."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Thassa's Oracle",
+       "Demonic Consultation",
+       "Tainted Pact",
+       "Doomsday"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "oracle-doomsday",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Lotus Petal",
+       "Brain Freeze",
+       "Wheel of Fortune",
+       "Jeska's Will"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Mind's Desire",
+       "Peer into the Abyss",
+       "Mnemonic Betrayal",
+       "Yawgmoth's Will",
+       "Final Fortune"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Jeleva, Nephalia's Scourge"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "free-haymaker",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Jeleva is the spell-cheating card-advantage engine the top-deck setup is built for.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "She has to resolve, gain haste and survive to attack before she does anything, and all the compact wins (Oracle, Doomsday, Breach) are commander-independent. She's a strong value engine, not the deck's kill.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 7,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 7
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": null,
+      "source": "data/grixis/audit/jeleva-nephalias-scourge.json#baseline_sim",
+      "status": "reused_goldfish_readiness",
+      "stress_id": "turbo_clock"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/jeleva-nephalias-scourge.json#test:jeleva-nephalias-scourge:stress:first_key_spell_countered:145dabe07418",
+      "status": "reused_existing_test_result",
+      "stress_id": "first_key_spell_countered"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/jeleva-nephalias-scourge.json#test:jeleva-nephalias-scourge:stress:graveyard_exiled:afdfbd382636",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/jeleva-nephalias-scourge.json#test:jeleva-nephalias-scourge:stress:commander_removed_twice:233af2411f71",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/jeleva-nephalias-scourge.json#test:jeleva-nephalias-scourge:stress:key_engine_exiled:386dff76044f",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     }
+    ]
+   },
+   "id": "protected_win_red_team",
+   "priority_weight": 0.05,
+   "question": "Adversarial reviewer asks whether primary wins remain executable through realistic protection/interaction windows.",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "jeleva-nephalias-scourge",
+ "source_packet": "data/grixis/bracket_stress_packets/jeleva-nephalias-scourge.json",
+ "status": "red_team_pending",
+ "suite_family": "B5_competitive"
+}

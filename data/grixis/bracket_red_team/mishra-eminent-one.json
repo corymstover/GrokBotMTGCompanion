@@ -1,0 +1,2669 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+ "deck_id": "Mishra__Eminent_One",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 99,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value"
+      ],
+      "card": "Academy Ruins",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Academy Ruins",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-1384"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/reservoir-kci"
+      ],
+      "card": "Aetherflux Reservoir",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Aetherflux Reservoir",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:4740-5159"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#requirements/value"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcum Dagsson",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Arcum Dagsson"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:extra-turn-pieces",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/aether-heart-turns"
+      ],
+      "card": "Brudiclad, Telchor Engineer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Brudiclad, Telchor Engineer",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1953-4636-5159"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chrome Mox",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Chrome Mox"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#engines/warform-value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:etb-ltb-artifacts",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#requirements/value"
+      ],
+      "card": "Coveted Jewel",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Coveted Jewel"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#engines/warform-value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:etb-ltb-artifacts",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#plan/value"
+      ],
+      "card": "Cryogen Relic",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Cryogen Relic"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#key_interactions/iteration-ordering",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:extra-turn-pieces",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/aether-heart-turns"
+      ],
+      "card": "Determined Iteration",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Determined Iteration",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:3934-4636-5159"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value"
+      ],
+      "card": "Emry, Lurker of the Loch",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Emry, Lurker of the Loch",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-1329",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1329-3363-4659"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Enthusiastic Mechanaut",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Enthusiastic Mechanaut",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-2866-4659-4908",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-4908-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Esoteric Duplicator",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Esoteric Duplicator",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-5483"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Etherium Sculptor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Etherium Sculptor",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-1976-2866-4659",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-1976-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value"
+      ],
+      "card": "Goblin Welder",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Goblin Welder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#identity_core/Gonti's Aether Heart",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:extra-turn-pieces",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#tutor_targets/Gonti's Aether Heart"
+      ],
+      "card": "Gonti's Aether Heart",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Gonti's Aether Heart",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1953-4636-5159",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:2751-4636-5159"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#engines/warform-value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#identity_core/Ichor Wellspring",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:etb-ltb-artifacts"
+      ],
+      "card": "Ichor Wellspring",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Ichor Wellspring"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#engines/warform-conversion",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/reservoir-kci"
+      ],
+      "card": "Krark-Clan Ironworks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Krark-Clan Ironworks",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-1976-2866-4659",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-2866-4659-4908"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#identity_core/Lithoform Engine",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#key_interactions/slaver-control",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:extra-turn-pieces"
+      ],
+      "card": "Lithoform Engine",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Lithoform Engine",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-2751-3094-5159",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:3094-4636-5159"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Lotus Petal",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Lotus Petal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#key_interactions/copiable-values"
+      ],
+      "card": "Machine God's Effigy",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Machine God's Effigy"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mana Vault",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Mana Vault"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#engines/warform-conversion"
+      ],
+      "card": "Master Transmuter",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Master Transmuter",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1999-3363"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#key_interactions/slaver-control",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:etb-ltb-artifacts",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#plan/value"
+      ],
+      "card": "Mindslaver",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Mindslaver",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-1329",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-1384"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mox Diamond",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Mox Diamond"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mox Opal",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Mox Opal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#plan/value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Myr Retriever",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Myr Retriever",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-1976-2866-4659",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-2866-4659-4908"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#plan/value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Mystic Forge",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Mystic Forge",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-1976-5078",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-4908-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystic Remora",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Mystic Remora"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:etb-ltb-artifacts"
+      ],
+      "card": "Nihil Spellbomb",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Nihil Spellbomb"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't force Bracket 5 with a generic Grixis Oracle/Breach shell (decisions L18).",
+      "Underworld Breach and Brain Freeze were cut for identity, not because they don't work (decisions L70)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Mishra must survive to your own combat; sorcery-speed removal or a board wipe resets the engine.",
+      "evidence_class": "strategic_judgment",
+      "id": "mishra-removed",
+      "mitigations": [
+       "Fierce Guardianship",
+       "Deflecting Swat"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Artifact hate stops copy targets and combos.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-hate",
+      "mitigations": [
+       "Recursion"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "A five-mana commander that triggers at combat is slow against cEDH tables.",
+      "evidence_class": "strategic_judgment",
+      "id": "speed",
+      "mitigations": [
+       "Fast artifact mana"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, An Offer You Can't Refuse, Chaos Warp, Cyclonic Rift, Toxic Deluge.",
+      "mana": "Workshop, Moxen, Talismans, Coveted Jewel.",
+      "protection": "Fierce Guardianship, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Mishra, Eminent One",
+       "Gonti's Aether Heart",
+       "Strionic Resonator",
+       "Lithoform Engine",
+       "Determined Iteration",
+       "Brudiclad, Telchor Engineer",
+       "Worldwalker Helm"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "aether-heart-turns",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Mishra, Eminent One",
+       "Urza, Lord High Artificer",
+       "Worldwalker Helm",
+       "Thousand-Year Elixir"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "urza-helm",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Mishra, Eminent One",
+       "Aetherflux Reservoir",
+       "Krark-Clan Ironworks",
+       "Strionic Resonator",
+       "Lithoform Engine"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "reservoir-kci",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Sensei's Divining Top",
+       "Mystic Forge",
+       "Etherium Sculptor",
+       "Enthusiastic Mechanaut",
+       "Krark-Clan Ironworks",
+       "Scrap Trawler",
+       "Myr Retriever"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "artifact-backups",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Mishra is the copy engine and part of most of the deck's infinites.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native: 9 of the 19 Spellbook combos in the list include Mishra, including every infinite-turn line. The engine is a five-mana sorcery-speed combat trigger, which keeps the deck below cEDH speed; the source declined to swap in Oracle/Breach to force Bracket 5. The cycle 51 M1 review (mishraeo-01..09, all verified) confirms the Warform rules and combos.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 9,
+      "combo_direct_commander_piece": 10,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 19
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:board_wipe:7f5e88f4e486",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:artifacts_wiped:7e481cacead5",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:commander_removed_twice:863b2ae23ed1",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:key_engine_exiled:958ee59761e2",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:mana_screw:9f48c9787ce8",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:color_screw:0ba70f7cb4e6",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:graveyard_exiled:57bcd63bbe1b",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value"
+      ],
+      "card": "Academy Ruins",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Academy Ruins",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-1384"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/reservoir-kci"
+      ],
+      "card": "Aetherflux Reservoir",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Aetherflux Reservoir",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:4740-5159"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcum Dagsson",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Arcum Dagsson"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:extra-turn-pieces",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/aether-heart-turns"
+      ],
+      "card": "Brudiclad, Telchor Engineer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Brudiclad, Telchor Engineer",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1953-4636-5159"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#key_interactions/iteration-ordering",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:extra-turn-pieces",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/aether-heart-turns"
+      ],
+      "card": "Determined Iteration",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Determined Iteration",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:3934-4636-5159"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value"
+      ],
+      "card": "Emry, Lurker of the Loch",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Emry, Lurker of the Loch",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-1329",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1329-3363-4659"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Enthusiastic Mechanaut",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Enthusiastic Mechanaut",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-2866-4659-4908",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-4908-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Esoteric Duplicator",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Esoteric Duplicator",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-5483"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Etherium Sculptor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Etherium Sculptor",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-1976-2866-4659",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-1976-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value"
+      ],
+      "card": "Goblin Welder",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Goblin Welder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#identity_core/Gonti's Aether Heart",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:extra-turn-pieces",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#tutor_targets/Gonti's Aether Heart"
+      ],
+      "card": "Gonti's Aether Heart",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Gonti's Aether Heart",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1953-4636-5159",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:2751-4636-5159"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#engines/warform-value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#identity_core/Ichor Wellspring",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:etb-ltb-artifacts"
+      ],
+      "card": "Ichor Wellspring",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Ichor Wellspring"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#engines/warform-conversion",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/reservoir-kci"
+      ],
+      "card": "Krark-Clan Ironworks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Krark-Clan Ironworks",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-1976-2866-4659",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-2866-4659-4908"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#engines/warform-value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:etb-ltb-artifacts",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#plan/value"
+      ],
+      "card": "Lich's Relic",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Lich's Relic"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#identity_core/Lithoform Engine",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#key_interactions/slaver-control",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:extra-turn-pieces"
+      ],
+      "card": "Lithoform Engine",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Lithoform Engine",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-2751-3094-5159",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:3094-4636-5159"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#engines/warform-conversion"
+      ],
+      "card": "Master Transmuter",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Master Transmuter",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1999-3363"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#key_interactions/slaver-control",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:etb-ltb-artifacts",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#plan/value"
+      ],
+      "card": "Mindslaver",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Mindslaver",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-1329",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-1384"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#plan/value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Myr Retriever",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Myr Retriever",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-1976-2866-4659",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-2866-4659-4908"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#plan/value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Mystic Forge",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Mystic Forge",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-1976-5078",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-4908-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value"
+      ],
+      "card": "Portal to Phyrexia",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Portal to Phyrexia"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#plan/value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Scrap Trawler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Scrap Trawler",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-1976-2866-4659",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-2866-4659-4908"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Sensei's Divining Top",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Sensei's Divining Top",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-1976-5078",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-4908-5078"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Simulacrum Synthesizer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Simulacrum Synthesizer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#engines/warform-conversion"
+      ],
+      "card": "Smelting Vat",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Smelting Vat"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Spine of Ish Sah",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Spine of Ish Sah"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#identity_core/Strionic Resonator",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#key_interactions/slaver-control",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:extra-turn-pieces"
+      ],
+      "card": "Strionic Resonator",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Strionic Resonator",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-2751-3094-5159",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:2751-4636-5159"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The One Ring",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/The One Ring",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1329-3363-4659",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1999-3363"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#key_interactions/helm-urza",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/urza-helm"
+      ],
+      "card": "Thousand-Year Elixir",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Thousand-Year Elixir",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:457-5159-5295-5491"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't force Bracket 5 with a generic Grixis Oracle/Breach shell (decisions L18).",
+      "Underworld Breach and Brain Freeze were cut for identity, not because they don't work (decisions L70)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Mishra must survive to your own combat; sorcery-speed removal or a board wipe resets the engine.",
+      "evidence_class": "strategic_judgment",
+      "id": "mishra-removed",
+      "mitigations": [
+       "Fierce Guardianship",
+       "Deflecting Swat"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Artifact hate stops copy targets and combos.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-hate",
+      "mitigations": [
+       "Recursion"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "A five-mana commander that triggers at combat is slow against cEDH tables.",
+      "evidence_class": "strategic_judgment",
+      "id": "speed",
+      "mitigations": [
+       "Fast artifact mana"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, An Offer You Can't Refuse, Chaos Warp, Cyclonic Rift, Toxic Deluge.",
+      "mana": "Workshop, Moxen, Talismans, Coveted Jewel.",
+      "protection": "Fierce Guardianship, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Mishra, Eminent One",
+       "Gonti's Aether Heart",
+       "Strionic Resonator",
+       "Lithoform Engine",
+       "Determined Iteration",
+       "Brudiclad, Telchor Engineer",
+       "Worldwalker Helm"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "aether-heart-turns",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Mishra, Eminent One",
+       "Urza, Lord High Artificer",
+       "Worldwalker Helm",
+       "Thousand-Year Elixir"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "urza-helm",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Mishra, Eminent One",
+       "Aetherflux Reservoir",
+       "Krark-Clan Ironworks",
+       "Strionic Resonator",
+       "Lithoform Engine"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "reservoir-kci",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Sensei's Divining Top",
+       "Mystic Forge",
+       "Etherium Sculptor",
+       "Enthusiastic Mechanaut",
+       "Krark-Clan Ironworks",
+       "Scrap Trawler",
+       "Myr Retriever"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "artifact-backups",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Mishra is the copy engine and part of most of the deck's infinites.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native: 9 of the 19 Spellbook combos in the list include Mishra, including every infinite-turn line. The engine is a five-mana sorcery-speed combat trigger, which keeps the deck below cEDH speed; the source declined to swap in Oracle/Breach to force Bracket 5. The cycle 51 M1 review (mishraeo-01..09, all verified) confirms the Warform rules and combos.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 9,
+      "combo_direct_commander_piece": 10,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 19
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:board_wipe:7f5e88f4e486",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:artifacts_wiped:7e481cacead5",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:commander_removed_twice:863b2ae23ed1",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:key_engine_exiled:958ee59761e2",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:mana_screw:9f48c9787ce8",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:color_screw:0ba70f7cb4e6",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:graveyard_exiled:57bcd63bbe1b",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value"
+      ],
+      "card": "Academy Ruins",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Academy Ruins",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-1384"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/reservoir-kci"
+      ],
+      "card": "Aetherflux Reservoir",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Aetherflux Reservoir",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:4740-5159"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcum Dagsson",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Arcum Dagsson"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:extra-turn-pieces",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/aether-heart-turns"
+      ],
+      "card": "Brudiclad, Telchor Engineer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Brudiclad, Telchor Engineer",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1953-4636-5159"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#key_interactions/iteration-ordering",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:extra-turn-pieces",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/aether-heart-turns"
+      ],
+      "card": "Determined Iteration",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Determined Iteration",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:3934-4636-5159"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value"
+      ],
+      "card": "Emry, Lurker of the Loch",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Emry, Lurker of the Loch",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-1329",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1329-3363-4659"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Enthusiastic Mechanaut",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Enthusiastic Mechanaut",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-2866-4659-4908",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-4908-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Esoteric Duplicator",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Esoteric Duplicator",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-5483"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Etherium Sculptor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Etherium Sculptor",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-1976-2866-4659",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-1976-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value"
+      ],
+      "card": "Goblin Welder",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Goblin Welder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#identity_core/Gonti's Aether Heart",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:extra-turn-pieces",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#tutor_targets/Gonti's Aether Heart"
+      ],
+      "card": "Gonti's Aether Heart",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Gonti's Aether Heart",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1953-4636-5159",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:2751-4636-5159"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#engines/warform-value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#identity_core/Ichor Wellspring",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:etb-ltb-artifacts"
+      ],
+      "card": "Ichor Wellspring",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Ichor Wellspring"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#engines/warform-conversion",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/reservoir-kci"
+      ],
+      "card": "Krark-Clan Ironworks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Krark-Clan Ironworks",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-1976-2866-4659",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-2866-4659-4908"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#engines/warform-value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:etb-ltb-artifacts",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#plan/value"
+      ],
+      "card": "Lich's Relic",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Lich's Relic"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#identity_core/Lithoform Engine",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#key_interactions/slaver-control",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:extra-turn-pieces"
+      ],
+      "card": "Lithoform Engine",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Lithoform Engine",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-2751-3094-5159",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:3094-4636-5159"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#engines/warform-conversion"
+      ],
+      "card": "Master Transmuter",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Master Transmuter",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1999-3363"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#key_interactions/slaver-control",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:etb-ltb-artifacts",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#plan/value"
+      ],
+      "card": "Mindslaver",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Mindslaver",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-1329",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-1384"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#plan/value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Myr Retriever",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Myr Retriever",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-1976-2866-4659",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-2866-4659-4908"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#plan/value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Mystic Forge",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Mystic Forge",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-1976-5078",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-4908-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value"
+      ],
+      "card": "Portal to Phyrexia",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Portal to Phyrexia"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#plan/value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Scrap Trawler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Scrap Trawler",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-1976-2866-4659",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-2866-4659-4908"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Sensei's Divining Top",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Sensei's Divining Top",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-1976-5078",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-4908-5078"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Simulacrum Synthesizer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Simulacrum Synthesizer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#engines/warform-conversion"
+      ],
+      "card": "Smelting Vat",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Smelting Vat"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Spine of Ish Sah",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Spine of Ish Sah"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#identity_core/Strionic Resonator",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#key_interactions/slaver-control",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:extra-turn-pieces"
+      ],
+      "card": "Strionic Resonator",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Strionic Resonator",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-2751-3094-5159",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:2751-4636-5159"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The One Ring",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/The One Ring",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1329-3363-4659",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1999-3363"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#key_interactions/helm-urza",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/urza-helm"
+      ],
+      "card": "Thousand-Year Elixir",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Thousand-Year Elixir",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:457-5159-5295-5491"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't force Bracket 5 with a generic Grixis Oracle/Breach shell (decisions L18).",
+      "Underworld Breach and Brain Freeze were cut for identity, not because they don't work (decisions L70)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Mishra must survive to your own combat; sorcery-speed removal or a board wipe resets the engine.",
+      "evidence_class": "strategic_judgment",
+      "id": "mishra-removed",
+      "mitigations": [
+       "Fierce Guardianship",
+       "Deflecting Swat"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Artifact hate stops copy targets and combos.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-hate",
+      "mitigations": [
+       "Recursion"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "A five-mana commander that triggers at combat is slow against cEDH tables.",
+      "evidence_class": "strategic_judgment",
+      "id": "speed",
+      "mitigations": [
+       "Fast artifact mana"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, An Offer You Can't Refuse, Chaos Warp, Cyclonic Rift, Toxic Deluge.",
+      "mana": "Workshop, Moxen, Talismans, Coveted Jewel.",
+      "protection": "Fierce Guardianship, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Mishra, Eminent One",
+       "Gonti's Aether Heart",
+       "Strionic Resonator",
+       "Lithoform Engine",
+       "Determined Iteration",
+       "Brudiclad, Telchor Engineer",
+       "Worldwalker Helm"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "aether-heart-turns",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Mishra, Eminent One",
+       "Urza, Lord High Artificer",
+       "Worldwalker Helm",
+       "Thousand-Year Elixir"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "urza-helm",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Mishra, Eminent One",
+       "Aetherflux Reservoir",
+       "Krark-Clan Ironworks",
+       "Strionic Resonator",
+       "Lithoform Engine"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "reservoir-kci",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Sensei's Divining Top",
+       "Mystic Forge",
+       "Etherium Sculptor",
+       "Enthusiastic Mechanaut",
+       "Krark-Clan Ironworks",
+       "Scrap Trawler",
+       "Myr Retriever"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "artifact-backups",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Mishra is the copy engine and part of most of the deck's infinites.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native: 9 of the 19 Spellbook combos in the list include Mishra, including every infinite-turn line. The engine is a five-mana sorcery-speed combat trigger, which keeps the deck below cEDH speed; the source declined to swap in Oracle/Breach to force Bracket 5. The cycle 51 M1 review (mishraeo-01..09, all verified) confirms the Warform rules and combos.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 9,
+      "combo_direct_commander_piece": 10,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 19
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:board_wipe:7f5e88f4e486",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:artifacts_wiped:7e481cacead5",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:commander_removed_twice:863b2ae23ed1",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:key_engine_exiled:958ee59761e2",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:mana_screw:9f48c9787ce8",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:color_screw:0ba70f7cb4e6",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:graveyard_exiled:57bcd63bbe1b",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value"
+      ],
+      "card": "Academy Ruins",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Academy Ruins",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-1384"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/reservoir-kci"
+      ],
+      "card": "Aetherflux Reservoir",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Aetherflux Reservoir",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:4740-5159"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#requirements/value"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcum Dagsson",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Arcum Dagsson"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:extra-turn-pieces",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/aether-heart-turns"
+      ],
+      "card": "Brudiclad, Telchor Engineer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Brudiclad, Telchor Engineer",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1953-4636-5159"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#key_interactions/iteration-ordering",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:extra-turn-pieces",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/aether-heart-turns"
+      ],
+      "card": "Determined Iteration",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Determined Iteration",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:3934-4636-5159"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value"
+      ],
+      "card": "Emry, Lurker of the Loch",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Emry, Lurker of the Loch",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-1329",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1329-3363-4659"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Enthusiastic Mechanaut",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Enthusiastic Mechanaut",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-2866-4659-4908",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-4908-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Esoteric Duplicator",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Esoteric Duplicator",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-5483"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Etherium Sculptor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Etherium Sculptor",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-1976-2866-4659",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-1976-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#failure_modes/mishra-removed",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#requirements/value"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value"
+      ],
+      "card": "Goblin Welder",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Goblin Welder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#identity_core/Gonti's Aether Heart",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:extra-turn-pieces",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#tutor_targets/Gonti's Aether Heart"
+      ],
+      "card": "Gonti's Aether Heart",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Gonti's Aether Heart",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1953-4636-5159",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:2751-4636-5159"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#engines/warform-value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#identity_core/Ichor Wellspring",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:etb-ltb-artifacts"
+      ],
+      "card": "Ichor Wellspring",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Ichor Wellspring"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#engines/warform-conversion",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/reservoir-kci"
+      ],
+      "card": "Krark-Clan Ironworks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Krark-Clan Ironworks",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-1976-2866-4659",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-2866-4659-4908"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#engines/warform-value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:etb-ltb-artifacts",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#plan/value"
+      ],
+      "card": "Lich's Relic",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Lich's Relic"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#identity_core/Lithoform Engine",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#key_interactions/slaver-control",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:extra-turn-pieces"
+      ],
+      "card": "Lithoform Engine",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Lithoform Engine",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-2751-3094-5159",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:3094-4636-5159"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#engines/warform-conversion"
+      ],
+      "card": "Master Transmuter",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Master Transmuter",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1999-3363"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#key_interactions/slaver-control",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#packages/pkg:etb-ltb-artifacts",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#plan/value"
+      ],
+      "card": "Mindslaver",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Mindslaver",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-1329",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1167-1384"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#plan/value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Myr Retriever",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Myr Retriever",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-1976-2866-4659",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-2866-4659-4908"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#plan/value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Mystic Forge",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Mystic Forge",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-1976-5078",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-4908-5078"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value"
+      ],
+      "card": "Portal to Phyrexia",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Portal to Phyrexia"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#plan/value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#recursion/value",
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Scrap Trawler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Scrap Trawler",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-1976-2866-4659",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:1020-2866-4659-4908"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#win_conditions/artifact-backups"
+      ],
+      "card": "Sensei's Divining Top",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Sensei's Divining Top",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-1976-5078",
+       "graph:data/grixis/graph/mishra-eminent-one.json#combo:985-4908-5078"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Simulacrum Synthesizer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Simulacrum Synthesizer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mishra-eminent-one.json#engines/warform-conversion"
+      ],
+      "card": "Smelting Vat",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mishra-eminent-one.json#metrics/Smelting Vat"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't force Bracket 5 with a generic Grixis Oracle/Breach shell (decisions L18).",
+      "Underworld Breach and Brain Freeze were cut for identity, not because they don't work (decisions L70)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Mishra must survive to your own combat; sorcery-speed removal or a board wipe resets the engine.",
+      "evidence_class": "strategic_judgment",
+      "id": "mishra-removed",
+      "mitigations": [
+       "Fierce Guardianship",
+       "Deflecting Swat"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Artifact hate stops copy targets and combos.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-hate",
+      "mitigations": [
+       "Recursion"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "A five-mana commander that triggers at combat is slow against cEDH tables.",
+      "evidence_class": "strategic_judgment",
+      "id": "speed",
+      "mitigations": [
+       "Fast artifact mana"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, An Offer You Can't Refuse, Chaos Warp, Cyclonic Rift, Toxic Deluge.",
+      "mana": "Workshop, Moxen, Talismans, Coveted Jewel.",
+      "protection": "Fierce Guardianship, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Mishra, Eminent One",
+       "Gonti's Aether Heart",
+       "Strionic Resonator",
+       "Lithoform Engine",
+       "Determined Iteration",
+       "Brudiclad, Telchor Engineer",
+       "Worldwalker Helm"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "aether-heart-turns",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Mishra, Eminent One",
+       "Urza, Lord High Artificer",
+       "Worldwalker Helm",
+       "Thousand-Year Elixir"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "urza-helm",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Mishra, Eminent One",
+       "Aetherflux Reservoir",
+       "Krark-Clan Ironworks",
+       "Strionic Resonator",
+       "Lithoform Engine"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "reservoir-kci",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Sensei's Divining Top",
+       "Mystic Forge",
+       "Etherium Sculptor",
+       "Enthusiastic Mechanaut",
+       "Krark-Clan Ironworks",
+       "Scrap Trawler",
+       "Myr Retriever"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "artifact-backups",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Mishra is the copy engine and part of most of the deck's infinites.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native: 9 of the 19 Spellbook combos in the list include Mishra, including every infinite-turn line. The engine is a five-mana sorcery-speed combat trigger, which keeps the deck below cEDH speed; the source declined to swap in Oracle/Breach to force Bracket 5. The cycle 51 M1 review (mishraeo-01..09, all verified) confirms the Warform rules and combos.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 9,
+      "combo_direct_commander_piece": 10,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 19
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:board_wipe:7f5e88f4e486",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:artifacts_wiped:7e481cacead5",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:commander_removed_twice:863b2ae23ed1",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:key_engine_exiled:958ee59761e2",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:mana_screw:9f48c9787ce8",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:color_screw:0ba70f7cb4e6",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mishra-eminent-one.json#test:mishra-eminent-one:stress:graveyard_exiled:57bcd63bbe1b",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "mishra-eminent-one",
+ "source_packet": "data/grixis/bracket_stress_packets/mishra-eminent-one.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

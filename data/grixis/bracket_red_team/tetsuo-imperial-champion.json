@@ -1,0 +1,2274 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+ "deck_id": "Tetsuo__Imperial_Champion",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 90,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#identity_core/Aggravated Assault",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#plan/value"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#combo:3750-5039",
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#combo:900-3750"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#plan/value"
+      ],
+      "card": "Akki Battle Squad",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Akki Battle Squad"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#key_interactions/suspend-free-cast",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:free-cast",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#plan/value"
+      ],
+      "card": "Ancestral Vision",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Ancestral Vision"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#key_interactions/collar-damage",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#win_conditions/voltron"
+      ],
+      "card": "Basilisk Collar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Basilisk Collar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Brainstorm",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Brainstorm"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#engines/attach-cheat",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#identity_core/Brass Squire",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:attach"
+      ],
+      "card": "Brass Squire",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Brass Squire"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment"
+      ],
+      "card": "Buster Sword",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Buster Sword"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Conqueror's Flail",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Conqueror's Flail"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#engines/attach-cheat",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:attach"
+      ],
+      "card": "Dalakos, Crafter of Wonders",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Dalakos, Crafter of Wonders"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dimir Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Dimir Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#engines/attack-trigger",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#tutor_targets/Embercleave"
+      ],
+      "card": "Embercleave",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Embercleave"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Etherium Sculptor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Etherium Sculptor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#engines/attack-trigger",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#identity_core/Excalibur, Sword of Eden",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment"
+      ],
+      "card": "Excalibur, Sword of Eden",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Excalibur, Sword of Eden"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Frantic Search",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Frantic Search"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gilgamesh, Master-at-Arms",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Gilgamesh, Master-at-Arms"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Heiko Yamazaki, the General",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Heiko Yamazaki, the General"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Izzet Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Izzet Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jhoira, Weatherlight Captain",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Jhoira, Weatherlight Captain"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#engines/attack-trigger",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#win_conditions/voltron"
+      ],
+      "card": "Kaldra Compleat",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Kaldra Compleat"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kediss, Emberclaw Familiar",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Kediss, Emberclaw Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#win_conditions/voltron"
+      ],
+      "card": "Leyline Axe",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Leyline Axe"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#failure_modes/empty-hand"
+      ],
+      "card": "Mystic Remora",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Mystic Remora"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Padeem, Consul of Innovation",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Padeem, Consul of Innovation"
+      ],
+      "roles": [
+       "draw",
+       "protection"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Rakdos Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#failure_modes/empty-hand"
+      ],
+      "card": "Rhystic Study",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Rhystic Study"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#key_interactions/main-phase-only",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#key_interactions/savage-beating",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:free-cast"
+      ],
+      "card": "Savage Beating",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Savage Beating"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#requirements/value"
+      ],
+      "card": "Sol Ring",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Sol Ring"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#identity_core/Sword of Feast and Famine",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#plan/value"
+      ],
+      "card": "Sword of Feast and Famine",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Sword of Feast and Famine",
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#combo:900-3750"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sword of Fire and Ice",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Sword of Fire and Ice"
+      ],
+      "roles": [
+       "draw",
+       "protection",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic cEDH conversion (decisions L42).",
+      "No Time Warp effects over extra combats (L38)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Artifact removal or an unequipped Tetsuo turns the trigger off.",
+      "evidence_class": "strategic_judgment",
+      "id": "equipment-hate",
+      "mitigations": [
+       "Equipment density",
+       "Academy Ruins"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Tetsuo has to attack and survive.",
+      "evidence_class": "strategic_judgment",
+      "id": "blockers-and-removal",
+      "mitigations": [
+       "Boots",
+       "Oathkeeper",
+       "Winged Boots"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "The free-cast mode needs a good spell in hand.",
+      "evidence_class": "strategic_judgment",
+      "id": "empty-hand",
+      "mitigations": [
+       "Rhystic Study",
+       "Mystic Remora",
+       "Wheel of Fate"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Terminate, Withering Torment, Chaos Warp, Blasphemous Act, Cyclonic Rift.",
+      "mana": "35 lands with Sol Ring, Ancient Tomb, Signets and Talismans.",
+      "protection": "Swiftfoot Boots, Oathkeeper, Mithril Coat, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Aggravated Assault",
+       "Sword of Feast and Famine",
+       "The Reaver Cleaver"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Tetsuo, Imperial Champion"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "assault-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Tetsuo, Imperial Champion",
+       "Embercleave",
+       "Leyline Axe",
+       "Kaldra Compleat",
+       "Basilisk Collar"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Savage Beating",
+       "World at War"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "voltron",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Tetsuo's attack trigger is the deck's spell engine and burn.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native. Both Spellbook combos (900-3750, Sword of Feast and Famine + Aggravated Assault; 3750-5039, The Reaver Cleaver + Aggravated Assault) need an attacking creature, but not Tetsuo; he is the natural carrier. The source corrected a false Relentless Assault / Seize the Day interaction (blueprint L33).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 2,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 2
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:board_wipe:46778cb080c3",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:artifacts_wiped:e6de591565a0",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:commander_removed_twice:cc46a172be6d",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:key_engine_exiled:c1090e88fdfc",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:mana_screw:627f80b4de8f",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:color_screw:fc38edcb8c55",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:graveyard_exiled:f1986167ebc4",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#identity_core/Aggravated Assault",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#plan/value"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#combo:3750-5039",
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#combo:900-3750"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#plan/value"
+      ],
+      "card": "Akki Battle Squad",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Akki Battle Squad"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#engines/attack-trigger",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment"
+      ],
+      "card": "Argentum Armor",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Argentum Armor"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#key_interactions/collar-damage",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#win_conditions/voltron"
+      ],
+      "card": "Basilisk Collar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Basilisk Collar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#engines/attach-cheat",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#identity_core/Brass Squire",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:attach"
+      ],
+      "card": "Brass Squire",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Brass Squire"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#engines/attack-trigger",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#tutor_targets/Embercleave"
+      ],
+      "card": "Embercleave",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Embercleave"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Etherium Sculptor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Etherium Sculptor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#engines/attack-trigger",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#identity_core/Excalibur, Sword of Eden",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment"
+      ],
+      "card": "Excalibur, Sword of Eden",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Excalibur, Sword of Eden"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gilgamesh, Master-at-Arms",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Gilgamesh, Master-at-Arms"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Heiko Yamazaki, the General",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Heiko Yamazaki, the General"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#engines/attack-trigger",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#win_conditions/voltron"
+      ],
+      "card": "Kaldra Compleat",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Kaldra Compleat"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kediss, Emberclaw Familiar",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Kediss, Emberclaw Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#win_conditions/voltron"
+      ],
+      "card": "Leyline Axe",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Leyline Axe"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#key_interactions/main-phase-only",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#key_interactions/savage-beating",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:free-cast"
+      ],
+      "card": "Savage Beating",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Savage Beating"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#identity_core/Sword of Feast and Famine",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#plan/value"
+      ],
+      "card": "Sword of Feast and Famine",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Sword of Feast and Famine",
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#combo:900-3750"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sword of Fire and Ice",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Sword of Fire and Ice"
+      ],
+      "roles": [
+       "draw",
+       "protection",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#requirements/value"
+      ],
+      "card": "Terminate",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Terminate"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Reality Chip",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/The Reality Chip"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#win_conditions/assault-loop"
+      ],
+      "card": "The Reaver Cleaver",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/The Reaver Cleaver",
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#combo:3750-5039"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Vorpal Sword",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Vorpal Sword"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#requirements/value"
+      ],
+      "card": "Withering Torment",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Withering Torment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#key_interactions/main-phase-only",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#key_interactions/world-at-war-rebound",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:free-cast"
+      ],
+      "card": "World at War",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/World at War"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic cEDH conversion (decisions L42).",
+      "No Time Warp effects over extra combats (L38)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Artifact removal or an unequipped Tetsuo turns the trigger off.",
+      "evidence_class": "strategic_judgment",
+      "id": "equipment-hate",
+      "mitigations": [
+       "Equipment density",
+       "Academy Ruins"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Tetsuo has to attack and survive.",
+      "evidence_class": "strategic_judgment",
+      "id": "blockers-and-removal",
+      "mitigations": [
+       "Boots",
+       "Oathkeeper",
+       "Winged Boots"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "The free-cast mode needs a good spell in hand.",
+      "evidence_class": "strategic_judgment",
+      "id": "empty-hand",
+      "mitigations": [
+       "Rhystic Study",
+       "Mystic Remora",
+       "Wheel of Fate"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Terminate, Withering Torment, Chaos Warp, Blasphemous Act, Cyclonic Rift.",
+      "mana": "35 lands with Sol Ring, Ancient Tomb, Signets and Talismans.",
+      "protection": "Swiftfoot Boots, Oathkeeper, Mithril Coat, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Aggravated Assault",
+       "Sword of Feast and Famine",
+       "The Reaver Cleaver"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Tetsuo, Imperial Champion"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "assault-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Tetsuo, Imperial Champion",
+       "Embercleave",
+       "Leyline Axe",
+       "Kaldra Compleat",
+       "Basilisk Collar"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Savage Beating",
+       "World at War"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "voltron",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Tetsuo's attack trigger is the deck's spell engine and burn.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native. Both Spellbook combos (900-3750, Sword of Feast and Famine + Aggravated Assault; 3750-5039, The Reaver Cleaver + Aggravated Assault) need an attacking creature, but not Tetsuo; he is the natural carrier. The source corrected a false Relentless Assault / Seize the Day interaction (blueprint L33).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 2,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 2
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:board_wipe:46778cb080c3",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:artifacts_wiped:e6de591565a0",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:commander_removed_twice:cc46a172be6d",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:key_engine_exiled:c1090e88fdfc",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:mana_screw:627f80b4de8f",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:color_screw:fc38edcb8c55",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:graveyard_exiled:f1986167ebc4",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#identity_core/Aggravated Assault",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#plan/value"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#combo:3750-5039",
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#combo:900-3750"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#plan/value"
+      ],
+      "card": "Akki Battle Squad",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Akki Battle Squad"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#engines/attack-trigger",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment"
+      ],
+      "card": "Argentum Armor",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Argentum Armor"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#key_interactions/collar-damage",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#win_conditions/voltron"
+      ],
+      "card": "Basilisk Collar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Basilisk Collar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#engines/attach-cheat",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#identity_core/Brass Squire",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:attach"
+      ],
+      "card": "Brass Squire",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Brass Squire"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#engines/attack-trigger",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#tutor_targets/Embercleave"
+      ],
+      "card": "Embercleave",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Embercleave"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Etherium Sculptor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Etherium Sculptor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#engines/attack-trigger",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#identity_core/Excalibur, Sword of Eden",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment"
+      ],
+      "card": "Excalibur, Sword of Eden",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Excalibur, Sword of Eden"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gilgamesh, Master-at-Arms",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Gilgamesh, Master-at-Arms"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Heiko Yamazaki, the General",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Heiko Yamazaki, the General"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#engines/attack-trigger",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#win_conditions/voltron"
+      ],
+      "card": "Kaldra Compleat",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Kaldra Compleat"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kediss, Emberclaw Familiar",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Kediss, Emberclaw Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#win_conditions/voltron"
+      ],
+      "card": "Leyline Axe",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Leyline Axe"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#key_interactions/main-phase-only",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#key_interactions/savage-beating",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:free-cast"
+      ],
+      "card": "Savage Beating",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Savage Beating"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#identity_core/Sword of Feast and Famine",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#plan/value"
+      ],
+      "card": "Sword of Feast and Famine",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Sword of Feast and Famine",
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#combo:900-3750"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sword of Fire and Ice",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Sword of Fire and Ice"
+      ],
+      "roles": [
+       "draw",
+       "protection",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#requirements/value"
+      ],
+      "card": "Terminate",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Terminate"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Reality Chip",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/The Reality Chip"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#win_conditions/assault-loop"
+      ],
+      "card": "The Reaver Cleaver",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/The Reaver Cleaver",
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#combo:3750-5039"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Vorpal Sword",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Vorpal Sword"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#requirements/value"
+      ],
+      "card": "Withering Torment",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Withering Torment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#key_interactions/main-phase-only",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#key_interactions/world-at-war-rebound",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:free-cast"
+      ],
+      "card": "World at War",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/World at War"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic cEDH conversion (decisions L42).",
+      "No Time Warp effects over extra combats (L38)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Artifact removal or an unequipped Tetsuo turns the trigger off.",
+      "evidence_class": "strategic_judgment",
+      "id": "equipment-hate",
+      "mitigations": [
+       "Equipment density",
+       "Academy Ruins"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Tetsuo has to attack and survive.",
+      "evidence_class": "strategic_judgment",
+      "id": "blockers-and-removal",
+      "mitigations": [
+       "Boots",
+       "Oathkeeper",
+       "Winged Boots"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "The free-cast mode needs a good spell in hand.",
+      "evidence_class": "strategic_judgment",
+      "id": "empty-hand",
+      "mitigations": [
+       "Rhystic Study",
+       "Mystic Remora",
+       "Wheel of Fate"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Terminate, Withering Torment, Chaos Warp, Blasphemous Act, Cyclonic Rift.",
+      "mana": "35 lands with Sol Ring, Ancient Tomb, Signets and Talismans.",
+      "protection": "Swiftfoot Boots, Oathkeeper, Mithril Coat, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Aggravated Assault",
+       "Sword of Feast and Famine",
+       "The Reaver Cleaver"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Tetsuo, Imperial Champion"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "assault-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Tetsuo, Imperial Champion",
+       "Embercleave",
+       "Leyline Axe",
+       "Kaldra Compleat",
+       "Basilisk Collar"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Savage Beating",
+       "World at War"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "voltron",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Tetsuo's attack trigger is the deck's spell engine and burn.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native. Both Spellbook combos (900-3750, Sword of Feast and Famine + Aggravated Assault; 3750-5039, The Reaver Cleaver + Aggravated Assault) need an attacking creature, but not Tetsuo; he is the natural carrier. The source corrected a false Relentless Assault / Seize the Day interaction (blueprint L33).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 2,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 2
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:board_wipe:46778cb080c3",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:artifacts_wiped:e6de591565a0",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:commander_removed_twice:cc46a172be6d",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:key_engine_exiled:c1090e88fdfc",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:mana_screw:627f80b4de8f",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:color_screw:fc38edcb8c55",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:graveyard_exiled:f1986167ebc4",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#identity_core/Aggravated Assault",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#plan/value"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#combo:3750-5039",
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#combo:900-3750"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#plan/value"
+      ],
+      "card": "Akki Battle Squad",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Akki Battle Squad"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#engines/attack-trigger",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment"
+      ],
+      "card": "Argentum Armor",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Argentum Armor"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#key_interactions/collar-damage",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#win_conditions/voltron"
+      ],
+      "card": "Basilisk Collar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Basilisk Collar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#engines/attach-cheat",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#identity_core/Brass Squire",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:attach"
+      ],
+      "card": "Brass Squire",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Brass Squire"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Conqueror's Flail",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Conqueror's Flail"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#engines/attack-trigger",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#tutor_targets/Embercleave"
+      ],
+      "card": "Embercleave",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Embercleave"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Etherium Sculptor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Etherium Sculptor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#engines/attack-trigger",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#identity_core/Excalibur, Sword of Eden",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment"
+      ],
+      "card": "Excalibur, Sword of Eden",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Excalibur, Sword of Eden"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:protection",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#requirements/value"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gilgamesh, Master-at-Arms",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Gilgamesh, Master-at-Arms"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Heiko Yamazaki, the General",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Heiko Yamazaki, the General"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#engines/attack-trigger",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#win_conditions/voltron"
+      ],
+      "card": "Kaldra Compleat",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Kaldra Compleat"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kediss, Emberclaw Familiar",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Kediss, Emberclaw Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#win_conditions/voltron"
+      ],
+      "card": "Leyline Axe",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Leyline Axe"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#key_interactions/main-phase-only",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#key_interactions/savage-beating",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:free-cast"
+      ],
+      "card": "Savage Beating",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Savage Beating"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#identity_core/Sword of Feast and Famine",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#plan/value"
+      ],
+      "card": "Sword of Feast and Famine",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Sword of Feast and Famine",
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#combo:900-3750"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sword of Fire and Ice",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Sword of Fire and Ice"
+      ],
+      "roles": [
+       "draw",
+       "protection",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#requirements/value"
+      ],
+      "card": "Terminate",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Terminate"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Reality Chip",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/The Reality Chip"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:high-mv-equipment",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#win_conditions/assault-loop"
+      ],
+      "card": "The Reaver Cleaver",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/The Reaver Cleaver",
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#combo:3750-5039"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Vorpal Sword",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Vorpal Sword"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#requirements/value"
+      ],
+      "card": "Withering Torment",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/Withering Torment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#key_interactions/main-phase-only",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#key_interactions/world-at-war-rebound",
+       "blueprint:data/grixis/blueprints/tetsuo-imperial-champion.json#packages/pkg:free-cast"
+      ],
+      "card": "World at War",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-imperial-champion.json#metrics/World at War"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic cEDH conversion (decisions L42).",
+      "No Time Warp effects over extra combats (L38)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Artifact removal or an unequipped Tetsuo turns the trigger off.",
+      "evidence_class": "strategic_judgment",
+      "id": "equipment-hate",
+      "mitigations": [
+       "Equipment density",
+       "Academy Ruins"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Tetsuo has to attack and survive.",
+      "evidence_class": "strategic_judgment",
+      "id": "blockers-and-removal",
+      "mitigations": [
+       "Boots",
+       "Oathkeeper",
+       "Winged Boots"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "The free-cast mode needs a good spell in hand.",
+      "evidence_class": "strategic_judgment",
+      "id": "empty-hand",
+      "mitigations": [
+       "Rhystic Study",
+       "Mystic Remora",
+       "Wheel of Fate"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Terminate, Withering Torment, Chaos Warp, Blasphemous Act, Cyclonic Rift.",
+      "mana": "35 lands with Sol Ring, Ancient Tomb, Signets and Talismans.",
+      "protection": "Swiftfoot Boots, Oathkeeper, Mithril Coat, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Aggravated Assault",
+       "Sword of Feast and Famine",
+       "The Reaver Cleaver"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Tetsuo, Imperial Champion"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "assault-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Tetsuo, Imperial Champion",
+       "Embercleave",
+       "Leyline Axe",
+       "Kaldra Compleat",
+       "Basilisk Collar"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Savage Beating",
+       "World at War"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "voltron",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Tetsuo's attack trigger is the deck's spell engine and burn.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native. Both Spellbook combos (900-3750, Sword of Feast and Famine + Aggravated Assault; 3750-5039, The Reaver Cleaver + Aggravated Assault) need an attacking creature, but not Tetsuo; he is the natural carrier. The source corrected a false Relentless Assault / Seize the Day interaction (blueprint L33).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 2,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 2
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:board_wipe:46778cb080c3",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:artifacts_wiped:e6de591565a0",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:commander_removed_twice:cc46a172be6d",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:key_engine_exiled:c1090e88fdfc",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:mana_screw:627f80b4de8f",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:color_screw:fc38edcb8c55",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-imperial-champion.json#test:tetsuo-imperial-champion:stress:graveyard_exiled:f1986167ebc4",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "tetsuo-imperial-champion",
+ "source_packet": "data/grixis/bracket_stress_packets/tetsuo-imperial-champion.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

@@ -1,0 +1,2320 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:ac167a53ea77215d7eb148ea2eb814c2596d8da1943a971a8ee077c6d35ceb00",
+ "deck_id": "Nathan_Drake__Treasure_Hunter",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 96,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#requirements/value"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Black Market Connections",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Black Market Connections"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Brotherhood Regalia",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Brotherhood Regalia"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Court of Locthwain",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Court of Locthwain"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#requirements/value"
+      ],
+      "card": "Dark Ritual",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Dark Ritual"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/dauthi-tinybones"
+      ],
+      "card": "Dauthi Voidwalker",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Dauthi Voidwalker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/theft-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/exile-and-unowned-payoffs"
+      ],
+      "card": "Don Andres, the Renegade",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Don Andres, the Renegade"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dream-Thief's Bandana",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Dream-Thief's Bandana"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#win_conditions/advantage-combat"
+      ],
+      "card": "Etali, Primal Storm",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Etali, Primal Storm"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/nathan-heist",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#identity_core/Fire Lord Azula",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:trigger-scaling"
+      ],
+      "card": "Fire Lord Azula",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Fire Lord Azula",
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#package:trigger-scaling"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/nathan-heist",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#identity_core/Firebender Ascension",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:trigger-scaling"
+      ],
+      "card": "Firebender Ascension",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Firebender Ascension",
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#package:trigger-scaling"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/theft-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/exile-and-unowned-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:theft"
+      ],
+      "card": "Gonti, Night Minister",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Gonti, Night Minister"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Grenzo, Havoc Raiser",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Grenzo, Havoc Raiser"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gríma, Saruman's Footman",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Gríma, Saruman's Footman"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Interdimensional Web Watch",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Interdimensional Web Watch"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#recursion/value"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Jeska's Will"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/nathan-heist",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#identity_core/Karlach, Fury of Avernus",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:trigger-scaling"
+      ],
+      "card": "Karlach, Fury of Avernus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Karlach, Fury of Avernus",
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#package:trigger-scaling"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Locke, Treasure Hunter",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Locke, Treasure Hunter"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#requirements/value"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Lotus Petal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystic Remora",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Mystic Remora"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/theft-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/exile-and-unowned-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#plan/value"
+      ],
+      "card": "Nalfeshnee",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Nalfeshnee"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/theft-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:theft",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#plan/value"
+      ],
+      "card": "Notion Thief",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Notion Thief"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/theft-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/exile-and-unowned-payoffs"
+      ],
+      "card": "Passionate Archaeologist",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Passionate Archaeologist"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Plargg and Nassari",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Plargg and Nassari"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#tutor_targets/Roaming Throne"
+      ],
+      "card": "Praetor's Grasp",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Praetor's Grasp"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Professional Face-Breaker",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Professional Face-Breaker"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/theft-payoffs"
+      ],
+      "card": "Prosper, Tome-Bound",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Prosper, Tome-Bound"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#win_conditions/advantage-combat"
+      ],
+      "card": "Ragavan, Nimble Pilferer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Ragavan, Nimble Pilferer"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't add theft cards just for popularity (blueprint L51).",
+      "Don't over-invest in damage-only evasion (blueprint L52)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Nathan is a small attacker; blockers and removal shut off the engine.",
+      "evidence_class": "strategic_judgment",
+      "id": "nathan-dies-in-combat",
+      "mitigations": [
+       "First strike",
+       "Protection"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "No deterministic win, so long games against interaction-heavy tables.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-compact-kill",
+      "mitigations": [
+       "Theft of opponents' finishers"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Stolen spells need mana during combat.",
+      "evidence_class": "strategic_judgment",
+      "id": "mana-in-combat",
+      "mitigations": [
+       "Firebending",
+       "Treasures"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Force of Negation, Swan Song, An Offer You Can't Refuse, Chaos Warp, Cyclonic Rift, Blasphemous Act.",
+      "mana": "34 lands, Sol Ring, Lotus Petal, Dark Ritual, Talismans.",
+      "protection": "Boots, Greaves, Fierce Guardianship, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Nathan Drake, Treasure Hunter",
+       "Karlach, Fury of Avernus",
+       "Fire Lord Azula",
+       "Etali, Primal Storm",
+       "Ragavan, Nimble Pilferer"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Roaming Throne",
+       "Firebender Ascension"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "advantage-combat",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Nathan Drake, Treasure Hunter"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Gonti, Night Minister",
+       "Thief of Sanity",
+       "Tinybones, the Pickpocket"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "stolen-wincons",
+      "kind": "alternate"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Nathan is the main card-advantage engine and the reason the list values trigger copies and combat-time mana.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander Spellbook finds no combos in the list, and the source says the deck doesn't run a generic Oracle/Breach finish (blueprint L41). It wins by accumulated advantage and combat damage, so it's a low-to-mid Bracket 4 value deck. Nathan is central to the engine but provides no compact kill. The cycle 51 M1 review (nathan-01..08) verifies the engine and flags one anti-synergy (nathan-07).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:board_wipe:c82765665e83",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:artifacts_wiped:f16337700b93",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:commander_removed_twice:98b5c4e3ec30",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:key_engine_exiled:4a3da61744ff",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:mana_screw:50d9ce02c2b8",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:color_screw:5a478531c793",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:graveyard_exiled:df7e07298cf2",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Brotherhood Regalia",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Brotherhood Regalia"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Court of Locthwain",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Court of Locthwain"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/dauthi-tinybones"
+      ],
+      "card": "Dauthi Voidwalker",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Dauthi Voidwalker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dream-Thief's Bandana",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Dream-Thief's Bandana"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#win_conditions/advantage-combat"
+      ],
+      "card": "Etali, Primal Storm",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Etali, Primal Storm"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/nathan-heist",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#identity_core/Fire Lord Azula",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:trigger-scaling"
+      ],
+      "card": "Fire Lord Azula",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Fire Lord Azula",
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#package:trigger-scaling"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/nathan-heist",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#identity_core/Firebender Ascension",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:trigger-scaling"
+      ],
+      "card": "Firebender Ascension",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Firebender Ascension",
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#package:trigger-scaling"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/theft-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/exile-and-unowned-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:theft"
+      ],
+      "card": "Gonti, Night Minister",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Gonti, Night Minister"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Grenzo, Havoc Raiser",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Grenzo, Havoc Raiser"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gríma, Saruman's Footman",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Gríma, Saruman's Footman"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:theft",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#plan/value"
+      ],
+      "card": "Hostage Taker",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Hostage Taker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/nathan-heist",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#identity_core/Karlach, Fury of Avernus",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:trigger-scaling"
+      ],
+      "card": "Karlach, Fury of Avernus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Karlach, Fury of Avernus",
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#package:trigger-scaling"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/theft-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/exile-and-unowned-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#plan/value"
+      ],
+      "card": "Nalfeshnee",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Nalfeshnee"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/theft-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/exile-and-unowned-payoffs"
+      ],
+      "card": "Passionate Archaeologist",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Passionate Archaeologist"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Plargg and Nassari",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Plargg and Nassari"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#tutor_targets/Roaming Throne"
+      ],
+      "card": "Praetor's Grasp",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Praetor's Grasp"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#win_conditions/advantage-combat"
+      ],
+      "card": "Ragavan, Nimble Pilferer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Ragavan, Nimble Pilferer"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/nathan-heist",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#identity_core/Roaming Throne",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/roaming-throne-rogue"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Roaming Throne",
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#package:trigger-scaling"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/theft-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:theft",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#plan/value"
+      ],
+      "card": "Thief of Sanity",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Thief of Sanity"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/dauthi-tinybones",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:theft",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#win_conditions/stolen-wincons"
+      ],
+      "card": "Tinybones, the Pickpocket",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Tinybones, the Pickpocket"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/exile-and-unowned-payoffs"
+      ],
+      "card": "Wild-Magic Sorcerer",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Wild-Magic Sorcerer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "You Find Some Prisoners",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/You Find Some Prisoners"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't add theft cards just for popularity (blueprint L51).",
+      "Don't over-invest in damage-only evasion (blueprint L52)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Nathan is a small attacker; blockers and removal shut off the engine.",
+      "evidence_class": "strategic_judgment",
+      "id": "nathan-dies-in-combat",
+      "mitigations": [
+       "First strike",
+       "Protection"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "No deterministic win, so long games against interaction-heavy tables.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-compact-kill",
+      "mitigations": [
+       "Theft of opponents' finishers"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Stolen spells need mana during combat.",
+      "evidence_class": "strategic_judgment",
+      "id": "mana-in-combat",
+      "mitigations": [
+       "Firebending",
+       "Treasures"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Force of Negation, Swan Song, An Offer You Can't Refuse, Chaos Warp, Cyclonic Rift, Blasphemous Act.",
+      "mana": "34 lands, Sol Ring, Lotus Petal, Dark Ritual, Talismans.",
+      "protection": "Boots, Greaves, Fierce Guardianship, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Nathan Drake, Treasure Hunter",
+       "Karlach, Fury of Avernus",
+       "Fire Lord Azula",
+       "Etali, Primal Storm",
+       "Ragavan, Nimble Pilferer"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Roaming Throne",
+       "Firebender Ascension"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "advantage-combat",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Nathan Drake, Treasure Hunter"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Gonti, Night Minister",
+       "Thief of Sanity",
+       "Tinybones, the Pickpocket"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "stolen-wincons",
+      "kind": "alternate"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Nathan is the main card-advantage engine and the reason the list values trigger copies and combat-time mana.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander Spellbook finds no combos in the list, and the source says the deck doesn't run a generic Oracle/Breach finish (blueprint L41). It wins by accumulated advantage and combat damage, so it's a low-to-mid Bracket 4 value deck. Nathan is central to the engine but provides no compact kill. The cycle 51 M1 review (nathan-01..08) verifies the engine and flags one anti-synergy (nathan-07).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:board_wipe:c82765665e83",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:artifacts_wiped:f16337700b93",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:commander_removed_twice:98b5c4e3ec30",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:key_engine_exiled:4a3da61744ff",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:mana_screw:50d9ce02c2b8",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:color_screw:5a478531c793",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:graveyard_exiled:df7e07298cf2",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Brotherhood Regalia",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Brotherhood Regalia"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Court of Locthwain",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Court of Locthwain"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/dauthi-tinybones"
+      ],
+      "card": "Dauthi Voidwalker",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Dauthi Voidwalker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dream-Thief's Bandana",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Dream-Thief's Bandana"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#win_conditions/advantage-combat"
+      ],
+      "card": "Etali, Primal Storm",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Etali, Primal Storm"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/nathan-heist",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#identity_core/Fire Lord Azula",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:trigger-scaling"
+      ],
+      "card": "Fire Lord Azula",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Fire Lord Azula",
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#package:trigger-scaling"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/nathan-heist",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#identity_core/Firebender Ascension",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:trigger-scaling"
+      ],
+      "card": "Firebender Ascension",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Firebender Ascension",
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#package:trigger-scaling"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/theft-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/exile-and-unowned-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:theft"
+      ],
+      "card": "Gonti, Night Minister",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Gonti, Night Minister"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Grenzo, Havoc Raiser",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Grenzo, Havoc Raiser"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gríma, Saruman's Footman",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Gríma, Saruman's Footman"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:theft",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#plan/value"
+      ],
+      "card": "Hostage Taker",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Hostage Taker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/nathan-heist",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#identity_core/Karlach, Fury of Avernus",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:trigger-scaling"
+      ],
+      "card": "Karlach, Fury of Avernus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Karlach, Fury of Avernus",
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#package:trigger-scaling"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/theft-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/exile-and-unowned-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#plan/value"
+      ],
+      "card": "Nalfeshnee",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Nalfeshnee"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/theft-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/exile-and-unowned-payoffs"
+      ],
+      "card": "Passionate Archaeologist",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Passionate Archaeologist"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Plargg and Nassari",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Plargg and Nassari"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#tutor_targets/Roaming Throne"
+      ],
+      "card": "Praetor's Grasp",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Praetor's Grasp"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#win_conditions/advantage-combat"
+      ],
+      "card": "Ragavan, Nimble Pilferer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Ragavan, Nimble Pilferer"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/nathan-heist",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#identity_core/Roaming Throne",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/roaming-throne-rogue"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Roaming Throne",
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#package:trigger-scaling"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/theft-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:theft",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#plan/value"
+      ],
+      "card": "Thief of Sanity",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Thief of Sanity"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/dauthi-tinybones",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:theft",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#win_conditions/stolen-wincons"
+      ],
+      "card": "Tinybones, the Pickpocket",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Tinybones, the Pickpocket"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/exile-and-unowned-payoffs"
+      ],
+      "card": "Wild-Magic Sorcerer",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Wild-Magic Sorcerer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "You Find Some Prisoners",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/You Find Some Prisoners"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't add theft cards just for popularity (blueprint L51).",
+      "Don't over-invest in damage-only evasion (blueprint L52)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Nathan is a small attacker; blockers and removal shut off the engine.",
+      "evidence_class": "strategic_judgment",
+      "id": "nathan-dies-in-combat",
+      "mitigations": [
+       "First strike",
+       "Protection"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "No deterministic win, so long games against interaction-heavy tables.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-compact-kill",
+      "mitigations": [
+       "Theft of opponents' finishers"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Stolen spells need mana during combat.",
+      "evidence_class": "strategic_judgment",
+      "id": "mana-in-combat",
+      "mitigations": [
+       "Firebending",
+       "Treasures"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Force of Negation, Swan Song, An Offer You Can't Refuse, Chaos Warp, Cyclonic Rift, Blasphemous Act.",
+      "mana": "34 lands, Sol Ring, Lotus Petal, Dark Ritual, Talismans.",
+      "protection": "Boots, Greaves, Fierce Guardianship, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Nathan Drake, Treasure Hunter",
+       "Karlach, Fury of Avernus",
+       "Fire Lord Azula",
+       "Etali, Primal Storm",
+       "Ragavan, Nimble Pilferer"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Roaming Throne",
+       "Firebender Ascension"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "advantage-combat",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Nathan Drake, Treasure Hunter"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Gonti, Night Minister",
+       "Thief of Sanity",
+       "Tinybones, the Pickpocket"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "stolen-wincons",
+      "kind": "alternate"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Nathan is the main card-advantage engine and the reason the list values trigger copies and combat-time mana.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander Spellbook finds no combos in the list, and the source says the deck doesn't run a generic Oracle/Breach finish (blueprint L41). It wins by accumulated advantage and combat damage, so it's a low-to-mid Bracket 4 value deck. Nathan is central to the engine but provides no compact kill. The cycle 51 M1 review (nathan-01..08) verifies the engine and flags one anti-synergy (nathan-07).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:board_wipe:c82765665e83",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:artifacts_wiped:f16337700b93",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:commander_removed_twice:98b5c4e3ec30",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:key_engine_exiled:4a3da61744ff",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:mana_screw:50d9ce02c2b8",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:color_screw:5a478531c793",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:graveyard_exiled:df7e07298cf2",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#requirements/value"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Brotherhood Regalia",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Brotherhood Regalia"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Court of Locthwain",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Court of Locthwain"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/dauthi-tinybones"
+      ],
+      "card": "Dauthi Voidwalker",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Dauthi Voidwalker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dream-Thief's Bandana",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Dream-Thief's Bandana"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#win_conditions/advantage-combat"
+      ],
+      "card": "Etali, Primal Storm",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Etali, Primal Storm"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:haste-protection",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/nathan-heist",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#identity_core/Fire Lord Azula",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:trigger-scaling"
+      ],
+      "card": "Fire Lord Azula",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Fire Lord Azula",
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#package:trigger-scaling"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/nathan-heist",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#identity_core/Firebender Ascension",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:trigger-scaling"
+      ],
+      "card": "Firebender Ascension",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Firebender Ascension",
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#package:trigger-scaling"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:haste-protection",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#requirements/value"
+      ],
+      "card": "Force of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Force of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/theft-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/exile-and-unowned-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:theft"
+      ],
+      "card": "Gonti, Night Minister",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Gonti, Night Minister"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Grenzo, Havoc Raiser",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Grenzo, Havoc Raiser"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gríma, Saruman's Footman",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Gríma, Saruman's Footman"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:theft",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#plan/value"
+      ],
+      "card": "Hostage Taker",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Hostage Taker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/nathan-heist",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#identity_core/Karlach, Fury of Avernus",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:trigger-scaling"
+      ],
+      "card": "Karlach, Fury of Avernus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Karlach, Fury of Avernus",
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#package:trigger-scaling"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/theft-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/exile-and-unowned-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#plan/value"
+      ],
+      "card": "Nalfeshnee",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Nalfeshnee"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/theft-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/exile-and-unowned-payoffs"
+      ],
+      "card": "Passionate Archaeologist",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Passionate Archaeologist"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Plargg and Nassari",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Plargg and Nassari"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#tutor_targets/Roaming Throne"
+      ],
+      "card": "Praetor's Grasp",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Praetor's Grasp"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#win_conditions/advantage-combat"
+      ],
+      "card": "Ragavan, Nimble Pilferer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Ragavan, Nimble Pilferer"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/nathan-heist",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#identity_core/Roaming Throne",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/roaming-throne-rogue"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Roaming Throne",
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#package:trigger-scaling"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:haste-protection",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#requirements/value"
+      ],
+      "card": "Swan Song",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Swan Song"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#engines/theft-payoffs",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:theft",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#plan/value"
+      ],
+      "card": "Thief of Sanity",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Thief of Sanity"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#key_interactions/dauthi-tinybones",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#packages/pkg:theft",
+       "blueprint:data/grixis/blueprints/nathan-drake-treasure-hunter.json#win_conditions/stolen-wincons"
+      ],
+      "card": "Tinybones, the Pickpocket",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nathan-drake-treasure-hunter.json#metrics/Tinybones, the Pickpocket"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't add theft cards just for popularity (blueprint L51).",
+      "Don't over-invest in damage-only evasion (blueprint L52)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Nathan is a small attacker; blockers and removal shut off the engine.",
+      "evidence_class": "strategic_judgment",
+      "id": "nathan-dies-in-combat",
+      "mitigations": [
+       "First strike",
+       "Protection"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "No deterministic win, so long games against interaction-heavy tables.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-compact-kill",
+      "mitigations": [
+       "Theft of opponents' finishers"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Stolen spells need mana during combat.",
+      "evidence_class": "strategic_judgment",
+      "id": "mana-in-combat",
+      "mitigations": [
+       "Firebending",
+       "Treasures"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Force of Negation, Swan Song, An Offer You Can't Refuse, Chaos Warp, Cyclonic Rift, Blasphemous Act.",
+      "mana": "34 lands, Sol Ring, Lotus Petal, Dark Ritual, Talismans.",
+      "protection": "Boots, Greaves, Fierce Guardianship, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Nathan Drake, Treasure Hunter",
+       "Karlach, Fury of Avernus",
+       "Fire Lord Azula",
+       "Etali, Primal Storm",
+       "Ragavan, Nimble Pilferer"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Roaming Throne",
+       "Firebender Ascension"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "advantage-combat",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Nathan Drake, Treasure Hunter"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Gonti, Night Minister",
+       "Thief of Sanity",
+       "Tinybones, the Pickpocket"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "stolen-wincons",
+      "kind": "alternate"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Nathan is the main card-advantage engine and the reason the list values trigger copies and combat-time mana.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander Spellbook finds no combos in the list, and the source says the deck doesn't run a generic Oracle/Breach finish (blueprint L41). It wins by accumulated advantage and combat damage, so it's a low-to-mid Bracket 4 value deck. Nathan is central to the engine but provides no compact kill. The cycle 51 M1 review (nathan-01..08) verifies the engine and flags one anti-synergy (nathan-07).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:board_wipe:c82765665e83",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:artifacts_wiped:f16337700b93",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:commander_removed_twice:98b5c4e3ec30",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:key_engine_exiled:4a3da61744ff",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:mana_screw:50d9ce02c2b8",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:color_screw:5a478531c793",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nathan-drake-treasure-hunter.json#test:nathan-drake-treasure-hunter:stress:graveyard_exiled:df7e07298cf2",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "nathan-drake-treasure-hunter",
+ "source_packet": "data/grixis/bracket_stress_packets/nathan-drake-treasure-hunter.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

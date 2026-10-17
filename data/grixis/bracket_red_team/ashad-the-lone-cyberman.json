@@ -1,0 +1,2447 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:6d87a5e4a87ac6dd866849a1f1d31c15e25b5a6a283b9d89b7b398e1f5696f5b",
+ "deck_id": "Ashad__the_Lone_Cyberman",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 94,
+  "commander_role": "significant",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#requirements/value"
+      ],
+      "card": "Arcane Denial",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Arcane Denial"
+      ],
+      "roles": [
+       "counter",
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/urza-helm-class"
+      ],
+      "card": "Artificer Class",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Artificer Class",
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#combo:66-457-5491",
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#win:urza-helm-class"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:sac-outlets-and-payoffs",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Ashnod's Altar"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Auton Soldier",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Auton Soldier"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Baleful Strix",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Baleful Strix"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#engines/artifact-casualty",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#failure_modes/no-fodder",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#key_interactions/biotransference"
+      ],
+      "card": "Biotransference",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Biotransference"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Brudiclad, Telchor Engineer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Brudiclad, Telchor Engineer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cursed Mirror",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Cursed Mirror"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#thematic_constraints/value"
+      ],
+      "card": "Cyber Conversion",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Cyber Conversion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Delete",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Delete"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:sac-outlets-and-payoffs",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Disciple of the Vault",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Disciple of the Vault"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:artifact-recursion",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#recursion/value"
+      ],
+      "card": "Esoteric Duplicator",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Esoteric Duplicator"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Etherium Sculptor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Etherium Sculptor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:copy-targets"
+      ],
+      "card": "Ichor Wellspring",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Ichor Wellspring"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ingenious Artillerist",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Ingenious Artillerist"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#key_interactions/iron-man-legendary"
+      ],
+      "card": "Iron Man, Bleeding Edge",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Iron Man, Bleeding Edge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jhoira, Weatherlight Captain",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Jhoira, Weatherlight Captain"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:sac-outlets-and-payoffs",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Krark-Clan Ironworks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Krark-Clan Ironworks"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:sac-outlets-and-payoffs",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Marionette Master",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Marionette Master"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:sac-outlets-and-payoffs",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Mayhem Devil",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Mayhem Devil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#requirements/value"
+      ],
+      "card": "Mox Opal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Mox Opal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystic Forge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Mystic Forge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:copy-targets",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/copied-bombs"
+      ],
+      "card": "Noxious Gearhulk",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Noxious Gearhulk"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Padeem, Consul of Innovation",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Padeem, Consul of Innovation"
+      ],
+      "roles": [
+       "draw",
+       "protection"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:sac-outlets-and-payoffs"
+      ],
+      "card": "Pitiless Plunderer",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Pitiless Plunderer"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#engines/artifact-casualty",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#failure_modes/no-fodder",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#identity_core/Poetic Ingenuity"
+      ],
+      "card": "Poetic Ingenuity",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Poetic Ingenuity"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:copy-targets",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/copied-bombs"
+      ],
+      "card": "Portal to Phyrexia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Portal to Phyrexia"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Rakdos Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't reduce the deck to generic artifact combo without copy targets.",
+      "Don't add legendary artifacts that Ashad can't copy without a reason."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Vandalblast/Bane of Progress resets the board and the copy targets.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-wipe",
+      "mitigations": [
+       "Recursion package",
+       "Padeem",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No power-2+ creature to sacrifice: no copy.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-fodder",
+      "mitigations": [
+       "Poetic Ingenuity Dinosaurs",
+       "Biotransference Necrons"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Legendary artifacts don't get casualty.",
+      "evidence_class": "strategic_judgment",
+      "id": "legendary-clog",
+      "mitigations": [
+       "Iron Man copies legendary artifacts as nonlegendary"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Artifact hate is the main threat; keep counters (Mana Drain, Arcane Denial) and flexible removal.",
+      "mana": "Artifact mana (Mox Opal, Urza's Saga, KCI) and 30+ lands.",
+      "protection": "Greaves, Fierce Guardianship, Deflecting Swat, Padeem for artifacts."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Urza, Lord High Artificer",
+       "Worldwalker Helm",
+       "Artificer Class"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "urza-helm-class",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Disciple of the Vault",
+       "Mayhem Devil",
+       "Reckless Fireweaver",
+       "Krark-Clan Ironworks",
+       "Ashnod's Altar"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Marionette Master"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "sacrifice-drain",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Wurmcoil Engine",
+       "Portal to Phyrexia",
+       "Noxious Gearhulk"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Ashad, the Lone Cyberman"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "copied-bombs",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Ashad copies one artifact spell per turn into a token and turns every sacrifice into a counter on himself.",
+      "confidence": "moderate",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Once per turn and only nonlegendary artifact spells; the deck's artifact-sacrifice core (KCI, altars, Urza) would run under any Grixis artifact commander. Ashad is a strong value engine, not the deck's sole win source.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:board_wipe:6b5ae87df5d9",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:artifacts_wiped:4f736e8cb4f4",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:commander_removed_twice:b42f1e121987",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:key_engine_exiled:2b9d3d60dfd1",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:mana_screw:f4fd3caf33fb",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:color_screw:7e2ca35f6678",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:graveyard_exiled:d67c4b3905a8",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/urza-helm-class"
+      ],
+      "card": "Artificer Class",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Artificer Class",
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#combo:66-457-5491",
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#win:urza-helm-class"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:sac-outlets-and-payoffs",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Ashnod's Altar"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Auton Soldier",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Auton Soldier"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#engines/artifact-casualty",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#failure_modes/no-fodder",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#key_interactions/biotransference"
+      ],
+      "card": "Biotransference",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Biotransference"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Brudiclad, Telchor Engineer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Brudiclad, Telchor Engineer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#thematic_constraints/value"
+      ],
+      "card": "Cyber Conversion",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Cyber Conversion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyclonic Rift",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Delete",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Delete"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:sac-outlets-and-payoffs",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Disciple of the Vault",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Disciple of the Vault"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Etherium Sculptor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Etherium Sculptor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ingenious Artillerist",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Ingenious Artillerist"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#key_interactions/iron-man-legendary"
+      ],
+      "card": "Iron Man, Bleeding Edge",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Iron Man, Bleeding Edge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:sac-outlets-and-payoffs",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Krark-Clan Ironworks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Krark-Clan Ironworks"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:sac-outlets-and-payoffs",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Marionette Master",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Marionette Master"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:sac-outlets-and-payoffs",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Mayhem Devil",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Mayhem Devil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystic Forge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Mystic Forge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:copy-targets",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/copied-bombs"
+      ],
+      "card": "Noxious Gearhulk",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Noxious Gearhulk"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#engines/artifact-casualty",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#failure_modes/no-fodder",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#identity_core/Poetic Ingenuity"
+      ],
+      "card": "Poetic Ingenuity",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Poetic Ingenuity"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:copy-targets",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/copied-bombs"
+      ],
+      "card": "Portal to Phyrexia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Portal to Phyrexia"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Reckless Fireweaver",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Reckless Fireweaver"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#engines/flash-artifacts",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#identity_core/Shimmer Myr"
+      ],
+      "card": "Shimmer Myr",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Shimmer Myr"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#identity_core/Solemn Simulacrum",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:copy-targets",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:power-2-fodder"
+      ],
+      "card": "Solemn Simulacrum",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Solemn Simulacrum"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Tezzeret, Master of the Bridge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Tezzeret, Master of the Bridge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Cyber-Controller",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/The Cyber-Controller"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Their Name Is Death",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Their Name Is Death"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#engines/artifact-casualty",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#identity_core/Twinning Staff",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#key_interactions/staff-applies"
+      ],
+      "card": "Twinning Staff",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Twinning Staff"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#engines/flash-artifacts"
+      ],
+      "card": "Unwinding Clock",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Unwinding Clock"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#tutor_targets/Urza, Lord High Artificer",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/urza-helm-class"
+      ],
+      "card": "Urza, Lord High Artificer",
+      "decision_support": false,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Urza, Lord High Artificer",
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#combo:66-457-5491",
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#win:urza-helm-class"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#key_interactions/not-created",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:copy-targets",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#plan/value"
+      ],
+      "card": "Worldwalker Helm",
+      "decision_support": false,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Worldwalker Helm",
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#combo:66-457-5491",
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#win:urza-helm-class"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't reduce the deck to generic artifact combo without copy targets.",
+      "Don't add legendary artifacts that Ashad can't copy without a reason."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Vandalblast/Bane of Progress resets the board and the copy targets.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-wipe",
+      "mitigations": [
+       "Recursion package",
+       "Padeem",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No power-2+ creature to sacrifice: no copy.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-fodder",
+      "mitigations": [
+       "Poetic Ingenuity Dinosaurs",
+       "Biotransference Necrons"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Legendary artifacts don't get casualty.",
+      "evidence_class": "strategic_judgment",
+      "id": "legendary-clog",
+      "mitigations": [
+       "Iron Man copies legendary artifacts as nonlegendary"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Artifact hate is the main threat; keep counters (Mana Drain, Arcane Denial) and flexible removal.",
+      "mana": "Artifact mana (Mox Opal, Urza's Saga, KCI) and 30+ lands.",
+      "protection": "Greaves, Fierce Guardianship, Deflecting Swat, Padeem for artifacts."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Urza, Lord High Artificer",
+       "Worldwalker Helm",
+       "Artificer Class"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "urza-helm-class",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Disciple of the Vault",
+       "Mayhem Devil",
+       "Reckless Fireweaver",
+       "Krark-Clan Ironworks",
+       "Ashnod's Altar"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Marionette Master"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "sacrifice-drain",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Wurmcoil Engine",
+       "Portal to Phyrexia",
+       "Noxious Gearhulk"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Ashad, the Lone Cyberman"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "copied-bombs",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Ashad copies one artifact spell per turn into a token and turns every sacrifice into a counter on himself.",
+      "confidence": "moderate",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Once per turn and only nonlegendary artifact spells; the deck's artifact-sacrifice core (KCI, altars, Urza) would run under any Grixis artifact commander. Ashad is a strong value engine, not the deck's sole win source.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:board_wipe:6b5ae87df5d9",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:artifacts_wiped:4f736e8cb4f4",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:commander_removed_twice:b42f1e121987",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:key_engine_exiled:2b9d3d60dfd1",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:mana_screw:f4fd3caf33fb",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:color_screw:7e2ca35f6678",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:graveyard_exiled:d67c4b3905a8",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/urza-helm-class"
+      ],
+      "card": "Artificer Class",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Artificer Class",
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#combo:66-457-5491",
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#win:urza-helm-class"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:sac-outlets-and-payoffs",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Ashnod's Altar"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Auton Soldier",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Auton Soldier"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#engines/artifact-casualty",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#failure_modes/no-fodder",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#key_interactions/biotransference"
+      ],
+      "card": "Biotransference",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Biotransference"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Brudiclad, Telchor Engineer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Brudiclad, Telchor Engineer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#thematic_constraints/value"
+      ],
+      "card": "Cyber Conversion",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Cyber Conversion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyclonic Rift",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Delete",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Delete"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:sac-outlets-and-payoffs",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Disciple of the Vault",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Disciple of the Vault"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Etherium Sculptor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Etherium Sculptor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ingenious Artillerist",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Ingenious Artillerist"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#key_interactions/iron-man-legendary"
+      ],
+      "card": "Iron Man, Bleeding Edge",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Iron Man, Bleeding Edge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:sac-outlets-and-payoffs",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Krark-Clan Ironworks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Krark-Clan Ironworks"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:sac-outlets-and-payoffs",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Marionette Master",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Marionette Master"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:sac-outlets-and-payoffs",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Mayhem Devil",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Mayhem Devil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystic Forge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Mystic Forge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:copy-targets",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/copied-bombs"
+      ],
+      "card": "Noxious Gearhulk",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Noxious Gearhulk"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#engines/artifact-casualty",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#failure_modes/no-fodder",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#identity_core/Poetic Ingenuity"
+      ],
+      "card": "Poetic Ingenuity",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Poetic Ingenuity"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:copy-targets",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/copied-bombs"
+      ],
+      "card": "Portal to Phyrexia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Portal to Phyrexia"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Reckless Fireweaver",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Reckless Fireweaver"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#engines/flash-artifacts",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#identity_core/Shimmer Myr"
+      ],
+      "card": "Shimmer Myr",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Shimmer Myr"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#identity_core/Solemn Simulacrum",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:copy-targets",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:power-2-fodder"
+      ],
+      "card": "Solemn Simulacrum",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Solemn Simulacrum"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Tezzeret, Master of the Bridge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Tezzeret, Master of the Bridge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Cyber-Controller",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/The Cyber-Controller"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Their Name Is Death",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Their Name Is Death"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#engines/artifact-casualty",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#identity_core/Twinning Staff",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#key_interactions/staff-applies"
+      ],
+      "card": "Twinning Staff",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Twinning Staff"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#engines/flash-artifacts"
+      ],
+      "card": "Unwinding Clock",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Unwinding Clock"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#tutor_targets/Urza, Lord High Artificer",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/urza-helm-class"
+      ],
+      "card": "Urza, Lord High Artificer",
+      "decision_support": false,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Urza, Lord High Artificer",
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#combo:66-457-5491",
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#win:urza-helm-class"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#key_interactions/not-created",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:copy-targets",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#plan/value"
+      ],
+      "card": "Worldwalker Helm",
+      "decision_support": false,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Worldwalker Helm",
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#combo:66-457-5491",
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#win:urza-helm-class"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't reduce the deck to generic artifact combo without copy targets.",
+      "Don't add legendary artifacts that Ashad can't copy without a reason."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Vandalblast/Bane of Progress resets the board and the copy targets.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-wipe",
+      "mitigations": [
+       "Recursion package",
+       "Padeem",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No power-2+ creature to sacrifice: no copy.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-fodder",
+      "mitigations": [
+       "Poetic Ingenuity Dinosaurs",
+       "Biotransference Necrons"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Legendary artifacts don't get casualty.",
+      "evidence_class": "strategic_judgment",
+      "id": "legendary-clog",
+      "mitigations": [
+       "Iron Man copies legendary artifacts as nonlegendary"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Artifact hate is the main threat; keep counters (Mana Drain, Arcane Denial) and flexible removal.",
+      "mana": "Artifact mana (Mox Opal, Urza's Saga, KCI) and 30+ lands.",
+      "protection": "Greaves, Fierce Guardianship, Deflecting Swat, Padeem for artifacts."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Urza, Lord High Artificer",
+       "Worldwalker Helm",
+       "Artificer Class"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "urza-helm-class",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Disciple of the Vault",
+       "Mayhem Devil",
+       "Reckless Fireweaver",
+       "Krark-Clan Ironworks",
+       "Ashnod's Altar"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Marionette Master"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "sacrifice-drain",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Wurmcoil Engine",
+       "Portal to Phyrexia",
+       "Noxious Gearhulk"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Ashad, the Lone Cyberman"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "copied-bombs",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Ashad copies one artifact spell per turn into a token and turns every sacrifice into a counter on himself.",
+      "confidence": "moderate",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Once per turn and only nonlegendary artifact spells; the deck's artifact-sacrifice core (KCI, altars, Urza) would run under any Grixis artifact commander. Ashad is a strong value engine, not the deck's sole win source.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:board_wipe:6b5ae87df5d9",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:artifacts_wiped:4f736e8cb4f4",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:commander_removed_twice:b42f1e121987",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:key_engine_exiled:2b9d3d60dfd1",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:mana_screw:f4fd3caf33fb",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:color_screw:7e2ca35f6678",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:graveyard_exiled:d67c4b3905a8",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#requirements/value"
+      ],
+      "card": "Arcane Denial",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Arcane Denial"
+      ],
+      "roles": [
+       "counter",
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/urza-helm-class"
+      ],
+      "card": "Artificer Class",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Artificer Class",
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#combo:66-457-5491",
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#win:urza-helm-class"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:sac-outlets-and-payoffs",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Ashnod's Altar"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Auton Soldier",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Auton Soldier"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#engines/artifact-casualty",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#failure_modes/no-fodder",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#key_interactions/biotransference"
+      ],
+      "card": "Biotransference",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Biotransference"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Brudiclad, Telchor Engineer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Brudiclad, Telchor Engineer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#thematic_constraints/value"
+      ],
+      "card": "Cyber Conversion",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Cyber Conversion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyclonic Rift",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Delete",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Delete"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:sac-outlets-and-payoffs",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Disciple of the Vault",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Disciple of the Vault"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Etherium Sculptor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Etherium Sculptor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ingenious Artillerist",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Ingenious Artillerist"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#key_interactions/iron-man-legendary"
+      ],
+      "card": "Iron Man, Bleeding Edge",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Iron Man, Bleeding Edge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:sac-outlets-and-payoffs",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Krark-Clan Ironworks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Krark-Clan Ironworks"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:sac-outlets-and-payoffs",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Marionette Master",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Marionette Master"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:sac-outlets-and-payoffs",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Mayhem Devil",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Mayhem Devil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystic Forge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Mystic Forge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:copy-targets",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/copied-bombs"
+      ],
+      "card": "Noxious Gearhulk",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Noxious Gearhulk"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#engines/artifact-casualty",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#failure_modes/no-fodder",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#identity_core/Poetic Ingenuity"
+      ],
+      "card": "Poetic Ingenuity",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Poetic Ingenuity"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:copy-targets",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/copied-bombs"
+      ],
+      "card": "Portal to Phyrexia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Portal to Phyrexia"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#win_conditions/sacrifice-drain"
+      ],
+      "card": "Reckless Fireweaver",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Reckless Fireweaver"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#engines/flash-artifacts",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#identity_core/Shimmer Myr"
+      ],
+      "card": "Shimmer Myr",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Shimmer Myr"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#identity_core/Solemn Simulacrum",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:copy-targets",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#packages/pkg:power-2-fodder"
+      ],
+      "card": "Solemn Simulacrum",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Solemn Simulacrum"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Tezzeret, Master of the Bridge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Tezzeret, Master of the Bridge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Cyber-Controller",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/The Cyber-Controller"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Their Name Is Death",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Their Name Is Death"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#engines/artifact-casualty",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#identity_core/Twinning Staff",
+       "blueprint:data/grixis/blueprints/ashad-the-lone-cyberman.json#key_interactions/staff-applies"
+      ],
+      "card": "Twinning Staff",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashad-the-lone-cyberman.json#metrics/Twinning Staff"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't reduce the deck to generic artifact combo without copy targets.",
+      "Don't add legendary artifacts that Ashad can't copy without a reason."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Vandalblast/Bane of Progress resets the board and the copy targets.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-wipe",
+      "mitigations": [
+       "Recursion package",
+       "Padeem",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No power-2+ creature to sacrifice: no copy.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-fodder",
+      "mitigations": [
+       "Poetic Ingenuity Dinosaurs",
+       "Biotransference Necrons"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Legendary artifacts don't get casualty.",
+      "evidence_class": "strategic_judgment",
+      "id": "legendary-clog",
+      "mitigations": [
+       "Iron Man copies legendary artifacts as nonlegendary"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Artifact hate is the main threat; keep counters (Mana Drain, Arcane Denial) and flexible removal.",
+      "mana": "Artifact mana (Mox Opal, Urza's Saga, KCI) and 30+ lands.",
+      "protection": "Greaves, Fierce Guardianship, Deflecting Swat, Padeem for artifacts."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Urza, Lord High Artificer",
+       "Worldwalker Helm",
+       "Artificer Class"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "urza-helm-class",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Disciple of the Vault",
+       "Mayhem Devil",
+       "Reckless Fireweaver",
+       "Krark-Clan Ironworks",
+       "Ashnod's Altar"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Marionette Master"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "sacrifice-drain",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Wurmcoil Engine",
+       "Portal to Phyrexia",
+       "Noxious Gearhulk"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Ashad, the Lone Cyberman"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "copied-bombs",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Ashad copies one artifact spell per turn into a token and turns every sacrifice into a counter on himself.",
+      "confidence": "moderate",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Once per turn and only nonlegendary artifact spells; the deck's artifact-sacrifice core (KCI, altars, Urza) would run under any Grixis artifact commander. Ashad is a strong value engine, not the deck's sole win source.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:board_wipe:6b5ae87df5d9",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:artifacts_wiped:4f736e8cb4f4",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:commander_removed_twice:b42f1e121987",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:key_engine_exiled:2b9d3d60dfd1",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:mana_screw:f4fd3caf33fb",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:color_screw:7e2ca35f6678",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/ashad-the-lone-cyberman.json#test:ashad-the-lone-cyberman:stress:graveyard_exiled:d67c4b3905a8",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "ashad-the-lone-cyberman",
+ "source_packet": "data/grixis/bracket_stress_packets/ashad-the-lone-cyberman.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

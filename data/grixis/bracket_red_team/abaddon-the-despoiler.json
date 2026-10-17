@@ -1,0 +1,2590 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+ "deck_id": "Abaddon_the_Despoiler",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 93,
+  "commander_role": "central",
+  "failure_modes": 4
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:cascade-spells"
+      ],
+      "card": "Ancestral Vision",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Ancestral Vision"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/solphim-bloodletter",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn"
+      ],
+      "card": "Bloodletter of Aclazotz",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Bloodletter of Aclazotz"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:threshold-enablers",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/cascade-value-turn"
+      ],
+      "card": "Boltwave",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Boltwave"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:breach-combo",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#plan/value",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/breach-brain-freeze"
+      ],
+      "card": "Brain Freeze",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Brain Freeze",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Brainstorm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Brainstorm"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cabal Ritual",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Cabal Ritual"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/zero-mv-randomizes",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#requirements/value"
+      ],
+      "card": "Chrome Mox",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Chrome Mox"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#requirements/value"
+      ],
+      "card": "Dark Ritual",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Dark Ritual"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn"
+      ],
+      "card": "Delayed Blast Fireball",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Delayed Blast Fireball"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/life-loss-threshold",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:threshold-enablers",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn"
+      ],
+      "card": "Exalted Flamer of Tzeentch",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Exalted Flamer of Tzeentch"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:threshold-enablers",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/cascade-value-turn"
+      ],
+      "card": "Flame Rift",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Flame Rift"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:breach-combo",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/breach-wheel"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-1878-2706"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/exile-cast-payoffs",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:exile-payoffs"
+      ],
+      "card": "Keeper of Secrets",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Keeper of Secrets"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/life-loss-threshold",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:threshold-enablers",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn"
+      ],
+      "card": "Kessig Flamebreather",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Kessig Flamebreather"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/zero-mv-randomizes",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:breach-combo",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#plan/value"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/zero-mv-randomizes",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:breach-combo",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#plan/value"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Lotus Petal",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-1414-4856"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#requirements/value"
+      ],
+      "card": "Mana Vault",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Mana Vault"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#recursion/value"
+      ],
+      "card": "Mind's Desire",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Mind's Desire"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystic Remora",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Mystic Remora"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/exile-cast-payoffs",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#identity_core/Nalfeshnee"
+      ],
+      "card": "Nalfeshnee",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Nalfeshnee"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/life-loss-threshold"
+      ],
+      "card": "Neheb, the Eternal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Neheb, the Eternal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ponder",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Ponder"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/exile-cast-payoffs",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#identity_core/Prosper, Tome-Bound",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:exile-payoffs"
+      ],
+      "card": "Prosper, Tome-Bound",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Prosper, Tome-Bound"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rhystic Study",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Rhystic Study"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rite of Flame",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Rite of Flame"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sol Ring",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Sol Ring"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#identity_core/Solphim, Mayhem Dominus",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/solphim-bloodletter",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#tutor_targets/Solphim, Mayhem Dominus"
+      ],
+      "card": "Solphim, Mayhem Dominus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Solphim, Mayhem Dominus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Storm-Kiln Artist",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Storm-Kiln Artist"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't turn the list into a generic Grixis turbo-Breach shell that ignores the cascade engine.",
+      "Don't add expensive cascade hits that brick (Blood for the Blood God! deferred by the source).",
+      "Don't label it cEDH just because it contains a cEDH-capable combo."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Abaddon is not on the battlefield, so nothing cascades.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-commander",
+      "mitigations": [
+       "Breach combo is commander-independent",
+       "Free counters protect him"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Too little life loss this turn leaves high-MV spells without cascade.",
+      "evidence_class": "strategic_judgment",
+      "id": "low-threshold",
+      "mitigations": [
+       "Cheap pingers and drains before the main spell",
+       "Neheb converts life loss into mana"
+      ]
+     },
+     {
+      "confidence": "verified",
+      "description": "A 0-MV cascade randomizes the library and can bottom a tutored card.",
+      "evidence_class": "fact",
+      "id": "self-randomize",
+      "mitigations": [
+       "Sequence top-of-library tutors after 0-MV casts"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Too many expensive cascade payoffs make hands slow and random.",
+      "evidence_class": "strategic_judgment",
+      "id": "clunky-top-end",
+      "mitigations": [
+       "Keep the payoff count near the current 7"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Heavy free/cheap stack interaction (8 counters/pitch spells) to force through the engine or the Breach turn; light board removal.",
+      "mana": "Fast mana and rituals (Mana Vault, Chrome Mox, Dark Ritual, Lotus Petal, Ancient Tomb) to cast a five-drop early and still hold up spells; 30+ lands-equivalent with rocks.",
+      "protection": "Abaddon has no built-in protection; the free counters double as protection; recasting at 7+ mana is slow."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Abaddon the Despoiler",
+       "Prosper, Tome-Bound",
+       "Nalfeshnee",
+       "The Lost and the Damned",
+       "Keeper of Secrets"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Boltwave",
+       "Flame Rift",
+       "Thermo-Alchemist"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "cascade-value-turn",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Solphim, Mayhem Dominus",
+       "Bloodletter of Aclazotz",
+       "Boltwave",
+       "Flame Rift",
+       "Delayed Blast Fireball"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Kessig Flamebreather",
+       "Exalted Flamer of Tzeentch"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "amplified-burn",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Lotus Petal",
+       "Brain Freeze"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Wheel of Fortune",
+       "Windfall"
+      ],
+      "evidence_class": "fact",
+      "id": "breach-brain-freeze",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Wheel of Fortune",
+       "Lion's Eye Diamond",
+       "Jeska's Will"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach-wheel",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Abaddon is the cascade engine: without him, hand-cast spells get no cascade and the exile-cast payoffs (Prosper, Nalfeshnee, Keeper of Secrets, Passionate Archaeologist) mostly go quiet. The Breach line works without him.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The threshold resets every turn and only counts life opponents actually lost this turn, so the engine is turn-local and five mana; the Breach combo is the faster kill and is commander-independent.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 4,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 0,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 4
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:board_wipe:0442b188af9c",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:artifacts_wiped:0579a5b7847f",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:commander_removed_twice:dab2b84487ed",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:key_engine_exiled:47512b8f502d",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:mana_screw:47412fe9fbde",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:color_screw:fd3d6c74dac1",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:graveyard_exiled:1cb8bd428e78",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/double-cascade",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:cascade-spells"
+      ],
+      "card": "Bituminous Blast",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Bituminous Blast"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Blasphemous Act",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/solphim-bloodletter",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn"
+      ],
+      "card": "Bloodletter of Aclazotz",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Bloodletter of Aclazotz"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:threshold-enablers",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/cascade-value-turn"
+      ],
+      "card": "Boltwave",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Boltwave"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:breach-combo",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#plan/value",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/breach-brain-freeze"
+      ],
+      "card": "Brain Freeze",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Brain Freeze",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/double-cascade",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:cascade-spells"
+      ],
+      "card": "Call Forth the Tempest",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Call Forth the Tempest"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn"
+      ],
+      "card": "Delayed Blast Fireball",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Delayed Blast Fireball"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/life-loss-threshold",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:threshold-enablers",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn"
+      ],
+      "card": "Exalted Flamer of Tzeentch",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Exalted Flamer of Tzeentch"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:threshold-enablers",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/cascade-value-turn"
+      ],
+      "card": "Flame Rift",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Flame Rift"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:breach-combo",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/breach-wheel"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-1878-2706"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/exile-cast-payoffs",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:exile-payoffs"
+      ],
+      "card": "Keeper of Secrets",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Keeper of Secrets"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/life-loss-threshold",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:threshold-enablers",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn"
+      ],
+      "card": "Kessig Flamebreather",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Kessig Flamebreather"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/zero-mv-randomizes",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:breach-combo",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#plan/value"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/zero-mv-randomizes",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:breach-combo",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#plan/value"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Lotus Petal",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-1414-4856"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#recursion/value"
+      ],
+      "card": "Mind's Desire",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Mind's Desire"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/exile-cast-payoffs",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#identity_core/Nalfeshnee"
+      ],
+      "card": "Nalfeshnee",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Nalfeshnee"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/exile-cast-payoffs",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#identity_core/Prosper, Tome-Bound",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:exile-payoffs"
+      ],
+      "card": "Prosper, Tome-Bound",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Prosper, Tome-Bound"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:free-interaction"
+      ],
+      "card": "Pyroblast",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Pyroblast"
+      ],
+      "roles": [
+       "counter",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#identity_core/Solphim, Mayhem Dominus",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/solphim-bloodletter",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#tutor_targets/Solphim, Mayhem Dominus"
+      ],
+      "card": "Solphim, Mayhem Dominus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Solphim, Mayhem Dominus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/exile-cast-payoffs",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:exile-payoffs",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/cascade-value-turn"
+      ],
+      "card": "The Lost and the Damned",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/The Lost and the Damned"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/life-loss-threshold",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#identity_core/Thermo-Alchemist",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:threshold-enablers"
+      ],
+      "card": "Thermo-Alchemist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Thermo-Alchemist"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/hand-only",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:breach-combo",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#plan/value"
+      ],
+      "card": "Underworld Breach",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Underworld Breach",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-1878-2706"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Vivi Ornitier",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Vivi Ornitier"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:breach-combo",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#plan/value",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/breach-brain-freeze"
+      ],
+      "card": "Wheel of Fortune",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Wheel of Fortune",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-2706-3518"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/breach-brain-freeze"
+      ],
+      "card": "Windfall",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Windfall"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't turn the list into a generic Grixis turbo-Breach shell that ignores the cascade engine.",
+      "Don't add expensive cascade hits that brick (Blood for the Blood God! deferred by the source).",
+      "Don't label it cEDH just because it contains a cEDH-capable combo."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Abaddon is not on the battlefield, so nothing cascades.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-commander",
+      "mitigations": [
+       "Breach combo is commander-independent",
+       "Free counters protect him"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Too little life loss this turn leaves high-MV spells without cascade.",
+      "evidence_class": "strategic_judgment",
+      "id": "low-threshold",
+      "mitigations": [
+       "Cheap pingers and drains before the main spell",
+       "Neheb converts life loss into mana"
+      ]
+     },
+     {
+      "confidence": "verified",
+      "description": "A 0-MV cascade randomizes the library and can bottom a tutored card.",
+      "evidence_class": "fact",
+      "id": "self-randomize",
+      "mitigations": [
+       "Sequence top-of-library tutors after 0-MV casts"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Too many expensive cascade payoffs make hands slow and random.",
+      "evidence_class": "strategic_judgment",
+      "id": "clunky-top-end",
+      "mitigations": [
+       "Keep the payoff count near the current 7"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Heavy free/cheap stack interaction (8 counters/pitch spells) to force through the engine or the Breach turn; light board removal.",
+      "mana": "Fast mana and rituals (Mana Vault, Chrome Mox, Dark Ritual, Lotus Petal, Ancient Tomb) to cast a five-drop early and still hold up spells; 30+ lands-equivalent with rocks.",
+      "protection": "Abaddon has no built-in protection; the free counters double as protection; recasting at 7+ mana is slow."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Abaddon the Despoiler",
+       "Prosper, Tome-Bound",
+       "Nalfeshnee",
+       "The Lost and the Damned",
+       "Keeper of Secrets"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Boltwave",
+       "Flame Rift",
+       "Thermo-Alchemist"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "cascade-value-turn",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Solphim, Mayhem Dominus",
+       "Bloodletter of Aclazotz",
+       "Boltwave",
+       "Flame Rift",
+       "Delayed Blast Fireball"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Kessig Flamebreather",
+       "Exalted Flamer of Tzeentch"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "amplified-burn",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Lotus Petal",
+       "Brain Freeze"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Wheel of Fortune",
+       "Windfall"
+      ],
+      "evidence_class": "fact",
+      "id": "breach-brain-freeze",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Wheel of Fortune",
+       "Lion's Eye Diamond",
+       "Jeska's Will"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach-wheel",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Abaddon is the cascade engine: without him, hand-cast spells get no cascade and the exile-cast payoffs (Prosper, Nalfeshnee, Keeper of Secrets, Passionate Archaeologist) mostly go quiet. The Breach line works without him.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The threshold resets every turn and only counts life opponents actually lost this turn, so the engine is turn-local and five mana; the Breach combo is the faster kill and is commander-independent.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 4,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 0,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 4
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:board_wipe:0442b188af9c",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:artifacts_wiped:0579a5b7847f",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:commander_removed_twice:dab2b84487ed",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:key_engine_exiled:47512b8f502d",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:mana_screw:47412fe9fbde",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:color_screw:fd3d6c74dac1",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:graveyard_exiled:1cb8bd428e78",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/double-cascade",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:cascade-spells"
+      ],
+      "card": "Bituminous Blast",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Bituminous Blast"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Blasphemous Act",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/solphim-bloodletter",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn"
+      ],
+      "card": "Bloodletter of Aclazotz",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Bloodletter of Aclazotz"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:threshold-enablers",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/cascade-value-turn"
+      ],
+      "card": "Boltwave",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Boltwave"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:breach-combo",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#plan/value",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/breach-brain-freeze"
+      ],
+      "card": "Brain Freeze",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Brain Freeze",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/double-cascade",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:cascade-spells"
+      ],
+      "card": "Call Forth the Tempest",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Call Forth the Tempest"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn"
+      ],
+      "card": "Delayed Blast Fireball",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Delayed Blast Fireball"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/life-loss-threshold",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:threshold-enablers",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn"
+      ],
+      "card": "Exalted Flamer of Tzeentch",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Exalted Flamer of Tzeentch"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:threshold-enablers",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/cascade-value-turn"
+      ],
+      "card": "Flame Rift",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Flame Rift"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:breach-combo",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/breach-wheel"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-1878-2706"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/exile-cast-payoffs",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:exile-payoffs"
+      ],
+      "card": "Keeper of Secrets",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Keeper of Secrets"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/life-loss-threshold",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:threshold-enablers",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn"
+      ],
+      "card": "Kessig Flamebreather",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Kessig Flamebreather"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/zero-mv-randomizes",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:breach-combo",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#plan/value"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/zero-mv-randomizes",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:breach-combo",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#plan/value"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Lotus Petal",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-1414-4856"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#recursion/value"
+      ],
+      "card": "Mind's Desire",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Mind's Desire"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/exile-cast-payoffs",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#identity_core/Nalfeshnee"
+      ],
+      "card": "Nalfeshnee",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Nalfeshnee"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/exile-cast-payoffs",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#identity_core/Prosper, Tome-Bound",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:exile-payoffs"
+      ],
+      "card": "Prosper, Tome-Bound",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Prosper, Tome-Bound"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:free-interaction"
+      ],
+      "card": "Pyroblast",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Pyroblast"
+      ],
+      "roles": [
+       "counter",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#identity_core/Solphim, Mayhem Dominus",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/solphim-bloodletter",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#tutor_targets/Solphim, Mayhem Dominus"
+      ],
+      "card": "Solphim, Mayhem Dominus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Solphim, Mayhem Dominus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/exile-cast-payoffs",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:exile-payoffs",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/cascade-value-turn"
+      ],
+      "card": "The Lost and the Damned",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/The Lost and the Damned"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/life-loss-threshold",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#identity_core/Thermo-Alchemist",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:threshold-enablers"
+      ],
+      "card": "Thermo-Alchemist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Thermo-Alchemist"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/hand-only",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:breach-combo",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#plan/value"
+      ],
+      "card": "Underworld Breach",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Underworld Breach",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-1878-2706"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Vivi Ornitier",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Vivi Ornitier"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:breach-combo",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#plan/value",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/breach-brain-freeze"
+      ],
+      "card": "Wheel of Fortune",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Wheel of Fortune",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-2706-3518"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/breach-brain-freeze"
+      ],
+      "card": "Windfall",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Windfall"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't turn the list into a generic Grixis turbo-Breach shell that ignores the cascade engine.",
+      "Don't add expensive cascade hits that brick (Blood for the Blood God! deferred by the source).",
+      "Don't label it cEDH just because it contains a cEDH-capable combo."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Abaddon is not on the battlefield, so nothing cascades.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-commander",
+      "mitigations": [
+       "Breach combo is commander-independent",
+       "Free counters protect him"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Too little life loss this turn leaves high-MV spells without cascade.",
+      "evidence_class": "strategic_judgment",
+      "id": "low-threshold",
+      "mitigations": [
+       "Cheap pingers and drains before the main spell",
+       "Neheb converts life loss into mana"
+      ]
+     },
+     {
+      "confidence": "verified",
+      "description": "A 0-MV cascade randomizes the library and can bottom a tutored card.",
+      "evidence_class": "fact",
+      "id": "self-randomize",
+      "mitigations": [
+       "Sequence top-of-library tutors after 0-MV casts"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Too many expensive cascade payoffs make hands slow and random.",
+      "evidence_class": "strategic_judgment",
+      "id": "clunky-top-end",
+      "mitigations": [
+       "Keep the payoff count near the current 7"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Heavy free/cheap stack interaction (8 counters/pitch spells) to force through the engine or the Breach turn; light board removal.",
+      "mana": "Fast mana and rituals (Mana Vault, Chrome Mox, Dark Ritual, Lotus Petal, Ancient Tomb) to cast a five-drop early and still hold up spells; 30+ lands-equivalent with rocks.",
+      "protection": "Abaddon has no built-in protection; the free counters double as protection; recasting at 7+ mana is slow."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Abaddon the Despoiler",
+       "Prosper, Tome-Bound",
+       "Nalfeshnee",
+       "The Lost and the Damned",
+       "Keeper of Secrets"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Boltwave",
+       "Flame Rift",
+       "Thermo-Alchemist"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "cascade-value-turn",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Solphim, Mayhem Dominus",
+       "Bloodletter of Aclazotz",
+       "Boltwave",
+       "Flame Rift",
+       "Delayed Blast Fireball"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Kessig Flamebreather",
+       "Exalted Flamer of Tzeentch"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "amplified-burn",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Lotus Petal",
+       "Brain Freeze"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Wheel of Fortune",
+       "Windfall"
+      ],
+      "evidence_class": "fact",
+      "id": "breach-brain-freeze",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Wheel of Fortune",
+       "Lion's Eye Diamond",
+       "Jeska's Will"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach-wheel",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Abaddon is the cascade engine: without him, hand-cast spells get no cascade and the exile-cast payoffs (Prosper, Nalfeshnee, Keeper of Secrets, Passionate Archaeologist) mostly go quiet. The Breach line works without him.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The threshold resets every turn and only counts life opponents actually lost this turn, so the engine is turn-local and five mana; the Breach combo is the faster kill and is commander-independent.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 4,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 0,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 4
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:board_wipe:0442b188af9c",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:artifacts_wiped:0579a5b7847f",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:commander_removed_twice:dab2b84487ed",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:key_engine_exiled:47512b8f502d",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:mana_screw:47412fe9fbde",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:color_screw:fd3d6c74dac1",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:graveyard_exiled:1cb8bd428e78",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/double-cascade",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:cascade-spells"
+      ],
+      "card": "Bituminous Blast",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Bituminous Blast"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Blasphemous Act",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/solphim-bloodletter",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn"
+      ],
+      "card": "Bloodletter of Aclazotz",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Bloodletter of Aclazotz"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:threshold-enablers",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/cascade-value-turn"
+      ],
+      "card": "Boltwave",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Boltwave"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:breach-combo",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#plan/value",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/breach-brain-freeze"
+      ],
+      "card": "Brain Freeze",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Brain Freeze",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/double-cascade",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:cascade-spells"
+      ],
+      "card": "Call Forth the Tempest",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Call Forth the Tempest"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn"
+      ],
+      "card": "Delayed Blast Fireball",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Delayed Blast Fireball"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/life-loss-threshold",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:threshold-enablers",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn"
+      ],
+      "card": "Exalted Flamer of Tzeentch",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Exalted Flamer of Tzeentch"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:free-interaction"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:threshold-enablers",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/cascade-value-turn"
+      ],
+      "card": "Flame Rift",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Flame Rift"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:free-interaction"
+      ],
+      "card": "Flusterstorm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Flusterstorm"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:free-interaction"
+      ],
+      "card": "Force of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Force of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:free-interaction"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:breach-combo",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/breach-wheel"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-1878-2706"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/exile-cast-payoffs",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:exile-payoffs"
+      ],
+      "card": "Keeper of Secrets",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Keeper of Secrets"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/life-loss-threshold",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:threshold-enablers",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/amplified-burn"
+      ],
+      "card": "Kessig Flamebreather",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Kessig Flamebreather"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/zero-mv-randomizes",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:breach-combo",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#plan/value"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/zero-mv-randomizes",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:breach-combo",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#plan/value"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Lotus Petal",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-1414-4856"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#recursion/value"
+      ],
+      "card": "Mind's Desire",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Mind's Desire"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/exile-cast-payoffs",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#identity_core/Nalfeshnee"
+      ],
+      "card": "Nalfeshnee",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Nalfeshnee"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/zero-mv-randomizes",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:free-interaction"
+      ],
+      "card": "Pact of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Pact of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/exile-cast-payoffs",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#identity_core/Prosper, Tome-Bound",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:exile-payoffs"
+      ],
+      "card": "Prosper, Tome-Bound",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Prosper, Tome-Bound"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:free-interaction"
+      ],
+      "card": "Pyroblast",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Pyroblast"
+      ],
+      "roles": [
+       "counter",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#identity_core/Solphim, Mayhem Dominus",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/solphim-bloodletter",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#tutor_targets/Solphim, Mayhem Dominus"
+      ],
+      "card": "Solphim, Mayhem Dominus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Solphim, Mayhem Dominus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:free-interaction"
+      ],
+      "card": "Swan Song",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Swan Song"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/exile-cast-payoffs",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:exile-payoffs",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#win_conditions/cascade-value-turn"
+      ],
+      "card": "The Lost and the Damned",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/The Lost and the Damned"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#engines/life-loss-threshold",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#identity_core/Thermo-Alchemist",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:threshold-enablers"
+      ],
+      "card": "Thermo-Alchemist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Thermo-Alchemist"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#key_interactions/hand-only",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#packages/pkg:breach-combo",
+       "blueprint:data/grixis/blueprints/abaddon-the-despoiler.json#plan/value"
+      ],
+      "card": "Underworld Breach",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Underworld Breach",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#combo:1368-1878-2706"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Vivi Ornitier",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/abaddon-the-despoiler.json#metrics/Vivi Ornitier"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't turn the list into a generic Grixis turbo-Breach shell that ignores the cascade engine.",
+      "Don't add expensive cascade hits that brick (Blood for the Blood God! deferred by the source).",
+      "Don't label it cEDH just because it contains a cEDH-capable combo."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Abaddon is not on the battlefield, so nothing cascades.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-commander",
+      "mitigations": [
+       "Breach combo is commander-independent",
+       "Free counters protect him"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Too little life loss this turn leaves high-MV spells without cascade.",
+      "evidence_class": "strategic_judgment",
+      "id": "low-threshold",
+      "mitigations": [
+       "Cheap pingers and drains before the main spell",
+       "Neheb converts life loss into mana"
+      ]
+     },
+     {
+      "confidence": "verified",
+      "description": "A 0-MV cascade randomizes the library and can bottom a tutored card.",
+      "evidence_class": "fact",
+      "id": "self-randomize",
+      "mitigations": [
+       "Sequence top-of-library tutors after 0-MV casts"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Too many expensive cascade payoffs make hands slow and random.",
+      "evidence_class": "strategic_judgment",
+      "id": "clunky-top-end",
+      "mitigations": [
+       "Keep the payoff count near the current 7"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Heavy free/cheap stack interaction (8 counters/pitch spells) to force through the engine or the Breach turn; light board removal.",
+      "mana": "Fast mana and rituals (Mana Vault, Chrome Mox, Dark Ritual, Lotus Petal, Ancient Tomb) to cast a five-drop early and still hold up spells; 30+ lands-equivalent with rocks.",
+      "protection": "Abaddon has no built-in protection; the free counters double as protection; recasting at 7+ mana is slow."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Abaddon the Despoiler",
+       "Prosper, Tome-Bound",
+       "Nalfeshnee",
+       "The Lost and the Damned",
+       "Keeper of Secrets"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Boltwave",
+       "Flame Rift",
+       "Thermo-Alchemist"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "cascade-value-turn",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Solphim, Mayhem Dominus",
+       "Bloodletter of Aclazotz",
+       "Boltwave",
+       "Flame Rift",
+       "Delayed Blast Fireball"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Kessig Flamebreather",
+       "Exalted Flamer of Tzeentch"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "amplified-burn",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Lotus Petal",
+       "Brain Freeze"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Wheel of Fortune",
+       "Windfall"
+      ],
+      "evidence_class": "fact",
+      "id": "breach-brain-freeze",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Wheel of Fortune",
+       "Lion's Eye Diamond",
+       "Jeska's Will"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach-wheel",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Abaddon is the cascade engine: without him, hand-cast spells get no cascade and the exile-cast payoffs (Prosper, Nalfeshnee, Keeper of Secrets, Passionate Archaeologist) mostly go quiet. The Breach line works without him.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The threshold resets every turn and only counts life opponents actually lost this turn, so the engine is turn-local and five mana; the Breach combo is the faster kill and is commander-independent.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 4,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 0,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 4
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:board_wipe:0442b188af9c",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:artifacts_wiped:0579a5b7847f",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:commander_removed_twice:dab2b84487ed",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:key_engine_exiled:47512b8f502d",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:mana_screw:47412fe9fbde",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:color_screw:fd3d6c74dac1",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/abaddon-the-despoiler.json#test:abaddon-the-despoiler:stress:graveyard_exiled:1cb8bd428e78",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "abaddon-the-despoiler",
+ "source_packet": "data/grixis/bracket_stress_packets/abaddon-the-despoiler.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

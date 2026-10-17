@@ -1,0 +1,2681 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
+ "deck_id": "Ashnod_the_Uncaring",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 94,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#key_interactions/mana-abilities-excluded",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/deathmantle-loop"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2034-2866",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2034-2866-4908"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#failure_modes/citadel-needs-board"
+      ],
+      "card": "Bolas's Citadel",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Bolas's Citadel"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Clan Crafter",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Clan Crafter"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Crime Novelist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Crime Novelist",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2034-2866-5346",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2866-4659-5346"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/leave-play-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/trawler-retriever-loop"
+      ],
+      "card": "Disciple of the Vault",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Disciple of the Vault"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dockside Chef",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Dockside Chef"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/scorpion-foundry"
+      ],
+      "card": "Dross Scorpion",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Dross Scorpion",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2034-2797-4853",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2797-4659-4853"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-cost-artifacts"
+      ],
+      "card": "Dross Skullbomb",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Dross Skullbomb"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/trawler-retriever-loop"
+      ],
+      "card": "Enthusiastic Mechanaut",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Enthusiastic Mechanaut",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2034-2866-4908",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2866-4659-4908"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Esoteric Duplicator",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Esoteric Duplicator"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/trawler-retriever-loop"
+      ],
+      "card": "Etherium Sculptor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Etherium Sculptor",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2034-2866",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2866-4659"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:artifact-recursion",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#recursion/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/deathmantle-loop"
+      ],
+      "card": "Farid, Enterprising Salvager",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Farid, Enterprising Salvager",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:4659-5003-5272"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Forensic Gadgeteer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Forensic Gadgeteer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/trawler-retriever-loop"
+      ],
+      "card": "Foundry Inspector",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Foundry Inspector",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:777-1020-2034-2866",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:777-1020-2866-4659"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jhoira, Weatherlight Captain",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Jhoira, Weatherlight Captain"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#key_interactions/mana-abilities-excluded",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/trawler-retriever-loop"
+      ],
+      "card": "Krark-Clan Ironworks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Krark-Clan Ironworks",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2866-4659",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2866-4659-4908"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#requirements/value"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Lotus Petal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/leave-play-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/deathmantle-loop"
+      ],
+      "card": "Marionette Apprentice",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Marionette Apprentice",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2034-5003-6199"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/leave-play-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value"
+      ],
+      "card": "Mayhem Devil",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Mayhem Devil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mind Stone",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Mind Stone"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/copy-sac-abilities",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-cost-artifacts"
+      ],
+      "card": "Mishra's Bauble",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Mishra's Bauble"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-cost-artifacts"
+      ],
+      "card": "Mnemonic Sphere",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Mnemonic Sphere"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#requirements/value"
+      ],
+      "card": "Mox Opal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Mox Opal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:artifact-recursion",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#recursion/value"
+      ],
+      "card": "Myr Retriever",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Myr Retriever",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2034-2866",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2866-4659"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:artifact-recursion",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#recursion/value"
+      ],
+      "card": "Nim Deathmantle",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Nim Deathmantle",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2034-5003-6199",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:457-2034-5003"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Oni-Cult Anvil",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Oni-Cult Anvil"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/copy-sac-abilities",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-cost-artifacts"
+      ],
+      "card": "Pyrite Spellbomb",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Pyrite Spellbomb"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't drift into generic artifact combo that ignores sacrifice-cost abilities.",
+      "Don't build to the outdated once-per-turn/nontoken reading of Ashnod."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Vandalblast-style wipes or Stony Silence-type locks shut off the engine.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-hate",
+      "mitigations": [
+       "Recursion package",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Five-mana commander; 33 lands is lean.",
+      "evidence_class": "strategic_judgment",
+      "id": "slow-commander",
+      "mitigations": [
+       "Artifact fast mana"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Bolas's Citadel and Time Sieve need a big board to fire.",
+      "evidence_class": "strategic_judgment",
+      "id": "citadel-needs-board",
+      "mitigations": [
+       "Token makers (Sai, Urza's Saga)"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Light: Mana Drain, Fierce Guardianship, Deflecting Swat, a few removal spells; artifact hate must be answered on the stack.",
+      "mana": "Artifact fast mana (Mox Opal, Lotus Petal, Sol Ring, Urza's Saga) and 33 lands (lean; the dossier accepts the risk).",
+      "protection": "Free counters; Ashnod is five mana so recasting hurts."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Scrap Trawler",
+       "Myr Retriever",
+       "Ashnod's Altar",
+       "Krark-Clan Ironworks",
+       "Etherium Sculptor"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Disciple of the Vault",
+       "Mayhem Devil"
+      ],
+      "evidence_class": "fact",
+      "id": "trawler-retriever-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Nim Deathmantle",
+       "Ashnod's Altar",
+       "Marionette Apprentice",
+       "Urza, Lord High Artificer",
+       "Farid, Enterprising Salvager"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "deathmantle-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Dross Scorpion",
+       "Retrofitter Foundry",
+       "Ashnod's Altar"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Mayhem Devil"
+      ],
+      "evidence_class": "fact",
+      "id": "scorpion-foundry",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Time Sieve",
+       "Ashnod the Uncaring"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Sai, Master Thopterist"
+      ],
+      "evidence_class": "fact",
+      "id": "copied-time-sieve",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Ashnod doubles every non-mana ability that sacrificed something to activate: copied Time Sieve is two extra turns, copied Trading Post is two cards or two artifacts back.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The source blueprint describes an older 'once each turn, nontoken' Ashnod; current Oracle has no turn limit and tokens count (M1 ashnod-01). The deck is stronger than the source text implies, and its infinites run without Ashnod.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 15,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 15
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:board_wipe:d0f8a6b2041c",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:artifacts_wiped:6f7fd7102b24",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:commander_removed_twice:eea464b75bed",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:key_engine_exiled:6f0fda0c7b4c",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:mana_screw:89ac1bd8fc92",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:color_screw:81fe34084c08",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:graveyard_exiled:2d09dd3cce4a",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#key_interactions/mana-abilities-excluded",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/deathmantle-loop"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2034-2866",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2034-2866-4908"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#key_interactions/copy-lki",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-cost-artifacts"
+      ],
+      "card": "Blasting Station",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Blasting Station"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#failure_modes/citadel-needs-board"
+      ],
+      "card": "Bolas's Citadel",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Bolas's Citadel"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Crime Novelist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Crime Novelist",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2034-2866-5346",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2866-4659-5346"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyclonic Rift",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/leave-play-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/trawler-retriever-loop"
+      ],
+      "card": "Disciple of the Vault",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Disciple of the Vault"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/scorpion-foundry"
+      ],
+      "card": "Dross Scorpion",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Dross Scorpion",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2034-2797-4853",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2797-4659-4853"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/trawler-retriever-loop"
+      ],
+      "card": "Enthusiastic Mechanaut",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Enthusiastic Mechanaut",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2034-2866-4908",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2866-4659-4908"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/trawler-retriever-loop"
+      ],
+      "card": "Etherium Sculptor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Etherium Sculptor",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2034-2866",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2866-4659"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/copy-sac-abilities",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-cost-artifacts"
+      ],
+      "card": "Executioner's Capsule",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Executioner's Capsule"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:artifact-recursion",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#recursion/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/deathmantle-loop"
+      ],
+      "card": "Farid, Enterprising Salvager",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Farid, Enterprising Salvager",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:4659-5003-5272"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Forensic Gadgeteer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Forensic Gadgeteer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/trawler-retriever-loop"
+      ],
+      "card": "Foundry Inspector",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Foundry Inspector",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:777-1020-2034-2866",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:777-1020-2866-4659"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#key_interactions/mana-abilities-excluded",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/trawler-retriever-loop"
+      ],
+      "card": "Krark-Clan Ironworks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Krark-Clan Ironworks",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2866-4659",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2866-4659-4908"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-outlets"
+      ],
+      "card": "Krark-Clan Shaman",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Krark-Clan Shaman"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/leave-play-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/deathmantle-loop"
+      ],
+      "card": "Marionette Apprentice",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Marionette Apprentice",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2034-5003-6199"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/leave-play-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value"
+      ],
+      "card": "Mayhem Devil",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Mayhem Devil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:artifact-recursion",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#recursion/value"
+      ],
+      "card": "Myr Retriever",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Myr Retriever",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2034-2866",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2866-4659"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:artifact-recursion",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#recursion/value"
+      ],
+      "card": "Nim Deathmantle",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Nim Deathmantle",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2034-5003-6199",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:457-2034-5003"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Oni-Cult Anvil",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Oni-Cult Anvil"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/copy-sac-abilities",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-cost-artifacts"
+      ],
+      "card": "Pyrite Spellbomb",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Pyrite Spellbomb"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/scorpion-foundry"
+      ],
+      "card": "Retrofitter Foundry",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Retrofitter Foundry",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2034-2797-4853",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2797-4659-4853"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/copy-sac-abilities",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#identity_core/Rings of Brighthearth",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#key_interactions/rings-and-ashnod"
+      ],
+      "card": "Rings of Brighthearth",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Rings of Brighthearth"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/copied-time-sieve"
+      ],
+      "card": "Sai, Master Thopterist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Sai, Master Thopterist",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2034-2866-4947",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2866-4659-4947"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#identity_core/Scrap Trawler",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:artifact-recursion",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value"
+      ],
+      "card": "Scrap Trawler",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Scrap Trawler",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2034-2866",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2866-4659"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#failure_modes/citadel-needs-board",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#identity_core/Time Sieve"
+      ],
+      "card": "Time Sieve",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Time Sieve",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#win:copied-time-sieve"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Toxic Deluge",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/copy-sac-abilities",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#identity_core/Trading Post"
+      ],
+      "card": "Trading Post",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Trading Post"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/deathmantle-loop"
+      ],
+      "card": "Urza, Lord High Artificer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Urza, Lord High Artificer",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:457-2034-5003"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't drift into generic artifact combo that ignores sacrifice-cost abilities.",
+      "Don't build to the outdated once-per-turn/nontoken reading of Ashnod."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Vandalblast-style wipes or Stony Silence-type locks shut off the engine.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-hate",
+      "mitigations": [
+       "Recursion package",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Five-mana commander; 33 lands is lean.",
+      "evidence_class": "strategic_judgment",
+      "id": "slow-commander",
+      "mitigations": [
+       "Artifact fast mana"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Bolas's Citadel and Time Sieve need a big board to fire.",
+      "evidence_class": "strategic_judgment",
+      "id": "citadel-needs-board",
+      "mitigations": [
+       "Token makers (Sai, Urza's Saga)"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Light: Mana Drain, Fierce Guardianship, Deflecting Swat, a few removal spells; artifact hate must be answered on the stack.",
+      "mana": "Artifact fast mana (Mox Opal, Lotus Petal, Sol Ring, Urza's Saga) and 33 lands (lean; the dossier accepts the risk).",
+      "protection": "Free counters; Ashnod is five mana so recasting hurts."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Scrap Trawler",
+       "Myr Retriever",
+       "Ashnod's Altar",
+       "Krark-Clan Ironworks",
+       "Etherium Sculptor"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Disciple of the Vault",
+       "Mayhem Devil"
+      ],
+      "evidence_class": "fact",
+      "id": "trawler-retriever-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Nim Deathmantle",
+       "Ashnod's Altar",
+       "Marionette Apprentice",
+       "Urza, Lord High Artificer",
+       "Farid, Enterprising Salvager"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "deathmantle-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Dross Scorpion",
+       "Retrofitter Foundry",
+       "Ashnod's Altar"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Mayhem Devil"
+      ],
+      "evidence_class": "fact",
+      "id": "scorpion-foundry",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Time Sieve",
+       "Ashnod the Uncaring"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Sai, Master Thopterist"
+      ],
+      "evidence_class": "fact",
+      "id": "copied-time-sieve",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Ashnod doubles every non-mana ability that sacrificed something to activate: copied Time Sieve is two extra turns, copied Trading Post is two cards or two artifacts back.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The source blueprint describes an older 'once each turn, nontoken' Ashnod; current Oracle has no turn limit and tokens count (M1 ashnod-01). The deck is stronger than the source text implies, and its infinites run without Ashnod.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 15,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 15
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:board_wipe:d0f8a6b2041c",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:artifacts_wiped:6f7fd7102b24",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:commander_removed_twice:eea464b75bed",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:key_engine_exiled:6f0fda0c7b4c",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:mana_screw:89ac1bd8fc92",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:color_screw:81fe34084c08",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:graveyard_exiled:2d09dd3cce4a",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#key_interactions/mana-abilities-excluded",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/deathmantle-loop"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2034-2866",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2034-2866-4908"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#key_interactions/copy-lki",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-cost-artifacts"
+      ],
+      "card": "Blasting Station",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Blasting Station"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#failure_modes/citadel-needs-board"
+      ],
+      "card": "Bolas's Citadel",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Bolas's Citadel"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Crime Novelist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Crime Novelist",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2034-2866-5346",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2866-4659-5346"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyclonic Rift",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/leave-play-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/trawler-retriever-loop"
+      ],
+      "card": "Disciple of the Vault",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Disciple of the Vault"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/scorpion-foundry"
+      ],
+      "card": "Dross Scorpion",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Dross Scorpion",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2034-2797-4853",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2797-4659-4853"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/trawler-retriever-loop"
+      ],
+      "card": "Enthusiastic Mechanaut",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Enthusiastic Mechanaut",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2034-2866-4908",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2866-4659-4908"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/trawler-retriever-loop"
+      ],
+      "card": "Etherium Sculptor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Etherium Sculptor",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2034-2866",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2866-4659"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/copy-sac-abilities",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-cost-artifacts"
+      ],
+      "card": "Executioner's Capsule",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Executioner's Capsule"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:artifact-recursion",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#recursion/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/deathmantle-loop"
+      ],
+      "card": "Farid, Enterprising Salvager",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Farid, Enterprising Salvager",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:4659-5003-5272"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Forensic Gadgeteer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Forensic Gadgeteer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/trawler-retriever-loop"
+      ],
+      "card": "Foundry Inspector",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Foundry Inspector",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:777-1020-2034-2866",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:777-1020-2866-4659"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#key_interactions/mana-abilities-excluded",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/trawler-retriever-loop"
+      ],
+      "card": "Krark-Clan Ironworks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Krark-Clan Ironworks",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2866-4659",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2866-4659-4908"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-outlets"
+      ],
+      "card": "Krark-Clan Shaman",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Krark-Clan Shaman"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/leave-play-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/deathmantle-loop"
+      ],
+      "card": "Marionette Apprentice",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Marionette Apprentice",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2034-5003-6199"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/leave-play-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value"
+      ],
+      "card": "Mayhem Devil",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Mayhem Devil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:artifact-recursion",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#recursion/value"
+      ],
+      "card": "Myr Retriever",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Myr Retriever",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2034-2866",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2866-4659"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:artifact-recursion",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#recursion/value"
+      ],
+      "card": "Nim Deathmantle",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Nim Deathmantle",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2034-5003-6199",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:457-2034-5003"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Oni-Cult Anvil",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Oni-Cult Anvil"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/copy-sac-abilities",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-cost-artifacts"
+      ],
+      "card": "Pyrite Spellbomb",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Pyrite Spellbomb"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/scorpion-foundry"
+      ],
+      "card": "Retrofitter Foundry",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Retrofitter Foundry",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2034-2797-4853",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2797-4659-4853"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/copy-sac-abilities",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#identity_core/Rings of Brighthearth",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#key_interactions/rings-and-ashnod"
+      ],
+      "card": "Rings of Brighthearth",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Rings of Brighthearth"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/copied-time-sieve"
+      ],
+      "card": "Sai, Master Thopterist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Sai, Master Thopterist",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2034-2866-4947",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2866-4659-4947"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#identity_core/Scrap Trawler",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:artifact-recursion",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value"
+      ],
+      "card": "Scrap Trawler",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Scrap Trawler",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2034-2866",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2866-4659"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#failure_modes/citadel-needs-board",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#identity_core/Time Sieve"
+      ],
+      "card": "Time Sieve",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Time Sieve",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#win:copied-time-sieve"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Toxic Deluge",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/copy-sac-abilities",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#identity_core/Trading Post"
+      ],
+      "card": "Trading Post",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Trading Post"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/deathmantle-loop"
+      ],
+      "card": "Urza, Lord High Artificer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Urza, Lord High Artificer",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:457-2034-5003"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't drift into generic artifact combo that ignores sacrifice-cost abilities.",
+      "Don't build to the outdated once-per-turn/nontoken reading of Ashnod."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Vandalblast-style wipes or Stony Silence-type locks shut off the engine.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-hate",
+      "mitigations": [
+       "Recursion package",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Five-mana commander; 33 lands is lean.",
+      "evidence_class": "strategic_judgment",
+      "id": "slow-commander",
+      "mitigations": [
+       "Artifact fast mana"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Bolas's Citadel and Time Sieve need a big board to fire.",
+      "evidence_class": "strategic_judgment",
+      "id": "citadel-needs-board",
+      "mitigations": [
+       "Token makers (Sai, Urza's Saga)"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Light: Mana Drain, Fierce Guardianship, Deflecting Swat, a few removal spells; artifact hate must be answered on the stack.",
+      "mana": "Artifact fast mana (Mox Opal, Lotus Petal, Sol Ring, Urza's Saga) and 33 lands (lean; the dossier accepts the risk).",
+      "protection": "Free counters; Ashnod is five mana so recasting hurts."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Scrap Trawler",
+       "Myr Retriever",
+       "Ashnod's Altar",
+       "Krark-Clan Ironworks",
+       "Etherium Sculptor"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Disciple of the Vault",
+       "Mayhem Devil"
+      ],
+      "evidence_class": "fact",
+      "id": "trawler-retriever-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Nim Deathmantle",
+       "Ashnod's Altar",
+       "Marionette Apprentice",
+       "Urza, Lord High Artificer",
+       "Farid, Enterprising Salvager"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "deathmantle-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Dross Scorpion",
+       "Retrofitter Foundry",
+       "Ashnod's Altar"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Mayhem Devil"
+      ],
+      "evidence_class": "fact",
+      "id": "scorpion-foundry",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Time Sieve",
+       "Ashnod the Uncaring"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Sai, Master Thopterist"
+      ],
+      "evidence_class": "fact",
+      "id": "copied-time-sieve",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Ashnod doubles every non-mana ability that sacrificed something to activate: copied Time Sieve is two extra turns, copied Trading Post is two cards or two artifacts back.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The source blueprint describes an older 'once each turn, nontoken' Ashnod; current Oracle has no turn limit and tokens count (M1 ashnod-01). The deck is stronger than the source text implies, and its infinites run without Ashnod.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 15,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 15
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:board_wipe:d0f8a6b2041c",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:artifacts_wiped:6f7fd7102b24",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:commander_removed_twice:eea464b75bed",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:key_engine_exiled:6f0fda0c7b4c",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:mana_screw:89ac1bd8fc92",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:color_screw:81fe34084c08",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:graveyard_exiled:2d09dd3cce4a",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#key_interactions/mana-abilities-excluded",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/deathmantle-loop"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2034-2866",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2034-2866-4908"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#key_interactions/copy-lki",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-cost-artifacts"
+      ],
+      "card": "Blasting Station",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Blasting Station"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#failure_modes/citadel-needs-board"
+      ],
+      "card": "Bolas's Citadel",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Bolas's Citadel"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Crime Novelist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Crime Novelist",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2034-2866-5346",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2866-4659-5346"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyclonic Rift",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/leave-play-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/trawler-retriever-loop"
+      ],
+      "card": "Disciple of the Vault",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Disciple of the Vault"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/scorpion-foundry"
+      ],
+      "card": "Dross Scorpion",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Dross Scorpion",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2034-2797-4853",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2797-4659-4853"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/trawler-retriever-loop"
+      ],
+      "card": "Enthusiastic Mechanaut",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Enthusiastic Mechanaut",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2034-2866-4908",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2866-4659-4908"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/trawler-retriever-loop"
+      ],
+      "card": "Etherium Sculptor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Etherium Sculptor",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2034-2866",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2866-4659"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/copy-sac-abilities",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-cost-artifacts"
+      ],
+      "card": "Executioner's Capsule",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Executioner's Capsule"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:artifact-recursion",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#recursion/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/deathmantle-loop"
+      ],
+      "card": "Farid, Enterprising Salvager",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Farid, Enterprising Salvager",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:4659-5003-5272"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Forensic Gadgeteer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Forensic Gadgeteer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/trawler-retriever-loop"
+      ],
+      "card": "Foundry Inspector",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Foundry Inspector",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:777-1020-2034-2866",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:777-1020-2866-4659"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#key_interactions/mana-abilities-excluded",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/trawler-retriever-loop"
+      ],
+      "card": "Krark-Clan Ironworks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Krark-Clan Ironworks",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2866-4659",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2866-4659-4908"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-outlets"
+      ],
+      "card": "Krark-Clan Shaman",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Krark-Clan Shaman"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/leave-play-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/deathmantle-loop"
+      ],
+      "card": "Marionette Apprentice",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Marionette Apprentice",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2034-5003-6199"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/leave-play-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:drain-payoffs",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value"
+      ],
+      "card": "Mayhem Devil",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Mayhem Devil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:artifact-recursion",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#recursion/value"
+      ],
+      "card": "Myr Retriever",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Myr Retriever",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2034-2866",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2866-4659"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:artifact-recursion",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#recursion/value"
+      ],
+      "card": "Nim Deathmantle",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Nim Deathmantle",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2034-5003-6199",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:457-2034-5003"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Oni-Cult Anvil",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Oni-Cult Anvil"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/copy-sac-abilities",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:sac-cost-artifacts"
+      ],
+      "card": "Pyrite Spellbomb",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Pyrite Spellbomb"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/scorpion-foundry"
+      ],
+      "card": "Retrofitter Foundry",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Retrofitter Foundry",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2034-2797-4853",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:2797-4659-4853"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#engines/copy-sac-abilities",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#identity_core/Rings of Brighthearth",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#key_interactions/rings-and-ashnod"
+      ],
+      "card": "Rings of Brighthearth",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Rings of Brighthearth"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#win_conditions/copied-time-sieve"
+      ],
+      "card": "Sai, Master Thopterist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Sai, Master Thopterist",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2034-2866-4947",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-2866-4659-4947"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#identity_core/Scrap Trawler",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#packages/pkg:artifact-recursion",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#plan/value"
+      ],
+      "card": "Scrap Trawler",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Scrap Trawler",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2034-2866",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#combo:1020-1976-2866-4659"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#failure_modes/citadel-needs-board",
+       "blueprint:data/grixis/blueprints/ashnod-the-uncaring.json#identity_core/Time Sieve"
+      ],
+      "card": "Time Sieve",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#metrics/Time Sieve",
+       "graph:data/grixis/graph/ashnod-the-uncaring.json#win:copied-time-sieve"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't drift into generic artifact combo that ignores sacrifice-cost abilities.",
+      "Don't build to the outdated once-per-turn/nontoken reading of Ashnod."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Vandalblast-style wipes or Stony Silence-type locks shut off the engine.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-hate",
+      "mitigations": [
+       "Recursion package",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Five-mana commander; 33 lands is lean.",
+      "evidence_class": "strategic_judgment",
+      "id": "slow-commander",
+      "mitigations": [
+       "Artifact fast mana"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Bolas's Citadel and Time Sieve need a big board to fire.",
+      "evidence_class": "strategic_judgment",
+      "id": "citadel-needs-board",
+      "mitigations": [
+       "Token makers (Sai, Urza's Saga)"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Light: Mana Drain, Fierce Guardianship, Deflecting Swat, a few removal spells; artifact hate must be answered on the stack.",
+      "mana": "Artifact fast mana (Mox Opal, Lotus Petal, Sol Ring, Urza's Saga) and 33 lands (lean; the dossier accepts the risk).",
+      "protection": "Free counters; Ashnod is five mana so recasting hurts."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Scrap Trawler",
+       "Myr Retriever",
+       "Ashnod's Altar",
+       "Krark-Clan Ironworks",
+       "Etherium Sculptor"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Disciple of the Vault",
+       "Mayhem Devil"
+      ],
+      "evidence_class": "fact",
+      "id": "trawler-retriever-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Nim Deathmantle",
+       "Ashnod's Altar",
+       "Marionette Apprentice",
+       "Urza, Lord High Artificer",
+       "Farid, Enterprising Salvager"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "deathmantle-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Dross Scorpion",
+       "Retrofitter Foundry",
+       "Ashnod's Altar"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Mayhem Devil"
+      ],
+      "evidence_class": "fact",
+      "id": "scorpion-foundry",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Time Sieve",
+       "Ashnod the Uncaring"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Sai, Master Thopterist"
+      ],
+      "evidence_class": "fact",
+      "id": "copied-time-sieve",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Ashnod doubles every non-mana ability that sacrificed something to activate: copied Time Sieve is two extra turns, copied Trading Post is two cards or two artifacts back.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The source blueprint describes an older 'once each turn, nontoken' Ashnod; current Oracle has no turn limit and tokens count (M1 ashnod-01). The deck is stronger than the source text implies, and its infinites run without Ashnod.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 15,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 15
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:board_wipe:d0f8a6b2041c",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:artifacts_wiped:6f7fd7102b24",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:commander_removed_twice:eea464b75bed",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:key_engine_exiled:6f0fda0c7b4c",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:mana_screw:89ac1bd8fc92",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:color_screw:81fe34084c08",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/ashnod-the-uncaring.json#test:ashnod-the-uncaring:stress:graveyard_exiled:2d09dd3cce4a",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "ashnod-the-uncaring",
+ "source_packet": "data/grixis/bracket_stress_packets/ashnod-the-uncaring.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

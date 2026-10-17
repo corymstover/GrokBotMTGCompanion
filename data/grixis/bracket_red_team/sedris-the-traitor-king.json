@@ -1,0 +1,2410 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:8b145ace962d556ae92e34d7b0056c789f99cba0c40c60bb5828aa1602bded95",
+ "deck_id": "Sedris__the_Traitor_King",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 98,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Animate Dead",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Animate Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:etb-targets",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#tutor_targets/Archon of Cruelty",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Archon of Cruelty",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Archon of Cruelty"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ashnod's Altar",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Ashnod's Altar"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Chainer, Nightmare Adept",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Chainer, Nightmare Adept"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#engines/granted-unearth",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#identity_core/Convergence of Dominion",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#key_interactions/convergence-floor"
+      ],
+      "card": "Convergence of Dominion",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Convergence of Dominion"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#engines/unearth-rescue",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#identity_core/Deadeye Navigator"
+      ],
+      "card": "Deadeye Navigator",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Deadeye Navigator",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#combo:1409-3821",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#win:drake-navigator"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dimir Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Dimir Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Dread Return",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Dread Return"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:self-mill"
+      ],
+      "card": "Faithless Looting",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Faithless Looting"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feldon of the Third Path",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Feldon of the Third Path"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Flayer of the Hatebound",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Flayer of the Hatebound"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:self-mill"
+      ],
+      "card": "Frantic Search",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Frantic Search"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/drake-navigator"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Goblin Bombardment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:etb-targets",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Grave Titan",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Grave Titan"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#failure_modes/six-drop"
+      ],
+      "card": "Grim Monolith",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Grim Monolith"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Izzet Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Izzet Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jeska's Will",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Jeska's Will"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:etb-targets"
+      ],
+      "card": "Jin-Gitaxias, Core Augur",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Jin-Gitaxias, Core Augur"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:self-mill"
+      ],
+      "card": "Likeness Looter",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Likeness Looter"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Living Death",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Living Death"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#failure_modes/six-drop"
+      ],
+      "card": "Mana Vault",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Mana Vault"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:etb-targets",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Massacre Wurm",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Massacre Wurm"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Metamorphosis Fanatic",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Metamorphosis Fanatic"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystic Remora",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Mystic Remora"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Necromancy",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Necromancy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#engines/unearth-rescue",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#identity_core/Obeka, Brute Chronologist",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#key_interactions/end-turn-exile"
+      ],
+      "card": "Obeka, Brute Chronologist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Obeka, Brute Chronologist",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#package:rescue"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#identity_core/Panharmonicon",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#plan/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Panharmonicon",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Panharmonicon"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#key_interactions/drake-navigator-m1",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#plan/value"
+      ],
+      "card": "Peregrine Drake",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Peregrine Drake",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#combo:1409-3821",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#win:drake-navigator"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Rakdos Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Thassa's Oracle / Underworld Breach conversion (decisions L46).",
+      "No Hela (future release, no exception; L45)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Graveyard hate shuts off unearth and the backup reanimation.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Fresh self-mill",
+       "Hard casts"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Sedris costs six; slow without fast mana.",
+      "evidence_class": "strategic_judgment",
+      "id": "six-drop",
+      "mitigations": [
+       "Grim Monolith",
+       "Mana Vault"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Unearthed creatures are exiled without rescue.",
+      "evidence_class": "strategic_judgment",
+      "id": "unearth-exile",
+      "mitigations": [
+       "Obeka",
+       "Sundial",
+       "Teferi's Veil"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Deadly Rollick, Feed the Swarm, Cyclonic Rift, Toxic Deluge.",
+      "mana": "31 lands, fast mana and Signets for a six-mana commander.",
+      "protection": "Force of Will, Deflecting Swat, Lightning Greaves."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Sedris, the Traitor King",
+       "Archon of Cruelty",
+       "Grave Titan",
+       "Massacre Wurm",
+       "Sepulchral Primordial",
+       "Terror of the Peaks"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Panharmonicon",
+       "Convergence of Dominion"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "etb-value-beats",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Peregrine Drake",
+       "Deadeye Navigator"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Goblin Bombardment"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "drake-navigator",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Sedris gives every creature card in the graveyard unearth, which makes the whole graveyard reusable.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native. The one Spellbook combo (1409-3821, Deadeye Navigator + Peregrine Drake) doesn't need Sedris, but Sedris can unearth either half. The deck has backup reanimation (Reanimate, Animate Dead, Necromancy, Living Death) but is far weaker without him. There is no source blueprint file; the closeout and verification are the evidence. M1 review (sedris-01..06, all verified) confirms the unearth and rescue rules.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:board_wipe:dcd584fe5303",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:artifacts_wiped:1e2fdcee09da",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:commander_removed_twice:7ecb44847b5d",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:key_engine_exiled:1bb632ed150b",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:mana_screw:44037d2accd5",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:color_screw:f9f582202ffd",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:graveyard_exiled:0e3726de2286",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Animate Dead",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Animate Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:etb-targets",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#tutor_targets/Archon of Cruelty",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Archon of Cruelty",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Archon of Cruelty"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Chainer, Nightmare Adept",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Chainer, Nightmare Adept"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#engines/granted-unearth",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#identity_core/Convergence of Dominion",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#key_interactions/convergence-floor"
+      ],
+      "card": "Convergence of Dominion",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Convergence of Dominion"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#engines/unearth-rescue",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#identity_core/Deadeye Navigator"
+      ],
+      "card": "Deadeye Navigator",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Deadeye Navigator",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#combo:1409-3821",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#win:drake-navigator"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Dread Return",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Dread Return"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feldon of the Third Path",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Feldon of the Third Path"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Flayer of the Hatebound",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Flayer of the Hatebound"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/drake-navigator"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Goblin Bombardment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:etb-targets",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Grave Titan",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Grave Titan"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Living Death",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Living Death"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:etb-targets",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Massacre Wurm",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Massacre Wurm"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Metamorphosis Fanatic",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Metamorphosis Fanatic"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Necromancy",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Necromancy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#engines/unearth-rescue",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#identity_core/Obeka, Brute Chronologist",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#key_interactions/end-turn-exile"
+      ],
+      "card": "Obeka, Brute Chronologist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Obeka, Brute Chronologist",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#package:rescue"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#identity_core/Panharmonicon",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#plan/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Panharmonicon",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Panharmonicon"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#key_interactions/drake-navigator-m1",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#plan/value"
+      ],
+      "card": "Peregrine Drake",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Peregrine Drake",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#combo:1409-3821",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#win:drake-navigator"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:etb-targets",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Sepulchral Primordial",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Sepulchral Primordial"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sneak Attack",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Sneak Attack"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#engines/unearth-rescue",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#key_interactions/end-turn-exile",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:rescue"
+      ],
+      "card": "Sundial of the Infinite",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Sundial of the Infinite",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#package:rescue"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#engines/unearth-rescue",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#failure_modes/unearth-exile",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#key_interactions/veil-phase"
+      ],
+      "card": "Teferi's Veil",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Teferi's Veil",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#package:rescue"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:etb-targets",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Terror of the Peaks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Terror of the Peaks"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Twilight Diviner",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Twilight Diviner"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Victimize",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Victimize"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Thassa's Oracle / Underworld Breach conversion (decisions L46).",
+      "No Hela (future release, no exception; L45)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Graveyard hate shuts off unearth and the backup reanimation.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Fresh self-mill",
+       "Hard casts"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Sedris costs six; slow without fast mana.",
+      "evidence_class": "strategic_judgment",
+      "id": "six-drop",
+      "mitigations": [
+       "Grim Monolith",
+       "Mana Vault"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Unearthed creatures are exiled without rescue.",
+      "evidence_class": "strategic_judgment",
+      "id": "unearth-exile",
+      "mitigations": [
+       "Obeka",
+       "Sundial",
+       "Teferi's Veil"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Deadly Rollick, Feed the Swarm, Cyclonic Rift, Toxic Deluge.",
+      "mana": "31 lands, fast mana and Signets for a six-mana commander.",
+      "protection": "Force of Will, Deflecting Swat, Lightning Greaves."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Sedris, the Traitor King",
+       "Archon of Cruelty",
+       "Grave Titan",
+       "Massacre Wurm",
+       "Sepulchral Primordial",
+       "Terror of the Peaks"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Panharmonicon",
+       "Convergence of Dominion"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "etb-value-beats",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Peregrine Drake",
+       "Deadeye Navigator"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Goblin Bombardment"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "drake-navigator",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Sedris gives every creature card in the graveyard unearth, which makes the whole graveyard reusable.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native. The one Spellbook combo (1409-3821, Deadeye Navigator + Peregrine Drake) doesn't need Sedris, but Sedris can unearth either half. The deck has backup reanimation (Reanimate, Animate Dead, Necromancy, Living Death) but is far weaker without him. There is no source blueprint file; the closeout and verification are the evidence. M1 review (sedris-01..06, all verified) confirms the unearth and rescue rules.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:board_wipe:dcd584fe5303",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:artifacts_wiped:1e2fdcee09da",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:commander_removed_twice:7ecb44847b5d",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:key_engine_exiled:1bb632ed150b",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:mana_screw:44037d2accd5",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:color_screw:f9f582202ffd",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:graveyard_exiled:0e3726de2286",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Animate Dead",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Animate Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:etb-targets",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#tutor_targets/Archon of Cruelty",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Archon of Cruelty",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Archon of Cruelty"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Chainer, Nightmare Adept",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Chainer, Nightmare Adept"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#engines/granted-unearth",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#identity_core/Convergence of Dominion",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#key_interactions/convergence-floor"
+      ],
+      "card": "Convergence of Dominion",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Convergence of Dominion"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#engines/unearth-rescue",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#identity_core/Deadeye Navigator"
+      ],
+      "card": "Deadeye Navigator",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Deadeye Navigator",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#combo:1409-3821",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#win:drake-navigator"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Dread Return",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Dread Return"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feldon of the Third Path",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Feldon of the Third Path"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Flayer of the Hatebound",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Flayer of the Hatebound"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/drake-navigator"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Goblin Bombardment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:etb-targets",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Grave Titan",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Grave Titan"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Living Death",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Living Death"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:etb-targets",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Massacre Wurm",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Massacre Wurm"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Metamorphosis Fanatic",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Metamorphosis Fanatic"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Necromancy",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Necromancy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#engines/unearth-rescue",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#identity_core/Obeka, Brute Chronologist",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#key_interactions/end-turn-exile"
+      ],
+      "card": "Obeka, Brute Chronologist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Obeka, Brute Chronologist",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#package:rescue"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#identity_core/Panharmonicon",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#plan/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Panharmonicon",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Panharmonicon"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#key_interactions/drake-navigator-m1",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#plan/value"
+      ],
+      "card": "Peregrine Drake",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Peregrine Drake",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#combo:1409-3821",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#win:drake-navigator"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:etb-targets",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Sepulchral Primordial",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Sepulchral Primordial"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sneak Attack",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Sneak Attack"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#engines/unearth-rescue",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#key_interactions/end-turn-exile",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:rescue"
+      ],
+      "card": "Sundial of the Infinite",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Sundial of the Infinite",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#package:rescue"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#engines/unearth-rescue",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#failure_modes/unearth-exile",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#key_interactions/veil-phase"
+      ],
+      "card": "Teferi's Veil",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Teferi's Veil",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#package:rescue"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:etb-targets",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Terror of the Peaks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Terror of the Peaks"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Twilight Diviner",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Twilight Diviner"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Victimize",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Victimize"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Thassa's Oracle / Underworld Breach conversion (decisions L46).",
+      "No Hela (future release, no exception; L45)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Graveyard hate shuts off unearth and the backup reanimation.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Fresh self-mill",
+       "Hard casts"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Sedris costs six; slow without fast mana.",
+      "evidence_class": "strategic_judgment",
+      "id": "six-drop",
+      "mitigations": [
+       "Grim Monolith",
+       "Mana Vault"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Unearthed creatures are exiled without rescue.",
+      "evidence_class": "strategic_judgment",
+      "id": "unearth-exile",
+      "mitigations": [
+       "Obeka",
+       "Sundial",
+       "Teferi's Veil"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Deadly Rollick, Feed the Swarm, Cyclonic Rift, Toxic Deluge.",
+      "mana": "31 lands, fast mana and Signets for a six-mana commander.",
+      "protection": "Force of Will, Deflecting Swat, Lightning Greaves."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Sedris, the Traitor King",
+       "Archon of Cruelty",
+       "Grave Titan",
+       "Massacre Wurm",
+       "Sepulchral Primordial",
+       "Terror of the Peaks"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Panharmonicon",
+       "Convergence of Dominion"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "etb-value-beats",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Peregrine Drake",
+       "Deadeye Navigator"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Goblin Bombardment"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "drake-navigator",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Sedris gives every creature card in the graveyard unearth, which makes the whole graveyard reusable.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native. The one Spellbook combo (1409-3821, Deadeye Navigator + Peregrine Drake) doesn't need Sedris, but Sedris can unearth either half. The deck has backup reanimation (Reanimate, Animate Dead, Necromancy, Living Death) but is far weaker without him. There is no source blueprint file; the closeout and verification are the evidence. M1 review (sedris-01..06, all verified) confirms the unearth and rescue rules.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:board_wipe:dcd584fe5303",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:artifacts_wiped:1e2fdcee09da",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:commander_removed_twice:7ecb44847b5d",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:key_engine_exiled:1bb632ed150b",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:mana_screw:44037d2accd5",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:color_screw:f9f582202ffd",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:graveyard_exiled:0e3726de2286",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Animate Dead",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Animate Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:etb-targets",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#tutor_targets/Archon of Cruelty",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Archon of Cruelty",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Archon of Cruelty"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Chainer, Nightmare Adept",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Chainer, Nightmare Adept"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#engines/granted-unearth",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#identity_core/Convergence of Dominion",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#key_interactions/convergence-floor"
+      ],
+      "card": "Convergence of Dominion",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Convergence of Dominion"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#engines/unearth-rescue",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#identity_core/Deadeye Navigator"
+      ],
+      "card": "Deadeye Navigator",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Deadeye Navigator",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#combo:1409-3821",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#win:drake-navigator"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Dread Return",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Dread Return"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feldon of the Third Path",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Feldon of the Third Path"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Flayer of the Hatebound",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Flayer of the Hatebound"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#requirements/value"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/drake-navigator"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Goblin Bombardment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:etb-targets",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Grave Titan",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Grave Titan"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Living Death",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Living Death"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:etb-targets",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Massacre Wurm",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Massacre Wurm"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Metamorphosis Fanatic",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Metamorphosis Fanatic"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Necromancy",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Necromancy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#engines/unearth-rescue",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#identity_core/Obeka, Brute Chronologist",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#key_interactions/end-turn-exile"
+      ],
+      "card": "Obeka, Brute Chronologist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Obeka, Brute Chronologist",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#package:rescue"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#identity_core/Panharmonicon",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#plan/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Panharmonicon",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Panharmonicon"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#key_interactions/drake-navigator-m1",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#plan/value"
+      ],
+      "card": "Peregrine Drake",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Peregrine Drake",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#combo:1409-3821",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#win:drake-navigator"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:etb-targets",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Sepulchral Primordial",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Sepulchral Primordial"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sneak Attack",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Sneak Attack"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#engines/unearth-rescue",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#key_interactions/end-turn-exile",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:rescue"
+      ],
+      "card": "Sundial of the Infinite",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Sundial of the Infinite",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#package:rescue"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#engines/unearth-rescue",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#failure_modes/unearth-exile",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#key_interactions/veil-phase"
+      ],
+      "card": "Teferi's Veil",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Teferi's Veil",
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#package:rescue"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#packages/pkg:etb-targets",
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#win_conditions/etb-value-beats"
+      ],
+      "card": "Terror of the Peaks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Terror of the Peaks"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/sedris-the-traitor-king.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/sedris-the-traitor-king.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Thassa's Oracle / Underworld Breach conversion (decisions L46).",
+      "No Hela (future release, no exception; L45)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Graveyard hate shuts off unearth and the backup reanimation.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Fresh self-mill",
+       "Hard casts"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Sedris costs six; slow without fast mana.",
+      "evidence_class": "strategic_judgment",
+      "id": "six-drop",
+      "mitigations": [
+       "Grim Monolith",
+       "Mana Vault"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Unearthed creatures are exiled without rescue.",
+      "evidence_class": "strategic_judgment",
+      "id": "unearth-exile",
+      "mitigations": [
+       "Obeka",
+       "Sundial",
+       "Teferi's Veil"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Deadly Rollick, Feed the Swarm, Cyclonic Rift, Toxic Deluge.",
+      "mana": "31 lands, fast mana and Signets for a six-mana commander.",
+      "protection": "Force of Will, Deflecting Swat, Lightning Greaves."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Sedris, the Traitor King",
+       "Archon of Cruelty",
+       "Grave Titan",
+       "Massacre Wurm",
+       "Sepulchral Primordial",
+       "Terror of the Peaks"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Panharmonicon",
+       "Convergence of Dominion"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "etb-value-beats",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Peregrine Drake",
+       "Deadeye Navigator"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Goblin Bombardment"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "drake-navigator",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Sedris gives every creature card in the graveyard unearth, which makes the whole graveyard reusable.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native. The one Spellbook combo (1409-3821, Deadeye Navigator + Peregrine Drake) doesn't need Sedris, but Sedris can unearth either half. The deck has backup reanimation (Reanimate, Animate Dead, Necromancy, Living Death) but is far weaker without him. There is no source blueprint file; the closeout and verification are the evidence. M1 review (sedris-01..06, all verified) confirms the unearth and rescue rules.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:board_wipe:dcd584fe5303",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:artifacts_wiped:1e2fdcee09da",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:commander_removed_twice:7ecb44847b5d",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:key_engine_exiled:1bb632ed150b",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:mana_screw:44037d2accd5",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:color_screw:f9f582202ffd",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/sedris-the-traitor-king.json#test:sedris-the-traitor-king:stress:graveyard_exiled:0e3726de2286",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "sedris-the-traitor-king",
+ "source_packet": "data/grixis/bracket_stress_packets/sedris-the-traitor-king.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

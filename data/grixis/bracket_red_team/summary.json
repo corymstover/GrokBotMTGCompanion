@@ -1,0 +1,384 @@
+{
+ "decks": [
+  {
+   "deck_id": "Abaddon_the_Despoiler",
+   "pending_reviews": 4,
+   "slug": "abaddon-the-despoiler",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Admiral_Beckett_Brass",
+   "pending_reviews": 4,
+   "slug": "admiral-beckett-brass",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Admiral_Brass__Unsinkable",
+   "pending_reviews": 4,
+   "slug": "admiral-brass-unsinkable",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Anhelo__the_Painter",
+   "pending_reviews": 4,
+   "slug": "anhelo-the-painter",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Ashad__the_Lone_Cyberman",
+   "pending_reviews": 4,
+   "slug": "ashad-the-lone-cyberman",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Ashnod_the_Uncaring",
+   "pending_reviews": 4,
+   "slug": "ashnod-the-uncaring",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Be_lakor__the_Dark_Master",
+   "pending_reviews": 4,
+   "slug": "belakor-the-dark-master",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Cecily__Bjorna__Lutri",
+   "pending_reviews": 4,
+   "slug": "bjorna-nightfall-alchemist-cecily",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Cormela__Glamour_Thief",
+   "pending_reviews": 1,
+   "slug": "cormela-glamour-thief",
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Crosis__the_Purger",
+   "pending_reviews": 4,
+   "slug": "crosis-the-purger",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Cult_of_Skaro",
+   "pending_reviews": 4,
+   "slug": "cult-of-skaro",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Davros__Dalek_Creator",
+   "pending_reviews": 4,
+   "slug": "davros-dalek-creator",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Doctor_Doom__King_of_Latveria",
+   "pending_reviews": 4,
+   "slug": "doctor-doom-king-of-latveria",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Don_Andres__the_Renegade",
+   "pending_reviews": 4,
+   "slug": "don-andres-the-renegade",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Dr__Eggman",
+   "pending_reviews": 4,
+   "slug": "dr-eggman",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Edea__Possessed_Sorceress",
+   "pending_reviews": 4,
+   "slug": "edea-possessed-sorceress",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Edward_Kenway",
+   "pending_reviews": 4,
+   "slug": "edward-kenway",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Evelyn__the_Covetous",
+   "pending_reviews": 1,
+   "slug": "evelyn-the-covetous",
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Fire_Lord_Azula",
+   "pending_reviews": 1,
+   "slug": "fire-lord-azula",
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Garza_Zol__Plague_Queen",
+   "pending_reviews": 4,
+   "slug": "garza-zol-plague-queen",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Goro_Goro_and_Satoru",
+   "pending_reviews": 4,
+   "slug": "goro-goro-and-satoru",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Grixistax___October_2026",
+   "pending_reviews": 1,
+   "slug": "grixistax-october-2026",
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Gwendlyn_Di_Corci",
+   "pending_reviews": 4,
+   "slug": "gwendlyn-di-corci",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Inalla__Archmage_Ritualist",
+   "pending_reviews": 1,
+   "slug": "inalla-archmage-ritualist",
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Jeleva__Nephalia_s_Scourge",
+   "pending_reviews": 1,
+   "slug": "jeleva-nephalias-scourge",
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Kefka__Court_Mage",
+   "pending_reviews": 1,
+   "slug": "kefka-court-mage",
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Kess__Dissident_Mage",
+   "pending_reviews": 1,
+   "slug": "kess-dissident-mage",
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Loki__the_Deceiver",
+   "pending_reviews": 4,
+   "slug": "loki-the-deceiver",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Lord_of_Tresserhorn",
+   "pending_reviews": 4,
+   "slug": "lord-of-tresserhorn",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Lord_Xander__the_Collector",
+   "pending_reviews": 4,
+   "slug": "lord-xander-the-collector",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Lynde__Cheerful_Tormentor",
+   "pending_reviews": 4,
+   "slug": "lynde-cheerful-tormentor",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Mai_and_Zuko",
+   "pending_reviews": 4,
+   "slug": "mai-and-zuko",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Mairsil__the_Pretender",
+   "pending_reviews": 4,
+   "slug": "mairsil-the-pretender",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Marchesa__Dealer_of_Death",
+   "pending_reviews": 1,
+   "slug": "marchesa-dealer-of-death",
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Marchesa__the_Black_Rose",
+   "pending_reviews": 4,
+   "slug": "marchesa-the-black-rose",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Mishra__Artificer_Prodigy",
+   "pending_reviews": 1,
+   "slug": "mishra-artificer-prodigy",
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Mishra__Eminent_One",
+   "pending_reviews": 4,
+   "slug": "mishra-eminent-one",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Missy",
+   "pending_reviews": 4,
+   "slug": "missy",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Nathan_Drake__Treasure_Hunter",
+   "pending_reviews": 4,
+   "slug": "nathan-drake-treasure-hunter",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Nekusar__the_Mindrazer",
+   "pending_reviews": 4,
+   "slug": "nekusar-the-mindrazer",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Nicol_Bolas",
+   "pending_reviews": 4,
+   "slug": "nicol-bolas",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Nicol_Bolas__the_Ravager",
+   "pending_reviews": 4,
+   "slug": "nicol-bolas-the-ravager",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Norman_Osborn_Green_Goblin",
+   "pending_reviews": 1,
+   "slug": "norman-osborn",
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Obeka__Brute_Chronologist",
+   "pending_reviews": 4,
+   "slug": "obeka-brute-chronologist",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Obeka__Splitter_of_Seconds",
+   "pending_reviews": 4,
+   "slug": "obeka-splitter-of-seconds",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Parnesse__the_Subtle_Brush",
+   "pending_reviews": 4,
+   "slug": "parnesse-the-subtle-brush",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "RogSi",
+   "pending_reviews": 1,
+   "slug": "rograkh-son-of-rohgahh-silas-renn",
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Saruman__the_White_Hand",
+   "pending_reviews": 4,
+   "slug": "saruman-the-white-hand",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Sauron__Lord_of_the_Rings",
+   "pending_reviews": 4,
+   "slug": "sauron-lord-of-the-rings",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Sauron__the_Dark_Lord",
+   "pending_reviews": 4,
+   "slug": "sauron-the-dark-lord",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Sedris__the_Traitor_King",
+   "pending_reviews": 4,
+   "slug": "sedris-the-traitor-king",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Sol_kanar_the_Swamp_King",
+   "pending_reviews": 4,
+   "slug": "solkanar-the-swamp-king",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Sol_kanar_the_Tainted",
+   "pending_reviews": 4,
+   "slug": "solkanar-the-tainted",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Tetsuo__Imperial_Champion",
+   "pending_reviews": 4,
+   "slug": "tetsuo-imperial-champion",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Tetsuo_Umezawa",
+   "pending_reviews": 4,
+   "slug": "tetsuo-umezawa",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "The_Madcap_Jester",
+   "pending_reviews": 1,
+   "slug": "the-madcap-jester",
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "The_Rani",
+   "pending_reviews": 4,
+   "slug": "the-rani",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "The_Valeyard",
+   "pending_reviews": 4,
+   "slug": "the-valeyard",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Thraximundar",
+   "pending_reviews": 4,
+   "slug": "thraximundar",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Tresserhorn_s_Lord__Returned",
+   "pending_reviews": 4,
+   "slug": "tresserhorns-lord-returned",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Wick__the_Whorled_Mind",
+   "pending_reviews": 4,
+   "slug": "wick-the-whorled-mind",
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Zevlor__Elturel_Exile",
+   "pending_reviews": 4,
+   "slug": "zevlor-elturel-exile",
+   "suite_family": "B4_resilience"
+  }
+ ],
+ "generated_by": "scripts/grixis_bracket_red_team.py v1",
+ "schema_version": 1,
+ "totals": {
+  "B4_reviews": 196,
+  "B5_reviews": 13,
+  "decks": 62,
+  "pending_reviews": 209
+ }
+}

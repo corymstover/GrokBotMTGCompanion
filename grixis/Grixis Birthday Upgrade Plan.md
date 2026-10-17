@@ -444,3 +444,12 @@ Step E is code-closed through 66.13 but still waits on one local frozen-cache re
 - Step-E items resolve to exact module ids/specifications. The 70.1 conceptual `counterspell_stack_protection` executor resolves transparently to the existing `counterspell_density` + `stack_protection` modules; `stax_tax` resolves directly. No canonical-deck module result is fabricated from swap-level/readiness machinery.
 - Judgment prompts remain `judgment_required` with no automated verdict.
 - Every packet keeps `aggregate_score: null`; priority weights still allocate review effort only.
+
+
+### Step F batch 70.3: bracket red-team review packets
+
+- `scripts/grixis_bracket_red_team.py` freezes one adversarial review packet per deck from the 70.2 routed stress evidence.
+- B5 packets require a protected-win review; B4 packets require repeated-removal/attrition, pillowfort, token-stall and artifact/enchantment-interaction reviews.
+- The generator assembles accepted Blueprint failure modes/anti-goals/requirements/win routes, focused audit slots, commander-structure context and supporting test references. It does not answer the prompts.
+- Every review starts `pending` with null reviewer/analysis/verdict, `can_decide: false`, and a contract requiring human or agent judgment grounded in fact/test/strategic evidence while addressing Commander identity and bracket context.
+- Script-authored packets are not `judgment_review`s and cannot support M6 decisions until a real reviewer completes the later judgment process.

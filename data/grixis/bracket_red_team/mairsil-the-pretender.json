@@ -1,0 +1,2473 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+ "deck_id": "Mairsil__the_Pretender",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 99,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#failure_modes/mairsil-removed",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "Aetherling",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Aetherling",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1050-4068-4439-5112"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/tap-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines"
+      ],
+      "card": "Anger",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Anger",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1050-4068-4439-5112"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/rings-alchemist"
+      ],
+      "card": "Aphetto Alchemist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Aphetto Alchemist",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:4091-4235-5116"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/tap-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads"
+      ],
+      "card": "Arcanis the Omnipotent",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Arcanis the Omnipotent"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/tap-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#identity_core/Asmodeus the Archfiend",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/asmodeus"
+      ],
+      "card": "Asmodeus the Archfiend",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Asmodeus the Archfiend"
+      ],
+      "roles": [
+       "draw",
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Blightstep Pathway // Searstep Pathway",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Blightstep Pathway // Searstep Pathway"
+      ],
+      "roles": [
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "Chrome Mox",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Chrome Mox"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Clearwater Pathway // Murkwater Pathway",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Clearwater Pathway // Murkwater Pathway"
+      ],
+      "roles": [
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dimir Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Dimir Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Eater of the Dead",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Eater of the Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Endling",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Endling"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:graveyard-setup",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#plan/value"
+      ],
+      "card": "Faithless Looting",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Faithless Looting"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:graveyard-setup"
+      ],
+      "card": "Frantic Search",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Frantic Search"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/quicksilver-lotus",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#tutor_targets/Gilded Lotus"
+      ],
+      "card": "Gilded Lotus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Gilded Lotus",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-2645-5112-5116",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-3995-5112-5116"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines"
+      ],
+      "card": "Hateflayer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Hateflayer",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:2615-4449-5112"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/quicksilver-lotus",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus"
+      ],
+      "card": "Horseshoe Crab",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Horseshoe Crab",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-3995-5112-5116"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Izzet Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Izzet Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Lotus Petal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "Mana Vault",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Mana Vault"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/tap-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#identity_core/Minamo, School at Water's Edge"
+      ],
+      "card": "Minamo, School at Water's Edge",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Minamo, School at Water's Edge"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/quicksilver-lotus",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus"
+      ],
+      "card": "Morphling",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Morphling",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-5112-5116-5137"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "Mox Diamond",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Mox Diamond"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystic Remora",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Mystic Remora"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines"
+      ],
+      "card": "Nevinyrral's Disk",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Nevinyrral's Disk",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1050-4068-4439-5112"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Omen Hawker",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Omen Hawker"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/re-cage",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#identity_core/Pack Rat",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/rings-pack-rat"
+      ],
+      "card": "Pack Rat",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Pack Rat"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/tap-payloads"
+      ],
+      "card": "Patriar's Seal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Patriar's Seal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't replace the cage-toolbox identity with a tournament cEDH shell (verification L37).",
+      "Avoid unsafe self-mill lines (verification L60)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Without Mairsil the caged abilities are inaccessible.",
+      "evidence_class": "strategic_judgment",
+      "id": "mairsil-removed",
+      "mitigations": [
+       "Aetherling cage",
+       "Greaves",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Graveyard hate stops caging from the yard.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Cage from hand"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Self-mill lines like Mirror-Mad Phantasm were cut as unsafe.",
+      "evidence_class": "strategic_judgment",
+      "id": "unsafe-lines",
+      "mitigations": [
+       "Use the verified Quicksilver lines"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Swan Song, An Offer You Can't Refuse, Deadly Rollick, Toxic Deluge, Cyclonic Rift.",
+      "mana": "32 lands, Mana Vault, Chrome Mox, Mox Diamond, Lotus Petal, Gilded Lotus.",
+      "protection": "Lightning Greaves, Deflecting Swat, Aetherling and Cephalid Inkshrouder cages."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Mairsil, the Pretender",
+       "Quicksilver Elemental",
+       "Gilded Lotus",
+       "Staff of Domination",
+       "Horseshoe Crab",
+       "Morphling"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Walking Ballista"
+      ],
+      "evidence_class": "fact",
+      "id": "quicksilver-lotus",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Rings of Brighthearth",
+       "Aphetto Alchemist",
+       "Gilded Lotus"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "rings-alchemist",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Mairsil, the Pretender",
+       "Hateflayer",
+       "Tree of Perdition",
+       "Aetherling",
+       "Anger",
+       "Nevinyrral's Disk"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "mairsil-lines",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Mairsil is the engine: every caged ability lives on him, and five of the six Spellbook combos include him.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Each acquired ability is once per turn per Mairsil object, so the loops need fresh objects (Quicksilver Elemental, blinks, copies). The deck is fragile to graveyard and exile hate on caged cards. The cycle 51 M1 review (mairsil-01..11) verifies the cage rules; mairsil-10 (Marvin without the once-per-turn limit) was re-evaluated in Bot cycle 62 under CR 113.10a: Marvin's copies keep the restriction, so the no-restriction hypothesis is incorrect (M1 post-acceptance correction, data/grixis/m1_corrections.json).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 5,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 6
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:board_wipe:f412e3ddb209",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:artifacts_wiped:3f21c7fd44d6",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:commander_removed_twice:77a790dc126c",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:key_engine_exiled:ac03edb4499c",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:mana_screw:aa44cd72bca8",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:color_screw:06da064f0f59",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:graveyard_exiled:870d737241d3",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#failure_modes/mairsil-removed",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "Aetherling",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Aetherling",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1050-4068-4439-5112"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/tap-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines"
+      ],
+      "card": "Anger",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Anger",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1050-4068-4439-5112"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/rings-alchemist"
+      ],
+      "card": "Aphetto Alchemist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Aphetto Alchemist",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:4091-4235-5116"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/tap-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#identity_core/Asmodeus the Archfiend",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/asmodeus"
+      ],
+      "card": "Asmodeus the Archfiend",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Asmodeus the Archfiend"
+      ],
+      "roles": [
+       "draw",
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Eater of the Dead",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Eater of the Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Endling",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Endling"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/quicksilver-lotus",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#tutor_targets/Gilded Lotus"
+      ],
+      "card": "Gilded Lotus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Gilded Lotus",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-2645-5112-5116",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-3995-5112-5116"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines"
+      ],
+      "card": "Hateflayer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Hateflayer",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:2615-4449-5112"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/quicksilver-lotus",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus"
+      ],
+      "card": "Horseshoe Crab",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Horseshoe Crab",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-3995-5112-5116"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/tap-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#identity_core/Minamo, School at Water's Edge"
+      ],
+      "card": "Minamo, School at Water's Edge",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Minamo, School at Water's Edge"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Minion of Leshrac",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Minion of Leshrac"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/quicksilver-lotus",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus"
+      ],
+      "card": "Morphling",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Morphling",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-5112-5116-5137"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines"
+      ],
+      "card": "Nevinyrral's Disk",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Nevinyrral's Disk",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1050-4068-4439-5112"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/re-cage",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#identity_core/Pack Rat",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/rings-pack-rat"
+      ],
+      "card": "Pack Rat",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Pack Rat"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#identity_core/Quicksilver Elemental",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/quicksilver-lotus"
+      ],
+      "card": "Quicksilver Elemental",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Quicksilver Elemental",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-2645-5112-5116",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-3995-5112-5116"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/re-cage",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/rings-pack-rat",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#plan/value"
+      ],
+      "card": "Rings of Brighthearth",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Rings of Brighthearth",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:4091-4235-5116"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Shauku, Endbringer",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Shauku, Endbringer"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/quicksilver-lotus",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus"
+      ],
+      "card": "Staff of Domination",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Staff of Domination",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-2645-5112-5116"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/tap-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/elixir-wishclaw"
+      ],
+      "card": "Thousand-Year Elixir",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Thousand-Year Elixir"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/tap-payloads"
+      ],
+      "card": "Training Grounds",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Training Grounds"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines"
+      ],
+      "card": "Tree of Perdition",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Tree of Perdition",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:2615-4449-5112"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus"
+      ],
+      "card": "Walking Ballista",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Walking Ballista"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't replace the cage-toolbox identity with a tournament cEDH shell (verification L37).",
+      "Avoid unsafe self-mill lines (verification L60)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Without Mairsil the caged abilities are inaccessible.",
+      "evidence_class": "strategic_judgment",
+      "id": "mairsil-removed",
+      "mitigations": [
+       "Aetherling cage",
+       "Greaves",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Graveyard hate stops caging from the yard.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Cage from hand"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Self-mill lines like Mirror-Mad Phantasm were cut as unsafe.",
+      "evidence_class": "strategic_judgment",
+      "id": "unsafe-lines",
+      "mitigations": [
+       "Use the verified Quicksilver lines"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Swan Song, An Offer You Can't Refuse, Deadly Rollick, Toxic Deluge, Cyclonic Rift.",
+      "mana": "32 lands, Mana Vault, Chrome Mox, Mox Diamond, Lotus Petal, Gilded Lotus.",
+      "protection": "Lightning Greaves, Deflecting Swat, Aetherling and Cephalid Inkshrouder cages."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Mairsil, the Pretender",
+       "Quicksilver Elemental",
+       "Gilded Lotus",
+       "Staff of Domination",
+       "Horseshoe Crab",
+       "Morphling"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Walking Ballista"
+      ],
+      "evidence_class": "fact",
+      "id": "quicksilver-lotus",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Rings of Brighthearth",
+       "Aphetto Alchemist",
+       "Gilded Lotus"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "rings-alchemist",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Mairsil, the Pretender",
+       "Hateflayer",
+       "Tree of Perdition",
+       "Aetherling",
+       "Anger",
+       "Nevinyrral's Disk"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "mairsil-lines",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Mairsil is the engine: every caged ability lives on him, and five of the six Spellbook combos include him.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Each acquired ability is once per turn per Mairsil object, so the loops need fresh objects (Quicksilver Elemental, blinks, copies). The deck is fragile to graveyard and exile hate on caged cards. The cycle 51 M1 review (mairsil-01..11) verifies the cage rules; mairsil-10 (Marvin without the once-per-turn limit) was re-evaluated in Bot cycle 62 under CR 113.10a: Marvin's copies keep the restriction, so the no-restriction hypothesis is incorrect (M1 post-acceptance correction, data/grixis/m1_corrections.json).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 5,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 6
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:board_wipe:f412e3ddb209",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:artifacts_wiped:3f21c7fd44d6",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:commander_removed_twice:77a790dc126c",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:key_engine_exiled:ac03edb4499c",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:mana_screw:aa44cd72bca8",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:color_screw:06da064f0f59",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:graveyard_exiled:870d737241d3",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#failure_modes/mairsil-removed",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "Aetherling",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Aetherling",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1050-4068-4439-5112"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/tap-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines"
+      ],
+      "card": "Anger",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Anger",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1050-4068-4439-5112"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/rings-alchemist"
+      ],
+      "card": "Aphetto Alchemist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Aphetto Alchemist",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:4091-4235-5116"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/tap-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#identity_core/Asmodeus the Archfiend",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/asmodeus"
+      ],
+      "card": "Asmodeus the Archfiend",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Asmodeus the Archfiend"
+      ],
+      "roles": [
+       "draw",
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Eater of the Dead",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Eater of the Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Endling",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Endling"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/quicksilver-lotus",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#tutor_targets/Gilded Lotus"
+      ],
+      "card": "Gilded Lotus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Gilded Lotus",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-2645-5112-5116",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-3995-5112-5116"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines"
+      ],
+      "card": "Hateflayer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Hateflayer",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:2615-4449-5112"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/quicksilver-lotus",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus"
+      ],
+      "card": "Horseshoe Crab",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Horseshoe Crab",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-3995-5112-5116"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/tap-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#identity_core/Minamo, School at Water's Edge"
+      ],
+      "card": "Minamo, School at Water's Edge",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Minamo, School at Water's Edge"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Minion of Leshrac",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Minion of Leshrac"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/quicksilver-lotus",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus"
+      ],
+      "card": "Morphling",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Morphling",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-5112-5116-5137"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines"
+      ],
+      "card": "Nevinyrral's Disk",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Nevinyrral's Disk",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1050-4068-4439-5112"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/re-cage",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#identity_core/Pack Rat",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/rings-pack-rat"
+      ],
+      "card": "Pack Rat",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Pack Rat"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#identity_core/Quicksilver Elemental",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/quicksilver-lotus"
+      ],
+      "card": "Quicksilver Elemental",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Quicksilver Elemental",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-2645-5112-5116",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-3995-5112-5116"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/re-cage",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/rings-pack-rat",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#plan/value"
+      ],
+      "card": "Rings of Brighthearth",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Rings of Brighthearth",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:4091-4235-5116"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Shauku, Endbringer",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Shauku, Endbringer"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/quicksilver-lotus",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus"
+      ],
+      "card": "Staff of Domination",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Staff of Domination",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-2645-5112-5116"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/tap-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/elixir-wishclaw"
+      ],
+      "card": "Thousand-Year Elixir",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Thousand-Year Elixir"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/tap-payloads"
+      ],
+      "card": "Training Grounds",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Training Grounds"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines"
+      ],
+      "card": "Tree of Perdition",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Tree of Perdition",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:2615-4449-5112"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus"
+      ],
+      "card": "Walking Ballista",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Walking Ballista"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't replace the cage-toolbox identity with a tournament cEDH shell (verification L37).",
+      "Avoid unsafe self-mill lines (verification L60)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Without Mairsil the caged abilities are inaccessible.",
+      "evidence_class": "strategic_judgment",
+      "id": "mairsil-removed",
+      "mitigations": [
+       "Aetherling cage",
+       "Greaves",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Graveyard hate stops caging from the yard.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Cage from hand"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Self-mill lines like Mirror-Mad Phantasm were cut as unsafe.",
+      "evidence_class": "strategic_judgment",
+      "id": "unsafe-lines",
+      "mitigations": [
+       "Use the verified Quicksilver lines"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Swan Song, An Offer You Can't Refuse, Deadly Rollick, Toxic Deluge, Cyclonic Rift.",
+      "mana": "32 lands, Mana Vault, Chrome Mox, Mox Diamond, Lotus Petal, Gilded Lotus.",
+      "protection": "Lightning Greaves, Deflecting Swat, Aetherling and Cephalid Inkshrouder cages."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Mairsil, the Pretender",
+       "Quicksilver Elemental",
+       "Gilded Lotus",
+       "Staff of Domination",
+       "Horseshoe Crab",
+       "Morphling"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Walking Ballista"
+      ],
+      "evidence_class": "fact",
+      "id": "quicksilver-lotus",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Rings of Brighthearth",
+       "Aphetto Alchemist",
+       "Gilded Lotus"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "rings-alchemist",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Mairsil, the Pretender",
+       "Hateflayer",
+       "Tree of Perdition",
+       "Aetherling",
+       "Anger",
+       "Nevinyrral's Disk"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "mairsil-lines",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Mairsil is the engine: every caged ability lives on him, and five of the six Spellbook combos include him.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Each acquired ability is once per turn per Mairsil object, so the loops need fresh objects (Quicksilver Elemental, blinks, copies). The deck is fragile to graveyard and exile hate on caged cards. The cycle 51 M1 review (mairsil-01..11) verifies the cage rules; mairsil-10 (Marvin without the once-per-turn limit) was re-evaluated in Bot cycle 62 under CR 113.10a: Marvin's copies keep the restriction, so the no-restriction hypothesis is incorrect (M1 post-acceptance correction, data/grixis/m1_corrections.json).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 5,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 6
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:board_wipe:f412e3ddb209",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:artifacts_wiped:3f21c7fd44d6",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:commander_removed_twice:77a790dc126c",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:key_engine_exiled:ac03edb4499c",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:mana_screw:aa44cd72bca8",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:color_screw:06da064f0f59",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:graveyard_exiled:870d737241d3",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#failure_modes/mairsil-removed",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "Aetherling",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Aetherling",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1050-4068-4439-5112"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/tap-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines"
+      ],
+      "card": "Anger",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Anger",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1050-4068-4439-5112"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/rings-alchemist"
+      ],
+      "card": "Aphetto Alchemist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Aphetto Alchemist",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:4091-4235-5116"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/tap-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#identity_core/Asmodeus the Archfiend",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/asmodeus"
+      ],
+      "card": "Asmodeus the Archfiend",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Asmodeus the Archfiend"
+      ],
+      "roles": [
+       "draw",
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Eater of the Dead",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Eater of the Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Endling",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Endling"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/quicksilver-lotus",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#tutor_targets/Gilded Lotus"
+      ],
+      "card": "Gilded Lotus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Gilded Lotus",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-2645-5112-5116",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-3995-5112-5116"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines"
+      ],
+      "card": "Hateflayer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Hateflayer",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:2615-4449-5112"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/quicksilver-lotus",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus"
+      ],
+      "card": "Horseshoe Crab",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Horseshoe Crab",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-3995-5112-5116"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/tap-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#identity_core/Minamo, School at Water's Edge"
+      ],
+      "card": "Minamo, School at Water's Edge",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Minamo, School at Water's Edge"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Minion of Leshrac",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Minion of Leshrac"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/quicksilver-lotus",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus"
+      ],
+      "card": "Morphling",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Morphling",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-5112-5116-5137"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines"
+      ],
+      "card": "Nevinyrral's Disk",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Nevinyrral's Disk",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1050-4068-4439-5112"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/re-cage",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#identity_core/Pack Rat",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/rings-pack-rat"
+      ],
+      "card": "Pack Rat",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Pack Rat"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#identity_core/Quicksilver Elemental",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/quicksilver-lotus"
+      ],
+      "card": "Quicksilver Elemental",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Quicksilver Elemental",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-2645-5112-5116",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-3995-5112-5116"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/re-cage",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/rings-pack-rat",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#plan/value"
+      ],
+      "card": "Rings of Brighthearth",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Rings of Brighthearth",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:4091-4235-5116"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Shauku, Endbringer",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Shauku, Endbringer"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/quicksilver-lotus",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus"
+      ],
+      "card": "Staff of Domination",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Staff of Domination",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:1369-2645-5112-5116"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "Swan Song",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Swan Song"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/tap-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#key_interactions/elixir-wishclaw"
+      ],
+      "card": "Thousand-Year Elixir",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Thousand-Year Elixir"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#engines/tap-payloads"
+      ],
+      "card": "Training Grounds",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Training Grounds"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/mairsil-lines"
+      ],
+      "card": "Tree of Perdition",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Tree of Perdition",
+       "graph:data/grixis/graph/mairsil-the-pretender.json#combo:2615-4449-5112"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#packages/pkg:cage-payloads",
+       "blueprint:data/grixis/blueprints/mairsil-the-pretender.json#win_conditions/quicksilver-lotus"
+      ],
+      "card": "Walking Ballista",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/mairsil-the-pretender.json#metrics/Walking Ballista"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't replace the cage-toolbox identity with a tournament cEDH shell (verification L37).",
+      "Avoid unsafe self-mill lines (verification L60)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Without Mairsil the caged abilities are inaccessible.",
+      "evidence_class": "strategic_judgment",
+      "id": "mairsil-removed",
+      "mitigations": [
+       "Aetherling cage",
+       "Greaves",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Graveyard hate stops caging from the yard.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Cage from hand"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Self-mill lines like Mirror-Mad Phantasm were cut as unsafe.",
+      "evidence_class": "strategic_judgment",
+      "id": "unsafe-lines",
+      "mitigations": [
+       "Use the verified Quicksilver lines"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Swan Song, An Offer You Can't Refuse, Deadly Rollick, Toxic Deluge, Cyclonic Rift.",
+      "mana": "32 lands, Mana Vault, Chrome Mox, Mox Diamond, Lotus Petal, Gilded Lotus.",
+      "protection": "Lightning Greaves, Deflecting Swat, Aetherling and Cephalid Inkshrouder cages."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Mairsil, the Pretender",
+       "Quicksilver Elemental",
+       "Gilded Lotus",
+       "Staff of Domination",
+       "Horseshoe Crab",
+       "Morphling"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Walking Ballista"
+      ],
+      "evidence_class": "fact",
+      "id": "quicksilver-lotus",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Rings of Brighthearth",
+       "Aphetto Alchemist",
+       "Gilded Lotus"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "rings-alchemist",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Mairsil, the Pretender",
+       "Hateflayer",
+       "Tree of Perdition",
+       "Aetherling",
+       "Anger",
+       "Nevinyrral's Disk"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "mairsil-lines",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Mairsil is the engine: every caged ability lives on him, and five of the six Spellbook combos include him.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Each acquired ability is once per turn per Mairsil object, so the loops need fresh objects (Quicksilver Elemental, blinks, copies). The deck is fragile to graveyard and exile hate on caged cards. The cycle 51 M1 review (mairsil-01..11) verifies the cage rules; mairsil-10 (Marvin without the once-per-turn limit) was re-evaluated in Bot cycle 62 under CR 113.10a: Marvin's copies keep the restriction, so the no-restriction hypothesis is incorrect (M1 post-acceptance correction, data/grixis/m1_corrections.json).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 5,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 6
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:board_wipe:f412e3ddb209",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:artifacts_wiped:3f21c7fd44d6",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:commander_removed_twice:77a790dc126c",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:key_engine_exiled:ac03edb4499c",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:mana_screw:aa44cd72bca8",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:color_screw:06da064f0f59",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/mairsil-the-pretender.json#test:mairsil-the-pretender:stress:graveyard_exiled:870d737241d3",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "mairsil-the-pretender",
+ "source_packet": "data/grixis/bracket_stress_packets/mairsil-the-pretender.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

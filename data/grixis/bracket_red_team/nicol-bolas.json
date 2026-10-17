@@ -1,0 +1,2392 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+ "deck_id": "Nicol_Bolas",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 98,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#plan/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#tutor_targets/Aggravated Assault"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/nicol-bolas.json#combo:900-3750",
+       "graph:data/grixis/graph/nicol-bolas.json#win:sword-assault"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:mana"
+      ],
+      "card": "Arcane Signet",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:mana"
+      ],
+      "card": "Cabal Ritual",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Cabal Ritual"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#identity_core/Chandra's Ignition",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/creature-is-source"
+      ],
+      "card": "Chandra's Ignition",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Chandra's Ignition"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:mana"
+      ],
+      "card": "Chrome Mox",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Chrome Mox"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Court of Ambition",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Court of Ambition"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/creature-is-source"
+      ],
+      "card": "Curiosity",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Curiosity"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:mana"
+      ],
+      "card": "Dark Ritual",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Dark Ritual"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dimir Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Dimir Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#identity_core/Dragon Tempest",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:bolas-sourced-damage"
+      ],
+      "card": "Dragon Tempest",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Dragon Tempest"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:discard-payoffs"
+      ],
+      "card": "Geth's Grimoire",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Geth's Grimoire"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:mana"
+      ],
+      "card": "Grim Monolith",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Grim Monolith"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hypnotic Specter",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Hypnotic Specter"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/ignition-self-sweep",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/ingris-pre-blocks"
+      ],
+      "card": "Ingris Stingerquill",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Ingris Stingerquill"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Izzet Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Izzet Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#recursion/value"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Jeska's Will"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#identity_core/Kediss, Emberclaw Familiar",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/ignition-self-sweep"
+      ],
+      "card": "Kediss, Emberclaw Familiar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Kediss, Emberclaw Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#win_conditions/discard-lock"
+      ],
+      "card": "Liliana's Caress",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Liliana's Caress"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:mana"
+      ],
+      "card": "Mana Vault",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Mana Vault"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:mana"
+      ],
+      "card": "Mox Diamond",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Mox Diamond"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystic Remora",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Mystic Remora"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      ],
+      "roles": [
+       "draw",
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nightscape Familiar",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Nightscape Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/no-mercy-symmetric"
+      ],
+      "card": "No Mercy",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/No Mercy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Notion Thief",
+      "decision_support": true,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Notion Thief"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Oppression",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Oppression"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/creature-is-source",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:bolas-sourced-damage"
+      ],
+      "card": "Pain for All",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Pain for All"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/creature-is-source",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:bolas-sourced-damage"
+      ],
+      "card": "Quicksilver Dagger",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Quicksilver Dagger"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't import Bolas planeswalkers; they belong to deck #42 (blueprint L61).",
+      "Not a generic Grixis combo shell."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Losing an eight-mana commander before it deals damage is catastrophic.",
+      "evidence_class": "strategic_judgment",
+      "id": "eight-drop-removed",
+      "mitigations": [
+       "Protection package",
+       "Command Beacon"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "The upkeep tax delays the rest of the game plan.",
+      "evidence_class": "strategic_judgment",
+      "id": "upkeep-cost",
+      "mitigations": [
+       "Mana density"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No deterministic commander win; fast combo tables outrace it.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-combo",
+      "mitigations": [
+       "Free counters"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, Counterspell, Terminate, Sheoldred's Edict, Chaos Warp, Toxic Deluge, Cyclonic Rift.",
+      "mana": "High-quality UUBBRR mana plus rituals.",
+      "protection": "Boots, Greaves, Regalia, Cavern, Command Beacon."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Sword of Feast and Famine",
+       "Aggravated Assault"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Nicol Bolas"
+      ],
+      "evidence_class": "fact",
+      "id": "sword-assault",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Nicol Bolas",
+       "Liliana's Caress",
+       "Raiders' Wake",
+       "Torment of Hailfire"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Dragon Tempest",
+       "Ingris Stingerquill",
+       "Kediss, Emberclaw Familiar",
+       "Chandra's Ignition",
+       "Pain for All",
+       "Quicksilver Dagger",
+       "Viridian Longbow"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "discard-lock",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Bolas's damage-triggered hand wipe is the engine every damage enabler and discard payoff is built around.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The identity is real but the commander is weak: 8 mana with UUBBRR, an {U}{B}{R} upkeep tax, and no command-zone combo (blueprint L57). The only Spellbook combo in the list is Sword of Feast and Famine + Aggravated Assault, which doesn't need him. Expect a slow, low-end Bracket 4 control deck. The cycle 51 M1 review (bolas-01..09) verifies the damage-source lines and flags Ignition hitting your own creatures (bolas-04).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:board_wipe:e3bb5d47dd9f",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:artifacts_wiped:bdfbfe86ce8d",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:commander_removed_twice:20996009953d",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "inconclusive",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:key_engine_exiled:e16142ae6368",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:mana_screw:8f6ef957ed17",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:color_screw:93436f25c383",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:graveyard_exiled:0cab94a50245",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#plan/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#tutor_targets/Aggravated Assault"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/nicol-bolas.json#combo:900-3750",
+       "graph:data/grixis/graph/nicol-bolas.json#win:sword-assault"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bedevil",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Bedevil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#identity_core/Chandra's Ignition",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/creature-is-source"
+      ],
+      "card": "Chandra's Ignition",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Chandra's Ignition"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Court of Ambition",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Court of Ambition"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#identity_core/Dragon Tempest",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:bolas-sourced-damage"
+      ],
+      "card": "Dragon Tempest",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Dragon Tempest"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hypnotic Specter",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Hypnotic Specter"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/ignition-self-sweep",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/ingris-pre-blocks"
+      ],
+      "card": "Ingris Stingerquill",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Ingris Stingerquill"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#identity_core/Kediss, Emberclaw Familiar",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/ignition-self-sweep"
+      ],
+      "card": "Kediss, Emberclaw Familiar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Kediss, Emberclaw Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#win_conditions/discard-lock"
+      ],
+      "card": "Liliana's Caress",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Liliana's Caress"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      ],
+      "roles": [
+       "draw",
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nightscape Familiar",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Nightscape Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/no-mercy-symmetric"
+      ],
+      "card": "No Mercy",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/No Mercy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Oppression",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Oppression"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/creature-is-source",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:bolas-sourced-damage"
+      ],
+      "card": "Pain for All",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Pain for All"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/creature-is-source",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:bolas-sourced-damage"
+      ],
+      "card": "Quicksilver Dagger",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Quicksilver Dagger"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#win_conditions/discard-lock"
+      ],
+      "card": "Raiders' Wake",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Raiders' Wake"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#requirements/value"
+      ],
+      "card": "Sheoldred's Edict",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Sheoldred's Edict"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#plan/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#win_conditions/sword-assault"
+      ],
+      "card": "Sword of Feast and Famine",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Sword of Feast and Famine",
+       "graph:data/grixis/graph/nicol-bolas.json#combo:900-3750",
+       "graph:data/grixis/graph/nicol-bolas.json#win:sword-assault"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/tergrid-tinybones-order",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:discard-payoffs"
+      ],
+      "card": "Tergrid, God of Fright // Tergrid's Lantern",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Tergrid, God of Fright // Tergrid's Lantern"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#requirements/value"
+      ],
+      "card": "Terminate",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Terminate"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Eldest Reborn",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/The Eldest Reborn"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#plan/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#win_conditions/discard-lock"
+      ],
+      "card": "Torment of Hailfire",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Torment of Hailfire"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/creature-is-source",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:bolas-sourced-damage"
+      ],
+      "card": "Viridian Longbow",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Viridian Longbow"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#identity_core/Waste Not",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:discard-payoffs"
+      ],
+      "card": "Waste Not",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Waste Not"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't import Bolas planeswalkers; they belong to deck #42 (blueprint L61).",
+      "Not a generic Grixis combo shell."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Losing an eight-mana commander before it deals damage is catastrophic.",
+      "evidence_class": "strategic_judgment",
+      "id": "eight-drop-removed",
+      "mitigations": [
+       "Protection package",
+       "Command Beacon"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "The upkeep tax delays the rest of the game plan.",
+      "evidence_class": "strategic_judgment",
+      "id": "upkeep-cost",
+      "mitigations": [
+       "Mana density"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No deterministic commander win; fast combo tables outrace it.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-combo",
+      "mitigations": [
+       "Free counters"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, Counterspell, Terminate, Sheoldred's Edict, Chaos Warp, Toxic Deluge, Cyclonic Rift.",
+      "mana": "High-quality UUBBRR mana plus rituals.",
+      "protection": "Boots, Greaves, Regalia, Cavern, Command Beacon."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Sword of Feast and Famine",
+       "Aggravated Assault"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Nicol Bolas"
+      ],
+      "evidence_class": "fact",
+      "id": "sword-assault",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Nicol Bolas",
+       "Liliana's Caress",
+       "Raiders' Wake",
+       "Torment of Hailfire"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Dragon Tempest",
+       "Ingris Stingerquill",
+       "Kediss, Emberclaw Familiar",
+       "Chandra's Ignition",
+       "Pain for All",
+       "Quicksilver Dagger",
+       "Viridian Longbow"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "discard-lock",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Bolas's damage-triggered hand wipe is the engine every damage enabler and discard payoff is built around.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The identity is real but the commander is weak: 8 mana with UUBBRR, an {U}{B}{R} upkeep tax, and no command-zone combo (blueprint L57). The only Spellbook combo in the list is Sword of Feast and Famine + Aggravated Assault, which doesn't need him. Expect a slow, low-end Bracket 4 control deck. The cycle 51 M1 review (bolas-01..09) verifies the damage-source lines and flags Ignition hitting your own creatures (bolas-04).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:board_wipe:e3bb5d47dd9f",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:artifacts_wiped:bdfbfe86ce8d",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:commander_removed_twice:20996009953d",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "inconclusive",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:key_engine_exiled:e16142ae6368",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:mana_screw:8f6ef957ed17",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:color_screw:93436f25c383",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:graveyard_exiled:0cab94a50245",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#plan/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#tutor_targets/Aggravated Assault"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/nicol-bolas.json#combo:900-3750",
+       "graph:data/grixis/graph/nicol-bolas.json#win:sword-assault"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bedevil",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Bedevil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#identity_core/Chandra's Ignition",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/creature-is-source"
+      ],
+      "card": "Chandra's Ignition",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Chandra's Ignition"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Court of Ambition",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Court of Ambition"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#identity_core/Dragon Tempest",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:bolas-sourced-damage"
+      ],
+      "card": "Dragon Tempest",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Dragon Tempest"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hypnotic Specter",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Hypnotic Specter"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/ignition-self-sweep",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/ingris-pre-blocks"
+      ],
+      "card": "Ingris Stingerquill",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Ingris Stingerquill"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#identity_core/Kediss, Emberclaw Familiar",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/ignition-self-sweep"
+      ],
+      "card": "Kediss, Emberclaw Familiar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Kediss, Emberclaw Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#win_conditions/discard-lock"
+      ],
+      "card": "Liliana's Caress",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Liliana's Caress"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      ],
+      "roles": [
+       "draw",
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nightscape Familiar",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Nightscape Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/no-mercy-symmetric"
+      ],
+      "card": "No Mercy",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/No Mercy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Oppression",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Oppression"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/creature-is-source",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:bolas-sourced-damage"
+      ],
+      "card": "Pain for All",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Pain for All"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/creature-is-source",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:bolas-sourced-damage"
+      ],
+      "card": "Quicksilver Dagger",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Quicksilver Dagger"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#win_conditions/discard-lock"
+      ],
+      "card": "Raiders' Wake",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Raiders' Wake"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#requirements/value"
+      ],
+      "card": "Sheoldred's Edict",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Sheoldred's Edict"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#plan/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#win_conditions/sword-assault"
+      ],
+      "card": "Sword of Feast and Famine",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Sword of Feast and Famine",
+       "graph:data/grixis/graph/nicol-bolas.json#combo:900-3750",
+       "graph:data/grixis/graph/nicol-bolas.json#win:sword-assault"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/tergrid-tinybones-order",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:discard-payoffs"
+      ],
+      "card": "Tergrid, God of Fright // Tergrid's Lantern",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Tergrid, God of Fright // Tergrid's Lantern"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#requirements/value"
+      ],
+      "card": "Terminate",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Terminate"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Eldest Reborn",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/The Eldest Reborn"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#plan/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#win_conditions/discard-lock"
+      ],
+      "card": "Torment of Hailfire",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Torment of Hailfire"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/creature-is-source",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:bolas-sourced-damage"
+      ],
+      "card": "Viridian Longbow",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Viridian Longbow"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#identity_core/Waste Not",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:discard-payoffs"
+      ],
+      "card": "Waste Not",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Waste Not"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't import Bolas planeswalkers; they belong to deck #42 (blueprint L61).",
+      "Not a generic Grixis combo shell."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Losing an eight-mana commander before it deals damage is catastrophic.",
+      "evidence_class": "strategic_judgment",
+      "id": "eight-drop-removed",
+      "mitigations": [
+       "Protection package",
+       "Command Beacon"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "The upkeep tax delays the rest of the game plan.",
+      "evidence_class": "strategic_judgment",
+      "id": "upkeep-cost",
+      "mitigations": [
+       "Mana density"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No deterministic commander win; fast combo tables outrace it.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-combo",
+      "mitigations": [
+       "Free counters"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, Counterspell, Terminate, Sheoldred's Edict, Chaos Warp, Toxic Deluge, Cyclonic Rift.",
+      "mana": "High-quality UUBBRR mana plus rituals.",
+      "protection": "Boots, Greaves, Regalia, Cavern, Command Beacon."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Sword of Feast and Famine",
+       "Aggravated Assault"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Nicol Bolas"
+      ],
+      "evidence_class": "fact",
+      "id": "sword-assault",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Nicol Bolas",
+       "Liliana's Caress",
+       "Raiders' Wake",
+       "Torment of Hailfire"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Dragon Tempest",
+       "Ingris Stingerquill",
+       "Kediss, Emberclaw Familiar",
+       "Chandra's Ignition",
+       "Pain for All",
+       "Quicksilver Dagger",
+       "Viridian Longbow"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "discard-lock",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Bolas's damage-triggered hand wipe is the engine every damage enabler and discard payoff is built around.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The identity is real but the commander is weak: 8 mana with UUBBRR, an {U}{B}{R} upkeep tax, and no command-zone combo (blueprint L57). The only Spellbook combo in the list is Sword of Feast and Famine + Aggravated Assault, which doesn't need him. Expect a slow, low-end Bracket 4 control deck. The cycle 51 M1 review (bolas-01..09) verifies the damage-source lines and flags Ignition hitting your own creatures (bolas-04).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:board_wipe:e3bb5d47dd9f",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:artifacts_wiped:bdfbfe86ce8d",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:commander_removed_twice:20996009953d",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "inconclusive",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:key_engine_exiled:e16142ae6368",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:mana_screw:8f6ef957ed17",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:color_screw:93436f25c383",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:graveyard_exiled:0cab94a50245",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#plan/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#tutor_targets/Aggravated Assault"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/nicol-bolas.json#combo:900-3750",
+       "graph:data/grixis/graph/nicol-bolas.json#win:sword-assault"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bedevil",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Bedevil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#identity_core/Chandra's Ignition",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/creature-is-source"
+      ],
+      "card": "Chandra's Ignition",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Chandra's Ignition"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#requirements/value"
+      ],
+      "card": "Counterspell",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Counterspell"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Court of Ambition",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Court of Ambition"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#identity_core/Dragon Tempest",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:bolas-sourced-damage"
+      ],
+      "card": "Dragon Tempest",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Dragon Tempest"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:protection"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:protection",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#requirements/value"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hypnotic Specter",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Hypnotic Specter"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/ignition-self-sweep",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/ingris-pre-blocks"
+      ],
+      "card": "Ingris Stingerquill",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Ingris Stingerquill"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#identity_core/Kediss, Emberclaw Familiar",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/ignition-self-sweep"
+      ],
+      "card": "Kediss, Emberclaw Familiar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Kediss, Emberclaw Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#win_conditions/discard-lock"
+      ],
+      "card": "Liliana's Caress",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Liliana's Caress"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      ],
+      "roles": [
+       "draw",
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nightscape Familiar",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Nightscape Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/no-mercy-symmetric"
+      ],
+      "card": "No Mercy",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/No Mercy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Oppression",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Oppression"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/creature-is-source",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:bolas-sourced-damage"
+      ],
+      "card": "Pain for All",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Pain for All"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/bolas-damage",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/creature-is-source",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:bolas-sourced-damage"
+      ],
+      "card": "Quicksilver Dagger",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Quicksilver Dagger"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#win_conditions/discard-lock"
+      ],
+      "card": "Raiders' Wake",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Raiders' Wake"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#requirements/value"
+      ],
+      "card": "Sheoldred's Edict",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Sheoldred's Edict"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#plan/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#win_conditions/sword-assault"
+      ],
+      "card": "Sword of Feast and Famine",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Sword of Feast and Famine",
+       "graph:data/grixis/graph/nicol-bolas.json#combo:900-3750",
+       "graph:data/grixis/graph/nicol-bolas.json#win:sword-assault"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#engines/discard-payoffs",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#key_interactions/tergrid-tinybones-order",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#packages/pkg:discard-payoffs"
+      ],
+      "card": "Tergrid, God of Fright // Tergrid's Lantern",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Tergrid, God of Fright // Tergrid's Lantern"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#requirements/value"
+      ],
+      "card": "Terminate",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Terminate"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Eldest Reborn",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/The Eldest Reborn"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#plan/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#win_conditions/discard-lock"
+      ],
+      "card": "Torment of Hailfire",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Torment of Hailfire"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't import Bolas planeswalkers; they belong to deck #42 (blueprint L61).",
+      "Not a generic Grixis combo shell."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Losing an eight-mana commander before it deals damage is catastrophic.",
+      "evidence_class": "strategic_judgment",
+      "id": "eight-drop-removed",
+      "mitigations": [
+       "Protection package",
+       "Command Beacon"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "The upkeep tax delays the rest of the game plan.",
+      "evidence_class": "strategic_judgment",
+      "id": "upkeep-cost",
+      "mitigations": [
+       "Mana density"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No deterministic commander win; fast combo tables outrace it.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-combo",
+      "mitigations": [
+       "Free counters"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, Counterspell, Terminate, Sheoldred's Edict, Chaos Warp, Toxic Deluge, Cyclonic Rift.",
+      "mana": "High-quality UUBBRR mana plus rituals.",
+      "protection": "Boots, Greaves, Regalia, Cavern, Command Beacon."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Sword of Feast and Famine",
+       "Aggravated Assault"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Nicol Bolas"
+      ],
+      "evidence_class": "fact",
+      "id": "sword-assault",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Nicol Bolas",
+       "Liliana's Caress",
+       "Raiders' Wake",
+       "Torment of Hailfire"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Dragon Tempest",
+       "Ingris Stingerquill",
+       "Kediss, Emberclaw Familiar",
+       "Chandra's Ignition",
+       "Pain for All",
+       "Quicksilver Dagger",
+       "Viridian Longbow"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "discard-lock",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Bolas's damage-triggered hand wipe is the engine every damage enabler and discard payoff is built around.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The identity is real but the commander is weak: 8 mana with UUBBRR, an {U}{B}{R} upkeep tax, and no command-zone combo (blueprint L57). The only Spellbook combo in the list is Sword of Feast and Famine + Aggravated Assault, which doesn't need him. Expect a slow, low-end Bracket 4 control deck. The cycle 51 M1 review (bolas-01..09) verifies the damage-source lines and flags Ignition hitting your own creatures (bolas-04).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:board_wipe:e3bb5d47dd9f",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:artifacts_wiped:bdfbfe86ce8d",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:commander_removed_twice:20996009953d",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "inconclusive",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:key_engine_exiled:e16142ae6368",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:mana_screw:8f6ef957ed17",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:color_screw:93436f25c383",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nicol-bolas.json#test:nicol-bolas:stress:graveyard_exiled:0cab94a50245",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "nicol-bolas",
+ "source_packet": "data/grixis/bracket_stress_packets/nicol-bolas.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

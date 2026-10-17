@@ -1,0 +1,2321 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
+ "deck_id": "Davros__Dalek_Creator",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 94,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ashad, the Lone Cyberman",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Ashad, the Lone Cyberman"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#engines/three-life-enablers",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#identity_core/Court of Ambition",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:three-life-enablers"
+      ],
+      "card": "Court of Ambition",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Court of Ambition"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cult of Skaro",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Cult of Skaro"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyber Conversion",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Cyber Conversion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyberman Patrol",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Cyberman Patrol"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cybermen Squadron",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Cybermen Squadron"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#win_conditions/dalek-army"
+      ],
+      "card": "Dalek Squadron",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Dalek Squadron"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dauthi Voidwalker",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Dauthi Voidwalker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Death in Heaven",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Death in Heaven"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Doomsday Confluence",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Doomsday Confluence"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ensnared by the Mara",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Ensnared by the Mara"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Enthusiastic Mechanaut",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Enthusiastic Mechanaut"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#identity_core/Entropic Battlecruiser",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#key_interactions/battlecruiser",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:discard-punishers"
+      ],
+      "card": "Entropic Battlecruiser",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Entropic Battlecruiser"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:three-life-enablers",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#win_conditions/drain-and-discard"
+      ],
+      "card": "Exterminate!",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Exterminate!"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#win_conditions/drain-and-discard"
+      ],
+      "card": "Geier Reach Sanitarium",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Geier Reach Sanitarium"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#win_conditions/dalek-army"
+      ],
+      "card": "Genesis of the Daleks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Genesis of the Daleks"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:discard-punishers",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#recursion/value"
+      ],
+      "card": "Geth's Grimoire",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Geth's Grimoire"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jeska's Will",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Jeska's Will"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#failure_modes/slow-clock",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#key_interactions/raptor",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#plan/value"
+      ],
+      "card": "Labyrinth Raptor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Labyrinth Raptor"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#engines/three-life-enablers",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:three-life-enablers",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#plan/value"
+      ],
+      "card": "Loyal Subordinate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Loyal Subordinate"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#engines/three-life-enablers",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#identity_core/Maestros Charm",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:three-life-enablers"
+      ],
+      "card": "Maestros Charm",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Maestros Charm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Missy",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Missy"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mox Opal",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Mox Opal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Padeem, Consul of Innovation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Padeem, Consul of Innovation"
+      ],
+      "roles": [
+       "draw",
+       "protection"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sol Ring",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Sol Ring"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:discard-punishers"
+      ],
+      "card": "Sycorax Commander",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Sycorax Commander"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#engines/three-life-enablers"
+      ],
+      "card": "Sygg, River Cutthroat",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Sygg, River Cutthroat"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Talisman of Creativity",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Talisman of Creativity"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't drift into generic Grixis artifacts or generic discard.",
+      "Don't add opponent-upkeep effects (The Rack, Bottomless Pit) that don't help on your turn (source cuts)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "No opponent at 3 life lost this turn: the trigger does nothing.",
+      "evidence_class": "strategic_judgment",
+      "id": "threshold-missed",
+      "mitigations": [
+       "Fixed 3-life enablers"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Opponents pick the cheaper branch every time.",
+      "evidence_class": "strategic_judgment",
+      "id": "opponents-choose",
+      "mitigations": [
+       "Discard punishers make both branches cost something"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Value without a kill: games go long.",
+      "evidence_class": "strategic_judgment",
+      "id": "slow-clock",
+      "mitigations": [
+       "Torment of Hailfire",
+       "Labyrinth Raptor"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Strong: 13 interaction pieces including free counters and sweepers.",
+      "mana": "Four-mana commander; fixing upgrades (City of Brass, Mana Confluence).",
+      "protection": "Greaves, Boots, Padeem (artifact), Plaza of Heroes."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Davros, Dalek Creator",
+       "Labyrinth Raptor",
+       "The Dalek Emperor",
+       "Genesis of the Daleks",
+       "Dalek Squadron"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Loyal Subordinate"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "dalek-army",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Entropic Battlecruiser",
+       "Court of Ambition",
+       "Torment of Hailfire",
+       "Exterminate!",
+       "Wound Reflection"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Geier Reach Sanitarium"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "drain-and-discard",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Davros is the repeatable value engine: Dalek every turn plus a card or a discard per qualifying opponent.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Value-only engine with delayed payoff and opponent choice; no Spellbook combos. The deck is Bracket 4 mainly because of its Game Changers and premium interaction, not because Davros threatens fast wins.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:board_wipe:e6a8fd29462e",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:artifacts_wiped:52d6c63920b2",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:commander_removed_twice:f99f2e1d3250",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:key_engine_exiled:17affa140285",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:mana_screw:cc7665ae7bd5",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:color_screw:d62a6153c5be",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:graveyard_exiled:c6fcb8d3a5dd",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Ashad, the Lone Cyberman",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Ashad, the Lone Cyberman"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Blasphemous Act",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#engines/three-life-enablers",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#identity_core/Court of Ambition",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:three-life-enablers"
+      ],
+      "card": "Court of Ambition",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Court of Ambition"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyber Conversion",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Cyber Conversion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyberman Patrol",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Cyberman Patrol"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cybermen Squadron",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Cybermen Squadron"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dalek Drone",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Dalek Drone"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#win_conditions/dalek-army"
+      ],
+      "card": "Dalek Squadron",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Dalek Squadron"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dauthi Voidwalker",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Dauthi Voidwalker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Death in Heaven",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Death in Heaven"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Doomsday Confluence",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Doomsday Confluence"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ensnared by the Mara",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Ensnared by the Mara"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Enthusiastic Mechanaut",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Enthusiastic Mechanaut"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#identity_core/Entropic Battlecruiser",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#key_interactions/battlecruiser",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:discard-punishers"
+      ],
+      "card": "Entropic Battlecruiser",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Entropic Battlecruiser"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:three-life-enablers",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#win_conditions/drain-and-discard"
+      ],
+      "card": "Exterminate!",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Exterminate!"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feed the Swarm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#win_conditions/drain-and-discard"
+      ],
+      "card": "Geier Reach Sanitarium",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Geier Reach Sanitarium"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#win_conditions/dalek-army"
+      ],
+      "card": "Genesis of the Daleks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Genesis of the Daleks"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#failure_modes/slow-clock",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#key_interactions/raptor",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#plan/value"
+      ],
+      "card": "Labyrinth Raptor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Labyrinth Raptor"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#engines/three-life-enablers",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:three-life-enablers",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#plan/value"
+      ],
+      "card": "Loyal Subordinate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Loyal Subordinate"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#engines/three-life-enablers",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#identity_core/Maestros Charm",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:three-life-enablers"
+      ],
+      "card": "Maestros Charm",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Maestros Charm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Snuff Out",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Snuff Out"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Tezzeret, Master of the Bridge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Tezzeret, Master of the Bridge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Cyber-Controller",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/The Cyber-Controller"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#win_conditions/dalek-army"
+      ],
+      "card": "The Dalek Emperor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/The Dalek Emperor"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#engines/end-step-davros",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#identity_core/The Valeyard",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#key_interactions/valeyard"
+      ],
+      "card": "The Valeyard",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/The Valeyard"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Their Name Is Death",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Their Name Is Death"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "This Is How It Ends",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/This Is How It Ends"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't drift into generic Grixis artifacts or generic discard.",
+      "Don't add opponent-upkeep effects (The Rack, Bottomless Pit) that don't help on your turn (source cuts)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "No opponent at 3 life lost this turn: the trigger does nothing.",
+      "evidence_class": "strategic_judgment",
+      "id": "threshold-missed",
+      "mitigations": [
+       "Fixed 3-life enablers"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Opponents pick the cheaper branch every time.",
+      "evidence_class": "strategic_judgment",
+      "id": "opponents-choose",
+      "mitigations": [
+       "Discard punishers make both branches cost something"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Value without a kill: games go long.",
+      "evidence_class": "strategic_judgment",
+      "id": "slow-clock",
+      "mitigations": [
+       "Torment of Hailfire",
+       "Labyrinth Raptor"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Strong: 13 interaction pieces including free counters and sweepers.",
+      "mana": "Four-mana commander; fixing upgrades (City of Brass, Mana Confluence).",
+      "protection": "Greaves, Boots, Padeem (artifact), Plaza of Heroes."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Davros, Dalek Creator",
+       "Labyrinth Raptor",
+       "The Dalek Emperor",
+       "Genesis of the Daleks",
+       "Dalek Squadron"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Loyal Subordinate"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "dalek-army",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Entropic Battlecruiser",
+       "Court of Ambition",
+       "Torment of Hailfire",
+       "Exterminate!",
+       "Wound Reflection"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Geier Reach Sanitarium"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "drain-and-discard",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Davros is the repeatable value engine: Dalek every turn plus a card or a discard per qualifying opponent.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Value-only engine with delayed payoff and opponent choice; no Spellbook combos. The deck is Bracket 4 mainly because of its Game Changers and premium interaction, not because Davros threatens fast wins.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:board_wipe:e6a8fd29462e",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:artifacts_wiped:52d6c63920b2",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:commander_removed_twice:f99f2e1d3250",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:key_engine_exiled:17affa140285",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:mana_screw:cc7665ae7bd5",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:color_screw:d62a6153c5be",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:graveyard_exiled:c6fcb8d3a5dd",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Ashad, the Lone Cyberman",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Ashad, the Lone Cyberman"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Blasphemous Act",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#engines/three-life-enablers",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#identity_core/Court of Ambition",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:three-life-enablers"
+      ],
+      "card": "Court of Ambition",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Court of Ambition"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyber Conversion",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Cyber Conversion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyberman Patrol",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Cyberman Patrol"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cybermen Squadron",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Cybermen Squadron"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dalek Drone",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Dalek Drone"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#win_conditions/dalek-army"
+      ],
+      "card": "Dalek Squadron",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Dalek Squadron"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dauthi Voidwalker",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Dauthi Voidwalker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Death in Heaven",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Death in Heaven"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Doomsday Confluence",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Doomsday Confluence"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ensnared by the Mara",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Ensnared by the Mara"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Enthusiastic Mechanaut",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Enthusiastic Mechanaut"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#identity_core/Entropic Battlecruiser",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#key_interactions/battlecruiser",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:discard-punishers"
+      ],
+      "card": "Entropic Battlecruiser",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Entropic Battlecruiser"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:three-life-enablers",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#win_conditions/drain-and-discard"
+      ],
+      "card": "Exterminate!",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Exterminate!"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feed the Swarm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#win_conditions/drain-and-discard"
+      ],
+      "card": "Geier Reach Sanitarium",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Geier Reach Sanitarium"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#win_conditions/dalek-army"
+      ],
+      "card": "Genesis of the Daleks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Genesis of the Daleks"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#failure_modes/slow-clock",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#key_interactions/raptor",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#plan/value"
+      ],
+      "card": "Labyrinth Raptor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Labyrinth Raptor"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#engines/three-life-enablers",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:three-life-enablers",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#plan/value"
+      ],
+      "card": "Loyal Subordinate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Loyal Subordinate"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#engines/three-life-enablers",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#identity_core/Maestros Charm",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:three-life-enablers"
+      ],
+      "card": "Maestros Charm",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Maestros Charm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Snuff Out",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Snuff Out"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Tezzeret, Master of the Bridge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Tezzeret, Master of the Bridge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Cyber-Controller",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/The Cyber-Controller"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#win_conditions/dalek-army"
+      ],
+      "card": "The Dalek Emperor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/The Dalek Emperor"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#engines/end-step-davros",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#identity_core/The Valeyard",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#key_interactions/valeyard"
+      ],
+      "card": "The Valeyard",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/The Valeyard"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Their Name Is Death",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Their Name Is Death"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "This Is How It Ends",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/This Is How It Ends"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't drift into generic Grixis artifacts or generic discard.",
+      "Don't add opponent-upkeep effects (The Rack, Bottomless Pit) that don't help on your turn (source cuts)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "No opponent at 3 life lost this turn: the trigger does nothing.",
+      "evidence_class": "strategic_judgment",
+      "id": "threshold-missed",
+      "mitigations": [
+       "Fixed 3-life enablers"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Opponents pick the cheaper branch every time.",
+      "evidence_class": "strategic_judgment",
+      "id": "opponents-choose",
+      "mitigations": [
+       "Discard punishers make both branches cost something"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Value without a kill: games go long.",
+      "evidence_class": "strategic_judgment",
+      "id": "slow-clock",
+      "mitigations": [
+       "Torment of Hailfire",
+       "Labyrinth Raptor"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Strong: 13 interaction pieces including free counters and sweepers.",
+      "mana": "Four-mana commander; fixing upgrades (City of Brass, Mana Confluence).",
+      "protection": "Greaves, Boots, Padeem (artifact), Plaza of Heroes."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Davros, Dalek Creator",
+       "Labyrinth Raptor",
+       "The Dalek Emperor",
+       "Genesis of the Daleks",
+       "Dalek Squadron"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Loyal Subordinate"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "dalek-army",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Entropic Battlecruiser",
+       "Court of Ambition",
+       "Torment of Hailfire",
+       "Exterminate!",
+       "Wound Reflection"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Geier Reach Sanitarium"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "drain-and-discard",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Davros is the repeatable value engine: Dalek every turn plus a card or a discard per qualifying opponent.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Value-only engine with delayed payoff and opponent choice; no Spellbook combos. The deck is Bracket 4 mainly because of its Game Changers and premium interaction, not because Davros threatens fast wins.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:board_wipe:e6a8fd29462e",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:artifacts_wiped:52d6c63920b2",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:commander_removed_twice:f99f2e1d3250",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:key_engine_exiled:17affa140285",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:mana_screw:cc7665ae7bd5",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:color_screw:d62a6153c5be",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:graveyard_exiled:c6fcb8d3a5dd",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Ashad, the Lone Cyberman",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Ashad, the Lone Cyberman"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Blasphemous Act",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Counterspell",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Counterspell"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#engines/three-life-enablers",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#identity_core/Court of Ambition",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:three-life-enablers"
+      ],
+      "card": "Court of Ambition",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Court of Ambition"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyber Conversion",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Cyber Conversion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyberman Patrol",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Cyberman Patrol"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cybermen Squadron",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Cybermen Squadron"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dalek Drone",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Dalek Drone"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#win_conditions/dalek-army"
+      ],
+      "card": "Dalek Squadron",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Dalek Squadron"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dauthi Voidwalker",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Dauthi Voidwalker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Death in Heaven",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Death in Heaven"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Doomsday Confluence",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Doomsday Confluence"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ensnared by the Mara",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Ensnared by the Mara"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Enthusiastic Mechanaut",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Enthusiastic Mechanaut"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#identity_core/Entropic Battlecruiser",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#key_interactions/battlecruiser",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:discard-punishers"
+      ],
+      "card": "Entropic Battlecruiser",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Entropic Battlecruiser"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:three-life-enablers",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#win_conditions/drain-and-discard"
+      ],
+      "card": "Exterminate!",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Exterminate!"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feed the Swarm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#win_conditions/drain-and-discard"
+      ],
+      "card": "Geier Reach Sanitarium",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Geier Reach Sanitarium"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#win_conditions/dalek-army"
+      ],
+      "card": "Genesis of the Daleks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Genesis of the Daleks"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#failure_modes/slow-clock",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#key_interactions/raptor",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#plan/value"
+      ],
+      "card": "Labyrinth Raptor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Labyrinth Raptor"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#engines/three-life-enablers",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:three-life-enablers",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#plan/value"
+      ],
+      "card": "Loyal Subordinate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Loyal Subordinate"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#engines/three-life-enablers",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#identity_core/Maestros Charm",
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:three-life-enablers"
+      ],
+      "card": "Maestros Charm",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Maestros Charm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Snuff Out",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Snuff Out"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/davros-dalek-creator.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Swan Song",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Swan Song"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Tezzeret, Master of the Bridge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/Tezzeret, Master of the Bridge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Cyber-Controller",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/davros-dalek-creator.json#metrics/The Cyber-Controller"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't drift into generic Grixis artifacts or generic discard.",
+      "Don't add opponent-upkeep effects (The Rack, Bottomless Pit) that don't help on your turn (source cuts)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "No opponent at 3 life lost this turn: the trigger does nothing.",
+      "evidence_class": "strategic_judgment",
+      "id": "threshold-missed",
+      "mitigations": [
+       "Fixed 3-life enablers"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Opponents pick the cheaper branch every time.",
+      "evidence_class": "strategic_judgment",
+      "id": "opponents-choose",
+      "mitigations": [
+       "Discard punishers make both branches cost something"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Value without a kill: games go long.",
+      "evidence_class": "strategic_judgment",
+      "id": "slow-clock",
+      "mitigations": [
+       "Torment of Hailfire",
+       "Labyrinth Raptor"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Strong: 13 interaction pieces including free counters and sweepers.",
+      "mana": "Four-mana commander; fixing upgrades (City of Brass, Mana Confluence).",
+      "protection": "Greaves, Boots, Padeem (artifact), Plaza of Heroes."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Davros, Dalek Creator",
+       "Labyrinth Raptor",
+       "The Dalek Emperor",
+       "Genesis of the Daleks",
+       "Dalek Squadron"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Loyal Subordinate"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "dalek-army",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Entropic Battlecruiser",
+       "Court of Ambition",
+       "Torment of Hailfire",
+       "Exterminate!",
+       "Wound Reflection"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Geier Reach Sanitarium"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "drain-and-discard",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Davros is the repeatable value engine: Dalek every turn plus a card or a discard per qualifying opponent.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Value-only engine with delayed payoff and opponent choice; no Spellbook combos. The deck is Bracket 4 mainly because of its Game Changers and premium interaction, not because Davros threatens fast wins.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:board_wipe:e6a8fd29462e",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:artifacts_wiped:52d6c63920b2",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:commander_removed_twice:f99f2e1d3250",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:key_engine_exiled:17affa140285",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:mana_screw:cc7665ae7bd5",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:color_screw:d62a6153c5be",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:graveyard_exiled:c6fcb8d3a5dd",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "davros-dalek-creator",
+ "source_packet": "data/grixis/bracket_stress_packets/davros-dalek-creator.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

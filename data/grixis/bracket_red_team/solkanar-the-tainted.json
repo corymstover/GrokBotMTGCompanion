@@ -1,0 +1,2560 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+ "deck_id": "Sol_kanar_the_Tainted",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 92,
+  "commander_role": "significant",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Assault Suit",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Assault Suit"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Baleful Strix",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Baleful Strix"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:transfer",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/coil-bog"
+      ],
+      "card": "Bazaar Trader",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Bazaar Trader"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:transfer",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate"
+      ],
+      "card": "Blim, Comedic Genius",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Blim, Comedic Genius",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:3769-6676"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/coil-bog"
+      ],
+      "card": "Bojuka Bog",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/audience-and-drain"
+      ],
+      "card": "Captive Audience",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Captive Audience"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/mode-reset",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#key_interactions/stack-before-blink",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:reset"
+      ],
+      "card": "Conjurer's Closet",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Conjurer's Closet",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#package:reset"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#failure_modes/mode-four-loss"
+      ],
+      "card": "Coveted Falcon",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Coveted Falcon",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:6676-6922"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dark Ritual",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Dark Ritual"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#failure_modes/pact-removed"
+      ],
+      "card": "Demonic Pact",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Demonic Pact",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:2770-6676",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:3090-6676"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#tutor_targets/Demonic Pact",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dimir Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Dimir Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:transfer"
+      ],
+      "card": "Donate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Donate",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:2770-6676"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ertai Resurrected",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Ertai Resurrected"
+      ],
+      "roles": [
+       "counter",
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:transfer"
+      ],
+      "card": "Fateful Handoff",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Fateful Handoff"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gilded Drake",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Gilded Drake"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/audience-and-drain"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Goblin Bombardment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#plan/value"
+      ],
+      "card": "Greed's Gambit",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Greed's Gambit"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#identity_core/Harmless Offering"
+      ],
+      "card": "Harmless Offering",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Harmless Offering",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:3090-6676"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Humble Defector",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Humble Defector"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#identity_core/Immortal Coil",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#key_interactions/coil-controller"
+      ],
+      "card": "Immortal Coil",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Immortal Coil"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Izzet Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Izzet Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jon Irenicus, Shattered One",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Jon Irenicus, Shattered One"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kain, Traitorous Dragoon",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Kain, Traitorous Dragoon"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kardur, Doomscourge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Kardur, Doomscourge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Khârn the Betrayer",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Khârn the Betrayer"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#requirements/value"
+      ],
+      "card": "Mana Vault",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Mana Vault"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Bowmasters",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Perplexing Chimera",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Perplexing Chimera"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Thoracle/Breach (decisions L54).",
+      "No Alicia Masters: her reset would undo intentional gifts (L47)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Sequence-dependent; fast combo outpaces it.",
+      "evidence_class": "strategic_judgment",
+      "id": "slow-board",
+      "mitigations": [
+       "Force of Will",
+       "Fierce Guardianship"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Opponents remove a gifted Demonic Pact or Coil before it kills.",
+      "evidence_class": "strategic_judgment",
+      "id": "pact-removed",
+      "mitigations": [
+       "Redundant curses",
+       "Tutors"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Mode four gives Sol'Kanar away.",
+      "evidence_class": "strategic_judgment",
+      "id": "mode-four-loss",
+      "mitigations": [
+       "Homeward Path",
+       "Planar Incision",
+       "Coveted Falcon"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Swan Song, Withering Torment, Deadly Rollick, Chaos Warp, Toxic Deluge, Blasphemous Act, Cyclonic Rift, Vandalblast.",
+      "mana": "35 lands including Forbidden Orchard and Homeward Path; Sol Ring, Mana Vault, Signets, Talismans.",
+      "protection": "Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Demonic Pact",
+       "Donate",
+       "Harmless Offering",
+       "Blim, Comedic Genius",
+       "Coveted Falcon"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "pact-donate",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Immortal Coil",
+       "Bojuka Bog",
+       "Rakdos Charm"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Donate",
+       "Harmless Offering",
+       "Bazaar Trader"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "coil-bog",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Captive Audience",
+       "Sol'Kanar the Tainted",
+       "Goblin Bombardment"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "audience-and-drain",
+      "kind": "alternate"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Sol'Kanar is repeatable end-step value, and his fourth mode is a political gift.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Honest call: significant, not central. All four Spellbook combos (Demonic Pact + Donate / Harmless Offering / Blim / Coveted Falcon) work without him. He adds value through blink resets but the kills are the cursed-gift package. The source calls the plan slower and more board-dependent than cEDH (blueprint L22).",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 4,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 4
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:board_wipe:5a5ddb52bfe1",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:artifacts_wiped:354d9fee5afd",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:commander_removed_twice:a4f8b28c411d",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:key_engine_exiled:e5e1a99333f0",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:mana_screw:b109dd0fd9b5",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:color_screw:989329919b01",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:graveyard_exiled:8cd6f955eb33",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Assault Suit",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Assault Suit"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:transfer",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/coil-bog"
+      ],
+      "card": "Bazaar Trader",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Bazaar Trader"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:transfer",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate"
+      ],
+      "card": "Blim, Comedic Genius",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Blim, Comedic Genius",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:3769-6676"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/coil-bog"
+      ],
+      "card": "Bojuka Bog",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/audience-and-drain"
+      ],
+      "card": "Captive Audience",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Captive Audience"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/mode-reset",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#key_interactions/stack-before-blink",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:reset"
+      ],
+      "card": "Conjurer's Closet",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Conjurer's Closet",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#package:reset"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#failure_modes/mode-four-loss"
+      ],
+      "card": "Coveted Falcon",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Coveted Falcon",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:6676-6922"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#failure_modes/pact-removed"
+      ],
+      "card": "Demonic Pact",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Demonic Pact",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:2770-6676",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:3090-6676"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#tutor_targets/Demonic Pact",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:transfer"
+      ],
+      "card": "Donate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Donate",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:2770-6676"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ertai Resurrected",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Ertai Resurrected"
+      ],
+      "roles": [
+       "counter",
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gilded Drake",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Gilded Drake"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/audience-and-drain"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Goblin Bombardment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#identity_core/Harmless Offering"
+      ],
+      "card": "Harmless Offering",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Harmless Offering",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:3090-6676"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#identity_core/Immortal Coil",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#key_interactions/coil-controller"
+      ],
+      "card": "Immortal Coil",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Immortal Coil"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kardur, Doomscourge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Kardur, Doomscourge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Bowmasters",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Perplexing Chimera",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Perplexing Chimera"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/mode-reset",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#failure_modes/mode-four-loss",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#key_interactions/incision-owner"
+      ],
+      "card": "Planar Incision",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Planar Incision",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#package:reset"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Propaganda",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Propaganda"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/coil-bog"
+      ],
+      "card": "Rakdos Charm",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Rakdos Charm"
+      ],
+      "roles": [
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Reins of Power",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Reins of Power"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Spiteful Banditry",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Spiteful Banditry"
+      ],
+      "roles": [
+       "ramp",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/mode-reset",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#identity_core/Thassa, Deep-Dwelling",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#key_interactions/stack-before-blink"
+      ],
+      "card": "Thassa, Deep-Dwelling",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Thassa, Deep-Dwelling",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#package:reset"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Trickster-God's Heist",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/The Trickster-God's Heist"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Thoracle/Breach (decisions L54).",
+      "No Alicia Masters: her reset would undo intentional gifts (L47)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Sequence-dependent; fast combo outpaces it.",
+      "evidence_class": "strategic_judgment",
+      "id": "slow-board",
+      "mitigations": [
+       "Force of Will",
+       "Fierce Guardianship"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Opponents remove a gifted Demonic Pact or Coil before it kills.",
+      "evidence_class": "strategic_judgment",
+      "id": "pact-removed",
+      "mitigations": [
+       "Redundant curses",
+       "Tutors"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Mode four gives Sol'Kanar away.",
+      "evidence_class": "strategic_judgment",
+      "id": "mode-four-loss",
+      "mitigations": [
+       "Homeward Path",
+       "Planar Incision",
+       "Coveted Falcon"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Swan Song, Withering Torment, Deadly Rollick, Chaos Warp, Toxic Deluge, Blasphemous Act, Cyclonic Rift, Vandalblast.",
+      "mana": "35 lands including Forbidden Orchard and Homeward Path; Sol Ring, Mana Vault, Signets, Talismans.",
+      "protection": "Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Demonic Pact",
+       "Donate",
+       "Harmless Offering",
+       "Blim, Comedic Genius",
+       "Coveted Falcon"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "pact-donate",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Immortal Coil",
+       "Bojuka Bog",
+       "Rakdos Charm"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Donate",
+       "Harmless Offering",
+       "Bazaar Trader"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "coil-bog",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Captive Audience",
+       "Sol'Kanar the Tainted",
+       "Goblin Bombardment"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "audience-and-drain",
+      "kind": "alternate"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Sol'Kanar is repeatable end-step value, and his fourth mode is a political gift.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Honest call: significant, not central. All four Spellbook combos (Demonic Pact + Donate / Harmless Offering / Blim / Coveted Falcon) work without him. He adds value through blink resets but the kills are the cursed-gift package. The source calls the plan slower and more board-dependent than cEDH (blueprint L22).",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 4,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 4
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:board_wipe:5a5ddb52bfe1",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:artifacts_wiped:354d9fee5afd",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:commander_removed_twice:a4f8b28c411d",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:key_engine_exiled:e5e1a99333f0",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:mana_screw:b109dd0fd9b5",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:color_screw:989329919b01",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:graveyard_exiled:8cd6f955eb33",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Assault Suit",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Assault Suit"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:transfer",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/coil-bog"
+      ],
+      "card": "Bazaar Trader",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Bazaar Trader"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:transfer",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate"
+      ],
+      "card": "Blim, Comedic Genius",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Blim, Comedic Genius",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:3769-6676"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/coil-bog"
+      ],
+      "card": "Bojuka Bog",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/audience-and-drain"
+      ],
+      "card": "Captive Audience",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Captive Audience"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/mode-reset",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#key_interactions/stack-before-blink",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:reset"
+      ],
+      "card": "Conjurer's Closet",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Conjurer's Closet",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#package:reset"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#failure_modes/mode-four-loss"
+      ],
+      "card": "Coveted Falcon",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Coveted Falcon",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:6676-6922"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#failure_modes/pact-removed"
+      ],
+      "card": "Demonic Pact",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Demonic Pact",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:2770-6676",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:3090-6676"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#tutor_targets/Demonic Pact",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:transfer"
+      ],
+      "card": "Donate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Donate",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:2770-6676"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ertai Resurrected",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Ertai Resurrected"
+      ],
+      "roles": [
+       "counter",
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gilded Drake",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Gilded Drake"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/audience-and-drain"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Goblin Bombardment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#identity_core/Harmless Offering"
+      ],
+      "card": "Harmless Offering",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Harmless Offering",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:3090-6676"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#identity_core/Immortal Coil",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#key_interactions/coil-controller"
+      ],
+      "card": "Immortal Coil",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Immortal Coil"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kardur, Doomscourge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Kardur, Doomscourge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Bowmasters",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Perplexing Chimera",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Perplexing Chimera"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/mode-reset",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#failure_modes/mode-four-loss",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#key_interactions/incision-owner"
+      ],
+      "card": "Planar Incision",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Planar Incision",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#package:reset"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Propaganda",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Propaganda"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/coil-bog"
+      ],
+      "card": "Rakdos Charm",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Rakdos Charm"
+      ],
+      "roles": [
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Reins of Power",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Reins of Power"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Spiteful Banditry",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Spiteful Banditry"
+      ],
+      "roles": [
+       "ramp",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/mode-reset",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#identity_core/Thassa, Deep-Dwelling",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#key_interactions/stack-before-blink"
+      ],
+      "card": "Thassa, Deep-Dwelling",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Thassa, Deep-Dwelling",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#package:reset"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Trickster-God's Heist",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/The Trickster-God's Heist"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Thoracle/Breach (decisions L54).",
+      "No Alicia Masters: her reset would undo intentional gifts (L47)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Sequence-dependent; fast combo outpaces it.",
+      "evidence_class": "strategic_judgment",
+      "id": "slow-board",
+      "mitigations": [
+       "Force of Will",
+       "Fierce Guardianship"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Opponents remove a gifted Demonic Pact or Coil before it kills.",
+      "evidence_class": "strategic_judgment",
+      "id": "pact-removed",
+      "mitigations": [
+       "Redundant curses",
+       "Tutors"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Mode four gives Sol'Kanar away.",
+      "evidence_class": "strategic_judgment",
+      "id": "mode-four-loss",
+      "mitigations": [
+       "Homeward Path",
+       "Planar Incision",
+       "Coveted Falcon"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Swan Song, Withering Torment, Deadly Rollick, Chaos Warp, Toxic Deluge, Blasphemous Act, Cyclonic Rift, Vandalblast.",
+      "mana": "35 lands including Forbidden Orchard and Homeward Path; Sol Ring, Mana Vault, Signets, Talismans.",
+      "protection": "Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Demonic Pact",
+       "Donate",
+       "Harmless Offering",
+       "Blim, Comedic Genius",
+       "Coveted Falcon"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "pact-donate",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Immortal Coil",
+       "Bojuka Bog",
+       "Rakdos Charm"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Donate",
+       "Harmless Offering",
+       "Bazaar Trader"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "coil-bog",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Captive Audience",
+       "Sol'Kanar the Tainted",
+       "Goblin Bombardment"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "audience-and-drain",
+      "kind": "alternate"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Sol'Kanar is repeatable end-step value, and his fourth mode is a political gift.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Honest call: significant, not central. All four Spellbook combos (Demonic Pact + Donate / Harmless Offering / Blim / Coveted Falcon) work without him. He adds value through blink resets but the kills are the cursed-gift package. The source calls the plan slower and more board-dependent than cEDH (blueprint L22).",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 4,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 4
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:board_wipe:5a5ddb52bfe1",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:artifacts_wiped:354d9fee5afd",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:commander_removed_twice:a4f8b28c411d",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:key_engine_exiled:e5e1a99333f0",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:mana_screw:b109dd0fd9b5",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:color_screw:989329919b01",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:graveyard_exiled:8cd6f955eb33",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Assault Suit",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Assault Suit"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:transfer",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/coil-bog"
+      ],
+      "card": "Bazaar Trader",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Bazaar Trader"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:transfer",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate"
+      ],
+      "card": "Blim, Comedic Genius",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Blim, Comedic Genius",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:3769-6676"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/coil-bog"
+      ],
+      "card": "Bojuka Bog",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:curses",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/audience-and-drain"
+      ],
+      "card": "Captive Audience",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Captive Audience"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/mode-reset",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#key_interactions/stack-before-blink",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:reset"
+      ],
+      "card": "Conjurer's Closet",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Conjurer's Closet",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#package:reset"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#failure_modes/mode-four-loss"
+      ],
+      "card": "Coveted Falcon",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Coveted Falcon",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:6676-6922"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#failure_modes/pact-removed"
+      ],
+      "card": "Demonic Pact",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Demonic Pact",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:2770-6676",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:3090-6676"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#tutor_targets/Demonic Pact",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/pact-donate"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#packages/pkg:transfer"
+      ],
+      "card": "Donate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Donate",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:2770-6676"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ertai Resurrected",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Ertai Resurrected"
+      ],
+      "roles": [
+       "counter",
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#failure_modes/slow-board",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#failure_modes/slow-board",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#requirements/value"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gilded Drake",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Gilded Drake"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/audience-and-drain"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Goblin Bombardment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#identity_core/Harmless Offering"
+      ],
+      "card": "Harmless Offering",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Harmless Offering",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#combo:3090-6676"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/cursed-gift",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#identity_core/Immortal Coil",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#key_interactions/coil-controller"
+      ],
+      "card": "Immortal Coil",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Immortal Coil"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kardur, Doomscourge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Kardur, Doomscourge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Bowmasters",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Perplexing Chimera",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Perplexing Chimera"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#engines/mode-reset",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#failure_modes/mode-four-loss",
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#key_interactions/incision-owner"
+      ],
+      "card": "Planar Incision",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Planar Incision",
+       "graph:data/grixis/graph/solkanar-the-tainted.json#package:reset"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Propaganda",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Propaganda"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/solkanar-the-tainted.json#win_conditions/coil-bog"
+      ],
+      "card": "Rakdos Charm",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Rakdos Charm"
+      ],
+      "roles": [
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Reins of Power",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Reins of Power"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Spiteful Banditry",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/solkanar-the-tainted.json#metrics/Spiteful Banditry"
+      ],
+      "roles": [
+       "ramp",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Thoracle/Breach (decisions L54).",
+      "No Alicia Masters: her reset would undo intentional gifts (L47)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Sequence-dependent; fast combo outpaces it.",
+      "evidence_class": "strategic_judgment",
+      "id": "slow-board",
+      "mitigations": [
+       "Force of Will",
+       "Fierce Guardianship"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Opponents remove a gifted Demonic Pact or Coil before it kills.",
+      "evidence_class": "strategic_judgment",
+      "id": "pact-removed",
+      "mitigations": [
+       "Redundant curses",
+       "Tutors"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Mode four gives Sol'Kanar away.",
+      "evidence_class": "strategic_judgment",
+      "id": "mode-four-loss",
+      "mitigations": [
+       "Homeward Path",
+       "Planar Incision",
+       "Coveted Falcon"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Swan Song, Withering Torment, Deadly Rollick, Chaos Warp, Toxic Deluge, Blasphemous Act, Cyclonic Rift, Vandalblast.",
+      "mana": "35 lands including Forbidden Orchard and Homeward Path; Sol Ring, Mana Vault, Signets, Talismans.",
+      "protection": "Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Demonic Pact",
+       "Donate",
+       "Harmless Offering",
+       "Blim, Comedic Genius",
+       "Coveted Falcon"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "pact-donate",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Immortal Coil",
+       "Bojuka Bog",
+       "Rakdos Charm"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Donate",
+       "Harmless Offering",
+       "Bazaar Trader"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "coil-bog",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Captive Audience",
+       "Sol'Kanar the Tainted",
+       "Goblin Bombardment"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "audience-and-drain",
+      "kind": "alternate"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Sol'Kanar is repeatable end-step value, and his fourth mode is a political gift.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Honest call: significant, not central. All four Spellbook combos (Demonic Pact + Donate / Harmless Offering / Blim / Coveted Falcon) work without him. He adds value through blink resets but the kills are the cursed-gift package. The source calls the plan slower and more board-dependent than cEDH (blueprint L22).",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 4,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 4
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:board_wipe:5a5ddb52bfe1",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:artifacts_wiped:354d9fee5afd",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:commander_removed_twice:a4f8b28c411d",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:key_engine_exiled:e5e1a99333f0",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:mana_screw:b109dd0fd9b5",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:color_screw:989329919b01",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/solkanar-the-tainted.json#test:solkanar-the-tainted:stress:graveyard_exiled:8cd6f955eb33",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "solkanar-the-tainted",
+ "source_packet": "data/grixis/bracket_stress_packets/solkanar-the-tainted.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}
