@@ -1,0 +1,17 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "$id":"https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/human_sampling_policy.schema.json",
+ "title":"Frozen pre-M6 human-quality sampling policy",
+ "type":"object",
+ "required":["schema_version","status","recorded_cycle","seed","purpose","scope","authority","selection","strata","future_result_contract","review_output_requirement","limitations"],
+ "properties":{
+  "schema_version":{"const":1},"status":{"const":"frozen_before_m6_outputs"},"recorded_cycle":{"type":"string"},"seed":{"type":"string","minLength":16},"purpose":{"type":"string"},"scope":{"type":"string"},
+  "authority":{"type":"object","required":["can_decide","human_only_acceptance","note"],"properties":{"can_decide":{"const":false},"human_only_acceptance":{"const":true},"note":{"type":"string"}},"additionalProperties":false},
+  "selection":{"type":"object","required":["overlap_between_strata","dedupe_for_total_workload","deterministic_tie_break","quota_shortfall","policy_mutation_after_freeze"]},
+  "strata":{"type":"array","minItems":9,"maxItems":9,"items":{"type":"object","required":["id","timing","quota","candidate_rule","ranking_rule","rationale"],"properties":{"id":{"enum":["random","anomaly","exception","pending_release","cedh","low_commander_dependence","rules_sensitive","high_optimizer_disagreement","major_change"]},"timing":{"enum":["pre_m6_static","after_pass_a_b_commit_before_reveal_reconciliation","after_reconciliation_before_approval_ready"]},"quota":{"oneOf":[{"type":"integer","minimum":1},{"const":"all"}]},"candidate_rule":{"type":"string"},"ranking_rule":{"type":"string"},"rationale":{"type":"string"}},"additionalProperties":false}},
+  "future_result_contract":{"type":"object","required":["high_optimizer_disagreement","major_change"]},
+  "review_output_requirement":{"type":"object","required":["record_memberships","record_selection_inputs","record_policy_hash","review_status_initial","script_may_author_judgment"],"properties":{"record_memberships":{"const":true},"record_selection_inputs":{"const":true},"record_policy_hash":{"const":true},"review_status_initial":{"const":"pending"},"script_may_author_judgment":{"const":false}},"additionalProperties":false},
+  "limitations":{"type":"array","minItems":4,"items":{"type":"string"}}
+ },
+ "additionalProperties":false
+}

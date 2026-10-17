@@ -406,10 +406,11 @@
    "id": "H",
    "name": "human-sampling infra",
    "batches": [
-    2,
-    3
+    "71.1 freeze pre-M6 human-sampling policy, seed, quotas, nine strata and future-result formulas with immutable hash record",
+    "71.2 deterministic sampler + static selections + synthetic future-strata execution tests (planned)",
+    "71.3 integration/freeze gate + review-manifest schema (planned)"
    ],
-   "status": "not_started",
+   "status": "in_progress",
    "must_precede": [
     "M6_outputs"
    ],
@@ -566,7 +567,7 @@
  ],
  "m5_candidate_files": "capped legacy, superseded at M5 regeneration",
  "launch_tracker": {
-  "updated": "ChatGPT cycle 70.4 (2026-10-16)",
+  "updated": "ChatGPT cycle 71.1 (2026-10-16)",
   "definition_of_100_percent": "all prerequisite infrastructure finished and validated, M5 accepted on the fresh Birthday snapshot, I/J and K complete, M6 cleared to begin (M6 itself excluded)",
   "weighting": "batch-weighted: estimated batches per stage = midpoint of the plan range (completed stages count their actual batches); percent = done / total",
   "stages": [
@@ -622,9 +623,9 @@
    {
     "id": "H",
     "estimated_batches": 2.5,
-    "batches_done": 0,
-    "status": "not_started",
-    "note": "est 2-3"
+    "batches_done": 1,
+    "status": "in_progress",
+    "note": "1/2.5 batch-equivalents complete: policy/seed/quotas and all nine required strata frozen before M6 outputs, including future optimizer-disagreement and major-change formulas."
    },
    {
     "id": "rebuild_m5",
@@ -663,7 +664,7 @@
    }
   ],
   "total_estimated_batches": 62.5,
-  "batches_done": 39,
-  "percent_complete": 62.4
+  "batches_done": 40,
+  "percent_complete": 64.0
  }
 }
