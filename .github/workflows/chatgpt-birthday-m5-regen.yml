@@ -54,6 +54,25 @@ jobs:
               print('verified',kind,p.name,got)
           PY
 
+      - name: Restore exact Comprehensive Rules compatibility cache
+        run: |
+          python - <<'PY'
+          import hashlib, json, pathlib, urllib.request
+          manifest=json.load(open('data/grixis/birthday_authority/manifest.json',encoding='utf-8'))
+          rec=manifest['sources']['comprehensive_rules']
+          if rec.get('changed_vs_frozen') is not False:
+              raise SystemExit('current Comprehensive Rules differ from frozen baseline; structural refresh required')
+          out=pathlib.Path('.cache'); out.mkdir(parents=True,exist_ok=True)
+          # grixis_refine.py::ctypes() has a legacy hard-coded .cache/MagicCompRules-*.txt lookup.
+          # Materialize the hash-bound current rules there without mixing current Scryfall data into .cache.
+          p=out/'MagicCompRules-20260925.txt'
+          urllib.request.urlretrieve(rec['url'],p)
+          got='sha256:'+hashlib.sha256(p.read_bytes()).hexdigest()
+          if got!=rec['sha256'] or got!=rec['frozen_sha256']:
+              raise SystemExit(f'Comprehensive Rules hash mismatch: {got}')
+          print('rules compatibility cache verified',p,got)
+          PY
+
       - name: Verify frozen M5 baseline is still the expected checkpoint
         run: |
           python - <<'PY'
