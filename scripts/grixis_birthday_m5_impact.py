@@ -24,7 +24,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import grixis_authority as ga  # noqa: E402
 import grixis_evidence as ge  # noqa: E402
 
-VERSION = 1
+VERSION = 2
 AUTH = ROOT / "data/grixis/birthday_authority"
 MANIFEST = AUTH / "manifest.json"
 DELTA = AUTH / "delta_vs_snap-20261016.json"
@@ -85,11 +85,16 @@ def tournament_delta(slug: str):
     if not a.exists() and not b.exists():
         return None
     if not a.exists() or not b.exists():
-        return {"changed": True, "reason": "file_added_or_removed", "old": a.exists(), "fresh": b.exists()}
+        return {"changed": True, "reason": "file_added_or_removed", "old": a.exists(), "fresh": b.exists(),
+                "card_rows_refresh_required": b.exists()}
     old = json.loads(a.read_text(encoding="utf-8")); new = json.loads(b.read_text(encoding="utf-8"))
-    keys = ("status", "sample_size", "window", "commander", "cards")
+    # Authority boundary refreshes current commander/meta state only. Per-card EDHTop16 rows
+    # are intentionally deferred to the affected fresh-M5 review work and must not be read as empty evidence.
+    keys = ("status", "sample_size", "window", "commander")
     changed = [k for k in keys if old.get(k) != new.get(k)]
-    return {"changed": bool(changed), "fields": changed,
+    deferred = new.get("card_rows_status") == "deferred_to_birthday_m5_delta"
+    return {"changed": bool(changed) or deferred, "fields": changed,
+            "card_rows_refresh_required": deferred, "card_rows_status": new.get("card_rows_status"),
             "old_sample_size": old.get("sample_size"), "fresh_sample_size": new.get("sample_size")}
 
 
@@ -105,7 +110,14 @@ def build():
         raise SystemExit(f"wrong M5 delta baseline: {delta.get('baseline')}")
 
     oracle = delta["scryfall_oracle"]
-    changed_oracle = {x["name"] for x in oracle.get("changed", []) if x.get("name")}
+    # Printing representative metadata can move while Oracle/game semantics stay identical.
+    # Only semantic/rules/legality fields can reopen structural or candidate semantics.
+    semantic_fields = {"name", "layout", "mana_cost", "cmc", "type_line", "oracle_text",
+                       "color_identity", "keywords", "commander_legality", "faces"}
+    changed_oracle = {x["name"] for x in oracle.get("changed", [])
+                      if x.get("name") and set(x.get("fields") or []) & semantic_fields}
+    metadata_only_oracle = {x["name"] for x in oracle.get("changed", [])
+                            if x.get("name") and not (set(x.get("fields") or []) & semantic_fields)}
     removed_oracle = {x.get("name") for x in oracle.get("removed", []) if x.get("name")}
     added_rows = oracle.get("added", [])
     added_eligible = {x.get("name") for x in added_rows
@@ -199,7 +211,9 @@ def build():
         "authority": {"can_decide": False, "can_approve_or_lock": False,
                       "note": "Dependency/refresh classification only. It cannot choose a swap or accept M5."},
         "global": {"rules_changed": rules_changed, "new_eligible_pool_cards": sorted(added_eligible),
-                   "oracle_changed_names": len(changed_oracle), "ruling_affected_names": len(ruling_names),
+                   "oracle_semantic_changed_names": len(changed_oracle),
+                   "oracle_metadata_only_changed_names": sorted(metadata_only_oracle),
+                   "ruling_affected_names": len(ruling_names),
                    "commander_legality_changes": len(legality_names)},
         "summary": summary, "decks": rows,
         "refresh_policy": {
