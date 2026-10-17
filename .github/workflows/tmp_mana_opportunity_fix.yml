@@ -36,7 +36,7 @@ jobs:
         run: |
           python scripts/grixis_mana_opportunity.py --build
           python scripts/grixis_mana_opportunity.py --check
-      - name: Real-output regression: City of Brass must not be utility-only evidence
+      - name: "Real-output regression: City of Brass must not be utility-only evidence"
         run: |
           python - <<'PY'
           import json
