@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/combo_quality_gain.schema.json",
+  "title": "Step B combo-quality demonstrated gain record v1",
+  "type": "object",
+  "required": ["schema_version", "status", "evidence_class", "before", "after", "measured_deltas", "worked_examples", "limitations", "conclusion"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "status": {"const": "demonstrated_decision_quality_gain"},
+    "evidence_class": {"const": "derived_metric"},
+    "before": {"type": "object", "required": ["model", "available_fields", "limitations"], "properties": {"model": {"const": "pre-Step-B combo presence model"}, "available_fields": {"type": "array", "items": {"type": "string"}}, "limitations": {"type": "array", "items": {"type": "string"}}}, "additionalProperties": false},
+    "after": {"type": "object", "required": ["model", "available_dimensions", "governance_guards"], "properties": {"model": {"const": "Step-B combo-quality evidence vector + line semantics + power_core overlay + variant families"}, "available_dimensions": {"type": "array", "minItems": 10, "items": {"type": "string"}}, "governance_guards": {"type": "array", "minItems": 3, "items": {"type": "string"}}}, "additionalProperties": false},
+    "measured_deltas": {"type": "object", "required": ["spellbook_lines", "blueprint_linked_lines", "direct_commander_piece_lines", "commander_independent_win_hints", "power_core_review_candidates", "compact_power_core_candidates", "step_records", "declared_mana_records", "zone_mentions", "direct_endpoint_hints", "variant_families", "multi_line_variant_families", "strategic_priority_auto_decisions"], "properties": {"spellbook_lines": {"type": "integer", "minimum": 0}, "blueprint_linked_lines": {"type": "integer", "minimum": 0}, "direct_commander_piece_lines": {"type": "integer", "minimum": 0}, "commander_independent_win_hints": {"type": "integer", "minimum": 0}, "power_core_review_candidates": {"type": "integer", "minimum": 0}, "compact_power_core_candidates": {"type": "integer", "minimum": 0}, "step_records": {"type": "integer", "minimum": 0}, "declared_mana_records": {"type": "integer", "minimum": 0}, "zone_mentions": {"type": "integer", "minimum": 0}, "direct_endpoint_hints": {"type": "integer", "minimum": 0}, "variant_families": {"type": "integer", "minimum": 0}, "multi_line_variant_families": {"type": "integer", "minimum": 0}, "strategic_priority_auto_decisions": {"const": 0}}, "additionalProperties": false},
+    "worked_examples": {"type": "array", "minItems": 2, "items": {"type": "object", "required": ["kind", "slug", "combo_id", "cards", "before", "after", "why_it_matters"], "properties": {"kind": {"enum": ["commander_independent_external_payoff", "commander_native", "power_core_review"]}, "slug": {"type": "string"}, "combo_id": {"type": "string"}, "cards": {"type": "array", "items": {"type": "string"}}, "before": {"type": "string"}, "after": {"type": "string"}, "why_it_matters": {"type": "string"}}, "additionalProperties": false}},
+    "limitations": {"type": "array", "minItems": 3, "items": {"type": "string"}},
+    "conclusion": {"type": "string"}
+  },
+  "additionalProperties": false
+}
