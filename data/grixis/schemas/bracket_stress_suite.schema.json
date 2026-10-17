@@ -1,0 +1,18 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "$id":"https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/bracket_stress_suite.schema.json",
+ "title":"Step F bracket-specific stress preregistration",
+ "type":"object",
+ "required":["schema_version","deck_id","slug","canonical_hash","status","evidence_class","confidence","bracket","weight_semantics","authority","items","execution_policy","limitations"],
+ "properties":{
+  "schema_version":{"const":1},"deck_id":{"type":"string"},"slug":{"type":"string"},"canonical_hash":{"type":"string","pattern":"^lh1:"},
+  "status":{"const":"preregistered"},"evidence_class":{"const":"strategic_judgment"},"confidence":{"enum":["high","moderate"]},
+  "bracket":{"type":"object","required":["value","source","suite_family"],"properties":{"value":{"type":"integer","minimum":3,"maximum":5},"source":{"type":"string"},"suite_family":{"enum":["B5_competitive","B4_resilience"]}},"additionalProperties":false},
+  "weight_semantics":{"const":"review_priority_only_not_outcome_score"},
+  "authority":{"type":"object","required":["can_decide","note"],"properties":{"can_decide":{"const":false},"note":{"type":"string"}},"additionalProperties":false},
+  "items":{"type":"array","minItems":8,"items":{"type":"object","required":["order","id","kind","priority_weight","question","executor","decision_authority"],"properties":{"order":{"type":"integer","minimum":1},"id":{"type":"string"},"kind":{"enum":["simulator_scenario","mechanic_module","goldfish_threshold","judgment_prompt"]},"priority_weight":{"type":"number","exclusiveMinimum":0,"maximum":1},"question":{"type":"string","minLength":1},"executor":{"type":["string","null"]},"decision_authority":{"const":false}},"additionalProperties":false}},
+  "execution_policy":{"type":"object","required":["simulator_scenario","mechanic_module","goldfish_threshold","judgment_prompt"],"additionalProperties":{"type":"string"}},
+  "limitations":{"type":"array","minItems":4,"items":{"type":"string"}}
+ },
+ "additionalProperties":false
+}

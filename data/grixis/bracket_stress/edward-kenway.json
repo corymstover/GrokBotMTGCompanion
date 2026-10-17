@@ -1,0 +1,133 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Stress priority and test results inform later judgment; neither can decide a swap or approval alone."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+ "confidence": "high",
+ "deck_id": "Edward_Kenway",
+ "evidence_class": "strategic_judgment",
+ "execution_policy": {
+  "goldfish_threshold": "read declared readiness metrics only; never relabel as multiplayer win probability",
+  "judgment_prompt": "requires later red-team/judgment review; no fake simulator substitute",
+  "mechanic_module": "use the relevant Step-E bounded module; preserve its declared assumptions and category separation",
+  "simulator_scenario": "paired deterministic perturbation against same-seed baseline"
+ },
+ "items": [
+  {
+   "decision_authority": false,
+   "executor": "board_wipe",
+   "id": "board_wipe",
+   "kind": "simulator_scenario",
+   "order": 1,
+   "priority_weight": 0.15,
+   "question": "Creature-board wipe and rebuilding pressure."
+  },
+  {
+   "decision_authority": false,
+   "executor": "artifacts_wiped",
+   "id": "artifact_wipe",
+   "kind": "simulator_scenario",
+   "order": 2,
+   "priority_weight": 0.1,
+   "question": "Artifact wipe / mana-engine disruption."
+  },
+  {
+   "decision_authority": false,
+   "executor": "commander_removed_twice",
+   "id": "commander_disruption",
+   "kind": "simulator_scenario",
+   "order": 3,
+   "priority_weight": 0.15,
+   "question": "Repeated commander removal and tax recovery."
+  },
+  {
+   "decision_authority": false,
+   "executor": "key_engine_exiled",
+   "id": "key_engine_exiled",
+   "kind": "simulator_scenario",
+   "order": 4,
+   "priority_weight": 0.1,
+   "question": "Central engine removal/exile."
+  },
+  {
+   "decision_authority": false,
+   "executor": "mana_screw",
+   "id": "mana_screw",
+   "kind": "simulator_scenario",
+   "order": 5,
+   "priority_weight": 0.1,
+   "question": "Missed land-drop recovery pressure."
+  },
+  {
+   "decision_authority": false,
+   "executor": "color_screw",
+   "id": "color_screw",
+   "kind": "simulator_scenario",
+   "order": 6,
+   "priority_weight": 0.05,
+   "question": "Temporary pressure on the commander's most-demanded color."
+  },
+  {
+   "decision_authority": false,
+   "executor": "graveyard_exiled",
+   "id": "graveyard_exiled",
+   "kind": "simulator_scenario",
+   "order": 7,
+   "priority_weight": 0.05,
+   "question": "Graveyard hate/attrition where relevant."
+  },
+  {
+   "decision_authority": false,
+   "executor": null,
+   "id": "repeated_removal_attrition",
+   "kind": "judgment_prompt",
+   "order": 8,
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?"
+  },
+  {
+   "decision_authority": false,
+   "executor": null,
+   "id": "pillowfort",
+   "kind": "judgment_prompt",
+   "order": 9,
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?"
+  },
+  {
+   "decision_authority": false,
+   "executor": null,
+   "id": "token_stall",
+   "kind": "judgment_prompt",
+   "order": 10,
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?"
+  },
+  {
+   "decision_authority": false,
+   "executor": null,
+   "id": "artifact_enchantment_interaction",
+   "kind": "judgment_prompt",
+   "order": 11,
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?"
+  }
+ ],
+ "limitations": [
+  "Priority weights allocate review/testing attention and are never multiplied by outcomes into a deck score.",
+  "B5 and B4 intentionally emphasize different failure modes.",
+  "Opponent-facing mechanics use only bounded Step-E proxies where implemented.",
+  "Judgment-only stresses remain judgment-only until a defensible model exists.",
+  "No stress result can approve a deck or independently decide a swap."
+ ],
+ "schema_version": 1,
+ "slug": "edward-kenway",
+ "status": "preregistered",
+ "weight_semantics": "review_priority_only_not_outcome_score"
+}

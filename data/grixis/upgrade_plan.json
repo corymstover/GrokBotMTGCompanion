@@ -388,10 +388,12 @@
    "id": "F",
    "name": "bracket stress suites",
    "batches": [
-    4,
-    5
+    "70.1 preregister B5 competitive vs B4 resilience stress priorities for all 62 decks; weights are review priority only, never outcome scores",
+    "70.2 executable bracket runner + Step-E module routing (planned)",
+    "70.3 bracket-specific red-team/judgment packet and result schema (planned)",
+    "70.4 integration + gain proof + validate_all gate (planned; real simulator/module result generation may require frozen local cache)"
    ],
-   "status": "not_started",
+   "status": "in_progress",
    "depends_on": [
     "E"
    ],
@@ -564,7 +566,7 @@
  ],
  "m5_candidate_files": "capped legacy, superseded at M5 regeneration",
  "launch_tracker": {
-  "updated": "ChatGPT cycle 69.3 (2026-10-16)",
+  "updated": "ChatGPT cycle 70.1 (2026-10-16)",
   "definition_of_100_percent": "all prerequisite infrastructure finished and validated, M5 accepted on the fresh Birthday snapshot, I/J and K complete, M6 cleared to begin (M6 itself excluded)",
   "weighting": "batch-weighted: estimated batches per stage = midpoint of the plan range (completed stages count their actual batches); percent = done / total",
   "stages": [
@@ -613,9 +615,9 @@
    {
     "id": "F",
     "estimated_batches": 4.5,
-    "batches_done": 0,
-    "status": "not_started",
-    "note": "est 4-5"
+    "batches_done": 1,
+    "status": "in_progress",
+    "note": "1/4.5 batch-equivalents complete: all 62 bracket-specific stress suites preregistered before M6 results; B5 and B4 priorities are distinct and weights are review-priority only."
    },
    {
     "id": "H",
@@ -661,7 +663,7 @@
    }
   ],
   "total_estimated_batches": 62.5,
-  "batches_done": 35,
-  "percent_complete": 56.0
+  "batches_done": 36,
+  "percent_complete": 57.6
  }
 }
