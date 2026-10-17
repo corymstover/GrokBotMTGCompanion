@@ -1,0 +1,17 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "$id":"https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/bracket_stress_packet.schema.json",
+ "title":"Step F routed bracket stress evidence packet",
+ "type":"object",
+ "required":["schema_version","deck_id","slug","canonical_hash","suite_family","bracket","suite_source","status","evidence_class","authority","weight_semantics","items","aggregate_score","limitations"],
+ "properties":{
+  "schema_version":{"const":1},"deck_id":{"type":"string"},"slug":{"type":"string"},"canonical_hash":{"type":"string","pattern":"^lh1:"},
+  "suite_family":{"enum":["B5_competitive","B4_resilience"]},"bracket":{"type":"object"},"suite_source":{"type":"string"},
+  "status":{"const":"evidence_routed"},"evidence_class":{"const":"derived_metric"},
+  "authority":{"type":"object","required":["can_decide","note"],"properties":{"can_decide":{"const":false},"note":{"type":"string"}},"additionalProperties":false},
+  "weight_semantics":{"const":"review_priority_only_not_outcome_score"},
+  "items":{"type":"array","minItems":8,"items":{"type":"object","required":["id","kind","priority_weight","question","preregistered_executor","evidence","decision_authority"],"properties":{"id":{"type":"string"},"kind":{"enum":["simulator_scenario","mechanic_module","goldfish_threshold","judgment_prompt"]},"priority_weight":{"type":"number","exclusiveMinimum":0,"maximum":1},"question":{"type":"string"},"preregistered_executor":{"type":["string","null"]},"evidence":{"type":"object","required":["status"]},"decision_authority":{"const":false}},"additionalProperties":false}},
+  "aggregate_score":{"const":null},"limitations":{"type":"array","minItems":4,"items":{"type":"string"}}
+ },
+ "additionalProperties":false
+}
